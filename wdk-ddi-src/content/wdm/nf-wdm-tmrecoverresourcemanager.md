@@ -57,8 +57,8 @@ The <b>TmRecoverResourceManager</b> routine tries to recover the transaction tha
 
 
 
-### -param ResourceManager [in]
-
+### -param ResourceManager 
+[in]
 A pointer to a resource manager object. To obtain this pointer, your component must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a> provided.
 
 

@@ -49,16 +49,16 @@ A minifilter driver can optionally register a routine of type PFLT_SECTION_CONFL
 
 ## -parameters
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 An opaque instance pointer to the minifilter driver instance that is initiating the I/O operation.
 
-### -param SectionContext [in]
-
+### -param SectionContext 
+[in]
 A pointer to the section context that incurred a data scan section conflict.
 
-### -param Data [in]
-
+### -param Data 
+[in]
 A pointer to a caller-allocated structure that contains the callback data.
 
 ## -returns

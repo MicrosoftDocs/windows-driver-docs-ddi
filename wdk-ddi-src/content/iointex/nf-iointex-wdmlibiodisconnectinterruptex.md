@@ -56,8 +56,8 @@ The  <b>WdmlibIoDisconnectInterruptEx</b> function unregisters an interrupt serv
 
 
 
-### -param Parameters [in, out]
-
+### -param Parameters 
+[in, out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_disconnect_interrupt_parameters">IO_DISCONNECT_INTERRUPT_PARAMETERS</a> structure that contains the connection context for  the interrupt being disconnected.
 
 

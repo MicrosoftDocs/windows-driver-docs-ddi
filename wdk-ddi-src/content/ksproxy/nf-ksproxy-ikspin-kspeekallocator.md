@@ -55,8 +55,8 @@ The <b>KsPeekAllocator</b> method returns a pointer to an <b>IMemAllocator</b> i
 
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 A value that specifies the type of operation. This value can be one of the following values from the KSPEEKOPERATION enumerated type.
 
 <table>

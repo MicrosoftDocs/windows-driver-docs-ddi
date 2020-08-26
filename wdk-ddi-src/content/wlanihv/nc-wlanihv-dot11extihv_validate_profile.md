@@ -76,40 +76,40 @@ DWORD APIENTRY Dot11ExtIhvValidateProfile(
 
 
 
-### -param hIhvExtAdapter [in, optional]
-
+### -param hIhvExtAdapter 
+[in, optional]
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param pIhvProfileParams [in, optional]
-
+### -param pIhvProfileParams 
+[in, optional]
 A pointer to a
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
      DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
 
 
-### -param pIhvConnProfile [in]
-
+### -param pIhvConnProfile 
+[in]
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
      DOT11EXT_IHV_CONNECTIVITY_PROFILE</a> structure that contains connectivity settings for the IHV
      profile.
 
 
-### -param pIhvSecProfile [in]
-
+### -param pIhvSecProfile 
+[in]
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">
      DOT11EXT_IHV_SECURITY_PROFILE</a> structure that contains security settings for the IHV
      profile.
 
 
-### -param pdwReasonCode [out]
-
+### -param pdwReasonCode 
+[out]
 A pointer to a DWORD value, which provides additional information for the return value of the
      <i>Dot11ExtIhvValidateProfile</i> function. The IHV Extensions DLL must set *
      <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in

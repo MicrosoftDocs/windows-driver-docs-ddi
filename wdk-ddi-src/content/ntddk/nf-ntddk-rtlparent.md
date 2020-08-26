@@ -55,8 +55,8 @@ The <b>RtlParent</b> routine returns a pointer to the parent of the specified no
 
 
 
-### -param Links [in]
-
+### -param Links 
+[in]
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 

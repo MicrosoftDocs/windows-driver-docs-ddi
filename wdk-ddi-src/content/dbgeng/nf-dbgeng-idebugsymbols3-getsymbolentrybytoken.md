@@ -55,18 +55,18 @@ Looks up a symbol by using a managed metadata token.
 
 
 
-### -param ModuleBase [in]
-
+### -param ModuleBase 
+[in]
 The base of the module.
 
 
-### -param Token [in]
-
+### -param Token 
+[in]
 The token to use to look up the symbol.
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 A pointer to the module as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure. 
 
 
@@ -74,7 +74,7 @@ A pointer to the module as a <a href="https://docs.microsoft.com/windows-hardwar
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

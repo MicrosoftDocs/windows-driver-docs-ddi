@@ -55,13 +55,13 @@ The <b>KeInitializeMutex</b> routine initializes a mutex object, setting it to a
 
 
 
-### -param Mutex [out]
-
+### -param Mutex 
+[out]
 Pointer to a mutex object, for which the caller provides the storage. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 
-### -param Level [in]
-
+### -param Level 
+[in]
 Reserved. Drivers set this to zero.
 
 

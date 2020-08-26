@@ -55,18 +55,18 @@ The <b>CcSetLogHandleForFile</b> routine sets a log handle for a file.
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to the file object for the file for which the log handle is to be stored. 
 
 
-### -param LogHandle [in]
-
+### -param LogHandle 
+[in]
 Pointer to the log handle that is to be stored. 
 
 
-### -param FlushToLsnRoutine [in]
-
+### -param FlushToLsnRoutine 
+[in]
 Pointer to a log file flush callback routine to call before flushing buffers for this file. This routine is called to ensure that a log file is flushed to the most recent logical sequence number (LSN) for any buffer control block (BCB) being flushed. This routine is declared as follows:
 
 <div class="code"><span codelanguage=""><table>

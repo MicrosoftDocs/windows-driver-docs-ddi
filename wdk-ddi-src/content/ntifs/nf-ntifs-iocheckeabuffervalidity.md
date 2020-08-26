@@ -55,18 +55,18 @@ The <b>IoCheckEaBufferValidity</b> routine checks whether the specified extended
 
 
 
-### -param EaBuffer [in]
-
+### -param EaBuffer 
+[in]
 Pointer to the buffer containing the EAs to be checked.
 
 
-### -param EaLength [in]
-
+### -param EaLength 
+[in]
 Length, in bytes, of <i>EaBuffer</i>.
 
 
-### -param ErrorOffset [out]
-
+### -param ErrorOffset 
+[out]
 Pointer to a variable that receives the offset of the offending entry in the EA buffer if an error is found. This variable is only valid if an error occurs.
 
 

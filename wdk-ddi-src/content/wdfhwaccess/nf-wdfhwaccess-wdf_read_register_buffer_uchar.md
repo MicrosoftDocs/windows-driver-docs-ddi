@@ -57,23 +57,23 @@ The <b>WDF_READ_REGISTER_BUFFER_UCHAR</b> function reads a number of bytes from 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer into which an array of UCHAR values is read.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of bytes to be read into the buffer.
 
 

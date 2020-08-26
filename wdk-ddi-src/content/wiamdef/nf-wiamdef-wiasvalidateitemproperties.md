@@ -55,8 +55,8 @@ The <b>wiasValidateItemProperties </b>function validates a list of simple item p
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -65,8 +65,8 @@ Pointer to a WIA item context.
 Specifies the number of properties to validate.
 
 
-### -param pPropSpec [in]
-
+### -param pPropSpec 
+[in]
 Pointer to the first element of an array of PROPSPEC structures indicating the properties to validate.
 
 

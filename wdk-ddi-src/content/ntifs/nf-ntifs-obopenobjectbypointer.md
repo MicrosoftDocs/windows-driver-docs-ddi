@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 Pointer to the object to be opened. 
 
 
-### -param HandleAttributes [in]
-
+### -param HandleAttributes 
+[in]
 Bitmask of flags specifying the desired attributes for the object handle. If the caller is not running in the system process context, these flags must include OBJ_KERNEL_HANDLE. This parameter is optional and can be zero. Otherwise, it is an ORed combination of one or more of the following: 
 
 
@@ -90,31 +90,31 @@ The handle can be inherited by child processes of the current process. This flag
 The handle can only be accessed in kernel mode. This flag must be specified if the caller is not running in the system process context. 
 
 
-### -param PassedAccessState [in, optional]
-
+### -param PassedAccessState 
+[in, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp->Parameters.Create.SecurityContext->AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>.) 
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value specifying the desired access to the object. This parameter is optional and can be zero. 
 
 
-### -param ObjectType [in, optional]
-
+### -param ObjectType 
+[in, optional]
 Pointer to the object type. If the value of <i>AccessMode</i> is <b>KernelMode</b>, this parameter is optional and can be <b>NULL</b>. Otherwise, it must be either <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsThreadType </b>, <b>*SeTokenObjectType</b>, or <b>*CmKeyObjectType</b>. 
 
 <div class="alert"><b>Note</b>    The <b>SeTokenObjectType</b> object type is supported staring with Windows XP and the <b>CmKeyObjectType</b> object type is supported staring with Windows 7.</div>
 <div> </div>
 
-### -param AccessMode [in]
-
+### -param AccessMode 
+[in]
 Access mode to be used for the access check. This parameter is required and must be either <b>UserMode</b> or <b>KernelMode</b>. 
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 Pointer to a caller-allocated variable that receives a handle to the object. 
 
 

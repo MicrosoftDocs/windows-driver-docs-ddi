@@ -56,18 +56,18 @@ The <b>AtaPortInitializeEx</b> ATA port driver library routine initializes the p
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to the miniport driver object.
 
 
-### -param RegistryPath [in]
-
+### -param RegistryPath 
+[in]
 Contains a Unicode string that indicates the location in the registry where the miniport driver configuration information is stored.
 
 
-### -param ControllerInterface [in]
-
+### -param ControllerInterface 
+[in]
 Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChannelInitRoutine</i></b>, <b><i>AtaControllerChannelEnabled</i></b>, and <b><i>AtaControllerTransferModeSelect</i></b> routines.
 
 

@@ -5,7 +5,7 @@ description: Used in the SET_NEW_CAM command. See Table 4-32.
 ms.assetid: 873b6724-0496-40f6-b93f-fdd90e00d3cb
 tech.root: usbref
 ms.date: 09/30/2018
-keywords: ["_UCSI_SET_NEW_CAM_COMMAND structure"]
+keywords: ["UCSI_SET_NEW_CAM_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_SET_NEW_CAM_COMMAND"
  - "_UCSI_SET_NEW_CAM_COMMAND"

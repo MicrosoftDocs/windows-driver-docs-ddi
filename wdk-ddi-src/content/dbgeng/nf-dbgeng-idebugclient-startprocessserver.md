@@ -59,18 +59,18 @@ The <b>StartProcessServer</b> method starts a process server.
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the class of the targets that will be available through the process server.  This must be set to DEBUG_CLASS_USER_WINDOWS.
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the connections options for this process server.  These are the same options given to the <b>-t</b> option of the DbgSrv command line.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-process-server">Activating a Process Server</a>.
 
 
-### -param Reserved [in, optional]
-
+### -param Reserved 
+[in, optional]
 Set to <b>NULL</b>.
 
 

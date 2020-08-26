@@ -58,28 +58,28 @@ The <b>RtlStringCchPrintfExW</b> and <b>RtlStringCchPrintfExA</b> functions crea
 
 
 
-### -param pszDest [out, optional]
-
+### -param pszDest 
+[out, optional]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cchDest [in]
-
+### -param cchDest 
+[in]
 The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. If <i>pszDest</i> is <b>NULL</b>, <i>cchDest</i> must be zero.
 
 
-### -param ppszDestEnd [out, optional]
-
+### -param ppszDestEnd 
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer then, after the operation completes, the function loads that address with a pointer to the destination buffer's resulting <b>NULL</b> string terminator. 
 
 
-### -param pcchRemaining [out, optional]
-
+### -param pcchRemaining 
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused characters in the buffer pointed to by <i>pszDest</i>, including the terminating null character.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 <table>
@@ -141,8 +141,8 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
  
 
 
-### -param pszFormat [in]
-
+### -param pszFormat 
+[in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 

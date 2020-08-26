@@ -59,13 +59,13 @@ The ProcessLibraryMessage interface processes class library-specific messages an
 
 
 
-### -param pParams [in]
-
+### -param pParams 
+[in]
 An IPortableDeviceValues object that contains the library-specific command parameters. Supported commands (and associated parameters and results) are WPD_COMMAND_CLASS_EXTENSION_WRITE_DEVICE_INFORMATION, WPD_COMMAND_CLASS_EXTENSION_REGISTER_SERVICE_INTERFACES, and WPD_COMMAND_CLASS_EXTENSION_UNREGISTER_SERVICE_INTERFACES.
 
 
-### -param pResults [out]
-
+### -param pResults 
+[out]
 An IPortableDeviceValues object that contains the library-specific command results.
 
 

@@ -60,8 +60,8 @@ The <b>WdfRequestGetIoQueue</b> method returns a handle to the framework queue o
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

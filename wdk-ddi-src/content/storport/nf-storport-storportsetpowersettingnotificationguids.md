@@ -55,18 +55,18 @@ The <b>StorPortSetPowerSettingNotificationGuids</b> routine enables a miniport t
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param GuidCount [in]
-
+### -param GuidCount 
+[in]
 The number of GUIDs in the <i>Guid</i> array.
 
 
-### -param Guid [in]
-
+### -param Guid 
+[in]
 An array of power setting GUIDs to register for notification. A typical use for registering these GUIDs is for SATA miniports to receive notifications for AHCI Link Power Management setting changes. The  AHCI Link Power Management settings defined by the Microsoft AHCI StorPort miniport driver are the following.
 
 

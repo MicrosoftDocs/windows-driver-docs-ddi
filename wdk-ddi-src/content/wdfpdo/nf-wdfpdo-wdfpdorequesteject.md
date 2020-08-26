@@ -58,8 +58,8 @@ The <b>WdfPdoRequestEject</b> method informs the framework that a specified devi
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object that represents the device's physical device object (PDO).
 
 

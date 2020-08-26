@@ -55,13 +55,13 @@ Returns a single target device from the DeviceDepot.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param ppTarget [out, retval]
-
+### -param ppTarget 
+[out, retval]
 The requested device.
 
 
@@ -69,7 +69,7 @@ The requested device.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

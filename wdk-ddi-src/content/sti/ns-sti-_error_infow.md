@@ -6,7 +6,7 @@ old-location: image\sti_error_info.htm
 tech.root: image
 ms.assetid: e448ddfc-ae5a-4eb8-a39c-e46771278081
 ms.date: 05/03/2018
-keywords: ["_ERROR_INFOW structure"]
+keywords: ["ERROR_INFOW structure"]
 ms.keywords: "*PSTI_ERROR_INFO, *PSTI_ERROR_INFOW, PSTI_ERROR_INFO, PSTI_ERROR_INFO structure pointer [Imaging Devices], STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices], STI_ERROR_INFOW, _ERROR_INFOW, image.sti_error_info, sti/PSTI_ERROR_INFO, sti/STI_ERROR_INFO, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml"
 f1_keywords:
  - "sti/STI_ERROR_INFO"

@@ -70,13 +70,13 @@ VOID GetResources(
 
 
 
-### -param Context [in, out]
-
+### -param Context 
+[in, out]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param CapturedBusNumbers [out]
-
+### -param CapturedBusNumbers 
+[out]
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the number of PCIe buses that have been captured for use by the SR-IOV PF of the device.
 
 

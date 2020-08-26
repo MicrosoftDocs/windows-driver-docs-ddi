@@ -57,8 +57,8 @@ The <b>RemoveEngineOptions</b> method turns off some of the engine's options.
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the engine options to turn off.  <i>Options</i> is a bit-set; the new value of the engine's options will equal the bitwise-NOT of <i>Options</i> combined with old value using the bitwise-AND operator (<code>new_value := old_value AND NOT Options</code>).  For a description of the engine options, see <a href="https://docs.microsoft.com/previous-versions/ff541475(v=vs.85)">DEBUG_ENGOPT_XXX</a>.
 
 

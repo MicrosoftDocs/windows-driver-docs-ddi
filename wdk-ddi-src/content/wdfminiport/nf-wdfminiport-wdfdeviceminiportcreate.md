@@ -58,33 +58,33 @@ The <b>WdfDeviceMiniportCreate</b> method creates a framework device object that
 
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 A handle to the driver's framework driver object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>.
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to a WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object (FDO) for the miniport driver.
 
 
-### -param AttachedDeviceObject [in, optional]
-
+### -param AttachedDeviceObject 
+[in, optional]
 A pointer to a WDM DEVICE_OBJECT structure that represents the next-lower device object in the device stack.
 
 
-### -param Pdo [in, optional]
-
+### -param Pdo 
+[in, optional]
 A pointer to a WDM DEVICE_OBJECT structure that represents the physical device object (PDO) for the device.
 
 
-### -param Device [out]
-
+### -param Device 
+[out]
 A pointer to a location that receives a handle to the new framework device object.
 
 

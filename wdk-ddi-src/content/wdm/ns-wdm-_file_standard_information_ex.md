@@ -6,7 +6,7 @@ old-location: kernel\file_standard_information_ex.htm
 tech.root: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.date: 04/30/2018
-keywords: ["_FILE_STANDARD_INFORMATION_EX structure"]
+keywords: ["FILE_STANDARD_INFORMATION_EX structure"]
 ms.keywords: "*PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], _FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX"
 f1_keywords:
  - "wdm/FILE_STANDARD_INFORMATION_EX"

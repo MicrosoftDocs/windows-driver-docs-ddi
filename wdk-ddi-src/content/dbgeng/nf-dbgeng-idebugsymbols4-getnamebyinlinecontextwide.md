@@ -55,33 +55,33 @@ Gets a name by inline context.
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 An offset for the inline context.
 
 
-### -param InlineContext [in]
-
+### -param InlineContext 
+[in]
 The inline context.
 
 
-### -param NameBuffer [out]
-
+### -param NameBuffer 
+[out]
 A pointer an output buffer for a Unicode character string.
 
 
-### -param NameBufferSize [in]
-
+### -param NameBufferSize 
+[in]
 The size of the name buffer.
 
 
-### -param NameSize [out, optional]
-
+### -param NameSize 
+[out, optional]
 A pointer to the length of the name.
 
 
-### -param Displacement [out, optional]
-
+### -param Displacement 
+[out, optional]
 A pointer to the displacement value of the name.
 
 
@@ -89,7 +89,7 @@ A pointer to the displacement value of the name.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

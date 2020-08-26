@@ -57,18 +57,18 @@ The <b>CallExtension</b> method calls a debugger extension.
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the handle of the extension library that contains the extension to call.  If <i>Handle</i> is zero, the engine will walk the extension library chain searching for the extension.
 
 
-### -param Function [in]
-
+### -param Function 
+[in]
 Specifies the name of the extension to call.
 
 
-### -param Arguments [in, optional]
-
+### -param Arguments 
+[in, optional]
 Specifies the arguments to pass to the extension.  <i>Arguments</i> is a string that will be parsed by the extension, just like the extension will parse arguments passed to it when called as an extension command.
 
 

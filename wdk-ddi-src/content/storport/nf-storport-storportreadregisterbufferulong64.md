@@ -56,23 +56,23 @@ This <b>StorPortReadRegisterBufferUlong64</b> routine reads a number of <b>ULONG
 
 
 
-### -param h [in]
-
+### -param h 
+[in]
 A pointer to the hardware device extension.
 
 
-### -param r [in]
-
+### -param r 
+[in]
 A pointer to the register where the data is to be read. The register must be a mapped range in memory space.
 
 
-### -param b [out]
-
+### -param b 
+[out]
 A pointer to the buffer that receives the data that is read.
 
 
-### -param c [in]
-
+### -param c 
+[in]
 specifies the number of data values to read. Each data item has a size of <b>sizeof</b>(ULONG64). 
 
 ## -remarks

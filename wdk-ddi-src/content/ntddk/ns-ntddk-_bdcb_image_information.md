@@ -6,7 +6,7 @@ old-location: kernel\bdcb_image_information.htm
 tech.root: kernel
 ms.assetid: 9D0A4D67-3284-4BCC-AC81-F0BCCC2DB9B7
 ms.date: 04/30/2018
-keywords: ["_BDCB_IMAGE_INFORMATION structure"]
+keywords: ["BDCB_IMAGE_INFORMATION structure"]
 ms.keywords: "*PBDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture], PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BDCB_IMAGE_INFORMATION, kernel.bdcb_image_information, ntddk/BDCB_IMAGE_INFORMATION, ntddk/PBDCB_IMAGE_INFORMATION"
 f1_keywords:
  - "ntddk/BDCB_IMAGE_INFORMATION"
@@ -247,5 +247,5 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
-[**ALG_ID**](https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id)
+[**ALG_ID**](https://docs.microsoft.com/windows/win32/seccrypto/alg-id)
 

@@ -56,28 +56,28 @@ The<b> KsDeviceSetBusData </b>function writes data to the bus on which the speci
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure. This routine attempts to write data to the bus on which this device resides.
 
 
-### -param DataType [in]
-
+### -param DataType 
+[in]
 This parameter indicates the type of bus data to be written. Zero corresponds to configuration space. For further information, see the discussion of <b>WhichSpace</b> in the reference page for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a buffer that contains the data to write to the bus. Number of bytes in the buffer must be equal or greater than <i>Length</i>.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 This parameter contains the byte offset into the space specified by <i>DataType</i> where data is written.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 This parameter specifies the number of bytes of data to write to the bus from <i>Buffer.</i>
 
 

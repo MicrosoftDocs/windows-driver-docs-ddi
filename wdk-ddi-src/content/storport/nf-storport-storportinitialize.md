@@ -50,20 +50,20 @@ The **StorPortInitialize** routine initializes the port driver parameters and ex
 
 ## -parameters
 
-### -param Argument1 [in]
-
+### -param Argument1 
+[in]
 The first pointer with which the operating system called the miniport's DriverEntry routine.
 
-### -param Argument2 [in]
-
+### -param Argument2 
+[in]
 The second pointer with which the operating system called the miniports's DriverEntry routine.
 
-### -param HwInitializationData [in]
-
+### -param HwInitializationData 
+[in]
 Pointer to the initialization and configuration information set by the miniport driver in its DriverEntry routine.
 
-### -param HwContext [in, optional]
-
+### -param HwContext 
+[in, optional]
 Is the address of a context value to be passed to the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to **HwStorFindAdapter**.
 
 ## -returns

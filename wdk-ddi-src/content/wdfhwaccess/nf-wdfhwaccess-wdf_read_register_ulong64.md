@@ -57,13 +57,13 @@ The <b>WDF_READ_REGISTER_ULONG64</b> function reads a ULONG64 value from the spe
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register address, which must be a mapped range in memory space.
 
 

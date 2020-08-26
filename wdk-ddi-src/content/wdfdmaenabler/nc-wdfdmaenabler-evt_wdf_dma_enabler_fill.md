@@ -57,8 +57,8 @@ A driver's <i>EvtDmaEnablerFill</i> event callback function allocates a device's
 
 
 
-### -param DmaEnabler [in]
-
+### -param DmaEnabler 
+[in]
 A handle to a DMA enabler object.  
 
 

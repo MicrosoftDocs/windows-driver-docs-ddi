@@ -57,13 +57,13 @@ The <b>RetrieveFileName</b> method retrieves the full name of the file that is a
 
 
 
-### -param pFileName [out]
-
+### -param pFileName 
+[out]
 A pointer to a caller-supplied buffer that receives a <b>NULL</b>-terminated string that represents the full name of the file that is associated with the underlying kernel-mode device, if the supplied pointer is non-<b>NULL</b> and <b>RetrieveFileName</b> is successful. 
 
 
-### -param pdwFileNameLengthInChars [in, out]
-
+### -param pdwFileNameLengthInChars 
+[in, out]
 A pointer to a caller-supplied variable that receives the size, in characters, of the full file name that <i>pFileName</i> points to. If the buffer at <i>pFileName</i> is non-<b>NULL</b>, the framework returns the size, in characters, of the file name string.
 
 On input, the driver sets this variable to the size, in characters, of the buffer that <i>pFileName</i> points to. If the driver supplies <b>NULL</b> for <i>pFileName</i> and zero for the variable that <i>pdwFileNameLengthInChars</i> points to, the framework sets the variable to the size, in characters, that the file name string requires.

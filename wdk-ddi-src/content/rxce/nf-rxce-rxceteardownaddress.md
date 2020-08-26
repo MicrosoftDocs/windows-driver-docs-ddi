@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pAddress [in]
-
+### -param pAddress 
+[in]
 A pointer to the RDBSS connection engine address to deregister.
 
 

@@ -55,18 +55,18 @@ Initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
 Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_config">UCM_CONNECTOR_TYPEC_CONFIG</a> structure to initialize.
 
 
-### -param SupportedOperatingModes [in]
-
+### -param SupportedOperatingModes 
+[in]
 Indicates the operating mode of the connector. This value is a bitwise OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_operating_mode">UCM_TYPEC_OPERATING_MODE</a>-typed flags.
 
 
-### -param SupportedPowerSourcingCapabilities [in]
-
+### -param SupportedPowerSourcingCapabilities 
+[in]
 Indicates the power source capabilities of the connector. This value is a bitwise OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_current">UCM_TYPEC_CURRENT</a>-typed flags.
 
 

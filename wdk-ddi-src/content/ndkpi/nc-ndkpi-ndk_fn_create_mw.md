@@ -55,18 +55,18 @@ The <i>NdkCreateMw</i> (<i>NDK_FN_CREATE_MW</i>) function creates an NDK memory 
 
 
 
-### -param pNdkPd [in]
-
+### -param pNdkPd 
+[in]
 A pointer to an NDK protection domain (PD) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>).
 
 
-### -param CreateCompletion [in]
-
+### -param CreateCompletion 
+[in]
 A pointer to an <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 

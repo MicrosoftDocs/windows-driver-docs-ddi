@@ -56,18 +56,18 @@ The <b>KsForwardIrp</b> function forwards an IRP to the specified driver after i
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP that is being forwarded to the specified driver.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Specifies the file object to initialize the next stack with.
 
 
-### -param ReuseStackLocation [in]
-
+### -param ReuseStackLocation 
+[in]
 Specifies the new stack location.
 
 

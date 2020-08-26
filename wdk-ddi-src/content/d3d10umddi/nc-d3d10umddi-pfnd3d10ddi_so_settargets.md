@@ -65,8 +65,8 @@ A handle to the display device (graphics context).
 
 [in] The number of elements in the array that <i>phResource</i> specifies. 
 
-### -param ClearTargets [in]
-
+### -param ClearTargets 
+[in]
 The number of handles to stream output target resources that represents the difference between the previous number of stream output target resources (before the Microsoft Direct3D runtime calls <i>SoSetTargets</i>) and the new number of stream output target resources.
 
 Note that the number that i<i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 

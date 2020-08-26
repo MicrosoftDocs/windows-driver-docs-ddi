@@ -5,7 +5,7 @@ description: The DXGK_ENUM_PIVOT structure identifies either a video present sou
 old-location: display\dxgk_enum_pivot.htm
 ms.assetid: f2a234f3-aec9-4fe5-b720-bed9747d5a7f
 ms.date: 05/10/2018
-keywords: ["_DXGK_ENUM_PIVOT structure"]
+keywords: ["DXGK_ENUM_PIVOT structure"]
 ms.keywords: DXGK_ENUM_PIVOT, DXGK_ENUM_PIVOT structure [Display Devices], DmStructs_7a6fa02d-2223-4052-9911-cf9be1ab931a.xml, _DXGK_ENUM_PIVOT, d3dkmddi/DXGK_ENUM_PIVOT, display.dxgk_enum_pivot
 f1_keywords:
  - "d3dkmddi/DXGK_ENUM_PIVOT"

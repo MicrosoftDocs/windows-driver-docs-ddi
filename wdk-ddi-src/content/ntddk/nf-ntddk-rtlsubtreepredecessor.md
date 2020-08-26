@@ -55,8 +55,8 @@ The <b>RtlSubtreePredecessor</b> routine returns a pointer to the predecessor of
 
 
 
-### -param Links [in]
-
+### -param Links 
+[in]
 A pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
 

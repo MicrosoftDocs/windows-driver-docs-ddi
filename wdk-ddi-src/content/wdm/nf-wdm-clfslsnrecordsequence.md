@@ -56,8 +56,8 @@ The <b>ClfsLsnRecordSequence</b> routine returns the record sequence number cont
 
 
 
-### -param plsn [in]
-
+### -param plsn 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure from which the record sequence number is retrieved.
 
 

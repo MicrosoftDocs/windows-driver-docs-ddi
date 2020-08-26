@@ -55,18 +55,18 @@ The <code>Render</code> method renders wave data into a destination sink.
 
 
 
-### -param pBuffer [in]
-
+### -param pBuffer 
+[in]
 Pointer to the buffer that the synth sink wants data written to
 
 
-### -param dwLength [in]
-
+### -param dwLength 
+[in]
 Specifies the length (in bytes) of the data to be rendered.
 
 
-### -param llPosition [in]
-
+### -param llPosition 
+[in]
 Specifies the position (in bytes) in the PCM buffer at which to begin rendering. Rendering continues from this position for the number of bytes specified in <i>dwLength</i>.
 
 

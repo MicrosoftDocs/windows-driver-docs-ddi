@@ -55,8 +55,8 @@ The <b>KeReadStateSemaphore</b> routine returns the current state, signaled or n
 
 
 
-### -param Semaphore [in]
-
+### -param Semaphore 
+[in]
 Pointer to an initialized semaphore object for which the caller provides the storage.
 
 

@@ -55,43 +55,43 @@ Called by the operating system to request that the display miniport driver proce
 
 
 
-### -param DriverContext [in]
-
+### -param DriverContext 
+[in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param MiracastContext [in]
-
+### -param MiracastContext 
+[in]
 The Miracast device context, supplied by the operating system. This context was provided by the display miniport driver in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
 
 
-### -param InputBufferSize [in]
-
+### -param InputBufferSize 
+[in]
 Supplied by the operating system as the size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>. This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
 
 
-### -param pInputBuffer [in]
-
+### -param pInputBuffer 
+[in]
 Supplied by the operating system as a pointer to the input buffer. This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
 
 <i>InputBufferSize</i> specifies the size of the buffer.
 
 
-### -param OutputBufferSize [in]
-
+### -param OutputBufferSize 
+[in]
 Supplied by the operating system as the size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
 
-### -param pOutputBuffer [out]
-
+### -param pOutputBuffer 
+[out]
 Supplied by the operating system as a pointer to the output buffer. This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>pOutputBuffer</i> parameter.
 
 <i>OutBufferSize</i> specifies the size of the buffer.
 
 
-### -param BytesReturned [out]
-
+### -param BytesReturned 
+[out]
 Supplied by the operating system as a pointer to a buffer that holds a <b>ULONG</b>-type value that is the number of bytes that the display miniport driver returned in the buffer pointed to by <i>pOutputBuffer</i>.
 
 

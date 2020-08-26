@@ -55,28 +55,28 @@ The <b>GetSymbolEntriesByNameWide</b>  method returns the <a href="https://docs.
 
 
 
-### -param Symbol [in]
-
+### -param Symbol 
+[in]
 Specifies the pattern used to determine which symbols to return.  This method returns the symbols whose name matches the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/string-wildcard-syntax">string wildcard syntax</a> pattern <i>Symbol</i>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Set to zero.
 
 
-### -param Ids [out, optional]
-
+### -param Ids 
+[out, optional]
 Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param IdsCount [in]
-
+### -param IdsCount 
+[in]
 Specifies the number of entries that the array <i>Ids</i> can hold.
 
 
-### -param Entries [out, optional]
-
+### -param Entries 
+[out, optional]
 Receives the number of symbols whose names match the pattern <i>Symbol</i>.  If <i>entries</i> is <b>NULL</b>, this information is not returned.
 
 

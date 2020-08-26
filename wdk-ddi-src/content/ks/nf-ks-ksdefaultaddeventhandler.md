@@ -56,18 +56,18 @@ The<b> KsDefaultAddEventHandler </b>function is a default routine to handle even
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 The event <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>. This contains the object into which the event is inserted.
 
 
-### -param EventData [in]
-
+### -param EventData 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that describes an event notification method.
 
 
-### -param EventEntry [in, out]
-
+### -param EventEntry 
+[in, out]
 The event entry that is to be inserted into the object's event list. The object is determined by <i>Irp</i>.
 
 

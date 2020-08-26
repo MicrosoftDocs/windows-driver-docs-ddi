@@ -6,7 +6,7 @@ old-location: netvista\ndis_ndk_capabilities.htm
 tech.root: netvista
 ms.assetid: 4E8AD6FA-BB89-4CB0-A06E-7B4917390311
 ms.date: 05/02/2018
-keywords: ["_NDIS_NDK_CAPABILITIES structure"]
+keywords: ["NDIS_NDK_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CAPABILITIES, netvista.ndis_ndk_capabilities, ntddndis/NDIS_NDK_CAPABILITIES, ntddndis/PNDIS_NDK_CAPABILITIES"
 f1_keywords:
  - "ntddndis/NDIS_NDK_CAPABILITIES"

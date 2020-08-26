@@ -60,8 +60,8 @@ req.typenames:
 <p>A pointer to the transport along which the TSDU is to be sent.</p>
 
 
-### -param pConnectionInformation [in]
-
+### -param pConnectionInformation 
+[in]
 A pointer to connection information that contains the remote address.
 
 
@@ -70,18 +70,18 @@ A pointer to connection information that contains the remote address.
 <p>A pointer to connection information that contains the remote address.</p>
 
 
-### -param pMdl [in]
-
+### -param pMdl 
+[in]
 A pointer to the buffer to be sent.
 
 
-### -param SendLength [in]
-
+### -param SendLength 
+[in]
 The length of data to be sent.
 
 
-### -param pCompletionContext [in]
-
+### -param pCompletionContext 
+[in]
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
 
 

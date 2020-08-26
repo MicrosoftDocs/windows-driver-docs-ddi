@@ -55,13 +55,13 @@ The <b>RtlCopyString</b> routine copies a source string to a destination string.
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 A pointer to the destination string buffer. 
 
 
-### -param SourceString [in, optional]
-
+### -param SourceString 
+[in, optional]
 A pointer to the source string buffer. 
 
 

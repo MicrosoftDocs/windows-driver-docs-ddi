@@ -55,53 +55,53 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the minifilter driver instance that the <i>QueryEa</i> operation is to be sent to. The instance must be attached to the volume where the file resides. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the file. 
 
 
-### -param ReturnedEaData [out]
-
+### -param ReturnedEaData 
+[out]
 Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer where the extended attribute values are to be returned. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Length, in bytes, of the buffer that the <i>ReturnedEaData</i> parameter points to. 
 
 
-### -param ReturnSingleEntry [in]
-
+### -param ReturnSingleEntry 
+[in]
 Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should return only the first entry that is found. 
 
 
-### -param EaList [in, optional]
-
+### -param EaList 
+[in, optional]
 Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input buffer specifying the extended attributes to be queried. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param EaListLength [in]
-
+### -param EaListLength 
+[in]
 Length, in bytes, of the buffer that the <i>EaList</i> parameter points to. 
 
 
-### -param EaIndex [in, optional]
-
+### -param EaIndex 
+[in, optional]
 Index of the entry at which to begin scanning the file's extended-attribute list. This parameter is ignored if the <i>EaList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param RestartScan [in]
-
+### -param RestartScan 
+[in]
 Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should begin the scan at the first entry in the file's extended-attribute list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryEaFile</b>. 
 
 
-### -param LengthReturned [out, optional]
-
+### -param LengthReturned 
+[out, optional]
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>ReturnedEaData</i> buffer. This parameter is optional and can be <b>NULL</b>. 
 
 

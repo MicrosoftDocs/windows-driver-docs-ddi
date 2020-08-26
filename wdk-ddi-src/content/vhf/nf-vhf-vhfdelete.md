@@ -56,13 +56,13 @@ The HID Source device driver calls this method to delete a VHF device.
 
 
 
-### -param VhfHandle [in]
-
+### -param VhfHandle 
+[in]
 A handle to a virtual HID device that your HID source driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a>.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 TRUE to return synchronously after deleting a device. In this case, Virtual HID Framework (VHF) does not return until the device is reported as missing to PnP Manager and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_vhf_cleanup">EvtVhfCleanup</a> callback function returns. 
 
 FALSE to return asynchronously. See Remarks for more information.

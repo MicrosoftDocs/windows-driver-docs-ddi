@@ -56,23 +56,23 @@ The <b>StorPortReadPortBufferUchar</b> routine reads a value from a specified po
 
 
 
-### -param h [in]
-
+### -param h 
+[in]
 A pointer to the hardware device extension.
 
 
-### -param p [in]
-
+### -param p 
+[in]
 A pointer to the address from which to read. 
 
 
-### -param b [in]
-
+### -param b 
+[in]
 A pointer to the buffer that receives the data that is read.
 
 
-### -param c [in]
-
+### -param c 
+[in]
 Number of unsigned characters to be read. 
 
 A ULONG containing the count. 

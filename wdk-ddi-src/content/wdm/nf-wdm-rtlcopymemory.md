@@ -69,18 +69,18 @@ void RtlCopyMemory(
 
 
 
-### -param Destination [out]
-
+### -param Destination 
+[out]
 A pointer to the destination memory block to copy the bytes to.
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 A pointer to the source memory block to copy the bytes from.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The number of bytes to copy from the source to the destination.
 
 

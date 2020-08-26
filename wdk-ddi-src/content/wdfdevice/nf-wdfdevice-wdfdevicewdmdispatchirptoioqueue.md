@@ -60,23 +60,23 @@ The <b>WdfDeviceWdmDispatchIrpToIoQueue</b> method forwards the IRP to a specifi
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to an IRP structure.
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A handle to a framework queue object.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_dispatch_irp_to_io_queue_flags">WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS</a>-typed flags.
 
 

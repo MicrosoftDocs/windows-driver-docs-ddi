@@ -6,7 +6,6 @@ ms.date: 03/01/2020
 ms.keywords: MmGetPhysicalMemoryRangesEx2
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

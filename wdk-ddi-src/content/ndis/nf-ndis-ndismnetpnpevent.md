@@ -58,8 +58,8 @@ NDIS miniport drivers (and intermediate drivers that are registered as miniport 
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 An NDIS handle which NDIS provided at the 
      <i>MiniportAdapterHandle</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.

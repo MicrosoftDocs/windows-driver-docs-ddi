@@ -55,8 +55,8 @@ A file system or filter driver calls <b>FsRtlCurrentOplockH</b> to determine whe
 
 
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>. 
 
 

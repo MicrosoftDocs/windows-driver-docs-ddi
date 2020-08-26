@@ -57,8 +57,8 @@ The <b>RetrieveContext</b> method retrieves a context that was previously regist
 
 
 
-### -param ppvContext [out]
-
+### -param ppvContext 
+[out]
 A pointer to a buffer that receives a pointer to the previously registered context. 
 
 

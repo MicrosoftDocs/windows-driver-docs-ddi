@@ -55,33 +55,33 @@ The <i>QueryRoutine</i> routine provides information about a registry value that
 
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 Specifies the registry key that is associated with the requested registry value. This parameter is a pointer to a null-terminated, Unicode string that contains the key.
 
 
-### -param ValueType [in]
-
+### -param ValueType 
+[in]
 Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the <i>Type</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
-### -param ValueData [in]
-
+### -param ValueData 
+[in]
 A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that <i>ValueData</i> points to, see the definition of the <i>Type</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
-### -param ValueLength [in]
-
+### -param ValueLength 
+[in]
 Specifies the length, in bytes, of the value that <i>ValueData</i> points to.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Specifies the <i>Context</i> parameter value that the driver specified in the preceding call to <b>RtlQueryRegistryValues</b>.
 
 
-### -param EntryContext [in, optional]
-
+### -param EntryContext 
+[in, optional]
 Specifies an <b>EntryContext</b> value in a <i>QueryTable</i> array element that the driver specified in the preceding call to <b>RtlQueryRegistryValues</b>.
 
 

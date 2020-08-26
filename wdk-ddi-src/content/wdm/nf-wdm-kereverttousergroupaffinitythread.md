@@ -55,8 +55,8 @@ The <b>KeRevertToUserGroupAffinityThread</b> routine restores the group affinity
 
 
 
-### -param PreviousAffinity [in]
-
+### -param PreviousAffinity 
+[in]
 A pointer to the group affinity to restore. This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
 
 

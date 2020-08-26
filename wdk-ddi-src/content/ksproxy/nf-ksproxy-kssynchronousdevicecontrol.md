@@ -56,38 +56,38 @@ The <b>KsSynchronousDeviceControl</b> function issues a synchronous device I/O c
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Handle to the KS object on which to perform the operation.
 
 
-### -param IoControl [in]
-
+### -param IoControl 
+[in]
 Control code that identifies a specific type of operation to perform on a KS object. 
 
 
-### -param InBuffer [in, optional]
-
+### -param InBuffer 
+[in, optional]
 Pointer to a buffer that contains data that specifies the operation to perform. 
 
 
-### -param InLength [in]
-
+### -param InLength 
+[in]
 Size, in bytes, of the buffer at <i>InBuffer</i>.
 
 
-### -param OutBuffer [out, optional]
-
+### -param OutBuffer 
+[out, optional]
 Pointer to a buffer that contains either data for the operation or buffer space that receives data for the operation. 
 
 
-### -param OutLength [in]
-
+### -param OutLength 
+[in]
 Size, in bytes, of the buffer at <i>OutBuffer</i>.
 
 
-### -param BytesReturned [in, out]
-
+### -param BytesReturned 
+[in, out]
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsSynchronousDeviceControl</b> stores in the buffer at <i>OutBuffer</i>. 
 
 

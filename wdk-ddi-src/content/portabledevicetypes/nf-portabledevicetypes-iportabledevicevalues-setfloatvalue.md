@@ -59,13 +59,13 @@ Adds a new <b>FLOAT</b> value (type VT_R4) or overwrites an existing one.
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A <b>FLOAT</b> that contains the new value.
 
 

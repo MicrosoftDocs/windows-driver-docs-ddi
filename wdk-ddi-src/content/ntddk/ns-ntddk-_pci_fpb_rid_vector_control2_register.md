@@ -5,7 +5,7 @@ description: The FPB RID Vector Control 1 Register. See section 7.y.3.
 tech.root: pci 
 ms.assetid: aa8427fa-e129-4673-9adb-786ee3563d2e
 ms.date: 09/30/2018
-keywords: ["_PCI_FPB_RID_VECTOR_CONTROL2_REGISTER structure"]
+keywords: ["PCI_FPB_RID_VECTOR_CONTROL2_REGISTER structure"]
 f1_keywords:
  - "ntddk/_PCI_FPB_RID_VECTOR_CONTROL2_REGISTER"
  - "_PCI_FPB_RID_VECTOR_CONTROL2_REGISTER"

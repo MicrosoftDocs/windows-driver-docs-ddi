@@ -6,7 +6,7 @@ old-location: wdf\wdf_device_power_policy_notification_data.htm
 tech.root: wdf
 ms.assetid: aa91ea9b-3d92-4f33-8bbd-dd64a76a0a86
 ms.date: 02/26/2018
-keywords: ["_WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure"]
+keywords: ["WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure"]
 ms.keywords: DFDeviceObjectGeneralRef_b2b78d41-642d-4e2d-89cc-8ea27a033c77.xml, WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA, WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure, _WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA, kmdf.wdf_device_power_policy_notification_data, wdf.wdf_device_power_policy_notification_data, wdfdevice/WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA"

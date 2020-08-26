@@ -58,18 +58,18 @@ Given a Unicode pathname string, the <b>FsRtlDissectName</b> routine returns two
 
 
 
-### -param Path [in]
-
+### -param Path 
+[in]
 Pathname string to be parsed.
 
 
-### -param FirstName [out]
-
+### -param FirstName 
+[out]
 Pointer to the first file name in the pathname string. 
 
 
-### -param RemainingName [out]
-
+### -param RemainingName 
+[out]
 Pointer to the remaining unparsed portion of the pathname string.
 
 
@@ -230,7 +230,7 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

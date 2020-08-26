@@ -60,8 +60,8 @@ The <b>WdfUsbInterfaceGetNumConfiguredPipes</b> method returns the number of pip
 
 
 
-### -param UsbInterface [in]
-
+### -param UsbInterface 
+[in]
 A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
 
 

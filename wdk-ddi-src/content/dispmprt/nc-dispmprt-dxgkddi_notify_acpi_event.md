@@ -55,18 +55,18 @@ Notifies the display miniport driver about certain ACPI events.
 
 
 
-### -param MiniportDeviceContext [in]
-
+### -param MiniportDeviceContext 
+[in]
 A handle to a context block that represents a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param EventType [in]
-
+### -param EventType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ne-dispmprt-_dxgk_event_type">DXGK_EVENT_TYPE</a> enumerator that supplies the event type (<b>DpAcpiEvent</b>, <b>DpPowerStateEvent</b>, <b>DpDockingEvent</b>).
 
 
-### -param Event [in]
-
+### -param Event 
+[in]
 The event number. The following table lists the possible event numbers for each of the event types.
 
 |Event type|Possible event numbers|
@@ -75,8 +75,8 @@ The event number. The following table lists the possible event numbers for each 
 |DpPowerStateEvent|PO_CB_LID_SWITCH_STATE, PO_CB_AC_STATUS<br/>Defined in Wdm.h.|
 |DpDockingEvent|ACPI_NOTIFY_DOCK_EVENT - Indicates that a docking event has occurred. For example, the user docked or undocked a mobile computer.<br/>Defined in Dispmprt.h.|
 
-### -param Argument [in]
-
+### -param Argument 
+[in]
 A pointer to an argument that depends on the event. For most events, this will be <b>NULL</b>. The following table shows the event arguments, which are ULONG values, for specified event numbers that are available.
 
 |Event number|Possible event arguments|
@@ -86,8 +86,8 @@ A pointer to an argument that depends on the event. For most events, this will b
  
 
 
-### -param AcpiFlags [out]
-
+### -param AcpiFlags 
+[out]
 A pointer to a value that indicates the type of request that the display miniport driver should make to the operating system. The following table shows the values that can be specified.
 
 | **Value** | **Request type** | 

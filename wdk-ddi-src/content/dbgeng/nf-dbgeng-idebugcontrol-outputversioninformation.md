@@ -57,8 +57,8 @@ The <b>OutputVersionInformation</b> method prints version information about the 
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 

@@ -55,18 +55,18 @@ Multiplies one value of type <b>SHORT</b> by another.
 
 
 
-### -param sMultiplicand [in]
-
+### -param sMultiplicand 
+[in]
 The value to be multiplied by <i>sMultiplier</i>.
 
 
-### -param sMultiplier [in]
-
+### -param sMultiplier 
+[in]
 The value by which to multiply <i>sMultiplicand</i>.
 
 
-### -param psResult [out]
-
+### -param psResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

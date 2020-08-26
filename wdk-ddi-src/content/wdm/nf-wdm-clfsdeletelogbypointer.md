@@ -56,8 +56,8 @@ The <b>ClfsDeleteLogByPointer</b> routine marks a CLFS stream for deletion.
 
 
 
-### -param plfoLog [in]
-
+### -param plfoLog 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream to be deleted. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
 

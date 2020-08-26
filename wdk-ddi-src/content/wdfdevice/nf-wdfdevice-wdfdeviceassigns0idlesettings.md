@@ -60,13 +60,13 @@ The <b>WdfDeviceAssignS0IdleSettings</b> method provides driver-supplied informa
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Settings [in]
-
+### -param Settings 
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
 
 

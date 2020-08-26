@@ -6,7 +6,7 @@ old-location: display\dxva_deinterlacequeryavailablemodes.htm
 tech.root: display
 ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.date: 05/10/2018
-keywords: ["_DXVA_DeinterlaceQueryAvailableModes structure"]
+keywords: ["DXVA_DeinterlaceQueryAvailableModes structure"]
 ms.keywords: DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], _DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, dxva/DXVA_DeinterlaceQueryAvailableModes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml
 f1_keywords:
  - "dxva/DXVA_DeinterlaceQueryAvailableModes"

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 21bf5426-6444-4f1d-bf36-edcd37175fc5
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-keywords: ["_DXGK_GPUPCAPS structure"]
+keywords: ["DXGK_GPUPCAPS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_GPUPCAPS"
  - "_DXGK_GPUPCAPS"

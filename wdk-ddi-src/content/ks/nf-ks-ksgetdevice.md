@@ -56,8 +56,8 @@ The<b> KsGetDevice</b> function returns the AVStream device structure to which <
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The object to query for the device to which it belongs.
 
 

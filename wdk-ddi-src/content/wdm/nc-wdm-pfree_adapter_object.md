@@ -55,13 +55,13 @@ The  <b>FreeAdapterObject</b> routine releases the specified adapter object afte
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that is to be released. This object represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
 
-### -param AllocationAction [in]
-
+### -param AllocationAction 
+[in]
 The type of deallocation that the calling driver requests. Set this parameter to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_allocation_action">IO_ALLOCATION_ACTION</a> enumeration value. For more information, see the Remarks section.
 
 

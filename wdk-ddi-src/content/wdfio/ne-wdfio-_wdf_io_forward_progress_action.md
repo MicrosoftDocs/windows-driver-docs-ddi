@@ -6,7 +6,7 @@ old-location: wdf\wdf_io_forward_progress_action.htm
 tech.root: wdf
 ms.assetid: 4d63c908-8ae3-4df4-826f-9d87ea6c24ad
 ms.date: 02/26/2018
-keywords: ["_WDF_IO_FORWARD_PROGRESS_ACTION enumeration"]
+keywords: ["WDF_IO_FORWARD_PROGRESS_ACTION enumeration"]
 ms.keywords: DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml, WDF_IO_FORWARD_PROGRESS_ACTION, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, WdfIoForwardProgressActionFailRequest, WdfIoForwardProgressActionInvalid, WdfIoForwardProgressActionUseReservedRequest, _WDF_IO_FORWARD_PROGRESS_ACTION, kmdf.wdf_io_forward_progress_action, wdf.wdf_io_forward_progress_action, wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionFailRequest, wdfio/WdfIoForwardProgressActionInvalid, wdfio/WdfIoForwardProgressActionUseReservedRequest
 f1_keywords:
  - "wdfio/WDF_IO_FORWARD_PROGRESS_ACTION"

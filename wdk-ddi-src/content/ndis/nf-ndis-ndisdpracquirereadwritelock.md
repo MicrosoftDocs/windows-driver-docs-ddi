@@ -58,20 +58,20 @@ The
 
 
 
-### -param Lock [in, out]
-
+### -param Lock 
+[in, out]
 A pointer to an opaque variable that represents a lock. The caller can use this lock to access
      shared resources.
 
 
-### -param fWrite [in]
-
+### -param fWrite 
+[in]
 A Boolean value. If the value is TRUE, this function is provided with write access to shared
      resources; if the value is FALSE, this function is provided with read access.
 
 
-### -param LockState [out]
-
+### -param LockState 
+[out]
 A pointer to an opaque variable that tracks the state of the lock. This variable exists in the
      interval between the time the caller acquires and releases the lock. The caller must use a different
      variable of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state">LOCK_STATE</a> for each attempt that it makes to acquire the lock from the same non-ISR

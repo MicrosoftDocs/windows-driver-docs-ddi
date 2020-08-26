@@ -55,8 +55,8 @@ The <i>PowerOnDumpDeviceCallback</i> callback routine turns on the crash-dump de
 
 
 
-### -param CrashdumpInformation [in]
-
+### -param CrashdumpInformation 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_crashdump_information">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
 
 

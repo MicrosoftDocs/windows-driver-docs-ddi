@@ -55,8 +55,8 @@ Adds a single long number to the collection.
 
 
 
-### -param Number [in]
-
+### -param Number 
+[in]
 The long number to add to this collection.
 
 
@@ -64,7 +64,7 @@ The long number to add to this collection.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

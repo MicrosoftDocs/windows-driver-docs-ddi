@@ -55,13 +55,13 @@ The <i>SetD3ColdSupport</i> routine enables or disables transitions to the D3col
 
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
 
-### -param D3ColdSupport [in]
-
+### -param D3ColdSupport 
+[in]
 Whether to allow transitions from D3hot to D3cold. Set to <b>TRUE</b> to enable these transitions. Otherwise, set to <b>FALSE.</b> For more information, see Remarks.
 
 

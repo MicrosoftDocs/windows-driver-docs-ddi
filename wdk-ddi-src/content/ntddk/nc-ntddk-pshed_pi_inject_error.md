@@ -55,13 +55,13 @@ A PSHED plug-in's <i>InjectError </i>callback function injects an error into the
 
 
 
-### -param PluginContext [in, out, optional]
-
+### -param PluginContext 
+[in, out, optional]
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
 
-### -param ErrorType [in]
-
+### -param ErrorType 
+[in]
 The type of error to be injected into the hardware platform. Possible values are:
 
 
@@ -139,23 +139,23 @@ An uncorrectable nonfatal platform error.
 An uncorrectable fatal platform error.
 
 
-### -param Parameter1 [in]
-
+### -param Parameter1 
+[in]
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 
-### -param Parameter2 [in]
-
+### -param Parameter2 
+[in]
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 
-### -param Parameter3 [in]
-
+### -param Parameter3 
+[in]
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 
-### -param Parameter4 [in]
-
+### -param Parameter4 
+[in]
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 

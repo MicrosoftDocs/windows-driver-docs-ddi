@@ -55,8 +55,8 @@ The <i>EvtSerCxFileClose</i> event callback function notifies the serial control
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 

@@ -55,13 +55,13 @@ Portcls calls the <code>IAdapterPowerManagement2::PowerChangeState2</code> metho
 
 
 
-### -param NewDeviceState [in]
-
+### -param NewDeviceState 
+[in]
 Specifies the new power state that Portcls has requested for the device. This parameter is an enumeration of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>.
 
 
-### -param NewSystemState [in]
-
+### -param NewSystemState 
+[in]
 Specifies the new power state that Portcls has requested for the system. This parameter is an enumeration of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>.
 
 

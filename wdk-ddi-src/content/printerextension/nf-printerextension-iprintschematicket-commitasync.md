@@ -55,13 +55,13 @@ Gets an  asynchronous PrintTicket commit operation context.
 
 
 
-### -param pPrintTicketCommit [in]
-
+### -param pPrintTicketCommit 
+[in]
 The print ticket to commit.
 
 
-### -param ppAsyncOperation [out]
-
+### -param ppAsyncOperation 
+[out]
 The asynchronous commit operation context.
 
 

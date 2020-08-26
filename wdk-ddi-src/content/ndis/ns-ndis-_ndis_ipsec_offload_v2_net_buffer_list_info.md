@@ -6,7 +6,7 @@ old-location: netvista\ndis_ipsec_offload_v2_net_buffer_list_info.htm
 tech.root: netvista
 ms.assetid: f528ae2f-54fc-4edc-99bf-b1958837584b
 ms.date: 05/02/2018
-keywords: ["_NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure"]
+keywords: ["NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure"]
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_net_buffer_list_info, task_offload_IPsecv2_ref_b675fa29-2688-43a5-8608-3fb750093a46.xml"
 f1_keywords:
  - "ndis/NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO"

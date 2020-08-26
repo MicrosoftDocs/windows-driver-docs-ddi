@@ -57,8 +57,8 @@ Specifies a set of flags that determine the behavior of this function. Currently
 | --- | --- |
 | **WIAS_GET_DOWNSAMPLED_SIZE_ONLY** | Do not copy the downsampled data to the destination buffer. Instead, set the following members of the [WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info) structure: **ulDownSampledHeight**, **ulDownSampleWidth**, **ulAlignedHeight**, **ulAlignedWidth**. |
 
-### -param pInfo [in, out]
-
+### -param pInfo 
+[in, out]
 Pointer to the [WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info) structure that contains all of the information needed for the downsampling operation.
 
 ## -returns

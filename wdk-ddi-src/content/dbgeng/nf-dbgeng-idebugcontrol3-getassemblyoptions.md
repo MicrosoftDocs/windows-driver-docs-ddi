@@ -55,8 +55,8 @@ The <b>GetAssemblyOptions</b> method returns the assembly and disassembly option
 
 
 
-### -param Options [out]
-
+### -param Options 
+[out]
 Receives a bit-set that contains the assembly and disassembly options.  For a description of these options, see <a href="https://docs.microsoft.com/previous-versions/ff541443(v=vs.85)">DEBUG_ASMOPT_XXX</a>.
 
 

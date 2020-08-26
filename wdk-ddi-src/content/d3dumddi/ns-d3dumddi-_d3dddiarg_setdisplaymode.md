@@ -6,7 +6,7 @@ old-location: display\d3dddiarg_setdisplaymode.htm
 tech.root: display
 ms.assetid: 4dd4c02f-af44-4b02-a646-b7648b430b89
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_SETDISPLAYMODE structure"]
+keywords: ["D3DDDIARG_SETDISPLAYMODE structure"]
 ms.keywords: D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_param_Structs_89fc526d-719f-43b5-b195-47a199a290ec.xml, _D3DDDIARG_SETDISPLAYMODE, d3dumddi/D3DDDIARG_SETDISPLAYMODE, display.d3dddiarg_setdisplaymode
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETDISPLAYMODE"

@@ -55,18 +55,18 @@ The <b>StorPortSetUnitAttributes</b> routine registers the power attributes of a
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in]
-
+### -param Address 
+[in]
 The storage unit device address. This parameter must not be NULL.
 
 
-### -param Attributes [in]
-
+### -param Attributes 
+[in]
 A set of bitfields indicating the attributes supported for the unit device.
 
 

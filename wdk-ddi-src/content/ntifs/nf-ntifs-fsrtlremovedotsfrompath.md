@@ -55,18 +55,18 @@ The <b>FsRtlRemoveDotsFromPath</b> routine removes unnecessary occurrences of '.
 
 
 
-### -param OriginalString [in, out]
-
+### -param OriginalString 
+[in, out]
 A pointer to the buffer to be processed.
 
 
-### -param PathLength [in]
-
+### -param PathLength 
+[in]
 The length of buffer (in bytes).
 
 
-### -param NewLength [out]
-
+### -param NewLength 
+[out]
 A pointer to the new length of the buffer, after processing.
 
 

@@ -55,28 +55,28 @@ The <b>RtlOemToUnicodeN</b> routine translates the specified source string into 
 
 
 
-### -param UnicodeString [out]
-
+### -param UnicodeString 
+[out]
 Pointer to a caller-allocated buffer that receives the translated string. 
 
 
-### -param MaxBytesInUnicodeString [in]
-
+### -param MaxBytesInUnicodeString 
+[in]
 Maximum number of bytes to be written at <i>UnicodeString</i>. If this value causes the translated string to be truncated, <b>RtlOemToUnicodeN</b> does not return an error status. 
 
 
-### -param BytesInUnicodeString [out, optional]
-
+### -param BytesInUnicodeString 
+[out, optional]
 Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter can be <b>NULL</b>. 
 
 
-### -param OemString [in]
-
+### -param OemString 
+[in]
 Pointer to the OEM source string to be translated into Unicode. If the current code page describes a single-byte character set, this pointer can be the same address as <i>UnicodeString</i>. 
 
 
-### -param BytesInOemString [in]
-
+### -param BytesInOemString 
+[in]
 Length, in bytes, of the string at <i>OemString</i>. 
 
 

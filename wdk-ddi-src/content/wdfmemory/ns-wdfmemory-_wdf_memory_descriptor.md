@@ -6,7 +6,7 @@ old-location: wdf\wdf_memory_descriptor.htm
 tech.root: wdf
 ms.assetid: 0683cb81-4ae7-4296-b46a-ad2e8b25a781
 ms.date: 02/26/2018
-keywords: ["_WDF_MEMORY_DESCRIPTOR structure"]
+keywords: ["WDF_MEMORY_DESCRIPTOR structure"]
 ms.keywords: "*PWDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, PWDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer, WDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR structure, _WDF_MEMORY_DESCRIPTOR, kmdf.wdf_memory_descriptor, wdf.wdf_memory_descriptor, wdfmemory/PWDF_MEMORY_DESCRIPTOR, wdfmemory/WDF_MEMORY_DESCRIPTOR"
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR"

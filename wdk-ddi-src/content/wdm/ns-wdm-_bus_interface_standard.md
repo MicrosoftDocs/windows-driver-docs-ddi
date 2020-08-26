@@ -6,7 +6,7 @@ old-location: kernel\bus_interface_standard.htm
 tech.root: kernel
 ms.assetid: cebe5b45-2a7a-4e33-aacb-5cc3ee112808
 ms.date: 04/30/2018
-keywords: ["_BUS_INTERFACE_STANDARD structure"]
+keywords: ["BUS_INTERFACE_STANDARD structure"]
 ms.keywords: "*PBUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PBUS_INTERFACE_STANDARD, PBUS_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _BUS_INTERFACE_STANDARD, drvr_interface_fbfd342b-15f3-485b-98e4-513beb7db0f5.xml, kernel.bus_interface_standard, wdm/BUS_INTERFACE_STANDARD, wdm/PBUS_INTERFACE_STANDARD"
 f1_keywords:
  - "wdm/BUS_INTERFACE_STANDARD"

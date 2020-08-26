@@ -57,13 +57,13 @@ The <b>GetThreadContext</b> method returns the current <a href="https://docs.mic
 
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 Receives the current thread context. The type of the thread context is the CONTEXT structure for the target's effective processor.  The buffer <i>Context</i> must be large enough to hold this structure.
 
 
-### -param ContextSize [in]
-
+### -param ContextSize 
+[in]
 Specifies the size of the buffer <i>Context</i>.
 
 

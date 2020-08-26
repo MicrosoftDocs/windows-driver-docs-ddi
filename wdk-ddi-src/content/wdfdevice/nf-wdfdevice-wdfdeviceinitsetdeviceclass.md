@@ -58,13 +58,13 @@ The <b>WdfDeviceInitSetDeviceClass</b> method specifies a GUID that identifies t
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param DeviceClassGuid [in]
-
+### -param DeviceClassGuid 
+[in]
 Pointer to a GUID that identifies a section of the registry containing possible overrides for the <i>DefaultSDDLString</i>, <i>DeviceType</i>, <i>DeviceCharacteristics</i>, and <i>Exclusive</i> parameters.
 
 <div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div>

@@ -6,7 +6,7 @@ old-location: kernel\link_share_access.htm
 tech.root: kernel
 ms.assetid: CD9E3356-45C3-4F56-9EB3-45FB4B3F054B
 ms.date: 04/30/2018
-keywords: ["_LINK_SHARE_ACCESS structure"]
+keywords: ["LINK_SHARE_ACCESS structure"]
 ms.keywords: "*PLINK_SHARE_ACCESS, LINK_SHARE_ACCESS, LINK_SHARE_ACCESS structure [Kernel-Mode Driver Architecture], PLINK_SHARE_ACCESS, PLINK_SHARE_ACCESS structure pointer [Kernel-Mode Driver Architecture], _LINK_SHARE_ACCESS, kernel.link_share_access, wdm/LINK_SHARE_ACCESS, wdm/PLINK_SHARE_ACCESS"
 f1_keywords:
  - "wdm/LINK_SHARE_ACCESS"

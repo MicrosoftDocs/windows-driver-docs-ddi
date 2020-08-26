@@ -6,7 +6,7 @@ old-location: kernel\reg_create_key_information_v1.htm
 tech.root: kernel
 ms.assetid: d81dd8db-9074-43ea-a7bd-e83bd205c564
 ms.date: 04/30/2018
-keywords: ["_REG_CREATE_KEY_INFORMATION_V1 structure"]
+keywords: ["REG_CREATE_KEY_INFORMATION_V1 structure"]
 ms.keywords: "*PREG_CREATE_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], PREG_OPEN_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], _REG_CREATE_KEY_INFORMATION_V1, kernel.reg_create_key_information_v1, kstruct_d_79809cef-3593-4774-8407-c26c281735eb.xml, wdm/PREG_CREATE_KEY_INFORMATION_V1, wdm/PREG_OPEN_KEY_INFORMATION_V1, wdm/REG_CREATE_KEY_INFORMATION_V1, wdm/REG_OPEN_KEY_INFORMATION_V1"
 f1_keywords:
  - "wdm/REG_CREATE_KEY_INFORMATION_V1"
@@ -57,7 +57,7 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure contains information that a f
 
 ### -field CompleteName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\\", and is relative to the key that is specified by the <b>RootObject</b> member. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\\", and is relative to the key that is specified by the <b>RootObject</b> member. 
 
 
 ### -field RootObject
@@ -276,7 +276,7 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

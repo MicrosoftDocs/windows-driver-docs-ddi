@@ -5,7 +5,7 @@ description: DXGK_CREATEPROCESSFLAGS is used with DXGKARG_CREATEPROCESS and Dxgk
 old-location: display\dxgk_createprocessflags.htm
 ms.assetid: 43B8202C-6AC1-4596-BA85-FEB9FB0B5746
 ms.date: 05/10/2018
-keywords: ["_DXGK_CREATEPROCESSFLAGS structure"]
+keywords: ["DXGK_CREATEPROCESSFLAGS structure"]
 ms.keywords: DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, d3dkmddi/DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags
 f1_keywords:
  - "d3dkmddi/DXGK_CREATEPROCESSFLAGS"

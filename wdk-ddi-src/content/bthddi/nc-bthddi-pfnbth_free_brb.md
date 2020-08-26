@@ -57,8 +57,8 @@ The
 
 
 
-### -param pBrb [in]
-
+### -param pBrb 
+[in]
 Pointer to the BRB to free.
 
 

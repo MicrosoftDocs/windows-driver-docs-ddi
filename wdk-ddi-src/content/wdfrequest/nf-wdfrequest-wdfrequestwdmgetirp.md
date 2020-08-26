@@ -58,8 +58,8 @@ The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="https://docs.micr
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

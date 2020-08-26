@@ -55,8 +55,8 @@ The <b>RtlLengthSecurityDescriptor</b> routine returns the size of a given secur
 
 
 
-### -param SecurityDescriptor [in]
-
+### -param SecurityDescriptor 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>. 
 
 

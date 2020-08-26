@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param RxContext [in]
-
+### -param RxContext 
+[in]
 A pointer to the RX_CONTEXT structure to use to get the device object and determine if this is a file system process. 
 
 
-### -param PostToFsp [out]
-
+### -param PostToFsp 
+[out]
 A pointer to a logical value set to <b>TRUE</b> on return if the request must be posted for later processing by the file system process. 
 
 

@@ -55,8 +55,8 @@ The<b> KsFilterFactoryGetParentDevice</b> function returns the parent device of 
 
 
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to return the parent device.
 
 

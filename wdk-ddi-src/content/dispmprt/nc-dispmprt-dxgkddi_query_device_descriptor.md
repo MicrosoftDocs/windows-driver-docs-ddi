@@ -55,18 +55,18 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function returns a descriptor for a chil
 
 
 
-### -param MiniportDeviceContext [in]
-
+### -param MiniportDeviceContext 
+[in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param ChildUid [in]
-
+### -param ChildUid 
+[in]
 An integer that uniquely identifies the child device. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function previously provided this identifier to the display port driver.
 
 
-### -param DeviceDescriptor [in, out]
-
+### -param DeviceDescriptor 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_device_descriptor">DXGK_DEVICE_DESCRIPTOR</a> structure. The caller initializes the <b>DescriptorLength</b> and <b>DescriptorBuffer</b> members. If the child device has a type of <b>TypeVideoOutput</b>, the caller also initializes the <b>DescriptorOffset</b> member. On return, the caller-allocated buffer pointed to by the <b>DescriptorBuffer</b> member receives the descriptor.
 
 

@@ -55,8 +55,8 @@ The <b>ExReInitializeRundownProtection</b> routine reinitializes an <a href="htt
 
 
 
-### -param RunRef [in, out]
-
+### -param RunRef 
+[in, out]
 A pointer to an <b>EX_RUNDOWN_REF</b> structure that was initialized by a previous call to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializerundownprotection">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
 
 

@@ -72,18 +72,18 @@ DWORD XcvDataPort(
 
 
 
-### -param hXcv [in]
-
+### -param hXcv 
+[in]
 Caller-supplied printer handle, obtained by calling <b>OpenPrinter</b> (described in the Microsoft Windows SDK documentation). This handle is created and returned by the <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function.
 
 
-### -param pszDataName [in]
-
+### -param pszDataName 
+[in]
 Caller-supplied pointer to a string representing the name of the data being requested. For more information, see the following Remarks section.
 
 
-### -param pInputData [in]
-
+### -param pInputData 
+[in]
 Caller-supplied pointer to a buffer containing input data.
 
 
@@ -92,8 +92,8 @@ Caller-supplied pointer to a buffer containing input data.
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pInputData</i>.
 
 
-### -param pOutputData [out]
-
+### -param pOutputData 
+[out]
 Caller-supplied pointer to a buffer to receive output data.
 
 
@@ -102,8 +102,8 @@ Caller-supplied pointer to a buffer to receive output data.
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputData</i>.
 
 
-### -param pcbOutputNeeded [out]
-
+### -param pcbOutputNeeded 
+[out]
 Caller-supplied pointer to a location to receive the minimum size, in bytes, required for the buffer pointed to by <i>pOutputData</i>.
 
 

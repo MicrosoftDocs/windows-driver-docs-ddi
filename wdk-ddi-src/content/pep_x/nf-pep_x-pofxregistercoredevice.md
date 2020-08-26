@@ -56,18 +56,18 @@ The <b>PoFxRegisterCoreDevice</b> routine registers a new core system resource w
 
 
 
-### -param Id [in]
+### -param Id 
+[in]
+A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
-A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
-
-### -param Device [in]
-
+### -param Device 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 A pointer to a location to which the routine writes a POHANDLE value. This handle represents the registration of the core system resource with PoFx.
 
 
@@ -132,7 +132,7 @@ The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEV
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

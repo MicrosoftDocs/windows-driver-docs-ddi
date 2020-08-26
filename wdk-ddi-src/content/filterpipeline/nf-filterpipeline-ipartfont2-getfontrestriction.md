@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pRestriction [out]
-
+### -param pRestriction 
+[out]
 
 ## -returns
 

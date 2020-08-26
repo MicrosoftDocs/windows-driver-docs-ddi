@@ -56,43 +56,43 @@ The <b>ZwWriteFile</b> routine writes data to an open file.
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>. 
 
 
-### -param Event [in, optional]
-
+### -param Event 
+[in, optional]
 Optionally, a handle to an event object to set to the signaled state after the write operation completes. Device and intermediate drivers should set this parameter to <b>NULL</b>.
 
 
-### -param ApcRoutine [in, optional]
-
+### -param ApcRoutine 
+[in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-### -param ApcContext [in, optional]
-
+### -param ApcContext 
+[in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member receives the number of bytes actually written to the file.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a caller-allocated buffer that contains the data to write to the file.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
 
-### -param ByteOffset [in, optional]
-
+### -param ByteOffset 
+[in, optional]
 Pointer to a variable that specifies the starting byte offset in the file for beginning the write operation. If <i>Length</i> and <i>ByteOffset</i> specify a write operation past the current end-of-file mark, <b>ZwWriteFile</b> automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
 
 If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> set only the <i>DesiredAccess</i> flag FILE_APPEND_DATA, <i>ByteOffset</i> is ignored. Data in the given <i>Buffer</i>, for <i>Length</i> bytes, is written starting at the current end of file.
@@ -116,8 +116,8 @@ Even when the I/O Manager is maintaining the current file position, the caller c
 It is also possible to cause a write operation to start at the current end of file by specifying for <i>ByteOffset</i> a pointer to a LARGE_INTEGER value with <b>HighPart</b> set to -1 and <b>LowPart</b> set to FILE_WRITE_TO_END_OF_FILE. This works regardless of whether the I/O Manager is maintaining the current file position.
 
 
-### -param Key [in, optional]
-
+### -param Key 
+[in, optional]
 Device and intermediate drivers should set this pointer to <b>NULL</b>. 
 
 

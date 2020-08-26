@@ -56,28 +56,28 @@ The <b>KsGenerateEventList</b> function enumerates the event list and searches f
 
 
 
-### -param Set [in, optional]
-
+### -param Set 
+[in, optional]
 Specifies an optional set that the event to be generated belongs to. If present, this value is compared against the set identifier for each event in the list. If not present, the set identifiers are ignored and just the specific event identifier is used in the comparison for matching events on the list. This comparison saves time when all events are known to be contained in a single set.
 
 
-### -param EventId [in]
-
+### -param EventId 
+[in]
 Specifies the specific event identifier to look for on the list.
 
 
-### -param EventsList [in]
-
+### -param EventsList 
+[in]
 Points to the head of the list of KSEVENT_ENTRY items on which the event can be found.
 
 
-### -param EventsFlags [in]
-
+### -param EventsFlags 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flag specifying the exclusion lock type to be used in accessing the event list. If no flag is set, then no lock is taken.
 
 
-### -param EventsLock [in]
-
+### -param EventsLock 
+[in]
 Used to synchronize access to an element on the list. The lock is taken before enumerating the list and released after enumeration.
 
 

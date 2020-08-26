@@ -55,13 +55,13 @@ The <i>CLIENT_QueryControllerBasicInformation</i> event callback function retrie
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param Information [out]
-
+### -param Information 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a> structure. The <i>CLIENT_QueryControllerBasicInformation</i> function writes the GPIO controller hardware attributes and configuration information into this structure.
 
 

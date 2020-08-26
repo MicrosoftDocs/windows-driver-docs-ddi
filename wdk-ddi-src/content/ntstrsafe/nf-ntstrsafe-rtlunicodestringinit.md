@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringInit</b> function initializes a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
+The <b>RtlUnicodeStringInit</b> function initializes a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
 
 ## -parameters
@@ -56,13 +56,13 @@ The <b>RtlUnicodeStringInit</b> function initializes a <a href="https://docs.mic
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 A pointer to a <b>UNICODE_STRING</b> structure to be initialized. The <i>pszSrc </i>pointer is copied into the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure. The maximum number of characters in the string that <i>pszSrc</i> points to is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 
-### -param pszSrc [in, optional]
-
+### -param pszSrc 
+[in, optional]
 Optional. A pointer to a null-terminated string constant. This string pointer will be copied to the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure pointed to by the <i>DestinationString</i> parameter. This string pointer can be <b>NULL</b>.
 
 
@@ -121,7 +121,7 @@ The <b>RtlUnicodeStringInit</b> function does the following:
 
 <ul>
 <li>
-Sets the <b>Length</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that is pointed to by the <i>pszSrc</i> parameter to the length, in bytes, of the string that the <i>pszSrc</i> parameter points to.
+Sets the <b>Length</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that is pointed to by the <i>pszSrc</i> parameter to the length, in bytes, of the string that the <i>pszSrc</i> parameter points to.
 
 </li>
 <li>
@@ -149,7 +149,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

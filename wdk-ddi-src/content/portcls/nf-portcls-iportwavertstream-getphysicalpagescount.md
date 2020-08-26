@@ -55,8 +55,8 @@ The <code>GetPhysicalPagesCount</code> method returns the count of the physical 
 
 
 
-### -param MemoryDescriptorList [in]
-
+### -param MemoryDescriptorList 
+[in]
 Pointer to the MDL.
 
 

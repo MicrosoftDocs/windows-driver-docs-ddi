@@ -55,8 +55,8 @@ The <b>GetTypeSize</b> function returns the size in the target's memory of an in
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Specifies the type to return the size of.
 
 

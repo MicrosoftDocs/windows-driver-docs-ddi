@@ -56,13 +56,13 @@ The <b>KsFilterFactoryUpdateCacheData</b> function updates the FilterData regist
 
 
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> for which to update FilterData and Medium cache in the registry.
 
 
-### -param FilterDescriptor [in, optional]
-
+### -param FilterDescriptor 
+[in, optional]
 An optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a> for which the FilterData key and Medium cache will be updated. If <b>NULL</b>, <i>FilterFactory</i>'s descriptor is used instead. Provide if the filter factory uses dynamic pins and needs to update information for pins that have not yet been instantiated.
 
 

@@ -56,18 +56,18 @@ Returns the scatter-gather list associated with the input data buffer  of a SCSI
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 The request block to containing the input data buffer for the scatter-gather list.
 
 
-### -param SgList [out]
-
+### -param SgList 
+[out]
 A pointer to  an scatter-gather list structure address to receive the scatter-gather list for the input data buffer in <i>Srb</i>.
 
 

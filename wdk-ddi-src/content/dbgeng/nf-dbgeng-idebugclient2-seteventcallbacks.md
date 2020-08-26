@@ -59,8 +59,8 @@ The <b>SetEventCallbacks</b> method registers an event callbacks object with thi
 
 
 
-### -param Callbacks [in, optional]
-
+### -param Callbacks 
+[in, optional]
 Specifies the interface pointer to the event callbacks object to register with this client.
 
 

@@ -58,18 +58,18 @@ The
 
 
 
-### -param _ListHead [in]
-
+### -param _ListHead 
+[in]
 A pointer to the head of the doubly linked list into which an entry is to be inserted.
 
 
-### -param _ListEntry [in]
-
+### -param _ListEntry 
+[in]
 A pointer to the entry to be inserted at the end of the list.
 
 
-### -param _SpinLock [in]
-
+### -param _SpinLock 
+[in]
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
 

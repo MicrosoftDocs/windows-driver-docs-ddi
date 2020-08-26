@@ -58,8 +58,8 @@ The <b>WdfDmaTransactionFreeResources</b> method releases DMA resources that the
 
 
 
-### -param DmaTransaction [in]
-
+### -param DmaTransaction 
+[in]
 A handle to the DMA transaction object that the driver provided in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionallocateresources">WdfDmaTransactionAllocateResources</a>.
 
 

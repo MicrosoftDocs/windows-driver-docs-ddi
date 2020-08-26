@@ -55,13 +55,13 @@ The <b>RtlUpperString</b> routine copies the given <i>SourceString</i> to the <i
 
 
 
-### -param DestinationString [in, out]
-
+### -param DestinationString 
+[in, out]
 Pointer to the buffer for the converted destination string. 
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Pointer to the source string to be converted to uppercase. 
 
 

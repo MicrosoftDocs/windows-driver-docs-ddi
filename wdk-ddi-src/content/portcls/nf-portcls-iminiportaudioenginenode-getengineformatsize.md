@@ -55,18 +55,18 @@ Gets the format type and the buffer size for the audio engine's audio data forma
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID of the audio engine node.
 
 
-### -param formatType [in]
-
+### -param formatType 
+[in]
 An enum of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-eengineformattype">eEngineFormatType</a> that represents the audio data format type.
 
 
-### -param pulFormatSize [out]
-
+### -param pulFormatSize 
+[out]
 The data buffer size for the format type.
 
 

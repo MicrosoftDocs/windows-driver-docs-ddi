@@ -56,8 +56,8 @@ The <b>StartEnumTagged</b> method initializes a enumeration over the tagged data
 
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 Receives the handle identifying the enumeration.  This handle can be passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-getnexttagged">GetNextTagged</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-endenumtagged">EndEnumTagged</a>.
 
 

@@ -6,7 +6,7 @@ old-location: kernel\reg_query_value_key_information.htm
 tech.root: kernel
 ms.assetid: 235942ee-374e-4071-a761-793a96beab36
 ms.date: 04/30/2018
-keywords: ["_REG_QUERY_VALUE_KEY_INFORMATION structure"]
+keywords: ["REG_QUERY_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_VALUE_KEY_INFORMATION, REG_QUERY_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_VALUE_KEY_INFORMATION, kernel.reg_query_value_key_information, kstruct_d_e4edde7e-2b83-4e18-b652-d29f2a37d921.xml, wdm/PREG_QUERY_VALUE_KEY_INFORMATION, wdm/REG_QUERY_VALUE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_QUERY_VALUE_KEY_INFORMATION"
@@ -62,7 +62,7 @@ A pointer to the registry key object for the key whose value entry is being quer
 
 ### -field ValueName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry to retrieve information for.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry to retrieve information for.
 
 
 ### -field KeyValueInformationClass

@@ -57,13 +57,13 @@ The <b>RetrieveUsbInterface</b> method retrieves the specified USB interface for
 
 
 
-### -param InterfaceIndex [in]
-
+### -param InterfaceIndex 
+[in]
 The index of the interface to retrieve.
 
 
-### -param ppUsbInterface [out]
-
+### -param ppUsbInterface 
+[out]
 A pointer to a variable that receives a pointer to the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a> interface for the USB device.
 
 

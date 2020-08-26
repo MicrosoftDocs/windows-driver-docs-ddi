@@ -55,8 +55,8 @@ The <b>SerCx2SystemDmaReceiveNewDataNotification</b> method notifies version 2 o
 
 
 
-### -param SystemDmaReceive [in]
-
+### -param SystemDmaReceive 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmareceivecreate">SerCx2SystemDmaReceiveCreate</a> method to create this object.
 
 

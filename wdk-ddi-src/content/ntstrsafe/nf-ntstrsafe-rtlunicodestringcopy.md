@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringCopy</b> function copies a string from one <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to another.
+The <b>RtlUnicodeStringCopy</b> function copies a string from one <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to another.
 
 
 ## -parameters
@@ -56,13 +56,13 @@ The <b>RtlUnicodeStringCopy</b> function copies a string from one <a href="https
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 A pointer to a <b>UNICODE_STRING</b> structure. The source string is copied to the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that contains the source string. This string will be copied to the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
@@ -150,7 +150,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

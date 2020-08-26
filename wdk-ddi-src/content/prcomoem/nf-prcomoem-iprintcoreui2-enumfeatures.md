@@ -55,30 +55,30 @@ The <code>IPrintCoreUI2::EnumFeatures</code> method enumerates a printer's avail
 
 
 
-### -param poemuiobj [in]
-
+### -param poemuiobj 
+[in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 Is reserved and must be set to zero.
 
 
-### -param pmszFeatureList [out]
-
+### -param pmszFeatureList 
+[out]
 Pointer to a caller-supplied buffer that receives a null-delimited list of feature keywords in MULTI_SZ format. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the feature list without having the list filled in.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureList</i>.
 
 
-### -param pcbNeeded [out]
-
+### -param pcbNeeded 
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the feature list.
 
 

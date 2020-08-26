@@ -59,31 +59,31 @@ req.typenames:
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 Specifies the handle originally input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the number of bytes originally allocated.
 
 
-### -param Cached [in]
-
+### -param Cached 
+[in]
 Specifies <b>TRUE</b> if the original allocation was cacheable.
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 Specifies the base virtual address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
 
-### -param PhysicalAddress [in]
-
+### -param PhysicalAddress 
+[in]
 Specifies the corresponding physical address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.

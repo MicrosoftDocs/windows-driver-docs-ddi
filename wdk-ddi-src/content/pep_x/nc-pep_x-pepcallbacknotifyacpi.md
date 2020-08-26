@@ -55,13 +55,13 @@ An <i>AcceptAcpiNotification</i> event callback routine handles ACPI notificatio
 
 
 
-### -param Notification [in]
-
+### -param Notification 
+[in]
 The ACPI notification ID. This parameter specifies the type of ACPI notification that PoFx is sending. For a list of ACPI notification IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ACPI notifications</a>.
 
 
-### -param Data [in, out, optional]
-
+### -param Data 
+[in, out, optional]
 A pointer to a PoFx-allocated structure that contains the input and/or output data for this notification. The type of this structure depends on the notification ID specified by <i>Notification</i>. For a list of the structure types that are defined for the various ACPI notification IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ACPI notifications</a>.
 
 

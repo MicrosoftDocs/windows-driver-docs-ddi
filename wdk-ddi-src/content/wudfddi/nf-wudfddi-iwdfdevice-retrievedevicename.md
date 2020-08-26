@@ -57,13 +57,13 @@ The <b>RetrieveDeviceName</b> method retrieves the name of an underlying kernel-
 
 
 
-### -param pDeviceName [out]
-
+### -param pDeviceName 
+[out]
 A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the name of the underlying kernel-mode device, if the buffer is non-<b>NULL</b> and <b>RetrieveDeviceName</b> is successful. 
 
 
-### -param pdwDeviceNameLength [in, out]
-
+### -param pdwDeviceNameLength 
+[in, out]
 A pointer to a variable that receives the number of characters, including the <b>NULL</b> character, in the device name.
 
 If the buffer at <i>pDeviceName</i> is <b>NULL</b>, the value that the driver supplies is zero. The framework then returns the size, in characters, that is required for the device name string.

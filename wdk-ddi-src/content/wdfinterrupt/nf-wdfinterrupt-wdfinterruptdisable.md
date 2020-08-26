@@ -60,8 +60,8 @@ The <b>WdfInterruptDisable</b> method disables a specified device interrupt by c
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 A handle to a framework interrupt object.
 
 

@@ -100,8 +100,8 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure containing the addresses of the printer driver's graphics DDI hooking functions. For more information, see the following Remarks section.
 
 
-### -param pDevOem [out]
-
+### -param pDevOem 
+[out]
 Receives a method-supplied pointer to a private PDEV structure. (For more information, see the following Remarks section.)
 
 

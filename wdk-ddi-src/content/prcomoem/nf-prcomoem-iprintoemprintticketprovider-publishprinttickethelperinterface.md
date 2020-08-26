@@ -55,8 +55,8 @@ The <code>IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface</code>
 
 
 
-### -param pHelper [in]
-
+### -param pHelper 
+[in]
 A pointer to an <b>IUnknown</b> interface, which should be cast to one of the following interfaces: For Unidrv plug-ins, the print ticket helper interface is <b>IPrintCoreHelperUni</b>; for Pscript5 plug-ins, the print ticket helper interface is <b>IPrintCoreHelperPS</b>.
 
 

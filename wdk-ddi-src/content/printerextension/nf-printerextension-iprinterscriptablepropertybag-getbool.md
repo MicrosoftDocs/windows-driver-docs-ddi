@@ -55,13 +55,13 @@ Gets a specified boolean property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The name of the property.
 
 
-### -param pbValue [out, retval]
-
+### -param pbValue 
+[out, retval]
 The returned property value.
 
 

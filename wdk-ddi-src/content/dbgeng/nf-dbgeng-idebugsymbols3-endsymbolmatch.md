@@ -57,8 +57,8 @@ The <b>EndSymbolMatch</b> method releases the resources used by a symbol search.
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatch">StartSymbolMatch</a> when the search was initialized.
 
 

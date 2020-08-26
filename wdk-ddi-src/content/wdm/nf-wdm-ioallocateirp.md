@@ -49,12 +49,12 @@ The **IoAllocateIrp** routine allocates an IRP, given the number of I/O stack lo
 
 ## -parameters
 
-### -param StackSize [in]
-
+### -param StackSize 
+[in]
 Specifies the number of I/O stack locations to be allocated for the IRP. This value must be at least equal to the **StackSize** of the next-lower driver's device object, but can be one greater than this value. The calling driver need not allocate a stack location in the IRP for itself.
 
-### -param ChargeQuota [in]
-
+### -param ChargeQuota 
+[in]
 Setting this to **TRUE** causes the memory allocated for the IRP to be charged against the quota for the current process. Should be set to **FALSE** by intermediate drivers. This can be set to **TRUE** only by highest-level drivers that are called in the context of the thread that originates the I/O request for which the driver is allocating another IRP.
 
 ## -returns

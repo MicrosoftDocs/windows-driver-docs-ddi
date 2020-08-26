@@ -56,23 +56,23 @@ The <b>FltCancellableWaitForMultipleObjects</b> executes a cancelable wait opera
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 The number of objects to be waited on.
 
 
-### -param ObjectArray [in]
-
+### -param ObjectArray 
+[in]
 A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage.
 
 
-### -param WaitType [in]
-
+### -param WaitType 
+[in]
 An enumumeration with the value of either <b>WaitAll</b>, which indicates that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, which indicates that any one of the objects must attain a signaled state before the wait is satisfied. 
 
 
-### -param Timeout [in, optional]
-
+### -param Timeout 
+[in, optional]
 A pointer to an optional time-out value. This parameter specifies the absolute or relative time in 100 nanosecond units at which the wait is to be completed.
 
 If Timeout points to a zero value (that is, *Timeout == 0), the routine returns without waiting. If the caller supplies a <b>NULL</b> pointer (that is, Timeout == <b>NULL</b>), the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state.
@@ -84,13 +84,13 @@ If Timeout is specified, the wait is automatically satisfied if none of the spec
 A time-out value of zero (that is, *Timeout == 0) allows you to test a set of wait conditions, and to conditionally perform any additional actions if the wait can be immediately satisfied, as in the acquisition of a mutex. 
 
 
-### -param WaitBlockArray [in, optional]
-
+### -param WaitBlockArray 
+[in, optional]
 If Count <= THREAD_WAIT_OBJECTS, WaitBlockArray can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK) * Count</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation. 
 
 
-### -param CallbackData [in]
-
+### -param CallbackData 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure that represents the I/O operation that was issued by the user and that can be canceled by the user. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcancelcompletion">FltSetCancelCompletion</a> function must not have been called on the I/O operation). Note that the <i>CallbackData</i> must be held by the caller as it cannot be passed to a lower-level driver. 
 
 

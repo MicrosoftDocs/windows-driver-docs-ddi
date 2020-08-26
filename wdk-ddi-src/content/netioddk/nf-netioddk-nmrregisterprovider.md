@@ -57,8 +57,8 @@ The
 
 
 
-### -param ProviderCharacteristics [in]
-
+### -param ProviderCharacteristics 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">
      NPI_PROVIDER_CHARACTERISTICS</a> structure that describes the characteristics of the provider module.
@@ -66,8 +66,8 @@ A pointer to an
      the provider module is registered with the NMR.
 
 
-### -param ProviderContext [in]
-
+### -param ProviderContext 
+[in]
 A pointer to a caller-supplied context for the registration. The provider module uses this context
      to keep track of the state of the provider registration. The contents of the provider module's
      registration context are opaque to the NMR. The NMR passes this pointer to the provider module whenever
@@ -77,8 +77,8 @@ A pointer to a caller-supplied context for the registration. The provider module
      long as the provider module is registered with the NMR.
 
 
-### -param NmrProviderHandle [out]
-
+### -param NmrProviderHandle 
+[out]
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the provider module. The provider module must save this handle and pass it as a parameter to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterprovider">NmrDeregisterProvider</a> function when

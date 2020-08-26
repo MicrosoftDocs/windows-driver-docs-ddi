@@ -56,13 +56,13 @@ Gets an individual action in the collection.
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The 0-based index value.
 
 
-### -param ppAction [out]
-
+### -param ppAction 
+[out]
 The indexed action.
 
 
@@ -70,7 +70,7 @@ The indexed action.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

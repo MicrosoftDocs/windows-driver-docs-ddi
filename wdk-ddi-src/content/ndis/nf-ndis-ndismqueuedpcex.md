@@ -57,15 +57,15 @@ NDIS miniport drivers call the
 
 
 
-### -param NdisInterruptHandle [in]
-
+### -param NdisInterruptHandle 
+[in]
 An interrupt handle that the miniport driver obtained in a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
 
-### -param MessageId [in]
-
+### -param MessageId 
+[in]
 An MSI message ID for the DPC. If the DPC is for a line-based interrupt, this parameter is not
      used and it should be set to zero. Otherwise, 
      <i>MessageId</i> is an index to the 
@@ -78,16 +78,16 @@ An MSI message ID for the DPC. If the DPC is for a line-based interrupt, this pa
      <b>NdisMRegisterInterruptEx</b> function.
 
 
-### -param TargetProcessors [in]
-
+### -param TargetProcessors 
+[in]
 A bitmap that indicates target processors. NDIS should schedule a DPC for each target processor
      that is indicated in the bitmap. Each bit in 
      <i>TargetProcessors</i> identifies a CPU. If the caller sets bit 0, NDIS schedules a DPC for CPU 0. If the caller sets bit 1, NDIS
      schedules a DPC for CPU 1, and so on.
 
 
-### -param MiniportDpcContext [in]
-
+### -param MiniportDpcContext 
+[in]
 A pointer to a caller-specified context area. NDIS passes this pointer to the 
      <i>MiniportDpcContext</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> and 

@@ -59,13 +59,13 @@ Adds a new <b>ULONG</b> value (type VT_UI4) or overwrites an existing one.
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A <b>ULONG</b> that specifies the new value.
 
 

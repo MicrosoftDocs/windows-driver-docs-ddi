@@ -4,7 +4,7 @@ title: _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT (d3dkmdt.h)
 description: Contains the output parameters for the DxgkBrightnessGetNitRanges callback function.
 ms.assetid: a63d2e7b-ce96-4ac4-a918-2649280fc421
 ms.date: 10/19/2018
-keywords: ["_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT structure"]
+keywords: ["DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT"
  - "_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT"

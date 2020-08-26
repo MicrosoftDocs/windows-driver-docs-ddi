@@ -55,13 +55,13 @@ The <b>CcSetDirtyPinnedData</b> routine marks as dirty the buffer control block 
 
 
 
-### -param BcbVoid [in]
-
+### -param BcbVoid 
+[in]
 Pointer to the BCB structure to be marked as dirty.
 
 
-### -param Lsn [in, optional]
-
+### -param Lsn 
+[in, optional]
 Logical sequence number (LSN) to be associated with this buffer.
 
 

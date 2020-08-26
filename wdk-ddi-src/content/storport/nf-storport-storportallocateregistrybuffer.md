@@ -56,13 +56,13 @@ The <b>StorPortAllocateRegistryBuffer</b> routine is called by the miniport driv
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Pointer to a long that indicates, on input, the length in bytes of the registry buffer that the caller requires. On output, <i>Length</i> is updated to reflect the actual size in bytes of the buffer that was allocated. 
 
 

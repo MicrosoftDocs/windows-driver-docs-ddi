@@ -55,8 +55,8 @@ The <b>RtlCreateSystemVolumeInformationFolder</b> routine verifies the existence
 
 
 
-### -param VolumeRootPath [in]
-
+### -param VolumeRootPath 
+[in]
 A pointer to a path to the root of the volume.
 
 

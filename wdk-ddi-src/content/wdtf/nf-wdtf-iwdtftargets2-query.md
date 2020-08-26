@@ -55,13 +55,13 @@ Returns a subset of the items in the collection.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param ppTargets [out, retval]
-
+### -param ppTargets 
+[out, retval]
 The collection of items.
 
 
@@ -69,7 +69,7 @@ The collection of items.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

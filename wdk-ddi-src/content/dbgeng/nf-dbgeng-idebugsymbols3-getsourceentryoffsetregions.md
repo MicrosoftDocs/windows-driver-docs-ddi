@@ -56,28 +56,28 @@ req.typenames:
 
 
 
-### -param Entry [in]
-
+### -param Entry 
+[in]
 An entry as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param Regions [out]
-
+### -param Regions 
+[out]
 The memory regions associated with the source entry. 
 
 
-### -param RegionsCount [in]
-
+### -param RegionsCount 
+[in]
 The number of regions associated with the entry.
 
 
-### -param RegionsAvail [out, optional]
-
+### -param RegionsAvail 
+[out, optional]
 A pointer to the number of regions available to the entry.
 
 
@@ -85,7 +85,7 @@ A pointer to the number of regions available to the entry.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 This function returns all known memory regions that associated
     with a specified source entry.  Simple symbols have a single region that starts from their base. More complicated regions, such as functions that have multiple code areas, can have an arbitrarily

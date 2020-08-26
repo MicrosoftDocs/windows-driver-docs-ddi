@@ -6,7 +6,7 @@ old-location: storage\sm_sendtest_in.htm
 tech.root: storage
 ms.assetid: 5bb0620e-b271-4af6-b528-b904910b8a6c
 ms.date: 03/29/2018
-keywords: ["_SM_SendTEST_IN structure"]
+keywords: ["SM_SendTEST_IN structure"]
 ms.keywords: "*PSM_SendTEST_IN, PSM_SendTEST_IN, PSM_SendTEST_IN structure pointer [Storage Devices], SM_SendTEST_IN, SM_SendTEST_IN structure [Storage Devices], _SM_SendTEST_IN, hbapiwmi/PSM_SendTEST_IN, hbapiwmi/SM_SendTEST_IN, storage.sm_sendtest_in, structs-Fibre_6d12c9e2-88bd-4803-893a-bb4e54604fad.xml"
 f1_keywords:
  - "hbapiwmi/SM_SendTEST_IN"

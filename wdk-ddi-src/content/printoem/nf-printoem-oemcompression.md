@@ -57,11 +57,11 @@ req.typenames:
 ### -param pdevobj
 
 
-### -param pInBuf [in]
+### -param pInBuf 
+[in]
 
-
-### -param pOutBuf [out]
-
+### -param pOutBuf 
+[out]
 
 ### -param dwInLen
 

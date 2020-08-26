@@ -55,38 +55,38 @@ The <b>ScsiPortWmiDispatchFunction</b> routine is a dispatch routine for minipor
 
 
 
-### -param WmiLibInfo [in]
-
+### -param WmiLibInfo 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-_scsiwmilib_context">SCSI_WMILIB_CONTEXT</a> structure that contains registration information for a miniport driver's data blocks and event blocks and defines entry points for the miniport driver's WMI library callback routines.
 
 
-### -param MinorFunction [in]
-
+### -param MinorFunction 
+[in]
 Indicates the WMI action to perform. The miniport driver sets <i>MinorFunction</i> to <b>Srb->WmiSubFunction</b> from the input SRB.
 
 
-### -param DeviceContext [in]
-
+### -param DeviceContext 
+[in]
 Pointer to a miniport driver-defined context value. The port driver will pass <i>DeviceContext</i> to the miniport driver's <i>HwScsiWmiXxx</i> callback routine. This value would typically point to a HW_DEVICE_EXTENSION structure.
 
 
-### -param RequestContext [in]
-
+### -param RequestContext 
+[in]
 Pointer to a SCSIWMI_REQUEST_CONTEXT structure that contains context information for the WMI SRB. If the SRB can pend, the miniport driver must allocate this structure from the SRB extension because the request context must remain valid until after <b>ScsiPortWmiPostProcess</b> returns with the final SRB return status and buffer size. <b>ScsiPortWmiDispatchFunction </b>will pass <i>RequestContext</i> to the miniport driver's callback routine that processes this request.
 
 
-### -param DataPath [in]
-
+### -param DataPath 
+[in]
 Pointer to a GUID that represents the data block associated with the request. The miniport driver sets <i>DataPath</i> to <b>Srb->DataPath</b> from the input SRB.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the data buffer. The miniport driver sets <i>BufferSize</i> to <b>Srb->DataTransferLength</b> from the input SRB.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to the data buffer. The miniport driver sets <i>Buffer</i> to <b>Srb->DataBuffer</b> from the input SRB.
 
 

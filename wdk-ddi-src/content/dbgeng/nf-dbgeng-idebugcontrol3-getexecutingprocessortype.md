@@ -57,8 +57,8 @@ The <b>GetExecutingProcessorType</b> method returns the executing processor type
 
 
 
-### -param Type [out]
-
+### -param Type 
+[out]
 Receives the processor type.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a> for a list of possible values this parameter can receive.
 
 

@@ -74,28 +74,28 @@ DWORD WINAPI * Dot11ExtNicSpecificExtension(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param dwInBufferSize [in]
-
+### -param dwInBufferSize 
+[in]
 The size, in bytes, of the caller-allocated data buffer referenced by the
      <i>pvInBuffer</i> parameter.
 
 
-### -param pvInBuffer [in]
-
+### -param pvInBuffer 
+[in]
 A pointer to a caller-allocated input buffer that contains the data required to perform the
      operation. The format of this data is defined by the IHV.
 
 
-### -param pdwOutBufferSize [in, out]
-
+### -param pdwOutBufferSize 
+[in, out]
 A pointer to a caller-allocated DWORD variable. When the
      <b>Dot11ExtNicSpecificExtension</b> function is called, the IHV Extensions DLL
      must set this variable to the size, in bytes, of the caller-allocated data buffer referenced by the
@@ -104,8 +104,8 @@ A pointer to a caller-allocated DWORD variable. When the
      <i>pvOutBuffer</i> parameter.
 
 
-### -param pvOutBuffer [out]
-
+### -param pvOutBuffer 
+[out]
 A pointer to a caller-allocated buffer that contains data returned from the Native 802.11 miniport
      driver for the specified request. The format of this data is defined by the IHV. This parameter can be
      <b>NULL</b> if data is not to be returned by the Native 802.11 miniport driver.

@@ -55,8 +55,8 @@ The <b>wiasWritePropLong </b>function writes a single long integer property valu
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 

@@ -57,8 +57,8 @@ The <b>GetCreateParameters</b> method retrieves the request parameters for a cre
 
 
 
-### -param pOptions [out, optional]
-
+### -param pOptions 
+[out, optional]
 A pointer to a variable that receives a bitmask of flags that specify the options that are applied when creating or opening the file that is associated with the request and the action to be taken if the file already exists.
 
 The high 8 bits of this parameter correspond to the <i>CreateDisposition</i> parameter of the kernel-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function. These 8 bits specify the action to be taken, depending on whether the file already exists. Note that these disposition values differ from the values that are used in the <i>dwCreationDisposition</i> parameter of the Win32 <b>CreateFile</b> function.
@@ -68,15 +68,15 @@ The low 24 bits of this parameter correspond to the <i>CreateOptions</i> paramet
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pFileAttributes [out, optional]
-
+### -param pFileAttributes 
+[out, optional]
 A pointer to a variable that receives a bitmask of attribute flags that is applied when creating or opening the file that is associated with the request. Explicitly specified attributes are applied only when the file is created, superseded, or, in some situations, overwritten. By default, the single FILE_ATTRIBUTE_NORMAL flag is specified. However, this flag can be overridden by any other flag or by a bitwise OR combination of compatible flags. The bitmask of attribute flags corresponds to the <i>FileAttributes</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pShareAccess [out, optional]
-
+### -param pShareAccess 
+[out, optional]
 A pointer to a variable that receives a bitmask of flags that specify the share access rights that are requested for the file that is associated with the request. If the received bitmask is zero, exclusive access is being requested. For more information about share access, see the description of the <i>ShareAccess</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 

@@ -55,8 +55,8 @@ Performs a small amount of simple I/O to the device.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if the operation succeeds; otherwise, false.
 
 
@@ -65,7 +65,7 @@ True if the operation succeeds; otherwise, false.
 
 
 <h3>C++</h3>
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 <h3>C# and VB.NET</h3>
 True if the operation succeeds; otherwise, false.

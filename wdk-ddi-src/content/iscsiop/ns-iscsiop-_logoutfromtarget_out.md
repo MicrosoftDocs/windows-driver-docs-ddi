@@ -6,7 +6,7 @@ old-location: storage\logoutfromtarget_out.htm
 tech.root: storage
 ms.assetid: 15231188-5c6d-4e36-afe9-74b92f445fa3
 ms.date: 03/29/2018
-keywords: ["_LogoutFromTarget_OUT structure"]
+keywords: ["LogoutFromTarget_OUT structure"]
 ms.keywords: "*PLogoutFromTarget_OUT, LogoutFromTarget_OUT, LogoutFromTarget_OUT structure [Storage Devices], PLogoutFromTarget_OUT, PLogoutFromTarget_OUT structure pointer [Storage Devices], _LogoutFromTarget_OUT, iscsiop/LogoutFromTarget_OUT, iscsiop/PLogoutFromTarget_OUT, storage.logoutfromtarget_out, structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml"
 f1_keywords:
  - "iscsiop/LogoutFromTarget_OUT"

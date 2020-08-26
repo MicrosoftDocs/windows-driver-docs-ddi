@@ -55,8 +55,8 @@ The <b>RtlDeleteRegistryValue</b> routine removes the specified entry name and t
 
 
 
-### -param RelativeTo [in]
-
+### -param RelativeTo 
+[in]
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 
 <table>
@@ -138,13 +138,13 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
  
 
 
-### -param Path [in]
-
+### -param Path 
+[in]
 Specifies the registry path according to the <i>RelativeTo</i> value. If RTL_REGISTRY_HANDLE is set, <i>Path</i> is a handle to be used directly.
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 Pointer to the value name to be removed from the registry.
 
 

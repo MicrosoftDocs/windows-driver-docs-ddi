@@ -55,13 +55,13 @@ Returns a value from the target that is associated with a specified attribute.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 An SDEL statement that specifies the attribute value to retrieve.
 
 
-### -param pValue [out, retval]
-
+### -param pValue 
+[out, retval]
 The address of a variable that receives the result of this method. 
 The result can be any automation-compatible <b>VARIANT</b>.
 
@@ -70,7 +70,7 @@ The result can be any automation-compatible <b>VARIANT</b>.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

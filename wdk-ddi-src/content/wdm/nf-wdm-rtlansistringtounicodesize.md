@@ -66,8 +66,8 @@ RtlAnsiStringToUnicodeSize(
 
 
 
-### -param STRING [in]
-
+### -param STRING 
+[in]
 Pointer to a buffer containing the ANSI string.
 
 ## -returns

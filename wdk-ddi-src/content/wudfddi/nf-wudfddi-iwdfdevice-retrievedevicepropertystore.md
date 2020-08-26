@@ -57,23 +57,23 @@ The <b>RetrieveDevicePropertyStore</b> method retrieves a property store interfa
 
 
 
-### -param pcwszServiceName [in, optional]
-
+### -param pcwszServiceName 
+[in, optional]
 A pointer to a <b>NULL</b>-terminated string that represents the name of the device property store. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not supply a name for a device property store. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_retrieve_flags">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed value that identifies how to retrieve the device property store. 
 
 
-### -param ppPropStore [out]
-
+### -param ppPropStore 
+[out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore">IWDFNamedPropertyStore</a> interface. The driver uses this interface to access values in the registry.
 
 
-### -param pDisposition [out, optional]
-
+### -param pDisposition 
+[out, optional]
 A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_disposition">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value that identifies whether the framework created the device property store or the device property store already existed. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the disposition information. 
 
 

@@ -58,23 +58,23 @@ The <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b> method registers 
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param PowerPolicyState [in]
-
+### -param PowerPolicyState 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a> enumerator that identifies the power policy machine state for which the driver is requesting notification.
 
 
-### -param EvtDevicePowerPolicyStateChange [in]
-
+### -param EvtDevicePowerPolicyStateChange 
+[in]
 A caller-supplied pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_power_policy_state_change_notification">EvtDevicePowerPolicyStateChange</a> event callback function.
 
 
-### -param CallbackTypes [in]
-
+### -param CallbackTypes 
+[in]
 An ORed combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
 
 

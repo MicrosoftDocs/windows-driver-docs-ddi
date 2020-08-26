@@ -56,20 +56,20 @@ A miniport driver calls the <b>NdisMInvalidateConfigBlock</b> function to notify
 
 
 
-### -param NdisMiniportHandle [in]
-
+### -param NdisMiniportHandle 
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param VFId [in]
-
+### -param VFId 
+[in]
 The identifier of the VF for which the device location is returned.
 
 
-### -param BlockMask [in]
-
+### -param BlockMask 
+[in]
 A ULONGLONG value that specifies a bitmask for the first 64 VF configuration blocks. Each bit in the bitmask corresponds to a VF configuration block. If the bit is set to one, the data associated with the corresponding VF configuration block has changed.
 
 

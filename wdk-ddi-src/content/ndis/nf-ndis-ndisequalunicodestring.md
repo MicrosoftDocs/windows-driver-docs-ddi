@@ -57,13 +57,13 @@ The
 
 
 
-### -param _String1 [in]
-
+### -param _String1 
+[in]
 A pointer to an NDIS_STRING type that describes the first Unicode string.
 
 
-### -param _String2 [in]
-
+### -param _String2 
+[in]
 A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 
@@ -78,7 +78,7 @@ A Boolean value that is <b>TRUE</b>, if case should be ignored when doing the co
 
 Starting with Windows 2000 and later drivers, a string of type NDIS_STRING is a counted,
     null-terminated Unicode string. That is, NDIS defines the NDIS_STRING type as a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+    <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
 
@@ -88,7 +88,7 @@ Starting with Windows 2000 and later drivers, a string of type NDIS_STRING is a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

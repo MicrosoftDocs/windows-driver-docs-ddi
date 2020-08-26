@@ -55,18 +55,18 @@ Gets a Unicode character quit lock string.
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 The buffer in which to write the Unicode character string.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size of the buffer.
 
 
-### -param StringSize [out, optional]
-
+### -param StringSize 
+[out, optional]
 A pointer to the string size.
 
 
@@ -74,7 +74,7 @@ A pointer to the string size.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

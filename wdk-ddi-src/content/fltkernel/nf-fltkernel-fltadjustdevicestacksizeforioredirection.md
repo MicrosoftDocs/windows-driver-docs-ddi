@@ -56,18 +56,18 @@ The <b>FltAdjustDeviceStackSizeForIoRedirection</b> routine increases the size o
 
 
 
-### -param SourceInstance [in]
-
+### -param SourceInstance 
+[in]
 The filter instance on the source device stack.
 
 
-### -param TargetInstance [in]
-
+### -param TargetInstance 
+[in]
 The filter instance on the target device stack.
 
 
-### -param SourceDeviceStackSizeModified [out, optional]
-
+### -param SourceDeviceStackSizeModified 
+[out, optional]
 This optional parameter has a value of <b>TRUE</b> if the <b>FltAdjustDeviceStackSizeForIoRedirection</b> routine modified the size of the source device stack, <b>FALSE</b> otherwise.
 
 

@@ -55,23 +55,23 @@ The <code>ReadBytes</code> method reads a number of bytes into a buffer.
 
 
 
-### -param pvBuffer [out]
-
+### -param pvBuffer 
+[out]
 A pointer to the buffer that the bytes will be read into..
 
 
-### -param cbRequested [in]
-
+### -param cbRequested 
+[in]
 The number of bytes that are requested for the read.
 
 
-### -param pcbRead [out]
-
+### -param pcbRead 
+[out]
 A pointer to the number of bytes actually read.
 
 
-### -param pbEndOfFile [out]
-
+### -param pbEndOfFile 
+[out]
 A pointer to a <b>BOOL</b> value that indicates whether the end of file (EOF) was read.
 
 

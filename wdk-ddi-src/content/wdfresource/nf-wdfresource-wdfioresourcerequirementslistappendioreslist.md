@@ -58,13 +58,13 @@ The <b>WdfIoResourceRequirementsListAppendIoResList</b> method adds a <a href="h
 
 
 
-### -param RequirementsList [in]
-
+### -param RequirementsList 
+[in]
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-### -param IoResList [in]
-
+### -param IoResList 
+[in]
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
 

@@ -56,13 +56,13 @@ The minidriver may call the <b>StreamClassQueryMasterClockSync</b> routine to sy
 
 
 
-### -param MasterClockHandle [in]
-
+### -param MasterClockHandle 
+[in]
 Specifies the handle for the master clock that is being queried. The class driver passes this in the SRB_INDICATE_MASTER_CLOCK request to the minidriver's <a href="https://docs.microsoft.com/previous-versions/ff568467(v=vs.85)">StrMiniReceiveStreamControlPacket</a> routine.
 
 
-### -param TimeContext [in, out]
-
+### -param TimeContext 
+[in, out]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a> structure that the class driver passes to the master clock's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a> routine. Before calling this routine, the minidriver must fill in the <b>HwDeviceExtension</b>, <b>HwStreamObject</b>, and <b>Function</b> members of <i>TimeContext</i>. <b>StreamClassQueryMasterClockSync</b> completes the <b>Time</b> and <b>SystemTime</b> members.
 
 

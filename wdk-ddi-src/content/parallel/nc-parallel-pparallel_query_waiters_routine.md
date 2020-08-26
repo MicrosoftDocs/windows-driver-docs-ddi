@@ -65,8 +65,8 @@ typedef ULONG (*PPARALLEL_QUERY_WAITERS_ROUTINE)(
 
 
 
-### -param QueryAllocsContext [in]
-
+### -param QueryAllocsContext 
+[in]
 Pointer to the device extension of a functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>) that represents a parallel port.
 
 

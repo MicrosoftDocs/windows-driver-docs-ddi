@@ -55,8 +55,8 @@ The <b>AddAssemblyOptions</b> method turns on some of the assembly and disassemb
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the assembly and disassembly options to turn on.  <i>Options</i> is a bit-set that will be combined with the existing engine options using the bitwise OR operator.  For a description of the options, see <a href="https://docs.microsoft.com/previous-versions/ff541443(v=vs.85)">DEBUG_ASMOPT_XXX</a>.
 
 

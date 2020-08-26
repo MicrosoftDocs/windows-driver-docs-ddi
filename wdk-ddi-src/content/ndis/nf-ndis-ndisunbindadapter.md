@@ -58,8 +58,8 @@ Protocol drivers call the
 
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 A handle that the protocol driver obtained from a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. The handle
      identifies the binding to close.

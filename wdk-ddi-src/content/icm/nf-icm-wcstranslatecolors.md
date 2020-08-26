@@ -5,10 +5,9 @@ description: The WcsTranslateColors function translates an array of colors from 
 old-location: print\wcstranslatecolors.htm
 tech.root: print
 ms.assetid: 99843150-9e27-4f09-a3ba-5ff87d3f1c88
-ms.date: 04/20/2018
+ms.date: 08/14/2020
 keywords: ["WcsTranslateColors function"]
 ms.keywords: WcsTranslateColors, WcsTranslateColors function [Print Devices], colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml, icm/WcsTranslateColors, print.wcstranslatecolors
-ms.topic: function
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
@@ -41,84 +40,56 @@ req.typenames:
 
 # WcsTranslateColors function
 
-
 ## -description
 
-
-The <code>WcsTranslateColors</code> function translates an array of colors from the source color space to the destination color space as defined by a color transform.
-
+The **WcsTranslateColors** function translates an array of colors from the source color space to the destination color space as defined by a color transform.
 
 ## -parameters
-
-
-
 
 ### -param hColorTransform [in]
 
 A handle to the WCS color transform to use.
 
-
 ### -param nColors [in]
 
-The number of elements in the array pointed to by <i>pInputData</i> and <i>pOutputData</i>.
-
+The number of elements in the array pointed to by *pInputData* and *pOutputData*.
 
 ### -param nInputChannels [in]
 
-The number of channels per element in the array pointed to by <i>pInputData</i>.
-
+The number of channels per element in the array pointed to by *pInputData*.
 
 ### -param cdtInput [in]
 
-The input <a href="https://msdn.microsoft.com/library/windows/hardware/ff546006">COLORDATATYPE</a> color data type.
-
+The input [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85)) color data type.
 
 ### -param cbInput [in]
 
-The buffer size, in bytes, of <i>pInputData</i>.
+The buffer size, in bytes, of *pInputData*.
 
-
-### -param pInputData [in]
-
+### -param pInputData 
+[in]
 A pointer to an array of input colors.
-
 
 ### -param nOutputChannels [in]
 
-The number of channels per element in the array pointed to by <i>pOutputData</i>.
-
+The number of channels per element in the array pointed to by *pOutputData*.
 
 ### -param cdtOutput [in]
 
-The output <a href="https://msdn.microsoft.com/library/windows/hardware/ff546006">COLORDATATYPE</a> color data type.
-
+The output [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85)) color data type.
 
 ### -param cbOutput [in]
 
-The buffer size, in bytes, of <i>pOutputData</i>.
+The buffer size, in bytes, of *pOutputData*.
 
-
-### -param pOutputData [out]
-
+### -param pOutputData 
+[out]
 A pointer to an array of colors that receives the results of the color translation.
-
 
 ## -remarks
 
-
-
 If the input and the output color data types are not compatible with the color transform, this function will fail.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546006">COLORDATATYPE</a>
- 
-
- 
-
+[COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85))

@@ -57,8 +57,8 @@ The
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 [in] A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
@@ -67,35 +67,35 @@ The
      WskCaptureProviderNPI</a> function.
 
 
-### -param NodeName [in, optional]
-
+### -param NodeName 
+[in, optional]
 [in] An optional pointer to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name or a numeric host address string. For the Internet
      protocol, the numeric host address string is a dotted-decimal IPv4 address or an IPv6 hexadecimal
      address.
 
 
-### -param ServiceName [in, optional]
-
+### -param ServiceName 
+[in, optional]
 [in] An optional pointer to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name or a port number.
 
 
-### -param NameSpace [in, optional]
-
+### -param NameSpace 
+[in, optional]
 [in] An optional namespace identifier that specifies the namespace providers that are queried.
      Only namespace providers that support the specified namespace can be queried successfully.
 
 
-### -param Provider [in, optional]
-
+### -param Provider 
+[in, optional]
 [in] An optional pointer to a GUID of a specific namespace provider to be queried.
 
 
-### -param Hints [in, optional]
-
+### -param Hints 
+[in, optional]
 [in] An optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structure that provides hints about the type of socket
      that the caller supports.
      
@@ -110,8 +110,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
      Ws2def.h directly.</div>
 <div> </div>
 
-### -param Result [out]
-
+### -param Result 
+[out]
 [out] A pointer to a caller-allocated buffer that receives a linked list of one or more
      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that represent response information about the host.
      
@@ -130,8 +130,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
      Ws2def.h directly.</div>
 <div> </div>
 
-### -param OwningProcess [in, optional]
-
+### -param OwningProcess 
+[in, optional]
 [in] An optional pointer to the process from which the function retrieves the security context.
      This security context indicates the user account context in which the function processes the name
      resolution request.
@@ -144,8 +144,8 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param OwningThread [in, optional]
-
+### -param OwningThread 
+[in, optional]
 [in] An optional pointer to the thread from which the function retrieves the security context.
      This parameter can be non-<b>NULL</b> only if 
      <i>OwningProcess</i> is non-<b>NULL</b>. Otherwise, this function fails and returns STATUS_INVALID_PARAMETER.
@@ -155,8 +155,8 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 [in/out] A pointer to an I/O request packet (IRP) to use to complete the request asynchronously.
      Upon completion of the request, 
      <i>Irp</i> ->
@@ -258,7 +258,7 @@ The process to which the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

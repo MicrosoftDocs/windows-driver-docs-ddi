@@ -3,8 +3,8 @@ UID: NS:acpitabl._ACPI_PLD_INTERFACE_CLASS_BUFFER
 title: _ACPI_PLD_INTERFACE_CLASS_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface class descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: f817f194-41c2-4193-a803-768e5914c91a
-ms.date: 10/02/2018
-keywords: ["_ACPI_PLD_INTERFACE_CLASS_BUFFER structure"]
+ms.date: 08/13/2020
+keywords: ["ACPI_PLD_INTERFACE_CLASS_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_INTERFACE_CLASS_BUFFER"
  - "_ACPI_PLD_INTERFACE_CLASS_BUFFER"
@@ -46,12 +46,12 @@ Describes the ACPI PLD interface class descriptor buffer, revision 1 (Microsoft 
 The ClassGuid field of the ACPI_PLD_INTERFACE_CLASS_BUFFER structure.
 
 ## -remarks
-The 
-GUID is defined as follows:
 
-```C++
+The GUID is defined as follows:
+
+```cpp
 DEFINE_GUID(ACPI_PLD_INTERFACE_CLASS_BUFFER_GUID,
     0x1facec76, 0x96a8, 0x4d9e, 0x84, 0x6e, 0x3a, 0x6d, 0x68, 0x7c, 0x32, 0xfc);
-```    
+```
 
 ## -see-also

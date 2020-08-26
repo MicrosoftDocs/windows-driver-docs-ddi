@@ -55,13 +55,13 @@ The <code>GetPhysicalPageAddress</code> method returns the physical address for 
 
 
 
-### -param MemoryDescriptorList [in]
-
+### -param MemoryDescriptorList 
+[in]
 Pointer to the MDL.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Index to the target page within the MDL.
 
 

@@ -59,13 +59,13 @@ The <b>GetOtherOutputMask</b> method returns the output mask for another client.
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 Specifies the client whose output mask is desired.
 
 
-### -param Mask [out]
-
+### -param Mask 
+[out]
 Receives the output mask for the client.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for details on how to interpret this value.
 
 

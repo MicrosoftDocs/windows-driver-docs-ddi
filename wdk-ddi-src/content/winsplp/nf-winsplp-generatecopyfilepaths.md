@@ -55,40 +55,40 @@ A Point and Print DLL's <b>GenerateCopyFilePaths</b> function is used for modify
 
 
 
-### -param pszPrinterName [in]
-
+### -param pszPrinterName 
+[in]
 Caller-supplied pointer to a string representing the name of the print queue.
 
 
-### -param pszDirectory [in]
-
+### -param pszDirectory 
+[in]
 Caller-supplied pointer to a string representing the value supplied for the server's <b>Directory</b> entry in the registry. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-point-and-print-during-printer-installations">Supporting Point and Print During Printer Installations</a>.
 
 
-### -param pSplClientInfo [in]
-
+### -param pSplClientInfo 
+[in]
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_splclient_info_1">SPLCLIENT_INFO_1</a> structure.
 
 
-### -param dwLevel [in]
-
+### -param dwLevel 
+[in]
 Caller-supplied value indicating the level number of the structure pointed to by <i>pSplClientInfo</i>. Must be 1.
 
 
-### -param pszSourceDir [in, out]
-
+### -param pszSourceDir 
+[in, out]
 For input, receives a caller-supplied pointer to a string representing the complete server directory path (including server name) from which files are to be copied.
 
 For output, the function can modify this string.
 
 
-### -param pcchSourceDirSize [in, out]
-
+### -param pcchSourceDirSize 
+[in, out]
 Caller-supplied address containing the length of the buffer pointed to by <i>pszSourceDir</i>. (Note that this is the buffer length, not the string length.)
 
 
-### -param pszTargetDir [in, out]
-
+### -param pszTargetDir 
+[in, out]
 For input, receives a caller-supplied pointer to a string representing the client directory path to which files are to be copied. The following rules apply:
 
 <ul>
@@ -104,13 +104,13 @@ When the function is called on the client, the string contains a complete path.
 For output, the function can modify this string.
 
 
-### -param pcchTargetDirSize [in, out]
-
+### -param pcchTargetDirSize 
+[in, out]
 Caller-supplied address containing the length of the buffer pointed to by <i>pszTargetDir</i>. (Note that this is the buffer length, not the string length.)
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 Caller-supplied flag. Can be one of the following:
 
 

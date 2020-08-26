@@ -6,7 +6,7 @@ old-location: wdf\wdf_usb_bmrequest_recipient.htm
 tech.root: wdf
 ms.assetid: 0749d03d-8174-4f6e-816e-4689594c0c84
 ms.date: 02/26/2018
-keywords: ["_WDF_USB_BMREQUEST_RECIPIENT enumeration"]
+keywords: ["WDF_USB_BMREQUEST_RECIPIENT enumeration"]
 ms.keywords: BmRequestToDevice, BmRequestToEndpoint, BmRequestToInterface, BmRequestToOther, DFUsbRef_646fa8bb-2b05-4247-b3e8-01daad8b204e.xml, WDF_USB_BMREQUEST_RECIPIENT, WDF_USB_BMREQUEST_RECIPIENT enumeration, _WDF_USB_BMREQUEST_RECIPIENT, kmdf.wdf_usb_bmrequest_recipient, wdf.wdf_usb_bmrequest_recipient, wdfusb/BmRequestToDevice, wdfusb/BmRequestToEndpoint, wdfusb/BmRequestToInterface, wdfusb/BmRequestToOther, wdfusb/WDF_USB_BMREQUEST_RECIPIENT
 f1_keywords:
  - "wdfusb/WDF_USB_BMREQUEST_RECIPIENT"

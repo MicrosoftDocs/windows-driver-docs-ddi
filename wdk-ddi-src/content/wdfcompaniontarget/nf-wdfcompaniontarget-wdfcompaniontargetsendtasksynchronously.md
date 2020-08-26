@@ -56,23 +56,23 @@ req.typenames:
 
 
 
-### -param CompanionTarget [in]
+### -param CompanionTarget 
+[in]
 
+### -param TaskQueueIdentifier 
+[in]
 
-### -param TaskQueueIdentifier [in]
+### -param TaskOperationCode 
+[in]
 
+### -param InputBuffer 
+[in, optional]
 
-### -param TaskOperationCode [in]
+### -param OutputBuffer 
+[in, optional]
 
+### -param TaskOptions 
+[in, optional]
 
-### -param InputBuffer [in, optional]
-
-
-### -param OutputBuffer [in, optional]
-
-
-### -param TaskOptions [in, optional]
-
-
-### -param BytesReturned [out]
-
+### -param BytesReturned 
+[out]

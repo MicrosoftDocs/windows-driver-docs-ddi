@@ -55,13 +55,13 @@ Parses a pin path under the Pulse Width Modulation (PWM) controller namespace to
 
 
 
-### -param PinPath [in]
-
+### -param PinPath 
+[in]
 A pointer to pin path as a Unicode character string.
 
 
-### -param PinNumber [out, optional]
-
+### -param PinNumber 
+[out, optional]
 A pointer to variable that receives a pin number.
 
 

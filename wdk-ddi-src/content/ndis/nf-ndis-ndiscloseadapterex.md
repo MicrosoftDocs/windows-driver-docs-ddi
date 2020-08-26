@@ -59,8 +59,8 @@ A protocol driver calls the
 
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
      <b>NdisOpenAdapterEx</b>. This handle identifies the binding that NDIS should close.

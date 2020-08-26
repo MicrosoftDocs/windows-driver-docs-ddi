@@ -55,8 +55,8 @@ The <b>IPrintCoreHelperPS::EnumOptions</b> method gets a list of available optio
 
 
 
-### -param pszFeatureKeyword [in]
-
+### -param pszFeatureKeyword 
+[in]
 An ANSI character string that contains the feature whose options are requested. 
 
 
@@ -65,8 +65,8 @@ An ANSI character string that contains the feature whose options are requested.
 
 
 
-### -param pdwNumOptions [out]
-
+### -param pdwNumOptions 
+[out]
 A pointer to a variable that receives the number of options in the option array that is pointed to by the <i>pOptionList</i> parameter.
 
 

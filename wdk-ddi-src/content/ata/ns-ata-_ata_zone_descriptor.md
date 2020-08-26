@@ -6,7 +6,7 @@ old-location: storage\ata_zone_descriptor.htm
 tech.root: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.date: 03/29/2018
-keywords: ["_ATA_ZONE_DESCRIPTOR structure"]
+keywords: ["ATA_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor"
 f1_keywords:
  - "ata/ATA_ZONE_DESCRIPTOR"

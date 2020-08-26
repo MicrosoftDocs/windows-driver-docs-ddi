@@ -57,8 +57,8 @@ The
 
 
 
-### -param Lock [out]
-
+### -param Lock 
+[out]
 A pointer to an opaque 
      <b>NDIS_RW_LOCK</b> variable that represents a lock. The caller can use this lock to gain write or read
      access to resources that are shared among non-ISR driver threads.

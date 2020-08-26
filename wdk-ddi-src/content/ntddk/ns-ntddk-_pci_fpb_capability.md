@@ -5,7 +5,7 @@ description: Flattening Portal Bridge (FPB) Capabilities that is required for an
 tech.root: pci
 ms.assetid: c7b33bbc-1c9d-4203-b28a-13c2dcf3b4da
 ms.date: 10/19/2018
-keywords: ["_PCI_FPB_CAPABILITY structure"]
+keywords: ["PCI_FPB_CAPABILITY structure"]
 f1_keywords:
  - "ntddk/_PCI_FPB_CAPABILITY"
  - "_PCI_FPB_CAPABILITY"

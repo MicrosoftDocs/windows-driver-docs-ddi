@@ -63,28 +63,28 @@ The <b>WdfFdoQueryForInterface</b> method obtains access to another driver's GUI
 <p>A handle to a framework device object.</p>
 
 
-### -param InterfaceType [in]
-
+### -param InterfaceType 
+[in]
 A pointer to a GUID that identifies the interface.
 
 
-### -param Interface [out]
-
+### -param Interface 
+[out]
 A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 The size, in bytes, of the driver-allocated structure that represents the requested interface.
 
 
-### -param Version [in]
-
+### -param Version 
+[in]
 The version number of the requested interface. The format of this value is defined by the driver that exports the requested interface.
 
 
-### -param InterfaceSpecificData [in, optional]
-
+### -param InterfaceSpecificData 
+[in, optional]
 Additional interface-specific information. This parameter is optional and can be <b>NULL</b>.
 
 

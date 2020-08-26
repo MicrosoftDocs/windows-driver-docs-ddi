@@ -55,13 +55,13 @@ The <b>ObQueryNameString</b> routine supplies the name, if there is one, of a gi
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 A pointer to the object for which the name is requested. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param ObjectNameInfo [out, optional]
-
+### -param ObjectNameInfo 
+[out, optional]
 A pointer to a caller-allocated buffer, of the following type, that receives the object name information: 
 
 <div class="code"><span codelanguage=""><table>
@@ -79,13 +79,13 @@ A pointer to a caller-allocated buffer, of the following type, that receives the
 This parameter is optional and can be <b>NULL</b>. If <i>ObjectNameInfo</i> is <b>NULL</b>, <i>Length</i> must be zero.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the buffer that is pointed to by <i>ObjectNameInfo</i>. This parameter is optional and can be zero. If <i>Length</i> is zero, <i>ReturnLength</i> receives the size, in bytes, of the buffer that is needed to hold the object name information. A reasonable size for the buffer to accommodate most object names is 1024 bytes. If <i>Length</i> is zero, <i>ObjectNameInfo</i> can be <b>NULL</b>.
 
 
-### -param ReturnLength [out]
-
+### -param ReturnLength 
+[out]
 A pointer to a caller-allocated variable that receives the size, in bytes, of the returned object name information. The object name (when present) includes a NULL-terminator and all path separators "\\" in the name. If <b>ObQueryNameString</b> returns <b>STATUS_INFO_LENGTH_MISMATCH</b>, it sets this parameter to the required buffer length. 
 
 
@@ -135,7 +135,7 @@ The storage for <i>ObjectNameInfo</i> can be allocated from paged or nonpaged po
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

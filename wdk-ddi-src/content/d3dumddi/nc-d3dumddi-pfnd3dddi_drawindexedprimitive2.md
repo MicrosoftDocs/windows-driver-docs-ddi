@@ -55,8 +55,8 @@ The <b>DrawIndexedPrimitive2</b> function draws indexed primitives that the Micr
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

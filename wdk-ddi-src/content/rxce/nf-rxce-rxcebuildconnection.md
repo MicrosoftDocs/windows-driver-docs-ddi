@@ -60,28 +60,28 @@ req.typenames:
 <p>A pointer to the local RDBSS connection engine address.</p>
 
 
-### -param pConnectionInformation [in]
-
+### -param pConnectionInformation 
+[in]
 A pointer to the connection information that specifies the remote address.
 
 
-### -param pHandler [in]
-
+### -param pHandler 
+[in]
 A pointer to the event handler for processing receive indications.
 
 
-### -param pEventContext [in]
-
+### -param pEventContext 
+[in]
 A pointer to the context parameter to be passed back to the event handler and used for indications.
 
 
-### -param pConnection [in, out]
-
+### -param pConnection 
+[in, out]
 On input, this parameter contains a pointer to an uninitialized RDBSS connection. On output when this call is successful, the connection is properly initialized.
 
 
-### -param pVc [in, out]
-
+### -param pVc 
+[in, out]
 On input, this parameter contains a pointer to an uninitialized RDBSS virtual circuit. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit is properly initialized.
 
 

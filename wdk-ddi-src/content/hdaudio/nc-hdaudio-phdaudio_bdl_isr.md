@@ -55,13 +55,13 @@ The HDAudioBdlIsr routine is the ISR that the HD Audio bus driver calls each tim
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 The HD Audio bus driver calls the ISR with the same context value that the client specified in the context parameter of the preceding SetupDmaEngineWithBdl call. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">PSETUP_DMA_ENGINE_WITH_BDL</a>.
 
 
-### -param InterruptBitMask [in]
-
+### -param InterruptBitMask 
+[in]
 The interruptBitMask parameter contains the bits from the HD Audio controller device's stream status register that indicate the reason for the interrupt. The following table shows the meaning of the individual bits in interruptBitMask.
 
 <table>

@@ -57,20 +57,20 @@ A filter driver calls the
 
 
 
-### -param NdisFilterHandle [in]
-
+### -param NdisFilterHandle 
+[in]
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
-### -param FilterModuleContext [in]
-
+### -param FilterModuleContext 
+[in]
 The caller-allocated context area for this filter module.
 
 
-### -param FilterAttributes [in]
-
+### -param FilterAttributes 
+[in]
 A pointer to a filter driver allocated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attributes">
      NDIS_FILTER_ATTRIBUTES</a> structure.

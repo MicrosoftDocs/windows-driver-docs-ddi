@@ -55,13 +55,13 @@ Creates a Storport timer context object.
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param TimerHandle [out]
-
+### -param TimerHandle 
+[out]
 A pointer to an opaque buffer that holds context information for the timer.
 
 

@@ -56,13 +56,13 @@ The <b>PcNewServiceGroup</b> function creates and initializes a service group.
 
 
 
-### -param OutServiceGroup [out]
-
+### -param OutServiceGroup 
+[out]
 Pointer to the service-group object created by this function. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in, optional]
-
+### -param OuterUnknown 
+[in, optional]
 Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 

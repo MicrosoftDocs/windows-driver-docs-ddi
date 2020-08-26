@@ -55,8 +55,8 @@ The <b>SeRegisterLogonSessionTerminatedRoutine</b> routine registers a callback 
 
 
 
-### -param CallbackRoutine [in]
-
+### -param CallbackRoutine 
+[in]
 Address of routine to call when a logon session terminates.
 
 

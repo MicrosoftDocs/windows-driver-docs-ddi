@@ -55,8 +55,8 @@ The <b>VideoPortInterlockedDecrement</b> function decrements a caller-supplied v
 
 
 
-### -param Addend [in]
-
+### -param Addend 
+[in]
 Pointer to the variable to be decremented.
 
 

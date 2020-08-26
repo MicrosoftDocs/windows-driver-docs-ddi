@@ -56,13 +56,13 @@ The <b>WdmlibIoGetAffinityInterrupt</b> function gets the group affinity of an i
 
 
 
-### -param InterruptObject [in]
-
+### -param InterruptObject 
+[in]
 A pointer to an interrupt object. This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure that represents a registration by a driver to receive device interrupts. The structure is opaque. The caller obtained this pointer value in a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> routine.
 
 
-### -param GroupAffinity [out]
-
+### -param GroupAffinity 
+[out]
 A pointer to a caller-allocated buffer into which the routine writes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structure that specifies the group affinity of the interrupt object that <i>InterruptObject</i> points to. This buffer must be large enough to contain the structure.
 
 

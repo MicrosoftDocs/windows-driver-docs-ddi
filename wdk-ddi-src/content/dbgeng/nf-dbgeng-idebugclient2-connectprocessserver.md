@@ -59,13 +59,13 @@ The <b>ConnectProcessServer</b>  methods connect to a <a href="https://docs.micr
 
 
 
-### -param RemoteOptions [in]
-
+### -param RemoteOptions 
+[in]
 Specifies how the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/d">debugger engine</a> will connect with the process server.  These are the same options passed to the <b>-premote</b> option on the WinDbg and CDB command lines.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-smart-client">Activating a Smart Client</a>.
 
 
-### -param Server [out]
-
+### -param Server 
+[out]
 Receives a handle for the process server.  This handle is used when creating or attaching to processes by using the process server.
 
 

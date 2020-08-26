@@ -65,8 +65,8 @@ A handle to the display device (graphics context).
 
 The offset to the first view to set. 
 
-### -param NumViews [in]
-
+### -param NumViews 
+[in]
 The total number of views to set. 
 
 

@@ -55,13 +55,13 @@ Initializes the head of a Storport managed singly linked list.
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param SListHead [in, out]
-
+### -param SListHead 
+[in, out]
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
 

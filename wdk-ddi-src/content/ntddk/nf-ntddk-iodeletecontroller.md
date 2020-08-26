@@ -55,8 +55,8 @@ The <b>IoDeleteController</b> routine removes a given controller object from the
 
 
 
-### -param ControllerObject [in]
-
+### -param ControllerObject 
+[in]
 Pointer to the controller object to be released. 
 
 

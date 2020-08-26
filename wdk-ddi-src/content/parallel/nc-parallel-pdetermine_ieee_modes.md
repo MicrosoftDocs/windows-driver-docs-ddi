@@ -65,8 +65,8 @@ typedef USHORT ( *PDETERMINE_IEEE_MODES)(
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to a device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
 
 

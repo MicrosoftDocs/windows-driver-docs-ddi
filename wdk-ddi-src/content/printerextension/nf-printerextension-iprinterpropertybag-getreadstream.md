@@ -55,8 +55,8 @@ Gets a stream in order to read from a stream property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to read.
 
 

@@ -55,43 +55,43 @@ The <b>StorPortInvokeAcpiMethod</b> routine executes an ACPI method for a storag
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in, optional]
-
+### -param Address 
+[in, optional]
 The address of the target device. This parameter is optional. If <i>Address</i> is set to <b>NULL</b>, the adapter is the target.
 
 
-### -param MethodName [in]
-
+### -param MethodName 
+[in]
 A four-byte name for the ACPI method. For example, ((ULONG) 'DDS_') would name the _SDD, or 'Set Device Data',  ACPI method for an AHCI controller.
 
 
-### -param InputBuffer [in, optional]
-
+### -param InputBuffer 
+[in, optional]
 A pointer to the input data to the method.
 
 
-### -param InputBufferLength [in]
-
+### -param InputBufferLength 
+[in]
 The length, in bytes, of the buffer in <i>InputBuffer</i>.
 
 
-### -param OutputBuffer [in, optional]
-
+### -param OutputBuffer 
+[in, optional]
 A pointer to the output data from the method.
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 The length, in bytes, of the buffer in <i>OutputBuffer</i>.
 
 
-### -param BytesReturned [out, optional]
-
+### -param BytesReturned 
+[out, optional]
 A pointer to the length, in bytes, of the data returned in <i>OutputBuffer</i>.
 
 

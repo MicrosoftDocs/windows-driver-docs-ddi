@@ -59,8 +59,8 @@ The <b>ExitDispatch</b> method causes the <a href="https://docs.microsoft.com/wi
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 Specifies the client whose <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-dispatchcallbacks">DispatchCallbacks</a> method should return.
 
 

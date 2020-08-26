@@ -57,18 +57,18 @@ The <b>GetNearInstruction</b> method returns the location of a processor instruc
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the process's virtual address space from which to start looking for the desired instruction.
 
 
-### -param Delta [in]
-
+### -param Delta 
+[in]
 Specifies the number of instructions from <i>Offset</i> of the desired instruction.  If <i>Delta</i> is negative, the returned offset is before <i>Offset</i> (see the Remarks section for more information).
 
 
-### -param NearOffset [out]
-
+### -param NearOffset 
+[out]
 Receives the location in the process's virtual address space of the instruction that is <i>Delta</i> instructions away from <i>Offset</i>.
 
 

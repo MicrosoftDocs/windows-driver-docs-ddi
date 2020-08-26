@@ -56,18 +56,18 @@ The <b>AuxKlibQueryModuleInformation</b> routine retrieves information about the
 
 
 
-### -param BufferSize [in, out]
-
+### -param BufferSize 
+[in, out]
 A pointer to a location that contains or receives a buffer size, in bytes. If <i>QueryInfo</i> is <b>NULL</b>, the location receives the number of bytes that the driver must allocate for the array that receives the retrieved information. If <i>QueryInfo</i> is not <b>NULL</b>, the location must contain the specified number of bytes. 
 
 
-### -param ElementSize [in]
-
+### -param ElementSize 
+[in]
 The size, in bytes, of each element of the array that <i>QueryInfo</i> points to. This value must be <b>sizeof</b>(<b>AUX_MODULE_BASIC_INFO</b>) or <b>sizeof</b>(<b>AUX_MODULE_EXTENDED_INFO</b>).
 
 
-### -param QueryInfo [out, optional]
-
+### -param QueryInfo 
+[out, optional]
 A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_extended_info">AUX_MODULE_EXTENDED_INFO</a> structures that receives information about loaded image modules. If this pointer is <b>NULL</b>, <b>AuxKlibQueryModuleInformation</b> writes the required buffer size to the location that <i>BufferSize</i> points to.
 
 

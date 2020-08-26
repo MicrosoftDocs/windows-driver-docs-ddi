@@ -56,28 +56,28 @@ The <b>WriteDumpFileWide</b> method creates a user-mode or kernel-modecrash dump
 
 
 
-### -param FileName [in, optional]
-
+### -param FileName 
+[in, optional]
 Specifies the name of the dump file to create.  <i>FileName</i> must include the file name extension. <i>FileName</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger was started.  If <i>FileHandle</i> is not <b>NULL</b>, <i>FileName</i> is ignored (except when writing status messages to the debugger console).
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Specifies the file handle of the file to write the crash dump to.  If <i>FileHandle</i> is <b>NULL</b>, the file specified in <i>FileName</i> is used instead.
 
 
-### -param Qualifier [in]
-
+### -param Qualifier 
+[in]
 Specifies the type of dump to create.  For possible values, see <a href="https://docs.microsoft.com/previous-versions/ff541472(v=vs.85)">DEBUG_DUMP_XXX</a>.
 
 
-### -param FormatFlags [in]
-
+### -param FormatFlags 
+[in]
 Specifies flags that determine the format of the dump file and--for user-mode minidumps--what information to include in the file.  For details, see <a href="https://docs.microsoft.com/previous-versions/ff541497(v=vs.85)">DEBUG_FORMAT_XXX</a>.
 
 
-### -param Comment [in, optional]
-
+### -param Comment 
+[in, optional]
 Specifies a comment string to be included in the crash dump file.  This string is displayed in the debugger console when the dump file is loaded.
 
 

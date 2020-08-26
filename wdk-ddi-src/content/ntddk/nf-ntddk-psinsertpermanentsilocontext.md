@@ -55,18 +55,18 @@ This routine inserts an object in an empty slot in a <i>Silo</i>.
 
 
 
-### -param Silo [in]
-
+### -param Silo 
+[in]
 The silo in which the object is to be inserted. This parameter is required and it cannot be <b>NULL</b>. 
 
 
-### -param ContextSlot [in]
-
+### -param ContextSlot 
+[in]
 The slot in which the object is to be inserted. A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 
-### -param SiloContext [in]
-
+### -param SiloContext 
+[in]
 The object to be inserted, created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. The object must be created using the same silo as specified in the <i>Silo</i> parameter. This parameter is required and it cannot be <b>NULL</b>. 
 
 

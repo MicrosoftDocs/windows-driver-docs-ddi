@@ -67,8 +67,8 @@ A handle to the display device (graphics context).
 
 A handle to the unordered-access view to clear. 
 
-### -param FLOAT[4]
-
+### -param FLOAT
+[4]
 [in]
 
 A four-element array of single-precision float vectors that the driver uses to clear an unordered-access view. 

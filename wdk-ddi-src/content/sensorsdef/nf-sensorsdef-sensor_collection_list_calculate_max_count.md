@@ -55,8 +55,8 @@ This function calculates the number of <a href="https://docs.microsoft.com/windo
 
 
 
-### -param pCollectionList [in]
-
+### -param pCollectionList 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a> structure.
 
 

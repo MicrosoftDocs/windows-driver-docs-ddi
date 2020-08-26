@@ -57,23 +57,23 @@ This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-### -param NdisMiniportDataPathHandle [in]
-
+### -param NdisMiniportDataPathHandle 
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
-
+### -param PortId 
+[in]
 The port ID. Wildcards are accepted.
 
 
-### -param PeerId [in]
-
+### -param PeerId 
+[in]
 The peer ID. Wildcards are accepted.
 
 
-### -param ExTidBitmask [in]
-
+### -param ExTidBitmask 
+[in]
 The Extended TID bitmask. See <i>Remarks</i> section for more information.
 
 

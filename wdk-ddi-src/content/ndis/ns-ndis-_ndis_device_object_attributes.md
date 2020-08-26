@@ -6,7 +6,7 @@ old-location: netvista\ndis_device_object_attributes.htm
 tech.root: netvista
 ms.assetid: 658e1597-eacf-4e9e-9f10-37f7646d38ad
 ms.date: 05/02/2018
-keywords: ["_NDIS_DEVICE_OBJECT_ATTRIBUTES structure"]
+keywords: ["NDIS_DEVICE_OBJECT_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, netvista.ndis_device_object_attributes"
 f1_keywords:
  - "ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES"
@@ -73,7 +73,7 @@ The
 A pointer to a variable of type NDIS_STRING that contains a null-terminated Unicode string that
      names the device object. The string must be a full path name--for example, 
      \Device\\<i>DeviceName</i>. For Microsoft Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
 ### -field SymbolicName
@@ -175,7 +175,7 @@ An NDIS filter or miniport driver can call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

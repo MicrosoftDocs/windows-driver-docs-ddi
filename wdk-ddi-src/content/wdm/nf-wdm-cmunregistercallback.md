@@ -55,8 +55,8 @@ The <b>CmUnRegisterCallback</b> routine unregisters a <a href="https://docs.micr
 
 
 
-### -param Cookie [in]
-
+### -param Cookie 
+[in]
 A LARGE_INTEGER value that identifies the callback routine to unregister. <b>CmRegisterCallback</b> provided this value when you registered the callback routine. 
 
 

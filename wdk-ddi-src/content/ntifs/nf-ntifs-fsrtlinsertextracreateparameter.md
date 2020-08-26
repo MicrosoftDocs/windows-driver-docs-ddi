@@ -55,13 +55,13 @@ The <b>FsRtlInsertExtraCreateParameter</b> routine inserts an extra create param
 
 
 
-### -param EcpList [in, out]
-
+### -param EcpList 
+[in, out]
 Pointer to the ECP list structure to which the ECP context structure, pointed to by the <i>EcpContext</i> parameter, should be added.
 
 
-### -param EcpContext [in, out]
-
+### -param EcpContext 
+[in, out]
 Pointer to the ECP context structure to be added to the ECP list, pointed to by the <i>EcpList</i> parameter.
 
 

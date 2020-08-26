@@ -55,18 +55,18 @@ For a "legacy" file system filter driver, the <b>FsRtlLookupPerFileObjectContext
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for which to query context information.
 
 
-### -param OwnerId [in, optional]
-
+### -param OwnerId 
+[in, optional]
 A pointer to a caller-allocated variable that uniquely identifies the owning filter of the per-file-object context structure. The format of this variable is filter-driver-specific.
 
 
-### -param InstanceId [in, optional]
-
+### -param InstanceId 
+[in, optional]
 A pointer to a caller-allocated variable that can be used to distinguish among per-file-object context structures created by the same filter driver. The format of this variable is filter-driver-specific. This parameter is optional and can be <b>NULL</b>.
 
 

@@ -57,23 +57,23 @@ The <b>GetModuleParameters</b> method returns parameters for <a href="https://do
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of modules whose parameters are desired.
 
 
-### -param Bases [in, optional]
-
+### -param Bases 
+[in, optional]
 Specifies an array of locations in the target's virtual address space representing the base address of the modules whose parameters are desired.  The size of this array is the value of <i>Count</i>.  If <i>Bases</i> is <b>NULL</b>, the <i>Start</i> parameter is used to specify the modules by index.
 
 
-### -param Start [in]
-
+### -param Start 
+[in]
 Specifies the index of the first module whose parameters are desired.  If <i>Bases</i> is not <b>NULL</b>, this parameter is ignored.
 
 
-### -param Params [out]
-
+### -param Params 
+[out]
 Receives the parameters.  The size of this array is the value of <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_parameters">DEBUG_MODULE_PARAMETERS</a>.
 
 

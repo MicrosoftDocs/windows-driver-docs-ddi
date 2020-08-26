@@ -55,23 +55,23 @@ The <i>DxgkDdiSetPowerState</i> function sets the power state of a display adapt
 
 
 
-### -param MiniportDeviceContext [in]
-
+### -param MiniportDeviceContext 
+[in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param DeviceUid [in]
-
+### -param DeviceUid 
+[in]
 A positive integer that identifies the device for which the power state is to be set. If <i>DeviceUid</i> is equal to <b>DISPLAY_ADAPTER_HW_ID</b> (defined in Video.h), the device is the display adapter itself. Otherwise, <i>DeviceUid</i> is the identifier of a child device of the display adapter. Child device identifiers were previously assigned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function.
 
 
-### -param DevicePowerState [in]
-
+### -param DevicePowerState 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration value that supplies the power state (<b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, <b>PowerDeviceD3</b>) to which the device should be set.
 
 
-### -param ActionType [in]
-
+### -param ActionType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-ppower_action">POWER_ACTION</a> enumeration value that supplies the reason (<b>PowerActionSleep</b>, <b>PowerActionHibernate</b>, <b>PowerActionShutdown</b>) for the power state change.
 
 

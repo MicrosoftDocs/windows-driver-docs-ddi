@@ -69,8 +69,8 @@ ULONG64 READ_REGISTER_ULONG64(
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register address, which must be a mapped range in memory space.
 
 

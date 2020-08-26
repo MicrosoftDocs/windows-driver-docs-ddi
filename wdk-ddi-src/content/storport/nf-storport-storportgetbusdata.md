@@ -50,30 +50,30 @@ The **StorPortGetBusData** routine retrieves the bus-specific configuration info
 
 ## -parameters
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
-### -param BusDataType [in]
-
+### -param BusDataType 
+[in]
 Contains a value of type [**BUS_DATA_TYPE**](..ntddk/ne-ntddk-_bus_data_type.md) that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: **Cmos**, **EisaConfiguration**, **Pos**, or **PCIConfiguration**. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always **MaximumBusDataType**.
 
-### -param SystemIoBusNumber [in]
-
+### -param SystemIoBusNumber 
+[in]
 Specifies the system-assigned number of the I/O bus. The miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine obtains this value from the **SystemIoBusNumber** member initially set in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
 
-### -param SlotNumber [in]
-
+### -param SlotNumber 
+[in]
 Specifies the logical slot number or location of the device.
 
 If **PCIConfiguration** is specified as the *BusDataType*, this parameter must be specified as a PCI_SLOT_NUMBER-type value.
 
-### -param Buffer [in, out]
-
+### -param Buffer 
+[in, out]
 Pointer to a buffer or area to which the configuration data is returned or, if the given *Length* is zero, points to a location to which the OS-specific port driver returns a pointer to a buffer that it allocates.
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the maximum number of bytes to return at *Buffer*, or zero if the caller requires the OS-specific port driver to allocate a buffer to contain the data.
 
 ## -returns

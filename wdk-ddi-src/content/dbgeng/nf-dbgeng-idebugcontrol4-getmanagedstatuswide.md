@@ -56,28 +56,28 @@ req.typenames:
 
 
 
-### -param Flags [out, optional]
-
+### -param Flags 
+[out, optional]
 A pointer to flags from the debugging APIs.
 
 
-### -param WhichString [in]
-
+### -param WhichString 
+[in]
 A value that controls which string to use.
 
 
-### -param String [out]
-
+### -param String 
+[out]
 A pointer to a Unicode character string from the debugging APIs.
 
 
-### -param StringSize [in]
-
+### -param StringSize 
+[in]
 The size of the string.
 
 
-### -param StringNeeded [out, optional]
-
+### -param StringNeeded 
+[out, optional]
 A pointer to an output string.
 
 

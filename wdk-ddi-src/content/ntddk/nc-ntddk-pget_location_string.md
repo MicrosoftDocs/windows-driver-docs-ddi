@@ -55,13 +55,13 @@ The <i>PnpGetLocationString</i> routine provides the device-specific part of the
 
 
 
-### -param Context [in, out]
-
+### -param Context 
+[in, out]
 A pointer to interface-specific context information.  The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pnp_location_interface">PNP_LOCATION_INTERFACE</a> structure.
 
 
-### -param LocationStrings [out]
-
+### -param LocationStrings 
+[out]
 A pointer to a sequence of null-terminated Unicode strings, that is terminated by another zero. Each string serves as a location string for the device. Drivers typically return a single string.
 
 

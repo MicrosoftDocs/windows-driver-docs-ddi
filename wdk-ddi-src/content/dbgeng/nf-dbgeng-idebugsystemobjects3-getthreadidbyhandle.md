@@ -58,13 +58,13 @@ The <b>GetThreadIdByHandle</b> method returns the engine thread ID for the speci
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the system handle of the thread whose thread ID is requested.
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine thread ID.
 
 

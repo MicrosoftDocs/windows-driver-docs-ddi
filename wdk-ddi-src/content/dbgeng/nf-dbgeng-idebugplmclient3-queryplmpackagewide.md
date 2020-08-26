@@ -55,18 +55,18 @@ Query a Process Lifecycle Management (PLM) package.
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 The server of the package.
 
 
-### -param PackageFullName [in]
-
+### -param PackageFullName 
+[in]
 A pointer to the package name.
 
 
-### -param Stream [in]
-
+### -param Stream 
+[in]
 A pointer to an output stream for results.
 
 
@@ -74,7 +74,7 @@ A pointer to an output stream for results.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

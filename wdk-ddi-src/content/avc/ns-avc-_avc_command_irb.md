@@ -6,7 +6,7 @@ old-location: stream\avc_command_irb.htm
 tech.root: stream
 ms.assetid: 0aefbce4-a838-40c4-b31f-ff8dd13621f7
 ms.date: 04/23/2018
-keywords: ["_AVC_COMMAND_IRB structure"]
+keywords: ["AVC_COMMAND_IRB structure"]
 ms.keywords: "*PAVC_COMMAND_IRB, AVC_COMMAND_IRB, AVC_COMMAND_IRB structure [Streaming Media Devices], PAVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], _AVC_COMMAND_IRB, avc/AVC_COMMAND_IRB, avc/PAVC_COMMAND_IRB, avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, stream.avc_command_irb"
 f1_keywords:
  - "avc/AVC_COMMAND_IRB"

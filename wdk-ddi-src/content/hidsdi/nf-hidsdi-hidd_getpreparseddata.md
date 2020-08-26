@@ -55,13 +55,13 @@ The **HidD_GetPreparsedData** routine returns a <a href="https://docs.microsoft.
 
 
 
-### -param HidDeviceObject [in]
-
+### -param HidDeviceObject 
+[in]
 Specifies an open handle to a top-level collection.
 
 
-### -param PreparsedData [out]
-
+### -param PreparsedData 
+[out]
 Pointer to the address of a routine-allocated buffer that contains a collection's preparsed data in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure.
 
 

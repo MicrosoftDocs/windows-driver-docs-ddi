@@ -58,13 +58,13 @@ The <b>WdfDeviceInitSetExclusive</b> method indicates whether a specified device
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param IsExclusive [in]
-
+### -param IsExclusive 
+[in]
 A Boolean value which, if <b>TRUE</b>, indicates that the device is an exclusive device. If <b>FALSE</b>, the device is not an exclusive device.
 
 

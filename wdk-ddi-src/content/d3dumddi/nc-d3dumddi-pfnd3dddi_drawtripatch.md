@@ -55,8 +55,8 @@ The <b>DrawTriPatch</b> function draws a new or cached triangular patch or updat
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

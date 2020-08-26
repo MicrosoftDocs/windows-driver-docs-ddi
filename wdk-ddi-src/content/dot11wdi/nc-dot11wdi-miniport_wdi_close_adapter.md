@@ -60,8 +60,8 @@ This call must complete quickly. If the close operation is successfully started,
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 The handle to the context area that the miniport driver allocated.
 
 

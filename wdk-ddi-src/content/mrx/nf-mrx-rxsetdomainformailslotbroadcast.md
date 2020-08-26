@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param DomainName [in]
-
+### -param DomainName 
+[in]
 A pointer to a buffer that contains a zero-terminated Unicode string that names the domain to use for mailslots. 
 
 

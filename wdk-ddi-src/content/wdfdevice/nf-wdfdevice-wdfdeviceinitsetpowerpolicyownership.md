@@ -60,13 +60,13 @@ The <b>WdfDeviceInitSetPowerPolicyOwnership</b> method establishes whether the c
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param IsPowerPolicyOwner [in]
-
+### -param IsPowerPolicyOwner 
+[in]
 A Boolean value that indicates whether the calling driver is the power policy owner. If <b>TRUE</b>, the calling driver is the power policy owner. If <b>FALSE</b>, it is not the power policy owner.
 
 

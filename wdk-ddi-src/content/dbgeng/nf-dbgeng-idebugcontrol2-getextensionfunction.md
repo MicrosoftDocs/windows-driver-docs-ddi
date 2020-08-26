@@ -57,18 +57,18 @@ The <b>GetExtensionFunction</b>  method returns a pointer to an extension functi
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the handle of the extension library that contains the extension function.  If <i>Handle</i> is zero, the engine will walk the extension library chain searching for the extension function.
 
 
-### -param FuncName [in]
-
+### -param FuncName 
+[in]
 Specifies the name of the extension function to return.  When searching the extension libraries for the function, the debugger engine will prepend "_EFN_" to the name.  For example, if <i>FuncName</i> is "SampleFunction", the engine will search the extension libraries for "_EFN_SampleFunction".
 
 
-### -param Function [out]
-
+### -param Function 
+[out]
 Receives the extension function.
 
 

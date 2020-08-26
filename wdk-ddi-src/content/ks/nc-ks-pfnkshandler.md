@@ -49,16 +49,16 @@ The minidriver-provided  routine is called when Kernel Streaming receives an IOC
 
 ## -parameters
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP that contains the method or property request.
 
-### -param Request [in]
-
+### -param Request 
+[in]
 Specifies an aligned copy of the method parameter. This is typically a pointer to a [KSMETHOD](https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)) or [KSPROPERTY](https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)) structure.
 
-### -param Data [in, out]
-
+### -param Data 
+[in, out]
 Specifies an aligned copy of the method data parameter or the system address of the original data parameter, depending on the flag that was specified in the [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item) structure for the method.
 
 ## -returns

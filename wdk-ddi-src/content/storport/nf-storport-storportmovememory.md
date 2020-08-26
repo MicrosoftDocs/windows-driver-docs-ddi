@@ -56,18 +56,18 @@ The <b>StorPortMoveMemory</b> routine copies memory from one buffer to another.
 
 
 
-### -param WriteBuffer [in]
-
+### -param WriteBuffer 
+[in]
 Pointer to the destination buffer. 
 
 
-### -param ReadBuffer [in]
-
+### -param ReadBuffer 
+[in]
 Pointer to the source buffer. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies how many bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>. 
 
 

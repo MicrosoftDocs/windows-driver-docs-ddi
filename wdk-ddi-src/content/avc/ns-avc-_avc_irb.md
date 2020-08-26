@@ -6,7 +6,7 @@ old-location: stream\avc_irb.htm
 tech.root: stream
 ms.assetid: 8798e152-6586-48d0-a8f6-2e861660dd62
 ms.date: 04/23/2018
-keywords: ["_AVC_IRB structure"]
+keywords: ["AVC_IRB structure"]
 ms.keywords: "*PAVC_IRB, AVC_IRB, AVC_IRB structure [Streaming Media Devices], PAVC_IRB, PAVC_IRB structure pointer [Streaming Media Devices], _AVC_IRB, avc/AVC_IRB, avc/PAVC_IRB, avcref_98d983db-d72a-4efd-9c8c-20dd17b674a0.xml, stream.avc_irb"
 f1_keywords:
  - "avc/AVC_IRB"

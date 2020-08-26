@@ -59,13 +59,13 @@ PnP device was located.
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel of the client endpoint.
 
 
-### -param FailureStatus [in]
-
+### -param FailureStatus 
+[in]
 A failure code.
 
 

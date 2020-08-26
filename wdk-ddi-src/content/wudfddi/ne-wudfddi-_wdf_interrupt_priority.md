@@ -6,7 +6,7 @@ old-location: wdf\wdf_interrupt_priority.htm
 tech.root: wdf
 ms.assetid: e3305a9c-8107-4631-974b-fe85779ec8dc
 ms.date: 02/26/2018
-keywords: ["_WDF_INTERRUPT_PRIORITY enumeration"]
+keywords: ["WDF_INTERRUPT_PRIORITY enumeration"]
 ms.keywords: "*PWDF_INTERRUPT_PRIORITY, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY enumeration pointer, WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityHigh, WdfIrqPriorityLow, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, _WDF_INTERRUPT_PRIORITY, kmdf.wdf_interrupt_priority, wdf.wdf_interrupt_priority, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityHigh, wdfinterrupt/WdfIrqPriorityLow, wdfinterrupt/WdfIrqPriorityNormal, wdfinterrupt/WdfIrqPriorityUndefined"
 f1_keywords:
  - "wudfddi/WDF_INTERRUPT_PRIORITY"

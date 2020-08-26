@@ -56,8 +56,8 @@ The<b> KsStreamPointerAdvance </b>function advances a stream pointer to the next
 
 
 
-### -param StreamPointer [in]
-
+### -param StreamPointer 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer to advance to reference the next available data frame.
 
 

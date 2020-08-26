@@ -70,13 +70,13 @@ void WRITE_REGISTER_ULONG64(
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies a ULONG64 value to write to the register.
 
 

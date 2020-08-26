@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param MinitapeExtension [in, out]
-
+### -param MinitapeExtension 
+[in, out]
 Pointer to the driver-specific minitape extension. This is <b>NULL</b> if the miniclass driver did not request a minitape extension when it initialized.
 
 
-### -param CommandExtension [in, out]
-
+### -param CommandExtension 
+[in, out]
 Pointer to the command extension. This is <b>NULL</b> if the miniclass driver did not request a command extension when it initialized.
 
 
-### -param CommandParameters [in, out]
-
+### -param CommandParameters 
+[in, out]
 Pointer to a buffer allocated by the caller that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_create_partition">TAPE_CREATE_PARTITION</a> structure.
 
 
-### -param Srb [in, out]
-
+### -param Srb 
+[in, out]
 Pointer to an SRB allocated and partially filled in by the tape class driver. <i>TAPE_PROCESS_COMMAND_ROUTINE</i> must fill in the CDB in the SRB. 
 
 <ul>
@@ -105,18 +105,18 @@ Pointer to an SRB allocated and partially filled in by the tape class driver. <i
 </li>
 </ul>
 
-### -param CallNumber [in]
-
+### -param CallNumber 
+[in]
 Specifies the number of times <i>TAPE_PROCESS_COMMAND_ROUTINE</i> has been called to process a given tape command. <i>CallNumber</i> is zero the first time this routine is called and is incremented for each subsequent call until the miniclass driver returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a> value that indicates the command is complete.
 
 
-### -param StatusOfLastCommand [in, optional]
-
+### -param StatusOfLastCommand 
+[in, optional]
 Specifies the status of the last command. In the first call to <i>TAPE_PROCESS_COMMAND_ROUTINE</i> to process a given request, <i>StatusOfLastCommand </i>is TAPE_STATUS_SUCCESS. In subsequent calls, <i>StatusOfLastCommand </i>is either TAPE_STATUS_SUCCESS or an error status if an error occurred and the tape miniclass driver set RETURN_ERRORS in <i>RetryFlags</i> in the previous call. 
 
 
-### -param RetryFlags [in, out]
-
+### -param RetryFlags 
+[in, out]
 Pointer to a variable that specifies what action the tape class driver should take when a tape device reports an error.
 
 The low-order word specifies the number of retries to perform in the event of a SCSI command failure. The default is zero (no retries).

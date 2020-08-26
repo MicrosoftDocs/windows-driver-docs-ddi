@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlStringCchCopyUnicodeStringEx</b> function copies the contents of a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to a specified destination. 
+The <b>RtlStringCchCopyUnicodeStringEx</b> function copies the contents of a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to a specified destination. 
 
 
 ## -parameters
@@ -56,33 +56,33 @@ The <b>RtlStringCchCopyUnicodeStringEx</b> function copies the contents of a <a 
 
 
 
-### -param pszDest [out]
-
+### -param pszDest 
+[out]
 Optional. A pointer to a buffer that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer at <i>pszDest</i> and terminated with a null character. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>. 
 
 
-### -param cchDest [in]
-
+### -param cchDest 
+[in]
 The size, in characters, of the destination buffer. The buffer must be large enough for the string and the terminating null character. The maximum number of characters in the buffer is NTSTRSAFE_MAX_CCH.
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param ppszDestEnd [out]
-
+### -param ppszDestEnd 
+[out]
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, then after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
 
 
-### -param pcchRemaining [out, optional]
-
+### -param pcchRemaining 
+[out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused characters that are in the buffer that <i>pszDest</i> points to, including the terminating null character.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 
@@ -191,7 +191,7 @@ The <b>RtlStringCchCopyUnicodeStringEx</b> function uses the destination buffer'
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>SourceString </i>and <i>pszDest</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both of these points can be <b>NULL</b>. If the <i>pszDest</i> pointer is <b>NULL</b>, the <i>SourceString </i>pointer must be <b>NULL</b> or the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure must describe an empty string.
+The <i>SourceString </i>and <i>pszDest</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both of these points can be <b>NULL</b>. If the <i>pszDest</i> pointer is <b>NULL</b>, the <i>SourceString </i>pointer must be <b>NULL</b> or the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure must describe an empty string.
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
 
@@ -211,7 +211,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

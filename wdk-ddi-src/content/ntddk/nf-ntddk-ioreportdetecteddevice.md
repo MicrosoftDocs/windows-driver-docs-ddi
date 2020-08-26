@@ -55,49 +55,49 @@ The <b>IoReportDetectedDevice</b> routine reports a non-PnP device to the PnP ma
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 Pointer to the driver object of the driver that detected the device.
 
 
-### -param LegacyBusType [in]
-
+### -param LegacyBusType 
+[in]
 Specifies the type of bus on which the device resides. The PnP manager uses this information to match the reported device to its PnP-enumerated instance, if one exists.
 
 The interface types, such as <b>PCIBus</b>, are defined in Wdm.h. If a driver does not know the <i>LegacyBusType</i> for the device, the driver supplies the value <b>InterfaceTypeUndefined</b> for this parameter.
 
 
-### -param BusNumber [in]
-
+### -param BusNumber 
+[in]
 Specifies the bus number for the device. The PnP manager uses this information to match the reported device to its PnP-enumerated instance, if one exists.
 
 The bus number distinguishes the bus on which the device resides from other buses of the same type on the computer. The bus-numbering scheme is bus-specific. If a driver does not know the <i>BusNumber</i> for the device, the driver supplies the value -1 for this parameter. 
 
 
-### -param SlotNumber [in]
-
+### -param SlotNumber 
+[in]
 Specifies the logical slot number of the device. The PnP manager uses this information to match the reported device to its PnP-enumerated instance, if one exists.
 
 If a driver does not know the <i>SlotNumber</i> for the device, the driver supplies the value -1 for this parameter.
 
 
-### -param ResourceList [in, optional]
-
+### -param ResourceList 
+[in, optional]
 Pointer to the resource list the driver used to detect the device. Resources in this list are in raw, untranslated form. 
 
 
-### -param ResourceRequirements [in, optional]
-
+### -param ResourceRequirements 
+[in, optional]
 Optionally points to a resource requirements list for the detected device. <b>NULL</b> if the caller does not have this information for the device.
 
 
-### -param ResourceAssigned [in]
-
+### -param ResourceAssigned 
+[in]
 Specifies whether the device's resources have already been reported to the PnP manager. If <i>ResourceAssigned</i> is <b>TRUE</b>, the resources have already been reported, possibly with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportresourcefordetection">IoReportResourceForDetection</a>, and the PnP manager will not attempt to claim them on behalf of the device. If <b>TRUE</b>, the PnP manager will also not claim resources when the device is root-enumerated on subsequent boots.
 
 
-### -param DeviceObject [in, out]
-
+### -param DeviceObject 
+[in, out]
 Optionally points to a PDO for the detected device. 
 
 <b>NULL</b> if the caller does not have a PDO for the device, which is typically the case. If <i>DeviceObject</i> is <b>NULL</b>, the PnP manager creates a PDO for the device and returns a pointer to the caller.

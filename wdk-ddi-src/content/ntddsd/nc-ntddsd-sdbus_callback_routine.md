@@ -55,13 +55,13 @@ The PSDBUS_CALLBACK_ROUTINE prototype declares the Secure Digital (SD) driver ca
 
 
 
-### -param CallbackRoutineContext [in]
-
+### -param CallbackRoutineContext 
+[in]
 Pointer to the context information that the bus driver passes to the callback routine. The device driver supplies the bus driver with this information when it initializes the SD bus interface.
 
 
-### -param InterruptType [in]
-
+### -param InterruptType 
+[in]
 Must be set to SDBUS_INTTYPE_DEVICE.
 
 

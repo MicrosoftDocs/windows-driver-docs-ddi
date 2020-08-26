@@ -5,7 +5,7 @@ description: The DXGK_WDDMVERSION enumeration is reserved for system use. Except
 old-location: display\dxgk_wddmversion.htm
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7
 ms.date: 04/01/2020
-keywords: ["_DXGK_WDDMVERSION enumeration"]
+keywords: ["DXGK_WDDMVERSION enumeration"]
 ms.keywords: DXGKDDI_WDDMv1, DXGKDDI_WDDMv1_2, DXGKDDI_WDDMv2, DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices], DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1, d3dkmddi/DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv2, d3dkmddi/DXGK_WDDMVERSION, display.dxgk_wddmversion
 f1_keywords:
  - "d3dkmddi/DXGK_WDDMVERSION"

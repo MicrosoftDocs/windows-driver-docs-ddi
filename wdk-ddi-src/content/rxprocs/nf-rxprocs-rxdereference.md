@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param Instance [in, out]
-
+### -param Instance 
+[in, out]
 A pointer to the reference-counted data structure to be dereferenced. 
 
 
-### -param LockHoldingState [in]
-
+### -param LockHoldingState 
+[in]
 The mode in which the appropriate lock for this data structure is held. This parameter can be one of the following values for the LOCK_HOLDING_STATE enumeration:
 
 

@@ -58,8 +58,8 @@ The
 
 
 
-### -param Lock [in]
-
+### -param Lock 
+[in]
 A pointer to an opaque 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> variable that represents a
      lock. The caller can use this lock to gain write or read access to resources that are shared among

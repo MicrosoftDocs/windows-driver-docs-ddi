@@ -55,13 +55,13 @@ The <b>GetSymbolSize</b> method returns the size of a symbol's value.
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the symbol to remove. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Size [out]
-
+### -param Size 
+[out]
 The size, in bytes, of the symbol's value. This information might not be available. If this information is not available, <i>Size</i> is set to zero.  For some symbols (for example, a function's code), the data might be split over multiple regions. In this situation, <i>Size</i> is not meaningful.
 
 

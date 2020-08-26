@@ -58,8 +58,8 @@ The <b>GetNumberProcesses</b> method returns the number of <a href="https://docs
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of processes.
 
 

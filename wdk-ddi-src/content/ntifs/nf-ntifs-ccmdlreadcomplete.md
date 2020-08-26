@@ -55,13 +55,13 @@ The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) cre
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer that was passed to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 
-### -param MdlChain [in]
-
+### -param MdlChain 
+[in]
 Address of the MDL chain returned by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 

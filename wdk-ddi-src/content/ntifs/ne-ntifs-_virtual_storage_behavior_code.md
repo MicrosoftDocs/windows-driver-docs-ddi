@@ -5,7 +5,7 @@ description: Configures file system-specific behaviors used on virtual storage d
 ms.assetid: 36f84aed-a906-4c02-bde0-0313f361bf78
 tech.root: ifsk
 ms.date: 10/19/2018
-keywords: ["_VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration"]
+keywords: ["VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration"]
 f1_keywords:
  - "ntifs/_VIRTUAL_STORAGE_BEHAVIOR_CODE"
  - "_VIRTUAL_STORAGE_BEHAVIOR_CODE"

@@ -58,8 +58,8 @@ The <b>GetCurrentThreadDataOffset</b> method returns the location of the system 
 
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the location of the system data structure for the current thread.
 
 

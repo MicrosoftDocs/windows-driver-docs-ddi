@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringVPrintfEx</b> function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
+The <b>RtlUnicodeStringVPrintfEx</b> function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
 
 ## -parameters
@@ -56,18 +56,18 @@ The <b>RtlUnicodeStringVPrintfEx</b> function creates a text string, with format
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that receives a formatted string. <b>RtlUnicodeStringVPrintfEx</b> creates this string from the formatting string that <i>pszFormat</i> supplies and the function's argument list. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param RemainingString [out, optional]
-
+### -param RemainingString 
+[out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, <b>RtlUnicodeStringVPrintfE</b> sets this structure's <b>Buffer</b> member to the end of the formatted string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
 
@@ -109,13 +109,13 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the content
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
 
 
-### -param pszFormat [in]
-
+### -param pszFormat 
+[in]
 A pointer to a nul-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param argList [in]
-
+### -param argList 
+[in]
 A <b>va_list</b>-typed argument list. Arguments in this argument list will be interpreted by the using formatting string that <i>pszFormat</i> supplies.
 
 
@@ -187,7 +187,7 @@ For information about how to test NTSTATUS values, see <a href="https://docs.mic
 
 The <b>RtlUnicodeStringVPrintfEx</b> function uses the destination buffer's size to ensure that the string formatting operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringVPrintfEx</b> adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf">RtlUnicodeStringVPrintf</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringVPrintfEx</b> for additional control.
+<b>RtlUnicodeStringVPrintfEx</b> adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf">RtlUnicodeStringVPrintf</a> function by returning a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringVPrintfEx</b> for additional control.
 
 If the format string and the destination string overlap, the behavior of the function is undefined.
 
@@ -217,7 +217,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

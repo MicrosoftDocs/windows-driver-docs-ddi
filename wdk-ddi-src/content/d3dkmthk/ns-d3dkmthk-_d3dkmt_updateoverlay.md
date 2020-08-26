@@ -5,7 +5,7 @@ description: The D3DKMT_UPDATEOVERLAY structure describes parameters for modifyi
 old-location: display\d3dkmt_updateoverlay.htm
 ms.assetid: 4e7d4d09-067b-4658-ab2a-319dc9e6d8db
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_UPDATEOVERLAY structure"]
+keywords: ["D3DKMT_UPDATEOVERLAY structure"]
 ms.keywords: D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY structure [Display Devices], OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, _D3DKMT_UPDATEOVERLAY, d3dkmthk/D3DKMT_UPDATEOVERLAY, display.d3dkmt_updateoverlay
 f1_keywords:
  - "d3dkmthk/D3DKMT_UPDATEOVERLAY"

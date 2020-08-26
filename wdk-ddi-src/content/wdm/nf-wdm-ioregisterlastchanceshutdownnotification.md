@@ -55,8 +55,8 @@ The <b>IoRegisterLastChanceShutdownNotification</b> routine registers a driver t
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object of the device for which the driver requests shutdown notification. The system passes this pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routine. 
 
 

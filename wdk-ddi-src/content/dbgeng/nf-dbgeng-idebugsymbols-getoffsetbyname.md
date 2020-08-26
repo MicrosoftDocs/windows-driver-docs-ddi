@@ -57,13 +57,13 @@ The <b>GetOffsetByName</b>  method returns the location of a symbol identified b
 
 
 
-### -param Symbol [in]
-
+### -param Symbol 
+[in]
 Specifies the name of the symbol to locate.  The name may be qualified by a module name (for example, <b>mymodule!main</b>).
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the location in the target's memory address space of the base of the symbol's memory allocation.
 
 

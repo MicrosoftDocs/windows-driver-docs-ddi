@@ -59,8 +59,8 @@ The <b>DispatchCallbacks</b> method lets the <a href="https://docs.microsoft.com
 
 
 
-### -param Timeout [in]
-
+### -param Timeout 
+[in]
 Specifies how many milliseconds to wait before this method will return.  If <i>Timeout</i> is INFINITE, this method will not return until <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-exitdispatch">ExitDispatch</a> is called or an error occurs.
 
 

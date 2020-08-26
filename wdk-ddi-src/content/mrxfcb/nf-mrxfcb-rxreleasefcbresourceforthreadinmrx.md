@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param pRxContext [in]
-
+### -param pRxContext 
+[in]
 A pointer to the RX_CONTEXT structure.
 
 
-### -param MrxFcb [in, out]
-
+### -param MrxFcb 
+[in, out]
 A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param ResourceThreadId [in]
-
+### -param ResourceThreadId 
+[in]
 The thread ID that originally acquired the resource.
 
 

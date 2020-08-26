@@ -55,33 +55,33 @@ The <b>FltGetNextExtraCreateParameter</b> routine returns a pointer to the next 
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 
-### -param EcpList [in]
-
+### -param EcpList 
+[in]
 Pointer to the ECP list to examine.
 
 
-### -param CurrentEcpContext [in, optional]
-
+### -param CurrentEcpContext 
+[in, optional]
 Optional pointer to an ECP in the given ECP list.  If present, <b>FltGetNextExtraCreateParameter</b> returns the ECP after the <i>CurrentEcpContext</i> ECP.  If <i>CurrentEcpContext</i> is <b>NULL</b>, <b>FltGetNextExtraCreateParameter</b> returns the first ECP in the list.
 
 
-### -param NextEcpType [out, optional]
-
+### -param NextEcpType 
+[out, optional]
 Optional parameter that receives a pointer to the GUID of the returned ECP.
 
 
-### -param NextEcpContext [out, optional]
-
+### -param NextEcpContext 
+[out, optional]
 Optional parameter that receives a pointer to the returned ECP.
 
 
-### -param NextEcpContextSize [out, optional]
-
+### -param NextEcpContextSize 
+[out, optional]
 Optional parameter that receives the size, in bytes, of the returned ECP.
 
 

@@ -55,8 +55,8 @@ The <b>FsRtlNotifyInitializeSync</b> routine allocates and initializes a synchro
 
 
 
-### -param NotifySync [in]
-
+### -param NotifySync 
+[in]
 A pointer to a location in which to return a pointer to the opaque synchronization object.
 
 

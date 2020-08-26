@@ -58,8 +58,8 @@ The <i>MRxFinalizeSrvCall</i> routine is called by <a href="https://docs.microso
 ### -param SrvCall
 
 
-### -param Force [in]
-
+### -param Force 
+[in]
 A pointer to a Boolean value that indicates if the disconnect is to be enforced immediately, ignoring the reference count on the SRV_CALL structure. The <i>Force</i> parameter is the <i>ForceFinalize</i> parameter passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a> routine. This action triggers a call to <i>MRxFinalizeSrvCall</i>.
 
 

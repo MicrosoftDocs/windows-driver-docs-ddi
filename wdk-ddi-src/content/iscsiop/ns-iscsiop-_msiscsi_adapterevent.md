@@ -6,7 +6,7 @@ old-location: storage\msiscsi_adapterevent.htm
 tech.root: storage
 ms.assetid: 03820d4d-d013-40fb-a686-1b228f178f50
 ms.date: 03/29/2018
-keywords: ["_MSiSCSI_AdapterEvent structure"]
+keywords: ["MSiSCSI_AdapterEvent structure"]
 ms.keywords: "*PMSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent structure [Storage Devices], PMSiSCSI_AdapterEvent, PMSiSCSI_AdapterEvent structure pointer [Storage Devices], _MSiSCSI_AdapterEvent, iscsiop/MSiSCSI_AdapterEvent, iscsiop/PMSiSCSI_AdapterEvent, storage.msiscsi_adapterevent, structs-iSCSI_86ec7324-3d5c-44d2-8972-691504f1c5e1.xml"
 f1_keywords:
  - "iscsiop/MSiSCSI_AdapterEvent"

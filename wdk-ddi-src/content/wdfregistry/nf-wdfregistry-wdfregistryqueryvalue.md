@@ -60,33 +60,33 @@ The <b>WdfRegistryQueryValue</b> method retrieves the data that is currently ass
 
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A handle to a registry-key object that represents an opened registry key.
 
 
-### -param ValueName [in]
+### -param ValueName 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
-
-### -param ValueLength [in]
-
+### -param ValueLength 
+[in]
 The length, in bytes, of the buffer that <i>Value</i> points to.
 
 
-### -param Value [out, optional]
-
+### -param Value 
+[out, optional]
 A pointer to a driver-allocated buffer that receives the registry value's data. If this pointer is <b>NULL</b>, <b>WdfRegistryQueryValue</b> retrieves the data length but not the data.
 
 
-### -param ValueLengthQueried [out, optional]
-
+### -param ValueLengthQueried 
+[out, optional]
 A pointer to a location that receives the registry value's data length. This pointer is optional and can be <b>NULL</b>.
 
 
-### -param ValueType [out, optional]
-
+### -param ValueType 
+[out, optional]
 A pointer to a location that receives the registry value's data type. For a list of data type values, see the <b>Type</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>. This pointer is optional and can be <b>NULL</b>.
 
 
@@ -230,7 +230,7 @@ status = WdfRegistryQueryValue(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

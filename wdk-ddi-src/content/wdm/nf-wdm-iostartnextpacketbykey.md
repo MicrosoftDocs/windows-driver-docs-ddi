@@ -55,18 +55,18 @@ The <b>IoStartNextPacketByKey</b> routine dequeues the next I/O request packet f
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object for which the IRP is to be dequeued.
 
 
-### -param Cancelable [in]
-
+### -param Cancelable 
+[in]
 Specifies whether IRPs in the device queue can be canceled.
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 Specifies the sort key that determines which entry to remove from the queue.
 
 

@@ -64,33 +64,33 @@ The <i>DebugExtensionKnownStructEx</i> callback function is called by extensions
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 A debug client.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Flags.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 An offset.
 
 
-### -param TypeName [in, optional]
-
+### -param TypeName 
+[in, optional]
 The name of a type.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 An output buffer.
 
 
-### -param BufferChars [in, out, optional]
-
+### -param BufferChars 
+[in, out, optional]
 A pointer to the length of the output buffer. 
 
 
@@ -98,7 +98,7 @@ A pointer to the length of the output buffer.
 
 
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

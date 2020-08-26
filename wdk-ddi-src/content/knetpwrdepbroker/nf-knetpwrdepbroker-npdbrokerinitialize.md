@@ -55,12 +55,12 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 
 
-### -param ulClientID [in]
-
+### -param ulClientID 
+[in]
 Reserved.
 
 
-### -param phBroker [out]
-
+### -param phBroker 
+[out]
 Reserved.
 

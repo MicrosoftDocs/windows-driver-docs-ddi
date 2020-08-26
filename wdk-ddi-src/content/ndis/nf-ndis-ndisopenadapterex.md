@@ -59,36 +59,36 @@ A protocol driver calls the
 
 
 
-### -param NdisProtocolHandle [in]
-
+### -param NdisProtocolHandle 
+[in]
 The handle returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
 
-### -param ProtocolBindingContext [in]
-
+### -param ProtocolBindingContext 
+[in]
 The handle for a caller-supplied context area in which the protocol driver maintains state
      information for this binding.
 
 
-### -param OpenParameters [in]
-
+### -param OpenParameters 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_open_parameters">NDIS_OPEN_PARAMETERS</a> structure that is
      set up by the caller.
 
 
-### -param BindContext [in]
-
+### -param BindContext 
+[in]
 The handle that identifies the NDIS context area for the bind operation. NDIS passed this handle
      to the 
      <i>BindContext</i> parameter of the 
      <i>ProtocolBindAdapterEx</i> function.
 
 
-### -param NdisBindingHandle [out]
-
+### -param NdisBindingHandle 
+[out]
 A pointer to a caller-supplied variable. NDIS writes a handle at 
      <i>NdisBindingHandle</i> that identifies the binding between the caller and the miniport adapter
      specified in the 

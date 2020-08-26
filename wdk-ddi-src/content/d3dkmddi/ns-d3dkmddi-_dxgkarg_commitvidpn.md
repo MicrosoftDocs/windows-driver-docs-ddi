@@ -5,7 +5,7 @@ description: The DXGKARG_COMMITVIDPN structure holds arguments for the DxgkDdiCo
 old-location: display\dxgkarg_commitvidpn.htm
 ms.assetid: d297d917-fc49-454a-aacd-4db0ac7a09c2
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_COMMITVIDPN structure"]
+keywords: ["DXGKARG_COMMITVIDPN structure"]
 ms.keywords: DXGKARG_COMMITVIDPN, DXGKARG_COMMITVIDPN structure [Display Devices], DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml, _DXGKARG_COMMITVIDPN, d3dkmddi/DXGKARG_COMMITVIDPN, display.dxgkarg_commitvidpn
 f1_keywords:
  - "d3dkmddi/DXGKARG_COMMITVIDPN"

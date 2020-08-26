@@ -55,8 +55,8 @@ The <code>NumberOfEntriesOfType</code> method returns the number of resource ite
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Identifies the resource type of the entries that are to be counted. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 

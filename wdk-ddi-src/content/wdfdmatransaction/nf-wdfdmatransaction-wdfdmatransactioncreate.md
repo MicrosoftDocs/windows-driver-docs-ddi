@@ -58,18 +58,18 @@ The <b>WdfDmaTransactionCreate</b> method creates a DMA transaction.
 
 
 
-### -param DmaEnabler [in]
-
+### -param DmaEnabler 
+[in]
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>.  
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new DMA transaction object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param DmaTransaction [out]
-
+### -param DmaTransaction 
+[out]
 A handle to a DMA transaction object.
 
 

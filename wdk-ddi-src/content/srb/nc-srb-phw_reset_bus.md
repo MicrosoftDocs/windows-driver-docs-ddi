@@ -56,13 +56,13 @@ The PHW_RESET_BUS prototype declares a routine that resets the indicated SCSI bu
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param PathId [in]
-
+### -param PathId 
+[in]
 Contains a number that identifies the SCSI bus to be reset.
 
 

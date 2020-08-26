@@ -55,23 +55,23 @@ The <b>AgpFreePhysical</b> function frees system memory that was committed by a 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the device extension of the miniport driver.
 
 
-### -param PhysicalReserveContext [in]
-
+### -param PhysicalReserveContext 
+[in]
 Identifies a reserved physical address range. This context handle was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
 
-### -param Pages [in]
-
+### -param Pages 
+[in]
 Specifies the number of pages of system memory that the video port driver should unmap.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the page offset into the reserved physical address range identified by <b>PhysicalReserveContext</b> that indicates the actual base address at which to unmap system memory.
 
 

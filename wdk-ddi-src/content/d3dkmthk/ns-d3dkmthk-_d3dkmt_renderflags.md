@@ -5,7 +5,7 @@ description: The D3DKMT_RENDERFLAGS structure identifies the type of command buf
 old-location: display\d3dkmt_renderflags.htm
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_RENDERFLAGS structure"]
+keywords: ["D3DKMT_RENDERFLAGS structure"]
 ms.keywords: D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
 f1_keywords:
  - "d3dkmthk/D3DKMT_RENDERFLAGS"

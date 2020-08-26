@@ -58,8 +58,8 @@ The <b>GetCurrentThreadHandle</b> method returns the system handle for the curre
 
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 Receives the current thread's system handle.
 
 

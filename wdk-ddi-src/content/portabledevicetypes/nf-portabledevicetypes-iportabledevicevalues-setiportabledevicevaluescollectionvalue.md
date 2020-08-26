@@ -59,13 +59,13 @@ Adds a new <b>IPortableDeviceValuesCollection</b> value (type VT_UNKNOWN) or ove
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
 
-### -param pValue [in]
-
+### -param pValue 
+[in]
 Pointer to an <b>IPortableDeviceValuesCollection</b> interface that specifies the new value. The SDK copies a reference to the submitted interface and calls <b>AddRef</b> on it.
 
 

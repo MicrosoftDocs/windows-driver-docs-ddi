@@ -55,13 +55,13 @@ The <b>IoReportTargetDeviceChangeAsynchronous</b> routine notifies the PnP manag
 
 
 
-### -param PhysicalDeviceObject [in]
-
+### -param PhysicalDeviceObject 
+[in]
 Pointer to the PDO of the device being reported. 
 
 
-### -param NotificationStructure [in]
-
+### -param NotificationStructure 
+[in]
 Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
 <i>NotificationStructure</i>.<b>FileObject</b> must be <b>NULL</b>. <i>NotificationStructure</i>.<b>Event</b> must contain the custom GUID for the event. The other fields of the <i>NotificationStructure</i> must be filled in as appropriate for the custom event.
@@ -69,8 +69,8 @@ Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardwar
 The PnP manager fills in the <i>NotificationStructure</i>.<b>FileObject</b> field when it sends notifications to registrants.
 
 
-### -param Callback [in, optional]
-
+### -param Callback 
+[in, optional]
 Optionally points to a caller-supplied routine that the PnP manager calls after it finishes notifying drivers that registered for this custom event.
 
 The callback routine has the following type:
@@ -94,8 +94,8 @@ A device-change-complete callback routine should not block and must not call syn
 The PnP manager calls device-change-complete callback routines at IRQL = PASSIVE_LEVEL.
 
 
-### -param Context [in, out]
-
+### -param Context 
+[in, out]
 Optionally points to a caller-supplied context structure that the PnP manager passes to the <i>Callback</i> routine. The caller must allocate this structure from nonpaged memory. 
 
 

@@ -55,13 +55,13 @@ The <b>KeGetProcessorNumberFromIndex</b> routine converts a systemwide processor
 
 
 
-### -param ProcIndex [in]
-
+### -param ProcIndex 
+[in]
 A systemwide processor index. If a multiprocessor system contains a total of <i>n</i> logical processors, valid processor indexes range from 0 to <i>n</i>-1. 
 
 
-### -param ProcNumber [out]
-
+### -param ProcNumber 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure into which the routine writes the group number and group-relative processor number of the processor that is identified by <i>ProcIndex</i>. 
 
 

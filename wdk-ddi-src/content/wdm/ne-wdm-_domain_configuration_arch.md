@@ -4,7 +4,7 @@ title: _DOMAIN_CONFIGURATION_ARCH (wdm.h)
 description: Defines values for type of system architecture specified.
 ms.assetid: 5ca1f77c-21fe-4a4f-80dc-42cb26c51bbc
 ms.date: 10/19/2018
-keywords: ["_DOMAIN_CONFIGURATION_ARCH enumeration"]
+keywords: ["DOMAIN_CONFIGURATION_ARCH enumeration"]
 f1_keywords:
  - "wdm/_DOMAIN_CONFIGURATION_ARCH"
  - "_DOMAIN_CONFIGURATION_ARCH"

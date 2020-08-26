@@ -4,7 +4,7 @@ title: _D3DKMT_ALLOCATIONRESIDENCYSTATUS (d3dkmthk.h)
 description: The allocation residency status.
 ms.assetid: d4174517-650d-49f6-95f3-0959640ee88b
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_ALLOCATIONRESIDENCYSTATUS enumeration"]
+keywords: ["D3DKMT_ALLOCATIONRESIDENCYSTATUS enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ALLOCATIONRESIDENCYSTATUS"
  - "_D3DKMT_ALLOCATIONRESIDENCYSTATUS"

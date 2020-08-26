@@ -4,7 +4,7 @@ title: _TREE_RPMB_COMMAND_INPUT (treerpmbservice.h)
 description: 
 ms.assetid: 02bed615-68e5-48aa-8775-8382495002df
 ms.date: 10/19/2018
-keywords: ["_TREE_RPMB_COMMAND_INPUT structure"]
+keywords: ["TREE_RPMB_COMMAND_INPUT structure"]
 f1_keywords:
  - "treerpmbservice/_TREE_RPMB_COMMAND_INPUT"
  - "_TREE_RPMB_COMMAND_INPUT"

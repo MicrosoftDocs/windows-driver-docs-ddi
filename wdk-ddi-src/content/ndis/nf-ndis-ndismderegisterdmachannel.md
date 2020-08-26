@@ -58,8 +58,8 @@ The
 
 
 
-### -param MiniportDmaHandle [in]
-
+### -param MiniportDmaHandle 
+[in]
 The DMA handle returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">
      NdisMRegisterDmaChannel</a> function.

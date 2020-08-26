@@ -55,8 +55,8 @@ The <b>VideoPortGetAssociatedDeviceExtension</b> function returns the device ext
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Is the device object of a child device.
 
 

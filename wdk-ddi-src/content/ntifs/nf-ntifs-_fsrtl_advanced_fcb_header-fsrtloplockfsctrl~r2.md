@@ -55,18 +55,18 @@ req.typenames: TOKEN_TYPE
 
 
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP for the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param OpenCount [in]
-
+### -param OpenCount 
+[in]
 Number of user handles for the file, if an exclusive opportunistic lock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>.
 
 

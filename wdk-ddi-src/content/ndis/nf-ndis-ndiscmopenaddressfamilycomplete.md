@@ -58,22 +58,22 @@ req.typenames:
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the final status of the open-AF operation, either NDIS_STATUS_SUCCESS or any
      CM-determined error NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 Specifies the NDIS-supplied handle that was input to the call manager's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function, which
      returned NDIS_STATUS_PENDING.
 
 
-### -param CallMgrAfContext [in]
-
+### -param CallMgrAfContext 
+[in]
 Specifies the handle to a caller-allocated resident context area in which the call manager
      maintains state about this client's open of the address family, including the 
      <i>NdisAfHandle</i>, if the open succeeded. If 

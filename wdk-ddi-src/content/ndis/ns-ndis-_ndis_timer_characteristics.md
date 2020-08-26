@@ -6,7 +6,7 @@ old-location: netvista\ndis_timer_characteristics.htm
 tech.root: netvista
 ms.assetid: 9a62e94c-f635-4ab7-b439-b98c60ba2854
 ms.date: 05/02/2018
-keywords: ["_NDIS_TIMER_CHARACTERISTICS structure"]
+keywords: ["NDIS_TIMER_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_TIMER_CHARACTERISTICS, PNDIS_TIMER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TIMER_CHARACTERISTICS, ndis/NDIS_TIMER_CHARACTERISTICS, ndis/PNDIS_TIMER_CHARACTERISTICS, ndis_timer_ref_af673f64-aa72-4767-81a0-5df465a52c81.xml, netvista.ndis_timer_characteristics"
 f1_keywords:
  - "ndis/NDIS_TIMER_CHARACTERISTICS"

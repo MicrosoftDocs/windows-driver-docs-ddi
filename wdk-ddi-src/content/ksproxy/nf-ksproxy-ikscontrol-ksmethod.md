@@ -55,28 +55,28 @@ The <b>KsMethod</b> method sends a method to a KS object, along with any other d
 
 
 
-### -param Method [in]
-
+### -param Method 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes a method and the request type of the method request. 
 
 
-### -param MethodLength [in]
-
+### -param MethodLength 
+[in]
 Size, in bytes, of the buffer at <i>Method</i>. 
 
 
-### -param MethodData [in, out]
-
+### -param MethodData 
+[in, out]
 Pointer to a buffer that contains data and buffer space for a KSMETHOD_TYPE_SEND operation, or buffer space that receives data for all other operations. 
 
 
-### -param DataLength [in]
-
+### -param DataLength 
+[in]
 Size, in bytes, of the buffer at <i>MethodData</i>. 
 
 
-### -param BytesReturned [in, out]
-
+### -param BytesReturned 
+[in, out]
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsMethod</b> stores in the buffer at <i>MethodData</i>. 
 
 

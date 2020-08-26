@@ -55,13 +55,13 @@ The <b>KeSetBasePriorityThread</b> routine sets the run-time priority, relative 
 
 
 
-### -param Thread [in, out]
-
+### -param Thread 
+[in, out]
 Pointer to a dispatcher object of type KTHREAD. 
 
 
-### -param Increment [in]
-
+### -param Increment 
+[in]
 Specifies the value to be added to the base priority of the process for the <i>Thread</i>.
 
 

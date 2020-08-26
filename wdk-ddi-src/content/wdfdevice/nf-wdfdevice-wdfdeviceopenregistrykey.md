@@ -60,13 +60,13 @@ The <b>WdfDeviceOpenRegistryKey</b> method opens a device's hardware key or a dr
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param DeviceInstanceKeyType [in]
-
+### -param DeviceInstanceKeyType 
+[in]
 Specifies which key or subkey to open.  This is a bitwise OR of the following flags (which are defined in <i>Wdm.h</i>).
 
 <table>
@@ -134,8 +134,8 @@ Similarly, a UMDF driver uses these flags to open the <b>ServiceName</b> subkey 
  
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies access rights that the driver is requesting for the specified registry key.
 
 A KMDF driver typically requests <b>KEY_READ</b>, <b>KEY_WRITE</b>, or <b>KEY_READ | KEY_WRITE</b>.
@@ -193,13 +193,13 @@ If you are writing a UMDF driver, use the following table.
 As a best practice, ask for only the types of access that your driver needs.
 
 
-### -param KeyAttributes [in, optional]
-
+### -param KeyAttributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Key [out]
-
+### -param Key 
+[out]
 A pointer to a location that receives a handle to the new registry-key object.
 
 

@@ -88,8 +88,8 @@ Given a virtual block number (VBN) and a map control block (MCB), the <b>FsRtlLo
 <p>Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. </p>
 
 
-### -param Index [out, optional]
-
+### -param Index 
+[out, optional]
 Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>. 
 
 

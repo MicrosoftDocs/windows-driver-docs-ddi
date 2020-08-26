@@ -56,18 +56,18 @@ The<b> KsStreamPointerGetIrp </b>function returns the IRP associated with the fr
 
 
 
-### -param StreamPointer [in]
-
+### -param StreamPointer 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure that references the frame for which the associated IRP is returned.
 
 
-### -param FirstFrameInIrp [out, optional]
-
+### -param FirstFrameInIrp 
+[out, optional]
 A pointer to a caller-supplied BOOLEAN value set to <b>TRUE</b> on return if the frame referenced by <i>StreamPointer</i> is the first frame in the returned IRP and <b>FALSE</b> if not. If <b>NULL</b>, AVStream does not test this condition.
 
 
-### -param LastFrameInIrp [out, optional]
-
+### -param LastFrameInIrp 
+[out, optional]
 A pointer to a caller-supplied BOOLEAN value set to <b>TRUE</b> if the frame referenced by the stream pointer is the last frame in the returned IRP and <b>FALSE</b> if not. If <b>NULL</b>, AVStream does not test this condition.
 
 

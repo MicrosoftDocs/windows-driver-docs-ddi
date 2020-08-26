@@ -57,13 +57,13 @@ A driver's <i>EvtInterruptWorkItem</i> event callback function processes interru
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 A handle to a framework interrupt object.
 
 
-### -param AssociatedObject [in]
-
+### -param AssociatedObject 
+[in]
 A handle to the framework device object that the driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
 

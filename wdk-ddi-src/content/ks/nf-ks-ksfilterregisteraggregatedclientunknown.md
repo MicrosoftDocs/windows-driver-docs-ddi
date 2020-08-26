@@ -55,13 +55,13 @@ This inline function is a wrapper for <a href="https://docs.microsoft.com/window
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 A pointer to the specified AVStream <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure.
 
 
-### -param ClientUnknown [in]
-
+### -param ClientUnknown 
+[in]
 The client <b>IUnknown</b> interface object.
 
 

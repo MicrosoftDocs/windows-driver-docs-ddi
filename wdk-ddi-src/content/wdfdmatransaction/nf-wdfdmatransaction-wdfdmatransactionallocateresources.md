@@ -59,28 +59,28 @@ req.typenames:
 
 
 
-### -param DmaTransaction [in]
-
+### -param DmaTransaction 
+[in]
 A handle to the DMA transaction object for which DMA resources should be reserved.
 
 
-### -param DmaDirection [in]
-
+### -param DmaDirection 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value specifying the DMA transfer direction for which the resources are being reserved. If the driver did not specify a duplex profile, the framework ignores this value.
 
 
-### -param RequiredMapRegisters [in]
-
+### -param RequiredMapRegisters 
+[in]
 The number of map registers the driver wants to reserve. If zero, the framework derives the required number of map registers from the initialized transaction.
 
 
-### -param EvtReserveDmaFunction [in]
-
+### -param EvtReserveDmaFunction 
+[in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_reserve_dma">EvtReserveDma</a> event callback function.
 
 
-### -param EvtReserveDmaContext [in]
-
+### -param EvtReserveDmaContext 
+[in]
 A pointer to a buffer containing the context to be provided to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_reserve_dma">EvtReserveDma</a> event callback function.
 
 

@@ -6,7 +6,7 @@ old-location: audio\hdaudio_codec_response.htm
 tech.root: audio
 ms.assetid: 56b9cdb5-2734-45b5-aeaf-ae6d606d1a5c
 ms.date: 05/08/2018
-keywords: ["_HDAUDIO_CODEC_RESPONSE structure"]
+keywords: ["HDAUDIO_CODEC_RESPONSE structure"]
 ms.keywords: "*PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], _HDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, audio.hdaudio_codec_response, hdaudio/HDAUDIO_CODEC_RESPONSE, hdaudio/PHDAUDIO_CODEC_RESPONSE"
 f1_keywords:
  - "hdaudio/HDAUDIO_CODEC_RESPONSE"

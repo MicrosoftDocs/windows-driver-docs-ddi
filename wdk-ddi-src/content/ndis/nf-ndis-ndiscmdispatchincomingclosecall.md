@@ -57,28 +57,28 @@ req.typenames:
 
 
 
-### -param CloseStatus [in]
-
+### -param CloseStatus 
+[in]
 Specifies a CM-determined NDIS_STATUS_<i>XXX</i>, indicating the reason for the disconnect request. During normal network operations, a call
      manager passes NDIS_STATUS_SUCCESS to indicate that it has received a request, initiated by the remote
      party, to close an active call.
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies the handle to the VC of the call being disconnected. This handle was supplied by NDIS
      when the VC was originally created, whether by the call manager or client, with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>.
 
 
-### -param Buffer [in, optional]
-
+### -param Buffer 
+[in, optional]
 Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
      data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
 

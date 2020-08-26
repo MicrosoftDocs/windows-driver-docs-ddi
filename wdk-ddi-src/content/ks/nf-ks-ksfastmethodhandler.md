@@ -56,43 +56,43 @@ The <b>KsFastMethodHandler</b> function handles fast methods requested through I
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Specifies the file object on which the request was made.
 
 
-### -param Method [in]
-
+### -param Method 
+[in]
 Specifies the original method parameter. This will always be on FILE_LONG_ALIGNMENT, but may not be on FILE_QUAD_ALIGNMENT.
 
 
-### -param MethodLength [in]
-
+### -param MethodLength 
+[in]
 Specifies the length indicated by the caller of the method parameter.
 
 
-### -param Data [in, out]
-
+### -param Data 
+[in, out]
 Specifies the original unaligned data parameter.
 
 
-### -param DataLength [in]
-
+### -param DataLength 
+[in]
 Specifies the length indicated by the caller of the data parameter.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 Specifies an aligned structure that is used to return error status and information.
 
 
-### -param MethodSetsCount [in]
-
+### -param MethodSetsCount 
+[in]
 Indicates the number of method set structures being passed.
 
 
-### -param MethodSet [in]
-
+### -param MethodSet 
+[in]
 Specifies the pointer to the list of method set information.
 
 

@@ -6,7 +6,7 @@ old-location: kernel\reg_pre_open_key_information.htm
 tech.root: kernel
 ms.assetid: 9b7240b5-429b-4bf2-aa7b-373b63bb79ae
 ms.date: 04/30/2018
-keywords: ["_REG_PRE_CREATE_KEY_INFORMATION structure"]
+keywords: ["REG_PRE_CREATE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_PRE_CREATE_KEY_INFORMATION, *PREG_PRE_OPEN_KEY_INFORMATION, PREG_PRE_CREATE_KEY_INFORMATION, PREG_PRE_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_PRE_OPEN_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_PRE_CREATE_KEY_INFORMATION, kernel.reg_pre_open_key_information, kstruct_d_dc0e8cf3-5084-4d54-8767-50b4ff043da8.xml, wdm/PREG_PRE_CREATE_KEY_INFORMATION, wdm/REG_PRE_CREATE_KEY_INFORMATION, wdm/REG_PRE_OPEN_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_PRE_CREATE_KEY_INFORMATION"
@@ -57,7 +57,7 @@ The <b>REG_PRE_OPEN_KEY_INFORMATION</b> structure contains the name of a registr
 
 ### -field CompleteName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the complete path of the registry key.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the complete path of the registry key.
 
 
 ## -remarks
@@ -78,7 +78,7 @@ For more information about registry filtering operations, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

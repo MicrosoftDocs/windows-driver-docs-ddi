@@ -55,13 +55,13 @@ The <b>wiauGetValidFormats</b> function calls the <a href="https://docs.microsof
 
 
 
-### -param pDrv [in]
-
+### -param pDrv 
+[in]
 Points to the WIA minidriver object. This parameter should be set to <b>this</b>.
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -70,13 +70,13 @@ Pointer to a WIA item context.
 Specifies the tymed value to search for.
 
 
-### -param pNumFormats [out]
-
+### -param pNumFormats 
+[out]
 Pointer to a memory location that receives the number of formats.
 
 
-### -param ppFormatArray [out]
-
+### -param ppFormatArray 
+[out]
 Pointer to a memory location that receives the address of the array of format GUIDs.
 
 

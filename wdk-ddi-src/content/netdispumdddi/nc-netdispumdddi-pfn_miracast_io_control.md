@@ -57,40 +57,40 @@ Called by the user-mode display driver to send the kernel-mode  display miniport
 
 
 
-### -param hMiracastDeviceHandle [in]
-
+### -param hMiracastDeviceHandle 
+[in]
 A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
 
-### -param HardwareAccess [in]
-
+### -param HardwareAccess 
+[in]
 A Boolean value that indicates whether this I/O control request from the user-mode display driver needs to flush all the pending GPU DMA buffers.
 
 We don't recommend that the driver set this value to <b>TRUE</b> except when necessary, because flushing the GPU will create substantial processing overhead.
 
 
-### -param InputBufferSize [in]
-
+### -param InputBufferSize 
+[in]
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param pInputBuffer [in]
-
+### -param pInputBuffer 
+[in]
 A pointer to the input buffer. The <i>InputBufferSize</i> parameter specifies the size of the buffer.
 
 
-### -param OutputBufferSize [in]
-
+### -param OutputBufferSize 
+[in]
 The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
-### -param pOutputBuffer [out]
-
+### -param pOutputBuffer 
+[out]
 A driver-supplied pointer to the output buffer. The <i>OutputBufferSize</i> parameter specifies the size of the buffer.
 
 
-### -param pBytesReturned [out, optional]
-
+### -param pBytesReturned 
+[out, optional]
 An optional driver-supplied pointer to a <b>UINT</b>-type variable that holds the number of bytes that the display miniport driver returned.
 
 

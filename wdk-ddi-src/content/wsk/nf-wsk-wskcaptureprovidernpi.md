@@ -59,16 +59,16 @@ The
 
 
 
-### -param WskRegistration [in]
-
+### -param WskRegistration 
+[in]
 A pointer to the memory location initialized by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>.
 
 
-### -param WaitTimeout [in]
-
+### -param WaitTimeout 
+[in]
 The time, in milliseconds, that the 
      <b>WskCaptureProviderNPI</b> function can wait until the WSK provider NPI becomes available. Alternately,
      the following can be specified:
@@ -93,8 +93,8 @@ For more information about how this parameter is used, see
      Kernel Application</a>.
 
 
-### -param WskProviderNpi [out]
-
+### -param WskProviderNpi 
+[out]
 A pointer to the NPI returned by the WSK provider. This 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a> structure contains a
      pointer to the WSK provider dispatch table of WSK functions that the WSK application can call.

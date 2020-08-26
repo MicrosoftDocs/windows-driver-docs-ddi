@@ -5,8 +5,8 @@ description: The DRIVER_INFO_8 structure contains printer driver information.
 old-location: print\driver_info_8.htm
 tech.root: print
 ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
-ms.date: 04/20/2018
-keywords: ["_DRIVER_INFO_8W structure"]
+ms.date: 08/21/2020
+keywords: ["DRIVER_INFO_8W structure"]
 ms.keywords: "*LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], DRIVER_INFO_8W, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], _DRIVER_INFO_8W, print.driver_info_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/DRIVER_INFO_8, winspool/LPDRIVER_INFO_8, winspool/PDRIVER_INFO_8"
 f1_keywords:
  - "winspool/DRIVER_INFO_8"

@@ -55,13 +55,13 @@ The <b>OutputSymbolByOffset</b> method looks up a symbol by address and prints t
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 Specifies where to send the output. For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the flags used to determine what information is printed with the symbol.
 
 The following flags can be present:
@@ -107,8 +107,8 @@ This allows the <i>Offset</i> parameter to specify any address within the symbol
  
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the process's virtual address space of the symbol to be printed.
 
 

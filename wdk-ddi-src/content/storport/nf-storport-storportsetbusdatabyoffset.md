@@ -56,42 +56,42 @@ The <b>StorPortSetBusDataByOffset</b> routine writes bus-specific configuration 
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area. 
 
 
-### -param BusDataType [in]
-
+### -param BusDataType 
+[in]
 Contains a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bus_data_type">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
 
 
-### -param SystemIoBusNumber [in]
-
+### -param SystemIoBusNumber 
+[in]
 Specifies the system-assigned number of the I/O bus on which the HBA is connected. The miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine obtains this value from the input <b>PORT_CONFIGURATION_INFORMATION</b><b>SystemIoBusNumber</b> member. 
 
 
-### -param SlotNumber [in]
-
+### -param SlotNumber 
+[in]
 Indicates the logical slot number of the HBA.
 
 When <b>PCIConfiguration</b> is specified as the <i>BusDataType</i>, this parameter must be specified as a PCI_SLOT_NUMBER-type value. 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a caller-supplied storage area with configuration information specific to <i>BusDataType</i>. 
 
 When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the PCI_COMMON_CONFIG information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied. 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the byte offset within the PCI_COMMON_CONFIG structure at which the caller-supplied configuration values begin. A miniport driver can use PCI_COMMON_HDR_LENGTH to specify the offset of the device-specific area in PCI_COMMON_CONFIG. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Indicates the length, in bytes, of the maximum amount of data to return. 
 
 

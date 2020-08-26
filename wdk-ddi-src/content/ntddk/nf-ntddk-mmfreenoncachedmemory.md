@@ -55,13 +55,13 @@ The <b>MmFreeNonCachedMemory</b> routine releases a range of noncached memory th
 
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 Pointer to the virtual address of the memory to be freed. 
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies the size of the range to be freed. This value must match the size passed in a preceding call to <b>MmAllocateNonCachedMemory</b>. 
 
 

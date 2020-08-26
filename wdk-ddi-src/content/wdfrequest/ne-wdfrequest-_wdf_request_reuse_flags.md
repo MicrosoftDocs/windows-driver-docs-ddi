@@ -6,7 +6,7 @@ old-location: wdf\wdf_request_reuse_flags.htm
 tech.root: wdf
 ms.assetid: 3d1f8f38-b875-4661-9941-4dec28b7e8fb
 ms.date: 02/26/2018
-keywords: ["_WDF_REQUEST_REUSE_FLAGS enumeration"]
+keywords: ["WDF_REQUEST_REUSE_FLAGS enumeration"]
 ms.keywords: DFRequestObjectRef_4b91ca45-4dbb-4942-83ce-72ca10170932.xml, WDF_REQUEST_REUSE_FLAGS, WDF_REQUEST_REUSE_FLAGS enumeration, WDF_REQUEST_REUSE_NO_FLAGS, WDF_REQUEST_REUSE_SET_NEW_IRP, _WDF_REQUEST_REUSE_FLAGS, kmdf.wdf_request_reuse_flags, wdf.wdf_request_reuse_flags, wdfrequest/WDF_REQUEST_REUSE_FLAGS, wdfrequest/WDF_REQUEST_REUSE_NO_FLAGS, wdfrequest/WDF_REQUEST_REUSE_SET_NEW_IRP
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_REUSE_FLAGS"

@@ -6,7 +6,7 @@ old-location: netvista\ndis_isolation_name.htm
 tech.root: netvista
 ms.assetid: 4712F853-8819-476C-8AD9-426EA5A0802E
 ms.date: 05/02/2018
-keywords: ["_NDIS_ISOLATION_NAME structure"]
+keywords: ["NDIS_ISOLATION_NAME structure"]
 ms.keywords: "*PNDIS_ISOLATION_ID_NAME, *PNDIS_ROUTING_DOMAIN_NAME, NDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_NAME, NDIS_ISOLATION_NAME structure [Network Drivers Starting with Windows Vista], NDIS_ROUTING_DOMAIN_NAME, _NDIS_ISOLATION_NAME, netvista.ndis_isolation_name, ntddndis/NDIS_ISOLATION_NAME"
 f1_keywords:
  - "ntddndis/NDIS_ISOLATION_NAME"

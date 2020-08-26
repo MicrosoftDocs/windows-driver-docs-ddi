@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param NewPrefix [in, optional]
-
+### -param NewPrefix 
+[in, optional]
 A pointer to the new output line Unicode character prefix.
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 The handle of the previous output line prefix.
 
 
@@ -69,7 +69,7 @@ The handle of the previous output line prefix.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

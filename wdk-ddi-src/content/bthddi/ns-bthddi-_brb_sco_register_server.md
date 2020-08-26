@@ -6,7 +6,7 @@ old-location: bltooth\_brb_sco_register_server.htm
 tech.root: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.date: 04/27/2018
-keywords: ["_BRB_SCO_REGISTER_SERVER structure"]
+keywords: ["BRB_SCO_REGISTER_SERVER structure"]
 ms.keywords: "_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, bthddi/_BRB_SCO_REGISTER_SERVER"
 f1_keywords:
  - "bthddi/_BRB_SCO_REGISTER_SERVER"

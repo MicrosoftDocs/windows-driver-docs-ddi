@@ -55,33 +55,33 @@ The <b>ReadUnicodeStringVirtual</b> method reads a null-terminated, Unicode stri
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the process's virtual address space of the string.
 
 
-### -param MaxBytes [in]
-
+### -param MaxBytes 
+[in]
 Specifies the maximum number of bytes to read from the target.
 
 
-### -param CodePage [in]
-
+### -param CodePage 
+[in]
 Specifies the code page to use to convert the multibyte string read from the target into a Unicode string.  For example, CP_ACP is the ANSI code page.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param StringBytes [out, optional]
-
+### -param StringBytes 
+[out, optional]
 Receives the size, in bytes, of the string in the target.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 
 

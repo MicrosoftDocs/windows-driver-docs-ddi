@@ -55,13 +55,13 @@ The <b>CcGetDirtyPages</b> routine searches for dirty pages in all files that ma
 
 
 
-### -param LogHandle [in]
-
+### -param LogHandle 
+[in]
 Log handle stored by a previous call to <b>CcSetLogHandleForFile</b>. 
 
 
-### -param DirtyPageRoutine [in]
-
+### -param DirtyPageRoutine 
+[in]
 Pointer to a callback routine that builds up a dirty page table from the pages found. This routine, which is called for each dirty page found, is declared as follows: 
 
 <div class="code"><span codelanguage=""><table>
@@ -128,13 +128,13 @@ First context parameter.
 Second context parameter. 
 
 
-### -param Context1 [in]
-
+### -param Context1 
+[in]
 First context parameter to be passed to the <i>DirtyPageRoutine</i>. 
 
 
-### -param Context2 [in]
-
+### -param Context2 
+[in]
 Second context parameter to be passed to the <i>DirtyPageRoutine</i>. 
 
 

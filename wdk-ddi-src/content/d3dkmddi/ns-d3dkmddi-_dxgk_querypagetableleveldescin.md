@@ -5,7 +5,7 @@ description: The DXGK_QUERYPAGETABLELEVELDESCIN structure is used to request pag
 old-location: display\dxgk_querypagetableleveldescin.htm
 ms.assetid: 1B13BBB1-4184-4166-A61F-CC266D0391BF
 ms.date: 05/10/2018
-keywords: ["_DXGK_QUERYPAGETABLELEVELDESCIN structure"]
+keywords: ["DXGK_QUERYPAGETABLELEVELDESCIN structure"]
 ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], _DXGK_QUERYPAGETABLELEVELDESCIN, d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN"

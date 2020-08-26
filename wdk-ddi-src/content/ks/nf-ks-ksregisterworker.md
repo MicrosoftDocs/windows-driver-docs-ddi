@@ -56,12 +56,12 @@ The worker routines function on opaque PKSWORKER objects that are created for ea
 
 ## -parameters
 
-### -param WorkQueueType [in]
-
+### -param WorkQueueType 
+[in]
 Specifies the priority of the thread to create. This is usually either **CriticalWorkQueue**, **DelayedWorkQueue**, or **HyperCriticalWorkQueue**.
 
-### -param Worker [out]
-
+### -param Worker 
+[out]
 Location to put the opaque context that must be used when scheduling a work item. This contains the queue type and is used to synchronize completion of work items.
 
 ## -returns

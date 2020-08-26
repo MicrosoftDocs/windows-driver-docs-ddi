@@ -59,15 +59,15 @@ The
 
 
 
-### -param MiniportVcContext [in]
-
+### -param MiniportVcContext 
+[in]
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 
      <i>MiniportCoCreateVc</i> function.
 
 
-### -param CallParameters [in, out]
-
+### -param CallParameters 
+[in, out]
 Specifies the call parameters, as specified by the call manager, to be established for this VC. On
      output, the miniport driver returns altered call parameters if certain flags are set in the 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure.

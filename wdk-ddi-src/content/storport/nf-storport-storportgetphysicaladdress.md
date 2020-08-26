@@ -56,23 +56,23 @@ The <b>StorPortGetPhysicalAddress</b> routine converts a given virtual address r
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the device object for the HBA immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param Srb [in, optional]
-
+### -param Srb 
+[in, optional]
 Pointer to the SCSI request block if the virtual address to be converted comes from that SRB's <b>DataBuffer</b> member or <b>SenseInfoBuffer</b> member. Otherwise, this parameter must be <b>NULL</b>. 
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 Pointer to the base virtual address to be converted. If this virtual address falls within the range for an SRB-supplied <b>DataBuffer</b>, the caller also must provide the <i>Srb</i> pointer. 
 
 
-### -param Length [out]
-
+### -param Length 
+[out]
 Pointer to a value indicating the number of bytes mapped, starting at the returned physical address.
 
 

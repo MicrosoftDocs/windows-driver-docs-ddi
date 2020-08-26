@@ -63,8 +63,8 @@ A pointer to the head of the already initialized sequenced, singly linked list f
      entry is to be returned.
 
 
-### -param Lock [in]
-
+### -param Lock 
+[in]
 A pointer to a caller-supplied spin lock, not currently held by the caller.
 
 

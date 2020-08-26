@@ -55,24 +55,24 @@ The <b>IoWMISuggestInstanceName</b> routine is used to request that WMI suggest 
 
 
 
-### -param PhysicalDeviceObject [in, optional]
-
+### -param PhysicalDeviceObject 
+[in, optional]
 If supplied, points to the driver's physical device object.
 
 
-### -param SymbolicLinkName [in, optional]
-
+### -param SymbolicLinkName 
+[in, optional]
 If supplied, points to the symbolic link name returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>. 
 
 
-### -param CombineNames [in]
-
+### -param CombineNames 
+[in]
 If <b>TRUE</b> then the suggested names returned will combine the <i>PhysicalDeviceObject</i> and <i>SymbolicLinkName</i> information.
 
 
-### -param SuggestedInstanceName [out]
-
-A pointer to a buffer which upon successful completion will contain a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
+### -param SuggestedInstanceName 
+[out]
+A pointer to a buffer which upon successful completion will contain a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
 
 
 ## -returns

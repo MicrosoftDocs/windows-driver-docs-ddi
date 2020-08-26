@@ -59,8 +59,8 @@ The <b>DisconnectProcessServer</b> method disconnects the <a href="https://docs.
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 Specifies the server from which to disconnect.  This handle must have been previously returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-connectprocessserver">ConnectProcessServer</a>.
 
 

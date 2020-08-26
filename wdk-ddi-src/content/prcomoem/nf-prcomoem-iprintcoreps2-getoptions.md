@@ -55,38 +55,38 @@ The <code>IPrintCorePS2::GetOptions</code> method retrieves the driver's current
 
 
 
-### -param pdevobj [in]
-
+### -param pdevobj 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 Is reserved and must be set to zero.
 
 
-### -param pmszFeaturesRequested [in]
-
+### -param pmszFeaturesRequested 
+[in]
 Pointer to caller-supplied buffer containing a list of feature keywords (in MULTI_SZ format) whose settings are requested. Set this parameter to <b>NULL</b> to obtain settings for all features.
 
 
-### -param cbIn [in]
-
+### -param cbIn 
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeaturesRequested</i>. The size includes the last MULTI_SZ null character.
 
 
-### -param pmszFeatureOptionBuf [out]
-
+### -param pmszFeatureOptionBuf 
+[out]
 Pointer to a caller-supplied buffer that receives a list of feature/option keyword pairs (in MULTI_SZ format) obtained from the driver settings. Each feature/option keyword pair contains the feature keyword name, a null character, the option keyword name, and another null character. The list is terminated by two NULL characters.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureOptionBuf</i>.
 
 
-### -param pcbNeeded [out]
-
+### -param pcbNeeded 
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
 

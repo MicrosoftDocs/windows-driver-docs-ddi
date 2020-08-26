@@ -58,13 +58,13 @@ The <b>PWINDBG_GET_THREAD_CONTEXT_ROUTINE</b> (<b>GetContext</b>) function imple
 ### -param Processor
 
 
-### -param lpContext [out]
-
+### -param lpContext 
+[out]
 Points to the address of a context structure that receives the appropriate context of the process being debugged. The context structure is highly machine-specific. 
 
 
-### -param cbSizeOfContext [in]
-
+### -param cbSizeOfContext 
+[in]
 Specifies the size of the context structure.
 
 

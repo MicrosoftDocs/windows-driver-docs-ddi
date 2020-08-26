@@ -55,28 +55,28 @@ The <b>StorPortEtwEvent8</b> publishes an Event Tracing for Windows (ETW) event 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in, optional]
-
+### -param Address 
+[in, optional]
 The storage unit device address. This parameter is NULL for adapter devices.
 
 
-### -param EventId [in]
-
+### -param EventId 
+[in]
 A miniport defined identifier for the ETW event.
 
 
-### -param EventDescription [in]
-
+### -param EventDescription 
+[in]
 The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
 
 
-### -param EventKeywords [in]
-
+### -param EventKeywords 
+[in]
 Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
 
 <table>
@@ -128,8 +128,8 @@ The event is related to device enumeration.
  
 
 
-### -param EventLevel [in]
-
+### -param EventLevel 
+[in]
 The event level. This value can indicate the importance or severity of the event. This is one of the following values.
 
 <table>
@@ -201,8 +201,8 @@ Verbose event information provided.
  
 
 
-### -param EventOpcode [in]
-
+### -param EventOpcode 
+[in]
 The operational nature of the event. This is one of the following values.
 
 <table>
@@ -314,88 +314,88 @@ Device or unit is  suspended pending completion of another operation.
  
 
 
-### -param Srb [in, optional]
-
+### -param Srb 
+[in, optional]
 A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
 
 
-### -param Parameter1Name [in, optional]
-
+### -param Parameter1Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter1Value [in]
-
+### -param Parameter1Value 
+[in]
 The value for parameter 1.
 
 
-### -param Parameter2Name [in, optional]
-
+### -param Parameter2Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter2Value [in]
-
+### -param Parameter2Value 
+[in]
 The value for parameter 2.
 
 
-### -param Parameter3Name [in, optional]
-
+### -param Parameter3Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter3Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter3Value [in]
-
+### -param Parameter3Value 
+[in]
 The value for parameter 3.
 
 
-### -param Parameter4Name [in, optional]
-
+### -param Parameter4Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter4Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter4Value [in]
-
+### -param Parameter4Value 
+[in]
 The value for parameter 4.
 
 
-### -param Parameter5Name [in, optional]
-
+### -param Parameter5Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter5Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter5Value [in]
-
+### -param Parameter5Value 
+[in]
 The value for parameter 5.
 
 
-### -param Parameter6Name [in, optional]
-
+### -param Parameter6Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter6Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter6Value [in]
-
+### -param Parameter6Value 
+[in]
 The value for parameter 6.
 
 
-### -param Parameter7Name [in, optional]
-
+### -param Parameter7Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter7Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter7Value [in]
-
+### -param Parameter7Value 
+[in]
 The value for parameter 7.
 
 
-### -param Parameter8Name [in, optional]
-
+### -param Parameter8Name 
+[in, optional]
 A description of the of the meaning of <i>Parameter8Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
-### -param Parameter8Value [in]
-
+### -param Parameter8Value 
+[in]
 The value for parameter 8.
 
 

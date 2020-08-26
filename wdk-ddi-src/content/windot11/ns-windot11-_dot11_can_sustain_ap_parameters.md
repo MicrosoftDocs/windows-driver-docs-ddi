@@ -6,7 +6,7 @@ old-location: netvista\dot11_can_sustain_ap_parameters.htm
 tech.root: netvista
 ms.assetid: 8d7995f3-6cc1-4f3c-a016-b31dc69ddd7f
 ms.date: 02/16/2018
-keywords: ["_DOT11_CAN_SUSTAIN_AP_PARAMETERS structure"]
+keywords: ["DOT11_CAN_SUSTAIN_AP_PARAMETERS structure"]
 ms.keywords: "*PDOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_CAN_SUSTAIN_AP_PARAMETERS, netvista.dot11_can_sustain_ap_parameters, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS"
 f1_keywords:
  - "windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS"

@@ -58,18 +58,18 @@ The <b>WdfControlDeviceInitSetShutdownNotification</b> method sets shutdown noti
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that the driver obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
 
 
-### -param Notification [in]
-
+### -param Notification 
+[in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nc-wdfcontrol-evt_wdf_device_shutdown_notification">EvtDeviceShutdownNotification</a> event callback function.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 One or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/ne-wdfcontrol-_wdf_device_shutdown_flags">WDF_DEVICE_SHUTDOWN_FLAGS</a>-typed flags that indicate when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nc-wdfcontrol-evt_wdf_device_shutdown_notification">EvtDeviceShutdownNotification</a> callback function will be called.
 
 

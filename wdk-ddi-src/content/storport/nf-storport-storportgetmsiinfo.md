@@ -55,18 +55,18 @@ The <b>StorPortGetMSIInfo</b> routine retrieves the message signaled interrupt (
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param MessageId [in]
-
+### -param MessageId 
+[in]
 The identifier of the message for which the information is retrieved.
 
 
-### -param InterruptInfo [out]
-
+### -param InterruptInfo 
+[out]
 A pointer to a miniport driver-provided <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_message_interrupt_information">MESSAGE_INTERRUPT_INFORMATION</a> structure that receives the information for the message specified by the <i>MessageId</i> parameter.
 
 

@@ -6,7 +6,7 @@ old-location: kernel\file_object.htm
 tech.root: kernel
 ms.assetid: fa87a3e8-97d2-48c0-9722-2be011d145dd
 ms.date: 04/30/2018
-keywords: ["_FILE_OBJECT structure"]
+keywords: ["FILE_OBJECT structure"]
 ms.keywords: "*PFILE_OBJECT, *PLOG_FILE_OBJECT, FILE_OBJECT, FILE_OBJECT structure [Kernel-Mode Driver Architecture], LOG_FILE_OBJECT, LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], PFILE_OBJECT, PFILE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _FILE_OBJECT, kernel.file_object, kstruct_b_513d4c8b-8e8d-402f-836d-18e00767bd29.xml, wdm/FILE_OBJECT, wdm/LOG_FILE_OBJECT, wdm/PFILE_OBJECT"
 f1_keywords:
  - "wdm/FILE_OBJECT"
@@ -463,7 +463,7 @@ Skip setting an event supplied to a system service when the fast I/O path is suc
 
 ### -field FileName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure whose <b>Buffer</b> member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the <b>Length</b> member of the 
+A <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure whose <b>Buffer</b> member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the <b>Length</b> member of the 
       <b>UNICODE_STRING</b> structure will be zero. Note that the file name in this string is valid only during the initial processing of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request. This file name should <u>not</u> be considered valid after the file system starts to process the <b>IRP_MJ_CREATE</b> request. The storage for the string pointed to by the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure is allocated in paged system memory. For more information about obtaining a file name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>.
 
 

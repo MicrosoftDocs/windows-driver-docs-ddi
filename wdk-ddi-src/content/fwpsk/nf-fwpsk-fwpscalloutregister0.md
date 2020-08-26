@@ -57,22 +57,22 @@ The
 
 
 
-### -param deviceObject [in, out]
-
+### -param deviceObject 
+[in, out]
 A pointer to a device object that was previously created by the callout driver. For more
      information about how a callout driver creates a device object, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-a-device-object">Creating a Device Object</a>.
 
 
-### -param callout [in]
-
+### -param callout 
+[in]
 A pointer to a constant 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a> structure that contains the
      data that is required to register the callout with the filter engine.
 
 
-### -param calloutId [out, optional]
-
+### -param calloutId 
+[out, optional]
 A pointer to a UINT32-typed variable that receives a run-time identifier that identifies the
      callout in the filter engine. The callout driver passes this identifier to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutunregisterbyid0">FwpsCalloutUnregisterById0</a> function when unregistering the callout from the filter engine. If a

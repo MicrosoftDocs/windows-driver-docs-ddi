@@ -58,18 +58,18 @@ The <b>WdfFdoInitSetDefaultChildListConfig</b> method configures a bus driver's 
 
 
 
-### -param DeviceInit [in, out]
-
+### -param DeviceInit 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a> structure.
 
 
-### -param DefaultChildListAttributes [in, optional]
-
+### -param DefaultChildListAttributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the child-list object that represents the driver's default child list. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 

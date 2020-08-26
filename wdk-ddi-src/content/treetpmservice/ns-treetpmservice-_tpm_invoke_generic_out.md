@@ -4,7 +4,7 @@ title: _TPM_INVOKE_GENERIC_OUT (treetpmservice.h)
 description: 
 ms.assetid: aa7676c8-a90d-4fb7-aef2-618b371ccaed
 ms.date: 10/19/2018
-keywords: ["_TPM_INVOKE_GENERIC_OUT structure"]
+keywords: ["TPM_INVOKE_GENERIC_OUT structure"]
 f1_keywords:
  - "treetpmservice/_TPM_INVOKE_GENERIC_OUT"
  - "_TPM_INVOKE_GENERIC_OUT"

@@ -60,8 +60,8 @@ Gets a value that indicates whether the test script was restarted for a specific
 
 
 
-### -param pbIsRestarted [out, retval]
-
+### -param pbIsRestarted 
+[out, retval]
 True if the script was restarted with the context; otherwise, false.
 
 
@@ -74,7 +74,7 @@ The context name.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

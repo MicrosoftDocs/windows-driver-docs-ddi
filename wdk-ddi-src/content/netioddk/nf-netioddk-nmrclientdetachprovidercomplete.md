@@ -58,8 +58,8 @@ The
 
 
 
-### -param NmrBindingHandle [in]
-
+### -param NmrBindingHandle 
+[in]
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback

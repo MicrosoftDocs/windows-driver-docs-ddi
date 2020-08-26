@@ -71,15 +71,15 @@ typedef SRIOV_RESET_FUNCTION *PSRIOV_RESET_FUNCTION;
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to a driver-defined context.
 
 
 
 
-### -param VfIndex [in]
-
+### -param VfIndex 
+[in]
 A zero-based index of the VF that is to be reset.
 
 

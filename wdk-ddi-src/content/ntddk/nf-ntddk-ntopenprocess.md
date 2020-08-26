@@ -56,23 +56,23 @@ The <b>ZwOpenProcess</b> routine opens a handle to a process object and sets the
 
 
 
-### -param ProcessHandle [out]
-
+### -param ProcessHandle 
+[out]
 A pointer to a variable of type HANDLE. The <b>ZwOpenProcess</b> routine writes the process handle to the variable that this parameter points to.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that contains the access rights that the caller has requested to the process object.
 
 
-### -param ObjectAttributes [in]
-
+### -param ObjectAttributes 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes to apply to the process object handle. In Windows Vista and later versions of Windows, the <b>ObjectName</b> field of this structure must be set to <b>NULL</b>. In Windows Server 2003, Windows XP, and Windows 2000, this field can, as an option, point to an object name. For more information, see the following Remarks section.
 
 
-### -param ClientId [in, optional]
-
+### -param ClientId 
+[in, optional]
 A pointer to a client ID that identifies the thread whose process is to be opened. In Windows Vista and later versions of Windows, this parameter must be a non-<b>NULL</b> pointer to a valid client ID. In Windows Server 2003, Windows XP, and Windows 2000, this parameter is optional and can be set to <b>NULL</b> if the <b>OBJECT_ATTRIBUTES</b> structure that <i>ObjectAttributes</i> points to specifies an object name. For more information, see the following Remarks section.
 
 

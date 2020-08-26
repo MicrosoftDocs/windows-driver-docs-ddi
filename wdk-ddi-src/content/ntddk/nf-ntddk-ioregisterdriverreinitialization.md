@@ -55,18 +55,18 @@ The <b>IoRegisterDriverReinitialization</b> routine is called by a driver during
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 Pointer to the driver object that was input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
 
 
-### -param DriverReinitializationRoutine [in]
-
+### -param DriverReinitializationRoutine 
+[in]
 Pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a> routine. 
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Pointer to the context to be passed to the driver's <i>Reinitialize</i> routine.
 
 

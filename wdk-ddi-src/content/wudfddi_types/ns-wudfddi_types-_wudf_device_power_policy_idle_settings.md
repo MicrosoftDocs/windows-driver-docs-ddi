@@ -6,7 +6,7 @@ old-location: wdf\wudf_device_power_policy_idle_settings.htm
 tech.root: wdf
 ms.assetid: E6EF8852-E39C-491B-9430-0308CA6276C0
 ms.date: 02/26/2018
-keywords: ["_WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure"]
+keywords: ["WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure"]
 ms.keywords: "*PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, umdf.wudf_device_power_policy_idle_settings, wdf.wudf_device_power_policy_idle_settings, wudfddi_types/PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 f1_keywords:
  - "wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"

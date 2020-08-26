@@ -6,7 +6,7 @@ old-location: image\sti_device_status.htm
 tech.root: image
 ms.assetid: 40104e1f-b936-430b-9e8c-28738579f4c7
 ms.date: 05/03/2018
-keywords: ["_STI_DEVICE_STATUS structure"]
+keywords: ["STI_DEVICE_STATUS structure"]
 ms.keywords: "*PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], STI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], _STI_DEVICE_STATUS, image.sti_device_status, sti/PSTI_DEVICE_STATUS, sti/STI_DEVICE_STATUS, stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml"
 f1_keywords:
  - "sti/STI_DEVICE_STATUS"

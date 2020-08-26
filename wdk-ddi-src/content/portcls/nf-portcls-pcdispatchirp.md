@@ -56,13 +56,13 @@ The <b>PcDispatchIrp</b> function dispatches an IRP to the PortCls system driver
 
 
 
-### -param pDeviceObject [in]
-
+### -param pDeviceObject 
+[in]
 Pointer to the device object. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param pIrp [in]
-
+### -param pIrp 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> that is to be dispatched
 
 

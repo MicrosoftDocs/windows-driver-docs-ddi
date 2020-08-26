@@ -55,8 +55,8 @@ The <b>FsRtlDoesDbcsContainWildCards</b> routine determines whether an ANSI or d
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the string to be checked.
 
 

@@ -58,16 +58,16 @@ The
 
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 The handle that 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> returns and that
      identifies the target network interface card (NIC) or the virtual adapter of the next-lower driver that
      the caller is bound to.
 
 
-### -param AddressFamily [in]
-
+### -param AddressFamily 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that describes
      the call manager and AF to be opened. 
@@ -79,16 +79,16 @@ This pointer is an input parameter to the client's
      <b>NdisClOpenAddressFamilyEx</b>.
 
 
-### -param ClientAfContext [in]
-
+### -param ClientAfContext 
+[in]
 The handle to a caller-supplied resident context area in which the client maintains state for this
      AF after the AF has been opened. NDIS passes this handle back to the client in all subsequent calls
      concerning this AF if the call to 
      <b>NdisClOpenAddressFamilyEx</b> succeeds.
 
 
-### -param NdisAfHandle [out]
-
+### -param NdisAfHandle 
+[out]
 A pointer to a caller-supplied variable in which 
      <b>NdisClOpenAddressFamilyEx</b> returns a handle that represents the newly opened address family.
 

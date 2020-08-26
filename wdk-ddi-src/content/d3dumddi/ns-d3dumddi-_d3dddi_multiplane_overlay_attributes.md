@@ -6,7 +6,7 @@ old-location: display\d3dddi_multiplane_overlay_attributes.htm
 tech.root: display
 ms.assetid: 6f758785-5d7f-4d63-82c7-93ced5de3da4
 ms.date: 05/10/2018
-keywords: ["_D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
+keywords: ["D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, display.d3dddi_multiplane_overlay_attributes
 f1_keywords:
  - "d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES"

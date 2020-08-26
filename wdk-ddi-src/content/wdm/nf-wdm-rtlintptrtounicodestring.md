@@ -55,13 +55,13 @@ The <b>RtlIntPtrToUnicodeString</b> routine converts a specified ULONG_PTR value
 
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the ULONG_PTR value to convert. 
 
 
-### -param Base [in, optional]
-
+### -param Base 
+[in, optional]
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
 
 <table>
@@ -113,9 +113,9 @@ Decimal
  
 
 
-### -param String [in, out]
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i> of <i>String</i> must be large enough to hold the result. 
+### -param String 
+[in, out]
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i> of <i>String</i> must be large enough to hold the result. 
 
 ## -remarks
 
@@ -148,7 +148,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-nt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

@@ -5,7 +5,7 @@ description: This structure contains error information.
 old-location: gnss\gnss_errorinfo.htm
 tech.root: gnss
 ms.assetid: 754CD1DD-88E6-4E02-8E24-1939222FE326
-ms.date: 02/15/2018
+ms.date: 08/20/2020
 keywords: ["GNSS_ERRORINFO structure"]
 ms.keywords: "*PGNSS_ERRORINFO, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], gnss.gnss_errorinfo, gnssdriver/GNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO"
 f1_keywords:
@@ -43,59 +43,34 @@ req.typenames: GNSS_ERRORINFO, *PGNSS_ERRORINFO
 
 # GNSS_ERRORINFO structure
 
-
 ## -description
 
-
-This structure contains error information.
-
+This structure contains GNSS error information.
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-Structure size.
-
+Structure size
 
 ### -field Version
 
-Version number.
-
+Version number
 
 ### -field ErrorCode
 
 Win32 Error Code associated with the event.
 
-The IHV can pick the error that is most similar to what needs to be reported (for example, E_OUTOFMEMORY). The IHV can also use FACILITY_ITF to create custom errors. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=525284">Codes in FACILITY_ITF</a>.
-
-
+The IHV can pick the error that is most similar to what needs to be reported (for example, E_OUTOFMEMORY). The IHV can also use FACILITY_ITF to create custom errors. For more information, see [Codes in FACILITY_ITF](https://docs.microsoft.com/windows/win32/com/codes-in-facility-itf).
 
 ### -field IsRecoverable
 
-If FALSE, the GNSS adapter needs to reset it’s state with the GNSS driver.
-
+If FALSE, the GNSS adapter needs to reset it's state with the GNSS driver.
 
 ### -field ErrorDescription
 
- 
-
+ErrorDescription[256] - Clear-text description of the error (not-localized) that is used for diagnostic purpose only.
 
 ### -field Unused
 
- 
-
-
-
-
-#### - ErrorDescription[256]
-
-Clear-text description of the error (not-localized) that is used for diagnostic purpose only.
-
-
-#### - Unused[512]
-
-Padding buffer.
-
+Unused[512] - Padding buffer

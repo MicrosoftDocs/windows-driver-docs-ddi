@@ -59,8 +59,8 @@ Adds a property key to the collection.
 
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A <b>REFPROPERTYKEY</b> to add to the collection. This method copies the key to the collection.
 
 

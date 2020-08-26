@@ -56,23 +56,23 @@ For a non-Plug and Play miniport driver, the <b>ScsiPortInitialize</b> routine s
 
 
 
-### -param Argument1 [in]
-
+### -param Argument1 
+[in]
 Pointer to the driver object that the operating system passed to the miniport driver in the first argument of its <b>DriverEntry</b> routine.
 
 
-### -param Argument2 [in]
-
+### -param Argument2 
+[in]
 Pointer to some context information that the operating system passed to the miniport driver in the second argument of its <b>DriverEntry</b>.
 
 
-### -param HwInitializationData [in]
-
+### -param HwInitializationData 
+[in]
 Pointer to the initialization and configuration information supplied by <b>DriverEntry</b>.
 
 
-### -param HwContext [in]
-
+### -param HwContext 
+[in]
 Specifies the address of a context value to be passed to the miniport driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)">HwScsiFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <i>HwScsiFindAdapter</i>.
 
 

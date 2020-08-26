@@ -57,23 +57,23 @@ The <b>GetTextMacro</b> method returns the value of a fixed-name alias.
 
 
 
-### -param Slot [in]
-
+### -param Slot 
+[in]
 Specifies the number of the fixed-name alias.  <i>Slot</i> can take the values 0, 1, ..., 9, that represent the fixed-name aliases <b>$u0</b>, <b>$u1</b>, ..., <b>$u9</b>.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the value of the alias specified by <i>Slot</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param MacroSize [out, optional]
-
+### -param MacroSize 
+[out, optional]
 Receives the size, in characters, of the value of the alias.
 
 

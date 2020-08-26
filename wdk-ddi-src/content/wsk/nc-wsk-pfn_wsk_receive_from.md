@@ -57,15 +57,15 @@ The
 
 
 
-### -param Socket [in]
-
+### -param Socket 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket from which to receive the datagram.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to an initialized 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
      that receives the datagram from the socket.
@@ -77,8 +77,8 @@ This parameter is reserved for system use. A WSK application must set this param
      zero.
 
 
-### -param RemoteAddress [out, optional]
-
+### -param RemoteAddress 
+[out, optional]
 A pointer to a caller-allocated buffer that receives the remote transport address from which the
      received datagram originated. The buffer must be located in non-paged memory. The buffer must also be
      large enough to contain the specific SOCKADDR structure type that corresponds to the address family that
@@ -89,8 +89,8 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
 ### -param ControlLength
 
 
-### -param ControlInfo [out, optional]
-
+### -param ControlInfo 
+[out, optional]
 A pointer to a caller-allocated buffer that receives the control information that is associated
      with the received datagram. The control information data that is associated with a datagram is made up
      of one or more control data objects, each of which begins with a 
@@ -101,8 +101,8 @@ A pointer to a caller-allocated buffer that receives the control information tha
      <i>ControlInfo</i> parameter should be <b>NULL</b>.
 
 
-### -param ControlFlags [out, optional]
-
+### -param ControlFlags 
+[out, optional]
 A pointer to a ULONG-typed variable that receives the bitwise OR of a combination of the following
      flags:
      
@@ -142,8 +142,8 @@ The control information data was truncated because the number of bytes of contro
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

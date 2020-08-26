@@ -56,13 +56,13 @@ The <b>PcNewPort</b> function creates a new system-supplied port-driver object, 
 
 
 
-### -param OutPort [out]
-
+### -param OutPort 
+[out]
 Output pointer for the port-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iport">IPort</a> object. This object has the port interface that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
 
-### -param ClassID [in]
-
+### -param ClassID 
+[in]
 Specifies the type of port interface that is being requested. For more information, see the following Remarks section.
 
 

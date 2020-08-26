@@ -55,13 +55,13 @@ The <b>SerCxInitialize</b> method completes the initialization of the serial fra
 
 
 
-### -param FxDevice [in]
-
+### -param FxDevice 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a> structure that contains configuration information for SerCx. The caller previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_config_init">SERCX_CONFIG_INIT</a> function to initialize this structure.
 
 

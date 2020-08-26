@@ -58,13 +58,13 @@ The <i>DereferenceSwitchPort</i> function decrements the Hyper-V extensible swit
 
 
 
-### -param NdisSwitchContext [in]
-
+### -param NdisSwitchContext 
+[in]
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
 
-### -param SwitchPortId [in]
-
+### -param SwitchPortId 
+[in]
 An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensible switch port for which the extensible switch reference counter is incremented.
 
 

@@ -58,15 +58,15 @@ The
 
 
 
-### -param netBufferList [in, out]
-
+### -param netBufferList 
+[in, out]
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      reference count is being incremented.
 
 
-### -param intendToModify [in]
-
+### -param intendToModify 
+[in]
 A value that indicates whether a callout intends to modify the cloned network buffer list, whose
      parent is pointed to by the 
      <i>netBufferList</i> parameter, after the 

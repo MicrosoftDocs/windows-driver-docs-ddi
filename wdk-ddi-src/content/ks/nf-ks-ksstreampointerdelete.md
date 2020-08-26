@@ -56,8 +56,8 @@ The<b> KsStreamPointerDelete </b>function deletes a clone stream pointer, releas
 
 
 
-### -param StreamPointer [in]
-
+### -param StreamPointer 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the clone stream pointer to delete. Must be a clone stream pointer; cannot be the leading or trailing edge stream pointer.
 
 

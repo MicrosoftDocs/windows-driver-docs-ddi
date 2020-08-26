@@ -55,18 +55,18 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-d
 
 
 
-### -param RemoteOptions [in]
-
+### -param RemoteOptions 
+[in]
 Specifies how the debugger engine will connect to the remote host.  These are the same options that get passed to the <b>-remote</b> option on the command line.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-debugging-client">Activating a Debugging Client</a>.
 
 
-### -param InterfaceId [in]
-
+### -param InterfaceId 
+[in]
 Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
 
-### -param Interface [out]
-
+### -param Interface 
+[out]
 Receives an interface pointer for the new client.  The type of this interface is specified by <i>InterfaceId</i>.
 
 

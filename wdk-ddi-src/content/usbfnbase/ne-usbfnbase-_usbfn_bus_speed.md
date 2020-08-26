@@ -6,7 +6,7 @@ old-location: buses\usbfn_bus_speed.htm
 tech.root: usbref
 ms.assetid: B97E27A1-0D95-41AA-8FF6-A92F70FBAD28
 ms.date: 05/07/2018
-keywords: ["_USBFN_BUS_SPEED enumeration"]
+keywords: ["USBFN_BUS_SPEED enumeration"]
 ms.keywords: "*PUSBFN_BUS_SPEED, USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedFull, UsbfnBusSpeedHigh, UsbfnBusSpeedLow, UsbfnBusSpeedMaximum, UsbfnBusSpeedSuper, _USBFN_BUS_SPEED, buses.usbfn_bus_speed, usbfnbase/USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedSuper"
 f1_keywords:
  - "usbfnbase/USBFN_BUS_SPEED"

@@ -55,13 +55,13 @@ The <b>SerCx2InitializeDevice</b> method finishes initializing the framework dev
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller. For more information, see Remarks.
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a> structure that contains pointers to a set of event callback functions that are implemented by the serial controller driver. Version 2 of the serial framework controller (SerCx2) calls these functions to configure the serial controller and to perform basic operations that are independent of the I/O transaction types (PIO, system DMA, or custom) that the driver  supports.
 
 

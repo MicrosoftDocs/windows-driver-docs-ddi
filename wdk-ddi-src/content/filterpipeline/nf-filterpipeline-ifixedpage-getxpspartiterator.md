@@ -55,8 +55,8 @@ The <b>GetXpsPartIterator</b> method gets an iterator to enumerate all of the pa
 
 
 
-### -param pXpsPartIt [out]
-
+### -param pXpsPartIt 
+[out]
 An iterator that you can use to enumerate all of the parts that are associated with the page.
 
 

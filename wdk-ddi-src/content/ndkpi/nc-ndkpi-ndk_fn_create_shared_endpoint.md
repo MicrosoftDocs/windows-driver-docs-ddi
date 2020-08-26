@@ -55,8 +55,8 @@ The <i>NdkCreateSharedEndpoint</i> (<i>NDK_FN_CREATE_SHARED_ENDPOINT</i>) functi
 
 
 
-### -param pNdkAdapter [in]
-
+### -param pNdkAdapter 
+[in]
 A pointer to an NDK adapter object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>).
 
 
@@ -64,20 +64,20 @@ A pointer to an NDK adapter object (<a href="https://docs.microsoft.com/windows-
 
 A local address to use for initiating outgoing connections. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
 
-### -param AddressLength [in]
-
+### -param AddressLength 
+[in]
 The size, in bytes, of local address data at the <i>pAddress</i> parameter.
 
 
 
 
-### -param CreateCompletion [in]
-
+### -param CreateCompletion 
+[in]
 A pointer to an <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 

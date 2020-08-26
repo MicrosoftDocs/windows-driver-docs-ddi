@@ -55,13 +55,13 @@ The UDE client driver's implementation to determine the capabilities that are su
 
 
 
-### -param UdecxWdfDevice [in]
-
+### -param UdecxWdfDevice 
+[in]
 A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
-### -param CapabilityType [in]
-
+### -param CapabilityType 
+[in]
 Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i>  values are  as follows:
 
 <ul>
@@ -76,19 +76,19 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
    For information about the capabilities, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a>.
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-### -param OutputBuffer [out, optional]
-
+### -param OutputBuffer 
+[out, optional]
 A pointer to a location that receives the buffer's address. Certain capabilities may need to provide additional information
         to the USB device emulation  class extension (UdeCx)  in this buffer.
 
 
-### -param ResultLength [out]
-
+### -param ResultLength 
+[out]
 A location that, on return, contains the size, in bytes, of the information that the callback function stored in <i>OutputBuffer.</i>
 
 

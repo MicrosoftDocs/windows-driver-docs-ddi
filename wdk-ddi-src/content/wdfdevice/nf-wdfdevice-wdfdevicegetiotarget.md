@@ -60,8 +60,8 @@ The <b>WdfDeviceGetIoTarget</b> method returns a handle to a function or filter 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

@@ -57,22 +57,22 @@ The <b>GetWriteParameters</b> method retrieves parameters that are associated wi
 
 
 
-### -param ppWriteMemory [out]
-
+### -param ppWriteMemory 
+[out]
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for access to the write buffer for the completion of the write request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pBytesWritten [out]
-
+### -param pBytesWritten 
+[out]
 A pointer to a variable that receives the size, in bytes, of the write buffer for the completion of the write request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-### -param pWriteMemoryOffset [out]
-
+### -param pWriteMemoryOffset 
+[out]
 A pointer to a variable that receives the offset, in bytes, into the write buffer for the completion of the write request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 

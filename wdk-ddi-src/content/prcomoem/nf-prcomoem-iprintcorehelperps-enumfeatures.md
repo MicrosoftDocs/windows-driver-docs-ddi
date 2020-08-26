@@ -55,13 +55,13 @@ The<b> IPrintCoreHelperPS::EnumFeatures</b> method gets a list of all available 
 
 
 
-### -param pFeatureList [out]
-
+### -param pFeatureList 
+[out]
 A pointer to an array of ANSI character strings that contain all of the features that are available for the current device. The final array element is indicated by a <b>NULL</b> string.
 
 
-### -param pdwNumFeatures [out]
-
+### -param pdwNumFeatures 
+[out]
 A pointer to a variable that receives the number of feature keywords in the array that is pointed to by the <i>pFeatureList</i> parameter.
 
 

@@ -57,8 +57,8 @@ The <b>GetImplicitThreadDataOffset</b> method returns the implicit thread for th
 
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the location in the target's memory address space of the data structure of the system thread that is the implicit thread for the current process.
 
 

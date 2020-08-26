@@ -6,7 +6,7 @@ old-location: display\d3dddicb_getmultisamplemethodlist.htm
 tech.root: display
 ms.assetid: 07cabd0e-5b5c-42ff-9b2a-57bec527d690
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_GETMULTISAMPLEMETHODLIST structure"]
+keywords: ["D3DDDICB_GETMULTISAMPLEMETHODLIST structure"]
 ms.keywords: D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, _D3DDDICB_GETMULTISAMPLEMETHODLIST, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist
 f1_keywords:
  - "d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST"

@@ -55,8 +55,8 @@ The <b>RemoveSyntheticModule</b> method removes a synthetic module from the modu
 
 
 
-### -param Base [in]
-
+### -param Base 
+[in]
 Specifies the location in the process's virtual address space of the base of the synthetic module.
 
 

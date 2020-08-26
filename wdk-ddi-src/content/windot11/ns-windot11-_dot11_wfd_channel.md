@@ -6,7 +6,7 @@ old-location: netvista\dot11_wfd_channel.htm
 tech.root: netvista
 ms.assetid: FE05F3D9-B1F0-4DC3-9265-22A76209A3E1
 ms.date: 02/16/2018
-keywords: ["_DOT11_WFD_CHANNEL structure"]
+keywords: ["DOT11_WFD_CHANNEL structure"]
 ms.keywords: "*PDOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CHANNEL, PDOT11_WFD_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_CHANNEL, netvista.dot11_wfd_channel, windot11/DOT11_WFD_CHANNEL, windot11/PDOT11_WFD_CHANNEL"
 f1_keywords:
  - "windot11/DOT11_WFD_CHANNEL"

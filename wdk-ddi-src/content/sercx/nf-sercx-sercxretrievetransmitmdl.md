@@ -55,13 +55,13 @@ The <b>SerCxRetrieveTransmitMdl</b> method retrieves the MDL that describes the 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param Mdl [out]
-
+### -param Mdl 
+[out]
 A pointer to a location into which the method writes a pointer to the MDL.
 
 

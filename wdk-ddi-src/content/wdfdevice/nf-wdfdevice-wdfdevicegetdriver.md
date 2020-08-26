@@ -60,8 +60,8 @@ The <b>WdfDeviceGetDriver</b> method returns a handle to the framework driver ob
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

@@ -55,13 +55,13 @@ The <b>PushEntryList</b> routine inserts an entry at the beginning of a singly l
 
 
 
-### -param ListHead [in, out]
-
+### -param ListHead 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
 
 
-### -param Entry [in, out]
-
+### -param Entry 
+[in, out]
 Pointer to SINGLE_LIST_ENTRY structure that represents the entry to be inserted on the list.
 
 

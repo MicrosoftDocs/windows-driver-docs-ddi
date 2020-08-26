@@ -73,28 +73,28 @@ ULONG GetVirtualFunctionData(
 
 
 
-### -param Context [in, out]
-
+### -param Context 
+[in, out]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param VirtualFunction [in]
-
+### -param VirtualFunction 
+[in]
 A zero-based value that specifies the VF on the device from which data is to be read.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to the buffer that contains the configuration information read from the PCIe configuration space of the VF.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 The offset into the PCIe configuration space data of the VF. This member specifies where this read operation begins.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in bytes, of the data to be read.
 
 

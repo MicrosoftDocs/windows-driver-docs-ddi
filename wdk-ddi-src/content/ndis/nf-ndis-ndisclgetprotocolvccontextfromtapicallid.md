@@ -57,15 +57,15 @@ req.typenames:
 
 
 
-### -param TapiCallId [in]
-
+### -param TapiCallId 
+[in]
 Unicode string that identifies a particular VC. This string is the Unicode version of a string
      identifier that was previously returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscogettapicallid">NdisCoGetTapiCallID</a> function.
 
 
-### -param ProtocolVcContext [out]
-
+### -param ProtocolVcContext 
+[out]
 Pointer to a caller-allocated NDIS_HANDLE that receives a handle to the client context for the VC.
      The client supplied this context to NDIS on return from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> handler.
@@ -132,7 +132,7 @@ The client creates a context for each VC that it manages. The client uses
     <b>NdisClGetProtocolVcContextFromTapiCallId</b> to get back the correct context for the VC.
 
 See the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure for more
+    <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure for more
     information.
 
 
@@ -151,7 +151,7 @@ See the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

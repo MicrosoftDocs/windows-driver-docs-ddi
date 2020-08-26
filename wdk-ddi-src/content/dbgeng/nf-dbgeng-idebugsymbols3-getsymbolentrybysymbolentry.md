@@ -56,18 +56,18 @@ Allows navigation within the
 
 
 
-### -param FromId [in]
-
+### -param FromId 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure as the input ID.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param ToId [out]
-
+### -param ToId 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure as the output ID.
 
 
@@ -75,7 +75,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

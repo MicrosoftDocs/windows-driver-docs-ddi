@@ -55,8 +55,8 @@ The <b>KsSetCorrelatedPhysicalTime</b> method sets the physical time with the co
 
 
 
-### -param CorrelatedTime [in]
-
+### -param CorrelatedTime 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time to which to set the underlying clock. 
 
 

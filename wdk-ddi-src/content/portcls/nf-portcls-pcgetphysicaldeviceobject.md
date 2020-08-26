@@ -56,13 +56,13 @@ The <b>PcGetPhysicalDeviceObject</b> function enables audio miniport drivers to 
 
 
 
-### -param pDeviceObject [in]
-
+### -param pDeviceObject 
+[in]
 Pointer to the device object for the device.
 
 
-### -param ppPhysicalObject [out]
-
+### -param ppPhysicalObject 
+[out]
 Pointer to the physical object for the device.
 
 

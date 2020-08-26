@@ -60,28 +60,28 @@ The <b>WdfUsbTargetPipeWriteSynchronously</b> method builds a write request and 
 
 
 
-### -param Pipe [in]
-
+### -param Pipe 
+[in]
 A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 
-### -param Request [in, optional]
-
+### -param Request 
+[in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param RequestOptions [in, optional]
-
+### -param RequestOptions 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param MemoryDescriptor [in, optional]
-
+### -param MemoryDescriptor 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure that describes the buffer that contains data that will be written to the device. For more information about this buffer, see the following Remarks section. 
 
 
-### -param BytesWritten [out, optional]
-
+### -param BytesWritten 
+[out, optional]
 A pointer to a location that receives the number of bytes written, if the operation succeeds. This parameter is optional and can be <b>NULL</b>.
 
 

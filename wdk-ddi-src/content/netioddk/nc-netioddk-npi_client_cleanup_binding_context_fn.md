@@ -58,8 +58,8 @@ A client module's
 
 
 
-### -param ClientBindingContext [in]
-
+### -param ClientBindingContext 
+[in]
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it has detached. The client module passes this pointer to the NMR when it
      calls the 

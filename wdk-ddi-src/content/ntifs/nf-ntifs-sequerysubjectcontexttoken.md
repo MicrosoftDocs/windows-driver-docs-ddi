@@ -55,8 +55,8 @@ The <b>SeQuerySubjectContextToken</b> macro retrieves the access token for a sec
 
 
 
-### -param SubjectContext [in]
-
+### -param SubjectContext 
+[in]
 Pointer to the subject context to query.
 
 

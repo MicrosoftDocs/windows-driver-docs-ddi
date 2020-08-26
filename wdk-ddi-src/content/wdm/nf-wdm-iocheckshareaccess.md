@@ -55,13 +55,13 @@ The <b>IoCheckShareAccess</b> routine is called by file system drivers (FSDs) or
 
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given <i>FileObject</i> for the current open request. Drivers compute the value of this parameter by taking the requested access in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request and then applying <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a> for each security descriptor to determine the actual access granted. If the granted access is more restrictive than the desired access, then that is an error, and the driver should complete the current IRP with a status of STATUS_ACCESS_DENIED. (Note that <b>SeAccessCheck</b> clears the MAXIMUM_ALLOWED bit in the granted access; be sure to not use that bit when comparing desired access to granted access.) The driver then passes the granted access as the value of <i>DesiredAccess</i>. 
 
 
-### -param DesiredShareAccess [in]
-
+### -param DesiredShareAccess 
+[in]
 Specifies the desired type of shared access to <i>FileObject</i> for the current open request. The value of this parameter is usually the same as the <i>ShareAccess</i> passed to the file system or highest-level driver by the I/O manager when the open request was made. This value can be zero, or any combination of the following:
 
 FILE_SHARE_READ
@@ -71,18 +71,18 @@ FILE_SHARE_WRITE
 FILE_SHARE_DELETE
 
 
-### -param FileObject [in, out]
-
+### -param FileObject 
+[in, out]
 Pointer to the file object for which to check access for the current open request.
 
 
-### -param ShareAccess [in, out]
-
+### -param ShareAccess 
+[in, out]
 Pointer to the common share-access data structure associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
-### -param Update [in]
-
+### -param Update 
+[in]
 Specifies whether to update the share-access status for <i>FileObject</i>. A Boolean value of <b>TRUE</b> means this routine will update the share access information for the file object if the open request is permitted. 
 
 

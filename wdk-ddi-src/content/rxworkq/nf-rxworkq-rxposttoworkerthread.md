@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param pMRxDeviceObject [in]
-
+### -param pMRxDeviceObject 
+[in]
 A pointer to the device object of the corresponding network mini-redirector driver.
 
 
-### -param WorkQueueType [in]
-
+### -param WorkQueueType 
+[in]
 The type of the work queue that represents the priority of the task. This parameter can be one of the following values:
 
 
@@ -85,18 +85,18 @@ Insert WORK_QUEUE_ITEM into the queue from which a system thread with a variable
 Insert WORK_QUEUE_ITEM into the queue from which a system thread will process the work item so that the routine to invoke is not blocked.
 
 
-### -param pWorkQueueItem [in]
-
+### -param pWorkQueueItem 
+[in]
 A pointer to WORK_QUEUE_ITEM.
 
 
-### -param Routine [in]
-
+### -param Routine 
+[in]
 A pointer to the routine to invoke.
 
 
-### -param pContext [in]
-
+### -param pContext 
+[in]
 A pointer to a context parameter associated with the work item to complete that is passed to the driver.
 
 

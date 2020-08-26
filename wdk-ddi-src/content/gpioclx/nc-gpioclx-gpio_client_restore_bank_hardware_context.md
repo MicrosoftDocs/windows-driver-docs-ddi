@@ -49,12 +49,12 @@ The *CLIENT_RestoreBankHardwareContext* event callback function restores the har
 
 ## -parameters
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-### -param Parameters [in]
-
+### -param Parameters 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_save_restore_bank_hardware_context_parameters">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a> structure that describes the bank of GPIO pins to restore.
 
 ## -remarks

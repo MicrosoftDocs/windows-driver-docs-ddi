@@ -55,13 +55,13 @@ The <b>OutputPromptVaListWide</b>  method formats and sends a user prompt to the
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 Specifies an output control that determines which of the client's output callbacks will receive the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 
-### -param Format [in, optional]
-
+### -param Format 
+[in, optional]
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
@@ -241,8 +241,8 @@ String that contains the name of the specified symbol (and displacement, if any)
 If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the output callbacks.
 
 
-### -param Args [in]
-
+### -param Args 
+[in]
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>. This method does not call <b>va_end</b>.
 
 

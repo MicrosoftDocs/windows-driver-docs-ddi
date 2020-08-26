@@ -6,7 +6,7 @@ old-location: wdf\wdf_io_target_open_params.htm
 tech.root: wdf
 ms.assetid: 9539868c-127b-4781-9a73-b56fbfda3233
 ms.date: 02/26/2018
-keywords: ["_WDF_IO_TARGET_OPEN_PARAMS structure"]
+keywords: ["WDF_IO_TARGET_OPEN_PARAMS structure"]
 ms.keywords: "*PWDF_IO_TARGET_OPEN_PARAMS, DFIOTargetRef_6363f7be-6768-4c90-88c4-88c5fdea0019.xml, PWDF_IO_TARGET_OPEN_PARAMS, PWDF_IO_TARGET_OPEN_PARAMS structure pointer, WDF_IO_TARGET_OPEN_PARAMS, WDF_IO_TARGET_OPEN_PARAMS structure, _WDF_IO_TARGET_OPEN_PARAMS, kmdf.wdf_io_target_open_params, wdf.wdf_io_target_open_params, wdfiotarget/PWDF_IO_TARGET_OPEN_PARAMS, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS"
 f1_keywords:
  - "wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS"
@@ -100,7 +100,7 @@ This member is not applicable to UMDF drivers.
 
 ### -field TargetDeviceName
 
-If the value of <b>Type</b> is <b>WdfIoTargetOpenByName</b>, this is a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of a device, file, or device interface. For information about the format of this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-names">Object Names</a>.
+If the value of <b>Type</b> is <b>WdfIoTargetOpenByName</b>, this is a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of a device, file, or device interface. For information about the format of this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-names">Object Names</a>.
 
 If the value of <b>Type</b> is not <b>WdfIoTargetOpenByName</b>, this member is ignored.
 
@@ -296,7 +296,7 @@ Drivers should initialize the <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure by call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

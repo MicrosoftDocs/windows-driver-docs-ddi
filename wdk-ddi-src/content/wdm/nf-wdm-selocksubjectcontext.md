@@ -55,8 +55,8 @@ The <b>SeLockSubjectContext</b> routine locks the primary and impersonation toke
 
 
 
-### -param SubjectContext [in]
-
+### -param SubjectContext 
+[in]
 Pointer to a SECURITY_SUBJECT_CONTEXT structure returned by a call to <b>SeCaptureSubjectContext</b>.
 
 

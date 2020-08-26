@@ -56,8 +56,8 @@ The <b>PcDestroyContent</b> function deletes a DRM content ID that was created b
 
 
 
-### -param ContentId [in]
-
+### -param ContentId 
+[in]
 Specifies a nonzero DRM content ID assigned to a KS audio stream by <b>DrmCreateContentMixed</b>. Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
 
 

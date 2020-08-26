@@ -6,7 +6,7 @@ old-location: kernel\pep_prepare_device.htm
 tech.root: kernel
 ms.assetid: 1D47C803-693B-4205-9D25-82489BFEC82C
 ms.date: 04/30/2018
-keywords: ["_PEP_PREPARE_DEVICE structure"]
+keywords: ["PEP_PREPARE_DEVICE structure"]
 ms.keywords: "*PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_PREPARE_DEVICE, kernel.pep_prepare_device, pepfx/PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE"
 f1_keywords:
  - "pep_x/PEP_PREPARE_DEVICE"
@@ -57,7 +57,7 @@ The <b>PEP_PREPARE_DEVICE</b> structure identifies a device that must be started
 
 ### -field DeviceId
 
-[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
 ### -field DeviceAccepted
@@ -83,7 +83,7 @@ This structure is used by the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

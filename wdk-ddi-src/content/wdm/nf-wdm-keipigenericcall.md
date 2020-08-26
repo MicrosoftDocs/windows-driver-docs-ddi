@@ -55,13 +55,13 @@ The <b>KeIpiGenericCall</b> routine causes the specified routine to run on all p
 
 
 
-### -param BroadcastFunction [in]
-
+### -param BroadcastFunction 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> routine. This routine is run on every processor simultaneously.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Specifies the value to pass to <i>IpiGenericCall</i> when it is called. 
 
 

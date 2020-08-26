@@ -5,7 +5,7 @@ description: The DXGKARG_QUERYADAPTERINFO structure contains parameters for a qu
 old-location: display\dxgkarg_queryadapterinfo.htm
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_QUERYADAPTERINFO structure"]
+keywords: ["DXGKARG_QUERYADAPTERINFO structure"]
 ms.keywords: DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices], DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, _DXGKARG_QUERYADAPTERINFO, d3dkmddi/DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo
 f1_keywords:
  - "d3dkmddi/DXGKARG_QUERYADAPTERINFO"

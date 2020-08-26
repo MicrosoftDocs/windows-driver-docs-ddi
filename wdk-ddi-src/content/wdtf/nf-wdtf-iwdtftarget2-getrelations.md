@@ -55,20 +55,20 @@ Returns a collection of related targets.
 
 
 
-### -param RelationSDEL [in]
-
+### -param RelationSDEL 
+[in]
 An SDEL statement that contains one or more relation tokens 
 that specify the desired targets.
 
 
-### -param MatchSDEL [in]
-
+### -param MatchSDEL 
+[in]
 The SDEL statement that each returned target must match.
 If <i>MatchSDEL</i> is empty, all targets are returned.
 
 
-### -param ppRelations [out, retval]
-
+### -param ppRelations 
+[out, retval]
 The address of the variable that will receive the 
 result of this method.
 
@@ -77,7 +77,7 @@ result of this method.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

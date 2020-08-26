@@ -55,18 +55,18 @@ The <i>NdkDeregisterMr</i> (<i>NDK_FN_DEREGISTER_MR</i>) function deregisters a 
 
 
 
-### -param pNdkMr [in]
-
+### -param pNdkMr 
+[in]
 A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>) that is in the registered state.
 
 
-### -param RequestCompletion [in]
-
+### -param RequestCompletion 
+[in]
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 

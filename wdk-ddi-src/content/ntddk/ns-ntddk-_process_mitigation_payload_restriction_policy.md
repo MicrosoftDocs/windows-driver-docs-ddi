@@ -6,7 +6,7 @@ old-location: kernel\process_mitigation_payload_restriction_policy.htm
 tech.root: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.date: 04/30/2018
-keywords: ["_PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure"]
+keywords: ["PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure"]
 ms.keywords: "*PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
 f1_keywords:
  - "ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"

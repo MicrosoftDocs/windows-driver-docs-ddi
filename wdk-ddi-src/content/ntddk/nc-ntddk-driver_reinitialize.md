@@ -55,18 +55,18 @@ The <i>Reinitialize</i> routine continues driver and device initialization after
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Caller-supplied pointer to context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterdriverreinitialization">IoRegisterDriverReinitialization</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdriverreinitialization">IoRegisterBootDriverReinitialization</a>.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Caller-supplied value representing the number of times the <i>Reinitialize</i> routine has been called, including the current call.
 
 

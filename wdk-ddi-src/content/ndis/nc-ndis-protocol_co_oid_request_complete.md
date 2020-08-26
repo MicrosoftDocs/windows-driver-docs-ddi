@@ -58,8 +58,8 @@ The
 
 
 
-### -param ProtocolAfContext [in]
-
+### -param ProtocolAfContext 
+[in]
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
@@ -68,20 +68,20 @@ A handle that identifies an address family (AF) context area. If the driver is a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 A handle that identifies the active virtual connection (VC) that the driver requested or set
      information for, if the request was VC-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-### -param ProtocolPartyContext [in]
-
+### -param ProtocolPartyContext 
+[in]
 A handle that identifies the party on a multipoint VC that the driver requested or set information
      for, if the request is party-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-### -param OidRequest [in, out]
-
+### -param OidRequest 
+[in, out]
 A pointer to the driver-supplied 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
@@ -89,8 +89,8 @@ A pointer to the driver-supplied
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmoidrequest">NdisMCmOidRequest</a> function.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The final status of the request. The target driver or NDIS determines this final status. This
      parameter determines what 
      <i>ProtocolCoOidRequestComplete</i> does with the information at 

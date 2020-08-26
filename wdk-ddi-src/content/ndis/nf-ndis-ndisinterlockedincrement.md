@@ -58,8 +58,8 @@ The
 
 
 
-### -param Addend [in]
-
+### -param Addend 
+[in]
 A pointer to a variable of type LONG.
 
 

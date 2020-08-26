@@ -55,8 +55,8 @@ The <b>FsRtlAcknowledgeEcp</b> routine marks an extra create parameter (ECP) con
 
 
 
-### -param EcpContext [in]
-
+### -param EcpContext 
+[in]
 A pointer to the ECP to mark as acknowledged.
 
 

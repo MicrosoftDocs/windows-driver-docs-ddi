@@ -55,13 +55,13 @@ The <b>IoSetDeviceInterfaceState</b> routine enables or disables an instance of 
 
 
 
-### -param SymbolicLinkName [in]
-
+### -param SymbolicLinkName 
+[in]
 Pointer to a string that identifies the device interface instance that is being enabled or disabled. This string was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>. 
 
 
-### -param Enable [in]
-
+### -param Enable 
+[in]
 <b>TRUE</b> indicates that the device interface is being enabled. <b>FALSE</b> indicates that the device interface is being disabled. 
 
 

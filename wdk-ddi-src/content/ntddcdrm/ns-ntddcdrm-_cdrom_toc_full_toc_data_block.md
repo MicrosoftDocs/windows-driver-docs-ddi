@@ -6,7 +6,7 @@ old-location: storage\cdrom_toc_full_toc_data_block.htm
 tech.root: storage
 ms.assetid: 8d6d1283-b64e-4c3b-8a45-376cfe76a19d
 ms.date: 01/08/2020
-keywords: ["_CDROM_TOC_FULL_TOC_DATA_BLOCK structure"]
+keywords: ["CDROM_TOC_FULL_TOC_DATA_BLOCK structure"]
 ms.keywords: "*PCDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK, storage.cdrom_toc_full_toc_data_block, structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK"

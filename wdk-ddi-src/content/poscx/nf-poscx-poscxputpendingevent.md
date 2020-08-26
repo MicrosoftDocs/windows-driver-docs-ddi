@@ -59,24 +59,24 @@ PosCxPutPendingEvent creates a new event object, copies the event data to the
 
 
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
 
-### -param deviceInterfaceTag [in]
-
+### -param deviceInterfaceTag 
+[in]
 The device interface associated with the event.  By default, only
           file objects that have the same tag will receive this event.
 
 
-### -param eventType [in]
-
+### -param eventType 
+[in]
 The new event type.
 
 
-### -param rawEventDataSize [in]
-
+### -param rawEventDataSize 
+[in]
 The raw event (without point-of-service header) buffer size in bytes.
 
 
@@ -86,8 +86,8 @@ The pointer to the raw (without point-of-service header) event data.
           The caller may reuse/release <i>rawEventDataPtr</i> after <b>PosCxPutPendingEvent</b> returns.
 
 
-### -param eventAttr [in]
-
+### -param eventAttr 
+[in]
 The event attributes.
 
 

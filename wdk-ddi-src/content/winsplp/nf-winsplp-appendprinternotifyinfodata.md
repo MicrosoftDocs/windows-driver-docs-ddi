@@ -55,8 +55,8 @@ The print spooler's <b>AppendPrinterNotifyInfoData</b> function adds the content
 
 
 
-### -param pInfoDest [in]
-
+### -param pInfoDest 
+[in]
 Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (defined in the Microsoft Windows SDK documentation).
 
 

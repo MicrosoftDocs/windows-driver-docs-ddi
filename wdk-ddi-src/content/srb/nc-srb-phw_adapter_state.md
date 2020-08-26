@@ -56,18 +56,18 @@ The PHW_INITIALIZE routine prototype declares a routine that saves or restores t
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Reserved for system use.
 
 
-### -param SaveState [in]
-
+### -param SaveState 
+[in]
 Indicates, when <b>TRUE</b>, that the miniport driver should save the current state of the HBA until the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a> routine is called again with <i>SaveState</i> set to <b>FALSE</b> to restore the saved state.
 
 

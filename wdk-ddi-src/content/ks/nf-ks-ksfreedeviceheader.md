@@ -56,8 +56,8 @@ The <b>KsFreeDeviceHeader</b> function cleans up and frees a previously allocate
 
 
 
-### -param Header [in]
-
+### -param Header 
+[in]
 Indicates the device header to free that had been previously allocated by <b>KsAllocateDeviceHeader</b>.
 
 

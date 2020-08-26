@@ -55,8 +55,8 @@ The <b>ExAllocatePoolWithTagPriority</b> routine allocates pool memory of the sp
 
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 The type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
 
 You can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the request cannot be satisfied.
@@ -64,18 +64,18 @@ You can modify the <i>PoolType</i> value by bitwise-ORing this value with the PO
 Similarly, you can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out  quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available starting with Windows XP.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 The number of bytes to allocate.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 The pool tag to use for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 
-### -param Priority [in]
-
+### -param Priority 
+[in]
 The priority of this request. Set this parameter to one of the following <b>EX_POOL_PRIORITY</b> enumeration values.
 
 <table>

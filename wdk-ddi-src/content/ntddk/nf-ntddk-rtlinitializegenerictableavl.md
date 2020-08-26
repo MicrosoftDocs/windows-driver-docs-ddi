@@ -55,13 +55,13 @@ The <b>RtlInitializeGenericTableAvl</b> routine initializes a generic table usin
 
 
 
-### -param Table [out]
-
+### -param Table 
+[out]
 A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
 
 
-### -param CompareRoutine [in]
-
+### -param CompareRoutine 
+[in]
 An entry point of a comparison callback routine, declared as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -106,8 +106,8 @@ The <i>CompareRoutine</i> must strictly track the ordering of all elements in th
 Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan</b>, <b>GenericGreaterThan</b>, or <b>GenericEqual</b>. 
 
 
-### -param AllocateRoutine [in]
-
+### -param AllocateRoutine 
+[in]
 An entry point of an allocation callback routine, declared as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -143,8 +143,8 @@ The number of bytes to allocate.
 For each new element, the <i>AllocateRoutine</i> is called to allocate memory for caller-supplied data plus some additional memory for use by the <i>Rtl...GenericTableAvl</i> routines. Note that because of this "additional memory," caller-supplied routines must not access the first <b>sizeof</b>(RTL_BALANCED_LINKS) bytes of any element in the generic table. 
 
 
-### -param FreeRoutine [in]
-
+### -param FreeRoutine 
+[in]
 An entry point of a deallocation callback routine, declared as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -180,8 +180,8 @@ A pointer to the element that is being deleted.
 <i>Rtl...GenericTableAvl</i> routines call the <i>FreeRoutine</i> to deallocate memory for elements to be deleted from the generic table. The <i>FreeRoutine</i> is the opposite of the <i>AllocateRoutine</i>. 
 
 
-### -param TableContext [in, optional]
-
+### -param TableContext 
+[in, optional]
 An optional pointer to a caller-supplied context for the generic table. This parameter can be <b>NULL</b>.
 
 

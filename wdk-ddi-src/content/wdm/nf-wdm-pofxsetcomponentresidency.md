@@ -55,18 +55,18 @@ The <b>PoFxSetComponentResidency</b> routine sets the estimated time for how lon
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
 
-### -param Component [in]
-
+### -param Component 
+[in]
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Residency [in]
-
+### -param Residency 
+[in]
 The estimated residency time, in 100-nanosecond units. This parameter is a hint to PoFx about how long the component is likely to remain idle after a transition from the active condition to the idle condition. For more information, see Remarks.
 
 

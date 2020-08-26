@@ -6,7 +6,7 @@ old-location: ieee\irb_req_receive_phy_packets.htm
 tech.root: IEEE
 ms.assetid: FE160EB4-EDBD-4783-A02D-F82D2842ADD0
 ms.date: 02/15/2018
-keywords: ["_IRB_RECEIVE_PHY_PACKETS structure"]
+keywords: ["IRB_RECEIVE_PHY_PACKETS structure"]
 ms.keywords: 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets, IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], _IRB_RECEIVE_PHY_PACKETS
 f1_keywords:
  - "1394/IRB_REQ_RECEIVE_PHY_PACKETS"

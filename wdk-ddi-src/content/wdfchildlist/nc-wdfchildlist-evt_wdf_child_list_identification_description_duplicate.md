@@ -57,18 +57,18 @@ A driver's <i>EvtChildListIdentificationDescriptionDuplicate</i> event callback 
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a framework child-list object.
 
 
-### -param SourceIdentificationDescription [in]
-
+### -param SourceIdentificationDescription 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies the source location of the child identification description.
 
 
-### -param DestinationIdentificationDescription [out]
-
+### -param DestinationIdentificationDescription 
+[out]
 A pointer to a WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure that identifies the destination location of the duplicate child identification description.
 
 

@@ -56,13 +56,13 @@ Initializes a WDF-allocated structure with pointers to callback functions.
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
-
+### -param UdecxUsbDeviceInit 
+[in, out]
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param Callbacks [in]
-
+### -param Callbacks 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_usb_device_state_change_callbacks">UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS</a> structure that contains pointers to callback functions implemented by the client driver.
 
 

@@ -57,23 +57,23 @@ The <b>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS</b> funct
 
 
 
-### -param Params [out]
-
+### -param Params 
+[out]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_select_config_params">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure.
 
 
-### -param ConfigDescriptor [in]
-
+### -param ConfigDescriptor 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_configuration_descriptor">USB_CONFIGURATION_DESCRIPTOR</a> structure.
 
 
-### -param InterfaceDescriptors [in]
-
+### -param InterfaceDescriptors 
+[in]
 A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structures.
 
 
-### -param NumInterfaceDescriptors [in]
-
+### -param NumInterfaceDescriptors 
+[in]
 The number of elements that is in the <i>InterfaceDescriptors</i> array.
 
 

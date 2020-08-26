@@ -6,7 +6,7 @@ old-location: print\expsfontrestriction.htm
 tech.root: print
 ms.assetid: 079BEF8A-514E-42C3-8916-95655C605098
 ms.date: 04/20/2018
-keywords: ["__MIDL___MIDL_itf_filterpipeline_0000_0000_0004 enumeration"]
+keywords: ["_MIDL___MIDL_itf_filterpipeline_0000_0000_0004 enumeration"]
 ms.keywords: EXpsFontRestriction, EXpsFontRestriction enumeration [Print Devices], Xps_Restricted_Font_Editable, Xps_Restricted_Font_Installable, Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_PreviewPrint, __MIDL___MIDL_itf_filterpipeline_0000_0000_0004, filterpipeline/EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_Editable, filterpipeline/Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_NoEmbedding, filterpipeline/Xps_Restricted_Font_PreviewPrint, print.expsfontrestriction
 f1_keywords:
  - "filterpipeline/EXpsFontRestriction"

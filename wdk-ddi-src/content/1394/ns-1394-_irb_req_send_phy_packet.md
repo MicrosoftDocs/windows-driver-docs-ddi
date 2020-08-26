@@ -6,7 +6,7 @@ old-location: ieee\irb_req_send_phy_packet.htm
 tech.root: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_SEND_PHY_PACKET structure"]
+keywords: ["IRB_REQ_SEND_PHY_PACKET structure"]
 ms.keywords: 1394/IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet, IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], _IRB_REQ_SEND_PHY_PACKET
 f1_keywords:
  - "1394/IRB_REQ_SEND_PHY_PACKET"

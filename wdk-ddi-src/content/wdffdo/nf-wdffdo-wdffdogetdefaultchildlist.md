@@ -58,8 +58,8 @@ The <b>WdfFdoGetDefaultChildList</b> method returns a handle to a specified devi
 
 
 
-### -param Fdo [in]
-
+### -param Fdo 
+[in]
 A handle to a framework device object.
 
 

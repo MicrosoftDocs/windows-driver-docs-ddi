@@ -55,13 +55,13 @@ The <code>AddProperty</code> method adds a property to a property bag.
 
 
 
-### -param pszName [in]
-
+### -param pszName 
+[in]
 The name of the property that you want to add to the property bag. You should uniquely identify this property so that it does not collide with others. For example, use a name like <i>MyCompanyName-MySetting</i>.
 
 
-### -param pVar [in]
-
+### -param pVar 
+[in]
 The <b>VARIANT</b> value to add to the property bag.
 
 

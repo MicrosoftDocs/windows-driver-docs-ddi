@@ -56,13 +56,13 @@ The <b>PcRequestNewPowerState</b> function is used to request a new power state 
 
 
 
-### -param pDeviceObject [in]
-
+### -param pDeviceObject 
+[in]
 Pointer to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/">functional device object (FDO)</a>. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param RequestedNewState [in]
-
+### -param RequestedNewState 
+[in]
 Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
 
 

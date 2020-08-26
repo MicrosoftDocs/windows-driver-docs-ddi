@@ -60,8 +60,8 @@ The <b>WdfRequestGetInformation</b> method returns completion status information
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

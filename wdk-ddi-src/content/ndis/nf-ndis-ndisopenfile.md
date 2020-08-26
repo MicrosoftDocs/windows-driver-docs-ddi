@@ -57,8 +57,8 @@ The
 
 
 
-### -param Status [out]
-
+### -param Status 
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the open file
      operation, which can be one of the following:
      
@@ -95,28 +95,28 @@ The specified file's data could not be read into system memory for subsequent ac
        caller.
 
 
-### -param FileHandle [out]
-
+### -param FileHandle 
+[out]
 A pointer to a caller-supplied variable in which this function returns the handle of the opened
      file if the call succeeds.
 
 
-### -param FileLength [out]
-
+### -param FileLength 
+[out]
 A pointer to a caller-supplied variable in which this function writes the number of bytes of data
      in the opened file if the call succeeds.
 
 
-### -param FileName [in]
-
+### -param FileName 
+[in]
 A pointer to an NDIS_STRING type containing an initialized counted string, in the system-default
      character set, naming the file to be opened. For Windows 2000 and later drivers, this string contains
      Unicode characters. That is, for Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
-### -param HighestAcceptableAddress [in]
-
+### -param HighestAcceptableAddress 
+[in]
 The highest physical address in which the file data can be stored, or specifies -1 if the driver
      places no restrictions.
 
@@ -167,7 +167,7 @@ When
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

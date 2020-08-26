@@ -56,8 +56,8 @@ The<b> KsGetFirstChild</b> function returns the first AVStream child object of <
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The object for which to find the first AVStream child object.
 
 

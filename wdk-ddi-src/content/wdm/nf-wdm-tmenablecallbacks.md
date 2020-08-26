@@ -57,18 +57,18 @@ The <b>TmEnableCallbacks</b> routine enables a callback routine that receives <a
 
 
 
-### -param ResourceManager [in]
-
+### -param ResourceManager 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a>. To obtain this pointer, your component must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a> provided.
 
 
-### -param CallbackRoutine [in]
-
+### -param CallbackRoutine 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ptm_rm_notification">ResourceManagerNotification</a> routine.
 
 
-### -param RMKey [in, optional]
-
+### -param RMKey 
+[in, optional]
 A caller-defined context value that uniquely identifies the resource manager. The caller's <i>ResourceManagerNotification</i> routine receives this value as input.
 
 

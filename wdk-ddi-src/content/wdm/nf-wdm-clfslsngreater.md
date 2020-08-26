@@ -56,13 +56,13 @@ The <b>ClfsLsnGreater</b> routine determines whether one LSN is greater than ano
 
 
 
-### -param plsn1 [in]
-
+### -param plsn1 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
 
 
-### -param plsn2 [in]
-
+### -param plsn2 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the other LSN to be compared.
 
 

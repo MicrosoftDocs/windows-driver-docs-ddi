@@ -62,8 +62,8 @@ The
 
 
 
-### -param ConfigurationHandle [in]
-
+### -param ConfigurationHandle 
+[in]
 The handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a> function
      returns.

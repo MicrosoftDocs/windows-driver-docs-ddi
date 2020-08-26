@@ -55,8 +55,8 @@ The <b>KeRevertToUserAffinityThreadEx</b> routine restores the previous affinity
 
 
 
-### -param Affinity [in]
-
+### -param Affinity 
+[in]
 A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread. Set this parameter to the value that was returned by a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemaffinitythreadex">KeSetSystemAffinityThreadEx</a> routine.
 
 

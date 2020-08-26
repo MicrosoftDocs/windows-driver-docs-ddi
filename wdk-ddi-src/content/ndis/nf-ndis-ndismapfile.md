@@ -58,8 +58,8 @@ The
 
 
 
-### -param Status [out]
-
+### -param Status 
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the mapping
      operation, which can be one of the following:
      
@@ -80,14 +80,14 @@ The caller has exclusive access to the file contents until the
 The caller cannot access the file contents at this time.
 
 
-### -param MappedBuffer [out]
-
+### -param MappedBuffer 
+[out]
 A pointer to a caller-supplied variable in which this function returns the base virtual address of
      the mapped file contents or <b>NULL</b>.
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 The handle that was returned by a preceding call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a> function.
 

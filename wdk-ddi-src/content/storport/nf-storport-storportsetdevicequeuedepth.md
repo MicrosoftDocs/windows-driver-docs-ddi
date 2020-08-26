@@ -50,24 +50,24 @@ The **StorPortSetDeviceQueueDepth** routine sets the maximum depth of the device
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the miniport driver's per-HBA storage area.
 
-### -param PathId [in]
-
+### -param PathId 
+[in]
 Contains the path ID of the target device.
 
-### -param TargetId [in]
-
+### -param TargetId 
+[in]
 Contains the device number of the target device.
 
-### -param Lun [in]
-
+### -param Lun 
+[in]
 Contains the logical unit number of the target device.
 
-### -param Depth [in]
-
+### -param Depth 
+[in]
 Supplies the depth to which the queue is to be set. This value is always > 0.
 
 ## -returns

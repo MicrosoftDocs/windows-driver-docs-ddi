@@ -6,7 +6,7 @@ old-location: display\d3dhal_dp2command.htm
 tech.root: display
 ms.assetid: 3fa32e5c-32d5-4e26-82b5-45dbf5389f2b
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2COMMAND structure"]
+keywords: ["D3DHAL_DP2COMMAND structure"]
 ms.keywords: "*LPD3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND structure [Display Devices], LPD3DHAL_DP2COMMAND, LPD3DHAL_DP2COMMAND structure pointer [Display Devices], _D3DHAL_DP2COMMAND, d3dhal/D3DHAL_DP2COMMAND, d3dhal/LPD3DHAL_DP2COMMAND, d3dstrct_9497e802-c325-4d08-ba6c-f482d17da6c5.xml, display.d3dhal_dp2command"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2COMMAND"

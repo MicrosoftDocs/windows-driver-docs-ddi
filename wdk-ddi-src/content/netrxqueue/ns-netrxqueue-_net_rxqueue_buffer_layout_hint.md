@@ -5,7 +5,7 @@ description: The NET_RXQUEUE_BUFFER_LAYOUT_HINT structure represents receive buf
 tech.root: netvista
 ms.assetid: e9d6b199-e950-4c70-9ac3-0bdf3bbf2616
 ms.date: 02/09/2018
-keywords: ["_NET_RXQUEUE_BUFFER_LAYOUT_HINT structure"]
+keywords: ["NET_RXQUEUE_BUFFER_LAYOUT_HINT structure"]
 f1_keywords:
  - "netrxqueue/NET_RXQUEUE_BUFFER_LAYOUT_HINT"
  - "NET_RXQUEUE_BUFFER_LAYOUT_HINT"

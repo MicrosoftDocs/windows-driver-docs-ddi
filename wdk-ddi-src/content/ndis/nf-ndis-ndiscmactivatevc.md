@@ -57,8 +57,8 @@ req.typenames:
 
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies the handle identifying the VC on which to set call parameters. The call manager either
      obtained this handle from 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> for an incoming call or as
@@ -67,8 +67,8 @@ Specifies the handle identifying the VC on which to set call parameters. The cal
      client-initiated outgoing call.
 
 
-### -param CallParameters [in, out]
-
+### -param CallParameters 
+[in, out]
 Pointer to a CM-allocated resident buffer, formatted as a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, containing all the
      media-specific parameters that the underlying miniport driver uses for VC activation.

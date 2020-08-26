@@ -50,28 +50,28 @@ Creates a default allocator that uses the specified memory pool and associates t
 
 ## -parameters
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Contains the IRP with the allocator create request being handled.
 
-### -param InitializeContext [in, optional]
-
+### -param InitializeContext 
+[in, optional]
 Optionally contains a context to use with an external allocator. This is only used as the initialization context to the optional InitializeAllocator callback when creating an allocator context. The parameter is not otherwise used. If an external allocator is not provided, this parameter must be set to **NULL**.
 
-### -param DefaultAllocate [in, optional]
-
+### -param DefaultAllocate 
+[in, optional]
 Optionally contains an external allocate function that is used in place of the default pool allocation. If this is **NULL**, default allocation is used.
 
-### -param DefaultFree [in, optional]
-
+### -param DefaultFree 
+[in, optional]
 Optionally contains an external free function that is used in place of the default pool allocation. If an external allocator is not provided, this parameter must be set to **NULL**.
 
-### -param InitializeAllocator [in, optional]
-
+### -param InitializeAllocator 
+[in, optional]
 Optionally contains an external allocator initialization function to which the InitializeContext parameter is passed. This function is expected to return an allocator context based on the allocator framing. If an external allocator is not provided, this parameter must be set to **NULL**.
 
-### -param DeleteAllocator [in, optional]
-
+### -param DeleteAllocator 
+[in, optional]
 Optionally contains an external allocator delete function that is used for external allocators.  If an external allocator is not provided, this parameter must be set to **NULL**.
 
 ## -returns

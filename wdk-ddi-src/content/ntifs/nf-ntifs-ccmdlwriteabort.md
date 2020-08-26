@@ -55,13 +55,13 @@ The <b>CcMdlWriteAbort</b> routine frees memory descriptor lists (MDL) created b
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>. 
 
 
-### -param MdlChain [in]
-
+### -param MdlChain 
+[in]
 Address of the MDL chain returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>. 
 
 

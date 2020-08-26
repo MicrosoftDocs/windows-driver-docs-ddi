@@ -55,18 +55,18 @@ The <b>ZwCreateKeyTransacted</b> routine creates a new registry key or opens an 
 
 
 
-### -param KeyHandle [out]
-
+### -param KeyHandle 
+[out]
 A pointer to a HANDLE variable into which the routine writes the handle to the key. 
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies the type of access to the key that the caller requests. This parameter is an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value. For more information, see the description of the <i>DesiredAccess</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine. 
 
 
-### -param ObjectAttributes [in]
-
+### -param ObjectAttributes 
+[in]
 A pointer to the object attributes of the key being opened. This parameter points to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that must have been previously initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. The caller must specify the name of the registry key as the <i>ObjectName</i> parameter in the call to <b>InitializeObjectAttributes</b>. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 
@@ -75,13 +75,13 @@ A pointer to the object attributes of the key being opened. This parameter point
 Device and intermediate drivers set this parameter to zero. 
 
 
-### -param Class [in, optional]
-
+### -param Class 
+[in, optional]
 Device and intermediate drivers set this parameter to <b>NULL</b>. 
 
 
-### -param CreateOptions [in]
-
+### -param CreateOptions 
+[in]
 Specifies the options to apply when the routine creates or opens the key. Set this parameter to zero or to the bitwise OR of one or more of the following REG_OPTION_<i>XXX</i> flag bits.
 
 <table>
@@ -133,13 +133,13 @@ Open the key with special privileges that enable backup and restore operations. 
  
 
 
-### -param TransactionHandle [in]
-
+### -param TransactionHandle 
+[in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>. To obtain this handle, you can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> routine. Or, if you have a pointer to a transaction object, you can supply the pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-obopenobjectbypointer">ObOpenObjectByPointer</a> routine to obtain the corresponding transaction handle.
 
 
-### -param Disposition [out, optional]
-
+### -param Disposition 
+[out, optional]
 A pointer to a location into which the routine writes one of the following values to indicate whether the call created a new key or opened an existing one.
 
 <table>

@@ -49,8 +49,8 @@ req.typenames:
 
 ## -parameters
 
-### -param RxContext [in]
-
+### -param RxContext 
+[in]
 A pointer to the RX_CONTEXT structure for this request.
 
 ## -returns

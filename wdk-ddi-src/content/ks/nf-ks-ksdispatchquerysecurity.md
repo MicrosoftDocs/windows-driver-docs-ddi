@@ -56,13 +56,13 @@ The <b>KsDispatchQuerySecurity</b> function is used in the KSDISPATCH_TABLE.Quer
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Specifies the device object associated with the IRP.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP that is being handled.
 
 

@@ -6,7 +6,7 @@ old-location: netvista\ndis_wwan_packet_service_state.htm
 tech.root: netvista
 ms.assetid: 63dbd674-32b3-4843-8349-706c3c0380e5
 ms.date: 04/04/2019
-keywords: ["_NDIS_WWAN_PACKET_SERVICE_STATE structure"]
+keywords: ["NDIS_WWAN_PACKET_SERVICE_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, _NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE"

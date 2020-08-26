@@ -56,8 +56,8 @@ The <b>GetCurrentSystemUpTime</b> method returns the number of seconds the curre
 
 
 
-### -param UpTime [out]
-
+### -param UpTime 
+[out]
 Receives the number of seconds the computer has been running, or <b>0</b> if the engine is unable to determine the running time.
 
 

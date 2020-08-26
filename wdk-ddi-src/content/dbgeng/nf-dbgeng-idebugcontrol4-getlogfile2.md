@@ -55,23 +55,23 @@ The <b>GetLogFile2</b>  method returns the name of the currently open log file.
 
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the name of the currently open log file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param FileSize [out, optional]
-
+### -param FileSize 
+[out, optional]
 Receives the size, in characters, of the name of the log file.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Flags [out]
-
+### -param Flags 
+[out]
 Receives the bit-flags that were used when opening the log file.  See the <i>Flags</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-openlogfile2">OpenLogFile2</a> for a description of these flags.
 
 

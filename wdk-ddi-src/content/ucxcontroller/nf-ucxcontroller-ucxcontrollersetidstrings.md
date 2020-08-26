@@ -62,18 +62,18 @@ Updates the identifier strings
 <p> A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)"><b>UcxControllerCreate</b></a> method.</p>
 
 
-### -param ManufacturerNameString [in]
-
+### -param ManufacturerNameString 
+[in]
 A string that contains the name of controller manufacturer.
 
 
-### -param ModelNameString [in]
-
+### -param ModelNameString 
+[in]
 A string that contains the name of device model.
 
 
-### -param ModelNumberString [in]
-
+### -param ModelNumberString 
+[in]
 A string that contains the revision number of the device model.
 
 

@@ -57,38 +57,38 @@ This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-### -param NdisMiniportDataPathHandle [in]
-
+### -param NdisMiniportDataPathHandle 
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
-
+### -param PortId 
+[in]
 The port ID. Must be a non-wildcard value.
 
 
-### -param PeerId [in]
-
+### -param PeerId 
+[in]
 The peer ID. Must be a non-wildcard value.
 
 
-### -param ExTidBitmask [in]
-
+### -param ExTidBitmask 
+[in]
 The Extended TID bitmask.
 
 
-### -param MaxNumFrames [in]
-
+### -param MaxNumFrames 
+[in]
 Maximum frame count. <i>MaxNumFrames</i> is ignored if it is set to <b>WDI_TX_MAX_FRAME_COUNT_INVALID</b> (0xFF).
 
 
-### -param Credit [in]
-
+### -param Credit 
+[in]
 Credit. <i>Credit</i> is ignored if it is set to <b>WDI_TX_CREDIT_INVALID</b> (0xFFFF).
 
 
-### -param ppNBL [out]
-
+### -param ppNBL 
+[out]
 Pointer to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain of released frames.
 
 

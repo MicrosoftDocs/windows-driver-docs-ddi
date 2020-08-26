@@ -5,7 +5,7 @@ description: The DXGKARG_PATCH structure describes a direct memory access (DMA) 
 old-location: display\dxgkarg_patch.htm
 ms.assetid: 37ca2208-253c-417e-a44c-fd1303d5f3dc
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_PATCH structure"]
+keywords: ["DXGKARG_PATCH structure"]
 ms.keywords: DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, _DXGKARG_PATCH, d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch
 f1_keywords:
  - "d3dkmddi/DXGKARG_PATCH"

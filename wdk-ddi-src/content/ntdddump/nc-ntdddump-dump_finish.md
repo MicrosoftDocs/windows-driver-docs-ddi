@@ -55,8 +55,8 @@ The <i>Dump_Finish</i> callback routine is called after writing all the dump dat
 
 
 
-### -param FilterExtension [in]
-
+### -param FilterExtension 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
 

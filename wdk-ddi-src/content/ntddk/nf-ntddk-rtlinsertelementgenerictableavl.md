@@ -55,23 +55,23 @@ The <b>RtlInsertElementGenericTableAvl</b> routine adds a new entry to a generic
 
 
 
-### -param Table [in]
-
+### -param Table 
+[in]
 Pointer to a generic Adelson-Velsky/Landis (AVL) table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) that was initialized by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A caller-allocated buffer that contains the user data to copy into the new element. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>. 
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Size in bytes of data in <i>Buffer.</i>
 
 
-### -param NewElement [out, optional]
-
+### -param NewElement 
+[out, optional]
 On output, a value of <b>TRUE</b> means the insertion of the new element in the generic table was successful. A value of <b>FALSE</b> means the insertion failed.
 
 

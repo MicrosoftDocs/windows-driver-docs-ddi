@@ -57,13 +57,13 @@ The <b>SetThreadContext</b> method sets the current <a href="https://docs.micros
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Specifies the thread context. The type of the thread context is the CONTEXT structure for the target's effective processor.  The buffer <i>Context</i> must be large enough to hold this structure.
 
 
-### -param ContextSize [in]
-
+### -param ContextSize 
+[in]
 Specifies the size of the buffer <i>Context</i>.
 
 

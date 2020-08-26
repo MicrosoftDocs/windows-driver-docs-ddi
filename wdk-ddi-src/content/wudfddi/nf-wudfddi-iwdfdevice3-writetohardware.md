@@ -57,23 +57,23 @@ The <b>WriteToHardware</b> method is used internally by the framework. Do not us
 
 
 
-### -param Type [in]
+### -param Type 
+[in]
 
+### -param Size 
+[in]
 
-### -param Size [in]
+### -param Address 
+[in]
 
+### -param Value 
+[in]
 
-### -param Address [in]
+### -param Buffer 
+[in, optional]
 
-
-### -param Value [in]
-
-
-### -param Buffer [in, optional]
-
-
-### -param Count [in, optional]
-
+### -param Count 
+[in, optional]
 
 ## -see-also
 

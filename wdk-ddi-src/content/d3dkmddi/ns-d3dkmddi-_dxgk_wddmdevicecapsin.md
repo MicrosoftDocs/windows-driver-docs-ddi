@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 44896806-4977-4dc8-b71b-5290b6c0f9a1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-keywords: ["_DXGK_WDDMDEVICECAPSIN structure"]
+keywords: ["DXGK_WDDMDEVICECAPSIN structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_WDDMDEVICECAPSIN"
  - "_DXGK_WDDMDEVICECAPSIN"

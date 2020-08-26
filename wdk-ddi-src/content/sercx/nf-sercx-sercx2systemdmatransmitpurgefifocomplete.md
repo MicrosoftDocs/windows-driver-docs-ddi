@@ -55,13 +55,13 @@ The <b>SerCx2SystemDmaTransmitPurgeFifoComplete</b> method notifies version 2 of
 
 
 
-### -param SystemDmaTransmit [in]
-
+### -param SystemDmaTransmit 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
-### -param BytesPurged [in]
-
+### -param BytesPurged 
+[in]
 The number of bytes of unsent data that the serial controller driver purged from the transmit FIFO.
 
 

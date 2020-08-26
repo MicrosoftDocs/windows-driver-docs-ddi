@@ -61,8 +61,8 @@ The <b>BdaPropertyNodeDescriptors</b> function retrieves a list of nodes in a te
 
 
 
-### -param pKSProperty [in]
-
+### -param pKSProperty 
+[in]
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 

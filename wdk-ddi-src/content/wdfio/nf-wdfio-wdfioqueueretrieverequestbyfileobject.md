@@ -60,18 +60,18 @@ The <b>WdfIoQueueRetrieveRequestByFileObject</b> method retrieves the next avail
 
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A handle to a framework queue object.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A handle to a framework file object.
 
 
-### -param OutRequest [out]
-
+### -param OutRequest 
+[out]
 A pointer to a location that receives a handle to a framework request object. If <b>WdfIoQueueRetrieveRequestByFileObject</b> does not return STATUS_SUCCESS, it does not set the location's value. 
 
 

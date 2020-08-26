@@ -59,13 +59,13 @@ Retrieves a string value (type VT_LPWSTR) that is specified by a key.
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
 
-### -param pValue [out]
-
+### -param pValue 
+[out]
 Pointer to the retrieved <b>LPWSTR</b> value. The caller is responsible for calling <b>CoTaskMemFree</b> to release the memory.
 
 

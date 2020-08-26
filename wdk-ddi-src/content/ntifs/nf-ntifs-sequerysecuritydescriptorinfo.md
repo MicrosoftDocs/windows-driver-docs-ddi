@@ -55,8 +55,8 @@ The <b>SeQuerySecurityDescriptorInfo</b> routine retrieves a copy of an object's
 
 
 
-### -param SecurityInformation [in]
-
+### -param SecurityInformation 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying which security information is being queried. 
 
 <table>
@@ -108,18 +108,18 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
  
 
 
-### -param SecurityDescriptor [out]
-
+### -param SecurityDescriptor 
+[out]
 Caller-allocated user buffer that <b>SeQuerySecurityDescriptorInfo</b> fills with a copy of the specified security descriptor in self-relative format. 
 
 
-### -param Length [in, out]
-
+### -param Length 
+[in, out]
 Pointer to a variable that specifies the size, in bytes, of the buffer pointed to by <i>SecurityDescriptor</i>. Upon return, <b>SeQuerySecurityDescriptorInfo</b> sets this variable to the number of bytes required to store the requested information.
 
 
-### -param ObjectsSecurityDescriptor [in, out]
-
+### -param ObjectsSecurityDescriptor 
+[in, out]
 Pointer to a pointer to an object's security descriptor. The security descriptor must be in self-relative format.
 
 

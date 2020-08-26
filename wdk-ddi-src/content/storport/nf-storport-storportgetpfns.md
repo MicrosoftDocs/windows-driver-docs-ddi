@@ -58,35 +58,35 @@ The <b>StorPortGetPfns</b> routine can be called when a miniport needs to retrei
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver.
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 A pointer to the source SCSI request block (SRB). 
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to the MDL for which Pfns are requested. Only MDLs obtained 
             using <b>StorPortGetOriginalMdl</b> or <b>StorPortGetDataInBufferMdl</b> are supported.
 
 
-### -param Pfns [out]
-
+### -param Pfns 
+[out]
  A pointer to the beginning of the array of physical page numbers that are associated with the MDL.
               Callers must NOT modify or update or free the list.
 
 
-### -param PfnCount [out]
-
+### -param PfnCount 
+[out]
 Specifies the number of PFNs in the array.
 
 
-### -param StartingOffset [out]
-
+### -param StartingOffset 
+[out]
 Specifies the byte offset within the initial page of the buffer described by the given MDL.
 
 

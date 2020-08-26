@@ -6,7 +6,7 @@ old-location: display\dxgkvgpu_escape_type.htm
 tech.root: display
 ms.assetid: F7081B59-DB24-4BFE-B1BD-3BE228804AB2
 ms.date: 05/10/2018
-keywords: ["_DXGKVGPU_ESCAPE_TYPE enumeration"]
+keywords: ["DXGKVGPU_ESCAPE_TYPE enumeration"]
 ms.keywords: DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices], DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, _DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_type
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_TYPE"

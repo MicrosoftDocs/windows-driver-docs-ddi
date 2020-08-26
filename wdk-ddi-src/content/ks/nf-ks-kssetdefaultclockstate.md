@@ -58,13 +58,13 @@ The function can be called at DISPATCH_LEVEL.
 
 
 
-### -param DefaultClock [in]
-
+### -param DefaultClock 
+[in]
 Specifies an initialize default clock structure that is shared among any instance of the default clock for the parent.
 
 
-### -param State [in]
-
+### -param State 
+[in]
 Specifies the new state to set the clock.
 
 

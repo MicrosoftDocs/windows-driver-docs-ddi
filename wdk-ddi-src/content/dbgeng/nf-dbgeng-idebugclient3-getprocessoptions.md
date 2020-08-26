@@ -59,8 +59,8 @@ The <b>GetProcessOptions</b> method retrieves the process options affecting the 
 
 
 
-### -param Options [out]
-
+### -param Options 
+[out]
 Receives a set of flags representing the process options for the current process.  For details on these options, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>.
 
 

@@ -55,20 +55,20 @@ The <b>HidD_GetInputReport</b> routine returns an input reports from a <a href="
 
 
 
-### -param HidDeviceObject [in]
-
+### -param HidDeviceObject 
+[in]
 Specifies an open handle to a top-level collection.
 
 
-### -param ReportBuffer [out]
-
+### -param ReportBuffer 
+[out]
 Pointer to a caller-allocated input report buffer that the caller uses to specify a HID report ID and <b>HidD_GetInputReport</b> uses to return the specified input report. 
 
 For more information about this parameter, see the Remarks section.
 
 
-### -param ReportBufferLength [in]
-
+### -param ReportBufferLength 
+[in]
 Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the input report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
 
 

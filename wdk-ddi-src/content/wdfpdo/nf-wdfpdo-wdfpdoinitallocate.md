@@ -58,8 +58,8 @@ The <b>WdfPdoInitAllocate</b> method allocates a <a href="https://docs.microsoft
 
 
 
-### -param ParentDevice [in]
-
+### -param ParentDevice 
+[in]
 A handle to a framework device object that represents the parent device of the new device. The framework device object must represent a functional device object (FDO).
 
 

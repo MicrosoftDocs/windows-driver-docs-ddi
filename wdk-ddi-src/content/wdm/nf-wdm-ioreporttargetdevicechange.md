@@ -55,13 +55,13 @@ The <b>IoReportTargetDeviceChange</b> routine notifies the PnP manager that a cu
 
 
 
-### -param PhysicalDeviceObject [in]
-
+### -param PhysicalDeviceObject 
+[in]
 Pointer to the PDO of the device being reported.
 
 
-### -param NotificationStructure [in]
-
+### -param NotificationStructure 
+[in]
 Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
 <i>NotificationStructure</i>.<b>FileObject</b> must be <b>NULL</b>. <i>NotificationStructure</i>.<b>Event</b> must contain the custom GUID for the event. The other fields of the <i>NotificationStructure</i> must be filled in as appropriate for the custom event.

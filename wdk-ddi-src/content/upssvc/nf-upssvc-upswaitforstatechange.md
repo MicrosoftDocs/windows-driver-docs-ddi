@@ -55,8 +55,8 @@ The <b>UPSWaitForStateChange</b> function waits until a specified UPS state chan
 
 
 
-### -param aCurrentState [in]
-
+### -param aCurrentState 
+[in]
 Specifies the UPS state on which to wait. When the state of the UPS system changes from the specified state to any other state, the function returns. The specified value can be one of the following:
 
 
@@ -86,8 +86,8 @@ Utility-supplied power is inadequate, and the UPS batteries are critically low.
 Communication with the UPS is not currently established.
 
 
-### -param anInterval [in]
-
+### -param anInterval 
+[in]
 Specifies a time-out interval, in milliseconds, for the function. If the UPS state has not changed from the specified state when the interval elapses, the function returns. A value of INFINITE means the interval never elapses.
 
 

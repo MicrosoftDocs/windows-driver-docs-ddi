@@ -55,13 +55,13 @@ The <b>RtlRemoveUnicodePrefix</b> routine removes an element from a prefix table
 
 
 
-### -param PrefixTable [in]
-
+### -param PrefixTable 
+[in]
 Pointer to the prefix table. The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
 
 
-### -param PrefixTableEntry [in]
-
+### -param PrefixTableEntry 
+[in]
 Pointer to the prefix table element to be deleted. 
 
 

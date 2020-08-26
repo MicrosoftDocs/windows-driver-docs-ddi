@@ -55,13 +55,13 @@ The <code>IPrintOemPrintTicketProvider::CompletePrintCapabilities</code> method 
 
 
 
-### -param pPrintTicket [in]
-
+### -param pPrintTicket 
+[in]
 A pointer to an input print ticket. Any configuration-dependent data in the print capabilities (that is, data that would be represented by a *<b>Switch</b> / *<b>Case</b> construct in a GPD file) must be based on the settings in the print ticket. If the application does not provide a print ticket, this parameter can be <b>NULL</b>. In such situations, the provider should assume default settings for feature and parameter constructs.
 
 
-### -param pCapabilities [in, out]
-
+### -param pCapabilities 
+[in, out]
 A pointer to a partially-complete print capabilities document. When <code>IPrintOemPrintTicketProvider::CompletePrintCapabilities</code> returns, the buffer that is pointed to by <i>pCapablities</i> should contain a completed print capabilities document.
 
 

@@ -55,13 +55,13 @@ The <b>KeQueryTotalCycleTimeThread</b> routine returns the accumulated cycle tim
 
 
 
-### -param Thread [in, out]
-
+### -param Thread 
+[in, out]
 A pointer to a dispatcher object of type KTHREAD.
 
 
-### -param CycleTimeStamp [out]
-
+### -param CycleTimeStamp 
+[out]
 A pointer to the cycle counter value at the time of the query.
 
 

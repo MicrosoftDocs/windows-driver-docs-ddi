@@ -55,8 +55,8 @@ The <b>KeRemoveQueueDpc</b> routine removes the specified DPC object from the sy
 
 
 
-### -param Dpc [in, out]
-
+### -param Dpc 
+[in, out]
 A pointer to an initialized DPC object that was queued by a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a> routine.
 
 

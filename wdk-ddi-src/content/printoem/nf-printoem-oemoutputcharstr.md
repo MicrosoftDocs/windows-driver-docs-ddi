@@ -59,4 +59,5 @@ Use [IPrintOemUni::OutputCharStr](https://docs.microsoft.com/windows-hardware/dr
 
 ### -param dwCount
 
-### -param pGlyph [in]
+### -param pGlyph 
+[in]

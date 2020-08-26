@@ -56,45 +56,45 @@ The <b>ZwMapViewOfSection</b> routine maps a view of a section into the virtual 
 
 
 
-### -param SectionHandle [in]
-
+### -param SectionHandle 
+[in]
 Handle to a section object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensection">ZwOpenSection</a>.
 
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 Handle to the object that represents the process that the view should be mapped into. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentProcess</a> macro to specify the current process. The handle must have been opened with PROCESS_VM_OPERATION access (described in the Microsoft Windows SDK documentation).
 
 
-### -param BaseAddress [in, out]
-
+### -param BaseAddress 
+[in, out]
 Pointer to a variable that receives the base address of the view. If the value of this parameter is not <b>NULL</b>, the view is allocated starting at the specified virtual address rounded down to the next 64-kilobyte address boundary.
 
 
-### -param ZeroBits [in]
-
+### -param ZeroBits 
+[in]
 Specifies the number of high-order address bits that must be zero in the base address of the section view. The value of this parameter must be less than 21 and is used only if <i>BaseAddress</i> is <b>NULL</b>—in other words, when the caller allows the system to determine where to allocate the view.
 
 
-### -param CommitSize [in]
-
+### -param CommitSize 
+[in]
 Specifies the size, in bytes, of the initially committed region of the view. <i>CommitSize</i> is meaningful only for page-file backed sections and is rounded up to the nearest multiple of PAGE_SIZE. (For sections that map files, both the data and the image are committed at section-creation time.)
 
 
-### -param SectionOffset [in, out, optional]
-
+### -param SectionOffset 
+[in, out, optional]
 A pointer to a variable that receives the offset, in bytes, from the beginning of the section to the view. If this pointer is not <b>NULL</b>, the offset is rounded down to the next allocation-granularity size boundary.
 
 
-### -param ViewSize [in, out]
-
+### -param ViewSize 
+[in, out]
 A pointer to a SIZE_T variable. If the initial value of this variable is zero, <b>ZwMapViewOfSection</b> maps a view of the section that starts at <i>SectionOffset</i> and continues to the end of the section. Otherwise, the initial value specifies the view's size, in bytes. <b>ZwMapViewOfSection</b> always rounds this value up to the nearest multiple of PAGE_SIZE before mapping the view.
 
 On return, the value receives the actual size, in bytes, of the view.
 
 
-### -param InheritDisposition [in]
-
+### -param InheritDisposition 
+[in]
 Specifies how the view is to be shared with child processes. The possible values are:
 
 
@@ -114,13 +114,13 @@ The view will not be mapped into child processes.
 Drivers should typically specify <b>ViewUnmap</b> for this parameter.
 
 
-### -param AllocationType [in]
-
+### -param AllocationType 
+[in]
 Specifies a set of flags that describes the type of allocation to be performed for the specified region of pages. The valid flags are MEM_LARGE_PAGES, MEM_RESERVE, and MEM_TOP_DOWN. Although MEM_COMMIT is not allowed, it is implied unless MEM_RESERVE is specified. For more information about the MEM_<i>XXX</i> flags, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> routine.
 
 
-### -param Win32Protect [in]
-
+### -param Win32Protect 
+[in]
 Specifies the type of protection for the region of initially committed pages. Device and intermediate drivers should set this value to PAGE_READWRITE.
 
 

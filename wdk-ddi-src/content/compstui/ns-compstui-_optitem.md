@@ -6,7 +6,7 @@ old-location: print\optitem.htm
 tech.root: print
 ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.date: 04/20/2018
-keywords: ["_OPTITEM structure"]
+keywords: ["OPTITEM structure"]
 ms.keywords: "*POPTITEM, OPTITEM, OPTITEM structure [Print Devices], POPTITEM, POPTITEM structure pointer [Print Devices], _OPTITEM, compstui/OPTITEM, compstui/POPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, print.optitem"
 f1_keywords:
  - "compstui/OPTITEM"

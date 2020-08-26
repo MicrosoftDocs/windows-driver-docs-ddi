@@ -56,25 +56,25 @@ The <b>ExSetTimer</b> routine starts a timer operation and sets the timer to exp
 
 
 
-### -param Timer [in]
-
+### -param Timer 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 
-### -param DueTime [in]
-
+### -param DueTime 
+[in]
 The absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. An absolute time is expressed as the amount of time passed, in system time units, since the start of the year 1601.
 
 The <i>DueTime</i> parameter for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/high-resolution-timers">high-resolution timer</a> must be a relative time (negative value), or the routine bug checks.
 
 
-### -param Period [in]
-
+### -param Period 
+[in]
 An optional period for the timer in system time units (100-nanosecond intervals). Must be less than or equal to MAXLONG. For a timer that is one-shot instead of periodic, set <i>Period</i> to zero.
 
 
-### -param Parameters [in, optional]
-
+### -param Parameters 
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a> structure. The calling driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializesettimerparameters">ExInitializeSetTimerParameters</a> routine to initialize this structure.
 
 

@@ -55,8 +55,8 @@ The <b>FsRtlIsNtstatusExpected</b> routine determines whether the specified exce
 
 
 
-### -param Exception [in]
-
+### -param Exception 
+[in]
 Status value of the exception.
 
 

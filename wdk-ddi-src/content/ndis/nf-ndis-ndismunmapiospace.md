@@ -57,20 +57,20 @@ req.typenames:
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 Specifies the handle originally input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 Specifies the base virtual address for the mapped range that was returned by 
      <b>NdisMMapIoSpace</b>.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the number of bytes in the range that was mapped with 
      <b>NdisMMapIoSpace</b>.
 

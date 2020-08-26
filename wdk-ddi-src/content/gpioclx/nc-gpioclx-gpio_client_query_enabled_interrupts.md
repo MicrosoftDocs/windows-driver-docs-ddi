@@ -55,13 +55,13 @@ The <i>CLIENT_QueryEnabledInterrupts</i> event callback function queries the sta
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param QueryEnabledParameters [in]
-
+### -param QueryEnabledParameters 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_enabled_interrupts_parameters">GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</a> structure. Before calling this function, the caller writes a bank ID to the <b>BankId</b> member of this structure to specify which bank of GPIO pins to query. If successful, the function writes a mask value to the <b>EnabledMask</b> member of this structure to indicate which interrupts are enabled in the specified bank.
 
 

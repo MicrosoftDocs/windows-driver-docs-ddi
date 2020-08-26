@@ -55,13 +55,13 @@ The <i>NdkCqNotificationCallback</i> (<i>NDK_FN_CQ_NOTIFICATION_CALLBACK</i>) fu
 
 
 
-### -param CqNotificationContext [in, optional]
-
+### -param CqNotificationContext 
+[in, optional]
 A context area that was specified in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ)  object was created.
 
 
-### -param CqStatus [in]
-
+### -param CqStatus 
+[in]
 Indicates the CQ error status. The following status codes are defined:
 
 

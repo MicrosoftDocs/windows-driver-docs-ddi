@@ -56,13 +56,13 @@ Indicates the type of endpoint (simple or dynamic) in the initialization paramet
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
-
+### -param UdecxUsbDeviceInit 
+[in, out]
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param UdecxEndpointType [in]
-
+### -param UdecxEndpointType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ne-udecxusbdevice-_udecx_endpoint_type">UDECX_ENDPOINT_TYPE</a>-type value that indicates the type of USB endpoint.
 
 

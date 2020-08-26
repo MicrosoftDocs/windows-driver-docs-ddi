@@ -55,13 +55,13 @@ Gets the descriptor for the audio engine node.
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID of the audio engine node.
 
 
-### -param pAudioEngineDescriptor [out]
-
+### -param pAudioEngineDescriptor 
+[out]
 Audio engine descriptor object. This parameter is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagksaudioengine_descriptor">KSAUDIOENGINE_DESCRIPTOR</a>.
 
 

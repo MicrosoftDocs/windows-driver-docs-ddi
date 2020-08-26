@@ -52,20 +52,20 @@ The **FsRtlIsNameInExpression** routine determines whether a Unicode string matc
 
 ## -parameters
 
-### -param Expression [in]
-
+### -param Expression 
+[in]
 A pointer to the pattern string. Can contain wildcard characters. If *IgnoreCase* is **TRUE**, *Expression* must be uppercase.
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
-### -param IgnoreCase [in]
-
+### -param IgnoreCase 
+[in]
 Set to **TRUE** for case-insensitive matching, **FALSE** otherwise.
 
-### -param UpcaseTable [in, optional]
-
+### -param UpcaseTable 
+[in, optional]
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 
 ## -returns
@@ -84,7 +84,7 @@ The following wildcard characters can be used in the pattern string.
 | DOS_QM | Matches any single character or, upon encountering a period or end of name string, advances the expression to the end of the set of contiguous DOS_QMs. |
 | DOS_STAR | Matches zero or more characters until encountering and matching the final . in the name. |
 
-In low resource conditions, **FsRtlIsNameInExpression** can raise a structured exception with a code of STATUS_NO_MEMORY, which callers should be prepared to handle. For more information, see [Structured Exception Handling](https://docs.microsoft.com/windows/desktop/debug/structured-exception-handling).
+In low resource conditions, **FsRtlIsNameInExpression** can raise a structured exception with a code of STATUS_NO_MEMORY, which callers should be prepared to handle. For more information, see [Structured Exception Handling](https://docs.microsoft.com/windows/win32/debug/structured-exception-handling).
 
 > [!NOTE]
 > If only one of the string parameters has a length of zero, **FsRtlIsNameInExpression** returns **FALSE**. This means that "*" does not match a null string.
@@ -95,4 +95,4 @@ In low resource conditions, **FsRtlIsNameInExpression** can raise a structured e
 
 [**FsRtlIsDbcsInExpression**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression)
 
-[UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)
+[UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

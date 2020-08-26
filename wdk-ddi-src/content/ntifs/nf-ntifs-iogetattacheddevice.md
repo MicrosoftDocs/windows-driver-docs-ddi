@@ -55,8 +55,8 @@ The <b>IoGetAttachedDevice</b> routine returns a pointer to the highest-level de
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the device object for which the topmost attached device is to be returned.
 
 

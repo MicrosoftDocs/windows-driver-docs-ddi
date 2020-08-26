@@ -55,13 +55,13 @@ The <b>SerCx2CustomReceiveTransactionInitializeComplete</b> method notifies vers
 
 
 
-### -param CustomReceiveTransaction [in]
-
+### -param CustomReceiveTransaction 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 
 
-### -param InitSuccess [in]
-
+### -param InitSuccess 
+[in]
 Whether the initialization was successful. If <b>TRUE</b>, the initialization succeeded. If <b>FALSE</b>, the initialization failed.
 
 

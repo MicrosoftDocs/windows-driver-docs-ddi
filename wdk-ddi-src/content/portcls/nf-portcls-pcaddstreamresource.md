@@ -56,23 +56,23 @@ Two type of stream resources are supported: interrupts and driver-owned threads.
 
 
 
-### -param PhysicalDeviceObject [in]
-
+### -param PhysicalDeviceObject 
+[in]
 PDEVICE_OBJECT - The PDO of the device stack using this resource. 
 
 
-### -param ResourceSet [in]
-
+### -param ResourceSet 
+[in]
 PVOID - Reserved for future use, set to NULL. Only device-scoped resources are supported at this time. 
 
 
-### -param ResourceDescriptor [in]
-
+### -param ResourceDescriptor 
+[in]
 PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
 
 
-### -param ResourceHandle [out]
-
+### -param ResourceHandle 
+[out]
 PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcremovestreamresource">PcRemoveStreamResource</a>.  
 
 

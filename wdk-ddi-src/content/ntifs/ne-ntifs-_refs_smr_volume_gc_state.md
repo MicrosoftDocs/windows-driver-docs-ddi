@@ -6,7 +6,7 @@ old-location: ifsk\refs_smr_volume_gc_state.htm
 tech.root: ifsk
 ms.assetid: 9E75F65A-6E9C-485F-9437-30CB01A5F317
 ms.date: 04/16/2018
-keywords: ["_REFS_SMR_VOLUME_GC_STATE enumeration"]
+keywords: ["REFS_SMR_VOLUME_GC_STATE enumeration"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], SmrGcStateActive, SmrGcStateActiveFullSpeed, SmrGcStateInactive, SmrGcStatePaused, _REFS_SMR_VOLUME_GC_STATE, ifsk.refs_smr_volume_gc_state, ntifs/PREFS_SMR_VOLUME_GC_STATE, ntifs/REFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActive, ntifs/SmrGcStateActiveFullSpeed, ntifs/SmrGcStateInactive, ntifs/SmrGcStatePaused"
 f1_keywords:
  - "ntifs/REFS_SMR_VOLUME_GC_STATE"

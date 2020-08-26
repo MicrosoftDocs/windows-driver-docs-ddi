@@ -58,31 +58,31 @@ endpoint must restore the state associated with a packet object.
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel on which the packet arrives.
 
 
-### -param LibBuf [in]
-
+### -param LibBuf 
+[in]
 Pointer to packet object state internal to the Kernel Mode Client Library (KMCL).
 
 
 
-### -param LibBufSize [in]
-
+### -param LibBufSize 
+[in]
 Size of the <i>LibBuf</i> parameter, in bytes.
 
 
 
-### -param SaveBuf [in]
-
+### -param SaveBuf 
+[in]
 Pointer to transaction state specific to the VSP.
 
 
 
-### -param SaveBufSize [in]
-
+### -param SaveBufSize 
+[in]
 Size of the <i>SaveBuf</i> parameter, in bytes.
 
 

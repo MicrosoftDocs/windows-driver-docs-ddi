@@ -59,13 +59,13 @@ Retrieves a <b>LONG</b> value (type VT_I4) that is specified by a key.
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
 
-### -param pValue [out]
-
+### -param pValue 
+[out]
 Pointer to the retrieved <b>LONG</b> value.
 
 

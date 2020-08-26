@@ -57,8 +57,8 @@ The <b>CopyToBuffer</b> method safely copies data from a memory object to the sp
 
 
 
-### -param SourceOffset [in]
-
+### -param SourceOffset 
+[in]
 The offset, in bytes, into the memory object to start to copy data from. 
 
 
@@ -67,8 +67,8 @@ The offset, in bytes, into the memory object to start to copy data from.
 
 
 
-### -param NumOfBytesToCopyTo [in]
-
+### -param NumOfBytesToCopyTo 
+[in]
 The number of bytes to copy to the buffer that <i>pTargetBuffer</i> points to.
 
 

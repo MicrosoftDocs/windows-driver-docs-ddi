@@ -60,23 +60,23 @@ The <b>WdfDeviceRetrieveDeviceInterfaceString</b> method retrieves the symbolic 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param InterfaceClassGUID [in]
-
+### -param InterfaceClassGUID 
+[in]
 A pointer to a GUID that identifies the device interface class.
 
 
-### -param ReferenceString [in, optional]
+### -param ReferenceString 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreatedeviceinterface">WdfDeviceCreateDeviceInterface</a>. 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreatedeviceinterface">WdfDeviceCreateDeviceInterface</a>. 
 
-
-### -param String [in]
-
+### -param String 
+[in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects">framework string object</a>. The framework will assign the symbolic link name's Unicode string to the string object.
 
 
@@ -197,7 +197,7 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

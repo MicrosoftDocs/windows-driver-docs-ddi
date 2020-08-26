@@ -56,18 +56,18 @@ Allows navigation within the
 
 
 
-### -param FromEntry [in]
-
+### -param FromEntry 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> as the input entry.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param ToEntry [out]
-
+### -param ToEntry 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> as the output entry.
 
 
@@ -75,7 +75,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

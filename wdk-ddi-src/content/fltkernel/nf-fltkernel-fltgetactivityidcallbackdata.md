@@ -55,13 +55,13 @@ The <b>FltGetActivityIdCallbackData</b> routine retrieves the current activity I
 
 
 
-### -param CallbackData [in]
-
+### -param CallbackData 
+[in]
 A pointer to the callback data containing the request with an associated activity ID.
 
 
-### -param Guid [out]
-
+### -param Guid 
+[out]
 A pointer to the GUID structure receiving the activity ID.
 
 

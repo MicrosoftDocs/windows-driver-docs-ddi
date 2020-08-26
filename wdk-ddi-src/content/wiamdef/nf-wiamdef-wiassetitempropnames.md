@@ -55,8 +55,8 @@ The <b>wiasSetItemPropNames </b>function writes property names to item propertie
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -65,8 +65,8 @@ Pointer to a WIA item context.
 Specifies the number of property names to write.
 
 
-### -param ppId [in, out]
-
+### -param ppId 
+[in, out]
 Pointer to the first element of a caller-allocated array of property identifiers (PROPIDs).
 
 

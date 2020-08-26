@@ -58,8 +58,8 @@ The <i>GrowNetBufferListDestinations</i> function adds space for additional Hype
 
 
 
-### -param NdisSwitchContext [in]
-
+### -param NdisSwitchContext 
+[in]
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
 
@@ -70,13 +70,13 @@ A pointer to a linked list of <a href="https://docs.microsoft.com/windows-hardwa
 <div class="alert"><b>Note</b>  This structure must contain  an extensible switch forwarding context. If the extension created or cloned the  packet, it must have previously allocated this structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_allocate_net_buffer_list_forwarding_context">AllocateNetBufferListForwardingContext</a> function. For more information about the extensible switch forwarding context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-forwarding-context">Hyper-V Extensible Switch Forwarding Context</a>.</div>
 <div> </div>
 
-### -param NumberOfNewDestinations [in]
-
+### -param NumberOfNewDestinations 
+[in]
 A UINT32 value that specifies the number of new destination ports to be  added for the packet.
 
 
-### -param Destinations [out]
-
+### -param Destinations 
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_forwarding_destination_array">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a> structure. This structure specifies the extensible switch destination ports of the packet.
 
 

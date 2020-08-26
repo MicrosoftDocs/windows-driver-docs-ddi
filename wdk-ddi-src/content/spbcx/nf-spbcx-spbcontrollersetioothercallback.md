@@ -56,18 +56,18 @@ The <b>SpbControllerSetIoOtherCallback</b> method registers an SPB controller dr
 
 
 
-### -param FxDevice [in]
-
+### -param FxDevice 
+[in]
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
 
-### -param EvtSpbControllerIoOther [in]
-
+### -param EvtSpbControllerIoOther 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_other">EvtSpbControllerIoOther</a> callback function. The SPB controller driver implements this function. The SPB framework extension (SpbCx) calls this function to pass an I/O control request to the controller driver. For more information about the type of I/O requests that are passed to this function, see the following Remarks section.
 
 
-### -param EvtIoInCallerContext [in, optional]
-
+### -param EvtIoInCallerContext 
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> callback function that is called when an I/O control request first arrives at the controller's I/O queue, and the request contains an IOCTL code that the SPB framework extension (SpbCx) does not recognize. This callback runs in the process context of the request originator, and can preprocess requests that will later be processed by the <i>EvtSpbControllerIoOther</i> callback. This parameter is optional and can be specified as NULL if no such preprocessing is required. For more information, see the following Remarks section.
 
 

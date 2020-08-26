@@ -65,8 +65,8 @@ Returns an action for the target.
 
 
 
-### -param MonikerSuffix [in, optional]
-
+### -param MonikerSuffix 
+[in, optional]
 An optional moniker that defines more options about how 
 the interface should be instantiated. 
 
@@ -75,8 +75,8 @@ Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that
 contains <b>VT_EMPTY</b>.
 
 
-### -param ppInterface [out, retval]
-
+### -param ppInterface 
+[out, retval]
 The address of a variable that will receive the action.
 
 
@@ -99,7 +99,7 @@ The WDTF ProgID of the requested interface.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

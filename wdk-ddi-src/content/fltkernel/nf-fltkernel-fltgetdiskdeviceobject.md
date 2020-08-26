@@ -55,13 +55,13 @@ The <b>FltGetDiskDeviceObject</b> routine returns a pointer to the disk device o
 
 
 
-### -param Volume [in]
-
+### -param Volume 
+[in]
 Opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param DiskDeviceObject [out]
-
+### -param DiskDeviceObject 
+[out]
 Pointer to a caller-allocated variable that receives the device object pointer. This parameter is required and cannot be <b>NULL</b>. 
 
 

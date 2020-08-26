@@ -60,8 +60,8 @@ The <b>WdfCollectionGetFirstItem</b> method returns a handle to the first object
 
 
 
-### -param Collection [in]
-
+### -param Collection 
+[in]
 A handle to a collection object.
 
 

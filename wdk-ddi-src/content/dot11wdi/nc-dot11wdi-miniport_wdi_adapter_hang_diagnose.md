@@ -58,28 +58,28 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 
 
-### -param MiniportDriverContext [in]
-
+### -param MiniportDriverContext 
+[in]
 The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nf-dot11wdi-ndismregisterwdiminiportdriver">NdisMRegisterWdiMiniportDriver</a> function.
 
 
-### -param DiagnoseLevel [in]
-
+### -param DiagnoseLevel 
+[in]
 The diagnose level, as defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-ediagnoselevel">eDiagnoseLevel</a> enumeration. The default level is <b>DiagnoseLevelHardwareRegisters</b>, 1KB maximum in the output buffer.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size of <b>FirmwareBlob</b>, in bytes.
 
 
-### -param FirmwareBlob [out]
-
+### -param FirmwareBlob 
+[out]
 A pointer to the buffer that  will contain the hardware control registry states, and optionally full firmware state.
 
 
-### -param pOutputSize [out]
-
+### -param pOutputSize 
+[out]
 A pointer to the number of bytes written to <b>FirmwareBlob</b>.
 
 

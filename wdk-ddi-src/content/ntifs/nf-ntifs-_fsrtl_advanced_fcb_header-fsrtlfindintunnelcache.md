@@ -58,8 +58,8 @@ The <b>FsRtlFindInTunnelCache</b> routine searches for a matching entry in the t
 
 
 
-### -param Cache [in]
-
+### -param Cache 
+[in]
 Pointer to a tunnel cache initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache">FsRtlInitializeTunnelCache</a>.
 
 
@@ -68,28 +68,28 @@ Pointer to a tunnel cache initialized by <a href="https://docs.microsoft.com/win
 <p>Key value of the directory containing the file that is being created or renamed.</p>
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 Pointer to a Unicode string containing the new name for the file that is being renamed or created.
 
 
-### -param ShortName [out]
-
+### -param ShortName 
+[out]
 Pointer to a caller-allocated Unicode string to receive the short name of the tunneled file. This string must be long enough to hold a full 8.3 file name. (Unlike <i>LongName</i>, <i>ShortName</i> is not grown dynamically.)
 
 
-### -param LongName [out]
-
+### -param LongName 
+[out]
 Pointer to a caller-allocated Unicode string to receive the long name of the tunneled file. If this string is not large enough to hold the tunneled name, <b>FsRtlFindInTunnelCache</b> replaces it with a larger system-allocated string. If such a string is allocated, the caller is responsible for detecting this case and freeing the new system-allocated string as well as the original caller-allocated string.
 
 
-### -param DataLength [in, out]
-
+### -param DataLength 
+[in, out]
 On input, this is a pointer to a variable that specifies the length of the buffer pointed to by <i>Data</i>. On output, the same variable receives the length in bytes of the data written to the buffer.
 
 
-### -param Data [out]
-
+### -param Data 
+[out]
 Pointer to a caller-allocated buffer to receive the data found in the tunnel cache. 
 
 
@@ -142,7 +142,7 @@ For more information about file name tunneling, see <a href="https://go.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

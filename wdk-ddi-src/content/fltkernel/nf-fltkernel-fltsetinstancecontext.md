@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the instance. 
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 Flag specifying details of the operation to be performed. This parameter must be one of the following: 
 
 
@@ -79,13 +79,13 @@ If a context is already set for this <i>Instance</i>, replace it with <i>NewCont
 If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, set <i>NewContext</i> as the context for <i>Instance</i>. 
 
 
-### -param NewContext [in]
-
+### -param NewContext 
+[in]
 Pointer to the new context to be set for the instance. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out]
-
+### -param OldContext 
+[out]
 Pointer to a caller-allocated variable that receives the address of the existing instance context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
 

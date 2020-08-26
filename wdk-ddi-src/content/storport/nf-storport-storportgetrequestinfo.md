@@ -57,18 +57,18 @@ req.typenames:
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 A pointer to the SRB to be queried.
 
 
-### -param RequestInfo [out]
-
+### -param RequestInfo 
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure.
 
 

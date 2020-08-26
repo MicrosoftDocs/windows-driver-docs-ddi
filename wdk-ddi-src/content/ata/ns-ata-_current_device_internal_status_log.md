@@ -4,7 +4,7 @@ title: _CURRENT_DEVICE_INTERNAL_STATUS_LOG (ata.h)
 description: 
 ms.assetid: 67384834-9516-4302-bfdc-3c43b2a8ad27
 ms.date: 10/19/2018
-keywords: ["_CURRENT_DEVICE_INTERNAL_STATUS_LOG structure"]
+keywords: ["CURRENT_DEVICE_INTERNAL_STATUS_LOG structure"]
 f1_keywords:
  - "ata/_CURRENT_DEVICE_INTERNAL_STATUS_LOG"
  - "_CURRENT_DEVICE_INTERNAL_STATUS_LOG"

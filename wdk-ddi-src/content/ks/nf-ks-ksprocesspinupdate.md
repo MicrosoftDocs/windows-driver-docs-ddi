@@ -56,8 +56,8 @@ The <b>KsProcessPinUpdate</b> function is called from within a filter-centric fi
 
 
 
-### -param ProcessPin [in]
-
+### -param ProcessPin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a> structure that represents the process pin to update.
 
 

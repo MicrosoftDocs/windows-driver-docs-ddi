@@ -56,28 +56,28 @@ req.typenames:
 
 
 
-### -param Filter [in, out]
-
+### -param Filter 
+[in, out]
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Volume [in, out]
-
+### -param Volume 
+[in, out]
 Opaque volume pointer for the volume that the minifilter driver instance is to be attached to. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Altitude [in]
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the altitude string for the instance. This parameter is required and cannot be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
-
-
-### -param InstanceName [in, optional]
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltAttachVolumeAtAltitude</b> generates an instance name from the minifilter driver name and the altitude string that <i>Altitude </i>points to. The generated name is truncated, if necessary, to INSTANCE_NAME_MAX_CHARS characters. 
+### -param Altitude 
+[in]
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the altitude string for the instance. This parameter is required and cannot be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
 
-### -param RetInstance [out, optional]
+### -param InstanceName 
+[in, optional]
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltAttachVolumeAtAltitude</b> generates an instance name from the minifilter driver name and the altitude string that <i>Altitude </i>points to. The generated name is truncated, if necessary, to INSTANCE_NAME_MAX_CHARS characters. 
 
+
+### -param RetInstance 
+[out, optional]
 Pointer to a caller-allocated variable that receives an opaque instance pointer for the newly created instance. This parameter is optional and can be <b>NULL</b>. 
 
 
@@ -224,7 +224,7 @@ To detach a minifilter driver instance from a volume, call <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

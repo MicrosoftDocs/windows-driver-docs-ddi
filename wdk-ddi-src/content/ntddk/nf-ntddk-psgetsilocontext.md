@@ -55,13 +55,13 @@ This routine retrieves the silo context from the specified silo and slot.
 
 
 
-### -param Silo [in]
-
+### -param Silo 
+[in]
 The silo where the silo context is to exist. This parameter is required and it cannot be <b>NULL</b>.
 
 
-### -param ContextSlot [in]
-
+### -param ContextSlot 
+[in]
 The slot where the silo context is to exist. A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 

@@ -62,14 +62,14 @@ Sets the simulated battery status to DC power.
 
 
 
-### -param pbSuccess [out, retval]
-
+### -param pbSuccess 
+[out, retval]
 
 ## -returns
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: ef42bc4c-4ed2-40bf-9548-1de05ff6718f
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_DXGK_VIRTUALGPUDRIVERESCAPE structure"]
+keywords: ["DXGK_VIRTUALGPUDRIVERESCAPE structure"]
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUDRIVERESCAPE"
  - "_DXGK_VIRTUALGPUDRIVERESCAPE"

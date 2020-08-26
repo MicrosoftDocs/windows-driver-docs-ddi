@@ -5,7 +5,7 @@ description: The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence p
 old-location: display\d3dkmt_fence_presenthistorytoken.htm
 ms.assetid: a27371cf-08d2-4502-b766-3b9c60272080
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_FENCE_PRESENTHISTORYTOKEN structure"]
+keywords: ["D3DKMT_FENCE_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_FENCE_PRESENTHISTORYTOKEN, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, _D3DKMT_FENCE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, display.d3dkmt_fence_presenthistorytoken
 f1_keywords:
  - "d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN"

@@ -57,8 +57,8 @@ The <b>SetInterrupt</b> method registers a user interrupt or breaks into the deb
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the type of interrupt to register.  <i>Flags</i> can take one of the values listed in the following table.
 
 <table>

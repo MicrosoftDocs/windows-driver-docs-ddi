@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param NameCacheCtl [in]
-
+### -param NameCacheCtl 
+[in]
 A pointer to the NAME_CACHE_CONTROL structure to scan.
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the Unicode string that contains the name prefix to scan for name cache entry matches to expire.
 
 

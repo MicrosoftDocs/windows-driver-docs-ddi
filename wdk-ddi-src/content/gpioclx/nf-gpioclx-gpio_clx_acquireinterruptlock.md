@@ -56,13 +56,13 @@ The <b>GPIO_CLX_AcquireInterruptLock</b> method acquires an interrupt lock on a 
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>. The GPIO framework extension (GpioClx) passes this pointer value as a parameter to the callback functions that are implemented by the GPIO controller driver.
 
 
-### -param BankId [in]
-
+### -param BankId 
+[in]
 The identifier for this bank of GPIO pins. If N is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to N–1.
 
 

@@ -6,7 +6,7 @@ old-location: netvista\ndis_wwan_supported_device_services.htm
 tech.root: netvista
 ms.assetid: C94C4426-A487-422D-B84E-B29C2AD7BF0C
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure"]
+keywords: ["NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure"]
 ms.keywords: "*PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, ndiswwan/NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, ndiswwan/PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, netvista.ndis_wwan_supported_device_services"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SUPPORTED_DEVICE_SERVICES"

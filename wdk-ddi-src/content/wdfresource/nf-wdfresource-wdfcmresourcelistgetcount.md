@@ -60,8 +60,8 @@ The <b>WdfCmResourceListGetCount</b> method returns the number of resource descr
 
 
 
-### -param List [in]
-
+### -param List 
+[in]
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 

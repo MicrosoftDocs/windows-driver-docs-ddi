@@ -58,8 +58,8 @@ The <b>WdfDeviceGetCharacteristics</b> method returns device characteristics for
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

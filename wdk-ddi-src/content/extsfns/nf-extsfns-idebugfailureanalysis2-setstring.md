@@ -60,8 +60,8 @@ The <b>SetString</b> method searches a <a href="https://docs.microsoft.com/windo
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param Str [in]
-
+### -param Str 
+[in]
 A pointer to a null-terminated ANSI string to be written to the data block of the new or existing <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 

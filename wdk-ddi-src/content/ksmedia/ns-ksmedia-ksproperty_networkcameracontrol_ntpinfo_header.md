@@ -3,8 +3,7 @@ UID: NS:ksmedia.__unnamed_struct_133
 title: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER structure contains a NTP-specific payload that is used to set or disable an NTP server on a Onvif protocol camera.
 tech.root: stream
-ms.date: 07/27/2020
-ms.topic: struct
+ms.date: 08/12/2020
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER, *PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER
 f1_keywords:
 - "ksmedia/KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER"
@@ -31,8 +30,6 @@ api_location:
 - ksmedia.h
 api_name: 
 - KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER
-dev_langs:
-- c++
 targetos: Windows
 ---
 

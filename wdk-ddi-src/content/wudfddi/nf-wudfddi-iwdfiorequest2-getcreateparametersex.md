@@ -57,8 +57,8 @@ The <b>GetCreateParametersEx</b> method retrieves file creation parameters that 
 
 
 
-### -param pOptions [out, optional]
-
+### -param pOptions 
+[out, optional]
 A pointer to a caller-allocated variable that receives bit flags that indicate file creation options. These FILE_XXXX-named bit flags are defined in Wdm.h. 
 
 The low 24 bits of the variable indicate options to apply when creating or opening the file. For more information about these bits, see the description of the <i>CreateOptions</i> parameter of the kernel-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function. 
@@ -68,22 +68,22 @@ The high eight bits of the variable indicate actions to perform if the file does
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pFileAttributes [out, optional]
-
+### -param pFileAttributes 
+[out, optional]
 A pointer to a caller-allocated variable that receives bit flags that indicate file attributes. These FILE_ATTRIBUTE_XXXX-named bit flags are defined in Wdm.h. For more information about these bit flags, see the description of the <i>FileAttributes</i> parameter of <b>ZwCreateFile</b>.
 
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pShareAccess [out, optional]
-
+### -param pShareAccess 
+[out, optional]
 A pointer to a caller-allocated variable that receives bit flags that indicate file sharing options. These FILE_SHARE_XXXX-named bit flags are defined in Wdm.h. For more information about these bit flags, see the description of the <i>ShareAccess</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
 This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pDesiredAccess [out, optional]
-
+### -param pDesiredAccess 
+[out, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> structure that specifies the requested access to the file. For more information about this parameter, see the <i>DesiredAccess</i> parameter of <b>ZwCreateFile</b>. 
 
 This parameter is optional and can be <b>NULL</b>.

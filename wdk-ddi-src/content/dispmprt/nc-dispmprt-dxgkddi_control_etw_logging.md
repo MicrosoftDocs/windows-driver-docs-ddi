@@ -55,18 +55,18 @@ The <i>DxgkDdiControlEtwLogging </i>function enables or disables Event Tracing f
 
 
 
-### -param Enable [in]
-
+### -param Enable 
+[in]
 A Boolean value that indicates whether <i>DxgkDdiControlEtwLogging </i>enables or disables ETW event logging. <b>TRUE</b> indicates that it enables and <b>FALSE</b> indicates that it disables.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A valid bitwise OR of values. Currently, no flags are defined.
 
 
-### -param Level [in]
-
+### -param Level 
+[in]
 A value that indicates the level of event logging.
 
 

@@ -60,8 +60,8 @@ The <b>VideoPortReadRegisterBufferUchar</b> function reads a number of bytes fro
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a buffer into which the UCHAR values are written.
 
 

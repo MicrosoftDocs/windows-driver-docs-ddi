@@ -58,13 +58,13 @@ The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name for a spec
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param String [in]
-
+### -param String 
+[in]
 A handle to a framework string object that receives the device name.
 
 

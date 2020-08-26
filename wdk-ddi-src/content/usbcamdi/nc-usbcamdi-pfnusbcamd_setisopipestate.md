@@ -55,13 +55,13 @@ The <b>USBCAMD_SetIsoPipeState</b> service permits the camera minidriver to cont
 
 
 
-### -param DeviceContext [in]
-
+### -param DeviceContext 
+[in]
 Pointer to device-specific context.
 
 
-### -param PipeStateFlags [in]
-
+### -param PipeStateFlags 
+[in]
 Specifies the isochronous pipe state. This argument should be set to either of the following values:
 
 <table>

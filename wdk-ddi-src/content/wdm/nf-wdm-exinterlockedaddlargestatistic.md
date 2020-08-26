@@ -55,13 +55,13 @@ The <b>ExInterlockedAddLargeStatistic</b> routine performs an interlocked additi
 
 
 
-### -param Addend [in]
-
+### -param Addend 
+[in]
 A pointer to the LARGE_INTEGER variable that is incremented by the value of <i>Increment</i>.
 
 
-### -param Increment [in]
-
+### -param Increment 
+[in]
 Specifies a ULONG value that is added to the variable that <i>Addend</i> points to. 
 
 

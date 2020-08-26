@@ -55,23 +55,23 @@ The <b>RtlGetSaclSecurityDescriptor</b> routine returns a pointer to the system 
 
 
 
-### -param SecurityDescriptor [in]
-
+### -param SecurityDescriptor 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> whose SACL is to be returned.
 
 
-### -param SaclPresent [out]
-
+### -param SaclPresent 
+[out]
 Pointer to a Boolean variable that indicates the presence of a SACL in the specified security descriptor. If this variable receives <b>TRUE</b>, the security descriptor contains a SACL, and the remaining output parameters receive valid values. If this variable receives <b>FALSE</b>, the security descriptor does not contain a SACL, and the remaining output parameters do not receive valid values.
 
 
-### -param Sacl [out]
-
+### -param Sacl 
+[out]
 Pointer to a variable that receives the address of the SACL for the security descriptor. If the security descriptor does not have a SACL, this variable does not receive a value. If the security descriptor has a <b>NULL</b> SACL, this variable receives <b>NULL</b>. 
 
 
-### -param SaclDefaulted [out]
-
+### -param SaclDefaulted 
+[out]
 Pointer to a Boolean variable that receives the value of the SE_SACL_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL structure if a SACL exists for the security descriptor. 
 
 

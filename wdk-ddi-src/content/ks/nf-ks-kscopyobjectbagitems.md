@@ -56,13 +56,13 @@ The<b> KsCopyObjectBagItems </b>function copies all items from one object bag in
 
 
 
-### -param ObjectBagDestination [in]
-
+### -param ObjectBagDestination 
+[in]
 The KSOBJECT_BAG (equivalent to type PVOID) into which to copy items.
 
 
-### -param ObjectBagSource [in]
-
+### -param ObjectBagSource 
+[in]
 The KSOBJECT_BAG from which items are copied to <i>ObjectBagDestination.</i>
 
 

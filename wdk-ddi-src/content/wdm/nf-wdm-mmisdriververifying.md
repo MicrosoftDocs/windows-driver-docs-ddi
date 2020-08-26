@@ -55,8 +55,8 @@ The <b>MmIsDriverVerifying</b> routine indicates whether the kernel-mode driver 
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure that represents a driver object. The driver receives this pointer as an input parameter to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. 
 
 

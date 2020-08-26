@@ -55,13 +55,13 @@ The <b>IStillImage::RegisterLaunchApplication</b> method adds an application to 
 
 
 
-### -param pwszAppName [in]
-
+### -param pwszAppName 
+[in]
 Caller-supplied pointer to a string representing the application's "short name", which Scanners and Cameras Control Panel's property sheet will display.
 
 
-### -param pwszCommandLine [in]
-
+### -param pwszCommandLine 
+[in]
 Caller-supplied pointer to a string representing the command line required to start the application, including the full path to the application's executable file. The current path can be obtained by calling <b>GetModuleFileName</b> (described in the Microsoft Windows SDK documentation). For more information, see the following <b>Remarks</b> section.
 
 

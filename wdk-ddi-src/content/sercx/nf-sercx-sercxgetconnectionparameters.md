@@ -55,13 +55,13 @@ The <b>SerCxGetConnectionParameters</b> method retrieves the connection paramete
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param ConnectionParameters [out]
-
+### -param ConnectionParameters 
+[out]
 A pointer to a location into which the method writes a pointer to the connection parameters. The caller must cast this pointer to the appropriate pointer type, parse the data structure for the connection parameters, read the configuration settings from this structure, and apply these settings to the serial controller hardware.
 
 

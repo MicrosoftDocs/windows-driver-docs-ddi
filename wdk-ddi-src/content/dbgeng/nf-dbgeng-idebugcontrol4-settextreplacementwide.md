@@ -55,13 +55,13 @@ The <b>SetTextReplacementWide</b>  method sets the value of a user-named alias.
 
 
 
-### -param SrcText [in]
-
+### -param SrcText 
+[in]
 Specifies the name of the user-named alias.  The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> makes a copy of this string.  If <i>SrcText</i> is the same as the name of an automatic alias, the automatic alias is hidden by the new user-named alias.
 
 
-### -param DstText [in, optional]
-
+### -param DstText 
+[in, optional]
 Specifies the value of the user-named alias.  The debugger engine makes a copy of this string.  If <i>DstText</i> is <b>NULL</b>, the user-named alias is removed.
 
 

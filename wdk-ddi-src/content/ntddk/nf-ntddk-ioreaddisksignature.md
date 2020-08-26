@@ -55,18 +55,18 @@ The <b>IoReadDiskSignature</b> routine reads the disk signature information for 
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Specifies the device object for the disk to read.
 
 
-### -param BytesPerSector [in]
-
+### -param BytesPerSector 
+[in]
 Specifies the number of bytes per sector of the disk.
 
 
-### -param Signature [out]
-
+### -param Signature 
+[out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_disk_signature">DISK_SIGNATURE</a> structure the routine uses to return the disk signature information.
 
 

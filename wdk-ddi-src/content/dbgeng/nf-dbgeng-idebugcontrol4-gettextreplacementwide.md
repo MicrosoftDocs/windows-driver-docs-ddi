@@ -55,43 +55,43 @@ The <b>GetTextReplacementWide</b>  method returns the value of a user-named alia
 
 
 
-### -param SrcText [in, optional]
-
+### -param SrcText 
+[in, optional]
 Specifies the name of the alias.  The engine first searches the user-named aliases for one with this name. Then, if no match is found, the automatic aliases are searched.  If <i>SrcText</i> is <b>NULL</b>, <i>Index</i> is used to specify the alias.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of an alias.  The indexes of the user-named aliases come before the indexes of the automatic aliases.  <i>Index</i> is only used if <i>SrcText</i> is <b>NULL</b>.  <i>Index</i> can be used along with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumbertextreplacements">GetNumberTextReplacements</a> to iterate over all the user-named and automatic aliases.
 
 
-### -param SrcBuffer [out, optional]
-
+### -param SrcBuffer 
+[out, optional]
 Receives the name of the alias.  This is the name specified in <i>SrcText</i>, if <i>SrcText</i> is not <b>NULL</b>.  If <i>SrcBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param SrcBufferSize [in]
-
+### -param SrcBufferSize 
+[in]
 Specifies the size, in characters, of the <i>SrcBuffer</i> buffer.
 
 
-### -param SrcSize [out, optional]
-
+### -param SrcSize 
+[out, optional]
 Receives the size, in characters, of the name of the alias.  If <i>SrcSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param DstBuffer [out, optional]
-
+### -param DstBuffer 
+[out, optional]
 Receives the value of the alias specified by <i>SrcText</i> and <i>Index</i>.  If <i>DstBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param DstBufferSize [in]
-
+### -param DstBufferSize 
+[in]
 Specifies the size, in characters, of the <i>DstBuffer</i> buffer.
 
 
-### -param DstSize [out, optional]
-
+### -param DstSize 
+[out, optional]
 Receives the size, in characters, of the value of the alias.  If <i>DstSize</i> is <b>NULL</b>, this information is not returned.
 
 

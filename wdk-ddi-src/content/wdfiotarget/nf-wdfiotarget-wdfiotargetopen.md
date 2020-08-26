@@ -60,13 +60,13 @@ The <b>WdfIoTargetOpen</b> method opens a remote I/O target so the driver can se
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to an I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
 
 
-### -param OpenParams [in]
-
+### -param OpenParams 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
 

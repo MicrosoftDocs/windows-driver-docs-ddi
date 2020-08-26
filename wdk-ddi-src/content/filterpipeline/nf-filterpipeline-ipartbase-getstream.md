@@ -55,8 +55,8 @@ The <b>GetStream</b> method gets the stream object that contains the part data. 
 
 
 
-### -param ppStream [out]
-
+### -param ppStream 
+[out]
 The stream object that contains the part data to be read.
 
 

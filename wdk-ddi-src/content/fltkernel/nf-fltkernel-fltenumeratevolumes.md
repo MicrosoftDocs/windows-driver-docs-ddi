@@ -56,23 +56,23 @@ The <b>FltEnumerateVolumes</b> routine enumerates all volumes in the system.
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param VolumeList [out]
-
+### -param VolumeList 
+[out]
 Pointer to a caller-allocated buffer that receives an array of opaque volume pointers. This parameter is optional and can be <b>NULL</b> if <i>VolumeListSize</i> is zero. If <i>VolumeListSize</i> is zero on input and <i>VolumeList</i> is <b>NULL</b>, <i>NumberVolumesReturned</i> receives the number of volumes found.
 
 
-### -param VolumeListSize [in]
-
+### -param VolumeListSize 
+[in]
 Number of opaque filter pointers that the buffer that <i>VolumeList</i> points to can hold. This parameter is optional and can be zero. If <i>VolumeListSize</i> is zero on input and <i>VolumeList</i> is <b>NULL</b>, <i>NumberVolumesReturned</i> receives the number of volumes found.
 
 
-### -param NumberVolumesReturned [out]
-
+### -param NumberVolumesReturned 
+[out]
 Pointer to a caller-allocated variable that receives the number of opaque volume pointers returned in the array that <i>VolumeList </i>points to. If <i>VolumeListSize</i> is too small and <i>VolumeList</i> is non-<b>NULL</b> on input, <b>FltEnumerateVolumes</b> returns STATUS_BUFFER_TOO_SMALL and sets <i>NumberVolumesReturned</i> to point to the number of volumes found. This parameter is required and cannot be <b>NULL</b>.
 
 

@@ -57,8 +57,8 @@ The <b>OnQueryRemove</b> method notifies a driver before a device is removed fro
 
 
 
-### -param pWdfDevice [in]
-
+### -param pWdfDevice 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device that will be removed.
 
 

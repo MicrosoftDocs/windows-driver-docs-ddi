@@ -55,13 +55,13 @@ Returns a subset of the devices in the DeviceDepot.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param ppTargets [out, retval]
-
+### -param ppTargets 
+[out, retval]
 The collection of devices.
 
 
@@ -69,7 +69,7 @@ The collection of devices.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

@@ -6,7 +6,7 @@ old-location: storage\device_power_descriptor.htm
 tech.root: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
 ms.date: 03/29/2018
-keywords: ["_DEVICE_POWER_DESCRIPTOR structure"]
+keywords: ["DEVICE_POWER_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, ntddstor/PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor"
 f1_keywords:
  - "ntddstor/DEVICE_POWER_DESCRIPTOR"

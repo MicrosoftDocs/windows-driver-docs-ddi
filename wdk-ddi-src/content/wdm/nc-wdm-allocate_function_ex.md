@@ -55,8 +55,8 @@ The <i>LookasideListAllocateEx</i> routine allocates the storage for a new looka
 
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Specifies the type of storage to allocate for the new lookaside-list entry. The caller sets this parameter to a valid <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration value, and possibly bitwise ORs this value with one of the following flag bits:
 
 <ul>
@@ -72,18 +72,18 @@ If, in the <b>ExInitializeLookasideListEx</b> call, <i>Flags</i> = EX_LOOKASIDE_
 If, in the <b>ExInitializeLookasideListEx</b> call, Flags = EX_LOOKASIDE_LIST_EX_FLAGS_FAIL_NO_RAISE, the <i>PoolType</i> parameter that the <i>LookasideListAllocateEx</i> routine receives is the bitwise OR of POOL_QUOTA_FAIL_INSTEAD_OF_RAISE and the <i>PoolType</i> value that was passed to <b>ExInitializeLookasideListEx</b>.  The <i>LookasideListAllocateEx</i> routine can pass its <i>PoolType</i> parameter value, without modification, to the <b>ExAllocatePoolWithQuotaTag</b> routine.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies the size, in bytes, of the lookaside-list entry to allocate.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 Specifies the four-byte pool tag to use to mark the allocated storage for the new lookaside-list entry. For more information about pool tags, see the description of the <i>Tag</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>. 
 
 
-### -param Lookaside [in, out]
-
+### -param Lookaside 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIST_EX</a> structure that describes the lookaside list. This structure was previously initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex">ExInitializeLookasideListEx</a> routine. 
 
 

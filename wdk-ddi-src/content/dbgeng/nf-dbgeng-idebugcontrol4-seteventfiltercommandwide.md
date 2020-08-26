@@ -55,13 +55,13 @@ The <b>SetEventFilterCommandWide</b>  method sets a debugger command for the eng
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the event filter.  <i>Index</i> can take any value between zero and one less than the total number of event filters returned by <b>GetNumberEventFilters</b> (inclusive).  For more information about the index of the filters, see Index and Exception Code.
 
 
-### -param Command [in]
-
+### -param Command 
+[in]
 Specifies the debugger command for the engine to execute when the event occurs.
 
 

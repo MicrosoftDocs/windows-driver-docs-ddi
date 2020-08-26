@@ -60,8 +60,8 @@ The
 
 
 
-### -param addressFamily [in, optional]
-
+### -param addressFamily 
+[in, optional]
 The address family for which the injection handle is being created. This can be one of the
      following address families:
      
@@ -91,8 +91,8 @@ For transport, stream, and forward injections, this parameter is optional and ca
      Ws2def.h.
 
 
-### -param flags [in]
-
+### -param flags 
+[in]
 A flag value set by a callout driver to indicate the type of data to be injected. This flag can have
      one or more of the following values: 
      
@@ -140,8 +140,8 @@ Transport data will be injected by calling either the
      injection handle can be used for transport, stream, and forward injections.
 
 
-### -param injectionHandle [out]
-
+### -param injectionHandle 
+[out]
 A pointer to a variable that receives the handle.
 
 

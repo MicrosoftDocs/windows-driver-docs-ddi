@@ -53,8 +53,8 @@ The **MicroEntry** function responds to commands sent by the WIA Flatbed driver.
 
 Specifies a command issued to the microdriver by the WIA Flatbed driver. 
 
-### -param pValue [in, out]
-
+### -param pValue 
+[in, out]
 Points to a [VAL](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-val) structure that is used to pass information between the WIA Flatbed driver and the microdriver.
 
 ## -returns

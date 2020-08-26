@@ -55,8 +55,8 @@ The <b>KeInsertHeadQueue</b> routine inserts an entry at the head of the given q
 
 
 
-### -param Queue [in, out]
-
+### -param Queue 
+[in, out]
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool. This structure is defined as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -134,8 +134,8 @@ Pointer to the first entry in the thread list
  
 
 
-### -param Entry [in, out]
-
+### -param Entry 
+[in, out]
 Pointer to the queue entry that is to be inserted. This pointer must be a resident system-space address. 
 
 

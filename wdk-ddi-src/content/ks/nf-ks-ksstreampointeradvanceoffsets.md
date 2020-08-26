@@ -56,27 +56,27 @@ The<b> KsStreamPointerAdvanceOffsets</b> function advances the offsets of <i>Str
 
 
 
-### -param StreamPointer [in]
-
+### -param StreamPointer 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer for which to advance the offsets. <i>StreamPointer</i> should be in the locked state when this function is called.
 
 
-### -param InUsed [in]
-
+### -param InUsed 
+[in]
 The number of bytes to advance the input pointer of this stream pointer. 
 
 (StreamPointer -> OffsetIn)
 
 
-### -param OutUsed [in]
-
+### -param OutUsed 
+[in]
 The number of bytes to advance the output pointer of this stream pointer 
 
 (StreamPointer -> OffsetOut)
 
 
-### -param Eject [in]
-
+### -param Eject 
+[in]
 This parameter indicates whether the stream pointer should be advanced to the next data frame If this parameter is set to <b>TRUE</b>, AVStream advances the stream pointer regardless of whether advancing the offsets causes the stream pointer to point to the end of a frame.
 
 

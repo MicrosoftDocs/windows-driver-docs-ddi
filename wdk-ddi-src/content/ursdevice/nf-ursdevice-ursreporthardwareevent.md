@@ -56,13 +56,13 @@ Notifies the USB dual-role class extension about a new hardware event.
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
 
-### -param HardwareEvent [in]
-
+### -param HardwareEvent 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/urstypes/ne-urstypes-_urs_hardware_event">URS_HARDWARE_EVENT</a>-type value that indicates the type of event that occurred.
 
 

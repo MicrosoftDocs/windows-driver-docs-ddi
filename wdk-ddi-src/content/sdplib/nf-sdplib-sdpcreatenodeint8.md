@@ -57,14 +57,14 @@ The Bluetooth
 
 
 
-### -param cVal [in]
-
+### -param cVal 
+[in]
 The 8-bit integer value that is used to initialize the 
      <b>SDP_NODE</b> structure.
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 A profile driver defined tag to associate with the node.
 
 

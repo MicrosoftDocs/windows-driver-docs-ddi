@@ -60,18 +60,18 @@ The <b>FltFastIoMdlWriteComplete</b> routine frees the resources that <a href="h
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
 
-### -param MdlChain [in]
-
+### -param MdlChain 
+[in]
 A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiopreparemdlwrite">FltFastIoPrepareMdlWrite</a> allocated.
 
 

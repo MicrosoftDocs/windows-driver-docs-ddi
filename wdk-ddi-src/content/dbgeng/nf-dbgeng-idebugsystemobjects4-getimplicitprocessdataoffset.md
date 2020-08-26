@@ -57,8 +57,8 @@ The <b>GetImplicitProcessDataOffset</b> method returns the implicit process for 
 
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the location in the target's memory address space of the data structure of the system process that is the implicit process for the current target.
 
 

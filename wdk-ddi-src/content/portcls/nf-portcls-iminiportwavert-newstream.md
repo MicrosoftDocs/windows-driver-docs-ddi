@@ -55,28 +55,28 @@ The <code>NewStream</code> method creates a new instance of a WaveRT stream obje
 
 
 
-### -param Stream [out]
-
+### -param Stream 
+[out]
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable, into which the <code>NewStream</code> method writes a pointer to the <b>IMiniportWaveRTStream</b> interface of the new stream object. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
 
 
-### -param PortStream [in]
-
+### -param PortStream 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>.
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 Specifies a pin ID that identifies the pin to be opened. If the filter descriptor of the WaveRT miniport driver specifies a total of <i>n</i> pin factories on the filter, valid values for the <i>Pin</i> parameter are in the range 0 to <i>n</i>-1. For more information about filter descriptors, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/filter-factories">Filter Factories</a> topic. 
 
 
-### -param Capture [in]
-
+### -param Capture 
+[in]
 Specifies a Boolean value that indicates whether to create a capture stream or a render stream. This parameter is <b>TRUE</b> for a capture (input) stream, and <b>FALSE</b> for a playback (output) stream.
 
 
-### -param DataFormat [in]
-
+### -param DataFormat 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
 
 

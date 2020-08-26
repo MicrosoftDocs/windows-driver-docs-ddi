@@ -55,13 +55,13 @@ The <b>OutputWide</b>  method formats a string and send the result to <a href="h
 
 
 
-### -param Mask [in]
-
+### -param Mask 
+[in]
 Specifies the output-type bit field.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
-### -param Format [in]
-
+### -param Format 
+[in]
 Specifies the format string, as in <b>printf</b>.  In general, conversion characters work exactly as in C. For the floating-point conversion characters the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It cannot have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.

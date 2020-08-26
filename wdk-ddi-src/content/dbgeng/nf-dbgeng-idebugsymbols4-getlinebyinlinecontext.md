@@ -51,37 +51,37 @@ Gets a line by inline context.
 ## -parameters
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 An offset for the line.
 
-### -param InlineContext [in]
-
+### -param InlineContext 
+[in]
 The inline context. 
 
-### -param Line [out, optional]
-
+### -param Line 
+[out, optional]
 A pointer to the returned line.
 
-### -param FileBuffer [out]
-
+### -param FileBuffer 
+[out]
 A pointer to an output buffer.
 
-### -param FileBufferSize [in]
-
+### -param FileBufferSize 
+[in]
 The size of the file buffer.
 
-### -param FileSize [out, optional]
-
+### -param FileSize 
+[out, optional]
 A pointer to the length of the file.
 
-### -param Displacement [out, optional]
-
+### -param Displacement 
+[out, optional]
 A pointer to the displacement value of the file.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 

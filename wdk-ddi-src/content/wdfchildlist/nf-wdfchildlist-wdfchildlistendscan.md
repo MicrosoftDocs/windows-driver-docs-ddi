@@ -58,8 +58,8 @@ The <b>WdfChildListEndScan</b> method processes modifications to a specified chi
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 The same handle to a framework child-list object that the driver previously specified to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistbeginscan">WdfChildListBeginScan</a>.
 
 

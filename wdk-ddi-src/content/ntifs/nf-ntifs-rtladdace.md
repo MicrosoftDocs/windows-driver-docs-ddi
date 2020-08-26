@@ -56,13 +56,13 @@ The <b>RtlAddAce</b> routine adds one or more access control entries (ACEs) to a
 
 
 
-### -param Acl [in, out]
-
+### -param Acl 
+[in, out]
 Pointer to the ACL to be modified. <b>RtlAddAce</b> adds the specified ACEs to this ACL. 
 
 
-### -param AceRevision [in]
-
+### -param AceRevision 
+[in]
 ACL revision level of the ACE to be added. Windows version requirments are the following:
 
 <table>
@@ -98,18 +98,18 @@ The revision level valid starting with Windows 2000.
  
 
 
-### -param StartingAceIndex [in]
-
+### -param StartingAceIndex 
+[in]
 Specifies the position in the ACL's list of ACEs at which to add new ACEs. A value of zero inserts the ACEs at the beginning of the list. A value of MAXULONG appends the ACEs to the end of the list.
 
 
-### -param AceList [in]
-
+### -param AceList 
+[in]
 Pointer to a buffer containing a list of one or more ACEs to be added to the specified ACL. The ACEs in the list must be stored contiguously.
 
 
-### -param AceListLength [in]
-
+### -param AceListLength 
+[in]
 Size, in bytes, of the input buffer pointed to by the <i>AceList</i> parameter. 
 
 

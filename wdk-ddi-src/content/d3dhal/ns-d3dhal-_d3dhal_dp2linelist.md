@@ -6,7 +6,7 @@ old-location: display\d3dhal_dp2linelist.htm
 tech.root: display
 ms.assetid: ac8346e9-46ce-4205-a46b-c327888b952d
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2LINELIST structure"]
+keywords: ["D3DHAL_DP2LINELIST structure"]
 ms.keywords: "*LPD3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST structure [Display Devices], LPD3DHAL_DP2LINELIST, LPD3DHAL_DP2LINELIST structure pointer [Display Devices], _D3DHAL_DP2LINELIST, d3dhal/D3DHAL_DP2LINELIST, d3dhal/LPD3DHAL_DP2LINELIST, d3dstrct_e2e04b99-c6fc-4ee3-bcaf-4794814848a0.xml, display.d3dhal_dp2linelist"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2LINELIST"

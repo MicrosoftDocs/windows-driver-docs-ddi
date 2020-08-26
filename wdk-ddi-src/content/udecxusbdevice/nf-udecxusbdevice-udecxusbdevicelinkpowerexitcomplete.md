@@ -56,13 +56,13 @@ Completes an asynchronous request for sending the device to a low power state.
 
 
 
-### -param UdecxUsbDevice [in]
-
+### -param UdecxUsbDevice 
+[in]
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
 
-### -param CompletionStatus [in]
-
+### -param CompletionStatus 
+[in]
 An appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code that indicates the success or failure of the asynchronous operation.
 
 

@@ -57,13 +57,13 @@ An asynchronous initiation function called by the driver to create a WDDM graphi
 
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments to the function
 
 
-### -param pOutArgs [out]
-
+### -param pOutArgs 
+[out]
 Output arguments to the function
 
 

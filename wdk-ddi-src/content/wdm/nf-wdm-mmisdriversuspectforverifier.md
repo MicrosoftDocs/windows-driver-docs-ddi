@@ -55,8 +55,8 @@ The <b>MmIsDriverSuspectForVerifier</b> routine indicates whether the driver rep
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to the driver object. This object is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure that represents a loaded driver image. The driver receives this pointer as an input parameter to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
 
 

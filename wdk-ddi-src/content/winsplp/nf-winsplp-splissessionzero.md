@@ -55,8 +55,8 @@ The <code>SplIsSessionZero</code> function determines whether a certain print jo
 
 
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 Is a handle to the printer.
 
 
@@ -65,8 +65,8 @@ Is a handle to the printer.
 
 
 
-### -param pIsSessionZero [out]
-
+### -param pIsSessionZero 
+[out]
 Pointer to a memory location that is set to <b>TRUE</b> if the SessionID for the session is zero; otherwise, this value is set to <b>FALSE</b>.
 
 

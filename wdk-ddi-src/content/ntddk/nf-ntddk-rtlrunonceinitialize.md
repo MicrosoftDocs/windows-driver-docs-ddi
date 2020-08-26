@@ -55,8 +55,8 @@ The <b>RtlRunOnceInitialize</b> routine initializes a <a href="https://docs.micr
 
 
 
-### -param RunOnce [out]
-
+### -param RunOnce 
+[out]
 Pointer to the <b>RTL_RUN_ONCE</b> one-time initialization structure.
 
 

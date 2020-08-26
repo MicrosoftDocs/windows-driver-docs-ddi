@@ -56,13 +56,13 @@ The <b>RtlCreateSecurityDescriptor</b> routine initializes a new absolute-format
 
 
 
-### -param SecurityDescriptor [out]
-
+### -param SecurityDescriptor 
+[out]
 Pointer to the buffer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> to be initialized.
 
 
-### -param Revision [in]
-
+### -param Revision 
+[in]
 Specifies the revision level to assign to the security descriptor. Set this parameter to SECURITY_DESCRIPTOR_REVISION.
 
 

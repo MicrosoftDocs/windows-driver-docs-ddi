@@ -5,7 +5,7 @@ description: The WWAN_SIGNAL_STATE_EXT structure represents an extension to the 
 tech.root: netvista
 ms.assetid: 575B91C4-FF8A-488B-A12E-2DB13FE6C900
 ms.date: 04/05/2019
-keywords: ["_WWAN_SIGNAL_STATE_EXT structure"]
+keywords: ["WWAN_SIGNAL_STATE_EXT structure"]
 ms.keywords: "*PWWAN_SIGNAL_STATE_EXT, PWWAN_SIGNAL_STATE_EXT, PWWAN_SIGNAL_STATE_EXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE_EXT, WWAN_SIGNAL_STATE_EXT structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE_EXT, netvista.wwan_signal_state_EXT, wwan/PWWAN_SIGNAL_STATE_EXT, wwan/WWAN_SIGNAL_STATE_EXT"
 f1_keywords:
  - "wwan/WWAN_SIGNAL_STATE_EXT"

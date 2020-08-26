@@ -58,23 +58,23 @@ The <b>FsRtlAreNamesEqual</b> routine determines whether two Unicode strings are
 
 
 
-### -param ConstantNameA [in]
-
+### -param ConstantNameA 
+[in]
 A pointer to first string. Cannot contain wildcard characters.
 
 
-### -param ConstantNameB [in]
-
+### -param ConstantNameB 
+[in]
 A pointer to second string. Cannot contain wildcard characters.
 
 
-### -param IgnoreCase [in]
-
+### -param IgnoreCase 
+[in]
 Set to <b>TRUE</b> for case-insensitive matching, <b>FALSE</b> otherwise.
 
 
-### -param UpcaseTable [in, optional]
-
+### -param UpcaseTable 
+[in, optional]
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 
 
@@ -111,7 +111,7 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

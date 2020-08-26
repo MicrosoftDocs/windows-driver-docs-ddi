@@ -62,8 +62,8 @@ req.typenames:
 
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A handle to a framework queue object.
 
 

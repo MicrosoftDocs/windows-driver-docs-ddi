@@ -57,23 +57,23 @@ A minifilter driver can register a routine of type <i>PFLT_GET_OPERATION_STATUS_
 
 
 
-### -param FltObjects [in]
-
+### -param FltObjects 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
 
 
-### -param IopbSnapshot [in]
-
+### -param IopbSnapshot 
+[in]
 A pointer to the data structure containing parameters from the IO Request Packet for the operation. 
 
 
-### -param OperationStatus [in]
-
+### -param OperationStatus 
+[in]
 The NTSTATUS value of the I/O operation generating the callback. 
 
 
-### -param RequesterContext [in, optional]
-
+### -param RequesterContext 
+[in, optional]
 An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>. 
 
 

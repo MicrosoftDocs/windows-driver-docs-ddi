@@ -57,8 +57,8 @@ The <b>RetrieveOutputMemory</b> method retrieves the <a href="https://docs.micro
 
 
 
-### -param Memory [out]
-
+### -param Memory 
+[out]
 The address of a location that receives a pointer to the <b>IWDFMemory</b> interface of a UMDF memory object.
 
 

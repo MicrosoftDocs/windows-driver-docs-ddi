@@ -57,8 +57,8 @@ The
 
 
 
-### -param ProviderContext [in]
-
+### -param ProviderContext 
+[in]
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
@@ -66,16 +66,16 @@ An NDIS_HANDLE to a block of driver-allocated context information that identifie
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
-### -param SharedMemoryParameters [in]
-
+### -param SharedMemoryParameters 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_shared_memory_parameters">
      NDIS_SHARED_MEMORY_PARAMETERS</a> structure that defines the requested attributes for the shared
      memory.
 
 
-### -param pSharedMemoryProviderContext [in, out]
-
+### -param pSharedMemoryProviderContext 
+[in, out]
 A pointer to a handle for a shared memory context area. The shared memory provider provides a
      handle that identifies the shared memory that it allocated.
 

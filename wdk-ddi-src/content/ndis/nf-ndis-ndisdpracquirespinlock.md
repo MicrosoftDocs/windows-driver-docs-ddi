@@ -58,8 +58,8 @@ The
 
 
 
-### -param _SpinLock [in]
-
+### -param _SpinLock 
+[in]
 Pointer to an opaque spin lock, already initialized by the caller.
 
 

@@ -59,16 +59,16 @@ The
 
 
 
-### -param ProtocolAfContext [in]
-
+### -param ProtocolAfContext 
+[in]
 A client-supplied handle to its context area for an address AF. The client allocated this context
      area and passed this handle to NDIS in its call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a> function.
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 An NDIS-supplied handle to an AF, if 
      <i>Status</i> is NDIS_STATUS_SUCCESS. Otherwise, this parameter is <b>NULL</b>. This handle represents an
      association that NDIS established between the client and a call manager that is bound to a CoNDIS
@@ -78,8 +78,8 @@ An NDIS-supplied handle to an AF, if
      <b>NdisCo<i>Xxx</i></b> functions.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The final status of the client's call to 
      <b>NdisClOpenAddressFamilyEx</b>, which can be any of the following: 
      

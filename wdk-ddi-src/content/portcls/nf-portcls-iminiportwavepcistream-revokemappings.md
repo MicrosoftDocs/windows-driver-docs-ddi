@@ -55,18 +55,18 @@ The <code>RevokeMappings</code> method revokes mappings that were previously obt
 
 
 
-### -param FirstTag [in]
-
+### -param FirstTag 
+[in]
 Specifies the tag value that identifies the first mapping that is being revoked.
 
 
-### -param LastTag [in]
-
+### -param LastTag 
+[in]
 Specifies the tag value that identifies the last mapping that is being revoked.
 
 
-### -param MappingsRevoked [out]
-
+### -param MappingsRevoked 
+[out]
 Output pointer for the count of revoked mappings. This parameter points to a ULONG variable into which the method writes the number of mappings actually revoked by the call. This number excludes any mappings in the range <i>FirstTag</i> to <i>LastTag</i> that the miniport driver has already released. Due to synchronization issues, some of the mappings in the range might be released between the time that the port driver determines the list of mappings to be revoked and the call to <code>RevokeMappings</code>. For more information, see the following Remarks section.
 
 

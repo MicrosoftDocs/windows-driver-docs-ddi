@@ -55,18 +55,18 @@ The <i>IoCompletion</i> routine completes the processing of I/O operations.
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Caller-supplied pointer to driver-specific context information, previously supplied when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutineex">IoSetCompletionRoutineEx</a>. Context information must be stored in nonpaged memory, since an <i>IoCompletion</i> routine can be called at DISPATCH_LEVEL. For more information, see the following Remarks section.
 
 

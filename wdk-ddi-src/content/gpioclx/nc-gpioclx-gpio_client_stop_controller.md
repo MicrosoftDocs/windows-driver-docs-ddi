@@ -55,18 +55,18 @@ The <i>CLIENT_StopController</i> event callback function performs operations tha
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param SaveContext [in]
-
+### -param SaveContext 
+[in]
 Whether the client driver should save the current hardware context of the GPIO controller device. If TRUE, the hardware context should be saved. If FALSE, the hardware context should not be saved. For more information, see Remarks.
 
 
-### -param TargetState [in]
-
+### -param TargetState 
+[in]
 The target device power state. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state that the device is to enter when it exits the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device before it leaves D0.
 
 

@@ -58,13 +58,13 @@ The <b>FsRtlResetLargeMcb</b> routine truncates a map control block (MCB) struct
 
 
 
-### -param Mcb [in]
-
+### -param Mcb 
+[in]
 Pointer to the MCB structure to truncate.
 
 
-### -param SelfSynchronized [in]
-
+### -param SelfSynchronized 
+[in]
 Indicates whether the caller is already synchronized with respect to the MCB.
 
 

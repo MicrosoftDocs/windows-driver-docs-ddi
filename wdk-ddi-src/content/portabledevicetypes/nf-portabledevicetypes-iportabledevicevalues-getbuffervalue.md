@@ -59,18 +59,18 @@ The GetBufferValue interface retrieves a <b>byte array</b> value (type VT_VECTOR
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
 
-### -param ppValue [out]
-
+### -param ppValue 
+[out]
 A pointer to the retrieved <b>BYTE*</b> value. The caller must free the memory by calling <b>CoTaskMemFree</b>.
 
 
-### -param pcbValue [out]
-
+### -param pcbValue 
+[out]
 A pointer to the size of <i>ppValue</i>, in bytes.
 
 

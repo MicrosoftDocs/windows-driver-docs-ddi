@@ -60,23 +60,23 @@ The <b>WdfInterruptCreate</b> method creates a framework interrupt object.
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Configuration [in]
-
+### -param Configuration 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config">WDF_INTERRUPT_CONFIG</a> structure that was initialized by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdf_interrupt_config_init">WDF_INTERRUPT_CONFIG_INIT</a>.
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the framework interrupt object.  (See Remarks for additional information.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Interrupt [out]
-
+### -param Interrupt 
+[out]
 A pointer to a location that receives a handle to the new interrupt object.
 
 

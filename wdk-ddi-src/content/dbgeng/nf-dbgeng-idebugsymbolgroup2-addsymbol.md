@@ -56,13 +56,13 @@ The <b>AddSymbol</b>  method adds a symbol to a <a href="https://docs.microsoft.
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 The symbol's name.  <i>Name</i> is examined as an expression to determine the symbol's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-get_type">type</a>.  This expression can include pointer, array, and structure dereferencing (for example, <b>*my_pointer</b>, <b>my_array[1]</b>, or <b>my_struct.some_field</b>).
 
 
-### -param Index [in, out]
-
+### -param Index 
+[in, out]
 The index of the entry in the symbol group.  When you are calling <b>AddSymbol</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-addsymbolwide">AddSymbolWide</a>, <i>Index</i> should point to the index of the symbol that you want. Or, if <i>Index</i> points to DEBUG_ANY_ID, the symbol is appended to the end of the list.   
 
 When this method returns, <i>Index</i> points to the actual index of the symbol.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.

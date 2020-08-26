@@ -55,8 +55,8 @@ The <b>GetImageProperties</b> method gets an image property that is based on the
 
 
 
-### -param pContentType [out]
-
+### -param pContentType 
+[out]
 The type of content for the image.
 
 

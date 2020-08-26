@@ -6,7 +6,7 @@ old-location: wdf\wdf_object_context_type_info.htm
 tech.root: wdf
 ms.assetid: 2b56183e-03aa-493a-84ba-03f9bc5daee2
 ms.date: 02/26/2018
-keywords: ["_WDF_OBJECT_CONTEXT_TYPE_INFO structure"]
+keywords: ["WDF_OBJECT_CONTEXT_TYPE_INFO structure"]
 ms.keywords: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, DFGenObjectRef_8c3ba75b-eb62-455f-a905-61b715478b5b.xml, PWDF_OBJECT_CONTEXT_TYPE_INFO, PWDF_OBJECT_CONTEXT_TYPE_INFO structure pointer, WDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO structure, _WDF_OBJECT_CONTEXT_TYPE_INFO, kmdf.wdf_object_context_type_info, wdf.wdf_object_context_type_info, wdfobject/PWDF_OBJECT_CONTEXT_TYPE_INFO, wdfobject/WDF_OBJECT_CONTEXT_TYPE_INFO"
 f1_keywords:
  - "wdfobject/WDF_OBJECT_CONTEXT_TYPE_INFO"

@@ -55,8 +55,8 @@ The <b>GetUri</b> method gets the URI of the part.
 
 
 
-### -param uri [out]
-
+### -param uri 
+[out]
 The URI of the part.
 
 

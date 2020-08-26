@@ -58,16 +58,16 @@ NDIS can call a miniport driver's
 
 
 
-### -param MiniportInterruptContext [in]
-
+### -param MiniportInterruptContext 
+[in]
 A handle to a block of context information. The miniport driver supplied this handle in the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
 
-### -param MessageId [in]
-
+### -param MessageId 
+[in]
 A message-signaled interrupt. 
      <i>MessageId</i> is an index to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info_entry">

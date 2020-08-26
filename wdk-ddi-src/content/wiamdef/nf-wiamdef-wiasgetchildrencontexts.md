@@ -49,16 +49,16 @@ The **wiasGetChildrenContexts** function retrieves an array of item contexts bel
 
 ## -parameters
 
-### -param pParentContext [in]
-
+### -param pParentContext 
+[in]
 Pointer to the parent item.
 
-### -param pulNumChildren [out]
-
+### -param pulNumChildren 
+[out]
 Pointer to a memory location that receives the number of children contexts.
 
-### -param pppChildren [out]
-
+### -param pppChildren 
+[out]
 Pointer to a memory location that points to an array whose elements are addresses of [IWiaItem](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiaitem) objects. Each **IWiaItem** object represents one child context.
 
 ## -returns

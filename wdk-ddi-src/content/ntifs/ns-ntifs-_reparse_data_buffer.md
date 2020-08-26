@@ -6,7 +6,7 @@ old-location: ifsk\reparse_data_buffer.htm
 tech.root: ifsk
 ms.assetid: e906a874-51f1-4623-8f0b-afdfd8169ab2
 ms.date: 05/16/2019
-keywords: ["_REPARSE_DATA_BUFFER structure"]
+keywords: ["REPARSE_DATA_BUFFER structure"]
 ms.keywords: "*PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER structure pointer [Installable File System Drivers], REPARSE_DATA_BUFFER, REPARSE_DATA_BUFFER structure [Installable File System Drivers], _REPARSE_DATA_BUFFER, fileinformationstructures_4f1b658e-1833-421f-a726-448b20b1c595.xml, ifsk.reparse_data_buffer, ntifs/PREPARSE_DATA_BUFFER, ntifs/REPARSE_DATA_BUFFER"
 f1_keywords:
  - "ntifs/REPARSE_DATA_BUFFER"

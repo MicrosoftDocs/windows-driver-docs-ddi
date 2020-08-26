@@ -58,8 +58,8 @@ The <b>WdfWdmDriverGetWdfDriverHandle</b> method returns a handle to the framewo
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to a WDM driver object.
 
 

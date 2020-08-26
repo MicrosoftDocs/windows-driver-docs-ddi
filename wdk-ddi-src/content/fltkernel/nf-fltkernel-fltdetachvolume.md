@@ -56,19 +56,19 @@ req.typenames:
 
 
 
-### -param Filter [in, out]
-
+### -param Filter 
+[in, out]
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Volume [in, out]
-
+### -param Volume 
+[in, out]
 Opaque volume pointer for the volume where the instance is attached. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param InstanceName [in, optional]
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the instance name for the instance to be removed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the highest matching instance is removed. 
+### -param InstanceName 
+[in, optional]
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the instance name for the instance to be removed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the highest matching instance is removed. 
 
 
 ## -returns

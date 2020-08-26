@@ -55,13 +55,13 @@ The <i>InterruptService</i> routine (ISR) quickly services a device interrupt an
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 Caller-supplied pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure for the interrupt.
 
 
-### -param ServiceContext [in]
-
+### -param ServiceContext 
+[in]
 Caller-supplied pointer to context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>.
 
 

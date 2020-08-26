@@ -55,18 +55,18 @@ The <i>NdkDisconnect</i> (<i>NDK_FN_DISCONNECT</i>) function starts a  disconnec
 
 
 
-### -param pNdkConnector [in]
-
+### -param pNdkConnector 
+[in]
 A pointer to a connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
 
-### -param RequestCompletion [in]
-
+### -param RequestCompletion 
+[in]
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 

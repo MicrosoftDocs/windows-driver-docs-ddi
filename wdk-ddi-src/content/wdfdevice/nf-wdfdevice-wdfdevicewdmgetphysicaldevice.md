@@ -58,8 +58,8 @@ The <b>WdfDeviceWdmGetPhysicalDevice</b> method retrieves the physical device's 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

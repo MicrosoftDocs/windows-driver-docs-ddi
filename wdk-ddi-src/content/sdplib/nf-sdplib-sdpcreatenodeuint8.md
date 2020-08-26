@@ -58,13 +58,13 @@ The Bluetooth
 
 
 
-### -param ucVal [in]
-
+### -param ucVal 
+[in]
 The unsigned 8-bit integer value that is used to initialize the SDP_NODE structure.
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 A profile driver defined tag to associate with the node.
 
 

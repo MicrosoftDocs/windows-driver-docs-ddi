@@ -62,22 +62,22 @@ Call the
 
 
 
-### -param FragmentNetBufferList [in]
-
+### -param FragmentNetBufferList 
+[in]
 A pointer to a NET_BUFFER_LIST structure that was allocated by calling 
      <b>NdisAllocateFragmentNetBufferList</b>.
 
 
-### -param DataOffsetDelta [in]
-
+### -param DataOffsetDelta 
+[in]
 The amount, in bytes, to advance (add to the data offset) the fragment NET_BUFFER structures
      before freeing them. This value should match the value of the 
      <i>DataOffsetDelta</i> parameter that was passed to 
      <b>NdisAllocateFragmentNetBufferList</b> when the NET_BUFFER_LIST structure was created.
 
 
-### -param FreeFragmentFlags [in]
-
+### -param FreeFragmentFlags 
+[in]
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
 

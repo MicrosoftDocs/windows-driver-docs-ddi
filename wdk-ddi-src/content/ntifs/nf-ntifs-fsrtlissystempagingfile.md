@@ -55,8 +55,8 @@ The <b>FsRtlIsSystemPagingFile</b> routine determines whether a given file is cu
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the file. 
 
 

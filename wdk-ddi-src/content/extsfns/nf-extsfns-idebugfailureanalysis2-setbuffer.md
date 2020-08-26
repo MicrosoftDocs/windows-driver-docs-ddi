@@ -60,18 +60,18 @@ The <b>SetBuffer</b> method searches a <a href="https://docs.microsoft.com/windo
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param EntryType [in]
-
+### -param EntryType 
+[in]
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration. This parameter specifies the data type of the data in <i>Buf</i>.
 
 
-### -param Buf [in]
-
+### -param Buf 
+[in]
 A pointer to a buffer that contains the bytes to be written to the data block of the new or existing <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
 

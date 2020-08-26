@@ -55,13 +55,13 @@ Evaluates whether all items in the collection match an SDEL statement.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if all items match; otherwise, false.
 
 
@@ -69,7 +69,7 @@ True if all items match; otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

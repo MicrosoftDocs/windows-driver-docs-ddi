@@ -55,15 +55,15 @@ req.typenames:
 
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
 
-### -param Data [in]
-
+### -param Data 
+[in]
 Specifies the byte to be written.
 
 

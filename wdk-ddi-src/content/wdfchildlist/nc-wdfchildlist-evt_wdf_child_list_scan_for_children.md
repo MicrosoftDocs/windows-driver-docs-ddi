@@ -57,8 +57,8 @@ A driver's <i>EvtChildListScanForChildren</i> event callback function must repor
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a framework child list object.
 
 

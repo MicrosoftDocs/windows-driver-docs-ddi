@@ -6,7 +6,7 @@ old-location: battery\powersourcestatus.htm
 tech.root: battery
 ms.assetid: 9386DBEC-A47D-44A5-8AF8-D5B406143070
 ms.date: 02/15/2018
-keywords: ["_POWERSOURCESTATUS structure"]
+keywords: ["POWERSOURCESTATUS structure"]
 ms.keywords: "*PPOWERSOURCESTATUS, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], _POWERSOURCESTATUS, battery.powersourcestatus, charging/BATTERY_INFORMATION"
 f1_keywords:
  - "charging/BATTERY_INFORMATION"

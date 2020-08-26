@@ -55,8 +55,8 @@ The <b>GetSymbolInformationWideEx</b> method returns specified information about
 
 
 
-### -param Which [in]
-
+### -param Which 
+[in]
 Specifies the piece of information to return.  <i>Which</i> can take one of the values in the follow table.
 
 <table>
@@ -110,8 +110,8 @@ Returns a list of symbol names and offsets for the symbols in the specified modu
  
 
 
-### -param Arg64 [in]
-
+### -param Arg64 
+[in]
 Specifies a 64-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
 
@@ -141,8 +141,8 @@ Specifies the address in the target's memory of the symbol whose name is being r
 Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
 
 
-### -param Arg32 [in]
-
+### -param Arg32 
+[in]
 Specifies a 32-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
 
@@ -172,38 +172,38 @@ The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in
 The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the requested symbol information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in bytes, of the buffer <i>Buffer</i>.
 
 
-### -param InfoSize [out, optional]
-
+### -param InfoSize 
+[out, optional]
 If this method returns <b>S_OK</b>, <i>InfoSize</i> receives the size, in bytes, of the symbol information returned to <i>Buffer</i>.  If this method returns <b>S_FALSE</b>, the supplied buffer is not big enough, and <i>InfoSize</i> receives the required buffer size. If <i>InfoSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param StringBuffer [out, optional]
-
+### -param StringBuffer 
+[out, optional]
 Receives the requested string.  The interpretation of this string depends on the value of <i>Which</i>.  If <i>StringBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param StringBufferSize [in]
-
+### -param StringBufferSize 
+[in]
 Specifies the size, in characters, of the string buffer <i>StringBuffer</i>.
 
 
-### -param StringSize [out, optional]
-
+### -param StringSize 
+[out, optional]
 Receives the size, in characters, of the string returned to <i>StringBuffer</i>.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param pInfoEx [out, optional]
-
+### -param pInfoEx 
+[out, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_symbol_info_ex">SYMBOL_INFO_EX</a> structure. 
 
 

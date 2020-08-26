@@ -60,8 +60,8 @@ The <b>WdfIoQueueStopSynchronously</b> method prevents an I/O queue from deliver
 
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A handle to a framework queue object.
 
 

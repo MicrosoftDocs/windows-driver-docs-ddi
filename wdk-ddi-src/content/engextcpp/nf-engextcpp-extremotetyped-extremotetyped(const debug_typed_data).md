@@ -56,8 +56,8 @@ The <b>ExtRemoteTyped</b> constructor creates a new instance of the <b>ExtRemote
 
 
 
-### -param Typed [in]
-
+### -param Typed 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a> structure that describes the data and type to be represented by this object.
 
 

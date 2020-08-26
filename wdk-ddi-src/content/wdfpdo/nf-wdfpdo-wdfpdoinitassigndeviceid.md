@@ -58,14 +58,14 @@ The <b>WdfPdoInitAssignDeviceID</b> method updates the <a href="https://docs.mic
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param DeviceID [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a device ID string. The driver can allocate the string's buffer from paged pool.
+### -param DeviceID 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a device ID string. The driver can allocate the string's buffer from paged pool.
 
 
 ## -returns

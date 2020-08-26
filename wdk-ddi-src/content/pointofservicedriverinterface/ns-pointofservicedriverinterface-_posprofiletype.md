@@ -6,7 +6,7 @@ old-location: pos\posprofiletype.htm
 tech.root: pos
 ms.assetid: b0ef1592-f3f3-4ca1-83f8-dc7cb76cda36
 ms.date: 02/23/2018
-keywords: ["_PosProfileType structure"]
+keywords: ["PosProfileType structure"]
 ms.keywords: PosProfileType, PosProfileType structure, _PosProfileType, pointofservicedriverinterface/PosProfileType, pos.posprofiletype
 f1_keywords:
  - "pointofservicedriverinterface/PosProfileType"
@@ -69,7 +69,7 @@ This structure describes the number of profile strings in a buffer.
 
 #### - DataLength
 
-The size in bytes of the buffer that follows this <b>PosProfileType</b>, including the size of the <b>PosProfileType</b> structure.
+The size in bytes of the buffer that follows this **PosProfileType**, including the size of the **PosProfileType** structure.
 
 
 #### - EntryCount
@@ -81,7 +81,7 @@ Indicates the number of statistics that follow this header.
 
 
 
-The buffer of profile <i>PosStringType</i> strings follows this structure in memory.
+The buffer of profile *PosStringType* strings follows this structure in memory.
 
 
 

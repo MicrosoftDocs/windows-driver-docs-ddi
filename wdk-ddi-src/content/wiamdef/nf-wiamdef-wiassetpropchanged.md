@@ -60,8 +60,8 @@ The <b>wiasSetPropChanged </b>function modifies a property context to indicate t
 Specifies the property identifier of the property being changed.
 
 
-### -param pContext [in]
-
+### -param pContext 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure that contains the current property context.
 
 

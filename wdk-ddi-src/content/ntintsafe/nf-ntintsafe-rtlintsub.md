@@ -55,13 +55,13 @@ Subtracts one value of type <b>INT</b> from another.
 
 
 
-### -param iMinuend [in]
-
+### -param iMinuend 
+[in]
 The value from which <i>iSubtrahend</i> is subtracted.
 
 
-### -param iSubtrahend [in]
-
+### -param iSubtrahend 
+[in]
 The value to subtract from <i>iMinuend</i>.
 
 

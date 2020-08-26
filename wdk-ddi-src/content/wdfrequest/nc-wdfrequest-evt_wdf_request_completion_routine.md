@@ -57,23 +57,23 @@ A driver's <i>CompletionRoutine</i> event callback function executes when anothe
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object that represents the completed I/O request.
 
 
-### -param Target [in]
-
+### -param Target 
+[in]
 A handle to an I/O target object that represents the I/O target that completed the request.
 
 
-### -param Params [in]
-
+### -param Params 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a> structure that contains information about the completed request. See note below regarding validity of the completion parameters.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Driver-supplied context information, which the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsetcompletionroutine">WdfRequestSetCompletionRoutine</a>.
 
 

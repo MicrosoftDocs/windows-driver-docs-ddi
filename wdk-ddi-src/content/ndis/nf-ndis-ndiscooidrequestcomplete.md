@@ -60,15 +60,15 @@ The
 
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 An address family (AF) handle that NDIS passed to the client or stand-alone call manager's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request">
      ProtocolCoOidRequest</a> function.
 
 
-### -param NdisVcHandle [in, optional]
-
+### -param NdisVcHandle 
+[in, optional]
 A virtual connection (VC) handle that NDIS passed to the client or stand-alone call manager's 
      <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
      VC-specific. This parameter is <b>NULL</b> if the caller of the 
@@ -77,8 +77,8 @@ A virtual connection (VC) handle that NDIS passed to the client or stand-alone c
      <b>NULL</b> VC handle.
 
 
-### -param NdisPartyHandle [in, optional]
-
+### -param NdisPartyHandle 
+[in, optional]
 A party handle that NDIS passed to the client or stand-alone call manager's 
      <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
      party-specific. This parameter is <b>NULL</b> if the caller of the 
@@ -86,8 +86,8 @@ A party handle that NDIS passed to the client or stand-alone call manager's
      <b>NdisMCmOidRequest</b> function specified a <b>NULL</b> party handle.
 
 
-### -param OidRequest [in]
-
+### -param OidRequest 
+[in]
 A pointer to a buffer that is formatted as an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure. The caller of
      the 
@@ -95,8 +95,8 @@ A pointer to a buffer that is formatted as an
      <b>NdisMCmOidRequest</b> function supplied this buffer.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The final status of the request operation, either NDIS_STATUS_SUCCESS, or any driver-determined
      NDIS_STATUS_<i>XXX</i> status value 
      except NDIS_STATUS_PENDING.

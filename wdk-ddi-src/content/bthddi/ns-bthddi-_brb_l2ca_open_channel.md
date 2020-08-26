@@ -6,7 +6,7 @@ old-location: bltooth\_brb_l2ca_open_channel.htm
 tech.root: bltooth
 ms.assetid: 16f79360-c8fd-4be9-9c94-7fa2a1d8c6b5
 ms.date: 04/27/2018
-keywords: ["_BRB_L2CA_OPEN_CHANNEL structure"]
+keywords: ["BRB_L2CA_OPEN_CHANNEL structure"]
 ms.keywords: "_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_channel, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bthddi/_BRB_L2CA_OPEN_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_L2CA_OPEN_CHANNEL"

@@ -57,13 +57,13 @@ The <b>WdfRequestRetrieveActivityId</b> method retrieves the current activity id
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param ActivityId [out]
-
+### -param ActivityId 
+[out]
 A pointer to a location to store the retrieved GUID.
 
 

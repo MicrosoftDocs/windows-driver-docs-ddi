@@ -58,8 +58,8 @@ For more information, see the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-### -param Parameters [in, out]
-
+### -param Parameters 
+[in, out]
 For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a> function.
 
 

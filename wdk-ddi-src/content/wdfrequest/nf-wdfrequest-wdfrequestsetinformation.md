@@ -60,13 +60,13 @@ The <b>WdfRequestSetInformation</b> method sets completion status information fo
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param Information [in]
-
+### -param Information 
+[in]
 Driver-defined completion status information for the request.
 
 

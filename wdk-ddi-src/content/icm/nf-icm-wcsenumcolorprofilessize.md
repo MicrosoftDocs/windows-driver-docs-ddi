@@ -5,10 +5,9 @@ description: The WcsEnumColorProfilesSize function returns the size, in bytes, o
 old-location: print\wcsenumcolorprofilessize.htm
 tech.root: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
-ms.date: 04/20/2018
+ms.date: 08/14/2020
 keywords: ["WcsEnumColorProfilesSize function"]
 ms.keywords: WcsEnumColorProfilesSize, WcsEnumColorProfilesSize function [Print Devices], colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, icm/WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize
-ms.topic: function
 req.header: icm.h
 req.include-header:
 req.target-type: Universal
@@ -49,12 +48,12 @@ The `WcsEnumColorProfilesSize` function returns the size, in bytes, of the buffe
 
 ### -param scope
 
-### -param pEnumRecord [in]
-
+### -param pEnumRecord 
+[in]
 A pointer to a structure that specifies the enumeration criteria.
 
-### -param pdwSize [out]
-
+### -param pdwSize 
+[out]
 A pointer to a variable that receives the size of the buffer that is required to receive all enumerated profile names. This value is used by the *dwSize* parameter of the [WcsEnumColorProfiles](nf-icm-wcsenumcolorprofiles.md) function.
 
 #### - profileManagementScope [in]

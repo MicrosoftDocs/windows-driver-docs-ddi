@@ -4,7 +4,7 @@ title: _D3DKMT_GETALLOCATIONPRIORITY (d3dkmthk.h)
 description: Used to get allocation priorities.
 ms.assetid: a1feb30f-9d43-46ba-b412-e4babebe1609
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_GETALLOCATIONPRIORITY structure"]
+keywords: ["D3DKMT_GETALLOCATIONPRIORITY structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GETALLOCATIONPRIORITY"
  - "_D3DKMT_GETALLOCATIONPRIORITY"

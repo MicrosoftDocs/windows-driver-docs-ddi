@@ -55,43 +55,43 @@ The <i>DpWmiExecuteMethod</i> routine executes a method associated with a data b
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP.
 
 
-### -param GuidIndex [in]
-
+### -param GuidIndex 
+[in]
 Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>. 
 
 
-### -param InstanceIndex [in]
-
+### -param InstanceIndex 
+[in]
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> specifies a zero-based index value that identifies the instance.
 
 
-### -param MethodId [in]
-
+### -param MethodId 
+[in]
 Specifies the ID of the method to execute. The driver defines the method ID as an item in a data block.
 
 
-### -param InBufferSize [in]
-
+### -param InBufferSize 
+[in]
 Indicates the size in bytes of the input data. If there is no input data, <i>InBufferSize</i> is zero. 
 
 
-### -param OutBufferSize [in]
-
+### -param OutBufferSize 
+[in]
 Indicates the number of bytes available in the buffer for output data.
 
 
-### -param Buffer [in, out]
-
+### -param Buffer 
+[in, out]
 Pointer to a buffer that holds input data, if any, and receives output data, if any, for the method. If the buffer is too small to receive all of the output data, the driver returns STATUS_BUFFER_TOO_SMALL and calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a> with the size required.
 
 

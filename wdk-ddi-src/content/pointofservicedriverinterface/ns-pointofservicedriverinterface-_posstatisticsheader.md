@@ -6,7 +6,7 @@ old-location: pos\posstatisticsheader.htm
 tech.root: pos
 ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
 ms.date: 02/23/2018
-keywords: ["_PosStatisticsHeader structure"]
+keywords: ["PosStatisticsHeader structure"]
 ms.keywords: PosStatisticsHeader, PosStatisticsHeader structure, _PosStatisticsHeader, pointofservicedriverinterface/PosStatisticsHeader, pos.posstatisticsheader
 f1_keywords:
  - "pointofservicedriverinterface/PosStatisticsHeader"
@@ -67,5 +67,5 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservic
 
 ### -field DataLength
 
-Indicates the length, in bytes, of the <b>PosStatisticsHeader</b> and the buffer of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posvaluestatisticsentry">PosValueStatisticsEntry</a> that follow this structure in memory.
+Indicates the length, in bytes, of the **PosStatisticsHeader** and the buffer of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posvaluestatisticsentry">PosValueStatisticsEntry</a> that follow this structure in memory.
 

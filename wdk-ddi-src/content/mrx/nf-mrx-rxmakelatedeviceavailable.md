@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param RxDeviceObject [in]
-
+### -param RxDeviceObject 
+[in]
 A pointer to the where the created device object is to be stored.
 
 

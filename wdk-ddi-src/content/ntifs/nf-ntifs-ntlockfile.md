@@ -56,53 +56,53 @@ The <b>NtLockFile</b> routine requests a byte-range lock for the specified file.
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 A handle for the file on which a byte-range lock is requested.
 
 
-### -param Event [in, optional]
-
+### -param Event 
+[in, optional]
 A handle to a caller-created event. If not <b>NULL</b>, the caller is placed into a wait state until the operation succeeds, at which time the event is set into the Signaled state.
 
 
-### -param ApcRoutine [in, optional]
-
+### -param ApcRoutine 
+[in, optional]
 A pointer to a caller-supplied APC routine that is executed after the operation completes. Can be <b>NULL</b>.
 
 
-### -param ApcContext [in, optional]
-
+### -param ApcContext 
+[in, optional]
 A pointer to a caller-specified context for the APC routine. This value is passed to the APC routine when it is executed. Can be <b>NULL</b>.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that contains the final status.
 
 
-### -param ByteOffset [in]
-
+### -param ByteOffset 
+[in]
 A pointer to a variable that specifies the starting byte offset of the range to lock.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 A pointer to a variable that specifies the length in bytes of the range to lock.
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A caller-assigned value used to describe groups of related locks. This value should be set to zero.
 
 
-### -param FailImmediately [in]
-
+### -param FailImmediately 
+[in]
 If <b>TRUE</b>, immediately return if the file cannot be locked. If <b>FALSE</b>, wait for the lock request to be granted.
 
 
-### -param ExclusiveLock [in]
-
+### -param ExclusiveLock 
+[in]
 If <b>TRUE</b>, byte-range lock is exclusive; otherwise, shared lock.
 
 

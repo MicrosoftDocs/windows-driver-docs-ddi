@@ -55,8 +55,8 @@ The <b>IoIsOperationSynchronous</b> routine determines whether a given IRP repre
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP for the operation. 
 
 

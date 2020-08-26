@@ -55,8 +55,8 @@ The <b>RtlIsValidOemCharacter</b> routine determines if the specified Unicode ch
 
 
 
-### -param Char [in, out]
-
+### -param Char 
+[in, out]
 Pointer to the character. If the character can be mapped to a valid OEM character, this parameter receives the Unicode translation of the valid OEM character.
 
 

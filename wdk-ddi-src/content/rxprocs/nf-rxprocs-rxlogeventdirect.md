@@ -57,28 +57,28 @@ It is recommended that the RXLogEvent macro or the RxLogFailure macro be used in
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the RDBSS device object.
 
 
-### -param OriginatorId [in]
-
+### -param OriginatorId 
+[in]
 A string indicating the caller generating the error.
 
 
-### -param EventId [in]
-
+### -param EventId 
+[in]
 The value indicating the I/O error log code value which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The value indicating the status code of a routine indicating a failure.
 
 
-### -param Line [in]
-
+### -param Line 
+[in]
 The line number in the source code file where this failure occurred.
 
 

@@ -56,23 +56,23 @@ The <b>KsDisableEvent </b>function disables events requested through IOCTL_KS_DI
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP passed to the removal function, which uses the IRP to obtain context information. The file object associated with the IRP is used to compare against the file object originally specified when enabling the event. This allows a single event list to be used for multiple clients differentiated by file objects.
 
 
-### -param EventsList [in, out]
-
+### -param EventsList 
+[in, out]
 Points to the head of the list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> items on which the event may be found. If a client uses multiple event lists and does not know what list this event is on, the client can call this function multiple times. An event not found will return STATUS_UNSUCCESSFUL.
 
 
-### -param EventsFlags [in]
-
+### -param EventsFlags 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flag specifying the type of exclusion lock to be used in accessing the event list. If no flag is set, then no lock is taken.
 
 
-### -param EventsLock [in]
-
+### -param EventsLock 
+[in]
 Used to synchronize access to an element on the list. After the element has been accessed, it is marked as being deleted so that subsequent removal requests fail. The lock is then released after calling the removal function, if any. The removal function must synchronize with event generation before actually removing the element from the list.
 
 

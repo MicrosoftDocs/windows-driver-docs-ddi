@@ -55,8 +55,8 @@ A registered minifilter driver calls <b>FltUnregisterFilter</b> to unregister it
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>. 
 
 

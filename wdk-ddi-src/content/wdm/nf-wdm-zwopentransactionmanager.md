@@ -56,33 +56,33 @@ The <b>ZwOpenTransactionManager</b> routine obtains a handle to an existing tran
 
 
 
-### -param TmHandle [out]
-
+### -param TmHandle 
+[out]
 A pointer to a caller-allocated variable that receives a handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a> if <b>ZwOpenTransactionManager</b> returns STATUS_SUCCESS.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction manager object. For information about how to specify this parameter, see the <i>DesiredAccess</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransactionmanager">ZwCreateTransactionManager</a>. 
 
 
-### -param ObjectAttributes [in, optional]
-
+### -param ObjectAttributes 
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param LogFileName [in, optional]
+### -param LogFileName 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path and file name of the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-log-streams-with-ktm">log file stream</a> that was created when the transaction manager object was created. For more information, see the <i>LogFileName</i> parameter of <b>ZwCreateTransactionManager</b>. This parameter is optional and can be <b>NULL</b>. 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path and file name of the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-log-streams-with-ktm">log file stream</a> that was created when the transaction manager object was created. For more information, see the <i>LogFileName</i> parameter of <b>ZwCreateTransactionManager</b>. This parameter is optional and can be <b>NULL</b>. 
 
-
-### -param TmIdentity [in, optional]
-
+### -param TmIdentity 
+[in, optional]
 A pointer to a GUID that identifies the transaction manager object.  This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param OpenOptions [in, optional]
-
+### -param OpenOptions 
+[in, optional]
 This parameter is not used and must be zero.
 
 
@@ -208,7 +208,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

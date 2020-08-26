@@ -55,25 +55,25 @@ req.typenames:
 
 
 
-### -param ThisFcb [out]
-
+### -param ThisFcb 
+[out]
 A pointer to the FCB structure to finalize.
 
 
-### -param RecursiveFinalize [in]
-
+### -param RecursiveFinalize 
+[in]
 The value indicating whether the finalization should be done recursively. 
 
 
-### -param ForceFinalize [in]
-
+### -param ForceFinalize 
+[in]
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
 If this parameter is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the FCB must be 1 for the FCB to be finalized. 
 
 
-### -param ReferenceCount [in]
-
+### -param ReferenceCount 
+[in]
 The reference count on the FCB that will still allow forced finalization.
 
 

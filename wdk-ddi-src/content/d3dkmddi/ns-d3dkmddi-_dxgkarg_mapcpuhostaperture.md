@@ -5,7 +5,7 @@ description: The DXGKARG_MAPCPUHOSTAPERTURE structure is used to map an allocati
 old-location: display\dxgkarg_mapcpuhostaperture.htm
 ms.assetid: ACC0C800-B6E3-4EF2-846C-63BF4564D0FD
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_MAPCPUHOSTAPERTURE structure"]
+keywords: ["DXGKARG_MAPCPUHOSTAPERTURE structure"]
 ms.keywords: DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, display.dxgkarg_mapcpuhostaperture
 f1_keywords:
  - "d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE"

@@ -55,13 +55,13 @@ The <b>CmGetBoundTransaction</b> routine returns a pointer to the transaction ob
 
 
 
-### -param Cookie [in]
-
+### -param Cookie 
+[in]
 The cookie value that the driver previously obtain by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>. 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The pointer value that the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> callback routine received in one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures. 
 
 

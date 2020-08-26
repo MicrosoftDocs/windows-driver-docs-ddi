@@ -58,8 +58,8 @@ The
 
 
 
-### -param NdisHandle [in]
-
+### -param NdisHandle 
+[in]
 An NDIS handle that was obtained during caller initialization. For more information about this
      handle, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/obtaining-pool-handles">Obtaining Pool Handles</a>.
@@ -77,8 +77,8 @@ If the handle is an NDIS filter module handle, NDIS returns information about al
      attached, starting with the top-most filter module.
 
 
-### -param InterfaceBuffer [in]
-
+### -param InterfaceBuffer 
+[in]
 A pointer to a caller-allocated memory block in which NDIS returns the information for all the
      filter modules in a filter stack, starting with top-most filter. This buffer contains an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that is
@@ -87,21 +87,21 @@ A pointer to a caller-allocated memory block in which NDIS returns the informati
      for each filter module in the stack.
 
 
-### -param InterfaceBufferLength [in]
-
+### -param InterfaceBufferLength 
+[in]
 The length, in bytes, of the caller-supplied memory block at the 
      <b>InterfaceBuffer</b> member.
 
 
-### -param BytesNeeded [in, out]
-
+### -param BytesNeeded 
+[in, out]
 A pointer to a caller-supplied variable where NDIS writes the total number of bytes that NDIS
      requires to successfully return the interface information for all the filters in the filter
      stack.
 
 
-### -param BytesWritten [in, out]
-
+### -param BytesWritten 
+[in, out]
 A pointer to a caller-supplied variable where NDIS writes the total bytes that NDIS wrote in the
      memory at 
      <b>InterfaceBuffer</b>.

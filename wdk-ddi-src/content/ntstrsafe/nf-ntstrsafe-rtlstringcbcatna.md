@@ -58,13 +58,13 @@ The <b>RtlStringCbCatNW</b> and <b>RtlStringCbCatNA</b> functions concatenate tw
 
 
 
-### -param pszDest [in, out]
-
+### -param pszDest 
+[in, out]
 Pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cbToAppend</i> bytes, is added to the end of the string at <i>pszDest</i> and terminated with a null character.
 
 
-### -param cbDest [in]
-
+### -param cbDest 
+[in]
 The size of the destination buffer, in bytes. The buffer must be large enough to include both strings and the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
@@ -72,8 +72,8 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(W
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
 
 
-### -param pszSrc [in]
-
+### -param pszSrc 
+[in]
 Pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>. 
 
 

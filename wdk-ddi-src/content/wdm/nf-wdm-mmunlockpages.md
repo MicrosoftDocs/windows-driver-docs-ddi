@@ -55,8 +55,8 @@ The <b>MmUnlockPages</b> routine unlocks the physical pages that are described b
 
 
 
-### -param MemoryDescriptorList [in, out]
-
+### -param MemoryDescriptorList 
+[in, out]
 A pointer to an MDL.
 
 

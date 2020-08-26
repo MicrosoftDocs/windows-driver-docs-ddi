@@ -55,18 +55,18 @@ Gets the audio data format for an audio device.
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID of the device node.
 
 
-### -param pFormat [out]
-
+### -param pFormat 
+[out]
 A structure of type  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format for the device.
 
 
-### -param ulBufferSize [in]
-
+### -param ulBufferSize 
+[in]
 The audio data buffer size.
 
 

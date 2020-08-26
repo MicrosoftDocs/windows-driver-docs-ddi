@@ -55,23 +55,23 @@ The <i>CLIENT_PrepareController</i> event callback function performs any operati
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the GPIO controller.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param ResourcesRaw [in]
-
+### -param ResourcesRaw 
+[in]
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the raw (bus-relative) hardware resources that the Plug and Play (PnP) manager has assigned to the GPIO controller device.
 
 
-### -param ResourcesTranslated [in]
-
+### -param ResourcesTranslated 
+[in]
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the translated (system-physical) hardware resources that the PnP manager has assigned to the GPIO controller device.
 
 

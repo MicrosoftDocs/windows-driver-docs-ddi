@@ -60,18 +60,18 @@ The <b>WdfUsbTargetDeviceCreate</b> method creates a framework USB device object
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new USB device object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param UsbDevice [out]
-
+### -param UsbDevice 
+[out]
 A pointer to a location that receives a handle to the new framework USB device object.
 
 

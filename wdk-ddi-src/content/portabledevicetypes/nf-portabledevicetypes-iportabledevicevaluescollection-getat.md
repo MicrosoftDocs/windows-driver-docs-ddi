@@ -59,13 +59,13 @@ Retrieves an item from the collection by a zero-based index.
 
 
 
-### -param dwIndex [in]
-
+### -param dwIndex 
+[in]
 <b>DWORD</b> that specifies a zero-based index in the collection.
 
 
-### -param ppValues [out]
-
+### -param ppValues 
+[out]
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface from the collection. The caller is responsible for calling <b>Release</b> on this interface when done with it.
 
 

@@ -59,8 +59,8 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-### -param FilterHandle [in]
-
+### -param FilterHandle 
+[in]
 A handle to a PD platform filter.
 
 

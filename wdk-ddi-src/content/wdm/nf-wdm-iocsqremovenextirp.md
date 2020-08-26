@@ -55,13 +55,13 @@ The <b>IoCsqRemoveNextIrp</b> routine removes the next matching IRP in the queue
 
 
 
-### -param Csq [in, out]
-
+### -param Csq 
+[in, out]
 Pointer to the driver's dispatch table for cancel-safe IRP queues. The dispatch table must be initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a>.
 
 
-### -param PeekContext [in, optional]
-
+### -param PeekContext 
+[in, optional]
 A pointer to a driver-defined context value. <b>IoCsqRemoveNextIrp</b> passes this parameter to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp">CsqPeekNextIrp</a> routine. For more information, see the following Remarks section.
 
 

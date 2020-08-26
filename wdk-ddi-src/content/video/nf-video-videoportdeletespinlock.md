@@ -55,13 +55,13 @@ The <b>VideoPortDeleteSpinLock</b> function deletes a given spin lock.
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param SpinLock [in]
-
+### -param SpinLock 
+[in]
 Pointer to the spin lock to delete.
 
 

@@ -60,23 +60,23 @@ The <b>WdfUsbTargetPipeFormatRequestForWrite</b> method builds a write request f
 
 
 
-### -param Pipe [in]
-
+### -param Pipe 
+[in]
 A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object. For more information, see the following Remarks section.
 
 
-### -param WriteMemory [in, optional]
-
+### -param WriteMemory 
+[in, optional]
 A handle to a framework memory object. This object represents a buffer that contains data that will be sent to the pipe. For more information about this buffer, see the following Remarks section.
 
 
-### -param WriteOffset [in, optional]
-
+### -param WriteOffset 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the write buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the buffer, and the transfer size is the buffer size.
 
 

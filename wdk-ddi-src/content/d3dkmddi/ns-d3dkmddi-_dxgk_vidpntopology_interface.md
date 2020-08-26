@@ -5,7 +5,7 @@ description: The DXGK_VIDPNTOPOLOGY_INTERFACE structure contains pointers to fun
 old-location: display\dxgk_vidpntopology_interface.htm
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.date: 10/30/2018
-keywords: ["_DXGK_VIDPNTOPOLOGY_INTERFACE structure"]
+keywords: ["DXGK_VIDPNTOPOLOGY_INTERFACE structure"]
 ms.keywords: DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, _DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, display.dxgk_vidpntopology_interface
 f1_keywords:
  - "d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE"

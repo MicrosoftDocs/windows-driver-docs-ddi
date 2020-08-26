@@ -55,18 +55,18 @@ The <b>KeSetTimer</b> routine sets the absolute or relative interval at which a 
 
 
 
-### -param Timer [in, out]
-
+### -param Timer 
+[in, out]
 Pointer to a timer object that was initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex">KeInitializeTimerEx</a>.
 
 
-### -param DueTime [in]
-
+### -param DueTime 
+[in]
 Specifies the absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
 
-### -param Dpc [in, optional]
-
+### -param Dpc 
+[in, optional]
 Pointer to a DPC object that was initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional. 
 
 

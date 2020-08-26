@@ -55,13 +55,13 @@ Writes a specified boolean property value.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to set.
 
 
-### -param bValue [in]
-
+### -param bValue 
+[in]
 The value to set.
 
 

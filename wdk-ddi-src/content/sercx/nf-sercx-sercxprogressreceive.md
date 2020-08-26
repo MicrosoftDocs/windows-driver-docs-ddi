@@ -55,18 +55,18 @@ The <b>SerCxProgressReceive</b> method reports the progress of the current read 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param BytesReceived [in]
-
+### -param BytesReceived 
+[in]
 The number of bytes of data that the caller loaded into the receive buffer that was obtained by the latest call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> method.
 
 
-### -param ReceiveStatus [in]
-
+### -param ReceiveStatus 
+[in]
 The current status of the receive operation. Set this parameter to one of the following values:
 
 <ul>

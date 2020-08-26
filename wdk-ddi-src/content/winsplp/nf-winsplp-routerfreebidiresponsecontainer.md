@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pData [in]
-
+### -param pData 
+[in]
 Pointer to the BIDI_RESPONSE_CONTAINER structure to be freed.
 
 

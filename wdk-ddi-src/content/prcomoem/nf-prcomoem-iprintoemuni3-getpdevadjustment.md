@@ -113,8 +113,8 @@ Pointer to a structure that contains the planned settings that are used if there
 Specifies the size, in bytes, of the structure pointed to by <i>pBuf</i>.
 
 
-### -param pbAdjustmentDone [out]
-
+### -param pbAdjustmentDone 
+[out]
 Pointer to a memory location that the plug-in sets to <b>TRUE</b> when it actually changes a value in the buffer. This may be used by the driver for optimizations.
 
 

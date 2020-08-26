@@ -56,18 +56,18 @@ The <b>FltApplyPriorityInfoThread</b> routine is used by a minifilter driver to 
 
 
 
-### -param InputPriorityInfo [in]
-
+### -param InputPriorityInfo 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_io_priority_info">IO_PRIORITY_INFO</a> structure that is used to set the priority state of the given thread.  This IO_PRIORITY_INFO structure must have its members set by an appropriate routine - see the following Remarks section.  This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param OutputPriorityInfo [out, optional]
-
+### -param OutputPriorityInfo 
+[out, optional]
 An optional pointer to an IO_PRIORITY_INFO structure used to receive the priority state of the thread before the <i>InputPriorityInfo</i> priority information is applied to the thread by <b>FltApplyPriorityInfoThread</b>.  This parameter is optional and can be <b>NULL</b>.
 
 
-### -param Thread [in]
-
+### -param Thread 
+[in]
 A pointer to the thread in which to apply the <i>InputPriorityInfo</i> priority information to.  This parameter is required and cannot be <b>NULL</b>. 
 
 

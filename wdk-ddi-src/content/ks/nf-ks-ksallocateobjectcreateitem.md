@@ -56,23 +56,23 @@ The <b>KsAllocateObjectCreateItem</b> function allocates a slot for the specifie
 
 
 
-### -param Header [in]
-
+### -param Header 
+[in]
 Points to the device header on which to attach the create item.
 
 
-### -param CreateItem [in]
-
+### -param CreateItem 
+[in]
 Contains the create item to attach.
 
 
-### -param AllocateEntry [in]
-
+### -param AllocateEntry 
+[in]
 Indicates whether the create item pointer passed should be attached directly to the header, or if a copy of it should be made instead.
 
 
-### -param ItemFreeCallback [in, optional]
-
+### -param ItemFreeCallback 
+[in, optional]
 Optionally contains a pointer to a minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksitemfreecallback">KStrItemFreeCallback</a> function to be called when the create entry is being destroyed upon freeing the device header. This is only valid when <i>AllocateEntry</i> is <b>TRUE</b>.
 
 

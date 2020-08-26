@@ -55,8 +55,8 @@ Gets all the options of a feature.
 
 
 
-### -param pFeature [in]
-
+### -param pFeature 
+[in]
 The specified feature.
 
 

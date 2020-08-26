@@ -56,23 +56,23 @@ The <b>SpbRequestGetTransferParameters</b> method retrieves the transfer paramet
 
 
 
-### -param SpbRequest [in]
-
+### -param SpbRequest 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request from which to retrieve the transfer parameters. This parameter must be a handle to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of a transfer in the I/O transfer sequence. For more information, see the following Remarks section.
 
 
-### -param TransferDescriptor [out, optional]
-
+### -param TransferDescriptor 
+[out, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor">SPB_TRANSFER_DESCRIPTOR</a> structure into which  the method writes the transfer parameters. The <i>TransferDescriptor</i> parameter is optional and can be specified as NULL if the caller does not require the transfer parameters. For more information, see the following Remarks section.
 
 
-### -param TransferBuffer [out, optional]
-
+### -param TransferBuffer 
+[out, optional]
 A pointer to a location into which the method writes a pointer to an MDL (or an MDL chain) that describes the physical memory in the transfer buffer.  The caller must not modify the contents of this MDL. This parameter is optional and can be set to NULL if the MDL is not needed. For more information, see the following Remarks section.
 
 

@@ -6,7 +6,7 @@ old-location: kernel\key_cached_information.htm
 tech.root: kernel
 ms.assetid: 5ee72ae9-0548-480f-84de-4c09ae4be507
 ms.date: 04/30/2018
-keywords: ["_KEY_CACHED_INFORMATION structure"]
+keywords: ["KEY_CACHED_INFORMATION structure"]
 ms.keywords: "*PKEY_CACHED_INFORMATION, KEY_CACHED_INFORMATION, KEY_CACHED_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_CACHED_INFORMATION, PKEY_CACHED_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_CACHED_INFORMATION, kernel.key_cached_information, kstruct_c_72dd8fcc-4983-49e0-af00-57b8fbbf3964.xml, ntddk/KEY_CACHED_INFORMATION, ntddk/PKEY_CACHED_INFORMATION"
 f1_keywords:
  - "ntddk/KEY_CACHED_INFORMATION"

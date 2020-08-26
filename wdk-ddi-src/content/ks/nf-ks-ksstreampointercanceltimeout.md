@@ -56,8 +56,8 @@ The<b> KsStreamPointerCancelTimeout </b>function cancels a previously scheduled 
 
 
 
-### -param StreamPointer [in]
-
+### -param StreamPointer 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer for which to cancel a registered time-out callback.
 
 

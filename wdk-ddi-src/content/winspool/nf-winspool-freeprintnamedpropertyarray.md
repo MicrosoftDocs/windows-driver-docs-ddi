@@ -47,6 +47,7 @@ req.typenames:
 
 ## -parameters
 
-### -param cProperties [in]
-
-### -param ppProperties [in, out, optional]
+### -param cProperties 
+[in]
+### -param ppProperties 
+[in, out, optional]

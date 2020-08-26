@@ -57,32 +57,32 @@ A miniport driver calls the <b>NdisMGetVirtualFunctionBusData</b> function to re
 
 
 
-### -param NdisMiniportHandle [in]
-
+### -param NdisMiniportHandle 
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param VFId [in]
-
+### -param VFId 
+[in]
 The identifier of the VF from which the data from the PCI configuration space is returned.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer that receives the data that is read from the VF's PCI configuration space.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 The offset, in units of bytes, in the VF's PCI configuration space from which data is read.
 
 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in units of bytes, of the data to be read.
 
 <div class="alert"><b>Note</b>  The size of the buffer referenced by <i>Buffer</i> must be at least as large as the value of the <i>Length</i> parameter.</div>

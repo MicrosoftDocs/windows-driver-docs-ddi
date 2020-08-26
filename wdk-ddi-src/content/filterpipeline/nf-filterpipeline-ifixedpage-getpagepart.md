@@ -55,13 +55,13 @@ The <b>GetPagePart</b> method gets the images, thumbnails, fonts, and so on in a
 
 
 
-### -param uri [in]
-
+### -param uri 
+[in]
 The URI for a part. For example, the filter might parse the page markup and find a referenced font. The filter can use the font URI in a call to <b>GetPagePart</b>. The filter could then retrieve the font object that is associated with the page.
 
 
-### -param ppUnk [out]
-
+### -param ppUnk 
+[out]
 The object that is to be queried.
 
 

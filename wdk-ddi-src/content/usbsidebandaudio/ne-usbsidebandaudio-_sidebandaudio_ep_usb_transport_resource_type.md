@@ -4,7 +4,7 @@ title: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE (usbsidebandaudio.h)
 description: Describes the type of transport resource.
 ms.assetid: dde5fd97-0209-4a49-9386-16de45de40fb
 ms.date: 09/06/2018
-keywords: ["_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration"]
+keywords: ["SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration"]
 f1_keywords:
  - "usbsidebandaudio/_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE"
  - "_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE"

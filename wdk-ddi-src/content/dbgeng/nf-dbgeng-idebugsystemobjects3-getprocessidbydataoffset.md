@@ -58,13 +58,13 @@ The <b>GetProcessIdByDataOffset</b> method returns the engine process ID for the
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space of the data offset of the process.
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine process ID for the process.
 
 

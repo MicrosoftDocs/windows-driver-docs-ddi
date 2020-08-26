@@ -57,28 +57,28 @@ A framework-based driver's <i>EvtProgramDma</i> event callback function programs
 
 
 
-### -param Transaction [in]
-
+### -param Transaction 
+[in]
 A handle to the DMA transaction object that represents the current DMA transaction.
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 The context pointer that the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionexecute">WdfDmaTransactionExecute</a>.
 
 
-### -param Direction [in]
-
+### -param Direction 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the DMA transfer operation.
 
 
-### -param SgList [in]
-
+### -param SgList 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure.
 
 

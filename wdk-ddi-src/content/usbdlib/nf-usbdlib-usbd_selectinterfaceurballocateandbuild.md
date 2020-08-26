@@ -58,13 +58,13 @@ The <b>USBD_SelectInterfaceUrbAllocateAndBuild</b> routine allocates and formats
 
 
 
-### -param USBDHandle [in]
-
+### -param USBDHandle 
+[in]
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
 
-### -param ConfigurationHandle [in]
-
+### -param ConfigurationHandle 
+[in]
 Handle returned by the USB driver stack in the  <b>UrbSelectConfiguration.ConfigurationHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure, after the driver stack completes a select-configuration  request.
 
 
@@ -73,8 +73,8 @@ Handle returned by the USB driver stack in the  <b>UrbSelectConfiguration.Config
 <p>Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_usbd_interface_list_entry"><b>USBD_INTERFACE_LIST_ENTRY</b></a>    structure. For more information, see Remarks.</p>
 
 
-### -param Urb [out]
-
+### -param Urb 
+[out]
 Pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure that receives the URB allocated by <b>USBD_SelectInterfaceUrbAllocateAndBuild</b>. The client driver must free the URB when the driver has finished using it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urbfree">USBD_UrbFree</a>.
 
 

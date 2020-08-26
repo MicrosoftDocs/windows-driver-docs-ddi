@@ -55,8 +55,8 @@ The <b>CreateVertexShaderFunc</b> function converts vertex shader code into a ha
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

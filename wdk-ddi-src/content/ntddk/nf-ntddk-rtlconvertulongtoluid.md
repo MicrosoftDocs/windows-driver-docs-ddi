@@ -55,8 +55,8 @@ The <b>RtlConvertUlongToLuid</b> routine converts an unsigned long integer to a 
 
 
 
-### -param Ulong [in]
-
+### -param Ulong 
+[in]
 Specifies the unsigned long integer to convert. 
 
 

@@ -60,18 +60,18 @@ The <b>WdfIoQueueRetrieveFoundRequest</b> method delivers a specified request to
 
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A handle to a framework queue object.
 
 
-### -param FoundRequest [in]
-
+### -param FoundRequest 
+[in]
 A handle to a framework request object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuefindrequest">WdfIoQueueFindRequest</a>.
 
 
-### -param OutRequest [out]
-
+### -param OutRequest 
+[out]
 A pointer to a location that receives a handle to a framework request object. The driver must use this handle when processing the request.
 
 

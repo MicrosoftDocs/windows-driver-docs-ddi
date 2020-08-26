@@ -6,7 +6,7 @@ old-location: kernel\pscreatethreadnotifytype.htm
 tech.root: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
 ms.date: 04/30/2018
-keywords: ["_PSCREATETHREADNOTIFYTYPE enumeration"]
+keywords: ["PSCREATETHREADNOTIFYTYPE enumeration"]
 ms.keywords: PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateThreadNotifyNonSystem, PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, ntddk/PSCREATETHREADNOTIFYTYPE, ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems
 f1_keywords:
  - "ntddk/PSCREATETHREADNOTIFYTYPE"

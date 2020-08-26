@@ -55,23 +55,23 @@ The <b>FsRtlIsNameInExpression</b> routine determines whether a Unicode string m
 
 
 
-### -param Expression [in]
-
+### -param Expression 
+[in]
 A pointer to the pattern string. Can contain wildcard characters. If <i>IgnoreCase</i> is <b>TRUE</b>, <i>Expression</i> must be uppercase.
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
 
-### -param IgnoreCase [in]
-
+### -param IgnoreCase 
+[in]
 Set to <b>TRUE</b> for case-insensitive matching, <b>FALSE</b> otherwise.
 
 
-### -param UpcaseTable [in, optional]
-
+### -param UpcaseTable 
+[in, optional]
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 
 
@@ -167,7 +167,7 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

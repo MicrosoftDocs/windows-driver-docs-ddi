@@ -55,13 +55,13 @@ The <b>RtlInt64ToUnicodeString</b> routine converts a specified unsigned 64-bit 
 
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the ULONGLONG value to convert. 
 
 
-### -param Base [in, optional]
-
+### -param Base 
+[in, optional]
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
 
 <table>
@@ -113,9 +113,9 @@ Decimal
  
 
 
-### -param String [in, out]
-
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
+### -param String 
+[in, out]
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
 
 
 ## -returns
@@ -181,7 +181,7 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

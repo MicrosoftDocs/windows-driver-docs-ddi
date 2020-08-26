@@ -59,15 +59,15 @@ The
 
 
 
-### -param inMetadataValues [in]
-
+### -param inMetadataValues 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer that is being filtered.
 
 
-### -param option [in]
-
+### -param option 
+[in]
 An 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">FWP_CLASSIFY_OPTION_TYPE</a> enumeration
      constant that indicates whether the 
@@ -75,8 +75,8 @@ An
      time-out values. For more information, see Remarks.
 
 
-### -param newValue [in]
-
+### -param newValue 
+[in]
 A pointer to an array of 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structures. Each structure in the
      array contains particular values for a particular FWP_OPTION_VALUE_XXX constant. For more information, see

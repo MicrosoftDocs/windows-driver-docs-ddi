@@ -56,8 +56,8 @@ Analyzes a power trace session that has already been collected and stored in the
 
 
 
-### -param EventFilePath [in]
-
+### -param EventFilePath 
+[in]
 Specifies the location to store the trace message (.etl)
     log file.
 
@@ -66,7 +66,7 @@ Specifies the location to store the trace message (.etl)
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

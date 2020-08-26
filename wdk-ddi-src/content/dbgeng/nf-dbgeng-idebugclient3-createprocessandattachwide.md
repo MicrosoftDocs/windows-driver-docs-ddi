@@ -57,28 +57,28 @@ The <b>CreateProcessAndAttachWide</b> method creates a process from a specified 
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to the local process without using a process server.
 
 
-### -param CommandLine [in, optional]
-
+### -param CommandLine 
+[in, optional]
 Specifies the command line to execute to create the new process.  If <i>CommandLine</i> is <b>NULL</b>, then no process is created and these methods attach to an existing process, as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a> does.
 
 
-### -param CreateFlags [in]
-
+### -param CreateFlags 
+[in]
 Specifies the flags to use when creating the process.  For details on these flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_create_process_options">DEBUG_CREATE_PROCESS_OPTIONS</a>.<b>CreateFlags</b>.
 
 
-### -param ProcessId [in]
-
+### -param ProcessId 
+[in]
 Specifies the process ID of the target process the debugger will attach to.  If <i>ProcessId</i> is zero, the debugger will attach to the process it created from <i>CommandLine</i>.
 
 
-### -param AttachFlags [in]
-
+### -param AttachFlags 
+[in]
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see <a href="https://docs.microsoft.com/previous-versions/ff541454(v=vs.85)">DEBUG_ATTACH_XXX</a>.
 
 

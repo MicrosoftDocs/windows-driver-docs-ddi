@@ -59,18 +59,18 @@ The <b>WUDF_INTERRUPT_CONFIG_INIT</b> function initializes a <a href="https://do
 
 
 
-### -param Configuration [out]
-
+### -param Configuration 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a> structure.
 
 
-### -param OnInterruptIsr [in]
-
+### -param OnInterruptIsr 
+[in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_isr">OnInterruptIsr</a> event callback function.
 
 
-### -param OnInterruptWorkItem [in, optional]
-
+### -param OnInterruptWorkItem 
+[in, optional]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_workitem">OnInterruptWorkItem</a> event callback function, or NULL.
 
 

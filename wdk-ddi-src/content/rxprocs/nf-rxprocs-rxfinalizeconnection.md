@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param NetRoot [in, out]
-
+### -param NetRoot 
+[in, out]
 A pointer to the NET_ROOT structure being finalized.
 
 

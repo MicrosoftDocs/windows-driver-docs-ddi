@@ -55,23 +55,23 @@ The <b>IPrintCoreHelperPS::GetOptionAttribute</b> method retrieves the option at
 
 
 
-### -param pszFeatureKeyword [in]
-
+### -param pszFeatureKeyword 
+[in]
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the feature keyword to query for. 
 
 
-### -param pszOptionKeyword [in]
-
+### -param pszOptionKeyword 
+[in]
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the option keyword to query for. This value can be obtained from a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumoptions">IPrintCoreHelperPS::EnumOptions</a>.
 
 
-### -param pszAttribute [in]
-
+### -param pszAttribute 
+[in]
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported attribute names for the option instead of specifying a specific attribute name for the option.
 
 
-### -param pdwDataType [out]
-
+### -param pdwDataType 
+[out]
 A pointer to a variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration type, which is defined in printoem.h.
 
 
@@ -80,8 +80,8 @@ A pointer to a variable that receives a value that specifies the data type of th
 
 
 
-### -param pcbSize [out]
-
+### -param pcbSize 
+[out]
 A pointer to a variable that receives the size, in bytes, of the buffer that is pointed to by the <i>pbData</i> parameter.
 
 

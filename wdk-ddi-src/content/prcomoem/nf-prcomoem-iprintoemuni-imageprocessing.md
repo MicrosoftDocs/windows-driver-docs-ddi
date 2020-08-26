@@ -87,8 +87,8 @@ Caller-supplied value assigned to the *<b>IPCallbackID</b> attribute of the curr
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-ipparams">IPPARAMS</a> structure.
 
 
-### -param ppbResult [out]
-
+### -param ppbResult 
+[out]
 Pointer to a memory location that contains the address of a buffer. The contents of the buffer depend on where the converted DIB should be sent.
 
 If this method intends to send the converted DIB back to Unidrv and is successful in the conversion, it should set *<i>ppbResult</i> to the address of the buffer containing the converted DIB, and should return S_OK. If the conversion fails, the method should set *<i>ppbResult</i> to <b>NULL</b>, and should return E_FAIL.

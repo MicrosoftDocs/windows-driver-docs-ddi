@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: bc96fece-1a62-486c-809f-d52d88f6af60
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_IRQL_requires_DXGK_ macro"]
+keywords: ["IRQL_requires_DXGK_ macro"]
 f1_keywords:
  - "dispmprt/_IRQL_requires_DXGK_"
  - "_IRQL_requires_DXGK_"

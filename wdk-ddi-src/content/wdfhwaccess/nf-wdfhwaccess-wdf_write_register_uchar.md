@@ -57,18 +57,18 @@ The <b>WDF_WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified addre
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies a byte to write to the register.
 
 

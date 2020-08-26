@@ -57,23 +57,23 @@ The <b>READ_REGISTER_BUFFER_USHORT</b> function reads a number of USHORT values 
 
 
 
-### -param pDevice [in]
-
+### -param pDevice 
+[in]
 Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer into which an array of USHORT values is read.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of USHORT values to be read into the buffer.
 
 

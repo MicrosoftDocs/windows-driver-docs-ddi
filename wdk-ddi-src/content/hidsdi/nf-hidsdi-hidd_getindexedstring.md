@@ -55,23 +55,23 @@ The <b>HidD_GetIndexedString</b> routine returns a specified embedded string fro
 
 
 
-### -param HidDeviceObject [in]
-
+### -param HidDeviceObject 
+[in]
 Specifies an open handle to a top-level collection.
 
 
-### -param StringIndex [in]
-
+### -param StringIndex 
+[in]
 Specifies the device-specific index of an embedded string.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a caller-allocated buffer that the routine uses to return the embedded string specified by <i>StringIndex</i>. The routine returns a NULL-terminated wide character string in a human-readable format.
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 Specifies the length, in bytes, of a caller-allocated buffer provided at <i>Buffer</i>. If the buffer is not large enough to return the entire NULL-terminated embedded string, the routine returns nothing in the buffer.
 
 

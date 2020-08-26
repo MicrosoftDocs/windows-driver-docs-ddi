@@ -56,18 +56,18 @@ The <b>GPIO_CLX_ProcessAddDevicePreDeviceCreate</b> method loads initialization 
 
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 A WDFDRIVER handle to the framework driver object for the GPIO controller driver.
 
 
-### -param DeviceInit [in, out]
-
+### -param DeviceInit 
+[in, out]
 A pointer to a framework-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. This method loads initialization information into this structure. On return, this structure is ready to be used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> method.
 
 
-### -param FdoAttributes [out]
-
+### -param FdoAttributes 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This method loads initialization information into this structure. On return, this structure is ready to be used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> method.
 
 

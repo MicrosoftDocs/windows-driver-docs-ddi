@@ -55,21 +55,21 @@ Gets a named feature from the PrintTicket, by name and full namespace URI.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The base name of the <b>name</b> attribute value of the feature element.
 For example, for the Print Schema feature <psf:Feature name="psk:JobOutputBin">, the base name of the feature is "JobOutputBin".
 
 
-### -param bstrNamespaceUri [in]
-
+### -param bstrNamespaceUri 
+[in]
 The namespace URI of the <b>name</b> attribute value of the feature element.
 For example, the namespace URI of the public Print Schema feature "JobOutputBin" is "https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace defining the feature.
 
 
-### -param ppFeature [out, retval]
-
+### -param ppFeature 
+[out, retval]
 The returned feature.
 
 

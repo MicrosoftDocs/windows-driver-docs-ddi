@@ -56,23 +56,23 @@ The <b>KsMethodHandlerWithAllocator</b> functions performs the same handling as 
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP with the method request being handled.
 
 
-### -param MethodSetsCount [in]
-
+### -param MethodSetsCount 
+[in]
 Indicates the number of method set structures being passed.
 
 
-### -param MethodSet [in]
-
+### -param MethodSet 
+[in]
 Specifies the pointer to the list of method set information.
 
 
-### -param Allocator [in, optional]
-
+### -param Allocator 
+[in, optional]
 Optionally points to an allocation function that will be used to allocate memory to store the method parameters.
 
 

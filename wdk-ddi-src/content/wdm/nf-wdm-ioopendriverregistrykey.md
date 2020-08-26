@@ -49,20 +49,20 @@ The **IoOpenDriverRegistryKey** routine returns a handle to a driver-specific re
 
 ## -parameters
 
-### -param DriverObject [in]
-A pointer to a [**DRIVER_OBJECT**](ns-wdm-_driver_object.md) structure. This structure must be the driver object for the calling driver.
+### -param DriverObject 
+[in]A pointer to a [**DRIVER_OBJECT**](ns-wdm-_driver_object.md) structure. This structure must be the driver object for the calling driver.
 
-### -param RegKeyType [in]
-An enumeration of type [**DRIVER_REGKEY_TYPE**](ne-wdm-driver_regkey_type.md) that indicates the type of the requested registry key.
+### -param RegKeyType 
+[in]An enumeration of type [**DRIVER_REGKEY_TYPE**](ne-wdm-driver_regkey_type.md) that indicates the type of the requested registry key.
 
-### -param DesiredAccess [in]
-Specifies the [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the access rights needed for the key. See [**ZwCreateKey**](nf-wdm-zwcreatekey.md) for a description of each KEY_XXX access right.
+### -param DesiredAccess 
+[in]Specifies the [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the access rights needed for the key. See [**ZwCreateKey**](nf-wdm-zwcreatekey.md) for a description of each KEY_XXX access right.
 
-### -param Flags [in]
-Set to zero.
+### -param Flags 
+[in]Set to zero.
 
-### -param DriverRegKey [out]
-A pointer to the HANDLE variable that, on successful return, contains a handle to the requested registry key.
+### -param DriverRegKey 
+[out]A pointer to the HANDLE variable that, on successful return, contains a handle to the requested registry key.
 
 ## -returns
 **IoOpenDriverRegistryKey** returns STATUS_SUCCESS if the call successfully opened a handle to the requested registry key.

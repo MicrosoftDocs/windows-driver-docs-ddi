@@ -55,8 +55,8 @@ The <b>ExInitializeRundownProtection</b> routine initializes run-down protection
 
 
 
-### -param RunRef [out]
-
+### -param RunRef 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that is to be initialized. The allocation must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms. For more information, see Remarks.
 
 

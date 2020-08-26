@@ -55,8 +55,8 @@ The <b>ExGetExclusiveWaiterCount</b> routine returns the number of waiters on ex
 
 
 
-### -param Resource [in]
-
+### -param Resource 
+[in]
 A pointer to the resource to be tested.
 
 

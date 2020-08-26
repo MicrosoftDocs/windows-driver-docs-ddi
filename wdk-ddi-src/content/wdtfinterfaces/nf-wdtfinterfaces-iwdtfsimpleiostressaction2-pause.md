@@ -55,8 +55,8 @@ Pauses the I/O.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if the I/O operation after the last 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a> or 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Continue</a> succeeded; 
@@ -67,7 +67,7 @@ otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

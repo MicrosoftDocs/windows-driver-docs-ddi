@@ -55,13 +55,13 @@ The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice th
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param Unknown [in]
-
+### -param Unknown 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iport">IPort</a> interface of the port driver object that is bound to the subdevice.
 
 

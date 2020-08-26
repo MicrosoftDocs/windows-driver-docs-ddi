@@ -55,18 +55,18 @@ Multiplies one value of type <b>PTRDIFF_T</b> by another.
 
 
 
-### -param Multiplicand [in]
-
+### -param Multiplicand 
+[in]
 The value to be multiplied by <i>Multiplier</i>.
 
 
-### -param Multiplier [in]
-
+### -param Multiplier 
+[in]
 The value by which to multiply <i>Multiplicand</i>.
 
 
-### -param pResult [out]
-
+### -param pResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

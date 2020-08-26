@@ -51,16 +51,16 @@ See [**KBUGCHECK_CALLBACK_REASON**](https://docs.microsoft.com/windows-hardware/
 
 ## -parameters
 
-### -param Reason [in]
-
+### -param Reason 
+[in]
 An enumeration of type [**KBUGCHECK_CALLBACK_REASON**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kbugcheck_callback_reason) that specifies the reason for the call to the callback routine.
 
-### -param Record [in]
-
+### -param Record 
+[in]
 A pointer to the [**KBUGCHECK_REASON_CALLBACK_RECORD**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_reason_callback_record) structure that the driver supplied when it registered this callback. For more information, see the description of the <i>CallbackRecord</i> parameter in [**KeRegisterBugCheckReasonCallback**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback).
 
-### -param ReasonSpecificData [in, out]
-
+### -param ReasonSpecificData 
+[in, out]
 Pointer to a buffer that contains a structure of type determined by the table below. Certain members of this structure are filled in by the operating system before it calls the callback routine, and other members must be filled in by the callback routine. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 |Value|Data Structure|
@@ -72,8 +72,8 @@ Pointer to a buffer that contains a structure of type determined by the table be
 |**KbCallbackRemovePages**|[**KBUGCHECK_REMOVE_PAGES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_remove_pages)|
 |**KbCallbackTriageDumpData**|[**KBUGCHECK_TRIAGE_DUMP_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_triage_dump_data)|
 
-### -param ReasonSpecificDataLength [in]
-
+### -param ReasonSpecificDataLength 
+[in]
 Specifies the size, in bytes, of the buffer that the <i>ReasonSpecificData</i> parameter points to. 
 
 

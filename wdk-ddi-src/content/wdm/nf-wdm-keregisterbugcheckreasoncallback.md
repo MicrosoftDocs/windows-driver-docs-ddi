@@ -49,21 +49,21 @@ The <b>KeRegisterBugCheckReasonCallback</b> function registers a callback routin
 
 ## -parameters
 
-### -param CallbackRecord [out]
-
+### -param CallbackRecord 
+[out]
 A pointer to a <b><a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a></b> structure that was initialized by a call to the <b><a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">KeInitializeCallbackRecord</a></b> routine. 
 
 
-### -param CallbackRoutine [in]
-
+### -param CallbackRoutine 
+[in]
 A pointer to a callback routine of type [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) to register. For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
-### -param Reason [in]
-
+### -param Reason 
+[in]
 An enumeration of type <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kbugcheck_callback_reason">KBUGCHECK_CALLBACK_REASON</a></b> that specifies the type of callback routine that <i>CallbackRoutine</i> points to.
 
-### -param Component [in]
-
+### -param Component 
+[in]
 A pointer to a null-terminated ANSI string that identifies the caller. For example, you can select a string that describes the device driver, or that contains the device name. You can use the <b><a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-bugdump">!bugdump</a></b> debugger extension to display the crash dump data that is associated with this string.
 
 ## -returns

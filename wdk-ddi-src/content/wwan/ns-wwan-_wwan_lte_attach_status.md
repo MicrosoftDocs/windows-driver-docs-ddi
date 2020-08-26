@@ -5,7 +5,7 @@ description: The WWAN_LTE_ATTACH_STATUS structure describes the last used defaul
 tech.root: netvista
 ms.assetid: f8e43c3a-d22c-4bb6-bf50-bb98a776deae
 ms.date: 08/23/2018
-keywords: ["_WWAN_LTE_ATTACH_STATUS structure"]
+keywords: ["WWAN_LTE_ATTACH_STATUS structure"]
 f1_keywords:
  - "wwan/_WWAN_LTE_ATTACH_STATUS"
  - "_WWAN_LTE_ATTACH_STATUS"

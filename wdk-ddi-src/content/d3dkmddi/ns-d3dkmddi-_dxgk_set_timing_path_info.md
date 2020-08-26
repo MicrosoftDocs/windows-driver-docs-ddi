@@ -5,7 +5,7 @@ description: Structure to hold information to modify SetTiming path.
 old-location: display\dxgk_set_timing_path_info.htm
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.date: 05/10/2018
-keywords: ["_DXGK_SET_TIMING_PATH_INFO structure"]
+keywords: ["DXGK_SET_TIMING_PATH_INFO structure"]
 ms.keywords: DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info
 f1_keywords:
  - "d3dkmddi/DXGK_SET_TIMING_PATH_INFO"

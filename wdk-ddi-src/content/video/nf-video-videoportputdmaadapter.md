@@ -55,13 +55,13 @@ The <b>VideoPortPutDmaAdapter</b> function frees a <a href="https://docs.microso
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param VpDmaAdapter [in]
-
+### -param VpDmaAdapter 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter.
 
 

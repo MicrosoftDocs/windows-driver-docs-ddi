@@ -57,11 +57,11 @@ The <b>WdfDriverRegisterTraceInfo</b> method is reserved for internal use only.
 
 
 
-### -param DriverObject [in]
+### -param DriverObject 
+[in]
 
+### -param EvtTraceCallback 
+[in]
 
-### -param EvtTraceCallback [in]
-
-
-### -param ControlBlock [in]
-
+### -param ControlBlock 
+[in]

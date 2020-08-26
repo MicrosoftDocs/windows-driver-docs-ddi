@@ -6,7 +6,7 @@ old-location: stream\hw_stream_object.htm
 tech.root: stream
 ms.assetid: 0cb2041a-844d-4ddb-9dab-e1c77c28835a
 ms.date: 04/23/2018
-keywords: ["_HW_STREAM_OBJECT structure"]
+keywords: ["HW_STREAM_OBJECT structure"]
 ms.keywords: "*PHW_STREAM_OBJECT, HW_STREAM_OBJECT, HW_STREAM_OBJECT structure [Streaming Media Devices], PHW_STREAM_OBJECT, PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], _HW_STREAM_OBJECT, strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml, stream.hw_stream_object, strmini/HW_STREAM_OBJECT, strmini/PHW_STREAM_OBJECT"
 f1_keywords:
  - "strmini/HW_STREAM_OBJECT"

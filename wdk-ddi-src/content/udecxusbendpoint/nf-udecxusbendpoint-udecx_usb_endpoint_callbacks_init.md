@@ -56,8 +56,8 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
 
 
 
-### -param Callbacks [out]
-
+### -param Callbacks 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks">UDECX_USB_ENDPOINT_CALLBACKS</a> to initialize.
 
 

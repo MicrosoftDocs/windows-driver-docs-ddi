@@ -60,28 +60,28 @@ The <b>WdfIoTargetFormatRequestForRead</b> method builds a read request for an I
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object. For more information, see the following Remarks section.
 
 
-### -param OutputBuffer [in, optional]
-
+### -param OutputBuffer 
+[in, optional]
 A handle to a framework memory object. This object represents a buffer that will receive data from the I/O target. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section.
 
 
-### -param OutputBufferOffset [in, optional]
-
+### -param OutputBufferOffset 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the output buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the output buffer, and the transfer size is the buffer size.
 
 
-### -param DeviceOffset [in, optional]
-
+### -param DeviceOffset 
+[in, optional]
 A pointer to a variable that specifies a starting offset for the transfer. The I/O target (that is, the next-lower driver) defines how to use this value. For example, the drivers in a disk's driver stack might specify an offset from the beginning of the disk. The I/O target obtains this information in the <b>Parameters.Read.DeviceOffset</b> member of the request's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure. This pointer is optional. Most drivers set this pointer to <b>NULL</b>.
 
 

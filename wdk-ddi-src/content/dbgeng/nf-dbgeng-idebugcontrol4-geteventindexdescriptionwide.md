@@ -55,28 +55,28 @@ The <b>GetEventIndexDescriptionWide</b> method describes the specified event in 
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the event whose description will be returned.
 
 
-### -param Which [in]
-
+### -param Which 
+[in]
 Specifies which piece of the event description to return.  Currently only DEBUG_EINDEX_NAME is supported; this returns the name of the event.
 
 
-### -param Buffer [in, optional]
-
+### -param Buffer 
+[in, optional]
 Receives the description of the event.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer </i>buffer.
 
 
-### -param DescSize [out, optional]
-
+### -param DescSize 
+[out, optional]
 Receives the size, in characters, of the description.  If <i>DescSize</i> is <b>NULL</b>, this information is not returned.
 
 

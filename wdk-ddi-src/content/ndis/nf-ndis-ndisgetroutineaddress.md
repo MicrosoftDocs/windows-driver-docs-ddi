@@ -57,10 +57,10 @@ The
 
 
 
-### -param NdisRoutineName [in]
-
+### -param NdisRoutineName 
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the
      string that contains the name of a routine.
 
 
@@ -113,7 +113,7 @@ Typically, an NDIS driver calls
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

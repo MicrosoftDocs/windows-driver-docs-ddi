@@ -57,8 +57,8 @@ The <b>KsInitializeDeviceProfile</b> API must be called by all miniport drivers 
 
 
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 This is the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> that was created by the camera driver to uniquely identify the camera’s filter factory.
 
 

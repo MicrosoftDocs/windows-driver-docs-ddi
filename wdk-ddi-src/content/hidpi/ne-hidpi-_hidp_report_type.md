@@ -6,7 +6,7 @@ old-location: hid\hidp_report_type.htm
 tech.root: hid
 ms.assetid: adb2f0cc-f261-41d2-b30f-58286b351e4f
 ms.date: 04/30/2018
-keywords: ["_HIDP_REPORT_TYPE enumeration"]
+keywords: ["HIDP_REPORT_TYPE enumeration"]
 ms.keywords: HIDP_REPORT_TYPE, HIDP_REPORT_TYPE enumeration [Human Input Devices], HidP_Feature, HidP_Input, HidP_Output, _HIDP_REPORT_TYPE, hid.hidp_report_type, hidpi/HIDP_REPORT_TYPE, hidpi/HidP_Feature, hidpi/HidP_Input, hidpi/HidP_Output, hidstrct_d25e996c-d904-410c-bacb-a79f17fad916.xml
 f1_keywords:
  - "hidpi/HIDP_REPORT_TYPE"

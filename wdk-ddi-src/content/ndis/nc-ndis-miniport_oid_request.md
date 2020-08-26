@@ -57,15 +57,15 @@ NDIS calls a miniport driver's
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
-### -param OidRequest [in]
-
+### -param OidRequest 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that contains
      both the buffer and the request packet for the miniport driver to handle. Depending on the request, the

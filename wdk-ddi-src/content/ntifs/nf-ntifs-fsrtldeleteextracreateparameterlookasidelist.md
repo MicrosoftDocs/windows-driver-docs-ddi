@@ -55,13 +55,13 @@ The <b>FsRtlDeleteExtraCreateParameterLookasideList </b>routine frees an extra c
 
 
 
-### -param Lookaside [in, out]
-
+### -param Lookaside 
+[in, out]
 Pointer to an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> lookaside list-head structure that represents the lookaside list to be freed.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Communicates ECP lookaside list allocation options with which the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546102">FsRtlInitExtraCreateParameterLookasideList</a> routine initialized the lookaside list.
 
 This <i>Flags</i> parameter should be the same as the <i>Flags</i> parameter used in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546102">FsRtlInitExtraCreateParameterLookasideList</a> routine.

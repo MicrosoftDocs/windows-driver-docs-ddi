@@ -58,13 +58,13 @@ The <b>WdfMemoryCreateFromLookaside</b> method creates a framework memory object
 
 
 
-### -param Lookaside [in]
-
+### -param Lookaside 
+[in]
 A handle to a framework lookaside-list object that is obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdflookasidelistcreate">WdfLookasideListCreate</a>.
 
 
-### -param Memory [out]
-
+### -param Memory 
+[out]
 A pointer to a location that receives a handle to the new framework memory object.
 
 

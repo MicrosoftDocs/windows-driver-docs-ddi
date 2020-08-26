@@ -57,8 +57,8 @@ The <b>GetNameCount</b> method retrieves the number of properties in a property 
 
 
 
-### -param pdwCount [out]
-
+### -param pdwCount 
+[out]
 A pointer to a variable that receives the number of properties in the property store. 
 
 

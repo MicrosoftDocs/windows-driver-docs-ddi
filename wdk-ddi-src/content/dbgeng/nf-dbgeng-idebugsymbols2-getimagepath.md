@@ -57,18 +57,18 @@ The <b>GetImagePath</b>  method returns the executable image path.
 
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the executable image path.  This is a string that contains directories separated by semicolons (<b>;</b>).  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param PathSize [out, optional]
-
+### -param PathSize 
+[out, optional]
 Receives the size, in characters, of the executable image path.
 
 

@@ -55,13 +55,13 @@ The <b>IoGetStackLimits</b> routine returns the boundaries of the current thread
 
 
 
-### -param LowLimit [out]
-
+### -param LowLimit 
+[out]
 Pointer to a caller-supplied variable in which this routine returns the lower offset of the current thread's stack frame.
 
 
-### -param HighLimit [out]
-
+### -param HighLimit 
+[out]
 Pointer to a caller-supplied variable in which this routine returns the higher offset of the current thread's stack frame.
 
 

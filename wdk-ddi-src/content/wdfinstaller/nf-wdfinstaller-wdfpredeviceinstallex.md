@@ -58,18 +58,18 @@ The co-installer's <b>WdfPreDeviceInstallEx</b> function performs any operations
 
 
 
-### -param InfPath [in]
-
+### -param InfPath 
+[in]
 A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <b>GetCurrentDirectory</b>, which is described in the Microsoft Windows SDK.
 
 
-### -param InfSectionName [in, optional]
-
+### -param InfSectionName 
+[in, optional]
 A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 
 
-### -param ClientOptions [in]
-
+### -param ClientOptions 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
 
 

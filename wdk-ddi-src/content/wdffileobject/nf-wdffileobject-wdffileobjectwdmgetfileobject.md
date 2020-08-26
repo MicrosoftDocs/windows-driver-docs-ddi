@@ -58,8 +58,8 @@ The <b>WdfFileObjectWdmGetFileObject</b> method returns the Windows Driver Model
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A handle to a framework file object.
 
 

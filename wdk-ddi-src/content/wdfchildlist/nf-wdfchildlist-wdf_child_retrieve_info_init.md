@@ -57,13 +57,13 @@ The <b>WDF_CHILD_RETRIEVE_INFO_INIT</b> function initializes a <a href="https://
 
 
 
-### -param Info [out]
-
+### -param Info 
+[out]
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_retrieve_info">WDF_CHILD_RETRIEVE_INFO</a> structure.
 
 
-### -param IdentificationDescription [in]
-
+### -param IdentificationDescription 
+[in]
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
 

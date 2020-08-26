@@ -56,13 +56,13 @@ Notifies the USB connector manager framework extension (UcmCx) with the connecti
 
 
 
-### -param Connector [in]
-
+### -param Connector 
+[in]
 Handle to the connector object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
 
-### -param Params [in]
-
+### -param Params 
+[in]
 Pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure contains driver-supplied state of the connector.
 
 

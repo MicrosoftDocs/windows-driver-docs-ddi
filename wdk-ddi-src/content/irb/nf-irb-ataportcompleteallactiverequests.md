@@ -58,23 +58,23 @@ The <b>AtaPortCompleteAllActiveRequests</b> routine completes all active IRBs fo
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension.
 
 
-### -param Target [in]
-
+### -param Target 
+[in]
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
-
+### -param Lun 
+[in]
 Specifies the logical unit number of the device.
 
 
-### -param IrbStatus [in]
-
+### -param IrbStatus 
+[in]
 Specifies the status with which the requests will be completed.
 
 

@@ -55,33 +55,33 @@ The <b>IoBuildAsynchronousFsdRequest</b> routine allocates and sets up an IRP to
 
 
 
-### -param MajorFunction [in]
-
+### -param MajorFunction 
+[in]
 The major function code to be set in the IRP. This code can be <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a>.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the next-lower driver's device object. This object represents the target device for the read, write, flush, or shutdown operation.
 
 
-### -param Buffer [in, out]
-
+### -param Buffer 
+[in, out]
 A pointer to a buffer into which data is read or from which data is written. The value of this argument is <b>NULL</b> for flush and shutdown requests.
 
 
-### -param Length [in, optional]
-
+### -param Length 
+[in, optional]
 The length, in bytes, of the buffer pointed to by <i>Buffer</i>. For devices such as disks, this value must be an integer multiple of the sector size. Starting with Windows 8, the sector size can be 4,096 or 512 bytes. In earlier versions of Windows, the sector size is always 512 bytes. This parameter is required for read and write requests, but must be zero for flush and shutdown requests.
 
 
-### -param StartingOffset [in, optional]
-
+### -param StartingOffset 
+[in, optional]
 A pointer to the starting offset on the input/output media. The value of this argument is zero for flush and shutdown requests.
 
 
-### -param IoStatusBlock [in, optional]
-
+### -param IoStatusBlock 
+[in, optional]
 A pointer to the address of an I/O status block in which the to-be-called drivers return final status about the requested operation.
 
 

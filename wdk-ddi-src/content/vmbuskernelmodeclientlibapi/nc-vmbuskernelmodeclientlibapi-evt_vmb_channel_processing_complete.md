@@ -58,13 +58,13 @@ the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernel
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel one which the packets are delivered.
 
 
-### -param PacketsProcessed [in]
-
+### -param PacketsProcessed 
+[in]
 The number of packets which were delivered in this batch.
 
 

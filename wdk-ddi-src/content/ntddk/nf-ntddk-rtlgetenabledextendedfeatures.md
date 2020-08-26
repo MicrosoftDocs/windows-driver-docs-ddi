@@ -59,8 +59,8 @@ The <b>RtlGetEnabledExtendedFeatures</b> routine returns a mask of extended proc
 
 
 
-### -param FeatureMask [in]
-
+### -param FeatureMask 
+[in]
 A 64-bit feature mask. This parameter indicates a set of extended processor features for which the caller requests information about whether the features are enabled. If a mask bit is one, the caller requests information about the feature that corresponds to this mask bit. The caller sets all other mask bits to zero. Set this parameter to (ULONG64)(-1) to get the mask of all enabled features. To determine whether a particular set of features is enabled, set this parameter to the bitwise OR of one or more of the following <b>XSTATE_MASK_<i>XXX</i></b> flag bits:
 
 <table>

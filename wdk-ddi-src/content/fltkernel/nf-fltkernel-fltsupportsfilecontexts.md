@@ -49,8 +49,8 @@ The **FltSupportsFileContexts** routine determines whether the file system suppo
 
 ## -parameters
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
 
 ## -returns

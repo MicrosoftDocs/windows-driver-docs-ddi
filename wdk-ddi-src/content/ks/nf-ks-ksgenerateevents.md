@@ -50,32 +50,32 @@ The **KsGenerateEvents** function generates events of an indicated type that are
 
 ## -parameters
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The object on which to generate events. This can be an AVStream filter or pin object.
 
-### -param EventSet [in, optional]
-
+### -param EventSet 
+[in, optional]
 The event set GUID to match to determine which events to generate. If this parameter is **NULL**, set GUID is not taken into account for determining matching events.
 
-### -param EventId [in]
-
+### -param EventId 
+[in]
 The event ID to match to determine which events to generate.
 
-### -param DataSize [in]
-
+### -param DataSize 
+[in]
 The size in bytes of the data with which to generate the data event.
 
-### -param Data [in, optional]
-
+### -param Data 
+[in, optional]
 A pointer to a data buffer to include in the event notification. If the driver does not need to convey additional information via the notification, set this optional parameter to **NULL**.
 
-### -param CallBack [in, optional]
-
+### -param CallBack 
+[in, optional]
 A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used).
 
-### -param CallBackContext [in, optional]
-
+### -param CallBackContext 
+[in, optional]
 A pointer to a caller-specified context that is passed to the callback function *CallBack*.
 
 ## -remarks

@@ -6,7 +6,7 @@ old-location: kernel\io_container_information_class.htm
 tech.root: kernel
 ms.assetid: 359ed0d2-91b1-46d1-a358-babe7cb993fb
 ms.date: 04/30/2018
-keywords: ["_IO_CONTAINER_INFORMATION_CLASS enumeration"]
+keywords: ["IO_CONTAINER_INFORMATION_CLASS enumeration"]
 ms.keywords: IO_CONTAINER_INFORMATION_CLASS, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerInformationClass, IoSessionStateInformation, _IO_CONTAINER_INFORMATION_CLASS, kernel.io_container_information_class, sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, wdm/IO_CONTAINER_INFORMATION_CLASS, wdm/IoMaxContainerInformationClass, wdm/IoSessionStateInformation
 f1_keywords:
  - "wdm/IO_CONTAINER_INFORMATION_CLASS"

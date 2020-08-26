@@ -55,13 +55,13 @@ Gets the selected option for a feature in <a href="https://docs.microsoft.com/wi
 
 
 
-### -param pFeature [in]
-
+### -param pFeature 
+[in]
 The specified feature.
 
 
-### -param ppOption [out, retval]
-
+### -param ppOption 
+[out, retval]
 The returned option.
 
 

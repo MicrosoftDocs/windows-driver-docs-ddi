@@ -55,28 +55,28 @@ The <code>IPrintTicketProvider::ConvertPrintTicketToDevMode</code> method conver
 
 
 
-### -param pPrintTicket [in]
-
+### -param pPrintTicket 
+[in]
 A pointer to the input print ticket. <code>IPrintTicketProvider::ConvertPrintTicketToDevMode</code> converts the settings in the input print ticket into fields in the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 
-### -param cbDevmodeIn [in]
-
+### -param cbDevmodeIn 
+[in]
 The size, in bytes, of the input DEVMODEW structure. This size includes both the public and private sections of the DEVMODEW structure. 
 
 
-### -param pDevmodeIn [in]
-
+### -param pDevmodeIn 
+[in]
 A pointer to the input DEVMODEW structure, which contains default settings. The DEVMODEW structure can be the print queue default DEVMODEW structure, or it can be the user default DEVMODEW structure. Because this parameter can represent the user default DEVMODEW structure, the OEM plug-in provider must validate the data in that  structure. A user default DEVMODEW structure might not be valid for a specific driver, for example, when the print queue's driver changes or is upgraded.
 
 
-### -param pcbDevmodeOut [out]
-
+### -param pcbDevmodeOut 
+[out]
 A pointer to a variable that contains the size, in bytes, of the output <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 
-### -param ppDevmodeOut [out]
-
+### -param ppDevmodeOut 
+[out]
 A pointer to a variable that contains the address of the output DEVMODEW structure. When <code>IPrintTicketProvider::ConvertPrintTicketToDevMode</code> successfully returns, the members of the output DEVMODEW structure will be reset to reflect the settings in the print ticket. For more information, see the following Remarks section.
 
 

@@ -55,23 +55,23 @@ Gets the scope as an extended frame structure.
 
 
 
-### -param InstructionOffset [out, optional]
-
+### -param InstructionOffset 
+[out, optional]
 The offset of the instruction for the scope. 
 
 
-### -param ScopeFrame [out, optional]
-
+### -param ScopeFrame 
+[out, optional]
 The scope frame returned as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a> structure. 
 
 
-### -param ScopeContext [out]
-
+### -param ScopeContext 
+[out]
 A pointer to the scope context returned. 
 
 
-### -param ScopeContextSize [in]
-
+### -param ScopeContextSize 
+[in]
 The size of the scope context.
 
 
@@ -79,7 +79,7 @@ The size of the scope context.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

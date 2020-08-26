@@ -55,8 +55,8 @@ The class driver calls the stream minidriver's <i>StrMiniEvent</i> routine to si
 
 
 
-### -param EventDescriptor [in]
-
+### -param EventDescriptor 
+[in]
 Describes the event, and whether it should be enabled or disabled.
 
 

@@ -6,7 +6,7 @@ old-location: ifsk\file_provider_external_info_v1.htm
 tech.root: ifsk
 ms.assetid: 842D7F4A-3352-469A-B7C1-E075432107CA
 ms.date: 04/16/2018
-keywords: ["_FILE_PROVIDER_EXTERNAL_INFO_V1 structure"]
+keywords: ["FILE_PROVIDER_EXTERNAL_INFO_V1 structure"]
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO, FILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V1, ifsk.file_provider_external_info_v1, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1"
 f1_keywords:
  - "ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1"

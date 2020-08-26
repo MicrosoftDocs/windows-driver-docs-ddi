@@ -57,13 +57,13 @@ The <b>SetCompletionCallback</b> method registers the interface for the <a href=
 
 
 
-### -param pCompletionCallback [in]
-
+### -param pCompletionCallback 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-irequestcallbackrequestcompletion">IRequestCallbackRequestCompletion</a> interface whose <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">OnCompletion</a> method the framework calls after the I/O request completes. Beginning with version 1.9 of UMDF, the driver can specify <b>NULL</b> to deregister a previously registered <b>OnCompletion</b> method.
 
 
-### -param pContext [in, optional]
-
+### -param pContext 
+[in, optional]
 A pointer to a buffer that contains context information that is related to the request completion. The framework passes this context information in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a> method. This parameter is optional and can be <b>NULL</b>.
 
 

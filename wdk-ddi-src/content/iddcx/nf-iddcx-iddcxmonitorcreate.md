@@ -57,18 +57,18 @@ An OS callback function the driver calls to create a monitor object that can lat
 
 
 
-### -param AdapterObject [in]
-
+### -param AdapterObject 
+[in]
 The adapter object that is hosting the newly arrived monitor
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments to the function
 
 
-### -param pOutArgs [out]
-
+### -param pOutArgs 
+[out]
 Output arguments to the function
 
 

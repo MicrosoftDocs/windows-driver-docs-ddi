@@ -55,33 +55,33 @@ The <b>PEP_ACPI_INITIALIZE_MEMORY_RESOURCE</b> function initializes a platform e
 
 
 
-### -param ReadWrite [in]
-
+### -param ReadWrite 
+[in]
 If true, indicates that the resource is read/write. Otherwise, it's read-only.
 
 
-### -param MinimumAddress [in]
-
+### -param MinimumAddress 
+[in]
 Specifies the minimum acceptable starting address for the IO range.
 
 
-### -param MaximumAddress [in]
-
+### -param MaximumAddress 
+[in]
 Specifies the maximum acceptable starting address for the IO range.
 
 
-### -param Alignment [in]
-
+### -param Alignment 
+[in]
 Specifies the alignment granularity for the memory address assigned.
 
 
-### -param MemorySize [in]
-
+### -param MemorySize 
+[in]
 Specifies the number of bytes in the memory range.
 
 
-### -param Resource [out]
-
+### -param Resource 
+[out]
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_io_memory_resource">PEP_ACPI_IO_MEMORY_RESOURCE</a>.
 
 

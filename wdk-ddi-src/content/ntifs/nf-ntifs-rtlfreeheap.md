@@ -55,13 +55,13 @@ The <b>RtlFreeHeap</b> routine frees a memory block that was allocated from a he
 
 
 
-### -param HeapHandle [in]
-
+### -param HeapHandle 
+[in]
 A handle for the heap whose memory block is to be freed. This parameter is a handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>. 
 
 
-### -param Flags [in, optional]
-
+### -param Flags 
+[in, optional]
 A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the <i>Flags</i> parameter when the heap was created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>. 
 
 <table>

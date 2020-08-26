@@ -56,33 +56,33 @@ The <b>GetDumpFile</b>  method describes the files containing supporting informa
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies which file to describe.  <i>Index</i> can take values between zero and the number of files minus one; the number of files can be found by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getnumberdumpfiles">GetNumberDumpFiles</a>.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the file name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param NameSize [out, optional]
-
+### -param NameSize 
+[out, optional]
 Receives the size of the file name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Handle [out, optional]
-
+### -param Handle 
+[out, optional]
 Receives the file handle of the file.  If <i>Handle</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Type [out]
-
+### -param Type 
+[out]
 Receives the type of the file.
 
 

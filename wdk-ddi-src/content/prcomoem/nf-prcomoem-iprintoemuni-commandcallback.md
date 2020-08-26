@@ -75,8 +75,8 @@ Caller-supplied value representing the number of elements in the array pointed t
 Caller-supplied pointer to an array of DWORD-sized parameters containing values specified by the printer commands *<b>Params</b> attribute in the printer's GPD file. (For more information, see the following Remarks section.) Can be <b>NULL</b>.
 
 
-### -param piResult [out]
-
+### -param piResult 
+[out]
 Receives a method-supplied result value. See the following Remarks section.
 
 

@@ -55,23 +55,23 @@ A minifilter driver calls <b>FltCheckOplock</b> to synchronize the callback data
 
 
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>. 
 
 
-### -param CallbackData [in]
-
+### -param CallbackData 
+[in]
 A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. 
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to caller-defined context information to be passed to the callback routines that  <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>point to. The Filter Manager treats this information as opaque. 
 
 
-### -param WaitCompletionRoutine [in, optional]
-
+### -param WaitCompletionRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, the Filter Manager calls this routine when the oplock break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
@@ -107,8 +107,8 @@ Pointer to the callback data structure for the I/O operation.
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltCheckOplock</b>. 
 
 
-### -param PrePostCallbackDataRoutine [in, optional]
-
+### -param PrePostCallbackDataRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 

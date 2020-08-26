@@ -6,7 +6,7 @@ old-location: kernel\pep_register_device_v2.htm
 tech.root: kernel
 ms.assetid: A1363B34-CC5C-482E-8E8D-62D7263545E3
 ms.date: 04/30/2018
-keywords: ["_PEP_REGISTER_DEVICE_V2 structure"]
+keywords: ["PEP_REGISTER_DEVICE_V2 structure"]
 ms.keywords: "*PPEP_REGISTER_DEVICE, *PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE, PEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2 structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_DEVICE_V2, PPEP_REGISTER_DEVICE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEVICE_V2, kernel.pep_register_device_v2, pepfx/PEP_REGISTER_DEVICE_V2, pepfx/PPEP_REGISTER_DEVICE_V2"
 f1_keywords:
  - "pepfx/PEP_REGISTER_DEVICE_V2"
@@ -57,7 +57,7 @@ The <b>PEP_REGISTER_DEVICE_V2</b> structure describes a device whose driver stac
 
 ### -field DeviceId
 
-[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
 ### -field KernelHandle
@@ -112,7 +112,7 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

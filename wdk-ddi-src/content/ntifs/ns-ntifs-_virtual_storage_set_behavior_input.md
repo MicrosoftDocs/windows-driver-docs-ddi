@@ -5,7 +5,7 @@ description:
 ms.assetid: 072ced06-437c-461f-a6a9-5eac62897a54
 ms.date: 10/19/2018
 tech.root: ifsk
-keywords: ["_VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT structure"]
+keywords: ["VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT structure"]
 f1_keywords:
  - "ntifs/_VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT"
  - "_VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT"

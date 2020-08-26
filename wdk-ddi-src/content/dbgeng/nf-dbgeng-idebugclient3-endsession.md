@@ -59,8 +59,8 @@ The <b>EndSession</b> method ends the current debugger session.
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies how to end the session.  <i>Flags</i> can be one of the following values:
 
 <table>

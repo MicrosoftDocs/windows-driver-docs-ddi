@@ -6,7 +6,7 @@ old-location: kernel\trace_information_class.htm
 tech.root: kernel
 ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.date: 04/30/2018
-keywords: ["_TRACE_INFORMATION_CLASS enumeration"]
+keywords: ["TRACE_INFORMATION_CLASS enumeration"]
 ms.keywords: AllLoggerHandlesClass, DiskIoNotifyRoutinesClass, EventLoggerHandleClass, FltIoNotifyRoutinesClass, GlobalLoggerHandleClass, LoggerEventsLoggedClass, LoggerEventsLostClass, MaxTraceInformationClass, TRACE_INFORMATION_CLASS, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TraceEnableFlagsClass, TraceEnableLevelClass, TraceHandleByNameClass, TraceHandleClass, TraceIdClass, TraceInformationClassReserved1, TraceInformationClassReserved2, TraceSessionSettingsClass, WdfNotifyRoutinesClass, _TRACE_INFORMATION_CLASS, kernel.trace_information_class, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/AllLoggerHandlesClass, wdm/DiskIoNotifyRoutinesClass, wdm/EventLoggerHandleClass, wdm/FltIoNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, wdm/LoggerEventsLoggedClass, wdm/LoggerEventsLostClass, wdm/MaxTraceInformationClass, wdm/TRACE_INFORMATION_CLASS, wdm/TraceEnableFlagsClass, wdm/TraceEnableLevelClass, wdm/TraceHandleByNameClass, wdm/TraceHandleClass, wdm/TraceIdClass, wdm/TraceInformationClassReserved1, wdm/TraceInformationClassReserved2, wdm/TraceSessionSettingsClass, wdm/WdfNotifyRoutinesClass
 f1_keywords:
  - "wdm/TRACE_INFORMATION_CLASS"
@@ -92,7 +92,7 @@ Retrieves an array of event trace handles (TRACEHANDLE array) for all valid logg
 
 ### -field TraceHandleByNameClass
 
-Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure in buffer).
+Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure in buffer).
 
 
 ### -field LoggerEventsLostClass

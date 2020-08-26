@@ -6,7 +6,7 @@ old-location: storage\feature_data_cdrw_cav_write.htm
 tech.root: storage
 ms.assetid: bdd76553-d551-4451-8a34-122bc0639665
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_CDRW_CAV_WRITE structure"]
+keywords: ["FEATURE_DATA_CDRW_CAV_WRITE structure"]
 ms.keywords: "*PFEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], PFEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], _FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE"

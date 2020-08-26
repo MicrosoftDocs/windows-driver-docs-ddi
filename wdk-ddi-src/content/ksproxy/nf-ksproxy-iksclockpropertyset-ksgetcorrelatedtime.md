@@ -55,8 +55,8 @@ The <b>KsGetCorrelatedTime</b> method retrieves the current time and the correla
 
 
 
-### -param CorrelatedTime [out]
-
+### -param CorrelatedTime 
+[out]
 Pointer to a variable that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a> structure that contains the current clock time along with the correlated system time.
 
 

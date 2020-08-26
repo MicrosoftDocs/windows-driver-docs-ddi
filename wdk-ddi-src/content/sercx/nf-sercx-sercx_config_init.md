@@ -55,8 +55,8 @@ The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="https://docs.micros
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
 A pointer to the <b>SERCX_CONFIG</b> structure that is to be initialized.
 
 

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringCchCatStringNEx</b> function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, while limiting the size of the appended string.
+The <b>RtlUnicodeStringCchCatStringNEx</b> function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, while limiting the size of the appended string.
 
 
 ## -parameters
@@ -56,28 +56,28 @@ The <b>RtlUnicodeStringCchCatStringNEx</b> function concatenates two strings whe
 
 
 
-### -param DestinationString [in, out]
-
+### -param DestinationString 
+[in, out]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param pszSrc [in]
-
+### -param pszSrc 
+[in]
 A caller-supplied pointer to a null-terminated string. This string will be concatenated to the end of the string that <i>DestinationString</i> describes. <i>pszSrc</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cchToAppend [in]
-
+### -param cchToAppend 
+[in]
 The maximum number of characters to append to the string that the <i>DestinationString</i> parameter describes.
 
 
-### -param RemainingString [out, optional]
-
+### -param RemainingString 
+[out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
 
@@ -188,7 +188,7 @@ For information about how to test NTSTATUS values, see <a href="https://docs.mic
 
 The <b>RtlUnicodeStringCchCatStringNEx </b>function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringCchCatStringNEx </b>adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcchcatstringn">RtlUnicodeStringCchCatStringN</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. Flags can be passed to <b>RtlUnicodeStringCchCatStringNEx </b> for additional control.
+<b>RtlUnicodeStringCchCatStringNEx </b>adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcchcatstringn">RtlUnicodeStringCchCatStringN</a> function by returning a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. Flags can be passed to <b>RtlUnicodeStringCchCatStringNEx </b> for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
@@ -212,7 +212,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

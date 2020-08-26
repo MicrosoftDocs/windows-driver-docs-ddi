@@ -58,13 +58,13 @@ The <b>GetTotalNumberThreads</b> method returns the total number of <a href="htt
 
 
 
-### -param Total [out]
-
+### -param Total 
+[out]
 Receives the total number of threads for all the processes in the current target.
 
 
-### -param LargestProcess [out]
-
+### -param LargestProcess 
+[out]
 Receives the largest number of threads in any process for the current target.
 
 

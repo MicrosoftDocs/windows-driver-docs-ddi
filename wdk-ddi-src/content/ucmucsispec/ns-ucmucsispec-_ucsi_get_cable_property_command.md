@@ -5,7 +5,7 @@ tech.root: usbref
 description: Used in the GET_CABLE_PROPERTY command. See Table 4-37.
 ms.assetid: 74e3602c-0c7c-4fba-b3b2-d311cb4d531f
 ms.date: 09/30/2018
-keywords: ["_UCSI_GET_CABLE_PROPERTY_COMMAND structure"]
+keywords: ["UCSI_GET_CABLE_PROPERTY_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_CABLE_PROPERTY_COMMAND"
  - "_UCSI_GET_CABLE_PROPERTY_COMMAND"

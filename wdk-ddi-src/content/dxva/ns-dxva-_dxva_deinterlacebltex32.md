@@ -6,7 +6,7 @@ old-location: display\dxva_deinterlacebltex32.htm
 tech.root: display
 ms.assetid: ae88acca-5d29-4cca-acae-613632d565d8
 ms.date: 05/10/2018
-keywords: ["_DXVA_DeinterlaceBltEx32 structure"]
+keywords: ["DXVA_DeinterlaceBltEx32 structure"]
 ms.keywords: DXVA_DeinterlaceBltEx32, DXVA_DeinterlaceBltEx32 structure [Display Devices], _DXVA_DeinterlaceBltEx32, display.dxva_deinterlacebltex32, dxva/DXVA_DeinterlaceBltEx32, dxvaref_93b5f3fe-0474-4efe-8d8f-b57e5c3f267d.xml
 f1_keywords:
  - "dxva/DXVA_DeinterlaceBltEx32"

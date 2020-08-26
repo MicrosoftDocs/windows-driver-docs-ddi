@@ -6,7 +6,7 @@ old-location: pos\posvaluestatisticsentry.htm
 tech.root: pos
 ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.date: 02/23/2018
-keywords: ["_PosValueStatisticsEntry structure"]
+keywords: ["PosValueStatisticsEntry structure"]
 ms.keywords: PosValueStatisticsEntry, PosValueStatisticsEntry structure, _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry
 f1_keywords:
  - "pointofservicedriverinterface/PosValueStatisticsEntry"
@@ -57,7 +57,7 @@ This structure contains the value of a statistic.
 
 ### -field EntryName
 
-Indicates the NULL-terminated statistic name (for example, <i>GoodScanCount</i> or <i>BadScanCount</i>).
+Indicates the NULL-terminated statistic name (for example, *GoodScanCount* or *BadScanCount*).
 
 
 ### -field Value

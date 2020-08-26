@@ -59,15 +59,15 @@ req.typenames:
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Is set to NDIS_STATUS_SUCCESS if the client accepts the offered call. Otherwise, this parameter
      can be set to any NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING to indicate the client-determined reason for rejecting the
      call.
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies the handle to the VC that was created by the call manager to represent the incoming
      call. The client obtained this handle from it per-VC state designated by the 
      <i>ProtocolVcContext</i> passed as an input parameter to its 
@@ -75,8 +75,8 @@ Specifies the handle to the VC that was created by the call manager to represent
      ProtocolClIncomingCall</a> function.
 
 
-### -param CallParameters [in]
-
+### -param CallParameters 
+[in]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, specifying the call
      parameters for the incoming call.

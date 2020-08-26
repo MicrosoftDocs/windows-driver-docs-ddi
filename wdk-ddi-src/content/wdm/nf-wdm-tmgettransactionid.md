@@ -57,13 +57,13 @@ The <b>TmGetTransactionId</b> routine retrieves a transaction object's <a href="
 
 
 
-### -param Transaction [in]
-
+### -param Transaction 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>. To obtain this pointer, your component must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a> provided.
 
 
-### -param TransactionId [out]
-
+### -param TransactionId 
+[out]
 A pointer to a location that receives the transaction object's UOW identifier.
 
 

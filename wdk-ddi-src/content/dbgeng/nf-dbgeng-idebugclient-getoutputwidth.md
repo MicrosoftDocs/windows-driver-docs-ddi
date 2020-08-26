@@ -56,8 +56,8 @@ Gets the width of an output line for
 
 
 
-### -param Columns [out]
-
+### -param Columns 
+[out]
 The number of columns in the output.
 
 

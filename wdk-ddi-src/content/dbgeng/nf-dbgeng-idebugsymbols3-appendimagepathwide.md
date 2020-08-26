@@ -55,8 +55,8 @@ The <b>AppendImagePathWide</b>  method appends directories to the executable ima
 
 
 
-### -param Addition [in]
-
+### -param Addition 
+[in]
 Specifies the directories to append to the executable image path.  This is a string that contains directory names separated by semicolons (;).
 
 

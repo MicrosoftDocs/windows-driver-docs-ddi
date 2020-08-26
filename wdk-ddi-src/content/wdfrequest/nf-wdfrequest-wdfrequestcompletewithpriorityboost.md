@@ -58,13 +58,13 @@ The <b>WdfRequestCompleteWithPriorityBoost</b> method completes a specified I/O 
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to the framework request object that represents the I/O request that is being completed.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS value</a> that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
 
@@ -88,8 +88,8 @@ The driver canceled the request.
 The driver encountered an error while processing the request.
 
 
-### -param PriorityBoost [in]
-
+### -param PriorityBoost 
+[in]
 A system-defined constant value by which to increment the run-time priority of the original thread that requested the operation. Constant values are device-type-specific and are defined in <i>Wdm.h</i>. The format for the constant names is <i>XXX</i>_INCREMENT. For more information about priority boost values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-priority-boosts-when-completing-i-o-requests">Specifying Priority Boosts When Completing I/O Requests</a>.
 
 

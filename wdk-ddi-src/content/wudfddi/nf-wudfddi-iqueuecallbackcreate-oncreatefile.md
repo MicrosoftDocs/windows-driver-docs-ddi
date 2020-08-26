@@ -57,8 +57,8 @@ The <b>OnCreateFile</b> method is called to handle an open file request when an 
 
 
 
-### -param pWdfQueue [in]
-
+### -param pWdfQueue 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from. 
 
 
@@ -67,8 +67,8 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 
 
-### -param pWdfFileObject [in]
-
+### -param pWdfFileObject 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the device. This information is provided for convenience because the driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getcreateparameters">IWDFIoRequest::GetCreateParameters</a> method to obtain the file object. 
 
 

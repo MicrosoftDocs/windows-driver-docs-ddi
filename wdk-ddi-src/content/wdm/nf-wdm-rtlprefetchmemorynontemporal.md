@@ -55,13 +55,13 @@ The <b>RtlPrefetchMemoryNonTemporal</b> routine provides a hint to the processor
 
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 A pointer to the buffer to be moved into the processor cache. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length of the buffer to be moved. 
 
 

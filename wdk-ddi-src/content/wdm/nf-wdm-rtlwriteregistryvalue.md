@@ -55,8 +55,8 @@ The <b>RtlWriteRegistryValue</b> routine writes caller-supplied data into the re
 
 
 
-### -param RelativeTo [in]
-
+### -param RelativeTo 
+[in]
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined path as one of the following.
 
 <table>
@@ -148,28 +148,28 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
  
 
 
-### -param Path [in]
-
+### -param Path 
+[in]
 Pointer to either an absolute registry path or a path relative to the known location specified by the <i>RelativeTo</i> parameter. If the RTL_REGISTRY_HANDLE flag is specified, this parameter is a registry handle for an already opened key to be used directly.
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 Pointer to the name of a subkey or value entry to be written into the registry.
 
 
-### -param ValueType [in]
-
+### -param ValueType 
+[in]
 Specifies a REG_<i>XXX</i> value that determines the type of the <i>ValueName</i> parameter. For a list of the possible values, see the <i>Type</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>.
 
 
-### -param ValueData [in, optional]
-
+### -param ValueData 
+[in, optional]
 Pointer to the name of a subkey or values for its value entries (or both) to be written into the registry.
 
 
-### -param ValueLength [in]
-
+### -param ValueLength 
+[in]
 Specifies the number of bytes of <i>ValueData</i> to be written into the registry.
 
 

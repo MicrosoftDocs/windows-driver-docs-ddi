@@ -55,8 +55,8 @@ The <code>GetAllocatorFraming</code> method gets the preferred allocator-framing
 
 
 
-### -param AllocatorFraming [out]
-
+### -param AllocatorFraming 
+[out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
 
 

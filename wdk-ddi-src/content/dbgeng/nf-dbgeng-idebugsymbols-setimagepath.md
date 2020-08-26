@@ -57,8 +57,8 @@ The <b>SetImagePath</b>  method sets the executable image path.
 
 
 
-### -param Path [in]
-
+### -param Path 
+[in]
 Specifies the new executable image path.  This is a string that contains directories separated by semicolons (<b>;</b>).
 
 

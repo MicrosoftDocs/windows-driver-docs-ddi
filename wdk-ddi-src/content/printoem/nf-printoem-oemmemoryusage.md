@@ -55,6 +55,6 @@ Use [IPrintOemUni::MemoryUsage](https://docs.microsoft.com/windows-hardware/driv
 
 Pointer to device object.
 
-### -param pMemoryUsage [in, out]
-
+### -param pMemoryUsage 
+[in, out]
 Pointer to OEMMEMORYUSAGE structure.

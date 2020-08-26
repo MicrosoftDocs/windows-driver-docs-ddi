@@ -60,13 +60,13 @@ The <b>WdfInterruptGetInfo</b> method retrieves information about a specified in
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 A handle to the interrupt object.
 
 
-### -param Info [out]
-
+### -param Info 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure that has been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>.
 
 

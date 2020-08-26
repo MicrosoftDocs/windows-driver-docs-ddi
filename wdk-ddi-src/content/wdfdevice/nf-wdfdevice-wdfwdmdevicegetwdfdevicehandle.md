@@ -58,8 +58,8 @@ The <b>WdfWdmDeviceGetWdfDeviceHandle</b> method returns a handle to the framewo
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to a WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that the calling driver created.
 
 

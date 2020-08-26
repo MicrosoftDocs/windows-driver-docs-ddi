@@ -6,7 +6,7 @@ old-location: pos\posbarcodescannerdatareceivedeventdata.htm
 tech.root: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.date: 02/23/2018
-keywords: ["_PosBarcodeScannerDataReceivedEventData structure"]
+keywords: ["PosBarcodeScannerDataReceivedEventData structure"]
 ms.keywords: PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, _PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata
 f1_keywords:
  - "pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData"
@@ -79,7 +79,7 @@ Indicates the number of bytes of decoded scan data. A label is the decoded scan 
 
 
 
-<i>ScanDataLength</i> bytes of scan data immediately follows the <i>PosBarcodeScannerDataReceivedEventData</i> structure, followed by <i>ScanDataLabelLength</i> bytes of label data.
+*ScanDataLength* bytes of scan data immediately follows the *PosBarcodeScannerDataReceivedEventData* structure, followed by *ScanDataLabelLength* bytes of label data.
 
 
 

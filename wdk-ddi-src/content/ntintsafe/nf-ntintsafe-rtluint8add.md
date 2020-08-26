@@ -55,18 +55,18 @@ Adds two values of type <b>UINT8</b>.
 
 
 
-### -param u8Augend [in]
-
+### -param u8Augend 
+[in]
 The first value in the equation.
 
 
-### -param u8Addend [in]
-
+### -param u8Addend 
+[in]
 The value to add to <i>u8Augend</i>.
 
 
-### -param pu8Result [out]
-
+### -param pu8Result 
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

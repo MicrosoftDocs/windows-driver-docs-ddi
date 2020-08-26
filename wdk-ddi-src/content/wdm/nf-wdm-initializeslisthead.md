@@ -55,8 +55,8 @@ The <b>InitializeSListHead</b> routine (or ExInitializeSListHead) initializes an
 
 
 
-### -param SListHead [in]
-
+### -param SListHead 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure to initialize. The structure must be 16-byte aligned on 64-bit platforms. 
 
 

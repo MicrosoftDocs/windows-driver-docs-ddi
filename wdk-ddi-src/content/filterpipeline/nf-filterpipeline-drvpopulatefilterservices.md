@@ -55,8 +55,8 @@ The <b>DrvPopulateFilterServices</b> function is called by the XPSDrv filter pip
 
 
 
-### -param pPropertyBag [in]
-
+### -param pPropertyBag 
+[in]
 Pointer to a print pipeline property bag.
 
 

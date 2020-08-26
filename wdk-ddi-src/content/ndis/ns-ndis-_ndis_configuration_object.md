@@ -6,7 +6,7 @@ old-location: netvista\ndis_configuration_object.htm
 tech.root: netvista
 ms.assetid: 8fa80414-c87a-4f05-b99c-5153f08a0862
 ms.date: 05/02/2018
-keywords: ["_NDIS_CONFIGURATION_OBJECT structure"]
+keywords: ["NDIS_CONFIGURATION_OBJECT structure"]
 ms.keywords: "*PNDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_OBJECT, PNDIS_CONFIGURATION_OBJECT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_OBJECT, ndis/NDIS_CONFIGURATION_OBJECT, ndis/PNDIS_CONFIGURATION_OBJECT, ndis_configuration_ref_aa617bdd-fe13-11d9-8a38-0030ab150798.xml, netvista.ndis_configuration_object"
 f1_keywords:
  - "ndis/NDIS_CONFIGURATION_OBJECT"

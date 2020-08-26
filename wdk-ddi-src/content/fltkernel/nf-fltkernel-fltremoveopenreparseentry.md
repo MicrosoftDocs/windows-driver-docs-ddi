@@ -60,19 +60,19 @@ This routine removes an <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 The filter to dereference.
 
 
-### -param Data [in]
-
+### -param Data 
+[in]
 The create operation to remove open reparse information
                        from.
 
 
-### -param OpenReparseEntry [in]
-
+### -param OpenReparseEntry 
+[in]
 The open reparse information to remove, of type <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a>.
 
 

@@ -49,13 +49,13 @@ The `PcwRegister` function creates a new counterset registration. Most developer
 
 ## -parameters
 
-### -param Registration [out]
+### -param Registration
 
-A pointer to a PPCW_REGISTRATION. Receives the handle to the new registration. The registration should be closed using [PcwUnregister](nf-wdm-pcwunregister.md).
+[out] A pointer to a PPCW_REGISTRATION. Receives the handle to the new registration. The registration should be closed using [PcwUnregister](nf-wdm-pcwunregister.md).
 
-### -param Info [in]
+### -param Info
 
-A pointer to a [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counterset being registered.
+[in] A pointer to a [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counterset being registered.
 
 ## -returns
 

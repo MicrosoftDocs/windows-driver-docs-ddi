@@ -57,43 +57,43 @@ The <b>ConfigureContinuousReader</b> method configures the framework to continuo
 
 
 
-### -param TransferLength [in]
-
+### -param TransferLength 
+[in]
 The maximum length, in bytes, of data that can be received from the device.
 
 
-### -param HeaderLength [in]
-
+### -param HeaderLength 
+[in]
 An offset, in bytes, into the buffer that receives data from the device. The framework will store data from the device in a read buffer, beginning at the offset value. In other words, this space precedes the <i>TransferLength</i>-sized space in which the framework stores data from the device.
 
 
-### -param TrailerLength [in]
-
+### -param TrailerLength 
+[in]
 The length, in bytes, of a trailing buffer space. This space follows the <i>TransferLength</i>-sized space in which the framework stores data from the device.
 
 
-### -param NumPendingReads [in]
-
+### -param NumPendingReads 
+[in]
 The number of read requests that the framework will queue to receive data from the I/O target. If this value is zero, the framework uses a default number of read requests. If the specified value is greater than the permitted maximum value, the framework uses the permitted maximum value. For more information about the <i>NumPendingReads</i> parameter, see the following Remarks section.
 
 
-### -param pMemoryCleanupCallbackInterface [in, optional]
-
+### -param pMemoryCleanupCallbackInterface 
+[in, optional]
 A pointer to a driver-supplied <b>IUnkown</b> interface that the framework uses to access an optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iobjectcleanup-oncleanup">IObjectCleanup::OnCleanup</a> callback function. The framework calls the callback function when it deallocates the read buffer that it creates to handle the continuous read operation. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pOnCompletion [in]
-
+### -param pOnCompletion 
+[in]
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface that provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">OnReaderCompletion</a> callback function. 
 
 
-### -param pCompletionContext [in, optional]
-
+### -param pCompletionContext 
+[in, optional]
 An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a> callback function. 
 
 
-### -param pOnFailure [in, optional]
-
+### -param pOnFailure 
+[in, optional]
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a> interface that provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed-onreaderfailure">OnReaderFailure</a> callback function. 
 
 

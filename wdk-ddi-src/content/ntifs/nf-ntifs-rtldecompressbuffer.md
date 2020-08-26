@@ -55,8 +55,8 @@ The <b>RtlDecompressBuffer</b> function decompresses an entire compressed buffer
 
 
 
-### -param CompressionFormat [in]
-
+### -param CompressionFormat 
+[in]
 A bitmask that specifies the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows.
 
 <table>
@@ -108,28 +108,28 @@ The function will perform Xpress decompression.
  
 
 
-### -param UncompressedBuffer [out]
-
+### -param UncompressedBuffer 
+[out]
 A pointer to a caller-allocated buffer (allocated from paged or non-paged pool) that receives the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param UncompressedBufferSize [in]
-
+### -param UncompressedBufferSize 
+[in]
 The size, in bytes, of the <i>UncompressedBuffer</i>  buffer.
 
 
-### -param CompressedBuffer [in]
-
+### -param CompressedBuffer 
+[in]
 A pointer to the buffer that contains the data to decompress. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param CompressedBufferSize [in]
-
+### -param CompressedBufferSize 
+[in]
 The size, in bytes, of the <i>CompressedBuffer</i>  buffer.
 
 
-### -param FinalUncompressedSize [out]
-
+### -param FinalUncompressedSize 
+[out]
 A pointer to a caller-allocated variable that receives the size, in bytes, of the decompressed data stored in <i>UncompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
 

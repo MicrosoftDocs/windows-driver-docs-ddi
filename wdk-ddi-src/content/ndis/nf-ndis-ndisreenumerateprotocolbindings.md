@@ -60,8 +60,8 @@ The
 
 
 
-### -param NdisProtocolHandle [in]
-
+### -param NdisProtocolHandle 
+[in]
 A handle representing the calling protocol driver. The driver obtained this handle with a previous
      call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">

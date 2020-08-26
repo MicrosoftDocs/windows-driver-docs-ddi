@@ -60,14 +60,14 @@ The <b>WdfStringGetUnicodeString</b> method retrieves the Unicode string that is
 
 
 
-### -param String [in]
-
+### -param String 
+[in]
 A handle to a framework string object.
 
 
-### -param UnicodeString [out]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
+### -param UnicodeString 
+[out]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
 
 
 ## -remarks
@@ -103,7 +103,7 @@ WdfStringGetUnicodeString(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

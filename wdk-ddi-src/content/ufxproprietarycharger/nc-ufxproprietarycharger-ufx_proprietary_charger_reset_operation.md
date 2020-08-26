@@ -55,8 +55,8 @@ The filter driver's implementation to reset a charger operation.
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
     A pointer to a driver-defined context.
 
 

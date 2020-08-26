@@ -55,8 +55,8 @@ The <b>KeReadStateEvent</b> routine returns the current state, signaled or not-s
 
 
 
-### -param Event [in]
-
+### -param Event 
+[in]
 A pointer to an initialized event object for which the caller provides the storage.
 
 

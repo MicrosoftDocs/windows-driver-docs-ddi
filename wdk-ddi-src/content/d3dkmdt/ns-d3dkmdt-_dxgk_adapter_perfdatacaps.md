@@ -4,7 +4,7 @@ title: _DXGK_ADAPTER_PERFDATACAPS (d3dkmdt.h)
 description: The physical adapter index in a LDA chain.
 ms.assetid: 4193f977-8617-4c1a-965b-040633d29eb3
 ms.date: 10/19/2018
-keywords: ["_DXGK_ADAPTER_PERFDATACAPS structure"]
+keywords: ["DXGK_ADAPTER_PERFDATACAPS structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_ADAPTER_PERFDATACAPS"
  - "_DXGK_ADAPTER_PERFDATACAPS"

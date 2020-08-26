@@ -4,7 +4,7 @@ title: _ERROR_HISTORY_DIRECTORY (minitape.h)
 description: 
 ms.assetid: 3edc0df4-936f-42ce-bd19-3b81a39a82b0
 ms.date: 10/19/2018
-keywords: ["_ERROR_HISTORY_DIRECTORY structure"]
+keywords: ["ERROR_HISTORY_DIRECTORY structure"]
 f1_keywords:
  - "minitape/_ERROR_HISTORY_DIRECTORY"
  - "_ERROR_HISTORY_DIRECTORY"

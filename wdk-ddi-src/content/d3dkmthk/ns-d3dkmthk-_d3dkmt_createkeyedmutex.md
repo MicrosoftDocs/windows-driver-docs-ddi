@@ -5,7 +5,7 @@ description: The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that 
 old-location: display\d3dkmt_createkeyedmutex.htm
 ms.assetid: ab028faf-d3f7-4267-81c7-7ababe845667
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_CREATEKEYEDMUTEX structure"]
+keywords: ["D3DKMT_CREATEKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX, D3DKMT_CREATEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6ab1fe5f-9963-46ab-946d-689d74c70d11.xml, _D3DKMT_CREATEKEYEDMUTEX, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX, display.d3dkmt_createkeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEKEYEDMUTEX"

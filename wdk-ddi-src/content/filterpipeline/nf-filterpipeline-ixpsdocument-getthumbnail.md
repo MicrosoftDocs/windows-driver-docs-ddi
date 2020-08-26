@@ -55,8 +55,8 @@ The <code>GetThumbnail</code> method gets the document thumbnail object.
 
 
 
-### -param ppThumbnail [out]
-
+### -param ppThumbnail 
+[out]
 The thumbnail object in the document.
 
 

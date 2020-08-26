@@ -60,15 +60,15 @@ The
 
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 An AF handle that NDIS supplied to the caller's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a> function.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The completion status for close AF notification.
      
 

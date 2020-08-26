@@ -56,12 +56,12 @@ req.typenames:
 
 
 
-### -param Config [out]
+### -param Config 
+[out]
 
+### -param TaskQueueId 
+[in]
 
-### -param TaskQueueId [in]
-
-
-### -param DispatchType [in]
-
+### -param DispatchType 
+[in]
 

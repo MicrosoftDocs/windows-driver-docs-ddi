@@ -56,8 +56,8 @@ The <b>RemoveTypeOptions</b> method turns off some type formatting options for o
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the type formatting options to turn off.  <i>Options</i> is a bit-set; the new value of the options will equal the old value AND NOT the value of <i>Options</i>.  For a description of the bit flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a>.
 
 

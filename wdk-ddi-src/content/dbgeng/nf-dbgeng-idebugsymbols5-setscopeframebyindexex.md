@@ -55,13 +55,13 @@ Sets the current frame by using an index.
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 An index by which to set the frame.
 
 
@@ -69,7 +69,7 @@ An index by which to set the frame.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

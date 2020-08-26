@@ -6,7 +6,7 @@ old-location: display\dd_getd3dquerycountdata.htm
 tech.root: display
 ms.assetid: 2e5877d9-a584-40fb-8e96-2ffae00df857
 ms.date: 05/10/2018
-keywords: ["_DD_GETD3DQUERYCOUNTDATA structure"]
+keywords: ["DD_GETD3DQUERYCOUNTDATA structure"]
 ms.keywords: DD_GETD3DQUERYCOUNTDATA, DD_GETD3DQUERYCOUNTDATA structure [Display Devices], _DD_GETD3DQUERYCOUNTDATA, d3dhal/DD_GETD3DQUERYCOUNTDATA, d3dstrct_d97e6eb4-0ecd-4459-9256-eee9bb36bb78.xml, display.dd_getd3dquerycountdata
 f1_keywords:
  - "d3dhal/DD_GETD3DQUERYCOUNTDATA"

@@ -4,7 +4,7 @@ title: _DXGKARG_GETMMIORANGECOUNT (dispmprt.h)
 description: Arguments used to get the memory mapped input output range count.
 ms.assetid: 0949fc6e-b58f-4e20-83dd-c8a8df68059b
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_GETMMIORANGECOUNT structure"]
+keywords: ["DXGKARG_GETMMIORANGECOUNT structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETMMIORANGECOUNT"
  - "_DXGKARG_GETMMIORANGECOUNT"

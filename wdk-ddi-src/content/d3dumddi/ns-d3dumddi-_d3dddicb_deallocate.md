@@ -6,7 +6,7 @@ old-location: display\d3dddicb_deallocate.htm
 tech.root: display
 ms.assetid: b1d92adf-6efc-4a30-bd5c-cbfe53a7c648
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_DEALLOCATE structure"]
+keywords: ["D3DDDICB_DEALLOCATE structure"]
 ms.keywords: D3DDDICB_DEALLOCATE, D3DDDICB_DEALLOCATE structure [Display Devices], D3D_param_Structs_4182b764-2e99-4146-a8ae-15620524f408.xml, _D3DDDICB_DEALLOCATE, d3dumddi/D3DDDICB_DEALLOCATE, display.d3dddicb_deallocate
 f1_keywords:
  - "d3dumddi/D3DDDICB_DEALLOCATE"

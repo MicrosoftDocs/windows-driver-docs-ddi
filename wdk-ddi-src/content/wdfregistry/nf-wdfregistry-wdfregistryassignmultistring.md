@@ -60,18 +60,18 @@ The <b>WdfRegistryAssignMultiString</b> method assigns a set of strings to a spe
 
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A handle to a registry-key object that represents an opened registry key.
 
 
-### -param ValueName [in]
+### -param ValueName 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
-
-### -param StringsCollection [in]
-
+### -param StringsCollection 
+[in]
 A handle to a framework collection object that represents a collection of framework string objects. 
 
 
@@ -241,7 +241,7 @@ if (col != NULL) {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

@@ -55,13 +55,13 @@ The <b>ChangerClassDeviceControl</b> routine is called by a changer minidriver t
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object of the device. 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the I/O request packet (IRP) that initiated the device control operation. 
 
 

@@ -60,33 +60,33 @@ The <b>WdfIoTargetSendWriteSynchronously</b> method builds a write request and s
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
 
-### -param Request [in, optional]
-
+### -param Request 
+[in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section.
 
 
-### -param InputBuffer [in, optional]
-
+### -param InputBuffer 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure that describes the buffer that contains data that will be written to the device. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section.
 
 
-### -param DeviceOffset [in, optional]
-
+### -param DeviceOffset 
+[in, optional]
 A pointer to a location that specifies a starting offset for the transfer. The I/O target (that is, the next-lower driver) defines how to use this value. For example, the drivers in a disk's driver stack might specify an offset from the beginning of the disk. The I/O target obtains this information in the <b>Parameters.Write.DeviceOffset</b> member of the request's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure. This pointer is optional. Most drivers set this pointer to <b>NULL</b>.
 
 
-### -param RequestOptions [in, optional]
-
+### -param RequestOptions 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section.
 
 
-### -param BytesWritten [out, optional]
-
+### -param BytesWritten 
+[out, optional]
 A pointer to a location that receives the number of bytes written, if the operation succeeds. This pointer is optional and can be <b>NULL</b>.
 
 

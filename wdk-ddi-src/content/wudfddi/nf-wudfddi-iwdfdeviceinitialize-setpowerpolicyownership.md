@@ -57,8 +57,8 @@ The <b>SetPowerPolicyOwnership</b> method sets the ownership of the power policy
 
 
 
-### -param fTrue [in]
-
+### -param fTrue 
+[in]
 A BOOL value that specifies whether to set power-policy ownership to the driver or remove ownership from the driver. <b>TRUE</b> indicates to set power-policy ownership to the driver; <b>FALSE</b> indicates to remove ownership from the driver.
 
 

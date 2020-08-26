@@ -55,8 +55,8 @@ The <b>CcRepinBcb</b> routine pins a buffer control block (BCB) an additional ti
 
 
 
-### -param Bcb [in]
-
+### -param Bcb 
+[in]
 Buffer control block (BCB) pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>.
 
 

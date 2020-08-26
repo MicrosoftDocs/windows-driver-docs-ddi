@@ -55,18 +55,18 @@ Gets a Unicode character string prefix for output lines.
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 The pointer to the buffer of the prefix.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The length of the buffer.
 
 
-### -param PrefixSize [out, optional]
-
+### -param PrefixSize 
+[out, optional]
 A pointer to the length of the prefix.
 
 
@@ -74,7 +74,7 @@ A pointer to the length of the prefix.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

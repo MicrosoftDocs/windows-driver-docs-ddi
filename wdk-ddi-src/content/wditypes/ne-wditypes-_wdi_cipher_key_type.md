@@ -6,7 +6,7 @@ old-location: netvista\wdi_cipher_key_type.htm
 tech.root: netvista
 ms.assetid: 09874F77-5A9C-4C98-996F-29BB90CAE4B6
 ms.date: 05/02/2018
-keywords: ["_WDI_CIPHER_KEY_TYPE enumeration"]
+keywords: ["WDI_CIPHER_KEY_TYPE enumeration"]
 ms.keywords: WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE_IGTK, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, _WDI_CIPHER_KEY_TYPE, netvista.wdi_cipher_key_type, netvista.wifi_cipher_key_type, wditypes/WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, wditypes/WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY
 f1_keywords:
  - "wditypes/WDI_CIPHER_KEY_TYPE"

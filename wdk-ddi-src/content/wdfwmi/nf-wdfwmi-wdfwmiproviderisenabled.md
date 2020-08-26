@@ -58,13 +58,13 @@ The <b>WdfWmiProviderIsEnabled</b> method determines if either data collection o
 
 
 
-### -param WmiProvider [in]
-
+### -param WmiProvider 
+[in]
 A handle to a WMI provider object that the driver obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiprovidercreate">WdfWmiProviderCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancegetprovider">WdfWmiInstanceGetProvider</a>.
 
 
-### -param ProviderControl [in]
-
+### -param ProviderControl 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ne-wdfwmi-_wdf_wmi_provider_control">WDF_WMI_PROVIDER_CONTROL</a>-typed value that specifies one of the types of control functions (data collection or event notification) that a WMI data provider can support.
 
 

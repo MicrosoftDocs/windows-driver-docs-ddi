@@ -70,18 +70,18 @@ void WRITE_REGISTER_BUFFER_ULONG64(
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a buffer into which an array of ULONG64 values is to be written.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of ULONG64 values to write to the register.
 
 

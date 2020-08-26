@@ -60,33 +60,33 @@ req.typenames:
 <p>A pointer to the RDBSS device object.</p>
 
 
-### -param OriginatorId [in]
-
+### -param OriginatorId 
+[in]
 The string indicating the caller generating the error.
 
 
-### -param EventId [in]
-
+### -param EventId 
+[in]
 The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The value indicating the status code of a routine indicating a failure.
 
 
-### -param DataBuffer [in]
-
+### -param DataBuffer 
+[in]
 A pointer to a data buffer to be added to the I/O error log structure.
 
 
-### -param DataBufferLength [in]
-
+### -param DataBufferLength 
+[in]
 The length of the data buffer to be added to the I/O error log structure.
 
 
-### -param LineNumber [in]
-
+### -param LineNumber 
+[in]
 The line number in the source code file where this failure occurred.
 
 

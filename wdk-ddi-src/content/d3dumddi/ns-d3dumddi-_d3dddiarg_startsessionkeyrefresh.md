@@ -6,7 +6,7 @@ old-location: display\d3dddiarg_startsessionkeyrefresh.htm
 tech.root: display
 ms.assetid: f7494ea8-e639-4466-9d56-07d164f57b5b
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_STARTSESSIONKEYREFRESH structure"]
+keywords: ["D3DDDIARG_STARTSESSIONKEYREFRESH structure"]
 ms.keywords: D3DDDIARG_STARTSESSIONKEYREFRESH, D3DDDIARG_STARTSESSIONKEYREFRESH structure [Display Devices], UMDisplayDriver_param_Structs_63d20fb4-b769-45bf-8e3f-badb7b8e52e2.xml, _D3DDDIARG_STARTSESSIONKEYREFRESH, d3dumddi/D3DDDIARG_STARTSESSIONKEYREFRESH, display.d3dddiarg_startsessionkeyrefresh
 f1_keywords:
  - "d3dumddi/D3DDDIARG_STARTSESSIONKEYREFRESH"

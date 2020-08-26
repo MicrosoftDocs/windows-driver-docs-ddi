@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pVc [in]
-
+### -param pVc 
+[in]
 A pointer to the virtual circuit structure to be disconnected. 
 
 

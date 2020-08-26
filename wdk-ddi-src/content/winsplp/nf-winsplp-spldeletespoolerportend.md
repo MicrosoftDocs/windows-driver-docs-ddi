@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pName [in]
+### -param pName 
+[in]
 
-
-### -param bDeletePort [in]
-
+### -param bDeletePort 
+[in]

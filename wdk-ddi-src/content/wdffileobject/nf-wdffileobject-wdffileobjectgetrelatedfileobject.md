@@ -57,8 +57,8 @@ The <b>WdfFileObjectGetRelatedFileObject</b> method retrieves the related file o
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A handle to a framework file object.
 
 

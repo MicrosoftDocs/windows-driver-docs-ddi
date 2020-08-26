@@ -56,13 +56,13 @@ Registers and deletes the client driver's registration with the power management
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
 
-### -param PoHandle [in]
-
+### -param PoHandle 
+[in]
 A handle that represents the registration of the device with PoFx. The client driver receives this handle from WDF in  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>  and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device">EvtDeviceWdmPrePoFxUnregisterDevice</a> callback functions.
 
 

@@ -60,13 +60,13 @@ The NDIS <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/n
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 The handle to the context area that the miniport driver allocated.
 
 
-### -param PauseParameters [in]
-
+### -param PauseParameters 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pause_parameters">NDIS_MINIPORT_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the miniport adapter.
 
 

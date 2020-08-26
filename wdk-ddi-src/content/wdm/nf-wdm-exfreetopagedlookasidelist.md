@@ -55,13 +55,13 @@ The <b>ExFreeToPagedLookasideList</b> routine returns a pageable entry to the gi
 
 
 
-### -param Lookaside [in, out]
-
+### -param Lookaside 
+[in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializepagedlookasidelist">ExInitializePagedLookasideList</a>, which the caller already initialized with <b>ExInitializePagedLookasideList</b>.
 
 
-### -param Entry [in]
-
+### -param Entry 
+[in]
 A pointer to the entry to be freed. The caller obtained this pointer from a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefrompagedlookasidelist">ExAllocateFromPagedLookasideList</a>. 
 
 

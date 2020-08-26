@@ -55,20 +55,20 @@ The <b>SePrivilegeCheck</b> routine determines whether a specified set of privil
 
 
 
-### -param RequiredPrivileges [in, out]
-
+### -param RequiredPrivileges 
+[in, out]
 Pointer to a PRIVILEGE_SET structure. The <b>Privilege</b> member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling <b>SePrivilegeCheck</b>, use the <b>Privilege</b> array to indicate the set of privileges to check. Set the <b>Control</b> member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled. 
 
 When <b>SePrivilegeCheck</b> returns, the <b>Attributes</b> member of each LUID_AND_ATTRIBUTES structure is set to SE_PRIVILEGE_USED_FOR_ACCESS if the corresponding privilege is enabled. 
 
 
-### -param SubjectSecurityContext [in]
-
+### -param SubjectSecurityContext 
+[in]
 Pointer to the subject's captured security context.
 
 
-### -param AccessMode [in]
-
+### -param AccessMode 
+[in]
 The access mode to use for the privilege check. Either <b>UserMode</b> or <b>KernelMode</b>. If <i>AccessMode</i> is set to <b>KernelMode</b>, then all privileges are marked as being possessed by the subject, and <b>SePrivilegeCheck</b> returns <b>TRUE</b>.
 
 

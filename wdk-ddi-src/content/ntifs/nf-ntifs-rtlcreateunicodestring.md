@@ -56,13 +56,13 @@ The <b>RtlCreateUnicodeString</b> routine creates a new counted Unicode string.
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 Pointer to the newly allocated and initialized Unicode string. 
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Pointer to a null-terminated Unicode string with which to initialize the new string.
 
 
@@ -95,7 +95,7 @@ For information about other string-handling routines, see the string manipulatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

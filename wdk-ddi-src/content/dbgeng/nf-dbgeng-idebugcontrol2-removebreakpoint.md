@@ -57,8 +57,8 @@ The <b>RemoveBreakpoint</b>  method removes a breakpoint.
 
 
 
-### -param Bp [in]
-
+### -param Bp 
+[in]
 Specifies an interface pointer to breakpoint to remove.
 
 

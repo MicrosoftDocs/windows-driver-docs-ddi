@@ -6,7 +6,7 @@ old-location: ifsk\__rxfillandinstallfastiodispatch.htm
 tech.root: ifsk
 ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
 ms.date: 04/16/2018
-keywords: ["__RxFillAndInstallFastIoDispatch function"]
+keywords: ["_RxFillAndInstallFastIoDispatch function"]
 ms.keywords: "__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml"
 f1_keywords:
  - "mrx/__RxFillAndInstallFastIoDispatch"
@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param RxDeviceObject [in]
-
+### -param RxDeviceObject 
+[in]
 A pointer to the RDBSS device object for this network redirector.
 
 
-### -param FastIoDispatch [in, out]
-
+### -param FastIoDispatch 
+[in, out]
 A pointer to the fast I/O dispatch table to fill in and use.
 
 
-### -param FastIoDispatchSize [in]
-
+### -param FastIoDispatchSize 
+[in]
 The size, in bytes, of the fast I/O dispatch table passed.
 
 

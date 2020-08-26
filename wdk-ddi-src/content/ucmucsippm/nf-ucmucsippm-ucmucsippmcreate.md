@@ -47,17 +47,17 @@ Creates a Platform Policy Manager (PPM) object.
 
 ## -parameters
 
-### -param WdfDevice [in]
-A handle to a framework device object that the client driver received in the previous call to [**WdfDeviceCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate).
+### -param WdfDevice 
+[in]A handle to a framework device object that the client driver received in the previous call to [**WdfDeviceCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate).
 
-### -param Config [in]
-A pointer to a caller-supplied [**UCMUCSI_PPM_CONFIG**](ns-ucmucsippm-_ucmucsi_ppm_config.md) structure that is initialized by calling [**UCMUCSI_PPM_CONFIG_INIT**](nf-ucmucsippm-ucmucsi_ppm_config_init.md). The **ConnectorCollectionHandle** member must be set to the handle retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
+### -param Config 
+[in]A pointer to a caller-supplied [**UCMUCSI_PPM_CONFIG**](ns-ucmucsippm-_ucmucsi_ppm_config.md) structure that is initialized by calling [**UCMUCSI_PPM_CONFIG_INIT**](nf-ucmucsippm-ucmucsi_ppm_config_init.md). The **ConnectorCollectionHandle** member must be set to the handle retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
 
-### -param Attributes [in]
-A pointer to a caller-supplied [WDF_OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that contains attributes for the new connector collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+### -param Attributes 
+[in]A pointer to a caller-supplied [WDF_OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that contains attributes for the new connector collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param PPMObject [out]
-A pointer to a location that receives a handle to the new PPM object.
+### -param PPMObject 
+[out]A pointer to a location that receives a handle to the new PPM object.
 
 ## -returns
 Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.

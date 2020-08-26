@@ -6,7 +6,7 @@ old-location: netvista\wwan_context_type.htm
 tech.root: netvista
 ms.assetid: 73a18050-fc89-41df-82ce-0f29c5716496
 ms.date: 05/02/2018
-keywords: ["_WWAN_CONTEXT_TYPE enumeration"]
+keywords: ["WWAN_CONTEXT_TYPE enumeration"]
 ms.keywords: "*PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanContextTypeCustom, WwanContextTypeInternet, WwanContextTypeMax, WwanContextTypeNone, WwanContextTypePurchase, WwanContextTypeVideoShare, WwanContextTypeVoice, WwanContextTypeVpn, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, _WWAN_CONTEXT_TYPE, netvista.wwan_context_type, wwan/PWWAN_CONTEXT_TYPE, wwan/WWAN_CONTEXT_TYPE, wwan/WwanContextTypeCustom, wwan/WwanContextTypeInternet, wwan/WwanContextTypeMax, wwan/WwanContextTypeNone, wwan/WwanContextTypePurchase, wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeVoice, wwan/WwanContextTypeVpn"
 f1_keywords:
  - "wwan/WWAN_CONTEXT_TYPE"

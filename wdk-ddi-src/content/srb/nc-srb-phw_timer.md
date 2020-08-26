@@ -56,8 +56,8 @@ The PHW_TIMER routine prototype declares a SCSI miniport driver's timer routine.
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 

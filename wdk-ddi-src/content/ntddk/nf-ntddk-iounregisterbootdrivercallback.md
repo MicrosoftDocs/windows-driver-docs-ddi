@@ -55,8 +55,8 @@ The <b>IoUnRegisterBootDriverCallback</b> routine unregisters a previously regis
 
 
 
-### -param CallbackHandle [in]
-
+### -param CallbackHandle 
+[in]
 A handle returned from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">IoRegisterBootDriverCallback</a>.
 
 

@@ -55,8 +55,8 @@ The <b>IoMarkIrpPending</b> routine marks the specified IRP, indicating that a d
 
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 Pointer to the IRP to be marked as pending.
 
 

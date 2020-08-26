@@ -62,8 +62,8 @@ A protocol or intermediate driver calls the
 
 
 
-### -param NdisOffloadHandle [in]
-
+### -param NdisOffloadHandle 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_offload_handle">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
@@ -71,16 +71,16 @@ A pointer to an
      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a single 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Only one 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure is associated with this
      NET_BUFFER_LIST structure.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 As one of the following values, the type of disconnect to be performed:
      
 

@@ -55,8 +55,8 @@ The <b>GetStackOffset2</b> method returns the current thread's current stack loc
 
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -102,8 +102,8 @@ Fetch register information from the current scope's register context.
  
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the location in the process's virtual address space of the current thread's current stack.
 
 

@@ -55,18 +55,18 @@ Subtracts one value of type <b>DWORD_PTR</b> from another.
 
 
 
-### -param dwMinuend [in]
-
+### -param dwMinuend 
+[in]
 The value from which <i>dwSubtrahend</i> is subtracted.
 
 
-### -param dwSubtrahend [in]
-
+### -param dwSubtrahend 
+[in]
 The value to subtract from <i>dwMinuend</i>.
 
 
-### -param pdwResult [out]
-
+### -param pdwResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

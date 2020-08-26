@@ -55,18 +55,18 @@ The <b>RtlUnicodeStringToAnsiString</b> routine converts a given Unicode string 
 
 
 
-### -param DestinationString [in, out]
-
+### -param DestinationString 
+[in, out]
 Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure to hold the converted ANSI string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string. 
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Pointer to the Unicode source string to be converted to ANSI.
 
 
-### -param AllocateDestinationString [in]
-
+### -param AllocateDestinationString 
+[in]
 <b>TRUE</b> if this routine is to allocate the buffer space for the <i>DestinationString</i>. If it does, the buffer must be deallocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeansistring">RtlFreeAnsiString</a>.
 
 
@@ -105,7 +105,7 @@ The translation is done in accord with the current system-locale information.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

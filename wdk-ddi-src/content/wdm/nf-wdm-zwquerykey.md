@@ -56,28 +56,28 @@ The <b>ZwQueryKey</b> routine provides information about the class of a registry
 
 
 
-### -param KeyHandle [in]
-
+### -param KeyHandle 
+[in]
 Handle to the registry key to obtain information about. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>. 
 
 
-### -param KeyInformationClass [in]
-
+### -param KeyInformationClass 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_information_class">KEY_INFORMATION_CLASS</a> value that determines the type of information returned in the <i>KeyInformation</i> buffer. 
 
 
-### -param KeyInformation [out, optional]
-
+### -param KeyInformation 
+[out, optional]
 Pointer to a caller-allocated buffer that receives the requested information.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the size, in bytes, of the <i>KeyInformation</i> buffer. 
 
 
-### -param ResultLength [out]
-
+### -param ResultLength 
+[out]
 Pointer to a variable that receives the size, in bytes, of the requested key information. If <b>ZwQueryKey</b> returns STATUS_SUCCESS, the variable contains the amount of data returned. If <b>ZwQueryKey</b> returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required buffer size. 
 
 

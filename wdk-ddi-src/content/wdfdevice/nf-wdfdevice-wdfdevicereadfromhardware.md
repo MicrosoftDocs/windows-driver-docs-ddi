@@ -58,23 +58,23 @@ Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 
 
-### -param Device [in]
+### -param Device 
+[in]
 
+### -param Type 
+[in]
 
-### -param Type [in]
+### -param Size 
+[in]
 
+### -param TargetAddress 
+[in]
 
-### -param Size [in]
+### -param Buffer 
+[out, optional]
 
-
-### -param TargetAddress [in]
-
-
-### -param Buffer [out, optional]
-
-
-### -param Count [in, optional]
-
+### -param Count 
+[in, optional]
 
 ## -see-also
 

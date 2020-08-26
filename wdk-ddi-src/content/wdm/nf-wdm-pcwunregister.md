@@ -49,9 +49,9 @@ The `PcwUnregister` function closes the specified counterset registration. Most 
 
 ## -parameters
 
-### -param Registration [in]
+### -param Registration
 
-A pointer to the registration being closed.
+[in A pointer to the registration being closed.
 
 ## -remarks
 
@@ -59,7 +59,7 @@ The `PcwUnregister` function closes the specified counterset registration. Insta
 
 Before the provider uses this function, the provider must call the [PcwRegister](nf-wdm-pcwregister.md) function to create a registration.
 
-### CTRPP-generated Unregister\*\*\* function
+### CTRPP-generated UnregisterXxx function
 
 Most developers do not need to call `PcwUnregister` directly. Instead, they will compile a manifest with the CTRPP tool and use the Unregister\*\*\* function from the CTRPP-generated header. The generated function will look like this:
 

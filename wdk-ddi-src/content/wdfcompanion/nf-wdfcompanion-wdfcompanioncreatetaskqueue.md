@@ -56,14 +56,14 @@ req.typenames:
 
 
 
-### -param Companion [in]
+### -param Companion 
+[in]
 
+### -param Config 
+[in]
 
-### -param Config [in]
+### -param QueueAttributes 
+[in, optional]
 
-
-### -param QueueAttributes [in, optional]
-
-
-### -param Queue [out, optional]
-
+### -param Queue 
+[out, optional]

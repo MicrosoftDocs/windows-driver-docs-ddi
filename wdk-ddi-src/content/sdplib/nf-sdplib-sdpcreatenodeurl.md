@@ -57,8 +57,8 @@ The Bluetooth
 
 
 
-### -param url [in]
-
+### -param url 
+[in]
 A pointer to the URL value that is used to initialize the SDP_NODE structure.
 
 
@@ -67,8 +67,8 @@ A pointer to the URL value that is used to initialize the SDP_NODE structure.
 An unsigned long integer value that holds the length of the URL.
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 A profile driver defined tag to associate with the node.
 
 

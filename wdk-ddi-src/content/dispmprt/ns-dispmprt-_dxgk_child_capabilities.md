@@ -6,7 +6,7 @@ old-location: display\dxgk_child_capabilities.htm
 tech.root: display
 ms.assetid: 6ab6a505-ad02-4dce-8061-bba13081208a
 ms.date: 05/10/2018
-keywords: ["_DXGK_CHILD_CAPABILITIES structure"]
+keywords: ["DXGK_CHILD_CAPABILITIES structure"]
 ms.keywords: "*PDXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES structure [Display Devices], DmStructs_886366a4-949a-4171-abcf-e318df848285.xml, PDXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES structure pointer [Display Devices], _DXGK_CHILD_CAPABILITIES, display.dxgk_child_capabilities, dispmprt/DXGK_CHILD_CAPABILITIES, dispmprt/PDXGK_CHILD_CAPABILITIES"
 f1_keywords:
  - "dispmprt/DXGK_CHILD_CAPABILITIES"

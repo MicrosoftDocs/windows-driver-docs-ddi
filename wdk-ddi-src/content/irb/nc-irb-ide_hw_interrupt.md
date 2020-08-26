@@ -55,8 +55,8 @@ The <b><i>IdeHwInterrupt</i></b> miniport driver routine handles interrupts from
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension.
 
 

@@ -6,7 +6,7 @@ old-location: bltooth\_brb_sco_close_channel.htm
 tech.root: bltooth
 ms.assetid: 1921cee1-411b-4fec-acfd-3380e84823b8
 ms.date: 04/27/2018
-keywords: ["_BRB_SCO_CLOSE_CHANNEL structure"]
+keywords: ["BRB_SCO_CLOSE_CHANNEL structure"]
 ms.keywords: "_BRB_SCO_CLOSE_CHANNEL, _BRB_SCO_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_close_channel, bth_structs_d031efa4-0a68-47c0-8344-e95c677661c9.xml, bthddi/_BRB_SCO_CLOSE_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_SCO_CLOSE_CHANNEL"

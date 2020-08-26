@@ -60,8 +60,8 @@ The <b>KeStackAttachProcess</b> routine attaches the current thread to the addre
 Pointer to the target process object. This parameter can be a PEPROCESS pointer returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentprocess">IoGetCurrentProcess</a> or [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess). 
 
 
-### -param ApcState [out]
-
+### -param ApcState 
+[out]
 An opaque pointer to a KAPC_STATE structure. The caller must allocate storage for this structure either from nonpaged pool or from the caller's own thread stack. 
 
 

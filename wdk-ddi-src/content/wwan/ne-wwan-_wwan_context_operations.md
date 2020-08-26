@@ -5,7 +5,7 @@ description: The WWAN_CONTEXT_OPERATIONS enumeration specifies the types of oper
 tech.root: netvista
 ms.assetid: 30c43b14-55c8-4f24-855d-23a3e017ad01
 ms.date: 08/22/2018
-keywords: ["_WWAN_CONTEXT_OPERATIONS enumeration"]
+keywords: ["WWAN_CONTEXT_OPERATIONS enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_OPERATIONS"
  - "_WWAN_CONTEXT_OPERATIONS"

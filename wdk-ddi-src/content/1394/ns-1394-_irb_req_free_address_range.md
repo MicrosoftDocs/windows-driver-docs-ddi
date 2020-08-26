@@ -6,7 +6,7 @@ old-location: ieee\irb_req_free_address_range.htm
 tech.root: IEEE
 ms.assetid: 18C1A210-6C6D-4BA7-AE62-81774DD62C58
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_FREE_ADDRESS_RANGE structure"]
+keywords: ["IRB_REQ_FREE_ADDRESS_RANGE structure"]
 ms.keywords: 1394/IRB_REQ_FREE_ADDRESS_RANGE, IEEE.irb_req_free_address_range, IRB_REQ_FREE_ADDRESS_RANGE, IRB_REQ_FREE_ADDRESS_RANGE structure [Buses], _IRB_REQ_FREE_ADDRESS_RANGE
 f1_keywords:
  - "1394/IRB_REQ_FREE_ADDRESS_RANGE"

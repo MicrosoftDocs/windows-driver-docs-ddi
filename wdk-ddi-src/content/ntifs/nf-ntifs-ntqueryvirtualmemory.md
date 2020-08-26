@@ -50,28 +50,28 @@ The **NtQueryVirtualMemory** routine determines the state, protection, and type 
 
 ## -parameters
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 Handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
 
-### -param BaseAddress [in, optional]
-
+### -param BaseAddress 
+[in, optional]
 The base address of the region of pages to be queried. This value is rounded down to the next host-page-address boundary.
 
-### -param MemoryInformationClass [in]
-
+### -param MemoryInformationClass 
+[in]
 The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class) value is **MemoryBasicInformation**.
 
-### -param MemoryInformation [out]
-
+### -param MemoryInformation 
+[out]
 Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information) structure.
 
-### -param MemoryInformationLength [in]
-
+### -param MemoryInformationLength 
+[in]
 Specifies the length, in bytes, of the buffer that *MemoryInformation* points to.
 
-### -param ReturnLength [out, optional]
-
+### -param ReturnLength 
+[out, optional]
 An optional pointer which, if specified, receives the number of bytes placed in the *MemoryInformation* buffer.
 
 ## -returns

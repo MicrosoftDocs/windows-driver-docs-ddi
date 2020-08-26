@@ -55,18 +55,18 @@ The <b>WRITE_REGISTER_BUFFER_UCHAR</b> routine writes a number of bytes from a b
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a buffer from which an array of UCHAR values is to be written.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of bytes to be written to the register. 
 
 

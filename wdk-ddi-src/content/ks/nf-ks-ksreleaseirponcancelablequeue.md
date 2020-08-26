@@ -56,13 +56,13 @@ The <b>KsReleaseIrpOnCancelableQueue</b> function releases an acquired IRP that 
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP to release.
 
 
-### -param DriverCancel [in, optional]
-
+### -param DriverCancel 
+[in, optional]
 Optional parameter that specifies the cancel routine to use. If this is <b>NULL</b>, the standard <b>KsCancelRoutine</b> is used.
 
 

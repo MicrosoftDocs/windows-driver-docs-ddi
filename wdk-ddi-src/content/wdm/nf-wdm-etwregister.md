@@ -55,23 +55,23 @@ The <b>EtwRegister</b> function registers the event provider and must be called 
 
 
 
-### -param ProviderId [in]
-
+### -param ProviderId 
+[in]
 A pointer to the event provider GUID. 
 
 
-### -param EnableCallback [in, optional]
-
+### -param EnableCallback 
+[in, optional]
 A pointer to an optional callback function. The callback function provides additional event filtering capabilities. The callback function is user-defined.
 
 
-### -param CallbackContext [in, optional]
-
+### -param CallbackContext 
+[in, optional]
 The function passes back the optional callback context when a callback is made. You can specify the optional context when you register a provider.  The <i>CallbackContext</i> parameter supports the scenarios in which one callback is shared by multiple providers, as in a C++ class. The <i>CallbackContext</i> provides a way to distinguish the target provider instances for the enable callback. 
 
 
-### -param RegHandle [out]
-
+### -param RegHandle 
+[out]
 A pointer to a variable that receives the provider registration handle if the function call is successful. 
 
 

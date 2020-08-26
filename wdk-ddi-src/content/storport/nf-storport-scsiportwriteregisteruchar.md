@@ -56,13 +56,13 @@ The <b>ScsiPortWriteRegisterUchar</b> routine transfers a unsigned byte value to
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the value to be written to the HBA's register.
 
 

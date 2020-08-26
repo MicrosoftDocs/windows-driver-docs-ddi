@@ -61,8 +61,8 @@ The
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
@@ -72,23 +72,23 @@ The handle to an offload-target allocated context area in which the offload targ
      MiniportInitializeEx</a> function.
 
 
-### -param MiniportOffloadContext [in]
-
+### -param MiniportOffloadContext 
+[in]
 A pointer to a memory location that contains a PVOID value. This PVOID value references the
      miniport offload context that contains the state object for the TCP connection to be disconnected. The
      offload target supplied this PVOID value when it offloaded the TCP connection state object.
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a single 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Only one 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure is associated with this
      NET_BUFFER_LIST structure.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 As one of the following values, the type of disconnect that the offload target must perform:
      
 

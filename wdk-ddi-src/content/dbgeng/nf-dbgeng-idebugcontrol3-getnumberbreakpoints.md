@@ -57,8 +57,8 @@ The <b>GetNumberBreakpoints</b> method returns the number of <a href="https://do
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of breakpoints.
 
 

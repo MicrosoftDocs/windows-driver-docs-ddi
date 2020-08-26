@@ -56,13 +56,13 @@ The <b>ZwQueryInformationTransaction</b> routine retrieves information about a s
 
 
 
-### -param TransactionHandle [in]
-
+### -param TransactionHandle 
+[in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a>. The handle must have TRANSACTION_QUERY_INFORMATION access to the object.
 
 
-### -param TransactionInformationClass [in]
-
+### -param TransactionInformationClass 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_transaction_information_class">TRANSACTION_INFORMATION_CLASS</a>-typed value that specifies the information to obtain. The value must be one of the following values:
 
 <ul>
@@ -82,18 +82,18 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_t
 The <b>TransactionFullInformation</b> value is not used with <b>ZwQueryInformationTransaction</b>.
 
 
-### -param TransactionInformation [out]
-
+### -param TransactionInformation 
+[out]
 A pointer to a caller-allocated buffer that receives the information that the <i>TransactionInformationClass</i> parameter specifies. The buffer's structure type must be <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_properties_information">TRANSACTION_PROPERTIES_INFORMATION</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a>.
 
 
-### -param TransactionInformationLength [in]
-
+### -param TransactionInformationLength 
+[in]
 The length, in bytes, of the buffer that the <i>TransactionInformation</i> parameter points to, including the length of any additional array elements that the caller has allocated to receive information.
 
 
-### -param ReturnLength [out, optional]
-
+### -param ReturnLength 
+[out, optional]
 A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>TransactionInformation</i> buffer. This parameter is optional and can be <b>NULL</b>. 
 
 

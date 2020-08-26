@@ -56,13 +56,13 @@ The<b> KsDeviceRegisterAdapterObject</b> function registers a DMA adapter object
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device for which to register an adapter object.
 
 
-### -param AdapterObject [in]
-
+### -param AdapterObject 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the DMA controller..
 
 
@@ -71,8 +71,8 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 
 
-### -param MappingTableStride [in]
-
+### -param MappingTableStride 
+[in]
 This parameter specifies how many bytes each entry in the mapping table requires. This must be at least <b>sizeof</b> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping">KSMAPPING</a>) and can be as large as necessary.
 
 Additional space can be used by the minidriver as context information.

@@ -55,28 +55,28 @@ The <b>GetFunctionEntryByOffset</b> method returns the function entry informatio
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies a location in the current process's virtual address space of the function's implementation.  This is the value returned in the <i>Offset</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getnextsymbolmatch">GetNextSymbolMatch</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getsymboloffset">IDebugSymbolGroup::GetSymbolOffset</a>, and the value of the <b>Offset</b> field in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_entry">DEBUG_SYMBOL_ENTRY</a> structure.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies a bit-flag which alters the behavior of this method.  If the bit DEBUG_GETFNENT_RAW_ENTRY_ONLY is not set, the engine will provide artificial entries for well known cases.  If this bit is set the artificial entries are not used.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the function entry information.  If the effective processor is an x86, this is the FPO_DATA structure for the function.  For all other architectures, this is the IMAGE_FUNCTION_ENTRY structure for that architecture.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size of the buffer <i>Buffer</i>.
 
 
-### -param BufferNeeded [out, optional]
-
+### -param BufferNeeded 
+[out, optional]
 Specifies the size of the function entry information.
 
 

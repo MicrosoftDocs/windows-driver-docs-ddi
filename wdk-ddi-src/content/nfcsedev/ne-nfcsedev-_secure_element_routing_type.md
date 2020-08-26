@@ -6,7 +6,7 @@ old-location: nfpdrivers\_secure_element_routing_type.htm
 tech.root: nfpdrivers
 ms.assetid: 1420D957-546E-4795-A545-B098C411CCA5
 ms.date: 02/15/2018
-keywords: ["_SECURE_ELEMENT_ROUTING_TYPE enumeration"]
+keywords: ["SECURE_ELEMENT_ROUTING_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid, RoutingTypeProtocol, RoutingTypeTech, SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/RoutingTypeAid, nfcsedev/RoutingTypeProtocol, nfcsedev/RoutingTypeTech, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_ROUTING_TYPE"

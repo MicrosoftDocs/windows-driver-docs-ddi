@@ -55,23 +55,23 @@ The <b>SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</b> function returns an <a href="h
 
 
 
-### -param Direction [in]
-
+### -param Direction 
+[in]
 The direction of the transfer. The function writes this value to the <b>Direction</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
-### -param DelayInUs [in]
-
+### -param DelayInUs 
+[in]
 An optional delay in microseconds. The function writes this value to the <b>DelayInUs</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a data buffer. The function writes this value to the <b>Buffer.Simple.Buffer</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure. For more information, see the description of the <b>Buffer</b> member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer_list_entry">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>.
 
 
-### -param BufferCb [in]
-
+### -param BufferCb 
+[in]
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>. The function writes this value to the <b>Buffer.Simple.BufferCb</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure. For more information, see the description of the <b>BufferCb</b> member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer_list_entry">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>.
 
 

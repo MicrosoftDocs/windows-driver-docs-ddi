@@ -50,16 +50,16 @@ A minifilter driver calls the **FltCheckOplockEx** routine to synchronize the ca
 
 ## -parameters
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [FltInitializeOplock](nf-fltkernel-fltinitializeoplock.md).
 
-### -param CallbackData [in]
-
+### -param CallbackData 
+[in]
 A pointer to the callback data [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)structure for the I/O operation.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask for the associated file I/O operation. A minifilter driver sets bits to specify the behavior of **FltCheckOplockEx**. The *Flags* parameter has the following options:
 
 #### OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
@@ -78,12 +78,12 @@ Specifies that [FsRtlCheckOplockEx](https://docs.microsoft.com/windows-hardware/
 
 Allows all opportunistic lock breaks to proceed regardless of the opportunistic lock key.
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to caller-defined context information to be passed to the callback routines that *WaitCompletionRoutine* and *PrePostCallbackDataRoutine* point to. The Filter Manager treats this information as opaque.
 
-### -param WaitCompletionRoutine [in, optional]
-
+### -param WaitCompletionRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, the Filter Manager calls this routine when the oplock break is completed. This parameter is optional and can be **NULL**. If it is **NULL**, the caller is put into a wait state until the oplock break is completed.
 
 This routine is declared as follows:
@@ -106,8 +106,8 @@ A pointer to the callback data structure for the I/O operation.
 
 A context information pointer that was passed in the *Context* parameter to **FltCheckOplockEx**.
 
-### -param PrePostCallbackDataRoutine [in, optional]
-
+### -param PrePostCallbackDataRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be **NULL**.
 
 This routine is declared as follows:

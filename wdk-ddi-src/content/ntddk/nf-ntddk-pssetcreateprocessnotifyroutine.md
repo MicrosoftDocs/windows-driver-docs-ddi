@@ -55,13 +55,13 @@ The <b>PsSetCreateProcessNotifyRoutine</b> routine adds a driver-supplied callba
 
 
 
-### -param NotifyRoutine [in]
-
+### -param NotifyRoutine 
+[in]
 Specifies the entry point of a caller-supplied process-creation callback routine. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_process_notify_routine">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
 
 
-### -param Remove [in]
-
+### -param Remove 
+[in]
 Indicates whether the routine specified by <i>NotifyRoutine</i> should be added to or removed from the system's list of notification routines. If <b>FALSE</b>, the specified routine is added to the list. If <b>TRUE</b>, the specified routine is removed from the list.
 
 

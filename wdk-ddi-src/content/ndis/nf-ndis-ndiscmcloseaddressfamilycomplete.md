@@ -58,13 +58,13 @@ req.typenames:
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The call manager sets this to NDIS_STATUS_SUCCESS.
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 Specifies the NDIS-supplied handle passed to the call manager's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function when this
      client originally opened the address family.

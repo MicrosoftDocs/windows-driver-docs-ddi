@@ -5,7 +5,7 @@ description: A NET_PACKET_LAYOUT structure describes the start of each protocol 
 tech.root: netvista
 ms.assetid: 71300205-2332-4127-8622-86390FE54BBD
 ms.date: 09/27/2019
-keywords: ["_NET_PACKET_LAYOUT structure"]
+keywords: ["NET_PACKET_LAYOUT structure"]
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
  - "RegisterOpRegionHandler"

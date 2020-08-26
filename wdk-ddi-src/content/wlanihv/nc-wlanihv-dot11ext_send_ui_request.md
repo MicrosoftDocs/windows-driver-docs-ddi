@@ -71,16 +71,16 @@ DWORD WINAPI * Dot11ExtSendUIRequest(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param pIhvUIRequest [in]
-
+### -param pIhvUIRequest 
+[in]
 A pointer to a caller-allocated buffer, formatted as a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">
      DOT11EXT_IHV_UI_REQUEST</a> structure.

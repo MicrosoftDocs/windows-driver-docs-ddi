@@ -55,8 +55,8 @@ Sets a wide string prefix for output lines.
 
 
 
-### -param Prefix [in, optional]
-
+### -param Prefix 
+[in, optional]
 The pointer to a Unicode character prefix string.
 
 
@@ -64,7 +64,7 @@ The pointer to a Unicode character prefix string.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

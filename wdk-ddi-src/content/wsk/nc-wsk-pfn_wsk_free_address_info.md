@@ -58,8 +58,8 @@ The
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 [in] A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
@@ -68,8 +68,8 @@ The
      WskCaptureProviderNPI</a> function.
 
 
-### -param AddrInfo [in]
-
+### -param AddrInfo 
+[in]
 [in] A pointer to a linked list of one or more <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that contain response
      information about the host. This pointer was returned through the 
      <i>Result</i> parameter of the 

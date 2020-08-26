@@ -57,13 +57,13 @@ A driver's <i>EvtDeviceD0Exit</i> event callback function performs operations th
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param TargetState [in]
-
+### -param TargetState 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the device power state that the device is about to enter.
 
 

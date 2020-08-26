@@ -56,20 +56,20 @@ The <b>ZwFreeVirtualMemory</b> routine releases, decommits, or both, a region of
 
 
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 A handle for the process in whose context the pages to be freed reside. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
 
-### -param BaseAddress [in, out]
-
+### -param BaseAddress 
+[in, out]
 A pointer to a variable that will receive the virtual address of the freed region of pages. 
 
 If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> when the region was reserved.
 
 
-### -param RegionSize [in, out]
-
+### -param RegionSize 
+[in, out]
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
 If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, the variable pointed to by <i>RegionSize</i> must be zero. <b>ZwFreeVirtualMemory</b> frees the entire region that was reserved in the initial allocation call to <b>ZwAllocateVirtualMemory</b>.
@@ -94,8 +94,8 @@ The MEM_DECOMMIT flag is set.
 </li>
 </ul>
 
-### -param FreeType [in]
-
+### -param FreeType 
+[in]
 A bitmask that contains flags that describe the type of free operation that <b>ZwFreeVirtualMemory</b> will perform for the specified region of pages. The possible values are listed in the following table.
 
 <table>

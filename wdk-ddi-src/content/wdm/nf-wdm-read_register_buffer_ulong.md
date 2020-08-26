@@ -55,18 +55,18 @@ The <b>READ_REGISTER_BUFFER_ULONG</b> routine reads a number of ULONG values fro
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a buffer into which an array of ULONG values is read.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of ULONG values to be read into the buffer. 
 
 

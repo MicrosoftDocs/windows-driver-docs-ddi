@@ -55,13 +55,13 @@ A streaming minidriver's <i>KStrCorrelatedTime</i> routine is called to retrieve
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
 
-### -param SystemTime [out]
-
+### -param SystemTime 
+[out]
 Specifies a pointer to a variable that receives the performance counter frequency.
 
 

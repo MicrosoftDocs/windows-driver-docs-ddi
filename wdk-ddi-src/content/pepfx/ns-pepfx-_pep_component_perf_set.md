@@ -6,7 +6,7 @@ old-location: kernel\pep_component_perf_set.htm
 tech.root: kernel
 ms.assetid: E4EB8052-545C-46AE-A879-1F216B7FD20B
 ms.date: 04/30/2018
-keywords: ["_PEP_COMPONENT_PERF_SET structure"]
+keywords: ["PEP_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_SET, PPEP_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_SET, kernel.pep_component_perf_set, pepfx/PEP_COMPONENT_PERF_SET, pepfx/PPEP_COMPONENT_PERF_SET"
 f1_keywords:
  - "pepfx/PEP_COMPONENT_PERF_SET"
@@ -57,7 +57,7 @@ The <b>PEP_COMPONENT_PERF_SET</b> structure describes the performance states (P-
 
 ### -field Name
 
-An optional string that describes the device property controlled by this P-state set.  For example, this string might be "Clock frequency" or "Memory bandwidth". If no such string is available for this P-state, the <b>Name</b> member is set to NULL. Otherwise, this member contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the string.
+An optional string that describes the device property controlled by this P-state set.  For example, this string might be "Clock frequency" or "Memory bandwidth". If no such string is available for this P-state, the <b>Name</b> member is set to NULL. Otherwise, this member contains a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the string.
 
 
 ### -field Flags
@@ -184,7 +184,7 @@ Device drivers use the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

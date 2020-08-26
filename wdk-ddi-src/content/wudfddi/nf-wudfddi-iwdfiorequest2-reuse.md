@@ -57,8 +57,8 @@ The <b>Reuse</b> method reinitializes a framework request object so that it can 
 
 
 
-### -param hrNewStatus [in]
-
+### -param hrNewStatus 
+[in]
 An HRESULT-typed status value that the framework assigns to the request.
 
 

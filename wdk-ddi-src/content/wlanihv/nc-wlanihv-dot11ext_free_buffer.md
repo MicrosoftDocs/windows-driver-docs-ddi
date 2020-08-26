@@ -68,8 +68,8 @@ VOID WINAPI * Dot11ExtFreeBuffer(
 
 
 
-### -param pvMemory [in, optional]
-
+### -param pvMemory 
+[in, optional]
 A pointer to the buffer to be freed. If the value of
      <i>pvMemory</i> is <b>NULL</b>, the
      <b>Dot11ExtFreeBuffer</b> function returns immediately.

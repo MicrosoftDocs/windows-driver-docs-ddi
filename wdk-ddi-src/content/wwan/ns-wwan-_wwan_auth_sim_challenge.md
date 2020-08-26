@@ -6,7 +6,7 @@ old-location: netvista\wwan_auth_sim_challenge.htm
 tech.root: netvista
 ms.assetid: E07F3ED0-2F20-40D9-AAAE-49C81168B998
 ms.date: 05/02/2018
-keywords: ["_WWAN_AUTH_SIM_CHALLENGE structure"]
+keywords: ["WWAN_AUTH_SIM_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_CHALLENGE, netvista.wwan_auth_sim_challenge, wwan/PWWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE"
 f1_keywords:
  - "wwan/WWAN_AUTH_SIM_CHALLENGE"

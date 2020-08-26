@@ -55,13 +55,13 @@ The <i>EvtSerCx2PioTransmitPurgeFifo</i> event callback function is called by ve
 
 
 
-### -param PioTransmit [in]
-
+### -param PioTransmit 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
 
-### -param BytesAlreadyTransmittedToHardware [in]
-
+### -param BytesAlreadyTransmittedToHardware 
+[in]
 The number of bytes that have already been loaded into the transmit FIFO during the current PIO-transmit transaction. This parameter is the sum of all the bytes transferred in previous calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_write_buffer">EvtSerCx2PioTransmitWriteBuffer</a> event callback function that are part of this transaction.
 
 

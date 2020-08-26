@@ -59,8 +59,8 @@ The <b>SetInputCallbacks</b> method registers an <a href="https://docs.microsoft
 
 
 
-### -param Callbacks [in, optional]
-
+### -param Callbacks 
+[in, optional]
 Specifies the interface pointer to the input callbacks object to register with this client.
 
 

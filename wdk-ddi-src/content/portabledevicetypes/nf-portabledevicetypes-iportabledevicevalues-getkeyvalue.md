@@ -59,13 +59,13 @@ Retrieves a <b>PROPERTYKEY</b> value (type VT_UNKNOWN) that is specified by a ke
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
 
-### -param pValue [out]
-
+### -param pValue 
+[out]
 Pointer to the retrieved <b>PROPERTYKEY</b> value.
 
 

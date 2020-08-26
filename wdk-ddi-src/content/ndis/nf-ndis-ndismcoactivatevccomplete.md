@@ -58,15 +58,15 @@ req.typenames:
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the final status of the activate-VC operation, which can be NDIS_STATUS_SUCCESS or any
      NDIS_STATUS_
      <i>XXX except</i> NDIS_STATUS_PENDING.
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
@@ -74,8 +74,8 @@ Specifies the handle identifying the VC. The caller obtained this handle from it
      MiniportCoActivateVc</a> function.
 
 
-### -param CallParameters [in]
-
+### -param CallParameters 
+[in]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, supplied by the call
      manager, specifying the call and media parameters for the VC activation.

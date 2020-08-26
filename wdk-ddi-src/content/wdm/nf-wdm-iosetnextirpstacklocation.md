@@ -55,8 +55,8 @@ The <b>IoSetNextIrpStackLocation</b> routine sets the IRP stack location in a dr
 
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 Pointer to the IRP whose stack location is to be set. 
 
 

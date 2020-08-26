@@ -55,13 +55,13 @@ A file system filter driver (legacy filter) or a minifilter driver can register 
 
 
 
-### -param EcpContext [in, out]
-
+### -param EcpContext 
+[in, out]
 An ECP context pointer that was returned by the routine that allocated the ECP context structure.
 
 
-### -param EcpType [in]
-
+### -param EcpType 
+[in]
 A pointer to a GUID that was passed to the routine that allocated the ECP context structure, that indicates the extra create parameter type.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers">Using GUIDs in Drivers</a>.
 
 

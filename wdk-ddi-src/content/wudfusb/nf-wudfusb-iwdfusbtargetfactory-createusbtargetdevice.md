@@ -57,8 +57,8 @@ The <b>CreateUsbTargetDevice</b> method creates a USB device object that is also
 
 
 
-### -param ppDevice [out]
-
+### -param ppDevice 
+[out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a> interface for the USB target device object.
 
 

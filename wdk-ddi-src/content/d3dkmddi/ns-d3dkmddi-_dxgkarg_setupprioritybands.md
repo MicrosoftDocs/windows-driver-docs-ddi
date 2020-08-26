@@ -4,7 +4,7 @@ title: _DXGKARG_SETUPPRIORITYBANDS (d3dkmddi.h)
 description: Arguments used in a call to DxgkddiSetupPriorityBands.
 ms.assetid: 971b5d7f-5423-476a-a89d-b1d3f7a84301
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_SETUPPRIORITYBANDS structure"]
+keywords: ["DXGKARG_SETUPPRIORITYBANDS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SETUPPRIORITYBANDS"
  - "_DXGKARG_SETUPPRIORITYBANDS"

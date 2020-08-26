@@ -56,13 +56,13 @@ The <b>USBD_UrbAllocate</b> routine allocates a USB Request Block (URB).
 
 
 
-### -param USBDHandle [in]
-
+### -param USBDHandle 
+[in]
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
 
-### -param Urb [out]
-
+### -param Urb 
+[out]
 Pointer to the newly allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure. All members of the structure are set to zero. The client driver must free the URB when the driver has finished using it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urbfree">USBD_UrbFree</a>.
 
 

@@ -57,13 +57,13 @@ The <b>GetNumberModules</b> method returns the number of <a href="https://docs.m
 
 
 
-### -param Loaded [out]
-
+### -param Loaded 
+[out]
 Receives the number of loaded modules in the current process's module list.
 
 
-### -param Unloaded [out]
-
+### -param Unloaded 
+[out]
 Receives the number of unloaded modules in the current process's module list. This number will be zero if the version of Microsoft Windows running on the target computer does not track unloaded modules.
 
 

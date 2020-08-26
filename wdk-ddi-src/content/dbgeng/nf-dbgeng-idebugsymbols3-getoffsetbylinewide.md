@@ -55,18 +55,18 @@ The <b>GetOffsetByLineWide</b>  method returns the location of the instruction t
 
 
 
-### -param Line [in]
-
+### -param Line 
+[in]
 Specifies the line number in the source file.
 
 
-### -param File [in]
-
+### -param File 
+[in]
 Specifies the file name of the source file.
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the location in the target's virtual address space of an instruction for the specified line.
 
 

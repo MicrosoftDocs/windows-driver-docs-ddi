@@ -56,8 +56,8 @@ The <b>KsFreeObjectHeader</b> function cleans up and frees a previously allocate
 
 
 
-### -param Header [in]
-
+### -param Header 
+[in]
 Points to the object header to free.
 
 

@@ -60,8 +60,8 @@ The <b>VideoPortReadPortBufferUshort</b> function reads a number of USHORT value
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a buffer into which an array of USHORT values is written.
 
 

@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param ServerPort [in]
-
+### -param ServerPort 
+[in]
 Opaque port handle for the server port to be closed. This parameter is required and cannot be <b>NULL</b>. 
 
 

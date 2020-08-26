@@ -55,18 +55,18 @@ The <b>StorPortGetStartIoPerfParams</b> routine places the performance parameter
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 The SRB pointer that was passed in to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine that was supplied by the miniport driver. This parameter must not be <b>NULL</b>.
 
 
-### -param StartIoPerfParams [in, out]
-
+### -param StartIoPerfParams 
+[in, out]
 A pointer to a STARTIO_PERFORMANCE_PARAMETERS structure that the miniport driver supplies.  The miniport driver needs to set only the size of the allocated structure, as Storport will set the other members. This parameter must not be <b>NULL</b>.
 
 

@@ -50,6 +50,6 @@ Frees the value that is retrieved using the [GetJobNamedPropertyValue](https://d
 
 ## -parameters
 
-### -param pValue [in, out]
-
+### -param pValue 
+[in, out]
 Pointer to **PrintPropertyValue** structure that is returned from [GetJobNamedPropertyValue](https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-getjobnamedpropertyvalue).

@@ -55,18 +55,18 @@ The <b>RtlFindLastBackwardRunClear</b> routine searches a given bitmap for the p
 
 
 
-### -param BitMapHeader [in]
-
+### -param BitMapHeader 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine. 
 
 
-### -param FromIndex [in]
-
+### -param FromIndex 
+[in]
 Specifies a zero-based bit position at which to start looking for a clear run of bits.
 
 
-### -param StartingRunIndex [out]
-
+### -param StartingRunIndex 
+[out]
 Pointer to a variable in which the starting index of the clear run found in the bitmap is returned. This is a zero-based value indicating the bit position of the first clear bit in the run preceding the given <i>FromIndex</i>. Its value is meaningless if <b>RtlFindLastBackwardRunClear</b> cannot find a run of clear bits. 
 
 

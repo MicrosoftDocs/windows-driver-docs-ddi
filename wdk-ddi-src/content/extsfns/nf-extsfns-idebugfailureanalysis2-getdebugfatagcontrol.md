@@ -55,8 +55,8 @@ The <b>GetDebugFATagControl</b> method gets a pointer to an <a href="https://doc
 
 
 
-### -param FATagControl [out]
-
+### -param FATagControl 
+[out]
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a> interface.
 
 

@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param AdapterObject [in]
-
+### -param AdapterObject 
+[in]
 The adapter object that is hosting the newly arrived monitor
 
 
-### -param pOutArgs [out]
-
+### -param pOutArgs 
+[out]
 Output arguments to the function
 
 

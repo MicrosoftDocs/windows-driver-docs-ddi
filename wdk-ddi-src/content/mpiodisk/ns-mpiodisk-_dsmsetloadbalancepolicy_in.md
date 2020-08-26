@@ -6,7 +6,7 @@ old-location: storage\dsmsetloadbalancepolicy_in.htm
 tech.root: storage
 ms.assetid: 1a249c0e-1b8d-4c50-9b01-03bfe84e0937
 ms.date: 03/29/2018
-keywords: ["_DsmSetLoadBalancePolicy_IN structure"]
+keywords: ["DsmSetLoadBalancePolicy_IN structure"]
 ms.keywords: "*PDsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN structure [Storage Devices], PDsmSetLoadBalancePolicy_IN, PDsmSetLoadBalancePolicy_IN structure pointer [Storage Devices], _DsmSetLoadBalancePolicy_IN, mpiodisk/DsmSetLoadBalancePolicy_IN, mpiodisk/PDsmSetLoadBalancePolicy_IN, storage.dsmsetloadbalancepolicy_in, structs-scsibus_f8d1e2b3-b630-45df-91f7-d564910f83d0.xml"
 f1_keywords:
  - "mpiodisk/DsmSetLoadBalancePolicy_IN"

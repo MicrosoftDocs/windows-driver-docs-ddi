@@ -55,13 +55,13 @@ For more information, see  the <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
-### -param SourceString [in, optional]
-
+### -param SourceString 
+[in, optional]
 For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
@@ -114,7 +114,7 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

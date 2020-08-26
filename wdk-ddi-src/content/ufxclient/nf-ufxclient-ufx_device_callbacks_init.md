@@ -55,8 +55,8 @@ The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro initializes the <a href="https://docs
 
 
 
-### -param Callbacks [out]
-
+### -param Callbacks 
+[out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure.
 
 

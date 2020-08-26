@@ -6,7 +6,7 @@ old-location: ifsk\__rxsynchronizeblockingoperations.htm
 tech.root: ifsk
 ms.assetid: e957f8bc-2ce3-4b9c-819e-ee068b39c4a0
 ms.date: 04/16/2018
-keywords: ["__RxSynchronizeBlockingOperations function"]
+keywords: ["_RxSynchronizeBlockingOperations function"]
 ms.keywords: "__RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations function [Installable File System Drivers], ifsk.__rxsynchronizeblockingoperations, rxcontx/__RxSynchronizeBlockingOperations, rxref_d35d9118-8942-402e-8c78-3168a2d9ad73.xml"
 f1_keywords:
  - "rxcontx/__RxSynchronizeBlockingOperations"
@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT of the operation being synchronized. 
 
 
-### -param Fcb [in]
-
+### -param Fcb 
+[in]
 A pointer to the FCB. 
 
 
-### -param BlockingIoQ [in, out]
-
+### -param BlockingIoQ 
+[in, out]
 A pointer to the LIST_ENTRY for the queue. 
 
 
-### -param DropFcbLock [in]
-
+### -param DropFcbLock 
+[in]
 A Boolean value that indicates if the FCB resource should be released. If this parameter is <b>TRUE</b>, then the FCB resource will be released. 
 
 

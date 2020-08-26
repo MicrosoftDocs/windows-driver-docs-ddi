@@ -55,13 +55,13 @@ An <i>AcceptDeviceNotification</i> event callback routine handles device power m
 
 
 
-### -param Notification [in]
-
+### -param Notification 
+[in]
 The DPM notification ID. This parameter specifies the type of DPM notification that PoFx is sending. For a list of DPM notification IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Device power management (DPM) notifications</a>.
 
 
-### -param Data [in, out, optional]
-
+### -param Data 
+[in, out, optional]
 A pointer to a PoFx-allocated structure that contains the input and/or output data for this notification. The type of this structure depends on the notification ID specified by <i>Notification</i>. For a list of the structure types that are defined for the various DPM notification IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Device power management (DPM) notifications</a>.
 
 

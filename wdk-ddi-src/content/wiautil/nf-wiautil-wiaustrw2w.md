@@ -55,13 +55,13 @@ The <b>wiauStrW2W</b> function copies a Unicode string to another Unicode string
 
 
 
-### -param pwszSrc [in]
-
+### -param pwszSrc 
+[in]
 Points to the Unicode string to be copied.
 
 
-### -param pwszDst [out]
-
+### -param pwszDst 
+[out]
 Pointer to a memory location that receives the copied string.
 
 

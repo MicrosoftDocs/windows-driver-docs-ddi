@@ -4,7 +4,7 @@ title: _D3DDDI_ALLOCATIONINFO2 (d3dukmdt.h)
 description: The D3DDDI_ALLOCATIONINFO2 structure describes an allocation.
 ms.assetid: 24bfa783-7a23-4885-9336-7f9102d53b3e
 ms.date: 10/19/2018
-keywords: ["_D3DDDI_ALLOCATIONINFO2 structure"]
+keywords: ["D3DDDI_ALLOCATIONINFO2 structure"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_ALLOCATIONINFO2"
  - "_D3DDDI_ALLOCATIONINFO2"

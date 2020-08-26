@@ -58,23 +58,23 @@ The <b>WriteDumpFile2</b> method creates a user-mode or kernel-modecrash dump fi
 
 
 
-### -param DumpFile [in]
-
+### -param DumpFile 
+[in]
 Specifies the name of the dump file to create.  <i>DumpFile</i> must include the file name extension.  <i>DumpFile</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger was started.
 
 
-### -param Qualifier [in]
-
+### -param Qualifier 
+[in]
 Specifies the type of dump file to create.  For possible values, see <a href="https://docs.microsoft.com/previous-versions/ff541472(v=vs.85)">DEBUG_DUMP_XXX</a>.
 
 
-### -param FormatFlags [in]
-
+### -param FormatFlags 
+[in]
 Specifies flags that determine the format of the dump file and--for user-mode minidumps--what information to include in the file.  For details, see Remarks.
 
 
-### -param Comment [in, optional]
-
+### -param Comment 
+[in, optional]
 Specifies a comment string to be included in the crash dump file.  This string is displayed in the debugger console when the dump file is loaded.  Some dump file formats do not support the storing of comment strings.
 
 

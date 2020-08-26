@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: c0ef8f34-9276-4372-a99d-9541a943b6e2
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_DXGK_VGPU_CAPABILITY_TYPE enumeration"]
+keywords: ["DXGK_VGPU_CAPABILITY_TYPE enumeration"]
 f1_keywords:
  - "dispmprt/_DXGK_VGPU_CAPABILITY_TYPE"
  - "_DXGK_VGPU_CAPABILITY_TYPE"

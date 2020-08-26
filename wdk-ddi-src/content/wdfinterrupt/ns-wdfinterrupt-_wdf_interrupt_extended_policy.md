@@ -6,7 +6,7 @@ old-location: wdf\wdf_interrupt_extended_policy.htm
 tech.root: wdf
 ms.assetid: 28cc79e8-7078-4b29-ab2a-2eeca5c5b8b3
 ms.date: 02/26/2018
-keywords: ["_WDF_INTERRUPT_EXTENDED_POLICY structure"]
+keywords: ["WDF_INTERRUPT_EXTENDED_POLICY structure"]
 ms.keywords: "*PWDF_INTERRUPT_EXTENDED_POLICY, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml, PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY structure, _WDF_INTERRUPT_EXTENDED_POLICY, kmdf.wdf_interrupt_extended_policy, wdf.wdf_interrupt_extended_policy, wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY"
 f1_keywords:
  - "wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY"

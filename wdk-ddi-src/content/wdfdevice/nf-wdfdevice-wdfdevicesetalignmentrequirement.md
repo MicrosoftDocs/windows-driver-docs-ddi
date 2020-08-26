@@ -58,13 +58,13 @@ The <b>WdfDeviceSetAlignmentRequirement</b> method registers the driver's prefer
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param AlignmentRequirement [in]
-
+### -param AlignmentRequirement 
+[in]
 The hardware-dependent alignment requirement for a data buffer. This value must be one less than the alignment boundary. For example, you can specify 15 for a 16-byte alignment boundary and 31 for a 32-byte alignment boundary. You can also use one of the FILE_<i>Xxxx</i>_ALIGNMENT constants that are defined in <i>Wdm.h</i>, for example:
 
 ```

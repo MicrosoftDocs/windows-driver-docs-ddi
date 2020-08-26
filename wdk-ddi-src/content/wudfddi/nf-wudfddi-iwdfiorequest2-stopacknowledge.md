@@ -57,8 +57,8 @@ The <b>StopAcknowledge</b> method informs the framework that the driver has stop
 
 
 
-### -param Requeue [in]
-
+### -param Requeue 
+[in]
 A Boolean value that, if <b>TRUE</b>, causes the framework to requeue the request into the queue so that the framework will deliver it to the driver again. If <b>FALSE</b>, the framework does not requeue the request. For more information, see the following Remarks section.
 
 

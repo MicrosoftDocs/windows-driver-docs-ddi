@@ -6,7 +6,7 @@ old-location: netvista\offload_algo_info.htm
 tech.root: netvista
 ms.assetid: 119a8c88-f181-40f5-8a12-5d663c5a1534
 ms.date: 05/02/2018
-keywords: ["_OFFLOAD_ALGO_INFO structure"]
+keywords: ["OFFLOAD_ALGO_INFO structure"]
 ms.keywords: "*POFFLOAD_ALGO_INFO, 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_ALGO_INFO, netvista.offload_algo_info, ntddndis/OFFLOAD_ALGO_INFO, ntddndis/POFFLOAD_ALGO_INFO"
 f1_keywords:
  - "ntddndis/OFFLOAD_ALGO_INFO"

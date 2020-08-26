@@ -56,48 +56,48 @@ The <b>NtQueryQuotaInformationFile</b> routine retrieves quota entries associate
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 A handle for the file object that represents the file or volume for which the quota information is requested.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 The address of the caller's I/O status block.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A buffer to receive the quota information for the volume. The quota information is formatted as one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a> structures. The <b>NextEntryOffset</b> field in the <b>FILE_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length in bytes of the buffer.
 
 
-### -param ReturnSingleEntry [in]
-
+### -param ReturnSingleEntry 
+[in]
 A Boolean value that indicates if only a single entry should be returned rather than filling the buffer with as many entries as possible.
 
 
-### -param SidList [in, optional]
-
+### -param SidList 
+[in, optional]
 An optional list of SIDs whose quota information is to be returned. Each entry in the list is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a> structure. The <b>NextEntryOffset</b> field in the <b>FILE_GET_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
 
-### -param SidListLength [in]
-
+### -param SidListLength 
+[in]
 The length in bytes of the <b>SID</b> list, if one was specified.
 
 
-### -param StartSid [in, optional]
-
+### -param StartSid 
+[in, optional]
 An optional pointer to the <b>SID</b> of the entry at which to begin scanning the quota information. This parameter should be set if the returned information is to start with an entry other than the first SID. This parameter is ignored if a <i>SidList</i> parameter is specified. 
 
 
-### -param RestartScan [in]
-
+### -param RestartScan 
+[in]
 A Boolean value that indicates whether the scan of the quota information is to be restarted from the beginning. Set this parameter to <b>TRUE</b> if the scan of the quota information is to start at the first entry in the volume's quota information list. Set to <b>FALSE</b> if resuming the scan from a previous call to <b>NtQueryQuotaInformationFile</b>. The caller must set this parameter to <b>TRUE</b> when calling <b>NtQueryQuotaInformationFile</b> for the first time.
 
 

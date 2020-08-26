@@ -55,13 +55,13 @@ Gets the state of the global effects (GFX) node in the audio engine.
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID of the GFX node.
 
 
-### -param pbEnable [out]
-
+### -param pbEnable 
+[out]
 Pointer to a <b>BOOL</b> data type.
 
 

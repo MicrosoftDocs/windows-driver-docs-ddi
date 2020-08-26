@@ -55,8 +55,8 @@ The <b>RtlIsRightChild</b> routine determines whether a given splay link is the 
 
 
 
-### -param Links [in]
-
+### -param Links 
+[in]
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
 

@@ -6,7 +6,7 @@ old-location: netvista\wwan_tdscdma_serving_cell_info.htm
 tech.root: netvista
 ms.assetid: 5D0DD219-8D81-4F72-B327-119A45CC35B4
 ms.date: 05/02/2018
-keywords: ["_WWAN_TDSCDMA_SERVING_CELL_INFO structure"]
+keywords: ["WWAN_TDSCDMA_SERVING_CELL_INFO structure"]
 ms.keywords: "*PWWAN_TDSCDMA_SERVING_CELL_INFO, PWWAN_TDSCDMA_SERVING_CELL_INFO, PWWAN_TDSCDMA_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_SERVING_CELL_INFO, WWAN_TDSCDMA_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_TDSCDMA_SERVING_CELL_INFO, netvista.wwan_tdscdma_serving_cell_info, wwan/PWWAN_TDSCDMA_SERVING_CELL_INFO, wwan/WWAN_TDSCDMA_SERVING_CELL_INFO"
 f1_keywords:
  - "wwan/WWAN_TDSCDMA_SERVING_CELL_INFO"

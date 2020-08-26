@@ -55,13 +55,13 @@ The <b>OpenLogFile2</b>  method opens a log file that will receive output from t
 
 
 
-### -param File [in]
-
+### -param File 
+[in]
 Specifies the name of the log file.  <i>File</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger  was started.  If the file does not exist, it will be created.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the bit-flags that control the nature of the log file.  <i>Flags</i> can contain flags from the following table.
 
 <table>

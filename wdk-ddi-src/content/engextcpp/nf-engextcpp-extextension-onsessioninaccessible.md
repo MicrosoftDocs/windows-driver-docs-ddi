@@ -55,8 +55,8 @@ The <b>OnSessionInaccessible</b> method is called by the engine to inform the En
 
 
 
-### -param Argument [in]
-
+### -param Argument 
+[in]
 Set to zero. (Reserved for future use).
 
 

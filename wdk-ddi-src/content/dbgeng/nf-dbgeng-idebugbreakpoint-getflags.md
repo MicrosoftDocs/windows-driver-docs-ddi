@@ -56,8 +56,8 @@ The <b>GetFlags</b> method returns the flags for a breakpoint.
 
 
 
-### -param Flags [out]
-
+### -param Flags 
+[out]
 The breakpoint's flags.  For more information about the flag bit field and an explanation of each flag, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
 
 

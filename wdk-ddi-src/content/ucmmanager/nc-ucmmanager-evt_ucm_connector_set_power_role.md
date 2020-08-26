@@ -55,13 +55,13 @@ The client driver's implementation of the <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i
 
 
 
-### -param Connector [in]
-
+### -param Connector 
+[in]
 Handle to the connector that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a> method.
 
 
-### -param PowerRole [in]
-
+### -param PowerRole 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_power_role">UCM_POWER_ROLE</a>-typed flag that specifies the role to set.
 
 

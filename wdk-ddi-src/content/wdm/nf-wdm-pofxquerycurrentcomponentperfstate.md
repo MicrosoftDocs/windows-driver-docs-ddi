@@ -55,28 +55,28 @@ The <b>PoFxQueryCurrentComponentPerfState</b> routine retrieves the active perfo
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 A handle that represents the registration of the device with power management framework (PoFx). The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Set to 0. Currently, no flags are defined for this routine.
 
 
-### -param Component [in]
-
+### -param Component 
+[in]
 The index that identifies the component whose performance state is being retrieved. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param SetIndex [in]
-
+### -param SetIndex 
+[in]
 The index that identifies the performance state set whose performance is being queried. This parameter is an index into the <b>PerfStateSets</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_info">PO_FX_COMPONENT_PERF_INFO</a> structure that the device driver used to register the component performance states with PoFx. If the <b>PerfStateSets</b> array contains N elements, performance state set indexes range from 0 to N–1.
 
 
-### -param CurrentPerf [in]
-
+### -param CurrentPerf 
+[in]
 A pointer to variable in which the current performance state for the specified performance state set is returned. For more information about the value that is returned, see Remarks. 
 
 

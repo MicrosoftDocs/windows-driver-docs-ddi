@@ -55,28 +55,28 @@ The <i>DxgkDdiStartDevice</i> function prepares a display adapter to receive I/O
 
 
 
-### -param MiniportDeviceContext [in]
-
+### -param MiniportDeviceContext 
+[in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param DxgkStartInfo [in]
-
+### -param DxgkStartInfo 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_start_info">DXGK_START_INFO</a> structure that contains information that the display miniport driver needs for initialization. 
 
 
-### -param DxgkInterface [in]
-
+### -param DxgkInterface 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that contains pointers to functions, implemented by the DirectX graphics kernel subsystem, that the display miniport driver can call. 
 
 
-### -param NumberOfVideoPresentSources [out]
-
+### -param NumberOfVideoPresentSources 
+[out]
 A pointer to a <b>ULONG</b> variable that receives the number of video present sources supported by the display adapter. For more information about video present sources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/multiple-monitors-and-video-present-networks">Multiple Monitors and Video Present Networks</a>.
 
 
-### -param NumberOfChildren [out]
-
+### -param NumberOfChildren 
+[out]
 A pointer to a <b>ULONG</b> variable that receives the total number of devices that are children of the display adapter represented by <i>MiniportDeviceContext</i>. This count must include potential child devices as well as child devices that are currently present. For example, if docking a portable computer will make additional video outputs available, those video outputs must be counted regardless of whether the portable computer is currently docked. For more information about child devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/child-devices-of-the-display-adapter">Child Devices of the Display Adapter</a>.
 
 

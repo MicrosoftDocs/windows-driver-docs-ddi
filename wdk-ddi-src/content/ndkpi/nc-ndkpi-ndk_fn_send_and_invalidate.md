@@ -55,14 +55,14 @@ The <i>NdkSendAndInvalidate</i> (<i>NDK_FN_SEND_AND_INVALIDATE</i>) function pos
 
 
 
-### -param pNdkQp [in]
-
+### -param pNdkQp 
+[in]
 A pointer to an NDK queue pair (QP) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A context value to be returned in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a> structure for this request.
 
 
@@ -72,14 +72,14 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 An array of SGE (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>)  structures that represent the buffers holding the data to send.
 
 
-### -param nSge [in]
-
+### -param nSge 
+[in]
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitwise OR of flags that specify the operations that are allowed. The following flags are supported:
 
 <table>
@@ -148,8 +148,8 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
  
 
 
-### -param RemoteToken [in]
-
+### -param RemoteToken 
+[in]
 The remote token to be invalidated at the peer upon receive completion. The NDK provider at the receiving peer must abort the connection, as specified by lower layer transport rules, if an invalid token was specified by the sending peer.
 
 

@@ -56,8 +56,8 @@ req.typenames:
 
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Handle to the VC of the call being closed or disconnected. This handle was supplied by NDIS when
      the VC was originally created with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, whether by the client in
@@ -65,23 +65,23 @@ Handle to the VC of the call being closed or disconnected. This handle was suppl
      incoming call to the client.
 
 
-### -param NdisPartyHandle [in, optional]
-
+### -param NdisPartyHandle 
+[in, optional]
 Handle to the last party to be dropped on a multipoint VC or <b>NULL</b>. If this is a multipoint VC, the
      client obtained this handle either from a preceding call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>.
 
 
-### -param Buffer [in, optional]
-
+### -param Buffer 
+[in, optional]
 Pointer to a caller-allocated buffer containing any data to be transmitted to the party on the
      remote node when the connection is closed. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 Specifies the size, in bytes, at 
      <i>Buffer</i>, zero if 
      <i>Buffer</i> is <b>NULL</b>.

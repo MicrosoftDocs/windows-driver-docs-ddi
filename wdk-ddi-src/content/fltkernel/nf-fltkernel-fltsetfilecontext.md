@@ -55,18 +55,18 @@ The <b>FltSetFileContext</b> routine sets a context for a file.
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 An opaque pointer to a minifilter driver instance for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A file object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 A flag that specifies the type of operation for <b>FltSetFileContext </b>to perform. This parameter must be one of the following flags:  
 
 
@@ -84,13 +84,13 @@ If a context is already set for the instance that the <i>Instance </i>parameter 
 If a context is already set for the instance that the <i>Instance</i> parameter points to, <b>FltSetFileContext</b> will return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, the routine will insert the context specified in <i>NewContext</i> into the list of contexts for the file. 
 
 
-### -param NewContext [in]
-
+### -param NewContext 
+[in]
 A pointer to the new context to be set for the file. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out]
-
+### -param OldContext 
+[out]
 A pointer to a caller-allocated variable that receives the address of the existing file context for the instance pointed to by the <i>Instance </i>parameter. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section. 
 
 

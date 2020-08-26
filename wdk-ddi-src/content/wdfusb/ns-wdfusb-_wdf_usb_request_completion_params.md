@@ -6,7 +6,7 @@ old-location: wdf\wdf_usb_request_completion_params.htm
 tech.root: wdf
 ms.assetid: cd29d27c-9da2-477f-898e-13ee480aac9e
 ms.date: 02/26/2018
-keywords: ["_WDF_USB_REQUEST_COMPLETION_PARAMS structure"]
+keywords: ["WDF_USB_REQUEST_COMPLETION_PARAMS structure"]
 ms.keywords: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, DFUsbRef_14574f86-fd65-41df-be8e-557f6fe09c4f.xml, PWDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS structure pointer, WDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS structure, _WDF_USB_REQUEST_COMPLETION_PARAMS, kmdf.wdf_usb_request_completion_params, wdf.wdf_usb_request_completion_params, wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS, wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS"
 f1_keywords:
  - "wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS"

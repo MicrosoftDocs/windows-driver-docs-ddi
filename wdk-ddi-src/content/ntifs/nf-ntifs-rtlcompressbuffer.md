@@ -55,8 +55,8 @@ The <b>RtlCompressBuffer</b> function compresses a buffer and can be used by a f
 
 
 
-### -param CompressionFormatAndEngine [in]
-
+### -param CompressionFormatAndEngine 
+[in]
 A bitmask that specifies the compression format and engine type. This parameter must be set to  a  valid bitwise OR combination of one format type and one engine type. For example, COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD.
 
 The meanings of these, and other related values, are as follows.
@@ -150,38 +150,38 @@ Not supported by this function.
  
 
 
-### -param UncompressedBuffer [in]
-
+### -param UncompressedBuffer 
+[in]
 A pointer to a caller-allocated buffer (allocated from paged or non-paged pool) that contains the data to be compressed. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param UncompressedBufferSize [in]
-
+### -param UncompressedBufferSize 
+[in]
 The size, in bytes, of the <i>UncompressedBuffer</i> buffer.
 
 
-### -param CompressedBuffer [out]
-
+### -param CompressedBuffer 
+[out]
 A pointer to a caller-allocated buffer (allocated from paged or non-paged pool) that receives the compressed data. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param CompressedBufferSize [in]
-
+### -param CompressedBufferSize 
+[in]
 The size, in bytes, of the <i>CompressedBuffer</i> buffer.
 
 
-### -param UncompressedChunkSize [in]
-
+### -param UncompressedChunkSize 
+[in]
 The chunk size to use when compressing the <i>UncompressedBuffer</i> buffer. This parameter must be one of the following values:  512, 1024, 2048, or 4096. The operating system uses 4096, and the recommended value for this parameter is also 4096.
 
 
-### -param FinalCompressedSize [out]
-
+### -param FinalCompressedSize 
+[out]
 A pointer to a caller-allocated variable that receives the size, in bytes, of the compressed data stored in <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param WorkSpace [in]
-
+### -param WorkSpace 
+[in]
 A pointer to a caller-allocated work space buffer used by the <b>RtlCompressBuffer</b> function during compression. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetcompressionworkspacesize">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
 

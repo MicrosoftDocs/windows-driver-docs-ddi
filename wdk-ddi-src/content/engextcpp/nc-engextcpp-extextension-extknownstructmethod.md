@@ -56,18 +56,18 @@ The <b>ExtKnownStructMethod</b> callback method is called by the engine to forma
 
 
 
-### -param TypeName [in]
-
+### -param TypeName 
+[in]
 Specifies the name of the type of the structure pointed to by <i>Offset</i>.  This is the same as the <b>TypeName</b> field of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/ns-engextcpp-extknownstruct">ExtKnownStruct</a> structure used to register this callback method.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies bit flags that indicate how the output should be formatted.  Currently, this is set to DEBUG_KNOWN_STRUCT_GET_SINGLE_LINE_OUTPUT, which indicates that the output should be formatted for output on a single line.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's memory of the instance of the structure to be formatted for output.
 
 

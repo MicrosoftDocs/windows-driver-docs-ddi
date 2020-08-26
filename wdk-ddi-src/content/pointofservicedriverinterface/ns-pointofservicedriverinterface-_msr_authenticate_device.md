@@ -6,7 +6,7 @@ old-location: pos\msr_authenticate_device.htm
 tech.root: pos
 ms.assetid: b75dce2c-5ad5-4340-b1b7-5fcf4440e58c
 ms.date: 02/23/2018
-keywords: ["_MSR_AUTHENTICATE_DEVICE structure"]
+keywords: ["MSR_AUTHENTICATE_DEVICE structure"]
 ms.keywords: "*PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE structure, PMSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, _MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, pos.msr_authenticate_device"
 f1_keywords:
  - "pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE"
@@ -57,7 +57,7 @@ This structure provides the authentication information used to authenticate a de
 
 ### -field Size
 
-If the optional <b>SessionId</b> is present, this will include the size of <b>SessionId[MSR_SESSION_ID_SIZE]</b>
+If the optional **SessionId** is present, this will include the size of **SessionId[MSR_SESSION_ID_SIZE]**
 
 
 ### -field Challenge1

@@ -57,8 +57,8 @@ The <b>GetOutputMemory</b> method retrieves the memory object that represents th
 
 
 
-### -param ppWdfMemory [out]
-
+### -param ppWdfMemory 
+[out]
 A pointer to a variable that receives a pointer to the reference-counted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for the memory object. Note that returning <b>NULL</b> is valid; in this situation, no output memory is associated with the I/O request.
 
 

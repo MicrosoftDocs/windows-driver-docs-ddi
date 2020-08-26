@@ -55,18 +55,18 @@ The <b>MmMapIoSpace</b> routine maps the given physical address range to nonpage
 
 
 
-### -param PhysicalAddress [in]
-
+### -param PhysicalAddress 
+[in]
 Specifies the starting physical address of the I/O range to be mapped.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 
-### -param CacheType [in]
-
+### -param CacheType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range.
 
 

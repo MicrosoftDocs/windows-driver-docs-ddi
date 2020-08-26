@@ -55,18 +55,18 @@ The GetModes method, Gets the audio signal processing modes supported by an audi
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 The index of the audio pin.
 
 
-### -param SignalProcessingModes [out, optional]
-
+### -param SignalProcessingModes 
+[out, optional]
 This parameter is optional. It returns an array of GUIDs that identify the  signal processing modes supported by the  <i>Pin</i> parameter.
 
 
-### -param NumSignalProcessingModes [in, out]
-
+### -param NumSignalProcessingModes 
+[in, out]
 When used as an input, it specifies the number of elements that can be written to the buffer that is specified in <i>SignalProcessingModes</i>. When used as an output, it returns the number of elements that were written to the buffer.
 
 

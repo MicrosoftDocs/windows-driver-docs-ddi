@@ -55,8 +55,8 @@ The <code>SendXpsDocument</code> method sends an XPS document to the pipeline.
 
 
 
-### -param pIXpsDocument [in]
-
+### -param pIXpsDocument 
+[in]
 A pointer to the XPS document object to send.
 
 

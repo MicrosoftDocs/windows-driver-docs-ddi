@@ -6,7 +6,7 @@ old-location: storage\sm_setbindingsupport_out.htm
 tech.root: storage
 ms.assetid: b0902b79-25ee-45e6-944e-de9e69ce43ec
 ms.date: 03/29/2018
-keywords: ["_SM_SetBindingSupport_OUT structure"]
+keywords: ["SM_SetBindingSupport_OUT structure"]
 ms.keywords: "*PSM_SetBindingSupport_OUT, PSM_SetBindingSupport_OUT, PSM_SetBindingSupport_OUT structure pointer [Storage Devices], SM_SetBindingSupport_OUT, SM_SetBindingSupport_OUT structure [Storage Devices], _SM_SetBindingSupport_OUT, hbapiwmi/PSM_SetBindingSupport_OUT, hbapiwmi/SM_SetBindingSupport_OUT, storage.sm_setbindingsupport_out, structs-Fibre_b14ee92a-9c2c-4f8a-be35-b189b0d5e97f.xml"
 f1_keywords:
  - "hbapiwmi/SM_SetBindingSupport_OUT"

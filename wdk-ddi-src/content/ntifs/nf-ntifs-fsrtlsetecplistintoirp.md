@@ -55,13 +55,13 @@ The <b>FsRtlSetEcpListIntoIrp</b> routine attaches an extra create parameter (EC
 
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to the IRP for an IRP_MJ_CREATE operation to which the ECP context structure list is to be attached.
 
 
-### -param EcpList [in]
-
+### -param EcpList 
+[in]
 Pointer to an ECP list that contains one or more ECP context structures. These structures will be attached to the IRP to which the <i>Irp</i> parameter points. 
 
 

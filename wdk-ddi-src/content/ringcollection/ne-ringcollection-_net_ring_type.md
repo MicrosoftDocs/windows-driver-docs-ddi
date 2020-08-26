@@ -5,7 +5,7 @@ description: The NET_RING_TYPE enumeration defines types of net rings for a pack
 tech.root: netvista
 ms.assetid: D14D96AB-E43E-4316-A737-E026C151FA67
 ms.date: 09/27/2019
-keywords: ["_NET_RING_TYPE enumeration"]
+keywords: ["NET_RING_TYPE enumeration"]
 f1_keywords:
  - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
  - "RILWRITEPHONEBOOKENTRYPARAMS"

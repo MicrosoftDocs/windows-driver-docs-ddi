@@ -55,13 +55,13 @@ The <b>RtlDeleteElementGenericTable</b> routine deletes an element from a generi
 
 
 
-### -param Table [in]
-
+### -param Table 
+[in]
 A pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a caller-allocated buffer containing a value that uniquely identifies the element to be deleted.
 
 

@@ -63,23 +63,23 @@ The <b>WdfDeviceSetDeviceInterfaceState</b> method enables or disables a device 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param InterfaceClassGUID [in]
-
+### -param InterfaceClassGUID 
+[in]
 A pointer to a GUID that identifies the device interface class.
 
 
-### -param ReferenceString [in, optional]
+### -param ReferenceString 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b>. 
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b>. 
 
-
-### -param IsInterfaceEnabled [in]
-
+### -param IsInterfaceEnabled 
+[in]
 A Boolean value that, if <b>TRUE</b>, enables the specified device interface instance or, if <b>FALSE</b>, disables it.
 
 
@@ -114,7 +114,7 @@ WdfDeviceSetDeviceInterfaceState (
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

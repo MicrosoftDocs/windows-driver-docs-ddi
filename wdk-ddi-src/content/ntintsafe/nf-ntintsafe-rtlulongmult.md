@@ -55,18 +55,18 @@ Multiplies one value of type <b>ULONG</b> by another.
 
 
 
-### -param ulMultiplicand [in]
-
+### -param ulMultiplicand 
+[in]
 The value to be multiplied by <i>ulMultiplier</i>.
 
 
-### -param ulMultiplier [in]
-
+### -param ulMultiplier 
+[in]
 The value by which to multiply <i>ulMultiplicand</i>.
 
 
-### -param pulResult [out]
-
+### -param pulResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -55,8 +55,8 @@ The<b> KsGateCaptureThreshold</b> function is used to capture an ON input of an 
 
 
 
-### -param Gate [in]
-
+### -param Gate 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the AND gate for which to capture an ON input synchronously.
 
 

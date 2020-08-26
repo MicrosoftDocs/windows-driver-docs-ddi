@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringCbCatStringN </b>function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, while limiting the size of the appended string.
+The <b>RtlUnicodeStringCbCatStringN </b>function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, while limiting the size of the appended string.
 
 
 ## -parameters
@@ -56,18 +56,18 @@ The <b>RtlUnicodeStringCbCatStringN </b>function concatenates two strings when t
 
 
 
-### -param DestinationString [in, out]
-
+### -param DestinationString 
+[in, out]
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-### -param pszSrc [in]
-
+### -param pszSrc 
+[in]
 A caller-supplied pointer to a null-terminated string. This string will be concatenated to the end of the destination string that is contained in the <b>UNICODE_STRING</b> structure that <i>DestinationString</i> points to.
 
 
-### -param cbToAppend [in]
-
+### -param cbToAppend 
+[in]
 The maximum number of bytes to append to the string that the <i>DestinationString</i> parameter describes.
 
 
@@ -160,7 +160,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

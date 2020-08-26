@@ -55,28 +55,28 @@ The <b>CcCoherencyFlushAndPurgeCache</b> routine flushes and/or purges the cache
 
 
 
-### -param SectionObjectPointer [in]
-
+### -param SectionObjectPointer 
+[in]
 A pointer to a structure that contains the section object pointers of the file object.
 
 
-### -param FileOffset [in, optional]
-
+### -param FileOffset 
+[in, optional]
 A pointer to a variable that specifies the starting byte offset to flush, purge, or both.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in bytes of the data to flush and/or purge starting at <i>FileOffset</i>. This parameter is ignored if a <b>NULL</b> pointer is passed to <i>FileOffset</i>.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation.
 
 
-### -param Flags [in, optional]
-
+### -param Flags 
+[in, optional]
 A bitmask of flags that specify how the operation is to be performed. The one flag is defined in the following table. 
 
 <table>

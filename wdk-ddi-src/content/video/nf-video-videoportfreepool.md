@@ -55,13 +55,13 @@ The <b>VideoPortFreePool</b> function deallocates a block of pool memory previou
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param Ptr [in]
-
+### -param Ptr 
+[in]
 Pointer to the first byte of the memory to be freed.
 
 

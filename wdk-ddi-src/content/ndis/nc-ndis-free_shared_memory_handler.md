@@ -57,8 +57,8 @@ The
 
 
 
-### -param ProviderContext [in]
-
+### -param ProviderContext 
+[in]
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
@@ -66,8 +66,8 @@ An NDIS_HANDLE to a block of driver-allocated context information that identifie
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
-### -param SharedMemoryProviderContext [in]
-
+### -param SharedMemoryProviderContext 
+[in]
 A handle for a context area that identifies the shared memory block. This is the handle that the
      shared memory provider supplied at the 
      <i>pSharedMemoryProviderContext</i> parameter of the 

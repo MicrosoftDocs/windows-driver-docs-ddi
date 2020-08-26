@@ -55,13 +55,13 @@ The <b>FltGetContextsEx</b> routine retrieves a minifilter driver's contexts for
 
 
 
-### -param FltObjects [in]
-
+### -param FltObjects 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure containing opaque pointers for the objects related to the current operation. (For more information about this parameter, see the  Remarks section.) 
 
 
-### -param DesiredContexts [in]
-
+### -param DesiredContexts 
+[in]
 Type of contexts to retrieve. This parameter can have one or more of the following values: 
 
 FLT_ALL_CONTEXTS
@@ -81,13 +81,13 @@ FLT_VOLUME_CONTEXT
 FLT_SECTION_CONTEXT (Windows 8 and later only.)
 
 
-### -param ContextsSize [in]
-
+### -param ContextsSize 
+[in]
 The size, in bytes, of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts_ex">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
 
 
-### -param Contexts [out]
-
+### -param Contexts 
+[out]
 Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts_ex">FLT_RELATED_CONTEXTS_EX</a> structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero. 
 
 

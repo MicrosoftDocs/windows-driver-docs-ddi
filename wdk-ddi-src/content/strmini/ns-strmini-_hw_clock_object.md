@@ -6,7 +6,7 @@ old-location: stream\hw_clock_object.htm
 tech.root: stream
 ms.assetid: d6afe946-90cb-4b17-94ed-2e7c508985a3
 ms.date: 04/23/2018
-keywords: ["_HW_CLOCK_OBJECT structure"]
+keywords: ["HW_CLOCK_OBJECT structure"]
 ms.keywords: "*PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT, HW_CLOCK_OBJECT structure [Streaming Media Devices], PHW_CLOCK_OBJECT, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], _HW_CLOCK_OBJECT, strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml, stream.hw_clock_object, strmini/HW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT"
 f1_keywords:
  - "strmini/HW_CLOCK_OBJECT"

@@ -55,8 +55,8 @@ The <b>KeSetSystemAffinityThreadEx</b> routine sets the system affinity of the c
 
 
 
-### -param Affinity [in]
-
+### -param Affinity 
+[in]
 A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread.
 
 

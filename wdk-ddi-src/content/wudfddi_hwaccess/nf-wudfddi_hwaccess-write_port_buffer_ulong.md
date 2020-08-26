@@ -58,24 +58,24 @@ The <b>WRITE_PORT_BUFFER_ULONG</b> function writes a number of ULONG values from
 
 
 
-### -param pDevice [in]
-
+### -param pDevice 
+[in]
 Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 A pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a buffer from which an array of ULONG values is to be written.
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of ULONG values to be written to the buffer.
 
 

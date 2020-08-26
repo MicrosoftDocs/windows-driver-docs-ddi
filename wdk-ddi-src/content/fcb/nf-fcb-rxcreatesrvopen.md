@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param VNetRoot [in]
-
+### -param VNetRoot 
+[in]
 A pointer to the V_NET_ROOT structure.
 
 
-### -param Fcb [in, out]
-
+### -param Fcb 
+[in, out]
 A pointer to the associated FCB structure.
 
 

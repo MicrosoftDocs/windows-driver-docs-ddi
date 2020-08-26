@@ -6,7 +6,7 @@ old-location: kernel\reg_delete_value_key_information.htm
 tech.root: kernel
 ms.assetid: 7976ad9a-b40c-44b1-bc28-0bcb3b721e92
 ms.date: 04/30/2018
-keywords: ["_REG_DELETE_VALUE_KEY_INFORMATION structure"]
+keywords: ["REG_DELETE_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_DELETE_VALUE_KEY_INFORMATION, PREG_DELETE_VALUE_KEY_INFORMATION, PREG_DELETE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_DELETE_VALUE_KEY_INFORMATION, REG_DELETE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_DELETE_VALUE_KEY_INFORMATION, kernel.reg_delete_value_key_information, kstruct_d_a95a729a-53de-4acc-a935-c2f60d7f9f18.xml, wdm/PREG_DELETE_VALUE_KEY_INFORMATION, wdm/REG_DELETE_VALUE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_DELETE_VALUE_KEY_INFORMATION"
@@ -62,7 +62,7 @@ A pointer to the registry key object for the key whose value entry is about to b
 
 ### -field ValueName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry that is about to be deleted.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry that is about to be deleted.
 
 
 ### -field CallContext
@@ -104,7 +104,7 @@ For more information about registry filtering operations, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

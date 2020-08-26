@@ -4,7 +4,7 @@ title: _BDA_MUX_PIDLISTITEM (bdatypes.h)
 description: 
 ms.assetid: ecf9f79f-129b-45ea-a0da-b905a8e30f78
 ms.date: 10/19/2018
-keywords: ["_BDA_MUX_PIDLISTITEM structure"]
+keywords: ["BDA_MUX_PIDLISTITEM structure"]
 f1_keywords:
  - "bdatypes/_BDA_MUX_PIDLISTITEM"
  - "_BDA_MUX_PIDLISTITEM"

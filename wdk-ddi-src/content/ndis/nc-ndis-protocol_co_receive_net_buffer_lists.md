@@ -58,15 +58,15 @@ The
 
 
 
-### -param ProtocolBindingContext [in]
-
+### -param ProtocolBindingContext 
+[in]
 A handle to a context area that the protocol driver allocated to maintain state information for a
      binding. This handle was passed to NDIS in a previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 A handle to a protocol driver-allocated context area in which this driver maintains the
      per-virtual connection (VC) run-time state information. A client or stand-alone call manager supplied
      this handle either when it called the 
@@ -74,22 +74,22 @@ A handle to a protocol driver-allocated context area in which this driver mainta
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
-### -param NetBufferLists [in]
-
+### -param NetBufferLists 
+[in]
 A linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      underlying driver allocated. Each <b>NET_BUFFER_LIST</b> structure is usually associated with one 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 
-### -param NumberOfNetBufferLists [in]
-
+### -param NumberOfNetBufferLists 
+[in]
 The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
 
-### -param ReceiveFlags [in]
-
+### -param ReceiveFlags 
+[in]
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
      <i>ProtocolCoReceiveNetBufferLists</i> supports the following flags:

@@ -49,8 +49,8 @@ The **wiasGetImageInformation** function retrieves transfer context information 
 
 ## -parameters
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 ### -param lFlags
@@ -61,8 +61,8 @@ Specifies operational flags. Currently, only the following flag is defined:
 | --- | --- |
 | WIAS_INIT_CONTEXT | Initialize the MINIDRV_TRANSFER_CONTEXT structure. |
 
-### -param pmdtc [in, out]
-
+### -param pmdtc 
+[in, out]
 Pointer to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure. Upon return, this structure contains the requested image item information.
 
 ## -returns

@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the RDBSS device object.
 
 
@@ -85,8 +85,8 @@ A pointer to the RDBSS device object.
 <p>A pointer to any annotation strings to add to the I/O error log structure.</p>
 
 
-### -param AnnotationCount [in]
-
+### -param AnnotationCount 
+[in]
 The count of the number of annotation strings to add to the I/O error log structure.
 
 

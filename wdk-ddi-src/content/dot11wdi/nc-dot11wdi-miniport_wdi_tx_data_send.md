@@ -59,38 +59,38 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 
 
-### -param MiniportTalTxRxContext [in]
-
+### -param MiniportTalTxRxContext 
+[in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
-
+### -param PortId 
+[in]
 The port ID.
 
 
-### -param PeerId [in]
-
+### -param PeerId 
+[in]
 The peer ID.
 
 
-### -param ExTid [in]
-
+### -param ExTid 
+[in]
 The Extended TID.
 
 
-### -param NumQueueFrames [in]
-
+### -param NumQueueFrames 
+[in]
 The queue length, in frames.
 
 
-### -param NumActiveFrames [in]
-
+### -param NumActiveFrames 
+[in]
 The total number of frames in action (schedulable) queues.
 
 
-### -param bRobustnessFlag [in]
-
+### -param bRobustnessFlag 
+[in]
 The robustness flag. If the robustness flag is set to TRUE, the NIC ensures reliable delivery within a small number of retries by aggressively lowering the TX data rate used for the frame using CTS and/or other mechanisms.
 
 

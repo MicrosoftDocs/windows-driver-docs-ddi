@@ -61,8 +61,8 @@ The <b>BdaGetChangeState</b> function returns the current change state of BDA to
 
 
 
-### -param pChangeState [out, optional]
-
+### -param pChangeState 
+[out, optional]
 Points to a variable that receives the current change state of BDA topology. The BDA change state can be one of the following values from the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff556518(v=vs.85)">BDA_CHANGE_STATE</a> enumerated type:
 
 <table>

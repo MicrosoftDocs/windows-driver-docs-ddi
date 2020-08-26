@@ -49,20 +49,20 @@ A minifilter driver can register one or more routines of type PFLT_POST_OPERATIO
 
 ## -parameters
 
-### -param Data [in, out]
-
+### -param Data 
+[in, out]
 A pointer to the callback data [FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data) structure for the I/O operation.
 
-### -param FltObjects [in]
-
+### -param FltObjects 
+[in]
 A pointer to a filter manager maintained [FLT_RELATED_OBJECTS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects) structure that contains opaque pointers for the objects related to the current I/O request.
 
-### -param CompletionContext [in, optional]
-
+### -param CompletionContext 
+[in, optional]
 A context pointer that was returned by the minifilter driver's pre-operation callback [PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback) routine.  The *CompletionContext* pointer provides a way to communicate information from the pre-operation callback routine to the post-operation callback routine.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask of flags that specifies how the post-operation callback is to be performed.
 
 | Flag | Meaning |

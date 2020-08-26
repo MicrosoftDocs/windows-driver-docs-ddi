@@ -6,7 +6,7 @@ old-location: display\dxva_videodesc.htm
 tech.root: display
 ms.assetid: 5623ed85-e78a-48f2-ab21-e6364da86b2a
 ms.date: 05/10/2018
-keywords: ["_DXVA_VideoDesc structure"]
+keywords: ["DXVA_VideoDesc structure"]
 ms.keywords: "*LPDXVA_VideoDesc, DXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], _DXVA_VideoDesc, display.dxva_videodesc, dxva/DXVA_VideoDesc, dxva/LPDXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml"
 f1_keywords:
  - "dxva/DXVA_VideoDesc"

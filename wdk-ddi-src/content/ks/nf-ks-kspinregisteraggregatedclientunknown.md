@@ -55,13 +55,13 @@ This inline function is a wrapper for <a href="https://docs.microsoft.com/window
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure.
 
 
-### -param ClientUnknown [in]
-
+### -param ClientUnknown 
+[in]
 A pointer to an <b>IUnknown</b> interface.
 
 

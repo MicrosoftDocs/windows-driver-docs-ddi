@@ -55,47 +55,47 @@ The <i>NdkFastRegister</i> (<i>NDK_FN_FAST_REGISTER</i>) function fast-registers
 
 
 
-### -param pNdkQp [in]
-
+### -param pNdkQp 
+[in]
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A  context value to return in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
 
 
-### -param pMr [in]
-
+### -param pMr 
+[in]
 A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>) that was initialized for fast registration.
 
 
-### -param AdapterPageCount [in]
-
+### -param AdapterPageCount 
+[in]
 The number of pages in the <i>AdapterPageArray</i> parameter. The size of each page in the <i>AdapterPageArray</i> is <b>PAGE_SIZE</b> bytes.
 
 
 ### -param NDK_LOGICAL_ADDRESS
 
 
-### -param FBO [in]
-
+### -param FBO 
+[in]
 The first byte offset (FBO) within the first page. The registered region starts at this offset.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in bytes, of the region being registered starting at the FBO. The length must be less than or equal to the total number of bytes that are represented by the first set (<i>AdapterPageCount</i>) of pages that are contained in the <i>AdapterPageArray</i> array minus the FBO.
 
 
-### -param BaseVirtualAddress [in]
-
+### -param BaseVirtualAddress 
+[in]
 The consumer-specified virtual address value to refer to the first byte location of the memory region. This value must be a multiple of <b>PAGE_SIZE</b> plus FBO. So, the allowed values include  FBO, or FBO plus  n times the <b>PAGE_SIZE</b> where n is greater than or equal to zero. Zero is a valid value only if FBO is zero.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>

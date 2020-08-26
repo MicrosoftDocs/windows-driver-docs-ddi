@@ -65,8 +65,8 @@ Not used.
 
 Not used.
 
-### -param pdwResult [out]
-
+### -param pdwResult 
+[out]
 Receives a method-supplied value indicating the result of the insertion operation. If the insertion succeeds, this value should be ERROR_SUCCESS. If the insertion fails, the value should be one of the error codes defined in winerror.h. If the method does not attempt to insert data for a specified *dwIndex* value, the value should be ERROR_NOT_SUPPORTED.
 
 ## -returns

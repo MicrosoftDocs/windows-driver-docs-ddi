@@ -55,13 +55,13 @@ The <b>KeInsertDeviceQueue</b> routine acquires the spin lock for the specified 
 
 
 
-### -param DeviceQueue [in, out]
-
+### -param DeviceQueue 
+[in, out]
 Pointer to a control object of type device queue for which the caller provides the storage.
 
 
-### -param DeviceQueueEntry [in, out]
-
+### -param DeviceQueueEntry 
+[in, out]
 Pointer to the device queue entry that is to be inserted. 
 
 

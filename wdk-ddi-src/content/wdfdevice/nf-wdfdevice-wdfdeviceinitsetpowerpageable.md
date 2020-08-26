@@ -58,8 +58,8 @@ The <b>WdfDeviceInitSetPowerPageable</b> method informs the power manager that t
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 

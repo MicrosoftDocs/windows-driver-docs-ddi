@@ -60,8 +60,8 @@ The <b>VideoPortWritePortBufferUshort</b> function writes a number of USHORT val
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a buffer containing the USHORT values to be written.
 
 

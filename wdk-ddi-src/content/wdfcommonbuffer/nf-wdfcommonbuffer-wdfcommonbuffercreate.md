@@ -58,23 +58,23 @@ The <b>WdfCommonBufferCreate</b> method creates a memory buffer that both the dr
 
 
 
-### -param DmaEnabler [in]
-
+### -param DmaEnabler 
+[in]
 A handle to a DMA enabler object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>.  
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The desired size, in bytes, of the new buffer.
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the common buffer object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
-### -param CommonBuffer [out]
-
+### -param CommonBuffer 
+[out]
 A pointer to a WDFCOMMONBUFFER-typed variable that receives a handle to a common buffer object.
 
 

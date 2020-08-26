@@ -55,8 +55,8 @@ Enables the Enhanced Device Test (EDT) filter driver on the target device.
 
 
 
-### -param pbRebootRequired [out, retval]
-
+### -param pbRebootRequired 
+[out, retval]
 True if the operation requires a restart to complete; otherwise, false.
 
 
@@ -64,7 +64,7 @@ True if the operation requires a restart to complete; otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

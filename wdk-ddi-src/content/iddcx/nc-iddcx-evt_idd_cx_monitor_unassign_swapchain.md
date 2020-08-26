@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param MonitorObject [in]
-
+### -param MonitorObject 
+[in]
 A handle by the OS to identify the monitor that has an invalid associated swapchain.
 
 

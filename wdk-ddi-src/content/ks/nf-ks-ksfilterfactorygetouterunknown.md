@@ -55,8 +55,8 @@ The<b> KsFilterFactoryGetOuterUnknown </b>function returns the outer <b>IUnknown
 
 
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> for which to return the outer unknown interface.
 
 

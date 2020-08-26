@@ -57,18 +57,18 @@ A driver's <i>EvtDeviceFileCreate</i> callback function handles operations that 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object that represents a file creation request.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A handle to a framework file object that describes a file that is being opened for the specified request. This parameter is <b>NULL</b> if the driver has specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WdfFileObjectNotRequired</a> for the <b>FileObjectClass </b>member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a> structure.
 
 

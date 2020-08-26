@@ -57,23 +57,23 @@ The <b>GetDeviceControlTransferParameters</b> method retrieves parameters that a
 
 
 
-### -param ppMemory [out, optional]
-
+### -param ppMemory 
+[out, optional]
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface, for access to the buffer for the device I/O control request. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pLengthTransferred [out, optional]
-
+### -param pLengthTransferred 
+[out, optional]
 A pointer to a variable that receives the size, in bytes, of transferred data. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pOffset [out, optional]
-
+### -param pOffset 
+[out, optional]
 A pointer to a variable that receives the offset, in bytes, into the buffer for the I/O control request. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pSetupPacket [out, optional]
-
+### -param pSetupPacket 
+[out, optional]
 A pointer that receives the WinUsb setup packet for the control transfer. This pointer is a PWINUSB_SETUP_PACKET data type that is defined as PVOID. This parameter is optional and can be <b>NULL</b>.
 
 

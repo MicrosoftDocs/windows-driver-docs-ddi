@@ -6,7 +6,7 @@ old-location: ifsk\access_state.htm
 tech.root: ifsk
 ms.assetid: 3d1d6407-f853-48d5-bd54-2eacece48b84
 ms.date: 04/16/2018
-keywords: ["_ACCESS_STATE structure"]
+keywords: ["ACCESS_STATE structure"]
 ms.keywords: "*PACCESS_STATE, ACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], PACCESS_STATE, PACCESS_STATE structure pointer [Installable File System Drivers], _ACCESS_STATE, ifsk.access_state, securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, wdm/ACCESS_STATE, wdm/PACCESS_STATE"
 f1_keywords:
  - "wdm/ACCESS_STATE"
@@ -139,12 +139,12 @@ A Boolean value that specifies whether a privilege usage should be audited. This
 
 ### -field ObjectName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object name string for the access. This member is used for auditing. 
+A <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object name string for the access. This member is used for auditing. 
 
 
 ### -field ObjectTypeName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object type name string for the access. This member is used for auditing. 
+A <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object type name string for the access. This member is used for auditing. 
 
 
 ## -see-also
@@ -200,7 +200,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicod
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

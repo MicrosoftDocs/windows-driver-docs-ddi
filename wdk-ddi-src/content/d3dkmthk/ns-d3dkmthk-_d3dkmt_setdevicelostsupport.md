@@ -5,7 +5,7 @@ description: Used to indicate whether a device can recover from losing a graphic
 old-location: display\d3dkmt-setdevicelostsupport.htm
 ms.assetid: 191ea8ac-6646-44db-88eb-54dc51afef17
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_SETDEVICELOSTSUPPORT structure"]
+keywords: ["D3DKMT_SETDEVICELOSTSUPPORT structure"]
 ms.keywords: D3DKMT_SETDEVICELOSTSUPPORT, D3DKMT_SETDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_SETDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT, display.d3dkmt-setdevicelostsupport
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT"

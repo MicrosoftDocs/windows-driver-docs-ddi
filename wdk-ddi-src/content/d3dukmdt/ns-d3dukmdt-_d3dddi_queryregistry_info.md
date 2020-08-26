@@ -4,7 +4,7 @@ title: _D3DDDI_QUERYREGISTRY_INFO (d3dukmdt.h)
 description: Contains information about the query registry.
 ms.assetid: 946cbde2-3fb2-4974-a446-178c91a81e49
 ms.date: 11/21/2018
-keywords: ["_D3DDDI_QUERYREGISTRY_INFO structure"]
+keywords: ["D3DDDI_QUERYREGISTRY_INFO structure"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_QUERYREGISTRY_INFO"
  - "_D3DDDI_QUERYREGISTRY_INFO"
@@ -77,7 +77,7 @@ When retrieving file path information, **ValueName** is ignored.
 
 When retrieving registry information, **ValueType** must specify the expected registry value type that corresponds to the registry value name.
 When retrieving file path information, **ValueType** must be 0 to succeed. 
-See [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types) for more detail.
+See [Registry Value Types](https://docs.microsoft.com/windows/win32/sysinfo/registry-value-types) for more detail.
 
 ### -field PhysicalAdapterIndex
 *[In] ULONG PhysicalAdapterIndex*

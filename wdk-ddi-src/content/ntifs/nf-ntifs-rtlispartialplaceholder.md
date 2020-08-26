@@ -56,13 +56,13 @@ The <b>RtlIsPartialPlaceholder</b> routine determines if a file or a directory i
 
 
 
-### -param FileAttributes [in]
-
+### -param FileAttributes 
+[in]
 Specifies the file attributes of a file or directory.
 
 
-### -param ReparseTag [in]
-
+### -param ReparseTag 
+[in]
 The ReparseTag or EaSize of a file or directory.
 
 

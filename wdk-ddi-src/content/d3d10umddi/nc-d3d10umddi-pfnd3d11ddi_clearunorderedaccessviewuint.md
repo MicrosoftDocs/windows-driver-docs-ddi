@@ -67,8 +67,8 @@ A handle to the display device (graphics context).
 
 A handle to the unordered-access view to clear. 
 
-### -param UINT[4]
-
+### -param UINT
+[4]
 [in]
 
 A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 

@@ -59,13 +59,13 @@ The <b>SetOtherOutputMask</b> method sets the output mask for another client.
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 Specifies the client whose output mask will be set.
 
 
-### -param Mask [in]
-
+### -param Mask 
+[in]
 Specifies the new output mask for the client.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for a description of the possible values for <i>Mask</i>.
 
 

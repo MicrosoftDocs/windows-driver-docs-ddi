@@ -55,8 +55,8 @@ The <b>KeDeregisterBoundCallback</b> routine deregisters a user-mode bound excep
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a> when the callback was registered. 
 
 

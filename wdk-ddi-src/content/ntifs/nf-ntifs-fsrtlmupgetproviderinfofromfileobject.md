@@ -55,23 +55,23 @@ The <b>FsRtlMupGetProviderInfoFromFileObject</b> routine gets information about 
 
 
 
-### -param pFileObject [in]
-
+### -param pFileObject 
+[in]
 A pointer to a file object of a file that is located on a remote file system.
 
 
-### -param Level [in]
-
+### -param Level 
+[in]
 The level of information that is returned by the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine. For more information about the possible values for this parameter, see the Remarks section.
 
 
-### -param pBuffer [out]
-
+### -param pBuffer 
+[out]
 A pointer to a buffer that receives the information that is returned by the <b>FsRtlMupGetProviderInfoFromFileObject</b> routine. For more information about the format of the data that is returned in this buffer, see the Remarks section.
 
 
-### -param pBufferSize [in, out]
-
+### -param pBufferSize 
+[in, out]
 A pointer to a ULONG-typed variable that contains the size, in bytes, of the buffer that is pointed to by the <i>pBuffer</i> parameter. If the routine succeeds, this variable receives the size, in bytes, of data that is returned in the buffer.
 
 

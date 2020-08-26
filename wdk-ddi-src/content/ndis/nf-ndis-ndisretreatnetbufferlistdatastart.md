@@ -60,27 +60,27 @@ Call the
 
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
 
-### -param DataOffsetDelta [in]
-
+### -param DataOffsetDelta 
+[in]
 The amount of additional 
      <i>used data space</i> in each NET_BUFFER structure. If there is not enough 
      <i>unused data space</i> to satisfy the request, NDIS allocates more memory.
 
 
-### -param DataBackFill [in]
-
+### -param DataBackFill 
+[in]
 If NDIS must allocate memory, this parameter specifies the amount of data space in addition to the
      value of the 
      <i>DataOffsetDelta</i> parameter to allocate.
 
 
-### -param AllocateMdlHandler [in, optional]
-
+### -param AllocateMdlHandler 
+[in, optional]
 An optional entry point for an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function. If the caller
      specifies an entry point for the 
@@ -88,8 +88,8 @@ An optional entry point for an
      <i>NetAllocateMdl</i> to allocate an MDL and memory.
 
 
-### -param FreeMdlHandler [in, optional]
-
+### -param FreeMdlHandler 
+[in, optional]
 An optional entry point for an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function. If the caller
      specifies an entry point for the 

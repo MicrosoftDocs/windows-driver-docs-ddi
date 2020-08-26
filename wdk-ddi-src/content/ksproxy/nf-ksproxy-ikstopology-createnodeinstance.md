@@ -55,33 +55,33 @@ The <b>CreateNodeInstance</b> method requests a KS filter object to open a topol
 
 
 
-### -param NodeId [in]
-
+### -param NodeId 
+[in]
 Identifier for the topology node object to open. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask enumerating the type of topology node object. No flags are currently defined.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> bitmask specifying the type of access that the caller requires to the topology node object. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> for a description of each access-right value.
 
 
-### -param UnkOuter [in, optional]
-
+### -param UnkOuter 
+[in, optional]
 Pointer to an <b>IUnknown</b> interface that supports the topology node interface.
 
 
-### -param InterfaceId [in]
-
+### -param InterfaceId 
+[in]
 Identifier of the topology node interface being requested.
 
 
-### -param Interface [out]
-
+### -param Interface 
+[out]
 Pointer to a variable that receives the interface pointer requested in <i>InterfaceId</i>. Upon successful return, *<i>Interface</i> contains the requested interface pointer to the object. If the object does not support the interface specified in <i>InterfaceId</i>, *<i>Interface</i> is set to <b>NULL</b>.
 
 

@@ -57,8 +57,8 @@ The <b>SetEffectiveProcessorType</b> method sets the effective processor type of
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Specifies the type of the processor.  For possible values, see the <i>Type</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a>.
 
 

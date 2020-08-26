@@ -57,18 +57,18 @@ The <b>CreateWorkItem</b> method creates a framework work-item object, which can
 
 
 
-### -param pConfig [in]
-
+### -param pConfig 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfworkitem/ns-wudfworkitem-_wudf_workitem_config">WUDF_WORKITEM_CONFIG</a> structure that the driver must have already initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfworkitem/nf-wudfworkitem-wudf_workitem_config_init">WUDF_WORKITEM_CONFIG_INIT</a>.
 
 
-### -param pParentObject [in, optional]
-
+### -param pParentObject 
+[in, optional]
 A pointer to the parent object interface or NULL.
 
 
-### -param ppWorkItem [out]
-
+### -param ppWorkItem 
+[out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfworkitem">IWDFWorkItem</a> interface for the new WorkItem object.
 
 

@@ -56,38 +56,38 @@ The <b>HidP_GetSpecificValueCaps</b> routine returns a <a href="https://docs.mic
 
 
 
-### -param ReportType [in]
-
+### -param ReportType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param UsagePage [in]
-
+### -param UsagePage 
+[in]
 Specifies a usage page as a search criteria. If <i>UsagePage</i> is nonzero, only values that specify this usage page are returned.
 
 
-### -param LinkCollection [in]
-
+### -param LinkCollection 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> as a search criteria. If <i>LinkCollection</i> is nonzero, only values that are part of this link collection are returned.
 
 
-### -param Usage [in]
-
+### -param Usage 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usage</a> as a search criteria. If <i>Usage</i> is nonzero, only values that specify this usage will be returned.
 
 
-### -param ValueCaps [out]
-
+### -param ValueCaps 
+[out]
 Pointer to a caller-allocated buffer in which the routine returns a value capability array for the specified report type.
 
 
-### -param ValueCapsLength [in, out]
-
+### -param ValueCapsLength 
+[in, out]
 Specifies the length on input, in array elements, of the buffer provided at <i>ValueCaps</i>. On output, this parameter is set to the number of elements that routine actually returns.
 
 
-### -param PreparsedData [in]
-
+### -param PreparsedData 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 

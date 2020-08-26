@@ -55,13 +55,13 @@ The <b>VideoPortEnumerateChildren</b> function allows a video miniport driver to
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param Reserved [in]
-
+### -param Reserved 
+[in]
 Must be set to <b>NULL</b>.
 
 

@@ -6,7 +6,7 @@ old-location: pci\pci_express_pme_requestor_id.htm
 tech.root: PCI
 ms.assetid: 2305ffbd-22c8-4f63-bbe4-fd297bf98e39
 ms.date: 02/24/2018
-keywords: ["_PCI_EXPRESS_PME_REQUESTOR_ID structure"]
+keywords: ["PCI_EXPRESS_PME_REQUESTOR_ID structure"]
 ms.keywords: "*PPCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, PCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], _PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml"
 f1_keywords:
  - "miniport/PCI_EXPRESS_PME_REQUESTOR_ID"

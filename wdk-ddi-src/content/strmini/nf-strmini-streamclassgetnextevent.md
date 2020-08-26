@@ -61,23 +61,23 @@ Minidrivers can use the <b>StreamClassGetNextEvent</b> routine to search the eve
 
 
 
-### -param HwStreamObject [in, optional]
-
+### -param HwStreamObject 
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>. Set to <b>NULL</b> to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
 
 
-### -param EventGuid [in, optional]
-
+### -param EventGuid 
+[in, optional]
 Specifies the event set to match when walking the queue, or <b>NULL</b> to match any event set.
 
 
-### -param EventItem [in]
-
+### -param EventItem 
+[in]
 Specifies the event ID to match when walking the queue, or -1 to match any event.
 
 
-### -param CurrentEvent [in, optional]
-
+### -param CurrentEvent 
+[in, optional]
 Pointer to an event in the event queue, or <b>NULL</b>.
 
 

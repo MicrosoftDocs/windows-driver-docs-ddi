@@ -58,8 +58,8 @@ The <b>KoDeviceInitialize</b> function adds a kernel COM create-item entry to th
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to a device object. The device object is assumed to contain a KSOBJECT_HEADER in its device extension.
 
 

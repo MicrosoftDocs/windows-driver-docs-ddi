@@ -55,8 +55,8 @@ Registers an event callbacks object with this client.
 
 
 
-### -param Callbacks [in, optional]
-
+### -param Callbacks 
+[in, optional]
 The interface pointer to the event callbacks object.
 
 
@@ -64,7 +64,7 @@ The interface pointer to the event callbacks object.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 This event interface replaces the use of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>. 
 

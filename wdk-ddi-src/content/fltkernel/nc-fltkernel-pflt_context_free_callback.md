@@ -55,13 +55,13 @@ A minifilter can register a routine of type PFLT_CONTEXT_FREE_CALLBACK as the mi
 
 
 
-### -param Pool [in]
-
+### -param Pool 
+[in]
 A pointer to the context to be freed. 
 
 
-### -param ContextType [in]
-
+### -param ContextType 
+[in]
 The type of context. This parameter is required and must be one of the following values: 
 
 FLT_FILE_CONTEXT (starting with  Windows Vista)

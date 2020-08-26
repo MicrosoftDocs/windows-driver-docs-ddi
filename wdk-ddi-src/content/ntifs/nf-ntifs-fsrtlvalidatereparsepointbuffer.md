@@ -55,13 +55,13 @@ The <b>FsRtlValidateReparsePointBuffer</b> routine verifies that the specified r
 
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 The length of the reparse point buffer.
 
 
-### -param ReparseBuffer [in]
-
+### -param ReparseBuffer 
+[in]
 The reparse point buffer to be validated.
 
 

@@ -55,13 +55,13 @@ The <b>KeSetPriorityThread</b> routine sets the run-time priority of a driver-cr
 
 
 
-### -param Thread [in, out]
-
+### -param Thread 
+[in, out]
 Pointer to the driver-created thread.
 
 
-### -param Priority [in]
-
+### -param Priority 
+[in]
 Specifies the priority of the driver-created thread, usually to the real-time priority value, LOW_REALTIME_PRIORITY. The value LOW_PRIORITY is reserved for system use. 
 
 

@@ -55,8 +55,8 @@ The <b>KsPinFactory</b> method retrieves the identifier of a pin factory.
 
 
 
-### -param PinFactory [out]
-
+### -param PinFactory 
+[out]
 Pointer to a variable that receives the identifier of the pin factory.
 
 

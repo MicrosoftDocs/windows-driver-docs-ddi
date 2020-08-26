@@ -58,23 +58,23 @@ The
 
 
 
-### -param NdisHandle [in]
-
+### -param NdisHandle 
+[in]
 An NDIS handle that was obtained during caller initialization. For more information about
      obtaining NDIS handles, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/obtaining-pool-handles">Obtaining Pool Handles</a>.
 
 
-### -param TimerCharacteristics [in]
-
+### -param TimerCharacteristics 
+[in]
 A pointer to a caller-supplied 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_timer_characteristics">
      NDIS_TIMER_CHARACTERISTICS</a> structure that specifies the characteristics of the allocated timer
      object.
 
 
-### -param pTimerObject [out]
-
+### -param pTimerObject 
+[out]
 A pointer to an NDIS timer object handle that NDIS provides to identify the timer object in
      subsequent calls to 
      <b>Ndis<i>Xxx</i></b> timer functions.

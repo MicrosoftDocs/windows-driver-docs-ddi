@@ -56,18 +56,18 @@ The <b>ScsiPortReadPortBufferUshort</b> routine transfers a given number of USHO
 
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to the buffer.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of USHORT values to read from the HBA.
 
 

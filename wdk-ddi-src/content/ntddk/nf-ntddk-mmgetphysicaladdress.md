@@ -55,8 +55,8 @@ The <b>MmGetPhysicalAddress</b> routine returns the physical address correspondi
 
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 Pointer to the virtual address for which to return the physical address. 
 
 

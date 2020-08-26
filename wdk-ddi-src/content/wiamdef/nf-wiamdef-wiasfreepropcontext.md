@@ -49,8 +49,8 @@ The **wiasFreePropContext** function releases the memory occupied by a [WIA_PROP
 
 ## -parameters
 
-### -param pContext [in, out]
-
+### -param pContext 
+[in, out]
 Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains a property context.
 
 ## -returns

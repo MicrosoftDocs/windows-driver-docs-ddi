@@ -6,7 +6,7 @@ old-location: display\d3dddiarg_queryauthenticatedchannel.htm
 tech.root: display
 ms.assetid: d816b4d7-cc99-4a83-9fd2-c7c0659d0318
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_QUERYAUTHENICATEDCHANNEL structure"]
+keywords: ["D3DDDIARG_QUERYAUTHENICATEDCHANNEL structure"]
 ms.keywords: D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml, _D3DDDIARG_QUERYAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, display.d3dddiarg_queryauthenticatedchannel
 f1_keywords:
  - "d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL"

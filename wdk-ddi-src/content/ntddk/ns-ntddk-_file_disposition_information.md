@@ -6,7 +6,7 @@ old-location: kernel\file_disposition_information.htm
 tech.root: kernel
 ms.assetid: a13b5411-a0dd-4a54-98a8-419e2f0e95b8
 ms.date: 04/30/2018
-keywords: ["_FILE_DISPOSITION_INFORMATION structure"]
+keywords: ["FILE_DISPOSITION_INFORMATION structure"]
 ms.keywords: "*PFILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_DISPOSITION_INFORMATION, kernel.file_disposition_information, kstruct_b_3796aa61-042a-435d-bfa9-c77c6a0dff98.xml, ntddk/FILE_DISPOSITION_INFORMATION, ntddk/PFILE_DISPOSITION_INFORMATION"
 f1_keywords:
  - "ntddk/FILE_DISPOSITION_INFORMATION"

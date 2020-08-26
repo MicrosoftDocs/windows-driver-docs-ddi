@@ -58,13 +58,13 @@ The <b>ReadMsr</b> method reads a specified Model-Specific Register (MSR).
 
 
 
-### -param Msr [in]
-
+### -param Msr 
+[in]
 Specifies the MSR address.
 
 
-### -param Value [out]
-
+### -param Value 
+[out]
 Receives the value of the MSR.
 
 

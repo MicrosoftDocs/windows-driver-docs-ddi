@@ -55,8 +55,8 @@ The <b>SetExpressionSyntax</b> method sets the syntax that the engine will use t
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the syntax that the engine will use to evaluate expressions.  It can be one of the following values:
 
 

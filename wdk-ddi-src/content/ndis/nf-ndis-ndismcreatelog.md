@@ -57,20 +57,20 @@ req.typenames:
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 Specifies the handle input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 Specifies how many bytes to allocate for the log file. NDIS creates a temporary file that is not
      stored on disk.
 
 
-### -param LogHandle [out]
-
+### -param LogHandle 
+[out]
 Pointer to a caller-supplied variable in which this function returns a handle to the log file.
      This handle is a required parameter to the 
      <b>Ndis</b><i>Xxx</i><b>Log</b> functions that the miniport driver calls subsequently.

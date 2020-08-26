@@ -59,8 +59,8 @@ Type: D3D12DDI_CPU_DESCRIPTOR_HANDLE
 
 Describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
 
-### -param FLOAT[4]
-
+### -param FLOAT
+[4]
 A 4-component array that containing the values to fill the unordered-access-view resource with.
 
 ### -param NumRects

@@ -55,23 +55,23 @@ A miniport driver calls <b>StorPortInitializePoFxPower</b> to register a storage
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in, optional]
-
+### -param Address 
+[in, optional]
 The address of a storage device unit. This parameter is <b>NULL</b> when registering for a storage adapter.
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A pointer to a <b>STOR_POFX_DEVICE_V2</b> structure cast to a pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>. This structure contains a component list with F-states for a storage device.
 
 
-### -param D3ColdEnabled [in, out]
-
+### -param D3ColdEnabled 
+[in, out]
 A pointer to a <b>BOOLEAN</b> value which the Storport driver will set to indicate whether the D3 Cold state is enabled for the storage device.
 
 

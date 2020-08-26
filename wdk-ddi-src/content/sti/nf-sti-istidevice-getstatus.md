@@ -55,8 +55,8 @@ The <b>IStiDevice::GetStatus</b> method returns a still image device's status in
 
 
 
-### -param pDevStatus [in, out]
-
+### -param pDevStatus 
+[in, out]
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_status">STI_DEVICE_STATUS</a> structure. The caller must set the <b>dwSize</b> and <b>StatusMask</b> members.
 
 

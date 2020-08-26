@@ -56,8 +56,8 @@ The <b>GetEventSystem</b> method returns the engine target ID for the target in 
 
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine target ID.
 
 

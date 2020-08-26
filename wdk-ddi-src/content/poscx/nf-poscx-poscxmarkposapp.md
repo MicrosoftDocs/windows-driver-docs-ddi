@@ -58,18 +58,18 @@ This optional method provides value if the driver implements multiple device int
 
 
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
 
-### -param fileObject [in]
-
+### -param fileObject 
+[in]
 A handle to a framework file object that identifies the caller, usually acquired with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>.
 
 
-### -param isPosApp [in]
-
+### -param isPosApp 
+[in]
 Specifies if the open instance is associated with a point-of-service application. Set to TRUE if it is associated with a point-of-service application. Otherwise, set to FALSE.
 
 

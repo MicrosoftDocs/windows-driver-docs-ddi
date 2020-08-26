@@ -55,8 +55,8 @@ The <b>PsRemoveLoadImageNotifyRoutine</b> routine removes a callback routine tha
 
 
 
-### -param NotifyRoutine [in]
-
+### -param NotifyRoutine 
+[in]
 Pointer to the callback routine that the driver has previously registered through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>. 
 
 

@@ -55,23 +55,23 @@ The <b>AgpCommitPhysical</b> function maps system (physical) memory to the speci
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the device extension of the miniport driver.
 
 
-### -param PhysicalReserveContext [in]
-
+### -param PhysicalReserveContext 
+[in]
 Identifies a reserved physical address range. The context handle is obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
 
-### -param Pages [in]
-
+### -param Pages 
+[in]
 Specifies the number of pages of system memory to commit.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the page offset at which to commit the pages. The offset is applied to the reserved physical address range associated with <b>PhysicalReserveContext</b>.
 
 

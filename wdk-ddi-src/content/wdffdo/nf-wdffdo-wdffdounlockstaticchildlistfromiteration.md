@@ -58,8 +58,8 @@ The <b>WdfFdoUnlockStaticChildListFromIteration</b> method unlocks the list of c
 
 
 
-### -param Fdo [in]
-
+### -param Fdo 
+[in]
 A handle to a framework device object that represents the parent device.
 
 

@@ -55,8 +55,8 @@ The <b>GetResult</b> method tells whether the bidi request was successful.
 
 
 
-### -param phr [out]
-
+### -param phr 
+[out]
 Pointer to a variable that specifies the status of the bidi request.
 
 

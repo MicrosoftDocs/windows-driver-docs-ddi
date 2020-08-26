@@ -50,15 +50,15 @@ PosCxCleanPendingRequests is called to cancel all pending requests for a given c
 
 ## -parameters
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
-### -param callerFileObj [in, optional]
-
+### -param callerFileObj 
+[in, optional]
 A handle to a framework file object for which all pending requests should be cancelled, or NULL to cancel all pending requests.
 
-### -param completionStatus [in]
-
+### -param completionStatus 
+[in]
 An appropriate NTSTATUS error code that indicates success or failure.
 

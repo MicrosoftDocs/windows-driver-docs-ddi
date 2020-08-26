@@ -56,8 +56,8 @@ The HID source driver calls this method to start the virtual HID device.
 
 
 
-### -param VhfHandle [in]
-
+### -param VhfHandle 
+[in]
 A handle to a virtual HID device that your HID source driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a>.
 
 

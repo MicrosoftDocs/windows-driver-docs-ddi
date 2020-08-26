@@ -58,13 +58,13 @@ The
 
 
 
-### -param SystemSpecific1 [in]
-
+### -param SystemSpecific1 
+[in]
 A pointer to a system-specific value that is reserved for system use.
 
 
-### -param FunctionContext [in]
-
+### -param FunctionContext 
+[in]
 A pointer to a driver-supplied context area that the driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissettimerobject">NdisSetTimerObject</a> function. If the 
      <i>FunctionContext</i> parameter of 
@@ -75,13 +75,13 @@ A pointer to a driver-supplied context area that the driver passed to the
      to initialize the associated timer object.
 
 
-### -param SystemSpecific2 [in]
-
+### -param SystemSpecific2 
+[in]
 A pointer to a system-specific value that is reserved for system use.
 
 
-### -param SystemSpecific3 [in]
-
+### -param SystemSpecific3 
+[in]
 A pointer to a system-specific value that is reserved for system use.
 
 

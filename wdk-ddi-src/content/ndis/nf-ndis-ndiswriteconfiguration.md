@@ -58,8 +58,8 @@ The
 
 
 
-### -param Status [out]
-
+### -param Status 
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following:
      
@@ -95,8 +95,8 @@ NDIS could not allocate resources, usually enough memory, to transfer the reques
 The requested information could not be written.
 
 
-### -param ConfigurationHandle [in]
-
+### -param ConfigurationHandle 
+[in]
 The handle to a registry key that was returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>, 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
@@ -105,17 +105,17 @@ The handle to a registry key that was returned by the
      NdisOpenConfigurationKeyByName</a> function.
 
 
-### -param Keyword [in]
-
+### -param Keyword 
+[in]
 A pointer to an NDIS_STRING type describing a caller-supplied counted string, in the
      system-default character set, specifying the name of an entry for which to write the value. For
      Microsoft Windows 2000 and later drivers, this string contains Unicode characters. That is, for Windows
      2000 and later, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
-### -param ParameterValue [in]
-
+### -param ParameterValue 
+[in]
 Pointer to a caller-supplied 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
      NDIS_CONFIGURATION_PARAMETER</a> structure.
@@ -227,7 +227,7 @@ For more information about setup and installation files for Windows 2000 and lat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

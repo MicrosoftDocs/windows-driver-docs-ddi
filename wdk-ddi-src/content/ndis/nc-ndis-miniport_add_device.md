@@ -58,16 +58,16 @@ The
 
 
 
-### -param NdisMiniportHandle [in]
-
+### -param NdisMiniportHandle 
+[in]
 An NDIS handle that identifies the miniport adapter that the Plug and Play (PnP) manager is
      adding. NDIS also passes this handle to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 
-### -param MiniportDriverContext [in]
-
+### -param MiniportDriverContext 
+[in]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The miniport driver passed this context area to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">

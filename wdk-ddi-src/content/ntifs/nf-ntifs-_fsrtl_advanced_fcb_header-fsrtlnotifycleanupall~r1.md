@@ -55,13 +55,13 @@ The <b>FsRtlNotifyCleanupAll</b> routine removes all members of the specified no
 
 
 
-### -param NotifySync [in]
-
+### -param NotifySync 
+[in]
 A pointer to the opaque synchronization object for <i>NotifyList</i>.
 
 
-### -param NotifyList [in]
-
+### -param NotifyList 
+[in]
 A pointer to the head of the notify list to be cleaned up. Each element in the list is an opaque notify structure.
 
 

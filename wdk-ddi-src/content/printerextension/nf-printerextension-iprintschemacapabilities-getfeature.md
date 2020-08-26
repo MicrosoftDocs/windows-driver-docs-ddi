@@ -55,19 +55,19 @@ Gets a named feature from the PrintCapabilities, by name and full namespace URI.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The base  value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this <psf:Feature name="psk:JobOutputBin">, showing  a base value of "JobOutputBin".
 
 
-### -param bstrNamespaceUri [in]
-
+### -param bstrNamespaceUri 
+[in]
 The namespace URI value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this <psf:Feature name="psk:JobOutputBin">, with a base name value of "JobOutputBin", and the namespace URI of the public Print Schema is "https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace that defines the feature.
 
 
-### -param ppFeature [out, retval]
-
+### -param ppFeature 
+[out, retval]
 The returned feature.
 
 

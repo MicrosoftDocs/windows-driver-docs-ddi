@@ -60,8 +60,8 @@ The <b>MmFlushImageSection</b> routine flushes the image section for a file.
 <p>Pointer to a structure that contains the file object's section object pointers.</p>
 
 
-### -param FlushType [in]
-
+### -param FlushType 
+[in]
 Specifies the reason for the flush operation. It can be one of the values listed in the following table. 
 
 <table>

@@ -55,23 +55,23 @@ The <b>VideoPortLockBuffer</b> function probes the specified buffer, makes the b
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 Specifies the virtual address of the buffer to be locked.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the length in bytes of the buffer to be locked.
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 Specifies the type of operation for which the caller wants the access rights probed and the pages locked. The operation can be one of the following: <b>VpReadAccess</b>, <b>VpWriteAccess</b>, or <b>VpModifyAccess</b>.
 
 

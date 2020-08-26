@@ -55,18 +55,18 @@ The <b>DxgkCbQueryServices</b> function returns an interface implemented by the 
 
 
 
-### -param DeviceHandle [in]
-
+### -param DeviceHandle 
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
-### -param ServicesType [in]
-
+### -param ServicesType 
+[in]
 A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ne-dispmprt-dxgk_services">DXGK_SERVICES</a> enumeration that specifies which interface is being requested. This parameter must be set to <b>DxgkServicesAgp</b>, <b>DxgkServicesDebugReport</b>, or <b>DxgkServicesTimedOperation</b>, as those are the only supported interfaces.
 
 
-### -param Interface [in, out]
-
+### -param Interface 
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure that receives the requested interface.
 
 

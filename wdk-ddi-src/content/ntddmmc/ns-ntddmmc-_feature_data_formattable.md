@@ -6,7 +6,7 @@ old-location: storage\feature_data_formattable.htm
 tech.root: storage
 ms.assetid: 658ea6a4-309d-4f78-9a02-f93e7d945325
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_FORMATTABLE structure"]
+keywords: ["FEATURE_DATA_FORMATTABLE structure"]
 ms.keywords: "*PFEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE, FEATURE_DATA_FORMATTABLE structure [Storage Devices], PFEATURE_DATA_FORMATTABLE, PFEATURE_DATA_FORMATTABLE structure pointer [Storage Devices], _FEATURE_DATA_FORMATTABLE, ntddmmc/FEATURE_DATA_FORMATTABLE, ntddmmc/PFEATURE_DATA_FORMATTABLE, storage.feature_data_formattable, structs-CD-ROM_27503157-de29-4c39-bb7a-b17528984f7f.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_FORMATTABLE"

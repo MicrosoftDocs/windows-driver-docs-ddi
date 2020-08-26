@@ -5,7 +5,7 @@ description: The DXGK_RENDERKM_COMMAND structure is used to construct a command 
 old-location: display\dxgk_renderkm_command.htm
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae
 ms.date: 05/10/2018
-keywords: ["_DXGK_RENDERKM_COMMAND structure"]
+keywords: ["DXGK_RENDERKM_COMMAND structure"]
 ms.keywords: DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

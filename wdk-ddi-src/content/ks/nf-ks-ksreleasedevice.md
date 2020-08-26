@@ -56,8 +56,8 @@ The<b> KsReleaseDevice</b> function releases the device mutex and exits the crit
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device for which to release synchronous control.
 
 

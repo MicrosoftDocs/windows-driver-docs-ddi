@@ -55,8 +55,8 @@ The <i>SetVertexShaderConst</i> function sets one or more vertex shader constant
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

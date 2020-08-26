@@ -6,7 +6,7 @@ old-location: kernel\reg_load_key_information.htm
 tech.root: kernel
 ms.assetid: 4012667b-d287-4846-8860-0cca977f9792
 ms.date: 04/30/2018
-keywords: ["_REG_LOAD_KEY_INFORMATION structure"]
+keywords: ["REG_LOAD_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_LOAD_KEY_INFORMATION, kernel.reg_load_key_information, kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml, wdm/PREG_LOAD_KEY_INFORMATION, wdm/REG_LOAD_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_LOAD_KEY_INFORMATION"
@@ -62,7 +62,7 @@ A pointer to the registry key object for the root key of the hive that is about 
 
 ### -field KeyName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the root key.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the root key.
 
 
 ### -field SourceFile
@@ -138,7 +138,7 @@ For more information about registry filtering operations, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

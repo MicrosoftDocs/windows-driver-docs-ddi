@@ -49,24 +49,24 @@ The **FltQueryDirectoryFile** routine returns various kinds of information about
 
 ## -parameters
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque pointer to the minifilter driver instance that initiates the I/O.
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to the file object that represents the directory to be scanned.
 
-### -param FileInformation [out]
-
+### -param FileInformation 
+[out]
 Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the *FileInformationClass* parameter.
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should set this parameter according to the given *FileInformationClass*.
 
-### -param FileInformationClass [in]
-
+### -param FileInformationClass 
+[in]
 Type of information to be returned about files in the directory. One of the values in the following table can be used.
 
 <table>
@@ -185,22 +185,22 @@ Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 </table>
 
-### -param ReturnSingleEntry [in]
-
+### -param ReturnSingleEntry 
+[in]
 Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **FltQueryDirectoryFile** returns only the first entry that is found.
 
-### -param FileName [in, optional]
-
+### -param FileName 
+[in, optional]
 Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**.
 
 If *FileName* is not **NULL**, only files whose names match the *FileName* string are included in the directory scan. If *FileName* is **NULL**, all files are included. If *RestartScan* is **FALSE**, the value of *FileName* is ignored.
 
-### -param RestartScan [in]
-
+### -param RestartScan 
+[in]
 Set to **TRUE** if the scan is to start at the first entry in the directory. Set to **FALSE** if resuming the scan from a previous call. The caller must set this parameter to **TRUE** when calling **FltQueryDirectoryFile **for the first time.
 
-### -param LengthReturned [out, optional]
-
+### -param LengthReturned 
+[out, optional]
 Receives the number of bytes actually written to the given *FileInformation* buffer.
 
 ## -returns

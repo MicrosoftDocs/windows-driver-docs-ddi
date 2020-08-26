@@ -57,13 +57,13 @@ The <b>MmMapLockedPages</b> routine maps the physical pages that are described b
 
 
 
-### -param MemoryDescriptorList [in]
-
+### -param MemoryDescriptorList 
+[in]
 Pointer to an MDL that was updated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a>.
 
 
-### -param AccessMode [in]
-
+### -param AccessMode 
+[in]
 Specifies the access mode in which to map the MDL, either <b>KernelMode</b> or <b>UserMode</b>. Almost all drivers should use <b>KernelMode</b>.
 
 

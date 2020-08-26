@@ -55,33 +55,33 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
 
 
 
-### -param Callbacks [out]
-
+### -param Callbacks 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_default_endpoint_event_callbacks">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS</a> structure that contains pointers to the client driver's event callback functions.
 
 
-### -param EvtEndpointPurge [in]
-
+### -param EvtEndpointPurge 
+[in]
 A pointer to client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_purge">EVT_UCX_ENDPOINT_PURGE</a>                     event callback function.
 
 
-### -param EvtEndpointStart [in]
-
+### -param EvtEndpointStart 
+[in]
 A pointer to client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_start">EVT_UCX_ENDPOINT_START</a>                     event callback function.
 
 
-### -param EvtEndpointAbort [in]
-
+### -param EvtEndpointAbort 
+[in]
 A pointer to client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_abort">EVT_UCX_ENDPOINT_ABORT</a>                     event callback function.
 
 
-### -param EvtEndpointOkToCancelTransfers [in]
-
+### -param EvtEndpointOkToCancelTransfers 
+[in]
 A pointer to client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_ok_to_cancel_transfers">EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS</a>    event callback function.
 
 
-### -param EvtDefaultEndpointUpdate [in]
-
+### -param EvtDefaultEndpointUpdate 
+[in]
 A pointer to client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>    event callback function.
 
 

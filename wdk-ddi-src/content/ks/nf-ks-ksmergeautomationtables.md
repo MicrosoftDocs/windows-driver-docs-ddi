@@ -56,23 +56,23 @@ The<b> KsMergeAutomationTables</b> function merges two automation tables.
 
 
 
-### -param AutomationTableAB [out]
-
+### -param AutomationTableAB 
+[out]
 A pointer to the location at which a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_">KSAUTOMATION_TABLE</a> is deposited. This structure is the resulting merged automation table.
 
 
-### -param AutomationTableA [in, optional]
-
+### -param AutomationTableA 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_">KSAUTOMATION_TABLE</a> structure representing the first of the two automation tables to merge. This table is the dominant table with respect to duplicate entries. If <b>NULL</b>, <i>AutomationTableB</i> is copied into <i>AutomationTableAB</i> and optionally placed in <i>Bag</i>.
 
 
-### -param AutomationTableB [in, optional]
-
+### -param AutomationTableB 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_">KSAUTOMATION_TABLE</a> structure representing the second of the two automation tables to merge. If <b>NULL</b>, <i>AutomationTableA</i> is copied into <i>AutomationTableAB</i> and optionally placed in <i>Bag</i>.
 
 
-### -param Bag [in, optional]
-
+### -param Bag 
+[in, optional]
 The newly created automation table is placed in this KSOBJECT_BAG (equivalent to type PVOID) for later clean up. This parameter is optional.
 
 

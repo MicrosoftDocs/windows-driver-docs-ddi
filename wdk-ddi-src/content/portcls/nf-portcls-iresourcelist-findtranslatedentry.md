@@ -55,13 +55,13 @@ The <code>FindTranslatedEntry</code> method returns a pointer to a translated en
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Identifies the resource type of the entry to find. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the entry to find. If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iresourcelist-numberofentriesoftype">IResourceList::NumberOfEntriesOfType</a> method returns a value <i>n</i> for the number of entries of type <i>Type</i>, valid indices range from 0 to <i>n</i>-1. If <i>Index</i> is zero, for example, the method returns a pointer to the translated version of the first occurrence of an entry of the specified type from the resource list.
 
 

@@ -60,13 +60,13 @@ The <b>WdfUsbTargetPipeConfigContinuousReader</b> method configures the framewor
 
 
 
-### -param Pipe [in]
-
+### -param Pipe 
+[in]
 A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure.
 
 

@@ -63,8 +63,8 @@ The Bluetooth
      <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.</p>
 
 
-### -param AttribId [in]
-
+### -param AttribId 
+[in]
 The identifier of the attribute to attach.
 
 
@@ -73,8 +73,8 @@ The identifier of the attribute to attach.
 <p>Pointer to the SDP node to be added as an attribute.</p>
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 Specifies a 4-byte 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 

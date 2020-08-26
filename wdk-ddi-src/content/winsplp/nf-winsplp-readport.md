@@ -69,13 +69,13 @@ BOOL ReadPort(
 
 
 
-### -param hPort [in]
-
+### -param hPort 
+[in]
 Caller-supplied port handle.
 
 
-### -param pBuffer [out]
-
+### -param pBuffer 
+[out]
 Caller-supplied pointer to a buffer to receive data read from the port.
 
 
@@ -84,8 +84,8 @@ Caller-supplied pointer to a buffer to receive data read from the port.
 Caller-supplied size, in bytes, of <i>pBuffer</i>.
 
 
-### -param pcbRead [out]
-
+### -param pcbRead 
+[out]
 Caller-supplied pointer to a location to receive the number of bytes successfully read from the port.
 
 

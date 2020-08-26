@@ -55,23 +55,23 @@ The <b>AtaPortDeviceBusy</b> routine informs the port driver that the indicated 
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension.
 
 
-### -param TargetId [in]
-
+### -param TargetId 
+[in]
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
-
+### -param Lun 
+[in]
 Specifies the logical unit number (LUN) of the device.
 
 
-### -param BusyTimeout [in]
-
+### -param BusyTimeout 
+[in]
 Specifies the time, in seconds, for which the device is presumed to be busy.
 
 

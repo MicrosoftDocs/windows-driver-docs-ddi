@@ -56,18 +56,18 @@ The <b>HidP_GetLinkCollectionNodes</b> routine returns a <a href="https://docs.m
 
 
 
-### -param LinkCollectionNodes [out]
-
+### -param LinkCollectionNodes 
+[out]
 Pointer to a caller-allocated array of HIDP_LINK_COLLECTION_NODE structures in which <b>HidP_GetLinkCollectionNodes</b> returns a top-level collection's link collection array.
 
 
-### -param LinkCollectionNodesLength [in, out]
-
+### -param LinkCollectionNodesLength 
+[in, out]
 Specifies, on input, the length, in array elements, of the <i>LinkCollectionNodes</i> buffer. On output, the routine sets <i>LinkCollectionNodesLength</i> to the number of entries in the array that it set.
 
 
-### -param PreparsedData [in]
-
+### -param PreparsedData 
+[in]
 Pointer to the preparsed data of the top-level collection for which this routine returns a link collection array.
 
 

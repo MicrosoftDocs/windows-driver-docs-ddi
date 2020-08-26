@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies the handle identifying the VC.
 
 
-### -param CallParameters [in]
-
+### -param CallParameters 
+[in]
 Pointer to a caller-allocated buffer, formatted as a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, containing all the
      media-specific parameters that the miniport driver uses for the activated VC.

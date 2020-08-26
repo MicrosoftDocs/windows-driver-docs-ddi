@@ -55,18 +55,18 @@ The <b>CcUnpinRepinnedBcb</b> routine unpins a repinned buffer control block (BC
 
 
 
-### -param Bcb [in]
-
+### -param Bcb 
+[in]
 Pointer to the repinned BCB.
 
 
-### -param WriteThrough [in]
-
+### -param WriteThrough 
+[in]
 Set to <b>TRUE</b> if the BCB should be written through.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 Pointer to an IO_STATUS_BLOCK structure. If the call to <b>CcUnpinRepinnedBcb</b> succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that were successfully flushed to disk.
 
 

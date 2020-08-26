@@ -60,18 +60,18 @@ req.typenames:
 <p>A pointer to the FCB structure to be dereferenced and finalized.</p>
 
 
-### -param RxContext [in]
-
+### -param RxContext 
+[in]
 A pointer to the RX_CONTEXT structure associated with the <i>Fcb</i> parameter.
 
 
-### -param RecursiveFinalize [in]
-
+### -param RecursiveFinalize 
+[in]
 A parameter that indicates if this should be a recursive finalize operation.
 
 
-### -param ForceFinalize [in]
-
+### -param ForceFinalize 
+[in]
 A parameter that indicates if this routine should force the <i>Fcb</i> parameter to be finalized.
 
 

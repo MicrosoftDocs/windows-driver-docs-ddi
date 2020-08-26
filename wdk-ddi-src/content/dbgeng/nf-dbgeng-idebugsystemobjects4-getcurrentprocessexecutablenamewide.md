@@ -55,18 +55,18 @@ The <b>GetCurrentProcessExecutableNameWide</b>  method returns the name of execu
 
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the name of the executable file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param ExeSize [out, optional]
-
+### -param ExeSize 
+[out, optional]
 Receives the size in characters of the name of the executable file.  If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
 
 

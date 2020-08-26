@@ -55,8 +55,8 @@ The <b>MultiSendRecv</b> method sends a list of bidi requests.
 
 
 
-### -param pszAction [in]
-
+### -param pszAction 
+[in]
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
 
 <table>
@@ -89,8 +89,8 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
  
 
 
-### -param pRequestContainer [in]
-
+### -param pRequestContainer 
+[in]
 A pointer to the list of bidi requests.
 
 

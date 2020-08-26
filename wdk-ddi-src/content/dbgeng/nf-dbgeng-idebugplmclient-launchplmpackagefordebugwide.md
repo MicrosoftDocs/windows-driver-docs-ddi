@@ -55,38 +55,38 @@ Launches a suspended Process Lifecycle Management (PLM) application.
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 The server of the application.
 
 
-### -param Timeout [in]
-
+### -param Timeout 
+[in]
 A time-out value.
 
 
-### -param PackageFullName [in]
-
+### -param PackageFullName 
+[in]
 A pointer to the package name.
 
 
-### -param AppName [in]
-
+### -param AppName 
+[in]
 A pointer to the application name. 
 
 
-### -param Arguments [in, optional]
-
+### -param Arguments 
+[in, optional]
 A pointer an arguments string.
 
 
-### -param ProcessId [out]
-
+### -param ProcessId 
+[out]
 A pointer to a process ID output.
 
 
-### -param ThreadId [out]
-
+### -param ThreadId 
+[out]
 A pointer to a thread ID output.
 
 
@@ -94,7 +94,7 @@ A pointer to a thread ID output.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

@@ -6,7 +6,7 @@ old-location: buses\usbfn_event.htm
 tech.root: usbref
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
 ms.date: 05/07/2018
-keywords: ["_USBFN_EVENT enumeration"]
+keywords: ["USBFN_EVENT enumeration"]
 ms.keywords: "*PUSBFN_EVENT, USBFN_EVENT, USBFN_EVENT enumeration [Buses], UsbfnEventAttach, UsbfnEventBusTearDown, UsbfnEventConfigured, UsbfnEventDetach, UsbfnEventMaximum, UsbfnEventMinimum, UsbfnEventPortType, UsbfnEventReset, UsbfnEventResume, UsbfnEventSetInterface, UsbfnEventSetupPacket, UsbfnEventSuspend, UsbfnEventUnConfigured, _USBFN_EVENT, buses.usbfn_event, usbfnbase/USBFN_EVENT, usbfnbase/UsbfnEventAttach, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventConfigured, usbfnbase/UsbfnEventDetach, usbfnbase/UsbfnEventMaximum, usbfnbase/UsbfnEventMinimum, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventReset, usbfnbase/UsbfnEventResume, usbfnbase/UsbfnEventSetInterface, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventUnConfigured"
 f1_keywords:
  - "usbfnbase/USBFN_EVENT"

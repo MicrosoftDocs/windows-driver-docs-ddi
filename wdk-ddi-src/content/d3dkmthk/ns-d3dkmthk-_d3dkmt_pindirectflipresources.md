@@ -4,7 +4,7 @@ title: _D3DKMT_PINDIRECTFLIPRESOURCES (d3dkmthk.h)
 description: Indirect flip resources.
 ms.assetid: 85ecd291-4c2d-4cb2-bb8c-67c21d61b0a6
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_PINDIRECTFLIPRESOURCES structure"]
+keywords: ["D3DKMT_PINDIRECTFLIPRESOURCES structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PINDIRECTFLIPRESOURCES"
  - "_D3DKMT_PINDIRECTFLIPRESOURCES"

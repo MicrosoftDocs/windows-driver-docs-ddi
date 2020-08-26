@@ -55,8 +55,8 @@ The <b>IoThreadToProcess</b> routine returns a pointer to the process for the sp
 
 
 
-### -param Thread [in]
-
+### -param Thread 
+[in]
 Thread whose process is to be returned.
 
 

@@ -55,38 +55,38 @@ The <b>GetExpressionSyntaxNames</b>  method returns the full and abbreviated nam
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the expression syntax.  <i>Index</i> should be between zero and the number of expression syntaxes returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberexpressionsyntaxes">GetNumberExpressionSyntaxes</a> minus one.
 
 
-### -param FullNameBuffer [out, optional]
-
+### -param FullNameBuffer 
+[out, optional]
 Receives the full name of the expression syntax.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FullNameBufferSize [in]
-
+### -param FullNameBufferSize 
+[in]
 Specifies the size, in characters, of the buffer <i>FullNameBuffer</i>.
 
 
-### -param FullNameSize [out, optional]
-
+### -param FullNameSize 
+[out, optional]
 Receives the size, in characters, of the full name of the expression syntax.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param AbbrevNameBuffer [out, optional]
-
+### -param AbbrevNameBuffer 
+[out, optional]
 Receives the abbreviated name of the expression syntax.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param AbbrevNameBufferSize [in]
-
+### -param AbbrevNameBufferSize 
+[in]
 Specifies the size, in characters, of the buffer <i>AbbrevNameBufferSize</i>.
 
 
-### -param AbbrevNameSize [out, optional]
-
+### -param AbbrevNameSize 
+[out, optional]
 Receives the size, in characters, of the abbreviated name of the expression syntax.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
 

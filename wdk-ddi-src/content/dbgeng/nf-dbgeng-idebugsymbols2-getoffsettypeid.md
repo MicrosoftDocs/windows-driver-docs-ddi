@@ -57,18 +57,18 @@ The <b>GetOffsetTypeId</b> method returns the type ID of the symbol closest to t
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's memory for the symbol.  The symbol closest to this location is used.
 
 
-### -param TypeId [out]
-
+### -param TypeId 
+[out]
 Receives the type ID of the symbol.
 
 
-### -param Module [out, optional]
-
+### -param Module 
+[out, optional]
 Specifies the location in the target's memory address space of the base of the module to which the symbol belongs.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.  If <i>Module</i> is <b>NULL</b>, this information is not returned.
 
 

@@ -57,18 +57,18 @@ The <b>WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 
 
 
-### -param pDevice [in]
-
+### -param pDevice 
+[in]
 Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies a byte to write to the register.
 
 

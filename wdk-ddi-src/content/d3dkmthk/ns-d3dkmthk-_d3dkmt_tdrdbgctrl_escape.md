@@ -4,7 +4,7 @@ title: _D3DKMT_TDRDBGCTRL_ESCAPE (d3dkmthk.h)
 description: Contains values for the (TDR) timeout detection and recovery escape process.
 ms.assetid: 0a8356c9-0c42-4aee-9880-80d45be746f5
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_TDRDBGCTRL_ESCAPE structure"]
+keywords: ["D3DKMT_TDRDBGCTRL_ESCAPE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TDRDBGCTRL_ESCAPE"
  - "_D3DKMT_TDRDBGCTRL_ESCAPE"

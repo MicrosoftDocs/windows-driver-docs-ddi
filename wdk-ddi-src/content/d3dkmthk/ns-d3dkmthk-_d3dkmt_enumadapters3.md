@@ -4,7 +4,7 @@ title: _D3DKMT_ENUMADAPTERS3 (d3dkmthk.h)
 description: Supplies information for enumerating all graphics adapters on the system.
 ms.assetid: 82fbef6f-b3ce-4ab8-b5af-cbb219593d3f
 ms.date: 03/24/2020
-keywords: ["_D3DKMT_ENUMADAPTERS3 structure"]
+keywords: ["D3DKMT_ENUMADAPTERS3 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ENUMADAPTERS3"
  - "_D3DKMT_ENUMADAPTERS3"

@@ -55,13 +55,13 @@ The <b>IoGetRequestorSessionId</b> routine returns the session ID for the proces
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the I/O request packet (IRP) for the I/O operation. 
 
 
-### -param pSessionId [out]
-
+### -param pSessionId 
+[out]
 A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a> fails, this variable is set to -1.
 
 

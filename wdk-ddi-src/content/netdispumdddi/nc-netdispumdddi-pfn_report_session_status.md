@@ -57,18 +57,18 @@ Called by the user-mode display driver to report the status of the current Mirac
 
 
 
-### -param hMiracastDeviceHandle [in]
-
+### -param hMiracastDeviceHandle 
+[in]
 A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
 
-### -param MiracastStatus [in]
-
+### -param MiracastStatus 
+[in]
 The current status of the Miracast link, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_status">MIRACAST_STATUS</a>.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 A status value the driver can provide that's logged for diagnostics purposes.
 
 

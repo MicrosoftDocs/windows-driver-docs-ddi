@@ -55,18 +55,18 @@ The <b>ZwOpenKey</b> routine opens an existing registry key.
 
 
 
-### -param KeyHandle [out]
-
+### -param KeyHandle 
+[out]
 Pointer to the HANDLE variable that receives the handle to the key.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. For more information, see the <i>DesiredAccess</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>. 
 
 
-### -param ObjectAttributes [in]
-
+### -param ObjectAttributes 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 

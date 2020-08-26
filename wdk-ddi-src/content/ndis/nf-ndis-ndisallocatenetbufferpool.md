@@ -58,13 +58,13 @@ Call the
 
 
 
-### -param NdisHandle [in, optional]
-
+### -param NdisHandle 
+[in, optional]
 An NDIS handle that was obtained during caller initialization.
 
 
-### -param Parameters [in]
-
+### -param Parameters 
+[in]
 A pointer to a NET_BUFFER_POOL_PARAMETERS structure that defines the parameters for the pool. The
      structure is defined as follows:
      

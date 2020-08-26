@@ -71,22 +71,22 @@ DWORD WINAPI * Dot11ExtProcessOneXPacket(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param dwInPacketSize [in]
-
+### -param dwInPacketSize 
+[in]
 The length, in bytes, of the packet data within the buffer that is referenced by the
      <i>pvInPacket</i> parameter.
 
 
-### -param pvInPacket [in]
-
+### -param pvInPacket 
+[in]
 The EAPOL packet received from the AP. The
      <i>pvInPacket</i> parameter must reference the EAPOL packet starting from the packet type field in the
      EAPOL protocol data unit (PDU). For more information about the EAPOL packet type field, refer to Clause

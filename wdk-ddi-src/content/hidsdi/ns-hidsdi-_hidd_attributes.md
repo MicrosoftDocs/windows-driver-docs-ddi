@@ -6,7 +6,7 @@ old-location: hid\hidd_attributes.htm
 tech.root: hid
 ms.assetid: 31bfa863-459f-4fb2-af41-2d40d0396dd7
 ms.date: 04/30/2018
-keywords: ["_HIDD_ATTRIBUTES structure"]
+keywords: ["HIDD_ATTRIBUTES structure"]
 ms.keywords: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES, HIDD_ATTRIBUTES structure [Human Input Devices], PHIDD_ATTRIBUTES, PHIDD_ATTRIBUTES structure pointer [Human Input Devices], _HIDD_ATTRIBUTES, hid.hidd_attributes, hidsdi/HIDD_ATTRIBUTES, hidsdi/PHIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml"
 f1_keywords:
  - "hidsdi/HIDD_ATTRIBUTES"

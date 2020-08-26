@@ -57,13 +57,13 @@ For non-monolithic drivers, this initialization routine is equivalent to the <a 
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
 
 
-### -param RegistryPath [in]
-
+### -param RegistryPath 
+[in]
 A pointer to a Unicode string containing the registry path to where driver parameters and other configuration data are stored. This registry path is normally located under a services entry for the specific network mini-redirector located under the following key:
 
 HKLM\System\CurrentControlSet\Services

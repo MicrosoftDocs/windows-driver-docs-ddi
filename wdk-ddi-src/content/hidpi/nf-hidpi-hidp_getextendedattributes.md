@@ -56,28 +56,28 @@ The <b>HidP_GetExtendedAttributes</b> routine returns the extended attributes of
 
 
 
-### -param ReportType [in]
-
+### -param ReportType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report associated with the HID control specified by <i>DataIndex</i>.
 
 
-### -param DataIndex [in]
-
+### -param DataIndex 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/data-indices">data index</a> of the HID control.
 
 
-### -param PreparsedData [in]
-
+### -param PreparsedData 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> for the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that contains the specified control.
 
 
-### -param Attributes [out]
-
+### -param Attributes 
+[out]
 Pointer to a caller-allocated buffer that the routine uses to return the extended attributes of the control specified by <i>DataIndex</i>.
 
 
-### -param LengthAttributes [in, out]
-
+### -param LengthAttributes 
+[in, out]
 Specifies the size, in bytes, of the <i>Attributes</i> buffer (which must be greater than or equal to sizeof(HIDP_EXTENDED_ATTRIBUTES).
 
 

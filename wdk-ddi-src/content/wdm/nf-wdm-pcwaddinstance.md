@@ -49,29 +49,29 @@ The `PcwAddInstance` function adds the specified instance of the counterset to t
 
 ## -parameters
 
-### -param Buffer [in]
+### -param Buffer
 
-A handle to the system-managed buffer to which the instance of the counterset will be added. When the buffer comes from a `PcwCallbackEnumerateInstances` notification, `PcwAddInstance` will record only the Name and Id of the instance. When the buffer comes from a `PcwCallbackCollectData` notification, `PcwAddInstance` will record the Name, Id, and Data (counter values) of the instance.
+[in] A handle to the system-managed buffer to which the instance of the counterset will be added. When the buffer comes from a `PcwCallbackEnumerateInstances` notification, `PcwAddInstance` will record only the Name and Id of the instance. When the buffer comes from a `PcwCallbackCollectData` notification, `PcwAddInstance` will record the Name, Id, and Data (counter values) of the instance.
 
-### -param Name [in]
+### -param Name
 
-A pointer to the Unicode string that contains the name of the counterset instance. This must not be NULL.
+[in] A pointer to the Unicode string that contains the name of the counterset instance. This must not be NULL.
 
 Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset is registered as single-instance, the instance `Name` should be blank (0-length). If the counterset registered as multi-instance, the instance `Name` should not be blank. Instance name matching is not case-sensitive, so `Name` values should not differ only by case.
 
-### -param Id [in]
+### -param Id
 
-A numeric value that specifies the `Id` (identifier) associated with the counterset instance.
+[in] A numeric value that specifies the `Id` (identifier) associated with the counterset instance.
 
 Instance `Id` values MUST be stable over time (the same instance should use the same `Id` value for all invocations of the callback), should be unique (e.g. do not use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID` for any instances). When possible, the instance `Id` should be meaningful (e.g. a Process counterset might use a PID as the `Id`) instead of arbitrary (e.g. a sequence number).
 
-### -param Count [in]
+### -param Count
 
-The number of descriptors provided in the `Data` parameter.
+[in] The number of descriptors provided in the `Data` parameter.
 
-### -param Data [in]
+### -param Data
 
-An array of descriptors for the provider data blocks that contain the counter values of this instance.
+[in] An array of descriptors for the provider data blocks that contain the counter values of this instance.
 
 ## -returns
 

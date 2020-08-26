@@ -57,8 +57,8 @@ A driver calls <b>GetHardwareRegisterMappedAddress</b> to get the user-mode mapp
 
 
 
-### -param PseudoBaseAddress [in]
-
+### -param PseudoBaseAddress 
+[in]
 A pointer to the pseudo base address returned by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">MapIoSpace</a>.
 
 

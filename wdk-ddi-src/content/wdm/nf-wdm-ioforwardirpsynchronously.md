@@ -55,13 +55,13 @@ The <b>IoForwardIrpSynchronously</b> routine sends an IRP to a specified driver 
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Specifies the device object of the driver to which the IRP is sent. 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP to send. 
 
 

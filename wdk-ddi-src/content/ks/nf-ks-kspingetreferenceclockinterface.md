@@ -56,13 +56,13 @@ The<b> KsPinGetReferenceClockInterface</b> function returns a COM style interfac
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to return the reference clock interface.
 
 
-### -param Interface [out]
-
+### -param Interface 
+[out]
 A pointer to a memory location that receives the address of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nn-ks-iksreferenceclock">IKsReferenceClock</a> interface. This is a COM style interface with an associated reference count. Minidrivers must release the interface when finished with it.
 
 

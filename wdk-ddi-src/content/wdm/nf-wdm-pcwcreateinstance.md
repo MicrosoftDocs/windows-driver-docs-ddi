@@ -49,27 +49,27 @@ The `PcwCreateInstance` function creates a new counterset instance. Most develop
 
 ## -parameters
 
-### -param Instance [out]
+### -param Instance
 
-A pointer to receive the newly created instance. The instance should be closed using [PcwCloseInstance](nf-wdm-pcwcloseinstance.md).
+[out] A pointer to receive the newly created instance. The instance should be closed using [PcwCloseInstance](nf-wdm-pcwcloseinstance.md).
 
-### -param Registration [in]
+### -param Registration
 
-A pointer to the counterset registration that owns this instance. The registration is created using [PcwRegister](nf-wdm-pcwregister.md).
+[in] A pointer to the counterset registration that owns this instance. The registration is created using [PcwRegister](nf-wdm-pcwregister.md).
 
-### -param Name [in]
+### -param Name
 
-A pointer to the Unicode string that contains the name of the instance of the counterset. This must not be NULL.
+[in] A pointer to the Unicode string that contains the name of the instance of the counterset. This must not be NULL.
 
 Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset is registered as single-instance, the instance `Name` should be blank (0-length). If the counterset registered as multi-instance, the instance `Name` should not be blank. Instance name matching is not case-sensitive, so `Name` values should not differ only by case.
 
-### -param Count [in]
+### -param Count
 
-The number of descriptors provided in the `Data` parameter.
+[in] The number of descriptors provided in the `Data` parameter.
 
-### -param Data [in]
+### -param Data
 
-An array of descriptors for the provider data blocks that contain the counter values of this instance. The data blocks referenced by the descriptors may be accessed at any time and must remain valid until the instance is closed by `PcwCloseInstance` or `PcwUnregister`.
+[in] An array of descriptors for the provider data blocks that contain the counter values of this instance. The data blocks referenced by the descriptors may be accessed at any time and must remain valid until the instance is closed by `PcwCloseInstance` or `PcwUnregister`.
 
 ## -returns
 

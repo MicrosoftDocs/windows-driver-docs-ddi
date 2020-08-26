@@ -55,18 +55,18 @@ The <b>IoSetStartIoAttributes</b> routine sets attributes for the driver's <a hr
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object for the driver's device.
 
 
-### -param DeferredStartIo [in]
-
+### -param DeferredStartIo 
+[in]
 If <b>TRUE</b>, the I/O manager will defer any call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine while the driver is already inside the routine. In particular, if the <i>StartIo</i> routine calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a>, the <i>StartIo</i> routine will not be called again until the current invocation completes. The default is <b>FALSE</b>.
 
 
-### -param NonCancelable [in]
-
+### -param NonCancelable 
+[in]
 If <b>TRUE</b>, the IRP cannot be canceled once it has been dequeued by a call to <b>IoStartNextPacket</b>. The default is <b>FALSE</b>. Drivers that set this member to <b>FALSE</b> must synchronize their IRP handling with the cancel spin lock.
 
 

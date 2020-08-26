@@ -55,8 +55,8 @@ The <b>IoGetIoPriorityHint</b> routine gets the <a href="https://docs.microsoft.
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP to obtain the priority hint from.
 
 

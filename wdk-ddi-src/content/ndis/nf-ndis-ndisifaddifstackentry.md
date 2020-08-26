@@ -58,14 +58,14 @@ The
 
 
 
-### -param HigherLayerIfIndex [in]
-
+### -param HigherLayerIfIndex 
+[in]
 The network interface index for the interface that should be higher in the interface stack
      table.
 
 
-### -param LowerLayerIfIndex [in]
-
+### -param LowerLayerIfIndex 
+[in]
 The network interface index for the interface that should be lower in the interface stack
      table.
 

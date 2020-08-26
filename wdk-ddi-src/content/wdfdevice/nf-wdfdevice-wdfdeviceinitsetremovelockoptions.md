@@ -59,13 +59,13 @@ req.typenames:
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_remove_lock_options">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
 

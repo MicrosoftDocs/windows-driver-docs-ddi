@@ -58,8 +58,8 @@ The
 
 
 
-### -param netBufferListChain [in, out]
-
+### -param netBufferListChain 
+[in, out]
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure chain that is
      being freed. This will be the same as the 
@@ -72,8 +72,8 @@ A pointer to the
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
-### -param dispatchLevel [in]
-
+### -param dispatchLevel 
+[in]
 A value that indicates the current IRQL = DISPATCH_LEVEL. A callout driver should set this
      parameter to <b>TRUE</b> only if it is running at IRQL = DISPATCH_LEVEL. Otherwise, a callout driver should set
      this parameter to <b>FALSE</b>.

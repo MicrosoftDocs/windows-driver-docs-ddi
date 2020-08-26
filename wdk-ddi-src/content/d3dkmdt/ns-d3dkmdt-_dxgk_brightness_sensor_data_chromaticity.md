@@ -4,7 +4,7 @@ title: _DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY (d3dkmdt.h)
 description: The chromaticity coordinates from a color sensor.
 ms.assetid: c6709e1b-9604-43db-88c8-23ef35db43e0
 ms.date: 10/19/2018
-keywords: ["_DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY structure"]
+keywords: ["DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY"
  - "_DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY"

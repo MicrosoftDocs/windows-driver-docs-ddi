@@ -6,7 +6,7 @@ old-location: bltooth\channel_config_results_enhanced.htm
 tech.root: bltooth
 ms.assetid: E7A2FC77-86B0-4990-93DC-2A04E33A426C
 ms.date: 04/27/2018
-keywords: ["_CHANNEL_CONFIG_RESULTS_ENHANCED structure"]
+keywords: ["CHANNEL_CONFIG_RESULTS_ENHANCED structure"]
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS_ENHANCED, bltooth.channel_config_results_enhanced, bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED"
 f1_keywords:
  - "bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED"

@@ -55,8 +55,8 @@ The <b>KeQueryPriorityThread</b> routine returns the current priority of a parti
 
 
 
-### -param Thread [in]
-
+### -param Thread 
+[in]
 Pointer to a dispatcher object of type KTHREAD. 
 
 

@@ -57,13 +57,13 @@ A driver's <i>EvtDeviceReleaseHardware</i> event callback function performs oper
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param ResourcesTranslated [in]
-
+### -param ResourcesTranslated 
+[in]
 A handle to a resource list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 

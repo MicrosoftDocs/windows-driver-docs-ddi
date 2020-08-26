@@ -57,8 +57,8 @@ The <b>WdfRequestGetUserModeDriverInitiatedIo</b> method determines whether an I
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

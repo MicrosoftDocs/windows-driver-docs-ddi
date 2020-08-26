@@ -5,7 +5,7 @@ description: The WWAN_SAR_CONTROL_MODE enumeration specifies how the SAR back of
 tech.root: netvista
 ms.assetid: a951b293-b261-4daa-aeb6-7a037ea5fc47
 ms.date: 08/20/2018
-keywords: ["_WWAN_SAR_CONTROL_MODE enumeration"]
+keywords: ["WWAN_SAR_CONTROL_MODE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_SAR_CONTROL_MODE"
  - "_WWAN_SAR_CONTROL_MODE"

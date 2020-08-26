@@ -57,8 +57,8 @@ The filter engine calls a callout's
 
 
 
-### -param notifyType [in]
-
+### -param notifyType 
+[in]
 A value that indicates the type of notification that the filter engine is sending to the callout.
      Valid values for this parameter are:
      
@@ -86,15 +86,15 @@ A filter is being deleted from the filter engine that specifies the callout for 
 A maximum value for testing purposes.
 
 
-### -param filterKey [in]
-
+### -param filterKey 
+[in]
 A pointer to the management identifier for the filter, as specified by the application or driver
      that is adding or deleting the filter. Must be <b>NULL</b> if the 
      <i>notifyType</i> parameter is set to FWPS_CALLOUT_NOTIFY_DELETE_FILTER. For more information, see Remarks.
 
 
-### -param filter [in]
-
+### -param filter 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure. This structure
      describes the filter that is being added to or deleted from the filter engine.

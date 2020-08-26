@@ -57,8 +57,8 @@ The Bluetooth
 
 
 
-### -param Tree [in]
-
+### -param Tree 
+[in]
 The root node of the SDP tree-based representation to be freed.
 
 

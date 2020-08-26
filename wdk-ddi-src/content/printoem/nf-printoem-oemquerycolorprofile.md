@@ -69,11 +69,11 @@ req.typenames:
 ### -param ulQueryMode
 
 
-### -param pvProfileData [out]
+### -param pvProfileData 
+[out]
 
+### -param pcbProfileData 
+[out]
 
-### -param pcbProfileData [out]
-
-
-### -param pflProfileData [out]
-
+### -param pflProfileData 
+[out]

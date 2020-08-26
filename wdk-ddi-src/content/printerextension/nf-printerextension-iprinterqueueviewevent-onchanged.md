@@ -55,23 +55,23 @@ Provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pri
 
 
 
-### -param pCollection [in]
-
+### -param pCollection 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a> object.
 
 
-### -param ulViewOffset [in]
-
+### -param ulViewOffset 
+[in]
 The start of the range of jobs being monitored.
 
 
-### -param ulViewSize [in]
-
+### -param ulViewSize 
+[in]
 The range of jobs being monitored.
 
 
-### -param ulCountJobsInPrintQueue [in]
-
+### -param ulCountJobsInPrintQueue 
+[in]
 The current number of jobs in the print queue.
 
 

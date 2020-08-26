@@ -6,7 +6,7 @@ old-location: kernel\pep_acpi_query_device_control_resources.htm
 tech.root: kernel
 ms.assetid: 7DBDC5A7-1BF4-41B6-A72E-1B53CAC06823
 ms.date: 04/30/2018
-keywords: ["_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure"]
+keywords: ["PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure"]
 ms.keywords: "*PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_query_device_control_resources, pepfx/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 f1_keywords:
  - "pep_x/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"

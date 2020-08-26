@@ -56,18 +56,18 @@ Returns an MDL associated with the input data buffer  of a SCSI request block (S
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 The request block to containing the data described by the MDL pointed to by <i>Mdl</i>.
 
 
-### -param Mdl [out]
-
+### -param Mdl 
+[out]
 A pointer to  an MDL address to receive the MDL for <i>Srb</i>.
 
 

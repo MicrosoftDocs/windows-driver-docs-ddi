@@ -55,34 +55,34 @@ A minifilter driver that provides file names for the filter manager's name cache
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the minifilter driver instance that this callback routine is registered for. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the file whose name is being requested. 
 
 
-### -param CallbackData [in, optional]
-
+### -param CallbackData 
+[in, optional]
 A pointer to the callback data structure for the operation during which this name is being requested. This parameter is <b>NULL</b> when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe">FltGetFileNameInformationUnsafe</a> is called to retrieve the name of the file.
 
 
-### -param NameOptions [in]
-
+### -param NameOptions 
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options">FLT_FILE_NAME_OPTIONS</a> value that specifies the name format, query method, and flags for this file name information query. 
 
 
-### -param CacheFileNameInformation [out]
-
+### -param CacheFileNameInformation 
+[out]
 A pointer to a Boolean value specifying whether this name can be cached. Set to <b>TRUE</b> on output if the name can be cached; set to <b>FALSE</b> otherwise. 
 
 
-### -param FileName [out]
-
+### -param FileName 
+[out]
 A pointer to a filter manager-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_name_control">FLT_NAME_CONTROL</a> structure to receive the file name on output. 
 
 

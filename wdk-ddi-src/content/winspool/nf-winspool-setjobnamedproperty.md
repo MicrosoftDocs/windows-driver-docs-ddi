@@ -55,11 +55,11 @@ Describes the SetJobNamedProperty function.
 
 
 
-### -param hPrinter [in]
+### -param hPrinter 
+[in]
 
+### -param JobId 
+[in]
 
-### -param JobId [in]
-
-
-### -param pProperty [in]
-
+### -param pProperty 
+[in]

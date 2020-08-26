@@ -56,13 +56,13 @@ The <b>GetIndexByName</b> method returns the index of the named register.
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 Specifies the name of the register whose index is requested.
 
 
-### -param Index [out]
-
+### -param Index 
+[out]
 Receives the index of the register.
 
 

@@ -74,25 +74,25 @@ typedef SRIOV_WRITE_BLOCK *PSRIOV_WRITE_BLOCK;
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to a driver-defined context.
 
 
 
 
-### -param VfIndex [in]
-
+### -param VfIndex 
+[in]
 A zero-based index of the VF to which this write operation applies.
 
 
-### -param BlockId [in]
-
+### -param BlockId 
+[in]
 A number identifying the block to be written.  This is defined by the provider of the PF driver.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a buffer that contains the data to write to the VF's  configuration space.
 
 

@@ -55,28 +55,28 @@ Queries symbol information and returns locations in the target's memory by using
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 The  offset of the entry.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bit-set that contains options that affect the behavior of this method.
 
 
-### -param Entries [out]
-
+### -param Entries 
+[out]
 A pointer to a returned entry as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure.
 
 
-### -param EntriesCount [in]
-
+### -param EntriesCount 
+[in]
 The number of entries.
 
 
-### -param EntriesAvail [out, optional]
-
+### -param EntriesAvail 
+[out, optional]
 A pointer to the number of entries available. 
 
 
@@ -84,7 +84,7 @@ A pointer to the number of entries available.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

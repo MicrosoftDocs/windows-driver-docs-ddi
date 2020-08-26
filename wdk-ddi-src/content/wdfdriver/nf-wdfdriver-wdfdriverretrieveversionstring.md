@@ -60,13 +60,13 @@ The <b>WdfDriverRetrieveVersionString</b> method retrieves a Unicode string that
 
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
 
-### -param String [in]
-
+### -param String 
+[in]
 A handle to a framework string object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfstring/nf-wdfstring-wdfstringcreate">WdfStringCreate</a>. The framework assigns the version string to the string object.
 
 

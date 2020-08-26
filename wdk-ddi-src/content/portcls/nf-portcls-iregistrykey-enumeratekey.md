@@ -55,13 +55,13 @@ The <code>EnumerateKey</code> method returns information about the subkeys of th
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the subkey index. This parameter identifies the subkey for which key information is requested. If the key contains <i>n</i> subkeys, valid indices range from 0 to <i>n</i>-1. If the index exceeds this range, the method returns STATUS_NO_MORE_ENTRIES.
 
 
-### -param KeyInformationClass [in]
-
+### -param KeyInformationClass 
+[in]
 Specifies the type of information to be returned in the buffer. Set this parameter to one of the following KEY_INFORMATION_CLASS enumeration values:
 
 <ul>
@@ -79,18 +79,18 @@ Specifies the type of information to be returned in the buffer. Set this paramet
 </li>
 </ul>
 
-### -param KeyInformation [out]
-
+### -param KeyInformation 
+[out]
 Pointer to the key information buffer. This parameter points to a caller-allocated buffer into which the method writes the requested data. The buffer contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_basic_information">KEY_BASIC_INFORMATION</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_full_information">KEY_FULL_INFORMATION</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_node_information">KEY_NODE_INFORMATION</a>, depending on the value of <i>KeyInformationClass</i>. The structure is followed by a string of Unicode characters whose size depends on the type of information being requested about the key.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the size in bytes of the <i>KeyInformation</i> buffer, which the caller must set according to the given <i>KeyInformationClass</i>. For the call to succeed, the buffer must be at least as large as the data that the method writes into the buffer.
 
 
-### -param ResultLength [out]
-
+### -param ResultLength 
+[out]
 Output pointer for the length of the resulting data. This parameter points to a caller-allocated ULONG variable into which the method writes a count specifying the number of bytes actually written into the <i>KeyInformation</i> buffer. If the specified buffer length is too small to contain the information, however, the method instead outputs the required buffer size and returns STATUS_BUFFER_OVERFLOW.
 
 

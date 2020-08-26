@@ -55,8 +55,8 @@ The <b>RtlFreeOemString</b> routine releases storage that was allocated by any o
 
 
 
-### -param OemString [in, out]
-
+### -param OemString 
+[in, out]
 Pointer to the OEM string buffer that was allocated by a preceding call to <b>RtlUnicodeStringToCountedOemString</b>, <b>RtlUnicodeStringToOemString</b>, <b>RtlUpcaseUnicodeStringToCountedOemString</b>, or <b>RtlUpcaseUnicodeStringToOemString</b>. 
 
 

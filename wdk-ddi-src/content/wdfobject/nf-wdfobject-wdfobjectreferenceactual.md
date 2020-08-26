@@ -60,23 +60,23 @@ The <b>WdfObjectReferenceActual</b> method increments the reference count for a 
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 A handle to a framework object.
 
 
-### -param Tag [in, optional]
-
+### -param Tag 
+[in, optional]
 A driver-defined value that the framework stores as an identification tag for the object reference.
 
 
-### -param Line [in]
-
+### -param Line 
+[in]
 A numeric value that represents a line number in a driver source file.
 
 
-### -param File [in]
-
+### -param File 
+[in]
 A pointer to a null-terminated constant character string that represents the name of a driver source file. This parameter is optional and can be <b>NULL</b>.
 
 

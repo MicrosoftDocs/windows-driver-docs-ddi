@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pConnection [in]
-
+### -param pConnection 
+[in]
 A pointer to an connection to be torn down.
 
 

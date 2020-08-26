@@ -49,24 +49,24 @@ The **wiasCreateChildAppItem** function creates a new application item and inser
 
 ## -parameters
 
-### -param pParentWiasContext [in]
-
+### -param pParentWiasContext 
+[in]
 Pointer to the item context to which the child will be added.
 
 ### -param lFlags
 
 Is reserved for system use.  
 
-### -param bstrItemName [in]
-
+### -param bstrItemName 
+[in]
 Specifies a string that contains the item name without path information.
 
-### -param bstrFullItemName [in]
-
+### -param bstrFullItemName 
+[in]
 Specifies a string that contains the item name including path information.
 
-### -param ppWiasChildContext [out]
-
+### -param ppWiasChildContext 
+[out]
 Pointer to a memory location that receives the address of the newly created child item's context.
 
 ## -returns

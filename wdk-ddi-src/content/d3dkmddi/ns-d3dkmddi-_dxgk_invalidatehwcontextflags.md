@@ -4,7 +4,7 @@ title: _DXGK_INVALIDATEHWCONTEXTFLAGS (d3dkmddi.h)
 description: Contains running contexts that were are were not affected by the GPU engine reset operation.
 ms.assetid: 67f6eb63-d277-4c36-a43a-f4dd22209a72
 ms.date: 10/19/2018
-keywords: ["_DXGK_INVALIDATEHWCONTEXTFLAGS structure"]
+keywords: ["DXGK_INVALIDATEHWCONTEXTFLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_INVALIDATEHWCONTEXTFLAGS"
  - "_DXGK_INVALIDATEHWCONTEXTFLAGS"

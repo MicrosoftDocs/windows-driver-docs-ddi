@@ -68,17 +68,17 @@ NTSTATUS WdfDeviceStopIdleWithTag(
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param WaitForD0 [in]
-
+### -param WaitForD0 
+[in]
 A Boolean value that indicates when **WdfDeviceStopIdleWithTag** will return. If **TRUE**, it returns only after the specified device has entered the D0 device power state. If **FALSE**, the method returns immediately.
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A driver-defined value that the framework stores as an identification tag for the power reference.
 
 ## -remarks

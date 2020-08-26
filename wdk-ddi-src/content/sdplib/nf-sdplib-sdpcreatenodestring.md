@@ -57,8 +57,8 @@ The Bluetooth
 
 
 
-### -param string [in]
-
+### -param string 
+[in]
 A pointer to the string value to initialize the SDP_NODE structure.
 
 
@@ -67,8 +67,8 @@ A pointer to the string value to initialize the SDP_NODE structure.
 <p>An unsigned long integer value that holds the length of the string.</p>
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 A profile driver defined tag to associate with the node.
 
 

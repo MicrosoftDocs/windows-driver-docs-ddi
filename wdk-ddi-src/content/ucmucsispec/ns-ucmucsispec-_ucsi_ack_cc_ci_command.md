@@ -5,7 +5,7 @@ tech.root: usbref
 description: Used in the ACK_CC_CI command. See Table 4-7.
 ms.assetid: 9b7f17fa-451c-4abc-ab51-a7c2ff09493c
 ms.date: 09/30/2018
-keywords: ["_UCSI_ACK_CC_CI_COMMAND structure"]
+keywords: ["UCSI_ACK_CC_CI_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_ACK_CC_CI_COMMAND"
  - "_UCSI_ACK_CC_CI_COMMAND"

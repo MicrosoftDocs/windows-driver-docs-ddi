@@ -63,8 +63,8 @@ A handle to the display device (graphics context).
 
 A handle to the blend state to set.
 
-### -param FLOAT[4]
-
+### -param FLOAT
+[4]
 *pBlendFactor* [in]
 
 A four-element array of single-precision float vectors that the driver uses to set the blend state.

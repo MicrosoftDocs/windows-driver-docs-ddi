@@ -59,15 +59,15 @@ The
 
 
 
-### -param MiniportVcContext [in]
-
+### -param MiniportVcContext 
+[in]
 A handle to a miniport driver-allocated context area in which the miniport driver maintains its
      per-virtual connection (VC) state. The miniport driver supplied this handle to NDIS from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function.
 
 
-### -param NetBufferLists [in]
-
+### -param NetBufferLists 
+[in]
 A pointer to the first 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
      of <b>NET_BUFFER_LIST</b> structures. Each <b>NET_BUFFER_LIST</b> structure in the list describes a list of 
@@ -76,8 +76,8 @@ A pointer to the first
      <i>MiniportCoSendNetBufferLists</i> transmits.
 
 
-### -param SendFlags [in]
-
+### -param SendFlags 
+[in]
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
      <i>MiniportCoSendNetBufferLists</i> supports the following flags:

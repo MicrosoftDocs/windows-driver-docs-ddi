@@ -55,18 +55,18 @@ The<i>MRxComputeNewBufferingState</i> routine is called by <a href="https://docs
 
 
 
-### -param SrvOpen [in, out]
-
+### -param SrvOpen 
+[in, out]
 A pointer to the SRV_OPEN structure and the associated FCB structure.
 
 
-### -param MRxContext [in]
-
+### -param MRxContext 
+[in]
 A pointer to a context parameter for use by the network mini-redirector callback.
 
 
-### -param NewBufferingState [out]
-
+### -param NewBufferingState 
+[out]
 A pointer to where the new buffering state is stored when the routine returns. 
 
 

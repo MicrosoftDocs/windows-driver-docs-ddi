@@ -58,8 +58,8 @@ The <b>WdfIoResourceRequirementsListGetCount</b> method returns the number of <a
 
 
 
-### -param RequirementsList [in]
-
+### -param RequirementsList 
+[in]
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 

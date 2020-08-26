@@ -60,8 +60,8 @@ The <b>WdfDeviceGetSystemPowerAction</b> method returns the <a href="https://doc
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

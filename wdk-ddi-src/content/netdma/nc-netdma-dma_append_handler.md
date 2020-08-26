@@ -58,8 +58,8 @@ The <i>ProviderAppendDma</i> function appends a linked list of DMA descriptors t
 
 
 
-### -param ProviderChannelContext [in]
-
+### -param ProviderChannelContext 
+[in]
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
@@ -67,23 +67,23 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
      ProviderAllocateDmaChannel</a> function.
 
 
-### -param DescriptorVirtualAddress [in]
-
+### -param DescriptorVirtualAddress 
+[in]
 A pointer to the virtual address of the first 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure in a linked
      list of DMA descriptors. The corresponding physical address is specified at the 
      <i>DescriptorPhysicalAddress</i> parameter.
 
 
-### -param DescriptorPhysicalAddress [in]
-
+### -param DescriptorPhysicalAddress 
+[in]
 A pointer to the physical address of the first DMA descriptor in a linked list of DMA descriptors.
      The corresponding virtual address is specified at the 
      <i>DescriptorVirtualAddress</i> parameter.
 
 
-### -param DescriptorCount [in]
-
+### -param DescriptorCount 
+[in]
 The number of DMA descriptors at 
      <i>DescriptorVirtualAddress</i> .
      

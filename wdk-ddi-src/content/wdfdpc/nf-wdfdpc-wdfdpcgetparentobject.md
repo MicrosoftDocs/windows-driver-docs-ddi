@@ -58,8 +58,8 @@ The <b>WdfDpcGetParentObject</b> method returns the parent object of a specified
 
 
 
-### -param Dpc [in]
-
+### -param Dpc 
+[in]
 A handle to a framework DPC object.
 
 

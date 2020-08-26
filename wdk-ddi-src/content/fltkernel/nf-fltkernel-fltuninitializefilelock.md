@@ -55,8 +55,8 @@ The <b>FltUninitializeFileLock</b> routine uninitializes a FILE_LOCK structure.
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>.
 
 

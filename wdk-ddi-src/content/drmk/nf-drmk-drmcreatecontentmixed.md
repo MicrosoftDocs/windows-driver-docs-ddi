@@ -56,18 +56,18 @@ The <code>DrmCreateContentMixed</code> function creates a DRM content ID to iden
 
 
 
-### -param paContentId [in]
-
+### -param paContentId 
+[in]
 Pointer to an array of DRM content IDs. Each array element is of type ULONG and contains a content ID that represents a protected KS audio stream. If <i>cContentId</i> is zero, <i>paContentID</i> can be <b>NULL</b>. A content ID of zero is a special value that represents an audio stream with default DRM content rights (see <a href="https://docs.microsoft.com/previous-versions/ff536254(v=vs.85)">DEFINE_DRMRIGHTS_DEFAULT</a>).
 
 
-### -param cContentId [in]
-
+### -param cContentId 
+[in]
 Specifies the number of DRM content IDs in the <i>paContentId</i> array. The array can hold zero or more content IDs.
 
 
-### -param pMixedContentId [out]
-
+### -param pMixedContentId 
+[out]
 Output pointer for the composite content ID. This parameter points to a caller-allocated ULONG variable into which the function writes the new content ID for the composite KS audio stream. If <i>cContentId</i> is zero, the function assigns default DRM content rights to the new content ID.
 
 

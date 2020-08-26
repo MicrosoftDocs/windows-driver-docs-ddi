@@ -6,7 +6,7 @@ old-location: netvista\ndis_configuration_parameter.htm
 tech.root: netvista
 ms.assetid: 80250799-4263-43c0-85d5-f1c1c1fb0bae
 ms.date: 05/02/2018
-keywords: ["_NDIS_CONFIGURATION_PARAMETER structure"]
+keywords: ["NDIS_CONFIGURATION_PARAMETER structure"]
 ms.keywords: "*PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_PARAMETER, ndis/NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, netvista.ndis_configuration_parameter"
 f1_keywords:
  - "ndis/NDIS_CONFIGURATION_PARAMETER"
@@ -78,7 +78,7 @@ A union that contains the value of the given named entry. If ParameterType is a 
       member is an NDIS_STRING type describing a counted string in the system-default character set. For
       Microsoft Windows 2000 and later drivers, such a string contains Unicode characters. That is, for
       Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+      <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 This union contains the following members:
 
@@ -147,7 +147,7 @@ To write parameters to the registry, an NDIS driver can call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

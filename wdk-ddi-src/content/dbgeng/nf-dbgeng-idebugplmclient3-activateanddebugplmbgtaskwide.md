@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 The server of the task.
 
 
-### -param PackageFullName [in]
-
+### -param PackageFullName 
+[in]
 A pointer to the package name.
 
 
-### -param BackgroundTaskId [in]
-
+### -param BackgroundTaskId 
+[in]
 A pointer to the task ID. 
 
 
@@ -74,7 +74,7 @@ A pointer to the task ID.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 If a debugger session is not already started, this method starts one. 
 

@@ -73,24 +73,24 @@ DWORD WINAPI * Dot11ExtPreAssociateCompletion(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param hConnectSession [in, optional]
-
+### -param hConnectSession 
+[in, optional]
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
-### -param dwReasonCode [in]
-
+### -param dwReasonCode 
+[in]
 A value that provides additional information for the completion status of the pre-association
      operation. The IHV Extensions DLL must set
      <i>dwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in
@@ -104,8 +104,8 @@ The IHV Extensions DLL returns the general completion status of the pre-associat
      L2_REASON_CODE_GROUP_SIZE-1).
 
 
-### -param dwWin32Error [in]
-
+### -param dwWin32Error 
+[in]
 The completion status of the pre-association operation as defined by an error code within
      Winerror.h. If the operation completes successfully, the IHV Extensions DLL must set
      <i>dwWin32Error</i> to ERROR_SUCCESS.
