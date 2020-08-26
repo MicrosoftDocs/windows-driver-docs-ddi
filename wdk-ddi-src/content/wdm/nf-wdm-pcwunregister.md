@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PcwUnregister
 title: PcwUnregister function (wdm.h)
-description: The PcwUnregister function unregisters the provider of the specified counter set.
+description: The PcwUnregister function unregisters the provider of the specified counterset.
 old-location: devtest\pcwunregister.htm
 tech.root: devtest
 ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
@@ -55,7 +55,7 @@ A pointer to the registration being closed.
 
 ## -remarks
 
-The `PcwUnregister` function closes the specified counterset registration. Instances owned by the counterset registration are automatically closed. These instances should not be accessed by the provider while the counter set is being unregistered or after the counter set is unregistered.
+The `PcwUnregister` function closes the specified counterset registration. Instances owned by the counterset registration are automatically closed. These instances should not be accessed by the provider while the counterset is being unregistered or after the counterset is unregistered.
 
 Before the provider uses this function, the provider must call the [PcwRegister](nf-wdm-pcwregister.md) function to create a registration.
 

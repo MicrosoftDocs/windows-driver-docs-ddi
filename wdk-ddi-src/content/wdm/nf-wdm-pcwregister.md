@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PcwRegister
 title: PcwRegister function (wdm.h)
-description: The PcwRegister function registers the caller as a provider of the specified counter set.
+description: The PcwRegister function registers the caller as a provider of the specified counterset.
 old-location: devtest\pcwregister.htm
 tech.root: devtest
 ms.assetid: 40fdb77c-bd6b-4ecd-a9c8-fd5e5b2adc80
@@ -55,7 +55,7 @@ A pointer to a PPCW_REGISTRATION. Receives the handle to the new registration. T
 
 ### -param Info [in]
 
-A pointer to a [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counter set being registered.
+A pointer to a [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counterset being registered.
 
 ## -returns
 

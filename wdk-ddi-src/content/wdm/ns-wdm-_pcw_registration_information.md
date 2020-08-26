@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCW_REGISTRATION_INFORMATION
 title: _PCW_REGISTRATION_INFORMATION (wdm.h)
-description: The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counter set.
+description: The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counterset.
 old-location: devtest\pcw_registration_information.htm
 tech.root: devtest
 ms.assetid: f5305351-10b4-47e6-a8b6-e1a91c605ca9
@@ -45,7 +45,7 @@ req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 
 ## -description
 
-The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counter set. Most developers will use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
+The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counterset. Most developers will use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ An array of descriptors for the counters of this counterset. The information fro
 
 ### -field Callback
 
-A pointer to the optional [PCW_CALLBACK](nc-wdm-pcw_callback.md) callback function that notifies the provider about events related to this counter set. This field may be NULL if the callback is not needed (i.e. if the counterset instances will be managed via `PcwCreateInstance` and `PcwCloseInstance`).
+A pointer to the optional [PCW_CALLBACK](nc-wdm-pcw_callback.md) callback function that notifies the provider about events related to this counterset. This field may be NULL if the callback is not needed (i.e. if the counterset instances will be managed via `PcwCreateInstance` and `PcwCloseInstance`).
 
 ### -field CallbackContext
 

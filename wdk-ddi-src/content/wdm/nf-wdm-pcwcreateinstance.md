@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PcwCreateInstance
 title: PcwCreateInstance function (wdm.h)
-description: The PcwCreateInstance function creates a new instance for the specified registered counter set.
+description: The PcwCreateInstance function creates a new instance for the specified registered counterset.
 old-location: devtest\pcwcreateinstance.htm
 tech.root: devtest
 ms.assetid: ed9bd8fa-a6e6-465a-8415-3e9c19233419

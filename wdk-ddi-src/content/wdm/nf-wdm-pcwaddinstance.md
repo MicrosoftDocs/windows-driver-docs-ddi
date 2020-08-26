@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.PcwAddInstance
 title: PcwAddInstance function (wdm.h)
-description: The PcwAddInstance function adds the specified instance of the counter set to the consumer buffer.
+description: The PcwAddInstance function adds the specified instance of the counterset to the consumer buffer.
 old-location: devtest\pcwaddinstance.htm
 tech.root: devtest
 ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
@@ -45,13 +45,13 @@ req.typenames:
 
 ## -description
 
-The `PcwAddInstance` function adds the specified instance of the counter set to the consumer buffer. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Add\*\*\* function instead of calling this function directly.
+The `PcwAddInstance` function adds the specified instance of the counterset to the consumer buffer. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Add\*\*\* function instead of calling this function directly.
 
 ## -parameters
 
 ### -param Buffer [in]
 
-A handle to the system-managed buffer to which the instance of the counter set will be added. When the buffer comes from a `PcwCallbackEnumerateInstances` notification, `PcwAddInstance` will record only the Name and Id of the instance. When the buffer comes from a `PcwCallbackCollectData` notification, `PcwAddInstance` will record the Name, Id, and Data (counter values) of the instance.
+A handle to the system-managed buffer to which the instance of the counterset will be added. When the buffer comes from a `PcwCallbackEnumerateInstances` notification, `PcwAddInstance` will record only the Name and Id of the instance. When the buffer comes from a `PcwCallbackCollectData` notification, `PcwAddInstance` will record the Name, Id, and Data (counter values) of the instance.
 
 ### -param Name [in]
 

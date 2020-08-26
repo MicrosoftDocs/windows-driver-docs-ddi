@@ -269,7 +269,7 @@ KcsGeometricWaveCallback (
  case PcwCallbackCollectData:
 
         //
-        // Add values for 3 instances of Geometric Wave Counter Set.
+        // Add values for 3 instances of Geometric Wave Counterset.
         //
 
         Status = KcsAddGeometricInstance(Info->CollectData.Buffer,
@@ -306,7 +306,7 @@ KcsGeometricWaveCallback (
 }
 ```
 
-In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` function is specified as the `Callback` when `KcsRegisterGeometricWave` registers the counter set.
+In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` function is specified as the `Callback` when `KcsRegisterGeometricWave` registers the counterset.
 
 ```C
     //
