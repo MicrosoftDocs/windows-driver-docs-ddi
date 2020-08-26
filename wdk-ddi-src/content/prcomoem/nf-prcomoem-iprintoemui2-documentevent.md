@@ -260,7 +260,7 @@ DOCUMENTEVENT_CREATEDCPOST
 
 </td>
 <td>
-<i>pvIn</i> contains the address of a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure specified in the <i>pvOut</i> parameter in a previous call to this function, for which the <i>iEsc</i> parameter was set to DOCUMENTEVENT_CREATEDCPRE.
+<i>pvIn</i> contains the address of a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure specified in the <i>pvOut</i> parameter in a previous call to this function, for which the <i>iEsc</i> parameter was set to DOCUMENTEVENT_CREATEDCPRE.
 
 </td>
 </tr>
@@ -344,7 +344,7 @@ DOCUMENTEVENT_RESETDCPOST
 
 </td>
 <td>
-<i>pvIn</i> contains the address of a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure specified in the <i>pvOut</i> parameter in a previous call to this function, for which the <i>iEsc</i> parameter was set to DOCUMENTEVENT_RESETDCPRE.
+<i>pvIn</i> contains the address of a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure specified in the <i>pvOut</i> parameter in a previous call to this function, for which the <i>iEsc</i> parameter was set to DOCUMENTEVENT_RESETDCPRE.
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ DOCUMENTEVENT_RESETDCPRE
 
 </td>
 <td>
-<i>pvIn</i> contains the address of a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure supplied by the caller of <b>ResetDC</b> (described in the Microsoft Windows SDK documentation).
+<i>pvIn</i> contains the address of a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure supplied by the caller of <b>ResetDC</b> (described in the Microsoft Windows SDK documentation).
 
 </td>
 </tr>

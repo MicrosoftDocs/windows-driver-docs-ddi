@@ -62,7 +62,7 @@ Specifies the caller-supplied printer handle.
 
 ### -param pDevmode
 
-Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure.
+Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 
 ### -param dwLevel
@@ -174,7 +174,7 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

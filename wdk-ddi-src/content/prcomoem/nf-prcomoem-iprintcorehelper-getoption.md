@@ -153,7 +153,7 @@ The core driver seems to be in an invalid state. The caller should return a fail
 
 <b>IPrintCoreHelper::GetOption</b> cannot be used for features that allow multiple options to be set simultaneously. 
 
-Feature keywords are as defined in the GPD and PPD files. In addition, the Unidrv and Pscript5 drivers support several reserved keywords for options that are stored in their private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structures. 
+Feature keywords are as defined in the GPD and PPD files. In addition, the Unidrv and Pscript5 drivers support several reserved keywords for options that are stored in their private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structures. 
 
 The caller should not free the string that is pointed to by <i>ppszOption</i> and should not modify the string in any way.
 
