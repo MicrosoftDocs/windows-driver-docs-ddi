@@ -69,7 +69,7 @@ This value can be used to optimize data collection. If `CollectMultiple` is fals
 
 ### -field Buffer
 
-A handle to the system-managed buffer to which the instance(s) of the counterset will be added. This handle should be used when calling `PcwAddInstance` (or when calling the CTRPP-generated AddXxx function, which wraps the call to `PcwAddInstance`).
+A handle to the system-managed buffer to which the instance(s) of the counterset will be added. This handle should be used when calling [**PcwAddInstance**](nf-wdm-pcwaddinstance.md) - or when calling the CTRPP-generated AddXxx function, which wraps the call to **PcwAddInstance**. For more info, see the Remarks of that page.
 
 ### -field CancelEvent
 
