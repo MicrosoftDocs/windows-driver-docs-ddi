@@ -67,7 +67,7 @@ Specifies the last time the file was changed.
 
 ### -field FileAttributes
 
-Specifies one or more FILE_ATTRIBUTE_*XXX* flags. For descriptions of these flags, see [File Attribute Constants](https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants) in the Microsoft Windows SDK.
+Specifies one or more FILE_ATTRIBUTE_*XXX* flags. For descriptions of these flags, see [File Attribute Constants](https://docs.microsoft.com/windows/win32/fileio/file-attribute-constants) in the Microsoft Windows SDK.
 
 ## -remarks
 
