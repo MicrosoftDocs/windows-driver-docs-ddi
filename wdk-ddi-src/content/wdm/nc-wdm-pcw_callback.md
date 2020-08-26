@@ -81,7 +81,7 @@ The callback is responsible for generating `Name` and `Id` values for the counte
 - Instance `Id` values MUST be stable over time (the same logical instance should use the same `Id` value for all invocations of the callback), should be unique (e.g. do not simply use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID`). When possible, the instance `Id` should be meaningful (e.g. a Process counterset might use a PID as the `Id`) instead of arbitrary (e.g. a sequence number).
 - Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. String matching is done using a case-insensitive comparison, so `Name` values should not differ only by case.
 
-When handling `PcwCallbackCollectData` requests, a basic callback implementation will simply invoke [PcwAddInstance](nf-wdm-pcwaddinstance.md) (or the CTRPP-generated AddXxx function) once for each counterset instance. For more info, see [CTRPP-generated CreateXxx function](nf-wdm-pcwaddinstance.md#remarks).
+When handling `PcwCallbackCollectData` requests, a basic callback implementation will simply invoke [PcwAddInstance](nf-wdm-pcwaddinstance.md) (or the CTRPP-generated AddXxx function) once for each counterset instance. For more info, see [CTRPP-generated AddXxx function](nf-wdm-pcwaddinstance.md#remarks).
 
 The following optimizations may be used in more advanced implementations when necessary:
 

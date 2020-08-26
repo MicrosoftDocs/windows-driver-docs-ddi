@@ -5,7 +5,7 @@ description: The PCW_CALLBACK_TYPE enumeration defines the notification type to 
 old-location: devtest\pcw_callback_type.htm
 tech.root: devtest
 ms.assetid: 92f7a980-509a-44af-b480-fa8c212f4ac6
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["PCW_CALLBACK_TYPE enumeration"]
 ms.keywords: "*PPCW_CALLBACK_TYPE, PCW_CALLBACK_TYPE, PCW_CALLBACK_TYPE enumeration [Driver Development Tools], PPCW_CALLBACK_TYPE, PPCW_CALLBACK_TYPE enumeration pointer [Driver Development Tools], PcwCallbackAddCounter, PcwCallbackCollectData, PcwCallbackEnumerateInstances, PcwCallbackRemoveCounter, _PCW_CALLBACK_TYPE, devtest.pcw_callback_type, km_pcw_39199484-e1fb-4d3b-9bab-27d8d880a9bf.xml, wdm/PCW_CALLBACK_TYPE, wdm/PPCW_CALLBACK_TYPE, wdm/PcwCallbackAddCounter, wdm/PcwCallbackCollectData, wdm/PcwCallbackEnumerateInstances, wdm/PcwCallbackRemoveCounter"
 f1_keywords:
