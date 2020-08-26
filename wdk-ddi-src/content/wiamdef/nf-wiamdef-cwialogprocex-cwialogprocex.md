@@ -5,7 +5,7 @@ description: The CWiaLogProcEx constructor is called when the function or method
 old-location: image\cwialogprocex_cwialogprocex.htm
 tech.root: image
 ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
-ms.date: 05/03/2018
+ms.date: 08/26/2020
 keywords: ["CWiaLogProcEx::CWiaLogProcEx"]
 ms.keywords: CWiaLogProcEx, CWiaLogProcEx interface [Imaging Devices],CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface, CWiaLogProcEx.CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, wiamdef/CWiaLogProcEx::CWiaLogProcEx
 f1_keywords:
@@ -45,7 +45,7 @@ req.typenames:
 
 ## -description
 
-The [CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc-~cwialogproc) constructor is called when the function or method being logged is entered.
+The [CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc--cwialogproc) constructor is called when the function or method being logged is entered.
 
 ## -parameters
 
