@@ -2,7 +2,7 @@
 UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_PACKET_INIT
 title: NET_ADAPTER_WAKE_REASON_PACKET_INIT function (netadapter.h)
 author: windows-driver-content
-description: The NET_ADAPTER_WAKE_REASON_PACKET_INIT method initializes a NET_ADAPTER_WAKE_REASON_PACKET structure.
+description: The NET_ADAPTER_WAKE_REASON_PACKET_INIT function initializes a NET_ADAPTER_WAKE_REASON_PACKET structure.
 tech.root: netvista
 ms.assetid: 3ef00ff3-cb05-4461-8656-d56aca530b9e
 ms.author: windowsdriverdev
@@ -12,7 +12,7 @@ f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_REASON_PACKET_INIT"
  - "NET_ADAPTER_WAKE_REASON_PACKET_INIT"
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET_INIT
-req.header: netadapter.h
+req.header: netadaptercx.h
 req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NET_ADAPTER_WAKE_REASON_PACKET_INIT** method initializes a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure.
+The **NET_ADAPTER_WAKE_REASON_PACKET_INIT** function initializes a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure.
 
 ## -parameters
 
@@ -58,11 +58,11 @@ A pointer to a driver allocated [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapt
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-This method zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** structure, then sets the **Size** member.
+This function zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** structure, then sets the **Size** member.
 
 ## -see-also
 
