@@ -60,7 +60,7 @@ A pointer to a [D3D12DDIARG_EVICT](ns-d3d12umddi-d3d12ddiarg_evict.md) structure
 
 ## -returns
 
-If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+If this callback function succeeds, it returns S_OK. Otherwise, it returns an **HRESULT** error code.
 
 ## -prototype
 
