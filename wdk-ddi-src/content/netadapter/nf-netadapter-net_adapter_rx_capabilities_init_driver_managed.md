@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 title: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function (netadapter.h)
-description: The NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED method initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
+description: The NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
 tech.root: netvista
 ms.assetid: d3b29896-25ef-4d96-99db-799408fb207f
 ms.date: 02/14/2018
@@ -45,7 +45,7 @@ targetos: Windows
 
 
 
-The **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** method initializes a [**NET_ADAPTER_RX_CAPABILITIES**](ns-netadapter-_net_adapter_rx_capabilities.md) structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
+The **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** function initializes a [**NET_ADAPTER_RX_CAPABILITIES**](ns-netadapter-_net_adapter_rx_capabilities.md) structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
 
 ## -parameters
 
@@ -62,9 +62,9 @@ The maximum fragment buffer size, in bytes, that the adapter can receive.
 The maximum number of receive queues that the adapter supports.
 
 ## -remarks
-This method is one of three possible methods to call in order to initialize a [**NET_ADAPTER_RX_CAPABILITIES**](ns-netadapter-_net_adapter_rx_capabilities.md) structure. Which one the client driver should call depends on how it would like to allocate receive buffers and if it would like to use DMA.
+This function is one of three possible functions to call in order to initialize a [**NET_ADAPTER_RX_CAPABILITIES**](ns-netadapter-_net_adapter_rx_capabilities.md) structure. Which one the client driver should call depends on how it would like to allocate receive buffers and if it would like to use DMA.
 
-The client driver must call **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** to initialize its **NET_ADAPTER_RX_CAPABILITIES** structure if it would like to perform manual receive buffer allocation and attachment. By calling this method, the Rx capabilities structure's **AllocationMode** member is set to **NetRxFragmentBufferAllocationModeDriver** and the **AttachmentMode** member is set to **NetRxFragmentBufferAttachmentModeDriver**. In this case, it must also provide a pointer to its *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function in the structure for the operating system to invoke once the system has finished with the receive buffer.
+The client driver must call **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** to initialize its **NET_ADAPTER_RX_CAPABILITIES** structure if it would like to perform manual receive buffer allocation and attachment. By calling this function, the Rx capabilities structure's **AllocationMode** member is set to **NetRxFragmentBufferAllocationModeDriver** and the **AttachmentMode** member is set to **NetRxFragmentBufferAttachmentModeDriver**. In this case, it must also provide a pointer to its *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function in the structure for the operating system to invoke once the system has finished with the receive buffer.
 
 ## -see-also
 

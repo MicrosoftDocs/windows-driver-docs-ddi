@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_DMA_CAPABILITIES_INIT
 title: NET_ADAPTER_DMA_CAPABILITIES_INIT function (netadapter.h)
-description: The NET_ADAPTER_DMA_CAPABILITIES_INIT method initializes a NET_ADAPTER_DMA_CAPABILITIES structure.
+description: The NET_ADAPTER_DMA_CAPABILITIES_INIT function initializes a NET_ADAPTER_DMA_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 7e1a1622-4479-445e-8672-3dcc9b402679
 ms.date: 02/14/2018
@@ -45,7 +45,7 @@ targetos: Windows
 
 
 
-The **NET_ADAPTER_DMA_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_DMA_CAPABILITIES**](ns-netadapter-_net_adapter_dma_capabilities.md) structure.
+The **NET_ADAPTER_DMA_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_DMA_CAPABILITIES**](ns-netadapter-_net_adapter_dma_capabilities.md) structure.
 
 ## -parameters
 
@@ -57,6 +57,6 @@ A DMA enabler object the client driver obtained in a previous call to [**WdfDmaE
 
 ## -remarks
 
-The client driver typically calls this method while setting capabilities for its data path, when it is starting a net adapter but before it calls [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+The client driver typically calls this function while setting capabilities for its data path, when it is starting a net adapter but before it calls [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also

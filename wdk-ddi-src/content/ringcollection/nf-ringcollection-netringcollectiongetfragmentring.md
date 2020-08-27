@@ -61,9 +61,9 @@ Returns a pointer to the fragment [**NET_RING**](../ring/ns-ring-_net_ring.md) f
 
 ## -remarks
 
-Client drivers typically call this method when they need to work with a fragment ring directly, such as when the driver is posting information to hardware. For example, during transmit a driver might use the fragment ring's **ElementIndexMask** to retrieve the correct fragment that is being posted to hardware in order to populate the hardware descriptor. 
+Client drivers typically call this function when they need to work with a fragment ring directly, such as when the driver is posting information to hardware. For example, during transmit a driver might use the fragment ring's **ElementIndexMask** to retrieve the correct fragment that is being posted to hardware in order to populate the hardware descriptor. 
 
-For examples of using this method, see the [Realtek sample driver](https://github.com/Microsoft/NetAdapter-Cx-Driver-Samples/tree/release_1809/RtEthSample).
+For examples of using this function, see the [Realtek sample driver](https://github.com/Microsoft/NetAdapter-Cx-Driver-Samples/tree/release_1809/RtEthSample).
 
 ## -see-also
 

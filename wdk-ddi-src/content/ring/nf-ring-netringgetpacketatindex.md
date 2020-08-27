@@ -2,7 +2,7 @@
 UID: NF:ring.NetRingGetPacketAtIndex
 title: NetRingGetPacketAtIndex function (ring.h)
 author: windows-driver-content
-description: The NetRingGetPacketAtIndex method retrieves a packet from a net ring.
+description: The NetRingGetPacketAtIndex function retrieves a packet from a net ring.
 tech.root: netvista
 ms.assetid: ed780394-3234-4900-a008-b856e188ce2b
 ms.author: windowsdriverdev
@@ -47,7 +47,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetRingGetPacketAtIndex** method retrieves a packet from a net ring.
+The **NetRingGetPacketAtIndex** function retrieves a packet from a net ring.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Returns a pointer to the [**NET_PACKET**](../packet/ns-packet-_net_packet.md) at
 
 ## -remarks
 
-This method is a convenient wrapper around [**NetRingGetElementAtIndex**](../ring/nf-ring-netringgetelementatindex.md). Client drivers should call this method when working with a packet ring instead of calling **NetRingGetElementAtIndex** directly.
+This function is a convenient wrapper around [**NetRingGetElementAtIndex**](../ring/nf-ring-netringgetelementatindex.md). Client drivers should call this function when working with a packet ring instead of calling **NetRingGetElementAtIndex** directly.
 
 ## -see-also
 

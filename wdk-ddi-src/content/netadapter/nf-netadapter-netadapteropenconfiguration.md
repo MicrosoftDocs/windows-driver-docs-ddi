@@ -48,7 +48,7 @@ targetos: Windows
 
 
 
-The **NetAdapterOpenConfiguration** method opens a net adapter’s configuration database.
+The **NetAdapterOpenConfiguration** function opens a net adapter’s configuration database.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_att
 A pointer to a location that receives a handle to the new adapter configuration object.
 
 ## -returns
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 
-Typically, the client calls this method from its *[EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)* callback function.
+Typically, the client calls this function from its *[EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)* callback function.
 
 If the client provides a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md), it specifies **NULL** for **ParentObject**. The adapter configuration object is automatically parented to the adapter object.
 

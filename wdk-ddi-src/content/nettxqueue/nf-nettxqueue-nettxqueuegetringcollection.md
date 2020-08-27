@@ -1,7 +1,7 @@
 ---
 UID: NF:nettxqueue.NetTxQueueGetRingCollection
 title: NetTxQueueGetRingCollection function (nettxqueue.h)
-description: The NetTxQueueGetRingCollection method retrieves the NET_DATAPATH_DESCRIPTOR structure for a transmit (Tx) queue.
+description: The NetTxQueueGetRingCollection function retrieves the NET_DATAPATH_DESCRIPTOR structure for a transmit (Tx) queue.
 tech.root: netvista
 ms.assetid: 0767d0c0-d648-4dca-a664-a514de495c3d
 ms.date: 01/31/2019
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NetTxQueueGetRingCollection** method retrieves the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure for a transmit (Tx) queue.
+The **NetTxQueueGetRingCollection** function retrieves the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure for a transmit (Tx) queue.
 
 ## -parameters
 
@@ -59,6 +59,6 @@ Returns a pointer to the queue's [**NET_RING_COLLECTION**](../ringcollection/ns-
 
 ## -remarks
 
-Use the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure returned by this method to access a transmit queue's net rings.
+Use the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure returned by this function to access a transmit queue's net rings.
 
 ## -see-also

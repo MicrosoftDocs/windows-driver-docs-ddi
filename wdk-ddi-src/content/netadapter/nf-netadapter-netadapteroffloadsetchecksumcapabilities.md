@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapter.NetAdapterOffloadSetChecksumCapabilities
 title: NetAdapterOffloadSetChecksumCapabilities function (netadapter.h)
-description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware checksum offload capabilities of a network adapter.
+description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware checksum offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 103b7d8e-b6bd-497a-9ee8-18b66e13a9ab
 ms.date: 01/18/2019
@@ -46,7 +46,7 @@ ms.custom: 19H1
 
 
 
-The **NetAdapterOffloadSetChecksumCapabilities** method sets the hardware checksum offload capabilities of a network adapter.
+The **NetAdapterOffloadSetChecksumCapabilities** function sets the hardware checksum offload capabilities of a network adapter.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_CHECKSUM_
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 

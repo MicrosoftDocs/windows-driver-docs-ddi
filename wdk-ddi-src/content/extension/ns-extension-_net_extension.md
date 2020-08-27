@@ -64,7 +64,7 @@ Reserved. Client drivers must not read or write to this value.
 
 ## -remarks
 
-Client drivers typically store packet extensions in the context space for each queue during queue creation, reducing calls out of the driver. Later, to retrieve packet extension information for a particular packet, the driver calls one of the wrapper methods around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
+Client drivers typically store packet extensions in the context space for each queue during queue creation, reducing calls out of the driver. Later, to retrieve packet extension information for a particular packet, the driver calls one of the wrapper functions around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
 
 - For checksum offload information, the client driver calls [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md).
 - For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLargeSendSegmentation**](../lso/nf-lso-netextensiongetpacketlargesendsegmentation.md).

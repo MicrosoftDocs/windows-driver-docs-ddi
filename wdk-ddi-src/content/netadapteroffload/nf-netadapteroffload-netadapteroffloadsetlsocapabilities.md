@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapteroffload.NetAdapterOffloadSetLsoCapabilities
 title: NetAdapterOffloadSetLsoCapabilities function (netadapteroffload.h)
-description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware large send offload (LSO) offload capabilities of a network adapter.
+description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware large send offload (LSO) offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163
 ms.date: 01/17/2019
@@ -46,7 +46,7 @@ ms.custom: 19H1
 
 
 
-The **NetAdapterOffloadSetLsoCapabilities** method sets the hardware large send offload (LSO) offload capabilities of a network adapter.
+The **NetAdapterOffloadSetLsoCapabilities** function sets the hardware large send offload (LSO) offload capabilities of a network adapter.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_LSO_CAPAB
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:extension.NetExtensionGetData
 title: NetExtensionGetData function (extension.h)
-description: The NetExtensionGetData method retrieves packet extension data for a net packet.
+description: The NetExtensionGetData function retrieves packet extension data for a net packet.
 tech.root: netvista
 ms.assetid: D2B02C1E-3BF1-4380-8D59-C93FAF811CC8
 ms.date: 02/06/2019
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NetExtensionGetData** method retrieves packet extension data for a net packet.
+The **NetExtensionGetData** function retrieves packet extension data for a net packet.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Returns a pointer to the structure that holds the extension information for this
 
 ## -remarks
 
-Client drivers should not call this method directly. Instead, they should call the appropriate wrapper method for the type of extension they are getting:
+Client drivers should not call this function directly. Instead, they should call the appropriate wrapper function for the type of extension they are getting:
 
 - For checksum offload information, the client driver calls [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md).
 - For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLso**](../lso/nf-lso-netextensiongetpacketlso.md).

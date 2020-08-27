@@ -1,7 +1,7 @@
 ---
 UID: NF:netdevice.NetDeviceOpenConfiguration
 title: NetDeviceOpenConfiguration function (netdevice.h)
-description: The NetDeviceOpenConfiguration method opens a net device's configuration database.
+description: The NetDeviceOpenConfiguration function opens a net device's configuration database.
 tech.root: netvista
 ms.assetid: 3446a849-1637-4aa8-96b6-70491c47bf31
 ms.date: 07/19/2018
@@ -48,7 +48,7 @@ ms.custom: RS5
 
 
 
-The **NetDeviceOpenConfiguration** method opens a net device's configuration database.
+The **NetDeviceOpenConfiguration** function opens a net device's configuration database.
 
 ## -parameters
 
@@ -66,11 +66,11 @@ A pointer to the location that receives the new NETCONFIGURATION object.
 
 ## -returns
 
-This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+This function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 
-Typically, the client calls this method from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function.
+Typically, the client calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function.
 
 If the client provides a [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md), it specifies **NULL** for **ParentObject**. The device configuration object is automatically parented to the device object.
 

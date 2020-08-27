@@ -1,7 +1,7 @@
 ---
 UID: NF:netconfiguration.NetConfigurationAssignMultiString
 title: NetConfigurationAssignMultiString function (netconfiguration.h)
-description: The NetConfigurationAssignMultiString method assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects.
+description: The NetConfigurationAssignMultiString function assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects.
 tech.root: netvista
 ms.assetid: efff27e3-7d42-4c48-ad87-8ec2a5e1eb20
 ms.date: 02/07/2018
@@ -47,7 +47,7 @@ targetos: Windows
 
 
 
-The **NetConfigurationAssignMultiString** method assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects.
+The **NetConfigurationAssignMultiString** function assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api
 A handle to a framework collection object that represents a collection of framework string objects. 
 
 ## -returns
-This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+This function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).

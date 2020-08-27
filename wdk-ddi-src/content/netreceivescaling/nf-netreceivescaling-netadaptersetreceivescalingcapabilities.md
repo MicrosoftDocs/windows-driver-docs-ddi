@@ -1,7 +1,7 @@
 ---
 UID: NF:netreceivescaling.NetAdapterSetReceiveScalingCapabilities
 title: NetAdapterSetReceiveScalingCapabilities function (netreceivescaling.h)
-description: The NetAdapterSetReceiveScalingCapabilities method sets a net adapter's receive side scaling (RSS) capabilities.
+description: The NetAdapterSetReceiveScalingCapabilities function sets a net adapter's receive side scaling (RSS) capabilities.
 tech.root: netvista
 ms.assetid: facda650-4f68-40e4-bfe0-f9b7adae4c7f
 ms.date: 03/08/2018
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NetAdapterSetReceiveScalingCapabilities** method sets a net adapter's receive side scaling (RSS) capabilities.
+The **NetAdapterSetReceiveScalingCapabilities** function sets a net adapter's receive side scaling (RSS) capabilities.
 
 ## -parameters
 
@@ -57,7 +57,7 @@ A pointer to a driver-allocated and initialized [NET_ADAPTER_RECEIVE_SCALING_CAP
 
 ## -remarks
 
-The client driver must call this method when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
+The client driver must call this function when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
 [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md)

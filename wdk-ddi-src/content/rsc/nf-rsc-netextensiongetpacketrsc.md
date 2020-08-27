@@ -2,7 +2,7 @@
 UID: NF:rsc.NetExtensionGetPacketRsc
 title: NetExtensionGetPacketRsc function (rsc.h)
 author: windows-driver-content
-description: The NetExtensionGetPacketRsc method retrieves receive segment coalescence (RSC) information for a packet.
+description: The NetExtensionGetPacketRsc function retrieves receive segment coalescence (RSC) information for a packet.
 tech.root: netvista
 ms.assetid: 1798e870-cfaf-44fc-920f-4167de3842ef
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetExtensionGetPacketRsc** method retrieves receive segment coalescence (RSC) information for a packet.
+The **NetExtensionGetPacketRsc** function retrieves receive segment coalescence (RSC) information for a packet.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Returns a pointer to a [**NET_PACKET_RSC**](../rsctypes/ns-rsctypes-_net_packet_
 
 NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the RSC offset from the queue context to pass to **NetExtensionGetPacketRsc**.
 
-This method is a wrapper method around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
+This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
 
 ## -see-also
 

@@ -73,12 +73,12 @@ A pointer to a location that receives a handle to the new memory object. The fra
 
 ## -returns
 
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).
 
-The memory allocated by this method is automatically freed by the framework when the NETCONFIGURATION object is closed.
+The memory allocated by this function is automatically freed by the framework when the NETCONFIGURATION object is closed.
 
 ## -see-also
