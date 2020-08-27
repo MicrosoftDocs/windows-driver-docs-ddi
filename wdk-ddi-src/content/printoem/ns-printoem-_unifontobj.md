@@ -149,7 +149,7 @@ If set, the device font is a font substituted for the TrueType font. In the font
 
 ### -field pIFIMetrics
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure. Supplied by Unidrv.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure. Supplied by Unidrv.
 
 
 ### -field pfnGetInfo
@@ -162,7 +162,7 @@ Pointer to Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
 
 
 

@@ -119,7 +119,7 @@ The method is not implemented.
 
 
 
-User interface plug-ins must implement a <code>IPrintOemUI::DevMode</code> method if they define private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure members. The method's purpose is to define, validate, or convert (from one version to another) the contents of the private DEVMODEW structure members.
+User interface plug-ins must implement a <code>IPrintOemUI::DevMode</code> method if they define private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure members. The method's purpose is to define, validate, or convert (from one version to another) the contents of the private DEVMODEW structure members.
 
 A private DEVMODEW section must be prefaced by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oem_dmextraheader">OEM_DMEXTRAHEADER</a> structure.
 

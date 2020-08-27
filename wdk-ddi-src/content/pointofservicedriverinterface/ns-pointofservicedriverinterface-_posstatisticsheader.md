@@ -67,5 +67,5 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservic
 
 ### -field DataLength
 
-Indicates the length, in bytes, of the <b>PosStatisticsHeader</b> and the buffer of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posvaluestatisticsentry">PosValueStatisticsEntry</a> that follow this structure in memory.
+Indicates the length, in bytes, of the **PosStatisticsHeader** and the buffer of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posvaluestatisticsentry">PosValueStatisticsEntry</a> that follow this structure in memory.
 

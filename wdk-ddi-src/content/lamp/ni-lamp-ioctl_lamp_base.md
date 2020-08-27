@@ -3,7 +3,7 @@ UID: NI:lamp.IOCTL_LAMP_BASE
 title: IOCTL_LAMP_BASE (lamp.h)
 description: 
 ms.assetid: 91ad561c-3f84-4395-8612-bd7a836b6e24
-ms.date: 10/19/2018
+ms.date: 08/26/2020
 keywords: ["IOCTL_LAMP_BASE IOCTL"]
 f1_keywords:
  - "lamp/IOCTL_LAMP_BASE"
@@ -40,40 +40,27 @@ ms.custom: RS5
 
 ## -description
 
-
-
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
-
-### -input-buffer-length 
-
-
+### -input-buffer-length
 
 ### -output-buffer
 
-
-
-### -output-buffer-length 
-
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-
-### -inout-buffer-length 
-
-
+### -inout-buffer-length
 
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
+
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 

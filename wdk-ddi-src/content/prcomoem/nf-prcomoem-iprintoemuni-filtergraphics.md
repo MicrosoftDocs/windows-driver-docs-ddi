@@ -132,7 +132,7 @@ If the <code>IPrintOemUni::FilterGraphics</code> method is implemented, Unidrv d
 
 The method can perform final postprocessing of image data, such as removing adjacent dots or any other data stream filtering operation that Unidrv does not provide. It must then spool the data by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a> method.
 
-<code>IPrintOemUni::FilterGraphics</code> method is called by Unidrv's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a> function. If you want to implement <code>IPrintOemUni::FilterGraphics</code>, you must not completely override Unidrv's <b>DrvSendPage</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> functions. 
+<code>IPrintOemUni::FilterGraphics</code> method is called by Unidrv's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a> function. If you want to implement <code>IPrintOemUni::FilterGraphics</code>, you must not completely override Unidrv's <b>DrvSendPage</b> or <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> functions. 
 
 Before Unidrv's <b>DrvSendPage</b> function calls the plug-in's <code>IPrintOemUni::FilterGraphics</code> implementation, <b>DrvSendPage</b>.
 
@@ -190,11 +190,11 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a>
 
 
 

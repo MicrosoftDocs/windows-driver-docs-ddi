@@ -75,7 +75,7 @@ A pointer to a variable that receives one of the following enumerated values:
 
 #### OEMPT_DEFAULT
 
-The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
+The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
 
 
 

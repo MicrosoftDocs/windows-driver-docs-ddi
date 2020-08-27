@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <code>OEMPaint</code> function is obsolete, and is no longer called by GDI in Windows 2000 and later. See <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvpaint">DrvPaint</a>.
+The <code>OEMPaint</code> function is obsolete, and is no longer called by GDI in Windows 2000 and later. See <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvpaint">DrvPaint</a>.
 
 
 ## -parameters

@@ -47,7 +47,7 @@ The D3D12DDI_CLEAR_VALUES structure contains values used to optimize clear opera
 
 ### -field Format
 
-Specifies one member of the [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration.
+Specifies one member of the [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration.
 
 The format of the commonly cleared color follows the same validation rules as a view/descriptor creation. In general, the format of the clear color can be any format in the same type-less group that the resource format belongs to.
 

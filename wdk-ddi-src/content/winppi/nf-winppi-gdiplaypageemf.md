@@ -69,7 +69,7 @@ Caller-supplied page handle, obtained by calling <a href="https://docs.microsoft
 
 ### -param prectDocument
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure specifying the rectangle into which the page is to be drawn.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure specifying the rectangle into which the page is to be drawn.
 
 
 ### -param prectBorder

@@ -79,7 +79,7 @@ Indicates the number of bytes of decoded scan data. A label is the decoded scan 
 
 
 
-<i>ScanDataLength</i> bytes of scan data immediately follows the <i>PosBarcodeScannerDataReceivedEventData</i> structure, followed by <i>ScanDataLabelLength</i> bytes of label data.
+*ScanDataLength* bytes of scan data immediately follows the *PosBarcodeScannerDataReceivedEventData* structure, followed by *ScanDataLabelLength* bytes of label data.
 
 
 

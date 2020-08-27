@@ -47,7 +47,7 @@ req.typenames: PosStringType
 ## -description
 
 
-This structure represents a Point of Service (POS) unicode string with a length of <i>DataLengthInBytes</i>.
+This structure represents a Point of Service (POS) unicode string with a length of *DataLengthInBytes*.
 
 
 ## -struct-fields

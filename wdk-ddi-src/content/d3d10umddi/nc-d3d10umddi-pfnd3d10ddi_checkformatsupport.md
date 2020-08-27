@@ -61,7 +61,7 @@ A handle to the display device (graphics context).
 
 *Format* [in]
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) typed value that indicates the pixel format to retrieve capabilities for.
+A [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) typed value that indicates the pixel format to retrieve capabilities for.
 
 ### -param Arg3
 

@@ -62,7 +62,7 @@ A handle to the printer that is currently being queried.
 
 ### -param cbDevMode
 
-The size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODE</a> structure, including appended data.
+The size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure, including appended data.
 
 
 ### -param pDevMode

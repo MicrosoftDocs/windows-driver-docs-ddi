@@ -79,7 +79,7 @@ However, power-management state changes do affect the system interrupt time coun
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>
+<a href="https://docs.microsoft.com/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>
 
 
 

@@ -57,12 +57,12 @@ This structure contains the information necessary to set a new encryption key.
 
 ### -field KeyLength
 
-Length, in bytes, of the key stored in <b>Key[MSR_KEY_SIZE]</b>.
+Length, in bytes, of the key stored in **Key[MSR_KEY_SIZE]**.
 
 
 ### -field KeyNameLength
 
-Length, in bytes, of the key name stored in <b>KeyName[MSR_KEY_SIZE]</b>.
+Length, in bytes, of the key name stored in **KeyName[MSR_KEY_SIZE]**.
 
 
 ### -field Key
