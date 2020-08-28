@@ -8,9 +8,6 @@ ms.assetid: b11be48b-e791-4599-80da-2446791f3816
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH"
- - "IOCTL_POINT_OF_SERVICE_CHECK_HEALTH"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
 ---
 
 # IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL
+
 
 ## -description
 
@@ -78,3 +79,4 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
 
 - STATUS_NOT_SUPPORTED: The driver does not provide health strings.
+

@@ -8,9 +8,6 @@ ms.assetid: 24523677-9f5a-4109-8484-95883a4d1bbf
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_MODIFY_QOS_CALL callback function"]
 ms.keywords: PROTOCOL_CM_MODIFY_QOS_CALL, PROTOCOL_CM_MODIFY_QOS_CALL callback, ProtocolCmModifyCallQoS, ProtocolCmModifyCallQoS callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_208d4e81-1f4f-46e9-9b78-7724504b68bc.xml, ndis/ProtocolCmModifyCallQoS, netvista.protocolcmmodifycallqos
-f1_keywords:
- - "ndis/ProtocolCmModifyCallQoS"
- - "ProtocolCmModifyCallQoS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmModifyCallQoS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_MODIFY_QOS_CALL
+ - ndis/PROTOCOL_CM_MODIFY_QOS_CALL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmModifyCallQoS
 ---
 
 # PROTOCOL_CM_MODIFY_QOS_CALL callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmModifyCallQoS</i> function is required. 
@@ -58,26 +57,21 @@ The
 
 ## -parameters
 
-
-
-
 ### -param CallMgrVcContext 
+
 [in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS for its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-
 ### -param CallParameters 
+
 [in]
 Pointer to a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure that contains
      the new call parameters, as specified by a connection-oriented client, for the VC.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmModifyQoS</i> returns the status of its operation(s) as one of the following values:
 
@@ -152,14 +146,8 @@ Indicates that the call parameters could not be set to the call parameters provi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCmModifyQoS</i> communicates with network control devices or other media-specific agents, as
     necessitated by its media, to modify the media-specific call parameters for an established virtual
@@ -218,15 +206,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
 
@@ -241,7 +223,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

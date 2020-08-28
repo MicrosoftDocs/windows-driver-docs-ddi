@@ -8,35 +8,38 @@ ms.assetid: d321223f-7e48-43c6-bb35-85f0c646651e
 ms.author: windowsdriverdev
 ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_TYPE enumeration"]
-f1_keywords:
- - "netpoweroffload/NET_POWER_OFFLOAD_TYPE"
- - "NET_POWER_OFFLOAD_TYPE"
-ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE, 
+ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE,
 req.header: netpoweroffload.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: NET_POWER_OFFLOAD_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - netpoweroffload.h
-api_name: 
- - NET_POWER_OFFLOAD_TYPE
-product: 
- - Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - _NET_POWER_OFFLOAD_TYPE
+ - netpoweroffload/_NET_POWER_OFFLOAD_TYPE
+ - NET_POWER_OFFLOAD_TYPE
+ - netpoweroffload/NET_POWER_OFFLOAD_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netpoweroffload.h
+api_name:
+ - NET_POWER_OFFLOAD_TYPE
+product:
+ - Windows
 ---
 
 # NET_POWER_OFFLOAD_TYPE enumeration
+
 
 ## -description
 
@@ -59,3 +62,4 @@ Call [**NetPowerOffloadGetType**](../netpoweroffload/nf-netpoweroffload-netpower
 ## -see-also
 
 [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+

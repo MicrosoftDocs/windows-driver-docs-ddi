@@ -8,9 +8,6 @@ ms.assetid: 7984308D-4C8E-4481-8770-2430552B00E8
 ms.date: 05/07/2018
 keywords: ["UcxRootHubPortChanged function"]
 ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged
-f1_keywords:
- - "ucxroothub/UcxRootHubPortChanged"
- - "UcxRootHubPortChanged"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ucxroothub.h
-api_name:
-- UcxRootHubPortChanged
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcxRootHubPortChanged
+ - ucxroothub/UcxRootHubPortChanged
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ucxroothub.h
+api_name:
+ - UcxRootHubPortChanged
 ---
 
 # UcxRootHubPortChanged function
@@ -46,37 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Notifies UCX about a new port change event on the host controller.
-
-
 
 ## -parameters
 
-
-
-
 ### -param UcxRootHub 
+
 [in]
 A handle to the root hub object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>.
 
-
 ## -remarks
-
-
 
 This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_interrupt_tx">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>
- 
-
- 
 

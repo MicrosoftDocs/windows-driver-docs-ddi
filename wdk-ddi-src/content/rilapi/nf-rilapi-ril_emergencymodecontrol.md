@@ -8,9 +8,6 @@ ms.assetid: 011b8b11-5e75-4db9-ba3d-6483a90788ac
 ms.date: 05/02/2018
 keywords: ["RIL_EmergencyModeControl function"]
 ms.keywords: RIL_EmergencyModeControl, RIL_EmergencyModeControl method [Network Drivers Starting with Windows Vista], netvista.ril_emergencymodecontrol, rilapi/RIL_EmergencyModeControl
-f1_keywords:
- - "rilapi/RIL_EmergencyModeControl"
- - "RIL_EmergencyModeControl"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_EmergencyModeControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_EmergencyModeControl
+ - rilapi/RIL_EmergencyModeControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_EmergencyModeControl
 ---
 
 # RIL_EmergencyModeControl function
@@ -46,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param dwEmergencyModeControl
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 3a18ec1b-be02-418a-8a38-deca7178ce30
 ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function"]
 ms.keywords: DFRequestObjectRef_1c9cbd6c-35a3-4de2-84f9-9d9788002d31.xml, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function, kmdf.wdf_request_reuse_params_set_new_irp, wdf.wdf_request_reuse_params_set_new_irp, wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
-f1_keywords:
- - "wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP"
- - "WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfrequest.h
-api_name:
-- WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
+ - wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfrequest.h
+api_name:
+ - WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
 ---
 
 # WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</b> function sets a new IRP in a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param Params 
+
 [in, out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
-
 ### -param NewIrp 
+
 [in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
 
-
 ## -remarks
-
-
 
 If a driver's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a> specifies a new IRP structure, the driver must first call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_reuse_params_init">WDF_REQUEST_REUSE_PARAMS_INIT</a> and then call <b>WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</b> to initialize a WDF_REQUEST_REUSE_PARAMS structure.
 
@@ -101,12 +94,7 @@ status = WdfRequestReuse(
 ...
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a>
 
@@ -117,7 +105,4 @@ status = WdfRequestReuse(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>
- 
-
- 
 

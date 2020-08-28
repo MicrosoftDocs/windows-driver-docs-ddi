@@ -8,9 +8,6 @@ ms.assetid: 50ce4946-18a7-4b63-ba5a-c5684dd0b79c
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceKeyCollection interface"]
 ms.keywords: IPortableDeviceKeyCollection, IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,described, IPortableDeviceKeyCollectionInterface, portabledevicetypes/IPortableDeviceKeyCollection, wpddk.iportabledevicekeycollection
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceKeyCollection"
- - "IPortableDeviceKeyCollection"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceKeyCollection
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceKeyCollection
+ - portabledevicetypes/IPortableDeviceKeyCollection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceKeyCollection
 ---
 
 # IPortableDeviceKeyCollection interface
@@ -47,12 +47,7 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Holds a collection of <b>PROPERTYKEY</b> values. This interface can be retrieved from a method or, if a new object is required, call <b>CoCreate</b> with <b>CLSID_PortableDeviceKeyCollection</b>.
-
-
-
 
 ## -inheritance
 
@@ -63,11 +58,5 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceKeyCollection<
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597553(v=vs.85)">Collection Interfaces</a>
- 
-
- 
 

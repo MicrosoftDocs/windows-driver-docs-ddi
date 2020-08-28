@@ -8,9 +8,6 @@ ms.assetid: FAB86862-C0A1-4FC1-A80F-44F235B9B37D
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_PREPARE_CONTROLLER callback function"]
 ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
-f1_keywords:
- - "gpioclx/CLIENT_PrepareController"
- - "CLIENT_PrepareController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_PrepareController
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_PREPARE_CONTROLLER
+ - gpioclx/GPIO_CLIENT_PREPARE_CONTROLLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_PrepareController
 ---
 
 # GPIO_CLIENT_PREPARE_CONTROLLER callback function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_PrepareController</i> event callback function performs any operations that are needed to make the general-purpose I/O (GPIO) controller ready to be accessed by the GPIO controller driver.
-
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A WDFDEVICE handle to the framework device object that represents the GPIO controller.
 
-
 ### -param Context 
+
 [in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-
 ### -param ResourcesRaw 
+
 [in]
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the raw (bus-relative) hardware resources that the Plug and Play (PnP) manager has assigned to the GPIO controller device.
 
-
 ### -param ResourcesTranslated 
+
 [in]
 A WDFCMRESLIST handle to a collection of framework resource objects. This collection identifies the translated (system-physical) hardware resources that the PnP manager has assigned to the GPIO controller device.
 
-
 ## -returns
-
-
 
 The <i>CLIENT_PrepareController</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function to initialize the hardware resources that the GPIO controller driver needs so that it can access the GPIO controller device.
 
@@ -145,12 +133,7 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_release_controller">CLIENT_ReleaseController</a>
 
@@ -161,7 +144,4 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
- 
-
- 
 

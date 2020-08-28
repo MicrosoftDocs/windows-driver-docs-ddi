@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDI_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES_DATA_0072
 f1_keywords:
- - d3d12umddi//D3D12DDI_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES_DATA_0072
  - D3D12DDI_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES_DATA_0072
+ - d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES_DATA_0072
 dev_langs:
  - c++
 ---
@@ -64,3 +64,4 @@ See the [D3D Video Protected Resource Support Specification](https://microsoft.g
 [**D3D12DDICAPS_TYPE_VIDEO_0020**](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md)
 
 [**PFND3D12DDI_VIDEO_GETCAPS**](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md)
+

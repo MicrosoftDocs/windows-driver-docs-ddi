@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/UpdateWInfo"
- - "UpdateWInfo"
+ - PFND3DDDI_UPDATEWINFO
+ - d3dumddi/PFND3DDDI_UPDATEWINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_UPDATEWINFO callback function
+
 
 ## -description
 

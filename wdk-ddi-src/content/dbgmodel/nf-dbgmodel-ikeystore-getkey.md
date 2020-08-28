@@ -5,38 +5,38 @@ description: The GetKey method is analogous to the GetKey method on IModelObject
 ms.assetid: 9a27d20b-76ff-4b7c-8782-95bd6288e592
 ms.date: 08/13/2018
 keywords: ["IKeyStore::GetKey"]
-f1_keywords:
- - "dbgmodel/IKeyStore.GetKey"
- - "IKeyStore.GetKey"
 ms.keywords: IKeyStore::GetKey, GetKey, IKeyStore.GetKey, IKeyStore::GetKey, IKeyStore.GetKey
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IKeyStore.GetKey
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IKeyStore::GetKey
+ - dbgmodel/IKeyStore::GetKey
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IKeyStore.GetKey
 ---
 
 # IKeyStore::GetKey
@@ -44,24 +44,28 @@ ms.custom: RS5
 
 ## -description
 
-The GetKey method is analogous to the GetKey method on [IModelObject](nn-dbgmodel-imodelobject.md). It will return the value of the specified key if it exists in the key store or the key store's parent store. Note that if the value of the key is a property accessor, the GetValue method will not be called on the property accessor. The actual [IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md) will be returned. It is typical that a client will call GetKeyValue for this reason. 
+The GetKey method is analogous to the GetKey method on [IModelObject](nn-dbgmodel-imodelobject.md). It will return the value of the specified key if it exists in the key store or the key store's parent store. Note that if the value of the key is a property accessor, the GetValue method will not be called on the property accessor. The actual [IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md) will be returned. It is typical that a client will call GetKeyValue for this reason.
 
 ## -parameters
 
 ### -param key
+
 The name of the key to get a value for
 
 ### -param object
+
 The value of the key will be returned in this argument.
 
 ### -param metadata
+
 The metadata store associated with this key will be optionally returned in this argument. There is no present use for second level metadata. This argument should therefore typically be specified as null.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure. The return values E_BOUNDS (or E_NOT_SET in some cases) indicates the key could not be found.
 
 ## -remarks
+
 **Code Sample**
 
 ```cpp
@@ -113,3 +117,4 @@ if (SUCCEEDED(spMetadata->GetKey(L"PreferredRadix", &spRadixKey, nullptr)))
 ## -see-also
 
 [IKeyStore interface](nn-dbgmodel-ikeystore.md)
+

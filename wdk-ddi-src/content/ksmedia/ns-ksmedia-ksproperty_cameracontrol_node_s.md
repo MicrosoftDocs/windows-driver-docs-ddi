@@ -8,9 +8,6 @@ ms.assetid: ced1d848-fb6e-4207-bdb0-29ca82249d06
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_NODE_S structure"]
 ms.keywords: KSPROPERTY_CAMERACONTROL_NODE_S, KSPROPERTY_CAMERACONTROL_NODE_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_S, PKSPROPERTY_CAMERACONTROL_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S, stream.ksproperty_cameracontrol_node_s, vidcapstruct_fbe0c251-5c32-49b7-978c-67b52c920613.xml
-f1_keywords:
- - "ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S"
- - "KSPROPERTY_CAMERACONTROL_NODE_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_CAMERACONTROL_NODE_S
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S, PKSPROPERTY_CAMERACONTROL_NODE_S
+f1_keywords:
+ - KSPROPERTY_CAMERACONTROL_NODE_S
+ - ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_CAMERACONTROL_NODE_S
 ---
 
 # KSPROPERTY_CAMERACONTROL_NODE_S structure
@@ -46,24 +46,17 @@ req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S, PKSPROPERTY_CAMERACONTROL_NODE_S
 
 ## -description
 
-
 The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. This structure specifies property values in requests to the USB Video Class driver.
-
 
 ## -struct-fields
 
-
-
-
 ### -field NodeProperty
 
-Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
-
+Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
 
 ### -field Value
 
 Specifies the value of the property. This member is read/write.
-
 
 ### -field Flags
 
@@ -115,8 +108,6 @@ Indicates that the setting is in relative values.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Capabilities
 
@@ -168,22 +159,12 @@ Indicates that the device settings are in relative values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 See related information about the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/usb-video-class-driver">USB Video Class Driver</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
@@ -194,7 +175,4 @@ See related information about the <a href="https://docs.microsoft.com/windows-ha
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a>
- 
-
- 
 

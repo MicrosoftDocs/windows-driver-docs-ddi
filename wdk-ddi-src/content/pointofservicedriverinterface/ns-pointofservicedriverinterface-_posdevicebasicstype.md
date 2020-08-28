@@ -8,9 +8,6 @@ ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.date: 08/21/2020
 keywords: ["PosDeviceBasicsType structure"]
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
-f1_keywords:
- - "pointofservicedriverinterface/PosDeviceBasicsType"
- - "PosDeviceBasicsType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PointOfServiceDriverInterface.h
-api_name:
-- PosDeviceBasicsType
 targetos: Windows
 req.typenames: PosDeviceBasicsType
+f1_keywords:
+ - _PosDeviceBasicsType
+ - pointofservicedriverinterface/_PosDeviceBasicsType
+ - PosDeviceBasicsType
+ - pointofservicedriverinterface/PosDeviceBasicsType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PointOfServiceDriverInterface.h
+api_name:
+ - PosDeviceBasicsType
 ---
 
 # _PosDeviceBasicsType structure
+
 
 ## -description
 
@@ -60,3 +63,4 @@ Indicates the [PosDeviceType](https://docs.microsoft.com/windows-hardware/driver
 ### -field RecommendedBufferSize
 
 Indicates the size of the buffer that needs to be allocated to receive event data when calling [ReadFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-readfile) to retrieve events for this device.
+

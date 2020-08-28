@@ -8,9 +8,6 @@ ms.assetid: 5DCD8407-1C30-475F-9741-62DB9C86297B
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols4::GetLineByInlineContextWide"]
 ms.keywords: GetLineByInlineContextWide, GetLineByInlineContextWide method [Windows Debugging], GetLineByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetLineByInlineContextWide method, IDebugSymbols4.GetLineByInlineContextWide, IDebugSymbols4::GetLineByInlineContextWide, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide
-f1_keywords:
- - "dbgeng/IDebugSymbols4.GetLineByInlineContextWide"
- - "IDebugSymbols4.GetLineByInlineContextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols4.GetLineByInlineContextWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols4::GetLineByInlineContextWide
+ - dbgeng/IDebugSymbols4::GetLineByInlineContextWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols4.GetLineByInlineContextWide
 ---
 
 # IDebugSymbols4::GetLineByInlineContextWide
@@ -46,66 +46,50 @@ req.typenames:
 
 ## -description
 
-
 Gets a line by inline context.
-
 
 ## -parameters
 
-
-
-
 ### -param Offset 
+
 [in]
 An offset for the line.
 
-
 ### -param InlineContext 
-[in]
-The inline context. 
 
+[in]
+The inline context.
 
 ### -param Line 
+
 [out, optional]
 A pointer to the returned line.
 
-
 ### -param FileBuffer 
+
 [out]
 A pointer to a buffer for a Unicode character string.
 
-
 ### -param FileBufferSize 
+
 [in]
 The size of the file buffer.
 
-
 ### -param FileSize 
+
 [out, optional]
 A pointer to the length of the file.
 
-
 ### -param Displacement 
+
 [out, optional]
 A pointer to the displacement value of the file.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols4">IDebugSymbols4</a>
- 
-
- 
 

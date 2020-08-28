@@ -8,9 +8,6 @@ ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
 ms.date: 05/10/2018
 keywords: ["IddCxMonitorDeparture function"]
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
-f1_keywords:
- - "iddcx/IddCxMonitorDeparture"
- - "IddCxMonitorDeparture"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -25,20 +22,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: IddCxStub.lib 
-req.dll: IddCx.dll 
+req.lib: IddCxStub.lib
+req.dll: IddCx.dll
 req.irql: _Must_inspect_result_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- IddCx.dll
-api_name:
-- IddCxMonitorDeparture
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IddCxMonitorDeparture
+ - iddcx/IddCxMonitorDeparture
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - IddCx.dll
+api_name:
+ - IddCxMonitorDeparture
 ---
 
 # IddCxMonitorDeparture function
@@ -46,29 +46,16 @@ req.typenames:
 
 ## -description
 
-
-
-
                 An OS callback function the driver calls to report a monitor departure from the WDDM graphics adapter
-
 
 ## -parameters
 
-
-
-
 ### -param MonitorObject 
+
 [in]
 The monitor object that is departing
 
-
 ## -returns
 
-
-
-
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-                    
-
-
 

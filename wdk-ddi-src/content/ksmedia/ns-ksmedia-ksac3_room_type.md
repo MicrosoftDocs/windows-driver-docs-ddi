@@ -8,9 +8,6 @@ ms.assetid: adf514e1-5413-4552-b676-7567e8fa9954
 ms.date: 08/20/2020
 keywords: ["KSAC3_ROOM_TYPE structure"]
 ms.keywords: "*PKSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE structure [Audio Devices], PKSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE structure pointer [Audio Devices], aud-prop_cfc30aae-0335-42d9-bd6d-7888fed060af.xml, audio.ksac3_room_type, ksmedia/KSAC3_ROOM_TYPE, ksmedia/PKSAC3_ROOM_TYPE"
-f1_keywords:
- - "ksmedia/KSAC3_ROOM_TYPE"
- - "KSAC3_ROOM_TYPE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAC3_ROOM_TYPE
 targetos: Windows
 req.typenames: KSAC3_ROOM_TYPE, *PKSAC3_ROOM_TYPE
+f1_keywords:
+ - PKSAC3_ROOM_TYPE
+ - ksmedia/PKSAC3_ROOM_TYPE
+ - KSAC3_ROOM_TYPE
+ - ksmedia/KSAC3_ROOM_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAC3_ROOM_TYPE
 ---
 
 # KSAC3_ROOM_TYPE structure
+
 
 ## -description
 
@@ -64,3 +67,4 @@ For more information about bit stream modes, see the AC-3 specification at the [
 ## -see-also
 
 [KSPROPERTY_AC3_ROOM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-room-type)
+

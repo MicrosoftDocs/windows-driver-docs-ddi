@@ -8,9 +8,6 @@ ms.assetid: e48b5048-5f5f-4efb-b7bf-2dd183074516
 ms.date: 03/29/2018
 keywords: ["StorPortGetDeviceObjects function"]
 ms.keywords: StorPortGetDeviceObjects, StorPortGetDeviceObjects routine [Storage Devices], storage.storportgetdeviceobjects, storport/StorPortGetDeviceObjects, storprt_219d8794-88c3-49c6-82ea-a19f75c3ad1f.xml
-f1_keywords:
- - "storport/StorPortGetDeviceObjects"
- - "StorPortGetDeviceObjects"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetDeviceObjects
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetDeviceObjects
+ - storport/StorPortGetDeviceObjects
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetDeviceObjects
 ---
 
 # StorPortGetDeviceObjects function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortGetDeviceObjects</b> routine returns the device objects that are associated with the adapter device stack. The device objects that will be returned are the functional and physical device objects of the adapter and the device object to which the functional device object is attached. 
-
+The <b>StorPortGetDeviceObjects</b> routine returns the device objects that are associated with the adapter device stack. The device objects that will be returned are the functional and physical device objects of the adapter and the device object to which the functional device object is attached.
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param AdapterDeviceObject 
+
 [out]
 A pointer to receive the functional device object (FDO) of the adapter.
 
-
 ### -param PhysicalDeviceObject 
+
 [out]
 A pointer to receive the physical device object (PDO).
 
-
 ### -param LowerDeviceObject 
+
 [out]
 A pointer to receive the device object of lower device to which the FDO is attached.
 
-
 ## -returns
-
-
 
 <b>StorPortGetDeviceObjects</b> returns one of the following status codes:
 
@@ -120,7 +113,4 @@ The <i>HwDeviceExtension</i> was <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,39 +8,39 @@ ms.assetid: 43c226cd-11a2-4250-95d3-be9e2986acc2
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetMagicPacketCapabilities function"]
-f1_keywords:
- - "netadapter/NetAdapterWakeSetMagicPacketCapabilities"
- - "NetAdapterWakeSetMagicPacketCapabilities"
 ms.keywords: NetAdapterWakeSetMagicPacketCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterWakeSetMagicPacketCapabilities
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetAdapterWakeSetMagicPacketCapabilities
+ - netadapter/NetAdapterWakeSetMagicPacketCapabilities
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterWakeSetMagicPacketCapabilities
+product:
+ - Windows
 ---
 
 # NetAdapterWakeSetMagicPacketCapabilities function
@@ -81,3 +81,4 @@ Client drivers must call [**NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT**](.
 [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
+

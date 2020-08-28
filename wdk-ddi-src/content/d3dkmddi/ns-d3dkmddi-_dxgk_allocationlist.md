@@ -7,9 +7,6 @@ ms.assetid: 1be057dc-6a97-4798-a152-7cc6d6febda5
 ms.date: 05/10/2018
 keywords: ["DXGK_ALLOCATIONLIST structure"]
 ms.keywords: DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, _DXGK_ALLOCATIONLIST, d3dkmddi/DXGK_ALLOCATIONLIST, display.dxgk_allocationlist
-f1_keywords:
- - "d3dkmddi/DXGK_ALLOCATIONLIST"
- - "DXGK_ALLOCATIONLIST"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_ALLOCATIONLIST
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_ALLOCATIONLIST
+f1_keywords:
+ - _DXGK_ALLOCATIONLIST
+ - d3dkmddi/_DXGK_ALLOCATIONLIST
+ - DXGK_ALLOCATIONLIST
+ - d3dkmddi/DXGK_ALLOCATIONLIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_ALLOCATIONLIST
 ---
 
 # _DXGK_ALLOCATIONLIST structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_ALLOCATIONLIST
 
 ## -description
 
-
 The <b>DXGK_ALLOCATIONLIST</b> structure describes an allocation specification that is used in direct memory access (DMA) buffering.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hDeviceSpecificAllocation
 
@@ -98,21 +95,11 @@ Supported starting with Windows 10.
 
 [in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
 
-
-
 ## -remarks
 
-
-
-In the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a> function, the driver generates a list of <b>DXGK_ALLOCATIONLIST</b> structures for allocation specifications that will be used in a direct memory access (DMA) buffer. The video memory manager uses the list to split and patch DMA buffers appropriately. 
-
-
-
+In the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a> function, the driver generates a list of <b>DXGK_ALLOCATIONLIST</b> structures for allocation specifications that will be used in a direct memory access (DMA) buffer. The video memory manager uses the list to split and patch DMA buffers appropriately.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createallocation">DXGKARG_CREATEALLOCATION</a>
 
@@ -135,7 +122,4 @@ In the display miniport driver's <a href="https://docs.microsoft.com/windows-har
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
- 
-
- 
 

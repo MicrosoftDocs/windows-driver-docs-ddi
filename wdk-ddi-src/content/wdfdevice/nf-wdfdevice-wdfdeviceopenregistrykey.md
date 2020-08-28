@@ -8,9 +8,6 @@ ms.assetid: 0ccae1e9-23d4-44cd-ae5a-985490db1d86
 ms.date: 02/26/2018
 keywords: ["WdfDeviceOpenRegistryKey function"]
 ms.keywords: DFDeviceObjectGeneralRef_ab116304-7951-4b19-b197-3943a4a415db.xml, WdfDeviceOpenRegistryKey, WdfDeviceOpenRegistryKey method, kmdf.wdfdeviceopenregistrykey, wdf.wdfdeviceopenregistrykey, wdfdevice/WdfDeviceOpenRegistryKey
-f1_keywords:
- - "wdfdevice/WdfDeviceOpenRegistryKey"
- - "WdfDeviceOpenRegistryKey"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceOpenRegistryKey
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceOpenRegistryKey
+ - wdfdevice/WdfDeviceOpenRegistryKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceOpenRegistryKey
 ---
 
 # WdfDeviceOpenRegistryKey function
@@ -49,23 +49,19 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceOpenRegistryKey</b> method opens a device's hardware key or a driver's software key in the registry and creates a framework registry-key object that represents the registry key.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param DeviceInstanceKeyType 
+
 [in]
 Specifies which key or subkey to open.  This is a bitwise OR of the following flags (which are defined in <i>Wdm.h</i>).
 
@@ -131,10 +127,9 @@ Similarly, a UMDF driver uses these flags to open the <b>ServiceName</b> subkey 
 <td>UMDF</td>
 </tr>
 </table>
- 
-
 
 ### -param DesiredAccess 
+
 [in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies access rights that the driver is requesting for the specified registry key.
 
@@ -192,20 +187,17 @@ If you are writing a UMDF driver, use the following table.
 
 As a best practice, ask for only the types of access that your driver needs.
 
-
 ### -param KeyAttributes 
+
 [in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-
 ### -param Key 
+
 [out]
 A pointer to a location that receives a handle to the new registry-key object.
 
-
 ## -returns
-
-
 
 <b>WdfDeviceOpenRegistryKey</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -268,12 +260,7 @@ The method might return other <a href="https://docs.microsoft.com/windows-hardwa
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 If your driver must open a hardware or software key before it has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitopenregistrykey">WdfFdoInitOpenRegistryKey</a> instead of <b>WdfDeviceOpenRegistryKey</b>.
 
@@ -288,15 +275,7 @@ For code examples that use <b>WdfDeviceOpenRegistryKey</b>, see <a href="https:/
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitopenregistrykey">WdfFdoInitOpenRegistryKey</a>
- 
-
- 
 

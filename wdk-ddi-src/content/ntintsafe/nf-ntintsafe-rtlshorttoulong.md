@@ -8,9 +8,6 @@ ms.assetid: A69F7F0E-3A71-4F29-9B56-A9B34D112F6C
 ms.date: 04/30/2018
 keywords: ["RtlShortToULong function"]
 ms.keywords: RtlShortToULong, RtlShortToULong function [Kernel-Mode Driver Architecture], kernel.rtlshorttoulong, ntintsafe/RtlShortToULong
-f1_keywords:
- - "ntintsafe/RtlShortToULong"
- - "RtlShortToULong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlShortToULong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlShortToULong
+ - ntintsafe/RtlShortToULong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlShortToULong
 ---
 
 # RtlShortToULong function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>SHORT</b> to a value of type <b>ULONG</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param sOperand 
+
 [in]
 The value to be converted.
 
-
 ### -param pulResult 
+
 [out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -81,5 +74,4 @@ This function uses the following alternate name:
 <li>RtlInt16ToDWord
 </li>
 </ul>
-
 

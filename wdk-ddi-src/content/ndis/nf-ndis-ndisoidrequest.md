@@ -8,9 +8,6 @@ ms.assetid: a3ddeec4-0414-48ed-ab3b-5df252682655
 ms.date: 05/02/2018
 keywords: ["NdisOidRequest function"]
 ms.keywords: NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest
-f1_keywords:
- - "ndis/NdisOidRequest"
- - "NdisOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisOidRequest
+ - ndis/NdisOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisOidRequest
 ---
 
 # NdisOidRequest function
@@ -47,34 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisOidRequest</b> function forwards a request to the underlying drivers to query the capabilities or
   status of an adapter or set the state of an adapter.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisBindingHandle 
+
 [in]
 The handle returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function that
      identifies the target adapter on the binding.
 
-
 ### -param OidRequest 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation requested with a given OID_<i>XXX</i> code to either query the status of an adapter or to set the state of an adapter.
 
-
 ## -returns
-
-
 
 The underlying driver determines which NDIS_STATUS_<i>XXX</i> code 
      <b>NdisOidRequest</b> returns, but it is usually one of the following values:
@@ -228,14 +221,8 @@ This value usually is a nonspecific default, returned when none of the more spec
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A protocol driver must allocate sufficient memory to hold the information buffer that is associated
     with the specified OID. The driver must also allocate and set up the buffer at 
@@ -265,13 +252,7 @@ For more information about the general and media-specific OIDs and their respect
     information buffers, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -286,7 +267,4 @@ For more information about the general and media-specific OIDs and their respect
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>
- 
-
- 
 

@@ -5,67 +5,47 @@ description: Includes HDR metadata to allow the video processor to optimize vide
 ms.assetid: c7a687ae-1877-4565-9dd7-618e8cec81ff
 ms.date: 10/19/2018
 keywords: ["PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA callback function"]
-f1_keywords:
- - "d3d10umddi/PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA"
- - "PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA"
 req.header: d3d10umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
+ - d3d10umddi/PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA callback function
 
+
 ## -description
 
 Implemented by the client driver to include HDR metadata to allow the video processor to optimize video for display. This callback sets the maximum brightness capability (in nits) of the display on which the content will be presented.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA Pfnd3dwddm21DdiVideoprocessorsetoutputhdrmetadata;
-
-// Definition
-
-VOID Pfnd3dwddm21DdiVideoprocessorsetoutputhdrmetadata
-(
-	D3D10DDI_HDEVICE hDevice
-	D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor
-	D3DDDI_HDR_METADATA_TYPE Type
-	UINT Size
-	CONST VOID *pMetaData
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -95,6 +75,26 @@ Points to a structure containing the HDR metadata.
 * For D3DDDI_HDR_METADATA_TYPE_NONE, this should be NULL.
 * For D3DDDI_HDR_METADATA_TYPE_HDR10, this is a pointer to a DD3DDDI_HDR_METADATA_HDR10 structure.
 
+## -prototype
+
+```cpp
+//Declaration
+
+PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA Pfnd3dwddm21DdiVideoprocessorsetoutputhdrmetadata;
+
+// Definition
+
+VOID Pfnd3dwddm21DdiVideoprocessorsetoutputhdrmetadata
+(
+	D3D10DDI_HDEVICE hDevice
+	D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor
+	D3DDDI_HDR_METADATA_TYPE Type
+	UINT Size
+	CONST VOID *pMetaData
+)
+{...}
+
+```
 
 ## -remarks
 
@@ -103,3 +103,4 @@ When processing an HDR stream, the driver may use this brightness information to
 ## -see-also
 
 [D3DWDDM2_1DDI_VIDEODEVICEFUNCS structure](ns-d3d10umddi-d3dwddm2_1ddi_videodevicefuncs.md)
+

@@ -8,9 +8,6 @@ ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.date: 04/23/2018
 keywords: ["IKsAggregateControl interface"]
 ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices],described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
-f1_keywords:
- - "ksproxy/IKsAggregateControl"
- - "IKsAggregateControl"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsAggregateControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsAggregateControl
+ - ksproxy/IKsAggregateControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsAggregateControl
 ---
 
 # IKsAggregateControl interface
+
 
 ## -description
 
@@ -94,3 +95,4 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
 
 [KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate)
+

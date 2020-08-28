@@ -8,9 +8,6 @@ ms.assetid: b88afd6e-3a0a-471e-a874-db8fc3175d61
 ms.date: 04/16/2018
 keywords: ["MmDoesFileHaveUserWritableReferences function"]
 ms.keywords: MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ifsk.mmdoesfilehaveuserwritablereferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ntifs/MmDoesFileHaveUserWritableReferences
-f1_keywords:
- - "ntifs/MmDoesFileHaveUserWritableReferences"
- - "MmDoesFileHaveUserWritableReferences"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmDoesFileHaveUserWritableReferences
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmDoesFileHaveUserWritableReferences
+ - ntifs/MmDoesFileHaveUserWritableReferences
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmDoesFileHaveUserWritableReferences
 ---
 
 # MmDoesFileHaveUserWritableReferences function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmDoesFileHaveUserWritableReferences </b>function returns the number of writable references for a file object.
-
 
 ## -parameters
 
-
-
-
 ### -param SectionPointer 
+
 [in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>MmDoesFileHaveUserWritableReferences </b>returns the number of writable references for the file object associated with the <i>SectionPointer </i>parameter.
 
-
-
-
 ## -remarks
-
-
 
 <b>MmDoesFileHaveUserWritableReferences</b> returns the number of writable references for the file object that is associated with the <i>SectionPointer </i>parameter.  This return value is the sum of the following numbers:
 
@@ -103,16 +91,7 @@ For more information about transactions, see <a href="https://docs.microsoft.com
 
 For more information about file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
- 
-
- 
 

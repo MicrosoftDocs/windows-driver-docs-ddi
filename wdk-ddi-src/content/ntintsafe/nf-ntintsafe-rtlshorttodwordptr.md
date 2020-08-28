@@ -8,9 +8,6 @@ ms.assetid: 0ABB3DBF-117D-491D-85A3-68E9280CFC6C
 ms.date: 04/30/2018
 keywords: ["RtlShortToDWordPtr function"]
 ms.keywords: RtlShortToDWordPtr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttodwordptr, ntintsafe/RtlShortToDWordPtr
-f1_keywords:
- - "ntintsafe/RtlShortToDWordPtr"
- - "RtlShortToDWordPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlShortToDWordPtr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlShortToDWordPtr
+ - ntintsafe/RtlShortToDWordPtr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlShortToDWordPtr
 ---
 
 # RtlShortToDWordPtr function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>SHORT</b> to a value of type <b>DWORD_PTR</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param sOperand 
+
 [in]
 The value to be converted.
 
-
 ### -param pdwResult 
+
 [out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -76,5 +69,4 @@ This function uses the following alternate name:
 <ul>
 <li></li>
 </ul>
-
 

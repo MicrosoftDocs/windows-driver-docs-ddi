@@ -8,38 +8,38 @@ ms.assetid: af75e59d-c4af-43ca-a160-ddc8a7a4a88e
 ms.date: 02/16/2018
 keywords: ["DOT11EXTIHV_GET_VERSION_INFO callback"]
 ms.keywords: DOT11EXTIHV_GET_VERSION_INFO, Dot11ExtIhvGetVersionInfo, Dot11ExtIhvGetVersionInfo callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1b6acc66-1f69-45c3-8596-3f0c96e21a91.xml, netvista.dot11extihvgetversioninfo, wlanihv/Dot11ExtIhvGetVersionInfo
-f1_keywords:
- - "wlanihv/Dot11ExtIhvGetVersionInfo"
- - "Dot11ExtIhvGetVersionInfo"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wlanihv.h
-api_name:
-- Dot11ExtIhvGetVersionInfo
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
+f1_keywords:
+ - DOT11EXTIHV_GET_VERSION_INFO
+ - wlanihv/DOT11EXTIHV_GET_VERSION_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wlanihv.h
+api_name:
+ - Dot11ExtIhvGetVersionInfo
 ---
 
 # DOT11EXTIHV_GET_VERSION_INFO callback
@@ -47,14 +47,26 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvGetVersionInfo</i> function immediately after loading the IHV Extensions DLL to determine the
   version of the interface supported by the DLL.
 
+## -parameters
+
+### -param pDot11IHVVersionInfo 
+
+[out]
+A pointer to a
+     <a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a> structure,
+     which contains the interface version numbers.
+
+## -returns
+
+If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
+     defined in
+     Winerror.h.
 
 ## -prototype
-
 
 ```cpp
 DOT11EXTIHV_GET_VERSION_INFO Dot11ExtIhvGetVersionInfo;
@@ -65,33 +77,7 @@ DWORD APIENTRY Dot11ExtIhvGetVersionInfo(
 { ... }
 ```
 
-
-## -parameters
-
-
-
-
-### -param pDot11IHVVersionInfo 
-[out]
-A pointer to a
-     <a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a> structure,
-     which contains the interface version numbers.
-
-
-## -returns
-
-
-
-If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in
-     Winerror.h.
-
-
-
-
 ## -remarks
-
-
 
 The operating system calls the
     <i>Dot11ExtIhvGetVersionInfo</i> function to determine what version of the interface to use with the IHV
@@ -124,9 +110,6 @@ The
 For more information about
     <b>GetProcAddress</b>, refer to the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
 
 <a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a>
@@ -134,11 +117,4 @@ For more information about
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
-
-
-
- 
-
- 
-
 

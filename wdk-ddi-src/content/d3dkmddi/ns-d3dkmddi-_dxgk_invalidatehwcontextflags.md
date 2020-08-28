@@ -5,39 +5,42 @@ description: Contains running contexts that were are were not affected by the GP
 ms.assetid: 67f6eb63-d277-4c36-a43a-f4dd22209a72
 ms.date: 10/19/2018
 keywords: ["DXGK_INVALIDATEHWCONTEXTFLAGS structure"]
-f1_keywords:
- - "d3dkmddi/_DXGK_INVALIDATEHWCONTEXTFLAGS"
- - "_DXGK_INVALIDATEHWCONTEXTFLAGS"
 ms.keywords: _DXGK_INVALIDATEHWCONTEXTFLAGS, DXGK_INVALIDATEHWCONTEXTFLAGS,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_INVALIDATEHWCONTEXTFLAGS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGK_INVALIDATEHWCONTEXTFLAGS
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGK_INVALIDATEHWCONTEXTFLAGS
+ - d3dkmddi/_DXGK_INVALIDATEHWCONTEXTFLAGS
+ - DXGK_INVALIDATEHWCONTEXTFLAGS
+ - d3dkmddi/DXGK_INVALIDATEHWCONTEXTFLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_INVALIDATEHWCONTEXTFLAGS
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_INVALIDATEHWCONTEXTFLAGS structure
+
 
 ## -description
 
@@ -56,3 +59,4 @@ Reserved for internal use.
 ### -field Value
 
 The value of the context flag.
+

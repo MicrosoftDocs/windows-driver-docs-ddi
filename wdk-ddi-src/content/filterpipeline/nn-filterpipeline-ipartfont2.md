@@ -8,9 +8,6 @@ ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 ms.date: 04/20/2018
 keywords: ["IPartFont2 interface"]
 ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2
-f1_keywords:
- - "filterpipeline/IPartFont2"
- - "IPartFont2"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Filterpipeline.h
-api_name:
-- IPartFont2
-- IPartFont2.GetFontRestriction
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPartFont2
+ - filterpipeline/IPartFont2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Filterpipeline.h
+api_name:
+ - IPartFont2
+ - IPartFont2.GetFontRestriction
 ---
 
 # IPartFont2 interface
 
 
 ## -description
-
-
-
-
 
 ## -inheritance
 

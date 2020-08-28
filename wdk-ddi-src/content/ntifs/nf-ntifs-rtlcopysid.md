@@ -8,9 +8,6 @@ ms.assetid: adfe720f-695e-49a2-b7b5-940ba11bc83f
 ms.date: 04/16/2018
 keywords: ["RtlCopySid function"]
 ms.keywords: RtlCopySid, RtlCopySid routine [Installable File System Drivers], ifsk.rtlcopysid, ntifs/RtlCopySid, rtlref_598b8f18-6cd2-4714-a2da-8e91f6aba065.xml
-f1_keywords:
- - "ntifs/RtlCopySid"
- - "RtlCopySid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlCopySid
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCopySid
+ - ntifs/RtlCopySid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlCopySid
 ---
 
 # RtlCopySid function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlCopySid</b> routine copies the value of a security identifier (SID) to a buffer. 
-
+The <b>RtlCopySid</b> routine copies the value of a security identifier (SID) to a buffer.
 
 ## -parameters
 
-
-
-
 ### -param DestinationSidLength 
-[in]
-Length, in bytes, of the buffer to receive the copy of the SID. 
 
+[in]
+Length, in bytes, of the buffer to receive the copy of the SID.
 
 ### -param DestinationSid 
+
 [in]
 Pointer to a caller-allocated buffer to receive a copy of the source SID structure. The buffer must be at least <b>sizeof</b>(SID),
 
-
 ### -param SourceSid 
+
 [in]
 Pointer to the source SID structure to be copied.
 
-
 ## -returns
-
-
 
 <b>RtlCopySid</b> returns STATUS_SUCCESS if the SID was successfully copied. Otherwise, it returns an NTSTATUS value such as one of the following: 
 
@@ -94,24 +87,12 @@ The <i>DestinationSid</i> buffer was not large enough to receive a copy of the S
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlequalprefixsid">RtlEqualPrefixSid</a>
 
@@ -130,7 +111,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
- 
-
- 
 

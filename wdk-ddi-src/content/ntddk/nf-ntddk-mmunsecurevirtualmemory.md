@@ -8,9 +8,6 @@ ms.assetid: 979eef24-e53b-476c-b9db-e56c43630913
 ms.date: 04/30/2018
 keywords: ["MmUnsecureVirtualMemory function"]
 ms.keywords: MmUnsecureVirtualMemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, kernel.mmunsecurevirtualmemory, ntddk/MmUnsecureVirtualMemory
-f1_keywords:
- - "ntddk/MmUnsecureVirtualMemory"
- - "MmUnsecureVirtualMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmUnsecureVirtualMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmUnsecureVirtualMemory
+ - ntddk/MmUnsecureVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmUnsecureVirtualMemory
 ---
 
 # MmUnsecureVirtualMemory function
@@ -46,27 +46,16 @@ req.typenames:
 
 ## -description
 
-
-The <b>MmUnsecureVirtualMemory</b> routine unsecures a memory address range secured by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> routine. 
-
+The <b>MmUnsecureVirtualMemory</b> routine unsecures a memory address range secured by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> routine.
 
 ## -parameters
 
-
-
-
 ### -param SecureHandle 
-[in]
-Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> for the memory address range. 
 
+[in]
+Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> for the memory address range.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a>
- 
-
- 
 

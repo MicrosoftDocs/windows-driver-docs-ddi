@@ -8,9 +8,6 @@ ms.assetid: 8F38C4EC-08BD-4CEF-97AB-B282ECC19627
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_HOST_CONNECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_HOST_CONNECT, EVT_UFX_DEVICE_HOST_CONNECT callback, EvtUfxDeviceHostConnect, EvtUfxDeviceHostConnect callback function [Buses], PFN_UFX_DEVICE_HOST_CONNECT, PFN_UFX_DEVICE_HOST_CONNECT callback function pointer [Buses], buses.evt_ufx_device_host_connect, ufxclient/EvtUfxDeviceHostConnect
-f1_keywords:
- - "ufxclient/PFN_UFX_DEVICE_HOST_CONNECT"
- - "PFN_UFX_DEVICE_HOST_CONNECT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ufxclient.h
-api_name:
-- PFN_UFX_DEVICE_HOST_CONNECT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UFX_DEVICE_HOST_CONNECT
+ - ufxclient/EVT_UFX_DEVICE_HOST_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ufxclient.h
+api_name:
+ - PFN_UFX_DEVICE_HOST_CONNECT
 ---
 
 # EVT_UFX_DEVICE_HOST_CONNECT callback function
@@ -46,32 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation to initiate connection with the host.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ## -remarks
-
-
 
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_HOST_CONNECT</i> implementation with the USB function class extension (UFX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
 
@@ -135,19 +120,11 @@ Arguments:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
- 
-
- 
 

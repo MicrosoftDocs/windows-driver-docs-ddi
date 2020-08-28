@@ -8,9 +8,6 @@ ms.assetid: 067ecebb-e63c-4161-9e8f-3746ecad3259
 ms.date: 05/10/2018
 keywords: ["VideoPortVerifyAccessRanges function"]
 ms.keywords: VideoPortVerifyAccessRanges, VideoPortVerifyAccessRanges function [Display Devices], VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, display.videoportverifyaccessranges, video/VideoPortVerifyAccessRanges
-f1_keywords:
- - "video/VideoPortVerifyAccessRanges"
- - "VideoPortVerifyAccessRanges"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortVerifyAccessRanges
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortVerifyAccessRanges
+ - video/VideoPortVerifyAccessRanges
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortVerifyAccessRanges
 ---
 
 # VideoPortVerifyAccessRanges function
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortVerifyAccessRanges</b> function checks the registry for whether another driver has already claimed ownership of the specified bus-relative access ranges and any other hardware resources specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> structure. If not, this function claims the given resources for the caller.
-
 
 ## -parameters
 
@@ -61,6 +59,7 @@ Pointer to the miniport driver's device extension.
 Specifies the number of elements in the <i>AccessRanges</i> array, or zero.
 
 ### -param AccessRanges 
+
 [in, optional]
 Pointer to the miniport driver's access ranges array, or <b>NULL</b>. Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>-type element in this array specifies a bus-relative range of device memory, I/O ports, or register addresses for the adapter.
 
@@ -74,8 +73,6 @@ Pointer to the miniport driver's access ranges array, or <b>NULL</b>. Each <a hr
 |NO_ERROR|The given AccessRanges are valid and have been claimed for use by the caller.|
 
 ## -remarks
-
-
 
 Every video miniport driver either must call <b>VideoPortVerifyAccessRanges</b>, or use access ranges returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetaccessranges">VideoPortGetAccessRanges</a> before attempting to access a video adapter during the driver (and system) initialization process.
 
@@ -111,12 +108,7 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
@@ -151,7 +143,4 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetregistryparameters">VideoPortGetRegistryParameters</a>
- 
-
- 
 

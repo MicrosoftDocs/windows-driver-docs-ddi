@@ -8,38 +8,38 @@ ms.assetid: 5214053E-28AB-4728-9F4F-6705F8F56AC7
 ms.date: 02/24/2018
 keywords: ["IOCTL_VPCI_WRITE_BLOCK IOCTL"]
 ms.keywords: IOCTL_VPCI_WRITE_BLOCK, IOCTL_VPCI_WRITE_BLOCK control code, PCI.ioctl_vpci_write_block, vpci/IOCTL_VPCI_WRITE_BLOCK
-f1_keywords:
- - "vpci/IOCTL_VPCI_WRITE_BLOCK"
- - "IOCTL_VPCI_WRITE_BLOCK"
 req.header: vpci.h
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vpci.h
-api_name:
-- IOCTL_VPCI_WRITE_BLOCK
 targetos: Windows
 req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
 req.product: Windows 10 or later.
+f1_keywords:
+ - IOCTL_VPCI_WRITE_BLOCK
+ - vpci/IOCTL_VPCI_WRITE_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vpci.h
+api_name:
+ - IOCTL_VPCI_WRITE_BLOCK
 ---
 
 # IOCTL_VPCI_WRITE_BLOCK IOCTL
@@ -50,9 +50,8 @@ req.product: Windows 10 or later.
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
-
-
 
 The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_write_block">IOCTL_VPCI_WRITE_BLOCK</a>
    I/O control code (IOCTL) in order to write data to a VF configuration block. The driver issues this IOCTL to the next-lower driver in the driver stack.
@@ -78,69 +77,21 @@ The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="htt
 </dd>
 </dl>For more information about issuing IOCTLs between kernel-mode drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-
-
-
-
-
-
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
-
-
-
-
-
-
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -148,12 +99,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [XREF-LINK:NTSTATUS Values].
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="preparing_an_i_o_request_packet_structure"></a><a id="PREPARING_AN_I_O_REQUEST_PACKET_STRUCTURE"></a>Preparing an I/O Request Packet Structure</h3>
 The driver must first allocate or reuse an I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>). You can use the <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> routine to specifically allocate an IOCTL IRP. You can also use general-purpose IRP creation and initialization routines, such as <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>, <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>, or <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>. For more information about IRP allocation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-irps-for-lower-level-drivers">Creating IRPs for Lower-Level Drivers</a>.
@@ -345,8 +291,6 @@ The  usage of the VF configuration block and the format of its configuration dat
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_write_block">IOCTL_VPCI_WRITE_BLOCK</a> IOCTL offers an asynchronous alternative to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh451609(v=vs.85)">WriteVfConfigBlock</a> routine.</div>
 <div> </div>
 
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
@@ -382,11 +326,4 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 <b></b>
-
-
-
- 
-
- 
-
 

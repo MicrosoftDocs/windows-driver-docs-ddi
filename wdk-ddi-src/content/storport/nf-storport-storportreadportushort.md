@@ -8,9 +8,6 @@ ms.assetid: e5c9e91a-96b7-4774-8bb4-7519968ce072
 ms.date: 03/29/2018
 keywords: ["StorPortReadPortUshort macro"]
 ms.keywords: StorPortReadPortUshort, StorPortReadPortUshort routine [Storage Devices], storage.storportreadportushort, storport/StorPortReadPortUshort, storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml
-f1_keywords:
- - "storport/StorPortReadPortUshort"
- - "StorPortReadPortUshort"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortReadPortUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortReadPortUshort
+ - storport/StorPortReadPortUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortReadPortUshort
 ---
 
 # StorPortReadPortUshort macro
@@ -47,45 +47,29 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortReadPortUshort</b> routine reads a value from a specified port address. 
-
+The <b>StorPortReadPortUshort</b> routine reads a value from a specified port address.
 
 ## -parameters
 
-
-
-
 ### -param h 
+
 [in]
 A pointer to the hardware device extension.
 
-
 ### -param p 
-[in]
-A pointer to the address from which to read. 
 
+[in]
+A pointer to the address from which to read.
 
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportbufferushort">StorPortReadPortBufferUshort</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportbufferushort">StorPortReadPortBufferUshort</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportbufferushort">StorPortReadPortBufferUshort</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.date: 04/20/2018
 keywords: ["IBidiRequestContainer::GetEnumObject"]
 ms.keywords: GetEnumObject, GetEnumObject method [Print Devices], GetEnumObject method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetEnumObject method, IBidiRequestContainer.GetEnumObject, IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject
-f1_keywords:
- - "bidispl/IBidiRequestContainer.GetEnumObject"
- - "IBidiRequestContainer.GetEnumObject"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiRequestContainer.GetEnumObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiRequestContainer::GetEnumObject
+ - bidispl/IBidiRequestContainer::GetEnumObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiRequestContainer.GetEnumObject
 ---
 
 # IBidiRequestContainer::GetEnumObject
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetEnumObject</b> method enumerates the bidi requests in a list.
-
 
 ## -parameters
 
-
-
-
 ### -param ppenum 
+
 [out]
 Pointer to the variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface that enumerates the bidi requests in the container.
 
-
 ## -returns
-
-
 
 The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
@@ -105,24 +98,12 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An application can call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-next">IEnumUnknown::Next</a> to retrieve one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a> interfaces.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -137,7 +118,4 @@ An application can call <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
- 
-
- 
 

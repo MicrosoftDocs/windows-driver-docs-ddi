@@ -8,9 +8,6 @@ ms.assetid: 85e4c30e-61c2-4e9e-b272-7ad77883ccd8
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::SetCurrentValue(INT,BYTE,INT)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,BYTE,INT), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT  ,BYTE  *,INT  ), CWiauPropertyList::SetCurrentValue(INT,BYTE,INT), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_byte__, wiauFncs_b79d2982-a76b-4675-a342-32a2751bac26.xml, wiautil/CWiauPropertyList::SetCurrentValue
-f1_keywords:
- - "wiautil/CWiauPropertyList.SetCurrentValue"
- - "CWiauPropertyList.SetCurrentValue"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.SetCurrentValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - CWiauPropertyList::SetCurrentValue
+ - wiautil/CWiauPropertyList::SetCurrentValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.SetCurrentValue
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,BYTE,INT)
+
 
 ## -description
 
@@ -69,3 +70,4 @@ Specifies the number of elements in the array of bytes.
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
+

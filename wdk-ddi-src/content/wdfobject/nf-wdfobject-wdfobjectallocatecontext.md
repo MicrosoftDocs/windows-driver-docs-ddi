@@ -8,9 +8,6 @@ ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
 ms.date: 02/26/2018
 keywords: ["WdfObjectAllocateContext function"]
 ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
-f1_keywords:
- - "wdfobject/WdfObjectAllocateContext"
- - "WdfObjectAllocateContext"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfObjectAllocateContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfObjectAllocateContext
+ - wdfobject/WdfObjectAllocateContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfObjectAllocateContext
 ---
 
 # WdfObjectAllocateContext function
@@ -49,35 +49,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfObjectAllocateContext</b> method allocates context space for a specified framework object.
 
-
 ## -parameters
 
-
-
-
 ### -param Handle 
+
 [in]
 A handle to a framework object.
 
-
 ### -param ContextAttributes 
+
 [in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that describes the context space.
 
-
 ### -param Context 
+
 [out]
 A pointer to a location that receives a pointer to the allocated context space.
 
-
 ## -returns
-
-
 
 <b>WdfObjectAllocateContext</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -148,12 +141,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 Typically, drivers create object context space by specifying a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure when they call a framework object's creation method, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>. 
 
@@ -193,12 +181,7 @@ status = WdfObjectAllocateContext(
                                   );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
@@ -209,7 +192,4 @@ status = WdfObjectAllocateContext(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
- 
-
- 
 

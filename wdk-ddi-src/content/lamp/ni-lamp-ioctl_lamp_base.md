@@ -5,38 +5,39 @@ description:
 ms.assetid: 91ad561c-3f84-4395-8612-bd7a836b6e24
 ms.date: 08/26/2020
 keywords: ["IOCTL_LAMP_BASE IOCTL"]
-f1_keywords:
- - "lamp/IOCTL_LAMP_BASE"
- - "IOCTL_LAMP_BASE"
 req.header: lamp.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- lamp.h
-api_name: 
-- IOCTL_LAMP_BASE
-product: 
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_LAMP_BASE
+ - lamp/IOCTL_LAMP_BASE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_BASE
+product:
+ - Windows
 ---
 
 # IOCTL_LAMP_BASE IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -65,3 +66,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+

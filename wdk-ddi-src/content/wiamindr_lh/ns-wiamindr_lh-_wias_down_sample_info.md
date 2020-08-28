@@ -8,13 +8,10 @@ ms.assetid: af9d35d8-9e3c-4be0-8ba4-a0b548b1d7ac
 ms.date: 05/03/2018
 keywords: ["WIAS_DOWN_SAMPLE_INFO structure"]
 ms.keywords: "*PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], WIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], _WIAS_DOWN_SAMPLE_INFO, image.wias_down_sample_info, wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml"
-f1_keywords:
- - "wiamindr_lh/WIAS_DOWN_SAMPLE_INFO"
- - "WIAS_DOWN_SAMPLE_INFO"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamindr_lh.h
-api_name:
-- WIAS_DOWN_SAMPLE_INFO
 targetos: Windows
 req.typenames: WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO
+f1_keywords:
+ - _WIAS_DOWN_SAMPLE_INFO
+ - wiamindr_lh/_WIAS_DOWN_SAMPLE_INFO
+ - PWIAS_DOWN_SAMPLE_INFO
+ - wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO
+ - WIAS_DOWN_SAMPLE_INFO
+ - wiamindr_lh/WIAS_DOWN_SAMPLE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - WIAS_DOWN_SAMPLE_INFO
 ---
 
 # _WIAS_DOWN_SAMPLE_INFO structure
+
 
 ## -description
 
@@ -100,3 +105,4 @@ Points to the destination buffer.
 ## -see-also
 
 [wiasDownSampleBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasdownsamplebuffer)
+

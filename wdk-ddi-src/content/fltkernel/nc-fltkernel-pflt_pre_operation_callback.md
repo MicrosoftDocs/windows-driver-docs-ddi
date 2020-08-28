@@ -8,37 +8,37 @@ ms.assetid: 758a480a-b52c-45e4-8c78-74c805c61e07
 ms.date: 10/12/2018
 keywords: ["PFLT_PRE_OPERATION_CALLBACK callback"]
 ms.keywords: FltCallbacks_cfde61cc-2054-4263-8697-aa50a1c9d267.xml, PFLT_PRE_OPERATION_CALLBACK, PFLT_PRE_OPERATION_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_PRE_OPERATION_CALLBACK, ifsk.pflt_pre_operation_callback
-f1_keywords:
- - "fltkernel/PFLT_PRE_OPERATION_CALLBACK"
- - "PFLT_PRE_OPERATION_CALLBACK"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later Windows operating systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- PFLT_PRE_OPERATION_CALLBACK
 targetos: Windows
 req.typenames: EXpsFontRestriction
+f1_keywords:
+ - PFLT_PRE_OPERATION_CALLBACK
+ - fltkernel/PFLT_PRE_OPERATION_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - PFLT_PRE_OPERATION_CALLBACK
 ---
 
 # PFLT_PRE_OPERATION_CALLBACK callback
@@ -46,33 +46,26 @@ req.typenames: EXpsFontRestriction
 
 ## -description
 
-
 A minifilter driver's PFLT_PRE_OPERATION_CALLBACK routine performs pre-operation processing for I/O operations.
-
 
 ## -parameters
 
-
-
-
 ### -param Data 
+
 [in, out]
 A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation.
 
-
 ### -param FltObjects 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current I/O request.
 
-
 ### -param CompletionContext 
+
 [out]
 If this callback routine returns FLT_PREOP_SUCCESS_WITH_CALLBACK or FLT_PREOP_SYNCHRONIZE, this parameter is an optional context pointer to be passed to the corresponding post-operation callback routine. Otherwise, it must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This callback routine returns one of the following FLT_PREOP_CALLBACK_STATUS values:
 
@@ -163,8 +156,6 @@ The minifilter driver is disallowing a fast QueryOpen operation and forcing the 
 
 ## -remarks
 
-
-
 A minifilter driver's pre-operation callback routine processes one or more types of I/O operations. This callback routine is similar to a dispatch routine in the legacy filter model.
 
 A minifilter driver registers a pre-operation callback routine for a particular type of I/O operation by storing the callback routine's entry point in the <b>OperationRegistration</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a> structure. The minifilter driver passes this structure as a parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a> in its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. A minifilter driver can register a pre-operation callback routine for a given type of I/O operation without registering a post-operation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine and vice versa.
@@ -211,12 +202,7 @@ SwapPreReadBuffers(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -275,7 +261,4 @@ SwapPreReadBuffers(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/-flt-completioncontext-outptr--annotation">_Flt_CompletionContext_Outptr_</a>
- 
-
- 
 

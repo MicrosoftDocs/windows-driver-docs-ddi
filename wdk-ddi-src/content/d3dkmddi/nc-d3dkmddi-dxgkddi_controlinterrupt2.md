@@ -27,8 +27,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdi_ControlInterrupt2"
- - "DxgkDdi_ControlInterrupt2"
+ - DXGKDDI_CONTROLINTERRUPT2
+ - d3dkmddi/DXGKDDI_CONTROLINTERRUPT2
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +43,7 @@ product:
 ---
 
 # DXGKDDI_CONTROLINTERRUPT2 callback function
+
 
 ## -description
 
@@ -84,3 +85,4 @@ WDDM 2.7 drivers that do not implement [*DxgkDdi_ControlInterrupt3*](https://doc
 [*DxgkDdi_ControlInterrupt3*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt3)
 
 [*DxgkDdiAddDevice*](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device)
+

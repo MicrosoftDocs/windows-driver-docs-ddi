@@ -8,9 +8,6 @@ ms.assetid: 1a92a823-ec50-406f-942c-c64fc820f9af
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::CreateProcessAndAttach"]
 ms.keywords: CreateProcessAndAttach, CreateProcessAndAttach method [Windows Debugging], CreateProcessAndAttach method [Windows Debugging],IDebugClient interface, CreateProcessAndAttach method [Windows Debugging],IDebugClient2 interface, CreateProcessAndAttach method [Windows Debugging],IDebugClient3 interface, CreateProcessAndAttach method [Windows Debugging],IDebugClient4 interface, CreateProcessAndAttach method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],CreateProcessAndAttach method, IDebugClient2 interface [Windows Debugging],CreateProcessAndAttach method, IDebugClient2::CreateProcessAndAttach, IDebugClient3 interface [Windows Debugging],CreateProcessAndAttach method, IDebugClient3::CreateProcessAndAttach, IDebugClient4 interface [Windows Debugging],CreateProcessAndAttach method, IDebugClient4::CreateProcessAndAttach, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttach method, IDebugClient5.CreateProcessAndAttach, IDebugClient5::CreateProcessAndAttach, IDebugClient::CreateProcessAndAttach, IDebugClient_5ff3afdf-164e-4f2f-a625-389f3da41d24.xml, dbgeng/IDebugClient2::CreateProcessAndAttach, dbgeng/IDebugClient3::CreateProcessAndAttach, dbgeng/IDebugClient4::CreateProcessAndAttach, dbgeng/IDebugClient5::CreateProcessAndAttach, dbgeng/IDebugClient::CreateProcessAndAttach, debugger.createprocessandattach
-f1_keywords:
- - "dbgeng/IDebugClient.CreateProcessAndAttach"
- - "IDebugClient.CreateProcessAndAttach"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.CreateProcessAndAttach
-- IDebugClient2.CreateProcessAndAttach
-- IDebugClient3.CreateProcessAndAttach
-- IDebugClient4.CreateProcessAndAttach
-- IDebugClient5.CreateProcessAndAttach
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::CreateProcessAndAttach
+ - dbgeng/IDebugClient5::CreateProcessAndAttach
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.CreateProcessAndAttach
+ - IDebugClient2.CreateProcessAndAttach
+ - IDebugClient3.CreateProcessAndAttach
+ - IDebugClient4.CreateProcessAndAttach
+ - IDebugClient5.CreateProcessAndAttach
 ---
 
 # IDebugClient5::CreateProcessAndAttach
@@ -50,43 +50,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>CreateProcessAndAttach</b>  method creates a process from a specified command line, then attach to another user-mode process.  The created process is suspended and only allowed to execute when the attach has completed.  This allows rough synchronization when debugging both,  client and server processes.
-
 
 ## -parameters
 
-
-
-
 ### -param Server 
+
 [in]
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to the local process without using a process server.
 
-
 ### -param CommandLine 
+
 [in, optional]
 Specifies the command line to execute to create the new process.  If <i>CommandLine</i> is <b>NULL</b>, then no process is created and these methods attach to an existing process, as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a> does.
 
-
 ### -param CreateFlags 
+
 [in]
 Specifies the flags to use when creating the process.  For details on these flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_create_process_options">DEBUG_CREATE_PROCESS_OPTIONS</a>.<b>CreateFlags</b>.
 
-
 ### -param ProcessId 
+
 [in]
 Specifies the process ID of the target process the debugger will attach to.  If <i>ProcessId</i> is zero, the debugger will attach to the process it created from <i>CommandLine</i>.
 
-
 ### -param AttachFlags 
+
 [in]
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see <a href="https://docs.microsoft.com/previous-versions/ff541454(v=vs.85)">DEBUG_ATTACH_XXX</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -107,14 +100,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available only for live user-mode debugging.
 
@@ -124,13 +111,7 @@ If <i>CommandLine</i> is not <b>NULL</b> and <i>ProcessId</i> is not zero, then 
 <div> </div>
 For more information about creating and attaching to live user-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-attach--attach-to-process-">.attach (Attach to Process)</a>
 
@@ -193,7 +174,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-terminatecurrentprocess">TerminateCurrentProcess</a>
- 
-
- 
 

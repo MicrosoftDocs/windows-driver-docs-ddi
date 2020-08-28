@@ -8,9 +8,6 @@ ms.assetid: 273266b3-98f4-4c93-a06b-8e149440ad24
 ms.date: 04/16/2018
 keywords: ["PMRX_CHKFCB_CALLDOWN callback function"]
 ms.keywords: MRxAreFilesAliased, MRxAreFilesAliased routine [Installable File System Drivers], PMRX_CHKFCB_CALLDOWN, ifsk.mrxarefilesaliased, mrx/MRxAreFilesAliased, mrxref_5d6e6988-84d7-43ac-860e-4f184686a9e6.xml
-f1_keywords:
- - "mrx/MRxAreFilesAliased"
- - "MRxAreFilesAliased"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MRxAreFilesAliased
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_CHKFCB_CALLDOWN
+ - mrx/PMRX_CHKFCB_CALLDOWN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MRxAreFilesAliased
 ---
 
 # PMRX_CHKFCB_CALLDOWN callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The<b> MRxAreFilesAliased</b> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request the network mini-redirector to determine if two FCB structures represent the same file. 
-
+The<b> MRxAreFilesAliased</b> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request the network mini-redirector to determine if two FCB structures represent the same file.
 
 ## -parameters
 
-
-
-
 ### -param Fcb1 
-[in]
-A pointer to the first FCB structure. 
 
+[in]
+A pointer to the first FCB structure.
 
 ### -param Fcb2 
+
 [in]
 A pointer to the second FCB structure.
 
-
 ## -returns
-
-
 
 <b>MRxAreFilesAliased</b> returns STATUS_SUCCESS indicating that the files are not aliased, or an appropriate NTSTATUS value, such as the following: 
 
@@ -88,14 +81,8 @@ The <b>IndexNumber.QuadPart</b> members of the two FCB structures are identical.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 RDBSS calls this routine when processing two files that appear to be the same but have different names (for example, an MS-DOS short name and a long name).
 
@@ -111,15 +98,9 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 </li>
 </ol>
-<b>MRxAreFilesAliased</b> is also called by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a> routine when purging all the file objects associated with a NET_ROOT structure. This is complicated by the fact that the <i>PurgingFCB</i> parameter passed to <b>RxScavengeFobxsForNetRoot</b> and the FCB structure that is associated with the NET_ROOT structure might actually be the same file because of aliasing. In this case, the <b>MRxAreFilesAliased</b> routine is called to determine if the FCB structure is aliased.  
-
-
-
+<b>MRxAreFilesAliased</b> is also called by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a> routine when purging all the file objects associated with a NET_ROOT structure. This is complicated by the fact that the <i>PurgingFCB</i> parameter passed to <b>RxScavengeFobxsForNetRoot</b> and the FCB structure that is associated with the NET_ROOT structure might actually be the same file because of aliasing. In this case, the <b>MRxAreFilesAliased</b> routine is called to determine if the FCB structure is aliased.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a>
 
@@ -182,7 +163,4 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a>
- 
-
- 
 

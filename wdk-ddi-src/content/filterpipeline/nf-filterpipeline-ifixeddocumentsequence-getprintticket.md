@@ -8,9 +8,6 @@ ms.assetid: dba0ac90-a895-4daf-ba7c-b7a8a32fed19
 ms.date: 04/20/2018
 keywords: ["IFixedDocumentSequence::GetPrintTicket"]
 ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices],IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices],GetPrintTicket method, IFixedDocumentSequence.GetPrintTicket, IFixedDocumentSequence::GetPrintTicket, filterpipeline/IFixedDocumentSequence::GetPrintTicket, filterpipeline_f94c6c29-91ba-4820-ad22-12cc9604993c.xml, print.ifixeddocumentsequence_getprintticket
-f1_keywords:
- - "filterpipeline/IFixedDocumentSequence.GetPrintTicket"
- - "IFixedDocumentSequence.GetPrintTicket"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IFixedDocumentSequence.GetPrintTicket
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IFixedDocumentSequence::GetPrintTicket
+ - filterpipeline/IFixedDocumentSequence::GetPrintTicket
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IFixedDocumentSequence.GetPrintTicket
 ---
 
 # IFixedDocumentSequence::GetPrintTicket
@@ -46,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetPrintTicket</b> method gets the print ticket object for the fixed document sequence.
-
 
 ## -parameters
 
-
-
-
 ### -param ppPrintTicket 
+
 [out]
 The print ticket object for the sequence.
 
-
 ## -returns
 
-
-
 <b>GetPrintTicket</b> returns an <b>HRESULT</b> value. If a print ticket is not in the fixed document sequence, <b>GetPrintTicket</b> might return E_ELEMENT_NOT_FOUND.
-
-
 

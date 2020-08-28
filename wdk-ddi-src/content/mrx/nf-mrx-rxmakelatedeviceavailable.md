@@ -8,9 +8,6 @@ ms.assetid: 0818907f-3346-42a2-b123-3298ea8f9a1d
 ms.date: 04/16/2018
 keywords: ["RxMakeLateDeviceAvailable function"]
 ms.keywords: RxMakeLateDeviceAvailable, RxMakeLateDeviceAvailable routine [Installable File System Drivers], ifsk.rxmakelatedeviceavailable, mrx/RxMakeLateDeviceAvailable, rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml
-f1_keywords:
- - "mrx/RxMakeLateDeviceAvailable"
- - "RxMakeLateDeviceAvailable"
 req.header: mrx.h
 req.include-header: Mrx.h, Rxstruc.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mrx.h
-api_name:
-- RxMakeLateDeviceAvailable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxMakeLateDeviceAvailable
+ - mrx/RxMakeLateDeviceAvailable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mrx.h
+api_name:
+ - RxMakeLateDeviceAvailable
 ---
 
 # RxMakeLateDeviceAvailable function
@@ -46,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 <b>RxMakeLateDeviceAvailable</b> modifies the device object to make a "late device" available. A late device is one that is not created in the driver's load routine.
-
 
 ## -parameters
 
-
-
-
 ### -param RxDeviceObject 
+
 [in]
 A pointer to the where the created device object is to be stored.
 
-
 ## -remarks
 
-
-
-<b>RxMakeLateDeviceAvailable</b> clears the DO_DEVICE_INITIALIZING bit in the <b>Flags</b> member of the device object. 
-
-
+<b>RxMakeLateDeviceAvailable</b> clears the DO_DEVICE_INITIALIZING bit in the <b>Flags</b> member of the device object.
 

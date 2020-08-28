@@ -8,9 +8,6 @@ ms.assetid: 8AE36F8C-F7FA-4291-A244-3664CCBB8073
 ms.date: 04/16/2018
 keywords: ["RtlDecompressBufferEx2 function"]
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlDecompressBufferEx2, RtlDecompressBufferEx2 function [Installable File System Drivers], ifsk.rtldecompressbufferex2, ntifs/RtlDecompressBufferEx2
-f1_keywords:
- - "ntifs/RtlDecompressBufferEx2"
- - "RtlDecompressBufferEx2"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlDecompressBufferEx2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlDecompressBufferEx2
+ - ntifs/RtlDecompressBufferEx2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlDecompressBufferEx2
 ---
 
 # RtlDecompressBufferEx2 function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlDecompressBufferEx2</b> function decompresses an entire compressed buffer, using multiple processors where possible. Multiple processor support is only implemented for kernel mode callers.
-
 
 ## -parameters
 
-
-
-
 ### -param CompressionFormat 
+
 [in]
 A bitmask that specifies the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows.
 
@@ -115,47 +111,43 @@ The function will perform Xpress Huffman decompression.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param UncompressedBuffer 
+
 [out]
 A pointer to a caller-allocated buffer (allocated from a  paged or non-paged pool) that receives the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
-
 ### -param UncompressedBufferSize 
+
 [in]
 The size, in bytes, of the <i>UncompressedBuffer</i> buffer.
 
-
 ### -param CompressedBuffer 
+
 [in]
 A pointer to the buffer that contains the data to decompress. This parameter is required and cannot be <b>NULL</b>.
 
-
 ### -param CompressedBufferSize 
+
 [in]
 The size, in bytes, of the <i>CompressedBuffer</i> buffer.
 
-
 ### -param UncompressedChunkSize 
+
 [in]
 The size, in bytes, of each chunk within the compression buffer.  Valid values are 512, 1024, 2048 and 4096.
 
-
 ### -param FinalUncompressedSize 
+
 [out]
 A pointer to a caller-allocated variable that receives the size, in bytes, of the decompressed data stored in <i>UncompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
-
 ### -param WorkSpace 
+
 [in, optional]
 A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressBufferEx2</b> function during decompression. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetcompressionworkspacesize">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
-
 ## -returns
-
-
 
 <b>RtlDecompressBufferEx2</b> returns an appropriate error status value, such as one of the following.
 
@@ -231,14 +223,8 @@ An invalid compression format was specified through the <i>CompressionFormat</i>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RtlDecompressBufferEx2</b> function takes as input an entire compressed buffer and produces its decompressed equivalent provided that the uncompressed data fits within the specified destination buffer.
 
@@ -246,13 +232,7 @@ To decompress only a portion of a compressed buffer (that is, a "fragment" of th
 
 To compress an uncompressed buffer, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_compression_information">FILE_COMPRESSION_INFORMATION</a>
 
@@ -271,7 +251,4 @@ To compress an uncompressed buffer, use the <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragmentex">RtlDecompressFragmentEx</a>
- 
-
- 
 

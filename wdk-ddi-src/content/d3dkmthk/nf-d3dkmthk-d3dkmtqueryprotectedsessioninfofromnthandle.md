@@ -7,9 +7,6 @@ ms.assetid: 04eff7e1-1ac3-4622-a837-1ea6aad97329
 ms.date: 05/10/2018
 keywords: ["D3DKMTQueryProtectedSessionInfoFromNtHandle function"]
 ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle, D3DKMTQueryProtectedSessionInfoFromNtHandle method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle, display.d3dkmtqueryprotectedsessioninfofromnthandle
-f1_keywords:
- - "d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle"
- - "D3DKMTQueryProtectedSessionInfoFromNtHandle"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -24,21 +21,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTQueryProtectedSessionInfoFromNtHandle
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTQueryProtectedSessionInfoFromNtHandle
+ - d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTQueryProtectedSessionInfoFromNtHandle
 ---
 
 # D3DKMTQueryProtectedSessionInfoFromNtHandle function
@@ -46,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Used to get information on the protected session.
-			
-            
-
 
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -63,13 +56,7 @@ Used to get information on the protected session.
 
 Holds session information from the NT handle.
 
-
 ## -returns
 
-
-
-
 Returns STATUS_SUCCESS when completed successfully.
-
-
 

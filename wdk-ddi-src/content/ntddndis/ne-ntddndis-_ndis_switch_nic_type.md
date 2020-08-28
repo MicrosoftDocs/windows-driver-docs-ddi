@@ -8,9 +8,6 @@ ms.assetid: 0ff7a803-9de4-4b2f-ab5f-3eb5107d5b64
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_NIC_TYPE enumeration"]
 ms.keywords: NDIS_SWITCH_NIC_TYPE, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchNicTypeEmulated, NdisSwitchNicTypeExternal, NdisSwitchNicTypeInternal, NdisSwitchNicTypeSynthetic, PNDIS_SWITCH_NIC_TYPE, PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_TYPE, netvista.ndis_switch_nic_type, ntddndis/NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeEmulated, ntddndis/NdisSwitchNicTypeExternal, ntddndis/NdisSwitchNicTypeInternal, ntddndis/NdisSwitchNicTypeSynthetic, ntddndis/PNDIS_SWITCH_NIC_TYPE
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_NIC_TYPE"
- - "NDIS_SWITCH_NIC_TYPE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_NIC_TYPE
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_TYPE
+f1_keywords:
+ - _NDIS_SWITCH_NIC_TYPE
+ - ntddndis/_NDIS_SWITCH_NIC_TYPE
+ - NDIS_SWITCH_NIC_TYPE
+ - ntddndis/NDIS_SWITCH_NIC_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_NIC_TYPE
 ---
 
 # _NDIS_SWITCH_NIC_TYPE enumeration
@@ -46,16 +48,9 @@ req.typenames: NDIS_SWITCH_NIC_TYPE
 
 ## -description
 
-
 The <b>NDIS_SWITCH_NIC_TYPE</b> enumeration specifies the type of the virtual network adapter that is attached to a Hyper-V extensible switch port.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field NdisSwitchNicTypeExternal
 
@@ -87,30 +82,17 @@ This value specifies a virtual network adapter that is exposed in the management
 
 ## -remarks
 
-
-
 The <b>NicType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_TYPE</b> enumeration data type. 
 
 
 
 For more information on the types of network adapters that connect to extensible switch ports, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-network-adapters">Hyper-V Extensible Switch Network Adapters</a>.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: c0134541-2e17-41e5-b30a-493b1bb42d07
 ms.date: 04/27/2018
 keywords: ["IOCTL_INTERNAL_BTHENUM_GET_DEVINFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control code [Bluetooth Devices], bltooth.ioctl_internal_bthenum_get_devinfo, bth_ioctls_08047b17-31ae-4497-b83d-21e42058765f.xml, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
-f1_keywords:
- - "bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO"
- - "IOCTL_INTERNAL_BTHENUM_GET_DEVINFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
+ - bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 ---
 
 # IOCTL_INTERNAL_BTHENUM_GET_DEVINFO IOCTL
@@ -46,28 +46,18 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_INTERNAL_BTHENUM_GET_DEVINFO request returns information about the remote device that
      caused the Plug and Play (PnP) manager to load the current instance of the profile driver.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
@@ -76,30 +66,14 @@ The
       <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that
       contains information about the device's state, the device's address, and class of device (CoD).
 
-
 ### -output-buffer-length
 
 The length of a 
       <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -137,16 +111,8 @@ The output buffer was sized incorrectly.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
- 
-
- 
 

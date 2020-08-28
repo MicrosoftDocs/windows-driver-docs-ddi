@@ -8,9 +8,6 @@ ms.assetid: 64fff189-392e-42c3-8d9a-0d6daa07d2f7
 ms.date: 05/02/2018
 keywords: ["NmrDeregisterClient function"]
 ms.keywords: NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterClient, netvista.nmrderegisterclient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml
-f1_keywords:
- - "netioddk/NmrDeregisterClient"
- - "NmrDeregisterClient"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Netio.lib
-- Netio.dll
-api_name:
-- NmrDeregisterClient
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NmrDeregisterClient
+ - netioddk/NmrDeregisterClient
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Netio.lib
+ - Netio.dll
+api_name:
+ - NmrDeregisterClient
 ---
 
 # NmrDeregisterClient function
@@ -47,26 +47,19 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NmrDeregisterClient</b> function deregisters a client module from the NMR.
 
-
 ## -parameters
 
-
-
-
 ### -param NmrClientHandle 
+
 [in]
 A handle used by the NMR to represent the registration of the client module. The NMR returns this
      handle to the client module when the client module calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function.
 
-
 ## -returns
-
-
 
 The 
      <b>NmrDeregisterClient</b> function returns one of the following NTSTATUS codes:
@@ -102,14 +95,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a client module calls the 
     <b>NmrDeregisterClient</b> function, the NMR calls the client module's 
@@ -142,14 +129,7 @@ A client module typically calls the
      deregistration is complete.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
 
@@ -173,7 +153,4 @@ A client module typically calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: C2EBA90C-3F36-45AC-9344-DFB1824A66B9
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_REGISTER_ULONG function"]
 ms.keywords: WDF_WRITE_REGISTER_ULONG, WDF_WRITE_REGISTER_ULONG function, wdf.wdf_write_register_ulong, wdfhwaccess/WDF_WRITE_REGISTER_ULONG
-f1_keywords:
- - "wdfhwaccess/WDF_WRITE_REGISTER_ULONG"
- - "WDF_WRITE_REGISTER_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_WRITE_REGISTER_ULONG
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WRITE_REGISTER_ULONG
+ - wdfhwaccess/WDF_WRITE_REGISTER_ULONG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_WRITE_REGISTER_ULONG
 ---
 
 # WDF_WRITE_REGISTER_ULONG function
@@ -46,29 +46,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_REGISTER_ULONG</b> routine writes a ULONG value to the specified address.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param Register 
+
 [in]
 A pointer to the register, which must be a mapped range in memory space.
 
-
 ### -param Value 
+
 [in]
 Specifies a ULONG value to write to the register.
-
 

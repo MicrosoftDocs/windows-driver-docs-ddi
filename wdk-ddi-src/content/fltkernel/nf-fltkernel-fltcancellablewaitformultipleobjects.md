@@ -8,9 +8,6 @@ ms.assetid: 0afe431d-55dd-4aaa-bcbc-467ac3a7b604
 ms.date: 04/16/2018
 keywords: ["FltCancellableWaitForMultipleObjects function"]
 ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ifsk.fltcancellablewaitformultipleobjects, ntifs/FltCancellableWaitForMultipleObjects
-f1_keywords:
- - "fltkernel/FltCancellableWaitForMultipleObjects"
- - "FltCancellableWaitForMultipleObjects"
 req.header: fltkernel.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fltmgr.lib
-- fltmgr.dll
-api_name:
-- FltCancellableWaitForMultipleObjects
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCancellableWaitForMultipleObjects
+ - fltkernel/FltCancellableWaitForMultipleObjects
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fltmgr.lib
+ - fltmgr.dll
+api_name:
+ - FltCancellableWaitForMultipleObjects
 ---
 
 # FltCancellableWaitForMultipleObjects function
@@ -47,31 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltCancellableWaitForMultipleObjects</b> executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
-
 
 ## -parameters
 
-
-
-
 ### -param Count 
+
 [in]
 The number of objects to be waited on.
 
-
 ### -param ObjectArray 
+
 [in]
 A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage.
 
-
 ### -param WaitType 
-[in]
-An enumumeration with the value of either <b>WaitAll</b>, which indicates that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, which indicates that any one of the objects must attain a signaled state before the wait is satisfied. 
 
+[in]
+An enumumeration with the value of either <b>WaitAll</b>, which indicates that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, which indicates that any one of the objects must attain a signaled state before the wait is satisfied.
 
 ### -param Timeout 
+
 [in, optional]
 A pointer to an optional time-out value. This parameter specifies the absolute or relative time in 100 nanosecond units at which the wait is to be completed.
 
@@ -81,22 +77,19 @@ A positive value specifies an absolute time, relative to January 1, 1601. A nega
 
 If Timeout is specified, the wait is automatically satisfied if none of the specified wait conditions are met when the given interval expires.
 
-A time-out value of zero (that is, *Timeout == 0) allows you to test a set of wait conditions, and to conditionally perform any additional actions if the wait can be immediately satisfied, as in the acquisition of a mutex. 
-
+A time-out value of zero (that is, *Timeout == 0) allows you to test a set of wait conditions, and to conditionally perform any additional actions if the wait can be immediately satisfied, as in the acquisition of a mutex.
 
 ### -param WaitBlockArray 
-[in, optional]
-If Count <= THREAD_WAIT_OBJECTS, WaitBlockArray can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK) * Count</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation. 
 
+[in, optional]
+If Count <= THREAD_WAIT_OBJECTS, WaitBlockArray can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK) * Count</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation.
 
 ### -param CallbackData 
-[in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure that represents the I/O operation that was issued by the user and that can be canceled by the user. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcancelcompletion">FltSetCancelCompletion</a> function must not have been called on the I/O operation). Note that the <i>CallbackData</i> must be held by the caller as it cannot be passed to a lower-level driver. 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure that represents the I/O operation that was issued by the user and that can be canceled by the user. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcancelcompletion">FltSetCancelCompletion</a> function must not have been called on the I/O operation). Note that the <i>CallbackData</i> must be held by the caller as it cannot be passed to a lower-level driver.
 
 ## -returns
-
-
 
 <b>FltCancellableWaitForMultipleObjects</b> can return one of the following values:
 
@@ -178,12 +171,7 @@ The return value only indicates the status of the wait.
 
 Note that the NT_SUCCESS macro returns <b>FALSE</b> ("failure") for the STATUS_CANCELLED and STATUS_THREAD_IS_TERMINATING status values and <b>TRUE</b> ("success") for all other status values.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FltCancellableWaitForMultipleObjects</b> executes a cancelable wait operation on dispatcher objects. If the user or the application terminates the thread, or if an I/O operation associated with the thread was canceled by a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelio">FltCancelIo</a>, the wait is canceled.
 
@@ -205,13 +193,7 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 <b>FltCancellableWaitForMultipleObjects</b> will assert on debug builds if the <i>CallbackData</i> represents a Filter Manager IRP operation, but the IRP in the <i>CallbackData</i> structure is <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
@@ -258,7 +240,4 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

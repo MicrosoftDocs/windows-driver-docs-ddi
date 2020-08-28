@@ -8,9 +8,6 @@ ms.assetid: 1ca9a198-ac6b-4837-9503-68eb7ca36527
 ms.date: 03/29/2018
 keywords: ["IDE_CHANNEL_CONFIGURATION structure"]
 ms.keywords: "*PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], _IDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, irb/PIDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml"
-f1_keywords:
- - "irb/IDE_CHANNEL_CONFIGURATION"
- - "IDE_CHANNEL_CONFIGURATION"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- irb.h
-api_name:
-- IDE_CHANNEL_CONFIGURATION
 targetos: Windows
 req.typenames: IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION
+f1_keywords:
+ - _IDE_CHANNEL_CONFIGURATION
+ - irb/_IDE_CHANNEL_CONFIGURATION
+ - PIDE_CHANNEL_CONFIGURATION
+ - irb/PIDE_CHANNEL_CONFIGURATION
+ - IDE_CHANNEL_CONFIGURATION
+ - irb/IDE_CHANNEL_CONFIGURATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - irb.h
+api_name:
+ - IDE_CHANNEL_CONFIGURATION
 ---
 
 # _IDE_CHANNEL_CONFIGURATION structure
@@ -46,31 +50,22 @@ req.typenames: IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION
 
 ## -description
 
-
 The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
 The port driver sets this member to sizeof(IDE_CHANNEL_CONFIGURATION). The miniport driver should verify that the version is greater than or equal to the one it is using.
-
 
 ### -field ChannelNumber
 
 The port driver sets this field to the number assigned for this channel. For non-native mode controllers, the primary channel will always be assigned 0 and the secondary channel will always be assigned 1.
 
-
 ### -field SupportedAdvances
 
-
-
-#### 
-
+####
 
 ### -field ChannelMode
 
@@ -112,33 +107,26 @@ Similar to the IdeModeNormal, this indicates the ATA miniport must take extra st
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ChannelResources
 
 The port driver uses this pointer to pass miniport hardware resources to be used to access the HBA on a PCI bus.
 
-
 ### -field NumberOfOverlappedRequests
 
 The miniport driver should set this field to the number of requests the channel can handle at a time. By default, the port driver sets this to 1.
-
 
 ### -field MaxTargetId
 
 The miniport should set this member to the maximum target ID supported on this channel. Typically, this is 1 less than the maximum number of devices supported on the channel. By default, the port driver sets this is set to 1 to indicate that 2 devices are supported on a channel.
 
-
 ### -field SyncWithIsr
 
 Indicates support for unsynchronized I/O processing in the miniport driver. The miniport driver must set this member to <b>TRUE</b>.
 
-
 ### -field SupportsWmi
 
 Indicates support for WMI. The miniport driver must set this member to <b>TRUE</b>.
-
 
 ### -field AdvancedChannelConfiguration
 

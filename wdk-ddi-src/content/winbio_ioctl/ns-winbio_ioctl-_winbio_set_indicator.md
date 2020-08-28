@@ -8,9 +8,6 @@ ms.assetid: c4410845-3c7b-445e-80ec-25694b122a0e
 ms.date: 02/20/2018
 keywords: ["WINBIO_SET_INDICATOR structure"]
 ms.keywords: "*PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], WINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices], _WINBIO_SET_INDICATOR, biometric.winbio_set_indicator, biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, winbio_ioctl/PWINBIO_SET_INDICATOR, winbio_ioctl/WINBIO_SET_INDICATOR"
-f1_keywords:
- - "winbio_ioctl/WINBIO_SET_INDICATOR"
- - "WINBIO_SET_INDICATOR"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winbio_ioctl.h
-api_name:
-- WINBIO_SET_INDICATOR
 targetos: Windows
 req.typenames: WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR
+f1_keywords:
+ - _WINBIO_SET_INDICATOR
+ - winbio_ioctl/_WINBIO_SET_INDICATOR
+ - PWINBIO_SET_INDICATOR
+ - winbio_ioctl/PWINBIO_SET_INDICATOR
+ - WINBIO_SET_INDICATOR
+ - winbio_ioctl/WINBIO_SET_INDICATOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winbio_ioctl.h
+api_name:
+ - WINBIO_SET_INDICATOR
 ---
 
 # _WINBIO_SET_INDICATOR structure
@@ -46,19 +50,13 @@ req.typenames: WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR
 
 ## -description
 
-
 The WINBIO_SET_INDICATOR structure is the IN payload for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_set_indicator">IOCTL_BIOMETRIC_SET_INDICATOR</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PayloadSize
 
 Specifies the total size of the payload, which includes the fixed length structure and any variable data at the end.
-
 
 ### -field IndicatorStatus
 
@@ -73,15 +71,9 @@ Possible values are shown in the following table.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_set_indicator">IOCTL_BIOMETRIC_SET_INDICATOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_get_indicator">WINBIO_GET_INDICATOR</a>
- 
-
- 
 

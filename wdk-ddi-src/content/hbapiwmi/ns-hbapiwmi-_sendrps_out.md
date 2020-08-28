@@ -8,9 +8,6 @@ ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.date: 03/29/2018
 keywords: ["SendRPS_OUT structure"]
 ms.keywords: "*PSendRPS_OUT, SendRPS_OUT, SendRPS_OUT structure [Storage Devices], _SendRPS_OUT, hbapiwmi/SendRPS_OUT, storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml"
-f1_keywords:
- - "hbapiwmi/SendRPS_OUT"
- - "SendRPS_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hbapiwmi.h
-api_name:
-- SendRPS_OUT
 targetos: Windows
 req.typenames: SendRPS_OUT, *PSendRPS_OUT
+f1_keywords:
+ - _SendRPS_OUT
+ - hbapiwmi/_SendRPS_OUT
+ - PSendRPS_OUT
+ - hbapiwmi/PSendRPS_OUT
+ - SendRPS_OUT
+ - hbapiwmi/SendRPS_OUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hbapiwmi.h
+api_name:
+ - SendRPS_OUT
 ---
 
 # _SendRPS_OUT structure
@@ -46,51 +50,31 @@ req.typenames: SendRPS_OUT, *PSendRPS_OUT
 
 ## -description
 
-
 The SendRPS_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrps">SendRPS</a> WMI method to the WMI client.
-
 
 ## -struct-fields
 
-
-
-
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
-
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field TotalRspBufferSize
 
-Contains the size in bytes of the results of the RPS command. 
-
+Contains the size in bytes of the results of the RPS command.
 
 ### -field ActualRspBufferSize
 
-Contains the size in bytes of the data that was actually retrieved. 
-
+Contains the size in bytes of the data that was actually retrieved.
 
 ### -field RspBuffer
 
-Contains the results of the RPS command. 
-
+Contains the results of the RPS command.
 
 ## -remarks
 
-
-
 The WMI tool suite generates a declaration of the SendRPS_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrps">SendRPS</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 91BB915F-E964-41D9-8D2A-3D5EF6F5B398
 ms.date: 04/23/2018
 keywords: ["KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration"]
 ms.keywords: KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices], KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, stream.kspproperty_allocator_mdlcaching
-f1_keywords:
- - "ks/KSPPROPERTY_ALLOCATOR_MDLCACHING"
- - "KSPPROPERTY_ALLOCATOR_MDLCACHING"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSPPROPERTY_ALLOCATOR_MDLCACHING
 targetos: Windows
 req.typenames: KSPPROPERTY_ALLOCATOR_MDLCACHING
+f1_keywords:
+ - KSPPROPERTY_ALLOCATOR_MDLCACHING
+ - ks/KSPPROPERTY_ALLOCATOR_MDLCACHING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSPPROPERTY_ALLOCATOR_MDLCACHING
 ---
 
 # KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration
@@ -46,14 +46,9 @@ req.typenames: KSPPROPERTY_ALLOCATOR_MDLCACHING
 
 ## -description
 
-
 This enumeration is used internally by the operating system.
 
-
 ## -enum-fields
-
-
-
 
 ### -field KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES
 

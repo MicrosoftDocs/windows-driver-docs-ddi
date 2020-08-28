@@ -8,9 +8,6 @@ ms.assetid: 9107fa7b-b061-4505-aef7-be04587a4199
 ms.date: 03/29/2018
 keywords: ["ChangerClassDeviceControl function"]
 ms.keywords: ChangerClassDeviceControl, ChangerClassDeviceControl routine [Storage Devices], chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml, mcd/ChangerClassDeviceControl, storage.changerclassdevicecontrol
-f1_keywords:
- - "mcd/ChangerClassDeviceControl"
- - "ChangerClassDeviceControl"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mcd.h
-api_name:
-- ChangerClassDeviceControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ChangerClassDeviceControl
+ - mcd/ChangerClassDeviceControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mcd.h
+api_name:
+ - ChangerClassDeviceControl
 ---
 
 # ChangerClassDeviceControl function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>ChangerClassDeviceControl</b> routine is called by a changer minidriver to allow the class driver perform device-independent aspects of a device control operation. 
-
+The <b>ChangerClassDeviceControl</b> routine is called by a changer minidriver to allow the class driver perform device-independent aspects of a device control operation.
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
-[in]
-Pointer to the device object of the device. 
 
+[in]
+Pointer to the device object of the device.
 
 ### -param Irp 
-[in]
-Pointer to the I/O request packet (IRP) that initiated the device control operation. 
 
+[in]
+Pointer to the I/O request packet (IRP) that initiated the device control operation.
 
 ## -returns
-
-
 
 If the operation succeeds, the <b>ChangerClassDeviceControl</b> routine returns STATUS_SUCCESS. Otherwise the routine returns one of the following status values.
 
@@ -121,7 +114,4 @@ The length of the input buffer is zero.
 </td>
 </tr>
 </table>
- 
-
-
 

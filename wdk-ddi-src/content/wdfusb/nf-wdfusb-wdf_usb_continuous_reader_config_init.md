@@ -8,9 +8,6 @@ ms.assetid: d9bf6c47-b7ce-413d-8871-4d9d68e27715
 ms.date: 02/26/2018
 keywords: ["WDF_USB_CONTINUOUS_READER_CONFIG_INIT function"]
 ms.keywords: DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, kmdf.wdf_usb_continuous_reader_config_init, wdf.wdf_usb_continuous_reader_config_init, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT
-f1_keywords:
- - "wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT"
- - "WDF_USB_CONTINUOUS_READER_CONFIG_INIT"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfusb.h
-api_name:
-- WDF_USB_CONTINUOUS_READER_CONFIG_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_USB_CONTINUOUS_READER_CONFIG_INIT
+ - wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfusb.h
+api_name:
+ - WDF_USB_CONTINUOUS_READER_CONFIG_INIT
 ---
 
 # WDF_USB_CONTINUOUS_READER_CONFIG_INIT function
@@ -46,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure. 
-
+The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure.
 
 ## -parameters
 
-
-
-
 ### -param Config 
+
 [out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure.
 
-
 ### -param EvtUsbTargetPipeReadComplete 
+
 [in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nc-wdfusb-evt_wdf_usb_reader_completion_routine">EvtUsbTargetPipeReadComplete</a> callback function.
 
-
 ### -param EvtUsbTargetPipeReadCompleteContext 
+
 [in]
 An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nc-wdfusb-evt_wdf_usb_reader_completion_routine">EvtUsbTargetPipeReadComplete</a> callback function.
 
-
 ### -param TransferLength 
+
 [in]
 The maximum length, in bytes, of data that can be received from the device.
 
-
 ## -remarks
-
-
 
 The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure and sets the structure's <b>Size</b> member. It also sets the structure's <b>EvtUsbTargetPipeReadComplete</b>, <b>EvtUsbTargetPipeReadCompleteContext</b>, and <b>TransferLength</b> members to the specified values.
 
@@ -89,20 +82,11 @@ The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function zeros the specified <a
 
 For a code example that uses <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader">WdfUsbTargetPipeConfigContinuousReader</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nc-wdfusb-evt_wdf_usb_reader_completion_routine">EvtUsbTargetPipeReadComplete</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a>
- 
-
- 
 

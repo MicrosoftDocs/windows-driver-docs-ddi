@@ -8,9 +8,6 @@ ms.assetid: d5e491b8-d40c-4f2c-9117-5c3cb71913f7
 ms.date: 03/29/2018
 keywords: ["IOCTL_TAPE_GET_STATUS IOCTL"]
 ms.keywords: IOCTL_TAPE_GET_STATUS, IOCTL_TAPE_GET_STATUS control, IOCTL_TAPE_GET_STATUS control code [Storage Devices], k307_8ab90364-adac-4937-9036-aa28ddeffb19.xml, ntddtape/IOCTL_TAPE_GET_STATUS, storage.ioctl_tape_get_status
-f1_keywords:
- - "ntddtape/IOCTL_TAPE_GET_STATUS"
- - "IOCTL_TAPE_GET_STATUS"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddtape.h
-api_name:
-- IOCTL_TAPE_GET_STATUS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_TAPE_GET_STATUS
+ - ntddtape/IOCTL_TAPE_GET_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddtape.h
+api_name:
+ - IOCTL_TAPE_GET_STATUS
 ---
 
 # IOCTL_TAPE_GET_STATUS IOCTL
@@ -46,55 +46,29 @@ req.typenames:
 
 ## -description
 
-
-
-Returns the current status of the drive in the <b>Status</b> field of the I/O status block. 
-
-
-
+Returns the current status of the drive in the <b>Status</b> field of the I/O status block.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -216,14 +190,7 @@ STATUS_CLEANER_CARTRIDGE_INSTALLED
 </ul>
 Each of these NT status values correspond to a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/processing-tape-device-control-requests">Processing Tape Device Control Requests</a>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
- 
-
- 
 

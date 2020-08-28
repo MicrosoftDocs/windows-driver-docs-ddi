@@ -7,9 +7,6 @@ ms.assetid: 3cec9d99-0d15-4c61-9de2-ab203a56441d
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_STATE_OM_BLENDSTATE_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_OM_BLENDSTATE_CB, PFND3D10DDI_STATE_OM_BLENDSTATE_CB callback, d3d10state_functions_18da32ca-c230-4119-a721-cbb8511a8b7c.xml, d3d10umddi/pfnStateOmBlendStateCb, display.pfnstateomblendstatecb, pfnStateOmBlendStateCb, pfnStateOmBlendStateCb callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnStateOmBlendStateCb"
- - "pfnStateOmBlendStateCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- pfnStateOmBlendStateCb
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_STATE_OM_BLENDSTATE_CB
+ - d3d10umddi/PFND3D10DDI_STATE_OM_BLENDSTATE_CB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - pfnStateOmBlendStateCb
 ---
 
 # PFND3D10DDI_STATE_OM_BLENDSTATE_CB callback function
@@ -46,35 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>pfnStateOmBlendStateCb</b> function causes the Microsoft Direct3D 10 runtime to refresh the output merger blend state.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
 *hRuntimeDevice* [in]
 
-A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function. 
-
+A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function.
 
 ## -remarks
 
-
-
 The <b>pfnStateOmBlendStateCb</b> function calls the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setblendstate">SetBlendState</a> function with the current blend state.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
 
@@ -85,7 +71,4 @@ The <b>pfnStateOmBlendStateCb</b> function calls the user-mode display driver's 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setblendstate">SetBlendState</a>
- 
-
- 
 

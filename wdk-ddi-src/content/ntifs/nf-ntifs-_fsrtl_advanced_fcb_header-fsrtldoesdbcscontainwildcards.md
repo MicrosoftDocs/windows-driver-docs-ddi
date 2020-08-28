@@ -8,9 +8,6 @@ ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
 ms.date: 04/16/2018
 keywords: ["FsRtlDoesDbcsContainWildCards function"]
 ms.keywords: FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards
-f1_keywords:
- - "ntifs/FsRtlDoesDbcsContainWildCards"
- - "FsRtlDoesDbcsContainWildCards"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlDoesDbcsContainWildCards
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlDoesDbcsContainWildCards
+ - ntifs/FsRtlDoesDbcsContainWildCards
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlDoesDbcsContainWildCards
 ---
 
 # FsRtlDoesDbcsContainWildCards function
@@ -46,47 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FsRtlDoesDbcsContainWildCards</b> routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters. 
-
+The <b>FsRtlDoesDbcsContainWildCards</b> routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters.
 
 ## -parameters
 
-
-
-
 ### -param Name 
+
 [in]
 A pointer to the string to be checked.
 
-
 ## -returns
-
-
 
 The <b>FsRtlDoesDbcsContainWildCards</b> routine returns <b>TRUE</b> if one or more wildcard characters were found, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The following are wildcard characters: *, ?, ANSI_DOS_STAR, ANSI_DOS_DOT, and ANSI_DOS_QM.
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
- 
-
- 
 

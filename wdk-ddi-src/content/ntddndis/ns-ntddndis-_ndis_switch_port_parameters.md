@@ -8,9 +8,6 @@ ms.assetid: E68A9018-1E79-4DA6-8C7A-434A2468169F
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PARAMETERS, PNDIS_SWITCH_PORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PARAMETERS, netvista.ndis_switch_port_parameters, ntddndis/NDIS_SWITCH_PORT_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PORT_PARAMETERS"
- - "NDIS_SWITCH_PORT_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h, Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_SWITCH_PORT_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PARAMETERS, *PNDIS_SWITCH_PORT_PARAMETERS
+f1_keywords:
+ - _NDIS_SWITCH_PORT_PARAMETERS
+ - ntddndis/_NDIS_SWITCH_PORT_PARAMETERS
+ - PNDIS_SWITCH_PORT_PARAMETERS
+ - ntddndis/PNDIS_SWITCH_PORT_PARAMETERS
+ - NDIS_SWITCH_PORT_PARAMETERS
+ - ntddndis/NDIS_SWITCH_PORT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_SWITCH_PORT_PARAMETERS
 ---
 
 # _NDIS_SWITCH_PORT_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_SWITCH_PORT_PARAMETERS, *PNDIS_SWITCH_PORT_PARAMETERS
 
 ## -description
 
-
-The <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure contains the configuration data for a Hyper-V extensible switch port. 
-
+The <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure contains the configuration data for a Hyper-V extensible switch port.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -71,18 +70,13 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
-
-
-
 ### -field PortId
 
 An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensible switch port.
-
 
 ### -field PortName
 
@@ -90,30 +84,23 @@ An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensib
 
 The internal port name is used by WMI-based policy management applications. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-extensibility-policies">Managing Hyper-V Extensible Switch Policies</a>.
 
-
 ### -field PortFriendlyName
 
  An NDIS_SWITCH_PORT_FRIENDLYNAME value that specifies the user-friendly description of the extensible switch port.
-
 
 ### -field PortType
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_type">NDIS_SWITCH_PORT_TYPE</a> value that specifies the type of the extensible switch port.
 
-
 ### -field IsValidationPort
 
  If TRUE, indicates a port that is temporarily created for test and validation purposes before a VM network adapter connection is established. For more information about this port type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/validation-ports">Validation Ports</a>.
 
-
 ### -field PortState
 
- An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_state">NDIS_SWITCH_PORT_STATE</a> value that specifies the current state of the port. 
-
+ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_state">NDIS_SWITCH_PORT_STATE</a> value that specifies the current state of the port.
 
 ## -remarks
-
-
 
 The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>  structure contains a pointer to an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure for the following OID requests:
 
@@ -152,12 +139,7 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -208,7 +190,4 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-teardown">OID_SWITCH_PORT_TEARDOWN</a>
- 
-
- 
 

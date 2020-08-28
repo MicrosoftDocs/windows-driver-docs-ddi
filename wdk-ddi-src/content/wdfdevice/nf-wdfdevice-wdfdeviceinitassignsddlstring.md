@@ -8,9 +8,6 @@ ms.assetid: 6f7d2511-5a9b-476e-a771-a528c2bead10
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitAssignSDDLString function"]
 ms.keywords: DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml, WdfDeviceInitAssignSDDLString, WdfDeviceInitAssignSDDLString method, kmdf.wdfdeviceinitassignsddlstring, wdf.wdfdeviceinitassignsddlstring, wdfdevice/WdfDeviceInitAssignSDDLString
-f1_keywords:
- - "wdfdevice/WdfDeviceInitAssignSDDLString"
- - "WdfDeviceInitAssignSDDLString"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitAssignSDDLString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitAssignSDDLString
+ - wdfdevice/WdfDeviceInitAssignSDDLString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitAssignSDDLString
 ---
 
 # WdfDeviceInitAssignSDDLString function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitAssignSDDLString</b> method assigns a security setting for a device.
 
-
 ## -parameters
 
-
-
-
 ### -param DeviceInit 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-
 ### -param SDDLString 
+
 [in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a Unicode string. This string is an SDDL representation of a security descriptor.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfDeviceInitAssignSDDLString</b> returns STATUS_SUCCESS. Additional return values include:
 
@@ -91,14 +84,8 @@ The system cannot allocate space to store the device name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Your driver can specify a security setting by using a subset of Security Descriptor Definition Language (SDDL). The <i>Wdmsec.h</i> file defines a set of SDDL_DEVOBJ_XXX-formatted constants that you can use. For more information about security descriptors and SDDL, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/securing-device-objects">Securing Device Objects</a>.
 
@@ -126,5 +113,4 @@ status = WdfDeviceInitAssignSDDLString(
                                        &SDDL_DEVOBJ_SYS_ALL_ADM_ALL
                                        );
 ```
-
 

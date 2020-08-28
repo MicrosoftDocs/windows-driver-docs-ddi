@@ -8,9 +8,6 @@ ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.date: 04/30/2018
 keywords: ["RtlCompareString function"]
 ms.keywords: RtlCompareString, RtlCompareString routine [Kernel-Mode Driver Architecture], k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, ntddk/RtlCompareString
-f1_keywords:
- - "ntddk/RtlCompareString"
- - "RtlCompareString"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlCompareString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCompareString
+ - ntddk/RtlCompareString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlCompareString
 ---
 
 # RtlCompareString function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlCompareString</b> routine compares two counted strings. 
-
+The <b>RtlCompareString</b> routine compares two counted strings.
 
 ## -parameters
 
-
-
-
 ### -param String1 
+
 [in]
 Pointer to the first string.
 
-
 ### -param String2 
+
 [in]
 Pointer to the second string.
 
-
 ### -param CaseInSensitive 
+
 [in]
 If <b>TRUE</b>, case should be ignored when doing the comparison.
 
-
 ## -returns
-
-
 
 <b>RtlCompareString</b> returns a signed value that gives the results of the comparison:
 
@@ -116,22 +109,12 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcompareunicodestring">RtlCompareUnicodeString</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlequalstring">RtlEqualString</a>
- 
-
- 
 

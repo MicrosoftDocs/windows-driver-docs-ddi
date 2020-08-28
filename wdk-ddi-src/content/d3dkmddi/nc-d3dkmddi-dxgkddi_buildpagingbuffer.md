@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiBuildPagingBuffer"
- - "DxgkDdiBuildPagingBuffer"
+ - DXGKDDI_BUILDPAGINGBUFFER
+ - d3dkmddi/DXGKDDI_BUILDPAGINGBUFFER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_BUILDPAGINGBUFFER callback function
+
 
 ## -description
 

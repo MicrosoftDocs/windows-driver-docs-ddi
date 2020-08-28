@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnSignalSynchronizationObjectFromCpuCb"
- - "pfnSignalSynchronizationObjectFromCpuCb"
+ - PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB
+ - d3dumddi/PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB callback function
+
 
 ## -description
 

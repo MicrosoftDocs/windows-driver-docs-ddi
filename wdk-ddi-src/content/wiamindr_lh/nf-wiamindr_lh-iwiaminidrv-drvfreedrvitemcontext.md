@@ -8,13 +8,10 @@ ms.assetid: bc4f751f-d92a-47e6-8cbe-0a587292b160
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvFreeDrvItemContext"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvFreeDrvItemContext method, IWiaMiniDrv.drvFreeDrvItemContext, IWiaMiniDrv::drvFreeDrvItemContext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvFreeDrvItemContext"
- - "IWiaMiniDrv.drvFreeDrvItemContext"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvFreeDrvItemContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvFreeDrvItemContext
+ - wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvFreeDrvItemContext
 ---
 
 # IWiaMiniDrv::drvFreeDrvItemContext
+
 
 ## -description
 
@@ -96,3 +97,4 @@ When a driver item is deleted, the WIA service frees the driver item context. Th
  [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
 
  [IWiaMiniDrv::drvReadItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties)
+

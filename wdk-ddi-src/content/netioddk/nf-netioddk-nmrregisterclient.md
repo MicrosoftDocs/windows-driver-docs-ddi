@@ -8,9 +8,6 @@ ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.date: 05/02/2018
 keywords: ["NmrRegisterClient function"]
 ms.keywords: NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml
-f1_keywords:
- - "netioddk/NmrRegisterClient"
- - "NmrRegisterClient"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Netio.lib
-- Netio.dll
-api_name:
-- NmrRegisterClient
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NmrRegisterClient
+ - netioddk/NmrRegisterClient
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Netio.lib
+ - Netio.dll
+api_name:
+ - NmrRegisterClient
 ---
 
 # NmrRegisterClient function
@@ -47,17 +47,13 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NmrRegisterClient</b> function registers a client module with the NMR.
 
-
 ## -parameters
 
-
-
-
 ### -param ClientCharacteristics 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_client_characteristics">
@@ -65,8 +61,8 @@ A pointer to an
      client module must make sure that this structure remains valid and resident in memory as long as the
      client module is registered with the NMR.
 
-
 ### -param ClientContext 
+
 [in]
 A pointer to a caller-supplied context for the registration. The client module uses this context
      to keep track of the state of the client registration. The contents of the client module's registration
@@ -76,18 +72,15 @@ A pointer to a caller-supplied context for the registration. The client module u
      function. The client module must make sure that its registration context remains valid and resident in
      memory as long as the client module is registered with the NMR.
 
-
 ### -param NmrClientHandle 
+
 [out]
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the client module. The client module must save this handle and pass it as a parameter to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function when it
      deregisters from the NMR.
 
-
 ## -returns
-
-
 
 The 
      <b>NmrRegisterClient</b> function returns one of the following NTSTATUS codes:
@@ -131,14 +124,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A client module calls the 
     <b>NmrRegisterClient</b> function to register as a client of an 
@@ -155,13 +142,7 @@ A client module typically calls the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -172,7 +153,4 @@ A client module typically calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a>
- 
-
- 
 

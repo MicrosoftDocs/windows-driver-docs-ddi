@@ -8,9 +8,6 @@ ms.assetid: b75b8937-793d-4d75-9bb7-2226096044f0
 ms.date: 04/30/2018
 keywords: ["DRIVER_CONTROL callback function"]
 ms.keywords: AdapterControl, ControllerControl, DRIVER_CONTROL, DrvrRtns_1e3fb66d-8977-4894-a3ac-d310fdfa6515.xml, MyControl, MyControl routine [Kernel-Mode Driver Architecture], kernel.adaptercontrol, wdm/MyControl
-f1_keywords:
- - "wdm/MyControl"
- - "MyControl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- MyControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DRIVER_CONTROL
+ - wdm/DRIVER_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - MyControl
 ---
 
 # DRIVER_CONTROL callback function
@@ -46,49 +46,37 @@ req.typenames:
 
 ## -description
 
-
-This routine starts a DMA data-transfer or a data transfer operation. 
-
+This routine starts a DMA data-transfer or a data transfer operation.
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
+
 [in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <i>AddDevice</i> routine.
 
-
 ### -param Irp 
+
 [in, out]
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure. <i>Irp</i> is equal to the value of the <b>CurrentIrp</b> member of <i>DeviceObject</i> when the callback routine was registered.
 
-
 ### -param MapRegisterBase 
+
 [in]
 In the case of <i>AdapterControl</i>, this is a caller-supplied opaque value that represents  the map registers that the system has assigned for this transfer operation. The driver passes this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pfree_map_registers">FreeMapRegisters</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer">MapTransfer</a>.
 
 In the case of <i>ControllerControl</i>, this is not used.
 
-
 ### -param Context 
+
 [in]
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>.
 
-
 ## -returns
-
-
 
 The routine must return one of the values defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_allocation_action">IO_ALLOCATION_ACTION</a> enumeration. Drivers of bus-master devices return either <b>DeallocateObject</b> or <b>DeallocateObjectKeepRegisters</b>; drivers that use system DMA return <b>KeepObject</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>About implementing <i>AdapterControl</i>:  </b><p class="note">To register an <i>AdapterControl</i> routine for a specific device object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> to obtain an adapter object, then call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a> to request use of the adapter and to supply the <i>AdapterControl</i> routine's address. When the adapter is free, the system calls the <i>AdapterControl</i> routine.
 
@@ -148,15 +136,7 @@ IO_ALLOCATION_ACTION
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>
- 
-
- 
 

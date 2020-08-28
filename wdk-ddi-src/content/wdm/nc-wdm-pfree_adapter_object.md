@@ -8,9 +8,6 @@ ms.assetid: 4A63AAEF-8DBD-4969-8D05-EA06A17D4B61
 ms.date: 04/30/2018
 keywords: ["PFREE_ADAPTER_OBJECT callback function"]
 ms.keywords: FreeAdapterObject, FreeAdapterObject callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_OBJECT, PFREE_ADAPTER_OBJECT callback, kernel.freeadapterobject, wdm/FreeAdapterObject
-f1_keywords:
- - "wdm/FreeAdapterObject"
- - "FreeAdapterObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- FreeAdapterObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFREE_ADAPTER_OBJECT
+ - wdm/PFREE_ADAPTER_OBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - FreeAdapterObject
 ---
 
 # PFREE_ADAPTER_OBJECT callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The  <b>FreeAdapterObject</b> routine releases the specified adapter object after a driver has completed all DMA operations.
-
 
 ## -parameters
 
-
-
-
 ### -param DmaAdapter 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that is to be released. This object represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
-
 ### -param AllocationAction 
+
 [in]
 The type of deallocation that the calling driver requests. Set this parameter to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_allocation_action">IO_ALLOCATION_ACTION</a> enumeration value. For more information, see the Remarks section.
 
-
 ## -remarks
-
-
 
 <b>FreeAdapterObject</b>
       is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a 
@@ -84,13 +77,7 @@ If <i>AllocationAction</i> = <b>KeepObject</b>, the <b>FreeAdapterObject</b> cal
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pfree_adapter_channel">FreeAdapterChannel</a> routine is similar to <b>FreeAdapterObject</b>. <b>FreeAdapterChannel</b> always releases the adapter object and any allocated map registers. This behavior is similar to that of <b>FreeAdapterObject</b> if <i>AllocationAction</i> = <b>DeallocateObject</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a>
 
@@ -137,7 +124,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
- 
-
- 
 

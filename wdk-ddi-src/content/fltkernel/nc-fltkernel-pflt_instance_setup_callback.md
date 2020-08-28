@@ -8,9 +8,6 @@ ms.assetid: bbdd393d-3f0f-4bbd-8a74-ed75d20b0433
 ms.date: 05/10/2019
 keywords: ["PFLT_INSTANCE_SETUP_CALLBACK callback function"]
 ms.keywords: FltCallbacks_c32f2452-6198-4e87-8566-6e219dcf2f28.xml, InstanceSetupCallback, InstanceSetupCallback routine [Installable File System Drivers], PFLT_INSTANCE_SETUP_CALLBACK, fltkernel/InstanceSetupCallback, ifsk.pflt_instance_setup_callback
-f1_keywords:
- - "fltkernel/InstanceSetupCallback"
- - "InstanceSetupCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- InstanceSetupCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFLT_INSTANCE_SETUP_CALLBACK
+ - fltkernel/PFLT_INSTANCE_SETUP_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - InstanceSetupCallback
 ---
 
 # PFLT_INSTANCE_SETUP_CALLBACK callback function
+
 
 ## -description
 
@@ -50,10 +51,12 @@ A minifilter driver can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK 
 ## -parameters
 
 ### -param FltObjects 
+
 [in]
 Pointer to an [FLT_RELATED_OBJECTS](ns-fltkernel-_flt_related_objects.md) structure that contains opaque pointers for the objects related to the current operation.
 
 ### -param Flags 
+
 [in]
 Bitmask of flags that indicate why the instance is being attached. Can be one or more of the following:
 
@@ -65,6 +68,7 @@ Bitmask of flags that indicate why the instance is being attached. Can be one or
 | FLTFL_INSTANCE_SETUP_DETACHED_VOLUME | The instance is being attached to a detached volume. It is possible, on some file systems (such as FAT and CDFS, which are used by some removable media drives), to reattach a volume after it has detached. A volume is detached if it has no associated storage stack. A volume in this state is usually a dismounted volume that still has open files. |
 
 ### -param VolumeDeviceType 
+
 [in]
 Device type of the file system volume. Must be one of the following:
 
@@ -73,6 +77,7 @@ Device type of the file system volume. Must be one of the following:
 * FILE_DEVICE_NETWORK_FILE_SYSTEM
 
 ### -param VolumeFilesystemType 
+
 [in]
 File system type of the volume. The possible values are listed in [FLT_FILESYSTEM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ne-fltuserstructures-_flt_filesystem_type).
 
@@ -115,3 +120,4 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 [PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK](nc-fltkernel-pflt_instance_query_teardown_callback.md)
 
 [PFLT_INSTANCE_TEARDOWN_CALLBACK](nc-fltkernel-pflt_instance_teardown_callback.md)
+

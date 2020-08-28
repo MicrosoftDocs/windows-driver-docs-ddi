@@ -8,9 +8,6 @@ ms.assetid: CD51FBD6-A589-4135-8BF0-8F0075654A05
 ms.date: 04/16/2018
 keywords: ["WIM_PROVIDER_EXTERNAL_INFO structure"]
 ms.keywords: "*PWIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO structure pointer [Installable File System Drivers], WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO structure [Installable File System Drivers], _WIM_PROVIDER_EXTERNAL_INFO, ifsk.wim_provider_external_info, ntifs/PWIM_PROVIDER_EXTERNAL_INFO, ntifs/WIM_PROVIDER_EXTERNAL_INFO"
-f1_keywords:
- - "ntifs/WIM_PROVIDER_EXTERNAL_INFO"
- - "WIM_PROVIDER_EXTERNAL_INFO"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- WIM_PROVIDER_EXTERNAL_INFO
 targetos: Windows
 req.typenames: WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO
+f1_keywords:
+ - _WIM_PROVIDER_EXTERNAL_INFO
+ - ntifs/_WIM_PROVIDER_EXTERNAL_INFO
+ - PWIM_PROVIDER_EXTERNAL_INFO
+ - ntifs/PWIM_PROVIDER_EXTERNAL_INFO
+ - WIM_PROVIDER_EXTERNAL_INFO
+ - ntifs/WIM_PROVIDER_EXTERNAL_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - WIM_PROVIDER_EXTERNAL_INFO
 ---
 
 # _WIM_PROVIDER_EXTERNAL_INFO structure
@@ -46,19 +50,13 @@ req.typenames: WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO
 
 ## -description
 
-
-The <b>WIM_PROVIDER_EXTERNAL_INFO</b> structure holds the identifier and status information for the Windows Image File (WIM) external backing provider. 
-
+The <b>WIM_PROVIDER_EXTERNAL_INFO</b> structure holds the identifier and status information for the Windows Image File (WIM) external backing provider.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The WIM provider version. Set to WIM_PROVIDER_CURRENT_VERSION.
-
 
 ### -field Flags
 
@@ -90,41 +88,26 @@ Indicates that the provider is dismounted. Recovery will be attempted.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DataSourceId
 
 An identifier value for the WIM file data source.
 
-
 ### -field ResourceHash
 
 An identifier for the object contained within the WIM.  Conventionally a hash of the contents of a file, stored within the WIM.
 
-
 ## -remarks
-
-
 
 The backing source for a file is set with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-external-backing">FSCTL_SET_EXTERNAL_BACKING</a> control code request. The WIM file backing the file specified in the request is set in the <b>DataSourceId</b> member of <b>WIM_PROVIDER_EXTERNAL_INFO</b>.
 
 The <b>Flags</b> and <b>ResourceHash</b> members are valid when the provider info is returned from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-external-backing">FSCTL_GET_EXTERNAL_BACKING</a> request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-external-backing">FSCTL_GET_EXTERNAL_BACKING</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-external-backing">FSCTL_SET_EXTERNAL_BACKING</a>
- 
-
- 
 

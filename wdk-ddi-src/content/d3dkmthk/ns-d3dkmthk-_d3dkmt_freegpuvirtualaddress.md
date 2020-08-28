@@ -7,9 +7,6 @@ ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.date: 05/10/2018
 keywords: ["D3DKMT_FREEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress
-f1_keywords:
- - "d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS"
- - "D3DKMT_FREEGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_FREEGPUVIRTUALADDRESS
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_FREEGPUVIRTUALADDRESS
+f1_keywords:
+ - _D3DKMT_FREEGPUVIRTUALADDRESS
+ - d3dkmthk/_D3DKMT_FREEGPUVIRTUALADDRESS
+ - D3DKMT_FREEGPUVIRTUALADDRESS
+ - d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_FREEGPUVIRTUALADDRESS
 ---
 
 # _D3DKMT_FREEGPUVIRTUALADDRESS structure
@@ -46,37 +48,23 @@ req.typenames: D3DKMT_FREEGPUVIRTUALADDRESS
 
 ## -description
 
-
 <b>D3DKMT_FREEGPUVIRTUALADDRESS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress">FreeGpuVirtualAddress</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hAdapter
 
 Specifies the handle to the adapter.
 
-
 ### -field BaseAddress
 
 Specifies the base virtual address, in bytes, of the range to free. Must be aligned to 4 KB.
-
 
 ### -field Size
 
 Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress">FreeGpuVirtualAddress</a>
- 
-
- 
 

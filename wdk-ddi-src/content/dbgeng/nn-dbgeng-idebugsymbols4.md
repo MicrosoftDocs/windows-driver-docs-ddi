@@ -8,9 +8,6 @@ ms.assetid: BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols4 interface"]
 ms.keywords: IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging],described, dbgeng/IDebugSymbols4, debugger.idebugsymbols4
-f1_keywords:
- - "dbgeng/IDebugSymbols4"
- - "IDebugSymbols4"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols4
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols4
+ - dbgeng/IDebugSymbols4
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols4
 ---
 
 # IDebugSymbols4 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This interface supports determination of the symbol of an inline frame.
-
 
 ## -inheritance
 

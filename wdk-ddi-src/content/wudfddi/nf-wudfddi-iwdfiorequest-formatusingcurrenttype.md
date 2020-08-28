@@ -8,9 +8,6 @@ ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::FormatUsingCurrentType"]
 ms.keywords: FormatUsingCurrentType, FormatUsingCurrentType method, FormatUsingCurrentType method,IWDFIoRequest interface, IWDFIoRequest interface,FormatUsingCurrentType method, IWDFIoRequest.FormatUsingCurrentType, IWDFIoRequest::FormatUsingCurrentType, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType
-f1_keywords:
- - "wudfddi/IWDFIoRequest.FormatUsingCurrentType"
- - "IWDFIoRequest.FormatUsingCurrentType"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest.FormatUsingCurrentType
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest::FormatUsingCurrentType
+ - wudfddi/IWDFIoRequest::FormatUsingCurrentType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest.FormatUsingCurrentType
 ---
 
 # IWDFIoRequest::FormatUsingCurrentType
@@ -46,15 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>FormatUsingCurrentType</b> method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
 
-
 ## -remarks
-
-
 
 When a driver receives an I/O request, the driver might forward the request to the local I/O target, unmodified. To forward the unmodified request, the driver must:
 
@@ -75,19 +71,11 @@ For a code example of how to use the <b>FormatUsingCurrentType</b> method, see <
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
- 
-
- 
 

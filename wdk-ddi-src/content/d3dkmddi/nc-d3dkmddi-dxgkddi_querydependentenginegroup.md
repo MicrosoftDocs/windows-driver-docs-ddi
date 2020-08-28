@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiQueryDependentEngineGroup"
- - "DxgkDdiQueryDependentEngineGroup"
+ - DXGKDDI_QUERYDEPENDENTENGINEGROUP
+ - d3dkmddi/DXGKDDI_QUERYDEPENDENTENGINEGROUP
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_QUERYDEPENDENTENGINEGROUP callback function
+
 
 ## -description
 
@@ -88,3 +89,4 @@ For more information, see [TDR changes in Windows 8](https://docs.microsoft.com/
 [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
 
 [**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md)
+

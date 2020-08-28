@@ -8,9 +8,6 @@ ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
 ms.date: 04/16/2018
 keywords: ["FltGetRequestorSessionId function"]
 ms.keywords: FltGetRequestorSessionId, FltGetRequestorSessionId routine [Installable File System Drivers], fltkernel/FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid
-f1_keywords:
- - "fltkernel/FltGetRequestorSessionId"
- - "FltGetRequestorSessionId"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetRequestorSessionId
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetRequestorSessionId
+ - fltkernel/FltGetRequestorSessionId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetRequestorSessionId
 ---
 
 # FltGetRequestorSessionId function
@@ -46,41 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltGetRequestorSessionId</b> routine returns the session ID of the process that originally requested the specified I/O operation.
-
 
 ## -parameters
 
-
-
-
 ### -param CallbackData 
+
 [in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure specifying the I/O operation.
 
-
 ### -param SessionId 
+
 [out]
 A pointer to the session ID for the requesting operation.
 
-
 ## -returns
-
-
 
 The <b>FltGetRequestorSessionId</b> routine returns STATUS_SUCCESS on success or STATUS_UNSUCCESSFUL on failure.
 
-
-
-
 ## -remarks
-
-
 
 If a process has no session ID, the SessionId parameter refers to -1 and the <b>FltGetRequestorSessionId</b> routine returns STATUS_SUCCESS.
 
 If the <b>FltGetRequestorSessionId</b> routine returns STATUS_UNSUCCESSFUL, <i>SessionId</i> is not valid.
-
-
 

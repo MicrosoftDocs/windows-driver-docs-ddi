@@ -8,9 +8,6 @@ ms.assetid: 81c5eced-3d68-4202-83b9-57d661fe4952
 ms.date: 04/20/2018
 keywords: ["OEMDocumentPropertySheets function"]
 ms.keywords: OEMDocumentPropertySheets, OEMDocumentPropertySheets function [Print Devices], print.oemdocumentpropertysheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, printoem/OEMDocumentPropertySheets
-f1_keywords:
- - "printoem/OEMDocumentPropertySheets"
- - "OEMDocumentPropertySheets"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMDocumentPropertySheets
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMDocumentPropertySheets
+ - printoem/OEMDocumentPropertySheets
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMDocumentPropertySheets
 ---
 
 # OEMDocumentPropertySheets function
@@ -46,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
 
-
-
-
 ### -param pPSUIInfo 
+
 [in]
 
 ### -param lParam

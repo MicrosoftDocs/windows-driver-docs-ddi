@@ -8,9 +8,6 @@ ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.date: 05/13/2019
 keywords: ["FltSendMessage function"]
 ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
-f1_keywords:
- - "fltkernel/FltSendMessage"
- - "FltSendMessage"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSendMessage
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSendMessage
+ - fltkernel/FltSendMessage
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSendMessage
 ---
 
 # FltSendMessage function
+
 
 ## -description
 
@@ -50,30 +51,37 @@ req.typenames:
 ## -parameters
 
 ### -param Filter 
+
 [in]
 Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
 
 ### -param ClientPort 
+
 [in]
 Pointer to a variable that contains the opaque client port pointer for the connection port between the user-mode application and the kernel-mode minifilter driver. For more information about the client port pointer, see the description of the *ConnectNotifyCallback* parameter in the reference entry for [FltCreateCommunicationPort](nf-fltkernel-fltcreatecommunicationport.md).
 
 ### -param SenderBuffer 
+
 [in]
 Pointer to a caller-allocated buffer containing the message to be sent to the user-mode application. This parameter is required and cannot be **NULL**.
 
 ### -param SenderBufferLength 
+
 [in]
 Size, in bytes, of the buffer that *SenderBuffer* points to. See **Remarks** for more information.
 
 ### -param ReplyBuffer 
+
 [out, optional]
 Pointer to a caller-allocated buffer that receives the reply, if any, from the application. This parameter is optional and can be **NULL**.
 
 ### -param ReplyLength 
+
 [in, out]
 Size, in bytes, of the buffer that *ReplyBuffer* points to. This parameter is optional, but must be non-**NULL** when *ReplyBuffer* is not **NULL**.
 
 ### -param Timeout 
+
 [in, optional]
 A pointer to a timeout value that specifies the total absolute or relative length of time, in units of 100 nanoseconds, for which the caller can be put into a wait state until the message is received by the user-mode application and until it receives a reply (if one is expected).
 
@@ -143,3 +151,4 @@ Otherwise, if *ReplyBuffer* is not **NULL**, the minifilter driver is put into a
 [FilterSendMessage](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtersendmessage)
 
 [FltCreateCommunicationPort](nf-fltkernel-fltcreatecommunicationport.md)
+

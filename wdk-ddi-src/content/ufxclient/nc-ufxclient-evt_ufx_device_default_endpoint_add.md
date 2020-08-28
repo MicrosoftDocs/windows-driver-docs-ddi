@@ -8,9 +8,6 @@ ms.assetid: 37AF38A2-F761-4DBC-A7E7-FC4BDA544A31
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUfxDeviceDefaultEndpointAdd, EvtUfxDeviceDefaultEndpointAdd callback function [Buses], PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_default_endpoint_add, ufxclient/EvtUfxDeviceDefaultEndpointAdd
-f1_keywords:
- - "ufxclient/PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD"
- - "PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ufxclient.h
-api_name:
-- PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
+ - ufxclient/EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ufxclient.h
+api_name:
+ - PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
 ---
 
 # EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function
@@ -46,22 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation to create a default control endpoint.
 
-
 ## -parameters
-
-
-
-
-
-
-
-
-
-
-
 
 #### - EndpointInit [in, out]
 
@@ -77,10 +64,7 @@ The default maximum packet size that can be sent from or to this endpoint.
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ## -remarks
-
-
 
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</i> implementation with the USB function class extension (UFX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
 
@@ -150,19 +134,11 @@ End:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
- 
-
- 
 

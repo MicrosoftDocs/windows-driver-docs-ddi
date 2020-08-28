@@ -8,9 +8,6 @@ ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.date: 03/29/2018
 keywords: ["RemovePort_IN structure"]
 ms.keywords: "*PRemovePort_IN, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], RemovePort_IN, RemovePort_IN structure [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml"
-f1_keywords:
- - "hbapiwmi/RemovePort_IN"
- - "RemovePort_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hbapiwmi.h
-api_name:
-- RemovePort_IN
 targetos: Windows
 req.typenames: RemovePort_IN, *PRemovePort_IN
+f1_keywords:
+ - _RemovePort_IN
+ - hbapiwmi/_RemovePort_IN
+ - PRemovePort_IN
+ - hbapiwmi/PRemovePort_IN
+ - RemovePort_IN
+ - hbapiwmi/RemovePort_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hbapiwmi.h
+api_name:
+ - RemovePort_IN
 ---
 
 # _RemovePort_IN structure
@@ -46,36 +50,19 @@ req.typenames: RemovePort_IN, *PRemovePort_IN
 
 ## -description
 
-
 The Remove_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeport">RemovePort</a> WMI method.
-
 
 ## -struct-fields
 
-
-
-
 ### -field PortWWN
 
-Contains a worldwide name that indicates the port that should be removed from the list of ports whose events are reported to the WMI client.. 
-
+Contains a worldwide name that indicates the port that should be removed from the list of ports whose events are reported to the WMI client..
 
 ## -remarks
 
-
-
 The WMI tool suite generates a declaration of the RemovePort_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeport">RemovePort</a>
- 
-
- 
 

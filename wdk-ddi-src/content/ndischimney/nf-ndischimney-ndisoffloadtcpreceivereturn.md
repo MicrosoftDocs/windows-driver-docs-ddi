@@ -8,9 +8,6 @@ ms.assetid: 39f541be-c514-4cd4-bf7d-03b7a318b663
 ms.date: 05/02/2018
 keywords: ["NdisOffloadTcpReceiveReturn function"]
 ms.keywords: NdisOffloadTcpReceiveReturn, NdisOffloadTcpReceiveReturn function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceiveReturn, netvista.ndisoffloadtcpreceivereturn, tcp_chim_ndis_func_2fe6d15f-5e88-4aec-9c5b-281b0e002d8f.xml
-f1_keywords:
- - "ndischimney/NdisOffloadTcpReceiveReturn"
- - "NdisOffloadTcpReceiveReturn"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisOffloadTcpReceiveReturn
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisOffloadTcpReceiveReturn
+ - ndischimney/NdisOffloadTcpReceiveReturn
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisOffloadTcpReceiveReturn
 ---
 
 # NdisOffloadTcpReceiveReturn function
@@ -47,20 +47,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 A protocol driver or intermediate driver calls the 
   <b>NdisOffloadTcpReceiveReturn</b> function to return ownership of NET_BUFFER_LIST and associated structures
   to an underlying offload target.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisBindingHandle 
+
 [in]
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
@@ -68,8 +64,8 @@ The handle that NDIS provided at the
      identifies the binding between the caller and the underlying intermediate driver or offload
      target.
 
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
@@ -78,21 +74,13 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
      NdisTcpOffloadReceiveHandler</a> function.
 
-
 ## -returns
-
-
 
 The 
      <b>NdisOffloadTcpReceiveReturn</b> function always returns NDIS_STATUS_SUCCESS. The receive return
      operation is always completed synchronously.
 
-
-
-
 ## -remarks
-
-
 
 In response to a call to its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_receive_return_handler">
@@ -120,12 +108,7 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_receive_return_handler">
    MiniportTcpOffloadReceiveReturn</a>
@@ -141,7 +124,4 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">NdisTcpOffloadReceiveHandler</a>
- 
-
- 
 

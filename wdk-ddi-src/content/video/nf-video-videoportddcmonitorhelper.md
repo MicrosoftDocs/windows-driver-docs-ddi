@@ -8,9 +8,6 @@ ms.assetid: 2e4bd9c7-73be-47bc-b4e7-daea7781c46b
 ms.date: 05/10/2018
 keywords: ["VideoPortDDCMonitorHelper function"]
 ms.keywords: VideoPortDDCMonitorHelper, VideoPortDDCMonitorHelper function [Display Devices], VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, display.videoportddcmonitorhelper, video/VideoPortDDCMonitorHelper
-f1_keywords:
- - "video/VideoPortDDCMonitorHelper"
- - "VideoPortDDCMonitorHelper"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortDDCMonitorHelper
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortDDCMonitorHelper
+ - video/VideoPortDDCMonitorHelper
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortDDCMonitorHelper
 ---
 
 # VideoPortDDCMonitorHelper function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 Queries a monitor for <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> information using the DDC protocol.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the miniport driver's device extension.
 
-
 ### -param DDCControl 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_ddc_control">DDC_CONTROL</a> structure.
 
-
 ### -param EdidBuffer 
-[in, out]
-A pointer to a buffer in which the video port driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> structure. For ACPI devices, the first four bytes are preset by the video port driver to indicate an attempt to read the <i>EDID</i>. 
 
+[in, out]
+A pointer to a buffer in which the video port driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> structure. For ACPI devices, the first four bytes are preset by the video port driver to indicate an attempt to read the <i>EDID</i>.
 
 ### -param EdidBufferSize 
+
 [in]
 The size in bytes of the buffer to which <i>EdidBuffer</i> points.
 
-
 ## -returns
-
-
 
 <b>VideoPortDDCMonitorHelper</b> returns <b>TRUE</b> if successful.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  <p class="note">This function existed prior to the Windows XP release, but has been changed.
 
@@ -121,12 +109,7 @@ No EDID
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a>
 
@@ -149,7 +132,4 @@ No EDID
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a>
- 
-
- 
 

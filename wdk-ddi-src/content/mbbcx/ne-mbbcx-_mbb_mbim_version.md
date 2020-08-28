@@ -1,44 +1,45 @@
 ---
 UID: NE:mbbcx._MBB_MBIM_VERSION
 title: _MBB_MBIM_VERSION (mbbcx.h)
-description: The MBB_MBIM_VERSION enumeration defines the version of the MBIM specification that a client driver and its device support. 
+description: The MBB_MBIM_VERSION enumeration defines the version of the MBIM specification that a client driver and its device support.
 tech.root: netvista
 ms.assetid: 3326d39e-bd84-4740-89cf-7a5971ee4b7e
 ms.date: 09/27/2019
 keywords: ["MBB_MBIM_VERSION enumeration"]
-f1_keywords:
- - "mbbcx/-	_MBB_MBIM_VERSION"
- - "-	_MBB_MBIM_VERSION"
-ms.keywords: _MBB_MBIM_VERSION, MBB_MBIM_VERSION, 
+ms.keywords: _MBB_MBIM_VERSION, MBB_MBIM_VERSION,
 req.header: mbbcx.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: MBB_MBIM_VERSION
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- mbbcx.h
-api_name: 
-- _MBB_MBIM_VERSION
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _MBB_MBIM_VERSION
+ - mbbcx/_MBB_MBIM_VERSION
+ - MBB_MBIM_VERSION
+ - mbbcx/MBB_MBIM_VERSION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - mbbcx.h
+api_name:
+ - _MBB_MBIM_VERSION
 ---
 
 # _MBB_MBIM_VERSION enumeration
 
+
 ## -description
 
-
-
-The **MBB_MBIM_VERSION** enumeration defines the version of the MBIM specification that a client driver and its device support. 
+The **MBB_MBIM_VERSION** enumeration defines the version of the MBIM specification that a client driver and its device support.
 
 ## -enum-fields
 
@@ -57,3 +58,4 @@ Client drivers set the MBIM specification version they support in the **Version*
 Currently, client drivers must set the value of this field to **MbbMbimVersion1Dot0Errata**.
 
 ## -see-also
+

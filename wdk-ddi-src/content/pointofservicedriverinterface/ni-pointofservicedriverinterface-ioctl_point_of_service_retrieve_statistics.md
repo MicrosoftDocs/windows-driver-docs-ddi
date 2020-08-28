@@ -8,9 +8,6 @@ ms.assetid: 8c63ef41-e4dd-4b34-a897-c9bec13f4211
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, pos.ioctl_point_of_service_retrieve_statistics
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS"
- - "IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
 ---
 
 # IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS IOCTL
+
 
 ## -description
 
@@ -80,3 +81,4 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 - STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to hold the statistics.
 
 - STATUS_NOT_SUPPORTED: Statistic reporting is not supported.
+

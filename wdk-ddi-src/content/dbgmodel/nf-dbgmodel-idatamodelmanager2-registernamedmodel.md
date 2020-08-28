@@ -5,38 +5,38 @@ description: The RegisterNamedModel method registers a given data model under a 
 ms.assetid: 995a673e-8fee-49e6-896d-efff52b10e4a
 ms.date: 09/11/2018
 keywords: ["IDataModelManager2::RegisterNamedModel"]
-f1_keywords:
- - "dbgmodel/IDataModelManager2.RegisterNamedModel"
- - "IDataModelManager2.RegisterNamedModel"
 ms.keywords: IDataModelManager2::RegisterNamedModel, RegisterNamedModel, IDataModelManager2.RegisterNamedModel, IDataModelManager2::RegisterNamedModel, IDataModelManager2.RegisterNamedModel
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelManager2.RegisterNamedModel
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelManager2::RegisterNamedModel
+ - dbgmodel/IDataModelManager2::RegisterNamedModel
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelManager2.RegisterNamedModel
 ---
 
 # IDataModelManager2::RegisterNamedModel
@@ -55,17 +55,20 @@ While the string passed in the modelName argument can be anything (it is just a 
 
 An example of such a name is Debugger.Models.Process. This is the name under which the debugger's notion of a process is registered. A client which extends process and itself is extensible might register its extensibility point as Debugger.Models.Process.NamedExtensionPoint where NamedExtensionPoint refers to the semantics being added to process. 
 
-Note that if a given data model is registered under a name, the implementation of [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) for that data model must have a GetName method which returns the name registered via calling this RegisterNamedModel method. 
+Note that if a given data model is registered under a name, the implementation of [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) for that data model must have a GetName method which returns the name registered via calling this RegisterNamedModel method.
 
 ## -parameters
 
 ### -param modelName
+
 The root namespace of the data model is returned here.
 
 ### -param modeObject
+
 The data model being registered.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -104,3 +107,4 @@ if (SUCCEEDED(spManager->RegisterNamedModel(
 ```
 
 [IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)
+

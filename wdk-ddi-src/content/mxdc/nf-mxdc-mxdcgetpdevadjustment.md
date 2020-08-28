@@ -8,9 +8,6 @@ ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
 ms.date: 04/20/2018
 keywords: ["MxdcGetPDEVAdjustment function"]
 ms.keywords: MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], mxdc/MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml
-f1_keywords:
- - "mxdc/MxdcGetPDEVAdjustment"
- - "MxdcGetPDEVAdjustment"
 req.header: mxdc.h
 req.include-header: Mxdc.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mxdc.h
-api_name:
-- MxdcGetPDEVAdjustment
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MxdcGetPDEVAdjustment
+ - mxdc/MxdcGetPDEVAdjustment
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mxdc.h
+api_name:
+ - MxdcGetPDEVAdjustment
 ---
 
 # MxdcGetPDEVAdjustment function
+
 
 ## -description
 
@@ -50,26 +51,32 @@ The **MxdcGetPDEVAdjustment** function is exported by a printer interface DLL an
 ## -parameters
 
 ### -param hPrinter 
+
 [in]
 The handle of the currently instantiated printer.
 
 ### -param cbDevMode 
+
 [in]
 The size of the [DEVMODE](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure, in bytes, including the driver's private DEVMODE data.
 
 ### -param pDevMode 
+
 [in]
 A copy of the DEVMODE structure that the MXDC received. The printer interface DLL uses information from this structure to return the requested data.
 
 ### -param cbIn 
+
 [in]
 An input parameter that designates the size of the *pvIn* parameter, in bytes. This parameter is currently not used and its value is zero.
 
 ### -param pvIn 
+
 [in, optional]
 A parameter that consists of data that is sent to the printer interface DLL from the MXDC. This parameter is currently not used and its value is **NULL**.
 
 ### -param cbPrintPropertiesCollection 
+
 [in]
 The size of the [PrintPropertiesCollection](https://docs.microsoft.com/windows-hardware/drivers/print/xps-driver-document-events) data structure, in bytes.
 
@@ -279,3 +286,4 @@ Values:
 [GDIINFO](https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-gdiinfo)
 
 [IPrintOemUIMXDC Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc)
+

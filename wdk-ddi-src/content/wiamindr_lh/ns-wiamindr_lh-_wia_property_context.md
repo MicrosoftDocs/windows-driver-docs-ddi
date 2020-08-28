@@ -8,13 +8,10 @@ ms.assetid: afe92cb5-519a-46a3-a66d-c01b6a2c780b
 ms.date: 05/03/2018
 keywords: ["WIA_PROPERTY_CONTEXT structure"]
 ms.keywords: "*PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], WIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT structure [Imaging Devices], _WIA_PROPERTY_CONTEXT, image.wia_property_context, wiamindr_lh/PWIA_PROPERTY_CONTEXT, wiamindr_lh/WIA_PROPERTY_CONTEXT, wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml"
-f1_keywords:
- - "wiamindr_lh/WIA_PROPERTY_CONTEXT"
- - "WIA_PROPERTY_CONTEXT"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamindr_lh.h
-api_name:
-- WIA_PROPERTY_CONTEXT
 targetos: Windows
 req.typenames: WIA_PROPERTY_CONTEXT, *PWIA_PROPERTY_CONTEXT
+f1_keywords:
+ - _WIA_PROPERTY_CONTEXT
+ - wiamindr_lh/_WIA_PROPERTY_CONTEXT
+ - PWIA_PROPERTY_CONTEXT
+ - wiamindr_lh/PWIA_PROPERTY_CONTEXT
+ - WIA_PROPERTY_CONTEXT
+ - wiamindr_lh/WIA_PROPERTY_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - WIA_PROPERTY_CONTEXT
 ---
 
 # _WIA_PROPERTY_CONTEXT structure
+
 
 ## -description
 
@@ -88,3 +93,4 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 [wiasUpdateScanRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasupdatescanrect)
 
 [wiasUpdateValidFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasupdatevalidformat)
+

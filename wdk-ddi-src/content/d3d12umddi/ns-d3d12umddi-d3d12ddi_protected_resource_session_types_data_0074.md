@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPES_DATA_0074
 f1_keywords:
- - d3d12umddi//D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPES_DATA_0074
  - D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPES_DATA_0074
+ - d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPES_DATA_0074
 dev_langs:
  - c++
 ---
@@ -60,3 +60,4 @@ Protected resource session types data.
 See the [Protected Resources Specification](https://microsoft.github.io/DirectX-Specs/d3d/ProtectedResources.html) for more information.
 
 ## -see-also
+

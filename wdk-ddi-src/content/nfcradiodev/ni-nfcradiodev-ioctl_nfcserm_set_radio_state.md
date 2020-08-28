@@ -8,9 +8,6 @@ ms.assetid: 721AE7FE-927C-4EBA-B33D-C5A5A986951C
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSERM_SET_RADIO_STATE IOCTL"]
 ms.keywords: IOCTL_NFCSERM_SET_RADIO_STATE, IOCTL_NFCSERM_SET_RADIO_STATE control, IOCTL_NFCSERM_SET_RADIO_STATE control code [Near-Field Proximity Drivers], nfcradiodev/IOCTL_NFCSERM_SET_RADIO_STATE, nfpdrivers.ioctl_nfcserm_set_radio_state
-f1_keywords:
- - "nfcradiodev/IOCTL_NFCSERM_SET_RADIO_STATE"
- - "IOCTL_NFCSERM_SET_RADIO_STATE"
 req.header: nfcradiodev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcradiodev.h
-api_name:
-- IOCTL_NFCSERM_SET_RADIO_STATE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFCSERM_SET_RADIO_STATE
+ - nfcradiodev/IOCTL_NFCSERM_SET_RADIO_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcradiodev.h
+api_name:
+ - IOCTL_NFCSERM_SET_RADIO_STATE
 ---
 
 # IOCTL_NFCSERM_SET_RADIO_STATE IOCTL
@@ -46,54 +46,29 @@ req.typenames:
 
 ## -description
 
-
 This IOCTL is used by the SE radio management application or service to query the current radio power state of the proximity device.
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcradiodev/ns-nfcradiodev-_nfcrm_set_radio_state"> NFCRM_SET_RADIO_STATE structure</a>
-
-
 
 ### -input-buffer-length
 
 sizeof(NFCRM_SET_RADIO_STATE)
 
-
 ### -output-buffer
 
 None
-
 
 ### -output-buffer-length
 
 None
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -113,5 +88,4 @@ None
 <td>This code is returned when the output buffer is non-zero.</td>
 </tr>
 </table>
- 
 

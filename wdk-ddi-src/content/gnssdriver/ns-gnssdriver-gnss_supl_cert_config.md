@@ -8,9 +8,6 @@ ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.date: 02/15/2018
 keywords: ["GNSS_SUPL_CERT_CONFIG structure"]
 ms.keywords: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_cert_config, gnssdriver/GNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG"
-f1_keywords:
- - "gnssdriver/GNSS_SUPL_CERT_CONFIG"
- - "GNSS_SUPL_CERT_CONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_SUPL_CERT_CONFIG
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
+f1_keywords:
+ - PGNSS_SUPL_CERT_CONFIG
+ - gnssdriver/PGNSS_SUPL_CERT_CONFIG
+ - GNSS_SUPL_CERT_CONFIG
+ - gnssdriver/GNSS_SUPL_CERT_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_SUPL_CERT_CONFIG
 ---
 
 # GNSS_SUPL_CERT_CONFIG structure
@@ -46,24 +48,17 @@ req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 
 ## -description
 
-
 This structure contains SUPL certificate information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field CertAction
 
@@ -104,23 +99,14 @@ Delete all the certificates injected to the GNSS driver previously. The values o
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SuplCertName
-
- 
-
 
 ### -field CertSize
 
 The size of the certificate in bytes.
 
-
 ### -field Unused
-
- 
-
 
 ### -field CertData
 

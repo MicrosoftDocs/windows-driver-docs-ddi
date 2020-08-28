@@ -8,42 +8,43 @@ ms.assetid: a8959163-9639-4c75-aeb1-5aabad140a42
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_CORELAYER_DEVICECALLBACKS_0003 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0003"
- - "D3D12DDI_CORELAYER_DEVICECALLBACKS_0003"
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0003, D3D12DDI_CORELAYER_DEVICECALLBACKS_0003, 
+ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0003, D3D12DDI_CORELAYER_DEVICECALLBACKS_0003,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_CORELAYER_DEVICECALLBACKS_0003
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDI_CORELAYER_DEVICECALLBACKS_0003
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - D3D12DDI_CORELAYER_DEVICECALLBACKS_0003
+ - d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0003
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_CORELAYER_DEVICECALLBACKS_0003
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # D3D12DDI_CORELAYER_DEVICECALLBACKS_0003 structure
+
 
 ## -description
 
@@ -55,11 +56,9 @@ Contains Microsoft Direct3D 12 runtime callback functions that the user-mode dis
 
 A pointer to the PFND3D12DDI_SETERROR_CB function.
 
-
 ### -field pfnSetCommandListErrorCb
 
 A pointer to the PFND3D12DDI_SETCOMMANDLISTERROR_CB function.
-
 
 ### -field pfnSetCommandListDDITableCb
 
@@ -68,7 +67,6 @@ A pointer to the PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB function.
 ### -field pfnCreateContextCb
 
 A pointer to the PFND3D12DDI_CREATECONTEXT_CB function.
-
 
 ### -field pfnCreateContextVirtualCb
 
@@ -141,9 +139,11 @@ A function pointer for WDDM versions less than 2.0.
 A function pointer for WDDM versions less than 2.0.
 
 ### -field pfnReservedOfferAllocationsCb
+
  
 A function pointer for WDDM versions less than 2.0.
 
 ## -remarks
 
 ## -see-also
+

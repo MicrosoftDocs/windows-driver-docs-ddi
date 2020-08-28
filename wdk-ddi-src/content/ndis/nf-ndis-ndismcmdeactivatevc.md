@@ -8,9 +8,6 @@ ms.assetid: e18f6326-621e-4bed-aa82-b326f3b1422d
 ms.date: 05/02/2018
 keywords: ["NdisMCmDeactivateVc function"]
 ms.keywords: NdisMCmDeactivateVc, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, ndis/NdisMCmDeactivateVc, netvista.ndismcmdeactivatevc
-f1_keywords:
- - "ndis/NdisMCmDeactivateVc"
- - "NdisMCmDeactivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCmDeactivateVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDeactivateVc
+ - ndis/NdisMCmDeactivateVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCmDeactivateVc
 ---
 
 # NdisMCmDeactivateVc function
@@ -47,17 +47,13 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDeactivateVc</b> notifies NDIS that there will be no further transfers on a particular active
   VC.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisVcHandle 
+
 [in]
 Specifies the handle identifying the VC. This handle was supplied by NDIS to the MCM driver either
      when it called 
@@ -66,10 +62,7 @@ Specifies the handle identifying the VC. This handle was supplied by NDIS to the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function set up
      the VC for a client-initiated outgoing call.
 
-
 ## -returns
-
-
 
 <b>NdisMCmDeactivateVc</b> can return one of the following:
 
@@ -101,14 +94,8 @@ The VC is already deactivated, so this call is redundant.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An MCM driver calls 
     <b>NdisMCmDeactivateVc</b> as an essential step in closing a call, usually after the packet exchange with
@@ -153,13 +140,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     drivers, call 
     <b>NdisCmDeactivateVc</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_deactivate_vc">MiniportCoDeactivateVc</a>
 
@@ -194,7 +175,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

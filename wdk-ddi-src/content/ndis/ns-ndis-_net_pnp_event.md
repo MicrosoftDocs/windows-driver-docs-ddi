@@ -8,9 +8,6 @@ ms.assetid: b68fb279-c1d4-4f0b-8b04-b17a01a65560
 ms.date: 05/02/2018
 keywords: ["NET_PNP_EVENT structure"]
 ms.keywords: "*PNET_PNP_EVENT, NET_PNP_EVENT, NET_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT, PNET_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT, ndis/NET_PNP_EVENT, ndis/PNET_PNP_EVENT, netvista.net_pnp_event, protocol_structures_ref_0d2da286-4352-4097-901d-d3eba45d31c2.xml"
-f1_keywords:
- - "ndis/NET_PNP_EVENT"
- - "NET_PNP_EVENT"
 req.header: ndis.h
 req.include-header: Ndis.h, Netpnp.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NET_PNP_EVENT
 targetos: Windows
 req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
+f1_keywords:
+ - _NET_PNP_EVENT
+ - ndis/_NET_PNP_EVENT
+ - PNET_PNP_EVENT
+ - ndis/PNET_PNP_EVENT
+ - NET_PNP_EVENT
+ - ndis/NET_PNP_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_PNP_EVENT
 ---
 
 # _NET_PNP_EVENT structure
@@ -46,15 +50,10 @@ req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
 
 ## -description
 
-
 The <b>NET_PNP_EVENT</b> structure describes a network Plug and Play (PnP) event, an NDIS PnP event, or a
   power management event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NetEvent
 
@@ -276,7 +275,6 @@ An asynchronous event that indicates the protocols and filters including the min
 <li>Locks must not be held while issuing this event.</li>
 </ul>
 This event is available starting with NDIS version 6.50 and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
-
 
 ### -field Buffer
 
@@ -501,36 +499,28 @@ The buffer contents are NULL.
 
 The buffer contents are NULL.
 
-
 ### -field BufferLength
 
 The number of bytes of event-specific information at 
      <b>Buffer</b>.
 
-
 ### -field NdisReserved
 
 An area reserved for used by NDIS.
-
 
 ### -field TransportReserved
 
 An area reserved for used by the transport driver.
 
-
 ### -field TdiReserved
 
 An area reserved for used by TDI.
-
 
 ### -field TdiClientReserved
 
 An area reserved for used by a TDI client.
 
-
 ## -remarks
-
-
 
 In NDIS 6.0 and later versions, when the operating system issues a system PnP event or a power
     management event to a target device object that represents a miniport adapter, NDIS translates the event
@@ -587,13 +577,7 @@ The
     management event. The 
     <b>Buffer</b> contains information that is specific to the type of event.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a>
 
@@ -647,7 +631,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/querying-the-hyper-v-extensible-switch-configuration">Querying the Hyper-V Extensible Switch Configuration</a>
- 
-
- 
 

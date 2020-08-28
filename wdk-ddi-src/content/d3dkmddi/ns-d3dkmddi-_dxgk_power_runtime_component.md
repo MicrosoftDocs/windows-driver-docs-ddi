@@ -7,9 +7,6 @@ ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
 ms.date: 05/10/2018
 keywords: ["DXGK_POWER_RUNTIME_COMPONENT structure"]
 ms.keywords: DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], _DXGK_POWER_RUNTIME_COMPONENT, d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, display.dxgk_power_runtime_component
-f1_keywords:
- - "d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT"
- - "DXGK_POWER_RUNTIME_COMPONENT"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,21 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGK_POWER_RUNTIME_COMPONENT
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_POWER_RUNTIME_COMPONENT
+f1_keywords:
+ - _DXGK_POWER_RUNTIME_COMPONENT
+ - d3dkmddi/_DXGK_POWER_RUNTIME_COMPONENT
+ - DXGK_POWER_RUNTIME_COMPONENT
+ - d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGK_POWER_RUNTIME_COMPONENT
 ---
 
 # _DXGK_POWER_RUNTIME_COMPONENT structure
+
 
 ## -description
 
@@ -99,3 +102,4 @@ Multiple power components should not be mapped to the same engine (node), to the
 [DXGK_POWER_COMPONENT_MAPPING](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_power_component_mapping)
 
 [DXGK_POWER_RUNTIME_STATE](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_power_runtime_state)
+

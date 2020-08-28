@@ -8,9 +8,6 @@ ms.assetid: 5DD3EC13-5DDD-4640-A841-00576F74429A
 ms.date: 05/03/2018
 keywords: ["CWiaLogProc::~CWiaLogProc"]
 ms.keywords: CWiaLogProc interface [Imaging Devices],~CWiaLogProc method, CWiaLogProc.~CWiaLogProc, CWiaLogProc::~CWiaLogProc, image.cwialogproc__cwialogproc, wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], ~CWiaLogProc method [Imaging Devices],CWiaLogProc interface
-f1_keywords:
- - "wiamdef/CWiaLogProc.~CWiaLogProc"
- - "CWiaLogProc.~CWiaLogProc"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiamdef.h
-api_name:
-- CWiaLogProc.~CWiaLogProc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiaLogProc::~CWiaLogProc
+ - wiamdef/CWiaLogProc::~CWiaLogProc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiamdef.h
+api_name:
+ - CWiaLogProc.~CWiaLogProc
 ---
 
 # CWiaLogProc::~CWiaLogProc
+
 
 ## -description
 
@@ -50,3 +51,4 @@ The **~CWiaLogProc** destructor is called when the function or method being logg
 ## -see-also
 
 [CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc-cwialogproc)
+

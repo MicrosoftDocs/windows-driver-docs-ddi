@@ -7,9 +7,6 @@ ms.assetid: F5A853B2-4A8C-4929-AAEC-28844DEF0B29
 ms.date: 05/10/2018
 keywords: ["DXGKARG_SETTARGETANALOGCOPYPROTECTION structure"]
 ms.keywords: DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION structure [Display Devices], _DXGKARG_SETTARGETANALOGCOPYPROTECTION, d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION, display.dxgkarg_settargetanalogcopyprotection
-f1_keywords:
- - "d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION"
- - "DXGKARG_SETTARGETANALOGCOPYPROTECTION"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_SETTARGETANALOGCOPYPROTECTION
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_SETTARGETANALOGCOPYPROTECTION
+f1_keywords:
+ - _DXGKARG_SETTARGETANALOGCOPYPROTECTION
+ - d3dkmddi/_DXGKARG_SETTARGETANALOGCOPYPROTECTION
+ - DXGKARG_SETTARGETANALOGCOPYPROTECTION
+ - d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_SETTARGETANALOGCOPYPROTECTION
 ---
 
 # _DXGKARG_SETTARGETANALOGCOPYPROTECTION structure
@@ -46,29 +48,21 @@ req.typenames: DXGKARG_SETTARGETANALOGCOPYPROTECTION
 
 ## -description
 
-
 Holds information to set analog copy protection on a display adapter's video present target.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TargetId
 
 [in] The identifier of a display adapter's video present target.
 
-
 ### -field CopyProtectionType
 
 [in] A value from the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enum indicating the type of analog copy protection being requested.
 
-
 ### -field APSTriggerBits
 
 [in] A value that describes copy protection for an OEM device. A value of 0 indicates no copy protection, and values of 1, 2, and 3 indicate low, medium, and high levels of copy protection, respectively. Values greater than 3 are not allowed.
-
 
 ### -field CopyProtectionSupport
 

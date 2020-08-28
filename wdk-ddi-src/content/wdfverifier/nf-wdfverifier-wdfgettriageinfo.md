@@ -8,9 +8,6 @@ ms.assetid: F6B1DC49-B691-45E4-8DE9-ADCD73D90ADE
 ms.date: 02/26/2018
 keywords: ["WdfGetTriageInfo function"]
 ms.keywords: WdfGetTriageInfo, WdfGetTriageInfo function, kmdf.wdfgettriageinfo, wdf.wdfgettriageinfo, wdfverifier/WdfGetTriageInfo
-f1_keywords:
- - "wdfverifier/WdfGetTriageInfo"
- - "WdfGetTriageInfo"
 req.header: wdfverifier.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfverifier.h
-api_name:
-- WdfGetTriageInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfGetTriageInfo
+ - wdfverifier/WdfGetTriageInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfverifier.h
+api_name:
+ - WdfGetTriageInfo
 ---
 
 # WdfGetTriageInfo function
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfGetTriageInfo</b> method is reserved for internal use only.
-
 

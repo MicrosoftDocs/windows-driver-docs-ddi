@@ -8,9 +8,6 @@ ms.assetid: af686e7a-9426-4151-8ac4-d95ae1689b4c
 ms.date: 03/29/2018
 keywords: ["SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, storage.ses_download_microcode_status_descriptor"
-f1_keywords:
- - "scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR"
- - "SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR"
 req.header: scsi.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsi.h
-api_name:
-- SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 targetos: Windows
 req.typenames: SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+f1_keywords:
+ - _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ - scsi/_SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ - PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ - scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ - SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ - scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsi.h
+api_name:
+ - SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 ---
 
 # _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure
@@ -46,25 +50,18 @@ req.typenames: SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCOD
 
 ## -description
 
-
 The <b>SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</b> structure specifies the status and additional status of a download microcode.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reserved1
 
 Reserved for future use.
 
-
 ### -field SubEnclosureId
 
 Specifies the subenclosure to which the download microcode
 status descriptor applies to.
-
 
 ### -field Status
 
@@ -301,14 +298,11 @@ Vendor Specific
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AdditionalStatus
 
 Provides an additional status value for certain
 values of <i>Status</i> .
-
 
 ### -field MaximumImageSize
 
@@ -316,31 +310,21 @@ Indicates the maximum size in bytes of the
 microcode image that the enclosure services process accepts. The image may be delivered using one or
 more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
 
-
 ### -field Reserved2
 
 Reserved for future use.
-
 
 ### -field ExpectedBufferId
 
 Indicates the next value that the
 enclosure services process expects in the <i>BufferId</i> field in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
 
-
 ### -field ExpectedBufferOffset
 
 Indicates the next value that the
 enclosure services process expects in the <i>BufferOffset</i> field in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>. If the enclosure services process accepts arbitrary <i>BufferOffset</i> values, then it shall set <i>ExpectedBufferOffset</i> to 0xFFFFFFFF.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>
- 
-
- 
 

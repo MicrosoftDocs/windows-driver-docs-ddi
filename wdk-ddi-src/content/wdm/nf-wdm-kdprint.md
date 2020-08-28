@@ -8,9 +8,6 @@ ms.assetid: 4a2ab12b-ee89-462d-821a-0a2db20cc36c
 ms.date: 02/23/2018
 keywords: ["KdPrint macro"]
 ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
-f1_keywords:
- - "wdm/KdPrint"
- - "KdPrint"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib (See DbgPrint.)
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KdPrint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KdPrint
+ - wdm/KdPrint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KdPrint
 ---
 
 # KdPrint macro
+
 
 ## -description
 
@@ -54,6 +55,7 @@ A call to **KdPrint** requires double parentheses.
 ## -parameters
 
 ### -param _x_ 
+
 [in]
 Specifies a pointer to the format string to print. The *Format* string supports most of the **printf**-style [format specification fields](https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?redirectedfrom=MSDN&view=vs-2019). However, the Unicode format codes (**%C**, **%S**, **%lc**, **%ls**, **%wc**, **%ws**, and **%wZ**) can only be used with IRQL = PASSIVE_LEVEL. The **KdPrint** routine does not support any of the floating point types (**%f**, **%e**, **%E**, **%g**, **%G**, **%a**, or **%A**).
 
@@ -83,3 +85,4 @@ There is no upper limit to the size of the *Format* string or the number of argu
 [DbgPrintEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex)
 
 [KdPrintEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kdprintex)
+

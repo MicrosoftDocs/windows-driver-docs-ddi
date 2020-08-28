@@ -8,13 +8,10 @@ ms.assetid: 9ab9edb8-aa37-4c28-81c9-3e41751f14ed
 ms.date: 05/03/2018
 keywords: ["WIA_PROPERTY_INFO structure"]
 ms.keywords: "*PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, image.wia_property_info, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml"
-f1_keywords:
- - "wiamindr_lh/WIA_PROPERTY_INFO"
- - "WIA_PROPERTY_INFO"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamindr_lh.h
-api_name:
-- WIA_PROPERTY_INFO
 targetos: Windows
 req.typenames: WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO
+f1_keywords:
+ - _WIA_PROPERTY_INFO
+ - wiamindr_lh/_WIA_PROPERTY_INFO
+ - PWIA_PROPERTY_INFO
+ - wiamindr_lh/PWIA_PROPERTY_INFO
+ - WIA_PROPERTY_INFO
+ - wiamindr_lh/WIA_PROPERTY_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - WIA_PROPERTY_INFO
 ---
 
 # _WIA_PROPERTY_INFO structure
+
 
 ## -description
 
@@ -248,3 +253,4 @@ hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);
 ## -see-also
 
 [wiasSetItemPropAttribs](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropattribs)
+

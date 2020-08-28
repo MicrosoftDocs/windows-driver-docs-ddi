@@ -8,9 +8,6 @@ ms.assetid: d5b1341b-cbe0-483c-9abb-b8706f2db2dd
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE, NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback, NdisTcpOffloadReceiveComplete, NdisTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveComplete, netvista.ndistcpoffloadreceivecomplete, tcp_chim_ndis_func_7d17cfb0-d83a-42e2-9ac8-042bf1964991.xml
-f1_keywords:
- - "ndischimney/NdisTcpOffloadReceiveComplete"
- - "NdisTcpOffloadReceiveComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndischimney.h
-api_name:
-- NdisTcpOffloadReceiveComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE
+ - ndischimney/NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisTcpOffloadReceiveComplete
 ---
 
 # NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
@@ -55,20 +54,17 @@ An offload target calls the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_receive_handler">
   MiniportTcpOffloadReceive</a> function.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisMiniportHandle 
+
 [in]
 The handle that the offload target obtained in a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function.
 
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
@@ -77,10 +73,7 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_receive_handler">
      MiniportTcpOffloadReceive</a> function.
 
-
 ## -remarks
-
-
 
 An offload target should use and return preposted receive requests in the order in which the requests
     were posted to the 
@@ -183,12 +176,7 @@ Calls the
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_receive_handler">MiniportTcpOffloadReceive</a>
 
@@ -208,7 +196,4 @@ Calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: C7B6B7DC-359D-44C2-8348-EC1EE5965800
 ms.date: 05/02/2018
 keywords: ["NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS, NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback, NdkGetSharedEndpointLocalAddress, NdkGetSharedEndpointLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetSharedEndpointLocalAddress, netvista.ndk_fn_get_shared_endpoint_local_address
-f1_keywords:
- - "ndkpi/NdkGetSharedEndpointLocalAddress"
- - "NdkGetSharedEndpointLocalAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkGetSharedEndpointLocalAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS
+ - ndkpi/NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkGetSharedEndpointLocalAddress
 ---
 
 # NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback function
@@ -46,33 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkGetSharedEndpointLocalAddress</i> (<i>NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</i>) function returns the local address for an NDK  shared endpoint.
-
 
 ## -parameters
 
-
-
-
 ### -param pNdkSharedEndpoint 
+
 [in]
 A pointer to an NDK shared endpoint object  (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>).
-
 
 ### -param pAddress
 
 A local address is returned in this buffer.
 
-
 ### -param pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 
-
 ## -returns
-
-
 
 The 
      <i>NdkGetSharedEndpointLocalAddress</i> function returns one of the following NTSTATUS codes.
@@ -116,27 +107,12 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>NdkGetSharedEndpointLocalAddress</i> returns the local address for a shared endpoint. <i>NdkGetSharedEndpointLocalAddress</i> retrieves port information for an AF_INET or AF_INET6  shared endpoint. That is, if the NDK consumer specifies zero as the ND port number in a shared endpoint creation request, the NDK provider picks a port. An NDK consumer can determine the port that the provider picked with <i>NdkGetSharedEndpointLocalAddress</i>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 7a91311e-c8b9-4f28-b72e-9f93d459aac2
 ms.date: 05/10/2018
 keywords: ["DXGI_GAMMA_CONTROL_CAPABILITIES structure"]
 ms.keywords: DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, display.dxgi_gamma_control_capabiliites, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES
-f1_keywords:
- - "dxgitype/DXGI_GAMMA_CONTROL_CAPABILITIES"
- - "DXGI_GAMMA_CONTROL_CAPABILITIES"
 req.header: dxgitype.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dxgitype.h
-api_name:
-- DXGI_GAMMA_CONTROL_CAPABILITIES
 targetos: Windows
 req.typenames: DXGI_GAMMA_CONTROL_CAPABILITIES
+f1_keywords:
+ - DXGI_GAMMA_CONTROL_CAPABILITIES
+ - dxgitype/DXGI_GAMMA_CONTROL_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dxgitype.h
+api_name:
+ - DXGI_GAMMA_CONTROL_CAPABILITIES
 ---
 
 # DXGI_GAMMA_CONTROL_CAPABILITIES structure
@@ -46,51 +46,35 @@ req.typenames: DXGI_GAMMA_CONTROL_CAPABILITIES
 
 ## -description
 
-
-The DXGI_GAMMA_CONTROL_CAPABILIITES structure describes gamma capabilities. 
-
+The DXGI_GAMMA_CONTROL_CAPABILIITES structure describes gamma capabilities.
 
 ## -struct-fields
 
-
-
-
 ### -field ScaleAndOffsetSupported
 
-[out] A BOOL value that indicates whether the device supports scale and offset. <b>TRUE</b> indicates that the device supports scale and offset; <b>FALSE</b> indicates that the device does not support scale and offset. 
-
+[out] A BOOL value that indicates whether the device supports scale and offset. <b>TRUE</b> indicates that the device supports scale and offset; <b>FALSE</b> indicates that the device does not support scale and offset.
 
 ### -field MaxConvertedValue
 
-[out] A single-precision float vector for the maximum converted value for the gamma control. 
-
+[out] A single-precision float vector for the maximum converted value for the gamma control.
 
 ### -field MinConvertedValue
 
-[out] A single-precision float vector for the minimum converted value for the gamma control. 
-
+[out] A single-precision float vector for the minimum converted value for the gamma control.
 
 ### -field NumGammaControlPoints
 
-[out] The number of elements in the array that the <b>ControlPointPositions</b> member specifies. 
-
+[out] The number of elements in the array that the <b>ControlPointPositions</b> member specifies.
 
 ### -field ControlPointPositions
 
-[out] An array of single-precision float vectors that describe the gamma control point positions. 
-
+[out] An array of single-precision float vectors that describe the gamma control point positions.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_get_gamma_control_caps">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">GetGammaCapsDXGI</a>
- 
-
- 
 

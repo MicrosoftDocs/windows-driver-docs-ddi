@@ -8,38 +8,41 @@ ms.assetid: f43e14e4-9aa0-4401-9e9c-7a2a36fd3899
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_LIST structure"]
-f1_keywords:
- - "netwakesourcelist/NET_WAKE_SOURCE_LIST"
- - "NET_WAKE_SOURCE_LIST"
-ms.keywords: NET_WAKE_SOURCE_LIST, NET_WAKE_SOURCE_LIST, 
+ms.keywords: NET_WAKE_SOURCE_LIST, NET_WAKE_SOURCE_LIST,
 req.header: netwakesourcelist.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_WAKE_SOURCE_LIST
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - netwakesourcelist.h
-api_name: 
- - NET_WAKE_SOURCE_LIST
-product: 
- - Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - _NET_WAKE_SOURCE_LIST
+ - netwakesourcelist/_NET_WAKE_SOURCE_LIST
+ - NET_WAKE_SOURCE_LIST
+ - netwakesourcelist/NET_WAKE_SOURCE_LIST
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netwakesourcelist.h
+api_name:
+ - NET_WAKE_SOURCE_LIST
+product:
+ - Windows
 ---
 
 # NET_WAKE_SOURCE_LIST structure
+
 
 ## -description
 
@@ -50,8 +53,9 @@ The **NET_WAKE_SOURCE_LIST** structure represents a list of wake-on-LAN (WoL) so
 ### -field Size
 
 The size of this structure, in bytes.
- 
+
 ### -field Reserved
+
  
 Reserved. Client drivers must not read or write to this value directly.
 
@@ -76,3 +80,4 @@ For a code sample of working with NETWAKESOURCE objects, see [Configuring power 
 [**NetWakeSourceListGetElement**](../netwakesourcelist/nf-netwakesourcelist-netwakesourcelistgetelement.md)
 
 [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md)
+

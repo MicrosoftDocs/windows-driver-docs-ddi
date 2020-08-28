@@ -8,9 +8,6 @@ ms.assetid: f588f59b-5efa-4783-bb45-935b91c69cb5
 ms.date: 04/16/2018
 keywords: ["FltParseFileNameInformation function"]
 ms.keywords: FltApiRef_p_to_z_37671009-fb66-4dba-ae61-23801aef9f21.xml, FltParseFileNameInformation, FltParseFileNameInformation function [Installable File System Drivers], fltkernel/FltParseFileNameInformation, ifsk.fltparsefilenameinformation
-f1_keywords:
- - "fltkernel/FltParseFileNameInformation"
- - "FltParseFileNameInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltParseFileNameInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltParseFileNameInformation
+ - fltkernel/FltParseFileNameInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltParseFileNameInformation
 ---
 
 # FltParseFileNameInformation function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-<b>FltParseFileNameInformation</b> parses the contents of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a> structure. 
-
+<b>FltParseFileNameInformation</b> parses the contents of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a> structure.
 
 ## -parameters
 
-
-
-
 ### -param FileNameInformation 
-[in, out]
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a> structure returned by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation">FltGetDestinationFileNameInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe">FltGetFileNameInformationUnsafe</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettunneledname">FltGetTunneledName</a>. This parameter is required and cannot be <b>NULL</b>. 
 
+[in, out]
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a> structure returned by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation">FltGetDestinationFileNameInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe">FltGetFileNameInformationUnsafe</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettunneledname">FltGetTunneledName</a>. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
-<b>FltParseFileNameInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS error code. 
-
-
-
+<b>FltParseFileNameInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS error code.
 
 ## -remarks
-
-
 
 <b>FltParseFileNameInformation</b> parses the <b>Name</b> member of a FLT_FILE_NAME_INFORMATION structure and uses the results to set the values of the <b>Volume</b>, <b>Share</b>, <b>Extension</b>, <b>Stream</b>, <b>FinalComponent</b>, <b>ParentDir</b>, and <b>NamesParsed</b> members of this structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>. 
 
@@ -158,12 +146,7 @@ The caller must not modify the contents of the <i>FileNameInformation</i> struct
 <div class="alert"><b>Note</b>  If the caller is trying to parse a string, not an FLT_FILE_NAME_INFORMATION structure, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilename">FltParseFileName</a> routine instead of <b>FltParseFileNameInformation</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>
 
@@ -186,7 +169,4 @@ The caller must not modify the contents of the <i>FileNameInformation</i> struct
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilename">FltParseFileName</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 72b8aad8-39e1-4624-ac77-13eb52036b3b
 ms.date: 04/16/2018
 keywords: ["FltProcessFileLock function"]
 ms.keywords: FltApiRef_p_to_z_e4ff8145-c586-4c3c-acfa-d4c22f48a5d2.xml, FltProcessFileLock, FltProcessFileLock routine [Installable File System Drivers], fltkernel/FltProcessFileLock, ifsk.fltprocessfilelock
-f1_keywords:
- - "fltkernel/FltProcessFileLock"
- - "FltProcessFileLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltProcessFileLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltProcessFileLock
+ - fltkernel/FltProcessFileLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltProcessFileLock
 ---
 
 # FltProcessFileLock function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltProcessFileLock</b> routine processes and completes a file lock operation.
-
 
 ## -parameters
 
-
-
-
 ### -param FileLock 
-[in]
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>. 
 
+[in]
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>.
 
 ### -param CallbackData 
-[in]
-Pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> operation. 
 
+[in]
+Pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> operation.
 
 ### -param Context 
-[in, optional]
-Context pointer to be used when completing the operation. This context pointer is passed to the <i>CompleteLockCallbackDataRoutine</i> and <i>UnlockRoutine</i> callback routines that the minifilter driver registered in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>. This parameter is optional and can be <b>NULL</b>. 
 
+[in, optional]
+Context pointer to be used when completing the operation. This context pointer is passed to the <i>CompleteLockCallbackDataRoutine</i> and <i>UnlockRoutine</i> callback routines that the minifilter driver registered in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltProcessFileLock</b> returns one of the following. 
 
@@ -115,14 +108,8 @@ The lock operation has been pended.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltProcessFileLock</b> processes a file lock (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a>) operation. The lock operation can be a fast I/O or IRP-based operation. 
 
@@ -138,14 +125,7 @@ To allocate and initialize a new file lock structure, call <a href="https://docs
 
 To free an initialized<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
 
@@ -196,7 +176,4 @@ To free an initialized<a href="https://docs.microsoft.com/windows-hardware/drive
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>
- 
-
- 
 

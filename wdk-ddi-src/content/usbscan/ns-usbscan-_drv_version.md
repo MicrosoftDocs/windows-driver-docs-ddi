@@ -8,9 +8,6 @@ ms.assetid: 61b6dbd3-7565-4d63-bcc0-007df9793398
 ms.date: 05/03/2018
 keywords: ["DRV_VERSION structure"]
 ms.keywords: "*PDRV_VERSION, DRV_VERSION, DRV_VERSION structure [Imaging Devices], PDRV_VERSION, PDRV_VERSION structure pointer [Imaging Devices], _DRV_VERSION, image.drv_version, stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, usbscan/DRV_VERSION, usbscan/PDRV_VERSION"
-f1_keywords:
- - "usbscan/DRV_VERSION"
- - "DRV_VERSION"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbscan.h
-api_name:
-- DRV_VERSION
 targetos: Windows
 req.typenames: DRV_VERSION, *PDRV_VERSION
+f1_keywords:
+ - _DRV_VERSION
+ - usbscan/_DRV_VERSION
+ - PDRV_VERSION
+ - usbscan/PDRV_VERSION
+ - DRV_VERSION
+ - usbscan/DRV_VERSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbscan.h
+api_name:
+ - DRV_VERSION
 ---
 
 # _DRV_VERSION structure
@@ -46,24 +50,17 @@ req.typenames: DRV_VERSION, *PDRV_VERSION
 
 ## -description
 
-
 The DRV_VERSION structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_version">IOCTL_GET_VERSION</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field major
 
 Major version number.
 
-
 ### -field minor
 
 Minor version number.
-
 
 ### -field internal
 

@@ -8,9 +8,6 @@ ms.assetid: f165c5a0-6f8e-495f-90b9-62d0d8982456
 ms.date: 05/02/2018
 keywords: ["FwpmBfeStateGet0 function"]
 ms.keywords: FwpmBfeStateGet0, FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateGet0, netvista.fwpmbfestateget0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml
-f1_keywords:
- - "fwpmk/FwpmBfeStateGet0"
- - "FwpmBfeStateGet0"
 req.header: fwpmk.h
 req.include-header: Fwpmk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fwpkclnt.lib
-- Fwpkclnt.dll
-api_name:
-- FwpmBfeStateGet0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpmBfeStateGet0
+ - fwpmk/FwpmBfeStateGet0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fwpkclnt.lib
+ - Fwpkclnt.dll
+api_name:
+ - FwpmBfeStateGet0
 ---
 
 # FwpmBfeStateGet0 function
@@ -47,14 +47,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpmBfeStateGet0</b> function retrieves the current state of the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateGet0</b> is a specific version of <b>FwpmBfeStateGet</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -returns
-
-
 
 The 
      <b>FwpmBfeStateGet0</b> function returns one of the following values.
@@ -109,14 +106,8 @@ The filter engine is running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpmBfeStateGet0</b> function to retrieve the current state of the filter engine. For a callout driver
@@ -126,17 +117,8 @@ Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that is called whenever the
     state of the filter engine changes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
    FwpmBfeStateSubscribeChanges0</a>
- 
-
- 
 

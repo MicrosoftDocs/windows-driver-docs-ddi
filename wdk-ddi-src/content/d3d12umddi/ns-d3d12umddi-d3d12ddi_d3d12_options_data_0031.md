@@ -7,38 +7,38 @@ ms.assetid: 3e60f42a-ea95-4876-b370-5c2f0585dc97
 ms.date: 04/16/2018
 keywords: ["D3D12DDI_D3D12_OPTIONS_DATA_0031 structure"]
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0031, D3D12DDI_D3D12_OPTIONS_DATA_0031 structure [Display Devices], d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0031, display.d3d12ddi-d3d12-options-data-0031
-f1_keywords:
- - "d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0031"
- - "D3D12DDI_D3D12_OPTIONS_DATA_0031"
 req.header: d3d12umddi.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_D3D12_OPTIONS_DATA_0031
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0031
+f1_keywords:
+ - D3D12DDI_D3D12_OPTIONS_DATA_0031
+ - d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0031
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_D3D12_OPTIONS_DATA_0031
 ---
 
 # D3D12DDI_D3D12_OPTIONS_DATA_0031 structure
@@ -46,59 +46,45 @@ req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0031
 
 ## -description
 
-
 Display options data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ResourceBindingTier
 
 Resource binding tier.
 
-
 ### -field ConservativeRasterizationTier
 
 Conservative rasterization tier.
-
 
 ### -field TiledResourcesTier
 
 Tiled resources tier.
 
-
 ### -field CrossNodeSharingTier
 
 Cross node sharing tier.
-
 
 ### -field VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation
 
 VP and RT array index from any shader feeding rasterizer supported without GS emulation.
 
-
 ### -field OutputMergerLogicOp
 
 Output merger logic option.
-
 
 ### -field ResourceHeapTier
 
 Resource heap tier.
 
-
 ### -field DepthBoundsTestSupported
 
 Depth bounds test supported.
 
-
 ### -field ProgrammableSamplePositionsTier
 
 Programmable sample positions tier.
-
 
 ### -field CopyQueueTimestampQueriesSupported
 
@@ -116,3 +102,4 @@ The core runtime will no longer remove the command list in response to EndQuery 
 * A COPY_QUEUE_TIMESTAMP query is issued/resolved on a command list type other than COPY.
 
 The runtime allows ID3D12CommandQueue::GetClockCalibration/GetTimestampFrequency on Copy command queues when the capability are set. This API should return timestamps that correspond to what the Copy engine will emit, which in turn should be on the same GPU timeline/frequency with what the existing 3D/Compute engines emit.
+

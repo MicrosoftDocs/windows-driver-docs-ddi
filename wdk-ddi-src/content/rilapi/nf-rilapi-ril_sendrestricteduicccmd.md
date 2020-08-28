@@ -8,9 +8,6 @@ ms.assetid: f9341659-105b-4ec7-bce7-878698de8c14
 ms.date: 05/02/2018
 keywords: ["RIL_SendRestrictedUiccCmd function"]
 ms.keywords: RIL_SendRestrictedUiccCmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], netvista.ril_sendrestricteduicccmd, rilapi/RIL_SendRestrictedUiccCmd
-f1_keywords:
- - "rilapi/RIL_SendRestrictedUiccCmd"
- - "RIL_SendRestrictedUiccCmd"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SendRestrictedUiccCmd
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SendRestrictedUiccCmd
+ - rilapi/RIL_SendRestrictedUiccCmd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SendRestrictedUiccCmd
 ---
 
 # RIL_SendRestrictedUiccCmd function
@@ -46,43 +46,25 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwCommand
-
 
 ### -param lpParameters
 
-
 ### -param lpbData
-
 
 ### -param dwSize
 
-
 ### -param lpLockVerification
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

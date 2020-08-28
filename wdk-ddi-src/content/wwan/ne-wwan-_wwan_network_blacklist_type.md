@@ -6,35 +6,38 @@ tech.root: netvista
 ms.assetid: 65355b7a-b564-40bf-8f8c-fa75d32ec8cb
 ms.date: 08/21/2018
 keywords: ["WWAN_NETWORK_BLACKLIST_TYPE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_NETWORK_BLACKLIST_TYPE"
- - "_WWAN_NETWORK_BLACKLIST_TYPE"
-ms.keywords: _WWAN_NETWORK_BLACKLIST_TYPE, WWAN_NETWORK_BLACKLIST_TYPE, 
+ms.keywords: _WWAN_NETWORK_BLACKLIST_TYPE, WWAN_NETWORK_BLACKLIST_TYPE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_NETWORK_BLACKLIST_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_NETWORK_BLACKLIST_TYPE
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _WWAN_NETWORK_BLACKLIST_TYPE
+ - wwan/_WWAN_NETWORK_BLACKLIST_TYPE
+ - WWAN_NETWORK_BLACKLIST_TYPE
+ - wwan/WWAN_NETWORK_BLACKLIST_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_NETWORK_BLACKLIST_TYPE
+product:
+ - Windows
 ---
 
 # _WWAN_NETWORK_BLACKLIST_TYPE enumeration
+
 
 ## -description
 
@@ -63,3 +66,4 @@ This enumeration is used in the [**WWAN_NETWORK_BLACKLIST_PROVIDER**](ns-wwan-_w
 [MB Network Blacklist Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-network-blacklist-operations)
 
 [**WWAN_NETWORK_BLACKLIST_PROVIDER**](ns-wwan-_wwan_network_blacklist_provider.md)
+

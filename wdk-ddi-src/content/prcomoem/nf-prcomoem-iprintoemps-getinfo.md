@@ -8,9 +8,6 @@ ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.date: 04/20/2018
 keywords: ["IPrintOemPS::GetInfo"]
 ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],GetInfo method, IPrintOemPS.GetInfo, IPrintOemPS::GetInfo, prcomoem/IPrintOemPS::GetInfo, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml
-f1_keywords:
- - "prcomoem/IPrintOemPS.GetInfo"
- - "IPrintOemPS.GetInfo"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintOemPS.GetInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemPS::GetInfo
+ - prcomoem/IPrintOemPS::GetInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintOemPS.GetInfo
 ---
 
 # IPrintOemPS::GetInfo
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 A rendering plug-in's <code>IPrintOemPS::GetInfo</code> method returns identification information.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMode
 
@@ -91,25 +86,19 @@ The method must return a unique four-byte identification signature. The plug-in 
 
 The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
 
-
 ### -param pBuffer
 
 Caller-supplied pointer to memory allocated to receive the information specified by <i>dwMode</i>.
-
 
 ### -param cbSize
 
 Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 
-
 ### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pBuffer</i>.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -152,14 +141,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Rendering plug-ins for Pscript5 are required to implement the <code>IPrintOemPS::GetInfo</code> method, which is called immediately after the plug-in is loaded. The method should return the specified information by writing it to the address specified by <i>pBuffer</i> and writing the size, in bytes, of the returned information into the location specified by <i>pcbNeeded</i>.
 
@@ -169,13 +152,7 @@ In "publishing mode", all font information to be downloaded is placed in the job
 
 For more information about creating and installing rendering plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemps">IPrintOemPS</a>
 
@@ -186,7 +163,4 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getinfo">IPrintOemUni::GetInfo</a>
- 
-
- 
 

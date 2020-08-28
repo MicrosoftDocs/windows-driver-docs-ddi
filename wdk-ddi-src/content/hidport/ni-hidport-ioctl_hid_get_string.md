@@ -8,9 +8,6 @@ ms.assetid: 0812f27f-f38c-487d-9e92-98e16ddde21c
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_STRING, IOCTL_HID_GET_STRING control, IOCTL_HID_GET_STRING control code [Human Input Devices], hid.ioctl_hid_get_string, hidioreq_987af494-0ac9-4b86-ab66-63dad179cec5.xml, hidport/IOCTL_HID_GET_STRING
-f1_keywords:
- - "hidport/IOCTL_HID_GET_STRING"
- - "IOCTL_HID_GET_STRING"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidport.h
-api_name:
-- IOCTL_HID_GET_STRING
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_HID_GET_STRING
+ - hidport/IOCTL_HID_GET_STRING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidport.h
+api_name:
+ - IOCTL_HID_GET_STRING
 ---
 
 # IOCTL_HID_GET_STRING IOCTL
@@ -46,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_HID_GET_STRING request obtains a manufacturer ID, product ID, or serial number for a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. The retrieved string is a NULL-terminated wide character string in a human-readable format.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -85,39 +80,21 @@ It is important not to confuse these three constants with the actual string indi
 
 For example, HID_STRING_ID_IMANUFACTURER indicates the location in the device descriptor where the index for the manufacturer ID is found. This index, in turn, serves as an offset into the string descriptor where the human-readable form of the manufacturer ID is located.
 
-
 ### -input-buffer-length
 
 The size of the <b>OutputBufferLength</b> and the size of the <b>Type3InputBuffer</b>.
-
 
 ### -output-buffer
 
 The HID minidriver fills the buffer at <b>Irp->UserBuffer</b> with the requested string (a NULL-terminated wide character string).
 
-
 ### -output-buffer-length
 
 The size of the <b>UserBuffer</b>.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -135,11 +112,7 @@ HID minidrivers that carry out the I/O to the device set the following fields of
 </ul>
 HID minidrivers that call other drivers with this IOCTL to carry out the I/O to their device, should ensure that the <b>Information</b> field of the status block is correct and not change the contents of the <b>Status</b> field.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring">HidD_GetIndexedString</a>
 
@@ -170,7 +143,4 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
- 
-
- 
 

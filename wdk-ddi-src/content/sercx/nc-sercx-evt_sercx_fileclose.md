@@ -8,9 +8,6 @@ ms.assetid: C72CA6D0-DD85-46AC-9CE3-BE11233475C0
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_FILECLOSE callback function"]
 ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EVT_SERCX_FILECLOSE callback, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
-f1_keywords:
- - "sercx/EvtSerCxFileClose"
- - "EvtSerCxFileClose"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 1.0\Sercx.h
-api_name:
-- EvtSerCxFileClose
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX_FILECLOSE
+ - sercx/EVT_SERCX_FILECLOSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - EvtSerCxFileClose
 ---
 
 # EVT_SERCX_FILECLOSE callback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCxFileClose</i> event callback function notifies the serial controller driver that the file object that represents the serial controller device has been released.
-
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-
 ## -remarks
-
-
 
 This function should remove the serial controller device from the state in which it is ready to receive and transmit data. This function should disable interrupts if interrupts are enabled. Any memory that is allocated only for the lifetime of the file object should be deallocated either in this function or in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_filecleanup">EvtSerCxFileCleanup</a> function.
 
@@ -122,19 +115,11 @@ For more information about SDV requirements for function declarations, see <a hr
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_filecleanup">EvtSerCxFileCleanup</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
- 
-
- 
 

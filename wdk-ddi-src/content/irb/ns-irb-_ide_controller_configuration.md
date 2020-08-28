@@ -8,9 +8,6 @@ ms.assetid: 89b7f66e-3a3a-4723-a409-3b3030c1a45b
 ms.date: 03/29/2018
 keywords: ["IDE_CONTROLLER_CONFIGURATION structure"]
 ms.keywords: "*PIDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], PIDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], _IDE_CONTROLLER_CONFIGURATION, irb/IDE_CONTROLLER_CONFIGURATION, irb/PIDE_CONTROLLER_CONFIGURATION, storage.ide_controller_configuration, structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml"
-f1_keywords:
- - "irb/IDE_CONTROLLER_CONFIGURATION"
- - "IDE_CONTROLLER_CONFIGURATION"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- irb.h
-api_name:
-- IDE_CONTROLLER_CONFIGURATION
 targetos: Windows
 req.typenames: IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION
+f1_keywords:
+ - _IDE_CONTROLLER_CONFIGURATION
+ - irb/_IDE_CONTROLLER_CONFIGURATION
+ - PIDE_CONTROLLER_CONFIGURATION
+ - irb/PIDE_CONTROLLER_CONFIGURATION
+ - IDE_CONTROLLER_CONFIGURATION
+ - irb/IDE_CONTROLLER_CONFIGURATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - irb.h
+api_name:
+ - IDE_CONTROLLER_CONFIGURATION
 ---
 
 # _IDE_CONTROLLER_CONFIGURATION structure
@@ -46,24 +50,18 @@ req.typenames: IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION
 
 ## -description
 
-
 The IDE_CONTROLLER_CONFIGURATION structure is used to pass controller configuration information between the port driver and the miniport driver.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
 The port driver sets this field to indicate the version of the port driver. The port driver sets the version to sizeof(IDE_CONTROLLER_CONFIGURATION). The miniport driver should verify that the version is greater than or equal to the one it is using.
 
-
 ### -field NumberOfChannels
 
 Specifies the number of channels supported by the HBA. Note that this indicates the total number of channels including the ones that are disabled.
-
 
 ### -field ControllerMode
 
@@ -96,43 +94,34 @@ This is the limited no memory mode that an ATA miniport operates in during hiber
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NumberOfPhysicalBreaks
 
 Specifies the maximum number of breaks between address ranges that a data buffer can have if the HBA supports scatter/gather. In other words, the number of scatter/gather lists minus one. By default, the value of this member is IDE_UNINITIALIZED_VALUE, which indicates the HBA can support an unlimited number of physical discontiguities. If the port driver sets a value for this member, the miniport driver can adjust the value lower but no higher. If this member is IDE_UNINITIALIZED_VALUE, the miniport driver must reset this member according to the HBA's scatter/gather capacity.
 
-
 ### -field MaximumTransferLength
 
 Specifies the maximum number of bytes the HBA can transfer in a single transfer operation. By default, the value of this member is IDE_UNINITIALIZED_VALUE, which indicates an unlimited maximum transfer size.
-
 
 ### -field Reserved
 
 Reserved for future use. The miniport driver must not use this field.
 
-
 ### -field NativeModeEnabled
 
 The miniport driver could set this member to <b>TRUE</b> to indicate that the controller is to be operated in Native mode.
-
 
 ### -field Dma64BitAddress
 
 The miniport driver could set this member to <b>TRUE</b> to indicate support for 64 bit DMA operation.
 
-
 ### -field BusMaster
 
 The miniport driver could set this member to <b>TRUE</b> to indicate bus mastering support.
 
-
 ### -field AtaBusType
 
 Indicates whether it is a SATA or a PATA controller.
-
 
 ### -field ControllerResources
 

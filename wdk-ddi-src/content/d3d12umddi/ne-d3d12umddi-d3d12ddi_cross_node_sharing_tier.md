@@ -5,35 +5,36 @@ description: Specifies the level of sharing across nodes of a display adapter.
 ms.assetid: 1cbcab78-491b-42a7-ad10-71a64fe61902
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_CROSS_NODE_SHARING_TIER enumeration"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_CROSS_NODE_SHARING_TIER"
- - "D3D12DDI_CROSS_NODE_SHARING_TIER"
 ms.keywords: D3D12DDI_CROSS_NODE_SHARING_TIER, D3D12DDI_CROSS_NODE_SHARING_TIER,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_CROSS_NODE_SHARING_TIER
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_CROSS_NODE_SHARING_TIER
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3D12DDI_CROSS_NODE_SHARING_TIER
+ - d3d12umddi/D3D12DDI_CROSS_NODE_SHARING_TIER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_CROSS_NODE_SHARING_TIER
+product:
+ - Windows
 ---
 
 # D3D12DDI_CROSS_NODE_SHARING_TIER enumeration
+
 
 ## -description
 
@@ -67,3 +68,4 @@ The latest cap data structures must be filled in by the driver when the correspo
 Tiled resources tier 4 cannot be supported directly by setting tiled resources tier 4. Instead, set support for the Deterministic64KBUndefinedSwizzle cap.
 
 ## -see-also
+

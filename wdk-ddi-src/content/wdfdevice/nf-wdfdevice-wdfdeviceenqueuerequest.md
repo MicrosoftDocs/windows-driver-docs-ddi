@@ -8,9 +8,6 @@ ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
 ms.date: 02/26/2018
 keywords: ["WdfDeviceEnqueueRequest function"]
 ms.keywords: DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method, kmdf.wdfdeviceenqueuerequest, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest
-f1_keywords:
- - "wdfdevice/WdfDeviceEnqueueRequest"
- - "WdfDeviceEnqueueRequest"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (See remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceEnqueueRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceEnqueueRequest
+ - wdfdevice/WdfDeviceEnqueueRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceEnqueueRequest
 ---
 
 # WdfDeviceEnqueueRequest function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceEnqueueRequest</b> method delivers a specified I/O request to the framework, so that the framework can subsequently add the request to one of the I/O queues that the driver has created for the specified device.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param Request 
+
 [in]
 A handle to a framework request object.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
 
@@ -120,12 +113,7 @@ The method might return other <a href="https://docs.microsoft.com/windows-hardwa
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 Your driver can call <b>WdfDeviceEnqueueRequest</b> only from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> callback function.
 
@@ -208,12 +196,7 @@ End:
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_parameters_init">WDF_REQUEST_PARAMETERS_INIT</a>
 
@@ -224,7 +207,4 @@ End:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
- 
-
- 
 

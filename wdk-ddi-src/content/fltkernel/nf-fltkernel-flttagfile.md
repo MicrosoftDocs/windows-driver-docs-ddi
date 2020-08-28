@@ -8,9 +8,6 @@ ms.assetid: fbc8b596-1299-4dfa-953b-5730905f0e30
 ms.date: 04/16/2018
 keywords: ["FltTagFile function"]
 ms.keywords: FltApiRef_p_to_z_01cd7989-387a-4a7c-a45a-3a60a8b126c0.xml, FltTagFile, FltTagFile function [Installable File System Drivers], fltkernel/FltTagFile, ifsk.flttagfile
-f1_keywords:
- - "fltkernel/FltTagFile"
- - "FltTagFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltTagFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltTagFile
+ - fltkernel/FltTagFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltTagFile
 ---
 
 # FltTagFile function
@@ -46,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
-<b>FltTagFile</b> sets a reparse tag on a file or directory. 
-
+<b>FltTagFile</b> sets a reparse tag on a file or directory.
 
 ## -parameters
 
-
-
-
 ### -param InitiatingInstance 
-[in]
-Opaque instance pointer for the minifilter driver instance that initiated this I/O request. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+Opaque instance pointer for the minifilter driver instance that initiated this I/O request. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param FileObject 
-[in]
-Pointer to a file object for the file or directory on which to set a reparse point. The file object must be opened for FILE_WRITE_DATA access. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+Pointer to a file object for the file or directory on which to set a reparse point. The file object must be opened for FILE_WRITE_DATA access. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param FileTag 
-[in]
-Reparse point tag. If an existing reparse tag is being modified, the tag specified in this parameter must match the tag of the reparse point to be modified. 
 
+[in]
+Reparse point tag. If an existing reparse tag is being modified, the tag specified in this parameter must match the tag of the reparse point to be modified.
 
 ### -param Guid 
-[in, optional]
-GUID that uniquely identifies the type of reparse point. If <i>FileTag</i> is not a Microsoft tag, this parameter is required and cannot be <b>NULL</b>. If an existing reparse tag is being modified, the GUID specified in this parameter must match the GUID of the reparse point to be modified. 
 
+[in, optional]
+GUID that uniquely identifies the type of reparse point. If <i>FileTag</i> is not a Microsoft tag, this parameter is required and cannot be <b>NULL</b>. If an existing reparse tag is being modified, the GUID specified in this parameter must match the GUID of the reparse point to be modified.
 
 ### -param DataBuffer 
-[in]
-Pointer to a buffer that contains user-defined data for the reparse point. 
 
+[in]
+Pointer to a buffer that contains user-defined data for the reparse point.
 
 ### -param DataBufferLength 
-[in]
-Size, in bytes, of the buffer that <i>DataBuffer </i>points to. 
 
+[in]
+Size, in bytes, of the buffer that <i>DataBuffer </i>points to.
 
 ## -returns
-
-
 
 <b>FltTagFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -161,7 +154,7 @@ Not all file systems support reparse points. The NTFS file system supports them;
 
 To remove an existing reparse point, call [FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile). 
 
-For more information about reparse points, see the Microsoft Windows SDK documentation. 
+For more information about reparse points, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
@@ -190,7 +183,4 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 [REPARSE_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer)
 
 [REPARSE_GUID_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer)
- 
-
- 
 

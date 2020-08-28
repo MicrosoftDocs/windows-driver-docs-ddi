@@ -8,9 +8,6 @@ ms.assetid: 429A1C54-14F0-4E50-B0D6-BB73FCFD1904
 ms.date: 05/10/2018
 keywords: ["D3DDDI_CREATEHWCONTEXTFLAGS structure"]
 ms.keywords: D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], _D3DDDI_CREATEHWCONTEXTFLAGS, d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags
-f1_keywords:
- - "d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS"
- - "D3DDDI_CREATEHWCONTEXTFLAGS"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_CREATEHWCONTEXTFLAGS
 targetos: Windows
 req.typenames: D3DDDI_CREATEHWCONTEXTFLAGS
+f1_keywords:
+ - _D3DDDI_CREATEHWCONTEXTFLAGS
+ - d3dukmdt/_D3DDDI_CREATEHWCONTEXTFLAGS
+ - D3DDDI_CREATEHWCONTEXTFLAGS
+ - d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_CREATEHWCONTEXTFLAGS
 ---
 
 # _D3DDDI_CREATEHWCONTEXTFLAGS structure
@@ -46,19 +48,13 @@ req.typenames: D3DDDI_CREATEHWCONTEXTFLAGS
 
 ## -description
 
-
 A structure used to create hardware context flags.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reserved
 
 This value is reserved for system use.
-
 
 ### -field Value
 

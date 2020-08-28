@@ -8,9 +8,6 @@ ms.assetid: 2985A0EC-4B5F-43FA-A2E9-487877A3C9A0
 ms.date: 04/23/2018
 keywords: ["BDA_ETHERNET_ADDRESS_LIST structure"]
 ms.keywords: "*PBDA_ETHERNET_ADDRESS_LIST, BDA_ETHERNET_ADDRESS_LIST, BDA_ETHERNET_ADDRESS_LIST structure [Streaming Media Devices], PBDA_ETHERNET_ADDRESS_LIST, PBDA_ETHERNET_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_ETHERNET_ADDRESS_LIST, bdatypes/BDA_ETHERNET_ADDRESS_LIST, bdatypes/PBDA_ETHERNET_ADDRESS_LIST, stream.bda_ethernet_address_list"
-f1_keywords:
- - "bdatypes/BDA_ETHERNET_ADDRESS_LIST"
- - "BDA_ETHERNET_ADDRESS_LIST"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_ETHERNET_ADDRESS_LIST
 targetos: Windows
 req.typenames: BDA_ETHERNET_ADDRESS_LIST, *PBDA_ETHERNET_ADDRESS_LIST
+f1_keywords:
+ - _BDA_ETHERNET_ADDRESS_LIST
+ - bdatypes/_BDA_ETHERNET_ADDRESS_LIST
+ - PBDA_ETHERNET_ADDRESS_LIST
+ - bdatypes/PBDA_ETHERNET_ADDRESS_LIST
+ - BDA_ETHERNET_ADDRESS_LIST
+ - bdatypes/BDA_ETHERNET_ADDRESS_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_ETHERNET_ADDRESS_LIST
 ---
 
 # _BDA_ETHERNET_ADDRESS_LIST structure
@@ -46,17 +50,9 @@ req.typenames: BDA_ETHERNET_ADDRESS_LIST, *PBDA_ETHERNET_ADDRESS_LIST
 
 ## -description
 
-
-
-
-
 ## -struct-fields
 
-
-
-
 ### -field ulcAddresses
-
 
 ### -field rgAddressl
 

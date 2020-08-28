@@ -8,9 +8,6 @@ ms.assetid: 876a457e-8774-4c51-bd23-6451b3e3a7b7
 ms.date: 05/08/2018
 keywords: ["IUnregisterPhysicalConnection interface"]
 ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices],described, audio.iunregisterphysicalconnection, audmp-routines_b26d005c-70d9-4df0-80ae-446907f22fd4.xml, portcls/IUnregisterPhysicalConnection
-f1_keywords:
- - "portcls/IUnregisterPhysicalConnection"
- - "IUnregisterPhysicalConnection"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IUnregisterPhysicalConnection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IUnregisterPhysicalConnection
+ - portcls/IUnregisterPhysicalConnection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IUnregisterPhysicalConnection
 ---
 
 # IUnregisterPhysicalConnection interface
 
 
 ## -description
-
 
 The <code>IUnregisterPhysicalConnection</code> interface implements three methods to remove a registered physical connection. The port driver implements this interface. To determine whether a port driver supports the <code>IUnregisterPhysicalConnection</code> interface, a miniport driver calls the port driver object's <b>QueryInterface</b> method with REFIID <b>IID_IUnregisterPhysicalConnection</b>. The miniport driver is responsible for releasing the <code>IUnregisterPhysicalConnection</code> object after it is no longer needed. The <code>IUnregisterPhysicalConnection</code> interface inherits from <b>IUnknown</b>.
 
@@ -76,7 +75,6 @@ MIDI
 The port driver uses the information that it obtains from PcRegisterPhysicalConnection<i>Xxx</i> calls to respond to <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a> property requests.
 
 When deleting a subdevice from an adapter's topology, the driver must unregister the subdevice's physical connections to that portion of the topology. Failure to unregister the subdevice's physical connections can cause memory leaks.
-
 
 ## -inheritance
 

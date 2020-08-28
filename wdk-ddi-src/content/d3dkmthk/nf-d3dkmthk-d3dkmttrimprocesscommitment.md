@@ -5,40 +5,40 @@ description: Trim process commitment.
 ms.assetid: a997c0c4-f047-4a09-a14d-a8a2b93a0d57
 ms.date: 10/19/2018
 keywords: ["D3DKMTTrimProcessCommitment function"]
-f1_keywords:
- - "d3dkmthk/D3DKMTTrimProcessCommitment"
- - "D3DKMTTrimProcessCommitment"
 ms.keywords: D3DKMTTrimProcessCommitment
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Gdi32.dll
-api_name: 
-- D3DKMTTrimProcessCommitment
 targetos: Windows
-dev_langs:
- - c++
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - D3DKMTTrimProcessCommitment
+ - d3dkmthk/D3DKMTTrimProcessCommitment
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTTrimProcessCommitment
+dev_langs:
+ - c++
 ---
 
 # D3DKMTTrimProcessCommitment function
@@ -61,3 +61,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

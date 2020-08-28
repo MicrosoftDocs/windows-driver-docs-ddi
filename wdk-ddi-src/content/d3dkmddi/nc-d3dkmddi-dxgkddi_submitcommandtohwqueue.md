@@ -26,8 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SUBMITCOMMANDTOHWQUEUE"
- - "DXGKDDI_SUBMITCOMMANDTOHWQUEUE"
+ - DXGKDDI_SUBMITCOMMANDTOHWQUEUE
+ - d3dkmddi/DXGKDDI_SUBMITCOMMANDTOHWQUEUE
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # DXGKDDI_SUBMITCOMMANDTOHWQUEUE callback function
+
 
 ## -description
 

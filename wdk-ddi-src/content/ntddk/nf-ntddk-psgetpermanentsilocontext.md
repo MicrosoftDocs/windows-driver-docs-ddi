@@ -8,9 +8,6 @@ ms.assetid: C1AEFC8F-6488-4582-9835-DAD07D4ACB17
 ms.date: 04/30/2018
 keywords: ["PsGetPermanentSiloContext function"]
 ms.keywords: PsGetPermanentSiloContext, PsGetPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetpermanentsilocontext, ntddk/PsGetPermanentSiloContext
-f1_keywords:
- - "ntddk/PsGetPermanentSiloContext"
- - "PsGetPermanentSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsGetPermanentSiloContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetPermanentSiloContext
+ - ntddk/PsGetPermanentSiloContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsGetPermanentSiloContext
 ---
 
 # PsGetPermanentSiloContext function
@@ -46,33 +46,25 @@ req.typenames:
 
 ## -description
 
-
 This routine retrieves an object that was inserted in the <i>Silo</i> without incrementing the reference count.
-
 
 ## -parameters
 
-
-
-
 ### -param Silo 
+
 [in]
 The silo in which the object was inserted. This parameter is required and it cannot be <b>NULL</b>.
 
-
 ### -param ContextSlot 
+
 [in]
 The read-only slot that was previously allocated by<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> and made read-only by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psmakesilocontextpermanent">PsMakeSiloContextPermanent</a>.
-
 
 ### -param ReturnedSiloContext
 
 A pointer to a caller-allocated variable that receives the address of the existing object. This parameter is required and it cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -115,16 +107,8 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A successful call to <b>PsGetPermanentSiloContext</b> does not increment the reference count on the object that the <i>ReturnedSiloContext</i> parameter points to. The returned object pointer is valid as long as there is a valid reference on the silo object.
-
-
 

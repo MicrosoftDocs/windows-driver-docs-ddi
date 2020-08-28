@@ -28,8 +28,8 @@ req.irql: <= PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "bthsdpddi/SdpByteSwapUuid128"
- - "SdpByteSwapUuid128"
+ - PBYTESWAPUUID128
+ - bthsdpddi/PBYTESWAPUUID128
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PBYTESWAPUUID128 callback function
+
 
 ## -description
 

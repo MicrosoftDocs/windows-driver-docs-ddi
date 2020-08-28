@@ -8,37 +8,37 @@ ms.assetid: d2f440b2-1208-4cae-9790-b93f267499b1
 ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_GET_DEFAULT_MODES IOCTL"]
 ms.keywords: IOCTL_PAR_GET_DEFAULT_MODES, IOCTL_PAR_GET_DEFAULT_MODES control code [Parallel Ports], cisspd_29dfce16-6dea-4bff-928d-6ab83099595c.xml, ntddpar/IOCTL_PAR_GET_DEFAULT_MODES, parports.ioctl_par_get_default_modes
-f1_keywords:
- - "ntddpar/IOCTL_PAR_GET_DEFAULT_MODES"
- - "IOCTL_PAR_GET_DEFAULT_MODES"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddpar.h
-api_name:
-- IOCTL_PAR_GET_DEFAULT_MODES
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+f1_keywords:
+ - IOCTL_PAR_GET_DEFAULT_MODES
+ - ntddpar/IOCTL_PAR_GET_DEFAULT_MODES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddpar.h
+api_name:
+ - IOCTL_PAR_GET_DEFAULT_MODES
 ---
 
 # IOCTL_PAR_GET_DEFAULT_MODES IOCTL
@@ -49,59 +49,34 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
-
-
 
 The IOCTL_PAR_GET_DEFAULT_MODES request returns the default write (forward) and read (reverse) IEEE 1284 protocols that the system-supplied bus driver for parallel ports uses. The default write protocol is CENTRONICS; the default read protocol is NIBBLE.
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a PARCLASS_NEGOTIATION_MASK structure that the client allocates to output mode information. The system-supplied bus driver for parallel ports sets the <b>usReadMask</b> member and the <b>usWriteMask</b> member. The default write mode is CENTRONICS; the default read mode is NIBBLE.
 
-
 ### -output-buffer-length
 
 The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -115,7 +90,6 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 **STATUS_BUFFER_TOO_SMALL**
 
 The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure.
-
 
 ## -see-also
 
@@ -132,11 +106,4 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less th
 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
-
-
-
- 
-
- 
-
 

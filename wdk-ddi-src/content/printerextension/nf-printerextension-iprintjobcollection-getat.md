@@ -8,9 +8,6 @@ ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
 ms.date: 04/20/2018
 keywords: ["IPrintJobCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
-f1_keywords:
- - "printerextension/IPrintJobCollection.GetAt"
- - "IPrintJobCollection.GetAt"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintJobCollection.GetAt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintJobCollection::GetAt
+ - printerextension/IPrintJobCollection::GetAt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintJobCollection.GetAt
 ---
 
 # IPrintJobCollection::GetAt
@@ -46,45 +46,29 @@ req.typenames:
 
 ## -description
 
-
 Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a> object.
-
 
 ## -parameters
 
-
-
-
 ### -param ulIndex 
+
 [in]
 Index of the <b>IPrintJob</b> object within the collection.
 
-
 ### -param ppJob 
+
 [out, retval]
 Pointer to an <b>IPrintJob</b> object.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. If the method call was not successful, it returns the appropriate <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
- 
-
- 
 

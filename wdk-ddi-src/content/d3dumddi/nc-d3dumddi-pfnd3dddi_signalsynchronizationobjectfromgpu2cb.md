@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnSignalSynchronizationObjectFromGpu2Cb"
- - "pfnSignalSynchronizationObjectFromGpu2Cb"
+ - PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB
+ - d3dumddi/PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB callback function
+
 
 ## -description
 

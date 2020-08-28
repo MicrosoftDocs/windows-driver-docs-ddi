@@ -6,38 +6,39 @@ tech.root: print
 ms.assetid: c81c957c-7fa8-46f3-83df-05827a72c94c
 ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_GET_PROTOCOL IOCTL"]
-f1_keywords:
- - "usbprint/IOCTL_USBPRINT_GET_PROTOCOL"
- - "IOCTL_USBPRINT_GET_PROTOCOL"
-ms.custom: 19H1 
+ms.custom: 19H1
 req.header: usbprint.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - usbprint.h
-api_name: 
- - IOCTL_USBPRINT_GET_PROTOCOL
-product: 
- - Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
+f1_keywords:
+ - IOCTL_USBPRINT_GET_PROTOCOL
+ - usbprint/IOCTL_USBPRINT_GET_PROTOCOL
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - usbprint.h
+api_name:
+ - IOCTL_USBPRINT_GET_PROTOCOL
+product:
+ - Windows
 ---
 
 # IOCTL_USBPRINT_GET_PROTOCOL IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -78,3 +79,4 @@ IOCTL_USBPRINT_GET_PROTOCOL returns one of the following values:
 | USB_PRINTER_PROTOCOL_IPPOVERUSB | 4 |
 
 ## -see-also
+

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/RecycleCreateDeferredContext"
- - "RecycleCreateDeferredContext"
+ - PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT
+ - d3d10umddi/PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT callback function
+
 
 ## -description
 

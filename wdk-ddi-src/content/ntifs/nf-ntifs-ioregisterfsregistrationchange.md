@@ -8,9 +8,6 @@ ms.assetid: 132951ef-7bb3-417e-a7b7-eb21f08aa846
 ms.date: 04/16/2018
 keywords: ["IoRegisterFsRegistrationChange function"]
 ms.keywords: IoRegisterFsRegistrationChange, IoRegisterFsRegistrationChange routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml, ntifs/IoRegisterFsRegistrationChange
-f1_keywords:
- - "ntifs/IoRegisterFsRegistrationChange"
- - "IoRegisterFsRegistrationChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoRegisterFsRegistrationChange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoRegisterFsRegistrationChange
+ - ntifs/IoRegisterFsRegistrationChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoRegisterFsRegistrationChange
 ---
 
 # IoRegisterFsRegistrationChange function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoRegisterFsRegistrationChange</b> routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.
-
 
 ## -parameters
 
-
-
-
 ### -param DriverObject 
+
 [in]
 Pointer to the driver object for the file system filter driver.
 
-
 ### -param DriverNotificationRoutine 
+
 [in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nc-ntifs-driver_fs_notification">PDRIVER_FS_NOTIFICATION</a> routine, which the file system calls when it registers or unregisters itself.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -97,14 +90,8 @@ A notification packet could not be allocated for the notification routine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IoRegisterFsRegistrationChange</b> registers a file system filter driver to be notified whenever a file system calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfilesystem">IoUnregisterFileSystem</a>. 
 
@@ -120,15 +107,9 @@ To stop receiving such notifications, the filter driver should call <a href="htt
 
 <div class="alert"><b>Note</b>    In Update Rollup for Windows 2000 Service Pack 4 (SP4), Windows XP Service Pack 2 (SP2), and Microsoft Windows Server 2003 SP1 and later, if a file system filter driver calls <b>IoRegisterFsRegistrationChange</b> twice in succession (without calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfsregistrationchange">IoUnregisterFsRegistrationChange</a> in between), passing the same values for the <i>DriverObject</i> and <i>DriverNotificationRoutine</i> that it registered in the previous call to <b>IoRegisterFsRegistrationChange</b>, and no other filter drivers have registered since the first call, <b>IoRegisterFsRegistrationChange</b> returns STATUS_DEVICE_ALREADY_ATTACHED. </div>
 <div> </div>
-In Update Rollup for Windows 2000 SP4, file system filter drivers can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchangeex">IoRegisterFsRegistrationChangeEx</a> instead of <b>IoRegisterFsRegistrationChange</b>. The effect of <b>IoRegisterFsRegistrationChangeEx</b> is identical to that of <b>IoRegisterFsRegistrationChange</b> on Windows XP and later. 
-
-
-
+In Update Rollup for Windows 2000 SP4, file system filter drivers can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchangeex">IoRegisterFsRegistrationChangeEx</a> instead of <b>IoRegisterFsRegistrationChange</b>. The effect of <b>IoRegisterFsRegistrationChangeEx</b> is identical to that of <b>IoRegisterFsRegistrationChange</b> on Windows XP and later.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a>
 
@@ -143,7 +124,4 @@ In Update Rollup for Windows 2000 SP4, file system filter drivers can call <a hr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfsregistrationchange">IoUnregisterFsRegistrationChange</a>
- 
-
- 
 

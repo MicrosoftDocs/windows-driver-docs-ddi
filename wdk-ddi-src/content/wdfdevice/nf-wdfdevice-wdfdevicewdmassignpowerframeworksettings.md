@@ -8,9 +8,6 @@ ms.assetid: 676A458E-A6E0-4F09-AAF2-21EA122EF74D
 ms.date: 02/26/2018
 keywords: ["WdfDeviceWdmAssignPowerFrameworkSettings function"]
 ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
-f1_keywords:
- - "wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings"
- - "WdfDeviceWdmAssignPowerFrameworkSettings"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceWdmAssignPowerFrameworkSettings
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceWdmAssignPowerFrameworkSettings
+ - wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceWdmAssignPowerFrameworkSettings
 ---
 
 # WdfDeviceWdmAssignPowerFrameworkSettings function
@@ -47,31 +47,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method registers  power management framework (PoFx) settings for single-component devices.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to the framework device object for which PoFx settings are being specified.
 
-
 ### -param PowerFrameworkSettings 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_framework_settings">WDF_POWER_FRAMEWORK_SETTINGS</a> structure that describes the client driver’s PoFx settings.
 
-
 ## -returns
-
-
 
 The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method returns an NTSTATUS value that indicates success or failure of the operation.
 
@@ -118,12 +111,7 @@ An invalid <i>Settings</i> value is detected.
 
 This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method applies only to single-component devices.
 
@@ -163,12 +151,7 @@ poFxSettings.PoFxDeviceContext = (PVOID) Device;
 status = WdfDeviceWdmAssignPowerFrameworkSettings(Device, &poFxSettings);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
@@ -183,7 +166,4 @@ status = WdfDeviceWdmAssignPowerFrameworkSettings(Device, &poFxSettings);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_power_framework_settings_init">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>
- 
-
- 
 

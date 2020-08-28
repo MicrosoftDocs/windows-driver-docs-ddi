@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateBlendState_d3d10_1_"
- - "CreateBlendState_d3d10_1_"
+ - PFND3D10_1DDI_CREATEBLENDSTATE
+ - d3d10umddi/PFND3D10_1DDI_CREATEBLENDSTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10_1DDI_CREATEBLENDSTATE callback function
+
 
 ## -description
 
@@ -76,7 +77,6 @@ A handle to the driver's private data for the blend state.
 A handle to the blend state that the driver should use anytime it calls back into the Direct3D runtime.
 
 ## -remarks
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 

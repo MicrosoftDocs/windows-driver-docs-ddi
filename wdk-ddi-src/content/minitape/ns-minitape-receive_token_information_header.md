@@ -8,9 +8,6 @@ ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.date: 03/29/2018
 keywords: ["RECEIVE_TOKEN_INFORMATION_HEADER structure"]
 ms.keywords: "*PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], RECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], SERVICE_ACTION_POPULATE_TOKEN, SERVICE_ACTION_WRITE_USING_TOKEN, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_GIBIBYTES, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header"
-f1_keywords:
- - "minitape/RECEIVE_TOKEN_INFORMATION_HEADER"
- - "RECEIVE_TOKEN_INFORMATION_HEADER"
 req.header: minitape.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsi.h
-api_name:
-- RECEIVE_TOKEN_INFORMATION_HEADER
 targetos: Windows
 req.typenames: RECEIVE_TOKEN_INFORMATION_HEADER, *PRECEIVE_TOKEN_INFORMATION_HEADER
+f1_keywords:
+ - PRECEIVE_TOKEN_INFORMATION_HEADER
+ - minitape/PRECEIVE_TOKEN_INFORMATION_HEADER
+ - RECEIVE_TOKEN_INFORMATION_HEADER
+ - minitape/RECEIVE_TOKEN_INFORMATION_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsi.h
+api_name:
+ - RECEIVE_TOKEN_INFORMATION_HEADER
 ---
 
 # RECEIVE_TOKEN_INFORMATION_HEADER structure
@@ -46,19 +48,13 @@ req.typenames: RECEIVE_TOKEN_INFORMATION_HEADER, *PRECEIVE_TOKEN_INFORMATION_HEA
 
 ## -description
 
-
 The <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> structure contains information returned as status from an offload data transfer operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AvailableData
 
 The amount of data available in the <b>SenseData</b> array and any additional result information.
-
 
 ### -field ResponseToServiceAction
 
@@ -90,13 +86,10 @@ The response information is for a WRITE USING TOKEN command.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved1
 
 Reserved.
-
 
 ### -field OperationStatus
 
@@ -185,38 +178,30 @@ The operation was terminated. Possibly by an existing resource reservation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved2
 
 Reserved.
 
-
 ### -field OperationCounter
 
 The number of commands processed for the current copy operation.
-
 
 ### -field EstimatedStatusUpdateDelay
 
 The recommended time, in milliseconds, to wait before sending the next RECEIVE COPY STATUS command for updated information about the current copy operation.
 
-
 ### -field CompletionStatus
 
 SCSI status code for the copy command operation.
-
 
 ### -field SenseDataFieldLength
 
 The length, in bytes, of the entire data area available for sense data. This value is always >=  <b>SenseDataLength</b>.
 
-
 ### -field SenseDataLength
 
 The length, in bytes, of the data in <b>SenseData</b>.
-
 
 ### -field TransferCountUnits
 
@@ -308,47 +293,30 @@ Transfer count is not an exponent, but in units of logical block length.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TransferCount
 
 The length of data transferred in the operation. The unit type in <b>TransferCountUnits</b> is applied to this value to give the total byte count.
 
-
 ### -field SegmentsProcessed
 
 The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windowssystems, this value is reserved and applications must ignore this member.
-
 
 ### -field Reserved3
 
 Reserved.
 
-
 ### -field SenseData
 
 Sense data returned for the copy operation.
 
-
 ## -remarks
-
-
 
 If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
- 
-
- 
 

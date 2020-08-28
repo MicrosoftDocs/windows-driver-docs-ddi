@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetOverlayColorControls"
- - "SetOverlayColorControls"
+ - PFND3DDDI_SETOVERLAYCOLORCONTROLS
+ - d3dumddi/PFND3DDDI_SETOVERLAYCOLORCONTROLS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETOVERLAYCOLORCONTROLS callback function
+
 
 ## -description
 

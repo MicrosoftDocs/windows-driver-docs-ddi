@@ -8,9 +8,6 @@ ms.assetid: 79c6438c-ba8c-4fc5-8c3f-5865a51869b7
 ms.date: 04/16/2018
 keywords: ["IoCreateStreamFileObjectLite function"]
 ms.keywords: IoCreateStreamFileObjectLite, IoCreateStreamFileObjectLite routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectlite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, ntifs/IoCreateStreamFileObjectLite
-f1_keywords:
- - "ntifs/IoCreateStreamFileObjectLite"
- - "IoCreateStreamFileObjectLite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateStreamFileObjectLite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateStreamFileObjectLite
+ - ntifs/IoCreateStreamFileObjectLite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateStreamFileObjectLite
 ---
 
 # IoCreateStreamFileObjectLite function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoCreateStreamFileObjectLite</b> routine creates a new stream file object, but does not cause an IRP_MJ_CLEANUP request to be sent to the file system driver stack. 
-
+The <b>IoCreateStreamFileObjectLite</b> routine creates a new stream file object, but does not cause an IRP_MJ_CLEANUP request to be sent to the file system driver stack.
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
-[in, optional]
-A pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>. 
 
+[in, optional]
+A pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>.
 
 ### -param DeviceObject 
-[in, optional]
-A pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>. 
 
+[in, optional]
+A pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>.
 
 ## -returns
 
-
-
 <b>IoCreateStreamFileObjectLite</b> returns a pointer to the newly created stream file object.
 
-
-
-
 ## -remarks
-
-
 
 File systems call <b>IoCreateStreamFileObjectLite</b> to create a new stream file object. A <i>stream file object</i> is identical to an ordinary file object, except that the FO_STREAM_FILE file object flag is set. 
 
@@ -88,15 +76,9 @@ When the stream file object is no longer needed, the caller must decrement its r
 
 File system filter driver writers should note that, unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocreatestreamfileobject">IoCreateStreamFileObject</a>, <b>IoCreateStreamFileObjectLite</b> does not cause an IRP_MJ_CLEANUP request to be sent to the file system driver stack. For this reason, and because file systems often create stream file objects as a side effect of operations other than IRP_MJ_CREATE, it is difficult for filter drivers to reliably detect stream file object creation. Thus filter drivers should expect to receive IRP_MJ_CLOSE requests for previously unseen file objects. 
 
-If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. 
-
-
-
+If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-cleanup">IRP_MJ_CLEANUP</a>
 
@@ -119,7 +101,4 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
- 
-
- 
 

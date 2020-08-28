@@ -8,9 +8,6 @@ ms.assetid: EA1C2DF3-591C-407A-ABBF-DE615466A498
 ms.date: 04/16/2018
 keywords: ["RtlDrainNonVolatileFlush function"]
 ms.keywords: RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush
-f1_keywords:
- - "ntddk/RtlDrainNonVolatileFlush"
- - "RtlDrainNonVolatileFlush"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- RtlDrainNonVolatileFlush
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlDrainNonVolatileFlush
+ - ntddk/RtlDrainNonVolatileFlush
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - RtlDrainNonVolatileFlush
 ---
 
 # RtlDrainNonVolatileFlush function
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The routine <b>RtlDrainNonVolatileFlush</b> waits for the flushes initiated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">RtlFlushNonVolatileMemory</a>
     to finish.
 
-
 ## -parameters
 
-
-
-
 ### -param NvToken 
+
 [in]
  A pointer to an opaque structure that has
         information about various properties of the non-volatile memory region which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
 
-
 ## -returns
-
-
 
 The routine <b>RtlDrainNonVolatileFlush</b> returns one of the following:
 
@@ -96,24 +89,12 @@ The request was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
  This routine <b>RtlDrainNonVolatileFlush</b> can also add more context to <b>NvToken</b> to help verifiers. This routine is currently not supported for Windows Server until the next major release of Windows Server.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">
 RtlFlushNonVolatileMemory</a>
@@ -133,7 +114,4 @@ RtlFlushNonVolatileMemory</a>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlwritenonvolatilememory">RtlWriteNonVolatileMemory</a>
- 
-
- 
 

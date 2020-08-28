@@ -8,9 +8,6 @@ ms.assetid: 7A97B3B2-2B7B-4661-8C0D-C2234F796EA8
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_UNMASK_INTERRUPT callback function"]
 ms.keywords: CLIENT_UnmaskInterrupt, CLIENT_UnmaskInterrupt callback, CLIENT_UnmaskInterrupt callback function [Parallel Ports], GPIO.client_unmaskinterrupt, GPIO_CLIENT_UNMASK_INTERRUPT, gpioclx/CLIENT_UnmaskInterrupt
-f1_keywords:
- - "gpioclx/CLIENT_UnmaskInterrupt"
- - "CLIENT_UnmaskInterrupt"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_UnmaskInterrupt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_UNMASK_INTERRUPT
+ - gpioclx/GPIO_CLIENT_UNMASK_INTERRUPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_UnmaskInterrupt
 ---
 
 # GPIO_CLIENT_UNMASK_INTERRUPT callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_UnmaskInterrupt</i> event callback function unmasks the interrupt on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-
 ### -param InterruptParameters 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_ENABLE_INTERRUPT_PARAMETERS</a> structure that specifies a GPIO pin and describes the interrupt attributes of this pin.
 
-
 ## -returns
-
-
 
 The <i>CLIENT_UnmaskInterrupt</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function to unmask interrupts on a GPIO pin that is configured as an interrupt request input. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-interrupt-masks">GPIO Interrupt Masks</a>.
 
@@ -123,12 +111,7 @@ The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h heade
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
@@ -139,7 +122,4 @@ The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h heade
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
- 
-
- 
 

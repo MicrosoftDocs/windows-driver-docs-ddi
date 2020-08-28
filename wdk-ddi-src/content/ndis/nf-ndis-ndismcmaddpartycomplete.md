@@ -8,9 +8,6 @@ ms.assetid: 5bbcd552-00c2-4085-8222-c514eb92e654
 ms.date: 05/02/2018
 keywords: ["NdisMCmAddPartyComplete macro"]
 ms.keywords: NdisMCmAddPartyComplete, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, ndis/NdisMCmAddPartyComplete, netvista.ndismcmaddpartycomplete
-f1_keywords:
- - "ndis/NdisMCmAddPartyComplete"
- - "NdisMCmAddPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmAddPartyComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmAddPartyComplete
+ - ndis/NdisMCmAddPartyComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmAddPartyComplete
 ---
 
 # NdisMCmAddPartyComplete macro
@@ -46,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmAddPartyComplete</b> returns the final status of a client's request, for which the MCM driver
   previously returned NDIS_STATUS_PENDING, to add a party on an established multipoint VC.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -81,8 +76,6 @@ Pointer to a structure of type
      parameters, originally supplied by the client, for the party to be added.
 
 ## -remarks
-
-
 
 If an MCM driver's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function returns
@@ -135,13 +128,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCmAddPartyComplete</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -169,7 +156,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
- 
-
- 
 

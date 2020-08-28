@@ -8,9 +8,6 @@ ms.assetid: bcbbddc7-6675-4555-bd05-588762148554
 ms.date: 04/16/2018
 keywords: ["RtlCreateSystemVolumeInformationFolder function"]
 ms.keywords: RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ifsk.rtlcreatesystemvolumeinformationfolder, ntifs/RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml
-f1_keywords:
- - "ntifs/RtlCreateSystemVolumeInformationFolder"
- - "RtlCreateSystemVolumeInformationFolder"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlCreateSystemVolumeInformationFolder
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCreateSystemVolumeInformationFolder
+ - ntifs/RtlCreateSystemVolumeInformationFolder
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlCreateSystemVolumeInformationFolder
 ---
 
 # RtlCreateSystemVolumeInformationFolder function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlCreateSystemVolumeInformationFolder</b> routine verifies the existence of the "System Volume Information" folder on a file system volume. If the folder is not present, then the folder is created. 
-
+The <b>RtlCreateSystemVolumeInformationFolder</b> routine verifies the existence of the "System Volume Information" folder on a file system volume. If the folder is not present, then the folder is created.
 
 ## -parameters
 
-
-
-
 ### -param VolumeRootPath 
+
 [in]
 A pointer to a path to the root of the volume.
 
-
 ## -returns
-
-
 
 The <b>RtlCreateSystemVolumeInformationFolder</b> routine returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following: 
 
@@ -83,14 +76,8 @@ A temporary buffer required by this function could not be allocated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RtlCreateSystemVolumeInformationFolder</b> routine verifies the existence of the "System Volume Information" folder on the given volume. 
 
@@ -100,20 +87,11 @@ If the folder is already present and the volume is an NTFS volume, the ACE that 
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
- 
-
- 
 

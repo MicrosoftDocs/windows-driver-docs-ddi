@@ -8,9 +8,6 @@ ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.date: 04/23/2018
 keywords: ["SERIAL_STATUS structure"]
 ms.keywords: "*PSERIAL_STATUS, PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], _SERIAL_STATUS, ntddser/PSERIAL_STATUS, ntddser/SERIAL_STATUS, serports.serial_status"
-f1_keywords:
- - "ntddser/SERIAL_STATUS"
- - "SERIAL_STATUS"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- SERIAL_STATUS
 targetos: Windows
 req.typenames: SERIAL_STATUS, *PSERIAL_STATUS
+f1_keywords:
+ - _SERIAL_STATUS
+ - ntddser/_SERIAL_STATUS
+ - PSERIAL_STATUS
+ - ntddser/PSERIAL_STATUS
+ - SERIAL_STATUS
+ - ntddser/SERIAL_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - SERIAL_STATUS
 ---
 
 # _SERIAL_STATUS structure
@@ -46,14 +50,9 @@ req.typenames: SERIAL_STATUS, *PSERIAL_STATUS
 
 ## -description
 
-
 The <b>SERIAL_STATUS</b> structure contains status information about the serial port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Errors
 
@@ -88,7 +87,6 @@ A set of flags to indicate the receive errors that have occurred in the input st
  
 
 After the serial controller driver supplies the accumulated SERIAL_ERROR_<i>XXX</i> flags to satisfy an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_commstatus">IOCTL_SERIAL_GET_COMMSTATUS</a> request, the driver resets the flags to zero.
-
 
 ### -field HoldReasons
 
@@ -128,47 +126,31 @@ A set of flags to indicate the reasons that the serial port is currently waiting
 
 <b>HoldReasons</b> is zero if the serial port has no reason to stop transmitting bytes.
 
-
 ### -field AmountInInQueue
 
 The number of bytes of data received from the serial port that are currently available to be read from the input buffer.
-
 
 ### -field AmountInOutQueue
 
 The number of bytes of transmit data that are currently waiting to be written from the output buffer to the serial port.
 
-
 ### -field EofReceived
 
 Whether an EOF (end of file) character has been received. This member is <b>TRUE</b> if an EOF has been received. Otherwise, it is <b>FALSE</b>. The EOF character marks the end of the input stream.
-
 
 ### -field WaitForImmediate
 
 Whether the serial port is waiting to transmit an immediate character. This member is <b>TRUE</b> if the serial port is waiting to transmit an immediate character. Otherwise, it is <b>FALSE</b>. Transmission of an immediate character might be delayed if any flag bit other than SERIAL_TX_WAITING_FOR_XON is set in the <b>HoldReasons</b> member. For more information about immediate characters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_immediate_char">IOCTL_SERIAL_IMMEDIATE_CHAR</a>.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_commstatus">IOCTL_SERIAL_GET_COMMSTATUS</a> request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_commstatus">IOCTL_SERIAL_GET_COMMSTATUS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_immediate_char">IOCTL_SERIAL_IMMEDIATE_CHAR</a>
- 
-
- 
 

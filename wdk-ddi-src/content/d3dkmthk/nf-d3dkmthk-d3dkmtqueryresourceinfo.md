@@ -7,9 +7,6 @@ ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
 ms.date: 05/10/2018
 keywords: ["D3DKMTQueryResourceInfo function"]
 ms.keywords: D3DKMTQueryResourceInfo, D3DKMTQueryResourceInfo function [Display Devices], OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, d3dkmthk/D3DKMTQueryResourceInfo, display.d3dkmtqueryresourceinfo
-f1_keywords:
- - "d3dkmthk/D3DKMTQueryResourceInfo"
- - "D3DKMTQueryResourceInfo"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,24 +24,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTQueryResourceInfo
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTQueryResourceInfo
+ - d3dkmthk/D3DKMTQueryResourceInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTQueryResourceInfo
 ---
 
 # D3DKMTQueryResourceInfo function
+
 
 ## -description
 
@@ -84,7 +85,4 @@ For an example of how an OpenGL ICD can use <b>D3DKMTQueryResourceInfo</b> to re
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryresourceinfo">D3DKMT_QUERYRESOURCEINFO</a>
- 
-
- 
 

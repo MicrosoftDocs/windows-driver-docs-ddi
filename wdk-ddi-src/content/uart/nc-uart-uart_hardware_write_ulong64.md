@@ -6,42 +6,53 @@ tech.root: serports
 ms.assetid: 28aa4d96-2798-44ba-b736-04df60fb098b
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_ULONG64 callback function"]
-f1_keywords:
- - "uart/UART_HARDWARE_WRITE_ULONG64"
- - "UART_HARDWARE_WRITE_ULONG64"
 req.header: uart.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- uart.h
-api_name:
-- UART_HARDWARE_WRITE_ULONG64
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
+f1_keywords:
+ - UART_HARDWARE_WRITE_ULONG64
+ - uart/UART_HARDWARE_WRITE_ULONG64
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - uart.h
+api_name:
+ - UART_HARDWARE_WRITE_ULONG64
 ---
 
 # UART_HARDWARE_WRITE_ULONG64 callback function
 
+
 ## -description
 
 Writes a ULONG64 value to the specified register address.
+
+## -parameters
+
+### -param Address
+
+A pointer to the register, which must be a mapped range in memory space.
+
+### -param Value
+
+A ULONG64 value to be written to the register.
 
 ## -prototype
 
@@ -61,18 +72,9 @@ VOID UartHardwareWriteUlong64
 
 ```
 
-## -parameters
-
-### -param Address
-A pointer to the register, which must be a mapped range in memory space.
-
-### -param Value
-A ULONG64 value to be written to the register.
-
-
 ## -remarks
 
 Register your implementation of this callback function by setting the **WriteRegister64** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.
 
-
 ## -see-also
+

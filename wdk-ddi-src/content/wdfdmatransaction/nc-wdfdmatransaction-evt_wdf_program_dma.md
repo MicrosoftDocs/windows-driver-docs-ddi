@@ -8,9 +8,6 @@ ms.assetid: c01b94b2-aabf-47dd-952a-06e481579614
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_PROGRAM_DMA callback function"]
 ms.keywords: DFDmaObjectRef_972816f8-bfd1-487d-8ac4-7ef75dcdfa97.xml, EVT_WDF_PROGRAM_DMA, EVT_WDF_PROGRAM_DMA callback, EvtProgramDma, EvtProgramDma callback function, kmdf.evtprogramdma, wdf.evtprogramdma, wdfdmatransaction/EvtProgramDma
-f1_keywords:
- - "wdfdmatransaction/EvtProgramDma"
- - "EvtProgramDma"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdfdmatransaction.h
-api_name:
-- EvtProgramDma
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_PROGRAM_DMA
+ - wdfdmatransaction/EVT_WDF_PROGRAM_DMA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdfdmatransaction.h
+api_name:
+ - EvtProgramDma
 ---
 
 # EVT_WDF_PROGRAM_DMA callback function
@@ -46,54 +46,42 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A framework-based driver's <i>EvtProgramDma</i> event callback function programs a specified device to perform a DMA transfer operation.
 
-
 ## -parameters
 
-
-
-
 ### -param Transaction 
+
 [in]
 A handle to the DMA transaction object that represents the current DMA transaction.
 
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param Context 
+
 [in]
 The context pointer that the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionexecute">WdfDmaTransactionExecute</a>.
 
-
 ### -param Direction 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the DMA transfer operation.
 
-
 ### -param SgList 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure.
 
-
 ## -returns
 
-
-
-The <i>EvtProgramDma</i> callback function must return <b>TRUE</b> if it successfully starts the DMA transfer operation. Otherwise, this callback function must return <b>FALSE</b>. However, the framework currently ignores the return value. 
-
-
-
+The <i>EvtProgramDma</i> callback function must return <b>TRUE</b> if it successfully starts the DMA transfer operation. Otherwise, this callback function must return <b>FALSE</b>. However, the framework currently ignores the return value.
 
 ## -remarks
-
-
 
 Drivers register an <i>EvtProgramDma</i> event callback function by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest">WdfDmaTransactionInitializeUsingRequest</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitialize">WdfDmaTransactionInitialize</a>.
 
@@ -105,13 +93,7 @@ For single packet transfers, the scatter/gather list that the <i>SgList</i> para
 
 For more information about this callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/programming-dma-hardware">Programming DMA Hardware</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionexecute">WdfDmaTransactionExecute</a>
 
@@ -122,7 +104,4 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest">WdfDmaTransactionInitializeUsingRequest</a>
- 
-
- 
 

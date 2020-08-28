@@ -5,38 +5,38 @@ description: The SetKeyValue method is the first method a client will turn to in
 ms.assetid: ea5bb8e0-a226-4dd2-90e3-0fc7cebf9cd5
 ms.date: 08/13/2018
 keywords: ["IModelObject::SetKeyValue"]
-f1_keywords:
- - "dbgmodel/IModelObject.SetKeyValue"
- - "IModelObject.SetKeyValue"
 ms.keywords: IModelObject::SetKeyValue, SetKeyValue, IModelObject.SetKeyValue, IModelObject::SetKeyValue, IModelObject.SetKeyValue
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelObject.SetKeyValue
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelObject::SetKeyValue
+ - dbgmodel/IModelObject::SetKeyValue
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelObject.SetKeyValue
 ---
 
 # IModelObject::SetKeyValue
@@ -44,19 +44,20 @@ ms.custom: RS5
 
 ## -description
 
-The SetKeyValue method is the first method a client will turn to in order to set the value of a key. This method cannot be used to create a new key on an object. It will only set the value of an existing key. Note that many keys are read-only (e.g.: they are implemented by a property accessor which returns E_NOT_IMPL from it's SetValue method). This method will fail when called on a read only key. 
+The SetKeyValue method is the first method a client will turn to in order to set the value of a key. This method cannot be used to create a new key on an object. It will only set the value of an existing key. Note that many keys are read-only (e.g.: they are implemented by a property accessor which returns E_NOT_IMPL from it's SetValue method). This method will fail when called on a read only key.
 
 ## -parameters
 
 ### -param key
+
 The name of the key to set a value for.
 
-
 ### -param object
+
 The value of the key will be set to the object contained in this argument.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -83,7 +84,7 @@ if (SUCCEEDED(spManager->CreateIntrinsicObject(ObjectIntrinsic, &vtVal, &spNewOb
 }
 ```
 
-
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

@@ -8,9 +8,6 @@ ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
 ms.date: 05/16/2019
 keywords: ["NDIS_NIC_SWITCH_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml"
-f1_keywords:
- - "ntddndis/NDIS_NIC_SWITCH_CAPABILITIES"
- - "NDIS_NIC_SWITCH_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_NIC_SWITCH_CAPABILITIES
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
+f1_keywords:
+ - _NDIS_NIC_SWITCH_CAPABILITIES
+ - ntddndis/_NDIS_NIC_SWITCH_CAPABILITIES
+ - PNDIS_NIC_SWITCH_CAPABILITIES
+ - ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES
+ - NDIS_NIC_SWITCH_CAPABILITIES
+ - ntddndis/NDIS_NIC_SWITCH_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_NIC_SWITCH_CAPABILITIES
 ---
 
 # _NDIS_NIC_SWITCH_CAPABILITIES structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
 
 ## -description
 
-
 The <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure specifies the capabilities of a NIC switch on the network adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -91,16 +90,13 @@ Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_CAPABILITIES_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
 
-
 ### -field NdisReserved1
 
 Reserved for NDIS.
-
 
 ### -field NumTotalMacAddresses
 
@@ -127,11 +123,9 @@ A ULONG value that contains the number of VLANs that are supported for each port
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved3
 
 Reserved for NDIS.
-
 
 ### -field NicSwitchCapabilities
 
@@ -237,8 +231,6 @@ For more information about VMQ, see <a href="https://docs.microsoft.com/windows-
 
 For more information about VPorts, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-virtual-ports">Managing Virtual Ports</a>.
 
-
-
 ### -field MaxNumSwitches
 
 A ULONG value that specifies the maximum number of switches that can be created on the network adapter's PCI Express (PCIe) Physical Function (PF).
@@ -257,7 +249,6 @@ A ULONG value that specifies the maximum number of VPorts that can be created on
 ### -field NdisReserved4
 
 Reserved for NDIS.
-
 
 ### -field MaxNumVFs
 
@@ -278,16 +269,13 @@ A ULONG value that specifies the maximum number of queue pairs that can be assig
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved6
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved7
 
 Reserved for NDIS.
-
 
 ### -field MaxNumQueuePairsPerNonDefaultVPort
 
@@ -295,31 +283,25 @@ A ULONG value that specifies the maximum number of queue pairs that can be assig
 
 This value is specified in powers of 2, and provides for asymmetric configuration and assignment of queue pairs to VPorts. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
 
-
 ### -field NdisReserved8
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved9
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved10
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved11
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved12
 
 Reserved for NDIS.
-
 
 ### -field MaxNumMacAddresses
 
@@ -332,41 +314,33 @@ A ULONG value that specifies the maximum number of unicast MAC address filters t
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved14
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved15
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved16
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved17
 
 Reserved for NDIS.
 
-
 ### -field MaxNumRssCapableNonDefaultPFVPorts
 
-A ULONG value that specifies the maximum number of RSS-capable non-default PFVPorts. 
-
+A ULONG value that specifies the maximum number of RSS-capable non-default PFVPorts.
 
 ### -field NumberOfIndirectionTableEntriesForDefaultVPort
 
 A ULONG value that specifies the number of indirection table entries for the default VPort.
 
-
 ### -field NumberOfIndirectionTableEntriesPerNonDefaultPFVPort
 
 A ULONG value that specifies the number of indirection table entries for each non-default PFVPort.
-
 
 ### -field MaxNumQueuePairsForDefaultVPort
 
@@ -374,11 +348,7 @@ A ULONG value that specifies the maximum number of queue pairs that can be assig
 
 This value is specified in powers of 2, and provides for asymmetric configuration and assignment of queue pairs to VPorts. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/symmetric-and-asymmetric-assignment-of-queue-pairs">Symmetric and Asymmetric Assignment of Queue Pairs</a>.
 
-
 ## -remarks
-
-
-
 
     The <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure is used in the 
     members of the following structures:
@@ -405,13 +375,7 @@ OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drive
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">
     OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a> return an <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -442,7 +406,4 @@ OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drive
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
- 
-
- 
 

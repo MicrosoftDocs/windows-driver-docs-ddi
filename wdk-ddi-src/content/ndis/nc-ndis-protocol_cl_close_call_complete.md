@@ -8,9 +8,6 @@ ms.assetid: a7ba1ab2-04c9-45b5-a184-e1ad1448561a
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_CLOSE_CALL_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_CLOSE_CALL_COMPLETE, PROTOCOL_CL_CLOSE_CALL_COMPLETE callback, ProtocolClCloseCallComplete, ProtocolClCloseCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_a35e2fe4-8437-4c41-9ec1-13a8926108b5.xml, ndis/ProtocolClCloseCallComplete, netvista.protocolclclosecallcomplete
-f1_keywords:
- - "ndis/ProtocolClCloseCallComplete"
- - "ProtocolClCloseCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClCloseCallComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_CLOSE_CALL_COMPLETE
+ - ndis/PROTOCOL_CL_CLOSE_CALL_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClCloseCallComplete
 ---
 
 # PROTOCOL_CL_CLOSE_CALL_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolClCloseCallComplete</i> function is used by connection-oriented NDIS clients. All
@@ -58,10 +57,8 @@ The
 
 ## -parameters
 
-
-
-
 ### -param Status 
+
 [in]
 Specifies the final status of the client's request to close this call, which can be one of the
      following:
@@ -85,8 +82,8 @@ The call manager failed the request to close the call for some CM-determined rea
        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">ProtocolCmCloseCall</a> function to
        the client.
 
-
 ### -param ProtocolVcContext 
+
 [in]
 Specifies the handle to the client's per-VC context area This is the handle that the client
      originally passed to NDIS with 
@@ -94,16 +91,13 @@ Specifies the handle to the client's per-VC context area This is the handle that
      its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-
 ### -param ProtocolPartyContext 
+
 [in, optional]
 Specifies the handle to the client's per-party context area for the last remaining party on the
      client-created VC representing a multipoint connection. Otherwise, this parameter is <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 If the given VC was created by the client and 
     <i>Status</i> is NDIS_STATUS_SUCCESS, the client can now do either of the following:
@@ -170,15 +164,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CL_CLOSE_CALL_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_CLOSE_CALL_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
@@ -209,7 +197,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: e5bb8d0e-9ae0-42dd-bbd0-c12e3d1e3f40
 ms.date: 06/10/2020
 keywords: ["IStillImageW::LaunchApplicationForDevice"]
 ms.keywords: IStillImageW interface [Imaging Devices],LaunchApplicationForDevice method, IStillImageW.LaunchApplicationForDevice, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices],IStillImageW interface, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml
-f1_keywords:
- - "sti/IStillImageW.LaunchApplicationForDevice"
- - "IStillImageW.LaunchApplicationForDevice"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sti.h
-api_name:
-- IStillImageW.LaunchApplicationForDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStillImageW::LaunchApplicationForDevice
+ - sti/IStillImageW::LaunchApplicationForDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sti.h
+api_name:
+ - IStillImageW.LaunchApplicationForDevice
 ---
 
 # IStillImageW::LaunchApplicationForDevice
+
 
 ## -description
 
@@ -50,14 +51,17 @@ The **IStillImage::LaunchApplicationForDevice** method starts a specified applic
 ## -parameters
 
 ### -param pwszDeviceName 
+
 [in]
 Caller-supplied pointer to a string representing an internal device name, obtained by calling [IStillImage::GetSTILaunchInformation](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)) or [IStillImage::GetDeviceList](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)).
 
 ### -param pwszAppName 
+
 [in]
 Caller-supplied pointer to a string representing the short name of an application that was registered by calling [IStillImage::RegisterLaunchApplication](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)).
 
 ### -param pStiNotify 
+
 [in]
 Caller-supplied pointer to an [STINOTIFY](https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_stinotify) structure describing a device event. Typically,  the event's GUID is obtained by calling [IStiDevice::GetLastNotificationData](https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata).
 
@@ -94,3 +98,4 @@ if (!SUCCEEDED(hRes))
         pStiInfoPtr->szDeviceInternalName,hReturn,hReturn);
 }
 ```
+

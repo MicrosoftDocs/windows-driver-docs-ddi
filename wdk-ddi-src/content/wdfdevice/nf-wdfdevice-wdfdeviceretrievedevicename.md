@@ -8,9 +8,6 @@ ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.date: 02/26/2018
 keywords: ["WdfDeviceRetrieveDeviceName function"]
 ms.keywords: DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, kmdf.wdfdeviceretrievedevicename, wdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName
-f1_keywords:
- - "wdfdevice/WdfDeviceRetrieveDeviceName"
- - "WdfDeviceRetrieveDeviceName"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceRetrieveDeviceName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceRetrieveDeviceName
+ - wdfdevice/WdfDeviceRetrieveDeviceName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceRetrieveDeviceName
 ---
 
 # WdfDeviceRetrieveDeviceName function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name for a specified device.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param String 
+
 [in]
 A handle to a framework string object that receives the device name.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfDeviceRetrieveDeviceName</b> returns STATUS_SUCCESS. Additional return values include:
 
@@ -97,12 +90,7 @@ The method might return other <a href="https://docs.microsoft.com/windows-hardwa
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name that the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignname">WdfDeviceInitAssignName</a>.
 
@@ -133,12 +121,7 @@ if (NT_SUCCESS(status)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignname">WdfDeviceInitAssignName</a>
 
@@ -149,7 +132,4 @@ if (NT_SUCCESS(status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfstring/nf-wdfstring-wdfstringcreate">WdfStringCreate</a>
- 
-
- 
 

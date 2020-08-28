@@ -8,9 +8,6 @@ ms.assetid: f5327cbf-e71b-4c1c-94c0-0e27afb4d7cf
 ms.date: 04/23/2018
 keywords: ["KSMETHOD_TYPE_IRP_STORAGE macro"]
 ms.keywords: KSMETHOD_TYPE_IRP_STORAGE, KSMETHOD_TYPE_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_TYPE_IRP_STORAGE, ksfunc_de99d882-5298-4972-9d16-fa4478d6229c.xml, stream.ksmethod_type_irp_storage
-f1_keywords:
- - "ks/KSMETHOD_TYPE_IRP_STORAGE"
- - "KSMETHOD_TYPE_IRP_STORAGE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSMETHOD_TYPE_IRP_STORAGE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KSMETHOD_TYPE_IRP_STORAGE
+ - ks/KSMETHOD_TYPE_IRP_STORAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSMETHOD_TYPE_IRP_STORAGE
 ---
 
 # KSMETHOD_TYPE_IRP_STORAGE macro
+
 
 ## -description
 
@@ -50,6 +51,7 @@ This macro accesses the type of method as described in the [KSMETHOD_ITEM](https
 ## -parameters
 
 ### -param Irp 
+
 [in]
 Specifies the IRP passed to the handler routine.
 
@@ -76,3 +78,4 @@ The macro is defined as follows:
 [KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler)
 
 [KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator)
+

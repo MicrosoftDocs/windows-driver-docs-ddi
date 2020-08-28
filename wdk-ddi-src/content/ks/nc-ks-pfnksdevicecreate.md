@@ -8,9 +8,6 @@ ms.assetid: 8f7168c3-0c28-4802-af34-45b46c1b6827
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICECREATE callback function"]
 ms.keywords: AVStrMiniDeviceAdd, AVStrMiniDeviceAdd routine [Streaming Media Devices], PFNKSDEVICECREATE, avstclbk_1cba196f-c0c6-42fb-8674-52e0fad4a337.xml, ks/AVStrMiniDeviceAdd, stream.avstrminideviceadd
-f1_keywords:
- - "ks/AVStrMiniDeviceAdd"
- - "AVStrMiniDeviceAdd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniDeviceAdd
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSDEVICECREATE
+ - ks/PFNKSDEVICECREATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniDeviceAdd
 ---
 
 # PFNKSDEVICECREATE callback function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 An AVStream minidriver's <i>AVStrMiniDeviceAdd</i> routine notifies the minidriver that AVStream's PnP <i>AddDevice</i> routine has completed.
-
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure describing the functional device object (FDO) that has just been created.
 
-
 ## -returns
-
-
 
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. If the minidriver returns failure status, the related <i>AddDevice</i> call will also fail. See the Remarks section below for more details.
 
-
-
-
 ## -remarks
-
-
 
 The minidriver specifies this routine's address in the <b>Add</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a> structure.
 
@@ -83,16 +71,7 @@ If this routine returns an unsuccessful status code, AVStream's <i>AddDevice</i>
 
 This routine is optional.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
- 
-
- 
 

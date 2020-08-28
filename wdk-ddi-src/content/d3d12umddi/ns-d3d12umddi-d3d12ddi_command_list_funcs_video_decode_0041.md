@@ -5,45 +5,95 @@ description: Command list functions for video decode.
 ms.assetid: ea74f5aa-1fee-4f98-b228-c89ba9330987
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041"
- - "D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
+ - d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
+product:
+ - Windows
 ---
 
 # D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041 structure
+
 
 ## -description
 
 Command list functions for video decode.
 
-## -syntax
+## -struct-fields
 
+### -field pfnCloseCommandList
+
+Close command list.
+
+### -field pfnResetCommandList
+
+Reset command list.
+
+### -field pfnDiscardResource
+
+Discard resource.
+
+### -field pfnSetMarker
+
+Set marker.
+
+### -field pfnSetPredication
+
+Set predication.
+
+### -field pfnBeginQuery
+
+Begin query.
+
+### -field pfnEndQuery
+
+End query.
+
+### -field pfnResolveQueryData
+
+Resolve query data.
+
+### -field pfnResourceBarrier
+
+Resource barrier.
+
+### -field pfnDecodeFrame
+
+Decode frame.
+
+### -field pfnSetProtectedResourceSession
+
+Set protected resource session.
+
+### -field pfnWriteBufferImmediate
+
+Write buffer immediate.
+
+## -syntax
 
 ```cpp
 typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
@@ -63,63 +113,3 @@ typedef struct D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041
 } D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041;
 ```
 
-## -struct-fields
-
-### -field pfnCloseCommandList
-
-Close command list.
-
-
-### -field pfnResetCommandList
-
-Reset command list.
-
-
-### -field pfnDiscardResource
-
-Discard resource.
-
-
-### -field pfnSetMarker
-
-Set marker.
-
-
-### -field pfnSetPredication
-
-Set predication.
-
-
-### -field pfnBeginQuery
-
-Begin query.
-
-
-### -field pfnEndQuery
-
-End query.
-
-
-### -field pfnResolveQueryData
-
-Resolve query data.
-
-
-### -field pfnResourceBarrier
-
-Resource barrier.
-
-
-### -field pfnDecodeFrame
-
-Decode frame.
-
-
-### -field pfnSetProtectedResourceSession
-
-Set protected resource session.
-
-
-### -field pfnWriteBufferImmediate
-
-Write buffer immediate.

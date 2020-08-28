@@ -8,9 +8,6 @@ ms.assetid: 9c17a5e2-dcf2-493a-9851-11d47adbfc82
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitAssignWdmIrpPreprocessCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml, WdfDeviceInitAssignWdmIrpPreprocessCallback, WdfDeviceInitAssignWdmIrpPreprocessCallback method, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, wdf.wdfdeviceinitassignwdmirppreprocesscallback, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback
-f1_keywords:
- - "wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback"
- - "WdfDeviceInitAssignWdmIrpPreprocessCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitAssignWdmIrpPreprocessCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitAssignWdmIrpPreprocessCallback
+ - wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitAssignWdmIrpPreprocessCallback
 ---
 
 # WdfDeviceInitAssignWdmIrpPreprocessCallback function
@@ -47,45 +47,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b> method registers a callback function to handle an IRP major function code and, optionally, one or more minor function codes that are associated with the major function code. 
-
+The <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b> method registers a callback function to handle an IRP major function code and, optionally, one or more minor function codes that are associated with the major function code.
 
 ## -parameters
 
-
-
-
 ### -param DeviceInit 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-
 ### -param EvtDeviceWdmIrpPreprocess 
+
 [in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a> callback function.
 
-
 ### -param MajorFunction 
-[in]
-One of the IRP major function codes that are defined in <i>wdm.h</i>. 
 
+[in]
+One of the IRP major function codes that are defined in <i>wdm.h</i>.
 
 ### -param MinorFunctions 
+
 [in, optional]
 A pointer to an array of one or more IRP minor function codes that are associated with the specified major function code. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ### -param NumMinorFunctions 
+
 [in]
 The number of minor function codes that are contained in the <i>MinorFunctions</i> array.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
 
@@ -132,12 +125,7 @@ There is insufficient memory.
 
 The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Drivers can call the <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b> method for either of two reasons:
 
@@ -283,15 +271,7 @@ SerialEvtDeviceAdd(
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>
- 
-
- 
 

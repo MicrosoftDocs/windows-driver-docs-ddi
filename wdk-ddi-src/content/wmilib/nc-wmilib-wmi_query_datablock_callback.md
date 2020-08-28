@@ -8,9 +8,6 @@ ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.date: 04/30/2018
 keywords: ["WMI_QUERY_DATABLOCK_CALLBACK callback function"]
 ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK callback, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
-f1_keywords:
- - "wmilib/DpWmiQueryDataBlock"
- - "DpWmiQueryDataBlock"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wmilib.h
-api_name:
-- DpWmiQueryDataBlock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WMI_QUERY_DATABLOCK_CALLBACK
+ - wmilib/WMI_QUERY_DATABLOCK_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wmilib.h
+api_name:
+ - DpWmiQueryDataBlock
 ---
 
 # WMI_QUERY_DATABLOCK_CALLBACK callback function
@@ -46,69 +46,57 @@ req.typenames:
 
 ## -description
 
-
 The <i>DpWmiQueryDataBlock</i> routine returns either a single instance or all instances of a data block. This routine is required.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
+
 [in]
 Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
-
 ### -param Irp 
+
 [in]
 Pointer to the IRP.
 
-
 ### -param GuidIndex 
-[in]
-Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.  
 
+[in]
+Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.
 
 ### -param InstanceIndex 
+
 [in]
 If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-single-instance">IRP_MN_QUERY_SINGLE_INSTANCE</a> request, <i>InstanceIndex </i>specifies a zero-based index that indicates the instance of the specified data block to be queried. If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a> request, <i>InstanceIndex </i>is zero.
 
-
 ### -param InstanceCount 
+
 [in]
 If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-single-instance">IRP_MN_QUERY_SINGLE_INSTANCE</a> request, <i>InstanceCount </i>is 1. If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a> request, <i>InstanceCount </i>is the number of instances to be returned.
 
-
 ### -param InstanceLengthArray 
+
 [in, out]
 Pointer to a caller-supplied, <i>InstanceCount</i>-sized array of ULONG elements. The driver fills in each array element to indicate the length of each instance that was returned.  If <i>BufferAvail</i> is zero, <i>InstanceLengthArray</i> is <b>NULL</b>.
 
-
 ### -param BufferAvail 
+
 [in]
 Specifies the maximum number of bytes that are available to receive data in the buffer at <i>Buffer</i>. If this value is zero, the caller is requesting that the driver specify the required buffer size in its call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a>. See the Remarks section for more information.
 
-
 ### -param Buffer 
+
 [out]
 Pointer to the buffer to receive instance data. If the buffer is large enough to receive all of the data, the driver writes the instance data to the buffer with each instance aligned on an 8-byte boundary. If the buffer is too small to receive all of the data, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a> with <i>BufferUsed</i> set to the size required.
 
-
 ## -returns
-
-
 
 <i>DpWmiQueryDataBlock</i> returns STATUS_SUCCESS or an error status such as the following:
 
 If the driver cannot complete the request immediately, it can return STATUS_PENDING.
 
-
-
-
 ## -remarks
-
-
 
 WMI calls a driver's <i>DpWmiQueryDataBlock</i> routine after the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-single-instance">IRP_MN_QUERY_SINGLE_INSTANCE</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a> request. The driver must place the address of its <i>DpWmiQueryDataBlock</i> routine in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that it passes to <b>WmiSystemControl</b>.
 
@@ -138,13 +126,7 @@ This routine can be pageable.
 
 For more information about implementing this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps">Calling WmiSystemControl to Handle WMI IRPs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a>
 
@@ -163,7 +145,4 @@ For more information about implementing this routine, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
- 
-
- 
 

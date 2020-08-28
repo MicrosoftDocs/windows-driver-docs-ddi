@@ -6,42 +6,53 @@ tech.root: netvista
 ms.assetid: E999C47A-CAE1-42AB-9900-4118EFFAEE0D
 ms.date: 09/27/2019
 keywords: ["EVT_NET_ADAPTER_RETURN_RX_BUFFER callback function"]
-f1_keywords:
- - "netadapter/EVT_NET_ADAPTER_RETURN_RX_BUFFER"
- - "EVT_NET_ADAPTER_RETURN_RX_BUFFER"
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.25
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- netadapter.h
-api_name: 
-- EVT_NET_ADAPTER_RETURN_RX_BUFFER
 targetos: Windows
+f1_keywords:
+ - EVT_NET_ADAPTER_RETURN_RX_BUFFER
+ - netadapter/EVT_NET_ADAPTER_RETURN_RX_BUFFER
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - netadapter.h
+api_name:
+ - EVT_NET_ADAPTER_RETURN_RX_BUFFER
 ---
 
 # EVT_NET_ADAPTER_RETURN_RX_BUFFER callback function
 
+
 ## -description
 
 Implement this optional callback function to perform cleanup on a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) receive buffer for which you previously specified manual fragment allocation and attachment.
+
+## -parameters
+
+### -param Adapter 
+
+The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+
+### -param RxBufferReturnContext 
+
+A pointer to a driver-allocated context space structure.
 
 ## -prototype
 
@@ -61,16 +72,6 @@ VOID EvtNetAdapterReturnRxBuffer
 
 typedef EVT_NET_ADAPTER_RETURN_RX_BUFFER *PFN_NET_ADAPTER_RETURN_RX_BUFFER;
 ```
-
-## -parameters
-
-### -param Adapter 
-
-The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
-
-### -param RxBufferReturnContext 
-
-A pointer to a driver-allocated context space structure.
 
 ## -remarks
 
@@ -104,3 +105,4 @@ MyReturnRxBuffer(
 ## -see-also
 
 [**NET_ADAPTER_RX_CAPABILITIES**](ns-netadapter-_net_adapter_rx_capabilities.md)
+

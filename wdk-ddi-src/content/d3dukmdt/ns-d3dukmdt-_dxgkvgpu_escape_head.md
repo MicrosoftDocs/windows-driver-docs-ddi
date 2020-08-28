@@ -8,9 +8,6 @@ ms.assetid: BB9D12EB-A1B1-4D7B-A1E4-40A932F62C88
 ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_HEAD structure"]
 ms.keywords: DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD , DXGKVGPU_ESCAPE_HEAD structure [Display Devices], _DXGKVGPU_ESCAPE_HEAD, d3dukmdt/DXGKVGPU_ESCAPE_HEAD, display.dxgkvgpu_escape_head_
-f1_keywords:
- - "d3dukmdt/DXGKVGPU_ESCAPE_HEAD"
- - "DXGKVGPU_ESCAPE_HEAD"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- DXGKVGPU_ESCAPE_HEAD
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_HEAD
+f1_keywords:
+ - _DXGKVGPU_ESCAPE_HEAD
+ - d3dukmdt/_DXGKVGPU_ESCAPE_HEAD
+ - DXGKVGPU_ESCAPE_HEAD
+ - d3dukmdt/DXGKVGPU_ESCAPE_HEAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - DXGKVGPU_ESCAPE_HEAD
 ---
 
 # _DXGKVGPU_ESCAPE_HEAD structure
@@ -46,19 +48,13 @@ req.typenames: DXGKVGPU_ESCAPE_HEAD
 
 ## -description
 
-
 A structure describing the escape head.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Luid
 
 The ID of the escape input.
-
 
 ### -field Type
 

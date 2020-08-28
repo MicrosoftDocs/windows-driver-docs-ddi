@@ -8,9 +8,6 @@ ms.assetid: 88318bb4-bfca-4557-93cb-703840fa692e
 ms.date: 05/10/2018
 keywords: ["DXVA_COPPSetSignalingCmdData structure"]
 ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, dxva/DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml
-f1_keywords:
- - "dxva/DXVA_COPPSetSignalingCmdData"
- - "DXVA_COPPSetSignalingCmdData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_COPPSetSignalingCmdData
 targetos: Windows
 req.typenames: DXVA_COPPSetSignalingCmdData
+f1_keywords:
+ - _DXVA_COPPSetSignalingCmdData
+ - dxva/_DXVA_COPPSetSignalingCmdData
+ - DXVA_COPPSetSignalingCmdData
+ - dxva/DXVA_COPPSetSignalingCmdData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_COPPSetSignalingCmdData
 ---
 
 # _DXVA_COPPSetSignalingCmdData structure
@@ -46,14 +48,9 @@ req.typenames: DXVA_COPPSetSignalingCmdData
 
 ## -description
 
-
 The DXVA_COPPSetSignalingCmdData structure describes how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ActiveTVProtectionStandard
 
@@ -134,7 +131,6 @@ COPP_ProtectionStandard_ARIBTRB15_1125i (0x00004000)
 
 Specifies the COPP_ImageAspectRatio_EN300294_Mask (0x00000007) constant that indicates that only the first 3 bits in the following <b>AspectRatioData1</b> member are valid.
 
-
 ### -field AspectRatioData1
 
 Specifies one of the following values from the <b>COPP_ImageAspectRatio_EN300294</b> enumeration type to indicate an ETSI EN 300 294 value.
@@ -178,48 +174,35 @@ COPP_AspectRatio_EN300294_FullFormat16by9Anamorphic (7)
 
 Specifies a value that indicates the valid bitfields in the following <b>AspectRatioData2</b> member.
 
-
 ### -field AspectRatioData2
 
 Specifies 32-bit data for additional aspect ratio-related data to be set for specific protection standards. This data can be used to express End and Q0 values for EIA-608-B, or active format description for CEA-805-A Type B packets.
-
 
 ### -field AspectRatioChangeMask3
 
 Specifies a value that indicates the valid bitfields in the following <b>AspectRatioData3</b> member.
 
-
 ### -field AspectRatioData3
 
 Specifies 32-bit data for additional aspect ratio-related data to be set for specific protection standards. This data can be used to express End and Q0 values for EIA-608-B, or active format description for CEA-805-A Type B packets.
-
 
 ### -field ExtendedInfoChangeMask
 
 Specifies an array of values that indicate the valid bitfields in the respective elements of the following <b>ExtendedInfoData</b> array member.
 
-
 ### -field ExtendedInfoData
 
 Specifies an array of additional 32-bit data values to be set. Not currently used.
-
 
 ### -field Reserved
 
 Reserved. Should be set to zero.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppcommand">COPPCommand</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
- 
-
- 
 

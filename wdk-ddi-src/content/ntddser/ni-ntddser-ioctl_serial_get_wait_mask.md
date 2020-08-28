@@ -8,9 +8,6 @@ ms.assetid: 2ee8591a-f48e-43ad-8b88-74a1401aad07
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_WAIT_MASK IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_WAIT_MASK, IOCTL_SERIAL_GET_WAIT_MASK control, IOCTL_SERIAL_GET_WAIT_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_WAIT_MASK, serports.ioctl_serial_get_wait_mask, serref_d06a9ed8-0871-455b-8d91-8f530adfcfe9.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_GET_WAIT_MASK"
- - "IOCTL_SERIAL_GET_WAIT_MASK"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_GET_WAIT_MASK
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_GET_WAIT_MASK
+ - ntddser/IOCTL_SERIAL_GET_WAIT_MASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_GET_WAIT_MASK
 ---
 
 # IOCTL_SERIAL_GET_WAIT_MASK IOCTL
@@ -46,56 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SERIAL_GET_WAIT_MASK</b> request returns the event wait mask that is currently set for the serial controller.
 
 A client can wait for the wait events represented by flag bits <b>SERIAL_EV_RXCHAR</b> through <b>SERIAL_EV_EVENT2</b>. For more information about these event flags, see the Remarks section.
 
 To set an event wait mask, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_wait_mask">IOCTL_SERIAL_SET_WAIT_MASK</a> request. To wait for the occurrence of a wait event, a client uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_wait_on_mask">IOCTL_SERIAL_WAIT_ON_MASK</a> request.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG buffer that the serial controller driver uses to output the wait mask. The wait mask is either zero or the bitwise-OR of one or more of the <b>SERIAL_EV_</b><i>XXX</i> event flags.
 
-
 ### -output-buffer-length
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a ULONG.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -103,11 +80,7 @@ If the request is successful, the <b>Information</b> member is set to the size, 
 
 The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
-
 ## -remarks
-
-
-
 
     The <b>SERIAL_EV_</b><i>XXX</i> constants define the flag bits in the wait mask for a serial port.
    
@@ -230,13 +203,7 @@ The following table shows which <b>SERIAL_EV_</b><i>XXX</i> flag bits are suppor
 <div> </div>
 For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://docs.microsoft.com/previous-versions/jj241971(v=vs.85)">Serial Controller Drivers Overview</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_chars">IOCTL_SERIAL_GET_CHARS</a>
 
@@ -259,7 +226,4 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_status">SERIAL_STATUS</a>
- 
-
- 
 

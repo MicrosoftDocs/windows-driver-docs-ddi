@@ -8,9 +8,6 @@ ms.assetid: 2B56A2D3-1FA6-4212-A83C-3C20D826353B
 ms.date: 03/29/2018
 keywords: ["HW_TRACING_ENABLED callback function"]
 ms.keywords: HW_TRACING_ENABLED, HwStorTracingEnabled, HwStorTracingEnabled routine [Storage Devices], storage.hwstortracingenabled, storport/HwStorTracingEnabled
-f1_keywords:
- - "storport/HwStorTracingEnabled"
- - "HwStorTracingEnabled"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorTracingEnabled
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_TRACING_ENABLED
+ - storport/HW_TRACING_ENABLED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorTracingEnabled
 ---
 
 # HW_TRACING_ENABLED callback function
+
 
 ## -description
 
@@ -52,6 +53,7 @@ The **HwStorTracingEnabled** callback routine enables the Storport to notify a m
 ### -param HwDeviceExtension
 
 ### -param Enabled 
+
 [in]
 True to enable tracing in the miniport. Otherwise, false.
 
@@ -75,3 +77,4 @@ HW_TRACING_ENABLED (
 ## -see-also
 
 [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md)
+

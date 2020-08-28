@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetVideoProcessBltState"
- - "SetVideoProcessBltState"
+ - PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE
+ - d3dumddi/PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback function
+
 
 ## -description
 

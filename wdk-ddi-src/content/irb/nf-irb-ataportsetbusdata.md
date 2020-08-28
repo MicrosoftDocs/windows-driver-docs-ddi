@@ -8,9 +8,6 @@ ms.assetid: 5cc65ef9-7447-4775-bf5d-6dadd78f166c
 ms.date: 03/29/2018
 keywords: ["AtaPortSetBusData function"]
 ms.keywords: AtaPortSetBusData, AtaPortSetBusData routine [Storage Devices], atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, irb/AtaPortSetBusData, storage.ataportsetbusdata
-f1_keywords:
- - "irb/AtaPortSetBusData"
- - "AtaPortSetBusData"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Pciidex.lib
-- Pciidex.dll
-api_name:
-- AtaPortSetBusData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortSetBusData
+ - irb/AtaPortSetBusData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Pciidex.lib
+ - Pciidex.dll
+api_name:
+ - AtaPortSetBusData
 ---
 
 # AtaPortSetBusData function
@@ -47,29 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortSetBusData</b> routine stores the data at <i>Buffer </i>in the indicated device's PCI configuration space at an offset that is specified in <i>ConfigDataOffset</i>.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param ControllerExtension
 
 A pointer to the controller extension.
-
 
 ### -param Buffer
 
 A pointer to the buffer that contains the data to write to the device's PCI bus configuration space.
 
-
 ### -param ConfigDataOffset
 
 Specifies an offset into the device's PCI bus configuration data space where the data is updated.
-
 
 ### -param BufferLength
 
@@ -80,19 +73,11 @@ Specifies the length, in bytes, of the buffer.
 
 Contains a data mask buffer that controls which bits of PCI bus configuration data must be updated. The length of <i>Datamask </i>must be the same length as <i>Buffer.</i>
 
-
 ## -returns
-
-
 
 <b>AtaPortSetBusData</b> returns the amount of the data that was written in bytes.
 
-
-
-
 ## -remarks
-
-
 
 <b>AtaPortSetBusData</b> completes a bitwise OR, one byte at a time, of the current PCI configuration space data with the new data in <i>Buffer</i>. Only those bits not indicated by <i>DataMask</i> are left untouched. The byte of data that follows <i>ConfigDataOffset</i>, therefore, is updated as follows:
 
@@ -109,15 +94,7 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetbusdata">AtaPortGetBusData</a>
- 
-
- 
 

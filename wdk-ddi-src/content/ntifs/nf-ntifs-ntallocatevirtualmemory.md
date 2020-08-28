@@ -7,9 +7,6 @@ ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.date: 05/20/2020
 keywords: ["NtAllocateVirtualMemory function"]
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, NtAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.ntallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
-f1_keywords:
- - "ntifs/ZwAllocateVirtualMemory"
- - "ZwAllocateVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,21 +24,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwAllocateVirtualMemory
-- NtAllocateVirtualMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtAllocateVirtualMemory
+ - ntifs/NtAllocateVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwAllocateVirtualMemory
+ - NtAllocateVirtualMemory
 ---
 
 # NtAllocateVirtualMemory function
+
 
 ## -description
 
@@ -50,22 +51,27 @@ The **NtAllocateVirtualMemory** routine reserves, commits, or both, a region of 
 ## -parameters
 
 ### -param ProcessHandle 
+
 [in]
 A handle for the process for which the mapping should be done. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
 
 ### -param BaseAddress 
+
 [in, out]
 A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of *BaseAddress* is non-**NULL**, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of *BaseAddress* is **NULL**, the operating system will determine where to allocate the region.
 
 ### -param ZeroBits 
+
 [in]
 The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when *BaseAddress** is **NULL**. Note that when ZeroBits is larger than 32, it becomes a bitmask.
 
 ### -param RegionSize 
+
 [in, out]
 A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of *RegionSize* specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. *RegionSize* cannot be zero on input.
 
 ### -param AllocationType 
+
 [in]
 A bitmask containing flags that specify the type of allocation to be performed for the specified region of pages. The following table describes the most common flags. See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) for a full list of possible flags and descriptions.
 
@@ -81,6 +87,7 @@ A bitmask containing flags that specify the type of allocation to be performed f
 | Other MEM_*XXX* flags | See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc). |
 
 ### -param Protect 
+
 [in]
 A bitmask containing page protection flags that specify the protection desired for the committed region of pages. The following table describes these flags.
 
@@ -139,3 +146,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 ## -see-also
 
 [**NtFreeVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntfreevirtualmemory)
+

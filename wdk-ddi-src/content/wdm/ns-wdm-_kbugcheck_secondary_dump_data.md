@@ -8,9 +8,6 @@ ms.assetid: dacb98cd-46bc-49d0-8ebd-29bb2dd5b713
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_SECONDARY_DUMP_DATA structure"]
 ms.keywords: "*PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_SECONDARY_DUMP_DATA, PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_SECONDARY_DUMP_DATA, kernel.kbugcheck_secondary_dump_data, kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, wdm/PKBUGCHECK_SECONDARY_DUMP_DATA"
-f1_keywords:
- - "wdm/KBUGCHECK_SECONDARY_DUMP_DATA"
- - "KBUGCHECK_SECONDARY_DUMP_DATA"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- KBUGCHECK_SECONDARY_DUMP_DATA
 targetos: Windows
 req.typenames: KBUGCHECK_SECONDARY_DUMP_DATA, *PKBUGCHECK_SECONDARY_DUMP_DATA
+f1_keywords:
+ - _KBUGCHECK_SECONDARY_DUMP_DATA
+ - wdm/_KBUGCHECK_SECONDARY_DUMP_DATA
+ - PKBUGCHECK_SECONDARY_DUMP_DATA
+ - wdm/PKBUGCHECK_SECONDARY_DUMP_DATA
+ - KBUGCHECK_SECONDARY_DUMP_DATA
+ - wdm/KBUGCHECK_SECONDARY_DUMP_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - KBUGCHECK_SECONDARY_DUMP_DATA
 ---
 
 # _KBUGCHECK_SECONDARY_DUMP_DATA structure
+
 
 ## -description
 
@@ -80,3 +85,4 @@ For more information about how this structure is used, see <a href="https://docs
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

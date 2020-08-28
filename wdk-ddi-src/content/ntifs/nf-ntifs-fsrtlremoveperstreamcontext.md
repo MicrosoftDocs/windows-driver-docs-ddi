@@ -8,9 +8,6 @@ ms.assetid: 4b046cfa-8f38-4910-8cb3-125395292bd2
 ms.date: 04/16/2018
 keywords: ["FsRtlRemovePerStreamContext function"]
 ms.keywords: FsRtlRemovePerStreamContext, FsRtlRemovePerStreamContext function [Installable File System Drivers], fsrtlref_904bd4dd-c254-4762-8af6-dcc49aaa5c92.xml, ifsk.fsrtlremoveperstreamcontext, ntifs/FsRtlRemovePerStreamContext
-f1_keywords:
- - "ntifs/FsRtlRemovePerStreamContext"
- - "FsRtlRemovePerStreamContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlRemovePerStreamContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlRemovePerStreamContext
+ - ntifs/FsRtlRemovePerStreamContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlRemovePerStreamContext
 ---
 
 # FsRtlRemovePerStreamContext function
@@ -46,44 +46,32 @@ req.typenames:
 
 ## -description
 
-
-<b>FsRtlRemovePerStreamContext</b> removes a per-stream context structure from the list of per-stream contexts associated with a file stream. 
-
+<b>FsRtlRemovePerStreamContext</b> removes a per-stream context structure from the list of per-stream contexts associated with a file stream.
 
 ## -parameters
 
-
-
-
 ### -param StreamContext 
-[in]
-Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlgetperstreamcontextpointer">FsRtlGetPerStreamContextPointer</a> macro. 
 
+[in]
+Pointer to the FSRTL_ADVANCED_FCB_HEADER structure for the file stream. To get this pointer from a file object, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlgetperstreamcontextpointer">FsRtlGetPerStreamContextPointer</a> macro.
 
 ### -param OwnerId 
-[in, optional]
-Used to identify context information as belonging to a particular filter driver. 
 
+[in, optional]
+Used to identify context information as belonging to a particular filter driver.
 
 ### -param InstanceId 
+
 [in, optional]
 Used to search for a particular instance of a per-stream context. If not provided, any of the contexts owned by the filter driver is removed and returned. 
 
 If neither the <i>OwnerId</i> nor the <i>InstanceId</i> is provided, any associated per-stream context will be removed and returned.
 
-
 ## -returns
 
-
-
-<b>FsRtlRemovePerStreamContext</b> returns a pointer to the per-stream context that is removed. If no match is found, or if the file system does not support filter contexts, <b>FsRtlRemovePerStreamContext</b> returns <b>NULL</b>. 
-
-
-
+<b>FsRtlRemovePerStreamContext</b> returns a pointer to the per-stream context that is removed. If no match is found, or if the file system does not support filter contexts, <b>FsRtlRemovePerStreamContext</b> returns <b>NULL</b>.
 
 ## -remarks
-
-
 
 A file system filter driver calls <b>FsRtlRemovePerStreamContext</b> to remove its own per-stream context structure from the list of per-stream contexts associated with a file stream. 
 
@@ -115,15 +103,9 @@ To retrieve a per-stream context structure that is associated with a file stream
 
 <b>FsRtlRemovePerStreamContext</b> can only be used on file systems that support filter contexts. 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-stream-context-in-a-legacy-file-system-filter-driver">Tracking Per-Stream Context in a Legacy File System Filter Driver</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-stream-context-in-a-legacy-file-system-filter-driver">Tracking Per-Stream Context in a Legacy File System Filter Driver</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a>
 
@@ -166,7 +148,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1a986b7b-b45b-4546-a14e-4abb76ddf764
 ms.date: 05/03/2018
 keywords: ["PWINDBG_DISASM callback function"]
 ms.keywords: Disasm, Disasm callback function [Windows Debugging], PWINDBG_DISASM, PWINDBG_DISASM callback, WdbgExts_Ref_787ab353-1829-4111-8931-2192bfb9cd0c.xml, debugger.disasm, wdbgexts/Disasm
-f1_keywords:
- - "wdbgexts/Disasm"
- - "Disasm"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdbgexts.h
-api_name:
-- Disasm
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PWINDBG_DISASM
+ - wdbgexts/PWINDBG_DISASM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdbgexts.h
+api_name:
+ - Disasm
 ---
 
 # PWINDBG_DISASM callback function
@@ -46,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>PWINDBG_DISASM</b> (<b>Disasm</b>) function disassembles the instruction pointed to by <i>lpOffset</i> and places the printable string into <i>lpBuffer</i>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpOffset
 
 Points to the instruction to be disassembled.
 
-
 ### -param lpBuffer
 
 Receives the disassembled instruction.
-
 
 ### -param fShowEffectiveAddress
 
 Specifies whether or not to print the effective address.
 
-
 ## -returns
 
-
-
 If the routine succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
-
-
 

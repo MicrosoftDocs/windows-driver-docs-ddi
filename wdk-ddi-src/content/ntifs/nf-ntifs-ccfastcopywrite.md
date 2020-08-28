@@ -8,9 +8,6 @@ ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.date: 04/16/2018
 keywords: ["CcFastCopyWrite function"]
 ms.keywords: CcFastCopyWrite, CcFastCopyWrite routine [Installable File System Drivers], ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite
-f1_keywords:
- - "ntifs/CcFastCopyWrite"
- - "CcFastCopyWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcFastCopyWrite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcFastCopyWrite
+ - ntifs/CcFastCopyWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcFastCopyWrite
 ---
 
 # CcFastCopyWrite function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcFastCopyWrite</b> routine performs a fast copy write from a buffer in memory to a cached file.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 Pointer to a file object for the cached file to which the data is to be written.
 
-
 ### -param FileOffset 
+
 [in]
 Pointer to a variable that specifies the starting byte offset within the cached file.
 
-
 ### -param Length 
+
 [in]
 Length in bytes of the data to be written.
 
-
 ### -param Buffer 
+
 [in]
 Pointer to the buffer from which the data is to be copied.
 
-
 ## -remarks
-
-
 
 <b>CcFastCopyWrite</b> is a faster version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
 
@@ -101,20 +94,11 @@ If any failure occurs, <b>CcFastCopyWrite</b> raises a status exception for that
 
 To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
- 
-
- 
 

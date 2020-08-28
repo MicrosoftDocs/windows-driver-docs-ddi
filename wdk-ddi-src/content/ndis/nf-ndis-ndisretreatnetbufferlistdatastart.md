@@ -8,9 +8,6 @@ ms.assetid: 76a1294f-d098-4751-9b59-923993379c6e
 ms.date: 05/02/2018
 keywords: ["NdisRetreatNetBufferListDataStart function"]
 ms.keywords: NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, netvista.ndisretreatnetbufferlistdatastart
-f1_keywords:
- - "ndis/NdisRetreatNetBufferListDataStart"
- - "NdisRetreatNetBufferListDataStart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisRetreatNetBufferListDataStart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRetreatNetBufferListDataStart
+ - ndis/NdisRetreatNetBufferListDataStart
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisRetreatNetBufferListDataStart
 ---
 
 # NdisRetreatNetBufferListDataStart function
@@ -47,39 +47,35 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisRetreatNetBufferListDataStart</b> function to increase the 
   <i>used data space</i> in all the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
-
 ### -param DataOffsetDelta 
+
 [in]
 The amount of additional 
      <i>used data space</i> in each NET_BUFFER structure. If there is not enough 
      <i>unused data space</i> to satisfy the request, NDIS allocates more memory.
 
-
 ### -param DataBackFill 
+
 [in]
 If NDIS must allocate memory, this parameter specifies the amount of data space in addition to the
      value of the 
      <i>DataOffsetDelta</i> parameter to allocate.
 
-
 ### -param AllocateMdlHandler 
+
 [in, optional]
 An optional entry point for an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function. If the caller
@@ -87,8 +83,8 @@ An optional entry point for an
      <i>NetAllocateMdl</i> function, NDIS calls 
      <i>NetAllocateMdl</i> to allocate an MDL and memory.
 
-
 ### -param FreeMdlHandler 
+
 [in, optional]
 An optional entry point for an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function. If the caller
@@ -96,10 +92,7 @@ An optional entry point for an
      <i>NetFreeMdl</i> function, NDIS calls 
      <i>NetFreeMdl</i> to free an MDL and memory.
 
-
 ## -returns
-
-
 
 <b>NdisRetreatNetBufferListDataStart</b> returns one of the following:
 
@@ -144,14 +137,8 @@ An optional entry point for an
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling 
     <b>NdisRetreatNetBufferListDataStart</b> is the equivalent of calling the 
@@ -173,13 +160,7 @@ Call the
     structure. Calling 
     <b>NdisAdvanceNetBufferListDataStart</b> is more efficient.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -209,7 +190,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 9bec95c9-785f-4578-a28a-6cffc986a3b9
 ms.date: 02/26/2018
 keywords: ["WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure"]
 ms.keywords: "*PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, kmdf.wdf_child_identification_description_header, wdf.wdf_child_identification_description_header, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
-f1_keywords:
- - "wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
- - "WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfchildlist.h
-api_name:
-- WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
 targetos: Windows
 req.typenames: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+f1_keywords:
+ - _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+ - wdfchildlist/_WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+ - PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+ - wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+ - WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+ - wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfchildlist.h
+api_name:
+ - WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
 ---
 
 # _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure
@@ -46,25 +50,17 @@ req.typenames: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFI
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</b> structure is a header structure that must be the first member of every <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IdentificationDescriptionSize
 
 The size, in bytes, of a driver-defined structure that contains device identification information.
 
-
 ## -remarks
-
-
 
 To initialize a <b>WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</b> structure, your driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdf_child_identification_description_header_init">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>.
 
@@ -104,13 +100,7 @@ WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(&ID_Description,
 </table></span></div>
 For more information about identification descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
@@ -121,7 +111,4 @@ For more information about identification descriptions, see <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a>
- 
-
- 
 

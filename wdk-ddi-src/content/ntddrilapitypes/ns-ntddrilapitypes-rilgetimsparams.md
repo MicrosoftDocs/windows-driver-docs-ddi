@@ -8,9 +8,6 @@ ms.assetid: 4e8f01af-9279-483a-90f9-d0391122ba5b
 ms.date: 05/02/2018
 keywords: ["RILGETIMSPARAMS structure"]
 ms.keywords: "*LPRILGETIMSPARAMS, RILGETIMSPARAMS, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetimsparams, ntddrilapitypes/RILGETIMSPARAMS"
-f1_keywords:
- - "ntddrilapitypes/RILGETIMSPARAMS"
- - "RILGETIMSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILGETIMSPARAMS
 targetos: Windows
 req.typenames: RILGETIMSPARAMS, *LPRILGETIMSPARAMS
+f1_keywords:
+ - RILGETIMSPARAMS
+ - ntddrilapitypes/RILGETIMSPARAMS
+ - LPRILGETIMSPARAMS
+ - ntddrilapitypes/LPRILGETIMSPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILGETIMSPARAMS
 ---
 
 # RILGETIMSPARAMS structure
@@ -46,17 +48,11 @@ req.typenames: RILGETIMSPARAMS, *LPRILGETIMSPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwExecutor
 

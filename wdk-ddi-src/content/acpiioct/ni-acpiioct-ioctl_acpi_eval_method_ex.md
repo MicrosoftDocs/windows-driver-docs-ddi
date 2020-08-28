@@ -8,9 +8,6 @@ ms.assetid: 5c8a1038-efc7-424a-8ef9-fd28d0dcb13c
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_EVAL_METHOD_EX IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_EX, IOCTL_ACPI_EVAL_METHOD_EX control, IOCTL_ACPI_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_b4baf4b9-b239-4b7e-b171-775b6b59a929.xml, acpi.ioctl_acpi_eval_method_ex, acpiioct/IOCTL_ACPI_EVAL_METHOD_EX
-f1_keywords:
- - "acpiioct/IOCTL_ACPI_EVAL_METHOD_EX"
- - "IOCTL_ACPI_EVAL_METHOD_EX"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- IOCTL_ACPI_EVAL_METHOD_EX
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_ACPI_EVAL_METHOD_EX
+ - acpiioct/IOCTL_ACPI_EVAL_METHOD_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - IOCTL_ACPI_EVAL_METHOD_EX
 ---
 
 # IOCTL_ACPI_EVAL_METHOD_EX IOCTL
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-A driver for a device can use the IOCTL_ACPI_EVAL_METHOD_EX device control request to synchronously evaluate an ACPI control method that is supported by a child device in the namespace of the device. The driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request. 
-
+A driver for a device can use the IOCTL_ACPI_EVAL_METHOD_EX device control request to synchronously evaluate an ACPI control method that is supported by a child device in the namespace of the device. The driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -94,7 +89,6 @@ Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
 
 <i>InputBufferLength</i> is set to the size, in bytes, of the input buffer that is supplied by <i>InputBuffer</i>.
 
-
 ### -output-buffer
 
 Set the <i>IoBuildDeviceIoControlRequest</i> output parameters as follows:
@@ -114,24 +108,9 @@ Set the <i>IoBuildDeviceIoControlRequest</i> output parameters as follows:
 
 <i>OutputBufferLength</i> supplies the size, in bytes, of the output buffer that is supplied by <i>OutputBuffer</i>.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -139,10 +118,7 @@ If the request succeeds, <i>IoStatusBlock</i>-><b>Status</b> is set to STATUS_SU
 
 If the request succeeds, the <i>IoStatusBlock</i>-><b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
 
-
 ## -remarks
-
-
 
 A driver for a device can use IOCTL_ACPI_EVAL_METHOD_EX to synchronously evaluate a control method that is supported by a child object in the namespace of the device. The path and name of the control method that is supplied by this request must be either the fully qualified path and name of the method in the ACPI namespace or the path and name of the method relative to the device to which the request is sent. For example, assume that a device named 'ABCD' is an immediate child of the root of an ACPI namespace, that the 'ABCD' device supports a child device named 'CHLD,' and that the 'CHLD' device supports a method named '_FOO.' In this case, to evaluate the '_FOO' method, a driver sends an evaluation request to the 'ABCD' device and supplies either the path and name '\ABCD.CHLD._FOO,' which is the fully qualified path and name in the ACPI namespace, or the path and name 'CHLD._FOO,' which is the path and name relative to the 'ABCD' device in the ACPI namespace.
 
@@ -174,13 +150,7 @@ For information about how to evaluate an ACPI control method asynchronously star
 
 IOCTL_ACPI_EVAL_METHOD_EX can be used only at IRQL < DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
 
@@ -211,7 +181,4 @@ IOCTL_ACPI_EVAL_METHOD_EX can be used only at IRQL < DISPATCH_LEVEL.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method">IOCTL_ACPI_EVAL_METHOD</a>
- 
-
- 
 

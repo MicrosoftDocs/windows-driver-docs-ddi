@@ -8,9 +8,6 @@ ms.assetid: EB507DE2-354C-41D2-9BEE-091C4AE299EC
 ms.date: 05/02/2018
 keywords: ["NDK_FN_REQUEST_COMPLETION callback function"]
 ms.keywords: NDK_FN_REQUEST_COMPLETION, NDK_FN_REQUEST_COMPLETION callback, NdkRequestCompletion, NdkRequestCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRequestCompletion, netvista.ndk_fn_request_completion
-f1_keywords:
- - "ndkpi/NdkRequestCompletion"
- - "NdkRequestCompletion"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkRequestCompletion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_REQUEST_COMPLETION
+ - ndkpi/NDK_FN_REQUEST_COMPLETION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkRequestCompletion
 ---
 
 # NDK_FN_REQUEST_COMPLETION callback function
@@ -46,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkRequestCompletion</i> (<i>NDK_FN_REQUEST_COMPLETION</i>) function completes a pending NDK request.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in, optional]
 The context value passed to the NDK provider when a consumer calls an asynchronous request function. The asynchronous request function  provides the context with the with the <i>NdkRequestCompletion</i> (<i>NDK_FN_REQUEST_COMPLETION</i>) function pointer.
 
-
 ### -param Status 
+
 [in]
 The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
 
-
 ## -remarks
-
-
 
 Many NDK requests can be completed asynchronously. Asynchronous request functions require the consumer to pass an <i>NDK_FN_REQUEST_COMPLETION</i> function pointer as an input. If an asynchronous request function returns STATUS_PENDING, the provider must call the <i>NdkRequestCompletion</i> (<i>NDK_FN_REQUEST_COMPLETION</i>)  function to indicate completion of the request. If an asynchronous request functions returns anything other than STATUS_PENDING,   the request was handled immediately and the provider must not call <i>NdkRequestCompletion</i>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>
- 
-
- 
 

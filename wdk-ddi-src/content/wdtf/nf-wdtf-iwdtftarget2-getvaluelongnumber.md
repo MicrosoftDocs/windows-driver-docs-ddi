@@ -8,9 +8,6 @@ ms.assetid: 9336d850-1d42-47e5-9a69-f15e1147a71f
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2::GetValueLongNumber"]
 ms.keywords: GetValueLongNumber, GetValueLongNumber method [Windows Device Testing Framework], GetValueLongNumber method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueLongNumber method, IWDTFTarget2.GetValueLongNumber, IWDTFTarget2::GetValueLongNumber, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumber, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumber, dtf.iwdtftarget2_getvaluelongnumber, wdtf/IWDTFTarget2::GetValueLongNumber
-f1_keywords:
- - "wdtf/IWDTFTarget2.GetValueLongNumber"
- - "IWDTFTarget2.GetValueLongNumber"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTarget2.GetValueLongNumber
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTarget2::GetValueLongNumber
+ - wdtf/IWDTFTarget2::GetValueLongNumber
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTarget2.GetValueLongNumber
 ---
 
 # IWDTFTarget2::GetValueLongNumber
@@ -46,54 +46,33 @@ req.typenames:
 
 ## -description
 
-
 Returns a long number value from the target that is associated with a specified attribute.
-
 
 ## -parameters
 
-
-
-
 ### -param SDEL 
+
 [in]
 An SDEL statement that specifies the attribute value to retrieve.
 
-
 ### -param pValue 
+
 [out, retval]
 The address of a variable that receives the result of this method.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -remarks
-
-
 
 You specify the field that the<b> GetValueLongNumber</b> method retrieves 
 by using a regular <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">SDEL</a> 
 statement. Typically, an SDEL statement can contain comparison operators and value specifiers to 
 perform matches. However, you do not need these items for <b>GetValueLongNumber</b> 
-to work properly. 
-
-
-
+to work properly.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
- 
-
- 
 

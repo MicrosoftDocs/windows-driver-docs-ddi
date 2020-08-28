@@ -8,37 +8,37 @@ ms.assetid: b52bafee-d541-4396-be0a-06956d07fb2b
 ms.date: 02/24/2018
 keywords: ["SRIOV_GET_RESOURCE_FOR_BAR callback"]
 ms.keywords: "*PSRIOV_GET_RESOURCE_FOR_BAR, *PSRIOV_GET_RESOURCE_FOR_BAR callback function pointer [Buses], PCI.sriov_get_resource_for_bar, SRIOV_GET_RESOURCE_FOR_BAR, SriovGetResourceForBar, SriovGetResourceForBar callback function [Buses], pcivirt/SriovGetResourceForBar"
-f1_keywords:
- - "pcivirt/*PSRIOV_GET_RESOURCE_FOR_BAR"
- - "*PSRIOV_GET_RESOURCE_FOR_BAR"
 req.header: pcivirt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- pcivirt.h
-api_name:
-- PSRIOV_GET_RESOURCE_FOR_BAR
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+f1_keywords:
+ - SRIOV_GET_RESOURCE_FOR_BAR
+ - pcivirt/SRIOV_GET_RESOURCE_FOR_BAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - pcivirt.h
+api_name:
+ - PSRIOV_GET_RESOURCE_FOR_BAR
 ---
 
 # SRIOV_GET_RESOURCE_FOR_BAR callback
@@ -46,12 +46,37 @@ req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 
 ## -description
 
-
 Gets the translated resource for a specific Base Address Register (BAR)
 
+## -parameters
+
+### -param Context 
+
+[in]
+A pointer to a driver-defined context.
+
+### -param VfIndex 
+
+[in]
+A zero-based index of the VF that is being queried.
+
+### -param BarIndex 
+
+[in]
+The index of the BAR (between 0 and 5).
+
+### -param Resource 
+
+[out]
+
+
+                A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -prototype
-
 
 ```cpp
 SRIOV_GET_RESOURCE_FOR_BAR SriovGetResourceForBar;
@@ -67,49 +92,7 @@ NTSTATUS SriovGetResourceForBar(
 typedef SRIOV_GET_RESOURCE_FOR_BAR *PSRIOV_GET_RESOURCE_FOR_BAR;
 ```
 
-
-## -parameters
-
-
-
-
-### -param Context 
-[in]
-A pointer to a driver-defined context.
-
-
-
-
-### -param VfIndex 
-[in]
-A zero-based index of the VF that is being queried.
-
-
-### -param BarIndex 
-[in]
-The index of the BAR (between 0 and 5).
-
-
-### -param Resource 
-[out]
-
-
-                A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.
-
-
-## -returns
-
-
-
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to access  the translated hardware resources of a particular BAR of a virtual function.
 
@@ -174,5 +157,4 @@ Virtualization_GetResourceForBar(
 </td>
 </tr>
 </table></span></div>
-
 

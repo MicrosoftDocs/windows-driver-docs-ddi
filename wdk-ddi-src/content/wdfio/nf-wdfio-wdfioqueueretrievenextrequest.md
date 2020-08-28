@@ -8,9 +8,6 @@ ms.assetid: 1cde2e20-5ce6-4c5b-b40c-0b04da76980c
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueRetrieveNextRequest function"]
 ms.keywords: DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml, WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest method, kmdf.wdfioqueueretrievenextrequest, wdf.wdfioqueueretrievenextrequest, wdfio/WdfIoQueueRetrieveNextRequest
-f1_keywords:
- - "wdfio/WdfIoQueueRetrieveNextRequest"
- - "WdfIoQueueRetrieveNextRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoQueueRetrieveNextRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoQueueRetrieveNextRequest
+ - wdfio/WdfIoQueueRetrieveNextRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoQueueRetrieveNextRequest
 ---
 
 # WdfIoQueueRetrieveNextRequest function
@@ -49,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfIoQueueRetrieveNextRequest</b> method retrieves the next available I/O request from a specified I/O queue. 
-
+The <b>WdfIoQueueRetrieveNextRequest</b> method retrieves the next available I/O request from a specified I/O queue.
 
 ## -parameters
 
-
-
-
 ### -param Queue 
+
 [in]
 A handle to a framework queue object.
 
-
 ### -param OutRequest 
+
 [out]
 A pointer to a location that receives a handle to a framework request object. If the queue is empty or the last request has been retrieved, this parameter receives <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfIoQueueRetrieveNextRequest</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -132,14 +125,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 If a driver configures an I/O queue for manual dispatching of I/O requests, the driver typically calls <b>WdfIoQueueRetrieveNextRequest</b> to obtain requests from the queue. A driver that has configured an I/O queue for sequential dispatching might also call <b>WdfIoQueueRetrieveNextRequest</b>. For more information about using <b>WdfIoQueueRetrieveNextRequest</b> with the manual or sequential dispatching methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>. 
 
@@ -162,19 +148,11 @@ status = WdfIoQueueRetrieveNextRequest(
                                        );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueueretrieverequestbyfileobject">WdfIoQueueRetrieveRequestByFileObject</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: ff387b49-fecb-41d0-aac5-0a83eb8835d6
 ms.date: 05/02/2018
 keywords: ["FwpsReferenceNetBufferList0 function"]
 ms.keywords: FwpsReferenceNetBufferList0, FwpsReferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferenceNetBufferList0, netvista.fwpsreferencenetbufferlist0, wfp_ref_2_funct_3_fwps_R-Z_87b01939-7e75-4049-ae3a-07db074a3e62.xml
-f1_keywords:
- - "fwpsk/FwpsReferenceNetBufferList0"
- - "FwpsReferenceNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsReferenceNetBufferList0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsReferenceNetBufferList0
+ - fwpsk/FwpsReferenceNetBufferList0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsReferenceNetBufferList0
 ---
 
 # FwpsReferenceNetBufferList0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsReferenceNetBufferList0</b> function increments the reference count for a 
@@ -55,17 +54,15 @@ The
 
 ## -parameters
 
-
-
-
 ### -param netBufferList 
+
 [in, out]
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      reference count is being incremented.
 
-
 ### -param intendToModify 
+
 [in]
 A value that indicates whether a callout intends to modify the cloned network buffer list, whose
      parent is pointed to by the 
@@ -74,10 +71,7 @@ A value that indicates whether a callout intends to modify the cloned network bu
      the callout intends to modify the cloned net buffer list after 
      <i>classifyFn</i> has returned (an out-of-band modification). Otherwise, set to <b>FALSE</b>.
 
-
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsReferenceNetBufferList0</b> function to increment the reference count for a 
@@ -112,13 +106,7 @@ If the callout driver must wait for a potentially lengthy operation, it should m
 
 Callout drivers should always return held packets as quickly as possible.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsdereferencenetbufferlist0">
    FwpsDereferenceNetBufferList0</a>
@@ -130,7 +118,4 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

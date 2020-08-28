@@ -8,9 +8,6 @@ ms.assetid: fbe2c665-a7e8-43e4-95e5-a7e87521e163
 ms.date: 05/08/2018
 keywords: ["PcRequestNewPowerState function"]
 ms.keywords: PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], audio.pcrequestnewpowerstate, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState
-f1_keywords:
- - "portcls/PcRequestNewPowerState"
- - "PcRequestNewPowerState"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcRequestNewPowerState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcRequestNewPowerState
+ - portcls/PcRequestNewPowerState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcRequestNewPowerState
 ---
 
 # PcRequestNewPowerState function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcRequestNewPowerState</b> function is used to request a new power state for the device. This function is typically not needed by adapter drivers but can occasionally be useful in working around some kinds of hardware problems.
-
 
 ## -parameters
 
-
-
-
 ### -param pDeviceObject 
+
 [in]
 Pointer to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/">functional device object (FDO)</a>. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
-
 ### -param RequestedNewState 
+
 [in]
 Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
 
-
 ## -returns
-
-
 
 <b>PcRequestNewPowerState</b> returns STATUS_SUCCESS if the call was successful. Otherwise, returns an appropriate error message.
 
-
-
-
 ## -remarks
-
-
 
 An adapter driver can call <b>PcRequestNewPowerState</b> to compensate for hardware design flaws. For example, if the functions in an audio adapter are not mutually independent and need to be shut down in a particular order, the adapter can call <b>PcRequestNewPowerState</b> to ensure that a particular subdevice is shut down first.
 
@@ -135,16 +123,7 @@ The hardware can be accessed only in power state <b>PowerDeviceD0</b>. In any ot
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/power-management-for-audio-devices">Power Management for Audio Devices</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
- 
-
- 
 

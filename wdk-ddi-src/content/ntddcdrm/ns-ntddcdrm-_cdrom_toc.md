@@ -8,9 +8,6 @@ ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.date: 09/10/2019
 keywords: ["CDROM_TOC structure"]
 ms.keywords: "*PCDROM_TOC, CDROM_TOC, CDROM_TOC structure [Storage Devices], PCDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], _CDROM_TOC, ntddcdrm/CDROM_TOC, ntddcdrm/PCDROM_TOC, storage.cdrom_toc, structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml"
-f1_keywords:
- - "ntddcdrm/CDROM_TOC"
- - "CDROM_TOC"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -28,24 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- CDROM_TOC
 targetos: Windows
 req.typenames: CDROM_TOC, *PCDROM_TOC
+f1_keywords:
+ - _CDROM_TOC
+ - ntddcdrm/_CDROM_TOC
+ - PCDROM_TOC
+ - ntddcdrm/PCDROM_TOC
+ - CDROM_TOC
+ - ntddcdrm/CDROM_TOC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - CDROM_TOC
 ---
 
 # _CDROM_TOC structure
 
+
 ## -description
 
-Device control IRPs with a control code of [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex) and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of [TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_track_data) structures.  
+Device control IRPs with a control code of [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex) and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of [TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_track_data) structures.
 
 ## -struct-fields
 
@@ -76,3 +81,4 @@ The output data contains table of contents information for one or more of the sp
 [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
 
 [TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_track_data)
+

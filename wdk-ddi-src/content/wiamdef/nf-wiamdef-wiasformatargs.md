@@ -8,13 +8,10 @@ ms.assetid: 409c4ff6-3a0e-408a-879d-2875ac245fb8
 ms.date: 05/03/2018
 keywords: ["wiasFormatArgs function"]
 ms.keywords: image.wiasformatargs, wiamdef/wiasFormatArgs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiasFormatArgs, wiasFormatArgs function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasFormatArgs"
- - "wiasFormatArgs"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasFormatArgs
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasFormatArgs
+ - wiamdef/wiasFormatArgs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasFormatArgs
 ---
 
 # wiasFormatArgs function
+
 
 ## -description
 
@@ -64,3 +65,4 @@ Specifies a variable argument list, which starts with an ANSI format string cont
 ## -returns
 
 This function returns a BSTR containing the format string, the arguments following the format string, and a format signature.
+

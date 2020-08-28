@@ -6,32 +6,35 @@ tech.root: netvista
 ms.assetid: 5caa9b1f-cafa-42d0-8402-86799fd8885f
 ms.date: 03/30/2018
 keywords: ["WDI_OS_POWER_MANAGEMENT_FLAGS enumeration"]
-f1_keywords:
- - "wditypes/_WDI_OS_POWER_MANAGEMENT_FLAGS"
- - "_WDI_OS_POWER_MANAGEMENT_FLAGS"
-ms.keywords: _WDI_OS_POWER_MANAGEMENT_FLAGS, WDI_OS_POWER_MANAGEMENT_FLAGS, 
+ms.keywords: _WDI_OS_POWER_MANAGEMENT_FLAGS, WDI_OS_POWER_MANAGEMENT_FLAGS,
 req.header: wditypes.hpp
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WDI_OS_POWER_MANAGEMENT_FLAGS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wditypes.hpp
-api_name: 
-- _WDI_OS_POWER_MANAGEMENT_FLAGS
 targetos: Windows
+f1_keywords:
+ - _WDI_OS_POWER_MANAGEMENT_FLAGS
+ - wditypes/_WDI_OS_POWER_MANAGEMENT_FLAGS
+ - WDI_OS_POWER_MANAGEMENT_FLAGS
+ - wditypes/WDI_OS_POWER_MANAGEMENT_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - _WDI_OS_POWER_MANAGEMENT_FLAGS
 ---
 
 # _WDI_OS_POWER_MANAGEMENT_FLAGS enumeration
+
 
 ## -description
 
@@ -56,3 +59,4 @@ Enable NAPS mode for screen on *S0* system power state (if supported by hardware
 This enumeration is used as the value type in [WDI_TLV_OS_POWER_MANAGEMENT_FEATURES](https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tlv-os-power-management-features).
 
 ## -see-also
+

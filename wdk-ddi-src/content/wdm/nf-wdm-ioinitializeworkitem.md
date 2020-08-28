@@ -8,9 +8,6 @@ ms.assetid: b7f4370e-75db-4238-8e23-9e48028a03f5
 ms.date: 04/30/2018
 keywords: ["IoInitializeWorkItem function"]
 ms.keywords: IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, kernel.ioinitializeworkitem, wdm/IoInitializeWorkItem
-f1_keywords:
- - "wdm/IoInitializeWorkItem"
- - "IoInitializeWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoInitializeWorkItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoInitializeWorkItem
+ - wdm/IoInitializeWorkItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoInitializeWorkItem
 ---
 
 # IoInitializeWorkItem function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoInitializeWorkItem</b> routine initializes a work item that the caller has already allocated.
-
 
 ## -parameters
 
-
-
-
 ### -param IoObject 
+
 [in]
 Pointer to the caller's driver object or to one of the caller's device objects. If the caller will later pass the work item to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>, <i>IoObject</i> must point to a device object.
 
-
 ### -param IoWorkItem 
+
 [in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure to initialize.
 
-
 ## -remarks
-
-
 
 The driver allocates its own storage for an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure, and then calls <b>IoInitializeWorkItem</b> to initialize it. Memory must be allocated from nonpaged pool. To determine the number of bytes that is necessary to hold an <b>IO_WORKITEM</b> structure, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosizeofworkitem">IoSizeofWorkItem</a>.
 
@@ -79,13 +72,7 @@ For example, a driver might allocate a block of storage for a pool of work items
 
 For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a>
 
@@ -108,7 +95,4 @@ For more information about work items, see <a href="https://docs.microsoft.com/w
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iouninitializeworkitem">IoUninitializeWorkItem</a>
- 
-
- 
 

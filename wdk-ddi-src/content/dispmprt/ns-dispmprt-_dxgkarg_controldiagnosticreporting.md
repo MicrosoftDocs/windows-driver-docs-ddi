@@ -5,38 +5,43 @@ description: Contains arguments for the call to DxgkDdiControlDiagnosticReportin
 ms.assetid: ac6a8e7d-85b8-4835-b8f6-827a6cbbee95
 ms.date: 10/19/2018
 keywords: ["DXGKARG_CONTROLDIAGNOSTICREPORTING structure"]
-f1_keywords:
- - "dispmprt/_DXGKARG_CONTROLDIAGNOSTICREPORTING"
- - "_DXGKARG_CONTROLDIAGNOSTICREPORTING"
 ms.keywords: _DXGKARG_CONTROLDIAGNOSTICREPORTING, *PDXGKARG_CONTROLDIAGNOSTICREPORTING, DXGKARG_CONTROLDIAGNOSTICREPORTING,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_CONTROLDIAGNOSTICREPORTING, *PDXGKARG_CONTROLDIAGNOSTICREPORTING
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- _DXGKARG_CONTROLDIAGNOSTICREPORTING
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARG_CONTROLDIAGNOSTICREPORTING
+ - dispmprt/_DXGKARG_CONTROLDIAGNOSTICREPORTING
+ - PDXGKARG_CONTROLDIAGNOSTICREPORTING
+ - dispmprt/PDXGKARG_CONTROLDIAGNOSTICREPORTING
+ - DXGKARG_CONTROLDIAGNOSTICREPORTING
+ - dispmprt/DXGKARG_CONTROLDIAGNOSTICREPORTING
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKARG_CONTROLDIAGNOSTICREPORTING
+product:
+ - Windows
 ---
 
 # _DXGKARG_CONTROLDIAGNOSTICREPORTING structure
+
 
 ## -description
 

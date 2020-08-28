@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetMonitorDescriptorSet"
- - "pfnGetMonitorDescriptorSet"
+ - DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
+ - d3dkmddi/DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET callback function
+
 
 ## -description
 

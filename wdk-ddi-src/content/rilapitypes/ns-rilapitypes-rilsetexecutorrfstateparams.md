@@ -8,9 +8,6 @@ ms.assetid: d7f36cbd-56bb-470e-b965-369b9e49f5e2
 ms.date: 05/02/2018
 keywords: ["RILSETEXECUTORRFSTATEPARAMS structure"]
 ms.keywords: "*LPRILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorrfstateparams, ntddrilapitypes/RILSETEXECUTORRFSTATEPARAMS"
-f1_keywords:
- - "rilapitypes/RILSETEXECUTORRFSTATEPARAMS"
- - "RILSETEXECUTORRFSTATEPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSETEXECUTORRFSTATEPARAMS
 targetos: Windows
 req.typenames: RILSETEXECUTORRFSTATEPARAMS, *LPRILSETEXECUTORRFSTATEPARAMS
+f1_keywords:
+ - RILSETEXECUTORRFSTATEPARAMS
+ - rilapitypes/RILSETEXECUTORRFSTATEPARAMS
+ - LPRILSETEXECUTORRFSTATEPARAMS
+ - rilapitypes/LPRILSETEXECUTORRFSTATEPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSETEXECUTORRFSTATEPARAMS
 ---
 
 # RILSETEXECUTORRFSTATEPARAMS structure
@@ -46,17 +48,11 @@ req.typenames: RILSETEXECUTORRFSTATEPARAMS, *LPRILSETEXECUTORRFSTATEPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
-
 
 ### -field fExecutorRFState
 

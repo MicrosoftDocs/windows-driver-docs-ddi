@@ -8,9 +8,6 @@ ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.date: 02/26/2018
 keywords: ["IWDFInterrupt::SetExtendedPolicy"]
 ms.keywords: IWDFInterrupt interface,SetExtendedPolicy method, IWDFInterrupt.SetExtendedPolicy, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy, SetExtendedPolicy method, SetExtendedPolicy method,IWDFInterrupt interface, umdf.iwdfinterrupt_setextendedpolicy, wdf.iwdfinterrupt_setextendedpolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy
-f1_keywords:
- - "wudfddi/IWDFInterrupt.SetExtendedPolicy"
- - "IWDFInterrupt.SetExtendedPolicy"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFInterrupt.SetExtendedPolicy
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFInterrupt::SetExtendedPolicy
+ - wudfddi/IWDFInterrupt::SetExtendedPolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFInterrupt.SetExtendedPolicy
 ---
 
 # IWDFInterrupt::SetExtendedPolicy
@@ -46,26 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetExtendedPolicy</b> method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
-  
-
 
 ## -parameters
 
-
-
-
 ### -param PolicyAndGroup 
+
 [in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_extended_policy">WDF_INTERRUPT_EXTENDED_POLICY</a> structure that the driver has previously initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdf_interrupt_extended_policy_init">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>.
 
-
 ## -remarks
-
-
 
 This method is equivalent to KMDF’s <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetextendedpolicy">WdfInterruptSetExtendedPolicy</a>. See the Remarks section of <b>WdfInterruptSetExtendedPolicy</b> for more information about this method.
 
@@ -106,12 +98,7 @@ pInterrupt->SetExtendedPolicy(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
 
@@ -122,7 +109,4 @@ pInterrupt->SetExtendedPolicy(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdf_interrupt_extended_policy_init">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
- 
-
- 
 

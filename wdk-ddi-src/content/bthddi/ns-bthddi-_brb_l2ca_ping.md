@@ -8,9 +8,6 @@ ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
 ms.date: 04/27/2018
 keywords: ["BRB_L2CA_PING structure"]
 ms.keywords: "_BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices], bltooth._brb_l2ca_ping, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bthddi/_BRB_L2CA_PING"
-f1_keywords:
- - "bthddi/_BRB_L2CA_PING"
- - "_BRB_L2CA_PING"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_L2CA_PING
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_L2CA_PING
+ - bthddi/_BRB_L2CA_PING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_L2CA_PING
 ---
 
 # _BRB_L2CA_PING structure
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The _BRB_L2CA_PING structure describes a request to ping a remote radio.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -61,35 +56,27 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
-
 ### -field BtAddress
 
 The address of the device that the ping is sent to.
-
 
 ### -field PingRequestLength
 
 The length, in bytes, of the data to send in the ping signal.
 
-
 ### -field PingRequestData
 
 The data to send in the ping signal.
-
 
 ### -field PingResponseLength
 
 The length, in bytes, of the data that the remote device responded to the ping signal with.
 
-
 ### -field PingResponseData
 
 The data that the remote device responded to the ping signal with.
 
-
 ## -remarks
-
-
 
 To ping a remote radio, by transmitting a L2CA_EchoReq message and receiving a L2CAP_EchoRsp message,
     profile drivers should 
@@ -98,20 +85,11 @@ To ping a remote radio, by transmitting a L2CA_EchoReq message and receiving a L
 
 BRB_L2CA_PING is primarily used for debugging.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff536617(v=vs.85)">BRB_L2CA_PING</a>
- 
-
- 
 

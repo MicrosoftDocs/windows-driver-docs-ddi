@@ -8,9 +8,6 @@ ms.assetid: 2C53ABFD-127C-42E6-86B6-EB0DC6FC62F1
 ms.date: 05/03/2018
 keywords: ["EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL, EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback, EvtSensorGetDataInterval, EvtSensorGetDataInterval callback function [Sensor Devices], sensors.evtsensorgetdatainterval, sensorscx/EvtSensorGetDataInterval
-f1_keywords:
- - "sensorscx/EvtSensorGetDataInterval"
- - "EvtSensorGetDataInterval"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- SensorsCx.h
-api_name:
-- EvtSensorGetDataInterval
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SENSOR_DRIVER_GET_DATA_INTERVAL
+ - sensorscx/EVT_SENSOR_DRIVER_GET_DATA_INTERVAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - SensorsCx.h
+api_name:
+ - EvtSensorGetDataInterval
 ---
 
 # EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback function
@@ -46,34 +46,23 @@ req.typenames:
 
 ## -description
 
-
 This callback function returns the data interval for a specified sensor.
 
-
 ## -parameters
-
-
-
 
 ### -param Sensor 
 
 [in] A reference to a sensor object.
 
-
 ### -param pDataRateMs
 
 [out] The data interval for the specified <b>Sensor</b>.
 
-
 ## -returns
-
-
 
 This function returns STATUS_SUCCESS when completed successfully.
 
 <b>Note</b> The class extension (CX) only uses the NT_SUCCESS macro to 
 		  determine if the call to the driver’s Evt function was successful, 
 		  but does not take any action if the function failed or does not return STATUS_SUCCESS.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 723c6bf7-beb9-4ab8-8b84-ac22388022b9
 ms.date: 05/02/2018
 keywords: ["RILSMSSUPPORTCAPS enumeration"]
 ms.keywords: RILSMSSUPPORTCAPS, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps, ntddrilapitypes/RILSMSSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_ALL
-f1_keywords:
- - "ntddrilapitypes/RILSMSSUPPORTCAPS"
- - "RILSMSSUPPORTCAPS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSMSSUPPORTCAPS
 targetos: Windows
 req.typenames: RILSMSSUPPORTCAPS
+f1_keywords:
+ - RILSMSSUPPORTCAPS
+ - ntddrilapitypes/RILSMSSUPPORTCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSMSSUPPORTCAPS
 ---
 
 # RILSMSSUPPORTCAPS enumeration
@@ -46,20 +46,13 @@ req.typenames: RILSMSSUPPORTCAPS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_CAPS_SMSSUPPORT_PERSISTLINK
 
-
 ### -field RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER
-
 
 ### -field RIL_CAPS_SMSSUPPORT_ALL
 

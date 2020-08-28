@@ -6,44 +6,42 @@ tech.root: netvista
 ms.assetid: 0767d0c0-d648-4dca-a664-a514de495c3d
 ms.date: 01/31/2019
 keywords: ["NetTxQueueGetRingCollection function"]
-f1_keywords:
- - "nettxqueue/NetTxQueueCreate"
- - "NetTxQueueCreate"
 ms.keywords: NetTxQueueGetRingCollection
 req.header: nettxqueue.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topictype: 
-- apiref
-apitype: 
-- DllExport
-apilocation: 
-- NtosKrnl.exe
-apiname: 
-- NetTxQueueGetRingCollection
 targetos: Windows
-
+f1_keywords:
+ - NetTxQueueGetRingCollection
+ - nettxqueue/NetTxQueueGetRingCollection
+topictype:
+ - apiref
+apitype:
+ - DllExport
+apilocation:
+ - NtosKrnl.exe
+apiname:
+ - NetTxQueueGetRingCollection
 ---
 
 # NetTxQueueGetRingCollection function
 
 
 ## -description
-
 
 The **NetTxQueueGetRingCollection** method retrieves the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure for a transmit (Tx) queue.
 
@@ -62,3 +60,4 @@ Returns a pointer to the queue's [**NET_RING_COLLECTION**](../ringcollection/ns-
 Use the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure returned by this method to access a transmit queue's net rings.
 
 ## -see-also
+

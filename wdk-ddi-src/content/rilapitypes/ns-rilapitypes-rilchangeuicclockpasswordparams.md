@@ -8,9 +8,6 @@ ms.assetid: 00e2fe6f-fd8b-45d1-9fd2-d90c515c3571
 ms.date: 05/02/2018
 keywords: ["RILCHANGEUICCLOCKPASSWORDPARAMS structure"]
 ms.keywords: "*LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangeuicclockpasswordparams, ntddrilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
-f1_keywords:
- - "rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
- - "RILCHANGEUICCLOCKPASSWORDPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCHANGEUICCLOCKPASSWORDPARAMS
 targetos: Windows
 req.typenames: RILCHANGEUICCLOCKPASSWORDPARAMS, *LPRILCHANGEUICCLOCKPASSWORDPARAMS
+f1_keywords:
+ - RILCHANGEUICCLOCKPASSWORDPARAMS
+ - rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS
+ - LPRILCHANGEUICCLOCKPASSWORDPARAMS
+ - rilapitypes/LPRILCHANGEUICCLOCKPASSWORDPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCHANGEUICCLOCKPASSWORDPARAMS
 ---
 
 # RILCHANGEUICCLOCKPASSWORDPARAMS structure
@@ -46,17 +48,11 @@ req.typenames: RILCHANGEUICCLOCKPASSWORDPARAMS, *LPRILCHANGEUICCLOCKPASSWORDPARA
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field lockCredential
-
 
 ### -field szNewPassword
 

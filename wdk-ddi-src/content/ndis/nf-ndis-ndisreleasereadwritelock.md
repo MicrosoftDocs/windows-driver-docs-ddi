@@ -8,44 +8,43 @@ ms.assetid: a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2
 ms.date: 03/26/2018
 keywords: ["NdisReleaseReadWriteLock function"]
 ms.keywords: NdisReleaseReadWriteLock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseReadWriteLock, ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, netvista.ndisreleasereadwritelock
-f1_keywords:
- - "ndis/NdisReleaseReadWriteLock"
- - "NdisReleaseReadWriteLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Deprecated for NDIS 6.20 and later drivers, which should use NdisReleaseRWLock instead of NdisReleaseReadWriteLock. Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisReleaseReadWriteLock (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisReleaseReadWriteLock (NDIS   5.1)) in Windows XP.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.ddi-compliance: Irql_Synch_Function
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ndis.sys
-api_name:
-- NdisReleaseReadWriteLock
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+f1_keywords:
+ - NdisReleaseReadWriteLock
+ - ndis/NdisReleaseReadWriteLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ndis.sys
+api_name:
+ - NdisReleaseReadWriteLock
 ---
 
 # NdisReleaseReadWriteLock function
 
 
 ## -description
-
 
 The
   <b>NdisReleaseReadWriteLock</b> function releases a lock that was acquired in a preceding call to
@@ -54,13 +53,10 @@ The
 
 ## -parameters
 
-
-
-
 ### -param Lock 
+
 [in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_rw_lock">NDIS_RW_LOCK</a> variable for the acquired lock to be released.
-
 
 ### -param _Requires_lock_held_
 
@@ -68,8 +64,6 @@ A pointer to an opaque <a href="https://docs.microsoft.com/windows-hardware/driv
      in the interval between the time the caller acquires and releases the lock.
 
 ## -remarks
-
-
 
 A driver must initialize a lock before calling any other
     Ndis<i>Xxx</i>ReadWriteLock function that is used to acquire or release read or write access to the
@@ -86,13 +80,7 @@ A driver must call the
 <b>NdisReleaseReadWriteLock</b> restores the original IRQL that was used by its caller before the call to
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a> was made.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state">LOCK_STATE</a>
 
@@ -111,7 +99,4 @@ A driver must call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleaserwlock">NdisReleaseRWLock</a>
- 
-
- 
 

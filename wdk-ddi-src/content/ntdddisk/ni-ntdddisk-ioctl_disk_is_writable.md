@@ -8,9 +8,6 @@ ms.assetid: 073dd5d4-d6b9-42c8-adb2-1d6c53f2a352
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_IS_WRITABLE IOCTL"]
 ms.keywords: IOCTL_DISK_IS_WRITABLE, IOCTL_DISK_IS_WRITABLE control, IOCTL_DISK_IS_WRITABLE control code [Storage Devices], k307_b5d259a8-bf23-4475-98ce-69c87b3de52c.xml, ntdddisk/IOCTL_DISK_IS_WRITABLE, storage.ioctl_disk_is_writable
-f1_keywords:
- - "ntdddisk/IOCTL_DISK_IS_WRITABLE"
- - "IOCTL_DISK_IS_WRITABLE"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntdddisk.h
-api_name:
-- IOCTL_DISK_IS_WRITABLE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_DISK_IS_WRITABLE
+ - ntdddisk/IOCTL_DISK_IS_WRITABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntdddisk.h
+api_name:
+ - IOCTL_DISK_IS_WRITABLE
 ---
 
 # IOCTL_DISK_IS_WRITABLE IOCTL
@@ -46,55 +46,29 @@ req.typenames:
 
 ## -description
 
-
-
 Determines whether a disk is writable.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

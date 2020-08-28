@@ -8,9 +8,6 @@ ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.date: 04/20/2018
 keywords: ["PSPINFO structure"]
 ms.keywords: "*PPSPINFO, PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO, PSPINFO structure [Print Devices], _PSPINFO, compstui/PPSPINFO, compstui/PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, print.pspinfo"
-f1_keywords:
- - "compstui/PSPINFO"
- - "PSPINFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- PSPINFO
 targetos: Windows
 req.typenames: PSPINFO, *PPSPINFO
+f1_keywords:
+ - _PSPINFO
+ - compstui/_PSPINFO
+ - PPSPINFO
+ - compstui/PPSPINFO
+ - PSPINFO
+ - compstui/PSPINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - PSPINFO
 ---
 
 # _PSPINFO structure
+
 
 ## -description
 
@@ -85,3 +90,4 @@ if (Msg == WM_INITDIALOG) {
 ```
 
 The PSPINFO structure pointer can be saved for later use, but the structure's contents must not be modified.
+

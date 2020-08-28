@@ -8,9 +8,6 @@ ms.assetid: 8383e9c8-0058-47bf-9a6e-ed05e61a58f1
 ms.date: 02/23/2018
 keywords: ["KdPrintEx macro"]
 ms.keywords: DebugFns_375418aa-5241-4b2c-9369-c930c3ca1ca6.xml, KdPrintEx, KdPrintEx function [Driver Development Tools], devtest.kdprintex, wdm/KdPrintEx
-f1_keywords:
- - "wdm/KdPrintEx"
- - "KdPrintEx"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib (See DbgPrintEx.)
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KdPrintEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KdPrintEx
+ - wdm/KdPrintEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KdPrintEx
 ---
 
 # KdPrintEx macro
@@ -46,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>KdPrintEx</b> macro sends a string to the kernel debugger if the conditions you specify are met.
 
 A call to <b>KdPrintEx</b> requires double parentheses.
 
-
 ## -parameters
 
-
-
-
 ### -param _x_
-
 
 Specifies arguments for the format string, as in <b>printf</b>.
 
@@ -67,10 +61,7 @@ Specifies arguments for the format string, as in <b>printf</b>.
 
 Specifies arguments for the format string, as in <b>printf</b>.
 
-
 ## -remarks
-
-
 
 <b>KdPrintEx</b> is identical to the <b>DbgPrintEx</b> routine in code that is compiled for a debug configuration. This routine has no effect in code that is compiled for a release build. Only kernel-mode drivers can call the <b>KdPrintEx</b> routine.<div class="alert"><b>Note</b>  The Windows Driver Kit (WDK) 8 and WDK 7 manage the <b>DBG</b> preprocessor constant define appropriately for debug (check) and release (free) builds. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/conditional-compilation-and-the-build-environment">Conditional Compilation and the Build Environment</a>.</div>
 <div> </div>
@@ -129,13 +120,7 @@ Here are the arguments:
 
     Specifies the severity of this message. This can be any 32-bit integer. Values between 0 and 31 (inclusive) are treated differently than values between 32 and 0xFFFFFFFF. For details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">Reading and Filtering Debugging Messages</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprint">DbgPrint</a>
 
@@ -146,7 +131,4 @@ Here are the arguments:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kdprint">KdPrint</a>
- 
-
- 
 

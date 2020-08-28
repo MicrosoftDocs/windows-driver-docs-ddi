@@ -26,14 +26,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_MODE_SET
  - DXGK_DIAG_DISPLAY_MODE_SET
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_MODE_SET
  - dispmprt/_DXGK_DIAG_DISPLAY_MODE_SET
- - dispmprt//DXGK_DIAG_DISPLAY_MODE_SET
  - DXGK_DIAG_DISPLAY_MODE_SET
+ - dispmprt/DXGK_DIAG_DISPLAY_MODE_SET
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_MODE_SET enumeration
+
 
 ## -description
 
@@ -66,3 +68,4 @@ While the OS tracks whether the last Set mode call succeeded, **DXGK_DIAG_DISPLA
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
+

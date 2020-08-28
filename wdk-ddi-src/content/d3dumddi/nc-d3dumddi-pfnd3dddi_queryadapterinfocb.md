@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnQueryAdapterInfoCb"
- - "pfnQueryAdapterInfoCb"
+ - PFND3DDDI_QUERYADAPTERINFOCB
+ - d3dumddi/PFND3DDDI_QUERYADAPTERINFOCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_QUERYADAPTERINFOCB callback function
+
 
 ## -description
 

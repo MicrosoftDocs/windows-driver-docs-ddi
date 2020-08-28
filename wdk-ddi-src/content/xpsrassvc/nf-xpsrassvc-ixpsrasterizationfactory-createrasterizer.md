@@ -8,9 +8,6 @@ ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
 ms.date: 08/21/2020
 keywords: ["IXpsRasterizationFactory::CreateRasterizer"]
 ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXpsRasterizationFactory interface, IXpsRasterizationFactory interface [Print Devices],CreateRasterizer method, IXpsRasterizationFactory.CreateRasterizer, IXpsRasterizationFactory::CreateRasterizer, print.ixpsrasterizationfactory_createrasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer
-f1_keywords:
- - "xpsrassvc/IXpsRasterizationFactory.CreateRasterizer"
- - "IXpsRasterizationFactory.CreateRasterizer"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsrassvc.h
-api_name:
-- IXpsRasterizationFactory.CreateRasterizer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsRasterizationFactory::CreateRasterizer
+ - xpsrassvc/IXpsRasterizationFactory::CreateRasterizer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsrassvc.h
+api_name:
+ - IXpsRasterizationFactory.CreateRasterizer
 ---
 
 # IXpsRasterizationFactory::CreateRasterizer
+
 
 ## -description
 
@@ -112,3 +113,4 @@ For a code example that calls the **CreateRasterizer** method, see the XPSRasFil
 [IXpsRasterizer::RasterizeRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect)
 
 [XPSRAS_RENDERING_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001)
+

@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START"
- - "PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START"
+ - PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
+ - d3d12umddi/PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START callback function
+
 
 ## -description
 

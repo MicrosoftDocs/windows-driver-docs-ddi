@@ -8,9 +8,6 @@ ms.assetid: 38df72bd-5206-4655-846c-ae925ed648eb
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction interface"]
 ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],described, dtf.iwdtfsimulatedbatterysystemaction, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction
-f1_keywords:
- - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction"
- - "IWDTFSimulatedBatterySystemAction"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfsimulatedbatterysystemaction.h
-api_name:
-- IWDTFSimulatedBatterySystemAction
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimulatedBatterySystemAction
+ - wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfsimulatedbatterysystemaction.h
+api_name:
+ - IWDTFSimulatedBatterySystemAction
 ---
 
 # IWDTFSimulatedBatterySystemAction interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 IWDTFSimulatedBatterySystemAction Interface
-
 
 ## -inheritance
 

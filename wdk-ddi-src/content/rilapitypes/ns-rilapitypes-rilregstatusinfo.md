@@ -8,9 +8,6 @@ ms.assetid: 12471d22-4d5d-411e-bfde-4d13d7a3bcca
 ms.date: 05/02/2018
 keywords: ["RILREGSTATUSINFO structure"]
 ms.keywords: "*LPRILREGSTATUSINFO, RILREGSTATUSINFO, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], netvista.rilregstatusinfo, ntddrilapitypes/RILREGSTATUSINFO"
-f1_keywords:
- - "rilapitypes/RILREGSTATUSINFO"
- - "RILREGSTATUSINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILREGSTATUSINFO
 targetos: Windows
 req.typenames: RILREGSTATUSINFO, *LPRILREGSTATUSINFO
+f1_keywords:
+ - RILREGSTATUSINFO
+ - rilapitypes/RILREGSTATUSINFO
+ - LPRILREGSTATUSINFO
+ - rilapitypes/LPRILREGSTATUSINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILREGSTATUSINFO
 ---
 
 # RILREGSTATUSINFO structure
@@ -46,44 +48,29 @@ req.typenames: RILREGSTATUSINFO, *LPRILREGSTATUSINFO
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field hUiccApp
 
-
 ### -field dwRegStatus
-
 
 ### -field ratAccessTechnology
 
-
 ### -field dwSystemCaps
-
 
 ### -field dwRegRejectReason
 
-
 ### -field ronCurrentOperator
 
-
 ### -field dwVoiceDomain
-
 
 ### -field rncNetworkCode
 

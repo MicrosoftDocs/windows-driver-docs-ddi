@@ -8,9 +8,6 @@ ms.assetid: 1d1f092c-e867-49f7-8f17-90fbf73733fb
 ms.date: 05/02/2018
 keywords: ["RIL_StopModemLogs function"]
 ms.keywords: RIL_StopModemLogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_stopmodemlogs, rilapi/RIL_StopModemLogs
-f1_keywords:
- - "rilapi/RIL_StopModemLogs"
- - "RIL_StopModemLogs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_StopModemLogs
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_StopModemLogs
+ - rilapi/RIL_StopModemLogs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_StopModemLogs
 ---
 
 # RIL_StopModemLogs function
@@ -46,28 +46,15 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

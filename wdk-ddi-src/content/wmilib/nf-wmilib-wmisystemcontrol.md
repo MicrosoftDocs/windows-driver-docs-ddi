@@ -8,9 +8,6 @@ ms.assetid: 6226e75e-b744-46cd-b14b-e93ece1c2f61
 ms.date: 04/30/2018
 keywords: ["WmiSystemControl function"]
 ms.keywords: WmiSystemControl, WmiSystemControl routine [Kernel-Mode Driver Architecture], k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml, kernel.wmisystemcontrol, wmilib/WmiSystemControl
-f1_keywords:
- - "wmilib/WmiSystemControl"
- - "WmiSystemControl"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wmilib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wmilib.lib
-- Wmilib.dll
-api_name:
-- WmiSystemControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WmiSystemControl
+ - wmilib/WmiSystemControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wmilib.lib
+ - Wmilib.dll
+api_name:
+ - WmiSystemControl
 ---
 
 # WmiSystemControl function
@@ -47,31 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>WmiSystemControl</b> routine is a dispatch routine for drivers that use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WMI library support routines</a> to handle WMI IRPs.
-
 
 ## -parameters
 
-
-
-
 ### -param WmiLibInfo 
-[in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that contains registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines. 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that contains registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines.
 
 ### -param DeviceObject 
-[in]
-A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>. 
 
+[in]
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 ### -param Irp 
+
 [in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>.
 
-
 ### -param IrpDisposition 
+
 [out]
 
       A pointer to an enumeration value of type <b>SYSCTL_IRP_DISPOSITION</b> that indicates how the IRP was handled. <b>WmiSystemControl</b> always sets this value, even when it returns a non-success NTSTATUS code.
@@ -104,19 +100,11 @@ The IRP is not a WMI request (that is, WMI does not recognize the IRP's minor co
 
 The IRP is targeted to another device object (that is, the device object pointer at <b>Parameters.WMI.ProviderId</b> in the IRP does not match the pointer passed by the driver in its call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiregistrationcontrol">IoWMIRegistrationControl</a>). The driver must forward the IRP to the next lower driver. If the driver is the lowest-level driver, then it must complete the IRP.
 
-
 ## -returns
-
-
 
 <b>WmiSystemControl</b> returns STATUS_SUCCESS or one of the following error codes:
 
-
-
-
 ## -remarks
-
-
 
 When a driver receives an <b>IRP_MJ_SYSTEM_CONTROL</b> request with a WMI IRP minor code, it calls <b>WmiSystemControl</b> with a pointer to the driver's <b>WMILIB_CONTEXT</b> structure, a pointer to its device object, and a pointer to the IRP. The <b>WMILIB_CONTEXT</b> structure contains registration information for the driver's data blocks and event blocks and defines entry points for its WMI library callback routines.
 
@@ -124,13 +112,7 @@ When a driver receives an <b>IRP_MJ_SYSTEM_CONTROL</b> request with a WMI IRP mi
 
 A driver must be running at IRQL PASSIVE_LEVEL when it forwards an <b>IRP_MJ_SYSTEM_CONTROL</b> request to the next-lower driver.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_execute_method_callback">DpWmiExecuteMethod</a>
 
@@ -169,7 +151,4 @@ A driver must be running at IRQL PASSIVE_LEVEL when it forwards an <b>IRP_MJ_SYS
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>
- 
-
- 
 

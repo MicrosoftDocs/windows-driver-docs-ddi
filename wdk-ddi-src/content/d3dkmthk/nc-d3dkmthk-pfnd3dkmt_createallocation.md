@@ -7,9 +7,6 @@ ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CREATEALLOCATION callback function"]
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
-f1_keywords:
- - "d3dkmthk/D3DKMTCreateAllocation"
- - "D3DKMTCreateAllocation"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,26 +24,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMTCreateAllocation
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_CREATEALLOCATION
+ - d3dkmthk/PFND3DKMT_CREATEALLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMTCreateAllocation
 ---
 
 # PFND3DKMT_CREATEALLOCATION callback function
 
+
 ## -description
 
 The <b>D3DKMTCreateAllocation</b> function creates allocations of system or video memory.
-
 
 ## -parameters
 
@@ -152,3 +152,4 @@ HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice,
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocation">D3DKMT_CREATEALLOCATION</a>
+

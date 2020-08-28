@@ -7,9 +7,6 @@ ms.assetid: bf51b8dc-82e8-420e-bc3d-7cb9e8d72b9f
 ms.date: 05/10/2018
 keywords: ["D3DKMTSetDisplayMode function"]
 ms.keywords: D3DKMTSetDisplayMode, D3DKMTSetDisplayMode function [Display Devices], OpenGL_Functions_dc92e1c9-5873-42b6-a8f8-f6827091dac4.xml, d3dkmthk/D3DKMTSetDisplayMode, display.d3dkmtsetdisplaymode
-f1_keywords:
- - "d3dkmthk/D3DKMTSetDisplayMode"
- - "D3DKMTSetDisplayMode"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,21 +24,24 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTSetDisplayMode
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTSetDisplayMode
+ - d3dkmthk/D3DKMTSetDisplayMode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTSetDisplayMode
 ---
 
 # D3DKMTSetDisplayMode function
@@ -49,30 +49,17 @@ req.typenames:
 
 ## -description
 
-
 The <i>D3DKMTSetDisplayMode</i> function sets the allocation that is used to scan out to the display.
-
 
 ## -parameters
 
-
-
-
 ### -param D3DKMT_SETDISPLAYMODE
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setdisplaymode">D3DKMT_SETDISPLAYMODE</a> structure that describes the allocation that is used to scan out.
 
-
 ## -returns
-
-
 
 <i>D3DKMTSetDisplayMode</i> returns one of the following values:
 
@@ -86,27 +73,13 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -remarks
-
-
 
 Before the OpenGL ICD calls 
       <i>D3DKMTSetDisplayMode</i> to set a new display mode that uses an extended format, a multiple-sampling method, or both, the ICD must ensure that the current GDI display mode has the same resolution as the new display mode; otherwise, 
       <i>D3DKMTSetDisplayMode</i> returns <b>STATUS_INVALID_PARAMETER</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setdisplaymode">D3DKMT_SETDISPLAYMODE</a>
- 
-
- 
 

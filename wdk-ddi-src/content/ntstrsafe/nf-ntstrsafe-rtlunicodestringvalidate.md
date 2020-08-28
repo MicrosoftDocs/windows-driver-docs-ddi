@@ -8,9 +8,6 @@ ms.assetid: 7c4f452e-df7b-401b-a62e-20e0b2164172
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringValidate function"]
 ms.keywords: RtlUnicodeStringValidate, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidate, ntstrsafe/RtlUnicodeStringValidate, safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringValidate"
- - "RtlUnicodeStringValidate"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringValidate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringValidate
+ - ntstrsafe/RtlUnicodeStringValidate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringValidate
 ---
 
 # RtlUnicodeStringValidate function
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlUnicodeStringValidate</b> function validates the contents of a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
-
 
 ## -parameters
 
-
-
-
 ### -param SourceString 
-[in]
-A pointer to a <b>UNICODE_STRING</b> structure to be validated. 
 
+[in]
+A pointer to a <b>UNICODE_STRING</b> structure to be validated.
 
 ## -returns
-
-
 
 <b>RtlUnicodeStringValidate</b> returns one of the following NTSTATUS values. 
 
@@ -108,31 +101,17 @@ This <i>error</i> status means that the function received an invalid input param
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <i>SourceString</i> pointer cannot be <b>NULL</b>. If you need to specify a <b>NULL</b> pointer value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvalidateex">RtlUnicodeStringValidateEx</a> function.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvalidateex">RtlUnicodeStringValidateEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

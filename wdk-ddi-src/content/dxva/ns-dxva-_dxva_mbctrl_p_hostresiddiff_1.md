@@ -8,9 +8,6 @@ ms.assetid: be67b423-32a1-4f30-9f2c-fa6347cc960f
 ms.date: 05/10/2018
 keywords: ["DXVA_MBctrl_P_HostResidDiff_1 structure"]
 ms.keywords: "*LPDXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1 structure [Display Devices], _DXVA_MBctrl_P_HostResidDiff_1, display.dxva_mbctrl_p_hostresiddiff_1, dxva/DXVA_MBctrl_P_HostResidDiff_1, dxvaref_a97c973f-9673-4049-badd-648b1d0cc39c.xml"
-f1_keywords:
- - "dxva/DXVA_MBctrl_P_HostResidDiff_1"
- - "DXVA_MBctrl_P_HostResidDiff_1"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_MBctrl_P_HostResidDiff_1
 targetos: Windows
 req.typenames: DXVA_MBctrl_P_HostResidDiff_1
+f1_keywords:
+ - _DXVA_MBctrl_P_HostResidDiff_1
+ - dxva/_DXVA_MBctrl_P_HostResidDiff_1
+ - DXVA_MBctrl_P_HostResidDiff_1
+ - dxva/DXVA_MBctrl_P_HostResidDiff_1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_MBctrl_P_HostResidDiff_1
 ---
 
 # _DXVA_MBctrl_P_HostResidDiff_1 structure
@@ -46,19 +48,13 @@ req.typenames: DXVA_MBctrl_P_HostResidDiff_1
 
 ## -description
 
-
 The DXVA_MBctrl_P_HostResidDiff_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for most nonintra picture cases when using <a href="https://docs.microsoft.com/windows-hardware/drivers/">host-based IDCT</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wMBaddress
 
 Specifies the macroblock address of the current macroblock in raster scan order. For examples of macroblock addresses see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-addresses">macroblock addresses</a>.
-
 
 ### -field wMBtype
 
@@ -76,13 +72,11 @@ Specifies the type of macroblock being processed. The following bits define the 
 | 3 | *Motion4MV*<br/>A variable indicating that forward motion uses a distinct motion vector for each of the four luminance blocks in the macroblock, as used in H.263 Annexes F and J. Motion4MV must be zero if MotionForward is zero or if the bPic4MVallowed member of [DXVA_PictureParameters](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_pictureparameters)  is zero. |
 | 2 | *MotionBackward*<br/>Used in the manner specified for the corresponding macroblock_motion_backward variable in MPEG-2. If the bPicBackwardPrediction member of DXVA_PictureParameters is zero, MotionBackward must be zero. The use of this bit is further explained in the following Remarks section. |
 | 1 | *MotionForward*<br/>Used for the corresponding macroblock_motion_forward variable in MPEG-2. The use of this bit is further explained in the following Remarks section. | 
-| 0 | *IntraMacroblock*<br/>Indicates that the macroblock is coded as intra, and no motion vectors are used for the current macroblock. Corresponds to macroblock_intrain MPEG-2. The use of this bit is further explained in the following Remarks section. | 
-
+| 0 | *IntraMacroblock*<br/>Indicates that the macroblock is coded as intra, and no motion vectors are used for the current macroblock. Corresponds to macroblock_intrain MPEG-2. The use of this bit is further explained in the following Remarks section. |
 
 ### -field dwMB_SNL
 
 Specifies the number of skipped macroblocks to be generated following the current macroblock and indicates the location of the residual difference data for the blocks of the current macroblock. This member contains two variables: <i>MBskipsFollowing</i> in the most significant 8 bits, and <i>MBdataLocation</i> in the least significant 24 bits. <i>MBskipsFollowing</i> indicates the number of skipped macroblocks to be generated following the current macroblock. <i>MBdataLocation</i> is an index into the residual difference block data buffer. This index indicates the location of the residual difference data for the blocks of the current macroblock, expressed as a multiple of 32 bits.
-
 
 ### -field wPatternCode
 
@@ -92,29 +86,21 @@ Bit (11-<i>i</i>) of <b>wPatternCode</b> (where bit zero is the least significan
 
 If the <b>bConfigSpatialResidInterleaved </b>member of DXVA_ConfigPictureDecode is 1, host-based residual differences are sent in a chroma-interleaved form matching that of the YUV pixel format in use. In this case, each Cb and spatially corresponding Cr pair of blocks is treated as a single residual difference structure unit. This does not alter the value or meaning of <b>wPatternCode</b>, but it implies that both members of each pair of Cb and Cr data blocks are sent whenever either of these data blocks has the corresponding bit set in <b>wPatternCode</b>. If the bit in <b>wPatternCode</b> for a particular data block is zero, the corresponding residual difference data values must be sent as zero whenever this pairing necessitates sending a residual difference data block for a block with a <b>wPatternCode</b> bit equal to zero.
 
-
 ### -field wPC_Overflow
 
 Specifies which blocks of the macroblock use overflow residual difference data.
 
 When using host-based residual difference decoding with the <b>bPicOverflowBlocks</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a> equal to 1 and IntraMacroblock equal to zero (the 8-8 overflow method), <b>wPC_Overflow</b> contains the pattern code of the overflow blocks. (The pattern code is specified in the same manner as for <b>wPatternCode</b>.) The data for the coded overflow blocks (those blocks having bit (11-i) equal to 1) is found in the residual coding buffer in the same indexing order (increasing i).
 
- 
-
-
 ### -field dwReservedBits2
 
 Reserved bits used for packing and alignment. Must be zero.
-
 
 ### -field MVector
 
 An array containing the value of the motion vector(s) for the macroblock, each motion vector is represented by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_mvvalue">DXVA_MVvalue</a> structure.
 
-
 ## -remarks
-
-
 
 Each skipped macroblock specified by <i>MBskipsFollowing </i>must be generated in a manner mathematically equivalent to incrementing the value of <b>wMBaddress</b> and then repeating the same macroblock control command.
 
@@ -126,13 +112,7 @@ For more information about how skipped macroblocks are generated, see <a href="h
 
 Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBackward</i>, <i>MotionType</i>, <i>MvertFieldSel</i>, and <b>MVector</b> are shown in the tables in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/first-part-of-macroblock-control-command-structure">First Part of Macroblock Control Command Structure</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a>
 
@@ -147,7 +127,4 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: be080007-f88e-4cea-b15d-58dc4ac2cb66
 ms.date: 04/30/2018
 keywords: ["IoCreateSymbolicLink function"]
 ms.keywords: IoCreateSymbolicLink, IoCreateSymbolicLink routine [Kernel-Mode Driver Architecture], k104_8311eaf7-a12f-470d-b81f-83a12697ddbe.xml, kernel.iocreatesymboliclink, wdm/IoCreateSymbolicLink
-f1_keywords:
- - "wdm/IoCreateSymbolicLink"
- - "IoCreateSymbolicLink"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateSymbolicLink
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateSymbolicLink
+ - wdm/IoCreateSymbolicLink
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateSymbolicLink
 ---
 
 # IoCreateSymbolicLink function
@@ -46,49 +46,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoCreateSymbolicLink</b> routine sets up a symbolic link between a device object name and a user-visible name for the device. 
-
+The <b>IoCreateSymbolicLink</b> routine sets up a symbolic link between a device object name and a user-visible name for the device.
 
 ## -parameters
 
-
-
-
 ### -param SymbolicLinkName 
+
 [in]
 Pointer to a buffered Unicode string that is the user-visible name.
 
-
 ### -param DeviceName 
-[in]
-Pointer to a buffered Unicode string that is the name of the driver-created device object. 
 
+[in]
+Pointer to a buffered Unicode string that is the name of the driver-created device object.
 
 ## -returns
 
-
-
 <b>IoCreateSymbolicLink</b> returns STATUS_SUCCESS if the symbolic link object was created.
-
-
-
 
 ## -remarks
 
-
-
 WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> to set up a symbolic link. 
 
-For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/named-device-objects">Named Device Objects</a>. 
-
-
-
+For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/named-device-objects">Named Device Objects</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>
 
@@ -103,7 +85,4 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 3d9415f7-cc28-4e45-8d88-b8693aa57116
 ms.date: 05/02/2018
 keywords: ["RILSUPSVCTYPE enumeration"]
 ms.keywords: RILSUPSVCTYPE, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, netvista.rilsupsvctype, ntddrilapitypes/RILSUPSVCTYPE, ntddrilapitypes/RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RIL_SUPSVCTYPE_CNAP, ntddrilapitypes/RIL_SUPSVCTYPE_COLP, ntddrilapitypes/RIL_SUPSVCTYPE_COLR, ntddrilapitypes/RIL_SUPSVCTYPE_MAX
-f1_keywords:
- - "ntddrilapitypes/RILSUPSVCTYPE"
- - "RILSUPSVCTYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSUPSVCTYPE
 targetos: Windows
 req.typenames: RILSUPSVCTYPE
+f1_keywords:
+ - RILSUPSVCTYPE
+ - ntddrilapitypes/RILSUPSVCTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSUPSVCTYPE
 ---
 
 # RILSUPSVCTYPE enumeration
@@ -46,32 +46,21 @@ req.typenames: RILSUPSVCTYPE
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_SUPSVCTYPE_CALLWAITING
-
 
 ### -field RIL_SUPSVCTYPE_CLIP
 
-
 ### -field RIL_SUPSVCTYPE_CLIR
-
 
 ### -field RIL_SUPSVCTYPE_COLP
 
-
 ### -field RIL_SUPSVCTYPE_COLR
 
-
 ### -field RIL_SUPSVCTYPE_CNAP
-
 
 ### -field RIL_SUPSVCTYPE_MAX
 

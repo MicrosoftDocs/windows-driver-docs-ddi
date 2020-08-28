@@ -8,9 +8,6 @@ ms.assetid: 8BAAB861-677D-4945-92B7-BDBE7A29695E
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_INTENSITY_COLOR IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color
-f1_keywords:
- - "lamp/IOCTL_LAMP_GET_INTENSITY_COLOR"
- - "IOCTL_LAMP_GET_INTENSITY_COLOR"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_GET_INTENSITY_COLOR
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_GET_INTENSITY_COLOR
+ - lamp/IOCTL_LAMP_GET_INTENSITY_COLOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_GET_INTENSITY_COLOR
 ---
 
 # IOCTL_LAMP_GET_INTENSITY_COLOR IOCTL
+
 
 ## -description
 
@@ -83,3 +84,4 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 ## -remarks
 
 The payload type of this IOCTL is a [LAMP_INTENSITY_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_color) structure.
+

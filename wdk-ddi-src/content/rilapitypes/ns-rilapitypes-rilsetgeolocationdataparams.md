@@ -8,9 +8,6 @@ ms.assetid: 7736c8d6-731e-4322-aade-ecd23a4fedde
 ms.date: 05/02/2018
 keywords: ["RILSETGEOLOCATIONDATAPARAMS structure"]
 ms.keywords: "*LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetgeolocationdataparams, ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS"
-f1_keywords:
- - "rilapitypes/RILSETGEOLOCATIONDATAPARAMS"
- - "RILSETGEOLOCATIONDATAPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSETGEOLOCATIONDATAPARAMS
 targetos: Windows
 req.typenames: RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS
+f1_keywords:
+ - RILSETGEOLOCATIONDATAPARAMS
+ - rilapitypes/RILSETGEOLOCATIONDATAPARAMS
+ - LPRILSETGEOLOCATIONDATAPARAMS
+ - rilapitypes/LPRILSETGEOLOCATIONDATAPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSETGEOLOCATIONDATAPARAMS
 ---
 
 # RILSETGEOLOCATIONDATAPARAMS structure
@@ -46,20 +48,13 @@ req.typenames: RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-
 ### -field dwExecutor
-
 
 ### -field locationInfo
 

@@ -8,9 +8,6 @@ ms.assetid: D145BAD6-EFE2-4B04-AF6E-F00486C78E8A
 ms.date: 02/15/2018
 keywords: ["CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_output, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure pointer [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT"
-f1_keywords:
- - "gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT"
- - "CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
 targetos: Windows
 req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+f1_keywords:
+ - _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+ - gpioclx/_CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+ - PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+ - gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+ - CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+ - gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
 ---
 
 # _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure
@@ -46,44 +50,25 @@ req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, *PCLIENT_CONTROLL
 
 ## -description
 
-
 The <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</b> structure contains a set of general-purpose I/O (GPIO) controller attributes that were requested by the GPIO framework extension (GpioClx).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Specifies the version number of this structure.
 
-
 ### -field Size
 
 Specifies the size, in bytes, of this structure.
 
-
 ### -field BankPowerInformation
-
- 
-
 
 ### -field BankInterruptBinding
 
- 
-
-
 ### -field BankInterruptBinding.ResourceMapping
 
- 
-
-
 ### -field ControllerFunctionBankMapping
-
- 
-
 
 ### -field ControllerFunctionBankMapping.Mapping
 
@@ -128,20 +113,11 @@ A structure that contains information about the GPIO banks that must be in the F
 
 An array of BOOLEAN values that indicates the mapping of required F0 power states to GPIO banks. The number of elements in the array equals the number of GPIO banks. If N is the number of banks in the GPIO controller, the banks are numbered 0 to N–1. Element 0 of the array contains the mapping for bank 0, element 1 contains the mapping for bank 1, and so on. If an element is <b>TRUE</b>, the corresponding GPIO bank must be in the F0 power state to handle the IOCTL. If an element is <b>FALSE</b>, the corresponding bank is not required to be in the F0 power state.
 
-
 ## -remarks
-
-
 
 The optional <i>OutputBuffer</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a> function is a pointer to a caller-allocated <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</b> structure. The function writes the requested attribute information to this structure, if <i>OutputBuffer</i> is non-NULL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_input">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
 
@@ -152,7 +128,4 @@ The optional <i>OutputBuffer</i> parameter of the <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a>
- 
-
- 
 

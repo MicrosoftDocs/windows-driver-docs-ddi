@@ -8,9 +8,6 @@ ms.assetid: e99ebbe8-8605-4bf2-9ec0-d7cde25058f7
 ms.date: 05/02/2018
 keywords: ["NetDmaProviderStart function"]
 ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netvista.netdmaproviderstart
-f1_keywords:
- - "netdma/NetDmaProviderStart"
- - "NetDmaProviderStart"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- netdma.h
-api_name:
-- NetDmaProviderStart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NetDmaProviderStart
+ - netdma/NetDmaProviderStart
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - netdma.h
+api_name:
+ - NetDmaProviderStart
 ---
 
 # NetDmaProviderStart function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
 in Windows 8 and later.</div><div> </div>The 
   <b>NetDmaProviderStart</b> function notifies the NetDMA interface that all of the DMA channels that are
   associated with a DMA provider are initialized and ready for DMA transfers.
 
-
 ## -parameters
 
-
-
-
 ### -param NetDmaProviderHandle 
+
 [in]
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
-
 ### -param ProviderAttributes 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_attributes">
      NET_DMA_PROVIDER_ATTRIBUTES</a> structure that defines the DMA device attributes of the DMA
      provider.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 DMA providers call the 
     <b>NetDmaProviderStart</b> function to notify the NetDMA interface that a DMA provider is started. A DMA
@@ -112,13 +100,7 @@ Before a DMA provider driver calls
     <b>NetDmaProviderStart</b>, it should be ready to handle all NetDMA interface requests, such as
     allocating DMA channels and performing DMA transfers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>
 
@@ -133,7 +115,4 @@ Before a DMA provider driver calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
- 
-
- 
 

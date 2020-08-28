@@ -8,13 +8,10 @@ ms.assetid: 946a6ea7-5818-4959-adf2-3568c1b64b1a
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvGetCapabilities"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetCapabilities method, IWiaMiniDrv.drvGetCapabilities, IWiaMiniDrv::drvGetCapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities, drvGetCapabilities method [Imaging Devices], drvGetCapabilities method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetcapabilities, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvGetCapabilities"
- - "IWiaMiniDrv.drvGetCapabilities"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvGetCapabilities
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvGetCapabilities
+ - wiamindr_lh/IWiaMiniDrv::drvGetCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvGetCapabilities
 ---
 
 # IWiaMiniDrv::drvGetCapabilities
+
 
 ## -description
 
@@ -128,3 +129,4 @@ The *Wiadef.h* header lists several predefined commands and events.
 [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
 
 [WIA_DEV_CAP_DRV](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv)
+

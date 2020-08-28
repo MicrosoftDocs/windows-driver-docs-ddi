@@ -8,9 +8,6 @@ ms.assetid: 73ec4bf1-ba48-4b51-8824-61ce42f9708d
 ms.date: 02/26/2018
 keywords: ["WdfRequestIsCanceled function"]
 ms.keywords: DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, WdfRequestIsCanceled, WdfRequestIsCanceled method, kmdf.wdfrequestiscanceled, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled
-f1_keywords:
- - "wdfrequest/WdfRequestIsCanceled"
- - "WdfRequestIsCanceled"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestIsCanceled
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestIsCanceled
+ - wdfrequest/WdfRequestIsCanceled
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestIsCanceled
 ---
 
 # WdfRequestIsCanceled function
@@ -49,25 +49,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestIsCanceled</b> method determines whether the I/O manager has attempted to cancel a specified I/O request.
 
-
 ## -parameters
 
-
-
-
 ### -param Request 
+
 [in]
 A handle to a framework request object.
 
-
 ## -returns
-
-
 
 <b>WdfRequestIsCanceled</b> returns <b>TRUE</b> if the I/O manager has attempted to cancel the specified I/O request. This method may return <b>TRUE</b> even if the calling driver does not own the request.  If the driver does not own the request, it should not call <b>WdfRequestIsCanceled</b>. See additional information in Remarks.
 
@@ -85,12 +78,7 @@ A handle to a framework request object.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 If your driver has not called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelable">WdfRequestMarkCancelable</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a> to register an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a> callback function, but if you want your driver to determine if the I/O manager has attempted to cancel an I/O request, the driver can call <b>WdfRequestIsCanceled</b>.
 
@@ -117,12 +105,7 @@ if (WdfRequestIsCanceled(request)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a>
 
@@ -141,7 +124,4 @@ if (WdfRequestIsCanceled(request)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestunmarkcancelable">WdfRequestUnmarkCancelable</a>
- 
-
- 
 

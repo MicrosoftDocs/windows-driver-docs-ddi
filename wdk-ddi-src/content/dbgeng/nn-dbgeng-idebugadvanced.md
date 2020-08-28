@@ -8,9 +8,6 @@ ms.assetid: 773c93fe-1eec-4951-960e-67164dcb41ce
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced interface"]
 ms.keywords: IDebugAdvanced, IDebugAdvanced interface [Windows Debugging], IDebugAdvanced interface [Windows Debugging],described, IDebugAdvanced_73a2f722-f225-466b-aecc-2c7e6999e25f.xml, dbgeng/IDebugAdvanced, debugger.idebugadvanced
-f1_keywords:
- - "dbgeng/IDebugAdvanced"
- - "IDebugAdvanced"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugAdvanced
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugAdvanced
+ - dbgeng/IDebugAdvanced
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugAdvanced
 ---
 
 # IDebugAdvanced interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -58,15 +55,9 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced</b> interface 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced2">IDebugAdvanced2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
- 
-
- 
 

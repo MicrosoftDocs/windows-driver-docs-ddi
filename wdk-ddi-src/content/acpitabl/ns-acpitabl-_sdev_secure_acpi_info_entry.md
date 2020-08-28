@@ -8,10 +8,6 @@ ms.assetid: A3FDE9B0-DD6E-4FF5-AD9A-7DF7BF276EFA
 ms.date: 08/14/2020
 keywords: ["SDEV_SECURE_ACPI_INFO_ENTRY structure"]
 ms.keywords: "*PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], SDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], _SDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY"
-f1_keywords:
- - acpitabl/_SDEV_SECURE_ACPI_INFO_ENTRY
- - acpitabl//SDEV_SECURE_ACPI_INFO_ENTRY
- - SDEV_SECURE_ACPI_INFO_ENTRY
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows
@@ -29,21 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- _SDEV_SECURE_ACPI_INFO_ENTRY
-- SDEV_SECURE_ACPI_INFO_ENTRY
 targetos: Windows
 req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
+f1_keywords:
+ - _SDEV_SECURE_ACPI_INFO_ENTRY
+ - acpitabl/_SDEV_SECURE_ACPI_INFO_ENTRY
+ - PSDEV_SECURE_ACPI_INFO_ENTRY
+ - acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY
+ - SDEV_SECURE_ACPI_INFO_ENTRY
+ - acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _SDEV_SECURE_ACPI_INFO_ENTRY
+ - SDEV_SECURE_ACPI_INFO_ENTRY
 ---
 
 # _SDEV_SECURE_ACPI_INFO_ENTRY structure
+
 
 ## -description
 
@@ -82,3 +86,4 @@ The length of the secure resources information.
 ## -remarks
 
 ## -see-also
+

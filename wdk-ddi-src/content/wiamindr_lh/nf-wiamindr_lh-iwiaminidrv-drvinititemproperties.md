@@ -8,13 +8,10 @@ ms.assetid: 06dce5c0-f893-47c7-bee9-1b7f61137ba0
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvInitItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvInitItemProperties method, IWiaMiniDrv.drvInitItemProperties, IWiaMiniDrv::drvInitItemProperties, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, drvInitItemProperties, drvInitItemProperties method [Imaging Devices], drvInitItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvinititemproperties, wiamindr_lh/IWiaMiniDrv::drvInitItemProperties
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvInitItemProperties"
- - "IWiaMiniDrv.drvInitItemProperties"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvInitItemProperties
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvInitItemProperties
+ - wiamindr_lh/IWiaMiniDrv::drvInitItemProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvInitItemProperties
 ---
 
 # IWiaMiniDrv::drvInitItemProperties
+
 
 ## -description
 
@@ -102,3 +103,4 @@ The **IWiaMiniDrv::drvInitItemProperties** method is called once per application
 [wiasSetItemPropNames](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropnames)
 
 [wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritemultiple)
+

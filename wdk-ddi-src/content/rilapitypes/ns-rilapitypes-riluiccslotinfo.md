@@ -8,9 +8,6 @@ ms.assetid: 4f8ed150-b378-49c3-955c-a1e69ab8c1a9
 ms.date: 05/02/2018
 keywords: ["RILUICCSLOTINFO structure"]
 ms.keywords: "*LPRILUICCSLOTINFO, RILUICCSLOTINFO, RILUICCSLOTINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccslotinfo, ntddrilapitypes/RILUICCSLOTINFO"
-f1_keywords:
- - "rilapitypes/RILUICCSLOTINFO"
- - "RILUICCSLOTINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCSLOTINFO
 targetos: Windows
 req.typenames: RILUICCSLOTINFO, *LPRILUICCSLOTINFO
+f1_keywords:
+ - RILUICCSLOTINFO
+ - rilapitypes/RILUICCSLOTINFO
+ - LPRILUICCSLOTINFO
+ - rilapitypes/LPRILUICCSLOTINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCSLOTINFO
 ---
 
 # RILUICCSLOTINFO structure
@@ -46,23 +48,15 @@ req.typenames: RILUICCSLOTINFO, *LPRILUICCSLOTINFO
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwNumOfUiccSlots
-
 
 ### -field dwSlotState
 

@@ -8,37 +8,37 @@ ms.assetid: 555dd967-ea38-45fa-8e7f-5318ca5c6dd2
 ms.date: 02/16/2018
 keywords: ["RILEUTRAMRLPARAMMASK enumeration"]
 ms.keywords: RILEUTRAMRLPARAMMASK, RILEUTRAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUTRAMRL_ALL, RIL_PARAM_EUTRAMRL_CELLID, RIL_PARAM_EUTRAMRL_EARFCN, RIL_PARAM_EUTRAMRL_MCC, RIL_PARAM_EUTRAMRL_MNC, RIL_PARAM_EUTRAMRL_PHYSCELLID, RIL_PARAM_EUTRAMRL_RSRP, RIL_PARAM_EUTRAMRL_RSRQ, RIL_PARAM_EUTRAMRL_TAC, netvista.rileutramrlparammask, rilapitypes/RILEUTRAMRLPARAMMASK, rilapitypes/RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RIL_PARAM_EUTRAMRL_CELLID, rilapitypes/RIL_PARAM_EUTRAMRL_EARFCN, rilapitypes/RIL_PARAM_EUTRAMRL_MCC, rilapitypes/RIL_PARAM_EUTRAMRL_MNC, rilapitypes/RIL_PARAM_EUTRAMRL_PHYSCELLID, rilapitypes/RIL_PARAM_EUTRAMRL_RSRP, rilapitypes/RIL_PARAM_EUTRAMRL_RSRQ, rilapitypes/RIL_PARAM_EUTRAMRL_TAC
-f1_keywords:
- - "ntddrilapitypes/RILEUTRAMRLPARAMMASK"
- - "RILEUTRAMRLPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILEUTRAMRLPARAMMASK
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILEUTRAMRLPARAMMASK
+f1_keywords:
+ - RILEUTRAMRLPARAMMASK
+ - ntddrilapitypes/RILEUTRAMRLPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILEUTRAMRLPARAMMASK
 ---
 
 # RILEUTRAMRLPARAMMASK enumeration
@@ -46,14 +46,29 @@ req.typenames: RILEUTRAMRLPARAMMASK
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILEUTRAMRLPARAMMASK.
 
+## -enum-fields
 
+### -field RIL_PARAM_EUTRAMRL_MCC
 
+### -field RIL_PARAM_EUTRAMRL_MNC
+
+### -field RIL_PARAM_EUTRAMRL_CELLID
+
+### -field RIL_PARAM_EUTRAMRL_EARFCN
+
+### -field RIL_PARAM_EUTRAMRL_PHYSCELLID
+
+### -field RIL_PARAM_EUTRAMRL_TAC
+
+### -field RIL_PARAM_EUTRAMRL_RSRP
+
+### -field RIL_PARAM_EUTRAMRL_RSRQ
+
+### -field RIL_PARAM_EUTRAMRL_ALL
 
 ## -syntax
-
 
 ```cpp
 enum RILEUTRAMRLPARAMMASK {
@@ -70,42 +85,7 @@ enum RILEUTRAMRLPARAMMASK {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_PARAM_EUTRAMRL_MCC
-
-
-### -field RIL_PARAM_EUTRAMRL_MNC
-
-
-### -field RIL_PARAM_EUTRAMRL_CELLID
-
-
-### -field RIL_PARAM_EUTRAMRL_EARFCN
-
-
-### -field RIL_PARAM_EUTRAMRL_PHYSCELLID
-
-
-### -field RIL_PARAM_EUTRAMRL_TAC
-
-
-### -field RIL_PARAM_EUTRAMRL_RSRP
-
-
-### -field RIL_PARAM_EUTRAMRL_RSRQ
-
-
-### -field RIL_PARAM_EUTRAMRL_ALL
-
-
 ## -remarks
-
-
 
 Networks will vary, but the following table summarizes which items are returned for typical LTE networks.
 
@@ -419,19 +399,8 @@ Measured in dB
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
 

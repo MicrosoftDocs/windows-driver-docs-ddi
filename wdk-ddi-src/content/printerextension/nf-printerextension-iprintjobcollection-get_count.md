@@ -8,9 +8,6 @@ ms.assetid: B44C8023-CB5F-4381-8A75-CA086E989BAC
 ms.date: 04/20/2018
 keywords: ["IPrintJobCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],Count property, IPrintJobCollection.Count, IPrintJobCollection.get_Count, IPrintJobCollection::Count, IPrintJobCollection::get_Count, get_Count, print.iprintjobcollection_count, printerextension/IPrintJobCollection::Count, printerextension/IPrintJobCollection::get_Count
-f1_keywords:
- - "printerextension/IPrintJobCollection.Count"
- - "IPrintJobCollection.Count"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintJobCollection.Count
-- IPrintJobCollection.get_Count
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintJobCollection::get_Count
+ - printerextension/IPrintJobCollection::get_Count
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintJobCollection.Count
+ - IPrintJobCollection.get_Count
 ---
 
 # IPrintJobCollection::get_Count
@@ -47,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the number of jobs in the print queue.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
- 
-
- 
 

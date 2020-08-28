@@ -8,9 +8,6 @@ ms.assetid: 48042e9d-ed83-4326-931d-ded753deb1a7
 ms.date: 03/29/2018
 keywords: ["StorPortGetOriginalMdl function"]
 ms.keywords: StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], storage.storportgetoriginalmdl, storport/StorPortGetOriginalMdl, storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml
-f1_keywords:
- - "storport/StorPortGetOriginalMdl"
- - "StorPortGetOriginalMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetOriginalMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetOriginalMdl
+ - storport/StorPortGetOriginalMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetOriginalMdl
 ---
 
 # StorPortGetOriginalMdl function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetOriginalMdl</b> routine returns the MDL associated with the given SRB.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param Srb 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> structure.
 
-
 ### -param Mdl 
+
 [out]
 A pointer to receive the MDL.
 
-
 ## -returns
-
-
 
 StorPortGetOriginalMdl returns one of the following status codes:
 
@@ -115,24 +108,12 @@ The pointer in <i>Mdl</i> receiving the SRB's MDL  is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
 
@@ -143,7 +124,4 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetsystemaddress">StorPortGetSystemAddress</a>
- 
-
- 
 

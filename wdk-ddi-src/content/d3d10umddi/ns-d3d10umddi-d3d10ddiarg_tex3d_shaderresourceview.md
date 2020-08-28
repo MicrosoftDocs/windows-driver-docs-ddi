@@ -7,9 +7,6 @@ ms.assetid: 2b7d930e-7003-4875-8a2b-6ce50ea606c8
 ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_b3c96163-7085-43eb-a8da-84f0f824e069.xml, d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex3d_shaderresourceview
-f1_keywords:
- - "d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW"
- - "D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
+f1_keywords:
+ - D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
+ - d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
 ---
 
 # D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure
@@ -46,38 +46,23 @@ req.typenames: D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
 
 ## -description
 
-
-The D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure describes a three-dimensional (3-D) texture that is used to create a shader resource view in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview">CreateShaderResourceView</a> function. 
-
+The D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure describes a three-dimensional (3-D) texture that is used to create a shader resource view in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview">CreateShaderResourceView</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field MostDetailedMip
 
-[in] The identifier of the most detailed MIP-map. 
-
+[in] The identifier of the most detailed MIP-map.
 
 ### -field MipLevels
 
-[in] The number of MIP-map levels for the texture. 
-
+[in] The number of MIP-map levels for the texture.
 
 ## -remarks
 
-
-
-If the <b>MipLevels</b> member is set to -1, the MIP-maps in the texture start from the MIP-map that is set in the <b>MostDetailedMip</b> member. 
-
-
-
+If the <b>MipLevels</b> member is set to -1, the MIP-maps in the texture start from the MIP-map that is set in the <b>MostDetailedMip</b> member.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize">CalcPrivateShaderResourceViewSize</a>
 
@@ -88,7 +73,4 @@ If the <b>MipLevels</b> member is set to -1, the MIP-maps in the texture start f
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createshaderresourceview">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
- 
-
- 
 

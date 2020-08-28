@@ -8,9 +8,6 @@ ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.date: 04/30/2018
 keywords: ["IoBuildDeviceIoControlRequest function"]
 ms.keywords: IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, kernel.iobuilddeviceiocontrolrequest, wdm/IoBuildDeviceIoControlRequest
-f1_keywords:
- - "wdm/IoBuildDeviceIoControlRequest"
- - "IoBuildDeviceIoControlRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoBuildDeviceIoControlRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoBuildDeviceIoControlRequest
+ - wdm/IoBuildDeviceIoControlRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoBuildDeviceIoControlRequest
 ---
 
 # IoBuildDeviceIoControlRequest function
@@ -46,72 +46,60 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoBuildDeviceIoControlRequest</b> routine allocates and sets up an IRP for a synchronously processed device control request.
-
 
 ## -parameters
 
-
-
-
 ### -param IoControlCode 
-[in]
-Supplies the I/O control code (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">IOCTL</a>) to be used in the request. For information about device type-specific I/O control codes, see device type-specific sections in the Windows Driver Kit (WDK). 
 
+[in]
+Supplies the I/O control code (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">IOCTL</a>) to be used in the request. For information about device type-specific I/O control codes, see device type-specific sections in the Windows Driver Kit (WDK).
 
 ### -param DeviceObject 
+
 [in]
 Supplies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the next-lower driver's device object, which represents the target device.
 
-
 ### -param InputBuffer 
+
 [in, optional]
 Supplies a pointer to an input buffer to be passed to the lower driver, or <b>NULL</b> if the request does not pass input data to lower drivers.
 
-
 ### -param InputBufferLength 
+
 [in]
 Supplies the length, in bytes, of the input buffer. If <i>InputBuffer</i> is <b>NULL</b>, <i>InputBufferLength</i> must be zero.
 
-
 ### -param OutputBuffer 
+
 [out, optional]
 Supplies a pointer to an output buffer in which the lower driver is to return data, or <b>NULL</b> if the request does not require lower drivers to return data.
 
-
 ### -param OutputBufferLength 
+
 [in]
 Supplies the length, in bytes, of the output buffer. If <i>OutputBuffer</i> is <b>NULL</b>, <i>OutputBufferLength</i> must be zero.
 
-
 ### -param InternalDeviceIoControl 
+
 [in]
 If <b>TRUE</b>, the routine sets the IRP's major function code to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>. Otherwise, the routine sets the IRP's major function code to <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>.
 
-
 ### -param Event 
+
 [in, optional]
 Supplies a pointer to a caller-allocated and initialized event object. The I/O manager sets the event to the Signaled state when a lower-level driver completes the requested operation. After calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>, the driver can wait for the event object. The <i>Event</i> parameter is optional and can be set to NULL. However, if <i>Event</i> is NULL, the caller must supply an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine for the IRP to notify the caller when the operation completes.
 
-
 ### -param IoStatusBlock 
+
 [out]
 Specifies an I/O status block to be set when the request is completed by lower drivers.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>IoBuildDeviceIoControlRequest</b> returns a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>, with the next-lower driver's I/O stack location set up from the supplied parameters. Otherwise, the routine returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 A driver can call <b>IoBuildDeviceIoControlRequest</b> to set up IRPs for device control requests that it synchronously sends to lower-level drivers.
 
@@ -127,13 +115,7 @@ If the caller cannot validate parameter values that it copies from a user-mode b
 
 The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputBuffer</i> parameters are stored in the IRP depends on the <i>TransferType</i> value for the IOCTL. For more information about this value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/buffer-descriptions-for-i-o-control-codes">Buffer Descriptions for I/O Control Codes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
@@ -168,7 +150,4 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

@@ -7,9 +7,6 @@ ms.assetid: a1a4aa0c-2edc-48b9-ad49-c876be930955
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATIONFLAGS, D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATIONFLAGS, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS, display.d3dkmt-createstandardallocationflags
-f1_keywords:
- - "d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS"
- - "D3DKMT_CREATESTANDARDALLOCATIONFLAGS"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_CREATESTANDARDALLOCATIONFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATESTANDARDALLOCATIONFLAGS
+f1_keywords:
+ - _D3DKMT_CREATESTANDARDALLOCATIONFLAGS
+ - d3dkmthk/_D3DKMT_CREATESTANDARDALLOCATIONFLAGS
+ - D3DKMT_CREATESTANDARDALLOCATIONFLAGS
+ - d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_CREATESTANDARDALLOCATIONFLAGS
 ---
 
 # _D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure
@@ -46,19 +48,13 @@ req.typenames: D3DKMT_CREATESTANDARDALLOCATIONFLAGS
 
 ## -description
 
-
 Used to create standard allocation flags.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reserved
 
 This value is reserved for use by the operating system.
-
 
 ### -field Value
 

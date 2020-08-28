@@ -8,9 +8,6 @@ ms.assetid: c33a9592-8e1b-4028-bd34-72cc4885f17f
 ms.date: 04/20/2018
 keywords: ["OEMPlgBlt function"]
 ms.keywords: OEMPlgBlt, OEMPlgBlt function [Print Devices], print.oemplgblt, print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml, printoem/OEMPlgBlt
-f1_keywords:
- - "printoem/OEMPlgBlt"
- - "OEMPlgBlt"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMPlgBlt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMPlgBlt
+ - printoem/OEMPlgBlt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMPlgBlt
 ---
 
 # OEMPlgBlt function
@@ -46,44 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMPlgBlt</code> function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
-
 
 ## -parameters
 
-
-
-
 ### -param psoDst
-
 
 ### -param psoSrc
 
-
 ### -param psoMask
-
 
 ### -param pco
 
-
 ### -param pxlo
-
 
 ### -param pca
 
-
 ### -param pptlBrushOrg
-
 
 ### -param pptfixDest
 
-
 ### -param prclSrc
 
-
 ### -param pptlMask
-
 
 ### -param iMode
 

@@ -7,9 +7,6 @@ ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
 ms.date: 05/10/2018
 keywords: ["DXGK_QUERYGPUMMUCAPSIN structure"]
 ms.keywords: DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], _DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin
-f1_keywords:
- - "d3dkmddi/DXGK_QUERYGPUMMUCAPSIN"
- - "DXGK_QUERYGPUMMUCAPSIN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_QUERYGPUMMUCAPSIN
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYGPUMMUCAPSIN
+f1_keywords:
+ - _DXGK_QUERYGPUMMUCAPSIN
+ - d3dkmddi/_DXGK_QUERYGPUMMUCAPSIN
+ - DXGK_QUERYGPUMMUCAPSIN
+ - d3dkmddi/DXGK_QUERYGPUMMUCAPSIN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_QUERYGPUMMUCAPSIN
 ---
 
 # _DXGK_QUERYGPUMMUCAPSIN structure
@@ -46,23 +48,15 @@ req.typenames: DXGK_QUERYGPUMMUCAPSIN
 
 ## -description
 
-
 The <b>DXGK_QUERYGPUMMUCAPSIN</b> structure holds the index of the adapter being queried.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PhysicalAdapterIndex
 
 A zero-based physical adapter index (engine ordinal) for which the data is queried.
 
-
 ## -remarks
-
-
 
 To get GpuMmu caps Dxgkrnl calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> with the following parameters:
 
@@ -71,5 +65,4 @@ DXGKARG_QUERYADAPTERINFO::pInputData = buffer of DXGK_QUERYGPUMMUCAPSIN type
 DXGKARG_QUERYADAPTERINFO::InputDataSize = sizeof(DXGK_QUERYGPUMMUCAPSIN);
 DXGKARG_QUERYADAPTERINFO::pOutputData = pointer to DXGK_GPUMMUCAPS
 DXGKARG_QUERYADAPTERINFO::OutputDataSize = sizeof(DXGK_GPUMMUCAPS);</code></pre>
-
 

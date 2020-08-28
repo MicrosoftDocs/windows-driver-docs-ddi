@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAcquireNextModeInfo"
- - "pfnAcquireNextModeInfo"
+ - DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO
+ - d3dkmddi/DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO callback function
+
 
 ## -description
 

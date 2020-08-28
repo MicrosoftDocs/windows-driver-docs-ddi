@@ -8,9 +8,6 @@ ms.assetid: 20f1ff95-55d3-46d2-816b-edf2b42e6e86
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources"]
 ms.keywords: EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTTryStopDeviceRequestNewResources method, IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources, IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpactions2_edttrystopdevicerequestnewresources, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources"
- - "IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfpnpaction.h
-api_name:
-- IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
+ - wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfpnpaction.h
+api_name:
+ - IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources
 ---
 
 # IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
@@ -46,33 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
 assign new resources to the target device.
 
-
 ## -parameters
 
-
-
-
 ### -param pbSuccess 
+
 [out, retval]
 True if the operation succeeds; otherwise, false.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
 method must be called for the target device before calling this method.</div>
@@ -93,16 +81,7 @@ how the drivers and applications handle the PnP resource rebalance, you can inst
 etc., which does consume hardware resources. For example, if your device is a USB mouse, you can 
 run this method on the parent USB controller instead.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>
- 
-
- 
 

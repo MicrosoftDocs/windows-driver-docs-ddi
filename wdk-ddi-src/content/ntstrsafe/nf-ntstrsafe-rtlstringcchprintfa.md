@@ -8,9 +8,6 @@ ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.date: 04/30/2018
 keywords: ["RtlStringCchPrintfA function"]
 ms.keywords: RtlStringCchPrintf, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfW, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchPrintfW"
- - "RtlStringCchPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchPrintfW
-- RtlStringCchPrintfA
-- RtlStringCchPrintfW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchPrintfA
+ - ntstrsafe/RtlStringCchPrintfA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchPrintfW
+ - RtlStringCchPrintfA
+ - RtlStringCchPrintfW
 ---
 
 # RtlStringCchPrintfA function
@@ -49,29 +49,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> functions create a character-counted text string, with formatting that is based on supplied formatting information.
-
 
 ## -parameters
 
-
-
-
 ### -param pszDest 
+
 [out]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list.
 
-
 ### -param cchDest 
-[in]
-The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is <b>NTSTRSAFE_MAX_CCH</b>. 
 
+[in]
+The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is <b>NTSTRSAFE_MAX_CCH</b>.
 
 ### -param pszFormat 
+
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
-
 
 ### -param param
 
@@ -84,10 +79,7 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled <a
 
 A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.
 
-
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -138,14 +130,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> should be used instead of the following functions:
 
@@ -240,12 +226,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbprintfa">RtlStringCbPrintf</a>
 
@@ -256,7 +237,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfa">RtlStringCchVPrintf</a>
- 
-
- 
 

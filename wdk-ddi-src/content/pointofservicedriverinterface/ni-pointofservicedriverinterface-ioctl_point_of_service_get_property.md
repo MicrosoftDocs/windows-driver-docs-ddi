@@ -8,9 +8,6 @@ ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_GET_PROPERTY IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY"
- - "IOCTL_POINT_OF_SERVICE_GET_PROPERTY"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_GET_PROPERTY
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_GET_PROPERTY
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_GET_PROPERTY
 ---
 
 # IOCTL_POINT_OF_SERVICE_GET_PROPERTY IOCTL
+
 
 ## -description
 
@@ -80,3 +81,4 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 - STATUS_ACCESS_DENIED: The calling thread does not have a claim on the device.
 
 - STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to contain the output value. The driver will copy as much data into the output buffer as possible.
+

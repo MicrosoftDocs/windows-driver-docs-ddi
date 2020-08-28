@@ -8,9 +8,6 @@ ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::GetFieldOffset"]
 ms.keywords: EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped interface [Windows Debugging],GetFieldOffset method, ExtRemoteTyped.GetFieldOffset, ExtRemoteTyped::GetFieldOffset, GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_getfieldoffset
-f1_keywords:
- - "engextcpp/ExtRemoteTyped.GetFieldOffset"
- - "ExtRemoteTyped.GetFieldOffset"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTyped.GetFieldOffset
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTyped::GetFieldOffset
+ - engextcpp/ExtRemoteTyped::GetFieldOffset
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTyped.GetFieldOffset
 ---
 
 # ExtRemoteTyped::GetFieldOffset
@@ -46,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetFieldOffset</b> method returns the offset of a member from the base address of an instance of the type that is represented by this object.
-
 
 ## -parameters
 
-
-
-
 ### -param Field 
+
 [in]
 The name of the member whose offset is requested.  Sub-members can be specified using a dot-separated path (for example, <b>mymember.mysubmember</b>).
 
-
 ## -returns
-
-
 
 <b>GetFieldOffset</b> returns the offset of the member from the base address of an instance of the type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
@@ -83,7 +70,4 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 
 
 <b>IDebugSymbols::GetFieldOffset</b>
- 
-
- 
 

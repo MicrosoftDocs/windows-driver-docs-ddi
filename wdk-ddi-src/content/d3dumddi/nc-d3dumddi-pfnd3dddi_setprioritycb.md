@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnSetPriorityCb"
- - "pfnSetPriorityCb"
+ - PFND3DDDI_SETPRIORITYCB
+ - d3dumddi/PFND3DDDI_SETPRIORITYCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETPRIORITYCB callback function
+
 
 ## -description
 

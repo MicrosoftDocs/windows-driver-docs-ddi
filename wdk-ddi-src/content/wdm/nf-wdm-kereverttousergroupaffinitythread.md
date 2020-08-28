@@ -8,9 +8,6 @@ ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.date: 04/30/2018
 keywords: ["KeRevertToUserGroupAffinityThread function"]
 ms.keywords: KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread
-f1_keywords:
- - "wdm/KeRevertToUserGroupAffinityThread"
- - "KeRevertToUserGroupAffinityThread"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section).
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeRevertToUserGroupAffinityThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeRevertToUserGroupAffinityThread
+ - wdm/KeRevertToUserGroupAffinityThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeRevertToUserGroupAffinityThread
 ---
 
 # KeRevertToUserGroupAffinityThread function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-The <b>KeRevertToUserGroupAffinityThread</b> routine restores the group affinity of the calling thread to its original value at the time that the thread was created. 
-
+The <b>KeRevertToUserGroupAffinityThread</b> routine restores the group affinity of the calling thread to its original value at the time that the thread was created.
 
 ## -parameters
 
-
-
-
 ### -param PreviousAffinity 
-[in]
-A pointer to the group affinity to restore. This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
 
+[in]
+A pointer to the group affinity to restore. This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on.
 
 ## -remarks
-
-
 
 This routine changes the group number and group-relative affinity mask of the calling thread. The group number and affinity mask identify a set of processors on which the thread can run. If successful, the routine schedules the thread to run on a processor in this set.
 
@@ -96,13 +89,7 @@ A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL <= APC_LEVEL and the call is successful, the new (reverted) group affinity takes effect immediately. When the call returns, the calling thread is already running on a processor that is specified in the new group affinity. If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL = DISPATCH_LEVEL and the call is successful, the pending processor change is deferred until the caller lowers the IRQL below DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a>
 
@@ -113,7 +100,4 @@ If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL <= APC_LEVEL and t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemgroupaffinitythread">KeSetSystemGroupAffinityThread</a>
- 
-
- 
 

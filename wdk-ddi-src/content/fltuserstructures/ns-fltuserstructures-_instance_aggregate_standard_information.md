@@ -8,9 +8,6 @@ ms.assetid: 35311ee7-d023-4b04-b510-a949ab9a40ca
 ms.date: 09/18/2019
 keywords: ["INSTANCE_AGGREGATE_STANDARD_INFORMATION structure"]
 ms.keywords: "*PINSTANCE_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, ifsk.instance_aggregate_standard_information"
-f1_keywords:
- - "fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION"
- - "INSTANCE_AGGREGATE_STANDARD_INFORMATION"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltuserstructures.h
-api_name:
-- INSTANCE_AGGREGATE_STANDARD_INFORMATION
 targetos: Windows
 req.typenames: INSTANCE_AGGREGATE_STANDARD_INFORMATION, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION
+f1_keywords:
+ - _INSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - fltuserstructures/_INSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - PINSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - INSTANCE_AGGREGATE_STANDARD_INFORMATION
+ - fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltuserstructures.h
+api_name:
+ - INSTANCE_AGGREGATE_STANDARD_INFORMATION
 ---
 
 # _INSTANCE_AGGREGATE_STANDARD_INFORMATION structure
+
 
 ## -description
 
@@ -213,3 +218,4 @@ The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGL
 [INSTANCE_FULL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_full_information)
 
 [INSTANCE_PARTIAL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information)
+

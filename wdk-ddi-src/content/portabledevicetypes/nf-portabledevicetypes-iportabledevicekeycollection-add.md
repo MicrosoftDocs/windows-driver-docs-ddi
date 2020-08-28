@@ -8,9 +8,6 @@ ms.assetid: 632888bc-4a2a-4554-b6c6-8ca54f021342
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceKeyCollection::Add"]
 ms.keywords: Add, Add method, Add method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,Add method, IPortableDeviceKeyCollection.Add, IPortableDeviceKeyCollection::Add, IPortableDeviceKeyCollectionAdd, portabledevicetypes/IPortableDeviceKeyCollection::Add, wpddk.iportabledevicekeycollection_add
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceKeyCollection.Add"
- - "IPortableDeviceKeyCollection.Add"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceKeyCollection.Add
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceKeyCollection::Add
+ - portabledevicetypes/IPortableDeviceKeyCollection::Add
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceKeyCollection.Add
 ---
 
 # IPortableDeviceKeyCollection::Add
@@ -47,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Adds a property key to the collection.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Key 
+
 [in]
 A <b>REFPROPERTYKEY</b> to add to the collection. This method copies the key to the collection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,27 +88,12 @@ There is not enough memory available to add the key to the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection Interface</a>
- 
-
- 
 

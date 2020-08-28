@@ -8,9 +8,6 @@ ms.assetid: 6DA0F939-F4B3-4E66-A90C-5112AE6FEC8D
 ms.date: 04/30/2018
 keywords: ["RtlShortToUChar function"]
 ms.keywords: RtlShortToUChar, RtlShortToUChar function [Kernel-Mode Driver Architecture], kernel.rtlshorttouchar, ntintsafe/RtlShortToUChar
-f1_keywords:
- - "ntintsafe/RtlShortToUChar"
- - "RtlShortToUChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlShortToUChar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlShortToUChar
+ - ntintsafe/RtlShortToUChar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlShortToUChar
 ---
 
 # RtlShortToUChar function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>SHORT</b> to a value of type <b>UCHAR</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param sOperand 
+
 [in]
 The value to be converted.
 
-
 ### -param pch 
+
 [out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -77,5 +70,4 @@ This function uses the following alternate name:
 <li>RtlInt16ToUChar
 </li>
 </ul>
-
 

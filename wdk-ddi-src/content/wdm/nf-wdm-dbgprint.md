@@ -8,9 +8,6 @@ ms.assetid: abff1656-dceb-464f-a89c-30d7a24f742d
 ms.date: 02/23/2018
 keywords: ["DbgPrint function"]
 ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint
-f1_keywords:
- - "wdm/DbgPrint"
- - "DbgPrint"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: <= DIRQL (see Comments section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtDll.dll
-- NtosKrnl.exe
-api_name:
-- DbgPrint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DbgPrint
+ - wdm/DbgPrint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtDll.dll
+ - NtosKrnl.exe
+api_name:
+ - DbgPrint
 ---
 
 # DbgPrint function
@@ -47,40 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>DbgPrint</b> routine sends a message to the kernel debugger. 
 
  In Windows Vista and later versions of Windows, <b>DbgPrint</b> sends a message only when the conditions that you specify apply (see the <a href="#remarks">Remarks</a> section for information).
 
-
 ## -parameters
 
-
-
-
 ### -param Format 
+
 [in]
 Specifies a pointer to the format string to print. The <i>Format</i> string supports most of the <b>printf</b>-style <a href="https://go.microsoft.com/fwlink/p/?linkid=83949">format specification fields</a>. However, the Unicode format codes (<b>%C</b>, <b>%S</b>, <b>%lc</b>, <b>%ls</b>, <b>%wc</b>, <b>%ws</b>, and <b>%wZ</b>) can only be used with IRQL = PASSIVE_LEVEL. The <b>DbgPrint</b> routine does not support any of the floating point types (<b>%f</b>, <b>%e</b>, <b>%E</b>, <b>%g</b>, <b>%G</b>, <b>%a</b>, or <b>%A</b>).
-
 
 ### -param param
 
 Specifies arguments for the format string, as in <b>printf</b>.
 
-
-
 ## -returns
-
-
 
 If successful, <b>DbgPrint</b> returns the NTSTATUS code STATUS_SUCCESS; otherwise it returns the appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="remarks"></a><a id="REMARKS"></a></h3>
 <b>DbgPrint</b> and <b>DbgPrintEx</b> can be called at IRQL&lt;=DIRQL. However, Unicode format codes (%wc and %ws) can be used only at IRQL=PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, calling <b>DbgPrint</b> at IRQL&gt;DIRQL can cause deadlocks.
@@ -107,15 +93,9 @@ For more information about message filtering, components, and message importance
 <div> </div>
 Unless it is absolutely necessary, you should not obtain a string from user input or another process and pass it to <b>DbgPrint</b>. If you do use a string that you did not create, you must verify that this is a valid format string, and that the format codes match the argument list in type and quantity. The best coding practice is for all <i>Format</i> strings to be static and defined at compile time.
 
-There is no upper limit to the size of the <i>Format</i> string or the number of arguments. However, any single call to <b>DbgPrint</b> will only transmit 512 bytes of information. There is also a limit to the size of the DbgPrint buffer. See <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">DbgPrint Buffer and the Debugger</a> for details.  
-
-
-
+There is no upper limit to the size of the <i>Format</i> string or the number of arguments. However, any single call to <b>DbgPrint</b> will only transmit 512 bytes of information. There is also a limit to the size of the DbgPrint buffer. See <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">DbgPrint Buffer and the Debugger</a> for details.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex">DbgPrintEx</a>
 
@@ -126,7 +106,4 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kdprintex">KdPrintEx</a>
- 
-
- 
 

@@ -8,38 +8,38 @@ ms.assetid: 3e8c16ae-8e47-48fe-9df3-d4e582fe5fbb
 ms.date: 02/16/2018
 keywords: ["DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM callback"]
 ms.keywords: DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM, Dot11ExtSetUnicastCipherAlgorithm, Dot11ExtSetUnicastCipherAlgorithm callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ac7afe15-117d-4c7d-adf9-4f96da7a914a.xml, netvista.dot11extsetunicastcipheralgorithm, wlanihv/Dot11ExtSetUnicastCipherAlgorithm
-f1_keywords:
- - "wlanihv/Dot11ExtSetUnicastCipherAlgorithm"
- - "Dot11ExtSetUnicastCipherAlgorithm"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wlanihv.h
-api_name:
-- Dot11ExtSetUnicastCipherAlgorithm
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
+f1_keywords:
+ - DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM
+ - wlanihv/DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wlanihv.h
+api_name:
+ - Dot11ExtSetUnicastCipherAlgorithm
 ---
 
 # DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM callback
@@ -47,39 +47,24 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The IHV Extensions DLL calls the
   <b>Dot11ExtSetUnicastCipherAlgorithm</b> function to enable a unicast cipher
   algorithm on the wireless LAN (WLAN) adapter.
 
-
-## -prototype
-
-
-```cpp
-DWORD WINAPI * Dot11ExtSetUnicastCipherAlgorithm(
-  _In_opt_ HANDLE hDot11SvcHandle,
-  _In_     DWORD  dwUnicastCipherAlgo
-);
-```
-
-
 ## -parameters
 
-
-
-
 ### -param hDot11SvcHandle 
+
 [in, optional]
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-
 ### -param dwUnicastCipherAlgo 
+
 [in]
 A
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> enumerator
@@ -101,18 +86,20 @@ Otherwise, the DLL is responsible for processing a standard cipher algorithm sup
       <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157261(v=winembedded.80)">OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.</div>
 
-
-
 ## -returns
-
-
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in
      Winerror.h.
 
+## -prototype
 
-
+```cpp
+DWORD WINAPI * Dot11ExtSetUnicastCipherAlgorithm(
+  _In_opt_ HANDLE hDot11SvcHandle,
+  _In_     DWORD  dwUnicastCipherAlgo
+);
+```
 
 ## -see-also
 
@@ -131,11 +118,4 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
- 
-
- 
-
 

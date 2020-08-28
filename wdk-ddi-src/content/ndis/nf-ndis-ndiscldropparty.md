@@ -8,9 +8,6 @@ ms.assetid: f5d04730-a7eb-4670-9b47-f8c52267aea8
 ms.date: 05/02/2018
 keywords: ["NdisClDropParty function"]
 ms.keywords: NdisClDropParty, NdisClDropParty function [Network Drivers Starting with Windows Vista], condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml, ndis/NdisClDropParty, netvista.ndiscldropparty
-f1_keywords:
- - "ndis/NdisClDropParty"
- - "NdisClDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisClDropParty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisClDropParty
+ - ndis/NdisClDropParty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisClDropParty
 ---
 
 # NdisClDropParty function
@@ -47,40 +47,33 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisClDropParty</b> drops a party from the client's multipoint VC.
-
 
 ## -parameters
 
-
-
-
 ### -param NdisPartyHandle 
+
 [in]
 Specifies the handle identifying the party to be dropped on the multipoint connection. The client
      obtained this handle from a preceding call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
 
-
 ### -param Buffer 
+
 [in, optional]
 Pointer to a caller-allocated buffer containing any data to be transmitted to close the multipoint
      connection of the party on the remote node. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
-
 ### -param Size 
+
 [in, optional]
 Specifies the size in bytes at 
      <i>Buffer</i>, zero if 
      <i>Buffer</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisClDropParty</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
@@ -89,12 +82,7 @@ When
      ProtocolClDropPartyComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClDropPartyComplete</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 Clients usually call 
     <b>NdisClDropParty</b> in either of the following circumstances:
@@ -166,13 +154,7 @@ The caller of
     ProtocolClDropPartyComplete</a> function should reset the handle variable to <b>NULL</b> if it reinitializes
     its per-party context area for reuse when the party has been dropped.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
 
@@ -199,7 +181,4 @@ The caller of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a>
- 
-
- 
 

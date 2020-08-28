@@ -8,13 +8,10 @@ ms.assetid: 674e0a65-1763-41b0-896b-2ef9debc32a5
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvLockWiaDevice"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvLockWiaDevice method, IWiaMiniDrv.drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice, drvLockWiaDevice method [Imaging Devices], drvLockWiaDevice method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvlockwiadevice, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvLockWiaDevice"
- - "IWiaMiniDrv.drvLockWiaDevice"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvLockWiaDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvLockWiaDevice
+ - wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvLockWiaDevice
 ---
 
 # IWiaMiniDrv::drvLockWiaDevice
+
 
 ## -description
 
@@ -96,3 +97,4 @@ The **IWiaMiniDrv::drvLockWiaDevice** method is used to lock access to the devic
 [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
 
 [IWiaMiniDrv::drvUnLockWiaDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvunlockwiadevice)
+

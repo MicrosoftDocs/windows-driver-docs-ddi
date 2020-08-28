@@ -8,9 +8,6 @@ ms.assetid: 5a3fa72c-241e-4270-92eb-70f135d79871
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::UnmarkCancelable"]
 ms.keywords: IWDFIoRequest interface,UnmarkCancelable method, IWDFIoRequest.UnmarkCancelable, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, UnmarkCancelable, UnmarkCancelable method, UnmarkCancelable method,IWDFIoRequest interface, umdf.iwdfiorequest_unmarkcancelable, wdf.iwdfiorequest_unmarkcancelable, wudfddi/IWDFIoRequest::UnmarkCancelable
-f1_keywords:
- - "wudfddi/IWDFIoRequest.UnmarkCancelable"
- - "IWDFIoRequest.UnmarkCancelable"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest.UnmarkCancelable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest::UnmarkCancelable
+ - wudfddi/IWDFIoRequest::UnmarkCancelable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest.UnmarkCancelable
 ---
 
 # IWDFIoRequest::UnmarkCancelable
@@ -46,15 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>UnmarkCancelable</b> method disables the canceling of an I/O request.
 
-
 ## -returns
-
-
 
 <b>UnmarkCancelable</b> returns one of the following values:
 
@@ -87,14 +83,8 @@ The request is currently being canceled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A driver can call <b>IWDFIoRequest::UnmarkCancelable</b> to disable cancellation of an I/O request, if the driver previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-markcancelable">IWDFIoRequest::MarkCancelable</a> to enable cancellation of the request.
 
@@ -299,12 +289,7 @@ Also see the code example on <a href="https://docs.microsoft.com/windows-hardwar
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackcancel-oncancel">IRequestCallbackCancel::OnCancel</a>
 
@@ -319,7 +304,4 @@ Also see the code example on <a href="https://docs.microsoft.com/windows-hardwar
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-markcancelable">IWDFIoRequest::MarkCancelable</a>
- 
-
- 
 

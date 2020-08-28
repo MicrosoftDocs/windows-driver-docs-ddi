@@ -8,9 +8,6 @@ ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
 ms.date: 05/14/2020
 keywords: ["GNSS_DRIVERCOMMAND_TYPE enumeration"]
 ms.keywords: GNSS_ClearAgnssData, GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], GNSS_ForceOperationMode, GNSS_ForceSatelliteSystem, GNSS_ResetEngine, GNSS_ResetGeofencesTracking, GNSS_SetLocationNIRequestAllowed, GNSS_SetLocationServiceEnabled, GNSS_SetNMEALogging, GNSS_SetNiTimeoutInterval, GNSS_SetSuplVersion, GNSS_SetUplServerAccessInterval, gnss.gnss_drivercommand_type, gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_CustomCommand, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ForceOperationMode, gnssdriver/GNSS_ForceSatelliteSystem, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_SetNMEALogging, gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_SetUplServerAccessInterval
-f1_keywords:
- - "gnssdriver/GNSS_DRIVERCOMMAND_TYPE"
- - "GNSS_DRIVERCOMMAND_TYPE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_DRIVERCOMMAND_TYPE
 targetos: Windows
 req.typenames: GNSS_DRIVERCOMMAND_TYPE
+f1_keywords:
+ - GNSS_DRIVERCOMMAND_TYPE
+ - gnssdriver/GNSS_DRIVERCOMMAND_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_DRIVERCOMMAND_TYPE
 ---
 
 # GNSS_DRIVERCOMMAND_TYPE enumeration
+
 
 ## -description
 
@@ -207,3 +208,4 @@ This command sets the SUPL 2 version for the GNSS driver.
 ### -field GNSS_CustomCommand
 
 Range for custom IHV-specific GNSS commands:  0x0100 – 0x01FF.
+

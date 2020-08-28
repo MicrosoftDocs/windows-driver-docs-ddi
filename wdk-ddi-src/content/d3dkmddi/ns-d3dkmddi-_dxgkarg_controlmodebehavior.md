@@ -5,38 +5,41 @@ description: Arguments used to describe display mode behaviors that the OS reque
 ms.assetid: 708d7d44-6261-438f-93e7-f12e338e870e
 ms.date: 10/14/2019
 keywords: ["DXGKARG_CONTROLMODEBEHAVIOR structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARG_CONTROLMODEBEHAVIOR"
- - "_DXGKARG_CONTROLMODEBEHAVIOR"
 ms.keywords: _DXGKARG_CONTROLMODEBEHAVIOR, DXGKARG_CONTROLMODEBEHAVIOR, *INOUT_PDXGKARG_CONTROLMODEBEHAVIOR
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_CONTROLMODEBEHAVIOR
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARG_CONTROLMODEBEHAVIOR
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARG_CONTROLMODEBEHAVIOR
+ - d3dkmddi/_DXGKARG_CONTROLMODEBEHAVIOR
+ - DXGKARG_CONTROLMODEBEHAVIOR
+ - d3dkmddi/DXGKARG_CONTROLMODEBEHAVIOR
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARG_CONTROLMODEBEHAVIOR
+product:
+ - Windows
 ---
 
 # _DXGKARG_CONTROLMODEBEHAVIOR structure
+
 
 ## -description
 
@@ -65,3 +68,4 @@ If a behavior is not supported, then even if the driver comprehends the behavior
 [DXGK_MODE_BEHAVIOR_FLAGS](ns-d3dkmddi-_dxgk_mode_behavior_flags.md)
 
 [DXGKDDI_CONTROLMODEBEHAVIOR](nc-d3dkmddi-dxgkddi_controlmodebehavior.md)
+

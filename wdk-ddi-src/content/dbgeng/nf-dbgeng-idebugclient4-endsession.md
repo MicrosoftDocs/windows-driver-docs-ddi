@@ -8,9 +8,6 @@ ms.assetid: 521a0e4a-99c6-4ad4-886d-3fff9855e1fd
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::EndSession"]
 ms.keywords: EndSession, EndSession method [Windows Debugging], EndSession method [Windows Debugging],IDebugClient interface, EndSession method [Windows Debugging],IDebugClient2 interface, EndSession method [Windows Debugging],IDebugClient3 interface, EndSession method [Windows Debugging],IDebugClient4 interface, EndSession method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],EndSession method, IDebugClient2 interface [Windows Debugging],EndSession method, IDebugClient2::EndSession, IDebugClient3 interface [Windows Debugging],EndSession method, IDebugClient3::EndSession, IDebugClient4 interface [Windows Debugging],EndSession method, IDebugClient4.EndSession, IDebugClient4::EndSession, IDebugClient5 interface [Windows Debugging],EndSession method, IDebugClient5::EndSession, IDebugClient::EndSession, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, dbgeng/IDebugClient2::EndSession, dbgeng/IDebugClient3::EndSession, dbgeng/IDebugClient4::EndSession, dbgeng/IDebugClient5::EndSession, dbgeng/IDebugClient::EndSession, debugger.endsession
-f1_keywords:
- - "dbgeng/IDebugClient.EndSession"
- - "IDebugClient.EndSession"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.EndSession
-- IDebugClient2.EndSession
-- IDebugClient3.EndSession
-- IDebugClient4.EndSession
-- IDebugClient5.EndSession
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::EndSession
+ - dbgeng/IDebugClient4::EndSession
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.EndSession
+ - IDebugClient2.EndSession
+ - IDebugClient3.EndSession
+ - IDebugClient4.EndSession
+ - IDebugClient5.EndSession
 ---
 
 # IDebugClient4::EndSession
@@ -50,16 +50,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>EndSession</b> method ends the current debugger session.
-
 
 ## -parameters
 
-
-
-
 ### -param Flags 
+
 [in]
 Specifies how to end the session.  <i>Flags</i> can be one of the following values:
 
@@ -121,12 +117,8 @@ This flag is intended for when remote clients disconnect.  It generates a server
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -147,20 +139,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method may be called at any time with <i>Flags</i> set to DEBUG_END_REENTRANT.  If, for example, the application needs to exit but another thread is using the engine, this method can be used to perform as much cleanup as possible.
 
 Using DEBUG_END_REENTRANT may leave the engine in an indeterminate state. If this flag is used, no subsequent calls should be made to the engine.
 
 For more information about debugger sessions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>.
-
-
 

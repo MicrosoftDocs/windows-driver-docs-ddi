@@ -8,9 +8,6 @@ ms.assetid: 8a3e7fcd-d838-47ad-a42b-7eb070f81418
 ms.date: 05/10/2018
 keywords: ["PAGP_COMMIT_VIRTUAL callback function"]
 ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, PAGP_COMMIT_VIRTUAL callback, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
-f1_keywords:
- - "videoagp/AgpCommitVirtual"
- - "AgpCommitVirtual"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- videoagp.h
-api_name:
-- AgpCommitVirtual
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PAGP_COMMIT_VIRTUAL
+ - videoagp/PAGP_COMMIT_VIRTUAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - videoagp.h
+api_name:
+ - AgpCommitVirtual
 ---
 
 # PAGP_COMMIT_VIRTUAL callback function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>AgpCommitVirtual</b> function maps reserved virtual memory to an associated range of AGP-decodable physical addresses.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 Pointer to the device extension of the miniport driver'.
 
-
 ### -param VirtualReserveContext 
+
 [in]
 Identifies a reserved virtual address range. The context handle was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a>.
 
-
 ### -param Pages 
+
 [in]
 Specifies the number of pages of virtual memory to map.
 
-
 ### -param Offset 
+
 [in]
 Specifies the page offset at which to commit the pages. The offset is applied to the reserved virtual address range that is identified by <b>VirtualReserveContext</b>.
 
-
 ## -returns
-
-
 
 <b>AgpCommitVirtual</b> returns the virtual address for the base of the committed pages if the mapping succeeded; otherwise returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Before calling <b>AgpCommitVirtual</b> to commit a range of virtual pages, you must do the following:
 
@@ -112,13 +100,7 @@ On Windows XP and later, <b>AgpCommitVirtual</b> automatically expands the commi
 
 When a miniport driver calls <b>AgpCommitVirtual</b>, a portion of the virtual address range identified by <b>VirtualReserveContext</b> is mapped to physical addresses. The mapped portion begins <i>Offset</i> pages into the virtual address range that is identified by <b>VirtualReserveContext</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_free_virtual">AgpFreeVirtual</a>
 
@@ -129,7 +111,4 @@ When a miniport driver calls <b>AgpCommitVirtual</b>, a portion of the virtual a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a>
- 
-
- 
 

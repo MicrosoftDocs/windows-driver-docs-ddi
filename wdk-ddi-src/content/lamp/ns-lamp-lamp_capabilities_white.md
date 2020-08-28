@@ -8,9 +8,6 @@ ms.assetid: F407B953-8B03-4053-A5F4-3E96E9F9645E
 ms.date: 04/23/2018
 keywords: ["LAMP_CAPABILITIES_WHITE structure"]
 ms.keywords: LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white
-f1_keywords:
- - "lamp/LAMP_CAPABILITIES_WHITE"
- - "LAMP_CAPABILITIES_WHITE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- LAMP_CAPABILITIES_WHITE
 targetos: Windows
 req.typenames: LAMP_CAPABILITIES_WHITE
+f1_keywords:
+ - LAMP_CAPABILITIES_WHITE
+ - lamp/LAMP_CAPABILITIES_WHITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - LAMP_CAPABILITIES_WHITE
 ---
 
 # LAMP_CAPABILITIES_WHITE structure
@@ -46,14 +46,9 @@ req.typenames: LAMP_CAPABILITIES_WHITE
 
 ## -description
 
-
 This structure is the I/O parameter type of <b>IOCTL_LAMP_{GET|SET}_INTENSITY_WHITE</b>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IsLightIntensityAdjustable
 

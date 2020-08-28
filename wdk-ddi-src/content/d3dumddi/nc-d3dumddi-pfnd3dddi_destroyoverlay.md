@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DestroyOverlay"
- - "DestroyOverlay"
+ - PFND3DDDI_DESTROYOVERLAY
+ - d3dumddi/PFND3DDDI_DESTROYOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DESTROYOVERLAY callback function
+
 
 ## -description
 

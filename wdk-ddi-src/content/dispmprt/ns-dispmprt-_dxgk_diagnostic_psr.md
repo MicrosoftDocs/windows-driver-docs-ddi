@@ -5,38 +5,41 @@ description: A diagnostic that indicates that the panel connected via the target
 ms.assetid: ec746886-9f49-4986-a73e-4a806f8e5025
 ms.date: 10/19/2018
 keywords: ["DXGK_DIAGNOSTIC_PSR structure"]
-f1_keywords:
- - "dispmprt/_DXGK_DIAGNOSTIC_PSR"
- - "_DXGK_DIAGNOSTIC_PSR"
 ms.keywords: _DXGK_DIAGNOSTIC_PSR, DXGK_DIAGNOSTIC_PSR,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_DIAGNOSTIC_PSR
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- _DXGK_DIAGNOSTIC_PSR
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_DIAGNOSTIC_PSR
+ - dispmprt/_DXGK_DIAGNOSTIC_PSR
+ - DXGK_DIAGNOSTIC_PSR
+ - dispmprt/DXGK_DIAGNOSTIC_PSR
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_DIAGNOSTIC_PSR
+product:
+ - Windows
 ---
 
 # _DXGK_DIAGNOSTIC_PSR structure
+
 
 ## -description
 
@@ -96,3 +99,4 @@ When the panel enters self-refresh, the driver should send this diagnostic with 
 When the panel needs to exit self-refresh to update the content, the driver should send this diagnostic with at least one of the bit-fields within RefreshReason, indicating the reason(s) for exiting PSR. If multiple factors caused PSR to be exited, the driver should attempt to set all appropriate bit-field reasons. However, it is more important that flags should not be set if the reason was not the trigger to exit PSR, than it is to capture all the reasons which did trigger the exit. This is because once PSR has been exited, the driver should not subsequently report additional reasons that PSR would have been exited so under reporting is valid, as long as at least one reason is provided.
 
 If the panel and driver support PSR2, where updates do not require a full frame to be sent to the panel in order to refresh a smaller portion, such updates should still be reported to the OS while exiting PSR. For example, if the display is in PSR and the cursor shape is changed without any other updates, the driver should be able to send a small fraction of the full frame of pixels, likely only the lines containing the cursor. In this case, the driver should still report that PSR has been exited, with reason *CursorUpdate*. In a later release, extra diagnostic fields may be added to distinguish partial and full updates.
+

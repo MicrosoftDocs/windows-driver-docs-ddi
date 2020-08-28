@@ -8,9 +8,6 @@ ms.assetid: b5295760-7f0e-4973-9ce3-4aa35ea5211b
 ms.date: 04/30/2018
 keywords: ["RESOURCEMANAGER_BASIC_INFORMATION structure"]
 ms.keywords: "*PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], RESOURCEMANAGER_BASIC_INFORMATION, RESOURCEMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _RESOURCEMANAGER_BASIC_INFORMATION, kernel.resourcemanager_basic_information, ktm_ref_bcc9f19b-2cd4-45da-b5df-1f28e832d48e.xml, wdm/PRESOURCEMANAGER_BASIC_INFORMATION, wdm/RESOURCEMANAGER_BASIC_INFORMATION"
-f1_keywords:
- - "wdm/RESOURCEMANAGER_BASIC_INFORMATION"
- - "RESOURCEMANAGER_BASIC_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- RESOURCEMANAGER_BASIC_INFORMATION
 targetos: Windows
 req.typenames: RESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORMATION
+f1_keywords:
+ - _RESOURCEMANAGER_BASIC_INFORMATION
+ - wdm/_RESOURCEMANAGER_BASIC_INFORMATION
+ - PRESOURCEMANAGER_BASIC_INFORMATION
+ - wdm/PRESOURCEMANAGER_BASIC_INFORMATION
+ - RESOURCEMANAGER_BASIC_INFORMATION
+ - wdm/RESOURCEMANAGER_BASIC_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - RESOURCEMANAGER_BASIC_INFORMATION
 ---
 
 # _RESOURCEMANAGER_BASIC_INFORMATION structure
@@ -46,52 +50,33 @@ req.typenames: RESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORM
 
 ## -description
 
-
 The <b>RESOURCEMANAGER_BASIC INFORMATION</b> structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ResourceManagerId
 
 A GUID that KTM assigned to the resource manager.
 
-
 ### -field DescriptionLength
 
 The length, in bytes, of the character array that the <b>Description</b> member provides.
 
-
 ### -field Description
 
-A caller-allocated array of characters that receives a resource manager's description string. 
-
+A caller-allocated array of characters that receives a resource manager's description string.
 
 ## -remarks
-
-
 
 The <b>RESOURCEMANAGER_BASIC INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a> routine.
 
 The resource manager's description string, which the <b>Description</b> member receives, is the description that the resource manager previously specified when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a>
- 
-
- 
 

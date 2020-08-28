@@ -7,9 +7,6 @@ ms.assetid: 56228a1d-ca3b-4bd4-850c-af736e91494c
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AES_CTR_IV structure"]
 ms.keywords: D3D11_1DDI_AES_CTR_IV, D3D11_1DDI_AES_CTR_IV structure [Display Devices], d3d10umddi/D3D11_1DDI_AES_CTR_IV, display.d3d11_1ddi_aes_ctr_iv
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_AES_CTR_IV"
- - "D3D11_1DDI_AES_CTR_IV"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D11_1DDI_AES_CTR_IV
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_AES_CTR_IV
+f1_keywords:
+ - D3D11_1DDI_AES_CTR_IV
+ - d3d10umddi/D3D11_1DDI_AES_CTR_IV
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D11_1DDI_AES_CTR_IV
 ---
 
 # D3D11_1DDI_AES_CTR_IV structure
@@ -46,19 +46,13 @@ req.typenames: D3D11_1DDI_AES_CTR_IV
 
 ## -description
 
-
 Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IV
 
 The IV, in big-endian format.
-
 
 ### -field Count
 

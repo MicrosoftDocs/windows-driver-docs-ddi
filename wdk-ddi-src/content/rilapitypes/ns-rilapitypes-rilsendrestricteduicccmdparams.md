@@ -8,9 +8,6 @@ ms.assetid: 22c7ae24-c2dc-46d6-b3c2-b908ad6d181c
 ms.date: 05/02/2018
 keywords: ["RILSENDRESTRICTEDUICCCMDPARAMS structure"]
 ms.keywords: "*LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrestricteduicccmdparams, ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS"
-f1_keywords:
- - "rilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS"
- - "RILSENDRESTRICTEDUICCCMDPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSENDRESTRICTEDUICCCMDPARAMS
 targetos: Windows
 req.typenames: RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS
+f1_keywords:
+ - RILSENDRESTRICTEDUICCCMDPARAMS
+ - rilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS
+ - LPRILSENDRESTRICTEDUICCCMDPARAMS
+ - rilapitypes/LPRILSENDRESTRICTEDUICCCMDPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSENDRESTRICTEDUICCCMDPARAMS
 ---
 
 # RILSENDRESTRICTEDUICCCMDPARAMS structure
@@ -46,32 +48,21 @@ req.typenames: RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwCommand
 
-
 ### -field rscpParameters
-
 
 ### -field fHasLockVerification
 
-
 ### -field lockVerification
 
-
 ### -field dwDataSize
-
 
 ### -field pbData
 

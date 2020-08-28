@@ -8,9 +8,6 @@ ms.assetid: 52c62e52-3bf7-40eb-80ff-df14c50c86e1
 ms.date: 04/16/2018
 keywords: ["FILE_ALLOCATION_INFORMATION structure"]
 ms.keywords: "*PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers], PFILE_ALLOCATION_INFORMATION, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, ifsk.file_allocation_information, ntifs/FILE_ALLOCATION_INFORMATION, ntifs/PFILE_ALLOCATION_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_ALLOCATION_INFORMATION"
- - "FILE_ALLOCATION_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_ALLOCATION_INFORMATION
 targetos: Windows
 req.typenames: FILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION
+f1_keywords:
+ - _FILE_ALLOCATION_INFORMATION
+ - ntifs/_FILE_ALLOCATION_INFORMATION
+ - PFILE_ALLOCATION_INFORMATION
+ - ntifs/PFILE_ALLOCATION_INFORMATION
+ - FILE_ALLOCATION_INFORMATION
+ - ntifs/FILE_ALLOCATION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_ALLOCATION_INFORMATION
 ---
 
 # _FILE_ALLOCATION_INFORMATION structure
@@ -46,23 +50,15 @@ req.typenames: FILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION
 
 ## -description
 
-
-The FILE_ALLOCATION_INFORMATION structure is used to set the allocation size for a file. 
-
+The FILE_ALLOCATION_INFORMATION structure is used to set the allocation size for a file.
 
 ## -struct-fields
 
-
-
-
 ### -field AllocationSize
 
-File allocation size, in bytes. Usually this value is a multiple of the sector or cluster size of the underlying physical device. 
-
+File allocation size, in bytes. Usually this value is a multiple of the sector or cluster size of the underlying physical device.
 
 ## -remarks
-
-
 
 This operation can be performed in either of the following ways: 
 
@@ -86,15 +82,9 @@ A file's allocation size and end-of-file position are independent of each other,
 
 The size of the <i>FileInformation</i> buffer passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> must be >= <b>sizeof</b>(FILE_ALLOCATION_INFORMATION). 
 
-This structure must be aligned on a LONGLONG (8-byte) boundary. 
-
-
-
+This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_end_of_file_information">FILE_END_OF_FILE_INFORMATION</a>
 
@@ -109,7 +99,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
- 
-
- 
 

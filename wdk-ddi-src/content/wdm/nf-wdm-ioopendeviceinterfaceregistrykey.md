@@ -8,9 +8,6 @@ ms.assetid: d9ca4b9d-dacc-4164-9198-a71a771b145b
 ms.date: 04/30/2018
 keywords: ["IoOpenDeviceInterfaceRegistryKey function"]
 ms.keywords: IoOpenDeviceInterfaceRegistryKey, IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture], k104_39651647-aa61-4670-b09d-7aaabaae4603.xml, kernel.ioopendeviceinterfaceregistrykey, wdm/IoOpenDeviceInterfaceRegistryKey
-f1_keywords:
- - "wdm/IoOpenDeviceInterfaceRegistryKey"
- - "IoOpenDeviceInterfaceRegistryKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoOpenDeviceInterfaceRegistryKey
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoOpenDeviceInterfaceRegistryKey
+ - wdm/IoOpenDeviceInterfaceRegistryKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoOpenDeviceInterfaceRegistryKey
 ---
 
 # IoOpenDeviceInterfaceRegistryKey function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoOpenDeviceInterfaceRegistryKey</b> routine returns a handle to a registry key for storing information about a particular device interface instance.
-
 
 ## -parameters
 
-
-
-
 ### -param SymbolicLinkName 
-[in]
-Pointer to a string identifying the device interface instance. This string was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfacealias">IoGetDeviceInterfaceAlias</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>. 
 
+[in]
+Pointer to a string identifying the device interface instance. This string was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfacealias">IoGetDeviceInterfaceAlias</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>.
 
 ### -param DesiredAccess 
-[in]
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the access the caller requires to the key, such as KEY_READ, KEY_WRITE, or KEY_ALL_ACCESS. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> for a description of each KEY_<i>XXX</i> access right. 
 
+[in]
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the access the caller requires to the key, such as KEY_READ, KEY_WRITE, or KEY_ALL_ACCESS. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> for a description of each KEY_<i>XXX</i> access right.
 
 ### -param DeviceInterfaceRegKey 
-[out]
-Pointer to a returned handle to the requested registry key if the call is successful. 
 
+[out]
+Pointer to a returned handle to the requested registry key if the call is successful.
 
 ## -returns
-
-
 
 <b>IoOpenDeviceInterfaceRegistryKey</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following.
 
@@ -115,14 +108,8 @@ Possibly indicates an error in the <i>SymbolicLinkName</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IoOpenDeviceInterfaceRegistryKey</b> opens a nonvolatile subkey of the registry key for the device interface instance specified by <i>SymbolicLinkName</i>. Drivers can store information in this subkey that is specific to this instance of the device interface, such as the default resolution for a camera. User-mode applications can access this subkey using <b>SetupDi<i>Xxx</i></b> routines.
 
@@ -130,13 +117,7 @@ The driver must call <a href="https://docs.microsoft.com/windows-hardware/driver
 
 Callers of <b>IoOpenDeviceInterfaceRegistryKey</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -155,7 +136,4 @@ Callers of <b>IoOpenDeviceInterfaceRegistryKey</b> must be running at IRQL = PAS
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
- 
-
- 
 

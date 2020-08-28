@@ -6,44 +6,44 @@ description: Evaluates a specified ACPI method on a display adapter or on a chil
 tech.root: display
 ms.assetid: dc58e082-25c3-45c1-ad62-718ab21a156c
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
+ms.date: 04/04/2019
 keywords: ["DlEvalAcpiMethod function"]
-f1_keywords:
- - "dispmprt/DlEvalAcpiMethod"
- - "DlEvalAcpiMethod"
 ms.keywords: DlEvalAcpiMethod
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Displib.lib
-- Displib.dll
-api_name: 
-- DlEvalAcpiMethod
-product: 
-- Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - DlEvalAcpiMethod
+ - dispmprt/DlEvalAcpiMethod
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Displib.lib
+ - Displib.dll
+api_name:
+ - DlEvalAcpiMethod
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # DlEvalAcpiMethod function
@@ -79,7 +79,6 @@ The ACPI output buffer.
 
 The ACPI output size.
 
-
 ## -returns
 
 This function returns NTSTATUS.
@@ -89,3 +88,4 @@ This function returns NTSTATUS.
 ## -see-also
 
 [DXGKCB_EVAL_ACPI_METHOD](nc-dispmprt-dxgkcb_eval_acpi_method.md) callback function
+

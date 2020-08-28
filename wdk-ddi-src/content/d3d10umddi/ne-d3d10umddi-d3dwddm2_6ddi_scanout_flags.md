@@ -24,8 +24,8 @@ req.typenames: D3DWDDM2_6DDI_SCANOUT_FLAGS
 targetos: Windows
 ms.custom: WDDM 2.6, 19H1
 f1_keywords:
- - "d3d10umddi/D3DWDDM2_6DDI_SCANOUT_FLAGS"
- - "D3DWDDM2_6DDI_SCANOUT_FLAGS"
+ - D3DWDDM2_6DDI_SCANOUT_FLAGS
+ - d3d10umddi/D3DWDDM2_6DDI_SCANOUT_FLAGS
 topic_type:
  - apiref
 api_type:
@@ -39,6 +39,7 @@ product:
 ---
 
 # D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration
+
 
 ## -description
 

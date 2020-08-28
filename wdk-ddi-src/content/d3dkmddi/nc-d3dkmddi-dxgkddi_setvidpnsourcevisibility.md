@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetVidPnSourceVisibility"
- - "DxgkDdiSetVidPnSourceVisibility"
+ - DXGKDDI_SETVIDPNSOURCEVISIBILITY
+ - d3dkmddi/DXGKDDI_SETVIDPNSOURCEVISIBILITY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETVIDPNSOURCEVISIBILITY callback function
+
 
 ## -description
 

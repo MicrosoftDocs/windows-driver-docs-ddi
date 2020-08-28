@@ -8,9 +8,6 @@ ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.date: 04/20/2018
 keywords: ["CPSUICBPARAM structure"]
 ms.keywords: "*PCPSUICBPARAM, CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], _CPSUICBPARAM, compstui/CPSUICBPARAM, compstui/PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, print.cpsuicbparam"
-f1_keywords:
- - "compstui/CPSUICBPARAM"
- - "CPSUICBPARAM"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- CPSUICBPARAM
 targetos: Windows
 req.typenames: CPSUICBPARAM, *PCPSUICBPARAM
+f1_keywords:
+ - _CPSUICBPARAM
+ - compstui/_CPSUICBPARAM
+ - PCPSUICBPARAM
+ - compstui/PCPSUICBPARAM
+ - CPSUICBPARAM
+ - compstui/CPSUICBPARAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - CPSUICBPARAM
 ---
 
 # _CPSUICBPARAM structure
@@ -46,19 +50,13 @@ req.typenames: CPSUICBPARAM, *PCPSUICBPARAM
 
 ## -description
 
-
 The CPSUICBPARAM structure is used as the input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 CPSUI-supplied size, in bytes, of the CPSUICBPARAM structure.
-
 
 ### -field Reason
 
@@ -156,36 +154,27 @@ The user has changed the selected value for the option pointed to by <b>pCurItem
 
 The property sheet page is about to become active, and CPSUI has received a PSN_SETACTIVE notification message (described in the Windows SDK documentation). CPSUI sets <b>pCurItem</b> to the value contained in <b>pOptItem</b>, and sets <b>pOldSel</b> to point to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure.
 
-
 ### -field hDlg
 
 CPSUI-supplied handle to the currently active dialog box.
-
 
 ### -field pOptItem
 
 CPSUI-supplied pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structures. This is the same pointer that the application previously supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure.
 
-
 ### -field cOptItem
 
 CPSUI-supplied number of OPTITEM structures in the array pointed to by <b>pOptItem</b>. This is the same number that the application previously supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure.
-
 
 ### -field Flags
 
 CPSUI-supplied flags. This is the same set of flags that the application previously supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure.
 
-
 ### -field pCurItem
 
 CPSUI-supplied pointer to a member of the OPTITEM array pointed to by <b>pOptItem</b>. This array member represents the "current" option, which is the one for which the callback function was called.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.OldSel
 
@@ -193,18 +182,15 @@ If the <b>Reason</b> member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this
 
 For all other <b>Reason</b> values, the contents of this union should be ignored.
 
-
 ### -field DUMMYUNIONNAME.pOldSel
 
 If the <b>Reason</b> member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the <b>OldSel</b>/<b>pOldSel</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure pointed to by <b>pCurItem</b>.
 
 For all other <b>Reason</b> values, the contents of this union should be ignored.
 
-
 ### -field UserData
 
 CPSUI-supplied user data. This is the same value that the application previously supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure.
-
 
 ### -field Result
 

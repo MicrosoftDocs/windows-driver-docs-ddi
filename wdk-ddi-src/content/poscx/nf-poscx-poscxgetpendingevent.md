@@ -8,9 +8,6 @@ ms.assetid: D68C24E4-DCFB-44F6-92EE-9FF4A1A52841
 ms.date: 02/23/2018
 keywords: ["PosCxGetPendingEvent function"]
 ms.keywords: PosCxGetPendingEvent, PosCxGetPendingEvent function, pos.poscxgetpendingevent, poscx/PosCxGetPendingEvent
-f1_keywords:
- - "poscx/PosCxGetPendingEvent"
- - "PosCxGetPendingEvent"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxGetPendingEvent
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxGetPendingEvent
+ - poscx/PosCxGetPendingEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxGetPendingEvent
 ---
 
 # PosCxGetPendingEvent function
+
 
 ## -description
 
@@ -53,10 +54,12 @@ It first searches the control pending events database, and then the data pending
 ## -parameters
 
 ### -param device 
+
 [in]
 A handle to a framework device object that represents the device.
 
 ### -param request 
+
 [in]
 A handle to a framework request object that represents the read request if **PosCxGetPendingEvent** is called from the device read callback.
 
@@ -70,3 +73,4 @@ Possible return values are:
 | STATUS_PENDING | No events are currently available for the caller. The request will be completed by PosCx in the future. The caller must not complete the request in this case. |
 | STATUS_DEVICE_NOT_READY | The PosCx library was not successfully initialized. The caller should complete the request. |
 | Other errors | Other appropriate failure error codes.  The caller should complete the request. |
+

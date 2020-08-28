@@ -8,9 +8,6 @@ ms.assetid: 9a27e7c3-73fe-4875-83e2-94fd4929ce9c
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::SetSignedLargeIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetSignedLargeIntegerValue method, IPortableDeviceValues.SetSignedLargeIntegerValue, IPortableDeviceValues::SetSignedLargeIntegerValue, IPortableDeviceValuesSetSignedLargeIntegerValue, SetSignedLargeIntegerValue, SetSignedLargeIntegerValue method, SetSignedLargeIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetSignedLargeIntegerValue, wpddk.iportabledevicevalues_setsignedlargeintegervalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.SetSignedLargeIntegerValue"
- - "IPortableDeviceValues.SetSignedLargeIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.SetSignedLargeIntegerValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::SetSignedLargeIntegerValue
+ - portabledevicetypes/IPortableDeviceValues::SetSignedLargeIntegerValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.SetSignedLargeIntegerValue
 ---
 
 # IPortableDeviceValues::SetSignedLargeIntegerValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Adds a new <b>LONGLONG</b> value (type VT_I8) or overwrites an existing one.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param key 
+
 [in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-
 ### -param Value 
+
 [in]
 A <b>LONGLONG</b> that specifies the new value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -92,31 +82,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If an existing value has the same key that is specified by the <i>key</i> parameter, it overwrites the existing value without any warning.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getsignedlargeintegervalue">IPortableDeviceValues::GetSignedLargeIntegerValue</a>
- 
-
- 
 

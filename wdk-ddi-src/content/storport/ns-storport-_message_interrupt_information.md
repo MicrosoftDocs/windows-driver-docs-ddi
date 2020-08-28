@@ -8,9 +8,6 @@ ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.date: 03/29/2018
 keywords: ["MESSAGE_INTERRUPT_INFORMATION structure"]
 ms.keywords: "*PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], PMESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], _MESSAGE_INTERRUPT_INFORMATION, storage.message_interrupt_information, storport/MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml"
-f1_keywords:
- - "storport/MESSAGE_INTERRUPT_INFORMATION"
- - "MESSAGE_INTERRUPT_INFORMATION"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- MESSAGE_INTERRUPT_INFORMATION
 targetos: Windows
 req.typenames: MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION
+f1_keywords:
+ - _MESSAGE_INTERRUPT_INFORMATION
+ - storport/_MESSAGE_INTERRUPT_INFORMATION
+ - PMESSAGE_INTERRUPT_INFORMATION
+ - storport/PMESSAGE_INTERRUPT_INFORMATION
+ - MESSAGE_INTERRUPT_INFORMATION
+ - storport/MESSAGE_INTERRUPT_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - MESSAGE_INTERRUPT_INFORMATION
 ---
 
 # _MESSAGE_INTERRUPT_INFORMATION structure
@@ -46,61 +50,39 @@ req.typenames: MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION
 
 ## -description
 
-
 The <b>MESSAGE_INTERRUPT_INFORMATION</b> structure describes a message signaled interrupt (MSI).
-
 
 ## -struct-fields
 
-
-
-
 ### -field MessageId
 
-An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes. 
-
+An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes.
 
 ### -field MessageData
 
-The data associated with the message. 
-
+The data associated with the message.
 
 ### -field MessageAddress
 
-The physical address associated with the message. 
-
+The physical address associated with the message.
 
 ### -field InterruptVector
 
-The interrupt vector associated with the message. 
-
+The interrupt vector associated with the message.
 
 ### -field InterruptLevel
 
-The interrupt level associated with the message. 
-
+The interrupt level associated with the message.
 
 ### -field InterruptMode
 
-A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
-
+A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.
 
 ## -remarks
 
-
-
-Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetmsiinfo">StorPortGetMSIInfo</a> routine. 
-
-
-
+Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetmsiinfo">StorPortGetMSIInfo</a> routine.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetmsiinfo">StorPortGetMSIInfo</a>
- 
-
- 
 

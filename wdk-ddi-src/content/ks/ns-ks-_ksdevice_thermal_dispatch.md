@@ -8,9 +8,6 @@ ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
 ms.date: 04/23/2018
 keywords: ["KSDEVICE_THERMAL_DISPATCH structure"]
 ms.keywords: "*PKSDEVICE_THERMAL_DISPATCH, DeviceThermalState, Engaged, KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], KsDevice, PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], Percentage, _KSDEVICE_THERMAL_DISPATCH, ks/KSDEVICE_THERMAL_DISPATCH, ks/PKSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch"
-f1_keywords:
- - "ks/KSDEVICE_THERMAL_DISPATCH"
- - "KSDEVICE_THERMAL_DISPATCH"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSDEVICE_THERMAL_DISPATCH
 targetos: Windows
 req.typenames: KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH
+f1_keywords:
+ - _KSDEVICE_THERMAL_DISPATCH
+ - ks/_KSDEVICE_THERMAL_DISPATCH
+ - PKSDEVICE_THERMAL_DISPATCH
+ - ks/PKSDEVICE_THERMAL_DISPATCH
+ - KSDEVICE_THERMAL_DISPATCH
+ - ks/KSDEVICE_THERMAL_DISPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSDEVICE_THERMAL_DISPATCH
 ---
 
 # _KSDEVICE_THERMAL_DISPATCH structure
+
 
 ## -description
 
@@ -76,7 +81,7 @@ void
 
 #### DeviceThermalState
 
-[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. 
+[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications.
 
 ### -field PassiveCooling
 
@@ -106,3 +111,4 @@ void
 #### DeviceThermalState
 
 [out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications.
+

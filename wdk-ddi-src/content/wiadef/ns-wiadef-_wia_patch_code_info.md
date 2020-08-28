@@ -8,9 +8,6 @@ ms.assetid: 476C9269-7A88-4D06-80E8-C80E5F29B6CF
 ms.date: 05/03/2018
 keywords: ["WIA_PATCH_CODE_INFO structure"]
 ms.keywords: WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices], _WIA_PATCH_CODE_INFO, image.wia_patch_code_info, wiadef/WIA_PATCH_CODE_INFO
-f1_keywords:
- - "wiadef/WIA_PATCH_CODE_INFO"
- - "WIA_PATCH_CODE_INFO"
 req.header: wiadef.h
 req.include-header: Wiadef.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiadef.h
-api_name:
-- WIA_PATCH_CODE_INFO
 targetos: Windows
 req.typenames: WIA_PATCH_CODE_INFO
+f1_keywords:
+ - _WIA_PATCH_CODE_INFO
+ - wiadef/_WIA_PATCH_CODE_INFO
+ - WIA_PATCH_CODE_INFO
+ - wiadef/WIA_PATCH_CODE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiadef.h
+api_name:
+ - WIA_PATCH_CODE_INFO
 ---
 
 # _WIA_PATCH_CODE_INFO structure
@@ -46,14 +48,9 @@ req.typenames: WIA_PATCH_CODE_INFO
 
 ## -description
 
-
 The <b>WIA_PATCH_CODE_INFO</b> structure stores information for one decoded patch code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 

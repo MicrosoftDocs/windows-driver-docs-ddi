@@ -5,39 +5,40 @@ description: Arguments used to build a ray tracing acceleration structure.
 ms.assetid: 5d8ed94d-cf46-41d8-ad8a-c2021d6fcf0b
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054"
- - "D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054"
-ms.keywords: D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054, D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054, 
+ms.keywords: D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054, D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
+ - d3d12umddi/D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 structure
+
 
 ## -description
 
@@ -86,3 +87,4 @@ Points to an array of *NumPostbuildInfoDescs* pointers to D3D12DDI_RAYTRACING_AC
 ## -remarks
 
 ## -see-also
+

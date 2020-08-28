@@ -8,9 +8,6 @@ ms.assetid: B32335E4-3BDF-4161-9BE2-CF3557D76988
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_TRANSMIT callback function"]
 ms.keywords: 1/EvtSerCxTransmit, EVT_SERCX_TRANSMIT, EVT_SERCX_TRANSMIT callback, EvtSerCxTransmit, EvtSerCxTransmit callback function [Serial Ports], serports.evtsercxtransmit
-f1_keywords:
- - "sercx/EvtSerCxTransmit"
- - "EvtSerCxTransmit"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 1.0\Sercx.h
-api_name:
-- EvtSerCxTransmit
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX_TRANSMIT
+ - sercx/EVT_SERCX_TRANSMIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - EvtSerCxTransmit
 ---
 
 # EVT_SERCX_TRANSMIT callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCxTransmit</i> event callback function prepares the serial controller device (UART) to do a write (transmit) operation.
-
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-
 ### -param Length 
+
 [in]
 The number of bytes to be transmitted. The controller driver can use this value as a hint to decide whether to use PIO or DMA to perform the data transfer.
 
-
 ## -returns
-
-
 
 The <i>EvtSerCxTransmit</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code.
 
-
-
-
 ## -remarks
-
-
 
 The serial framework extension (SerCx) calls this function to configure the serial controller hardware to transmit data. If necessary, the <i>EvtSerCxTransmit</i> function can enable interrupts.
 
@@ -136,12 +124,7 @@ For more information about SDV requirements for function declarations, see <a hr
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -152,7 +135,4 @@ For more information about SDV requirements for function declarations, see <a hr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>
- 
-
- 
 

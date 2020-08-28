@@ -8,9 +8,6 @@ ms.assetid: fa015adf-93b6-472f-8a78-a627a59c032e
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_S_EX structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_FLAGS_ASYNCHRONOUS, KSPROPERTY_CAMERACONTROL_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_S_EX structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S_EX, PKSPROPERTY_CAMERACONTROL_S_EX structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S_EX, ksmedia/PKSPROPERTY_CAMERACONTROL_S_EX, stream.ksproperty_cameracontrol_s_ex"
-f1_keywords:
- - "ksmedia/KSPROPERTY_CAMERACONTROL_S_EX"
- - "KSPROPERTY_CAMERACONTROL_S_EX"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSPROPERTY_CAMERACONTROL_S_EX
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_S_EX, *PKSPROPERTY_CAMERACONTROL_S_EX
+f1_keywords:
+ - PKSPROPERTY_CAMERACONTROL_S_EX
+ - ksmedia/PKSPROPERTY_CAMERACONTROL_S_EX
+ - KSPROPERTY_CAMERACONTROL_S_EX
+ - ksmedia/KSPROPERTY_CAMERACONTROL_S_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSPROPERTY_CAMERACONTROL_S_EX
 ---
 
 # KSPROPERTY_CAMERACONTROL_S_EX structure
@@ -46,26 +48,19 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S_EX, *PKSPROPERTY_CAMERACONTROL_S_EX
 
 ## -description
 
-
 Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization. This structure describes filter-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
 
 Supported starting with Windows 8.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Property
 
 Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
-
 ### -field Value
 
 Specifies the value of the property. This member is read/write.
-
 
 ### -field Flags
 
@@ -112,8 +107,6 @@ If this flag value and the <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> flag value
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Capabilities
 
@@ -138,20 +131,11 @@ If set, indicates that when the application submits a query, the driver should r
 
 A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows desktop applications.
 
-
 ## -remarks
-
-
 
 When a requested camera focus operation is completed or is canceled, the driver should generate an event specified by the <b>KSEVENT_CAMERACONTROL_FOCUS</b> enumeration value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksevent_cameracontrol">KSEVENT_CAMERACONTROL</a>
 
@@ -174,7 +158,4 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

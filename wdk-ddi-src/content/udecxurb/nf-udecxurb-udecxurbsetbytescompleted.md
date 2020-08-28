@@ -8,9 +8,6 @@ ms.assetid: 86C320B0-F679-4A8E-9015-D2BD8059A6CD
 ms.date: 05/07/2018
 keywords: ["UdecxUrbSetBytesCompleted function"]
 ms.keywords: UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted
-f1_keywords:
- - "udecxurb/UdecxUrbSetBytesCompleted"
- - "UdecxUrbSetBytesCompleted"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUrbSetBytesCompleted
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUrbSetBytesCompleted
+ - udecxurb/UdecxUrbSetBytesCompleted
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUrbSetBytesCompleted
 ---
 
 # UdecxUrbSetBytesCompleted function
@@ -47,39 +47,24 @@ req.typenames:
 
 ## -description
 
-
 Sets the number of bytes transferred for the URB contained within a framework  request object.
-
-
 
 ## -parameters
 
-
-
-
 ### -param Request 
+
 [in]
 A handle to a framework request object that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the transfer.
-
 
 ### -param BytesCompleted
 
 <p>The number of transferred bytes to set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb"><b>URB</b></a>. This value must not be greater than the transfer buffer length.</p>
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

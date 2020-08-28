@@ -7,9 +7,6 @@ ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86
 ms.date: 05/10/2018
 keywords: ["DXGKARG_SETTARGETCONTENTTYPE structure"]
 ms.keywords: DXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], PDXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], _DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE, display.dxgkarg_settargetcontenttype
-f1_keywords:
- - "d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE"
- - "DXGKARG_SETTARGETCONTENTTYPE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_SETTARGETCONTENTTYPE
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_SETTARGETCONTENTTYPE
+f1_keywords:
+ - _DXGKARG_SETTARGETCONTENTTYPE
+ - d3dkmddi/_DXGKARG_SETTARGETCONTENTTYPE
+ - DXGKARG_SETTARGETCONTENTTYPE
+ - d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_SETTARGETCONTENTTYPE
 ---
 
 # _DXGKARG_SETTARGETCONTENTTYPE structure
@@ -46,20 +48,13 @@ req.typenames: DXGKARG_SETTARGETCONTENTTYPE
 
 ## -description
 
-
 Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_settargetcontenttype">DXGKDDI_SETTARGETCONTENTTYPE</a>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field TargetId
 
 The identifier of a display adapter's video present target.
-
 
 ### -field ContentType
 

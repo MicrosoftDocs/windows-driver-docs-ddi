@@ -8,9 +8,6 @@ ms.assetid: 865E62CA-0D73-4957-88AA-EEF5910AD916
 ms.date: 04/30/2018
 keywords: ["RtlByteToInt8 function"]
 ms.keywords: RtlByteToInt8, RtlByteToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlbytetoint8, ntintsafe/RtlByteToInt8
-f1_keywords:
- - "ntintsafe/RtlByteToInt8"
- - "RtlByteToInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlByteToInt8
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlByteToInt8
+ - ntintsafe/RtlByteToInt8
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlByteToInt8
 ---
 
 # RtlByteToInt8 function
@@ -46,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>BYTE</b> to a value of type <b>INT8</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param bOperand 
+
 [in]
 The value to be converted.
 
-
 ### -param pi8Result 
+
 [out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

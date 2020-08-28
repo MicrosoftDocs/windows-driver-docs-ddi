@@ -8,9 +8,6 @@ ms.assetid: B1B85AD5-F626-4177-8218-428B617A97F6
 ms.date: 04/30/2018
 keywords: ["PsUnregisterSiloMonitor function"]
 ms.keywords: PsUnregisterSiloMonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psunregistersilomonitor, ntddk/PsUnregisterSiloMonitor
-f1_keywords:
- - "ntddk/PsUnregisterSiloMonitor"
- - "PsUnregisterSiloMonitor"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsUnregisterSiloMonitor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsUnregisterSiloMonitor
+ - ntddk/PsUnregisterSiloMonitor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsUnregisterSiloMonitor
 ---
 
 # PsUnregisterSiloMonitor function
@@ -46,27 +46,18 @@ req.typenames:
 
 ## -description
 
-
 This routine unregisters a server silo monitor.
-
 
 ## -parameters
 
-
-
-
 ### -param Monitor 
+
 [in]
 The server silo monitor to unregister.
 
-
 ## -remarks
-
-
 
 The monitor will not receive further notifications after this routine completes.
     
 If the monitor allocated a silo context slot, this routine will not complete until all silo contexts have been removed from slot.
-
-
 

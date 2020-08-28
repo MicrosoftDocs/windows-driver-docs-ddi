@@ -8,9 +8,6 @@ ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 ms.date: 04/20/2018
 keywords: ["GetJobNamedPropertyValue function"]
 ms.keywords: GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
-f1_keywords:
- - "winspool/GetJobNamedPropertyValue"
- - "GetJobNamedPropertyValue"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- spoolss.dll
-- WinSpool.drv
-api_name:
-- GetJobNamedPropertyValue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetJobNamedPropertyValue
+ - winspool/GetJobNamedPropertyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - spoolss.dll
+ - WinSpool.drv
+api_name:
+ - GetJobNamedPropertyValue
 ---
 
 # GetJobNamedPropertyValue function
@@ -47,46 +47,31 @@ req.typenames:
 
 ## -description
 
-
-Retrieves the value of the named property for the specified print job on the specified printer.  
-
-
+Retrieves the value of the named property for the specified print job on the specified printer.
 
 ## -parameters
 
-
-
-
 ### -param hPrinter 
+
 [in]
-A handle to the printer object of interest. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>, <a href="https://docs.microsoft.com/windows/win32/printdocs/openprinter2">OpenPrinter2</a>, or the <a href="https://docs.microsoft.com/windows/win32/printdocs/addprinter">AddPrinter</a> function to retrieve a printer handle. 
-
-
+A handle to the printer object of interest. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>, <a href="https://docs.microsoft.com/windows/win32/printdocs/openprinter2">OpenPrinter2</a>, or the <a href="https://docs.microsoft.com/windows/win32/printdocs/addprinter">AddPrinter</a> function to retrieve a printer handle.
 
 ### -param JobId 
+
 [in]
-Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://docs.microsoft.com/windows/win32/printdocs/addjob">AddJob</a> function or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function. 
-
-
+Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://docs.microsoft.com/windows/win32/printdocs/addjob">AddJob</a> function or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function.
 
 ### -param pszName 
+
 [in]
-Name of the property whose value will be retrieved.  
-
-
+Name of the property whose value will be retrieved.
 
 ### -param pValue 
+
 [out]
-Value of the named property. The caller needs to free this using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-freeprintpropertyvalue">FreePrintPropertyValue</a> function. 
-
-
+Value of the named property. The caller needs to free this using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-freeprintpropertyvalue">FreePrintPropertyValue</a> function.
 
 ## -returns
 
-
-
-If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.  
-
-
-
+If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 

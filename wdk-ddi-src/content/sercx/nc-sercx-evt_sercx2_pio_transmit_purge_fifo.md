@@ -8,9 +8,6 @@ ms.assetid: 2BB02F84-01C1-432D-A4A9-6035F3ED32D7
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitPurgeFifo, EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO, EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO callback, EvtSerCx2PioTransmitPurgeFifo, EvtSerCx2PioTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2piotransmitpurgefifo
-f1_keywords:
- - "sercx/EvtSerCx2PioTransmitPurgeFifo"
- - "EvtSerCx2PioTransmitPurgeFifo"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2PioTransmitPurgeFifo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO
+ - sercx/EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2PioTransmitPurgeFifo
 ---
 
 # EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2PioTransmitPurgeFifo</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to discard any bytes of unsent data that remain in the transmit FIFO in the serial controller.
-
 
 ## -parameters
 
-
-
-
 ### -param PioTransmit 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
-
 ### -param BytesAlreadyTransmittedToHardware 
+
 [in]
 The number of bytes that have already been loaded into the transmit FIFO during the current PIO-transmit transaction. This parameter is the sum of all the bytes transferred in previous calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_write_buffer">EvtSerCx2PioTransmitWriteBuffer</a> event callback function that are part of this transaction.
 
-
 ## -remarks
-
-
 
 Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> call that creates the PIO-transmit object.
 
@@ -119,12 +112,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO</b> function type is defined in the Se
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
 
@@ -147,7 +135,4 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO</b> function type is defined in the Se
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitpurgefifocomplete">SerCx2PioTransmitPurgeFifoComplete</a>
- 
-
- 
 

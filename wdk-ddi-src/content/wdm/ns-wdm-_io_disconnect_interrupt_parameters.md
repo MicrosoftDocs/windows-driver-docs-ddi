@@ -8,9 +8,6 @@ ms.assetid: 646b5442-aff1-4216-bb1b-6988218933be
 ms.date: 04/30/2018
 keywords: ["IO_DISCONNECT_INTERRUPT_PARAMETERS structure"]
 ms.keywords: "*PIO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS"
-f1_keywords:
- - "wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS"
- - "IO_DISCONNECT_INTERRUPT_PARAMETERS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IO_DISCONNECT_INTERRUPT_PARAMETERS
 targetos: Windows
 req.typenames: IO_DISCONNECT_INTERRUPT_PARAMETERS, *PIO_DISCONNECT_INTERRUPT_PARAMETERS
+f1_keywords:
+ - _IO_DISCONNECT_INTERRUPT_PARAMETERS
+ - wdm/_IO_DISCONNECT_INTERRUPT_PARAMETERS
+ - PIO_DISCONNECT_INTERRUPT_PARAMETERS
+ - wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS
+ - IO_DISCONNECT_INTERRUPT_PARAMETERS
+ - wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IO_DISCONNECT_INTERRUPT_PARAMETERS
 ---
 
 # _IO_DISCONNECT_INTERRUPT_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: IO_DISCONNECT_INTERRUPT_PARAMETERS, *PIO_DISCONNECT_INTERRUPT_PAR
 
 ## -description
 
-
 The <b>IO_DISCONNECT_INTERRUPT_PARAMETERS</b> structure describes the parameters when unregistering an interrupt-handling routine with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterruptex">IoDisconnectInterruptEx</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -95,8 +94,6 @@ CONNECT_FULLY_SPECIFIED
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ConnectionContext
 
@@ -142,26 +139,19 @@ The value stored in <b>FullySpecified.InterruptObject</b>.
 
 To minimize casting, <b>ConnectionContext</b> is defined as a union. Use <b>ConnectionContext.Generic</b> to specify the value as a PVOID. Use <b>ConnectionContext.InterruptObject</b> and <b>ConnectionContext.InterruptMessageTable</b> to specify the value as a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a> structure.
 
-
 ### -field ConnectionContext.Generic
 
 A pointer to a data structure of unspecified type.
-
 
 ### -field ConnectionContext.InterruptObject
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure.
 
-
 ### -field ConnectionContext.InterruptMessageTable
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>
 
@@ -172,7 +162,4 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: e04558e3-a95a-408b-961b-e8ea7ac9136d
 ms.date: 02/26/2018
 keywords: ["WdfDeviceSetPowerCapabilities function"]
 ms.keywords: DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities method, kmdf.wdfdevicesetpowercapabilities, wdf.wdfdevicesetpowercapabilities, wdfdevice/WdfDeviceSetPowerCapabilities
-f1_keywords:
- - "wdfdevice/WdfDeviceSetPowerCapabilities"
- - "WdfDeviceSetPowerCapabilities"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceSetPowerCapabilities
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceSetPowerCapabilities
+ - wdfdevice/WdfDeviceSetPowerCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceSetPowerCapabilities
 ---
 
 # WdfDeviceSetPowerCapabilities function
@@ -49,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceSetPowerCapabilities</b> method reports a device's power capabilities.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param PowerCapabilities 
+
 [in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_capabilities">WDF_DEVICE_POWER_CAPABILITIES</a> structure.
-
 
 ## -remarks
 
@@ -137,12 +132,7 @@ WdfDeviceSetPowerCapabilities(
                               );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_capabilities">WDF_DEVICE_POWER_CAPABILITIES</a>
 
@@ -153,7 +143,4 @@ WdfDeviceSetPowerCapabilities(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetpnpcapabilities">WdfDeviceSetPnpCapabilities</a>
- 
-
- 
 

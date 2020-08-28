@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnFreeGpuVirtualAddressCb"
- - "pfnFreeGpuVirtualAddressCb"
+ - PFND3DDDI_FREEGPUVIRTUALADDRESSCB
+ - d3dumddi/PFND3DDDI_FREEGPUVIRTUALADDRESSCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_FREEGPUVIRTUALADDRESSCB callback function
+
 
 ## -description
 

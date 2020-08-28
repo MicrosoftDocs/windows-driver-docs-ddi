@@ -8,9 +8,6 @@ ms.assetid: 333f54e8-738e-4d1f-8fd7-93f282d9b9d8
 ms.date: 04/30/2018
 keywords: ["ZwCreateKey function"]
 ms.keywords: NtCreateKey, ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture], k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, kernel.zwcreatekey, wdm/NtCreateKey, wdm/ZwCreateKey
-f1_keywords:
- - "wdm/ZwCreateKey"
- - "ZwCreateKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwCreateKey
-- NtCreateKey
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwCreateKey
+ - wdm/ZwCreateKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwCreateKey
+ - NtCreateKey
 ---
 
 # ZwCreateKey function
@@ -47,21 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwCreateKey</b> routine creates a new registry key or opens an existing one.
-
 
 ## -parameters
 
-
-
-
 ### -param KeyHandle 
+
 [out]
 Pointer to a HANDLE variable that receives a handle to the key.
 
-
 ### -param DesiredAccess 
+
 [in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify one or more of the following access rights, which are specific to object directories:
 
@@ -181,25 +177,23 @@ STANDARD_RIGHTS_ALL, KEY_QUERY_VALUE, KEY_SET_VALUE, KEY_CREATE_SUB_KEY, KEY_ENU
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ObjectAttributes 
-[in]
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
+[in]
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 ### -param TitleIndex
 
-Device and intermediate drivers set this parameter to zero. 
-
+Device and intermediate drivers set this parameter to zero.
 
 ### -param Class 
-[in, optional]
-Pointer to a Unicode string that contains the key's object class. This information is used by the configuration manager. 
 
+[in, optional]
+Pointer to a Unicode string that contains the key's object class. This information is used by the configuration manager.
 
 ### -param CreateOptions 
+
 [in]
 Specifies the options to apply when creating or opening a key, specified as a compatible combination of the following flags.
 
@@ -249,10 +243,9 @@ Key should be created or opened with special privileges that allow backup and re
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Disposition 
+
 [out, optional]
 Pointer to a variable that receives a value indicating whether a new key was created or an existing one opened.
 
@@ -282,21 +275,12 @@ An existing key was opened.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 <b>ZwCreateKey</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 <b>ZwCreateKey</b> supplies a handle that the caller can use to manipulate a registry key. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-the-registry-in-a-driver">Using the Registry in a Driver</a>.
 
@@ -330,13 +314,7 @@ The <b>NtCreateKey</b> routine in the Windows kernel is not directly accessible 
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -383,7 +361,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
- 
-
- 
 

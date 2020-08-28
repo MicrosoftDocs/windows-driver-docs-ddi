@@ -8,9 +8,6 @@ ms.assetid: 43063BD3-8F2C-4F27-A304-75FBD5C87674
 ms.date: 04/30/2018
 keywords: ["IoReportRootDevice function"]
 ms.keywords: IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice
-f1_keywords:
- - "ntddk/IoReportRootDevice"
- - "IoReportRootDevice"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoReportRootDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoReportRootDevice
+ - ntddk/IoReportRootDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoReportRootDevice
 ---
 
 # IoReportRootDevice function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoReportRootDevice</b> routine reports a device that cannot be detected by a PnP bus driver to the PnP Manager.  <b>IoReportRootDevice</b> allows only one device per driver to be created.
-
 
 ## -parameters
 
-
-
-
 ### -param DriverObject 
+
 [in]
 Pointer to the driver object of the driver that detected the device.
 
-
 ## -returns
-
-
 
 <b>IoReportRootDevice</b> returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 Drivers for devices that cannot be detected by a PnP bus driver use <b>IoReportRootDevice</b> to report their device to the system. Devices that can be detected by a PnP bus driver should be reported in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
 
@@ -87,14 +75,7 @@ A driver writer must provide an INF file that matches any of the specified hardw
 <div class="alert"><b>Note</b>  Drivers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportdetecteddevice">IoReportDetectedDevice</a> to report hardware devices that use resources but cannot be detected by a PnP bus driver instead of <b>IoReportRootDevice</b>.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
@@ -121,7 +102,4 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportresourcefordetection">IoReportResourceForDetection</a>
- 
-
- 
 

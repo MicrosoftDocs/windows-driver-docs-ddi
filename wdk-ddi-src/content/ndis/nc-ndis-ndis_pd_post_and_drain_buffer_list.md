@@ -7,8 +7,6 @@ tech.root: netvista
 ms.assetid: 5EAAEEEC-740E-4F65-B13E-E174A0DF4546
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER, NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER callback function
-f1_keywords:
- - ndis/NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -26,19 +24,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_PD_POST_AND_DRAIN_BUFFER_LIST
+ - ndis/NDIS_PD_POST_AND_DRAIN_BUFFER_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER
+product:
+ - Windows
 ---
 
 # NDIS_PD_POST_AND_DRAIN_BUFFER_LIST callback function
@@ -46,51 +47,38 @@ req.typenames:
 
 ## -description
 
-
 The PacketDirect (PD) platform calls a PD-capable miniport driver's 
    <i>PDPostAndDrainBufferList</i> function to post <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to PD transmit/receive queues and draining any previously posted <b>PD_BUFFER</b> structures that have been completed.<div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> type. For more
    information, see the following Examples section.</div>
 <div> </div>
 
-
-
 ## -parameters
 
-
-
-
 ### -param Queue 
+
 [in, out]
 A pointer to the transmit or receive queue that will receive posted buffers and will have completed buffers removed.
 
-
 ### -param PostBufferListHead 
+
 [in, out]
 The head of the post list. The provider removes the buffers in this list and adds them into the <b>Queue</b>.
 
-
 ### -param DrainBufferListTail 
+
 [in, out]
 The tail of the drain list. The provider removes any completed buffers from the <b>Queue</b> and adds them to this list.
 
-
 ### -param MaxDrainCount 
+
 [in]
 The maximum amount of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to drain. The provider must ensure not exceed this amount. A set of partial <b>PD_BUFFER</b> structures that make up a single L2 packet count is 1.
 
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The provider removes buffers from the PostBufferList and places them into the queue, starting with the head buffer in the list and advancing to the next buffer until either the PostBufferList is empty or the queue is full (or near full). The provider advanced to the PostListHead and returns the new list head to the caller. The provider also removes any completed buffers from the queue and inserts them into the tail of the DrainBufferList and returns the new DrainBufferList tail to the client.
 
@@ -177,5 +165,4 @@ NDIS_PD_POST_AND_DRAIN_BUFFER_LIST(
 </td>
 </tr>
 </table></span></div>
-
 

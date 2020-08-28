@@ -7,9 +7,6 @@ ms.assetid: 663fd3c3-7a8f-446d-b45a-392716116407
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_SETTEXTFILTERSIZE callback function"]
 ms.keywords: PFND3D10DDI_SETTEXTFILTERSIZE, PFND3D10DDI_SETTEXTFILTERSIZE callback, SetTextFilterSize, SetTextFilterSize callback function [Display Devices], UserModeDisplayDriverDx10_Functions_418992fe-bd22-446c-94a2-2a4d23fd63a7.xml, d3d10umddi/SetTextFilterSize, display.settextfiltersize
-f1_keywords:
- - "d3d10umddi/SetTextFilterSize"
- - "SetTextFilterSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- SetTextFilterSize
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_SETTEXTFILTERSIZE
+ - d3d10umddi/PFND3D10DDI_SETTEXTFILTERSIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - SetTextFilterSize
 ---
 
 # PFND3D10DDI_SETTEXTFILTERSIZE callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <i>SetTextFilterSize</i> function sets the width and height of the monochrome convolution filter.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -73,10 +68,6 @@ The width of the monochrome convolution filter. The width can be from 1 to 7 tex
 
 The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
 
-
-
-
-
 ## -remarks
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
@@ -89,13 +80,7 @@ The number of samples that are required from a kernel's dimensions is actually (
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED. However, if device removal interfered with the operation of <i>SetTextFilterSize</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
@@ -106,7 +91,4 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

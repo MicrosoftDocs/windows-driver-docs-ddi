@@ -8,9 +8,6 @@ ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.date: 02/22/2018
 keywords: ["SMARTCARD_EXTENSION structure"]
 ms.keywords: "*PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], SMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], _SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smartcrd.smartcard_extension, smclib/PSMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION"
-f1_keywords:
- - "smclib/SMARTCARD_EXTENSION"
- - "SMARTCARD_EXTENSION"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- smclib.h
-api_name:
-- SMARTCARD_EXTENSION
 targetos: Windows
 req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
+f1_keywords:
+ - _SMARTCARD_EXTENSION
+ - smclib/_SMARTCARD_EXTENSION
+ - PSMARTCARD_EXTENSION
+ - smclib/PSMARTCARD_EXTENSION
+ - SMARTCARD_EXTENSION
+ - smclib/SMARTCARD_EXTENSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - smclib.h
+api_name:
+ - SMARTCARD_EXTENSION
 ---
 
 # _SMARTCARD_EXTENSION structure
@@ -46,24 +50,17 @@ req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
 
 ## -description
 
-
 The <b>SMARTCARD_EXTENSION</b> structure is used by both the smart card reader driver and the smart card driver library to access all other smart card data structures.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
-Indicates the version of this structure. 
-
+Indicates the version of this structure.
 
 ### -field VendorAttr
 
-Contains information that identifies the reader driver, such as the vendor name, unit number, and serial number. 
-
+Contains information that identifies the reader driver, such as the vendor name, unit number, and serial number.
 
 ### -field ReaderFunction
 
@@ -80,108 +77,81 @@ A pointer to an array of callback functions for readers. The callback functions 
 <dd><i>RDF_TRANSMIT</i></dd>
 </dl>For more information, see Remarks.
 
-
 ### -field CardCapabilities
 
-Contains capabilities of the inserted smart card. 
-
+Contains capabilities of the inserted smart card.
 
 ### -field LastError
 
 Not used.
 
-
 ### -field IoRequest
 
-
       A structure with the following members:
-      
-     
-
 
 ### -field IoRequest.Information
 
-Contains the number of bytes returned. 
-
+Contains the number of bytes returned.
 
 ### -field IoRequest.RequestBuffer
 
-A pointer to the data in the user's I/O request to be sent to the card. 
-
+A pointer to the data in the user's I/O request to be sent to the card.
 
 ### -field IoRequest.RequestBufferLength
 
-Indicates the number of bytes to send to the card. 
-
+Indicates the number of bytes to send to the card.
 
 ### -field IoRequest.ReplyBuffer
 
-A pointer to the buffer that holds the data that is returned by the I/O request. 
-
+A pointer to the buffer that holds the data that is returned by the I/O request.
 
 ### -field IoRequest.ReplyBufferLength
 
-Indicates the number of bytes of the data that are returned by the I/O request. 
-
+Indicates the number of bytes of the data that are returned by the I/O request.
 
 ### -field MajorIoControlCode
 
-Contains the major I/O control code. 
-
+Contains the major I/O control code.
 
 ### -field MinorIoControlCode
 
-Contains the minor I/O control code. 
-
+Contains the minor I/O control code.
 
 ### -field OsData
 
-Contains information that is specific to the operating system and the driver type. 
-
+Contains information that is specific to the operating system and the driver type.
 
 ### -field ReaderCapabilities
 
-Contains the capabilities of the keyboard reader. 
-
+Contains the capabilities of the keyboard reader.
 
 ### -field ReaderExtension
 
-Contains data that is specifc to the smart card reader. 
-
+Contains data that is specifc to the smart card reader.
 
 ### -field SmartcardReply
 
-Contains data that comes from the reader. 
-
+Contains data that comes from the reader.
 
 ### -field SmartcardRequest
 
-Contains the current command and the data that is sent to the smart card. 
-
+Contains the current command and the data that is sent to the smart card.
 
 ### -field T0
 
-Contains the data for use with the T=0 protocol. 
-
+Contains the data for use with the T=0 protocol.
 
 ### -field T1
 
-Contains the data that is used with the T=1 protocol. 
-
+Contains the data that is used with the T=1 protocol.
 
 ### -field PerfInfo
-
- 
-
 
 ### -field Reserved
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 This structure is passed to all callback functions.
 
@@ -515,7 +485,4 @@ You must copy the SCARD_IO_REQUEST structure to the <i>ReplyBuffer</i> parameter
 </td>
 </tr>
 </table>
- 
-
-
 

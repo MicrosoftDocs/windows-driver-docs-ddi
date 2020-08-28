@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CreateVideoProcessDevice"
- - "CreateVideoProcessDevice"
+ - PFND3DDDI_CREATEVIDEOPROCESSDEVICE
+ - d3dumddi/PFND3DDDI_CREATEVIDEOPROCESSDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATEVIDEOPROCESSDEVICE callback function
+
 
 ## -description
 

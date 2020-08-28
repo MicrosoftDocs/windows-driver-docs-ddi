@@ -8,9 +8,6 @@ ms.assetid: 356D4CFD-E256-4920-AAB7-D6399F357591
 ms.date: 04/16/2018
 keywords: ["FltReadFileEx function"]
 ms.keywords: FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx, ifsk.fltreadfileex
-f1_keywords:
- - "fltkernel/FltReadFileEx"
- - "FltReadFileEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltReadFileEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltReadFileEx
+ - fltkernel/FltReadFileEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltReadFileEx
 ---
 
 # FltReadFileEx function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
 <b>FltReadFileEx</b> reads data from an open file, stream, or device. This function extends <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreadfile">FltReadFile</a>  to allow the optional use of an MDL for read data instead of a mapped buffer address.
-
 
 ## -parameters
 
-
-
-
 ### -param InitiatingInstance 
-[in]
-An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param FileObject 
-[in]
-A pointer to a file object for the file that the data is to be read from. This file object must be currently open. Calling <b>FltReadFileEx</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+A pointer to a file object for the file that the data is to be read from. This file object must be currently open. Calling <b>FltReadFileEx</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param ByteOffset 
+
 [in, optional]
 A pointer to a caller-allocated variable that specifies the starting byte offset within the file where the read operation is to begin. 
 
@@ -73,20 +69,20 @@ If this offset is supplied, or if the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFS
 
 If the file object that <i>FileObject</i> points to was opened for synchronous I/O, the caller of <b>FltReadFileEx</b> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value by setting this parameter to <b>NULL</b>. If the current file position is used, <b>FltReadFileEx</b> updates the file object's <b>CurrentByteOffset</b> field by adding the number of bytes read when it completes the read operation. 
 
-If the file object that <i>FileObject</i> points to was opened for asynchronous I/O, this parameter is required and cannot be <b>NULL</b>. 
-
+If the file object that <i>FileObject</i> points to was opened for asynchronous I/O, this parameter is required and cannot be <b>NULL</b>.
 
 ### -param Length 
-[in]
-The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
 
+[in]
+The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
 ### -param Buffer 
+
 [out]
 A pointer to a caller-allocated buffer that receives the data that is read from the file. If an MDL is provided in <i>Mdl</i>, <i>Buffer</i> must be NULL.
 
-
 ### -param Flags 
+
 [in]
 A bitmask of flags that specify the type of read operation to be performed. 
 
@@ -139,46 +135,37 @@ This flag is available for Windows Vista and later versions of the Windows opera
 </td>
 </tr>
 </table>
- 
-
 
 ### -param BytesRead 
-[out, optional]
-A pointer to a caller-allocated variable that receives the number of bytes read from the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>. 
 
+[out, optional]
+A pointer to a caller-allocated variable that receives the number of bytes read from the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>.
 
 ### -param CallbackRoutine 
-[in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>. 
 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>.
 
 ### -param CallbackContext 
-[in, optional]
-A context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored. 
 
+[in, optional]
+A context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored.
 
 ### -param Key 
+
 [in, optional]
 An optional key associated with a byte range lock.
 
-
 ### -param Mdl 
+
 [in, optional]
 An optional MDL that describes the memory where the data is read. If a buffer is provided in <i>Buffer</i> , then <i>Mdl</i> must be NULL.
 
-
 ## -returns
 
-
-
-<b>FltReadFileEx</b> returns the NTSTATUS value that was returned by the file system. 
-
-
-
+<b>FltReadFileEx</b> returns the NTSTATUS value that was returned by the file system.
 
 ## -remarks
-
-
 
 A minifilter driver calls <b>FltReadFileEx</b> to read data from an open file. 
 
@@ -222,13 +209,7 @@ If multiple threads call <b>FltReadFileEx</b> for the same file object, and the 
 
 The <i>Mdl</i> parameter is provided as a convenience when a minifilter already has an MDL available. The MDL is used directly and the additional step of mapping an address for <i>Buffer</i> can be avoided.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>
 
@@ -263,7 +244,4 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a>
- 
-
- 
 

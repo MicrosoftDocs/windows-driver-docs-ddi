@@ -6,38 +6,44 @@ tech.root: netvista
 ms.assetid: C5EF1D54-AA43-4467-85B4-2134F9BA8E05
 ms.date: 02/27/2030
 ms.topic: struct
-f1_keywords:
- - "ndis/NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO"
-ms.keywords: _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, 
+ms.keywords: _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO,
 req.header: ndis.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1912
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
-req.alt-api:
-req.alt-loc:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
+req.alt-api: 
+req.alt-loc: 
 req.typenames: NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- ndis.h
-apiname: 
-- NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - ndis/_NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - ndis/PNDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+ - ndis/NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - ndis.h
+apiname:
+ - NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO
+product:
+ - Windows
 ---
 
 # _NDIS_UDP_SEGMENTATION_OFFLOAD_NET_BUFFER_LIST_INFO structure
+
 
 ## -description
 
@@ -85,3 +91,4 @@ The TCP/IP transport updates the **MSS** and **UdpHeaderOffset** members of the 
 [UDP Segmentation Offload (USO)](https://docs.microsoft.com/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
 
 [**NET_BUFFER_LIST**](../ndis/ns-ndis-_net_buffer_list.md)
+

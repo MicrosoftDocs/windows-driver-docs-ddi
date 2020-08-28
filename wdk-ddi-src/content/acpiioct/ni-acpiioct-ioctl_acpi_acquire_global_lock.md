@@ -8,9 +8,6 @@ ms.assetid: 359bd4d4-2557-4755-8904-32162645cdc0
 ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL"]
 ms.keywords: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_e6fd9b97-db9e-4a08-88bb-e6e84f08359b.xml, acpi.ioctl_acpi_acquire_global_lock, acpiioct/IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
-f1_keywords:
- - "acpiioct/IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK"
- - "IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
+ - acpiioct/IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 ---
 
 # IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL
+
 
 ## -description
 
@@ -62,3 +63,4 @@ The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for intern
 ### -inout-buffer-length
 
 ### -status-block
+

@@ -8,9 +8,6 @@ ms.assetid: d7448873-aa96-4eac-a5be-16dff661ab40
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure"]
 ms.keywords: "*PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, DFDeviceObjectGeneralRef_08482cf6-3f3d-44d2-b0f3-4856a23d94d0.xml, PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure pointer, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure, _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, kmdf.wdf_device_power_policy_wake_settings, wdf.wdf_device_power_policy_wake_settings, wdfdevice/PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS"
-f1_keywords:
- - "wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS"
- - "WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
 targetos: Windows
 req.typenames: WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+f1_keywords:
+ - _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+ - wdfdevice/_WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+ - PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+ - wdfdevice/PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+ - WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+ - wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
 ---
 
 # _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure
@@ -46,31 +50,23 @@ req.typenames: WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure contains driver-supplied information about a device's ability to wake itself and the system, when both are in a low-power state.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field DxState
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>-typed enumerator that identifies the low <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power state</a> that the device will enter when the system power state drops to a wakeable low-power state. The value of <b>DxState</b> cannot be <b>PowerDeviceD0</b>. <b>DEVICE_POWER_STATE</b> values are defined in <i>wdm.h</i>.
 
-
 ### -field UserControlOfWakeSettings
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_sx_wake_user_control">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
-
 
 ### -field Enabled
 
@@ -84,20 +80,15 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-w
 
 If waking the system is enabled and the system is about to enter a low-power state, the framework calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx">EvtDeviceArmWakeFromSx</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx_with_reason">EvtDeviceArmWakeFromSxWithReason</a> callback function before the device enters a low-power state.
 
-
 ### -field ArmForWakeIfChildrenAreArmedForWake
 
 A Boolean value that, if set to <b>TRUE</b>, indicates that a parent device's ability to wake itself and the system should be enabled when this ability is enabled for the device's child devices. For more information, see the following Remarks section. This member is available in version 1.7 and later versions of KMDF.
-
 
 ### -field IndicateChildWakeOnParentWake
 
 A Boolean value that, if set to <b>TRUE</b>, indicates that the framework will provide wake-up status to child devices if a parent device detects a wake-up signal. For more information, see the following Remarks section. This member is available in version 1.7 and later versions of KMDF.
 
-
 ## -remarks
-
-
 
 The <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassignsxwakesettings">WdfDeviceAssignSxWakeSettings</a>. 
 
@@ -166,13 +157,7 @@ If the driver sets the <b>IndicateChildWakeOnParentWake</b> member to <b>TRUE</b
 </ul>
 For more information about how to support a device's wake ability, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-system-wake-up">Supporting System Wake-Up</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx">EvtDeviceArmWakeFromSx</a>
 
@@ -203,7 +188,4 @@ For more information about how to support a device's wake ability, see <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceindicatewakestatus">WdfDeviceIndicateWakeStatus</a>
- 
-
- 
 

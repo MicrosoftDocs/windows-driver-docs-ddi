@@ -8,9 +8,6 @@ ms.assetid: 6BF63894-58D6-4C7C-B3D9-D4D9D19A686B
 ms.date: 05/02/2018
 keywords: ["WWAN_ACE_STATE enumeration"]
 ms.keywords: "*PWWAN_ACE_STATE, WWAN_ACE_STATE, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanAutoOff, WwanAutoOn, WwanManualOff, WwanManualOn, _WWAN_ACE_STATE, netvista.wwan_ace_state, wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, wwan/WwanManualOff, wwan/WwanManualOn"
-f1_keywords:
- - "wwan/WWAN_ACE_STATE"
- - "WWAN_ACE_STATE"
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_ACE_STATE
 targetos: Windows
 req.typenames: WWAN_ACE_STATE, *PWWAN_ACE_STATE
+f1_keywords:
+ - _WWAN_ACE_STATE
+ - wwan/_WWAN_ACE_STATE
+ - PWWAN_ACE_STATE
+ - wwan/PWWAN_ACE_STATE
+ - WWAN_ACE_STATE
+ - wwan/WWAN_ACE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_ACE_STATE
 ---
 
 # _WWAN_ACE_STATE enumeration
@@ -46,29 +50,21 @@ req.typenames: WWAN_ACE_STATE, *PWWAN_ACE_STATE
 
 ## -description
 
-
 The WWAN_ACE_STATE enumeration lists the different kinds of auto-connect states.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanAutoOff
 
 Auto-connect off.
 
-
 ### -field WwanAutoOn
 
 Auto-connect on.
 
-
 ### -field WwanManualOff
 
 Manual connect off.
-
 
 ### -field WwanManualOn
 

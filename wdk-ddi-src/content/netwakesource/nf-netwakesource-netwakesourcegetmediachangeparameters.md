@@ -8,39 +8,39 @@ ms.assetid: 197b0268-eace-4c01-bacd-62102bae7225
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NetWakeSourceGetMediaChangeParameters function"]
-f1_keywords:
- - "netwakesource/NetWakeSourceGetMediaChangeParameters"
- - "NetWakeSourceGetMediaChangeParameters"
 ms.keywords: NetWakeSourceGetMediaChangeParameters
 req.header: netwakesource.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetWakeSourceGetMediaChangeParameters
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetWakeSourceGetMediaChangeParameters
+ - netwakesource/NetWakeSourceGetMediaChangeParameters
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetWakeSourceGetMediaChangeParameters
+product:
+ - Windows
 ---
 
 # NetWakeSourceGetMediaChangeParameters function
@@ -77,3 +77,4 @@ The client driver must only call **NetWakeSourceGetMediaChangeParameters** durin
 [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_wake_source_parameters.md)
 
 [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT**](../netwakesource/nf-netwakesource-net_wake_source_media_change_parameters_init.md)
+

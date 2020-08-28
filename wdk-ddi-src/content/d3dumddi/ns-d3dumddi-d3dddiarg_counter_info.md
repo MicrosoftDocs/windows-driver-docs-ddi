@@ -8,9 +8,6 @@ ms.assetid: FB2B8FBF-908D-4668-8C5B-263903BA1EF5
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_COUNTER_INFO structure"]
 ms.keywords: D3DDDIARG_COUNTER_INFO, D3DDDIARG_COUNTER_INFO structure [Display Devices], d3dumddi/D3DDDIARG_COUNTER_INFO, display.d3dddiarg_counter_info
-f1_keywords:
- - "d3dumddi/D3DDDIARG_COUNTER_INFO"
- - "D3DDDIARG_COUNTER_INFO"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDIARG_COUNTER_INFO
 targetos: Windows
 req.typenames: D3DDDIARG_COUNTER_INFO
+f1_keywords:
+ - D3DDDIARG_COUNTER_INFO
+ - d3dumddi/D3DDDIARG_COUNTER_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDIARG_COUNTER_INFO
 ---
 
 # D3DDDIARG_COUNTER_INFO structure
@@ -46,19 +46,13 @@ req.typenames: D3DDDIARG_COUNTER_INFO
 
 ## -description
 
-
 Describes info to manipulate counters.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LastDeviceDependentCounter
 
 A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a> that identifies the largest device-dependent counter identifier that the device supports. If none are supported, the user-mode display driver must set the value to 0; otherwise, the driver sets the value to greater than or equal to  <b>D3DDDIQUERYTYPE_COUNTER_DEVICE_DEPENDENT</b>.
-
 
 ### -field NumSimultaneousCounters
 

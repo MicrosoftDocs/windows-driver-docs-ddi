@@ -8,9 +8,6 @@ ms.assetid: 693207c2-70d7-45be-ae22-436555225928
 ms.date: 05/03/2018
 keywords: ["IDebugControl4 interface"]
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], IDebugControl4 interface [Windows Debugging],described, dbgeng/IDebugControl4, debugger.idebugcontrol4
-f1_keywords:
- - "dbgeng/IDebugControl4"
- - "IDebugControl4"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,29 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4
-- IDebugControl4.GetManagedStatus
-- IDebugControl4.GetManagedStatusWide
-- IDebugControl4.ResetManagedStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4
+ - dbgeng/IDebugControl4
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4
+ - IDebugControl4.GetManagedStatus
+ - IDebugControl4.GetManagedStatusWide
+ - IDebugControl4.ResetManagedStatus
 ---
 
 # IDebugControl4 interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -61,9 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
@@ -73,7 +67,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
 

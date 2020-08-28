@@ -8,9 +8,6 @@ ms.assetid: 64f15528-e934-4bdd-a9f7-6790eef7c7c5
 ms.date: 02/26/2018
 keywords: ["IWDFDeviceInitialize::GetPnpCapability"]
 ms.keywords: GetPnpCapability, GetPnpCapability method, GetPnpCapability method,IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,GetPnpCapability method, IWDFDeviceInitialize.GetPnpCapability, IWDFDeviceInitialize::GetPnpCapability, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, umdf.iwdfdeviceinitialize_getpnpcapability, wdf.iwdfdeviceinitialize_getpnpcapability, wudfddi/IWDFDeviceInitialize::GetPnpCapability
-f1_keywords:
- - "wudfddi/IWDFDeviceInitialize.GetPnpCapability"
- - "IWDFDeviceInitialize.GetPnpCapability"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDeviceInitialize.GetPnpCapability
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDeviceInitialize::GetPnpCapability
+ - wudfddi/IWDFDeviceInitialize::GetPnpCapability
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDeviceInitialize.GetPnpCapability
 ---
 
 # IWDFDeviceInitialize::GetPnpCapability
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetPnpCapability</b> method determines the state of the specified  Plug and Play (PnP) capability.
 
-
 ## -parameters
 
-
-
-
 ### -param Capability 
-[in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_capability">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to retrieve status about. 
 
+[in]
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_capability">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to retrieve status about.
 
 ## -returns
-
-
 
 <b>GetPnpCapability</b> returns one of the following WDF_TRI_STATE-typed values that identifies the state of the PnP capability that is specified in the <i>Capability</i> parameter:
 
@@ -107,15 +100,8 @@ The capability is set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>
 
@@ -126,7 +112,4 @@ The capability is set.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_capability">WDF_PNP_CAPABILITY</a>
- 
-
- 
 

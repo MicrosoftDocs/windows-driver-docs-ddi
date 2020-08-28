@@ -8,9 +8,6 @@ ms.assetid: 0a919dd8-a266-42c8-8f97-3314a5d52f4f
 ms.date: 04/23/2018
 keywords: ["PIPE_DIMENSIONS structure"]
 ms.keywords: "*PPIPE_DIMENSIONS, PIPE_DIMENSIONS, PIPE_DIMENSIONS structure [Streaming Media Devices], PPIPE_DIMENSIONS, PPIPE_DIMENSIONS structure pointer [Streaming Media Devices], _PIPE_DIMENSIONS, ksproxy/PIPE_DIMENSIONS, ksproxy/PPIPE_DIMENSIONS, ksproxy_29ffc785-a205-468d-a604-ac4022bdf488.xml, stream.pipe_dimensions"
-f1_keywords:
- - "ksproxy/PIPE_DIMENSIONS"
- - "PIPE_DIMENSIONS"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksproxy.h
-api_name:
-- PIPE_DIMENSIONS
 targetos: Windows
 req.typenames: PIPE_DIMENSIONS, *PPIPE_DIMENSIONS
+f1_keywords:
+ - _PIPE_DIMENSIONS
+ - ksproxy/_PIPE_DIMENSIONS
+ - PPIPE_DIMENSIONS
+ - ksproxy/PPIPE_DIMENSIONS
+ - PIPE_DIMENSIONS
+ - ksproxy/PIPE_DIMENSIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksproxy.h
+api_name:
+ - PIPE_DIMENSIONS
 ---
 
 # _PIPE_DIMENSIONS structure
@@ -46,20 +50,13 @@ req.typenames: PIPE_DIMENSIONS, *PPIPE_DIMENSIONS
 
 ## -description
 
-
 The PIPE_DIMENSIONS structure is for proxy use and not recommended for application use. PIPE_DIMENSIONS contains information that describes the compression/expansion ratio of frames on various pins related to a pipe.
-
 
 ## -struct-fields
 
-
-
-
 ### -field AllocatorPin
 
-
 ### -field MaxExpansionPin
-
 
 ### -field EndPin
 

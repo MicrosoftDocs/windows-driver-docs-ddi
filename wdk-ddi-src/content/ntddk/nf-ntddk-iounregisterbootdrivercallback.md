@@ -8,9 +8,6 @@ ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.date: 04/30/2018
 keywords: ["IoUnregisterBootDriverCallback function"]
 ms.keywords: IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback, kernel.iounregisterbootdrivercallback, ntddk/IoUnRegisterBootDriverCallback
-f1_keywords:
- - "ntddk/IoUnRegisterBootDriverCallback"
- - "IoUnRegisterBootDriverCallback"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoUnRegisterBootDriverCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoUnregisterBootDriverCallback
+ - ntddk/IoUnregisterBootDriverCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoUnRegisterBootDriverCallback
 ---
 
 # IoUnregisterBootDriverCallback function
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoUnRegisterBootDriverCallback</b> routine unregisters a previously registered <b>[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)</b> routine.
-
 
 ## -parameters
 
-
-
-
 ### -param CallbackHandle 
+
 [in]
 A handle returned from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">IoRegisterBootDriverCallback</a>.
 
-
 ## -remarks
-
-
 
 A driver that calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">IoRegisterBootDriverCallback</a> must call <b>IoUnRegisterBootDriverCallback</b> before being unloaded.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">IoRegisterBootDriverCallback</a>
- 
-
- 
 

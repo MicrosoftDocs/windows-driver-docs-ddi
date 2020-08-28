@@ -8,9 +8,6 @@ ms.assetid: A0F4DB51-D68E-4516-833A-7E984247796B
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEvent interface"]
 ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], IPrinterExtensionEvent interface [Print Devices],described, print.iprinterextensionevent_interface, printerextension/IPrinterExtensionEvent
-f1_keywords:
- - "printerextension/IPrinterExtensionEvent"
- - "IPrinterExtensionEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- printerextension.h
-api_name:
-- IPrinterExtensionEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEvent
+ - printerextension/IPrinterExtensionEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - printerextension.h
+api_name:
+ - IPrinterExtensionEvent
 ---
 
 # IPrinterExtensionEvent interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 The IPrinterExtensionEvent interface represents the event delegate implemented by desktop printer extensions for activation.
-
 
 ## -inheritance
 

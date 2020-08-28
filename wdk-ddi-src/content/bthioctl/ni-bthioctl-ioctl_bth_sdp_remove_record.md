@@ -8,9 +8,6 @@ ms.assetid: 8d559078-ece5-4e15-b010-e39b86679398
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_REMOVE_RECORD IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_REMOVE_RECORD, IOCTL_BTH_SDP_REMOVE_RECORD control, IOCTL_BTH_SDP_REMOVE_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_remove_record, bth_ioctls_863ca82b-4cb5-444c-bd29-b1d620e509a4.xml, bthioctl/IOCTL_BTH_SDP_REMOVE_RECORD
-f1_keywords:
- - "bthioctl/IOCTL_BTH_SDP_REMOVE_RECORD"
- - "IOCTL_BTH_SDP_REMOVE_RECORD"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_SDP_REMOVE_RECORD
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_SDP_REMOVE_RECORD
+ - bthioctl/IOCTL_BTH_SDP_REMOVE_RECORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_SDP_REMOVE_RECORD
 ---
 
 # IOCTL_BTH_SDP_REMOVE_RECORD IOCTL
@@ -46,18 +46,10 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_BTH_SDP_REMOVE_RECORD request removes a local SDP record that the profile driver previously
      submitted. The local server will no longer offer this record to remote devices.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -69,39 +61,21 @@ The
       IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>. Handles from other sources are invalid in this
       context.
 
-
 ### -input-buffer-length
 
 The length of the buffer.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -157,25 +131,15 @@ The SDP connection handle passed in the input buffer was not found.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 If the record to be removed was published using IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, this indicates
     that class of device (CoD) bits were set. In this case, calling IOCTL_BTH_SDP_REMOVE_RECORD might cause
     the CoD bits to be cleared. The bits will remain set if another client has set them but has not called
     this IOCTL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
 
@@ -183,7 +147,4 @@ If the record to be removed was published using IOCTL_BTH_SDP_SUBMIT_RECORD_WITH
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
- 
-
- 
 

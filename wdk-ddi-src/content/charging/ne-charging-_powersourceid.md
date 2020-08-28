@@ -8,9 +8,6 @@ ms.assetid: AC6E3447-2E7E-41EC-AC04-CAB46F826095
 ms.date: 02/15/2018
 keywords: ["POWERSOURCEID enumeration"]
 ms.keywords: "*PPOWERSOURCEID, POWERSOURCEID, _POWERSOURCEID, battery.powersourceid, charging/, enumeration [Battery Devices]"
-f1_keywords:
- - "charging/POWERSOURCEID"
- - "POWERSOURCEID"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Charging.h
-api_name:
-- POWERSOURCEID
 targetos: Windows
 req.typenames: POWERSOURCEID, *PPOWERSOURCEID
+f1_keywords:
+ - _POWERSOURCEID
+ - charging/_POWERSOURCEID
+ - PPOWERSOURCEID
+ - charging/PPOWERSOURCEID
+ - POWERSOURCEID
+ - charging/POWERSOURCEID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Charging.h
+api_name:
+ - POWERSOURCEID
 ---
 
 # _POWERSOURCEID enumeration
@@ -46,9 +50,7 @@ req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 
 ## -description
 
-
 This enum is for internal use only.
-
 
 ## -enum-fields
 

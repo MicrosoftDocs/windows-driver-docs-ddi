@@ -8,9 +8,6 @@ ms.assetid: dc68f6d8-a2d5-4940-a708-fe761c3a8a0d
 ms.date: 04/23/2018
 keywords: ["KSDEVICE_DESCRIPTOR structure"]
 ms.keywords: "*PKSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR structure [Streaming Media Devices], PKSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR structure pointer [Streaming Media Devices], _KSDEVICE_DESCRIPTOR, avstruct_b51d9c2c-278f-4357-b84a-da6959ea9959.xml, ks/KSDEVICE_DESCRIPTOR, ks/PKSDEVICE_DESCRIPTOR, stream.ksdevice_descriptor"
-f1_keywords:
- - "ks/KSDEVICE_DESCRIPTOR"
- - "KSDEVICE_DESCRIPTOR"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSDEVICE_DESCRIPTOR
 targetos: Windows
 req.typenames: KSDEVICE_DESCRIPTOR, *PKSDEVICE_DESCRIPTOR
+f1_keywords:
+ - _KSDEVICE_DESCRIPTOR
+ - ks/_KSDEVICE_DESCRIPTOR
+ - PKSDEVICE_DESCRIPTOR
+ - ks/PKSDEVICE_DESCRIPTOR
+ - KSDEVICE_DESCRIPTOR
+ - ks/KSDEVICE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSDEVICE_DESCRIPTOR
 ---
 
 # _KSDEVICE_DESCRIPTOR structure
@@ -46,29 +50,21 @@ req.typenames: KSDEVICE_DESCRIPTOR, *PKSDEVICE_DESCRIPTOR
 
 ## -description
 
-
 The KSDEVICE_DESCRIPTOR structure describes the characteristics of a particular device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Dispatch
 
 A pointer to the client dispatch table for this device. This dispatch table contains client dispatch functions for PNP messages such as <b>Add</b>, <b>Start</b>, <b>Stop</b>, <b>Remove</b>. Clients are not required to supply a dispatch table unless they want to receive callbacks for the PNP messages described in the dispatch table. Any member of the dispatch table can be <b>NULL</b> to indicate that the client does not want to receive notification for that particular message. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>.
 
-
 ### -field FilterDescriptorsCount
 
 This member contains the number of filter descriptors for this device that will be provided in the <b>FilterDescriptors</b> member. Zero is a legal value for this member; clients can create filter factories dynamically with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatefilterfactory">KsCreateFilterFactory</a> function instead of statically describing them in the device descriptor.
 
-
 ### -field FilterDescriptors
 
 A pointer to an array of filter descriptors that describe filters that can be created by this device. This member may be <b>NULL</b> if <b>FilterDescriptorsCount</b> is zero. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a>.
-
 
 ### -field Version
 
@@ -100,8 +96,6 @@ Indicates support of the <b>Flags</b> member of KSDEVICE_DESCRIPTOR.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -123,19 +117,10 @@ Indicates that the device supports remote wakeup.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Alignment
 
- 
-
-
-
-
 ## -remarks
-
-
 
 Most often, this structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a> in the client's <b>DriverEntry</b> function to initialize the device. This structure is also used to manually initialize or create devices with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedevice">KsInitializeDevice</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a> functions.
 
@@ -143,13 +128,7 @@ If you set <b>Version</b> to KSDEVICE_DESCRIPTOR_VERSION_2 and run your driver o
 
 Similarly, using an earlier version descriptor on later versions of AVStream causes no flags to be specified.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
 
@@ -168,7 +147,4 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a>
- 
-
- 
 

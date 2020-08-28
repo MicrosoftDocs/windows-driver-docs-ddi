@@ -8,9 +8,6 @@ ms.assetid: 06aa5ff6-974c-43dd-8395-bc1a1a8421d5
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_ADD_PARTY callback function"]
 ms.keywords: PROTOCOL_CM_ADD_PARTY, PROTOCOL_CM_ADD_PARTY callback, ProtocolCmAddParty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml, ndis/ProtocolCmAddParty, netvista.protocolcmaddparty
-f1_keywords:
- - "ndis/ProtocolCmAddParty"
- - "ProtocolCmAddParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmAddParty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_ADD_PARTY
+ - ndis/PROTOCOL_CM_ADD_PARTY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmAddParty
 ---
 
 # PROTOCOL_CM_ADD_PARTY callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmAddParty</i> function is a required function. 
@@ -56,40 +55,35 @@ The
 
 ## -parameters
 
-
-
-
 ### -param CallMgrVcContext 
+
 [in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-
 ### -param CallParameters 
+
 [in, out]
 Pointer to a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure that contains
      the parameters, specified by a connection-oriented client, for the party that is being added to an
      existing call.
 
-
 ### -param NdisPartyHandle 
+
 [in]
 Specifies a handle, supplied by NDIS, that uniquely identifies a multipoint party that is to be
      added to an existing virtual connection. This handle is opaque to the call manager and reserved for NDIS
      library use.
 
-
 ### -param CallMgrPartyContext 
+
 [out]
 Specifies, on return, a handle to a call manager-supplied context area in which the call manager
      maintains state about this party for the multipoint call.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmAddParty</i> returns the status of its operation(s) as one of the following:
 
@@ -151,14 +145,8 @@ Indicates that the call manager was unable to add the party to the multipoint ca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCmAddParty</i> performs any necessary allocations of dynamic resources and structures that the
     call manager requires to maintain state information about the party, specified by 
@@ -224,22 +212,13 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CM_ADD_PARTY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_ADD_PARTY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_add_party_complete">ProtocolClAddPartyComplete</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.date: 04/16/2018
 keywords: ["FsRtlCheckUpperOplock function"]
 ms.keywords: FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
-f1_keywords:
- - "ntifs/FsRtlCheckUpperOplock"
- - "FsRtlCheckUpperOplock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: IRQL <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlCheckUpperOplock
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlCheckUpperOplock
+ - ntifs/FsRtlCheckUpperOplock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlCheckUpperOplock
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlCheckUpperOplock function
@@ -49,21 +49,17 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlCheckUpperOplock</b> routine provides opportunistic lock (oplock) checking  in secondary, or layered, file systems when the oplocks they hold change state. Secondary file systems, such as network redirectors and clustering file services, call <b>FsRtlCheckUpperOplock</b> when an oplock held in a lower file system by the secondary file system, changes state. A state change can occur either by a break or an upgrade. <b>FsRtlCheckUpperOplock</b> will break the oplock of upper file system, if necessary, to confirm the new lower oplock state. The caller can also provide optional callbacks for notifications of break acknowledgment and pending status.
-
 
 ## -parameters
 
-
-
-
 ### -param Oplock 
-[in]
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>. 
 
+[in]
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
 ### -param NewLowerOplockState 
+
 [in]
 A value representing the requested oplock held in a lower file system by a secondary file system. This a bitwise OR combination of the following:
 
@@ -103,15 +99,14 @@ Indicates an oplock Handle (H) type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CompletionRoutineContext 
-[in, optional]
-A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PrePendIrpRoutine</i> parameters point to. 
 
+[in, optional]
+A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PrePendIrpRoutine</i> parameters point to.
 
 ### -param CompletionRoutine 
+
 [in, optional]
 A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. 
 
@@ -145,8 +140,7 @@ A context information pointer that was passed in the <i>CompletionRoutineContext
 
 #### Irp
 
-A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b> will always set this to NULL. 
-
+A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b> will always set this to NULL.
 
 ### -param PrePendRoutine
 
@@ -192,8 +186,8 @@ A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b>
     
   </dl>
 
-
 ### -param Flags 
+
 [in]
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of <b>FsRtlCheckUpperOplock</b>. The <i>Flags</i> parameter has the following options:
 
@@ -211,10 +205,7 @@ Return STATUS_CANNOT_BREAK_OPLOCK if the value of <i>NewLowerOplockState</i> res
 
 Break only Read (R) upper oplocks and notify R holders that they may again request R.  All other upper oplock checks it will return STATUS_CANNOT_BREAK_OPLOCK.
 
-
 ## -returns
-
-
 
 <b>FsRtlCheckUpperOplock</b> returns an appropriate NTSTATUS code such as one of the following: 
 
@@ -257,22 +248,12 @@ An opportunistic lock break is underway. If supplied, <i>PrePendIrpRoutine</i> i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex">FsRtlCheckOplockEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlupperoplockfsctrl">FsRtlUpperOplockFsctrl</a>
- 
-
- 
 

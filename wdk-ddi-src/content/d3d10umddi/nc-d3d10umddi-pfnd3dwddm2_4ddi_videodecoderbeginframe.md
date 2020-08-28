@@ -25,8 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME"
- - "PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME"
+ - PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME
+ - d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME
 topic_type:
  - apiref
 api_type:
@@ -40,6 +40,7 @@ product:
 ---
 
 # PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME callback function
+
 
 ## -description
 

@@ -8,38 +8,42 @@ ms.assetid: d482abdc-c6c1-4789-a1fc-39e76c32e78a
 ms.date: 02/16/2018
 keywords: ["DOT11_IHV_VERSION_INFO structure"]
 ms.keywords: "*PDOT11_IHV_VERSION_INFO, DOT11_IHV_VERSION_INFO, DOT11_IHV_VERSION_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_65cab8b1-5ff7-4775-a3e9-b93e161e6bd3.xml, PDOT11_IHV_VERSION_INFO, PDOT11_IHV_VERSION_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_IHV_VERSION_INFO, netvista.dot11_ihv_version_info, wlanihv/DOT11_IHV_VERSION_INFO, wlanihv/PDOT11_IHV_VERSION_INFO"
-f1_keywords:
- - "wlanihv/DOT11_IHV_VERSION_INFO"
- - "DOT11_IHV_VERSION_INFO"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanihv.h
-api_name:
-- DOT11_IHV_VERSION_INFO
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_IHV_VERSION_INFO, *PDOT11_IHV_VERSION_INFO
 req.product: Windows 10 or later.
+f1_keywords:
+ - _DOT11_IHV_VERSION_INFO
+ - wlanihv/_DOT11_IHV_VERSION_INFO
+ - PDOT11_IHV_VERSION_INFO
+ - wlanihv/PDOT11_IHV_VERSION_INFO
+ - DOT11_IHV_VERSION_INFO
+ - wlanihv/DOT11_IHV_VERSION_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanihv.h
+api_name:
+ - DOT11_IHV_VERSION_INFO
 ---
 
 # _DOT11_IHV_VERSION_INFO structure
@@ -47,26 +51,10 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_IHV_VERSION_INFO structure defines the versions of the IHV Extensibility functions that are
   supported by the IHV Extensions DLL.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_IHV_VERSION_INFO {
-  DWORD dwVerMin;
-  DWORD dwVerMax;
-} DOT11_IHV_VERSION_INFO, *PDOT11_IHV_VERSION_INFO;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwVerMin
 
@@ -75,7 +63,6 @@ The minimum API version supported by the IHV Extensions DLL.
 
 For the Windows Vista operating system, the minimum API version is zero.
 
-
 ### -field dwVerMax
 
 The maximum API version supported by the IHV Extensions DLL.
@@ -83,10 +70,16 @@ The maximum API version supported by the IHV Extensions DLL.
 
 For the Windows Vista operating system, the maximum API version is zero.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_IHV_VERSION_INFO {
+  DWORD dwVerMin;
+  DWORD dwVerMax;
+} DOT11_IHV_VERSION_INFO, *PDOT11_IHV_VERSION_INFO;
+```
 
 ## -remarks
-
-
 
 Prior to starting the IHV Extensions DLL through a call to the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a> IHV
@@ -95,9 +88,6 @@ Prior to starting the IHV Extensions DLL through a call to the
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a> IHV
     handler function. The IHV Extensions DLL returns the range of API versions it supports through the
     <i>pDot11IHVVersionInfo</i> parameter.
-
-
-
 
 ## -see-also
 
@@ -111,11 +101,4 @@ Prior to starting the IHV Extensions DLL through a call to the
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
-
-
-
- 
-
- 
-
 

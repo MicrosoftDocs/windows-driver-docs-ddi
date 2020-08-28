@@ -8,9 +8,6 @@ ms.assetid: 45273541-0638-4e8e-b6b7-5183b481ccc4
 ms.date: 05/10/2018
 keywords: ["DXVADDI_FILTERVALUES structure"]
 ms.keywords: DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, DXVADDI_FILTERVALUES, DXVADDI_FILTERVALUES structure [Display Devices], _DXVADDI_FILTERVALUES, d3dumddi/DXVADDI_FILTERVALUES, display.dxvaddi_filtervalues
-f1_keywords:
- - "d3dumddi/DXVADDI_FILTERVALUES"
- - "DXVADDI_FILTERVALUES"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVADDI_FILTERVALUES
 targetos: Windows
 req.typenames: DXVADDI_FILTERVALUES
+f1_keywords:
+ - _DXVADDI_FILTERVALUES
+ - d3dumddi/_DXVADDI_FILTERVALUES
+ - DXVADDI_FILTERVALUES
+ - d3dumddi/DXVADDI_FILTERVALUES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVADDI_FILTERVALUES
 ---
 
 # _DXVADDI_FILTERVALUES structure
@@ -46,37 +48,23 @@ req.typenames: DXVADDI_FILTERVALUES
 
 ## -description
 
-
 The DXVADDI_FILTERVALUES structure describes values that are related to a filter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Level
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the level of the filter.
 
-
 ### -field Threshold
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the threshold of the filter.
-
 
 ### -field Radius
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the radius of the filter.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt">D3DDDIARG_VIDEOPROCESSBLT</a>
- 
-
- 
 

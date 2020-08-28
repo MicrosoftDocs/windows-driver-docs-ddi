@@ -8,9 +8,6 @@ ms.assetid: B90D7C3D-0370-48A1-90DC-FC14477DA835
 ms.date: 04/04/2018
 keywords: ["IWDTFSystemAction2::GetNextSleepState"]
 ms.keywords: GetNextSleepState, GetNextSleepState method [Windows Device Testing Framework], GetNextSleepState method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],GetNextSleepState method, IWDTFSystemAction2.GetNextSleepState, IWDTFSystemAction2::GetNextSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, dtf.iwdtfsystemaction2_getnextsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState
-f1_keywords:
- - "wdtfsystemaction/IWDTFSystemAction2.GetNextSleepState"
- - "IWDTFSystemAction2.GetNextSleepState"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFSystemAction.Interop.dll
-api_name:
-- IWDTFSystemAction2.GetNextSleepState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSystemAction2::GetNextSleepState
+ - wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFSystemAction.Interop.dll
+api_name:
+ - IWDTFSystemAction2.GetNextSleepState
 ---
 
 # IWDTFSystemAction2::GetNextSleepState
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Returns the next supported sleep state.
-
 
 ## -parameters
 
-
-
-
 ### -param pnSleepState 
+
 [out, retval]
 The sleep state.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
- 
-
- 
 

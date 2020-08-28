@@ -8,9 +8,6 @@ ms.assetid: AC84B27B-6FBF-429D-A8FA-F3C8F583F738
 ms.date: 05/02/2018
 keywords: ["FILTER_SYNCHRONOUS_OID_REQUEST function"]
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST, FilterSynchronousOidRequest, FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequest, netvista.filter_synchronous_oid_request
-f1_keywords:
- - "ndis/FilterSynchronousOidRequest"
- - "FilterSynchronousOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- FilterSynchronousOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_SYNCHRONOUS_OID_REQUEST
+ - ndis/FILTER_SYNCHRONOUS_OID_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - FilterSynchronousOidRequest
 ---
 
 # FILTER_SYNCHRONOUS_OID_REQUEST function
@@ -52,19 +52,19 @@ This function is supported in NDIS 6.81 and later.
 
 ## -parameters
 
-
 ### -param FilterModuleContext
 
 A handle to the context area for the filter module that is the target of this request. The filter driver created and initialized this context area in the [**FilterAttach**](nc-ndis-filter_attach.md) function.
 
 ### -param OidRequest 
+
 [in, out]
 A pointer to an [**NDIS_OID_REQUEST**](ns-ndis-_ndis_oid_request.md) structure that specifies the operation requested.
 
-
 ### -param CallContext 
+
 [out]
-A PVOID-sized storage slot for the filter driver to share state between its *FilterSynchronousOidRequest* and [*FilterSynchronousOidRequestComplete*](nf-ndis-filter_synchronous_oid_request_complete.md) handlers. NDIS guarantees this initially points to a zero value. See the Remarks section for more information. 
+A PVOID-sized storage slot for the filter driver to share state between its *FilterSynchronousOidRequest* and [*FilterSynchronousOidRequestComplete*](nf-ndis-filter_synchronous_oid_request_complete.md) handlers. NDIS guarantees this initially points to a zero value. See the Remarks section for more information.
 
 ## -returns
 
@@ -130,7 +130,4 @@ If a filter driver raises the IRQL in its *FilterSynchronousOidRequest* handler,
 [**NdisFSynchronousOidRequest**](nf-ndis-ndisfsynchronousoidrequest.md)
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
- 
-
- 
 

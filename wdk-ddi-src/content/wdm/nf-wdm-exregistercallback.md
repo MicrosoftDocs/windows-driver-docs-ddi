@@ -8,9 +8,6 @@ ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
 ms.date: 04/30/2018
 keywords: ["ExRegisterCallback function"]
 ms.keywords: ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, kernel.exregistercallback, wdm/ExRegisterCallback
-f1_keywords:
- - "wdm/ExRegisterCallback"
- - "ExRegisterCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExRegisterCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExRegisterCallback
+ - wdm/ExRegisterCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExRegisterCallback
 ---
 
 # ExRegisterCallback function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExRegisterCallback</b> routine registers a given callback routine with a given callback object.
-
 
 ## -parameters
 
-
-
-
 ### -param CallbackObject 
+
 [in, out]
 A pointer to a callback object obtained from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a> routine.
 
-
 ### -param CallbackFunction 
+
 [in]
 A pointer to a driver-implemented callback routine, which must be nonpageable. The callback routine must conform to the following prototype:
 
@@ -101,24 +97,16 @@ A pointer to a parameter defined by the callback object.
 
 A pointer to a parameter defined by the callback object.
 
-
 ### -param CallbackContext 
+
 [in, optional]
 A pointer to a caller-defined structure of data items to be passed as the context parameter of the callback routine each time it is called. Typically the context is part of the caller's device object extension.
 
-
 ## -returns
-
-
 
 <b>ExRegisterCallback</b> returns a pointer to a callback registration handle that should be treated as opaque and reserved for system use. This pointer is <b>NULL</b> if <b>ExRegisterCallback</b> completes with an error.
 
-
-
-
 ## -remarks
-
-
 
 A driver calls <b>ExRegisterCallback</b> to register a callback routine with a specified callback object.
 
@@ -136,13 +124,7 @@ For more information about callback objects, see <a href="https://docs.microsoft
 
 The operating system calls registered callback routines at the same IRQL at which the driver that created the callback called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback">ExNotifyCallback</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a>
 
@@ -161,7 +143,4 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a>
- 
-
- 
 

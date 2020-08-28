@@ -8,38 +8,40 @@ ms.assetid: 77a57c67-90ff-489c-a791-56ac0afbec59
 ms.date: 02/26/2018
 keywords: ["RILEUTRAMRL structure"]
 ms.keywords: "*LPRILEUTRAMRL, RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl_2, rilapitypes/RILEUTRAMRL"
-f1_keywords:
- - "rilapitypes/RILEUTRAMRL"
- - "RILEUTRAMRL"
 req.header: rilapitypes.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILEUTRAMRL
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILEUTRAMRL, *LPRILEUTRAMRL
 req.product: Windows 10 or later.
+f1_keywords:
+ - RILEUTRAMRL
+ - rilapitypes/RILEUTRAMRL
+ - LPRILEUTRAMRL
+ - rilapitypes/LPRILEUTRAMRL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILEUTRAMRL
 ---
 
 # RILEUTRAMRL structure
@@ -47,12 +49,29 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
+## -struct-fields
+
+### -field dwParams
+
+### -field dwMobileCountryCode
+
+### -field dwMobileNetworkCode
+
+### -field dwCellID
+
+### -field dwEARFCN
+
+### -field dwPhysCellID
+
+### -field dwTAC
+
+### -field dwRSRP
+
+### -field dwRSRQ
 
 ## -syntax
-
 
 ```cpp
 typedef struct _RILEUTRAMRL {
@@ -67,36 +86,4 @@ typedef struct _RILEUTRAMRL {
   LONG   dwRSRQ;
 } RILEUTRAMRL, RILEUTRAMRL;
 ```
-
-
-## -struct-fields
-
-
-
-
-### -field dwParams
-
-
-### -field dwMobileCountryCode
-
-
-### -field dwMobileNetworkCode
-
-
-### -field dwCellID
-
-
-### -field dwEARFCN
-
-
-### -field dwPhysCellID
-
-
-### -field dwTAC
-
-
-### -field dwRSRP
-
-
-### -field dwRSRQ
 

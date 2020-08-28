@@ -8,9 +8,6 @@ ms.assetid: 00d0f564-05ab-4f87-8477-efedc172e296
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetKeyValue"]
 ms.keywords: GetKeyValue, GetKeyValue method, GetKeyValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetKeyValue method, IPortableDeviceValues.GetKeyValue, IPortableDeviceValues::GetKeyValue, IPortableDeviceValuesGetKeyValue, portabledevicetypes/IPortableDeviceValues::GetKeyValue, wpddk.iportabledevicevalues_getkeyvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetKeyValue"
- - "IPortableDeviceValues.GetKeyValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetKeyValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetKeyValue
+ - portabledevicetypes/IPortableDeviceValues::GetKeyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetKeyValue
 ---
 
 # IPortableDeviceValues::GetKeyValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves a <b>PROPERTYKEY</b> value (type VT_UNKNOWN) that is specified by a key.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param key 
+
 [in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-
 ### -param pValue 
+
 [out]
 Pointer to the retrieved <b>PROPERTYKEY</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,31 +104,16 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setkeyvalue">IPortableDeviceValues::SetKeyValue</a>
- 
-
- 
 

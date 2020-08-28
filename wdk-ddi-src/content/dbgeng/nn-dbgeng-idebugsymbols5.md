@@ -8,9 +8,6 @@ ms.assetid: 0D239C0E-96C8-49F9-BDFD-182F3F7C3976
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols5 interface"]
 ms.keywords: IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging],described, dbgeng/IDebugSymbols5, debugger.idebugsymbols5
-f1_keywords:
- - "dbgeng/IDebugSymbols5"
- - "IDebugSymbols5"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols5
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols5
+ - dbgeng/IDebugSymbols5
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols5
 ---
 
 # IDebugSymbols5 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
-This interface supports using index values for the current frame. 
-
+This interface supports using index values for the current frame.
 
 ## -inheritance
 

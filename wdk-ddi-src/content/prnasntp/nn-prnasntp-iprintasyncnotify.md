@@ -8,9 +8,6 @@ ms.assetid: 7C12C528-03B2-42B7-A73D-21DF3FEF1505
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncNotify interface"]
 ms.keywords: IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], IPrintAsyncNotify interface [Print Devices],described, print.iprintasyncnotify, prnasntp/IPrintAsyncNotify
-f1_keywords:
- - "prnasntp/IPrintAsyncNotify"
- - "IPrintAsyncNotify"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncNotify
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncNotify
+ - prnasntp/IPrintAsyncNotify
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncNotify
 ---
 
 # IPrintAsyncNotify interface
 
 
 ## -description
-
-
-
-
 
 ## -inheritance
 

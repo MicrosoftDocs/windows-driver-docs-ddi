@@ -8,9 +8,6 @@ ms.assetid: b020b0c6-eb69-44d0-a374-b39eb2f536f1
 ms.date: 05/02/2018
 keywords: ["DMA_SUSPEND_HANDLER callback function"]
 ms.keywords: DMA_SUSPEND_HANDLER, DMA_SUSPEND_HANDLER callback, ProviderSuspendDma, ProviderSuspendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSuspendDma, netdma_ref_f194d9b0-083c-46a1-9e39-aa33c62af512.xml, netvista.providersuspenddma
-f1_keywords:
- - "netdma/ProviderSuspendDma"
- - "ProviderSuspendDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netdma.h
-api_name:
-- ProviderSuspendDma
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DMA_SUSPEND_HANDLER
+ - netdma/DMA_SUSPEND_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netdma.h
+api_name:
+ - ProviderSuspendDma
 ---
 
 # DMA_SUSPEND_HANDLER callback function
@@ -46,20 +46,16 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
 in Windows 8 and later.</div><div> </div>The 
   <i>ProviderSuspendDma</i> function suspends the DMA transfers that are currently in progress on a DMA
   channel.
 
-
 ## -parameters
 
-
-
-
 ### -param ProviderChannelContext 
+
 [in]
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
@@ -67,17 +63,14 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
-
 ### -param pLastDescriptor 
+
 [out]
 A pointer to a variable that contains the physical address of the last successfully processed DMA
      descriptor. The DMA provider provides this address before returning from 
      <i>ProviderSuspendDma</i>.
 
-
 ## -returns
-
-
 
 <i>ProviderSuspendDma</i> returns one of the following status values:
 
@@ -109,14 +102,8 @@ The operation failed for unspecified reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <i>ProviderSuspendDma</i> function is an optional function for NetDMA providers. The NetDMA interface can
@@ -143,13 +130,7 @@ The NetDMA interface calls the
 NetDMA calls 
     <i>ProviderSuspendDma</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
 
@@ -160,7 +141,4 @@ NetDMA calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_resume_handler">ProviderResumeDma</a>
- 
-
- 
 

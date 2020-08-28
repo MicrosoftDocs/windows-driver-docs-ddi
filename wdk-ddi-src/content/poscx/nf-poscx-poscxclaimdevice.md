@@ -8,9 +8,6 @@ ms.assetid: 16EB583C-FB61-4811-A691-3FBD159F8FD0
 ms.date: 02/23/2018
 keywords: ["PosCxClaimDevice function"]
 ms.keywords: PosCxClaimDevice, PosCxClaimDevice function, pos.poscxclaimdevice, poscx/PosCxClaimDevice
-f1_keywords:
- - "poscx/PosCxClaimDevice"
- - "PosCxClaimDevice"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxClaimDevice
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxClaimDevice
+ - poscx/PosCxClaimDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxClaimDevice
 ---
 
 # PosCxClaimDevice function
 
 
 ## -description
-
 
 PosCxClaimDevice is called to claim a device for exclusive use. 
 
@@ -56,25 +55,19 @@ The caller should call <a href="https://docs.microsoft.com/windows-hardware/driv
 
 If the device is already claimed, the caller must wait until access is granted.
 
-
 ## -parameters
 
-
-
-
 ### -param device 
+
 [in]
 A handle to a framework device object that represents the device.
 
-
 ### -param request 
+
 [in]
 A handle to a framework request object that represents the request. This request must come from a WDF IO queue.
 
-
 ## -returns
-
-
 
 Possible return values are:
 
@@ -96,7 +89,4 @@ Possible return values are:
 <td>The current owner has retained device ownership.</td>
 </tr>
 </table>
- 
-
-
 

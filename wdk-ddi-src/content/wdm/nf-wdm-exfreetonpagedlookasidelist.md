@@ -8,9 +8,6 @@ ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.date: 04/30/2018
 keywords: ["ExFreeToNPagedLookasideList function"]
 ms.keywords: ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
-f1_keywords:
- - "wdm/ExFreeToNPagedLookasideList"
- - "ExFreeToNPagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExFreeToNPagedLookasideList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExFreeToNPagedLookasideList
+ - wdm/ExFreeToNPagedLookasideList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExFreeToNPagedLookasideList
 ---
 
 # ExFreeToNPagedLookasideList function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExFreeToNPagedLookasideList</b> routine returns a nonpaged entry to the given lookaside list or to nonpaged pool.
-
 
 ## -parameters
 
-
-
-
 ### -param Lookaside 
-[in, out]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializenpagedlookasidelist">ExInitializeNPagedLookasideList</a>. 
 
+[in, out]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializenpagedlookasidelist">ExInitializeNPagedLookasideList</a>.
 
 ### -param Entry 
-[in]
-A pointer to the entry to be freed. The caller obtained this pointer from a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist">ExAllocateFromNPagedLookasideList</a>. 
 
+[in]
+A pointer to the entry to be freed. The caller obtained this pointer from a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist">ExAllocateFromNPagedLookasideList</a>.
 
 ## -remarks
-
-
 
 <b>ExFreeToNPagedLookasideList</b> is the reciprocal of <b>ExAllocateFromNPagedLookasideList</b>. It releases a caller-allocated entry back to the caller's lookaside list or to nonpaged pool when that entry is no longer in use.
 
@@ -77,13 +70,7 @@ If the specified lookaside list has not yet reached the system-determined maximu
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-lookaside-lists">Using Lookaside Lists</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist">ExAllocateFromNPagedLookasideList</a>
 
@@ -98,7 +85,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a>
- 
-
- 
 

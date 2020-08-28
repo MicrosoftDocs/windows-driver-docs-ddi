@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 2d6cc00f-2f22-4105-9e01-7cc179a0b851
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_PROTOCOL_RESERVED macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_LIST_PROTOCOL_RESERVED"
- - "NET_BUFFER_LIST_PROTOCOL_RESERVED"
 ms.keywords: NET_BUFFER_LIST_PROTOCOL_RESERVED
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_LIST_PROTOCOL_RESERVED
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_LIST_PROTOCOL_RESERVED
+ - ndis/NET_BUFFER_LIST_PROTOCOL_RESERVED
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST_PROTOCOL_RESERVED
 ---
 
 # NET_BUFFER_LIST_PROTOCOL_RESERVED macro
@@ -66,3 +65,4 @@ Protocol drivers and NDIS intermediate drivers can use **ProtocolReserved** for 
 ## -see-also
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+

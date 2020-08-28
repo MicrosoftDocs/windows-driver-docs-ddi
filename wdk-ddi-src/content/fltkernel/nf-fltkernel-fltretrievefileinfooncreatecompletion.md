@@ -8,42 +8,42 @@ ms.assetid: 8ec28ac7-c87c-4e18-bfd0-0266b805cd9d
 ms.author: windowsdriverdev
 ms.date: 03/12/2019
 keywords: ["FltRetrieveFileInfoOnCreateCompletion function"]
-f1_keywords:
- - "fltkernel/FltRetrieveFileInfoOnCreateCompletion"
- - "FltRetrieveFileInfoOnCreateCompletion"
 ms.keywords: FltRetrieveFileInfoOnCreateCompletion
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
-- fltkernel.h
-api_name: 
- - FltRetrieveFileInfoOnCreateCompletion
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - FltRetrieveFileInfoOnCreateCompletion
+ - fltkernel/FltRetrieveFileInfoOnCreateCompletion
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FltRetrieveFileInfoOnCreateCompletion
+product:
+ - Windows
 ---
 
 # FltRetrieveFileInfoOnCreateCompletion function
+
 
 ## -description
 
@@ -88,3 +88,4 @@ A minifilter must call **FltRequestFileInfoOnCreateCompletion** during file pre-
 [FltRequestFileInfoOnCreateCompletion](nf-fltkernel-fltrequestfileinfooncreatecompletion.md)
 
 [FltRetrieveFileInfoOnCreateCompletionEx](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md)
+

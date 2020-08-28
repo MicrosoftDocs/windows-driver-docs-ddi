@@ -7,9 +7,6 @@ ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback, d3d10umddi/pfnVideoProcessorSetStreamRotation, display.videoprocessorsetstreamrotation, pfnVideoProcessorSetStreamRotation, pfnVideoProcessorSetStreamRotation callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamRotation"
- - "pfnVideoProcessorSetStreamRotation"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetStreamRotation
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetStreamRotation
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Enables or disables rotation on an input stream of the video processor.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -85,33 +80,17 @@ The clockwise degrees of rotation as specified by a <a href="https://docs.micros
 
 If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The stream source rectangle will be specified in the pre-rotation coordinates (typically landscape) and the stream destination rectangle will be specified in the post-rotation coordinates (typically portrait).   
 
 The application must update the stream destination rectangle correctly when using a rotation value other than 0 or 180 degrees.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_rotation">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a>
- 
-
- 
 

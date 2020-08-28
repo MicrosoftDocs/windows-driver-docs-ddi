@@ -8,9 +8,6 @@ ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.date: 03/29/2018
 keywords: ["DVD_COPY_PROTECT_KEY structure"]
 ms.keywords: "*PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY structure [Storage Devices], PDVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], _DVD_COPY_PROTECT_KEY, ntddcdvd/DVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY, storage.dvd_copy_protect_key, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml"
-f1_keywords:
- - "ntddcdvd/DVD_COPY_PROTECT_KEY"
- - "DVD_COPY_PROTECT_KEY"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdvd.h
-api_name:
-- DVD_COPY_PROTECT_KEY
 targetos: Windows
 req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
+f1_keywords:
+ - _DVD_COPY_PROTECT_KEY
+ - ntddcdvd/_DVD_COPY_PROTECT_KEY
+ - PDVD_COPY_PROTECT_KEY
+ - ntddcdvd/PDVD_COPY_PROTECT_KEY
+ - DVD_COPY_PROTECT_KEY
+ - ntddcdvd/DVD_COPY_PROTECT_KEY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdvd.h
+api_name:
+ - DVD_COPY_PROTECT_KEY
 ---
 
 # _DVD_COPY_PROTECT_KEY structure
@@ -46,48 +50,35 @@ req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
 
 ## -description
 
-
-The <b>DVD_COPY_PROTECT_KEY</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_key">IOCTL_DVD_READ_KEY</a> request to execute a report key command of the specified type. 
-
+The <b>DVD_COPY_PROTECT_KEY</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_key">IOCTL_DVD_READ_KEY</a> request to execute a report key command of the specified type.
 
 ## -struct-fields
 
-
-
-
 ### -field KeyLength
 
-Indicates the length of the key data to be retrieved. 
-
+Indicates the length of the key data to be retrieved.
 
 ### -field SessionId
 
 Indicates the DVD session ID. The Authentication Grant Identifier (AGID) for a secure Advanced Access Content System (AACS) session is a long integer in the range -1 to 3 inclusive.
 
-
 ### -field KeyType
 
-Indicates the key type. The DVD device driver uses this information to determine the key format in a report key command, as defined by the <i>SCSI Multimedia Commands - 3 (MMC-3)</i> specification. A report key command either reports key data for a specified key (challenge key, bus key, title key, RPC key, or disk key), reports the state of the authentication success flag (ASF), or invalidates an authentication grant ID (AGID). See the <i>MMC-3</i> specification for further information. 
-
+Indicates the key type. The DVD device driver uses this information to determine the key format in a report key command, as defined by the <i>SCSI Multimedia Commands - 3 (MMC-3)</i> specification. A report key command either reports key data for a specified key (challenge key, bus key, title key, RPC key, or disk key), reports the state of the authentication success flag (ASF), or invalidates an authentication grant ID (AGID). See the <i>MMC-3</i> specification for further information.
 
 ### -field KeyFlags
-
-
 
 ######  This member can have any of the following values:
 
 
 
-################ 
-
+################
 
 ### -field Parameters
-
 
 ### -field Parameters.FileHandle
 
 Pointer to the file handle for the physical device that the copy protection is being negotiated on.
-
 
 ### -field Parameters.TitleOffset
 
@@ -95,23 +86,15 @@ Contains the logical block address on the media of the title.
 
 The upper layers of the operating system use the <b>FileHandle</b> member. The file system converts the value in <b>FileHandle</b> into a logical block address and stores the result in the <b>TitleOffset</b> member. Kernel-mode drivers use the <b>TitleOffset</b> member.
 
-
 ### -field KeyData
 
-Contains the key data that was returned. 
-
+Contains the key data that was returned.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ne-ntddcdvd-dvd_key_type">DVD_KEY_TYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_key">IOCTL_DVD_READ_KEY</a>
- 
-
- 
 

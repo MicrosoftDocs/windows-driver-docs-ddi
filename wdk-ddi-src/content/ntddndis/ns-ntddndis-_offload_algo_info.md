@@ -8,9 +8,6 @@ ms.assetid: 119a8c88-f181-40f5-8a12-5d663c5a1534
 ms.date: 05/02/2018
 keywords: ["OFFLOAD_ALGO_INFO structure"]
 ms.keywords: "*POFFLOAD_ALGO_INFO, 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_ALGO_INFO, netvista.offload_algo_info, ntddndis/OFFLOAD_ALGO_INFO, ntddndis/POFFLOAD_ALGO_INFO"
-f1_keywords:
- - "ntddndis/OFFLOAD_ALGO_INFO"
- - "OFFLOAD_ALGO_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- OFFLOAD_ALGO_INFO
 targetos: Windows
 req.typenames: OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO
+f1_keywords:
+ - _OFFLOAD_ALGO_INFO
+ - ntddndis/_OFFLOAD_ALGO_INFO
+ - POFFLOAD_ALGO_INFO
+ - ntddndis/POFFLOAD_ALGO_INFO
+ - OFFLOAD_ALGO_INFO
+ - ntddndis/OFFLOAD_ALGO_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - OFFLOAD_ALGO_INFO
 ---
 
 # _OFFLOAD_ALGO_INFO structure
@@ -46,14 +50,9 @@ req.typenames: OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO
 
 ## -description
 
-
 The OFFLOAD_ALGO_INFO structure specifies an algorithm used for a security association (SA).
 
-
 ## -struct-fields
-
-
-
 
 ### -field algoIdentifier
 
@@ -112,7 +111,6 @@ Specifies the keyed MD5 algorithm.
 
 Specifies the SHA 1 algorithm.
 
-
 ### -field algoKeylen
 
 The length, in bytes, of the key for the algorithm. The key is contained in the buffer at 
@@ -138,7 +136,6 @@ If both an integrity and a confidentiality algorithm (
      length of the key for the confidentiality algorithm, starting the from the end of the key for the
      integrity algorithm.
 
-
 ### -field algoRounds
 
 The number of transformation rounds that the encryption algorithm performs.
@@ -149,8 +146,6 @@ The number of transformation rounds that the encryption algorithm performs.
 
 ## -remarks
 
-
-
 The OFFLOAD_ALGO_INFO structure specifies algorithm information in the 
     <b>IntegrityAlgo</b>, 
     <b>ConfAlgo</b>, and 
@@ -158,20 +153,11 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_security_association">
     OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_ipsec_add_sa">OFFLOAD_IPSEC_ADD_SA</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_security_association">OFFLOAD_SECURITY_ASSOCIATION</a>
- 
-
- 
 

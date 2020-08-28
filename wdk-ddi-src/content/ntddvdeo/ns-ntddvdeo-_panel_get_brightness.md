@@ -6,37 +6,42 @@ tech.root: display
 ms.assetid: f7fbdbb4-f3cc-4ab7-b891-370190a96c19
 ms.date: 10/19/2018
 keywords: ["PANEL_GET_BRIGHTNESS structure"]
-f1_keywords:
- - "ntddvdeo/_PANEL_GET_BRIGHTNESS"
- - "_PANEL_GET_BRIGHTNESS"
 ms.keywords: _PANEL_GET_BRIGHTNESS, PANEL_GET_BRIGHTNESS, *PPANEL_GET_BRIGHTNESS,
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: PANEL_GET_BRIGHTNESS, *PPANEL_GET_BRIGHTNESS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- _PANEL_GET_BRIGHTNESS
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _PANEL_GET_BRIGHTNESS
+ - ntddvdeo/_PANEL_GET_BRIGHTNESS
+ - PPANEL_GET_BRIGHTNESS
+ - ntddvdeo/PPANEL_GET_BRIGHTNESS
+ - PANEL_GET_BRIGHTNESS
+ - ntddvdeo/PANEL_GET_BRIGHTNESS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - _PANEL_GET_BRIGHTNESS
+product:
+ - Windows
 ---
 
 # _PANEL_GET_BRIGHTNESS structure
+
 
 ## -description
 

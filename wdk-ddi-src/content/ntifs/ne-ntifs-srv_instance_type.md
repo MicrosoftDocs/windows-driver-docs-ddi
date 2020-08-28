@@ -7,11 +7,6 @@ ms.assetid: c7ae9f16-5a28-478a-8099-a5a9524a36d8
 ms.date: 09/09/2019
 keywords: ["SRV_INSTANCE_TYPE enumeration"]
 ms.keywords: "SRV_INSTANCE_TYPE, SRV_INSTANCE_TYPE enumeration [Installable File System Drivers], *PSRV_INSTANCE_TYPE"
-f1_keywords:
- - "ntifs/SRV_INSTANCE_TYPE"
- - "SRV_INSTANCE_TYPE"
-dev_langs:
- - c++
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -29,20 +24,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- SRV_INSTANCE_TYPE
 targetos: Windows
 req.typenames: SRV_INSTANCE_TYPE
+f1_keywords:
+ - _SRV_INSTANCE_TYPE
+ - ntifs/_SRV_INSTANCE_TYPE
+ - PSRV_INSTANCE_TYPE
+ - ntifs/PSRV_INSTANCE_TYPE
+ - SRV_INSTANCE_TYPE
+ - ntifs/SRV_INSTANCE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - SRV_INSTANCE_TYPE
 ---
 
 # _SRV_INSTANCE_TYPE enumeration
+
 
 ## -description
 
@@ -73,3 +78,4 @@ The open request came from an internal instance of SRV used by Storage Replica.
 ## -see-also
 
 [SRV_OPEN_ECP_CONTEXT](ns-ntifs-_srv_open_ecp_context.md)
+

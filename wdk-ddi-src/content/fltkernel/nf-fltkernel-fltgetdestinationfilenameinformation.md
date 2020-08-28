@@ -8,9 +8,6 @@ ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
 ms.date: 07/27/2020
 keywords: ["FltGetDestinationFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml, FltGetDestinationFileNameInformation, FltGetDestinationFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetDestinationFileNameInformation, ifsk.fltgetdestinationfilenameinformation
-f1_keywords:
- - "fltkernel/FltGetDestinationFileNameInformation"
- - "FltGetDestinationFileNameInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetDestinationFileNameInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetDestinationFileNameInformation
+ - fltkernel/FltGetDestinationFileNameInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetDestinationFileNameInformation
 ---
 
 # FltGetDestinationFileNameInformation function
+
 
 ## -description
 
@@ -50,30 +51,36 @@ The **FltGetDestinationFileNameInformation** routine constructs a full destinati
 ## -parameters
 
 ### -param Instance 
+
 [in]
 Opaque instance pointer for a minifilter driver instance that is attached to the volume where the file resides.
 
 ### -param FileObject 
+
 [in]
 Pointer to the file object for the file. This parameter is required and cannot be **NULL**.
 
 ### -param RootDirectory 
+
 [in, optional]
 **For link operations:** If the link is to be created in the same directory as the file that is being linked to, or if the *FileName* parameter contains the full pathname for the link to be created, this parameter is **NULL**. Otherwise it is a handle for the directory where the link is to be created.
 
 **For rename operations:** If the file is not being moved to a different directory, or if the *FileName* parameter contains the full pathname, this parameter is **NULL**. Otherwise it is a handle for the directory where the file resides after it is renamed.
 
 ### -param FileName 
+
 [in]
 **Link operations:** Pointer to a wide-character string containing the name to be assigned to the newly created link.
 
 **Rename operations:** Pointer to a wide-character string containing the new name for the file.
 
 ### -param FileNameLength 
+
 [in]
 Length, in bytes, of the wide-character string that *FileName* points to.
 
 ### -param NameOptions 
+
 [in]
 A [FLT_FILE_NAME_OPTIONS](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, the query method that the Filter Manager is to use, and additional file name flags. This parameter is required and cannot be **NULL**.
 
@@ -101,6 +108,7 @@ The following are the file name flag values. Any combination of these flags can 
 | FLT_FILE_NAME_DO_NOT_CACHE | **FltGetDestinationFileNameInformation** does not cache the retrieved file name. Name provider minifilters use this flag as they perform intermediate queries to generate a name. |
 
 ### -param RetFileNameInformation 
+
 [out]
 Pointer to a caller-allocated variable that receives the address of a system-allocated [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md) structure containing the file name information. **FltGetDestinationFileNameInformation** allocates this structure from paged pool. This parameter is required and cannot be **NULL**.
 
@@ -224,3 +232,4 @@ The following paired operations can cause the file name *name* to be tunneled:
 [PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)
 
 [PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)
+

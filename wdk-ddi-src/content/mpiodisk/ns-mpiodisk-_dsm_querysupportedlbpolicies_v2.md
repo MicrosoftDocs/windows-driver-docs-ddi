@@ -8,9 +8,6 @@ ms.assetid: b62f60e2-9a5c-4346-8a77-985873a7ae20
 ms.date: 03/29/2018
 keywords: ["DSM_QuerySupportedLBPolicies_V2 structure"]
 ms.keywords: "*PDSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2 structure [Storage Devices], PDSM_QuerySupportedLBPolicies_V2, PDSM_QuerySupportedLBPolicies_V2 structure pointer [Storage Devices], _DSM_QuerySupportedLBPolicies_V2, mpiodisk/DSM_QuerySupportedLBPolicies_V2, mpiodisk/PDSM_QuerySupportedLBPolicies_V2, storage.dsm_querysupportedlbpolicies_v2, structs-scsibus_33717938-d010-4155-a87b-4fb94831315e.xml"
-f1_keywords:
- - "mpiodisk/DSM_QuerySupportedLBPolicies_V2"
- - "DSM_QuerySupportedLBPolicies_V2"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiodisk.h
-api_name:
-- DSM_QuerySupportedLBPolicies_V2
 targetos: Windows
 req.typenames: DSM_QuerySupportedLBPolicies_V2, *PDSM_QuerySupportedLBPolicies_V2
+f1_keywords:
+ - _DSM_QuerySupportedLBPolicies_V2
+ - mpiodisk/_DSM_QuerySupportedLBPolicies_V2
+ - PDSM_QuerySupportedLBPolicies_V2
+ - mpiodisk/PDSM_QuerySupportedLBPolicies_V2
+ - DSM_QuerySupportedLBPolicies_V2
+ - mpiodisk/DSM_QuerySupportedLBPolicies_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiodisk.h
+api_name:
+ - DSM_QuerySupportedLBPolicies_V2
 ---
 
 # _DSM_QuerySupportedLBPolicies_V2 structure
@@ -46,24 +50,17 @@ req.typenames: DSM_QuerySupportedLBPolicies_V2, *PDSM_QuerySupportedLBPolicies_V
 
 ## -description
 
-
 The DSM_QuerySupportedLBPolicies_V2 structure is used to query the list of load balance policies that are supported on the LUN. It is basically the same as the DSM_QuerySupportedLBPolicies except that it passes back the supported policies as an array of DSM_Load_Balance_Policy_V2 structures instead of DSM_Load_Balance_Policy structures. The caller must direct the WMI call for querying to a pseudo-LUN that is addressed by the WMI instance name that corresponds to the pseudo-LUN. All DSMs must register and implement this class, even if they do not support any load balance policies for the devices they control.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SupportedLBPoliciesCount
 
 An unsigned 32-bitfield that returns the number of load balance policies that are supported for the LUN by the controlling DSM.
 
-
 ### -field Reserved
 
 Should be zero.
-
 
 ### -field Supported_LB_Policies
 

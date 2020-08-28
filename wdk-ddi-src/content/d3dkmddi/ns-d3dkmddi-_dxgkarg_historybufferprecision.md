@@ -7,9 +7,6 @@ ms.assetid: D55A8B5A-4133-4CE8-AD08-F551A3AEA42C
 ms.date: 05/10/2018
 keywords: ["DXGKARG_HISTORYBUFFERPRECISION structure"]
 ms.keywords: DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices], _DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, display.dxgkarg_historybufferprecision
-f1_keywords:
- - "d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION"
- - "DXGKARG_HISTORYBUFFERPRECISION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGKARG_HISTORYBUFFERPRECISION
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_HISTORYBUFFERPRECISION
+f1_keywords:
+ - _DXGKARG_HISTORYBUFFERPRECISION
+ - d3dkmddi/_DXGKARG_HISTORYBUFFERPRECISION
+ - DXGKARG_HISTORYBUFFERPRECISION
+ - d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGKARG_HISTORYBUFFERPRECISION
 ---
 
 # _DXGKARG_HISTORYBUFFERPRECISION structure
@@ -46,12 +48,9 @@ req.typenames: DXGKARG_HISTORYBUFFERPRECISION
 
 ## -description
 
-
 Indicates info about the precision of history buffer data used by the display miniport driver.
 
-
 ## -struct-fields
-
 
 ### -field PrecisionBits
 
@@ -70,10 +69,7 @@ Values between 0 and 32 are unsupported and invalid.
 
 If the hardware supports 64-bit time stamps but only 32 bits are usable, the driver must ensure that the data is presented correctly to the DirectX graphics kernel subsystem. If the driver has no other alternatives to present the data, it should provide the precision value when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_formathistorybuffer">DxgkDdiFormatHistoryBuffer</a> function is next called.
 
-
 ## -remarks
-
-
 
 In a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function, the output data size,  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>.<b>OutputDataSize</b>, is:
 
@@ -81,12 +77,7 @@ In a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 sizeof(DXGKARG_HISTORYBUFFERPRECISION) * m_DriverCaps.GpuEngineTopology.NbAsymetricProcessingNodes
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>
 
@@ -97,7 +88,4 @@ sizeof(DXGKARG_HISTORYBUFFERPRECISION) * m_DriverCaps.GpuEngineTopology.NbAsymet
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
- 
-
- 
 

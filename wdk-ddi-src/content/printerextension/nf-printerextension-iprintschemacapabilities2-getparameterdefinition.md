@@ -8,9 +8,6 @@ ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.date: 06/25/2020
 keywords: ["IPrintSchemaCapabilities2::GetParameterDefinition"]
 ms.keywords: GetParameterDefinition, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices],IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2 interface [Print Devices],GetParameterDefinition method, IPrintSchemaCapabilities2.GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition
-f1_keywords:
- - "printerextension/IPrintSchemaCapabilities2.GetParameterDefinition"
- - "IPrintSchemaCapabilities2.GetParameterDefinition"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaCapabilities2.GetParameterDefinition
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaCapabilities2::GetParameterDefinition
+ - printerextension/IPrintSchemaCapabilities2::GetParameterDefinition
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaCapabilities2.GetParameterDefinition
 ---
 
 # IPrintSchemaCapabilities2::GetParameterDefinition
+
 
 ## -description
 
@@ -52,14 +53,17 @@ The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefini
 ## -parameters
 
 ### -param bstrName 
+
 [in]
 The keyword name.
 
 ### -param bstrNamespaceUri 
+
 [in]
 The keyword namespace URI.
 
 ### -param ppParameterDefinition 
+
 [out, retval]
 The **IPrintSchemaParameterDefinition** object.
 
@@ -82,3 +86,4 @@ For more information about the data types that you can use with the \<psf:Parame
 [IPrintSchemaParameterDefinition](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)
 
 [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip)
+

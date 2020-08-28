@@ -8,9 +8,6 @@ ms.assetid: f1bac8c1-a313-40b9-96fc-9eaf426bf238
 ms.date: 04/16/2018
 keywords: ["FsRtlOplockFsctrlEx function"]
 ms.keywords: FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers], fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx
-f1_keywords:
- - "ntifs/FsRtlOplockFsctrlEx"
- - "FsRtlOplockFsctrlEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlOplockFsctrlEx
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlOplockFsctrlEx
+ - ntifs/FsRtlOplockFsctrlEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlOplockFsctrlEx
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlOplockFsctrlEx function
@@ -49,31 +49,27 @@ ms.custom: RS5
 
 ## -description
 
-
-The <b>FsRtlOplockFsctrlEx</b> routine performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver. 
-
+The <b>FsRtlOplockFsctrlEx</b> routine performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver.
 
 ## -parameters
 
-
-
-
 ### -param Oplock 
-[in]
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>. 
 
+[in]
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
 ### -param Irp 
-[in]
-A pointer to the IRP for the I/O operation. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+A pointer to the IRP for the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param OpenCount 
-[in]
-Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>. 
 
+[in]
+Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>.
 
 ### -param Flags 
+
 [in]
 A bitmask for the associated oplock operations. A file system or filter driver sets bits to specify the behavior of <b>FsRtlOplockFsctrlEx</b>. The <i>Flags</i> parameter has the following options:
 
@@ -83,12 +79,9 @@ A bitmask for the associated oplock operations. A file system or filter driver s
 
 #### OPLOCK_FSCTRL_FLAG_ALL_KEYS_MATCH (0x00000001)
 
-Specifies that the file system verified that all oplock keys on any currently open handles match. By specifying this flag, you allow the oplock package to grant an oplock of level RW or RWH when more than one open handle to the file exists. For more information about oplock types, see the Oplock Semantics <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Overview</a> page. 
-
+Specifies that the file system verified that all oplock keys on any currently open handles match. By specifying this flag, you allow the oplock package to grant an oplock of level RW or RWH when more than one open handle to the file exists. For more information about oplock types, see the Oplock Semantics <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Overview</a> page.
 
 ## -returns
-
-
 
 <b>FsRtlOplockFsctrlEx</b> returns one of the following NTSTATUS values: 
 
@@ -153,14 +146,8 @@ Used only for FSCTL operations. The meaning of STATUS_PENDING depends on the FSC
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 File systems and filter drivers call <b>FsRtlOplockFsctrlEx</b> to perform various opportunistic lock operations for a create operation or file system control I/O operation. The IRP pointed to by the <i>Irp</i> parameter must be a valid IRP for an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-file-system-control">IRP_MJ_FILE_SYSTEM_CONTROL</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> operation. 
 
@@ -222,15 +209,9 @@ The value of the <i>ShareAccess</i> parameter for the IRP_MJ_CREATE request must
 </ul>
 If the request for a pending filter oplock is granted, <b>FsRtlOplockFsctrlEx</b> returns STATUS_SUCCESS. For more information about create parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>. 
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockfsctrlex">FltOplockFsctrlEx</a> instead of <b>FsRtlOplockFsctrlEx</b>. 
-
-
-
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockfsctrlex">FltOplockFsctrlEx</a> instead of <b>FsRtlOplockFsctrlEx</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-opbatch-ack-close-pending">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
@@ -281,7 +262,4 @@ Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-file-system-control">IRP_MJ_FILE_SYSTEM_CONTROL</a>
- 
-
- 
 

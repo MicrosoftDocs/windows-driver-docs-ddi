@@ -8,9 +8,6 @@ ms.assetid: 16883c64-3cc6-4f50-8be7-7c58c422a717
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_OID_REQUEST_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CO_OID_REQUEST_COMPLETE, PROTOCOL_CO_OID_REQUEST_COMPLETE callback, ProtocolCoOidRequestComplete, ProtocolCoOidRequestComplete callback function [Network Drivers Starting with Windows Vista], condis_request_ref_14f11d94-41dd-44b1-9117-20c8d22278aa.xml, ndis/ProtocolCoOidRequestComplete, netvista.protocolcooidrequestcomplete
-f1_keywords:
- - "ndis/ProtocolCoOidRequestComplete"
- - "ProtocolCoOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoOidRequestComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_OID_REQUEST_COMPLETE
+ - ndis/PROTOCOL_CO_OID_REQUEST_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoOidRequestComplete
 ---
 
 # PROTOCOL_CO_OID_REQUEST_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoOidRequestComplete</i> function completes the processing of an asynchronous
@@ -55,10 +54,8 @@ The
 
 ## -parameters
 
-
-
-
 ### -param ProtocolAfContext 
+
 [in]
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
@@ -67,20 +64,20 @@ A handle that identifies an address family (AF) context area. If the driver is a
      manager or miniport call manager (MCM), it supplied this handle from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
-
 ### -param ProtocolVcContext 
+
 [in]
 A handle that identifies the active virtual connection (VC) that the driver requested or set
      information for, if the request was VC-specific. Otherwise, this parameter is <b>NULL</b>.
 
-
 ### -param ProtocolPartyContext 
+
 [in]
 A handle that identifies the party on a multipoint VC that the driver requested or set information
      for, if the request is party-specific. Otherwise, this parameter is <b>NULL</b>.
 
-
 ### -param OidRequest 
+
 [in, out]
 A pointer to the driver-supplied 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
@@ -88,18 +85,15 @@ A pointer to the driver-supplied
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscooidrequest">NdisCoOidRequest</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmoidrequest">NdisMCmOidRequest</a> function.
 
-
 ### -param Status 
+
 [in]
 The final status of the request. The target driver or NDIS determines this final status. This
      parameter determines what 
      <i>ProtocolCoOidRequestComplete</i> does with the information at 
      <i>OidRequest</i>.
 
-
 ## -remarks
-
-
 
 NDIS calls the 
     <i>ProtocolCoOidRequestComplete</i> function to complete the processing of CoNDIS
@@ -231,15 +225,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_co_call_manager_optional_handlers">
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
@@ -284,7 +272,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
- 
-
- 
 

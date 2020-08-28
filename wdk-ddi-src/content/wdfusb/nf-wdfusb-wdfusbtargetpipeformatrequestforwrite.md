@@ -8,9 +8,6 @@ ms.assetid: cf880701-d1e9-4bda-8d6c-35f35b707e9b
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeFormatRequestForWrite function"]
 ms.keywords: DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, WdfUsbTargetPipeFormatRequestForWrite, WdfUsbTargetPipeFormatRequestForWrite method, kmdf.wdfusbtargetpipeformatrequestforwrite, wdf.wdfusbtargetpipeformatrequestforwrite, wdfusb/WdfUsbTargetPipeFormatRequestForWrite
-f1_keywords:
- - "wdfusb/WdfUsbTargetPipeFormatRequestForWrite"
- - "WdfUsbTargetPipeFormatRequestForWrite"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetPipeFormatRequestForWrite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetPipeFormatRequestForWrite
+ - wdfusb/WdfUsbTargetPipeFormatRequestForWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetPipeFormatRequestForWrite
 ---
 
 # WdfUsbTargetPipeFormatRequestForWrite function
@@ -49,40 +49,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeFormatRequestForWrite</b> method builds a write request for a USB output pipe, but it does not send the request.
 
-
 ## -parameters
 
-
-
-
 ### -param Pipe 
-[in]
-A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
+[in]
+A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 ### -param Request 
+
 [in]
 A handle to a framework request object. For more information, see the following Remarks section.
 
-
 ### -param WriteMemory 
+
 [in, optional]
 A handle to a framework memory object. This object represents a buffer that contains data that will be sent to the pipe. For more information about this buffer, see the following Remarks section.
 
-
 ### -param WriteOffset 
+
 [in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the write buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the buffer, and the transfer size is the buffer size.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetPipeFormatRequestForWrite</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -153,14 +146,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use <b>WdfUsbTargetPipeFormatRequestForWrite</b>, followed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>, to send write requests either synchronously or asynchronously. Alternatively, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipewritesynchronously">WdfUsbTargetPipeWriteSynchronously</a> method to send write requests synchronously. 
 
@@ -288,15 +274,7 @@ Exit:
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforread">WdfUsbTargetPipeFormatRequestForRead</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: dabd472f-9877-4434-a534-e07a047e092f
 ms.date: 05/02/2018
 keywords: ["NdisMCoIndicateReceiveNetBufferLists function"]
 ms.keywords: NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, ndis/NdisMCoIndicateReceiveNetBufferLists, netvista.ndismcoindicatereceivenetbufferlists
-f1_keywords:
- - "ndis/NdisMCoIndicateReceiveNetBufferLists"
- - "NdisMCoIndicateReceiveNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCoIndicateReceiveNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCoIndicateReceiveNetBufferLists
+ - ndis/NdisMCoIndicateReceiveNetBufferLists
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCoIndicateReceiveNetBufferLists
 ---
 
 # NdisMCoIndicateReceiveNetBufferLists function
@@ -47,18 +47,14 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMCoIndicateReceiveNetBufferLists</b> function indicates that the miniport driver received data from
   the network.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisVcHandle 
+
 [in]
 A handle that identifies a virtual connection (VC). The miniport driver obtained this handle as an
      input parameter to its 
@@ -66,21 +62,21 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
      when a client set up an outgoing call or when the call manager created a VC for a client-registered
      service access point (SAP) to indicate an incoming-call notification on.
 
-
 ### -param NetBufferLists 
+
 [in]
 A linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      miniport driver allocated.
 
-
 ### -param NumberOfNetBufferLists 
+
 [in]
 The number of NET_BUFFER_LIST structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
-
 ### -param CoReceiveFlags 
+
 [in]
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
@@ -104,10 +100,7 @@ The miniport driver reclaims ownership of the NET_BUFFER_LIST structures and any
        NET_BUFFER structures immediately after 
        <b>NdisMCoIndicateReceiveNetBufferLists</b> returns.
 
-
 ## -remarks
-
-
 
 A miniport driver typically calls the 
     <b>NdisMCoIndicateReceiveNetBufferLists</b> function from its 
@@ -155,13 +148,7 @@ The caller of
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and any attached memory
     descriptor lists (MDLs).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a>
 
@@ -181,7 +168,4 @@ The caller of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
- 
-
- 
 

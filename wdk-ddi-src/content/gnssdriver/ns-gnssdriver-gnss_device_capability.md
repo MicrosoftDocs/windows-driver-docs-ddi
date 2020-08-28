@@ -8,9 +8,6 @@ ms.assetid: F8FA91AC-9085-4C25-8798-CEB9ADB34320
 ms.date: 02/15/2018
 keywords: ["GNSS_DEVICE_CAPABILITY structure"]
 ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY"
-f1_keywords:
- - "gnssdriver/GNSS_DEVICE_CAPABILITY"
- - "GNSS_DEVICE_CAPABILITY"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_DEVICE_CAPABILITY
 targetos: Windows
 req.typenames: GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY
+f1_keywords:
+ - PGNSS_DEVICE_CAPABILITY
+ - gnssdriver/PGNSS_DEVICE_CAPABILITY
+ - GNSS_DEVICE_CAPABILITY
+ - gnssdriver/GNSS_DEVICE_CAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_DEVICE_CAPABILITY
 ---
 
 # GNSS_DEVICE_CAPABILITY structure
+
 
 ## -description
 
@@ -201,3 +204,4 @@ Padding buffer.
 ## -remarks
 
 This is a list of individual capability support. The capability is represented either by a Boolean or by a well-defined enumeration of the specific attribute.
+

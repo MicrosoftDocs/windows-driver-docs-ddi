@@ -8,9 +8,6 @@ ms.assetid: 4c8ccaa6-a99e-42b5-9044-fe11d17e9aa7
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::SetKeyValue"]
 ms.keywords: IPortableDeviceValues interface,SetKeyValue method, IPortableDeviceValues.SetKeyValue, IPortableDeviceValues::SetKeyValue, IPortableDeviceValuesSetKeyValue, SetKeyValue, SetKeyValue method, SetKeyValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetKeyValue, wpddk.iportabledevicevalues_setkeyvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.SetKeyValue"
- - "IPortableDeviceValues.SetKeyValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.SetKeyValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::SetKeyValue
+ - portabledevicetypes/IPortableDeviceValues::SetKeyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.SetKeyValue
 ---
 
 # IPortableDeviceValues::SetKeyValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Adds a new <b>REFPROPERTYKEY</b> value (type VT_UNKNOWN) or overwrites an existing one.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param key 
+
 [in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-
 ### -param Value 
+
 [in]
 A <b>REFPROPERTYKEY</b> that specifies the new value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -92,31 +82,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If an existing value has the same key that is specified by the <i>key</i> parameter, it overwrites the existing value without any warning. The existing key memory is released appropriately.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getkeyvalue">IPortableDeviceValues::GetKeyValue</a>
- 
-
- 
 

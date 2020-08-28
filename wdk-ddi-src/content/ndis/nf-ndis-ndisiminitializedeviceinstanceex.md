@@ -8,9 +8,6 @@ ms.assetid: f65c2974-4bf4-4948-ac07-527e69c96303
 ms.date: 05/02/2018
 keywords: ["NdisIMInitializeDeviceInstanceEx function"]
 ms.keywords: NdisIMInitializeDeviceInstanceEx, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, ndis/NdisIMInitializeDeviceInstanceEx, netvista.ndisiminitializedeviceinstanceex
-f1_keywords:
- - "ndis/NdisIMInitializeDeviceInstanceEx"
- - "NdisIMInitializeDeviceInstanceEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIMInitializeDeviceInstanceEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIMInitializeDeviceInstanceEx
+ - ndis/NdisIMInitializeDeviceInstanceEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIMInitializeDeviceInstanceEx
 ---
 
 # NdisIMInitializeDeviceInstanceEx function
@@ -47,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisIMInitializeDeviceInstanceEx</b> function initiates the initialization operation for a virtual
   miniport and optionally sets up state information about the virtual miniport for subsequently bound
   protocol drivers.
 
-
 ## -parameters
 
-
-
-
 ### -param DriverHandle 
+
 [in]
 The miniport driver handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function returns at 
      <i>NdisMiniportDriverHandle</i> .
 
-
 ### -param DriverInstance 
+
 [in]
 A pointer to an NDIS_STRING type that describes a caller-initialized counted string in the
      system-default character set. The string contains the name of the registry key in which the driver
@@ -76,18 +72,15 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
      later, NDIS defines the NDIS_STRING type as a 
      <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
-
 ### -param DeviceContext 
+
 [in, optional]
 A pointer to caller-supplied memory to be set up with driver-defined device context information
      about the virtual miniport, which still higher level protocol drivers that subsequently bind themselves
      to this virtual miniport can use. This parameter can be <b>NULL</b> if the intermediate driver has no such
      device context area.
 
-
 ## -returns
-
-
 
 <b>NdisIMInitializeDeviceInstanceEx</b> can return either of the following:
 
@@ -121,14 +114,8 @@ NDIS initiated the initialization operation for the intermediate driver's virtua
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An NDIS intermediate driver should call 
     <b>NdisIMInitializeDeviceInstanceEx</b> from its 
@@ -195,13 +182,7 @@ After NDIS calls an intermediate driver's
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisimdeinitializedeviceinstance">
     NdisIMDeInitializeDeviceInstance</a> to reverse the initialization operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>
 
@@ -256,7 +237,4 @@ After NDIS calls an intermediate driver's
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

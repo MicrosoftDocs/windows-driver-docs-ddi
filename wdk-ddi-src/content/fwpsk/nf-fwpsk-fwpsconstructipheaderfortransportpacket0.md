@@ -8,9 +8,6 @@ ms.assetid: badb7e91-1d5f-42c3-973b-c7d756d24a01
 ms.date: 05/02/2018
 keywords: ["FwpsConstructIpHeaderForTransportPacket0 function"]
 ms.keywords: FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml
-f1_keywords:
- - "fwpsk/FwpsConstructIpHeaderForTransportPacket0"
- - "FwpsConstructIpHeaderForTransportPacket0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsConstructIpHeaderForTransportPacket0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsConstructIpHeaderForTransportPacket0
+ - fwpsk/FwpsConstructIpHeaderForTransportPacket0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsConstructIpHeaderForTransportPacket0
 ---
 
 # FwpsConstructIpHeaderForTransportPacket0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsConstructIpHeaderForTransportPacket0</b> function is called by a callout to construct a new IP header
@@ -55,10 +54,8 @@ The
 
 ## -parameters
 
-
-
-
 ### -param netBufferList 
+
 [in, out]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
@@ -66,7 +63,6 @@ A pointer to a
      construct a new IP header, locate the offset of the cloned NET_BUFFER_LIST structure at the beginning of
      the transport header. To rebuild a preexisting IP packet header, locate the offset at the beginning of
      the IP header.
-
 
 ### -param headerIncludeHeaderLength
 
@@ -82,8 +78,8 @@ If the NET_BUFFER_LIST structure pointed to by
      extension headers for an existing IPv6 header will be removed when this function is called, although
      IPv4 options will be preserved. For more information, see Remarks.
 
-
 ### -param addressFamily 
+
 [in]
 One of the following address families:
      
@@ -102,15 +98,15 @@ The IPv4 address family.
 
 The IPv6 address family.
 
-
 ### -param sourceAddress 
+
 [in]
 A pointer to the source IP address that will be part of the IP header to be constructed. For IPv4,
      the address is 4 bytes. For IPv6, the address is 16 bytes. The source address bytes are always in
      network byte order.
 
-
 ### -param remoteAddress 
+
 [in]
 A pointer to a buffer that specifies the remote IP address that will be part of the IP header to
      be constructed.
@@ -120,16 +116,16 @@ The buffer can contain an IPv4 address (4 bytes) or an IPv6 address (16 bytes), 
      be specified in network byte order. The IP version must match the 
      <i>addressFamily</i> parameter.
 
-
 ### -param nextProtocol 
+
 [in]
 Specifies the IPPROTO protocol type of the new IP header to be constructed. For more information
      on the IPPROTO enumeration, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet">AF_INET</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a>.
 
-
 ### -param endpointHandle 
+
 [in, optional]
 An optional handle that indicates the stack transport endpoint in the send data path into which
      the packet is to be injected. This endpoint handle is provided to a callout through the 
@@ -138,8 +134,8 @@ An optional handle that indicates the stack transport endpoint in the send data 
      FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
-
 ### -param controlData 
+
 [in, optional]
 An optional pointer to a buffer that contains socket control data specified by the 
      <b>WSASendMsg</b> function, which is described in the Microsoft Windows SDK documentation. For
@@ -159,29 +155,28 @@ If socket control data is not <b>NULL</b>, it must be deep-copied in the callout
      <b>controlData</b> buffer must be kept valid until the injection completion function is
      called.
 
-
 ### -param controlDataLength 
+
 [in]
 The length, in bytes, of the 
      <i>controlData</i> parameter.
 
-
 ### -param flags 
+
 [in]
 Reserved. Callout drivers must set this parameter to zero.
-
 
 ### -param reserved
 
 Reserved. Callout drivers must set this parameter to <b>NULL</b>.
 
-
 ### -param interfaceIndex 
+
 [in, optional]
 The index of the interface on which the original packet data was received. A callout driver should use the value of the interface index that is passed as one of the incoming data values to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function for this parameter. This parameter is optional and can be zero.
 
-
 ### -param subInterfaceIndex 
+
 [in, optional]
 The index of the subinterface on which the original packet data was received. A callout driver
      should use the value of the subinterface index that is passed as one of the incoming data values to its 
@@ -190,8 +185,6 @@ The index of the subinterface on which the original packet data was received. A 
      indicated. This parameter is optional and can be zero.
 
 ## -returns
-
-
 
 The 
      <b>FwpsConstructIpHeaderForTransportPacket0</b> function returns one of the following NTSTATUS
@@ -225,14 +218,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 From a net buffer list cloned at a WFP outbound transport layer (FWPS_LAYER_OUTBOUND_TRANSPORT_Xxx), 
     <b>FwpsConstructIpHeaderForTransportPacket0</b> constructs a new header for each net buffer that is part
@@ -306,13 +293,7 @@ Call
     support for the resulting net buffer list. Full checksums are calculated for upper-level protocols (TCP,
     UDP, and ICMP). The IP checksum is recalculated when the IP header is reconstructed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet">AF_INET</a>
 
@@ -341,7 +322,4 @@ Call
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

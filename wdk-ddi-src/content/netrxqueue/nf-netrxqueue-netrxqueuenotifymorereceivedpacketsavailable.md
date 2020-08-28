@@ -6,38 +6,38 @@ tech.root: netvista
 ms.assetid: 81463460-f494-4265-a557-134a50a91d52
 ms.date: 11/06/2018
 keywords: ["NetRxQueueNotifyMoreReceivedPacketsAvailable function"]
-f1_keywords:
- - "netrxqueue/NetRxQueueInitGetQueueId"
- - "NetRxQueueInitGetQueueId"
 ms.keywords: NetRxQueueNotifyMoreReceivedPacketsAvailable
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: <= HIGH_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-req.alt-api:
-req.alt-loc:
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- netrxqueue.h
-apiname: 
-- NetRxQueueNotifyMoreReceivedPacketsAvailable
+req.alt-api: 
+req.alt-loc: 
 targetos: Windows
+f1_keywords:
+ - NetRxQueueNotifyMoreReceivedPacketsAvailable
+ - netrxqueue/NetRxQueueNotifyMoreReceivedPacketsAvailable
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - netrxqueue.h
+apiname:
+ - NetRxQueueNotifyMoreReceivedPacketsAvailable
 ---
 
 # NetRxQueueNotifyMoreReceivedPacketsAvailable function
@@ -45,13 +45,12 @@ targetos: Windows
 
 ## -description
 
-
-
 The client driver calls **NetRxQueueNotifyMoreReceivedPacketsAvailable** to resume queue operations after NetAdapterCx calls the client's [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) event callback routine.
 
 ## -parameters
 
 ### -param RxQueue
+
 A handle to a net receive queue object.
 
 ## -remarks
@@ -67,3 +66,4 @@ The client should only call **NetRxQueueNotifyMoreReceivedPacketsAvailable** onc
 [*EVT_PACKET_QUEUE_ADVANCE*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance.md)
 
 [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.date: 04/20/2018
 keywords: ["MONITOR structure"]
 ms.keywords: "*LPMONITOR, LPMONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, MONITOR structure [Print Devices], _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
-f1_keywords:
- - "winsplp/MONITOR"
- - "MONITOR"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsplp.h
-api_name:
-- MONITOR
 targetos: Windows
 req.typenames: MONITOR, *LPMONITOR
+f1_keywords:
+ - _MONITOR
+ - winsplp/_MONITOR
+ - LPMONITOR
+ - winsplp/LPMONITOR
+ - MONITOR
+ - winsplp/MONITOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsplp.h
+api_name:
+ - MONITOR
 ---
 
 # _MONITOR structure
+
 
 ## -description
 
@@ -562,3 +567,4 @@ If necessary, the port monitor should prevent other processes from using the spe
 [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2)
 
 [MONITORUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui)
+

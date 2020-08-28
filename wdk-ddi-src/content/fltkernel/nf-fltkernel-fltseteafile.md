@@ -8,9 +8,6 @@ ms.assetid: 06427ef2-43e9-46c1-92e5-ab1b6146cc43
 ms.date: 04/16/2018
 keywords: ["FltSetEaFile function"]
 ms.keywords: FltApiRef_p_to_z_7e886e7f-a5f4-4a87-9322-7818e31c84af.xml, FltSetEaFile, FltSetEaFile function [Installable File System Drivers], fltkernel/FltSetEaFile, ifsk.fltseteafile
-f1_keywords:
- - "fltkernel/FltSetEaFile"
- - "FltSetEaFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetEaFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetEaFile
+ - fltkernel/FltSetEaFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetEaFile
 ---
 
 # FltSetEaFile function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
-<b>FltSetEaFile</b> sets extended-attribute (EA) values for a file. 
-
+<b>FltSetEaFile</b> sets extended-attribute (EA) values for a file.
 
 ## -parameters
 
-
-
-
 ### -param Instance 
-[in]
-Opaque instance pointer for the minifilter driver instance that the SetEa operation is to be sent to. The instance must be attached to the volume where the file resides. 
 
+[in]
+Opaque instance pointer for the minifilter driver instance that the SetEa operation is to be sent to. The instance must be attached to the volume where the file resides.
 
 ### -param FileObject 
-[in]
-File object pointer for the file. 
 
+[in]
+File object pointer for the file.
 
 ### -param EaBuffer 
-[in]
-Pointer to a caller-supplied, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set. 
 
+[in]
+Pointer to a caller-supplied, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set.
 
 ### -param Length 
-[in]
-Length, in bytes, of the buffer that the <i>EaBuffer</i> parameter points to. 
 
+[in]
+Length, in bytes, of the buffer that the <i>EaBuffer</i> parameter points to.
 
 ## -returns
-
-
 
 <b>FltSetEaFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -98,15 +91,8 @@ The instance or volume is being torn down. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>
 
@@ -117,7 +103,4 @@ The instance or volume is being torn down. This is an error code.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocheckeabuffervalidity">IoCheckEaBufferValidity</a>
- 
-
- 
 

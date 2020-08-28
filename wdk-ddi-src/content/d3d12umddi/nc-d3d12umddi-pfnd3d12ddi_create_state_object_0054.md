@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_STATE_OBJECT_0054"
- - "PFND3D12DDI_CREATE_STATE_OBJECT_0054"
+ - PFND3D12DDI_CREATE_STATE_OBJECT_0054
+ - d3d12umddi/PFND3D12DDI_CREATE_STATE_OBJECT_0054
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CREATE_STATE_OBJECT_0054 callback function
+
 
 ## -description
 

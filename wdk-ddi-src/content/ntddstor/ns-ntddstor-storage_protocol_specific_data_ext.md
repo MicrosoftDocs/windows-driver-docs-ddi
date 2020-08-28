@@ -8,38 +8,43 @@ ms.assetid: d033364c-19ba-4091-a9d2-e9afee5ab7dc
 ms.author: windowsdriverdev
 ms.date: 03/21/2019
 keywords: ["STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure"]
-f1_keywords:
- - "ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA_EXT"
- - "STORAGE_PROTOCOL_SPECIFIC_DATA_EXT"
-ms.keywords: STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT, 
+ms.keywords: STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddstor.h
-api_name: 
- - STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
-product: 
- - Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+ - ntddstor/_STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+ - PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+ - ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+ - STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+ - ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
+product:
+ - Windows
 ---
 
 # STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure
+
 
 ## -description
 
@@ -104,3 +109,4 @@ Reserved for future use; do not use.
 [IOCTL_STORAGE_SET_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_set_property)
 
 [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-ntddstor-_storage_protocol_specific_data.md)
+

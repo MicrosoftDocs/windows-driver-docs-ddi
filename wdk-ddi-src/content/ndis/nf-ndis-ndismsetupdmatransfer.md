@@ -8,9 +8,6 @@ ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.date: 05/02/2018
 keywords: ["NdisMSetupDmaTransfer macro"]
 ms.keywords: NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer
-f1_keywords:
- - "ndis/NdisMSetupDmaTransfer"
- - "NdisMSetupDmaTransfer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMSetupDmaTransfer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMSetupDmaTransfer
+ - ndis/NdisMSetupDmaTransfer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMSetupDmaTransfer
 ---
 
 # NdisMSetupDmaTransfer macro
@@ -46,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMSetupDmaTransfer</b> function sets up the host DMA controller for a DMA transfer.
 
-
 ## -parameters
-
-
-
 
 ### -param _S
 
@@ -75,7 +70,6 @@ An attempt to set up the DMA controller for the transfer has failed, either beca
        <i>MiniportDmaHandle</i> is currently in use transferring data or because the given 
        <i>Length</i> is invalid.
 
-
 ### -param _H
 
 The DMA handle returned by the 
@@ -87,13 +81,11 @@ The DMA handle returned by the
 A pointer to the buffer descriptor mapping the range of host memory from which or into which the
      data will be transferred.
 
-
 ### -param _O
 
 The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
      transfer should begin at the initial byte of the range specified at 
      <i>Buffer</i> .
-
 
 ### -param _L
 
@@ -102,16 +94,12 @@ The number of bytes of data to be transferred. The range specified by
      <i>Length</i> must be a proper subrange of that specified at 
      <i>Buffer</i> .
 
-
 ### -param _M_
 
 A boolean value that is <b>TRUE</b> for an outbound transfer from the system through the NIC. Otherwise,
      it is <b>FALSE</b>.
 
-
 ## -remarks
-
-
 
 Drivers of subordinate-DMA NICs call 
     <b>NdisMSetupDmaTransfer</b> in response to incoming send requests, for which the driver sets 
@@ -146,13 +134,7 @@ When the transfer is complete, the miniport driver must call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcompletedmatransfer">
     NdisMCompleteDmaTransfer</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">MiniportSendNetBufferLists</a>
 
@@ -163,7 +145,4 @@ When the transfer is complete, the miniport driver must call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 761f1ab6-75e6-4c40-b79c-01f2e92df495
 ms.date: 05/02/2018
 keywords: ["RILUICCCARDINFO structure"]
 ms.keywords: "*LPRILUICCCARDINFO, RILUICCCARDINFO, RILUICCCARDINFO structure [Network Drivers Starting with Windows Vista], netvista.riluicccardinfo, ntddrilapitypes/RILUICCCARDINFO"
-f1_keywords:
- - "ntddrilapitypes/RILUICCCARDINFO"
- - "RILUICCCARDINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCCARDINFO
 targetos: Windows
 req.typenames: RILUICCCARDINFO, *LPRILUICCCARDINFO
+f1_keywords:
+ - RILUICCCARDINFO
+ - ntddrilapitypes/RILUICCCARDINFO
+ - LPRILUICCCARDINFO
+ - ntddrilapitypes/LPRILUICCCARDINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCCARDINFO
 ---
 
 # RILUICCCARDINFO structure
@@ -46,29 +48,19 @@ req.typenames: RILUICCCARDINFO, *LPRILUICCCARDINFO
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field fIsVirtualCard
-
 
 ### -field IccId
 
-
 ### -field dwNumApps
-
 
 ### -field AppInfo
 

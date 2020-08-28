@@ -8,9 +8,6 @@ ms.assetid: 29BAAEF9-5B69-4723-BC23-A8B668E2A867
 ms.date: 05/03/2018
 keywords: ["IDebugPlmClient3::QueryPlmPackageWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],QueryPlmPackageWide method, IDebugPlmClient3.QueryPlmPackageWide, IDebugPlmClient3::QueryPlmPackageWide, QueryPlmPackageWide, QueryPlmPackageWide method [Windows Debugging], QueryPlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::QueryPlmPackageWide, debugger.idebugplmclient3_queryplmpackagewide
-f1_keywords:
- - "dbgeng/IDebugPlmClient3.QueryPlmPackageWide"
- - "IDebugPlmClient3.QueryPlmPackageWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugPlmClient3.QueryPlmPackageWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugPlmClient3::QueryPlmPackageWide
+ - dbgeng/IDebugPlmClient3::QueryPlmPackageWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugPlmClient3.QueryPlmPackageWide
 ---
 
 # IDebugPlmClient3::QueryPlmPackageWide
@@ -46,46 +46,30 @@ req.typenames:
 
 ## -description
 
-
 Query a Process Lifecycle Management (PLM) package.
-
 
 ## -parameters
 
-
-
-
 ### -param Server 
+
 [in]
 The server of the package.
 
-
 ### -param PackageFullName 
+
 [in]
 A pointer to the package name.
 
-
 ### -param Stream 
+
 [in]
 A pointer to an output stream for results.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugplmclient3">IDebugPlmClient3</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: C19190A3-57F9-4482-A550-045805734909
 ms.date: 04/30/2018
 keywords: ["PsTerminateServerSilo function"]
 ms.keywords: PsTerminateServerSilo, PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], kernel.psterminateserversilo, ntddk/PsTerminateServerSilo
-f1_keywords:
- - "ntddk/PsTerminateServerSilo"
- - "PsTerminateServerSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsTerminateServerSilo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsTerminateServerSilo
+ - ntddk/PsTerminateServerSilo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsTerminateServerSilo
 ---
 
 # PsTerminateServerSilo function
@@ -46,34 +46,22 @@ req.typenames:
 
 ## -description
 
-
 This routine terminates the specified silo.
-
 
 ## -parameters
 
-
-
-
 ### -param ServerSilo 
+
 [in]
 A pointer to the silo being terminated.
-
 
 ### -param ExitStatus
 
 <p>The exit status for the silo.</p>
 
-
-
-
 ## -remarks
-
-
 
 This routine can be called within or from outside a silo context.
     Note that this is different from a BugCheck; this routine will return to
     the caller.
-
-
 

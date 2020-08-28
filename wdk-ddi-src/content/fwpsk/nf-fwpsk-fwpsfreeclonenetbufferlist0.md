@@ -8,9 +8,6 @@ ms.assetid: 0d0dea63-de0d-4421-b123-ce31ac6af1d9
 ms.date: 05/02/2018
 keywords: ["FwpsFreeCloneNetBufferList0 function"]
 ms.keywords: FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFreeCloneNetBufferList0, netvista.fwpsfreeclonenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml
-f1_keywords:
- - "fwpsk/FwpsFreeCloneNetBufferList0"
- - "FwpsFreeCloneNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsFreeCloneNetBufferList0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsFreeCloneNetBufferList0
+ - fwpsk/FwpsFreeCloneNetBufferList0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsFreeCloneNetBufferList0
 ---
 
 # FwpsFreeCloneNetBufferList0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsFreeCloneNetBufferList0</b> function frees a clone 
@@ -58,25 +57,20 @@ The
 
 ## -parameters
 
-
-
-
 ### -param netBufferList 
+
 [in, out]
 A pointer to the clone 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      freed.
 
-
 ### -param freeCloneFlags 
+
 [in]
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
-
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsFreeCloneNetBufferList0</b> function to free a clone 
@@ -84,13 +78,7 @@ A callout driver calls the
     previously allocated by a call to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
    FwpsAllocateCloneNetBufferList0</a>
@@ -98,7 +86,4 @@ A callout driver calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
- 
-
- 
 

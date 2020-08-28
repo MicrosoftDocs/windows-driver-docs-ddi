@@ -6,47 +6,43 @@ tech.root: netvista
 ms.assetid: bc15c768-b5ba-48b0-ad78-fb33cc577407
 ms.date: 07/27/2018
 keywords: ["NET_ADAPTER_DATAPATH_CALLBACKS_INIT function"]
-f1_keywords:
- - "netadapter/NET_ADAPTER_DATAPATH_CALLBACKS_INIT"
- - "NET_ADAPTER_DATAPATH_CALLBACKS_INIT"
 ms.keywords: NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - NET_ADAPTER_DATAPATH_CALLBACKS_INIT
+ - netadapter/NET_ADAPTER_DATAPATH_CALLBACKS_INIT
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 ---
 
 # NET_ADAPTER_DATAPATH_CALLBACKS_INIT function
 
 
 ## -description
-
-
 
 The **NET_ADAPTER_DATAPATH_CALLBACKS_INIT** method initializes a [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure.
 
@@ -62,7 +58,7 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_CREATE_
 
 ### -param EvtAdapterCreateRxQueue
 
-A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_CREATE_RXQUEUE*](nc-netadapter-evt_net_adapter_create_rxqueue.md) callback function. 
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_CREATE_RXQUEUE*](nc-netadapter-evt_net_adapter_create_rxqueue.md) callback function.
 
 ## -remarks
 
@@ -73,3 +69,4 @@ Call this method to initialize the [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netad
 [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md)
 
 [**NetAdapterInitSetDatapathCallbacks**](nf-netadapter-netadapterinitsetdatapathcallbacks.md)
+

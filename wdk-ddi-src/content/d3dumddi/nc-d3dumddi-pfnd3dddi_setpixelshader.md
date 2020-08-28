@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetPixelShader"
- - "SetPixelShader"
+ - PFND3DDDI_SETPIXELSHADER
+ - d3dumddi/PFND3DDDI_SETPIXELSHADER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETPIXELSHADER callback function
+
 
 ## -description
 

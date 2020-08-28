@@ -8,9 +8,6 @@ ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
 ms.date: 02/15/2018
 keywords: ["GNSS_GEOFENCE_STATE enumeration"]
 ms.keywords: GNSS_GEOFENCE_STATE, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GeofenceState_Entered, GNSS_GeofenceState_Exited, GNSS_GeofenceState_Unknown, gnss.gnss_geofence_state, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Unknown
-f1_keywords:
- - "gnssdriver/GNSS_GEOFENCE_STATE"
- - "GNSS_GEOFENCE_STATE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_GEOFENCE_STATE
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_STATE
+f1_keywords:
+ - GNSS_GEOFENCE_STATE
+ - gnssdriver/GNSS_GEOFENCE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_GEOFENCE_STATE
 ---
 
 # GNSS_GEOFENCE_STATE enumeration
@@ -46,33 +46,23 @@ req.typenames: GNSS_GEOFENCE_STATE
 
 ## -description
 
-
 GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
 
-
 ## -enum-fields
-
-
-
 
 ### -field GNSS_GeofenceState_Unknown
 
 The state of the geofence is unknown.
 
-
 ### -field GNSS_GeofenceState_Entered
 
 The geofence has been entered.
-
 
 ### -field GNSS_GeofenceState_Exited
 
 The geofence has been exited.
 
-
 ## -remarks
-
-
 
 The following bitmasks are used by the HLOS to request state-change alerts for geofences:
 
@@ -125,5 +115,4 @@ The GNSS adapter will issue GNSS_ResetGeofenceTracking commands and re-add curre
 
 </li>
 </ul>
-
 

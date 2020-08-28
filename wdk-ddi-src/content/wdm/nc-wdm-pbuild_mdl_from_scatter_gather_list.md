@@ -8,9 +8,6 @@ ms.assetid: 2bf190a3-cc42-42b4-b687-cd66021e66c2
 ms.date: 04/30/2018
 keywords: ["PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback function"]
 ms.keywords: BuildMdlFromScatterGatherList, BuildMdlFromScatterGatherList callback function [Kernel-Mode Driver Architecture], PBUILD_MDL_FROM_SCATTER_GATHER_LIST, PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback, kdma_8a1b5bc2-b0ff-41ca-b352-647a0e7b4a79.xml, kernel.buildmdlfromscattergatherlist, wdm/BuildMdlFromScatterGatherList
-f1_keywords:
- - "wdm/BuildMdlFromScatterGatherList"
- - "BuildMdlFromScatterGatherList"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdm.h
-api_name:
-- BuildMdlFromScatterGatherList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PBUILD_MDL_FROM_SCATTER_GATHER_LIST
+ - wdm/PBUILD_MDL_FROM_SCATTER_GATHER_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdm.h
+api_name:
+ - BuildMdlFromScatterGatherList
 ---
 
 # PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback function
@@ -46,38 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>BuildMdlFromScatterGatherList</b> routine builds an MDL from a scatter/gather list allocated by the system.
 <div class="alert"><b>Note</b>  This routine is reserved for system use.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param DmaAdapter 
+
 [in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-
 ### -param ScatterGather 
+
 [in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine.
 
-
 ### -param OriginalMdl 
+
 [in]
 Pointer to the original MDL that the driver used to build the scatter/gather list.
 
-
 ### -param TargetMdl 
+
 [out]
 Pointer to a variable the routine uses to return the MDL created to hold the buffer described by the scatter/gather list. The value returned can be the same as <i>OriginalMdl</i>.
 
-
 ## -returns
-
-
 
 <b>BuildMdlFromScatterGatherList</b> returns one of the following status codes:
 
@@ -131,14 +125,8 @@ The system has already created a new MDL for the memory locations in the scatter
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>BuildMdlFromScatterGatherList</b>
            is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a 
@@ -147,13 +135,7 @@ The system has already created a new MDL for the memory locations in the scatter
 
 When a driver creates a scatter/gather list to write to a device, the system can make a copy of the data to be written, and use that copy to perform the DMA operation. Use this routine to access the memory locations in the scatter/gather list, regardless of whether those locations are a copy.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list">BuildScatterGatherList</a>
 
@@ -176,7 +158,4 @@ When a driver creates a scatter/gather list to write to a device, the system can
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
- 
-
- 
 

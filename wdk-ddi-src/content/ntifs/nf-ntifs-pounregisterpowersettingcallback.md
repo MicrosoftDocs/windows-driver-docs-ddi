@@ -8,9 +8,6 @@ ms.assetid: 900db70b-4cdb-41e7-a4cf-0dc435b9fe7d
 ms.date: 04/30/2018
 keywords: ["PoUnregisterPowerSettingCallback function"]
 ms.keywords: PoUnregisterPowerSettingCallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.pounregisterpowersettingcallback, portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, wdm/PoUnregisterPowerSettingCallback
-f1_keywords:
- - "ntifs/PoUnregisterPowerSettingCallback"
- - "PoUnregisterPowerSettingCallback"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoUnregisterPowerSettingCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoUnregisterPowerSettingCallback
+ - ntifs/PoUnregisterPowerSettingCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoUnregisterPowerSettingCallback
 ---
 
 # PoUnregisterPowerSettingCallback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting callback routine that a driver previously registered by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterpowersettingcallback">PoRegisterPowerSettingCallback</a> routine.
-
 
 ## -parameters
 
-
-
-
 ### -param Handle 
+
 [in, out]
 A handle to a callback routine that a driver registered by calling <b>PoRegisterPowerSettingCallback</b>.
 
-
 ## -returns
-
-
 
 <b>PoUnregisterPowerSettingCallback</b> returns one of the following:
 
@@ -94,29 +87,14 @@ The <i>Handle</i> value is not a valid handle to a power setting callback routin
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A driver calls <b>PoUnregisterPowerSettingCallback</b> to unregister a power setting callback routine that the driver previously registered by calling <b>PoRegisterPowerSettingCallback</b>.
 
 A driver must call <b>PoUnregisterPowerSettingCallback</b> to unregister each callback routine that it previously registered. All callback routines registered by a driver should be unregistered in the <i>Unload</i> routine of the driver.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterpowersettingcallback">PoRegisterPowerSettingCallback</a>
- 
-
- 
 

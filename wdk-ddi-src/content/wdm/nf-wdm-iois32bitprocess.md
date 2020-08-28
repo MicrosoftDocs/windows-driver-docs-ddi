@@ -8,9 +8,6 @@ ms.assetid: a2de12d5-ed9e-42ac-b3e8-a3a567e4ab4a
 ms.date: 04/30/2018
 keywords: ["IoIs32bitProcess function"]
 ms.keywords: IoIs32bitProcess, IoIs32bitProcess routine [Kernel-Mode Driver Architecture], k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, kernel.iois32bitprocess, wdm/IoIs32bitProcess
-f1_keywords:
- - "wdm/IoIs32bitProcess"
- - "IoIs32bitProcess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoIs32bitProcess
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoIs32bitProcess
+ - wdm/IoIs32bitProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoIs32bitProcess
 ---
 
 # IoIs32bitProcess function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoIs32bitProcess</b> routine checks whether the originator of the current I/O request is a 32-bit user-mode application.
-
 
 ## -parameters
 
-
-
-
 ### -param Irp 
+
 [in, optional]
 Optional pointer to the IRP containing the current I/O request. Note that this must be the original IRP that was issued by the I/O manager. If the caller is a fast I/O dispatch routine (and thus there is no IRP), the caller should set this parameter to <b>NULL</b>.
 
-
 ## -returns
 
-
-
-<b>IoIs32bitProcess</b> returns <b>TRUE</b> if the originator of the current I/O request is a 32-bit user-mode process. Otherwise, it returns <b>FALSE</b>. 
-
-
-
+<b>IoIs32bitProcess</b> returns <b>TRUE</b> if the originator of the current I/O request is a 32-bit user-mode process. Otherwise, it returns <b>FALSE</b>.
 
 ## -remarks
-
-
 
 Drivers call <b>IoIs32bitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver.
 
@@ -80,6 +68,4 @@ If the <i>Irp</i> parameter is <b>NULL</b>, and the caller is running in the con
 If the <i>Irp</i> parameter is not <b>NULL</b>, it must point to an IRP that was issued by the I/O manager on behalf of a user-mode process. <b>IoIs32bitProcess</b> cannot be used to check driver-allocated IRPs. Driver-allocated IRPs, as well as kernel-mode drivers, are assumed to be 64-bit-ready.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/programming-issues-for-64-bit-drivers">Programming Issues for 64-Bit Drivers</a>.
-
-
 

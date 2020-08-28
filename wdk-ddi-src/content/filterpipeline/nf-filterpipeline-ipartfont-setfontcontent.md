@@ -8,9 +8,6 @@ ms.assetid: bd77d32f-97fd-4f80-945d-9fff7553fcc5
 ms.date: 04/20/2018
 keywords: ["IPartFont::SetFontContent"]
 ms.keywords: IPartFont interface [Print Devices],SetFontContent method, IPartFont.SetFontContent, IPartFont::SetFontContent, SetFontContent, SetFontContent method [Print Devices], SetFontContent method [Print Devices],IPartFont interface, filterpipeline/IPartFont::SetFontContent, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, print.ipartfont_setfontcontent
-f1_keywords:
- - "filterpipeline/IPartFont.SetFontContent"
- - "IPartFont.SetFontContent"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPartFont.SetFontContent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPartFont::SetFontContent
+ - filterpipeline/IPartFont::SetFontContent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPartFont.SetFontContent
 ---
 
 # IPartFont::SetFontContent
@@ -46,32 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetFontContent</b> method sets the content of the font.
-
 
 ## -parameters
 
-
-
-
 ### -param pContentType
-
-
-
-
-
 
 #### - contentType [in]
 
 The type of the content for the font to be set.
 
-
 ## -returns
 
-
-
 <b>SetFontContent</b> returns an <b>HRESULT</b> value.
-
-
 

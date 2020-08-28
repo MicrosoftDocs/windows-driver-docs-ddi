@@ -8,9 +8,6 @@ ms.assetid: 795dcbed-e0ce-444d-a6a8-95d0bc658f5b
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOEx2::PerformIO"]
 ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],PerformIO method, IWDTFSimpleIOEx2.PerformIO, IWDTFSimpleIOEx2::PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO, PerformIO method [Windows Device Testing Framework], PerformIO method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_performio, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOEx2.PerformIO"
- - "IWDTFSimpleIOEx2.PerformIO"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOEx2.PerformIO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOEx2::PerformIO
+ - wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOEx2.PerformIO
 ---
 
 # IWDTFSimpleIOEx2::PerformIO
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 Performs a small amount of simple I/O to the device.
-
 
 ## -parameters
 
-
-
-
 ### -param pResult 
+
 [out, retval]
 True if the operation succeeds; otherwise, false.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
@@ -70,26 +63,12 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 <h3>C# and VB.NET</h3>
 True if the operation succeeds; otherwise, false.
 
-
-
-
 ## -remarks
-
-
 
 You should call the <b>PerformIO</b> method only after calling 
 the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleioex2-open">IWDTFSimpleIOEx2::Open</a> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleioex2">IWDTFSimpleIOEx2</a>
- 
-
- 
 

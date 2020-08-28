@@ -8,9 +8,6 @@ ms.assetid: 40f6fd0b-8c18-408b-b1f7-5b280b9aa67d
 ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER IOCTL"]
 ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_write_buffer, i8042ref_660499b1-32f5-4343-b0a2-176d03d0270c.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
-f1_keywords:
- - "ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER"
- - "IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdd8042.h
-api_name:
-- IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
+ - ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdd8042.h
+api_name:
+ - IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
 ---
 
 # IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER IOCTL
@@ -46,57 +46,31 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER request writes data to the i8042 port controller to control operation of a mouse device. An upper-level filter driver can use this request to control the operation of a mouse.
 
 I8042prt synchronizes write buffer requests with one another. I8042prt synchronizes the actual write of data with the mouse ISR.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> points to a client-allocated buffer that supplies the data to write to an i8042 port controller.
 
-
 ### -input-buffer-length
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is set to the number of bytes in the input buffer, which must be greater than 1.
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
 
 None
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

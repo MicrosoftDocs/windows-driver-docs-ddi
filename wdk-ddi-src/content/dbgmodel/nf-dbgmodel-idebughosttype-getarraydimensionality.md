@@ -5,38 +5,38 @@ description: The GetArrayDimensionality method returns the number of dimensions 
 ms.assetid: 1fab98d5-4221-46f9-aa04-29112930747b
 ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetArrayDimensionality"]
-f1_keywords:
- - "dbgmodel/IDebugHostType.GetArrayDimensionality"
- - "IDebugHostType.GetArrayDimensionality"
 ms.keywords: IDebugHostType::GetArrayDimensionality, GetArrayDimensionality, IDebugHostType.GetArrayDimensionality, IDebugHostType::GetArrayDimensionality, IDebugHostType.GetArrayDimensionality
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostType.GetArrayDimensionality
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostType::GetArrayDimensionality
+ - dbgmodel/IDebugHostType::GetArrayDimensionality
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostType.GetArrayDimensionality
 ---
 
 # IDebugHostType::GetArrayDimensionality
@@ -44,15 +44,16 @@ ms.custom: RS5
 
 ## -description
 
-The GetArrayDimensionality method returns the number of dimensions that the array is indexed in. For C style arrays, the value returned here will always be 1. 
+The GetArrayDimensionality method returns the number of dimensions that the array is indexed in. For C style arrays, the value returned here will always be 1.
 
 ## -parameters
 
 ### -param arrayDimensionality
+
 The number of dimensions that the array is indexed in will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -72,3 +73,4 @@ if (SUCCEEDED(spType->GetArrayDimensionality(&arrayDims)))
 ## -see-also
 
 [IDebugHostType interface](nn-dbgmodel-idebughosttype.md)
+

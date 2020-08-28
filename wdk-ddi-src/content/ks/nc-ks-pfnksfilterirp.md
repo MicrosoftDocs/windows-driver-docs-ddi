@@ -8,9 +8,6 @@ ms.assetid: c654e822-a932-4da0-ab11-4669bd8ba4b4
 ms.date: 04/23/2018
 keywords: ["PFNKSFILTERIRP callback function"]
 ms.keywords: AVStrMiniFilterClose, AVStrMiniFilterCreate, MyAVStrMiniFilterIRPHandler, MyAVStrMiniFilterIRPHandler routine [Streaming Media Devices], PFNKSFILTERIRP, avstclbk_76b73509-587e-47bd-9de7-92eac4237706.xml, ks/MyAVStrMiniFilterIRPHandler, stream.avstrminifiltercreate
-f1_keywords:
- - "ks/MyAVStrMiniFilterIRPHandler"
- - "MyAVStrMiniFilterIRPHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- MyAVStrMiniFilterIRPHandler
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSFILTERIRP
+ - ks/PFNKSFILTERIRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - MyAVStrMiniFilterIRPHandler
 ---
 
 # PFNKSFILTERIRP callback function
 
 
 ## -description
-
 
 An AVStream minidriver's <i>AVStrMiniFilterCreate</i> routine is called when a filter receives an IRP. 
 
@@ -56,35 +55,23 @@ An AVStream minidriver's <i>AVStrMiniFilterCreate</i> routine is called when a f
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a>
 
-
-
 ## -parameters
 
-
-
-
 ### -param Filter 
+
 [in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>.
 
-
 ### -param Irp 
+
 [in]
 Pointer to the IRP for <i>Filter</i>.
 
-
 ## -returns
-
-
 
 If the routine succeeds, return STATUS_SUCCESS or the error code.
 
-
-
-
 ## -remarks
-
-
 
 <table>
 <tr>
@@ -125,15 +112,8 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a>
 
@@ -144,7 +124,4 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
- 
-
- 
 

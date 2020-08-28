@@ -8,9 +8,6 @@ ms.assetid: 32596330-6cd9-4f82-9140-7f9a26cf7932
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest2::RetrieveInputMemory"]
 ms.keywords: IWDFIoRequest2 interface,RetrieveInputMemory method, IWDFIoRequest2.RetrieveInputMemory, IWDFIoRequest2::RetrieveInputMemory, RetrieveInputMemory, RetrieveInputMemory method, RetrieveInputMemory method,IWDFIoRequest2 interface, UMDFRequestObjectRef_48cb0129-5727-4321-a4c5-77ae12fd685b.xml, umdf.iwdfiorequest2_retrieveinputmemory, wdf.iwdfiorequest2_retrieveinputmemory, wudfddi/IWDFIoRequest2::RetrieveInputMemory
-f1_keywords:
- - "wudfddi/IWDFIoRequest2.RetrieveInputMemory"
- - "IWDFIoRequest2.RetrieveInputMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest2.RetrieveInputMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest2::RetrieveInputMemory
+ - wudfddi/IWDFIoRequest2::RetrieveInputMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest2.RetrieveInputMemory
 ---
 
 # IWDFIoRequest2::RetrieveInputMemory
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveInputMemory</b> method retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface of a framework memory object that represents an I/O request's input buffer.
 
-
 ## -parameters
 
-
-
-
 ### -param Memory 
+
 [out]
 The address of a location that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface of a UMDF memory object.
 
-
 ## -returns
-
-
 
 <b>RetrieveInputMemory</b> returns S_OK if the operation succeeds. Otherwise, this method can return the following value:
 
@@ -100,16 +93,7 @@ Not enough memory is available to retrieve the buffer. The driver should complet
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
-
-
-
-
 ## -remarks
-
-
 
 A request's input buffer contains information, such as data to be written to a disk, that the originator of the request supplied. Your driver can call <b>RetrieveInputMemory</b> to obtain the input buffer for a write request or a device I/O control request, but not for a read request (because read requests do not provide input data).
 
@@ -177,12 +161,7 @@ Exit:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
 
@@ -205,7 +184,4 @@ Exit:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a>
- 
-
- 
 

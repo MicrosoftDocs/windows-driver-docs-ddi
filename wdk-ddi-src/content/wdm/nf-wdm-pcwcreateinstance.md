@@ -8,9 +8,6 @@ ms.assetid: ed9bd8fa-a6e6-465a-8415-3e9c19233419
 ms.date: 07/28/2020
 keywords: ["PcwCreateInstance function"]
 ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance
-f1_keywords:
- - "wdm/PcwCreateInstance"
- - "PcwCreateInstance"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PcwCreateInstance
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcwCreateInstance
+ - wdm/PcwCreateInstance
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PcwCreateInstance
 ---
 
 # PcwCreateInstance function
+
 
 ## -description
 
@@ -133,3 +134,4 @@ The CTRPP-generated Create function will be named *Prefix*Create*Counterset*. *P
 [PcwCloseInstance function](nf-wdm-pcwcloseinstance.md)
 
 [PcwRegister function](nf-wdm-pcwregister.md)
+

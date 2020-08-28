@@ -8,9 +8,6 @@ ms.assetid: 811cb070-9cbe-4906-9db0-ee8316cc18c9
 ms.date: 02/26/2018
 keywords: ["IImpersonateCallback interface"]
 ms.keywords: IImpersonateCallback, IImpersonateCallback interface, IImpersonateCallback interface,described, UMDFRequestObjectRef_a92c4df0-b16b-4fc0-b858-4b2cdd59c3b2.xml, umdf.iimpersonatecallback, wdf.iimpersonatecallback, wudfddi/IImpersonateCallback
-f1_keywords:
- - "wudfddi/IImpersonateCallback"
- - "IImpersonateCallback"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wudfddi.h
-api_name:
-- IImpersonateCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IImpersonateCallback
+ - wudfddi/IImpersonateCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wudfddi.h
+api_name:
+ - IImpersonateCallback
 ---
 
 # IImpersonateCallback interface
@@ -46,13 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IImpersonateCallback</b> interface contains a method that handles impersonation.
 
-A driver registers the <b>IImpersonateCallback</b> interface when the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a> method. 
-
+A driver registers the <b>IImpersonateCallback</b> interface when the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a> method.
 
 ## -inheritance
 

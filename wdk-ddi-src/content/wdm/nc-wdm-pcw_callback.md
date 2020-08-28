@@ -8,9 +8,6 @@ ms.assetid: 5058fc17-1016-45bc-a6ea-5e2458824e7b
 ms.date: 07/28/2020
 keywords: ["PCW_CALLBACK callback function"]
 ms.keywords: PCW_CALLBACK, PCW_CALLBACK callback, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback
-f1_keywords:
- - "wdm/PcwCallback"
- - "PcwCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- PcwCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCW_CALLBACK
+ - wdm/PCW_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - PcwCallback
 ---
 
 # PCW_CALLBACK callback function
+
 
 ## -description
 
@@ -336,3 +337,4 @@ In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` f
 [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
 
 [Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623)
+

@@ -8,9 +8,6 @@ ms.assetid: 6853b73e-5516-485e-ade4-54b7faf6bb1d
 ms.date: 04/16/2018
 keywords: ["PMRX_SRVCALL_WINNER_NOTIFY callback function"]
 ms.keywords: MRxSrvCallWinnerNotify, MRxSrvCallWinnerNotify routine [Installable File System Drivers], PMRX_SRVCALL_WINNER_NOTIFY, ifsk.mrxsrvcallwinnernotify, mrx/MRxSrvCallWinnerNotify, mrxref_32054fb8-84ca-407a-ab65-90feee16041d.xml
-f1_keywords:
- - "mrx/MRxSrvCallWinnerNotify"
- - "MRxSrvCallWinnerNotify"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MRxSrvCallWinnerNotify
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_SRVCALL_WINNER_NOTIFY
+ - mrx/PMRX_SRVCALL_WINNER_NOTIFY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MRxSrvCallWinnerNotify
 ---
 
 # PMRX_SRVCALL_WINNER_NOTIFY callback function
@@ -46,31 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. 
-
+The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request.
 
 ## -parameters
 
-
-
-
 ### -param SrvCall
 
-
 ### -param ThisMinirdrIsTheWinner 
+
 [in]
 A Boolean value that indicates that this network mini-redirector was chosen.
 
-
 ### -param RecommunicateContext
-
-
-
-
-
-
-
 
 #### - pSrvCall [in, out]
 
@@ -81,19 +68,11 @@ A pointer to the SRV_CALL structure.
 
 A pointer to an SRV_CALL structure that is created by the network mini-redirector.
 
-
 ## -returns
 
-
-
-<i>MRxSmbSrvCallWinnerNotify</i> returns STATUS_SUCCESS on success. 
-
-
-
+<i>MRxSmbSrvCallWinnerNotify</i> returns STATUS_SUCCESS on success.
 
 ## -remarks
-
-
 
 <i>MRxSrvCallWinnerNotify</i> was originally designed to be called by RDBSS to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. The chosen network mini-redirector is expected to create the SRV_CALL structure and establish a connection with the server.
 
@@ -101,15 +80,9 @@ The network mini-redirector should complete the context for the SRV_CALL structu
 
 Under the current implementation of RDBSS, each network mini-redirector has its own copy of RDBSS, so there are no competing network redirectors at the RDBSS layer. All network mini-redirectors will receive a call to <i>MRxSrvCallWinnerNotify</i> with the <i>ThisMinirdrIsTheWinner</i> parameter set to <b>TRUE</b> after receiving a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a> to create the SRV_CALL structure. 
 
-When multiple redirectors are installed for handling the same UNC namespace, the redirector to service a request is chosen by multiple UNC provider (MUP) based on the order of redirectors specified in the registry. 
-
-
-
+When multiple redirectors are installed for handling the same UNC namespace, the redirector to service a request is chosen by multiple UNC provider (MUP) based on the order of redirectors specified in the registry.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a>
 
@@ -136,7 +109,4 @@ When multiple redirectors are installed for handling the same UNC namespace, the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a>
- 
-
- 
 

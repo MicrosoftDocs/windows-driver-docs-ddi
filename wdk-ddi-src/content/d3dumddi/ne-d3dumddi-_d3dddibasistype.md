@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDIBASISTYPE"
- - "_D3DDDIBASISTYPE"
+ - _D3DDDIBASISTYPE
+ - d3dumddi/_D3DDDIBASISTYPE
+ - D3DDDIBASISTYPE
+ - d3dumddi/D3DDDIBASISTYPE
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDIBASISTYPE enumeration
+
 
 ## -description
 

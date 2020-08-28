@@ -8,9 +8,6 @@ ms.assetid: e2c1f849-daf0-479c-9f1d-906149ac550e
 ms.date: 05/02/2018
 keywords: ["NdisCmMakeCallComplete function"]
 ms.keywords: NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete
-f1_keywords:
- - "ndis/NdisCmMakeCallComplete"
- - "NdisCmMakeCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmMakeCallComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmMakeCallComplete
+ - ndis/NdisCmMakeCallComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmMakeCallComplete
 ---
 
 # NdisCmMakeCallComplete function
@@ -47,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmMakeCallComplete</b> returns the final status of a client's request, for which the call manager
   previously returned NDIS_STATUS_PENDING, to make an outgoing call.
 
-
 ## -parameters
 
-
-
-
 ### -param Status 
+
 [in]
 Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
      any CM-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
-
 ### -param NdisVcHandle 
+
 [in]
 Specifies the handle to the client-created VC, which the call manager originally obtained as an
      input parameter to its 
@@ -73,34 +69,31 @@ Specifies the handle to the client-created VC, which the call manager originally
      <i>CallMgrVcContext</i> passed in to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a> function.
 
-
 ### -param NdisPartyHandle 
+
 [in, optional]
 Specifies the handle to the initial party on the client-created multipoint VC, which the call
      manager obtained as an input parameter to its 
      <i>ProtocolCmMakeCall</i> function. If the given 
      <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
 
-
 ### -param CallMgrPartyContext 
+
 [in, optional]
 Specifies the CM-supplied handle to a caller-allocated resident context area, in which the CM will
      maintain per-party state information, or <b>NULL</b> if 
      <i>NdisPartyHandle</i> is <b>NULL</b>. For a multipoint VC, NDIS passes this CM-supplied 
      <i>CallManagerPartyContext</i> handle in all subsequent calls to the ProtocolCm<i>Xxx</i> functions that concern this party. Otherwise, NDIS ignores this parameter.
 
-
 ### -param CallParameters 
+
 [in]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that specifies the call
      parameters set up for this connection if 
      <i>Status</i> is NDIS_STATUS_SUCCESS.
 
-
 ## -remarks
-
-
 
 A stand-alone call manager should call 
     <b>NdisMCmMakeCallComplete</b> with NDIS_STATUS_SUCCESS only if the underlying miniport driver is ready to
@@ -150,13 +143,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmmakecallcomplete">
     NdisMCmMakeCallComplete</a> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -184,7 +171,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

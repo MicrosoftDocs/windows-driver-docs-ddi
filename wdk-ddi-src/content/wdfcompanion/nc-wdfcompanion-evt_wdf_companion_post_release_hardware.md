@@ -8,9 +8,6 @@ ms.assetid: ebba5344-dc3a-443f-a080-991dd784eb54
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback function"]
 ms.keywords: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback function, wdf.evt_wdf_companion_post_release_hardware, wdfcompanion/EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
-f1_keywords:
- - "wdfcompanion/EVT_WDF_COMPANION_POST_RELEASE_HARDWARE"
- - "EVT_WDF_COMPANION_POST_RELEASE_HARDWARE"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdfcompanion.h
-api_name:
-- EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
+ - wdfcompanion/EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdfcompanion.h
+api_name:
+ - EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 ---
 
 # EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback function
@@ -46,18 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
-
-
-
 ### -param Companion 
+
 [in]
 
 ### -param ResourcesTranslated 
+
 [in]
+

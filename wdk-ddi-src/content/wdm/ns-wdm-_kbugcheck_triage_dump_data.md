@@ -7,39 +7,44 @@ ms.assetid: 661d08be-f322-43ad-939c-8a4441d4d312
 ms.author: windowsdriverdev
 ms.date: 06/03/2019
 keywords: ["KBUGCHECK_TRIAGE_DUMP_DATA structure"]
-f1_keywords:
- - "wdm/_KBUGCHECK_SECONDARY_DUMP_DATA_EX"
- - "_KBUGCHECK_SECONDARY_DUMP_DATA_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _KBUGCHECK_TRIAGE_DUMP_DATA, KBUGCHECK_TRIAGE_DUMP_DATA, *PKBUGCHECK_TRIAGE_DUMP_DATA, 
+ms.keywords: _KBUGCHECK_TRIAGE_DUMP_DATA, KBUGCHECK_TRIAGE_DUMP_DATA, *PKBUGCHECK_TRIAGE_DUMP_DATA,
 req.header: wdm.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: KBUGCHECK_TRIAGE_DUMP_DATA, *PKBUGCHECK_TRIAGE_DUMP_DATA
-topictype: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wdm.h
-apiname: 
-- _KBUGCHECK_TRIAGE_DUMP_DATA
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _KBUGCHECK_TRIAGE_DUMP_DATA
+ - wdm/_KBUGCHECK_TRIAGE_DUMP_DATA
+ - PKBUGCHECK_TRIAGE_DUMP_DATA
+ - wdm/PKBUGCHECK_TRIAGE_DUMP_DATA
+ - KBUGCHECK_TRIAGE_DUMP_DATA
+ - wdm/KBUGCHECK_TRIAGE_DUMP_DATA
+topictype:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+apiname:
+ - _KBUGCHECK_TRIAGE_DUMP_DATA
+product:
+ - Windows
 ---
 
 # _KBUGCHECK_TRIAGE_DUMP_DATA structure
+
 
 ## -description
 
@@ -49,7 +54,7 @@ The <b>_KBUGCHECK_TRIAGE_DUMP_DATA</b> structure describes dump data used in con
 
 ### -field DataArray
 
-A pointer to a [_KBUGCHECK_TRIAGE_DUMP_DATA](ns-wdm-_ktriage_dump_data_array.md) structure. This is the method the callback uses to provide the triage block data array that it created. 
+A pointer to a [_KBUGCHECK_TRIAGE_DUMP_DATA](ns-wdm-_ktriage_dump_data_array.md) structure. This is the method the callback uses to provide the triage block data array that it created.
 
 ### -field Flags
 
@@ -94,3 +99,4 @@ From the callback routine, the driver calls the [**KeAddTriageDumpDataBlock**](h
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

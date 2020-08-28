@@ -8,9 +8,6 @@ ms.assetid: c4e83638-4931-460f-848b-ceb0f7a00afb
 ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_PARAMETERS_INIT function"]
 ms.keywords: DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml, WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT function, kmdf.wdf_request_parameters_init, wdf.wdf_request_parameters_init, wdfrequest/WDF_REQUEST_PARAMETERS_INIT
-f1_keywords:
- - "wdfrequest/WDF_REQUEST_PARAMETERS_INIT"
- - "WDF_REQUEST_PARAMETERS_INIT"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfrequest.h
-api_name:
-- WDF_REQUEST_PARAMETERS_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_REQUEST_PARAMETERS_INIT
+ - wdfrequest/WDF_REQUEST_PARAMETERS_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfrequest.h
+api_name:
+ - WDF_REQUEST_PARAMETERS_INIT
 ---
 
 # WDF_REQUEST_PARAMETERS_INIT function
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_PARAMETERS_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param Parameters 
+
 [out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure.
 
-
 ## -remarks
-
-
 
 Drivers must call <b>WDF_REQUEST_PARAMETERS_INIT</b> to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>.
 
@@ -94,19 +87,11 @@ MyEvtIoDefault(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
- 
-
- 
 

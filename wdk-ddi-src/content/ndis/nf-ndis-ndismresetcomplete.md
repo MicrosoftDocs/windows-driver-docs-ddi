@@ -8,9 +8,6 @@ ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.date: 05/02/2018
 keywords: ["NdisMResetComplete macro"]
 ms.keywords: NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, netvista.ndismresetcomplete
-f1_keywords:
- - "ndis/NdisMResetComplete"
- - "NdisMResetComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMResetComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMResetComplete
+ - ndis/NdisMResetComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMResetComplete
 ---
 
 # NdisMResetComplete macro
@@ -47,16 +47,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMResetComplete</b> function returns the final status of a reset request for which the miniport driver
   previously returned NDIS_STATUS_PENDING.
 
-
 ## -parameters
-
-
-
 
 ### -param _M
 
@@ -83,10 +78,7 @@ If
 For more information, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
 
-
 ## -remarks
-
-
 
 If the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a> function returns
@@ -110,13 +102,7 @@ In NDIS 6.0 and later, callers of
     <b>NdisMResetComplete</b> must run at IRQL <= DISPATCH_LEVEL. Otherwise, callers of 
     <b>NdisMResetComplete</b> must run at IRQL = DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -127,7 +113,4 @@ In NDIS 6.0 and later, callers of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
- 
-
- 
 

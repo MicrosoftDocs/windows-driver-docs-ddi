@@ -8,9 +8,6 @@ ms.assetid: C049A6BE-6E2B-46F2-B7CF-316E4CDB35E4
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtSetLogFileSizeAsClient function"]
 ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient , ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
-f1_keywords:
- - "wdm/ClfsMgmtSetLogFileSizeAsClient"
- - "ClfsMgmtSetLogFileSizeAsClient"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: Clfs.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsMgmtSetLogFileSizeAsClient
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsMgmtSetLogFileSizeAsClient
+ - wdm/ClfsMgmtSetLogFileSizeAsClient
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsMgmtSetLogFileSizeAsClient
 ---
 
 # ClfsMgmtSetLogFileSizeAsClient function
@@ -47,48 +47,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsMgmtSetLogFileSizeAsClient</b>  routine sets the log file size by adding containers to a client log or deleting containers from a client log.
-
 
 ## -parameters
 
-
-
-
 ### -param LogFile 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a> routine.
 
-
 ### -param ClientCookie 
+
 [in, optional]
 A pointer to a client-supplied cookie. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
 
-
 ### -param NewSizeInContainers 
+
 [in]
 The desired size of the log, expressed in the number of containers. There can be at most 1,024 containers for a log file.
 
-
 ### -param ResultingSizeInContainers 
+
 [out, optional]
 The actual size of the log, expressed in the number of containers.
 
-
 ### -param CompletionRoutine 
+
 [in, optional]
  Not used.
 
-
 ### -param CompletionRoutineData 
-[in, optional]
- Not used. 
 
+[in, optional]
+ Not used.
 
 ## -returns
-
-
 
 The <b>ClfsMgmtSetLogFileSizeAsClient</b> routine returns an NTSTATUS value.
 
@@ -168,16 +161,7 @@ A policy on the specified log   prevented the operation from completing. This ma
 
 This routine might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">CLFS Management Library Routines</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.date: 04/23/2018
 keywords: ["KsStreamPointerCancelTimeout function"]
 ms.keywords: KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices], avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, ks/KsStreamPointerCancelTimeout, stream.ksstreampointercanceltimeout
-f1_keywords:
- - "ks/KsStreamPointerCancelTimeout"
- - "KsStreamPointerCancelTimeout"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsStreamPointerCancelTimeout
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsStreamPointerCancelTimeout
+ - ks/KsStreamPointerCancelTimeout
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsStreamPointerCancelTimeout
 ---
 
 # KsStreamPointerCancelTimeout function
@@ -47,42 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsStreamPointerCancelTimeout </b>function cancels a previously scheduled time-out callback on the specified stream pointer.
-
 
 ## -parameters
 
-
-
-
 ### -param StreamPointer 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer for which to cancel a registered time-out callback.
 
-
 ## -remarks
-
-
 
 Minidrivers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerscheduletimeout">KsStreamPointerScheduleTimeout</a> to schedule a time-out callback on a specified stream pointer.
 
 The <b>KsStreamPointerCancelTimeout</b> function does not affect stream pointers that have no currently scheduled time-out callback.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetfirstclonestreampointer">KsPinGetFirstCloneStreamPointer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerscheduletimeout">KsStreamPointerScheduleTimeout</a>
- 
-
- 
 

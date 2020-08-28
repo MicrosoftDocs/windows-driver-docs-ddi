@@ -8,9 +8,6 @@ ms.assetid: 994ba853-88b6-4456-8fdb-3199979df05e
 ms.date: 04/30/2018
 keywords: ["AuxKlibGetImageExportDirectory function"]
 ms.keywords: AuxKlibGetImageExportDirectory, AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetImageExportDirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, kernel.auxklibgetimageexportdirectory
-f1_keywords:
- - "aux_klib/AuxKlibGetImageExportDirectory"
- - "AuxKlibGetImageExportDirectory"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Aux_Klib.lib
-- Aux_Klib.dll
-api_name:
-- AuxKlibGetImageExportDirectory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AuxKlibGetImageExportDirectory
+ - aux_klib/AuxKlibGetImageExportDirectory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Aux_Klib.lib
+ - Aux_Klib.dll
+api_name:
+ - AuxKlibGetImageExportDirectory
 ---
 
 # AuxKlibGetImageExportDirectory function
@@ -47,45 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>AuxKlibGetImageExportDirectory</b> routine returns an image module's export directory.
-
 
 ## -parameters
 
-
-
-
 ### -param ImageBase 
-[in]
-A pointer to the base of an image, which is obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a>. 
 
+[in]
+A pointer to the base of an image, which is obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a>.
 
 ## -returns
 
-
-
 <b>AuxKlibGetImageExportDirectory</b> returns a pointer to an <b>IMAGE_EXPORT_DIRECTORY</b> structure. This structure is defined in Ntimage.h, which is included in the Microsoft Windows Driver Kit (WDK).
-
-
-
 
 ## -remarks
 
-
-
 Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibGetImageExportDirectory</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a>
- 
-
- 
 

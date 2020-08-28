@@ -8,9 +8,6 @@ ms.assetid: 90770016-1267-437e-af70-99741231dc29
 ms.date: 02/26/2018
 keywords: ["IWDFUsbInterface interface"]
 ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, IWDFUsbInterface interface,described, UMDFUSBref_d505d36b-9a59-452d-b35f-ceeff7a0b818.xml, umdf.iwdfusbinterface, wdf.iwdfusbinterface, wudfusb/IWDFUsbInterface
-f1_keywords:
- - "wudfusb/IWDFUsbInterface"
- - "IWDFUsbInterface"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbInterface
+ - wudfusb/IWDFUsbInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbInterface
 ---
 
 # IWDFUsbInterface interface
@@ -46,14 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <b>IWDFUsbInterface</b> interface exposes a USB interface that a USB device exposes.
-
-
-
 
 ## -inheritance
 

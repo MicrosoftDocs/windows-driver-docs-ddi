@@ -8,9 +8,6 @@ ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
 ms.date: 04/20/2018
 keywords: ["OPTPARAM structure"]
 ms.keywords: "*POPTPARAM, OPTPARAM, OPTPARAM structure [Print Devices], POPTPARAM, POPTPARAM structure pointer [Print Devices], _OPTPARAM, compstui/OPTPARAM, compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam"
-f1_keywords:
- - "compstui/OPTPARAM"
- - "OPTPARAM"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- OPTPARAM
 targetos: Windows
 req.typenames: OPTPARAM, *POPTPARAM
+f1_keywords:
+ - _OPTPARAM
+ - compstui/_OPTPARAM
+ - POPTPARAM
+ - compstui/POPTPARAM
+ - OPTPARAM
+ - compstui/OPTPARAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - OPTPARAM
 ---
 
 # _OPTPARAM structure
@@ -46,19 +50,13 @@ req.typenames: OPTPARAM, *POPTPARAM
 
 ## -description
 
-
 An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options">property sheet option</a>. The array's address is included in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_opttype">OPTTYPE</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size, in bytes, of the OPTPARAM structure.
-
 
 ### -field Flags
 
@@ -154,37 +152,27 @@ If not set, <b>lParam</b> contains a template resource identifier.
 
 (Used only if <b>Style</b> is PUSHBUTTON_TYPE_DLGPROC.)
 
-
 ### -field Style
 
 Push button style, used only for the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-pushbutton">TVOT_PUSHBUTTON</a> option type.
-
 
 ### -field pData
 
 Pointer to the parameter's value. Use of this member is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
-
 ### -field IconID
 
 Usually identifies the icon to be associated with the option parameter, but is sometimes used for other purposes. Use of this member is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
-
 
 ### -field lParam
 
 Use of this member is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
-
 ### -field dwReserved
 
 Reserved, must be initialized to zero.
 
-
 ## -remarks
 
-
-
 If the OPTPF_HIDE flag is set in all the OPTPARAM structures associated with an option, CPSUI hides the entire option.
-
-
 

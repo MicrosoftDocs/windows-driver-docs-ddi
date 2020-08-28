@@ -8,9 +8,6 @@ ms.assetid: FE1AB8D5-DEA7-47BE-921E-BB33BBB61AC9
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_READ_PINS callback function"]
 ms.keywords: CLIENT_ReadGpioPins, CLIENT_ReadGpioPins callback, CLIENT_ReadGpioPins callback function [Parallel Ports], GPIO.client_readgpiopins, GPIO_CLIENT_READ_PINS, gpioclx/CLIENT_ReadGpioPins
-f1_keywords:
- - "gpioclx/CLIENT_ReadGpioPins"
- - "CLIENT_ReadGpioPins"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_ReadGpioPins
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_READ_PINS
+ - gpioclx/GPIO_CLIENT_READ_PINS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_ReadGpioPins
 ---
 
 # GPIO_CLIENT_READ_PINS callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_ReadGpioPins</i> event callback function reads a set of general-purpose I/O (GPIO) pins that are configured as data inputs.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-
 ### -param ReadParameters 
+
 [in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_read_pins_parameters">GPIO_READ_PINS_PARAMETERS</a> structure that, on entry, describes the GPIO pins to read, and, on exit, contains the data that was read from the GPIO pins.
 
-
 ## -returns
-
-
 
 The <i>CLIENT_ReadGpioPins</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. GpioClx calls this function.
 
@@ -125,12 +113,7 @@ The GPIO_CLIENT_READ_PINS function type is defined in the Gpioclx.h header file.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
@@ -149,7 +132,4 @@ The GPIO_CLIENT_READ_PINS function type is defined in the Gpioclx.h header file.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_read_pins_parameters">GPIO_READ_PINS_PARAMETERS</a>
- 
-
- 
 

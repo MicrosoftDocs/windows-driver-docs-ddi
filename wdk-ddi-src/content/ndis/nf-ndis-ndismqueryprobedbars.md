@@ -8,9 +8,6 @@ ms.assetid: 39deba08-3ff0-4037-b530-0cb4a01fc758
 ms.date: 05/02/2018
 keywords: ["NdisMQueryProbedBars function"]
 ms.keywords: NdisMQueryProbedBars, NdisMQueryProbedBars function [Network Drivers Starting with Windows Vista], ndis/NdisMQueryProbedBars, netvista.ndismqueryprobedbars
-f1_keywords:
- - "ndis/NdisMQueryProbedBars"
- - "NdisMQueryProbedBars"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMQueryProbedBars
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMQueryProbedBars
+ - ndis/NdisMQueryProbedBars
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMQueryProbedBars
 ---
 
 # NdisMQueryProbedBars function
@@ -47,23 +47,20 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver calls the <b>NdisMQueryProbedBars</b> function to obtain the values of a network adapter's PCI Express (PCIe) Base Address Registers (BARs). This function returns the BAR values that were reported by the network adapter following a query performed by the PCI bus driver. This query determines the memory or I/O address space that is required by the network adapter. 
 <div class="alert"><b>Note</b>  <b>NdisMQueryProbedBars</b> must only be called by the miniport driver for the network adapter's PCIe Physical Function (PF).</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param NdisMiniportHandle 
+
 [in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-
 ### -param BaseRegisterValues 
+
 [out]
 A pointer to an array of ULONG values. The array  contains a ULONG value for each BAR of the PCIe network adapter.
 
@@ -72,8 +69,6 @@ A pointer to an array of ULONG values. The array  contains a ULONG value for eac
 <div> </div>
 
 ## -returns
-
-
 
 <b>NdisMQueryProbedBars</b> can return one of the following status values.
 
@@ -105,14 +100,8 @@ The query operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The PCI bus driver, which runs in the management operating system  of the Hyper-V parent partition, queries the memory or I/O address space requirements of each  PCI Base Address Register (BAR) of the network adapter. The PCI bus driver performs this query when it first detects the adapter on the bus. 
 
@@ -145,13 +134,7 @@ If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as p
 
 The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -166,7 +149,4 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-probed-bars">OID_SRIOV_PROBED_BARS</a>
- 
-
- 
 

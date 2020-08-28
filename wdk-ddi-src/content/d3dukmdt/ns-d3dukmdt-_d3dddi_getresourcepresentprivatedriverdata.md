@@ -8,9 +8,6 @@ ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.date: 05/10/2018
 keywords: ["D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure"]
 ms.keywords: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata
-f1_keywords:
- - "d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA"
- - "D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 targetos: Windows
 req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+f1_keywords:
+ - _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+ - d3dukmdt/_D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+ - D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+ - d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ---
 
 # _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure
@@ -46,21 +48,13 @@ req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 
 ## -description
 
-
-<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
-
-
+<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present.
 
 ## -struct-fields
 
-
-
-
 ### -field hResource
 
-[in] A DirectX graphics kernel resource handle. 
-
-
+[in] A DirectX graphics kernel resource handle.
 
 ### -field PrivateDriverDataSize
 
@@ -71,17 +65,9 @@ req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 
 ### -field pPrivateDriverData
 
-[in, out] The buffer where the private data will be written to. 
-
-
+[in, out] The buffer where the private data will be written to.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb">pfnGetResourcePresentPrivateDriverDataCb</a>
- 
-
- 
 

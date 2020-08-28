@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 209d7b54-a5f0-435f-84c6-3ba7ac0dec53
 ms.date: 01/30/2019
 keywords: ["NetPacketGetExtension function"]
-f1_keywords:
- - "packet/RegisterOpRegionHandler"
- - "RegisterOpRegionHandler"
 ms.keywords: NetPacketGetExtension
 req.header: packet.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topictype: 
-- apiref
-apitype: 
-- DllExport
-apilocation: 
-- NtosKrnl.exe
-apiname: 
-- NetPacketGetExtension
 targetos: Windows
-
+f1_keywords:
+ - NetPacketGetExtension
+ - packet/NetPacketGetExtension
+topictype:
+ - apiref
+apitype:
+ - DllExport
+apilocation:
+ - NtosKrnl.exe
+apiname:
+ - NetPacketGetExtension
 ---
 
 # NetPacketGetExtension function
@@ -44,14 +43,13 @@ targetos: Windows
 
 ## -description
 
-
 The **NetPacketGetExtension** method retrieves information stored in one of a packet's extensions.
 
 ## -parameters
 
 ### -param packet
 
-A pointer to a [**NET_PACKET**](ns-packet-_net_packet.md) structure. 
+A pointer to a [**NET_PACKET**](ns-packet-_net_packet.md) structure.
 
 ### -param offset
 
@@ -70,3 +68,4 @@ NIC client drivers typically query offsets for packet extensions during datapath
 [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues)
+

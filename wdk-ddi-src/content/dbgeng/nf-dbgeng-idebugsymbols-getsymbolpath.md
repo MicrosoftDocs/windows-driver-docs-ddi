@@ -8,9 +8,6 @@ ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::GetSymbolPath"]
 ms.keywords: GetSymbolPath, GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging],IDebugSymbols interface, GetSymbolPath method [Windows Debugging],IDebugSymbols2 interface, GetSymbolPath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolPath method, IDebugSymbols.GetSymbolPath, IDebugSymbols2 interface [Windows Debugging],GetSymbolPath method, IDebugSymbols2::GetSymbolPath, IDebugSymbols3 interface [Windows Debugging],GetSymbolPath method, IDebugSymbols3::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, debugger.getsymbolpath
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetSymbolPath"
- - "IDebugSymbols.GetSymbolPath"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetSymbolPath
-- IDebugSymbols2.GetSymbolPath
-- IDebugSymbols3.GetSymbolPath
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols::GetSymbolPath
+ - dbgeng/IDebugSymbols::GetSymbolPath
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetSymbolPath
+ - IDebugSymbols2.GetSymbolPath
+ - IDebugSymbols3.GetSymbolPath
 ---
 
 # IDebugSymbols::GetSymbolPath
@@ -48,33 +48,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolPath</b>  method returns the symbol path.
-
 
 ## -parameters
 
-
-
-
 ### -param Buffer 
+
 [out, optional]
 Receives the symbol path.  This is a string that contains symbol path elements separated by semicolons (<b>;</b>).  Each symbol path element can specify either a directory or a symbol server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-
 ### -param BufferSize 
+
 [in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
-
 ### -param PathSize 
+
 [out, optional]
 Receives the size, in characters, of the symbol path.
 
-
 ## -returns
-
-
 
 These methods can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -106,24 +99,12 @@ The method was successful. However, the buffer was not large enough to hold the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about manipulating the symbol path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-symbols">Using Symbols</a>.  For an overview of the symbol path and its syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-path">Symbol Path</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-appendsymbolpath">AppendSymbolPath</a>
 
@@ -142,7 +123,4 @@ For more information about manipulating the symbol path, see <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsymbolpath">SetSymbolPath</a>
- 
-
- 
 

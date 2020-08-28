@@ -8,39 +8,39 @@ ms.assetid: d3e3c034-55cc-4324-8e03-b158f1ed8b03
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetAdapterOffloadSetRscCapabilities function"]
-f1_keywords:
- - "netadapteroffload/NetAdapterOffloadSetRscCapabilities"
- - "NetAdapterOffloadSetRscCapabilities"
 ms.keywords: NetAdapterOffloadSetRscCapabilities
 req.header: netadapteroffload.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterOffloadSetRscCapabilities
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetAdapterOffloadSetRscCapabilities
+ - netadapteroffload/NetAdapterOffloadSetRscCapabilities
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterOffloadSetRscCapabilities
+product:
+ - Windows
 ---
 
 # NetAdapterOffloadSetRscCapabilities function
@@ -81,3 +81,4 @@ Client drivers typically call this method from within their [*EvtDevicePrepareHa
 [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
+

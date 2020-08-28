@@ -8,9 +8,6 @@ ms.assetid: 0BD6BA91-7F46-482B-B808-DEB8A23A0B84
 ms.date: 08/21/2020
 keywords: ["DXGK_OPM_INTERFACE_3 structure"]
 ms.keywords: "*PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices], PDXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], _DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, dispmprt/DXGK_OPM_INTERFACE_3, dispmprt/PDXGK_OPM_INTERFACE_3"
-f1_keywords:
- - "dispmprt/DXGK_OPM_INTERFACE_3"
- - "DXGK_OPM_INTERFACE_3"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- DXGK_OPM_INTERFACE_3
 targetos: Windows
 req.typenames: DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3
+f1_keywords:
+ - _DXGK_OPM_INTERFACE_3
+ - dispmprt/_DXGK_OPM_INTERFACE_3
+ - PDXGK_OPM_INTERFACE_3
+ - dispmprt/PDXGK_OPM_INTERFACE_3
+ - DXGK_OPM_INTERFACE_3
+ - dispmprt/DXGK_OPM_INTERFACE_3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - DXGK_OPM_INTERFACE_3
 ---
 
 # DXGK_OPM_INTERFACE_3 structure
+
 
 ## -description
 
@@ -116,3 +121,4 @@ A pointer to the display miniport driver's [**DxgkDdiOPMSetSrmList**](nc-dispmpr
 ### -field DxgkDdiOPMGetSrmListVersion
 
 A pointer to the display miniport driver's [**DxgkDdiOPMGetSrmListVersion**](nc-dispmprt-dxgkddi_opm_get_srm_list_version.md) function.
+

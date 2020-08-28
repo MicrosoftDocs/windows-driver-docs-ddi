@@ -8,9 +8,6 @@ ms.assetid: 6675d840-8b13-44ef-bbdb-84d683240175
 ms.date: 03/29/2018
 keywords: ["TAPE_PROCESS_COMMAND_ROUTINE callback function"]
 ms.keywords: "(*TAPE_PROCESS_COMMAND_ROUTINE), (*TAPE_PROCESS_COMMAND_ROUTINE) routine [Storage Devices], TAPE_PROCESS_COMMAND_ROUTINE, minitape/(*TAPE_PROCESS_COMMAND_ROUTINE), storage.tapeminicreatepartition, tapemini_34ae90ec-7f62-45f3-91e4-d64acfdbd797.xml"
-f1_keywords:
- - "minitape/(*TAPE_PROCESS_COMMAND_ROUTINE)"
- - "(*TAPE_PROCESS_COMMAND_ROUTINE)"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- minitape.h
-api_name:
-- (*TAPE_PROCESS_COMMAND_ROUTINE)
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - TAPE_PROCESS_COMMAND_ROUTINE
+ - minitape/TAPE_PROCESS_COMMAND_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - minitape.h
+api_name:
+ - (*TAPE_PROCESS_COMMAND_ROUTINE)
 ---
 
 # TAPE_PROCESS_COMMAND_ROUTINE callback function
@@ -46,31 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <i>TAPE_PROCESS_COMMAND_ROUTINE</i> handles the device-specific aspects of an IOCTL request.
-
 
 ## -parameters
 
-
-
-
 ### -param MinitapeExtension 
+
 [in, out]
 Pointer to the driver-specific minitape extension. This is <b>NULL</b> if the miniclass driver did not request a minitape extension when it initialized.
 
-
 ### -param CommandExtension 
+
 [in, out]
 Pointer to the command extension. This is <b>NULL</b> if the miniclass driver did not request a command extension when it initialized.
 
-
 ### -param CommandParameters 
+
 [in, out]
 Pointer to a buffer allocated by the caller that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_create_partition">TAPE_CREATE_PARTITION</a> structure.
 
-
 ### -param Srb 
+
 [in, out]
 Pointer to an SRB allocated and partially filled in by the tape class driver. <i>TAPE_PROCESS_COMMAND_ROUTINE</i> must fill in the CDB in the SRB. 
 
@@ -106,16 +102,17 @@ Pointer to an SRB allocated and partially filled in by the tape class driver. <i
 </ul>
 
 ### -param CallNumber 
+
 [in]
 Specifies the number of times <i>TAPE_PROCESS_COMMAND_ROUTINE</i> has been called to process a given tape command. <i>CallNumber</i> is zero the first time this routine is called and is incremented for each subsequent call until the miniclass driver returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a> value that indicates the command is complete.
 
-
 ### -param StatusOfLastCommand 
-[in, optional]
-Specifies the status of the last command. In the first call to <i>TAPE_PROCESS_COMMAND_ROUTINE</i> to process a given request, <i>StatusOfLastCommand </i>is TAPE_STATUS_SUCCESS. In subsequent calls, <i>StatusOfLastCommand </i>is either TAPE_STATUS_SUCCESS or an error status if an error occurred and the tape miniclass driver set RETURN_ERRORS in <i>RetryFlags</i> in the previous call. 
 
+[in, optional]
+Specifies the status of the last command. In the first call to <i>TAPE_PROCESS_COMMAND_ROUTINE</i> to process a given request, <i>StatusOfLastCommand </i>is TAPE_STATUS_SUCCESS. In subsequent calls, <i>StatusOfLastCommand </i>is either TAPE_STATUS_SUCCESS or an error status if an error occurred and the tape miniclass driver set RETURN_ERRORS in <i>RetryFlags</i> in the previous call.
 
 ### -param RetryFlags 
+
 [in, out]
 Pointer to a variable that specifies what action the tape class driver should take when a tape device reports an error.
 
@@ -139,8 +136,6 @@ If the miniclass driver sets IGNORE_ERRORS, the tape class driver converts a fai
 </ul>
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -222,14 +217,8 @@ TAPE_STATUS_NOT_IMPLEMENTED
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following functions can be assigned to this callback placeholder:
 
@@ -291,13 +280,7 @@ The tape class driver assigns values to the members of TAPE_WMI_OPERATIONS struc
 
 The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffer</b> member of the TAPE_WMI_OPERATIONS structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
 
@@ -312,7 +295,4 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nf-minitape-tapeclasszeromemory">TapeClassZeroMemory</a>
- 
-
- 
 

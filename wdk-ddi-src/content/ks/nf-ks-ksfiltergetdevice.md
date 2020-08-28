@@ -8,9 +8,6 @@ ms.assetid: f3abb5e4-6711-47bb-82b5-7ef838d49258
 ms.date: 04/23/2018
 keywords: ["KsFilterGetDevice function"]
 ms.keywords: KsFilterGetDevice, KsFilterGetDevice function [Streaming Media Devices], avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, ks/KsFilterGetDevice, stream.ksfiltergetdevice
-f1_keywords:
- - "ks/KsFilterGetDevice"
- - "KsFilterGetDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsFilterGetDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterGetDevice
+ - ks/KsFilterGetDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsFilterGetDevice
 ---
 
 # KsFilterGetDevice function
@@ -46,42 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsFilterGetDevice </b>function returns the AVStream device to which <i>Filter</i> belongs.
-
 
 ## -parameters
 
-
-
-
 ### -param Filter 
+
 [in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to find the owning AVStream device.
 
-
 ## -returns
-
-
 
 <b>KsFilterGetDevice</b> returns a pointer to the AVStream <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure to which <i>Filter</i> belongs.
 
-
-
-
 ## -remarks
-
-
 
 This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetdevice">KsGetDevice</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
@@ -92,7 +74,4 @@ This call is an inline function call to <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetdevice">KsGetDevice</a>
- 
-
- 
 

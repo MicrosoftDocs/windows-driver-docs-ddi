@@ -8,9 +8,6 @@ ms.assetid: 6d8e934a-9f1e-4b65-9491-02cf7f5f9255
 ms.date: 05/02/2018
 keywords: ["RIL_WriteMsg function"]
 ms.keywords: RIL_WriteMsg, RIL_WriteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_writemsg, rilapi/RIL_WriteMsg
-f1_keywords:
- - "rilapi/RIL_WriteMsg"
- - "RIL_WriteMsg"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_WriteMsg
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_WriteMsg
+ - rilapi/RIL_WriteMsg
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_WriteMsg
 ---
 
 # RIL_WriteMsg function
@@ -46,37 +46,21 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param hUiccApp
-
 
 ### -param lpMessage
 
-
 ### -param dwStatus
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

@@ -7,9 +7,6 @@ ms.assetid: 371e0353-3e4d-4688-95cf-d5f24b2ed7b3
 ms.date: 05/10/2018
 keywords: ["D3DKMT_DESTROYPROTECTEDSESSION structure"]
 ms.keywords: D3DKMT_DESTROYPROTECTEDSESSION, D3DKMT_DESTROYPROTECTEDSESSION structure [Display Devices], _D3DKMT_DESTROYPROTECTEDSESSION, d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION, display.d3dkmt-destroyprotectedsession
-f1_keywords:
- - "d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION"
- - "D3DKMT_DESTROYPROTECTEDSESSION"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_DESTROYPROTECTEDSESSION
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYPROTECTEDSESSION
+f1_keywords:
+ - _D3DKMT_DESTROYPROTECTEDSESSION
+ - d3dkmthk/_D3DKMT_DESTROYPROTECTEDSESSION
+ - D3DKMT_DESTROYPROTECTEDSESSION
+ - d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_DESTROYPROTECTEDSESSION
 ---
 
 # _D3DKMT_DESTROYPROTECTEDSESSION structure
@@ -46,14 +48,9 @@ req.typenames: D3DKMT_DESTROYPROTECTEDSESSION
 
 ## -description
 
-
 Holds information to destroy a protected session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hHandle
 

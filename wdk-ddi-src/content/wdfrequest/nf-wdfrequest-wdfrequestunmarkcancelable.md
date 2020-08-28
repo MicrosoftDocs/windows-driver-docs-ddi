@@ -8,9 +8,6 @@ ms.assetid: 91740445-e380-4798-a553-e7d502d2ce92
 ms.date: 02/26/2018
 keywords: ["WdfRequestUnmarkCancelable function"]
 ms.keywords: DFRequestObjectRef_a20d187a-e056-4cb9-8efb-4021be144597.xml, WdfRequestUnmarkCancelable, WdfRequestUnmarkCancelable method, kmdf.wdfrequestunmarkcancelable, wdf.wdfrequestunmarkcancelable, wdfrequest/WdfRequestUnmarkCancelable
-f1_keywords:
- - "wdfrequest/WdfRequestUnmarkCancelable"
- - "WdfRequestUnmarkCancelable"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestUnmarkCancelable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestUnmarkCancelable
+ - wdfrequest/WdfRequestUnmarkCancelable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestUnmarkCancelable
 ---
 
 # WdfRequestUnmarkCancelable function
@@ -49,25 +49,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestUnmarkCancelable</b> method disables cancellation of a specified I/O request.
 
-
 ## -parameters
 
-
-
-
 ### -param Request 
+
 [in]
 A handle to a framework request object.
 
-
 ## -returns
-
-
 
 <b>WdfRequestUnmarkCancelable</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -119,12 +112,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 A driver can call <b>WdfRequestUnmarkCancelable</b> to disable cancellation of an I/O request, if the driver previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelable">WdfRequestMarkCancelable</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a> to enable cancellation of the request.
 
@@ -230,12 +218,7 @@ VOID
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a>
 
@@ -250,7 +233,4 @@ VOID
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a>
- 
-
- 
 

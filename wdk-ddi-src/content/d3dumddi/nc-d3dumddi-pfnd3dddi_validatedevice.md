@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/ValidateDevice"
- - "ValidateDevice"
+ - PFND3DDDI_VALIDATEDEVICE
+ - d3dumddi/PFND3DDDI_VALIDATEDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_VALIDATEDEVICE callback function
+
 
 ## -description
 

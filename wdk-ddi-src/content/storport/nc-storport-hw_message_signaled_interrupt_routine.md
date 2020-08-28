@@ -8,9 +8,6 @@ ms.assetid: d8e90489-c847-48e7-89c4-f7a397a8de14
 ms.date: 03/29/2018
 keywords: ["HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE callback function"]
 ms.keywords: HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, HwMSInterruptRoutine, HwMSInterruptRoutine routine [Storage Devices], storage.hwmsinterruptroutine, stormini_153bf378-505e-413b-90b2-24af3fd9d502.xml, storport/HwMSInterruptRoutine
-f1_keywords:
- - "storport/HwMSInterruptRoutine"
- - "HwMSInterruptRoutine"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwMSInterruptRoutine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE
+ - storport/HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwMSInterruptRoutine
 ---
 
 # HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE callback function
+
 
 ## -description
 
@@ -119,3 +120,4 @@ The **HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE** function type is defined in the St
 [**StorPortGetMSIInfo**](nf-storport-storportgetmsiinfo.md)
 
 [**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md)
+

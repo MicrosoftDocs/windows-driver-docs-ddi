@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_UNMAPHEAP"
- - "PFND3D12DDI_UNMAPHEAP"
+ - PFND3D12DDI_UNMAPHEAP
+ - d3d12umddi/PFND3D12DDI_UNMAPHEAP
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_UNMAPHEAP callback function
+
 
 ## -description
 
@@ -83,3 +84,4 @@ PFND3D12DDI_UNMAPHEAP
 ## -see-also
 
 [**PFND3D12DDI_MAPHEAP**](nc-d3d12umddi-pfnd3d12ddi_mapheap.md)
+

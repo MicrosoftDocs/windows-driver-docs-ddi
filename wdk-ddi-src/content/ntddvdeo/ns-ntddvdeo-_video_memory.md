@@ -8,9 +8,6 @@ ms.assetid: 3d8b3b45-90d9-4e64-a52d-253c9cb86588
 ms.date: 05/10/2018
 keywords: ["VIDEO_MEMORY structure"]
 ms.keywords: "*PVIDEO_MEMORY, PVIDEO_MEMORY, PVIDEO_MEMORY structure pointer [Display Devices], VIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, _VIDEO_MEMORY, display.video_memory, ntddvdeo/PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY"
-f1_keywords:
- - "ntddvdeo/VIDEO_MEMORY"
- - "VIDEO_MEMORY"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- VIDEO_MEMORY
 targetos: Windows
 req.typenames: VIDEO_MEMORY, *PVIDEO_MEMORY
+f1_keywords:
+ - _VIDEO_MEMORY
+ - ntddvdeo/_VIDEO_MEMORY
+ - PVIDEO_MEMORY
+ - ntddvdeo/PVIDEO_MEMORY
+ - VIDEO_MEMORY
+ - ntddvdeo/VIDEO_MEMORY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - VIDEO_MEMORY
 ---
 
 # _VIDEO_MEMORY structure
@@ -46,23 +50,15 @@ req.typenames: VIDEO_MEMORY, *PVIDEO_MEMORY
 
 ## -description
 
-
 The VIDEO_MEMORY structure holds the address of a requested block of kernel-mode video memory.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RequestedVirtualAddress
 
 Pointer to the requested virtual address for either the video memory, or the base of video memory, depending on whether <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_map_video_memory">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_unmap_video_memory">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a> is using this structure.
 
-
 ## -remarks
-
-
 
 VIDEO_MEMORY is used as an input structure to two IOCTLs: <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_map_video_memory">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_unmap_video_memory">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a>.
 
@@ -72,13 +68,7 @@ When VIDEO_MEMORY is used with IOCTL_VIDEO_UNMAP_VIDEO_MEMORY, <b>RequestedVirtu
 
 For structures used in mapping into user-mode video memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory">VIDEO_SHARE_MEMORY</a> AND <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory_information">VIDEO_SHARE_MEMORY_INFORMATION</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_map_video_memory">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
@@ -89,7 +79,4 @@ For structures used in mapping into user-mode video memory, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory_information">VIDEO_MEMORY_INFORMATION</a>
- 
-
- 
 

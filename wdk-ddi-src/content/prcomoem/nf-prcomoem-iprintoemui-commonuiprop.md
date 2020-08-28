@@ -8,9 +8,6 @@ ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
 ms.date: 04/20/2018
 keywords: ["IPrintOemUI::CommonUIProp"]
 ms.keywords: CommonUIProp, CommonUIProp method [Print Devices], CommonUIProp method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],CommonUIProp method, IPrintOemUI.CommonUIProp, IPrintOemUI::CommonUIProp, prcomoem/IPrintOemUI::CommonUIProp, print.iprintoemui_commonuiprop, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml
-f1_keywords:
- - "prcomoem/IPrintOemUI.CommonUIProp"
- - "IPrintOemUI.CommonUIProp"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUI.CommonUIProp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUI::CommonUIProp
+ - prcomoem/IPrintOemUI::CommonUIProp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUI.CommonUIProp
 ---
 
 # IPrintOemUI::CommonUIProp
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUI::CommonUIProp</code> method allows a user interface plug-in to modify an existing printer property sheet page.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMode
 
@@ -85,17 +80,12 @@ The method is being called to modify the Device Settings page of the printer pro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pOemCUIPParam
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemcuipparam">OEMCUIPPARAM</a> structure.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -138,14 +128,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a user interface plug-in's <code>IPrintOemUI::CommonUIProp</code> method is called, it should return customized property sheet option items in order to modify an existing printer property sheet page.
 
@@ -180,6 +164,4 @@ Space for the private data structure should be allocated by calling the Microsof
 If <code>IPrintOemUI::CommonUIProp</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/modifying-a-driver-supplied-property-sheet-page">Modifying a Driver-Supplied Property Sheet Page</a>.
-
-
 

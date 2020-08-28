@@ -8,9 +8,6 @@ ms.assetid: 3191aeff-7324-4c2b-9b64-ddc50a561df5
 ms.date: 04/30/2019
 keywords: ["KSAUDIO_PREFERRED_STATUS structure"]
 ms.keywords: "*PKSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS structure [Audio Devices], PKSAUDIO_PREFERRED_STATUS, PKSAUDIO_PREFERRED_STATUS structure pointer [Audio Devices], aud-prop_a1287dc0-98ad-4071-be11-41e51b6b4846.xml, audio.ksaudio_preferred_status, ksmedia/KSAUDIO_PREFERRED_STATUS, ksmedia/PKSAUDIO_PREFERRED_STATUS"
-f1_keywords:
- - "ksmedia/KSAUDIO_PREFERRED_STATUS"
- - "KSAUDIO_PREFERRED_STATUS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_PREFERRED_STATUS
 targetos: Windows
 req.typenames: KSAUDIO_PREFERRED_STATUS, *PKSAUDIO_PREFERRED_STATUS
+f1_keywords:
+ - PKSAUDIO_PREFERRED_STATUS
+ - ksmedia/PKSAUDIO_PREFERRED_STATUS
+ - KSAUDIO_PREFERRED_STATUS
+ - ksmedia/KSAUDIO_PREFERRED_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_PREFERRED_STATUS
 ---
 
 # KSAUDIO_PREFERRED_STATUS structure
@@ -46,19 +48,13 @@ req.typenames: KSAUDIO_PREFERRED_STATUS, *PKSAUDIO_PREFERRED_STATUS
 
 ## -description
 
-
 The KSAUDIO_PREFERRED_STATUS structure specifies the status of a preferred device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Enable
 
 Specifies whether the target device is the new preferred device. If <b>TRUE</b>, the target device is selected as the new preferred device. If <b>FALSE</b>, the target device was previously the preferred device, but is now deselected.
-
 
 ### -field DeviceType
 
@@ -124,39 +120,25 @@ Preferred mixer topology device.
 
 The driver uses this member to determine what aspect or aspects of the audio adapter are currently selected as preferred. A driver might use this information to decide how to configure itself or decide what system resources to request.
 
-
 ### -field Flags
 
 No flags are currently defined. Set to zero.
-
 
 ### -field Reserved
 
 Reserved for future use. Set to zero.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-preferred-status">KSPROPERTY_AUDIO_PREFERRED_STATUS</a> property.
 
 For information about the preferred device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/setuppreferredaudiodevices">SetupPreferredAudioDevices</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-preferred-status">KSPROPERTY_AUDIO_PREFERRED_STATUS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/setuppreferredaudiodevices">SetupPreferredAudioDevices</a>
- 
-
- 
 

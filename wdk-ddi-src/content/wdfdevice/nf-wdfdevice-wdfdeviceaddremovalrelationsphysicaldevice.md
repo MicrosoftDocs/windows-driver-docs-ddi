@@ -8,9 +8,6 @@ ms.assetid: 4638905f-cefb-4bf0-aa00-64f2f096dc22
 ms.date: 02/26/2018
 keywords: ["WdfDeviceAddRemovalRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_5e16c670-eb46-4c83-88e0-32eb41aeeac3.xml, WdfDeviceAddRemovalRelationsPhysicalDevice, WdfDeviceAddRemovalRelationsPhysicalDevice method, kmdf.wdfdeviceaddremovalrelationsphysicaldevice, wdf.wdfdeviceaddremovalrelationsphysicaldevice, wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice
-f1_keywords:
- - "wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice"
- - "WdfDeviceAddRemovalRelationsPhysicalDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceAddRemovalRelationsPhysicalDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceAddRemovalRelationsPhysicalDevice
+ - wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceAddRemovalRelationsPhysicalDevice
 ---
 
 # WdfDeviceAddRemovalRelationsPhysicalDevice function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDeviceAddRemovalRelationsPhysicalDevice</b> method indicates that a specified device must be removed when another specified device is removed. 
-
+The <b>WdfDeviceAddRemovalRelationsPhysicalDevice</b> method indicates that a specified device must be removed when another specified device is removed.
 
 ## -parameters
 
-
-
-
 ### -param Device
+
 [in]
 A handle to a framework device object.
 
-
 ### -param PhysicalDevice
+
 [in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfDeviceAddRemovalRelationsPhysicalDevice</b> returns STATUS_SUCCESS. Additional return values include:
 
@@ -108,12 +101,7 @@ The method might return other <a href="https://docs.microsoft.com/windows-hardwa
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 The <i>PhysicalDevice</i> parameter points to a PDO of a device whose drivers must be removed when the drivers for <i>Device</i> are removed. Typically, both devices are controlled by the calling driver. Do not report the child devices of the device object specified in <i>Device</i> because when the Plug and Play manager removes a parent device, it also removes the device's children.
 
@@ -131,19 +119,11 @@ status = WdfDeviceAddRemovalRelationsPhysicalDevice(
                                                     );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceclearremovalrelationsdevices">WdfDeviceClearRemovalRelationsDevices</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceremoveremovalrelationsphysicaldevice">WdfDeviceRemoveRemovalRelationsPhysicalDevice</a>
- 
-
- 
 

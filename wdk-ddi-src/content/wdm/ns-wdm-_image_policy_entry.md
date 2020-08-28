@@ -8,9 +8,6 @@ ms.assetid: ea400bef-5c69-4f75-b96e-aae12292fd5a
 ms.date: 04/30/2018
 keywords: ["IMAGE_POLICY_ENTRY structure"]
 ms.keywords: IMAGE_POLICY_ENTRY, IMAGE_POLICY_ENTRY structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_ENTRY, kernel._image_policy_entry, wdm/IMAGE_POLICY_ENTRY
-f1_keywords:
- - "wdm/IMAGE_POLICY_ENTRY"
- - "IMAGE_POLICY_ENTRY"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- IMAGE_POLICY_ENTRY
 targetos: Windows
 req.typenames: IMAGE_POLICY_ENTRY
+f1_keywords:
+ - _IMAGE_POLICY_ENTRY
+ - wdm/_IMAGE_POLICY_ENTRY
+ - IMAGE_POLICY_ENTRY
+ - wdm/IMAGE_POLICY_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - IMAGE_POLICY_ENTRY
 ---
 
 # _IMAGE_POLICY_ENTRY structure
@@ -46,9 +48,7 @@ req.typenames: IMAGE_POLICY_ENTRY
 
 ## -description
 
-
 This structure is not supported.
-
 
 ## -struct-fields
 

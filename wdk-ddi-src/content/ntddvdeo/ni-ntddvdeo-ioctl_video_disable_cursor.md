@@ -8,9 +8,6 @@ ms.assetid: bbc3564d-bed5-45fb-9ee3-ed98073b6eba
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_DISABLE_CURSOR IOCTL"]
 ms.keywords: IOCTL_VIDEO_DISABLE_CURSOR, IOCTL_VIDEO_DISABLE_CURSOR control, IOCTL_VIDEO_DISABLE_CURSOR control code [Display Devices], Video_IOCTLs_664ec9f1-497c-4890-b812-9691776b1988.xml, display.ioctl_video_disable_cursor, ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR
-f1_keywords:
- - "ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR"
- - "IOCTL_VIDEO_DISABLE_CURSOR"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvdeo.h
-api_name:
-- IOCTL_VIDEO_DISABLE_CURSOR
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VIDEO_DISABLE_CURSOR
+ - ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvdeo.h
+api_name:
+ - IOCTL_VIDEO_DISABLE_CURSOR
 ---
 
 # IOCTL_VIDEO_DISABLE_CURSOR IOCTL
@@ -46,63 +46,25 @@ req.typenames:
 
 ## -description
 
-
-
 Makes the cursor invisible by disabling the cursor's visibility attribute. Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

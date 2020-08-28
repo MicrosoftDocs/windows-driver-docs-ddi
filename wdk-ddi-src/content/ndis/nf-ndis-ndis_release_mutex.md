@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 9a64c6fc-ee2c-45b5-ba12-7e9a42934a9b
 ms.date: 04/16/2018
 keywords: ["NDIS_RELEASE_MUTEX macro"]
-f1_keywords:
- - "ndis/NDIS_RELEASE_MUTEX"
- - "NDIS_RELEASE_MUTEX"
 ms.keywords: NDIS_RELEASE_MUTEX
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
 req.ddi-compliance: Irql_Synch_Function
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NDIS_RELEASE_MUTEX
 targetos: Windows
-
+f1_keywords:
+ - NDIS_RELEASE_MUTEX
+ - ndis/NDIS_RELEASE_MUTEX
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_RELEASE_MUTEX
 ---
 
 # NDIS_RELEASE_MUTEX macro
@@ -73,3 +72,4 @@ To acquire the mutex, call the [**NDIS_WAIT_FOR_MUTEX**](nf-ndis-ndis_wait_for_m
 [**NDIS_INIT_MUTEX**](nf-ndis-ndis_init_mutex.md)
 
 [**NDIS_WAIT_FOR_MUTEX**](nf-ndis-ndis_wait_for_mutex.md)
+

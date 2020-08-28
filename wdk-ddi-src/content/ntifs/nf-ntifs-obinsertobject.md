@@ -8,9 +8,6 @@ ms.assetid: 2984b246-3e3c-4121-b7a0-d9509a1717a3
 ms.date: 04/16/2018
 keywords: ["ObInsertObject function"]
 ms.keywords: ObInsertObject, ObInsertObject function [Installable File System Drivers], ifsk.obinsertobject, ntifs/ObInsertObject, obref_9ecb8aa6-496e-4daf-96cf-d68ec5863e94.xml
-f1_keywords:
- - "ntifs/ObInsertObject"
- - "ObInsertObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- ObInsertObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObInsertObject
+ - ntifs/ObInsertObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - ObInsertObject
 ---
 
 # ObInsertObject function
@@ -46,45 +46,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>ObInsertObject</b> routine is reserved for system use. 
-
+The <b>ObInsertObject</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param Object
 
 <p>Reserved.</p>
 
-
 ### -param PassedAccessState
 
 Reserved.
-
 
 ### -param DesiredAccess
 
 Reserved.
 
-
 ### -param ObjectPointerBias
 
 Reserved.
-
 
 ### -param NewObject
 
 Reserved.
 
-
 ### -param Handle
 
 Reserved.
-
-
-
-
 

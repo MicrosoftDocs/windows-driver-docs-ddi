@@ -8,9 +8,6 @@ ms.assetid: AED881EC-D417-49F5-B0B7-497FDF450968
 ms.date: 04/30/2018
 keywords: ["RtlIntToULongLong function"]
 ms.keywords: RtlIntToULongLong, RtlIntToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlinttoulonglong, ntintsafe/RtlIntToULongLong
-f1_keywords:
- - "ntintsafe/RtlIntToULongLong"
- - "RtlIntToULongLong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlIntToULongLong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntToULongLong
+ - ntintsafe/RtlIntToULongLong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlIntToULongLong
 ---
 
 # RtlIntToULongLong function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>INT</b> to a value of type <b>ULONGLONG</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param iOperand 
+
 [in]
 The value to be converted.
 
-
 ### -param pullResult 
+
 [out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -116,5 +109,4 @@ This function uses the following alternate name:
 <li>RtlIntToULongPtr
 </li>
 </ul>
-
 

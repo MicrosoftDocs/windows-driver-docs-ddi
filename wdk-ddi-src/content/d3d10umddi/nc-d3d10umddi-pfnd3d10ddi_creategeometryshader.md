@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateGeometryShader"
- - "CreateGeometryShader"
+ - PFND3D10DDI_CREATEGEOMETRYSHADER
+ - d3d10umddi/PFND3D10DDI_CREATEGEOMETRYSHADER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CREATEGEOMETRYSHADER callback function
+
 
 ## -description
 
@@ -71,7 +72,7 @@ A handle to the driver's private data for the geometry shader. The driver return
 
 *hRTShader* [in]
 
-A handle to the geometry shader with stream output that the driver should use anytime it calls back into the Direct3D runtime. 
+A handle to the geometry shader with stream output that the driver should use anytime it calls back into the Direct3D runtime.
 
 ### -param Arg5
 

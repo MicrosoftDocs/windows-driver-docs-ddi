@@ -8,13 +8,10 @@ ms.assetid: 59a77753-1f34-4224-af11-c6bbfa847619
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem::FindItemByName"]
 ms.keywords: DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, FindItemByName, FindItemByName method [Imaging Devices], FindItemByName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],FindItemByName method, IWiaDrvItem.FindItemByName, IWiaDrvItem::FindItemByName, image.iwiadrvitem_finditembyname, wiamindr_lh/IWiaDrvItem::FindItemByName
-f1_keywords:
- - "wiamindr_lh/IWiaDrvItem.FindItemByName"
- - "IWiaDrvItem.FindItemByName"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaDrvItem.FindItemByName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaDrvItem::FindItemByName
+ - wiamindr_lh/IWiaDrvItem::FindItemByName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaDrvItem.FindItemByName
 ---
 
 # IWiaDrvItem::FindItemByName
+
 
 ## -description
 
@@ -96,3 +97,4 @@ This method starts the search for the specified item at the root item in the dri
 [IWiaDrvItem::FindChildItemByName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-findchilditembyname)
 
 [IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname)
+

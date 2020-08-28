@@ -8,9 +8,6 @@ ms.assetid: 05e092fe-fa70-47b7-af8d-c6e27847a6ac
 ms.date: 02/26/2018
 keywords: ["WdfCommonBufferCreate function"]
 ms.keywords: DFCommonBufferObjectRef_2ef72eb3-fa4c-40f8-aa73-54bb5dcb9e0c.xml, WdfCommonBufferCreate, WdfCommonBufferCreate method, kmdf.wdfcommonbuffercreate, wdf.wdfcommonbuffercreate, wdfcommonbuffer/WdfCommonBufferCreate
-f1_keywords:
- - "wdfcommonbuffer/WdfCommonBufferCreate"
- - "WdfCommonBufferCreate"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfCommonBufferCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCommonBufferCreate
+ - wdfcommonbuffer/WdfCommonBufferCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfCommonBufferCreate
 ---
 
 # WdfCommonBufferCreate function
@@ -47,40 +47,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfCommonBufferCreate</b> method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously.
 
-
 ## -parameters
 
-
-
-
 ### -param DmaEnabler 
-[in]
-A handle to a DMA enabler object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>.  
 
+[in]
+A handle to a DMA enabler object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>.
 
 ### -param Length 
+
 [in]
 The desired size, in bytes, of the new buffer.
 
-
 ### -param Attributes 
-[in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the common buffer object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the common buffer object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param CommonBuffer 
+
 [out]
 A pointer to a WDFCOMMONBUFFER-typed variable that receives a handle to a common buffer object.
 
-
 ## -returns
-
-
 
 <b>WdfCommonBufferCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -116,14 +109,7 @@ The framework could not allocate a common buffer object, or the system could not
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>WdfCommonBufferCreate</b> method allocates memory and maps it so that both the driver and a device can access it simultaneously for DMA operations. After your driver calls <b>WdfCommonBufferCreate</b>, the driver must:
 
@@ -174,12 +160,7 @@ if (status == STATUS_SUCCESS) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -206,7 +187,4 @@ if (status == STATUS_SUCCESS) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
- 
-
- 
 

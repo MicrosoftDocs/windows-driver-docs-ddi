@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnCreateNewPathInfo"
- - "pfnCreateNewPathInfo"
+ - DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO callback function
+
 
 ## -description
 

@@ -8,49 +8,64 @@ ms.assetid: 7dbf3d45-c850-4949-b13b-6548869070f3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function"]
-f1_keywords:
- - "iddcx/EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE"
- - "EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - UserDefined
-api_location: 
- - iddcx.h
-api_name: 
- - EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
-product: 
- - Windows
 targetos: Windows
+ms.custom: rs6, 19H1
+f1_keywords:
+ - EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
+ - iddcx/EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - iddcx.h
+api_name:
+ - EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: rs6, 19H1
 ---
 
 # EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function
 
+
 ## -description
 
 The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the physical size of a remote EDID-less monitor.
+
+## -parameters
+
+### -param MonitorObject
+
+[in] The context for the monitor this OPM context should be created on.
+
+### -param pOutArgs
+
+[out] Pointer to a [IDARG_OUT_MONITORGETPHYSICALSIZE](ns-iddcx-idarg_out_monitorgetphysicalsize.md) structure that contains information about the monitor size.
+
+## -returns
+
+If the driver knows the physical size of the monitor, it should fill in the *pOutArgs* and return STATUS_SUCCESS. In the event the driver does not know the physical size, it should return STATUS_NO_DATA_DETECTED.
 
 ## -prototype
 
@@ -70,20 +85,6 @@ NTSTATUS EvtIddCxMonitorGetPhysicalSize
 
 ```
 
-## -parameters
-
-### -param MonitorObject
-
-[in] The context for the monitor this OPM context should be created on.
-
-### -param pOutArgs
-
-[out] Pointer to a [IDARG_OUT_MONITORGETPHYSICALSIZE](ns-iddcx-idarg_out_monitorgetphysicalsize.md) structure that contains information about the monitor size.
-
-## -returns
-
-If the driver knows the physical size of the monitor, it should fill in the *pOutArgs* and return STATUS_SUCCESS. In the event the driver does not know the physical size, it should return STATUS_NO_DATA_DETECTED.
-
 ## -remarks
 
 This callback is only called for remote drivers that do not provide a monitor description for the specified monitor. If a remote driver does specify a monitor description for a given monitor, then the physical width and height will be taken from the description and this callback will not be called for that monitor.
@@ -96,3 +97,4 @@ An ID driver declares that it wants to create a remote ID adapter by setting the
 * If an ID driver sets the IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER flags for a device that was not created by the OS remote desktop stack
 
 ## -see-also
+

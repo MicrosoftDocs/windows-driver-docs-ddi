@@ -8,9 +8,6 @@ ms.assetid: 5cbdda76-c02d-4fd4-8fa9-a783375ea292
 ms.date: 03/29/2018
 keywords: ["StorPortFreeMdl function"]
 ms.keywords: StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], storage.storportfreemdl, storport/StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml
-f1_keywords:
- - "storport/StorPortFreeMdl"
- - "StorPortFreeMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortFreeMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortFreeMdl
+ - storport/StorPortFreeMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortFreeMdl
 ---
 
 # StorPortFreeMdl function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortFreeMdl</b> routine frees a memory descriptor list (MDL) describing non-paged pool memory.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param Mdl 
+
 [in]
 A pointer to the MDL to be freed.
 
-
 ## -returns
-
-
 
 StorPortFreeMdl returns one of the following status codes:
 
@@ -121,27 +114,12 @@ The call was made at an invalid IRQL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatemdl">StorPortAllocateMdl</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatemdl">StorPortAllocateMdl</a>
- 
-
- 
 

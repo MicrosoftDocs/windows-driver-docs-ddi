@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnDestroyPagingQueueCb"
- - "pfnDestroyPagingQueueCb"
+ - PFND3DDDI_DESTROYPAGINGQUEUECB
+ - d3dumddi/PFND3DDDI_DESTROYPAGINGQUEUECB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DESTROYPAGINGQUEUECB callback function
+
 
 ## -description
 

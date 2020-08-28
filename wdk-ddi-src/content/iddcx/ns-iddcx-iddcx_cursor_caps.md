@@ -8,9 +8,6 @@ ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.date: 05/10/2018
 keywords: ["IDDCX_CURSOR_CAPS structure"]
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
-f1_keywords:
- - "iddcx/IDDCX_CURSOR_CAPS"
- - "IDDCX_CURSOR_CAPS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDDCX_CURSOR_CAPS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDDCX_CURSOR_CAPS
+ - iddcx/IDDCX_CURSOR_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDDCX_CURSOR_CAPS
 ---
 
 # IDDCX_CURSOR_CAPS structure
@@ -46,26 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the capabilities of the cursor.
-             
-
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-
                      Total size of the structure.
-                 
-
 
 ### -field ColorXorCursorSupport
-
 
                      Indicates what level of support the driver has for XOR masks in the 32-bit masked color cursor format.
 
@@ -74,21 +63,13 @@ req.typenames:
 
 ### -field AlphaCursorSupport
 
-
                      Indicates if the adapter supports the 32-bit alpha cursor format. Most cursors are alpha format.
-                 
-
 
 ### -field MaxX
 
-
                      The maximum width supported for all supported cursor types.
-                 
-
 
 ### -field MaxY
 
-
                      The maximum height support for all cursor types.
-                 
 

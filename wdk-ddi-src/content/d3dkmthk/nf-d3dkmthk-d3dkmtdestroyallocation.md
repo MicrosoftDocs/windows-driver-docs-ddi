@@ -7,9 +7,6 @@ ms.assetid: 249ca05c-406d-4d47-a266-222f7be1a883
 ms.date: 05/10/2018
 keywords: ["D3DKMTDestroyAllocation function"]
 ms.keywords: D3DKMTDestroyAllocation, D3DKMTDestroyAllocation function [Display Devices], OpenGL_Functions_ecc5579c-3b0a-4c2c-9978-9f2591444c03.xml, d3dkmthk/D3DKMTDestroyAllocation, display.d3dkmtdestroyallocation
-f1_keywords:
- - "d3dkmthk/D3DKMTDestroyAllocation"
- - "D3DKMTDestroyAllocation"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,24 +24,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTDestroyAllocation
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTDestroyAllocation
+ - d3dkmthk/D3DKMTDestroyAllocation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTDestroyAllocation
 ---
 
 # D3DKMTDestroyAllocation function
+
 
 ## -description
 
@@ -72,4 +73,4 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation">D3DKMT_DESTROYALLOCATION</a>
- 
+

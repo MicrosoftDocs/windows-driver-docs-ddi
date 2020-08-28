@@ -5,39 +5,42 @@ description: Get pointer shape data.
 ms.assetid: 18d53057-6f91-407e-bd43-31711e645987
 ms.date: 10/19/2018
 keywords: ["D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA"
- - "_D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA"
-ms.keywords: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, 
+ms.keywords: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
+ - d3dkmthk/_D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
+ - D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
+ - d3dkmthk/D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure
+
 
 ## -description
 
@@ -66,9 +69,11 @@ A pointer to the shape buffer.
 The required buffer size.
 
 ### -field ShapeInfo
+
  
 The shape info.
 
 ## -remarks
 
 ## -see-also
+

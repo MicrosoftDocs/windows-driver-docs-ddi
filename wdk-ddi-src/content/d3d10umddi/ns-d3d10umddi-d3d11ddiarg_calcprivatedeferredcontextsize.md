@@ -7,9 +7,6 @@ ms.assetid: 7889400e-bd26-43b5-a860-bea9f9217002
 ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure"]
 ms.keywords: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_eca4d605-7188-46b1-b429-04094a9f7db6.xml, d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, display.d3d11ddiarg_calcprivatedeferredcontextsize
-f1_keywords:
- - "d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE"
- - "D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
+f1_keywords:
+ - D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
+ - d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
 ---
 
 # D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure
@@ -46,14 +46,9 @@ req.typenames: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
 
 ## -description
 
-
-The D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure describes the parameters that the user-mode display driver uses to calculate the size of a memory block that the driver requires to store frequently-accessed data. 
-
+The D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure describes the parameters that the user-mode display driver uses to calculate the size of a memory block that the driver requires to store frequently-accessed data.
 
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -89,15 +84,9 @@ This flag represents the level of 3-D pipeline that the driver should support fo
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11ddi_3dpipelinelevel">D3D11DDI_3DPIPELINELEVEL</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
- 
-
- 
 

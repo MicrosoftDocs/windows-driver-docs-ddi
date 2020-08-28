@@ -8,9 +8,6 @@ ms.assetid: E0749F52-CC7C-484D-8350-1986154957C1
 ms.date: 05/02/2018
 keywords: ["FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function"]
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, FilterSynchronousOidRequestComplete, FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete
-f1_keywords:
- - "ndis/FilterSynchronousOidRequestComplete"
- - "FilterSynchronousOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- FilterSynchronousOidRequestComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE
+ - ndis/FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - FilterSynchronousOidRequestComplete
 ---
 
 # FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function
+
 
 ## -description
 
@@ -52,18 +53,22 @@ This function is supported in NDIS 6.81 and later.
 ## -parameters
 
 ### -param FilterModuleContext 
+
 [in]
 A handle to the context area for the filter module that is the target of this request. The filter driver created and initialized this context area in the [*FilterAttach*](nc-ndis-filter_attach.md) function.
 
 ### -param OidRequest 
+
 [in, out]
 A pointer to an [**NDIS_OID_REQUEST**](ns-ndis-_ndis_oid_request.md) structure that specifies the operation being completed.
 
 ### -param Status 
+
 [in, out]
 A pointer to the resulting status code of the request being completed.
 
 ### -param CallContext 
+
 [in]
 A PVOID-sized storage slot for the filter driver to share state between its [*FilterSynchronousOidRequest*](nf-ndis-filter_synchronous_oid_request.md) and *FilterSynchronousOidRequestComplete* handlers. If the filter driver implements a *FilterSynchronousOidRequest* handler, this parameter contains the context value that the *FilterSynchronousOidRequest* handler returned. Otherwise, if the filter driver does not implement a *FilterSynchronousOidRequest* handler, this value is zero.
 
@@ -110,3 +115,4 @@ Filter drivers must not call [**NdisAllocateCloneOidRequest**](nf-ndis-ndisalloc
 [**NdisFSynchronousOidRequest**](nf-ndis-ndisfsynchronousoidrequest.md)
 
 [Synchronous OID Request Interface in NDIS 6.80](https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80)
+

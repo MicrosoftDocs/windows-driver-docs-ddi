@@ -7,9 +7,6 @@ ms.assetid: 28CC4BE1-D4C1-4D22-885B-D50BE5AD6EE6
 ms.date: 05/10/2018
 keywords: ["DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure"]
 ms.keywords: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure [Display Devices], _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, display.dxgk_check_multiplane_overlay_support_plane
-f1_keywords:
- - "d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE"
- - "DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,55 +24,47 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+f1_keywords:
+ - _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+ - d3dkmddi/_DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+ - DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+ - d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 ---
 
 # _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure
 
-## -description
 
+## -description
 
 Specifies the support attributes that the hardware provides for multiplane overlays.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hAllocation
 
 [out] A handle to the allocation. The display miniport driver must set this member to a value that it can use to refer to its private tracking structure for the allocation.
 
-
 ### -field VidPnSourceId
 
 [in] The zero-based video present network (VidPN) source identification number of the input for which the support levels are queried.
-
 
 ### -field PlaneAttributes
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
- 
-
- 
 

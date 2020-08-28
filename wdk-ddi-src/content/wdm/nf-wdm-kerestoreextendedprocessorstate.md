@@ -8,9 +8,6 @@ ms.assetid: ea5e654a-9cb5-4d4d-9660-339410a6a20f
 ms.date: 04/30/2018
 keywords: ["KeRestoreExtendedProcessorState function"]
 ms.keywords: KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate, wdm/KeRestoreExtendedProcessorState
-f1_keywords:
- - "wdm/KeRestoreExtendedProcessorState"
- - "KeRestoreExtendedProcessorState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeRestoreExtendedProcessorState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeRestoreExtendedProcessorState
+ - wdm/KeRestoreExtendedProcessorState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeRestoreExtendedProcessorState
 ---
 
 # KeRestoreExtendedProcessorState function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeRestoreExtendedProcessorState</b> routine restores extended processor state information that was previously saved.
-
 
 ## -parameters
 
-
-
-
 ### -param XStateSave 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">XSTATE_SAVE</a> structure that contains the extended processor state information to restore. The contents of this structure must have been previously saved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesaveextendedprocessorstate">KeSaveExtendedProcessorState</a> routine.
 
-
 ## -remarks
-
-
 
 Kernel-mode driver code must ensure that calls to <b>KeSaveExtendedProcessorState</b> and <b>KeRestoreExtendedProcessorState</b> are properly nested. This is required so that, at each nesting level, the state that was restored by the <b>KeRestoreExtendedProcessorState</b> call is the same state that was saved by the corresponding <b>KeSaveExtendedProcessorState</b> call. To ensure proper nesting, kernel-mode driver code must follow these rules:
 
@@ -86,13 +79,7 @@ The <b>KeRestoreExtendedProcessorState</b> call that restores a saved state must
 </ul>
 A similar set of rules apply to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a> routines.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a>
 
@@ -107,7 +94,4 @@ A similar set of rules apply to the <a href="https://docs.microsoft.com/windows-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">XSTATE_SAVE</a>
- 
-
- 
 

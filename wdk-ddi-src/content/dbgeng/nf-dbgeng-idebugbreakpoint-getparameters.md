@@ -8,9 +8,6 @@ ms.assetid: 6b0e2a3d-2a62-4a79-a4e1-03168277caec
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint::GetParameters"]
 ms.keywords: ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, GetParameters, GetParameters method [Windows Debugging], GetParameters method [Windows Debugging],IDebugBreakpoint interface, GetParameters method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetParameters method, IDebugBreakpoint.GetParameters, IDebugBreakpoint2 interface [Windows Debugging],GetParameters method, IDebugBreakpoint2::GetParameters, IDebugBreakpoint::GetParameters, dbgeng/IDebugBreakpoint2::GetParameters, dbgeng/IDebugBreakpoint::GetParameters, debugger.getparameters
-f1_keywords:
- - "dbgeng/IDebugBreakpoint.GetParameters"
- - "IDebugBreakpoint.GetParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint.GetParameters
-- IDebugBreakpoint2.GetParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint::GetParameters
+ - dbgeng/IDebugBreakpoint::GetParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint.GetParameters
+ - IDebugBreakpoint2.GetParameters
 ---
 
 # IDebugBreakpoint::GetParameters
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetParameters</b> method returns the parameters for a breakpoint.
-
 
 ## -parameters
 
-
-
-
 ### -param Params 
+
 [out]
 The breakpoint's parameters.  For more information about the parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_breakpoint_parameters">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -86,16 +79,9 @@ The method was successful.
 
 This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetParameters</b> method is a convenience method that returns most of the parameters that the other <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> methods return.
 
 For a list of the parameters and flags that this method retrieves, and for other ways to read and write these parameters and flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: e843eb33-f688-4963-9f35-244b4ed0ef7a
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetFormatRequestForInternalIoctlOthers function"]
 ms.keywords: DFIOTargetRef_bf839577-4858-4b98-adf3-cee7e8f01bd5.xml, WdfIoTargetFormatRequestForInternalIoctlOthers, WdfIoTargetFormatRequestForInternalIoctlOthers method, kmdf.wdfiotargetformatrequestforinternalioctlothers, wdf.wdfiotargetformatrequestforinternalioctlothers, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers
-f1_keywords:
- - "wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers"
- - "WdfIoTargetFormatRequestForInternalIoctlOthers"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoTargetFormatRequestForInternalIoctlOthers
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoTargetFormatRequestForInternalIoctlOthers
+ - wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoTargetFormatRequestForInternalIoctlOthers
 ---
 
 # WdfIoTargetFormatRequestForInternalIoctlOthers function
@@ -47,65 +47,58 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoTargetFormatRequestForInternalIoctlOthers</b> method builds a non-standard internal device control request for an I/O target but does not send the request.
 
-
 ## -parameters
 
-
-
-
 ### -param IoTarget 
+
 [in]
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
-
 ### -param Request 
+
 [in]
 A handle to a framework request object. For more information, see the following Remarks section.
 
-
 ### -param IoctlCode 
-[in]
-An I/O control code (IOCTL) that the I/O target supports. 
 
+[in]
+An I/O control code (IOCTL) that the I/O target supports.
 
 ### -param OtherArg1 
+
 [in, optional]
 A handle to a framework memory object. This object represents a buffer that the driver uses for request-specific, driver-defined context information. For more information, see the following Remarks section. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param OtherArg1Offset 
+
 [in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. Drivers can use these values to specify the beginning address and length of a segment of the context area that is specified by <i>OtherArg1</i>. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param OtherArg2 
+
 [in, optional]
 A handle to a framework memory object. This object represents a buffer that the driver uses for request-specific, driver-defined context information. For more information, see the following Remarks section. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param OtherArg2Offset 
+
 [in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. Drivers can use these values to specify the beginning address and length of a segment of the context area that is specified by <i>OtherArg2</i>. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param OtherArg4 
+
 [in, optional]
 A handle to a framework memory object. This object represents a buffer that the driver uses for request-specific, driver-defined context information. For more information, see the following Remarks section. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param OtherArg4Offset 
+
 [in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. Drivers can use these values to specify the beginning address and length of a segment of the context area that is specified by <i>OtherArg4</i>. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfIoTargetFormatRequestForInternalIoctlOthers</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -165,14 +158,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use the <b>WdfIoTargetFormatRequestForInternalIoctlOthers</b> method, followed by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> method, to send non-standard internal device control requests either synchronously or asynchronously. Alternatively, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a> method to send non-standard internal device control requests synchronously. 
 
@@ -299,12 +285,7 @@ else {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -355,7 +336,4 @@ else {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>
- 
-
- 
 

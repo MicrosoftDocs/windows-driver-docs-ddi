@@ -8,9 +8,6 @@ ms.assetid: 2ca34fb7-72c1-4253-ad5b-bc829a1ba540
 ms.date: 02/26/2018
 keywords: ["WdfDeviceRetrieveCompanionTarget function"]
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
-f1_keywords:
- - "wdfdevice/WdfDeviceRetrieveCompanionTarget"
- - "WdfDeviceRetrieveCompanionTarget"
 req.header: wdfdevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WdfDeviceRetrieveCompanionTarget
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceRetrieveCompanionTarget
+ - wdfdevice/WdfDeviceRetrieveCompanionTarget
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WdfDeviceRetrieveCompanionTarget
 ---
 
 # WdfDeviceRetrieveCompanionTarget function
@@ -46,17 +46,15 @@ req.typenames:
 
 ## -description
 
-
 For internal use only.
-
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 
 ### -param CompanionTarget 
+
 [out]
+

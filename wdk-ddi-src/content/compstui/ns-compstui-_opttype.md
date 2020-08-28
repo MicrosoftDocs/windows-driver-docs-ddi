@@ -8,9 +8,6 @@ ms.assetid: 041dd438-e837-4912-bda7-de654204198b
 ms.date: 04/20/2018
 keywords: ["OPTTYPE structure"]
 ms.keywords: "*POPTTYPE, OPTTYPE, OPTTYPE structure [Print Devices], POPTTYPE, POPTTYPE structure pointer [Print Devices], _OPTTYPE, compstui/OPTTYPE, compstui/POPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, print.opttype"
-f1_keywords:
- - "compstui/OPTTYPE"
- - "OPTTYPE"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- OPTTYPE
 targetos: Windows
 req.typenames: OPTTYPE, *POPTTYPE
+f1_keywords:
+ - _OPTTYPE
+ - compstui/_OPTTYPE
+ - POPTTYPE
+ - compstui/POPTTYPE
+ - OPTTYPE
+ - compstui/OPTTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - OPTTYPE
 ---
 
 # _OPTTYPE structure
@@ -46,24 +50,17 @@ req.typenames: OPTTYPE, *POPTTYPE
 
 ## -description
 
-
 The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options">property sheet option</a>, if the option is specified by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size, in bytes, of the OPTTYPE structure.
 
-
 ### -field Type
 
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
-
 
 ### -field Flags
 
@@ -87,11 +84,9 @@ Valid only if the option type is or <a href="https://docs.microsoft.com/windows-
 
 All the OPTPARAM structures to which <b>pOptParam</b> points are disabled, so that none of the parameter values are user-selectable.
 
-
 ### -field Count
 
 Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structures to which <b>pOptParam</b> points. This member's value is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
-
 
 ### -field BegCtrlID
 
@@ -99,21 +94,17 @@ If <b>pDlgPage</b> in <a href="https://docs.microsoft.com/windows-hardware/drive
 
 Otherwise, <b>BegCtrlID</b> must contain the first of a sequentially numbered set of Windows control identifiers. Control identifier usage is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
-
 ### -field pOptParam
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structures describing the parameter values that a user can select for the option.
-
 
 ### -field Style
 
 Specifies flags that can be used to modify the option's display characteristics. The flags that can be specified are dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
-
 ### -field wReserved
 
 Reserved, must be initialized to zero.
-
 
 ### -field dwReserved
 

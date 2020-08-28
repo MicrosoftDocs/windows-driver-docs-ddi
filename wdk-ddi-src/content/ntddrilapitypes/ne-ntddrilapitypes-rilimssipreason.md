@@ -8,9 +8,6 @@ ms.assetid: bb3269d5-1e42-4e18-9d93-ad7f3f4de3f9
 ms.date: 05/02/2018
 keywords: ["RILIMSSIPREASON enumeration"]
 ms.keywords: RILIMSSIPREASON, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSIPREASON_MAX, RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, netvista.rilimssipreason, ntddrilapitypes/RILIMSSIPREASON, ntddrilapitypes/RIL_IMSSIPREASON_MAX, ntddrilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE
-f1_keywords:
- - "ntddrilapitypes/RILIMSSIPREASON"
- - "RILIMSSIPREASON"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILIMSSIPREASON
 targetos: Windows
 req.typenames: RILIMSSIPREASON
+f1_keywords:
+ - RILIMSSIPREASON
+ - ntddrilapitypes/RILIMSSIPREASON
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILIMSSIPREASON
 ---
 
 # RILIMSSIPREASON enumeration
@@ -46,20 +46,13 @@ req.typenames: RILIMSSIPREASON
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_IMSSIPREASON_NONE
 
-
 ### -field RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE
-
 
 ### -field RIL_IMSSIPREASON_MAX
 

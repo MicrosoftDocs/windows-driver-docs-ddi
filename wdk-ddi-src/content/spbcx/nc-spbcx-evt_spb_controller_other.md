@@ -8,9 +8,6 @@ ms.assetid: 5A4BC061-4703-4C46-BD5D-A891F3DA8842
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_CONTROLLER_OTHER callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_OTHER, EVT_SPB_CONTROLLER_OTHER callback, EvtSpbControllerIoOther, EvtSpbControllerIoOther callback function [Buses], SPB.evtspbcontrollerioother, spbcx/EvtSpbControllerIoOther
-f1_keywords:
- - "spbcx/EvtSpbControllerIoOther"
- - "EvtSpbControllerIoOther"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Spbcx.h
-api_name:
-- EvtSpbControllerIoOther
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SPB_CONTROLLER_OTHER
+ - spbcx/EVT_SPB_CONTROLLER_OTHER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Spbcx.h
+api_name:
+ - EvtSpbControllerIoOther
 ---
 
 # EVT_SPB_CONTROLLER_OTHER callback function
@@ -46,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
 An SPB controller driver's <i>EvtSpbControllerIoOther</i> event callback function handles device I/O control requests that are not handled by other event callback functions or by the SPB framework extension (SpbCx).
-
 
 ## -parameters
 
-
-
-
 ### -param Controller 
+
 [in]
 A WDFDEVICE handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
-
 ### -param Target 
+
 [in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
 
-
 ### -param Request 
+
 [in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. Your SPB controller driver must complete this request. For more information, see Remarks.
 
-
 ### -param OutputBufferLength 
+
 [in]
 The length, in bytes, of the output buffer, if an output buffer is supplied with the request.
 
-
 ### -param InputBufferLength 
+
 [in]
 The length, in bytes, of the input buffer, if an input buffer is supplied with the request.
 
-
 ### -param IoControlCode 
+
 [in]
 The I/O control code (IOCTL) for the request. This value is an IOCTL that the SPB framework extension (SpbCx) does not recognize.  For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 SpbCx manages the I/O queue for the SPB controller. If the SPB controller driver registers an <i>EvtSpbControllerIoOther</i> callback function, SpbCx calls this function when a device I/O control request that SpbCx does not support arrives in the controller's I/O queue. The <i>Request</i> parameter value is a handle that encapsulates this request. The SPB controller driver must complete this request either by performing the requested operation or by returning an error status. If the driver does not support the specified IOCTL, the driver should return the STATUS_NOT_SUPPORTED error status. For a list of IOCTLs that SpbCx supports, see <a href="https://docs.microsoft.com/previous-versions/hh450915(v=vs.85)">SpbCx I/O Control Codes</a>.
 
@@ -146,12 +139,7 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a>
 
@@ -170,7 +158,4 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbcontrollersetioothercallback">SpbControllerSetIoOther</a>
- 
-
- 
 

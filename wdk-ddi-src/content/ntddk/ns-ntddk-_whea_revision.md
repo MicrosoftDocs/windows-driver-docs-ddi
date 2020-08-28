@@ -8,9 +8,6 @@ ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.date: 02/20/2018
 keywords: ["WHEA_REVISION structure"]
 ms.keywords: "*PWHEA_REVISION, PWHEA_REVISION, PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], _WHEA_REVISION, ntddk/PWHEA_REVISION, ntddk/WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml"
-f1_keywords:
- - "ntddk/WHEA_REVISION"
- - "WHEA_REVISION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_REVISION
 targetos: Windows
 req.typenames: WHEA_REVISION, *PWHEA_REVISION
+f1_keywords:
+ - _WHEA_REVISION
+ - ntddk/_WHEA_REVISION
+ - PWHEA_REVISION
+ - ntddk/PWHEA_REVISION
+ - WHEA_REVISION
+ - ntddk/WHEA_REVISION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_REVISION
 ---
 
 # _WHEA_REVISION structure
@@ -46,55 +50,33 @@ req.typenames: WHEA_REVISION, *PWHEA_REVISION
 
 ## -description
 
-
 The WHEA_REVISION union describes the revision of the error record data structures.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYSTRUCTNAME.MinorRevision
 
 The minor revision number.
 
-
 ### -field DUMMYSTRUCTNAME.MajorRevision
 
 The major revision number.
-
 
 ### -field AsUSHORT
 
 A USHORT representation of the contents of the WHEA_REVISION union.
 
-
 ## -remarks
-
-
 
 A WHEA_REVISION union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
- 
-
- 
 

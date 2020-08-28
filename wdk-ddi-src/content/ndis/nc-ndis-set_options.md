@@ -8,9 +8,6 @@ ms.assetid: 342e23ad-d38b-4100-949a-220b8fbdcf6e
 ms.date: 05/02/2018
 keywords: ["SET_OPTIONS callback function"]
 ms.keywords: SET_OPTIONS, SET_OPTIONS callback, SetOptions, SetOptions callback function [Network Drivers Starting with Windows Vista], ndis/SetOptions, netvista.protocolsetoptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
-f1_keywords:
- - "ndis/SetOptions"
- - "SetOptions"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- SetOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SET_OPTIONS
+ - ndis/SET_OPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - SetOptions
 ---
 
 # SET_OPTIONS callback function
 
 
 ## -description
-
 
 NDIS calls a driver's 
   <i>XxxSetOptions</i> function to allow the driver to register optional services. This function is defined as <i>MiniportSetOptions</i> for miniport drivers,  <i>ProtocolSetOptions</i> for protocol drivers, or <i>FilterSetOptions</i> for filter drivers.
@@ -54,26 +53,21 @@ NDIS calls a driver's
 
 ## -parameters
 
-
-
-
 ### -param NdisDriverHandle 
+
 [in]
 A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> for miniport drivers, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> for protocol drivers, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
      NdisFRegisterFilterDriver</a> for filter drivers).
 
-
 ### -param DriverContext 
+
 [in]
 The handle that the driver passed to 
      <b>NdisRegisterXxxDriver</b> that identifies the driver context area, where Xxx is the type of driver (Miniport, Protocol, or Filter).
 
-
 ## -returns
-
-
 
 <i>XxxSetOptions</i> returns one of the following status values:
 
@@ -119,14 +113,8 @@ The driver's attempt to register options failed. Usually, such an error status i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>XxxSetOptions</i> is an optional function. NDIS calls 
     <i>XxxSetOptions</i> within the context of the driver's call to the 
@@ -274,15 +262,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>SET_OPTIONS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>SET_OPTIONS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_co_call_manager_optional_handlers">
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
@@ -312,7 +294,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
- 
-
- 
 

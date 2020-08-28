@@ -8,9 +8,6 @@ ms.assetid: e757e63d-6d78-4b20-9471-290f56c1bcde
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_RESET_DEVICE callback function"]
 ms.keywords: DXGKDDI_RESET_DEVICE, DXGKDDI_RESET_DEVICE callback, DmFunctions_70e9fe99-65be-47a5-bb9a-fac4e10d3ae9.xml, DxgkDdiResetDevice, DxgkDdiResetDevice callback function [Display Devices], display.dxgkddiresetdevice, dispmprt/DxgkDdiResetDevice
-f1_keywords:
- - "dispmprt/DxgkDdiResetDevice"
- - "DxgkDdiResetDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiResetDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_RESET_DEVICE
+ - dispmprt/DXGKDDI_RESET_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiResetDevice
 ---
 
 # DXGKDDI_RESET_DEVICE callback function
@@ -46,27 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiResetDevice</i> function sets a display adapter to VGA character mode (80 x 50).
-
 
 ## -parameters
 
-
-
-
 ### -param MiniportDeviceContext 
+
 [in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-
 ## -remarks
-
-
 
 The HAL calls this function so it can display information on the screen during hibernation, bug checks, and the like.
 
 <i>DxgkDdiResetDevice</i> can be called at any IRQL, so it must be in nonpageable memory. <i>DxgkDdiResetDevice</i> must not call any code that is in pageable memory and must not manipulate any data that is in pageable memory.
-
-
 

@@ -5,35 +5,40 @@ description: Describes the ACPI PLD joint descriptor buffer, revision 1 (Microso
 ms.assetid: 58ca5533-2732-4e70-8076-3402c601349b
 ms.date: 08/13/2020
 keywords: ["ACPI_PLD_JOINT_BUFFER structure"]
-f1_keywords:
- - "acpitabl/_ACPI_PLD_JOINT_BUFFER"
- - "_ACPI_PLD_JOINT_BUFFER"
-ms.keywords: _ACPI_PLD_JOINT_BUFFER, ACPI_PLD_JOINT_BUFFER, *PACPI_PLD_JOINT_BUFFER, 
+ms.keywords: _ACPI_PLD_JOINT_BUFFER, ACPI_PLD_JOINT_BUFFER, *PACPI_PLD_JOINT_BUFFER,
 req.header: acpitabl.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: ACPI_PLD_JOINT_BUFFER, *PACPI_PLD_JOINT_BUFFER
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- acpitabl.h
-api_name: 
-- _ACPI_PLD_JOINT_BUFFER
 targetos: Windows
+f1_keywords:
+ - _ACPI_PLD_JOINT_BUFFER
+ - acpitabl/_ACPI_PLD_JOINT_BUFFER
+ - PACPI_PLD_JOINT_BUFFER
+ - acpitabl/PACPI_PLD_JOINT_BUFFER
+ - ACPI_PLD_JOINT_BUFFER
+ - acpitabl/ACPI_PLD_JOINT_BUFFER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _ACPI_PLD_JOINT_BUFFER
 ---
 
 # _ACPI_PLD_JOINT_BUFFER structure
+
 
 ## -description
 
@@ -81,3 +86,4 @@ DEFINE_GUID(ACPI_PLD_JOINT_BUFFER_GUID,
 ```
 
 ## -see-also
+

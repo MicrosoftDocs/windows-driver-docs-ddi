@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateBlendStateSize_d3d10_1_"
- - "CalcPrivateBlendStateSize_d3d10_1_"
+ - PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE
+ - d3d10umddi/PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10_1DDI_CALCPRIVATEBLENDSTATESIZE callback function
+
 
 ## -description
 

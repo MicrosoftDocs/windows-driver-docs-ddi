@@ -8,9 +8,6 @@ ms.assetid: 92a84bf3-34bf-4ee7-97c0-f5e6427c0464
 ms.date: 04/23/2018
 keywords: ["IKsReferenceClock interface"]
 ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices],described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
-f1_keywords:
- - "ks/IKsReferenceClock"
- - "IKsReferenceClock"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ks.h
-api_name:
-- IKsReferenceClock
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - IKsReferenceClock
+ - ks/IKsReferenceClock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ks.h
+api_name:
+ - IKsReferenceClock
 ---
 
 # IKsReferenceClock interface
+
 
 ## -description
 
@@ -95,3 +96,4 @@ For more information, see [AVStream Overview](https://docs.microsoft.com/windows
 [KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface)
 
 [KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface)
+

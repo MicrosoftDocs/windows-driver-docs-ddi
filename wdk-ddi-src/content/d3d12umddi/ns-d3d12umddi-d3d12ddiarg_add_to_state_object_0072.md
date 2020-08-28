@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
 f1_keywords:
- - d3d12umddi//D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
  - D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
+ - d3d12umddi/D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
 dev_langs:
  - c++
 ---
@@ -72,3 +72,4 @@ See the [DirectX RayTracing (DXR) Specification](https://microsoft.github.io/Dir
 [**PFND3D12DDI_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md)
 
 [**PFND3D12DDI_CALC_PRIVATE_ADD_TO_STATE_OBJECT_SIZE_0072**](nc-d3d12umddi-pfnd3d12ddi_calc_private_add_to_state_object_size_0072.md)
+

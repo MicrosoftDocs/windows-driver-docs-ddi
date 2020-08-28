@@ -8,9 +8,6 @@ ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
 ms.date: 08/26/2020
 keywords: ["CWiaLogProcEx::CWiaLogProcEx"]
 ms.keywords: CWiaLogProcEx, CWiaLogProcEx interface [Imaging Devices],CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface, CWiaLogProcEx.CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, wiamdef/CWiaLogProcEx::CWiaLogProcEx
-f1_keywords:
- - "wiamdef/CWiaLogProcEx.CWiaLogProcEx"
- - "CWiaLogProcEx.CWiaLogProcEx"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiamdef.h
-api_name:
-- CWiaLogProcEx.CWiaLogProcEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiaLogProcEx::CWiaLogProcEx
+ - wiamdef/CWiaLogProcEx::CWiaLogProcEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiamdef.h
+api_name:
+ - CWiaLogProcEx.CWiaLogProcEx
 ---
 
 # CWiaLogProcEx::CWiaLogProcEx
+
 
 ## -description
 
@@ -78,3 +79,4 @@ Defines the **LONG** parameter *lMethodId*.
 ## -see-also
 
 [CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogprocex-cwialogprocex)
+

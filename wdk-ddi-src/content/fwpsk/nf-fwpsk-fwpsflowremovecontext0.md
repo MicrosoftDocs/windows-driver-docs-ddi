@@ -8,9 +8,6 @@ ms.assetid: edc257bc-2805-47d8-827a-536e5d74793b
 ms.date: 05/02/2018
 keywords: ["FwpsFlowRemoveContext0 function"]
 ms.keywords: FwpsFlowRemoveContext0, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowRemoveContext0, netvista.fwpsflowremovecontext0, wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml
-f1_keywords:
- - "fwpsk/FwpsFlowRemoveContext0"
- - "FwpsFlowRemoveContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsFlowRemoveContext0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsFlowRemoveContext0
+ - fwpsk/FwpsFlowRemoveContext0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsFlowRemoveContext0
 ---
 
 # FwpsFlowRemoveContext0 function
@@ -47,25 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsFlowRemoveContext0</b> function removes a previously associated context from a data flow.
 <div class="alert"><b>Note</b>  <b>FwpsFlowRemoveContext0</b> is a specific version of <b>FwpsFlowRemoveContext</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param flowId 
+
 [in]
 A run-time identifier that specifies the data flow from which to remove the context. The run-time
      identifier for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE
      metadata value that was passed to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
-
 ### -param layerId 
+
 [in]
 The run-time identifier for the filtering layer from which the context is being removed. For more
      information, see 
@@ -74,8 +71,8 @@ The run-time identifier for the filtering layer from which the context is being 
      the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowassociatecontext0">FwpsFlowAssociateContext0</a> function to associate the context with the data flow.
 
-
 ### -param calloutId 
+
 [in]
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called either the 
@@ -83,10 +80,7 @@ The run-time identifier for the callout in the filter engine. This identifier wa
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsFlowRemoveContext0</b> function returns one of the following NTSTATUS codes.
@@ -130,14 +124,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the 
     <b>FwpsFlowRemoveContext0</b> function returns STATUS_SUCCESS, 
@@ -148,13 +136,7 @@ If the
     <b>FwpsFlowRemoveContext0</b> calls 
     <i>flowDeleteFn</i> asynchronously because an active callout classification is in progress.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
@@ -173,7 +155,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a>
- 
-
- 
 

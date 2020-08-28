@@ -8,9 +8,6 @@ ms.assetid: cb2fd11c-c6a5-4499-a340-f96ffcfbbe0f
 ms.date: 02/26/2018
 keywords: ["WDF_TASK_SEND_OPTIONS structure"]
 ms.keywords: "*PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, _WDF_TASK_SEND_OPTIONS, wdf.wdf_task_send_options, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS"
-f1_keywords:
- - "wdfcompaniontarget/WDF_TASK_SEND_OPTIONS"
- - "WDF_TASK_SEND_OPTIONS"
 req.header: wdfcompaniontarget.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompaniontarget.h
-api_name:
-- WDF_TASK_SEND_OPTIONS
 targetos: Windows
 req.typenames: WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS
+f1_keywords:
+ - _WDF_TASK_SEND_OPTIONS
+ - wdfcompaniontarget/_WDF_TASK_SEND_OPTIONS
+ - PWDF_TASK_SEND_OPTIONS
+ - wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS
+ - WDF_TASK_SEND_OPTIONS
+ - wdfcompaniontarget/WDF_TASK_SEND_OPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompaniontarget.h
+api_name:
+ - WDF_TASK_SEND_OPTIONS
 ---
 
 # _WDF_TASK_SEND_OPTIONS structure
@@ -46,20 +50,13 @@ req.typenames: WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS
 
 ## -description
 
-
 For internal use only.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-
 ### -field Flags
-
 
 ### -field Timeout
 

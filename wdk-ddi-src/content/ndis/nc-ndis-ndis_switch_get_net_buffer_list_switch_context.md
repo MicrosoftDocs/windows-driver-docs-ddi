@@ -8,9 +8,6 @@ ms.assetid: 68270219-7003-489B-8362-8D6867D571FD
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function"]
 ms.keywords: GetNetBufferListSwitchContext, GetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback, ndis/GetNetBufferListSwitchContext, netvista.getnetbufferlistswitchcontext
-f1_keywords:
- - "ndis/GetNetBufferListSwitchContext"
- - "GetNetBufferListSwitchContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- GetNetBufferListSwitchContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT
+ - ndis/NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - GetNetBufferListSwitchContext
 ---
 
 # NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
-The Hyper-V extensible switch extension calls the GetNetBufferListSwitchContext function to retrieve the switch context previously set on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>. 
-
+The Hyper-V extensible switch extension calls the GetNetBufferListSwitchContext function to retrieve the switch context previously set on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>.
 
 ## -parameters
 
-
-
-
 ### -param NdisSwitchContext 
+
 [in]
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>, this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for a single packet that contains the context to be retrieved.
 
@@ -68,24 +64,17 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 <div> </div>
 
 ### -param ContextType 
+
 [in]
 Context
 
-Context type declared using the <i>NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE</i> that was used when setting the context. 
-
+Context type declared using the <i>NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE</i> that was used when setting the context.
 
 ## -returns
 
-
-
-NULL if no context was found in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> that matches the specified context type. Otherwise, a non-NULL pointer to the buffer is returned. 
-
-
-
+NULL if no context was found in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> that matches the specified context type. Otherwise, a non-NULL pointer to the buffer is returned.
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_set_net_buffer_list_switch_context">SetNetBufferListSwitchContext</a> APIs allow extensions to attach context to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> on ingress and retrieve it on egress. Even so, extensions should be resilient to the ingress context not being present on egress. The switch context is not preserved when an NET_BUFFER_LIST is cloned, so in scenarios where the NET_BUFFER_LIST is cloned between ingress and egress, the NET_BUFFER_LIST will not have the original's switch context.
 
@@ -93,13 +82,7 @@ The extension must manage the lifetime of the context. One approach is to alloca
 
 For more information about the extensible switch forwarding context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-forwarding-context">Hyper-V Extensible Switch Forwarding Context</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -134,7 +117,4 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_set_net_buffer_list_switch_context">SetNetBufferListSwitchContext</a>
- 
-
- 
 

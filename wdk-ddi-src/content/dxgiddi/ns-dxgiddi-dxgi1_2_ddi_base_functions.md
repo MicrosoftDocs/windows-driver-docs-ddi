@@ -8,9 +8,6 @@ ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
 ms.date: 05/10/2018
 keywords: ["DXGI1_2_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
-f1_keywords:
- - "dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS"
- - "DXGI1_2_DDI_BASE_FUNCTIONS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dxgiddi.h
-api_name:
-- DXGI1_2_DDI_BASE_FUNCTIONS
 targetos: Windows
 req.typenames: DXGI1_2_DDI_BASE_FUNCTIONS
+f1_keywords:
+ - DXGI1_2_DDI_BASE_FUNCTIONS
+ - dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dxgiddi.h
+api_name:
+ - DXGI1_2_DDI_BASE_FUNCTIONS
 ---
 
 # DXGI1_2_DDI_BASE_FUNCTIONS structure
@@ -46,44 +46,33 @@ req.typenames: DXGI1_2_DDI_BASE_FUNCTIONS
 
 ## -description
 
-
 Contains pointers to functions that a Windows Display Driver Model (WDDM) 1.2 and later user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, getting notifications regarding shared and Windows Graphics Device Interface (GDI) interoperable surfaces, and managing a full-screen transition.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pfnPresent
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">PresentDXGI</a> function.
 
-
 ### -field pfnGetGammaCaps
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">GetGammaCapsDXGI</a> function.
-
 
 ### -field pfnSetDisplayMode
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_1_ddi_base_functions">SetDisplayModeDXGI</a> function.
 
-
 ### -field pfnSetResourcePriority
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">SetResourcePriorityDXGI</a> function.
-
 
 ### -field pfnQueryResourceResidency
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">QueryResourceResidencyDXGI</a> function.
 
-
 ### -field pfnRotateResourceIdentities
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">RotateResourceIdentitiesDXGI</a> function.
-
 
 ### -field pfnBlt
 
@@ -161,29 +150,21 @@ Beginning in Windows 8, if the driver must create a stereo back buffer, it shou
 </ol>
 Additionally, to support stereo presentation, the BltDXGI function must allow any values for the <b>DstSubresource</b> and <b>SrcSubresource</b> members of  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_blt">DXGI_DDI_ARG_BLT</a> structure that are within the range of the source and destination resources.
 
-
-
 ### -field pfnResolveSharedResource
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_1_ddi_base_functions">ResolveSharedResourceDXGI</a> function.
-
 
 ### -field pfnBlt1
 
 A pointer to the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_2_ddi_base_functions">Blt1DXGI</a> function.
 
-
 ### -field pfnOfferResources
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_offerresources">pfnOfferResources</a> function.
 
-
 ### -field pfnReclaimResources
 
 Called by the DXGI runtime to reclaim video memory resources that the user-mode display driver  previously offered  for reuse. Implemented by WDDM 1.2 and later user-mode display drivers.
-
-
-
 
 ### -field pfnGetMultiplaneOverlayCaps
 
@@ -212,11 +193,9 @@ Returns one of the following values.
 * **S_OK**  The driver successfully provided the overlay plane capabilities.
 * **D3DDDIERR_DEVICEREMOVED**  The driver detected that the display adapter was removed, so the driver did not complete the operation. If the driver is not aware of the adapter removal, the driver is not required to return this error code.
 
-
 ### -field pfnGetMultiplaneOverlayFilterRange
 
 This member is reserved and should be set to zero. Supported starting with Windows 8.1.
-
 
 ### -field pfnCheckMultiplaneOverlaySupport
 
@@ -253,17 +232,9 @@ Called by the DXGI runtime to check the details on hardware support for multipla
 
 #### pSupport
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-_dxgi_ddi_arg_checkmultiplaneoverlaysupport">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
-
-
-
-
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-_dxgi_ddi_arg_checkmultiplaneoverlaysupport">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
 
@@ -282,7 +253,4 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">DXGI_DDI_BASE_FUNCTIONS</a>
- 
-
- 
 

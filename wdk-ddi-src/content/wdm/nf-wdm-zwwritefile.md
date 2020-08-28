@@ -8,9 +8,6 @@ ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.date: 04/30/2018
 keywords: ["ZwWriteFile function"]
 ms.keywords: NtWriteFile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, wdm/NtWriteFile, wdm/ZwWriteFile
-f1_keywords:
- - "wdm/ZwWriteFile"
- - "ZwWriteFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwWriteFile
-- NtWriteFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwWriteFile
+ - wdm/ZwWriteFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwWriteFile
+ - NtWriteFile
 ---
 
 # ZwWriteFile function
@@ -47,51 +47,47 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwWriteFile</b> routine writes data to an open file.
-
 
 ## -parameters
 
-
-
-
 ### -param FileHandle 
-[in]
-Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>. 
 
+[in]
+Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>.
 
 ### -param Event 
+
 [in, optional]
 Optionally, a handle to an event object to set to the signaled state after the write operation completes. Device and intermediate drivers should set this parameter to <b>NULL</b>.
 
-
 ### -param ApcRoutine 
+
 [in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
-
 
 ### -param ApcContext 
+
 [in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
-
 ### -param IoStatusBlock 
+
 [out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member receives the number of bytes actually written to the file.
 
-
 ### -param Buffer 
+
 [in]
 Pointer to a caller-allocated buffer that contains the data to write to the file.
 
-
 ### -param Length 
+
 [in]
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
-
 ### -param ByteOffset 
+
 [in, optional]
 Pointer to a variable that specifies the starting byte offset in the file for beginning the write operation. If <i>Length</i> and <i>ByteOffset</i> specify a write operation past the current end-of-file mark, <b>ZwWriteFile</b> automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
 
@@ -115,24 +111,16 @@ Even when the I/O Manager is maintaining the current file position, the caller c
 
 It is also possible to cause a write operation to start at the current end of file by specifying for <i>ByteOffset</i> a pointer to a LARGE_INTEGER value with <b>HighPart</b> set to -1 and <b>LowPart</b> set to FILE_WRITE_TO_END_OF_FILE. This works regardless of whether the I/O Manager is maintaining the current file position.
 
-
 ### -param Key 
-[in, optional]
-Device and intermediate drivers should set this pointer to <b>NULL</b>. 
 
+[in, optional]
+Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 ## -returns
 
-
-
 <b>ZwWriteFile</b> returns STATUS_SUCCESS on success or the appropriate NTSTATUS error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 Callers of <b>ZwWriteFile</b> must have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> with the FILE_WRITE_DATA, FILE_APPEND_DATA, or GENERIC_WRITE flag set in the <i>DesiredAccess</i> parameter. Note that having only FILE_APPEND_DATA access to a file does not allow the caller to write anywhere in the file except at the current end-of-file mark, while having FILE_WRITE_DATA access to a file does not preclude the caller from writing to or beyond the end of a file.
 
@@ -170,13 +158,7 @@ Callers of <b>ZwWriteFile</b> must be running at IRQL = PASSIVE_LEVEL and <a hre
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
@@ -195,7 +177,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
- 
-
- 
 

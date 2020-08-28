@@ -8,9 +8,6 @@ ms.assetid: 1422f1fc-9653-4e6b-a7dd-c224ce7b9ca0
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_I2C_TRANSMIT structure"]
 ms.keywords: IDARG_IN_I2C_TRANSMIT, IDARG_IN_I2C_TRANSMIT structure [Display Devices], display.idarg_in_i2c_transmit, iddcx/IDARG_IN_I2C_TRANSMIT
-f1_keywords:
- - "iddcx/IDARG_IN_I2C_TRANSMIT"
- - "IDARG_IN_I2C_TRANSMIT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_I2C_TRANSMIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_I2C_TRANSMIT
+ - iddcx/IDARG_IN_I2C_TRANSMIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_I2C_TRANSMIT
 ---
 
 # IDARG_IN_I2C_TRANSMIT structure
@@ -46,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the I2C data being transmitted by the OS.
-             
-
 
 ## -struct-fields
 
-
-
-
 ### -field SevenBitI2CAddress
 
-
                      [in] The address of the I2C device to which data will be transmitted
-                 
-
 
 ### -field DataSizeInBytes
 
-
                      [in] The size, in bytes, of the buffer pointed to by <b>pData</b>. This parameter must be between 1 and 64, inclusively.
-                 
-
 
 ### -field pData
 
-
                      [in] A pointer to a buffer that holds the data to be transmitted.
-                 
 

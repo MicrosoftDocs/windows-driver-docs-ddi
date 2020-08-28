@@ -8,9 +8,6 @@ ms.assetid: 9e4b86cf-308f-4d9b-be28-966312dc4e43
 ms.date: 04/23/2018
 keywords: ["IKsControl::KsEvent"]
 ms.keywords: IKsControl interface [Streaming Media Devices],KsEvent method, IKsControl.KsEvent, IKsControl::KsEvent, KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices],IKsControl interface, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, ks/IKsControl::KsEvent, stream.ikscontrol_ksevent2
-f1_keywords:
- - "ks/IKsControl.KsEvent"
- - "IKsControl.KsEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: DesktopMobile
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ks.h
-api_name:
-- IKsControl.KsEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsControl::KsEvent
+ - ks/IKsControl::KsEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ks.h
+api_name:
+ - IKsControl.KsEvent
 ---
 
 # IKsControl::KsEvent
@@ -46,69 +46,43 @@ req.typenames:
 
 ## -description
 
-
-The <b>IKsControl::KsEvent</b> method enables or disables an event, together with any other defined support operations available on an event set. 
-
+The <b>IKsControl::KsEvent</b> method enables or disables an event, together with any other defined support operations available on an event set.
 
 ## -parameters
-
-
-
 
 ### -param Event
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
 
-
 ### -param EventLength
 
-Specifies size, in bytes, of the buffer at <i>Event</i> when the event is enabled and zero when the event is disabled. 
-
+Specifies size, in bytes, of the buffer at <i>Event</i> when the event is enabled and zero when the event is disabled.
 
 ### -param EventData
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event.
 
 ### -param DataLength
 
-Specifies size, in bytes, of the buffer at <i>EventData</i>. 
-
+Specifies size, in bytes, of the buffer at <i>EventData</i>.
 
 ### -param BytesReturned
 
-Pointer to a variable that receives the size, in bytes, of the data that <b>KsEvent</b> stores in the buffer at <i>EventData</i>. 
-
+Pointer to a variable that receives the size, in bytes, of the data that <b>KsEvent</b> stores in the buffer at <i>EventData</i>.
 
 ## -returns
 
-
-
 The <b>IKsControl::KsEvent</b> method returns the same value that would be returned if the event had been sent by IOCTL.
-
-
-
 
 ## -remarks
 
-
-
 To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that was previously used to enable the event.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a>
- 
-
- 
 

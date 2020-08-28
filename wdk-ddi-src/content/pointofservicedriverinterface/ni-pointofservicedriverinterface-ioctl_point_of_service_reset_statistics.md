@@ -8,9 +8,6 @@ ms.assetid: dfa6a460-ea80-4aa4-9948-2fd290f6616b
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_RESET_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, pos.ioctl_point_of_service_reset_statistics
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS"
- - "IOCTL_POINT_OF_SERVICE_RESET_STATISTICS"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
 ---
 
 # IOCTL_POINT_OF_SERVICE_RESET_STATISTICS IOCTL
+
 
 ## -description
 
@@ -78,3 +79,4 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
 
 - STATUS_NOT_SUPPORTED: Statistic updating or reporting is not supported.
+

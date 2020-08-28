@@ -8,9 +8,6 @@ ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.date: 04/30/2018
 keywords: ["PwmParsePinPath function"]
 ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath
-f1_keywords:
- - "pwmutil/PwmParsePinPath"
- - "PwmParsePinPath"
 req.header: pwmutil.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PwmParsePinPath
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PwmParsePinPath
+ - pwmutil/PwmParsePinPath
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PwmParsePinPath
 ---
 
 # PwmParsePinPath function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Parses a pin path under the Pulse Width Modulation (PWM) controller namespace to validate its format and extract the pin number.
-
 
 ## -parameters
 
-
-
-
 ### -param PinPath 
+
 [in]
 A pointer to pin path as a Unicode character string.
 
-
 ### -param PinNumber 
+
 [out, optional]
 A pointer to variable that receives a pin number.
 
-
 ## -returns
-
-
 
 <b>PwmParsePinPath</b> returns the following values:
 
@@ -111,16 +104,8 @@ The specified pin path pointer is invalid or its Unicode string is
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The pin path must be a Unicode character string that ends in the pin number as follows: <i>...\<PinNumber></i>.
-
-
 

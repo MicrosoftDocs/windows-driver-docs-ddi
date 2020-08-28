@@ -8,9 +8,6 @@ ms.assetid: b8b95aad-7c55-475a-85d9-6a64434d8a5f
 ms.date: 05/02/2018
 keywords: ["FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ enumeration"]
 ms.keywords: FWPS_FIELDS_IPSEC_KM_DEMUX_V4, FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IPSEC_KM_DEMUX_V4_, FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, netvista.fwps_fields_ipsec_km_demux_v4, wfp_ref_5_const_3_data_fields_78a7198a-9122-420b-a45d-9b82cbfb16fb.xml
-f1_keywords:
- - "fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4"
- - "FWPS_FIELDS_IPSEC_KM_DEMUX_V4"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 targetos: Windows
 req.typenames: FWPS_FIELDS_IPSEC_KM_DEMUX_V4
+f1_keywords:
+ - FWPS_FIELDS_IPSEC_KM_DEMUX_V4_
+ - fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4_
+ - FWPS_FIELDS_IPSEC_KM_DEMUX_V4
+ - fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 ---
 
 # FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ enumeration
@@ -46,26 +48,19 @@ req.typenames: FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 
 ## -description
 
-
 The FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IPSEC_KM_DEMUX_V4 
   <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS
 
 The local IP address.
 
-
 ### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS
 
 The remote IP address.
-
 
 ### -field FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE
 

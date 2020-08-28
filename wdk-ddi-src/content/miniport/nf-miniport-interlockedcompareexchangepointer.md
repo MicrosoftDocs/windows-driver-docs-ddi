@@ -8,9 +8,6 @@ ms.assetid: 3b96076f-a7f7-4705-bbee-595ee4d9f789
 ms.date: 04/30/2018
 keywords: ["InterlockedCompareExchangePointer function"]
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer routine [Kernel-Mode Driver Architecture], k102_ffaadb46-ece2-40fb-9e87-1c7ea3af275e.xml, kernel.interlockedcompareexchangepointer, wdm/InterlockedCompareExchangePointer
-f1_keywords:
- - "miniport/InterlockedCompareExchangePointer"
- - "InterlockedCompareExchangePointer"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- InterlockedCompareExchangePointer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InterlockedCompareExchangePointer
+ - miniport/InterlockedCompareExchangePointer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - InterlockedCompareExchangePointer
 ---
 
 # InterlockedCompareExchangePointer function
@@ -46,44 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>InterlockedCompareExchangePointer</b> routine performs an atomic operation that compares the input pointer value pointed to by <i>Destination</i> with the pointer value <i>Comparand</i>.
-
 
 ## -parameters
 
-
-
-
 ### -param Destination 
+
 [in, out]
 A pointer to a PVOID value. If (*<i>Destination</i>) = <i>Comparand</i>, then the routine sets (*<i>Destination</i>) to <i>Exchange</i>.
 
-
 ### -param Exchange 
+
 [in]
 Specifies the PVOID value to set (*<i>Destination</i>) to.
-
 
 ### -param Comperand
 
 <p>Specifies the PVOID value to compare with (*<i>Destination</i>).</p>
 
-
-
-
 ## -returns
-
-
 
 <b>InterlockedCompareExchangePointer</b> returns the original value of the pointer at *<i>Destination</i> (that is, the value of this pointer at entry to the routine).
 
-
-
-
 ## -remarks
-
-
 
 If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
 
@@ -93,15 +78,9 @@ If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is
 
 The <b>InterlockedCompareExchangePointer</b> routine is atomic only with respect to other <b>Interlocked<i>Xxx</i></b> calls.
 
-Interlocked operations cannot be used on non-cached memory. 
-
-
-
+Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedcompareexchange">InterlockedCompareExchange</a>
 
@@ -112,7 +91,4 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedexchangepointer">InterlockedExchangePointer</a>
- 
-
- 
 

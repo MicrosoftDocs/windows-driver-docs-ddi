@@ -8,9 +8,6 @@ ms.assetid: 57B52C5B-D151-4112-8173-23D18C636E98
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_POST_ADAPTER_PAUSE callback function"]
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_PAUSE, MINIPORT_WDI_POST_ADAPTER_PAUSE callback, MiniportWdiPostAdapterPause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterPause, netvista.miniportwdipostadapterpause
-f1_keywords:
- - "dot11wdi/MiniportWdiPostAdapterPause"
- - "MiniportWdiPostAdapterPause"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiPostAdapterPause
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_POST_ADAPTER_PAUSE
+ - dot11wdi/MINIPORT_WDI_POST_ADAPTER_PAUSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiPostAdapterPause
 ---
 
 # MINIPORT_WDI_POST_ADAPTER_PAUSE callback function
 
 
 ## -description
-
 
 The MiniportWdiPostAdapterPause handler function is called by the Microsoft component after it finishes the data path clean up as part of the NDIS <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a> requirements.
 
@@ -57,32 +56,21 @@ The NDIS <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/n
 
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterContext 
+
 [in]
 The handle to the context area that the miniport driver allocated.
 
-
 ### -param PauseParameters 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pause_parameters">NDIS_MINIPORT_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the miniport adapter.
 
-
 ## -returns
-
-
 
 The return value is only used for logging/informational purposes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a>
 
@@ -93,7 +81,4 @@ The return value is only used for logging/informational purposes.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pause_parameters">NDIS_MINIPORT_PAUSE_PARAMETERS</a>
- 
-
- 
 

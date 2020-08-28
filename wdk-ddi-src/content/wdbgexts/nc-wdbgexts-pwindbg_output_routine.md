@@ -8,9 +8,6 @@ ms.assetid: 33bcf4d4-1a79-4950-858e-10543faa9432
 ms.date: 05/03/2018
 keywords: ["PWINDBG_OUTPUT_ROUTINE callback function"]
 ms.keywords: PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE callback, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml, debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], wdbgexts/dprintf
-f1_keywords:
- - "wdbgexts/dprintf"
- - "dprintf"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdbgexts.h
-api_name:
-- dprintf
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PWINDBG_OUTPUT_ROUTINE
+ - wdbgexts/PWINDBG_OUTPUT_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdbgexts.h
+api_name:
+ - dprintf
 ---
 
 # PWINDBG_OUTPUT_ROUTINE callback function
@@ -46,28 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The callback function implements the functionality to print a formatted string to the Debugger Command window. 
 
-The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatted string. It works like the C-language routine <b>printf</b>. 
-
+The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatted string. It works like the C-language routine <b>printf</b>.
 
 ## -parameters
 
-
-
-
 ### -param lpFormat
 
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - [arguments] [in]
 
@@ -250,14 +237,8 @@ String containing the name of the specified symbol (and displacement, if any), a
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 When generating very large output strings, it is possible the limits of the debugger engine or operating system may be reached.  For example, some versions of the debugger engine have a 16K character limit for a single piece of output.  If you find that very large output is getting truncated, you may need to split your output into multiple requests.
-
-
 

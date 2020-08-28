@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_MAPHEAP"
- - "PFND3D12DDI_MAPHEAP"
+ - PFND3D12DDI_MAPHEAP
+ - d3d12umddi/PFND3D12DDI_MAPHEAP
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_MAPHEAP callback function
+
 
 ## -description
 
@@ -94,3 +95,4 @@ Heap data is typically accessible to the GPU only. **PFND3D12DDI_MAPHEAP** makes
 ## -see-also
 
 [**PFND3D12DDI_UNMAPHEAP**](nc-d3d12umddi-pfnd3d12ddi_unmapheap.md)
+

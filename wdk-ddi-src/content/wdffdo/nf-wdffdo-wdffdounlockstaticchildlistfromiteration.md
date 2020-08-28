@@ -8,9 +8,6 @@ ms.assetid: ba0eb090-a03c-4723-a30c-16b161e50198
 ms.date: 02/26/2018
 keywords: ["WdfFdoUnlockStaticChildListFromIteration function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_5d630e1f-4c2d-4fce-92d8-c59cc472ceb5.xml, WdfFdoUnlockStaticChildListFromIteration, WdfFdoUnlockStaticChildListFromIteration method, kmdf.wdffdounlockstaticchildlistfromiteration, wdf.wdffdounlockstaticchildlistfromiteration, wdffdo/WdfFdoUnlockStaticChildListFromIteration
-f1_keywords:
- - "wdffdo/WdfFdoUnlockStaticChildListFromIteration"
- - "WdfFdoUnlockStaticChildListFromIteration"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfFdoUnlockStaticChildListFromIteration
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfFdoUnlockStaticChildListFromIteration
+ - wdffdo/WdfFdoUnlockStaticChildListFromIteration
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfFdoUnlockStaticChildListFromIteration
 ---
 
 # WdfFdoUnlockStaticChildListFromIteration function
@@ -47,21 +47,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfFdoUnlockStaticChildListFromIteration</b> method unlocks the list of child devices for a specified device and processes any changes to the list that the driver made while the list was locked. 
-
+The <b>WdfFdoUnlockStaticChildListFromIteration</b> method unlocks the list of child devices for a specified device and processes any changes to the list that the driver made while the list was locked.
 
 ## -parameters
 
-
-
-
 ### -param Fdo 
+
 [in]
 A handle to a framework device object that represents the parent device.
-
 
 ## -remarks
 
@@ -85,15 +80,7 @@ For a code example that uses <b>WdfFdoUnlockStaticChildListFromIteration</b>, se
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdolockstaticchildlistforiteration">WdfFdoLockStaticChildListForIteration</a>
- 
-
- 
 

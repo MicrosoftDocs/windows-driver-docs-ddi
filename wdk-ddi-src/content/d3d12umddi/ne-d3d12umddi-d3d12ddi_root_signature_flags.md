@@ -20,8 +20,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3d12umddi/D3D12DDI_ROOT_SIGNATURE_FLAGS"
- - "D3D12DDI_ROOT_SIGNATURE_FLAGS"
+ - D3D12DDI_ROOT_SIGNATURE_FLAGS
+ - d3d12umddi/D3D12DDI_ROOT_SIGNATURE_FLAGS
 topic_type:
  - apiref
 api_type:
@@ -37,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_ROOT_SIGNATURE_FLAGS enumeration
+
 
 ## -description
 
@@ -91,3 +92,4 @@ Denies the mesh shader access to the root signature. Available starting with Win
 ## -remarks
 
 See the [DirectX Raytracing (DXR) functional specification](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html) for more information.
+

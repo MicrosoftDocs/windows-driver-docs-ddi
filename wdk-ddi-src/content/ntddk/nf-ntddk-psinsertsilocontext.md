@@ -8,9 +8,6 @@ ms.assetid: 31C7A629-3B5E-44BA-AE03-3331E3200FC6
 ms.date: 04/30/2018
 keywords: ["PsInsertSiloContext function"]
 ms.keywords: PsInsertSiloContext, PsInsertSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertsilocontext, ntddk/PsInsertSiloContext
-f1_keywords:
- - "ntddk/PsInsertSiloContext"
- - "PsInsertSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsInsertSiloContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsInsertSiloContext
+ - ntddk/PsInsertSiloContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsInsertSiloContext
 ---
 
 # PsInsertSiloContext function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 This routine inserts an object in an empty slot in a <i>Silo</i>.
-
 
 ## -parameters
 
-
-
-
 ### -param Silo 
+
 [in]
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
-
 ### -param ContextSlot 
-[in]
-A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine. 
 
+[in]
+A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 ### -param SiloContext 
-[in]
-A pointer to the object created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>. 
 
+[in]
+A pointer to the object created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -115,7 +108,4 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
 

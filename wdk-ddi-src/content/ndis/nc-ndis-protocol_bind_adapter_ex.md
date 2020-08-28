@@ -8,9 +8,6 @@ ms.assetid: 1958722e-012e-4110-a82c-751744bcf9b5
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_BIND_ADAPTER_EX callback function"]
 ms.keywords: PROTOCOL_BIND_ADAPTER_EX, PROTOCOL_BIND_ADAPTER_EX callback, ProtocolBindAdapterEx, ProtocolBindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolBindAdapterEx, netvista.protocolbindadapterex, protocol_functions_ref_82268bd4-3e45-48ba-8b80-df47fbde11e1.xml
-f1_keywords:
- - "ndis/ProtocolBindAdapterEx"
- - "ProtocolBindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolBindAdapterEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_BIND_ADAPTER_EX
+ - ndis/PROTOCOL_BIND_ADAPTER_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolBindAdapterEx
 ---
 
 # PROTOCOL_BIND_ADAPTER_EX callback function
 
 
 ## -description
-
 
 NDIS calls a protocol driver's 
   <i>ProtocolBindAdapterEx</i> function to request the driver to bind to a miniport
@@ -55,32 +54,27 @@ NDIS calls a protocol driver's
 
 ## -parameters
 
-
-
-
 ### -param ProtocolDriverContext 
+
 [in]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The protocol driver passed this context area to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
-
 ### -param BindContext 
+
 [in]
 The handle that identifies the NDIS context area for this bind operation.
 
-
 ### -param BindParameters 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure that
      NDIS created.
 
-
 ## -returns
-
-
 
 <i>ProtocolBindAdapterEx</i> returns one of the following status values:
 
@@ -141,14 +135,8 @@ The protocol driver's attempt to set up a binding failed. Usually, such an error
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolBindAdapterEx</i> is a required function. NDIS calls 
     <i>ProtocolBindAdapterEx</i> to perform binding operations whenever an underlying
@@ -323,15 +311,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_BIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_BIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
@@ -396,7 +378,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
 

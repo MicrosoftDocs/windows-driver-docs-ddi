@@ -7,9 +7,6 @@ ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E
 ms.date: 03/24/2020
 keywords: ["D3DKMT_CREATEHWQUEUE structure"]
 ms.keywords: D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE structure [Display Devices], _D3DKMT_CREATEHWQUEUE, d3dkmthk/D3DKMT_CREATEHWQUEUE, display.d3dkmt_createhwqueue
-f1_keywords:
- - "d3dkmthk/D3DKMT_CREATEHWQUEUE"
- - "D3DKMT_CREATEHWQUEUE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,21 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_CREATEHWQUEUE
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATEHWQUEUE
+f1_keywords:
+ - _D3DKMT_CREATEHWQUEUE
+ - d3dkmthk/_D3DKMT_CREATEHWQUEUE
+ - D3DKMT_CREATEHWQUEUE
+ - d3dkmthk/D3DKMT_CREATEHWQUEUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_CREATEHWQUEUE
 ---
 
 # _D3DKMT_CREATEHWQUEUE structure
+
 
 ## -description
 
@@ -86,3 +89,4 @@ Read/write mapping of the queue progress fence value for the GPU.
 [**D3DDDI_CREATEHWQUEUEFLAGS**](..\d3dukmdt\ns-d3dukmdt-_d3dddi_createhwqueueflags.md)
 
 [**PFND3DKMT_CREATEHWQUEUE**](nc-d3dkmthk-pfnd3dkmt_createhwqueue.md)
+

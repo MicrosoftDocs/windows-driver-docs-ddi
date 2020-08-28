@@ -8,9 +8,6 @@ ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.date: 04/16/2018
 keywords: ["RxCeBuildAddress function"]
 ms.keywords: RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers], ifsk.rxcebuildaddress, rxce/RxCeBuildAddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml
-f1_keywords:
- - "rxce/RxCeBuildAddress"
- - "RxCeBuildAddress"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeBuildAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeBuildAddress
+ - rxce/RxCeBuildAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeBuildAddress
 ---
 
 # RxCeBuildAddress function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeBuildAddress</b> associates a transport address with a transport binding.
-
 
 ## -parameters
 
-
-
-
 ### -param pAddress 
+
 [in, out]
 On input, this parameter contains a pointer to an uninitialized RDBSS connection engine address structure. On output when this call is successful, the data members in the RXCE_ADDRESS structure will be properly initialized.
 
-
 ### -param pTransport 
+
 [in]
 A pointer to the transport with which this address is to be associated.
 
-
 ### -param pTransportAddress 
+
 [in]
 A pointer to the transport address to be associated with the binding.
 
-
 ### -param pHandler 
+
 [in]
 A pointer to the event handler associated with the registration.
 
-
 ### -param pEventContext 
+
 [in]
 A pointer to the context parameter to be passed back to the event handler.
 
-
 ## -returns
-
-
 
 <b>RxCeBuildAddress</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -114,27 +107,12 @@ One of the parameters passed to <b>RxCeBuildAddress</b> was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When <b>RxCeBuildAddress</b> is successful, the data members in the RXCE_ADDRESS structure pointed to by the <i>pAddress</i> parameter will be properly initialized. 
-
-
-
+When <b>RxCeBuildAddress</b> is successful, the data members in the RXCE_ADDRESS structure pointed to by the <i>pAddress</i> parameter will be properly initialized.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownaddress">RxCeTearDownAddress</a>
- 
-
- 
 

@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
 f1_keywords:
- - d3d12umddi//D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
  - D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
+ - d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
 dev_langs:
  - c++
 ---
@@ -68,3 +68,4 @@ Handle to the protected resource session acquired at object creation time.
 ## -see-also
 
 [**PFND3D12DDI_CREATEVIDEOPROCESSOR_0072**](nc-d3d12umddi-pfnd3d12ddi_createvideoprocessor_0072.md)
+

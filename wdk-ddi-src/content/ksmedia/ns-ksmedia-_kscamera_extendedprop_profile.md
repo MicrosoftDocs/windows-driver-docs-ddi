@@ -8,9 +8,6 @@ ms.assetid: 43529BA7-1F5A-4B9B-9792-2D6050F0480D
 ms.date: 04/23/2018
 keywords: ["KSCAMERA_EXTENDEDPROP_PROFILE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], _KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile"
-f1_keywords:
- - "ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE"
- - "KSCAMERA_EXTENDEDPROP_PROFILE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_EXTENDEDPROP_PROFILE
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_PROFILE, *PKSCAMERA_EXTENDEDPROP_PROFILE
+f1_keywords:
+ - _KSCAMERA_EXTENDEDPROP_PROFILE
+ - ksmedia/_KSCAMERA_EXTENDEDPROP_PROFILE
+ - PKSCAMERA_EXTENDEDPROP_PROFILE
+ - ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE
+ - KSCAMERA_EXTENDEDPROP_PROFILE
+ - ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_EXTENDEDPROP_PROFILE
 ---
 
 # _KSCAMERA_EXTENDEDPROP_PROFILE structure
@@ -46,14 +50,9 @@ req.typenames: KSCAMERA_EXTENDEDPROP_PROFILE, *PKSCAMERA_EXTENDEDPROP_PROFILE
 
 ## -description
 
-
 The payload of the KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE control contains KSCAMERA_EXTENDEDPROP_HEADER + KSCAMERA_EXTENDEDPROP_PROFILE.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProfileId
 
@@ -66,7 +65,6 @@ If the camera is initialized by a SharedReadOnly application GUID_NULL will be s
 ### -field Index
 
 An index value associated with the identified profile.
-
 
 ### -field Reserved
 

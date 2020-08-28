@@ -8,9 +8,6 @@ ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.date: 04/16/2018
 keywords: ["SecLookupAccountName function"]
 ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName
-f1_keywords:
- - "ntifs/SecLookupAccountName"
- - "SecLookupAccountName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ksecdd.lib
-- Ksecdd.dll
-api_name:
-- SecLookupAccountName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SecLookupAccountName
+ - ntifs/SecLookupAccountName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ksecdd.lib
+ - Ksecdd.dll
+api_name:
+ - SecLookupAccountName
 ---
 
 # SecLookupAccountName function
@@ -47,45 +47,35 @@ req.typenames:
 
 ## -description
 
-
 <b>SecLookupAccountName</b> accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
-
 
 ## -parameters
 
-
-
-
 ### -param Name 
-[in]
-A pointer to a Unicode string that specifies the account name. Use a fully qualified string in the domain_name\user_name format to ensure that <b>SecLookupAccountName</b> finds the account in the desired domain. 
 
+[in]
+A pointer to a Unicode string that specifies the account name. Use a fully qualified string in the domain_name\user_name format to ensure that <b>SecLookupAccountName</b> finds the account in the desired domain.
 
 ### -param SidSize 
+
 [in, out]
 A pointer to a variable that specifies the size of the <i>Sid</i> buffer. On input, this value specifies the size in bytes of the input <i>Sid</i> buffer. If the function fails because the buffer is too small or if <i>SidSize</i> is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>Sid</i>.
 
-
 ### -param Sid 
-[out]
-A pointer to a buffer that receives the SID structure that corresponds to the account name pointed to by the <i>Name</i> parameter. If this parameter is <b>NULL</b>, <i>SidSize</i> must be zero. 
 
+[out]
+A pointer to a buffer that receives the SID structure that corresponds to the account name pointed to by the <i>Name</i> parameter. If this parameter is <b>NULL</b>, <i>SidSize</i> must be zero.
 
 ### -param NameUse 
-[out]
-A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
 
+[out]
+A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns.
 
 ### -param OPTIONAL
 
 <p>A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.</p>
 
-
-
-
 ## -returns
-
-
 
 <b>SecLookupAccountName</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -161,14 +151,8 @@ This process has terminated so it is not possible to establish the local procedu
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SecLookupAccountName</b> attempts to find a SID for the specified name. The function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. If the name is not found there, trusted domains are checked.
 
@@ -178,15 +162,9 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 <b>SecLookupAccountName</b> is equivalent to the Win32 <b>LookupAccountName</b> function. 
 
-<b>SecLookupAccountName</b> is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. <b>SecLookupAccountName</b> cannot be used during paging file I/O. 
-
-
-
+<b>SecLookupAccountName</b> is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. <b>SecLookupAccountName</b> cannot be used during paging file I/O.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
 
@@ -201,7 +179,4 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556582">SecLookupWellKnownSid</a>
- 
-
- 
 

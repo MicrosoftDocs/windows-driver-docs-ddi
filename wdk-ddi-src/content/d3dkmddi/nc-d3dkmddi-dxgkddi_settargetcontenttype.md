@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE"
- - "DXGKDDI_SETTARGETCONTENTTYPE"
+ - DXGKDDI_SETTARGETCONTENTTYPE
+ - d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETTARGETCONTENTTYPE callback function
+
 
 ## -description
 

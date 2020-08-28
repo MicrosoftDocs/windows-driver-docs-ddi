@@ -8,9 +8,6 @@ ms.assetid: 25e8aec7-86af-4753-83d7-e7df5435f602
 ms.date: 04/20/2018
 keywords: ["IPrintOemDriverUI::DrvGetDriverSetting"]
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices],IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices],DrvGetDriverSetting method, IPrintOemDriverUI.DrvGetDriverSetting, IPrintOemDriverUI::DrvGetDriverSetting, prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, print.iprintoemdriverui_drvgetdriversetting, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml
-f1_keywords:
- - "prcomoem/IPrintOemDriverUI.DrvGetDriverSetting"
- - "IPrintOemDriverUI.DrvGetDriverSetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemDriverUI.DrvGetDriverSetting
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemDriverUI::DrvGetDriverSetting
+ - prcomoem/IPrintOemDriverUI::DrvGetDriverSetting
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemDriverUI.DrvGetDriverSetting
 ---
 
 # IPrintOemDriverUI::DrvGetDriverSetting
@@ -46,48 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemDriverUI::DrvGetDriverSetting</code> method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can obtain the current status of printer features and other internal information.
 
-
 ## -parameters
-
-
-
 
 ### -param pci
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-
 ### -param Feature
 
 Caller-supplied value identifying the printer feature for which option settings are returned. This can be either a string pointer or a constant, as described in the following Remarks section.
-
 
 ### -param pOutput
 
 Caller-supplied pointer to a buffer to receive the specified information.
 
-
 ### -param cbSize
 
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutput</i>.
-
 
 ### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the minimum buffer size required to contain the requested information.
 
-
 ### -param pdwOptionsReturned
 
 Caller-supplied pointer to a location to receive the number of option strings placed in <i>pOutput</i>.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -130,14 +117,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When calling the <code>IPrintOemDriverUI::DrvGetDriverSetting</code> method, a user interface plug-in can specify either a string pointer or a constant value for <i>pFeatureKeyword</i>.
 
@@ -157,5 +138,4 @@ If <i>pFeatureKeyword</i> is a constant, it must be one of the <b>OEMGDS_</b>-pr
 
 </li>
 </ul>
-
 

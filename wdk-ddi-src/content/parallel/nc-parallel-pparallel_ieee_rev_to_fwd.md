@@ -8,37 +8,37 @@ ms.assetid: 4c9c88bf-e7f9-484b-b476-0def92cf48b2
 ms.date: 02/15/2018
 keywords: ["PPARALLEL_IEEE_REV_TO_FWD callback"]
 ms.keywords: PPARALLEL_IEEE_REV_TO_FWD, PPARALLEL_IEEE_REV_TO_FWD function pointer [Parallel Ports], cisspd_f42cc965-4f4d-4d18-b111-0e19fca9a9d5.xml, parallel/PPARALLEL_IEEE_REV_TO_FWD, parports.pparallel_ieee_rev_to_fwd
-f1_keywords:
- - "parallel/PPARALLEL_IEEE_REV_TO_FWD"
- - "PPARALLEL_IEEE_REV_TO_FWD"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- parallel.h
-api_name:
-- PPARALLEL_IEEE_REV_TO_FWD
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+f1_keywords:
+ - PPARALLEL_IEEE_REV_TO_FWD
+ - parallel/PPARALLEL_IEEE_REV_TO_FWD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - parallel.h
+api_name:
+ - PPARALLEL_IEEE_REV_TO_FWD
 ---
 
 # PPARALLEL_IEEE_REV_TO_FWD callback
@@ -46,33 +46,16 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 ## -description
 
-
 The PPARALLEL_IEEE_REV_TO_FWD-typed callback routine changes the transfer mode from reverse to forward. The system-supplied bus driver for parallel ports supplies this routine.
-
-
-## -prototype
-
-
-```cpp
-typedef NTSTATUS ( *PPARALLEL_IEEE_REV_TO_FWD)(
-  _In_ PVOID Context
-);
-```
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in]
 Pointer to a device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -102,23 +85,22 @@ An internal operation resulted in an NTSTATUS error.
 </td>
 </tr>
 </table>
- 
 
+## -prototype
 
-
+```cpp
+typedef NTSTATUS ( *PPARALLEL_IEEE_REV_TO_FWD)(
+  _In_ PVOID Context
+);
+```
 
 ## -remarks
-
-
 
 To obtain a pointer to the system-supplied PPARALLEL_IEEE_REV_TO_FWD callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request, which returns a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a> structure. The <b>IeeeRevToFwdMode</b> member of the PARCLASS_INFORMATION structure is a pointer to this callback.
 
 If the device is connected and is in the forward mode, the PPARALLEL_IEEE_REV_TO_FWD callback returns without further processing. Otherwise, the PPARALLEL_IEEE_REV_TO_FWD callback puts a parallel device in the forward mode and connects a previously negotiated forward protocol. The <a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a> callback can be used to negotiate a forward protocol.
 
 The PPARALLEL_IEEE_REV_TO_FWD callback runs in the caller's thread at the IRQL of the caller.
-
-
-
 
 ## -see-also
 
@@ -147,11 +129,4 @@ The PPARALLEL_IEEE_REV_TO_FWD callback runs in the caller's thread at the IRQL o
 
 
 <a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
-
-
-
- 
-
- 
-
 

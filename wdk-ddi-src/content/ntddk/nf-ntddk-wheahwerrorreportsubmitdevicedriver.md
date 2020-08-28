@@ -35,8 +35,8 @@ api_location:
 api_name:
  - WheaHwErrorReportSubmitDeviceDriver
 f1_keywords:
- - ntddk//WheaHwErrorReportSubmitDeviceDriver
  - WheaHwErrorReportSubmitDeviceDriver
+ - ntddk/WheaHwErrorReportSubmitDeviceDriver
 dev_langs:
  - c++
 ---

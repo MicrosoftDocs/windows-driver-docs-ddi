@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiFlipOverlay"
- - "DxgkDdiFlipOverlay"
+ - DXGKDDI_FLIPOVERLAY
+ - d3dkmddi/DXGKDDI_FLIPOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_FLIPOVERLAY callback function
+
 
 ## -description
 

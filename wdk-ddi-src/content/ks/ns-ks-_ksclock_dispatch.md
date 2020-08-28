@@ -8,9 +8,6 @@ ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.date: 04/23/2018
 keywords: ["KSCLOCK_DISPATCH structure"]
 ms.keywords: "*PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], _KSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, ks/KSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, stream.ksclock_dispatch"
-f1_keywords:
- - "ks/KSCLOCK_DISPATCH"
- - "KSCLOCK_DISPATCH"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSCLOCK_DISPATCH
 targetos: Windows
 req.typenames: KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH
+f1_keywords:
+ - _KSCLOCK_DISPATCH
+ - ks/_KSCLOCK_DISPATCH
+ - PKSCLOCK_DISPATCH
+ - ks/PKSCLOCK_DISPATCH
+ - KSCLOCK_DISPATCH
+ - ks/KSCLOCK_DISPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSCLOCK_DISPATCH
 ---
 
 # _KSCLOCK_DISPATCH structure
+
 
 ## -description
 
@@ -112,3 +117,4 @@ void Resolution (IN PKSPIN Pin,
 [KSRESOLUTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution)
 
 [KeSetTimerEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex)
+

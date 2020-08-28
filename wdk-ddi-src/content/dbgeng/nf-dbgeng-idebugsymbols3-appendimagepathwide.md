@@ -8,9 +8,6 @@ ms.assetid: 9a129ce5-4493-4838-9a6c-8a3c054e7c27
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AppendImagePathWide"]
 ms.keywords: AppendImagePathWide, AppendImagePathWide method [Windows Debugging], AppendImagePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendImagePathWide method, IDebugSymbols3.AppendImagePathWide, IDebugSymbols3::AppendImagePathWide, dbgeng/IDebugSymbols3::AppendImagePathWide, debugger.appendimagepathwide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.AppendImagePathWide"
- - "IDebugSymbols3.AppendImagePathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols3.AppendImagePathWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::AppendImagePathWide
+ - dbgeng/IDebugSymbols3::AppendImagePathWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols3.AppendImagePathWide
 ---
 
 # IDebugSymbols3::AppendImagePathWide
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>AppendImagePathWide</b>  method appends directories to the executable image path.
-
 
 ## -parameters
 
-
-
-
 ### -param Addition 
+
 [in]
 Specifies the directories to append to the executable image path.  This is a string that contains directory names separated by semicolons (;).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -85,24 +78,13 @@ The method was successful.
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 The executable image path is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/e">engine</a> when searching for executable images.
 
 The executable image path can consist of several directories separated by semicolons (;).  These directories are searched in order.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getimagepath">GetImagePath</a>
 
@@ -113,7 +95,4 @@ The executable image path can consist of several directories separated by semico
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setimagepath">SetImagePath</a>
- 
-
- 
 

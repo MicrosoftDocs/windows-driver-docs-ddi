@@ -8,9 +8,6 @@ ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.date: 04/23/2018
 keywords: ["KsPinDataIntersectionEx function"]
 ms.keywords: KsPinDataIntersectionEx, KsPinDataIntersectionEx function [Streaming Media Devices], ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, stream.kspindataintersectionex
-f1_keywords:
- - "ks/KsPinDataIntersectionEx"
- - "KsPinDataIntersectionEx"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsPinDataIntersectionEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsPinDataIntersectionEx
+ - ks/KsPinDataIntersectionEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsPinDataIntersectionEx
 ---
 
 # KsPinDataIntersectionEx function
@@ -46,67 +46,55 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsPinDataIntersectionEx</b> function handles the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a> through a callback function.
-
 
 ## -parameters
 
-
-
-
 ### -param Irp 
+
 [in]
 Specifies the IRP that describes the property request.
 
-
 ### -param Pin 
+
 [in]
 Specifies the specific property that is being queried.
 
-
 ### -param Data 
+
 [out]
 Specifies the pin property-specific data.
 
-
 ### -param DescriptorsCount 
+
 [in]
 Specifies the number of descriptor structures.
 
-
 ### -param Descriptor 
+
 [in]
 Specifies the pointer to the list of pin information structures.
 
-
 ### -param DescriptorSize 
+
 [in]
 Size of the descriptor structures, in bytes.
 
-
 ### -param IntersectHandler 
+
 [in, optional]
 Contains the optional minidriver-defined <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a> callback function to compare data ranges.
 
-
 ### -param HandlerContext 
+
 [in, optional]
 Optional context that is supplied to the handler.
 
-
 ## -returns
-
-
 
 Returns STATUS_SUCCESS; otherwise, an error specific to the property that is being handled.
 
-
-
-
 ## -remarks
-
-
 
 <b>KsPinDataIntersectionEx</b> is very similar to <b>KsPinDataIntersection</b>, except for some of the following slight differences:
 
@@ -134,16 +122,7 @@ The size of the resultant format is passed back in <i>DataSize</i> instead of <i
 </ul>
 These differences excepted, <b>KsPinDataIntersection</b> and <b>KsPinDataIntersectionEx</b> operate similarly.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a>
- 
-
- 
 

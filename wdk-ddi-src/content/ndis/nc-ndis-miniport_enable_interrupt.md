@@ -8,9 +8,6 @@ ms.assetid: 61edeb80-a686-4b8c-ae19-4757616151ef
 ms.date: 05/02/2018
 keywords: ["MINIPORT_ENABLE_INTERRUPT callback function"]
 ms.keywords: MINIPORT_ENABLE_INTERRUPT, MINIPORT_ENABLE_INTERRUPT callback, MiniportEnableInterruptEx, MiniportEnableInterruptEx callback function [Network Drivers Starting with Windows Vista], ndis/MiniportEnableInterruptEx, ndis_interrupts_miniport_functions_ref_4a4172dc-19bc-4405-8fc1-48bb8af2ae8d.xml, netvista.miniportenableinterruptex
-f1_keywords:
- - "ndis/MiniportEnableInterruptEx"
- - "MiniportEnableInterruptEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportEnableInterruptEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_ENABLE_INTERRUPT
+ - ndis/MINIPORT_ENABLE_INTERRUPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportEnableInterruptEx
 ---
 
 # MINIPORT_ENABLE_INTERRUPT callback function
 
 
 ## -description
-
 
 NDIS can call a miniport driver's 
    <i>MiniportEnableInterruptEx</i> handler to enable interrupts for diagnostic and troubleshooting
@@ -55,20 +54,15 @@ NDIS can call a miniport driver's
 
 ## -parameters
 
-
-
-
 ### -param MiniportInterruptContext 
+
 [in]
 A handle to a block of context information. The miniport driver supplied this handle in the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
-
 ## -remarks
-
-
 
 A miniport driver must provide a
     <i>MiniportEnableInterruptEx</i> handler if the driver calls the 
@@ -124,15 +118,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_ENABLE_INTERRUPT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_ENABLE_INTERRUPT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_disable_interrupt">MiniportDisableInterruptEx</a>
 
@@ -152,7 +140,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a>
- 
-
- 
 

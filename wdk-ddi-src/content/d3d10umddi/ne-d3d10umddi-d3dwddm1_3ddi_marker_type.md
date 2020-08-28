@@ -7,9 +7,6 @@ ms.assetid: E57CA17F-FB96-4E9B-A38D-67A4F925D3B4
 ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_MARKER_TYPE enumeration"]
 ms.keywords: D3DWDDM1_3DDI_MARKER_TYPE, D3DWDDM1_3DDI_MARKER_TYPE enumeration [Display Devices], D3DWDDM1_3DDI_MARKER_TYPE_NONE, D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_NONE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, display.d3dwddm1_3ddi_marker_type
-f1_keywords:
- - "d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE"
- - "D3DWDDM1_3DDI_MARKER_TYPE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3DWDDM1_3DDI_MARKER_TYPE
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_MARKER_TYPE
+f1_keywords:
+ - D3DWDDM1_3DDI_MARKER_TYPE
+ - d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3DWDDM1_3DDI_MARKER_TYPE
 ---
 
 # D3DWDDM1_3DDI_MARKER_TYPE enumeration
@@ -46,19 +46,13 @@ req.typenames: D3DWDDM1_3DDI_MARKER_TYPE
 
 ## -description
 
-
 Indicates the type of marker that the user-mode display driver supports.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DWDDM1_3DDI_MARKER_TYPE_NONE
 
 No marker type is supported.
-
 
 ### -field D3DWDDM1_3DDI_MARKER_TYPE_PROFILE
 

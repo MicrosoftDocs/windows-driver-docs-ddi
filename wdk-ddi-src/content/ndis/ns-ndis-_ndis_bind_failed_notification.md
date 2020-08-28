@@ -8,9 +8,6 @@ ms.assetid: 5420839B-EB81-43CC-B7BD-9D1FA2560A3D
 ms.date: 05/02/2018
 keywords: ["NDIS_BIND_FAILED_NOTIFICATION structure"]
 ms.keywords: "*PNDIS_BIND_FAILED_NOTIFICATION, NDIS_BIND_FAILED_NOTIFICATION, NDIS_BIND_FAILED_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNDIS_BIND_FAILED_NOTIFICATION, PNDIS_BIND_FAILED_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_BIND_FAILED_NOTIFICATION, ndis/NDIS_BIND_FAILED_NOTIFICATION, ndis/PNDIS_BIND_FAILED_NOTIFICATION, netvista.ndis_bind_failed_notification"
-f1_keywords:
- - "ndis/NDIS_BIND_FAILED_NOTIFICATION"
- - "NDIS_BIND_FAILED_NOTIFICATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_BIND_FAILED_NOTIFICATION
 targetos: Windows
 req.typenames: NDIS_BIND_FAILED_NOTIFICATION, *PNDIS_BIND_FAILED_NOTIFICATION
+f1_keywords:
+ - _NDIS_BIND_FAILED_NOTIFICATION
+ - ndis/_NDIS_BIND_FAILED_NOTIFICATION
+ - PNDIS_BIND_FAILED_NOTIFICATION
+ - ndis/PNDIS_BIND_FAILED_NOTIFICATION
+ - NDIS_BIND_FAILED_NOTIFICATION
+ - ndis/NDIS_BIND_FAILED_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_BIND_FAILED_NOTIFICATION
 ---
 
 # _NDIS_BIND_FAILED_NOTIFICATION structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_BIND_FAILED_NOTIFICATION, *PNDIS_BIND_FAILED_NOTIFICATION
 
 ## -description
 
-
 The <b>NDIS_BIND_FAILED_NOTIFICATION</b> structure describes a binding event failure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -64,7 +63,6 @@ The
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 
      <b>Revision</b> member to <b>NDIS_BIND_FAILED_NOTIFICATION_REVISION_1</b>, and the 
      <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_BIND_FAILED_NOTIFICATION_REVISION_1</b>.
-
 
 ### -field MiniportNetLuid
 

@@ -8,9 +8,6 @@ ms.assetid: 0609e1b2-48df-413c-90bd-d7ddea26510a
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem interface"]
 ms.keywords: DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices],described, image.iwiadrvitem_interface, wiamindr_lh/IWiaDrvItem
-f1_keywords:
- - "wiamindr_lh/IWiaDrvItem"
- - "IWiaDrvItem"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaDrvItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaDrvItem
+ - wiamindr_lh/IWiaDrvItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaDrvItem
 ---
 
 # IWiaDrvItem interface
+
 
 ## -description
 

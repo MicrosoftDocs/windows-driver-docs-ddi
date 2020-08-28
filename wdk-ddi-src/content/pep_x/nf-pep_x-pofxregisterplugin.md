@@ -8,9 +8,6 @@ ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.date: 04/30/2018
 keywords: ["PoFxRegisterPlugin function"]
 ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
-f1_keywords:
- - "pep_x/PoFxRegisterPlugin"
- - "PoFxRegisterPlugin"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- PoFxRegisterPlugin
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxRegisterPlugin
+ - pep_x/PoFxRegisterPlugin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - PoFxRegisterPlugin
 ---
 
 # PoFxRegisterPlugin function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoFxRegisterPlugin</b> routine registers a platform extension plug-in (PEP) with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
-
 
 ## -parameters
 
-
-
-
 ### -param PepInformation 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a> structure.
 
-
 ### -param KernelInformation 
+
 [in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure.
 
-
 ## -returns
-
-
 
 <b>PoFxRegisterPlugin</b> returns STATUS_SUCCESS if the call successfully registers the PEP. Possible error return values include the following status codes.
 
@@ -111,14 +104,8 @@ Unable to allocate the resources required to complete the requested registration
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A PEP calls this routine to register itself with PoFx.
 
@@ -128,13 +115,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nf-pe
 
 The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a>
 
@@ -145,7 +126,4 @@ The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: cb882170-5c8e-455d-89a6-b09ca77e63fb
 ms.date: 05/08/2018
 keywords: ["IResourceList::NumberOfEntries"]
 ms.keywords: IResourceList interface [Audio Devices],NumberOfEntries method, IResourceList.NumberOfEntries, IResourceList::NumberOfEntries, NumberOfEntries, NumberOfEntries method [Audio Devices], NumberOfEntries method [Audio Devices],IResourceList interface, audio.iresourcelist_numberofentries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, portcls/IResourceList::NumberOfEntries
-f1_keywords:
- - "portcls/IResourceList.NumberOfEntries"
- - "IResourceList.NumberOfEntries"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IResourceList.NumberOfEntries
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IResourceList::NumberOfEntries
+ - portcls/IResourceList::NumberOfEntries
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IResourceList.NumberOfEntries
 ---
 
 # IResourceList::NumberOfEntries
@@ -46,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <code>NumberOfEntries</code> method returns the number of resource items in the resource list.
-
 
 ## -returns
 
-
-
 <code>NumberOfEntries</code> returns the number of items in the resource list.
-
-
 

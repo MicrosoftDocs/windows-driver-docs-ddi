@@ -8,9 +8,6 @@ ms.assetid: C7442A59-6D7C-4551-B0E4-F1E8A5BEB4B7
 ms.date: 04/23/2018
 keywords: ["SERCX_CONFIG_INIT function"]
 ms.keywords: 1/SERCX_CONFIG_INIT, SERCX_CONFIG_INIT, SERCX_CONFIG_INIT function [Serial Ports], serports.sercx_config_init
-f1_keywords:
- - "sercx/SERCX_CONFIG_INIT"
- - "SERCX_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1.0\Sercx.h
-api_name:
-- SERCX_CONFIG_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SERCX_CONFIG_INIT
+ - sercx/SERCX_CONFIG_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - SERCX_CONFIG_INIT
 ---
 
 # SERCX_CONFIG_INIT function
@@ -46,27 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a> structure.
-
 
 ## -parameters
 
-
-
-
 ### -param Config 
+
 [out]
 A pointer to the <b>SERCX_CONFIG</b> structure that is to be initialized.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a>
- 
-
- 
 

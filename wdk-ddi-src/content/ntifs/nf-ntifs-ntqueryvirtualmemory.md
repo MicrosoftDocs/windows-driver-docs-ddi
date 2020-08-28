@@ -8,9 +8,6 @@ ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.date: 06/07/2019
 keywords: ["NtQueryVirtualMemory function"]
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory
-f1_keywords:
- - "ntifs/ZwQueryVirtualMemory"
- - "ZwQueryVirtualMemory"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryVirtualMemory
-- NtQueryVirtualMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtQueryVirtualMemory
+ - ntifs/NtQueryVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryVirtualMemory
+ - NtQueryVirtualMemory
 ---
 
 # NtQueryVirtualMemory function
+
 
 ## -description
 
@@ -51,26 +52,32 @@ The **NtQueryVirtualMemory** routine determines the state, protection, and type 
 ## -parameters
 
 ### -param ProcessHandle 
+
 [in]
 Handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
 
 ### -param BaseAddress 
+
 [in, optional]
 The base address of the region of pages to be queried. This value is rounded down to the next host-page-address boundary.
 
 ### -param MemoryInformationClass 
+
 [in]
 The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class) value is **MemoryBasicInformation**.
 
 ### -param MemoryInformation 
+
 [out]
 Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information) structure.
 
 ### -param MemoryInformationLength 
+
 [in]
 Specifies the length, in bytes, of the buffer that *MemoryInformation* points to.
 
 ### -param ReturnLength 
+
 [out, optional]
 An optional pointer which, if specified, receives the number of bytes placed in the *MemoryInformation* buffer.
 
@@ -105,3 +112,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [POWER_PLATFORM_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information)
 
 [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot))
+

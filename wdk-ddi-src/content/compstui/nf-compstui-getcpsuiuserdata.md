@@ -8,9 +8,6 @@ ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 ms.date: 04/20/2018
 keywords: ["GetCPSUIUserData function"]
 ms.keywords: GetCPSUIUserData, GetCPSUIUserData function [Print Devices], compstui/GetCPSUIUserData, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, print.getcpsuiuserdata
-f1_keywords:
- - "compstui/GetCPSUIUserData"
- - "GetCPSUIUserData"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Compstui.lib
 req.dll: Compstui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Compstui.dll
-api_name:
-- GetCPSUIUserData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetCPSUIUserData
+ - compstui/GetCPSUIUserData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Compstui.dll
+api_name:
+ - GetCPSUIUserData
 ---
 
 # GetCPSUIUserData function
@@ -46,36 +46,21 @@ req.typenames:
 
 ## -description
 
-
 CPSUI's <b>GetCPSUIUserData</b> function retrieves data that was previously stored using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hDlg
 
 Caller-supplied handle to a property sheet dialog box. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns the value that was previously supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a>; otherwise the function returns zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetCPSUIUserData</b> function should only be called from within a dialog box procedure that has been associated with a dialog box by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> or an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a> structure.
 
 The handle specified for <i>hDlg</i> must be the handle received as input to the dialog box procedure. (Dialog box procedures are described in the Microsoft Windows SDK documentation.)
-
-
 

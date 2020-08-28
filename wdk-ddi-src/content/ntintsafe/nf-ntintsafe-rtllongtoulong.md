@@ -8,9 +8,6 @@ ms.assetid: FD0BD380-6DC2-4C4F-BE7B-42731082EB5C
 ms.date: 04/30/2018
 keywords: ["RtlLongToULong function"]
 ms.keywords: RtlLongToULong, RtlLongToULong function [Kernel-Mode Driver Architecture], kernel.rtllongtoulong, ntintsafe/RtlLongToULong
-f1_keywords:
- - "ntintsafe/RtlLongToULong"
- - "RtlLongToULong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlLongToULong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlLongToULong
+ - ntintsafe/RtlLongToULong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlLongToULong
 ---
 
 # RtlLongToULong function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>LONG</b> to a value of type <b>ULONG</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param lOperand 
+
 [in]
 The value to be converted.
 
-
 ### -param pulResult 
+
 [out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -79,5 +72,4 @@ This function uses the following alternate name:
 <li>RtlLongToDWord
 </li>
 </ul>
-
 

@@ -7,9 +7,6 @@ ms.assetid: 1e5d5b29-ecda-48be-b4fe-e3a153f2e0e2
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT, display.d3d11_1ddi_authenticated_query_output
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT"
- - "D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
+f1_keywords:
+ - D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
+ - d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
 ---
 
 # D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT structure
@@ -46,44 +46,31 @@ req.typenames: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
 
 ## -description
 
-
 Contains a response from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel">QueryAuthenticatedChannel(D3D11_1)</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field omac
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_omac">D3D11_1DDI_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses Advanced Encryption Standard (AES)-based one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
 
-
 ### -field QueryType
 
 A GUID that specifies the query. For a list of possible values, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_input">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> structure.
-
 
 ### -field hChannel
 
 A handle to the authenticated channel. This handle was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
-
 ### -field SequenceNumber
 
 The query sequence number.
-
 
 ### -field ReturnCode
 
 The return code that the driver returns when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel">QueryAuthenticatedChannel(D3D11_1)</a> function is called.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a>
 
@@ -98,7 +85,4 @@ The return code that the driver returns when the <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel">QueryAuthenticatedChannel(D3D11_1)</a>
- 
-
- 
 

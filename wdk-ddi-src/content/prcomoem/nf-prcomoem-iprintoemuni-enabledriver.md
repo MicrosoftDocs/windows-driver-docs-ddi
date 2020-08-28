@@ -8,9 +8,6 @@ ms.assetid: 7d7cd1de-569a-4083-8d4c-e073645941e6
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],EnableDriver method, IPrintOemUni.EnableDriver, IPrintOemUni::EnableDriver, prcomoem/IPrintOemUni::EnableDriver, print.iprintoemuni_enabledriver, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.EnableDriver"
- - "IPrintOemUni.EnableDriver"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintOemUni.EnableDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::EnableDriver
+ - prcomoem/IPrintOemUni::EnableDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintOemUni.EnableDriver
 ---
 
 # IPrintOemUni::EnableDriver
@@ -46,33 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni::EnableDriver</code> method allows a rendering plug-in for <a href="https://docs.microsoft.com/windows-hardware/drivers/">Unidrv</a> to hook out some graphics DDI functions.
 
-
 ## -parameters
-
-
-
 
 ### -param DriverVersion
 
 Caller-supplied interface version number. This value is defined by PRINTER_OEMINTF_VERSION, in printoem.h.
 
-
 ### -param cbSize
 
 Caller-supplied size, in bytes, of the structure pointed to by <i>pded</i>.
-
 
 ### -param pded
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -104,14 +94,8 @@ The operation failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::EnableDriver</code> method.
 
@@ -181,6 +165,4 @@ If <code>IPrintOemUni::EnableDriver</code> methods are exported by multiple rend
 <div class="alert"><b>Note</b>    Each graphics DDI function can be hooked out by only one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.</div>
 <div> </div>
 For more information about creating and installing rendering plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 572A2C38-A990-4225-A3FC-6E899A248B1C
 ms.date: 02/15/2018
 keywords: ["GNSS_SELFTESTRESULT structure"]
 ms.keywords: "*PGNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT structure [Sensor Devices], PGNSS_SELFTESTRESULT, PGNSS_SELFTESTRESULT structure pointer [Sensor Devices], gnss.gnss_selftestresult, gnssdriver/GNSS_SELFTESTRESULT, gnssdriver/PGNSS_SELFTESTRESULT"
-f1_keywords:
- - "gnssdriver/GNSS_SELFTESTRESULT"
- - "GNSS_SELFTESTRESULT"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_SELFTESTRESULT
 targetos: Windows
 req.typenames: GNSS_SELFTESTRESULT, *PGNSS_SELFTESTRESULT
+f1_keywords:
+ - PGNSS_SELFTESTRESULT
+ - gnssdriver/PGNSS_SELFTESTRESULT
+ - GNSS_SELFTESTRESULT
+ - gnssdriver/GNSS_SELFTESTRESULT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_SELFTESTRESULT
 ---
 
 # GNSS_SELFTESTRESULT structure
@@ -46,24 +48,17 @@ req.typenames: GNSS_SELFTESTRESULT, *PGNSS_SELFTESTRESULT
 
 ## -description
 
-
 This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field TestResultStatus
 
@@ -84,21 +79,15 @@ Failed (indicating the problem detected or indicating that the is test not imple
 
 The final result of the self-test.
 
-
 ### -field PinFailedBitMask
 
 The bit mask for adapter pins that failed the test.
 
-
 ### -field Unused
-
- 
-
 
 ### -field OutBufLen
 
 The length of the buffer for returning any additional information about the self-test.
-
 
 ### -field OutBuffer
 

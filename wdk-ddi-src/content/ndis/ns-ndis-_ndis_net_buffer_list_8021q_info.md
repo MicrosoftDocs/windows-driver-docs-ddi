@@ -8,9 +8,6 @@ ms.assetid: 4314d3f9-2457-41f6-844c-197e5d05b0fe
 ms.date: 05/02/2018
 keywords: ["NDIS_NET_BUFFER_LIST_8021Q_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_8021Q_INFO, PNDIS_NET_BUFFER_LIST_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/PNDIS_NET_BUFFER_LIST_8021Q_INFO, ndis_netbuf_structures_ref_6581b8a1-543e-46fe-a513-f8b2b6780cdd.xml, netvista.ndis_net_buffer_list_8021q_info"
-f1_keywords:
- - "ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO"
- - "NDIS_NET_BUFFER_LIST_8021Q_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_NET_BUFFER_LIST_8021Q_INFO
 targetos: Windows
 req.typenames: NDIS_NET_BUFFER_LIST_8021Q_INFO, *PNDIS_NET_BUFFER_LIST_8021Q_INFO
+f1_keywords:
+ - _NDIS_NET_BUFFER_LIST_8021Q_INFO
+ - ndis/_NDIS_NET_BUFFER_LIST_8021Q_INFO
+ - PNDIS_NET_BUFFER_LIST_8021Q_INFO
+ - ndis/PNDIS_NET_BUFFER_LIST_8021Q_INFO
+ - NDIS_NET_BUFFER_LIST_8021Q_INFO
+ - ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_NET_BUFFER_LIST_8021Q_INFO
 ---
 
 # _NDIS_NET_BUFFER_LIST_8021Q_INFO structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_NET_BUFFER_LIST_8021Q_INFO, *PNDIS_NET_BUFFER_LIST_8021Q_INF
 
 ## -description
 
-
 The NDIS_NET_BUFFER_LIST_8021Q_INFO structure specifies 802.1Q information that is associated with a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TagHeader
 
@@ -63,29 +62,24 @@ A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO. 802.
       <b>TagHeader</b> to access 802.1Q information. 
       <b>TagHeader</b> is a bit field with the following members:
 
-
 ### -field TagHeader.UserPriority
 
 Specifies 802.1p priority information that is used to establish packet priority in shared-media
        802 networks. The bits in this member specify an 802.1p priority value.
-
 
 ### -field TagHeader.CanonicalFormatId
 
 This member should be set to zero, which indicates that all MAC address information present in a
        packet is in canonical format (that is, simplest form).
 
-
 ### -field TagHeader.VlanId
 
 Identifies the VLAN that a packet belongs to. Outgoing packets are marked with the VLAN
        identifier.
 
-
 ### -field TagHeader.Reserved
 
 This member is reserved and should be set to zero.
-
 
 ### -field WLanTagHeader
 
@@ -94,24 +88,20 @@ A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO. Nati
       <b>WLanTagHeader</b> to access 802.1Q information. 
       <b>WLanTagHeader</b> is a bit field with the following members:
 
-
 ### -field WLanTagHeader.UserPriority
 
 Specifies 802.1p priority information that is used to establish packet priority in shared-media
        802 networks. The bits in this member specify an 802.1p priority value.
-
 
 ### -field WLanTagHeader.CanonicalFormatId
 
 This member should be set to zero, which indicates that all MAC address information present in a
        packet is in canonical format (that is, simplest form).
 
-
 ### -field WLanTagHeader.VlanId
 
 Identifies the VLAN that a packet belongs to. Outgoing packets are marked with the VLAN
        identifier.
-
 
 ### -field WLanTagHeader.WMMInfo
 
@@ -129,7 +119,6 @@ A wireless multimedia (WMM) integer value that is the same as the traffic identi
 
 This member is reserved and should be set to zero.
 
-
 ### -field Value
 
 A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO. 
@@ -137,10 +126,7 @@ A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO.
       <b>NetBufferListInfo</b> member in the 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -remarks
-
-
 
 To retrieve or insert 802.1Q information that is associated with a 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure, an NDIS driver
@@ -180,12 +166,7 @@ For receive operations, the miniport driver must remove the 802.1Q tag from the 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
@@ -197,7 +178,4 @@ For receive operations, the miniport driver must remove the 802.1Q tag from the 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
    NdisMIndicateReceiveNetBufferLists</a>
- 
-
- 
 

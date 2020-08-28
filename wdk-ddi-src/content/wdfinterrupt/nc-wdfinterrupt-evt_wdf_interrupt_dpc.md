@@ -8,9 +8,6 @@ ms.assetid: d2d505e0-aeac-4871-8c60-d026b2833043
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_INTERRUPT_DPC callback function"]
 ms.keywords: DFInterruptObjectRef_9d7e9cb2-6cfd-4b39-82c8-8a29033e390a.xml, EVT_WDF_INTERRUPT_DPC, EVT_WDF_INTERRUPT_DPC callback, EvtInterruptDpc, EvtInterruptDpc callback function, kmdf.evtinterruptdpc, wdf.evtinterruptdpc, wdfinterrupt/EvtInterruptDpc
-f1_keywords:
- - "wdfinterrupt/EvtInterruptDpc"
- - "EvtInterruptDpc"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfinterrupt.h
-api_name:
-- EvtInterruptDpc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_INTERRUPT_DPC
+ - wdfinterrupt/EVT_WDF_INTERRUPT_DPC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfinterrupt.h
+api_name:
+ - EvtInterruptDpc
 ---
 
 # EVT_WDF_INTERRUPT_DPC callback function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtInterruptDpc</i> event callback function processes interrupt information that the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function has stored.
 
-
 ## -parameters
 
-
-
-
 ### -param Interrupt 
+
 [in]
 A handle to a framework interrupt object.
 
-
 ### -param AssociatedObject 
+
 [in]
 A handle to the framework device object that the driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
-
 ## -remarks
-
-
 
 To register an <i>EvtInterruptDpc</i> callback function, your driver must place the callback function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config">WDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
@@ -91,14 +84,7 @@ Typically, it is necessary to synchronize the execution of a driver's <i>EvtInte
 
 For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a>
 
@@ -117,7 +103,4 @@ For more information about handling interrupts in framework-based drivers, see <
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptqueuedpcforisr">WdfInterruptQueueDpcForIsr</a>
- 
-
- 
 

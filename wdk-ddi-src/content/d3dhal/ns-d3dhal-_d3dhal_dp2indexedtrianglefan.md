@@ -8,9 +8,6 @@ ms.assetid: cdc3dd16-6bf2-495c-8df1-aa9c670d1e7a
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2INDEXEDTRIANGLEFAN structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLEFAN, LPD3DHAL_DP2INDEXEDTRIANGLEFAN structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLEFAN, d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLEFAN, d3dstrct_72b499fd-e571-4dbb-a9b8-c2debf754b41.xml, display.d3dhal_dp2indexedtrianglefan"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN"
- - "D3DHAL_DP2INDEXEDTRIANGLEFAN"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2INDEXEDTRIANGLEFAN
 targetos: Windows
 req.typenames: D3DHAL_DP2INDEXEDTRIANGLEFAN, *LPD3DHAL_DP2INDEXEDTRIANGLEFAN
+f1_keywords:
+ - _D3DHAL_DP2INDEXEDTRIANGLEFAN
+ - d3dhal/_D3DHAL_DP2INDEXEDTRIANGLEFAN
+ - LPD3DHAL_DP2INDEXEDTRIANGLEFAN
+ - d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLEFAN
+ - D3DHAL_DP2INDEXEDTRIANGLEFAN
+ - d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2INDEXEDTRIANGLEFAN
 ---
 
 # _D3DHAL_DP2INDEXEDTRIANGLEFAN structure
@@ -46,14 +50,9 @@ req.typenames: D3DHAL_DP2INDEXEDTRIANGLEFAN, *LPD3DHAL_DP2INDEXEDTRIANGLEFAN
 
 ## -description
 
-
 D3DHAL_DP2INDEXEDTRIANGLEFAN is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_INDEXEDTRIANGLEFAN, and is used to render a sequence of connected triangles using vertex indices. All of the triangles share a common vertex.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wV
 
@@ -61,11 +60,7 @@ Specifies the indexes into the vertex buffer from which the driver obtains coord
 
 Although this member has only enough space to contain three indexes, this array of indexes should be treated as a variable-sized array with (<b>wPrimitiveCount</b> + 2) elements. (<b>wPrimitiveCount</b> is a member of the D3DHAL_DP2COMMAND structure.)
 
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process (<b>wPrimitiveCount</b>+2) indexes from the command buffer, in effect, processing <b>wPrimitiveCount</b> D3DHAL_DP2INDEXEDTRIANGLEFAN structures. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
@@ -77,12 +72,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <img alt="Figure showing a buffer with a D3DDP2OP_INDEXEDTRIANGLEFAN command, a D3DHAL_DP2STARTVERTEX offset, and a list of D3DHAL_DP2INDEXEDTRIANGLEFAN structures" src="images/dp2tfani.png"/>
 
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_INDEXEDTRIANGLEFAN
 
@@ -101,7 +91,4 @@ D3DDP2OP_INDEXEDTRIANGLEFAN
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnTrimResidencySet"
- - "pfnTrimResidencySet"
+ - PFND3DDDI_TRIMRESIDENCYSET
+ - d3dumddi/PFND3DDDI_TRIMRESIDENCYSET
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_TRIMRESIDENCYSET callback function
+
 
 ## -description
 

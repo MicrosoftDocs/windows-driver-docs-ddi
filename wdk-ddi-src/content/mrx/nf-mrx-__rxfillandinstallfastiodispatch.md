@@ -8,9 +8,6 @@ ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
 ms.date: 04/16/2018
 keywords: ["_RxFillAndInstallFastIoDispatch function"]
 ms.keywords: "__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml"
-f1_keywords:
- - "mrx/__RxFillAndInstallFastIoDispatch"
- - "__RxFillAndInstallFastIoDispatch"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mrx.h
-api_name:
-- __RxFillAndInstallFastIoDispatch
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - __RxFillAndInstallFastIoDispatch
+ - mrx/__RxFillAndInstallFastIoDispatch
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mrx.h
+api_name:
+ - __RxFillAndInstallFastIoDispatch
 ---
 
 # __RxFillAndInstallFastIoDispatch function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 <b>RxFillAndInstallFastIoDispatch</b> fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
-
 
 ## -parameters
 
-
-
-
 ### -param RxDeviceObject 
+
 [in]
 A pointer to the RDBSS device object for this network redirector.
 
-
 ### -param FastIoDispatch 
+
 [in, out]
 A pointer to the fast I/O dispatch table to fill in and use.
 
-
 ### -param FastIoDispatchSize 
+
 [in]
 The size, in bytes, of the fast I/O dispatch table passed.
 
-
 ## -remarks
-
-
 
 The <b>__RxFillAndInstallFastIoDispatch</b> routine is implemented differently for monolithic and non-monolithic drivers network mini-redirector. 
 
@@ -80,13 +73,7 @@ For non-monolithic network mini-redirector drivers, such as the Microsoft SMB re
 
 For monolithic network mini-redirectors built by developers, the <b>__RxFillAndInstallFastIoDispatch</b> routine does nothing.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxregisterminirdr">RxRegisterMinirdr</a>
 
@@ -101,7 +88,4 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstopminirdr">RxStopMiniRdr</a>
- 
-
- 
 

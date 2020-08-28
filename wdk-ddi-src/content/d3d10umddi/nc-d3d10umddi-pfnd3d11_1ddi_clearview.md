@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/ClearView"
- - "ClearView"
+ - PFND3D11_1DDI_CLEARVIEW
+ - d3d10umddi/PFND3D11_1DDI_CLEARVIEW
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CLEARVIEW callback function
+
 
 ## -description
 
@@ -70,6 +71,7 @@ A value, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 A pointer to the resource view to clear.
 
 ### -param Color
+
 [4]
 A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
 

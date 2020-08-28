@@ -8,9 +8,6 @@ ms.assetid: 792f8f89-ff2c-45d1-bb15-9fcdafd14231
 ms.date: 05/02/2018
 keywords: ["NdisDeregisterProtocolDriver function"]
 ms.keywords: NdisDeregisterProtocolDriver, NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterProtocolDriver, netvista.ndisderegisterprotocoldriver, protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml
-f1_keywords:
- - "ndis/NdisDeregisterProtocolDriver"
- - "NdisDeregisterProtocolDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisDeregisterProtocolDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisDeregisterProtocolDriver
+ - ndis/NdisDeregisterProtocolDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisDeregisterProtocolDriver
 ---
 
 # NdisDeregisterProtocolDriver function
@@ -47,29 +47,22 @@ req.typenames:
 
 ## -description
 
-
 A protocol driver calls the
   <b>NdisDeregisterProtocolDriver</b> function to release the resources that NDIS allocated when the driver
   called the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
   NdisRegisterProtocolDriver</a> function.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisProtocolHandle 
+
 [in]
 The handle returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
-
 ## -remarks
-
-
 
 Registered protocol drivers typically call 
     <b>NdisDeregisterProtocolDriver</b> when the driver's 
@@ -91,13 +84,7 @@ After any outstanding bindings have been closed,
     <b>NdisDeregisterProtocolDriver</b> releases all of the resources that NDIS allocated to track bindings
     and filters for the protocol driver.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -112,7 +99,4 @@ After any outstanding bindings have been closed,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a>
- 
-
- 
 

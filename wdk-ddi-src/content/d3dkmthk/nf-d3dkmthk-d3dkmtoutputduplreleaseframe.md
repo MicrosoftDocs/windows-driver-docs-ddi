@@ -7,9 +7,6 @@ ms.assetid: 07bbc201-0320-4f26-be0a-27c06763813f
 ms.date: 05/10/2018
 keywords: ["D3DKMTOutputDuplReleaseFrame function"]
 ms.keywords: D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame callback function [Display Devices], PFND3DKMT_OUTPUTDUPLRELEASEFRAME, PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback, d3dkmthk/D3DKMTOutputDuplReleaseFrame, display.d3dkmtoutputduplreleaseframe
-f1_keywords:
- - "d3dkmthk/D3DKMTOutputDuplReleaseFrame"
- - "D3DKMTOutputDuplReleaseFrame"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -24,24 +21,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTOutputDuplReleaseFrame
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTOutputDuplReleaseFrame
+ - d3dkmthk/D3DKMTOutputDuplReleaseFrame
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTOutputDuplReleaseFrame
 ---
 
 # D3DKMTOutputDuplReleaseFrame function
+
 
 ## -description
 
@@ -70,3 +71,4 @@ This function might also return other NTSTATUS values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputdupl_release_frame">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a>
+

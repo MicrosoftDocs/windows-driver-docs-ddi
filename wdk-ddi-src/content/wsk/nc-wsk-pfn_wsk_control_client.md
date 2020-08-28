@@ -8,9 +8,6 @@ ms.assetid: dad13c60-3511-4641-9182-71a1ce032a69
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_CONTROL_CLIENT callback function"]
 ms.keywords: PFN_WSK_CONTROL_CLIENT, PFN_WSK_CONTROL_CLIENT callback, WskControlClient, WskControlClient callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolclient, wsk/WskControlClient, wskref_11f754a6-78c0-44ca-8dbc-75521ed659b7.xml
-f1_keywords:
- - "wsk/WskControlClient"
- - "WskControlClient"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskControlClient
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_CONTROL_CLIENT
+ - wsk/PFN_WSK_CONTROL_CLIENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskControlClient
 ---
 
 # PFN_WSK_CONTROL_CLIENT callback function
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskControlClient</b> function performs control operations on a WSK client object.
 
-
 ## -parameters
 
-
-
-
 ### -param Client 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
@@ -65,8 +61,8 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
-
 ### -param ControlCode 
+
 [in]
 The control operation that is being performed. A WSK application can specify one of the following
      control codes:
@@ -118,36 +114,36 @@ Map combinations of address family, socket type, and protocol to device names of
 Control whether the WSK subsystem will divert network I/O to 
        <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports.
 
-
 ### -param InputSize 
+
 [in]
 The number of bytes of data in the buffer that is pointed to by the 
      <i>InputBuffer</i> parameter.
 
-
 ### -param InputBuffer 
+
 [in, optional]
 A caller-allocated buffer that supplies any input data that is required to perform the specified
      control operation. If no input data is required for the specified control operation, the WSK application
      should set this parameter to <b>NULL</b> and set the 
      <i>InputSize</i> parameter to zero.
 
-
 ### -param OutputSize 
+
 [in]
 The size, in bytes, of the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter.
 
-
 ### -param OutputBuffer 
+
 [out, optional]
 A caller-allocated buffer that receives any output data that is returned by the specified control
      operation. If no output data is returned by the specified control operation, the WSK application should
      set this parameter to <b>NULL</b> and set the 
      <i>OutputSize</i> parameter to zero.
 
-
 ### -param OutputSizeReturned 
+
 [out, optional]
 A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
      the buffer that is pointed to by the 
@@ -174,6 +170,7 @@ The number of bytes of output data that is returned by the operation that is bei
 </ul>
 
 ### -param Irp 
+
 [in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -187,10 +184,7 @@ This parameter is required, is optional, or must be <b>NULL</b>, depending on th
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control
      Operations</a>.
 
-
 ## -returns
-
-
 
 <b>WskControlClient</b> returns one of the following NTSTATUS codes:
 
@@ -251,14 +245,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For more information about how the input and output buffers are used for each client control
     operation, see 
@@ -281,12 +269,7 @@ If the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Winsock Kernel</a> instead.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control Operations</a>
 
@@ -309,7 +292,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
- 
-
- 
 

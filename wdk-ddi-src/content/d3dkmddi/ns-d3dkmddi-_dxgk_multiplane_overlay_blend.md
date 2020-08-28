@@ -7,9 +7,6 @@ ms.assetid: e489919c-c0a7-4792-9758-ce7b587b13cc
 ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_BLEND structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_BLEND, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_BLEND, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND, display.dxgk_multiplane_overlay_blend
-f1_keywords:
- - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND"
- - "DXGK_MULTIPLANE_OVERLAY_BLEND"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGK_MULTIPLANE_OVERLAY_BLEND
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_BLEND
+f1_keywords:
+ - _DXGK_MULTIPLANE_OVERLAY_BLEND
+ - d3dkmddi/_DXGK_MULTIPLANE_OVERLAY_BLEND
+ - DXGK_MULTIPLANE_OVERLAY_BLEND
+ - d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGK_MULTIPLANE_OVERLAY_BLEND
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_BLEND structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_BLEND
 
 ## -description
 
-
 Identifies a blend operation to be performed on an overlay plane.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AlphaBlend
 
@@ -62,7 +59,6 @@ If set, the overlay plane should use the pre-multiplied alpha channel in this pl
 If zero, the overlay plane should ignore data in the alpha channel and make the blended plane entirely opaque.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
-
 
 ### -field Reserved
 
@@ -74,10 +70,7 @@ This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 A 32-bit value that identifies the type of blend operation to perform.
-
-
 

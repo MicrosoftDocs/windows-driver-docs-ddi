@@ -8,9 +8,6 @@ ms.assetid: e3da62c2-4940-4c55-8232-1780d92b7f1f
 ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchIncomingCallQoSChange macro"]
 ms.keywords: NdisMCmDispatchIncomingCallQoSChange, NdisMCmDispatchIncomingCallQoSChange macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_d926c691-a75e-4195-9026-67429043a821.xml, ndis/NdisMCmDispatchIncomingCallQoSChange, netvista.ndismcmdispatchincomingcallqoschange
-f1_keywords:
- - "ndis/NdisMCmDispatchIncomingCallQoSChange"
- - "NdisMCmDispatchIncomingCallQoSChange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmDispatchIncomingCallQoSChange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDispatchIncomingCallQoSChange
+ - ndis/NdisMCmDispatchIncomingCallQoSChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmDispatchIncomingCallQoSChange
 ---
 
 # NdisMCmDispatchIncomingCallQoSChange macro
@@ -46,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDispatchIncomingCallQoSChange</b> notifies a client that a request to change the quality of
   service on that client's active connection has been received over the network.
 
-
 ## -parameters
-
-
-
 
 ### -param _H_
 
@@ -70,10 +65,7 @@ Pointer to a structure of type
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that specifies the new
      QoS, requested by the client on the remote node, for this connection.
 
-
 ## -remarks
-
-
 
 An MCM driver calls 
     <b>NdisMCmDispatchIncomingCallQoSChange</b> to notify the client that it has received a request to modify
@@ -96,13 +88,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     NDIS as protocol drivers, call 
     <b>NdisCmDispatchIncomingCallQoSChange</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -135,7 +121,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

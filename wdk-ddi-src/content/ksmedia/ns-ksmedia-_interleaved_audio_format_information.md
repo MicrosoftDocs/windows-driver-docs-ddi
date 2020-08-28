@@ -6,35 +6,36 @@ tech.root: audio
 ms.assetid: a4a61253-cf10-4dc2-990d-c975520023b0
 ms.date: 08/14/2020
 keywords: ["INTERLEAVED_AUDIO_FORMAT_INFORMATION structure"]
-f1_keywords:
- - "ksmedia/INTERLEAVED_AUDIO_FORMAT_INFORMATION"
- - "INTERLEAVED_AUDIO_FORMAT_INFORMATION"
-ms.keywords: INTERLEAVED_AUDIO_FORMAT_INFORMATION, INTERLEAVED_AUDIO_FORMAT_INFORMATION, 
+ms.keywords: INTERLEAVED_AUDIO_FORMAT_INFORMATION, INTERLEAVED_AUDIO_FORMAT_INFORMATION,
 req.header: ksmedia.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: INTERLEAVED_AUDIO_FORMAT_INFORMATION
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ksmedia.h
-api_name: 
- - INTERLEAVED_AUDIO_FORMAT_INFORMATION
 targetos: Windows
+f1_keywords:
+ - INTERLEAVED_AUDIO_FORMAT_INFORMATION
+ - ksmedia/INTERLEAVED_AUDIO_FORMAT_INFORMATION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - INTERLEAVED_AUDIO_FORMAT_INFORMATION
 ---
 
 # INTERLEAVED_AUDIO_FORMAT_INFORMATION structure
+
 
 ## -description
 
@@ -81,3 +82,4 @@ The WAVEFORMATEXTENSIBLE returned by the driver reports the channel count as a s
 [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
 
 [KSPROPERTY_INTERLEAVEDAUDIO Enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksproperty_interleavedaudio)
+

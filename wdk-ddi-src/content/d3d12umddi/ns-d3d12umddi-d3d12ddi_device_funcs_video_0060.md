@@ -8,42 +8,43 @@ ms.assetid: d8e45d0b-1699-44c3-b12e-8eecd6b3499c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_DEVICE_FUNCS_VIDEO_0060 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0060"
- - "D3D12DDI_DEVICE_FUNCS_VIDEO_0060"
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0060, D3D12DDI_DEVICE_FUNCS_VIDEO_0060, 
+ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0060, D3D12DDI_DEVICE_FUNCS_VIDEO_0060,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0060
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDI_DEVICE_FUNCS_VIDEO_0060
-product: 
- - Windows
 targetos: Windows
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
+f1_keywords:
+ - D3D12DDI_DEVICE_FUNCS_VIDEO_0060
+ - d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0060
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_DEVICE_FUNCS_VIDEO_0060
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 ---
 
 # D3D12DDI_DEVICE_FUNCS_VIDEO_0060 structure
+
 
 ## -description
 
@@ -53,53 +54,44 @@ The device functions of video, used in D3D12DDI_FEATURE_VERSION_VIDEO_0060.
 
 ### -field pfnGetCaps
 
-Get capabilities. 
-
+Get capabilities.
 
 ### -field pfnCalcPrivateVideoDecoderSize
 
-Calculates the private video decoder size. 
-
+Calculates the private video decoder size.
 
 ### -field pfnCreateVideoDecoder
 
-Creates a video decoder. 
-
+Creates a video decoder.
 
 ### -field pfnDestroyVideoDecoder
 
-Destroys the video decoder. 
-
+Destroys the video decoder.
 
 ### -field pfnCalcPrivateVideoDecoderHeapSize
 
-Calculates the private video decoder heap size. 
-
+Calculates the private video decoder heap size.
 
 ### -field pfnCreateVideoDecoderHeap
 
-Creates the video decoder heap. 
-
+Creates the video decoder heap.
 
 ### -field pfnDestroyVideoDecoderHeap
 
-Destroys the video decoder heap. 
-
+Destroys the video decoder heap.
 
 ### -field pfnCalcPrivateVideoProcessorSize
 
-Calculates the private video processor size. 
-
+Calculates the private video processor size.
 
 ### -field pfnCreateVideoProcessor
 
-Creates the video processor. 
-
+Creates the video processor.
 
 ### -field pfnDestroyVideoProcessor
 
-Destroys the video processor. 
- 
+Destroys the video processor.
+
 ### -field pfnCalcPrivateVideoMotionEstimatorSize
 
 Calculates private video motion estimator size.
@@ -127,3 +119,4 @@ Destroy video motion vector heap.
 ## -remarks
 
 ## -see-also
+

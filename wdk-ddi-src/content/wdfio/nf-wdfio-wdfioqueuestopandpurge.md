@@ -8,9 +8,6 @@ ms.assetid: 3A9CF1BD-77F1-4F4C-AEB5-0E77B67C45D3
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueStopAndPurge function"]
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
-f1_keywords:
- - "wdfio/WdfIoQueueStopAndPurge"
- - "WdfIoQueueStopAndPurge"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoQueueStopAndPurge
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoQueueStopAndPurge
+ - wdfio/WdfIoQueueStopAndPurge
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoQueueStopAndPurge
 ---
 
 # WdfIoQueueStopAndPurge function
@@ -49,37 +49,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 
    The <b>WdfIoQueueStopAndPurge</b> method prevents an I/O queue from delivering new requests and cancels existing unprocessed requests and driver-owned cancellable requests, but the queue receives and stores new requests.
 
-
 ## -parameters
 
-
-
-
 ### -param Queue 
+
 [in]
 A handle to a framework queue object.
 
-
 ### -param StopAndPurgeComplete 
+
 [in, optional]
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be NULL.
 
-
 ### -param Context 
+
 [in, optional]
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be NULL.
 
-
 ## -remarks
-
-
-
 
    The <b>WdfIoQueueStopAndPurge</b> method prevents an I/O queue from delivering I/O requests to the driver while allowing new requests to be added to the queue.
   In addition, it cancels unprocessed requests in the queue and driver-owned cancellable requests (requests that were delivered to the driver that driver has not completed or requeued). If new requests are added while <b>WdfIoQueueStopAndPurge</b> is in progress, these new requests are not delivered until driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestart">WdfIoQueueStart</a>.
@@ -115,12 +107,7 @@ WdfIoQueueStopAndPurge(
                );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue">EvtIoCanceledOnQueue</a>
 
@@ -135,7 +122,4 @@ WdfIoQueueStopAndPurge(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestopandpurgesynchronously">WdfIoQueueStopAndPurgeSynchronously</a>
- 
-
- 
 

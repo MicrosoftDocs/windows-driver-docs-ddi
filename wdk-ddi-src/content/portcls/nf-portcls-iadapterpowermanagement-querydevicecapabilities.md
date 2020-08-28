@@ -8,9 +8,6 @@ ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.date: 05/08/2018
 keywords: ["IAdapterPowerManagement::QueryDeviceCapabilities"]
 ms.keywords: IAdapterPowerManagement interface [Audio Devices],QueryDeviceCapabilities method, IAdapterPowerManagement.QueryDeviceCapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
-f1_keywords:
- - "portcls/IAdapterPowerManagement.QueryDeviceCapabilities"
- - "IAdapterPowerManagement.QueryDeviceCapabilities"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IAdapterPowerManagement.QueryDeviceCapabilities
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IAdapterPowerManagement::QueryDeviceCapabilities
+ - portcls/IAdapterPowerManagement::QueryDeviceCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IAdapterPowerManagement.QueryDeviceCapabilities
 ---
 
 # IAdapterPowerManagement::QueryDeviceCapabilities
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <code>QueryDeviceCapabilities</code> method is called by PortCls in response to a Plug and Play <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a> IRP.
-
 
 ## -parameters
 
-
-
-
 ### -param PowerDeviceCaps 
+
 [in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure specifying the device's capabilities
 
-
 ## -returns
-
-
 
 <code>QueryDeviceCapabilities</code> returns STATUS_SUCCESS if call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is called at driver startup to get the capabilities for the device. The method passes to the adapter driver a capabilities structure that defines the mappings between system power states and device power states. PortCls writes the default values for these mappings into the structure before calling the method. During the call, the adapter driver has the opportunity to edit the mappings, if necessary.
 
@@ -99,13 +87,7 @@ In order to change the mappings between system power states and device power sta
 </table></span></div>
 The code for the <code>QueryDeviceCapabilities</code> method must reside in paged memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>
 
@@ -120,7 +102,4 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteradapterpowermanagement">PcRegisterAdapterPowerManagement</a>
- 
-
- 
 

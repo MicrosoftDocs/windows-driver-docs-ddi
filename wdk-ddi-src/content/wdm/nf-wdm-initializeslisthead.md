@@ -8,9 +8,6 @@ ms.assetid: 258addec-7231-494c-aa70-5966e9a57132
 ms.date: 04/30/2018
 keywords: ["InitializeSListHead function"]
 ms.keywords: ExInitializeSListHead, InitializeSListHead, InitializeSListHead routine [Kernel-Mode Driver Architecture], k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, kernel.exinitializeslisthead, wdm/InitializeSListHead
-f1_keywords:
- - "wdm/InitializeSListHead"
- - "InitializeSListHead"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- InitializeSListHead
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InitializeSListHead
+ - wdm/InitializeSListHead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - InitializeSListHead
 ---
 
 # InitializeSListHead function
@@ -46,35 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>InitializeSListHead</b> routine (or ExInitializeSListHead) initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that represents the head of a sequenced singly linked list.
-
 
 ## -parameters
 
-
-
-
 ### -param SListHead 
-[in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure to initialize. The structure must be 16-byte aligned on 64-bit platforms. 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure to initialize. The structure must be 16-byte aligned on 64-bit platforms.
 
 ## -remarks
-
-
 
 For more information about using this routine to implement a sequenced singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at any IRQL. If <b>ExInitializeSListHead</b> is called at IRQL >= DISPATCH_LEVEL the storage for <i>SListHead</i> must be resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializenpagedlookasidelist">ExInitializeNPagedLookasideList</a>
 
@@ -101,7 +88,4 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
- 
-
- 
 

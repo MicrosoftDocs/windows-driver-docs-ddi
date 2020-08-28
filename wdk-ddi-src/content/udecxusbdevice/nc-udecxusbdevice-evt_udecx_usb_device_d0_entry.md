@@ -8,9 +8,6 @@ ms.assetid: 92CEEAF3-BD70-4B1C-8385-00720A195E50
 ms.date: 05/07/2018
 keywords: ["EVT_UDECX_USB_DEVICE_D0_ENTRY callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_D0_ENTRY, EVT_UDECX_USB_DEVICE_D0_ENTRY callback, EvtUsbDeviceLinkPowerEntry, EvtUsbDeviceLinkPowerEntry callback function [Buses], buses.evt_udecx_usb_device_d0_entry, udecxusbdevice/EvtUsbDeviceLinkPowerEntry
-f1_keywords:
- - "udecxusbdevice/EvtUsbDeviceLinkPowerEntry"
- - "EvtUsbDeviceLinkPowerEntry"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- udecxusbdevice.h
-api_name:
-- EvtUsbDeviceLinkPowerEntry
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UDECX_USB_DEVICE_D0_ENTRY
+ - udecxusbdevice/EVT_UDECX_USB_DEVICE_D0_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - udecxusbdevice.h
+api_name:
+ - EvtUsbDeviceLinkPowerEntry
 ---
 
 # EVT_UDECX_USB_DEVICE_D0_ENTRY callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The USB device emulation class extension (UdeCx) invokes this callback function when it gets a request to bring the virtual USB device out of a low power state to working state.
-
 
 ## -parameters
 
-
-
-
 ### -param UdecxWdfDevice 
+
 [in]
 A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
-
 ### -param UdecxUsbDevice 
+
 [in]
 A handle to UDE device object. The client driver created this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
-
 ## -returns
-
-
 
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE.
 
-
-
-
 ## -remarks
-
-
 
 The client driver registered the function in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
@@ -84,14 +72,7 @@ In the callback implementation, the client driver for the USB device is expected
 
 The power request may be completed asynchronously by returning STATUS_PENDING, and then later completing it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete">UdecxUsbDeviceLinkPowerExitComplete</a> with the actual completion code.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -110,7 +91,4 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

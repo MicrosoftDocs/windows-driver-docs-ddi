@@ -8,9 +8,6 @@ ms.assetid: 8118589c-00ef-4986-b523-b812160a547d
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::DisableRealBatteries"]
 ms.keywords: DisableRealBatteries, DisableRealBatteries method [Windows Device Testing Framework], DisableRealBatteries method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],DisableRealBatteries method, IWDTFSimulatedBatterySystemAction.DisableRealBatteries, IWDTFSimulatedBatterySystemAction::DisableRealBatteries, dtf.iwdtfsimulatedbatterysystemaction_disablerealbatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableRealBatteries
-f1_keywords:
- - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.DisableRealBatteries"
- - "IWDTFSimulatedBatterySystemAction.DisableRealBatteries"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfsimulatedbatterysystemaction.h
-api_name:
-- IWDTFSimulatedBatterySystemAction.DisableRealBatteries
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimulatedBatterySystemAction::DisableRealBatteries
+ - wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableRealBatteries
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfsimulatedbatterysystemaction.h
+api_name:
+ - IWDTFSimulatedBatterySystemAction.DisableRealBatteries
 ---
 
 # IWDTFSimulatedBatterySystemAction::DisableRealBatteries
 
 
 ## -description
-
-
 
 Disables real batteries if they are present in the system.
 
@@ -58,31 +56,17 @@ Use this method to disable real batteries if they are present in the
     battery state, otherwise the state changes might not have the desired
     effect on OS or software behavior.
 
-
 ## -parameters
 
-
-
-
 ### -param pbSuccess 
+
 [out, retval]
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFSimulatedBatterySystemAction</a>
- 
-
- 
 

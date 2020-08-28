@@ -8,9 +8,6 @@ ms.assetid: cf160fb9-8230-4b75-8a4f-d19ef001f54a
 ms.date: 05/02/2018
 keywords: ["RILAVOIDCDMASYSTEMPARAMS structure"]
 ms.keywords: "*LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilavoidcdmasystemparams, ntddrilapitypes/RILAVOIDCDMASYSTEMPARAMS"
-f1_keywords:
- - "rilapitypes/RILAVOIDCDMASYSTEMPARAMS"
- - "RILAVOIDCDMASYSTEMPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILAVOIDCDMASYSTEMPARAMS
 targetos: Windows
 req.typenames: RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS
+f1_keywords:
+ - RILAVOIDCDMASYSTEMPARAMS
+ - rilapitypes/RILAVOIDCDMASYSTEMPARAMS
+ - LPRILAVOIDCDMASYSTEMPARAMS
+ - rilapitypes/LPRILAVOIDCDMASYSTEMPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILAVOIDCDMASYSTEMPARAMS
 ---
 
 # RILAVOIDCDMASYSTEMPARAMS structure
@@ -46,17 +48,11 @@ req.typenames: RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
-
 
 ### -field dwAvoidanceReqType
 

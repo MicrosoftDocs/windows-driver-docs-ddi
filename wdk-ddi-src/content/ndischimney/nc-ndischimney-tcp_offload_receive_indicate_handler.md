@@ -8,9 +8,6 @@ ms.assetid: 8a400515-3619-4fe9-8e08-638859442ea3
 ms.date: 05/02/2018
 keywords: ["TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadReceiveIndicate, ProtocolTcpOffloadReceiveIndicate callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER callback, ndischimney/ProtocolTcpOffloadReceiveIndicate, netvista.protocoltcpoffloadreceiveindicate, tcp_chim_protocol_func_c65e1895-a874-4c93-b25f-f2951a0a19db.xml
-f1_keywords:
- - "ndischimney/ProtocolTcpOffloadReceiveIndicate"
- - "ProtocolTcpOffloadReceiveIndicate"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- ProtocolTcpOffloadReceiveIndicate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER
+ - ndischimney/TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - ProtocolTcpOffloadReceiveIndicate
 ---
 
 # TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
@@ -54,13 +53,10 @@ NDIS calls a protocol driver's or intermediate driver's
   ProtocolTcpOffloadReceiveIndicate</i> function to deliver received data that is being indicated by an
   underlying driver or offload target.
 
-
 ## -parameters
 
-
-
-
 ### -param OffloadContext 
+
 [in]
 A pointer to the protocol or intermediate driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_offload_handle">NDIS_OFFLOAD_HANDLE</a> structure for the
@@ -69,8 +65,8 @@ A pointer to the protocol or intermediate driver's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisinitiateoffload">NdisInitiateOffload</a> function when
      offloading the connection.
 
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
@@ -93,23 +89,20 @@ The
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> in an offload receive
       indication.
 
-
 ### -param Status 
+
 [in]
 An intermediate driver should propagate this status when calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
      NdisTcpOffloadReceiveHandler</a>.
 
-
 ### -param BytesConsumed 
+
 [out]
 A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
      client application.
 
-
 ## -returns
-
-
 
 The 
      <i>
@@ -156,14 +149,8 @@ The client application consumed a subset of the indicated receive data. The amou
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To propagate the indication to the overlying driver or host stack, the intermediate driver calls the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
@@ -194,12 +181,7 @@ The
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
 
@@ -226,7 +208,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">NdisTcpOffloadReceiveHandler</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 98d491f8-eeb5-4152-9bb6-fffabcba0360
 ms.date: 03/29/2018
 keywords: ["ScsiPortConvertUlongToPhysicalAddress function"]
 ms.keywords: ScsiPortConvertUlongToPhysicalAddress, ScsiPortConvertUlongToPhysicalAddress routine [Storage Devices], scsiprt_9dc27865-55c2-4599-913c-babe77c62af9.xml, srb/ScsiPortConvertUlongToPhysicalAddress, storage.scsiportconvertulongtophysicaladdress
-f1_keywords:
- - "srb/ScsiPortConvertUlongToPhysicalAddress"
- - "ScsiPortConvertUlongToPhysicalAddress"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortConvertUlongToPhysicalAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortConvertUlongToPhysicalAddress
+ - srb/ScsiPortConvertUlongToPhysicalAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortConvertUlongToPhysicalAddress
 ---
 
 # ScsiPortConvertUlongToPhysicalAddress function
@@ -47,33 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortConvertUlongToPhysicalAddress</b> routine extends a given ULONG address into a value of type SCSI_PHYSICAL_ADDRESS.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param UlongAddress 
+
 [in]
 Specifies a value of type ULONG.
 
-
 ## -returns
-
-
 
 <b>ScsiPortConvertUlongToPhysicalAddress</b> returns the converted SCSI_PHYSICAL_ADDRESS.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_access_range">ACCESS_RANGE</a>
 
@@ -84,7 +72,4 @@ Specifies a value of type ULONG.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetvirtualaddress">ScsiPortGetVirtualAddress</a>
- 
-
- 
 

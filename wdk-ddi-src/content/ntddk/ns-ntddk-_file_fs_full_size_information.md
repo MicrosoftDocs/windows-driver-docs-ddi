@@ -8,9 +8,6 @@ ms.assetid: 4a37bfed-cf8e-4c97-a9fe-a44d910bed92
 ms.date: 04/16/2018
 keywords: ["FILE_FS_FULL_SIZE_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_FULL_SIZE_INFORMATION, PFILE_FS_FULL_SIZE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_FULL_SIZE_INFORMATION, fileinformationstructures_7ba05d64-c04e-48cf-84f1-48ad8de5d35b.xml, ifsk.file_fs_full_size_information, ntddk/FILE_FS_FULL_SIZE_INFORMATION, ntddk/PFILE_FS_FULL_SIZE_INFORMATION"
-f1_keywords:
- - "ntddk/FILE_FS_FULL_SIZE_INFORMATION"
- - "FILE_FS_FULL_SIZE_INFORMATION"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- FILE_FS_FULL_SIZE_INFORMATION
 targetos: Windows
 req.typenames: FILE_FS_FULL_SIZE_INFORMATION, *PFILE_FS_FULL_SIZE_INFORMATION
+f1_keywords:
+ - _FILE_FS_FULL_SIZE_INFORMATION
+ - ntddk/_FILE_FS_FULL_SIZE_INFORMATION
+ - PFILE_FS_FULL_SIZE_INFORMATION
+ - ntddk/PFILE_FS_FULL_SIZE_INFORMATION
+ - FILE_FS_FULL_SIZE_INFORMATION
+ - ntddk/FILE_FS_FULL_SIZE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - FILE_FS_FULL_SIZE_INFORMATION
 ---
 
 # _FILE_FS_FULL_SIZE_INFORMATION structure
@@ -46,47 +50,35 @@ req.typenames: FILE_FS_FULL_SIZE_INFORMATION, *PFILE_FS_FULL_SIZE_INFORMATION
 
 ## -description
 
-
-The FILE_FS_FULL_SIZE_INFORMATION structure is used to query sector size information for a file system volume. 
-
+The FILE_FS_FULL_SIZE_INFORMATION structure is used to query sector size information for a file system volume.
 
 ## -struct-fields
-
-
-
 
 ### -field TotalAllocationUnits
 
 Total number of allocation units on the volume that are available to the user associated with the calling thread. 
 
-<b>Microsoft Windows 2000 and later:</b> If per-user quotas are in use, this value may be less than the total number of allocation units on the disk. 
-
+<b>Microsoft Windows 2000 and later:</b> If per-user quotas are in use, this value may be less than the total number of allocation units on the disk.
 
 ### -field CallerAvailableAllocationUnits
 
 Total number of free allocation units on the volume that are available to the user associated with the calling thread. 
 
-<b>Windows 2000 and later:</b> If per-user quotas are in use, this value may be less than the total number of free allocation units on the disk. 
-
+<b>Windows 2000 and later:</b> If per-user quotas are in use, this value may be less than the total number of free allocation units on the disk.
 
 ### -field ActualAvailableAllocationUnits
 
-Total number of free allocation units on the volume. 
-
+Total number of free allocation units on the volume.
 
 ### -field SectorsPerAllocationUnit
 
-Number of sectors in each allocation unit. 
-
+Number of sectors in each allocation unit.
 
 ### -field BytesPerSector
 
-Number of bytes in each sector. 
-
+Number of bytes in each sector.
 
 ## -remarks
-
-
 
 This information can be queried in either of the following ways: 
 
@@ -104,15 +96,9 @@ No specific access rights are required to query this information. Thus this info
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_FULL_SIZE_INFORMATION). 
 
-This structure must be aligned on a LONGLONG (8-byte) boundary. 
-
-
-
+This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>
 
@@ -123,7 +109,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
- 
-
- 
 

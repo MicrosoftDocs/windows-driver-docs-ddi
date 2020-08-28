@@ -8,9 +8,6 @@ ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.date: 04/20/2018
 keywords: ["OPTCOMBO structure"]
 ms.keywords: "*POPTCOMBO, OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO, POPTCOMBO structure pointer [Print Devices], _OPTCOMBO, compstui/OPTCOMBO, compstui/POPTCOMBO, print.optcombo"
-f1_keywords:
- - "compstui/OPTCOMBO"
- - "OPTCOMBO"
 req.header: compstui.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Compstui.h
-api_name:
-- OPTCOMBO
 targetos: Windows
 req.typenames: OPTCOMBO, *POPTCOMBO
+f1_keywords:
+ - _OPTCOMBO
+ - compstui/_OPTCOMBO
+ - POPTCOMBO
+ - compstui/POPTCOMBO
+ - OPTCOMBO
+ - compstui/OPTCOMBO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Compstui.h
+api_name:
+ - OPTCOMBO
 ---
 
 # _OPTCOMBO structure
@@ -46,29 +50,17 @@ req.typenames: OPTCOMBO, *POPTCOMBO
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
-
 ### -field Flags
-
 
 ### -field cListItem
 
-
 ### -field pListItem
 
-
 ### -field Sel
-
 
 ### -field dwReserved
 

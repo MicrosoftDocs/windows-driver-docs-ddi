@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DecryptionBlt"
- - "DecryptionBlt"
+ - PFND3DDDI_DECRYPTIONBLT
+ - d3dumddi/PFND3DDDI_DECRYPTIONBLT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DECRYPTIONBLT callback function
+
 
 ## -description
 

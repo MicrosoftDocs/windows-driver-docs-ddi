@@ -8,9 +8,6 @@ ms.assetid: 8b2cf167-d1bd-440e-beb4-5159b8b13073
 ms.date: 05/03/2018
 keywords: ["IDebugClient::RemoveProcessOptions"]
 ms.keywords: IDebugClient interface [Windows Debugging],RemoveProcessOptions method, IDebugClient.RemoveProcessOptions, IDebugClient2 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient2::RemoveProcessOptions, IDebugClient3 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient3::RemoveProcessOptions, IDebugClient4 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient4::RemoveProcessOptions, IDebugClient5 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient5::RemoveProcessOptions, IDebugClient::RemoveProcessOptions, IDebugClient_eafb8a9c-18a4-4737-8ece-955596338fe5.xml, RemoveProcessOptions, RemoveProcessOptions method [Windows Debugging], RemoveProcessOptions method [Windows Debugging],IDebugClient interface, RemoveProcessOptions method [Windows Debugging],IDebugClient2 interface, RemoveProcessOptions method [Windows Debugging],IDebugClient3 interface, RemoveProcessOptions method [Windows Debugging],IDebugClient4 interface, RemoveProcessOptions method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::RemoveProcessOptions, dbgeng/IDebugClient3::RemoveProcessOptions, dbgeng/IDebugClient4::RemoveProcessOptions, dbgeng/IDebugClient5::RemoveProcessOptions, dbgeng/IDebugClient::RemoveProcessOptions, debugger.removeprocessoptions
-f1_keywords:
- - "dbgeng/IDebugClient.RemoveProcessOptions"
- - "IDebugClient.RemoveProcessOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.RemoveProcessOptions
-- IDebugClient2.RemoveProcessOptions
-- IDebugClient3.RemoveProcessOptions
-- IDebugClient4.RemoveProcessOptions
-- IDebugClient5.RemoveProcessOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient::RemoveProcessOptions
+ - dbgeng/IDebugClient::RemoveProcessOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.RemoveProcessOptions
+ - IDebugClient2.RemoveProcessOptions
+ - IDebugClient3.RemoveProcessOptions
+ - IDebugClient4.RemoveProcessOptions
+ - IDebugClient5.RemoveProcessOptions
 ---
 
 # IDebugClient::RemoveProcessOptions
@@ -50,23 +50,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RemoveProcessOptions</b> method removes process options from those options that affect the current process.
-
 
 ## -parameters
 
-
-
-
 ### -param Options 
+
 [in]
 Specifies the process options to remove from those affecting the current process.  For details on these options, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -89,12 +82,7 @@ The method was successful.
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 This method is available only in live user-mode debugging.
 
@@ -104,13 +92,7 @@ If any process options are modified, the engine will notify the event callbacks 
 
 For more information about creating and attaching to live user-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-addprocessoptions">AddProcessOptions</a>
 
@@ -145,7 +127,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setprocessoptions">SetProcessOptions</a>
- 
-
- 
 

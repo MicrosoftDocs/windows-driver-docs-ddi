@@ -8,8 +8,6 @@ ms.assetid: 79327b2b-e97b-42dc-8d15-9d774c424cae
 ms.date: 02/27/2020
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_INFO, ClassificationHandleNetBufferListInfo, IMReserved, IPsecOffloadV1NetBufferListInfo, IPsecOffloadV2HeaderNetBufferListInfo, IPsecOffloadV2NetBufferListInfo, IPsecOffloadV2TunnelNetBufferListInfo, Ieee8021QNetBufferListInfo, MaxNetBufferListInfo, MediaSpecificInformation, MediaSpecificInformationEx, NDIS_NET_BUFFER_LIST_INFO, NDIS_NET_BUFFER_LIST_INFO enumeration [Network Drivers Starting with Windows Vista], NblOriginalInterfaceIfIndex, NblReAuthWfpFlowContext, NetBufferListCancelId, NetBufferListCorrelationId, NetBufferListFilteringInfo, NetBufferListFrameType, NetBufferListHashInfo, NetBufferListHashValue, NetBufferListInfoReserved1, NetBufferListInfoReserved2, NetBufferListProtocolId, PNDIS_NET_BUFFER_LIST_INFO, PNDIS_NET_BUFFER_LIST_INFO enumeration pointer [Network Drivers Starting with Windows Vista], RscTcpTimestampDelta, SwitchForwardingDetail, SwitchForwardingReserved, TcpIpChecksumNetBufferListInfo, TcpLargeSendNetBufferListInfo, TcpOffloadBytesTransferred, TcpReceiveBytesTransferred, TcpReceiveNoPush, TcpRecvSegCoalesceInfo, TcpSendOffloadsSupplementalNetBufferListInfo, VirtualSubnetInfo, WfpNetBufferListInfo, _NDIS_NET_BUFFER_LIST_INFO, ndis/ClassificationHandleNetBufferListInfo, ndis/IMReserved, ndis/IPsecOffloadV1NetBufferListInfo, ndis/IPsecOffloadV2HeaderNetBufferListInfo, ndis/IPsecOffloadV2NetBufferListInfo, ndis/IPsecOffloadV2TunnelNetBufferListInfo, ndis/Ieee8021QNetBufferListInfo, ndis/MaxNetBufferListInfo, ndis/MediaSpecificInformation, ndis/MediaSpecificInformationEx, ndis/NDIS_NET_BUFFER_LIST_INFO, ndis/NblOriginalInterfaceIfIndex, ndis/NblReAuthWfpFlowContext, ndis/NetBufferListCancelId, ndis/NetBufferListCorrelationId, ndis/NetBufferListFilteringInfo, ndis/NetBufferListFrameType, ndis/NetBufferListHashInfo, ndis/NetBufferListHashValue, ndis/NetBufferListInfoReserved1, ndis/NetBufferListInfoReserved2, ndis/NetBufferListProtocolId, ndis/PNDIS_NET_BUFFER_LIST_INFO, ndis/RscTcpTimestampDelta, ndis/SwitchForwardingDetail, ndis/SwitchForwardingReserved, ndis/TcpIpChecksumNetBufferListInfo, ndis/TcpLargeSendNetBufferListInfo, ndis/TcpOffloadBytesTransferred, ndis/TcpReceiveBytesTransferred, ndis/TcpReceiveNoPush, ndis/TcpRecvSegCoalesceInfo, ndis/TcpSendOffloadsSupplementalNetBufferListInfo, ndis/VirtualSubnetInfo, ndis/WfpNetBufferListInfo, ndis_netbuf_enums_ref_c6cf9a86-d578-449f-bce0-850f8bbf04f3.xml, netvista.ndis_net_buffer_list_info"
 ms.topic: enum
-f1_keywords:
- - "ndis/NDIS_NET_BUFFER_LIST_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_NET_BUFFER_LIST_INFO
 targetos: Windows
 req.typenames: NDIS_NET_BUFFER_LIST_INFO, *PNDIS_NET_BUFFER_LIST_INFO
+f1_keywords:
+ - _NDIS_NET_BUFFER_LIST_INFO
+ - ndis/_NDIS_NET_BUFFER_LIST_INFO
+ - PNDIS_NET_BUFFER_LIST_INFO
+ - ndis/PNDIS_NET_BUFFER_LIST_INFO
+ - NDIS_NET_BUFFER_LIST_INFO
+ - ndis/NDIS_NET_BUFFER_LIST_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_NET_BUFFER_LIST_INFO
 ---
 
 # _NDIS_NET_BUFFER_LIST_INFO enumeration
+
 
 ## -description
 
@@ -261,7 +267,7 @@ Identifies a pointer to a driver-allocated <a href="https://docs.microsoft.com/w
 
 ### -field VirtualSubnetInfo
 
-Identifies a pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_virtual_subnet_info">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a> structure. 
+Identifies a pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_virtual_subnet_info">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a> structure.
 
 ### -field IMReserved
 
@@ -278,7 +284,6 @@ Identifies information that is used in offloading the segmentation of a large TC
 ### -field RscTcpTimestampDelta
 
 Identifies a <b>ULONG</b> value containing RSC timestamp information. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> documentation.
-
 
 ### -field TcpSendOffloadsSupplementalNetBufferListInfo
 
@@ -364,3 +369,4 @@ Use these enumeration values with the
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgeneratepartialcancelid">NdisGeneratePartialCancelId</a>
+

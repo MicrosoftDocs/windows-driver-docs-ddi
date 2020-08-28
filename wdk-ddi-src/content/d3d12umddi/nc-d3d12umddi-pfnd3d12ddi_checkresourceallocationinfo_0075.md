@@ -6,41 +6,42 @@ ms.assetid: ace3e2e6-5f45-43e3-9446-9e89168a08d1
 ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function"]
 ms.keywords: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075, PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback, d3d12umddi/pfnCheckResourceAllocationInfo, display.pfnd3d12ddi_checkresourceallocationinfo_0075, pfnCheckResourceAllocationInfo, pfnCheckResourceAllocationInfo callback function [Display Devices]
-f1_keywords:
- - "d3d12umddi/pfnCheckResourceAllocationInfo"
- - "pfnCheckResourceAllocationInfo"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d12umddi.h
-api_name:
-- pfnCheckResourceAllocationInfo
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075
+ - d3d12umddi/PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d12umddi.h
+api_name:
+ - pfnCheckResourceAllocationInfo
 ---
 
 # PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function
+
 
 ## -description
 
@@ -85,3 +86,4 @@ This callback function is accessed by using the [**D3D12DDI_DEVICE_FUNCS_CORE_00
 [**D3D12DDI_RESOURCE_ALLOCATION_INFO_0022**](ns-d3d12umddi-d3d12ddi_resource_allocation_info_0022.md)
 
 [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md)
+

@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnWaitForSynchronizationObject2Cb"
- - "pfnWaitForSynchronizationObject2Cb"
+ - PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB
+ - d3dumddi/PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB callback function
+
 
 ## -description
 

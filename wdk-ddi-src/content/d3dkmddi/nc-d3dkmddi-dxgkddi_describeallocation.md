@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiDescribeAllocation"
- - "DxgkDdiDescribeAllocation"
+ - DXGKDDI_DESCRIBEALLOCATION
+ - d3dkmddi/DXGKDDI_DESCRIBEALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_DESCRIBEALLOCATION callback function
+
 
 ## -description
 

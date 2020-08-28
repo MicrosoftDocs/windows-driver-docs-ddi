@@ -6,45 +6,43 @@ tech.root: netvista
 ms.assetid: 22fa6f17-30aa-4ca4-ab53-a3c95591a68f
 ms.date: 01/18/2019
 keywords: ["NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function"]
-f1_keywords:
- - "netadapter/NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT"
- - "NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
+ - netadapter/NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
 ---
 
 # NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function
 
 
 ## -description
-
-
 
 The **NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure.
 
@@ -79,3 +77,4 @@ The [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_o
 [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md)
+

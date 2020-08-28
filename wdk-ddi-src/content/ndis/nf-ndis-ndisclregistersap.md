@@ -8,9 +8,6 @@ ms.assetid: 33ed0839-d1e3-4872-baa8-ead7e97f8c53
 ms.date: 05/02/2018
 keywords: ["NdisClRegisterSap function"]
 ms.keywords: NdisClRegisterSap, NdisClRegisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_ee22bc25-7935-458f-8016-6537d9803acb.xml, ndis/NdisClRegisterSap, netvista.ndisclregistersap
-f1_keywords:
- - "ndis/NdisClRegisterSap"
- - "NdisClRegisterSap"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisClRegisterSap
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisClRegisterSap
+ - ndis/NdisClRegisterSap
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisClRegisterSap
 ---
 
 # NdisClRegisterSap function
@@ -47,47 +47,40 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisClRegisterSap</b> registers a SAP on which the client can receive incoming calls from a remote
   node.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisAfHandle 
+
 [in]
 Specifies the handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>,
      which implicitly identifies the call manager with which to register the SAP.
 
-
 ### -param ProtocolSapContext 
+
 [in]
 Specifies the handle to a caller-supplied resident context area in which the client maintains
      state for this SAP after it has been opened. NDIS passes this handle back to the client in all
      subsequent calls concerning this SAP if the call to 
      <b>NdisClRegisterSap</b> succeeds.
 
-
 ### -param Sap 
+
 [in]
 Pointer to a client-supplied specification for the SAP to be opened, formatted as a structure of
      type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545392(v=vs.85)">CO_SAP</a>.
 
-
 ### -param NdisSapHandle 
+
 [out]
 Pointer to a variable in which a handle to the newly registered SAP is returned if this call
      succeeds.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisClRegisterSap</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
@@ -96,12 +89,7 @@ When
      ProtocolClRegisterSapComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClRegisterSapComplete</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 With a call to 
     <b>NdisClRegisterSap</b>, a client requests notifications of incoming calls on a particular SAP. NDIS
@@ -155,12 +143,7 @@ When the VC has been set up and activated, the call manager calls
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545392(v=vs.85)">CO_SAP</a>
 
@@ -200,7 +183,4 @@ When the VC has been set up and activated, the call manager calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

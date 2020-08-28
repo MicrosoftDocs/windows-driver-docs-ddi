@@ -8,9 +8,6 @@ ms.assetid: ddfd38d9-a78e-4573-9bf3-24f2f69b5949
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC"]
 ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryToAC method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, SetSimulatedBatteryToAC, SetSimulatedBatteryToAC method [Windows Device Testing Framework], SetSimulatedBatteryToAC method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
-f1_keywords:
- - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC"
- - "IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfsimulatedbatterysystemaction.h
-api_name:
-- IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
+ - wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfsimulatedbatterysystemaction.h
+api_name:
+ - IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC
 ---
 
 # IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
 
 
 ## -description
-
-
 
 Sets the simulated battery status to AC power.
 
@@ -57,31 +55,17 @@ Use this method to set the simulated battery status to AC power.  If
     policy to AC power.  This is useful for testing software behavior that
     changes depending on the AC/DC state.
 
-
 ## -parameters
 
-
-
-
 ### -param pbSuccess 
+
 [out, retval]
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFSimulatedBatterySystemAction</a>
- 
-
- 
 

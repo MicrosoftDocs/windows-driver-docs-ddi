@@ -8,9 +8,6 @@ ms.assetid: 162b3a05-dccd-4df4-8728-801a8fb39afc
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::GetTypeName"]
 ms.keywords: EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeName method, ExtRemoteTyped.GetTypeName, ExtRemoteTyped::GetTypeName, GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypename
-f1_keywords:
- - "engextcpp/ExtRemoteTyped.GetTypeName"
- - "ExtRemoteTyped.GetTypeName"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTyped.GetTypeName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTyped::GetTypeName
+ - engextcpp/ExtRemoteTyped::GetTypeName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTyped.GetTypeName
 ---
 
 # ExtRemoteTyped::GetTypeName
@@ -46,23 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetTypeName</b> method returns the type name of the typed data represented by this object.
-
 
 ## -returns
 
-
-
 <b>GetTypeName</b> returns a string that contains the name of the type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
@@ -77,7 +67,4 @@ The <b>GetTypeName</b> method returns the type name of the typed data represente
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
- 
-
- 
 

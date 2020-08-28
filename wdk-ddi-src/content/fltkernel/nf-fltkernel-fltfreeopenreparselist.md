@@ -8,9 +8,6 @@ ms.assetid: 78FA1585-F834-48E4-BB15-78BA5563F9D0
 ms.date: 04/16/2018
 keywords: ["FltFreeOpenReparseList function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltFreeOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltfreeopenreparselist
-f1_keywords:
- - "fltkernel/FltAddOpenReparseEntry"
- - "FltAddOpenReparseEntry"
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _IRQL_requires_max_(APC_LEVEL)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltKernel.h
-api_name:
-- FltAddOpenReparseEntry
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltFreeOpenReparseList
+ - fltkernel/FltFreeOpenReparseList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltKernel.h
+api_name:
+ - FltAddOpenReparseEntry
 ---
 
 # FltFreeOpenReparseList function
@@ -46,32 +46,23 @@ req.typenames:
 
 ## -description
 
-
 This routine deallocates any information copied into a create operation by
-    a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcopyopenreparselist">FltCopyOpenReparseList</a>.  
-
+    a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcopyopenreparselist">FltCopyOpenReparseList</a>.
 
 ## -parameters
 
-
-
-
 ### -param Filter 
+
 [in]
 The filter to dereference.
 
-
 ### -param EcpList 
+
 [in]
 The ECP list whose open reparse information should
                        be deallocated.
 
-
 ## -returns
 
-
-
 This routine does not return a value.
-
-
 

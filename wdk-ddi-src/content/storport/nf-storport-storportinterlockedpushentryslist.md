@@ -8,9 +8,6 @@ ms.assetid: 74C32E55-79C6-449A-AFA3-27858CF4EA6B
 ms.date: 03/29/2018
 keywords: ["StorPortInterlockedPushEntrySList function"]
 ms.keywords: StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList routine [Storage Devices], storage.storportinterlockedpushentryslist, storport/StorPortInterlockedPushEntrySList
-f1_keywords:
- - "storport/StorPortInterlockedPushEntrySList"
- - "StorPortInterlockedPushEntrySList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInterlockedPushEntrySList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInterlockedPushEntrySList
+ - storport/StorPortInterlockedPushEntrySList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInterlockedPushEntrySList
 ---
 
 # StorPortInterlockedPushEntrySList function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 Inserts  an item at the front of a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param SListHead 
+
 [in, out]
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
-
 ### -param SListEntry 
+
 [in, out]
 A pointer to an <b>STOR_SLIST_ENTRY</b> structure that represents the item to insert into the singly linked list.
 
-
 ### -param Result 
+
 [out]
 A pointer to a list entry pointer. The value returned is a pointer to  the previous item that existed  at the front of the list. This pervious item remains in the list behind the item new item added from <i>SListEntry</i>. If the list is empty, then <b>NULL</b> is returned in value pointed to by <i>Result</i>.
 
-
 ## -returns
-
-
 
 <b>StorPortInterlockedPushEntrySList</b> returns one of the following status codes:
 
@@ -120,24 +113,12 @@ A pointer in <i>SListHead</i>, <i>SListEntry</i>, or <i>Result</i> is <b>NULL</b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When allocated by the caller,  the <b>STOR_SLIST_ENTRY</b> structure pointed to by <i>SListEntry</i> must be aligned at  a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary. <b>MEMORY_ALLOCATION_ALIGNMENT</b> is defined in <i>miniport.h</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
 
@@ -152,7 +133,4 @@ When allocated by the caller,  the <b>STOR_SLIST_ENTRY</b> structure pointed to 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: d75bec3d-b427-40d2-bec3-95b7409f31bb
 ms.date: 05/02/2018
 keywords: ["NDIS_NIC_SWITCH_VPORT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_PARAMETERS, netvista.ndis_nic_switch_vport_parameters, ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VPORT_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS"
- - "NDIS_NIC_SWITCH_VPORT_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_NIC_SWITCH_VPORT_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_VPORT_PARAMETERS
+f1_keywords:
+ - _NDIS_NIC_SWITCH_VPORT_PARAMETERS
+ - ntddndis/_NDIS_NIC_SWITCH_VPORT_PARAMETERS
+ - PNDIS_NIC_SWITCH_VPORT_PARAMETERS
+ - ntddndis/PNDIS_NIC_SWITCH_VPORT_PARAMETERS
+ - NDIS_NIC_SWITCH_VPORT_PARAMETERS
+ - ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_NIC_SWITCH_VPORT_PARAMETERS
 ---
 
 # _NDIS_NIC_SWITCH_VPORT_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_NIC_SWITCH_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_VPORT_PARAMET
 
 ## -description
 
-
-The <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> structure specifies the configuration for a virtual port (VPort) on a network adapter switch of the network adapter. 
-
+The <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> structure specifies the configuration for a virtual port (VPort) on a network adapter switch of the network adapter.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -70,7 +69,6 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VPORT_PARAMETERS_REVISION_1.
-
 
 ### -field Flags
 
@@ -159,13 +157,9 @@ The <b>VPortId</b> value is within the range from zero to (<b>NumVPorts</b> - 1)
 
 An NDIS_VPORT_NAME value that specifies the name of the VPort. This member contains a user-friendly description of the VPort.
 
-
-
-
 ### -field AttachedFunctionId
 
-An NDIS_SRIOV_FUNCTION_ID value that specifies the ID of the Physical Function (PF) or Virtual Function (VF) that the VPort is attached to. A value of NDIS_PF_FUNCTION_ID specifies that the VPort is attached to the PF. If the value is a valid VF identifier, the VPort is attached to the VF. 
-
+An NDIS_SRIOV_FUNCTION_ID value that specifies the ID of the Physical Function (PF) or Virtual Function (VF) that the VPort is attached to. A value of NDIS_PF_FUNCTION_ID specifies that the VPort is attached to the PF. If the value is a valid VF identifier, the VPort is attached to the VF.
 
 ### -field NumQueuePairs
 
@@ -174,19 +168,13 @@ A ULONG value that specifies the number of queue pairs configured for this VPort
 A queue pair consists of a transmit queue and receive queue. Queue pairs associated with the default VPort are configured at the time of switch creation through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>.
 One or more queue pairs are configured on a nondefault VPort through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
-
-
 ### -field InterruptModeration
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_nic_switch_vport_interrupt_moderation">NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION</a> value that specifies the interrupt moderation setting of the VPort.
 
-
-
-
 ### -field VPortState
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_nic_switch_vport_state">NDIS_NIC_SWITCH_VPORT_STATE</a> value that specifies the current state of the VPort.
-
 
 ### -field ProcessorAffinity
 
@@ -196,41 +184,21 @@ A GROUP_AFFINITY value that specifies the group number and a bitmap of the CPUs 
 <div> </div>
 The processor affinity associated with the nondefault VPort attached to the PF can be changed after VPort creation. The processor affinity associated with the default VPort can also be changed by using an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>.
 
-
-
-
 ### -field LookaheadSize
 
 This member is reserved for future use. This member must be set to zero.
 
-
 ### -field NdkParams
-
- 
-
 
 ### -field QosSqId
 
- 
-
-
-
-
 ## -remarks
-
-
 
 This structure is used in OID requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>.
 
 For more information about the SR-IOV interface, see 	<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -257,7 +225,4 @@ For more information about the SR-IOV interface, see 	<a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
- 
-
- 
 

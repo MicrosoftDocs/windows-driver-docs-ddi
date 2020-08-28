@@ -7,9 +7,6 @@ ms.assetid: 61b6d477-5a4c-475c-8605-5ede592e75c1
 ms.date: 05/10/2018
 keywords: ["D3DKMT_FLIPINFOFLAGS structure"]
 ms.keywords: D3DKMT_FLIPINFOFLAGS, D3DKMT_FLIPINFOFLAGS structure [Display Devices], OpenGL_Structs_2e8d2e1b-7ae8-4ac4-916d-5cace7ef043e.xml, _D3DKMT_FLIPINFOFLAGS, d3dkmthk/D3DKMT_FLIPINFOFLAGS, display.d3dkmt_flipinfoflags
-f1_keywords:
- - "d3dkmthk/D3DKMT_FLIPINFOFLAGS"
- - "D3DKMT_FLIPINFOFLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_FLIPINFOFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_FLIPINFOFLAGS
+f1_keywords:
+ - _D3DKMT_FLIPINFOFLAGS
+ - d3dkmthk/_D3DKMT_FLIPINFOFLAGS
+ - D3DKMT_FLIPINFOFLAGS
+ - d3dkmthk/D3DKMT_FLIPINFOFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_FLIPINFOFLAGS
 ---
 
 # _D3DKMT_FLIPINFOFLAGS structure
@@ -46,14 +48,9 @@ req.typenames: D3DKMT_FLIPINFOFLAGS
 
 ## -description
 
-
 The D3DKMT_FLIPINFOFLAGS structure identifies flipping capabilities of the display miniport driver that the OpenGL installable client driver (ICD) obtains by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryadapterinfo">D3DKMTQueryAdapterInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FlipInterval
 
@@ -61,16 +58,11 @@ A UINT value that specifies whether the display miniport driver natively support
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
-
 ### -field Reserved
 
-This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of a 32-bit value to zeros. 
-
+This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of a 32-bit value to zeros.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryadapterinfo">D3DKMTQueryAdapterInfo</a>
 
@@ -81,7 +73,4 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo">D3DKMT_QUERYADAPTERINFO</a>
- 
-
- 
 

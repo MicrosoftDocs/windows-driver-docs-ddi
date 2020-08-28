@@ -8,9 +8,6 @@ ms.assetid: F2A8E966-269E-447F-9467-EB2E877FFAA2
 ms.date: 05/07/2018
 keywords: ["USBD_ENDPOINT_OFFLOAD_INFORMATION structure"]
 ms.keywords: "*PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses], USBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION"
-f1_keywords:
- - "usb/USBD_ENDPOINT_OFFLOAD_INFORMATION"
- - "USBD_ENDPOINT_OFFLOAD_INFORMATION"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usb.h
-api_name:
-- USBD_ENDPOINT_OFFLOAD_INFORMATION
 targetos: Windows
 req.typenames: USBD_ENDPOINT_OFFLOAD_INFORMATION, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION
+f1_keywords:
+ - _USBD_ENDPOINT_OFFLOAD_INFORMATION
+ - usb/_USBD_ENDPOINT_OFFLOAD_INFORMATION
+ - PUSBD_ENDPOINT_OFFLOAD_INFORMATION
+ - usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION
+ - USBD_ENDPOINT_OFFLOAD_INFORMATION
+ - usb/USBD_ENDPOINT_OFFLOAD_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usb.h
+api_name:
+ - USBD_ENDPOINT_OFFLOAD_INFORMATION
 ---
 
 # _USBD_ENDPOINT_OFFLOAD_INFORMATION structure
@@ -46,109 +50,69 @@ req.typenames: USBD_ENDPOINT_OFFLOAD_INFORMATION, *PUSBD_ENDPOINT_OFFLOAD_INFORM
 
 ## -description
 
-
 Stores xHCI-specific information that is used by client drivers to transfer data to and from the offloaded endpoints.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size of this structure.
 
-
 ### -field EndpointAddress
 
-Specifies the USB-defined endpoint address. 
-
+Specifies the USB-defined endpoint address.
 
 ### -field ResourceId
 
 The resource identifier.
 
-
 ### -field Mode
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_endpoint_offload_mode">USBD_ENDPOINT_OFFLOAD_MODE</a>-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
-
 
 ### -field RootHubPortNumber
 
 The port number of the root hub.
 
-
 ### -field RouteString
 
 The route string.
-
 
 ### -field Speed
 
 The route string.
 
-
 ### -field UsbDeviceAddress
 
 The USB device address.
-
 
 ### -field SlotId
 
 The slot identifier.
 
-
 ### -field MultiTT
 
-Transaction Translator (TT) hub. 
-
+Transaction Translator (TT) hub.
 
 ### -field Reserved0
 
 Reserved.
 
-
 ### -field TransferSegmentLA
-
- 
-
 
 ### -field TransferSegmentVA
 
- 
-
-
 ### -field TransferRingSize
-
- 
-
 
 ### -field TransferRingInitialCycleBit
 
- 
-
-
 ### -field MessageNumber
-
- 
-
 
 ### -field EventRingSegmentLA
 
- 
-
-
 ### -field EventRingSegmentVA
 
- 
-
-
 ### -field EventRingSize
-
- 
-
 
 ### -field EventRingInitialCycleBit
 

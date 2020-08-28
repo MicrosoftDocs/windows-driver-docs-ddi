@@ -8,9 +8,6 @@ ms.assetid: 30e2e62a-3ae4-4efe-a6e9-6aece6bfbb46
 ms.date: 05/08/2018
 keywords: ["tagDRMFORWARD structure"]
 ms.keywords: "*PDRMFORWARD, DRMFORWARD, DRMFORWARD structure [Audio Devices], PDRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, audio.drmforward, drmk/DRMFORWARD, drmk/PDRMFORWARD, tagDRMFORWARD"
-f1_keywords:
- - "drmk/DRMFORWARD"
- - "DRMFORWARD"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- drmk.h
-api_name:
-- DRMFORWARD
 targetos: Windows
 req.typenames: DRMFORWARD, *PDRMFORWARD
+f1_keywords:
+ - tagDRMFORWARD
+ - drmk/tagDRMFORWARD
+ - PDRMFORWARD
+ - drmk/PDRMFORWARD
+ - DRMFORWARD
+ - drmk/DRMFORWARD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - drmk.h
+api_name:
+ - DRMFORWARD
 ---
 
 # tagDRMFORWARD structure
@@ -46,38 +50,27 @@ req.typenames: DRMFORWARD, *PDRMFORWARD
 
 ## -description
 
-
 The DRMFORWARD structure contains the information that the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">DRMK system driver</a> needs in order to forward a DRM content ID to a device that handles protected content.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 No flag bits are currently defined. Set this member to zero.
 
-
 ### -field DeviceObject
 
 Pointer to the device object, which is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
-
 
 ### -field FileObject
 
 Pointer to the file object, which is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
 
-
 ### -field Context
 
 Pointer to context data. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 This structure is one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a> function's call parameters. The structure contains the information that the function needs to send a <a href="https://docs.microsoft.com/previous-versions/ff537351(v=vs.85)">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>set-property request to a WDM driver.
 
@@ -100,13 +93,7 @@ When an audio driver forwards DRM content to a system-supplied USB driver, the f
 
 For general information about DRM, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/digital-rights-management">Digital Rights Management</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -133,7 +120,4 @@ For general information about DRM, see <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcforwardcontenttodeviceobject">PcForwardContentToDeviceObject</a>
- 
-
- 
 

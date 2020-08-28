@@ -8,9 +8,6 @@ ms.assetid: B063561B-FA79-44B4-A058-71DB9CBF4804
 ms.date: 05/10/2018
 keywords: ["D3DDDI_TRIMRESIDENCYSET_FLAGS structure"]
 ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, display.d3dddi_trimresidencyset_flags
-f1_keywords:
- - "d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS"
- - "D3DDDI_TRIMRESIDENCYSET_FLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_TRIMRESIDENCYSET_FLAGS
 targetos: Windows
 req.typenames: D3DDDI_TRIMRESIDENCYSET_FLAGS
+f1_keywords:
+ - D3DDDI_TRIMRESIDENCYSET_FLAGS
+ - d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_TRIMRESIDENCYSET_FLAGS
 ---
 
 # D3DDDI_TRIMRESIDENCYSET_FLAGS structure
@@ -46,14 +46,9 @@ req.typenames: D3DDDI_TRIMRESIDENCYSET_FLAGS
 
 ## -description
 
-
 <b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a> to trim the residency list for a given device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PeriodicTrim
 
@@ -71,30 +66,20 @@ When <b>PeriodicTrim</b> flag is set, the driver is required to performed the fo
 May not be set together with <b>PeriodicTrim</b> flag.
                                                 Reset the last periodic trim context fence to the last completed context fence.
 
-
 ### -field TrimToBudget
 
 Indicates that the application usage is over the memory budget
                                                 and that <b>NumBytesToTrim</b> bytes should be trimmed to fit in the new memory budget.
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero.
-
 
 ### -field Value
 
 The consolidated value of the bit-fields in the structure.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a>
- 
-
- 
 

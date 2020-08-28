@@ -8,9 +8,6 @@ ms.assetid: 4fd7ba5f-c400-4f44-bebb-b52e9a579f99
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::SetInputCallbacks"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetInputCallbacks method, IDebugClient2 interface [Windows Debugging],SetInputCallbacks method, IDebugClient2::SetInputCallbacks, IDebugClient3 interface [Windows Debugging],SetInputCallbacks method, IDebugClient3::SetInputCallbacks, IDebugClient4 interface [Windows Debugging],SetInputCallbacks method, IDebugClient4.SetInputCallbacks, IDebugClient4::SetInputCallbacks, IDebugClient5 interface [Windows Debugging],SetInputCallbacks method, IDebugClient5::SetInputCallbacks, IDebugClient::SetInputCallbacks, IDebugClient_fea0d021-69b2-462f-965f-455305fd5971.xml, SetInputCallbacks, SetInputCallbacks method [Windows Debugging], SetInputCallbacks method [Windows Debugging],IDebugClient interface, SetInputCallbacks method [Windows Debugging],IDebugClient2 interface, SetInputCallbacks method [Windows Debugging],IDebugClient3 interface, SetInputCallbacks method [Windows Debugging],IDebugClient4 interface, SetInputCallbacks method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetInputCallbacks, dbgeng/IDebugClient3::SetInputCallbacks, dbgeng/IDebugClient4::SetInputCallbacks, dbgeng/IDebugClient5::SetInputCallbacks, dbgeng/IDebugClient::SetInputCallbacks, debugger.setinputcallbacks
-f1_keywords:
- - "dbgeng/IDebugClient.SetInputCallbacks"
- - "IDebugClient.SetInputCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.SetInputCallbacks
-- IDebugClient2.SetInputCallbacks
-- IDebugClient3.SetInputCallbacks
-- IDebugClient4.SetInputCallbacks
-- IDebugClient5.SetInputCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::SetInputCallbacks
+ - dbgeng/IDebugClient4::SetInputCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.SetInputCallbacks
+ - IDebugClient2.SetInputCallbacks
+ - IDebugClient3.SetInputCallbacks
+ - IDebugClient4.SetInputCallbacks
+ - IDebugClient5.SetInputCallbacks
 ---
 
 # IDebugClient4::SetInputCallbacks
@@ -50,23 +50,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetInputCallbacks</b> method registers an <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">input callbacks</a> object with the client.
-
 
 ## -parameters
 
-
-
-
 ### -param Callbacks 
+
 [in, optional]
 Specifies the interface pointer to the input callbacks object to register with this client.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -87,26 +80,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each client can have at most one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a> object registered with it to receive requests for input.
 
 The <b>IDebugInputCallbacks</b> interface extends the COM interface <b>IUnknown</b>.  <b>SetInputCallbacks</b> will call the <b>IUnknown::AddRef</b> method of the object specified by <i>Callbacks</i>.  The <b>IUnknown::Release</b> method of this interface will be called the next time <b>SetInputCallbacks</b> is called on this client, or when this client is deleted.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getinputcallbacks">GetInputCallbacks</a>
 
@@ -133,7 +114,4 @@ The <b>IDebugInputCallbacks</b> interface extends the COM interface <b>IUnknown<
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a>
- 
-
- 
 

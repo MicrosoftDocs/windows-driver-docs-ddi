@@ -8,9 +8,6 @@ ms.assetid: 36c204fb-638d-44d2-8379-a5bd79e4167a
 ms.date: 05/10/2018
 keywords: ["UMDEtwLogUnmapAllocation function"]
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation
-f1_keywords:
- - "umdprovider/UMDEtwLogUnmapAllocation"
- - "UMDEtwLogUnmapAllocation"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- umdprovider.h
-api_name:
-- UMDEtwLogUnmapAllocation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UMDEtwLogUnmapAllocation
+ - umdprovider/UMDEtwLogUnmapAllocation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - umdprovider.h
+api_name:
+ - UMDEtwLogUnmapAllocation
 ---
 
 # UMDEtwLogUnmapAllocation function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Indicates that a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is no longer being used. Call this function whether or not the allocation is being destroyed.
 
-
 ## -parameters
-
-
-
 
 ### -param hD3DAllocation
 
@@ -63,35 +58,27 @@ A handle to the Direct3D allocation.
 
 The driver can set this value to <b>NULL</b> if it uses allocations internally.
 
-
 ### -param hDxgAllocation
 
 A handle to the DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation that the Direct3D allocation is mapped to.
-
 
 ### -param Offset
 
 The starting address, in bytes, of the Direct3D allocation within the Dxgkrnl allocation.
 
-
 ### -param Size
 
 The size, in bytes, of the Direct3D allocation within the Dxgkrnl allocation.
-
 
 ### -param Usage
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/ns-umdprovider-_umdetw_allocation_usage">UMDETW_ALLOCATION_USAGE</a> structure that indicates the reason for this mapping.
 
-
 ### -param Semantic
 
 If the allocation is used internally by the user-mode driver, this is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/ne-umdprovider-_umdetw_allocation_semantic">UMDETW_ALLOCATION_SEMANTIC</a> structure that indicates what the allocation is used for.
 
-
 ## -remarks
-
-
 
 When called, this function logs an event that describes which API resource the allocation is, or was, being used for. If no API resource was associated with the allocation, the function logs an event that describes the purpose that the driver indicated for this allocation.
 
@@ -149,11 +136,7 @@ FORCEINLINE void UMDEtwLogUnmapAllocation(ULONGLONG hD3DAllocation,
 }
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource">CreateResource</a>
 
@@ -172,7 +155,4 @@ FORCEINLINE void UMDEtwLogUnmapAllocation(ULONGLONG hD3DAllocation,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a>
- 
-
- 
 

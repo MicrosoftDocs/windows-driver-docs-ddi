@@ -8,38 +8,41 @@ ms.assetid: a8cc5703-68a3-4adf-97b5-ec3271c1fdc3
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NET_POWER_OFFLOAD_LIST structure"]
-f1_keywords:
- - "netpoweroffloadlist/NET_POWER_OFFLOAD_LIST"
- - "NET_POWER_OFFLOAD_LIST"
-ms.keywords: NET_POWER_OFFLOAD_LIST, NET_POWER_OFFLOAD_LIST, 
+ms.keywords: NET_POWER_OFFLOAD_LIST, NET_POWER_OFFLOAD_LIST,
 req.header: netpoweroffloadlist.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_POWER_OFFLOAD_LIST
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - netpoweroffloadlist.h
-api_name: 
- - NET_POWER_OFFLOAD_LIST
-product: 
- - Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - _NET_POWER_OFFLOAD_LIST
+ - netpoweroffloadlist/_NET_POWER_OFFLOAD_LIST
+ - NET_POWER_OFFLOAD_LIST
+ - netpoweroffloadlist/NET_POWER_OFFLOAD_LIST
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netpoweroffloadlist.h
+api_name:
+ - NET_POWER_OFFLOAD_LIST
+product:
+ - Windows
 ---
 
 # NET_POWER_OFFLOAD_LIST structure
+
 
 ## -description
 
@@ -50,7 +53,7 @@ The **NET_POWER_OFFLOAD_LIST** structure represents a list of low power protocol
 ### -field Size
 
 The size of this structure, in bytes.
- 
+
 ### -field Reserved
 
 Reserved. Client drivers must not read or write to this value directly.
@@ -76,3 +79,4 @@ For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring powe
 [**NetPowerOffloadListGetElement**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetelement.md)
 
 [**NetPowerOffloadGetType**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgettype.md)
+

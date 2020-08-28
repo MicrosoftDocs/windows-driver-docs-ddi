@@ -8,9 +8,6 @@ ms.assetid: 56147D28-B832-4C5D-BFB7-60C4020CA299
 ms.date: 03/29/2018
 keywords: ["StorPortInterlockedInsertTailList function"]
 ms.keywords: StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist, storport/StorPortInterlockedInsertTailList
-f1_keywords:
- - "storport/StorPortInterlockedInsertTailList"
- - "StorPortInterlockedInsertTailList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInterlockedInsertTailList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInterlockedInsertTailList
+ - storport/StorPortInterlockedInsertTailList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInterlockedInsertTailList
 ---
 
 # StorPortInterlockedInsertTailList function
@@ -46,47 +46,39 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>StorPortInterlockedInsertTailList</b> routine atomically inserts an entry at the end of a doubly linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structures.
 
-
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param ListHead 
+
 [in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of the list.
 
-
 ### -param ListEntry 
-[in, out]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
 
+[in, out]
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the entry to be inserted into the list.
 
 ### -param Result
 
 <p>Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry"><b>STOR_LIST_ENTRY</b></a> structure that represents the first entry of the list before the new entry was inserted.</p>
 
-
 ### -param Lock 
+
 [in, out]
 A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializespinlock">StorPortInitializeSpinLock</a>.
 
  You must use this spin lock only with the <b>StorPortInterlocked<i>Xxx</i>List</b> routines.
 
-
 ## -returns
-
-
 
 <b>StorPortInterlockedInsertHeadList</b> returns one of the following status codes:
 
@@ -129,15 +121,8 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
@@ -156,7 +141,4 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedremoveheadlist">StorPortInterlockedRemoveHeadList</a>
- 
-
- 
 

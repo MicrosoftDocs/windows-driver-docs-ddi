@@ -8,9 +8,6 @@ ms.assetid: 43fe1e25-be15-4f7a-8ecf-e4492235c6c2
 ms.date: 05/02/2018
 keywords: ["RILADDITIONALNUMBERSTRINGUPDATE structure"]
 ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate, ntddrilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
-f1_keywords:
- - "rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
- - "RILADDITIONALNUMBERSTRINGUPDATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILADDITIONALNUMBERSTRINGUPDATE
 targetos: Windows
 req.typenames: RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE
+f1_keywords:
+ - RILADDITIONALNUMBERSTRINGUPDATE
+ - rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE
+ - LPRILADDITIONALNUMBERSTRINGUPDATE
+ - rilapitypes/LPRILADDITIONALNUMBERSTRINGUPDATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILADDITIONALNUMBERSTRINGUPDATE
 ---
 
 # RILADDITIONALNUMBERSTRINGUPDATE structure
@@ -46,26 +48,17 @@ req.typenames: RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDA
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field hUiccApp
 
-
 ### -field dwOpType
 
-
 ### -field dwNumId
-
 
 ### -field wszText
 

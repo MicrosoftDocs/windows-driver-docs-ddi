@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 584b901d-9e3c-4bdc-a5b6-5f0670de6c1e
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_MINIPORT_RESERVED macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_MINIPORT_RESERVED"
- - "NET_BUFFER_MINIPORT_RESERVED"
 ms.keywords: NET_BUFFER_MINIPORT_RESERVED
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_MINIPORT_RESERVED
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_MINIPORT_RESERVED
+ - ndis/NET_BUFFER_MINIPORT_RESERVED
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_MINIPORT_RESERVED
 ---
 
 # NET_BUFFER_MINIPORT_RESERVED macro
@@ -66,3 +65,4 @@ Miniport drivers and NDIS intermediate drivers can use **MiniportReserved** for 
 ## -see-also
 
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
+

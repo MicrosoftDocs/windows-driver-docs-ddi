@@ -8,9 +8,6 @@ ms.assetid: a1f15890-ded8-4aba-8b67-6f1fb1490178
 ms.date: 03/29/2018
 keywords: ["TapeClassZeroMemory function"]
 ms.keywords: TapeClassZeroMemory, TapeClassZeroMemory routine [Storage Devices], minitape/TapeClassZeroMemory, storage.tapeclasszeromemory, tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml
-f1_keywords:
- - "minitape/TapeClassZeroMemory"
- - "TapeClassZeroMemory"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Tape.lib
-- Tape.dll
-api_name:
-- TapeClassZeroMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - TapeClassZeroMemory
+ - minitape/TapeClassZeroMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Tape.lib
+ - Tape.dll
+api_name:
+ - TapeClassZeroMemory
 ---
 
 # TapeClassZeroMemory function
@@ -47,50 +47,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>TapeClassZeroMemory</b> routine fills a buffer with zeros.
-
 
 ## -parameters
 
-
-
-
 ### -param Buffer 
+
 [in, out]
 Pointer to the buffer that needs to be cleared.
 
-
 ### -param BufferSize 
+
 [in]
 Specifies the size of the buffer, in bytes.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 A tape miniclass driver calls <b>TapeClassZeroMemory</b> to zero a buffer in a portable way. A miniclass driver must use <b>TapeClassZeroMemory</b> to clear the TAPE_INIT_DATA_EX structure and CDBs before it uses them.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-tape-miniclass-driver">DriverEntry of Tape Miniclass Driver</a>
- 
-
- 
 

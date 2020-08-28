@@ -8,9 +8,6 @@ ms.assetid: 460c81bf-ae06-40f7-a019-b006e5c9f94b
 ms.date: 05/02/2018
 keywords: ["NdisAllocateRWLock function"]
 ms.keywords: NdisAllocateRWLock, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, netvista.ndisallocaterwlock
-f1_keywords:
- - "ndis/NdisAllocateRWLock"
- - "NdisAllocateRWLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateRWLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateRWLock
+ - ndis/NdisAllocateRWLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateRWLock
 ---
 
 # NdisAllocateRWLock function
@@ -47,16 +47,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisAllocateRWLock</b> function allocates a read/write lock variable of type 
   <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param NdisHandle
 
@@ -71,20 +66,12 @@ A handle returned from one of the following functions:
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>  
 <b>Windows 8 and Windows Server 2012 and later:  </b>If the read/write lock is being allocated in <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> before any NDIS handle is available, the caller may pass a NULL value for this parameter.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateRWLock</b> returns a pointer to an 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> structure if one can be allocated; otherwise it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisAllocateRWLock</b> function to allocate an 
@@ -135,13 +122,7 @@ A driver must call the
 
 You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a>, see how many readers it has, and see who its current writer is. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/ndis-extensions--ndiskd-dll-">NDIS Extensions (Ndiskd.dll)</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -192,7 +173,4 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleaserwlock">NdisReleaseRWLock</a>
- 
-
- 
 

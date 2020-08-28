@@ -8,9 +8,6 @@ ms.assetid: bf7951de-3368-4faf-9bae-272c6d76d1a0
 ms.date: 05/02/2018
 keywords: ["WDI_TX_COMPLETE_DATA structure"]
 ms.keywords: "*PWDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA structure pointer [Network Drivers Starting with Windows Vista], WDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA structure [Network Drivers Starting with Windows Vista], _WDI_TX_COMPLETE_DATA, dot11wdi/PWDI_TX_COMPLETE_DATA, dot11wdi/WDI_TX_COMPLETE_DATA, netvista.wdi_tx_complete_data, netvista.wifi_tx_complete_data"
-f1_keywords:
- - "dot11wdi/WDI_TX_COMPLETE_DATA"
- - "WDI_TX_COMPLETE_DATA"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dot11wdi.h
-api_name:
-- WDI_TX_COMPLETE_DATA
 targetos: Windows
 req.typenames: WDI_TX_COMPLETE_DATA, *PWDI_TX_COMPLETE_DATA
+f1_keywords:
+ - _WDI_TX_COMPLETE_DATA
+ - dot11wdi/_WDI_TX_COMPLETE_DATA
+ - PWDI_TX_COMPLETE_DATA
+ - dot11wdi/PWDI_TX_COMPLETE_DATA
+ - WDI_TX_COMPLETE_DATA
+ - dot11wdi/WDI_TX_COMPLETE_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dot11wdi.h
+api_name:
+ - WDI_TX_COMPLETE_DATA
 ---
 
 # _WDI_TX_COMPLETE_DATA structure
@@ -46,44 +50,33 @@ req.typenames: WDI_TX_COMPLETE_DATA, *PWDI_TX_COMPLETE_DATA
 
 ## -description
 
-
 The WDI_TX_COMPLETE_DATA structure defines TX completion data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SeqCtl
 
 The value of the sequence control field from the frame transmission.
 
-
 ### -field PnLength
 
 The MPDU PN length for the transmitted frame.
-
 
 ### -field RetryCount
 
 The number of attempts to transmit the frame.
 
-
 ### -field wPad
 
 This member is reserved.
-
 
 ### -field MpduPN
 
 The MPDU PN.
 
-
 ### -field ReplayIHVReserved0
 
 Reserved for IHV use.
-
 
 ### -field ReplayIHVReserved1
 

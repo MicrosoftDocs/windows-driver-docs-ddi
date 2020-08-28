@@ -8,9 +8,6 @@ ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SUBMITCOMMAND structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand
-f1_keywords:
- - "d3dumddi/D3DDDICB_SUBMITCOMMAND"
- - "D3DDDICB_SUBMITCOMMAND"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_SUBMITCOMMAND
 targetos: Windows
 req.typenames: D3DDDICB_SUBMITCOMMAND
+f1_keywords:
+ - _D3DDDICB_SUBMITCOMMAND
+ - d3dumddi/_D3DDDICB_SUBMITCOMMAND
+ - D3DDDICB_SUBMITCOMMAND
+ - d3dumddi/D3DDDICB_SUBMITCOMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_SUBMITCOMMAND
 ---
 
 # _D3DDDICB_SUBMITCOMMAND structure
+
 
 ## -description
 
@@ -164,3 +167,4 @@ If the driver receives a call to [**CreateResource**](https://docs.microsoft.com
 [*pfnRenderCb*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb)
 
 [*pfnSubmitCommandCb*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_submitcommandcb)
+

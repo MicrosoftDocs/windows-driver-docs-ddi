@@ -8,9 +8,6 @@ ms.assetid: ee8bf34e-f7f6-4b1a-8089-2f7a7333c403
 ms.date: 04/23/2018
 keywords: ["KsGateRemoveOnInputFromAnd function"]
 ms.keywords: KsGateRemoveOnInputFromAnd, KsGateRemoveOnInputFromAnd function [Streaming Media Devices], avfunc_216ba85c-20fe-4160-a76f-53cab6693641.xml, ks/KsGateRemoveOnInputFromAnd, stream.ksgateremoveoninputfromand
-f1_keywords:
- - "ks/KsGateRemoveOnInputFromAnd"
- - "KsGateRemoveOnInputFromAnd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsGateRemoveOnInputFromAnd
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsGateRemoveOnInputFromAnd
+ - ks/KsGateRemoveOnInputFromAnd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsGateRemoveOnInputFromAnd
 ---
 
 # KsGateRemoveOnInputFromAnd function
@@ -46,37 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsGateRemoveOnInputFromAnd </b>function removes an existing input that is in the ON state from an AND gate.
-
 
 ## -parameters
 
-
-
-
 ### -param AndGate 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the AND gate from which to remove an ON input.
 
-
 ## -remarks
-
-
 
 <b>KsGateRemoveOnInputFromAnd</b> should only be used on gates that were specifically created as AND gates; AVStream does not verify that the given gate is truly an AND gate.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
 
-This call is an empty function. It should be used for code readability and clarity. 
-
-
-
+This call is an empty function. It should be used for code readability and clarity.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgateaddoffinputtoand">KsGateAddOffInputToAnd</a>
 
@@ -95,7 +82,4 @@ This call is an empty function. It should be used for code readability and clari
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgateturninputon">KsGateTurnInputOn</a>
- 
-
- 
 

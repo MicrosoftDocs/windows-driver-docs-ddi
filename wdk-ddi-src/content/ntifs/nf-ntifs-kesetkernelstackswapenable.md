@@ -8,9 +8,6 @@ ms.assetid: ec914f67-b2c2-4370-8685-770bca045034
 ms.date: 08/21/2020
 keywords: ["KeSetKernelStackSwapEnable function"]
 ms.keywords: KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable
-f1_keywords:
- - "ntifs/KeSetKernelStackSwapEnable"
- - "KeSetKernelStackSwapEnable"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSetKernelStackSwapEnable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSetKernelStackSwapEnable
+ - ntifs/KeSetKernelStackSwapEnable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSetKernelStackSwapEnable
 ---
 
 # KeSetKernelStackSwapEnable function
+
 
 ## -description
 
@@ -105,3 +106,4 @@ Frequently, the use of the **KeSetKernelStackSwap** routine is unnecessary and c
 [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 
 [**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 17dbc843-dc65-40d7-9cda-916127e4cfa4
 ms.date: 01/08/2020
 keywords: ["CDROM_READ_TOC_EX structure"]
 ms.keywords: "*PCDROM_READ_TOC_EX, CDROM_READ_TOC_EX, CDROM_READ_TOC_EX structure [Storage Devices], PCDROM_READ_TOC_EX, PCDROM_READ_TOC_EX structure pointer [Storage Devices], _CDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, storage.cdrom_read_toc_ex, structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml"
-f1_keywords:
- - "ntddcdrm/CDROM_READ_TOC_EX"
- - "CDROM_READ_TOC_EX"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- CDROM_READ_TOC_EX
 targetos: Windows
 req.typenames: CDROM_READ_TOC_EX, *PCDROM_READ_TOC_EX
+f1_keywords:
+ - _CDROM_READ_TOC_EX
+ - ntddcdrm/_CDROM_READ_TOC_EX
+ - PCDROM_READ_TOC_EX
+ - ntddcdrm/PCDROM_READ_TOC_EX
+ - CDROM_READ_TOC_EX
+ - ntddcdrm/CDROM_READ_TOC_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - CDROM_READ_TOC_EX
 ---
 
 # CDROM_READ_TOC_EX structure
+
 
 ## -description
 
@@ -105,3 +110,4 @@ For further information and definitions of terms used in this reference page and
 [CDROM_TOC_SESSION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_session_data)
 
 [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
+

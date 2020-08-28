@@ -8,9 +8,6 @@ ms.assetid: 458d8a08-7212-4888-9bb3-07a470541c8d
 ms.date: 05/02/2018
 keywords: ["NdisInitializeReadWriteLock function"]
 ms.keywords: NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeReadWriteLock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml, netvista.ndisinitializereadwritelock
-f1_keywords:
- - "ndis/NdisInitializeReadWriteLock"
- - "NdisInitializeReadWriteLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ndis.sys
-api_name:
-- NdisInitializeReadWriteLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInitializeReadWriteLock
+ - ndis/NdisInitializeReadWriteLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ndis.sys
+api_name:
+ - NdisInitializeReadWriteLock
 ---
 
 # NdisInitializeReadWriteLock function
 
 
 ## -description
-
 
 The
   <b>NdisInitializeReadWriteLock</b> function initializes a read or write lock variable of type 
@@ -54,19 +53,14 @@ The
 
 ## -parameters
 
-
-
-
 ### -param Lock 
+
 [out]
 A pointer to an opaque 
      <b>NDIS_RW_LOCK</b> variable that represents a lock. The caller can use this lock to gain write or read
      access to resources that are shared among non-ISR driver threads.
 
-
 ## -remarks
-
-
 
 An 
     <b>NDIS_RW_LOCK</b> variable is used to limit write access to shared resources to one non-ISR driver
@@ -119,20 +113,11 @@ Callers of
     <b>NdisInitializeReadWriteLock</b> can run at any IRQL. Usually a caller is running at IRQL =
     PASSIVE_LEVEL during initialization.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564521">NdisReleaseReadWriteLock</a>
- 
-
- 
 

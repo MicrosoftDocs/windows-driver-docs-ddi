@@ -8,9 +8,6 @@ ms.assetid: a48c9543-602f-4f3c-876e-9acc76ca1a6b
 ms.date: 05/02/2018
 keywords: ["RILSENDSUPSERVICEDATAPARAMS structure"]
 ms.keywords: "*LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataparams, ntddrilapitypes/RILSENDSUPSERVICEDATAPARAMS"
-f1_keywords:
- - "rilapitypes/RILSENDSUPSERVICEDATAPARAMS"
- - "RILSENDSUPSERVICEDATAPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSENDSUPSERVICEDATAPARAMS
 targetos: Windows
 req.typenames: RILSENDSUPSERVICEDATAPARAMS, *LPRILSENDSUPSERVICEDATAPARAMS
+f1_keywords:
+ - RILSENDSUPSERVICEDATAPARAMS
+ - rilapitypes/RILSENDSUPSERVICEDATAPARAMS
+ - LPRILSENDSUPSERVICEDATAPARAMS
+ - rilapitypes/LPRILSENDSUPSERVICEDATAPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSENDSUPSERVICEDATAPARAMS
 ---
 
 # RILSENDSUPSERVICEDATAPARAMS structure
@@ -46,20 +48,13 @@ req.typenames: RILSENDSUPSERVICEDATAPARAMS, *LPRILSENDSUPSERVICEDATAPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
 
-
 ### -field dwDataSize
-
 
 ### -field wszData
 

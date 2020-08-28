@@ -8,9 +8,6 @@ ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.date: 04/23/2018
 keywords: ["StreamClassReadWriteConfig function"]
 ms.keywords: StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig
-f1_keywords:
- - "strmini/StreamClassReadWriteConfig"
- - "StreamClassReadWriteConfig"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Stream.lib
-- Stream.dll
-api_name:
-- StreamClassReadWriteConfig
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StreamClassReadWriteConfig
+ - strmini/StreamClassReadWriteConfig
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Stream.lib
+ - Stream.dll
+api_name:
+ - StreamClassReadWriteConfig
 ---
 
 # StreamClassReadWriteConfig function
@@ -47,56 +47,42 @@ req.typenames:
 
 ## -description
 
-
 The <b>StreamClassReadWriteConfig</b> routine reads or writes configuration data for the minidriver's parent bus driver.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
-
 ### -param Read 
+
 [in]
 Specifies whether to read or write the configuration information. A value of <b>TRUE</b> indicates that a read is requested. A value of <b>FALSE</b> indicates that a write should be performed.
 
-
 ### -param Buffer 
+
 [in, out]
 Points to the buffer to use to read/write the configuration information.
 
-
 ### -param Offset 
+
 [in]
 Specifies the offset within the configuration information to begin the read/write operation.
 
-
 ### -param Length 
+
 [in]
 Specifies the length of the data to read or write.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> on success, <b>FALSE</b> on failure.
 
-
-
-
 ## -remarks
-
-
 
 This routine reads or writes configuration information for the minidriver's parent bus driver. For example, for a PCI device, <b>StreamClassReadWriteConfig</b> reads or writes PCI configuration information.
 
 This routine can only be called at PASSIVE_LEVEL.
-
-
 

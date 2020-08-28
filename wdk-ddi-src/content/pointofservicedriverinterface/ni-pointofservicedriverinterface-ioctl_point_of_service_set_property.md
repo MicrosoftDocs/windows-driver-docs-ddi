@@ -8,9 +8,6 @@ ms.assetid: 8907a99f-37b0-4c09-b92a-ac720328020e
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_SET_PROPERTY IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_SET_PROPERTY, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY, pos.ioctl_point_of_service_set_property
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY"
- - "IOCTL_POINT_OF_SERVICE_SET_PROPERTY"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_SET_PROPERTY
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_SET_PROPERTY
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_SET_PROPERTY
 ---
 
 # IOCTL_POINT_OF_SERVICE_SET_PROPERTY IOCTL
+
 
 ## -description
 
@@ -80,3 +81,4 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 - STATUS_ACCESS_DENIED: The device is currently claimed by another client.
 
 The client must successfully call [IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device) before using this IOCTL.
+

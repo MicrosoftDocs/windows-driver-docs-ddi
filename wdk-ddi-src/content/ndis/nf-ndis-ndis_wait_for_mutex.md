@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 06e6a4d2-4a3d-432e-8e58-ad2634fbc3b6
 ms.date: 04/16/2018
 keywords: ["NDIS_WAIT_FOR_MUTEX macro"]
-f1_keywords:
- - "ndis/NDIS_WAIT_FOR_MUTEX"
- - "NDIS_WAIT_FOR_MUTEX"
 ms.keywords: NDIS_WAIT_FOR_MUTEX
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 req.ddi-compliance: Irql_Synch_Function
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NDIS_WAIT_FOR_MUTEX
 targetos: Windows
-
+f1_keywords:
+ - NDIS_WAIT_FOR_MUTEX
+ - ndis/NDIS_WAIT_FOR_MUTEX
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_WAIT_FOR_MUTEX
 ---
 
 # NDIS_WAIT_FOR_MUTEX macro
@@ -75,3 +74,4 @@ Callers of **NDIS_WAIT_FOR_MUTEX** must be running at IRQL == PASSIVE_LEVEL and 
 [**NDIS_INIT_MUTEX**](nf-ndis-ndis_init_mutex.md)
 
 [**NDIS_RELEASE_MUTEX**](nf-ndis-ndis_release_mutex.md)
+

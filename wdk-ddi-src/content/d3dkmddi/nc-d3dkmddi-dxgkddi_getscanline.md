@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiGetScanLine"
- - "DxgkDdiGetScanLine"
+ - DXGKDDI_GETSCANLINE
+ - d3dkmddi/DXGKDDI_GETSCANLINE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_GETSCANLINE callback function
+
 
 ## -description
 

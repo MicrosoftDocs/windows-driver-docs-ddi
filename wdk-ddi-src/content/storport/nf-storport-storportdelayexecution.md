@@ -6,37 +6,36 @@ tech.root: storage
 ms.assetid: 77d6e5c0-ff4d-4a2c-8fdf-a89b1c2779b3
 ms.date: 10/19/2018
 keywords: ["StorPortDelayExecution function"]
-f1_keywords:
- - "storport/StorPortDelayExecution"
- - "StorPortDelayExecution"
 ms.keywords: StorPortDelayExecution
 req.header: storport.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10 (Version 1803)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- StorPortDelayExecution
 targetos: Windows
-
+f1_keywords:
+ - StorPortDelayExecution
+ - storport/StorPortDelayExecution
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - StorPortDelayExecution
 ---
 
 # StorPortDelayExecution function
@@ -63,3 +62,4 @@ This function returns either a STOR_STATUS_SUCCESS or a STOR_STATUS_NOT_IMPLEMEN
 ## -remarks
 
 ## -see-also
+

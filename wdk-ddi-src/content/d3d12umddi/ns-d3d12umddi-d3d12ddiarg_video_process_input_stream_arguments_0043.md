@@ -5,38 +5,39 @@ description: Specifies input stream parameters for an input stream passed to PFN
 ms.assetid: 816940cd-6653-44fb-b529-e75e4de72356
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043"
- - "D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043"
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
+ - d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
+product:
+ - Windows
 ---
 
 # D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043 structure
+
 
 ## -description
 
@@ -71,3 +72,4 @@ The planar alpha for an input stream on the video processor. See [D3D12DDI_VIDEO
 ### -field FieldType
 
 The video process field type.
+

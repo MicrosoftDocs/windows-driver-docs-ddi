@@ -8,9 +8,6 @@ ms.assetid: 33711459-70C8-43D2-974D-B90EC0DD8ED6
 ms.date: 05/02/2018
 keywords: ["WWAN_SET_UICC_RESET structure"]
 ms.keywords: "*PWWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_UICC_RESET, WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], _WWAN_SET_UICC_RESET, netvista.wwan_set_uicc_reset, wwan/PWWAN_SET_UICC_RESET, wwan/WWAN_SET_UICC_RESET"
-f1_keywords:
- - "wwan/WWAN_SET_UICC_RESET"
- - "WWAN_SET_UICC_RESET"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SET_UICC_RESET
 targetos: Windows
 req.typenames: WWAN_SET_UICC_RESET, *PWWAN_SET_UICC_RESET
+f1_keywords:
+ - _WWAN_SET_UICC_RESET
+ - wwan/_WWAN_SET_UICC_RESET
+ - PWWAN_SET_UICC_RESET
+ - wwan/PWWAN_SET_UICC_RESET
+ - WWAN_SET_UICC_RESET
+ - wwan/WWAN_SET_UICC_RESET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SET_UICC_RESET
 ---
 
 # _WWAN_SET_UICC_RESET structure
@@ -46,24 +50,15 @@ req.typenames: WWAN_SET_UICC_RESET, *PWWAN_SET_UICC_RESET
 
 ## -description
 
-
 The <b>WWAN_SET_UICC_RESET</b> structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a  UICC smart card.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PassThroughAction
 
 The passthrough action specified by the host. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
@@ -74,7 +69,4 @@ The passthrough action specified by the host. For more info, see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>
- 
-
- 
 

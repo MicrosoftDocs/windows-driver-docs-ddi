@@ -8,9 +8,6 @@ ms.assetid: 17379ce3-d9c1-4fbf-ab2e-b87604e6c71e
 ms.date: 04/16/2018
 keywords: ["FltRequestOperationStatusCallback function"]
 ms.keywords: FltApiRef_p_to_z_85d8f6d5-37d1-469f-8c97-8b358f69e9ef.xml, FltRequestOperationStatusCallback, FltRequestOperationStatusCallback function [Installable File System Drivers], fltkernel/FltRequestOperationStatusCallback, ifsk.fltrequestoperationstatuscallback
-f1_keywords:
- - "fltkernel/FltRequestOperationStatusCallback"
- - "FltRequestOperationStatusCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltRequestOperationStatusCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltRequestOperationStatusCallback
+ - fltkernel/FltRequestOperationStatusCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltRequestOperationStatusCallback
 ---
 
 # FltRequestOperationStatusCallback function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-<b>FltRequestOperationStatusCallback</b> returns status information for the given I/O operation. 
-
+<b>FltRequestOperationStatusCallback</b> returns status information for the given I/O operation.
 
 ## -parameters
 
-
-
-
 ### -param Data 
-[in]
-A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param CallbackRoutine 
-[in]
-A pointer to a callback routine that the Filter Manager calls after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a> returns. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+A pointer to a callback routine that the Filter Manager calls after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a> returns. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param RequesterContext 
-[in, optional]
-A context pointer to be passed to the <i>CallbackRoutine</i>. This parameter is optional and can be <b>NULL</b>. 
 
+[in, optional]
+A context pointer to be passed to the <i>CallbackRoutine</i>. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltRequestOperationStatusCallback</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -115,14 +108,8 @@ The minifilter driver's instance is being torn down. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver can call <b>FltRequestOperationStatusCallback</b> for an IRP-based I/O operation to obtain the status value that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a> returned for the operation. 
 
@@ -158,15 +145,9 @@ if (iopb->MajorFunction == IRP_MJ_READ) {
 </table></span></div>
 In the example, the read buffer is changed after the call to <b>FltRequestOperationStatusCallback</b>, so when the Filter Manager calls <i>CallbackRoutine</i>, it will pass in a pointer to the old buffer instead of the new one. 
 
-The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the originating thread at IRQL <= APC_LEVEL. 
-
-
-
+The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the originating thread at IRQL <= APC_LEVEL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -193,7 +174,4 @@ The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
- 
-
- 
 

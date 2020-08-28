@@ -8,9 +8,6 @@ ms.assetid: 64b98d8b-883b-4a2c-a5de-058bb3b732df
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects4::GetThreadIdByTeb"]
 ms.keywords: GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects2 interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects3 interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects2 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects2::GetThreadIdByTeb, IDebugSystemObjects3 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects3::GetThreadIdByTeb, IDebugSystemObjects4 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects4.GetThreadIdByTeb, IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects::GetThreadIdByTeb, IDebugSystemObjects_6f4062c3-c2ef-43bf-81c6-32103f37e793.xml, dbgeng/IDebugSystemObjects2::GetThreadIdByTeb, dbgeng/IDebugSystemObjects3::GetThreadIdByTeb, dbgeng/IDebugSystemObjects4::GetThreadIdByTeb, dbgeng/IDebugSystemObjects::GetThreadIdByTeb, debugger.getthreadidbyteb
-f1_keywords:
- - "dbgeng/IDebugSystemObjects.GetThreadIdByTeb"
- - "IDebugSystemObjects.GetThreadIdByTeb"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects.GetThreadIdByTeb
-- IDebugSystemObjects2.GetThreadIdByTeb
-- IDebugSystemObjects3.GetThreadIdByTeb
-- IDebugSystemObjects4.GetThreadIdByTeb
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects4::GetThreadIdByTeb
+ - dbgeng/IDebugSystemObjects4::GetThreadIdByTeb
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects.GetThreadIdByTeb
+ - IDebugSystemObjects2.GetThreadIdByTeb
+ - IDebugSystemObjects3.GetThreadIdByTeb
+ - IDebugSystemObjects4.GetThreadIdByTeb
 ---
 
 # IDebugSystemObjects4::GetThreadIdByTeb
@@ -49,28 +49,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetThreadIdByTeb</b> method returns the engine thread ID of the specified thread.  The thread is specified by its thread environment block (TEB).
-
 
 ## -parameters
 
-
-
-
 ### -param Offset 
+
 [in]
 Specifies the location of the thread's TEB.
 
-
 ### -param Id 
+
 [out]
 Receives the engine thread ID.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -91,18 +84,10 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In kernel-mode debugging, this method returns the engine thread ID for the virtual thread representing the processor on which the specified thread is executing.  If the thread is not executing on a processor, this method will fail.
 
 For more information about threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
-
-
 

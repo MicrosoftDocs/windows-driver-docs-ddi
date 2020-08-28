@@ -8,9 +8,6 @@ ms.assetid: e5c94f80-8ff8-4945-b1b8-a12190c3dec7
 ms.date: 04/16/2018
 keywords: ["MmFlushImageSection function"]
 ms.keywords: MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ntifs/MmFlushImageSection
-f1_keywords:
- - "ntifs/MmFlushImageSection"
- - "MmFlushImageSection"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmFlushImageSection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmFlushImageSection
+ - ntifs/MmFlushImageSection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmFlushImageSection
 ---
 
 # MmFlushImageSection function
@@ -46,21 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmFlushImageSection</b> routine flushes the image section for a file.
 
-
 ## -parameters
-
-
-
 
 ### -param SectionObjectPointer
 
 <p>Pointer to a structure that contains the file object's section object pointers.</p>
 
-
 ### -param FlushType 
+
 [in]
 Specifies the reason for the flush operation. It can be one of the values listed in the following table. 
 
@@ -90,23 +85,15 @@ The file is being opened for write access.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>MmFlushImageSection</b> returns <b>TRUE</b> if the flush operation is successful, or if no image section exists for the file; otherwise <b>MmFlushImageSection</b> returns <b>FALSE</b>.
 
 <div class="alert"><b>Note</b>  If the FlushType MmFlushForDelete value is specified and there are one or more outstanding write probes on the file's data section, <b>MmFlushImageSection</b> returns <b>FALSE</b>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A file system must call the <b>MmFlushImageSection</b> routine before deleting a file or opening a file for write access. 
 
@@ -116,18 +103,9 @@ When opening a file for write access, the file system should call <b>MmFlushImag
 
 If there are no mapped views of the image section, <b>MmFlushImageSection</b> destroys the image section and returns any used pages to the free list. 
 
-Before using <b>MmFlushImageSection</b>, file system writers are strongly encouraged to study the way this routine is used in the FASTFAT sample. 
-
-
-
+Before using <b>MmFlushImageSection</b>, file system writers are strongly encouraged to study the way this routine is used in the FASTFAT sample.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
- 
-
- 
 

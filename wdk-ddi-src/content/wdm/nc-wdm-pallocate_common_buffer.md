@@ -8,9 +8,6 @@ ms.assetid: 4edaae35-8ac4-4a7a-949b-8a86b45ff391
 ms.date: 04/30/2018
 keywords: ["PALLOCATE_COMMON_BUFFER callback function"]
 ms.keywords: AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER, PALLOCATE_COMMON_BUFFER callback, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml, kernel.allocatecommonbuffer, wdm/AllocateCommonBuffer
-f1_keywords:
- - "wdm/AllocateCommonBuffer"
- - "AllocateCommonBuffer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- AllocateCommonBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PALLOCATE_COMMON_BUFFER
+ - wdm/PALLOCATE_COMMON_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - AllocateCommonBuffer
 ---
 
 # PALLOCATE_COMMON_BUFFER callback function
@@ -46,31 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>AllocateCommonBuffer</b> routine allocates memory and maps it so that it is simultaneously accessible from both the processor and a device for DMA operations.
-
 
 ## -parameters
 
-
-
-
 ### -param DmaAdapter 
+
 [in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-
 ### -param Length 
+
 [in]
 Specifies the number of bytes of memory to allocate.
 
-
 ### -param LogicalAddress 
+
 [out]
 Pointer to a variable that receives the logical address the device can use to access the allocated buffer. Use this address rather than calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a> because the system can take into account any platform-specific memory restrictions.
 
-
 ### -param CacheEnabled 
+
 [in]
 Specifies whether the allocated memory can be cached.
 
@@ -78,21 +74,13 @@ This parameter is ignored. The operating system determines whether to enable cac
 
 On computers with x86-based, x64-based, and Itanium-based processors, cached memory is enabled. It is assumed that all DMA operations performed by a device are coherent with the relevant CPU caches, which might be caching that memory. If your driver needs to disable caching, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer_ex">AllocateCommonBufferEx</a> instead.
 
-On computers with ARM or ARM 64-based processors, the operating system does not automatically enable cached memory for all devices. The system relies on the <b>ACPI_CCA</b> method for each device to determine whether the device is cache-coherent. 
-
+On computers with ARM or ARM 64-based processors, the operating system does not automatically enable cached memory for all devices. The system relies on the <b>ACPI_CCA</b> method for each device to determine whether the device is cache-coherent.
 
 ## -returns
 
-
-
 <b>AllocateCommonBuffer</b> returns the base virtual address of the allocated range. If the buffer cannot be allocated, it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>AllocateCommonBuffer</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
@@ -125,13 +113,7 @@ If a driver needs several pages of common buffer space, but the pages need not b
 
 Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, during their response to a PnP <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request. After startup, it is possible that only one-page requests will succeed, if any.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>
 
@@ -146,7 +128,4 @@ Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
- 
-
- 
 

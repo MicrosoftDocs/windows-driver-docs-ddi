@@ -8,9 +8,6 @@ ms.assetid: b934a0da-0709-4427-bbf2-8d53f9511cf1
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DPC callback function"]
 ms.keywords: DFDpcObjectRef_ed441283-63f3-4ad3-84fc-05fb2404f634.xml, EVT_WDF_DPC, EVT_WDF_DPC callback, EvtDpcFunc, EvtDpcFunc callback function, kmdf.evtdpcfunc, wdf.evtdpcfunc, wdfdpc/EvtDpcFunc
-f1_keywords:
- - "wdfdpc/EvtDpcFunc"
- - "EvtDpcFunc"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfdpc.h
-api_name:
-- EvtDpcFunc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_DPC
+ - wdfdpc/EVT_WDF_DPC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfdpc.h
+api_name:
+ - EvtDpcFunc
 ---
 
 # EVT_WDF_DPC callback function
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDpcFunc</i> callback function performs driver-defined operations at IRQL = DISPATCH_LEVEL.
 
-
 ## -parameters
 
-
-
-
 ### -param Dpc 
+
 [in]
 A handle to a framework DPC object.
 
-
 ## -remarks
-
-
 
 To register an <i>EvtDpcFunc</i> callback function, your driver must place the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a> structure and call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a>.
 
@@ -86,13 +79,7 @@ To obtain a handle to a DPC object's parent object, the <i>EvtDpcFunc</i> callba
 
 For more information about using <i>EvtDpcFunc</i> callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/servicing-an-interrupt">Servicing an Interrupt</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>
 
@@ -119,7 +106,4 @@ For more information about using <i>EvtDpcFunc</i> callback functions, see <a hr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcwdmgetdpc">WdfDpcWdmGetDpc</a>
- 
-
- 
 

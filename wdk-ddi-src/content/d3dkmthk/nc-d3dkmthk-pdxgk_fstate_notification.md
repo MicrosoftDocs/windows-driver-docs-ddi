@@ -5,69 +5,49 @@ description: Implemented by the client driver to issue a state notification.
 ms.assetid: a6d6baab-576b-407d-bfb3-91b0e8f6453d
 ms.date: 10/19/2018
 keywords: ["PDXGK_FSTATE_NOTIFICATION callback function"]
-f1_keywords:
- - "d3dkmthk/PDXGK_FSTATE_NOTIFICATION"
- - "PDXGK_FSTATE_NOTIFICATION"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- PDXGK_FSTATE_NOTIFICATION
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - PDXGK_FSTATE_NOTIFICATION
+ - d3dkmthk/PDXGK_FSTATE_NOTIFICATION
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PDXGK_FSTATE_NOTIFICATION
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # PDXGK_FSTATE_NOTIFICATION callback function
 
+
 ## -description
 
 Implemented by the client driver to issue a state notification.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PDXGK_FSTATE_NOTIFICATION PdxgkFstateNotification;
-
-// Definition
-
-VOID PdxgkFstateNotification
-(
-	PVOID GraphicsDeviceHandle
-	ULONG ComponentIndex
-	UINT NewFState
-	BOOLEAN PreNotification
-	PVOID PrivateHandle
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -95,12 +75,32 @@ An opaque handle which will be provided in any callbacks. This handle must be gl
 
 Returns VOID.
 
+## -prototype
+
+```cpp
+//Declaration
+
+PDXGK_FSTATE_NOTIFICATION PdxgkFstateNotification;
+
+// Definition
+
+VOID PdxgkFstateNotification
+(
+	PVOID GraphicsDeviceHandle
+	ULONG ComponentIndex
+	UINT NewFState
+	BOOLEAN PreNotification
+	PVOID PrivateHandle
+)
+{...}
+
+```
+
 ## -remarks
 
 All callbacks made from Dxgkrnl to this callback may be called at up to DISPATCH_LEVEL (e.g., the non-graphics driver should not block on any of these notifications). Callbacks will only be made for [DXGK_POWER_COMPONENT_SHARED](../d3dkmddi/ne-d3dkmddi-_dxgk_power_component_type.md) type power components.
 
 Pre-notifications will be provided prior to transitioning F-states. Completion notification callbacks (PreNotification==FALSE) are issued as part of the graphics driver’s [DxgkCbCompleteFStateTransition](../d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition.md) callback. That is, all shared power components will be notified of the F-state transition completion prior to DxgkCbCompleteFStateTransition returning.
 
-
-
 ## -see-also
+

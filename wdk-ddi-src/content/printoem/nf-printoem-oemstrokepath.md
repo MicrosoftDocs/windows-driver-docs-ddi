@@ -8,9 +8,6 @@ ms.assetid: e761a8b4-729f-4f03-a4b4-2ed1b62ec012
 ms.date: 04/20/2018
 keywords: ["OEMStrokePath function"]
 ms.keywords: OEMStrokePath, OEMStrokePath function [Print Devices], print.oemstrokepath, print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml, printoem/OEMStrokePath
-f1_keywords:
- - "printoem/OEMStrokePath"
- - "OEMStrokePath"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMStrokePath
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMStrokePath
+ - printoem/OEMStrokePath
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMStrokePath
 ---
 
 # OEMStrokePath function
@@ -46,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMStrokePath</code> function strokes a path.
-
 
 ## -parameters
 
-
-
-
 ### -param pso
-
 
 ### -param ppo
 
-
 ### -param pco
-
 
 ### -param pxo
 
-
 ### -param pbo
-
 
 ### -param pptlBrushOrg
 
-
 ### -param plineattrs
-
 
 ### -param mix
 

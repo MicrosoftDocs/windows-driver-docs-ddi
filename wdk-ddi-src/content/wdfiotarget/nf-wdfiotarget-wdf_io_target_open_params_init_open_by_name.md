@@ -8,9 +8,6 @@ ms.assetid: e84652c5-a234-4336-92f3-827f965865f8
 ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function"]
 ms.keywords: DFIOTargetRef_fd8afc87-6dae-469e-906f-f2fa99aba08e.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function, kmdf.wdf_io_target_open_params_init_open_by_name, wdf.wdf_io_target_open_params_init_open_by_name, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
-f1_keywords:
- - "wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME"
- - "WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfiotarget.h
-api_name:
-- WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
+ - wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfiotarget.h
+api_name:
+ - WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
 ---
 
 # WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure so the driver can open an I/O target by specifying the name of the device, file, or device interface. If the supplied name does not exist, the system will not try to create it.
 
-
 ## -parameters
 
-
-
-
 ### -param Params 
+
 [out]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure, which the function initializes.
 
-
 ### -param TargetDeviceName 
-[in]
-A value for the <b>TargetDeviceName</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure. 
 
+[in]
+A value for the <b>TargetDeviceName</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
 ### -param DesiredAccess 
+
 [in]
 A value for the <b>DesiredAccess</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
-
 ## -remarks
-
-
 
 If <i>TargetDeviceName</i> specifies the name of a file that already exists, the system opens the existing file. If the file does not exist, the open operation fails.
 
@@ -101,12 +94,7 @@ For a code example that uses <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b>,
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a>
 
@@ -121,7 +109,4 @@ For a code example that uses <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</b>,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a>
- 
-
- 
 

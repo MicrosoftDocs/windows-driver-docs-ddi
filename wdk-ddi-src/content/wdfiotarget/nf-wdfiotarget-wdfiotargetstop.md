@@ -8,9 +8,6 @@ ms.assetid: 3dd5aa58-e5a6-4ee3-9b88-d9cbb7eb558c
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetStop function"]
 ms.keywords: DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, WdfIoTargetStop, WdfIoTargetStop method, kmdf.wdfiotargetstop, wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop
-f1_keywords:
- - "wdfiotarget/WdfIoTargetStop"
- - "WdfIoTargetStop"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoTargetStop
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoTargetStop
+ - wdfiotarget/WdfIoTargetStop
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoTargetStop
 ---
 
 # WdfIoTargetStop function
@@ -49,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetStop</b> method stops sending queued requests to a local or remote I/O target.
 
-
 ## -parameters
 
-
-
-
 ### -param IoTarget 
+
 [in]
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
-
 ### -param Action 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_sent_io_action">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the I/O target, if the target has not completed the requests.
-
 
 ## -remarks
 
@@ -138,12 +133,7 @@ MyEvtDeviceD0Exit(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit">EvtDeviceD0Exit</a>
 
@@ -170,7 +160,4 @@ MyEvtDeviceD0Exit(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpiperesetsynchronously">WdfUsbTargetPipeResetSynchronously</a>
- 
-
- 
 

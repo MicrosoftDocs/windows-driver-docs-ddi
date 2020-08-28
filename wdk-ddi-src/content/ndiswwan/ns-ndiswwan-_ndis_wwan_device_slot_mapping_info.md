@@ -8,9 +8,6 @@ ms.assetid: 18437B56-B84C-499B-8D4F-F65B5B8221A6
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, ndiswwan/NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, ndiswwan/PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, netvista.ndis_wwan_device_slot_mappings"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO"
- - "NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, *PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+f1_keywords:
+ - _NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+ - ndiswwan/_NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+ - PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+ - ndiswwan/PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+ - NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+ - ndiswwan/NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
 ---
 
 # _NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, *PNDIS_WWAN_DEVICE_SLOT_MAPPI
 
 ## -description
 
-
 The <b>NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO</b> structure represents the executor-to-slot mapping relationship of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,7 +103,6 @@ sizeof(NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -168,8 +166,6 @@ The operation failed because the device does not support this OID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DeviceSlotMappingInfo
 
@@ -182,11 +178,7 @@ The operation failed because the device does not support this OID.
 
 A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_slot_mapping_info">WWAN_DEVICE_SLOT_MAPPING_INFO</a> structure that represents the executor-to-slot mapping relationship of the MB device.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -201,7 +193,4 @@ A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwa
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_slot_mapping_info">WWAN_DEVICE_SLOT_MAPPING_INFO</a>
- 
-
- 
 

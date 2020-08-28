@@ -8,9 +8,6 @@ ms.assetid: 3bb6232c-b87e-4358-ba0c-8854d641bfd8
 ms.date: 02/26/2018
 keywords: ["WdfCollectionGetItem function"]
 ms.keywords: DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem
-f1_keywords:
- - "wdfcollection/WdfCollectionGetItem"
- - "WdfCollectionGetItem"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfCollectionGetItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCollectionGetItem
+ - wdfcollection/WdfCollectionGetItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfCollectionGetItem
 ---
 
 # WdfCollectionGetItem function
@@ -49,41 +49,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfCollectionGetItem</b> method returns a handle to the object that is contained in a specified object collection and associated with a specified index value.
 
-
 ## -parameters
 
-
-
-
 ### -param Collection 
+
 [in]
 A handle to a collection object.
 
-
 ### -param Index 
-[in]
-A zero-based index value that identifies an object in the collection. 
 
+[in]
+A zero-based index value that identifies an object in the collection.
 
 ## -returns
-
-
 
 <b>WdfCollectionGetItem</b> returns a framework object handle, or <b>NULL</b> if the <i>Index</i> value is invalid.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 Index values represent the order in which objects are added to a collection. An index value of zero represents the first object in the collection, an index value of one represents the second object, and so on, like a linked list. When the driver removes item <i>i</i> from a collection, item <i>i</i>+1 becomes item <i>i</i>. 
 
@@ -98,19 +86,11 @@ For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="https://d
 
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectiongetfirstitem">WdfCollectionGetFirstItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectiongetlastitem">WdfCollectionGetLastItem</a>
- 
-
- 
 
