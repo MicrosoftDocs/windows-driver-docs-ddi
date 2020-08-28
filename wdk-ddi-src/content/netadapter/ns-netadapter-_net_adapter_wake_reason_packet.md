@@ -12,7 +12,7 @@ f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_REASON_PACKET"
  - "NET_ADAPTER_WAKE_REASON_PACKET"
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET, NET_ADAPTER_WAKE_REASON_PACKET, 
-req.header: netadapter.h
+req.header: netadaptercx.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004
@@ -65,13 +65,17 @@ A WDFMEMORY buffer that contains the wake packet.
 
 ## -remarks
 
-Call [**NET_ADAPTER_WAKE_REASON_PACKET_INIT**](../netadapter/nf-netadapter-net_adapter_wake_reason_packet_init.md) to initialize this structure.
+Call [**NET_ADAPTER_WAKE_REASON_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_packet_init.md) to initialize this structure if the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) is NetWakeSourceTypeBitmapPattern.
+
+Call [**NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_magic_packet_init.md) to initialize this structure if the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypeMagicPacket.
+
+Call [**NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_filter_packet_init.md) to initialize this structure if the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypePacketFilterMatch.
 
 A **NET_ADAPTER_WAKE_REASON_PACKET** structure is passed as an input parameter to [**NetAdapterReportWakeReasonPacket**](../netadapter/nf-netadapter-netadapterreportwakereasonpacket.md).
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_REASON_PACKET_INIT**](../netadapter/nf-netadapter-net_adapter_wake_reason_packet_init.md)
 

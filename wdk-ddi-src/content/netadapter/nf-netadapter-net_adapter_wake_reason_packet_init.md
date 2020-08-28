@@ -12,7 +12,7 @@ f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_REASON_PACKET_INIT"
  - "NET_ADAPTER_WAKE_REASON_PACKET_INIT"
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET_INIT
-req.header: netadapter.h
+req.header: netadaptercx.h
 req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
