@@ -2,7 +2,7 @@
 UID: NF:netadapteroffload.NetOffloadIsRscIPv6Enabled
 title: NetOffloadIsRscIPv6Enabled function (netadapteroffload.h)
 author: windows-driver-content
-description: The NetOffloadIsRscIPv6Enabled method determines whether a net adapter has RSC offload enabled for IPv6 packets.
+description: The NetOffloadIsRscIPv6Enabled function determines whether a net adapter has RSC offload enabled for IPv6 packets.
 tech.root: netvista
 ms.assetid: b34b6dcd-588f-4cc7-8044-62fd58897f8b
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetOffloadIsRscIPv6Enabled** method determines whether a net adapter has RSC offload enabled for IPv6 packets.
+The **NetOffloadIsRscIPv6Enabled** function determines whether a net adapter has RSC offload enabled for IPv6 packets.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Returns **TRUE** if RSC offload is enabled for IPv6 packets, or **FALSE** if it 
 
 ## -remarks
 
-Client drivers typically call this method during their [*EvtNetAdapterOffloadSetRsc*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback to test whether an updated set of active RSC capabilities includes RSC offload for IPv6 packets.
+Client drivers typically call this function during their [*EvtNetAdapterOffloadSetRsc*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback to test whether an updated set of active RSC capabilities includes RSC offload for IPv6 packets.
 
 ## -see-also
 

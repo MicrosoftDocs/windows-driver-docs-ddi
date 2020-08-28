@@ -1,7 +1,7 @@
 ---
 UID: NF:netrxqueue.NetRxQueueGetExtension
 title: NetRxQueueGetExtension function (netrxqueue.h)
-description: The NetRxQueueGetExtension method retrieves a packet extension for all packets in a receive (Rx) queue.
+description: The NetRxQueueGetExtension function retrieves a packet extension for all packets in a receive (Rx) queue.
 tech.root: netvista
 ms.assetid: a3581073-6875-478b-88c6-ca753cca08b2
 ms.date: 01/31/2019
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NetRxQueueGetExtension** method retrieves a packet extension for all packets in a receive (Rx) queue.
+The **NetRxQueueGetExtension** function retrieves a packet extension for all packets in a receive (Rx) queue.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A handle to a driver-allocated [**NET_EXTENSION**](../extension/ns-extension-_ne
 
 ## -remarks
 
-Client drivers typically call this method from their *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* callback function after queue creation. To prevent frequent extension queries, store the extension returned by this method in your queue context space.
+Client drivers typically call this function from their *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* callback function after queue creation. To prevent frequent extension queries, store the extension returned by this function in your queue context space.
 
 ## -see-also
 

@@ -2,7 +2,7 @@
 UID: NF:netadapter.NetAdapterPowerOffloadSetArpCapabilities
 title: NetAdapterPowerOffloadSetArpCapabilities function (netadapter.h)
 author: windows-driver-content
-description: The NetAdapterPowerOffloadSetArpCapabilities method sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
+description: The NetAdapterPowerOffloadSetArpCapabilities function sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
 tech.root: netvista
 ms.assetid: 213f7654-fb2a-4160-b1db-3d36d8e119f2
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetAdapterPowerOffloadSetArpCapabilities** method sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
+The **NetAdapterPowerOffloadSetArpCapabilities** function sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a client driver-allocated and initialized [**NET_ADAPTER_POWER_OFFL
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 

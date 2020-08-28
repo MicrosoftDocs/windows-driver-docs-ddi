@@ -1,7 +1,7 @@
 ---
 UID: NF:netrxqueue.NetRxQueueGetRingCollection
 title: NetRxQueueGetRingCollection function (netrxqueue.h)
-description: The NetRxQueueGetRingCollection method retrieves the NET_RING_COLLECTION structure for a receive (Rx) queue.
+description: The NetRxQueueGetRingCollection function retrieves the NET_RING_COLLECTION structure for a receive (Rx) queue.
 tech.root: netvista
 ms.assetid: 18ae9b71-b6a3-4a6f-ab70-74332b852338
 ms.date: 01/31/2019
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NetRxQueueGetRingCollection** method retrieves the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure for a receive (Rx) queue.
+The **NetRxQueueGetRingCollection** function retrieves the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure for a receive (Rx) queue.
 
 ## -parameters
 
@@ -59,6 +59,6 @@ Returns a pointer to the queue's [**NET_RING_COLLECTION**](../ringcollection/ns-
 
 ## -remarks
 
-Use the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure returned by this method to access a receive queue's net rings.
+Use the [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure returned by this function to access a receive queue's net rings.
 
 ## -see-also

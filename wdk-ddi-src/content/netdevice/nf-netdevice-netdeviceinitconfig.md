@@ -2,7 +2,7 @@
 UID: NF:netdevice.NetDeviceInitConfig
 title: NetDeviceInitConfig function (netdevice.h)
 author: windows-driver-content
-description: The NetDeviceInitConfig method initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
+description: The NetDeviceInitConfig function initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 tech.root: netvista
 ms.assetid: 578116d2-0dcf-4ebb-a42f-db9f456a0f38
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetDeviceInitConfig** method initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
+The **NetDeviceInitConfig** function initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ A pointer to a WDFDEVICE_INIT object that the client driver received in its [*Ev
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 
-A client driver calls this method in its [*EvtDriverDeviceAdd*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback before it calls [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+A client driver calls this function in its [*EvtDriverDeviceAdd*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback before it calls [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
-When a client driver calls **NetDeviceInitConfig**, the system-supplied NetAdapterCx.sys driver calls the following methods on behalf of the client. The client driver should not call these methods directly. Doing so may result in undefined behavior.
+When a client driver calls **NetDeviceInitConfig**, the system-supplied NetAdapterCx.sys driver calls the following functions on behalf of the client. The client driver should not call these functions directly. Doing so may result in undefined behavior.
 
 - [**WdfDeviceInitSetReleaseHardwareOrderOnFailure**](../wdfdevice/nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md)
 - [**WdfDeviceInitSetDeviceType**](../wdfdevice/nf-wdfdevice-wdfdeviceinitsetdevicetype.md)

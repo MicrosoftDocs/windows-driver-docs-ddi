@@ -2,7 +2,7 @@
 UID: NF:netdevice.NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
 title: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function (netdevice.h)
 author: windows-driver-content
-description: The NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT method initializes a NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure.
+description: The NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function initializes a NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure.
 tech.root: netvista
 ms.assetid: adf5b2fc-1b9a-4dad-97ad-e23f382acb8c
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT** method initializes a [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md) structure.
+The **NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT** function initializes a [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md) structure.
 
 ## -parameters
 
@@ -58,11 +58,11 @@ A pointer to a driver-allocated [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](..
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-This method zeroes out the **NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS** structure, then fills in the **Size** member. After calling this method, call [**NetDeviceInitSetPowerPolicyEventCallbacks**](../netdevice/nf-netdevice-netdeviceinitsetpowerpolicyeventcallbacks.md) during device initialization before you call [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+This function zeroes out the **NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS** structure, then fills in the **Size** member. After calling this function, call [**NetDeviceInitSetPowerPolicyEventCallbacks**](../netdevice/nf-netdevice-netdeviceinitsetpowerpolicyeventcallbacks.md) during device initialization before you call [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -see-also
 

@@ -64,7 +64,7 @@ A pointer to a caller-allocated [**NET_PACKET_QUEUE_CONFIG**](../netpacketqueue/
 A pointer to a location that receives a handle to the new net receive queue object.
 
 ## -returns
-This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+This function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 The client calls **NetRxQueueCreate** from within its *[EVT_NET_ADAPTER_CREATE_RXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)* event callback function. For info on assigning context space to the new object, see [Framework Object Context Space](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space).

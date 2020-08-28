@@ -64,7 +64,7 @@ A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api
 A pointer to a location that receives the data that is assigned to the value that *ValueName* specifies.
 
 ## -returns
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).

@@ -1,7 +1,7 @@
 ---
 UID: NF:netpacketqueue.NET_PACKET_QUEUE_CONFIG_INIT
 title: NET_PACKET_QUEUE_CONFIG_INIT function (netpacketqueue.h)
-description: The NET_PACKET_QUEUE_CONFIG_INIT method initializes a NET_PACKET_QUEUE_CONFIG structure.
+description: The NET_PACKET_QUEUE_CONFIG_INIT function initializes a NET_PACKET_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 5dd456ed-b2ec-4a60-8a43-0803a87eac84
 ms.date: 07/16/2018
@@ -48,7 +48,7 @@ ms.custom: RS5
 
 
 
-The **NET_PACKET_QUEUE_CONFIG_INIT** method initializes a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure.
+The **NET_PACKET_QUEUE_CONFIG_INIT** function initializes a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ A pointer to the client driver's implementation of the [*EVT_PACKET_QUEUE_CANCEL
 
 ## -remarks
 
-Client drivers must call this method to initialize a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure before calling [**NetTxQueueCreate**](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) or [**NetRxQueueCreate**](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to create a packet queue.
+Client drivers must call this function to initialize a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure before calling [**NetTxQueueCreate**](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) or [**NetRxQueueCreate**](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to create a packet queue.
 
 ## -see-also
 

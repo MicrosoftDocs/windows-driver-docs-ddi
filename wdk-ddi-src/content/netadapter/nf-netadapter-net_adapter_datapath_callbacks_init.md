@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 title: NET_ADAPTER_DATAPATH_CALLBACKS_INIT function (netadapter.h)
-description: The NET_ADAPTER_DATAPATH_CALLBACKS_INIT method initializes a NET_ADAPTER_DATAPATH_CALLBACKS structure.
+description: The NET_ADAPTER_DATAPATH_CALLBACKS_INIT function initializes a NET_ADAPTER_DATAPATH_CALLBACKS structure.
 tech.root: netvista
 ms.assetid: bc15c768-b5ba-48b0-ad78-fb33cc577407
 ms.date: 07/27/2018
@@ -48,7 +48,7 @@ ms.custom: RS5
 
 
 
-The **NET_ADAPTER_DATAPATH_CALLBACKS_INIT** method initializes a [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure.
+The **NET_ADAPTER_DATAPATH_CALLBACKS_INIT** function initializes a [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_CREATE_
 
 ## -remarks
 
-Call this method to initialize the [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure before calling [**NetAdapterInitSetDatapathCallbacks**](nf-netadapter-netadapterinitsetdatapathcallbacks.md).
+Call this function to initialize the [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure before calling [**NetAdapterInitSetDatapathCallbacks**](nf-netadapter-netadapterinitsetdatapathcallbacks.md).
 
 ## -see-also
 

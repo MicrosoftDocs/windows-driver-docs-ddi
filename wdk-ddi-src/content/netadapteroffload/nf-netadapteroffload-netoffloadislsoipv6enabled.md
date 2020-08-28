@@ -2,7 +2,7 @@
 UID: NF:netadapteroffload.NetOffloadIsLsoIPv6Enabled
 title: NetOffloadIsLsoIPv6Enabled function (netadapteroffload.h)
 author: windows-driver-content
-description: The NetOffloadIsLsoIPv6Enabled method determines whether a net adapter has LSO offload enabled for IPv6 packets.
+description: The NetOffloadIsLsoIPv6Enabled function determines whether a net adapter has LSO offload enabled for IPv6 packets.
 tech.root: netvista
 ms.assetid: 74d6ba64-7825-488f-818d-e54994d56930
 ms.author: windowsdriverdev
@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -description
 
-The **NetOffloadIsLsoIPv6Enabled** method determines whether a net adapter has LSO offload enabled for IPv6 packets.
+The **NetOffloadIsLsoIPv6Enabled** function determines whether a net adapter has LSO offload enabled for IPv6 packets.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Returns **TRUE** if LSO offload is enabled for IPv6 packets, or **FALSE** if it 
 
 ## -remarks
 
-Client drivers typically call this method during their [*EvtNetAdapterOffloadSetLso*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_lso.md) callback to test whether an updated set of active LSO capabilities includes LSO offload for IPv6 packets.
+Client drivers typically call this function during their [*EvtNetAdapterOffloadSetLso*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_lso.md) callback to test whether an updated set of active LSO capabilities includes LSO offload for IPv6 packets.
 
 ## -see-also
 

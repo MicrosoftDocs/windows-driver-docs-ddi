@@ -2,7 +2,7 @@
 UID: NF:rsc.NetExtensionGetPacketRscTimestamp
 title: NetExtensionGetPacketRscTimestamp function (rsc.h)
 author: windows-driver-content
-description: The NetExtensionGetPacketRscTimestamp method retrieves receive segment coalescence (RSC) timestamp information for a packet.
+description: The NetExtensionGetPacketRscTimestamp function retrieves receive segment coalescence (RSC) timestamp information for a packet.
 tech.root: netvista
 ms.assetid: 7562250c-17c0-4d59-9b0f-74f856752469
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetExtensionGetPacketRscTimestamp** method retrieves receive segment coalescence (RSC) timestamp information for a packet.
+The **NetExtensionGetPacketRscTimestamp** function retrieves receive segment coalescence (RSC) timestamp information for a packet.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Returns a pointer to a [**NET_PACKET_RSC_TIMESTAMP**](../rsctypes/ns-rsctypes-_n
 
 NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the RSC offset from the queue context to pass to **NetExtensionGetPacketRscTimestamp**.
 
-This method is a wrapper method around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
+This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
 
 ## -see-also
 

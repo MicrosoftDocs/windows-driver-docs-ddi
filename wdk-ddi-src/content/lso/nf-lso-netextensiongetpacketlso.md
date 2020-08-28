@@ -2,7 +2,7 @@
 UID: NF:lso.NetExtensionGetPacketLso
 title: NetExtensionGetPacketLso function (lso.h)
 author: windows-driver-content
-description: The NetExtensionGetPacketLso method retrieves large send offload (LSO) information for a packet.
+description: The NetExtensionGetPacketLso function retrieves large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: 768d42b2-5b31-42a2-bbc0-86c018205a1b
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetExtensionGetPacketLso** method retrieves large send offload (LSO) information for a packet.
+The **NetExtensionGetPacketLso** function retrieves large send offload (LSO) information for a packet.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Returns a pointer to a [**NET_PACKET_LSO**](../lsotypes/ns-lsotypes-_net_packet_
 
 NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the LSO offset from the queue context to pass to **NetExtensionGetPacketLso**.
 
-This method is a wrapper method around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
+This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
 
 ## -see-also
 

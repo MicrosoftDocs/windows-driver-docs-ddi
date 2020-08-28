@@ -2,7 +2,7 @@
 UID: NF:netpoweroffloadlist.NetPowerOffloadListGetCount
 title: NetPowerOffloadListGetCount function (netpoweroffloadlist.h)
 author: windows-driver-content
-description: The NetPowerOffloadListGetCount method gets the number of low power protocol offloads to a net adapter.
+description: The NetPowerOffloadListGetCount function gets the number of low power protocol offloads to a net adapter.
 tech.root: netvista
 ms.assetid: 30c4d484-07c2-42ab-bce7-42d2f73968e4
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetPowerOffloadListGetCount** method gets the number of low power protocol offloads to a net adapter.
+The **NetPowerOffloadListGetCount** function gets the number of low power protocol offloads to a net adapter.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Returns the number of low power offloads to this net adapter.
 
 ## -remarks
 
-Call [**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md) to initialize the [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure, then call [**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md) to retrieve the low power protocol offload list. After getting the list, call this method to determine how many low power protocol offloads there are to this net adapter.
+Call [**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md) to initialize the [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure, then call [**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md) to retrieve the low power protocol offload list. After getting the list, call this function to determine how many low power protocol offloads there are to this net adapter.
 
 The client driver must only call **NetPowerOffloadListGetCount** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 

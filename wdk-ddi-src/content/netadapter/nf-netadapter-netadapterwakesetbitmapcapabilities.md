@@ -2,7 +2,7 @@
 UID: NF:netadapter.NetAdapterWakeSetBitmapCapabilities
 title: NetAdapterWakeSetBitmapCapabilities function (netadapter.h)
 author: windows-driver-content
-description: The NetAdapterWakeSetBitmapCapabilities method sets a net adapter's bitmap pattern wake on LAN (WoL) capabilities.
+description: The NetAdapterWakeSetBitmapCapabilities function sets a net adapter's bitmap pattern wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: 1c6006b8-6241-418f-b81c-b32a318eeea6
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetAdapterWakeSetBitmapCapabilities** method sets a net adapter's bitmap pattern wake on LAN (WoL) capabilities.
+The **NetAdapterWakeSetBitmapCapabilities** function sets a net adapter's bitmap pattern wake on LAN (WoL) capabilities.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a client driver-allocated and initialized [**NET_ADAPTER_WAKE_BITMA
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Client drivers must call [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_bitmap_capabilities_init.md) to initialize the **NET_ADAPTER_WAKE_BITMAP_CAPABILITIES** structure, then set the structure's members appropriately before calling this method. Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers must call [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_bitmap_capabilities_init.md) to initialize the **NET_ADAPTER_WAKE_BITMAP_CAPABILITIES** structure, then set the structure's members appropriately before calling this function. Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 
