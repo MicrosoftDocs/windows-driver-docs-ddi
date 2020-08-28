@@ -7,13 +7,13 @@ ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
-description: The NetDeviceStoreResetDiagnostics method stores client driver collected reset diagnostics into the NetAdapterCx framework.
+description: The NetDeviceStoreResetDiagnostics function stores client driver collected reset diagnostics into the NetAdapterCx framework.
 keywords: ["NetDeviceStoreResetDiagnostics function"]
 req.assembly:
 req.construct-type: function
 req.ddi-compliance:
 req.dll:
-req.header: netdevice.h
+req.header: netadaptercx.h
 req.idl:
 req.include-header:
 req.irql: PASSIVE_LEVEL
@@ -44,27 +44,27 @@ dev_langs:
 
 ## -description
 
-The **NetDeviceStoreResetDiagnostics** method stores client driver collected reset diagnostics into the NetAdapterCx framework.
+The **NetDeviceStoreResetDiagnostics** function stores client driver collected reset diagnostics into the NetAdapterCx framework.
 
 ## -parameters
 
 ### -param Device
 
-The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+[in] The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param ResetDiagnosticsSize
 
-The size in bytes of the **ResetDiagnosticsBuffer**. The maximum size of reset diagnostics the framework accepts is 1 MB.
+[in] The size in bytes of the **ResetDiagnosticsBuffer**. The maximum size of reset diagnostics the framework accepts is 1 MB.
 
 ### -param ResetDiagnosticsBuffer
 
-A pointer to the data buffer that holds the reset diagnostics data. The data buffer can come from either paged or non-paged pool.
+[in_reads_bytes] A pointer to the data buffer that holds the reset diagnostics data. The data buffer can come from either paged or non-paged pool.
 
 ## -remarks
 
-The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback. The client driver must call **NetDeviceStoreResetDiagnostics** at PASSIVE_LEVEL
+The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** function is in a client driver's [*EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS*](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback. The client driver must call **NetDeviceStoreResetDiagnostics** at PASSIVE_LEVEL
 
-To learn how to correctly use the **NetDeviceStoreResetDiagnostics** method, see [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
+To learn how to correctly use the **NetDeviceStoreResetDiagnostics** function, see [Implement *EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS*](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
 
 ## -see-also
 
@@ -72,4 +72,4 @@ To learn how to correctly use the **NetDeviceStoreResetDiagnostics** method, see
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
+[*EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS*](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)

@@ -12,7 +12,7 @@ keywords: ["EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS callback function"]
 req.construct-type: structure
 req.ddi-compliance:
 req.dll:
-req.header: netdevice.h
+req.header: netadaptercx.h
 req.include-header:
 req.kmdf-ver:
 req.lib:
@@ -56,11 +56,11 @@ A client driver specified global unique identifier (GUID). Developers can use th
 
 ### -field EvtNetDeviceCollectResetDiagnostics
 
-A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
+A pointer to the client driver's implementation of the [*EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS*](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
 
 ## -remarks
 
-Client drivers initialize and register this structure in their [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function.
+Client drivers initialize and register this structure in their [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function.
 
 Call [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) to initialize this structure.
 
@@ -72,9 +72,9 @@ For more information, see [Register NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](/
 
 [Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
 
-[**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
+[*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
-[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
+[*EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS*](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
 
 [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md)
 

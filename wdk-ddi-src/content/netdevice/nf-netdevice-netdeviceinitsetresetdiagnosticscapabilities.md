@@ -8,12 +8,12 @@ ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
 keywords: ["NetDeviceInitSetResetDiagnosticsCapabilities"]
-description: The NetDeviceInitSetResetDiagnosticsCapabilities method registers a client driver's NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES to the framework.
+description: The NetDeviceInitSetResetDiagnosticsCapabilities function registers a client driver's NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES to the framework.
 req.assembly:
 req.construct-type: function
 req.ddi-compliance:
 req.dll:
-req.header: netdevice.h
+req.header: netadaptercx.h
 req.idl:
 req.include-header:
 req.irql: PASSIVE_LEVEL
@@ -44,29 +44,29 @@ dev_langs:
 
 ## -description
 
-The **NetDeviceInitSetResetDiagnosticsCapabilities** method registers a client driver's [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) to the NetAdapterCx framework.
+The **NetDeviceInitSetResetDiagnosticsCapabilities** function registers a client driver's [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) to the NetAdapterCx framework.
 
 ## -parameters
 
 ### -param DeviceInit
 
-A pointer to a **WDFDEVICE_INIT** object that the client driver received in its [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
+[in, out] A pointer to a **WDFDEVICE_INIT** object that the client driver received in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
 
 ### -param ResetDiagnosticsCapabilities
 
-A pointer to a client driver allocated and initialized [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
+[in] A pointer to a client driver allocated and initialized [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
 
 ## -remarks
 
-A client driver typically calls the **NetDeviceInitSetResetDiagnosticsCapabilities** method in its [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
+A client driver typically calls the **NetDeviceInitSetResetDiagnosticsCapabilities** function in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
 
-Before calling this method, the client driver must initialize [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) by calling the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) method.
+Before calling this function, the client driver must initialize [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) by calling the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) function.
 
 ## -see-also
 
 [Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
 
-[**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
+[*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
 [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md)
 

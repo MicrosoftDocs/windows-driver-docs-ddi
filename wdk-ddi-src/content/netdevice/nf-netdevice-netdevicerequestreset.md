@@ -7,13 +7,13 @@ ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
-description: The NetDeviceRequestReset method triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.
+description: The NetDeviceRequestReset function triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.
 keywords: ["NetDeviceRequestReset function"]
 req.assembly:
 req.construct-type: function
 req.ddi-compliance:
 req.dll:
-req.header: netdevice.h
+req.header: netadaptercx.h
 req.idl:
 req.include-header:
 req.irql: PASSIVE_LEVEL
@@ -44,13 +44,13 @@ dev_langs:
 
 ## -description
 
-The **NetDeviceRequestReset** method triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.
+The **NetDeviceRequestReset** function triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.
 
 ## -parameters
 
 ### -param Device
 
-The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+[in] The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
 

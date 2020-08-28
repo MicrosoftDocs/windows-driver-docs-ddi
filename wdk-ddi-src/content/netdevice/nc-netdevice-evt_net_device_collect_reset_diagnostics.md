@@ -13,7 +13,7 @@ req.assembly:
 req.construct-type: function
 req.ddi-compliance:
 req.dll:
-req.header: netdevice.h
+req.header: netadaptercx.h
 req.idl:
 req.include-header:
 req.irql: PASSIVE_LEVEL
@@ -52,15 +52,15 @@ Implement this optional callback to collect diagnostics from a failed hardware d
 
 ### -param Device
 
-The WDFDEVICE object that the client driver previously obtained with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+[in] The WDFDEVICE object that the client driver previously obtained with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
 
-If provided, the NetAdapterCx framework invokes the **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback to collect reset diagnostics during the reset and recovery process. The framework always invokes this callback at PASSIVE_LEVEL.
+If provided, the NetAdapterCx framework invokes the *EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS* callback to collect reset diagnostics during the reset and recovery process. The framework always invokes this callback at PASSIVE_LEVEL.
 
-The **EvtNetDeviceCollectResetDiagnostics** field of the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure refers to this callback.
+The ***EvtNetDeviceCollectResetDiagnostics*** field of the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure refers to this callback.
 
-To learn how to correctly implement this callback and for more information about the framework's synchronization guarantee, see [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
+To learn how to correctly implement this callback and for more information about the framework's synchronization guarantee, see [Implement *EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS*](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
 
 ## -see-also
 
