@@ -2,7 +2,7 @@
 UID: NF:ring.NetRingAdvanceIndex
 title: NetRingAdvanceIndex function (ring.h)
 author: windows-driver-content
-description: The NetRingAdvanceIndex method advances the index in a net ring forward, wrapping around if necessary.
+description: The NetRingAdvanceIndex function advances the index in a net ring forward, wrapping around if necessary.
 tech.root: netvista
 ms.assetid: 74b63740-6bf7-44e4-97bc-60392bc73d7c
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetRingAdvanceIndex** method advances the index in a net ring forward, wrapping around if necessary.
+The **NetRingAdvanceIndex** function advances the index in a net ring forward, wrapping around if necessary.
 
 ## -parameters
 

@@ -2,7 +2,7 @@
 UID: NF:netdevice.NetDeviceInitSetPowerPolicyEventCallbacks
 title: NetDeviceInitSetPowerPolicyEventCallbacks function (netdevice.h)
 author: windows-driver-content
-description: The NetDeviceInitSetPowerPolicyEventCallbacks method sets optional power policy event callbacks during device initialization for a client driver.
+description: The NetDeviceInitSetPowerPolicyEventCallbacks function sets optional power policy event callbacks during device initialization for a client driver.
 tech.root: netvista
 ms.assetid: 417d0da7-26f1-4a81-a9ea-0413facffa1d
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetDeviceInitSetPowerPolicyEventCallbacks** method sets optional power policy event callbacks during device initialization for a client driver.
+The **NetDeviceInitSetPowerPolicyEventCallbacks** function sets optional power policy event callbacks during device initialization for a client driver.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a client driver allocated and initialized [**NET_DEVICE_POWER_POLIC
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Initialize the WDFDEVICE_INIT object by calling [**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md) before calling this method. Initialize the [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md) structure by calling [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT**](../netdevice/nf-netdevice-net_device_power_policy_event_callbacks_init.md), then fill in pointers to the callbacks that your client driver implements.
+Initialize the WDFDEVICE_INIT object by calling [**NetDeviceInitConfig**](../netdevice/nf-netdevice-netdeviceinitconfig.md) before calling this function. Initialize the [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md) structure by calling [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT**](../netdevice/nf-netdevice-net_device_power_policy_event_callbacks_init.md), then fill in pointers to the callbacks that your client driver implements.
 
 ## -see-also
 

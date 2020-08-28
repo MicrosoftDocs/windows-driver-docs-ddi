@@ -1,7 +1,7 @@
 ---
 UID: NF:packet.NetPacketIsIpv4
 title: NetPacketIsIpv4 function (packet.h)
-description: The NetPacketIsIpv4 method determines if a NET_PACKET is an IPv4 packet. This method is reserved for system use. Do not call this method from your code.
+description: The NetPacketIsIpv4 function determines if a NET_PACKET is an IPv4 packet. This function is reserved for system use. Do not call this function from your code.
 tech.root: netvista
 ms.assetid: 2a7f93ae-f0a5-430f-adbb-e452ea9aa3ee
 ms.date: 01/30/2019
@@ -45,10 +45,10 @@ targetos: Windows
 ## -description
 
 
-The **NetPacketIsIpv4** method determines if a [**NET_PACKET**](ns-packet-_net_packet.md) is an IPv4 packet. 
+The **NetPacketIsIpv4** function determines if a [**NET_PACKET**](ns-packet-_net_packet.md) is an IPv4 packet. 
 
 >[!WARNING]
-> This method is reserved for system use. Do not call this method from your code.
+> This function is reserved for system use. Do not call this function from your code.
 
 ## -parameters
 

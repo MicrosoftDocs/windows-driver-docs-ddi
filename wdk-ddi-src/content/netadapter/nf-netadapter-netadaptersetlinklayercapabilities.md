@@ -59,9 +59,9 @@ The network adapter object that the client created in a prior call to [**NetAdap
 A pointer to an allocated and initialized [**NET_ADAPTER_LINK_LAYER_CAPABILITIES**](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure.
 
 ## -remarks
-The client driver calls this method when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+The client driver calls this function when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
-This method, along with a few other set capability methods (see below), is the replacement for the [**NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES**](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [**NdisMSetMiniportAttributes**](../ndis/nf-ndis-ndismsetminiportattributes.md).
+This function, along with a few other set capability functions (see below), is the replacement for the [**NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES**](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [**NdisMSetMiniportAttributes**](../ndis/nf-ndis-ndismsetminiportattributes.md).
 
 
 

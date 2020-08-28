@@ -61,10 +61,10 @@ A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api
 A pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains driver-supplied attributes for the new WDFSTRING objects. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param Collection
-A handle to a driver-supplied collection object. If the method succeeds, contains a WDFSTRING object for each string assigned to *ValueName*.
+A handle to a driver-supplied collection object. If the function succeeds, contains a WDFSTRING object for each string assigned to *ValueName*.
 
 ## -returns
-The method returns STATUS_SUCCESS if the operation succeeds. If the registry value is NULL, **NetConfigurationQueryMultiString** returns **STATUS_OBJECT_NAME_NOT_FOUND**.
+The function returns STATUS_SUCCESS if the operation succeeds. If the registry value is NULL, **NetConfigurationQueryMultiString** returns **STATUS_OBJECT_NAME_NOT_FOUND**.
 
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).

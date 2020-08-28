@@ -1,7 +1,7 @@
 ---
 UID: NF:netconfiguration.NetConfigurationAssignUlong
 title: NetConfigurationAssignUlong function (netconfiguration.h)
-description: The NetConfigurationAssignUlong method writes a caller-supplied unsigned long word value to a specified value name in the registry.
+description: The NetConfigurationAssignUlong function writes a caller-supplied unsigned long word value to a specified value name in the registry.
 tech.root: netvista
 ms.assetid: 239fbd90-5991-4f3d-a053-7c8586c2abdc
 ms.date: 02/07/2018
@@ -47,7 +47,7 @@ targetos: Windows
 
 
 
-The **NetConfigurationAssignUlong** method writes a caller-supplied unsigned long word value to a specified value name in the registry.
+The **NetConfigurationAssignUlong** function writes a caller-supplied unsigned long word value to a specified value name in the registry.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api
 A ULONG value that will be assigned to the value name that *ValueName* specifies.
 
 ## -returns
-This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+This function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).

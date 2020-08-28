@@ -2,7 +2,7 @@
 UID: NF:netwakesource.NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT
 title: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT function (netwakesource.h)
 author: windows-driver-content
-description: The NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT method initializes a NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure.
+description: The NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT function initializes a NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 096314c3-db04-4d4d-bab4-697ce4edd6fe
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT** method initializes a [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_media_change_parameters.md) structure.
+The **NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT** function initializes a [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_media_change_parameters.md) structure.
 
 ## -parameters
 
@@ -58,11 +58,11 @@ A pointer to a driver-allocated [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](..
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-This method zeroes out the memory of the **NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS** structure, then fills in the **Size** member. Client drivers must then call [**NetWakeSourceGetMediaChangeParameters**](../netwakesource/nf-netwakesource-netwakesourcegetmediachangeparameters.md) to fill in the other members of the structure.
+This function zeroes out the memory of the **NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS** structure, then fills in the **Size** member. Client drivers must then call [**NetWakeSourceGetMediaChangeParameters**](../netwakesource/nf-netwakesource-netwakesourcegetmediachangeparameters.md) to fill in the other members of the structure.
 
 The client driver must only call **NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
 

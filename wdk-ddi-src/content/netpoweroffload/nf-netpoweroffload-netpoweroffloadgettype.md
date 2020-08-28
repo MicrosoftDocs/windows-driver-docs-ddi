@@ -2,7 +2,7 @@
 UID: NF:netpoweroffload.NetPowerOffloadGetType
 title: NetPowerOffloadGetType function (netpoweroffload.h)
 author: windows-driver-content
-description: The NetPowerOffloadGetType method gets the power offload type for a low power protocol offload to a net adapter.
+description: The NetPowerOffloadGetType function gets the power offload type for a low power protocol offload to a net adapter.
 tech.root: netvista
 ms.assetid: 04e24520-1ccd-4c27-8bad-ff4cac890e2e
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetPowerOffloadGetType** method gets the power offload type for a low power protocol offload to a net adapter.
+The **NetPowerOffloadGetType** function gets the power offload type for a low power protocol offload to a net adapter.
 
 ## -parameters
 

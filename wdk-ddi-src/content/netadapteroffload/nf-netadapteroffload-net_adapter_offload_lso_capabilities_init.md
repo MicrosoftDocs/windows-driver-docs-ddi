@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function (netadapteroffload.h)
-description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure.
+description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function initializes a NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: cc94cd92-487e-4a09-9852-e1c9a3315088
 ms.date: 01/17/2019
@@ -46,7 +46,7 @@ ms.custom: 19H1
 
 
 
-The **NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure.
+The **NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD
 
 ## -remarks
 
-The [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetLsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md) method.
+The [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure initialized by this function is passed as a parameter to the [**NetAdapterOffloadSetLsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md) function.
 
 ## -see-also
 

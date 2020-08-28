@@ -48,7 +48,7 @@ targetos: Windows
 
 
 
-The **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** method initializes a [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure.
+The **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** function initializes a [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure.
 
 ## -parameters
 

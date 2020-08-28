@@ -1,7 +1,7 @@
 ---
 UID: NF:netconfiguration.NetConfigurationAssignUnicodeString
 title: NetConfigurationAssignUnicodeString function (netconfiguration.h)
-description: The NetConfigurationAssignUnicodeString method assigns a specified Unicode string to a specified value name in the registry.
+description: The NetConfigurationAssignUnicodeString function assigns a specified Unicode string to a specified value name in the registry.
 tech.root: netvista
 ms.assetid: 4b225e21-abf7-4b9b-91f3-349b4fbd60d2
 ms.date: 02/07/2018
@@ -47,7 +47,7 @@ targetos: Windows
 
 
 
-The **NetConfigurationAssignUnicodeString** method assigns a specified Unicode string to a specified value name in the registry.
+The **NetConfigurationAssignUnicodeString** function assigns a specified Unicode string to a specified value name in the registry.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api
 A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the string to be assigned to the value name that *ValueName* specifies.
 
 ## -returns
-This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+This function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).

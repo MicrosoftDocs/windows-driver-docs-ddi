@@ -2,7 +2,7 @@
 UID: NF:netadapter.NetAdapterReportWakeReasonMediaChange
 title: NetAdapterReportWakeReasonMediaChange function (netadapter.h)
 author: windows-driver-content
-description: The NetAdapterReportWakeReasonMediaChange method reports to the framework that a net adapter generated a wake-up event because of a media change.
+description: The NetAdapterReportWakeReasonMediaChange function reports to the framework that a net adapter generated a wake-up event because of a media change.
 tech.root: netvista
 ms.assetid: 877cde13-87d8-42e6-bf83-7ff81743bacc
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetAdapterReportWakeReasonMediaChange** method reports to the framework that a net adapter generated a wake-up event because of a media change.
+The **NetAdapterReportWakeReasonMediaChange** function reports to the framework that a net adapter generated a wake-up event because of a media change.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A [**NET_IF_MEDIA_CONNECT_STATE**](https://docs.microsoft.com/windows/win32/api/
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 

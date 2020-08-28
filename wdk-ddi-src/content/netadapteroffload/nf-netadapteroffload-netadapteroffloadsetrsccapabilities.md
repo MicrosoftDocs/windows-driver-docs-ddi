@@ -2,7 +2,7 @@
 UID: NF:netadapteroffload.NetAdapterOffloadSetRscCapabilities
 title: NetAdapterOffloadSetRscCapabilities function (netadapteroffload.h)
 author: windows-driver-content
-description: The NetAdapterOffloadSetRscCapabilities method sets the hardware receive segment coalescence (RSC) offload capabilities of a network adapter.
+description: The NetAdapterOffloadSetRscCapabilities function sets the hardware receive segment coalescence (RSC) offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: d3e3c034-55cc-4324-8e03-b158f1ed8b03
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetAdapterOffloadSetRscCapabilities** method sets the hardware receive segment coalescence (RSC) offload capabilities of a network adapter.
+The **NetAdapterOffloadSetRscCapabilities** function sets the hardware receive segment coalescence (RSC) offload capabilities of a network adapter.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_RSC_CAPAB
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
 

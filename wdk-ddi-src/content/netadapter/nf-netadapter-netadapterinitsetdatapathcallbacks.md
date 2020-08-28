@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapter.NetAdapterInitSetDatapathCallbacks
 title: NetAdapterInitSetDatapathCallbacks function (netadapter.h)
-description: The NetAdapterInitSetDatapathCallbacks method registers a NETADAPTER's callback functions for creating datapath packet queues.
+description: The NetAdapterInitSetDatapathCallbacks function registers a NETADAPTER's callback functions for creating datapath packet queues.
 tech.root: netvista
 ms.assetid: eb6bb249-54ae-4aaf-afa0-a5aa68dd2606
 ms.date: 08/01/2018
@@ -48,7 +48,7 @@ ms.custom: RS5
 
 
 
-The **NetAdapterInitSetDatapathCallbacks** method sets a net adapter's callback functions for creating datapath packet queues.
+The **NetAdapterInitSetDatapathCallbacks** function sets a net adapter's callback functions for creating datapath packet queues.
 
 ## -parameters
 
@@ -62,9 +62,9 @@ A pointer to a driver-allocated and initialized [**NET_ADAPTER_DATAPATH_CALLBACK
 
 ## -remarks
 
-This is an optional method. If a client driver does not provide its own packet queue creation handlers, NetAdapterCx provides default handlers on the driver's behalf.
+This is an optional function. If a client driver does not provide its own packet queue creation handlers, NetAdapterCx provides default handlers on the driver's behalf.
 
-Call this method after calling [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md) but before calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+Call this function after calling [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md) but before calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
 If the driver encounters an error after the NETADAPTER_INIT allocation succeeds but before [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md) succeeds, it must call [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md) to deallocate the NETADAPTER_INIT object.
 

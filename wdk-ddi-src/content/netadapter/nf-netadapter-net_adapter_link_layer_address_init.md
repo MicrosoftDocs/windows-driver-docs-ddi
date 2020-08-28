@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
 title: NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function (netadapter.h)
-description: The NET_ADAPTER_LINK_LAYER_ADDRESS_INIT method initializes a link layer address.
+description: The NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function initializes a link layer address.
 tech.root: netvista
 ms.assetid: 13ba4c51-b878-4b22-9260-7bb423b1f77f
 ms.date: 02/05/2018
@@ -48,7 +48,7 @@ targetos: Windows
 
 
 
-The **NET_ADAPTER_LINK_LAYER_ADDRESS_INIT** method initializes a link layer address.
+The **NET_ADAPTER_LINK_LAYER_ADDRESS_INIT** function initializes a link layer address.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A pointer to the buffer containing the link layer address.
 
 ## -remarks
 
-**NET_ADAPTER_LINK_LAYER_ADDRESS_INIT** is used to initialize either a permanent or current link layer address, stored in a **NET_ADAPTER_LINK_LAYER_ADDRESS** allocated by the driver. This **NET_ADAPTER_LINK_LAYER_ADDRESS** is then passed as a parameter to either the [NetAdapterSetPermanentLinkLayerAddress](nf-netadapter-netadaptersetpermanentlinklayeraddress.md) method or the [NetAdapterSetCurrentLinkLayerAddress](nf-netadapter-netadaptersetcurrentlinklayeraddress.md) method, depending on the type of address that was initialized and is being set.
+**NET_ADAPTER_LINK_LAYER_ADDRESS_INIT** is used to initialize either a permanent or current link layer address, stored in a **NET_ADAPTER_LINK_LAYER_ADDRESS** allocated by the driver. This **NET_ADAPTER_LINK_LAYER_ADDRESS** is then passed as a parameter to either the [NetAdapterSetPermanentLinkLayerAddress](nf-netadapter-netadaptersetpermanentlinklayeraddress.md) function or the [NetAdapterSetCurrentLinkLayerAddress](nf-netadapter-netadaptersetcurrentlinklayeraddress.md) function, depending on the type of address that was initialized and is being set.
 
 
 

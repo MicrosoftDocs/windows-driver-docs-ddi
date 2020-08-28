@@ -1,7 +1,7 @@
 ---
 UID: NF:netconfiguration.NetConfigurationAssignBinary
 title: NetConfigurationAssignBinary function (netconfiguration.h)
-description: The NetConfigurationAssignBinary method writes caller-supplied binary data to a specified value name in the registry.
+description: The NetConfigurationAssignBinary function writes caller-supplied binary data to a specified value name in the registry.
 tech.root: netvista
 ms.assetid: 55f386f7-0327-4cd2-96bc-bb666a2b3465
 ms.date: 02/07/2018
@@ -47,7 +47,7 @@ targetos: Windows
 
 
 
-The **NetConfigurationAssignBinary** method writes caller-supplied binary data to a specified value name in the registry.
+The **NetConfigurationAssignBinary** function writes caller-supplied binary data to a specified value name in the registry.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A pointer to a buffer that contains driver-supplied data.
 The length, in bytes, of the buffer to which *Buffer* points.
 
 ## -returns
-This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+This function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).

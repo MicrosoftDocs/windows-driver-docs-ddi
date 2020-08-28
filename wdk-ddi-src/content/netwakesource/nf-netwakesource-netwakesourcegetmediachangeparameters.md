@@ -2,7 +2,7 @@
 UID: NF:netwakesource.NetWakeSourceGetMediaChangeParameters
 title: NetWakeSourceGetMediaChangeParameters function (netwakesource.h)
 author: windows-driver-content
-description: The NetWakeSourceGetMediaChangeParameters method gets parameters for a media change wake source.
+description: The NetWakeSourceGetMediaChangeParameters function gets parameters for a media change wake source.
 tech.root: netvista
 ms.assetid: 197b0268-eace-4c01-bacd-62102bae7225
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetWakeSourceGetMediaChangeParameters** method gets parameters for a media change wake source.
+The **NetWakeSourceGetMediaChangeParameters** function gets parameters for a media change wake source.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_MEDIA_CHANGE_
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Call [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT**](../netwakesource/nf-netwakesource-net_wake_source_media_change_parameters_init.md) to initialize the [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_media_change_parameters.md) structure before calling this method.
+Call [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT**](../netwakesource/nf-netwakesource-net_wake_source_media_change_parameters_init.md) to initialize the [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_media_change_parameters.md) structure before calling this function.
 
 The client driver must only call **NetWakeSourceGetMediaChangeParameters** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
 

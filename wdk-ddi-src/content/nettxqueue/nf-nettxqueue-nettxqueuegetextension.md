@@ -1,7 +1,7 @@
 ---
 UID: NF:nettxqueue.NetTxQueueGetExtension
 title: NetTxQueueGetExtension function (nettxqueue.h)
-description: The NetTxQueueGetExtension method retrieves a packet extension for all packets in a transmit (Tx) queue.
+description: The NetTxQueueGetExtension function retrieves a packet extension for all packets in a transmit (Tx) queue.
 tech.root: netvista
 ms.assetid: f7e9b686-a38a-47dd-9872-9ebeca533a3a
 ms.date: 01/31/2019
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NetTxQueueGetExtension** method retrieves a packet extension for all packets in a transmit (Tx) queue.
+The **NetTxQueueGetExtension** function retrieves a packet extension for all packets in a transmit (Tx) queue.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A handle to a driver-allocated [**NET_EXTENSION**](../extension/ns-extension-_ne
 
 ## -remarks
 
-Client drivers typically call this method from their *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* callback function after queue creation. To prevent frequent extension queries, store the extension returned by this method in your queue context space.
+Client drivers typically call this function from their *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* callback function after queue creation. To prevent frequent extension queries, store the extension returned by this function in your queue context space.
 
 For a code example of creating a transmit queue, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:netadapter.NetAdapterStop
 title: NetAdapterStop function (netadapter.h)
-description: The NetAdapterStop method stops a NETADAPTER object.
+description: The NetAdapterStop function stops a NETADAPTER object.
 tech.root: netvista
 ms.assetid: b566be39-c819-4d37-bf35-9b3d56e04818
 ms.date: 03/05/2018
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NetAdapterStop** method stops a NETADAPTER object.
+The **NetAdapterStop** function stops a NETADAPTER object.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ The **NetAdapterStop** method stops a NETADAPTER object.
 The **NETADAPTER** object created by a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
 ## -remarks
-If the **NETADAPTER** object is already stopped, this method does nothing.
+If the **NETADAPTER** object is already stopped, this function does nothing.
 
 The system will bugcheck if supplied an invalid handle, such as if the **NETADAPTER** object has not been initialized and created yet.
 

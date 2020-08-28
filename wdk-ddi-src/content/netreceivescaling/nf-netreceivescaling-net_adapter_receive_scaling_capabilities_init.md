@@ -1,7 +1,7 @@
 ---
 UID: NF:netreceivescaling.NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 title: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function (netreceivescaling.h)
-description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT method initializes a NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure.
+description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function initializes a NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 6ca814a1-599b-498c-af32-a21fe3359cd0
 ms.date: 10/19/2018
@@ -45,7 +45,7 @@ targetos: Windows
 ## -description
 
 
-The **NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT** method initializes a [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure.
+The **NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT** function initializes a [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure.
 
 ## -parameters
 
