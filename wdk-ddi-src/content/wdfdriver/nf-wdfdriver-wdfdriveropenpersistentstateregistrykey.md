@@ -53,7 +53,7 @@ A handle to the driver's framework driver object that the driver obtained from a
 ### -param DesiredAccess
 
 [in]
-An [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) typed value that specifies an access mask for the **Parameters** registry key.
+An [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) typed value that specifies an access mask for the registry key.
 A KMDF driver typically requests **KEY_READ**, **KEY_WRITE**, or **KEY_READ** | **KEY_WRITE**.
 If you are writing a UMDF driver, use **KEY_READ** or **KEY_READ** | **KEY_SET_VALUE**.
 As a best practice, ask for only the types of access that your driver needs.
@@ -74,9 +74,12 @@ Refer to [**WdfDriverOpenParametersRegistryKey**](https://docs.microsoft.com/win
 
 ## -remarks
 
-The `Parameters` key is for *immutable* settings provided in the INF file. For runtime written settings, use the key returned by [**WdfDriverOpenParametersRegistryKey**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdriveropenparametersregistrykey).
-
+The `Parameters` key is for *immutable* settings provided in the INF file.  To access those settings, use [**WdfDriverOpenParametersRegistryKey**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdriveropenparametersregistrykey).  The key returned from this API is for settings written at runtime.
 
 ## -see-also
 
 [**WdfDriverOpenParametersRegistryKey**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdriveropenparametersregistrykey)
+
+[**IoOpenDriverRegistryKey**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioopendriverregistrykey)
+
+[**DRIVER_REGKEY_TYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-driver_regkey_type)
