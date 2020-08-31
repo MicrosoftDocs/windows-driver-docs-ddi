@@ -6,44 +6,42 @@ tech.root: netvista
 ms.assetid: aae4a208-75b7-4b11-868b-c4620497d171
 ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function"]
-f1_keywords:
- - "netadapter/NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA"
- - "NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA"
 ms.keywords: NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.25
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name: 
-- NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 targetos: Windows
-
+f1_keywords:
+ - NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
+ - netadapter/NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 ---
 
 # NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function
 
 
 ## -description
-
 
 The **NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA** function initializes a [NET_ADAPTER_TX_CAPABILITIES](ns-netadapter-_net_adapter_tx_capabilities.md) structure for a net adapter that has specified the use of DMA in its transmit data path.
 
@@ -71,9 +69,9 @@ This function is one of two possible functions to call in order to initialize a 
 
 Before calling **NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA**, the driver must have allocated a [NET_ADAPTER_DMA_CAPABILITIES](ns-netadapter-_net_adapter_dma_capabilities.md) structure and initialized it with [NET_ADAPTER_DMA_CAPABILITIES_INIT](nf-netadapter-net_adapter_dma_capabilities_init.md). This DMA capabilities structure is then assigned to the **DmaCapabilities** member of the **NET_ADAPTER_TX_CAPABILITIES** structure.
 
-
-
 ## -see-also
+
 [NET_ADAPTER_TX_CAPABILITIES](ns-netadapter-_net_adapter_tx_capabilities.md)
 
 [NET_ADAPTER_TX_CAPABILITIES_INIT](nf-netadapter-net_adapter_tx_capabilities_init.md)
+

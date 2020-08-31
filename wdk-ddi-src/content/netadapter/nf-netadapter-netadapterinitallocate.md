@@ -6,45 +6,43 @@ tech.root: netvista
 ms.assetid: ba1d5634-2c2b-4680-8212-5e76193d21a8
 ms.date: 01/18/2019
 keywords: ["NetAdapterInitAllocate function"]
-f1_keywords:
- - "netadapter/NetAdapterInitAllocate"
- - "NetAdapterInitAllocate"
 ms.keywords: NetAdapterInitAllocate
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterInitAllocate
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - NetAdapterInitAllocate
+ - netadapter/NetAdapterInitAllocate
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterInitAllocate
 ---
 
 # NetAdapterInitAllocate function
 
 
 ## -description
-
-
 
 The **NetAdapterInitAllocate** function allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object.
 
@@ -67,7 +65,7 @@ A client driver calls **NetAdapterInitAllocate** to obtain a NETADAPTER_INIT str
 
 After **NetAdapterInitAllocate** succeeds, client drivers can optionally call **NetAdapterInitSetXxx** functions to set further initialization attributes for the NETADAPTER. 
 
-For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization). 
+For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
 
 ## -see-also
 
@@ -76,3 +74,4 @@ For a code example of creating a NETADAPTER, see [Device initialization](https:/
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 
 [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md)
+

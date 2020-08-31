@@ -6,47 +6,43 @@ tech.root: netvista
 ms.assetid: 3446a849-1637-4aa8-96b6-70491c47bf31
 ms.date: 07/19/2018
 keywords: ["NetDeviceOpenConfiguration function"]
-f1_keywords:
- - "netdevice/NetDeviceOpenConfiguration"
- - "NetDeviceOpenConfiguration"
 ms.keywords: NetDeviceOpenConfiguration
 req.header: netdevice.h
 req.include-header: netadaptercxstub.lib
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetDeviceOpenConfiguration
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - NetDeviceOpenConfiguration
+ - netdevice/NetDeviceOpenConfiguration
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetDeviceOpenConfiguration
 ---
 
 # NetDeviceOpenConfiguration function
 
 
 ## -description
-
-
 
 The **NetDeviceOpenConfiguration** function opens a net device's configuration database.
 
@@ -79,3 +75,4 @@ As a result, WDF automatically deletes the configuration object when the device 
 ## -see-also
 
 [Accessing configuration information](https://docs.microsoft.com/windows-hardware/drivers/netcx/accessing-configuration-information)
+

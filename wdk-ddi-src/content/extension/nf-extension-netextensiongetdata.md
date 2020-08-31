@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: D2B02C1E-3BF1-4380-8D59-C93FAF811CC8
 ms.date: 02/06/2019
 keywords: ["NetExtensionGetData function"]
-f1_keywords:
- - "extension/SOUNDDETECTOR_PATTERNHEADER"
- - "SOUNDDETECTOR_PATTERNHEADER"
 ms.keywords: NetExtensionGetData
 req.header: extension.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topictype: 
-- apiref
-apitype: 
-- DllExport
-apilocation: 
-- NtosKrnl.exe
-apiname: 
-- NetExtensionGetData
 targetos: Windows
-
+f1_keywords:
+ - NetExtensionGetData
+ - extension/NetExtensionGetData
+topictype:
+ - apiref
+apitype:
+ - DllExport
+apilocation:
+ - NtosKrnl.exe
+apiname:
+ - NetExtensionGetData
 ---
 
 # NetExtensionGetData function
@@ -44,14 +43,13 @@ targetos: Windows
 
 ## -description
 
-
 The **NetExtensionGetData** function retrieves packet extension data for a net packet.
 
 ## -parameters
 
 ### -param Extension
 
-A pointer to a [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that describes the requested extension information for this packet queue. 
+A pointer to a [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that describes the requested extension information for this packet queue.
 
 ### -param Index
 
@@ -69,7 +67,6 @@ Client drivers should not call this function directly. Instead, they should call
 - For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLso**](../lso/nf-lso-netextensiongetpacketlso.md).
 - For Receive Segment Coalescence (RSC) offload information, the client driver calls [**NetExtensionGetPacketRsc**](../rsc/nf-rsc-netextensiongetpacketrsc.md).
 
-
 ## -see-aextension
 
 [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
@@ -81,3 +78,4 @@ Client drivers should not call this function directly. Instead, they should call
 [**NetExtensionGetPacketLso**](../lso/nf-lso-netextensiongetpacketlso.md)
 
 [**NetExtensionGetPacketRsc**](../rsc/nf-rsc-netextensiongetpacketrsc.md)
+
