@@ -2,7 +2,7 @@
 UID: NF:netpoweroffload.NET_POWER_OFFLOAD_NS_PARAMETERS_INIT
 title: NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function (netpoweroffload.h)
 author: windows-driver-content
-description: The NET_POWER_OFFLOAD_NS_PARAMETERS_INIT method initializes a NET_POWER_OFFLOAD_NS_PARAMETERS structure.
+description: The NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function initializes a NET_POWER_OFFLOAD_NS_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 5838984e-4df8-4bda-ae31-92c56d699e1b
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ product:
 
 ## -description
 
-The **NET_POWER_OFFLOAD_NS_PARAMETERS_INIT** method initializes a [**NET_POWER_OFFLOAD_NS_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_ns_parameters.md) structure.
+The **NET_POWER_OFFLOAD_NS_PARAMETERS_INIT** function initializes a [**NET_POWER_OFFLOAD_NS_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_ns_parameters.md) structure.
 
 ## -parameters
 
@@ -58,11 +58,11 @@ A pointer to a client driver-allocated [**NET_POWER_OFFLOAD_NS_PARAMETERS**](../
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-This method zeroes out the memory of the **NET_POWER_OFFLOAD_NS_PARAMETERS** structure, then fills in the **Size** member. Client drivers must then call [**NetPowerOffloadGetNsParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetnsparameters.md) to fill in the remaining members of the structure.
+This function zeroes out the memory of the **NET_POWER_OFFLOAD_NS_PARAMETERS** structure, then fills in the **Size** member. Client drivers must then call [**NetPowerOffloadGetNsParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetnsparameters.md) to fill in the remaining members of the structure.
 
 The client driver must only call **NET_POWER_OFFLOAD_NS_PARAMETERS_INIT** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 

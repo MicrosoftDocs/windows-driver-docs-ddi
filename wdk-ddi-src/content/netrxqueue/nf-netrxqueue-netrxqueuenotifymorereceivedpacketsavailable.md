@@ -55,7 +55,7 @@ A handle to a net receive queue object.
 
 ## -remarks
 
-This method should only be called when polling is disabled.
+This function should only be called when polling is disabled.
 
 After NetAdapterCx calls a client driver's [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) event callback routine with *NotificationEnabled* set to **TRUE**, the client enables the queue's hardware interrupt. When the device generates a hardware interrupt, the client typically calls **NetRxQueueNotifyMoreReceivedPacketsAvailable** from its [*EVT_WDF_INTERRUPT_DPC*](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc.md) callback function, after it completes a pending [**NET_PACKET**](../packet/ns-packet-_net_packet.md) in the receive queue's [**NET_RING**](../ring/ns-ring-_net_ring.md).
 

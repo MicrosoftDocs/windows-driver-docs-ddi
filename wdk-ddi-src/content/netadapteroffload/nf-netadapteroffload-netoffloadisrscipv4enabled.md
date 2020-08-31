@@ -2,7 +2,7 @@
 UID: NF:netadapteroffload.NetOffloadIsRscIPv4Enabled
 title: NetOffloadIsRscIPv4Enabled function (netadapteroffload.h)
 author: windows-driver-content
-description: The NetOffloadIsRscIPv4Enabled method determines whether a net adapter has RSC offload enabled for IPv4 packets.
+description: The NetOffloadIsRscIPv4Enabled function determines whether a net adapter has RSC offload enabled for IPv4 packets.
 tech.root: netvista
 ms.assetid: 431cdc87-473f-40f1-9ade-14e3e7459cbd
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ product:
 
 ## -description
 
-The **NetOffloadIsRscIPv4Enabled** method determines whether a net adapter has RSC offload enabled for IPv4 packets.
+The **NetOffloadIsRscIPv4Enabled** function determines whether a net adapter has RSC offload enabled for IPv4 packets.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Returns **TRUE** if RSC offload is enabled for IPv4 packets, or **FALSE** if it 
 
 ## -remarks
 
-Client drivers typically call this method during their [*EvtNetAdapterOffloadSetRsc*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback to test whether an updated set of active RSC capabilities includes RSC offload for IPv4 packets.
+Client drivers typically call this function during their [*EvtNetAdapterOffloadSetRsc*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback to test whether an updated set of active RSC capabilities includes RSC offload for IPv4 packets.
 
 ## -see-also
 

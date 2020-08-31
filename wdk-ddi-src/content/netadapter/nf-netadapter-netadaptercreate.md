@@ -64,7 +64,7 @@ A pointer to a location that receives a handle to the new NETADAPTER object.
 
 ## -returns
 
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 

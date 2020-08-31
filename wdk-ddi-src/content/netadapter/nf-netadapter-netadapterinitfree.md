@@ -1,42 +1,42 @@
 ---
 UID: NF:netadapter.NetAdapterInitFree
 title: NetAdapterInitFree function (netadapter.h)
-description: The NetAdapterInitFree method deallocates a NETADAPTER_INIT structure.
+description: The NetAdapterInitFree function deallocates a NETADAPTER_INIT structure.
 tech.root: netvista
 ms.assetid: 45a6b6cb-93b5-4b23-8931-00339b0f85ae
 ms.date: 01/18/2019
 keywords: ["NetAdapterInitFree function"]
+f1_keywords:
+ - "netadapter/NetAdapterInitFree"
+ - "NetAdapterInitFree"
 ms.keywords: NetAdapterInitFree
 req.header: netadapter.h
-req.include-header: 
+req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
 req.kmdf-ver: 1.27
-req.umdf-ver: 
+req.umdf-ver:
 req.lib: netadaptercxstub.lib
-req.dll: 
+req.dll:
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
 req.type-library: 
+topic_type: 
+- apiref
+api_type: 
+- LibDef
+api_location: 
+- netadaptercxstub.lib
+api_name: 
+- NetAdapterInitFree
 targetos: Windows
 ms.custom: RS5
-f1_keywords:
- - NetAdapterInitFree
- - netadapter/NetAdapterInitFree
-topic_type:
- - apiref
-api_type:
- - LibDef
-api_location:
- - netadaptercxstub.lib
-api_name:
- - NetAdapterInitFree
 ---
 
 # NetAdapterInitFree function
@@ -44,7 +44,9 @@ api_name:
 
 ## -description
 
-The **NetAdapterInitFree** method deallocates a NETADAPTER_INIT structure.
+
+
+The **NetAdapterInitFree** function deallocates a NETADAPTER_INIT structure.
 
 ## -parameters
 
@@ -65,4 +67,3 @@ For more information and a code example about calling [**NetAdapterCreate**](nf-
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 
 [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
-

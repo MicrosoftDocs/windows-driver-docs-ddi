@@ -60,7 +60,7 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_CREATE_
 
 ## -remarks
 
-Call [**NET_ADAPTER_DATAPATH_CALLBACKS_INIT**](nf-netadapter-net_adapter_datapath_callbacks_init.md) to initialize this structure. An initialized **NET_ADAPTER_DATAPATH_CALLBACKS** structure is passed as a parameter to the [**NetAdapterInitSetDatapathCallbacks**](nf-netadapter-netadapterinitsetdatapathcallbacks.md) method.
+Call [**NET_ADAPTER_DATAPATH_CALLBACKS_INIT**](nf-netadapter-net_adapter_datapath_callbacks_init.md) to initialize this structure. An initialized **NET_ADAPTER_DATAPATH_CALLBACKS** structure is passed as a parameter to the [**NetAdapterInitSetDatapathCallbacks**](nf-netadapter-netadapterinitsetdatapathcallbacks.md) function.
 
 ## -see-also
 

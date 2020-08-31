@@ -2,7 +2,7 @@
 UID: NF:netadapter.NetAdapterReportWakeReasonPacket
 title: NetAdapterReportWakeReasonPacket function (netadapter.h)
 author: windows-driver-content
-description: The NetAdapterReportWakeReasonPacket method reports to the framework that a net adapter generated a wake-up event because it received a packet that matched a wake-on-LAN (WoL) pattern.
+description: The NetAdapterReportWakeReasonPacket function reports to the framework that a net adapter generated a wake-up event because it received a packet that matched a wake-on-LAN (WoL) pattern.
 tech.root: netvista
 ms.assetid: d37c2805-6f94-48e8-991e-0700b6b0c7fe
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ product:
 
 ## -description
 
-The **NetAdapterReportWakeReasonPacket** method reports to the framework that a net adapter generated a wake-up event because it received a packet that matched a wake-on-LAN (WoL) pattern.
+The **NetAdapterReportWakeReasonPacket** function reports to the framework that a net adapter generated a wake-up event because it received a packet that matched a wake-on-LAN (WoL) pattern.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A pointer to the [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapte
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 

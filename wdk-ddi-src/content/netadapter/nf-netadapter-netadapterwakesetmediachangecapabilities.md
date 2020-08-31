@@ -2,7 +2,7 @@
 UID: NF:netadapter.NetAdapterWakeSetMediaChangeCapabilities
 title: NetAdapterWakeSetMediaChangeCapabilities function (netadapter.h)
 author: windows-driver-content
-description: The NetAdapterWakeSetMediaChangeCapabilities method sets a net adapter's media change wake on LAN (WoL) capabilities.
+description: The NetAdapterWakeSetMediaChangeCapabilities function sets a net adapter's media change wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: 1814a1fc-1e1e-4b73-8104-3e7991ffa64f
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ product:
 
 ## -description
 
-The **NetAdapterWakeSetMediaChangeCapabilities** method sets a net adapter's media change wake on LAN (WoL) capabilities.
+The **NetAdapterWakeSetMediaChangeCapabilities** function sets a net adapter's media change wake on LAN (WoL) capabilities.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a client driver-allocated and initialized [**NET_ADAPTER_WAKE_MEDIA
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Client drivers must call [**NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_media_change_capabilities_init.md) to initialize the **NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES** structure, then set the structure's members appropriately before calling this method. Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers must call [**NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_media_change_capabilities_init.md) to initialize the **NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES** structure, then set the structure's members appropriately before calling this function. Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 

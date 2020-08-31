@@ -2,7 +2,7 @@
 UID: NF:netwakesource.NetWakeSourceGetType
 title: NetWakeSourceGetType function (netwakesource.h)
 author: windows-driver-content
-description: The NetWakeSourceGetType method gets the type for wake-on-LAN (WoL) source.
+description: The NetWakeSourceGetType function gets the type for wake-on-LAN (WoL) source.
 tech.root: netvista
 ms.assetid: 05e0ca0e-5cf2-43b6-b5e1-325a11fde2da
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ product:
 
 ## -description
 
-The **NetWakeSourceGetType** method gets the type for wake-on-LAN (WoL) source.
+The **NetWakeSourceGetType** function gets the type for wake-on-LAN (WoL) source.
 
 ## -parameters
 

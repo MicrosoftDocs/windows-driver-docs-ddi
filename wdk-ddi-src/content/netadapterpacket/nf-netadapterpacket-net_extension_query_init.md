@@ -2,7 +2,7 @@
 UID: NF:netadapterpacket.NET_EXTENSION_QUERY_INIT
 title: NET_EXTENSION_QUERY_INIT function (netadapterpacket.h)
 author: windows-driver-content
-description: The NET_EXTENSION_QUERY_INIT method initializes a NET_EXTENSION_QUERY structure.
+description: The NET_EXTENSION_QUERY_INIT function initializes a NET_EXTENSION_QUERY structure.
 tech.root: netvista
 ms.assetid: 3af300cf-1518-49bc-8192-9fa3e6c64981
 ms.author: windowsdriverdev
@@ -48,7 +48,7 @@ product:
 
 ## -description
 
-The **NET_EXTENSION_QUERY_INIT** method initializes a [**NET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_extension_query.md) structure.
+The **NET_EXTENSION_QUERY_INIT** function initializes a [**NET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_extension_query.md) structure.
 
 ## -parameters
 
@@ -70,13 +70,13 @@ A [**NET_EXTENSION_TYPE**](../extension/ne-extension-_net_extension_type.md) val
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-After calling this method, pass the initialized **NET_EXTENSION_QUERY** structure to **NetTx(Rx)QueueGetExtension** to get the offset to that extension in the packet or fragment descriptor.
+After calling this function, pass the initialized **NET_EXTENSION_QUERY** structure to **NetTx(Rx)QueueGetExtension** to get the offset to that extension in the packet or fragment descriptor.
 
-To prevent re-querying extension offsets too often, call this method and **NetTx(Rx)QueueGetExtension** from the *EvtNetAdapterCreateTx(Rx)Queue* callback function after calling **NetTx(Rx)QueueCreate**, then store the offset in a queue context space.
+To prevent re-querying extension offsets too often, call this function and **NetTx(Rx)QueueGetExtension** from the *EvtNetAdapterCreateTx(Rx)Queue* callback function after calling **NetTx(Rx)QueueCreate**, then store the offset in a queue context space.
 
 For more info about extensions, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions). 
 

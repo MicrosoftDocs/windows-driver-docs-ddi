@@ -60,7 +60,7 @@ A pointer to an allocated and initialized [**NET_ADAPTER_LINK_STATE**](ns-netada
 
 ## -remarks
 
-The client driver calls **NetAdapterSetLinkState** when starting a net adapter, before it calls [**NetAdapterStart**](nf-netadapter-netadapterstart.md). It can also call this method later when it needs to change the current link state.
+The client driver calls **NetAdapterSetLinkState** when starting a net adapter, before it calls [**NetAdapterStart**](nf-netadapter-netadapterstart.md). It can also call this function later when it needs to change the current link state.
 
 ## -see-also
 

@@ -79,7 +79,7 @@ A pointer to a driver-allocated and initialized [**NET_DMA_CAPABILITIES**](ns-ne
 
 ## -remarks
 
-Call one of the NET_ADAPTER_TX_CAPABILITIES_INIT_*XXX* methods to initialize this structure. For more info about each initialization method, see the links in the See Also section. 
+Call one of the NET_ADAPTER_TX_CAPABILITIES_INIT_*XXX* functions to initialize this structure. For more info about each initialization function, see the links in the See Also section. 
 
 An initialized **NET_ADAPTER_TX_CAPABILITIES** structure is passed as a parameter to [**NetAdapterSetDatapathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md).
 

@@ -62,7 +62,7 @@ The new size of the adapter's MTU, in bytes.
 
 The client driver first sets MTU size by calling **NetAdapterSetLinkLayerMtuSize** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
-The client driver can change the MTU size after [**NetAdapterStart**](nf-netadapter-netadapterstart.md) returns by calling this method again. Doing so causes all of the adapter's transmit (Tx) and receive (Rx) queues to be recreated.
+The client driver can change the MTU size after [**NetAdapterStart**](nf-netadapter-netadapterstart.md) returns by calling this function again. Doing so causes all of the adapter's transmit (Tx) and receive (Rx) queues to be recreated.
 
 ## -see-also
 
