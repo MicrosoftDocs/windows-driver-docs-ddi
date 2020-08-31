@@ -58,7 +58,7 @@ The **NetDeviceStoreResetDiagnostics** function stores client driver collected r
 
 ### -param ResetDiagnosticsBuffer
 
-[in_reads_bytes] A pointer to the data buffer that holds the reset diagnostics data. The data buffer can come from either paged or non-paged pool.
+[in] A pointer to the data buffer that holds the reset diagnostics data. The data buffer can come from either paged or non-paged pool.
 
 ## -remarks
 
