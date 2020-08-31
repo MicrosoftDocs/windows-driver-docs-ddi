@@ -8,9 +8,6 @@ ms.assetid: 0b5378fa-ab1d-453f-b976-f6cd0d4247de
 ms.date: 04/20/2018
 keywords: ["ReplyPrinterChangeNotification function"]
 ms.keywords: ReplyPrinterChangeNotification, ReplyPrinterChangeNotification function [Print Devices], print.replyprinterchangenotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, winsplp/ReplyPrinterChangeNotification
-f1_keywords:
- - "winsplp/ReplyPrinterChangeNotification"
- - "ReplyPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Spoolss.dll
-api_name:
-- ReplyPrinterChangeNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ReplyPrinterChangeNotification
+ - winsplp/ReplyPrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Spoolss.dll
+api_name:
+ - ReplyPrinterChangeNotification
 ---
 
 # ReplyPrinterChangeNotification function
@@ -46,31 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The print spooler's <code>ReplyPrinterChangeNotification</code> function allows a print provider to update the spooler's database of print queue events associated with a notification handle, and to notify the client that print queue events have occurred.
-
 
 ## -parameters
 
-
-
-
 ### -param hPrinter
-
-
-
 
 ### -param fdwChangeFlags
 
-
-
-
 ### -param pdwResult 
+
 [out, optional]
 Optional. If not <b>NULL</b>, it receives spooler-supplied PRINTER_NOTIFY_INFO-prefixed flags indicating results of updating the supplied information.
 
-
 ### -param pPrinterNotifyInfo 
+
 [in, optional]
 Optional. Caller-supplieid address of a PRINTER_NOTIFY_INFO structure (described in the Windows SDK documentation). Can be <b>NULL</b> if no new notification information is being added.
 
@@ -84,19 +74,11 @@ One or more caller-supplied PRINTER_CHANGE_-prefixed flags, listed in the Micros
 
 Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification">FindFirstPrinterChangeNotification</a> function.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the function returns <b>FALSE</b>. The caller can obtain an error code by calling <b>GetLastError</b>.
 
-
-
-
 ## -remarks
-
-
 
 Print providers that do not support polling (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification">FindFirstPrinterChangeNotification</a>) must notify the spooler of the occurrence of any events represented by the PRINTER_CHANGE_-prefixed flags received by the provider's <b>FindFirstPrinterChangeNotification</b> function. When an event occurs, the print provider can call <code>ReplyPrinterChangeNotification</code> to inform the spooler of the event and to supply information associated with the event. The spooler keeps track of this event information, for each notification handle, and delivers the information to an application when the application calls <b>FindNextPrinterChangeNotification</b> (described in the Windows SDK documentation).
 
@@ -106,20 +88,11 @@ Calling <code>ReplyPrinterChangeNotification</code> causes the spooler to signal
 
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification">FindFirstPrinterChangeNotification</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-partialreplyprinterchangenotification">PartialReplyPrinterChangeNotification</a>
- 
-
- 
 

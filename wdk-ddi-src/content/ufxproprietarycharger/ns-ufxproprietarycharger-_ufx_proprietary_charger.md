@@ -8,9 +8,6 @@ ms.assetid: FAAEDAFE-69A8-4092-8301-DB159FD3583D
 ms.date: 05/07/2018
 keywords: ["UFX_PROPRIETARY_CHARGER structure"]
 ms.keywords: "*PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], UFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER structure [Buses], _UFX_PROPRIETARY_CHARGER, buses.ufx_proprietary_charger, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_PROPRIETARY_CHARGER"
-f1_keywords:
- - "ufxproprietarycharger/UFX_PROPRIETARY_CHARGER"
- - "UFX_PROPRIETARY_CHARGER"
 req.header: ufxproprietarycharger.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ufxproprietarycharger.h
-api_name:
-- UFX_PROPRIETARY_CHARGER
 targetos: Windows
 req.typenames: UFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER
+f1_keywords:
+ - _UFX_PROPRIETARY_CHARGER
+ - ufxproprietarycharger/_UFX_PROPRIETARY_CHARGER
+ - PUFX_PROPRIETARY_CHARGER
+ - ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER
+ - UFX_PROPRIETARY_CHARGER
+ - ufxproprietarycharger/UFX_PROPRIETARY_CHARGER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ufxproprietarycharger.h
+api_name:
+ - UFX_PROPRIETARY_CHARGER
 ---
 
 # _UFX_PROPRIETARY_CHARGER structure
@@ -46,19 +50,13 @@ req.typenames: UFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER
 
 ## -description
 
-
 Describes the proprietary charger's device power requirements.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ChargerId
 
 Charger identifier used to identify a specific type of charger.
-
 
 ### -field DxState
 

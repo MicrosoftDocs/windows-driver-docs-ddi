@@ -8,9 +8,6 @@ ms.assetid: ce54cf4e-5b50-4142-b3c7-ff29b7bdbb35
 ms.date: 05/10/2018
 keywords: ["DXGKCB_EVAL_ACPI_METHOD callback function"]
 ms.keywords: DXGKCB_EVAL_ACPI_METHOD, DXGKCB_EVAL_ACPI_METHOD callback, DpFunctions_e18a1463-e8cb-4ecf-a50f-424dd71db4c3.xml, DxgkCbEvalAcpiMethod, DxgkCbEvalAcpiMethod callback function [Display Devices], display.dxgkcbevalacpimethod, dispmprt/DxgkCbEvalAcpiMethod
-f1_keywords:
- - "dispmprt/DxgkCbEvalAcpiMethod"
- - "DxgkCbEvalAcpiMethod"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkCbEvalAcpiMethod
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_EVAL_ACPI_METHOD
+ - dispmprt/DXGKCB_EVAL_ACPI_METHOD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkCbEvalAcpiMethod
 ---
 
 # DXGKCB_EVAL_ACPI_METHOD callback function
@@ -46,57 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <b>DxgkCbEvalAcpiMethod</b> function evaluates a specified ACPI method on a display adapter or on a child device of a display adapter.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceHandle 
+
 [in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
-
 ### -param DeviceUid 
+
 [in]
 The unique identifier for the ACPI device on which the method will be evaluated. If the ACPI device is a child of the display adapter, this is the <b>ChildUid</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a> structure that the display miniport driver filled in during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>. If the ACPI device is the display adapter itself, this parameter must be set to DISPLAY_ADAPTER_HW_ID.
 
-
 ### -param AcpiInputBuffer 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_input_buffer_complex_v1">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a> structure (defined in <i>Acpiioct.h</i>) allocated and filled in by the display miniport driver. The structure contains the arguments that are required by the ACPI method. See the following Remarks section for more information.
 
-
 ### -param AcpiInputSize 
+
 [in]
 The total size, in bytes, of the buffer pointed to by <i>AcpiInputBuffer</i>.
 
-
 ### -param AcpiOutputBuffer 
+
 [out]
 A pointer to an ACPI_EVAL_OUTPUT_BUFFER structure (defined in <i>Acpiioct.h</i>) that receives the return value of the ACPI method. This parameter can be <b>NULL</b>.
 
-
 ### -param AcpiOutputSize 
+
 [in]
 The total size, in bytes, of the buffer pointed to by <i>AcpiOutputBuffer</i>.
 
-
 ## -returns
-
-
 
 <b>DxgkCbEvalAcpiMethod</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 To evaluate ACPI methods on an ACPI device, the device itself must be in the ACPI namespace. In addition, the display miniport driver must have set the lower 16 bits of the <b>ChildUid</b> value for any ACPI child devices that the display miniport driver reports to the identifier that ACPI reported.
 
@@ -184,12 +172,7 @@ if (HwDeviceExtension->AcpiChildren != NULL) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_input_buffer_complex_v1">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
@@ -204,7 +187,4 @@ if (HwDeviceExtension->AcpiChildren != NULL) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
- 
-
- 
 

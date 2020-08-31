@@ -8,9 +8,6 @@ ms.assetid: d761270f-bf77-441e-834c-9ac7fb3d350f
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_DELETE_VC callback function"]
 ms.keywords: PROTOCOL_CO_DELETE_VC, PROTOCOL_CO_DELETE_VC callback, ProtocolCoDeleteVc, ProtocolCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_bd593797-8284-4b3e-980e-c5401776014f.xml, ndis/ProtocolCoDeleteVc, netvista.protocolcodeletevc
-f1_keywords:
- - "ndis/ProtocolCoDeleteVc"
- - "ProtocolCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoDeleteVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_DELETE_VC
+ - ndis/PROTOCOL_CO_DELETE_VC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoDeleteVc
 ---
 
 # PROTOCOL_CO_DELETE_VC callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoDeleteVc</i> function is required. This function tears down the client's or call manager's
@@ -55,19 +54,14 @@ The
 
 ## -parameters
 
-
-
-
 ### -param ProtocolVcContext 
+
 [in]
 Specifies the handle to the client's or call manager's per-VC context area. The protocol
      originally supplied this handle from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-
 ## -returns
-
-
 
 <i>ProtocolCoDeleteVc</i> can return one of the following:
 
@@ -112,14 +106,8 @@ The protocol failed the VC deletion for a driver-determined reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCoDeleteVc</i> is the reciprocal of the driver's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function. In
@@ -170,15 +158,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CO_DELETE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_DELETE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
@@ -198,7 +180,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

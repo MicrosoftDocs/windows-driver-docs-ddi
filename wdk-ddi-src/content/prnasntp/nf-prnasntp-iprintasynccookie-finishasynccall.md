@@ -8,9 +8,6 @@ ms.assetid: 4E2D11E9-9399-48C5-8EA8-B17FBB6625FF
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncCookie::FinishAsyncCall"]
 ms.keywords: FinishAsyncCall, FinishAsyncCall method [Print Devices], FinishAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],FinishAsyncCall method, IPrintAsyncCookie.FinishAsyncCall, IPrintAsyncCookie::FinishAsyncCall, print.iprintasyncnotify_finishasynccall, prnasntp/IPrintAsyncCookie::FinishAsyncCall
-f1_keywords:
- - "prnasntp/IPrintAsyncCookie.FinishAsyncCall"
- - "IPrintAsyncCookie.FinishAsyncCall"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncCookie.FinishAsyncCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncCookie::FinishAsyncCall
+ - prnasntp/IPrintAsyncCookie::FinishAsyncCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncCookie.FinishAsyncCall
 ---
 
 # IPrintAsyncCookie::FinishAsyncCall
@@ -46,26 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasynccookie">IPrintAsyncCookie</a>
- 
-
- 
 

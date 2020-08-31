@@ -8,9 +8,6 @@ ms.assetid: 7dea199f-ef98-4f7b-a3e4-de52fc23c8ef
 ms.date: 04/16/2018
 keywords: ["RtlNumberGenericTableElements function"]
 ms.keywords: RtlNumberGenericTableElements, RtlNumberGenericTableElements routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelements, ntddk/RtlNumberGenericTableElements, rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml
-f1_keywords:
- - "ntddk/RtlNumberGenericTableElements"
- - "RtlNumberGenericTableElements"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlNumberGenericTableElements
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlNumberGenericTableElements
+ - ntddk/RtlNumberGenericTableElements
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlNumberGenericTableElements
 ---
 
 # RtlNumberGenericTableElements function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlNumberGenericTableElements</b> routine returns the number of elements in a generic table. 
-
+The <b>RtlNumberGenericTableElements</b> routine returns the number of elements in a generic table.
 
 ## -parameters
 
-
-
-
 ### -param Table 
+
 [in]
 Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
-
 ## -returns
 
-
-
-<b>RtlNumberGenericTableElements</b> returns the number of elements that are currently stored in the table. 
-
-
-
+<b>RtlNumberGenericTableElements</b> returns the number of elements that are currently stored in the table.
 
 ## -remarks
-
-
 
 Callers of the <i>Rtl..GenericTable</i> routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
@@ -83,20 +71,11 @@ If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic t
 
 Callers of <b>RtlNumberGenericTableElements</b> must be running at IRQL < DISPATCH_LEVEL if the caller-allocated memory for the generic table is pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisgenerictableempty">RtlIsGenericTableEmpty</a>
- 
-
- 
 

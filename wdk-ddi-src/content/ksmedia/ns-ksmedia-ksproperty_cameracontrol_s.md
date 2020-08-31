@@ -8,9 +8,6 @@ ms.assetid: 203c6452-26d4-4dbf-89d4-c7e6d47e7c16
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_S structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S, PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S, ksmedia/PKSPROPERTY_CAMERACONTROL_S, stream.ksproperty_cameracontrol_s, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_CAMERACONTROL_S"
- - "KSPROPERTY_CAMERACONTROL_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_CAMERACONTROL_S
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S
+f1_keywords:
+ - PKSPROPERTY_CAMERACONTROL_S
+ - ksmedia/PKSPROPERTY_CAMERACONTROL_S
+ - KSPROPERTY_CAMERACONTROL_S
+ - ksmedia/KSPROPERTY_CAMERACONTROL_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_CAMERACONTROL_S
 ---
 
 # KSPROPERTY_CAMERACONTROL_S structure
@@ -46,24 +48,17 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S
 
 ## -description
 
-
 The KSPROPERTY_CAMERACONTROL_S structure describes filter-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
-
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field Value
 
 Specifies the value of the property. This member is read/write.
-
 
 ### -field Flags
 
@@ -115,8 +110,6 @@ Indicates that the setting is in relative values.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Capabilities
 
@@ -168,13 +161,8 @@ Indicates that the device settings are in relative values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
@@ -185,7 +173,4 @@ Indicates that the device settings are in relative values.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a>
- 
-
- 
 

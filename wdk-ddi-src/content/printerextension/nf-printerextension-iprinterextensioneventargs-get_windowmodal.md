@@ -8,9 +8,6 @@ ms.assetid: 606FF5E7-CCC1-4227-8917-F5DF3ECB31A6
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs::get_WindowModal"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowModal property, IPrinterExtensionEventArgs.WindowModal, IPrinterExtensionEventArgs.get_WindowModal, IPrinterExtensionEventArgs::WindowModal, IPrinterExtensionEventArgs::get_WindowModal, WindowModal property [Print Devices], WindowModal property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowModal, print.iprinterextensioneventargs_windowmodal, printerextension/IPrinterExtensionEventArgs::WindowModal, printerextension/IPrinterExtensionEventArgs::get_WindowModal
-f1_keywords:
- - "printerextension/IPrinterExtensionEventArgs.WindowModal"
- - "IPrinterExtensionEventArgs.WindowModal"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionEventArgs.WindowModal
-- IPrinterExtensionEventArgs.get_WindowModal
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEventArgs::get_WindowModal
+ - printerextension/IPrinterExtensionEventArgs::get_WindowModal
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionEventArgs.WindowModal
+ - IPrinterExtensionEventArgs.get_WindowModal
 ---
 
 # IPrinterExtensionEventArgs::get_WindowModal
@@ -47,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the run mode parameter that determines whether or not the printer extension should be run as modal.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: B1DC847C-B596-452D-B96E-3B78C6F995B2
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_PRESHUTDOWN_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_SET_PRESHUTDOWN_STATE, NDIS_WWAN_SET_PRESHUTDOWN_STATE, NDIS_WWAN_SET_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PRESHUTDOWN_STATE, PNDIS_WWAN_SET_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PRESHUTDOWN_STATE, ndiswwan/NDIS_WWAN_SET_PRESHUTDOWN_STATE, ndiswwan/PNDIS_WWAN_SET_PRESHUTDOWN_STATE, netvista.ndis_wwan_set_preshutdown_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_PRESHUTDOWN_STATE"
- - "NDIS_WWAN_SET_PRESHUTDOWN_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_PRESHUTDOWN_STATE
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_PRESHUTDOWN_STATE, *PNDIS_WWAN_SET_PRESHUTDOWN_STATE
+f1_keywords:
+ - _NDIS_WWAN_SET_PRESHUTDOWN_STATE
+ - ndiswwan/_NDIS_WWAN_SET_PRESHUTDOWN_STATE
+ - PNDIS_WWAN_SET_PRESHUTDOWN_STATE
+ - ndiswwan/PNDIS_WWAN_SET_PRESHUTDOWN_STATE
+ - NDIS_WWAN_SET_PRESHUTDOWN_STATE
+ - ndiswwan/NDIS_WWAN_SET_PRESHUTDOWN_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_PRESHUTDOWN_STATE
 ---
 
 # _NDIS_WWAN_SET_PRESHUTDOWN_STATE structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_SET_PRESHUTDOWN_STATE, *PNDIS_WWAN_SET_PRESHUTDOWN_STAT
 
 ## -description
 
-
 The NDIS_WWAN_SET_PRESHUTDOWN_STATE structure represents the command to notify the modem to finish all operations and prepare to shut down.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -101,14 +100,7 @@ sizeof(NDIS_WWAN_SET_PRESHUTDOWN_STATE)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>
- 
-
- 
 

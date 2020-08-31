@@ -8,9 +8,6 @@ ms.assetid: b62db582-381a-457f-9755-d8667c7561af
 ms.date: 04/30/2018
 keywords: ["PoSetSystemState function"]
 ms.keywords: PoSetSystemState, PoSetSystemState routine [Kernel-Mode Driver Architecture], kernel.posetsystemstate, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml, wdm/PoSetSystemState
-f1_keywords:
- - "wdm/PoSetSystemState"
- - "PoSetSystemState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoSetSystemState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoSetSystemState
+ - wdm/PoSetSystemState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoSetSystemState
 ---
 
 # PoSetSystemState function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 Drivers call the <b>PoSetSystemState</b> routine to indicate that the system is active.
-
 
 ## -parameters
 
-
-
-
 ### -param Flags 
+
 [in]
 Indicates the system activity, as specified by a bitwise OR of one or more of the following values:
 
@@ -79,31 +75,19 @@ Use of the display is required.
 
 A user is present.
 
-
 ## -remarks
-
-
 
 A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
 
 The <i>Flags</i> parameter specifies the type of activity occurring. Drivers can specify any combination of the flags.
 
-Drivers can set the system busy state to request that the system avoid leaving of the working state while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> may override this request and put the system to sleep anyway. 
-
-
-
+Drivers can set the system busy state to request that the system avoid leaving of the working state while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> may override this request and put the system to sleep anyway.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>
- 
-
- 
 

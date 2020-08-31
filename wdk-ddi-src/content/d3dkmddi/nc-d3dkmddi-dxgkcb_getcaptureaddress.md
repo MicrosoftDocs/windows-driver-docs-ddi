@@ -7,9 +7,6 @@ ms.assetid: f87a5a5f-20d3-48cb-93f0-114eafe7238b
 ms.date: 05/10/2018
 keywords: ["DXGKCB_GETCAPTUREADDRESS callback function"]
 ms.keywords: DXGKCB_GETCAPTUREADDRESS, DXGKCB_GETCAPTUREADDRESS callback, DpFunctions_a8e4882c-a196-4cdf-826f-fa4cf44ba8f8.xml, DxgkCbGetCaptureAddress, DxgkCbGetCaptureAddress callback function [Display Devices], d3dkmddi/DxgkCbGetCaptureAddress, display.dxgkcbgetcaptureaddress
-f1_keywords:
- - "d3dkmddi/DxgkCbGetCaptureAddress"
- - "DxgkCbGetCaptureAddress"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkCbGetCaptureAddress
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKCB_GETCAPTUREADDRESS
+ - d3dkmddi/DXGKCB_GETCAPTUREADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkCbGetCaptureAddress
 ---
 
 # DXGKCB_GETCAPTUREADDRESS callback function
@@ -46,12 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and segment identifier of a capture buffer that is associated with the given allocation handle.
 
-
 ## -parameters
-
 
 ### -param 
 
@@ -59,10 +56,7 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 
 [in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_getcaptureaddress">DXGKARGCB_GETCAPTUREADDRESS</a> structure that describes parameters for retrieving information about a capture buffer.
 
-
 ## -returns
-
-
 
 <b>DxgkCbGetCaptureAddress</b> returns one of the following values:
 
@@ -75,16 +69,7 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 
 <i>DxgkCbGetCaptureAddress</i> might also return other error codes that are defined in Ntstatus.h.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_getcaptureaddress">DXGKARGCB_GETCAPTUREADDRESS</a>
- 
-
- 
 

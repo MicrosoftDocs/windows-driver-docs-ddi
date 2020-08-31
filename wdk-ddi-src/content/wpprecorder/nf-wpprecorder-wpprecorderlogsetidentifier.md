@@ -8,9 +8,6 @@ ms.assetid: E2687B3C-2BCF-4764-99E0-4495296F14C4
 ms.date: 02/23/2018
 keywords: ["WppRecorderLogSetIdentifier macro"]
 ms.keywords: WppRecorderLogSetIdentifier, devtest.wpprecorderlogsetidentifier, imp_WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], wpprecorder/imp_WppRecorderLogSetIdentifier
-f1_keywords:
- - "wpprecorder/imp_WppRecorderLogSetIdentifier"
- - "imp_WppRecorderLogSetIdentifier"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wpprecorder.h
-api_name:
-- imp_WppRecorderLogSetIdentifier
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WppRecorderLogSetIdentifier
+ - wpprecorder/WppRecorderLogSetIdentifier
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wpprecorder.h
+api_name:
+ - imp_WppRecorderLogSetIdentifier
 ---
 
 # WppRecorderLogSetIdentifier macro
@@ -46,30 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> method sets a string identifier for the recorder log.
 
-
 ## -parameters
-
-
-
 
 ### -param RecorderLog
 
 A recorder log handle returned in a previous call to WppRecorderLogCreate.
 
-
 ### -param LogIdentifier
 
 A string identifier to set.
 
-
 ## -remarks
 
-
-
 Do not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> on the default log handle returned by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn895240(v=vs.85)">WppRecorderLogGetDefault</a>.
-
-
 

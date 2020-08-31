@@ -8,9 +8,6 @@ ms.assetid: 3a086a7e-22e3-4d60-9f10-4db442fcc6f9
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetSignedLargeIntegerValue"]
 ms.keywords: GetSignedLargeIntegerValue, GetSignedLargeIntegerValue method, GetSignedLargeIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetSignedLargeIntegerValue method, IPortableDeviceValues.GetSignedLargeIntegerValue, IPortableDeviceValues::GetSignedLargeIntegerValue, IPortableDeviceValuesGetSignedLargeIntegerValue, portabledevicetypes/IPortableDeviceValues::GetSignedLargeIntegerValue, wpddk.iportabledevicevalues_getsignedlargeintegervalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetSignedLargeIntegerValue"
- - "IPortableDeviceValues.GetSignedLargeIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetSignedLargeIntegerValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetSignedLargeIntegerValue
+ - portabledevicetypes/IPortableDeviceValues::GetSignedLargeIntegerValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetSignedLargeIntegerValue
 ---
 
 # IPortableDeviceValues::GetSignedLargeIntegerValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves a <b>LONGLONG</b> value (type VT_I8) that is specified by a key.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param key 
+
 [in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-
 ### -param pValue 
+
 [out]
 Pointer to the retrieved <b>ULONG</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,31 +104,16 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setsignedlargeintegervalue">IPortableDeviceValues::SetSignedLargeIntegerValue</a>
- 
-
- 
 

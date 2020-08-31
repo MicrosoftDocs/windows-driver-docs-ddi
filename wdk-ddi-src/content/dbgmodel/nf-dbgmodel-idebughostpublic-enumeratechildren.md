@@ -1,63 +1,67 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.EnumerateChildren
 title: IDebugHostPublic::EnumerateChildren (dbgmodel.h)
-description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol. 
+description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol.
 ms.assetid: b4da5b7d-1ad1-4472-9eb5-516c382ab388
 ms.date: 09/21/2018
 keywords: ["IDebugHostPublic::EnumerateChildren"]
-f1_keywords:
- - "dbgmodel/IDebugHostPublic.EnumerateChildren"
- - "IDebugHostPublic.EnumerateChildren"
 ms.keywords: IDebugHostPublic::EnumerateChildren, EnumerateChildren, IDebugHostPublic.EnumerateChildren, IDebugHostPublic::EnumerateChildren, IDebugHostPublic.EnumerateChildren
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostPublic.EnumerateChildren
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostPublic::EnumerateChildren
+ - dbgmodel/IDebugHostPublic::EnumerateChildren
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostPublic.EnumerateChildren
 ---
 
 # IDebugHostPublic::EnumerateChildren
 
 
 ## -description
-The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol. For a C++ type, for example, the base classes, fields, member functions, and the like are all considered children of the type symbol. 
+
+The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol. For a C++ type, for example, the base classes, fields, member functions, and the like are all considered children of the type symbol.
 
 ## -parameters
 
 ### -param kind
+
 Indicates what kinds of child symbols the caller wishes to enumerate. If the flat value Symbol is passed, all kinds of child symbols will be enumerated.
 
 ### -param name
+
 If specified, only child symbols with a name as given in this argument will be enumerated.
 
 ### -param ppEnum
+
 An enumerator which enumerates child symbols of the specified kind and name will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -95,3 +99,4 @@ if (SUCCEEDED(spType->EnumerateChildren(SymbolField, nullptr, &spEnum)))
 ## -see-also
 
 [IDebugHostPublic interface](nn-dbgmodel-idebughostpublic.md)
+

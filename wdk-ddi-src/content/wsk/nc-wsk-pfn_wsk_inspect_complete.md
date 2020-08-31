@@ -8,9 +8,6 @@ ms.assetid: 31846ec9-0a4b-4e1f-9c14-c1b139f39c55
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_INSPECT_COMPLETE callback function"]
 ms.keywords: PFN_WSK_INSPECT_COMPLETE, PFN_WSK_INSPECT_COMPLETE callback, WskInspectComplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectcomplete, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
-f1_keywords:
- - "wsk/WskInspectComplete"
- - "WskInspectComplete"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskInspectComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_INSPECT_COMPLETE
+ - wsk/PFN_WSK_INSPECT_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskInspectComplete
 ---
 
 # PFN_WSK_INSPECT_COMPLETE callback function
@@ -46,51 +46,44 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskInspectComplete</b> function completes the inspection of a previously pended incoming connection
   request that was received on a listening socket that has conditional accept mode enabled.
 
-
 ## -parameters
 
-
-
-
 ### -param ListenSocket 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure. This pointer specifies the
      listening socket on which the WSK application received the incoming connection request that it is
      inspecting.
 
-
 ### -param InspectID 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a> structure. The contents of
      the structure identify the specific connection request that the WSK application is inspecting.
 
-
 ### -param Action 
+
 [in]
 A value that specifies whether the WSK application accepts or rejects the incoming connection
      request. A WSK application must specify either 
      <b>WskInspectAccept</b> or 
      <b>WskInspectReject</b> for this parameter.
 
-
 ### -param Irp 
+
 [in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the resume operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskInspectComplete</b> returns one of the following NTSTATUS codes:
 
@@ -151,14 +144,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK application calls the 
     <b>WskInspectComplete</b> function to complete the inspection of an incoming connection request for which
@@ -214,13 +201,7 @@ If the WSK application calls the
     <b>WskInspectAccept</b> in the 
     <i>Action</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-conditional-accept">SO_CONDITIONAL_ACCEPT</a>
 
@@ -251,7 +232,4 @@ If the WSK application calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
- 
-
- 
 

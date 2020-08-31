@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnSubmitCommandCb"
- - "pfnSubmitCommandCb"
+ - PFND3DDDI_SUBMITCOMMANDCB
+ - d3dumddi/PFND3DDDI_SUBMITCOMMANDCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SUBMITCOMMANDCB callback function
+
 
 ## -description
 

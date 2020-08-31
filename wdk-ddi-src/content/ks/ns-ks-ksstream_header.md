@@ -8,9 +8,6 @@ ms.assetid: c1057dcf-2988-460d-b006-f6cf16ec969e
 ms.date: 04/23/2018
 keywords: ["KSSTREAM_HEADER structure"]
 ms.keywords: "*PKSSTREAM_HEADER, KSSTREAM_HEADER, KSSTREAM_HEADER structure [Streaming Media Devices], PKSSTREAM_HEADER, PKSSTREAM_HEADER structure pointer [Streaming Media Devices], ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, ks/KSSTREAM_HEADER, ks/PKSSTREAM_HEADER, stream.ksstream_header"
-f1_keywords:
- - "ks/KSSTREAM_HEADER"
- - "KSSTREAM_HEADER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSSTREAM_HEADER
 targetos: Windows
 req.typenames: KSSTREAM_HEADER, *PKSSTREAM_HEADER
 ms.custom: 19H1
+f1_keywords:
+ - PKSSTREAM_HEADER
+ - ks/PKSSTREAM_HEADER
+ - KSSTREAM_HEADER
+ - ks/KSSTREAM_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSSTREAM_HEADER
 ---
 
 # KSSTREAM_HEADER structure
+
 
 ## -description
 
@@ -131,3 +134,4 @@ If you are using the [IKsReferenceClock](https://docs.microsoft.com/windows-hard
 ## -see-also
 
 [KSDATAFORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat)
+

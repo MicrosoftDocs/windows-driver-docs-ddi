@@ -8,9 +8,6 @@ ms.assetid: 3a216c35-f6b7-483f-a330-d0a66edb9205
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerPageable function"]
 ms.keywords: DFDeviceObjectGeneralRef_704347eb-35c6-4735-bd2a-e6a988ff2896.xml, WdfDeviceInitSetPowerPageable, WdfDeviceInitSetPowerPageable method, kmdf.wdfdeviceinitsetpowerpageable, wdf.wdfdeviceinitsetpowerpageable, wdfdevice/WdfDeviceInitSetPowerPageable
-f1_keywords:
- - "wdfdevice/WdfDeviceInitSetPowerPageable"
- - "WdfDeviceInitSetPowerPageable"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitSetPowerPageable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitSetPowerPageable
+ - wdfdevice/WdfDeviceInitSetPowerPageable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitSetPowerPageable
 ---
 
 # WdfDeviceInitSetPowerPageable function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDeviceInitSetPowerPageable</b> method informs the power manager that the driver must be able to access <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">pageable</a> data while the system is transitioning between a sleeping state and the working (S0) state. 
-
+The <b>WdfDeviceInitSetPowerPageable</b> method informs the power manager that the driver must be able to access <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">pageable</a> data while the system is transitioning between a sleeping state and the working (S0) state.
 
 ## -parameters
 
-
-
-
 ### -param DeviceInit 
+
 [in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-
 ## -remarks
-
-
 
 If your function driver or bus driver calls <b>WdfDeviceInitSetPowerPageable</b>, the system ensures that the paging file's device is in its working (D0) state when your driver's device <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/a-device-enters-a-low-power-state">enters a low-power state</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/a-device-returns-to-its-working-state">returns to its working state</a>. This allows your driver to access files, the registry, and paged pool during your device's power transitions. 
 
@@ -90,15 +83,7 @@ The following code example informs the power manager that a driver must be able 
 WdfDeviceInitSetPowerPageable(DeviceInit);
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetpowernotpageable">WdfDeviceInitSetPowerNotPageable</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 76945A84-A6DB-4753-B04E-32249359B8C6
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_RX_FLUSH callback function"]
 ms.keywords: MINIPORT_WDI_RX_FLUSH, MINIPORT_WDI_RX_FLUSH callback, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
-f1_keywords:
- - "dot11wdi/MiniportWdiRxFlush"
- - "MiniportWdiRxFlush"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiRxFlush
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_RX_FLUSH
+ - dot11wdi/MINIPORT_WDI_RX_FLUSH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiRxFlush
 ---
 
 # MINIPORT_WDI_RX_FLUSH callback function
 
 
 ## -description
-
 
 The 
   MiniportWdiRxFlush handler function is issued after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_rx_stop">MiniportWdiRxStop</a> operation is completed. Upon receiving the flush request, the target/RxEngine must  discard all unindicated frames on the port/adapter before indicating <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_rx_flush_confirm">RxFlushConfirm</a>.
@@ -56,23 +55,17 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 ## -parameters
 
-
-
-
 ### -param MiniportTalTxRxContext 
+
 [in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-
 ### -param PortId 
+
 [in]
 The port ID.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_wdi_data_handlers">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
@@ -87,7 +80,4 @@ The port ID.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
- 
-
- 
 

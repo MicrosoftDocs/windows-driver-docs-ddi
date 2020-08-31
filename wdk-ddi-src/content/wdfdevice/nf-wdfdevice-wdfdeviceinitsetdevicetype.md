@@ -8,9 +8,6 @@ ms.assetid: 26c5c998-fb10-45c3-b28c-91a759fa941e
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetDeviceType function"]
 ms.keywords: DFDeviceObjectGeneralRef_872eb4dd-0d40-46ed-a7ed-4eae8ec67240.xml, WdfDeviceInitSetDeviceType, WdfDeviceInitSetDeviceType method, kmdf.wdfdeviceinitsetdevicetype, wdf.wdfdeviceinitsetdevicetype, wdfdevice/WdfDeviceInitSetDeviceType
-f1_keywords:
- - "wdfdevice/WdfDeviceInitSetDeviceType"
- - "WdfDeviceInitSetDeviceType"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitSetDeviceType
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitSetDeviceType
+ - wdfdevice/WdfDeviceInitSetDeviceType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitSetDeviceType
 ---
 
 # WdfDeviceInitSetDeviceType function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitSetDeviceType</b> method sets the device type for a specified device.
 
-
 ## -parameters
 
-
-
-
 ### -param DeviceInit 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-
 ### -param DeviceType 
+
 [in]
 A FILE_DEVICE_XXXX value that identifies the device type. For more information about FILE_DEVICE_XXXX values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
-
 ## -remarks
-
-
 
 If a driver calls <b>WdfDeviceInitSetDeviceType</b>, it must do so before it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
@@ -92,5 +85,4 @@ WdfDeviceInitSetDeviceType(
                            FILE_DEVICE_SERIAL_PORT
                            );
 ```
-
 

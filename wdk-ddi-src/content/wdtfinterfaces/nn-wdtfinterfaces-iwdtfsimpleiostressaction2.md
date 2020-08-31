@@ -8,9 +8,6 @@ ms.assetid: dc594873-2347-4ad8-9748-2d5a1fa4d8a7
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOStressAction2 interface"]
 ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOStressAction2, dtf.iwdtfsimpleiostressaction2, wdtfinterfaces/IWDTFSimpleIOStressAction2
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOStressAction2"
- - "IWDTFSimpleIOStressAction2"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOStressAction2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOStressAction2
+ - wdtfinterfaces/IWDTFSimpleIOStressAction2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOStressAction2
 ---
 
 # IWDTFSimpleIOStressAction2 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations for a simple asynchronous I/O functionality test.
-
 
 ## -inheritance
 

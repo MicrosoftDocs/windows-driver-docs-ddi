@@ -20,8 +20,10 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION"
- - "_DXGK_SCHEDULING_LOG_OPERATION"
+ - _DXGK_SCHEDULING_LOG_OPERATION
+ - d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION
+ - DXGK_SCHEDULING_LOG_OPERATION
+ - d3dkmddi/DXGK_SCHEDULING_LOG_OPERATION
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _DXGK_SCHEDULING_LOG_OPERATION enumeration
+
 
 ## -description
 

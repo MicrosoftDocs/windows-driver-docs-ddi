@@ -8,9 +8,6 @@ ms.assetid: 457d0bee-4746-424d-bd22-4e968048bdb9
 ms.date: 05/02/2018
 keywords: ["RILCALLMEDIAAUDIOFLAGS enumeration"]
 ms.keywords: RILCALLMEDIAAUDIOFLAGS, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAAUDIOFLAG_ALL, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, netvista.rilcallmediaaudioflags, ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
-f1_keywords:
- - "rilapitypes/RILCALLMEDIAAUDIOFLAGS"
- - "RILCALLMEDIAAUDIOFLAGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLMEDIAAUDIOFLAGS
 targetos: Windows
 req.typenames: RILCALLMEDIAAUDIOFLAGS
+f1_keywords:
+ - RILCALLMEDIAAUDIOFLAGS
+ - rilapitypes/RILCALLMEDIAAUDIOFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLMEDIAAUDIOFLAGS
 ---
 
 # RILCALLMEDIAAUDIOFLAGS enumeration
@@ -46,20 +46,13 @@ req.typenames: RILCALLMEDIAAUDIOFLAGS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_CALLMEDIAAUDIOFLAG_NONE
 
-
 ### -field RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
-
 
 ### -field RIL_CALLMEDIAAUDIOFLAG_ALL
 

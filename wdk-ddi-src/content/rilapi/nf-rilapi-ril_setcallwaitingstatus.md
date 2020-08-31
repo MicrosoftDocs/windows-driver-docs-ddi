@@ -8,9 +8,6 @@ ms.assetid: e511db5d-3544-45a4-9ed4-72bb3f2572ec
 ms.date: 05/02/2018
 keywords: ["RIL_SetCallWaitingStatus function"]
 ms.keywords: RIL_SetCallWaitingStatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallwaitingstatus, rilapi/RIL_SetCallWaitingStatus
-f1_keywords:
- - "rilapi/RIL_SetCallWaitingStatus"
- - "RIL_SetCallWaitingStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SetCallWaitingStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SetCallWaitingStatus
+ - rilapi/RIL_SetCallWaitingStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SetCallWaitingStatus
 ---
 
 # RIL_SetCallWaitingStatus function
@@ -46,40 +46,23 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param fAllClasses
 
-
 ### -param dwInfoClasses
-
 
 ### -param dwStatus
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

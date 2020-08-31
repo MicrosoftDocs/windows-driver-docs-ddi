@@ -8,9 +8,6 @@ ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.date: 04/20/2018
 keywords: ["MONITORREG structure"]
 ms.keywords: "*PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"
-f1_keywords:
- - "winsplp/MONITORREG"
- - "MONITORREG"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsplp.h
-api_name:
-- MONITORREG
 targetos: Windows
 req.typenames: MONITORREG, *PMONITORREG
+f1_keywords:
+ - _MONITORREG
+ - winsplp/_MONITORREG
+ - PMONITORREG
+ - winsplp/PMONITORREG
+ - MONITORREG
+ - winsplp/MONITORREG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsplp.h
+api_name:
+ - MONITORREG
 ---
 
 # _MONITORREG structure
+
 
 ## -description
 
@@ -125,3 +130,4 @@ Input and output parameters for these spooler functions match the parameters of 
 [InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2)
 
 [MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorinit)
+

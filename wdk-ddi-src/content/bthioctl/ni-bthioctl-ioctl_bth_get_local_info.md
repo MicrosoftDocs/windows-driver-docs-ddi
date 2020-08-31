@@ -8,9 +8,6 @@ ms.assetid: 0eaee91f-c3d1-4715-9d7a-15dc3935eb36
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_GET_LOCAL_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_LOCAL_INFO, IOCTL_BTH_GET_LOCAL_INFO control, IOCTL_BTH_GET_LOCAL_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_local_info, bth_ioctls_930c11ef-ff69-4044-a4ae-6ea3802a5132.xml, bthioctl/IOCTL_BTH_GET_LOCAL_INFO
-f1_keywords:
- - "bthioctl/IOCTL_BTH_GET_LOCAL_INFO"
- - "IOCTL_BTH_GET_LOCAL_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_GET_LOCAL_INFO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_GET_LOCAL_INFO
+ - bthioctl/IOCTL_BTH_GET_LOCAL_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_GET_LOCAL_INFO
 ---
 
 # IOCTL_BTH_GET_LOCAL_INFO IOCTL
@@ -46,18 +46,10 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetooth system and
      radio.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -65,12 +57,10 @@ The
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer for a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
 
-
 ### -input-buffer-length
 
 The length of a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
-
 
 ### -output-buffer
 
@@ -81,30 +71,14 @@ The
       <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure and a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure.
 
-
 ### -output-buffer-length
 
 The length of a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -115,11 +89,7 @@ The
 The 
       <b>Status</b> member of the STATUS_BLOCK structure is always set to STATUS_SUCCESS.
 
-
 ## -see-also
-
-
-
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
@@ -130,7 +100,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a>
- 
-
- 
 

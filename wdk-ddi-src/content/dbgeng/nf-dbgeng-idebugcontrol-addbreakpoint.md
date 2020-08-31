@@ -8,9 +8,6 @@ ms.assetid: 08452b54-158f-4dca-86d8-34cc3f96bc62
 ms.date: 05/03/2018
 keywords: ["IDebugControl::AddBreakpoint"]
 ms.keywords: AddBreakpoint, AddBreakpoint method [Windows Debugging], AddBreakpoint method [Windows Debugging],IDebugControl interface, AddBreakpoint method [Windows Debugging],IDebugControl2 interface, AddBreakpoint method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddBreakpoint method, IDebugControl.AddBreakpoint, IDebugControl2 interface [Windows Debugging],AddBreakpoint method, IDebugControl2::AddBreakpoint, IDebugControl3 interface [Windows Debugging],AddBreakpoint method, IDebugControl3::AddBreakpoint, IDebugControl::AddBreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, dbgeng/IDebugControl2::AddBreakpoint, dbgeng/IDebugControl3::AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, debugger.addbreakpoint
-f1_keywords:
- - "dbgeng/IDebugControl.AddBreakpoint"
- - "IDebugControl.AddBreakpoint"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugControl.AddBreakpoint
-- IDebugControl2.AddBreakpoint
-- IDebugControl3.AddBreakpoint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl::AddBreakpoint
+ - dbgeng/IDebugControl::AddBreakpoint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugControl.AddBreakpoint
+ - IDebugControl2.AddBreakpoint
+ - IDebugControl3.AddBreakpoint
 ---
 
 # IDebugControl::AddBreakpoint
@@ -48,16 +48,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>AddBreakpoint</b>  method creates a new breakpoint for the current target.
-
 
 ## -parameters
 
-
-
-
 ### -param Type 
+
 [in]
 Specifies the breakpoint type of the new breakpoint.  This can be either of the following values:
 
@@ -87,22 +83,18 @@ DEBUG_BREAKPOINT_DATA
 </td>
 </tr>
 </table>
- 
-
 
 ### -param DesiredId 
+
 [in]
 Specifies the desired ID of the new breakpoint.  If it is DEBUG_ANY_ID, the engine will pick an unused ID.
 
-
 ### -param Bp 
+
 [out]
 Receives an interface pointer to the new breakpoint.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -136,12 +128,7 @@ The breakpoint couldn't be created with the desired ID or the value of <i>Type</
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 If <i>DesiredId</i> is not DEBUG_ANY_ID and another breakpoint already uses the ID <i>DesiredId</i>, these methods will fail.
 
@@ -152,12 +139,7 @@ The client is saved as the adder of the new breakpoint. See <a href="https://doc
 <div class="alert"><b>Note</b>    Even though <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a> is called.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>
 
@@ -184,7 +166,4 @@ The client is saved as the adder of the new breakpoint. See <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>
- 
-
- 
 

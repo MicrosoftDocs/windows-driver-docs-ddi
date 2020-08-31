@@ -7,9 +7,6 @@ ms.assetid: b5f8073c-9989-4413-842d-e3e295cc3470
 ms.date: 05/10/2018
 keywords: ["DXGKARG_QUERYVIDPNHWCAPABILITY structure"]
 ms.keywords: "*INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices], DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices], DmStructs_64808a07-769c-4f57-b1c8-84a676f596a3.xml, _DXGKARG_QUERYVIDPNHWCAPABILITY, d3dkmddi/DXGKARG_QUERYVIDPNHWCAPABILITY, display.dxgkarg_queryvidpnhwcapability"
-f1_keywords:
- - "d3dkmddi/DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY"
- - "DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_QUERYVIDPNHWCAPABILITY
+f1_keywords:
+ - _DXGKARG_QUERYVIDPNHWCAPABILITY
+ - d3dkmddi/_DXGKARG_QUERYVIDPNHWCAPABILITY
+ - DXGKARG_QUERYVIDPNHWCAPABILITY
+ - d3dkmddi/DXGKARG_QUERYVIDPNHWCAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY
 ---
 
 # _DXGKARG_QUERYVIDPNHWCAPABILITY structure
@@ -46,38 +48,27 @@ req.typenames: DXGKARG_QUERYVIDPNHWCAPABILITY
 
 ## -description
 
-
 The DXGKARG_QUERYVIDPNHWCAPABILITY structure is used by the display miniport driver to describe the hardware capabilities of a functional VidPN in response to a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryvidpnhwcapability">DxgkDdiQueryVidPnHWCapability</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hFunctionalVidPn
 
 [in] A handle to a functional VidPN object for which the hardware capabilities are being queried.
 
-
 ### -field SourceId
 
 [in] An integer that identifies a video present source on the display adapter.
-
 
 ### -field TargetId
 
 [in] An integer that identifies a video present target on the display adapter.
 
-
 ### -field VidPnHWCaps
 
 [out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_hw_capability">D3DKMDT_VIDPN_HW_CAPABILITY</a> structure that describes the capabilities of the display miniport driver to perform display operations without dedicated GPU hardware support.
 
-
 ## -remarks
-
-
 
 The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types are defined in <i>D3dukmdt.h</i>.
 
@@ -87,13 +78,7 @@ Video present target identifiers are assigned by the display miniport driver. <a
 
 For more information about video present sources and targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/introduction-to-video-present-networks">Introduction to Video Present Networks</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_source">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
 
@@ -124,7 +109,4 @@ For more information about video present sources and targets, see <a href="https
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: f5305351-10b4-47e6-a8b6-e1a91c605ca9
 ms.date: 07/28/2020
 keywords: ["PCW_REGISTRATION_INFORMATION structure"]
 ms.keywords: "*PPCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION structure [Driver Development Tools], PPCW_REGISTRATION_INFORMATION, PPCW_REGISTRATION_INFORMATION structure pointer [Driver Development Tools], _PCW_REGISTRATION_INFORMATION, devtest.pcw_registration_information, km_pcw_a740182f-4844-4a98-9493-522087a3d27c.xml, wdm/PCW_REGISTRATION_INFORMATION, wdm/PPCW_REGISTRATION_INFORMATION"
-f1_keywords:
- - "wdm/PCW_REGISTRATION_INFORMATION"
- - "PCW_REGISTRATION_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PCW_REGISTRATION_INFORMATION
 targetos: Windows
 req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
+f1_keywords:
+ - _PCW_REGISTRATION_INFORMATION
+ - wdm/_PCW_REGISTRATION_INFORMATION
+ - PPCW_REGISTRATION_INFORMATION
+ - wdm/PPCW_REGISTRATION_INFORMATION
+ - PCW_REGISTRATION_INFORMATION
+ - wdm/PCW_REGISTRATION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PCW_REGISTRATION_INFORMATION
 ---
 
 # PCW_REGISTRATION_INFORMATION structure
+
 
 ## -description
 
@@ -157,3 +162,4 @@ The CTRPP-generated InitRegistrationInformation function can optionally verify t
 [PcwRegister function](nf-wdm-pcwregister.md)
 
 [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
+

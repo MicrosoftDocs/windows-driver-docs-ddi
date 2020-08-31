@@ -8,9 +8,6 @@ ms.assetid: BDE62A2B-423E-4656-91CC-5EBDE50C6BB0
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL"]
 ms.keywords: IOCTL_NFCSE_ENUM_ENDPOINTS, IOCTL_NFCSE_ENUM_ENDPOINTS control, IOCTL_NFCSE_ENUM_ENDPOINTS control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_ENUM_ENDPOINTS, nfcsedev/IOCTL_NFCSE_ENUM_ENDPOINTS, nfpdrivers.ioctl_nfcse_enum_endpoints
-f1_keywords:
- - "nfcsedev/IOCTL_NFCSE_ENUM_ENDPOINTS"
- - "IOCTL_NFCSE_ENUM_ENDPOINTS"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- IOCTL_NFCSE_ENUM_ENDPOINTS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFCSE_ENUM_ENDPOINTS
+ - nfcsedev/IOCTL_NFCSE_ENUM_ENDPOINTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - IOCTL_NFCSE_ENUM_ENDPOINTS
 ---
 
 # IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL
@@ -46,59 +46,27 @@ req.typenames:
 
 ## -description
 
-
-
  Returns information regarding the list of all the secure elements attached to the NFC controller. Note that the caller must allocate an output buffer large enough to hold information regarding all the secure elements that were enumerated by the driver i.e. Total number of SEs Enumerated x Size of the SE endpoint info otherwise the driver should return a STATUS_BUFFER_OVERFLOW error code to the client with the NumberOfEndpoints field containing the number of secure elements enumerated. The GUID identifying the secure element which maybe used to refer to a particular secure element.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
 
 None
-
 
 ### -output-buffer
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_list"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -118,12 +86,8 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-
 <td>The buffer supplied was too small to receive the routing table configuration.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following are requirements that the driver must adhere to.
 
@@ -135,7 +99,4 @@ The following are requirements that the driver must adhere to.
 <li>For device host secure element, the driver shall enumerate it as a SE end point only if it supports Host Card Emulation. The GUID used for DH maybe a fixed constant defined by the driver.</li>
 <li>The caller is required to allocate an output buffer large enough to hold the information about all the secure elements that were enumerated by the driver. The buffer must be equal to the total number of SEs enumerated by the driver multiplied by the size of the SE endpoint information. If the appropriate buffer isn’t allocated, the driver returns a STATUS_BUFFER_OVERFLOW error code to the client with the NumberOfEndpoints field that contains the number of secure elements enumerated.</li>
 </ul>
-
-
-
 

@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/PFND3DDDI_CREATEHWQUEUECB"
- - "PFND3DDDI_CREATEHWQUEUECB"
+ - PFND3DDDI_CREATEHWQUEUECB
+ - d3dumddi/PFND3DDDI_CREATEHWQUEUECB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATEHWQUEUECB callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.date: 04/30/2018
 keywords: ["ExAllocatePoolWithQuota function"]
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
-f1_keywords:
- - "wdm/ExAllocatePoolWithQuota"
- - "ExAllocatePoolWithQuota"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAllocatePoolWithQuota
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAllocatePoolWithQuota
+ - wdm/ExAllocatePoolWithQuota
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAllocatePoolWithQuota
 ---
 
 # ExAllocatePoolWithQuota function
@@ -46,43 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExAllocatePoolWithQuota</b> routine is <u>obsolete</u>, and is exported only for existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a> instead.
 
 <b>ExAllocatePoolWithQuota</b> allocates pool memory, charging quota against the current process.
 
-
 ## -parameters
 
-
-
-
 ### -param PoolType 
+
 [in]
 Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
 
 You can modify <i>PoolType</i> by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
-
 ### -param NumberOfBytes 
+
 [in]
 Specifies the number of bytes to allocate.
 
-
 ## -returns
-
-
 
 <b>ExAllocatePoolWithQuota</b> returns a pointer to the allocated pool.
 
 If the request cannot be satisfied, <b>ExAllocatePoolWithQuota</b> raises an exception.
 
-
-
-
 ## -remarks
-
-
 
 This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a> instead.
 
@@ -98,13 +86,7 @@ The system automatically sets certain standard event objects when the amount of 
 <div> </div>
 Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL <= DISPATCH_LEVEL. A caller executing at DISPATCH_LEVEL must specify a <b>NonPaged</b><i>Xxx</i> value for <i>PoolType</i>. A caller executing at IRQL <= APC_LEVEL can specify any <b>POOL_TYPE</b> value, but the IRQL and environment must also be considered for determining the pool type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a>
 
@@ -119,7 +101,4 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL <= DISPATCH_
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
- 
-
- 
 

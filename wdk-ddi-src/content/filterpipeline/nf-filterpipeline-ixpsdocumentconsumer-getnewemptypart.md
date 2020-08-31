@@ -8,9 +8,6 @@ ms.assetid: cc0911da-46ca-4cf7-a59e-da0d53e1d10c
 ms.date: 04/20/2018
 keywords: ["IXpsDocumentConsumer::GetNewEmptyPart"]
 ms.keywords: GetNewEmptyPart, GetNewEmptyPart method [Print Devices], GetNewEmptyPart method [Print Devices],IXpsDocumentConsumer interface, IXpsDocumentConsumer interface [Print Devices],GetNewEmptyPart method, IXpsDocumentConsumer.GetNewEmptyPart, IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline_c4770528-f57a-4197-b60b-5b780d5e7752.xml, print.ixpsdocumentconsumer_getnewemptypart
-f1_keywords:
- - "filterpipeline/IXpsDocumentConsumer.GetNewEmptyPart"
- - "IXpsDocumentConsumer.GetNewEmptyPart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IXpsDocumentConsumer.GetNewEmptyPart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsDocumentConsumer::GetNewEmptyPart
+ - filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IXpsDocumentConsumer.GetNewEmptyPart
 ---
 
 # IXpsDocumentConsumer::GetNewEmptyPart
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <code>GetNewEmptyPart</code> method creates a new XPS part.
-
 
 ## -parameters
 
-
-
-
 ### -param uri 
+
 [in]
 The URI for the new part to be created.
 
-
 ### -param riid 
+
 [in]
 A reference identifier (REFIID) for one of the following interfaces: 
 
@@ -110,37 +106,24 @@ A reference identifier (REFIID) for one of the following interfaces:
 </ul>
 
 ### -param ppNewObject 
+
 [out]
 A pointer to the new object to be created.
 
-
 ### -param ppWriteStream 
+
 [out]
 A data stream object that the part will be written to. Each part is associated with a data stream object.
 
-
 ## -returns
-
-
 
 <code>GetNewEmptyPart</code> returns an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> method. Typically, the filter receives XPS parts from the inter-filter object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocument">IFixedDocument</a>
 
@@ -171,7 +154,4 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ixpsdocumentconsumer">IXpsDocumentConsumer</a>
- 
-
- 
 

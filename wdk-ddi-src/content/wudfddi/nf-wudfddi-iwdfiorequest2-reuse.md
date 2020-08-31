@@ -8,9 +8,6 @@ ms.assetid: 21d04633-3b68-4c89-a0b9-81507a1bb6d3
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest2::Reuse"]
 ms.keywords: IWDFIoRequest2 interface,Reuse method, IWDFIoRequest2.Reuse, IWDFIoRequest2::Reuse, Reuse, Reuse method, Reuse method,IWDFIoRequest2 interface, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, umdf.iwdfiorequest2_reuse, wdf.iwdfiorequest2_reuse, wudfddi/IWDFIoRequest2::Reuse
-f1_keywords:
- - "wudfddi/IWDFIoRequest2.Reuse"
- - "IWDFIoRequest2.Reuse"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest2.Reuse
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest2::Reuse
+ - wudfddi/IWDFIoRequest2::Reuse
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest2.Reuse
 ---
 
 # IWDFIoRequest2::Reuse
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Reuse</b> method reinitializes a framework request object so that it can be reused.
 
-
 ## -parameters
 
-
-
-
 ### -param hrNewStatus 
+
 [in]
 An HRESULT-typed status value that the framework assigns to the request.
 
-
 ## -remarks
-
-
 
 If a framework-based driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createrequest">IWDFDevice::CreateRequest</a> to create request objects, the driver can reuse those request objects. Drivers can also reuse request objects that they receive from the framework in their I/O queues.
 
@@ -103,12 +96,7 @@ CMyRemoteDevice::OnCompletion(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a>
 
@@ -119,7 +107,4 @@ CMyRemoteDevice::OnCompletion(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-setcompletioncallback">IWDFIoRequest::SetCompletionCallback</a>
- 
-
- 
 

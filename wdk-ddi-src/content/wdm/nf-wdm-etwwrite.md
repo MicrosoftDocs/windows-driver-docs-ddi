@@ -8,9 +8,6 @@ ms.assetid: b9d4f6da-694d-4737-9cbe-3666e693c0a2
 ms.date: 02/23/2018
 keywords: ["EtwWrite function"]
 ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
-f1_keywords:
- - "wdm/EtwWrite"
- - "EtwWrite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Comments section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- EtwWrite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EtwWrite
+ - wdm/EtwWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - EtwWrite
 ---
 
 # EtwWrite function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>EtwWrite</b> function is a tracing function for publishing events in your kernel-mode driver code. 
-
+The <b>EtwWrite</b> function is a tracing function for publishing events in your kernel-mode driver code.
 
 ## -parameters
 
-
-
-
 ### -param RegHandle 
+
 [in]
 A pointer to the event provider registration handle, which is returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> function if the event provider registration is successful.
 
-
 ### -param EventDescriptor 
-[in]
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure. 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
 ### -param ActivityId 
-[in, optional]
-The identifier that indicates the activity associated with the event. The <i>ActivityID</i> provides a way to group related events and is used in end-to-end tracing. 
 
+[in, optional]
+The identifier that indicates the activity associated with the event. The <i>ActivityID</i> provides a way to group related events and is used in end-to-end tracing.
 
 ### -param UserDataCount 
+
 [in]
 The number of EVENT_DATA_DESCRIPTOR structures in <i>UserData</i>.
 
-
 ### -param UserData 
-[in, optional]
-A pointer to the array of EVENT_DATA_DESCRIPTOR structures. 
 
+[in, optional]
+A pointer to the array of EVENT_DATA_DESCRIPTOR structures.
 
 ## -returns
-
-
 
 If the event was successfully published, <b>EtwWrite</b> returns STATUS_SUCCESS.
 
@@ -153,11 +146,7 @@ Events can be lost for several reasons; for example, if the event rate is too hi
 </tr>
 </table></span></div>
 
-
-
 ## -remarks
-
-
 
 The <b>EtwWrite</b> function is the kernel-mode equivalent of the user-mode <b>EventWrite</b> function. To ensure that there is a consumer for the event you are publishing, you can precede the call to <b>EtwWrite</b> with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>. 
 
@@ -167,13 +156,7 @@ If you are using the optional <i>UserData</i> parameter in the <b>EtwWrite</b> f
 
 You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>, <b>EtwWriteString</b>, <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory.  Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
 
@@ -204,7 +187,4 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
- 
-
- 
 

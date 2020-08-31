@@ -8,9 +8,6 @@ ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
 ms.date: 05/10/2018
 keywords: ["DXVA_VideoSample2 structure"]
 ms.keywords: "*LPDXVA_VideoSample2, DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], _DXVA_VideoSample2, display.dxva_videosample2, dxva/DXVA_VideoSample2, dxva/LPDXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml"
-f1_keywords:
- - "dxva/DXVA_VideoSample2"
- - "DXVA_VideoSample2"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_VideoSample2
 targetos: Windows
 req.typenames: DXVA_VideoSample2, *LPDXVA_VideoSample2
+f1_keywords:
+ - _DXVA_VideoSample2
+ - dxva/_DXVA_VideoSample2
+ - LPDXVA_VideoSample2
+ - dxva/LPDXVA_VideoSample2
+ - DXVA_VideoSample2
+ - dxva/DXVA_VideoSample2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_VideoSample2
 ---
 
 # _DXVA_VideoSample2 structure
@@ -46,14 +50,9 @@ req.typenames: DXVA_VideoSample2, *LPDXVA_VideoSample2
 
 ## -description
 
-
 The DXVA_VideoSample2 structure is sent by the renderer to the driver to specify the format of a video sample.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
@@ -61,57 +60,45 @@ The DXVA_VideoSample2 structure is sent by the renderer to the driver to specify
 
 Indicates the size of this structure.
 
-
 ### -field Reserved
 
 <b>Only compiles for a 64-bit version of the operating system.</b>
 
 Reserved.
 
-
 ### -field rtStart
 
 Specifies the start time of the sample.
-
 
 ### -field rtEnd
 
 Specifies the end time of the sample.
 
-
 ### -field SampleFormat
 
-Specifies the format of the sample as defined by values of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a> enumeration type. 
-
+Specifies the format of the sample as defined by values of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a> enumeration type.
 
 ### -field SampleFlags
 
 Specifies a collection of flags that indicate changes in the current sample frame from the previous sample frame. This member is a bitwise-OR of one or more of the flags in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_sampleflags">DXVA_SampleFlags</a> enumeration type.
 
-
 ### -field lpDDSSrcSurface
 
 Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the sample.
-
 
 ### -field rcSrc
 
 Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer and its position on the source surface.
 
-
 ### -field rcDst
 
 Specifies a RECT structure that describes the upper-left and lower-right points of a rectangle on the destination surface. These points define the area in which the bit-block transfer should occur and its position on the destination surface.
-
 
 ### -field Palette
 
 Specifies an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_ayuvsample2">DXVA_AYUVsample2</a> structures that represent a complete 16-color palette for palletized video substream pixel formats. The driver uses this palette to composite the substream sample. For nonpalletized pixel formats, the palette is zero and can be ignored.
 
-
 ## -remarks
-
-
 
 For video substream samples, the <b>rtStart</b> and <b>rtEnd</b> members are set to 0. 
 
@@ -121,13 +108,7 @@ The <b>SampleFlags</b> member contains a collection of flags that indicate chang
 
 For information about how input samples are arranged in the array in the <b>Source</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacebltex">DXVA_DeinterlaceBltEx</a> structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/input-buffer-order">Input Buffer Order</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
@@ -158,7 +139,4 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

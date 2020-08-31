@@ -8,9 +8,6 @@ ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTypedList::GetTypedNode"]
 ms.keywords: EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList class [Windows Debugging],GetTypedNode method, ExtRemoteTypedList.GetTypedNode, ExtRemoteTypedList::GetTypedNode, GetTypedNode, GetTypedNode method [Windows Debugging], GetTypedNode method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednode
-f1_keywords:
- - "engextcpp/ExtRemoteTypedList.GetTypedNode"
- - "ExtRemoteTypedList.GetTypedNode"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTypedList.GetTypedNode
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTypedList::GetTypedNode
+ - engextcpp/ExtRemoteTypedList::GetTypedNode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTypedList.GetTypedNode
 ---
 
 # ExtRemoteTypedList::GetTypedNode
@@ -46,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetTypedNode</b> method returns the current list item.
-
 
 ## -returns
 
-
-
 <b>GetTypedNode</b> returns a typed data description of the current list item.
-
-
 

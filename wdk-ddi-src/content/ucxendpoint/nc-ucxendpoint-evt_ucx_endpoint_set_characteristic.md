@@ -8,9 +8,6 @@ ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
-f1_keywords:
- - "ucxendpoint/EvtUcxEndpointSetCharacteristic"
- - "EvtUcxEndpointSetCharacteristic"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ucxendpoint.h
-api_name:
-- EvtUcxEndpointSetCharacteristic
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
+ - ucxendpoint/EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ucxendpoint.h
+api_name:
+ - EvtUcxEndpointSetCharacteristic
 ---
 
 # EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function
@@ -46,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
 UCX invokes this callback function to set the priority on an endpoint.
-
 
 ## -parameters
 
-
-
-
 ### -param UcxEndpoint
 
-
 ### -param UcxEndpointCharacteristic 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_characteristic">UCX_ENDPOINT_CHARACTERISTIC</a> structure that contains endpoint characteristics.
 
@@ -67,24 +62,12 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 
-
 ## -remarks
-
-
 
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
- 
-
- 
 

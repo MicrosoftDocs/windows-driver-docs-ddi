@@ -8,9 +8,6 @@ ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.date: 03/29/2018
 keywords: ["StorPortIsCurrentOsInstallationUpgrade function"]
 ms.keywords: StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade, storport/StorPortIsCurrentOsInstallationUpgrade
-f1_keywords:
- - "storport/StorPortIsCurrentOsInstallationUpgrade"
- - "StorPortIsCurrentOsInstallationUpgrade"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortIsCurrentOsInstallationUpgrade
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortIsCurrentOsInstallationUpgrade
+ - storport/StorPortIsCurrentOsInstallationUpgrade
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortIsCurrentOsInstallationUpgrade
 ---
 
 # StorPortIsCurrentOsInstallationUpgrade function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortIsCurrentOsInstallationUpgrade</b>  routine checks if the current installation of Windows is an upgrade from a previous version or not.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param Upgraded 
+
 [out]
 The value pointed to by <i>Upgraded</i> is set to <b>TRUE</b> if the current operating system installation was upgraded from a previous version. Otherwise, it is set to <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The <b>StorPortIsCurrentOsInstallationUpgrade</b> routine returns one of these status codes:
 
@@ -110,7 +103,4 @@ The current IRQL > PASSIVE_LEVEL.
 </td>
 </tr>
 </table>
- 
-
-
 

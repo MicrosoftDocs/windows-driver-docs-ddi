@@ -8,9 +8,6 @@ ms.assetid: 6afc3e8b-0be0-4728-b00f-deea5e60d27e
 ms.date: 04/30/2018
 keywords: ["ZwSetVolumeInformationFile function"]
 ms.keywords: NtSetInformationFile, ZwSetVolumeInformationFile, ZwSetVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_580470b4-9769-4fec-9811-04f703473131.xml, kernel.zwsetvolumeinformationfile, ntifs/NtSetInformationFile, ntifs/ZwSetVolumeInformationFile
-f1_keywords:
- - "ntifs/ZwSetVolumeInformationFile"
- - "ZwSetVolumeInformationFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwSetVolumeInformationFile
-- NtSetInformationFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwSetVolumeInformationFile
+ - ntifs/ZwSetVolumeInformationFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwSetVolumeInformationFile
+ - NtSetInformationFile
 ---
 
 # ZwSetVolumeInformationFile function
@@ -47,36 +47,32 @@ req.typenames:
 
 ## -description
 
-
-The <b>ZwSetVolumeInformationFile</b> routine modifies information about the volume associated with a given file, directory, storage device, or volume. 
-
+The <b>ZwSetVolumeInformationFile</b> routine modifies information about the volume associated with a given file, directory, storage device, or volume.
 
 ## -parameters
 
-
-
-
 ### -param FileHandle 
-[in]
-Handle to a file object for an open file, directory, storage device, or volume whose volume information is to be modified. 
 
+[in]
+Handle to a file object for an open file, directory, storage device, or volume whose volume information is to be modified.
 
 ### -param IoStatusBlock 
-[out]
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. 
 
+[out]
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation.
 
 ### -param FsInformation 
-[in]
-Pointer to a caller-allocated buffer containing the volume information to be modified. The structure of the information in this buffer depends on the value of <i>FsInformationClass</i>, as shown in the following table. 
 
+[in]
+Pointer to a caller-allocated buffer containing the volume information to be modified. The structure of the information in this buffer depends on the value of <i>FsInformationClass</i>, as shown in the following table.
 
 ### -param Length 
-[in]
-Size in bytes of the buffer pointed to by <i>FsInformation</i>. The caller should set this parameter according to the given <i>FsInformationClass</i>. 
 
+[in]
+Size in bytes of the buffer pointed to by <i>FsInformation</i>. The caller should set this parameter according to the given <i>FsInformationClass</i>.
 
 ### -param FsInformationClass 
+
 [in]
 Type of volume information to be set. One of the following: 
 
@@ -116,12 +112,8 @@ Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-nt
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>ZwSetVolumeInformationFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
@@ -165,14 +157,8 @@ An invalid value was specified for <i>FsInformationClass</i>. This is an error c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To query volume information, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>. 
 
@@ -184,13 +170,7 @@ Minifilters should use <a href="https://docs.microsoft.com/windows-hardware/driv
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a>
 
@@ -221,7 +201,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
- 
-
- 
 

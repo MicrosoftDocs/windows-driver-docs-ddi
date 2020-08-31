@@ -8,9 +8,6 @@ ms.assetid: 1416ad56-548c-4f12-9922-9ab9a7e4fd3a
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_STATUS_EX callback function"]
 ms.keywords: PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
-f1_keywords:
- - "ndis/ProtocolCoStatusEx"
- - "ProtocolCoStatusEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoStatusEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_STATUS_EX
+ - ndis/PROTOCOL_CO_STATUS_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoStatusEx
 ---
 
 # PROTOCOL_CO_STATUS_EX callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoStatusEx</i> function indicates status changes from underlying connection-oriented drivers or
@@ -55,18 +54,16 @@ The
 
 ## -parameters
 
-
-
-
 ### -param ProtocolBindingContext 
+
 [in]
 A handle to a protocol driver-allocated context area. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-
 ### -param ProtocolVcContext 
+
 [in]
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      virtual connection (VC) run-time state information. If the status indication is 
@@ -75,17 +72,14 @@ A handle to a protocol driver-allocated context area in which the protocol drive
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function or from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-
 ### -param StatusIndication 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
 
-
 ## -remarks
-
-
 
 NDIS calls 
     <i>ProtocolCoStatusEx</i> to notify a protocol driver about changes in the status of an underlying CoNDIS
@@ -137,15 +131,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CO_STATUS_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_STATUS_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a>
 
@@ -160,7 +148,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

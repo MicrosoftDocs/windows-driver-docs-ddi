@@ -8,9 +8,6 @@ ms.assetid: 8890bf31-f2c7-48b0-926d-8931893ede86
 ms.date: 05/02/2018
 keywords: ["NdisCmRegisterAddressFamilyEx function"]
 ms.keywords: NdisCmRegisterAddressFamilyEx, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, ndis/NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex
-f1_keywords:
- - "ndis/NdisCmRegisterAddressFamilyEx"
- - "NdisCmRegisterAddressFamilyEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmRegisterAddressFamilyEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmRegisterAddressFamilyEx
+ - ndis/NdisCmRegisterAddressFamilyEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmRegisterAddressFamilyEx
 ---
 
 # NdisCmRegisterAddressFamilyEx function
@@ -47,26 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisCmRegisterAddressFamilyEx</b> function registers an address family (AF) for communication between
   CoNDIS drivers.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisBindingHandle 
+
 [in]
 A handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. This handle
      identifies the binding to associate with the AF.
 
-
 ### -param AddressFamily 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that identifies
@@ -80,10 +76,7 @@ The pointer for
      ProtocolCoAfRegisterNotify</a> functions of all of the clients that are bound to the same CoNDIS
      miniport adapter.
 
-
 ## -returns
-
-
 
 <b>NdisCmRegisterAddressFamilyEx</b> can return any of the following:
 
@@ -152,14 +145,8 @@ The caller's binding is being closed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS stand-alone call managers, which register as NDIS protocol drivers by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
@@ -196,13 +183,7 @@ When a call manager's
     ProtocolCoAfRegisterNotify</a> functions of all of the clients that are bound to the same miniport
     adapter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
 
@@ -226,7 +207,4 @@ When a call manager's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
- 
-
- 
 

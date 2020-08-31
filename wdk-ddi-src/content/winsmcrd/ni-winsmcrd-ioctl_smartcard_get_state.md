@@ -8,9 +8,6 @@ ms.assetid: 18666E48-9505-448E-ABA1-536D365FC49D
 ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_GET_STATE IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_GET_STATE, IOCTL_SMARTCARD_GET_STATE control, IOCTL_SMARTCARD_GET_STATE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_state, winsmcrd/IOCTL_SMARTCARD_GET_STATE
-f1_keywords:
- - "winsmcrd/IOCTL_SMARTCARD_GET_STATE"
- - "IOCTL_SMARTCARD_GET_STATE"
 req.header: winsmcrd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsmcrd.h
-api_name:
-- IOCTL_SMARTCARD_GET_STATE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SMARTCARD_GET_STATE
+ - winsmcrd/IOCTL_SMARTCARD_GET_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsmcrd.h
+api_name:
+ - IOCTL_SMARTCARD_GET_STATE
 ---
 
 # IOCTL_SMARTCARD_GET_STATE IOCTL
@@ -46,29 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SMARTCARD_GET_STATE</b> 
    control code  gets the current status of the smart card.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
@@ -96,35 +83,12 @@ None.
 <td>Card  is present and communication protocols are established.</td>
 </tr>
 </table>
- 
-
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -148,20 +112,12 @@ None.
 <td>This code is returned if the proximity radio control is off.</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
- 
-
- 
 

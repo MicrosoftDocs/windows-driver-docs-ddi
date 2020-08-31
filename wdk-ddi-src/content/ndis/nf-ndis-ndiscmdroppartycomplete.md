@@ -8,9 +8,6 @@ ms.assetid: 5f4743f6-42b7-4cc0-8dd8-16230b30bb8a
 ms.date: 05/02/2018
 keywords: ["NdisCmDropPartyComplete function"]
 ms.keywords: NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, ndis/NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete
-f1_keywords:
- - "ndis/NdisCmDropPartyComplete"
- - "NdisCmDropPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmDropPartyComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmDropPartyComplete
+ - ndis/NdisCmDropPartyComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmDropPartyComplete
 ---
 
 # NdisCmDropPartyComplete function
@@ -47,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmDropPartyComplete</b> returns the final status of a client's request, for which the call manager
   previously returned NDIS_STATUS_PENDING, to remove a party from a multipoint VC.
 
-
 ## -parameters
 
-
-
-
 ### -param Status 
+
 [in]
 Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
      CM-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
-
 ### -param NdisPartyHandle 
+
 [in]
 Specifies the handle to the party that the client requested to be dropped. The call manager
      obtained this handle from the state area designated by 
@@ -72,10 +68,7 @@ Specifies the handle to the party that the client requested to be dropped. The c
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">
      ProtocolCmDropParty</a> function.
 
-
 ## -remarks
-
-
 
 A stand-alone call manager must call 
     <b>NdisCmDropPartyComplete</b> if its 
@@ -100,13 +93,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmDropPartyComplete</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
@@ -121,7 +108,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: e6a01367-981a-4b44-97a8-4cb37f9753fc
 ms.date: 06/19/2019
 keywords: ["HidD_GetFeature function"]
 ms.keywords: HidD_GetFeature, HidD_GetFeature routine [Human Input Devices], hid.hidd_getfeature, hidfunc_2992bcaf-4ca6-4b6f-9a85-d0add8c7fe99.xml, hidsdi/HidD_GetFeature
-f1_keywords:
- - "hidsdi/HidD_GetFeature"
- - "HidD_GetFeature"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Hid.dll
-api_name:
-- HidD_GetFeature
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidD_GetFeature
+ - hidsdi/HidD_GetFeature
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Hid.dll
+api_name:
+ - HidD_GetFeature
 ---
 
 # HidD_GetFeature function
@@ -46,44 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidD_GetFeature</b> routine returns a feature report from a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param HidDeviceObject 
+
 [in]
 Specifies an open handle to a top-level collection.
 
-
 ### -param ReportBuffer 
+
 [out]
 Pointer to a caller-allocated HID report buffer that the caller uses to specify a report ID. <b>HidD_GetFeature</b> uses <i>ReportBuffer</i> to return the specified feature report. 
 
 For more information about this parameter, see the Remarks section.
 
-
 ### -param ReportBufferLength 
+
 [in]
 Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the feature report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
 
-
 ## -returns
-
-
 
 If <b>HidD_GetFeature</b> succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
-
-
-
 ## -remarks
-
-
 
 Before it calls the <b>HidD_GetFeature</b> routine, the caller must do the following:
 
@@ -149,14 +137,7 @@ For more information, see the following topics:
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getinputreport">HidD_GetInputReport</a>
 
@@ -183,7 +164,4 @@ For more information, see the following topics:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report">IOCTL_HID_SET_OUTPUT_REPORT</a>
- 
-
- 
 

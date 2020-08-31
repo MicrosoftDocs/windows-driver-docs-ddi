@@ -8,9 +8,6 @@ ms.assetid: 5423d073-02a5-468b-b91e-713ac67a5253
 ms.date: 05/02/2018
 keywords: ["NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, miniport_structures_ref_42ce6caf-9d6f-47ee-ad20-749b0058c71e.xml, ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, netvista.ndis_miniport_adapter_general_attributes"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES"
- - "NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
 targetos: Windows
 req.typenames: NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+f1_keywords:
+ - _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+ - ndis/_NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+ - ndis/PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+ - NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+ - ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
 ---
 
 # _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER
 
 ## -description
 
-
 An NDIS miniport driver sets up an <b>NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b> structure to define the
   general miniport driver attributes that are associated with a miniport adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -89,11 +88,9 @@ Set the
         <b>Size</b> member to
         <b>NDIS_SIZEOF_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES_REVISION_1</b>.
 
-
 ### -field Flags
 
 Reserved for NDIS.
-
 
 ### -field MediaType
 
@@ -101,43 +98,35 @@ The
      <b>NdisMedium<i>Xxx</i></b> type that the miniport adapter supports. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>.
 
-
 ### -field PhysicalMediumType
 
 The physical medium type for the miniport adapter. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>
-
-
 
 ### -field MtuSize
 
 The maximum transfer unit (MTU) size. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-frame-size">OID_GEN_MAXIMUM_FRAME_SIZE</a>.
 
-
 ### -field MaxXmitLinkSpeed
 
 The maximum transmit link speed of the adapter in bits per second. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a>.
-
 
 ### -field XmitLinkSpeed
 
 The current transmit link speed of the adapter in bits per second. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>.
 
-
 ### -field MaxRcvLinkSpeed
 
 The maximum receive link speed of the adapter in bits per second. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a>.
 
-
 ### -field RcvLinkSpeed
 
 The current receive link speed of the adapter in bits per second. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>.
-
 
 ### -field MediaConnectState
 
@@ -145,18 +134,15 @@ The media connect state for the miniport adapter. For more information, see
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
      OID_GEN_MEDIA_CONNECT_STATUS_EX</a>.
 
-
 ### -field MediaDuplexState
 
 The media duplex state for the miniport adapter. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>.
 
-
 ### -field LookaheadSize
 
 The lookahead size for the miniport adapter. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-lookahead">OID_GEN_CURRENT_LOOKAHEAD</a>.
-
 
 ### -field PowerManagementCapabilities
 
@@ -167,12 +153,10 @@ The Plug and Play (PnP) capabilities of the miniport adapter. For more informati
      <b>PowerManagementCapabilities</b> to <b>NULL</b>. NDIS 6.20 and later drivers must use the 
      <b>PowerManagementCapabilitiesEx</b> member instead.
 
-
 ### -field MacOptions
 
 The MAC options for the miniport adapter. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a>.
-
 
 ### -field SupportedPacketFilters
 
@@ -180,18 +164,15 @@ The packet filter flags for the miniport adapter. For more information, see
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
      OID_GEN_SUPPORTED_PACKET_FILTERS</a>.
 
-
 ### -field MaxMulticastListSize
 
 The multicast address list size for the miniport adapter. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-maximum-list-size">
      OID_802_3_MAXIMUM_LIST_SIZE</a>.
 
-
 ### -field MacAddressLength
 
 The MAC address length, in bytes. The MAC address length is specific to the type of media.
-
 
 ### -field PermanentMacAddress
 
@@ -199,13 +180,11 @@ The permanent MAC address. For example, the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-permanent-address">OID_802_3_PERMANENT_ADDRESS</a> OID
      specifies the permanent MAC address for IEEE 802.3 drivers.
 
-
 ### -field CurrentMacAddress
 
 The current MAC address. For example, the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-current-address">OID_802_3_CURRENT_ADDRESS</a> OID
      specifies the current MAC address for IEEE 802.3 drivers.
-
 
 ### -field RecvScaleCapabilities
 
@@ -215,13 +194,11 @@ The receive side scaling (RSS) capabilities of the NIC. If the miniport adapter 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
      OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>.
 
-
 ### -field AccessType
 
 A 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_access_type">NET_IF_ACCESS_TYPE</a> NDIS network interface
      access type.
-
 
 ### -field DirectionType
 
@@ -229,13 +206,11 @@ A
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
-
 ### -field ConnectionType
 
 A 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_connection_type">NET_IF_CONNECTION_TYPE</a> NDIS network
      interface connection type.
-
 
 ### -field IfType
 
@@ -244,12 +219,10 @@ The Internet Assigned Numbers Authority (IANA) interface type. For example,
      <b>IfType</b> that is assigned to any Ethernet-like interface. For a list if interface types, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-interface-types">NDIS Interface Types</a>.
 
-
 ### -field IfConnectorPresent
 
 A Boolean value that indicates if a connector is present. Set this value to <b>TRUE</b> if there is a
      physical adapter.
-
 
 ### -field SupportedStatistics
 
@@ -391,7 +364,6 @@ The data in the
 The data in the 
        <b>ifHCOutBroadcastOctets</b> member of NDIS_STATISTICS_INFO is valid.
 
-
 ### -field SupportedPauseFunctions
 
 Support for the IEEE 802.3 pause frames as one of the following pause functions:
@@ -433,28 +405,23 @@ Indicates that the adapter and link partner support sending and receiving pause 
 Indicates that pause frame negotiation is in progress. The pause frame support that the link
        partner provides is unknown.
 
-
 ### -field DataBackFillSize
 
 The required data backfill size, in bytes, of the driver.
 
-
 ### -field ContextBackFillSize
 
 The required context backfill size, in bytes, of the driver.
-
 
 ### -field SupportedOidList
 
 A list of OIDs that the miniport driver supports. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-list">OID_GEN_SUPPORTED_LIST</a>.
 
-
 ### -field SupportedOidListLength
 
 The size, in bytes, of the OID list at 
      <b>SupportedOidList</b> .
-
 
 ### -field AutoNegotiationFlags
 
@@ -488,7 +455,6 @@ The adapter has auto-negotiated the duplex state with the link partner.
 
 The adapter has auto-negotiated the pause functions with the link partner.
 
-
 ### -field PowerManagementCapabilitiesEx
 
 A pointer to an 
@@ -496,10 +462,7 @@ A pointer to an
      structure specifies power management capabilities of the miniport adapter. This member is mandatory for
      NDIS 6.20 and later drivers.
 
-
 ## -remarks
-
-
 
 A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure in the 
     <i>MiniportAttributes</i> parameter of the 
@@ -511,15 +474,9 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
     attributes in the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_registration_attributes">
     NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a> structure and before they set any other attributes.
-    Setting these attribute is mandatory. 
-
-
-
+    Setting these attribute is mandatory.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -620,7 +577,4 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-capabilities">OID_PNP_CAPABILITIES</a>
- 
-
- 
 

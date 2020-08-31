@@ -8,9 +8,6 @@ ms.assetid: 73085ca7-a442-4c16-b1e3-6de048e7f1f7
 ms.date: 03/29/2018
 keywords: ["HW_STARTIO callback function"]
 ms.keywords: HW_STARTIO, HwStorStartIo, HwStorStartIo routine [Storage Devices], storage.hwstorstartio, stormini_8f910467-49f3-4f15-919d-84edee8ad053.xml, storport/HwStorStartIo
-f1_keywords:
- - "storport/HwStorStartIo"
- - "HwStorStartIo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorStartIo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_STARTIO
+ - storport/HW_STARTIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorStartIo
 ---
 
 # HW_STARTIO callback function
+
 
 ## -description
 
@@ -136,3 +137,4 @@ The **HW_STARTIO** function type is defined in the Storport.h header file. To mo
 [**STORAGE_REQUEST_BLOCK**](../srb/ns-srb-_storage_request_block.md)
 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
+

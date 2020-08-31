@@ -8,9 +8,6 @@ ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::QuerySimulationSupport"]
 ms.keywords: IPrintCoreUI2 interface [Print Devices],QuerySimulationSupport method, IPrintCoreUI2.QuerySimulationSupport, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::QuerySimulationSupport, print.iprintcoreui2_querysimulationsupport, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.QuerySimulationSupport"
- - "IPrintCoreUI2.QuerySimulationSupport"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.QuerySimulationSupport
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::QuerySimulationSupport
+ - prcomoem/IPrintCoreUI2::QuerySimulationSupport
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.QuerySimulationSupport
 ---
 
 # IPrintCoreUI2::QuerySimulationSupport
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::QuerySimulationSupport</code> method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
-
 
 ## -parameters
 
-
-
-
 ### -param hPrinter 
+
 [in]
 Specifies a handle to the printer.
 
-
 ### -param dwLevel 
+
 [in]
 Specifies the spooler simulation capability structure returned in the buffer pointed to by <i>pCaps</i>. Currently, only level 1 of spooler simulation support is provided.
 
@@ -81,27 +77,23 @@ Specifies the spooler simulation capability structure returned in the buffer poi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pCaps 
+
 [out]
 Pointer to the output buffer, which contains a structure of the type indicated by the value in the <i>dwLevel</i> parameter.
 
-
 ### -param cbSize 
+
 [in]
 Specifies the size, in bytes, of the output buffer, which is pointed to by <i>pCaps</i>.
 
-
 ### -param pcbNeeded 
+
 [out]
 Specifies the size, in bytes, of the memory needed to store a structure of the type indicated by <i>dwLevel</i>.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -159,33 +151,18 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins.
 
 The <code>IPrintCoreUI2::QuerySimulationSupport</code> method stores a spooler simulation capability structure in the buffer pointed to by <i>pCaps</i>. This structure specifies the level of spooler support for "N-up" printing, reverse printing, the maximum number of pages that can be printed, collation, and others.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_simulate_caps_1">SIMULATE_CAPS_1</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnQueryVideoCapabilities"
- - "pfnQueryVideoCapabilities"
+ - PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES
+ - d3d10umddi/PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES callback function
+
 
 ## -description
 

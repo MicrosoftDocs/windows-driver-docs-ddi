@@ -8,9 +8,6 @@ ms.assetid: 779e750a-70c6-41f3-b680-a9fe833014b5
 ms.date: 02/23/2018
 keywords: ["DriverMagneticStripeReaderAuthenticationLevel enumeration"]
 ms.keywords: DriverMagneticStripeReaderAuthenticationLevel, DriverMagneticStripeReaderAuthenticationLevel enumeration, NotSupported, Optional, Required, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/NotSupported, pointofservicecommontypes/Optional, pointofservicecommontypes/Required, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen
-f1_keywords:
- - "pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel"
- - "DriverMagneticStripeReaderAuthenticationLevel"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicecommontypes.h
-api_name:
-- DriverMagneticStripeReaderAuthenticationLevel
 targetos: Windows
 req.typenames: DriverMagneticStripeReaderAuthenticationLevel
+f1_keywords:
+ - DriverMagneticStripeReaderAuthenticationLevel
+ - pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicecommontypes.h
+api_name:
+ - DriverMagneticStripeReaderAuthenticationLevel
 ---
 
 # DriverMagneticStripeReaderAuthenticationLevel enumeration
@@ -46,24 +46,17 @@ req.typenames: DriverMagneticStripeReaderAuthenticationLevel
 
 ## -description
 
-
 This enumeration defines the levels of magnetic stripe reader (MSR) authentication support.
 
-
 ## -enum-fields
-
-
-
 
 ### -field NotSupported
 
 Does not support authentication.
 
-
 ### -field Optional
 
 Supports authentication, but does not require it.
-
 
 ### -field Required
 

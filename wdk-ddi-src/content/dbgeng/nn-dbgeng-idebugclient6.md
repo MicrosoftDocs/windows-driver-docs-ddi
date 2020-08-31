@@ -8,9 +8,6 @@ ms.assetid: 9F8DFF33-DE07-4061-9A9E-3C8172F75EB5
 ms.date: 05/03/2018
 keywords: ["IDebugClient6 interface"]
 ms.keywords: IDebugClient6, IDebugClient6 interface [Windows Debugging], IDebugClient6 interface [Windows Debugging],described, dbgeng/IDebugClient6, debugger.idebugclient6
-f1_keywords:
- - "dbgeng/IDebugClient6"
- - "IDebugClient6"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient6
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient6
+ - dbgeng/IDebugClient6
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient6
 ---
 
 # IDebugClient6 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This interface supports event context callbacks.
-
 
 ## -inheritance
 

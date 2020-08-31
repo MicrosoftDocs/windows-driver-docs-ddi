@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiEscape"
- - "DxgkDdiEscape"
+ - DXGKDDI_ESCAPE
+ - d3dkmddi/DXGKDDI_ESCAPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_ESCAPE callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: D293366B-13FA-438E-BEBD-1F0EAA693400
 ms.date: 02/15/2018
 keywords: ["GNSS_FIXDATA_BASIC structure"]
 ms.keywords: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC structure [Sensor Devices], PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], gnss.gnss_fixdata_basic, gnssdriver/GNSS_FIXDATA_BASIC, gnssdriver/PGNSS_FIXDATA_BASIC"
-f1_keywords:
- - "gnssdriver/GNSS_FIXDATA_BASIC"
- - "GNSS_FIXDATA_BASIC"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_FIXDATA_BASIC
 targetos: Windows
 req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
+f1_keywords:
+ - PGNSS_FIXDATA_BASIC
+ - gnssdriver/PGNSS_FIXDATA_BASIC
+ - GNSS_FIXDATA_BASIC
+ - gnssdriver/GNSS_FIXDATA_BASIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_FIXDATA_BASIC
 ---
 
 # GNSS_FIXDATA_BASIC structure
@@ -46,44 +48,33 @@ req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
 
 ## -description
 
-
 This structure defines basic position information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field Latitude
 
 Latitude value. Valid range is -180.0 to + 180.0. NaN indicates unavailable.
 
-
 ### -field Longitude
 
 Longitude value. Valid range is -90.0 to + 90.0. NaN indicates unavailable.
-
 
 ### -field Altitude
 
 Altitude value in meters (in relation to sea level). NaN indicates unavailable.
 
-
 ### -field Speed
 
 Speed in meters per second. Zero or positive value. NaN indicates unavailable.
-
 
 ### -field Heading
 

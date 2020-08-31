@@ -8,9 +8,6 @@ ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
 ms.date: 04/23/2018
 keywords: ["SerCxRetrieveReceiveMdl function"]
 ms.keywords: 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], serports.sercxretrievereceivemdl
-f1_keywords:
- - "sercx/SerCxRetrieveReceiveMdl"
- - "SerCxRetrieveReceiveMdl"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 1.0\Sercx.h
-api_name:
-- SerCxRetrieveReceiveMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCxRetrieveReceiveMdl
+ - sercx/SerCxRetrieveReceiveMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - SerCxRetrieveReceiveMdl
 ---
 
 # SerCxRetrieveReceiveMdl function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCxRetrieveReceiveMdl</b> method retrieves the MDL that describes the buffer to use to receive the next block of input data.
-
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-
 ### -param Mdl 
+
 [out]
 A pointer to a location into which the method writes a pointer to the MDL.
 
-
 ## -returns
-
-
 
 <b>SerCxRetrieveReceiveMdl</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
 
@@ -94,29 +87,14 @@ This value is returned if one of the following occurs:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The serial controller driver calls this function to obtain an MDL to use for the current receive (read) operation. The MDL describes the buffer memory into which the driver is to transfer the received data. The driver is the exclusive owner of this MDL until it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">SerCxProgressReceive</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
 
 For more information about MDLs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">SerCxProgressReceive</a>
- 
-
- 
 

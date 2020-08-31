@@ -8,9 +8,6 @@ ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
 ms.date: 03/29/2018
 keywords: ["StorPortGetDataInBufferMdl function"]
 ms.keywords: StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], storage.storportgetdatainbuffermdl, storport/StorPortGetDataInBufferMdl
-f1_keywords:
- - "storport/StorPortGetDataInBufferMdl"
- - "StorPortGetDataInBufferMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortGetDataInBufferMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetDataInBufferMdl
+ - storport/StorPortGetDataInBufferMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortGetDataInBufferMdl
 ---
 
 # StorPortGetDataInBufferMdl function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 Returns an MDL associated with the input data buffer  of a SCSI request block (SRB).
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param Srb 
+
 [in]
 The request block to containing the data described by the MDL pointed to by <i>Mdl</i>.
 
-
 ### -param Mdl 
+
 [out]
 A pointer to  an MDL address to receive the MDL for <i>Srb</i>.
 
-
 ## -returns
-
-
 
 A status value indicating the result of the notification. This can be one of these values:
 
@@ -105,22 +98,12 @@ The pointer value in <i>Mdl</i> is NULL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdatainbufferscattergatherlist">StorPortGetDataInBufferScatterGatherList</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdatainbuffersystemaddress">StorPortGetDataInBufferSystemAddress</a>
- 
-
- 
 

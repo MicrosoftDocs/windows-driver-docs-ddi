@@ -8,9 +8,6 @@ ms.assetid: 1A473A08-EA23-4DFE-8B58-EBB4AC977891
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_INTERRUPT_WORKITEM callback function"]
 ms.keywords: EVT_WDF_INTERRUPT_WORKITEM, EVT_WDF_INTERRUPT_WORKITEM callback, EvtInterruptWorkItem, EvtInterruptWorkItem callback function, kmdf.evtinterruptworkitem, wdf.evtinterruptworkitem, wdfinterrupt/EvtInterruptWorkItem
-f1_keywords:
- - "wdfinterrupt/EvtInterruptWorkItem"
- - "EvtInterruptWorkItem"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfinterrupt.h
-api_name:
-- EvtInterruptWorkItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_INTERRUPT_WORKITEM
+ - wdfinterrupt/EVT_WDF_INTERRUPT_WORKITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfinterrupt.h
+api_name:
+ - EvtInterruptWorkItem
 ---
 
 # EVT_WDF_INTERRUPT_WORKITEM callback function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtInterruptWorkItem</i> event callback function processes interrupt information that the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function has stored.
 
-
 ## -parameters
 
-
-
-
 ### -param Interrupt 
+
 [in]
 A handle to a framework interrupt object.
 
-
 ### -param AssociatedObject 
+
 [in]
 A handle to the framework device object that the driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
-
 ## -remarks
-
-
 
 The <i>EvtInterruptWorkItem</i> callback function runs at IRQL = PASSIVE_LEVEL.
 
@@ -98,6 +91,4 @@ If  <b>AutomaticSerialization</b> is set to TRUE, a driver's <i>EvtInterruptWork
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptdisable">WdfInterruptDisable</a>
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptenable">WdfInterruptEnable</a>
 For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
-
-
 

@@ -5,46 +5,57 @@ description: The PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function s
 ms.assetid: cd229812-8237-46b2-9e13-45248a1e65b7
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function"]
-f1_keywords:
- - "d3dkmthk/PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS"
- - "PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3dkmthk.h
-api_name: 
-- PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS
+ - d3dkmthk/PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function
 
+
 ## -description
 
 The PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function sets the scheduling priority for a process.
+
+## -parameters
+
+### -param Arg1: 
+
+### -param Arg2: 
+
+## -returns
+
+Returns NTSTATUS.
 
 ## -prototype
 
@@ -64,21 +75,7 @@ NTSTATUS Pfnd3dkmtSetprocessschedulingpriorityclass
 
 ```
 
-## -parameters
-
-### -param Arg1: 
-### -param Arg2: 
-
-
-
-## -returns
-
-Returns NTSTATUS.
-
-
 ## -remarks
 
-
-
-
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: cd0551fc-c276-45c3-a560-bded300a4535
 ms.date: 04/30/2018
 keywords: ["OB_POST_OPERATION_PARAMETERS structure"]
 ms.keywords: "*POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_PARAMETERS, kernel.ob_post_operation_parameters, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, wdm/OB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS"
-f1_keywords:
- - "wdm/OB_POST_OPERATION_PARAMETERS"
- - "OB_POST_OPERATION_PARAMETERS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- OB_POST_OPERATION_PARAMETERS
 targetos: Windows
 req.typenames: OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS
+f1_keywords:
+ - _OB_POST_OPERATION_PARAMETERS
+ - wdm/_OB_POST_OPERATION_PARAMETERS
+ - POB_POST_OPERATION_PARAMETERS
+ - wdm/POB_POST_OPERATION_PARAMETERS
+ - OB_POST_OPERATION_PARAMETERS
+ - wdm/OB_POST_OPERATION_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - OB_POST_OPERATION_PARAMETERS
 ---
 
 # _OB_POST_OPERATION_PARAMETERS structure
@@ -46,29 +50,19 @@ req.typenames: OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS
 
 ## -description
 
-
 The <b>OB_POST_OPERATION_PARAMETERS</b> union describes the operation-specific parameters for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CreateHandleInformation
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_post_create_handle_information">OB_POST_CREATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being opened.
 
-
 ### -field DuplicateHandleInformation
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_post_duplicate_handle_information">OB_POST_DUPLICATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being duplicated.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_post_create_handle_information">OB_POST_CREATE_HANDLE_INFORMATION</a>
 
@@ -79,7 +73,4 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
- 
-
- 
 

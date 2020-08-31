@@ -8,9 +8,6 @@ ms.assetid: cc0da962-beeb-4035-a68e-e5b856cd5d9b
 ms.date: 05/10/2018
 keywords: ["VideoPortInitialize function"]
 ms.keywords: VideoPortInitialize, VideoPortInitialize function [Display Devices], VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, display.videoportinitialize, video/VideoPortInitialize
-f1_keywords:
- - "video/VideoPortInitialize"
- - "VideoPortInitialize"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortInitialize
+ - video/VideoPortInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortInitialize
 ---
 
 # VideoPortInitialize function
@@ -46,47 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortInitialize</b> function performs part of the miniport driver initialization, allocating system resources for the miniport driver.
 
-
 ## -parameters
-
-
-
 
 ### -param Argument1
 
 A pointer with which the operating system called <a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-video-miniport-driver">DriverEntry of Video Miniport Driver</a>.
 
-
 ### -param Argument2
 
 A second pointer with which the operating system called <b>DriverEntry</b>.
-
 
 ### -param HwInitializationData
 
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a> structure on the stack. The miniport driver's <b>DriverEntry</b> routine zero-initialized this structure and then filled it in with driver-specific configuration information describing a video adapter that the miniport driver can support.
 
-
 ### -param HwContext
 
 Must be <b>NULL</b>.
 
-
 ## -returns
 
-
-
-<b>VideoPortInitialize</b> returns the final status of the initialization operation. 
-
-
-
+<b>VideoPortInitialize</b> returns the final status of the initialization operation.
 
 ## -remarks
-
-
 
 Every video miniport driver must call <b>VideoPortInitialize</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function. <b>DriverEntry</b> can call <b>VideoPortInitialize</b> only after it has first zero-initialized and then set up the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a> structure. <b>VideoPortInitialize</b> can be called only from a miniport driver's <b>DriverEntry</b> function.
 
@@ -118,15 +102,9 @@ Collects and stores pertinent information in the device extension.
 
 </li>
 </ul>
-The miniport driver's <b>DriverEntry</b> routine propagates the value returned by <b>VideoPortInitialize</b> back to its caller. Miniport drivers should not use this return value. 
-
-
-
+The miniport driver's <b>DriverEntry</b> routine propagates the value returned by <b>VideoPortInitialize</b> back to its caller. Miniport drivers should not use this return value.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-video-miniport-driver">DriverEntry of Video Miniport Driver</a>
 
@@ -149,7 +127,4 @@ The miniport driver's <b>DriverEntry</b> routine propagates the value returned b
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
- 
-
- 
 

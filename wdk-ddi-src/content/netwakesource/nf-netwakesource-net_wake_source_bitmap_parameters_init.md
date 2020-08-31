@@ -8,39 +8,39 @@ ms.assetid: 514ad478-31fd-455b-a793-cacec1c241cb
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function"]
-f1_keywords:
- - "netwakesource/NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT"
- - "NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT"
 ms.keywords: NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
 req.header: netwakesource.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- netwakesource.h
-api_name: 
-- NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
+ - netwakesource/NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netwakesource.h
+api_name:
+ - NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
+product:
+ - Windows
 ---
 
 # NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function
@@ -71,3 +71,4 @@ The client driver must only call **NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT** duri
 [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_WAKE_SOURCE_BITMAP_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_bitmap_parameters.md)
+

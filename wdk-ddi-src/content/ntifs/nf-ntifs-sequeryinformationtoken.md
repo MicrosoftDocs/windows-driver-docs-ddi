@@ -8,9 +8,6 @@ ms.assetid: 97e28b53-8b4c-4f76-b6bb-21dad2233463
 ms.date: 04/16/2018
 keywords: ["SeQueryInformationToken function"]
 ms.keywords: SeQueryInformationToken, SeQueryInformationToken routine [Installable File System Drivers], ifsk.sequeryinformationtoken, ntifs/SeQueryInformationToken, seref_80e09bda-ef06-4a25-ab50-d405f5539759.xml
-f1_keywords:
- - "ntifs/SeQueryInformationToken"
- - "SeQueryInformationToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeQueryInformationToken
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeQueryInformationToken
+ - ntifs/SeQueryInformationToken
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeQueryInformationToken
 ---
 
 # SeQueryInformationToken function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
-The <b>SeQueryInformationToken</b> routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information. 
-
+The <b>SeQueryInformationToken</b> routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 
 ## -parameters
 
-
-
-
 ### -param Token 
-[in]
-A pointer to an access token from which information is to be retrieved. If <i>TokenInformationClass</i> is set to <i>TokenSource</i>, the handle must have TOKEN_QUERY_SOURCE access. For all other <i>TokenInformationClass</i> values, the handle must have TOKEN_QUERY access. 
 
+[in]
+A pointer to an access token from which information is to be retrieved. If <i>TokenInformationClass</i> is set to <i>TokenSource</i>, the handle must have TOKEN_QUERY_SOURCE access. For all other <i>TokenInformationClass</i> values, the handle must have TOKEN_QUERY access.
 
 ### -param TokenInformationClass 
-[in]
-A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a> enumerated type that identifies the type of information to be retrieved. 
 
+[in]
+A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a> enumerated type that identifies the type of information to be retrieved.
 
 ### -param TokenInformation 
+
 [out]
 If STATUS_SUCCESS is returned, 
 	  <i>TokenInformation</i> receives a pointer to a 
@@ -205,12 +201,8 @@ The buffer receives a <b>DWORD</b> value (not a pointer to it) that specifies th
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -240,24 +232,12 @@ An invalid value was supplied for <i>TokenInformationClass</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about security and access control, see the documentation about these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceimpersonationtoken">PsDereferenceImpersonationToken</a>
 
@@ -328,7 +308,4 @@ For more information about security and access control, see the documentation ab
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 24102e1f-375e-4bf4-8a43-6527b90c8564
 ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchIncomingCall macro"]
 ms.keywords: NdisMCmDispatchIncomingCall, NdisMCmDispatchIncomingCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1133faf8-d5a6-4800-8738-94b11bc1d51f.xml, ndis/NdisMCmDispatchIncomingCall, netvista.ndismcmdispatchincomingcall
-f1_keywords:
- - "ndis/NdisMCmDispatchIncomingCall"
- - "NdisMCmDispatchIncomingCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmDispatchIncomingCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDispatchIncomingCall
+ - ndis/NdisMCmDispatchIncomingCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmDispatchIncomingCall
 ---
 
 # NdisMCmDispatchIncomingCall macro
@@ -46,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDispatchIncomingCall</b> informs the client of an incoming call on a SAP previously registered by
   that client with the MCM driver.
 
-
 ## -parameters
-
-
-
 
 ### -param _SH_
 
@@ -78,8 +73,6 @@ Pointer to a structure of type
      and media parameters for the VC.
 
 ## -remarks
-
-
 
 Before calling 
     <b>NdisMCmDispatchIncomingCall</b>, an MCM driver has already done the following:
@@ -124,13 +117,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCmDispatchIncomingCall</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -182,7 +169,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>
- 
-
- 
 

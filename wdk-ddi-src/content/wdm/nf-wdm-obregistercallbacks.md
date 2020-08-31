@@ -8,9 +8,6 @@ ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.date: 04/30/2018
 keywords: ["ObRegisterCallbacks function"]
 ms.keywords: ObRegisterCallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, wdm/ObRegisterCallbacks
-f1_keywords:
- - "wdm/ObRegisterCallbacks"
- - "ObRegisterCallbacks"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ObRegisterCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObRegisterCallbacks
+ - wdm/ObRegisterCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ObRegisterCallbacks
 ---
 
 # ObRegisterCallbacks function
@@ -46,29 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ObRegisterCallbacks</b> routine registers a list of callback routines for thread, process, and desktop handle operations.
-
 
 ## -parameters
 
-
-
-
 ### -param CallbackRegistration 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_callback_registration">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
 
-
 ### -param RegistrationHandle 
+
 [out]
-A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obunregistercallbacks">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks. 
-
-
+A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obunregistercallbacks">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks.
 
 ## -returns
-
-
 
 <b>ObRegisterCallbacks</b> returns an NTSTATUS value. This routine might return one of the following values:
 
@@ -133,31 +125,16 @@ An attempt to allocate memory failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A driver must unregister all callback routines before it unloads. You can unregister the callback routine by calling the <b>ObUnRegisterCallbacks</b> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_callback_registration">OB_CALLBACK_REGISTRATION</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obunregistercallbacks">ObUnRegisterCallbacks</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.date: 03/29/2018
 keywords: ["StorPortRequestTimer function"]
 ms.keywords: StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, storport/StorPortRequestTimer
-f1_keywords:
- - "storport/StorPortRequestTimer"
- - "StorPortRequestTimer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortRequestTimer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortRequestTimer
+ - storport/StorPortRequestTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortRequestTimer
 ---
 
 # StorPortRequestTimer function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
 Schedules a callback event for a Storport timer context object.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param TimerHandle 
+
 [in]
 A pointer to an opaque buffer for the timer context returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>.
 
-
 ### -param TimerCallback 
+
 [in]
 A pointer to a timer callback routine supplied by the miniport. The following is the prototype defined for <b>PHW_TIMER_EX</b>:
 
@@ -86,23 +82,21 @@ VOID
 </table></span></div>
 
 ### -param CallbackContext 
+
 [in, optional]
 A pointer to a miniport provided context for the timer callback.
 
-
 ### -param TimerValue 
+
 [in]
 The timeout value for the timer, in microseconds. Setting <i>TimerValue</i> to 0 will cancel the timer.
 
-
 ### -param TolerableDelay 
+
 [in]
 The allowable delay for the timer in microseconds. Values less than 32 microseconds are ignored and <i>TolerableDelay</i> defaults to 0.
 
-
 ## -returns
-
-
 
 The <b>StorPortRequestTimer</b> routine returns one of these status codes:
 
@@ -158,24 +152,12 @@ The timer request was successfully scheduled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the routine is called when IRQL > DISPATCH_LEVEL, the timer's scheduling is deferred until IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_timer">HwStorTimer</a>
 
@@ -190,7 +172,4 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
- 
-
- 
 

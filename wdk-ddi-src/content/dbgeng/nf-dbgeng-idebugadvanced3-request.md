@@ -8,9 +8,6 @@ ms.assetid: efb3c93c-5405-418b-a063-afa8e5e9e59a
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced3::Request"]
 ms.keywords: IDebugAdvanced2 interface [Windows Debugging],Request method, IDebugAdvanced2::Request, IDebugAdvanced3 interface [Windows Debugging],Request method, IDebugAdvanced3.Request, IDebugAdvanced3::Request, IDebugAdvanced_8fbf249e-5550-42c0-b16d-d42aaa4de660.xml, Request, Request method [Windows Debugging], Request method [Windows Debugging],IDebugAdvanced2 interface, Request method [Windows Debugging],IDebugAdvanced3 interface, dbgeng/IDebugAdvanced2::Request, dbgeng/IDebugAdvanced3::Request, debugger.request
-f1_keywords:
- - "dbgeng/IDebugAdvanced2.Request"
- - "IDebugAdvanced2.Request"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugAdvanced2.Request
-- IDebugAdvanced3.Request
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugAdvanced3::Request
+ - dbgeng/IDebugAdvanced3::Request
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugAdvanced2.Request
+ - IDebugAdvanced3.Request
 ---
 
 # IDebugAdvanced3::Request
@@ -47,16 +47,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>Request</b> method performs a variety of different operations.
-
 
 ## -parameters
 
-
-
-
 ### -param Request 
+
 [in]
 Specifies which operation to perform.  <b>Request</b> can be one of the values in the following table.  Details of each operation can be found by following the link in the "Request" column.
 
@@ -222,37 +218,33 @@ Perform a variety of different operations that aid in the interpretation of type
 </td>
 </tr>
 </table>
- 
-
 
 ### -param InBuffer 
+
 [in, optional]
 Specifies the input to this method.  The type and interpretation of the input depends on the <i>Request</i> parameter.
 
-
 ### -param InBufferSize 
+
 [in]
 Specifies the size of the input buffer <i>InBuffer</i>.  If the request requires no input, <i>InBufferSize</i> should be set to zero.
 
-
 ### -param OutBuffer 
+
 [out, optional]
 Receives the output from this method.  The type and interpretation of the output depends on the <i>Request</i> parameter.  If <i>OutBuffer</i> is <b>NULL</b>, the output is not returned.
 
-
 ### -param OutBufferSize 
+
 [in]
 Specifies the size of the output buffer <i>OutBufferSize</i>.  If the type of the output returned to <i>OutBuffer</i> has a known size, <i>OutBufferSize</i> is usually expected to be exactly that size, even if <i>OutBuffer</i> is set to <b>NULL</b>.
 
-
 ### -param OutSize 
+
 [out, optional]
 Receives the size of the output returned in the output buffer <i>OutBuffer</i>.  If <i>OutSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 The interpretation of the return value depends on the value of the <i>Request</i> parameter.  Unless otherwise stated, the following values may be returned.
 
@@ -299,13 +291,7 @@ The size of the input buffer <i>InBufferSize</i> or the size of the output buffe
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-request-get-additional-create-options">DEBUG_REQUEST_GET_ADDITIONAL_CREATE_OPTIONS</a>
 
@@ -360,7 +346,4 @@ This method may also return error values.  See <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
- 
-
- 
 

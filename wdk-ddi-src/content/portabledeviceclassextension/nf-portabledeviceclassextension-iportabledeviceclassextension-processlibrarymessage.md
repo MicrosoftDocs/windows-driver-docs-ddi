@@ -8,9 +8,6 @@ ms.assetid: b9e5f556-de9e-465f-a02f-ff4c1cb414b3
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceClassExtension::ProcessLibraryMessage"]
 ms.keywords: IPortableDeviceClassExtension interface,ProcessLibraryMessage method, IPortableDeviceClassExtension.ProcessLibraryMessage, IPortableDeviceClassExtension::ProcessLibraryMessage, IPortableDeviceClassExtensionProcessLibraryMessage, ProcessLibraryMessage, ProcessLibraryMessage method, ProcessLibraryMessage method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::ProcessLibraryMessage, wpddk.iportabledeviceclassextension_processlibrarymessage
-f1_keywords:
- - "portabledeviceclassextension/IPortableDeviceClassExtension.ProcessLibraryMessage"
- - "IPortableDeviceClassExtension.ProcessLibraryMessage"
 req.header: portabledeviceclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceClassExtension.h
-api_name:
-- IPortableDeviceClassExtension.ProcessLibraryMessage
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceClassExtension::ProcessLibraryMessage
+ - portabledeviceclassextension/IPortableDeviceClassExtension::ProcessLibraryMessage
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceClassExtension.h
+api_name:
+ - IPortableDeviceClassExtension.ProcessLibraryMessage
 ---
 
 # IPortableDeviceClassExtension::ProcessLibraryMessage
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 The ProcessLibraryMessage interface processes class library-specific messages and commands. A WPD driver calls this method whenever it needs to update device information (on its devnode), for example the device friendly name, enable or disable device service Plug and Play (PnP) interfaces, and so on.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pParams 
+
 [in]
 An IPortableDeviceValues object that contains the library-specific command parameters. Supported commands (and associated parameters and results) are WPD_COMMAND_CLASS_EXTENSION_WRITE_DEVICE_INFORMATION, WPD_COMMAND_CLASS_EXTENSION_REGISTER_SERVICE_INTERFACES, and WPD_COMMAND_CLASS_EXTENSION_UNREGISTER_SERVICE_INTERFACES.
 
-
 ### -param pResults 
+
 [out]
 An IPortableDeviceValues object that contains the library-specific command results.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. The possible return values are shown in the following table.
 
@@ -103,27 +93,12 @@ A required pointer argument was <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To be supplied.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledeviceclassextension/nn-portabledeviceclassextension-iportabledeviceclassextension">IPortableDeviceClassExtension Interface</a>
- 
-
- 
 

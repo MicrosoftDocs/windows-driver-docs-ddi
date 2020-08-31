@@ -8,9 +8,6 @@ ms.assetid: 03b445ca-a2af-4d84-bb2e-fea9f5800e20
 ms.date: 05/02/2018
 keywords: ["RIL_AvoidCDMASystem function"]
 ms.keywords: RIL_AvoidCDMASystem, RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista], netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem
-f1_keywords:
- - "rilapi/RIL_AvoidCDMASystem"
- - "RIL_AvoidCDMASystem"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_AvoidCDMASystem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_AvoidCDMASystem
+ - rilapi/RIL_AvoidCDMASystem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_AvoidCDMASystem
 ---
 
 # RIL_AvoidCDMASystem function
@@ -46,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param requestType
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

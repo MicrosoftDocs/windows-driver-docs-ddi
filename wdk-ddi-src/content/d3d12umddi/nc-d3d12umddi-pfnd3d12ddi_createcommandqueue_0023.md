@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnCreateCommandQueue"
- - "pfnCreateCommandQueue"
+ - PFND3D12DDI_CREATECOMMANDQUEUE_0023
+ - d3d12umddi/PFND3D12DDI_CREATECOMMANDQUEUE_0023
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_CREATECOMMANDQUEUE_0023 callback function
+
 
 ## -description
 

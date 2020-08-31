@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAcquirePinnedModeInfo"
- - "pfnAcquirePinnedModeInfo"
+ - DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO
+ - d3dkmddi/DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO callback function
+
 
 ## -description
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiQueryVidPnHWCapability"
- - "DxgkDdiQueryVidPnHWCapability"
+ - DXGKDDI_QUERYVIDPNHWCAPABILITY
+ - d3dkmddi/DXGKDDI_QUERYVIDPNHWCAPABILITY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_QUERYVIDPNHWCAPABILITY callback function
+
 
 ## -description
 

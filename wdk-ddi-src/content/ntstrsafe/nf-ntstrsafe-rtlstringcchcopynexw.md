@@ -8,9 +8,6 @@ ms.assetid: c53672b7-fbe7-45f7-b3ff-30cfeefa7d52
 ms.date: 04/30/2018
 keywords: ["RtlStringCchCopyNExW function"]
 ms.keywords: RtlStringCchCopyNEx, RtlStringCchCopyNExA, RtlStringCchCopyNExW, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopynex, ntstrsafe/RtlStringCchCopyNExA, ntstrsafe/RtlStringCchCopyNExW, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchCopyNExW"
- - "RtlStringCchCopyNExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchCopyNExW
-- RtlStringCchCopyNExA
-- RtlStringCchCopyNExW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchCopyNExW
+ - ntstrsafe/RtlStringCchCopyNExW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchCopyNExW
+ - RtlStringCchCopyNExA
+ - RtlStringCchCopyNExW
 ---
 
 # RtlStringCchCopyNExW function
@@ -49,46 +49,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCchCopyNExW</b> and <b>RtlStringCchCopyNExA</b> functions copy a character-counted string to a buffer while limiting the size of the copied string.
-
 
 ## -parameters
 
-
-
-
 ### -param pszDest 
+
 [out, optional]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param cchDest 
+
 [in]
 The size, in characters, of the destination buffer. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. If <i>pszDest</i> is <b>NULL</b>, <i>cchDest</i> must be zero.
 
-
 ### -param pszSrc 
-[in, optional]
-A pointer to a caller-supplied, null-terminated string. 
 
+[in, optional]
+A pointer to a caller-supplied, null-terminated string.
 
 ### -param cchToCopy
 
 <p>The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.</p>
 
-
 ### -param ppszDestEnd 
-[out, optional]
-If the caller supplies a non-<b>NULL</b> address pointer then, after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
 
+[out, optional]
+If the caller supplies a non-<b>NULL</b> address pointer then, after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator.
 
 ### -param pcchRemaining 
+
 [out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused characters that are in the buffer pointed to by <i>pszDest</i>, including the terminating null character.
 
-
 ### -param dwFlags 
+
 [in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
@@ -148,12 +143,8 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -206,14 +197,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCchCopyNExW</b> and <b>RtlStringCchCopyNExA</b> should be used instead of <b>strncpy</b>. 
 
@@ -268,20 +253,11 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b> unless the STRSAFE_I
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopynexa">RtlStringCbCopyNEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopyna">RtlStringCchCopyN</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 2a9944a4-3885-4e83-b20e-040cffcbf85b
 ms.date: 05/03/2018
 keywords: ["IDebugControl::OutputDisassembly"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputDisassembly method, IDebugControl.OutputDisassembly, IDebugControl2 interface [Windows Debugging],OutputDisassembly method, IDebugControl2::OutputDisassembly, IDebugControl3 interface [Windows Debugging],OutputDisassembly method, IDebugControl3::OutputDisassembly, IDebugControl::OutputDisassembly, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, OutputDisassembly, OutputDisassembly method [Windows Debugging], OutputDisassembly method [Windows Debugging],IDebugControl interface, OutputDisassembly method [Windows Debugging],IDebugControl2 interface, OutputDisassembly method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputDisassembly, dbgeng/IDebugControl3::OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, debugger.outputdisassembly
-f1_keywords:
- - "dbgeng/IDebugControl.OutputDisassembly"
- - "IDebugControl.OutputDisassembly"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.OutputDisassembly
-- IDebugControl2.OutputDisassembly
-- IDebugControl3.OutputDisassembly
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl::OutputDisassembly
+ - dbgeng/IDebugControl::OutputDisassembly
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.OutputDisassembly
+ - IDebugControl2.OutputDisassembly
+ - IDebugControl3.OutputDisassembly
 ---
 
 # IDebugControl::OutputDisassembly
@@ -48,26 +48,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>OutputDisassembly</b> method disassembles a processor instruction and sends the disassembly to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param OutputControl 
+
 [in]
 Specifies the output control that determines which client's output callbacks receive the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
-
 ### -param Offset 
+
 [in]
 Specifies the location in the target's memory of the instruction to disassemble.
 
-
 ### -param Flags 
+
 [in]
 Specifies the bit-flags that affect the behavior of this method.  The following table lists the bits that can be set.
 
@@ -117,17 +113,13 @@ Include the source file name in the output.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EndOffset 
+
 [out]
 Receives the location in the target's memory of the instruction that follows the disassembled instruction.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -148,26 +140,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The assembly language depends on the effective processor type of the target system.  For information about the assembly language, see the processor documentation.
 
 For an overview of using assembly in debugger applications, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-in-assembly-mode">Debugging in Assembly Mode</a>.  For more information about using assembly with the debugger engine API, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/assembling-and-disassembling-instructions">Assembling and Disassembling Instructions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-disassemble">Disassemble</a>
 
@@ -186,7 +166,4 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-outputdisassemblylines">OutputDisassemblyLines</a>
- 
-
- 
 

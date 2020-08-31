@@ -8,9 +8,6 @@ ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
 ms.date: 02/26/2018
 keywords: ["WdfChildListRequestChildEject function"]
 ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject, WdfChildListRequestChildEject method, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, wdfchildlist/WdfChildListRequestChildEject
-f1_keywords:
- - "wdfchildlist/WdfChildListRequestChildEject"
- - "WdfChildListRequestChildEject"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfChildListRequestChildEject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfChildListRequestChildEject
+ - wdfchildlist/WdfChildListRequestChildEject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfChildListRequestChildEject
 ---
 
 # WdfChildListRequestChildEject function
@@ -47,42 +47,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListRequestChildEject</b> method informs the framework that a specified device is about to be ejected from its docking station.
 
-
 ## -parameters
 
-
-
-
 ### -param ChildList 
+
 [in]
 A handle to a child list object.
 
-
 ### -param IdentificationDescription 
+
 [in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
-
 ## -returns
-
-
 
 <b>WdfChildListRequestChildEject</b> returns <b>TRUE</b> if the operation succeeds. If an input parameter is invalid, or if the framework cannot find the device in the child list, the method returns <b>FALSE</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
 ## -remarks
-
-
 
 A bus driver can call <b>WdfChildListRequestChildEject</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdorequesteject">WdfPdoRequestEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
 
@@ -103,19 +90,11 @@ For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdorequesteject">WdfPdoRequestEject</a>
- 
-
- 
 

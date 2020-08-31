@@ -8,9 +8,6 @@ ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.date: 04/30/2018
 keywords: ["SUBSYSTEM_INFORMATION_TYPE enumeration"]
 ms.keywords: "*PSUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWSL, SubsystemInformationTypeWin32, _SUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, ntddk/MaxSubsystemInformationType, ntddk/SUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32"
-f1_keywords:
- - "ntddk/SUBSYSTEM_INFORMATION_TYPE"
- - "SUBSYSTEM_INFORMATION_TYPE"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- SUBSYSTEM_INFORMATION_TYPE
 targetos: Windows
 req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
+f1_keywords:
+ - _SUBSYSTEM_INFORMATION_TYPE
+ - ntddk/_SUBSYSTEM_INFORMATION_TYPE
+ - PSUBSYSTEM_INFORMATION_TYPE
+ - ntddk/PSUBSYSTEM_INFORMATION_TYPE
+ - SUBSYSTEM_INFORMATION_TYPE
+ - ntddk/SUBSYSTEM_INFORMATION_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - SUBSYSTEM_INFORMATION_TYPE
 ---
 
 # _SUBSYSTEM_INFORMATION_TYPE enumeration
@@ -46,19 +50,13 @@ req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 
 ## -description
 
-
-Indicates the type of subsystem for a process or thread. This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> calls. 
-
+Indicates the type of subsystem for a process or thread. This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> calls.
 
 ## -enum-fields
-
-
-
 
 ### -field SubsystemInformationTypeWin32
 
 The subsystem type for the process or thread is Win32.
-
 
 ### -field SubsystemInformationTypeWSL
 
@@ -71,23 +69,15 @@ The subsystem type for the process or thread is Windows Subsystem for Linux (WSL
 </ul>
  The preceding member values may be NULL.
 
-
 ### -field MaxSubsystemInformationType
 
 Reserved.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
- 
-
- 
 

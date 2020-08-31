@@ -8,9 +8,6 @@ ms.assetid: 31293354-D68B-475F-91BD-0504129207A5
 ms.date: 02/15/2018
 keywords: ["GNSS_AGNSS_REQUEST_TYPE enumeration"]
 ms.keywords: GNSS_AGNSS_BlobInjection, GNSS_AGNSS_PositionInjection, GNSS_AGNSS_REQUEST_TYPE, GNSS_AGNSS_REQUEST_TYPE enumeration [Sensor Devices], GNSS_AGNSS_TimeInjection, gnss.gnss_agnss_request_type, gnssdriver/GNSS_AGNSS_BlobInjection, gnssdriver/GNSS_AGNSS_PositionInjection, gnssdriver/GNSS_AGNSS_REQUEST_TYPE, gnssdriver/GNSS_AGNSS_TimeInjection
-f1_keywords:
- - "gnssdriver/GNSS_AGNSS_REQUEST_TYPE"
- - "GNSS_AGNSS_REQUEST_TYPE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_AGNSS_REQUEST_TYPE
 targetos: Windows
 req.typenames: GNSS_AGNSS_REQUEST_TYPE
+f1_keywords:
+ - GNSS_AGNSS_REQUEST_TYPE
+ - gnssdriver/GNSS_AGNSS_REQUEST_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_AGNSS_REQUEST_TYPE
 ---
 
 # GNSS_AGNSS_REQUEST_TYPE enumeration
@@ -46,24 +46,17 @@ req.typenames: GNSS_AGNSS_REQUEST_TYPE
 
 ## -description
 
-
 This enumeration indicates the type of AGNSS injection request represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_agnss_request_param">GNSS_AGNSS_REQUEST_PARAM</a> structure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field GNSS_AGNSS_TimeInjection
 
 Indicates the injection request is for time injection.
 
-
 ### -field GNSS_AGNSS_PositionInjection
 
 Indicates the injection request is for position injection.
-
 
 ### -field GNSS_AGNSS_BlobInjection
 

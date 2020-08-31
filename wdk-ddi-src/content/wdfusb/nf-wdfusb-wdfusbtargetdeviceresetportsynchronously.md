@@ -8,9 +8,6 @@ ms.assetid: 4f0941ea-ccbb-4345-82c0-ec5d88862b05
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceResetPortSynchronously function"]
 ms.keywords: DFUsbRef_423196d9-8f58-462a-91b3-9d747a12d6df.xml, WdfUsbTargetDeviceResetPortSynchronously, WdfUsbTargetDeviceResetPortSynchronously method, kmdf.wdfusbtargetdeviceresetportsynchronously, wdf.wdfusbtargetdeviceresetportsynchronously, wdfusb/WdfUsbTargetDeviceResetPortSynchronously
-f1_keywords:
- - "wdfusb/WdfUsbTargetDeviceResetPortSynchronously"
- - "WdfUsbTargetDeviceResetPortSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetDeviceResetPortSynchronously
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetDeviceResetPortSynchronously
+ - wdfusb/WdfUsbTargetDeviceResetPortSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetDeviceResetPortSynchronously
 ---
 
 # WdfUsbTargetDeviceResetPortSynchronously function
@@ -49,25 +49,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceResetPortSynchronously</b> method resets the USB port that is associated with the specified USB device.
 
-
 ## -parameters
 
-
-
-
 ### -param UsbDevice 
+
 [in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetDeviceResetPortSynchronously</b> returns the USB I/O target's completion status value if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -94,14 +87,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>WdfUsbTargetDeviceResetPortSynchronously</b> method resets the USB port by sending an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_reset_port">IOCTL_INTERNAL_USB_RESET_PORT</a> request.
 
@@ -124,15 +110,7 @@ NTSTATUS status;
 status = WdfUsbTargetDeviceResetPortSynchronously(UsbDevice);
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>
- 
-
- 
 

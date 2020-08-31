@@ -8,9 +8,6 @@ ms.assetid: 8c343094-0927-4cdd-be39-93dcb25f6bf6
 ms.date: 05/02/2018
 keywords: ["WWAN_REGISTER_ACTION enumeration"]
 ms.keywords: "*PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, WwanRegisterActionAutomatic, WwanRegisterActionManual, WwanRegisterActionMax, _WWAN_REGISTER_ACTION, netvista.wwan_register_action, wwan/PWWAN_REGISTER_ACTION, wwan/WWAN_REGISTER_ACTION, wwan/WwanRegisterActionAutomatic, wwan/WwanRegisterActionManual, wwan/WwanRegisterActionMax"
-f1_keywords:
- - "wwan/WWAN_REGISTER_ACTION"
- - "WWAN_REGISTER_ACTION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_REGISTER_ACTION
 targetos: Windows
 req.typenames: WWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION
+f1_keywords:
+ - _WWAN_REGISTER_ACTION
+ - wwan/_WWAN_REGISTER_ACTION
+ - PWWAN_REGISTER_ACTION
+ - wwan/PWWAN_REGISTER_ACTION
+ - WWAN_REGISTER_ACTION
+ - wwan/WWAN_REGISTER_ACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_REGISTER_ACTION
 ---
 
 # _WWAN_REGISTER_ACTION enumeration
@@ -46,38 +50,24 @@ req.typenames: WWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION
 
 ## -description
 
-
 The WWAN_REGISTER_ACTION enumeration lists the different provider network registration actions that
   are supported by the MB device.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanRegisterActionAutomatic
 
 Automatically register with provider and then packet-attach, if required.
 
-
 ### -field WwanRegisterActionManual
 
 Manually register with provider and then packet-attach, if required.
-
 
 ### -field WwanRegisterActionMax
 
 The total number of supported registration actions.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a>
- 
-
- 
 

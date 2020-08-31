@@ -8,9 +8,6 @@ ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::RegisterRemoteInterfaceNotification"]
 ms.keywords: IWDFDevice2 interface,RegisterRemoteInterfaceNotification method, IWDFDevice2.RegisterRemoteInterfaceNotification, IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method,IWDFDevice2 interface, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification
-f1_keywords:
- - "wudfddi/IWDFDevice2.RegisterRemoteInterfaceNotification"
- - "IWDFDevice2.RegisterRemoteInterfaceNotification"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice2.RegisterRemoteInterfaceNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice2::RegisterRemoteInterfaceNotification
+ - wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice2.RegisterRemoteInterfaceNotification
 ---
 
 # IWDFDevice2::RegisterRemoteInterfaceNotification
@@ -46,41 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RegisterRemoteInterfaceNotification</b> method registers a driver to receive a notification when a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
 
-
 ## -parameters
 
-
-
-
 ### -param pDeviceInterfaceGuid 
+
 [in]
 A pointer to a GUID that identifies a device interface.
 
-
 ### -param IncludeExistingInterfaces 
+
 [in]
 A Boolean value. If the driver sets this value to <b>TRUE</b>, the framework notifies the driver if the specified device interface becomes available after the driver calls <b>RegisterRemoteInterfaceNotification</b>, and it also notifies the driver if the device interface was available before the driver called <b>RegisterRemoteInterfaceNotification</b>. 
 
 If the driver sets this value to <b>FALSE</b>, the framework notifies the driver only if the device interface becomes available after the driver calls <b>RegisterRemoteInterfaceNotification</b>.
 
-
 ## -returns
-
-
 
 <b>RegisterRemoteInterfaceNotification</b> returns S_OK of the operation succeeds. Otherwise, this method returns another value that Winerror.h contains.
 
-
-
-
 ## -remarks
-
-
 
 Your driver can call <b>RegisterRemoteInterfaceNotification</b> only if the callback interface that the driver previously passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a> supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipnpcallbackremoteinterfacenotification">IPnpCallbackRemoteInterfaceNotification</a> interface.
 
@@ -133,19 +121,11 @@ CMyDriver::OnDeviceAdd(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackremoteinterfacenotification-onremoteinterfacearrival">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
- 
-
- 
 

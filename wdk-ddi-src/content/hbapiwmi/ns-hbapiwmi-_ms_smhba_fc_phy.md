@@ -8,9 +8,6 @@ ms.assetid: 7fb199b6-dcdb-41fc-b1c4-4eef2177018e
 ms.date: 03/29/2018
 keywords: ["MS_SMHBA_FC_PHY structure"]
 ms.keywords: "*PMS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY structure [Storage Devices], PMS_SMHBA_FC_PHY, PMS_SMHBA_FC_PHY structure pointer [Storage Devices], _MS_SMHBA_FC_PHY, hbapiwmi/MS_SMHBA_FC_PHY, hbapiwmi/PMS_SMHBA_FC_PHY, storage.ms_smhba_fc_phy, structs-Fibre_64c8e970-8d72-4651-bcb8-8363b424cd04.xml"
-f1_keywords:
- - "hbapiwmi/MS_SMHBA_FC_PHY"
- - "MS_SMHBA_FC_PHY"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hbapiwmi.h
-api_name:
-- MS_SMHBA_FC_PHY
 targetos: Windows
 req.typenames: MS_SMHBA_FC_PHY, *PMS_SMHBA_FC_PHY
+f1_keywords:
+ - _MS_SMHBA_FC_PHY
+ - hbapiwmi/_MS_SMHBA_FC_PHY
+ - PMS_SMHBA_FC_PHY
+ - hbapiwmi/PMS_SMHBA_FC_PHY
+ - MS_SMHBA_FC_PHY
+ - hbapiwmi/MS_SMHBA_FC_PHY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hbapiwmi.h
+api_name:
+ - MS_SMHBA_FC_PHY
 ---
 
 # _MS_SMHBA_FC_PHY structure
@@ -46,19 +50,13 @@ req.typenames: MS_SMHBA_FC_PHY, *PMS_SMHBA_FC_PHY
 
 ## -description
 
-
 The MS_SMHBA_FC_PHY structure is used to report the physical attributes of a fibre channel port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PhySupportSpeed
 
 The signaling bit rates at which the port can operate. For a list of the values that this member supports, see PhySpeed.
-
 
 ### -field PhySpeed
 
@@ -136,8 +134,6 @@ The speed at which the port will operate has not yet been established.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PhyType
 
@@ -265,8 +261,6 @@ Point to point.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaxFrameSize
 

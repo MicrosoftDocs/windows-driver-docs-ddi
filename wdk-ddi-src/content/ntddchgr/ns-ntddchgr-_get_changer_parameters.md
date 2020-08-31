@@ -8,9 +8,6 @@ ms.assetid: c9a47406-5dd2-4cda-b241-3a439406ac75
 ms.date: 03/29/2018
 keywords: ["GET_CHANGER_PARAMETERS structure"]
 ms.keywords: "*PGET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS structure [Storage Devices], PGET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS structure pointer [Storage Devices], _GET_CHANGER_PARAMETERS, ntddchgr/GET_CHANGER_PARAMETERS, ntddchgr/PGET_CHANGER_PARAMETERS, storage.get_changer_parameters, structs-changer_5c639124-5fc3-4fe8-8289-3bc8408723e0.xml"
-f1_keywords:
- - "ntddchgr/GET_CHANGER_PARAMETERS"
- - "GET_CHANGER_PARAMETERS"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddchgr.h
-api_name:
-- GET_CHANGER_PARAMETERS
 targetos: Windows
 req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
+f1_keywords:
+ - _GET_CHANGER_PARAMETERS
+ - ntddchgr/_GET_CHANGER_PARAMETERS
+ - PGET_CHANGER_PARAMETERS
+ - ntddchgr/PGET_CHANGER_PARAMETERS
+ - GET_CHANGER_PARAMETERS
+ - ntddchgr/GET_CHANGER_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddchgr.h
+api_name:
+ - GET_CHANGER_PARAMETERS
 ---
 
 # _GET_CHANGER_PARAMETERS structure
@@ -46,84 +50,65 @@ req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 
 ## -description
 
-
-Retrieves the characteristics of the changer. 
-
+Retrieves the characteristics of the changer.
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-The size of this structure in bytes. Set to <b>sizeof</b>(GET_CHANGER_PARAMETERS). In effect, this member indicates the version of this structure being used by the miniclass driver. 
-
+The size of this structure in bytes. Set to <b>sizeof</b>(GET_CHANGER_PARAMETERS). In effect, this member indicates the version of this structure being used by the miniclass driver.
 
 ### -field NumberTransportElements
 
 Indicates the number of transport elements in the changer. For a SCSI changer, this is defined in the element address page. This value is almost always 1, because most changers have a single transport element, which can have one or two picker mechanisms. A changer that has two picker mechanisms on its transport must not be represented as having two transports, because pickers cannot be addressed individually. High-end media libraries can have dual and multiple transport elements for fault tolerance.
 
-
 ### -field NumberStorageElements
 
 Indicates the number of storage elements (slots) in the changer. For a SCSI changer, this is defined in the element address page. This value represents the maximum number of slots available for this changer, including those in removable magazines, whether the magazines are installed. If <b>NumberCleanerSlots</b> is 1, then <b>NumberStorageElements</b> is 1 less than the maximum number of slots in the changer.
-
 
 ### -field NumberCleanerSlots
 
 Indicates the number of storage elements (slots) for cleaner cartridges in the changer. For a SCSI changer, this value is not reported in mode sense data, so the miniclass driver must provide it. The miniclass driver should set <b>NumberCleanerSlots</b> to 1 only if the operator's guide for the changer identifies a specific slot as a cleaner slot. If <b>NumberCleanerSlots</b> is 1, then <b>FirstCleanerSlotAddress</b> indicates the zero-based address of the slot in which a drive cleaner should be inserted. If the changer does not support drive cleaning by programmatically moving the cleaner cartridge from its slot to a drive, the miniclass driver must set <b>NumberCleanerSlots</b> to 0. <b>NumberCleanerSlots</b> must not be greater than 1.
 
-
 ### -field NumberIEElements
 
 Indicates the number of IEport elements the changer has for inserting and ejecting of media. For a SCSI changer, this is defined in the element address page. An IEport element must not be part of the storage element (slot) space, and it must be possible to transport media between the IEport and a slot using a MOVE MEDIUM SCSI command. If the changer has a door and not a true IEport, the miniclass driver must set <b>NumberIEElements</b> to 0.
-
 
 ### -field NumberDataTransferElements
 
 Indicates the number of data transfer elements (drives) in the changer. For a SCSI changer, this is defined in the element address page. Unlike <b>NumberStorageElements</b>, which indicates the total number of possible slots whether the slots are actually present, <b>NumberDataTransferElements</b> indicates the number of drives that are actually present in the changer.
 
-
 ### -field NumberOfDoors
 
 Indicates the number of doors that the changer has. For a SCSI changer, this value is not reported in mode sense data, so the miniclass driver must provide it. A door provides access to all media in the changer at once, unlike an IEport which provides access to one or more, but not all, media. A changer's door can be a physical front door or a single magazine that contains all media. If a changer supports only an IEport for inserting and ejecting media, the <b>NumberOfDoors</b> must be 0.
 
-
 ### -field FirstSlotNumber
 
-Indicates the number used by the changer vendor to identify the first storage element (slot) in the changer to the end user, either by marking a magazine or by defining a slot numbering scheme in the changer's operators guide. <b>FirstSlotNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of slot addresses defined by the vendor. 
-
+Indicates the number used by the changer vendor to identify the first storage element (slot) in the changer to the end user, either by marking a magazine or by defining a slot numbering scheme in the changer's operators guide. <b>FirstSlotNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of slot addresses defined by the vendor.
 
 ### -field FirstDriveNumber
 
-Indicates the number used by the changer vendor to identify the first data transfer element (drive) in the changer to the end user. <b>FirstDriveNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of drive addresses defined by the vendor. 
-
+Indicates the number used by the changer vendor to identify the first data transfer element (drive) in the changer to the end user. <b>FirstDriveNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of drive addresses defined by the vendor.
 
 ### -field FirstTransportNumber
 
-Indicates the number used by the changer vendor to identify the first (and usually only) transport element in the changer to the end user. <b>FirstTransportNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of transport addresses defined by the vendor. 
-
+Indicates the number used by the changer vendor to identify the first (and usually only) transport element in the changer to the end user. <b>FirstTransportNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of transport addresses defined by the vendor.
 
 ### -field FirstIEPortNumber
 
 Indicates the number used by the changer vendor to identify the first (and usually only) IEport in the changer to the end user. <b>FirstIEPortNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of IEport addresses defined by the vendor. If <b>NumberIEElements</b> is 0, <b>FirstIEPortNumber</b> must also be 0.
 
-
 ### -field FirstCleanerSlotAddress
 
 Indicates the number used by the changer vendor to identify the first (and only) slot address assigned to a drive cleaner cartridge to the end user. This must be the value defined by the vendor in the changer's operators guide. For example, if a changer has 8 slots numbered 1 through 8 and its operator's guide designates slot 8 as the drive cleaner slot, <b>FirstSlotNumber</b> would be 1 and <b>FirstCleanerSlotAddress</b> would be 8. If the same 8 slots were numbered 0 through 7, <b>FirstSlotNumber</b> would be 0 and <b>FirstCleanerSlotAddress</b> would be 7. If <b>NumberCleanerSlots</b> is 0, <b>FirstCleanerSlotAddress</b> must be 0.
-
 
 ### -field MagazineSize
 
 Indicates the number of slots in the removable magazines in the changer. This member is valid only if CHANGER_CARTRIDGE_MAGAZINE is set in <b>Features0</b>.
 
-
 ### -field DriveCleanTimeout
 
 Indicates twice the maximum number of seconds a cleaning is expected to take. The changer's drives should be cleaned by its cleaner cartridge in half the time specified by <b>DriveCleanTimeout</b>. For example, if a drive is typically cleaned in 300 seconds (5 minutes), <b>DriveCleanTimeout</b> should be set to 600.
-
 
 ### -field Features0
 
@@ -369,7 +354,6 @@ The changer keypad can be enabled and disabled programmatically.
 
 Reserved to indicate <b>Features1</b> flags.
 
-
 ### -field Features1
 
 Indicates additional features supported by the changer. This member can have one or more of the following values bitwise ORed together.
@@ -462,7 +446,6 @@ The changer will extend the tray automatically whenever a command is issued to m
 
 The changer will retract the tray automatically whenever a command is issued to move media from an IEport.
 
-
 ### -field MoveFromTransport
 
 Indicates whether the changer supports moving a piece of media from a transport element to another transport element, a storage slot, an IEport, or a drive. For a SCSI changer, this is defined in the device capabilities page. The transport is not typically the source or destination for moving or exchanging media. 
@@ -501,41 +484,33 @@ The changer can carry out the operation from the specified element to an IEport.
 
 The changer can carry out the operation from the specified element to a drive.
 
-
 ### -field MoveFromSlot
 
-Indicates whether the changer supports moving medium from a storage slot to a transport element, another storage slot, an IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the move. 
-
+Indicates whether the changer supports moving medium from a storage slot to a transport element, another storage slot, an IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the move.
 
 ### -field MoveFromIePort
 
 Indicates whether the changer supports moving medium from an IEport to a transport element, a storage slot, another IEport, or a drive. For a SCSI changer, this is defined in the device capabilities page. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the move
 
-
 ### -field MoveFromDrive
 
-Indicates whether the changer supports moving medium from a drive to a transport element, a storage slot, an IEport, or another drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the move. 
-
+Indicates whether the changer supports moving medium from a drive to a transport element, a storage slot, an IEport, or another drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the move.
 
 ### -field ExchangeFromTransport
 
-Indicates whether the changer supports exchanging medium between a transport element and another transport element, a storage slot, an IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange. 
-
+Indicates whether the changer supports exchanging medium between a transport element and another transport element, a storage slot, an IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
 
 ### -field ExchangeFromSlot
 
-Indicates whether the changer supports exchanging medium between a storage slot and a transport element, another storage slot, an IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange. 
-
+Indicates whether the changer supports exchanging medium between a storage slot and a transport element, another storage slot, an IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
 
 ### -field ExchangeFromIePort
 
-Indicates whether the changer supports exchanging medium between an IEport and a transport element, a storage slot, another IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange. 
-
+Indicates whether the changer supports exchanging medium between an IEport and a transport element, a storage slot, another IEport, or a drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
 
 ### -field ExchangeFromDrive
 
-Indicates whether the changer supports exchanging medium between a drive and a transport element, a storage slot, an IEport, or another drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange. 
-
+Indicates whether the changer supports exchanging medium between a drive and a transport element, a storage slot, an IEport, or another drive. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
 
 ### -field LockUnlockCapabilities
 
@@ -563,38 +538,23 @@ The changer can lock or unlock its door.
 
 The changer can lock or unlock its keypad.
 
-
 ### -field PositionCapabilities
 
-Indicates the elements to which a changer can position its transport. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports positioning the transport to a particular element. This member is valid only if CHANGER_POSITION_TO_ELEMENT is set in <b>Features0</b>. 
-
+Indicates the elements to which a changer can position its transport. Callers can use the masks described under <b>MoveFromTransport</b> to determine whether the changer supports positioning the transport to a particular element. This member is valid only if CHANGER_POSITION_TO_ELEMENT is set in <b>Features0</b>.
 
 ### -field Reserved1
 
 Reserved for future use.
 
-
 ### -field Reserved2
 
 Reserved for future use.
 
-
 ## -remarks
-
-
 
 <b>GET_CHANGER_PARAMETERS</b> contains the parameters of a changer. The changer miniclass driver allocates and fills in this structure when requested by the changer class driver.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetparameters">ChangerGetParameters</a>
- 
-
- 
 

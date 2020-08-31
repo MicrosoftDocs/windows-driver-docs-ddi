@@ -8,39 +8,39 @@ ms.assetid: 30c4d484-07c2-42ab-bce7-42d2f73968e4
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadListGetCount function"]
-f1_keywords:
- - "netpoweroffloadlist/NetPowerOffloadListGetCount"
- - "NetPowerOffloadListGetCount"
 ms.keywords: NetPowerOffloadListGetCount
 req.header: netpoweroffloadlist.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetPowerOffloadListGetCount
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetPowerOffloadListGetCount
+ - netpoweroffloadlist/NetPowerOffloadListGetCount
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetPowerOffloadListGetCount
+product:
+ - Windows
 ---
 
 # NetPowerOffloadListGetCount function
@@ -77,3 +77,4 @@ For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring powe
 [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md)
 
 [**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md)
+

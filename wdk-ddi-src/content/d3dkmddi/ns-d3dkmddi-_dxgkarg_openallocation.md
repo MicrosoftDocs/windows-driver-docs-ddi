@@ -7,9 +7,6 @@ ms.assetid: cddb85c7-137c-4ceb-b53c-170ce020cea1
 ms.date: 05/10/2018
 keywords: ["DXGKARG_OPENALLOCATION structure"]
 ms.keywords: DXGKARG_OPENALLOCATION, DXGKARG_OPENALLOCATION structure [Display Devices], DmStructs_442924a2-c130-487c-acdb-62a2b6e9f219.xml, _DXGKARG_OPENALLOCATION, d3dkmddi/DXGKARG_OPENALLOCATION, display.dxgkarg_openallocation
-f1_keywords:
- - "d3dkmddi/DXGKARG_OPENALLOCATION"
- - "DXGKARG_OPENALLOCATION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_OPENALLOCATION
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_OPENALLOCATION
+f1_keywords:
+ - _DXGKARG_OPENALLOCATION
+ - d3dkmddi/_DXGKARG_OPENALLOCATION
+ - DXGKARG_OPENALLOCATION
+ - d3dkmddi/DXGKARG_OPENALLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_OPENALLOCATION
 ---
 
 # _DXGKARG_OPENALLOCATION structure
@@ -46,39 +48,29 @@ req.typenames: DXGKARG_OPENALLOCATION
 
 ## -description
 
-
 The DXGKARG_OPENALLOCATION structure describes allocations that the display miniport driver should open.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumAllocations
 
 [in] The number of elements in the array that the <b>pOpenAllocation</b> member specifies, which represents the number of device-specific allocations to open.
 
-
 ### -field pOpenAllocation
 
 [in/out] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_openallocationinfo">DXGK_OPENALLOCATIONINFO</a> structures for the allocations to open.
-
 
 ### -field pPrivateDriverData
 
 [in] A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver. This block of private data is the same resource-specific data that is passed in the <b>pPrivateDriverData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createallocation">DXGKARG_CREATEALLOCATION</a> structure in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function. The display miniport driver cannot modify this block of private data.
 
-
 ### -field PrivateDriverSize
 
 [in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
-
 ### -field Flags
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_openallocationflags">DXGK_OPENALLOCATIONFLAGS</a> structure that identifies the operation to perform for allocations.
-
 
 ### -field SubresourceIndex
 
@@ -90,13 +82,11 @@ The operating system specifies this member only if the display miniport driver s
 
 If the value of <b>SubresourceIndex</b> is greater than the number of subresources in the allocation, the display miniport driver should return an error.
 
-
 ### -field SubresourceOffset
 
 [out] Supported beginning with Windows 8.
 
 The offset, in bytes, from the start of the allocation to the start of the subresource.
-
 
 ### -field Pitch
 
@@ -104,11 +94,7 @@ The offset, in bytes, from the start of the allocation to the start of the subre
 
 The pitch, in bytes, of the allocation—that is, the distance, in bytes, to the start of the next row.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createallocation">DXGKARG_CREATEALLOCATION</a>
 
@@ -127,7 +113,4 @@ The pitch, in bytes, of the allocation—that is, the distance, in bytes, to the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
- 
-
- 
 

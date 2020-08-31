@@ -8,9 +8,6 @@ ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.date: 04/23/2018
 keywords: ["KsAllocateDeviceHeader function"]
 ms.keywords: KsAllocateDeviceHeader, KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
-f1_keywords:
- - "ks/KsAllocateDeviceHeader"
- - "KsAllocateDeviceHeader"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsAllocateDeviceHeader
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsAllocateDeviceHeader
+ - ks/KsAllocateDeviceHeader
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsAllocateDeviceHeader
 ---
 
 # KsAllocateDeviceHeader function
+
 
 ## -description
 
@@ -51,14 +52,17 @@ The **KsAllocateDeviceHeader** function allocates and initializes the required d
 ## -parameters
 
 ### -param Header 
+
 [out]
 Points to the location in which to return a pointer to the initialized header.
 
 ### -param ItemsCount 
+
 [in]
 Specifies the number of subitems in the *ItemsList*. This should be zero if an *ItemsList* is not passed.
 
 ### -param ItemsList 
+
 [in, optional]
 Optional. Points to a KSOBJECT_CREATE_ITEM structure for each subitem. If there are no subitems, this value should be **NULL** and *ItemsCount* should be zero.
 
@@ -88,3 +92,4 @@ Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITE
 [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item)
 
 [KsFreeDeviceHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreedeviceheader)
+

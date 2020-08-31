@@ -8,9 +8,6 @@ ms.assetid: 0130e35f-a6a8-4fa9-9922-1d1d0f43cb2a
 ms.date: 04/16/2018
 keywords: ["FltAllocateExtraCreateParameterList function"]
 ms.keywords: FltAllocateExtraCreateParameterList, FltAllocateExtraCreateParameterList routine [Installable File System Drivers], FltApiRef_a_to_d_9caf46c0-e0bb-4a0a-b9dd-f4005664b9ca.xml, fltkernel/FltAllocateExtraCreateParameterList, ifsk.fltallocateextracreateparameterlist
-f1_keywords:
- - "fltkernel/FltAllocateExtraCreateParameterList"
- - "FltAllocateExtraCreateParameterList"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltAllocateExtraCreateParameterList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltAllocateExtraCreateParameterList
+ - fltkernel/FltAllocateExtraCreateParameterList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltAllocateExtraCreateParameterList
 ---
 
 # FltAllocateExtraCreateParameterList function
+
 
 ## -description
 
@@ -51,14 +52,17 @@ The **FltAllocateExtraCreateParameterList** routine allocates paged pool memory 
 ## -parameters
 
 ### -param Filter 
+
 [in]
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 ### -param Flags 
+
 [in]
 Defines pool allocation options.  If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is combined with the *Flags* parameter by using a bitwise OR operation, any pool allocated by the routine will be charged against the current process' memory quota.
 
 ### -param EcpList 
+
 [out]
 Receives a pointer to an initialized ECP list structure.  If the routine failed to allocate sufficient pool, *\*EcpList* will be **NULL** and the routine will return status code STATUS_INSUFFICIENT_RESOURCES.
 
@@ -120,3 +124,4 @@ The ECP_LIST structure is declared in Ntifs.h (include Ntifs.h).
 [FltSetEcpListIntoCallbackData](nf-fltkernel-fltsetecplistintocallbackdata.md)
 
 [IoCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex)
+

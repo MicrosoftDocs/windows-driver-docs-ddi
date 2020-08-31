@@ -8,9 +8,6 @@ ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
 ms.date: 04/16/2018
 keywords: ["FILTER_MESSAGE_HEADER structure"]
 ms.keywords: "*PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, PFILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], _FILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, fltuserstructures/PFILTER_MESSAGE_HEADER, ifsk.filter_message_header"
-f1_keywords:
- - "fltuserstructures/FILTER_MESSAGE_HEADER"
- - "FILTER_MESSAGE_HEADER"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltuserstructures.h
-api_name:
-- FILTER_MESSAGE_HEADER
 targetos: Windows
 req.typenames: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
+f1_keywords:
+ - _FILTER_MESSAGE_HEADER
+ - fltuserstructures/_FILTER_MESSAGE_HEADER
+ - PFILTER_MESSAGE_HEADER
+ - fltuserstructures/PFILTER_MESSAGE_HEADER
+ - FILTER_MESSAGE_HEADER
+ - fltuserstructures/FILTER_MESSAGE_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltuserstructures.h
+api_name:
+ - FILTER_MESSAGE_HEADER
 ---
 
 # _FILTER_MESSAGE_HEADER structure
@@ -46,45 +50,27 @@ req.typenames: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
 
 ## -description
 
-
-The FILTER_MESSAGE_HEADER structure contains message header information. 
-
+The FILTER_MESSAGE_HEADER structure contains message header information.
 
 ## -struct-fields
 
-
-
-
 ### -field ReplyLength
 
-On output from <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the length, in bytes, of the expected reply, including the FILTER_REPLY_HEADER header. Set to zero if no reply is expected. 
-
+On output from <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the length, in bytes, of the expected reply, including the FILTER_REPLY_HEADER header. Set to zero if no reply is expected.
 
 ### -field MessageId
 
-On output from <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the unique identifier (ID) for the message sent by the kernel-mode driver. If the application replies to the message, it must set this ID in the <b>MessageId</b> field of the FILTER_REPLY_HEADER header in the reply. 
-
+On output from <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the unique identifier (ID) for the message sent by the kernel-mode driver. If the application replies to the message, it must set this ID in the <b>MessageId</b> field of the FILTER_REPLY_HEADER header in the reply.
 
 ## -remarks
 
-
-
-To receive messages from a kernel-mode minifilter, a user-mode application typically defines a custom message structure. This structure typically consists of this header structure, followed by an application-defined structure to hold the actual message data. 
-
-
-
+To receive messages from a kernel-mode minifilter, a user-mode application typically defines a custom message structure. This structure typically consists of this header structure, followed by an application-defined structure to hold the actual message data.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_reply_header">FILTER_REPLY_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
- 
-
- 
 

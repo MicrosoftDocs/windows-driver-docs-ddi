@@ -6,41 +6,39 @@ ms.assetid: 18425b45-8ebc-4bbe-b69c-caf7a3a83414
 ms.date: 08/08/2018
 keywords: ["PropertiesListGetFillableCount function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropertiesListGetFillableCount"
- - "PropertiesListGetFillableCount"
 ms.keywords: PropertiesListGetFillableCount
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropertiesListGetFillableCount
-product:
-  - Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - PropertiesListGetFillableCount
+ - sensorsutils/PropertiesListGetFillableCount
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropertiesListGetFillableCount
+product:
+ - Windows
 ---
 
 # PropertiesListGetFillableCount function
@@ -63,3 +61,4 @@ A ULONG that represents an acceptable number for a properties list of BufferSize
 ## -remarks
 
 ## -see-also
+

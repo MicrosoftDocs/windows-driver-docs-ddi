@@ -7,9 +7,6 @@ ms.assetid: 4d968e4c-fb5b-47d6-b4ca-5f9d1d9c4739
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032 enumeration"]
 ms.keywords: D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032 enumeration [Display Devices], D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_DEFAULT, D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN, D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_DEFAULT, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT, display.d3d12ddi-writebufferimmediate-mode-0032
-f1_keywords:
- - "d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032"
- - "D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
+f1_keywords:
+ - D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
+ - d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
 ---
 
 # D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032 enumeration
@@ -46,24 +46,17 @@ req.typenames: D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
 
 ## -description
 
-
 The write buffer immediate mode.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_DEFAULT
 
 The write buffer immediate default value is 0x0.
 
-
 ### -field D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_IN
 
 The write buffer immediate mode is marker in, and the value is 0x1.
-
 
 ### -field D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_MARKER_OUT
 

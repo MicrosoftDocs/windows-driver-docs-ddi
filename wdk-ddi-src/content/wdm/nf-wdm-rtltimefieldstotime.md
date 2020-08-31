@@ -8,9 +8,6 @@ ms.assetid: 5873b627-6ef4-4e2c-8a53-921f37b729bc
 ms.date: 04/30/2018
 keywords: ["RtlTimeFieldsToTime function"]
 ms.keywords: RtlTimeFieldsToTime, RtlTimeFieldsToTime routine [Kernel-Mode Driver Architecture], k109_9b5d67de-92c3-4fb7-bcd7-4e045ae9ada4.xml, kernel.rtltimefieldstotime, wdm/RtlTimeFieldsToTime
-f1_keywords:
- - "wdm/RtlTimeFieldsToTime"
- - "RtlTimeFieldsToTime"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlTimeFieldsToTime
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlTimeFieldsToTime
+ - wdm/RtlTimeFieldsToTime
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlTimeFieldsToTime
 ---
 
 # RtlTimeFieldsToTime function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlTimeFieldsToTime</b> routine converts <b>TIME_FIELDS</b> information to a system time value.
-
 
 ## -parameters
 
-
-
-
 ### -param TimeFields 
+
 [in]
 Pointer to the following structure, containing the time information to be converted:
 
@@ -126,38 +122,24 @@ Specifies a value from 0 to 999.
 
 #### Weekday
 
-Specifies a value from 0 to 6 (Sunday to Saturday). 
-
+Specifies a value from 0 to 6 (Sunday to Saturday).
 
 ### -param Time 
-[out]
-Pointer to a buffer, which is to contain the converted system time value as a large integer. 
 
+[out]
+Pointer to a buffer, which is to contain the converted system time value as a large integer.
 
 ## -returns
 
-
-
 <b>RtlTimeFieldsToTime</b> returns <b>TRUE</b> if the input <i>TimeFields</i> data was successfully converted.
 
-
-
-
 ## -remarks
-
-
 
 <b>RtlTimeFieldsToTime</b> ignores the <b>Weekday</b> value in <i>TimeFields</i>.
 
 Callers of <b>RtlTimeFieldsToTime</b> can be running at any IRQL if both input buffers are resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exlocaltimetosystemtime">ExLocalTimeToSystemTime</a>
 
@@ -172,7 +154,4 @@ Callers of <b>RtlTimeFieldsToTime</b> can be running at any IRQL if both input b
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtltimetotimefields">RtlTimeToTimeFields</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.date: 05/03/2018
 keywords: ["IStiUSD::GetStatus"]
 ms.keywords: GetStatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetStatus method, IStiUSD.GetStatus, IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, stiusd/IStiUSD::GetStatus
-f1_keywords:
- - "stiusd/IStiUSD.GetStatus"
- - "IStiUSD.GetStatus"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- stiusd.h
-api_name:
-- IStiUSD.GetStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStiUSD::GetStatus
+ - stiusd/IStiUSD::GetStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - stiusd.h
+api_name:
+ - IStiUSD.GetStatus
 ---
 
 # IStiUSD::GetStatus
@@ -46,32 +46,19 @@ req.typenames:
 
 ## -description
 
-
 A still image minidriver's <b>IStiUSD::GetStatus</b> method returns the status of a still image device.
 
-
 ## -parameters
-
-
-
 
 ### -param pDevStatus
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_status">STI_DEVICE_STATUS</a> structure.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 The caller supplies values for the <b>dwSize</b> and <b>StatusMask</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_status">STI_DEVICE_STATUS</a> structure, and the minidriver must supply values for the rest of the structure members.
 
@@ -79,20 +66,11 @@ If the driver has previously set the STI_GENCAP_POLLING_NEEDED flag in the devic
 
 If the caller specifies STI_DEVSTATUS_ONLINE_STATE in the supplied STI_DEVICE_STATUS structure, the minidriver should set the appropriate flag in the structure's <b>dwOnlineState</b> member.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
- 
-
- 
 

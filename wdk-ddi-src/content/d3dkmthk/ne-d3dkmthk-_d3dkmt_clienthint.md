@@ -5,36 +5,39 @@ description: Client hints.
 ms.assetid: dc5a7042-db2b-4a45-8000-8b81e18df5db
 ms.date: 10/19/2018
 keywords: ["D3DKMT_CLIENTHINT enumeration"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_CLIENTHINT"
- - "_D3DKMT_CLIENTHINT"
-ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT, 
+ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DKMT_CLIENTHINT
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_CLIENTHINT
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_CLIENTHINT
+ - d3dkmthk/_D3DKMT_CLIENTHINT
+ - D3DKMT_CLIENTHINT
+ - d3dkmthk/D3DKMT_CLIENTHINT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_CLIENTHINT
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_CLIENTHINT enumeration
+
 
 ## -description
 
@@ -73,3 +76,4 @@ DirectX 10.
 ## -remarks
 
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: bc03feaf-ee98-4b47-a659-809b5b8b9364
 ms.date: 04/30/2018
 keywords: ["RtlConvertLongToLuid function"]
 ms.keywords: RtlConvertLongToLuid, RtlConvertLongToLuid routine [Kernel-Mode Driver Architecture], k109_be3bfbe0-7a0b-43e3-a22e-2cd6e5a92f2e.xml, kernel.rtlconvertlongtoluid, ntddk/RtlConvertLongToLuid
-f1_keywords:
- - "ntddk/RtlConvertLongToLuid"
- - "RtlConvertLongToLuid"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- RtlConvertLongToLuid
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlConvertLongToLuid
+ - ntddk/RtlConvertLongToLuid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - RtlConvertLongToLuid
 ---
 
 # RtlConvertLongToLuid function
@@ -46,42 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlConvertLongToLuid</b> routine converts a long integer to a locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>), which is used by the system to represent a security privilege.
-
 
 ## -parameters
 
-
-
-
 ### -param Long 
-[in]
-Specifies the long integer to convert. 
 
+[in]
+Specifies the long integer to convert.
 
 ## -returns
 
-
-
 <b>RtlConvertLongToLuid</b> returns the converted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>.
-
-
-
 
 ## -remarks
 
-
-
 <b>RtlConvertLongToLuid</b> is used to convert a system-defined privilege value to the locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) used by the system to represent that privilege. Drivers typically pass a LUID to <b>SeSinglePrivilegeCheck</b>, which is usually called by network transport drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
@@ -96,7 +78,4 @@ Specifies the long integer to convert.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-sesingleprivilegecheck">SeSinglePrivilegeCheck</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 760ee574-5ca5-4db1-8b47-009a12398076
 ms.date: 06/27/2019
 keywords: ["FltGetTunneledName function"]
 ms.keywords: FltApiRef_e_to_o_5a952e3d-25d1-48e7-b91b-9891a446d53b.xml, FltGetTunneledName, FltGetTunneledName routine [Installable File System Drivers], fltkernel/FltGetTunneledName, ifsk.fltgettunneledname
-f1_keywords:
- - "fltkernel/FltGetTunneledName"
- - "FltGetTunneledName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetTunneledName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetTunneledName
+ - fltkernel/FltGetTunneledName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetTunneledName
 ---
 
 # FltGetTunneledName function
+
 
 ## -description
 
@@ -50,14 +51,17 @@ The **FltGetTunneledName** routine retrieves the tunneled name for a file, given
 ## -parameters
 
 ### -param CallbackData 
+
 [in]
 Pointer to the callback data structure for the I/O operation ([FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data)). This parameter is required and cannot be **NULL**.
 
 ### -param FileNameInformation 
+
 [in]
 Pointer to an [FLT_FILE_NAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information) structure containing normalized name information returned by a previous call to [**FltGetFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation), [**FltGetFileNameInformationUnsafe**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe), or [**FltGetDestinationFileNameInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation) for the file.
 
 ### -param RetTunneledFileNameInformation 
+
 [out]
 Pointer to a caller-allocated variable that receives the address of a newly allocated structure containing the tunneled file name. If no tunneled name is found, this variable receives **NULL**. This parameter is required and cannot be **NULL** on input.
 
@@ -124,3 +128,4 @@ File tunneling enables compatibility with programs that rely on file systems to 
 [PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)
 
 [PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)
+

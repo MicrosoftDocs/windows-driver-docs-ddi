@@ -5,39 +5,42 @@ description: Defines a 3x3 matrix.
 ms.assetid: 313cc2e2-544a-4c5e-a6fe-56443cf83f2f
 ms.date: 10/19/2018
 keywords: ["MATRIX3X3 structure"]
-f1_keywords:
- - "sensorsstructures/MATRIX3X3"
- - "MATRIX3X3"
 tech.root: sensors
-ms.keywords: MATRIX3X3, MATRIX3X3, *PMATRIX3X3, 
+ms.keywords: MATRIX3X3, MATRIX3X3, *PMATRIX3X3,
 req.header: sensorsstructures.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: MATRIX3X3, *PMATRIX3X3
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sensorsstructures.h
-api_name: 
-- MATRIX3X3
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - PMATRIX3X3
+ - sensorsstructures/PMATRIX3X3
+ - MATRIX3X3
+ - sensorsstructures/MATRIX3X3
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sensorsstructures.h
+api_name:
+ - MATRIX3X3
+product:
+ - Windows
 ---
 
 # MATRIX3X3 structure
+
 
 ## -description
 
@@ -100,3 +103,4 @@ Matrix.
 ## -remarks
 
 ## -see-also
+

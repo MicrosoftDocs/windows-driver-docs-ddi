@@ -8,9 +8,6 @@ ms.assetid: ed9b6ad1-059b-47d9-b1f7-10d498c5d2d4
 ms.date: 05/02/2018
 keywords: ["MINIPORT_CO_DELETE_VC callback function"]
 ms.keywords: MINIPORT_CO_DELETE_VC, MINIPORT_CO_DELETE_VC callback, MiniportCoDeleteVc, MiniportCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_4a19285a-9595-4ea0-bf86-ec69474a9716.xml, ndis/MiniportCoDeleteVc, netvista.miniportcodeletevc
-f1_keywords:
- - "ndis/MiniportCoDeleteVc"
- - "MiniportCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportCoDeleteVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_CO_DELETE_VC
+ - ndis/MINIPORT_CO_DELETE_VC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportCoDeleteVc
 ---
 
 # MINIPORT_CO_DELETE_VC callback function
 
 
 ## -description
-
 
 The 
   <i>MiniportCoDeleteVc</i> function is required for connection-oriented miniports. 
@@ -55,19 +54,14 @@ The
 
 ## -parameters
 
-
-
-
 ### -param MiniportVcContext 
+
 [in]
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -87,14 +81,8 @@ Indicates that the miniport driver successfully freed all resources allocated fo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>MiniportCoDeleteVcmust</i> be written as a synchronous function and cannot, under any circumstances,
     return NDIS_STATUS_PENDING without causing a system-wide failure.
@@ -138,18 +126,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_CO_DELETE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CO_DELETE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a>
- 
-
- 
 

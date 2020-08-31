@@ -8,9 +8,6 @@ ms.assetid: BF490F9C-C1CD-4AEE-A970-161C5BB3A523
 ms.date: 05/08/2018
 keywords: ["IMiniportWaveRTInputStream interface"]
 ms.keywords: IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], IMiniportWaveRTInputStream interface [Audio Devices],described, audio.iminiportwavertinputstream, portcls/IMiniportWaveRTInputStream
-f1_keywords:
- - "portcls/IMiniportWaveRTInputStream"
- - "IMiniportWaveRTInputStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportWaveRTInputStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportWaveRTInputStream
+ - portcls/IMiniportWaveRTInputStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportWaveRTInputStream
 ---
 
 # IMiniportWaveRTInputStream interface
 
 
 ## -description
-
 
 The <code>IMiniportWaveRTInputStream</code> interface represents the input wave stream that flows through a pin on the KS filter that wraps a WaveRT rendering or capture device. <code>IMiniportWaveRTInputStream</code> inherits from the <b>IUnknown</b> interface.
 

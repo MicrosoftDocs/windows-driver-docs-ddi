@@ -8,9 +8,6 @@ ms.assetid: 2CDD666F-3D88-4078-9A4C-D7A107806EA7
 ms.date: 05/02/2018
 keywords: ["FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0, FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback, fwpsk/vSwitchRuntimeStateSaveNotifyFn, netvista.fwps_vswitch_runtime_state_save_callback0, vSwitchRuntimeStateSaveNotifyFn, vSwitchRuntimeStateSaveNotifyFn callback function [Network Drivers Starting with Windows Vista]
-f1_keywords:
- - "fwpsk/vSwitchRuntimeStateSaveNotifyFn"
- - "vSwitchRuntimeStateSaveNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fwpsk.h
-api_name:
-- vSwitchRuntimeStateSaveNotifyFn
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0
+ - fwpsk/FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fwpsk.h
+api_name:
+ - vSwitchRuntimeStateSaveNotifyFn
 ---
 
 # FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback function
@@ -46,36 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The filter engine calls the <i>vSwitchRuntimeStateSaveNotifyFn</i> (<i>FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</i>) callout function to notify a callout driver about virtual switch  run-time state save events.<div class="alert"><b>Note</b>  <i>FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</i> is a specific version of <i>FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK</i>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
-
-
 ## -parameters
 
-
-
-
 ### -param notifyContext 
+
 [in, optional]
 A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
-
 ### -param completionContext 
+
 [in]
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
 
-
-
-
 ### -param eventType 
+
 [in]
 The type of virtual switch event  specified as one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_vswitch_event_type_">FWPS_VSWITCH_EVENT_TYPE</a> enumeration values. For more information, see Remarks.
 
-
 ### -param vSwitch 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
 
@@ -84,6 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 <div> </div>
 
 ### -param portId 
+
 [in]
 The source switch port identifier.
 
@@ -92,8 +86,8 @@ The source switch port identifier.
 
 The location of the run-time state output result buffer.
 
-
 ### -param runtimeStateLength 
+
 [out]
 The length, in bytes, of the run-time state information in the run-time state buffer.
 
@@ -102,10 +96,7 @@ The length, in bytes, of the run-time state information in the run-time state bu
 
 The location of the run-time state output result buffer.
 
-
 ## -returns
-
-
 
 A callout's 
   
@@ -150,14 +141,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver registers a <i>vSwitchRuntimeStateSaveNotifyFn</i> function  by calling  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function.
@@ -172,13 +157,7 @@ A callout can return STATUS_PENDING from <i>vSwitchRuntimeStateSaveNotifyFn</i>.
 
 See the <i>vSwitchRuntimeStateRestoreNotifyFn</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>) function for information about restoring the run-time state.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
@@ -213,7 +192,4 @@ See the <i>vSwitchRuntimeStateRestoreNotifyFn</i> (<a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save">OID_SWITCH_NIC_SAVE</a>
- 
-
- 
 

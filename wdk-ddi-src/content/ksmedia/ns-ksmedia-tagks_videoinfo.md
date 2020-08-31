@@ -8,9 +8,6 @@ ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.date: 04/23/2018
 keywords: ["tagKS_VIDEOINFO structure"]
 ms.keywords: "*PKS_VIDEOINFO, KS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], PKS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, stream.ks_videoinfo, tagKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml"
-f1_keywords:
- - "ksmedia/KS_VIDEOINFO"
- - "KS_VIDEOINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_VIDEOINFO
 targetos: Windows
 req.typenames: KS_VIDEOINFO, *PKS_VIDEOINFO
+f1_keywords:
+ - tagKS_VIDEOINFO
+ - ksmedia/tagKS_VIDEOINFO
+ - PKS_VIDEOINFO
+ - ksmedia/PKS_VIDEOINFO
+ - KS_VIDEOINFO
+ - ksmedia/KS_VIDEOINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_VIDEOINFO
 ---
 
 # tagKS_VIDEOINFO structure
@@ -46,64 +50,47 @@ req.typenames: KS_VIDEOINFO, *PKS_VIDEOINFO
 
 ## -description
 
-
 The KS_VIDEOINFO structure describes the bitmap and color information for a video stream.
-
 
 ## -struct-fields
 
-
-
-
 ### -field rcSource
 
-Specifies a clipping rectangle that selects the portion of the active video signal to use. 
-
+Specifies a clipping rectangle that selects the portion of the active video signal to use.
 
 ### -field rcTarget
 
 Specifies a rectangle that indicates which part of the target buffer to use.
 
-
 ### -field dwBitRate
 
 Specifies a value that indicates the video stream's approximate data rate, in bits per second.
-
 
 ### -field dwBitErrorRate
 
 Specifies a value that indicates the video stream's data error rate, in bit errors per second.
 
-
 ### -field AvgTimePerFrame
 
 Specifies the average time per frame in 100-nanosecond units.
-
 
 ### -field bmiHeader
 
 Describes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
-
 ### -field bmiColors
 
 Array of KS_RGBQUAD structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
-
 
 ### -field dwBitMasks
 
 Array of DWORD values that specify true-color bitmasks.
 
-
 ### -field TrueColorInfo
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tag_ks_truecolorinfo">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
 
-
 ## -remarks
-
-
 
 This structure must not be used unless the <b>biSize</b> member of the KS_BITMAPINFOHEADER member is set to <b>sizeof</b>(KS_BITMAPINFOHEADER).
 
@@ -113,13 +100,7 @@ Ideally, a sink filter checks <b>rcSource</b> and if the sink filter does not su
 
 The <b>rcTarget</b> member specifies the destination rectangle for the video. Most source filters set this member to all zeros. A downstream filter can request that the video be placed in a particular area of the buffers it supplies. In this case, it calls the Win32 function <b>QueryAccept</b> with a nonempty target.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a>
 
@@ -130,7 +111,4 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tag_ks_truecolorinfo">KS_TRUECOLORINFO</a>
- 
-
- 
 

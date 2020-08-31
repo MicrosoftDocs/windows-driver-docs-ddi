@@ -8,9 +8,6 @@ ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.date: 07/03/2018
 keywords: ["IPrintOemUni::ImageProcessing"]
 ms.keywords: IPrintOemUni interface [Print Devices],ImageProcessing method, IPrintOemUni.ImageProcessing, IPrintOemUni::ImageProcessing, ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.ImageProcessing"
- - "IPrintOemUni.ImageProcessing"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni.ImageProcessing
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::ImageProcessing
+ - prcomoem/IPrintOemUni::ImageProcessing
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni.ImageProcessing
 ---
 
 # IPrintOemUni::ImageProcessing
@@ -46,29 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni::ImageProcessing</code> method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning. The method can return the modified bitmap to Unidrv or send it directly to the print spooler.
 
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
-
 ### -param pSrcBitmap
 
 Caller-supplied pointer to an input <a href="https://docs.microsoft.com/windows-hardware/drivers/">DIB</a>.
 
-
 ### -param pBitmapInfoHeader
 
 Caller-supplied pointer to a BITMAPINFOHEADER structure that describes the bitmap pointed to by <i>pSrcBitmap</i>. The BITMAPINFOHEADER structure is described in the Microsoft Windows SDK documentation.
-
 
 ### -param pColorTable
 
@@ -76,18 +68,16 @@ Caller-supplied pointer to a color table. This parameter is used only if the out
 
 When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the <i>pPaletteEntry</i> parameter in <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>.
 
-
 ### -param dwCallbackID
 
 Caller-supplied value assigned to the *<b>IPCallbackID</b> attribute of the currently selected option for the ColorMode feature. For more information, see the following Remarks section.
-
 
 ### -param pIPParams
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-ipparams">IPPARAMS</a> structure.
 
-
 ### -param ppbResult 
+
 [out]
 Pointer to a memory location that contains the address of a buffer. The contents of the buffer depend on where the converted DIB should be sent.
 
@@ -95,10 +85,7 @@ If this method intends to send the converted DIB back to Unidrv and is successfu
 
 If this method intends to send the converted DIB to the spooler and is successful in the conversion, the method should set *<i>ppbResult</i>  to <b>TRUE</b>, and should return S_OK. If the conversion fails, the method should set *<i>ppbResult</i> to <b>FALSE</b> and should return E_FAIL. For more information, see the discussion of the *<b>DevBPP</b> and *<b>DevNumOfPlanes</b> attributes in the Remarks section.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -147,11 +134,7 @@ The method is not implemented.
 <h3><a id="source_bitmap_characteristics"></a><a id="SOURCE_BITMAP_CHARACTERISTICS"></a>Source Bitmap Characteristics</h3>
 <h3><a id="destination_bitmap_characteristics"></a><a id="DESTINATION_BITMAP_CHARACTERISTICS"></a>Destination Bitmap Characteristics</h3>
 
-
-
 ## -remarks
-
-
 
 The <code>IPrintOemUni::ImageProcessing</code> method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the *DevBPP and *DevNumOfPlanes attributes to zero in the printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> file.
 
@@ -251,13 +234,7 @@ The BITMAPINFOHEADER structure specified by <i>pBitmapInfoHeader</i> must descri
 </ul>
 The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "ImageProcessing" as input.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>
 
@@ -268,7 +245,4 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-filtergraphics">IPrintOemUni::FilterGraphics</a>
- 
-
- 
 

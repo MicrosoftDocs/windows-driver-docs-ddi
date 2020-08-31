@@ -8,9 +8,6 @@ ms.assetid: 7532c8b5-e77b-4fd0-bac2-78254f6eb9f6
 ms.date: 03/29/2018
 keywords: ["ChangerMoveMedium function"]
 ms.keywords: ChangerMoveMedium, ChangerMoveMedium function [Storage Devices], chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml, mcd/ChangerMoveMedium, storage.changermovemedium
-f1_keywords:
- - "mcd/ChangerMoveMedium"
- - "ChangerMoveMedium"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mcd.h
-api_name:
-- ChangerMoveMedium
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ChangerMoveMedium
+ - mcd/ChangerMoveMedium
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mcd.h
+api_name:
+ - ChangerMoveMedium
 ---
 
 # ChangerMoveMedium function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-<b>ChangerMoveMedium</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_move_medium">IOCTL_CHANGER_MOVE_MEDIUM</a>. 
-
+<b>ChangerMoveMedium</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_move_medium">IOCTL_CHANGER_MOVE_MEDIUM</a>.
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
-[in]
-Pointer to the device object that represents the changer. 
 
+[in]
+Pointer to the device object that represents the changer.
 
 ### -param Irp 
-[in]
-Pointer to the IRP. 
 
+[in]
+Pointer to the IRP.
 
 ## -returns
-
-
 
 <b>ChangerMoveMedium</b> returns the status returned by the system port driver, or one of the following values:
       
@@ -86,12 +79,7 @@ STATUS_INSUFFICIENT_RESOURCES
 
 STATUS_SOURCE_ELEMENT_EMPTY
 
-
-
-
 ## -remarks
-
-
 
 This routine is required.
 
@@ -101,15 +89,9 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 <b>ChangerMoveMedium</b> first verifies that the transport, source, and destination element addresses are valid and then converts zero-based element addresses to device-specific addresses. It then builds an SRB with a CDB to move the piece of media and sends it to the system port driver.
 
-<b>ChangerMoveMedium</b> sets the <b>Information</b> field in the I/O status block to <b>sizeof</b>(CHANGER_MOVE_MEDIUM) before returning to the changer class driver. 
-
-
-
+<b>ChangerMoveMedium</b> sets the <b>Information</b> field in the I/O status block to <b>sizeof</b>(CHANGER_MOVE_MEDIUM) before returning to the changer class driver.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_move_medium">,</a>
 
@@ -124,7 +106,4 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerexchangemedium">ChangerExchangeMedium</a>
- 
-
- 
 

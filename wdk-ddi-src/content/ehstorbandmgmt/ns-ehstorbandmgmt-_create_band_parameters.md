@@ -8,9 +8,6 @@ ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
 ms.date: 03/29/2018
 keywords: ["CREATE_BAND_PARAMETERS structure"]
 ms.keywords: "*PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], PCREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], _CREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, storage.create_band_parameters"
-f1_keywords:
- - "ehstorbandmgmt/CREATE_BAND_PARAMETERS"
- - "CREATE_BAND_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorBandMgmt.h
-api_name:
-- CREATE_BAND_PARAMETERS
 targetos: Windows
 req.typenames: CREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS
+f1_keywords:
+ - _CREATE_BAND_PARAMETERS
+ - ehstorbandmgmt/_CREATE_BAND_PARAMETERS
+ - PCREATE_BAND_PARAMETERS
+ - ehstorbandmgmt/PCREATE_BAND_PARAMETERS
+ - CREATE_BAND_PARAMETERS
+ - ehstorbandmgmt/CREATE_BAND_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorBandMgmt.h
+api_name:
+ - CREATE_BAND_PARAMETERS
 ---
 
 # _CREATE_BAND_PARAMETERS structure
@@ -46,19 +50,13 @@ req.typenames: CREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS
 
 ## -description
 
-
 The parameters to create a band on a storage device for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a> request are specified in a <b>CREATE_BAND_PARAMETERS</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(CREATE_BAND_PARAMETERS).
-
 
 ### -field Flags
 
@@ -80,18 +78,14 @@ The authentication key for this band is cached, which allows automation of later
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BandLocationInfoOffset
 
 The offset, in bytes, of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a> structure. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>.
 
-
 ### -field BandSecurityInfoOffset
 
 The offset, in bytes, of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structure. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>. If this value is 0, meaning band security info is not present, key manager metadata for the band is set to all zeros. Also, when this member is 0, the read and write lock states default to PERSISTANT_UNLOCK.
-
 
 ### -field AuthKeyOffset
 
@@ -127,20 +121,11 @@ A variable length byte array that contains the key data.
 
 To assign a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
-
 ## -remarks
-
-
 
 The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structure at <b>BandSecurityInfoOffset</b> are not used in a band creation request and must be set to 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a>
 
@@ -151,7 +136,4 @@ The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a hre
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
- 
-
- 
 

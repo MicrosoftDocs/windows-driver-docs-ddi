@@ -8,9 +8,6 @@ ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.date: 02/15/2018
 keywords: ["CIP_FRAME structure"]
 ms.keywords: "*PCIP_FRAME, 61883/CIP_FRAME, 61883/PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, CIP_FRAME, CIP_FRAME structure [Buses], IEEE.cip_frame, PCIP_FRAME, PCIP_FRAME structure pointer [Buses], _CIP_FRAME"
-f1_keywords:
- - "61883/CIP_FRAME"
- - "CIP_FRAME"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 61883.h
-api_name:
-- CIP_FRAME
 targetos: Windows
 req.typenames: CIP_FRAME, *PCIP_FRAME
+f1_keywords:
+ - _CIP_FRAME
+ - 61883/_CIP_FRAME
+ - PCIP_FRAME
+ - 61883/PCIP_FRAME
+ - CIP_FRAME
+ - 61883/CIP_FRAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 61883.h
+api_name:
+ - CIP_FRAME
 ---
 
 # _CIP_FRAME structure
@@ -46,22 +50,15 @@ req.typenames: CIP_FRAME, *PCIP_FRAME
 
 ## -description
 
-
-The CIP_FRAME structure describes a frame to be attached to an input or output plug.  
-
+The CIP_FRAME structure describes a frame to be attached to an input or output plug.
 
 ## -struct-fields
 
-
-
-
 ### -field Reserved
-
 
 ### -field pNext
 
 Reserved for internal use.
-
 
 ### -field Flags
 
@@ -123,8 +120,7 @@ For packets to be transmitted or received, <b>Flags</b> can also be set with the
 
 #### CIP_RESET_FRAME_ON_DISCONTINUITY
 
-Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
-
+Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet.
 
 ### -field pfnValidate
 
@@ -147,7 +143,6 @@ Points to a caller-supplied function to validate a source packet. This function 
 ### -field ValidateContext
 
 Points to an optional caller-defined context for the function at <b>pfnValidate</b>. If the function does not require a context, <b>ValidateContext</b> can be <b>NULL</b>.
-
 
 ### -field pfnNotify
 
@@ -172,13 +167,11 @@ This function uses the following prototype:
 
 
 
-##### 
-
+#####
 
 ### -field NotifyContext
 
 Points to an optional caller-defined context for the caller-supplied function at <b>pfnNotify</b>. If the function does not require a context, <b>NotifyContext</b> can be <b>NULL</b>.
-
 
 ### -field Timestamp
 
@@ -187,7 +180,6 @@ The time associated with completion of the frame.
 For packets to be received, the protocol driver sets this member to the time when transmission of the frame was completed, unless CIP_USE_SOURCE_HEADER_TIMESTAMP is set in <b>Flags</b>. 
 
 For packets to be transmitted, CIP-DV_STYLE_SYT or CIP_AUDIO_STYLE_SYT in <b>Flags</b> indicates the format of the timestamp.
-
 
 ### -field Status
 
@@ -199,26 +191,17 @@ CIP_STATUS_CORRUPT_FRAME
 
 CIP_STATUS_FIRST_FRAME
 
-
 ### -field Packet
 
 Points to the beginning of a caller-allocated data buffer to be transmitted or received with this frame. The frame length specified in the associated <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a> request indicates the size of the buffer.
 
-
 ### -field CompletedBytes
 
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
- 
-
- 
 

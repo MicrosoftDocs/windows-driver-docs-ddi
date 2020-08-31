@@ -8,9 +8,6 @@ ms.assetid: 92ae8382-49f3-4bfc-917a-047991953809
 ms.date: 04/20/2018
 keywords: ["OEMResetPDEV function"]
 ms.keywords: OEMResetPDEV, OEMResetPDEV function [Print Devices], print.oemresetpdev, print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml, printoem/OEMResetPDEV
-f1_keywords:
- - "printoem/OEMResetPDEV"
- - "OEMResetPDEV"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMResetPDEV
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMResetPDEV
+ - printoem/OEMResetPDEV
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMResetPDEV
 ---
 
 # OEMResetPDEV function
@@ -46,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
 
-
-
-
 ### -param pdevobjOld
-
 
 ### -param pdevobjNew
 

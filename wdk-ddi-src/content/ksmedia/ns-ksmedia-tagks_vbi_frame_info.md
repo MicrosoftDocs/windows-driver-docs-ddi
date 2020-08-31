@@ -8,9 +8,6 @@ ms.assetid: ae6ba1c3-0729-41bd-9fd5-62969bf4b70c
 ms.date: 04/23/2018
 keywords: ["tagKS_VBI_FRAME_INFO structure"]
 ms.keywords: "*PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO structure [Streaming Media Devices], PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_VBI_FRAME_INFO, ksmedia/PKS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, tagKS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml"
-f1_keywords:
- - "ksmedia/KS_VBI_FRAME_INFO"
- - "KS_VBI_FRAME_INFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_VBI_FRAME_INFO
 targetos: Windows
 req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
+f1_keywords:
+ - tagKS_VBI_FRAME_INFO
+ - ksmedia/tagKS_VBI_FRAME_INFO
+ - PKS_VBI_FRAME_INFO
+ - ksmedia/PKS_VBI_FRAME_INFO
+ - KS_VBI_FRAME_INFO
+ - ksmedia/KS_VBI_FRAME_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_VBI_FRAME_INFO
 ---
 
 # tagKS_VBI_FRAME_INFO structure
@@ -46,19 +50,13 @@ req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 
 ## -description
 
-
 The KS_VBI_FRAME_INFO structure extends the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> structure for vertical blanking interval (VBI) streams.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ExtendedHeaderSize
 
 Specifies the size of this structure.
-
 
 ### -field dwFrameFlags
 
@@ -140,37 +138,28 @@ Indicates that the <b>VBIInfoHeader</b> member structure contains valid data
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PictureNumber
 
 Specifies a count representing the current picture number. Initialize or update this value on transition into KSSTATE_ACQUIRE.
 
-
 ### -field DropCount
 
 Specifies the number of pictures that were not captured. When capturing video, the minidriver sets this member. This counter should be incremented whenever a frame should have been captured but was not; this condition usually arises when no buffers were available during capture. Initialize or update this value on transition into KSSTATE_ACQUIRE.
-
 
 ### -field dwSamplingFrequency
 
 Specifies the sampling frequency in hertz (Hz).
 
-
 ### -field TvTunerChangeInfo
 
-Specifies information about the current VBI data source, including country/region code, analog video standard, and channel. This member is only valid if <b>dwFrameFlags</b> specifies the KS_VBI_FLAG_TVTUNER_CHANGE flag. 
-
+Specifies information about the current VBI data source, including country/region code, analog video standard, and channel. This member is only valid if <b>dwFrameFlags</b> specifies the KS_VBI_FLAG_TVTUNER_CHANGE flag.
 
 ### -field VBIInfoHeader
 
 Specifies information about the current VBI data source, including start line, end line, sampling frequency, and video standard. This member is only valid if <b>dwFrameFlags</b> specifies the KS_VBI_FLAG_VBIINFOHEADER_CHANGE flag.
 
-
 ## -remarks
-
-
 
 The KS_VBI_FRAME_INFO structure provides a way to return information about a captured frame, as well as providing tuning information to VBI decoders.
 
@@ -190,13 +179,7 @@ When calculating the <b>PictureNumber</b> and <b>DropCount</b>, it is important 
 
 The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but may be used by other WDM codecs. It must be the same as the <b>VBIInfoHeader</b>.<i>SamplingFrequency</i> member. A minidriver indicates a change in sampling frequency by setting the KS_VBI_FLAG_VBIINFOHEADER_CHANGE bit in the <b>dwFrameFlags</b> member, and filling in all members, including <b>dwSamplingFrequency</b>, in the <b>VBIInfoHeader</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>
 
@@ -207,7 +190,4 @@ The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_vbiinfoheader">KS_VBIINFOHEADER</a>
- 
-
- 
 

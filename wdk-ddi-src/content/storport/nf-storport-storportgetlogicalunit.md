@@ -8,9 +8,6 @@ ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
 ms.date: 03/29/2018
 keywords: ["StorPortGetLogicalUnit function"]
 ms.keywords: StorPortGetLogicalUnit, StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit, storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml
-f1_keywords:
- - "storport/StorPortGetLogicalUnit"
- - "StorPortGetLogicalUnit"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortGetLogicalUnit
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetLogicalUnit
+ - storport/StorPortGetLogicalUnit
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortGetLogicalUnit
 ---
 
 # StorPortGetLogicalUnit function
+
 
 ## -description
 
@@ -51,18 +52,22 @@ The **StorPortGetLogicalUnit** routine returns a pointer to the miniport driver'
 ## -parameters
 
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver as soon as the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine is called. The port driver frees this memory when it removes the device.
 
 ### -param PathId 
+
 [in]
 Identifies the SCSI bus.
 
 ### -param TargetId 
+
 [in]
 Identifies the target controller or device on the bus.
 
 ### -param Lun 
+
 [in]
 Identifies the logical unit (LU) number of the target device.
 
@@ -88,3 +93,4 @@ The operating system-specific port driver can consider a logical unit to be none
 [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
+

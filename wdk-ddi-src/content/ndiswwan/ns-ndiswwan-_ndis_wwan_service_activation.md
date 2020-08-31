@@ -8,9 +8,6 @@ ms.assetid: 0dbfa56f-a755-402d-b403-a04fc183c031
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SERVICE_ACTIVATION structure"]
 ms.keywords: "*PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION, PNDIS_WWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_78a89315-d2f0-460f-9c8b-b6bf92d3b267.xml, _NDIS_WWAN_SERVICE_ACTIVATION, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION, netvista.ndis_wwan_service_activation"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION"
- - "NDIS_WWAN_SERVICE_ACTIVATION"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SERVICE_ACTIVATION
 targetos: Windows
 req.typenames: NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION
+f1_keywords:
+ - _NDIS_WWAN_SERVICE_ACTIVATION
+ - ndiswwan/_NDIS_WWAN_SERVICE_ACTIVATION
+ - PNDIS_WWAN_SERVICE_ACTIVATION
+ - ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION
+ - NDIS_WWAN_SERVICE_ACTIVATION
+ - ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SERVICE_ACTIVATION
 ---
 
 # _NDIS_WWAN_SERVICE_ACTIVATION structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION
 
 ## -description
 
-
 The NDIS_WWAN_SERVICE_ACTIVATION structure represents the command that is used to set the service
   activation state of the MB device in order to obtain access to the provider's network.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,25 +105,17 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field ServiceActivation
 
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_service_activation">WWAN_SERVICE_ACTIVATION</a> structure
      that represents the service activation state of the device.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_service_activation">WWAN_SERVICE_ACTIVATION</a>
- 
-
- 
 

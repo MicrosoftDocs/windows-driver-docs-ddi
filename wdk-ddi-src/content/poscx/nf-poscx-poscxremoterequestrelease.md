@@ -8,9 +8,6 @@ ms.assetid: 1755E30C-15F8-41A9-9F4C-26455C92B66A
 ms.date: 02/23/2018
 keywords: ["PosCxRemoteRequestRelease function"]
 ms.keywords: PosCxRemoteRequestRelease, PosCxRemoteRequestRelease function, pos.poscxremoterequestrelease, poscx/PosCxRemoteRequestRelease
-f1_keywords:
- - "poscx/PosCxRemoteRequestRelease"
- - "PosCxRemoteRequestRelease"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxRemoteRequestRelease
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxRemoteRequestRelease
+ - poscx/PosCxRemoteRequestRelease
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxRemoteRequestRelease
 ---
 
 # PosCxRemoteRequestRelease function
@@ -47,29 +47,22 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 PosCxRemoteRequestRelease is called whenever a remote device asks for
       the device to release.  This initiates claim negotiation.
 
-
 ## -parameters
 
-
-
-
 ### -param device 
+
 [in]
 A handle to a framework device object that represents the device.
 
-
 ### -param deviceInterfaceTag 
+
 [in]
 The device interface that initiated the release request.
 
-
 ## -returns
-
-
 
 Possible return values are:
 
@@ -83,7 +76,4 @@ Possible return values are:
 <td>The PosCx library was not successfully initialized.</td>
 </tr>
 </table>
- 
-
-
 

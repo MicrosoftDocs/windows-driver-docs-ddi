@@ -8,9 +8,6 @@ ms.assetid: b2245810-8f3c-4955-b341-46df4a71707c
 ms.date: 04/30/2018
 keywords: ["PLUGPLAY_NOTIFICATION_HEADER structure"]
 ms.keywords: "*PPLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER structure [Kernel-Mode Driver Architecture], PPLUGPLAY_NOTIFICATION_HEADER, PPLUGPLAY_NOTIFICATION_HEADER structure pointer [Kernel-Mode Driver Architecture], _PLUGPLAY_NOTIFICATION_HEADER, kernel.plugplay_notification_header, kstruct_c_3b18984d-35cf-4787-b887-a8916a89569b.xml, wdm/PLUGPLAY_NOTIFICATION_HEADER, wdm/PPLUGPLAY_NOTIFICATION_HEADER"
-f1_keywords:
- - "wdm/PLUGPLAY_NOTIFICATION_HEADER"
- - "PLUGPLAY_NOTIFICATION_HEADER"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PLUGPLAY_NOTIFICATION_HEADER
 targetos: Windows
 req.typenames: PLUGPLAY_NOTIFICATION_HEADER, *PPLUGPLAY_NOTIFICATION_HEADER
+f1_keywords:
+ - _PLUGPLAY_NOTIFICATION_HEADER
+ - wdm/_PLUGPLAY_NOTIFICATION_HEADER
+ - PPLUGPLAY_NOTIFICATION_HEADER
+ - wdm/PPLUGPLAY_NOTIFICATION_HEADER
+ - PLUGPLAY_NOTIFICATION_HEADER
+ - wdm/PLUGPLAY_NOTIFICATION_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PLUGPLAY_NOTIFICATION_HEADER
 ---
 
 # _PLUGPLAY_NOTIFICATION_HEADER structure
@@ -46,43 +50,27 @@ req.typenames: PLUGPLAY_NOTIFICATION_HEADER, *PPLUGPLAY_NOTIFICATION_HEADER
 
 ## -description
 
-
 A <b>PLUGPLAY_NOTIFICATION_HEADER</b> structure is included at the beginning of each PnP notification structure, such as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_interface_change_notification">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a> structure.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
-Specifies the version of the data structure, currently set to 1. 
-
+Specifies the version of the data structure, currently set to 1.
 
 ### -field Size
 
-Specifies the size of the structure, in bytes. 
-
+Specifies the size of the structure, in bytes.
 
 ### -field Event
 
-Specifies a GUID identifying the event. 
-
+Specifies a GUID identifying the event.
 
 ## -remarks
 
-
-
 Drivers can cast a PnP notification structure to this type to access the <b>Event</b> field and identify the exact type of the structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_interface_change_notification">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
 
@@ -101,7 +89,4 @@ Drivers can cast a PnP notification structure to this type to access the <b>Even
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_removal_notification">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
- 
-
- 
 

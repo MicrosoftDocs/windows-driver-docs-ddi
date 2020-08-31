@@ -8,9 +8,6 @@ ms.assetid: f22be66a-1f1c-4999-a99e-9a8575313239
 ms.date: 04/30/2018
 keywords: ["POWER_THROTTLING_PROCESS_STATE structure"]
 ms.keywords: "*PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, ntddk/POWER_THROTTLING_PROCESS_STATE"
-f1_keywords:
- - "ntddk/POWER_THROTTLING_PROCESS_STATE"
- - "POWER_THROTTLING_PROCESS_STATE"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- POWER_THROTTLING_PROCESS_STATE
 targetos: Windows
 req.typenames: POWER_THROTTLING_PROCESS_STATE, *PPOWER_THROTTLING_PROCESS_STATE
+f1_keywords:
+ - _POWER_THROTTLING_PROCESS_STATE
+ - ntddk/_POWER_THROTTLING_PROCESS_STATE
+ - PPOWER_THROTTLING_PROCESS_STATE
+ - ntddk/PPOWER_THROTTLING_PROCESS_STATE
+ - POWER_THROTTLING_PROCESS_STATE
+ - ntddk/POWER_THROTTLING_PROCESS_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - POWER_THROTTLING_PROCESS_STATE
 ---
 
 # _POWER_THROTTLING_PROCESS_STATE structure
@@ -46,19 +50,13 @@ req.typenames: POWER_THROTTLING_PROCESS_STATE, *PPOWER_THROTTLING_PROCESS_STATE
 
 ## -description
 
-
 Stores the throttling policies and how to apply them to a target process when that process is subject to power management.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. Set to PROCESS_POWER_THROTTLING_CURRENT_VERSION.
-
 
 ### -field ControlMask
 
@@ -75,3 +73,4 @@ Flags that manage the power throttling mechanism on/off state.
 <ul>
 <li>PROCESS_POWER_THROTTLING_EXECUTION_SPEED: Manages the execution speed of the process.</li>
 </ul>
+

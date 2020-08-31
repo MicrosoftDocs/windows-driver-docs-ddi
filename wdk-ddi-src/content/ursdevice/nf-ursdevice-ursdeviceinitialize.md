@@ -8,9 +8,6 @@ ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.date: 05/07/2018
 keywords: ["UrsDeviceInitialize function"]
 ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize
-f1_keywords:
- - "ursdevice/UrsDeviceInitialize"
- - "UrsDeviceInitialize"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Urscxstub.lib
-- Urscxstub.dll
-api_name:
-- UrsDeviceInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UrsDeviceInitialize
+ - ursdevice/UrsDeviceInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Urscxstub.lib
+ - Urscxstub.dll
+api_name:
+ - UrsDeviceInitialize
 ---
 
 # UrsDeviceInitialize function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 Initializes a framework device object to support operations related to  a USB dual-role controller and registers the relevant event callback functions with the USB dual-role controller class extension.
-
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
-
 ### -param Config 
+
 [in]
  A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> structure that the client driver initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>.
 
-
 ## -returns
 
-
-
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-
-
-
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -remarks
-
-
 
 The client driver for the USB dual-role controller must call this method after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. 
 
@@ -145,19 +133,11 @@ EvtDriverDeviceAdd (
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>
- 
-
- 
 

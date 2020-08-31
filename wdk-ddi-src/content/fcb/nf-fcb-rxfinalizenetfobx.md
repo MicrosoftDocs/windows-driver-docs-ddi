@@ -8,9 +8,6 @@ ms.assetid: 052e7995-fab8-4863-a3a2-8b9bd6f21ec9
 ms.date: 04/16/2018
 keywords: ["RxFinalizeNetFobx function"]
 ms.keywords: RxFinalizeNetFOBX, RxFinalizeNetFobx, RxFinalizeNetFobx function [Installable File System Drivers], fcb/RxFinalizeNetFobx, ifsk.rxfinalizenetfobx, rxref_72a759e2-f9e6-44ce-b561-cb968b668a6f.xml
-f1_keywords:
- - "fcb/RxFinalizeNetFobx"
- - "RxFinalizeNetFobx"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fcb.h
-api_name:
-- RxFinalizeNetFobx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxFinalizeNetFobx
+ - fcb/RxFinalizeNetFobx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fcb.h
+api_name:
+ - RxFinalizeNetFobx
 ---
 
 # RxFinalizeNetFobx function
@@ -46,58 +46,40 @@ req.typenames:
 
 ## -description
 
-
-<b>RxFinalizeNetFOBX</b> finalizes the given FOBX structure. The caller must have an exclusive lock on the FCB associated with FOBX structure. 
-
+<b>RxFinalizeNetFOBX</b> finalizes the given FOBX structure. The caller must have an exclusive lock on the FCB associated with FOBX structure.
 
 ## -parameters
 
-
-
-
 ### -param ThisFobx 
+
 [out]
 A pointer to the FOBX structure to finalize.
 
-
 ### -param RecursiveFinalize 
+
 [in]
 The value indicating whether the finalization should be done recursively. This parameter is not currently used.
 
-
 ### -param ForceFinalize 
+
 [in]
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
-If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the FOBX structure pointed to by <i>ThisFobx </i>must be 0 for the FOBX to be finalized. 
-
+If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the FOBX structure pointed to by <i>ThisFobx </i>must be 0 for the FOBX to be finalized.
 
 ## -returns
 
-
-
-<b>RxFinalizeNetFOBX</b> returns <b>TRUE</b> on success or <b>FALSE</b> if the finalization did not occur: 
-
-
-
+<b>RxFinalizeNetFOBX</b> returns <b>TRUE</b> on success or <b>FALSE</b> if the finalization did not occur:
 
 ## -remarks
-
-
 
 The <b>RxFinalizeNetFOBX</b> routine is not normally called by network mini-redirector drivers directly. RDBSS calls this routine internally when an I/O request packet is received for IRP_MJ_CLOSE. This IRP is normally received by RDBSS in response to a user-mode application requesting a file close operation. It is also possible for another kernel driver to issue such an IRP. 
 
 Before calling <b>RxFinalizeNetFOBX</b>, a lock on the FCB structure must be acquired in exclusive mode. 
 
-The <b>RxFinalizeNetFOBX</b> routine will call the <b>MRxDeallocateForFobx</b> routine provided by the network mini-redirector to free the memory for the FOBX if the network mini-redirector supports this routine. 
-
-
-
+The <b>RxFinalizeNetFOBX</b> routine will call the <b>MRxDeallocateForFobx</b> routine provided by the network mini-redirector to free the memory for the FOBX if the network mini-redirector supports this routine.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxcreatenetfcb">RxCreateNetFcb</a>
 
@@ -180,7 +162,4 @@ The <b>RxFinalizeNetFOBX</b> routine will call the <b>MRxDeallocateForFobx</b> r
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
- 
-
- 
 

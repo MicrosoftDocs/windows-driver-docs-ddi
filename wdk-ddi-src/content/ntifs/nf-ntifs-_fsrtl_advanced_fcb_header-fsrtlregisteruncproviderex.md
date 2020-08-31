@@ -8,9 +8,6 @@ ms.assetid: 5b7302c1-2f31-4b9f-bddb-7b35bbee4a2c
 ms.date: 04/16/2018
 keywords: ["FsRtlRegisterUncProviderEx function"]
 ms.keywords: FsRtlRegisterUncProviderEx, FsRtlRegisterUncProviderEx routine [Installable File System Drivers], fsrtlref_ae033ff2-3d3a-468c-973d-d6a78a2293a2.xml, ifsk.fsrtlregisteruncproviderex, ntifs/FsRtlRegisterUncProviderEx
-f1_keywords:
- - "ntifs/FsRtlRegisterUncProviderEx"
- - "FsRtlRegisterUncProviderEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlRegisterUncProviderEx
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlRegisterUncProviderEx
+ - ntifs/FsRtlRegisterUncProviderEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlRegisterUncProviderEx
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlRegisterUncProviderEx function
@@ -49,31 +49,27 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlRegisterUncProviderEx</b> routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
-
 
 ## -parameters
 
-
-
-
 ### -param MupHandle 
+
 [out]
 A pointer to a location in which to return a MUP handle to be used when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProviderEx</b> returns STATUS_SUCCESS.
 
-
 ### -param RedirDevName 
+
 [in]
 A pointer to a Unicode string that contains the device name of the network redirector. MUP uses this device name to create a symbolic link in the Object Manager namespace whose target is \Device\Mup.
 
-
 ### -param DeviceObject 
-[in]
-A pointer to an unnamed device object that represents the network redirector. 
 
+[in]
+A pointer to an unnamed device object that represents the network redirector.
 
 ### -param Flags 
+
 [in]
 A bitmask that indicates features supported by the network redirector. A network redirector sets a bit to indicate that a feature is supported. The <i>Flags</i> parameter has two options: 
 
@@ -85,10 +81,7 @@ FSRTL_UNC_PROVIDER_FLAGS_CSC_ENABLED
 
 The network redirector supports offline access using client-side caching.
 
-
 ## -returns
-
-
 
 <b>FsRtlRegisterUncProviderEx</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value such as one of the following: 
 
@@ -175,14 +168,8 @@ An object type mismatch was encountered with the <i>DeviceObject</i> parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A network redirector must register with the multiple UNC provider (MUP) to handle Universal Naming Convention (UNC) names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
 
@@ -235,14 +222,7 @@ For more information, see the following sections in the Design Guide:
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545738">FsRtlCancellableWaitForSingleObject</a>
 
@@ -269,7 +249,4 @@ For more information, see the following sections in the Design Guide:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a>
- 
-
- 
 

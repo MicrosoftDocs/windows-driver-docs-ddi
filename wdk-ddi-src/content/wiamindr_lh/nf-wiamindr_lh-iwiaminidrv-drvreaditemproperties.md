@@ -8,13 +8,10 @@ ms.assetid: 015c2e02-62aa-4037-9974-c8e4b8784fe5
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvReadItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvReadItemProperties method, IWiaMiniDrv.drvReadItemProperties, IWiaMiniDrv::drvReadItemProperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], drvReadItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvreaditemproperties, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvReadItemProperties"
- - "IWiaMiniDrv.drvReadItemProperties"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvReadItemProperties
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvReadItemProperties
+ - wiamindr_lh/IWiaMiniDrv::drvReadItemProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvReadItemProperties
 ---
 
 # IWiaMiniDrv::drvReadItemProperties
+
 
 ## -description
 
@@ -128,3 +129,4 @@ In this method, the minidriver should read the requested properties from the dev
 [wiasWritePropLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswriteproplong)
 
 [wiasWritePropStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropstr)
+

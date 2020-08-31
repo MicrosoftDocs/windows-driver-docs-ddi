@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DestroyExtensionDevice"
- - "DestroyExtensionDevice"
+ - PFND3DDDI_DESTROYEXTENSIONDEVICE
+ - d3dumddi/PFND3DDDI_DESTROYEXTENSIONDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DESTROYEXTENSIONDEVICE callback function
+
 
 ## -description
 

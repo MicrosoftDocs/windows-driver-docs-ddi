@@ -8,9 +8,6 @@ ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
 ms.date: 07/28/2020
 keywords: ["PcwAddInstance function"]
 ms.keywords: PcwAddInstance, PcwAddInstance function [Driver Development Tools], devtest.pcwaddinstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance
-f1_keywords:
- - "wdm/PcwAddInstance"
- - "PcwAddInstance"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PcwAddInstance
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcwAddInstance
+ - wdm/PcwAddInstance
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PcwAddInstance
 ---
 
 # PcwAddInstance function
+
 
 ## -description
 
@@ -121,3 +122,4 @@ The CTRPP-generated Add function will be named *Prefix*Add*Counterset*. *Prefix*
 ## -see-also
 
 [PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
+

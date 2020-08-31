@@ -5,38 +5,38 @@ description: The GetParentModel method returns the i-th parent model in the pare
 ms.assetid: 14e98994-5d68-40a2-9891-df34e3e6c93f
 ms.date: 08/09/2018
 keywords: ["IModelObject::GetParentModel"]
-f1_keywords:
- - "dbgmodel/IModelObject.GetParentModel"
- - "IModelObject.GetParentModel"
 ms.keywords: IModelObject::GetParentModel, GetParentModel, IModelObject.GetParentModel, IModelObject::GetParentModel, IModelObject.GetParentModel
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelObject.GetParentModel
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelObject::GetParentModel
+ - dbgmodel/IModelObject::GetParentModel
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelObject.GetParentModel
 ---
 
 # IModelObject::GetParentModel
@@ -44,25 +44,27 @@ ms.custom: RS5
 
 ## -description
 
-The GetParentModel method returns the i-th parent model in the parent model chain of the given object. Parent models are searched for a property or concept in the linear order they are added or enumerated. The parent model with index i of zero is searched (hierarchically) before the parent model with index i + 1. 
+The GetParentModel method returns the i-th parent model in the parent model chain of the given object. Parent models are searched for a property or concept in the linear order they are added or enumerated. The parent model with index i of zero is searched (hierarchically) before the parent model with index i + 1.
 
 ## -parameters
 
 ### -param i
+
 A linear zero based index indicating which parent model in the chain to retrieve.
 
 ### -param model
+
 An [IModelObject](nn-dbgmodel-imodelobject.md) representing the i-th parent model will be returned here.
 
 ### -param contextObject
+
 If the parent model has an associated context adjustor, the adjusted context will be returned here. See the documentation for AddParentModel for more information about this value.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
-
 
 **Code Sample**
 
@@ -92,3 +94,4 @@ if (SUCCEEDED(spObject->GetNumberOfParentModels(&numModels)))
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

@@ -8,9 +8,6 @@ ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.date: 02/26/2018
 keywords: ["IWDFDevice3::CreateInterrupt"]
 ms.keywords: CreateInterrupt, CreateInterrupt method, CreateInterrupt method,IWDFDevice3 interface, IWDFDevice3 interface,CreateInterrupt method, IWDFDevice3.CreateInterrupt, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
-f1_keywords:
- - "wudfddi/IWDFDevice3.CreateInterrupt"
- - "IWDFDevice3.CreateInterrupt"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice3.CreateInterrupt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice3::CreateInterrupt
+ - wudfddi/IWDFDevice3::CreateInterrupt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice3.CreateInterrupt
 ---
 
 # IWDFDevice3::CreateInterrupt
@@ -46,40 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateInterrupt</b> method creates a framework interrupt object.
 
-
-
 ## -parameters
 
-
-
-
 ### -param Configuration 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a> structure that was initialized by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wudf_interrupt_config_init">WUDF_INTERRUPT_CONFIG_INIT</a> macro.
 
-
 ### -param ppInterrupt 
+
 [out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>  interface for the new interrupt object.
 
-
 ## -returns
-
-
 
 The method returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 Your driver must call <b>CreateInterrupt</b> one time for each interrupt vector that its device requires. If the device supports message-signaled interrupts (MSI), the driver must create an interrupt object for each message that the device can support. 
 
@@ -123,12 +110,7 @@ hr = pDevice->Create(&interruptConfig,
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
 
@@ -139,7 +121,4 @@ hr = pDevice->Create(&interruptConfig,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wudf_interrupt_config_init">WUDF_INTERRUPT_CONFIG_INIT</a>
- 
-
- 
 

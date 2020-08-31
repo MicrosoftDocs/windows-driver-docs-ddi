@@ -8,9 +8,6 @@ ms.assetid: 6e7f0995-14d0-4dd3-b598-2f988a2ec4fd
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::ReturnInputWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],ReturnInputWide method, IDebugControl4.ReturnInputWide, IDebugControl4::ReturnInputWide, ReturnInputWide, ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::ReturnInputWide, debugger.returninputwide
-f1_keywords:
- - "dbgeng/IDebugControl4.ReturnInputWide"
- - "IDebugControl4.ReturnInputWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.ReturnInputWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::ReturnInputWide
+ - dbgeng/IDebugControl4::ReturnInputWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.ReturnInputWide
 ---
 
 # IDebugControl4::ReturnInputWide
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReturnInputWide</b>  method is used by <b>IDebugInputCallbacks</b> objects to send an input string to the engine following a request for input.
-
 
 ## -parameters
 
-
-
-
 ### -param Buffer 
+
 [in]
 Specifies the input string being sent to the engine.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -96,14 +89,7 @@ The engine had already received the input it requested. The input string in <i>B
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
 
-
-
 For an overview of input in the debugger engine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
-
 

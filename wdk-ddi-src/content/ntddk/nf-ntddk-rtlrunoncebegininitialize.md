@@ -8,9 +8,6 @@ ms.assetid: ed96b2ec-95ea-47a6-a3b0-f4d018e0c8e2
 ms.date: 04/30/2018
 keywords: ["RtlRunOnceBeginInitialize function"]
 ms.keywords: RtlRunOnceBeginInitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml, kernel.rtlrunoncebegininitialize, ntddk/RtlRunOnceBeginInitialize
-f1_keywords:
- - "ntddk/RtlRunOnceBeginInitialize"
- - "RtlRunOnceBeginInitialize"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlRunOnceBeginInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlRunOnceBeginInitialize
+ - ntddk/RtlRunOnceBeginInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlRunOnceBeginInitialize
 ---
 
 # RtlRunOnceBeginInitialize function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlRunOnceBeginInitialize</b> routine begins a one-time initialization.
-
 
 ## -parameters
 
-
-
-
 ### -param RunOnce 
+
 [in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure.
 
-
 ### -param Flags 
+
 [in]
 Drivers can optionally specify one or more of the following flags:
 
@@ -76,17 +72,14 @@ Perform initialization asynchronously. The driver can perform multiple completio
 
 #### RTL_RUN_ONCE_CHECK_ONLY
 
-Do not begin initialization, but check to determine if initialization has already occurred. If <b>RtlRunOnceBeginInitialize</b> returns STATUS_SUCCESS, the initialization succeeded, and *<i>Context</i> contains the initialized data. 
-
+Do not begin initialization, but check to determine if initialization has already occurred. If <b>RtlRunOnceBeginInitialize</b> returns STATUS_SUCCESS, the initialization succeeded, and *<i>Context</i> contains the initialized data.
 
 ### -param Context 
+
 [out]
 Specifies a pointer to a PVOID variable that receives the initialized data. The value of *<i>Context</i> is valid only when the routine returns STATUS_SUCCESS.
 
-
 ## -returns
-
-
 
 <b>RtlRunOnceBeginInitialize</b> returns one of the following NTSTATUS values:
 
@@ -118,24 +111,12 @@ The caller has successfully begun one-time initialization. The caller now perfor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Drivers can alternatively perform one-time initialization by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a> and supplying a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-rtl_run_once_init_fn">RunOnceInitialization</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a>
 
@@ -154,7 +135,4 @@ Drivers can alternatively perform one-time initialization by calling <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-rtl_run_once_init_fn">RunOnceInitialization</a>
- 
-
- 
 

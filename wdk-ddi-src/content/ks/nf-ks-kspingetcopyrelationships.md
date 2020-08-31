@@ -8,9 +8,6 @@ ms.assetid: 7f74cbf1-2382-471c-ab07-fdb7e615cb0b
 ms.date: 04/23/2018
 keywords: ["KsPinGetCopyRelationships function"]
 ms.keywords: KsPinGetCopyRelationships, KsPinGetCopyRelationships function [Streaming Media Devices], avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, ks/KsPinGetCopyRelationships, stream.kspingetcopyrelationships
-f1_keywords:
- - "ks/KsPinGetCopyRelationships"
- - "KsPinGetCopyRelationships"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsPinGetCopyRelationships
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsPinGetCopyRelationships
+ - ks/KsPinGetCopyRelationships
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsPinGetCopyRelationships
 ---
 
 # KsPinGetCopyRelationships function
@@ -47,34 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsPinGetCopyRelationships</b> function returns copy relationship information for a pin that is contained within a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/pin-centric-processing">pin-centric</a> filter.
-
 
 ## -parameters
 
-
-
-
 ### -param Pin 
+
 [in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure from which you want to acquire copy information.
 
-
 ### -param CopySource 
+
 [out]
 A pointer to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that is the copy source for <i>Pin</i>. If <i>Pin</i> is the copy source, AVStream sets this parameter to <b>NULL</b>.
 
-
 ### -param DelegateBranch 
+
 [out]
 A pointer to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that is the pin from which <i>Pin</i> receives delegated frames. If <i>Pin</i> is the delegator, AVStream sets this parameter to <b>NULL</b>.
 
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-centric</a> filters receive similar <i>CopySource</i> and <i>DelegateBranch</i> information when AVStream calls the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfilterprocess">AVStrMiniFilterProcess</a> function with an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a> structures.
 
@@ -86,20 +78,11 @@ To guarantee safety when calling <b>KsPinGetCopyRelationships</b>, either obtain
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/pin-centric-processing">Pin-Centric Processing</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
- 
-
- 
 

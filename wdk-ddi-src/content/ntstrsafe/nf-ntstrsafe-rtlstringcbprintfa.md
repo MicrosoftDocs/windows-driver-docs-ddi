@@ -8,9 +8,6 @@ ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.date: 04/30/2018
 keywords: ["RtlStringCbPrintfA function"]
 ms.keywords: RtlStringCbPrintf, RtlStringCbPrintfA, RtlStringCbPrintfW, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfA, ntstrsafe/RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCbPrintfW"
- - "RtlStringCbPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCbPrintfW
-- RtlStringCbPrintfA
-- RtlStringCbPrintfW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCbPrintfA
+ - ntstrsafe/RtlStringCbPrintfA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCbPrintfW
+ - RtlStringCbPrintfA
+ - RtlStringCbPrintfW
 ---
 
 # RtlStringCbPrintfA function
@@ -49,33 +49,28 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlStringCbPrintfW</b> and <b>RtlStringCbPrintfA</b> functions create a byte-counted text string, with formatting that is based on supplied formatting information. 
-
+The <b>RtlStringCbPrintfW</b> and <b>RtlStringCbPrintfA</b> functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 
 ## -parameters
 
-
-
-
 ### -param pszDest 
-[out]
-A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list. 
 
+[out]
+A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list.
 
 ### -param cbDest 
+
 [in]
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character. 
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
 
-For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
-
+For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char).
 
 ### -param pszFormat 
+
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
-
 
 ### -param param
 
@@ -88,10 +83,7 @@ A pointer to a null-terminated text string that contains <b>printf</b>-styled <a
 
 A list of arguments that are interpreted by the function based on formatting directives contained in the <i>pszFormat</i> string.
 
-
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -142,14 +134,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCbPrintfW</b> and <b>RtlStringCbPrintfA</b> should be used instead of the following functions: 
 
@@ -244,12 +230,7 @@ The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbprintfexa">RtlStringCbPrintfEx</a>
 
@@ -260,7 +241,4 @@ The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfa">RtlStringCchPrintf</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CreateExtensionDevice"
- - "CreateExtensionDevice"
+ - PFND3DDDI_CREATEEXTENSIONDEVICE
+ - d3dumddi/PFND3DDDI_CREATEEXTENSIONDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATEEXTENSIONDEVICE callback function
+
 
 ## -description
 

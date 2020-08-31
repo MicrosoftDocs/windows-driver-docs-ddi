@@ -8,9 +8,6 @@ ms.assetid: da14f93d-c3db-4c54-8378-7492b79a5e18
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringVPrintfEx function"]
 ms.keywords: RtlUnicodeStringVPrintfEx, RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvprintfex, ntstrsafe/RtlUnicodeStringVPrintfEx, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringVPrintfEx"
- - "RtlUnicodeStringVPrintfEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringVPrintfEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringVPrintfEx
+ - ntstrsafe/RtlUnicodeStringVPrintfEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringVPrintfEx
 ---
 
 # RtlUnicodeStringVPrintfEx function
@@ -47,26 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlUnicodeStringVPrintfEx</b> function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
-
 
 ## -parameters
 
-
-
-
 ### -param DestinationString 
+
 [out]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that receives a formatted string. <b>RtlUnicodeStringVPrintfEx</b> creates this string from the formatting string that <i>pszFormat</i> supplies and the function's argument list. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param RemainingString 
+
 [out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, <b>RtlUnicodeStringVPrintfE</b> sets this structure's <b>Buffer</b> member to the end of the formatted string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param dwFlags 
+
 [in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
@@ -108,20 +104,17 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the content
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
 
-
 ### -param pszFormat 
+
 [in]
 A pointer to a nul-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param argList 
+
 [in]
 A <b>va_list</b>-typed argument list. Arguments in this argument list will be interpreted by the using formatting string that <i>pszFormat</i> supplies.
 
-
 ## -returns
-
-
 
 <b>RtlUnicodeStringVPrintfEx</b> returns one of the following NTSTATUS values. 
 
@@ -178,12 +171,7 @@ This <i>error</i> status means the function received an invalid input parameter.
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlUnicodeStringVPrintfEx</b> function uses the destination buffer's size to ensure that the string formatting operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
@@ -197,13 +185,7 @@ For more information about <b>va_list</b>-typed argument lists, see the Microsof
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintf">RtlUnicodeStringPrintf</a>
 
@@ -218,7 +200,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

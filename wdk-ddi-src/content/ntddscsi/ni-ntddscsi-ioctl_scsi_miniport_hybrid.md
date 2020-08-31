@@ -8,9 +8,6 @@ ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
 ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_MINIPORT_HYBRID IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
-f1_keywords:
- - "ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID"
- - "IOCTL_SCSI_MINIPORT_HYBRID"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddscsi.h
-api_name:
-- IOCTL_SCSI_MINIPORT_HYBRID
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SCSI_MINIPORT_HYBRID
+ - ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddscsi.h
+api_name:
+ - IOCTL_SCSI_MINIPORT_HYBRID
 ---
 
 # IOCTL_SCSI_MINIPORT_HYBRID IOCTL
 
 
 ## -description
-
 
 The 
      <b>IOCTL_SCSI_MINIPORT_HYBRID</b> control code sends a hybrid disk control request to an HBA-specific miniport driver. The <b>IOCTL_SCSI_MINIPORT_HYBRID</b> request is a sub-IOCTL of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport">IOCTL_SCSI_MINIPORT</a>. This IOCTL is received and reformatted by StorPort, then sent  to the miniport as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a> (SRB) with a function type of SRB_FUNCTION_IO_CONTROL. The input and output data is contained in the SRB data block. 
@@ -55,46 +54,25 @@ The
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-The buffer specified in the <b>DataBuffer</b> member of the SRB must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure and a <b>HYBRID_REQUEST_BLOCK</b> structure. Depending on the <b>Function</b> member of <b>HYBRID_REQUEST_BLOCK</b>, additional data can be supplied. 
-
+The buffer specified in the <b>DataBuffer</b> member of the SRB must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure and a <b>HYBRID_REQUEST_BLOCK</b> structure. Depending on the <b>Function</b> member of <b>HYBRID_REQUEST_BLOCK</b>, additional data can be supplied.
 
 ### -input-buffer-length
 
 <b>DataTransferLength</b> indicates the size, in bytes, of the buffer, which must be at least <b>sizeof</b> (SRB_IO_CONTROL) + <b>sizeof</b>(HYBRID_REQUEST_BLOCK), with additional storage for function data if the <b>DataBufferLength</b> member of the <b>HYBRID_REQUEST_BLOCK</b> is nonzero.
 
-
 ### -output-buffer
 
-An updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure is returned to the data buffer in the SRB. 
-
+An updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure is returned to the data buffer in the SRB.
 
 ### -output-buffer-length
 
 The <b>DataBufferOffset</b> and <b>DataBufferLength</b> members of <b>HYBRID_REQUEST_BLOCK</b> are nonzero when data is returned for the specified <b>Function</b>. The <b>DataTransferLength</b> member of the SRB is updated when data is returned for the request function.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -122,12 +100,8 @@ The resulting status of the function request is set in the <b>ReturnCode</b> mem
 <td>The data length given in <b>DataBufferLength</b> is too  small to contain the request output.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 A <b>HYBRID_REQUEST_BLOCK</b> structure immediately follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure in the data buffer.  <b>HYBRID_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
 
@@ -387,13 +361,7 @@ The number of LBAs to demote to the new priority level.
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure for this IOCTL contains IOCTL_MINIPORT_SIGNATURE_HYBRDISK in its <b>Signature</b> member and <b>IOCTL_SCSI_MINIPORT_HYBRID</b> in the <b>ControlCode</b> member.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_hybrid_information">HYBRID_INFORMATION</a>
 
@@ -408,7 +376,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
- 
-
- 
 

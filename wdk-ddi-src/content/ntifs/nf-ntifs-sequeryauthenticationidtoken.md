@@ -8,9 +8,6 @@ ms.assetid: 4679415f-63d2-48b5-a6d4-edc54e8b3b0c
 ms.date: 04/16/2018
 keywords: ["SeQueryAuthenticationIdToken function"]
 ms.keywords: SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], ifsk.sequeryauthenticationidtoken, ntifs/SeQueryAuthenticationIdToken, seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml
-f1_keywords:
- - "ntifs/SeQueryAuthenticationIdToken"
- - "SeQueryAuthenticationIdToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeQueryAuthenticationIdToken
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeQueryAuthenticationIdToken
+ - ntifs/SeQueryAuthenticationIdToken
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeQueryAuthenticationIdToken
 ---
 
 # SeQueryAuthenticationIdToken function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeQueryAuthenticationIdToken</b> routine retrieves the authentication ID of an access token.
-
 
 ## -parameters
 
-
-
-
 ### -param Token 
+
 [in]
 Pointer to an access token.
 
-
 ### -param AuthenticationId 
-[out]
-Authentication ID of the access token. (An Authentication ID is the locally unique identifier, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>, that is assigned to the logon session that the access token represents. There can be many tokens representing a single logon session.) 
 
+[out]
+Authentication ID of the access token. (An Authentication ID is the locally unique identifier, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>, that is assigned to the logon session that the access token represents. There can be many tokens representing a single logon session.)
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -86,24 +79,12 @@ The call to <b>SeQueryAuthenticationIdToken</b> succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
@@ -130,7 +111,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisrestricted">SeTokenIsRestricted</a>
- 
-
- 
 

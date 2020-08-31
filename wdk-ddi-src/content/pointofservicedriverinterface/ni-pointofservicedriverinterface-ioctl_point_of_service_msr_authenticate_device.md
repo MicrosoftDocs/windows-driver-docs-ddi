@@ -8,9 +8,6 @@ ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE"
- - "IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
 ---
 
 # IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE IOCTL
+
 
 ## -description
 
@@ -80,3 +81,4 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 - STATUS_ACCESS_DENIED: The device is currently claimed by another client.
 
 - STATUS_NOT_SUPPORTED: The device does not support authentication.
+

@@ -8,9 +8,6 @@ ms.assetid: 5F0729DB-C991-4745-9550-9D25D6836A1F
 ms.date: 05/08/2018
 keywords: ["IAdapterPowerManagement3 interface"]
 ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices],described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
-f1_keywords:
- - "portcls/IAdapterPowerManagement3"
- - "IAdapterPowerManagement3"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IAdapterPowerManagement3
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IAdapterPowerManagement3
+ - portcls/IAdapterPowerManagement3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IAdapterPowerManagement3
 ---
 
 # IAdapterPowerManagement3 interface
 
 
 ## -description
-
 
 The IAdapterPowerManagement3 interface inherits from <b>IUnknown</b>, and it is used for receiving power management messages.
 
@@ -61,15 +60,9 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdapterPowerManagement3</b> 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement2">IAdapterPowerManagement2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteradapterpowermanagement">PcRegisterAdapterPowerManagement</a>
- 
-
- 
 

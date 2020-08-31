@@ -8,9 +8,6 @@ ms.assetid: 1C3DF31C-500E-456A-B121-48F5945D6999
 ms.date: 05/02/2018
 keywords: ["NDK_FN_LISTEN callback function"]
 ms.keywords: NDK_FN_LISTEN, NDK_FN_LISTEN callback, NdkListen, NdkListen callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkListen, netvista.ndk_fn_listen
-f1_keywords:
- - "ndkpi/NdkListen"
- - "NdkListen"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkListen
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_LISTEN
+ - ndkpi/NDK_FN_LISTEN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkListen
 ---
 
 # NDK_FN_LISTEN callback function
@@ -46,45 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkListen</i> (<i>NDK_FN_LISTEN</i>) function puts an NDK listener object into listening mode.
-
 
 ## -parameters
 
-
-
-
 ### -param pNdkListener 
+
 [in]
 A pointer to an NDK listener object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
-
 
 ### -param PSOCKADDR
 
 A local address to listen on. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
 
-
 ### -param AddressLength 
+
 [in]
 The size, in bytes, of local address data at the <i>pAddress</i> parameter.
 
-
-
-
 ### -param RequestCompletion 
+
 [in]
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
-
 ### -param RequestContext 
+
 [in, optional]
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
-
 ## -returns
-
-
 
 The 
      <i>NdkListen</i> function returns one of the following NTSTATUS codes.
@@ -180,24 +170,12 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>NdkListen</i> puts a listener object into listening mode on the specified  local address.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -208,7 +186,4 @@ An error occurred.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>
- 
-
- 
 

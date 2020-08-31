@@ -8,9 +8,6 @@ ms.assetid: 86ec1a98-d70f-437c-9c8b-005bf78375ba
 ms.date: 04/30/2018
 keywords: ["RtlStringCchCopyNA function"]
 ms.keywords: RtlStringCchCopyN, RtlStringCchCopyNA, RtlStringCchCopyNW, RtlStringCchCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyn, ntstrsafe/RtlStringCchCopyNW, safestrings_6ecbc673-80c3-4568-a6e3-96865035bfed.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchCopyNW"
- - "RtlStringCchCopyNW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchCopyNW
-- RtlStringCchCopyNW
-- RtlStringCchCopyNW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchCopyNA
+ - ntstrsafe/RtlStringCchCopyNA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchCopyNW
+ - RtlStringCchCopyNW
+ - RtlStringCchCopyNW
 ---
 
 # RtlStringCchCopyNA function
@@ -49,40 +49,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCchCopyNW</b> and <b>RtlStringCchCopyNA</b> functions copy a character-counted string to a buffer while limiting the size of the copied string.
-
 
 ## -parameters
 
-
-
-
 ### -param pszDest 
+
 [out]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i>, up to <i>cchSrc</i> characters, is copied to the buffer at <i>pszDest</i> and terminated with a null character.
 
-
 ### -param cchDest 
+
 [in]
 The size of the destination buffer, in characters. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH.
 
-
 ### -param pszSrc 
-[in]
-A pointer to a caller-supplied, null-terminated string. 
 
+[in]
+A pointer to a caller-supplied, null-terminated string.
 
 ### -param cchToCopy
 
 <p>The maximum number of characters to copy from <i>pszSrc</i> to the buffer that is supplied by <i>pszDest</i>.</p>
 
-
-
-
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -133,14 +123,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCchCopyNW</b> and <b>RtlStringCchCopyNA</b> should be used instead of <b>strncpy</b>. 
 
@@ -193,13 +177,7 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to hand
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyna">RtlStringCbCopyN</a>
 
@@ -210,7 +188,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopynexa">RtlStringCchCopyNEx</a>
- 
-
- 
 

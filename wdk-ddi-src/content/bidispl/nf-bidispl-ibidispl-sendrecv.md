@@ -8,9 +8,6 @@ ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
 ms.date: 04/20/2018
 keywords: ["IBidiSpl::SendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],SendRecv method, IBidiSpl.SendRecv, IBidiSpl::SendRecv, SendRecv, SendRecv method [Print Devices], SendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_SendRecv, bidispl/IBidiSpl::SendRecv, gdi.ibidispl_ibidispl__sendrecv, print.ibidispl_ibidispl__sendrecv
-f1_keywords:
- - "bidispl/IBidiSpl.SendRecv"
- - "IBidiSpl.SendRecv"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiSpl.SendRecv
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiSpl::SendRecv
+ - bidispl/IBidiSpl::SendRecv
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiSpl.SendRecv
 ---
 
 # IBidiSpl::SendRecv
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>SendRecv</b> method sends a bidi request to the printer.
-
 
 ## -parameters
 
-
-
-
 ### -param pszAction 
+
 [in]
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
 
@@ -91,17 +87,13 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
 <td>Request the bidi schema value using the data set as input argument.</td>
 </tr>
 </table>
- 
-
 
 ### -param pRequest 
+
 [in]
 A pointer to a single bidi request.
 
-
 ## -returns
-
-
 
 The method returns one of the following values.
 
@@ -148,22 +140,11 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 Note that the <b>HRESULT</b> may contain a system error code defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The BIDI_ACTION_* values are case insensitive strings.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -174,7 +155,4 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: b25ecc96-1ed2-4d8f-8dc8-0fafe58eca24
 ms.date: 05/02/2018
 keywords: ["RILEMERGENCYMODECONTROLPARAMS structure"]
 ms.keywords: "*LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilemergencymodecontrolparams, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS"
-f1_keywords:
- - "rilapitypes/RILEMERGENCYMODECONTROLPARAMS"
- - "RILEMERGENCYMODECONTROLPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILEMERGENCYMODECONTROLPARAMS
 targetos: Windows
 req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
+f1_keywords:
+ - RILEMERGENCYMODECONTROLPARAMS
+ - rilapitypes/RILEMERGENCYMODECONTROLPARAMS
+ - LPRILEMERGENCYMODECONTROLPARAMS
+ - rilapitypes/LPRILEMERGENCYMODECONTROLPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILEMERGENCYMODECONTROLPARAMS
 ---
 
 # RILEMERGENCYMODECONTROLPARAMS structure
@@ -46,17 +48,11 @@ req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
-
 
 ### -field dwEmergencyModeControl
 

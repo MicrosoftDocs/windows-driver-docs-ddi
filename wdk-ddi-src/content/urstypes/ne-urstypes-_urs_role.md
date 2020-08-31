@@ -8,9 +8,6 @@ ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.date: 05/07/2018
 keywords: ["URS_ROLE enumeration"]
 ms.keywords: "*PURS_ROLE, URS_ROLE, URS_ROLE enumeration [Buses], URS_ROLE,*PURS_ROLE, URS_ROLE,*PURS_ROLE enumeration [Buses], UrsRoleFunction, UrsRoleHost, UrsRoleNone, _URS_ROLE, buses.urs_role, urstypes/URS_ROLE, urstypes/UrsRoleFunction, urstypes/UrsRoleHost, urstypes/UrsRoleNone"
-f1_keywords:
- - "urstypes/URS_ROLE, *PURS_ROLE"
- - "URS_ROLE, *PURS_ROLE"
 req.header: urstypes.h
 req.include-header: Urstypes.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Urstypes.h
-api_name:
-- URS_ROLE, *PURS_ROLE
 targetos: Windows
 req.typenames: URS_ROLE, *PURS_ROLE
+f1_keywords:
+ - _URS_ROLE
+ - urstypes/_URS_ROLE
+ - PURS_ROLE
+ - urstypes/PURS_ROLE
+ - URS_ROLE
+ - urstypes/URS_ROLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Urstypes.h
+api_name:
+ - URS_ROLE, *PURS_ROLE
 ---
 
 # _URS_ROLE enumeration
@@ -46,24 +50,17 @@ req.typenames: URS_ROLE, *PURS_ROLE
 
 ## -description
 
-
 Defines values for roles supported by a USB dual-role controller.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UrsRoleNone
 
 Internal use only. Must be 0.
 
-
 ### -field UrsRoleHost
 
 Indicates the host role of the controller.
-
 
 ### -field UrsRoleFunction
 

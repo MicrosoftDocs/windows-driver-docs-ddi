@@ -31,14 +31,18 @@ api_name:
  - _DXGKARG_DPAUXIOTRANSMISSION
  - DXGKARG_DPAUXIOTRANSMISSION
 f1_keywords:
+ - _DXGKARG_DPAUXIOTRANSMISSION
  - dispmprt/_DXGKARG_DPAUXIOTRANSMISSION
- - dispmprt//DXGKARG_DPAUXIOTRANSMISSION
+ - PDXGKARG_DPAUXIOTRANSMISSION
+ - dispmprt/PDXGKARG_DPAUXIOTRANSMISSION
  - DXGKARG_DPAUXIOTRANSMISSION
+ - dispmprt/DXGKARG_DPAUXIOTRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGKARG_DPAUXIOTRANSMISSION structure
+
 
 ## -description
 
@@ -72,7 +76,7 @@ Number of bytes to read/write starting at **DPCDAddress**.
 
 ### -field DPNativeError
 
-Field in which the driver can encode more details about the error when returning STATUS_DEVICE_PROTOCOL_ERROR from [**DXGKDDI_DPAUXIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpauxiotransmission.md).  
+Field in which the driver can encode more details about the error when returning STATUS_DEVICE_PROTOCOL_ERROR from [**DXGKDDI_DPAUXIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpauxiotransmission.md).
 
 ### -field NumBytesDone
 
@@ -89,3 +93,4 @@ Buffer containing the data to write for a write operation, or in which to receiv
 [DXGKDDI_QUERYDPCAPS](nc-dispmprt-dxgkddi_querydpcaps.md)
 
 [**DXGKDDI_DPAUXIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpauxiotransmission.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 2526E8BD-316F-4B8D-9CC4-66F4E3B7D708
 ms.date: 05/02/2018
 keywords: ["FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0, FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback, fwpsk/vSwitchFilterEngineReorderNotifyRn, netvista.fwps_vswitch_filter_engine_reorder_callback0, vSwitchFilterEngineReorderNotifyRn, vSwitchFilterEngineReorderNotifyRn callback function [Network Drivers Starting with Windows Vista]
-f1_keywords:
- - "fwpsk/vSwitchFilterEngineReorderNotifyRn"
- - "vSwitchFilterEngineReorderNotifyRn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fwpsk.h
-api_name:
-- vSwitchFilterEngineReorderNotifyRn
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0
+ - fwpsk/FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fwpsk.h
+api_name:
+ - vSwitchFilterEngineReorderNotifyRn
 ---
 
 # FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback function
@@ -46,42 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The filter engine calls the  <i>vSwitchFilterEngineReorderNotifyRn</i> (<i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</i>) callout function to notify the callout driver about events that are associated the virtual switch  filter engine reordering.
 
 <div class="alert"><b>Note</b>  <i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</i> is a specific version of <i>FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK</i>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 
 ## -parameters
 
-
-
-
 ### -param notifyContext 
+
 [in, optional]
 A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
-
 ### -param completionContext 
+
 [in]
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
 
-
-
-
 ### -param isInRequiredPosition 
+
 [in]
 A BOOLEAN value that is set to TRUE if the filter is in the required position in the filter stack or FALSE if it is not.
 
-
 ### -param vSwitchExtensionLwfList 
+
 [in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that specifies a list of the virtual switch extension NDIS filter drivers.
 
-
 ## -returns
-
-
 
 A callout's 
   
@@ -115,14 +107,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver registers a 
   
@@ -142,13 +128,7 @@ If the virtual switch extensions are reordered, the WFP extension is  paused (se
 
 A callout driver cannot return STATUS_PENDING from <i>vSwitchFilterEngineReorderNotifyRn</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
@@ -179,7 +159,4 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchFilterEngineReorder
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartcomplete">NdisFRestartComplete</a>
- 
-
- 
 

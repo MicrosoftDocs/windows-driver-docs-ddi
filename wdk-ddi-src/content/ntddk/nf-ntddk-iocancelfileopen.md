@@ -8,9 +8,6 @@ ms.assetid: 249a77b4-c0da-4445-a669-1c4e2ced5b57
 ms.date: 04/16/2018
 keywords: ["IoCancelFileOpen function"]
 ms.keywords: IoCancelFileOpen, IoCancelFileOpen routine [Installable File System Drivers], ifsk.iocancelfileopen, ioref_e63977d2-a70b-4743-85e2-557458ca89ae.xml, ntddk/IoCancelFileOpen
-f1_keywords:
- - "ntddk/IoCancelFileOpen"
- - "IoCancelFileOpen"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCancelFileOpen
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCancelFileOpen
+ - ntddk/IoCancelFileOpen
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCancelFileOpen
 ---
 
 # IoCancelFileOpen function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCancelFileOpen</b> routine can be used by a file system filter driver to close a file that has been opened by a file system driver in the filter driver's device stack.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
+
 [in]
 Pointer to the top of the device stack immediately below the filter driver's device object.
 
-
 ### -param FileObject 
+
 [in]
 Pointer to the file object for the file to be closed.
 
-
 ## -remarks
-
-
 
 If a file system filter driver determines that a file-open or file-create request must fail after the lower-level drivers have already completed the request with STATUS_SUCCESS, it can use <b>IoCancelFileOpen</b> to close the file opened by the lower-level drivers.
 
@@ -103,15 +96,9 @@ After calling <b>IoCancelFileOpen</b>, the filter driver should complete the cre
 
 <b>IoCancelFileOpen</b> sets the FO_FILE_OPEN_CANCELLED flag in the <b>Flags</b> member of the file object that <i>FileObject</i> points to. This flag indicates that the IRP_MJ_CREATE request has been canceled, and an IRP_MJ_CLOSE request will be issued for this file object. Once the create operation has been canceled, it cannot be reissued - that is, STATUS_REPARSE cannot be returned by the legacy filter driver if it has called the <b>IoCreateFileOpen</b> routine.
 
-Minifilters should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelfileopen">FltCancelFileOpen</a> instead of <b>IoCancelFileOpen</b>. 
-
-
-
+Minifilters should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelfileopen">FltCancelFileOpen</a> instead of <b>IoCancelFileOpen</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelfileopen">FltCancelFileOpen</a>
 
@@ -146,7 +133,4 @@ Minifilters should use <a href="https://docs.microsoft.com/windows-hardware/driv
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>
- 
-
- 
 

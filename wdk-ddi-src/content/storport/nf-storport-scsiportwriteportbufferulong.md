@@ -8,9 +8,6 @@ ms.assetid: ed13ab7a-b287-42e1-af47-fd8f06305cae
 ms.date: 03/29/2018
 keywords: ["ScsiPortWritePortBufferUlong macro"]
 ms.keywords: ScsiPortWritePortBufferUlong, ScsiPortWritePortBufferUlong routine [Storage Devices], scsiprt_314b08e6-e579-4faa-b009-e12ad8f946bc.xml, srb/ScsiPortWritePortBufferUlong, storage.scsiportwriteportbufferulong
-f1_keywords:
- - "storport/ScsiPortWritePortBufferUlong"
- - "ScsiPortWritePortBufferUlong"
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortWritePortBufferUlong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortWritePortBufferUlong
+ - storport/ScsiPortWritePortBufferUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortWritePortBufferUlong
 ---
 
 # ScsiPortWritePortBufferUlong macro
@@ -47,37 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortWritePortBufferUlong</b> routine transfers a given number of ULONG values from a buffer to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Port 
+
 [in]
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-
 ### -param Buffer 
+
 [in]
 Pointer to the buffer.
 
-
 ### -param Count 
+
 [in]
 Specifies the number of ULONG values to be written to the HBA.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>
- 
-
- 
 

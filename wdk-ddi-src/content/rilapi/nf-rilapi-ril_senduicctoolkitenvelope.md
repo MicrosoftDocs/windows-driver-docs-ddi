@@ -8,9 +8,6 @@ ms.assetid: 1e83f7ae-8d7b-4d06-a8f0-5b4c2f04f4a4
 ms.date: 05/02/2018
 keywords: ["RIL_SendUiccToolkitEnvelope function"]
 ms.keywords: RIL_SendUiccToolkitEnvelope, RIL_SendUiccToolkitEnvelope method [Network Drivers Starting with Windows Vista], netvista.ril_senduicctoolkitenvelope, rilapi/RIL_SendUiccToolkitEnvelope
-f1_keywords:
- - "rilapi/RIL_SendUiccToolkitEnvelope"
- - "RIL_SendUiccToolkitEnvelope"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SendUiccToolkitEnvelope
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SendUiccToolkitEnvelope
+ - rilapi/RIL_SendUiccToolkitEnvelope
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SendUiccToolkitEnvelope
 ---
 
 # RIL_SendUiccToolkitEnvelope function
@@ -46,37 +46,21 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwSlotIndex
-
 
 ### -param pbEnvelope
 
-
 ### -param dwEnvelopeSize
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

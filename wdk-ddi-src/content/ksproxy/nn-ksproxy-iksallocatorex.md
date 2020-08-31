@@ -8,9 +8,6 @@ ms.assetid: 42abaf2b-8ee9-450e-aef3-fa29d1b558e5
 ms.date: 04/23/2018
 keywords: ["IKsAllocatorEx interface"]
 ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices],described, ksproxy/IKsAllocatorEx, ksproxy_58c9c83a-1a11-4e08-bf7f-e0694bf2eda5.xml, stream.iksallocatorex
-f1_keywords:
- - "ksproxy/IKsAllocatorEx"
- - "IKsAllocatorEx"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsAllocatorEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsAllocatorEx
+ - ksproxy/IKsAllocatorEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsAllocatorEx
 ---
 
 # IKsAllocatorEx interface
@@ -46,11 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>IKsAllocatorEx</b> interface is for proxy use and not recommended for application use. <b>IKsAllocatorEx</b> inherits all the methods of the <b>IKsAllocator</b> interface and extends <b>IKsAllocator</b> to provide methods that further control and query an allocator. 
 
 The IID for this interface is IID_IKsAllocatorEx.
-
 
 ## -inheritance
 
@@ -61,11 +59,5 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>
- 
-
- 
 

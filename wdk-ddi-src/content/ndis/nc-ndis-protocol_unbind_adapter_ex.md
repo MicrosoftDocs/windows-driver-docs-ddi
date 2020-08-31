@@ -8,9 +8,6 @@ ms.assetid: 19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_UNBIND_ADAPTER_EX callback function"]
 ms.keywords: PROTOCOL_UNBIND_ADAPTER_EX, PROTOCOL_UNBIND_ADAPTER_EX callback, ProtocolUnbindAdapterEx, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUnbindAdapterEx, netvista.protocolunbindadapterex, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml
-f1_keywords:
- - "ndis/ProtocolUnbindAdapterEx"
- - "ProtocolUnbindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolUnbindAdapterEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_UNBIND_ADAPTER_EX
+ - ndis/PROTOCOL_UNBIND_ADAPTER_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolUnbindAdapterEx
 ---
 
 # PROTOCOL_UNBIND_ADAPTER_EX callback function
 
 
 ## -description
-
 
 NDIS calls a protocol driver's 
   <i>ProtocolUnbindAdapterEx</i> function to request the driver to unbind from an underlying miniport
@@ -55,25 +54,20 @@ NDIS calls a protocol driver's
 
 ## -parameters
 
-
-
-
 ### -param UnbindContext 
+
 [in]
 The handle that identifies the NDIS context area for this unbind operation.
 
-
 ### -param ProtocolBindingContext 
+
 [in]
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-
 ## -returns
-
-
 
 <i>ProtocolUnbindAdapterEx</i> returns one of the following status values:
 
@@ -108,14 +102,8 @@ A handle to a context area allocated by the protocol driver. The protocol driver
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolUnbindAdapterEx</i> is a required function. As the reciprocal of the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function,
@@ -253,15 +241,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a>
 
@@ -302,7 +284,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
- 
-
- 
 

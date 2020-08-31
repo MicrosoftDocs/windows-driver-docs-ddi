@@ -8,9 +8,6 @@ ms.assetid: 66a725f9-ae72-41b4-8840-63c9ff89ace7
 ms.date: 10/31/2019
 keywords: ["NET_BUFFER structure"]
 ms.keywords: "*PNET_BUFFER, NET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], PNET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER, ndis/NET_BUFFER, ndis/PNET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, netvista.net_buffer"
-f1_keywords:
- - "ndis/NET_BUFFER"
- - "NET_BUFFER"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NET_BUFFER
 targetos: Windows
 req.typenames: NET_BUFFER, *PNET_BUFFER
+f1_keywords:
+ - _NET_BUFFER
+ - ndis/_NET_BUFFER
+ - PNET_BUFFER
+ - ndis/PNET_BUFFER
+ - NET_BUFFER
+ - ndis/NET_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER
 ---
 
 # _NET_BUFFER structure
@@ -46,14 +50,9 @@ req.typenames: NET_BUFFER, *PNET_BUFFER
 
 ## -description
 
-
 The NET_BUFFER structure specifies data that is transmitted or received over the network.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Next
 
@@ -92,28 +91,23 @@ Reserved for NDIS.
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a> structure. This is a duplicate of the above union, for compatibility reasons.
 
-
 ### -field ChecksumBias
 
 The number of bytes to skip over from the beginning of the data buffer when computing a checksum.
      This member is used by the TCP/IP protocol.
 
-
 ### -field Reserved
 
 Reserved for future use.
-
 
 ### -field NdisPoolHandle
 
 A pool handle that identifies the NET_BUFFER pool from which the NET_BUFFER structure was
      allocated.
 
-
 ### -field NdisReserved
 
 Reserved for NDIS.
-
 
 ### -field ProtocolReserved
 
@@ -121,12 +115,10 @@ Reserved for use by protocol drivers. Protocol drivers and NDIS intermediate dri
      area for their own purposes. Intermediate drivers can use this member only if it is not already in
      use.
 
-
 ### -field MiniportReserved
 
 Reserved for use by miniport drivers. Miniport drivers and NDIS intermediate drivers can use this
      area for their own purposes.
-
 
 ### -field DataPhysicalAddress
 
@@ -155,15 +147,11 @@ A pointer to an
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_shared_memory">
       NET_BUFFER_SHARED_MEMORY</a> structure.
 
-
 ### -field ScatterGatherList
 
 The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
 
-
 ## -remarks
-
-
 
 NDIS drivers can call the following functions to allocate and initialize a NET_BUFFER structure:
 
@@ -269,13 +257,7 @@ To access members of the NET_BUFFER structure, use the following macros and func
 For more information on how to use net buffers, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-checksum-bias">NET_BUFFER_CHECKSUM_BIAS</a>
 
@@ -359,7 +341,4 @@ For more information on how to use net buffers, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
- 
-
- 
 

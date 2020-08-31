@@ -8,9 +8,6 @@ ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
 ms.date: 04/30/2018
 keywords: ["ZwSetEvent function"]
 ms.keywords: NtSetEvent, ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture], k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, kernel.zwsetevent, ntifs/NtSetEvent, ntifs/ZwSetEvent
-f1_keywords:
- - "ntifs/ZwSetEvent"
- - "ZwSetEvent"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwSetEvent
-- NtSetEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwSetEvent
+ - ntifs/ZwSetEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwSetEvent
+ - NtSetEvent
 ---
 
 # ZwSetEvent function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwSetEvent</b> routine sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
-
 
 ## -parameters
 
-
-
-
 ### -param EventHandle 
+
 [in]
 A handle to an event object.
 
-
 ### -param PreviousState 
-[out, optional]
-An optional pointer to a variable where the previous state of the event object is stored on output. 
 
+[out, optional]
+An optional pointer to a variable where the previous state of the event object is stored on output.
 
 ## -returns
-
-
 
 <b>ZwSetEvent</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
 
@@ -111,14 +104,8 @@ The supplied <i>EventHandle</i> parameter was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>ZwSetEvent</b> sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
 
@@ -126,13 +113,7 @@ The supplied <i>EventHandle</i> parameter was invalid.
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatenotificationevent">IoCreateNotificationEvent</a>
 
@@ -171,7 +152,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567120">ZwWaitForSingleObject</a>
- 
-
- 
 

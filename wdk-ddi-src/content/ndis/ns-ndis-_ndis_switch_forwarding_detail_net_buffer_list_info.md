@@ -8,9 +8,6 @@ ms.assetid: 6377CC08-A261-465A-AA04-0BE31EEACF01
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO structure"]
 ms.keywords: "*PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, netvista.ndis_switch_forwarding_detail_net_buffer_list_info"
-f1_keywords:
- - "ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO"
- - "NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
 targetos: Windows
 req.typenames: NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, *PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+f1_keywords:
+ - _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+ - ndis/_NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+ - PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+ - ndis/PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+ - NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+ - ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
 ---
 
 # _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO structure
@@ -46,36 +50,23 @@ req.typenames: NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, *PNDIS_SWITCH
 
 ## -description
 
-
-
 The <b>NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</b> union specifies the information for forwarding a packet to one or more Hyper-V extensible switch ports. 
 
 This information is contained in the out-of-band (OOB) data of the packet's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field AsUINT64
 
 The complete 64-bit <b>NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</b> value.
 
-
-
-
 ### -field NumAvailableDestinations
 
 A value that specifies the number of unused extensible switch destination ports elements within an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. For more information, see the Remarks section.
 
-
 ### -field SourcePortId
 
-The identifier of the source extensible switch port from which the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> originated. 
-
+The identifier of the source extensible switch port from which the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> originated.
 
 ### -field SourceNicIndex
 
@@ -83,13 +74,11 @@ A UINT32 value that specifies the index of the source network adapter that is co
 
 For more information on this index value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
 
-
 ### -field NativeForwardingRequired
 
 If this member is set to <b>TRUE</b>, packet is an NVGRE packet, and the Hyper-V Network Virtualization (HNV) component of the Hyper-V extensible switch will forward this packet. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>.
 
 This flag must not be written to by any extension.<div class="alert"><b>Note</b>  This flag is available only in NDIS 6.40 and later.</div>
-
 
 ### -field Reserved1
 
@@ -97,13 +86,10 @@ This member is reserved for future use by NDIS.
 
 This member is reserved for future use by NDIS.
 
-
 ### -field IsPacketDataSafe
 
 If this member is set to <b>TRUE</b>, all of the packet data comes from trusted
-    host memory. 
-
-
+    host memory.
 
 ### -field SafePacketDataSize
 
@@ -127,10 +113,7 @@ If the **IsPacketDataUncached** flag is set, this field indicates whether the Sa
 
 This member is reserved for future use by NDIS.
 
-
 ## -remarks
-
-
 
 Extensible switch extensions can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-switch-forwarding-detail">NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL</a> macro to access the <b>NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</b> union in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
@@ -160,13 +143,7 @@ After the original packet has been duplicated, the extension must obtain the <b>
 </ol>
 For more information on how to duplicate packets in the extensible switch interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/originating-packet-traffic">Originating Packet Traffic</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -209,7 +186,4 @@ For more information on how to duplicate packets in the extensible switch interf
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-the-hyper-v-extensible-switch">Overview of the Hyper-V Extensible Switch</a>
- 
-
- 
 

@@ -8,13 +8,10 @@ ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
 ms.date: 05/03/2018
 keywords: ["MicroEntry function"]
 ms.keywords: MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry, MicroEntry function [Imaging Devices], image.microentry, wiamicro/MicroEntry
-f1_keywords:
- - "wiamicro/MicroEntry"
- - "MicroEntry"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,32 +25,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamicro.h
-api_name:
-- MicroEntry
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MicroEntry
+ - wiamicro/MicroEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamicro.h
+api_name:
+ - MicroEntry
 ---
 
 # MicroEntry function
 
+
 ## -description
 
-The **MicroEntry** function responds to commands sent by the WIA Flatbed driver. 
+The **MicroEntry** function responds to commands sent by the WIA Flatbed driver.
 
 ## -parameters
 
 ### -param lCommand
 
-Specifies a command issued to the microdriver by the WIA Flatbed driver. 
+Specifies a command issued to the microdriver by the WIA Flatbed driver.
 
 ### -param pValue 
+
 [in, out]
 Points to a [VAL](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-val) structure that is used to pass information between the WIA Flatbed driver and the microdriver.
 
@@ -76,3 +78,4 @@ Two structures are passed to the function. A [VAL](https://docs.microsoft.com/wi
 [WIA Microdriver Commands](https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands)
 
 [WIA Microdriver Structures](https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index)
+

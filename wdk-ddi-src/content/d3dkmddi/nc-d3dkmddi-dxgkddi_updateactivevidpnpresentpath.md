@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiUpdateActiveVidPnPresentPath"
- - "DxgkDdiUpdateActiveVidPnPresentPath"
+ - DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
+ - d3dkmddi/DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH callback function
+
 
 ## -description
 

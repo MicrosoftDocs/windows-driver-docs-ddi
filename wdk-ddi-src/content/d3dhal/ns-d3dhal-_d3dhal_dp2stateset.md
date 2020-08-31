@@ -8,9 +8,6 @@ ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2STATESET structure"]
 ms.keywords: "*LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], _D3DHAL_DP2STATESET, d3dhal/D3DHAL_DP2STATESET, d3dhal/LPD3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, display.d3dhal_dp2stateset"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2STATESET"
- - "D3DHAL_DP2STATESET"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2STATESET
 targetos: Windows
 req.typenames: D3DHAL_DP2STATESET
+f1_keywords:
+ - _D3DHAL_DP2STATESET
+ - d3dhal/_D3DHAL_DP2STATESET
+ - D3DHAL_DP2STATESET
+ - d3dhal/D3DHAL_DP2STATESET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2STATESET
 ---
 
 # _D3DHAL_DP2STATESET structure
@@ -46,14 +48,9 @@ req.typenames: D3DHAL_DP2STATESET
 
 ## -description
 
-
 The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwOperation
 
@@ -66,15 +63,11 @@ Specifies the operation to perform. The value of this member can be one of the f
 | D3DHAL_STATESETCREATE | DirectX 8.0 and later versions only.<br/>On receipt of this request the driver should create a state block of the type given in the field sbType. The information to record for each state block type is described below. | 
 | D3DHAL_STATESETDELETE | Specifies that the stateset referenced by dwParam should be deleted. | 
 | D3DHAL_STATESETEND | Specifies the end of the stateset referenced by dwParam. | 
-| D3DHAL_STATESETEXECUTE | Specifies that the stateset referenced by dwParam should be executed. 
-
- 
-
+| D3DHAL_STATESETEXECUTE | Specifies that the stateset referenced by dwParam should be executed.
 
 ### -field dwParam
 
 Specifies the stateset handle that references the state block being manipulated with the current <b>dwOperation</b>.
-
 
 ### -field sbType
 
@@ -344,13 +337,7 @@ D3DTSS_TEXTURETRANSFORMFLAGS
 
 No predefined state group is specified.
 
-
-
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/accelerated-state-management">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.
-
-
 

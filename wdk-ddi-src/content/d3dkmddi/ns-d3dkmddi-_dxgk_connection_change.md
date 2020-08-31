@@ -7,9 +7,6 @@ ms.assetid: 0B0D640C-3E4B-4DE0-AA11-C751F210C77A
 ms.date: 05/10/2018
 keywords: ["DXGK_CONNECTION_CHANGE structure"]
 ms.keywords: "*PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], _DXGK_CONNECTION_CHANGE, d3dkmddi/DXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change"
-f1_keywords:
- - "d3dkmddi/DXGK_CONNECTION_CHANGE"
- - "DXGK_CONNECTION_CHANGE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_CONNECTION_CHANGE
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE
+f1_keywords:
+ - _DXGK_CONNECTION_CHANGE
+ - d3dkmddi/_DXGK_CONNECTION_CHANGE
+ - PDXGK_CONNECTION_CHANGE
+ - d3dkmddi/PDXGK_CONNECTION_CHANGE
+ - DXGK_CONNECTION_CHANGE
+ - d3dkmddi/DXGK_CONNECTION_CHANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_CONNECTION_CHANGE
 ---
 
 # _DXGK_CONNECTION_CHANGE structure
@@ -46,34 +50,25 @@ req.typenames: DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE
 
 ## -description
 
-
 Structure to describe the most recently updated status of the link for a target.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ConnectionChangeId
 
 The per target unique id for the transition being reported.  This value must be unique across all targets on the adapter and must be monotonically increasing for each change reported.
 
-
 ### -field TargetId
 
 The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.
-
 
 ### -field ConnectionStatus
 
 The status of the connection.
 
-
 ### -field Reserved
 
 This value is reserved for system use.
-
 
 ### -field MonitorConnect
 
@@ -82,12 +77,7 @@ This is the video output technology of the monitor which has been connected.  In
 
 #### MonitorConnect.LinkTargetType
 
- 
-
-
 ### -field TargetConnect
-
-
 
 #### BaseTargetType
 
@@ -97,13 +87,9 @@ This is the video output technology of connector of the new target.  As with Mon
 
 #### NewTargetId
 
-The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.  
-
- 
-
+The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.
 
 ### -field TargetJoin
-
 
 #### BaseTargetType
 
@@ -115,5 +101,5 @@ This is the video output technology of the connector of the new target.  As with
 
 #### NewTargetId
 
-The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.  
+The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.
 

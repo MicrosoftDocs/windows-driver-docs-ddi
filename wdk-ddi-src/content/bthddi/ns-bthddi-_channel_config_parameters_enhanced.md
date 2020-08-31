@@ -8,9 +8,6 @@ ms.assetid: 4C28FD6E-A1DD-4887-95B0-6028ECA18204
 ms.date: 04/27/2018
 keywords: ["CHANNEL_CONFIG_PARAMETERS_ENHANCED structure"]
 ms.keywords: "*PCHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_PARAMETERS_ENHANCED, PCHANNEL_CONFIG_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_PARAMETERS_ENHANCED, bltooth.channel_config_parameters_enhanced, bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED, bthddi/PCHANNEL_CONFIG_PARAMETERS_ENHANCED"
-f1_keywords:
- - "bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED"
- - "CHANNEL_CONFIG_PARAMETERS_ENHANCED"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthddi.h
-api_name:
-- CHANNEL_CONFIG_PARAMETERS_ENHANCED
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED
+f1_keywords:
+ - _CHANNEL_CONFIG_PARAMETERS_ENHANCED
+ - bthddi/_CHANNEL_CONFIG_PARAMETERS_ENHANCED
+ - PCHANNEL_CONFIG_PARAMETERS_ENHANCED
+ - bthddi/PCHANNEL_CONFIG_PARAMETERS_ENHANCED
+ - CHANNEL_CONFIG_PARAMETERS_ENHANCED
+ - bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthddi.h
+api_name:
+ - CHANNEL_CONFIG_PARAMETERS_ENHANCED
 ---
 
 # _CHANNEL_CONFIG_PARAMETERS_ENHANCED structure
@@ -46,59 +50,45 @@ req.typenames: CHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_E
 
 ## -description
 
-
 The CHANNEL_CONFIG_PARAMETERS_ENHANCED structure describes configuration parameters for inbound and outbound directions of an L2CAP channel.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 Combination of CFG_XXX flags.
 
-
 ### -field Mtu
 
 MTU for the direction.
-
 
 ### -field FlushTO
 
 Flush timeout for the direction
 
-
 ### -field NumExtraOptions
 
 Number of elements in the ExtraOptions array
-
 
 ### -field ExtraOptions
 
 Array of extra options
 
-
 ### -field Flow
 
 QOS for the direction
-
 
 ### -field RetransmissionAndFlow
 
 Retransmission and flow for the direction
 
-
 ### -field Fcs
 
 Frame check sequence
 
-
 ### -field ExtendedFlowSpec
 
 Extended flow specification for the L2CAP channel. This member is reserved. Do not use.
-
 
 ### -field ExtendedWindowSize
 

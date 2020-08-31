@@ -8,9 +8,6 @@ ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.date: 05/08/2018
 keywords: ["IPortClsVersion::GetVersion"]
 ms.keywords: GetVersion, GetVersion method [Audio Devices], GetVersion method [Audio Devices],IPortClsVersion interface, IPortClsVersion interface [Audio Devices],GetVersion method, IPortClsVersion.GetVersion, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion
-f1_keywords:
- - "portcls/IPortClsVersion.GetVersion"
- - "IPortClsVersion.GetVersion"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortClsVersion.GetVersion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsVersion::GetVersion
+ - portcls/IPortClsVersion::GetVersion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsVersion.GetVersion
 ---
 
 # IPortClsVersion::GetVersion
@@ -46,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <code>GetVersion</code> method returns the version of the Windows operating system that the driver is running on.
-
 
 ## -returns
 
-
-
 The <code>GetVersion</code> method returns a DWORD value that specifies the Windows version number. For more information, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 The <code>GetVersion</code> method returns version information that specifies the Windows release.
 
@@ -289,20 +280,11 @@ The version numbers in the preceding table are defined in header file portcls.h.
 
 The version numbers in the preceding table are listed in roughly chronological order. Each successive Windows version in the table does not necessarily represent a feature superset of the preceding version. For example, the version that is represented by <b>kVersionWin2K</b> has more audio features than the version that is represented by <b>kVersionWin98SE_QFE2</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsversion">IPortClsVersion</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioiswdmversionavailable">IoIsWdmVersionAvailable</a>
- 
-
- 
 

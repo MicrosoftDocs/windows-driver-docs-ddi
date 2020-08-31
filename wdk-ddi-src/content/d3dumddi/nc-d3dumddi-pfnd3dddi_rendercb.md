@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnRenderCb"
- - "pfnRenderCb"
+ - PFND3DDDI_RENDERCB
+ - d3dumddi/PFND3DDDI_RENDERCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_RENDERCB callback function
+
 
 ## -description
 

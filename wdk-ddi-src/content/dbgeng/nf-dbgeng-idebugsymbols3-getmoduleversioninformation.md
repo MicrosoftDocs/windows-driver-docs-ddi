@@ -8,9 +8,6 @@ ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetModuleVersionInformation"]
 ms.keywords: GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging],IDebugSymbols2 interface, GetModuleVersionInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols3.GetModuleVersionInformation, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, dbgeng/IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation
-f1_keywords:
- - "dbgeng/IDebugSymbols2.GetModuleVersionInformation"
- - "IDebugSymbols2.GetModuleVersionInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols2.GetModuleVersionInformation
-- IDebugSymbols3.GetModuleVersionInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetModuleVersionInformation
+ - dbgeng/IDebugSymbols3::GetModuleVersionInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols2.GetModuleVersionInformation
+ - IDebugSymbols3.GetModuleVersionInformation
 ---
 
 # IDebugSymbols3::GetModuleVersionInformation
@@ -47,48 +47,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetModuleVersionInformation</b>  method returns version information for the specified module.
-
 
 ## -parameters
 
-
-
-
 ### -param Index 
+
 [in]
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
-
 ### -param Base 
+
 [in]
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
-
 ### -param Item 
+
 [in]
 Specifies the version information being requested.  This string corresponds to the <i>lpSubBlock</i> parameter of the function <b>VerQueryValue</b>.  For details on the <b>VerQueryValue</b> function, see the Platform SDK.
 
-
 ### -param Buffer 
+
 [out, optional]
 Receives the requested version information.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-
 ### -param BufferSize 
+
 [in]
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
-
 ### -param VerInfoSize 
+
 [out, optional]
 Receives the size in characters of the version information.  If <i>VerInfoSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -131,26 +124,14 @@ The specified module was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Module version information is available only for loaded modules and may not be available in all sessions.
 
 For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebyindex">GetModuleByIndex</a>
 
@@ -169,7 +150,4 @@ For more information about modules, see <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

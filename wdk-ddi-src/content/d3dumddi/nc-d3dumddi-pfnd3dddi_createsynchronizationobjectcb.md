@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnCreateSynchronizationObjectCb"
- - "pfnCreateSynchronizationObjectCb"
+ - PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB
+ - d3dumddi/PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB callback function
+
 
 ## -description
 

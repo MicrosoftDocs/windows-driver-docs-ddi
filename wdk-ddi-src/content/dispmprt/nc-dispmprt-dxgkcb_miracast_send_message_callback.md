@@ -8,9 +8,6 @@ ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
 ms.date: 05/10/2018
 keywords: ["DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK callback function"]
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
-f1_keywords:
- - "dispmprt/DxgkCbMiracastSendMessageCallback"
- - "DxgkCbMiracastSendMessageCallback"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dispmprt.h
-api_name:
-- DxgkCbMiracastSendMessageCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK
+ - dispmprt/DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dispmprt.h
+api_name:
+ - DxgkCbMiracastSendMessageCallback
 ---
 
 # DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK callback function
@@ -46,26 +46,17 @@ req.typenames:
 
 ## -description
 
-
 Called in kernel mode when the message that was sent to the user-mode driver with a call to the DxgkCbMiracastSendMessage function has completed or has been canceled.
 
-
 ## -parameters
-
-
-
 
 ### -param CallbackContext
 
 A pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
-
 ### -param pIoStatusBlock
 
 A pointer to a driver-supplied buffer to hold the returned IO_STATUS_BLOCK structure for the completed or canceled user-mode message. This structure holds the status of the I/O call and the number of bytes that the user-mode driver wrote to the output buffer.
-
-
-
 
 ## -remarks
 
@@ -73,13 +64,7 @@ This function can be called simultaneously from multiple execution threads.
 
 The operating system guarantees that this function follows the zero level synchronization mode as defined in Threading and Synchronization Zero Level.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_miracast_display_callbacks">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
@@ -90,7 +75,4 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a>
- 
-
- 
 

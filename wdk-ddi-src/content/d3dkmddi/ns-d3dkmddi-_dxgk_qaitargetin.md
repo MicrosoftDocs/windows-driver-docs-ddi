@@ -7,9 +7,6 @@ ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.date: 05/10/2018
 keywords: ["DXGK_QAITARGETIN structure"]
 ms.keywords: DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin
-f1_keywords:
- - "d3dkmddi/DXGK_QAITARGETIN"
- - "DXGK_QAITARGETIN"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_QAITARGETIN
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QAITARGETIN
+f1_keywords:
+ - _DXGK_QAITARGETIN
+ - d3dkmddi/_DXGK_QAITARGETIN
+ - DXGK_QAITARGETIN
+ - d3dkmddi/DXGK_QAITARGETIN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_QAITARGETIN
 ---
 
 # _DXGK_QAITARGETIN structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_QAITARGETIN
 
 ## -description
 
-
 Used to integrate a target.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TargetId
 

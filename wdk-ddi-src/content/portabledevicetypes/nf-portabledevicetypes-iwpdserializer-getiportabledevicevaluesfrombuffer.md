@@ -8,9 +8,6 @@ ms.assetid: c92506e7-c05c-430e-9600-4679dd00cc5f
 ms.date: 02/15/2018
 keywords: ["IWpdSerializer::GetIPortableDeviceValuesFromBuffer"]
 ms.keywords: GetIPortableDeviceValuesFromBuffer, GetIPortableDeviceValuesFromBuffer method, GetIPortableDeviceValuesFromBuffer method,IWpdSerializer interface, IWpdSerializer interface,GetIPortableDeviceValuesFromBuffer method, IWpdSerializer.GetIPortableDeviceValuesFromBuffer, IWpdSerializer::GetIPortableDeviceValuesFromBuffer, IWpdSerializerGetIPortableDeviceValuesFromBuffer, portabledevicetypes/IWpdSerializer::GetIPortableDeviceValuesFromBuffer, wpddk.iwpdserializer_getiportabledevicevaluesfrombuffer
-f1_keywords:
- - "portabledevicetypes/IWpdSerializer.GetIPortableDeviceValuesFromBuffer"
- - "IWpdSerializer.GetIPortableDeviceValuesFromBuffer"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IWpdSerializer.GetIPortableDeviceValuesFromBuffer
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IWpdSerializer::GetIPortableDeviceValuesFromBuffer
+ - portabledevicetypes/IWpdSerializer::GetIPortableDeviceValuesFromBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IWpdSerializer.GetIPortableDeviceValuesFromBuffer
 ---
 
 # IWpdSerializer::GetIPortableDeviceValuesFromBuffer
@@ -47,36 +47,26 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pBuffer 
+
 [in]
 Pointer to the buffer to deserialize.
 
-
 ### -param dwInputBufferLength 
+
 [in]
 <b>DWORD</b> that specifies the size of the buffer, in bytes.
 
-
 ### -param ppParams 
+
 [out]
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface created from the buffer. The application is responsible for calling <b>Release</b> on the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,27 +109,12 @@ An unspecified conversion error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>
- 
-
- 
 

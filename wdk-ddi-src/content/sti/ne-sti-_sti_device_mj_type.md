@@ -8,9 +8,6 @@ ms.assetid: f5ab3aa3-c24e-4716-b94a-525c6b6776dc
 ms.date: 05/03/2018
 keywords: ["STI_DEVICE_MJ_TYPE enumeration"]
 ms.keywords: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], STI_DEVICE_TYPE, STI_DEVICE_TYPE enumeration [Imaging Devices], StiDeviceTypeDefault, StiDeviceTypeDigitalCamera, StiDeviceTypeScanner, StiDeviceTypeStreamingVideo, _STI_DEVICE_MJ_TYPE, image.sti_device_type, sti/STI_DEVICE_TYPE, sti/StiDeviceTypeDefault, sti/StiDeviceTypeDigitalCamera, sti/StiDeviceTypeScanner, sti/StiDeviceTypeStreamingVideo, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml
-f1_keywords:
- - "sti/STI_DEVICE_MJ_TYPE"
- - "STI_DEVICE_MJ_TYPE"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sti.h
-api_name:
-- STI_DEVICE_MJ_TYPE
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE
+f1_keywords:
+ - _STI_DEVICE_MJ_TYPE
+ - sti/_STI_DEVICE_MJ_TYPE
+ - STI_DEVICE_MJ_TYPE
+ - sti/STI_DEVICE_MJ_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sti.h
+api_name:
+ - STI_DEVICE_MJ_TYPE
 ---
 
 # _STI_DEVICE_MJ_TYPE enumeration
+
 
 ## -description
 
@@ -75,3 +78,4 @@ The following macros are used to extract the major device type and subtype:
 GET_STIDEVICE_TYPE(dwDevType)
 GET_STIDEVICE_SUBTYPE(dwDevType)
 ```
+

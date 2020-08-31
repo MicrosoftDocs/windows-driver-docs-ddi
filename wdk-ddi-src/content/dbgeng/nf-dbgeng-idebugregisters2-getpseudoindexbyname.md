@@ -8,9 +8,6 @@ ms.assetid: 0973d8d8-53df-47aa-be65-71045c2e6006
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::GetPseudoIndexByName"]
 ms.keywords: GetPseudoIndexByName, GetPseudoIndexByName method [Windows Debugging], GetPseudoIndexByName method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoIndexByName method, IDebugRegisters2.GetPseudoIndexByName, IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, dbgeng/IDebugRegisters2::GetPseudoIndexByName, debugger.getpseudoindexbyname
-f1_keywords:
- - "dbgeng/IDebugRegisters2.GetPseudoIndexByName"
- - "IDebugRegisters2.GetPseudoIndexByName"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugRegisters2.GetPseudoIndexByName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugRegisters2::GetPseudoIndexByName
+ - dbgeng/IDebugRegisters2::GetPseudoIndexByName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugRegisters2.GetPseudoIndexByName
 ---
 
 # IDebugRegisters2::GetPseudoIndexByName
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetPseudoIndexByName</b>  method returns the index of a pseudo-register.
-
 
 ## -parameters
 
-
-
-
 ### -param Name 
+
 [in]
 Specifies the name of the pseudo-register whose index is requested.  The name includes the leading dollar sign ( <b>$</b> ), for example, "$frame".
 
-
 ### -param Index 
+
 [out]
 Receives the index of the pseudo-register.
 
-
 ## -returns
-
-
 
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
@@ -88,33 +81,18 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For the names of all the pseudo-registers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/pseudo-register-syntax">Pseudo-Register Syntax</a>.
 
 For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getpseudodescription">GetPseudoDescription</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
- 
-
- 
 

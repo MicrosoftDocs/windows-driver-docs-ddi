@@ -8,9 +8,6 @@ ms.assetid: 300720f6-8049-4558-ba8b-ecdbb8a59dbd
 ms.date: 04/30/2018
 keywords: ["KeQueryRuntimeThread function"]
 ms.keywords: KeQueryRuntimeThread, KeQueryRuntimeThread routine [Kernel-Mode Driver Architecture], k105_e8f1a28f-98f1-447c-bb72-1d1da6b50f01.xml, kernel.kequeryruntimethread, wdm/KeQueryRuntimeThread
-f1_keywords:
- - "wdm/KeQueryRuntimeThread"
- - "KeQueryRuntimeThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeQueryRuntimeThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeQueryRuntimeThread
+ - wdm/KeQueryRuntimeThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeQueryRuntimeThread
 ---
 
 # KeQueryRuntimeThread function
@@ -46,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeQueryRuntimeThread</b> routine reports the accumulated kernel-mode and user-mode run time of a thread, in clock ticks.
-
 
 ## -parameters
 
-
-
-
 ### -param Thread 
+
 [in]
 Pointer to a dispatcher object of type KTHREAD.
 
-
 ### -param UserTime 
+
 [out]
 Pointer to the memory location where <b>KeQueryRuntimeThread</b> returns the accumulated user-mode run time of the current thread, in clock ticks.
 
-
 ## -returns
-
-
 
 <b>KeQueryRuntimeThread</b> returns the accumulated kernel-mode run time of the current thread, in clock ticks.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a>
- 
-
- 
 

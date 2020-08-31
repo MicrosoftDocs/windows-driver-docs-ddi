@@ -8,9 +8,6 @@ ms.assetid: 6066CDD4-D2BA-4CF8-AF1C-189812B150D5
 ms.date: 04/30/2018
 keywords: ["EXT_DELETE_CALLBACK callback function"]
 ms.keywords: EXT_DELETE_CALLBACK, ExTimerDeleteCallback, ExTimerDeleteCallback routine [Kernel-Mode Driver Architecture], kernel.extimerdeletecallback, wdm/ExTimerDeleteCallback
-f1_keywords:
- - "wdm/ExTimerDeleteCallback"
- - "ExTimerDeleteCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- ExTimerDeleteCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EXT_DELETE_CALLBACK
+ - wdm/EXT_DELETE_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - ExTimerDeleteCallback
 ---
 
 # EXT_DELETE_CALLBACK callback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 An <i>ExTimerDeleteCallback</i> callback routine runs when the operating system deletes an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> timer object.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in, optional]
 The context value from the <i>DeleteContext</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure that your driver previously passed as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routine.
 
-
 ## -remarks
-
-
 
 As an option, your driver can supply a pointer to an <i>ExTimerDeleteCallback</i> routine in the <i>DeleteCallback</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure that your driver passes as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routine. The <i>ExTimerDeleteCallback</i> routine can free any storage or other system resources that the driver might have previously allocated to use with the timer object that is being deleted.
 
@@ -108,12 +101,7 @@ The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To mo
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a>
 
@@ -124,7 +112,4 @@ The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To mo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a>
- 
-
- 
 

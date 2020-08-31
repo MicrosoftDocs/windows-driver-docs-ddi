@@ -8,9 +8,6 @@ ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.date: 11/18/2019
 keywords: ["FreePrintPropertyValue function"]
 ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue
-f1_keywords:
- - "winspool/FreePrintPropertyValue"
- - "FreePrintPropertyValue"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- spoolss.dll
-- WinSpool.drv
-api_name:
-- FreePrintPropertyValue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FreePrintPropertyValue
+ - winspool/FreePrintPropertyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - spoolss.dll
+ - WinSpool.drv
+api_name:
+ - FreePrintPropertyValue
 ---
 
 # FreePrintPropertyValue function
+
 
 ## -description
 
@@ -51,5 +52,7 @@ Frees the value that is retrieved using the [GetJobNamedPropertyValue](https://d
 ## -parameters
 
 ### -param pValue 
+
 [in, out]
 Pointer to **PrintPropertyValue** structure that is returned from [GetJobNamedPropertyValue](https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-getjobnamedpropertyvalue).
+

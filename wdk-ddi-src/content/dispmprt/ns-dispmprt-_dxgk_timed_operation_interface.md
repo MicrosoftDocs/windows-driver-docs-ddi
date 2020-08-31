@@ -8,9 +8,6 @@ ms.assetid: 85b3764d-00b5-4e1d-bedc-c59a6b182735
 ms.date: 05/10/2018
 keywords: ["DXGK_TIMED_OPERATION_INTERFACE structure"]
 ms.keywords: "*PDXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE structure [Display Devices], DmStructs_024c0974-7f10-4251-b08e-c68307fc62d9.xml, PDXGK_TIMED_OPERATION_INTERFACE, PDXGK_TIMED_OPERATION_INTERFACE structure pointer [Display Devices], _DXGK_TIMED_OPERATION_INTERFACE, display.dxgk_timed_operation_interface, dispmprt/DXGK_TIMED_OPERATION_INTERFACE, dispmprt/PDXGK_TIMED_OPERATION_INTERFACE"
-f1_keywords:
- - "dispmprt/DXGK_TIMED_OPERATION_INTERFACE"
- - "DXGK_TIMED_OPERATION_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- DXGK_TIMED_OPERATION_INTERFACE
 targetos: Windows
 req.typenames: DXGK_TIMED_OPERATION_INTERFACE, *PDXGK_TIMED_OPERATION_INTERFACE
+f1_keywords:
+ - _DXGK_TIMED_OPERATION_INTERFACE
+ - dispmprt/_DXGK_TIMED_OPERATION_INTERFACE
+ - PDXGK_TIMED_OPERATION_INTERFACE
+ - dispmprt/PDXGK_TIMED_OPERATION_INTERFACE
+ - DXGK_TIMED_OPERATION_INTERFACE
+ - dispmprt/DXGK_TIMED_OPERATION_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - DXGK_TIMED_OPERATION_INTERFACE
 ---
 
 # _DXGK_TIMED_OPERATION_INTERFACE structure
@@ -46,39 +50,29 @@ req.typenames: DXGK_TIMED_OPERATION_INTERFACE, *PDXGK_TIMED_OPERATION_INTERFACE
 
 ## -description
 
-
 The DXGK_TIMED_OPERATION_INTERFACE structure contains pointers to functions in the Timed Operation Interface, which is implemented by the display port driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Version
 
 The version number of the Timed Operation Interface. Version number constants are defined in <i>Dispmprt.h</i> (for example, DXGK_TIMED_OPERATION_INTERFACE_VERSION_1).
-
 
 ### -field Context
 
 A pointer to a context that is provided by the display port driver.
 
-
 ### -field InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display port driver.
 
-
 ### -field InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display port driver.
-
 
 ### -field TimedOperationStart
 
@@ -103,7 +97,6 @@ The driver should preset the <b>Size</b> member of the <a href="https://docs.mic
 #### OsHandled
 
 A Boolean value that specifies whether the operating system handles the time-out condition. A value of <b>TRUE</b> indicates that the driver does not have any reasonable way to handle the time-out condition and lets the operating system handle the time-out condition; <b>FALSE</b> indicates that the driver handles the time-out condition.
-
 
 ### -field TimedOperationDelay
 
@@ -132,7 +125,6 @@ The <b>TimedOperationDelay</b> function puts the current thread into an alertabl
 #### Interval
 
 [in] A pointer to variable that contains the relative time, in 100-nanoseconds units, for the delay. The sign of the value is ignored.
-
 
 ### -field TimedOperationWaitForSingleObject
 
@@ -174,20 +166,11 @@ A Boolean value that specifies whether the wait is alertable. A value of <b>TRUE
 
 A pointer to variable that contains the relative time, in 100-nanoseconds units, for the wait to be completed. The sign of the value is ignored.
 
-
 ## -remarks
-
-
 
 The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>
 
@@ -206,7 +189,4 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationWaitForSingleObject</a>
- 
-
- 
 

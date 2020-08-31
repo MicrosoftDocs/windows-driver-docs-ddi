@@ -8,9 +8,6 @@ ms.assetid: 9b7afb56-7abb-4f20-b69d-12a28d7e3617
 ms.date: 04/20/2018
 keywords: ["IPrintOemUI2 interface"]
 ms.keywords: IPrintOemUI2, IPrintOemUI2 interface [Print Devices], IPrintOemUI2 interface [Print Devices],described, prcomoem/IPrintOemUI2, print.iprintoemui2_interface, print_unidrv-pscript_ui_838f6394-df99-4045-9059-6ff480212733.xml
-f1_keywords:
- - "prcomoem/IPrintOemUI2"
- - "IPrintOemUI2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUI2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUI2
+ - prcomoem/IPrintOemUI2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUI2
 ---
 
 # IPrintOemUI2 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This section describes the methods defined for the <b>IPrintOemUI2</b> COM interface.
-
 
 ## -inheritance
 

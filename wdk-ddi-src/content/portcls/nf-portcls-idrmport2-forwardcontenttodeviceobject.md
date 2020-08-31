@@ -8,9 +8,6 @@ ms.assetid: 4e5c8942-3ce2-40d8-8cd7-436a5ebbc8ee
 ms.date: 05/08/2018
 keywords: ["IDrmPort2::ForwardContentToDeviceObject"]
 ms.keywords: ForwardContentToDeviceObject, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],ForwardContentToDeviceObject method, IDrmPort2.ForwardContentToDeviceObject, IDrmPort2::ForwardContentToDeviceObject, audio.idrmport2_forwardcontenttodeviceobject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, portcls/IDrmPort2::ForwardContentToDeviceObject
-f1_keywords:
- - "portcls/IDrmPort2.ForwardContentToDeviceObject"
- - "IDrmPort2.ForwardContentToDeviceObject"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IDrmPort2.ForwardContentToDeviceObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDrmPort2::ForwardContentToDeviceObject
+ - portcls/IDrmPort2::ForwardContentToDeviceObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IDrmPort2.ForwardContentToDeviceObject
 ---
 
 # IDrmPort2::ForwardContentToDeviceObject
@@ -46,61 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <code>ForwardContentToDeviceObject</code> method accepts a device object representing a device to which the caller intends to forward protected content. Note that this method is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a> function, and its parameter definitions and return value are also identical.
-
 
 ## -parameters
 
-
-
-
 ### -param ContentId
-
-
-
 
 ### -param Reserved
 
-
-
-
 ### -param DrmForward
-
-
-
-
-
 
 ## -returns
 
-
-
 See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a>.
-
-
-
 
 ## -remarks
 
-
-
 See comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-idrmport2">IDrmPort2</a>
- 
-
- 
 

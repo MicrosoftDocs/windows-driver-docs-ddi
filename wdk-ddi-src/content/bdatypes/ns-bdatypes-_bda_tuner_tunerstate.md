@@ -8,9 +8,6 @@ ms.assetid: 77B30ADC-27F2-4883-97FC-F6C29B539EE0
 ms.date: 04/23/2018
 keywords: ["BDA_TUNER_TUNERSTATE structure"]
 ms.keywords: "*PBDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE structure [Streaming Media Devices], PBDA_TUNER_TUNERSTATE, PBDA_TUNER_TUNERSTATE structure pointer [Streaming Media Devices], _BDA_TUNER_TUNERSTATE, bdatypes/BDA_TUNER_TUNERSTATE, bdatypes/PBDA_TUNER_TUNERSTATE, stream.bda_tuner_tunerstate"
-f1_keywords:
- - "bdatypes/BDA_TUNER_TUNERSTATE"
- - "BDA_TUNER_TUNERSTATE"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_TUNER_TUNERSTATE
 targetos: Windows
 req.typenames: BDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE
+f1_keywords:
+ - _BDA_TUNER_TUNERSTATE
+ - bdatypes/_BDA_TUNER_TUNERSTATE
+ - PBDA_TUNER_TUNERSTATE
+ - bdatypes/PBDA_TUNER_TUNERSTATE
+ - BDA_TUNER_TUNERSTATE
+ - bdatypes/BDA_TUNER_TUNERSTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_TUNER_TUNERSTATE
 ---
 
 # _BDA_TUNER_TUNERSTATE structure
@@ -46,20 +50,11 @@ req.typenames: BDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lResult
 
-
 ### -field ulTuneLength
-
 
 ### -field argbTuneData
 

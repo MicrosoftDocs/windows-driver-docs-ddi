@@ -8,9 +8,6 @@ ms.assetid: fa915ec0-167f-441c-b2de-0ae2b852c432
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, display.dxgi_ddi_multiplane_overlay_ycbcr_flags, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
-f1_keywords:
- - "dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
- - "DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dxgiddi.h
-api_name:
-- DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+f1_keywords:
+ - DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ - dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dxgiddi.h
+api_name:
+ - DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration
@@ -46,35 +46,23 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 
 ## -description
 
-
 Identifies YUV range and conversion info that describes a multiplane overlay.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE
 
 YUV values range from 16 to 235, inclusive, instead of the default range of 0 to 255, inclusive.
 
-
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709
 
 YUV values should be converted using the BT.709 standard, instead of the default BT.601 conversion.
-
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 
 YUV values contain xvYCC data, instead of conventional YCbCr data.
 
-
 ## -remarks
 
-
-
 For more info on how YUV ranges are defined and converted, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.
-
-
 

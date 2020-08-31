@@ -8,9 +8,6 @@ ms.assetid: 6097b40d-2f86-4f87-bf57-191371ec943d
 ms.date: 05/02/2018
 keywords: ["RILCARDAPPADDEDPARAMMASK enumeration"]
 ms.keywords: RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, netvista.rilcardappaddedparammask, ntddrilapitypes/RILCARDAPPADDEDPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_ALL, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO
-f1_keywords:
- - "rilapitypes/RILCARDAPPADDEDPARAMMASK"
- - "RILCARDAPPADDEDPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCARDAPPADDEDPARAMMASK
 targetos: Windows
 req.typenames: RILCARDAPPADDEDPARAMMASK
+f1_keywords:
+ - RILCARDAPPADDEDPARAMMASK
+ - rilapitypes/RILCARDAPPADDEDPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCARDAPPADDEDPARAMMASK
 ---
 
 # RILCARDAPPADDEDPARAMMASK enumeration
@@ -46,20 +46,13 @@ req.typenames: RILCARDAPPADDEDPARAMMASK
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_CARDAPPADDED_SLOTINDEX
 
-
 ### -field RIL_PARAM_CARDAPPADDED_UICCAPPINFO
-
 
 ### -field RIL_PARAM_CARDAPPADDED_ALL
 

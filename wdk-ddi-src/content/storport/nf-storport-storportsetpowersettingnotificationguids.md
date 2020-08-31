@@ -8,9 +8,6 @@ ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.date: 03/29/2018
 keywords: ["StorPortSetPowerSettingNotificationGuids function"]
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
-f1_keywords:
- - "storport/StorPortSetPowerSettingNotificationGuids"
- - "StorPortSetPowerSettingNotificationGuids"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortSetPowerSettingNotificationGuids
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortSetPowerSettingNotificationGuids
+ - storport/StorPortSetPowerSettingNotificationGuids
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortSetPowerSettingNotificationGuids
 ---
 
 # StorPortSetPowerSettingNotificationGuids function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortSetPowerSettingNotificationGuids</b> routine enables a miniport to receive power setting notifications. The miniport registers an array of GUIDs which identify the power settings to receive power change notifications for.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param GuidCount 
+
 [in]
 The number of GUIDs in the <i>Guid</i> array.
 
-
 ### -param Guid 
+
 [in]
 An array of power setting GUIDs to register for notification. A typical use for registering these GUIDs is for SATA miniports to receive notifications for AHCI Link Power Management setting changes. The  AHCI Link Power Management settings defined by the Microsoft AHCI StorPort miniport driver are the following.
 
@@ -127,10 +123,7 @@ The period of AHCI link idle time before the link is put into a slumber state wh
 
 Other miniports may define and register their own power setting GUIDs.
 
-
 ## -returns
-
-
 
 The <b>StorPortSetPowerSettingNotificationGuids</b> routine returns one of these status codes:
 
@@ -162,14 +155,8 @@ The notification GUIDs were registered successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A miniport calls <b>StorPortSetPowerSettingNotificationGuids</b> in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine to register the GUIDs it requests to receive notifications for.
 
@@ -177,20 +164,11 @@ When a power state change occurs for a registered notification, the miniport is 
 
 The AHCI Link Power management settings are part of the Disk Settings subgroup (0012ee47-9041-4b5d-9b77-535fba8b1442) in the power policy configuration. These are managed under the SUB_DISK configuration  alias with <i>powercfg.exe</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
- 
-
- 
 

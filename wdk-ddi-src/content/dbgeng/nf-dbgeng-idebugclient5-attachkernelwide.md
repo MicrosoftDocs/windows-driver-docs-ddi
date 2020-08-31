@@ -8,9 +8,6 @@ ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::AttachKernelWide"]
 ms.keywords: AttachKernelWide, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],AttachKernelWide method, IDebugClient5.AttachKernelWide, IDebugClient5::AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, debugger.attachkernelwide
-f1_keywords:
- - "dbgeng/IDebugClient5.AttachKernelWide"
- - "IDebugClient5.AttachKernelWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient5.AttachKernelWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::AttachKernelWide
+ - dbgeng/IDebugClient5::AttachKernelWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient5.AttachKernelWide
 ---
 
 # IDebugClient5::AttachKernelWide
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>AttachKernelWide</b> method connects the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/d">debugger engine</a> to a kernel target.
-
 
 ## -parameters
 
-
-
-
 ### -param Flags 
+
 [in]
 Specifies the flags that control how the debugger attaches to the kernel target.  The possible values are:
 
@@ -85,10 +81,9 @@ Attach to a kernel by using an eXDI driver.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ConnectOptions 
+
 [in, optional]
 Specifies the connection settings for communicating with the computer running the kernel target.  The interpretation of <i>ConnectOptions</i> depends on the value of <i>Flags</i>.
 
@@ -106,10 +101,7 @@ Specifies the connection settings for communicating with the computer running th
 
 eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -130,26 +122,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>    The engine doesn't completely attach to the kernel until the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-waitforevent">WaitForEvent</a> method has been called.  Only after the kernel has generated an event -- for example, the initial breakpoint -- does it become available in the debugger session.</div>
 <div> </div>
 For more information about connecting to live kernel-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-kernel-mode-targets">Live Kernel-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a>
 
@@ -164,7 +144,4 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-iskerneldebuggerenabled">IsKernelDebuggerEnabled</a>
- 
-
- 
 

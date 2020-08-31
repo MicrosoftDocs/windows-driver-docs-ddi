@@ -8,9 +8,6 @@ ms.assetid: a7a02813-62e4-49c5-abb6-a90f4e092b9f
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_CLOSE_AF callback function"]
 ms.keywords: PROTOCOL_CM_CLOSE_AF, PROTOCOL_CM_CLOSE_AF callback, ProtocolCmCloseAf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml, ndis/ProtocolCmCloseAf, netvista.protocolcmcloseaf
-f1_keywords:
- - "ndis/ProtocolCmCloseAf"
- - "ProtocolCmCloseAf"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmCloseAf
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_CLOSE_AF
+ - ndis/PROTOCOL_CM_CLOSE_AF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmCloseAf
 ---
 
 # PROTOCOL_CM_CLOSE_AF callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmCloseAf</i> function is a required function that releases per-open resources for an address
@@ -55,19 +54,14 @@ The
 
 ## -parameters
 
-
-
-
 ### -param CallMgrAfContext 
+
 [in]
 Specifies the handle to the call manager's per-AF context area, originally supplied to NDIS by the
      call manager's 
      <i>ProtocolCmOpenAf</i> function.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmCloseAf</i> returns the status of its operation(s) as one of the following:
 
@@ -104,14 +98,8 @@ Indicates that the request to close the open instance of the address family will
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCmCloseAf</i> releases and/or deactivates any resources that were allocated by the call manager
     in its 
@@ -171,15 +159,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CM_CLOSE_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmcloseaddressfamilycomplete">
    NdisCmCloseAddressFamilyComplete</a>
@@ -187,7 +169,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
- 
-
- 
 

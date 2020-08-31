@@ -7,38 +7,38 @@ ms.assetid: A0E1AA43-FE1A-4754-B8E6-BFE87CA810E2
 ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022, D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022 enumeration [Display Devices], D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0020_NONE, D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_EVEN_DIMENSIONS_ONLY, D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_POW2_ONLY, d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022, d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_EVEN_DIMENSIONS_ONLY, d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_POW2_ONLY, display.d3d12ddi_video_scale_support_flags
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022"
- - "D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d12umddi.h
-api_name:
-- D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
+f1_keywords:
+ - D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
+ - d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
 ---
 
 # D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022 enumeration
@@ -46,14 +46,9 @@ req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
 
 ## -description
 
-
 Contains the options for video scale support.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_NONE
 
@@ -86,6 +81,4 @@ bool OutputSizeSupported(UINT Size, UINT Max, UINT Min)
 ### -field D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_EVEN_DIMENSIONS_ONLY
 
 The scaler supports only output sizes that have even output dimensions.
-
-
 

@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnSetMarker"
- - "pfnSetMarker"
+ - PFND3DDDI_SETMARKER
+ - d3dumddi/PFND3DDDI_SETMARKER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETMARKER callback function
+
 
 ## -description
 

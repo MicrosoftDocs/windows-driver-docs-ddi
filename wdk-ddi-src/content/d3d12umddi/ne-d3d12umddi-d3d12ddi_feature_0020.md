@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_FEATURE_0020
 f1_keywords:
- - "d3d12umddi/D3D12DDI_FEATURE_0020"
- - "D3D12DDI_FEATURE_0020"
+ - D3D12DDI_FEATURE_0020
+ - d3d12umddi/D3D12DDI_FEATURE_0020
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # D3D12DDI_FEATURE_0020 enumeration
+
 
 ## -description
 
@@ -86,3 +87,4 @@ Supports down level.
 ### -field D3D12DDI_FEATURE_0076_PIN_RESOURCES
 
 Supports resource pinning. Supported starting with Windows 10, version 2004.
+

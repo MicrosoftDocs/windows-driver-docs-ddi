@@ -8,9 +8,6 @@ ms.assetid: 383f9dcb-68ba-4323-b25f-668169043f35
 ms.date: 05/02/2018
 keywords: ["NdisFNetPnPEvent function"]
 ms.keywords: NdisFNetPnPEvent, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, ndis/NdisFNetPnPEvent, netvista.ndisfnetpnpevent
-f1_keywords:
- - "ndis/NdisFNetPnPEvent"
- - "NdisFNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFNetPnPEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFNetPnPEvent
+ - ndis/NdisFNetPnPEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFNetPnPEvent
 ---
 
 # NdisFNetPnPEvent function
@@ -47,16 +47,11 @@ req.typenames:
 
 ## -description
 
-
 A filter driver can call the 
   <b>NdisFNetPnPEvent</b> function to forward a network Plug and Play (PnP) or Power Management event to
   overlying drivers.
 
-
 ## -parameters
-
-
-
 
 ### -param NdisFilterHandle
 
@@ -72,8 +67,6 @@ A pointer to a
      event being forwarded by the filter driver.
 
 ## -returns
-
-
 
 <b>NdisFNetPnPEvent</b> can return either of the following:
 
@@ -105,14 +98,8 @@ The overlying driver failed the PnP event.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS calls a filter driver's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a> function to notify
@@ -127,12 +114,7 @@ Filter drivers can forward these notifications to overlying drivers. To forward 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a> function.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -147,7 +129,4 @@ Filter drivers can forward these notifications to overlying drivers. To forward 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
- 
-
- 
 

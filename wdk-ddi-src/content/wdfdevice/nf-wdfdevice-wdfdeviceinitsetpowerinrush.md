@@ -8,9 +8,6 @@ ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerInrush function"]
 ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush, wdfdevice/WdfDeviceInitSetPowerInrush
-f1_keywords:
- - "wdfdevice/WdfDeviceInitSetPowerInrush"
- - "WdfDeviceInitSetPowerInrush"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitSetPowerInrush
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitSetPowerInrush
+ - wdfdevice/WdfDeviceInitSetPowerInrush
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitSetPowerInrush
 ---
 
 # WdfDeviceInitSetPowerInrush function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitSetPowerInrush</b> method informs the power manager that the specified device requires an inrush of current when it starts.
 
-
 ## -parameters
 
-
-
-
 ### -param DeviceInit 
+
 [in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-
 ## -remarks
-
-
 
 To avoid overloading the system's power supply, the system starts devices that require an inrush of current one at a time.
 
@@ -84,19 +77,11 @@ The following code example informs the power manager that a device requires an i
 WdfDeviceInitSetPowerInrush(DeviceInit);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
- 
-
- 
 

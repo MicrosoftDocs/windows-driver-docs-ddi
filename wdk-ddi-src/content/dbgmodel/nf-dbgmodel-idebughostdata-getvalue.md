@@ -5,38 +5,38 @@ description: Returns the value of the constant in a VARIANT data structure.
 ms.assetid: f36dd267-59f8-41aa-99ae-455ae6e98c1e
 ms.date: 09/10/2018
 keywords: ["IDebugHostData::GetValue"]
-f1_keywords:
- - "dbgmodel/IDebugHostData.GetValue"
- - "IDebugHostData.GetValue"
 ms.keywords: IDebugHostData::GetValue, GetValue, IDebugHostData.GetValue, IDebugHostData::GetValue, IDebugHostData.GetValue
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostData.GetValue
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostData::GetValue
+ - dbgmodel/IDebugHostData::GetValue
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostData.GetValue
 ---
 
 # IDebugHostData::GetValue
@@ -49,9 +49,11 @@ Returns the value of the constant in a VARIANT data structure.
 ## -parameters
 
 ### -param value
+
 The value of the data packed into a VARIANT will be returned here.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -71,4 +73,6 @@ if (SUCCEEDED(spData->GetValue(&vtValue)))
 ```
 
 ## -see-also
+
 [IDebugHostData interface](nn-dbgmodel-idebughostdata.md)
+

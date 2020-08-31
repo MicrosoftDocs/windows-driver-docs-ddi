@@ -8,9 +8,6 @@ ms.assetid: ff39aebb-03c0-4ba4-844a-417579ed2bbf
 ms.date: 04/16/2018
 keywords: ["RxCreateRxContext function"]
 ms.keywords: RxCreateRxContext, RxCreateRxContext function [Installable File System Drivers], ifsk.rxcreaterxcontext, rxcontx/RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml
-f1_keywords:
- - "rxcontx/RxCreateRxContext"
- - "RxCreateRxContext"
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxcontx.h
-api_name:
-- RxCreateRxContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCreateRxContext
+ - rxcontx/RxCreateRxContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxcontx.h
+api_name:
+ - RxCreateRxContext
 ---
 
 # RxCreateRxContext function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
-<b>RxCreateRxContext</b> allocates a new RX_CONTEXT structure and initializes the data structure. 
-
+<b>RxCreateRxContext</b> allocates a new RX_CONTEXT structure and initializes the data structure.
 
 ## -parameters
 
-
-
-
 ### -param Irp 
+
 [in, optional]
 A pointer to the IRP to be encapsulated by this RX_CONTEXT structure.
 
-
 ### -param RxDeviceObject 
+
 [in]
 A pointer to the device object to which this RX_CONTEXT and IRP apply.
 
-
 ### -param InitialContextFlags 
+
 [in]
 The set of initial values for the <b>Flags</b> member of the RX_CONTEXT data structure to be stored in the RX_CONTEXT structure. These initial values can be any combination of the following enumerations:
 
@@ -87,21 +83,13 @@ When this value is set, the operation must succeed. This value is not currently 
 
 #### RX_CONTEXT_FLAG_MUST_SUCCEED_NONBLOCKING
 
-When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
-
+When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers.
 
 ## -returns
 
-
-
-<b>RxCreateRxContext</b> returns a pointer to an allocated RX_CONTEXT data structure on success or a <b>NULL</b> pointer on failure. 
-
-
-
+<b>RxCreateRxContext</b> returns a pointer to an allocated RX_CONTEXT data structure on success or a <b>NULL</b> pointer on failure.
 
 ## -remarks
-
-
 
 <b>RxCreateRxContext</b> calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/nf-rxcontx-rxinitializecontext">RxInitializeContext</a> to initialize the newly created RX_CONTEXT structure before returning. 
 
@@ -111,13 +99,7 @@ When this value is set, the operation must succeed for non-blocking operations. 
 
 When this value is set, the RX_CONTEXT structure was allocated from non-paged pool memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
@@ -156,7 +138,4 @@ When this value is set, the RX_CONTEXT structure was allocated from non-paged po
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/--rxsynchronizeblockingoperationsmaybedroppingfcblock">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
- 
-
- 
 

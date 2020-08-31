@@ -8,9 +8,6 @@ ms.assetid: c61e343a-5276-4cb8-87ff-9852ad167ff5
 ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveOutputMemory function"]
 ms.keywords: DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, WdfRequestRetrieveOutputMemory, WdfRequestRetrieveOutputMemory method, kmdf.wdfrequestretrieveoutputmemory, wdf.wdfrequestretrieveoutputmemory, wdfrequest/WdfRequestRetrieveOutputMemory
-f1_keywords:
- - "wdfrequest/WdfRequestRetrieveOutputMemory"
- - "WdfRequestRetrieveOutputMemory"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestRetrieveOutputMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestRetrieveOutputMemory
+ - wdfrequest/WdfRequestRetrieveOutputMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestRetrieveOutputMemory
 ---
 
 # WdfRequestRetrieveOutputMemory function
@@ -49,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRetrieveOutputMemory</b> method retrieves a handle to a framework memory object that represents an I/O request's output buffer.
 
-
 ## -parameters
 
-
-
-
 ### -param Request 
-[in]
-A handle to a framework request object. 
 
+[in]
+A handle to a framework request object.
 
 ### -param Memory 
-[out]
-A pointer to a location that receives a handle to a framework memory object. 
 
+[out]
+A pointer to a location that receives a handle to a framework memory object.
 
 ## -returns
-
-
 
 <b>WdfRequestRetrieveOutputMemory</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -146,12 +139,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 A request's output buffer receives information, such as data from a disk, that the driver provides to the originator of the request. Your driver can call <b>WdfRequestRetrieveOutputMemory</b> to obtain the output buffer for a read request or a device I/O control request, but not for a write request (because write requests do not provide output data).
 
@@ -243,12 +231,7 @@ Exit:
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>
 
@@ -259,7 +242,4 @@ Exit:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputbuffer">WdfRequestRetrieveOutputBuffer</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCloseAllocation"
- - "DxgkDdiCloseAllocation"
+ - DXGKDDI_CLOSEALLOCATION
+ - d3dkmddi/DXGKDDI_CLOSEALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CLOSEALLOCATION callback function
+
 
 ## -description
 

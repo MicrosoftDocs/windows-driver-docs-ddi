@@ -6,36 +6,37 @@ tech.root: netvista
 ms.assetid: D14D96AB-E43E-4316-A737-E026C151FA67
 ms.date: 09/27/2019
 keywords: ["NET_RING_TYPE enumeration"]
-f1_keywords:
- - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
- - "RILWRITEPHONEBOOKENTRYPARAMS"
-ms.keywords: _NET_RING_TYPE, NET_RING_TYPE, 
+ms.keywords: _NET_RING_TYPE, NET_RING_TYPE,
 req.header: ringcollection.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: NET_RING_TYPE
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- ringcollection.h
-apiname: 
-- _NET_RING_TYPE
 targetos: Windows
+f1_keywords:
+ - _NET_RING_TYPE
+ - ringcollection/_NET_RING_TYPE
+ - NET_RING_TYPE
+ - ringcollection/NET_RING_TYPE
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - ringcollection.h
+apiname:
+ - _NET_RING_TYPE
 ---
 
 # _NET_RING_TYPE enumeration
 
+
 ## -description
-
-
 
 The **NET_RING_TYPE** enumeration defines types of net rings for a packet queue.
 
@@ -56,3 +57,4 @@ The [**NET_RING**](../ring/ns-ring-_net_ring.md) is a fragment ring.
 [Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)
 
 [**NET_RING**](../ring/ns-ring-_net_ring.md)
+

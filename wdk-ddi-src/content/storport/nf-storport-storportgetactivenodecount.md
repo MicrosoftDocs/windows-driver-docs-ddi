@@ -8,9 +8,6 @@ ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.date: 03/29/2018
 keywords: ["StorPortGetActiveNodeCount function"]
 ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
-f1_keywords:
- - "storport/StorPortGetActiveNodeCount"
- - "StorPortGetActiveNodeCount"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetActiveNodeCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetActiveNodeCount
+ - storport/StorPortGetActiveNodeCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetActiveNodeCount
 ---
 
 # StorPortGetActiveNodeCount function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetActiveNodeCount</b> routine returns the number of nodes that are present in the system.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param NumberNodes 
+
 [out]
 A pointer to a variable that holds the number of nodes.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetActiveNodeCount</b>routine returns one of the following status codes:
 
@@ -110,7 +103,4 @@ The operation fails with this return value if one or more of the parameters are 
 </td>
 </tr>
 </table>
- 
-
-
 

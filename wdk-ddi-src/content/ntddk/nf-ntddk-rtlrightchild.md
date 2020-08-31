@@ -8,9 +8,6 @@ ms.assetid: 1b906983-b000-449b-8e82-46ade5384168
 ms.date: 04/16/2018
 keywords: ["RtlRightChild macro"]
 ms.keywords: RtlRightChild, RtlRightChild routine [Installable File System Drivers], ifsk.rtlrightchild, ntddk/RtlRightChild, rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml
-f1_keywords:
- - "ntddk/RtlRightChild"
- - "RtlRightChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- RtlRightChild
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlRightChild
+ - ntddk/RtlRightChild
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - RtlRightChild
 ---
 
 # RtlRightChild macro
@@ -46,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlRightChild</b> routine returns a pointer to the right child of the specified splay link node. 
-
+The <b>RtlRightChild</b> routine returns a pointer to the right child of the specified splay link node.
 
 ## -parameters
 
-
-
-
 ### -param Links 
-[in]
-Pointer to the node whose right child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
+[in]
+Pointer to the node whose right child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -remarks
 
@@ -69,15 +64,9 @@ Pointer to the node whose right child is to be returned. The node must have been
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-Callers of <b>RtlRightChild</b> must be running at IRQL <= DISPATCH_LEVEL if the tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
-
-
-
+Callers of <b>RtlRightChild</b> must be running at IRQL <= DISPATCH_LEVEL if the tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializesplaylinks">RtlInitializeSplayLinks</a>
 
@@ -92,7 +81,4 @@ Callers of <b>RtlRightChild</b> must be running at IRQL <= DISPATCH_LEVEL if the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlparent">RtlParent</a>
- 
-
- 
 

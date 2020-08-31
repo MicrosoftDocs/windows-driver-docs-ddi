@@ -8,9 +8,6 @@ ms.assetid: a4bfdc26-46a9-404e-9cd0-10dabba01dc2
 ms.date: 05/02/2018
 keywords: ["RILMSGINDELIVER structure"]
 ms.keywords: "*LPRILMSGINDELIVER, RILMSGINDELIVER, RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgindeliver, ntddrilapitypes/RILMSGINDELIVER"
-f1_keywords:
- - "rilapitypes/RILMSGINDELIVER"
- - "RILMSGINDELIVER"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMSGINDELIVER
 targetos: Windows
 req.typenames: RILMSGINDELIVER, *LPRILMSGINDELIVER
+f1_keywords:
+ - RILMSGINDELIVER
+ - rilapitypes/RILMSGINDELIVER
+ - LPRILMSGINDELIVER
+ - rilapitypes/LPRILMSGINDELIVER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMSGINDELIVER
 ---
 
 # RILMSGINDELIVER structure
@@ -46,38 +48,25 @@ req.typenames: RILMSGINDELIVER, *LPRILMSGINDELIVER
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field raOrigAddress
-
 
 ### -field dwProtocolID
 
-
 ### -field rmdDataCoding
-
 
 ### -field stSCReceiveTime
 
-
 ### -field dwMsgID
-
 
 ### -field cbHdrLength
 
-
 ### -field cchMsgLength
 
-
 ### -field rgbHdr
-
 
 ### -field rgbMsg
 

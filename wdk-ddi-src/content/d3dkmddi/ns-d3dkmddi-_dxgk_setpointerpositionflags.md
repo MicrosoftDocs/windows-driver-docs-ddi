@@ -7,9 +7,6 @@ ms.assetid: c834080a-1a0a-4327-b80b-6e5eb3728605
 ms.date: 05/10/2018
 keywords: ["DXGK_SETPOINTERPOSITIONFLAGS structure"]
 ms.keywords: DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, _DXGK_SETPOINTERPOSITIONFLAGS, d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS, display.dxgk_setpointerpositionflags
-f1_keywords:
- - "d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS"
- - "DXGK_SETPOINTERPOSITIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_SETPOINTERPOSITIONFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SETPOINTERPOSITIONFLAGS
+f1_keywords:
+ - _DXGK_SETPOINTERPOSITIONFLAGS
+ - d3dkmddi/_DXGK_SETPOINTERPOSITIONFLAGS
+ - DXGK_SETPOINTERPOSITIONFLAGS
+ - d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_SETPOINTERPOSITIONFLAGS
 ---
 
 # _DXGK_SETPOINTERPOSITIONFLAGS structure
@@ -46,21 +48,15 @@ req.typenames: DXGK_SETPOINTERPOSITIONFLAGS
 
 ## -description
 
-
 The <b>DXGK_SETPOINTERPOSITIONFLAGS</b> structure identifies, in bit-field flags, information about a mouse pointer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Visible
 
 [in] A <b>UINT</b> value that specifies whether the mouse pointer is visible. If this member is set, the mouse pointer is visible; if this member is not set, the mouse pointer is invisible. The driver should ignore the values in the <b>X</b> and <b>Y</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a> structure if <b>Visible</b> is not set (that is, <b>Visible</b> is set to 0). 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
-
 
 ### -field Procedural
 
@@ -70,24 +66,15 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 
 Supported starting with Windows 8.
 
-
 ### -field Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 
 [in] A member in the union that <b>DXGK_SETPOINTERPOSITIONFLAGS</b> contains that can hold one 32-bit value that indicates information about a mouse pointer.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a>
- 
-
- 
 

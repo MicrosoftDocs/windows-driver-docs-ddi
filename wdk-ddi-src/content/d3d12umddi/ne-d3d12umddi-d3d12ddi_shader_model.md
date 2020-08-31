@@ -5,35 +5,36 @@ description: Specifies the Shader Model.
 ms.assetid: 2bfe0ac6-1de4-482d-9f15-8a5407fbb8a7
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_SHADER_MODEL enumeration"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_SHADER_MODEL"
- - "D3D12DDI_SHADER_MODEL"
 ms.keywords: D3D12DDI_SHADER_MODEL, D3D12DDI_SHADER_MODEL,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_SHADER_MODEL
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_SHADER_MODEL
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3D12DDI_SHADER_MODEL
+ - d3d12umddi/D3D12DDI_SHADER_MODEL
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_SHADER_MODEL
+product:
+ - Windows
 ---
 
 # D3D12DDI_SHADER_MODEL enumeration
+
 
 ## -description
 
@@ -80,3 +81,4 @@ Shader Model 6.3 Release.
 ### -field D3D12DDI_SHADER_MODEL_6_4_EXPERIMENTAL_0054 
 
 Shader Model 6.4 Preview.
+

@@ -8,37 +8,37 @@ ms.assetid: d2cc4c39-b96e-4078-bfea-2e06a07e938e
 ms.date: 02/16/2018
 keywords: ["RILTDSCDMAMRLPARAMMASK enumeration"]
 ms.keywords: RILTDSCDMAMRLPARAMMASK, RILTDSCDMAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TDSCDMAMRL_ALL, RIL_PARAM_TDSCDMAMRL_CELLID, RIL_PARAM_TDSCDMAMRL_CELLPARAM, RIL_PARAM_TDSCDMAMRL_LAC, RIL_PARAM_TDSCDMAMRL_MCC, RIL_PARAM_TDSCDMAMRL_MNC, RIL_PARAM_TDSCDMAMRL_PATHLOSS, RIL_PARAM_TDSCDMAMRL_RSCP, RIL_PARAM_TDSCDMAMRL_UARFCN, netvista.riltdscdmamrlparammask, rilapitypes/RILTDSCDMAMRLPARAMMASK, rilapitypes/RIL_PARAM_TDSCDMAMRL_ALL, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLID, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLPARAM, rilapitypes/RIL_PARAM_TDSCDMAMRL_LAC, rilapitypes/RIL_PARAM_TDSCDMAMRL_MCC, rilapitypes/RIL_PARAM_TDSCDMAMRL_MNC, rilapitypes/RIL_PARAM_TDSCDMAMRL_PATHLOSS, rilapitypes/RIL_PARAM_TDSCDMAMRL_RSCP, rilapitypes/RIL_PARAM_TDSCDMAMRL_UARFCN
-f1_keywords:
- - "ntddrilapitypes/RILTDSCDMAMRLPARAMMASK"
- - "RILTDSCDMAMRLPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILTDSCDMAMRLPARAMMASK
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILTDSCDMAMRLPARAMMASK
+f1_keywords:
+ - RILTDSCDMAMRLPARAMMASK
+ - ntddrilapitypes/RILTDSCDMAMRLPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILTDSCDMAMRLPARAMMASK
 ---
 
 # RILTDSCDMAMRLPARAMMASK enumeration
@@ -46,14 +46,29 @@ req.typenames: RILTDSCDMAMRLPARAMMASK
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILTDSCDMAMRLPARAMMASK.
 
+## -enum-fields
 
+### -field RIL_PARAM_TDSCDMAMRL_MCC
 
+### -field RIL_PARAM_TDSCDMAMRL_MNC
+
+### -field RIL_PARAM_TDSCDMAMRL_LAC
+
+### -field RIL_PARAM_TDSCDMAMRL_CELLID
+
+### -field RIL_PARAM_TDSCDMAMRL_UARFCN
+
+### -field RIL_PARAM_TDSCDMAMRL_CELLPARAM
+
+### -field RIL_PARAM_TDSCDMAMRL_RSCP
+
+### -field RIL_PARAM_TDSCDMAMRL_PATHLOSS
+
+### -field RIL_PARAM_TDSCDMAMRL_ALL
 
 ## -syntax
-
 
 ```cpp
 enum RILTDSCDMAMRLPARAMMASK {
@@ -70,42 +85,7 @@ enum RILTDSCDMAMRLPARAMMASK {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_PARAM_TDSCDMAMRL_MCC
-
-
-### -field RIL_PARAM_TDSCDMAMRL_MNC
-
-
-### -field RIL_PARAM_TDSCDMAMRL_LAC
-
-
-### -field RIL_PARAM_TDSCDMAMRL_CELLID
-
-
-### -field RIL_PARAM_TDSCDMAMRL_UARFCN
-
-
-### -field RIL_PARAM_TDSCDMAMRL_CELLPARAM
-
-
-### -field RIL_PARAM_TDSCDMAMRL_RSCP
-
-
-### -field RIL_PARAM_TDSCDMAMRL_PATHLOSS
-
-
-### -field RIL_PARAM_TDSCDMAMRL_ALL
-
-
 ## -remarks
-
-
 
 Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks.
 
@@ -455,19 +435,8 @@ No
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
 

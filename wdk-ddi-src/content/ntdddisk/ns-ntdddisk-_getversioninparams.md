@@ -8,9 +8,6 @@ ms.assetid: dcbfa8d2-c2ea-43ae-9d77-ce95a430a514
 ms.date: 03/29/2018
 keywords: ["GETVERSIONINPARAMS structure"]
 ms.keywords: "*LPGETVERSIONINPARAMS, *PGETVERSIONINPARAMS, GETVERSIONINPARAMS, GETVERSIONINPARAMS structure [Storage Devices], LPGETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], PGETVERSIONINPARAMS, PGETVERSIONINPARAMS structure pointer [Storage Devices], _GETVERSIONINPARAMS, ntdddisk/GETVERSIONINPARAMS, ntdddisk/LPGETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, storage.getversioninparams, structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml"
-f1_keywords:
- - "ntdddisk/GETVERSIONINPARAMS"
- - "GETVERSIONINPARAMS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdddisk.h
-api_name:
-- GETVERSIONINPARAMS
 targetos: Windows
 req.typenames: GETVERSIONINPARAMS, *PGETVERSIONINPARAMS, *LPGETVERSIONINPARAMS
+f1_keywords:
+ - _GETVERSIONINPARAMS
+ - ntdddisk/_GETVERSIONINPARAMS
+ - PGETVERSIONINPARAMS
+ - ntdddisk/PGETVERSIONINPARAMS
+ - GETVERSIONINPARAMS
+ - ntdddisk/GETVERSIONINPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdddisk.h
+api_name:
+ - GETVERSIONINPARAMS
 ---
 
 # _GETVERSIONINPARAMS structure
@@ -46,29 +50,21 @@ req.typenames: GETVERSIONINPARAMS, *PGETVERSIONINPARAMS, *LPGETVERSIONINPARAMS
 
 ## -description
 
-
-The GETVERSIONINPARAMS structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a> request to retrieve version information, a capabilities mask, and a bitmask for the indicated device. 
-
+The GETVERSIONINPARAMS structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a> request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
 
 ## -struct-fields
 
-
-
-
 ### -field bVersion
 
-Contains an integer that indicates the version number of the binary driver. 
-
+Contains an integer that indicates the version number of the binary driver.
 
 ### -field bRevision
 
-Contains an integer that indicates the revision number of the binary driver. 
-
+Contains an integer that indicates the revision number of the binary driver.
 
 ### -field bReserved
 
-Reserved. 
-
+Reserved.
 
 ### -field bIDEDeviceMap
 
@@ -160,8 +156,6 @@ The device is an ATAPI drive, and it is the subordinate device on the secondary 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCapabilities
 
@@ -203,21 +197,12 @@ The device supports SMART commands.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwReserved
 
-Reserved. 
-
+Reserved.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a>
- 
-
- 
 

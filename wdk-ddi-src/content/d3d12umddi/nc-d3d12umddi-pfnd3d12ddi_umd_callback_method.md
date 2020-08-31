@@ -28,8 +28,8 @@ req.type-library:
 targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 3., 19H1
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_UMD_CALLBACK_METHOD"
- - "PFND3D12DDI_UMD_CALLBACK_METHOD"
+ - PFND3D12DDI_UMD_CALLBACK_METHOD
+ - d3d12umddi/PFND3D12DDI_UMD_CALLBACK_METHOD
 topic_type:
  - apiref
 api_type:
@@ -45,6 +45,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_UMD_CALLBACK_METHOD callback function
+
 
 ## -description
 

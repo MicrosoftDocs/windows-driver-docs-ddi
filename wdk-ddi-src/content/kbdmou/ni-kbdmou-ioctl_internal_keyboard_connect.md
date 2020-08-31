@@ -8,9 +8,6 @@ ms.assetid: 90014194-e790-4b23-9f3d-f5879dd94063
 ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_CONNECT, IOCTL_INTERNAL_KEYBOARD_CONNECT control, IOCTL_INTERNAL_KEYBOARD_CONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_connect, kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT, kfilref_b9a87851-bbc4-4567-a459-9e647d6d3315.xml
-f1_keywords:
- - "kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT"
- - "IOCTL_INTERNAL_KEYBOARD_CONNECT"
 req.header: kbdmou.h
 req.include-header: Kbdmou.h
 req.target-type: Windows
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- kbdmou.h
-api_name:
-- IOCTL_INTERNAL_KEYBOARD_CONNECT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_KEYBOARD_CONNECT
+ - kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - kbdmou.h
+api_name:
+ - IOCTL_INTERNAL_KEYBOARD_CONNECT
 ---
 
 # IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL
 
 
 ## -description
-
-
 
 The IOCTL_INTERNAL_KEYBOARD_CONNECT request connects the Kbdclass service to the keyboard device. Kbdclass sends this request down the keyboard device stack before it opens the keyboard device. 
 
@@ -87,50 +85,27 @@ For more information about the connection of the Kbdclass service, see the follo
 </dd>
 </dl>
 
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>Parameters.DeviceIoControl.Type3InputBuffer</b> member points to a <b>CONNECT_DATA</b> structure that is allocated and set by Kbdclass.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value greater than or equal to the size, in bytes, of a CONNECT_DATA structure.
-
 
 ### -output-buffer
 
 The <b>Parameters.DeviceIoControl.Type3InputBuffer</b> member points to a <b>CONNECT_DATA</b> structure that is set by Kbfiltr.
 
-
 ### -output-buffer-length
 
 The size of a <b>CONNECT_DATA</b> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -160,11 +135,7 @@ Kbfiltr is already connected (the filter driver supports only one connect reques
 
 The request completed successfully.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a>
 
@@ -175,7 +146,4 @@ The request completed successfully.
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff542324(v=vs.85)">KeyboardClassServiceCallback</a>
- 
-
- 
 

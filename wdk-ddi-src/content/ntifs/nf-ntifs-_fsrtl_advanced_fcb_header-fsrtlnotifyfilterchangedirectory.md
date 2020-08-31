@@ -8,9 +8,6 @@ ms.assetid: 445b6836-aeac-4183-ba11-a787c1e125ac
 ms.date: 04/16/2018
 keywords: ["FsRtlNotifyFilterChangeDirectory function"]
 ms.keywords: FsRtlNotifyFilterChangeDirectory, FsRtlNotifyFilterChangeDirectory routine [Installable File System Drivers], fsrtlref_ef37396f-2844-4b1e-a474-16788aa1de75.xml, ifsk.fsrtlnotifyfilterchangedirectory, ntifs/FsRtlNotifyFilterChangeDirectory
-f1_keywords:
- - "ntifs/FsRtlNotifyFilterChangeDirectory"
- - "FsRtlNotifyFilterChangeDirectory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlNotifyFilterChangeDirectory
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlNotifyFilterChangeDirectory
+ - ntifs/FsRtlNotifyFilterChangeDirectory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlNotifyFilterChangeDirectory
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlNotifyFilterChangeDirectory function
@@ -49,46 +49,42 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlNotifyFilterChangeDirectory</b> routine creates a notify structure for an IRP_MN_NOTIFY_CHANGE_DIRECTORY request and adds it to the specified notify list.
-
 
 ## -parameters
 
-
-
-
 ### -param NotifySync 
-[in]
-Pointer to an opaque synchronization object for the change directory notify list that is pointed to by the <i>NotifyList</i> parameter. 
 
+[in]
+Pointer to an opaque synchronization object for the change directory notify list that is pointed to by the <i>NotifyList</i> parameter.
 
 ### -param NotifyList 
-[in]
-Pointer to the head of the change directory notify list for the current volume. Each element in the list is an opaque notify structure. 
 
+[in]
+Pointer to the head of the change directory notify list for the current volume. Each element in the list is an opaque notify structure.
 
 ### -param FsContext 
-[in]
-Pointer to a unique value assigned by the file system to identify the notify structure to be created as belonging to a particular file object. If a <i>TraverseCallback</i> routine is supplied, <i>FsContext</i> is passed as the <i>NotifyContext</i> parameter to that routine. 
 
+[in]
+Pointer to a unique value assigned by the file system to identify the notify structure to be created as belonging to a particular file object. If a <i>TraverseCallback</i> routine is supplied, <i>FsContext</i> is passed as the <i>NotifyContext</i> parameter to that routine.
 
 ### -param FullDirectoryName 
+
 [in]
 Pointer to an ANSI or Unicode string that contains the full name for the directory associated with this notify structure. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
-
 ### -param WatchTree 
+
 [in]
 Set to <b>TRUE</b> if all subdirectories of this directory should also be watched. Set to <b>FALSE</b> if only the directory itself is to be watched. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
-
 ### -param IgnoreBuffer 
+
 [in]
 Set to <b>TRUE</b> to ignore any user buffers and force the directory to be reenumerated. This action speeds the operation. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
-
 ### -param CompletionFilter 
+
 [in]
 Bitmask of flags that specify the types of changes to files or directories that should cause the IRPs in the notify list to be completed. The possible flag values are described following.
 
@@ -232,13 +228,13 @@ This file stream's data has changed.
 
 <i>CompletionFilter</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
-
 ### -param NotifyIrp 
+
 [in, optional]
 Pointer to the IRP to be added to the notify list. If <i>NotifyIrp</i> is <b>NULL</b>, this means that the file stream represented by the file object (identified by the <i>FsContext</i> parameter) is being deleted.
 
-
 ### -param TraverseCallback 
+
 [in, optional]
 Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory being watched in a directory tree. This lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:
 
@@ -259,13 +255,13 @@ Optional pointer to a callback routine to be invoked when a change occurs in a s
 </table></span></div>
 For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
-
 ### -param SubjectContext 
+
 [in, optional]
 Pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsRtlNotifyFilterChangeDirectory</b> releases the context and frees the structure after using it. Ignored if <i>NotifyIrp</i> is <b>NULL</b>. If a <i>TraverseCallback</i> routine is supplied, <i>SubjectContext</i> is passed as the <i>SubjectContext</i> parameter to that routine.
 
-
 ### -param FilterCallback 
+
 [in, optional]
 Optional pointer to a callback routine to be invoked when a change occurs to the directory. If this callback routine returns <b>TRUE</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange">FsRtlNotifyFilterReportChange</a> completes the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list; otherwise, it does not. Such a caller-supplied routine is declared as follows: 
 
@@ -286,8 +282,6 @@ Optional pointer to a callback routine to be invoked when a change occurs to the
 
 ## -remarks
 
-
-
 <b>FsRtlNotifyFilterChangeDirectory</b> is called by a file system that has received an IRP with major function code <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control">IRP_MJ_DIRECTORY_CONTROL</a>, minor function code IRP_MN_NOTIFY_CHANGE_DIRECTORY. 
 
 The file system calls <b>FsRtlNotifyFilterChangeDirectory</b> to create a notify structure to hold the IRP and add the notify structure to the notify list for the current volume. 
@@ -306,15 +300,9 @@ If the IRP's file object has not undergone cleanup, <b>FsRtlNotifyFilterChangeDi
 
 </li>
 </ul>
-When a change occurs to the directory, the file system calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange">FsRtlNotifyFilterReportChange</a> to complete the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list. 
-
-
-
+When a change occurs to the directory, the file system calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange">FsRtlNotifyFilterReportChange</a> to complete the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange">FsRtlNotifyFilterReportChange</a>
 
@@ -333,7 +321,4 @@ When a change occurs to the directory, the file system calls <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
- 
-
- 
 

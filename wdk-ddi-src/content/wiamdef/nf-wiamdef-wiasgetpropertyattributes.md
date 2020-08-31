@@ -8,13 +8,10 @@ ms.assetid: b12ff158-73e7-4fdf-b7b1-2969d161ed93
 ms.date: 05/03/2018
 keywords: ["wiasGetPropertyAttributes function"]
 ms.keywords: image.wiasgetpropertyattributes, wiamdef/wiasGetPropertyAttributes, wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetPropertyAttributes"
- - "wiasGetPropertyAttributes"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetPropertyAttributes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetPropertyAttributes
+ - wiamdef/wiasGetPropertyAttributes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetPropertyAttributes
 ---
 
 # wiasGetPropertyAttributes function
+
 
 ## -description
 
@@ -50,6 +51,7 @@ The **wiasGetPropertyAttributes** function retrieves the access flags and valid 
 ## -parameters
 
 ### -param pWiasContext 
+
 [in]
 Pointer to a WIA item context.
 
@@ -58,6 +60,7 @@ Pointer to a WIA item context.
 Specifies the number of properties.
 
 ### -param pPropSpec 
+
 [in]
 Pointer to a [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structure indicating the properties for which to get valid values and access flags.
 
@@ -66,6 +69,7 @@ Pointer to a [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase
 Pointer to an array that contains the access flags for the properties.
 
 ### -param pPropVar 
+
 [out]
 Pointer to an array of [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures that contains the valid values for the properties.
 
@@ -106,3 +110,4 @@ Valid bitwise flag values are accessed using the following index constants.
 | --- | --- |
 | WIA_FLAG_NOM | Nominal value |
 | WIA_FLAG_VALUES | All valid flags are joined together by an OR operator |
+

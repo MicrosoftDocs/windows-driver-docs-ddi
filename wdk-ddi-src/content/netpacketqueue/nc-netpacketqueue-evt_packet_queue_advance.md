@@ -6,45 +6,50 @@ tech.root: netvista
 ms.assetid: d4d6becc-ae41-451d-939d-c4169456adb7
 ms.date: 07/16/2018
 keywords: ["EVT_PACKET_QUEUE_ADVANCE callback function"]
-f1_keywords:
- - "netpacketqueue/EVT_PACKET_QUEUE_ADVANCE"
- - "EVT_PACKET_QUEUE_ADVANCE"
 req.header: netpacketqueue.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: <= DISPATCH_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- netpacketqueue.h
-api_name: 
-- EVT_PACKET_QUEUE_ADVANCE
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - EVT_PACKET_QUEUE_ADVANCE
+ - netpacketqueue/EVT_PACKET_QUEUE_ADVANCE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - netpacketqueue.h
+api_name:
+ - EVT_PACKET_QUEUE_ADVANCE
 ---
 
 # EVT_PACKET_QUEUE_ADVANCE callback function
 
+
 ## -description
 
-
-
 The *EvtPacketQueueAdvance* callback function is implemented by the client driver to process transmit or receive packets provided by NetAdapterCx.
+
+## -parameters
+
+### -param PacketQueue
+
+A handle to a packet queue.
 
 ## -prototype
 
@@ -62,12 +67,6 @@ VOID EvtPacketQueueAdvance
 {...}
 
 ```
-
-## -parameters
-
-### -param PacketQueue
-
-A handle to a packet queue.
 
 ## -remarks
 
@@ -96,3 +95,4 @@ For an example of implementing this callback for a transmit queue, see [Sending 
 [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md)
 
 [*EVT_PACKET_QUEUE_STOP*](nc-netpacketqueue-evt_packet_queue_stop.md)
+

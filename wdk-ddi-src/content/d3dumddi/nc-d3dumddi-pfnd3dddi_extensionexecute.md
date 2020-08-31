@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/ExtensionExecute"
- - "ExtensionExecute"
+ - PFND3DDDI_EXTENSIONEXECUTE
+ - d3dumddi/PFND3DDDI_EXTENSIONEXECUTE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_EXTENSIONEXECUTE callback function
+
 
 ## -description
 

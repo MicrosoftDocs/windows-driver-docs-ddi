@@ -8,9 +8,6 @@ ms.assetid: F2CD1373-CDBD-4D14-8C63-7A08A5EBCED6
 ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST IOCTL"]
 ms.keywords: IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST, IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST control, IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_remove_activity_broadcast
-f1_keywords:
- - "d4drvif/IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST"
- - "IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D4drvif.h
-api_name:
-- IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST
+ - d4drvif/IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D4drvif.h
+api_name:
+ - IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST
 ---
 
 # IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST IOCTL
@@ -46,54 +46,27 @@ req.typenames:
 
 ## -description
 
-
 This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
 
 ### -input-buffer-length
 
-
-
-
 ### -output-buffer
-
-
-
 
 ### -output-buffer-length
 
-
-
-
 ### -in-out-buffer
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -108,7 +81,4 @@ This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

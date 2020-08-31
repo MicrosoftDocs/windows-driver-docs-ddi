@@ -5,36 +5,37 @@ description: Specifies the ray tracing tier.
 ms.assetid: 3bf1c7c9-6c13-4111-a185-71c5ddaf1067
 ms.date: 03/24/2020
 keywords: ["D3D12DDI_RAYTRACING_TIER enumeration"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RAYTRACING_TIER"
- - "D3D12DDI_RAYTRACING_TIER"
-ms.keywords: D3D12DDI_RAYTRACING_TIER, D3D12DDI_RAYTRACING_TIER, 
+ms.keywords: D3D12DDI_RAYTRACING_TIER, D3D12DDI_RAYTRACING_TIER,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_RAYTRACING_TIER
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RAYTRACING_TIER
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_RAYTRACING_TIER
+ - d3d12umddi/D3D12DDI_RAYTRACING_TIER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RAYTRACING_TIER
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_TIER enumeration
+
 
 ## -description
 
@@ -57,3 +58,4 @@ The device supports tier 1.1 raytracing. Available starting with Windows 10, ver
 ## -remarks
 
 See the [DirectX Raytracing (DXR) functional specification](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html) for more information.
+

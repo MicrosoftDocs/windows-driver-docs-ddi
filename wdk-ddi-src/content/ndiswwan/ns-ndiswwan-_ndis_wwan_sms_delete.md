@@ -8,9 +8,6 @@ ms.assetid: ea13c900-40b2-492b-b14b-85e346208ad8
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SMS_DELETE structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_DELETE, PNDIS_WWAN_SMS_DELETE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_aae03f3f-21d1-42d4-b2dd-008fc07c9964.xml, _NDIS_WWAN_SMS_DELETE, ndiswwan/NDIS_WWAN_SMS_DELETE, ndiswwan/PNDIS_WWAN_SMS_DELETE, netvista.ndis_wwan_sms_delete"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SMS_DELETE"
- - "NDIS_WWAN_SMS_DELETE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SMS_DELETE
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE
+f1_keywords:
+ - _NDIS_WWAN_SMS_DELETE
+ - ndiswwan/_NDIS_WWAN_SMS_DELETE
+ - PNDIS_WWAN_SMS_DELETE
+ - ndiswwan/PNDIS_WWAN_SMS_DELETE
+ - NDIS_WWAN_SMS_DELETE
+ - ndiswwan/NDIS_WWAN_SMS_DELETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SMS_DELETE
 ---
 
 # _NDIS_WWAN_SMS_DELETE structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE
 
 ## -description
 
-
 The NDIS_WWAN_SMS_DELETE structure represents an SMS message to delete.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,25 +104,17 @@ sizeof(NDIS_WWAN_SMS_DELETE)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field SmsFilter
 
 A formatted 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_filter">WWAN_SMS_FILTER</a> object that represents the
      filter to apply to SMS messages.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_filter">WWAN_SMS_FILTER</a>
- 
-
- 
 

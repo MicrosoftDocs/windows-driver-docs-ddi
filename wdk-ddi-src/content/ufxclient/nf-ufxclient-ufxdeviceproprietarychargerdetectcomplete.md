@@ -8,9 +8,6 @@ ms.assetid: 5E85D80B-4C0F-4C91-A1B5-565E09FD3743
 ms.date: 05/07/2018
 keywords: ["UfxDeviceProprietaryChargerDetectComplete function"]
 ms.keywords: UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], buses.ufxdeviceproprietarychargerdetectcomplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete
-f1_keywords:
- - "ufxclient/UfxDeviceProprietaryChargerDetectComplete"
- - "UfxDeviceProprietaryChargerDetectComplete"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceProprietaryChargerDetectComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceProprietaryChargerDetectComplete
+ - ufxclient/UfxDeviceProprietaryChargerDetectComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceProprietaryChargerDetectComplete
 ---
 
 # UfxDeviceProprietaryChargerDetectComplete function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Notifies UFX about a detected proprietary port/charger type.
-
 
 ## -parameters
 
-
-
-
 ### -param UfxDevice 
+
 [in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ### -param DetectedCharger 
+
 [in]
 A  pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxproprietarycharger/ns-ufxproprietarycharger-_ufx_proprietary_charger">UFX_PROPRIETARY_CHARGER</a> structure.
 
-
 ## -remarks
-
-
 
 The client driver calls <b>UfxDeviceProprietaryChargerDetectComplete</b> after attempting to detect a proprietary charger on the upstream port, typically from within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
@@ -88,5 +81,4 @@ The following snippet shows how a client driver calls <b>UfxDeviceProprietaryCha
 </td>
 </tr>
 </table></span></div>
-
 

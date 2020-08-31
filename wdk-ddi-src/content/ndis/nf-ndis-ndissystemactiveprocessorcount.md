@@ -8,9 +8,6 @@ ms.assetid: 7ddb54eb-9f20-4cb9-8488-5f2806d23430
 ms.date: 05/02/2018
 keywords: ["NdisSystemActiveProcessorCount function"]
 ms.keywords: NdisSystemActiveProcessorCount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount
-f1_keywords:
- - "ndis/NdisSystemActiveProcessorCount"
- - "NdisSystemActiveProcessorCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisSystemActiveProcessorCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisSystemActiveProcessorCount
+ - ndis/NdisSystemActiveProcessorCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisSystemActiveProcessorCount
 ---
 
 # NdisSystemActiveProcessorCount function
@@ -47,16 +47,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisSystemActiveProcessorCount</b> function returns the number of currently active processors in the
   local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param ActiveProcessors
 
@@ -65,20 +60,12 @@ A pointer to a
      that represents the set of currently active processors. In a hot-add environment, this bitmap can change
      during runtime.
 
-
 ## -returns
-
-
 
 <b>NdisSystemActiveProcessorCount</b> returns the number of currently active processors in the local
      computer.
 
-
-
-
 ## -remarks
-
-
 
 An NDIS driver might call the 
     <b>NdisSystemActiveProcessorCount</b> function during initialization before it allocates resources.
@@ -107,13 +94,7 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
     operations for CPUs at runtime. In a hot-add CPU environment, the number of processors might not remain
     constant during runtime.
 
-
-
-
 ## -see-also
-
-
-
 
 [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
@@ -128,7 +109,4 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
- 
-
- 
 

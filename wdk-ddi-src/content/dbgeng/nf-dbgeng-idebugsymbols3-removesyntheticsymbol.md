@@ -8,9 +8,6 @@ ms.assetid: 07825be3-84a1-4aab-a9f0-22a45f636a04
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::RemoveSyntheticSymbol"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],RemoveSyntheticSymbol method, IDebugSymbols3.RemoveSyntheticSymbol, IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, RemoveSyntheticSymbol, RemoveSyntheticSymbol method [Windows Debugging], RemoveSyntheticSymbol method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::RemoveSyntheticSymbol, debugger.removesyntheticsymbol
-f1_keywords:
- - "dbgeng/IDebugSymbols3.RemoveSyntheticSymbol"
- - "IDebugSymbols3.RemoveSyntheticSymbol"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.RemoveSyntheticSymbol
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::RemoveSyntheticSymbol
+ - dbgeng/IDebugSymbols3::RemoveSyntheticSymbol
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.RemoveSyntheticSymbol
 ---
 
 # IDebugSymbols3::RemoveSyntheticSymbol
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RemoveSyntheticSymbol</b> method removes a synthetic symbol from a module in the current process.
-
 
 ## -parameters
 
-
-
-
 ### -param Id 
+
 [in]
 Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbol">AddSyntheticSymbol</a>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -96,24 +89,13 @@ No synthetic symbol was found at the specified location.  This is returned if a 
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 If the module containing a synthetic symbol is reloaded - for example, by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-reload">Reload</a> with the <i>Module</i> parameter set to the name of the module - the synthetic symbol will be discarded.
 
 For more information about synthetic symbols, see Synthetic Symbols.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbol">AddSyntheticSymbol</a>
 
@@ -124,7 +106,4 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-removesyntheticmodule">RemoveSyntheticModule</a>
- 
-
- 
 

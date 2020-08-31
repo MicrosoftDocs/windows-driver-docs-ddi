@@ -7,9 +7,6 @@ ms.assetid: a481fb2d-60bb-441d-998d-acb983b2c0ed
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCESSIBLE_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT, D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION_GUID, D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_GUID, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT, display.d3d11_1ddi_authenticated_configure_input
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT"
- - "D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
+f1_keywords:
+ - D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
+ - d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
 ---
 
 # D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT structure
@@ -46,19 +46,13 @@ req.typenames: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
 
 ## -description
 
-
 Contains input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel">ConfigureAuthenticatedChannel(D3D11_1)</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field omac
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_omac">D3D11_1DDI_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses Advanced Encryption Standard (AES)-based one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
-
 
 ### -field ConfigureType
 
@@ -114,14 +108,9 @@ Enables a process to open a shared resource, or disables a process from opening 
 
 Input data: <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_configure_shared_resource">D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE</a>
 
-
-
 ### -field hChannel
 
-A handle to the authenticated channel. This handle was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function. 
-
-
-
+A handle to the authenticated channel. This handle was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
 ### -field SequenceNumber
 
@@ -132,17 +121,9 @@ The query sequence number.
 
 ## -remarks
 
-
-
 For information on the usage of this structure, see the Remarks of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel">ConfigureAuthenticatedChannel(D3D11_1)</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel">ConfigureAuthenticatedChannel(D3D11_1)</a>
 
@@ -173,7 +154,4 @@ For information on the usage of this structure, see the Remarks of the <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_omac">D3D11_1DDI_OMAC</a>
- 
-
- 
 

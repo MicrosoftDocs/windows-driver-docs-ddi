@@ -8,9 +8,6 @@ ms.assetid: c94a43bb-19d0-4894-80b0-885562fefea5
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_CONTROL_ETW_LOGGING callback function"]
 ms.keywords: DXGKDDI_CONTROL_ETW_LOGGING, DXGKDDI_CONTROL_ETW_LOGGING callback, DmFunctions_87548564-6b7b-431b-b68c-202af84deefc.xml, DxgkDdiControlEtwLogging, DxgkDdiControlEtwLogging callback function [Display Devices], display.dxgkddicontroletwlogging, dispmprt/DxgkDdiControlEtwLogging
-f1_keywords:
- - "dispmprt/DxgkDdiControlEtwLogging"
- - "DxgkDdiControlEtwLogging"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiControlEtwLogging
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_CONTROL_ETW_LOGGING
+ - dispmprt/DXGKDDI_CONTROL_ETW_LOGGING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiControlEtwLogging
 ---
 
 # DXGKDDI_CONTROL_ETW_LOGGING callback function
@@ -46,27 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiControlEtwLogging </i>function enables or disables Event Tracing for Windows (ETW) event logging.
-
 
 ## -parameters
 
-
-
-
 ### -param Enable 
+
 [in]
 A Boolean value that indicates whether <i>DxgkDdiControlEtwLogging </i>enables or disables ETW event logging. <b>TRUE</b> indicates that it enables and <b>FALSE</b> indicates that it disables.
 
-
 ### -param Flags 
+
 [in]
 A valid bitwise OR of values. Currently, no flags are defined.
 
-
 ### -param Level 
+
 [in]
 A value that indicates the level of event logging.
-
 

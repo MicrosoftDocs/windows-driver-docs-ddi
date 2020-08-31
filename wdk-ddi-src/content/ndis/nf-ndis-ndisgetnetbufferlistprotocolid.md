@@ -8,9 +8,6 @@ ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.date: 05/02/2018
 keywords: ["NdisGetNetBufferListProtocolId function"]
 ms.keywords: NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, netvista.ndisgetnetbufferlistprotocolid
-f1_keywords:
- - "ndis/NdisGetNetBufferListProtocolId"
- - "NdisGetNetBufferListProtocolId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetNetBufferListProtocolId
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetNetBufferListProtocolId
+ - ndis/NdisGetNetBufferListProtocolId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetNetBufferListProtocolId
 ---
 
 # NdisGetNetBufferListProtocolId function
@@ -47,27 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisGetNetBufferListProtocolId</b> function retrieves the protocol identifier from the 
   <b>NetBufferListInfo</b> member of a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -returns
-
-
 
 <b>NdisGetNetBufferListProtocolId</b> returns a protocol identifier as one of the following
      values:
@@ -122,14 +115,8 @@ The NetBEUI protocol identifier.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS drivers can call the 
     <b>NdisGetNetBufferListProtocolId</b> function to determine the type of protocol driver that created a 
@@ -139,16 +126,11 @@ NDIS drivers can call the
 
 Protocol drivers that create NET_BUFFER_LIST structures should set the protocol identifier by calling the [NdisSetNetBufferListProtocolId](nf-ndis-ndissetnetbufferlistprotocolid.md) macro or by associating an identifier with a NET_BUFFER_LIST pool.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
 [NdisSetNetBufferListProtocolId](nf-ndis-ndissetnetbufferlistprotocolid.md)
+

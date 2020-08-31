@@ -8,9 +8,6 @@ ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.date: 02/26/2018
 keywords: ["IWDFIoTarget2::FormatRequestForSetInformation"]
 ms.keywords: FormatRequestForSetInformation, FormatRequestForSetInformation method, FormatRequestForSetInformation method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForSetInformation method, IWDFIoTarget2.FormatRequestForSetInformation, IWDFIoTarget2::FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, umdf.iwdfiotarget2_formatrequestforsetinformation, wdf.iwdfiotarget2_formatrequestforsetinformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation
-f1_keywords:
- - "wudfddi/IWDFIoTarget2.FormatRequestForSetInformation"
- - "IWDFIoTarget2.FormatRequestForSetInformation"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoTarget2.FormatRequestForSetInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoTarget2::FormatRequestForSetInformation
+ - wudfddi/IWDFIoTarget2::FormatRequestForSetInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoTarget2.FormatRequestForSetInformation
 ---
 
 # IWDFIoTarget2::FormatRequestForSetInformation
@@ -46,45 +46,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>FormatRequestForSetInformation</b> method formats an I/O request to set information about a file, but it does not send the request to an I/O target.
 
-
 ## -parameters
 
-
-
-
 ### -param pRequest 
-[in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface of the request object that represents the I/O request. 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface of the request object that represents the I/O request.
 
 ### -param InformationClass 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffileobject/ne-wdffileobject-_wdf_file_information_class">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
 
-
 ### -param pFile 
+
 [in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is required for local and remote <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">I/O targets</a>, and is optional (can be <b>NULL</b>) for file handle I/O targets.
 
-
 ### -param pInformationMemory 
+
 [in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface of a memory object. This object represents the input buffer, which contains driver-supplied file information that the <i>InformationClass</i> parameter specifies. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param pInformationMemoryOffset 
+
 [in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the input buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the input buffer, and the transfer size is the buffer size.
 
-
 ## -returns
-
-
 
 <b>FormatRequestForSetInformation</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
 
@@ -109,12 +102,7 @@ The framework was unable to allocate memory.
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
 ## -remarks
-
-
 
 Use the <b>FormatRequestForSetInformation</b> method, followed by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a> method, to send requests either synchronously or asynchronously to an <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">I/O target</a>. 
 
@@ -203,19 +191,11 @@ Error;
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget2">IWDFIoTarget2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiotarget2-formatrequestforqueryinformation">IWDFIoTarget2::FormatRequestForQueryInformation</a>
- 
-
- 
 

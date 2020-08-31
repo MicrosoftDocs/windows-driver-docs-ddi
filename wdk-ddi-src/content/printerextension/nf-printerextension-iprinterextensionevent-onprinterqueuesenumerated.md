@@ -8,9 +8,6 @@ ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEvent::OnPrinterQueuesEnumerated"]
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnPrinterQueuesEnumerated method, IPrinterExtensionEvent.OnPrinterQueuesEnumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
-f1_keywords:
- - "printerextension/IPrinterExtensionEvent.OnPrinterQueuesEnumerated"
- - "IPrinterExtensionEvent.OnPrinterQueuesEnumerated"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionEvent.OnPrinterQueuesEnumerated
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEvent::OnPrinterQueuesEnumerated
+ - printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionEvent.OnPrinterQueuesEnumerated
 ---
 
 # IPrinterExtensionEvent::OnPrinterQueuesEnumerated
@@ -46,42 +46,24 @@ req.typenames:
 
 ## -description
 
-
 Called when printer queues are enumerated.
-
 
 ## -parameters
 
-
-
-
 ### -param pContextCollection 
+
 [in]
 Pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a> object.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 <b>OnPrinterQueuesEnumerated</b> is called every time the set of print queues associated with the printer extension is updated. So it is important for printer extensions to be able to handle multiple calls to this method without causing a catastrophic failure of the printer extension.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
 
@@ -92,7 +74,4 @@ This method returns an <b>HRESULT</b> value.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionevent">IPrinterExtensionEvent</a>
- 
-
- 
 

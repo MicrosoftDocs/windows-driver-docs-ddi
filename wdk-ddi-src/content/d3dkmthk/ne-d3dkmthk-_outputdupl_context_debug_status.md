@@ -5,36 +5,39 @@ description: Output duplicate context debug status.
 ms.assetid: c455ad7b-553a-4d75-89e7-369eee9f5964
 ms.date: 10/19/2018
 keywords: ["OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration"]
-f1_keywords:
- - "d3dkmthk/_OUTPUTDUPL_CONTEXT_DEBUG_STATUS"
- - "_OUTPUTDUPL_CONTEXT_DEBUG_STATUS"
-ms.keywords: _OUTPUTDUPL_CONTEXT_DEBUG_STATUS, OUTPUTDUPL_CONTEXT_DEBUG_STATUS, 
+ms.keywords: _OUTPUTDUPL_CONTEXT_DEBUG_STATUS, OUTPUTDUPL_CONTEXT_DEBUG_STATUS,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: OUTPUTDUPL_CONTEXT_DEBUG_STATUS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _OUTPUTDUPL_CONTEXT_DEBUG_STATUS
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _OUTPUTDUPL_CONTEXT_DEBUG_STATUS
+ - d3dkmthk/_OUTPUTDUPL_CONTEXT_DEBUG_STATUS
+ - OUTPUTDUPL_CONTEXT_DEBUG_STATUS
+ - d3dkmthk/OUTPUTDUPL_CONTEXT_DEBUG_STATUS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _OUTPUTDUPL_CONTEXT_DEBUG_STATUS
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration
+
 
 ## -description
 
@@ -61,3 +64,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 ## -remarks
 
 ## -see-also
+

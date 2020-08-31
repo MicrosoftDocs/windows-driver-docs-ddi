@@ -8,9 +8,6 @@ ms.assetid: 00322dbf-0099-439a-8d65-bf530129cea1
 ms.date: 05/02/2018
 keywords: ["FwpsReassembleForwardFragmentGroup0 function"]
 ms.keywords: FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReassembleForwardFragmentGroup0, netvista.fwpsreassembleforwardfragmentgroup0, wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml
-f1_keywords:
- - "fwpsk/FwpsReassembleForwardFragmentGroup0"
- - "FwpsReassembleForwardFragmentGroup0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsReassembleForwardFragmentGroup0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsReassembleForwardFragmentGroup0
+ - fwpsk/FwpsReassembleForwardFragmentGroup0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsReassembleForwardFragmentGroup0
 ---
 
 # FwpsReassembleForwardFragmentGroup0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsReassembleForwardFragmentGroup0</b> function assembles a list of IP fragments in the forwarding data
@@ -55,10 +54,8 @@ The
 
 ## -parameters
 
-
-
-
 ### -param addressFamily 
+
 [in]
 One of the following address families:
      
@@ -77,16 +74,16 @@ The IPv4 address family.
 
 The IPv6 address family.
 
-
 ### -param fragmentGroupNblChain 
+
 [in, out]
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain of IP fragments to
      reassemble into a single packet. For more information on the usage of
      this parameter, see Remarks.
 
-
 ### -param netBufferAndNetBufferListPoolHandle 
+
 [in, optional]
 An optional 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pool handle that
@@ -98,29 +95,26 @@ An optional
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b>, and the 
      <b>DataSize</b> member set to zero. If this parameter is <b>NULL</b>, NDIS uses an internal pool.
 
-
 ### -param dataBackFill 
+
 [in]
 If allocation of 
      unused data space (backfill space) is required, this parameter specifies the number of bytes of
      unused data space to allocate.
 
-
 ### -param flags 
+
 [in]
 Reserved. Callout drivers must set this parameter to zero.
 
-
 ### -param reassembledNbl 
+
 [out]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pointer that receives the
      address of the reassembled single network buffer list.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsReassembleForwardFragmentGroup0</b> function returns one of the following NTSTATUS codes.
@@ -168,14 +162,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <b>FwpsReassembleForwardFragmentGroup0</b> function assembles a list of IP fragments in the forwarding
@@ -206,13 +194,7 @@ Because
     <b>FwpsReassembleForwardFragmentGroup0</b> references the input fragment chain, it is not necessary for
     callouts to reference or clone the chain prior to calling this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">FwpsFreeNetBufferList0</a>
 
@@ -236,7 +218,4 @@ Because
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

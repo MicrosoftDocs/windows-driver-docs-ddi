@@ -8,9 +8,6 @@ ms.assetid: 25936ed9-d213-458f-bbc8-90eedea9ba02
 ms.date: 02/26/2018
 keywords: ["WdfDeviceGetDevicePnpState function"]
 ms.keywords: DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml, WdfDeviceGetDevicePnpState, WdfDeviceGetDevicePnpState method, kmdf.wdfdevicegetdevicepnpstate, wdf.wdfdevicegetdevicepnpstate, wdfdevice/WdfDeviceGetDevicePnpState
-f1_keywords:
- - "wdfdevice/WdfDeviceGetDevicePnpState"
- - "WdfDeviceGetDevicePnpState"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceGetDevicePnpState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceGetDevicePnpState
+ - wdfdevice/WdfDeviceGetDevicePnpState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceGetDevicePnpState
 ---
 
 # WdfDeviceGetDevicePnpState function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
@@ -55,31 +54,20 @@ req.typenames:
 
 The <b>WdfDeviceGetDevicePnpState</b> method returns the current state of the framework's Plug and Play state machine for a specified device.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ## -returns
-
-
 
 <b>WdfDeviceGetDevicePnpState</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_pnp_state">WDF_DEVICE_PNP_STATE</a>-typed enumerator that identifies the current state of the framework's Plug and Play state machine for the specified device.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 For more information about the framework's state machines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/state-machines-in-the-framework">State Machines in the Framework</a>.
 
@@ -94,12 +82,7 @@ WDF_DEVICE_PNP_STATE state;
 state = WdfDeviceGetDevicePnpState(Device);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevstatenormalize">WdfDevStateNormalize</a>
 
@@ -110,7 +93,4 @@ state = WdfDeviceGetDevicePnpState(Device);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicepowerstate">WdfDeviceGetDevicePowerState</a>
- 
-
- 
 

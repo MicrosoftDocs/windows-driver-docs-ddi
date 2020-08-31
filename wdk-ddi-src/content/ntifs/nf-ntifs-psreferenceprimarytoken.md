@@ -8,9 +8,6 @@ ms.assetid: 8ff1add9-4b9e-42dd-b3e2-53d891788d43
 ms.date: 04/16/2018
 keywords: ["PsReferencePrimaryToken function"]
 ms.keywords: PsReferencePrimaryToken, PsReferencePrimaryToken routine [Installable File System Drivers], ifsk.psreferenceprimarytoken, ntifs/PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml
-f1_keywords:
- - "ntifs/PsReferencePrimaryToken"
- - "PsReferencePrimaryToken"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsReferencePrimaryToken
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsReferencePrimaryToken
+ - ntifs/PsReferencePrimaryToken
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsReferencePrimaryToken
 ---
 
 # PsReferencePrimaryToken function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>PsReferencePrimaryToken</b> routine increments the reference count of the primary token for the specified process.
-
 
 ## -parameters
 
-
-
-
 ### -param Process 
+
 [in, out]
 Pointer to the process whose primary token's reference count is to be incremented.
 
-
 ## -returns
 
-
-
-<b>PsReferencePrimaryToken</b> returns a pointer to the primary token for the given process. 
-
-
-
+<b>PsReferencePrimaryToken</b> returns a pointer to the primary token for the given process.
 
 ## -remarks
-
-
 
 This routine is available starting with Microsoft Windows 2000. 
 
@@ -87,15 +75,9 @@ This routine is available starting with Microsoft Windows 2000.
 
 </li>
 </ul>
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
@@ -110,7 +92,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
- 
-
- 
 

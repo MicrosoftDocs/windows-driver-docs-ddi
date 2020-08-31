@@ -8,9 +8,6 @@ ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
 ms.date: 05/10/2018
 keywords: ["DXVA_COPPSignature structure"]
 ms.keywords: "*LPDXVA_COPPSignature, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], _DXVA_COPPSignature, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml"
-f1_keywords:
- - "dxva/DXVA_COPPSignature"
- - "DXVA_COPPSignature"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_COPPSignature
 targetos: Windows
 req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
+f1_keywords:
+ - _DXVA_COPPSignature
+ - dxva/_DXVA_COPPSignature
+ - LPDXVA_COPPSignature
+ - dxva/LPDXVA_COPPSignature
+ - DXVA_COPPSignature
+ - dxva/DXVA_COPPSignature
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_COPPSignature
 ---
 
 # _DXVA_COPPSignature structure
@@ -46,23 +50,15 @@ req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
 
 ## -description
 
-
-The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session. 
-
+The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session.
 
 ## -struct-fields
 
-
-
-
 ### -field Signature
 
-Specifies an array for the concatenated sequence of items. 
-
+Specifies an array for the concatenated sequence of items.
 
 ## -remarks
-
-
 
 The DXVA_COPPSignature structure is passed in the <i>pSeqStartInfo</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppsequencestart">COPPSequenceStart</a> function. 
 
@@ -87,19 +83,11 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppkeyexchange">COPPKeyExchange</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppsequencestart">COPPSequenceStart</a>
- 
-
- 
 

@@ -5,36 +5,37 @@ description: Multiplane overlay flags.
 ms.assetid: 015949bd-aa42-462a-b9d8-8579bd32c34b
 ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_FLAGS enumeration"]
-f1_keywords:
- - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_FLAGS"
- - "D3DKMT_MULTIPLANE_OVERLAY_FLAGS"
-ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_FLAGS, 
+ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_FLAGS,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_FLAGS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- D3DKMT_MULTIPLANE_OVERLAY_FLAGS
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3DKMT_MULTIPLANE_OVERLAY_FLAGS
+ - d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_MULTIPLANE_OVERLAY_FLAGS
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3DKMT_MULTIPLANE_OVERLAY_FLAGS enumeration
+
 
 ## -description
 
@@ -53,3 +54,4 @@ Horizontal flip.
 ## -remarks
 
 ## -see-also
+

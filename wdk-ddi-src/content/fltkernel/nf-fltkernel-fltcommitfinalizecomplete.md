@@ -8,9 +8,6 @@ ms.assetid: e1bfef9f-87c8-49e0-bbc4-6bc5ea103758
 ms.date: 04/16/2018
 keywords: ["FltCommitFinalizeComplete function"]
 ms.keywords: FltApiRef_a_to_d_f2b874db-f5fb-405b-a3a5-b5877c88548d.xml, FltCommitFinalizeComplete, FltCommitFinalizeComplete routine [Installable File System Drivers], fltkernel/FltCommitFinalizeComplete, ifsk.fltcommitfinalizecomplete
-f1_keywords:
- - "fltkernel/FltCommitFinalizeComplete"
- - "FltCommitFinalizeComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fltmgr.lib
-- Fltmgr.dll
-api_name:
-- FltCommitFinalizeComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCommitFinalizeComplete
+ - fltkernel/FltCommitFinalizeComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fltmgr.lib
+ - Fltmgr.dll
+api_name:
+ - FltCommitFinalizeComplete
 ---
 
 # FltCommitFinalizeComplete function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltCommitFinalizeComplete</b> routine acknowledges a TRANSACTION_NOTIFY_COMMIT_FINALIZE notification.
-
 
 ## -parameters
 
-
-
-
 ### -param Instance 
+
 [in]
 Opaque pointer to an instance of a minifilter driver. This parameter is required and cannot be <b>NULL</b>.
 
-
 ### -param Transaction 
+
 [in]
 Opaque pointer to the transaction the minifilter driver is currently enlisted in. This parameter is required and cannot be <b>NULL</b>.
 
-
 ### -param TransactionContext 
+
 [in, optional]
 Pointer to the minifilter driver's context for the transaction. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FltCommitFinalizeComplete</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following:
 
@@ -94,14 +87,8 @@ The minifilter driver did not set a context on the transaction. This is an error
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver that is enlisted in a transaction can receive a TRANSACTION_NOTIFY_COMMIT_FINALIZE notification when the transaction is fully committed (that is, when all of the <a href="https://go.microsoft.com/fwlink/p/?linkid=94490">resource managers</a> associated with the transaction, such as <a href="https://go.microsoft.com/fwlink/p/?linkid=66161">TxF</a>, have committed). For an antivirus minifilter driver that performs scans outside of transactions, you can use this notification value to determine when the driver should begin scanning files.
 
@@ -129,15 +116,9 @@ To delete a transaction context, call <a href="https://docs.microsoft.com/window
 
 To set a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>. 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-notifications">Transaction Notifications</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-notifications">Transaction Notifications</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
 
@@ -196,7 +177,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_transaction_notification_callback">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
- 
-
- 
 

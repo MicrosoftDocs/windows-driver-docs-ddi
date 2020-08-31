@@ -8,9 +8,6 @@ ms.assetid: d6631aa7-e3ba-4768-a55a-6a66d1ee84c6
 ms.date: 05/02/2018
 keywords: ["NdisGroupActiveProcessorCount function"]
 ms.keywords: NdisGroupActiveProcessorCount, NdisGroupActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisGroupActiveProcessorCount, ndis_processor_group_ref_43adb4cc-e1a6-4a67-ada7-47b38078e357.xml, netvista.ndisgroupactiveprocessorcount
-f1_keywords:
- - "ndis/NdisGroupActiveProcessorCount"
- - "NdisGroupActiveProcessorCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGroupActiveProcessorCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGroupActiveProcessorCount
+ - ndis/NdisGroupActiveProcessorCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGroupActiveProcessorCount
 ---
 
 # NdisGroupActiveProcessorCount function
@@ -47,25 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisGroupActiveProcessorCount</b> function returns the number of processors that are currently active in
   a specified group.
 
-
 ## -parameters
-
-
-
 
 ### -param Group
 
 A USHORT value that identifies a processor group in the local computer system.
 
-
 ## -returns
-
-
 
 <b>NdisGroupActiveProcessorCount</b> returns a ULONG value for the number of processors that are active
       in the group that is specified in the 
@@ -75,12 +67,7 @@ If the
       <i>Group</i> parameter is ALL_PROCESSOR_GROUPS, 
       <b>NdisGroupActiveProcessorCount</b> returns the number of active processors in the local computer.
 
-
-
-
 ## -remarks
-
-
 
 An NDIS driver might call the 
     <b>NdisGroupActiveProcessorCount</b> function during initialization before it allocates resources.
@@ -106,13 +93,7 @@ To obtain the maximum number of processors in a group, call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupmaxprocessorcount">
     NdisGroupMaxProcessorCount</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupactiveprocessormask">NdisGroupActiveProcessorMask</a>
 
@@ -128,7 +109,4 @@ To obtain the maximum number of processors in a group, call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
- 
-
- 
 

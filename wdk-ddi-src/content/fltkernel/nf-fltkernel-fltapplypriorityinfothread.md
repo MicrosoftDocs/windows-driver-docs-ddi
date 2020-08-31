@@ -8,9 +8,6 @@ ms.assetid: 62fd46a8-ee34-4c61-8e87-7fbe1a4622be
 ms.date: 04/16/2018
 keywords: ["FltApplyPriorityInfoThread function"]
 ms.keywords: FltApiRef_a_to_d_446351ed-afa7-4548-8197-f9bf92d671e5.xml, FltApplyPriorityInfoThread, FltApplyPriorityInfoThread routine [Installable File System Drivers], fltkernel/FltApplyPriorityInfoThread, ifsk.fltapplypriorityinfothread
-f1_keywords:
- - "fltkernel/FltApplyPriorityInfoThread"
- - "FltApplyPriorityInfoThread"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fltmgr.lib
-- Fltmgr.dll
-api_name:
-- FltApplyPriorityInfoThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltApplyPriorityInfoThread
+ - fltkernel/FltApplyPriorityInfoThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fltmgr.lib
+ - Fltmgr.dll
+api_name:
+ - FltApplyPriorityInfoThread
 ---
 
 # FltApplyPriorityInfoThread function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltApplyPriorityInfoThread</b> routine is used by a minifilter driver to apply priority information to a thread.
-
 
 ## -parameters
 
-
-
-
 ### -param InputPriorityInfo 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_io_priority_info">IO_PRIORITY_INFO</a> structure that is used to set the priority state of the given thread.  This IO_PRIORITY_INFO structure must have its members set by an appropriate routine - see the following Remarks section.  This parameter is required and cannot be <b>NULL</b>.
 
-
 ### -param OutputPriorityInfo 
+
 [out, optional]
 An optional pointer to an IO_PRIORITY_INFO structure used to receive the priority state of the thread before the <i>InputPriorityInfo</i> priority information is applied to the thread by <b>FltApplyPriorityInfoThread</b>.  This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param Thread 
-[in]
-A pointer to the thread in which to apply the <i>InputPriorityInfo</i> priority information to.  This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+A pointer to the thread in which to apply the <i>InputPriorityInfo</i> priority information to.  This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 If the thread priority information, pointed to by the <i>InputPriorityInfo</i> parameter, is successfully applied to the given thread, the <b>FltApplyPriorityInfoThread</b> routine returns STATUS_SUCCESS.  Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
 
@@ -94,14 +87,8 @@ The structure pointed to by the <i>InputPriorityInfo</i> parameter was initializ
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine is available starting with Windows Vista.
 
@@ -124,12 +111,7 @@ It is safe to provide the same pointer to a single IO_PRIORITY_INFO structure fo
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -168,7 +150,4 @@ It is safe to provide the same pointer to a single IO_PRIORITY_INFO structure fo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_io_priority_info">IO_PRIORITY_INFO</a>
- 
-
- 
 

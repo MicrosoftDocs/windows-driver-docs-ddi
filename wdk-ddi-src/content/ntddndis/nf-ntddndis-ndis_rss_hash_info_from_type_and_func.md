@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: f25dc03e-97b0-43fa-93d4-dd58090b530a
 ms.date: 04/16/2018
 keywords: ["NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC macro"]
-f1_keywords:
- - "ntddndis/NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC"
- - "NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC"
 ms.keywords: NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddndis.h
-api_name: 
-- NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
 targetos: Windows
-
+f1_keywords:
+ - NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
+ - ntddndis/NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
 ---
 
 # NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC macro
@@ -99,3 +98,4 @@ For more information about the hashing functions, see [RSS Hashing Functions](ht
 [**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_func_from_hash_info.md)
 
 [**NDIS_RSS_HASH_TYPE_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_type_from_hash_info.md)
+

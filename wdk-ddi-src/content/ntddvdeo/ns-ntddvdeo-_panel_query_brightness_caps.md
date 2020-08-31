@@ -6,37 +6,42 @@ tech.root: display
 ms.assetid: b0bdacef-4409-49cf-b53b-6e7023617793
 ms.date: 10/19/2018
 keywords: ["PANEL_QUERY_BRIGHTNESS_CAPS structure"]
-f1_keywords:
- - "ntddvdeo/_PANEL_QUERY_BRIGHTNESS_CAPS"
- - "_PANEL_QUERY_BRIGHTNESS_CAPS"
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- _PANEL_QUERY_BRIGHTNESS_CAPS
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _PANEL_QUERY_BRIGHTNESS_CAPS
+ - ntddvdeo/_PANEL_QUERY_BRIGHTNESS_CAPS
+ - PPANEL_QUERY_BRIGHTNESS_CAPS
+ - ntddvdeo/PPANEL_QUERY_BRIGHTNESS_CAPS
+ - PANEL_QUERY_BRIGHTNESS_CAPS
+ - ntddvdeo/PANEL_QUERY_BRIGHTNESS_CAPS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - _PANEL_QUERY_BRIGHTNESS_CAPS
+product:
+ - Windows
 ---
 
 # _PANEL_QUERY_BRIGHTNESS_CAPS structure
+
 
 ## -description
 
@@ -67,3 +72,4 @@ Value.
 ### -field Version
 
 The target version. This value should always be DXGK_BRIGHTNESS_INTERFACE_VERSION_3.
+

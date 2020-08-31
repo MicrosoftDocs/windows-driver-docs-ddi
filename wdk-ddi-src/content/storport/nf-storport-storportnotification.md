@@ -8,9 +8,6 @@ ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
 ms.date: 05/09/2019
 keywords: ["StorPortNotification function"]
 ms.keywords: StorPortNotification, StorPortNotification routine [Storage Devices], storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml
-f1_keywords:
- - "storport/StorPortNotification"
- - "StorPortNotification"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortNotification
+ - storport/StorPortNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortNotification
 ---
 
 # StorPortNotification function
+
 
 ## -description
 
@@ -345,3 +346,4 @@ Because **StorPortNotification** returns VOID, the scanning engine should assume
 ## -see-also
 
 [StorPortInitialize](nf-storport-storportinitialize.md)
+

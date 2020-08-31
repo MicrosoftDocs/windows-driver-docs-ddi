@@ -8,9 +8,6 @@ ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.date: 04/16/2018
 keywords: ["FltCreateSectionForDataScan function"]
 ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
-f1_keywords:
- - "fltkernel/FltCreateSectionForDataScan"
- - "FltCreateSectionForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltCreateSectionForDataScan
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCreateSectionForDataScan
+ - fltkernel/FltCreateSectionForDataScan
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltCreateSectionForDataScan
 ---
 
 # FltCreateSectionForDataScan function
@@ -47,31 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltCreateSectionForDataScan</b> routine creates a section object for a file. The filter manager can optionally synchronize I/O with the section created.
-
 
 ## -parameters
 
-
-
-
 ### -param Instance 
-[in]
-The opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
 
+[in]
+The opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
 
 ### -param FileObject 
+
 [in]
 The file object for an open file.  The section object will be backed by the specified file. This parameter is required and cannot be <b>NULL</b>.
 
-
 ### -param SectionContext 
-[in]
-A pointer to a previously allocated section context. 
 
+[in]
+A pointer to a previously allocated section context.
 
 ### -param DesiredAccess 
+
 [in]
 The type  of access for the section object as one or more of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags. 
 
@@ -121,20 +117,19 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ObjectAttributes 
+
 [in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FltCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
-
 ### -param MaximumSize 
+
 [in, optional]
 This parameter is reserved for future use.
 
-
 ### -param SectionPageProtection 
+
 [in]
 The protection to place on each page in the section. Specify one of the following values. This parameter is required and cannot be zero. 
 
@@ -164,10 +159,9 @@ Enables both read and write access to the committed region of pages.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AllocationAttributes 
+
 [in]
 Bitmasks of the SEC_<i>XXX</i> flags determine the allocation attributes of the section. Specify one or more of the following values. This parameter is required and cannot be zero. 
 
@@ -197,32 +191,28 @@ The file specified by the <i>FileObject</i> parameter is a mapped file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags 
+
 [in]
 This parameter is reserved for future use.
 
-
 ### -param SectionHandle 
-[out]
-A pointer to a caller-allocated variable that receives an opaque handle to the section handle. 
 
+[out]
+A pointer to a caller-allocated variable that receives an opaque handle to the section handle.
 
 ### -param SectionObject 
+
 [out]
 A pointer to a caller-allocated variable that receives an opaque pointer to the section object.
 
-
 ### -param SectionFileSize 
+
 [out, optional]
 A pointer to a caller-allocated variable that receives the size, in bytes, of the file at the time the section object was created. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FltCreateSectionForDataScan</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following.
 
@@ -360,14 +350,8 @@ The filter instance specified by <i>Instance</i> already has an open section for
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Prior to calling <b>FltCreateSectionForDataScan</b>, a minifilter must  first register its volume for data scanning by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfordatascan">FltRegisterForDataScan</a>. As with other filter context elements, <i>SectionContext</i> is first allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
 
@@ -386,12 +370,7 @@ For overview  information on creating mapped sections and views of memory, see <
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -430,7 +409,4 @@ For overview  information on creating mapped sections and views of memory, see <
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a>
- 
-
- 
 

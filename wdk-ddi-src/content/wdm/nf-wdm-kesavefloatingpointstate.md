@@ -8,9 +8,6 @@ ms.assetid: 2ab1b2dd-4848-4eb0-9836-e3be987535a6
 ms.date: 04/30/2018
 keywords: ["KeSaveFloatingPointState function"]
 ms.keywords: KeSaveFloatingPointState, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, kernel.kesavefloatingpointstate, wdm/KeSaveFloatingPointState
-f1_keywords:
- - "wdm/KeSaveFloatingPointState"
- - "KeSaveFloatingPointState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSaveFloatingPointState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSaveFloatingPointState
+ - wdm/KeSaveFloatingPointState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSaveFloatingPointState
 ---
 
 # KeSaveFloatingPointState function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeSaveFloatingPointState</b> routine saves the nonvolatile floating-point context so the caller can carry out floating-point operations.
-
 
 ## -parameters
 
-
-
-
 ### -param FloatSave 
+
 [out]
 Pointer to a caller-allocated resident buffer, which must be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KFLOATING_SAVE</a>).
 
-
 ## -returns
-
-
 
 <b>KeSaveFloatingPointState</b> returns STATUS_SUCCESS if it saved the current thread's floating-point context and set up a fresh floating-point context for the caller. Otherwise, it returns one of the following error status codes.
 
@@ -94,14 +87,8 @@ The system is configured to use floating-point emulation, rather than doing floa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A successful call to <b>KeSaveFloatingPointState</b> allows the caller to carry out floating-point operations of its own, but such a caller must restore the previous nonvolatile floating-point context as soon as its floating-point operations are done. Any routine that calls <b>KeSaveFloatingPointState</b> must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a> before that routine returns control.
 
@@ -111,13 +98,7 @@ In Windows Vista and earlier versions of Windows, a <b>KeSaveFloatingPointState
 
 For performance reasons, drivers should avoid doing any floating-point operations unless absolutely necessary. The overhead of saving and restoring the current thread's nonvolatile floating-point state degrades the performance of any driver that does floating-point operations.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a>
 
@@ -136,7 +117,4 @@ For performance reasons, drivers should avoid doing any floating-point operation
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
- 
-
- 
 

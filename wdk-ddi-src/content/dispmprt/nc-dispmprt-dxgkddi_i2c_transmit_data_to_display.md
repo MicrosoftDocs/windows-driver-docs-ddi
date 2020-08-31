@@ -8,37 +8,37 @@ ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback function"]
 ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
-f1_keywords:
- - "dispmprt/DxgkDdiI2CTransmitDataToDisplay"
- - "DxgkDdiI2CTransmitDataToDisplay"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiI2CTransmitDataToDisplay
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY
+ - dispmprt/DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiI2CTransmitDataToDisplay
 ---
 
 # DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback function
@@ -46,34 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiI2CTransmitDataToDisplay</i> function transmits data to an I2C device in a monitor.
-
 
 ## -parameters
 
-
-
-
 ### -param MiniportDeviceContext 
+
 [in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-
 ### -param VidPnTargetId 
+
 [in]
 An integer that identifies one of the video present targets on the display adapter.
 
-
 ### -param SevenBitI2CAddress 
+
 [in]
 The address of the I2C device to which data will be transmitted.
 
-
 ### -param DataLength 
+
 [in]
 The length, in bytes, of the data to be transmitted. This parameter must be between 1 and 64, inclusive.
-
 
 ### -param VOID
 
@@ -81,10 +76,7 @@ The length, in bytes, of the data to be transmitted. This parameter must be betw
 
 A pointer to a buffer that holds the data to be transmitted.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiI2CTransmitDataToDisplay</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h. The following list gives some of the possible error codes that can be returned.
 
@@ -96,8 +88,6 @@ A pointer to a buffer that holds the data to be transmitted.
 |STATUS_GRAPHICS_I2C_ERROR_TRANSMITTING_DATA|The I2C address was successfully transmitted, but there was an error transmitting data to the I2C device.|
 
 ## -remarks
-
-
 
 The video present target identified by <i>VidPnTargetId</i> is associated with one of the video outputs on the display adapter. The data is transmitted to an I2C device in the monitor that is connected to that video output.
 
@@ -113,16 +103,7 @@ If the display adapter supports HDCP, the <i>DxgkDdiI2CTransmitDataToDisplay</i>
 
 <i>DxgkDdiI2CTransmitDataToDisplay</i> should be made pageable.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_i2c_receive_data_from_display">DxgkDdiI2CReceiveDataFromDisplay</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.date: 03/29/2018
 keywords: ["SetPresharedKeyForId_OUT structure"]
 ms.keywords: "*PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], SetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT structure [Storage Devices], _SetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, iscsiop/SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml"
-f1_keywords:
- - "iscsiop/SetPresharedKeyForId_OUT"
- - "SetPresharedKeyForId_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsiop.h
-api_name:
-- SetPresharedKeyForId_OUT
 targetos: Windows
 req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
+f1_keywords:
+ - _SetPresharedKeyForId_OUT
+ - iscsiop/_SetPresharedKeyForId_OUT
+ - PSetPresharedKeyForId_OUT
+ - iscsiop/PSetPresharedKeyForId_OUT
+ - SetPresharedKeyForId_OUT
+ - iscsiop/SetPresharedKeyForId_OUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsiop.h
+api_name:
+ - SetPresharedKeyForId_OUT
 ---
 
 # _SetPresharedKeyForId_OUT structure
@@ -46,33 +50,19 @@ req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
 
 ## -description
 
-
 The SetPresharedKeyForId_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setpresharedkeyforid">SetPresharedKeyForId</a> method.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Status
 
-On output, the status of the <b>SetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>. 
-
+On output, the status of the <b>SetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ## -remarks
 
-
-
 You must implement this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
@@ -83,7 +73,4 @@ You must implement this method.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setpresharedkeyforid_in">SetPresharedKeyForId_IN</a>
- 
-
- 
 

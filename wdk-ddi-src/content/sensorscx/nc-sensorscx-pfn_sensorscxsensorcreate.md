@@ -5,43 +5,66 @@ description: Creates an instance of a sensor in the class extension.
 ms.assetid: 5a5df8e4-11e9-4958-b622-64e15bcd8023
 ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSENSORCREATE callback function"]
-f1_keywords:
- - "sensorscx/*PFN_SENSORSCXSENSORCREATE"
- - "*PFN_SENSORSCXSENSORCREATE"
 req.header: sensorscx.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- sensorscx.h
-api_name: 
-- PFN_SENSORSCXSENSORCREATE
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - PFN_SENSORSCXSENSORCREATE
+ - sensorscx/PFN_SENSORSCXSENSORCREATE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - sensorscx.h
+api_name:
+ - PFN_SENSORSCXSENSORCREATE
 ---
 
 # *PFN_SENSORSCXSENSORCREATE callback function
 
+
 ## -description
 
 Creates an instance of a sensor in the class extension.
+
+## -parameters
+
+### -param DriverGlobals
+
+Global definitions for the driver.
+
+### -param FxDevice
+
+A WDFDEVICE handle to the framework device object that represents the sensor.
+
+### -param pSensorAttributes
+
+A reference to sensor attributes, in WDF_OBJECT_ATTRIBUTES.
+
+### -param pSensor
+
+A reference to a sensor object.
+
+## -returns
+
+Returns NTSTATUS.
 
 ## -prototype
 
@@ -63,26 +86,3 @@ NTSTATUS *PfnSensorscxsensorcreate
 
 ```
 
-## -parameters
-
-### -param DriverGlobals
-
-Global definitions for the driver.
-
-### -param FxDevice
-
-A WDFDEVICE handle to the framework device object that represents the sensor.
-
-### -param pSensorAttributes
-
-A reference to sensor attributes, in WDF_OBJECT_ATTRIBUTES.
-
-### -param pSensor
-
-A reference to a sensor object.
-
-
-
-## -returns
-
-Returns NTSTATUS.

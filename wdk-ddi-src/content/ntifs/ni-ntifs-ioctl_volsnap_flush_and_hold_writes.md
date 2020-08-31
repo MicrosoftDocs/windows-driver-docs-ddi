@@ -8,9 +8,6 @@ ms.assetid: c9189ca4-8b0e-470b-b027-f629ed243534
 ms.date: 04/16/2018
 keywords: ["IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES IOCTL"]
 ms.keywords: IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code [Installable File System Drivers], ifsk.ioctl_volsnap_flush_and_hold_writes, ioctl_ref_f21aed38-5d6d-4b8c-ac8a-6cd1738a3de7.xml, ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
-f1_keywords:
- - "ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES"
- - "IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
+ - ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 ---
 
 # IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES IOCTL
@@ -46,62 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES</b> control code is sent to force a flush of a file system before a volume shadow copy occurs. This IOCTL is issued as an IRP_MJ_DEVICE_CONTROL request that is sent only to the volume device object of a local file system and to file system filter drivers that may have attached to that volume. This IOCTL is most commonly sent by the Volume Shadow Copy Service, but it can also be issued by other user-mode applications or processes. It is also possible under special circumstances for this IOCTL to be sent by the Volume Shadow Copy Driver (volsnap.sys) during a hibernation request or before a crash dump. This IOCTL is sent to file system filter drivers, file system drivers, and other device drivers (storage filter drivers and storage drivers, for example) located below the file systems. 
 
-When a file system such as NTFS receives IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, the file system should flush the volume to disk, forcing the disk structures of the file system into a consistent and up-to-date state. The file system should lock the file system in a read-only mountable state, blocking any new file system changes to prevent any cached disk pages from becoming dirty. Once the file system has put the file system in such a state, it must pass the IRP with the IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES IOCTL down the stack to the next driver while continuing to keep the file system in such a read-only mountable state until the drivers below complete the IRP. When the IRP completes or is canceled, the file system then re-enables I/O on the volume and returns. 
-
+When a file system such as NTFS receives IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, the file system should flush the volume to disk, forcing the disk structures of the file system into a consistent and up-to-date state. The file system should lock the file system in a read-only mountable state, blocking any new file system changes to prevent any cached disk pages from becoming dirty. Once the file system has put the file system in such a state, it must pass the IRP with the IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES IOCTL down the stack to the next driver while continuing to keep the file system in such a read-only mountable state until the drivers below complete the IRP. When the IRP completes or is canceled, the file system then re-enables I/O on the volume and returns.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<b>IrpSp->Parameters.DeviceIoControl.IoControlCode</b> is set to IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES. 
-
+<b>IrpSp->Parameters.DeviceIoControl.IoControlCode</b> is set to IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES.
 
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -119,10 +84,7 @@ A file lock conflict was encountered. This error can be returned by the filter m
 
 The volume was dismounted.
 
-
 ## -remarks
-
-
 
 A shadow copy of a volume is a point-in-time copy of that volume. The shadow copy is primarily used by a backup application so that it may backup files in a consistent manner, even though files may really be changing during the time to complete the backup operation. A shadow copy can also be used to prepare a volume for a hibernation resulting from a PNP request and for crash dumps. 
 
@@ -146,16 +108,7 @@ A driver may choose to flush data while holding this IRP containing the IOCTL_VO
 
 If this is a read-only volume, then there is normally nothing that a file system or file system filter driver needs to do when receiving this IOCTL except send it to the next lower-level driver.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
- 
-
- 
 

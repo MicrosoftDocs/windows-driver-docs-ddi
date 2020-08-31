@@ -8,9 +8,6 @@ ms.assetid: f1c02d19-9e96-4fd6-b950-ae02b6f3bba4
 ms.date: 03/29/2018
 keywords: ["AddiSNSServer_OUT structure"]
 ms.keywords: "*PAddiSNSServer_OUT, AddiSNSServer_OUT, AddiSNSServer_OUT structure [Storage Devices], PAddiSNSServer_OUT, PAddiSNSServer_OUT structure pointer [Storage Devices], _AddiSNSServer_OUT, iscsiop/AddiSNSServer_OUT, iscsiop/PAddiSNSServer_OUT, storage.addisnsserver_out, structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml"
-f1_keywords:
- - "iscsiop/AddiSNSServer_OUT"
- - "AddiSNSServer_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsiop.h
-api_name:
-- AddiSNSServer_OUT
 targetos: Windows
 req.typenames: AddiSNSServer_OUT, *PAddiSNSServer_OUT
+f1_keywords:
+ - _AddiSNSServer_OUT
+ - iscsiop/_AddiSNSServer_OUT
+ - PAddiSNSServer_OUT
+ - iscsiop/PAddiSNSServer_OUT
+ - AddiSNSServer_OUT
+ - iscsiop/AddiSNSServer_OUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsiop.h
+api_name:
+ - AddiSNSServer_OUT
 ---
 
 # _AddiSNSServer_OUT structure
@@ -46,33 +50,19 @@ req.typenames: AddiSNSServer_OUT, *PAddiSNSServer_OUT
 
 ## -description
 
-
 The AddiSNSServer_OUT structure holds the output data for the user-mode <b>AddISNSServer</b> method.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Status
 
-On output from <b>AddISNSServer</b>, the status of the <b>AddISNSServer</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.  
-
+On output from <b>AddISNSServer</b>, the status of the <b>AddISNSServer</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ## -remarks
 
-
-
 It is optional that you implement this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_addisnsserver_in">AddiSNSServer_IN</a>
 
@@ -83,7 +73,4 @@ It is optional that you implement this method.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
- 
-
- 
 

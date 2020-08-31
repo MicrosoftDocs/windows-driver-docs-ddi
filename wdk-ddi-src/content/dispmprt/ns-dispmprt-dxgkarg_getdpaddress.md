@@ -30,14 +30,18 @@ api_name:
  - _DXGKARG_GETDPADDRESS
  - DXGKARG_GETDPADDRESS
 f1_keywords:
+ - _DXGKARG_GETDPADDRESS
  - dispmprt/_DXGKARG_GETDPADDRESS
- - dispmprt//DXGKARG_GETDPADDRESS
+ - PDXGKARG_GETDPADDRESS
+ - dispmprt/PDXGKARG_GETDPADDRESS
  - DXGKARG_GETDPADDRESS
+ - dispmprt/DXGKARG_GETDPADDRESS
 dev_langs:
  - c++
 ---
 
 # DXGKARG_GETDPADDRESS structure
+
 
 ## -description
 
@@ -51,7 +55,7 @@ The **DXGKARG_GETDPADDRESS** structure is a parameter for the [**DXGKDDI_GETDPAD
 
 ### -field DPNativeError
 
-Field in which the driver can encode more details about the error when returning STATUS_DEVICE_PROTOCOL_ERROR from [**DXGKDDI_GETDPADDRESS**](nc-dispmprt-dxgkddi_getdpaddress.md).  
+Field in which the driver can encode more details about the error when returning STATUS_DEVICE_PROTOCOL_ERROR from [**DXGKDDI_GETDPADDRESS**](nc-dispmprt-dxgkddi_getdpaddress.md).
 
 ### -field RootPortIndex
 
@@ -72,3 +76,4 @@ DP Relative Address. The format is described in the DP specification.
 [**D3DDDI_VIDEO_PRESENT_TARGET_ID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target)
 
 [**DXGKDDI_GETDPADDRESS**](nc-dispmprt-dxgkddi_getdpaddress.md)
+

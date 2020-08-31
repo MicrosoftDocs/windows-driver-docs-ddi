@@ -25,8 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_ADD_TO_STATE_OBJECT_SIZE_0072"
- - "PFND3D12DDI_CALC_PRIVATE_ADD_TO_STATE_OBJECT_SIZE_0072"
+ - PFND3D12DDI_CALC_PRIVATE_ADD_TO_STATE_OBJECT_SIZE_0072
+ - d3d12umddi/PFND3D12DDI_CALC_PRIVATE_ADD_TO_STATE_OBJECT_SIZE_0072
 topic_type:
  - apiref
 api_type:
@@ -40,6 +40,7 @@ product:
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_ADD_TO_STATE_OBJECT_SIZE_0072 callback function
+
 
 ## -description
 
@@ -88,3 +89,4 @@ See the [DirectX Raytracing (DXR) functional specification](https://microsoft.gi
 [**D3D12DDIARG_ADD_TO_STATE_OBJECT_0072**](ns-d3d12umddi-d3d12ddiarg_add_to_state_object_0072.md)
 
 [**PFND3D12DDI_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md)
+

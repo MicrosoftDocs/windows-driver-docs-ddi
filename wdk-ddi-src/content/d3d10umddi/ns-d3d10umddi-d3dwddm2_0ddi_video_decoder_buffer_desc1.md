@@ -7,9 +7,6 @@ ms.assetid: BF57E573-852E-4784-8E76-B5E7D86A57EB
 ms.date: 05/10/2018
 keywords: ["D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, display.d3dwddm2_0ddi_video_decoder_buffer_desc1
-f1_keywords:
- - "d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1"
- - "D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
+f1_keywords:
+ - D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
+ - d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
 ---
 
 # D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure
@@ -46,24 +46,17 @@ req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
 
 ## -description
 
-
 <b>D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</b> is used with  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_videodecodersubmitbuffers1">VideoDecoderSubmitBuffers1</a> to submit one or more buffer for decoding.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hResource
 
 A handle to the resource object that was created through a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource">CreateResource</a>.
 
-
 ### -field BufferType
 
 The type of buffer, specified as a member of the <b>D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE</b> enumeration.
-
 
 ### -field DataOffset
 
@@ -76,16 +69,13 @@ The offset of the relevant data from the beginning of the buffer, in bytes.
 
 Size of the relevant data.
 
-
 ### -field pIV
 
 A pointer to a buffer that contains an initialization vector (IV) for encrypted data. If the decode buffer does not contain encrypted data, set this member to <b>NULL</b>.
 
-
 ### -field IVSize
 
 The size of the buffer specified in the <b>pIV</b> member. If <b>pIV</b> is <b>NULL</b>, set this member to zero.
-
 
 ### -field pSubSampleMappingBlock
 
@@ -95,24 +85,15 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/dr
 
 Values in the sub sample mapping blocks are relative to the start of the decode buffer.
 
-
-
 ### -field SubSampleMappingCount
 
 The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures specified in the <b>pSubSampleMappingBlocks</b> member. If <b>pSubSampleMappingBLocks</b> is <b>NULL</b>, set this member to zero.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource">CreateResource</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a>
- 
-
- 
 

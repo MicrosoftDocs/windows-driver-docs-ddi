@@ -8,37 +8,39 @@ ms.assetid: d329069d-5455-4c37-b190-02a7bd1e789a
 ms.date: 02/16/2018
 keywords: ["RILADDRESS structure"]
 ms.keywords: "*LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress, rilapitypes/RILADDRESS"
-f1_keywords:
- - "ntddrilapitypes/RILADDRESS"
- - "RILADDRESS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILADDRESS
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILADDRESS, *LPRILADDRESS
+f1_keywords:
+ - RILADDRESS
+ - ntddrilapitypes/RILADDRESS
+ - LPRILADDRESS
+ - ntddrilapitypes/LPRILADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILADDRESS
 ---
 
 # RILADDRESS structure
@@ -46,38 +48,17 @@ req.typenames: RILADDRESS, *LPRILADDRESS
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This structure represents a phone number.
 
-
-## -syntax
-
-
-```cpp
-struct RILADDRESS {
-  DWORD cbSize;
-  DWORD dwParams;
-  DWORD dwType;
-  DWORD dwNumPlan;
-  WCHAR wszAddress[MAXLENGTH_ADDRESS];
-};
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size of the structure in bytes.
 
-
 ### -field dwParams
 
 A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riladdressparammask.md">RILADDRESSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
-
 
 ### -field dwType
 
@@ -179,8 +160,6 @@ Internet email address (RFC 822)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwNumPlan
 
@@ -262,17 +241,24 @@ ERMES numbering plan (ETSI DE/PS 3 01-3)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wszAddress
 
 An array of address characters. The minimum length of this array is 3. When <b>dwType</b> is set to <b>RIL_ADDRTYPE_INTERNATIONAL</b>, the plus sign (+) is not prefixed to <b>wszAddress</b>. It is up to the client or modem to attach the symbol.
 
+## -syntax
+
+```cpp
+struct RILADDRESS {
+  DWORD cbSize;
+  DWORD dwParams;
+  DWORD dwType;
+  DWORD dwNumPlan;
+  WCHAR wszAddress[MAXLENGTH_ADDRESS];
+};
+```
 
 ## -remarks
-
-
 
 When a <b>RILADDRESS</b> represents a phone number on a UICC card, the contents of <b>wszAddress</b> are constrained to values that can be represented on the card (as defined by 3GPP TS 31.102 table 4.4). In the UICC file, a phone number is represented by a string of 4-bit nibbles padded on the right with 0xF. The defined mapping is shown in the following table.
 
@@ -511,17 +497,7 @@ Padding for unused nibbles on UICC card—not to be used
 
 In the case of the control digits separator, either uppercase or lowercase 'P' may be passed in; the output is always lowercase. The RFU value 0xE should never appear on the card, but if it does it is reported as L'e'. It is an error to pass L'e' as input.
 
-
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
-
-
-
- 
-
- 
-
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION"
- - "DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION"
+ - DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
+ - d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function
+
 
 ## -description
 

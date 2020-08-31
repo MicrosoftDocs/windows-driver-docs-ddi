@@ -8,9 +8,6 @@ ms.assetid: c9879df5-38e9-4a9f-8196-8485e85b2933
 ms.date: 04/16/2018
 keywords: ["SECURITY_SUBJECT_CONTEXT structure"]
 ms.keywords: "*PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], _SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, wdm/PSECURITY_SUBJECT_CONTEXT, wdm/SECURITY_SUBJECT_CONTEXT"
-f1_keywords:
- - "wdm/SECURITY_SUBJECT_CONTEXT"
- - "SECURITY_SUBJECT_CONTEXT"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- SECURITY_SUBJECT_CONTEXT
 targetos: Windows
 req.typenames: SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT
+f1_keywords:
+ - _SECURITY_SUBJECT_CONTEXT
+ - wdm/_SECURITY_SUBJECT_CONTEXT
+ - PSECURITY_SUBJECT_CONTEXT
+ - wdm/PSECURITY_SUBJECT_CONTEXT
+ - SECURITY_SUBJECT_CONTEXT
+ - wdm/SECURITY_SUBJECT_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - SECURITY_SUBJECT_CONTEXT
 ---
 
 # _SECURITY_SUBJECT_CONTEXT structure
@@ -46,35 +50,23 @@ req.typenames: SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT
 
 ## -description
 
-
 The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.
 
 Drivers are not to modify the SECURITY_SUBJECT_CONTEXT structure directly. To create and manipulate this structure, use the support routines listed in the <b>See Also</b> section. 
 
 SECURITY_SUBJECT_CONTEXT
 
-
 ## -struct-fields
-
-
-
 
 ### -field ClientToken
 
-
 ### -field ImpersonationLevel
-
 
 ### -field PrimaryToken
 
-
 ### -field ProcessAuditId
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
 
@@ -133,7 +125,4 @@ SECURITY_SUBJECT_CONTEXT
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunlocksubjectcontext">SeUnlockSubjectContext</a>
- 
-
- 
 

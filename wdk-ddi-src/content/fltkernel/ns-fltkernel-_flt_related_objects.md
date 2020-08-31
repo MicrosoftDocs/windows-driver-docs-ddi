@@ -8,9 +8,6 @@ ms.assetid: dd1730f5-58ff-4d0d-9a00-17cd1fe36c5f
 ms.date: 04/16/2018
 keywords: ["FLT_RELATED_OBJECTS structure"]
 ms.keywords: "*PFLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS structure [Installable File System Drivers], FltSystemStructures_24fcdf06-9d2e-41bf-89f8-08cb37782089.xml, PFLT_RELATED_OBJECTS, PFLT_RELATED_OBJECTS structure pointer [Installable File System Drivers], _FLT_RELATED_OBJECTS, fltkernel/FLT_RELATED_OBJECTS, fltkernel/PFLT_RELATED_OBJECTS, ifsk.flt_related_objects"
-f1_keywords:
- - "fltkernel/FLT_RELATED_OBJECTS"
- - "FLT_RELATED_OBJECTS"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_RELATED_OBJECTS
 targetos: Windows
 req.typenames: FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS
+f1_keywords:
+ - _FLT_RELATED_OBJECTS
+ - fltkernel/_FLT_RELATED_OBJECTS
+ - PFLT_RELATED_OBJECTS
+ - fltkernel/PFLT_RELATED_OBJECTS
+ - FLT_RELATED_OBJECTS
+ - fltkernel/FLT_RELATED_OBJECTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_RELATED_OBJECTS
 ---
 
 # _FLT_RELATED_OBJECTS structure
@@ -46,53 +50,39 @@ req.typenames: FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS
 
 ## -description
 
-
-The FLT_RELATED_OBJECTS structure contains opaque pointers for the objects associated with an operation. 
-
+The FLT_RELATED_OBJECTS structure contains opaque pointers for the objects associated with an operation.
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-Size, in bytes, of the FLT_RELATED_OBJECTS structure. 
-
+Size, in bytes, of the FLT_RELATED_OBJECTS structure.
 
 ### -field TransactionContext
 
 Opaque member that contains the transaction miniversion ID value if the <b>Transaction</b> member is not <b>NULL</b>.  If <b>Transaction</b> is <b>NULL</b>, the value of <b>TransactionContext</b> is undefined.
 
-
 ### -field Filter
 
-Opaque filter pointer for the minifilter driver whose callback routine is being called for the operation. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded. 
-
+Opaque filter pointer for the minifilter driver whose callback routine is being called for the operation. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 ### -field Volume
 
-Opaque volume pointer for the volume that is associated with the operation. This pointer uniquely identifies the volume and remains constant over the lifetime of the volume device stack. 
-
+Opaque volume pointer for the volume that is associated with the operation. This pointer uniquely identifies the volume and remains constant over the lifetime of the volume device stack.
 
 ### -field Instance
 
-Opaque instance pointer for the minifilter driver instance that is associated with the operation. This pointer uniquely identifies the instance and remains constant as long as the instance is attached to a volume. 
-
+Opaque instance pointer for the minifilter driver instance that is associated with the operation. This pointer uniquely identifies the instance and remains constant as long as the instance is attached to a volume.
 
 ### -field FileObject
 
-Pointer to the file object, if any, for the operation. 
-
+Pointer to the file object, if any, for the operation.
 
 ### -field Transaction
 
-On Windows Vista and later, this member is an opaque transaction pointer to the transaction that is associated with the operation. The operation will be part of a transaction if the value of this member is not <b>NULL</b>.  If the value of this member is <b>NULL</b>, the operation will not be part of a transaction.  On Windows operating systems before Windows Vista, the value of this member will always be <b>NULL</b>. 
-
+On Windows Vista and later, this member is an opaque transaction pointer to the transaction that is associated with the operation. The operation will be part of a transaction if the value of this member is not <b>NULL</b>.  If the value of this member is <b>NULL</b>, the operation will not be part of a transaction.  On Windows operating systems before Windows Vista, the value of this member will always be <b>NULL</b>.
 
 ## -remarks
-
-
 
 The FLT_RELATED_OBJECTS structure is allocated by the filter manager and contains opaque pointers for the objects associated with an I/O operation or an instance setup or teardown operation. 
 
@@ -126,14 +116,7 @@ To retrieve pointers to a minifilter driver's contexts for the objects in an FLT
 <div class="alert"><b>Note</b>  <code>typedef CONST struct _FLT_RELATED_OBJECTS *PCFLT_RELATED_OBJECTS;</code></div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_io_parameter_block">FLT_IO_PARAMETER_BLOCK</a>
 
@@ -168,7 +151,4 @@ To retrieve pointers to a minifilter driver's contexts for the objects in an FLT
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
- 
-
- 
 

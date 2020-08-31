@@ -8,9 +8,6 @@ ms.assetid: bf3a0b49-ecec-4e96-bf09-b269e8852422
 ms.date: 04/30/2019
 keywords: ["KSWAVE_VOLUME structure"]
 ms.keywords: "*PKSWAVE_VOLUME, KSWAVE_VOLUME, KSWAVE_VOLUME structure [Streaming Media Devices], PKSWAVE_VOLUME, PKSWAVE_VOLUME structure pointer [Streaming Media Devices], dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, ksmedia/KSWAVE_VOLUME, ksmedia/PKSWAVE_VOLUME, stream.kswave_volume"
-f1_keywords:
- - "ksmedia/KSWAVE_VOLUME"
- - "KSWAVE_VOLUME"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSWAVE_VOLUME
 targetos: Windows
 req.typenames: KSWAVE_VOLUME, *PKSWAVE_VOLUME
+f1_keywords:
+ - PKSWAVE_VOLUME
+ - ksmedia/PKSWAVE_VOLUME
+ - KSWAVE_VOLUME
+ - ksmedia/KSWAVE_VOLUME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSWAVE_VOLUME
 ---
 
 # KSWAVE_VOLUME structure
@@ -46,41 +48,23 @@ req.typenames: KSWAVE_VOLUME, *PKSWAVE_VOLUME
 
 ## -description
 
-
 The KSWAVE_VOLUME structure is used to describe sample volume.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LeftAttenuation
 
 Specifies the amount of left attenuation.
 
-
 ### -field RightAttenuation
 
 Specifies the amount of right attenuation.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-volume">KSPROPERTY_WAVE_VOLUME</a> property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-volume">KSPROPERTY_WAVE_VOLUME</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS"
- - "DXGKDDI_GETMULTIPLANEOVERLAYCAPS"
+ - DXGKDDI_GETMULTIPLANEOVERLAYCAPS
+ - d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function
+
 
 ## -description
 

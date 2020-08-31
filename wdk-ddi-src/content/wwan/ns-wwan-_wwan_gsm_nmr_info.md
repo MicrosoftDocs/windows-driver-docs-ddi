@@ -8,9 +8,6 @@ ms.assetid: EF22D5C3-7A3B-4A96-A050-FCB71CA2C149
 ms.date: 05/02/2018
 keywords: ["WWAN_GSM_NMR_INFO structure"]
 ms.keywords: "*PWWAN_GSM_NMR_INFO, PWWAN_GSM_NMR_INFO, PWWAN_GSM_NMR_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_NMR_INFO, WWAN_GSM_NMR_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR_INFO, netvista.wwan_gsm_nmr_info, wwan/PWWAN_GSM_NMR_INFO, wwan/WWAN_GSM_NMR_INFO"
-f1_keywords:
- - "wwan/WWAN_GSM_NMR_INFO"
- - "WWAN_GSM_NMR_INFO"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_GSM_NMR_INFO
 targetos: Windows
 req.typenames: WWAN_GSM_NMR_INFO, *PWWAN_GSM_NMR_INFO
+f1_keywords:
+ - _WWAN_GSM_NMR_INFO
+ - wwan/_WWAN_GSM_NMR_INFO
+ - PWWAN_GSM_NMR_INFO
+ - wwan/PWWAN_GSM_NMR_INFO
+ - WWAN_GSM_NMR_INFO
+ - wwan/WWAN_GSM_NMR_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_GSM_NMR_INFO
 ---
 
 # _WWAN_GSM_NMR_INFO structure
+
 
 ## -description
 
@@ -98,3 +103,4 @@ The data buffer containing **ProviderId**.
 [WWAN_GSM_NMR](ns-wwan-_wwan_gsm_nmr.md)
 
 [WWAN_GSM_SERVING_CELL_INFO](ns-wwan-_wwan_gsm_serving_cell_info.md)
+

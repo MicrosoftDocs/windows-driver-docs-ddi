@@ -8,9 +8,6 @@ ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
 ms.date: 05/02/2018
 keywords: ["NdisInitializeListHead macro"]
 ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
-f1_keywords:
- - "ndis/NdisInitializeListHead"
- - "NdisInitializeListHead"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisInitializeListHead
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInitializeListHead
+ - ndis/NdisInitializeListHead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisInitializeListHead
 ---
 
 # NdisInitializeListHead macro
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInitializeListHead</b> function initializes a doubly linked, driver-maintained queue.
 
-
 ## -parameters
 
-
-
-
 ### -param _ListHead 
+
 [in]
 A pointer to driver-allocated nonpaged storage for the head of the interlocked queue or
      list.
 
-
 ## -remarks
-
-
 
 <b>NdisInitializeListHead</b> can be called from a 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function or
@@ -87,13 +80,7 @@ For an interlocked queue, the driver also must provide nonpaged storage for a sp
 
 Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisInitializeListHead</b> is called at IRQL >= DISPATCH_LEVEL the storage for <i>ListHead</i> must be resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
    Drivers</a>
@@ -120,7 +107,4 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedremoveheadlist">
    NdisInterlockedRemoveHeadList</a>
- 
-
- 
 

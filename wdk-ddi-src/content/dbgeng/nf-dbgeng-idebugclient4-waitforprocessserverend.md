@@ -8,9 +8,6 @@ ms.assetid: 19573307-0192-47bd-86a0-9c7721d16c5e
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::WaitForProcessServerEnd"]
 ms.keywords: IDebugClient2 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient2::WaitForProcessServerEnd, IDebugClient3 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient3::WaitForProcessServerEnd, IDebugClient4 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient4.WaitForProcessServerEnd, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient5::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, WaitForProcessServerEnd, WaitForProcessServerEnd method [Windows Debugging], WaitForProcessServerEnd method [Windows Debugging],IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient4 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::WaitForProcessServerEnd, dbgeng/IDebugClient3::WaitForProcessServerEnd, dbgeng/IDebugClient4::WaitForProcessServerEnd, dbgeng/IDebugClient5::WaitForProcessServerEnd, debugger.waitforprocessserverend
-f1_keywords:
- - "dbgeng/IDebugClient2.WaitForProcessServerEnd"
- - "IDebugClient2.WaitForProcessServerEnd"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winbase.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient2.WaitForProcessServerEnd
-- IDebugClient3.WaitForProcessServerEnd
-- IDebugClient4.WaitForProcessServerEnd
-- IDebugClient5.WaitForProcessServerEnd
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::WaitForProcessServerEnd
+ - dbgeng/IDebugClient4::WaitForProcessServerEnd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient2.WaitForProcessServerEnd
+ - IDebugClient3.WaitForProcessServerEnd
+ - IDebugClient4.WaitForProcessServerEnd
+ - IDebugClient5.WaitForProcessServerEnd
 ---
 
 # IDebugClient4::WaitForProcessServerEnd
@@ -49,23 +49,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>WaitForProcessServerEnd</b> method waits for a local process server to exit.
-
 
 ## -parameters
 
-
-
-
 ### -param Timeout 
+
 [in]
 Specifies how long in milliseconds to wait for a process server to exit.  If <i>Timeout</i> is INFINITE, this method will not return until a process server has ended.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -97,14 +90,8 @@ A time-out occurred -- <i>Timeout</i> milliseconds passed without a local proces
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method will only wait for the first local process server to end.  After a process server has ended, subsequent calls to this method will return immediately.
 
@@ -112,13 +99,7 @@ For more information about process servers and remote debugging, see <a href="ht
 
 The constant INFINITE is defined in Winbase.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-endprocessserver">EndProcessServer</a>
 
@@ -141,7 +122,4 @@ The constant INFINITE is defined in Winbase.h.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startprocessserver">StartProcessServer</a>
- 
-
- 
 

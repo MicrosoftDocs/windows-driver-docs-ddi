@@ -8,9 +8,6 @@ ms.assetid: FCE1DE7B-CDFE-4533-90E7-A400EC236007
 ms.date: 03/29/2018
 keywords: ["STORAGE_HW_FIRMWARE_ACTIVATE structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Storage Devices], _STORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/PSTORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE, storage.storage_hw_firmware_activate"
-f1_keywords:
- - "ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE"
- - "STORAGE_HW_FIRMWARE_ACTIVATE"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_HW_FIRMWARE_ACTIVATE
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
+f1_keywords:
+ - _STORAGE_HW_FIRMWARE_ACTIVATE
+ - ntddstor/_STORAGE_HW_FIRMWARE_ACTIVATE
+ - PSTORAGE_HW_FIRMWARE_ACTIVATE
+ - ntddstor/PSTORAGE_HW_FIRMWARE_ACTIVATE
+ - STORAGE_HW_FIRMWARE_ACTIVATE
+ - ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_HW_FIRMWARE_ACTIVATE
 ---
 
 # _STORAGE_HW_FIRMWARE_ACTIVATE structure
@@ -46,24 +50,17 @@ req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
 
 ## -description
 
-
 This structure contains information about the downloaded firmware to activate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_ACTIVATE).
 
-
 ### -field Size
 
 The size of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_ACTIVATE).
-
 
 ### -field Flags
 
@@ -83,13 +80,10 @@ The flags associated with the activation request. The following are valid flags 
 <td>Indicates that an existing firmware image in the specified slot should be activated. </td>
 </tr>
 </table>
- 
-
 
 ### -field Slot
 
 The slot with the firmware image that is to be activated.
-
 
 ### -field Reserved0
 

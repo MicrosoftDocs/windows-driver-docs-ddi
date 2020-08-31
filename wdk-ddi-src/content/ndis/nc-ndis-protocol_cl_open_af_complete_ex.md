@@ -8,9 +8,6 @@ ms.assetid: 03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback function"]
 ms.keywords: PROTOCOL_CL_OPEN_AF_COMPLETE_EX, PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback, ProtocolClOpenAfCompleteEx, ProtocolClOpenAfCompleteEx callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8b7e876e-d2b2-4676-8120-aa18f717cca2.xml, ndis/ProtocolClOpenAfCompleteEx, netvista.protocolclopenafcompleteex
-f1_keywords:
- - "ndis/ProtocolClOpenAfCompleteEx"
- - "ProtocolClOpenAfCompleteEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClOpenAfCompleteEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_OPEN_AF_COMPLETE_EX
+ - ndis/PROTOCOL_CL_OPEN_AF_COMPLETE_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClOpenAfCompleteEx
 ---
 
 # PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolClOpenAfCompleteEx</i> function completes the opening of an address family (AF) that was started
@@ -56,18 +55,16 @@ The
 
 ## -parameters
 
-
-
-
 ### -param ProtocolAfContext 
+
 [in]
 A client-supplied handle to its context area for an address AF. The client allocated this context
      area and passed this handle to NDIS in its call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a> function.
 
-
 ### -param NdisAfHandle 
+
 [in]
 An NDIS-supplied handle to an AF, if 
      <i>Status</i> is NDIS_STATUS_SUCCESS. Otherwise, this parameter is <b>NULL</b>. This handle represents an
@@ -77,8 +74,8 @@ An NDIS-supplied handle to an AF, if
      <b>NdisCl<i>Xxx</i></b> and 
      <b>NdisCo<i>Xxx</i></b> functions.
 
-
 ### -param Status 
+
 [in]
 The final status of the client's call to 
      <b>NdisClOpenAddressFamilyEx</b>, which can be any of the following: 
@@ -130,8 +127,6 @@ The call manager that registered the specified AF is closing its binding to the 
 </ul>
 
 ## -remarks
-
-
 
 The 
     <i>ProtocolClOpenAfCompleteEx</i> function is required for CoNDIS clients. CoNDIS clients must provide 
@@ -220,15 +215,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
 
@@ -251,7 +240,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
- 
-
- 
 

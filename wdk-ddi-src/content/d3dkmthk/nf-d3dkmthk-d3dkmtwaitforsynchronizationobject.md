@@ -7,9 +7,6 @@ ms.assetid: 6b622b61-ec39-4ffb-b744-2b33ac560af6
 ms.date: 05/10/2018
 keywords: ["D3DKMTWaitForSynchronizationObject function"]
 ms.keywords: D3DKMTWaitForSynchronizationObject, D3DKMTWaitForSynchronizationObject function [Display Devices], OpenGL_Functions_bdec46cd-1e3b-427f-8c65-df2d31171bc5.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject, display.d3dkmtwaitforsynchronizationobject
-f1_keywords:
- - "d3dkmthk/D3DKMTWaitForSynchronizationObject"
- - "D3DKMTWaitForSynchronizationObject"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,24 +24,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTWaitForSynchronizationObject
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTWaitForSynchronizationObject
+ - d3dkmthk/D3DKMTWaitForSynchronizationObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTWaitForSynchronizationObject
 ---
 
 # D3DKMTWaitForSynchronizationObject function
+
 
 ## -description
 
@@ -57,7 +58,6 @@ The <b>D3DKMTWaitForSynchronizationObject</b> function inserts a wait for the sp
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context stream that the wait is set up for.
-
 
 ## -returns
 
@@ -74,3 +74,4 @@ This function might also return other NTSTATUS values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT</a>
+

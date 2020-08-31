@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateRenderTargetViewSize"
- - "CalcPrivateRenderTargetViewSize"
+ - PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE
+ - d3d10umddi/PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE callback function
+
 
 ## -description
 

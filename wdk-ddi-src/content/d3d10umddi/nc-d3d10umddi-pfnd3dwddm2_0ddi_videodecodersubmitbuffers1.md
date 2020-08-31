@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoDecoderSubmitBuffers1"
- - "pfnVideoDecoderSubmitBuffers1"
+ - PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1 callback function
+
 
 ## -description
 

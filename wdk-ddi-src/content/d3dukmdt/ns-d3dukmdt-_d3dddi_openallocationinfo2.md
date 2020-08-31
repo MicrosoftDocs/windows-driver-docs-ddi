@@ -5,39 +5,42 @@ description: The D3DDDI_OPENALLOCATIONINFO2 structure describes an allocation to
 ms.assetid: aade2040-999b-4094-b984-cf0ed7324c6a
 ms.date: 10/19/2018
 keywords: ["D3DDDI_OPENALLOCATIONINFO2 structure"]
-f1_keywords:
- - "d3dukmdt/_D3DDDI_OPENALLOCATIONINFO2"
- - "_D3DDDI_OPENALLOCATIONINFO2"
-ms.keywords: _D3DDDI_OPENALLOCATIONINFO2, D3DDDI_OPENALLOCATIONINFO2, 
+ms.keywords: _D3DDDI_OPENALLOCATIONINFO2, D3DDDI_OPENALLOCATIONINFO2,
 req.header: d3dukmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DDDI_OPENALLOCATIONINFO2
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dukmdt.h
-api_name: 
-- _D3DDDI_OPENALLOCATIONINFO2
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DDDI_OPENALLOCATIONINFO2
+ - d3dukmdt/_D3DDDI_OPENALLOCATIONINFO2
+ - D3DDDI_OPENALLOCATIONINFO2
+ - d3dukmdt/D3DDDI_OPENALLOCATIONINFO2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - _D3DDDI_OPENALLOCATIONINFO2
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DDDI_OPENALLOCATIONINFO2 structure
+
 
 ## -description
 
@@ -68,3 +71,4 @@ Reserved.
 ## -remarks
 
 ## -see-also
+

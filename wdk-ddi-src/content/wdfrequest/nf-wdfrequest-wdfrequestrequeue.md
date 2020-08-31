@@ -8,9 +8,6 @@ ms.assetid: 955859d2-7c4f-454c-8621-84bacf0b9770
 ms.date: 02/26/2018
 keywords: ["WdfRequestRequeue function"]
 ms.keywords: DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, WdfRequestRequeue, WdfRequestRequeue method, kmdf.wdfrequestrequeue, wdf.wdfrequestrequeue, wdfrequest/WdfRequestRequeue
-f1_keywords:
- - "wdfrequest/WdfRequestRequeue"
- - "WdfRequestRequeue"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestRequeue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestRequeue
+ - wdfrequest/WdfRequestRequeue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestRequeue
 ---
 
 # WdfRequestRequeue function
@@ -49,25 +49,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRequeue</b> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 
-
 ## -parameters
 
-
-
-
 ### -param Request 
-[in]
-A handle to a framework request object. 
 
+[in]
+A handle to a framework request object.
 
 ## -returns
-
-
 
 <b>WdfRequestRequeue</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -126,12 +119,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 A driver can call <b>WdfRequestRequeue</b> only if it using the manual dispatching method for the I/O queue.
 
@@ -150,5 +138,4 @@ NTSTATUS status;
 
 status = WdfRequestRequeue(request);
 ```
-
 

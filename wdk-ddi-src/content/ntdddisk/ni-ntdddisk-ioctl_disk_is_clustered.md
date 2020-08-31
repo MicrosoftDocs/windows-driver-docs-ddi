@@ -8,9 +8,6 @@ ms.assetid: 46b72c16-2656-4ceb-a786-5fb24818b2a7
 ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_IS_CLUSTERED IOCTL"]
 ms.keywords: IOCTL_DISK_IS_CLUSTERED, IOCTL_DISK_IS_CLUSTERED control, IOCTL_DISK_IS_CLUSTERED control code [Storage Devices], k307_a812ef4f-f10c-4d75-aaf8-a3ad4d41703e.xml, ntdddisk/IOCTL_DISK_IS_CLUSTERED, storage.ioctl_disk_is_clustered
-f1_keywords:
- - "ntdddisk/IOCTL_DISK_IS_CLUSTERED"
- - "IOCTL_DISK_IS_CLUSTERED"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntdddisk.h
-api_name:
-- IOCTL_DISK_IS_CLUSTERED
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_DISK_IS_CLUSTERED
+ - ntdddisk/IOCTL_DISK_IS_CLUSTERED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntdddisk.h
+api_name:
+ - IOCTL_DISK_IS_CLUSTERED
 ---
 
 # IOCTL_DISK_IS_CLUSTERED IOCTL
@@ -46,54 +46,31 @@ req.typenames:
 
 ## -description
 
-
 Allows a driver or application to determine if a disk is clustered.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a Boolean value, with <b>TRUE</b> indicating that the disk is clustered.
 
-
 ### -output-buffer-length
 
 Length of a Boolean.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 

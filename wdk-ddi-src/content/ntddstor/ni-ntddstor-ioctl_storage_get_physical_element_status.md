@@ -8,9 +8,6 @@ ms.assetid: ED46241E-1A71-447A-8D96-E81B4500E070
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control, IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, storage.ioctl_storage_get_physical_element_status
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS"
- - "IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS"
 req.header: ntddstor.h
 req.include-header: WinIoctl.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
+ - ntddstor/IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
 ---
 
 # IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS IOCTL
@@ -48,11 +48,7 @@ req.typenames:
 
 The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b> control code queries for and returns the physical element status from a device.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -72,10 +68,7 @@ The size of the output buffer, in bytes.
 
 ### -in-out-buffer
 
-
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -84,7 +77,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -106,9 +98,6 @@ DeviceIoControl((HANDLE)       hDevice,         // handle to device
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
@@ -118,3 +107,4 @@ DeviceIoControl((HANDLE)       hDevice,         // handle to device
 
 
 [**PHYSICAL_ELEMENT_STATUS_REQUEST**](ns-ntddstor-_physical_element_status_request.md)
+

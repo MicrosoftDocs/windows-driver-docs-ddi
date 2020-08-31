@@ -8,9 +8,6 @@ ms.assetid: 08951cde-d9d2-4de6-bb63-7c3e7cf1f92f
 ms.date: 02/26/2018
 keywords: ["WdfChildListBeginScan function"]
 ms.keywords: DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan, WdfChildListBeginScan method, kmdf.wdfchildlistbeginscan, wdf.wdfchildlistbeginscan, wdfchildlist/WdfChildListBeginScan
-f1_keywords:
- - "wdfchildlist/WdfChildListBeginScan"
- - "WdfChildListBeginScan"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfChildListBeginScan
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfChildListBeginScan
+ - wdfchildlist/WdfChildListBeginScan
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfChildListBeginScan
 ---
 
 # WdfChildListBeginScan function
@@ -47,21 +47,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListBeginScan</b> method prepares a specified list of child devices so the driver can update the information in the list.
 
-
 ## -parameters
 
-
-
-
 ### -param ChildList 
+
 [in]
 A handle to a framework child list object.
-
 
 ## -remarks
 
@@ -85,12 +80,7 @@ For a code example that uses <b>WdfChildListBeginScan</b>, see <a href="https://
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
 
@@ -105,7 +95,4 @@ For a code example that uses <b>WdfChildListBeginScan</b>, see <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistupdateallchilddescriptionsaspresent">WdfChildListUpdateAllChildDescriptionsAsPresent</a>
- 
-
- 
 

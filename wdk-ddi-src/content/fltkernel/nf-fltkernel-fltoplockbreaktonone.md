@@ -8,9 +8,6 @@ ms.assetid: 212dc455-9317-4901-9a96-1c71dde0faf3
 ms.date: 04/16/2018
 keywords: ["FltOplockBreakToNone function"]
 ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, FltOplockBreakToNone, FltOplockBreakToNone routine [Installable File System Drivers], fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone
-f1_keywords:
- - "fltkernel/FltOplockBreakToNone"
- - "FltOplockBreakToNone"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltOplockBreakToNone
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltOplockBreakToNone
+ - fltkernel/FltOplockBreakToNone
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltOplockBreakToNone
 ---
 
 # FltOplockBreakToNone function
@@ -46,31 +46,27 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltOplockBreakToNone</b> routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key. 
-
+The <b>FltOplockBreakToNone</b> routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 
 ## -parameters
 
-
-
-
 ### -param Oplock 
-[in]
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>. 
 
+[in]
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>.
 
 ### -param CallbackData 
-[in]
-A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. 
 
+[in]
+A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation.
 
 ### -param Context 
-[in, optional]
-A pointer to caller-defined context information to be passed to the callback routines that the <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>parameters point to. 
 
+[in, optional]
+A pointer to caller-defined context information to be passed to the callback routines that the <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>parameters point to.
 
 ### -param WaitCompletionRoutine 
+
 [in, optional]
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
@@ -104,10 +100,10 @@ A pointer to the callback data structure for the I/O operation.
 
 #### Context
 
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
-
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>.
 
 ### -param PrePostCallbackDataRoutine 
+
 [in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
@@ -141,12 +137,9 @@ A pointer to the callback data structure for the I/O operation.
 
 #### Context
 
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
-
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>.
 
 ## -returns
-
-
 
 <b>FltOplockBreakToNone</b> returns one of the following FLT_PREOP_CALLBACK_STATUS codes: 
 
@@ -189,24 +182,12 @@ The callback data that the <i>CallbackData</i> parameter points to was not pende
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
-
-
-
+For more information about opportunistic locks, see the Microsoft Windows SDK documentation.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -221,7 +202,4 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
- 
-
- 
 

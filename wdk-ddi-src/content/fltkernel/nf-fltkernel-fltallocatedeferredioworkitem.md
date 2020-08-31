@@ -8,9 +8,6 @@ ms.assetid: 25c03114-8e50-40a2-869a-08b11b7490be
 ms.date: 04/16/2018
 keywords: ["FltAllocateDeferredIoWorkItem function"]
 ms.keywords: FltAllocateDeferredIoWorkItem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem
-f1_keywords:
- - "fltkernel/FltAllocateDeferredIoWorkItem"
- - "FltAllocateDeferredIoWorkItem"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltAllocateDeferredIoWorkItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltAllocateDeferredIoWorkItem
+ - fltkernel/FltAllocateDeferredIoWorkItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltAllocateDeferredIoWorkItem
 ---
 
 # FltAllocateDeferredIoWorkItem function
@@ -47,43 +47,25 @@ req.typenames:
 
 ## -description
 
-
-<b>FltAllocateDeferredIoWorkItem</b> allocates a deferred-I/O work item. 
-
+<b>FltAllocateDeferredIoWorkItem</b> allocates a deferred-I/O work item.
 
 ## -returns
 
-
-
-<b>FltAllocateDeferredIoWorkItem</b> returns <b>NULL</b> if there is insufficient memory in nonpaged pool to satisfy the request. Otherwise, it returns a pointer to the allocated work item. 
-
-
-
+<b>FltAllocateDeferredIoWorkItem</b> returns <b>NULL</b> if there is insufficient memory in nonpaged pool to satisfy the request. Otherwise, it returns a pointer to the allocated work item.
 
 ## -remarks
-
-
 
 <b>FltAllocateDeferredIoWorkItem</b> allocates a deferred I/O work item from nonpaged pool. 
 
 To insert this work item into a deferred I/O work queue, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>. 
 
-To free the work item, a minifilter driver typically calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a> from the worker routine that was specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>. 
-
-
-
+To free the work item, a minifilter driver typically calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a> from the worker routine that was specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>
- 
-
- 
 

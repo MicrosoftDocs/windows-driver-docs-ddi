@@ -8,9 +8,6 @@ ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.date: 08/20/2020
 keywords: ["KSAC3_BIT_STREAM_MODE structure"]
 ms.keywords: "*PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, audio.ksac3_bit_stream_mode, ksmedia/KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE"
-f1_keywords:
- - "ksmedia/KSAC3_BIT_STREAM_MODE"
- - "KSAC3_BIT_STREAM_MODE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAC3_BIT_STREAM_MODE
 targetos: Windows
 req.typenames: KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE
+f1_keywords:
+ - PKSAC3_BIT_STREAM_MODE
+ - ksmedia/PKSAC3_BIT_STREAM_MODE
+ - KSAC3_BIT_STREAM_MODE
+ - ksmedia/KSAC3_BIT_STREAM_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAC3_BIT_STREAM_MODE
 ---
 
 # KSAC3_BIT_STREAM_MODE structure
+
 
 ## -description
 
@@ -77,3 +80,4 @@ For more information about bit stream modes, see the AC-3 specification at the [
 ## -see-also
 
 [KSPROPERTY_AC3_BIT_STREAM_MODE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-bit-stream-mode)
+

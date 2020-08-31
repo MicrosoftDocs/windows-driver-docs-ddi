@@ -7,9 +7,6 @@ ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.date: 11/26/2019
 keywords: ["DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure"]
 ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags
-f1_keywords:
- - "d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS"
- - "DXGK_PLANE_SPECIFIC_INPUT_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,24 +24,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ - d3dkmddi/_DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ - DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ - d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure
+
 
 ## -description
 
@@ -94,3 +97,4 @@ If the monitor is in the active period, the flip needs to wait until the active 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit **Value** member to zeros.
 
 ### -field Value
+

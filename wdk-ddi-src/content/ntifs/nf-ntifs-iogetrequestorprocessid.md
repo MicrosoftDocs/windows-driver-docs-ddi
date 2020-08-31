@@ -8,9 +8,6 @@ ms.assetid: 73fe40ee-f1fe-419b-a866-6c40604f7716
 ms.date: 04/16/2018
 keywords: ["IoGetRequestorProcessId function"]
 ms.keywords: IoGetRequestorProcessId, IoGetRequestorProcessId routine [Installable File System Drivers], ifsk.iogetrequestorprocessid, ioref_a08b37d7-b999-4e40-a0aa-c62744fee6dd.xml, ntifs/IoGetRequestorProcessId
-f1_keywords:
- - "ntifs/IoGetRequestorProcessId"
- - "IoGetRequestorProcessId"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetRequestorProcessId
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetRequestorProcessId
+ - ntifs/IoGetRequestorProcessId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetRequestorProcessId
 ---
 
 # IoGetRequestorProcessId function
@@ -46,49 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetRequestorProcessId</b> routine returns the unique 32-bit process ID for the thread that originally requested a given I/O operation.
-
 
 ## -parameters
 
-
-
-
 ### -param Irp 
+
 [in]
 A pointer to the I/O request packet (IRP) for the specified I/O operation.
 
-
 ## -returns
-
-
 
 <b>IoGetRequestorProcessId</b> returns the process ID for the thread that requested the I/O operation. If the IRP is not associated with any thread, <b>IoGetRequestorProcessId</b> returns zero.
 
-
-
-
 ## -remarks
-
-
 
 On Microsoft Windows XP and later, <b>IoGetRequestorProcessId</b> returns the process ID for the process to which the thread is currently attached. 
 
 On Microsoft Windows 2000 and earlier, <b>IoGetRequestorProcessId</b> returns the process ID for the process that created the thread. 
 
-For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Driver Threads, Dispatcher Objects, and Resources</a>. 
-
-
-
+For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Driver Threads, Dispatcher Objects, and Resources</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocess">IoGetRequestorProcess</a>
- 
-
- 
 

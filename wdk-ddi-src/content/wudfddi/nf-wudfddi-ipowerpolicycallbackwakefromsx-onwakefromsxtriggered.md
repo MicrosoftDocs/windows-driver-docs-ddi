@@ -8,9 +8,6 @@ ms.assetid: b2379f2d-61a0-4741-a375-c17b95b0faf6
 ms.date: 02/26/2018
 keywords: ["IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered"]
 ms.keywords: IPowerPolicyCallbackWakeFromSx interface,OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, OnWakeFromSxTriggered, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
-f1_keywords:
- - "wudfddi/IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered"
- - "IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wudfddi.h
-api_name:
-- IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
+ - wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wudfddi.h
+api_name:
+ - IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
 ---
 
 # IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <b>OnWakeFromSxTriggered</b> event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal.
 
-
 ## -parameters
 
-
-
-
 ### -param pWdfDevice 
+
 [in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
-
 ## -remarks
-
-
 
 Your driver must provide an <b>OnWakeFromSxTriggered</b> callback function if the driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipowerpolicycallbackwakefromsx">IPowerPolicyCallbackWakeFromSx</a> interface. 
 
@@ -74,13 +67,7 @@ System hardware (BIOSes, motherboards, bus adapters) can sometimes drop a wake s
 
 For more information about this callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-system-wake-up-in-umdf-drivers">Supporting System Wake-Up in UMDF-based Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipowerpolicycallbackwakefromsx">IPowerPolicyCallbackWakeFromSx</a>
 
@@ -91,7 +78,4 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipowerpolicycallbackwakefromsx-ondisarmwakefromsx">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a>
- 
-
- 
 

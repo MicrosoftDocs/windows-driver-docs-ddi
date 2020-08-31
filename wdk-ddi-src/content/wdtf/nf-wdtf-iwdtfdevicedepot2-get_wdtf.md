@@ -8,9 +8,6 @@ ms.assetid: 911e5f2b-bd8c-42e6-8272-a447e723e814
 ms.date: 04/04/2018
 keywords: ["IWDTFDeviceDepot2::get_WDTF"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],WDTF property, IWDTFDeviceDepot2.WDTF, IWDTFDeviceDepot2.get_WDTF, IWDTFDeviceDepot2::WDTF, IWDTFDeviceDepot2::get_WDTF, Microsoft.WDTF.IWDTFDeviceDepot2.WDTF, Microsoft::WDTF::IWDTFDeviceDepot2::WDTF, WDTF property [Windows Device Testing Framework], WDTF property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_wdtf, get_WDTF, wdtf/IWDTFDeviceDepot2::WDTF, wdtf/IWDTFDeviceDepot2::get_WDTF
-f1_keywords:
- - "wdtf/IWDTFDeviceDepot2.WDTF"
- - "IWDTFDeviceDepot2.WDTF"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFDeviceDepot2.WDTF
-- IWDTFDeviceDepot2.get_WDTF
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFDeviceDepot2::get_WDTF
+ - wdtf/IWDTFDeviceDepot2::get_WDTF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFDeviceDepot2.WDTF
+ - IWDTFDeviceDepot2.get_WDTF
 ---
 
 # IWDTFDeviceDepot2::get_WDTF
@@ -47,26 +47,17 @@ req.typenames:
 
 ## -description
 
-
 Gets the main WDTF aggregation object.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a>
- 
-
- 
 

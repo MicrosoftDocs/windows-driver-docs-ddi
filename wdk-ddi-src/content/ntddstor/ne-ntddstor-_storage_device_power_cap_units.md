@@ -8,9 +8,6 @@ ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_POWER_CAP_UNITS enumeration"]
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, _STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, ntddstor/StorageDevicePowerCapUnitsPercent, storage.storage_device_power_cap_units"
-f1_keywords:
- - "ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS"
- - "STORAGE_DEVICE_POWER_CAP_UNITS"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_DEVICE_POWER_CAP_UNITS
 targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
+f1_keywords:
+ - _STORAGE_DEVICE_POWER_CAP_UNITS
+ - ntddstor/_STORAGE_DEVICE_POWER_CAP_UNITS
+ - PSTORAGE_DEVICE_POWER_CAP_UNITS
+ - ntddstor/PSTORAGE_DEVICE_POWER_CAP_UNITS
+ - STORAGE_DEVICE_POWER_CAP_UNITS
+ - ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_DEVICE_POWER_CAP_UNITS
 ---
 
 # _STORAGE_DEVICE_POWER_CAP_UNITS enumeration
@@ -46,19 +50,13 @@ req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 
 ## -description
 
-
 The units of the maximum power threshold.
 
-
 ## -enum-fields
-
-
-
 
 ### -field StorageDevicePowerCapUnitsPercent
 
 Units in percent.
-
 
 ### -field StorageDevicePowerCapUnitsMilliwatts
 

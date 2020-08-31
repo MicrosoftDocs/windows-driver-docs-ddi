@@ -8,9 +8,6 @@ ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.date: 04/30/2019
 keywords: ["KS_AM_ExactRateChange structure"]
 ms.keywords: "*PKS_AM_ExactRateChange, KS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], PKS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, ksmedia/KS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, stream.ks_am_exactratechange"
-f1_keywords:
- - "ksmedia/KS_AM_ExactRateChange"
- - "KS_AM_ExactRateChange"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_AM_ExactRateChange
 targetos: Windows
 req.typenames: KS_AM_ExactRateChange, *PKS_AM_ExactRateChange
+f1_keywords:
+ - PKS_AM_ExactRateChange
+ - ksmedia/PKS_AM_ExactRateChange
+ - KS_AM_ExactRateChange
+ - ksmedia/KS_AM_ExactRateChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_AM_ExactRateChange
 ---
 
 # KS_AM_ExactRateChange structure
@@ -46,32 +48,19 @@ req.typenames: KS_AM_ExactRateChange, *PKS_AM_ExactRateChange
 
 ## -description
 
-
 The KS_AM_ExactRateChange structure is not yet implemented.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OutputZeroTime
 
 Indicates an "input" time stamp that maps to a zero output time stamp.
 
-
 ### -field Rate
 
 Specifies the new rate. This value is multiplied by 10000 (decimal).
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-am-rate-exactratechange">KS_AM_RATE_ExactRateChange</a>
- 
-
- 
 

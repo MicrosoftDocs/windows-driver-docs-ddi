@@ -8,9 +8,6 @@ ms.assetid: 4b8c9a94-a81e-4a02-b68c-10b2fb64157f
 ms.date: 04/16/2018
 keywords: ["PMRX_IS_LOCK_REALIZABLE callback function"]
 ms.keywords: MRxIsLockRealizable, MRxIsLockRealizable routine [Installable File System Drivers], PMRX_IS_LOCK_REALIZABLE, ifsk.mrxislockrealizable, mrx/MRxIsLockRealizable, mrxref_52518201-df6f-40ab-803d-14d8fc0993f6.xml
-f1_keywords:
- - "mrx/MRxIsLockRealizable"
- - "MRxIsLockRealizable"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MRxIsLockRealizable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_IS_LOCK_REALIZABLE
+ - mrx/PMRX_IS_LOCK_REALIZABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MRxIsLockRealizable
 ---
 
 # PMRX_IS_LOCK_REALIZABLE callback function
@@ -46,41 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The<i> MRxIsLockRealizable</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector indicate whether a specific byte-range lock is supported on this NET_ROOT structure.
-
 
 ## -parameters
 
-
-
-
 ### -param Fcb
 
-
 ### -param ByteOffset 
-[in]
-A value indicating the byte offset for the byte range lock. 
 
+[in]
+A value indicating the byte offset for the byte range lock.
 
 ### -param Length 
-[in]
-A value indicating the length for the byte range lock. 
 
+[in]
+A value indicating the length for the byte range lock.
 
 ### -param LowIoLockFlags 
+
 [in]
 A value indicating the I/O lock flags. This parameter is a bitmask that contains any combination of the following values: 
 
 
 #### - pFcb [in, out]
 
-A pointer to the FCB structure. 
-
+A pointer to the FCB structure.
 
 ## -returns
-
-
 
 <i>MRxIsLockRealizable</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
 
@@ -101,26 +93,14 @@ The byte range lock that is requested is not supported. A network mini-redirecto
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>MRxIsLockRealizable</i> determines whether the specific byte-range lock requested is supported on this NET_ROOT structure. A network mini-redirector might support certain byte range locks and not support others. For example, a network mini-redirector might only support 32-bit byte range locks or exclusive locks.
 
 <i>MRxIsLockRealizable</i> is called in response to receiving an IRP with the IRP_MN_LOCK minor function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
 
@@ -175,7 +155,4 @@ The byte range lock that is requested is not supported. A network mini-redirecto
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 38888C17-31FC-47F4-A49B-A46A9DF962AF
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode2 interface"]
 ms.keywords: IMiniportStreamAudioEngineNode2, IMiniportStreamAudioEngineNode2 interface [Audio Devices], IMiniportStreamAudioEngineNode2 interface [Audio Devices],described, audio.iminiportstreamaudioenginenode2, portcls/IMiniportStreamAudioEngineNode2
-f1_keywords:
- - "portcls/IMiniportStreamAudioEngineNode2"
- - "IMiniportStreamAudioEngineNode2"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportStreamAudioEngineNode2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportStreamAudioEngineNode2
+ - portcls/IMiniportStreamAudioEngineNode2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportStreamAudioEngineNode2
 ---
 
 # IMiniportStreamAudioEngineNode2 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 The <b>IMiniportStreamAudioEngineNode2</b> interface allows an audio miniport driver to extend the capabilities of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a> interface.
-
 
 ## -inheritance
 

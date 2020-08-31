@@ -8,9 +8,6 @@ ms.assetid: b76a58fb-fbd4-4afe-83dc-582242b53e05
 ms.date: 04/20/2018
 keywords: ["IPrintWriteStream interface"]
 ms.keywords: IPrintWriteStream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices],described, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml, print.iprintwritestream
-f1_keywords:
- - "filterpipeline/IPrintWriteStream"
- - "IPrintWriteStream"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPrintWriteStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintWriteStream
+ - filterpipeline/IPrintWriteStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPrintWriteStream
 ---
 
 # IPrintWriteStream interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Filters use the <code>IPrintWriteStream</code> interface to write data as a raw stream of bytes.
-
 
 ## -inheritance
 

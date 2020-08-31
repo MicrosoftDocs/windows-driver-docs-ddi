@@ -8,9 +8,6 @@ ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.date: 08/20/2020
 keywords: ["tagKSJACK_SINK_INFORMATION structure"]
 ms.keywords: "*PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], _tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION"
-f1_keywords:
- - "ksmedia/KSJACK_SINK_INFORMATION"
- - "KSJACK_SINK_INFORMATION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSJACK_SINK_INFORMATION
 targetos: Windows
 req.typenames: KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION
+f1_keywords:
+ - _tagKSJACK_SINK_INFORMATION
+ - ksmedia/_tagKSJACK_SINK_INFORMATION
+ - PKSJACK_SINK_INFORMATION
+ - ksmedia/PKSJACK_SINK_INFORMATION
+ - KSJACK_SINK_INFORMATION
+ - ksmedia/KSJACK_SINK_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSJACK_SINK_INFORMATION
 ---
 
 # _tagKSJACK_SINK_INFORMATION structure
+
 
 ## -description
 
@@ -88,3 +93,4 @@ Reserved.
 ## -see-also
 
 [LUID](https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid)
+

@@ -8,9 +8,6 @@ ms.assetid: 49b8f602-8f82-4445-98f2-a63563689561
 ms.date: 08/20/2020
 keywords: ["KSAUDIO_MIC_ARRAY_GEOMETRY structure"]
 ms.keywords: "*PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], PKSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices], aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml, audio.ksaudio_mic_array_geometry, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY"
-f1_keywords:
- - "ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY"
- - "KSAUDIO_MIC_ARRAY_GEOMETRY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_MIC_ARRAY_GEOMETRY
 targetos: Windows
 req.typenames: KSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY
+f1_keywords:
+ - PKSAUDIO_MIC_ARRAY_GEOMETRY
+ - ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY
+ - KSAUDIO_MIC_ARRAY_GEOMETRY
+ - ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_MIC_ARRAY_GEOMETRY
 ---
 
 # KSAUDIO_MIC_ARRAY_GEOMETRY structure
+
 
 ## -description
 
@@ -108,3 +111,4 @@ For more information about how to process a microphone array in Windows, see the
 ## -see-also
 
 [KSAUDIO_MICROPHONE_COORDINATES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_microphone_coordinates)
+

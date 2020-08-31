@@ -8,9 +8,6 @@ ms.assetid: 6cba6db5-b91f-46f0-939e-b02693c81438
 ms.date: 04/16/2018
 keywords: ["SeRegisterLogonSessionTerminatedRoutine function"]
 ms.keywords: SeRegisterLogonSessionTerminatedRoutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seregisterlogonsessionterminatedroutine, ntifs/SeRegisterLogonSessionTerminatedRoutine, seref_7188551f-9c46-472f-8976-67ee53b994c5.xml
-f1_keywords:
- - "ntifs/SeRegisterLogonSessionTerminatedRoutine"
- - "SeRegisterLogonSessionTerminatedRoutine"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeRegisterLogonSessionTerminatedRoutine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeRegisterLogonSessionTerminatedRoutine
+ - ntifs/SeRegisterLogonSessionTerminatedRoutine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeRegisterLogonSessionTerminatedRoutine
 ---
 
 # SeRegisterLogonSessionTerminatedRoutine function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeRegisterLogonSessionTerminatedRoutine</b> routine registers a callback routine to be called when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
-
 
 ## -parameters
 
-
-
-
 ### -param CallbackRoutine 
+
 [in]
 Address of routine to call when a logon session terminates.
 
-
 ## -returns
-
-
 
 <b>SeRegisterLogonSessionTerminatedRoutine</b> can return one of the following:
 
@@ -105,29 +98,14 @@ A list entry could not be allocated for the callback routine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each call to <b>SeRegisterLogonSessionTerminatedRoutine</b> must be matched by a subsequent call to <b>SeUnregisterLogonSessionTerminatedRoutine</b>.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunregisterlogonsessionterminatedroutine">SeUnregisterLogonSessionTerminatedRoutine</a>
- 
-
- 
 

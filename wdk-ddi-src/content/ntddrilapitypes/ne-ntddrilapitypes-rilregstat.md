@@ -8,37 +8,37 @@ ms.assetid: 53c72dbb-cf8d-4683-a440-985669265a52
 ms.date: 02/16/2018
 keywords: ["RILREGSTAT enumeration"]
 ms.keywords: RILREGSTAT, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_DENIED, RIL_REGSTAT_HOME, RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_INTL, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, netvista.rilregstat, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_ROAMING_INTL, rilapitypes/RIL_REGSTAT_UNKNOWN, rilapitypes/RIL_REGSTAT_UNREGISTERED
-f1_keywords:
- - "ntddrilapitypes/RILREGSTAT"
- - "RILREGSTAT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILREGSTAT
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILREGSTAT
+f1_keywords:
+ - RILREGSTAT
+ - ntddrilapitypes/RILREGSTAT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILREGSTAT
 ---
 
 # RILREGSTAT enumeration
@@ -46,12 +46,29 @@ req.typenames: RILREGSTAT
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILREGSTAT.
 
+## -enum-fields
+
+### -field RIL_REGSTAT_UNKNOWN
+
+### -field RIL_REGSTAT_UNREGISTERED
+
+### -field RIL_REGSTAT_HOME
+
+### -field RIL_REGSTAT_ATTEMPTING
+
+### -field RIL_REGSTAT_DENIED
+
+### -field RIL_REGSTAT_ROAMING
+
+### -field RIL_REGSTAT_ROAMING_DOMESTIC
+
+### -field RIL_REGSTAT_MAX
+
+#### - RIL_REGSTAT_ROAMING_INTL
 
 ## -syntax
-
 
 ```cpp
 enum RILREGSTAT  {
@@ -66,49 +83,7 @@ enum RILREGSTAT  {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_REGSTAT_UNKNOWN
-
-
-### -field RIL_REGSTAT_UNREGISTERED
-
-
-### -field RIL_REGSTAT_HOME
-
-
-### -field RIL_REGSTAT_ATTEMPTING
-
-
-### -field RIL_REGSTAT_DENIED
-
-
-### -field RIL_REGSTAT_ROAMING
-
-
-### -field RIL_REGSTAT_ROAMING_DOMESTIC
-
-
-### -field RIL_REGSTAT_MAX
-
-
-
-
-#### - RIL_REGSTAT_ROAMING_INTL
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
-
-
-
- 
-
- 
-
 

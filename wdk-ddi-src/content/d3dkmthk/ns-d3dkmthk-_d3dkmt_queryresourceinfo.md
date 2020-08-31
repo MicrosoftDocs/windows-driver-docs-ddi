@@ -7,9 +7,6 @@ ms.assetid: 14078b2b-8951-48df-912a-e053bc997dde
 ms.date: 05/10/2018
 keywords: ["D3DKMT_QUERYRESOURCEINFO structure"]
 ms.keywords: D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, _D3DKMT_QUERYRESOURCEINFO, d3dkmthk/D3DKMT_QUERYRESOURCEINFO, display.d3dkmt_queryresourceinfo
-f1_keywords:
- - "d3dkmthk/D3DKMT_QUERYRESOURCEINFO"
- - "D3DKMT_QUERYRESOURCEINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_QUERYRESOURCEINFO
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_QUERYRESOURCEINFO
+f1_keywords:
+ - _D3DKMT_QUERYRESOURCEINFO
+ - d3dkmthk/_D3DKMT_QUERYRESOURCEINFO
+ - D3DKMT_QUERYRESOURCEINFO
+ - d3dkmthk/D3DKMT_QUERYRESOURCEINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_QUERYRESOURCEINFO
 ---
 
 # _D3DKMT_QUERYRESOURCEINFO structure
@@ -46,61 +48,43 @@ req.typenames: D3DKMT_QUERYRESOURCEINFO
 
 ## -description
 
-
 The D3DKMT_QUERYRESOURCEINFO structure describes parameters for retrieving information about a resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hDevice
 
 [in] A handle to the device that the resource and allocations are associated with.
 
-
 ### -field hGlobalShare
 
 [in] A handle to the shared resource to open.
 
-
 ### -field pPrivateRuntimeData
 
-[in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer. 
-
+[in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer.
 
 ### -field PrivateRuntimeDataSize
 
 [in/out] The size, in bytes, of the buffer that <b>pPrivateRuntimeData</b> points to. If <b>pPrivateRuntimeData</b> is <b>NULL</b>, <b>PrivateRuntimeDataSize</b> is set to the size, in bytes, that is required for the buffer to store the runtime-private data.
 
-
 ### -field TotalPrivateDriverDataSize
 
 [out] The size, in bytes, of the buffer that is required to hold the private driver data for all of the allocations that are associated with the resource.
-
 
 ### -field ResourcePrivateDriverDataSize
 
 [out] The size, in bytes, of the buffer that is required to hold the private driver data for the resource.
 
-
 ### -field NumAllocations
 
 [out] The number of allocations that are associated with the resource.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenresource">D3DKMTOpenResource</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: fefdb56f-6689-4a4f-a198-6108190624f0
 ms.date: 05/02/2018
 keywords: ["NdisWaitEvent function"]
 ms.keywords: NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], ndis/NdisWaitEvent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, netvista.ndiswaitevent
-f1_keywords:
- - "ndis/NdisWaitEvent"
- - "NdisWaitEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisWaitEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisWaitEvent
+ - ndis/NdisWaitEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisWaitEvent
 ---
 
 # NdisWaitEvent function
@@ -47,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisWaitEvent</b> function puts the caller into a wait state until the given event is set to the Signaled
   state or the wait times out.
 
-
 ## -parameters
 
-
-
-
 ### -param Event 
+
 [in]
 A pointer to an initialized event object for which the caller provides the storage.
 
-
 ### -param MsToWait 
+
 [in]
 The number of milliseconds the caller will wait if the event is not set to the 
      <i>signaled</i> state within that interval. A value of zero specifies that the caller will wait for the
      event indefinitely.
 
-
 ## -returns
-
-
 
 <b>NdisWaitEvent</b> returns <b>TRUE</b> if the event is in the 
      <i>signaled</i> state when the wait is satisfied.
 
-
-
-
 ## -remarks
-
-
 
 <b>NdisWaitEvent</b> returns control to its caller when the given event is signaled or the specified 
     <i>MsToWait</i> interval expires, whichever is sooner. If the event is currently in the 
@@ -99,13 +87,7 @@ A miniport driver typically calls
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
    Drivers</a>
@@ -137,7 +119,4 @@ A miniport driver typically calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
 

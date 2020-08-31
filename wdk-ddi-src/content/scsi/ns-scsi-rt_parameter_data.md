@@ -8,9 +8,6 @@ ms.assetid: EB23D502-87E4-48B1-B1DC-0B215AB361C8
 ms.date: 03/29/2018
 keywords: ["RT_PARAMETER_DATA structure"]
 ms.keywords: "*PRT_PARAMETER_DATA, PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], RT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], scsi/PRT_PARAMETER_DATA, scsi/RT_PARAMETER_DATA, storage.rt_parameter_data"
-f1_keywords:
- - "scsi/RT_PARAMETER_DATA"
- - "RT_PARAMETER_DATA"
 req.header: scsi.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsi.h
-api_name:
-- RT_PARAMETER_DATA
 targetos: Windows
 req.typenames: RT_PARAMETER_DATA, *PRT_PARAMETER_DATA
+f1_keywords:
+ - PRT_PARAMETER_DATA
+ - scsi/PRT_PARAMETER_DATA
+ - RT_PARAMETER_DATA
+ - scsi/RT_PARAMETER_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsi.h
+api_name:
+ - RT_PARAMETER_DATA
 ---
 
 # RT_PARAMETER_DATA structure
@@ -46,21 +48,15 @@ req.typenames: RT_PARAMETER_DATA, *PRT_PARAMETER_DATA
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>RT_PARAMETER_DATA</b> structure contains the parameter data for the report timestamp command. 
-
+The <b>RT_PARAMETER_DATA</b> structure contains the parameter data for the report timestamp command.
 
 ## -struct-fields
-
-
-
 
 ### -field ParameterDataLength
 
 Indicates the number of bytes that follow in the parameter data.
-
 
 ### -field Origin
 
@@ -127,36 +123,24 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved1
 
 Reserved for future use.
 
-
 ### -field Reserved2
 
 Reserved for future use.
-
 
 ### -field Timestamp
 
 Contains the current value of a device clock.
 
-
 ### -field Reserved3
 
 Reserved for future use.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-st_parameter_data">ST_PARAMETER_DATA</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 4ADF74C0-F196-476F-889D-EB1A0B881920
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaAsyncOperationEvent interface"]
 ms.keywords: IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], IPrintSchemaAsyncOperationEvent interface [Print Devices],described, print.iprintschemaasyncoperationevent_interface, printerextension/IPrintSchemaAsyncOperationEvent
-f1_keywords:
- - "printerextension/IPrintSchemaAsyncOperationEvent"
- - "IPrintSchemaAsyncOperationEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaAsyncOperationEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaAsyncOperationEvent
+ - printerextension/IPrintSchemaAsyncOperationEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaAsyncOperationEvent
 ---
 
 # IPrintSchemaAsyncOperationEvent interface
+
 
 ## -description
 
@@ -61,3 +62,4 @@ An event sink that implements **IPrintSchemaAsyncOperationEvent** and the event 
 [IConnectionPoint](https://docs.microsoft.com/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint)
 
 [IPrintSchemaAsyncOperation](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation)
+

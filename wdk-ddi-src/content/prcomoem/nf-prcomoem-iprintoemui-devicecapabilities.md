@@ -8,9 +8,6 @@ ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.date: 04/20/2018
 keywords: ["IPrintOemUI::DeviceCapabilities"]
 ms.keywords: DeviceCapabilities, DeviceCapabilities method [Print Devices], DeviceCapabilities method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DeviceCapabilities method, IPrintOemUI.DeviceCapabilities, IPrintOemUI::DeviceCapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml
-f1_keywords:
- - "prcomoem/IPrintOemUI.DeviceCapabilities"
- - "IPrintOemUI.DeviceCapabilities"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUI.DeviceCapabilities
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUI::DeviceCapabilities
+ - prcomoem/IPrintOemUI::DeviceCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUI.DeviceCapabilities
 ---
 
 # IPrintOemUI::DeviceCapabilities
@@ -46,63 +46,47 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUI::DeviceCapabilities</code> method enables a user interface plug-in to specify customized device capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param poemuiobj
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-
 ### -param hPrinter
 
 Caller-supplied handle to the printer device.
-
 
 ### -param pDeviceName
 
 Caller-supplied pointer to a string representing the device name.
 
-
 ### -param wCapability
 
 Caller-supplied flag indicating the type of information the method should return. For a list of flags, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function.
-
 
 ### -param pOutput
 
 Caller-supplied pointer to a buffer to receive the requested information. The type of information returned is dependent on the flag specified by <i>wCapability</i>.
 
-
 ### -param pPublicDM
 
 Caller-supplied pointer to a validated <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
-
 
 ### -param pOEMDM
 
 Caller-supplied pointer to the user interface plug-in's private DEVMODEW structure members.
 
-
 ### -param dwOld
 
 Caller-supplied return value from the printer driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function, or from another user interface plug-in. For more information, see the following Remarks section.
-
 
 ### -param dwResult
 
 A return value that is dependent on the flag specified by <i>wCapability</i>. For more information, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function and the following Remarks section.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -156,14 +140,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A user interface plug-in's <code>IPrintOemUI::DeviceCapabilities</code> method performs the same types of operations as the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a> function that is exported by user-mode printer interface DLLs. The method specifies capabilities provided by the printer.
 
@@ -225,20 +203,11 @@ DC_ENUMRESOLUTIONS
 
 For more information about creating and installing user interface plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>
- 
-
- 
 

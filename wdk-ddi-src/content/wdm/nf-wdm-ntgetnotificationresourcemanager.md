@@ -8,9 +8,6 @@ ms.assetid: 53892fd1-d83c-4b6e-9c39-2f64ba0ab310
 ms.date: 04/30/2018
 keywords: ["NtGetNotificationResourceManager function"]
 ms.keywords: NtGetNotificationResourceManager, ZwGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwgetnotificationresourcemanager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml, wdm/NtGetNotificationResourceManager, wdm/ZwGetNotificationResourceManager
-f1_keywords:
- - "wdm/ZwGetNotificationResourceManager"
- - "ZwGetNotificationResourceManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: = PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwGetNotificationResourceManager
-- NtGetNotificationResourceManager
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtGetNotificationResourceManager
+ - wdm/NtGetNotificationResourceManager
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwGetNotificationResourceManager
+ - NtGetNotificationResourceManager
 ---
 
 # NtGetNotificationResourceManager function
@@ -47,31 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwGetNotificationResourceManager</b> routine retrieves the next <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-notifications">transaction notification</a> from a specified resource manager's notification queue.
-
 
 ## -parameters
 
-
-
-
 ### -param ResourceManagerHandle 
+
 [in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_GET_NOTIFICATION access to the object.
 
-
 ### -param TransactionNotification 
+
 [out]
 A pointer to a caller-allocated buffer that receives information about the retrieved notification. The buffer must be large enough to contain a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff564813(v=vs.85)">TRANSACTION_NOTIFICATION</a> structure plus additional notification-specific arguments.
 
-
 ### -param NotificationLength 
-[in]
-The length, in bytes, of the buffer that the <i>TransactionNotification </i>parameter points to. 
 
+[in]
+The length, in bytes, of the buffer that the <i>TransactionNotification </i>parameter points to.
 
 ### -param Timeout 
+
 [in]
 A pointer to a value that specifies a relative or absolute time, in units of 100 nanoseconds. This pointer is optional and can be <b>NULL</b>.
 
@@ -83,25 +79,22 @@ A positive value specifies an absolute time, which is actually relative to 00:00
 
 If the caller specifies a zero value (instead of a <b>NULL</b> pointer), <b>ZwGetNotificationResourceManager</b> returns immediately, whether a notification is available or not.
 
-
 ### -param ReturnLength 
+
 [out, optional]
 An optional pointer to a variable. If this pointer is not <b>NULL</b>, and if the <i>NotificationLength</i> parameter's value is too small, <b>ZwGetNotificationResourceManager</b> supplies the required length in the variable and returns STATUS_BUFFER_TOO_SMALL.
 
-
 ### -param Asynchronous 
-[in]
-A ULONG value that must be zero. <b>ZwGetNotificationResourceManager</b> does not support asynchronous notifications. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a> to enable asynchronous notifications. 
 
+[in]
+A ULONG value that must be zero. <b>ZwGetNotificationResourceManager</b> does not support asynchronous notifications. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a> to enable asynchronous notifications.
 
 ### -param AsynchronousContext 
+
 [in, optional]
 A pointer to a ULONG value. This pointer must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>ZwGetNotificationResourceManager</b> returns STATUS_SUCCESS if the operation succeeds and a notification is available. Otherwise, this routine might return one of the following values: 
 
@@ -170,12 +163,7 @@ The <i>NotificationLength</i> parameter's value is too small.
 
 The routine might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Use the <b>ZwGetNotificationResourceManager</b> routine to obtain notifications synchronously. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a> routine to enable asynchronous notifications. 
 
@@ -187,13 +175,7 @@ For more information about the <b>ZwGetNotificationResourceManager</b> routine, 
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff564813(v=vs.85)">TRANSACTION_NOTIFICATION</a>
 
@@ -216,7 +198,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a>
- 
-
- 
 

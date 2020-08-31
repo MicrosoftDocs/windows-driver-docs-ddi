@@ -8,9 +8,6 @@ ms.assetid: CC199F5C-BF05-4F1F-BEE4-8693F9156D8A
 ms.date: 05/07/2018
 keywords: ["UdecxWdfDeviceTryHandleUserIoctl function"]
 ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
-f1_keywords:
- - "udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl"
- - "UdecxWdfDeviceTryHandleUserIoctl"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxWdfDeviceTryHandleUserIoctl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxWdfDeviceTryHandleUserIoctl
+ - udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxWdfDeviceTryHandleUserIoctl
 ---
 
 # UdecxWdfDeviceTryHandleUserIoctl function
@@ -47,38 +47,25 @@ req.typenames:
 
 ## -description
 
-
-Attempts to handle an IOCTL request sent by a user-mode software. 
-
+Attempts to handle an IOCTL request sent by a user-mode software.
 
 ## -parameters
-
-
-
 
 ### -param UdecxWdfDevice
 
 <p>A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation"><b>UdecxWdfDeviceAddUsbDeviceEmulation</b></a>.</p>
 
-
 ### -param Request 
-[in]
-A handle to a framework request object that represents the IOCTL request. 
 
+[in]
+A handle to a framework request object that represents the IOCTL request.
 
 ## -returns
-
-
 
 TRUE indicates that USB device emulation  class extension (UdeCx) recognized and completed the request (with success or failure). In this case, the client driver must
     not complete the request. FALSE otherwise; the driver must complete the request.
 
-
-
-
 ## -remarks
-
-
 
 The UDE client driver presents itself to user-mode software as a host controller driver. The client driver registers and exposes the GUID_DEVINTERFACE_USB_HOST_CONTROLLER device interface GUID. User-mode software  can open a handle to the device by specifying that GUID. By using that handle, the software can send IOCTL requests. 
 
@@ -99,19 +86,11 @@ The UDE client driver presents itself to user-mode software as a host controller
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

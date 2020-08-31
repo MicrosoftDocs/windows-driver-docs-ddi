@@ -8,9 +8,6 @@ ms.assetid: 2a885dd5-d328-4aae-8771-613ff93b35ac
 ms.date: 04/20/2018
 keywords: ["IPrintOemDriverUI interface"]
 ms.keywords: IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], IPrintOemDriverUI interface [Print Devices],described, prcomoem/IPrintOemDriverUI, print.iprintoemdriverui_interface, print_unidrv-pscript_ui_af445d30-9f51-4759-867d-d93e9ae0bc34.xml
-f1_keywords:
- - "prcomoem/IPrintOemDriverUI"
- - "IPrintOemDriverUI"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemDriverUI
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemDriverUI
+ - prcomoem/IPrintOemDriverUI
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemDriverUI
 ---
 
 # IPrintOemDriverUI interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This section describes the methods defined for the IPrintOemDriverUI COM Interface.
-
 
 ## -inheritance
 

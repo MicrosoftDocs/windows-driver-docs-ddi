@@ -8,9 +8,6 @@ ms.assetid: a6ee1b04-7f62-452c-92b7-7325278bcd17
 ms.date: 07/24/20209
 keywords: ["FsRtlAreVolumeStartupApplicationsComplete function"]
 ms.keywords: FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers], fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, ifsk.fsrtlarevolumestartupapplicationscomplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete
-f1_keywords:
- - "ntifs/FsRtlAreVolumeStartupApplicationsComplete"
- - "FsRtlAreVolumeStartupApplicationsComplete"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlAreVolumeStartupApplicationsComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlAreVolumeStartupApplicationsComplete
+ - ntifs/FsRtlAreVolumeStartupApplicationsComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlAreVolumeStartupApplicationsComplete
 ---
 
 # FsRtlAreVolumeStartupApplicationsComplete function
+
 
 ## -description
 
@@ -66,3 +67,4 @@ To retrieve information about the volume associated with a given file, directory
 [**FltQueryVolumeInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
 
 [**ZwQueryVolumeInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile)
+

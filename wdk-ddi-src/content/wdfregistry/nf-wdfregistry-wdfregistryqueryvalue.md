@@ -8,9 +8,6 @@ ms.assetid: 1d61e35a-64c6-42e0-b20d-969ded8b9750
 ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryValue function"]
 ms.keywords: DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, WdfRegistryQueryValue, WdfRegistryQueryValue method, kmdf.wdfregistryqueryvalue, wdf.wdfregistryqueryvalue, wdfregistry/WdfRegistryQueryValue
-f1_keywords:
- - "wdfregistry/WdfRegistryQueryValue"
- - "WdfRegistryQueryValue"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRegistryQueryValue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRegistryQueryValue
+ - wdfregistry/WdfRegistryQueryValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRegistryQueryValue
 ---
 
 # WdfRegistryQueryValue function
@@ -49,50 +49,43 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryQueryValue</b> method retrieves the data that is currently assigned to a specified registry value.
 
-
 ## -parameters
 
-
-
-
 ### -param Key 
+
 [in]
 A handle to a registry-key object that represents an opened registry key.
 
-
 ### -param ValueName 
-[in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name.
 
 ### -param ValueLength 
+
 [in]
 The length, in bytes, of the buffer that <i>Value</i> points to.
 
-
 ### -param Value 
+
 [out, optional]
 A pointer to a driver-allocated buffer that receives the registry value's data. If this pointer is <b>NULL</b>, <b>WdfRegistryQueryValue</b> retrieves the data length but not the data.
 
-
 ### -param ValueLengthQueried 
+
 [out, optional]
 A pointer to a location that receives the registry value's data length. This pointer is optional and can be <b>NULL</b>.
 
-
 ### -param ValueType 
+
 [out, optional]
 A pointer to a location that receives the registry value's data type. For a list of data type values, see the <b>Type</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>. This pointer is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfRegistryQueryValue</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -175,14 +168,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
@@ -219,12 +205,7 @@ status = WdfRegistryQueryValue(
                                );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>
 
@@ -255,7 +236,4 @@ status = WdfRegistryQueryValue(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryqueryunicodestring">WdfRegistryQueryUnicodeString</a>
- 
-
- 
 

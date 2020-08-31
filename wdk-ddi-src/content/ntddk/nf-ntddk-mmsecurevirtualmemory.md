@@ -8,9 +8,6 @@ ms.assetid: e5c2d5d5-550e-42e5-b86a-f17e361925dc
 ms.date: 04/30/2018
 keywords: ["MmSecureVirtualMemory function"]
 ms.keywords: MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, ntddk/MmSecureVirtualMemory
-f1_keywords:
- - "ntddk/MmSecureVirtualMemory"
- - "MmSecureVirtualMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmSecureVirtualMemory
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - MmSecureVirtualMemory
+ - ntddk/MmSecureVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmSecureVirtualMemory
 ---
 
 # MmSecureVirtualMemory function
@@ -47,26 +47,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MmSecureVirtualMemory</b> routine secures a user-space memory address range so that it cannot be freed and its page protection cannot be made more restrictive.
-
 
 ## -parameters
 
-
-
-
 ### -param Address 
+
 [in]
 The beginning of the user virtual address range to secure.
 
-
 ### -param Size 
+
 [in]
 The size, in bytes, of the virtual address range to secure.
 
-
 ### -param ProbeMode 
+
 [in]
 Specifies the most restrictive page protection that is allowed. Use PAGE_READWRITE to specify that the address range must remain both readable and writable, or use PAGE_READONLY to specify that the address range must only remain readable.
 
@@ -76,18 +72,11 @@ Specifies the most restrictive page protection that is allowed. Use PAGE_READWRI
 <tr><td>PAGE_READONLY</td><td>Protection cannot be changed to PAGE_NOACCESS. All other protection changes are allowed.</td></tr>
 </table>
 
-
 ## -returns
-
-
 
 On success, <b>MmSecureVirtualMemory</b> returns an opaque pointer value that the driver passes to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmunsecurevirtualmemory">MmUnsecureVirtualMemory</a> routine to unsecure the memory address range. If the routine is unable to secure the memory address range, it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
 
 <b>MmSecureVirtualMemory</b> can be used to avoid certain race conditions on user-mode buffers. For example, if a driver checks to see if the buffer is writable, but then the originating user-mode process changes the buffer to be read-only before the driver can write to the buffer, then a race condition can result. The driver can use <b>MmSecureVirtualMemory</b> with PAGE_READWRITE probe mode to guarantee that the buffer will remain writable until the driver calls <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmunsecurevirtualmemory">MmUnsecureVirtualMemory</a></b>. The routine also protects against the originating user-mode process freeing the buffer. Here are a few guidelines about calling these routines:<ul>
 <li>
@@ -112,18 +101,9 @@ To detect process termination drivers can use <a href="https://docs.microsoft.co
 </ul>
 
 
-While <b>MmSecureVirtualMemory</b> can be used to guarantee that reading or writing user memory will not raise an exception due to insufficient page permissions, it does not protect against other types of exceptions. For example, it does not protect against exceptions raised when the system finds a bad disk block in the page file. Therefore, drivers must still wrap all user memory accesses in a <b>try/except</b> block. Because of this, we recommend that drivers do not use this function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>. 
-
-
-
+While <b>MmSecureVirtualMemory</b> can be used to guarantee that reading or writing user memory will not raise an exception due to insufficient page permissions, it does not protect against other types of exceptions. For example, it does not protect against exceptions raised when the system finds a bad disk block in the page file. Therefore, drivers must still wrap all user memory accesses in a <b>try/except</b> block. Because of this, we recommend that drivers do not use this function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmunsecurevirtualmemory">MmUnsecureVirtualMemory</a>
- 
-
- 
 

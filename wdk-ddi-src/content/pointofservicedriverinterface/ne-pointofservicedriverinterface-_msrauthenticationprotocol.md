@@ -8,9 +8,6 @@ ms.assetid: 6f06d03e-001e-4340-9b96-8e3654be5c1a
 ms.date: 08/21/2020
 keywords: ["MsrAuthenticationProtocol enumeration"]
 ms.keywords: MsrAuthenticationProtocol, MsrAuthenticationProtocol enumeration, MsrAuthenticationProtocolType, MsrAuthenticationProtocolType enumeration, MsrAuthenticationProtocolType_ChallengeResponse, MsrAuthenticationProtocolType_None, _MsrAuthenticationProtocol, pointofservicedriverinterface/MsrAuthenticationProtocolType, pointofservicedriverinterface/MsrAuthenticationProtocolType_ChallengeResponse, pointofservicedriverinterface/MsrAuthenticationProtocolType_None, pos.msrauthenticationprotocoltype
-f1_keywords:
- - "pointofservicedriverinterface/MsrAuthenticationProtocol"
- - "MsrAuthenticationProtocol"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- MsrAuthenticationProtocol
 targetos: Windows
 req.typenames: MsrAuthenticationProtocolType
+f1_keywords:
+ - _MsrAuthenticationProtocol
+ - pointofservicedriverinterface/_MsrAuthenticationProtocol
+ - MsrAuthenticationProtocolType
+ - pointofservicedriverinterface/MsrAuthenticationProtocolType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - MsrAuthenticationProtocol
 ---
 
 # _MsrAuthenticationProtocol enumeration
+
 
 ## -description
 
@@ -61,3 +64,4 @@ Challenge-response authentication is supported.
 
 > [!TIP]
 > Password authentication is an example of challenge-response authentication.
+

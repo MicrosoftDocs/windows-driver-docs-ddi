@@ -8,9 +8,6 @@ ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_ADD_PAGES structure"]
 ms.keywords: "*PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES"
-f1_keywords:
- - "wdm/KBUGCHECK_ADD_PAGES"
- - "KBUGCHECK_ADD_PAGES"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- KBUGCHECK_ADD_PAGES
 targetos: Windows
 req.typenames: KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES
+f1_keywords:
+ - _KBUGCHECK_ADD_PAGES
+ - wdm/_KBUGCHECK_ADD_PAGES
+ - PKBUGCHECK_ADD_PAGES
+ - wdm/PKBUGCHECK_ADD_PAGES
+ - KBUGCHECK_ADD_PAGES
+ - wdm/KBUGCHECK_ADD_PAGES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - KBUGCHECK_ADD_PAGES
 ---
 
 # _KBUGCHECK_ADD_PAGES structure
+
 
 ## -description
 
@@ -92,3 +97,4 @@ For more information about how this structure is used, see <a href="https://docs
 ## -see-also
 
  <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

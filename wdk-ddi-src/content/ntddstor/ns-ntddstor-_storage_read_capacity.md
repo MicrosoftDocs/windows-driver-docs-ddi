@@ -8,9 +8,6 @@ ms.assetid: 891F04C5-277B-4197-942E-68ED21019950
 ms.date: 03/29/2018
 keywords: ["STORAGE_READ_CAPACITY structure"]
 ms.keywords: PSTORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices], _STORAGE_READ_CAPACITY, ntddstor/PSTORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, storage.storage_read_capacity
-f1_keywords:
- - "ntddstor/STORAGE_READ_CAPACITY"
- - "STORAGE_READ_CAPACITY"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- STORAGE_READ_CAPACITY
 targetos: Windows
 req.typenames: STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
+f1_keywords:
+ - _STORAGE_READ_CAPACITY
+ - ntddstor/_STORAGE_READ_CAPACITY
+ - PSTORAGE_READ_CAPACITY
+ - ntddstor/PSTORAGE_READ_CAPACITY
+ - STORAGE_READ_CAPACITY
+ - ntddstor/STORAGE_READ_CAPACITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - STORAGE_READ_CAPACITY
 ---
 
 # _STORAGE_READ_CAPACITY structure
@@ -46,47 +50,31 @@ req.typenames: STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
 
 ## -description
 
-
-The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a> request. 
-
+The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a> request.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. Set to <b>sizeof</b>(STORAGE_READ_CAPACITY).
 
-
 ### -field Size
 
 The size of this structure. Set to <b>sizeof</b>(STORAGE_READ_CAPACITY).
-
 
 ### -field BlockLength
 
 The number of bytes per block on disk.
 
-
 ### -field NumberOfBlocks
 
 The total number of blocks on the disk.
-
 
 ### -field DiskLength
 
 The total disk size in bytes.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a>
- 
-
- 
 

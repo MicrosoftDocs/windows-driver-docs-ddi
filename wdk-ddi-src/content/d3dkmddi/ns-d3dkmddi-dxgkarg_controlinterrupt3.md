@@ -32,9 +32,10 @@ api_name:
  - _DXGKARG_CONTROLINTERRUPT3
  - DXGKARG_CONTROLINTERRUPT3
 f1_keywords:
+ - _DXGKARG_CONTROLINTERRUPT3
  - d3dkmddi/_DXGKARG_CONTROLINTERRUPT3
- - d3dkmddi//DXGKARG_CONTROLINTERRUPT3
  - DXGKARG_CONTROLINTERRUPT3
+ - d3dkmddi/DXGKARG_CONTROLINTERRUPT3
 dev_langs:
  - c++
 ---
@@ -77,3 +78,4 @@ The unique ID of the VidPnSource on which to control the VSync. This member only
 [**DXGK_INTERRUPT_TYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type)
 
 [**DxgkDdi_ControlInterrupt3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt3)
+

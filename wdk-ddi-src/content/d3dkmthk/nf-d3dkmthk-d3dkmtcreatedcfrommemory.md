@@ -7,9 +7,6 @@ ms.assetid: c02f53d9-7cf2-4420-9aea-4dba916be786
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreateDCFromMemory function"]
 ms.keywords: D3DKMTCreateDCFromMemory, D3DKMTCreateDCFromMemory callback function [Display Devices], OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, PFND3DKMT_CREATEDCFROMMEMORY, PFND3DKMT_CREATEDCFROMMEMORY callback, d3dkmthk/D3DKMTCreateDCFromMemory, display.d3dkmtcreatedcfrommemory
-f1_keywords:
- - "d3dkmthk/D3DKMTCreateDCFromMemory"
- - "D3DKMTCreateDCFromMemory"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -24,32 +21,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTCreateDCFromMemory
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTCreateDCFromMemory
+ - d3dkmthk/D3DKMTCreateDCFromMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTCreateDCFromMemory
 ---
 
 # D3DKMTCreateDCFromMemory function
 
-## -description
 
+## -description
 
 The <b>D3DKMTCreateDCFromMemory</b> function creates a display context from a specified block of memory.
 
 ## -parameters
-
 
 ### -param Arg1
 
@@ -77,7 +76,4 @@ During the execution of the <b>D3DKMTCreateDCFromMemory</b> function, the kernel
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdcfrommemory">D3DKMT_CREATEDCFROMMEMORY</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: e9dfa630-d3ac-4228-ae2a-02ff5a0fd558
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, pos.ioctl_point_of_service_claim_device
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE"
- - "IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
 ---
 
 # IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE IOCTL
+
 
 ## -description
 
@@ -83,4 +84,5 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 
 - STATUS_PENDING: The claim request was queued.
 
-This IOCTL is handled by the PosCx library. The driver writer does not need to handle this IOCTL. Instead, call [PosCxClaimDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice). If the POS device is already claimed by another client, then the POS device driver is responsible for notifying the claim owner using a [ReleaseDeviceRequested](https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790033(v=vs.85)) event and waiting for the claim owner to retain its claim within 50 milliseconds. If the claim is not reaffirmed, then the current claim owner's claim is automatically revoked and granted to the challenging client. 
+This IOCTL is handled by the PosCx library. The driver writer does not need to handle this IOCTL. Instead, call [PosCxClaimDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice). If the POS device is already claimed by another client, then the POS device driver is responsible for notifying the claim owner using a [ReleaseDeviceRequested](https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790033(v=vs.85)) event and waiting for the claim owner to retain its claim within 50 milliseconds. If the claim is not reaffirmed, then the current claim owner's claim is automatically revoked and granted to the challenging client.
+

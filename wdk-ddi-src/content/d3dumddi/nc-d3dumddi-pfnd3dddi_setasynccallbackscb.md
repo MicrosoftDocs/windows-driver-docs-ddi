@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnSetAsyncCallbacksCb"
- - "pfnSetAsyncCallbacksCb"
+ - PFND3DDDI_SETASYNCCALLBACKSCB
+ - d3dumddi/PFND3DDDI_SETASYNCCALLBACKSCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETASYNCCALLBACKSCB callback function
+
 
 ## -description
 

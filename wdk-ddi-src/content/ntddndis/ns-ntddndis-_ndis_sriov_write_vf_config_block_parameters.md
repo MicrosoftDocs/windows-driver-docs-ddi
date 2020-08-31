@@ -8,9 +8,6 @@ ms.assetid: bcf20a21-46a8-41e6-ae6e-bef8d6735c82
 ms.date: 05/02/2018
 keywords: ["NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_write_vf_config_block_parameters, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS"
- - "NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+f1_keywords:
+ - _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+ - ntddndis/_NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+ - PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+ - ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+ - NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+ - ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 ---
 
 # _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_WRITE_V
 
 ## -description
 
-
 The <b>NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS</b> structure specifies the parameters for a write operation on the configuration block of a network adapter's PCI Express (PCIe) Virtual Function (VF). These parameters are used for the backchannel communication between the VF and the PCIe Physical Function (PF) miniport drivers.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -71,7 +70,6 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1.
 
-
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
@@ -88,20 +86,15 @@ A ULONG value that specifies the identifier of the VF configuration block to be 
 
 For more information, see the Remarks section.
 
-
 ### -field Length
 
 A ULONG value that specifies the length, in units of bytes, of the write operation.
-
 
 ### -field BufferOffset
 
 A ULONG value that specifies the offset, in units of bytes, from the beginning of this structure to a buffer that contains the data to be written to the specified VF configuration block.
 
-
 ## -remarks
-
-
 
  The <b>NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS</b> structure is used in an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-write-vf-config-block">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>. 
 
@@ -125,13 +118,7 @@ This operating system runs within the Hyper-V parent partition.
 <div> </div>
 For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sr-iov-pf-vf-backchannel-communication">SR-IOV PF/VF Backchannel Communication</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -142,7 +129,4 @@ For more information about backchannel communication within the single root I/O 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-write-vf-config-block">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
- 
-
- 
 

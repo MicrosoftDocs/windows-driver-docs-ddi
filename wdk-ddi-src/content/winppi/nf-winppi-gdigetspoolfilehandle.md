@@ -8,9 +8,6 @@ ms.assetid: c820ee94-29c2-4478-884c-49dd68cd713a
 ms.date: 04/20/2018
 keywords: ["GdiGetSpoolFileHandle function"]
 ms.keywords: GdiGetSpoolFileHandle, GdiGetSpoolFileHandle function [Print Devices], gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, print.gdigetspoolfilehandle, winppi/GdiGetSpoolFileHandle
-f1_keywords:
- - "winppi/GdiGetSpoolFileHandle"
- - "GdiGetSpoolFileHandle"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GdiGetSpoolFileHandle
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GdiGetSpoolFileHandle
+ - winppi/GdiGetSpoolFileHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GdiGetSpoolFileHandle
 ---
 
 # GdiGetSpoolFileHandle function
@@ -48,42 +48,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>GdiGetSpoolFileHandle</b> function returns a handle to a print job's EMF file.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszPrinterName
 
 Caller-supplied pointer to a string representing the name of the target printer. See the following Remarks section.
 
-
 ### -param pDevmode
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. See the following Remarks section.
-
 
 ### -param pwszDocName
 
 Caller-supplied pointer to the print job's document name. See the following Remarks section.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns a spool file handle. Otherwise the function returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GdiGetSpoolFileHandle</b> function is exported by gdi32.dll for use within a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
 
@@ -131,16 +116,7 @@ A print processor must call the <b>GdiGetSpoolFileHandle</b> function before cal
 
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdideletespoolfilehandle">GdiDeleteSpoolFileHandle</a>
- 
-
- 
 

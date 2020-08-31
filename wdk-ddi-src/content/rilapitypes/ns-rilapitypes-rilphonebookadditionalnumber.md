@@ -8,9 +8,6 @@ ms.assetid: f90af220-6e48-49dd-b785-55da37894906
 ms.date: 05/02/2018
 keywords: ["RILPHONEBOOKADDITIONALNUMBER structure"]
 ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumber, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBER"
-f1_keywords:
- - "rilapitypes/RILPHONEBOOKADDITIONALNUMBER"
- - "RILPHONEBOOKADDITIONALNUMBER"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILPHONEBOOKADDITIONALNUMBER
 targetos: Windows
 req.typenames: RILPHONEBOOKADDITIONALNUMBER, *LPRILPHONEBOOKADDITIONALNUMBER
+f1_keywords:
+ - RILPHONEBOOKADDITIONALNUMBER
+ - rilapitypes/RILPHONEBOOKADDITIONALNUMBER
+ - LPRILPHONEBOOKADDITIONALNUMBER
+ - rilapitypes/LPRILPHONEBOOKADDITIONALNUMBER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILPHONEBOOKADDITIONALNUMBER
 ---
 
 # RILPHONEBOOKADDITIONALNUMBER structure
@@ -46,23 +48,15 @@ req.typenames: RILPHONEBOOKADDITIONALNUMBER, *LPRILPHONEBOOKADDITIONALNUMBER
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field raAddress
-
 
 ### -field dwNumId
 

@@ -7,9 +7,6 @@ ms.assetid: d5f0a089-c6cb-444d-a959-ee8a5a024ea7
 ms.date: 05/10/2018
 keywords: ["D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 structure"]
 ms.keywords: D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, display.d3d12ddiarg-open-protected-resource-session-0030
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030"
- - "D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030
+f1_keywords:
+ - D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030
+ - d3d12umddi/D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030
 ---
 
 # D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 structure
@@ -46,19 +46,13 @@ req.typenames: D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030
 
 ## -description
 
-
 Opens a protected resource session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pPrivateDriverData
 
 The private driver data.
-
 
 ### -field PrivateDriverDataSize
 

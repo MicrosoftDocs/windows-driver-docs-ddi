@@ -8,9 +8,6 @@ ms.assetid: 39653A36-FFED-4F6A-9365-17E9D35DB46E
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_PRESHUTDOWN_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/PNDIS_WWAN_PRESHUTDOWN_STATE, netvista.ndis_wwan_preshutdown_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE"
- - "NDIS_WWAN_PRESHUTDOWN_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_PRESHUTDOWN_STATE
 targetos: Windows
 req.typenames: NDIS_WWAN_PRESHUTDOWN_STATE, *PNDIS_WWAN_PRESHUTDOWN_STATE
+f1_keywords:
+ - _NDIS_WWAN_PRESHUTDOWN_STATE
+ - ndiswwan/_NDIS_WWAN_PRESHUTDOWN_STATE
+ - PNDIS_WWAN_PRESHUTDOWN_STATE
+ - ndiswwan/PNDIS_WWAN_PRESHUTDOWN_STATE
+ - NDIS_WWAN_PRESHUTDOWN_STATE
+ - ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_PRESHUTDOWN_STATE
 ---
 
 # _NDIS_WWAN_PRESHUTDOWN_STATE structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_PRESHUTDOWN_STATE, *PNDIS_WWAN_PRESHUTDOWN_STATE
 
 ## -description
 
-
 The NDIS_WWAN_PRESHUTDOWN_STATE structure contains the pre-shutdown status.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -101,7 +100,6 @@ sizeof(NDIS_WWAN_PRESHUTDOWN_STATE)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uStatus
 
 The following table shows the possible status codes.
@@ -132,20 +130,12 @@ The modem does not support pre-shutdown notifications.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-preshutdown-state">NDIS_STATUS_WWAN_PRESHUTDOWN_STATE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>
- 
-
- 
 

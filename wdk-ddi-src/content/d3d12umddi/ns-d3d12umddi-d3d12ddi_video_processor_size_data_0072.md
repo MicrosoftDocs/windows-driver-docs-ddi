@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072
 f1_keywords:
- - d3d12umddi//D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072
  - D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072
+ - d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072
 dev_langs:
  - c++
 ---
@@ -66,3 +66,4 @@ See the [D3D Video Protected Resource Support Specification](https://microsoft.g
 ## -see-also
 
 [**D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043**](ns-d3d12umddi-d3d12ddi_video_processor_size_data_0043.md)
+

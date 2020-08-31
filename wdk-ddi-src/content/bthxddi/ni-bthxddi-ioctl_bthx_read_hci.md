@@ -8,9 +8,6 @@ ms.assetid: 02CC3534-D319-40C1-A73C-DEFC1F5709F7
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_READ_HCI IOCTL"]
 ms.keywords: IOCTL_BTHX_READ_HCI, IOCTL_BTHX_READ_HCI control, IOCTL_BTHX_READ_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_read, bltooth.ioctl_bthx_read_hci, bthxddi/IOCTL_BTHX_READ_HCI
-f1_keywords:
- - "bthxddi/IOCTL_BTHX_READ_HCI"
- - "IOCTL_BTHX_READ_HCI"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BthXDDI.h
-api_name:
-- IOCTL_BTHX_READ_HCI
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTHX_READ_HCI
+ - bthxddi/IOCTL_BTHX_READ_HCI
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BthXDDI.h
+api_name:
+ - IOCTL_BTHX_READ_HCI
 ---
 
 # IOCTL_BTHX_READ_HCI IOCTL
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 IOCTL_BTHX_READ_HCI is used to read Bluetooth ACL Data and Events from the transport layer.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -63,11 +58,9 @@ Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/wind
 
 For more information, see the WDK Bluetooth samples.
 
-
 ### -input-buffer-length
 
 The buffer describes a UCHAR that represents the type of read. The length of the buffer is the size of the UCHAR.
-
 
 ### -output-buffer
 
@@ -76,7 +69,6 @@ Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/wind
 <code>Status = WdfRequestRetrieveOutputMemory(_Request, &ReqOutMemory);</code>
 
 For more information, see the WDK Bluetooth samples.
-
 
 ### -output-buffer-length
 
@@ -87,24 +79,9 @@ For an event packet, it is FIELD_OFFSET(BTHX_HCI_READ_WRITE_CONTEXT, Data) +257 
 
 For an ACL Data packet, it is FIELD_OFFSET(BTHX_HCI_READ_WRITE_CONTEXT, Data) + MaxAclTransferInSize where MaxAclTransferInSize is the value in BTHX_CAPABILITIES that is returned from the transport driver with IOCTL_BTHX_QUERY_CAPABILITIES.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -140,12 +117,8 @@ The IOCTL has been canceled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The input buffer points to the type of packet that is being read.
 
@@ -156,6 +129,4 @@ The <b>Information</b> member of the STATUS_BLOCK should be set to FIELD_OFFSET(
 The maximum size of the <b>Data</b> member for an ACL read is determined by <b>MaxAclTransferInSize</b>, specified in the BTHX_CAPABILITIES structure.  The maximum size of the <b>Data</b> member for an event is 255.
 
 This IOCTL should return STATUS_SUCCESS only under normal operation. Transport-specific errors should not be returned.  The IOCTL should return STATUS_CANCELLED only if this IOCTL has been canceled.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.date: 04/20/2018
 keywords: ["PrintNamedProperty structure"]
 ms.keywords: PrintNamedProperty, PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty
-f1_keywords:
- - "winspool/PrintNamedProperty"
- - "PrintNamedProperty"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winspool.h
-api_name:
-- PrintNamedProperty
 targetos: Windows
 req.typenames: PrintNamedProperty
+f1_keywords:
+ - PrintNamedProperty
+ - winspool/PrintNamedProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winspool.h
+api_name:
+ - PrintNamedProperty
 ---
 
 # PrintNamedProperty structure
@@ -46,17 +46,9 @@ req.typenames: PrintNamedProperty
 
 ## -description
 
-
-
-
-
 ## -struct-fields
 
-
-
-
 ### -field propertyName
-
 
 ### -field propertyValue
 

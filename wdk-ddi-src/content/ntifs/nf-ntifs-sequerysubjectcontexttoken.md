@@ -8,9 +8,6 @@ ms.assetid: af326cb1-446a-49b7-a381-472deb9ecc82
 ms.date: 04/16/2018
 keywords: ["SeQuerySubjectContextToken macro"]
 ms.keywords: SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml
-f1_keywords:
- - "ntifs/SeQuerySubjectContextToken"
- - "SeQuerySubjectContextToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- SeQuerySubjectContextToken
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeQuerySubjectContextToken
+ - ntifs/SeQuerySubjectContextToken
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - SeQuerySubjectContextToken
 ---
 
 # SeQuerySubjectContextToken macro
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeQuerySubjectContextToken</b> macro retrieves the access token for a security subject context.
-
 
 ## -parameters
 
-
-
-
 ### -param SubjectContext 
+
 [in]
 Pointer to the subject context to query.
 
-
 ## -remarks
-
-
 
 The access token pointer returned by <b>SeQuerySubjectContextToken</b> can be passed to <b>SeQueryInformationToken</b>. 
 
@@ -70,13 +63,7 @@ The access token pointer returned by <b>SeQuerySubjectContextToken</b> can be pa
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceimpersonationtoken">PsDereferenceImpersonationToken</a>
 
@@ -103,7 +90,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisrestricted">SeTokenIsRestricted</a>
- 
-
- 
 

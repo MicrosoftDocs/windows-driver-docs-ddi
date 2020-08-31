@@ -8,38 +8,38 @@ ms.assetid: 02A86A3E-D543-4F0F-9985-7D42F381F8F1
 ms.date: 02/24/2018
 keywords: ["GET_VIRTUAL_FUNCTION_PROBED_BARS callback"]
 ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
-f1_keywords:
- - "wdm/GetVirtualFunctionProbedBars"
- - "GetVirtualFunctionProbedBars"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- GetVirtualFunctionProbedBars
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
+f1_keywords:
+ - GET_VIRTUAL_FUNCTION_PROBED_BARS
+ - wdm/GET_VIRTUAL_FUNCTION_PROBED_BARS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - GetVirtualFunctionProbedBars
 ---
 
 # GET_VIRTUAL_FUNCTION_PROBED_BARS callback
@@ -47,38 +47,20 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> returns the BAR values that were reported by the device after a query that was performed by the PCI bus driver. This query determines the memory or I/O address space that is required by the device.
 
-
-## -prototype
-
-
-```cpp
-GET_VIRTUAL_FUNCTION_PROBED_BARS GetVirtualFunctionProbedBars;
-
-NTSTATUS GetVirtualFunctionProbedBars(
-  _Inout_ PVOID  Context,
-  _Out_   PULONG BaseRegisterValues
-)
-{ ... }
-```
-
-
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in, out]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
-
 ### -param BaseRegisterValues 
+
 [out]
 A pointer to an array of ULONG values. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns a value for each BAR of the device.
 
@@ -87,8 +69,6 @@ A pointer to an array of ULONG values. The <a href="https://docs.microsoft.com/w
 <div> </div>
 
 ## -returns
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns one of the following NTSTATUS values:
 
@@ -120,14 +100,20 @@ The device does not support the SR-IOV interface.
 </td>
 </tr>
 </table>
- 
 
+## -prototype
 
+```cpp
+GET_VIRTUAL_FUNCTION_PROBED_BARS GetVirtualFunctionProbedBars;
 
+NTSTATUS GetVirtualFunctionProbedBars(
+  _Inout_ PVOID  Context,
+  _Out_   PULONG BaseRegisterValues
+)
+{ ... }
+```
 
 ## -remarks
-
-
 
 The PCI bus driver. which runs in the management operating system  of the Hyper-V parent partition, queries the memory or I/O address space requirements of each  BAR of the device. The PCI bus driver performs this query when the it first detects the adapter on the bus.
 
@@ -173,8 +159,6 @@ address space for each BAR after the physical device has started. At that point,
 </li>
 </ul>
 
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
@@ -186,11 +170,4 @@ address space for each BAR after the physical device has started. At that point,
 
 
 <b></b>
-
-
-
- 
-
- 
-
 

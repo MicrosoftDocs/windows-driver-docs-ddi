@@ -8,9 +8,6 @@ ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.date: 05/10/2018
 keywords: ["DDPIXELFORMAT structure"]
 ms.keywords: "*LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
-f1_keywords:
- - "ksmedia/DDPIXELFORMAT"
- - "DDPIXELFORMAT"
 req.header: ksmedia.h
 req.include-header: Ddraw.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- DDPIXELFORMAT
 targetos: Windows
 req.typenames: DDPIXELFORMAT, *LPDDPIXELFORMAT
+f1_keywords:
+ - _DDPIXELFORMAT
+ - ksmedia/_DDPIXELFORMAT
+ - LPDDPIXELFORMAT
+ - ksmedia/LPDDPIXELFORMAT
+ - DDPIXELFORMAT
+ - ksmedia/DDPIXELFORMAT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - DDPIXELFORMAT
 ---
 
 # _DDPIXELFORMAT structure
+
 
 ## -description
 
@@ -263,3 +268,4 @@ ddpf.MultiSampleCaps.wBltMSTypes = (1 << (D3DMULTISAMPLE_4_SAMPLES âˆ’ 1));
 ```
 
 It is not necessary to specify 1 << (D3DMULTISAMPLE_NONE - 1) when reporting formats. It is assumed that any format reported can also be used without multisampling. If the hardware supports multisample rendering with a z-buffer the z-buffer formats reported should also include the supported samples-per-pixels.
+

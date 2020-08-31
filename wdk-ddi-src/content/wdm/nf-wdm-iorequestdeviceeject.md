@@ -8,9 +8,6 @@ ms.assetid: ceaa6793-43ba-4998-827e-8a2c7c892e50
 ms.date: 04/30/2018
 keywords: ["IoRequestDeviceEject function"]
 ms.keywords: IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, kernel.iorequestdeviceeject, wdm/IoRequestDeviceEject
-f1_keywords:
- - "wdm/IoRequestDeviceEject"
- - "IoRequestDeviceEject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoRequestDeviceEject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoRequestDeviceEject
+ - wdm/IoRequestDeviceEject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoRequestDeviceEject
 ---
 
 # IoRequestDeviceEject function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoRequestDeviceEject</b> routine notifies the PnP manager that the device eject button was pressed. 
-
+The <b>IoRequestDeviceEject</b> routine notifies the PnP manager that the device eject button was pressed.
 
 ## -parameters
 
-
-
-
 ### -param PhysicalDeviceObject 
-[in]
-Pointer to the PDO for the device. 
 
+[in]
+Pointer to the PDO for the device.
 
 ## -remarks
-
-
 
 Note that this routine reports a request for device eject, not media eject.
 
@@ -118,15 +111,9 @@ When a device is ejected, its child devices are physically removed from the syst
 
 A user-mode application can initiate a device eject. In that case, no driver calls this routine but the operating system calls the PnP manager to initiate the steps listed above.
 
-Callers of <b>IoRequestDeviceEject</b> must be running at IRQL <= DISPATCH_LEVEL. The PnP manager performs most of its device-eject tasks listed above at IRQL = PASSIVE_LEVEL. 
-
-
-
+Callers of <b>IoRequestDeviceEject</b> must be running at IRQL <= DISPATCH_LEVEL. The PnP manager performs most of its device-eject tasks listed above at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-eject">IRP_MN_EJECT</a>
 
@@ -141,7 +128,4 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL <= DISPATCH_LEVEL
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a>
- 
-
- 
 

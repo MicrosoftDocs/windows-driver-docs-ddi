@@ -8,9 +8,6 @@ ms.assetid: c221862f-99db-4815-812f-8b22b46fff4a
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE, IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE control, IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE, pos.ioctl_point_of_service_retain_device
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE"
- - "IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE
 ---
 
 # IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE IOCTL
+
 
 ## -description
 
@@ -84,3 +85,4 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 This IOCTL only works if the client has previously called [IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device).
 
 When handling this IOCTL, the driver can call [PosCxRetainDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxretaindevice). The driver writer does not need to handle claim contention because the PosCx library determines who gets the claim.
+

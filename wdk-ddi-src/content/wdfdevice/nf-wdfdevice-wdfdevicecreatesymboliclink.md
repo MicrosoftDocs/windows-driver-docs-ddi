@@ -8,9 +8,6 @@ ms.assetid: c22035a2-8ceb-42e9-9d54-8997ce0dd8da
 ms.date: 02/26/2018
 keywords: ["WdfDeviceCreateSymbolicLink function"]
 ms.keywords: DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, WdfDeviceCreateSymbolicLink, WdfDeviceCreateSymbolicLink method, kmdf.wdfdevicecreatesymboliclink, wdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink
-f1_keywords:
- - "wdfdevice/WdfDeviceCreateSymbolicLink"
- - "WdfDeviceCreateSymbolicLink"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceCreateSymbolicLink
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceCreateSymbolicLink
+ - wdfdevice/WdfDeviceCreateSymbolicLink
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceCreateSymbolicLink
 ---
 
 # WdfDeviceCreateSymbolicLink function
@@ -49,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceCreateSymbolicLink</b> method creates a symbolic link to a specified device.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param SymbolicLinkName 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a user-visible name for the device.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the <b>WdfDeviceCreateSymbolicLink</b> returns STATUS_SUCCCESS. Additional return values include:
 
@@ -99,12 +92,7 @@ The method might return other <a href="https://docs.microsoft.com/windows-hardwa
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 If a driver creates a symbolic link for a device, applications can use the symbolic link name to access the device. Typically, instead of providing symbolic links, framework-based drivers provide <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">device interfaces</a> that applications can use to access their devices.
 
@@ -145,16 +133,7 @@ if (!NT_SUCCESS(status)) {
 ```
 For information about global and local <b>\DosDevices</b> namespaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/local-and-global-ms-dos-device-names">Local and Global MS-DOS Device Names</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

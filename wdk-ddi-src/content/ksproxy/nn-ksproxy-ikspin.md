@@ -8,9 +8,6 @@ ms.assetid: 4717300c-bc98-4e1f-83c3-cbd368b45140
 ms.date: 04/23/2018
 keywords: ["IKsPin interface"]
 ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices],described, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml, stream.ikspin
-f1_keywords:
- - "ksproxy/IKsPin"
- - "IKsPin"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPin
-- IKsPin.KsReceiveAllocator
-- IKsPin.KsRenegotiateAllocator
-- IKsPin.KsQualityNotify
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPin
+ - ksproxy/IKsPin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPin
+ - IKsPin.KsReceiveAllocator
+ - IKsPin.KsRenegotiateAllocator
+ - IKsPin.KsQualityNotify
 ---
 
 # IKsPin interface
@@ -49,11 +49,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>IKsPin</b> interface provides methods that control and retrieve information about a pin.
 
 The IID for this interface is IID_IKsPin.
-
 
 ## -inheritance
 
@@ -64,21 +62,9 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPin</b> interface inherit
 
 ## -remarks
 
-
-
-An interface handler (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type. 
-    
-
-
-
+An interface handler (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>
- 
-
- 
 

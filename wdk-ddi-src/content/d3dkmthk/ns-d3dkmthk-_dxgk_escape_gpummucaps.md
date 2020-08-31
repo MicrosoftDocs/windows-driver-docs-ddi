@@ -5,39 +5,42 @@ description: The GPU memory management capabilities.
 ms.assetid: c1ab6b76-d6f8-4ea6-83a1-94f392208502
 ms.date: 10/19/2018
 keywords: ["DXGK_ESCAPE_GPUMMUCAPS structure"]
-f1_keywords:
- - "d3dkmthk/_DXGK_ESCAPE_GPUMMUCAPS"
- - "_DXGK_ESCAPE_GPUMMUCAPS"
-ms.keywords: _DXGK_ESCAPE_GPUMMUCAPS, DXGK_ESCAPE_GPUMMUCAPS, 
+ms.keywords: _DXGK_ESCAPE_GPUMMUCAPS, DXGK_ESCAPE_GPUMMUCAPS,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_ESCAPE_GPUMMUCAPS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _DXGK_ESCAPE_GPUMMUCAPS
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _DXGK_ESCAPE_GPUMMUCAPS
+ - d3dkmthk/_DXGK_ESCAPE_GPUMMUCAPS
+ - DXGK_ESCAPE_GPUMMUCAPS
+ - d3dkmthk/DXGK_ESCAPE_GPUMMUCAPS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _DXGK_ESCAPE_GPUMMUCAPS
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _DXGK_ESCAPE_GPUMMUCAPS structure
+
 
 ## -description
 
@@ -54,7 +57,7 @@ Read-only memory is supported.
 No execute memory is supported.
 
 ### -field ZeroInPteSupported
- 
+
 ### -field CacheCoherentMemorySupported
 
 Cache coherent memory is supported.
@@ -80,9 +83,11 @@ The virtual address bit count.
 The number of page table levels supported.
 
 ### -field PageTableLevelDesk
+
  
 The page table level descriptions.
 
 ## -remarks
 
 ## -see-also
+

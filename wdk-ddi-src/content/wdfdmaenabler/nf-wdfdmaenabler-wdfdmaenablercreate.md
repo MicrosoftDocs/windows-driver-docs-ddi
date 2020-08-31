@@ -8,9 +8,6 @@ ms.assetid: 750c9293-7662-41e0-9a2a-5c19e49ad20e
 ms.date: 02/26/2018
 keywords: ["WdfDmaEnablerCreate function"]
 ms.keywords: DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, WdfDmaEnablerCreate, WdfDmaEnablerCreate method, kmdf.wdfdmaenablercreate, wdf.wdfdmaenablercreate, wdfdmaenabler/WdfDmaEnablerCreate
-f1_keywords:
- - "wdfdmaenabler/WdfDmaEnablerCreate"
- - "WdfDmaEnablerCreate"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDmaEnablerCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDmaEnablerCreate
+ - wdfdmaenabler/WdfDmaEnablerCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDmaEnablerCreate
 ---
 
 # WdfDmaEnablerCreate function
@@ -47,40 +47,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDmaEnablerCreate</b> method creates a DMA enabler object. 
-
+The <b>WdfDmaEnablerCreate</b> method creates a DMA enabler object.
 
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param Config 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a> structure. Drivers must initialize this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdf_dma_enabler_config_init">WDF_DMA_ENABLER_CONFIG_INIT</a>.
 
-
 ### -param Attributes 
-[in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new DMA enabler object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new DMA enabler object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param DmaEnablerHandle 
-[out]
-A handle to a new DMA enabler object.  
 
+[out]
+A handle to a new DMA enabler object.
 
 ## -returns
-
-
 
 <b>WdfDmaEnablerCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values.
 
@@ -146,14 +139,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Framework-based drivers must call <b>WdfDmaEnablerCreate</b> before creating DMA transactions for a device.
 
@@ -203,12 +189,7 @@ WdfDeviceSetAlignmentRequirement(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a>
 
@@ -223,7 +204,4 @@ WdfDeviceSetAlignmentRequirement(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetalignmentrequirement">WdfDeviceSetAlignmentRequirement</a>
- 
-
- 
 

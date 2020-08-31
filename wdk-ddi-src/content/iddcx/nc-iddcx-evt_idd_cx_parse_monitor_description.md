@@ -8,9 +8,6 @@ ms.assetid: b195cd68-fedc-436d-8afd-5e33ccb96344
 ms.date: 07/31/2020
 keywords: ["EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION callback function"]
 ms.keywords: EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION, EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION callback, EvtIddCxParseMonitorDescription, EvtIddCxParseMonitorDescription callback function [Display Devices], PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION, PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION callback function pointer [Display Devices], display.evt_idd_cx_parse_monitor_description, iddcx/EvtIddCxParseMonitorDescription
-f1_keywords:
- - "iddcx/PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION"
- - "PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- iddcx.h
-api_name:
-- PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION
+ - iddcx/EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - iddcx.h
+api_name:
+ - PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION
 ---
 
 # EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION callback function
+
 
 ## -description
 
@@ -60,3 +61,4 @@ req.typenames:
 ## -returns
 
 If the operation is successful, **EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION** must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, the driver should return an appropriate NTSTATUS error code.
+

@@ -8,9 +8,6 @@ ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::GetNumberModules"]
 ms.keywords: GetNumberModules, GetNumberModules method [Windows Debugging], GetNumberModules method [Windows Debugging],IDebugSymbols interface, GetNumberModules method [Windows Debugging],IDebugSymbols2 interface, GetNumberModules method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNumberModules method, IDebugSymbols.GetNumberModules, IDebugSymbols2 interface [Windows Debugging],GetNumberModules method, IDebugSymbols2::GetNumberModules, IDebugSymbols3 interface [Windows Debugging],GetNumberModules method, IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols::GetNumberModules, debugger.getnumbermodules
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetNumberModules"
- - "IDebugSymbols.GetNumberModules"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetNumberModules
-- IDebugSymbols2.GetNumberModules
-- IDebugSymbols3.GetNumberModules
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols::GetNumberModules
+ - dbgeng/IDebugSymbols::GetNumberModules
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetNumberModules
+ - IDebugSymbols2.GetNumberModules
+ - IDebugSymbols3.GetNumberModules
 ---
 
 # IDebugSymbols::GetNumberModules
@@ -48,28 +48,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetNumberModules</b> method returns the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">modules</a> in the current process's module list.
-
 
 ## -parameters
 
-
-
-
 ### -param Loaded 
+
 [out]
 Receives the number of loaded modules in the current process's module list.
 
-
 ### -param Unloaded 
+
 [out]
 Receives the number of unloaded modules in the current process's module list. This number will be zero if the version of Microsoft Windows running on the target computer does not track unloaded modules.
 
-
 ## -returns
-
-
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -90,14 +83,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The list of loaded and unloaded modules is maintained by Windows.  The engine caches a copy of this list, but it may become out of date.  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-reload">Reload</a> can be used to synchronize the engine's copy of the list with the list maintained by Windows.
 
@@ -105,13 +92,7 @@ The unloaded modules are not tracked in all versions of Windows.  Unloaded modul
 
 For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebyindex">GetModuleByIndex</a>
 
@@ -126,7 +107,4 @@ For more information about modules, see <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

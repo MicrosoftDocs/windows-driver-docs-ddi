@@ -5,37 +5,37 @@ tech.root: kernel
 ms.date: 05/12/2020
 ms.topic: language-reference
 targetos: Windows
-description:
-req.assembly:
+description: 
+req.assembly: 
 req.construct-type: function
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
-req.idl:
+req.idl: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-req.kmdf-ver:
+req.kmdf-ver: 
 req.lib: NtosKrnl.lib
-req.max-support:
-req.namespace:
-req.redist:
+req.max-support: 
+req.namespace: 
+req.redist: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.target-type: Universal
-req.type-library:
-req.umdf-ver:
-req.unicode-ansi:
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePool2
 f1_keywords:
- - wdm//ExAllocatePool2
  - ExAllocatePool2
+ - wdm/ExAllocatePool2
 dev_langs:
  - c++
 ---
@@ -100,3 +100,4 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, **ExAllocateP
 ## -see-also
 
 [**ExAllocatePool3**](nf-wdm-exallocatepool3.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 3bcaaf63-adff-4559-9e34-eae089dff6f8
 ms.date: 05/02/2018
 keywords: ["RILREMOTEPARTYINFO structure"]
 ms.keywords: "*LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo, ntddrilapitypes/RILREMOTEPARTYINFO"
-f1_keywords:
- - "ntddrilapitypes/RILREMOTEPARTYINFO"
- - "RILREMOTEPARTYINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILREMOTEPARTYINFO
 targetos: Windows
 req.typenames: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
+f1_keywords:
+ - RILREMOTEPARTYINFO
+ - ntddrilapitypes/RILREMOTEPARTYINFO
+ - LPRILREMOTEPARTYINFO
+ - ntddrilapitypes/LPRILREMOTEPARTYINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILREMOTEPARTYINFO
 ---
 
 # RILREMOTEPARTYINFO structure
@@ -46,38 +48,25 @@ req.typenames: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field raAddress
 
-
 ### -field rsaSubAddress
-
 
 ### -field wszDescription
 
-
 ### -field dwNumberPresentationIndicator
 
-
 ### -field dwNamePresentationIndicator
-
 
 ### -field dwID
 

@@ -8,9 +8,6 @@ ms.assetid: 1a9a04f4-1260-4773-9c94-963fc0844ccb
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,INT,PLONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,INT  ,PLONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(LONG,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_long__list_, wiauFncs_6438ee42-db48-4c58-8414-5dee8fe186ef.xml, wiautil/CWiauPropertyList::SetValidValues
-f1_keywords:
- - "wiautil/CWiauPropertyList.SetValidValues"
- - "CWiauPropertyList.SetValidValues"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.SetValidValues
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - CWiauPropertyList::SetValidValues
+ - wiautil/CWiauPropertyList::SetValidValues
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.SetValidValues
 ---
 
 # CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)
+
 
 ## -description
 
@@ -79,3 +80,4 @@ Points to the first property in the property list. This pointer must remain vali
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
 [CWiauPropertyList::SetValidValues(LONG, range)](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_long_long_long))
+

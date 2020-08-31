@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamMirror"
- - "pfnVideoProcessorSetStreamMirror"
+ - PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback function
+
 
 ## -description
 

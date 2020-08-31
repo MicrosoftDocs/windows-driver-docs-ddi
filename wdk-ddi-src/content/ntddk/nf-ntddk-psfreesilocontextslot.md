@@ -8,9 +8,6 @@ ms.assetid: 659B92A6-8582-468F-8CDD-119832A95230
 ms.date: 04/30/2018
 keywords: ["PsFreeSiloContextSlot function"]
 ms.keywords: PsFreeSiloContextSlot, PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psfreesilocontextslot, ntddk/PsFreeSiloContextSlot
-f1_keywords:
- - "ntddk/PsFreeSiloContextSlot"
- - "PsFreeSiloContextSlot"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsFreeSiloContextSlot
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsFreeSiloContextSlot
+ - ntddk/PsFreeSiloContextSlot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsFreeSiloContextSlot
 ---
 
 # PsFreeSiloContextSlot function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 This routine  frees the specified slot and makes it available in the system. It undoes the effects of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
-
 
 ## -parameters
 
-
-
-
 ### -param ContextSlot 
+
 [in]
 A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine. 
 
@@ -63,8 +59,6 @@ A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/dri
 <div> </div>
 
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -96,18 +90,8 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a>
- 
-
- 
 

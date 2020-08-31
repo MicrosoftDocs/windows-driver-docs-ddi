@@ -8,9 +8,6 @@ ms.assetid: 686bc6e0-7455-4b86-93ce-09b7c7d60240
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_RESERVED structure"]
 ms.keywords: "*PFEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED structure [Storage Devices], PFEATURE_DATA_RESERVED, PFEATURE_DATA_RESERVED structure pointer [Storage Devices], _FEATURE_DATA_RESERVED, ntddmmc/FEATURE_DATA_RESERVED, ntddmmc/PFEATURE_DATA_RESERVED, storage.feature_data_reserved, structs-CD-ROM_4fc9f24f-2488-493d-8e63-2e4c8a3ab879.xml"
-f1_keywords:
- - "ntddmmc/FEATURE_DATA_RESERVED"
- - "FEATURE_DATA_RESERVED"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddmmc.h
-api_name:
-- FEATURE_DATA_RESERVED
 targetos: Windows
 req.typenames: FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED
+f1_keywords:
+ - _FEATURE_DATA_RESERVED
+ - ntddmmc/_FEATURE_DATA_RESERVED
+ - PFEATURE_DATA_RESERVED
+ - ntddmmc/PFEATURE_DATA_RESERVED
+ - FEATURE_DATA_RESERVED
+ - ntddmmc/FEATURE_DATA_RESERVED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddmmc.h
+api_name:
+ - FEATURE_DATA_RESERVED
 ---
 
 # _FEATURE_DATA_RESERVED structure
@@ -46,45 +50,27 @@ req.typenames: FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED
 
 ## -description
 
-
-The FEATURE_DATA_RESERVED structure holds information about an unspecified feature. 
-
+The FEATURE_DATA_RESERVED structure holds information about an unspecified feature.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
-
+Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 ### -field Data
 
-Contains an array describing unspecified feature structure members. 
-
+Contains an array describing unspecified feature structure members.
 
 ## -remarks
 
-
-
-You can use this structure to access the data of any feature structure as though it were a simple character array.  
-
-
-
+You can use this structure to access the data of any feature structure as though it were a simple character array.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
- 
-
- 
 

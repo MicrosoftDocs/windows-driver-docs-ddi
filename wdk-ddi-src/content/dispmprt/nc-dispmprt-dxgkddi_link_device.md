@@ -8,9 +8,6 @@ ms.assetid: fb9b7c58-1c4f-42e4-a59f-4a529d3caca2
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_LINK_DEVICE callback function"]
 ms.keywords: DXGKDDI_LINK_DEVICE, DXGKDDI_LINK_DEVICE callback, DmFunctions_3dcba945-b441-49a2-9d1e-af0ff235136c.xml, DxgkDdiLinkDevice, DxgkDdiLinkDevice callback function [Display Devices], display.dxgkddilinkdevice, dispmprt/DxgkDdiLinkDevice
-f1_keywords:
- - "dispmprt/DxgkDdiLinkDevice"
- - "DxgkDdiLinkDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiLinkDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_LINK_DEVICE
+ - dispmprt/DXGKDDI_LINK_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiLinkDevice
 ---
 
 # DXGKDDI_LINK_DEVICE callback function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
-The optional <i>DxgkDdiLinkDevice</i> function queries the display miniport driver for information on the linked adapter configuration. 
-
+The optional <i>DxgkDdiLinkDevice</i> function queries the display miniport driver for information on the linked adapter configuration.
 
 ## -parameters
 
-
-
-
 ### -param PhysicalDeviceObject 
+
 [in]
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
-
 ### -param MiniportDeviceContext 
+
 [in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-
 ### -param LinkedDevice 
+
 [in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_linked_device">LINKED_DEVICE</a> structure that contains information on the linked display adapter configuration.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiLinkDevice</i> returns STATUS_SUCCESS, or an appropriate error code if information on the linked adapter configuration cannot be obtained.
 
-
-
-
 ## -remarks
-
-
 
 The <i>DxgkDdiLinkDevice</i> function should be implemented by drivers of display adapters that support linked display adapters.
 
@@ -93,20 +81,11 @@ The driver can enumerate only one leading link in the chain of linked display ad
 
 Plug and Play or power events cause the leading linked adapter to power up or start after the remaining linked adapters, or, conversely, such events cause the leading linked adapter to power down or to be disabled before the remaining linked adapters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_linked_device">LINKED_DEVICE</a>
- 
-
- 
 

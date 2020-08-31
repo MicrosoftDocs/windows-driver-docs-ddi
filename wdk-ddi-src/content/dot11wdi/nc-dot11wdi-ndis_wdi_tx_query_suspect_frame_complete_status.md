@@ -6,64 +6,43 @@ tech.root: netvista
 ms.assetid: b3a6744f-f739-4dcc-b995-482875e552b0
 ms.date: 04/02/2018
 keywords: ["NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS callback function"]
-f1_keywords:
- - "dot11wdi/NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS"
- - "NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS"
 req.header: dot11wdi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- dot11wdi.h
-api_name: 
-- NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
 targetos: Windows
+f1_keywords:
+ - NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
+ - dot11wdi/NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
 ---
 
 # NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS callback function
 
+
 ## -description
 
 The *TxQuerySuspectFrameStatus* callback function is implemented by the IHV miniport to query the status of a suspect frame.
-
-## -prototype
-
-```cpp
-//Declaration
-
-NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS NdisWdiTxQuerySuspectFrameCompleteStatus; 
-
-// Definition
-
-void NdisWdiTxQuerySuspectFrameCompleteStatus 
-(
-	NDIS_HANDLE NdisMiniportDataPathHandle
-	UINT64 SuspectFrameContext
-	PNET_BUFFER_LIST pNBL
-	BOOLEAN *pIsTransferCompleteNeeded
-	BOOLEAN *pIsSendCompleteNeeded
-	NDIS_STATUS *pWifiStatus
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -91,6 +70,28 @@ A pointer to a BOOLEAN value that indicates if the frame requires the send compl
 
 A pointer to the status set by the IHV miniport to indicate the result of *TxQuerySuspectFrameStatus*.
 
+## -prototype
+
+```cpp
+//Declaration
+
+NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS NdisWdiTxQuerySuspectFrameCompleteStatus; 
+
+// Definition
+
+void NdisWdiTxQuerySuspectFrameCompleteStatus 
+(
+	NDIS_HANDLE NdisMiniportDataPathHandle
+	UINT64 SuspectFrameContext
+	PNET_BUFFER_LIST pNBL
+	BOOLEAN *pIsTransferCompleteNeeded
+	BOOLEAN *pIsSendCompleteNeeded
+	NDIS_STATUS *pWifiStatus
+)
+{...}
+
+```
+
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of the [NDIS_WDI_DATA_API](ns-dot11wdi-_ndis_wdi_data_api.md) structure.
@@ -98,3 +99,4 @@ Register your implementation of this callback function by setting the appropriat
 This callback is typically called from the context of the [*TxSuspectFrameListAbort*](nc-dot11wdi-miniport_wdi_tx_suspect_frame_list_abort.md) callback function.
 
 ## -see-also
+

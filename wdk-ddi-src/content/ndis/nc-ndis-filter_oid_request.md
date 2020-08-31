@@ -8,9 +8,6 @@ ms.assetid: 238bfa21-a971-4fe4-a774-6ba834efc3c5
 ms.date: 05/02/2018
 keywords: ["FILTER_OID_REQUEST callback function"]
 ms.keywords: FILTER_OID_REQUEST, FILTER_OID_REQUEST callback, FilterOidRequest, FilterOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequest, ndis_request_ref_51917752-44c8-4065-a26c-fc466de932bf.xml, netvista.filteroidrequest
-f1_keywords:
- - "ndis/FilterOidRequest"
- - "FilterOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_OID_REQUEST
+ - ndis/FILTER_OID_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterOidRequest
 ---
 
 # FILTER_OID_REQUEST callback function
 
 
 ## -description
-
 
 NDIS calls a filter driver's 
   <i>FilterOidRequest</i> function to process an OID request that is associated with the specified filter
@@ -55,17 +54,15 @@ NDIS calls a filter driver's
 
 ## -parameters
 
-
-
-
 ### -param FilterModuleContext 
+
 [in]
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ### -param OidRequest 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
@@ -73,10 +70,7 @@ A pointer to an
      about OIDs, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
-
 ## -returns
-
-
 
 <i>FilterOidRequest</i> returns one of the following status values:
 
@@ -211,14 +205,8 @@ For a set operation, the data supplied in the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>FilterOidRequest</i> is an optional function. If a filter driver does not use OID requests, it can set
     the entry point for this function to <b>NULL</b> when it calls the 
@@ -300,15 +288,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -331,7 +313,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>
- 
-
- 
 

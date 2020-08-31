@@ -8,9 +8,6 @@ ms.assetid: 8be20f25-d72d-4c4d-be05-abb38cdd492d
 ms.date: 04/16/2018
 keywords: ["RxCreateNetFcb function"]
 ms.keywords: RxCreateNetFCB, RxCreateNetFcb, RxCreateNetFcb function [Installable File System Drivers], fcb/RxCreateNetFcb, ifsk.rxcreatenetfcb, rxref_d5f0cde4-daba-475d-9a63-b56047cc24e2.xml
-f1_keywords:
- - "fcb/RxCreateNetFcb"
- - "RxCreateNetFcb"
 req.header: fcb.h
 req.include-header: Rxcontx.h, Mrxfcb.h, Fcb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fcb.h
-api_name:
-- RxCreateNetFcb
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCreateNetFcb
+ - fcb/RxCreateNetFcb
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fcb.h
+api_name:
+ - RxCreateNetFcb
 ---
 
 # RxCreateNetFcb function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
-<b>RxCreateNetFCB</b> allocates, initializes, and inserts a new FCB structure into the in-memory data structures for a V_NET_ROOT that this FCB is being opened on. The structure allocated has space for a SRV_OPEN and an FOBX structure. 
-
+<b>RxCreateNetFCB</b> allocates, initializes, and inserts a new FCB structure into the in-memory data structures for a V_NET_ROOT that this FCB is being opened on. The structure allocated has space for a SRV_OPEN and an FOBX structure.
 
 ## -parameters
 
-
-
-
 ### -param RxContext 
+
 [in]
 A pointer to the RX_CONTEXT structure describing a create operation.
 
-
 ### -param Irp 
+
 [in]
 A pointer to the IRP encapsulated by this RX_CONTEXT structure.
 
-
 ### -param VNetRoot 
+
 [in]
 A pointer to the V_NET_ROOT structure that this FCB is being opened on.
 
-
 ### -param Name 
+
 [in]
 The name of the FCB. The V_NET_ROOT may contain a name prefix that is to be prepended here.
 
-
 ## -returns
 
-
-
-<b>RxCreateNetFCB</b> returns a pointer to a newly allocated FCB data structure on success or a <b>NULL</b> pointer on failure. 
-
-
-
+<b>RxCreateNetFCB</b> returns a pointer to a newly allocated FCB data structure on success or a <b>NULL</b> pointer on failure.
 
 ## -remarks
-
-
 
 The <b>RxCreateNetFCB</b> routine is not normally called by network mini-redirector drivers directly. RDBSS calls this routine internally when an I/O request packet is received for IRP_MJ_CREATE and an FCB structure needs to be created. This IRP is normally received by RDBSS in response to a user-mode application requesting a file create operation on a network share. It is also possible for another kernel driver to issue such an IRP. 
 
@@ -98,15 +86,9 @@ If the FCB to be created is a not a paging file, <b>RxCreateNetFCB</b> allocates
 
 Windows does not currently allow having a paging file on a remote machine.
 
-If the <b>Create.Flags</b> member in the RX_CONTEXT has the RX_CONTEXT_CREATE_FLAG_ADDEDBACKSLASH flag on, the <b>FcbState</b> member of the FCB has the FCB_STATE_ADDEDBACKSLASH flag set on. 
-
-
-
+If the <b>Create.Flags</b> member in the RX_CONTEXT has the RX_CONTEXT_CREATE_FLAG_ADDEDBACKSLASH flag on, the <b>FcbState</b> member of the FCB has the FCB_STATE_ADDEDBACKSLASH flag set on.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
@@ -193,7 +175,4 @@ If the <b>Create.Flags</b> member in the RX_CONTEXT has the RX_CONTEXT_CREATE_FL
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-v-net-root-structure">The V_NET_ROOT Structure</a>
- 
-
- 
 

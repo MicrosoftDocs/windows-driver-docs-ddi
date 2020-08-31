@@ -8,9 +8,6 @@ ms.assetid: 746f13f5-c92d-4dae-8fd7-4c9fdfa9e044
 ms.date: 05/09/2019
 keywords: ["PFLT_FILTER_UNLOAD_CALLBACK callback function"]
 ms.keywords: FilterUnloadCallback, FilterUnloadCallback routine [Installable File System Drivers], FltCallbacks_e28b1a16-b974-493a-8ab5-7b6004d66268.xml, PFLT_FILTER_UNLOAD_CALLBACK, fltkernel/FilterUnloadCallback, ifsk.pflt_filter_unload_callback
-f1_keywords:
- - "fltkernel/FilterUnloadCallback"
- - "FilterUnloadCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- FilterUnloadCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFLT_FILTER_UNLOAD_CALLBACK
+ - fltkernel/PFLT_FILTER_UNLOAD_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - FilterUnloadCallback
 ---
 
 # PFLT_FILTER_UNLOAD_CALLBACK callback function
+
 
 ## -description
 
@@ -86,3 +87,4 @@ See [Loading and Unloading](https://docs.microsoft.com/windows-hardware/drivers/
 [FLT_REGISTRATION](ns-fltkernel-_flt_registration.md)
 
 [FltRegisterFilter](nf-fltkernel-fltregisterfilter.md)
+

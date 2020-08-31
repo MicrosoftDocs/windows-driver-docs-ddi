@@ -8,9 +8,6 @@ ms.assetid: 9bb94db6-1d0d-471f-b2a5-71ca659afcd0
 ms.date: 05/02/2018
 keywords: ["RIL_GetAllEmergencyNumbers function"]
 ms.keywords: RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getallemergencynumbers, rilapi/RIL_GetAllEmergencyNumbers
-f1_keywords:
- - "rilapi/RIL_GetAllEmergencyNumbers"
- - "RIL_GetAllEmergencyNumbers"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_GetAllEmergencyNumbers
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_GetAllEmergencyNumbers
+ - rilapi/RIL_GetAllEmergencyNumbers
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_GetAllEmergencyNumbers
 ---
 
 # RIL_GetAllEmergencyNumbers function
@@ -46,28 +46,15 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

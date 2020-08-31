@@ -8,9 +8,6 @@ ms.assetid: 66041ccb-e63a-4843-85ec-d93b924bb335
 ms.date: 05/02/2018
 keywords: ["FwpsCloneStreamData0 function"]
 ms.keywords: FwpsCloneStreamData0, FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCloneStreamData0, netvista.fwpsclonestreamdata0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml
-f1_keywords:
- - "fwpsk/FwpsCloneStreamData0"
- - "FwpsCloneStreamData0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fwpkclnt.lib
-- Fwpkclnt.dll
-api_name:
-- FwpsCloneStreamData0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsCloneStreamData0
+ - fwpsk/FwpsCloneStreamData0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fwpkclnt.lib
+ - Fwpkclnt.dll
+api_name:
+ - FwpsCloneStreamData0
 ---
 
 # FwpsCloneStreamData0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsCloneStreamData0</b> function allocates a clone of an existing 
@@ -55,26 +54,24 @@ The
 
 ## -parameters
 
-
-
-
 ### -param calloutStreamData 
+
 [in, out]
 A pointer to the original 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a> structure that is to
      have its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure cloned.
 
-
 ### -param netBufferListPoolHandle 
+
 [in, optional]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param netBufferPoolHandle 
+
 [in, optional]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> pool handle that was obtained from a
@@ -82,23 +79,20 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
      NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param allocateCloneFlags 
+
 [in]
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
-
 ### -param netBufferListChain 
+
 [out]
 A pointer to a location that receives a pointer to a chain of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that describe
      all of the cloned stream data.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsCloneStreamData0</b> function returns one of the following NTSTATUS codes.
@@ -133,14 +127,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This cloned stream data can be injected by a callout driver into the TCP/IP network stack at a later
     time.
@@ -165,13 +153,7 @@ A callout should call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsdiscardclonedstreamdata0">FwpsDiscardClonedStreamData0</a> function if the cloned stream data is to be discarded without being
     reinjected.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a>
 
@@ -194,7 +176,4 @@ A callout should call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
- 
-
- 
 

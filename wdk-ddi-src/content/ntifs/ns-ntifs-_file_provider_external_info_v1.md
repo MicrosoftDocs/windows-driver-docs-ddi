@@ -8,9 +8,6 @@ ms.assetid: 842D7F4A-3352-469A-B7C1-E075432107CA
 ms.date: 04/16/2018
 keywords: ["FILE_PROVIDER_EXTERNAL_INFO_V1 structure"]
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO, FILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V1, ifsk.file_provider_external_info_v1, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1"
-f1_keywords:
- - "ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1"
- - "FILE_PROVIDER_EXTERNAL_INFO_V1"
 req.header: ntifs.h
 req.include-header: Windows.h, WinIoCtl.h, Ntifs.h, Windows.h, WinIoCtl.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_PROVIDER_EXTERNAL_INFO_V1
 targetos: Windows
 req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1
+f1_keywords:
+ - _FILE_PROVIDER_EXTERNAL_INFO_V1
+ - ntifs/_FILE_PROVIDER_EXTERNAL_INFO_V1
+ - PFILE_PROVIDER_EXTERNAL_INFO_V1
+ - ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1
+ - FILE_PROVIDER_EXTERNAL_INFO_V1
+ - ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_PROVIDER_EXTERNAL_INFO_V1
 ---
 
 # _FILE_PROVIDER_EXTERNAL_INFO_V1 structure
@@ -46,19 +50,13 @@ req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1
 
 ## -description
 
-
 The <b>FILE_PROVIDER_EXTERNAL_INFO_V1</b> structure defines metadata specific to files provided by WOF_PROVIDER_FILE. This provider gives efficient compression for data which will not be modified, such as executable files.  If the file is opened for write access, the file will be transparently decompressed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of the provider to use. Specify FILE_PROVIDER_CURRENT_VERSION.
-
 
 ### -field Algorithm
 
@@ -75,14 +73,7 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 
 Specifies flags for the operation. Reserved for future use, should be 0.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v0">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
- 
-
- 
 

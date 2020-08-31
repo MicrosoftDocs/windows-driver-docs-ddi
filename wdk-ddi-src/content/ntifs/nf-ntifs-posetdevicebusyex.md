@@ -8,9 +8,6 @@ ms.assetid: 3f4d01fe-84cb-424e-9107-e29c4e25d85c
 ms.date: 04/30/2018
 keywords: ["PoSetDeviceBusyEx function"]
 ms.keywords: PoSetDeviceBusyEx, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], kernel.posetdevicebusyex, portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, wdm/PoSetDeviceBusyEx
-f1_keywords:
- - "ntifs/PoSetDeviceBusyEx"
- - "PoSetDeviceBusyEx"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoSetDeviceBusyEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoSetDeviceBusyEx
+ - ntifs/PoSetDeviceBusyEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoSetDeviceBusyEx
 ---
 
 # PoSetDeviceBusyEx function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoSetDeviceBusyEx</b> routine notifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> that the device associated with the specified idle counter is busy.
-
 
 ## -parameters
 
-
-
-
 ### -param IdlePointer 
+
 [in, out]
 A pointer to an idle counter. This is a pointer value that was previously returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterdeviceforidledetection">PoRegisterDeviceForIdleDetection</a> routine. Because <b>PoRegisterDeviceForIdleDetection</b> might return a <b>NULL</b> pointer, the caller must verify that the pointer is non-<b>NULL</b> before it calls <b>PoSetDeviceBusyEx</b>.
 
-
 ## -remarks
-
-
 
 This routine is a direct replacement for the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a> macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call <b>PoSetDeviceBusyEx</b> instead of <b>PoSetDeviceBusy</b>.
 
@@ -74,13 +67,7 @@ A driver calls the <b>PoSetDeviceBusyEx</b> and <b>PoRegisterDeviceForIdleDetect
 
 A driver that makes multiple requests for brief I/O operations should call <b>PoSetDeviceBusyEx</b> for every I/O request that it makes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>
 
@@ -99,7 +86,4 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-postartdevicebusy">PoStartDeviceBusy</a>
- 
-
- 
 

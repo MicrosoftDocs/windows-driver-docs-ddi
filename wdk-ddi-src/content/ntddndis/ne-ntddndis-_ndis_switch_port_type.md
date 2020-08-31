@@ -8,9 +8,6 @@ ms.assetid: 4FCE88BC-6FA1-44D0-9BC1-3065A5EEE1A0
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_TYPE enumeration"]
 ms.keywords: NDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeEmulated, NdisSwitchPortTypeExternal, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeInternal, NdisSwitchPortTypeSynthetic, PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeEmulated, ntddndis/NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeSynthetic, ntddndis/PNDIS_SWITCH_PORT_TYPE
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PORT_TYPE"
- - "NDIS_SWITCH_PORT_TYPE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_PORT_TYPE
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_TYPE
+f1_keywords:
+ - _NDIS_SWITCH_PORT_TYPE
+ - ntddndis/_NDIS_SWITCH_PORT_TYPE
+ - NDIS_SWITCH_PORT_TYPE
+ - ntddndis/NDIS_SWITCH_PORT_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_PORT_TYPE
 ---
 
 # _NDIS_SWITCH_PORT_TYPE enumeration
@@ -46,22 +48,13 @@ req.typenames: NDIS_SWITCH_PORT_TYPE
 
 ## -description
 
-
-
-The <b>NDIS_SWITCH_PORT_TYPE</b> enumeration specifies the type of  a Hyper-V extensible switch port.  
-
-
-
+The <b>NDIS_SWITCH_PORT_TYPE</b> enumeration specifies the type of  a Hyper-V extensible switch port.
 
 ## -enum-fields
-
-
-
 
 ### -field NdisSwitchPortTypeGeneric
 
 This value specifies a generic port type that was created with an earlier version of the extensible switch WMI management platform.
-
 
 ### -field NdisSwitchPortTypeExternal
 
@@ -97,30 +90,17 @@ The internal network adapter provides access to an extensible switch for process
 
 ## -remarks
 
-
-
 The <b>PortType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETERS</a> structure is an <b>NDIS_SWITCH_PORT_TYPE</b> enumeration data type. 
 
 
 
 For more information on the extensible switch ports, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-ports">Hyper-V Extensible Switch Ports</a>.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETERS</a>
- 
-
- 
 

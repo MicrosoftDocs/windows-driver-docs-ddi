@@ -8,9 +8,6 @@ ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
 ms.date: 03/29/2018
 keywords: ["STORAGE_ZONES_ATTRIBUTES enumeration"]
 ms.keywords: "*PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], ZonesAttributeTypeAndLengthMayDifferent, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLastZoneLengthDifferent, ZonesAttributeTypeSameLengthSame, _STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, storage.storage_zones_attributes"
-f1_keywords:
- - "ntddstor/STORAGE_ZONES_ATTRIBUTES"
- - "STORAGE_ZONES_ATTRIBUTES"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- STORAGE_ZONES_ATTRIBUTES
 targetos: Windows
 req.typenames: STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES
+f1_keywords:
+ - _STORAGE_ZONES_ATTRIBUTES
+ - ntddstor/_STORAGE_ZONES_ATTRIBUTES
+ - PSTORAGE_ZONES_ATTRIBUTES
+ - ntddstor/PSTORAGE_ZONES_ATTRIBUTES
+ - STORAGE_ZONES_ATTRIBUTES
+ - ntddstor/STORAGE_ZONES_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - STORAGE_ZONES_ATTRIBUTES
 ---
 
 # _STORAGE_ZONES_ATTRIBUTES enumeration
@@ -46,32 +50,22 @@ req.typenames: STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
-
-
 ## -enum-fields
-
-
-
 
 ### -field ZonesAttributeTypeAndLengthMayDifferent
 
 N/A
 
-
 ### -field ZonesAttributeTypeSameLengthSame
 
 N/A
 
-
 ### -field ZonesAttributeTypeSameLastZoneLengthDifferent
 
 N/A
-
 
 ### -field ZonesAttributeTypeMayDifferentLengthSame
 

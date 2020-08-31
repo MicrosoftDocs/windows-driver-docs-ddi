@@ -8,9 +8,6 @@ ms.assetid: da2ec371-052a-4ea1-9336-9e32df936227
 ms.date: 05/08/2018
 keywords: ["DrmAddContentHandlers function"]
 ms.keywords: DrmAddContentHandlers, DrmAddContentHandlers function [Audio Devices], aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, audio.drmaddcontenthandlers, drmk/DrmAddContentHandlers
-f1_keywords:
- - "drmk/DrmAddContentHandlers"
- - "DrmAddContentHandlers"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Drmk.lib
-- Drmk.dll
-api_name:
-- DrmAddContentHandlers
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrmAddContentHandlers
+ - drmk/DrmAddContentHandlers
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Drmk.lib
+ - Drmk.dll
+api_name:
+ - DrmAddContentHandlers
 ---
 
 # DrmAddContentHandlers function
@@ -47,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The <code>DrmAddContentHandlers</code> function provides the system with a list of functions that handle protected content.
-
 
 ## -parameters
 
-
-
-
 ### -param ContentId 
+
 [in]
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
-
 ### -param paHandlers 
+
 [in]
 Pointer to an array of function pointers. Each array element points to a content handler.
 
-
 ### -param NumHandlers 
+
 [in]
 Specifies the number of function pointers in the <i>paHandlers</i> array.
 
-
 ## -returns
-
-
 
 <code>DrmAddContentHandlers</code> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 Before allowing protected content to flow through a data path, the system verifies that the data path is secure. To do so, the system authenticates each module in the data path beginning at the upstream end of the data path and moving downstream. As each module is authenticated, that module gives the system information about the next module in the data path so that it can also be authenticated. To be successfully authenticated, a module's binary file must be signed as DRM-compliant.
 
@@ -94,13 +82,7 @@ The upstream module can pass both the content ID and content rights to the downs
 
 <i>DrmAddContentHandlers</i> performs the same function as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddcontenthandlers">PcAddContentHandlers</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-idrmport2-addcontenthandlers">IDrmPort2::AddContentHandlers</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/drm-functions-and-interfaces">DRM Functions and Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a>
 
@@ -119,7 +101,4 @@ The upstream module can pass both the content ID and content rights to the downs
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddcontenthandlers">PcAddContentHandlers</a>
- 
-
- 
 

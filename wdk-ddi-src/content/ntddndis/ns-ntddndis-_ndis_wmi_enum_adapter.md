@@ -8,9 +8,6 @@ ms.assetid: 89fa481a-b6f4-4948-8fda-e1e19c58da28
 ms.date: 05/02/2018
 keywords: ["NDIS_WMI_ENUM_ADAPTER structure"]
 ms.keywords: "*PNDIS_WMI_ENUM_ADAPTER, NDIS_WMI_ENUM_ADAPTER, NDIS_WMI_ENUM_ADAPTER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_ENUM_ADAPTER, ndis_wmi_ref_a64c64b4-2108-4b99-937d-098197c5a72c.xml, netvista.ndis_wmi_enum_adapter, ntddndis/NDIS_WMI_ENUM_ADAPTER, ntddndis/PNDIS_WMI_ENUM_ADAPTER"
-f1_keywords:
- - "ntddndis/NDIS_WMI_ENUM_ADAPTER"
- - "NDIS_WMI_ENUM_ADAPTER"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_WMI_ENUM_ADAPTER
 targetos: Windows
 req.typenames: NDIS_WMI_ENUM_ADAPTER, *PNDIS_WMI_ENUM_ADAPTER
+f1_keywords:
+ - _NDIS_WMI_ENUM_ADAPTER
+ - ntddndis/_NDIS_WMI_ENUM_ADAPTER
+ - PNDIS_WMI_ENUM_ADAPTER
+ - ntddndis/PNDIS_WMI_ENUM_ADAPTER
+ - NDIS_WMI_ENUM_ADAPTER
+ - ntddndis/NDIS_WMI_ENUM_ADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_WMI_ENUM_ADAPTER
 ---
 
 # _NDIS_WMI_ENUM_ADAPTER structure
@@ -46,16 +50,11 @@ req.typenames: NDIS_WMI_ENUM_ADAPTER, *PNDIS_WMI_ENUM_ADAPTER
 
 ## -description
 
-
 The NDIS_WMI_ENUM_ADAPTER structure is returned when NDIS responds to the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">
   GUID_NDIS_ENUMERATE_ADAPTERS_EX</a> GUID.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,53 +66,37 @@ The
      <b>Size</b> member to 
      sizeof(NDIS_WMI_ENUM_ADAPTER).
 
-
 ### -field IfIndex
 
 The NDIS interface index of the NDIS miniport adapter interface that is associated with the
      GUID.
 
-
 ### -field NetLuid
 
 The NDIS network interface name of the miniport adapter.
-
 
 ### -field DeviceNameLength
 
 The length, in bytes, of the device name of the NDIS miniport adapter interface that is associated
      with the GUID.
 
-
 ### -field DeviceName
 
 The device name of the NDIS miniport adapter interface that is associated with the GUID. The
      device name is a null-terminated wide character string.
 
-
 ## -remarks
-
-
 
 NDIS returns the NDIS_WMI_ENUM_ADAPTER structure when it enumerates miniport adapters for WMI clients.
     For more information about enumerating miniport adapters for WMI clients, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">
     GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiStopCapture"
- - "DxgkDdiStopCapture"
+ - DXGKDDI_STOPCAPTURE
+ - d3dkmddi/DXGKDDI_STOPCAPTURE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_STOPCAPTURE callback function
+
 
 ## -description
 

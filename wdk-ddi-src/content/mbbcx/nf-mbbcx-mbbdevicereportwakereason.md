@@ -8,39 +8,39 @@ ms.assetid: 57af271e-cd06-4749-abd1-89f4d3c7075c
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["MbbDeviceReportWakeReason function"]
-f1_keywords:
- - "mbbcx/MbbDeviceReportWakeReason"
- - "MbbDeviceReportWakeReason"
 ms.keywords: MbbDeviceReportWakeReason
 req.header: mbbcx.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: mbbcxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- mbbcxstub.lib
-api_name: 
-- MbbDeviceReportWakeReason
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - MbbDeviceReportWakeReason
+ - mbbcx/MbbDeviceReportWakeReason
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - mbbcxstub.lib
+api_name:
+ - MbbDeviceReportWakeReason
+product:
+ - Windows
 ---
 
 # MbbDeviceReportWakeReason function
@@ -67,3 +67,4 @@ This method does not return a value.
 ## -remarks
 
 ## -see-also
+

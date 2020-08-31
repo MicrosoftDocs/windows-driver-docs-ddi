@@ -8,9 +8,6 @@ ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.date: 09/09/2019
 keywords: ["SRV_OPEN_ECP_CONTEXT structure"]
 ms.keywords: "*PSRV_OPEN_ECP_CONTEXT, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, PSRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], _SRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context, ntifs/PSRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT"
-f1_keywords:
- - "ntifs/SRV_OPEN_ECP_CONTEXT"
- - "SRV_OPEN_ECP_CONTEXT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- SRV_OPEN_ECP_CONTEXT
 targetos: Windows
 req.typenames: SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT
+f1_keywords:
+ - _SRV_OPEN_ECP_CONTEXT
+ - ntifs/_SRV_OPEN_ECP_CONTEXT
+ - PSRV_OPEN_ECP_CONTEXT
+ - ntifs/PSRV_OPEN_ECP_CONTEXT
+ - SRV_OPEN_ECP_CONTEXT
+ - ntifs/SRV_OPEN_ECP_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - SRV_OPEN_ECP_CONTEXT
 ---
 
 # _SRV_OPEN_ECP_CONTEXT structure
+
 
 ## -description
 
@@ -92,3 +97,4 @@ The oplock state values (**OplockBlockState**, **OplockAppState**, and **OplockF
 [SRV_INSTANCE_TYPE](ne-ntifs-srv_instance_type.md)
 
 [UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+

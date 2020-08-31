@@ -8,9 +8,6 @@ ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.date: 02/15/2018
 keywords: ["NFC_CX_HOST_ACTION enumeration"]
 ms.keywords: "*PNFC_CX_HOST_ACTION, HostActionRestart, HostActionStart, HostActionStop, HostActionUnload, NFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], _NFC_CX_HOST_ACTION, nfccx/HostActionRestart, nfccx/HostActionStart, nfccx/HostActionStop, nfccx/HostActionUnload, nfccx/NFC_CX_HOST_ACTION, nfpdrivers.nfc_cx_host_action"
-f1_keywords:
- - "nfccx/NFC_CX_HOST_ACTION"
- - "NFC_CX_HOST_ACTION"
 req.header: nfccx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfccx.h
-api_name:
-- NFC_CX_HOST_ACTION
 targetos: Windows
 req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
+f1_keywords:
+ - _NFC_CX_HOST_ACTION
+ - nfccx/_NFC_CX_HOST_ACTION
+ - PNFC_CX_HOST_ACTION
+ - nfccx/PNFC_CX_HOST_ACTION
+ - NFC_CX_HOST_ACTION
+ - nfccx/NFC_CX_HOST_ACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfccx.h
+api_name:
+ - NFC_CX_HOST_ACTION
 ---
 
 # _NFC_CX_HOST_ACTION enumeration
@@ -46,46 +50,31 @@ req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
 
 ## -description
 
-
 The NFC_CX_HOST_ACTION enumeration specifies host actions.
 
-
 ## -enum-fields
-
-
-
 
 ### -field HostActionStart
 
 Specifies full initialization.
 
-
 ### -field HostActionStop
 
 Specifies de-initialization.
-
 
 ### -field HostActionRestart
 
 Specifies a full driver restart.
 
-
 ### -field HostActionUnload
 
 Specifies to unload the driver.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
 

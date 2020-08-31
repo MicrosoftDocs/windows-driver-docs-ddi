@@ -8,9 +8,6 @@ ms.assetid: 98350b75-aa25-4b3f-ad6c-3038111b8a48
 ms.date: 02/26/2018
 keywords: ["IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx"]
 ms.keywords: IPowerPolicyCallbackWakeFromSx interface,OnArmWakeFromSx method, IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx, IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx, OnArmWakeFromSx, OnArmWakeFromSx method, OnArmWakeFromSx method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_36d2ec5a-4244-499b-9ff3-117704e0ac78.xml, umdf.ipowerpolicycallbackwakefromsx_onarmwakefromsx, wdf.ipowerpolicycallbackwakefromsx_onarmwakefromsx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
-f1_keywords:
- - "wudfddi/IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx"
- - "IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wudfddi.h
-api_name:
-- IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
+ - wudfddi/IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wudfddi.h
+api_name:
+ - IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx
 ---
 
 # IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
@@ -46,36 +46,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-A driver's <b>OnArmWakeFromSx</b> event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state. The wake signal causes the device to enter its working state (D0) and the system to enter its working state (S0). 
-
+A driver's <b>OnArmWakeFromSx</b> event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state. The wake signal causes the device to enter its working state (D0) and the system to enter its working state (S0).
 
 ## -parameters
 
-
-
-
 ### -param pWdfDevice 
+
 [in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
-
 ## -returns
-
-
 
 If the operation is successful, the <b>OnArmWakeFromSx</b> callback function must return S_OK or another status value for which SUCCEEDED(<i>status</i>) equals <b>TRUE</b>. Otherwise it must return a status value for which SUCCEEDED(<i>status</i>) equals <b>FALSE</b>.
 
-If SUCCEEDED(status) equals <b>FALSE</b>, the framework calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipowerpolicycallbackwakefromsx-ondisarmwakefromsx">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a> callback function. (The framework does not report a device failure to the PnP manager.) 
-
-
-
+If SUCCEEDED(status) equals <b>FALSE</b>, the framework calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipowerpolicycallbackwakefromsx-ondisarmwakefromsx">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a> callback function. (The framework does not report a device failure to the PnP manager.)
 
 ## -remarks
-
-
 
 Your driver must provide an <b>OnArmWakeFromSx</b> callback function if the driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipowerpolicycallbackwakefromsx">IPowerPolicyCallbackWakeFromSx</a> interface. 
 
@@ -107,13 +95,7 @@ You do not need to provide an <b>OnArmWakeFromSx</b> callback function if your d
 
 For more information about this callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-system-wake-up-in-umdf-drivers">Supporting System Wake-Up in UMDF-based Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipowerpolicycallbackwakefromsx">IPowerPolicyCallbackWakeFromSx</a>
 
@@ -124,7 +106,4 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipowerpolicycallbackwakefromsx-onwakefromsxtriggered">IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered</a>
- 
-
- 
 

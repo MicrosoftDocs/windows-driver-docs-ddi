@@ -8,9 +8,6 @@ ms.assetid: afd52391-5b18-4b86-9d35-2d9ed3e20256
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_SWAPCHAINSETDEVICE structure"]
 ms.keywords: IDARG_IN_SWAPCHAINSETDEVICE, IDARG_IN_SWAPCHAINSETDEVICE structure [Display Devices], display.idarg_in_swapchainsetdevice, iddcx/IDARG_IN_SWAPCHAINSETDEVICE
-f1_keywords:
- - "iddcx/IDARG_IN_SWAPCHAINSETDEVICE"
- - "IDARG_IN_SWAPCHAINSETDEVICE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_SWAPCHAINSETDEVICE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_SWAPCHAINSETDEVICE
+ - iddcx/IDARG_IN_SWAPCHAINSETDEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_SWAPCHAINSETDEVICE
 ---
 
 # IDARG_IN_SWAPCHAINSETDEVICE structure
@@ -46,19 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the device that will process the swap chain.
-
 
 ## -struct-fields
 
-
-
-
 ### -field pDevice
 
-
                      The DXGI device used to process swap chain frames.
-                 
 

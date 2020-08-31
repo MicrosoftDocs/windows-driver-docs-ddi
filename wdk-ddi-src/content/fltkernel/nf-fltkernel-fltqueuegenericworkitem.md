@@ -8,9 +8,6 @@ ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.date: 04/16/2018
 keywords: ["FltQueueGenericWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem
-f1_keywords:
- - "fltkernel/FltQueueGenericWorkItem"
- - "FltQueueGenericWorkItem"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQueueGenericWorkItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQueueGenericWorkItem
+ - fltkernel/FltQueueGenericWorkItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueueGenericWorkItem
 ---
 
 # FltQueueGenericWorkItem function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
-<b>FltQueueGenericWorkItem</b> posts a work item that is not associated with a specific I/O operation to a work queue. 
-
+<b>FltQueueGenericWorkItem</b> posts a work item that is not associated with a specific I/O operation to a work queue.
 
 ## -parameters
 
-
-
-
 ### -param FltWorkItem 
-[in]
-Pointer to the work item to be added to the work queue. The work item must have been allocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>. 
 
+[in]
+Pointer to the work item to be added to the work queue. The work item must have been allocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>.
 
 ### -param FltObject 
-[in]
-Opaque filter (PFLT_FILTER) or instance (PFLT_INSTANCE) pointer for the caller. 
 
+[in]
+Opaque filter (PFLT_FILTER) or instance (PFLT_INSTANCE) pointer for the caller.
 
 ### -param WorkerRoutine 
+
 [in]
 Pointer to a caller-supplied worker routine. This routine is declared as follows: 
 
@@ -102,10 +98,10 @@ Opaque filter pointer that was passed as the <i>FltObject</i> parameter of <b>Fl
 
 #### Context
 
-Context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueGenericWorkItem</b>. This parameter is optional. 
-
+Context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueGenericWorkItem</b>. This parameter is optional.
 
 ### -param QueueType 
+
 [in]
 Specifies the queue into which the work item that <i>FltWorkItem</i> points to is to be inserted. <i>QueueType</i> can be either of the following: 
 
@@ -137,17 +133,14 @@ Insert the work item into the queue from which a system thread with a variable p
 </table>
  
 
-The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use. 
-
+The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use.
 
 ### -param Context 
+
 [in, optional]
 Pointer to caller-defined context information to be passed as the <i>Context</i> parameter of the callback routine specified in the <i>WorkerRoutine</i> parameter. This parameter is optional.
 
-
 ## -returns
-
-
 
 <b>FltQueueGenericWorkItem</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -168,35 +161,20 @@ The minifilter driver is being unloaded. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltQueueGenericWorkItem</b> inserts a work item that is not associated with a specific I/O operation into a system work queue. The specified <i>WorkerRoutine</i> callback routine is called in the context of a system thread, at IRQL PASSIVE_LEVEL. 
 
 To allocate a work item, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>. 
 
-To free the work item when it is no longer needed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreegenericworkitem">FltFreeGenericWorkItem</a>. 
-
-
-
+To free the work item when it is no longer needed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreegenericworkitem">FltFreeGenericWorkItem</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreegenericworkitem">FltFreeGenericWorkItem</a>
- 
-
- 
 

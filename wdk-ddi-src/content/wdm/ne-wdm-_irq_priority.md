@@ -8,9 +8,6 @@ ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.date: 04/30/2018
 keywords: ["IRQ_PRIORITY enumeration"]
 ms.keywords: "*PIRQ_PRIORITY, IRQ_PRIORITY, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityHigh, IrqPriorityLow, IrqPriorityNormal, IrqPriorityUndefined, PIRQ_PRIORITY, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], _IRQ_PRIORITY, kernel.irq_priority, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IRQ_PRIORITY, wdm/IrqPriorityHigh, wdm/IrqPriorityLow, wdm/IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/PIRQ_PRIORITY"
-f1_keywords:
- - "wdm/IRQ_PRIORITY"
- - "IRQ_PRIORITY"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- IRQ_PRIORITY
 targetos: Windows
 req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
+f1_keywords:
+ - _IRQ_PRIORITY
+ - wdm/_IRQ_PRIORITY
+ - PIRQ_PRIORITY
+ - wdm/PIRQ_PRIORITY
+ - IRQ_PRIORITY
+ - wdm/IRQ_PRIORITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - IRQ_PRIORITY
 ---
 
 # _IRQ_PRIORITY enumeration
@@ -46,51 +50,31 @@ req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
 
 ## -description
 
-
 The <b>IRQ_PRIORITY</b> enumeration type indicates the priority the system should give to servicing a device's interrupts.
 
-
 ## -enum-fields
-
-
-
 
 ### -field IrqPriorityUndefined
 
 Specifies that the device does not require any particular priority for its interrupts.
 
-
 ### -field IrqPriorityLow
 
 Specifies that the device's interrupts are of low priority. This setting is appropiate for devices that can tolerate higher-than-normal latency.
 
-
 ### -field IrqPriorityNormal
 
-Specifies that the device's interrupts are of normal priority. 
-
+Specifies that the device's interrupts are of normal priority.
 
 ### -field IrqPriorityHigh
 
-Specifies that the device's interrupts are of high priority. This setting is appropriate for devices that require low latency. 
-
+Specifies that the device's interrupts are of high priority. This setting is appropriate for devices that require low latency.
 
 ## -remarks
 
-
-
 The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it might assign a higher IRQL to a device that has an <b>IRQ_PRIORITY</b> of <b>IrqPriorityHigh</b> than it does to a device that has an <b>IRQ_PRIORITY</b> of <b>IrqPriorityLow</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
- 
-
- 
 

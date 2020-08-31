@@ -8,9 +8,6 @@ ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.date: 03/29/2018
 keywords: ["StorPortGetActivityIdSrb function"]
 ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storage.storportgetactivityidsrb, storport/StorPortGetActivityIdSrb
-f1_keywords:
- - "storport/StorPortGetActivityIdSrb"
- - "StorPortGetActivityIdSrb"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortGetActivityIdSrb
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetActivityIdSrb
+ - storport/StorPortGetActivityIdSrb
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortGetActivityIdSrb
 ---
 
 # StorPortGetActivityIdSrb function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 Retrieves the Event Tracing for Windows (ETW) activity ID associated with a request block.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param Srb 
+
 [in]
 The request block to retrieve the ETW activity ID for.
 
-
 ### -param ActivityId 
+
 [out]
 A pointer to a caller-supplied GUID to receive the ETW activity ID.
 
-
 ## -returns
-
-
 
 A status value indicating the result of the notification. This can be one of these values:
 
@@ -116,7 +109,4 @@ An ETW activity ID is not associated with the request in <i>Srb</i>.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.date: 03/29/2018
 keywords: ["LBA_FILTER_TABLE structure"]
 ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table"
-f1_keywords:
- - "ehstorioctl/LBA_FILTER_TABLE"
- - "LBA_FILTER_TABLE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorIoctl.h
-api_name:
-- LBA_FILTER_TABLE
 targetos: Windows
 req.typenames: LBA_FILTER_TABLE, *PLBA_FILTER_TABLE
+f1_keywords:
+ - _LBA_FILTER_TABLE
+ - ehstorioctl/_LBA_FILTER_TABLE
+ - PLBA_FILTER_TABLE
+ - ehstorioctl/PLBA_FILTER_TABLE
+ - LBA_FILTER_TABLE
+ - ehstorioctl/LBA_FILTER_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorIoctl.h
+api_name:
+ - LBA_FILTER_TABLE
 ---
 
 # _LBA_FILTER_TABLE structure
@@ -46,49 +50,37 @@ req.typenames: LBA_FILTER_TABLE, *PLBA_FILTER_TABLE
 
 ## -description
 
-
 The <b>LBA_FILTER_TABLE</b> structure contains the LBA ranges whose access is controlled by a silo driver. The LBA filter entries in the table define bands on a storage device that are managed by a silo driver.  A silo drivers send the LBA filter table to the enhanced storage class driver in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of this structure. This is set to <b>sizeof</b>(LBA_FILTER_TABLE).
 
-
 ### -field GlobalReadLock
 
 If TRUE, LBAs not included in the filter table are not readable. Otherwise unfiltered LBAs are readable if FALSE.
-
 
 ### -field Reserved1
 
 Reserved.
 
-
 ### -field GlobalWriteLock
 
 If TRUE, LBAs not included in the filter table are not writeable. Otherwise unfiltered LBAs are writeable if FALSE.
-
 
 ### -field Reserved2
 
 Reserved.
 
-
 ### -field LbaFilterCount
 
 The number of filter entries in the filter table.
 
-
 ### -field LbaFilterSize
 
 The size in bytes of a filter table entry. This must be set to <b>sizeof</b>(LBA_FILTER_TABLE_ENTRY).
-
 
 ### -field LbaFiltersOffset
 
@@ -101,29 +93,17 @@ The size in bytes of a filter table entry. This must be set to <b>sizeof</b>(LBA
 
 The offset of the LBA filter table from the beginning of this structure. This will typically be <b>sizeof</b>(LBA_FILTER_TABLE).
 
-
 ## -remarks
-
-
 
 LBA ranges not included in any filter table entries are considered part of the global band for the device. These ranges are managed independently by the Enhanced Storage Class driver. Access for these ranges is determined by the settings in <i>GlobalReadLock</i> and <i>GlobalWriteLock</i>.
 
-Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a> structures. Each <b>LBA_FILTER_TABLE_ENTRY</b> defines an individual band whose access is controlled by the silo driver through the direction of band management requests forwarded by the Enhanced Storage Class driver. <b>LBA_FILTER_TABLE_ENTRY</b> structures can occur in any order, however, an LBA range in  a table entry must not overlap with an LBA range from another table entry. 
-
-
-
+Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a> structures. Each <b>LBA_FILTER_TABLE_ENTRY</b> defines an individual band whose access is controlled by the silo driver through the direction of band management requests forwarded by the Enhanced Storage Class driver. <b>LBA_FILTER_TABLE_ENTRY</b> structures can occur in any order, however, an LBA range in  a table entry must not overlap with an LBA range from another table entry.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: ca43da4e-6e0e-4689-83db-3f5ee5e560b2
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_RELEASE IOCTL"]
 ms.keywords: IOCTL_STORAGE_RELEASE, IOCTL_STORAGE_RELEASE control, IOCTL_STORAGE_RELEASE control code [Storage Devices], k307_8097610b-98ad-4bb2-9f16-2caca8bf7f0d.xml, ntddstor/IOCTL_STORAGE_RELEASE, storage.ioctl_storage_release
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_RELEASE"
- - "IOCTL_STORAGE_RELEASE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_RELEASE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_RELEASE
+ - ntddstor/IOCTL_STORAGE_RELEASE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_RELEASE
 ---
 
 # IOCTL_STORAGE_RELEASE IOCTL
@@ -46,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 Releases a device previously reserved for the exclusive use of the caller on a bus that supports multiple initiators and the concept of reserving a device, such as a SCSI bus.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

@@ -8,9 +8,6 @@ ms.assetid: e0d38f3b-19da-4118-a1d9-7d5a00bcad26
 ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration"]
 ms.keywords: DXGKMDT_OPM_HDCP_FORCE_ULONG, DXGKMDT_OPM_HDCP_OFF, DXGKMDT_OPM_HDCP_ON, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration [Display Devices], DmEnums_5df35ab3-a367-45c3-b03c-12b3d733f244.xml, _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_HDCP_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_HDCP_OFF, d3dkmdt/DXGKMDT_OPM_HDCP_ON, d3dkmdt/DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, display.dxgkmdt_opm_hdcp_protection_level
-f1_keywords:
- - "d3dkmdt/DXGKMDT_OPM_HDCP_PROTECTION_LEVEL"
- - "DXGKMDT_OPM_HDCP_PROTECTION_LEVEL"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
 targetos: Windows
 req.typenames: DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
+f1_keywords:
+ - _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
+ - d3dkmdt/_DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
+ - DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
+ - d3dkmdt/DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
 ---
 
 # _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration
@@ -46,43 +48,27 @@ req.typenames: DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
 
 ## -description
 
-
-The DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration indicates the protection levels for a protected output that supports High-bandwidth Digital Content Protection (HDCP). 
-
+The DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration indicates the protection levels for a protected output that supports High-bandwidth Digital Content Protection (HDCP).
 
 ## -enum-fields
 
-
-
-
 ### -field DXGKMDT_OPM_HDCP_OFF
 
-Indicates that HDCP does not protect the output's signal. 
-
+Indicates that HDCP does not protect the output's signal.
 
 ### -field DXGKMDT_OPM_HDCP_ON
 
-Indicates that HDCP protects the output's signal. 
-
+Indicates that HDCP protects the output's signal.
 
 ### -field DXGKMDT_OPM_HDCP_FORCE_ULONG
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value.
 
-
 ## -remarks
-
-
 
 HDCP protects digital video signals from digital video output connectors. Currently, OPM can use HDCP to protect data from Digital Video Interface (DVI) and High-Definition Multimedia Interface (HDMI) connector outputs. For more information about the HDCP system, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
 
@@ -101,7 +87,4 @@ HDCP protects digital video signals from digital video output connectors. Curren
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a>
- 
-
- 
 

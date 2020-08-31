@@ -8,9 +8,6 @@ ms.assetid: 266cdf1a-6122-4f46-8e93-8f76fceb0180
 ms.date: 04/30/2018
 keywords: ["POWER_REQUEST_TYPE enumeration"]
 ms.keywords: "*PPOWER_REQUEST_TYPE, POWER_REQUEST_TYPE, POWER_REQUEST_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_REQUEST_TYPE, PPOWER_REQUEST_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, _POWER_REQUEST_TYPE, kernel.power_request_type, sysenum_2d1a5da5-2541-4db1-bfde-2bd06f38b17c.xml, wdm/POWER_REQUEST_TYPE, wdm/PPOWER_REQUEST_TYPE, wdm/PowerRequestAwayModeRequired, wdm/PowerRequestDisplayRequired, wdm/PowerRequestExecutionRequired, wdm/PowerRequestSystemRequired"
-f1_keywords:
- - "wdm/POWER_REQUEST_TYPE"
- - "POWER_REQUEST_TYPE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- POWER_REQUEST_TYPE
 targetos: Windows
 req.typenames: POWER_REQUEST_TYPE, *PPOWER_REQUEST_TYPE
+f1_keywords:
+ - _POWER_REQUEST_TYPE
+ - wdm/_POWER_REQUEST_TYPE
+ - PPOWER_REQUEST_TYPE
+ - wdm/PPOWER_REQUEST_TYPE
+ - POWER_REQUEST_TYPE
+ - wdm/POWER_REQUEST_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - POWER_REQUEST_TYPE
 ---
 
 # _POWER_REQUEST_TYPE enumeration
@@ -46,38 +50,27 @@ req.typenames: POWER_REQUEST_TYPE, *PPOWER_REQUEST_TYPE
 
 ## -description
 
-
 The <b>POWER_REQUEST_TYPE</b> enumeration indicates the power request type.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PowerRequestDisplayRequired
 
 Not used by drivers. For more information, see Remarks.
 
-
 ### -field PowerRequestSystemRequired
 
 Prevents the computer from automatically entering sleep mode after a period of user inactivity.
-
 
 ### -field PowerRequestAwayModeRequired
 
 Not used by drivers. For more information, see Remarks.
 
-
 ### -field PowerRequestExecutionRequired
 
 Not used by drivers. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 This enumeration is used by the kernel-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerrequest">PoSetPowerRequest</a> routines. Drivers that call these routines must specify the <b>PowerRequestSystemRequired</b> enumeration value.
 
@@ -103,13 +96,7 @@ While a <b>PowerRequestAwayModeRequired</b> power request is in effect, if the u
 
 While a <b>PowerRequestExecutionRequired</b> power request is in effect, the calling process continues to run instead of being suspended or terminated by process lifetime management (PLM) mechanisms. When and how long the process is allowed to run depends on the operating system and power policy settings. This type of power request is supported starting with Windows 8.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a>
 
@@ -124,7 +111,4 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>
- 
-
- 
 

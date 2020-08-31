@@ -8,9 +8,6 @@ ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::OutputAsTypeWide"]
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],OutputAsTypeWide method, IDebugSymbolGroup2.OutputAsTypeWide, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide
-f1_keywords:
- - "dbgeng/IDebugSymbolGroup2.OutputAsTypeWide"
- - "IDebugSymbolGroup2.OutputAsTypeWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbolGroup2.OutputAsTypeWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbolGroup2::OutputAsTypeWide
+ - dbgeng/IDebugSymbolGroup2::OutputAsTypeWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbolGroup2.OutputAsTypeWide
 ---
 
 # IDebugSymbolGroup2::OutputAsTypeWide
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>OutputAsTypeWide</b> method changes the type of a symbol in a symbol group.  The symbol's entry is updated to represent the new type. 
-
+The <b>OutputAsTypeWide</b> method changes the type of a symbol in a symbol group.  The symbol's entry is updated to represent the new type.
 
 ## -parameters
 
-
-
-
 ### -param Index 
+
 [in]
 The index of the entry in this symbol group.  The <i>index</i> of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
-
 ### -param Type 
+
 [in]
 The name of the type of the symbol that you want.  If the name begins with an exclamation mark (<b>!</b>), the name is treated as an extension.  For more information about how to use an extension as a type, see the Remarks section.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -90,12 +83,7 @@ The method was successful.
 
 This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Because the children of the new entry type might differ from the children of the old entry type, the <b>OutputAsTypeWide</b> method removes all of the children of the entry from the symbol group.  You can add the children back by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-expandsymbol">ExpandSymbol</a> method.
 
@@ -103,13 +91,7 @@ If <i>Type</i> is an extension, the address of the symbol is passed to the exten
 
 For more information about symbol groups, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-expandsymbol">ExpandSymbol</a>
 
@@ -120,7 +102,4 @@ For more information about symbol groups, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>
- 
-
- 
 

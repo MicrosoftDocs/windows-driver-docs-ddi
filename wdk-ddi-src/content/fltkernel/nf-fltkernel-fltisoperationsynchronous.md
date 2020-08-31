@@ -8,9 +8,6 @@ ms.assetid: 44594383-9f07-4b6a-8ea3-eaf84c9fefda
 ms.date: 04/16/2018
 keywords: ["FltIsOperationSynchronous function"]
 ms.keywords: FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, FltIsOperationSynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], fltkernel/FltIsOperationSynchronous, ifsk.fltisoperationsynchronous
-f1_keywords:
- - "fltkernel/FltIsOperationSynchronous"
- - "FltIsOperationSynchronous"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltIsOperationSynchronous
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltIsOperationSynchronous
+ - fltkernel/FltIsOperationSynchronous
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltIsOperationSynchronous
 ---
 
 # FltIsOperationSynchronous function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltIsOperationSynchronous</b> routine determines whether a given callback data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) represents a synchronous or asynchronous I/O operation. 
-
+The <b>FltIsOperationSynchronous</b> routine determines whether a given callback data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) represents a synchronous or asynchronous I/O operation.
 
 ## -parameters
 
-
-
-
 ### -param CallbackData 
-[in]
-Pointer to the callback data structure for the operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>). 
 
+[in]
+Pointer to the callback data structure for the operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>).
 
 ## -returns
 
-
-
-<b>FltIsOperationSynchronous</b> returns <b>TRUE</b> if the operation is synchronous, and <b>FALSE</b> if the operation is asynchronous. 
-
-
-
+<b>FltIsOperationSynchronous</b> returns <b>TRUE</b> if the operation is synchronous, and <b>FALSE</b> if the operation is asynchronous.
 
 ## -remarks
-
-
 
 <b>FltIsOperationSynchronous</b> determines whether a given callback data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) represents a synchronous or asynchronous I/O operation, according to the following conditions: 
 
@@ -105,15 +93,9 @@ If none of the above conditions is true, the operation is asynchronous.
 <div> </div>
 <div class="alert"><b>Note</b>    When <b>FltIsOperationSynchronous</b> returns <b>TRUE</b>, this does not indicate that the I/O operation is synchronized. That is, the <b>TRUE</b> value does not indicate that a minifilter driver returned FLT_PREOP_SYNCHRONIZE in the preoperation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine for this operation. Instead, <b>FltIsOperationSynchronous</b> returns <b>TRUE</b> to indicate that the I/O operation is synchronous from the I/O manager's perspective. </div>
 <div> </div>
-<b>FltIsOperationSynchronous</b> can be called for all classes of operations: fast I/O, file system filter (FSFilter) callbacks, and IRP-based operations. 
-
-
-
+<b>FltIsOperationSynchronous</b> can be called for all classes of operations: fast I/O, file system filter (FSFilter) callbacks, and IRP-based operations.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -132,7 +114,4 @@ If none of the above conditions is true, the operation is asynchronous.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioisoperationsynchronous">IoIsOperationSynchronous</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: b0107cb1-4828-4ede-813e-934b929c9874
 ms.date: 04/30/2018
 keywords: ["IoReportTargetDeviceChange function"]
 ms.keywords: IoReportTargetDeviceChange, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, kernel.ioreporttargetdevicechange, wdm/IoReportTargetDeviceChange
-f1_keywords:
- - "wdm/IoReportTargetDeviceChange"
- - "IoReportTargetDeviceChange"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoReportTargetDeviceChange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoReportTargetDeviceChange
+ - wdm/IoReportTargetDeviceChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoReportTargetDeviceChange
 ---
 
 # IoReportTargetDeviceChange function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoReportTargetDeviceChange</b> routine notifies the PnP manager that a custom event has occurred on a device.
-
 
 ## -parameters
 
-
-
-
 ### -param PhysicalDeviceObject 
+
 [in]
 Pointer to the PDO of the device being reported.
 
-
 ### -param NotificationStructure 
+
 [in]
 Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
@@ -68,10 +64,7 @@ Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardwar
 
 The PnP manager fills in the <i>NotificationStructure</i>.<b>FileObject</b> field when it sends notifications to registrants.
 
-
 ## -returns
-
-
 
 <b>IoReportTargetDeviceChange</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status values include the following.
 
@@ -92,14 +85,8 @@ The caller specified a system PnP event, such as GUID_TARGET_DEVICE_QUERY_REMOVE
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After <b>IoReportTargetDeviceChange</b> notifies the PnP manager that a custom event has occurred on a device, the PnP manager sends notification of the event to drivers that registered for notification on the device. Do not use this routine to report system PnP events, such as GUID_TARGET_DEVICE_REMOVE_COMPLETE.
 
@@ -115,20 +102,11 @@ Callers of <b>IoReportTargetDeviceChange</b> must be running at IRQL = PASSIVE_L
 
 <b>IoReportTargetDeviceChange</b> is not supported on Windows 98/Me; it returns STATUS_NOT_IMPLEMENTED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreporttargetdevicechangeasynchronous">IoReportTargetDeviceChangeAsynchronous</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
- 
-
- 
 

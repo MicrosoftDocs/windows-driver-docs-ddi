@@ -8,9 +8,6 @@ ms.assetid: a6c9a7fa-8fef-4d6d-aab5-e712c49c0144
 ms.date: 04/30/2018
 keywords: ["KeGetProcessorNumberFromIndex function"]
 ms.keywords: KeGetProcessorNumberFromIndex, KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml, kernel.kegetprocessornumberfromindex, wdm/KeGetProcessorNumberFromIndex
-f1_keywords:
- - "ntifs/KeGetProcessorNumberFromIndex"
- - "KeGetProcessorNumberFromIndex"
 req.header: ntifs.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeGetProcessorNumberFromIndex
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeGetProcessorNumberFromIndex
+ - ntifs/KeGetProcessorNumberFromIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeGetProcessorNumberFromIndex
 ---
 
 # KeGetProcessorNumberFromIndex function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeGetProcessorNumberFromIndex</b> routine converts a systemwide processor index to a group number and a group-relative processor number.
-
 
 ## -parameters
 
-
-
-
 ### -param ProcIndex 
-[in]
-A systemwide processor index. If a multiprocessor system contains a total of <i>n</i> logical processors, valid processor indexes range from 0 to <i>n</i>-1. 
 
+[in]
+A systemwide processor index. If a multiprocessor system contains a total of <i>n</i> logical processors, valid processor indexes range from 0 to <i>n</i>-1.
 
 ### -param ProcNumber 
-[out]
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure into which the routine writes the group number and group-relative processor number of the processor that is identified by <i>ProcIndex</i>. 
 
+[out]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure into which the routine writes the group number and group-relative processor number of the processor that is identified by <i>ProcIndex</i>.
 
 ## -returns
-
-
 
 <b>KeGetProcessorNumberFromIndex</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
 
@@ -88,14 +81,8 @@ The <i>ProcIndex</i> parameter value is not a valid processor index.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine accepts as input a processor index that identifies the processor across the entire multiprocessor system. The output value is a <b>PROCESSOR_NUMBER</b> structure that identifies a processor by its group number and its processor number within the group.
 
@@ -135,12 +122,7 @@ The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kegetprocessorindexfromnumber">KeGetProcessorIndexFromNumber</a>
 
@@ -151,7 +133,4 @@ The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a>
- 
-
- 
 

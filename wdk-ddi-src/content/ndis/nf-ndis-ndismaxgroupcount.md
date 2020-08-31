@@ -8,9 +8,6 @@ ms.assetid: 080707c5-cf46-4066-a241-684cdae37fee
 ms.date: 05/02/2018
 keywords: ["NdisMaxGroupCount function"]
 ms.keywords: NdisMaxGroupCount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisMaxGroupCount, ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml, netvista.ndismaxgroupcount
-f1_keywords:
- - "ndis/NdisMaxGroupCount"
- - "NdisMaxGroupCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMaxGroupCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMaxGroupCount
+ - ndis/NdisMaxGroupCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMaxGroupCount
 ---
 
 # NdisMaxGroupCount function
@@ -47,25 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisMaxGroupCount</b> function returns the maximum number of processor groups in the local computer
   system.
 
-
 ## -returns
-
-
 
 <b>NdisMaxGroupCount</b> returns a USHORT value for the maximum number of processor groups that are
      included in the local computer system. The number of groups is a zero-based value.
 
-
-
-
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisMaxGroupCount</b> function to obtain the maximum number of processor groups that are included in
@@ -74,16 +65,7 @@ NDIS drivers call the
 To obtain the number of groups that are currently active, call the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisactivegroupcount">NdisActiveGroupCount</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisactivegroupcount">NdisActiveGroupCount</a>
- 
-
- 
 

@@ -7,9 +7,6 @@ ms.assetid: 15AE3B05-1FD4-4ADB-B92F-9098225A920B
 ms.date: 05/10/2018
 keywords: ["DXGK_HDR_METADATA structure"]
 ms.keywords: DXGK_HDR_METADATA, DXGK_HDR_METADATA structure [Display Devices], _DXGK_HDR_METADATA, d3dkmddi/DXGK_HDR_METADATA, display.dxgk_hdr_metadata
-f1_keywords:
- - "d3dkmddi/DXGK_HDR_METADATA"
- - "DXGK_HDR_METADATA"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_HDR_METADATA
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_HDR_METADATA
+f1_keywords:
+ - _DXGK_HDR_METADATA
+ - d3dkmddi/_DXGK_HDR_METADATA
+ - DXGK_HDR_METADATA
+ - d3dkmddi/DXGK_HDR_METADATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_HDR_METADATA
 ---
 
 # _DXGK_HDR_METADATA structure
@@ -46,24 +48,17 @@ req.typenames: DXGK_HDR_METADATA
 
 ## -description
 
-
 Contains information about the HDR metadata.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 Indicates the type of the HDR metadata.
 
-
 ### -field Size
 
 Indicates the size of the HDR metadata.
-
 
 ### -field pMetaData
 

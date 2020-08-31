@@ -8,9 +8,6 @@ ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.date: 04/20/2018
 keywords: ["IFixedPage::GetXpsPartIterator"]
 ms.keywords: GetXpsPartIterator, GetXpsPartIterator method [Print Devices], GetXpsPartIterator method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetXpsPartIterator method, IFixedPage.GetXpsPartIterator, IFixedPage::GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, print.ifixedpage_getxpspartiterator
-f1_keywords:
- - "filterpipeline/IFixedPage.GetXpsPartIterator"
- - "IFixedPage.GetXpsPartIterator"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IFixedPage.GetXpsPartIterator
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IFixedPage::GetXpsPartIterator
+ - filterpipeline/IFixedPage::GetXpsPartIterator
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IFixedPage.GetXpsPartIterator
 ---
 
 # IFixedPage::GetXpsPartIterator
@@ -46,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>GetXpsPartIterator</b> method gets an iterator to enumerate all of the parts that are associated with the page. 
-
+The <b>GetXpsPartIterator</b> method gets an iterator to enumerate all of the parts that are associated with the page.
 
 ## -parameters
 
-
-
-
 ### -param pXpsPartIt 
+
 [out]
 An iterator that you can use to enumerate all of the parts that are associated with the page.
 
-
 ## -returns
-
-
 
 <b>GetXpsPartIterator</b> returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
 
-
-
 Filters should not add or delete parts while using the iterator that the <b>GetXpsPartIterator</b> method retrieves.
-
-
 

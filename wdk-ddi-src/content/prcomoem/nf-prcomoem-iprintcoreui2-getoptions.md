@@ -8,9 +8,6 @@ ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::GetOptions"]
 ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetOptions method, IPrintCoreUI2.GetOptions, IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, print.iprintcoreui2_getoptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.GetOptions"
- - "IPrintCoreUI2.GetOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.GetOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::GetOptions
+ - prcomoem/IPrintCoreUI2::GetOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.GetOptions
 ---
 
 # IPrintCoreUI2::GetOptions
@@ -46,53 +46,46 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::GetOptions</code> method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
-
 
 ## -parameters
 
-
-
-
 ### -param poemuiobj 
+
 [in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-
 ### -param dwFlags 
+
 [in]
 Is reserved and must be set to zero.
 
-
 ### -param pmszFeaturesRequested 
+
 [in]
 Pointer to caller-supplied buffer containing a list of feature keywords (in MULTI_SZ format) whose settings are requested. Set this parameter to <b>NULL</b> to obtain settings for all features.
 
-
 ### -param cbIn 
+
 [in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeaturesRequested</i>. The size includes the last MULTI_SZ null character.
 
-
 ### -param pmszFeatureOptionBuf 
+
 [out]
 Pointer to a caller-supplied buffer that receives a list of feature/option keyword pairs (in MULTI_SZ format) obtained from the driver settings. Each feature/option keyword pair contains the feature keyword name, a null character, the option keyword name, and another null character. The list is terminated by two null characters.
 
-
 ### -param cbSize 
+
 [in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureOptionBuf</i>.
 
-
 ### -param pcbNeeded 
+
 [out]
 Pointer to a memory location that receives the actual size, in bytes, of the feature/option keyword pairs.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -161,14 +154,8 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 UI plug-ins that fully replace the core driver's standard UI pages, and is supported only during the UI plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/replacing-driver-supplied-property-sheet-pages">Replacing Driver-Supplied Property Sheet Pages</a> for more information.
 
@@ -178,13 +165,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-getoptions-and-setoptions">Using GetOptions and SetOptions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -203,7 +184,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

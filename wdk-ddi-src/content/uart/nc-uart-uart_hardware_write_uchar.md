@@ -6,42 +6,53 @@ tech.root: serports
 ms.assetid: 4fb781e3-0e25-4e35-8ebf-f8046b05fd23
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_UCHAR callback function"]
-f1_keywords:
- - "uart/UART_HARDWARE_WRITE_UCHAR"
- - "UART_HARDWARE_WRITE_UCHAR"
 req.header: uart.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- uart.h
-api_name:
-- UART_HARDWARE_WRITE_UCHAR
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
+f1_keywords:
+ - UART_HARDWARE_WRITE_UCHAR
+ - uart/UART_HARDWARE_WRITE_UCHAR
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - uart.h
+api_name:
+ - UART_HARDWARE_WRITE_UCHAR
 ---
 
 # UART_HARDWARE_WRITE_UCHAR callback function
 
+
 ## -description
 
 Writes a byte to the port specified by address.
+
+## -parameters
+
+### -param Address
+
+A pointer to a variable that contains the port or register address.
+
+### -param Value
+
+Specifies a byte to be written to the port or register.
 
 ## -prototype
 
@@ -61,19 +72,9 @@ VOID UartHardwareWriteUchar
 
 ```
 
-## -parameters
-
-### -param Address
-A pointer to a variable that contains the port or register address.
-
-### -param Value
-Specifies a byte to be written to the port or register.
-
-
-
 ## -remarks
 
 Register your implementation of this callback function by setting the **WritePort8** or **WriteRegister8** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.
 
-
 ## -see-also
+

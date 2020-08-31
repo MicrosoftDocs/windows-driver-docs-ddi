@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnGetCaps"
- - "pfnGetCaps"
+ - PFND3D12DDI_VIDEO_GETCAPS
+ - d3d12umddi/PFND3D12DDI_VIDEO_GETCAPS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_VIDEO_GETCAPS callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: ea230363-e2e8-48fb-982b-025615753e83
 ms.date: 04/23/2018
 keywords: ["PHW_QUERY_CLOCK_ROUTINE callback function"]
 ms.keywords: PHW_QUERY_CLOCK_ROUTINE, StrMiniClock, StrMiniClock routine [Streaming Media Devices], stream.strminiclock, strmini-routines_d53b0cf1-3c0c-435f-bc44-732f6418ebb8.xml, strmini/StrMiniClock
-f1_keywords:
- - "strmini/StrMiniClock"
- - "StrMiniClock"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- strmini.h
-api_name:
-- StrMiniClock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PHW_QUERY_CLOCK_ROUTINE
+ - strmini/PHW_QUERY_CLOCK_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - strmini.h
+api_name:
+ - StrMiniClock
 ---
 
 # PHW_QUERY_CLOCK_ROUTINE callback function
@@ -46,32 +46,17 @@ req.typenames:
 
 ## -description
 
-
 Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied <i>StrMiniClock</i> function, provided in each stream's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param TimeContext
-
-
-
-
-
-
-
 
 #### - HwTimeContext [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a> structure that <i>StrMiniClock</i> must fill out with the requested information.
 
-
 ## -remarks
-
-
 
 A stream specifies its <i>StrMiniClock</i> function within the <b>HwClockFunction</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_clock_object">HW_CLOCK_OBJECT</a> substructure of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>. The minidriver fills out the <b>HW_STREAM_OBJECT</b> for a stream within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a> routine in response to a SRB_OPEN_STREAM request.
 
@@ -79,20 +64,11 @@ When the class driver calls <i>StrMiniClock</i>, it fills in the <b>HwDeviceExte
 
 The <i>StrMiniClock</i> routine must handle the functions specified in the <b>ClockSupportFlags</b> of the clock's HW_CLOCK_OBJECT. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_clock_object">HW_CLOCK_OBJECT</a> for details.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_clock_object">HW_CLOCK_OBJECT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>
- 
-
- 
 

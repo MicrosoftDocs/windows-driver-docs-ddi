@@ -8,9 +8,6 @@ ms.assetid: 64c1b899-5737-474c-92ee-f18f7f2f06f5
 ms.date: 04/16/2018
 keywords: ["RtlGetOwnerSecurityDescriptor function"]
 ms.keywords: RtlGetOwnerSecurityDescriptor, RtlGetOwnerSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetownersecuritydescriptor, ntifs/RtlGetOwnerSecurityDescriptor, rtlref_7a3503c8-84ed-4ec7-9b69-5b93daaa6596.xml
-f1_keywords:
- - "ntifs/RtlGetOwnerSecurityDescriptor"
- - "RtlGetOwnerSecurityDescriptor"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlGetOwnerSecurityDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlGetOwnerSecurityDescriptor
+ - ntifs/RtlGetOwnerSecurityDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlGetOwnerSecurityDescriptor
 ---
 
 # RtlGetOwnerSecurityDescriptor function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlGetOwnerSecurityDescriptor</b> routine returns the owner information for a given security descriptor.
-
 
 ## -parameters
 
-
-
-
 ### -param SecurityDescriptor 
+
 [in]
 Pointer to the security descriptor.
 
-
 ### -param Owner 
+
 [out]
 Pointer to an address to receive a pointer to the owner security identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>). If the security descriptor does not currently contain an owner SID, <i>Owner</i> receives <b>NULL</b>.
 
-
 ### -param OwnerDefaulted 
+
 [out]
 Pointer to a Boolean variable that receives <b>TRUE</b> if the owner information is derived from a default mechanism, rather than by the original provider of the security descriptor explicitly, <b>FALSE</b> otherwise. Valid only if <i>Owner</i> receives a non-<b>NULL</b> value.
 
-
 ## -returns
-
-
 
 <b>RtlGetOwnerSecurityDescriptor</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
@@ -94,24 +87,12 @@ The security descriptor's revision level is not known or is not supported. This 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcreatesecuritydescriptor">RtlCreateSecurityDescriptor</a>
 
@@ -138,7 +119,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
- 
-
- 
 

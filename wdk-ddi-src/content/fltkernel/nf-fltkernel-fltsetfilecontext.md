@@ -8,9 +8,6 @@ ms.assetid: d56cb216-a757-4ab8-ac7f-04dc22997835
 ms.date: 04/16/2018
 keywords: ["FltSetFileContext function"]
 ms.keywords: FltApiRef_p_to_z_ef77cece-4fd9-4453-9594-b027037d3ca9.xml, FltSetFileContext, FltSetFileContext routine [Installable File System Drivers], fltkernel/FltSetFileContext, ifsk.fltsetfilecontext
-f1_keywords:
- - "fltkernel/FltSetFileContext"
- - "FltSetFileContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetFileContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetFileContext
+ - fltkernel/FltSetFileContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetFileContext
 ---
 
 # FltSetFileContext function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltSetFileContext</b> routine sets a context for a file. 
-
+The <b>FltSetFileContext</b> routine sets a context for a file.
 
 ## -parameters
 
-
-
-
 ### -param Instance 
-[in]
-An opaque pointer to a minifilter driver instance for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+An opaque pointer to a minifilter driver instance for the caller. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param FileObject 
-[in]
-A file object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+A file object pointer for the file. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param Operation 
+
 [in]
 A flag that specifies the type of operation for <b>FltSetFileContext </b>to perform. This parameter must be one of the following flags:  
 
@@ -81,22 +77,19 @@ If a context is already set for the instance that the <i>Instance </i>parameter 
 
 #### FLT_SET_CONTEXT_KEEP_IF_EXISTS
 
-If a context is already set for the instance that the <i>Instance</i> parameter points to, <b>FltSetFileContext</b> will return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, the routine will insert the context specified in <i>NewContext</i> into the list of contexts for the file. 
-
+If a context is already set for the instance that the <i>Instance</i> parameter points to, <b>FltSetFileContext</b> will return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, the routine will insert the context specified in <i>NewContext</i> into the list of contexts for the file.
 
 ### -param NewContext 
-[in]
-A pointer to the new context to be set for the file. This parameter is required and cannot be <b>NULL</b>. 
 
+[in]
+A pointer to the new context to be set for the file. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param OldContext 
-[out]
-A pointer to a caller-allocated variable that receives the address of the existing file context for the instance pointed to by the <i>Instance </i>parameter. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section. 
 
+[out]
+A pointer to a caller-allocated variable that receives the address of the existing file context for the instance pointed to by the <i>Instance </i>parameter. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section.
 
 ## -returns
-
-
 
 The <b>FltSetFileContext</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -171,14 +164,8 @@ File contexts are not supported for this file. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>FltSetFileContext</b> routine is available on Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems. This routine is available and supported starting with Windows Vista (file contexts are only supported starting with Windows Vista). If <b>FltSetFileContext</b> is called on an operating system where this routine is available but file contexts are not supported, it returns STATUS_NOT_SUPPORTED.  This routine is not available on Windows 2000 SP4 and earlier operating systems.
 
@@ -198,15 +185,9 @@ To delete a file context, call <a href="https://docs.microsoft.com/windows-hardw
 
 To determine whether file contexts are supported for a given file, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontexts">FltSupportsFileContexts</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>. 
 
-For more information about context reference counting, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>. 
-
-
-
+For more information about context reference counting, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>
 
@@ -237,7 +218,4 @@ For more information about context reference counting, see <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>
- 
-
- 
 

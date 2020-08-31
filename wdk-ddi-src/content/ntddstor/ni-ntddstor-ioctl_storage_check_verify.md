@@ -8,9 +8,6 @@ ms.assetid: 12e98642-2ed5-47d6-9461-9d6c52149749
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_CHECK_VERIFY IOCTL"]
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOCTL_STORAGE_CHECK_VERIFY control code [Storage Devices], k307_5ec9ef19-a741-4fb9-876e-7cfc35699dbe.xml, ntddstor/IOCTL_STORAGE_CHECK_VERIFY, storage.ioctl_storage_check_verify
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_CHECK_VERIFY"
- - "IOCTL_STORAGE_CHECK_VERIFY"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_CHECK_VERIFY
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_CHECK_VERIFY
+ - ntddstor/IOCTL_STORAGE_CHECK_VERIFY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_CHECK_VERIFY
 ---
 
 # IOCTL_STORAGE_CHECK_VERIFY IOCTL
@@ -46,29 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
 Determines whether the media has changed on a removable-media device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_check_verify2">IOCTL_STORAGE_CHECK_VERIFY2</a> request instead. 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a>.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
@@ -76,31 +66,15 @@ Optionally, for disk and CD-ROM devices, <b>Irp->AssociatedIrp.SystemBuffer</b> 
 
 Otherwise, this request has no output.
 
-
 ### -output-buffer-length
 
 Optionally, for disk and CD-ROM devices, <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of a buffer, which must be >= <b>sizeof</b>(ULONG). This field is zero if the optional buffer is not specified.
 
 Otherwise, this request has no input.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -146,14 +120,7 @@ If the driver detects an error such as STATUS_BUFFER_TOO_SMALL, STATUS_INSUFFICI
 
 For a tape driver, the <b>Information</b> field is set to zero and the <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_VERIFY_REQUIRED.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_check_verify2">IOCTL_STORAGE_CHECK_VERIFY2</a>
- 
-
- 
 

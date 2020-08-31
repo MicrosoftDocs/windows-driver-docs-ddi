@@ -8,9 +8,6 @@ ms.assetid: 06c3ed56-3640-431d-a4f0-bf3228a02cc2
 ms.date: 03/29/2018
 keywords: ["PARTITION_INFORMATION structure"]
 ms.keywords: "*PPARTITION_INFORMATION, PARTITION_INFORMATION, PARTITION_INFORMATION structure [Storage Devices], PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], _PARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, ntdddisk/PPARTITION_INFORMATION, storage.partition_information, structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml"
-f1_keywords:
- - "ntdddisk/PARTITION_INFORMATION"
- - "PARTITION_INFORMATION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdddisk.h
-api_name:
-- PARTITION_INFORMATION
 targetos: Windows
 req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
+f1_keywords:
+ - _PARTITION_INFORMATION
+ - ntdddisk/_PARTITION_INFORMATION
+ - PPARTITION_INFORMATION
+ - ntdddisk/PPARTITION_INFORMATION
+ - PARTITION_INFORMATION
+ - ntdddisk/PARTITION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdddisk.h
+api_name:
+ - PARTITION_INFORMATION
 ---
 
 # _PARTITION_INFORMATION structure
+
 
 ## -description
 
@@ -120,3 +125,4 @@ Disk drivers should now use structures [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk
 [IoSetPartitionInformationEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetpartitioninformationex)
 
 [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md)
+

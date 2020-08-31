@@ -8,9 +8,6 @@ ms.assetid: 49F4EEA1-BFA6-4A91-8306-E25569C679A6
 ms.date: 03/29/2018
 keywords: ["StorPortInitializeCryptoEngine function"]
 ms.keywords: StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], storage.storportinitializecryptoengine, storport/StorPortInitializeCryptoEngine
-f1_keywords:
- - "storport/StorPortInitializeCryptoEngine"
- - "StorPortInitializeCryptoEngine"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Storport.h
-api_name:
-- StorPortInitializeCryptoEngine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInitializeCryptoEngine
+ - storport/StorPortInitializeCryptoEngine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Storport.h
+api_name:
+ - StorPortInitializeCryptoEngine
 ---
 
 # StorPortInitializeCryptoEngine function
@@ -46,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Reserved for system use.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 <p>Reserved for system use.</p>
 
-
 ### -param CryptoCapabilitiesData
 
 Reserved.
 
-
-
-
-
-
 ## -returns
 
-
-
 Reserved for system use.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageImageableSize interface"]
 ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices],described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
-f1_keywords:
- - "printerextension/IPrintSchemaPageImageableSize"
- - "IPrintSchemaPageImageableSize"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaPageImageableSize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaPageImageableSize
+ - printerextension/IPrintSchemaPageImageableSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaPageImageableSize
 ---
 
 # IPrintSchemaPageImageableSize interface
 
 
 ## -description
-
 
 Exposes the PageImageableSize property of PrintCapabilities. The properties of this interface map directly to those in the PageImageableSize property of PrintCapabilities.
 

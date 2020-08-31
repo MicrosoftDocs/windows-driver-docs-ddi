@@ -8,9 +8,6 @@ ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.date: 04/16/2018
 keywords: ["ACL structure"]
 ms.keywords: "*PACL, ACL, ACL structure [Installable File System Drivers], PACL, PACL structure pointer [Installable File System Drivers], _ACL, ifsk.acl, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/ACL, wdm/PACL"
-f1_keywords:
- - "wdm/ACL"
- - "ACL"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- ACL
 targetos: Windows
 req.typenames: ACL
+f1_keywords:
+ - _ACL
+ - wdm/_ACL
+ - ACL
+ - wdm/ACL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - ACL
 ---
 
 # _ACL structure
@@ -46,14 +48,9 @@ req.typenames: ACL
 
 ## -description
 
-
-The ACL structure is the header of an access-control list (ACL). A complete ACL consists of an ACL structure followed by an ordered list of zero or more access-control entries (ACE). 
-
+The ACL structure is the header of an access-control list (ACL). A complete ACL consists of an ACL structure followed by an ordered list of zero or more access-control entries (ACE).
 
 ## -struct-fields
-
-
-
 
 ### -field AclRevision
 
@@ -61,32 +58,25 @@ Revision level of the ACL.
 
 <b>Microsoft Windows NT 4.0 and earlier:</b> This value must be ACL_REVISION. 
 
-<b>Microsoft Windows 2000 and later:</b> This value can be ACL_REVISION or ACL_REVISION_DS. It must be ACL_REVISION_DS if the ACL contains an object-specific ACE. 
-
+<b>Microsoft Windows 2000 and later:</b> This value can be ACL_REVISION or ACL_REVISION_DS. It must be ACL_REVISION_DS if the ACL contains an object-specific ACE.
 
 ### -field Sbz1
 
-A zero byte of padding that aligns the <b>AclRevision</b> member on a 16-bit boundary. 
-
+A zero byte of padding that aligns the <b>AclRevision</b> member on a 16-bit boundary.
 
 ### -field AclSize
 
-Size, in bytes, of the ACL. This value includes both the ACL structure and all the ACEs. 
-
+Size, in bytes, of the ACL. This value includes both the ACL structure and all the ACEs.
 
 ### -field AceCount
 
-Number of ACEs stored in the ACL. 
-
+Number of ACEs stored in the ACL.
 
 ### -field Sbz2
 
-Two zero bytes of padding that align the ACL structure on a 32-bit boundary. 
-
+Two zero bytes of padding that align the ACL structure on a 32-bit boundary.
 
 ## -remarks
-
-
 
 An ACL includes a sequential list of zero or more ACEs. The individual ACEs in an ACL are numbered from 0 to <i>n</i>, where <i>n</i>+1 is the number of ACEs in the ACL. When editing an ACL, a driver refers to an ACE within the ACL by its index. 
 
@@ -140,15 +130,9 @@ A fourth ACE structure, SYSTEM_ALARM_ACE, is not currently supported.
 
 The ACL structure is to be treated as though it were opaque, and drivers should not attempt to work with its members directly. To ensure that ACLs are semantically correct, drivers can use the functions listed in the See Also section to create and manipulate ACLs. 
 
-ACL and ACE structures must be aligned on 32-bit boundaries. 
-
-
-
+ACL and ACE structures must be aligned on 32-bit boundaries.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
@@ -187,7 +171,4 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_default_dacl">TOKEN_DEFAULT_DACL</a>
- 
-
- 
 

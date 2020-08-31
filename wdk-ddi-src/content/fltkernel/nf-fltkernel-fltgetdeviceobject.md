@@ -8,9 +8,6 @@ ms.assetid: 1351efd1-1f7f-4f4b-b0ce-d9f08fba6613
 ms.date: 04/16/2018
 keywords: ["FltGetDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_0ef7e26f-6eb6-42e3-a469-4d4fa0c8e659.xml, FltGetDeviceObject, FltGetDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDeviceObject, ifsk.fltgetdeviceobject
-f1_keywords:
- - "fltkernel/FltGetDeviceObject"
- - "FltGetDeviceObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetDeviceObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetDeviceObject
+ - fltkernel/FltGetDeviceObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetDeviceObject
 ---
 
 # FltGetDeviceObject function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetDeviceObject</b> routine returns a pointer to the Filter Manager's volume device object (VDO) for a given volume. 
-
+The <b>FltGetDeviceObject</b> routine returns a pointer to the Filter Manager's volume device object (VDO) for a given volume.
 
 ## -parameters
 
-
-
-
 ### -param Volume 
-[in]
-Opaque pointer for the volume. 
 
+[in]
+Opaque pointer for the volume.
 
 ### -param DeviceObject 
-[out]
-Pointer to a caller-allocated variable that receives the volume device object pointer. This parameter is required and cannot be <b>NULL</b>. 
 
+[out]
+Pointer to a caller-allocated variable that receives the volume device object pointer. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetDeviceObject</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -88,14 +81,8 @@ The requested device object does not exist for the given volume. This is an erro
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltGetDeviceObject</b> returns a pointer to the Filter Manager's volume device object (VDO) for the given volume. 
 
@@ -105,15 +92,9 @@ The Filter Manager's VDO is not the same as the underlying storage driver's disk
 
 To get an opaque pointer for the corresponding volume for a given device object, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromdeviceobject">FltGetVolumeFromDeviceObject</a>. 
 
-<b>FltGetDeviceObject</b> increments the reference count on the returned device object pointer. When this pointer is no longer needed, the caller must decrement this reference count by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>. Thus every successful call to <b>FltGetDeviceObject</b> must be matched by a subsequent call to <b>ObDereferenceObject</b>. 
-
-
-
+<b>FltGetDeviceObject</b> increments the reference count on the returned device object pointer. When this pointer is no longer needed, the caller must decrement this reference count by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>. Thus every successful call to <b>FltGetDeviceObject</b> must be matched by a subsequent call to <b>ObDereferenceObject</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdiskdeviceobject">FltGetDiskDeviceObject</a>
 
@@ -128,7 +109,4 @@ To get an opaque pointer for the corresponding volume for a given device object,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
- 
-
- 
 

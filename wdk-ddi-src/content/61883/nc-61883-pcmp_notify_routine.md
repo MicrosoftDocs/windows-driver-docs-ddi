@@ -8,9 +8,6 @@ ms.assetid: 0576D73A-0A36-4AB7-952C-19B56FD246D8
 ms.date: 02/15/2018
 keywords: ["PCMP_NOTIFY_ROUTINE callback function"]
 ms.keywords: 61883/CmpNotifyRoutine, CmpNotifyRoutine, CmpNotifyRoutine callback function, IEEE.pcmp_notify_routine, PCMP_NOTIFY_ROUTINE, PCMP_NOTIFY_ROUTINE callback
-f1_keywords:
- - "61883/CmpNotifyRoutine"
- - "CmpNotifyRoutine"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 61883.h
-api_name:
-- CmpNotifyRoutine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCMP_NOTIFY_ROUTINE
+ - 61883/PCMP_NOTIFY_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 61883.h
+api_name:
+ - CmpNotifyRoutine
 ---
 
 # PCMP_NOTIFY_ROUTINE callback function
@@ -46,17 +46,12 @@ req.typenames:
 
 ## -description
 
-
 This routine is called for plug notification.
-
 
 ## -parameters
 
-
-
-
 ### -param NotifyInfo 
+
 [in]
 Specifies the notification information.
-
 

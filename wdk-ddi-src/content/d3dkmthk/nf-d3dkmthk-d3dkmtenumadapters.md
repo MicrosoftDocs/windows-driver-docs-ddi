@@ -7,9 +7,6 @@ ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.date: 05/10/2018
 keywords: ["D3DKMTEnumAdapters function"]
 ms.keywords: D3DKMTEnumAdapters, D3DKMTEnumAdapters callback function [Display Devices], PFND3DKMT_ENUMADAPTERS, PFND3DKMT_ENUMADAPTERS callback, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters
-f1_keywords:
- - "d3dkmthk/D3DKMTEnumAdapters"
- - "D3DKMTEnumAdapters"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -24,24 +21,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTEnumAdapters
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTEnumAdapters
+ - d3dkmthk/D3DKMTEnumAdapters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTEnumAdapters
 ---
 
 # D3DKMTEnumAdapters function
+
 
 ## -description
 
@@ -71,7 +72,4 @@ The operating system enumerates graphics adapters in the same sequence as their 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_enumadapters">D3DKMT_ENUMADAPTERS</a>
- 
-
- 
 

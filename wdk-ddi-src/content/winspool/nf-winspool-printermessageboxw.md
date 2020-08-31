@@ -8,9 +8,6 @@ ms.assetid: F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07
 ms.date: 04/20/2018
 keywords: ["PrinterMessageBoxW function"]
 ms.keywords: PrinterMessageBoxW, PrinterMessageBoxW function [Print Devices], print.printermessageboxw, winspool/PrinterMessageBoxW
-f1_keywords:
- - "winspool/PrinterMessageBoxW"
- - "PrinterMessageBoxW"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winspool.h
-api_name:
-- PrinterMessageBoxW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PrinterMessageBoxW
+ - winspool/PrinterMessageBoxW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winspool.h
+api_name:
+ - PrinterMessageBoxW
 ---
 
 # PrinterMessageBoxW function
@@ -46,28 +46,24 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
-
-
-
 ### -param hPrinter 
+
 [in]
 
 ### -param Error
 
-
 ### -param hWnd 
+
 [in]
 
 ### -param pText 
+
 [in]
 
 ### -param pCaption 
+
 [in]
 
 ### -param dwType

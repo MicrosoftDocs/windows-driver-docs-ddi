@@ -8,9 +8,6 @@ ms.assetid: 4091a37e-5115-4213-9242-76b119ad28fc
 ms.date: 05/02/2018
 keywords: ["RIL_SendDTMF function"]
 ms.keywords: RIL_SendDTMF, RIL_SendDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_senddtmf, rilapi/RIL_SendDTMF
-f1_keywords:
- - "rilapi/RIL_SendDTMF"
- - "RIL_SendDTMF"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SendDTMF
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SendDTMF
+ - rilapi/RIL_SendDTMF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SendDTMF
 ---
 
 # RIL_SendDTMF function
@@ -46,40 +46,23 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param lpszChars
 
-
 ### -param dwDigitOnTimeMs
-
 
 ### -param dwDigitOffTimeMs
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

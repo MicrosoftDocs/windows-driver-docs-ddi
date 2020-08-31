@@ -5,39 +5,40 @@ description: The video capability check for motion estimation size.
 ms.assetid: 7b0578ac-afde-4356-ac90-c906f8c91487
 ms.date: 10/23/2018
 keywords: ["D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053"
- - "D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053"
-ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053, 
+ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
+ - d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053 structure
+
 
 ## -description
 
@@ -47,7 +48,7 @@ This capability determines the residency size for the motion estimator and the h
 
 ### -field NodeMask
 
-In multi-adapter operation, this indicates which physical adapter of the device this operation applies to. 
+In multi-adapter operation, this indicates which physical adapter of the device this operation applies to.
 
 ### -field InputFormat
 
@@ -86,9 +87,11 @@ Output memory pool size.
 Output memory pool size.
 
 ### -field MotionVectorHeapMemoryPoolL1Size
+
  
 Output memory pool size.
 
 ## -remarks
 
 ## -see-also
+

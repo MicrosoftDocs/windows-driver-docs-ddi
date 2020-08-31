@@ -8,9 +8,6 @@ ms.assetid: b2d54ee9-78aa-4799-a06d-6c79000d3e32
 ms.date: 05/08/2018
 keywords: ["ISynthSinkDMus::SampleToRefTime"]
 ms.keywords: ISynthSinkDMus interface [Audio Devices],SampleToRefTime method, ISynthSinkDMus.SampleToRefTime, ISynthSinkDMus::SampleToRefTime, SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
-f1_keywords:
- - "dmusicks/ISynthSinkDMus.SampleToRefTime"
- - "ISynthSinkDMus.SampleToRefTime"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusicks.h
-api_name:
-- ISynthSinkDMus.SampleToRefTime
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ISynthSinkDMus::SampleToRefTime
+ - dmusicks/ISynthSinkDMus::SampleToRefTime
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusicks.h
+api_name:
+ - ISynthSinkDMus.SampleToRefTime
 ---
 
 # ISynthSinkDMus::SampleToRefTime
@@ -46,56 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <code>SampleToRefTime</code> method converts a sample time to a reference time.
-
 
 ## -parameters
 
-
-
-
 ### -param llSampleTime 
+
 [in]
 Specifies the sample time being passed in.
 
-
 ### -param prfTime 
+
 [out]
 Output pointer for the reference time. This parameter is a pointer to a caller-allocated variable into which the method writes the calculated reference time. Reference time is measured in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 <code>SampleToRefTime</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The <code>SampleToRefTime</code> method accepts a sample time as an input parameter, converts the sample time to a reference time, and outputs the reference time to a location specified by the caller.
 
 The calculation of reference time from sample time to reference time depends on the sampling frequency. For example, if the output buffer is in a 44.2 kHz format, a sample time of 44,200 is equivalent to a reference time of one second.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-sampletoreftime">IDirectMusicSynthSink::SampleToRefTime</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-isynthsinkdmus">ISynthSinkDMus</a>
- 
-
- 
 

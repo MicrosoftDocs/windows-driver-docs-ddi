@@ -7,38 +7,38 @@ ms.assetid: 9EBF7E0C-BF6D-4E99-B289-8C6581A2DEA5
 ms.date: 04/16/2018
 keywords: ["PFND3D12DDI_BEGIN_END_QUERY_0003 callback function"]
 ms.keywords: PFND3D12DDI_BEGIN_END_QUERY_0003, PFND3D12DDI_BEGIN_END_QUERY_0003 callback, d3d12umddi/pfnBeginQuery, display.pfnd3d12ddi_begin_end_query_0003, pfnBeginQuery, pfnBeginQuery callback function [Display Devices]
-f1_keywords:
- - "d3d12umddi/pfnBeginQuery"
- - "pfnBeginQuery"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d12umddi.h
-api_name:
-- pfnBeginQuery
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
-req.typenames:
+req.typenames: 
+f1_keywords:
+ - PFND3D12DDI_BEGIN_END_QUERY_0003
+ - d3d12umddi/PFND3D12DDI_BEGIN_END_QUERY_0003
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d12umddi.h
+api_name:
+ - pfnBeginQuery
 ---
 
 # PFND3D12DDI_BEGIN_END_QUERY_0003 callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <i>pfnBeginQuery</i> callback function defines the beginning of the portion of a command list to which a query applies.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -85,5 +80,4 @@ Begin/End query and resolve query are scheduled commands that are processed on t
 
 Queries that don’t apply to multiple commands may be defined to only use EndQuery.
 For example, if the D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS query only applies to the previous DecodeFrame command in the same command list, only EndQuery is used for this query type.
-
 

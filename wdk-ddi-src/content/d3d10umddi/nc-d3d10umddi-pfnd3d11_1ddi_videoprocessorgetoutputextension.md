@@ -7,9 +7,6 @@ ms.assetid: 16f314f7-a54b-4c79-9cd6-1472ed454bbe
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION callback, d3d10umddi/pfnVideoProcessorGetOutputExtension, display.videoprocessorgetoutputextension, pfnVideoProcessorGetOutputExtension, pfnVideoProcessorGetOutputExtension callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorGetOutputExtension"
- - "pfnVideoProcessorGetOutputExtension"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorGetOutputExtension
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorGetOutputExtension
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Returns private state data from a video processor to an application.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -73,11 +68,6 @@ A handle to the video processor object that was created through a call to the <a
 
 A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
-
-
-
-
-
 ### -param Arg4
 
 *DataSize* [in]
@@ -88,13 +78,9 @@ The size, in bytes, of the private state data in the buffer referenced by the <i
 
 *pData* [in, out]
 
-A pointer to a buffer that receives the private state data. 
-
-
+A pointer to a buffer that receives the private state data.
 
 ## -returns
-
-
 
 <b>VideoProcessorGetOutputExtension</b> returns one of the following values:
 
@@ -104,24 +90,12 @@ A pointer to a buffer that receives the private state data.
 |D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
 |E_FAIL|The display miniport driver cannot return the requested private state data from the video processor.|
 |E_OUTOFMEMORY|Memory was not available to complete the operation.|
- 
 
 ## -remarks
 
-
-
 The Microsoft Direct3D runtime does not validate any parameter data before it calls the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputextension">VideoProcessorSetOutputExtension</a> function.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
- 
-
- 
 

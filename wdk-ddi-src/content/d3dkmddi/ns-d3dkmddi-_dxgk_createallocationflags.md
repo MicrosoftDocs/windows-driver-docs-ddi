@@ -7,9 +7,6 @@ ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.date: 05/10/2018
 keywords: ["DXGK_CREATEALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, _DXGK_CREATEALLOCATIONFLAGS, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags
-f1_keywords:
- - "d3dkmddi/DXGK_CREATEALLOCATIONFLAGS"
- - "DXGK_CREATEALLOCATIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_CREATEALLOCATIONFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CREATEALLOCATIONFLAGS
+f1_keywords:
+ - _DXGK_CREATEALLOCATIONFLAGS
+ - d3dkmddi/_DXGK_CREATEALLOCATIONFLAGS
+ - DXGK_CREATEALLOCATIONFLAGS
+ - d3dkmddi/DXGK_CREATEALLOCATIONFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_CREATEALLOCATIONFLAGS
 ---
 
 # _DXGK_CREATEALLOCATIONFLAGS structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_CREATEALLOCATIONFLAGS
 
 ## -description
 
-
 The DXGK_CREATEALLOCATIONFLAGS structure identifies how to create allocations.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Resource
 
@@ -61,24 +58,15 @@ A UINT value that specifies whether allocations belong to a resource.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 
 A member in the union that DXGK_CREATEALLOCATIONFLAGS contains that can hold a 32-bit value that identifies how to create allocations.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createallocation">DXGKARG_CREATEALLOCATION</a>
- 
-
- 
 

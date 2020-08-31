@@ -8,9 +8,6 @@ ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.date: 04/30/2018
 keywords: ["RtlVerifyVersionInfo function"]
 ms.keywords: RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, wdm/RtlVerifyVersionInfo
-f1_keywords:
- - "wdm/RtlVerifyVersionInfo"
- - "RtlVerifyVersionInfo"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlVerifyVersionInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlVerifyVersionInfo
+ - wdm/RtlVerifyVersionInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlVerifyVersionInfo
 ---
 
 # RtlVerifyVersionInfo function
@@ -47,21 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlVerifyVersionInfo</b> routine compares a specified set of operating system version requirements to the corresponding attributes of the currently running version of the operating system.
-
 
 ## -parameters
 
-
-
-
 ### -param VersionInfo 
-[in]
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system. 
 
+[in]
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system.
 
 ### -param TypeMask 
+
 [in]
 Specifies which members of <i>VersionInfo</i> to compare with the corresponding attributes of the currently running version of the operating system. <i>TypeMask</i> is set to a logical OR of one or more of the following values.
                         
@@ -152,10 +148,9 @@ VER_PRODUCT_TYPE
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ConditionMask 
+
 [in]
 Specifies how to compare each <b>VersionInfo</b> member. To set the value of <i>ConditionMask</i>, a caller should use the <b>VER_SET_CONDITION</b> macro:
 						  
@@ -382,12 +377,8 @@ At least one of the specified product suites must be present in the current syst
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>RtlVerifyVersionInfo</b> returns one of the following status values:
 
@@ -430,14 +421,8 @@ The specified version does not match the currently running version of the operat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlVerifyVersionInfo</b> enables a driver to easily verify the presence of a required set of operating system attributes. <b>RtlVerifyVersionInfo</b> is the kernel-mode equivalent of the user-mode <b>VerifyVersionInfo</b> function in the Windows SDK. See the example in the Windows SDK that shows how to verify the system version.
 
@@ -459,13 +444,7 @@ If the major service pack version exceeds the minimum required, then the minor s
 </ul>
 To verify a range of system versions, a driver can call <b>RtlVerifyVersionInfo</b> twice, once to verify a lower bound on the system version and once to verify an upper bound on the system version.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>
 
@@ -476,7 +455,4 @@ To verify a range of system versions, a driver can call <b>RtlVerifyVersionInfo<
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>
- 
-
- 
 

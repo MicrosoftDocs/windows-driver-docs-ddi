@@ -8,9 +8,6 @@ ms.assetid: 155604e9-45f6-4dd2-9373-90f689713c1a
 ms.date: 05/02/2018
 keywords: ["NdisInterlockedPushEntrySList macro"]
 ms.keywords: NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, netvista.ndisinterlockedpushentryslist
-f1_keywords:
- - "ndis/NdisInterlockedPushEntrySList"
- - "NdisInterlockedPushEntrySList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisInterlockedPushEntrySList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInterlockedPushEntrySList
+ - ndis/NdisInterlockedPushEntrySList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisInterlockedPushEntrySList
 ---
 
 # NdisInterlockedPushEntrySList macro
@@ -46,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInterlockedPushEntrySList</b> function inserts an entry at the head of a sequenced, singly linked
   list.
 
-
 ## -parameters
-
-
-
 
 ### -param SListHead
 
@@ -66,14 +61,12 @@ A pointer to the head of the already initialized sequenced, singly linked list i
 
 A pointer to the entry to be inserted.
 
-
 ### -param Lock 
+
 [in]
 A pointer to a caller-supplied spin lock, not currently held by the caller.
 
 ## -remarks
-
-
 
 Before the driver's initial call the 
     <b>NdisInterlockedPushEntrySList</b> function, it must initialize the list head with the 
@@ -104,13 +97,7 @@ If
     <b>NdisInterlockedPushEntrySList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>ListHead</i> parameter and the list entries must be resident
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
 
@@ -133,7 +120,4 @@ If
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a>
- 
-
- 
 

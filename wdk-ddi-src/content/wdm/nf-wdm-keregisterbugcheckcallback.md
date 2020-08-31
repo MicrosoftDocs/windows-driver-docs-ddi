@@ -8,9 +8,6 @@ ms.assetid: 6a4ab5a4-4d09-4fd5-bc7b-0a8e5a634eb3
 ms.date: 04/30/2018
 keywords: ["KeRegisterBugCheckCallback function"]
 ms.keywords: KeRegisterBugCheckCallback, KeRegisterBugCheckCallback routine [Kernel-Mode Driver Architecture], k105_42736e68-1f5a-47df-976a-df3bfa9a356e.xml, kernel.keregisterbugcheckcallback, wdm/KeRegisterBugCheckCallback
-f1_keywords:
- - "wdm/KeRegisterBugCheckCallback"
- - "KeRegisterBugCheckCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeRegisterBugCheckCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeRegisterBugCheckCallback
+ - wdm/KeRegisterBugCheckCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeRegisterBugCheckCallback
 ---
 
 # KeRegisterBugCheckCallback function
+
 
 ## -description
 
@@ -50,28 +51,33 @@ The <b>KeRegisterBugCheckCallback</b> routine registers a <a href="https://docs.
 ## -parameters
 
 ### -param CallbackRecord 
+
 [out]
-Pointer to a callback record that was previously initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">KeInitializeCallbackRecord</a>, for which the caller provides nonpaged storage. 
+Pointer to a callback record that was previously initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">KeInitializeCallbackRecord</a>, for which the caller provides nonpaged storage.
 
 ### -param CallbackRoutine 
+
 [in]
-Pointer to the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_callback_routine">KBUGCHECK_CALLBACK_ROUTINE callback function</a>. 
+Pointer to the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_callback_routine">KBUGCHECK_CALLBACK_ROUTINE callback function</a>.
 
 ### -param Buffer 
+
 [in, optional]
-Pointer to a caller-supplied buffer, which must be in resident memory, such as nonpaged pool. 
+Pointer to a caller-supplied buffer, which must be in resident memory, such as nonpaged pool.
 
 ### -param Length 
+
 [in]
-Specifies the size in bytes of the caller-allocated buffer. 
+Specifies the size in bytes of the caller-allocated buffer.
 
 ### -param Component 
+
 [in]
-Pointer to a null-terminated ANSI string that identifies the caller. This string usually contains the name of the device driver, or possibly of its device. 
+Pointer to a null-terminated ANSI string that identifies the caller. This string usually contains the name of the device driver, or possibly of its device.
 
 ## -returns
 
-<b>KeRegisterBugCheckCallback</b> returns <b>TRUE</b> if the caller-supplied routine is successfully added to the set of registered bug-check callbacks; otherwise, it returns <b>FALSE</b>. 
+<b>KeRegisterBugCheckCallback</b> returns <b>TRUE</b> if the caller-supplied routine is successfully added to the set of registered bug-check callbacks; otherwise, it returns <b>FALSE</b>.
 
 ## -remarks
 
@@ -122,3 +128,4 @@ To more accurately identify errors when you run the code analysis tools, be sure
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">KeInitializeCallbackRecord</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a>
+

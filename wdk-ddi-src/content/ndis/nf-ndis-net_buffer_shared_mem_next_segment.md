@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 8576525d-ec6f-4986-924e-8550b47a0ba3
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_SHARED_MEM_NEXT_SEGMENT macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_SHARED_MEM_NEXT_SEGMENT"
- - "NET_BUFFER_SHARED_MEM_NEXT_SEGMENT"
 ms.keywords: NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
+ - ndis/NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
 ---
 
 # NET_BUFFER_SHARED_MEM_NEXT_SEGMENT macro
@@ -65,3 +64,4 @@ An NDIS 6.20 or later driver can use the **NET_BUFFER_SHARED_MEM_NEXT_SEGMENT** 
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
 
 [**NET_BUFFER_SHARED_MEMORY**](ns-ndis-_net_buffer_shared_memory.md)
+

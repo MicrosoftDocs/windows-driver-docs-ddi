@@ -8,9 +8,6 @@ ms.assetid: 3c7c0d40-a51e-4656-b262-233f0af8db0f
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2MULTIPLYTRANSFORM structure"]
 ms.keywords: "*LPD3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], LPD3DHAL_DP2MULTIPLYTRANSFORM, LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], _D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml, display.d3dhal_dp2multiplytransform"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM"
- - "D3DHAL_DP2MULTIPLYTRANSFORM"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2MULTIPLYTRANSFORM
 targetos: Windows
 req.typenames: D3DHAL_DP2MULTIPLYTRANSFORM
+f1_keywords:
+ - _D3DHAL_DP2MULTIPLYTRANSFORM
+ - d3dhal/_D3DHAL_DP2MULTIPLYTRANSFORM
+ - D3DHAL_DP2MULTIPLYTRANSFORM
+ - d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2MULTIPLYTRANSFORM
 ---
 
 # _D3DHAL_DP2MULTIPLYTRANSFORM structure
@@ -46,18 +48,12 @@ req.typenames: D3DHAL_DP2MULTIPLYTRANSFORM
 
 ## -description
 
-
-
    DirectX 8.0 and later versions only.
    
 
 The D3DHAL_DP2MULTIPLYTRANSFORM structure is used to modify the transform matrix for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field xfrmType
 
@@ -68,34 +64,20 @@ Specifies the current transform being modified.
 |D3DTRANSFORMSTATE_PROJECTION|Specifies the current projection transformation.|
 |D3DTRANSFORMSTATE_VIEW|Specifies the current view transformation.|
 |D3DTRANSFORMSTATE_WORLD|Specifies the current world transformation.|
- 
-
 
 ### -field matrix
 
 Specifies the matrix used to modify the current transform.
 
-
 ## -remarks
-
-
 
 This structure is used with hardware transform and lighting and is used by the Direct3D runtime to inform the driver about modifications to the various transformation matrices.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2settransform">D3DHAL_DP2SETTRANSFORM</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

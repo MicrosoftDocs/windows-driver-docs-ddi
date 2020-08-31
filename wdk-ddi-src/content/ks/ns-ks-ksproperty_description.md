@@ -8,9 +8,6 @@ ms.assetid: d3d59dca-7214-493c-bb70-4391696fe017
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_DESCRIPTION structure"]
 ms.keywords: "*PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], PKSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, ks/KSPROPERTY_DESCRIPTION, ks/PKSPROPERTY_DESCRIPTION, stream.ksproperty_description"
-f1_keywords:
- - "ks/KSPROPERTY_DESCRIPTION"
- - "KSPROPERTY_DESCRIPTION"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSPROPERTY_DESCRIPTION
 targetos: Windows
 req.typenames: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION
+f1_keywords:
+ - PKSPROPERTY_DESCRIPTION
+ - ks/PKSPROPERTY_DESCRIPTION
+ - KSPROPERTY_DESCRIPTION
+ - ks/KSPROPERTY_DESCRIPTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSPROPERTY_DESCRIPTION
 ---
 
 # KSPROPERTY_DESCRIPTION structure
@@ -46,43 +48,31 @@ req.typenames: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION
 
 ## -description
 
-
 The KSPROPERTY_DESCRIPTION structure specifies the size and type of values contained in a specific property.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AccessFlags
 
 Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
-
 ### -field DescriptionSize
 
 Specifies total size in bytes of the KSPROPERTY_DESCRIPTION structure and any values entries that follow it. If the basic-support property request returns no values entries, this member is the size of KSPROPERTY_DESCRIPTION.
-
 
 ### -field PropTypeSet
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier">KSIDENTIFIER</a>. If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
 
-
 ### -field MembersListCount
 
 Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader">KSPROPERTY_MEMBERSHEADER</a> structures to follow this header.
-
 
 ### -field Reserved
 
 Reserved for future use. Set to zero.
 
-
 ## -remarks
-
-
 
 A driver returns the <b>KSPROPERTY_DESCRIPTION</b> structure in response to a basic support property request from a client.
 
@@ -92,13 +82,7 @@ The values information that may follow the KSPROPERTY_DESCRIPTION structure is d
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier">KSIDENTIFIER</a>
 
@@ -113,7 +97,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>
- 
-
- 
 

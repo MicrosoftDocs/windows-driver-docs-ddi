@@ -7,9 +7,6 @@ ms.assetid: 47d0330e-5413-4729-b103-c1a4d6c648e1
 ms.date: 05/10/2018
 keywords: ["D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_5498c651-0ef6-4114-9821-de193980f879.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, display.d3dkmt_waitforsynchronizationobject
-f1_keywords:
- - "d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT"
- - "D3DKMT_WAITFORSYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+f1_keywords:
+ - _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+ - d3dkmthk/_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+ - D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+ - d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 ---
 
 # _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure
@@ -46,37 +48,23 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 
 ## -description
 
-
-The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforsynchronizationobject">D3DKMTWaitForSynchronizationObject</a> function waits for to occur. 
-
+The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforsynchronizationobject">D3DKMTWaitForSynchronizationObject</a> function waits for to occur.
 
 ## -struct-fields
-
-
-
 
 ### -field hContext
 
 [in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
 
-
 ### -field ObjectCount
 
-[in] The number of synchronization events in the <b>ObjectHandleArray</b> array. 
-
+[in] The number of synchronization events in the <b>ObjectHandleArray</b> array.
 
 ### -field ObjectHandleArray
 
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for. The D3DDDI_MAX_OBJECT_WAITED_ON constant, which is defined as 32, indicates the maximum number of synchronization events that the context can wait for.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforsynchronizationobject">D3DKMTWaitForSynchronizationObject</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe::Reset"]
 ms.keywords: IWDFUsbTargetPipe interface,Reset method, IWDFUsbTargetPipe.Reset, IWDFUsbTargetPipe::Reset, Reset, Reset method, Reset method,IWDFUsbTargetPipe interface, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, umdf.iwdfusbtargetpipe_reset, wdf.iwdfusbtargetpipe_reset, wudfusb/IWDFUsbTargetPipe::Reset
-f1_keywords:
- - "wudfusb/IWDFUsbTargetPipe.Reset"
- - "IWDFUsbTargetPipe.Reset"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetPipe.Reset
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetPipe::Reset
+ - wudfusb/IWDFUsbTargetPipe::Reset
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetPipe.Reset
 ---
 
 # IWDFUsbTargetPipe::Reset
@@ -46,15 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Reset</b> method resets the data toggle and clears the stall condition on a USB pipe.
 
-
 ## -returns
-
-
 
 <b>Reset</b> returns one of the following values:
 
@@ -99,33 +95,18 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>Reset</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
 For more information about how <b>Reset</b> works, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_resetpipe">WinUsb_ResetPipe</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_resetpipe">WinUsb_ResetPipe</a>
- 
-
- 
 

@@ -18,23 +18,26 @@ req.target-min-winversvr:
 req.target-type: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_SUPL_VERSION_2
-f1_keywords:
-- gnssdriver/GNSS_SUPL_VERSION_2
-- GNSS_SUPL_VERSION_2
 targetos: Windows
 req.typenames: GNSS_SUPL_VERSION_2, *PGNSS_SUPL_VERSION_2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_SUPL_VERSION_2
+f1_keywords:
+ - PGNSS_SUPL_VERSION_2
+ - gnssdriver/PGNSS_SUPL_VERSION_2
+ - GNSS_SUPL_VERSION_2
+ - gnssdriver/GNSS_SUPL_VERSION_2
 ---
 
 # GNSS_SUPL_VERSION_2 structure
+
 
 ## -description
 
@@ -57,3 +60,4 @@ Service indicator version number.
 ## -remarks
 
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: 3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF
 ms.date: 03/29/2018
 keywords: ["StorPortStateChangeDetected function"]
 ms.keywords: ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS, STATE_CHANGE_LUN, STATE_CHANGE_TARGET, StorPortStateChangeDetected, StorPortStateChangeDetected routine [Storage Devices], storage.storportstatechangedetected, storport/StorPortStateChangeDetected
-f1_keywords:
- - "storport/StorPortStateChangeDetected"
- - "StorPortStateChangeDetected"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortStateChangeDetected
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortStateChangeDetected
+ - storport/StorPortStateChangeDetected
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortStateChangeDetected
 ---
 
 # StorPortStateChangeDetected function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 Notifies the Storport port driver of a state change for a logical unit number (LUN), host bus adapter (HBA) port, or target device.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
-
 ### -param ChangedEntity 
+
 [in]
 Flags indicating the entities whose state has changed. This is a bitwise <b>OR</b> combination of these values:
 
@@ -103,15 +99,14 @@ Target state has changed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Address 
+
 [in]
 The address of the entity with the state change. <i>Address</i> value cannot change until the callback at  <i>HwStateChange</i> is invoked. If <i>Address</i> is allocated in memory, the memory should be freed by the callback routine.
 
-
 ### -param Attributes 
+
 [in]
 Attributes associated with the entity. These are a bitwise <b>OR</b> combination of the following:
 
@@ -131,22 +126,18 @@ LUNs are reserved for virtual machine use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param HwStateChange 
+
 [in, optional]
 A pointer to a callback routine supplied by the miniport. If present, the Storport driver will call this routine when the driver is finished processing this state change notification.
 
-
 ### -param HwStateChangeContext 
+
 [in, optional]
 A miniport-supplied context value that is included when the routine set in <i>HwStateChange</i> is called.
 
-
 ## -returns
-
-
 
 A status value indicating the result of the notification. This can be one of these values:
 
@@ -189,14 +180,8 @@ A prior notification is in process and this one cannot be scheduled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A successful call to<b> StorPortStateChangeDetected</b> results in re-enumeration of the changed entity. 
 
@@ -204,16 +189,7 @@ Only one state change request can be active at any time. If a miniport needs to 
 
 If multiple flags are specified in <i>ChangedEntity</i>, the  flag with greater value will have precedence over lesser ones.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_state_change">HwStorStateChange</a>
- 
-
- 
 

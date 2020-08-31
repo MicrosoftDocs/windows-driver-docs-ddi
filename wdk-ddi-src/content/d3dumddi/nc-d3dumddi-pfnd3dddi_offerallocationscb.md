@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnOfferAllocationsCb"
- - "pfnOfferAllocationsCb"
+ - PFND3DDDI_OFFERALLOCATIONSCB
+ - d3dumddi/PFND3DDDI_OFFERALLOCATIONSCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_OFFERALLOCATIONSCB callback function
+
 
 ## -description
 

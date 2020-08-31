@@ -8,9 +8,6 @@ ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.date: 03/29/2018
 keywords: ["STORAGE_DIAGNOSTIC_LEVEL enumeration"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelDefault, StorageDiagnosticLevelMax, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, ntddstor/StorageDiagnosticLevelMax, storage.storage_diagnostic_level"
-f1_keywords:
- - "ntddstor/STORAGE_DIAGNOSTIC_LEVEL"
- - "STORAGE_DIAGNOSTIC_LEVEL"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_DIAGNOSTIC_LEVEL
 targetos: Windows
 req.typenames: STORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL
+f1_keywords:
+ - _STORAGE_DIAGNOSTIC_LEVEL
+ - ntddstor/_STORAGE_DIAGNOSTIC_LEVEL
+ - PSTORAGE_DIAGNOSTIC_LEVEL
+ - ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL
+ - STORAGE_DIAGNOSTIC_LEVEL
+ - ntddstor/STORAGE_DIAGNOSTIC_LEVEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_DIAGNOSTIC_LEVEL
 ---
 
 # _STORAGE_DIAGNOSTIC_LEVEL enumeration
@@ -46,19 +50,13 @@ req.typenames: STORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL
 
 ## -description
 
-
 The <b>STORAGE_DIAGNOSTIC_LEVEL</b> enumeration specifies the target type of a storage diagnostic.
 
-
 ## -enum-fields
-
-
-
 
 ### -field StorageDiagnosticLevelDefault
 
 Specifies the default diagnostic level.
-
 
 ### -field StorageDiagnosticLevelMax
 

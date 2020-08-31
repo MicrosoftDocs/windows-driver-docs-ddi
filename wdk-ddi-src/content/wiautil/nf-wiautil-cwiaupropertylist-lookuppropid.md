@@ -8,9 +8,6 @@ ms.assetid: 454e51fc-f81a-49c8-9e07-e32819af2642
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::LookupPropId"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],LookupPropId method, CWiauPropertyList.LookupPropId, CWiauPropertyList::LookupPropId, LookupPropId, LookupPropId method [Imaging Devices], LookupPropId method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_lookuppropid, wiauFncs_087766c2-718f-4d02-be7f-869df198c3a7.xml, wiautil/CWiauPropertyList::LookupPropId
-f1_keywords:
- - "wiautil/CWiauPropertyList.LookupPropId"
- - "CWiauPropertyList.LookupPropId"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.LookupPropId
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiauPropertyList::LookupPropId
+ - wiautil/CWiauPropertyList::LookupPropId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.LookupPropId
 ---
 
 # CWiauPropertyList::LookupPropId
+
 
 ## -description
 
@@ -62,3 +63,4 @@ On success, the method returns the index of the property within the property lis
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [CWiauPropertyList::GetPropId](nf-wiautil-cwiaupropertylist-getpropid.md)
+

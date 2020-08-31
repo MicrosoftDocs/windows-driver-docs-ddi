@@ -8,9 +8,6 @@ ms.assetid: 2daf99a8-42dc-4739-8e7e-80d3c9a084b7
 ms.date: 04/20/2018
 keywords: ["IBidiSpl2::SendRecvXMLStream"]
 ms.keywords: IBidiSpl2 interface [Print Devices],SendRecvXMLStream method, IBidiSpl2.SendRecvXMLStream, IBidiSpl2::SendRecvXMLStream, SendRecvXMLStream, SendRecvXMLStream method [Print Devices], SendRecvXMLStream method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_SendRecvXMLStream, bidispl/IBidiSpl2::SendRecvXMLStream, gdi.ibidispl2_ibidispl2__sendrecvxmlstream, print.ibidispl2_ibidispl2__sendrecvxmlstream
-f1_keywords:
- - "bidispl/IBidiSpl2.SendRecvXMLStream"
- - "IBidiSpl2.SendRecvXMLStream"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiSpl2.SendRecvXMLStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiSpl2::SendRecvXMLStream
+ - bidispl/IBidiSpl2::SendRecvXMLStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiSpl2.SendRecvXMLStream
 ---
 
 # IBidiSpl2::SendRecvXMLStream
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SendRecvXMLStream</b> method sends a bidirectional printer communication request and receives the response as <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> objects formatted in accordance with the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param pSRequest 
+
 [in]
 A pointer to the bidi communication request as a stream that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
-
 ### -param ppSResponse 
+
 [out]
 A pointer to the printer's response as a stream that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
-
 ## -returns
-
-
 
 The method returns one of the following values.
 
@@ -114,22 +107,11 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 Note that the <b>HRESULT</b> may contain a system error code that is defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of <i>pSRequest</i> is either UTF-8 or Unicode with a byte order mark OxFEFF.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -144,7 +126,4 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
- 
-
- 
 

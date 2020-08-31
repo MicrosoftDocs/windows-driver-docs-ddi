@@ -8,9 +8,6 @@ ms.assetid: b5c5a0e4-0fd9-4950-ac38-4bf58a0af077
 ms.date: 02/26/2020
 keywords: ["IOCTL_USBPRINT_GET_1284_ID IOCTL"]
 ms.keywords: IOCTL_USBPRINT_GET_1284_ID, IOCTL_USBPRINT_GET_1284_ID control, IOCTL_USBPRINT_GET_1284_ID control code [Print Devices], print.ioctl_usbprint_get_1284_id, usbioctl_4b1e9092-6483-4603-b690-a5e655a73670.xml, usbprint/IOCTL_USBPRINT_GET_1284_ID
-f1_keywords:
- - "usbprint/IOCTL_USBPRINT_GET_1284_ID"
- - "IOCTL_USBPRINT_GET_1284_ID"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbprint.h
-api_name:
-- IOCTL_USBPRINT_GET_1284_ID
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_USBPRINT_GET_1284_ID
+ - usbprint/IOCTL_USBPRINT_GET_1284_ID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbprint.h
+api_name:
+ - IOCTL_USBPRINT_GET_1284_ID
 ---
 
 # IOCTL_USBPRINT_GET_1284_ID IOCTL
+
 
 ## -description
 
@@ -85,3 +86,4 @@ The output buffer must be large enough to contain a two-byte quantity holding th
 [WdfIoTargetSendInternalIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
 
 [WdfIoTargetSendIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)
+

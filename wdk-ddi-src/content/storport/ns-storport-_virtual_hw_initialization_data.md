@@ -8,9 +8,6 @@ ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
 ms.date: 03/29/2018
 keywords: ["VIRTUAL_HW_INITIALIZATION_DATA structure"]
 ms.keywords: "*PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], VIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], _VIRTUAL_HW_INITIALIZATION_DATA, storage.virtual_hw_initialization_data, storport/PVIRTUAL_HW_INITIALIZATION_DATA, storport/VIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml"
-f1_keywords:
- - "storport/VIRTUAL_HW_INITIALIZATION_DATA"
- - "VIRTUAL_HW_INITIALIZATION_DATA"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- VIRTUAL_HW_INITIALIZATION_DATA
 targetos: Windows
 req.typenames: VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA
+f1_keywords:
+ - _VIRTUAL_HW_INITIALIZATION_DATA
+ - storport/_VIRTUAL_HW_INITIALIZATION_DATA
+ - PVIRTUAL_HW_INITIALIZATION_DATA
+ - storport/PVIRTUAL_HW_INITIALIZATION_DATA
+ - VIRTUAL_HW_INITIALIZATION_DATA
+ - storport/VIRTUAL_HW_INITIALIZATION_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - VIRTUAL_HW_INITIALIZATION_DATA
 ---
 
 # _VIRTUAL_HW_INITIALIZATION_DATA structure
+
 
 ## -description
 
@@ -225,3 +230,4 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 [**HwStorStartIo**](nc-storport-hw_startio.md)
 
 [**VirtualHwStorFindAdapter**](nc-storport-virtual_hw_find_adapter.md)
+

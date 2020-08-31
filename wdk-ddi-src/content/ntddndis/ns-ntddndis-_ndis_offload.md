@@ -8,8 +8,6 @@ ms.assetid: 9d1447f1-aae8-4c27-a27b-e521c0c8ca97
 ms.date: 02/27/2020
 ms.keywords: "*PNDIS_OFFLOAD, IPSEC_OFFLOAD_V2_AND_TCP_CHECKSUM_COEXISTENCE, IPSEC_OFFLOAD_V2_AND_UDP_CHECKSUM_COEXISTENCE, NDIS_OFFLOAD, NDIS_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD, PNDIS_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD, netvista.ndis_offload, ntddndis/NDIS_OFFLOAD, ntddndis/PNDIS_OFFLOAD, tcpip_offload_ref_e5f796e9-714c-43f9-98e4-1d0de0dcc8ee.xml"
 ms.topic: struct
-f1_keywords:
- - "ntddndis/NDIS_OFFLOAD"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_OFFLOAD
 targetos: Windows
 req.typenames: NDIS_OFFLOAD, *PNDIS_OFFLOAD
+f1_keywords:
+ - _NDIS_OFFLOAD
+ - ntddndis/_NDIS_OFFLOAD
+ - PNDIS_OFFLOAD
+ - ntddndis/PNDIS_OFFLOAD
+ - NDIS_OFFLOAD
+ - ntddndis/NDIS_OFFLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_OFFLOAD
 ---
 
 # _NDIS_OFFLOAD structure
+
 
 ## -description
 
@@ -145,7 +151,7 @@ The network adapter supports IPsecV2 and UDP checksums.
 </td>
 </tr>
 </table>
- 
+
 ### -field IPsecV2
 
 Internet protocol security (IPsec) offload version 2 information in an 
@@ -156,7 +162,6 @@ Internet protocol security (IPsec) offload version 2 information in an
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-segment-coalescing--rsc-">Receive Segment Coalescing (RSC)</a> offload information in    an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_recv_seg_coalesce_offload">NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD</a> structure.
 
 ### -field EncapsulatedPacketTaskOffloadGre
-
 
 [Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload](https://docs.microsoft.com/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload) information in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_encapsulated_packet_task_offload">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a> structure. This member should only be set by miniport drivers that support task offloads for NVGRE-formatted packets.<div class="alert"><b>Note</b>  This member is available only in NDIS 6.30 and later. </div>
 <div> </div>
@@ -242,3 +247,4 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/task-offload">TCP/IP Task Offload</a>
 
 [UDP Segmentation Offload (USO)](https://docs.microsoft.com/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
+

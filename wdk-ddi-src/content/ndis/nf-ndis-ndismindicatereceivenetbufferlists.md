@@ -8,9 +8,6 @@ ms.assetid: b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b
 ms.date: 05/02/2018
 keywords: ["NdisMIndicateReceiveNetBufferLists function"]
 ms.keywords: NdisMIndicateReceiveNetBufferLists, NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateReceiveNetBufferLists, ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, netvista.ndismindicatereceivenetbufferlists
-f1_keywords:
- - "ndis/NdisMIndicateReceiveNetBufferLists"
- - "NdisMIndicateReceiveNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMIndicateReceiveNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMIndicateReceiveNetBufferLists
+ - ndis/NdisMIndicateReceiveNetBufferLists
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMIndicateReceiveNetBufferLists
 ---
 
 # NdisMIndicateReceiveNetBufferLists function
@@ -47,22 +47,17 @@ req.typenames:
 
 ## -description
 
-
 Miniport drivers call the 
   <b>NdisMIndicateReceiveNetBufferLists</b> function to indicate the receipt of data from the network.
 
-
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterHandle 
+
 [in]
 The miniport handle that NDIS passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
-
 
 ### -param NetBufferList
 
@@ -71,6 +66,7 @@ A linked list of
      miniport driver allocated.
 
 ### -param PortNumber 
+
 [in]
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
@@ -78,14 +74,14 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
 
-
 ### -param NumberOfNetBufferLists 
+
 [in]
 The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures at 
      <i>NetBufferLists</i> .
 
-
 ### -param ReceiveFlags 
+
 [in]
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
@@ -175,7 +171,6 @@ Specifies that all the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 Reserved.
 
-
 ## -remarks
 
 A miniport driver typically calls the 
@@ -226,9 +221,6 @@ The caller of
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
@@ -260,7 +252,4 @@ The caller of
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
    ProtocolReceiveNetBufferLists</a>
- 
-
- 
 

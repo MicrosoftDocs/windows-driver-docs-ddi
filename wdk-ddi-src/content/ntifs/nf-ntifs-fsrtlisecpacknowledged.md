@@ -8,9 +8,6 @@ ms.assetid: ee2f06f6-3295-4a92-b232-daf66ec6195a
 ms.date: 04/16/2018
 keywords: ["FsRtlIsEcpAcknowledged function"]
 ms.keywords: FsRtlIsEcpAcknowledged, FsRtlIsEcpAcknowledged routine [Installable File System Drivers], fsrtlref_5e05018f-5f4a-41e1-a05a-93ab636012e1.xml, ifsk.fsrtlisecpacknowledged, ntifs/FsRtlIsEcpAcknowledged
-f1_keywords:
- - "ntifs/FsRtlIsEcpAcknowledged"
- - "FsRtlIsEcpAcknowledged"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlIsEcpAcknowledged
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlIsEcpAcknowledged
+ - ntifs/FsRtlIsEcpAcknowledged
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlIsEcpAcknowledged
 ---
 
 # FsRtlIsEcpAcknowledged function
@@ -46,42 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlIsEcpAcknowledged</b> routine is used to determine if a given extra create parameter (ECP) context structure has been marked as acknowledged.
-
 
 ## -parameters
 
-
-
-
 ### -param EcpContext 
+
 [in]
 Pointer to the ECP context structure to test for acknowledgment.
 
-
 ## -returns
-
-
 
 The <b>FsRtlIsEcpAcknowledged </b>routine returns <b>TRUE</b> if the ECP was marked as acknowledged and <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 To mark an ECP context structure as acknowledged, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacknowledgeecp">FltAcknowledgeEcp</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -108,7 +90,4 @@ To mark an ECP context structure as acknowledged, use the <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
- 
-
- 
 

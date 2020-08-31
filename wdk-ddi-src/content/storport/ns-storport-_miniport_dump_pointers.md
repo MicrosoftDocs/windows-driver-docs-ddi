@@ -8,9 +8,6 @@ ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
 ms.date: 03/29/2018
 keywords: ["MINIPORT_DUMP_POINTERS structure"]
 ms.keywords: "*PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], _MINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, storport/MINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml"
-f1_keywords:
- - "storport/MINIPORT_DUMP_POINTERS"
- - "MINIPORT_DUMP_POINTERS"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- MINIPORT_DUMP_POINTERS
 targetos: Windows
 req.typenames: MINIPORT_DUMP_POINTERS, *PMINIPORT_DUMP_POINTERS
+f1_keywords:
+ - _MINIPORT_DUMP_POINTERS
+ - storport/_MINIPORT_DUMP_POINTERS
+ - PMINIPORT_DUMP_POINTERS
+ - storport/PMINIPORT_DUMP_POINTERS
+ - MINIPORT_DUMP_POINTERS
+ - storport/MINIPORT_DUMP_POINTERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - MINIPORT_DUMP_POINTERS
 ---
 
 # _MINIPORT_DUMP_POINTERS structure
+
 
 ## -description
 
@@ -138,3 +143,4 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
 
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
+

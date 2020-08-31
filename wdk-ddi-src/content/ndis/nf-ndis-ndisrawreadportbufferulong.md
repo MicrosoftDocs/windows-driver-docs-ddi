@@ -8,9 +8,6 @@ ms.assetid: 86a0b7c4-ef3a-4dd9-961d-35f96182e30c
 ms.date: 05/02/2018
 keywords: ["NdisRawReadPortBufferUlong macro"]
 ms.keywords: NdisRawReadPortBufferUlong, NdisRawReadPortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_0696e0e4-976c-4d17-a482-054d5d441608.xml, ndis/NdisRawReadPortBufferUlong, netvista.ndisrawreadportbufferulong
-f1_keywords:
- - "ndis/NdisRawReadPortBufferUlong"
- - "NdisRawReadPortBufferUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisRawReadPortBufferUlong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRawReadPortBufferUlong
+ - ndis/NdisRawReadPortBufferUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisRawReadPortBufferUlong
 ---
 
 # NdisRawReadPortBufferUlong macro
@@ -46,23 +46,19 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisRawReadPortBufferUlong</b> reads a specified number of ULONGs into a caller-supplied buffer.
-
 
 ## -parameters
 
-
-
-
 ### -param Port 
+
 [in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
-
 ### -param Buffer 
+
 [out]
 Pointer to a caller-allocated buffer, in resident memory, into which the ULONGs will be
      transferred from the NIC. The caller must allocate a buffer at least (
@@ -70,26 +66,17 @@ Pointer to a caller-allocated buffer, in resident memory, into which the ULONGs 
      *
      <i>Length</i> ).
 
-
 ### -param Length 
+
 [in]
 Specifies how many ULONGs to transfer from the NIC.
 
-
 ## -remarks
-
-
 
 <b>NdisRawReadPortBufferUlong</b> reads each ULONG value, one at a time, from the given I/O port into the
     given buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -112,7 +99,4 @@ Specifies how many ULONGs to transfer from the NIC.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawwriteportbufferulong">NdisRawWritePortBufferUlong</a>
- 
-
- 
 

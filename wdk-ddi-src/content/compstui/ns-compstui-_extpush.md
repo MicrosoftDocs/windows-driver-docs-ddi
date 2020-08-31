@@ -8,9 +8,6 @@ ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.date: 04/20/2018
 keywords: ["EXTPUSH structure"]
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
-f1_keywords:
- - "compstui/EXTPUSH"
- - "EXTPUSH"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- EXTPUSH
 targetos: Windows
 req.typenames: EXTPUSH, *PEXTPUSH
+f1_keywords:
+ - _EXTPUSH
+ - compstui/_EXTPUSH
+ - PEXTPUSH
+ - compstui/PEXTPUSH
+ - EXTPUSH
+ - compstui/EXTPUSH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - EXTPUSH
 ---
 
 # _EXTPUSH structure
@@ -46,19 +50,13 @@ req.typenames: EXTPUSH, *PEXTPUSH
 
 ## -description
 
-
 The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size, in bytes, of the EXTPUSH structure.
-
 
 ### -field Flags
 
@@ -134,11 +132,9 @@ If set, <b>hDlgTemplate</b> contains a template handle.
 
 If not set, <b>DlgTemplateID</b> contains a template resource identifier.
 
-
 ### -field pTitle
 
 String identifier, representing the push button title. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
-
 
 ### -field DUMMYUNIONNAME.DlgProc
 
@@ -146,13 +142,11 @@ DLGPROC-typed pointer to a dialog box procedure to process messages for the push
 
 If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
 
-
 ### -field DUMMYUNIONNAME.pfnCallBack
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
 
 If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
-
 
 ### -field IconID
 
@@ -170,11 +164,7 @@ An icon handle. If a handle is specified, EPF_ICONID_AS_HICON must be set in the
 </ul>
 CPSUI displays the icon next to the push button. If this value is zero, an icon is not displayed.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DlgTemplateID
 
@@ -182,22 +172,17 @@ DIALOG resource identifier, describing a dialog box template.
 
 Not used if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
-
 ### -field DUMMYUNIONNAME.hDlgTemplate
 
 Handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
 
 Used only if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
-
 ### -field dwReserved
 
 Reserved, must be initialized to zero.
 
-
 ## -remarks
-
-
 
 An extended push button is a CPSUI-defined type of push button that can be associated with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure. An OPTITEM structure can have one extended push button or one extended check box associated with it.
 
@@ -211,16 +196,7 @@ When the dialog box procedure is called with a <i>uMsg</i> value of WM_INITDIALO
 
 If you do not need CPSUI to display a dialog box when the user clicks on the button, you can specify the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function in the <b>pfnCallBack</b> member. When a user clicks on the button, CPSUI calls the callback function. The accompanying CPSUICBPARAM structure's <b>Reason</b> member will be set to CPSUICB_REASON_EXTPUSH.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extchkbox">EXTCHKBOX</a>
- 
-
- 
 

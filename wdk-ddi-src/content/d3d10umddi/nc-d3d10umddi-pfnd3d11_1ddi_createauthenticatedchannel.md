@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateAuthenticatedChannel"
- - "CreateAuthenticatedChannel"
+ - PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL
+ - d3d10umddi/PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL callback function
+
 
 ## -description
 

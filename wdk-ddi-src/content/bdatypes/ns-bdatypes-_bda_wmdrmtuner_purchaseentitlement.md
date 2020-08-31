@@ -8,9 +8,6 @@ ms.assetid: 348E7C25-4998-490E-A732-5780B0A21DE0
 ms.date: 04/23/2018
 keywords: ["BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure"]
 ms.keywords: "*PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure [Streaming Media Devices], PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT structure pointer [Streaming Media Devices], _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT, bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, stream.bda_wmdrmtuner_purchaseentitlement"
-f1_keywords:
- - "bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT"
- - "BDA_WMDRMTUNER_PURCHASEENTITLEMENT"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_WMDRMTUNER_PURCHASEENTITLEMENT
 targetos: Windows
 req.typenames: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
+f1_keywords:
+ - _BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+ - bdatypes/_BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+ - PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
+ - bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
+ - BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+ - bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_WMDRMTUNER_PURCHASEENTITLEMENT
 ---
 
 # _BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure
@@ -46,23 +50,13 @@ req.typenames: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTI
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lResult
 
-
 ### -field ulDescrambleStatus
 
-
 ### -field ulCaptureTokenLength
-
 
 ### -field argbCaptureTokenBuffer
 

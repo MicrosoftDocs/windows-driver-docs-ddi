@@ -8,9 +8,6 @@ ms.assetid: 7cb249d3-b39f-4b6b-8023-bb0c0ef8f9e1
 ms.date: 05/02/2018
 keywords: ["RIL_ResetModem function"]
 ms.keywords: RIL_ResetModem, RIL_ResetModem method [Network Drivers Starting with Windows Vista], netvista.ril_resetmodem, rilapi/RIL_ResetModem
-f1_keywords:
- - "rilapi/RIL_ResetModem"
- - "RIL_ResetModem"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_ResetModem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_ResetModem
+ - rilapi/RIL_ResetModem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_ResetModem
 ---
 
 # RIL_ResetModem function
@@ -46,31 +46,17 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwResetKind
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

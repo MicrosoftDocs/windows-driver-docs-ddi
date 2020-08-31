@@ -8,9 +8,6 @@ ms.assetid: 7C55EB8D-1B68-484A-B95A-E0150FBA9AB8
 ms.date: 05/07/2018
 keywords: ["UFX_DEVICE_CAPABILITIES_INIT function"]
 ms.keywords: UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
-f1_keywords:
- - "ufxclient/UFX_DEVICE_CAPABILITIES_INIT"
- - "UFX_DEVICE_CAPABILITIES_INIT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ufxclient.h
-api_name:
-- UFX_DEVICE_CAPABILITIES_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UFX_DEVICE_CAPABILITIES_INIT
+ - ufxclient/UFX_DEVICE_CAPABILITIES_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ufxclient.h
+api_name:
+ - UFX_DEVICE_CAPABILITIES_INIT
 ---
 
 # UFX_DEVICE_CAPABILITIES_INIT function
@@ -46,17 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
-
 
 ## -parameters
 
-
-
-
 ### -param Capabilities 
+
 [out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
-
 

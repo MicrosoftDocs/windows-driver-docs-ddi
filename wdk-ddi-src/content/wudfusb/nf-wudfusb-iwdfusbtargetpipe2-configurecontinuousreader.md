@@ -8,9 +8,6 @@ ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe2::ConfigureContinuousReader"]
 ms.keywords: ConfigureContinuousReader, ConfigureContinuousReader method, ConfigureContinuousReader method,IWDFUsbTargetPipe2 interface, IWDFUsbTargetPipe2 interface,ConfigureContinuousReader method, IWDFUsbTargetPipe2.ConfigureContinuousReader, IWDFUsbTargetPipe2::ConfigureContinuousReader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, umdf.iwdfusbtargetpipe2_configurecontinuousreader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader
-f1_keywords:
- - "wudfusb/IWDFUsbTargetPipe2.ConfigureContinuousReader"
- - "IWDFUsbTargetPipe2.ConfigureContinuousReader"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetPipe2.ConfigureContinuousReader
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetPipe2::ConfigureContinuousReader
+ - wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetPipe2.ConfigureContinuousReader
 ---
 
 # IWDFUsbTargetPipe2::ConfigureContinuousReader
@@ -46,60 +46,53 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>ConfigureContinuousReader</b> method configures the framework to continuously read from a USB pipe.
 
-
 ## -parameters
 
-
-
-
 ### -param TransferLength 
+
 [in]
 The maximum length, in bytes, of data that can be received from the device.
 
-
 ### -param HeaderLength 
+
 [in]
 An offset, in bytes, into the buffer that receives data from the device. The framework will store data from the device in a read buffer, beginning at the offset value. In other words, this space precedes the <i>TransferLength</i>-sized space in which the framework stores data from the device.
 
-
 ### -param TrailerLength 
+
 [in]
 The length, in bytes, of a trailing buffer space. This space follows the <i>TransferLength</i>-sized space in which the framework stores data from the device.
 
-
 ### -param NumPendingReads 
+
 [in]
 The number of read requests that the framework will queue to receive data from the I/O target. If this value is zero, the framework uses a default number of read requests. If the specified value is greater than the permitted maximum value, the framework uses the permitted maximum value. For more information about the <i>NumPendingReads</i> parameter, see the following Remarks section.
 
-
 ### -param pMemoryCleanupCallbackInterface 
+
 [in, optional]
 A pointer to a driver-supplied <b>IUnkown</b> interface that the framework uses to access an optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iobjectcleanup-oncleanup">IObjectCleanup::OnCleanup</a> callback function. The framework calls the callback function when it deallocates the read buffer that it creates to handle the continuous read operation. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param pOnCompletion 
-[in]
-A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface that provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">OnReaderCompletion</a> callback function. 
 
+[in]
+A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface that provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">OnReaderCompletion</a> callback function.
 
 ### -param pCompletionContext 
-[in, optional]
-An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a> callback function. 
 
+[in, optional]
+An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a> callback function.
 
 ### -param pOnFailure 
-[in, optional]
-A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a> interface that provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed-onreaderfailure">OnReaderFailure</a> callback function. 
 
+[in, optional]
+A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a> interface that provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed-onreaderfailure">OnReaderFailure</a> callback function.
 
 ## -returns
-
-
 
 <b>ConfigureContinuousReader</b> returns S_OK if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -148,14 +141,7 @@ The <i>TransferLength</i>, <i>HeaderLength</i>, or <i>TrailerLength</i> paramete
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
-
-
 ## -remarks
-
-
 
 You can configure a continuous reader for a bulk pipe or an interrupt pipe. The pipe must have an input endpoint.
 
@@ -237,12 +223,7 @@ hr = pIUsbInterruptPipe2->ConfigureContinuousReader(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallback-ond0entry">IPnpCallback::OnD0Entry</a>
 
@@ -273,7 +254,4 @@ hr = pIUsbInterruptPipe2->ConfigureContinuousReader(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe2">IWDFUsbTargetPipe2</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 0b380597-09dc-414f-b2c6-f541d35540da
 ms.date: 03/29/2018
 keywords: ["StorPortPutScatterGatherList function"]
 ms.keywords: StorPortPutScatterGatherList, StorPortPutScatterGatherList routine [Storage Devices], storage.storportputscattergatherlist, storport/StorPortPutScatterGatherList, storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml
-f1_keywords:
- - "storport/StorPortPutScatterGatherList"
- - "StorPortPutScatterGatherList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortPutScatterGatherList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortPutScatterGatherList
+ - storport/StorPortPutScatterGatherList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortPutScatterGatherList
 ---
 
 # StorPortPutScatterGatherList function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortPutScatterGatherList</b> routine releases any resources associated with a scatter/gather list that was previously created by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportbuildscattergatherlist">StorPortBuildScatterGatherList</a> routine.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param ScatterGatherList 
+
 [in]
 A pointer to a buffer that contains a scatter/gather list that was previously created by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportbuildscattergatherlist">StorPortBuildScatterGatherList</a> routine.
 
-
 ### -param WriteToDevice 
+
 [in]
 A value that indicates the direction of the DMA transfer that has completed. A value of <b>TRUE</b> indicates a transfer from the data buffer to the device, and <b>FALSE</b> indicates a transfer from the device to the data buffer.
 
-
 ## -returns
-
-
 
 <b>StorPortPutScatterGatherList</b> returns one of the following status codes:
 
@@ -126,29 +119,14 @@ The call was made at an invalid IRQL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>StorPortPutScatterGatherList</b> routine does not free the buffer memory for the scatter/gather list, because the miniport driver allocated this memory. 
 
 After the <b>StorPortPutScatterGatherList</b> routine returns, the miniport driver can reuse the buffer to create a new scatter/gather list by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportbuildscattergatherlist">StorPortBuildScatterGatherList</a> again. If a miniport driver has finished using the buffer for the scatter/gather list, it should free the memory for the buffer after the <b>StorPortPutScatterGatherList</b> routine returns. If the miniport driver allocates the buffer memory with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine, it should free the memory by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreepool">StorPortFreePool</a> routine.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportbuildscattergatherlist">StorPortBuildScatterGatherList</a>
- 
-
- 
 

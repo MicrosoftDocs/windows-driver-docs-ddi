@@ -8,9 +8,6 @@ ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::GetFeatureAttribute"]
 ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetFeatureAttribute method, IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.GetFeatureAttribute"
- - "IPrintCoreUI2.GetFeatureAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.GetFeatureAttribute
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::GetFeatureAttribute
+ - prcomoem/IPrintCoreUI2::GetFeatureAttribute
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.GetFeatureAttribute
 ---
 
 # IPrintCoreUI2::GetFeatureAttribute
@@ -46,58 +46,51 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::GetFeatureAttribute</code> method retrieves the feature attribute list or the value of a specific feature attribute.
-
 
 ## -parameters
 
-
-
-
 ### -param poemuiobj 
+
 [in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-
 ### -param dwFlags 
+
 [in]
 Is reserved and must be set to zero.
 
-
 ### -param pszFeatureKeyword 
+
 [in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single feature keyword to query for. This value can be obtained from a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumfeatures">IPrintCoreUI2::EnumFeatures</a>.
 
-
 ### -param pszAttribute 
+
 [in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported feature attribute names, as opposed to specifying a specific feature attribute name.
 
-
 ### -param pdwDataType 
+
 [out]
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
-
 ### -param pbData 
+
 [out]
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
-
 ### -param cbSize 
+
 [in]
 Specifies the size, in bytes of the buffer pointed to by <code>pbData</code>.
 
-
 ### -param pcbNeeded 
+
 [out]
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
-
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -157,14 +150,8 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
 
@@ -174,13 +161,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-getfeatureattribute">Using GetFeatureAttribute</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -199,7 +180,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

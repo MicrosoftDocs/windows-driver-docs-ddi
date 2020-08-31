@@ -24,8 +24,8 @@ req.typenames: D3D12DDI_MEMORY_SEGMENT_GROUP_0054
 targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021, 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_MEMORY_SEGMENT_GROUP_0054"
- - "D3D12DDI_MEMORY_SEGMENT_GROUP_0054"
+ - D3D12DDI_MEMORY_SEGMENT_GROUP_0054
+ - d3d12umddi/D3D12DDI_MEMORY_SEGMENT_GROUP_0054
 topic_type:
  - apiref
 api_type:
@@ -41,6 +41,7 @@ dev_langs:
 ---
 
 # D3D12DDI_MEMORY_SEGMENT_GROUP_0054 enumeration
+
 
 ## -description
 

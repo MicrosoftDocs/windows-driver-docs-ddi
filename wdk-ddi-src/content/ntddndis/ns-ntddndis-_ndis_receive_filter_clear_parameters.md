@@ -8,9 +8,6 @@ ms.assetid: 101f9fea-cfc2-4ea5-82ee-a260d10b5a96
 ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, netvista.ndis_receive_filter_clear_parameters, ntddndis/NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, virtual_machine_queue_ref_c0ec4d22-f248-4fe1-855e-99cfe6b2cd1f.xml"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS"
- - "NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, *PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+f1_keywords:
+ - _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+ - ntddndis/_NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+ - PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+ - ntddndis/PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+ - NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+ - ntddndis/NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure
 
 
 ## -description
-
-
 
 The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure specifies the parameters to clear a
   receive filter on a network adapter. 
@@ -74,9 +76,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
 The 
@@ -99,11 +98,9 @@ Original version for NDIS 6.20.
 The driver sets the 
         <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_CLEAR_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field QueueId
 
@@ -120,10 +117,7 @@ A receive filter identifier. The filter identifier
      is an integer from one to the number of receive filters that the network adapter supports. A value of zero is
      not valid.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID requests of   
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-clear-filter">OID_RECEIVE_FILTER_CLEAR_FILTER</a> to specify a filter to clear on a VMQ or SR-IOV VPort receive queue. The filter was
@@ -131,13 +125,7 @@ The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID reque
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">
     OID_RECEIVE_FILTER_SET_FILTER</a> OID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -148,7 +136,4 @@ The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID reque
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 ms.date: 04/20/2018
 keywords: ["ExtDeviceMode function"]
 ms.keywords: ExtDeviceMode, ExtDeviceMode function [Print Devices], print.extdevicemode, spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml, winspool/ExtDeviceMode
-f1_keywords:
- - "winspool/ExtDeviceMode"
- - "ExtDeviceMode"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinSpool.drv
-api_name:
-- ExtDeviceMode
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtDeviceMode
+ - winspool/ExtDeviceMode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinSpool.drv
+api_name:
+ - ExtDeviceMode
 ---
 
 # ExtDeviceMode function
@@ -46,55 +46,50 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExtDeviceMode</b> function is provided only for compatibility with 16-bit applications. Printer drivers without this requirement should instead use the <b>DocumentProperties</b> function, which is described in the Microsoft Windows SDK documentation.
 
 The <b>ExtDeviceMode</b> function retrieves or modifies printer initialization information for a given graphics driver, or displays a driver-supplied printer-configuration property sheet for the specified printer.
 
-
 ## -parameters
 
-
-
-
 ### -param hWnd 
+
 [in, optional]
 Handle to the parent window for the printer-configuration property sheet.
 
-
 ### -param hInst 
+
 [in, optional]
 
-      Not used. Handle to the module instance of the device driver. 
-
+      Not used. Handle to the module instance of the device driver.
 
 ### -param pDevModeOutput 
-[in, out]
-Pointer to the DEVMODE structure that receives the printer configuration data supplied in the buffer pointed to by the <i>pDevModeInput</i> parameter. 
 
+[in, out]
+Pointer to the DEVMODE structure that receives the printer configuration data supplied in the buffer pointed to by the <i>pDevModeInput</i> parameter.
 
 ### -param pDeviceName 
+
 [in, optional]
 Pointer to a NULL-terminated string that contains the name of the device for which the printer configuration property sheet is displayed.
 
-
 ### -param pPort 
+
 [in, optional]
 Pointer to a NULL-terminated string that contains the name of the port to which the device is connected, such as LPT1.
 
-
 ### -param pDevModeInput 
+
 [in, optional]
 Pointer to the DEVMODE structure that the operating system uses to initialize the property sheet fields. 
 
 This parameter is used only if the DM_IN_BUFFER flag is set in the <i>fMode</i> parameter. If DM_IN_BUFFER is not set, the operating system uses the printer's default DEVMODE structure.
 
-
 ### -param pProfile 
+
 [in, optional]
 
-      Not used. Pointer to a NULL-terminated string that contains the name of the initialization file in which initialization information is recorded and read from. 
-
+      Not used. Pointer to a NULL-terminated string that contains the name of the initialization file in which initialization information is recorded and read from.
 
 ### -param fMode
 
@@ -136,23 +131,12 @@ Display a property sheet to allow the user to modify printer properties, and the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If the <i>wMode</i> parameter is zero, the function returns the size, in bytes, of the DEVMODE structure required to contain the printer-driver initialization data. Note that this value can be larger than the size of a DEVMODE structure if the printer driver appends private data to the structure. If the function displays the initialization-dialog box, the return value is either IDOK or IDCANCEL, depending on which button the user chose. If the function does not display the dialog box and was successful, the return value is IDOK. The return value is less than zero if the function failed. 
-
-
-
+If the <i>wMode</i> parameter is zero, the function returns the size, in bytes, of the DEVMODE structure required to contain the printer-driver initialization data. Note that this value can be larger than the size of a DEVMODE structure if the printer driver appends private data to the structure. If the function displays the initialization-dialog box, the return value is either IDOK or IDCANCEL, depending on which button the user chose. If the function does not display the dialog box and was successful, the return value is IDOK. The return value is less than zero if the function failed.
 
 ## -remarks
 
-
-
-The <b>ExtDeviceMode</b> function calls the <b>DocumentProperties</b> function (described in the Windows SDK documentation) to display a property sheet that allows a user to select printer options such as paper size, paper orientation, and output quality. Printer drivers written for Windows 3.x and Windows 9x use this function. 
-
-
+The <b>ExtDeviceMode</b> function calls the <b>DocumentProperties</b> function (described in the Windows SDK documentation) to display a property sheet that allows a user to select printer options such as paper size, paper orientation, and output quality. Printer drivers written for Windows 3.x and Windows 9x use this function.
 

@@ -8,9 +8,6 @@ ms.assetid: b2f318d2-9ee2-4b4b-86ff-4561f1bbe084
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::SetCodeLevel"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetCodeLevel method, IDebugControl2 interface [Windows Debugging],SetCodeLevel method, IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging],SetCodeLevel method, IDebugControl3.SetCodeLevel, IDebugControl3::SetCodeLevel, IDebugControl::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, SetCodeLevel, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging],IDebugControl interface, SetCodeLevel method [Windows Debugging],IDebugControl2 interface, SetCodeLevel method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, debugger.setcodelevel
-f1_keywords:
- - "dbgeng/IDebugControl.SetCodeLevel"
- - "IDebugControl.SetCodeLevel"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.SetCodeLevel
-- IDebugControl2.SetCodeLevel
-- IDebugControl3.SetCodeLevel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::SetCodeLevel
+ - dbgeng/IDebugControl3::SetCodeLevel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.SetCodeLevel
+ - IDebugControl2.SetCodeLevel
+ - IDebugControl3.SetCodeLevel
 ---
 
 # IDebugControl3::SetCodeLevel
@@ -48,16 +48,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetCodeLevel</b> method sets the current code level and is mainly used when stepping through code.
-
 
 ## -parameters
 
-
-
-
 ### -param Level 
+
 [in]
 Specifies the current code level.  <i>Level</i> can take one of the values in the following table.
 
@@ -87,12 +83,8 @@ DEBUG_LEVEL_ASSEMBLY
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -113,24 +105,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about the code level, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getcodelevel">GetCodeLevel</a>
 
@@ -145,7 +125,4 @@ For more information about the code level, see <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
 

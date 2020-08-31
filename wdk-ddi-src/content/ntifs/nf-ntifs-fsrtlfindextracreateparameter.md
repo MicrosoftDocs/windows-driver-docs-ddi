@@ -8,9 +8,6 @@ ms.assetid: e72958d0-b7ff-45b6-bdd2-f894d5b44cf4
 ms.date: 04/16/2018
 keywords: ["FsRtlFindExtraCreateParameter function"]
 ms.keywords: FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ifsk.fsrtlfindextracreateparameter, ntifs/FsRtlFindExtraCreateParameter
-f1_keywords:
- - "ntifs/FsRtlFindExtraCreateParameter"
- - "FsRtlFindExtraCreateParameter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlFindExtraCreateParameter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlFindExtraCreateParameter
+ - ntifs/FsRtlFindExtraCreateParameter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlFindExtraCreateParameter
 ---
 
 # FsRtlFindExtraCreateParameter function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlFindExtraCreateParameter</b> routine searches a given ECP list for an ECP context structure of a given type and returns a pointer to this structure if it is found.
-
 
 ## -parameters
 
-
-
-
 ### -param EcpList 
+
 [in]
 Pointer to the ECP list structure that <b>FsRtlFindExtraCreateParameter</b> uses to search for the ECP context structure, supplied by the <i>EcpType</i> parameter.
 
-
 ### -param EcpType 
+
 [in]
 Pointer to a GUID that uniquely identifies the ECP context structure.  This GUID value is used by the <b>FsRtlFindExtraCreateParamter</b> routine to determine if the ECP context structure exists in the ECP list, supplied by the <i>EcpList</i> parameter.
 
-
 ### -param EcpContext 
+
 [out, optional]
 Optional parameter that receives a pointer to the found ECP context structure.  If the ECP context structure is not found in the ECP list, <i>EcpContext</i> is set to <b>NULL</b>.  If <i>EcpContext</i> is set to <b>NULL</b> by the caller, the return value of <b>FsRtlFindExtraCreateParamter</b> can be used to determine if the ECP context structure is in the ECP list.
 
-
 ### -param EcpContextSize 
+
 [out, optional]
 Optional parameter that receives the size, in bytes, of the found ECP context structure.  If the ECP context structure is not found, <i>EcpContextSize</i> is set to zero.
 
-
 ## -returns
-
-
 
 <b>FsRtlFindExtraCreateParameter</b> returns one of the following NTSTATUS values:
 
@@ -109,15 +102,8 @@ Optional parameter that receives the size, in bytes, of the found ECP context st
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -152,7 +138,4 @@ Optional parameter that receives the size, in bytes, of the found ECP context st
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
- 
-
- 
 

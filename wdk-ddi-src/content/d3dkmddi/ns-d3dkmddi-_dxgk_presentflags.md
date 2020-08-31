@@ -7,9 +7,6 @@ ms.assetid: ff1fe315-7824-4e61-83f5-6d75aba2a941
 ms.date: 05/10/2018
 keywords: ["DXGK_PRESENTFLAGS structure"]
 ms.keywords: DXGK_PRESENTFLAGS, DXGK_PRESENTFLAGS structure [Display Devices], DmStructs_b8913202-bee3-4584-b323-6c6fb47a5c8d.xml, _DXGK_PRESENTFLAGS, d3dkmddi/DXGK_PRESENTFLAGS, display.dxgk_presentflags
-f1_keywords:
- - "d3dkmddi/DXGK_PRESENTFLAGS"
- - "DXGK_PRESENTFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_PRESENTFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PRESENTFLAGS
+f1_keywords:
+ - _DXGK_PRESENTFLAGS
+ - d3dkmddi/_DXGK_PRESENTFLAGS
+ - DXGK_PRESENTFLAGS
+ - d3dkmddi/DXGK_PRESENTFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_PRESENTFLAGS
 ---
 
 # _DXGK_PRESENTFLAGS structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_PRESENTFLAGS
 
 ## -description
 
-
 The DXGK_PRESENTFLAGS structure identifies, in bit-field flags, the type of present operation to perform.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Blt
 
@@ -61,20 +58,17 @@ The DXGK_PRESENTFLAGS structure identifies, in bit-field flags, the type of pres
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field ColorFill
 
 [in] A UINT value that specifies whether a source exists to present from. If this member is set, no source exists, and the driver should fill the destination rectangle on the destination surface with the A8R8G8B8 color that the <b>Color</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_present">DXGKARG_PRESENT</a> structure specifies.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
-
 ### -field Flip
 
 [in] A UINT value that specifies whether a flip operation occurs between back and primary surfaces. If this member is set, the driver should perform the present operation by pointing the video scan output to the source rather than copying from the source to the destination. This type of present operation is tear-free.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
-
 
 ### -field FlipWithNoWait
 
@@ -84,13 +78,11 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
-
 ### -field SrcColorKey
 
 [in] A UINT value that specifies whether to perform source color-keying by using the value in the <b>Color</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_present">DXGKARG_PRESENT</a> structure. That is, any pixel in the source surface that matches the color key should not be copied to the destination surface, and all of the source pixels that do not match the color key should be copied.
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
-
 
 ### -field DstColorKey
 
@@ -98,13 +90,11 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
-
 ### -field LinearToSrgb
 
 [in] A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the copy operation. sRGB format is gamma corrected. For more information about the sRGB format, visit the <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
-
 
 ### -field Rotate
 
@@ -113,7 +103,6 @@ Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Va
 The display miniport driver should rotate the data only if the <b>Rotate</b> bit-field flag is set. Even if the driver determines that the current orientation of the screen is rotated from the presentation data and <b>Rotate</b> is not set, the driver should not rotate the data.
 
 Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
-
 
 ### -field FlipStereo
 
@@ -131,7 +120,6 @@ Setting this member is equivalent to setting the    ninth bit of the 32-bit <b>V
 
 Supported starting with Windows 8.
 
-
 ### -field FlipStereoTemporaryMono
 
 [in] Specifies whether the driver should use the left image of a stereo allocation for the right and left portions of a stereo frame. The driver performs the same present operation as with <b>FlipStereo</b>, except that it should scan out only from the left image to produce both images of a stereo frame.
@@ -148,7 +136,6 @@ Setting this member is equivalent to setting the    tenth bit of the 32-bit <b>V
 
 Supported starting with Windows 8.
 
-
 ### -field FlipStereoPreferRight
 
 [in] Specifies that when the driver clones a stereo primary allocation to a mono monitor, it should use the right image.
@@ -161,7 +148,6 @@ Setting this member is equivalent to setting the    eleventh bit of the 32-bit <
 
 Supported starting with Windows 8.
 
-
 ### -field BltStereoUseRight
 
 [in] Specifies that when the driver presents from a stereo allocation to a mono allocation, it should use the right image. If not set, the driver should use the left image.
@@ -169,7 +155,6 @@ Supported starting with Windows 8.
 Setting this member is equivalent to setting the    twelfth bit of the 32-bit <b>Value</b> member (0x00000800).
 
 Supported starting with Windows 8.
-
 
 ### -field FlipWithMultiPlaneOverlay
 
@@ -179,11 +164,7 @@ Setting this member is equivalent to setting the    thirteenth bit of the 32-bit
 
 Supported starting with Windows 8.1.
 
-
 ### -field RedirectedFlip
-
- 
-
 
 ### -field Reserved
 
@@ -197,15 +178,11 @@ Supported starting with Windows 8.
 
 Setting this member to zero is equivalent to setting the remaining 24 bits (0xFFFFFF00) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 [in] A member in the union that DXGK_PRESENTFLAGS contains that can hold a 32-bit value that identifies the type of present operation to perform.
 
-
 ## -remarks
-
-
 
 The <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags are mutually exclusive.
 
@@ -217,14 +194,7 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 <li>The driver should honor the settings of the <b>FlipImmediate</b> and <b>FlipOnNextVSync</b> members of  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
@@ -263,7 +233,4 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
- 
-
- 
 

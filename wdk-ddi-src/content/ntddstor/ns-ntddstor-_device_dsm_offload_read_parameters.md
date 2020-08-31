@@ -8,9 +8,6 @@ ms.assetid: 4C0B2CFD-B981-4304-B3F9-AD534BF5A823
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, storage.device_dsm_offload_read_parameters"
-f1_keywords:
- - "ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
- - "DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 targetos: Windows
 req.typenames: DEVICE_DSM_OFFLOAD_READ_PARAMETERS, *PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
+f1_keywords:
+ - _DEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ - ntddstor/_DEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ - PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ - ntddstor/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ - DEVICE_DSM_OFFLOAD_READ_PARAMETERS
+ - ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 ---
 
 # _DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure
+
 
 ## -description
 
@@ -80,3 +85,4 @@ See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware
 [DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_dsm_offload_write_parameters)
 
 [DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_data_set_range)
+

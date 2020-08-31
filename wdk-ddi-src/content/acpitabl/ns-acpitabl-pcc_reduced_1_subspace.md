@@ -20,23 +20,27 @@ req.target-type: Windows
 req.typenames: PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- _PCC_REDUCED_1_SUBSPACE
-- PCC_REDUCED_1_SUBSPACE
-f1_keywords:
-- acpitabl/_PCC_REDUCED_1_SUBSPACE
-- acpitabl/PCC_REDUCED_1_SUBSPACE
-- PCC_REDUCED_1_SUBSPACE
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _PCC_REDUCED_1_SUBSPACE
+ - PCC_REDUCED_1_SUBSPACE
+f1_keywords:
+ - _PCC_REDUCED_1_SUBSPACE
+ - acpitabl/_PCC_REDUCED_1_SUBSPACE
+ - PPCC_REDUCED_1_SUBSPACE
+ - acpitabl/PPCC_REDUCED_1_SUBSPACE
+ - PCC_REDUCED_1_SUBSPACE
+ - acpitabl/PCC_REDUCED_1_SUBSPACE
 ---
 
 # _PCC_REDUCED_1_SUBSPACE structure
+
 
 ## -description
 
@@ -107,3 +111,4 @@ The minimum request turnaround time value.
 ## -remarks
 
 ## -see-also
+

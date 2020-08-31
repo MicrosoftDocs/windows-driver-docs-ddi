@@ -34,13 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_QUERYDPCAPS
 f1_keywords:
- - dispmprt//DXGKDDI_QUERYDPCAPS
  - DXGKDDI_QUERYDPCAPS
+ - dispmprt/DXGKDDI_QUERYDPCAPS
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_QUERYDPCAPS callback function
+
 
 ## -description
 
@@ -75,3 +76,4 @@ The driver should return in **NumRootPorts** the number of DP capable connectors
 [**DXGKDDI_DPI2CIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpi2ciotransmission.md)
 
 [**DXGKDDI_DPSBMTRANSMISSION**](nc-dispmprt-dxgkddi_dpsbmtransmission.md)
+

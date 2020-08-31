@@ -8,9 +8,6 @@ ms.assetid: 1B8B0B7D-346D-41FC-B718-60B04F10702C
 ms.date: 05/03/2018
 keywords: ["DEBUG_GET_TEXT_COMPLETIONS_IN structure"]
 ms.keywords: "*PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_NO_DOT_COMMANDS, DEBUG_GET_TEXT_COMPLETIONS_NO_EXTENSION_COMMANDS, DEBUG_GET_TEXT_COMPLETIONS_NO_SYMBOLS, PDEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN structure pointer [Windows Debugging], _DEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN, debugger.debug_get_text_completions_in"
-f1_keywords:
- - "dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN"
- - "DEBUG_GET_TEXT_COMPLETIONS_IN"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgEng.h
-api_name:
-- DEBUG_GET_TEXT_COMPLETIONS_IN
 targetos: Windows
 req.typenames: DEBUG_GET_TEXT_COMPLETIONS_IN, *PDEBUG_GET_TEXT_COMPLETIONS_IN
+f1_keywords:
+ - _DEBUG_GET_TEXT_COMPLETIONS_IN
+ - dbgeng/_DEBUG_GET_TEXT_COMPLETIONS_IN
+ - PDEBUG_GET_TEXT_COMPLETIONS_IN
+ - dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN
+ - DEBUG_GET_TEXT_COMPLETIONS_IN
+ - dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgEng.h
+api_name:
+ - DEBUG_GET_TEXT_COMPLETIONS_IN
 ---
 
 # _DEBUG_GET_TEXT_COMPLETIONS_IN structure
@@ -46,14 +50,9 @@ req.typenames: DEBUG_GET_TEXT_COMPLETIONS_IN, *PDEBUG_GET_TEXT_COMPLETIONS_IN
 
 ## -description
 
-
-Defines information about text completions to get. 
-
+Defines information about text completions to get.
 
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -98,15 +97,12 @@ Do not include completions with symbols.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MatchCountLimit
 
 The limit of matches.
 
-
 ### -field Reserved
 
-Reserved. 
+Reserved.
 

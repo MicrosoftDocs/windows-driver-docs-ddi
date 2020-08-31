@@ -8,9 +8,6 @@ ms.assetid: f4d55fb9-57da-4f75-a0ab-89cc9516ac49
 ms.date: 05/10/2018
 keywords: ["EVT_IDD_CX_MONITOR_I2C_RECEIVE callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_I2C_RECEIVE, EVT_IDD_CX_MONITOR_I2C_RECEIVE callback, EvtIddCxMonitorI2cReceive, EvtIddCxMonitorI2cReceive callback function [Display Devices], PFN_IDD_CX_MONITOR_I2C_RECEIVE, PFN_IDD_CX_MONITOR_I2C_RECEIVE callback function pointer [Display Devices], display.evt_idd_cx_monitor_i2c_receive, iddcx/EvtIddCxMonitorI2cReceive
-f1_keywords:
- - "iddcx/PFN_IDD_CX_MONITOR_I2C_RECEIVE"
- - "PFN_IDD_CX_MONITOR_I2C_RECEIVE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- iddcx.h
-api_name:
-- PFN_IDD_CX_MONITOR_I2C_RECEIVE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_IDD_CX_MONITOR_I2C_RECEIVE
+ - iddcx/EVT_IDD_CX_MONITOR_I2C_RECEIVE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - iddcx.h
+api_name:
+ - PFN_IDD_CX_MONITOR_I2C_RECEIVE
 ---
 
 # EVT_IDD_CX_MONITOR_I2C_RECEIVE callback function
@@ -46,39 +46,25 @@ req.typenames:
 
 ## -description
 
-
 <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> is called by the OS to return data received from an I2C device in a monitor.
-
 
 ## -parameters
 
-
-
-
 ### -param MonitorObject 
+
 [in]
 A handle used by the OS to identify the monitor to receive I2C data from.
 
-
 ### -param pInArgs 
+
 [in]
 Input arguments used by <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b>.
 
-
 ## -returns
 
-
-
-
-(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-                    
-
-
-
+(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -remarks
-
-
 
 The <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> function is responsible for signaling the I2C start condition, sending the I2C address,
  receiving the data from the I2C device, sending acknowledgments, and signaling the stop condition.
@@ -99,6 +85,4 @@ If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> must
  device has an I2C address that is used by HDCP.
  This function  can receive data from an I2C device in a monitor that is connected to the display adapter, but must never receive data from an I2C
  device that is on the display adapter itself.
-
-
 

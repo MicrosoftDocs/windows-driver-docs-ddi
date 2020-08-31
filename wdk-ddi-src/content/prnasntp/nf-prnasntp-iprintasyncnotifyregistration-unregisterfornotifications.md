@@ -8,9 +8,6 @@ ms.assetid: C1B7EE25-B95B-4EAA-8826-269099352FDF
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncNotifyRegistration::UnregisterForNotifications"]
 ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],UnregisterForNotifications method, IPrintAsyncNotifyRegistration.UnregisterForNotifications, IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications, UnregisterForNotifications method [Print Devices], UnregisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_unregisterfornotifications, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications
-f1_keywords:
- - "prnasntp/IPrintAsyncNotifyRegistration.UnregisterForNotifications"
- - "IPrintAsyncNotifyRegistration.UnregisterForNotifications"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncNotifyRegistration.UnregisterForNotifications
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncNotifyRegistration::UnregisterForNotifications
+ - prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncNotifyRegistration.UnregisterForNotifications
 ---
 
 # IPrintAsyncNotifyRegistration::UnregisterForNotifications
@@ -46,26 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyregistration">IPrintAsyncNotifyRegistration</a>
- 
-
- 
 

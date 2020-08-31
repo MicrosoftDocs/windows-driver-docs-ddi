@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.IsMatch
 title: IDebugHostTypeSignature::IsMatch (dbgmodel.h)
-description: The IsMatch method returns an indication of whether a particular type instance matches the criteria specified in the type signature. 
+description: The IsMatch method returns an indication of whether a particular type instance matches the criteria specified in the type signature.
 ms.assetid: c263f7b8-2612-4ef5-8eb7-35379fbadf4d
 ms.date: 09/10/2018
 keywords: ["IDebugHostTypeSignature::IsMatch"]
-f1_keywords:
- - "dbgmodel/IDebugHostTypeSignature.IsMatch"
- - "IDebugHostTypeSignature.IsMatch"
 ms.keywords: IDebugHostTypeSignature::IsMatch, IsMatch, IDebugHostTypeSignature.IsMatch, IDebugHostTypeSignature::IsMatch, IDebugHostTypeSignature.IsMatch
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostTypeSignature.IsMatch
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostTypeSignature::IsMatch
+ - dbgmodel/IDebugHostTypeSignature::IsMatch
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostTypeSignature.IsMatch
 ---
 
 # IDebugHostTypeSignature::IsMatch
@@ -44,24 +44,28 @@ ms.custom: RS5
 
 ## -description
 
-The IsMatch method returns an indication of whether a particular type instance matches the criteria specified in the type signature. If it does, an indication of this is returned as well as an enumerator which will indicate all of the specific portions of the type instance (as symbols) which matched wildcards in the type signature. 
+The IsMatch method returns an indication of whether a particular type instance matches the criteria specified in the type signature. If it does, an indication of this is returned as well as an enumerator which will indicate all of the specific portions of the type instance (as symbols) which matched wildcards in the type signature.
 
 ## -parameters
 
 ### -param type
+
 The type instance to compare against the type signature.
 
 ### -param isMatch
+
 An indication of whether the type instance matches the type signature is returned here.
 
 ### -param wildcardMatches
+
 If the type instance matches the type signature, an enumerator will be returned here which will enumerate all the specific portions of the type instance (as symbols) which matched wildcards in the type signature.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
+
 **Sample Code**
 
 ```cpp
@@ -92,3 +96,4 @@ if (SUCCEEDED(spSym->CreateTypeSignature(L"MyTemplateType<*>",
 ## -see-also
 
 [IDebugHostTypeSignature interface](nn-dbgmodel-idebughosttypesignature.md)
+

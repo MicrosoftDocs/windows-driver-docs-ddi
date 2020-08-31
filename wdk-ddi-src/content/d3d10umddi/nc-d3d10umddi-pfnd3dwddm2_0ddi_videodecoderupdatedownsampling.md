@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoDecoderUpdateDownsampling"
- - "pfnVideoDecoderUpdateDownsampling"
+ - PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 51c521fc-e89c-49c9-8110-de31af3bed83
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters::GetNumberRegisters"]
 ms.keywords: GetNumberRegisters, GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging],IDebugRegisters interface, GetNumberRegisters method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters.GetNumberRegisters, IDebugRegisters2 interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, IDebugRegisters::GetNumberRegisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, debugger.getnumberregisters
-f1_keywords:
- - "dbgeng/IDebugRegisters.GetNumberRegisters"
- - "IDebugRegisters.GetNumberRegisters"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugRegisters.GetNumberRegisters
-- IDebugRegisters2.GetNumberRegisters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugRegisters::GetNumberRegisters
+ - dbgeng/IDebugRegisters::GetNumberRegisters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugRegisters.GetNumberRegisters
+ - IDebugRegisters2.GetNumberRegisters
 ---
 
 # IDebugRegisters::GetNumberRegisters
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetNumberRegisters</b> method returns the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">registers</a> on the target computer.
-
 
 ## -parameters
 
-
-
-
 ### -param Number 
+
 [out]
 Receives the number of registers on the target's computer.
 
-
 ## -returns
-
-
 
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
@@ -84,16 +77,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
-
-
 

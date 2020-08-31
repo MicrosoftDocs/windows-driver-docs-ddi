@@ -8,9 +8,6 @@ ms.assetid: DD8C454D-D0F6-456B-B59A-2E4DF2D757B5
 ms.date: 04/30/2018
 keywords: ["PEP_WORK_IDLE_STATE structure"]
 ms.keywords: "*PPEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_IDLE_STATE, kernel.pep_work_idle_state, pep_x/PEP_WORK_IDLE_STATE, pep_x/PPEP_WORK_IDLE_STATE"
-f1_keywords:
- - "pep_x/PEP_WORK_IDLE_STATE"
- - "PEP_WORK_IDLE_STATE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pep_x.h
-api_name:
-- PEP_WORK_IDLE_STATE
 targetos: Windows
 req.typenames: PEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE
+f1_keywords:
+ - _PEP_WORK_IDLE_STATE
+ - pep_x/_PEP_WORK_IDLE_STATE
+ - PPEP_WORK_IDLE_STATE
+ - pep_x/PPEP_WORK_IDLE_STATE
+ - PEP_WORK_IDLE_STATE
+ - pep_x/PEP_WORK_IDLE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pep_x.h
+api_name:
+ - PEP_WORK_IDLE_STATE
 ---
 
 # _PEP_WORK_IDLE_STATE structure
@@ -46,43 +50,27 @@ req.typenames: PEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE
 
 ## -description
 
-
 The <b>PEP_WORK_IDLE_STATE</b> structure contains a request to transition a component to an F<i>x</i> power state.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceHandle
 
 A handle that represents the registration of the device with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">power management framework</a> (PoFx). A POHANDLE value that represents the registration of the device with PoFx. The platform extension plug-in (PEP) previously received this handle from PoFx during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
-
 ### -field Component
 
 [in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
-
 
 ### -field State
 
 The target F<i>x</i> power state to transition the component to. If this parameter is 0, the target state is F0; if this parameter is 1, the target state is F1; and so on. For more information about F<i>x</i> power states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/component-level-power-management">Component-Level Power Management</a>.
 
-
 ## -remarks
-
-
 
 The <b>IdleState</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_IDLE_STATE</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a>
 
@@ -93,7 +81,4 @@ The <b>IdleState</b> member of the <a href="https://docs.microsoft.com/windows-h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
- 
-
- 
 

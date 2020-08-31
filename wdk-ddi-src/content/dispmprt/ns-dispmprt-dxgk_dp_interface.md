@@ -31,14 +31,18 @@ api_name:
  - _DXGK_DP_INTERFACE
  - DXGK_DP_INTERFACE
 f1_keywords:
+ - _DXGK_DP_INTERFACE
  - dispmprt/_DXGK_DP_INTERFACE
- - dispmprt//DXGK_DP_INTERFACE
+ - PDXGK_DP_INTERFACE
+ - dispmprt/PDXGK_DP_INTERFACE
  - DXGK_DP_INTERFACE
+ - dispmprt/DXGK_DP_INTERFACE
 dev_langs:
  - c++
 ---
 
 # DXGK_DP_INTERFACE structure
+
 
 ## -description
 
@@ -107,3 +111,4 @@ Pointer to the display miniport driver's [DXGKDDI_DPSBMTRANSMISSION](nc-dispmprt
 [**PINTERFACE_DEREFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
 
 [**PINTERFACE_REFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference)
+

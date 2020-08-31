@@ -5,40 +5,40 @@ description: The FltAcquirePushLockSharedEx routine acquires the given push lock
 ms.assetid: 760a310c-c6eb-493c-8535-9f601fa2882f
 ms.date: 10/19/2018
 keywords: ["FltAcquirePushLockSharedEx function"]
-f1_keywords:
- - "fltkernel/FltAcquirePushLockSharedEx"
- - "FltAcquirePushLockSharedEx"
 ms.keywords: FltAcquirePushLockSharedEx
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- FltMgr.lib
-- FltMgr.sys
-api_name: 
-- FltAcquirePushLockSharedEx
 targetos: Windows
-dev_langs:
-- c++
 ms.custom: RS5
+f1_keywords:
+ - FltAcquirePushLockSharedEx
+ - fltkernel/FltAcquirePushLockSharedEx
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - FltMgr.lib
+ - FltMgr.sys
+api_name:
+ - FltAcquirePushLockSharedEx
+dev_langs:
+ - c++
 ---
 
 # FltAcquirePushLockSharedEx function
@@ -50,15 +50,13 @@ The FltAcquirePushLockSharedEx routine acquires the given push lock for shared a
 
 ## -parameters
 
-#### -param PushLock 
+### -param PushLock 
 
-Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
-
+Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>.
 
 ### -param Flags
 
 A bitmask of flags that control the attributes of the lock.
-
 
 ## -remarks
 
@@ -86,3 +84,4 @@ If the push lock has already been acquired for exclusive access by another threa
 </ul>
 
 ## -see-also
+

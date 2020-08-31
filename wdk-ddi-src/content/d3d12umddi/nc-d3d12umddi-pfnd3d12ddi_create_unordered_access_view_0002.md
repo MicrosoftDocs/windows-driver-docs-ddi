@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002"
- - "PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002"
+ - PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002
+ - d3d12umddi/PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002 callback function
+
 
 ## -description
 

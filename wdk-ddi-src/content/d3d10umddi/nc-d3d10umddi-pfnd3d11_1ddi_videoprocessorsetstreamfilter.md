@@ -7,9 +7,6 @@ ms.assetid: e44e5e4a-20e1-4327-b64c-5806d1bb2ece
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback, d3d10umddi/pfnVideoProcessorSetStreamFilter, display.videoprocessorsetstreamfilter, pfnVideoProcessorSetStreamFilter, pfnVideoProcessorSetStreamFilter callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamFilter"
- - "pfnVideoProcessorSetStreamFilter"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetStreamFilter
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetStreamFilter
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback function
@@ -46,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Enables or disables an image filter for an input stream on the video processor.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -98,21 +91,11 @@ The filter level. The meaning of this value is defined by the independent hardwa
 </div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
- 
-
- 
 

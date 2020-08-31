@@ -27,14 +27,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_LID_STATE
  - DXGK_DIAG_DISPLAY_LID_STATE
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_LID_STATE
  - dispmprt/_DXGK_DIAG_DISPLAY_LID_STATE
- - dispmprt//DXGK_DIAG_DISPLAY_LID_STATE
  - DXGK_DIAG_DISPLAY_LID_STATE
+ - dispmprt/DXGK_DIAG_DISPLAY_LID_STATE
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_LID_STATE enumeration
+
 
 ## -description
 
@@ -75,3 +77,4 @@ The **DXGK_DIAG_DISPLAY_LID_STATE** enumeration is a member of the [**DXGK_DISPL
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
+

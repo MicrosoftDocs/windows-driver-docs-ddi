@@ -8,9 +8,6 @@ ms.assetid: 2FFEB2DB-7506-4CDB-BD5F-41D2E4212017
 ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure"]
 ms.keywords: "*PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfcsedev/PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfpdrivers.secure_element_hce_activation_payload"
-f1_keywords:
- - "nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD"
- - "SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 targetos: Windows
 req.typenames: SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+f1_keywords:
+ - _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+ - nfcsedev/_SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+ - PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+ - nfcsedev/PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+ - SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+ - nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 ---
 
 # _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure
@@ -46,25 +50,15 @@ req.typenames: SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIV
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field bConnectionId
 
 Unique identifer for current connection.
 
-
 ### -field eRfTechType
 
 NFC Forum RF technology type.
-
-
 
 ### -field eRfProtocolType
 

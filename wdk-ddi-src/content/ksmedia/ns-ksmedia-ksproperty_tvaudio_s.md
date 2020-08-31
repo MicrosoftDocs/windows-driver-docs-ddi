@@ -8,9 +8,6 @@ ms.assetid: a2e26798-322a-4057-8c29-3429711e36a4
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TVAUDIO_S structure"]
 ms.keywords: "*PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_S, PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_S, ksmedia/PKSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_TVAUDIO_S"
- - "KSPROPERTY_TVAUDIO_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_TVAUDIO_S
 targetos: Windows
 req.typenames: KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S
+f1_keywords:
+ - PKSPROPERTY_TVAUDIO_S
+ - ksmedia/PKSPROPERTY_TVAUDIO_S
+ - KSPROPERTY_TVAUDIO_S
+ - ksmedia/KSPROPERTY_TVAUDIO_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_TVAUDIO_S
 ---
 
 # KSPROPERTY_TVAUDIO_S structure
@@ -46,19 +48,13 @@ req.typenames: KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S
 
 ## -description
 
-
 The KSPROPERTY_TVAUDIO_S structure describes the current TV audio mode, such as stereo or mono audio and language settings.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Property
 
 Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
-
 
 ### -field Mode
 
@@ -120,13 +116,8 @@ Indicates that the audio is in the third language supported by the device.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
@@ -137,7 +128,4 @@ Indicates that the audio is in the third language supported by the device.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-tvaudio">PROPSETID_VIDCAP_TVAUDIO</a>
- 
-
- 
 

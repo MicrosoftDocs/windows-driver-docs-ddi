@@ -7,9 +7,6 @@ ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetOutputStereoMode"
- - "pfnVideoProcessorSetOutputStereoMode"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetOutputStereoMode
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetOutputStereoMode
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback function
@@ -46,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Specifies whether the video processor produces stereo video frames.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -75,11 +68,7 @@ A handle to the video processor object that was created through a call to the <a
 
 If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
 
-
-
 ## -remarks
-
-
 
 By default, the video processor produces mono video frames. If stereo video is enabled, the stereo output format is set through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a> function.
 
@@ -90,12 +79,7 @@ The driver reports its ability to support stereo video modes through the <a href
 <div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputStereoMode</b> function.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
@@ -106,7 +90,4 @@ The driver reports its ability to support stereo video modes through the <a href
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>
- 
-
- 
 

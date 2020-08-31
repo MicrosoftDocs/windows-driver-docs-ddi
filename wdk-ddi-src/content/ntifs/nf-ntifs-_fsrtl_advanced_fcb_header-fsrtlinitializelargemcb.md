@@ -8,9 +8,6 @@ ms.assetid: 3b4c879e-d685-4ee9-b44a-a37de4a84800
 ms.date: 04/16/2018
 keywords: ["FsRtlInitializeLargeMcb function"]
 ms.keywords: FsRtlInitializeLargeMcb, FsRtlInitializeLargeMcb routine [Installable File System Drivers], fsrtlref_298126ca-6c2b-4662-a7ef-2dbc5d1ba361.xml, ifsk.fsrtlinitializelargemcb, ntifs/FsRtlInitializeLargeMcb
-f1_keywords:
- - "ntifs/FsRtlInitializeLargeMcb"
- - "FsRtlInitializeLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlInitializeLargeMcb
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlInitializeLargeMcb
+ - ntifs/FsRtlInitializeLargeMcb
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlInitializeLargeMcb
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlInitializeLargeMcb function
@@ -49,21 +49,16 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlInitializeLargeMcb</b> routine initializes a map control block (MCB) structure.
 
-
 ## -parameters
-
-
-
 
 ### -param Mcb
 
 <p>Pointer to a caller-allocated MCB structure to initialize.</p>
 
-
 ### -param PoolType 
+
 [in]
 Type of pool to use when allocating additional internal storage for the MCB. One of the following:
 
@@ -81,8 +76,6 @@ Type of pool to use when allocating additional internal storage for the MCB. One
 
 ## -remarks
 
-
-
 <b>FsRtlInitializeLargeMcb</b> initializes a map control block (MCB) structure. File systems use MCB structures to map virtual block numbers (VBN) for a file to the corresponding logical block numbers (LBN) on disk.
 
 <div class="alert"><b>Note</b>    The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used. </div>
@@ -91,13 +84,7 @@ File systems must call <b>FsRtlInitializeLargeMcb</b> before using any other <b>
 
 If a pool allocation failure occurs, <b>FsRtlInitializeLargeMcb</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlInitializeLargeMcb</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a>
 
@@ -136,7 +123,4 @@ If a pool allocation failure occurs, <b>FsRtlInitializeLargeMcb</b> raises a STA
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb">FsRtlUninitializeLargeMcb</a>
- 
-
- 
 

@@ -7,9 +7,6 @@ ms.assetid: fa67207d-cf83-42a5-969b-29379f99883f
 ms.date: 11/21/2018
 keywords: ["D3DKMTQueryAdapterInfo function"]
 ms.keywords: D3DKMTQueryAdapterInfo, D3DKMTQueryAdapterInfo function [Display Devices], OpenGL_Functions_124c9878-58d2-414b-8b3c-392748ca5361.xml, d3dkmthk/D3DKMTQueryAdapterInfo, display.d3dkmtqueryadapterinfo
-f1_keywords:
- - "d3dkmthk/D3DKMTQueryAdapterInfo"
- - "D3DKMTQueryAdapterInfo"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,36 +24,43 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTQueryAdapterInfo
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTQueryAdapterInfo
+ - d3dkmthk/D3DKMTQueryAdapterInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTQueryAdapterInfo
 ---
 
 # D3DKMTQueryAdapterInfo function
 
+
 ## -description
+
 The <b>D3DKMTQueryAdapterInfo</b> function retrieves various adapter information from an adapter handle.
 
 ## -parameters
 
 ### -param D3DKMT_QUERYADAPTERINFO
+
 *\_In\_* *[D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)* * *Arg1*
 
 See documentation of structure type for more details.
 
 ## -returns
+
 Returns NTSTATUS.
 
 <b>D3DKMTQueryAdapterInfo</b> returns one of the following values:
@@ -71,10 +75,7 @@ Returns NTSTATUS.
 This function might also return other NTSTATUS values.
 
 ## -see-also
+
 - [D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
 - [PFND3DKMT_QUERYADAPTERINFO](nc-d3dkmthk-pfnd3dkmt_queryadapterinfo.md)
-
-
-
- 
 

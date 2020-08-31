@@ -8,9 +8,6 @@ ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.date: 02/26/2018
 keywords: ["IWDFDevice::RetrieveDeviceName"]
 ms.keywords: IWDFDevice interface,RetrieveDeviceName method, IWDFDevice.RetrieveDeviceName, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName, RetrieveDeviceName method, RetrieveDeviceName method,IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, umdf.iwdfdevice_retrievedevicename, wdf.iwdfdevice_retrievedevicename, wudfddi/IWDFDevice::RetrieveDeviceName
-f1_keywords:
- - "wudfddi/IWDFDevice.RetrieveDeviceName"
- - "IWDFDevice.RetrieveDeviceName"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice.RetrieveDeviceName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice::RetrieveDeviceName
+ - wudfddi/IWDFDevice::RetrieveDeviceName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice.RetrieveDeviceName
 ---
 
 # IWDFDevice::RetrieveDeviceName
@@ -46,34 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDeviceName</b> method retrieves the name of an underlying kernel-mode device.
 
-
 ## -parameters
 
-
-
-
 ### -param pDeviceName 
-[out]
-A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the name of the underlying kernel-mode device, if the buffer is non-<b>NULL</b> and <b>RetrieveDeviceName</b> is successful. 
 
+[out]
+A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the name of the underlying kernel-mode device, if the buffer is non-<b>NULL</b> and <b>RetrieveDeviceName</b> is successful.
 
 ### -param pdwDeviceNameLength 
+
 [in, out]
 A pointer to a variable that receives the number of characters, including the <b>NULL</b> character, in the device name.
 
 If the buffer at <i>pDeviceName</i> is <b>NULL</b>, the value that the driver supplies is zero. The framework then returns the size, in characters, that is required for the device name string.
 
-If the buffer at <i>pDeviceName</i> is non-<b>NULL</b>, the framework returns the size, in characters, of the device name string. 
-
+If the buffer at <i>pDeviceName</i> is non-<b>NULL</b>, the framework returns the size, in characters, of the device name string.
 
 ## -returns
-
-
 
 <b>RetrieveDeviceName</b> returns S_OK for the following scenarios: 
 
@@ -88,14 +81,7 @@ If the buffer at <i>pDeviceName</i> is non-<b>NULL</b>, the framework returns th
 
 <b>RetrieveDeviceName</b> might also return other HRESULT values.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The device name is not the physical device object (PDO) name. Instead, the device name is the name of the reflector. The driver must target all I/O to this device object.
 
@@ -145,15 +131,7 @@ The following code example shows how to retrieve the name of an underlying kerne
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
- 
-
- 
 

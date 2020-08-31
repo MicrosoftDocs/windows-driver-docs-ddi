@@ -8,9 +8,6 @@ ms.assetid: 71A01647-3415-4F76-A67C-D1022C8A11D9
 ms.date: 05/02/2018
 keywords: ["NDIS_ISOLATION_PARAMETERS structure"]
 ms.keywords: "*PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters, ntddndis/NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_ISOLATION_PARAMETERS"
- - "NDIS_ISOLATION_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_ISOLATION_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_ISOLATION_PARAMETERS, *PNDIS_ISOLATION_PARAMETERS
+f1_keywords:
+ - _NDIS_ISOLATION_PARAMETERS
+ - ntddndis/_NDIS_ISOLATION_PARAMETERS
+ - PNDIS_ISOLATION_PARAMETERS
+ - ntddndis/PNDIS_ISOLATION_PARAMETERS
+ - NDIS_ISOLATION_PARAMETERS
+ - ntddndis/NDIS_ISOLATION_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_ISOLATION_PARAMETERS
 ---
 
 # _NDIS_ISOLATION_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_ISOLATION_PARAMETERS, *PNDIS_ISOLATION_PARAMETERS
 
 ## -description
 
-
 The <b>NDIS_ISOLATION_PARAMETERS</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-isolation-parameters">OID_GEN_ISOLATION_PARAMETERS</a> OID to return the isolation parameters that are set on a VM network adapter's port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -71,28 +70,21 @@ Original version for NDIS 6.40 and later.
 
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_ISOLATION_PARAMETERS_REVISION_1</b>.
 
-
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
-
-
-
 
 ### -field IsolationMode
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_isolation_mode">NDIS_ISOLATION_MODE</a> enumeration value that specifies the isolation mode.
 
-
 ### -field AllowUntaggedTraffic
 
 Specifies whether the VM network adapter's port is allowed to send or receive untagged packets. If untagged packets are allowed, the VM network adapter miniport driver tags untagged packets with the default isolation ID. Otherwise, the miniport driver drops them.
 
-
 ### -field NumRoutingDomainEntries
 
 A <b>ULONG</b> value that specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_routing_domain_entry">NDIS_ROUTING_DOMAIN_ENTRY</a> in the array that follows the <b>NDIS_ISOLATION_PARAMETERS</b> structure.
-
 
 ### -field FirstRoutingDomainEntryOffset
 
@@ -102,9 +94,6 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="
 <div> </div>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_isolation_mode">NDIS_ISOLATION_MODE</a>
 
@@ -127,7 +116,4 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-isolation-parameters">OID_GEN_ISOLATION_PARAMETERS</a>
- 
-
- 
 

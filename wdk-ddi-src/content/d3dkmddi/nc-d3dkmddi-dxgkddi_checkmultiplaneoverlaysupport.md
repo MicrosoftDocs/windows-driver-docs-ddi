@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport"
- - "DxgkDdiCheckMultiPlaneOverlaySupport"
+ - DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
+ - d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,6 +46,7 @@ product:
 # DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback function
 
 > [!NOTE] This function has been replaced with [DxgkDdiCheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md).
+
 
 ## -description
 

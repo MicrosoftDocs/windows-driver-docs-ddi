@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CreateOverlay"
- - "CreateOverlay"
+ - PFND3DDDI_CREATEOVERLAY
+ - d3dumddi/PFND3DDDI_CREATEOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATEOVERLAY callback function
+
 
 ## -description
 

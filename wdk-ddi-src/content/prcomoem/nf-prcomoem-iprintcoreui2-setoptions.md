@@ -8,9 +8,6 @@ ms.assetid: b608e331-6b13-4b27-8bb1-00a7c2fef281
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::SetOptions"]
 ms.keywords: IPrintCoreUI2 interface [Print Devices],SetOptions method, IPrintCoreUI2.SetOptions, IPrintCoreUI2::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::SetOptions, print.iprintcoreui2_setoptions, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.SetOptions"
- - "IPrintCoreUI2.SetOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.SetOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::SetOptions
+ - prcomoem/IPrintCoreUI2::SetOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.SetOptions
 ---
 
 # IPrintCoreUI2::SetOptions
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::SetOptions</code> method sets the driver's feature settings.
-
 
 ## -parameters
 
-
-
-
 ### -param poemuiobj 
+
 [in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-
 ### -param dwFlags 
+
 [in]
 Specifies whether the core driver is to resolve conflicts. This parameter must be set to one of the following values:
 
@@ -90,20 +86,19 @@ Ask core driver to resolve any conflict that arises.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pmszFeatureOptionBuf 
+
 [in]
 Pointer to a caller-supplied buffer containing a list of feature/option keyword pairs in MULTI_SZ format. Each item in this list is separated from the next by a null character, and the list is terminated with two null characters.
 
-
 ### -param cbIn 
+
 [in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureOptionBuf</i>. This size includes the last MULTI_SZ null character.
 
-
 ### -param pdwResult 
+
 [out]
 Pointer to a memory location that receives one of the following values. These constants are defined in printoem.h.
 
@@ -143,12 +138,8 @@ The core driver did not find any conflict.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -208,14 +199,8 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins.
 
@@ -231,13 +216,7 @@ This method is supported only for UI plug-ins that fully replace the core driver
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-getoptions-and-setoptions">Using GetOptions and SetOptions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -256,7 +235,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

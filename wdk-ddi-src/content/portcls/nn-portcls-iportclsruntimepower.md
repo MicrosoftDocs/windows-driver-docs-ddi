@@ -8,9 +8,6 @@ ms.assetid: 8D03B2A0-6C8C-4EBE-86F4-70C8DE179947
 ms.date: 05/08/2018
 keywords: ["IPortClsRuntimePower interface"]
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices],described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
-f1_keywords:
- - "portcls/IPortClsRuntimePower"
- - "IPortClsRuntimePower"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortClsRuntimePower
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsRuntimePower
+ - portcls/IPortClsRuntimePower
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsRuntimePower
 ---
 
 # IPortClsRuntimePower interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 IPortClsRuntimePower is the interface that the port class driver (PortCls)  uses for accessing the runtime power management capabilities of the audio adapter.
-
 
 ## -inheritance
 

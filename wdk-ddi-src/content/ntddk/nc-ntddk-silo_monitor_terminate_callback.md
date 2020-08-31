@@ -8,9 +8,6 @@ ms.assetid: 1F87D6AC-3603-4A34-BAAB-8B43ADF9E595
 ms.date: 04/30/2018
 keywords: ["SILO_MONITOR_TERMINATE_CALLBACK callback function"]
 ms.keywords: SILO_MONITOR_TERMINATE_CALLBACK, SILO_MONITOR_TERMINATE_CALLBACK callback, TerminateCallback, TerminateCallback callback function [Kernel-Mode Driver Architecture], kernel.silo_monitor_terminate_callback, ntddk/TerminateCallback
-f1_keywords:
- - "ntddk/TerminateCallback"
- - "TerminateCallback"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ntddk.h
-api_name:
-- TerminateCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SILO_MONITOR_TERMINATE_CALLBACK
+ - ntddk/SILO_MONITOR_TERMINATE_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ntddk.h
+api_name:
+ - TerminateCallback
 ---
 
 # SILO_MONITOR_TERMINATE_CALLBACK callback function
@@ -46,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This callback is invoked when a silo is terminated.
-
 
 ## -parameters
 
-
-
-
 ### -param Silo 
+
 [in]
 The silo to be terminated.
 
-
 ## -remarks
 
-
-
-The expected behavior is that the component will drop any outstanding silo references.  A driver may no longer operate within the namespace of a silo (via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>) once it has returned from this function. 
-
-
+The expected behavior is that the component will drop any outstanding silo references.  A driver may no longer operate within the namespace of a silo (via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>) once it has returned from this function.
 

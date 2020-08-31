@@ -8,9 +8,6 @@ ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchIncomingDropParty macro"]
 ms.keywords: NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty
-f1_keywords:
- - "ndis/NdisMCmDispatchIncomingDropParty"
- - "NdisMCmDispatchIncomingDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmDispatchIncomingDropParty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDispatchIncomingDropParty
+ - ndis/NdisMCmDispatchIncomingDropParty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmDispatchIncomingDropParty
 ---
 
 # NdisMCmDispatchIncomingDropParty macro
@@ -46,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDispatchIncomingDropParty</b> notifies a client that it should remove a particular party on a
   multipoint VC.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -78,10 +73,8 @@ Pointer to a caller-allocated resident buffer containing additional protocol-spe
 
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
-     
+
 ## -remarks
-
-
 
 In the course of normal network operations, an MCM driver calls 
     <b>NdisMCmDispatchIncomingDropParty</b> with the 
@@ -111,13 +104,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     as protocol drivers, call 
     <b>NdisCmDispatchIncomingDropParty</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
@@ -138,7 +125,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
- 
-
- 
 

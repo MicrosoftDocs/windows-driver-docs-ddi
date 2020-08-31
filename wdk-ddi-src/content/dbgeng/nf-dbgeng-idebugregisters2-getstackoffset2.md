@@ -8,9 +8,6 @@ ms.assetid: c90119a8-c93b-4432-b164-b1f4c562ef2d
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::GetStackOffset2"]
 ms.keywords: GetStackOffset2, GetStackOffset2 method [Windows Debugging], GetStackOffset2 method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetStackOffset2 method, IDebugRegisters2.GetStackOffset2, IDebugRegisters2::GetStackOffset2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, dbgeng/IDebugRegisters2::GetStackOffset2, debugger.getstackoffset2
-f1_keywords:
- - "dbgeng/IDebugRegisters2.GetStackOffset2"
- - "IDebugRegisters2.GetStackOffset2"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugRegisters2.GetStackOffset2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugRegisters2::GetStackOffset2
+ - dbgeng/IDebugRegisters2::GetStackOffset2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugRegisters2.GetStackOffset2
 ---
 
 # IDebugRegisters2::GetStackOffset2
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetStackOffset2</b> method returns the current thread's current stack location.
-
 
 ## -parameters
 
-
-
-
 ### -param Source 
+
 [in]
 Specifies the register source to query.
 
@@ -99,17 +95,13 @@ Fetch register information from the current scope's register context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Offset 
+
 [out]
 Receives the location in the process's virtual address space of the current thread's current stack.
 
-
 ## -returns
-
-
 
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
@@ -130,22 +122,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getstackoffset">GetStackOffset</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
- 
-
- 
 

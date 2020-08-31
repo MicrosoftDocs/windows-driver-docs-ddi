@@ -8,9 +8,6 @@ ms.assetid: A5E3C5DE-DD76-41CF-8A86-37F25A069E1C
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function"]
 ms.keywords: POFXCALLBACKUPDATEPLATFORMIDLESTATE, UpdatePlatformIdleState, UpdatePlatformIdleState routine [Kernel-Mode Driver Architecture], kernel.updateplatformidlestate, pepfx/UpdatePlatformIdleState
-f1_keywords:
- - "pepfx/UpdatePlatformIdleState"
- - "UpdatePlatformIdleState"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- pepfx.h
-api_name:
-- UpdatePlatformIdleState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - POFXCALLBACKUPDATEPLATFORMIDLESTATE
+ - pepfx/POFXCALLBACKUPDATEPLATFORMIDLESTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - pepfx.h
+api_name:
+ - UpdatePlatformIdleState
 ---
 
 # POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>UpdatePlatformIdleState</b> routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state.
-
 
 ## -parameters
 
-
-
-
 ### -param ProcessorHandle 
+
 [in]
 A POHANDLE value that represents the registration of the processor (as a device) with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The PEP previously received this handle from PoFx during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the processor had been registered with PoFx.
 
-
 ### -param PlatformState 
+
 [in]
 An index that identifies the platform idle state whose properties are to be updated. In response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification, the PEP specified the number of supported platform idle states. If the PEP specified N platform idle states, valid platform idle state indexes range from 0 to N-1. In response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_state">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a> notification, the PEP specified the properties of this platform idle state.
 
-
 ### -param Update 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_platform_idle_state_update">PEP_PLATFORM_IDLE_STATE_UPDATE</a> structure that contains the updated properties of the platform idle state.
 
-
 ## -returns
-
-
 
 <b>UpdatePlatformIdleState</b> returns STATUS_SUCCESS if it successfully updates the properties of the platform idle state. Possible error return values include the following status codes.
 
@@ -104,14 +97,8 @@ The <b>UpdatePlatformIdleState</b> routine is not implemented for this processor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine is implemented by PoFx and is called by the PEP. The <b>UpdatePlatformIdleState</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>UpdatePlatformIdleState</b> routine.
 
@@ -119,13 +106,7 @@ This routine is implemented by PoFx and is called by the PEP. The <b>UpdatePlatf
 
 The <b>UpdatePlatformIdleState</b> routine must be called at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
 
@@ -144,7 +125,4 @@ The <b>UpdatePlatformIdleState</b> routine must be called at IRQL = PASSIVE_LEVE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_platform_idle_state_update">PEP_PLATFORM_IDLE_STATE_UPDATE</a>
- 
-
- 
 

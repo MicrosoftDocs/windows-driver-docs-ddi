@@ -8,9 +8,6 @@ ms.assetid: C2BA76C4-CCFB-4F0B-B5DC-3A35BD5A3884
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaParameterDefinition::get_UserInputRequired"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition.get_UserInputRequired, IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices],IPrintSchemaParameterDefinition interface, get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
-f1_keywords:
- - "printerextension/IPrintSchemaParameterDefinition.UserInputRequired"
- - "IPrintSchemaParameterDefinition.UserInputRequired"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaParameterDefinition.UserInputRequired
-- IPrintSchemaParameterDefinition.get_UserInputRequired
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaParameterDefinition::get_UserInputRequired
+ - printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaParameterDefinition.UserInputRequired
+ - IPrintSchemaParameterDefinition.get_UserInputRequired
 ---
 
 # IPrintSchemaParameterDefinition::get_UserInputRequired
@@ -47,31 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>UserInputRequired</b> property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The print dialog can use <b>UserInputRequired</b> to determine whether or not it should force the user to enter a valid value for the parameter, before it allows printing to proceed.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
- 
-
- 
 

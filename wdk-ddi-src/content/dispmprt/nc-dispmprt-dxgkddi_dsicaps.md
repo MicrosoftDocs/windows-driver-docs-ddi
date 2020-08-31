@@ -34,13 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_DSICAPS
 f1_keywords:
- - dispmprt//DXGKDDI_DSICAPS
  - DXGKDDI_DSICAPS
+ - dispmprt/DXGKDDI_DSICAPS
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_DSICAPS callback function
+
 
 ## -description
 
@@ -77,3 +78,4 @@ The OEM panel driver is responsible for validating DSI capability and compatibil
 [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md)
 
 [IOCTL_MIPI_DSI_QUERY_CAPS]()
+

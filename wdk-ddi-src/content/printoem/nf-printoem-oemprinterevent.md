@@ -8,9 +8,6 @@ ms.assetid: bbd37342-f0d0-43e0-bc27-1b47c426da6e
 ms.date: 04/20/2018
 keywords: ["OEMPrinterEvent function"]
 ms.keywords: OEMPrinterEvent, OEMPrinterEvent function [Print Devices], print.oemprinterevent, print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml, printoem/OEMPrinterEvent
-f1_keywords:
- - "printoem/OEMPrinterEvent"
- - "OEMPrinterEvent"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMPrinterEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMPrinterEvent
+ - printoem/OEMPrinterEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMPrinterEvent
 ---
 
 # OEMPrinterEvent function
@@ -46,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPrinterName
 
-
 ### -param iDriverEvent
 
-
 ### -param dwFlags
-
 
 ### -param lParam
 

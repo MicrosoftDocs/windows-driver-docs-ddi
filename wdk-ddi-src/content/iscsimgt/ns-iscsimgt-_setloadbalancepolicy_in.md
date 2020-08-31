@@ -8,9 +8,6 @@ ms.assetid: e1895fed-a006-45f6-a38a-1767202cbf4f
 ms.date: 03/29/2018
 keywords: ["SetLoadBalancePolicy_IN structure"]
 ms.keywords: "*PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN structure pointer [Storage Devices], SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], _SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, iscsimgt/SetLoadBalancePolicy_IN, storage.setloadbalancepolicy_in, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml"
-f1_keywords:
- - "iscsimgt/SetLoadBalancePolicy_IN"
- - "SetLoadBalancePolicy_IN"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsimgt.h
-api_name:
-- SetLoadBalancePolicy_IN
 targetos: Windows
 req.typenames: SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN
+f1_keywords:
+ - _SetLoadBalancePolicy_IN
+ - iscsimgt/_SetLoadBalancePolicy_IN
+ - PSetLoadBalancePolicy_IN
+ - iscsimgt/PSetLoadBalancePolicy_IN
+ - SetLoadBalancePolicy_IN
+ - iscsimgt/SetLoadBalancePolicy_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsimgt.h
+api_name:
+ - SetLoadBalancePolicy_IN
 ---
 
 # _SetLoadBalancePolicy_IN structure
@@ -46,36 +50,19 @@ req.typenames: SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN
 
 ## -description
 
-
 The SetLoadBalancePolicy_IN structure holds the input data for the SetLoadBalance method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LoadBalancePolicies
 
 A structure that contains the information that is required for setting the load balance policy.
 
-
 ## -remarks
-
-
 
 You must implement this class.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-lb-operations-wmi-class">MSiSCSI_LB_Operations WMI Class</a>
- 
-
- 
 

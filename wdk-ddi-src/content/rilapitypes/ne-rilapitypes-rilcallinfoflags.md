@@ -8,9 +8,6 @@ ms.assetid: c4edec8f-a001-491b-a3e6-03d19ac94f18
 ms.date: 05/02/2018
 keywords: ["RILCALLINFOFLAGS enumeration"]
 ms.keywords: RILCALLINFOFLAGS, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista], RILCALLINFO_FLAG_ALIENCALL, RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags, ntddrilapitypes/RILCALLINFOFLAGS, ntddrilapitypes/RILCALLINFO_FLAG_ALIENCALL, ntddrilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL
-f1_keywords:
- - "rilapitypes/RILCALLINFOFLAGS"
- - "RILCALLINFOFLAGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLINFOFLAGS
 targetos: Windows
 req.typenames: RILCALLINFOFLAGS
+f1_keywords:
+ - RILCALLINFOFLAGS
+ - rilapitypes/RILCALLINFOFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLINFOFLAGS
 ---
 
 # RILCALLINFOFLAGS enumeration
@@ -46,20 +46,13 @@ req.typenames: RILCALLINFOFLAGS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RILCALLINFO_FLAG_NONE
 
-
 ### -field RILCALLINFO_FLAG_ALIENCALL
-
 
 ### -field RILCALLINFO_FLAG_EMERGENCYCALL
 

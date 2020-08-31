@@ -8,9 +8,6 @@ ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
 ms.date: 05/02/2018
 keywords: ["NdisMQueryOffloadStateComplete function"]
 ms.keywords: NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml
-f1_keywords:
- - "ndischimney/NdisMQueryOffloadStateComplete"
- - "NdisMQueryOffloadStateComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- NdisMQueryOffloadStateComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMQueryOffloadStateComplete
+ - ndischimney/NdisMQueryOffloadStateComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisMQueryOffloadStateComplete
 ---
 
 # NdisMQueryOffloadStateComplete function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
@@ -55,20 +54,17 @@ An offload target calls the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">
   MiniportQueryOffload</a> function.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisMiniportHandle 
+
 [in]
 The handle that the offload driver obtained in a previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a>.
 
-
 ### -param OffloadBlockList 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
@@ -77,10 +73,7 @@ A pointer to an
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">
      MiniportQueryOffload</a> function.
 
-
 ## -remarks
-
-
 
 An offload target calls 
     <b>NdisMQueryOffloadStateComplete</b> to complete a query operation that was initiated when NDIS called
@@ -105,12 +98,7 @@ Write a status value of NDIS_STATUS_SUCCESS or NDIS_STATUS_FAILURE to the
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
 
@@ -122,7 +110,4 @@ Write a status value of NDIS_STATUS_SUCCESS or NDIS_STATUS_FAILURE to the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: C7A2792C-FDAE-4525-A8B1-7F8F6BA8249A
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CREATE_COMPLETION callback function"]
 ms.keywords: NDK_FN_CREATE_COMPLETION, NDK_FN_CREATE_COMPLETION callback, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
-f1_keywords:
- - "ndkpi/NdkCreateCompletion"
- - "NdkCreateCompletion"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkCreateCompletion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_CREATE_COMPLETION
+ - ndkpi/NDK_FN_CREATE_COMPLETION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkCreateCompletion
 ---
 
 # NDK_FN_CREATE_COMPLETION callback function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkCreateCompletion</i> (<i>NDK_FN_CREATE_COMPLETION</i>) function completes the creation of an NDK object.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in, optional]
 The context value passed to the NDK provider when a consumer calls an object creation function. The creation function  provides the context with the asynchronous create completion request <i>NdkCreateCompletion</i> (<i>NDK_FN_CREATE_COMPLETION</i>) function pointer.
 
-
 ### -param Status 
+
 [in]
 The asynchronous completion status for the create request. See the object creation functions (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) for completion status codes that can be returned for each type of object.
 
-
 ### -param pNdkObject 
+
 [in]
 A pointer to an NDK object header (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>).
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This function is implemented by the NDK consumer and passed to the NDK provider.</div>
 <div> </div>
@@ -84,13 +77,7 @@ Any status other status code indicates inline completion. In this case, the prov
 
 For create requests that return STATUS_PENDING and later complete with STATUS_SUCCESS asynchronously, the created object must be returned by the create completion function with the <i>pNdkObject</i> parameter and the provider must not access the object output parameter of the create request function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -137,7 +124,4 @@ For create requests that return STATUS_PENDING and later complete with STATUS_SU
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
- 
-
- 
 

@@ -8,39 +8,39 @@ ms.assetid: d602c7b6-eab2-4929-a124-c2f46a98947a
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetOffloadIsRscTimestampEnabled function"]
-f1_keywords:
- - "netadapteroffload/NetOffloadIsRscTimestampEnabled"
- - "NetOffloadIsRscTimestampEnabled"
 ms.keywords: NetOffloadIsRscTimestampEnabled
 req.header: netadapteroffload.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetOffloadIsRscTimestampEnabled
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetOffloadIsRscTimestampEnabled
+ - netadapteroffload/NetOffloadIsRscTimestampEnabled
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetOffloadIsRscTimestampEnabled
+product:
+ - Windows
 ---
 
 # NetOffloadIsRscTimestampEnabled function
@@ -69,3 +69,4 @@ Client drivers typically call this function during their [*EvtNetAdapterOffloadS
 [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md)
+

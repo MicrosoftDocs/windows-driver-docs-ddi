@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnDeallocateCb"
- - "pfnDeallocateCb"
+ - PFND3DDDI_DEALLOCATECB
+ - d3dumddi/PFND3DDDI_DEALLOCATECB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DEALLOCATECB callback function
+
 
 ## -description
 

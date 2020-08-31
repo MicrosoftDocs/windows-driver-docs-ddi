@@ -8,9 +8,6 @@ ms.assetid: 2a9398f7-4d01-42a6-9ac2-ca105db76bb8
 ms.date: 05/07/2018
 keywords: ["USB_CONFIGURATION_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], USB_CONFIGURATION_DESCRIPTOR, USB_CONFIGURATION_DESCRIPTOR structure [Buses], _USB_CONFIGURATION_DESCRIPTOR, buses.usb_configuration_descriptor, usbspec/PUSB_CONFIGURATION_DESCRIPTOR, usbspec/USB_CONFIGURATION_DESCRIPTOR, usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml"
-f1_keywords:
- - "usbspec/USB_CONFIGURATION_DESCRIPTOR"
- - "USB_CONFIGURATION_DESCRIPTOR"
 req.header: usbspec.h
 req.include-header: Usb100.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbspec.h
-api_name:
-- USB_CONFIGURATION_DESCRIPTOR
 targetos: Windows
 req.typenames: USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR
+f1_keywords:
+ - _USB_CONFIGURATION_DESCRIPTOR
+ - usbspec/_USB_CONFIGURATION_DESCRIPTOR
+ - PUSB_CONFIGURATION_DESCRIPTOR
+ - usbspec/PUSB_CONFIGURATION_DESCRIPTOR
+ - USB_CONFIGURATION_DESCRIPTOR
+ - usbspec/USB_CONFIGURATION_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbspec.h
+api_name:
+ - USB_CONFIGURATION_DESCRIPTOR
 ---
 
 # _USB_CONFIGURATION_DESCRIPTOR structure
@@ -46,44 +50,34 @@ req.typenames: USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR
 
 ## -description
 
-
 The  <b>USB_CONFIGURATION_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined configuration descriptor.
 The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.3.
 
 ## -struct-fields
 
-
-
-
 ### -field bLength
 
 Specifies the length, in bytes, of this structure.
-
 
 ### -field bDescriptorType
 
 Specifies the descriptor type. Must be set to USB_CONFIGURATION_DESCRIPTOR_TYPE.
 
-
 ### -field wTotalLength
 
 Specifies the total length, in bytes, of all data for the configuration. The length includes all interface, endpoint, class, or vendor-specific descriptors that are returned with the configuration descriptor.
-
 
 ### -field bNumInterfaces
 
 Specifies the total number of interfaces supported by this configuration.
 
-
 ### -field bConfigurationValue
 
-Contains the value that is used to select a configuration. This value is passed to the USB SetConfiguration request , as described in version 1.1 of the Universal Serial Bus Specification. The port driver does not currently expose a service that allows higher-level drivers to set the configuration. 
-
+Contains the value that is used to select a configuration. This value is passed to the USB SetConfiguration request , as described in version 1.1 of the Universal Serial Bus Specification. The port driver does not currently expose a service that allows higher-level drivers to set the configuration.
 
 ### -field iConfiguration
 
 Specifies the device-defined index of the string descriptor for this configuration.
-
 
 ### -field bmAttributes
 
@@ -135,17 +129,12 @@ The configuration is powered by the bus.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaxPower
 
 Specifies the power requirements of this device in two-milliampere units. This member is valid only if bit seven is set in <b>bmAttributes</b>.
 
-
 ## -remarks
-
-
 
 If <b>wTotalLength</b> is greater than the buffer size provided in the URB to hold all descriptors retrieved (interface, endpoint, class, and vendor-defined), incomplete data will be returned. In order to retrieve complete descriptors, the request will need to be re-sent with a larger buffer.
 
@@ -153,13 +142,7 @@ If <b>bmAttributes</b> bits six and seven are both set, then the device is power
 
 Other members that are part of this structure but not described here should be treated as opaque and considered to be reserved for system use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
 
@@ -170,7 +153,4 @@ Other members that are part of this structure but not described here should be t
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff538943(v=vs.85)">UsbBuildGetDescriptorRequest</a>
- 
-
- 
 

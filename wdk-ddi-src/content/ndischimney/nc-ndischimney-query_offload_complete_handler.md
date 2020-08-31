@@ -8,9 +8,6 @@ ms.assetid: f521af88-eb96-4077-8882-9b1d02c6c87c
 ms.date: 05/02/2018
 keywords: ["QUERY_OFFLOAD_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolQueryOffloadComplete, ProtocolQueryOffloadComplete callback function [Network Drivers Starting with Windows Vista], QUERY_OFFLOAD_COMPLETE_HANDLER, QUERY_OFFLOAD_COMPLETE_HANDLER callback, ndischimney/ProtocolQueryOffloadComplete, netvista.protocolqueryoffloadcomplete, tcp_chim_protocol_func_044230e2-8c5e-4f7c-8f6c-5b7ba8f48810.xml
-f1_keywords:
- - "ndischimney/ProtocolQueryOffloadComplete"
- - "ProtocolQueryOffloadComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- ProtocolQueryOffloadComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - QUERY_OFFLOAD_COMPLETE_HANDLER
+ - ndischimney/QUERY_OFFLOAD_COMPLETE_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - ProtocolQueryOffloadComplete
 ---
 
 # QUERY_OFFLOAD_COMPLETE_HANDLER callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
@@ -54,21 +53,18 @@ NDIS calls a protocol driver's or intermediate driver's
   previously initiated by calling the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate">NdisQueryOffload</a> function.
 
-
 ## -parameters
 
-
-
-
 ### -param ProtocolBindingContext 
+
 [in]
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
      the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-
 ### -param OffloadBlockList 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_protocol_offload_block_list">
@@ -76,10 +72,7 @@ A pointer to an
      linked list of such structures. These structures identify the state that was queried or that was
      attempted to be queried.
 
-
 ## -remarks
-
-
 
 In response to an underlying offload target's or intermediate driver's call to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismqueryoffloadstatecomplete">
@@ -103,13 +96,7 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
     <i>OffloadBlockList</i> parameter) to this newly constructed NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
     structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
 
@@ -135,7 +122,4 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate">NdisQueryOffload</a>
- 
-
- 
 

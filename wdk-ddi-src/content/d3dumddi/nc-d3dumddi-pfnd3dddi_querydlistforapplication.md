@@ -26,8 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/PFND3DDDI_QUERYDLISTFORAPPLICATION"
- - "PFND3DDDI_QUERYDLISTFORAPPLICATION"
+ - PFND3DDDI_QUERYDLISTFORAPPLICATION
+ - d3dumddi/PFND3DDDI_QUERYDLISTFORAPPLICATION
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION callback function
+
 
 ## -description
 

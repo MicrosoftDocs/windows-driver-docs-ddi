@@ -8,9 +8,6 @@ ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
 ms.date: 04/16/2018
 keywords: ["CcMapData function"]
 ms.keywords: CcMapData, CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, ntifs/CcMapData
-f1_keywords:
- - "ntifs/CcMapData"
- - "CcMapData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcMapData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcMapData
+ - ntifs/CcMapData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcMapData
 ---
 
 # CcMapData function
@@ -46,31 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcMapData</b> routine maps a specified byte range of a cached file to a buffer in memory.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 Pointer to a file object for the file whose data is to be mapped for read access.
 
-
 ### -param FileOffset 
+
 [in]
 Pointer to a variable that specifies the starting byte offset within the cached file where the desired data resides.
 
-
 ### -param Length 
+
 [in]
 Length of desired data in bytes.
 
-
 ### -param Flags 
+
 [in]
 Bitmask of flags specifying how the mapping operation is to be performed. This is a bitwise OR combination of one or more of the following values: 
 
@@ -112,29 +108,21 @@ Only pages that are already resident in memory are to be mapped.
 
 Set to <b>TRUE</b> if the caller can be put into a wait state until the data has been mapped, <b>FALSE</b> otherwise.
 
-
 ### -param Bcb 
+
 [out]
 On the first call this returns a pointer to a buffer control block (BCB) structure. This pointer must be supplied as input on all subsequent calls, for this buffer.
 
-
 ### -param Buffer 
+
 [out]
 Pointer to a buffer containing the mapped data.
 
-
 ## -returns
-
-
 
 <b>CcMapData</b> returns <b>TRUE</b> if the data for the cached file was mapped successfully, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 <b>CcMapData</b> maps data in a cached file for read access. Note that after <b>CcMapData</b> is called, the data is mapped; but it is not pinned. This distinction is important. Data that is mapped but not pinned cannot safely be modified. To pin the data, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>.
 
@@ -152,13 +140,7 @@ If any failure occurs, <b>CcMapData</b> raises a status exception for that parti
 
 To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
@@ -177,7 +159,4 @@ To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
- 
-
- 
 

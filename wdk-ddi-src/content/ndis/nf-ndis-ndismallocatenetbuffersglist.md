@@ -8,9 +8,6 @@ ms.assetid: 3fd8d121-a249-433a-a93d-4027a4bfcb61
 ms.date: 05/02/2018
 keywords: ["NdisMAllocateNetBufferSGList function"]
 ms.keywords: NdisMAllocateNetBufferSGList, NdisMAllocateNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateNetBufferSGList, ndis_sgdma_ref_7d06207d-de5d-41a8-b6e8-4ecab32123a1.xml, netvista.ndismallocatenetbuffersglist
-f1_keywords:
- - "ndis/NdisMAllocateNetBufferSGList"
- - "NdisMAllocateNetBufferSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMAllocateNetBufferSGList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMAllocateNetBufferSGList
+ - ndis/NdisMAllocateNetBufferSGList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMAllocateNetBufferSGList
 ---
 
 # NdisMAllocateNetBufferSGList function
@@ -60,21 +60,18 @@ Bus-master miniport drivers call the
   associated with a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisMiniportDmaHandle 
+
 [in]
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
      NdisMRegisterScatterGatherDma</a> function.
 
-
 ### -param NetBuffer 
+
 [in]
 A pointer to a NET_BUFFER structure. 
      <b>NdisMAllocateNetBufferSGList</b> allocates a scatter/gather list for the network data that is
@@ -83,15 +80,15 @@ A pointer to a NET_BUFFER structure.
      <b>CurrentMdl</b> member of the associated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure.
 
-
 ### -param Context 
+
 [in]
 A pointer to a context area that the caller created. HAL passes this pointer to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a> after HAL
      creates the scatter/gather list. The caller can use this context area for its own purposes.
 
-
 ### -param Flags 
+
 [in]
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero. This function supports the NDIS_SG_LIST_WRITE_TO_DEVICE flag which; if set, indicates the
@@ -101,15 +98,15 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
      from the device to a pre-allocated NET_BUFFER, for example chimney offload capable NICs during receive
      operations, should clear this flag.
 
-
 ### -param ScatterGatherListBuffer 
+
 [in, optional]
 If not <b>NULL</b>, 
      <i>ScatterGatherListBuffer</i> specifies a pointer to storage that the caller allocates to hold the
      scatter/gather list. If <b>NULL</b>, NDIS allocates storage for the scatter/gather list.
 
-
 ### -param ScatterGatherListBufferSize 
+
 [in]
 If the 
      <i>ScatterGatherListBuffer</i> parameter is not <b>NULL</b>, 
@@ -117,10 +114,7 @@ If the
      list. If this size is too small, NDIS allocates storage for the scatter/gather list. If the 
      <i>ScatterGatherListBuffer</i> parameter is <b>NULL</b>, this parameter is not used.
 
-
 ## -returns
-
-
 
 <b>NdisMAllocateNetBufferSGList</b> returns one of the following:
 
@@ -153,14 +147,8 @@ If the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An NDIS bus-master miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> from its 
@@ -210,11 +198,7 @@ Miniport drivers must call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreenetbuffersglist">NdisMFreeNetBufferSGList</a> function
     to free a scatter/gather list.
 
-
-
-
 ## -see-also
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a>
 
@@ -242,3 +226,4 @@ Miniport drivers must call the
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>
+

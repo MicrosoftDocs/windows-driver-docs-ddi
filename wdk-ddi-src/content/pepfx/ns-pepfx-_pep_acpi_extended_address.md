@@ -8,9 +8,6 @@ ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_EXTENDED_ADDRESS structure"]
 ms.keywords: "*PPEP_ACPI_EXTENDED_ADDRESS, 0 - Consumer/Producer flag, 0 - Write status, 0 to 1 - Range, 0 to 7 - Reserved, 1 - Decode type, 1 to 2 - Memory attributes (MEM), 2 - Minimum address fixed, 2 to 3 - Reserved, 3 - Max address fixed, 3 to 4 - Memory attributes (MTP), 4 - IO to memory translation, 4 to 7 - Reserved, 5 - Memory to IO translation, 5 - Sparse translation, 6 to 7 - Reserved, PEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EXTENDED_ADDRESS, kernel.pep_acpi_extended_address, pepfx/PEP_ACPI_EXTENDED_ADDRESS, pepfx/PPEP_ACPI_EXTENDED_ADDRESS"
-f1_keywords:
- - "pepfx/PEP_ACPI_EXTENDED_ADDRESS"
- - "PEP_ACPI_EXTENDED_ADDRESS"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_ACPI_EXTENDED_ADDRESS
 targetos: Windows
 req.typenames: PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS
+f1_keywords:
+ - _PEP_ACPI_EXTENDED_ADDRESS
+ - pepfx/_PEP_ACPI_EXTENDED_ADDRESS
+ - PPEP_ACPI_EXTENDED_ADDRESS
+ - pepfx/PPEP_ACPI_EXTENDED_ADDRESS
+ - PEP_ACPI_EXTENDED_ADDRESS
+ - pepfx/PEP_ACPI_EXTENDED_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_ACPI_EXTENDED_ADDRESS
 ---
 
 # _PEP_ACPI_EXTENDED_ADDRESS structure
@@ -46,24 +50,17 @@ req.typenames: PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS
 
 ## -description
 
-
 The <b>PEP_ACPI_EXTENDED_ADDRESS</b> structure is used to report resource usage in the address space such as memory and IO.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
 
-
 ### -field Flags
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a> structure describing this resource.
-
 
 ### -field ResourceFlags
 
@@ -130,8 +127,6 @@ These values are reserved for use by the hardware vendor.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field GeneralFlags
 
@@ -195,8 +190,6 @@ These bits are reserved and must be set to zero.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TypeSpecificFlags
 
@@ -404,48 +397,38 @@ These bits are reserved and must be set to zero.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RevisionId
 
 Indicates the revision of the extended address space descriptor detailed by this structure. For ACPI 3.0, this value is 1.
 
-
 ### -field Reserved
-
 
 ### -field Granularity
 
 A bit mask indicating which bits have been decoded.
 
-
 ### -field MinimumAddress
 
 The minimum starting address. For bridges that translate addresses, this is the address space on the secondary side of the bridge.
-
 
 ### -field MaximumAddress
 
 The maximum starting address. For bridges that translate addresses, this is the address space
 on the secondary side of the bridge.
 
-
 ### -field TranslationAddress
 
 For bridges that translate addresses across the bridge, this is the
-address on the primary side. 
-
+address on the primary side.
 
 ### -field AddressLength
 
 The address length.
 
-
 ### -field TypeAttribute
 
-Indicates attributes that are specific to the resource type that is specified in the <b>ResourceFlags</b> member. If <b>ResourceFlags</b> is zero, this value is zero, otherwise the meaning of the value can be found in the <i>UEFI Specification</i> in the section titled <b>GetMemoryMap()</b>. 
-
+Indicates attributes that are specific to the resource type that is specified in the <b>ResourceFlags</b> member. If <b>ResourceFlags</b> is zero, this value is zero, otherwise the meaning of the value can be found in the <i>UEFI Specification</i> in the section titled <b>GetMemoryMap()</b>.
 
 ### -field DescriptorName
 

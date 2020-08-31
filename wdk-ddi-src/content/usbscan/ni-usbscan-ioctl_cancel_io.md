@@ -8,9 +8,6 @@ ms.assetid: 5748e949-3edb-405a-ab2f-05c929cf5aa6
 ms.date: 05/03/2018
 keywords: ["IOCTL_CANCEL_IO IOCTL"]
 ms.keywords: IOCTL_CANCEL_IO, IOCTL_CANCEL_IO control, IOCTL_CANCEL_IO control code [Imaging Devices], image.ioctl_cancel_io, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml, usbscan/IOCTL_CANCEL_IO
-f1_keywords:
- - "usbscan/IOCTL_CANCEL_IO"
- - "IOCTL_CANCEL_IO"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbscan.h
-api_name:
-- IOCTL_CANCEL_IO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_CANCEL_IO
+ - usbscan/IOCTL_CANCEL_IO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbscan.h
+api_name:
+ - IOCTL_CANCEL_IO
 ---
 
 # IOCTL_CANCEL_IO IOCTL
@@ -46,63 +46,35 @@ req.typenames:
 
 ## -description
 
-
 Cancels activity on the specified USB transfer pipe that is associated with the specified device handle.
-   
-  
-
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Pointer to a location containing a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ne-usbscan-pipe_type">PIPE_TYPE</a>.
 
-
 ### -input-buffer-length
 
 Size of the input buffer.
-
 
 ### -output-buffer
 
 <b>NULL</b>.
 
-
 ### -output-buffer-length
 
 Zero.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
-
-
 
 <h3><a id="ddk_ioctl_cancel_io_si"></a><a id="DDK_IOCTL_CANCEL_IO_SI"></a>DeviceIoControl Parameters
 </h3>
@@ -154,6 +126,4 @@ Optional pointer to an OVERLAPPED structure (described in the Microsoft Windows 
 
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_CANCEL_IO I/O control code, the caller must specify one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ne-usbscan-pipe_type">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
-
-
 

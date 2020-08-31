@@ -8,9 +8,6 @@ ms.assetid: 27F0C336-3C8C-49B5-A7DB-F0640526CAE8
 ms.date: 04/16/2018
 keywords: ["RtlEnumerateGenericTableWithoutSplayingAvl function"]
 ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplayingavl, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl
-f1_keywords:
- - "ntddk/RtlEnumerateGenericTableWithoutSplayingAvl"
- - "RtlEnumerateGenericTableWithoutSplayingAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlEnumerateGenericTableWithoutSplayingAvl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlEnumerateGenericTableWithoutSplayingAvl
+ - ntddk/RtlEnumerateGenericTableWithoutSplayingAvl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlEnumerateGenericTableWithoutSplayingAvl
 ---
 
 # RtlEnumerateGenericTableWithoutSplayingAvl function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> routine is used to enumerate the elements in a generic table. 
-
+The <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> routine is used to enumerate the elements in a generic table.
 
 ## -parameters
 
-
-
-
 ### -param Table 
+
 [in]
 A pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
 
-
 ### -param RestartKey 
+
 [in, out]
 An address of the element returned by the previous call to <b>RtlEnumerateGenericTableWithoutSplayingAvl</b>. Should be set to <b>NULL</b> if the enumeration is to start at the first element in the table. 
 
@@ -84,16 +80,9 @@ for (ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &RestartKey);
 
 ## -returns
 
-
-
-<b>RtlEnumerateGenericTableWithoutSplayingAvl</b> returns a pointer to the caller-defined structure associated with the element. It returns <b>NULL</b> if <i>RestartKey</i> is <b>NULL</b> and the table has no elements or if <i>RestartKey</i> is a returned pointer and there is no next element. 
-
-
-
+<b>RtlEnumerateGenericTableWithoutSplayingAvl</b> returns a pointer to the caller-defined structure associated with the element. It returns <b>NULL</b> if <i>RestartKey</i> is <b>NULL</b> and the table has no elements or if <i>RestartKey</i> is a returned pointer and there is no next element.
 
 ## -remarks
-
-
 
 The <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> routine does not actually work with a splay tree but provides an analogous named routine to <b>RtlEnumerateGenericTableWithoutSplayingAvl</b>.
 
@@ -107,15 +96,9 @@ If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic t
 
 Callers of the<i> Rtl..GenericTableAvl</i> routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose.
 
-Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at IRQL < DISPATCH_LEVEL if the caller-allocated memory for the generic table is pageable. 
-
-
-
+Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at IRQL < DISPATCH_LEVEL if the caller-allocated memory for the generic table is pageable.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictableavl">RtlEnumerateGenericTableAvl</a>
 
@@ -130,7 +113,4 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl">RtlNumberGenericTableElementsAvl</a>
- 
-
- 
 

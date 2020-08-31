@@ -8,9 +8,6 @@ ms.assetid: D2D2E231-E174-4C9F-96C3-35E744212F18
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT callback function"]
 ms.keywords: CLIENT_SaveBankHardwareContext, CLIENT_SaveBankHardwareContext callback, CLIENT_SaveBankHardwareContext callback function [Parallel Ports], GPIO.client_savebankhardwarecontext, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_SaveBankHardwareContext
-f1_keywords:
- - "gpioclx/CLIENT_SaveBankHardwareContext"
- - "CLIENT_SaveBankHardwareContext"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_SaveBankHardwareContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT
+ - gpioclx/GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_SaveBankHardwareContext
 ---
 
 # GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT callback function
+
 
 ## -description
 
@@ -50,10 +51,12 @@ The *CLIENT_SaveBankHardwareContext* event callback function saves the hardware 
 ## -parameters
 
 ### -param Context 
+
 [in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 ### -param Parameters 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_save_restore_bank_hardware_context_parameters">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a> structure that describes the bank of GPIO pins to save.
 
@@ -122,3 +125,4 @@ The GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT function type is defined in the Gpioc
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_save_restore_bank_hardware_context_parameters">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
+

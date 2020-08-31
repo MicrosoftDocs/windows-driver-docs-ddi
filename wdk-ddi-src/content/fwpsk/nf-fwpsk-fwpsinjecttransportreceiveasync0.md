@@ -8,9 +8,6 @@ ms.assetid: 0809a013-9977-44fc-b800-576b4fd983e8
 ms.date: 05/02/2018
 keywords: ["FwpsInjectTransportReceiveAsync0 function"]
 ms.keywords: FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml
-f1_keywords:
- - "fwpsk/FwpsInjectTransportReceiveAsync0"
- - "FwpsInjectTransportReceiveAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsInjectTransportReceiveAsync0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsInjectTransportReceiveAsync0
+ - fwpsk/FwpsInjectTransportReceiveAsync0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsInjectTransportReceiveAsync0
 ---
 
 # FwpsInjectTransportReceiveAsync0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsInjectTransportReceiveAsync0</b> function injects packet data from the transport, datagram data, or
@@ -55,35 +54,32 @@ The
 
 ## -parameters
 
-
-
-
 ### -param injectionHandle 
+
 [in]
 An injection handle that was previously created by a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">
      FwpsInjectionHandleCreate0</a> function.
 
-
 ### -param injectionContext 
+
 [in, optional]
 An optional handle to the injection context. If specified, it can be obtained by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">FwpsQueryPacketInjectionState0</a> function when the packet injection state 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_packet_injection_state_">FWPS_PACKET_INJECTION_STATE</a> is
      <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>.
 
-
 ### -param reserved
 
 Reserved. Callout drivers must set this parameter to zero.
 
-
 ### -param flags 
+
 [in]
 Reserved. Callout drivers must set this parameter to zero.
 
-
 ### -param addressFamily 
+
 [in]
 One of the following address families:
      
@@ -102,8 +98,8 @@ The IPv4 address family.
 
 The IPv6 address family.
 
-
 ### -param compartmentId 
+
 [in]
 The identifier of the routing compartment into which the packet data is injected, specified as a 
      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ne-ntdef-compartment_id">COMPARTMENT_ID</a> type. This identifier is provided
@@ -116,8 +112,8 @@ The identifier of the routing compartment into which the packet data is injected
      the 
      <b>currentMetadataValues</b> member. Otherwise, set this parameter to <b>UNSPECIFIED_COMPARTMENT_ID</b>.
 
-
 ### -param interfaceIndex 
+
 [in]
 The index of the interface on which the original packet data was received. A callout driver should
      use the value of the interface index that is passed as one of the incoming data values to its 
@@ -125,8 +121,8 @@ The index of the interface on which the original packet data was received. A cal
      parameter if the packet is to be injected into the same interface where the original packet was
      indicated.
 
-
 ### -param subInterfaceIndex 
+
 [in]
 The index of the subinterface on which the original packet data was received. A callout driver
      should use the value of the subinterface index that is passed as one of the incoming data values to its 
@@ -134,8 +130,8 @@ The index of the subinterface on which the original packet data was received. A 
      parameter if the packet is to be injected into the same subinterface where the original packet was
      indicated.
 
-
 ### -param netBufferList 
+
 [in, out]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
@@ -145,25 +141,22 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0">FwpsAllocateNetBufferAndNetBufferList0</a> function. The <b>NET_BUFFER_LIST</b> structure must begin with an
      IP header.
 
-
 ### -param completionFn 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a> callout function provided by
      the callout driver. The filter engine calls this function after the packet data, described by the 
      <i>netBufferList</i> parameter, has been injected into the network stack.
 
-
 ### -param completionContext 
+
 [in, optional]
 A pointer to a callout driver–provided context that is passed to the callout function pointed to
      by the 
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsInjectTransportReceiveAsync0</b> function returns one of the following <b>NTSTATUS</b> codes.
@@ -223,14 +216,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsInjectTransportReceiveAsync0</b> function to inject packet data from the transport, datagram data,
@@ -318,13 +305,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_packet_injection_state_">FWPS_PACKET_INJECTION_STATE</a> set to
     <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b> to pass through unaltered.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
 
@@ -405,7 +386,4 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a>
- 
-
- 
 

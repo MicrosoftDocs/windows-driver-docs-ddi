@@ -6,33 +6,38 @@ tech.root: netvista
 ms.assetid: a951b293-b261-4daa-aeb6-7a037ea5fc47
 ms.date: 08/20/2018
 keywords: ["WWAN_SAR_CONTROL_MODE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_SAR_CONTROL_MODE"
- - "_WWAN_SAR_CONTROL_MODE"
-ms.keywords: _WWAN_SAR_CONTROL_MODE, WWAN_SAR_CONTROL_MODE, *PWWAN_SAR_CONTROL_MODE, 
+ms.keywords: _WWAN_SAR_CONTROL_MODE, WWAN_SAR_CONTROL_MODE, *PWWAN_SAR_CONTROL_MODE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_SAR_CONTROL_MODE, *PWWAN_SAR_CONTROL_MODE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_SAR_CONTROL_MODE
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _WWAN_SAR_CONTROL_MODE
+ - wwan/_WWAN_SAR_CONTROL_MODE
+ - PWWAN_SAR_CONTROL_MODE
+ - wwan/PWWAN_SAR_CONTROL_MODE
+ - WWAN_SAR_CONTROL_MODE
+ - wwan/WWAN_SAR_CONTROL_MODE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_SAR_CONTROL_MODE
 ---
 
 # _WWAN_SAR_CONTROL_MODE enumeration
+
 
 ## -description
 
@@ -61,3 +66,4 @@ This enumeration is used in the [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_con
 [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_info.md)
 
 [**WWAN_SET_SAR_CONFIG**](ns-wwan-_wwan_set_sar_config.md)
+

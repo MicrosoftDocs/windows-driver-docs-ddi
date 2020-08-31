@@ -8,9 +8,6 @@ ms.assetid: 697709D4-DBB7-4CB4-83A1-89E8BAFD68DA
 ms.date: 04/30/2018
 keywords: ["KeDeregisterBoundCallback function"]
 ms.keywords: KeDeregisterBoundCallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.kederegisterboundcallback, wdm/KeDeregisterBoundCallback
-f1_keywords:
- - "wdm/KeDeregisterBoundCallback"
- - "KeDeregisterBoundCallback"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeDeregisterBoundCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeDeregisterBoundCallback
+ - wdm/KeDeregisterBoundCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeDeregisterBoundCallback
 ---
 
 # KeDeregisterBoundCallback function
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeDeregisterBoundCallback</b> routine deregisters a user-mode bound exception callback registered by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param Handle 
-[in]
-Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a> when the callback was registered. 
 
+[in]
+Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a> when the callback was registered.
 
 ## -returns
 
-
-
 The <b>KeDeregisterBoundCallback</b> routine returns STATUS_SUCCESS if the callback is successfully removed. It returns STATUS_INVALID_HANDLE if no callback matching the provided <i>Handle</i> value is found.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a>
- 
-
- 
 

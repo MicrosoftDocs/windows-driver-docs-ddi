@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugClient.NotifyDebugEvent
 title: IDataModelScriptDebugClient::NotifyDebugEvent (dbgmodel.h)
-description: Whenever any event occurs which breaks into the script debugger, the debug code itself makes a call to the interface via the NotifyDebugEvent method. 
+description: Whenever any event occurs which breaks into the script debugger, the debug code itself makes a call to the interface via the NotifyDebugEvent method.
 ms.assetid: 97e8fde7-949a-4e5d-bb84-49adb72b71af
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugClient::NotifyDebugEvent"]
-f1_keywords:
- - "dbgmodel/IDataModelScriptDebugClient.NotifyDebugEvent"
- - "IDataModelScriptDebugClient.NotifyDebugEvent"
 ms.keywords: IDataModelScriptDebugClient::NotifyDebugEvent, NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent, IDataModelScriptDebugClient::NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScriptDebugClient.NotifyDebugEvent
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScriptDebugClient::NotifyDebugEvent
+ - dbgmodel/IDataModelScriptDebugClient::NotifyDebugEvent
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScriptDebugClient.NotifyDebugEvent
 ---
 
 # IDataModelScriptDebugClient::NotifyDebugEvent
@@ -66,27 +66,31 @@ ScriptExecutionStepIn	| Indicates that the interface would like the script debug
 ScriptDebugStepOut	| Indicates that the interface would like the script debugger to step out and notify the interface when the step out has successfully completed. Note that other events may occur in the interim. In that case, there may never be a step notification.
 ScriptDebugStepOver	| Indicates that the interface would like the script debugger to step over and notify the interface when the step over has successfully completed. Note that other events may occur in the interim. In that case, there may never be a step notification
 
-
-
-
 ## -parameters
 
 ### -param pEventInfo
+
 A data structure indicating what debug event has just occurred.
 
 ### -param pScript
+
 The script in which the event occurred.
 
 ### -param pEventDataObject
+
 The data object for the event in question. If the event has no data object, nullptr is passed. A data object is, for example, the exception object which was thrown for an exception notification.
 
 ### -param resumeEventKind
+
 An indication from the interface to the debugger of how the debugger should resume execution of script code after the processing of the debug event. Such is returned as a member of the ScriptExecutionKind enumeration as described above.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
 ## -see-also
 
 [IDataModelScriptDebugClient interface](nn-dbgmodel-idatamodelscriptdebugclient.md)
+

@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnCreateContextVirtualCb"
- - "pfnCreateContextVirtualCb"
+ - PFND3DDDI_CREATECONTEXTVIRTUALCB
+ - d3dumddi/PFND3DDDI_CREATECONTEXTVIRTUALCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATECONTEXTVIRTUALCB callback function
+
 
 ## -description
 

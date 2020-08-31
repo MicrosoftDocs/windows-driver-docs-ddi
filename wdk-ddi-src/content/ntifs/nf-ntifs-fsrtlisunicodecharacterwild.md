@@ -8,9 +8,6 @@ ms.assetid: 5e72aa2e-3aa6-49e5-b49f-339722060d5b
 ms.date: 04/16/2018
 keywords: ["FsRtlIsUnicodeCharacterWild macro"]
 ms.keywords: FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml, ifsk.fsrtlisunicodecharacterwild, ntifs/FsRtlIsUnicodeCharacterWild
-f1_keywords:
- - "ntifs/FsRtlIsUnicodeCharacterWild"
- - "FsRtlIsUnicodeCharacterWild"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlIsUnicodeCharacterWild
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlIsUnicodeCharacterWild
+ - ntifs/FsRtlIsUnicodeCharacterWild
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlIsUnicodeCharacterWild
 ---
 
 # FsRtlIsUnicodeCharacterWild macro
@@ -46,40 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlIsUnicodeCharacterWild</b> macro determines whether a Unicode character is a wildcard character.
 
-
 ## -parameters
-
-
-
 
 ### -param C
 
 <p>Pointer to the character to be tested.</p>
 
-
-
-
-
-
 ## -remarks
 
-
-
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlisansicharacterwild">FsRtlIsAnsiCharacterWild</a>
- 
-
- 
 

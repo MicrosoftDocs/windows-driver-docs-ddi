@@ -8,9 +8,6 @@ ms.assetid: A54E56A6-9A6C-435D-83FD-84BB0E072C74
 ms.date: 02/26/2018
 keywords: ["IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore"]
 ms.keywords: IWDFUnifiedPropertyStoreFactory interface,RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore method, RetrieveUnifiedDevicePropertyStore method,IWDFUnifiedPropertyStoreFactory interface, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
-f1_keywords:
- - "wudfddi/IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore"
- - "IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
+ - wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
 ---
 
 # IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveUnifiedDevicePropertyStore</b> method retrieves a unified property store interface.
 
-
 ## -parameters
 
-
-
-
 ### -param RootSpecifier 
+
 [in]
 The address of a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdf_property_store_root">WDF_PROPERTY_STORE_ROOT</a> structure. The driver fills in this structure to identify the unified property store that <b>RetrieveUnifiedDevicePropertyStore</b> retrieves.
 
-
 ### -param PropertyStore 
+
 [out]
 The address of a location that receives a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystore">IWDFUnifiedPropertyStore</a> interface.
 
-
 ## -returns
-
-
 
 <b>RetrieveUnifiedDevicePropertyStore</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values.
 
@@ -105,12 +98,7 @@ An attempt to allocate memory failed.
 
 This method might return one of the other values that <i>Winerror.h</i> contains.
 
-
-
-
 ## -remarks
-
-
 
 Your driver can call <b>RetrieveUnifiedDevicePropertyStore</b> to obtain access to a current device's hardware key or a device interface key that the device supports.
 
@@ -180,19 +168,11 @@ exit:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystore">IWDFUnifiedPropertyStore</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystorefactory">IWDFUnifiedPropertyStoreFactory</a>
- 
-
- 
 

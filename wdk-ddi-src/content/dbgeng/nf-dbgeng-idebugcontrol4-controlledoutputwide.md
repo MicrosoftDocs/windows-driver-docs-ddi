@@ -8,9 +8,6 @@ ms.assetid: eb9a89b8-02de-4617-a2f8-f67509ab8987
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::ControlledOutputWide"]
 ms.keywords: ControlledOutputWide, ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ControlledOutputWide method, IDebugControl4.ControlledOutputWide, IDebugControl4::ControlledOutputWide, dbgeng/IDebugControl4::ControlledOutputWide, debugger.controlledoutputwide
-f1_keywords:
- - "dbgeng/IDebugControl4.ControlledOutputWide"
- - "IDebugControl4.ControlledOutputWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugControl4.ControlledOutputWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::ControlledOutputWide
+ - dbgeng/IDebugControl4::ControlledOutputWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugControl4.ControlledOutputWide
 ---
 
 # IDebugControl4::ControlledOutputWide
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>ControlledOutputWide</b>  method formats a string and sends the result to <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> that were registered with some of the engine's clients.
-
 
 ## -parameters
 
-
-
-
 ### -param OutputControl 
+
 [in]
 Specifies an output control that determines which of the clients' output callbacks will receive the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
-
 ### -param Mask 
+
 [in]
 Specifies the output-type bit field.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
 
-
 ### -param Format 
+
 [in]
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -410,25 +406,13 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </tr>
 </table></span></div>
 
-
-
-
-
 ### -param param
-
-
-
-
-
 
 ####### - ...
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -449,24 +433,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-printf">.printf</a>
 
@@ -485,7 +457,4 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
- 
-
- 
 

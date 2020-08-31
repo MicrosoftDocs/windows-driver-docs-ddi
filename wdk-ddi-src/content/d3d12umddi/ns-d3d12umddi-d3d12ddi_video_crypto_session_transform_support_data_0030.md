@@ -7,9 +7,6 @@ ms.assetid: fb83a03e-56d9-4daf-93c1-407744ad134a
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure"]
 ms.keywords: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-transform-support-data-0030
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030"
- - "D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
+f1_keywords:
+ - D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
+ - d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
 ---
 
 # D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure
@@ -46,69 +46,53 @@ req.typenames: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030
 
 ## -description
 
-
 Video crypto session transform support data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NodeIndex
 
 Node index.
 
-
 ### -field DecodeProfile
 
 Decode profile.
-
 
 ### -field ContentProtectionSystem
 
 Content protection system.
 
-
 ### -field Flags
 
 Flags.
-
 
 ### -field BitstreamEncryption
 
 Bitstream encryption.
 
-
 ### -field Operation
 
 Operation.
-
 
 ### -field ProtectedOutputRequired
 
 Protected output required.
 
-
 ### -field InputAlignment
 
 Input alignment.
-
 
 ### -field InputPreambleSize
 
 Input preamble size.
 
-
 ### -field OutputAlignment
 
 Output alignment.
 
-
 ### -field OutputPreambleSize
 
 Output preamble size.
-
 
 ### -field Support
 

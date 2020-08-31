@@ -7,9 +7,6 @@ ms.assetid: 6CE8112F-1DDA-4A8B-8D3D-40DC3737976A
 ms.date: 05/10/2018
 keywords: ["D3DKMTMapGpuVirtualAddress function"]
 ms.keywords: D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTMapGpuVirtualAddress, display.d3dkmtmapgpuvirtualaddress
-f1_keywords:
- - "d3dkmthk/D3DKMTMapGpuVirtualAddress"
- - "D3DKMTMapGpuVirtualAddress"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,23 +24,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTMapGpuVirtualAddress
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTMapGpuVirtualAddress
+ - d3dkmthk/D3DKMTMapGpuVirtualAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTMapGpuVirtualAddress
 ---
 
 # D3DKMTMapGpuVirtualAddress function
+
 
 ## -description
 
@@ -72,7 +73,4 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange">DxgkCbReserveGpuVirtualAddressRange</a>
- 
-
- 
 

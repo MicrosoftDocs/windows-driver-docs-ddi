@@ -8,9 +8,6 @@ ms.assetid: A727CDC1-A17A-4ABE-92AC-7CAEC11B78D1
 ms.date: 04/16/2018
 keywords: ["FltCreateMailslotFile function"]
 ms.keywords: FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers], fltkernel/FltCreateMailslotFile, ifsk.fltcreatemailslotfile
-f1_keywords:
- - "fltkernel/FltCreateMailslotFile"
- - "FltCreateMailslotFile"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fltmgr.lib
-- Fltmgr.dll
-api_name:
-- FltCreateMailslotFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCreateMailslotFile
+ - fltkernel/FltCreateMailslotFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fltmgr.lib
+ - Fltmgr.dll
+api_name:
+ - FltCreateMailslotFile
 ---
 
 # FltCreateMailslotFile function
@@ -47,36 +47,32 @@ req.typenames:
 
 ## -description
 
-
 Minifilter drivers call <b>FltCreateMailslotFile</b> to create a new pipe or open an existing mailslot.
-
 
 ## -parameters
 
-
-
-
 ### -param Filter 
-[in]
-An opaque filter pointer for the caller. 
 
+[in]
+An opaque filter pointer for the caller.
 
 ### -param Instance 
-[in, optional]
-An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume for the mailslot file system. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-<b>NULL</b>, the request is sent only to minifilter driver instances that are attached below the specified instance. 
 
+[in, optional]
+An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume for the mailslot file system. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-<b>NULL</b>, the request is sent only to minifilter driver instances that are attached below the specified instance.
 
 ### -param FileHandle 
-[out]
-A pointer to a caller-allocated variable that receives the file handle if the call to  <b>FltCreateMailslotFile</b> is successful. 
 
+[out]
+A pointer to a caller-allocated variable that receives the file handle if the call to  <b>FltCreateMailslotFile</b> is successful.
 
 ### -param FileObject 
-[out, optional]
-A pointer to a caller-allocated variable that receives the file object pointer if the call to <b>FltCreateMailslotFile</b> is successful. This parameter is optional and can be <b>NULL</b>. 
 
+[out, optional]
+A pointer to a caller-allocated variable that receives the file object pointer if the call to <b>FltCreateMailslotFile</b> is successful. This parameter is optional and can be <b>NULL</b>.
 
 ### -param DesiredAccess 
+
 [in]
 A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects. 
 
@@ -216,10 +212,9 @@ STANDARD_RIGHTS_WRITE, FILE_WRITE_DATA, FILE_APPEND_DATA, and SYNCHRONIZE.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ObjectAttributes 
+
 [in]
 A pointer to an opaque <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that is already initialized with <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object are listed in the following table. 
 
@@ -279,10 +274,9 @@ A set of flags that controls the file object attributes. If the caller is runnin
 </td>
 </tr>
 </table>
- 
-
 
 ### -param IoStatusBlock 
+
 [out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateMailslotFile</b>, the <b>Information</b> member of the variable contains one of the following values:
 
@@ -290,8 +284,8 @@ FILE_CREATED
 
 FILE_OPENED
 
-
 ### -param CreateOptions 
+
 [in]
 The options to be applied when creating or opening the mailslot, as a compatible combination of the following flags. 
 
@@ -331,20 +325,19 @@ All operations on the mailslot are performed synchronously. Waits in the system 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param MailslotQuota 
+
 [in]
 The size, in bytes, of the buffer for writes to the mailslot.
 
-
 ### -param MaximumMessageSize 
+
 [in]
 The maximum size, in bytes, of a message to write to the mailslot. A message of any size is specified by the value 0.
 
-
 ### -param ReadTimeout 
+
 [in]
 The time a read operation waits for a message to be available in the mailslot. The default timeout is expressed in 100-nanosecond increments as a negative integer. For example, 250 milliseconds is specified as –10 * 1000 * 250. Additionally, the following values have special meanings.
 
@@ -376,17 +369,13 @@ Waits forever for a message.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param DriverContext 
+
 [in, optional]
 Optional pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context">IO_DRIVER_CREATE_CONTEXT</a> structure already initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext">IoInitializeDriverCreateContext</a>.
 
-
 ## -returns
-
-
 
 <b>FltCreateMailslotFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following. 
 
@@ -418,14 +407,8 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>FltCreateMailslotFile</b> function allows minifilter drivers to create or open mailslot instances. This is useful for creating virtual mailslots or for creating a mailslot group that distributes to several other mailslots.
 
@@ -436,13 +419,7 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
      If <i>Instance</i> is not <b>NULL</b>, the create request from <b>FltCreateMailslotFile</b> is sent only to the instances attached below the specified minifilter driver instance and to the mailslot file system. The specified instance and the instances attached above it do not receive the create request. If no instance is specified, the request goes to the top of the stack and is received by all instances and the mailslot file system.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist">FltAllocateExtraCreateParameterList</a>
 
@@ -461,7 +438,4 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext">IoInitializeDriverCreateContext</a>
- 
-
- 
 

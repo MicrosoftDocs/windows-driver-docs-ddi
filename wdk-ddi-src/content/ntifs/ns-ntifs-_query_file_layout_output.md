@@ -8,9 +8,6 @@ ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.date: 04/16/2018
 keywords: ["QUERY_FILE_LAYOUT_OUTPUT structure"]
 ms.keywords: "*PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_SINGLE_INSTANCED, _QUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT"
-f1_keywords:
- - "ntifs/QUERY_FILE_LAYOUT_OUTPUT"
- - "QUERY_FILE_LAYOUT_OUTPUT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntifs.h
-api_name:
-- QUERY_FILE_LAYOUT_OUTPUT
 targetos: Windows
 req.typenames: QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT
+f1_keywords:
+ - _QUERY_FILE_LAYOUT_OUTPUT
+ - ntifs/_QUERY_FILE_LAYOUT_OUTPUT
+ - PQUERY_FILE_LAYOUT_OUTPUT
+ - ntifs/PQUERY_FILE_LAYOUT_OUTPUT
+ - QUERY_FILE_LAYOUT_OUTPUT
+ - ntifs/QUERY_FILE_LAYOUT_OUTPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntifs.h
+api_name:
+ - QUERY_FILE_LAYOUT_OUTPUT
 ---
 
 # _QUERY_FILE_LAYOUT_OUTPUT structure
@@ -46,24 +50,17 @@ req.typenames: QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT
 
 ## -description
 
-
 The <b>QUERY_FILE_LAYOUT_OUTPUT</b> structure serves as a header for the file layout entries that are returned from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-query-file-layout">FSCTL_QUERY_FILE_LAYOUT</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FileEntryCount
 
 The number of file entries that follow this structure.
 
-
 ### -field FirstFileOffset
 
 The offset in the user buffer for the first file entry.
-
 
 ### -field Flags
 
@@ -85,17 +82,12 @@ Single instances of stream and file layout entries are returned. When set, only 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved.
 
-
 ## -remarks
-
-
 
 The file layout entries that follow the <b>QUERY_FILE_LAYOUT_OUTPUT</b> structure are determined by the flags set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a> provided as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-query-file-layout">FSCTL_QUERY_FILE_LAYOUT</a> request. A number of <b>FILE_LAYOUT_ENTRY</b> structures follow <b>QUERY_FILE_LAYOUT_OUTPUT</b>. Depending on the entries selected to return from a query, offsets in <b>FILE_LAYOUT_ENTRY</b> indicate where the additional informational entries are located in the user buffer. 
 
@@ -127,20 +119,11 @@ The following entry structures are returned when their corresponding inclusion f
 
 When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</b> structure, each informational entry structure has an offset member that indicates the location of the next entry. The chain of entry structures continues until the value of the offset member is 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-query-file-layout">FSCTL_QUERY_FILE_LAYOUT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a>
- 
-
- 
 

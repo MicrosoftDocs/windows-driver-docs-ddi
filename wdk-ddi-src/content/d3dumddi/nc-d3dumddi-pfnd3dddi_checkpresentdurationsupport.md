@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CheckPresentDurationSupport"
- - "CheckPresentDurationSupport"
+ - PFND3DDDI_CHECKPRESENTDURATIONSUPPORT
+ - d3dumddi/PFND3DDDI_CHECKPRESENTDURATIONSUPPORT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback function
+
 
 ## -description
 

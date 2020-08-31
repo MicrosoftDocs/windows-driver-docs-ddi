@@ -8,9 +8,6 @@ ms.assetid: 39cf1829-2caf-44e0-8528-acb0def0dd54
 ms.date: 05/10/2018
 keywords: ["VideoPortSetRegistryParameters function"]
 ms.keywords: VideoPortSetRegistryParameters, VideoPortSetRegistryParameters function [Display Devices], VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, display.videoportsetregistryparameters, video/VideoPortSetRegistryParameters
-f1_keywords:
- - "video/VideoPortSetRegistryParameters"
- - "VideoPortSetRegistryParameters"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortSetRegistryParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortSetRegistryParameters
+ - video/VideoPortSetRegistryParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortSetRegistryParameters
 ---
 
 # VideoPortSetRegistryParameters function
@@ -46,47 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortSetRegistryParameters</b> function writes information under the <b>adapter</b> key in the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
-
 ### -param ValueName 
+
 [in]
 Pointer to a buffer containing a null-terminated Unicode string that names the value entry for which data is being written in the registry.
 
-
 ### -param ValueData 
+
 [in]
 Pointer to a buffer containing the values to be written for the <i>ValueName</i> entry.
-
 
 ### -param ValueLength
 
 Specifies the size, in bytes, of the data to be written to the registry.
 
-
 ## -returns
-
-
 
 <b>VideoPortSetRegistryParameters</b> returns NO_ERROR if the given data was successfully written to the registry. Otherwise, it can return ERROR_INVALID_PARAMETER.
 
-
-
-
 ## -remarks
-
-
 
 <b>VideoPortSetRegistryParameters</b> searches under the registry's <b>adapter</b> key for the value name specified in the <i>ValueName</i> parameter. If the value name that is searched for does not exist, this function creates it automatically. When the value name is found or created, the contents of the <i>ValueData</i> parameter are copied to the value name. 
 
@@ -98,15 +84,9 @@ In Windows 2000 and later, <b>VideoPortSetRegistryParameters</b> returns ERROR_I
 
 In a checked build of any version of the operating system, a value name that begins with "DefaultSettings." causes an assertion failure.
 
-<b>VideoPortSetRegistryParameters</b> cannot be called from a miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_timer">HwVidTimer</a> functions, or from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>, or from a callback to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>. 
-
-
-
+<b>VideoPortSetRegistryParameters</b> cannot be called from a miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_timer">HwVidTimer</a> functions, or from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>, or from a callback to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
@@ -121,7 +101,4 @@ In a checked build of any version of the operating system, a value name that beg
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetregistryparameters">VideoPortGetRegistryParameters</a>
- 
-
- 
 

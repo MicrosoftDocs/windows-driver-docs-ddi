@@ -8,9 +8,6 @@ ms.assetid: FADB79BD-0404-4116-9EE8-AE7C063DBF26
 ms.date: 04/20/2018
 keywords: ["IBidiAsyncNotifyChannel::SendNotification"]
 ms.keywords: IBidiAsyncNotifyChannel interface [Print Devices],SendNotification method, IBidiAsyncNotifyChannel.SendNotification, IBidiAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Print Devices], SendNotification method [Print Devices],IBidiAsyncNotifyChannel interface, print.ibidiasyncnotifychannel_sendnotification, prnasntp/IBidiAsyncNotifyChannel::SendNotification
-f1_keywords:
- - "prnasntp/IBidiAsyncNotifyChannel.SendNotification"
- - "IBidiAsyncNotifyChannel.SendNotification"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IBidiAsyncNotifyChannel.SendNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiAsyncNotifyChannel::SendNotification
+ - prnasntp/IBidiAsyncNotifyChannel::SendNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IBidiAsyncNotifyChannel.SendNotification
 ---
 
 # IBidiAsyncNotifyChannel::SendNotification
@@ -46,26 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-ibidiasyncnotifychannel">IBidiAsyncNotifyChannel</a>
- 
-
- 
 

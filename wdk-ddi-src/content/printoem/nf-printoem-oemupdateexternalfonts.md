@@ -8,9 +8,6 @@ ms.assetid: 04b0a34f-0aec-4f42-8a2e-a29168a699e3
 ms.date: 04/20/2018
 keywords: ["OEMUpdateExternalFonts function"]
 ms.keywords: OEMUpdateExternalFonts, OEMUpdateExternalFonts function [Print Devices], print.oemupdateexternalfonts, print_obsoletefunctions_f42779e4-8a2d-45eb-801c-67e7e69cb96a.xml, printoem/OEMUpdateExternalFonts
-f1_keywords:
- - "printoem/OEMUpdateExternalFonts"
- - "OEMUpdateExternalFonts"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMUpdateExternalFonts
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMUpdateExternalFonts
+ - printoem/OEMUpdateExternalFonts
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMUpdateExternalFonts
 ---
 
 # OEMUpdateExternalFonts function
@@ -46,19 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hPrinter
 
-
 ### -param hHeap
-
 
 ### -param pwstrCartridges
 

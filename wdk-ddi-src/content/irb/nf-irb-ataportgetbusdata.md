@@ -8,9 +8,6 @@ ms.assetid: bfff10ab-7e15-4db3-b808-947d61844bc0
 ms.date: 03/29/2018
 keywords: ["AtaPortGetBusData function"]
 ms.keywords: AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, irb/AtaPortGetBusData, storage.ataportgetbusdata
-f1_keywords:
- - "irb/AtaPortGetBusData"
- - "AtaPortGetBusData"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Pciidex.lib
-- Pciidex.dll
-api_name:
-- AtaPortGetBusData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortGetBusData
+ - irb/AtaPortGetBusData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Pciidex.lib
+ - Pciidex.dll
+api_name:
+ - AtaPortGetBusData
 ---
 
 # AtaPortGetBusData function
@@ -47,60 +47,40 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortGetBusData</b> routine retrieves data from the location that is specified by <i>ConfigDataOffset</i> within the device's PCI configuration space.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param ControllerExtension 
+
 [in]
 A pointer to the HBA controller extension.
 
-
 ### -param Buffer 
-[in]
-A pointer to the buffer where the retrieved data is returned. 
 
+[in]
+A pointer to the buffer where the retrieved data is returned.
 
 ### -param ConfigDataOffset 
+
 [in]
 Specifies an offset into the device's PCI bus configuration space where the return value is found.
 
-
 ### -param BufferLength 
+
 [in]
 Specifies the length, in bytes, of the buffer.
 
-
 ## -returns
-
-
 
 <b>AtaPortGetBusData</b> returns the amount of the retrieved data in bytes.
 
-
-
-
 ## -remarks
-
-
 
 <b>AtaPortGetBusData</b> retrieves data from the specified offset in the device's PCI bus configuration space and returns it in the buffer that is provided.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportsetbusdata">AtaPortSetBusData</a>
- 
-
- 
 

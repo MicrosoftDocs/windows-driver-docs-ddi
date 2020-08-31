@@ -5,36 +5,39 @@ description: Specifies result flags for the ReclaimAllocations callback function
 ms.assetid: 5d484da2-3a78-4061-ac72-55101957707f
 ms.date: 10/19/2018
 keywords: ["D3DDDI_RECLAIM_RESULT enumeration"]
-f1_keywords:
- - "d3dukmdt/_D3DDDI_RECLAIM_RESULT"
- - "_D3DDDI_RECLAIM_RESULT"
-ms.keywords: _D3DDDI_RECLAIM_RESULT, D3DDDI_RECLAIM_RESULT, 
+ms.keywords: _D3DDDI_RECLAIM_RESULT, D3DDDI_RECLAIM_RESULT,
 req.header: d3dukmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DDDI_RECLAIM_RESULT
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dukmdt.h
-api_name: 
-- _D3DDDI_RECLAIM_RESULT
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DDDI_RECLAIM_RESULT
+ - d3dukmdt/_D3DDDI_RECLAIM_RESULT
+ - D3DDDI_RECLAIM_RESULT
+ - d3dukmdt/D3DDDI_RECLAIM_RESULT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - _D3DDDI_RECLAIM_RESULT
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DDDI_RECLAIM_RESULT enumeration
+
 
 ## -description
 
@@ -57,3 +60,4 @@ The result is not committed.
 ## -remarks
 
 ## -see-also
+

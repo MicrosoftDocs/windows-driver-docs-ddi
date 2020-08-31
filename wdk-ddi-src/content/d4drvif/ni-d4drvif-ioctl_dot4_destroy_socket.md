@@ -8,9 +8,6 @@ ms.assetid: D6479299-F00D-4709-B8D6-3840E285953A
 ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_DESTROY_SOCKET IOCTL"]
 ms.keywords: IOCTL_DOT4_DESTROY_SOCKET, IOCTL_DOT4_DESTROY_SOCKET control, IOCTL_DOT4_DESTROY_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_DESTROY_SOCKET, print.ioctl_ioctl_dot4_destroy_socket
-f1_keywords:
- - "d4drvif/IOCTL_DOT4_DESTROY_SOCKET"
- - "IOCTL_DOT4_DESTROY_SOCKET"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D4drvif.h
-api_name:
-- IOCTL_DOT4_DESTROY_SOCKET
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_DOT4_DESTROY_SOCKET
+ - d4drvif/IOCTL_DOT4_DESTROY_SOCKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D4drvif.h
+api_name:
+ - IOCTL_DOT4_DESTROY_SOCKET
 ---
 
 # IOCTL_DOT4_DESTROY_SOCKET IOCTL
@@ -46,54 +46,27 @@ req.typenames:
 
 ## -description
 
-
 This topic describes <b>IOCTL_DOT4_DESTROY_SOCKET</b>.
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
 
 ### -input-buffer-length
 
-
-
-
 ### -output-buffer
-
-
-
 
 ### -output-buffer-length
 
-
-
-
 ### -in-out-buffer
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -108,7 +81,4 @@ This topic describes <b>IOCTL_DOT4_DESTROY_SOCKET</b>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

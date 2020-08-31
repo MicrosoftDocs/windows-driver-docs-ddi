@@ -8,9 +8,6 @@ ms.assetid: c4968449-eba0-4f7a-98e6-6955d3333495
 ms.date: 02/26/2018
 keywords: ["WdfIoResourceListRemoveByDescriptor function"]
 ms.keywords: DFResourceObjectRef_4bd88d52-ea6d-43c1-9477-8338e6bf1cdb.xml, WdfIoResourceListRemoveByDescriptor, WdfIoResourceListRemoveByDescriptor method, kmdf.wdfioresourcelistremovebydescriptor, wdf.wdfioresourcelistremovebydescriptor, wdfresource/WdfIoResourceListRemoveByDescriptor
-f1_keywords:
- - "wdfresource/WdfIoResourceListRemoveByDescriptor"
- - "WdfIoResourceListRemoveByDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoResourceListRemoveByDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoResourceListRemoveByDescriptor
+ - wdfresource/WdfIoResourceListRemoveByDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoResourceListRemoveByDescriptor
 ---
 
 # WdfIoResourceListRemoveByDescriptor function
@@ -47,26 +47,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceListRemoveByDescriptor</b> method removes a resource descriptor from a resource requirement list's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param ResourceList 
+
 [in]
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
-
 ### -param Descriptor 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
-
 
 ## -remarks
 
@@ -123,19 +118,11 @@ for (j = 0; j < resCount; j++) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistremove">WdfIoResourceListRemove</a>
- 
-
- 
 

@@ -5,38 +5,41 @@ description: Header structure which contains the common fields used to describe 
 ms.assetid: c8f81ba7-adda-457d-bda5-8a84303df060
 ms.date: 10/19/2018
 keywords: ["DXGK_DIAGNOSTIC_HEADER structure"]
-f1_keywords:
- - "dispmprt/_DXGK_DIAGNOSTIC_HEADER"
- - "_DXGK_DIAGNOSTIC_HEADER"
 ms.keywords: _DXGK_DIAGNOSTIC_HEADER, DXGK_DIAGNOSTIC_HEADER, *IN_PDXGK_DIAGNOSTIC_HEADER
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_DIAGNOSTIC_HEADER
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- _DXGK_DIAGNOSTIC_HEADER
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_DIAGNOSTIC_HEADER
+ - dispmprt/_DXGK_DIAGNOSTIC_HEADER
+ - DXGK_DIAGNOSTIC_HEADER
+ - dispmprt/DXGK_DIAGNOSTIC_HEADER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_DIAGNOSTIC_HEADER
+product:
+ - Windows
 ---
 
 # _DXGK_DIAGNOSTIC_HEADER structure
+
 
 ## -description
 

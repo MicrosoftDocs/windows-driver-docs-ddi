@@ -7,9 +7,6 @@ ms.assetid: f226f276-c5d3-460d-9f52-c66ccfd3393f
 ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, display.dxgk_multiplane_overlay_stereo_flip_mode
-f1_keywords:
- - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
- - "DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+f1_keywords:
+ - _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+ - d3dkmddi/_DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+ - DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+ - d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration
@@ -46,25 +48,17 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 
 ## -description
 
-
 Identifies the overlay plane's stereo flip mode. Only the <b>DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE</b> value is supported.
 
-
-
 ## -enum-fields
-
-
-
 
 ### -field DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE
 
 The overplay plane data is not presented in stereo mode.
 
-
 ### -field DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0
 
 Reserved for system use. Do not use in your driver.
-
 
 ### -field DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1
 

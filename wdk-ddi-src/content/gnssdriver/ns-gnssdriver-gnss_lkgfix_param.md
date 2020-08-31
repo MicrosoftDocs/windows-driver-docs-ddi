@@ -8,9 +8,6 @@ ms.assetid: AE4F03D6-A3A7-40DD-9DD9-D9B8F25FD567
 ms.date: 02/15/2018
 keywords: ["GNSS_LKGFIX_PARAM structure"]
 ms.keywords: "*PGNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM structure [Sensor Devices], PGNSS_LKGFIX_PARAM, PGNSS_LKGFIX_PARAM structure pointer [Sensor Devices], gnss.gnss_lkgfix_param, gnssdriver/GNSS_LKGFIX_PARAM, gnssdriver/PGNSS_LKGFIX_PARAM"
-f1_keywords:
- - "gnssdriver/GNSS_LKGFIX_PARAM"
- - "GNSS_LKGFIX_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_LKGFIX_PARAM
 targetos: Windows
 req.typenames: GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM
+f1_keywords:
+ - PGNSS_LKGFIX_PARAM
+ - gnssdriver/PGNSS_LKGFIX_PARAM
+ - GNSS_LKGFIX_PARAM
+ - gnssdriver/GNSS_LKGFIX_PARAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_LKGFIX_PARAM
 ---
 
 # GNSS_LKGFIX_PARAM structure
@@ -46,30 +48,19 @@ req.typenames: GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM
 
 ## -description
 
-
 This structure is not used currently by the system and is not required to be implemented.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
 
-
 ## -remarks
 
-
-
 No additional parameter is needed for an LKG fix. The GNSS adapter implements any aging heuristics for rejecting an LKG fix received from the GNSS driver based on the difference between the fix time and current time.
-
-
 

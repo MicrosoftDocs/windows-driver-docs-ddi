@@ -6,40 +6,40 @@ tech.root: storage
 ms.assetid: 04c83255-8f92-4db7-848b-928fcc16bb60
 ms.date: 08/23/2019
 keywords: ["DeviceDsmNumberOfDataSetRanges function"]
-f1_keywords:
- - "ntddstor/DeviceDsmNumberOfDataSetRanges"
- - "DeviceDsmNumberOfDataSetRanges"
 ms.keywords: DeviceDsmNumberOfDataSetRanges
 req.header: ntddstor.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- DeviceDsmNumberOfDataSetRanges
 targetos: Windows
-
+f1_keywords:
+ - DeviceDsmNumberOfDataSetRanges
+ - ntddstor/DeviceDsmNumberOfDataSetRanges
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - DeviceDsmNumberOfDataSetRanges
 ---
 
 # DeviceDsmNumberOfDataSetRanges function
+
 
 ## -description
 
@@ -68,3 +68,4 @@ See [Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/st
 [DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
+

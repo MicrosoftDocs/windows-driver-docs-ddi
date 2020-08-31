@@ -8,9 +8,6 @@ ms.assetid: 926d8919-42de-4e24-a223-ffbf412edf6d
 ms.date: 04/30/2018
 keywords: ["RtlAnsiStringToUnicodeString function"]
 ms.keywords: RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString
-f1_keywords:
- - "wdm/RtlAnsiStringToUnicodeString"
- - "RtlAnsiStringToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlAnsiStringToUnicodeString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlAnsiStringToUnicodeString
+ - wdm/RtlAnsiStringToUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlAnsiStringToUnicodeString
 ---
 
 # RtlAnsiStringToUnicodeString function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 <b>RtlAnsiStringToUnicodeString</b> converts the given ANSI source string into a Unicode string.
-
 
 ## -parameters
 
-
-
-
 ### -param DestinationString 
+
 [in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently-specified buffer to hold the string.
 
-
 ### -param SourceString 
+
 [in]
 Pointer to the ANSI string to be converted to Unicode.
 
-
 ### -param AllocateDestinationString 
+
 [in]
 Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
 
-
 ## -returns
-
-
 
 If the conversion succeeds, <b>RtlAnsiStringToUnicodeString</b> returns STATUS_SUCCESS. On failure, the routine does not allocate any memory.
 
-
-
-
 ## -remarks
-
-
 
 The translation conforms to the current system locale information.
 
@@ -143,14 +131,7 @@ The second byte of a two-byte character code is a value that is valid only as th
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
@@ -173,7 +154,4 @@ The second byte of a two-byte character code is a value that is valid only as th
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

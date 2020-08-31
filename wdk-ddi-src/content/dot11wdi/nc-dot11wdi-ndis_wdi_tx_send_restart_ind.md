@@ -8,9 +8,6 @@ ms.assetid: 40976CC1-89A4-420F-867F-99F857670DAE
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_TX_SEND_RESTART_IND callback function"]
 ms.keywords: NDIS_WDI_TX_SEND_RESTART_IND, NDIS_WDI_TX_SEND_RESTART_IND callback, NdisWdiTxSendRestartIndication, NdisWdiTxSendRestartIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendRestartIndication, netvista.ndiswditxsendrestartindication
-f1_keywords:
- - "dot11wdi/NdisWdiTxSendRestartIndication"
- - "NdisWdiTxSendRestartIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- NdisWdiTxSendRestartIndication
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_WDI_TX_SEND_RESTART_IND
+ - dot11wdi/NDIS_WDI_TX_SEND_RESTART_IND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NdisWdiTxSendRestartIndication
 ---
 
 # NDIS_WDI_TX_SEND_RESTART_IND callback function
@@ -46,54 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The NdisWdiTxSendRestartIndication callback function resumes transmission on a given port to a given peer or peer-TID combination.
 
 This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisMiniportDataPathHandle 
+
 [in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-
 ### -param PortId 
+
 [in]
 The port ID. Wildcards are accepted.
 
-
 ### -param PeerId 
+
 [in]
 The peer ID. Wildcards are accepted.
 
-
 ### -param ExTidBitmask 
+
 [in]
 The Extended TID bitmask. See <i>Remarks</i> section for more information.
 
-
 ### -param TxRestartReason
-
-
-
-
-
-
-
 
 #### - TxPauseReason [in]
 
 TX pause reason bitmask, specified as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a> value(s). See <i>Remarks</i> section for more information.
 
-
 ## -remarks
-
-
 
 In the <i>ExTidBitmask</i> parameter, the <i>i</i><sup>th</sup> bit represents extended TID <i>i </i>(the least significant bit is bit 0) .
 
@@ -104,13 +89,7 @@ If the pause reason is <b>WDI_TX_PAUSE_REASON_PS</b>, the TAL/target does not is
 
 If <b>TargetPriorityQueueing</b> is true, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-peer-id">WDI_PEER_ID</a> must be a wildcard.  Only port or adapter restarts are allowed in this mode.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>
 
@@ -133,7 +112,4 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a>
- 
-
- 
 

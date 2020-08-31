@@ -8,9 +8,6 @@ ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
 ms.date: 05/02/2018
 keywords: ["NdisRegisterProtocolDriver function"]
 ms.keywords: NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml
-f1_keywords:
- - "ndis/NdisRegisterProtocolDriver"
- - "NdisRegisterProtocolDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisRegisterProtocolDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRegisterProtocolDriver
+ - ndis/NdisRegisterProtocolDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisRegisterProtocolDriver
 ---
 
 # NdisRegisterProtocolDriver function
@@ -47,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 A protocol driver calls the
   <b>NdisRegisterProtocolDriver</b> function to register its 
   <i>ProtocolXxx</i> functions with NDIS.
 
-
 ## -parameters
 
-
-
-
 ### -param ProtocolDriverContext 
+
 [in, optional]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
-
 ### -param ProtocolCharacteristics 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
@@ -72,18 +68,15 @@ A pointer to an
      with its 
      <i>ProtocolXxx</i> function entry points.
 
-
 ### -param NdisProtocolHandle 
+
 [out]
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies the driver that is registering. The driver must save this handle for use in
      subsequent 
      <b>Ndis<i>Xxx</i></b> function calls.
 
-
 ## -returns
-
-
 
 <b>NdisRegisterProtocolDriver</b> returns one of the following status values:
 
@@ -156,14 +149,8 @@ Some members of the structure at the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A protocol driver calls the 
     <b>NdisRegisterProtocolDriver</b> function from its 
@@ -191,13 +178,7 @@ Protocol drivers call the
     NdisDeregisterProtocolDriver</a> function to release resources that were previously allocated with 
     <b>NdisRegisterProtocolDriver</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
    Drivers</a>
@@ -214,7 +195,4 @@ Protocol drivers call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
- 
-
- 
 

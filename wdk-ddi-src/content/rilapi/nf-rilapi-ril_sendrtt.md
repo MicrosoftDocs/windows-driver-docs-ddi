@@ -8,9 +8,6 @@ ms.assetid: d655aa2e-ec58-4f9b-a349-a19e7c78469a
 ms.date: 05/02/2018
 keywords: ["RIL_SendRTT function"]
 ms.keywords: RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], netvista.ril_sendrtt, rilapi/RIL_SendRTT
-f1_keywords:
- - "rilapi/RIL_SendRTT"
- - "RIL_SendRTT"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SendRTT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SendRTT
+ - rilapi/RIL_SendRTT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SendRTT
 ---
 
 # RIL_SendRTT function
@@ -46,37 +46,21 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwID
-
 
 ### -param dwExecutor
 
-
 ### -param lpwszRTTText
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

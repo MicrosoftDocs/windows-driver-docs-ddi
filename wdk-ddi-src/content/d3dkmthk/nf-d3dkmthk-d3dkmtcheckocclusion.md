@@ -7,9 +7,6 @@ ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
 ms.date: 05/10/2018
 keywords: ["D3DKMTCheckOcclusion function"]
 ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, PFND3DKMT_CHECKOCCLUSION callback, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
-f1_keywords:
- - "d3dkmthk/D3DKMTCheckOcclusion"
- - "D3DKMTCheckOcclusion"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -24,24 +21,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTCheckOcclusion
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTCheckOcclusion
+ - d3dkmthk/D3DKMTCheckOcclusion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTCheckOcclusion
 ---
 
 # D3DKMTCheckOcclusion function
+
 
 ## -description
 

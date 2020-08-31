@@ -8,9 +8,6 @@ ms.assetid: 15567aae-a8ab-4289-9dd7-5bf7df80bfc9
 ms.date: 05/02/2018
 keywords: ["RILDRVNOTIFICATION structure"]
 ms.keywords: "*LPRILDRVNOTIFICATION, RILDRVNOTIFICATION, RILDRVNOTIFICATION structure [Network Drivers Starting with Windows Vista], netvista.rildrvnotification, ntddrilapitypes/RILDRVNOTIFICATION"
-f1_keywords:
- - "rilapitypes/RILDRVNOTIFICATION"
- - "RILDRVNOTIFICATION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILDRVNOTIFICATION
 targetos: Windows
 req.typenames: RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
+f1_keywords:
+ - RILDRVNOTIFICATION
+ - rilapitypes/RILDRVNOTIFICATION
+ - LPRILDRVNOTIFICATION
+ - rilapitypes/LPRILDRVNOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILDRVNOTIFICATION
 ---
 
 # RILDRVNOTIFICATION structure
@@ -46,29 +48,19 @@ req.typenames: RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field cbSizeNeeded
 
-
 ### -field dwCode
-
 
 ### -field hrCmdID
 
-
 ### -field dwDataSize
-
 
 ### -field pbData
 

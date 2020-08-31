@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/Lock"
- - "Lock"
+ - PFND3DDDI_LOCK
+ - d3dumddi/PFND3DDDI_LOCK
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_LOCK callback function
+
 
 ## -description
 

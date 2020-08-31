@@ -8,9 +8,6 @@ ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.date: 04/30/2018
 keywords: ["ZwQueryEaFile function"]
 ms.keywords: ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryeafile, ntifs/ZwQueryEaFile
-f1_keywords:
- - "ntifs/ZwQueryEaFile"
- - "ZwQueryEaFile"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryEaFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwQueryEaFile
+ - ntifs/ZwQueryEaFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryEaFile
 ---
 
 # ZwQueryEaFile function
@@ -46,67 +46,63 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwQueryEaFile</b> routine returns 
     information about extended-attribute (EA) values for a file.
 
-
 ## -parameters
 
-
-
-
 ### -param FileHandle 
+
 [in]
 The handle for the file on which the operation is to be performed.
 
-
 ### -param IoStatusBlock 
+
 [out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that 
       receives the final completion status and other information about the requested operation.
 
-
 ### -param Buffer 
+
 [out]
 A pointer to a caller-supplied 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured output 
       buffer, where the extended attribute values are to be returned.
 
-
 ### -param Length 
+
 [in]
 The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
-
 ### -param ReturnSingleEntry 
+
 [in]
 Set to <b>TRUE</b> if 
       <b>ZwQueryEaFile</b> should return only the first entry that 
       is found.
 
-
 ### -param EaList 
+
 [in, optional]
 A pointer to a caller-supplied 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input 
       buffer, which specifies the extended attributes to be queried. This parameter is optional and can be 
       <b>NULL</b>.
 
-
 ### -param EaListLength 
+
 [in]
 The length, in bytes, of the buffer that the <i>EaList</i> parameter points to.
 
-
 ### -param EaIndex 
+
 [in, optional]
 The index of the entry at which scanning the file's extended-attribute list should begin. This parameter is 
       ignored if the <i>EaList</i> parameter points to a nonempty list. This parameter is optional 
       and can be <b>NULL</b>.
 
-
 ### -param RestartScan 
+
 [in]
 Set to <b>TRUE</b> if 
       <b>ZwQueryEaFile</b> should begin the scan at the first 
@@ -114,10 +110,7 @@ Set to <b>TRUE</b> if
       routine resumes the scan from a previous call to 
       <b>ZwQueryEaFile</b>.
 
-
 ## -returns
-
-
 
 <b>ZwQueryEaFile</b> returns 
       <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value such as 
@@ -163,15 +156,8 @@ The <i>EaList</i> parameter is not formatted correctly. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>
 
@@ -182,7 +168,4 @@ The <i>EaList</i> parameter is not formatted correctly. This is an error code.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
- 
-
- 
 

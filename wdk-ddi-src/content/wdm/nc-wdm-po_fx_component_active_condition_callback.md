@@ -8,9 +8,6 @@ ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.date: 04/30/2018
 keywords: ["PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback function"]
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
-f1_keywords:
- - "wdm/ComponentActiveConditionCallback"
- - "ComponentActiveConditionCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- ComponentActiveConditionCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK
+ - wdm/PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - ComponentActiveConditionCallback
 ---
 
 # PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>ComponentActiveConditionCallback</i> callback routine notifies the driver that the specified component completed a transition from the idle condition to the active condition.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in]
 A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
-
 ### -param Component 
+
 [in]
 Specifies the index that identifies the component. This parameter is an index into the <b>Components</b> array in the <b>PO_FX_DEVICE</b> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
-
 ## -remarks
-
-
 
 A component's hardware registers can be accessed only when the component is in the active condition. Do not rely on the Fx power state of a component to determine whether the component can be accessed. If the component is in the F0 state and is in the idle condition, the component might be about to switch to another Fx state.
 
@@ -116,19 +109,11 @@ The PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK function type is defined in the Wd
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a>
- 
-
- 
 

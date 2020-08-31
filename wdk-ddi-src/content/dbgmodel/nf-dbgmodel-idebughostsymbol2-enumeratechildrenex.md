@@ -5,40 +5,38 @@ description: Enumerates all child symbols of the given type, name, and extended 
 ms.assetid: 8479d24b-be5f-4c21-adea-699af64adeb2
 ms.date: 06/10/2019
 keywords: ["IDebugHostSymbol2::EnumerateChildrenEx"]
-f1_keywords:
- - "dbgmodel/IDebugHostSymbol2.EnumerateChildrenEx"
- - "IDebugHostSymbol2.EnumerateChildrenEx"
 ms.keywords: IDebugHostSymbol2::EnumerateChildrenEx, EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx, IDebugHostSymbol2::EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostSymbol2.EnumerateChildrenEx
 targetos: Windows
-
-
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostSymbol2::EnumerateChildrenEx
+ - dbgmodel/IDebugHostSymbol2::EnumerateChildrenEx
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostSymbol2.EnumerateChildrenEx
 ---
 
 # IDebugHostSymbol2::EnumerateChildrenEx
@@ -54,19 +52,23 @@ can be used to search to search for any kind of child. Note that if name is null
 ## -parameters
 
 ### -param kind
+
 Indicates what kinds of child symbols the caller wishes to enumerate. If the flat value Symbol is passed, all kinds of child symbols will be enumerated.
 
 ### -param name
+
 If specified, only child symbols with a name as given in this argument will be enumerated.
 
 ### -param searchInfo
-A pointer to a [SymbolSearchInfo structure](ns-dbgmodel-symbolsearchinfo.md) which describes attributes of how the symbol search should proceed.  The caller should ensure that the HeaderSize and InfoSize fields of the SymbolSearchInfo are filled out appropriately prior to passing the structure to this method.  For searches involving types, a TypeSearchInfo structure follows. 
+
+A pointer to a [SymbolSearchInfo structure](ns-dbgmodel-symbolsearchinfo.md) which describes attributes of how the symbol search should proceed.  The caller should ensure that the HeaderSize and InfoSize fields of the SymbolSearchInfo are filled out appropriately prior to passing the structure to this method.  For searches involving types, a TypeSearchInfo structure follows.
 
 ### -param ppEnum
+
 An enumerator which enumerates child symbols of the specified kind and name will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT which indicate success or failure.
 
 ## -remarks
@@ -76,3 +78,4 @@ This method returns HRESULT which indicate success or failure.
 [SymbolSearchInfo structure](ns-dbgmodel-symbolsearchinfo.md)
 
 [IDebugHostSymbol2 interface](nn-dbgmodel-idebughostsymbol2.md)
+

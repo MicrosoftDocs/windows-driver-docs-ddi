@@ -8,9 +8,6 @@ ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
 ms.date: 11/13/2018
 keywords: ["GetKdContext macro"]
 ms.keywords: GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, debugger.getkdcontext, wdbgexts/GetKdContext
-f1_keywords:
- - "wdbgexts/GetKdContext"
- - "GetKdContext"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- GetKdContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetKdContext
+ - wdbgexts/GetKdContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetKdContext
 ---
 
 # GetKdContext macro
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetKdContext</b> function returns the total number of processors and the number of the current processor in the structure <i>ppi</i> points to.
 
-
 ## -parameters
-
-
-
 
 ### -param ppi
 
@@ -66,7 +61,7 @@ typedef struct _tagPROCESSORINFO {
 } PROCESSORINFO, *PPROCESSORINFO;
 ```
 
-
 ## -returns
 
 The total number of processors.
+

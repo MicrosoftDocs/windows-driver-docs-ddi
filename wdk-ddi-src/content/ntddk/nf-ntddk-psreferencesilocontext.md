@@ -8,9 +8,6 @@ ms.assetid: 04867D53-DB36-482A-93BF-C91D13998B3F
 ms.date: 04/30/2018
 keywords: ["PsReferenceSiloContext function"]
 ms.keywords: PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreferencesilocontext, ntddk/PsReferenceSiloContext
-f1_keywords:
- - "ntddk/PsReferenceSiloContext"
- - "PsReferenceSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _IRQL_requires_max_(DISPATCH_LEVEL)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsReferenceSiloContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsReferenceSiloContext
+ - ntddk/PsReferenceSiloContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsReferenceSiloContext
 ---
 
 # PsReferenceSiloContext function
@@ -46,27 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This routine increments the reference count on the object.
-
 
 ## -parameters
 
-
-
-
 ### -param SiloContext 
-[in]
-A pointer to the object created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. This parameter is required and it cannot be <b>NULL</b>. 
 
+[in]
+A pointer to the object created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. This parameter is required and it cannot be <b>NULL</b>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a>
- 
-
- 
 

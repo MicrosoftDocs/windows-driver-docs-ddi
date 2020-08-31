@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnReleaseTargetModeSet"
- - "pfnReleaseTargetModeSet"
+ - DXGKDDI_VIDPN_RELEASETARGETMODESET
+ - d3dkmddi/DXGKDDI_VIDPN_RELEASETARGETMODESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPN_RELEASETARGETMODESET callback function
+
 
 ## -description
 

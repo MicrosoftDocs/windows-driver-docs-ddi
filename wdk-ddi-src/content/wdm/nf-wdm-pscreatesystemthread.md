@@ -8,9 +8,6 @@ ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.date: 04/30/2018
 keywords: ["PsCreateSystemThread function"]
 ms.keywords: PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, wdm/PsCreateSystemThread
-f1_keywords:
- - "wdm/PsCreateSystemThread"
- - "PsCreateSystemThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsCreateSystemThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsCreateSystemThread
+ - wdm/PsCreateSystemThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsCreateSystemThread
 ---
 
 # PsCreateSystemThread function
@@ -46,62 +46,50 @@ req.typenames:
 
 ## -description
 
-
 The <b>PsCreateSystemThread</b> routine creates a system thread that executes in kernel mode and returns a handle for the thread.
-
 
 ## -parameters
 
-
-
-
 ### -param ThreadHandle 
+
 [out]
 Points to a variable that will receive the handle. The driver must close the handle with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> once the handle is no longer in use. This handle is a kernel handle for Windows Vista and later versions of Windows. In earlier versions of Windows, the handle might not be a kernel handle.
 
-
 ### -param DesiredAccess 
+
 [in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the requested types of access to the created thread.
 
-
 ### -param ObjectAttributes 
+
 [in, optional]
 Points to a structure that specifies the object's attributes. OBJ_PERMANENT, OBJ_EXCLUSIVE, and OBJ_OPENIF are not valid attributes for a thread object. On Windows XP and later versions of Windows, if the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute for <i>ObjectAttributes</i>. Drivers for Microsoft Windows 2000 and Windows 98/Me must only call <b>PsCreateSystemThread</b> from the system process context. For Windows Vista and later versions of Windows, the handle will be a kernel handle.
 
-
 ### -param ProcessHandle 
+
 [in, optional]
 Specifies an open handle for the process in whose address space the thread is to be run. The caller's thread must have PROCESS_CREATE_THREAD access to this process. If this parameter is not supplied, the thread will be created in the initial system process. This value should be <b>NULL</b> for a driver-created thread. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
-
 ### -param ClientId 
+
 [out, optional]
 Points to a structure that receives the client identifier of the new thread. This value should be <b>NULL</b> for a driver-created thread.
 
-
 ### -param StartRoutine 
+
 [in]
 The entry point for the newly created system thread. This parameter is a function pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a> routine that receives a single argument, which is the <i>StartContext</i> parameter value supplied by the caller.
 
-
 ### -param StartContext 
+
 [in, optional]
 Supplies a single argument that is passed to the thread when it begins execution.
 
-
 ## -returns
-
-
 
 <b>PsCreateSystemThread</b> returns STATUS_SUCCESS if the thread was created.
 
-
-
-
 ## -remarks
-
-
 
 Drivers that create device-dedicated threads call this routine, either when they initialize or when I/O requests begin to come in to such a driver's Dispatch routines. For example, a driver might create such a thread when it receives an asynchronous device control request.
 
@@ -127,13 +115,7 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
  The newly created system thread runs at PASSIVE_LEVEL inside a critical region with <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> disabled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
@@ -156,7 +138,4 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetinformationthread">ZwSetInformationThread</a>
- 
-
- 
 

@@ -5,39 +5,40 @@ description: Describes a two-dimensional (2-D) texture that is used to create a 
 ms.assetid: bc3135d7-ca2c-4f3d-aafd-87247af0d440
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002"
- - "D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002"
-ms.keywords: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002, D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002, 
+ms.keywords: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002, D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
+ - d3d12umddi/D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002 structure
+
 
 ## -description
 
@@ -66,9 +67,11 @@ The number of array slices for the texture.
 The index (plane slice number) of the plane to use in the texture.
 
 ### -field ResourceMinLODClamp
+
  
 A value to clamp sample LOD values to. For example, if you specify 2.0f for the clamp value, you ensure that no individual sample accesses a mip level less than 2.0f.
 
 ## -remarks
 
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: c7da2e62-6d80-47d8-8f4e-2bbcbf730cef
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetGuidValue"]
 ms.keywords: GetGuidValue, GetGuidValue method, GetGuidValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetGuidValue method, IPortableDeviceValues.GetGuidValue, IPortableDeviceValues::GetGuidValue, IPortableDeviceValuesGetGuidValue, portabledevicetypes/IPortableDeviceValues::GetGuidValue, wpddk.iportabledevicevalues_getguidvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetGuidValue"
- - "IPortableDeviceValues.GetGuidValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetGuidValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetGuidValue
+ - portabledevicetypes/IPortableDeviceValues::GetGuidValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetGuidValue
 ---
 
 # IPortableDeviceValues::GetGuidValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves a <b>GUID</b> value (type VT_CLSID) specified by a key.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param key 
+
 [in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-
 ### -param pValue 
+
 [out]
 Pointer to the retrieved <b>GUID</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,31 +104,16 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setguidvalue">IPortableDeviceValues::SetGuidValue</a>
- 
-
- 
 

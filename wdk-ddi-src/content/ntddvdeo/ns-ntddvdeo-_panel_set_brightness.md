@@ -6,37 +6,42 @@ tech.root: display
 ms.assetid: d16d02f1-de69-4224-9e52-3ce78dcc63f3
 ms.date: 10/19/2018
 keywords: ["PANEL_SET_BRIGHTNESS structure"]
-f1_keywords:
- - "ntddvdeo/_PANEL_SET_BRIGHTNESS"
- - "_PANEL_SET_BRIGHTNESS"
 ms.keywords: _PANEL_SET_BRIGHTNESS, *PPANEL_SET_BRIGHTNESS, PANEL_SET_BRIGHTNESS,
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: PANEL_SET_BRIGHTNESS, *PPANEL_SET_BRIGHTNESS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- _PANEL_SET_BRIGHTNESS
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _PANEL_SET_BRIGHTNESS
+ - ntddvdeo/_PANEL_SET_BRIGHTNESS
+ - PPANEL_SET_BRIGHTNESS
+ - ntddvdeo/PPANEL_SET_BRIGHTNESS
+ - PANEL_SET_BRIGHTNESS
+ - ntddvdeo/PANEL_SET_BRIGHTNESS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - _PANEL_SET_BRIGHTNESS
+product:
+ - Windows
 ---
 
 # _PANEL_SET_BRIGHTNESS structure
+
 
 ## -description
 

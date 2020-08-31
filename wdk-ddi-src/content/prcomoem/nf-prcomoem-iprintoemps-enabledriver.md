@@ -8,9 +8,6 @@ ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
 ms.date: 04/20/2018
 keywords: ["IPrintOemPS::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
-f1_keywords:
- - "prcomoem/IPrintOemPS.EnableDriver"
- - "IPrintOemPS.EnableDriver"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintOemPS.EnableDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemPS::EnableDriver
+ - prcomoem/IPrintOemPS::EnableDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintOemPS.EnableDriver
 ---
 
 # IPrintOemPS::EnableDriver
@@ -46,33 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemPS::EnableDriver</code> method allows a rendering plug-in for <a href="https://docs.microsoft.com/windows-hardware/drivers/">Pscript</a> to hook out some graphics DDI functions.
 
-
 ## -parameters
-
-
-
 
 ### -param DriverVersion
 
 Caller-supplied interface version number. This value is defined by PRINTER_OEMINTF_VERSION, in printoem.h.
 
-
 ### -param cbSize
 
 Caller-supplied size, in bytes, of the structure pointed to by <i>pded</i>.
-
 
 ### -param pded
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -115,14 +105,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <code>IPrintOemPS::EnableDriver</code> method allows a rendering plug-in to perform the same types of operations as the <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a> function that is exported by printer graphics DLLs.
 
@@ -190,6 +174,4 @@ If <code>IPrintOemPS::EnableDriver</code> methods are exported by multiple rende
 <div class="alert"><b>Note</b>    Each graphics DDI function can be hooked out by one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.</div>
 <div> </div>
 For more information about creating and installing rendering plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
-
-
 

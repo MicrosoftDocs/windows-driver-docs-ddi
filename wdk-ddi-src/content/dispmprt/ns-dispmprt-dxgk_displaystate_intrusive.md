@@ -31,14 +31,16 @@ api_name:
  - _DXGKARG_DISPLAYSTATE_INTRUSIVE
  - DXGK_DISPLAYSTATE_INTRUSIVE
 f1_keywords:
+ - _DXGKARG_DISPLAYSTATE_INTRUSIVE
  - dispmprt/_DXGKARG_DISPLAYSTATE_INTRUSIVE
- - dispmprt//DXGK_DISPLAYSTATE_INTRUSIVE
  - DXGK_DISPLAYSTATE_INTRUSIVE
+ - dispmprt/DXGK_DISPLAYSTATE_INTRUSIVE
 dev_langs:
  - c++
 ---
 
 # DXGK_DISPLAYSTATE_INTRUSIVE structure
+
 
 ## -description
 
@@ -101,3 +103,4 @@ A pointer to an array of pointers to **DXGK_DISPLAYSTATE_INTRUSIVE** structures 
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

@@ -7,9 +7,6 @@ ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
 ms.date: 05/10/2018
 keywords: ["DXGK_VIDSCHCAPS structure"]
 ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml, _DXGK_VIDSCHCAPS, d3dkmddi/DXGK_VIDSCHCAPS, display.dxgk_vidschcaps
-f1_keywords:
- - "d3dkmddi/DXGK_VIDSCHCAPS"
- - "DXGK_VIDSCHCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_VIDSCHCAPS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_VIDSCHCAPS
+f1_keywords:
+ - _DXGK_VIDSCHCAPS
+ - d3dkmddi/_DXGK_VIDSCHCAPS
+ - DXGK_VIDSCHCAPS
+ - d3dkmddi/DXGK_VIDSCHCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_VIDSCHCAPS
 ---
 
 # _DXGK_VIDSCHCAPS structure
@@ -46,21 +48,15 @@ req.typenames: DXGK_VIDSCHCAPS
 
 ## -description
 
-
 The DXGK_VIDSCHCAPS structure identifies the graphics processing unit (GPU) scheduling capabilities, in bit-field flags, that a driver can support.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MultiEngineAware
 
 A UINT value that specifies whether the driver supports the creation and destruction of a device context (through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_destroycontext">DxgkDdiDestroyContext</a> functions) and the use of a device context (through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a> functions). If the driver does not support context creation, for every call to the driver that would pass a handle to a context, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
-
 
 ### -field VSyncPowerSaveAware
 
@@ -72,7 +68,6 @@ If <b>VSyncPowerSaveAware</b> is set to 1 (<b>TRUE</b>), the operating system ca
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 Supported starting with Windows Server 2008 and Windows Vista with SP1.
-
 
 ### -field PreemptionAware
 
@@ -90,7 +85,6 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 Supported starting with Windows 8.
 
-
 ### -field NoDmaPatching
 
 A UINT value that specifies whether the driver disables leak detection for DMA buffers that are split into multiple parts. This detection is performed after the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function is called to assign, or <i>patch</i>, physical addresses to each part of the DMA buffer.
@@ -107,7 +101,6 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 
 Supported starting with Windows 8.
 
-
 ### -field CancelCommandAware
 
 A UINT value that specifies whether the driver supports cleaning up internal resources (through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelcommand">DxgkDdiCancelCommand</a> function) after a command is removed from the hardware queue.
@@ -120,7 +113,6 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 
 Supported starting with Windows 8.
 
-
 ### -field No64BitAtomics
 
 |Value|Meaning|
@@ -131,19 +123,11 @@ Supported starting with Windows 8.
 
 Supported starting with Windows 10.
 
-
 ### -field LowIrqlPreemptCommand
-
- 
-
 
 ### -field HwQueuePacketCap
 
- 
-
-
 ### -field Reserved
-
 
         This member is reserved and should be set to zero.
 
@@ -158,16 +142,11 @@ This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 A member in the union that DXGK_VIDSCHCAPS contains that can hold a 32-bit value that identifies the GPU scheduling capabilities that the driver can support.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>
 
@@ -194,7 +173,4 @@ A member in the union that DXGK_VIDSCHCAPS contains that can hold a 32-bit value
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
- 
-
- 
 

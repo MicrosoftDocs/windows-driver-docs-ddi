@@ -34,13 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
 f1_keywords:
- - dispmprt//DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
  - DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
+ - dispmprt/DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP callback function
+
 
 ## -description
 
@@ -63,3 +64,4 @@ Use [*DxgkDdiOPMCreateProtectedOutputNonlocalDisplay*](nc-dispmprt-dxgkddi_opm_c
 ## -remarks
 
 ## -see-also
+

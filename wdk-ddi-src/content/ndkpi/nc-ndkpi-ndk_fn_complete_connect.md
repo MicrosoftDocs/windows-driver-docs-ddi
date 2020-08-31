@@ -8,9 +8,6 @@ ms.assetid: 85AD83CE-C00F-4D5A-BCDE-22D1B83201A8
 ms.date: 05/02/2018
 keywords: ["NDK_FN_COMPLETE_CONNECT callback function"]
 ms.keywords: NDK_FN_COMPLETE_CONNECT, NDK_FN_COMPLETE_CONNECT callback, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
-f1_keywords:
- - "ndkpi/NdkCompleteConnect"
- - "NdkCompleteConnect"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkCompleteConnect
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_COMPLETE_CONNECT
+ - ndkpi/NDK_FN_COMPLETE_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkCompleteConnect
 ---
 
 # NDK_FN_COMPLETE_CONNECT callback function
@@ -46,44 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkCompleteConnect</i> (<i>NDK_FN_COMPLETE_CONNECT</i>) function completes an asynchronous connection request.
-
 
 ## -parameters
 
-
-
-
 ### -param pNdkConnector 
+
 [in]
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
-
-
 ### -param DisconnectEvent 
+
 [in, optional]
 An optional disconnect notification callback <i>NdkDisconnectEventCallback</i>  function(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_disconnect_event_callback">NDK_FN_DISCONNECT_EVENT_CALLBACK</a>) that the provider calls when the peer disconnects.
 
-
 ### -param DisconnectEventContext 
+
 [in, optional]
 A context value to pass back to the <i>NdkDisconnectEventCallback</i> function that is specified in the  <i>DisconnectEvent</i> parameter.
 
-
 ### -param RequestCompletion 
+
 [in]
 A pointer to a request completion callback <i>NdkRequestCompletion</i>  function (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
-
 ### -param RequestContext 
+
 [in, optional]
 A context value that  the provider passes back to the <i>NdkRequestCompletion</i> function that is specified in the <i>RequestCompletion</i> parameter.
 
-
 ## -returns
-
-
 
 The 
      <i>NDK_FN_COMPLETE_CONNECT</i> function returns one of the following NTSTATUS codes.
@@ -164,24 +156,12 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>NdkCompleteConnect</i> function completes a connection request that was  initiated by a previous call to the <i>NdkConnect</i>  (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_connect">NDK_FN_CONNECT</a>) function. The NDK consumer calls <i>NdkCompleteConnect</i> after the peer accepts the connection request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -204,7 +184,4 @@ The <i>NdkCompleteConnect</i> function completes a connection request that was  
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>
- 
-
- 
 

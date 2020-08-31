@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetNumModes"
- - "pfnGetNumModes"
+ - DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES
+ - d3dkmddi/DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES callback function
+
 
 ## -description
 

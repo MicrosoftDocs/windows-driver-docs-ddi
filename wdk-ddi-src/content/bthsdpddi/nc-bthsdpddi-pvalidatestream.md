@@ -8,9 +8,6 @@ ms.assetid: cd119590-b910-487f-b611-5ef59204a798
 ms.date: 04/27/2018
 keywords: ["PVALIDATESTREAM callback function"]
 ms.keywords: PVALIDATESTREAM, PVALIDATESTREAM callback, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream
-f1_keywords:
- - "bthsdpddi/SdpValidateStream"
- - "SdpValidateStream"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- BthSdpddi.h
-api_name:
-- SdpValidateStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PVALIDATESTREAM
+ - bthsdpddi/PVALIDATESTREAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - BthSdpddi.h
+api_name:
+ - SdpValidateStream
 ---
 
 # PVALIDATESTREAM callback function
@@ -46,36 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The Bluetooth 
   <b>SdpValidateStream</b> function is used to parse a raw SDP record and determine if it contains
   errors.
 
-
 ## -parameters
-
-
-
 
 ### -param Stream
 
 A pointer to the raw SDP stream to be validated.
 
-
 ### -param Size
 
 An unsigned long integer that indicates the size of the SDP stream to be validated.
-
 
 ### -param ErrorByte
 
 A pointer to a variable that receives the address of the first byte in the SDP record that
      contains an error. The address is absolute.
 
-
 ## -returns
-
-
 
 Possible return values include:
 
@@ -86,13 +76,7 @@ Possible return values include:
 <dt>STATUS_INVALID_PARAMETER</dt>
 </dl>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
     <b>SdpValidateStream</b> function does nothing on success. On failure, it pinpoints the location of the
@@ -105,16 +89,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
- 
-
- 
 

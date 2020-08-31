@@ -8,9 +8,6 @@ ms.assetid: d67119c7-ecbe-446c-8a4f-38d33e92a277
 ms.date: 05/03/2018
 keywords: ["IDebugControl::SetInterrupt"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetInterrupt method, IDebugControl.SetInterrupt, IDebugControl2 interface [Windows Debugging],SetInterrupt method, IDebugControl2::SetInterrupt, IDebugControl3 interface [Windows Debugging],SetInterrupt method, IDebugControl3::SetInterrupt, IDebugControl::SetInterrupt, IDebugControl_dd73562c-6f15-4101-8ab3-3f432de5a002.xml, SetInterrupt, SetInterrupt method [Windows Debugging], SetInterrupt method [Windows Debugging],IDebugControl interface, SetInterrupt method [Windows Debugging],IDebugControl2 interface, SetInterrupt method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetInterrupt, dbgeng/IDebugControl3::SetInterrupt, dbgeng/IDebugControl::SetInterrupt, debugger.setinterrupt
-f1_keywords:
- - "dbgeng/IDebugControl.SetInterrupt"
- - "IDebugControl.SetInterrupt"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.SetInterrupt
-- IDebugControl2.SetInterrupt
-- IDebugControl3.SetInterrupt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl::SetInterrupt
+ - dbgeng/IDebugControl::SetInterrupt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.SetInterrupt
+ - IDebugControl2.SetInterrupt
+ - IDebugControl3.SetInterrupt
 ---
 
 # IDebugControl::SetInterrupt
@@ -48,16 +48,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetInterrupt</b> method registers a user interrupt or breaks into the debugger.
-
 
 ## -parameters
 
-
-
-
 ### -param Flags 
+
 [in]
 Specifies the type of interrupt to register.  <i>Flags</i> can take one of the values listed in the following table.
 
@@ -101,12 +97,8 @@ Otherwise, when the target is suspended, register a user interrupt.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -127,26 +119,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called at any time and from any thread.  Once the interrupt has been registered, this method returns immediately.
 
 If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engine will generate a synthetic exception event.  This event will be sent to event callback's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-exception">IDebugEventCallbacks::Exception</a> method.  The amount of time before the interrupt times out can be set using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupttimeout">SetInterruptTimeout</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getinterrupt">GetInterrupt</a>
 
@@ -169,7 +149,4 @@ If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupttimeout">SetInterruptTimeout</a>
- 
-
- 
 

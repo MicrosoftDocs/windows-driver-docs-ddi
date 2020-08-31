@@ -8,9 +8,6 @@ ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.date: 04/16/2018
 keywords: ["FsRtlCopyWrite function"]
 ms.keywords: FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
-f1_keywords:
- - "ntifs/FsRtlCopyWrite"
- - "FsRtlCopyWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlCopyWrite
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlCopyWrite
+ - ntifs/FsRtlCopyWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlCopyWrite
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlCopyWrite function
@@ -49,70 +49,58 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlCopyWrite</b> routine copies data from a user buffer to a cached file.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 A pointer to a file object for the cached file to which the data is to be written.
 
-
 ### -param FileOffset 
+
 [in]
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
-
 ### -param Length 
+
 [in]
 The length in bytes of the data to be written.
 
-
 ### -param Wait 
+
 [in]
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
-
 ### -param LockKey 
+
 [in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
-
 ### -param Buffer 
+
 [in]
 A pointer to the buffer from which the data is to be copied.
 
-
 ### -param IoStatus 
+
 [out]
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation. If the data is copied successfully, <i>IoStatus.Status</i> contains STATUS_SUCCESS. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
-
 ### -param DeviceObject 
+
 [in]
 A pointer to the device object for the mounted volume that holds the file data.
 
-
 ## -returns
-
-
 
 <b>FsRtlCopyWrite</b>
       returns <b>TRUE</b> if the copy request was completed, <b>FALSE</b> otherwise. Note that a return value of <b>TRUE</b> does not necessarily mean that the copy operation was successful. 
 
 If <b>FsRtlCopyWrite</b> returns <b>FALSE</b>, or if the contents of <i>IoStatus</i> indicate that the copy operation failed, the caller must allocate a write IRP instead of calling <b>FsRtlCopyWrite</b>.
 
-
-
-
 ## -remarks
-
-
 
 Rather than implementing a file-system-specific fast I/O write routine, developers of file systems that support file caching should consider using <b>FsRtlCopyWrite</b> as the file system's entry point for processing fast I/O write requests. This requires that the file system's <b>DriverEntry</b> routine set the FastIoWrite entry point to <b>FsRtlCopyWrite</b> in the FAST_IO_DISPATCH structure of the file system driver object. In addition, the file system must do the following:
 
@@ -144,13 +132,7 @@ The file system's <b>FastIoCheckIfPossible</b> routine is responsible for ensuri
 
 To cache a file, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
@@ -161,7 +143,4 @@ To cache a file, use the <a href="https://msdn.microsoft.com/library/windows/har
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite">FsRtlFastCheckLockForWrite</a>
- 
-
- 
 

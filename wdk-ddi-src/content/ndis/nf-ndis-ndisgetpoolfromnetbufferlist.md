@@ -8,9 +8,6 @@ ms.assetid: 645fd5f6-32b5-4ef6-9583-1418291d55d3
 ms.date: 05/02/2018
 keywords: ["NdisGetPoolFromNetBufferList function"]
 ms.keywords: NdisGetPoolFromNetBufferList, NdisGetPoolFromNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBufferList, ndis_netbuf_functions_ref_c93c9420-04fb-42f7-9844-29c3b2052b82.xml, netvista.ndisgetpoolfromnetbufferlist
-f1_keywords:
- - "ndis/NdisGetPoolFromNetBufferList"
- - "NdisGetPoolFromNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetPoolFromNetBufferList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetPoolFromNetBufferList
+ - ndis/NdisGetPoolFromNetBufferList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetPoolFromNetBufferList
 ---
 
 # NdisGetPoolFromNetBufferList function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisGetPoolFromNetBufferList</b> function to get the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pool handle that is
   associated with a specified NET_BUFFER_LIST structure.
 
-
 ## -parameters
 
-
-
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a previously allocated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -returns
-
-
 
 <b>NdisGetPoolFromNetBufferList</b> returns a handle to the NET_BUFFER_LIST structure pool that is
      associated with the specified NET_BUFFER_LIST structure.
 
-
-
-
 ## -remarks
-
-
 
 The handle that 
     <b>NdisGetPoolFromNetBufferList</b> returns is a required parameter in calls to NDIS functions that
@@ -85,16 +73,7 @@ The handle that
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are from the
     associated NET_BUFFER_LIST structure pool.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
- 
-
- 
 

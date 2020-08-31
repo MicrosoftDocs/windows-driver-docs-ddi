@@ -29,8 +29,8 @@ tech.root: display
 req.typenames: 
 ms.custom: 19H1
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN"
- - "DXGKDDI_SETTIMINGSFROMVIDPN"
+ - DXGKDDI_SETTIMINGSFROMVIDPN
+ - d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,6 +47,7 @@ dev_langs:
 ---
 
 # DXGKDDI_SETTIMINGSFROMVIDPN callback function
+
 
 ## -description
 

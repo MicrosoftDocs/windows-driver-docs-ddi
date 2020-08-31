@@ -8,9 +8,6 @@ ms.assetid: 7ac830d3-6a75-4d82-9123-cd7ad9c2cdea
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, pos.ioctl_point_of_service_msr_update_key
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY"
- - "IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
 ---
 
 # IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY IOCTL
+
 
 ## -description
 
@@ -76,3 +77,4 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
 
 ## -remarks
+

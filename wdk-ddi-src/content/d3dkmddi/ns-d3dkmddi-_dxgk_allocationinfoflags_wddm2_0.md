@@ -6,9 +6,6 @@ ms.assetid: 14943206-41ce-4ddb-b514-d4a0ffca8841
 ms.date: 08/05/2020
 keywords: ["_DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure"]
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS_WDDM2_0, DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
-f1_keywords:
- - "d3dkmddi/DXGK_ALLOCATIONINFOFLAGS_WDDM2_0"
- - "DXGK_ALLOCATIONINFOFLAGS_WDDM2_0"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,21 +23,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
+f1_keywords:
+ - _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
+ - d3dkmddi/_DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
+ - DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
+ - d3dkmddi/DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
 ---
 
 # _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure
+
 
 ## -description
 
@@ -263,3 +266,4 @@ You can specify properties of an allocation by setting bits in the 32-bit **Valu
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
 
 [**pfnUnlockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb.md)
+

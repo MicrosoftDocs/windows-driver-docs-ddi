@@ -6,40 +6,40 @@ tech.root: storage
 ms.assetid: 72c878ff-ba84-4805-8850-f96af298e249
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_ROUND_UP macro"]
-f1_keywords:
- - "ntddstor/DEVICE_DSM_ROUND_UP"
- - "DEVICE_DSM_ROUND_UP"
 ms.keywords: DEVICE_DSM_ROUND_UP
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddstor.h
-api_name: 
-- DEVICE_DSM_ROUND_UP
 targetos: Windows
-
+f1_keywords:
+ - DEVICE_DSM_ROUND_UP
+ - ntddstor/DEVICE_DSM_ROUND_UP
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_DSM_ROUND_UP
 ---
 
 # DEVICE_DSM_ROUND_UP macro
+
 
 ## -description
 
@@ -58,3 +58,4 @@ The target whole number of bytes up to round *_a* to.
 ## -remarks
 
 ## -see-also
+

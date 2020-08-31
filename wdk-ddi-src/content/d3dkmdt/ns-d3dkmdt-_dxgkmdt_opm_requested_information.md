@@ -8,9 +8,6 @@ ms.assetid: c483786a-be8c-4ae3-a48c-45064ce81939
 ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_REQUESTED_INFORMATION structure"]
 ms.keywords: "*PDXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION structure [Display Devices], DmStructs_671b07eb-3d44-4c06-863a-8bd74f10ee4b.xml, PDXGKMDT_OPM_REQUESTED_INFORMATION, PDXGKMDT_OPM_REQUESTED_INFORMATION structure pointer [Display Devices], _DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/PDXGKMDT_OPM_REQUESTED_INFORMATION, display.dxgkmdt_opm_requested_information"
-f1_keywords:
- - "d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION"
- - "DXGKMDT_OPM_REQUESTED_INFORMATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- DXGKMDT_OPM_REQUESTED_INFORMATION
 targetos: Windows
 req.typenames: DXGKMDT_OPM_REQUESTED_INFORMATION, *PDXGKMDT_OPM_REQUESTED_INFORMATION
+f1_keywords:
+ - _DXGKMDT_OPM_REQUESTED_INFORMATION
+ - d3dkmdt/_DXGKMDT_OPM_REQUESTED_INFORMATION
+ - PDXGKMDT_OPM_REQUESTED_INFORMATION
+ - d3dkmdt/PDXGKMDT_OPM_REQUESTED_INFORMATION
+ - DXGKMDT_OPM_REQUESTED_INFORMATION
+ - d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - DXGKMDT_OPM_REQUESTED_INFORMATION
 ---
 
 # _DXGKMDT_OPM_REQUESTED_INFORMATION structure
@@ -46,14 +50,9 @@ req.typenames: DXGKMDT_OPM_REQUESTED_INFORMATION, *PDXGKMDT_OPM_REQUESTED_INFORM
 
 ## -description
 
-
 The DXGKMDT_OPM_REQUESTED_INFORMATION structure contains information that was requested in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information">DxgkDdiOPMGetCOPPCompatibleInformation</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field omac
 
@@ -67,13 +66,11 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3
 
 <i>n</i> = 128 bits 
 
-For information about AES, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
-
+For information about AES, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website.
 
 ### -field cbRequestedInformationSize
 
-The size, in bytes, of the valid data that the <b>abRequestedInformation</b> member points to. 
-
+The size, in bytes, of the valid data that the <b>abRequestedInformation</b> member points to.
 
 ### -field abRequestedInformation
 
@@ -92,11 +89,7 @@ DXGKMDT_OPM_GET_DVI_CHARACTERISTICS, or DXGKMDT_OPM_GET_CURRENT_HDCP_SRM_VERSION
 | DXGKMDT_OPM_GET_CONNECTED [DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information)  |
 _HDCP_DEVICE_INFORMATION |
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_acp_and_cgmsa_signaling">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
 
@@ -135,7 +128,4 @@ _HDCP_DEVICE_INFORMATION |
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a>
- 
-
- 
 

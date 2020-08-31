@@ -8,9 +8,6 @@ ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.date: 03/29/2018
 keywords: ["ERASE_BAND_PARAMETERS structure"]
 ms.keywords: "*PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS structure [Storage Devices], PERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], _ERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, storage.erase_band_parameters"
-f1_keywords:
- - "ehstorbandmgmt/ERASE_BAND_PARAMETERS"
- - "ERASE_BAND_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorBandMgmt.h
-api_name:
-- ERASE_BAND_PARAMETERS
 targetos: Windows
 req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
+f1_keywords:
+ - _ERASE_BAND_PARAMETERS
+ - ehstorbandmgmt/_ERASE_BAND_PARAMETERS
+ - PERASE_BAND_PARAMETERS
+ - ehstorbandmgmt/PERASE_BAND_PARAMETERS
+ - ERASE_BAND_PARAMETERS
+ - ehstorbandmgmt/ERASE_BAND_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorBandMgmt.h
+api_name:
+ - ERASE_BAND_PARAMETERS
 ---
 
 # _ERASE_BAND_PARAMETERS structure
@@ -46,19 +50,13 @@ req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
 
 ## -description
 
-
 The <b>ERASE_BAND_PARAMETERS</b> structure contains the selection criteria for a band to erase. Additionally, a new authentication key can be set. This structure is input for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band"> IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(ERASE_BAND_PARAMETERS).
-
 
 ### -field Flags
 
@@ -80,23 +78,18 @@ The new authentication key for this band is cached allowing for automation of la
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved.
 
-
 ### -field BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
-
 ### -field BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
-
 
 ### -field NewAuthKeyOffset
 
@@ -132,22 +125,13 @@ A variable-length byte array that contains the key data.
 
 To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
-
 ## -remarks
-
-
 
  Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>.
 
 .
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>
 
@@ -158,7 +142,4 @@ To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
- 
-
- 
 

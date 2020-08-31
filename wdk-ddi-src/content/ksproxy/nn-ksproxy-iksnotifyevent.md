@@ -8,9 +8,6 @@ ms.assetid: 1de4db64-be4c-4a9b-b1ab-29f703e17959
 ms.date: 04/23/2018
 keywords: ["IKsNotifyEvent interface"]
 ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices],described, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml, stream.iksnotifyevent
-f1_keywords:
- - "ksproxy/IKsNotifyEvent"
- - "IKsNotifyEvent"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ksproxy.lib
-- Ksproxy.dll
-api_name:
-- IKsNotifyEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsNotifyEvent
+ - ksproxy/IKsNotifyEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ksproxy.lib
+ - Ksproxy.dll
+api_name:
+ - IKsNotifyEvent
 ---
 
 # IKsNotifyEvent interface
@@ -47,13 +47,11 @@ req.typenames:
 
 ## -description
 
-
 <b>DirectX 9.0 and later versions only.</b>
 
 The <b>IKsNotifyEvent</b> interface provides a method to cause the KS object that owns a DirectShow event to issue the event with the given parameters.
 
 The IID for this interface is IID_IKsNotifyEvent
-
 
 ## -inheritance
 

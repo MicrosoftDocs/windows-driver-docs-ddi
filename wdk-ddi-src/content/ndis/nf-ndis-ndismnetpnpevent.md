@@ -8,9 +8,6 @@ ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.date: 05/02/2018
 keywords: ["NdisMNetPnPEvent function"]
 ms.keywords: NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent
-f1_keywords:
- - "ndis/NdisMNetPnPEvent"
- - "NdisMNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMNetPnPEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMNetPnPEvent
+ - ndis/NdisMNetPnPEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMNetPnPEvent
 ---
 
 # NdisMNetPnPEvent function
@@ -47,25 +47,20 @@ req.typenames:
 
 ## -description
 
-
 NDIS miniport drivers (and intermediate drivers that are registered as miniport drivers) call the 
   <b>NdisMNetPnPEvent</b> function to originate a network Plug and Play event, an NDIS PnP event,
   or Power Management event or propagate it to overlying drivers.
 
-
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterHandle 
+
 [in]
 An NDIS handle which NDIS provided at the 
      <i>MiniportAdapterHandle</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      This handle identifies the miniport adapter that is affected by the event. If the caller is an
      intermediate driver, this is the handle of the virtual miniport.
-
 
 ### -param NetPnPEventNotification
 
@@ -78,8 +73,6 @@ A pointer to a
 > If the **VPortId** field of **NetPnpEventNotification** is set to a value different from NDIS_DEFAULT_VPORT_ID, then the **Flags** member must be set to NET_EVENT_FLAGS_VPORT_ID_VALID for **VPortId** to take effect.
 
 ## -returns
-
-
 
 <b>NdisMNetPnPEvent</b> can return the following:
 
@@ -186,12 +179,7 @@ If the event is
       <b>NetEventPortActivation</b> and the call fails, the caller should not use the associated ports in
       receive indications or status indications.
 
-
-
-
 ## -remarks
-
-
 
 Any miniport driver can call 
     <b>NdisMNetPnPEvent</b> to generate 
@@ -264,13 +252,7 @@ For all other propagated events, the intermediate driver's
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function should propagate the status value that is returned by 
     <b>NdisMNetPnPEvent</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -285,7 +267,4 @@ For all other propagated events, the intermediate driver's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
- 
-
- 
 

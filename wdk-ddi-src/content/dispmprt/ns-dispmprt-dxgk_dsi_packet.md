@@ -31,14 +31,18 @@ api_name:
  - _DXGK_DSI_PACKET
  - DXGK_DSI_PACKET
 f1_keywords:
+ - _DXGK_DSI_PACKET
  - dispmprt/_DXGK_DSI_PACKET
- - dispmprt//DXGK_DSI_PACKET
+ - PDXGK_DSI_PACKET
+ - dispmprt/PDXGK_DSI_PACKET
  - DXGK_DSI_PACKET
+ - dispmprt/DXGK_DSI_PACKET
 dev_langs:
  - c++
 ---
 
 # DXGK_DSI_PACKET structure
+
 
 ## -description
 
@@ -89,3 +93,4 @@ The panel driver calls [**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo
 [**IOCTL_MIPI_DSI_RESET**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
 
 [**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)
+

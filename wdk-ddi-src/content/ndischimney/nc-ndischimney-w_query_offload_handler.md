@@ -8,9 +8,6 @@ ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
 ms.date: 05/02/2018
 keywords: ["W_QUERY_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER callback, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
-f1_keywords:
- - "ndischimney/MiniportQueryOffload"
- - "MiniportQueryOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- MiniportQueryOffload
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - W_QUERY_OFFLOAD_HANDLER
+ - ndischimney/W_QUERY_OFFLOAD_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - MiniportQueryOffload
 ---
 
 # W_QUERY_OFFLOAD_HANDLER callback function
@@ -46,19 +46,15 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The 
   <i>MiniportQueryOffload</i> function queries previously offloaded TCP chimney state objects.
 
-
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterContext 
+
 [in]
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
@@ -68,18 +64,15 @@ The handle to an offload-target allocated context area in which the offload targ
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-
 ### -param OffloadBlockList 
+
 [in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such
      structures. These structures identify the offloaded state that is being queried.
 
-
 ## -remarks
-
-
 
 The 
     <i>MiniportQueryOffload</i> function can query any TCP chimney state that has been offloaded to the
@@ -129,12 +122,7 @@ The query operation did not succeed. The host stack will terminate the state obj
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -151,7 +139,4 @@ The query operation did not succeed. The host stack will terminate the state obj
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

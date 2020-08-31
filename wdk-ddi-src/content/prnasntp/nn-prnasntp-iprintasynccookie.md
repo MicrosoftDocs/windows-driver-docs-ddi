@@ -8,9 +8,6 @@ ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncCookie interface"]
 ms.keywords: IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], IPrintAsyncCookie interface [Print Devices],described, print.iprintasynccookie, prnasntp/IPrintAsyncCookie
-f1_keywords:
- - "prnasntp/IPrintAsyncCookie"
- - "IPrintAsyncCookie"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncCookie
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncCookie
+ - prnasntp/IPrintAsyncCookie
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncCookie
 ---
 
 # IPrintAsyncCookie interface
 
 
 ## -description
-
-
-
-
 
 ## -inheritance
 

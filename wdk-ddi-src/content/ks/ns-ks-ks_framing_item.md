@@ -8,9 +8,6 @@ ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.date: 04/23/2018
 keywords: ["KS_FRAMING_ITEM structure"]
 ms.keywords: "*PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, KS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, ks/KS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, stream.ks_framing_item"
-f1_keywords:
- - "ks/KS_FRAMING_ITEM"
- - "KS_FRAMING_ITEM"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KS_FRAMING_ITEM
 targetos: Windows
 req.typenames: KS_FRAMING_ITEM, *PKS_FRAMING_ITEM
+f1_keywords:
+ - PKS_FRAMING_ITEM
+ - ks/PKS_FRAMING_ITEM
+ - KS_FRAMING_ITEM
+ - ks/KS_FRAMING_ITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KS_FRAMING_ITEM
 ---
 
 # KS_FRAMING_ITEM structure
@@ -46,14 +48,9 @@ req.typenames: KS_FRAMING_ITEM, *PKS_FRAMING_ITEM
 
 ## -description
 
-
 The KS_FRAMING_ITEM structure is used to declare allocator requirements on a kernel-mode pin.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MemoryType
 
@@ -125,8 +122,6 @@ Indicates device memory allocation type is not specified.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BusType
 
@@ -188,18 +183,14 @@ GUID_61883_CLASS
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MemoryFlags
 
 Specifies that the connection point is responsible for frame allocation. Should be set to KSALLOCATOR_REQUIREMENTF_MUST_ALLOCATE.
 
-
 ### -field BusFlags
 
-Not used.  
-
+Not used.
 
 ### -field Flags
 
@@ -225,52 +216,35 @@ Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a 
 
 ##### )
 
-
 ### -field Frames
 
 Specifies the total number of allowable outstanding frames. Corresponds to the <b>Frames</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure.
-
 
 ### -field FileAlignment
 
 Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure.
 
-
 ### -field FramePitch
-
- 
-
 
 ### -field MemoryTypeWeight
 
 A value of type ULONG that specifies the pin-wide weight of this memory type.
 
-
 ### -field PhysicalRange
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range">KS_FRAMING_RANGE</a> that specifies the physical limit of frame sizes.
-
 
 ### -field FramingRange
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a> that specifies the optimal range of frame sizes.
 
-
 ## -remarks
-
-
 
 Do not set KSALLOCATOR_FLAG_CAN_ALLOCATE to indicate memory addressing capability. A filter might be able to access the device-specific memory over a device-specific bus by referencing the memory address on this bus, and yet not support the protocol to allocate this device-specific memory.
 
 Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a> instance contains one or more framing items.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
 
@@ -289,7 +263,4 @@ Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-k
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a>
- 
-
- 
 

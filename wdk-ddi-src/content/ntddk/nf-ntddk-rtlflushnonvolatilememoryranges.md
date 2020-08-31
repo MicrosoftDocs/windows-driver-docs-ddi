@@ -8,9 +8,6 @@ ms.assetid: 169C5F41-B372-4056-AAC5-53DD0582A563
 ms.date: 04/16/2018
 keywords: ["RtlFlushNonVolatileMemoryRanges function"]
 ms.keywords: RtlFlushNonVolatileMemoryRanges, RtlFlushNonVolatileMemoryRanges routine [Installable File System Drivers], ifsk.rtlflushnonvolatilememoryranges, ntddk/RtlFlushNonVolatileMemoryRanges
-f1_keywords:
- - "ntddk/RtlFlushNonVolatileMemoryRanges"
- - "RtlFlushNonVolatileMemoryRanges"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- RtlFlushNonVolatileMemoryRanges
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlFlushNonVolatileMemoryRanges
+ - ntddk/RtlFlushNonVolatileMemoryRanges
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - RtlFlushNonVolatileMemoryRanges
 ---
 
 # RtlFlushNonVolatileMemoryRanges function
@@ -46,39 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The routine <b>RtlFlushNonVolatileMemoryRanges</b> optimally flushes the given non-volatile memory regions.
 
-
 ## -parameters
-
-
-
 
 ### -param NvToken
 
  A pointer to an opaque structure that has
         information about various properties of the non-volatile memory region which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
 
-
 ### -param NvRanges
 
 Specifies an array of <b>NV_MEMORY_RANGE</b> structures which describe the non-volatile memory regions to flush
-
 
 ### -param NumRanges
 
 <p>Specifies the number of elements in the <b>NVRanges</b> array.</p>
 
-
 ### -param Flags
 
 For flags specified, refer <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">RtlFlushNonVolatileMemory</a> as this routine also honors the flags apart from passing it to <b>RtlFlushNonVolatileMemory</b>.
 
-
 ## -returns
-
-
 
 The routine <b>RtlFlushNonVolatileMemoryRanges</b> returns one of the following:
 
@@ -110,24 +99,12 @@ The request was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine is currently not supported for Windows Server until the next major release of Windows Server.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldrainnonvolatileflush">RtlDrainNonVolatileFlush</a>
 
@@ -147,7 +124,4 @@ RtlFlushNonVolatileMemory</a>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlwritenonvolatilememory">RtlWriteNonVolatileMemory</a>
- 
-
- 
 

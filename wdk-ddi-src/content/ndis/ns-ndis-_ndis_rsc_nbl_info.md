@@ -8,9 +8,6 @@ ms.assetid: ba9c18ba-8940-4aef-9d58-3105ee1420ce
 ms.date: 05/02/2018
 keywords: ["NDIS_RSC_NBL_INFO structure"]
 ms.keywords: "*PNDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO union [Network Drivers Starting with Windows Vista], PNDIS_RSC_NBL_INFO, PNDIS_RSC_NBL_INFO union pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_NBL_INFO, ndis/NDIS_RSC_NBL_INFO, ndis/PNDIS_RSC_NBL_INFO, netvista.ndis_rsc_nbl_info"
-f1_keywords:
- - "ndis/NDIS_RSC_NBL_INFO"
- - "NDIS_RSC_NBL_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_RSC_NBL_INFO
 targetos: Windows
 req.typenames: NDIS_RSC_NBL_INFO, *PNDIS_RSC_NBL_INFO
+f1_keywords:
+ - _NDIS_RSC_NBL_INFO
+ - ndis/_NDIS_RSC_NBL_INFO
+ - PNDIS_RSC_NBL_INFO
+ - ndis/PNDIS_RSC_NBL_INFO
+ - NDIS_RSC_NBL_INFO
+ - ndis/NDIS_RSC_NBL_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_RSC_NBL_INFO
 ---
 
 # _NDIS_RSC_NBL_INFO structure
@@ -46,24 +50,14 @@ req.typenames: NDIS_RSC_NBL_INFO, *PNDIS_RSC_NBL_INFO
 
 ## -description
 
-
 The <b>NDIS_RSC_NBL_INFO</b> union specifies receive segment coalescing (RSC) counter information that is associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Info
 
  
 A member in the union that is contained in <b>NDIS_RSC_NBL_INFO</b>.  Drivers use <b>Info</b> to access RSC information. <b>Info</b> is a structure with the following members:
-
-
-
 
 ### -field Info.CoalescedSegCount
 
@@ -81,15 +75,11 @@ The number of duplicate ACKs that were encountered while forming the  <a href="h
 Drivers can access this member with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-dup-ack-count">NET_BUFFER_LIST_DUP_ACK_COUNT</a>
 macro.
 
-
 ### -field Value
 
-A member in the union that is contained in <b>NDIS_RSC_NBL_INFO</b>.  Drivers use <b>Value</b> to access the RSC information as a single <b>PVOID</b>.  
-
+A member in the union that is contained in <b>NDIS_RSC_NBL_INFO</b>.  Drivers use <b>Value</b> to access the RSC information as a single <b>PVOID</b>.
 
 ## -remarks
-
-
 
 To access receive segment coalescing (RSC) counter  information that is associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure, an NDIS driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro and specifies the <b>TcpRecvSegCoalesceInfo</b> information type which is in an <b>NDIS_RSC_NBL_INFO</b> union.
 
@@ -108,16 +98,9 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndi
 
 
 Also, the additional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information can be provided for an SCU. 
-NDIS performs the <b>NET_BUFFER_LIST</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> validation. The host TCPIP stack performs packet checks including IP and TCP header validation. 
-
-
-
-
+NDIS performs the <b>NET_BUFFER_LIST</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> validation. The host TCPIP stack performs packet checks including IP and TCP header validation.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
@@ -132,7 +115,4 @@ NDIS performs the <b>NET_BUFFER_LIST</b> and <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
- 
-
- 
 

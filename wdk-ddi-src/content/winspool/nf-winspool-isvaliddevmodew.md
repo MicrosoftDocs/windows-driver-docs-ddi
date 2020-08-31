@@ -8,9 +8,6 @@ ms.assetid: 74da159d-7edc-44fc-abd9-aa068c4de7f2
 ms.date: 04/20/2018
 keywords: ["IsValidDevmodeW function"]
 ms.keywords: IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeA, IsValidDevmodeW, print.isvaliddevmode, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, winspool/IsValidDevmode
-f1_keywords:
- - "winspool/IsValidDevmode"
- - "IsValidDevmode"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: Winspool.drv
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winspool.drv
-api_name:
-- IsValidDevmode
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IsValidDevmodeW
+ - winspool/IsValidDevmodeW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winspool.drv
+api_name:
+ - IsValidDevmode
 ---
 
 # IsValidDevmodeW function
@@ -46,44 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The print spooler's <code>IsValidDevmode</code> function verifies that the contents of a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure are valid.
-
 
 ## -parameters
 
-
-
-
 ### -param pDevmode 
+
 [in, optional]
 Pointer to the DEVMODE structure to be validated.
 
-
 ### -param DevmodeSize
-
-
-
-
-
 
 #### - DevModeSize
 
 Size, in bytes, of the buffer pointed to by <i>pDevmode</i>.
 
-
 ## -returns
-
-
 
 If the DEVMODE structure is valid, or if the function succeeds in repairing the structure to make it valid, the function returns <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b>. The caller can obtain an error code by calling <b>GetLastError</b>.
 
-
-
-
 ## -remarks
-
-
 
 Before using a DEVMODE structure obtained from a possibly unreliable source, a printer driver can call this function to verify that the structure is valid. This function validates only the public members of the DEVMODE structure. It does not check the private members of the structure.
 
@@ -91,16 +73,7 @@ The <b>dmSize</b> member of the DEVMODE structure specifies the size of the DEVM
 
 This function does not require the caller to obtain elevated privileges.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 15f82163-a1b5-4cef-a53e-8a97adb2cd92
 ms.date: 05/02/2018
 keywords: ["MINIPORT_RESET callback function"]
 ms.keywords: MINIPORT_RESET, MINIPORT_RESET callback, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex
-f1_keywords:
- - "ndis/MiniportResetEx"
- - "MiniportResetEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportResetEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_RESET
+ - ndis/MINIPORT_RESET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportResetEx
 ---
 
 # MINIPORT_RESET callback function
@@ -56,27 +56,22 @@ NDIS calls an NDIS miniport driver's
 
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterContext 
+
 [in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
-
 ### -param AddressingReset 
+
 [out]
 A pointer to a Boolean variable. The miniport driver sets this variable to <b>TRUE</b> if NDIS should call the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function to
      restore addressing and other configuration settings to the current values. For more information, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
 
-
 ## -returns
-
-
 
 <i>MiniportResetEx</i> can return one of the following status values:
 
@@ -153,14 +148,8 @@ The driver will complete the reset operation asynchronously by calling the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A driver specifies the 
     <i>MiniportResetEx</i> entry point when it calls the 
@@ -279,15 +268,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_RESET</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_RESET</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
 
@@ -347,7 +330,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>
- 
-
- 
 

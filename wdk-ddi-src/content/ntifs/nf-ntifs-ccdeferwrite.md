@@ -8,9 +8,6 @@ ms.assetid: a655bcde-c627-4c90-8579-348ab0174c27
 ms.date: 04/16/2018
 keywords: ["CcDeferWrite function"]
 ms.keywords: CcDeferWrite, CcDeferWrite routine [Installable File System Drivers], ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, ifsk.ccdeferwrite, ntifs/CcDeferWrite
-f1_keywords:
- - "ntifs/CcDeferWrite"
- - "CcDeferWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcDeferWrite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcDeferWrite
+ - ntifs/CcDeferWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcDeferWrite
 ---
 
 # CcDeferWrite function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcDeferWrite</b> routine defers writing to a cached file. The post routine that is supplied, is called by the cache manager when it can accommodate the write operation.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 Pointer to a file object for the cached file to which the data is to be written.
 
-
 ### -param PostRoutine 
+
 [in]
 Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a> has just returned <b>FALSE</b> .
 
@@ -82,28 +78,26 @@ VOID (*PCC_POST_DEFERRED_WRITE) (
 </table></span></div>
 
 ### -param Context1 
+
 [in]
 First parameter for the post routine at <i>PostRoutine</i>.
 
-
 ### -param Context2 
+
 [in]
 Second parameter for the post routine at <i>PostRoutine</i>.
 
-
 ### -param BytesToWrite 
+
 [in]
 Number of bytes of data to be written.
 
-
 ### -param Retrying 
+
 [in]
 Set to <b>FALSE</b> if the request is being posted for the first time, <b>TRUE</b> otherwise.
 
-
 ## -remarks
-
-
 
 A file system would normally call <b>CcDeferWrite</b> after receiving a return value of <b>FALSE</b> from <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>.
 
@@ -111,13 +105,7 @@ To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 The context parameters passed to <i>PostRoutine</i> are typically the I/O request and related context data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>
 
@@ -128,7 +116,4 @@ The context parameters passed to <i>PostRoutine</i> are typically the I/O reques
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539209">CcSetDirtyPageThreshold</a>
- 
-
- 
 

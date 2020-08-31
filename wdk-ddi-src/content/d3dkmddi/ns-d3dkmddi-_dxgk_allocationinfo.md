@@ -7,9 +7,6 @@ ms.assetid: d5767bd3-11f8-45a7-b760-3ed51c54c044
 ms.date: 08/05/2020
 keywords: ["DXGK_ALLOCATIONINFO structure"]
 ms.keywords: DXGK_ALLOCATIONINFO, DXGK_ALLOCATIONINFO structure [Display Devices], DmStructs_f571b666-75fd-477a-a8a7-673033d9284e.xml, _DXGK_ALLOCATIONINFO, d3dkmddi/DXGK_ALLOCATIONINFO, display.dxgk_allocationinfo
-f1_keywords:
- - "d3dkmddi/DXGK_ALLOCATIONINFO"
- - "DXGK_ALLOCATIONINFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,21 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_ALLOCATIONINFO
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_ALLOCATIONINFO
+f1_keywords:
+ - _DXGK_ALLOCATIONINFO
+ - d3dkmddi/_DXGK_ALLOCATIONINFO
+ - DXGK_ALLOCATIONINFO
+ - d3dkmddi/DXGK_ALLOCATIONINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_ALLOCATIONINFO
 ---
 
 # _DXGK_ALLOCATIONINFO structure
+
 
 ## -description
 
@@ -158,3 +161,4 @@ Ignoring the supported read segment set does not mean that it is no longer suppo
 [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)
 
 [**pfnAllocateCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb.md)
+

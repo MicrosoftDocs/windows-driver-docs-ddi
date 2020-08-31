@@ -7,9 +7,6 @@ ms.assetid: BF528089-0194-4A3F-B8BA-85F80974C4C2
 ms.date: 05/10/2018
 keywords: ["DXGK_QUERYDISPLAYIDOUT structure"]
 ms.keywords: DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices], _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout
-f1_keywords:
- - "d3dkmddi/DXGK_QUERYDISPLAYIDOUT"
- - "DXGK_QUERYDISPLAYIDOUT"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_QUERYDISPLAYIDOUT
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYDISPLAYIDOUT
+f1_keywords:
+ - _DXGK_QUERYDISPLAYIDOUT
+ - d3dkmddi/_DXGK_QUERYDISPLAYIDOUT
+ - DXGK_QUERYDISPLAYIDOUT
+ - d3dkmddi/DXGK_QUERYDISPLAYIDOUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_QUERYDISPLAYIDOUT
 ---
 
 # _DXGK_QUERYDISPLAYIDOUT structure
@@ -46,19 +48,13 @@ req.typenames: DXGK_QUERYDISPLAYIDOUT
 
 ## -description
 
-
 Used to query a display ID.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Length
 
 The length of the Display ID.
-
 
 ### -field pDescriptor
 

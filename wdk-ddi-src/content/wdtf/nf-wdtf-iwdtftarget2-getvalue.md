@@ -8,9 +8,6 @@ ms.assetid: 41805e57-770b-416a-989f-25f81ee4d757
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2::GetValue"]
 ms.keywords: GetValue, GetValue method [Windows Device Testing Framework], GetValue method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValue method, IWDTFTarget2.GetValue, IWDTFTarget2::GetValue, Microsoft.WDTF.IWDTFTarget2.GetValue, Microsoft::WDTF::IWDTFTarget2::GetValue, dtf.iwdtftarget2_getvalue, wdtf/IWDTFTarget2::GetValue
-f1_keywords:
- - "wdtf/IWDTFTarget2.GetValue"
- - "IWDTFTarget2.GetValue"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTarget2.GetValue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTarget2::GetValue
+ - wdtf/IWDTFTarget2::GetValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTarget2.GetValue
 ---
 
 # IWDTFTarget2::GetValue
@@ -46,38 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Returns a value from the target that is associated with a specified attribute.
-
 
 ## -parameters
 
-
-
-
 ### -param SDEL 
+
 [in]
 An SDEL statement that specifies the attribute value to retrieve.
 
-
 ### -param pValue 
+
 [out, retval]
 The address of a variable that receives the result of this method. 
 The result can be any automation-compatible <b>VARIANT</b>.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -remarks
-
-
 
 You specify the field that the<b> GetValue</b> method retrieves 
 by using a regular <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">SDEL</a> 
@@ -100,16 +88,7 @@ of only the first value found (starting with the left).
 For more information about using <b>GetValue</b>, 
 see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data Evaluation Language Overview</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
- 
-
- 
 

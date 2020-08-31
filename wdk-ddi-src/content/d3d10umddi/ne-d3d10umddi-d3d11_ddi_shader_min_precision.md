@@ -7,9 +7,6 @@ ms.assetid: cf77d6c7-8f42-470a-9e3a-85d95398470b
 ms.date: 05/10/2018
 keywords: ["D3D11_DDI_SHADER_MIN_PRECISION enumeration"]
 ms.keywords: D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION enumeration [Display Devices], D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, display.d3d11_ddi_shader_min_precision
-f1_keywords:
- - "d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION"
- - "D3D11_DDI_SHADER_MIN_PRECISION"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_DDI_SHADER_MIN_PRECISION
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_DDI_SHADER_MIN_PRECISION
+f1_keywords:
+ - D3D11_DDI_SHADER_MIN_PRECISION
+ - d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_DDI_SHADER_MIN_PRECISION
 ---
 
 # D3D11_DDI_SHADER_MIN_PRECISION enumeration
@@ -46,19 +46,13 @@ req.typenames: D3D11_DDI_SHADER_MIN_PRECISION
 
 ## -description
 
-
 Specifies minimum precision levels that the user-mode driver supports in shaders.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_DDI_SHADER_MIN_PRECISION_10_BIT
 
 The minimum precision level is 10-bit.
-
 
 ### -field D3D11_DDI_SHADER_MIN_PRECISION_16_BIT
 

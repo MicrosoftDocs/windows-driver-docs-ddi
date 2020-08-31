@@ -8,9 +8,6 @@ ms.assetid: f843f8ce-81ee-4b8b-8583-dde3becb5460
 ms.date: 02/26/2018
 keywords: ["WdfPdoInitAssignInstanceID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, WdfPdoInitAssignInstanceID, WdfPdoInitAssignInstanceID method, kmdf.wdfpdoinitassigninstanceid, wdf.wdfpdoinitassigninstanceid, wdfpdo/WdfPdoInitAssignInstanceID
-f1_keywords:
- - "wdfpdo/WdfPdoInitAssignInstanceID"
- - "WdfPdoInitAssignInstanceID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoInitAssignInstanceID
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoInitAssignInstanceID
+ - wdfpdo/WdfPdoInitAssignInstanceID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoInitAssignInstanceID
 ---
 
 # WdfPdoInitAssignInstanceID function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoInitAssignInstanceID</b> method updates the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">instance ID</a> for a child device.
 
-
 ## -parameters
 
-
-
-
 ### -param DeviceInit 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-
 ### -param InstanceID 
-[in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">instance ID</a> string. The driver can allocate the string's buffer from paged pool. 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">instance ID</a> string. The driver can allocate the string's buffer from paged pool.
 
 ## -returns
-
-
 
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
 
@@ -106,12 +99,7 @@ The driver could not allocate space to store the instance ID string.
 
 The method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information about instance IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
@@ -136,12 +124,7 @@ status = WdfPdoInitAssignInstanceID(
                                     );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>
 
@@ -156,7 +139,4 @@ status = WdfPdoInitAssignInstanceID(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigndeviceid">WdfPdoInitAssignDeviceID</a>
- 
-
- 
 

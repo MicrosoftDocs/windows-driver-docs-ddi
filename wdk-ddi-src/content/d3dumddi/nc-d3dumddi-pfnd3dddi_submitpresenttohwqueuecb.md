@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3dumddi/PFND3DDDI_SUBMITPRESENTTOHWQUEUECB"
- - "PFND3DDDI_SUBMITPRESENTTOHWQUEUECB"
+ - PFND3DDDI_SUBMITPRESENTTOHWQUEUECB
+ - d3dumddi/PFND3DDDI_SUBMITPRESENTTOHWQUEUECB
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3DDDI_SUBMITPRESENTTOHWQUEUECB callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.date: 04/30/2018
 keywords: ["KeSetHardwareCounterConfiguration function"]
 ms.keywords: KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration
-f1_keywords:
- - "ntddk/KeSetHardwareCounterConfiguration"
- - "KeSetHardwareCounterConfiguration"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSetHardwareCounterConfiguration
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSetHardwareCounterConfiguration
+ - ntddk/KeSetHardwareCounterConfiguration
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSetHardwareCounterConfiguration
 ---
 
 # KeSetHardwareCounterConfiguration function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeSetHardwareCounterConfiguration</b> routine specifies a list of hardware counters to use for thread profiling.
-
 
 ## -parameters
 
-
-
-
 ### -param CounterArray 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a> array that describes the hardware counter configuration to use for thread profiling. Each array element is a structure that describes a hardware counter. Before the routine returns, it copies the contents of this array into its internal data structures.
 
-
 ### -param Count 
+
 [in]
 Specifies the number of elements in the array that is pointed to by the <i>CounterArray</i> parameter.
 
-
 ## -returns
-
-
 
 <b>KeSetHardwareCounterConfiguration</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
 
@@ -110,14 +103,8 @@ This routine is not implemented for the processor architecture that the caller i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In Windows 7, this routine is implemented only for the x86-based, x64-based, and Itanium-based architectures. If a caller is running on a processor architecture that is not supported, the routine returns STATUS_NOT_IMPLEMENTED.
 
@@ -137,13 +124,7 @@ To query the operating system for the hardware counter configuration that is cur
 
 Virtualization software typically does not virtualize hardware performance counters. Thus, hardware performance counters are unlikely to be available in a virtual machine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>
 
@@ -158,7 +139,4 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhardwarecounterconfiguration">KeQueryHardwareCounterConfiguration</a>
- 
-
- 
 

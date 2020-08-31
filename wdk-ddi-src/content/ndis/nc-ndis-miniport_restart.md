@@ -8,9 +8,6 @@ ms.assetid: 31a18040-2c66-4074-9ace-dd604b4bfe22
 ms.date: 05/02/2018
 keywords: ["MINIPORT_RESTART callback function"]
 ms.keywords: MINIPORT_RESTART, MINIPORT_RESTART callback, MiniportRestart, MiniportRestart callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_3ab5d6bf-6192-4c9b-af88-a5dd0efe4d37.xml, ndis/MiniportRestart, netvista.miniportrestart
-f1_keywords:
- - "ndis/MiniportRestart"
- - "MiniportRestart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportRestart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_RESTART
+ - ndis/MINIPORT_RESTART
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportRestart
 ---
 
 # MINIPORT_RESTART callback function
 
 
 ## -description
-
 
 The 
    <i>MiniportRestart</i> function initiates a restart request for a miniport adapter that
@@ -55,15 +54,12 @@ The
 
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterContext 
+
 [in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
-
 
 ### -param RestartParameters
 
@@ -72,10 +68,7 @@ A pointer to an
      NDIS_MINIPORT_RESTART_PARAMETERS</a> structure that defines the restart parameters for the miniport
      adapter.
 
-
 ## -returns
-
-
 
 <i>MiniportRestart</i> returns one of the following status values:
 
@@ -137,14 +130,8 @@ None of the preceding status values applies. In this situation, the driver shoul
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A driver specifies the 
     <i>MiniportRestart</i> entry point when it calls the 
@@ -300,15 +287,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_RESTART</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_RESTART</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -367,7 +348,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
- 
-
- 
 

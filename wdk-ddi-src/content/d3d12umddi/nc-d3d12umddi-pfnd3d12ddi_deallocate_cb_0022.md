@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnDeallocateCb"
- - "pfnDeallocateCb"
+ - PFND3D12DDI_DEALLOCATE_CB_0022
+ - d3d12umddi/PFND3D12DDI_DEALLOCATE_CB_0022
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_DEALLOCATE_CB_0022 callback function
+
 
 ## -description
 

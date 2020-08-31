@@ -8,9 +8,6 @@ ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.date: 04/16/2018
 keywords: ["RxLog function"]
 ms.keywords: "_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog, rxlog/_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
-f1_keywords:
- - "rxlog/_RxLog"
- - "_RxLog"
 req.header: rxlog.h
 req.include-header: Rxlog.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxlog.h
-api_name:
-- _RxLog
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _RxLog
+ - rxlog/_RxLog
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxlog.h
+api_name:
+ - _RxLog
 ---
 
 # _RxLog function
@@ -46,30 +46,19 @@ req.typenames:
 
 ## -description
 
-
-<b>_RxLog</b> takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled. 
-
+<b>_RxLog</b> takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled.
 
 ## -parameters
-
-
-
 
 ### -param format
 
 <p>The variable argument list that contains a format string and a variable number of parameters.</p>
 
-
 ### -param param
 
 TBD
 
-
-
-
 ## -remarks
-
-
 
 It is recommended that the <b>RxLog</b> macro be used instead of calling the <b>_RxLog</b> routine directly.
 
@@ -91,13 +80,7 @@ The <b>_RxLog</b> routine is limited to an output string of, at most, 48 lines, 
 
 It is recommended that the <b>RxLog</b> macro be used to call this routine. On checked builds, the <b>RxLog</b> macro will call the <b>_RxLog</b> routine. On retail builds, the <b>RxLog</b> macro is defined to nothing.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxlogeventdirect">RxLogEventDirect</a>
 
@@ -108,7 +91,4 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxlogeventwithbufferdirect">RxLogEventWithBufferDirect</a>
- 
-
- 
 

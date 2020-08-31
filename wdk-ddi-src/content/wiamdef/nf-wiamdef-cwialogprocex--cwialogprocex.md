@@ -8,9 +8,6 @@ ms.assetid: FD0C52E0-0E77-4F4C-AA38-E0D610AF3CD0
 ms.date: 05/03/2018
 keywords: ["CWiaLogProcEx::~CWiaLogProcEx"]
 ms.keywords: CWiaLogProcEx interface [Imaging Devices],~CWiaLogProcEx method, CWiaLogProcEx.~CWiaLogProcEx, CWiaLogProcEx::~CWiaLogProcEx, image.cwialogprocex__cwialogprocex, wiamdef/CWiaLogProcEx::~CWiaLogProcEx, ~CWiaLogProcEx, ~CWiaLogProcEx method [Imaging Devices], ~CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface
-f1_keywords:
- - "wiamdef/CWiaLogProcEx.~CWiaLogProcEx"
- - "CWiaLogProcEx.~CWiaLogProcEx"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiamdef.h
-api_name:
-- CWiaLogProcEx.~CWiaLogProcEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiaLogProcEx::~CWiaLogProcEx
+ - wiamdef/CWiaLogProcEx::~CWiaLogProcEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiamdef.h
+api_name:
+ - CWiaLogProcEx.~CWiaLogProcEx
 ---
 
 # CWiaLogProcEx::~CWiaLogProcEx
+
 
 ## -description
 
@@ -50,3 +51,4 @@ The **~CWiaLogProcEx** destructor is called when the function or method being lo
 ## -see-also
 
 [CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogprocex-cwialogprocex)
+

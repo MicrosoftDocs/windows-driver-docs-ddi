@@ -8,9 +8,6 @@ ms.assetid: 7a2bf1a8-d416-46bc-a9ba-9122407ea2a2
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_RENDER structure"]
 ms.keywords: D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, _D3DDDICB_RENDER, d3dumddi/D3DDDICB_RENDER, display.d3dddicb_render
-f1_keywords:
- - "d3dumddi/D3DDDICB_RENDER"
- - "D3DDDICB_RENDER"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_RENDER
 targetos: Windows
 req.typenames: D3DDDICB_RENDER
+f1_keywords:
+ - _D3DDDICB_RENDER
+ - d3dumddi/_D3DDDICB_RENDER
+ - D3DDDICB_RENDER
+ - d3dumddi/D3DDDICB_RENDER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_RENDER
 ---
 
 # _D3DDDICB_RENDER structure
+
 
 ## -description
 
@@ -188,3 +191,4 @@ A pointer used by the driver to pass the context's API sequence number.
 [**D3DDDI_PATCHLOCATIONLIST**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist)
 
 [**pfnRenderCb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb)
+

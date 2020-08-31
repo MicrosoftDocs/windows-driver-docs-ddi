@@ -8,9 +8,6 @@ ms.assetid: feb9600a-e8ce-449a-8da8-2d9a2f10f581
 ms.date: 04/16/2018
 keywords: ["RtlCreateSecurityDescriptorRelative function"]
 ms.keywords: RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers], ifsk.rtlcreatesecuritydescriptorrelative, ntifs/RtlCreateSecurityDescriptorRelative, rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml
-f1_keywords:
- - "ntifs/RtlCreateSecurityDescriptorRelative"
- - "RtlCreateSecurityDescriptorRelative"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlCreateSecurityDescriptorRelative
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCreateSecurityDescriptorRelative
+ - ntifs/RtlCreateSecurityDescriptorRelative
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlCreateSecurityDescriptorRelative
 ---
 
 # RtlCreateSecurityDescriptorRelative function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlCreateSecurityDescriptorRelative</b> routine initializes a new security descriptor in self-relative format. On return, the security descriptor is initialized with no system ACL (SACL), no discretionary ACL (DACL), no owner, no primary group, and all control flags set to zero.
-
 
 ## -parameters
 
-
-
-
 ### -param SecurityDescriptor 
-[out]
-Pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(SECURITY_DESCRIPTOR_RELATIVE), to receive the initialized security descriptor. 
 
+[out]
+Pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(SECURITY_DESCRIPTOR_RELATIVE), to receive the initialized security descriptor.
 
 ### -param Revision 
+
 [in]
 Revision level to assign to the security descriptor. This parameter must be SECURITY_DESCRIPTOR_REVISION.
 
-
 ## -returns
-
-
 
 <b>RtlCreateSecurityDescriptorRelative</b> can return one of the following:
 
@@ -99,26 +92,14 @@ The given <i>Revision</i> is not known or is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In effect, a successful call to this routine initializes a security descriptor without security constraints.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
 
@@ -141,7 +122,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlvalidsecuritydescriptor">RtlValidSecurityDescriptor</a>
- 
-
- 
 

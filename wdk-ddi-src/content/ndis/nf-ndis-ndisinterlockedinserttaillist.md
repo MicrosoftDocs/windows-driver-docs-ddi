@@ -8,9 +8,6 @@ ms.assetid: cc455bb1-3574-4dfb-9462-f2c67632132b
 ms.date: 05/02/2018
 keywords: ["NdisInterlockedInsertTailList macro"]
 ms.keywords: NdisInterlockedInsertTailList, NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedInsertTailList, ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, netvista.ndisinterlockedinserttaillist
-f1_keywords:
- - "ndis/NdisInterlockedInsertTailList"
- - "NdisInterlockedInsertTailList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisInterlockedInsertTailList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInterlockedInsertTailList
+ - ndis/NdisInterlockedInsertTailList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisInterlockedInsertTailList
 ---
 
 # NdisInterlockedInsertTailList macro
@@ -47,35 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInterlockedInsertTailList</b> function inserts an entry, usually a packet, at the tail of a doubly
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
 
-
 ## -parameters
 
-
-
-
 ### -param _ListHead 
+
 [in]
 A pointer to the head of the doubly linked list into which an entry is to be inserted.
 
-
 ### -param _ListEntry 
+
 [in]
 A pointer to the entry to be inserted at the end of the list.
 
-
 ### -param _SpinLock 
+
 [in]
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
-
 ## -remarks
-
-
 
 Before calling 
     <b>NdisInterlockedInsertTailList</b>, a driver must initialize the variable at 
@@ -103,13 +96,7 @@ If
     <b>NdisInterlockedInsertTailList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>ListHead</i> parameter and the list entries must be resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
 
@@ -130,7 +117,4 @@ If
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedremoveheadlist">
    NdisInterlockedRemoveHeadList</a>
- 
-
- 
 

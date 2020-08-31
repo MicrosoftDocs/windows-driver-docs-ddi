@@ -8,9 +8,6 @@ ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
 ms.date: 04/30/2018
 keywords: ["PoCreatePowerRequest function"]
 ms.keywords: PoCreatePowerRequest, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, wdm/PoCreatePowerRequest
-f1_keywords:
- - "ntifs/PoCreatePowerRequest"
- - "PoCreatePowerRequest"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoCreatePowerRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoCreatePowerRequest
+ - ntifs/PoCreatePowerRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoCreatePowerRequest
 ---
 
 # PoCreatePowerRequest function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoCreatePowerRequest</b> routine creates a power request object.
-
 
 ## -parameters
 
-
-
-
 ### -param PowerRequest 
+
 [out]
 A pointer to a location into which the routine writes a pointer to the newly created power request object. If the call fails, the routine writes <b>NULL</b> to this location.
 
-
 ### -param DeviceObject 
+
 [in]
 A pointer to the device object of the caller (a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure).
 
-
 ### -param Context 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_counted_reason_context">COUNTED_REASON_CONTEXT</a> structure that describes why the caller is creating the power request object. This parameter is optional and can be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>PoCreatePowerRequest</b> returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
 
@@ -104,14 +97,8 @@ There is not enough memory available to create a power request object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerrequest">PoSetPowerRequest</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a> routines.
 
@@ -119,13 +106,7 @@ A driver can use power requests to override certain aspects of the computer's de
 
 When the power request object is no longer needed, the caller must delete the object by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-podeletepowerrequest">PoDeletePowerRequest</a> routine. The driver must delete the power request object before it deletes the device object that was used to create the power request object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a>
 
@@ -136,7 +117,4 @@ When the power request object is no longer needed, the caller must delete the ob
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerrequest">PoSetPowerRequest</a>
- 
-
- 
 

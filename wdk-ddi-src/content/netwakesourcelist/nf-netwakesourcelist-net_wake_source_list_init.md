@@ -8,39 +8,39 @@ ms.assetid: ec713591-4ac2-4f68-888d-e29c8784d8b6
 ms.author: windowsdriverdev
 ms.date: 10/08/2019
 keywords: ["NET_WAKE_SOURCE_LIST_INIT function"]
-f1_keywords:
- - "netwakesourcelist/NET_WAKE_SOURCE_LIST_INIT"
- - "NET_WAKE_SOURCE_LIST_INIT"
 ms.keywords: NET_WAKE_SOURCE_LIST_INIT
 req.header: netwakesourcelist.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- netwakesourcelist.h
-api_name: 
-- NET_WAKE_SOURCE_LIST_INIT
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NET_WAKE_SOURCE_LIST_INIT
+ - netwakesourcelist/NET_WAKE_SOURCE_LIST_INIT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netwakesourcelist.h
+api_name:
+ - NET_WAKE_SOURCE_LIST_INIT
+product:
+ - Windows
 ---
 
 # NET_WAKE_SOURCE_LIST_INIT function
@@ -75,3 +75,4 @@ For a code sample of working with NETWAKESOURCE objects, see [Configuring power 
 [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md)
 
 [**NetDeviceGetWakeSourceList**](../netwakesourcelist/nf-netwakesourcelist-netdevicegetwakesourcelist.md)
+

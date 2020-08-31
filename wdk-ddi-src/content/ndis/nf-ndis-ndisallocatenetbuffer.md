@@ -8,9 +8,6 @@ ms.assetid: b10c5a4b-fb43-4880-9641-ff2dcf0e5cb3
 ms.date: 05/02/2018
 keywords: ["NdisAllocateNetBuffer function"]
 ms.keywords: NdisAllocateNetBuffer, NdisAllocateNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBuffer, ndis_netbuf_functions_ref_2c90427d-c174-48fa-b588-d48e5c099331.xml, netvista.ndisallocatenetbuffer
-f1_keywords:
- - "ndis/NdisAllocateNetBuffer"
- - "NdisAllocateNetBuffer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateNetBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateNetBuffer
+ - ndis/NdisAllocateNetBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateNetBuffer
 ---
 
 # NdisAllocateNetBuffer function
@@ -47,32 +47,28 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisAllocateNetBuffer</b> function to allocate and initialize a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure from a <b>NET_BUFFER</b> structure
   pool.
 
-
 ## -parameters
 
-
-
-
 ### -param PoolHandle 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure pool handle that was previously returned from a call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
      NdisAllocateNetBufferPool</a>.
 
-
 ### -param MdlChain 
+
 [in, optional]
 A pointer to an MDL chain that NDIS uses to initialize the new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. 
      <i>MdlChain</i> can be <b>NULL</b>.
 
-
 ### -param DataOffset 
+
 [in]
 The initial offset, in bytes, from the start of the buffer to the start of the 
      <i>used data space</i> in the MDL chain. Data space ahead of this offset is 
@@ -81,28 +77,20 @@ The initial offset, in bytes, from the start of the buffer to the start of the
      <i>MdlChain</i> is <b>NULL</b>, 
      <i>DataOffset</i> must be 0.
 
-
 ### -param DataLength 
+
 [in]
 The length of the 
      <i>used data space</i>, in bytes, in the MDL chain. If 
      <i>MdlChain</i> is <b>NULL</b>, 
      <i>DataLength</i> must be 0.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateNetBuffer</b> returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure that NDIS allocated. If the
      allocation was unsuccessful, this pointer is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Call 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a> to free a 
@@ -147,12 +135,7 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -167,7 +150,4 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a>
- 
-
- 
 

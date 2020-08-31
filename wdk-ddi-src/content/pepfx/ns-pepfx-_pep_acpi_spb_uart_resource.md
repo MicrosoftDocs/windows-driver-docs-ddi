@@ -8,9 +8,6 @@ ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_SPB_UART_RESOURCE structure"]
 ms.keywords: "*PPEP_ACPI_SPB_UART_RESOURCE, 0, 1, 2, 3, 4, 5, 6, 7, PEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_UART_RESOURCE, kernel.pep_acpi_spb_uart_resource, pepfx/PEP_ACPI_SPB_UART_RESOURCE, pepfx/PPEP_ACPI_SPB_UART_RESOURCE"
-f1_keywords:
- - "pepfx/PEP_ACPI_SPB_UART_RESOURCE"
- - "PEP_ACPI_SPB_UART_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_ACPI_SPB_UART_RESOURCE
 targetos: Windows
 req.typenames: PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE
+f1_keywords:
+ - _PEP_ACPI_SPB_UART_RESOURCE
+ - pepfx/_PEP_ACPI_SPB_UART_RESOURCE
+ - PPEP_ACPI_SPB_UART_RESOURCE
+ - pepfx/PPEP_ACPI_SPB_UART_RESOURCE
+ - PEP_ACPI_SPB_UART_RESOURCE
+ - pepfx/PEP_ACPI_SPB_UART_RESOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_ACPI_SPB_UART_RESOURCE
 ---
 
 # _PEP_ACPI_SPB_UART_RESOURCE structure
@@ -46,34 +50,25 @@ req.typenames: PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE
 
 ## -description
 
-
 The <b>PEP_ACPI_SPB_UART_RESOURCE</b> structure describes an ACPI UART serial bus resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SpbCommon
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_resource">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
 
-
 ### -field BaudRate
 
 The baud rate of the connection.
-
 
 ### -field RxBufferSize
 
 The maximum receive buffer size, in bytes, that is supported by this connection.
 
-
 ### -field TxBufferSize
 
 The maximum transmit buffer size, in bytes, that is supported by this connection.
-
 
 ### -field Parity
 
@@ -140,8 +135,6 @@ Space
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LinesInUse
 
@@ -233,16 +226,8 @@ Request to Send (RTS)
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_resource">PEP_ACPI_SPB_RESOURCE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: a27ec86b-85b3-4d65-a77a-fb6292b935d0
 ms.date: 04/16/2018
 keywords: ["FltIsIoCanceled function"]
 ms.keywords: FltApiRef_e_to_o_00dccf3a-3f69-4c6c-b5c6-1d7371e4afbc.xml, FltIsIoCanceled, FltIsIoCanceled routine [Installable File System Drivers], fltkernel/FltIsIoCanceled, ifsk.fltisiocanceled
-f1_keywords:
- - "fltkernel/FltIsIoCanceled"
- - "FltIsIoCanceled"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltIsIoCanceled
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltIsIoCanceled
+ - fltkernel/FltIsIoCanceled
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltIsIoCanceled
 ---
 
 # FltIsIoCanceled function
@@ -46,42 +46,24 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltIsIoCanceled</b> routine checks if an IRP-based operation has been canceled. 
-
+The <b>FltIsIoCanceled</b> routine checks if an IRP-based operation has been canceled.
 
 ## -parameters
 
-
-
-
 ### -param CallbackData 
-[in]
-Pointer to the callback data structure for the operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>). 
 
+[in]
+Pointer to the callback data structure for the operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>).
 
 ## -returns
 
-
-
-<b>FltIsIoCanceled</b> returns <b>TRUE</b> if an IRP-based operation has been canceled and <b>FALSE</b> if the operation has not been canceled or if it is not an IRP-based operation. 
-
-
-
+<b>FltIsIoCanceled</b> returns <b>TRUE</b> if an IRP-based operation has been canceled and <b>FALSE</b> if the operation has not been canceled or if it is not an IRP-based operation.
 
 ## -remarks
 
-
-
-It is a programming error to call <b>FltIsIoCanceled</b> for an operation that is not IRP-based. To determine whether the operation is IRP-based, use the <a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. 
-
-
-
+It is a programming error to call <b>FltIsIoCanceled</b> for an operation that is not IRP-based. To determine whether the operation is IRP-based, use the <a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -104,7 +86,4 @@ It is a programming error to call <b>FltIsIoCanceled</b> for an operation that i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcancelcompletion">FltSetCancelCompletion</a>
- 
-
- 
 
