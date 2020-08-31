@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnReserveGpuVirtualAddressCb"
- - "pfnReserveGpuVirtualAddressCb"
+ - PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
+ - d3dumddi/PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback function
+
 
 ## -description
 

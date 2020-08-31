@@ -8,9 +8,6 @@ ms.assetid: a3155544-cfb6-41a6-9d75-82618f7c7a48
 ms.date: 05/07/2018
 keywords: ["PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback, buses.querycontrollertype, usbbusif/QueryControllerType
-f1_keywords:
- - "usbbusif/QueryControllerType"
- - "QueryControllerType"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: < = DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbbusif.h
-api_name:
-- QueryControllerType
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
+ - usbbusif/PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbbusif.h
+api_name:
+ - QueryControllerType
 ---
 
 # PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function
@@ -46,22 +46,9 @@ req.typenames:
 
 ## -description
 
-
-The <b>QueryControllerType</b> routine gets information about the USB host controller to which the USB device is attached. 
-
+The <b>QueryControllerType</b> routine gets information about the USB host controller to which the USB device is attached.
 
 ## -parameters
-
-
-
-
-
-
-
-
-
-
-
 
 #### - BusContext [in]
 
@@ -102,19 +89,11 @@ Pointer to a UCHAR variable that receives the PCI subclass  for the USB host con
 
 Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
 
-
 ## -returns
 
-
-
-Returns STATUS_SUCCESS on success, and the appropriate error code on failure. 
-
-
-
+Returns STATUS_SUCCESS on success, and the appropriate error code on failure.
 
 ## -remarks
-
-
 
 <i>PciClass</i> is typically set to PCI_CLASS_SERIAL_BUS_CTLR (0x0C).
 
@@ -150,15 +129,7 @@ The function definition that is provided on this reference page is an example fu
     OUT PUCHAR
 </code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a>
- 
-
- 
 

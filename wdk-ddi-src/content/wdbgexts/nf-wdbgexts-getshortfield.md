@@ -8,9 +8,6 @@ ms.assetid: f5f00e88-b758-4f37-9fe5-5db8f20835b1
 ms.date: 05/03/2018
 keywords: ["GetShortField function"]
 ms.keywords: GetShortField, GetShortField function [Windows Debugging], WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, debugger.getshortfield, wdbgexts/GetShortField
-f1_keywords:
- - "wdbgexts/GetShortField"
- - "GetShortField"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- GetShortField
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetShortField
+ - wdbgexts/GetShortField
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetShortField
 ---
 
 # GetShortField function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetShortField</b> function reads the value of a member in a structure if its size is less than or equal to 8 bytes, or initializes a structure so it can be read later.  This function is not intended to be used directly; <a href="https://docs.microsoft.com/previous-versions/ff550953(v=vs.85)">InitTypeRead</a> or <a href="https://docs.microsoft.com/previous-versions/ff550957(v=vs.85)">InitTypeReadPhysical</a> and <a href="https://docs.microsoft.com/previous-versions/ff553539(v=vs.85)">ReadField</a> should be used instead.
-
 
 ## -parameters
 
-
-
-
 ### -param TypeAddress 
+
 [in]
 The meaning of this parameter depends on the value of <i>StoreAddress</i>.
 
@@ -71,10 +67,10 @@ Specifies the address of the structure in the target's memory.  This address is 
 
 #### If StoreAddress is zero:
 
-<i>TypeAddress</i> is ignored.  The value of <i>TypeAddress</i> from the last call when <i>StoreAddress</i> was non-zero is used to specify the address of the structure in the target's memory. 
-
+<i>TypeAddress</i> is ignored.  The value of <i>TypeAddress</i> from the last call when <i>StoreAddress</i> was non-zero is used to specify the address of the structure in the target's memory.
 
 ### -param Name 
+
 [in]
 The meaning of this parameter depends on the value of <i>StoreAddress</i>.
 
@@ -90,10 +86,10 @@ Specifies the name of the type of the structure at <i>TypeAddress</i>.
 
 #### If StoreAddress is zero:
 
-Specifies the name of the member in the structure to read.  The address and type of the structure are remembered from a previous call to this function with <i>StoreAddress</i> not equal to zero.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield". 
-
+Specifies the name of the member in the structure to read.  The address and type of the structure are remembered from a previous call to this function with <i>StoreAddress</i> not equal to zero.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield".
 
 ### -param StoreAddress 
+
 [in]
 Specifies the mode of this function.
 
@@ -111,12 +107,9 @@ If the bit value 0x2 is set in <i>StoreAddress</i>, the address <i>TypeAddress</
 
 #### If StoreAddress is zero:
 
-Causes this function to read a member from a previously initialized structure. 
-
+Causes this function to read a member from a previously initialized structure.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -146,14 +139,8 @@ If the function succeeds, it returns the value of the specified field in the pre
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When <b>GetShortField</b> is called with a nonzero <i>StoreAddress</i> value, it initializes the structure located at the address specified by <i>TypeAddress</i>. Only one structure can be initialized at a time. If <b>GetShortField</b> is called more than once with a nonzero <i>StoreAddress</i> value, only the structure specified in the most recent call is initialized. When <b>GetShortField</b> is called with <i>StoreAddress</i> equal to zero, it accesses the most recently initialized structure, reads in that structure the field specified by <i>Name</i>, and returns the value of that field. 
 
@@ -254,15 +241,9 @@ Specifies the name of the type of the structure.  <i>TypeStr</i> is expected to 
 
 <b>Returns value</b>
 
-If this macro succeeds, it returns the value zero.  If it fails because the caller passed a zero value as <i>Addr</i>, it returns the value MEMORY_READ_ERROR (defined in Wdbgexts.h).  If it fails for any other reason, it returns an <a href="https://docs.microsoft.com/previous-versions/ff550910(v=vs.85)">IG_DUMP_SYMBOL_INFO error code</a>. 
-
-
-
+If this macro succeeds, it returns the value zero.  If it fails because the caller passed a zero value as <i>Addr</i>, it returns the value MEMORY_READ_ERROR (defined in Wdbgexts.h).  If it fails for any other reason, it returns an <a href="https://docs.microsoft.com/previous-versions/ff550910(v=vs.85)">IG_DUMP_SYMBOL_INFO error code</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff550953(v=vs.85)">InitTypeRead</a>
 
@@ -273,7 +254,4 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff553539(v=vs.85)">ReadField</a>
- 
-
- 
 

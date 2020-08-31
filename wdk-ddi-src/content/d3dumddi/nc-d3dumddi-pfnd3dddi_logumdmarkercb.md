@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnLogUMDMarkerCb"
- - "pfnLogUMDMarkerCb"
+ - PFND3DDDI_LOGUMDMARKERCB
+ - d3dumddi/PFND3DDDI_LOGUMDMARKERCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_LOGUMDMARKERCB callback function
+
 
 ## -description
 

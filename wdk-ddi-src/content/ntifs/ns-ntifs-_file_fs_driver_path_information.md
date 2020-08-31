@@ -8,9 +8,6 @@ ms.assetid: 6149765b-cd2c-44f5-aa72-f4755e0b034c
 ms.date: 04/16/2018
 keywords: ["FILE_FS_DRIVER_PATH_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION structure [Installable File System Drivers], PFILE_FS_DRIVER_PATH_INFORMATION, PFILE_FS_DRIVER_PATH_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_DRIVER_PATH_INFORMATION, fileinformationstructures_9d09c9ee-18a0-4230-af6b-0cddadbac901.xml, ifsk.file_fs_driver_path_information, ntifs/FILE_FS_DRIVER_PATH_INFORMATION, ntifs/PFILE_FS_DRIVER_PATH_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_FS_DRIVER_PATH_INFORMATION"
- - "FILE_FS_DRIVER_PATH_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_FS_DRIVER_PATH_INFORMATION
 targetos: Windows
 req.typenames: FILE_FS_DRIVER_PATH_INFORMATION, *PFILE_FS_DRIVER_PATH_INFORMATION
+f1_keywords:
+ - _FILE_FS_DRIVER_PATH_INFORMATION
+ - ntifs/_FILE_FS_DRIVER_PATH_INFORMATION
+ - PFILE_FS_DRIVER_PATH_INFORMATION
+ - ntifs/PFILE_FS_DRIVER_PATH_INFORMATION
+ - FILE_FS_DRIVER_PATH_INFORMATION
+ - ntifs/FILE_FS_DRIVER_PATH_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_FS_DRIVER_PATH_INFORMATION
 ---
 
 # _FILE_FS_DRIVER_PATH_INFORMATION structure
@@ -46,33 +50,23 @@ req.typenames: FILE_FS_DRIVER_PATH_INFORMATION, *PFILE_FS_DRIVER_PATH_INFORMATIO
 
 ## -description
 
-
-The FILE_FS_DRIVER_PATH_INFORMATION structure is used to query whether a given driver is in the I/O path for a file system volume. 
-
+The FILE_FS_DRIVER_PATH_INFORMATION structure is used to query whether a given driver is in the I/O path for a file system volume.
 
 ## -struct-fields
 
-
-
-
 ### -field DriverInPath
 
-Receives <b>TRUE</b> if the driver is in the I/O path for the file system volume, <b>FALSE</b> otherwise. 
-
+Receives <b>TRUE</b> if the driver is in the I/O path for the file system volume, <b>FALSE</b> otherwise.
 
 ### -field DriverNameLength
 
-Caller-supplied length of the driver name string. 
-
+Caller-supplied length of the driver name string.
 
 ### -field DriverName
 
-Caller-supplied Unicode string containing the name of the driver. 
-
+Caller-supplied Unicode string containing the name of the driver.
 
 ## -remarks
-
-
 
 To perform this query, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>, passing FileFsDriverPathInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_DRIVER_PATH_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
@@ -82,22 +76,13 @@ No specific access rights are required to query this information. Thus this info
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_DRIVER_PATH_INFORMATION). 
 
-This structure must be aligned on a LONGLONG (8-byte) boundary. 
-
-
-
+This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
- 
-
- 
 

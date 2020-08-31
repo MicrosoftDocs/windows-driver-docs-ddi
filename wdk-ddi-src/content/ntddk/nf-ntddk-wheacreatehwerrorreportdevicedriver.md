@@ -35,8 +35,8 @@ api_location:
 api_name:
  - WheaCreateHwErrorReportDeviceDriver
 f1_keywords:
- - ntddk//WheaCreateHwErrorReportDeviceDriver
  - WheaCreateHwErrorReportDeviceDriver
+ - ntddk/WheaCreateHwErrorReportDeviceDriver
 dev_langs:
  - c++
 ---
@@ -66,3 +66,4 @@ For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/usi
 ## -see-also
 
 [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md)
+

@@ -6,38 +6,43 @@ ms.assetid: d9763ddb-d0c3-4ed5-b157-4a85503fba3b
 ms.date: 10/19/2018
 tech.root: ifsk
 keywords: ["NETWORK_APP_INSTANCE_EA structure"]
-f1_keywords:
- - "ntifs/_NETWORK_APP_INSTANCE_EA"
- - "_NETWORK_APP_INSTANCE_EA"
-ms.keywords: _NETWORK_APP_INSTANCE_EA, NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA, 
+ms.keywords: _NETWORK_APP_INSTANCE_EA, NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA,
 req.header: ntifs.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll: CCFFilter.sys 
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: CCFFilter.sys
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntifs.h
-api_name: 
-- _NETWORK_APP_INSTANCE_EA
 targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - _NETWORK_APP_INSTANCE_EA
+ - ntifs/_NETWORK_APP_INSTANCE_EA
+ - PNETWORK_APP_INSTANCE_EA
+ - ntifs/PNETWORK_APP_INSTANCE_EA
+ - NETWORK_APP_INSTANCE_EA
+ - ntifs/NETWORK_APP_INSTANCE_EA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - _NETWORK_APP_INSTANCE_EA
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _NETWORK_APP_INSTANCE_EA structure
+
 
 ## -description
 
@@ -61,3 +66,4 @@ The **NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR** flag is onl
 A process can register a CCF application ID using [**RegisterAppInstance**](https://docs.microsoft.com/windows/win32/api/smbclnt/nf-smbclnt-registerappinstance), enabling all 'open' operations from the process to have the same ApplicationId. If an ID isn't registered, the ApplicationId will differ for each operation.
 
 To mark individual open operations with a different ApplicationId, first set **AppInstanceID** to a GUID value. you can then append **SMB_CCF_APP_INSTANCE_EA_NAME** to the list of Extended Attributes when calling [NtCreateFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile). If the application also passes the  **NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR** flag, then **AppInstanceID** should be **NETWORK_APP_INSTANCE_EA** structure.
+

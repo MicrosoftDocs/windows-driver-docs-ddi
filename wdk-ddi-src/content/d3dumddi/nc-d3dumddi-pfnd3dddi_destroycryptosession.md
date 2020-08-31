@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DestroyCryptoSession"
- - "DestroyCryptoSession"
+ - PFND3DDDI_DESTROYCRYPTOSESSION
+ - d3dumddi/PFND3DDDI_DESTROYCRYPTOSESSION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DESTROYCRYPTOSESSION callback function
+
 
 ## -description
 

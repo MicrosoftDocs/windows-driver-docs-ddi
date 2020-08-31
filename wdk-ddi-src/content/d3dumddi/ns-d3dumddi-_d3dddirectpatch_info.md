@@ -5,39 +5,42 @@ description: Contains direct patch info.
 ms.assetid: a70a51fa-7efb-4b84-afe4-524fe3295b34
 ms.date: 10/19/2018
 keywords: ["D3DDDIRECTPATCH_INFO structure"]
-f1_keywords:
- - "d3dumddi/_D3DDDIRECTPATCH_INFO"
- - "_D3DDDIRECTPATCH_INFO"
-ms.keywords: _D3DDDIRECTPATCH_INFO, D3DDDIRECTPATCH_INFO, 
+ms.keywords: _D3DDDIRECTPATCH_INFO, D3DDDIRECTPATCH_INFO,
 req.header: d3dumddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DDDIRECTPATCH_INFO
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dumddi.h
-api_name: 
-- _D3DDDIRECTPATCH_INFO
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DDDIRECTPATCH_INFO
+ - d3dumddi/_D3DDDIRECTPATCH_INFO
+ - D3DDDIRECTPATCH_INFO
+ - d3dumddi/D3DDDIRECTPATCH_INFO
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - _D3DDDIRECTPATCH_INFO
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DDDIRECTPATCH_INFO structure
+
 
 ## -description
 
@@ -70,9 +73,11 @@ The patch stride.
 The patch basis.
 
 ### -field Degree
+
  
 The patch degree.
 
 ## -remarks
 
 ## -see-also
+

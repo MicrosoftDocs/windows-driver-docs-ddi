@@ -8,9 +8,6 @@ ms.assetid: 14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3
 ms.date: 05/02/2018
 keywords: ["NdisFRegisterFilterDriver function"]
 ms.keywords: NdisFRegisterFilterDriver, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, ndis/NdisFRegisterFilterDriver, netvista.ndisfregisterfilterdriver
-f1_keywords:
- - "ndis/NdisFRegisterFilterDriver"
- - "NdisFRegisterFilterDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFRegisterFilterDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFRegisterFilterDriver
+ - ndis/NdisFRegisterFilterDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFRegisterFilterDriver
 ---
 
 # NdisFRegisterFilterDriver function
@@ -47,19 +47,15 @@ req.typenames:
 
 ## -description
 
-
 A filter driver calls the
   <b>
     NdisFRegisterFilterDriver</b> function to register its 
   <i>FilterXxx</i> functions with NDIS.
 
-
 ## -parameters
 
-
-
-
 ### -param DriverObject 
+
 [in]
 A pointer to an opaque driver object that the filter driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
@@ -67,12 +63,11 @@ A pointer to an opaque driver object that the filter driver received in its
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">DriverEntry of NDIS Filter
      Drivers</a>.)
 
-
 ### -param FilterDriverContext 
+
 [in]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
-
 
 ### -param FilterDriverCharacteristics
 
@@ -83,6 +78,7 @@ A pointer to an
      <i>FilterXxx</i> function entry points.
 
 ### -param NdisFilterDriverHandle 
+
 [out]
 A pointer to a handle variable. If the call to 
      <b>
@@ -92,8 +88,6 @@ A pointer to a handle variable. If the call to
      that require a filter driver handle as an input parameter.
 
 ## -returns
-
-
 
 <b>
     NdisFRegisterFilterDriver</b> returns one of the following status values:
@@ -183,14 +177,8 @@ At least one of the input parameters that the driver passed to
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A filter driver calls the 
     <b>
@@ -227,13 +215,7 @@ Filter drivers call the
     <b>
     NdisFRegisterFilterDriver</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">DriverEntry of NDIS Filter
    Drivers</a>
@@ -258,7 +240,4 @@ Filter drivers call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
- 
-
- 
 

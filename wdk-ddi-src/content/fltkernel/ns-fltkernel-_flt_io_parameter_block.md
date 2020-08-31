@@ -8,9 +8,6 @@ ms.assetid: a62f6db3-baca-492a-b485-062fcc69f563
 ms.date: 07/27/2020
 keywords: ["FLT_IO_PARAMETER_BLOCK structure"]
 ms.keywords: "*PFLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK structure [Installable File System Drivers], FltSystemStructures_8abf39e5-b9d1-4c44-8137-80ee1b35c0a3.xml, PFLT_IO_PARAMETER_BLOCK, PFLT_IO_PARAMETER_BLOCK structure pointer [Installable File System Drivers], _FLT_IO_PARAMETER_BLOCK, fltkernel/FLT_IO_PARAMETER_BLOCK, fltkernel/PFLT_IO_PARAMETER_BLOCK, ifsk.flt_io_parameter_block"
-f1_keywords:
- - "fltkernel/FLT_IO_PARAMETER_BLOCK"
- - "FLT_IO_PARAMETER_BLOCK"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_IO_PARAMETER_BLOCK
 targetos: Windows
 req.typenames: FLT_IO_PARAMETER_BLOCK, *PFLT_IO_PARAMETER_BLOCK
+f1_keywords:
+ - _FLT_IO_PARAMETER_BLOCK
+ - fltkernel/_FLT_IO_PARAMETER_BLOCK
+ - PFLT_IO_PARAMETER_BLOCK
+ - fltkernel/PFLT_IO_PARAMETER_BLOCK
+ - FLT_IO_PARAMETER_BLOCK
+ - fltkernel/FLT_IO_PARAMETER_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_IO_PARAMETER_BLOCK
 ---
 
 # _FLT_IO_PARAMETER_BLOCK structure
+
 
 ## -description
 
@@ -232,3 +237,4 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 [**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
 [**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 8b847c3e-f773-44d0-a033-3e40bc2e01fc
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::~CWiauPropertyList"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],~CWiauPropertyList method, CWiauPropertyList.~CWiauPropertyList, CWiauPropertyList::~CWiauPropertyList, image.cwiaupropertylist__cwiaupropertylist, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, wiautil/CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], ~CWiauPropertyList method [Imaging Devices],CWiauPropertyList interface
-f1_keywords:
- - "wiautil/CWiauPropertyList.~CWiauPropertyList"
- - "CWiauPropertyList.~CWiauPropertyList"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.~CWiauPropertyList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiauPropertyList::~CWiauPropertyList
+ - wiautil/CWiauPropertyList::~CWiauPropertyList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.~CWiauPropertyList
 ---
 
 # CWiauPropertyList::~CWiauPropertyList
+
 
 ## -description
 
@@ -52,3 +53,4 @@ The **CWiauPropertyList::~CWiauPropertyList** method is the destructor for the *
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [CWiauPropertyList::CWiauPropertyList](nf-wiautil-cwiaupropertylist-cwiaupropertylist.md)
+

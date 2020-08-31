@@ -8,9 +8,6 @@ ms.assetid: 61173af4-5b6f-47e9-b236-6b45bcd83a9f
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_RADIO_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, _NDIS_WWAN_RADIO_STATE, ndiswwan/NDIS_WWAN_RADIO_STATE, ndiswwan/PNDIS_WWAN_RADIO_STATE, netvista.ndis_wwan_radio_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_RADIO_STATE"
- - "NDIS_WWAN_RADIO_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_RADIO_STATE
 targetos: Windows
 req.typenames: NDIS_WWAN_RADIO_STATE, *PNDIS_WWAN_RADIO_STATE
+f1_keywords:
+ - _NDIS_WWAN_RADIO_STATE
+ - ndiswwan/_NDIS_WWAN_RADIO_STATE
+ - PNDIS_WWAN_RADIO_STATE
+ - ndiswwan/PNDIS_WWAN_RADIO_STATE
+ - NDIS_WWAN_RADIO_STATE
+ - ndiswwan/NDIS_WWAN_RADIO_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_RADIO_STATE
 ---
 
 # _NDIS_WWAN_RADIO_STATE structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_WWAN_RADIO_STATE, *PNDIS_WWAN_RADIO_STATE
 
 ## -description
 
-
 The NDIS_WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power
   states of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +104,6 @@ sizeof(NDIS_WWAN_RADIO_STATE)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -161,8 +159,6 @@ The operation failed because the device is in the process of initializing. Retry
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RadioState
 
@@ -170,10 +166,7 @@ A formatted
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_radio_state">WWAN_RADIO_STATE</a> object that represents
      the hardware-based and software-based radio power states of the device.
 
-
 ## -remarks
-
-
 
 The miniport driver must set the 
     <b>uStatus</b> member to WWAN_STATUS_SUCCESS for unsolicited events (NDIS_STATUS_INDICATION::RequestId =
@@ -183,20 +176,11 @@ Miniport drivers can set the
     <b>uStatus</b> member to WWAN_STATUS_SUCCESS if the current radio state is the same as the requested
     state.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_radio_state">WWAN_RADIO_STATE</a>
- 
-
- 
 

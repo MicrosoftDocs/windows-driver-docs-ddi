@@ -8,9 +8,6 @@ ms.assetid: 745b014d-7ab4-4e07-a24c-7a74949a9d7b
 ms.date: 04/30/2018
 keywords: ["ExAcquireSharedWaitForExclusive function"]
 ms.keywords: ExAcquireSharedWaitForExclusive, ExAcquireSharedWaitForExclusive routine [Kernel-Mode Driver Architecture], k102_505fe2a0-5751-4481-a545-2091828463ce.xml, kernel.exacquiresharedwaitforexclusive, wdm/ExAcquireSharedWaitForExclusive
-f1_keywords:
- - "wdm/ExAcquireSharedWaitForExclusive"
- - "ExAcquireSharedWaitForExclusive"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAcquireSharedWaitForExclusive
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAcquireSharedWaitForExclusive
+ - wdm/ExAcquireSharedWaitForExclusive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAcquireSharedWaitForExclusive
 ---
 
 # ExAcquireSharedWaitForExclusive function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>ExAcquireSharedWaitForExclusive</b> routine acquires the given resource for shared access if shared access can be granted and there are no exclusive waiters. 
-
+The <b>ExAcquireSharedWaitForExclusive</b> routine acquires the given resource for shared access if shared access can be granted and there are no exclusive waiters.
 
 ## -parameters
 
-
-
-
 ### -param Resource 
+
 [in, out]
 A pointer to the resource to be acquired for shared access.
 
-
 ### -param Wait 
-[in]
-Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired. 
 
+[in]
+Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired.
 
 ## -returns
 
-
-
-<b>ExAcquireSharedWaitForExclusive</b> returns <b>TRUE</b> if the requested access is granted or an exclusive owner releases the resource. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and shared access cannot be granted immediately. 
-
-
-
+<b>ExAcquireSharedWaitForExclusive</b> returns <b>TRUE</b> if the requested access is granted or an exclusive owner releases the resource. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and shared access cannot be granted immediately.
 
 ## -remarks
-
-
 
 Most drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544363">ExAcquireResourceSharedLite</a> instead of <b>ExAcquireSharedWaitForExclusive</b>.
 
@@ -112,13 +100,7 @@ If the caller specifies <b>TRUE</b> for the <i>Wait</i> parameter, the caller bl
 
 Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544363">ExAcquireResourceSharedLite</a>
 
@@ -145,7 +127,4 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExReleaseResourceForThread</a>
- 
-
- 
 

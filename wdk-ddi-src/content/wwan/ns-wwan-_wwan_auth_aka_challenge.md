@@ -8,9 +8,6 @@ ms.assetid: A0513766-7D58-4F85-8105-93D7A0D9036B
 ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_AKA_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_CHALLENGE, WWAN_AUTH_AKA_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_CHALLENGE, netvista.wwan_auth_aka_challenge, wwan/PWWAN_AUTH_AKA_CHALLENGE, wwan/WWAN_AUTH_AKA_CHALLENGE"
-f1_keywords:
- - "wwan/WWAN_AUTH_AKA_CHALLENGE"
- - "WWAN_AUTH_AKA_CHALLENGE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_AUTH_AKA_CHALLENGE
 targetos: Windows
 req.typenames: WWAN_AUTH_AKA_CHALLENGE, *PWWAN_AUTH_AKA_CHALLENGE
+f1_keywords:
+ - _WWAN_AUTH_AKA_CHALLENGE
+ - wwan/_WWAN_AUTH_AKA_CHALLENGE
+ - PWWAN_AUTH_AKA_CHALLENGE
+ - wwan/PWWAN_AUTH_AKA_CHALLENGE
+ - WWAN_AUTH_AKA_CHALLENGE
+ - wwan/WWAN_AUTH_AKA_CHALLENGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_AUTH_AKA_CHALLENGE
 ---
 
 # _WWAN_AUTH_AKA_CHALLENGE structure
@@ -46,19 +50,11 @@ req.typenames: WWAN_AUTH_AKA_CHALLENGE, *PWWAN_AUTH_AKA_CHALLENGE
 
 ## -description
 
-
 The WWAN_AUTH_AKA_CHALLENGE structure represents an authentication challenge using the AKA method.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Rand
-
- 
-
 
 ### -field Autn
 
@@ -76,23 +72,11 @@ The WWAN_AUTH_AKA_CHALLENGE structure represents an authentication challenge usi
 
 128-bit random number challenge. This member represents a multi-byte value in little-endian format.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a>
- 
-
- 
 

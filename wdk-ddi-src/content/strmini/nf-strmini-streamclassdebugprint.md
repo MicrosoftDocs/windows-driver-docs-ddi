@@ -8,9 +8,6 @@ ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.date: 04/23/2018
 keywords: ["StreamClassDebugPrint function"]
 ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
-f1_keywords:
- - "strmini/StreamClassDebugPrint"
- - "StreamClassDebugPrint"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Stream.lib
-- Stream.dll
-api_name:
-- StreamClassDebugPrint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StreamClassDebugPrint
+ - strmini/StreamClassDebugPrint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Stream.lib
+ - Stream.dll
+api_name:
+ - StreamClassDebugPrint
 ---
 
 # StreamClassDebugPrint function
+
 
 ## -description
 
@@ -54,10 +55,12 @@ req.typenames:
 ## -parameters
 
 ### -param DebugPrintLevel 
+
 [in]
 Specifies an enumeration of type **STREAM_DEBUG_LEVEL**. The debugger prints messages if this parameter is less than or equal to the *StreamDebug* variable in *stream.sys* symbols.
 
 ### -param DebugMessage 
+
 [in]
 Points to a NULL-terminated string containing the message to print to the application window and to the Debugger Command window.
 
@@ -70,3 +73,4 @@ Specifies a variable argument list containing optional arguments for the format 
 ## -remarks
 
 ## -see-also
+

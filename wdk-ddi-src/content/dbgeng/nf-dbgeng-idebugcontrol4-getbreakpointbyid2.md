@@ -8,9 +8,6 @@ ms.assetid: 110eaa8a-d564-4900-8a08-d081572a5f43
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetBreakpointById2"]
 ms.keywords: GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetBreakpointById2 method, IDebugControl4.GetBreakpointById2, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2
-f1_keywords:
- - "dbgeng/IDebugControl4.GetBreakpointById2"
- - "IDebugControl4.GetBreakpointById2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.GetBreakpointById2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::GetBreakpointById2
+ - dbgeng/IDebugControl4::GetBreakpointById2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.GetBreakpointById2
 ---
 
 # IDebugControl4::GetBreakpointById2
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetBreakpointById2</b>  method returns the breakpoint with the specified breakpoint ID.
-
 
 ## -parameters
 
-
-
-
 ### -param Id 
+
 [in]
 Specifies the breakpoint ID of the breakpoint to return.
 
-
 ### -param Bp 
+
 [out]
 Receives the breakpoint.
 
-
 ## -returns
-
-
 
 This method can also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -99,31 +92,16 @@ No breakpoint was found with the given ID, or the breakpoint with the specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the specified breakpoint does not belong to the current process, the method will fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
- 
-
- 
 

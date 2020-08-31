@@ -8,9 +8,6 @@ ms.assetid: 292EE243-2952-4020-8EB0-C5127DF92318
 ms.date: 03/29/2018
 keywords: ["STORAGE_PROTOCOL_DATA_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, storage.storage_protocol_data_descriptor"
-f1_keywords:
- - "ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR"
- - "STORAGE_PROTOCOL_DATA_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,21 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_PROTOCOL_DATA_DESCRIPTOR
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
 ms.custom: 19H1
+f1_keywords:
+ - _STORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - ntddstor/_STORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - STORAGE_PROTOCOL_DATA_DESCRIPTOR
+ - ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_PROTOCOL_DATA_DESCRIPTOR
 ---
 
 # _STORAGE_PROTOCOL_DATA_DESCRIPTOR structure
+
 
 ## -description
 
@@ -99,3 +104,4 @@ To specify a type of ATA protocol-specific information,  configure the [STORAGE_
 [STORAGE_PROTOCOL_SPECIFIC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_protocol_specific_data)
 
 [STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md)
+

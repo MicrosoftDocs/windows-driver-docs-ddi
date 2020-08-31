@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS"
- - "DXGKDDI_GETPOSTCOMPOSITIONCAPS"
+ - DXGKDDI_GETPOSTCOMPOSITIONCAPS
+ - d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function
+
 
 ## -description
 

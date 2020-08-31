@@ -8,9 +8,6 @@ ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.date: 02/15/2018
 keywords: ["LPIT structure"]
 ms.keywords: "*PLPIT, LPIT, LPIT structure [ACPI Devices], PLPIT, PLPIT structure pointer [ACPI Devices], _LPIT, acpi.lpit, acpitabl/LPIT, acpitabl/PLPIT"
-f1_keywords:
- - "acpitabl/LPIT"
- - "LPIT"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- LPIT
 targetos: Windows
 req.typenames: LPIT, *PLPIT
+f1_keywords:
+ - _LPIT
+ - acpitabl/_LPIT
+ - PLPIT
+ - acpitabl/PLPIT
+ - LPIT
+ - acpitabl/LPIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - LPIT
 ---
 
 # _LPIT structure
@@ -46,19 +50,13 @@ req.typenames: LPIT, *PLPIT
 
 ## -description
 
-
 Defines an LPI ACPI table.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 A header.
-
 
 ### -field LpiStates
 

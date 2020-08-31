@@ -8,9 +8,6 @@ ms.assetid: ebc67162-4e36-4af8-bc3b-764633dcda5d
 ms.date: 04/30/2018
 keywords: ["ZwUnmapViewOfSection function"]
 ms.keywords: NtUnmapViewOfSection, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture], k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, kernel.zwunmapviewofsection, wdm/NtUnmapViewOfSection, wdm/ZwUnmapViewOfSection
-f1_keywords:
- - "wdm/ZwUnmapViewOfSection"
- - "ZwUnmapViewOfSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwUnmapViewOfSection
-- NtUnmapViewOfSection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwUnmapViewOfSection
+ - wdm/ZwUnmapViewOfSection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwUnmapViewOfSection
+ - NtUnmapViewOfSection
 ---
 
 # ZwUnmapViewOfSection function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="https://docs.microsoft.com/windows-hardware/test/wpt/view">view</a> of a section from the virtual address space of a subject process.
-
 
 ## -parameters
 
-
-
-
 ### -param ProcessHandle 
+
 [in]
 Handle to a process object that was previously passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmapviewofsection">ZwMapViewOfSection</a>.
 
-
 ### -param BaseAddress 
+
 [in, optional]
 Pointer to the base virtual address of the view to unmap. This value can be any virtual address within the view.
 
-
 ## -returns
-
-
 
 <b>ZwUnmapViewOfSection</b> returns an NTSTATUS value. Possible return values include:
 
@@ -100,14 +93,8 @@ The caller does not have access rights to the process object or to the base virt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine unmaps the entire view of the section that contains <i>BaseAddress</i> from the virtual address space of the specified process—even if <i>BaseAddress</i> does not point to the beginning of the view.
 
@@ -117,13 +104,7 @@ On return from <b>ZwUnmapViewOfSection</b>, the virtual-address region occupied 
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
@@ -134,7 +115,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensection">ZwOpenSection</a>
- 
-
- 
 

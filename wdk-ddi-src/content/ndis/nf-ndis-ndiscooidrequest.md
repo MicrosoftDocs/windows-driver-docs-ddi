@@ -8,9 +8,6 @@ ms.assetid: 7d46f2c1-7b54-4510-968a-2e35e33cf849
 ms.date: 05/02/2018
 keywords: ["NdisCoOidRequest function"]
 ms.keywords: NdisCoOidRequest, NdisCoOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, ndis/NdisCoOidRequest, netvista.ndiscooidrequest
-f1_keywords:
- - "ndis/NdisCoOidRequest"
- - "NdisCoOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCoOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCoOidRequest
+ - ndis/NdisCoOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCoOidRequest
 ---
 
 # NdisCoOidRequest function
@@ -47,25 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisCoOidRequest</b> function forwards a request to targeted CoNDIS drivers to query or set OID-specified
   information of the target driver.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisBindingHandle 
+
 [in]
 A handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returned
      that identifies the target adapter for the binding.
 
-
 ### -param NdisAfHandle 
+
 [in, optional]
 A handle that identifies the address family (AF) that is shared among the client, call manager,
      and NDIS. This handle was obtained as follows:
@@ -89,8 +85,8 @@ If the caller is a stand-alone call manager or miniport call manager (MCM) that 
 To make a request from either a client or stand-alone call manager to the underlying miniport driver,
      this parameter must be <b>NULL</b>.
 
-
 ### -param NdisVcHandle 
+
 [in, optional]
 A handle that identifies the virtual connection (VC) the caller is requesting or setting
      information for, if the request is VC-specific. Otherwise, if this parameter is <b>NULL</b>, the request is not
@@ -104,8 +100,8 @@ A handle that identifies the virtual connection (VC) the caller is requesting or
      <i>NdisAfHandle</i> and 
      <i>NdisPartyHandle</i> are <b>NULL</b>.
 
-
 ### -param NdisPartyHandle 
+
 [in, optional]
 A handle that identifies the party on a multipoint VC the caller is requesting or setting
      information for, if the request is party-specific. Otherwise, if this parameter is <b>NULL</b>, the request is
@@ -118,17 +114,14 @@ A handle that identifies the party on a multipoint VC the caller is requesting o
      <i>NdisAfHandle</i> is <b>NULL</b>, 
      <i>NdisPartyHandle</i> also is <b>NULL</b>.
 
-
 ### -param OidRequest 
+
 [in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation that is requested with a given OID_<i>XXX</i> code to query or to set information.
 
-
 ## -returns
-
-
 
 The target driver determines which NDIS_STATUS_<i>XXX</i> code 
      <b>NdisCoOidRequest</b> returns, usually one of the following values:
@@ -299,14 +292,8 @@ The miniport driver stopped processing the request. For example, NDIS called an 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 CoNDIS clients and stand-alone call managers can call the 
     <b>NdisCoOidRequest</b> function to send an OID request to query or set OID-specified information in a
@@ -396,13 +383,7 @@ Only clients and stand-alone call managers, which are protocol drivers, can call
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmoidrequest">NdisMCmOidRequest</a> function to
     communicate with their clients.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_oid_request">MiniportCancelOidRequest</a>
 
@@ -470,7 +451,4 @@ Only clients and stand-alone call managers, which are protocol drivers, can call
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>
- 
-
- 
 

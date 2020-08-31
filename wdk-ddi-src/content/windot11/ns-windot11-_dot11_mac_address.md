@@ -8,39 +8,43 @@ ms.assetid: 6b2b17fd-3695-4598-8d9a-be28e1bc5b53
 ms.date: 02/16/2018
 keywords: ["DOT11_MAC_ADDRESS structure"]
 ms.keywords: "*PDOT11_MAC_ADDRESS, DOT11_MAC_ADDRESS, DOT11_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8ff45785-198d-48f0-99b5-b79a27753668.xml, PDOT11_MAC_ADDRESS, PDOT11_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MAC_ADDRESS, netvista.dot11_mac_address, windot11/DOT11_MAC_ADDRESS, windot11/PDOT11_MAC_ADDRESS"
-f1_keywords:
- - "windot11/DOT11_MAC_ADDRESS"
- - "DOT11_MAC_ADDRESS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_MAC_ADDRESS
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_MAC_ADDRESS, *PDOT11_MAC_ADDRESS
+f1_keywords:
+ - _DOT11_MAC_ADDRESS
+ - windot11/_DOT11_MAC_ADDRESS
+ - PDOT11_MAC_ADDRESS
+ - windot11/PDOT11_MAC_ADDRESS
+ - DOT11_MAC_ADDRESS
+ - windot11/DOT11_MAC_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_MAC_ADDRESS
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_MAC_ADDRESS structure
@@ -48,14 +52,17 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The <b>DOT11_MAC_ADDRESS</b> array defines an IEEE media access control (MAC) address.
 
+## -struct-fields
+
+### -field ucDot11MacAddress
+
+The MAC address in unicast, multicast, or broadcast format.
 
 ## -syntax
-
 
 ```cpp
 typedef struct _DOT11_MAC_ADDRESS {
@@ -63,20 +70,7 @@ typedef struct _DOT11_MAC_ADDRESS {
 } DOT11_MAC_ADDRESS, *PDOT11_MAC_ADDRESS;
 ```
 
-
-## -struct-fields
-
-
-
-
-### -field ucDot11MacAddress
-
-The MAC address in unicast, multicast, or broadcast format.
-
-
 ## -remarks
-
-
 
 A unicast MAC address uniquely identifies a station on a WLAN. A MAC address is defined as a unicast
     address if the following is true:
@@ -119,8 +113,6 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 </td>
 </tr>
 </table></span></div>
-
-
 
 ## -see-also
 
@@ -233,11 +225,4 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 <a href="..\windot11\ns-windot11-dot11_roaming_completion_parameters.md">
    DOT11_ROAMING_COMPLETION_PARAMETERS</a>
-
-
-
- 
-
- 
-
 

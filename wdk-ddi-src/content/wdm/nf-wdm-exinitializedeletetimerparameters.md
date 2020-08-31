@@ -8,9 +8,6 @@ ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.date: 04/30/2018
 keywords: ["ExInitializeDeleteTimerParameters function"]
 ms.keywords: ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters, wdm/ExInitializeDeleteTimerParameters
-f1_keywords:
- - "wdm/ExInitializeDeleteTimerParameters"
- - "ExInitializeDeleteTimerParameters"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- ExInitializeDeleteTimerParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInitializeDeleteTimerParameters
+ - wdm/ExInitializeDeleteTimerParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - ExInitializeDeleteTimerParameters
 ---
 
 # ExInitializeDeleteTimerParameters function
@@ -46,40 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExInitializeDeleteTimerParameters</b> routine initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param Parameters
 
 A pointer to the <b>EXT_DELETE_PARAMETERS</b> structure that is to be initialized.
 
-
 ## -remarks
-
-
 
 Your driver must call <b>ExInitializeDeleteTimerParameters</b> to initialize an <b>EXT_DELETE_PARAMETERS</b> structure before the driver passes this structure to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routine. For more information about the member values that <b>ExInitializeDeleteTimerParameters</b> writes to the members of this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a>
- 
-
- 
 

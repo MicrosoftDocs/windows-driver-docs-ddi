@@ -8,9 +8,6 @@ ms.assetid: dbc929a9-696b-42e1-9888-9e8c0b1e01c9
 ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetNumConfiguredPipes function"]
 ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes method, kmdf.wdfusbinterfacegetnumconfiguredpipes, wdf.wdfusbinterfacegetnumconfiguredpipes, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes
-f1_keywords:
- - "wdfusb/WdfUsbInterfaceGetNumConfiguredPipes"
- - "WdfUsbInterfaceGetNumConfiguredPipes"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbInterfaceGetNumConfiguredPipes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbInterfaceGetNumConfiguredPipes
+ - wdfusb/WdfUsbInterfaceGetNumConfiguredPipes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbInterfaceGetNumConfiguredPipes
 ---
 
 # WdfUsbInterfaceGetNumConfiguredPipes function
@@ -49,38 +49,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbInterfaceGetNumConfiguredPipes</b> method returns the number of pipes that are configured for a specified USB device interface.
 
-
 ## -parameters
 
-
-
-
 ### -param UsbInterface 
-[in]
-A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
 
+[in]
+A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>.
 
 ## -returns
-
-
 
 <b>WdfUsbInterfaceGetNumConfiguredPipes</b> returns the number of pipes that are configured for the specified interface.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Your driver can call <b>WdfUsbInterfaceGetNumConfiguredPipes</b> after it has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a>.
 
@@ -97,19 +83,11 @@ BYTE pipeCount;
 pipeCount = WdfUsbInterfaceGetNumConfiguredPipes(UsbInterface);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 592753D2-9121-4935-B966-390B3E7778C7
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaTicket::get_JobCopiesAllDocuments"]
 ms.keywords: IPrintSchemaTicket interface [Print Devices],JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket.get_JobCopiesAllDocuments, IPrintSchemaTicket::JobCopiesAllDocuments, IPrintSchemaTicket::get_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices],IPrintSchemaTicket interface, get_JobCopiesAllDocuments, print.iprintschematicket_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::get_JobCopiesAllDocuments
-f1_keywords:
- - "printerextension/IPrintSchemaTicket.JobCopiesAllDocuments"
- - "IPrintSchemaTicket.JobCopiesAllDocuments"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaTicket.JobCopiesAllDocuments
-- IPrintSchemaTicket.get_JobCopiesAllDocuments
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaTicket::get_JobCopiesAllDocuments
+ - printerextension/IPrintSchemaTicket::get_JobCopiesAllDocuments
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaTicket.JobCopiesAllDocuments
+ - IPrintSchemaTicket.get_JobCopiesAllDocuments
 ---
 
 # IPrintSchemaTicket::get_JobCopiesAllDocuments
@@ -47,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the copy count.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
- 
-
- 
 

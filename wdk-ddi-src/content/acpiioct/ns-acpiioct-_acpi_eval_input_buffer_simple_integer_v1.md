@@ -8,9 +8,6 @@ ms.assetid: 524e3533-e43c-44eb-b677-dbd023ab5abc
 ms.date: 02/15/2018
 keywords: ["ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure [ACPI Devices], P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure [ACPI Devices], acpi-meth-eval-ref_d9366d11-027b-42e3-bb47-c3b14da27ba4.xml, acpi.acpi_eval_input_buffer_simple_integer, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, acpiioct/P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1"
-f1_keywords:
- - "acpiioct/_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1"
- - "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER
+f1_keywords:
+ - _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+ - acpiioct/_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+ - PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+ - acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+ - ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+ - acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure
@@ -46,43 +50,29 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, *PACPI_EVAL_INPUT_BUFFE
 
 ## -description
 
-
 The ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER structure is used as input to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method">IOCTL_ACPI_EVAL_METHOD</a> request and to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_async_eval_method">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> request. The structure supplies the name of a control method and an input argument of type ULONG.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Signature
 
 The signature of an integer input buffer, which must be set to ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_SIGNATURE.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.MethodName
 
 A four-element ASCII character array that contains the name of a control method, for example, 'ABCD.'
 
-
 ### -field DUMMYUNIONNAME.MethodNameAsUlong
 
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
-
 
 ### -field IntegerArgument
 
 An argument value of type ULONG that is passed as input to the control method.
 
-
 ## -remarks
-
-
 
 If a device supports a control method named ABCD that takes one integer argument of type ULONG, a driver for the device can evaluate the method by sending an IOCTL_EVAL_METHOD request or an IOCTL_ACPI_ASYNC_EVAL_METHOD request to the device and setting the members of the input ACPI_EVAL_INPUT_BUFFER structure as follows:
 
@@ -102,20 +92,11 @@ Set <b>IntegerArgument</b> to the input integer value.
 </ul>
 For more information about how to use this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_async_eval_method">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method">IOCTL_ACPI_EVAL_METHOD</a>
- 
-
- 
 

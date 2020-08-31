@@ -6,44 +6,42 @@ tech.root: netvista
 ms.assetid: a3581073-6875-478b-88c6-ca753cca08b2
 ms.date: 01/31/2019
 keywords: ["NetRxQueueGetExtension function"]
-f1_keywords:
- - "netrxqueue/NetRxQueueCreate"
- - "NetRxQueueCreate"
 ms.keywords: NetRxQueueGetExtension
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topictype: 
-- apiref
-apitype: 
-- DllExport
-apilocation: 
-- NtosKrnl.exe
-apiname: 
-- NetRxQueueGetExtension
 targetos: Windows
-
+f1_keywords:
+ - NetRxQueueGetExtension
+ - netrxqueue/NetRxQueueGetExtension
+topictype:
+ - apiref
+apitype:
+ - DllExport
+apilocation:
+ - NtosKrnl.exe
+apiname:
+ - NetRxQueueGetExtension
 ---
 
 # NetRxQueueGetExtension function
 
 
 ## -description
-
 
 The **NetRxQueueGetExtension** function retrieves a packet extension for all packets in a receive (Rx) queue.
 
@@ -68,3 +66,4 @@ Client drivers typically call this function from their *[EvtNetAdapterCreateRxQu
 ## -see-also
 
 [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+

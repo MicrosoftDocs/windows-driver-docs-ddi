@@ -8,9 +8,6 @@ ms.assetid: d2745d91-6696-4946-9f90-a9cb48c7980f
 ms.date: 05/03/2018
 keywords: ["wiasSetValidListStr function"]
 ms.keywords: image.wiassetvalidliststr, wiamdef/wiasSetValidListStr, wiasFncs_c18aeb74-5c44-43ea-be9e-5132f45a5f77.xml, wiasSetValidListStr, wiasSetValidListStr function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasSetValidListStr"
- - "wiasSetValidListStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasSetValidListStr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasSetValidListStr
+ - wiamdef/wiasSetValidListStr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasSetValidListStr
 ---
 
 # wiasSetValidListStr function
@@ -46,60 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasSetValidListStr </b>function sets the valid values for a WIA_PROP_LIST property of type VT_BSTR.
-
 
 ## -parameters
 
-
-
-
 ### -param pWiasContext 
+
 [in]
 Pointer to a WIA item context.
-
 
 ### -param propid
 
 Specifies the identifier of the property to be updated.
 
-
 ### -param ulCount
 
 Specifies the number of items in the <i>pbstrValues</i> array.
-
 
 ### -param bstrNom
 
 Specifies the nominal value of the property.
 
-
 ### -param bstrValues
-
-
-
-
-
 
 #### - pbstrValues [in]
 
 Pointer to the first element of an array of valid property values.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidflag">wiasSetValidFlag</a>
 
@@ -122,7 +100,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangelong">wiasSetValidRangeLong</a>
- 
-
- 
 

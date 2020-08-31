@@ -8,9 +8,6 @@ ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.date: 05/03/2018
 keywords: ["IDebugControl::ControlledOutputVaList"]
 ms.keywords: ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], ControlledOutputVaList method [Windows Debugging],IDebugControl interface, ControlledOutputVaList method [Windows Debugging],IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ControlledOutputVaList method, IDebugControl.ControlledOutputVaList, IDebugControl2 interface [Windows Debugging],ControlledOutputVaList method, IDebugControl2::ControlledOutputVaList, IDebugControl3 interface [Windows Debugging],ControlledOutputVaList method, IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, debugger.controlledoutputvalist
-f1_keywords:
- - "dbgeng/IDebugControl.ControlledOutputVaList"
- - "IDebugControl.ControlledOutputVaList"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugControl.ControlledOutputVaList
-- IDebugControl2.ControlledOutputVaList
-- IDebugControl3.ControlledOutputVaList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl::ControlledOutputVaList
+ - dbgeng/IDebugControl::ControlledOutputVaList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugControl.ControlledOutputVaList
+ - IDebugControl2.ControlledOutputVaList
+ - IDebugControl3.ControlledOutputVaList
 ---
 
 # IDebugControl::ControlledOutputVaList
@@ -48,26 +48,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>ControlledOutputVaList</b>  method formats a string and sends the result to <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> that were registered with some of the engine's clients.
-
 
 ## -parameters
 
-
-
-
 ### -param OutputControl 
+
 [in]
 Specifies an output control that determines which client's output callbacks will receive the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
-
 ### -param Mask 
+
 [in]
 Specifies the output-type bit field.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
 
-
 ### -param Format 
+
 [in]
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -412,16 +408,12 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </tr>
 </table></span></div>
 
-
-
 ### -param Args 
+
 [in]
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -444,24 +436,13 @@ The method was successful.
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
 
 The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Stdarg.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
@@ -484,7 +465,4 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
- 
-
- 
 

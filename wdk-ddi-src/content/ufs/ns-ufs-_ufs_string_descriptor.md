@@ -8,9 +8,6 @@ ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
 ms.date: 03/29/2018
 keywords: ["UFS_STRING_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
-f1_keywords:
- - "ufs/UFS_STRING_DESCRIPTOR"
- - "UFS_STRING_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ufs.h
-api_name:
-- UFS_STRING_DESCRIPTOR
 targetos: Windows
 req.typenames: UFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR
+f1_keywords:
+ - _UFS_STRING_DESCRIPTOR
+ - ufs/_UFS_STRING_DESCRIPTOR
+ - PUFS_STRING_DESCRIPTOR
+ - ufs/PUFS_STRING_DESCRIPTOR
+ - UFS_STRING_DESCRIPTOR
+ - ufs/UFS_STRING_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ufs.h
+api_name:
+ - UFS_STRING_DESCRIPTOR
 ---
 
 # _UFS_STRING_DESCRIPTOR structure
@@ -46,24 +50,17 @@ req.typenames: UFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR
 
 ## -description
 
-
-The <b>UFS_STRING_DESCRIPTOR</b> structure describes either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string. 
-
+The <b>UFS_STRING_DESCRIPTOR</b> structure describes either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string.
 
 ## -struct-fields
-
-
-
 
 ### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
-
 ### -field bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_STRING_IDN</b>.
-
 
 ### -field String
 

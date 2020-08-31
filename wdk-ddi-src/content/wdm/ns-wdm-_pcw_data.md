@@ -8,9 +8,6 @@ ms.assetid: c2da567a-cea6-497a-b50f-848ecac20b30
 ms.date: 07/28/2020
 keywords: ["PCW_DATA structure"]
 ms.keywords: "*PPCW_DATA, PCW_DATA, PCW_DATA structure [Driver Development Tools], PPCW_DATA, PPCW_DATA structure pointer [Driver Development Tools], _PCW_DATA, devtest.pcw_data, km_pcw_69759b50-4312-4997-ba43-4ce30941d502.xml, wdm/PCW_DATA, wdm/PPCW_DATA"
-f1_keywords:
- - "wdm/PCW_DATA"
- - "PCW_DATA"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PCW_DATA
 targetos: Windows
 req.typenames: PCW_DATA, *PPCW_DATA
+f1_keywords:
+ - _PCW_DATA
+ - wdm/_PCW_DATA
+ - PPCW_DATA
+ - wdm/PPCW_DATA
+ - PCW_DATA
+ - wdm/PCW_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PCW_DATA
 ---
 
 # PCW_DATA structure
+
 
 ## -description
 
@@ -64,3 +69,4 @@ A numeric value that specifies the size, in bytes, of the `Data` buffer.
 [PcwCreateInstance function](nf-wdm-pcwcreateinstance.md)
 
 [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
+

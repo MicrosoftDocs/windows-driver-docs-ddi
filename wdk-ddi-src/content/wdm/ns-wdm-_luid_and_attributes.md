@@ -8,9 +8,6 @@ ms.assetid: d436cd60-d1ff-4a0c-b087-6aa50adfd7fc
 ms.date: 04/16/2018
 keywords: ["LUID_AND_ATTRIBUTES structure"]
 ms.keywords: "*PLUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES structure [Installable File System Drivers], PLUID_AND_ATTRIBUTES, PLUID_AND_ATTRIBUTES structure pointer [Installable File System Drivers], _LUID_AND_ATTRIBUTES, ifsk.luid_and_attributes, securitystructures_372f1a20-6582-4904-8de1-8efd9950ab76.xml, wdm/LUID_AND_ATTRIBUTES, wdm/PLUID_AND_ATTRIBUTES"
-f1_keywords:
- - "wdm/LUID_AND_ATTRIBUTES"
- - "LUID_AND_ATTRIBUTES"
 req.header: wdm.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- LUID_AND_ATTRIBUTES
 targetos: Windows
 req.typenames: LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES
+f1_keywords:
+ - _LUID_AND_ATTRIBUTES
+ - wdm/_LUID_AND_ATTRIBUTES
+ - PLUID_AND_ATTRIBUTES
+ - wdm/PLUID_AND_ATTRIBUTES
+ - LUID_AND_ATTRIBUTES
+ - wdm/LUID_AND_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - LUID_AND_ATTRIBUTES
 ---
 
 # _LUID_AND_ATTRIBUTES structure
@@ -46,19 +50,13 @@ req.typenames: LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES
 
 ## -description
 
-
-LUID_AND_ATTRIBUTES represents a locally unique identifier (LUID) and its attributes. 
-
+LUID_AND_ATTRIBUTES represents a locally unique identifier (LUID) and its attributes.
 
 ## -struct-fields
 
-
-
-
 ### -field Luid
 
-An LUID value. 
-
+An LUID value.
 
 ### -field Attributes
 
@@ -102,12 +100,8 @@ The privilege was used to gain access to an object or service. This flag is used
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 An LUID_AND_ATTRIBUTES structure can represent an LUID whose 
 	 attributes change frequently, such as when it is used to represent 
@@ -131,12 +125,7 @@ typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
@@ -151,7 +140,4 @@ typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
- 
-
- 
 

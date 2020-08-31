@@ -8,9 +8,6 @@ ms.assetid: 1118503c-868b-423c-b459-7db32bf5b82b
 ms.date: 04/30/2018
 keywords: ["RtlStringCchCopyUnicodeStringEx function"]
 ms.keywords: RtlStringCchCopyUnicodeStringEx, RtlStringCchCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyunicodestringex, ntstrsafe/RtlStringCchCopyUnicodeStringEx, safestrings_fd016973-3ea3-432d-80dc-f23a3821d607.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchCopyUnicodeStringEx"
- - "RtlStringCchCopyUnicodeStringEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchCopyUnicodeStringEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchCopyUnicodeStringEx
+ - ntstrsafe/RtlStringCchCopyUnicodeStringEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchCopyUnicodeStringEx
 ---
 
 # RtlStringCchCopyUnicodeStringEx function
@@ -47,41 +47,37 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlStringCchCopyUnicodeStringEx</b> function copies the contents of a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to a specified destination. 
-
+The <b>RtlStringCchCopyUnicodeStringEx</b> function copies the contents of a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to a specified destination.
 
 ## -parameters
 
-
-
-
 ### -param pszDest 
-[out]
-Optional. A pointer to a buffer that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer at <i>pszDest</i> and terminated with a null character. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>. 
 
+[out]
+Optional. A pointer to a buffer that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer at <i>pszDest</i> and terminated with a null character. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 ### -param cchDest 
+
 [in]
 The size, in characters, of the destination buffer. The buffer must be large enough for the string and the terminating null character. The maximum number of characters in the buffer is NTSTRSAFE_MAX_CCH.
 
-
 ### -param SourceString 
+
 [in]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param ppszDestEnd 
-[out]
-Optional. If the caller supplies a non-<b>NULL</b> address pointer, then after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
 
+[out]
+Optional. If the caller supplies a non-<b>NULL</b> address pointer, then after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator.
 
 ### -param pcchRemaining 
+
 [out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused characters that are in the buffer that <i>pszDest</i> points to, including the terminating null character.
 
-
 ### -param dwFlags 
+
 [in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
@@ -117,10 +113,7 @@ If this flag is set and the function fails, the destination buffer is set to an 
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
 
-
 ## -returns
-
-
 
 <b>RtlStringCchCopyUnicodeStringEx</b> returns one of the following NTSTATUS values. 
 
@@ -178,12 +171,7 @@ This <i>error</i> status means that the function received an invalid input param
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlStringCchCopyUnicodeStringEx</b> function uses the destination buffer's size (which the <i>cchDest</i> parameter specifies) to ensure that the copy operation does not write past the end of the buffer.
 
@@ -193,15 +181,9 @@ If the source and destination strings overlap, the behavior of the function is u
 
 The <i>SourceString </i>and <i>pszDest</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both of these points can be <b>NULL</b>. If the <i>pszDest</i> pointer is <b>NULL</b>, the <i>SourceString </i>pointer must be <b>NULL</b> or the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure must describe an empty string.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyunicodestringex">RtlStringCbCopyUnicodeStringEx</a>
 
@@ -212,7 +194,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

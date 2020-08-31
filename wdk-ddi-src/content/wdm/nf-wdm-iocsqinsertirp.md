@@ -8,9 +8,6 @@ ms.assetid: ddfc0241-eab0-462b-8e1b-32bb9bcb3671
 ms.date: 04/30/2018
 keywords: ["IoCsqInsertIrp function"]
 ms.keywords: IoCsqInsertIrp, IoCsqInsertIrp routine [Kernel-Mode Driver Architecture], k104_cecd79a7-3c42-45a2-99f7-54ca2a3e0358.xml, kernel.iocsqinsertirp, wdm/IoCsqInsertIrp
-f1_keywords:
- - "wdm/IoCsqInsertIrp"
- - "IoCsqInsertIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCsqInsertIrp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCsqInsertIrp
+ - wdm/IoCsqInsertIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCsqInsertIrp
 ---
 
 # IoCsqInsertIrp function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCsqInsertIrp</b> routine inserts an IRP in the driver's cancel-safe IRP queue.
-
 
 ## -parameters
 
-
-
-
 ### -param Csq 
-[in, out]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the driver's cancel-safe IRP queue. This structure must have been initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a>. 
 
+[in, out]
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the driver's cancel-safe IRP queue. This structure must have been initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a>.
 
 ### -param Irp 
+
 [in, out]
 Pointer to the IRP to be queued.
 
-
 ### -param Context 
-[out, optional]
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ_IRP_CONTEXT</a> structure. <b>IoCsqInsertIrp</b> initializes this structure with context information for the inserted IRP. The driver passes this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a> to delete the IRP from the queue. <i>Context</i> can be <b>NULL</b> if the driver will not use <b>IoCsqRemoveIrp</b> to remove this IRP from the queue. 
 
+[out, optional]
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ_IRP_CONTEXT</a> structure. <b>IoCsqInsertIrp</b> initializes this structure with context information for the inserted IRP. The driver passes this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a> to delete the IRP from the queue. <i>Context</i> can be <b>NULL</b> if the driver will not use <b>IoCsqRemoveIrp</b> to remove this IRP from the queue.
 
 ## -remarks
-
-
 
 <b>IoCsqInsertIrp</b> uses the queue's dispatch routines to insert the IRP. The <b>IoCsqInsertIrp</b> routine:
 
@@ -102,13 +95,7 @@ Note that the <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] me
 
 Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL <= DISPATCH_LEVEL. The driver's callback routines must work correctly at that IRQL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a>
 
@@ -163,7 +150,4 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL <= DISPATCH_LEVEL. T
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
- 
-
- 
 

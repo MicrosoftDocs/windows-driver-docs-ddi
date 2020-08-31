@@ -8,9 +8,6 @@ ms.assetid: 3AB8CECA-C5FD-4B0A-A85B-B6E90FA22B04
 ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code [Sensor Devices], gnss.ioctl_gnss_listen_geofences_trackingstatus, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
-f1_keywords:
- - "gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS"
- - "IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
+ - gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 ---
 
 # IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS IOCTL
@@ -46,28 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS</b> control code is used to receive geofence tracking status from the driver.
 <div class="alert"><b>Note</b>  Applies to GNSS DDI version 2 and later.</div><div> </div>
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 Set to NULL.
 
-
-
-
 ### -input-buffer-length
 
 Set to 0.
-
-
-
 
 ### -output-buffer
 
@@ -77,42 +67,19 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 The EventType must be set to <b>GNSS_Event_GeofencesTrackingStatus</b> and the <b>GeofencesTrackingStatus</b> member filled in.
 
-
-
-
 ### -output-buffer-length
 
 Set to sizeof(GNSS_EVENT).
 
-
-
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
-
-
 
 <h3><a id="GNSS_adapter_notes"></a><a id="gnss_adapter_notes"></a><a id="GNSS_ADAPTER_NOTES"></a>GNSS adapter notes</h3>
 The GNSS adapter keeps a pending request all the time.
@@ -146,13 +113,7 @@ When the GNSS engine is unable to track geofences, it may continue to monitor th
 
 Additionally, if geofence tracking is explicitly reset by the HLOS or the HLOS deletes all geofences, the tracking condition monitoring should immediately stop. When new geofences are subsequently added and the GNSS engine is still unable to track geofences, a subsequent failure status should be raised.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -167,7 +128,4 @@ Additionally, if geofence tracking is explicitly reset by the HLOS or the HLOS d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

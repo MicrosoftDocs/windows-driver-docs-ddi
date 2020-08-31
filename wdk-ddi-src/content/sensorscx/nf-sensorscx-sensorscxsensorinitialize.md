@@ -8,9 +8,6 @@ ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
 ms.date: 05/03/2018
 keywords: ["SensorsCxSensorInitialize function"]
 ms.keywords: SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], sensors.sensorscxsensorinitialize, sensorscx/SensorsCxSensorInitialize
-f1_keywords:
- - "sensorscx/SensorsCxSensorInitialize"
- - "SensorsCxSensorInitialize"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsCx.h
-api_name:
-- SensorsCxSensorInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SensorsCxSensorInitialize
+ - sensorscx/SensorsCxSensorInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsCx.h
+api_name:
+ - SensorsCxSensorInitialize
 ---
 
 # SensorsCxSensorInitialize function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 This function sets the enumeration properties of a sensor.
 
  For more information about sensor properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/enumeration-properties">Enumeration properties</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param Sensor 
+
 [in]
 A reference to a sensor object.
 
-
 ### -param pSensorConfig 
+
 [in]
 A list of enumeration properties. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a>.
 
-
 ## -returns
-
-
 
 This function returns NTSTATUS with different values. Some values that may be returned are the following:
 
@@ -91,5 +84,4 @@ STATUS_NOT_FOUND is returned if there was an error constructing the controller o
 
 </li>
 </ul>
-
 

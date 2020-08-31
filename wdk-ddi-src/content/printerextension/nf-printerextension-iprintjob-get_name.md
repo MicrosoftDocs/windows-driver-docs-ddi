@@ -8,9 +8,6 @@ ms.assetid: E060EDA8-691F-4860-B422-24DFB7FCAFEF
 ms.date: 04/20/2018
 keywords: ["IPrintJob::get_Name"]
 ms.keywords: IPrintJob interface [Print Devices],Name property, IPrintJob.Name, IPrintJob.get_Name, IPrintJob::Name, IPrintJob::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintJob interface, get_Name, print.iprintjob_name, printerextension/IPrintJob::Name, printerextension/IPrintJob::get_Name
-f1_keywords:
- - "printerextension/IPrintJob.Name"
- - "IPrintJob.Name"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintJob.Name
-- IPrintJob.get_Name
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintJob::get_Name
+ - printerextension/IPrintJob::get_Name
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintJob.Name
+ - IPrintJob.get_Name
 ---
 
 # IPrintJob::get_Name
@@ -47,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the name of the print job.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
- 
-
- 
 

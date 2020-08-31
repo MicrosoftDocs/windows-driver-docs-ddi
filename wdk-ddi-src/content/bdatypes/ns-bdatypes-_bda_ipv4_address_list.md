@@ -8,9 +8,6 @@ ms.assetid: 92E90C2A-D59C-4A38-A444-978B16170B89
 ms.date: 04/23/2018
 keywords: ["BDA_IPv4_ADDRESS_LIST structure"]
 ms.keywords: "*PBDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS_LIST, bdatypes/BDA_IPv4_ADDRESS_LIST, bdatypes/PBDA_IPv4_ADDRESS_LIST, stream.bda_ipv4_address_list"
-f1_keywords:
- - "bdatypes/BDA_IPv4_ADDRESS_LIST"
- - "BDA_IPv4_ADDRESS_LIST"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_IPv4_ADDRESS_LIST
 targetos: Windows
 req.typenames: BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST
+f1_keywords:
+ - _BDA_IPv4_ADDRESS_LIST
+ - bdatypes/_BDA_IPv4_ADDRESS_LIST
+ - PBDA_IPv4_ADDRESS_LIST
+ - bdatypes/PBDA_IPv4_ADDRESS_LIST
+ - BDA_IPv4_ADDRESS_LIST
+ - bdatypes/BDA_IPv4_ADDRESS_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_IPv4_ADDRESS_LIST
 ---
 
 # _BDA_IPv4_ADDRESS_LIST structure
@@ -46,17 +50,9 @@ req.typenames: BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST
 
 ## -description
 
-
-
-
-
 ## -struct-fields
 
-
-
-
 ### -field ulcAddresses
-
 
 ### -field rgAddressl
 

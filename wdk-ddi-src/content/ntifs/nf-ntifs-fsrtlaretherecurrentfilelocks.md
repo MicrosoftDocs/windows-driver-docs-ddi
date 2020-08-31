@@ -8,9 +8,6 @@ ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
 ms.date: 06/27/2019
 keywords: ["FsRtlAreThereCurrentFileLocks macro"]
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
-f1_keywords:
- - "ntifs/FsRtlAreThereCurrentFileLocks"
- - "FsRtlAreThereCurrentFileLocks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlAreThereCurrentFileLocks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlAreThereCurrentFileLocks
+ - ntifs/FsRtlAreThereCurrentFileLocks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlAreThereCurrentFileLocks
 ---
 
 # FsRtlAreThereCurrentFileLocks macro
+
 
 ## -description
 
@@ -69,3 +70,4 @@ File systems and filter drivers often call **FsRtlAreThereCurrentFileLocks** fro
 [**FsRtlAreThereCurrentOrInProgressFileLocks**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks)
 
 [**FsRtlInitializeFileLock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock)
+

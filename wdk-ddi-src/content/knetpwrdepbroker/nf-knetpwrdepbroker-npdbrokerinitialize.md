@@ -8,9 +8,6 @@ ms.assetid: 7B23A6DF-2B78-48DF-BDD4-451A19521CAC
 ms.date: 05/02/2018
 keywords: ["NpdBrokerInitialize function"]
 ms.keywords: NpdBrokerInitialize, NpdBrokerInitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerInitialize, netvista.npdbrokerinitialize
-f1_keywords:
- - "knetpwrdepbroker/NpdBrokerInitialize"
- - "NpdBrokerInitialize"
 req.header: knetpwrdepbroker.h
 req.include-header: KNetPwrDepBroker.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- KNetPwrDepBroker.h
-api_name:
-- NpdBrokerInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NpdBrokerInitialize
+ - knetpwrdepbroker/NpdBrokerInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - KNetPwrDepBroker.h
+api_name:
+ - NpdBrokerInitialize
 ---
 
 # NpdBrokerInitialize function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -parameters
 
-
-
-
 ### -param ulClientID 
+
 [in]
 Reserved.
 
-
 ### -param phBroker 
+
 [out]
 Reserved.
 

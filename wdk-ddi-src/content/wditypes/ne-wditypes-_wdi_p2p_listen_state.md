@@ -8,9 +8,6 @@ ms.assetid: 68798F3D-B708-4DCD-AB3F-D8DE4A8A0CF2
 ms.date: 05/02/2018
 keywords: ["WDI_P2P_LISTEN_STATE enumeration"]
 ms.keywords: WDI_P2P_LISTEN_STATE, WDI_P2P_LISTEN_STATE enumeration [Device and Driver Installation], WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, WDI_P2P_LISTEN_STATE_OFF, WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, _WDI_P2P_LISTEN_STATE, netvista.wdi_p2p_listen_state, netvista.wifi_p2p_listen_state, wditypes/WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_OFF, wditypes/WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
-f1_keywords:
- - "wditypes/WDI_P2P_LISTEN_STATE"
- - "WDI_P2P_LISTEN_STATE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_P2P_LISTEN_STATE
 targetos: Windows
 req.typenames: WDI_P2P_LISTEN_STATE
+f1_keywords:
+ - _WDI_P2P_LISTEN_STATE
+ - wditypes/_WDI_P2P_LISTEN_STATE
+ - WDI_P2P_LISTEN_STATE
+ - wditypes/WDI_P2P_LISTEN_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_P2P_LISTEN_STATE
 ---
 
 # _WDI_P2P_LISTEN_STATE enumeration
@@ -46,14 +48,9 @@ req.typenames: WDI_P2P_LISTEN_STATE
 
 ## -description
 
-
 The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_P2P_LISTEN_STATE_OFF
 
@@ -96,6 +93,4 @@ When this listen state is set:
 <div> </div>
 
 ### -field WDI_P2P_LISTEN_STATE_DUMMY_MAX_VALUE
-
-
 

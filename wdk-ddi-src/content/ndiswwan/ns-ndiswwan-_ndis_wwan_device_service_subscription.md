@@ -8,9 +8,6 @@ ms.assetid: 65B9739B-98C6-441E-B15A-67C32A5FB232
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, netvista.ndis_wwan_device_service_subscription"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION"
- - "NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, *PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+f1_keywords:
+ - _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+ - ndiswwan/_NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+ - PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+ - ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+ - NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+ - ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, *PNDIS_WWAN_DEVICE_SERVICE
 
 ## -description
 
-
 The NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structures encapsulates the data for NDIS_STATUS_WWAN_ DEVICE_SERVICE_SUBSCRIPTION.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,13 +104,11 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uStatus
 
 The status of the device service subscription operation.
 
 This can be any WWAN_STATUS code.
-
 
 ### -field DeviceServiceListHeader
 
@@ -119,18 +116,11 @@ A formatted WWAN_LIST_HEADER object that represents a list of device services an
 
 This member points to the list of the GUIDs by using the WWAN_LIST_HEADER structure, and should contain 0 elements when indicated to mark completion of a set <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-subscribe-device-service-events">OID_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS</a> request.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-subscribe-device-service-events">OID_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
- 
-
- 
 

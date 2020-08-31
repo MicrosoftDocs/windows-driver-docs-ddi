@@ -8,9 +8,6 @@ ms.assetid: 9b4a7932-7371-48d2-95fb-1c3e3ca170be
 ms.date: 04/23/2018
 keywords: ["KsFilterRegisterPowerCallbacks function"]
 ms.keywords: KsFilterRegisterPowerCallbacks, KsFilterRegisterPowerCallbacks function [Streaming Media Devices], avfunc_7c5322b7-f7e2-4641-b466-06f5d9ebfc34.xml, ks/KsFilterRegisterPowerCallbacks, stream.ksfilterregisterpowercallbacks
-f1_keywords:
- - "ks/KsFilterRegisterPowerCallbacks"
- - "KsFilterRegisterPowerCallbacks"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsFilterRegisterPowerCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterRegisterPowerCallbacks
+ - ks/KsFilterRegisterPowerCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsFilterRegisterPowerCallbacks
 ---
 
 # KsFilterRegisterPowerCallbacks function
+
 
 ## -description
 
@@ -51,14 +52,17 @@ The **KsFilterRegisterPowerCallbacks** function registers power management callb
 ## -parameters
 
 ### -param Filter 
+
 [in]
 A pointer to the [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) structure for which to register power callbacks. In order to receive power notification messages, *Filter* must be filter-centric.
 
 ### -param Sleep 
+
 [in, optional]
 A pointer to a function that handles sleep requests for the device. If **NULL**, no sleep callback is registered. For more information, see the Remarks section below.
 
 ### -param Wake 
+
 [in, optional]
 A pointer to a function that handles wake requests for the device. If **NULL**, no wake callback is specified. For more information, see the Remarks section below.
 
@@ -82,3 +86,4 @@ Also see [Initializing an AVStream Minidriver](https://docs.microsoft.com/window
 ## -see-also
 
 [KsPinRegisterPowerCallbacks](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterpowercallbacks)
+

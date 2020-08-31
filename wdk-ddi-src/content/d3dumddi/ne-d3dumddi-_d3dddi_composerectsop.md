@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDI_COMPOSERECTSOP"
- - "_D3DDDI_COMPOSERECTSOP"
+ - _D3DDDI_COMPOSERECTSOP
+ - d3dumddi/_D3DDDI_COMPOSERECTSOP
+ - D3DDDI_COMPOSERECTSOP
+ - d3dumddi/D3DDDI_COMPOSERECTSOP
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDI_COMPOSERECTSOP enumeration
+
 
 ## -description
 

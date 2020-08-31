@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CsSetSamplers"
- - "CsSetSamplers"
+ - PFND3D10DDI_SETSAMPLERS
+ - d3d10umddi/PFND3D10DDI_SETSAMPLERS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_SETSAMPLERS callback function
+
 
 ## -description
 

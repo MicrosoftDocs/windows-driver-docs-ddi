@@ -8,9 +8,6 @@ ms.assetid: 22AACAD1-292B-42D9-95F7-A3654E2077FB
 ms.date: 05/03/2018
 keywords: ["IDebugPlmClient2 interface"]
 ms.keywords: IDebugPlmClient2, IDebugPlmClient2 interface [Windows Debugging], IDebugPlmClient2 interface [Windows Debugging],described, dbgeng/IDebugPlmClient2, debugger.idebugplmclient2
-f1_keywords:
- - "dbgeng/IDebugPlmClient2"
- - "IDebugPlmClient2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugPlmClient2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugPlmClient2
+ - dbgeng/IDebugPlmClient2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugPlmClient2
 ---
 
 # IDebugPlmClient2 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This interface supports Process Lifecycle Management (PLM) for the debug client.
-
 
 ## -inheritance
 

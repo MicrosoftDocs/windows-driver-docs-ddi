@@ -8,9 +8,6 @@ ms.assetid: AB9C7D32-D536-4B2B-9C85-DF5A0031798C
 ms.date: 04/30/2018
 keywords: ["PoFxNotifySurprisePowerOn function"]
 ms.keywords: PoFxNotifySurprisePowerOn, PoFxNotifySurprisePowerOn routine [Kernel-Mode Driver Architecture], kernel.pofxnotifysurprisepoweron, wdm/PoFxNotifySurprisePowerOn
-f1_keywords:
- - "wdm/PoFxNotifySurprisePowerOn"
- - "PoFxNotifySurprisePowerOn"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- PoFxNotifySurprisePowerOn
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxNotifySurprisePowerOn
+ - wdm/PoFxNotifySurprisePowerOn
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - PoFxNotifySurprisePowerOn
 ---
 
 # PoFxNotifySurprisePowerOn function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoFxNotifySurprisePowerOn</b> routine notifies the power management framework (PoFx) that a device was turned on as a side effect of supplying power to some other device.
-
 
 ## -parameters
 
-
-
-
 ### -param Pdo 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">physical device object</a> (PDO). This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the physical device that was turned on as a side effect. The caller is always the bus driver that enumerated the PDO.
 
-
 ## -remarks
-
-
 
 Device drivers should not call this routine. This routine should be called only by bus drivers.
 
@@ -78,13 +71,7 @@ If the bus driver fails to call this routine when the device is turned on, the d
 
 Call <b>PoFxNotifySurprisePowerOn</b> only if the device was turned on incidentally, as a side effect of turning on some other device. If the bus driver restores power to a device in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_required_callback">DevicePowerRequiredCallback</a> callback or an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request for a D0 transition, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon">PoFxReportDevicePoweredOn</a> routine instead to inform PoFx when power is restored to the device.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -99,7 +86,4 @@ Call <b>PoFxNotifySurprisePowerOn</b> only if the device was turned on incidenta
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon">PoFxReportDevicePoweredOn</a>
- 
-
- 
 

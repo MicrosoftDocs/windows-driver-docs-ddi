@@ -8,9 +8,6 @@ ms.assetid: C80506D2-AAB6-4A37-A62F-CDDD3DCBC7F1
 ms.date: 04/23/2018
 keywords: ["BDA_SCAN_STATE structure"]
 ms.keywords: "*PBDA_SCAN_STATE, BDA_SCAN_STATE, BDA_SCAN_STATE structure [Streaming Media Devices], PBDA_SCAN_STATE, PBDA_SCAN_STATE structure pointer [Streaming Media Devices], _BDA_SCAN_STATE, bdatypes/BDA_SCAN_STATE, bdatypes/PBDA_SCAN_STATE, stream.bda_scan_state"
-f1_keywords:
- - "bdatypes/BDA_SCAN_STATE"
- - "BDA_SCAN_STATE"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_SCAN_STATE
 targetos: Windows
 req.typenames: BDA_SCAN_STATE, *PBDA_SCAN_STATE
+f1_keywords:
+ - _BDA_SCAN_STATE
+ - bdatypes/_BDA_SCAN_STATE
+ - PBDA_SCAN_STATE
+ - bdatypes/PBDA_SCAN_STATE
+ - BDA_SCAN_STATE
+ - bdatypes/BDA_SCAN_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_SCAN_STATE
 ---
 
 # _BDA_SCAN_STATE structure
@@ -46,23 +50,13 @@ req.typenames: BDA_SCAN_STATE, *PBDA_SCAN_STATE
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lResult
 
-
 ### -field ulSignalLock
 
-
 ### -field ulSecondsLeft
-
 
 ### -field ulCurrentFrequency
 

@@ -8,9 +8,6 @@ ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
 ms.date: 02/26/2018
 keywords: ["WdfDeviceMapIoSpace function"]
 ms.keywords: WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace
-f1_keywords:
- - "wdfdevice/WdfDeviceMapIoSpace"
- - "WdfDeviceMapIoSpace"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WUDFx02000.dll
-api_name:
-- WdfDeviceMapIoSpace
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceMapIoSpace
+ - wdfdevice/WdfDeviceMapIoSpace
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WUDFx02000.dll
+api_name:
+ - WdfDeviceMapIoSpace
 ---
 
 # WdfDeviceMapIoSpace function
@@ -46,58 +46,44 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfDeviceMapIoSpace</b> function maps the given physical address range to system address space and returns a pseudo base address.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param PhysicalAddress 
+
 [in]
 Specifies the starting 64-bit physical address of the I/O range to be mapped.
 
-
 ### -param NumberOfBytes 
+
 [in]
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
-
 ### -param CacheType 
+
 [in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wdfdevice.h.
 
-
 ### -param PseudoBaseAddress 
+
 [out]
 The address of a location that receives a pointer to the pseudo base address.
 
-
-
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns STATUS_SUCCESS. 
 
 The function might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function is the UMDF version 2 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">IWDFDevice3::MapIoSpace</a>.
 
@@ -118,20 +104,11 @@ The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax
 
 For an example that shows how a driver finds and maps memory-mapped register resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reading-and-writing-to-device-registers">Reading and Writing to Device Registers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">IWDFDevice3::MapIoSpace</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceunmapiospace">WdfDeviceUnmapIoSpace</a>
- 
-
- 
 

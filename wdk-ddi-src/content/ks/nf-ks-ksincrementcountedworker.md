@@ -8,9 +8,6 @@ ms.assetid: 282ffc00-ca62-4729-afe3-c13ea8069a18
 ms.date: 04/23/2018
 keywords: ["KsIncrementCountedWorker function"]
 ms.keywords: KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices], ks/KsIncrementCountedWorker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, stream.ksincrementcountedworker
-f1_keywords:
- - "ks/KsIncrementCountedWorker"
- - "KsIncrementCountedWorker"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsIncrementCountedWorker
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsIncrementCountedWorker
+ - ks/KsIncrementCountedWorker
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsIncrementCountedWorker
 ---
 
 # KsIncrementCountedWorker function
@@ -47,49 +47,28 @@ req.typenames:
 
 ## -description
 
-
 Increments the current worker count, and optionally queues the counted work item with the worker previously created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksregistercountedworker">KsRegisterCountedWorker</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param Worker 
+
 [in]
 Contains the previously allocated worker.
 
-
 ## -returns
-
-
 
 Returns the current counter. A count of one implies that a worker was actually scheduled.
 
-
-
-
 ## -remarks
-
-
 
 This should be called after an addition has been made to the worker's list of tasks to perform. A corresponding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdecrementcountedworker">KsDecrementCountedWorker</a> should be made within the work item after each task has been completed. This may be called at DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdecrementcountedworker">KsDecrementCountedWorker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksregistercountedworker">KsRegisterCountedWorker</a>
- 
-
- 
 

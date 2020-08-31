@@ -8,9 +8,6 @@ ms.assetid: d3c068dd-d09c-4b3a-be96-c1c55b3ebfe4
 ms.date: 02/26/2018
 keywords: ["WdfPdoInitSetDefaultLocale function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, WdfPdoInitSetDefaultLocale, WdfPdoInitSetDefaultLocale method, kmdf.wdfpdoinitsetdefaultlocale, wdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale
-f1_keywords:
- - "wdfpdo/WdfPdoInitSetDefaultLocale"
- - "WdfPdoInitSetDefaultLocale"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoInitSetDefaultLocale
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoInitSetDefaultLocale
+ - wdfpdo/WdfPdoInitSetDefaultLocale
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoInitSetDefaultLocale
 ---
 
 # WdfPdoInitSetDefaultLocale function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoInitSetDefaultLocale</b> method sets a device's default locale.
 
-
 ## -parameters
 
-
-
-
 ### -param DeviceInit 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-
 ### -param LocaleId 
+
 [in]
 A locale identifier (LCID) that represents the default locale. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale Identifiers</a>.
 
-
 ## -remarks
-
-
 
 When the system requests device description text from a driver, it specifies a locale. If text for the specified locale is not available, the framework returns device text for the driver's default locale.
 
@@ -88,15 +81,7 @@ WdfPdoInitSetDefaultLocale(
                            );
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitadddevicetext">WdfPdoInitAddDeviceText</a>
- 
-
- 
 

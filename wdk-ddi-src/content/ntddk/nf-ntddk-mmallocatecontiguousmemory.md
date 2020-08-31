@@ -8,9 +8,6 @@ ms.assetid: 45d5b640-5983-43cc-9b2e-2f2625dbd57c
 ms.date: 04/30/2018
 keywords: ["MmAllocateContiguousMemory function"]
 ms.keywords: MmAllocateContiguousMemory, MmAllocateContiguousMemory routine [Kernel-Mode Driver Architecture], k106_33fb6610-08f3-4605-9511-72a2ec6fa442.xml, kernel.mmallocatecontiguousmemory, wdm/MmAllocateContiguousMemory
-f1_keywords:
- - "ntddk/MmAllocateContiguousMemory"
- - "MmAllocateContiguousMemory"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmAllocateContiguousMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmAllocateContiguousMemory
+ - ntddk/MmAllocateContiguousMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmAllocateContiguousMemory
 ---
 
 # MmAllocateContiguousMemory function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmAllocateContiguousMemory</b> routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
-
 
 ## -parameters
 
-
-
-
 ### -param NumberOfBytes 
+
 [in]
 The size, in bytes, of the block of contiguous memory to allocate. For more information, see Remarks.
 
-
 ### -param HighestAcceptableAddress 
+
 [in]
 The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set <i>HighestAcceptableAddress</i> to 0x0000000000FFFFFF.
 
-
 ## -returns
-
-
 
 <b>MmAllocateContiguousMemory</b> returns the base virtual address for the allocated memory. If the request cannot be satisfied, the routine returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>MmAllocateContiguousMemory</b> allocates a block of nonpaged memory that is contiguous in physical address space. The routine maps this block to a contiguous block of virtual memory in the system address space and returns the virtual address of the base of this block. The routine aligns the starting address of a contiguous memory allocation to a memory page boundary.
 
@@ -91,12 +79,7 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
 
@@ -115,7 +98,4 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreecontiguousmemory">MmFreeContiguousMemory</a>
- 
-
- 
 

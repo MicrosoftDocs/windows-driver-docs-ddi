@@ -5,38 +5,41 @@ description: Contains input arguments for the D3DKMTQueryAdapterInfo function. R
 ms.assetid: 9ea3462d-9604-4d22-9d7f-1dc5a0693d2a
 ms.date: 10/19/2018
 keywords: ["D3DKMT_ADAPTER_PERFDATA structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_ADAPTER_PERFDATA"
- - "_D3DKMT_ADAPTER_PERFDATA"
 ms.keywords: _D3DKMT_ADAPTER_PERFDATA, D3DKMT_ADAPTER_PERFDATA,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_ADAPTER_PERFDATA
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- _D3DKMT_ADAPTER_PERFDATA
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _D3DKMT_ADAPTER_PERFDATA
+ - d3dkmthk/_D3DKMT_ADAPTER_PERFDATA
+ - D3DKMT_ADAPTER_PERFDATA
+ - d3dkmthk/D3DKMT_ADAPTER_PERFDATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_ADAPTER_PERFDATA
+product:
+ - Windows
 ---
 
 # _D3DKMT_ADAPTER_PERFDATA structure
+
 
 ## -description
 

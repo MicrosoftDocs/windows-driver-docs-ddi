@@ -8,9 +8,6 @@ ms.assetid: DAE22E2C-E8A9-4FF0-B9E9-D652C4E7B0B8
 ms.date: 05/03/2018
 keywords: ["DEBUG_LAST_EVENT_INFO_BREAKPOINT structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_BREAKPOINT, PDEBUG_LAST_EVENT_INFO_BREAKPOINT structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/PDEBUG_LAST_EVENT_INFO_BREAKPOINT, debugger.debug_last_event_info_breakpoint"
-f1_keywords:
- - "dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT"
- - "DEBUG_LAST_EVENT_INFO_BREAKPOINT"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgEng.h
-api_name:
-- DEBUG_LAST_EVENT_INFO_BREAKPOINT
 targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_BREAKPOINT, *PDEBUG_LAST_EVENT_INFO_BREAKPOINT
+f1_keywords:
+ - _DEBUG_LAST_EVENT_INFO_BREAKPOINT
+ - dbgeng/_DEBUG_LAST_EVENT_INFO_BREAKPOINT
+ - PDEBUG_LAST_EVENT_INFO_BREAKPOINT
+ - dbgeng/PDEBUG_LAST_EVENT_INFO_BREAKPOINT
+ - DEBUG_LAST_EVENT_INFO_BREAKPOINT
+ - dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgEng.h
+api_name:
+ - DEBUG_LAST_EVENT_INFO_BREAKPOINT
 ---
 
 # _DEBUG_LAST_EVENT_INFO_BREAKPOINT structure
@@ -46,14 +50,9 @@ req.typenames: DEBUG_LAST_EVENT_INFO_BREAKPOINT, *PDEBUG_LAST_EVENT_INFO_BREAKPO
 
 ## -description
 
-
 Describes the breakpoint of the last event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Id
 

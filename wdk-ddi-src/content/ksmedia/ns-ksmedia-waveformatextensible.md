@@ -8,9 +8,6 @@ ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.date: 08/20/2020
 keywords: ["WAVEFORMATEXTENSIBLE structure"]
 ms.keywords: "*PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
-f1_keywords:
- - "ksmedia/WAVEFORMATEXTENSIBLE"
- - "WAVEFORMATEXTENSIBLE"
 req.header: ksmedia.h
 req.include-header: Mmreg.h, Ksmedia.h, Mmreg.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- WAVEFORMATEXTENSIBLE
 targetos: Windows
 req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
+f1_keywords:
+ - PWAVEFORMATEXTENSIBLE
+ - ksmedia/PWAVEFORMATEXTENSIBLE
+ - WAVEFORMATEXTENSIBLE
+ - ksmedia/WAVEFORMATEXTENSIBLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - WAVEFORMATEXTENSIBLE
 ---
 
 # WAVEFORMATEXTENSIBLE structure
+
 
 ## -description
 
@@ -164,3 +167,4 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 [KSAUDIO_CHANNEL_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config)
 
 [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex)
+

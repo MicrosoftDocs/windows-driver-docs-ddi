@@ -8,9 +8,6 @@ ms.assetid: 7c3cca5b-1d08-42dc-8dc4-42eb1160b8bb
 ms.date: 05/03/2018
 keywords: ["ISensorDriver::OnSetProperties"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnSetProperties method, ISensorDriver.OnSetProperties, ISensorDriver::OnSetProperties, OnSetProperties, OnSetProperties method [Sensor Devices], OnSetProperties method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
-f1_keywords:
- - "sensorsclassextension/ISensorDriver.OnSetProperties"
- - "ISensorDriver.OnSetProperties"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SensorsClassExtension.lib
-- SensorsClassExtension.dll
-api_name:
-- ISensorDriver.OnSetProperties
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ISensorDriver::OnSetProperties
+ - sensorsclassextension/ISensorDriver::OnSetProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SensorsClassExtension.lib
+ - SensorsClassExtension.dll
+api_name:
+ - ISensorDriver.OnSetProperties
 ---
 
 # ISensorDriver::OnSetProperties
@@ -47,47 +47,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>ISensorDriver::OnSetProperties</b> method specifies values for the specified list of properties.
-
 
 ## -parameters
 
-
-
-
 ### -param pClientFile 
+
 [in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface that represents the file object for the application specifying property values.
 
-
 ### -param pwszSensorID 
+
 [in]
 <b>LPWSTR</b> that contains the ID for the sensor for which the client application is specifying property values.
 
-
 ### -param pPropertiesToSet 
+
 [in]
 Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> interface that contains the list of properties to set and their values.
 
-
 ### -param ppResults 
+
 [out]
 Address of an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> pointer that receives the list of properties that have been set successfully and their new values. If a property was not set, the new value contains an HRESULT error code.
 
-
 ## -returns
-
-
 
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 Properties describe the sensor device, as opposed to data fields, which contain sensor-generated data.  Platform-defined properties are defined in sensors.h.
 
@@ -100,19 +88,11 @@ The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> str
 <div class="alert"><b>Note</b>  This method will be called only if the user has enabled the sensor in the <b>Location and Other Sensors</b> control panel.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>
- 
-
- 
 

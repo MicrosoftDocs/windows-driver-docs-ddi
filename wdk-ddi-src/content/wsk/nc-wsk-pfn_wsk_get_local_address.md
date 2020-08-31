@@ -8,9 +8,6 @@ ms.assetid: 13cd4199-63f8-49f3-a12f-86e1d367b4aa
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_GET_LOCAL_ADDRESS callback function"]
 ms.keywords: PFN_WSK_GET_LOCAL_ADDRESS, PFN_WSK_GET_LOCAL_ADDRESS callback, WskGetLocalAddress, WskGetLocalAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetlocaladdress, wsk/WskGetLocalAddress, wskref_35a0f32f-247a-435c-83fe-0ba642f8519c.xml
-f1_keywords:
- - "wsk/WskGetLocalAddress"
- - "WskGetLocalAddress"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskGetLocalAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_GET_LOCAL_ADDRESS
+ - wsk/PFN_WSK_GET_LOCAL_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskGetLocalAddress
 ---
 
 # PFN_WSK_GET_LOCAL_ADDRESS callback function
@@ -46,24 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskGetLocalAddress</b> function retrieves the local transport address of a socket.
 
-
 ## -parameters
 
-
-
-
 ### -param Socket 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being queried.
 
-
 ### -param LocalAddress 
+
 [out]
 A pointer to a caller-allocated buffer that receives the local transport address for the socket.
      The buffer must be located in non-paged memory. The buffer must also be large enough to contain the
@@ -75,18 +71,15 @@ For a connection-oriented socket that the WSK application accepted on a listenin
      family is the same as the address family that the WSK application specified when it created the
      listening socket.
 
-
 ### -param Irp 
+
 [in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the retrieve operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskGetLocalAddress</b> returns one of the following NTSTATUS codes:
 
@@ -159,14 +152,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK application can call the 
     <b>WskGetLocalAddress</b> function only on a socket that has been bound to a local transport address.
@@ -212,13 +199,7 @@ If the
     stack, it cannot return from the function that calls the 
     <b>WskGetLocalAddress</b> function until after the IRP is completed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
@@ -271,7 +252,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
 

@@ -5,36 +5,39 @@ description: DMM (display mode manager) escape type.
 ms.assetid: eb63950b-5d9b-4a4f-ba22-04549e57f886
 ms.date: 10/19/2018
 keywords: ["D3DKMT_DMMESCAPETYPE enumeration"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_DMMESCAPETYPE"
- - "_D3DKMT_DMMESCAPETYPE"
-ms.keywords: _D3DKMT_DMMESCAPETYPE, D3DKMT_DMMESCAPETYPE, 
+ms.keywords: _D3DKMT_DMMESCAPETYPE, D3DKMT_DMMESCAPETYPE,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DKMT_DMMESCAPETYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_DMMESCAPETYPE
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_DMMESCAPETYPE
+ - d3dkmthk/_D3DKMT_DMMESCAPETYPE
+ - D3DKMT_DMMESCAPETYPE
+ - d3dkmthk/D3DKMT_DMMESCAPETYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_DMMESCAPETYPE
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_DMMESCAPETYPE enumeration
+
 
 ## -description
 
@@ -105,3 +108,4 @@ VidPn manager diagnostics.
 ## -remarks
 
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: 7cbdaa08-51c9-495d-a5c7-bb2c4009d7a4
 ms.date: 05/02/2018
 keywords: ["NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, netvista.ndis_nic_switch_delete_vport_parameters, ntddndis/NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS"
- - "NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+f1_keywords:
+ - _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+ - ntddndis/_NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+ - PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+ - ntddndis/PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+ - NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+ - ntddndis/NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
 ---
 
 # _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE
 
 ## -description
 
-
-The <b>NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS</b> structure specifies the information about a virtual port (VPort) that will be deleted from a network adapter switch on the network adapter. 
-
+The <b>NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS</b> structure specifies the information about a virtual port (VPort) that will be deleted from a network adapter switch on the network adapter.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -71,11 +70,9 @@ Original version for NDIS 6.30.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_DELETE_VPORT_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field VPortId
 
@@ -86,17 +83,9 @@ An NDIS_NIC_SWITCH_VPORT_ID value  that uniquely identifies the virtual port (VP
 
 ## -remarks
 
-
-
-The NDIS_NIC_SWITCH_DELETE_PORT_PARAMETERS structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-delete-vport">OID_NIC_SWITCH_DELETE_VPORT</a>. 
-
-
-
+The NDIS_NIC_SWITCH_DELETE_PORT_PARAMETERS structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-delete-vport">OID_NIC_SWITCH_DELETE_VPORT</a>.
 
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -111,7 +100,4 @@ The NDIS_NIC_SWITCH_DELETE_PORT_PARAMETERS structure is used in OID set requests
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-delete-vport">OID_NIC_SWITCH_DELETE_VPORT</a>
- 
-
- 
 

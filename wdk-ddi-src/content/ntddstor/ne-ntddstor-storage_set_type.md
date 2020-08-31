@@ -8,35 +8,40 @@ ms.assetid: 0567d57c-b136-48f4-9f70-b076b6625b7d
 ms.author: windowsdriverdev
 ms.date: 03/21/2019
 keywords: ["STORAGE_SET_TYPE enumeration"]
-f1_keywords:
- - "ntddstor/STORAGE_SET_TYPE"
- - "STORAGE_SET_TYPE"
 ms.keywords: STORAGE_SET_TYPE, STORAGE_SET_TYPE, *PSTORAGE_SET_TYPE, STORAGE_PROPERTY_SET, IOCTL_STORAGE_SET_PROPERTY
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: STORAGE_SET_TYPE, *PSTORAGE_SET_TYPE
-topic_type: 
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _STORAGE_SET_TYPE
+ - ntddstor/_STORAGE_SET_TYPE
+ - PSTORAGE_SET_TYPE
+ - ntddstor/PSTORAGE_SET_TYPE
+ - STORAGE_SET_TYPE
+ - ntddstor/STORAGE_SET_TYPE
+topic_type:
  - apiref
-api_type: 
+api_type:
  - HeaderDef
-api_location: 
+api_location:
  - ntddstor.h
-api_name: 
+api_name:
  - STORAGE_SET_TYPE
 product:
  - Windows
-targetos: Windows
-ms.custom: 19H1
 ---
 
 # STORAGE_SET_TYPE enumeration
+
 
 ## -description
 
@@ -65,3 +70,4 @@ Do not use.
 [IOCTL_STORAGE_SET_PROPERTY](ni-ntddstor-ioctl_storage_set_property.md)
 
 [STORAGE_PROPERTY_SET](ns-ntddstor-storage_property_set.md)
+

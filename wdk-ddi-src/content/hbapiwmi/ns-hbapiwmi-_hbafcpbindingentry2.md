@@ -8,9 +8,6 @@ ms.assetid: 75de51b1-063b-49b2-a390-2bafd44e04b0
 ms.date: 03/29/2018
 keywords: ["HBAFCPBindingEntry2 structure"]
 ms.keywords: "*PHBAFCPBindingEntry2, HBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], PHBAFCPBindingEntry2, PHBAFCPBindingEntry2 structure pointer [Storage Devices], _HBAFCPBindingEntry2, hbapiwmi/HBAFCPBindingEntry2, hbapiwmi/PHBAFCPBindingEntry2, storage.hbafcpbindingentry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml"
-f1_keywords:
- - "hbapiwmi/HBAFCPBindingEntry2"
- - "HBAFCPBindingEntry2"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h, Hbaapi.h, Hbaapi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Hbapiwmi.h
-api_name:
-- HBAFCPBindingEntry2
 targetos: Windows
 req.typenames: HBAFCPBindingEntry2, *PHBAFCPBindingEntry2
+f1_keywords:
+ - _HBAFCPBindingEntry2
+ - hbapiwmi/_HBAFCPBindingEntry2
+ - PHBAFCPBindingEntry2
+ - hbapiwmi/PHBAFCPBindingEntry2
+ - HBAFCPBindingEntry2
+ - hbapiwmi/HBAFCPBindingEntry2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Hbapiwmi.h
+api_name:
+ - HBAFCPBindingEntry2
 ---
 
 # _HBAFCPBindingEntry2 structure
@@ -46,14 +50,9 @@ req.typenames: HBAFCPBindingEntry2, *PHBAFCPBindingEntry2
 
 ## -description
 
-
 The HBAFCPBindingEntry2 structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -119,16 +118,11 @@ Indicates that the system should automatically generate target mappings from log
 
 For information about what needs to be included to use the symbols that represent the binding types, see the Headers section.
 
-
 ### -field FCPId
 
 Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
-
 ### -field Luid
-
- 
-
 
 ### -field ScsiId
 
@@ -137,33 +131,21 @@ Contains a structure of type <a href="https://docs.microsoft.com/windows-hardwar
 
 #### - Luid[256]
 
-Contains the logical unit descriptor for the device that the operating system derives from SCSI inquiry data. 
-
+Contains the logical unit descriptor for the device that the operating system derives from SCSI inquiry data.
 
 ## -remarks
-
-
 
 This structure is very similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a> structure. The only difference is that HBAFCPBindingEntry2 includes the number that the operating system generates for the logical unit. 
 
 The WMI tool suite generates a declaration of HBAFCPBindingEntry2 automatically when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hbafcpbindingentry-wmi-class">HBAFCPBindingEntry WMI Class</a> that is defined in <i>hbaapi.mof</i>. 
 
-For an explanation of the fibre channel protocol (FCP), see the T11 committee's <i>dpANS Fibre Channel Protocol for SCSI</i> specification. 
-
-
-
+For an explanation of the fibre channel protocol (FCP), see the T11 committee's <i>dpANS Fibre Channel Protocol for SCSI</i> specification.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hbafcpbindingentry2-wmi-class">HBAFCPBindingEntry2 WMI Class</a>
- 
-
- 
 

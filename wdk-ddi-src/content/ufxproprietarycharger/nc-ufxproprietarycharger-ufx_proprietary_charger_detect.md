@@ -8,9 +8,6 @@ ms.assetid: E95D2713-8F95-460E-9107-4793B002A6AC
 ms.date: 05/07/2018
 keywords: ["UFX_PROPRIETARY_CHARGER_DETECT callback function"]
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_DETECT, PFN_UFX_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_DETECT, UFX_PROPRIETARY_CHARGER_DETECT callback, UfxProprietaryChargerDetect, UfxProprietaryChargerDetect callback function [Buses], buses.ufx_proprietary_charger_detect, ufxproprietarycharger/UfxProprietaryChargerDetect
-f1_keywords:
- - "ufxproprietarycharger/PFN_UFX_PROPRIETARY_CHARGER_DETECT"
- - "PFN_UFX_PROPRIETARY_CHARGER_DETECT"
 req.header: ufxproprietarycharger.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ufxproprietarycharger.h
-api_name:
-- PFN_UFX_PROPRIETARY_CHARGER_DETECT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UFX_PROPRIETARY_CHARGER_DETECT
+ - ufxproprietarycharger/UFX_PROPRIETARY_CHARGER_DETECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ufxproprietarycharger.h
+api_name:
+ - PFN_UFX_PROPRIETARY_CHARGER_DETECT
 ---
 
 # UFX_PROPRIETARY_CHARGER_DETECT callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The filter driver's implementation to detect if a charger is attached  and get details about the charger.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in]
     A pointer to a driver-defined context.
 
-
 ### -param DetectedCharger 
-[out]
-A pointer to a     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxproprietarycharger/ns-ufxproprietarycharger-_ufx_proprietary_charger">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information. 
 
+[out]
+A pointer to a     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxproprietarycharger/ns-ufxproprietarycharger-_ufx_proprietary_charger">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information.
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
-
-
 
 To support handling of proprietary chargers, the USB lower filter driver must publish support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>.
 
@@ -167,15 +155,7 @@ UsbLowerFilter_ProprietaryChargerDetect(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
- 
-
- 
 

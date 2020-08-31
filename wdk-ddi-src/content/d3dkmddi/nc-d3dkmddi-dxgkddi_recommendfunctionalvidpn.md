@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiRecommendFunctionalVidPn"
- - "DxgkDdiRecommendFunctionalVidPn"
+ - DXGKDDI_RECOMMENDFUNCTIONALVIDPN
+ - d3dkmddi/DXGKDDI_RECOMMENDFUNCTIONALVIDPN
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback function
+
 
 ## -description
 

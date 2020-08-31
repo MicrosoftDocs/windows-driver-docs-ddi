@@ -8,9 +8,6 @@ ms.assetid: 0d925862-49af-4579-b877-c9a033e73be0
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE callback, ProtocolClModifyCallQoSComplete, ProtocolClModifyCallQoSComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_19bed505-8cde-44c3-bee1-dd5cc7a26526.xml, ndis/ProtocolClModifyCallQoSComplete, netvista.protocolclmodifycallqoscomplete
-f1_keywords:
- - "ndis/ProtocolClModifyCallQoSComplete"
- - "ProtocolClModifyCallQoSComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClModifyCallQoSComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE
+ - ndis/PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClModifyCallQoSComplete
 ---
 
 # PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolClModifyCallQoSComplete</i> function is used by connection-oriented NDIS clients that can modify
@@ -60,10 +59,8 @@ The
 
 ## -parameters
 
-
-
-
 ### -param Status 
+
 [in]
 Specifies the final status of the client's asynchronous request to modify the call parameters for
      this VC as one of the following:
@@ -105,8 +102,8 @@ The call manager could not change the QoS because of a failure on the network or
 The call manager failed to change the QoS, and NDIS propagated the CM-determined failure status
        to the client.
 
-
 ### -param ProtocolVcContext 
+
 [in]
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
      NDIS when it called 
@@ -114,17 +111,14 @@ Specifies the handle to the client's per-VC context area, which the client origi
      outgoing call request or from its 
      <i>ProtocolCoCreateVc</i> function if the client accepted an incoming call on this VC.
 
-
 ### -param CallParameters 
+
 [in]
 Pointer to a buffered CO_CALL_PARAMETERS structure containing the client-specified QoS change it
      requested, or, possibly, the original QoS for this VC established when the connection was activated,
      which the call manager has restored.
 
-
 ## -remarks
-
-
 
 A call to 
     <i>ProtocolClModifyCallQoSComplete</i> indicates that the call manager has completed processing of a
@@ -179,15 +173,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -214,7 +202,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

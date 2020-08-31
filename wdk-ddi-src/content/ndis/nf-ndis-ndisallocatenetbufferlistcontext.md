@@ -8,9 +8,6 @@ ms.assetid: 3bbad723-86bf-4206-9e51-52a66efaec20
 ms.date: 05/02/2018
 keywords: ["NdisAllocateNetBufferListContext function"]
 ms.keywords: NdisAllocateNetBufferListContext, NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListContext, ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, netvista.ndisallocatenetbufferlistcontext
-f1_keywords:
- - "ndis/NdisAllocateNetBufferListContext"
- - "NdisAllocateNetBufferListContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateNetBufferListContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateNetBufferListContext
+ - ndis/NdisAllocateNetBufferListContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateNetBufferListContext
 ---
 
 # NdisAllocateNetBufferListContext function
@@ -47,48 +47,41 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisAllocateNetBufferListContext</b> function to allocate more context space in the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure of a
   
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param NetBufferList 
+
 [in]
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
-
 ### -param ContextSize 
+
 [in]
 The amount of context space to allocate in the NET_BUFFER_LIST_CONTEXT structure. This amount must
      be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
-
 ### -param ContextBackFill 
+
 [in]
 The amount of memory, in addition to the value of 
      <i>ContextSize</i>, to allocate if NDIS must allocate memory to satisfy the request. This amount must be
      a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
-
 ### -param PoolTag 
+
 [in]
 A kernel pool tag that NDIS uses to allocate the memory for the NET_BUFFER_LIST_CONTEXT structure,
      if allocation is required. The tag is a string, delimited by single quotation marks, with up to four
      characters, usually specified in reversed order. The kernel pool tag helps NDIS to identify the owner of
      the memory.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateNetBufferListContext</b> returns one of the following:
 
@@ -133,14 +126,8 @@ A kernel pool tag that NDIS uses to allocate the memory for the NET_BUFFER_LIST_
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If there is enough unused context space available in the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure to
@@ -157,13 +144,7 @@ Call the
     structure that was allocated with 
     <b>NdisAllocateNetBufferListContext</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
@@ -174,7 +155,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">NdisFreeNetBufferListContext</a>
- 
-
- 
 

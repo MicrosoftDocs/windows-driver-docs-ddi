@@ -8,9 +8,6 @@ ms.assetid: a7db6bd2-7c04-4bfc-b4b4-db1f99520e56
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_MULTI_READ structure"]
 ms.keywords: "*PFEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ structure [Storage Devices], PFEATURE_DATA_MULTI_READ, PFEATURE_DATA_MULTI_READ structure pointer [Storage Devices], _FEATURE_DATA_MULTI_READ, ntddmmc/FEATURE_DATA_MULTI_READ, ntddmmc/PFEATURE_DATA_MULTI_READ, storage.feature_data_multi_read, structs-CD-ROM_687fe1cb-1667-4650-97c5-d6e4af7df2af.xml"
-f1_keywords:
- - "ntddmmc/FEATURE_DATA_MULTI_READ"
- - "FEATURE_DATA_MULTI_READ"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddmmc.h
-api_name:
-- FEATURE_DATA_MULTI_READ
 targetos: Windows
 req.typenames: FEATURE_DATA_MULTI_READ, *PFEATURE_DATA_MULTI_READ
+f1_keywords:
+ - _FEATURE_DATA_MULTI_READ
+ - ntddmmc/_FEATURE_DATA_MULTI_READ
+ - PFEATURE_DATA_MULTI_READ
+ - ntddmmc/PFEATURE_DATA_MULTI_READ
+ - FEATURE_DATA_MULTI_READ
+ - ntddmmc/FEATURE_DATA_MULTI_READ
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddmmc.h
+api_name:
+ - FEATURE_DATA_MULTI_READ
 ---
 
 # _FEATURE_DATA_MULTI_READ structure
@@ -46,42 +50,25 @@ req.typenames: FEATURE_DATA_MULTI_READ, *PFEATURE_DATA_MULTI_READ
 
 ## -description
 
-
-The FEATURE_DATA_MULTI_READ structure contains data for the multiread feature. 
-
+The FEATURE_DATA_MULTI_READ structure contains data for the multiread feature.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
-
+Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 ## -remarks
 
-
-
 This structure holds data for the feature named "MultiRead," originally defined by the Optical Storage Technology Association (OSTA) and incorporated into the <i>MMC-3 </i>specification. Devices that support this feature can read all CD media types. 
 
-When queried, devices supporting this feature must return the information indicated in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>. No other feature-specific information is required. 
-
-
-
+When queried, devices supporting this feature must return the information indicated in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>. No other feature-specific information is required.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
- 
-
- 
 

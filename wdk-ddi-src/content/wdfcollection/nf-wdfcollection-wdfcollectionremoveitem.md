@@ -8,9 +8,6 @@ ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.date: 02/26/2018
 keywords: ["WdfCollectionRemoveItem function"]
 ms.keywords: DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, WdfCollectionRemoveItem method, kmdf.wdfcollectionremoveitem, wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem
-f1_keywords:
- - "wdfcollection/WdfCollectionRemoveItem"
- - "WdfCollectionRemoveItem"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfCollectionRemoveItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCollectionRemoveItem
+ - wdfcollection/WdfCollectionRemoveItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfCollectionRemoveItem
 ---
 
 # WdfCollectionRemoveItem function
@@ -49,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfCollectionRemoveItem</b> method removes a specified object from an object collection, based on a specified index value. 
-
+The <b>WdfCollectionRemoveItem</b> method removes a specified object from an object collection, based on a specified index value.
 
 ## -parameters
 
-
-
-
 ### -param Collection 
+
 [in]
 A handle to a collection object.
 
-
 ### -param Index 
-[in]
-A zero-based index that identifies the object to remove. 
 
+[in]
+A zero-based index that identifies the object to remove.
 
 ## -remarks
 
@@ -91,15 +86,7 @@ For a code example that uses <b>WdfCollectionRemoveItem</b>, see <a href="https:
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionremove">WdfCollectionRemove</a>
- 
-
- 
 

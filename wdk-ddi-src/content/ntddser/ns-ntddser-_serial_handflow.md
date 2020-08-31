@@ -8,9 +8,6 @@ ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.date: 04/23/2018
 keywords: ["SERIAL_HANDFLOW structure"]
 ms.keywords: "*PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, serports.serial_handflow"
-f1_keywords:
- - "ntddser/SERIAL_HANDFLOW"
- - "SERIAL_HANDFLOW"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- SERIAL_HANDFLOW
 targetos: Windows
 req.typenames: SERIAL_HANDFLOW, *PSERIAL_HANDFLOW
+f1_keywords:
+ - _SERIAL_HANDFLOW
+ - ntddser/_SERIAL_HANDFLOW
+ - PSERIAL_HANDFLOW
+ - ntddser/PSERIAL_HANDFLOW
+ - SERIAL_HANDFLOW
+ - ntddser/SERIAL_HANDFLOW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - SERIAL_HANDFLOW
 ---
 
 # _SERIAL_HANDFLOW structure
@@ -46,14 +50,9 @@ req.typenames: SERIAL_HANDFLOW, *PSERIAL_HANDFLOW
 
 ## -description
 
-
 The <b>SERIAL_HANDFLOW</b> structure specifies the handshake and flow control settings for a serial port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ControlHandShake
 
@@ -96,7 +95,6 @@ A bitmask that specifies the control lines that the serial port uses for flow co
  
 
 SerCx2 supports the SERIAL_CTS_HANDSHAKE flag, and may or may not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the first four flags in the preceding table. Serial.sys supports all of the flags in the preceding table.
-
 
 ### -field FlowReplace
 
@@ -148,20 +146,15 @@ A bitmask that specifies flow control behavior. This member is set to zero or to
 
 SerCx2 supports the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags, but typically does not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags. Serial.sys supports all of the flags in the preceding table.
 
-
 ### -field XonLimit
 
 XON limit. When the number of characters in the internal receive buffer falls below the XON limit, the serial controller driver uses the flow control signals to tell the sender to resume sending characters.
-
 
 ### -field XoffLimit
 
 XOFF limit. When the number of characters in the internal receive buffer reaches the XOFF limit, the serial controller driver uses the flow control signals to tell the sender to stop sending characters.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_handflow">IOCTL_SERIAL_GET_HANDFLOW</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_handflow">IOCTL_SERIAL_SET_HANDFLOW</a> requests.
 
@@ -169,20 +162,11 @@ After sending an XOFF (transmit off) character, the serial port stops transmitti
 
 SerCx2 and SerCx support only subsets of the flags that are defined for the <b>ControlHandShake</b> and <b>FlowControl</b> members. An <b>IOCTL_SERIAL_SET_HANDFLOW</b> request that specifies an unsupported flag is completed with STATUS_NOT_IMPLEMENTED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_handflow">IOCTL_SERIAL_GET_HANDFLOW</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_handflow">IOCTL_SERIAL_SET_HANDFLOW</a>
- 
-
- 
 

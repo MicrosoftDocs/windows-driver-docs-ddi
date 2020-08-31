@@ -8,9 +8,6 @@ ms.assetid: 2f0c10f7-009a-4108-ad23-d6b6e2e1257e
 ms.date: 05/03/2018
 keywords: ["IDebugOutputCallbacksWide interface"]
 ms.keywords: IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacksWide, debugger.idebugoutputcallbackswide
-f1_keywords:
- - "dbgeng/IDebugOutputCallbacksWide"
- - "IDebugOutputCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugOutputCallbacksWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugOutputCallbacksWide
+ - dbgeng/IDebugOutputCallbacksWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugOutputCallbacksWide
 ---
 
 # IDebugOutputCallbacksWide interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -58,11 +55,5 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugOutputCallbacksWide</b>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a>
- 
-
- 
 

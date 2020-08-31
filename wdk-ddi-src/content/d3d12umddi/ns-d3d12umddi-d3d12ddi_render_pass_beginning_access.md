@@ -5,39 +5,40 @@ description: Specifies the resources needed to start a Render Pass.
 ms.assetid: ac703ac4-da4d-450a-8ca9-3c25c563431a
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RENDER_PASS_BEGINNING_ACCESS structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RENDER_PASS_BEGINNING_ACCESS"
- - "D3D12DDI_RENDER_PASS_BEGINNING_ACCESS"
-ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS, 
+ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
+ - d3d12umddi/D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_RENDER_PASS_BEGINNING_ACCESS structure
+
 
 ## -description
 
@@ -54,9 +55,11 @@ The [D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE](ne-d3d12umddi-d3d12ddi_render_p
 The [D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS](ns-d3d12umddi-d3d12ddi_render_pass_beginning_access_clear_parameters.md).
 
 ### -field ResumeLocalRead
+
  
 The [D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_RESUME_LOCAL_READ_PARAMETERS](ns-d3d12umddi-d3d12ddi_render_pass_beginning_access_resume_local_read_parameters.md).
 
 ## -remarks
 
 ## -see-also
+

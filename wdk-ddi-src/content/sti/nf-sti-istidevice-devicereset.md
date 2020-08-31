@@ -8,9 +8,6 @@ ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.date: 05/03/2018
 keywords: ["IStiDevice::DeviceReset"]
 ms.keywords: DeviceReset, DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],DeviceReset method, IStiDevice.DeviceReset, IStiDevice::DeviceReset, image.istidevice_devicereset, sti/IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml
-f1_keywords:
- - "sti/IStiDevice.DeviceReset"
- - "IStiDevice.DeviceReset"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sti.h
-api_name:
-- IStiDevice.DeviceReset
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStiDevice::DeviceReset
+ - sti/IStiDevice::DeviceReset
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sti.h
+api_name:
+ - IStiDevice.DeviceReset
 ---
 
 # IStiDevice::DeviceReset
@@ -46,28 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
-
 
 ## -returns
 
-
-
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IStiDevice::DeviceReset</b> method resets the device by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-devicereset">IStiUSD::DeviceReset</a>, which is exported by vendor-supplied minidrivers.
 
 Before calling <b>IStiDevice::DeviceReset</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
 A call to <b>IStiDevice::DeviceReset</b> must be preceded by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-lockdevice">IStiDevice::LockDevice</a> and followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unlockdevice">IStiDevice::UnLockDevice</a>.
-
-
 

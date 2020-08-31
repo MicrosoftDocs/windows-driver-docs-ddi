@@ -6,39 +6,40 @@ tech.root: netvista
 ms.assetid: 371b8ad4-4777-427c-9b9f-6c9c07bb9c3d
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_PACKET_COMPLETE callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PACKET_COMPLETE"
- - "FN_VMB_CHANNEL_PACKET_COMPLETE"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_PACKET_COMPLETE
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_PACKET_COMPLETE
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PACKET_COMPLETE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_PACKET_COMPLETE
 ---
 
 # FN_VMB_CHANNEL_PACKET_COMPLETE callback function
+
 
 ## -description
 
@@ -46,7 +47,22 @@ ms.custom: RS5
 
 The <b>VmbChannelPacketComplete</b>  function cleans up any
 outstanding memory mappings, releases any buffers in use, and, if the opposite endpoint requested a completion packet, sends a
-completion packet. 
+completion packet.
+
+## -parameters
+
+### -param PacketCompletionContext
+
+A handle that identifies the incoming packet and is used to refer to the packet
+once processing is finished.
+
+### -param PacketCompletionBuffer
+
+A buffer of completion data to be sent back to the originating endpoint.  Although this usually contains just a status value, the contents are up to the client driver.
+
+### -param BufSize
+
+The size, in bytes, of the completion buffer.
 
 ## -prototype
 
@@ -67,21 +83,6 @@ VOID FnVmbChannelPacketComplete
 
 ```
 
-## -parameters
-
-### -param PacketCompletionContext
-
-A handle that identifies the incoming packet and is used to refer to the packet
-once processing is finished. 
-
-### -param PacketCompletionBuffer
-
-A buffer of completion data to be sent back to the originating endpoint.  Although this usually contains just a status value, the contents are up to the client driver.
-
-### -param BufSize
-
-The size, in bytes, of the completion buffer.
-
 ## -remarks
 
 This function is called when the client driver is finished
@@ -94,3 +95,4 @@ or it may be called later.
 > For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

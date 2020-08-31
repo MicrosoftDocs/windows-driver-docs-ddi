@@ -8,9 +8,6 @@ ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetDevice::RetrieveDeviceInformation"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveDeviceInformation method, IWDFUsbTargetDevice.RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation, RetrieveDeviceInformation method, RetrieveDeviceInformation method,IWDFUsbTargetDevice interface, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation
-f1_keywords:
- - "wudfusb/IWDFUsbTargetDevice.RetrieveDeviceInformation"
- - "IWDFUsbTargetDevice.RetrieveDeviceInformation"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetDevice.RetrieveDeviceInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetDevice::RetrieveDeviceInformation
+ - wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetDevice.RetrieveDeviceInformation
 ---
 
 # IWDFUsbTargetDevice::RetrieveDeviceInformation
@@ -46,36 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDeviceInformation</b> method retrieves device information of the specified type.
 
-
 ## -parameters
 
-
-
-
 ### -param InformationType 
+
 [in]
-The type of information that the UMDF driver requests about the device.  
-
-
+The type of information that the UMDF driver requests about the device.
 
 ### -param BufferLength 
+
 [in, out]
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrieveDeviceInformation</b> supplies in <i>Buffer</i>. On output, this parameter contains the size that <b>RetrieveDeviceInformation</b> requires for <i>Buffer</i>.
 
-
 ### -param Buffer 
+
 [out]
 A pointer that receives the buffer that contains the device information.
 
-
 ## -returns
-
-
 
 <b>RetrieveDeviceInformation</b> returns one of the following values: 
 
@@ -120,14 +112,8 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For information about valid information types that a UMDF driver can pass for the <i>InformationType</i> parameter, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querydeviceinformation">WinUsb_QueryDeviceInformation</a> function.
 
@@ -142,19 +128,11 @@ For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querydeviceinformation">WinUsb_QueryDeviceInformation</a>
- 
-
- 
 

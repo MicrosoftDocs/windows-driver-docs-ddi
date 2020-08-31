@@ -8,9 +8,6 @@ ms.assetid: 82c8f0c0-d9df-4f0d-8a45-dda8fa8a132a
 ms.date: 04/23/2018
 keywords: ["KsSynchronousDeviceControl function"]
 ms.keywords: KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], ksproxy/KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, stream.kssynchronousdevicecontrol
-f1_keywords:
- - "ksproxy/KsSynchronousDeviceControl"
- - "KsSynchronousDeviceControl"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ksproxy.lib
-- Ksproxy.dll
-api_name:
-- KsSynchronousDeviceControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsSynchronousDeviceControl
+ - ksproxy/KsSynchronousDeviceControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ksproxy.lib
+ - Ksproxy.dll
+api_name:
+ - KsSynchronousDeviceControl
 ---
 
 # KsSynchronousDeviceControl function
@@ -47,62 +47,50 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsSynchronousDeviceControl</b> function issues a synchronous device I/O control operation to the KS object that is specified by a file handle. 
-
+The <b>KsSynchronousDeviceControl</b> function issues a synchronous device I/O control operation to the KS object that is specified by a file handle.
 
 ## -parameters
 
-
-
-
 ### -param Handle 
+
 [in]
 Handle to the KS object on which to perform the operation.
 
-
 ### -param IoControl 
-[in]
-Control code that identifies a specific type of operation to perform on a KS object. 
 
+[in]
+Control code that identifies a specific type of operation to perform on a KS object.
 
 ### -param InBuffer 
-[in, optional]
-Pointer to a buffer that contains data that specifies the operation to perform. 
 
+[in, optional]
+Pointer to a buffer that contains data that specifies the operation to perform.
 
 ### -param InLength 
+
 [in]
 Size, in bytes, of the buffer at <i>InBuffer</i>.
 
-
 ### -param OutBuffer 
-[out, optional]
-Pointer to a buffer that contains either data for the operation or buffer space that receives data for the operation. 
 
+[out, optional]
+Pointer to a buffer that contains either data for the operation or buffer space that receives data for the operation.
 
 ### -param OutLength 
+
 [in]
 Size, in bytes, of the buffer at <i>OutBuffer</i>.
 
-
 ### -param BytesReturned 
-[in, out]
-Pointer to a variable that receives the size, in bytes, of the data that <b>KsSynchronousDeviceControl</b> stores in the buffer at <i>OutBuffer</i>. 
 
+[in, out]
+Pointer to a variable that receives the size, in bytes, of the data that <b>KsSynchronousDeviceControl</b> stores in the buffer at <i>OutBuffer</i>.
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 To retrieve the handle to the KS object, an application should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle">IKsObject::KsGetObjectHandle</a> method. 
 
@@ -130,13 +118,7 @@ To retrieve a list of all properties, events, or methods supported by a filter, 
 
 After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will contain an array of set GUIDs supported by the object specified by <i>Handle</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle">IKsObject::KsGetObjectHandle</a>
 
@@ -171,7 +153,4 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
- 
-
- 
 

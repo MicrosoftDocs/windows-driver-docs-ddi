@@ -6,39 +6,40 @@ tech.root: netvista
 ms.assetid: 5c6d8399-50ff-466c-9942-8b5232b841ad
 ms.date: 05/22/2018
 keywords: ["FN_VMB_PACKET_SET_POINTER callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SET_POINTER"
- - "FN_VMB_PACKET_SET_POINTER"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_PACKET_SET_POINTER
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_PACKET_SET_POINTER
+ - vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SET_POINTER
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_PACKET_SET_POINTER
 ---
 
 # FN_VMB_PACKET_SET_POINTER callback function
+
 
 ## -description
 
@@ -46,6 +47,16 @@ ms.custom: RS5
 
 The <b>VmbPacketSetPointer</b> function saves an arbitrary pointer in the packet
 context.
+
+## -parameters
+
+### -param PacketObject
+
+A handle for a VMBus packet.
+
+### -param Pointer
+
+ An arbitrary pointer to save in the context of the packet.
 
 ## -prototype
 
@@ -65,16 +76,6 @@ VOID FnVmbPacketSetPointer
 
 ```
 
-## -parameters
-
-### -param PacketObject
-
-A handle for a VMBus packet.
-
-### -param Pointer
-
- An arbitrary pointer to save in the context of the packet.
-
 ## -remarks
 
 This function is intended to offer a more efficient way to retrieve the context of a client driver.
@@ -85,3 +86,4 @@ This function is intended to offer a more efficient way to retrieve the context 
 > For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

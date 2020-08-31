@@ -8,9 +8,6 @@ ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.date: 04/30/2018
 keywords: ["ZwQuerySymbolicLinkObject function"]
 ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject
-f1_keywords:
- - "wdm/ZwQuerySymbolicLinkObject"
- - "ZwQuerySymbolicLinkObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQuerySymbolicLinkObject
-- NtQuerySymbolicLinkObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwQuerySymbolicLinkObject
+ - wdm/ZwQuerySymbolicLinkObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQuerySymbolicLinkObject
+ - NtQuerySymbolicLinkObject
 ---
 
 # ZwQuerySymbolicLinkObject function
@@ -47,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwQuerySymbolicLinkObject</b> routine returns a Unicode string that contains the target of a symbolic link.
-
 
 ## -parameters
 
-
-
-
 ### -param LinkHandle 
-[in]
-Handle to the symbolic-link object that you want to query. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensymboliclinkobject">ZwOpenSymbolicLinkObject</a>. 
 
+[in]
+Handle to the symbolic-link object that you want to query. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensymboliclinkobject">ZwOpenSymbolicLinkObject</a>.
 
 ### -param LinkTarget 
+
 [in, out]
 Pointer to an initialized Unicode string that receives the target of the symbolic link.
 
-
 ### -param ReturnedLength 
-[out, optional]
- contains the maximum number of bytes to copy into the Unicode string at <i>LinkTarget</i>. On output, the unsigned long integer contains the length of the Unicode string naming the target of the symbolic link. 
 
+[out, optional]
+ contains the maximum number of bytes to copy into the Unicode string at <i>LinkTarget</i>. On output, the unsigned long integer contains the length of the Unicode string naming the target of the symbolic link.
 
 ## -returns
 
-
-
 <b>ZwQuerySymbolicLinkObject</b> returns either STATUS_SUCCESS to indicate the routine completed without error or STATUS_BUFFER_TOO_SMALL if the Unicode string provided at <i>LinkTarget</i> is too small to hold the returned string.
 
-
-
-
 ## -remarks
-
-
 
 Before calling this routine, driver writers must ensure that the Unicode string at <i>LinkTarget </i>has been properly initialized and a buffer for the string has been allocated. The <b>MaximumLength</b> and <b>Buffer</b> members of the Unicode string must be set before calling <b>ZwQuerySymbolicLinkObject</b> or the call will fail.
 
@@ -92,20 +80,11 @@ If <b>ZwQuerySymbolicLinkObject</b> returns STATUS_BUFFER_TOO_SMALL drivers shou
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensymboliclinkobject">ZwOpenSymbolicLinkObject</a>
- 
-
- 
 

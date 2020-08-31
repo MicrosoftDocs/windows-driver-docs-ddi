@@ -8,9 +8,6 @@ ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.date: 05/07/2018
 keywords: ["UfxDeviceIoControl function"]
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
-f1_keywords:
- - "ufxclient/UfxDeviceIoControl"
- - "UfxDeviceIoControl"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceIoControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceIoControl
+ - ufxclient/UfxDeviceIoControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceIoControl
 ---
 
 # UfxDeviceIoControl function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 Passes non-internal IOCTLs from user-mode to UFX.
-
 
 ## -parameters
 
-
-
-
 ### -param UfxDevice 
+
 [in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ### -param Request 
+
 [in]
 A handle to a framework request object.
 
-
 ### -param OutputBufferLength 
+
 [in]
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
-
 ### -param InputBufferLength 
+
 [in]
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
-
 ### -param IoControlCode 
+
 [in]
 The driver-defined or system-defined IOCTL that is associated with the request.
 
-
 ## -remarks
-
-
 
 The client driver calls <b>UfxDeviceIoControl</b> to forward non-internal IOCTLs that it receives in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function to UFX.  The following example shows how:
 
@@ -152,5 +145,4 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
-
 

@@ -8,9 +8,6 @@ ms.assetid: 0FC4D7BA-4292-4D87-8982-D20D267D6FA5
 ms.date: 02/15/2018
 keywords: ["BBRT_TABLE structure"]
 ms.keywords: "*PBBRT_TABLE, BBRT_TABLE, BBRT_TABLE structure [ACPI Devices], PBBRT_TABLE, PBBRT_TABLE structure pointer [ACPI Devices], _BBRT_TABLE, acpi.bbrt_table, acpitabl/BBRT_TABLE, acpitabl/PBBRT_TABLE"
-f1_keywords:
- - "acpitabl/BBRT_TABLE"
- - "BBRT_TABLE"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- BBRT_TABLE
 targetos: Windows
 req.typenames: BBRT_TABLE, *PBBRT_TABLE
+f1_keywords:
+ - _BBRT_TABLE
+ - acpitabl/_BBRT_TABLE
+ - PBBRT_TABLE
+ - acpitabl/PBBRT_TABLE
+ - BBRT_TABLE
+ - acpitabl/BBRT_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - BBRT_TABLE
 ---
 
 # _BBRT_TABLE structure
@@ -46,26 +50,19 @@ req.typenames: BBRT_TABLE, *PBBRT_TABLE
 
 ## -description
 
-
 Defines a Boot Background Resource Table.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 A header.
 
-
 ### -field Background
 
 A background value.
 
-
 ### -field Foreground
 
-A foreground value. 
+A foreground value.
 

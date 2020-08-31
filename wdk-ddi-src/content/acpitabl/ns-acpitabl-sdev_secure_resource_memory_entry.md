@@ -20,23 +20,27 @@ req.target-type: Windows
 req.typenames: SDEV_SECURE_RESOURCE_MEMORY_ENTRY, *PSDEV_SECURE_RESOURCE_MEMORY_ENTRY
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- _SDEV_SECURE_RESOURCE_MEMORY_ENTRY
-- SDEV_SECURE_RESOURCE_MEMORY_ENTRY
-f1_keywords:
-- acpitabl/_SDEV_SECURE_RESOURCE_MEMORY_ENTRY
-- acpitabl/SDEV_SECURE_RESOURCE_MEMORY_ENTRY
-- SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _SDEV_SECURE_RESOURCE_MEMORY_ENTRY
+ - SDEV_SECURE_RESOURCE_MEMORY_ENTRY
+f1_keywords:
+ - _SDEV_SECURE_RESOURCE_MEMORY_ENTRY
+ - acpitabl/_SDEV_SECURE_RESOURCE_MEMORY_ENTRY
+ - PSDEV_SECURE_RESOURCE_MEMORY_ENTRY
+ - acpitabl/PSDEV_SECURE_RESOURCE_MEMORY_ENTRY
+ - SDEV_SECURE_RESOURCE_MEMORY_ENTRY
+ - acpitabl/SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 ---
 
 # _SDEV_SECURE_RESOURCE_MEMORY_ENTRY
+
 
 ## -description
 
@@ -63,3 +67,4 @@ The memory address length value.
 ## -remarks
 
 ## -see-also
+

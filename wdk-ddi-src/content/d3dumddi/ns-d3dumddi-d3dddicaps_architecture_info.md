@@ -8,9 +8,6 @@ ms.assetid: ad35cd3f-87bd-4d57-ab13-4cb2b268ad35
 ms.date: 05/10/2018
 keywords: ["D3DDDICAPS_ARCHITECTURE_INFO structure"]
 ms.keywords: D3DDDICAPS_ARCHITECTURE_INFO, D3DDDICAPS_ARCHITECTURE_INFO structure [Display Devices], d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO, display.d3dddicaps_architecture_info
-f1_keywords:
- - "d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO"
- - "D3DDDICAPS_ARCHITECTURE_INFO"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDICAPS_ARCHITECTURE_INFO
 targetos: Windows
 req.typenames: D3DDDICAPS_ARCHITECTURE_INFO
+f1_keywords:
+ - D3DDDICAPS_ARCHITECTURE_INFO
+ - d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDICAPS_ARCHITECTURE_INFO
 ---
 
 # D3DDDICAPS_ARCHITECTURE_INFO structure
@@ -46,14 +46,9 @@ req.typenames: D3DDDICAPS_ARCHITECTURE_INFO
 
 ## -description
 
-
 Describes information about display adapter architecture.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TileBasedDeferredRenderer
 

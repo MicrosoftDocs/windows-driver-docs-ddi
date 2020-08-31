@@ -27,14 +27,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
  - DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
  - dispmprt/_DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
- - dispmprt//DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
  - DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
+ - dispmprt/DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC enumeration
+
 
 ## -description
 
@@ -79,3 +81,4 @@ If the hardware supports performing a CRC calculation on the final scanned out p
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

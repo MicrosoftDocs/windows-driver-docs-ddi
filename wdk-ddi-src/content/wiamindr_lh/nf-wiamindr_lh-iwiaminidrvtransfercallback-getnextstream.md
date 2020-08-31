@@ -8,9 +8,6 @@ ms.assetid: FF33471A-692B-4568-BF37-1870DEC367D0
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrvTransferCallback::GetNextStream"]
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices],GetNextStream method, IWiaMiniDrvTransferCallback.GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrvTransferCallback.GetNextStream"
- - "IWiaMiniDrvTransferCallback.GetNextStream"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiamindr_lh.h
-api_name:
-- IWiaMiniDrvTransferCallback.GetNextStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrvTransferCallback::GetNextStream
+ - wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiamindr_lh.h
+api_name:
+ - IWiaMiniDrvTransferCallback.GetNextStream
 ---
 
 # IWiaMiniDrvTransferCallback::GetNextStream
+
 
 ## -description
 
@@ -50,18 +51,22 @@ Called by the WIA mini-driver to obtain a stream for the current data transfer (
 ## -parameters
 
 ### -param lFlags 
+
 [in]
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
 ### -param bstrItemName 
+
 [in]
 The name of the item that will perform the data transfer. For more information, see  [WIA_IPA_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name).
 
 ### -param bstrFullItemName 
+
 [in]
 The full name of the item that will perform the data transfer. For more information, see [WIA_IPA_FULL_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name).
 
 ### -param ppIStream 
+
 [out]
 A pointer to an **IStream** object.
 
@@ -86,3 +91,4 @@ When the current transfer sequence is cancelled, the **GetNextStream** method re
 [WIA_IPA_FULL_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name)
 
 [WIA_IPA_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name)
+

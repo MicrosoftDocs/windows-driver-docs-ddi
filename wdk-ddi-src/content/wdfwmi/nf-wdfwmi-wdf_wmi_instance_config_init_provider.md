@@ -8,9 +8,6 @@ ms.assetid: 6509fded-c244-4d86-9b20-23790ec58f4a
 ms.date: 02/26/2018
 keywords: ["WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function"]
 ms.keywords: DFWMIRef_beb80d61-7fcb-4234-97ef-41e917cd51f5.xml, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function, kmdf.wdf_wmi_instance_config_init_provider, wdf.wdf_wmi_instance_config_init_provider, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER
-f1_keywords:
- - "wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER"
- - "WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfwmi.h
-api_name:
-- WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER
+ - wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfwmi.h
+api_name:
+ - WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER
 ---
 
 # WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a> structure and stores a specified handle to a WMI provider object.
 
-
 ## -parameters
 
-
-
-
 ### -param Config 
+
 [out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a> structure.
 
-
 ### -param Provider 
+
 [in]
 A handle to a WMI provider object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiprovidercreate">WdfWmiProviderCreate</a>.
 
-
 ## -remarks
-
-
 
 The <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</b> function zeros the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a> structure that the <i>Config</i> parameter specifies and sets its <b>Size</b> member. This function also sets the structure's <b>Provider</b> member to the handle that the <i>Provider</i> parameter specifies.
 
@@ -120,12 +113,7 @@ if (!NT_SUCCESS(status)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a>
 
@@ -148,7 +136,4 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiprovidercreate">WdfWmiProviderCreate</a>
- 
-
- 
 

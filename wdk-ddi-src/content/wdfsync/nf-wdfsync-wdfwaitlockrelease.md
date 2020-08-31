@@ -8,9 +8,6 @@ ms.assetid: f7fb070b-fea4-48d9-8f89-1c01af183ef0
 ms.date: 02/26/2018
 keywords: ["WdfWaitLockRelease function"]
 ms.keywords: DFSynchroRef_f64028b9-9f56-4d2a-8341-1b305ab02eff.xml, WdfWaitLockRelease, WdfWaitLockRelease method, kmdf.wdfwaitlockrelease, wdf.wdfwaitlockrelease, wdfsync/WdfWaitLockRelease
-f1_keywords:
- - "wdfsync/WdfWaitLockRelease"
- - "WdfWaitLockRelease"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfWaitLockRelease
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - WdfWaitLockRelease
+ - wdfsync/WdfWaitLockRelease
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfWaitLockRelease
 ---
 
 # WdfWaitLockRelease function
@@ -50,21 +50,16 @@ ms.custom: RS5
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWaitLockRelease</b> method releases a specified wait lock.
 
-
 ## -parameters
 
-
-
-
 ### -param Lock 
+
 [in]
 A handle to a framework wait-lock object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
-
 
 ## -remarks
 
@@ -83,19 +78,11 @@ For a code example that uses <b>WdfWaitLockRelease</b>, see <a href="https://msd
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551168">WdfWaitLockAcquire</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>
- 
-
- 
 

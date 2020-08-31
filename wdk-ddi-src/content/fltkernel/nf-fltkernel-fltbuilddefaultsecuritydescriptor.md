@@ -8,9 +8,6 @@ ms.assetid: 0e886c08-38dd-4960-9b79-4c6e68ac488d
 ms.date: 04/16/2018
 keywords: ["FltBuildDefaultSecurityDescriptor function"]
 ms.keywords: FltApiRef_a_to_d_5b763c42-6bea-4c52-8148-60c18a2f2aeb.xml, FltBuildDefaultSecurityDescriptor, FltBuildDefaultSecurityDescriptor function [Installable File System Drivers], fltkernel/FltBuildDefaultSecurityDescriptor, ifsk.fltbuilddefaultsecuritydescriptor
-f1_keywords:
- - "fltkernel/FltBuildDefaultSecurityDescriptor"
- - "FltBuildDefaultSecurityDescriptor"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltBuildDefaultSecurityDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltBuildDefaultSecurityDescriptor
+ - fltkernel/FltBuildDefaultSecurityDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltBuildDefaultSecurityDescriptor
 ---
 
 # FltBuildDefaultSecurityDescriptor function
@@ -47,21 +47,17 @@ req.typenames:
 
 ## -description
 
-
-<b>FltBuildDefaultSecurityDescriptor</b> builds a default security descriptor for use with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>. 
-
+<b>FltBuildDefaultSecurityDescriptor</b> builds a default security descriptor for use with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>.
 
 ## -parameters
 
-
-
-
 ### -param SecurityDescriptor 
-[out]
-Pointer to a caller-allocated variable that receives an opaque pointer to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>. 
 
+[out]
+Pointer to a caller-allocated variable that receives an opaque pointer to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>.
 
 ### -param DesiredAccess 
+
 [in]
 Bitmask of flags that specify the type of access that the caller requires to the port object. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for minifilter driver communication port objects. 
 
@@ -91,12 +87,8 @@ FLT_PORT_CONNECT | STANDARD_RIGHTS_ALL
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>FltBuildDefaultSecurityDescriptor</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -117,28 +109,16 @@ FLT_PORT_CONNECT | STANDARD_RIGHTS_ALL
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When creating a minifilter driver communication port, a minifilter driver can call <b>FltBuildDefaultSecurityDescriptor</b> to create a default security descriptor for the port. The minifilter driver then creates the port by calling <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>. The security descriptor is passed as a parameter to <b>InitializeObjectAttributes</b>. 
 
 <b>FltBuildDefaultSecurityDescriptor</b> causes the system to allocate a default security descriptor from paged pool. When this security descriptor is applied to an object, only users with system or administrator privileges have access to the object. 
 
-Minifilter drivers usually call <b>FltBuildDefaultSecurityDescriptor</b> immediately before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreesecuritydescriptor">FltFreeSecurityDescriptor</a> immediately after calling <b>FltCreateCommunicationPort</b>. 
-
-
-
+Minifilter drivers usually call <b>FltBuildDefaultSecurityDescriptor</b> immediately before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreesecuritydescriptor">FltFreeSecurityDescriptor</a> immediately after calling <b>FltCreateCommunicationPort</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -165,7 +145,4 @@ Minifilter drivers usually call <b>FltBuildDefaultSecurityDescriptor</b> immedia
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 947391B5-5355-4ADB-B26E-A51FE0B0B85F
 ms.date: 04/20/2018
 keywords: ["SplDeleteSpoolerPortEnd function"]
 ms.keywords: SplDeleteSpoolerPortEnd, SplDeleteSpoolerPortEnd function [Print Devices], print.spldeletespoolerportend, winsplp/SplDeleteSpoolerPortEnd
-f1_keywords:
- - "winsplp/SplDeleteSpoolerPortEnd"
- - "SplDeleteSpoolerPortEnd"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- SplDeleteSpoolerPortEnd
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SplDeleteSpoolerPortEnd
+ - winsplp/SplDeleteSpoolerPortEnd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - SplDeleteSpoolerPortEnd
 ---
 
 # SplDeleteSpoolerPortEnd function
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
-
-
-
 ### -param pName 
+
 [in]
 
 ### -param bDeletePort 
+
 [in]
+

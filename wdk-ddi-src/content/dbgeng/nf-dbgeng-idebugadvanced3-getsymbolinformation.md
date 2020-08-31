@@ -8,9 +8,6 @@ ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.date: 05/03/2018
 keywords: ["IDebugAdvanced3::GetSymbolInformation"]
 ms.keywords: GetSymbolInformation, GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced3.GetSymbolInformation, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, debugger.getsymbolinformation
-f1_keywords:
- - "dbgeng/IDebugAdvanced2.GetSymbolInformation"
- - "IDebugAdvanced2.GetSymbolInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugAdvanced2.GetSymbolInformation
-- IDebugAdvanced3.GetSymbolInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugAdvanced3::GetSymbolInformation
+ - dbgeng/IDebugAdvanced3::GetSymbolInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugAdvanced2.GetSymbolInformation
+ - IDebugAdvanced3.GetSymbolInformation
 ---
 
 # IDebugAdvanced3::GetSymbolInformation
@@ -47,16 +47,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolInformation</b> method returns specified information about a symbol.
-
 
 ## -parameters
 
-
-
-
 ### -param Which 
+
 [in]
 Specifies the piece of information to return.  <i>Which</i> can take one of the values in the follow table.
 
@@ -108,10 +104,9 @@ Returns a list of symbol names and offsets for the symbols in the specified modu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Arg64 
+
 [in]
 Specifies a 64-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
@@ -141,8 +136,8 @@ Specifies the address in the target's memory of the symbol whose name is being r
 
 Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
 
-
 ### -param Arg32 
+
 [in]
 Specifies a 32-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
@@ -172,33 +167,33 @@ The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in
 
 The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
 
-
 ### -param Buffer 
+
 [out, optional]
 Receives the requested symbol information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-
 ### -param BufferSize 
+
 [in]
 Specifies the size, in bytes, of the buffer <i>Buffer</i>.
 
-
 ### -param InfoSize 
+
 [out, optional]
 If this method returns <b>S_OK</b>, <i>InfoSize</i> receives the size, in bytes, of the symbol information returned to <i>Buffer</i>.  If this method returns <b>S_FALSE</b>, the supplied buffer is not big enough, and <i>InfoSize</i> receives the required buffer size. If <i>InfoSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ### -param StringBuffer 
+
 [out, optional]
 Receives the requested string.  The interpretation of this string depends on the value of <i>Which</i>.  If <i>StringBuffer</i> is <b>NULL</b>, this information is not returned.
 
-
 ### -param StringBufferSize 
+
 [in]
 Specifies the size, in characters, of the string buffer <i>StringBuffer</i>.
 
-
 ### -param StringSize 
+
 [out, optional]
 Receives the size, in characters, of the string returned to <i>StringBuffer</i>.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 
@@ -242,10 +237,7 @@ Specifies the address in the target's memory of the symbol whose name is being r
 
 The base address of the module whose description is being requested.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -277,7 +269,4 @@ The method was successful. However, the information would not fit in the buffer 
 </td>
 </tr>
 </table>
- 
-
-
 

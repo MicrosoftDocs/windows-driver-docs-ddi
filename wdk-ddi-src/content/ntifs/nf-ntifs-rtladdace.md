@@ -8,9 +8,6 @@ ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.date: 04/16/2018
 keywords: ["RtlAddAce function"]
 ms.keywords: RtlAddAce, RtlAddAce routine [Installable File System Drivers], ifsk.rtladdace, ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml
-f1_keywords:
- - "ntifs/RtlAddAce"
- - "RtlAddAce"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlAddAce
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlAddAce
+ - ntifs/RtlAddAce
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlAddAce
 ---
 
 # RtlAddAce function
@@ -47,21 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlAddAce</b> routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
-
 
 ## -parameters
 
-
-
-
 ### -param Acl 
-[in, out]
-Pointer to the ACL to be modified. <b>RtlAddAce</b> adds the specified ACEs to this ACL. 
 
+[in, out]
+Pointer to the ACL to be modified. <b>RtlAddAce</b> adds the specified ACEs to this ACL.
 
 ### -param AceRevision 
+
 [in]
 ACL revision level of the ACE to be added. Windows version requirments are the following:
 
@@ -95,27 +91,23 @@ The revision level valid starting with Windows 2000.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param StartingAceIndex 
+
 [in]
 Specifies the position in the ACL's list of ACEs at which to add new ACEs. A value of zero inserts the ACEs at the beginning of the list. A value of MAXULONG appends the ACEs to the end of the list.
 
-
 ### -param AceList 
+
 [in]
 Pointer to a buffer containing a list of one or more ACEs to be added to the specified ACL. The ACEs in the list must be stored contiguously.
 
-
 ### -param AceListLength 
-[in]
-Size, in bytes, of the input buffer pointed to by the <i>AceList</i> parameter. 
 
+[in]
+Size, in bytes, of the input buffer pointed to by the <i>AceList</i> parameter.
 
 ## -returns
-
-
 
 <b>RtlAddAce</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
@@ -159,14 +151,8 @@ STATUS_INVALID_PARAMETER is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>. 
 
@@ -178,13 +164,7 @@ To add an access-allowed ACE to an ACL, use <a href="https://docs.microsoft.com/
 
 For more information about security and access control, see the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
 
@@ -207,7 +187,4 @@ For more information about security and access control, see the Microsoft Window
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>
- 
-
- 
 

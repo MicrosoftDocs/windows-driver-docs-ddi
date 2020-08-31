@@ -8,9 +8,6 @@ ms.assetid: 3997291f-0af3-4fa8-8d36-20ff36551f42
 ms.date: 04/20/2018
 keywords: ["IPrintPipelinePropertyBag interface"]
 ms.keywords: IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], IPrintPipelinePropertyBag interface [Print Devices],described, filterpipeline/IPrintPipelinePropertyBag, filterpipeline_e103ac79-2365-4fb3-be40-d00986bba793.xml, print.iprintpipelinepropertybag
-f1_keywords:
- - "filterpipeline/IPrintPipelinePropertyBag"
- - "IPrintPipelinePropertyBag"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPrintPipelinePropertyBag
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintPipelinePropertyBag
+ - filterpipeline/IPrintPipelinePropertyBag
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPrintPipelinePropertyBag
 ---
 
 # IPrintPipelinePropertyBag interface
@@ -46,11 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintPipelinePropertyBag</code> interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a> interface. <code>IprintPipelinePropertyBag</code> inherits from the <b>IUnknown</b> interface.
 
 The properties of the property bag are described in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-pipeline-property-bag">Print Pipeline Property Bag</a>.
-
 
 ## -inheritance
 

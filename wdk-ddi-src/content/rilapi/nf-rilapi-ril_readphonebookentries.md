@@ -8,9 +8,6 @@ ms.assetid: 3da05f28-a6de-4dad-a978-0439f3244bbb
 ms.date: 05/02/2018
 keywords: ["RIL_ReadPhonebookEntries function"]
 ms.keywords: RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], netvista.ril_readphonebookentries, rilapi/RIL_ReadPhonebookEntries
-f1_keywords:
- - "rilapi/RIL_ReadPhonebookEntries"
- - "RIL_ReadPhonebookEntries"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_ReadPhonebookEntries
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_ReadPhonebookEntries
+ - rilapi/RIL_ReadPhonebookEntries
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_ReadPhonebookEntries
 ---
 
 # RIL_ReadPhonebookEntries function
@@ -46,40 +46,23 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param hUiccApp
-
 
 ### -param dwStoreLocation
 
-
 ### -param dwStartIndex
-
 
 ### -param dwEndIndex
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 354d09c3-8db4-4af9-b077-8e3bcda7a6f2
 ms.date: 05/03/2018
 keywords: ["wiasSetItemPropAttribs function"]
 ms.keywords: image.wiassetitempropattribs, wiamdef/wiasSetItemPropAttribs, wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs, wiasSetItemPropAttribs function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasSetItemPropAttribs"
- - "wiasSetItemPropAttribs"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasSetItemPropAttribs
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasSetItemPropAttribs
+ - wiamdef/wiasSetItemPropAttribs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasSetItemPropAttribs
 ---
 
 # wiasSetItemPropAttribs function
@@ -46,47 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasSetItemPropAttribs </b>function sets the access flags and valid values for an item's set of properties.
-
 
 ## -parameters
 
-
-
-
 ### -param pWiasContext 
+
 [in]
 Pointer to a WIA item context.
-
 
 ### -param cPropSpec
 
 Specifies the number of properties.
 
-
 ### -param pPropSpec 
+
 [in]
 Pointer to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation) indicating the properties for which to set valid values and access flags.
 
-
 ### -param pwpi 
+
 [in]
 Pointer to the first element of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
 
-
-
-
 ## -remarks
-
-
 
 Minidrivers should use this function to initialize groups of simple properties. The groups of properties can be bitsets, ranges of values, or lists of values. The supported simple types, grouped by attribute are as follows. 
 
@@ -140,13 +127,7 @@ Set the value of "DebugFlags." to 0x00000003
 
 Reboot the system and repeat the steps necessary to produce this error. There will now be a file named "wiadebug.log" in %windir% directory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info">WIA_PROPERTY_INFO</a>
 
@@ -157,7 +138,4 @@ Reboot the system and repeat the steps necessary to produce this error. There wi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropertyattributes">wiasSetPropertyAttributes</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: ba9a292d-12c8-41b5-bddb-7c8ebf4fdc48
 ms.date: 02/26/2018
 keywords: ["WdfInterruptQueueDpcForIsr function"]
 ms.keywords: DFInterruptObjectRef_c77c2aa3-e142-4226-aa9d-fb31d408e335.xml, WdfInterruptQueueDpcForIsr, WdfInterruptQueueDpcForIsr method, kmdf.wdfinterruptqueuedpcforisr, wdf.wdfinterruptqueuedpcforisr, wdfinterrupt/WdfInterruptQueueDpcForIsr
-f1_keywords:
- - "wdfinterrupt/WdfInterruptQueueDpcForIsr"
- - "WdfInterruptQueueDpcForIsr"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DIRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfInterruptQueueDpcForIsr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfInterruptQueueDpcForIsr
+ - wdfinterrupt/WdfInterruptQueueDpcForIsr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfInterruptQueueDpcForIsr
 ---
 
 # WdfInterruptQueueDpcForIsr function
@@ -49,38 +49,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptQueueDpcForIsr</b> method queues a framework interrupt object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function for execution.
 
-
 ## -parameters
 
-
-
-
 ### -param Interrupt 
+
 [in]
 A handle to a framework interrupt object.
 
-
 ## -returns
-
-
 
 <b>WdfInterruptQueueDpcForIsr</b> returns <b>TRUE</b> if it successfully queues the interrupt object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function. The method returns <b>FALSE</b> if the callback function was previously queued and has not executed.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Drivers typically call <b>WdfInterruptQueueDpcForIsr</b> from within an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function.
 
@@ -119,12 +105,7 @@ MyEvtInterruptIsr(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>
 
@@ -135,7 +116,4 @@ MyEvtInterruptIsr(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 7B974255-2FCB-4EFE-B33F-9856E0A09FC4
 ms.date: 04/20/2018
 keywords: ["CallRouterFindFirstPrinterChangeNotification function"]
 ms.keywords: CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], print.callrouterfindfirstprinterchangenotification, winsplp/CallRouterFindFirstPrinterChangeNotification
-f1_keywords:
- - "winsplp/CallRouterFindFirstPrinterChangeNotification"
- - "CallRouterFindFirstPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- CallRouterFindFirstPrinterChangeNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CallRouterFindFirstPrinterChangeNotification
+ - winsplp/CallRouterFindFirstPrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - CallRouterFindFirstPrinterChangeNotification
 ---
 
 # CallRouterFindFirstPrinterChangeNotification function
@@ -46,26 +46,21 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
-
-
-
 ### -param hPrinterRPC 
+
 [in]
 
 ### -param fdwFilterFlags
 
-
 ### -param fdwOptions
 
-
 ### -param hNotify 
+
 [in]
 
 ### -param pPrinterNotifyOptions 
+
 [in]
+

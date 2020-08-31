@@ -8,9 +8,6 @@ ms.assetid: 525a44a5-4271-4079-917e-48eb679cb96d
 ms.date: 04/30/2018
 keywords: ["HidP_MaxDataListLength function"]
 ms.keywords: HidP_MaxDataListLength, HidP_MaxDataListLength routine [Human Input Devices], hid.hidp_maxdatalistlength, hidfunc_2c103c6f-6177-47b3-9d52-9e15c97d758d.xml, hidpi/HidP_MaxDataListLength
-f1_keywords:
- - "hidpi/HidP_MaxDataListLength"
- - "HidP_MaxDataListLength"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hidparse.lib
-- Hidparse.dll
-api_name:
-- HidP_MaxDataListLength
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidP_MaxDataListLength
+ - hidpi/HidP_MaxDataListLength
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hidparse.lib
+ - Hidparse.dll
+api_name:
+ - HidP_MaxDataListLength
 ---
 
 # HidP_MaxDataListLength function
@@ -47,49 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidP_MaxDataListLength</b> routine returns the maximum number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a> structures that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata">HidP_GetData</a> can return for a specified type of HID report and a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param ReportType 
+
 [in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the report type.
 
-
 ### -param PreparsedData 
+
 [in]
 Pointer to a top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-
 ## -returns
-
-
 
 If successful, <b>HidP_MaxDataListLength</b> returns the maximum number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a> structures that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata">HidP_GetData</a> might return for a specified type of HID report and a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. Otherwise, the routine returns zero, which indicates that either the report type or the preparsed data is not valid.
 
-
-
-
 ## -remarks
-
-
 
 User-mode applications or kernel-mode drivers call <b>HidP_MaxDataListLength</b> to determine the maximum number of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a> structures that <b>HidP_GetData</b> can return.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a>
 
@@ -104,7 +86,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 87826cc7-2710-4582-a324-365dd34e2d0d
 ms.date: 04/30/2018
 keywords: ["KeEnterCriticalRegion function"]
 ms.keywords: KeEnterCriticalRegion, KeEnterCriticalRegion routine [Kernel-Mode Driver Architecture], k105_cfa63781-e7c6-455a-8e99-4b20872a0b3f.xml, kernel.keentercriticalregion, wdm/KeEnterCriticalRegion
-f1_keywords:
- - "wdm/KeEnterCriticalRegion"
- - "KeEnterCriticalRegion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeEnterCriticalRegion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeEnterCriticalRegion
+ - wdm/KeEnterCriticalRegion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeEnterCriticalRegion
 ---
 
 # KeEnterCriticalRegion function
@@ -46,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeEnterCriticalRegion</b> routine temporarily disables the execution of normal kernel APCs, but does not prevent special kernel APCs from running.
 
-
 ## -remarks
-
-
 
 A driver calls this routine to enter a critical region in which the execution of normal kernel APCs is deferred until this driver exits the critical region by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a> routine. Any caller of <b>KeEnterCriticalRegion</b> should call <b>KeLeaveCriticalRegion</b> as quickly as possible after entering a critical region.
 
@@ -66,13 +62,7 @@ A driver can use a critical region to acquire and release exclusive access to a 
 
 For more information about APCs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn308550(v=vs.85)">ExEnterCriticalRegionAndAcquireResourceExclusive</a>
 
@@ -87,7 +77,4 @@ For more information about APCs, see <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>
- 
-
- 
 

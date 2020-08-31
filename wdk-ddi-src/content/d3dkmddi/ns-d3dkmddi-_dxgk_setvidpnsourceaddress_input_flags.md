@@ -3,43 +3,44 @@ UID: NS:d3dkmddi._DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
 title: _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS (d3dkmddi.h)
 description: A structure containing the set of flags needed to set the VidPN source address.
 old-location: display\dxgk_setvidpnsourceaddress_input_flags.htm
-
 ms.assetid: FBC661AA-B028-45AF-8E3C-7C2472652BD5
 ms.date: 04/16/2018
 keywords: ["DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure"]
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, display.dxgk_setvidpnsourceaddress_input_flags
-f1_keywords:
- - "d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS"
- - "DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS"
 req.header: d3dkmddi.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
+f1_keywords:
+ - _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
+ - d3dkmddi/_DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
+ - DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
+ - d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
 ---
 
 # _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure
@@ -47,9 +48,7 @@ req.typenames: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
 
 ## -description
 
-
 A structure containing the set of flags needed to set the VidPN source address.
-
 
 ## -struct-fields
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT"
- - "DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT"
+ - DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
+ - d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function
+
 
 ## -description
 

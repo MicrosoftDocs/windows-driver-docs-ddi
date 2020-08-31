@@ -8,9 +8,6 @@ ms.assetid: 9DA0A057-1472-4B42-9149-A961F7D84B2E
 ms.date: 03/29/2018
 keywords: ["StorPortInterlockedPopEntrySList function"]
 ms.keywords: StorPortInterlockedPopEntrySList, StorPortInterlockedPopEntrySList routine [Storage Devices], storage.storportinterlockedpopentryslist, storport/StorPortInterlockedPopEntrySList
-f1_keywords:
- - "storport/StorPortInterlockedPopEntrySList"
- - "StorPortInterlockedPopEntrySList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInterlockedPopEntrySList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInterlockedPopEntrySList
+ - storport/StorPortInterlockedPopEntrySList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInterlockedPopEntrySList
 ---
 
 # StorPortInterlockedPopEntrySList function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 Removes an item from the front of a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system.
  
 Syntax
 
-
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param SListHead 
+
 [in, out]
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
-
 ### -param Result 
+
 [out]
 A pointer to a list entry pointer. The value returned is a pointer to  the item removed  from the front of the list. If the list is empty, then <b>NULL</b> is returned in the value pointed to by <i>Result</i>.
 
-
 ## -returns
-
-
 
 <b>StorPortInterlockedPopEntrySList</b> returns one of the following status codes:
 
@@ -117,26 +110,14 @@ A pointer in <i>SListHead</i> or <i>Result</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</b> when no entries are in the list. The pointer value referenced by <i>Result</i> must be evaluated for <b>NULL</b> to verify that no entry was returned.
 
 <b>StorPortInterlockedPopEntrySList</b> does  not free the list entry it returns. Any deallocation code for the list must take care to free memory allocated for a list entry at the location obtained prior to any adjustment for boundary alignment. The value pointed to by <i>Result</i> may not be the original buffer location allocated due to an adjustment for <b>MEMORY_ALLOCATION_ALIGNMENT</b>. See remarks for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpushentryslist">StorPortInterlockedPushEntrySList</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
 
@@ -151,7 +132,4 @@ The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>
- 
-
- 
 

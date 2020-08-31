@@ -8,37 +8,41 @@ ms.assetid: a5548777-a88e-40f8-891d-662e0892fd37
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI.pci_express_slot_capabilities_register, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, pci_struct_095f0907-dfff-491b-8734-28b42794c46b.xml"
-f1_keywords:
- - "miniport/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER"
- - "PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER"
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 targetos: Windows
 req.typenames: PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+f1_keywords:
+ - _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+ - miniport/_PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+ - PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+ - miniport/PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+ - PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+ - miniport/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 ---
 
 # _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure
@@ -46,43 +50,11 @@ req.typenames: PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_SLOT_CAPABI
 
 ## -description
 
-
 The PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) slot capabilities register of a PCIe capability structure.
-
-
-## -syntax
-
-
-```cpp
-typedef union _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER {
-  struct {
-    ULONG AttentionButtonPresent  :1;
-    ULONG PowerControllerPresent  :1;
-    ULONG MRLSensorPresent  :1;
-    ULONG AttentionIndicatorPresent  :1;
-    ULONG PowerIndicatorPresent  :1;
-    ULONG HotPlugSurprise  :1;
-    ULONG HotPlugCapable  :1;
-    ULONG SlotPowerLimit  :8;
-    ULONG SlotPowerLimitScale  :2;
-    ULONG ElectromechanicalLockPresent  :1;
-    ULONG NoCommandCompletedSupport  :1;
-    ULONG PhysicalSlotNumber  :13;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER;
-```
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYSTRUCTNAME
-
-
-
 
 ### -field AsULONG
 
@@ -174,26 +146,35 @@ Multiply the value in the <b>SlotPowerLimit</b> member by 0.01.
 
 Multiply the value in the <b>SlotPowerLimit</b> member by 0.001.
 
+## -syntax
+
+```cpp
+typedef union _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER {
+  struct {
+    ULONG AttentionButtonPresent  :1;
+    ULONG PowerControllerPresent  :1;
+    ULONG MRLSensorPresent  :1;
+    ULONG AttentionIndicatorPresent  :1;
+    ULONG PowerIndicatorPresent  :1;
+    ULONG HotPlugSurprise  :1;
+    ULONG HotPlugCapable  :1;
+    ULONG SlotPowerLimit  :8;
+    ULONG SlotPowerLimitScale  :2;
+    ULONG ElectromechanicalLockPresent  :1;
+    ULONG NoCommandCompletedSupport  :1;
+    ULONG PhysicalSlotNumber  :13;
+  };
+  ULONG  AsULONG;
+} PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER;
+```
 
 ## -remarks
-
-
 
 The PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
 
-
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
-
-
-
- 
-
- 
-
 

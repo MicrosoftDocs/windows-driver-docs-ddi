@@ -8,9 +8,6 @@ ms.assetid: 88639bb4-89f3-4e7f-9cce-ea541224572d
 ms.date: 05/02/2018
 keywords: ["MINIPORT_CANCEL_DIRECT_OID_REQUEST callback function"]
 ms.keywords: MINIPORT_CANCEL_DIRECT_OID_REQUEST, MINIPORT_CANCEL_DIRECT_OID_REQUEST callback, MiniportCancelDirectOidRequest, MiniportCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelDirectOidRequest, ndis_request_direct_ref_d98875f6-2607-4d82-ac0f-615a33c0b11e.xml, netvista.miniportcanceldirectoidrequest
-f1_keywords:
- - "ndis/MiniportCancelDirectOidRequest"
- - "MiniportCancelDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportCancelDirectOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_CANCEL_DIRECT_OID_REQUEST
+ - ndis/MINIPORT_CANCEL_DIRECT_OID_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportCancelDirectOidRequest
 ---
 
 # MINIPORT_CANCEL_DIRECT_OID_REQUEST callback function
 
 
 ## -description
-
 
 NDIS calls a miniport driver's 
    <i>MiniportCancelDirectOidRequest</i> function to cancel a direct OID request.
@@ -54,27 +53,22 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterContext 
+
 [in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
-
 ### -param RequestId 
+
 [in]
 A cancellation identifier for the request. This identifier specifies the direct OID requests that
      match this value in the 
      <b>RequestId</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
 
-
 ## -remarks
-
-
 
 <i>MiniportCancelDirectOidRequest</i> is an optional function. A miniport driver registers this function
     if it handles direct OID requests. A driver specifies the 
@@ -144,15 +138,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_CANCEL_DIRECT_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CANCEL_DIRECT_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_direct_oid_request">MiniportDirectOidRequest</a>
 
@@ -176,7 +164,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 9acb3b65-46c7-4b29-8d7a-c5d8fcd4563d
 ms.date: 04/16/2018
 keywords: ["REPARSE_GUID_DATA_BUFFER structure"]
 ms.keywords: "*PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Installable File System Drivers], REPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER structure [Installable File System Drivers], _REPARSE_GUID_DATA_BUFFER, fileinformationstructures_d020fad8-2a4b-4fe6-a1ca-bbf7575418b5.xml, ifsk.reparse_guid_data_buffer, ntifs/PREPARSE_GUID_DATA_BUFFER, ntifs/REPARSE_GUID_DATA_BUFFER"
-f1_keywords:
- - "ntifs/REPARSE_GUID_DATA_BUFFER"
- - "REPARSE_GUID_DATA_BUFFER"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- REPARSE_GUID_DATA_BUFFER
 targetos: Windows
 req.typenames: REPARSE_GUID_DATA_BUFFER, *PREPARSE_GUID_DATA_BUFFER
+f1_keywords:
+ - _REPARSE_GUID_DATA_BUFFER
+ - ntifs/_REPARSE_GUID_DATA_BUFFER
+ - PREPARSE_GUID_DATA_BUFFER
+ - ntifs/PREPARSE_GUID_DATA_BUFFER
+ - REPARSE_GUID_DATA_BUFFER
+ - ntifs/REPARSE_GUID_DATA_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - REPARSE_GUID_DATA_BUFFER
 ---
 
 # _REPARSE_GUID_DATA_BUFFER structure
@@ -46,46 +50,33 @@ req.typenames: REPARSE_GUID_DATA_BUFFER, *PREPARSE_GUID_DATA_BUFFER
 
 ## -description
 
-
-The REPARSE_GUID_DATA_BUFFER structure contains reparse point data for a reparse point. 
-
+The REPARSE_GUID_DATA_BUFFER structure contains reparse point data for a reparse point.
 
 ## -struct-fields
 
-
-
-
 ### -field ReparseTag
 
-Reparse point tag that uniquely identifies the owner of the reparse point. (See the following <b>Remarks</b> section.) 
-
+Reparse point tag that uniquely identifies the owner of the reparse point. (See the following <b>Remarks</b> section.)
 
 ### -field ReparseDataLength
 
-Size, in bytes, of the reparse data in the <b>DataBuffer</b> member. 
-
+Size, in bytes, of the reparse data in the <b>DataBuffer</b> member.
 
 ### -field Reserved
 
-Reserved; do not use. 
-
+Reserved; do not use.
 
 ### -field ReparseGuid
 
-GUID that uniquely identifies the owner of the reparse point. (See the following <b>Remarks</b> section.) 
-
+GUID that uniquely identifies the owner of the reparse point. (See the following <b>Remarks</b> section.)
 
 ### -field GenericReparseBuffer
 
-
 ### -field GenericReparseBuffer.DataBuffer
 
-User-defined data for the reparse point. The format of this data is defined by the owner of the reparse point. 
-
+User-defined data for the reparse point. The format of this data is defined by the owner of the reparse point.
 
 ## -remarks
-
-
 
 The REPARSE_GUID_DATA_BUFFER structure is used by all third-party file systems, filters, and minifilters, as well as some Microsoft file systems, filters, and minifilters to store data for a reparse point. Each reparse point contains one REPARSE_GUID_DATA_BUFFER structure. 
 
@@ -99,15 +90,9 @@ Minifilters can set or delete a reparse point by calling <a href="https://docs.m
 
 File systems and filter drivers can retrieve, set, or delete a reparse point by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-reparse-point">FSCTL_GET_REPARSE_POINT</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point">FSCTL_SET_REPARSE_POINT</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point">FSCTL_DELETE_REPARSE_POINT</a> control codes. These codes can be sent to the file system by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>. 
 
-For more information about reparse points and reparse point tags, see the Windows SDK documentation.  
-
-
-
+For more information about reparse points and reparse point tags, see the Windows SDK documentation.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information">FILE_REPARSE_POINT_INFORMATION</a>
 
@@ -158,7 +143,4 @@ For more information about reparse points and reparse point tags, see the Window
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>
- 
-
- 
 

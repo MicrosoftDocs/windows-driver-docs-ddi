@@ -8,9 +8,6 @@ ms.assetid: 3ed8b7df-9c7d-44de-a49d-10221acf71e3
 ms.date: 02/26/2018
 keywords: ["WdfCommonBufferCreateWithConfig function"]
 ms.keywords: DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig
-f1_keywords:
- - "wdfcommonbuffer/WdfCommonBufferCreateWithConfig"
- - "WdfCommonBufferCreateWithConfig"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfCommonBufferCreateWithConfig
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCommonBufferCreateWithConfig
+ - wdfcommonbuffer/WdfCommonBufferCreateWithConfig
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfCommonBufferCreateWithConfig
 ---
 
 # WdfCommonBufferCreateWithConfig function
@@ -47,45 +47,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfCommonBufferCreateWithConfig</b> method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously, and the method also specifies buffer configuration information.
 
-
 ## -parameters
 
-
-
-
 ### -param DmaEnabler 
-[in]
-A handle to a DMA enabler object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>.  
 
+[in]
+A handle to a DMA enabler object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>.
 
 ### -param Length 
+
 [in]
 The desired size, in bytes, of the new buffer.
 
-
 ### -param Config 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcommonbuffer/ns-wdfcommonbuffer-_wdf_common_buffer_config">WDF_COMMON_BUFFER_CONFIG</a> structure that contains configuration information about the buffer.
 
-
 ### -param Attributes 
-[in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the common buffer object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the common buffer object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param CommonBuffer 
+
 [out]
 A pointer to a WDFCOMMONBUFFER-typed variable that receives a handle to a common buffer object.
 
-
 ## -returns
-
-
 
 <b>WdfCommonBufferCreateWithConfig</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -121,14 +114,7 @@ The framework could not allocate a common buffer object, or the system could not
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>WdfCommonBufferCreateWithConfig</b> method allocates memory and maps it so that both the driver and a device can access it simultaneously for DMA operations. 
 
@@ -183,12 +169,7 @@ if (!NT_SUCCESS (status)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -219,7 +200,4 @@ if (!NT_SUCCESS (status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
- 
-
- 
 

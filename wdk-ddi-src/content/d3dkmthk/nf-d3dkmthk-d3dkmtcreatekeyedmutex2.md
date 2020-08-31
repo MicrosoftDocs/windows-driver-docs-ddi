@@ -7,9 +7,6 @@ ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreateKeyedMutex2 function"]
 ms.keywords: D3DKMTCreateKeyedMutex2, D3DKMTCreateKeyedMutex2 callback function [Display Devices], PFND3DKMT_CREATEKEYEDMUTEX2, PFND3DKMT_CREATEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTCreateKeyedMutex2, display.d3dkmtcreatekeyedmutex2
-f1_keywords:
- - "d3dkmthk/D3DKMTCreateKeyedMutex2"
- - "D3DKMTCreateKeyedMutex2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -24,24 +21,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTCreateKeyedMutex2
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTCreateKeyedMutex2
+ - d3dkmthk/D3DKMTCreateKeyedMutex2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTCreateKeyedMutex2
 ---
 
 # D3DKMTCreateKeyedMutex2 function
+
 
 ## -description
 
@@ -93,7 +94,4 @@ Keyed mutexes created with <b>D3DKMTCreateKeyedMutex2</b> are still compatible w
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2">D3DKMT_CREATEKEYEDMUTEX2</a>
- 
-
- 
 

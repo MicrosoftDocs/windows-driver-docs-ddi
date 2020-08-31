@@ -8,9 +8,6 @@ ms.assetid: 796ee8e7-693f-41dd-ad09-cb3c21779ab9
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_deauthenticate_device
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE"
- - "IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
 ---
 
 # IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE IOCTL
+
 
 ## -description
 
@@ -76,3 +77,4 @@ Returns TRUE if successful; otherwise, returns FALSE.
 To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
+

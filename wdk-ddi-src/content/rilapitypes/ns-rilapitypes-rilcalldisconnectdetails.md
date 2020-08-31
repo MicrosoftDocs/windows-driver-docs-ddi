@@ -8,9 +8,6 @@ ms.assetid: c933e219-47bb-4896-b5ee-bd2fd59f4e8c
 ms.date: 05/02/2018
 keywords: ["RILCALLDISCONNECTDETAILS structure"]
 ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
-f1_keywords:
- - "rilapitypes/RILCALLDISCONNECTDETAILS"
- - "RILCALLDISCONNECTDETAILS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLDISCONNECTDETAILS
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
+f1_keywords:
+ - RILCALLDISCONNECTDETAILS
+ - rilapitypes/RILCALLDISCONNECTDETAILS
+ - LPRILCALLDISCONNECTDETAILS
+ - rilapitypes/LPRILCALLDISCONNECTDETAILS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLDISCONNECTDETAILS
 ---
 
 # RILCALLDISCONNECTDETAILS structure
@@ -46,53 +48,27 @@ req.typenames: RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwDisconnectGroup
-
 
 ### -field causeUnion
 
-
 ### -field causeUnion.unGPPCause
-
- 
-
 
 ### -field causeUnion.unGPPRejectCause
 
- 
-
-
 ### -field causeUnion.unGPP2Cause
-
- 
-
 
 ### -field causeUnion.unIMSSIPCause
 
- 
-
-
 ### -field causeUnion.dwASCode
-
- 
-
 
 ### -field causeUnion.dwOtherCode
 
- 
-
-
 ### -field RILCAUSEUNION
-
 
 #### - dwASCode
 

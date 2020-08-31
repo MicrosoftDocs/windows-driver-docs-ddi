@@ -8,9 +8,6 @@ ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitSetEndpointAddress function"]
 ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
-f1_keywords:
- - "udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress"
- - "UdecxUsbEndpointInitSetEndpointAddress"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbEndpointInitSetEndpointAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbEndpointInitSetEndpointAddress
+ - udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbEndpointInitSetEndpointAddress
 ---
 
 # UdecxUsbEndpointInitSetEndpointAddress function
@@ -47,29 +47,21 @@ req.typenames:
 
 ## -description
 
-
 Sets the address of the endpoint in the initialization parameters of the simple endpoint to create.
-
 
 ## -parameters
 
-
-
-
 ### -param Init 
+
 [in, out]
 A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a>.
 
-
 ### -param EndpointAddress 
+
 [in]
 Specifies the USB-defined endpoint address. The four low-order bits specify the endpoint number. The high-order bit specifies the direction of data flow on this endpoint: 1 for in, 0 for out.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -80,7 +72,4 @@ Specifies the USB-defined endpoint address. The four low-order bits specify the 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

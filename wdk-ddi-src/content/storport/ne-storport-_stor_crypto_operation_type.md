@@ -8,9 +8,6 @@ ms.assetid: DF8E428F-9F72-451E-AB3E-E6D3CBC99C8F
 ms.date: 03/29/2018
 keywords: ["STOR_CRYPTO_OPERATION_TYPE enumeration"]
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE enumeration pointer [Storage Devices], STOR_CRYPTO_OPERATION_TYPE, STOR_CRYPTO_OPERATION_TYPE enumeration [Storage Devices], _STOR_CRYPTO_OPERATION_TYPE, storage.stor_crypto_operation_type, storport/, storport/PSTOR_CRYPTO_OPERATION_TYPE, storport/STOR_CRYPTO_OPERATION_TYPE"
-f1_keywords:
- - "storport/STOR_CRYPTO_OPERATION_TYPE"
- - "STOR_CRYPTO_OPERATION_TYPE"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Storport.h
-api_name:
-- STOR_CRYPTO_OPERATION_TYPE
 targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_TYPE, *PSTOR_CRYPTO_OPERATION_TYPE
+f1_keywords:
+ - _STOR_CRYPTO_OPERATION_TYPE
+ - storport/_STOR_CRYPTO_OPERATION_TYPE
+ - PSTOR_CRYPTO_OPERATION_TYPE
+ - storport/PSTOR_CRYPTO_OPERATION_TYPE
+ - STOR_CRYPTO_OPERATION_TYPE
+ - storport/STOR_CRYPTO_OPERATION_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Storport.h
+api_name:
+ - STOR_CRYPTO_OPERATION_TYPE
 ---
 
 # _STOR_CRYPTO_OPERATION_TYPE enumeration
@@ -46,21 +50,11 @@ req.typenames: STOR_CRYPTO_OPERATION_TYPE, *PSTOR_CRYPTO_OPERATION_TYPE
 
 ## -description
 
-
 Reserved for system use.
-
 
 ## -enum-fields
 
-
-
-
 ### -field StorCryptoOperationInsertKey
 
-
 ### -field StorCryptoOperationMax
-
-
-
-
 

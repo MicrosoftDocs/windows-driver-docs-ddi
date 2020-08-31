@@ -8,9 +8,6 @@ ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.date: 04/16/2018
 keywords: ["CcInitializeCacheMap function"]
 ms.keywords: CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers], ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, ifsk.ccinitializecachemap, ntifs/CcInitializeCacheMap
-f1_keywords:
- - "ntifs/CcInitializeCacheMap"
- - "CcInitializeCacheMap"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcInitializeCacheMap
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcInitializeCacheMap
+ - ntifs/CcInitializeCacheMap
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcInitializeCacheMap
 ---
 
 # CcInitializeCacheMap function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 File systems call the <b>CcInitializeCacheMap</b> routine to cache a file.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 Pointer to a file object for the file.
 
-
 ### -param FileSizes 
+
 [in]
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b>, and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 
@@ -114,15 +110,14 @@ New valid data length for the file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PinAccess 
+
 [in]
 Set to <b>TRUE</b> if <b>CcPin</b><i>Xxx</i> routines will be used on the file.
 
-
 ### -param Callbacks 
+
 [in]
 Pointer to a structure allocated from nonpaged pool, containing entry points of caller-supplied read-ahead and write-behind callback routines.This structure and its members are defined as follows:
 
@@ -161,13 +156,11 @@ VOID (*PRELEASE_FROM_READ_AHEAD) (
 </table></span></div>
 
 ### -param LazyWriteContext 
+
 [in]
 Pointer to context information to be passed to the callback routines specified in <i>Callbacks</i>.
 
-
 ## -remarks
-
-
 
 <b>CcInitializeCacheMap</b> creates the data structures required for file data caching.
 
@@ -207,19 +200,11 @@ Returns <b>TRUE</b> if the file is cached, <b>FALSE</b> otherwise.
 <div class="alert"><b>Note</b>  Because multiple file objects can refer to the same file (that is, data stream), it is possible for the <b>CcIsFileCached</b> macro to return <b>TRUE</b> given a non-cached file object if another cached file object refers to the same data stream.  In other words, if there is a set of file objects that refer to the same data stream and if at least one of the file objects in the set is cached, <b>CcIsFileCached</b> will return <b>TRUE</b> for all file objects in the set.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539203">CcSetAdditionalCacheAttributes</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539225">CcUninitializeCacheMap</a>
- 
-
- 
 

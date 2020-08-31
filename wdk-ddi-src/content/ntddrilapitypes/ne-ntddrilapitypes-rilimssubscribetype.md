@@ -8,9 +8,6 @@ ms.assetid: 347b42c1-7585-471c-af42-44218da48fa3
 ms.date: 05/02/2018
 keywords: ["RILIMSSUBSCRIBETYPE enumeration"]
 ms.keywords: RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_MAX, RIL_IMSSUBSCRIBETYPE_MWI, netvista.rilimssubscribetype, ntddrilapitypes/RILIMSSUBSCRIBETYPE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MWI
-f1_keywords:
- - "ntddrilapitypes/RILIMSSUBSCRIBETYPE"
- - "RILIMSSUBSCRIBETYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILIMSSUBSCRIBETYPE
 targetos: Windows
 req.typenames: RILIMSSUBSCRIBETYPE
+f1_keywords:
+ - RILIMSSUBSCRIBETYPE
+ - ntddrilapitypes/RILIMSSUBSCRIBETYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILIMSSUBSCRIBETYPE
 ---
 
 # RILIMSSUBSCRIBETYPE enumeration
@@ -46,23 +46,15 @@ req.typenames: RILIMSSUBSCRIBETYPE
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_IMSSUBSCRIBETYPE_REG
-
 
 ### -field RIL_IMSSUBSCRIBETYPE_MWI
 
-
 ### -field RIL_IMSSUBSCRIBETYPE_CONFERENCE
-
 
 ### -field RIL_IMSSUBSCRIBETYPE_MAX
 

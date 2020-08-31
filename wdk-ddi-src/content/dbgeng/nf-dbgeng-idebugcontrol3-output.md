@@ -8,9 +8,6 @@ ms.assetid: 2c748325-3718-4fcc-98a3-3318d361ba6e
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::Output"]
 ms.keywords: IDebugControl interface [Windows Debugging],Output method, IDebugControl2 interface [Windows Debugging],Output method, IDebugControl2::Output, IDebugControl3 interface [Windows Debugging],Output method, IDebugControl3.Output, IDebugControl3::Output, IDebugControl::Output, IDebugControl_4b29317b-e521-4deb-84dc-fc4bb7d6ca90.xml, Output, Output method [Windows Debugging], Output method [Windows Debugging],IDebugControl interface, Output method [Windows Debugging],IDebugControl2 interface, Output method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::Output, dbgeng/IDebugControl3::Output, dbgeng/IDebugControl::Output, debugger.output
-f1_keywords:
- - "dbgeng/IDebugControl.Output"
- - "IDebugControl.Output"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.Output
-- IDebugControl2.Output
-- IDebugControl3.Output
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::Output
+ - dbgeng/IDebugControl3::Output
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.Output
+ - IDebugControl2.Output
+ - IDebugControl3.Output
 ---
 
 # IDebugControl3::Output
@@ -48,21 +48,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>Output</b>  method formats a string and send the result to output callbacks that have been registered with the engine's clients.
-
 
 ## -parameters
 
-
-
-
 ### -param Mask 
+
 [in]
 Specifies the output-type bit field.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
 
-
 ### -param Format 
+
 [in]
 Specifies the format string, as in <b>printf</b>.  In general, conversion characters work exactly as in C. For the floating-point conversion characters the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
@@ -238,24 +234,14 @@ String that contains the name of the specified symbol (and displacement, if any)
 </td>
 </tr>
 </table>
- 
-
 
 ### -param param
-
-
-
-
-
 
 ####### - ...
 
 Specifies additional parameters that contain values to be inserted into the output during formatting.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -276,24 +262,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-printf">.printf</a>
 
@@ -320,7 +294,4 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
- 
-
- 
 

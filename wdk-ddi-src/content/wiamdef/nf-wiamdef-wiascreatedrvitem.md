@@ -8,13 +8,10 @@ ms.assetid: bc91133a-ae6a-447a-8519-65fbe2929521
 ms.date: 05/03/2018
 keywords: ["wiasCreateDrvItem function"]
 ms.keywords: image.wiascreatedrvitem, wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
-f1_keywords:
- - "wiamdef/wiasCreateDrvItem"
- - "wiasCreateDrvItem"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasCreateDrvItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasCreateDrvItem
+ - wiamdef/wiasCreateDrvItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasCreateDrvItem
 ---
 
 # wiasCreateDrvItem function
+
 
 ## -description
 
@@ -62,6 +63,7 @@ Specifies a string that contains the item name without path information.
 Specifies a string that contains the item name with path information.
 
 ### -param pIMiniDrv 
+
 [in, out]
 Pointer to the [IWiaMiniDrv Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv) of the current minidriver.
 
@@ -70,10 +72,12 @@ Pointer to the [IWiaMiniDrv Interface](https://docs.microsoft.com/windows-hardwa
 Specifies the size in bytes of the device specific context.
 
 ### -param ppDevSpecContext 
+
 [out]
 Pointer to a memory location that receives the address of the device specific context. Set this to **NULL** if the information is not needed.
 
 ### -param ppIWiaDrvItem 
+
 [out]
 Pointer to a memory location that receives the address of an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) for the newly created **IWiaDrvItem** object.
 
@@ -90,3 +94,4 @@ This function creates and initializes an [IWiaDrvItem COM Interface](https://doc
 ## -see-also
 
 [wiasCreateChildAppItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatechildappitem)
+

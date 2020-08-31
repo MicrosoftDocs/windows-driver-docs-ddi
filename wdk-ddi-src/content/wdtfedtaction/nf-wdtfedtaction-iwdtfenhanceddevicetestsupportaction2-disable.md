@@ -8,9 +8,6 @@ ms.assetid: cf67d391-8c73-43d7-aab3-57837c78dbc4
 ms.date: 04/04/2018
 keywords: ["IWDTFEnhancedDeviceTestSupportAction2::Disable"]
 ms.keywords: Disable, Disable method [Windows Device Testing Framework], Disable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],Disable method, IWDTFEnhancedDeviceTestSupportAction2.Disable, IWDTFEnhancedDeviceTestSupportAction2::Disable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Disable, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Disable, dtf.iwdtfenhanceddevicetestsupportaction2_disable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Disable
-f1_keywords:
- - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2.Disable"
- - "IWDTFEnhancedDeviceTestSupportAction2.Disable"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverEDTAction.Interop.dll
-api_name:
-- IWDTFEnhancedDeviceTestSupportAction2.Disable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFEnhancedDeviceTestSupportAction2::Disable
+ - wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Disable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverEDTAction.Interop.dll
+api_name:
+ - IWDTFEnhancedDeviceTestSupportAction2.Disable
 ---
 
 # IWDTFEnhancedDeviceTestSupportAction2::Disable
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Disables the Enhanced Device Test (EDT) filter driver on the target device.
-
 
 ## -parameters
 
-
-
-
 ### -param pbRebootRequired 
+
 [out, retval]
 True if the operation requires a restart to complete; otherwise, false.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2">IWDTFEnhancedDeviceTestSupportAction2</a>
- 
-
- 
 

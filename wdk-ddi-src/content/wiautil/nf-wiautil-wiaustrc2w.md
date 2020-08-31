@@ -8,9 +8,6 @@ ms.assetid: 66d90248-c496-44c8-98f4-5eb3e2cae130
 ms.date: 05/03/2018
 keywords: ["wiauStrC2W function"]
 ms.keywords: image.wiaustrc2w, wiauFncs_acd27425-a431-42a0-8317-514ea7904ace.xml, wiauStrC2W, wiauStrC2W function [Imaging Devices], wiautil/wiauStrC2W
-f1_keywords:
- - "wiautil/wiauStrC2W"
- - "wiauStrC2W"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiautil.h
-api_name:
-- wiauStrC2W
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauStrC2W
+ - wiautil/wiauStrC2W
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiautil.h
+api_name:
+ - wiauStrC2W
 ---
 
 # wiauStrC2W function
@@ -46,43 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiauStrC2W</b> function converts an ANSI character string to a Unicode string.
-
 
 ## -parameters
 
-
-
-
 ### -param pszSrc 
+
 [in]
 Points to the ANSI string to convert.
 
-
 ### -param pwszDst 
+
 [out]
 Pointer to a memory location that receives the converted Unicode string.
-
 
 ### -param iSize
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pwszDst</i>.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaustrc2c">wiauStrC2C</a>
 
@@ -93,7 +79,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaustrw2w">wiauStrW2W</a>
- 
-
- 
 

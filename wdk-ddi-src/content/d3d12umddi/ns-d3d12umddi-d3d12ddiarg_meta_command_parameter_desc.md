@@ -6,39 +6,40 @@ description: Meta-command parameter descriptions.
 ms.assetid: a3a5d723-9f3a-44fd-aa17-4e7d81918865
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_META_COMMAND_PARAMETER_DESC structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_META_COMMAND_PARAMETER_DESC"
- - "D3D12DDIARG_META_COMMAND_PARAMETER_DESC"
-ms.keywords: D3D12DDIARG_META_COMMAND_PARAMETER_DESC, D3D12DDIARG_META_COMMAND_PARAMETER_DESC, 
+ms.keywords: D3D12DDIARG_META_COMMAND_PARAMETER_DESC, D3D12DDIARG_META_COMMAND_PARAMETER_DESC,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_META_COMMAND_PARAMETER_DESC
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_META_COMMAND_PARAMETER_DESC
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDIARG_META_COMMAND_PARAMETER_DESC
+ - d3d12umddi/D3D12DDIARG_META_COMMAND_PARAMETER_DESC
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_META_COMMAND_PARAMETER_DESC
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDIARG_META_COMMAND_PARAMETER_DESC structure
+
 
 ## -description
 
@@ -59,6 +60,7 @@ The type of meta-command parameter, such as float or UINT64.
 Flags that indicate whether the resource is used for input or output.
 
 ### -field RequiredResourceState
+
  
 Resources that indicate the expected state of the resource. This is specified for each resource in the meta-command definition.
 
@@ -69,3 +71,4 @@ The type and state will be validated by the debug layer to ensure the parameters
 The driver will report the list of parameters and their type and the runtime will calculate a 4-byte aligned offset in a struct the user developer will pass these parameters in.
 
 ## -see-also
+

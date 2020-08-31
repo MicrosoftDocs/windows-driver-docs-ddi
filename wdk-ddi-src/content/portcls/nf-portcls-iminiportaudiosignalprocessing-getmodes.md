@@ -8,9 +8,6 @@ ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
 ms.date: 05/08/2018
 keywords: ["IMiniportAudioSignalProcessing::GetModes"]
 ms.keywords: GetModes, GetModes method [Audio Devices], GetModes method [Audio Devices],IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing interface [Audio Devices],GetModes method, IMiniportAudioSignalProcessing.GetModes, IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes
-f1_keywords:
- - "portcls/IMiniportAudioSignalProcessing.GetModes"
- - "IMiniportAudioSignalProcessing.GetModes"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportAudioSignalProcessing.GetModes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportAudioSignalProcessing::GetModes
+ - portcls/IMiniportAudioSignalProcessing::GetModes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportAudioSignalProcessing.GetModes
 ---
 
 # IMiniportAudioSignalProcessing::GetModes
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The GetModes method, Gets the audio signal processing modes supported by an audio pin.
-
 
 ## -parameters
 
-
-
-
 ### -param Pin 
+
 [in]
 The index of the audio pin.
 
-
 ### -param SignalProcessingModes 
+
 [out, optional]
 This parameter is optional. It returns an array of GUIDs that identify the  signal processing modes supported by the  <i>Pin</i> parameter.
 
-
 ### -param NumSignalProcessingModes 
+
 [in, out]
 When used as an input, it specifies the number of elements that can be written to the buffer that is specified in <i>SignalProcessingModes</i>. When used as an output, it returns the number of elements that were written to the buffer.
 
-
 ## -returns
-
-
 
 <b>GetModes</b> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 If <i>SignalProcessingModes</i> is NULL, then <b>GetModes</b> writes the number of supported modes to <i>NumSignalProcessingModes</i> and returns STATUS_SUCCESS. This allows callers to query the number of supported modes in order to allocate buffers.
 
@@ -107,18 +95,8 @@ The following table presents and explains  the error messages than can be return
 <td>A Pin ID was specified for a pin which does not support signal processing modes. For example,  if the Pin ID refers to an audio loopback pin  or a bridge pin, then <b>GetModes</b> will return this error code.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudiosignalprocessing">IMiniportAudioSignalProcessing</a>
- 
-
- 
 

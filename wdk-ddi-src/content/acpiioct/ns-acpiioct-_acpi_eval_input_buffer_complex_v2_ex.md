@@ -8,9 +8,6 @@ ms.assetid: 50AEF454-8E36-4348-9340-330094D2FDF8
 ms.date: 02/15/2018
 keywords: ["ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpi.acpi_eval_input_buffer_complex_v2_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX"
-f1_keywords:
- - "acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX"
- - "ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+f1_keywords:
+ - _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+ - acpiioct/_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+ - PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+ - acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+ - ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+ - acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure
@@ -46,34 +50,23 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_CO
 
 ## -description
 
-
 This topic describes the <b>ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 
-
 ### -field MethodName
-
- 
-
 
 ### -field Size
 
 Defines the <b>ULONG</b> member <b>Size</b>.
 
-
 ### -field ArgumentCount
 
 Defines the <b>ULONG</b> member <b>ArgumentCount</b>.
-
 
 ### -field Argument
 

@@ -8,9 +8,6 @@ ms.assetid: 8df06f2c-7358-49ea-8948-b76c5090d75b
 ms.date: 04/16/2018
 keywords: ["FltDeleteExtraCreateParameterLookasideList function"]
 ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist
-f1_keywords:
- - "fltkernel/FltDeleteExtraCreateParameterLookasideList"
- - "FltDeleteExtraCreateParameterLookasideList"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltDeleteExtraCreateParameterLookasideList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltDeleteExtraCreateParameterLookasideList
+ - fltkernel/FltDeleteExtraCreateParameterLookasideList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltDeleteExtraCreateParameterLookasideList
 ---
 
 # FltDeleteExtraCreateParameterLookasideList function
@@ -47,44 +47,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltDeleteExtraCreateParameterLookasideList </b>routine frees an extra create parameter (ECP) lookaside list.
-
 
 ## -parameters
 
-
-
-
 ### -param Filter 
+
 [in]
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-
 ### -param Lookaside 
+
 [in, out]
 Pointer to an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> lookaside  list-head structure that represents the lookaside list to be freed.
 
-
 ### -param Flags 
+
 [in]
 Communicates ECP lookaside list allocation options that were used when the lookaside list was initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitextracreateparameterlookasidelist">FltInitExtraCreateParameterLookasideList</a> routine. 
 
 This <i>Flags</i> parameter should be the same as the <i>Flags</i> parameter used in the call to the <b>FltInitExtraCreateParameterLookasideList</b> routine.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 This routine is available starting with Windows Vista. 
 
@@ -92,13 +80,7 @@ The <b>FltDeleteExtraCreateParameterLookasideList </b>routine frees the given EC
 
 Drivers must explicitly free all ECP context structures and ECP lookaside lists that they created before unloading.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-lookaside-lists">Using Lookaside Lists</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -161,7 +143,4 @@ Drivers must explicitly free all ECP context structures and ECP lookaside lists 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551124">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
- 
-
- 
 

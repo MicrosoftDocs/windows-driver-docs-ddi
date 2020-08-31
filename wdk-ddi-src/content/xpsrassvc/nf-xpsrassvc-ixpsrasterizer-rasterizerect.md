@@ -8,9 +8,6 @@ ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.date: 08/21/2020
 keywords: ["IXpsRasterizer::RasterizeRect"]
 ms.keywords: IXpsRasterizer interface [Print Devices],RasterizeRect method, IXpsRasterizer.RasterizeRect, IXpsRasterizer::RasterizeRect, RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
-f1_keywords:
- - "xpsrassvc/IXpsRasterizer.RasterizeRect"
- - "IXpsRasterizer.RasterizeRect"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsrassvc.h
-api_name:
-- IXpsRasterizer.RasterizeRect
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsRasterizer::RasterizeRect
+ - xpsrassvc/IXpsRasterizer::RasterizeRect
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsrassvc.h
+api_name:
+ - IXpsRasterizer.RasterizeRect
 ---
 
 # IXpsRasterizer::RasterizeRect
+
 
 ## -description
 
@@ -126,3 +127,4 @@ For a code example that calls the **RasterizeRect** method, see the XPSRasFilter
 [IXpsRasterizer::SetMinimalLineWidth](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-setminimallinewidth)
 
 [IXpsRasterizerNotificationCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback)
+

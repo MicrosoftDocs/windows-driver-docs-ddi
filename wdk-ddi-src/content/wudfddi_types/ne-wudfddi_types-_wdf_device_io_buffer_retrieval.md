@@ -8,9 +8,6 @@ ms.assetid: 50ece9a1-8d0d-442c-962c-488bd6368a67
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration"]
 ms.keywords: "*PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, WDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, WdfDeviceIoBufferRetrievalCopyImmediately, WdfDeviceIoBufferRetrievalDeferred, WdfDeviceIoBufferRetrievalInvalid, WdfDeviceIoBufferRetrievalMaximum, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, umdf.wdf_device_io_buffer_retrieval, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, wdf.wdf_device_io_buffer_retrieval, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum"
-f1_keywords:
- - "wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL"
- - "WDF_DEVICE_IO_BUFFER_RETRIEVAL"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wudfddi_types.h
-api_name:
-- WDF_DEVICE_IO_BUFFER_RETRIEVAL
 targetos: Windows
 req.typenames: WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL
+f1_keywords:
+ - _WDF_DEVICE_IO_BUFFER_RETRIEVAL
+ - wudfddi_types/_WDF_DEVICE_IO_BUFFER_RETRIEVAL
+ - PWDF_DEVICE_IO_BUFFER_RETRIEVAL
+ - wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL
+ - WDF_DEVICE_IO_BUFFER_RETRIEVAL
+ - wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wudfddi_types.h
+api_name:
+ - WDF_DEVICE_IO_BUFFER_RETRIEVAL
 ---
 
 # _WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration
@@ -46,40 +50,29 @@ req.typenames: WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_DEVICE_IO_BUFFER_RETRIEVAL</b> enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WdfDeviceIoBufferRetrievalInvalid
 
 Reserved for system use.
 
-
 ### -field WdfDeviceIoBufferRetrievalCopyImmediately
 
 UMDF makes an I/O request's buffers available to the driver (by copying them into the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/umdf-driver-host-process">UMDF driver host process</a>) as soon as UMDF receives the I/O request. For more information, see the following Remarks section.
-
 
 ### -field WdfDeviceIoBufferRetrievalDeferred
 
 UMDF makes an I/O request's buffers available to the driver (by copying them into the UMDF driver host process) only when the driver attempts to access the buffers. For more information, see the following Remarks section.
 
-
 ### -field WdfDeviceIoBufferRetrievalMaximum
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 The <b>WDF_DEVICE_IO_BUFFER_RETRIEVAL</b> enumeration is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference">IWDFDeviceInitialize2::SetIoTypePreference</a>.
 
@@ -109,16 +102,7 @@ A driver that enables deferred retrieval cannot use <a href="https://docs.micros
 
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_type">WDF_DEVICE_IO_TYPE (UMDF)</a>
- 
-
- 
 

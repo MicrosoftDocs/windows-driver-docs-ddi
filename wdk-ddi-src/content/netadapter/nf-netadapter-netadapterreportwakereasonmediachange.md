@@ -8,39 +8,39 @@ ms.assetid: 877cde13-87d8-42e6-bf83-7ff81743bacc
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetAdapterReportWakeReasonMediaChange function"]
-f1_keywords:
- - "netadapter/NetAdapterReportWakeReasonMediaChange"
- - "NetAdapterReportWakeReasonMediaChange"
 ms.keywords: NetAdapterReportWakeReasonMediaChange
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterReportWakeReasonMediaChange
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetAdapterReportWakeReasonMediaChange
+ - netadapter/NetAdapterReportWakeReasonMediaChange
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterReportWakeReasonMediaChange
+product:
+ - Windows
 ---
 
 # NetAdapterReportWakeReasonMediaChange function
@@ -71,3 +71,4 @@ This function does not return a value.
 [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_IF_MEDIA_CONNECT_STATE**](https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state)
+

@@ -8,9 +8,6 @@ ms.assetid: 1A205DD3-FCE2-4EA1-A6B3-CE60300EC651
 ms.date: 02/26/2018
 keywords: ["WDF_READ_PORT_BUFFER_UCHAR function"]
 ms.keywords: WDF_READ_PORT_BUFFER_UCHAR, WDF_READ_PORT_BUFFER_UCHAR function, wdf.wdf_read_port_buffer_uchar, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR
-f1_keywords:
- - "wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR"
- - "WDF_READ_PORT_BUFFER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_READ_PORT_BUFFER_UCHAR
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_READ_PORT_BUFFER_UCHAR
+ - wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_READ_PORT_BUFFER_UCHAR
 ---
 
 # WDF_READ_PORT_BUFFER_UCHAR function
@@ -46,34 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_PORT_BUFFER_UCHAR</b> function reads a number of bytes from the specified port address into a buffer.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param Port 
+
 [in]
 Specifies the port address, which must be a mapped memory range in I/O space.
 
-
 ### -param Buffer 
+
 [out]
 A pointer to a buffer into which an array of UCHAR values is read.
 
-
 ### -param Count 
+
 [in]
 Specifies the number of bytes to be read into the buffer.
-
 

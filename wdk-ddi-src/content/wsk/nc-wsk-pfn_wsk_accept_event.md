@@ -8,9 +8,6 @@ ms.assetid: 672440f0-810a-4e68-82a5-d038770898c5
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_ACCEPT_EVENT callback function"]
 ms.keywords: PFN_WSK_ACCEPT_EVENT, PFN_WSK_ACCEPT_EVENT callback, WskAcceptEvent, WskAcceptEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskacceptevent, wsk/WskAcceptEvent, wskref_5a830348-5fa7-4704-86f2-9d1a953f057b.xml
-f1_keywords:
- - "wsk/WskAcceptEvent"
- - "WskAcceptEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskAcceptEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_ACCEPT_EVENT
+ - wsk/PFN_WSK_ACCEPT_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskAcceptEvent
 ---
 
 # PFN_WSK_ACCEPT_EVENT callback function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>WskAcceptEvent</i> event callback function notifies a WSK application that an incoming connection on a
   listening socket has been accepted.
 
-
 ## -parameters
 
-
-
-
 ### -param SocketContext 
+
 [in, optional]
 A pointer to the socket context for the listening socket on which the incoming connection was
      accepted. The WSK application provided this pointer to the WSK subsystem when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the listening
      socket.
 
-
 ### -param Flags 
+
 [in]
 A ULONG value that contains the following flag, or zero:
      
@@ -81,22 +77,22 @@ The WSK subsystem called the
        WSK subsystem might have called the 
        <i>WskAcceptEvent</i> event callback function at any IRQL <= DISPATCH_LEVEL.
 
-
 ### -param LocalAddress 
+
 [in]
 A pointer to a buffer that contains the local transport address on which the incoming connection
      arrived. The buffer contains the specific SOCKADDR structure type that corresponds to the address family
      that the WSK application specified when it created the listening socket.
 
-
 ### -param RemoteAddress 
+
 [in]
 A pointer to a buffer that contains the remote transport address from which the incoming
      connection originated. The buffer contains the specific SOCKADDR structure type that corresponds to the
      address family that the WSK application specified when it created the listening socket.
 
-
 ### -param AcceptSocket 
+
 [in, optional]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that is the socket object
@@ -105,8 +101,8 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
      listening socket as soon as possible.
 
-
 ### -param AcceptSocketContext 
+
 [out]
 A pointer to a variable that receives a pointer to a WSK application-supplied context for the
      socket that is being accepted. The WSK subsystem passes this pointer to the accepted socket's event
@@ -141,10 +137,7 @@ A pointer to a variable that receives a pointer to a constant
      set the variable that is pointed to by the 
      <i>AcceptSocketDispatch</i> parameter to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 A WSK application's 
      <i>WskAcceptEvent</i> event callback function can return one of the following NTSTATUS codes:
@@ -178,14 +171,8 @@ The WSK application rejected the incoming connection. If this value is returned,
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The WSK subsystem calls a WSK application's 
     <i>WskAcceptEvent</i> event callback function when an incoming connection is accepted on the listening
@@ -243,13 +230,7 @@ The WSK subsystem calls a WSK application's
 
 A WSK application's <i>WskAcceptEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
@@ -289,7 +270,4 @@ A WSK application's <i>WskAcceptEvent</i> event callback function must not wait 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
 ms.date: 04/16/2018
 keywords: ["IoIsFileObjectIgnoringSharing function"]
 ms.keywords: IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing
-f1_keywords:
- - "ntddk/IoIsFileObjectIgnoringSharing"
- - "IoIsFileObjectIgnoringSharing"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoIsFileObjectIgnoringSharing
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoIsFileObjectIgnoringSharing
+ - ntddk/IoIsFileObjectIgnoringSharing
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoIsFileObjectIgnoringSharing
 ---
 
 # IoIsFileObjectIgnoringSharing function
@@ -46,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoIsFileObjectIgnoringSharing</b> routine determines if a file object is set with the option to ignore file  sharing access checks.
 
-
 ## -parameters
-
-
-
 
 ### -param FileObject
 
 Pointer to a file object for the file.
 
-
 ## -returns
-
-
 
 <b>TRUE</b> if file sharing access checks are ignored. Otherwise, <b>FALSE</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetfileobjectignoresharing">IoSetFileObjectIgnoreSharing</a>
- 
-
- 
 

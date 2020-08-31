@@ -5,36 +5,39 @@ description: Defines 3D coordinates.
 ms.assetid: cdac1a8d-304d-4f98-becf-6608d0d99154
 ms.date: 10/19/2018
 keywords: ["AXIS enumeration"]
-f1_keywords:
- - "sensorsstructures/AXIS"
- - "AXIS"
-ms.keywords: AXIS, AXIS, *PAXIS, 
+ms.keywords: AXIS, AXIS, *PAXIS,
 tech.root: sensors
 req.header: sensorsstructures.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: AXIS, *PAXIS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sensorsstructures.h
-api_name: 
-- AXIS
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - PAXIS
+ - sensorsstructures/PAXIS
+ - AXIS
+ - sensorsstructures/AXIS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sensorsstructures.h
+api_name:
+ - AXIS
+product:
+ - Windows
 ---
 
 # AXIS enumeration
+
 
 ## -description
 
@@ -61,3 +64,4 @@ Maximum number for a coordinate.
 ## -remarks
 
 ## -see-also
+

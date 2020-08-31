@@ -8,9 +8,6 @@ ms.assetid: 798101da-51be-416d-ac56-2f55a21e8ea8
 ms.date: 05/02/2018
 keywords: ["WWAN_SMS_FILTER structure"]
 ms.keywords: "*PWWAN_SMS_FILTER, PWWAN_SMS_FILTER, PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FILTER, WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml, _WWAN_SMS_FILTER, netvista.wwan_sms_filter, wwan/PWWAN_SMS_FILTER, wwan/WWAN_SMS_FILTER"
-f1_keywords:
- - "wwan/WWAN_SMS_FILTER"
- - "WWAN_SMS_FILTER"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_FILTER
 targetos: Windows
 req.typenames: WWAN_SMS_FILTER, *PWWAN_SMS_FILTER
+f1_keywords:
+ - _WWAN_SMS_FILTER
+ - wwan/_WWAN_SMS_FILTER
+ - PWWAN_SMS_FILTER
+ - wwan/PWWAN_SMS_FILTER
+ - WWAN_SMS_FILTER
+ - wwan/WWAN_SMS_FILTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_FILTER
 ---
 
 # _WWAN_SMS_FILTER structure
@@ -46,20 +50,14 @@ req.typenames: WWAN_SMS_FILTER, *PWWAN_SMS_FILTER
 
 ## -description
 
-
 The WWAN_SMS_FILTER structure represents the filter to apply to SMS messages on the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flag
 
 A value from the WWAN_SMS_FLAG enumeration that represents what filter to use to display SMS
      messages for.
-
 
 ### -field MessageIndex
 
@@ -74,23 +72,14 @@ This value in this member is valid only if
      <b>WwanSmsFlagIndex</b>. For all flags other than 
      <b>WwanSmsFlagIndex</b>, the MB Service sets this index to WWAN_MESSAGE_INDEX_NONE.
 
-
 ## -remarks
-
-
 
 When 
     <b>Flag</b> is 
     <b>WwanSmsFlagIndex</b>, the filter identifies the SMS message specified by 
     <b>MessageIndex</b> .
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_delete">NDIS_WWAN_SMS_DELETE</a>
 
@@ -101,7 +90,4 @@ When
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_read">WWAN_SMS_READ</a>
- 
-
- 
 

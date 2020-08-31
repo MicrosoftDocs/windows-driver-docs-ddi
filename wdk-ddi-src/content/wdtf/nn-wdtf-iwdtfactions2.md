@@ -8,9 +8,6 @@ ms.assetid: cf78bd7f-7d92-421f-8f68-e56db5e7c7d4
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2 interface"]
 ms.keywords: IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], IWDTFActions2 interface [Windows Device Testing Framework],described, dtf.iwdtfactions2, wdtf/IWDTFActions2
-f1_keywords:
- - "wdtf/IWDTFActions2"
- - "IWDTFActions2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtf.h
-api_name:
-- IWDTFActions2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFActions2
+ - wdtf/IWDTFActions2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtf.h
+api_name:
+ - IWDTFActions2
 ---
 
 # IWDTFActions2 interface
@@ -46,10 +46,8 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties for the collection of actions that the IWDTFTargets::GetInterfaces 
 method returns.
-
 
 ## -inheritance
 

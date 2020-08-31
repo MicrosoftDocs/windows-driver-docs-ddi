@@ -8,9 +8,6 @@ ms.assetid: 6db90186-a663-4710-8209-abd5ef2b361a
 ms.date: 03/29/2018
 keywords: ["ScsiPortReadRegisterBufferUshort function"]
 ms.keywords: ScsiPortReadRegisterBufferUshort, ScsiPortReadRegisterBufferUshort routine [Storage Devices], scsiprt_f6e36a20-066b-4b3e-bf94-9182e84dc2eb.xml, srb/ScsiPortReadRegisterBufferUshort, storage.scsiportreadregisterbufferushort
-f1_keywords:
- - "srb/ScsiPortReadRegisterBufferUshort"
- - "ScsiPortReadRegisterBufferUshort"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortReadRegisterBufferUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortReadRegisterBufferUshort
+ - srb/ScsiPortReadRegisterBufferUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortReadRegisterBufferUshort
 ---
 
 # ScsiPortReadRegisterBufferUshort function
@@ -47,55 +47,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortReadRegisterBufferUshort</b> routine transfers a specified number of USHORT values from the HBA to a buffer.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Register 
+
 [in]
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-
 ### -param Buffer 
+
 [in]
 Pointer to the buffer.
 
-
 ### -param Count 
+
 [in]
 Specifies the number of USHORT values to be read from the HBA.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 <b>ScsiPortReadRegisterBufferUshort</b> ensures that the data has been transferred correctly.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>
- 
-
- 
 

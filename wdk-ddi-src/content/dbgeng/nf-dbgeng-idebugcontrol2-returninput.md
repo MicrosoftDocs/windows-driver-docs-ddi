@@ -8,9 +8,6 @@ ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::ReturnInput"]
 ms.keywords: IDebugControl interface [Windows Debugging],ReturnInput method, IDebugControl2 interface [Windows Debugging],ReturnInput method, IDebugControl2.ReturnInput, IDebugControl2::ReturnInput, IDebugControl3 interface [Windows Debugging],ReturnInput method, IDebugControl3::ReturnInput, IDebugControl::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, ReturnInput, ReturnInput method [Windows Debugging], ReturnInput method [Windows Debugging],IDebugControl interface, ReturnInput method [Windows Debugging],IDebugControl2 interface, ReturnInput method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, dbgeng/IDebugControl::ReturnInput, debugger.returninput
-f1_keywords:
- - "dbgeng/IDebugControl.ReturnInput"
- - "IDebugControl.ReturnInput"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.ReturnInput
-- IDebugControl2.ReturnInput
-- IDebugControl3.ReturnInput
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl2::ReturnInput
+ - dbgeng/IDebugControl2::ReturnInput
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.ReturnInput
+ - IDebugControl2.ReturnInput
+ - IDebugControl3.ReturnInput
 ---
 
 # IDebugControl2::ReturnInput
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReturnInput</b>  method is used by <b>IDebugInputCallbacks</b> objects to send an input string to the engine following a request for input.
-
 
 ## -parameters
 
-
-
-
 ### -param Buffer 
+
 [in]
 Specifies the input string being sent to the engine.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -98,14 +91,7 @@ The engine had already received the input it requested. The input string in <i>B
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
 
-
-
 For an overview of input in the debugger engine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
-
 

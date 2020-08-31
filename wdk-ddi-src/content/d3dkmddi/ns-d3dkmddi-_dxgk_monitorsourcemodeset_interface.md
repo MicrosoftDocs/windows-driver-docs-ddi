@@ -7,9 +7,6 @@ ms.assetid: ceab36a0-3be1-41d8-82c0-8393f93e5f42
 ms.date: 05/10/2018
 keywords: ["DXGK_MONITORSOURCEMODESET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORSOURCEMODESET_INTERFACE, DXGK_MONITORSOURCEMODESET_INTERFACE structure [Display Devices], DmStructs_c4c7e928-09db-424f-8ac7-7efffc71d06e.xml, _DXGK_MONITORSOURCEMODESET_INTERFACE, d3dkmddi/DXGK_MONITORSOURCEMODESET_INTERFACE, display.dxgk_monitorsourcemodeset_interface
-f1_keywords:
- - "d3dkmddi/DXGK_MONITORSOURCEMODESET_INTERFACE"
- - "DXGK_MONITORSOURCEMODESET_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_MONITORSOURCEMODESET_INTERFACE
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MONITORSOURCEMODESET_INTERFACE
+f1_keywords:
+ - _DXGK_MONITORSOURCEMODESET_INTERFACE
+ - d3dkmddi/_DXGK_MONITORSOURCEMODESET_INTERFACE
+ - DXGK_MONITORSOURCEMODESET_INTERFACE
+ - d3dkmddi/DXGK_MONITORSOURCEMODESET_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_MONITORSOURCEMODESET_INTERFACE
 ---
 
 # _DXGK_MONITORSOURCEMODESET_INTERFACE structure
@@ -46,63 +48,43 @@ req.typenames: DXGK_MONITORSOURCEMODESET_INTERFACE
 
 ## -description
 
-
 The DXGK_MONITORSOURCEMODESET_INTERFACE structure contains pointers to functions that belong to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Monitor Source Mode Set interface</a>, which is implemented by the video present network (VidPN) manager.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pfnGetNumModes
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_getnummodes">pfnGetNumModes</a> function.
 
-
 ### -field pfnAcquirePreferredModeInfo
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirepreferredmodeinfo">pfnAcquirePreferredModeInfo</a> function.
-
 
 ### -field pfnAcquireFirstModeInfo
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirefirstmodeinfo">pfnAcquireFirstModeInfo</a> function.
 
-
 ### -field pfnAcquireNextModeInfo
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirenextmodeinfo">pfnAcquireNextModeInfo</a> function.
-
 
 ### -field pfnCreateNewModeInfo
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_createnewmodeinfo">pfnCreateNewModeInfo</a> function.
 
-
 ### -field pfnAddMode
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_addmode">pfnAddMode</a> function.
-
 
 ### -field pfnReleaseModeInfo
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorsourcemodeset_releasemodeinfo">pfnReleaseModeInfo</a> function.
 
-
 ## -remarks
-
-
 
 The display miniport driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Monitor interface</a> to obtain a handle to a monitor source mode set object and a pointer to a DXGK_MONITORSOURCEMODESET_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor source mode set object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_monitor_source_mode">D3DKMDT_MONITOR_SOURCE_MODE</a>
 
@@ -117,7 +99,4 @@ The display miniport driver calls the <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a>
- 
-
- 
 

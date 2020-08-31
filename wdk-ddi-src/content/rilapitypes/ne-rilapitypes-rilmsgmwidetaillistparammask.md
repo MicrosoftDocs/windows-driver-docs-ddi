@@ -8,9 +8,6 @@ ms.assetid: cc13eebd-810c-44b0-8909-4a4c3fc5b320
 ms.date: 05/02/2018
 keywords: ["RILMSGMWIDETAILLISTPARAMMASK enumeration"]
 ms.keywords: RILMSGMWIDETAILLISTPARAMMASK, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_REFNUM, netvista.rilmsgmwidetaillistparammask, ntddrilapitypes/RILMSGMWIDETAILLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWIDETAIL_ALL, ntddrilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_REFNUM
-f1_keywords:
- - "rilapitypes/RILMSGMWIDETAILLISTPARAMMASK"
- - "RILMSGMWIDETAILLISTPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMSGMWIDETAILLISTPARAMMASK
 targetos: Windows
 req.typenames: RILMSGMWIDETAILLISTPARAMMASK
+f1_keywords:
+ - RILMSGMWIDETAILLISTPARAMMASK
+ - rilapitypes/RILMSGMWIDETAILLISTPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMSGMWIDETAILLISTPARAMMASK
 ---
 
 # RILMSGMWIDETAILLISTPARAMMASK enumeration
@@ -46,26 +46,17 @@ req.typenames: RILMSGMWIDETAILLISTPARAMMASK
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_MWIDETAIL_EXECUTOR
-
 
 ### -field RIL_PARAM_MWIDETAIL_REFNUM
 
-
 ### -field RIL_PARAM_MWIDETAIL_NUMDETAILITEMS
 
-
 ### -field RIL_PARAM_MWIDETAIL_DETAILITEMS
-
 
 ### -field RIL_PARAM_MWIDETAIL_ALL
 

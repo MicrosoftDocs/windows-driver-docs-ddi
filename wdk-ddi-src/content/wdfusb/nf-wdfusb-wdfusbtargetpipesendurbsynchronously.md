@@ -8,9 +8,6 @@ ms.assetid: 2ce7a843-0053-4351-ba79-161d83e245ac
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeSendUrbSynchronously function"]
 ms.keywords: DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously method, kmdf.wdfusbtargetpipesendurbsynchronously, wdf.wdfusbtargetpipesendurbsynchronously, wdfusb/WdfUsbTargetPipeSendUrbSynchronously
-f1_keywords:
- - "wdfusb/WdfUsbTargetPipeSendUrbSynchronously"
- - "WdfUsbTargetPipeSendUrbSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfUsbTargetPipeSendUrbSynchronously
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetPipeSendUrbSynchronously
+ - wdfusb/WdfUsbTargetPipeSendUrbSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfUsbTargetPipeSendUrbSynchronously
 ---
 
 # WdfUsbTargetPipeSendUrbSynchronously function
@@ -47,42 +47,35 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfUsbTargetPipeSendUrbSynchronously</b> method builds an USB request for a specified USB pipe, using request parameters that a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> describes.
 
-
 ## -parameters
 
-
-
-
 ### -param Pipe 
-[in]
-A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
+[in]
+A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 ### -param Request 
+
 [in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ### -param RequestOptions 
+
 [in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ### -param Urb 
+
 [in]
 A pointer to a driver-initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure.
 
 If the driver previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> to create <i>UsbDevice</i>, the driver must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreateurb">WdfUsbTargetDeviceCreateUrb</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreateisochurb">WdfUsbTargetDeviceCreateIsochUrb</a> to create this URB.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetPipeSendUrbSynchronously</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -164,14 +157,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use the <b>WdfUsbTargetPipeSendUrbSynchronously</b> method to send a USB request synchronously. To send such requests asynchronously, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforurb">WdfUsbTargetPipeFormatRequestForUrb</a>, followed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>.
 
@@ -224,12 +210,7 @@ status = WdfUsbTargetPipeSendUrbSynchronously(
                                               );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a>
 
@@ -240,7 +221,4 @@ status = WdfUsbTargetPipeSendUrbSynchronously(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>
- 
-
- 
 

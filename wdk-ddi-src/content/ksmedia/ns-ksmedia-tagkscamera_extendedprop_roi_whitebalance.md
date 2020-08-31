@@ -8,9 +8,6 @@ ms.assetid: 16BDC61E-390C-4D79-A8D0-049404974733
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, stream.kscamera_extendedprop_roi_whitebalance, tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE"
-f1_keywords:
- - "ksmedia/KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE"
- - "KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, *PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
+f1_keywords:
+ - tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
+ - ksmedia/tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
+ - PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
+ - ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
+ - KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
+ - ksmedia/KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure
@@ -46,19 +50,13 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, *PKSCAMERA_EXTENDEDPROP_R
 
 ## -description
 
-
 This structure contains the ROI info structure for white balance.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ROIInfo
 
 See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_roi_info">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
-
 
 ### -field Reserved
 

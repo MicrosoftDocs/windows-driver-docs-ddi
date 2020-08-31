@@ -7,9 +7,6 @@ ms.assetid: 1bce3519-f333-4b47-b29b-bde1b5c3005c
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW callback function"]
 ms.keywords: DestroyUnorderedAccessView, DestroyUnorderedAccessView callback function [Display Devices], PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW, PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW callback, UserModeDisplayDriverDx11_Functions_65ca10d0-2325-40f6-befa-8ad6ea5f0efd.xml, d3d10umddi/DestroyUnorderedAccessView, display.destroyunorderedaccessview
-f1_keywords:
- - "d3d10umddi/DestroyUnorderedAccessView"
- - "DestroyUnorderedAccessView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- DestroyUnorderedAccessView
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
+ - d3d10umddi/PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - DestroyUnorderedAccessView
 ---
 
 # PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Destroys an unordered access view.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -65,8 +60,7 @@ A handle to the display device (graphics context).
 
 *hUnorderedAccessView* [in]
 
-A handle to the driver's private data for the unordered access view to destroy. The Microsoft Direct3D runtime frees the memory region that it previously allocated for the unordered access view. Therefore, the driver can no longer access this memory region. 
-
+A handle to the driver's private data for the unordered access view to destroy. The Microsoft Direct3D runtime frees the memory region that it previously allocated for the unordered access view. Therefore, the driver can no longer access this memory region.
 
 ## -remarks
 
@@ -84,14 +78,7 @@ The driver can work around this problem by following these steps:
 </div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_abandoncommandlist">AbandonCommandList</a>
 
@@ -110,7 +97,4 @@ The driver can work around this problem by following these steps:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

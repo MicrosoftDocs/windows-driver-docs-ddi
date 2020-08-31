@@ -6,38 +6,43 @@ tech.root: storage
 ms.assetid: 11c8f210-a836-4c73-a69a-160ff113894c
 ms.date: 09/10/2018
 keywords: ["PHYSICAL_ELEMENT_STATUS structure"]
-f1_keywords:
- - "ntddstor/_PHYSICAL_ELEMENT_STATUS"
- - "_PHYSICAL_ELEMENT_STATUS"
-ms.keywords: _PHYSICAL_ELEMENT_STATUS, PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS, 
+ms.keywords: _PHYSICAL_ELEMENT_STATUS, PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddstor.h
-api_name: 
-- _PHYSICAL_ELEMENT_STATUS
 targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - _PHYSICAL_ELEMENT_STATUS
+ - ntddstor/_PHYSICAL_ELEMENT_STATUS
+ - PPHYSICAL_ELEMENT_STATUS
+ - ntddstor/PPHYSICAL_ELEMENT_STATUS
+ - PHYSICAL_ELEMENT_STATUS
+ - ntddstor/PHYSICAL_ELEMENT_STATUS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - _PHYSICAL_ELEMENT_STATUS
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _PHYSICAL_ELEMENT_STATUS structure
+
 
 ## -description
 
@@ -48,30 +53,30 @@ The **PHYSICAL_ELEMENT_STATUS** structure defines the output buffer for [**IOCTL
 ### -field Version
 
 Specifies the version of this structure.
- 
+
 ### -field Size
 
 Specifies the size of this structure, in bytes.
- 
+
 ### -field DescriptorCount
 
 Specifies the number of descriptors in the element descriptors list given as input in [**PHYSICAL_ELEMENT_STATUS_REQUEST**](ns-ntddstor-_physical_element_status_request.md).
- 
+
 ### -field ReturnedDescriptorCount
 
 Specifies the number of valid descriptors returned.
- 
+
 ### -field ElementIdentifierBeingDepoped
 
 Specifies the element identifier of a de-popped descriptor.
- 
+
 ### -field Reserved
 
 Reserved for future use.
- 
+
 ### -field Descriptors
 
-The valid descriptors sorted in ascending order based on the element identifier. 
+The valid descriptors sorted in ascending order based on the element identifier.
 
 ## -remarks
 
@@ -82,3 +87,4 @@ The valid descriptors sorted in ascending order based on the element identifier.
 [**PHYSICAL_ELEMENT_STATUS_REQUEST**](ns-ntddstor-_physical_element_status_request.md)
 
 [**PHYSICAL_ELEMENT_STATUS_DESCRIPTOR**](ns-ntddstor-_physical_element_status_descriptor.md)
+

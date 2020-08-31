@@ -8,9 +8,6 @@ ms.assetid: 8cc223be-a692-4141-81f6-4cca9e2fccf1
 ms.date: 02/22/2018
 keywords: ["SCARD_CARD_CAPABILITIES structure"]
 ms.keywords: "*PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], SCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], _SCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, smartcrd.scard_card_capabilities, smclib/PSCARD_CARD_CAPABILITIES, smclib/SCARD_CARD_CAPABILITIES"
-f1_keywords:
- - "smclib/SCARD_CARD_CAPABILITIES"
- - "SCARD_CARD_CAPABILITIES"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- smclib.h
-api_name:
-- SCARD_CARD_CAPABILITIES
 targetos: Windows
 req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
+f1_keywords:
+ - _SCARD_CARD_CAPABILITIES
+ - smclib/_SCARD_CARD_CAPABILITIES
+ - PSCARD_CARD_CAPABILITIES
+ - smclib/PSCARD_CARD_CAPABILITIES
+ - SCARD_CARD_CAPABILITIES
+ - smclib/SCARD_CARD_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - smclib.h
+api_name:
+ - SCARD_CARD_CAPABILITIES
 ---
 
 # _SCARD_CARD_CAPABILITIES structure
@@ -46,48 +50,33 @@ req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
 
 ## -description
 
-
-The SCARD_CARD_CAPABILITIES structure declaration defines the data that is stored in the CardCapabilites member of the SMARTCARD_EXTENSION structure and holds all information that is specific to the particular smart card that is currently used. 
-
+The SCARD_CARD_CAPABILITIES structure declaration defines the data that is stored in the CardCapabilites member of the SMARTCARD_EXTENSION structure and holds all information that is specific to the particular smart card that is currently used.
 
 ## -struct-fields
 
-
-
-
 ### -field InversConvention
 
-Contains a flag to indicate that the current smart card uses the inverse convention. 
-
+Contains a flag to indicate that the current smart card uses the inverse convention.
 
 ### -field etu
 
-Contains the elementary time unit (ETU). The ETU indicates the space of transmission time occupied by a single bit of data.  
-
+Contains the elementary time unit (ETU). The ETU indicates the space of transmission time occupied by a single bit of data.
 
 ### -field ATR
 
-
       A structure with the following members:
-
 
 ### -field ATR.Buffer
 
-A pointer to the buffer that receives the answer-to-reset (ATR) information that the smart card provides to the smart card reader after a warm or cold reset. 
-
+A pointer to the buffer that receives the answer-to-reset (ATR) information that the smart card provides to the smart card reader after a warm or cold reset.
 
 ### -field ATR.Length
 
-Contains the length, in bytes, of the ATR. 
-
+Contains the length, in bytes, of the ATR.
 
 ### -field HistoricalChars
 
-
       A structure with the following members:
-      
-     
-
 
 ### -field HistoricalChars.Buffer
 
@@ -95,11 +84,9 @@ Contains the historical characters. Historical characters designate general info
 
 and countries.)
 
-
 ### -field HistoricalChars.Length
 
-Indicates the length, in bytes, of the historical character information. 
-
+Indicates the length, in bytes, of the historical character information.
 
 ### -field ClockRateConversion
 
@@ -107,138 +94,101 @@ Contains the clock conversion rate table. Using the clock rate conversion factor
 
 and countries.)
 
-
 ### -field BitRateAdjustment
 
 Contains the bit rate adjustment table. Using the bit rate adjustment factor, D1, as an index into this array yields the maximum bit rate that is allowed. t rate. For more information about the bit rate adjustment factor, see the <i>ISO 7816-3 specification</i>.  (This resource may not be available in some languages 
 
 and countries.)
 
-
 ### -field Fl
 
-Contains the clock rate conversion. This factor is used as an index into a table of maximum operating frequencies. When the smart card is reset, the smart card driver library uses this value to calculate a new clock frequency. 
-
+Contains the clock rate conversion. This factor is used as an index into a table of maximum operating frequencies. When the smart card is reset, the smart card driver library uses this value to calculate a new clock frequency.
 
 ### -field Dl
 
-Contains the bit rate adjustment. When the smart card is reset, the smart card driver library uses this value to calculate a new data bit rate. 
-
+Contains the bit rate adjustment. When the smart card is reset, the smart card driver library uses this value to calculate a new data bit rate.
 
 ### -field II
 
-Contains the maximum programming current. 
-
+Contains the maximum programming current.
 
 ### -field P
 
-Contains the programming voltage in units of 0.1 volts. 
-
+Contains the programming voltage in units of 0.1 volts.
 
 ### -field N
 
 Contains the extra guard time in units of the ETU. The ETU indicates the space of transmission time occupied by a single bit of data. The guard time is the minimum space of transmission time that separates two consecutive characters.
 
-
 ### -field GT
 
 Contains the guard time, in units of microseconds (including the extra guard time), which is the minimum delay between two consecutive characters.
 
-
 ### -field Protocol
 
-
       A structure with the following members:
-      
-     
-
 
 ### -field Protocol.Supported
 
-Contains a bitmask of the supported protocols. 
-
+Contains a bitmask of the supported protocols.
 
 ### -field Protocol.Selected
 
-Contains the protocol that is selected. 
-
+Contains the protocol that is selected.
 
 ### -field T0
 
-
       A structure with the following members:
-      
-     
-
 
 ### -field T0.WI
 
-Contains the work-waiting integer for the T=0 protocol. 
-
+Contains the work-waiting integer for the T=0 protocol.
 
 ### -field T0.WT
 
-Contains the work-waiting time, in microseconds, for the T=0 protocol, which is the maximum delay allowed between two consecutive characters. 
-
+Contains the work-waiting time, in microseconds, for the T=0 protocol, which is the maximum delay allowed between two consecutive characters.
 
 ### -field T1
 
-
       A structure with the following members:
-      
-     
-
 
 ### -field T1.IFSC
 
 Contains the size, in bytes, of the card's information field.
 
-
 ### -field T1.CWI
 
-Contains the character-waiting integer. 
-
+Contains the character-waiting integer.
 
 ### -field T1.BWI
 
-Contains the block-waiting integer. 
-
+Contains the block-waiting integer.
 
 ### -field T1.EDC
 
-Contains the error detection code. 
-
+Contains the error detection code.
 
 ### -field T1.CWT
 
-Contains the character-waiting time, in microseconds, for the T=1 protocol, which is the maximum delay that is allowed between two consecutive characters.s. 
-
+Contains the character-waiting time, in microseconds, for the T=1 protocol, which is the maximum delay that is allowed between two consecutive characters.s.
 
 ### -field T1.BWT
 
-Contains the block-waiting time, in microseconds, for the T=1 protocol. This is the maximum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
-
+Contains the block-waiting time, in microseconds, for the T=1 protocol. This is the maximum delay between the end of a block and the start of the next block that is sent in the opposite direction.
 
 ### -field T1.BGT
 
-Contains the block-guarding time, in microseconds, for the T=1 protocol. This is the minimum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
-
+Contains the block-guarding time, in microseconds, for the T=1 protocol. This is the minimum delay between the end of a block and the start of the next block that is sent in the opposite direction.
 
 ### -field PtsData
 
 Contains a PTS_DATA structure that holds all the information that is required to perform a protocol type selection (PTS) request for the inserted smart card.art card.
 
-
 ### -field Reserved
 
 Reserved.
 
-
 ## -remarks
 
-
-
-The SCARD_CARD_CAPABILITIES structure describes the capabilities of the inserted smart card. If the reader driver uses the smart card driver library, <b>ATR</b> is the only member that the reader driver should populate. The driver library will automatically update all other fields when it receives an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548909(v=vs.85)">IOCTL_SMARTCARD_SET_PROTOCOL</a> request. 
-
-
+The SCARD_CARD_CAPABILITIES structure describes the capabilities of the inserted smart card. If the reader driver uses the smart card driver library, <b>ATR</b> is the only member that the reader driver should populate. The driver library will automatically update all other fields when it receives an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548909(v=vs.85)">IOCTL_SMARTCARD_SET_PROTOCOL</a> request.
 

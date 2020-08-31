@@ -8,9 +8,6 @@ ms.assetid: 69cc1253-07eb-43cf-abc7-5ad02ecb014d
 ms.date: 04/16/2018
 keywords: ["PsImpersonateClient function"]
 ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient, ntifs/PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml
-f1_keywords:
- - "ntifs/PsImpersonateClient"
- - "PsImpersonateClient"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsImpersonateClient
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsImpersonateClient
+ - ntifs/PsImpersonateClient
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsImpersonateClient
 ---
 
 # PsImpersonateClient function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>PsImpersonateClient</b> routine causes a server thread to impersonate a client. 
-
+The <b>PsImpersonateClient</b> routine causes a server thread to impersonate a client.
 
 ## -parameters
 
-
-
-
 ### -param Thread 
-[in, out]
-Pointer to the server thread that is to impersonate the client. 
 
+[in, out]
+Pointer to the server thread that is to impersonate the client.
 
 ### -param Token 
-[in]
-Pointer to the token to be assigned as the impersonation token. This token can be a primary token or an impersonation token. Set to <b>NULL</b> to end the impersonation. 
 
+[in]
+Pointer to the token to be assigned as the impersonation token. This token can be a primary token or an impersonation token. Set to <b>NULL</b> to end the impersonation.
 
 ### -param CopyOnOpen 
-[in]
-Specifies whether the token can be opened directly. Set to <b>TRUE</b> to specify that the token cannot be opened directly. In this case, the token must be duplicated, and the duplicate token used instead. Set to <b>FALSE</b> to allow the token to be opened directly. 
 
+[in]
+Specifies whether the token can be opened directly. Set to <b>TRUE</b> to specify that the token cannot be opened directly. In this case, the token must be duplicated, and the duplicate token used instead. Set to <b>FALSE</b> to allow the token to be opened directly.
 
 ### -param EffectiveOnly 
+
 [in]
 Set to <b>FALSE</b> to allow the server to enable groups and privileges that are currently disabled in the client security context, <b>TRUE</b> otherwise.
 
-
 ### -param ImpersonationLevel 
-[in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level at which the server is to access the token. 
 
+[in]
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level at which the server is to access the token.
 
 ## -returns
-
-
 
 <b>PsImpersonateClient</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
 
@@ -114,14 +107,8 @@ There was insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>PsImpersonateClient</b> causes the specified server thread to impersonate the specified client. 
 
@@ -139,15 +126,9 @@ In cases where a higher privilege state is required, the task should be dispatch
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seimpersonateclientex">SeImpersonateClientEx</a> routine can be used to cause a thread to impersonate a user.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread">PsGetCurrentThread</a>
 
@@ -166,7 +147,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seimpersonateclientex">SeImpersonateClientEx</a>
- 
-
- 
 

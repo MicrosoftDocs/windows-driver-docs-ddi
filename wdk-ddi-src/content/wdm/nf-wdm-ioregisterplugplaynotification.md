@@ -8,9 +8,6 @@ ms.assetid: 06fd10ab-3478-4b01-b678-24944f17fa9d
 ms.date: 04/30/2018
 keywords: ["IoRegisterPlugPlayNotification function"]
 ms.keywords: IoRegisterPlugPlayNotification, IoRegisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_2210e60c-f9ca-4848-8aab-7b01d2d2ffd7.xml, kernel.ioregisterplugplaynotification, wdm/IoRegisterPlugPlayNotification
-f1_keywords:
- - "wdm/IoRegisterPlugPlayNotification"
- - "IoRegisterPlugPlayNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoRegisterPlugPlayNotification
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - IoRegisterPlugPlayNotification
+ - wdm/IoRegisterPlugPlayNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoRegisterPlugPlayNotification
 ---
 
 # IoRegisterPlugPlayNotification function
+
 
 ## -description
 
@@ -51,10 +52,12 @@ The **IoRegisterPlugPlayNotification** routine registers a Plug and Play (PnP) n
 ## -parameters
 
 ### -param EventCategory 
+
 [in]
 Specifies an enumeration value from [**IO_NOTIFICATION_EVENT_CATEGORY**](ne-wdm-io_notification_event_category.md) that indicates the category of PnP event for which the callback routine is being registered.
 
 ### -param EventCategoryFlags 
+
 [in]
 Flag bits that modify the registration operation. Possible values include:
 
@@ -63,6 +66,7 @@ Flag bits that modify the registration operation. Possible values include:
 Only valid with an *EventCategory* of **EventCategoryDeviceInterfaceChange**. If set, the PnP manager calls the driver callback routine for each device interface instance that is currently registered and active and registers the callback routine for future arrivals or removals of device interface instances.
 
 ### -param EventCategoryData 
+
 [in, optional]
 A pointer to further information about the events for which *CallbackRoutine* is being registered. The information varies for different *EventCategory* values:
 
@@ -71,12 +75,14 @@ A pointer to further information about the events for which *CallbackRoutine* is
 - When *EventCategory* is **EventCategoryTargetDeviceChange**, *EventCategoryData* must point to the file object for which PnP notification is requested.
 
 ### -param DriverObject 
+
 [in]
 A pointer to the caller's driver object.
 
 To ensure that the driver remains loaded while it is registered for PnP notification, this call increments the reference count on *DriverObject*. The PnP manager decrements the reference count when this registration is removed.
 
 ### -param CallbackRoutine 
+
 [in]
 A pointer to the PnP notification callback routine to be called when the specified PnP event occurs.
 
@@ -105,10 +111,12 @@ For information about including a function declaration for the callback routine 
 The PnP manager calls driver callback routines at IRQL = PASSIVE_LEVEL.
 
 ### -param Context 
+
 [in, optional]
 A pointer to a caller-allocated buffer containing context that the PnP manager passes to the callback routine.
 
 ### -param NotificationEntry 
+
 [out]
 A pointer to an opaque value returned by this call that identifies the registration. Pass this value to the [IoUnregisterPlugPlayNotificationEx](nf-wdm-iounregisterplugplaynotificationex.md) routine to remove the registration.
 
@@ -180,3 +188,4 @@ The **DRIVER_NOTIFICATION_CALLBACK_ROUTINE** function type is defined in the Wdm
 [TARGET_DEVICE_CUSTOM_NOTIFICATION](ns-wdm-_target_device_custom_notification.md)
 
 [TARGET_DEVICE_REMOVAL_NOTIFICATION](ns-wdm-_target_device_removal_notification.md)
+

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCancelCommand"
- - "DxgkDdiCancelCommand"
+ - DXGKDDI_CANCELCOMMAND
+ - d3dkmddi/DXGKDDI_CANCELCOMMAND
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CANCELCOMMAND callback function
+
 
 ## -description
 

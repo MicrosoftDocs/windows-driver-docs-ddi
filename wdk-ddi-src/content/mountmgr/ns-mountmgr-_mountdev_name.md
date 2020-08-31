@@ -8,9 +8,6 @@ ms.assetid: 26f5e98d-0709-403a-abcf-776c117d4f38
 ms.date: 03/29/2018
 keywords: ["MOUNTDEV_NAME structure"]
 ms.keywords: "*PMOUNTDEV_NAME, MOUNTDEV_NAME, MOUNTDEV_NAME structure [Storage Devices], PMOUNTDEV_NAME, PMOUNTDEV_NAME structure pointer [Storage Devices], _MOUNTDEV_NAME, mountmgr/MOUNTDEV_NAME, mountmgr/PMOUNTDEV_NAME, storage.mountdev_name, structs-mntmgr_b7eec4f5-e4fc-4931-82e5-c6ac5cd4b48f.xml"
-f1_keywords:
- - "mountmgr/MOUNTDEV_NAME"
- - "MOUNTDEV_NAME"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -28,24 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mountmgr.h
-api_name:
-- MOUNTDEV_NAME
 targetos: Windows
 req.typenames: MOUNTDEV_NAME, *PMOUNTDEV_NAME
+f1_keywords:
+ - _MOUNTDEV_NAME
+ - mountmgr/_MOUNTDEV_NAME
+ - PMOUNTDEV_NAME
+ - mountmgr/PMOUNTDEV_NAME
+ - MOUNTDEV_NAME
+ - mountmgr/MOUNTDEV_NAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mountmgr.h
+api_name:
+ - MOUNTDEV_NAME
 ---
 
 # _MOUNTDEV_NAME structure
 
+
 ## -description
 
-The MOUNTDEV_NAME structure holds the name of a device. 
+The MOUNTDEV_NAME structure holds the name of a device.
 
 ## -struct-fields
 
@@ -68,3 +73,4 @@ As a best practice, the implementer must not thread-synchronize and must not mak
 [IOCTL_MOUNTDEV_LINK_DELETED](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ni-mountdev-ioctl_mountdev_link_deleted)
 
 [IOCTL_MOUNTDEV_QUERY_DEVICE_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountdev_query_device_name)
+

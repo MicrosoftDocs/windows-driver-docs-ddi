@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnShaderCacheStoreValueCb"
- - "pfnShaderCacheStoreValueCb"
+ - PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021
+ - d3d12umddi/PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021 callback function
+
 
 ## -description
 

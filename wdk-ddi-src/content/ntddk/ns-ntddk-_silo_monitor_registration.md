@@ -8,9 +8,6 @@ ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.date: 04/30/2018
 keywords: ["SILO_MONITOR_REGISTRATION structure"]
 ms.keywords: "*PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], _SILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, ntddk/PSILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION"
-f1_keywords:
- - "ntddk/SILO_MONITOR_REGISTRATION"
- - "SILO_MONITOR_REGISTRATION"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- SILO_MONITOR_REGISTRATION
 targetos: Windows
 req.typenames: SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION
+f1_keywords:
+ - _SILO_MONITOR_REGISTRATION
+ - ntddk/_SILO_MONITOR_REGISTRATION
+ - PSILO_MONITOR_REGISTRATION
+ - ntddk/PSILO_MONITOR_REGISTRATION
+ - SILO_MONITOR_REGISTRATION
+ - ntddk/SILO_MONITOR_REGISTRATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - SILO_MONITOR_REGISTRATION
 ---
 
 # _SILO_MONITOR_REGISTRATION structure
@@ -46,49 +50,33 @@ req.typenames: SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION
 
 ## -description
 
-
 This structure specifies a server silo monitor that can receive notifications about server silo events.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Set to <b>SILO_MONITOR_REGISTRATION_VERSION</b>.
 
-
 ### -field MonitorHost
 
 If <b>true</b>, a create notification will be delivered for the host context.
-
 
 ### -field MonitorExistingSilos
 
 If <b>true</b>, create and terminate notifications will be delivered for any silos that currently exist at the time of registration; otherwise, only notifications for new silos will be delivered.
 
-
 ### -field Reserved
 
 Reserved for system use.
 
-
 ### -field DriverObjectName
 
- 
-
-
 ### -field ComponentName
-
- 
-
 
 ### -field CreateCallback
 
 A pointer to a callback that is invoked whenever a new server silo is created on the system.  This value may be <b>NULL</b>.  This gives drivers to opportunity to handle the event and set up per-silo data structures.
-
 
 ### -field TerminateCallback
 

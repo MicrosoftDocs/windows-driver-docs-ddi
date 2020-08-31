@@ -8,9 +8,6 @@ ms.assetid: efbe5526-274b-416b-8e5c-8b18fe754b43
 ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryUnicodeString function"]
 ms.keywords: DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, WdfRegistryQueryUnicodeString, WdfRegistryQueryUnicodeString method, kmdf.wdfregistryqueryunicodestring, wdf.wdfregistryqueryunicodestring, wdfregistry/WdfRegistryQueryUnicodeString
-f1_keywords:
- - "wdfregistry/WdfRegistryQueryUnicodeString"
- - "WdfRegistryQueryUnicodeString"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRegistryQueryUnicodeString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRegistryQueryUnicodeString
+ - wdfregistry/WdfRegistryQueryUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRegistryQueryUnicodeString
 ---
 
 # WdfRegistryQueryUnicodeString function
@@ -49,40 +49,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryQueryUnicodeString</b> method retrieves the string data that is currently assigned to a specified registry string value and copies the string to a specified <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param Key 
+
 [in]
 A handle to a registry-key object that represents an opened registry key.
 
-
 ### -param ValueName 
-[in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a name for the registry value. 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a name for the registry value.
 
 ### -param ValueByteLength 
+
 [out, optional]
 A pointer to a location that receives the number of bytes that are contained in the Unicode string that <i>Value</i> points to, including the terminating <b>NULL</b> byte. This pointer is optional and can be <b>NULL</b>
 
-
 ### -param Value 
+
 [in, out]
 A pointer to a UNICODE_STRING structure that receives the data string for the key that <i>Key</i> specifies. If this parameter is <b>NULL</b> and <i>ValueByteLength</i> is non-<b>NULL</b>, <b>WdfRegistryQueryUnicodeString</b> returns only the size of the string.
 
-
 ## -returns
-
-
 
 <b>WdfRegistryQueryUnicodeString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -187,14 +180,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
@@ -246,12 +232,7 @@ SerialReadSymName(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a>
 
@@ -282,7 +263,4 @@ SerialReadSymName(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryqueryvalue">WdfRegistryQueryValue</a>
- 
-
- 
 

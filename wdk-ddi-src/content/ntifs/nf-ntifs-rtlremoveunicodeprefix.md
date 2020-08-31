@@ -8,9 +8,6 @@ ms.assetid: b2f996b1-0c1a-4ad5-a4c4-5d84ca94c5a1
 ms.date: 04/16/2018
 keywords: ["RtlRemoveUnicodePrefix function"]
 ms.keywords: RtlRemoveUnicodePrefix, RtlRemoveUnicodePrefix routine [Installable File System Drivers], ifsk.rtlremoveunicodeprefix, ntifs/RtlRemoveUnicodePrefix, rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml
-f1_keywords:
- - "ntifs/RtlRemoveUnicodePrefix"
- - "RtlRemoveUnicodePrefix"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlRemoveUnicodePrefix
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlRemoveUnicodePrefix
+ - ntifs/RtlRemoveUnicodePrefix
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlRemoveUnicodePrefix
 ---
 
 # RtlRemoveUnicodePrefix function
@@ -46,51 +46,33 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlRemoveUnicodePrefix</b> routine removes an element from a prefix table. 
-
+The <b>RtlRemoveUnicodePrefix</b> routine removes an element from a prefix table.
 
 ## -parameters
 
-
-
-
 ### -param PrefixTable 
+
 [in]
 Pointer to the prefix table. The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
 
-
 ### -param PrefixTableEntry 
-[in]
-Pointer to the prefix table element to be deleted. 
 
+[in]
+Pointer to the prefix table element to be deleted.
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 File systems must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a> to initialize the prefix table before using any other <b>Rtl..UnicodePrefix</b> routines on it. The initialized prefix table structure should be considered opaque.
 
 Callers of the <b>Rtl..UnicodePrefix</b> routines are responsible for synchronizing access to the prefix table. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfindunicodeprefix">RtlFindUnicodePrefix</a>
 
@@ -105,7 +87,4 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlnextunicodeprefix">RtlNextUnicodePrefix</a>
- 
-
- 
 

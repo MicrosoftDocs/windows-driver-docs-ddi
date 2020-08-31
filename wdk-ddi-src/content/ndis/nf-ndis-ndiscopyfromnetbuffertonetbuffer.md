@@ -8,9 +8,6 @@ ms.assetid: b760e176-3ef7-4495-89c7-ec6b8bb3ed30
 ms.date: 05/02/2018
 keywords: ["NdisCopyFromNetBufferToNetBuffer function"]
 ms.keywords: NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, netvista.ndiscopyfromnetbuffertonetbuffer
-f1_keywords:
- - "ndis/NdisCopyFromNetBufferToNetBuffer"
- - "NdisCopyFromNetBufferToNetBuffer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCopyFromNetBufferToNetBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCopyFromNetBufferToNetBuffer
+ - ndis/NdisCopyFromNetBufferToNetBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCopyFromNetBufferToNetBuffer
 ---
 
 # NdisCopyFromNetBufferToNetBuffer function
@@ -47,57 +47,50 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisCopyFromNetBufferToNetBuffer</b> function to copy data from a source 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure to a destination NET_BUFFER
   structure.
 
-
 ## -parameters
 
-
-
-
 ### -param Destination 
+
 [in]
 A pointer to a previously allocated destination NET_BUFFER structure.
 
-
 ### -param DestinationOffset 
+
 [in]
 The byte offset within the destination NET_BUFFER structure at which to begin writing the copied
      data. For more information about 
      <i>DestinationOffset</i>, see the following Remarks section.
 
-
 ### -param BytesToCopy 
+
 [in]
 The number of bytes to copy.
 
-
 ### -param Source 
+
 [in]
 A pointer to a previously allocated source NET_BUFFER structure.
 
-
 ### -param SourceOffset 
+
 [in]
 The byte offset within the source NET_BUFFER structure at which to begin copying the data. For
      more information about 
      <i>SourceOffset</i>, see the following Remarks section.
 
-
 ### -param BytesCopied 
+
 [out]
 A pointer to the caller-supplied variable in which this function returns the number of bytes
      actually copied. This number can be less than the value of 
      <i>BytesToCopy</i> if the source runs out of data or the destination runs out of space.
 
-
 ## -returns
-
-
 
 <b>NdisCopyFromNetBufferToNetBuffer</b> returns one of the following status values:
 
@@ -129,14 +122,8 @@ The copy operation failed because of insufficient resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller of 
     <b>NdisCopyFromNetBufferToNetBuffer</b> allocates the destination 
@@ -173,16 +160,7 @@ NDIS uses the offsets in the
     <b>CurrentMdlOffset</b> in the source NET_BUFFER and the 
     <i>SourceOffset</i> value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
- 
-
- 
 

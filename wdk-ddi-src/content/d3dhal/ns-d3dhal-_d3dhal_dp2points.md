@@ -8,9 +8,6 @@ ms.assetid: 9987ed83-7aa1-4e07-a85b-26607000ecba
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2POINTS structure"]
 ms.keywords: "*LPD3DHAL_DP2POINTS, D3DHAL_DP2POINTS, D3DHAL_DP2POINTS structure [Display Devices], LPD3DHAL_DP2POINTS, LPD3DHAL_DP2POINTS structure pointer [Display Devices], _D3DHAL_DP2POINTS, d3dhal/D3DHAL_DP2POINTS, d3dhal/LPD3DHAL_DP2POINTS, d3dstrct_ab7299b5-74b9-43bb-8784-6c1249e23f2f.xml, display.d3dhal_dp2points"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2POINTS"
- - "D3DHAL_DP2POINTS"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2POINTS
 targetos: Windows
 req.typenames: D3DHAL_DP2POINTS, *LPD3DHAL_DP2POINTS
+f1_keywords:
+ - _D3DHAL_DP2POINTS
+ - d3dhal/_D3DHAL_DP2POINTS
+ - LPD3DHAL_DP2POINTS
+ - d3dhal/LPD3DHAL_DP2POINTS
+ - D3DHAL_DP2POINTS
+ - d3dhal/D3DHAL_DP2POINTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2POINTS
 ---
 
 # _D3DHAL_DP2POINTS structure
@@ -46,29 +50,19 @@ req.typenames: D3DHAL_DP2POINTS, *LPD3DHAL_DP2POINTS
 
 ## -description
 
-
 One or more D3DHAL_DP2POINTS structures are parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_POINTS, and are used to render the specified points.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wCount
 
 Specifies the number of points to render.
 
-
 ### -field wVStart
 
 Specifies the index into the vertex buffer containing coordinate data for the initial point.
 
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process <b>wPrimitiveCount</b> D3DHAL_DP2POINTS structures from the command buffer. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
@@ -78,12 +72,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <img alt="Figure showing a command buffer with a D3DDP2OP_POINTS command and two D3DHAL_DP2POINTS structures" src="images/dp2pnts.png"/>
 
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_POINTS
 
@@ -94,7 +83,4 @@ D3DDP2OP_POINTS
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

@@ -5,38 +5,38 @@ description: The GetOriginalObject method returns the instance object from which
 ms.assetid: ed57ca76-772c-48ee-b7d3-ab1107569859
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::GetOriginalObject"]
-f1_keywords:
- - "dbgmodel/IModelKeyReference2.GetOriginalObject"
- - "IModelKeyReference2.GetOriginalObject"
 ms.keywords: IModelKeyReference2::GetOriginalObject, GetOriginalObject, IModelKeyReference2.GetOriginalObject, IModelKeyReference2::GetOriginalObject, IModelKeyReference2.GetOriginalObject
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelKeyReference2.GetOriginalObject
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelKeyReference2::GetOriginalObject
+ - dbgmodel/IModelKeyReference2::GetOriginalObject
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelKeyReference2.GetOriginalObject
 ---
 
 # IModelKeyReference2::GetOriginalObject
@@ -44,15 +44,16 @@ ms.custom: RS5
 
 ## -description
 
-The GetOriginalObject method returns the instance object from which the key reference was created. Note that the key may itself be on a parent model of the instance object. 
+The GetOriginalObject method returns the instance object from which the key reference was created. Note that the key may itself be on a parent model of the instance object.
 
 ## -parameters
 
 ### -param originalObject
+
 The instance object from which the key reference was created will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -78,3 +79,4 @@ if (SUCCEEDED(spObject->GetKeyReference(L"Id", &spKeyRef, nullptr)))
 ## -see-also
 
 [IModelKeyReference2 interface](nn-dbgmodel-imodelkeyreference2.md)
+

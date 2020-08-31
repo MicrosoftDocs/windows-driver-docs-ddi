@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_DXVAHDDDI_ITELECINE_CAPS"
- - "_DXVAHDDDI_ITELECINE_CAPS"
+ - _DXVAHDDDI_ITELECINE_CAPS
+ - d3dumddi/_DXVAHDDDI_ITELECINE_CAPS
+ - DXVAHDDDI_ITELECINE_CAPS
+ - d3dumddi/DXVAHDDDI_ITELECINE_CAPS
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _DXVAHDDDI_ITELECINE_CAPS enumeration
+
 
 ## -description
 

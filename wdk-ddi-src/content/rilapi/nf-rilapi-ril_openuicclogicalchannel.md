@@ -8,9 +8,6 @@ ms.assetid: 8e77d55d-62f5-450c-9d9a-41acfece84c0
 ms.date: 05/02/2018
 keywords: ["RIL_OpenUiccLogicalChannel function"]
 ms.keywords: RIL_OpenUiccLogicalChannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, rilapi/RIL_OpenUiccLogicalChannel
-f1_keywords:
- - "rilapi/RIL_OpenUiccLogicalChannel"
- - "RIL_OpenUiccLogicalChannel"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_OpenUiccLogicalChannel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_OpenUiccLogicalChannel
+ - rilapi/RIL_OpenUiccLogicalChannel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_OpenUiccLogicalChannel
 ---
 
 # RIL_OpenUiccLogicalChannel function
@@ -46,43 +46,25 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwSlotIndex
-
 
 ### -param dwChannelGroup
 
-
 ### -param dwAppIdLength
-
 
 ### -param pbAppId
 
-
 ### -param dwSelectP2Arg
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
 

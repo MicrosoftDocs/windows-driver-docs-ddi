@@ -8,9 +8,6 @@ ms.assetid: 21a2f593-716a-434a-922c-23544ddb0122
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtTailAdvanceFailure function"]
 ms.keywords: ClfsMgmtTailAdvanceFailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture], Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, kernel.clfsmgmttailadvancefailure, wdm/ClfsMgmtTailAdvanceFailure
-f1_keywords:
- - "wdm/ClfsMgmtTailAdvanceFailure"
- - "ClfsMgmtTailAdvanceFailure"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsMgmtTailAdvanceFailure
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsMgmtTailAdvanceFailure
+ - wdm/ClfsMgmtTailAdvanceFailure
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsMgmtTailAdvanceFailure
 ---
 
 # ClfsMgmtTailAdvanceFailure function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsMgmtTailAdvanceFailure</b> routine notifies CLFS management that the client could not advance the log's tail.
-
 
 ## -parameters
 
-
-
-
 ### -param Client 
+
 [in]
 A pointer to the client. This is the value that was obtained through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
 
-
 ### -param Reason 
-[in]
-A value that indicates why the log's tail could not be advanced. 
 
+[in]
+A value that indicates why the log's tail could not be advanced.
 
 ## -returns
-
-
 
 The <b>ClfsMgmtTailAdvanceFailure</b> routine returns one of the following NTSTATUS values:
 
@@ -111,29 +104,14 @@ The value that  was supplied for the <i>Client</i> parameter does not represent 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a client cannot advance its log's tail to or beyond the requested LSN, then the client must call the <b>ClfsMgmtTailAdvanceFailure</b> routine to indicate that it is not able to advance its tail. Until the client either moves its tail as requested or calls the <b>ClfsMgmtTailAdvanceFailure</b> routine, the client will not receive any further requests to move its tail.
 
 The value of the <i>Reason</i> parameter is passed back to the client as the value of the <i>OperationStatus</i> parameter when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_lff_handler_complete_callback">ClfsLogGrowthCompleteCallback</a> function is invoked.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a>
- 
-
- 
 

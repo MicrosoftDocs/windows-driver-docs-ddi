@@ -8,9 +8,6 @@ ms.assetid: 4d0a1f81-efc0-40aa-9dde-b9cac64afb8b
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure"]
 ms.keywords: IDARG_IN_GETDEFAULTDESCRIPTIONMODES, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_in_getdefaultdescriptionmodes, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES
-f1_keywords:
- - "iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES"
- - "IDARG_IN_GETDEFAULTDESCRIPTIONMODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_GETDEFAULTDESCRIPTIONMODES
+ - iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 ---
 
 # IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure
@@ -46,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
              Gives information about the default monitor modes passed into the driver.
-         
-
 
 ## -struct-fields
-
-
-
 
 ### -field DefaultMonitorModeBufferInputCount
 
 [in] The number of monitor modes the <b>pDefaultsMonitorModes</b> buffer being passed into the driver can hold. A value of zero indicates that the driver should not copy the monitor mode list into the provided buffer, but should set the output buffer size to the size required.
-                 
-
 
 ### -field pDefaultMonitorModes
 

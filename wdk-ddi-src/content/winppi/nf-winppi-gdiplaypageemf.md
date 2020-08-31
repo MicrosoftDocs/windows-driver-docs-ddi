@@ -8,9 +8,6 @@ ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 ms.date: 04/20/2018
 keywords: ["GdiPlayPageEMF function"]
 ms.keywords: GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices], gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, print.gdiplaypageemf, winppi/GdiPlayPageEMF
-f1_keywords:
- - "winppi/GdiPlayPageEMF"
- - "GdiPlayPageEMF"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GdiPlayPageEMF
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GdiPlayPageEMF
+ - winppi/GdiPlayPageEMF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GdiPlayPageEMF
 ---
 
 # GdiPlayPageEMF function
@@ -48,52 +48,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>GdiPlayPageEMF</b> function plays the EMF records within a specified rectangle for one document page of a spooled print job.
 
-
 ## -parameters
-
-
-
 
 ### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetspoolfilehandle">GdiGetSpoolFileHandle</a>.
 
-
 ### -param hemf
 
 Caller-supplied page handle, obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetpagehandle">GdiGetPageHandle</a>, identifying the page for which records are to be played.
-
 
 ### -param prectDocument
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure specifying the rectangle into which the page is to be drawn.
 
-
 ### -param prectBorder
 
 Caller-supplied pointer to a RECT structure specifying the page's border rectangle (if any). Can be <b>NULL</b>.
-
 
 ### -param prectClip
 
 Caller-supplied pointer to a RECT structure specifying the coordinates of the page's clip region (if any). Can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the function returns <b>FALSE</b>, and an error code can be obtained by calling <b>GetLastError</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GdiPlayPageEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
 
@@ -105,16 +88,7 @@ The <i>prectBorder</i> parameter, if it is non-<b>NULL</b>, describes a solid-li
 
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf">GdiEndPageEMF</a>
- 
-
- 
 

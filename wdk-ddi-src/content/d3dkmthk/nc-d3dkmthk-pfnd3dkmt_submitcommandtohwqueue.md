@@ -5,45 +5,56 @@ description: Implemented by the client driver to submit a command to queue hardw
 ms.assetid: 4d21d4b5-4b23-44d0-be9c-25d2abbcf628
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SUBMITCOMMANDTOHWQUEUE callback function"]
-f1_keywords:
- - "d3dkmthk/PFND3DKMT_SUBMITCOMMANDTOHWQUEUE"
- - "PFND3DKMT_SUBMITCOMMANDTOHWQUEUE"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
+ - d3dkmthk/PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
+product:
+ - Windows
 ---
 
 # PFND3DKMT_SUBMITCOMMANDTOHWQUEUE callback function
 
+
 ## -description
 
 Implemented by the client driver to submit a command to queue hardware flags.
+
+## -parameters
+
+### -param D3DKMT_SUBMITCOMMANDTOHWQUEUE *
+
+Pointer to a [D3DKMT_SUBMITCOMMANDTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitcommandtohwqueue.md) structure that contains information to submit a command to queue hardware flags.
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
 
 ## -prototype
 
@@ -64,16 +75,6 @@ PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
 
 
 ```
-
-## -parameters
-
-### -param D3DKMT_SUBMITCOMMANDTOHWQUEUE *
-
-Pointer to a [D3DKMT_SUBMITCOMMANDTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitcommandtohwqueue.md) structure that contains information to submit a command to queue hardware flags.
-
-## -returns
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
 
 ## -remarks
 

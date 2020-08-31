@@ -8,37 +8,41 @@ ms.assetid: f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b
 ms.date: 02/16/2018
 keywords: ["NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7b3396ce-7830-4b08-8df4-e0d8f49c7144.xml, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, netvista.ndis_miniport_adapter_native_802_11_attributes"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES"
- - "NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES"
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 targetos: Windows
 req.typenames: NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+f1_keywords:
+ - _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+ - ndis/_NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+ - ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+ - NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+ - ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 ---
 
 # _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure
@@ -46,39 +50,10 @@ req.typenames: NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_A
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure defines the physical and operating
   attributes of the Native 802.11 miniport driver and 802.11 station.
 
-
-## -syntax
-
-
-```cpp
-typedef struct {
-  NDIS_OBJECT_HEADER       Header;
-  ULONG                    OpModeCapability;
-  ULONG                    NumOfTXBuffers;
-  ULONG                    NumOfRXBuffers;
-  BOOLEAN                  MultiDomainCapabilityImplemented;
-  ULONG                    NumSupportedPhys;
-  PDOT11_PHY_ATTRIBUTES    SupportedPhyAttributes;
-  PDOT11_EXTSTA_ATTRIBUTES ExtSTAAttributes;
-#if (NDIS_SUPPORT_NDIS620)
-  PDOT11_VWIFI_ATTRIBUTES  VWiFiAttributes;
-  PDOT11_EXTAP_ATTRIBUTES  ExtAPAttributes;
-#endif
-#if (NDIS_SUPPORT_NDIS630)
-  PDOT11_WFD_ATTRIBUTES    WFDAttributes;
-#endif
-} NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -121,7 +96,6 @@ For later versions of the Windows operating systems, this member must be set to
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field OpModeCapability
 
 A bitmask of the miniport driver's supported operation modes. This bitmask is defined through the
@@ -156,7 +130,6 @@ For more information about operation modes, see
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
      Modes</a>.
 
-
 ### -field NumOfTXBuffers
 
 The maximum number of media access control (MAC) service data unit (MSDU) packets that the 802.11
@@ -167,12 +140,10 @@ The maximum number of media access control (MAC) service data unit (MSDU) packet
 The value of this member must not include the number of transmit buffers that the 802.11 station uses
      to send packets on its own, such as Beacon packets or 802.11 control packets.
 
-
 ### -field NumOfRXBuffers
 
 The maximum number of MSDU packets that the 802.11 station can buffer in its receive queue. The
      miniport driver must support a minimum receive queue depth of 64.
-
 
 ### -field MultiDomainCapabilityImplemented
 
@@ -180,11 +151,9 @@ A Boolean value that, if <b>TRUE</b>, specifies that the 802.11 station can oper
      regulatory domains. For more information about 802.11 regulatory domains, refer to the IEEE 802.11d-2001
      standard.
 
-
 ### -field NumSupportedPhys
 
 The number of PHYs on the 802.11 station.
-
 
 ### -field SupportedPhyAttributes
 
@@ -196,7 +165,6 @@ A pointer to an array of
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
-
 ### -field ExtSTAAttributes
 
 A pointer to a
@@ -205,7 +173,6 @@ A pointer to a
      Station (ExtSTA) mode. For more information about this operation mode, see
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
      Mode</a>.
-
 
 ### -field VWiFiAttributes
 
@@ -216,7 +183,6 @@ A pointer to a
 
 This member is available beginning with Windows 7.
 
-
 ### -field ExtAPAttributes
 
 A pointer to a
@@ -226,7 +192,6 @@ A pointer to a
 
 This member is available beginning with Windows 7.
 
-
 ### -field WFDAttributes
 
 A pointer to a
@@ -235,10 +200,29 @@ A pointer to a
 
 This member is available beginning with Windows 8.
 
+## -syntax
+
+```cpp
+typedef struct {
+  NDIS_OBJECT_HEADER       Header;
+  ULONG                    OpModeCapability;
+  ULONG                    NumOfTXBuffers;
+  ULONG                    NumOfRXBuffers;
+  BOOLEAN                  MultiDomainCapabilityImplemented;
+  ULONG                    NumSupportedPhys;
+  PDOT11_PHY_ATTRIBUTES    SupportedPhyAttributes;
+  PDOT11_EXTSTA_ATTRIBUTES ExtSTAAttributes;
+#if (NDIS_SUPPORT_NDIS620)
+  PDOT11_VWIFI_ATTRIBUTES  VWiFiAttributes;
+  PDOT11_EXTAP_ATTRIBUTES  ExtAPAttributes;
+#endif
+#if (NDIS_SUPPORT_NDIS630)
+  PDOT11_WFD_ATTRIBUTES    WFDAttributes;
+#endif
+} NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES;
+```
 
 ## -remarks
-
-
 
 When its
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function is
@@ -276,9 +260,6 @@ The
 For more information about the initialization requirements for a Native 802.11 miniport driver, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
     Driver Initialization</a>.
-
-
-
 
 ## -see-also
 
@@ -329,11 +310,4 @@ For more information about the initialization requirements for a Native 802.11 m
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
 

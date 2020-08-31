@@ -20,8 +20,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/D3D12DDI_STENCIL_OP"
- - "D3D12DDI_STENCIL_OP"
+ - D3D12DDI_STENCIL_OP
+ - d3d12umddi/D3D12DDI_STENCIL_OP
 topic_type:
  - apiref
 api_type:
@@ -37,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_STENCIL_OP enumeration
+
 
 ## -description
 

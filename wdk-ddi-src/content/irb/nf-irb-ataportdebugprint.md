@@ -8,9 +8,6 @@ ms.assetid: 2a93d30f-4aa0-46b9-b9c7-cc15c62f3053
 ms.date: 03/29/2018
 keywords: ["AtaPortDebugPrint function"]
 ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint
-f1_keywords:
- - "irb/AtaPortDebugPrint"
- - "AtaPortDebugPrint"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ataport.lib
-- ataport.dll
-- pciidex.lib
-- pciidex.dll
-api_name:
-- AtaPortDebugPrint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortDebugPrint
+ - irb/AtaPortDebugPrint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ataport.lib
+ - ataport.dll
+ - pciidex.lib
+ - pciidex.dll
+api_name:
+ - AtaPortDebugPrint
 ---
 
 # AtaPortDebugPrint function
@@ -49,37 +49,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortDebugPrint</b> routine passes a message string to the kernel debugger for the debugger to print. 
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param DebugPrintLevel
 
-Determines how much debug information to display. 
-
+Determines how much debug information to display.
 
 ### -param DebugMessage
 
 A pointer to the debug message to display.
 
-
 ### -param param
 
 TBD
 
-
-
-
 ## -remarks
 
-
-
-The verbosity of debug output is determined by <i>DebugPrintLevel</i> and a port driver-specific mask. Use the <b>nt!kd_idep_mask</b> command to set the desired level of verbosity. For more information about the kernel debugger, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/using-a-debugger">Using a Debugger</a> topic 
-
-
+The verbosity of debug output is determined by <i>DebugPrintLevel</i> and a port driver-specific mask. Use the <b>nt!kd_idep_mask</b> command to set the desired level of verbosity. For more information about the kernel debugger, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/using-a-debugger">Using a Debugger</a> topic
 

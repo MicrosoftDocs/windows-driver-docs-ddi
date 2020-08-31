@@ -8,9 +8,6 @@ ms.assetid: c31e4a4e-7bc7-43a2-8f86-e79012064fa2
 ms.date: 05/10/2018
 keywords: ["D3DDDI_UNLOCKASYNCFLAGS structure"]
 ms.keywords: D3DDDI_UNLOCKASYNCFLAGS, D3DDDI_UNLOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_d42c29f4-23e8-4b5c-8710-2e4153c857bf.xml, _D3DDDI_UNLOCKASYNCFLAGS, d3dumddi/D3DDDI_UNLOCKASYNCFLAGS, display.d3dddi_unlockasyncflags
-f1_keywords:
- - "d3dumddi/D3DDDI_UNLOCKASYNCFLAGS"
- - "D3DDDI_UNLOCKASYNCFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDI_UNLOCKASYNCFLAGS
 targetos: Windows
 req.typenames: D3DDDI_UNLOCKASYNCFLAGS
+f1_keywords:
+ - _D3DDDI_UNLOCKASYNCFLAGS
+ - d3dumddi/_D3DDDI_UNLOCKASYNCFLAGS
+ - D3DDDI_UNLOCKASYNCFLAGS
+ - d3dumddi/D3DDDI_UNLOCKASYNCFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDI_UNLOCKASYNCFLAGS
 ---
 
 # _D3DDDI_UNLOCKASYNCFLAGS structure
@@ -46,14 +48,9 @@ req.typenames: D3DDDI_UNLOCKASYNCFLAGS
 
 ## -description
 
-
 The D3DDDI_UNLOCKASYNCFLAGS structure identifies how to unlock a resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NotifyOnly
 
@@ -61,24 +58,15 @@ A UINT value that specifies whether the unlock call is for notification only. Th
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 
 A member in the union that is contained in D3DDDI_UNLOCKASYNCFLAGS that can hold one 32-bit value that identifies how to unlock a resource.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_unlock">D3DDDIARG_UNLOCK</a>
- 
-
- 
 

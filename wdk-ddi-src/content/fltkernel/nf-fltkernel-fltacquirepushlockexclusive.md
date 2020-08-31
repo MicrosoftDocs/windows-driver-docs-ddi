@@ -8,9 +8,6 @@ ms.assetid: 98c916c4-49b0-47f5-acb1-ab1586d7a897
 ms.date: 04/16/2018
 keywords: ["FltAcquirePushLockExclusive macro"]
 ms.keywords: FltAcquirePushLockExclusive, FltAcquirePushLockExclusive routine [Installable File System Drivers], FltApiRef_a_to_d_0f7b3360-aea2-42a8-bcc0-299d1915e4e0.xml, fltkernel/FltAcquirePushLockExclusive, ifsk.fltacquirepushlockexclusive
-f1_keywords:
- - "fltkernel/FltAcquirePushLockExclusive"
- - "FltAcquirePushLockExclusive"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltAcquirePushLockExclusive
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltAcquirePushLockExclusive
+ - fltkernel/FltAcquirePushLockExclusive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltAcquirePushLockExclusive
 ---
 
 # FltAcquirePushLockExclusive macro
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltAcquirePushLockExclusive</b> routine acquires the given push lock for exclusive access by the calling thread.
-
 
 ## -parameters
 
-
-
-
 ### -param PushLock 
-[in, out]
-Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
 
+[in, out]
+Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>.
 
 ## -remarks
-
-
 
 This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 2003 SP1, and later. 
 
@@ -93,15 +86,9 @@ To acquire a push lock for shared access, call <a href="https://docs.microsoft.c
 
 To initialize a push lock, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
 
-To delete a push lock, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>. 
-
-
-
+To delete a push lock, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>
 
@@ -124,7 +111,4 @@ To delete a push lock, call <a href="https://docs.microsoft.com/windows-hardware
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: a9eecbc4-c461-4c13-99e0-3132bd0f6b9c
 ms.date: 02/15/2018
 keywords: ["IPortableDevicePropVariantCollection::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetCount method, IPortableDevicePropVariantCollection.GetCount, IPortableDevicePropVariantCollection::GetCount, IPortableDevicePropVariantCollectionGetCount, portabledevicetypes/IPortableDevicePropVariantCollection::GetCount, wpddk.iportabledevicepropvariantcollection_getcount
-f1_keywords:
- - "portabledevicetypes/IPortableDevicePropVariantCollection.GetCount"
- - "IPortableDevicePropVariantCollection.GetCount"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDevicePropVariantCollection.GetCount
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDevicePropVariantCollection::GetCount
+ - portabledevicetypes/IPortableDevicePropVariantCollection::GetCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDevicePropVariantCollection.GetCount
 ---
 
 # IPortableDevicePropVariantCollection::GetCount
@@ -47,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves the number of items in this collection.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pcElems 
+
 [in]
 Pointer to a <b>DWORD</b> that contains the number of items in the collection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,27 +88,12 @@ A required pointer argument was <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
- 
-
- 
 

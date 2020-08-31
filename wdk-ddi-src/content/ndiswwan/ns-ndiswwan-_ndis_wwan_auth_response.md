@@ -8,9 +8,6 @@ ms.assetid: 9F991E80-5155-45CE-9547-7354EE7EC4DB
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_AUTH_RESPONSE structure"]
 ms.keywords: "*PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, netvista.ndis_wwan_auth_response"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_AUTH_RESPONSE"
- - "NDIS_WWAN_AUTH_RESPONSE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_AUTH_RESPONSE
 targetos: Windows
 req.typenames: NDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE
+f1_keywords:
+ - _NDIS_WWAN_AUTH_RESPONSE
+ - ndiswwan/_NDIS_WWAN_AUTH_RESPONSE
+ - PNDIS_WWAN_AUTH_RESPONSE
+ - ndiswwan/PNDIS_WWAN_AUTH_RESPONSE
+ - NDIS_WWAN_AUTH_RESPONSE
+ - ndiswwan/NDIS_WWAN_AUTH_RESPONSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_AUTH_RESPONSE
 ---
 
 # _NDIS_WWAN_AUTH_RESPONSE structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE
 
 ## -description
 
-
 The NDIS_WWAN_AUTH_RESPONSE structure represents a response from one of the authentication methods.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +104,6 @@ sizeof(NDIS_WWAN_AUTH_RESPONSE)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uStatus
 
 The status of the response received for authentication challenge operation. The miniport driver returns one of the following WWAN_STATUS values as appropriate.
@@ -146,34 +144,20 @@ WWAN_STATUS_AUTH_AMF_NOT_SET
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthResponse
 
 A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a> object that represents the challenge posed by one of the authentication methods. This member (within WWAN_AUTH_RESPONSE) should be set even when <b>uStatus</b> is other than WWAN_STATUS_SUCCESS.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-auth-response">NDIS_STATUS_WWAN_AUTH_RESPONSE</a> NDIS status notification uses this structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-auth-response">NDIS_STATUS_WWAN_AUTH_RESPONSE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
- 
-
- 
 

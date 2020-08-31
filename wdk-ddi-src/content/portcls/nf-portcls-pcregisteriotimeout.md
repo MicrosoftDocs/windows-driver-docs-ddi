@@ -8,9 +8,6 @@ ms.assetid: 9cd7c366-1745-45b0-b9e9-87a259110621
 ms.date: 05/08/2018
 keywords: ["PcRegisterIoTimeout function"]
 ms.keywords: PcRegisterIoTimeout, PcRegisterIoTimeout function [Audio Devices], audio.pcregisteriotimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, portcls/PcRegisterIoTimeout
-f1_keywords:
- - "portcls/PcRegisterIoTimeout"
- - "PcRegisterIoTimeout"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcRegisterIoTimeout
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcRegisterIoTimeout
+ - portcls/PcRegisterIoTimeout
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcRegisterIoTimeout
 ---
 
 # PcRegisterIoTimeout function
 
 
 ## -description
-
 
 The <b>PcRegisterIoTimeout</b> function registers a driver-supplied I/O-timer callback routine for a specified device object.
 
@@ -55,27 +54,22 @@ Once registered, the port-class driver calls the timer callback approximately on
 
 ## -parameters
 
-
-
-
 ### -param pDeviceObject 
+
 [in]
 Pointer to a device object representing a device on which I/O operations can time out. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>. When calling the I/O-timer callback routine, the port class driver passes this pointer as the first of two call parameters. For more information, see the following Remarks section.
 
-
 ### -param pTimerRoutine 
+
 [in]
 Pointer to the driver-supplied I/O-timer callback routine. For more information, see the following Remarks section.
 
-
 ### -param pContext 
+
 [in]
 Pointer to the driver-specific context. When calling the I/O-timer callback routine, the port class driver passes this pointer as the second of two call parameters. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 <b>PcRegisterIoTimeout</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code. The following table shows some of the possible error codes.
 
@@ -107,14 +101,8 @@ Possibly indicates that a timer callback with the same combination of device obj
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An adapter driver calls the <b>PcRegisterIoTimeout</b> function to enable a low-resolution watchdog timer. Drivers use this function primarily to monitor devices that have no means to generate an event themselves if they fail to complete a previously initiated I/O operation within some maximum time interval.
 
@@ -144,20 +132,11 @@ The <i>pTimerRoutine </i>parameter is of type PIO_TIMER_ROUTINE, which is define
 </table></span></div>
 The <i>DeviceObject</i> and <i>Context</i> parameters are the same values that the adapter driver previously passed as call parameters to <b>PcRegisterIoTimeout</b>. The port-class driver calls the timer routine at IRQL DISPATCH_LEVEL. The timer routine must not contain pageable code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcunregisteriotimeout">PcUnregisterIoTimeout</a>
- 
-
- 
 

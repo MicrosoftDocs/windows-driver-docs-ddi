@@ -8,9 +8,6 @@ ms.assetid: bde75364-387b-4f57-8942-1cf32652c02d
 ms.date: 04/27/2018
 keywords: ["SDP_TREE_ROOT_NODE structure"]
 ms.keywords: "*PSDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE structure pointer [Bluetooth Devices], SDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE structure [Bluetooth Devices], _SDP_TREE_ROOT_NODE, bltooth.sdp_tree_root_node, bth_structs_b2bdb873-03b0-4c3a-910c-06277f6be663.xml, sdpnode/PSDP_TREE_ROOT_NODE, sdpnode/SDP_TREE_ROOT_NODE"
-f1_keywords:
- - "sdpnode/SDP_TREE_ROOT_NODE"
- - "SDP_TREE_ROOT_NODE"
 req.header: sdpnode.h
 req.include-header: Sdpnode.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sdpnode.h
-api_name:
-- SDP_TREE_ROOT_NODE
 targetos: Windows
 req.typenames: SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE
+f1_keywords:
+ - _SDP_TREE_ROOT_NODE
+ - sdpnode/_SDP_TREE_ROOT_NODE
+ - PSDP_TREE_ROOT_NODE
+ - sdpnode/PSDP_TREE_ROOT_NODE
+ - SDP_TREE_ROOT_NODE
+ - sdpnode/SDP_TREE_ROOT_NODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sdpnode.h
+api_name:
+ - SDP_TREE_ROOT_NODE
 ---
 
 # _SDP_TREE_ROOT_NODE structure
@@ -46,15 +50,10 @@ req.typenames: SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE
 
 ## -description
 
-
 The SDP_TREE_ROOT_NODE structure is the root element of a tree-based representation of an SDP
   record.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RootNode
 
@@ -62,10 +61,7 @@ An
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure that represents the root node of
      a tree-based representation of an SDP record.
 
-
 ## -remarks
-
-
 
 Several SDP functions access or output this structure when they build a tree-based SDP record or
     convert a raw SDP record stream into a tree-based record.
@@ -96,13 +92,7 @@ The
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpfindattributeintree">SdpFindAttributeInTree</a> function
     searches a populated SDP_TREE_ROOT_NODE structure for an SDP attribute value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
 
@@ -125,7 +115,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpfindattributeintree">SdpFindAttributeInTree</a>
- 
-
- 
 

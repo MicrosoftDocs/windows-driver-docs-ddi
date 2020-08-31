@@ -5,38 +5,38 @@ description: The GetTypedefBaseType method will return what the immediate defini
 ms.assetid: e0a0a7fb-6049-4e08-9e8b-c10629e4a5e9
 ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetTypedefBaseType"]
-f1_keywords:
- - "dbgmodel/IDebugHostType2.GetTypedefBaseType"
- - "IDebugHostType2.GetTypedefBaseType"
 ms.keywords: IDebugHostType2::GetTypedefBaseType, GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType, IDebugHostType2::GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostType2.GetTypedefBaseType
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostType2::GetTypedefBaseType
+ - dbgmodel/IDebugHostType2::GetTypedefBaseType
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostType2.GetTypedefBaseType
 ---
 
 # IDebugHostType2::GetTypedefBaseType
@@ -51,16 +51,16 @@ typedef MYSTRUCT *PMYSTRUCT;
 typedef PMYSTRUCT PTRMYSTRUCT;
 ```
 
-this method will return MYSTRUCT * for PMYSTRUCT and PMYSTRUCT for PTRMYSTRUCT. For more information, see [IDebugHostType2::IsTypedef](nf-dbgmodel-idebughosttype2-istypedef.md). 
-
+this method will return MYSTRUCT * for PMYSTRUCT and PMYSTRUCT for PTRMYSTRUCT. For more information, see [IDebugHostType2::IsTypedef](nf-dbgmodel-idebughosttype2-istypedef.md).
 
 ## -parameters
 
 ### -param baseType
+
 Returns the immediate (first level) type that the typedef is a definition for. If the typedef is a definition of another typedef, this will return that typedef and not the final unwind of the definition chain.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -86,3 +86,4 @@ if (SUCCEEDED(spType.As(&spType2)))
 ## -see-also
 
 [IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)
+

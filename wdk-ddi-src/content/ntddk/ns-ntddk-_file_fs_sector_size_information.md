@@ -8,9 +8,6 @@ ms.assetid: 24DEEDC7-B339-44DD-BF48-3BD59520EB8D
 ms.date: 04/16/2018
 keywords: ["FILE_FS_SECTOR_SIZE_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SECTOR_SIZE_INFORMATION, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], SSINFO_FLAGS_ALIGNED_DEVICE, SSINFO_FLAGS_NO_SEEK_PENALTY, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, _FILE_FS_SECTOR_SIZE_INFORMATION, ifsk.file_fs_sector_size_information, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION"
-f1_keywords:
- - "ntddk/FILE_FS_SECTOR_SIZE_INFORMATION"
- - "FILE_FS_SECTOR_SIZE_INFORMATION"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- FILE_FS_SECTOR_SIZE_INFORMATION
 targetos: Windows
 req.typenames: FILE_FS_SECTOR_SIZE_INFORMATION, *PFILE_FS_SECTOR_SIZE_INFORMATION
+f1_keywords:
+ - _FILE_FS_SECTOR_SIZE_INFORMATION
+ - ntddk/_FILE_FS_SECTOR_SIZE_INFORMATION
+ - PFILE_FS_SECTOR_SIZE_INFORMATION
+ - ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION
+ - FILE_FS_SECTOR_SIZE_INFORMATION
+ - ntddk/FILE_FS_SECTOR_SIZE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - FILE_FS_SECTOR_SIZE_INFORMATION
 ---
 
 # _FILE_FS_SECTOR_SIZE_INFORMATION structure
@@ -46,34 +50,25 @@ req.typenames: FILE_FS_SECTOR_SIZE_INFORMATION, *PFILE_FS_SECTOR_SIZE_INFORMATIO
 
 ## -description
 
-
-The <b>FILE_FS_SECTOR_SIZE_INFORMATION</b> structure is used to query physical and logical sector size information for a file system volume. 
-
+The <b>FILE_FS_SECTOR_SIZE_INFORMATION</b> structure is used to query physical and logical sector size information for a file system volume.
 
 ## -struct-fields
-
-
-
 
 ### -field LogicalBytesPerSector
 
 Logical bytes per sector  reported by physical storage. This is the same value as the block size for used for Logical Block Addressing (LBA).
 
-
 ### -field PhysicalBytesPerSectorForAtomicity
 
 Actual bytes per sector reported by physical storage used for an atomic write.
-
 
 ### -field PhysicalBytesPerSectorForPerformance
 
 Bytes per sector reported by physical storage for best performance.
 
-
 ### -field FileSystemEffectivePhysicalBytesPerSectorForAtomicity
 
 The portion of <b>PhysicalBytesPerSectorForAtomicity</b> considered as the physical sector size by the file system.
-
 
 ### -field Flags
 
@@ -125,22 +120,16 @@ The storage device supports the TRIM operation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ByteOffsetForSectorAlignment
 
 The offset, in bytes, of the beginning of the first logical sector within the first physical sector. This member is set to <b>SSINFO_OFFSET_UNKNOWN</b> if proper device information is not available to calculate the value.
 
-
 ### -field ByteOffsetForPartitionAlignment
 
 The offset value, in bytes, used to align the partition to a physical sector boundary. This member is set to <b>SSINFO_OFFSET_UNKNOWN</b> if proper device information is not available to calculate the value.
 
-
 ## -remarks
-
-
 
 This information can be queried in either of the following ways: 
 
@@ -166,13 +155,7 @@ The file system uses the value of <b>LogicalBytesPerSector</b> to determine the 
 
 If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtomicity</b> and <b>PhysicalBytesPerSectorForPerformance</b> from the storage device, then they are set to the value of <b>LogicalBytesPerSector.</b>
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_full_size_information">FILE_FS_FULL_SIZE_INFORMATION</a>
 
@@ -195,7 +178,4 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
- 
-
- 
 

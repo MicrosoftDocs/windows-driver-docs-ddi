@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/VideoProcessEndFrame"
- - "VideoProcessEndFrame"
+ - PFND3DDDI_VIDEOPROCESSENDFRAME
+ - d3dumddi/PFND3DDDI_VIDEOPROCESSENDFRAME
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_VIDEOPROCESSENDFRAME callback function
+
 
 ## -description
 

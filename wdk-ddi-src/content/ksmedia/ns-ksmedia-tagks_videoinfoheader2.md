@@ -8,9 +8,6 @@ ms.assetid: 4eb909fe-7ba2-4208-b713-54252022a5cf
 ms.date: 08/20/2020
 keywords: ["tagKS_VIDEOINFOHEADER2 structure"]
 ms.keywords: "*PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml"
-f1_keywords:
- - "ksmedia/KS_VIDEOINFOHEADER2"
- - "KS_VIDEOINFOHEADER2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_VIDEOINFOHEADER2
 targetos: Windows
 req.typenames: KS_VIDEOINFOHEADER2, *PKS_VIDEOINFOHEADER2
+f1_keywords:
+ - tagKS_VIDEOINFOHEADER2
+ - ksmedia/tagKS_VIDEOINFOHEADER2
+ - PKS_VIDEOINFOHEADER2
+ - ksmedia/PKS_VIDEOINFOHEADER2
+ - KS_VIDEOINFOHEADER2
+ - ksmedia/KS_VIDEOINFOHEADER2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_VIDEOINFOHEADER2
 ---
 
 # tagKS_VIDEOINFOHEADER2 structure
+
 
 ## -description
 
@@ -155,3 +160,4 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set in the **dwControlFlags** member,
 [KS_DATARANGE_VIDEO2](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_datarange_video2)
 
 [KS_VIDEOINFOHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader)
+

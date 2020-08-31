@@ -5,32 +5,37 @@ description:
 ms.assetid: 03686e66-ca43-406b-8d2f-0cfd0d35df0b
 ms.date: 10/19/2018
 keywords: ["SE_IMAGE_TYPE enumeration"]
-f1_keywords:
- - "wdm/_SE_IMAGE_TYPE"
- - "_SE_IMAGE_TYPE"
-ms.keywords: _SE_IMAGE_TYPE, SE_IMAGE_TYPE, *PSE_IMAGE_TYPE, 
+ms.keywords: _SE_IMAGE_TYPE, SE_IMAGE_TYPE, *PSE_IMAGE_TYPE,
 req.header: wdm.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: SE_IMAGE_TYPE, *PSE_IMAGE_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- wdm.h
-api_name: 
-- _SE_IMAGE_TYPE
 targetos: Windows
+f1_keywords:
+ - _SE_IMAGE_TYPE
+ - wdm/_SE_IMAGE_TYPE
+ - PSE_IMAGE_TYPE
+ - wdm/PSE_IMAGE_TYPE
+ - SE_IMAGE_TYPE
+ - wdm/SE_IMAGE_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - _SE_IMAGE_TYPE
 ---
 
 # _SE_IMAGE_TYPE enumeration
+
 
 ## -description
 
@@ -40,7 +45,7 @@ Defines values for type of image used for image verification.
 
 ### -field SeImageTypeElamDriver
 
-An early launch anti-malware (ELAM) driver image. 
+An early launch anti-malware (ELAM) driver image.
 
 ### -field SeImageTypeDriver : 
 
@@ -49,8 +54,10 @@ A driver image.
 ### -field SeImageTypePlatformSecureFile : 
 
 ### -field SeImageTypeDynamicCodeFile : 
+
 ### -field SeImageTypeMax : 
 
 ## -remarks
 
 ## -see-also
+

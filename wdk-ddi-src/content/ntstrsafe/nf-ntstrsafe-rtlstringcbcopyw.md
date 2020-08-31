@@ -8,9 +8,6 @@ ms.assetid: 77a42d5e-92ff-4e64-9bd3-b713286d3db0
 ms.date: 04/30/2018
 keywords: ["RtlStringCbCopyW function"]
 ms.keywords: RtlStringCbCopy, RtlStringCbCopyA, RtlStringCbCopyW, RtlStringCbCopyW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopy, ntstrsafe/RtlStringCbCopyA, ntstrsafe/RtlStringCbCopyW, safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCbCopyW"
- - "RtlStringCbCopyW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCbCopyW
-- RtlStringCbCopyA
-- RtlStringCbCopyW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCbCopyW
+ - ntstrsafe/RtlStringCbCopyW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCbCopyW
+ - RtlStringCbCopyA
+ - RtlStringCbCopyW
 ---
 
 # RtlStringCbCopyW function
@@ -49,37 +49,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlStringCbCopyW</b> and <b>RtlStringCbCopyA</b> functions copy a byte-counted string into a buffer. 
-
+The <b>RtlStringCbCopyW</b> and <b>RtlStringCbCopyA</b> functions copy a byte-counted string into a buffer.
 
 ## -parameters
 
-
-
-
 ### -param pszDest 
+
 [out]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character.
 
-
 ### -param cbDest 
+
 [in]
 The size, in bytes, of the destination buffer. The buffer must be large enough for the string and the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
 
-For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
-
+For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char).
 
 ### -param pszSrc 
-[in]
-A pointer to a caller-supplied, null-terminated string. 
 
+[in]
+A pointer to a caller-supplied, null-terminated string.
 
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -130,14 +123,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCbCopyA</b> and <b>RtlStringCbCopyW</b> should be used instead of the following functions: 
 
@@ -198,22 +185,13 @@ If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior o
 
 Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyexa">RtlStringCbCopyEx</a>.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcopyexa">RtlStringCbCopyEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcopya">RtlStringCchCopy</a>
- 
-
- 
 

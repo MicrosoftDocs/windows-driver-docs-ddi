@@ -5,33 +5,36 @@ description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry 
 ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
 ms.date: 10/01/2018
 keywords: ["IVHD_ENTRY_TYPE enumeration"]
-f1_keywords:
- - "acpitabl/_IVHD_ENTRY_TYPE"
- - "_IVHD_ENTRY_TYPE"
-ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE, 
+ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE,
 req.header: acpitabl.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: IVRS_TABLE_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- acpitabl.h
-api_name: 
-- _IVHD_ENTRY_TYPE
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _IVHD_ENTRY_TYPE
+ - acpitabl/_IVHD_ENTRY_TYPE
+ - IVRS_TABLE_TYPE
+ - acpitabl/IVRS_TABLE_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _IVHD_ENTRY_TYPE
 ---
 
 # _IVHD_ENTRY_TYPE enumeration
+
 
 ## -description
 
@@ -90,3 +93,4 @@ Value is 0xF0.
 ## -remarks
 
 ## -see-also
+

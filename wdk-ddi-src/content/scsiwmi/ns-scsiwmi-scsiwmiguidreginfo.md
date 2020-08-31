@@ -8,9 +8,6 @@ ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.date: 03/29/2018
 keywords: ["SCSIWMIGUIDREGINFO structure"]
 ms.keywords: "*PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], scsiwmi/PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml"
-f1_keywords:
- - "scsiwmi/SCSIWMIGUIDREGINFO"
- - "SCSIWMIGUIDREGINFO"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsiwmi.h
-api_name:
-- SCSIWMIGUIDREGINFO
 targetos: Windows
 req.typenames: SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO
+f1_keywords:
+ - PSCSIWMIGUIDREGINFO
+ - scsiwmi/PSCSIWMIGUIDREGINFO
+ - SCSIWMIGUIDREGINFO
+ - scsiwmi/SCSIWMIGUIDREGINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsiwmi.h
+api_name:
+ - SCSIWMIGUIDREGINFO
 ---
 
 # SCSIWMIGUIDREGINFO structure
@@ -46,24 +48,18 @@ req.typenames: SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO
 
 ## -description
 
-
 The SCSIWMIGUIDREGINFO structure contains information about a given data or event block supported by a SCSI miniport driver. 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field Guid
 
-Points to the GUID that identifies the block. 
-
+Points to the GUID that identifies the block.
 
 ### -field InstanceCount
 
 Specifies the number of instances defined for the block.
-
 
 ### -field Flags
 
@@ -89,10 +85,7 @@ Requests the port driver send an enable-collection SRB the first time a data con
 
 Removes support for a previously registered block when set.
 
-
 ## -remarks
-
-
 
 The miniport driver passes a pointer to a SCSI_WMILIB_CONTEXT which contains a SCSIWMIREGGUID array in the <i>WmiLibInfo</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. The miniport driver passes this information each time it calls <b>ScsiPortWmiDispatchFunction</b>. Each SCSIWMIREGGUID structure in the array represents one of the miniport driver's data or event blocks. 
 
@@ -100,13 +93,7 @@ A miniport driver's SCSIWMIREGGUID array should include any standard data blocks
 
 For more information about defining blocks, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/implementing-wmi">Windows Management Instrumentation</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nc-scsiwmi-pscsiwmi_query_reginfo">HwScsiWmiQueryReginfo</a>
 
@@ -117,7 +104,4 @@ For more information about defining blocks, <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
- 
-
- 
 

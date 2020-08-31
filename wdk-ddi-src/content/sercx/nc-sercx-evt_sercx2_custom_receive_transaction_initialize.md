@@ -8,9 +8,6 @@ ms.assetid: B3C23236-2A35-456A-B461-AEC688ACA5B7
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE callback function"]
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionInitialize, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE callback, EvtSerCx2CustomReceiveTransactionInitialize, EvtSerCx2CustomReceiveTransactionInitialize callback function [Serial Ports], serports.evtsercx2customreceivetransactioninitialize
-f1_keywords:
- - "sercx/EvtSerCx2CustomReceiveTransactionInitialize"
- - "EvtSerCx2CustomReceiveTransactionInitialize"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2CustomReceiveTransactionInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE
+ - sercx/EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2CustomReceiveTransactionInitialize
 ---
 
 # EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE callback function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2CustomReceiveTransactionInitialize</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller hardware to perform a new custom-receive transaction.
-
 
 ## -parameters
 
-
-
-
 ### -param CustomReceiveTransaction 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive-transaction object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 
-
 ### -param Mdl 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> that describes the memory pages that are spanned by the read buffer for the custom-receive transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
 
-
 ### -param Offset 
+
 [in]
 The starting offset for the data transfer. This parameter is a byte offset from the start of the buffer region described by the MDL. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Offset</i> are in the range 0 to N–1.
 
-
 ### -param Length 
+
 [in]
 The size, in bytes, of the data transfer. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
-
 ## -remarks
-
-
 
 Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> call that creates the custom-receive object.
 
@@ -127,12 +120,7 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
 
@@ -151,7 +139,4 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioninitializecomplete">SerCx2CustomReceiveTransactionInitializeComplete</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 771027AA-E64D-4AC8-9C52-D1F96A761FAD
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_SERVICE enumeration"]
 ms.keywords: KSPROPERTY_SERVICE, KSPROPERTY_SERVICE enumeration [Streaming Media Devices], KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE_MERIT, ksi/KSPROPERTY_SERVICE, ksi/KSPROPERTY_SERVICE_BUILDCACHE, ksi/KSPROPERTY_SERVICE_MERIT, stream.ksproperty_service
-f1_keywords:
- - "ksi/KSPROPERTY_SERVICE"
- - "KSPROPERTY_SERVICE"
 req.header: ksi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksi.h
-api_name:
-- KSPROPERTY_SERVICE
 targetos: Windows
 req.typenames: KSPROPERTY_SERVICE
+f1_keywords:
+ - KSPROPERTY_SERVICE
+ - ksi/KSPROPERTY_SERVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksi.h
+api_name:
+ - KSPROPERTY_SERVICE
 ---
 
 # KSPROPERTY_SERVICE enumeration
@@ -46,17 +46,9 @@ req.typenames: KSPROPERTY_SERVICE
 
 ## -description
 
-
-
-
-
 ## -enum-fields
 
-
-
-
 ### -field KSPROPERTY_SERVICE_BUILDCACHE
-
 
 ### -field KSPROPERTY_SERVICE_MERIT
 

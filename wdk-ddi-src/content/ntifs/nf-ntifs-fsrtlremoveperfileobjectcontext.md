@@ -8,9 +8,6 @@ ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.date: 04/16/2018
 keywords: ["FsRtlRemovePerFileObjectContext function"]
 ms.keywords: FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext
-f1_keywords:
- - "ntifs/FsRtlRemovePerFileObjectContext"
- - "FsRtlRemovePerFileObjectContext"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlRemovePerFileObjectContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlRemovePerFileObjectContext
+ - ntifs/FsRtlRemovePerFileObjectContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlRemovePerFileObjectContext
 ---
 
 # FsRtlRemovePerFileObjectContext function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 For a "legacy" file system filter driver, the <b>FsRtlRemovePerFileObjectContext</b> function unlinks a per-file-object context information structure from the list of per-file-object contexts previously associated with a file object.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 A pointer to a file object for which to remove context information.
 
-
 ### -param OwnerId 
+
 [in, optional]
 A pointer to a caller-allocated variable that uniquely identifies the owning filter of the per-file-object context structure. The format of this variable is filter-driver-specific.
 
-
 ### -param InstanceId 
+
 [in, optional]
 A pointer to a caller-allocated variable that can be used to distinguish among per-file-object context structures created by the same filter driver. The format of this variable is filter-driver-specific. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FsRtlRemovePerFileObjectContext</b> unlinks and returns a pointer to the first matching per-file-object context that is found. If no match is found, <b>FsRtlRemovePerFileObjectContext</b> returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 A "legacy" file system filter driver calls <b>FsRtlRemovePerFileObjectContext </b>to unlink its own per-file-object context structure from the list of per-file-object contexts associated with the file object. All such context structures must have previously been associated with the file object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546189">FsRtlInsertPerFileObjectContext</a>.
 
@@ -99,13 +87,7 @@ To retrieve a per-file-object context structure that is associated with a file o
 <div> </div>
 Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i><b>PerFileObjectContext</b> functions. Instead, they can use the appropriate <b>Flt</b><i>Xxx</i><b>Context</b> functions. For additional information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a> topic.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
@@ -120,7 +102,4 @@ Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546936">FsRtlLookupPerFileObjectContext</a>
- 
-
- 
 

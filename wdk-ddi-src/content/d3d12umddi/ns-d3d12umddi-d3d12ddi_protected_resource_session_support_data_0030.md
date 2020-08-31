@@ -7,9 +7,6 @@ ms.assetid: 7e8b824b-b6a6-486a-abb7-545d5156a94a
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030 structure"]
 ms.keywords: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030, display.d3d12ddi-protected-resource-session-support-data-0030
-f1_keywords:
- - "d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030"
- - "D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
+f1_keywords:
+ - D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
+ - d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
 ---
 
 # D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030 structure
@@ -46,19 +46,13 @@ req.typenames: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
 
 ## -description
 
-
 Protected resource session support data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NodeIndex
 
 Node index.
-
 
 ### -field Support
 

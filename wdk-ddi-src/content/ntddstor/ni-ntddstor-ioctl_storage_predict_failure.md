@@ -8,9 +8,6 @@ ms.assetid: 56e178d9-e6bb-43d4-b062-da4e699c4efc
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_PREDICT_FAILURE IOCTL"]
 ms.keywords: IOCTL_STORAGE_PREDICT_FAILURE, IOCTL_STORAGE_PREDICT_FAILURE control, IOCTL_STORAGE_PREDICT_FAILURE control code [Storage Devices], k307_396b070a-af8a-4271-9d17-efb385869570.xml, ntddstor/IOCTL_STORAGE_PREDICT_FAILURE, storage.ioctl_storage_predict_failure
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_PREDICT_FAILURE"
- - "IOCTL_STORAGE_PREDICT_FAILURE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_PREDICT_FAILURE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_PREDICT_FAILURE
+ - ntddstor/IOCTL_STORAGE_PREDICT_FAILURE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_PREDICT_FAILURE
 ---
 
 # IOCTL_STORAGE_PREDICT_FAILURE IOCTL
 
 
 ## -description
-
-
 
 Polls for a prediction of device failure. This request works with the IDE disk drives that support self-monitoring analysis and reporting technology (SMART). If the drive is a SCSI drive, the class driver attempts to verify if the SCSI disk supports the equivalent IDE SMART technology by check the inquiry information on the Information Exception Control Page, X3T10/94-190 Rev 4. 
 
@@ -56,66 +54,35 @@ If the <b>PredictFailure</b> member contains a value of zero, the disk is not pr
 
 If the device does not support failure prediction, IOCTL_STORAGE_PREDICT_FAILURE fails with a status of STATUS_INVALID_DEVICE_REQUEST, and the data in the output buffer is undefined
 
-Other means of checking for disk failure include monitoring the event log and registering to receive a WMI event with WMI_STORAGE_PREDICT_FAILURE_EVENT_GUID. 
-
-
-
+Other means of checking for disk failure include monitoring the event log and registering to receive a WMI event with WMI_STORAGE_PREDICT_FAILURE_EVENT_GUID.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
 
-
 ### -output-buffer
 
-The driver returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_predict_failure">STORAGE_PREDICT_FAILURE</a> structure containing failure prediction data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
-
+The driver returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_predict_failure">STORAGE_PREDICT_FAILURE</a> structure containing failure prediction data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp->AssociatedIrp.SystemBuffer,</b> which must be greater or equal to the <b>sizeof</b>(STORAGE_PREDICT_FAILURE). 
-
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp->AssociatedIrp.SystemBuffer,</b> which must be greater or equal to the <b>sizeof</b>(STORAGE_PREDICT_FAILURE).
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_predict_failure">STORAGE_PREDICT_FAILURE</a>
- 
-
- 
 

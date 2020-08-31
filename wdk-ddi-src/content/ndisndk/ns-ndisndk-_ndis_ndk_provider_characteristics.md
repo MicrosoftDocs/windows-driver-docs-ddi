@@ -8,9 +8,6 @@ ms.assetid: 40F07AC8-80F7-4DBC-BDC9-236530B011D4
 ms.date: 05/02/2018
 keywords: ["NDIS_NDK_PROVIDER_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PROVIDER_CHARACTERISTICS, PNDIS_NDK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/PNDIS_NDK_PROVIDER_CHARACTERISTICS, netvista.ndis_ndk_provider_characteristics"
-f1_keywords:
- - "ndisndk/NDIS_NDK_PROVIDER_CHARACTERISTICS"
- - "NDIS_NDK_PROVIDER_CHARACTERISTICS"
 req.header: ndisndk.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndisndk.h
-api_name:
-- NDIS_NDK_PROVIDER_CHARACTERISTICS
 targetos: Windows
 req.typenames: NDIS_NDK_PROVIDER_CHARACTERISTICS, *PNDIS_NDK_PROVIDER_CHARACTERISTICS
+f1_keywords:
+ - _NDIS_NDK_PROVIDER_CHARACTERISTICS
+ - ndisndk/_NDIS_NDK_PROVIDER_CHARACTERISTICS
+ - PNDIS_NDK_PROVIDER_CHARACTERISTICS
+ - ndisndk/PNDIS_NDK_PROVIDER_CHARACTERISTICS
+ - NDIS_NDK_PROVIDER_CHARACTERISTICS
+ - ndisndk/NDIS_NDK_PROVIDER_CHARACTERISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndisndk.h
+api_name:
+ - NDIS_NDK_PROVIDER_CHARACTERISTICS
 ---
 
 # _NDIS_NDK_PROVIDER_CHARACTERISTICS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_NDK_PROVIDER_CHARACTERISTICS, *PNDIS_NDK_PROVIDER_CHARACTERI
 
 ## -description
 
-
 The <b>NDIS_NDK_PROVIDER_CHARACTERISTICS</b> structure specifies NDK provider characteristics.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -71,30 +70,19 @@ An
 
 Reserved, must be set to zero.
 
-
 ### -field OpenNDKAdapterHandler
 
 The entry point for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a> function.
-
 
 ### -field CloseNDKAdapterHandler
 
 The entry point for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-close_ndk_adapter_handler">CLOSE_NDK_ADAPTER_HANDLER</a> function.
 
-
 ## -remarks
-
-
 
 To specify entry points for NDK services and other NDK provider characteristics, NDIS miniport drivers pass a pointer to an initialized <b>NDIS_NDK_PROVIDER_CHARACTERISTICS</b> structure to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-close_ndk_adapter_handler">CLOSE_NDK_ADAPTER_HANDLER</a>
 
@@ -109,7 +97,4 @@ To specify entry points for NDK services and other NDK provider characteristics,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
- 
-
- 
 

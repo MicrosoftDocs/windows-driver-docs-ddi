@@ -8,38 +8,40 @@ ms.assetid: 45888814-28c4-4cbc-ace8-7b4aa682b91b
 ms.date: 02/26/2018
 keywords: ["RILADDRESS structure"]
 ms.keywords: "*LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress_2, rilapitypes/RILADDRESS"
-f1_keywords:
- - "rilapitypes/RILADDRESS"
- - "RILADDRESS"
 req.header: rilapitypes.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILADDRESS
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILADDRESS, *LPRILADDRESS
 req.product: Windows 10 or later.
+f1_keywords:
+ - RILADDRESS
+ - rilapitypes/RILADDRESS
+ - LPRILADDRESS
+ - rilapitypes/LPRILADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILADDRESS
 ---
 
 # RILADDRESS structure
@@ -47,12 +49,21 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
+## -struct-fields
+
+### -field cbSize
+
+### -field dwParams
+
+### -field dwType
+
+### -field dwNumPlan
+
+### -field wszAddress
 
 ## -syntax
-
 
 ```cpp
 typedef struct _RILADDRESS {
@@ -63,24 +74,4 @@ typedef struct _RILADDRESS {
   WCHAR [MAXLENGTH_ADDRESS] wszAddress;
 } RILADDRESS, RILADDRESS;
 ```
-
-
-## -struct-fields
-
-
-
-
-### -field cbSize
-
-
-### -field dwParams
-
-
-### -field dwType
-
-
-### -field dwNumPlan
-
-
-### -field wszAddress
 

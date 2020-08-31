@@ -8,9 +8,6 @@ ms.assetid: 1b7f6a39-b0d3-4a0b-b030-b7fef3ab58d6
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_SHADOWSURFACEDATA structure"]
 ms.keywords: D3DKMDT_SHADOWSURFACEDATA, D3DKMDT_SHADOWSURFACEDATA structure [Display Devices], DmStructs_645dbefc-137b-47c5-aa4b-de9037d71182.xml, _D3DKMDT_SHADOWSURFACEDATA, d3dkmdt/D3DKMDT_SHADOWSURFACEDATA, display.d3dkmdt_shadowsurfacedata
-f1_keywords:
- - "d3dkmdt/D3DKMDT_SHADOWSURFACEDATA"
- - "D3DKMDT_SHADOWSURFACEDATA"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_SHADOWSURFACEDATA
 targetos: Windows
 req.typenames: D3DKMDT_SHADOWSURFACEDATA
+f1_keywords:
+ - _D3DKMDT_SHADOWSURFACEDATA
+ - d3dkmdt/_D3DKMDT_SHADOWSURFACEDATA
+ - D3DKMDT_SHADOWSURFACEDATA
+ - d3dkmdt/D3DKMDT_SHADOWSURFACEDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_SHADOWSURFACEDATA
 ---
 
 # _D3DKMDT_SHADOWSURFACEDATA structure
@@ -46,38 +48,27 @@ req.typenames: D3DKMDT_SHADOWSURFACEDATA
 
 ## -description
 
-
 The D3DKMDT_SHADOWSURFACEDATA structure describes a lockable shadow surface, which matches the primary surface in format and resolution for a given display mode.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Width
 
 [in] The width of the surface, in pixels. The driver returns the width value.
 
-
 ### -field Height
 
 [in] The height of the surface, in pixels. The driver returns the height value.
-
 
 ### -field Format
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface. The driver returns the format value.
 
-
 ### -field Pitch
 
 [out] The width of the surface, in bytes. The driver must return the pitch value because the shadow surface is lockable.
 
-
 ## -remarks
-
-
 
 The D3DKMDT_SHADOWSURFACEDATA structure is passed by the Microsoft DirectX graphics kernel subsystem in a call to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata">DxgkDdiGetStandardAllocationDriverData</a> function to generate a description of a lockable shadow surface. The DirectX graphics kernel subsystem uses the description in a call to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function to create the lockable shadow surface.
 
@@ -85,13 +76,7 @@ The CPU draws into the locked shadow surface, unlocks the shadow surface, and th
 
 A color conversion, stretch, or shrink operation is not required when copying data from or to a shadow surface because the source and destination formats and dimensions of shadow and shared primary surfaces always match.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
@@ -114,7 +99,4 @@ A color conversion, stretch, or shrink operation is not required when copying da
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a>
- 
-
- 
 

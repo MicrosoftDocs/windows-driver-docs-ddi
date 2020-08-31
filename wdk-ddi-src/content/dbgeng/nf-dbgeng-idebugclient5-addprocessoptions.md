@@ -8,9 +8,6 @@ ms.assetid: eb5f1d91-cfad-48e6-b578-64b64034222f
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::AddProcessOptions"]
 ms.keywords: AddProcessOptions, AddProcessOptions method [Windows Debugging], AddProcessOptions method [Windows Debugging],IDebugClient interface, AddProcessOptions method [Windows Debugging],IDebugClient2 interface, AddProcessOptions method [Windows Debugging],IDebugClient3 interface, AddProcessOptions method [Windows Debugging],IDebugClient4 interface, AddProcessOptions method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AddProcessOptions method, IDebugClient2 interface [Windows Debugging],AddProcessOptions method, IDebugClient2::AddProcessOptions, IDebugClient3 interface [Windows Debugging],AddProcessOptions method, IDebugClient3::AddProcessOptions, IDebugClient4 interface [Windows Debugging],AddProcessOptions method, IDebugClient4::AddProcessOptions, IDebugClient5 interface [Windows Debugging],AddProcessOptions method, IDebugClient5.AddProcessOptions, IDebugClient5::AddProcessOptions, IDebugClient::AddProcessOptions, IDebugClient_995041c9-9380-4a66-b9f8-d74d68398a44.xml, dbgeng/IDebugClient2::AddProcessOptions, dbgeng/IDebugClient3::AddProcessOptions, dbgeng/IDebugClient4::AddProcessOptions, dbgeng/IDebugClient5::AddProcessOptions, dbgeng/IDebugClient::AddProcessOptions, debugger.addprocessoptions
-f1_keywords:
- - "dbgeng/IDebugClient.AddProcessOptions"
- - "IDebugClient.AddProcessOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.AddProcessOptions
-- IDebugClient2.AddProcessOptions
-- IDebugClient3.AddProcessOptions
-- IDebugClient4.AddProcessOptions
-- IDebugClient5.AddProcessOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::AddProcessOptions
+ - dbgeng/IDebugClient5::AddProcessOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.AddProcessOptions
+ - IDebugClient2.AddProcessOptions
+ - IDebugClient3.AddProcessOptions
+ - IDebugClient4.AddProcessOptions
+ - IDebugClient5.AddProcessOptions
 ---
 
 # IDebugClient5::AddProcessOptions
@@ -50,23 +50,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>AddProcessOptions</b> method adds the process options to those options that affect the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c">current process</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param Options 
+
 [in]
 Specifies the process options to add to those affecting the current process.  For details on these process options, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -87,14 +80,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available only in <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/l">live user-mode debugging</a>.
 
@@ -104,13 +91,7 @@ If any process options are modified, the engine will notify the <a href="https:/
 
 For more information about creating and attaching to live user-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>
 
@@ -145,7 +126,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-setprocessoptions">SetProcessOptions</a>
- 
-
- 
 

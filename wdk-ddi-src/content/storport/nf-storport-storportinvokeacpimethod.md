@@ -8,9 +8,6 @@ ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.date: 03/29/2018
 keywords: ["StorPortInvokeAcpiMethod function"]
 ms.keywords: StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices], storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod
-f1_keywords:
- - "storport/StorPortInvokeAcpiMethod"
- - "StorPortInvokeAcpiMethod"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInvokeAcpiMethod
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInvokeAcpiMethod
+ - storport/StorPortInvokeAcpiMethod
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInvokeAcpiMethod
 ---
 
 # StorPortInvokeAcpiMethod function
@@ -46,58 +46,51 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortInvokeAcpiMethod</b> routine executes an ACPI method for a storage device.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param Address 
+
 [in, optional]
 The address of the target device. This parameter is optional. If <i>Address</i> is set to <b>NULL</b>, the adapter is the target.
 
-
 ### -param MethodName 
+
 [in]
 A four-byte name for the ACPI method. For example, ((ULONG) 'DDS_') would name the _SDD, or 'Set Device Data',  ACPI method for an AHCI controller.
 
-
 ### -param InputBuffer 
+
 [in, optional]
 A pointer to the input data to the method.
 
-
 ### -param InputBufferLength 
+
 [in]
 The length, in bytes, of the buffer in <i>InputBuffer</i>.
 
-
 ### -param OutputBuffer 
+
 [in, optional]
 A pointer to the output data from the method.
 
-
 ### -param OutputBufferLength 
+
 [in]
 The length, in bytes, of the buffer in <i>OutputBuffer</i>.
 
-
 ### -param BytesReturned 
+
 [out, optional]
 A pointer to the length, in bytes, of the data returned in <i>OutputBuffer</i>.
 
-
 ## -returns
-
-
 
 The <b>StorPortInvokeAcpiMethod</b> routine returns one of these status codes:
 
@@ -177,16 +170,8 @@ The method executed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>StorPortInvokeAcpiMethod</b> enables a miniport driver to invoke ACPI methods defined for storage controllers and storage LUNs. The method names are four-byte character strings that occupy a <b>ULONG</b> value in <i>MethodName</i>.
-
-
 

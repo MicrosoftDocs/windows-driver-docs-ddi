@@ -8,9 +8,6 @@ ms.assetid: 3865a206-840c-4acf-97be-86764cf522db
 ms.date: 04/20/2018
 keywords: ["OEMDownloadFontHeader function"]
 ms.keywords: OEMDownloadFontHeader, OEMDownloadFontHeader function [Print Devices], print.oemdownloadfontheader, print_obsoletefunctions_733001dd-14a7-43a6-b386-5be4b514ae0b.xml, printoem/OEMDownloadFontHeader
-f1_keywords:
- - "printoem/OEMDownloadFontHeader"
- - "OEMDownloadFontHeader"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMDownloadFontHeader
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMDownloadFontHeader
+ - printoem/OEMDownloadFontHeader
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMDownloadFontHeader
 ---
 
 # OEMDownloadFontHeader function
@@ -46,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
 
-
-
-
 ### -param pdevobj
-
 
 ### -param pUFObj
 

@@ -8,9 +8,6 @@ ms.assetid: 9c8227ea-53e4-47c9-ab74-84e42b0cbbe5
 ms.date: 05/02/2018
 keywords: ["NdisCopySendNetBufferListInfo function"]
 ms.keywords: NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopySendNetBufferListInfo, ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, netvista.ndiscopysendnetbufferlistinfo
-f1_keywords:
- - "ndis/NdisCopySendNetBufferListInfo"
- - "NdisCopySendNetBufferListInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCopySendNetBufferListInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCopySendNetBufferListInfo
+ - ndis/NdisCopySendNetBufferListInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCopySendNetBufferListInfo
 ---
 
 # NdisCopySendNetBufferListInfo function
@@ -47,31 +47,24 @@ req.typenames:
 
 ## -description
 
-
 Intermediate drivers call the 
   <b>NdisCopySendNetBufferListInfo</b> function to copy the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information in a transmit
   <b>NET_BUFFER_LIST</b> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param DestNetBufferList 
+
 [in]
 A pointer to the destination <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ### -param SrcNetBufferList 
+
 [in]
 A pointer to the source <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -remarks
-
-
 
 When an intermediate driver or filter driver receives a transmit request from an overlying driver, it
     can, for example, clone the 
@@ -136,15 +129,8 @@ The following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/n
 <td>Windows 8</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
@@ -156,7 +142,4 @@ The following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/n
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscopyreceivenetbufferlistinfo">
    NdisCopyReceiveNetBufferListInfo</a>
- 
-
- 
 

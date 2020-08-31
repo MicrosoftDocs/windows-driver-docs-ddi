@@ -8,9 +8,6 @@ ms.assetid: d7917c06-948e-47bf-bd58-9529e3bf7b7d
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetUnsignedLargeIntegerValue"]
 ms.keywords: GetUnsignedLargeIntegerValue, GetUnsignedLargeIntegerValue method, GetUnsignedLargeIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetUnsignedLargeIntegerValue method, IPortableDeviceValues.GetUnsignedLargeIntegerValue, IPortableDeviceValues::GetUnsignedLargeIntegerValue, IPortableDeviceValuesGetUnsignedLargeIntegerValue, portabledevicetypes/IPortableDeviceValues::GetUnsignedLargeIntegerValue, wpddk.iportabledevicevalues_getunsignedlargeintegervalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetUnsignedLargeIntegerValue"
- - "IPortableDeviceValues.GetUnsignedLargeIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetUnsignedLargeIntegerValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetUnsignedLargeIntegerValue
+ - portabledevicetypes/IPortableDeviceValues::GetUnsignedLargeIntegerValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetUnsignedLargeIntegerValue
 ---
 
 # IPortableDeviceValues::GetUnsignedLargeIntegerValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves a <b>ULONGLONG</b> value (type VT_UI8) that is specified by a key.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param key 
+
 [in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-
 ### -param pValue 
+
 [out]
 Pointer to the retrieved <b>ULONGLONG</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,31 +104,16 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setunsignedlargeintegervalue">IPortableDeviceValues::SetUnsignedLargeIntegerValue</a>
- 
-
- 
 

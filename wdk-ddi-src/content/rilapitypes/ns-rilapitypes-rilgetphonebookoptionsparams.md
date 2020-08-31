@@ -8,9 +8,6 @@ ms.assetid: a6c71f2d-baf7-4293-ae13-38625be3ab3f
 ms.date: 05/02/2018
 keywords: ["RILGETPHONEBOOKOPTIONSPARAMS structure"]
 ms.keywords: "*LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetphonebookoptionsparams, ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
-f1_keywords:
- - "rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
- - "RILGETPHONEBOOKOPTIONSPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILGETPHONEBOOKOPTIONSPARAMS
 targetos: Windows
 req.typenames: RILGETPHONEBOOKOPTIONSPARAMS, *LPRILGETPHONEBOOKOPTIONSPARAMS
+f1_keywords:
+ - RILGETPHONEBOOKOPTIONSPARAMS
+ - rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS
+ - LPRILGETPHONEBOOKOPTIONSPARAMS
+ - rilapitypes/LPRILGETPHONEBOOKOPTIONSPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILGETPHONEBOOKOPTIONSPARAMS
 ---
 
 # RILGETPHONEBOOKOPTIONSPARAMS structure
@@ -46,17 +48,11 @@ req.typenames: RILGETPHONEBOOKOPTIONSPARAMS, *LPRILGETPHONEBOOKOPTIONSPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hUiccApp
-
 
 ### -field dwStoreLocation
 

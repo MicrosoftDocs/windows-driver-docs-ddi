@@ -8,9 +8,6 @@ ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.date: 04/30/2018
 keywords: ["PoFxSetComponentLatency function"]
 ms.keywords: PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentlatency, wdm/PoFxSetComponentLatency
-f1_keywords:
- - "wdm/PoFxSetComponentLatency"
- - "PoFxSetComponentLatency"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- PoFxSetComponentLatency
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxSetComponentLatency
+ - wdm/PoFxSetComponentLatency
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - PoFxSetComponentLatency
 ---
 
 # PoFxSetComponentLatency function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoFxSetComponentLatency</b> routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified component.
-
 
 ## -parameters
 
-
-
-
 ### -param Handle 
+
 [in]
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
-
 ### -param Component 
+
 [in]
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
-
 ### -param Latency 
+
 [in]
 The maximum latency, in 100-nanosecond units, that can be tolerated in the specified component. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 The calling driver supplies a maximum latency that clients of the device can tolerate in the specified component. This latency is the time required to complete a transition from the idle condition to the active condition. PoFx uses this latency as a hint to improve performance.
 
@@ -84,20 +77,11 @@ The device driver can call <b>PoFxSetComponentLatency</b> each time a change in 
 
 If a component is in the idle condition when <b>PoFxSetComponentLatency</b> is called, PoFx might change the component’s current Fx state to accommodate the new maximum latency specified by the caller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
- 
-
- 
 

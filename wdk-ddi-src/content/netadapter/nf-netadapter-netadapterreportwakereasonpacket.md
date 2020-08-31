@@ -8,39 +8,39 @@ ms.assetid: d37c2805-6f94-48e8-991e-0700b6b0c7fe
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetAdapterReportWakeReasonPacket function"]
-f1_keywords:
- - "netadapter/NetAdapterReportWakeReasonPacket"
- - "NetAdapterReportWakeReasonPacket"
 ms.keywords: NetAdapterReportWakeReasonPacket
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterReportWakeReasonPacket
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetAdapterReportWakeReasonPacket
+ - netadapter/NetAdapterReportWakeReasonPacket
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterReportWakeReasonPacket
+product:
+ - Windows
 ---
 
 # NetAdapterReportWakeReasonPacket function
@@ -71,3 +71,4 @@ This function does not return a value.
 [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md)
+

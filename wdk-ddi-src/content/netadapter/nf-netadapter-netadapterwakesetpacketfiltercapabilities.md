@@ -8,39 +8,39 @@ ms.assetid: dc2bb935-961f-4a34-a01f-a94cb43e9373
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetPacketFilterCapabilities function"]
-f1_keywords:
- - "netadapter/NetAdapterWakeSetPacketFilterCapabilities"
- - "NetAdapterWakeSetPacketFilterCapabilities"
 ms.keywords: NetAdapterWakeSetPacketFilterCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterWakeSetPacketFilterCapabilities
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetAdapterWakeSetPacketFilterCapabilities
+ - netadapter/NetAdapterWakeSetPacketFilterCapabilities
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterWakeSetPacketFilterCapabilities
+product:
+ - Windows
 ---
 
 # NetAdapterWakeSetPacketFilterCapabilities function
@@ -81,3 +81,4 @@ Client drivers must call [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](
 [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
+

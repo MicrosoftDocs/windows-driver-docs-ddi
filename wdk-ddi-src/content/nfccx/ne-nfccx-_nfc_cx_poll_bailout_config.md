@@ -8,9 +8,6 @@ ms.assetid: 1085EA0A-B688-4F77-80AF-E81CFE645CDF
 ms.date: 02/15/2018
 keywords: ["NFC_CX_POLL_BAILOUT_CONFIG enumeration"]
 ms.keywords: "*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_NFC_B, _NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_DEFAULT, nfccx/NFC_CX_POLL_BAILOUT_NFC_A, nfccx/NFC_CX_POLL_BAILOUT_NFC_B, nfpdrivers.nfc_cx_poll_bailout_config"
-f1_keywords:
- - "nfccx/NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG"
- - "NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfccx.h
-api_name:
-- NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
 targetos: Windows
 req.typenames: NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
+f1_keywords:
+ - _NFC_CX_POLL_BAILOUT_CONFIG
+ - nfccx/_NFC_CX_POLL_BAILOUT_CONFIG
+ - PNFC_CX_POLL_BAILOUT_CONFIG
+ - nfccx/PNFC_CX_POLL_BAILOUT_CONFIG
+ - NFC_CX_POLL_BAILOUT_CONFIG
+ - nfccx/NFC_CX_POLL_BAILOUT_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfccx.h
+api_name:
+ - NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
 ---
 
 # _NFC_CX_POLL_BAILOUT_CONFIG enumeration
@@ -46,35 +50,21 @@ req.typenames: NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
 
 ## -description
 
-
 The NFC_CX_POLL_BAILOUT_CONFIG enumeration specifies poll mode bail out.
-
 
 ## -enum-fields
 
-
-
-
 ### -field NFC_CX_POLL_BAILOUT_DEFAULT
-
 
 ### -field NFC_CX_POLL_BAILOUT_NFC_A
 
-
 ### -field NFC_CX_POLL_BAILOUT_NFC_B
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
 

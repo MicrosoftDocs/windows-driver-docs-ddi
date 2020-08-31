@@ -8,9 +8,6 @@ ms.assetid: 0058b595-e807-4908-89b1-3956effba4db
 ms.date: 04/23/2018
 keywords: ["IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO IOCTL"]
 ms.keywords: IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control, IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO, avcref_b337d332-db69-4a9d-8e5e-d261ebf0cdd8.xml, stream.ioctl_avc_remove_virtual_subunit_info
-f1_keywords:
- - "avc/IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO"
- - "IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avc.h
-api_name:
-- IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
+ - avc/IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avc.h
+api_name:
+ - IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
 ---
 
 # IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO IOCTL
@@ -46,75 +46,25 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO I/O control code controls the enumeration of virtual subunits. It is available to user mode as well as kernel-mode components through the IRP_MJ_DEVICE_CONTROL dispatch. For driver-to-driver communication, it is a METHOD_BUFFERED IOCTL, so set the IRP fields accordingly (IrpStack->Parameters.DeviceIoControl.InputBufferLength and Irp->AssociatedIrp.SystemBuffer).
 
 IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO is used to remove all subunit IDs of a single type. The ID part of the subunit address is ignored.
 
 This IOCTL uses the AVC_SUBUNIT_ADDR_SPEC structure.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-
-
-
-
-
-
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
-
-
-
-
-
-
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -168,22 +118,12 @@ The current user has insufficient registry access privileges to make the update 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 Must be called at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_subunit_addr_spec">AVC_SUBUNIT_ADDR_SPEC</a>
 
@@ -198,8 +138,4 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_update_virtual_subunit_info">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
- 
-
- 
-
 

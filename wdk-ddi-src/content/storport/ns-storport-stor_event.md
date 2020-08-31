@@ -8,37 +8,42 @@ ms.assetid: e97bff93-6b37-4ecb-9b3a-9a0be475ae87
 ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: struct
-ms.keywords: STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT, 
+ms.keywords: STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT,
 req.header: storport.h
-f1_keywords:
- - "storport/STOR_EVENT"
- - "STOR_EVENT"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - storport.h
-api_name: 
- - STOR_EVENT
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _STOR_EVENT
+ - storport/_STOR_EVENT
+ - PSTOR_EVENT
+ - storport/PSTOR_EVENT
+ - STOR_EVENT
+ - storport/STOR_EVENT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_EVENT
+product:
+ - Windows
 ---
 
 # STOR_EVENT structure
+
 
 ## -description
 
@@ -64,3 +69,4 @@ Callers of [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
+

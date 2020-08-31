@@ -8,9 +8,6 @@ ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
 ms.date: 03/29/2018
 keywords: ["PERF_CONFIGURATION_DATA structure"]
 ms.keywords: "*PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA structure [Storage Devices], PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], _PERF_CONFIGURATION_DATA, storage.perf_configuration_data, storport/PERF_CONFIGURATION_DATA, storport/PPERF_CONFIGURATION_DATA, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml"
-f1_keywords:
- - "storport/PERF_CONFIGURATION_DATA"
- - "PERF_CONFIGURATION_DATA"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- PERF_CONFIGURATION_DATA
 targetos: Windows
 req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
+f1_keywords:
+ - _PERF_CONFIGURATION_DATA
+ - storport/_PERF_CONFIGURATION_DATA
+ - PPERF_CONFIGURATION_DATA
+ - storport/PPERF_CONFIGURATION_DATA
+ - PERF_CONFIGURATION_DATA
+ - storport/PERF_CONFIGURATION_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - PERF_CONFIGURATION_DATA
 ---
 
 # _PERF_CONFIGURATION_DATA structure
@@ -46,24 +50,17 @@ req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
 
 ## -description
 
-
 The PERF_CONFIGURATION_DATA structure describes the performance optimizations that are supported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a> routine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version number of the structure. Set this member when querying and initializing optimizations.
 
-
 ### -field Size
 
 The size of the structure, set to <b>sizeof(PERF_CONFIGURATION_DATA)</b>.
-
 
 ### -field Flags
 
@@ -162,42 +159,32 @@ This flag is valid when <b>Version</b> is set to 5.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ConcurrentChannels
 
 The number of concurrent calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine that the miniport driver and the device  support. This member is only accessed when the STOR_PERF_CONCURRENT_CHANNELS flag has been set. Prior to Windows 8, miniports must not set this value.
 
-
 ### -field FirstRedirectionMessageNumber
 
 When the <b>Flags</b> member has the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag set, the miniport driver initializes interrupt redirection to begin with this message number. This member is only accessed when the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag is set.
-
 
 ### -field LastRedirectionMessageNumber
 
 When the <b>Flags</b> member has the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag set, the miniport driver initializes interrupt redirection to end with this message number. This member is only accessed when the STOR_PERF_INTERRUPT_MESSAGE_RANGES flag is set.
 
-
 ### -field DeviceNode
 
 When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Storport initializes this field to contain the NUMA node number in which the miniport driver's device resides.
-
 
 ### -field Reserved
 
 Reserved for system use.
 
-
 ### -field MessageTargets
 
 When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Storport initializes the fields of in the structures of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> array. These structures correspond to the redirection messages that are currently in use. The array itself is zero-based, but <b>FirstRedirectionMessageNumber</b> is not required to be zero. The miniport allocates this array and sets <b>MessageTargets</b> to point to it. The miniport driver must allocate a <b>GROUP_AFFINITY</b> array large enough to hold all the returned affinity masks.
 
-
 ## -remarks
-
-
 
 The current version of this structure is defined by <b>STOR_PERF_VERSION</b>. Setting <b>Version</b> to this value will allow <b>Flags</b> to specify all  supported optimizations.
 
@@ -207,16 +194,7 @@ Typically, a miniport  completes I/O requests in it's <a href="https://docs.micr
 
 For information about enabling message-signaled interrupts for a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/enabling-message-signaled-interrupts-in-the-registry">Enabling Message-Signaled Interrupts in the Registry</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a>
- 
-
- 
 

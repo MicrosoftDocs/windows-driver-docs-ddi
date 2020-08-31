@@ -8,9 +8,6 @@ ms.assetid: 2454f923-15c5-43c8-8d62-eee000d89a10
 ms.date: 05/02/2018
 keywords: ["NdisSetPhysicalAddressLow macro"]
 ms.keywords: NdisSetPhysicalAddressLow, NdisSetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_b21e2206-bd6c-47b6-b518-31bcad459bbb.xml, ndis/NdisSetPhysicalAddressLow, netvista.ndissetphysicaladdresslow
-f1_keywords:
- - "ndis/NdisSetPhysicalAddressLow"
- - "NdisSetPhysicalAddressLow"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisSetPhysicalAddressLow
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisSetPhysicalAddressLow
+ - ndis/NdisSetPhysicalAddressLow
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisSetPhysicalAddressLow
 ---
 
 # NdisSetPhysicalAddressLow macro
@@ -46,30 +46,22 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisSetPhysicalAddressLow</b> sets the low-order part of a given physical address to a given
   value.
 
-
 ## -parameters
 
-
-
-
 ### -param _PhysicalAddress 
+
 [in]
 Specifies a physical address of an OS-dependent size.
 
-
 ### -param _Value 
+
 [in]
 Specifies the value to be written into the low-order part of the address.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff557129(v=vs.85)">NDIS_PHYSICAL_ADDRESS</a>
 
@@ -80,7 +72,4 @@ Specifies the value to be written into the low-order part of the address.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetphysicaladdresshigh">NdisSetPhysicalAddressHigh</a>
- 
-
- 
 

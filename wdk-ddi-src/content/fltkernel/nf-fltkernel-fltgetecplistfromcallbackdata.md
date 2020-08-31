@@ -8,9 +8,6 @@ ms.assetid: 4e172b98-81f8-4e20-a622-232378114cf3
 ms.date: 04/16/2018
 keywords: ["FltGetEcpListFromCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_781f52ec-4262-4205-81bb-2a0e824f50af.xml, FltGetEcpListFromCallbackData, FltGetEcpListFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetEcpListFromCallbackData, ifsk.fltgetecplistfromcallbackdata
-f1_keywords:
- - "fltkernel/FltGetEcpListFromCallbackData"
- - "FltGetEcpListFromCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetEcpListFromCallbackData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetEcpListFromCallbackData
+ - fltkernel/FltGetEcpListFromCallbackData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetEcpListFromCallbackData
 ---
 
 # FltGetEcpListFromCallbackData function
@@ -46,33 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltGetEcpListFromCallbackData </b>routine returns a pointer to an extra create parameter context structure (ECP) list that is associated with a given create operation callback-data object.
-
 
 ## -parameters
 
-
-
-
 ### -param Filter 
+
 [in]
 An opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
-
 
 ### -param CallbackData
 
 <p>A pointer to a callback-data object of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data"><b>FLT_CALLBACK_DATA</b></a>, which represents the create operation.</p>
 
-
 ### -param EcpList 
+
 [out]
 Receives a pointer to the ECP list that is associated with the <i>CallbackData</i> callback-data object.
 
-
 ## -returns
-
-
 
 <b>FltGetEcpListFromCallbackData </b>returns one of the following NTSTATUS values:
 
@@ -104,24 +96,12 @@ The given callback-data object was not an IRP-based create operation.  In this c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To attach an ECP list to a callback-data object, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -196,7 +176,4 @@ To attach an ECP list to a callback-data object, use the <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
- 
-
- 
 

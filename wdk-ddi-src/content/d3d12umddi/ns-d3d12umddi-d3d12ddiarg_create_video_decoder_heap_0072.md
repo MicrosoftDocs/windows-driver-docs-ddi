@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
 f1_keywords:
- - d3d12umddi//D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
  - D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
+ - d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
 dev_langs:
  - c++
 ---
@@ -96,3 +96,4 @@ See the [D3D Video Protected Resource Support Specification](https://microsoft.g
 ## -see-also
 
 [**D3D12DDI_VIDEO_DECODE_CONFIGURATION**](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md)
+

@@ -8,9 +8,6 @@ ms.assetid: a5c868a5-0e79-482b-9694-02cae2de99ca
 ms.date: 04/23/2018
 keywords: ["KsFilterFactoryUpdateCacheData function"]
 ms.keywords: KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, ks/KsFilterFactoryUpdateCacheData, stream.ksfilterfactoryupdatecachedata
-f1_keywords:
- - "ks/KsFilterFactoryUpdateCacheData"
- - "KsFilterFactoryUpdateCacheData"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsFilterFactoryUpdateCacheData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterFactoryUpdateCacheData
+ - ks/KsFilterFactoryUpdateCacheData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsFilterFactoryUpdateCacheData
 ---
 
 # KsFilterFactoryUpdateCacheData function
@@ -47,38 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsFilterFactoryUpdateCacheData</b> function updates the FilterData registry key and the Medium cache (a set of registry keys) for a given filter factory.
-
 
 ## -parameters
 
-
-
-
 ### -param FilterFactory 
+
 [in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> for which to update FilterData and Medium cache in the registry.
 
-
 ### -param FilterDescriptor 
+
 [in, optional]
 An optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a> for which the FilterData key and Medium cache will be updated. If <b>NULL</b>, <i>FilterFactory</i>'s descriptor is used instead. Provide if the filter factory uses dynamic pins and needs to update information for pins that have not yet been instantiated.
 
-
 ## -returns
-
-
 
 <b>
              KsFilterFactoryUpdateCacheData</b> returns STATUS_SUCCESS or a failure code, indicating whether the relevant registry information was successfully updated. It returns STATUS_INVALID_PARAMETER if no device interface is found that corresponds to the categories passed in the filter descriptor.
 
-
-
-
 ## -remarks
-
-
 
 This function updates the FilterData key and Medium cache for all categories specified in <i>FilterDescriptor</i>. If <i>FilterDescriptor</i> is <b>NULL</b>, the FilterData and Medium cache are updated for all categories specified in <i>FilterFactory</i>'s <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a> member.
 
@@ -94,12 +82,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 <div class="alert"><b>Note</b>  The <b>KsFilterFactoryUpdateCacheData</b> function can only be called in PASSIVE_LEVEL.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
 
@@ -110,7 +93,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksregisterfilterwithnokspins">KsRegisterFilterWithNoKSPins</a>
- 
-
- 
 

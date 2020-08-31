@@ -8,9 +8,6 @@ ms.assetid: 246573DB-5FEB-4068-8DB8-950F5EDFD1A9
 ms.date: 05/03/2018
 keywords: ["IDebugClient6::SetEventContextCallbacks"]
 ms.keywords: IDebugClient6 interface [Windows Debugging],SetEventContextCallbacks method, IDebugClient6.SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks, SetEventContextCallbacks, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging],IDebugClient6 interface, dbgeng/IDebugClient6::SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks
-f1_keywords:
- - "dbgeng/IDebugClient6.SetEventContextCallbacks"
- - "IDebugClient6.SetEventContextCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient6.SetEventContextCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient6::SetEventContextCallbacks
+ - dbgeng/IDebugClient6::SetEventContextCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient6.SetEventContextCallbacks
 ---
 
 # IDebugClient6::SetEventContextCallbacks
@@ -46,42 +46,26 @@ req.typenames:
 
 ## -description
 
-
-Registers an event callbacks object with this client. 
-
+Registers an event callbacks object with this client.
 
 ## -parameters
 
-
-
-
 ### -param Callbacks 
+
 [in, optional]
 The interface pointer to the event callbacks object.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-This event interface replaces the use of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>. 
-
-
-
+This event interface replaces the use of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient6">IDebugClient6</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>
- 
-
- 
 

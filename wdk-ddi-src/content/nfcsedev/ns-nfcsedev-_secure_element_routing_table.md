@@ -8,9 +8,6 @@ ms.assetid: AD5E6434-BBBF-44CB-8153-B8F4D4F75E94
 ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_ROUTING_TABLE structure"]
 ms.keywords: "*PSECURE_ELEMENT_ROUTING_TABLE, PSECURE_ELEMENT_ROUTING_TABLE, P_SECURE_ELEMENT_ROUTING_TABLE, P_SECURE_ELEMENT_ROUTING_TABLE structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ROUTING_TABLE, SECURE_ELEMENT_ROUTING_TABLE structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ROUTING_TABLE, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE, nfpdrivers._secure_element_routing_table"
-f1_keywords:
- - "nfcsedev/SECURE_ELEMENT_ROUTING_TABLE"
- - "SECURE_ELEMENT_ROUTING_TABLE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- SECURE_ELEMENT_ROUTING_TABLE
 targetos: Windows
 req.typenames: SECURE_ELEMENT_ROUTING_TABLE, *PSECURE_ELEMENT_ROUTING_TABLE
+f1_keywords:
+ - _SECURE_ELEMENT_ROUTING_TABLE
+ - nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE
+ - PSECURE_ELEMENT_ROUTING_TABLE
+ - nfcsedev/PSECURE_ELEMENT_ROUTING_TABLE
+ - SECURE_ELEMENT_ROUTING_TABLE
+ - nfcsedev/SECURE_ELEMENT_ROUTING_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - SECURE_ELEMENT_ROUTING_TABLE
 ---
 
 # _SECURE_ELEMENT_ROUTING_TABLE structure
@@ -46,19 +50,13 @@ req.typenames: SECURE_ELEMENT_ROUTING_TABLE, *PSECURE_ELEMENT_ROUTING_TABLE
 
 ## -description
 
-
 SECURE_ELEMENT_ROUTING_TABLE is an input parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_set_routing_table">IOCTL_NFCSE_SET_ROUTING_TABLE</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumberOfEntries
 
 Number of routing table entries.
-
 
 ### -field TableEntries
 

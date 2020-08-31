@@ -8,9 +8,6 @@ ms.assetid: 6C96CF49-A7B2-4A99-8C7A-FC1C8C389C18
 ms.date: 03/29/2018
 keywords: ["DELETE_BAND_PARAMETERS structure"]
 ms.keywords: "*PDELETE_BAND_PARAMETERS, DELBAND_ERASE_BEFORE_DELETE, DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], PDELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], _DELETE_BAND_PARAMETERS, ehstorbandmgmt/DELETE_BAND_PARAMETERS, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, storage.delete_band_parameters"
-f1_keywords:
- - "ehstorbandmgmt/DELETE_BAND_PARAMETERS"
- - "DELETE_BAND_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorBandMgmt.h
-api_name:
-- DELETE_BAND_PARAMETERS
 targetos: Windows
 req.typenames: DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
+f1_keywords:
+ - _DELETE_BAND_PARAMETERS
+ - ehstorbandmgmt/_DELETE_BAND_PARAMETERS
+ - PDELETE_BAND_PARAMETERS
+ - ehstorbandmgmt/PDELETE_BAND_PARAMETERS
+ - DELETE_BAND_PARAMETERS
+ - ehstorbandmgmt/DELETE_BAND_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorBandMgmt.h
+api_name:
+ - DELETE_BAND_PARAMETERS
 ---
 
 # _DELETE_BAND_PARAMETERS structure
@@ -46,19 +50,13 @@ req.typenames: DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
 
 ## -description
 
-
 A configured band is deleted according to the parameters in a <b>DELETE_BAND_PARAMETERS</b> structure. This structure is input for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band"> IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(DELETE_BAND_PARAMETERS).
-
 
 ### -field Flags
 
@@ -80,23 +78,18 @@ Perform a cryptographic erase of the band property data before delete.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved.
 
-
 ### -field BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId</b>. To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
 
-
 ### -field BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
-
 
 ### -field AuthKeyOffset
 
@@ -132,10 +125,7 @@ A variable-length byte array containing the key data.
 
 To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>. If <b>Flags</b> contains <b>DELBAND_ERASE_BEFORE_DELETE</b>, <b>AuthKeyOffset</b> must be set to <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
-
 ## -remarks
-
-
 
  Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>.
 
@@ -143,13 +133,7 @@ If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentica
 
 .
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>
 
@@ -160,7 +144,4 @@ If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentica
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
- 
-
- 
 

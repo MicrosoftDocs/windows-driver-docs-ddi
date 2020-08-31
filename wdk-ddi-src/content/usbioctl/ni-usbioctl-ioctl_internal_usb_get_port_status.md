@@ -8,9 +8,6 @@ ms.assetid: eb15d01c-e77c-4605-9c12-dd8495834875
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_PORT_STATUS IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_PORT_STATUS, IOCTL_INTERNAL_USB_GET_PORT_STATUS control, IOCTL_INTERNAL_USB_GET_PORT_STATUS control code [Buses], buses.ioctl_internal_usb_get_port_status, usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbirp_4fc2e386-093d-45b3-a74d-da66e711d71d.xml
-f1_keywords:
- - "usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS"
- - "IOCTL_INTERNAL_USB_GET_PORT_STATUS"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbioctl.h
-api_name:
-- IOCTL_INTERNAL_USB_GET_PORT_STATUS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_USB_GET_PORT_STATUS
+ - usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbioctl.h
+api_name:
+ - IOCTL_INTERNAL_USB_GET_PORT_STATUS
 ---
 
 # IOCTL_INTERNAL_USB_GET_PORT_STATUS IOCTL
@@ -46,57 +46,31 @@ req.typenames:
 
 ## -description
 
-
-
 The <b>IOCTL_INTERNAL_USB_GET_PORT_STATUS</b> I/O request queries the status of the PDO. 
 
 <b>IOCTL_INTERNAL_USB_GET_PORT_STATUS</b> is a kernel-mode I/O control request. This request targets the USB hub PDO. This IOCTL must be sent at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 <b>Parameters.Others.Argument1</b> should be a pointer to a ULONG to be filled in with the port status flags.
 
-
 ### -input-buffer-length
 
 The size of a ULONG.
-
 
 ### -output-buffer
 
 <b>Parameters.Others.Argument1</b> points to a ULONG that has the port status flags filled in. The flags can be one or both of USBD_PORT_ENABLED (bit 0) or USBD_PORT_CONNECTED (bit 1). When the USB_PORT_ENABLED bit is set, the port has been enabled after resetting the device connected to the port. When the USB_PORT_ENABLED bit is clear, software has disabled the port or hardware has disabled it due to abnormal hardware conditions. When the USB_PORT_CONNECTED bit is set, the host controller root hub or external hub has detected that a device is connected to the port. When the USB_PORT_CONNECTED bit is clear, the host controller root hub or external hub has detected that a device is not connected to the port.
 
-
 ### -output-buffer-length
 
 The size of a ULONG.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

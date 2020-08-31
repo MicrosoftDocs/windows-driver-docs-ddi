@@ -8,9 +8,6 @@ ms.assetid: f28d5220-1f02-4984-a4d1-d4c45ea16aa7
 ms.date: 04/04/2018
 keywords: ["IWDTFEnhancedDeviceTestSupportActions2::Enable"]
 ms.keywords: Enable, Enable method [Windows Device Testing Framework], Enable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],Enable method, IWDTFEnhancedDeviceTestSupportActions2.Enable, IWDTFEnhancedDeviceTestSupportActions2::Enable, dtf.iwdtfenhanceddevicetestsupportactions2_enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Enable
-f1_keywords:
- - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2.Enable"
- - "IWDTFEnhancedDeviceTestSupportActions2.Enable"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfedtaction.h
-api_name:
-- IWDTFEnhancedDeviceTestSupportActions2.Enable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFEnhancedDeviceTestSupportActions2::Enable
+ - wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Enable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfedtaction.h
+api_name:
+ - IWDTFEnhancedDeviceTestSupportActions2.Enable
 ---
 
 # IWDTFEnhancedDeviceTestSupportActions2::Enable
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Enables the Enhanced Device Test (EDT) filter driver on the target device.
-
 
 ## -parameters
 
-
-
-
 ### -param pbRebootRequired 
+
 [out, retval]
 True if the operation requires a restart to complete; otherwise, false.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFEnhancedDeviceTestSupportActions2</a>
- 
-
- 
 

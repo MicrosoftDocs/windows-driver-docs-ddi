@@ -8,9 +8,6 @@ ms.assetid: F2A3D1F0-E6E7-46DC-875A-7F36E6ACBC6D
 ms.date: 05/02/2018
 keywords: ["WDI_ACTION_FRAME_CATEGORY enumeration"]
 ms.keywords: WDI_ACTION_FRAME_CATEGORY, WDI_ACTION_FRAME_CATEGORY enumeration [Device and Driver Installation], WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, WDI_ACTION_FRAME_CATEGORY_PUBLIC, WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, WDI_ACTION_FRAME_CATEGORY_WNM, _WDI_ACTION_FRAME_CATEGORY, netvista.wdi_action_frame_category, netvista.wifi_action_frame_category, wditypes/WDI_ACTION_FRAME_CATEGORY, wditypes/WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, wditypes/WDI_ACTION_FRAME_CATEGORY_PUBLIC, wditypes/WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, wditypes/WDI_ACTION_FRAME_CATEGORY_WNM
-f1_keywords:
- - "wditypes/WDI_ACTION_FRAME_CATEGORY"
- - "WDI_ACTION_FRAME_CATEGORY"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_ACTION_FRAME_CATEGORY
 targetos: Windows
 req.typenames: WDI_ACTION_FRAME_CATEGORY
+f1_keywords:
+ - _WDI_ACTION_FRAME_CATEGORY
+ - wditypes/_WDI_ACTION_FRAME_CATEGORY
+ - WDI_ACTION_FRAME_CATEGORY
+ - wditypes/WDI_ACTION_FRAME_CATEGORY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_ACTION_FRAME_CATEGORY
 ---
 
 # _WDI_ACTION_FRAME_CATEGORY enumeration
@@ -46,14 +48,9 @@ req.typenames: WDI_ACTION_FRAME_CATEGORY
 
 ## -description
 
-
 The WDI_ACTION_FRAME_CATEGORY enumeration defines the action frame categories.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_ACTION_FRAME_CATEGORY_PUBLIC
 
@@ -69,11 +66,9 @@ Specifies a Public Action frame.  It is used in:
 
 Specifies a Radio Measurement Report frame. It is transmitted by a STA requesting another STA to make one or more measurements on one or more channels.
 
-
 ### -field WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION
 
 Specifies a Fast BSS Transition Action frame.  It is used by a currently-associated AP to enable fast BSS transitions over the DS.  Over the DS transitions are not supported in Windows 10.
-
 
 ### -field WDI_ACTION_FRAME_CATEGORY_WNM
 

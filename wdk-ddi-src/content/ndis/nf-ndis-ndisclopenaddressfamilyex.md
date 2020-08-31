@@ -8,9 +8,6 @@ ms.assetid: 54170917-60b4-4d8f-bf92-df7d7dc0faee
 ms.date: 05/02/2018
 keywords: ["NdisClOpenAddressFamilyEx function"]
 ms.keywords: NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, ndis/NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex
-f1_keywords:
- - "ndis/NdisClOpenAddressFamilyEx"
- - "NdisClOpenAddressFamilyEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisClOpenAddressFamilyEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisClOpenAddressFamilyEx
+ - ndis/NdisClOpenAddressFamilyEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisClOpenAddressFamilyEx
 ---
 
 # NdisClOpenAddressFamilyEx function
@@ -47,26 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisClOpenAddressFamilyEx</b> function registers an address family (AF) that is associated with a call
   manager for a connection-oriented client.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisBindingHandle 
+
 [in]
 The handle that 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> returns and that
      identifies the target network interface card (NIC) or the virtual adapter of the next-lower driver that
      the caller is bound to.
 
-
 ### -param AddressFamily 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that describes
@@ -78,24 +74,21 @@ This pointer is an input parameter to the client's
      ProtocolCoAfRegisterNotify</a> function, which calls 
      <b>NdisClOpenAddressFamilyEx</b>.
 
-
 ### -param ClientAfContext 
+
 [in]
 The handle to a caller-supplied resident context area in which the client maintains state for this
      AF after the AF has been opened. NDIS passes this handle back to the client in all subsequent calls
      concerning this AF if the call to 
      <b>NdisClOpenAddressFamilyEx</b> succeeds.
 
-
 ### -param NdisAfHandle 
+
 [out]
 A pointer to a caller-supplied variable in which 
      <b>NdisClOpenAddressFamilyEx</b> returns a handle that represents the newly opened address family.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisClOpenAddressFamilyEx</b> returns anything other than NDIS_STATUS_PENDING, the client should make
@@ -104,12 +97,7 @@ When
      ProtocolClOpenAfCompleteEx</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClOpenAfCompleteEx</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 A CoNDIS client calls 
     <b>NdisClOpenAddressFamilyEx</b> from its 
@@ -149,13 +137,7 @@ NDIS passes the pointer from the
     allocated at 
     <i>ClientAfContext</i> .
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
 
@@ -199,7 +181,4 @@ NDIS passes the pointer from the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
- 
-
- 
 

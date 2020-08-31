@@ -8,39 +8,39 @@ ms.assetid: a70770b8-04a4-4012-9f1b-dcf62cdc5a8b
 ms.author: windowsdriverdev
 ms.date: 10/08/2019
 keywords: ["NetDeviceGetWakeSourceList function"]
-f1_keywords:
- - "netwakesourcelist/NetDeviceGetWakeSourceList"
- - "NetDeviceGetWakeSourceList"
 ms.keywords: NetDeviceGetWakeSourceList
 req.header: netwakesourcelist.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetDeviceGetWakeSourceList
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetDeviceGetWakeSourceList
+ - netwakesourcelist/NetDeviceGetWakeSourceList
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetDeviceGetWakeSourceList
+product:
+ - Windows
 ---
 
 # NetDeviceGetWakeSourceList function
@@ -79,3 +79,4 @@ For a code sample of working with NETWAKESOURCE objects, see [Configuring power 
 [**NET_WAKE_SOURCE_LIST_INIT**](../netwakesourcelist/nf-netwakesourcelist-net_wake_source_list_init.md)
 
 [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md)
+

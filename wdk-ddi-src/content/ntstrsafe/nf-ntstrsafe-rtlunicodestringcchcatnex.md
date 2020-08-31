@@ -8,9 +8,6 @@ ms.assetid: 190d5133-c0f4-40f9-9005-7612881b3530
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCchCatNEx function"]
 ms.keywords: RtlUnicodeStringCchCatNEx, RtlUnicodeStringCchCatNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatnex, ntstrsafe/RtlUnicodeStringCchCatNEx, safestrings_31ae2a1e-4ec4-4cd3-b5d4-f966860fa50a.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringCchCatNEx"
- - "RtlUnicodeStringCchCatNEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringCchCatNEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringCchCatNEx
+ - ntstrsafe/RtlUnicodeStringCchCatNEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringCchCatNEx
 ---
 
 # RtlUnicodeStringCchCatNEx function
@@ -47,36 +47,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlUnicodeStringCchCatNEx</b> function concatenates two strings that are contained in <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures while limiting the size of the copied string.
-
 
 ## -parameters
 
-
-
-
 ### -param DestinationString 
+
 [in, out]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string is added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param SourceString 
+
 [in]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that contains the source string. This string will be added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>SourceString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param cchToAppend 
+
 [in]
 The maximum number of characters to append to the string that the <i>DestinationString</i> parameter describes.
 
-
 ### -param RemainingString 
+
 [out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
-
 ### -param dwFlags 
+
 [in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
@@ -118,10 +114,7 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the content
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
 
-
 ## -returns
-
-
 
 <b>RtlUnicodeStringCchCatNEx</b> returns one of the following NTSTATUS values. 
 
@@ -179,12 +172,7 @@ This <i>error</i> status means that the function received an invalid input param
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlUnicodeStringCchCatNEx</b> function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
@@ -194,15 +182,9 @@ If the source and destination strings overlap, the behavior of the function is u
 
 The <i>SourceString</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both can be <b>NULL</b>. If the <i>DestinationString</i> pointer is <b>NULL</b>, the <i>SourceString</i> pointer must be <b>NULL</b> or the <b>UNICODE_STRING</b> structure must specify an empty string.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatnex">RtlUnicodeStringCbCatNEx</a>
 
@@ -213,7 +195,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

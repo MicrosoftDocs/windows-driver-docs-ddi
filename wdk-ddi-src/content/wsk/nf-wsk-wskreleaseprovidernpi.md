@@ -8,9 +8,6 @@ ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.date: 05/02/2018
 keywords: ["WskReleaseProviderNPI function"]
 ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
-f1_keywords:
- - "wsk/WskReleaseProviderNPI"
- - "WskReleaseProviderNPI"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Netio.lib
-- Netio.dll
-api_name:
-- WskReleaseProviderNPI
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WskReleaseProviderNPI
+ - wsk/WskReleaseProviderNPI
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Netio.lib
+ - Netio.dll
+api_name:
+ - WskReleaseProviderNPI
 ---
 
 # WskReleaseProviderNPI function
@@ -47,29 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskReleaseProviderNPI</b> function releases a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a> that was captured with 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param WskRegistration 
+
 [in]
 A pointer to the memory location initialized by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance.
 
-
 ## -remarks
-
-
 
 For each call to
     <b>WskCaptureProviderNPI</b> that returns a success code, there must be exactly one corresponding 
@@ -78,20 +71,11 @@ For each call to
     <i>WskRegistration</i> parameter that was passed to 
     <b>WskCaptureProviderNPI</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::AddDumpInformationFileWide"]
 ms.keywords: AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide method [Windows Debugging],IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],AddDumpInformationFileWide method, IDebugClient4.AddDumpInformationFileWide, IDebugClient4::AddDumpInformationFileWide, IDebugClient5 interface [Windows Debugging],AddDumpInformationFileWide method, IDebugClient5::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, dbgeng/IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide
-f1_keywords:
- - "dbgeng/IDebugClient4.AddDumpInformationFileWide"
- - "IDebugClient4.AddDumpInformationFileWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient4.AddDumpInformationFileWide
-- IDebugClient5.AddDumpInformationFileWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::AddDumpInformationFileWide
+ - dbgeng/IDebugClient4::AddDumpInformationFileWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient4.AddDumpInformationFileWide
+ - IDebugClient5.AddDumpInformationFileWide
 ---
 
 # IDebugClient4::AddDumpInformationFileWide
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>AddDumpInformationFileWide</b> method registers additional files containing supporting information that will be used when opening a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/d">dump file</a>.  The ASCII version of this method is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-adddumpinformationfile">AddDumpInformationFile</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param FileName 
+
 [in, optional]
 Specifies the name of the file containing the supporting information.  If <i>FileHandle</i> is not zero, <i>FileName</i> is used only for informational purposes.
 
-
 ### -param FileHandle 
+
 [in]
 Specifies the handle of the file containing the supporting information.  If <i>FileHandle</i> is zero, the file named in <i>FileName</i> is used.
 
-
 ### -param Type 
+
 [in]
 Specifies the type of the file in <i>FileName</i> or <i>FileHandle</i>.  Currently, only files containing paging file information are supported, and <i>Type</i> must be set to DEBUG_DUMP_FILE_PAGE_FILE_DUMP.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -94,26 +87,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If supporting information is to be used when opening a dump file, this method or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-adddumpinformationfile">AddDumpInformationFile</a> must be called before <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-opendumpfile">OpenDumpFile</a> is called. If a session has already started, this method cannot be used.
 
 For more information about crash dump files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dump-file-targets">Dump-File Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-adddumpinformationfile">AddDumpInformationFile</a>
 
@@ -140,7 +121,4 @@ For more information about crash dump files, see <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-opendumpfilewide">OpenDumpFileWide</a>
- 
-
- 
 

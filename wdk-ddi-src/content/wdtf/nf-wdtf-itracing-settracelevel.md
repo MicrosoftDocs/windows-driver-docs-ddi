@@ -8,9 +8,6 @@ ms.assetid: 3b0b43c4-24b9-41e7-9861-6733c79bf40a
 ms.date: 04/04/2018
 keywords: ["ITracing::SetTraceLevel"]
 ms.keywords: ITracing interface [Windows Device Testing Framework],SetTraceLevel method, ITracing.SetTraceLevel, ITracing::SetTraceLevel, ITracing_e998383b-984d-4f24-b684-06e81e453714.xml, SetTraceLevel, SetTraceLevel method [Windows Device Testing Framework], SetTraceLevel method [Windows Device Testing Framework],ITracing interface, dtf.itracing_settracelevel, wdtf/ITracing::SetTraceLevel
-f1_keywords:
- - "wdtf/ITracing.SetTraceLevel"
- - "ITracing.SetTraceLevel"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtf.h
-api_name:
-- ITracing.SetTraceLevel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ITracing::SetTraceLevel
+ - wdtf/ITracing::SetTraceLevel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtf.h
+api_name:
+ - ITracing.SetTraceLevel
 ---
 
 # ITracing::SetTraceLevel
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetTraceLevel</b> method sets the tracing level for an object. Every object in the WDTF object model should support the <b>SetTraceLevel</b> method
-
 
 ## -parameters
 
-
-
-
 ### -param Level 
+
 [in]
 The new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> value for this object.
 
-
 ## -returns
-
-
 
 <b>SetTraceLevel</b> returns a standard <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 For more information about tracing levels, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>.
 
@@ -171,12 +159,7 @@ else
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>
 
@@ -187,7 +170,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a>
- 
-
- 
 

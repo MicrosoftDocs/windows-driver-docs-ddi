@@ -7,9 +7,6 @@ ms.assetid: C65880F7-DFCA-4DF9-ABF1-95A82D1D43ED
 ms.date: 05/10/2018
 keywords: ["D3DKMTWaitForSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromCpu, D3DKMTWaitForSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu, display.d3dkmtwaitforsynchronizationobjectfromcpu
-f1_keywords:
- - "d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu"
- - "D3DKMTWaitForSynchronizationObjectFromCpu"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,23 +24,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTWaitForSynchronizationObjectFromCpu
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTWaitForSynchronizationObjectFromCpu
+ - d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTWaitForSynchronizationObjectFromCpu
 ---
 
 # D3DKMTWaitForSynchronizationObjectFromCpu function
+
 
 ## -description
 
@@ -71,3 +72,4 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromcpu">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU</a>
+

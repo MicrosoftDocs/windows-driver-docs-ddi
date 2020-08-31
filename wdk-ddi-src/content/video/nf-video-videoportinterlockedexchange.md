@@ -8,9 +8,6 @@ ms.assetid: a01f1552-7bc5-4ae7-a195-c4cfc3553595
 ms.date: 05/10/2018
 keywords: ["VideoPortInterlockedExchange function"]
 ms.keywords: VideoPortInterlockedExchange, VideoPortInterlockedExchange function [Display Devices], VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, display.videoportinterlockedexchange, video/VideoPortInterlockedExchange
-f1_keywords:
- - "video/VideoPortInterlockedExchange"
- - "VideoPortInterlockedExchange"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortInterlockedExchange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortInterlockedExchange
+ - video/VideoPortInterlockedExchange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortInterlockedExchange
 ---
 
 # VideoPortInterlockedExchange function
@@ -46,49 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortInterlockedExchange</b> function locks or unlocks a block of memory by setting a user-defined lock variable to <b>TRUE</b> or <b>FALSE</b>, respectively. It returns the previously-held value of the lock variable.
-
 
 ## -parameters
 
-
-
-
 ### -param Target 
-[in, out]
-Pointer to a user-defined lock variable that is used to control access to a memory buffer. 
 
+[in, out]
+Pointer to a user-defined lock variable that is used to control access to a memory buffer.
 
 ### -param Value 
-[in]
-Specifies the value to be stored in <i>Target</i>, which indicates whether the memory buffer is to be locked or unlocked. Use <b>TRUE</b> to lock the memory buffer, and <b>FALSE</b> to unlock the memory buffer. 
 
+[in]
+Specifies the value to be stored in <i>Target</i>, which indicates whether the memory buffer is to be locked or unlocked. Use <b>TRUE</b> to lock the memory buffer, and <b>FALSE</b> to unlock the memory buffer.
 
 ## -returns
 
-
-
 <b>VideoPortInterlockedExchange</b> returns the value that <i>Target</i> had prior to the function call.
-
-
-
 
 ## -remarks
 
-
-
 <b>VideoPortInterlockedExchange</b> can be used to prevent DMA common-buffer contention in multiple-processor systems.
 
-When the buffer is not being read from or written to, the lock variable should have a value of <b>FALSE</b>. A subsequent call to <b>VideoPortInterlockedExchange</b> with its <i>Target</i> parameter set to <b>TRUE</b> resets the lock variable to <b>TRUE</b>, after which this function returns <b>FALSE</b>. The buffer is now locked, preventing access by other threads. When the current operations on the buffer are complete, unlock the buffer with a call to <b>VideoPortInterlockedExchange</b> with its <i>Target</i> parameter set to <b>FALSE</b>. 
-
-
-
+When the buffer is not being read from or written to, the lock variable should have a value of <b>FALSE</b>. A subsequent call to <b>VideoPortInterlockedExchange</b> with its <i>Target</i> parameter set to <b>TRUE</b> resets the lock variable to <b>TRUE</b>, after which this function returns <b>FALSE</b>. The buffer is now locked, preventing access by other threads. When the current operations on the buffer are complete, unlock the buffer with a call to <b>VideoPortInterlockedExchange</b> with its <i>Target</i> parameter set to <b>FALSE</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>
 
@@ -99,7 +81,4 @@ When the buffer is not being read from or written to, the lock variable should h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockedincrement">VideoPortInterlockedIncrement</a>
- 
-
- 
 

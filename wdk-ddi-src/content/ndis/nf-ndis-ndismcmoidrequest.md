@@ -8,9 +8,6 @@ ms.assetid: c5523dff-4957-4265-82ef-2fbc009e6bef
 ms.date: 05/02/2018
 keywords: ["NdisMCmOidRequest function"]
 ms.keywords: NdisMCmOidRequest, NdisMCmOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, ndis/NdisMCmOidRequest, netvista.ndismcmoidrequest
-f1_keywords:
- - "ndis/NdisMCmOidRequest"
- - "NdisMCmOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCmOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmOidRequest
+ - ndis/NdisMCmOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCmOidRequest
 ---
 
 # NdisMCmOidRequest function
@@ -47,25 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisMCmOidRequest</b> function sends an OID request from a miniport call manager (MCM) driver to a CoNDIS
   client.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisAfHandle 
+
 [in]
 A handle that identifies the address family (AF), and implicitly the client, that the OID request
      is directed to. The MCM driver originally obtained this handle as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
-
 ### -param NdisVcHandle 
+
 [in, optional]
 A handle that identifies the virtual connection (VC) that the caller is requesting or setting
      information for, if the request is VC-specific. Otherwise, if this request is not VC-specific, this
@@ -75,8 +71,8 @@ A handle that identifies the virtual connection (VC) that the caller is requesti
      parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
-
 ### -param NdisPartyHandle 
+
 [in, optional]
 A handle that identifies the party on a multipoint VC that the caller is requesting or setting
      information for, if the request is party-specific. Otherwise, if this request is not party-specific,
@@ -84,15 +80,12 @@ A handle that identifies the party on a multipoint VC that the caller is request
      as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
-
 ### -param NdisOidRequest
 
 A pointer to a caller-allocated buffer that contains an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
 
 ## -returns
-
-
 
 <b>NdisMCmOidRequest</b> returns one of the following values:
 
@@ -217,14 +210,8 @@ The target driver stopped processing the request.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To initiate OID requests to CoNDIS clients, MCM drivers call the 
     <b>NdisMCmOidRequest</b> function. Before an MCM driver calls 
@@ -261,13 +248,7 @@ For more information about the OIDs that are defined to use with
     <b>NdisMCmOidRequest</b>, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -295,7 +276,4 @@ For more information about the OIDs that are defined to use with
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request_complete">
    ProtocolCoOidRequestComplete</a>
- 
-
- 
 

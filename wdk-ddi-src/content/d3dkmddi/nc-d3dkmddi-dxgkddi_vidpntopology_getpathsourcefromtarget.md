@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetPathSourceFromTarget"
- - "pfnGetPathSourceFromTarget"
+ - DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET callback function
+
 
 ## -description
 

@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.SetKeyValue
 title: IModelKeyReference2::SetKeyValue (dbgmodel.h)
-description: The SetKeyValue method on a key reference behaves as the SetKeyValue method on IModelObject would. 
+description: The SetKeyValue method on a key reference behaves as the SetKeyValue method on IModelObject would.
 ms.assetid: 598b054d-e083-41c2-80c0-cd8c8a12c1b7
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::SetKeyValue"]
-f1_keywords:
- - "dbgmodel/IModelKeyReference2.SetKeyValue"
- - "IModelKeyReference2.SetKeyValue"
 ms.keywords: IModelKeyReference2::SetKeyValue, SetKeyValue, IModelKeyReference2.SetKeyValue, IModelKeyReference2::SetKeyValue, IModelKeyReference2.SetKeyValue
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelKeyReference2.SetKeyValue
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelKeyReference2::SetKeyValue
+ - dbgmodel/IModelKeyReference2::SetKeyValue
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelKeyReference2.SetKeyValue
 ---
 
 # IModelKeyReference2::SetKeyValue
@@ -44,14 +44,16 @@ ms.custom: RS5
 
 ## -description
 
-The SetKeyValue method on a key reference behaves as the SetKeyValue method on [IModelObject](nn-dbgmodel-imodelobject.md) would. It will assign the value of the key. If the original key was a property accessor, this will call the underlying SetValue method on the property accessor rather than replacing the property accessor itself. 
+The SetKeyValue method on a key reference behaves as the SetKeyValue method on [IModelObject](nn-dbgmodel-imodelobject.md) would. It will assign the value of the key. If the original key was a property accessor, this will call the underlying SetValue method on the property accessor rather than replacing the property accessor itself.
 
 ## -parameters
 
 ### -param object
+
 The value to assign to the key.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -87,3 +89,4 @@ if (SUCCEEDED(spObject->GetKeyReference(L"Id", &spKeyRef, nullptr)))
 ## -see-also
 
 [IModelKeyReference2 interface](nn-dbgmodel-imodelkeyreference2.md)
+

@@ -8,39 +8,39 @@ ms.assetid: 2380726e-eef7-43fb-aa6a-9109232eff1f
 ms.author: windowsdriverdev
 ms.date: 10/08/2019
 keywords: ["NetWakeSourceListGetCount function"]
-f1_keywords:
- - "netwakesourcelist/NetWakeSourceListGetCount"
- - "NetWakeSourceListGetCount"
 ms.keywords: NetWakeSourceListGetCount
 req.header: netwakesourcelist.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetWakeSourceListGetCount
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetWakeSourceListGetCount
+ - netwakesourcelist/NetWakeSourceListGetCount
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetWakeSourceListGetCount
+product:
+ - Windows
 ---
 
 # NetWakeSourceListGetCount function
@@ -77,3 +77,4 @@ For a code sample of working with NETWAKESOURCE objects, see [Configuring power 
 [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md)
 
 [**NetDeviceGetWakeSourceList**](../netwakesourcelist/nf-netwakesourcelist-netdevicegetwakesourcelist.md)
+

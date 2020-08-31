@@ -8,9 +8,6 @@ ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2TEXBLT structure"]
 ms.keywords: "*LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], _D3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, display.d3dhal_dp2texblt"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2TEXBLT"
- - "D3DHAL_DP2TEXBLT"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2TEXBLT
 targetos: Windows
 req.typenames: D3DHAL_DP2TEXBLT
+f1_keywords:
+ - _D3DHAL_DP2TEXBLT
+ - d3dhal/_D3DHAL_DP2TEXBLT
+ - D3DHAL_DP2TEXBLT
+ - d3dhal/D3DHAL_DP2TEXBLT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2TEXBLT
 ---
 
 # _D3DHAL_DP2TEXBLT structure
@@ -46,43 +48,31 @@ req.typenames: D3DHAL_DP2TEXBLT
 
 ## -description
 
-
 The D3DHAL_DP2TEXBLT structure is used for texture blts when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> responds to the D3DDP2OP_TEXBLT command token.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwDDDestSurface
 
 Specifies the handle to the destination texture.
 
-
 ### -field dwDDSrcSurface
 
 Specifies the handle to the source texture.
-
 
 ### -field pDest
 
 Specifies the destination point where the blt should be performed, that is, the point in the destination surface (<b>dwDDDestSurface</b>) to begin the blt. These <i>x</i> and <i>y</i> members of the POINT structure are specified in screen coordinates.
 
-
 ### -field rSrc
 
 Specifies the rectangle to be blitted in the source texture, that is, the source rectangle in the source surface (<b>dwDDSrcSurface</b>) to blt from.
-
 
 ### -field dwFlags
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> callback creates the small integer handles to the textures that can be used as source and destination textures for texture blts.
 
@@ -115,11 +105,7 @@ rect.bottom = ((bottom - rect.top ) < 1) ?
     (rect.top + 1) : (bottom);
 ```
 
-
 ## -see-also
-
-
-
 
 D3DDP2OP_TEXBLT
 
@@ -130,7 +116,4 @@ D3DDP2OP_TEXBLT
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

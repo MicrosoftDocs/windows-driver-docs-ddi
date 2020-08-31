@@ -7,9 +7,6 @@ ms.assetid: 044dc1cd-426e-4f6c-b14d-8c366834b5ac
 ms.date: 05/10/2018
 keywords: ["D3D11_1_DDI_COPY_FLAGS enumeration"]
 ms.keywords: D3D11_1DDI_COPY_DISCARD, D3D11_1DDI_COPY_NO_OVERWRITE, D3D11_1DDI_COPY_TILEABLE, D3D11_1_DDI_COPY_FLAGS, D3D11_1_DDI_COPY_FLAGS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_COPY_DISCARD, d3d10umddi/D3D11_1DDI_COPY_NO_OVERWRITE, d3d10umddi/D3D11_1DDI_COPY_TILEABLE, d3d10umddi/D3D11_1_DDI_COPY_FLAGS, display.d3d11_1_ddi_copy_flags
-f1_keywords:
- - "d3d10umddi/D3D11_1_DDI_COPY_FLAGS"
- - "D3D11_1_DDI_COPY_FLAGS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1_DDI_COPY_FLAGS
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1_DDI_COPY_FLAGS
+f1_keywords:
+ - D3D11_1_DDI_COPY_FLAGS
+ - d3d10umddi/D3D11_1_DDI_COPY_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1_DDI_COPY_FLAGS
 ---
 
 # D3D11_1_DDI_COPY_FLAGS enumeration
@@ -46,24 +46,17 @@ req.typenames: D3D11_1_DDI_COPY_FLAGS
 
 ## -description
 
-
 Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_1DDI_COPY_NO_OVERWRITE
 
 The caller guarantees that the portion of the surface that is being written to with new data is not currently being referenced or accessed by any previous render operation. The driver can take advantage of this capability to optimize performance and memory usage.
 
-
 ### -field D3D11_1DDI_COPY_DISCARD
 
 The user-mode display driver can discard previous contents of the entire resource. The driver can take advantage of this capability to optimize performance and memory usage.
-
 
 ### -field D3D11_1DDI_COPY_TILEABLE
 

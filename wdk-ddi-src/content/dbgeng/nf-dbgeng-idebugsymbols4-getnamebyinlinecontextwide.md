@@ -8,9 +8,6 @@ ms.assetid: D77F5755-75B0-48E6-BC5C-565022F884E1
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols4::GetNameByInlineContextWide"]
 ms.keywords: GetNameByInlineContextWide, GetNameByInlineContextWide method [Windows Debugging], GetNameByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetNameByInlineContextWide method, IDebugSymbols4.GetNameByInlineContextWide, IDebugSymbols4::GetNameByInlineContextWide, dbgeng/IDebugSymbols4::GetNameByInlineContextWide, debugger.idebugsymbols4_getnamebyinlinecontextwide
-f1_keywords:
- - "dbgeng/IDebugSymbols4.GetNameByInlineContextWide"
- - "IDebugSymbols4.GetNameByInlineContextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols4.GetNameByInlineContextWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols4::GetNameByInlineContextWide
+ - dbgeng/IDebugSymbols4::GetNameByInlineContextWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols4.GetNameByInlineContextWide
 ---
 
 # IDebugSymbols4::GetNameByInlineContextWide
@@ -46,61 +46,45 @@ req.typenames:
 
 ## -description
 
-
 Gets a name by inline context.
-
 
 ## -parameters
 
-
-
-
 ### -param Offset 
+
 [in]
 An offset for the inline context.
 
-
 ### -param InlineContext 
+
 [in]
 The inline context.
 
-
 ### -param NameBuffer 
+
 [out]
 A pointer an output buffer for a Unicode character string.
 
-
 ### -param NameBufferSize 
+
 [in]
 The size of the name buffer.
 
-
 ### -param NameSize 
+
 [out, optional]
 A pointer to the length of the name.
 
-
 ### -param Displacement 
+
 [out, optional]
 A pointer to the displacement value of the name.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols4">IDebugSymbols4</a>
- 
-
- 
 

@@ -8,32 +8,35 @@ ms.assetid: 2e552374-3964-49e4-9fc1-3befeebaced1
 ms.author: windowsdriverdev
 ms.date: 02/13/2019
 keywords: ["WDI_LCI_REPORT_STATUS enumeration"]
-f1_keywords:
- - "wditypes/WDI_LCI_REPORT_STATUS"
- - "WDI_LCI_REPORT_STATUS"
-ms.keywords: WDI_LCI_REPORT_STATUS, WDI_LCI_REPORT_STATUS, 
+ms.keywords: WDI_LCI_REPORT_STATUS, WDI_LCI_REPORT_STATUS,
 req.header: wditypes.hpp
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WDI_LCI_REPORT_STATUS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - wditypes.hpp
-api_name: 
- - WDI_LCI_REPORT_STATUS
 targetos: Windows
+f1_keywords:
+ - _WDI_LCI_REPORT_STATUS
+ - wditypes/_WDI_LCI_REPORT_STATUS
+ - WDI_LCI_REPORT_STATUS
+ - wditypes/WDI_LCI_REPORT_STATUS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_LCI_REPORT_STATUS
 ---
 
 # WDI_LCI_REPORT_STATUS enumeration
+
 
 ## -description
 
@@ -68,3 +71,4 @@ This enumeration is a value in the [WDI_TLV_FTM_RESPONSE](https://docs.microsoft
 [NDIS_STATUS_WDI_INDICATION_REQUEST_FTM_COMPLETE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-request-ftm-complete)
 
 [OID_WDI_TASK_REQUEST_FTM](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-task-request-ftm)
+

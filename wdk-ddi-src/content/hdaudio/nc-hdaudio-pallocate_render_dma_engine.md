@@ -8,9 +8,6 @@ ms.assetid: fb2a64ca-7e8e-4352-86c6-b9500e535c75
 ms.date: 05/08/2018
 keywords: ["PALLOCATE_RENDER_DMA_ENGINE callback function"]
 ms.keywords: AllocateRenderDmaEngine, AllocateRenderDmaEngine callback function [Audio Devices], PALLOCATE_RENDER_DMA_ENGINE, PALLOCATE_RENDER_DMA_ENGINE callback, aud-prop2_69a03ff9-5eda-4f39-85cf-e4af523214e1.xml, audio.allocaterenderdmaengine, hdaudio/AllocateRenderDmaEngine
-f1_keywords:
- - "hdaudio/AllocateRenderDmaEngine"
- - "AllocateRenderDmaEngine"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- hdaudio.h
-api_name:
-- AllocateRenderDmaEngine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PALLOCATE_RENDER_DMA_ENGINE
+ - hdaudio/PALLOCATE_RENDER_DMA_ENGINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - hdaudio.h
+api_name:
+ - AllocateRenderDmaEngine
 ---
 
 # PALLOCATE_RENDER_DMA_ENGINE callback function
@@ -46,45 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The <code>AllocateRenderDmaEngine</code> routine allocates a DMA engine for a render stream.
 
 The function pointer type for an <code>AllocateRenderDmaEngine</code> routine is defined as follows.
 
-
 ## -parameters
 
-
-
-
 ### -param _context 
+
 [in]
 Specifies the context value from the <b>Context</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>,</u><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structures.
 
-
 ### -param StreamFormat 
+
 [in]
 Specifies the requested stream format. This parameter points to a caller-allocated structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_stream_format">HDAUDIO_STREAM_FORMAT</a> that specifies a data format for the stream.
 
-
 ### -param Stripe 
+
 [in]
 Specifies whether to enable striping. If <b>TRUE</b>, the routine enables striping in the DMA transfers. If <b>FALSE</b>, striping is disabled.
 
-
 ### -param Handle 
+
 [out]
 Retrieves the handle to the DMA engine. This parameter points to a caller-allocated HANDLE variable into which the routine writes a handle that identifies the DMA engine.
 
-
 ### -param ConverterFormat 
+
 [out]
 Retrieves the converter format. This parameter points to a caller-allocated structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_converter_format">HDAUDIO_CONVERTER_FORMAT</a> into which the routine writes the encoded format.
 
-
 ## -returns
-
-
 
 <code>AllocateRenderDmaEngine</code> returns STATUS_SUCCESS if the call succeeds in reserving a DMA engine. Otherwise, the routine returns an appropriate error code. The following table shows some of the possible return error codes.
 
@@ -127,14 +120,8 @@ Indicates that one of the parameter values is incorrect (invalid parameter value
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine allocates a render DMA engine and specifies the data format for the stream. If successful, the routine outputs a handle that the caller subsequently uses to identify the DMA engine.
 
@@ -162,13 +149,7 @@ Immediately following a successful call to <code>AllocateRenderDmaEngine</code>,
 
 A WDM audio driver calls <code>AllocateRenderDmaEngine</code> at pin-creation time during execution of its <b>NewStream</b> method (for example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_dma_buffer">AllocateDmaBuffer</a>
 
@@ -203,7 +184,4 @@ A WDM audio driver calls <code>AllocateRenderDmaEngine</code> at pin-creation ti
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>
- 
-
- 
 

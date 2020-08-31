@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE"
- - "*DXGKCB_INDICATE_CONNECTOR_CHANGE"
+ - DXGKCB_INDICATE_CONNECTOR_CHANGE
+ - d3dkmddi/DXGKCB_INDICATE_CONNECTOR_CHANGE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKCB_INDICATE_CONNECTOR_CHANGE callback function
+
 
 ## -description
 

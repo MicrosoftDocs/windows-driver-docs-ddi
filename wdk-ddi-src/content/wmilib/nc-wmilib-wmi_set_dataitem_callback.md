@@ -8,9 +8,6 @@ ms.assetid: 409adf29-7f2b-465b-aa2d-28bbcc31a574
 ms.date: 04/30/2018
 keywords: ["WMI_SET_DATAITEM_CALLBACK callback function"]
 ms.keywords: DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], WMI_SET_DATAITEM_CALLBACK, WMI_SET_DATAITEM_CALLBACK callback, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml, kernel.dpwmisetdataitem, wmilib/DpWmiSetDataItem
-f1_keywords:
- - "wmilib/DpWmiSetDataItem"
- - "DpWmiSetDataItem"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wmilib.h
-api_name:
-- DpWmiSetDataItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WMI_SET_DATAITEM_CALLBACK
+ - wmilib/WMI_SET_DATAITEM_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wmilib.h
+api_name:
+ - DpWmiSetDataItem
 ---
 
 # WMI_SET_DATAITEM_CALLBACK callback function
@@ -46,62 +46,50 @@ req.typenames:
 
 ## -description
 
-
 The <i>DpWmiSetDataItem</i> routine changes a single data item in an instance of a data block. This routine is optional.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
+
 [in]
 Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
-
 ### -param Irp 
+
 [in]
 Pointer to the IRP.
 
-
 ### -param GuidIndex 
-[in]
-Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>. 
 
+[in]
+Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.
 
 ### -param InstanceIndex 
+
 [in]
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> is a zero-based value that specifies the instance.
 
-
 ### -param DataItemId 
+
 [in]
 Specifies the ID of the data item to set.
 
-
 ### -param BufferSize 
+
 [in]
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
-
 ### -param Buffer 
+
 [in]
 Pointer to a buffer that contains the new value for the data item.
 
-
 ## -returns
-
-
 
 <i>DpWmiSetDataItem</i> returns STATUS_SUCCESS or an appropriate error code such as the following:
 
-
-
-
 ## -remarks
-
-
 
 WMI calls a driver's <i>DpWmiSetDataItem</i> routine after the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a> request.
 
@@ -141,13 +129,7 @@ This routine can be pageable.
 
 For more information about implementing this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps">Calling WmiSystemControl to Handle WMI IRPs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a>
 
@@ -158,7 +140,4 @@ For more information about implementing this routine, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
- 
-
- 
 

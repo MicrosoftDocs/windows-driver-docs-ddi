@@ -8,9 +8,6 @@ ms.assetid: 62516178-11F9-43F3-A70D-42C8FDDAE2DB
 ms.date: 05/02/2018
 keywords: ["WWAN_GET_VISIBLE_PROVIDERS structure"]
 ms.keywords: "*PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_VISIBLE_PROVIDERS, WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], _WWAN_GET_VISIBLE_PROVIDERS, netvista.wwan_get_visible_providers, wwan/PWWAN_GET_VISIBLE_PROVIDERS, wwan/WWAN_GET_VISIBLE_PROVIDERS"
-f1_keywords:
- - "wwan/WWAN_GET_VISIBLE_PROVIDERS"
- - "WWAN_GET_VISIBLE_PROVIDERS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_GET_VISIBLE_PROVIDERS
 targetos: Windows
 req.typenames: WWAN_GET_VISIBLE_PROVIDERS, *PWWAN_GET_VISIBLE_PROVIDERS
+f1_keywords:
+ - _WWAN_GET_VISIBLE_PROVIDERS
+ - wwan/_WWAN_GET_VISIBLE_PROVIDERS
+ - PWWAN_GET_VISIBLE_PROVIDERS
+ - wwan/PWWAN_GET_VISIBLE_PROVIDERS
+ - WWAN_GET_VISIBLE_PROVIDERS
+ - wwan/WWAN_GET_VISIBLE_PROVIDERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_GET_VISIBLE_PROVIDERS
 ---
 
 # _WWAN_GET_VISIBLE_PROVIDERS structure
@@ -46,14 +50,9 @@ req.typenames: WWAN_GET_VISIBLE_PROVIDERS, *PWWAN_GET_VISIBLE_PROVIDERS
 
 ## -description
 
-
 The WWAN_GET_VISIBLE_PROVIDERS structure provides information about the type of visible providers to return.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Action
 
@@ -94,16 +93,8 @@ Only providers that are currently visible and that can be set as home provider s
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_get_visible_providers">NDIS_WWAN_GET_VISIBLE_PROVIDERS</a>
- 
-
- 
 

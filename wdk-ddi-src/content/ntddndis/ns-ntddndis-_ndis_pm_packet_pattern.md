@@ -8,9 +8,6 @@ ms.assetid: dfda0b5f-06fc-4e94-b14c-6bd32c2c138a
 ms.date: 05/02/2018
 keywords: ["NDIS_PM_PACKET_PATTERN structure"]
 ms.keywords: "*PNDIS_PM_PACKET_PATTERN, 212pnpoid_bfc58374-2745-4c29-a2ac-b7ef864aa710.xml, NDIS_PM_PACKET_PATTERN, NDIS_PM_PACKET_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PACKET_PATTERN, PNDIS_PM_PACKET_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PACKET_PATTERN, netvista.ndis_pm_packet_pattern, ntddndis/NDIS_PM_PACKET_PATTERN, ntddndis/PNDIS_PM_PACKET_PATTERN"
-f1_keywords:
- - "ntddndis/NDIS_PM_PACKET_PATTERN"
- - "NDIS_PM_PACKET_PATTERN"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_PM_PACKET_PATTERN
 targetos: Windows
 req.typenames: NDIS_PM_PACKET_PATTERN, *PNDIS_PM_PACKET_PATTERN
+f1_keywords:
+ - _NDIS_PM_PACKET_PATTERN
+ - ntddndis/_NDIS_PM_PACKET_PATTERN
+ - PNDIS_PM_PACKET_PATTERN
+ - ntddndis/PNDIS_PM_PACKET_PATTERN
+ - NDIS_PM_PACKET_PATTERN
+ - ntddndis/NDIS_PM_PACKET_PATTERN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_PM_PACKET_PATTERN
 ---
 
 # _NDIS_PM_PACKET_PATTERN structure
@@ -46,25 +50,18 @@ req.typenames: NDIS_PM_PACKET_PATTERN, *PNDIS_PM_PACKET_PATTERN
 
 ## -description
 
-
 The NDIS_PM_PACKET_PATTERN structure specifies a wake-up pattern, which, when detected by a network adapter that
   has pattern-match enabled, causes the network adapter to signal a power-management wake-up event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Priority
 
 This member is reserved.
 
-
 ### -field Reserved
 
 This member is reserved.
-
 
 ### -field MaskSize
 
@@ -72,26 +69,20 @@ Specifies the size in bytes of the pattern mask that immediately follows the
      NDIS_PM_PACKET_PATTERN structure in the 
      <i>InformationBuffer</i>.
 
-
 ### -field PatternOffset
 
 Specifies in bytes the offset from the beginning of the 
      <i>InformationBuffer</i> to the start of the wake-up pattern.
 
-
 ### -field PatternSize
 
 Specifies in bytes the size of the wake-up pattern.
-
 
 ### -field PatternFlags
 
 These flags are reserved.
 
-
 ## -remarks
-
-
 
 NDIS_PM_PACKET_PATTERN is supplied in the 
     <i>InformationBuffer</i> of the 
@@ -131,12 +122,7 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -151,7 +137,4 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-wake-up-pattern-list">OID_PNP_WAKE_UP_PATTERN_LIST</a>
- 
-
- 
 

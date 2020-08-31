@@ -8,9 +8,6 @@ ms.assetid: 33890582-5eba-4cc1-a0d9-ec07f18da453
 ms.date: 05/02/2018
 keywords: ["NdisMSendNetBufferListsComplete function"]
 ms.keywords: NdisMSendNetBufferListsComplete, NdisMSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMSendNetBufferListsComplete, ndis_sendrcv_ref_11bdd96b-0ba8-475a-ba6e-03492e2993d7.xml, netvista.ndismsendnetbufferlistscomplete
-f1_keywords:
- - "ndis/NdisMSendNetBufferListsComplete"
- - "NdisMSendNetBufferListsComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMSendNetBufferListsComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMSendNetBufferListsComplete
+ - ndis/NdisMSendNetBufferListsComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMSendNetBufferListsComplete
 ---
 
 # NdisMSendNetBufferListsComplete function
+
 
 ## -description
 
@@ -52,6 +53,7 @@ Miniport drivers call the
 ## -parameters
 
 ### -param MiniportAdapterHandle 
+
 [in]
 The miniport handle that NDIS passed to the [MiniportInitializeEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize) function.
 
@@ -60,6 +62,7 @@ The miniport handle that NDIS passed to the [MiniportInitializeEx](https://docs.
 A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the NET_BUFFER_LIST structures in previous calls to its [MiniportSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists) function.
 
 ### -param SendCompleteFlags 
+
 [in]
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see [Dispatch IRQL Tracking](https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking).
 
@@ -103,3 +106,4 @@ A miniport driver's call to
 [NET_BUFFER_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list)
 
 [NdisSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list)
+

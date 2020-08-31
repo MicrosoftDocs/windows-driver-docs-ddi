@@ -8,9 +8,6 @@ ms.assetid: 9dfd1894-c9b5-43c2-8377-c28577898754
 ms.date: 04/30/2018
 keywords: ["RtlStringCbVPrintfW function"]
 ms.keywords: RtlStringCbVPrintf, RtlStringCbVPrintfA, RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfA, ntstrsafe/RtlStringCbVPrintfW, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCbVPrintfW"
- - "RtlStringCbVPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCbVPrintfW
-- RtlStringCbVPrintfA
-- RtlStringCbVPrintfW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCbVPrintfW
+ - ntstrsafe/RtlStringCbVPrintfW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCbVPrintfW
+ - RtlStringCbVPrintfA
+ - RtlStringCbVPrintfW
 ---
 
 # RtlStringCbVPrintfW function
@@ -49,42 +49,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlStringCbVPrintfW</b> and <b>RtlStringCbVPrintfA</b> functions create a byte-counted text string, with formatting that is based on supplied formatting information.
-
 
 ## -parameters
 
-
-
-
 ### -param pszDest 
+
 [out]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the arguments supplied by <i>argList</i>.
 
-
 ### -param cbDest 
+
 [in]
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
 
-For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
-
+For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char).
 
 ### -param pszFormat 
+
 [in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
 
-
 ### -param argList 
+
 [in]
 A <b>va_list</b>-typed argument list. Arguments contained in the argument list will be interpreted by using the formatting string that is supplied by <i>pszFormat</i>.
 
-
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -135,14 +128,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCbVPrintfW</b> and <b>RtlStringCbVPrintfA</b> should be used instead of the following functions: 
 
@@ -213,13 +200,7 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. If you need t
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbprintfa">RtlStringCbPrintf</a>
 
@@ -230,7 +211,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfa">RtlStringCchVPrintf</a>
- 
-
- 
 

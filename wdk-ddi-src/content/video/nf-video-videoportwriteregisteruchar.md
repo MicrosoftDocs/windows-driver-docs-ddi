@@ -8,9 +8,6 @@ ms.assetid: 259d01a5-d975-48f9-b0cf-4596d12046bc
 ms.date: 05/10/2018
 keywords: ["VideoPortWriteRegisterUchar function"]
 ms.keywords: VideoPortWriteRegisterUchar, VideoPortWriteRegisterUchar function [Display Devices], VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, display.videoportwriteregisteruchar, video/VideoPortWriteRegisterUchar
-f1_keywords:
- - "video/VideoPortWriteRegisterUchar"
- - "VideoPortWriteRegisterUchar"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortWriteRegisterUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortWriteRegisterUchar
+ - video/VideoPortWriteRegisterUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortWriteRegisterUchar
 ---
 
 # VideoPortWriteRegisterUchar function
@@ -46,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortWriteRegisterUchar</b> function writes a byte to a mapped register.
 
-
 ## -parameters
-
-
-
 
 ### -param Register
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
-
 ### -param Value
 
 Specifies a byte to be transferred to the adapter.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 A miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterUchar</b>.
 
 Callers of <b>VideoPortWriteRegisterUchar</b> can be running at any IRQL, provided that the memory pointed to by the <i>Register</i> parameter is resident, mapped device memory.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
- 
-
- 
 

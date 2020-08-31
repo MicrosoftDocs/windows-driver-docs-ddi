@@ -8,9 +8,6 @@ ms.assetid: ac46a6eb-c30d-4b1f-8e14-0ae44ae0d4f1
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_USBDEVICE_ENABLE callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_ENABLE, EVT_UCX_USBDEVICE_ENABLE callback, EvtUcxUsbDeviceEnable, EvtUcxUsbDeviceEnable callback function [Buses], PEVT_UCX_USBDEVICE_ENABLE, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_enable, ucxusbdevice/EvtUcxUsbDeviceEnable
-f1_keywords:
- - "ucxusbdevice/PEVT_UCX_USBDEVICE_ENABLE"
- - "PEVT_UCX_USBDEVICE_ENABLE"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ucxusbdevice.h
-api_name:
-- PEVT_UCX_USBDEVICE_ENABLE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_USBDEVICE_ENABLE
+ - ucxusbdevice/EVT_UCX_USBDEVICE_ENABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ucxusbdevice.h
+api_name:
+ - PEVT_UCX_USBDEVICE_ENABLE
 ---
 
 # EVT_UCX_USBDEVICE_ENABLE callback function
@@ -46,29 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation that UCX calls to program information about the device and its default control endpoint
     into the controller.
 
-
 ## -parameters
 
-
-
-
 ### -param UcxController 
+
 [in]
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-
 ### -param Request 
+
 [in]
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_enable">USBDEVICE_ENABLE</a>.
 
-
 ## -remarks
-
-
 
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
 
@@ -113,15 +106,7 @@ UsbDevice_EvtUcxUsbDeviceEnable(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>
- 
-
- 
 

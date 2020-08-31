@@ -8,9 +8,6 @@ ms.assetid: 439d68ec-9d27-484b-b6a3-9bae732d142e
 ms.date: 05/02/2018
 keywords: ["NdisBuildScatterGatherList function"]
 ms.keywords: NdisBuildScatterGatherList, NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisBuildScatterGatherList, ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, netvista.ndisbuildscattergatherlist
-f1_keywords:
- - "ndis/NdisBuildScatterGatherList"
- - "NdisBuildScatterGatherList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: = DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisBuildScatterGatherList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisBuildScatterGatherList
+ - ndis/NdisBuildScatterGatherList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisBuildScatterGatherList
 ---
 
 # NdisBuildScatterGatherList function
@@ -47,18 +47,14 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisBuildScatterGatherList</b> function builds a scatter/gather list by using the specified
   parameters.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisHandle 
+
 [in]
 An NDIS driver or instance handle that was obtained during caller initialization. For example, a
      miniport driver can use the NDIS handle that it obtained from the 
@@ -75,19 +71,15 @@ An NDIS driver or instance handle that was obtained during caller initialization
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
-
-
 ### -param SGListParameters 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_scatter_gather_list_parameters">
      NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure that specifies the parameters for allocating the
      scatter/gather list.
 
-
 ## -returns
-
-
 
 <b>NdisBuildScatterGatherList</b> can return the following status values:
 
@@ -124,14 +116,8 @@ The operation failed because the buffer length that is specified in the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisBuildScatterGatherList</b> function to build a scatter/gather list for a buffer. To call this
@@ -157,13 +143,7 @@ The drivers must call the
     <b>
     NdisBuildScatterGatherList</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -200,7 +180,4 @@ The drivers must call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_process_sg_list">NetProcessSGList</a>
- 
-
- 
 

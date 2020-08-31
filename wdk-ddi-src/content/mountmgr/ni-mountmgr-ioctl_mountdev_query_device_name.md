@@ -8,9 +8,6 @@ ms.assetid: 3df96552-d4f6-4d1c-bc07-3eff5f3eabfb
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_QUERY_DEVICE_NAME IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control code [Storage Devices], k307_4a0b9087-3740-4467-aa0f-ca7f56b8ae13.xml, mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, storage.ioctl_mountdev_query_device_name
-f1_keywords:
- - "mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME"
- - "IOCTL_MOUNTDEV_QUERY_DEVICE_NAME"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mountmgr.h
-api_name:
-- IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
+ - mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mountmgr.h
+api_name:
+ - IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
 ---
 
 # IOCTL_MOUNTDEV_QUERY_DEVICE_NAME IOCTL
+
 
 ## -description
 
@@ -80,3 +81,4 @@ As a best practice, the implementer must not thread-synchronize and must not mak
 ## -see-also
 
 [MOUNTDEV_NAME](ns-mountmgr-_mountdev_name.md)
+

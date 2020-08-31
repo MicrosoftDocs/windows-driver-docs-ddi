@@ -8,9 +8,6 @@ ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
 ms.date: 03/29/2018
 keywords: ["StorPortAcquireSpinLock function"]
 ms.keywords: StorPortAcquireSpinLock, StorPortAcquireSpinLock routine [Storage Devices], storage.storportacquirespinlock, storport/StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml
-f1_keywords:
- - "storport/StorPortAcquireSpinLock"
- - "StorPortAcquireSpinLock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortAcquireSpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortAcquireSpinLock
+ - storport/StorPortAcquireSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortAcquireSpinLock
 ---
 
 # StorPortAcquireSpinLock function
+
 
 ## -description
 
@@ -50,18 +51,22 @@ The **StorPortAcquireSpinLock** routine acquires the specified spin lock.
 ## -parameters
 
 ### -param DeviceExtension 
+
 [in]
 A pointer to the miniport driver per-adapter device extension.
 
 ### -param SpinLock 
+
 [in]
 Contains an enumerator value of type [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md) that specifies the spin lock to acquire.
 
 ### -param LockContext 
+
 [in]
 A pointer to the DPC object for which the lock is held if *SpinLock* indicates a type of **DpcLock**. This member should be **NULL** if *SpinLock* indicates a type of either **InterruptLock** or **StartIoLock**.
 
 ### -param LockHandle 
+
 [in, out]
 A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the [**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md) routine.
 
@@ -118,3 +123,4 @@ The following table indicates which spin locks each miniport driver routine can 
 [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md)
 
 [**StorPortReleaseSpinLock**](nf-storport-storportreleasespinlock.md)
+

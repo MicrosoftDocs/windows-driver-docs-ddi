@@ -8,9 +8,6 @@ ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.date: 04/30/2018
 keywords: ["IRP structure"]
 ms.keywords: "*PIRP, IRP, IRP structure [Kernel-Mode Driver Architecture], PIRP, PIRP structure pointer [Kernel-Mode Driver Architecture], _IRP, kernel.irp, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, wdm/IRP, wdm/PIRP"
-f1_keywords:
- - "wdm/IRP"
- - "IRP"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IRP
 targetos: Windows
 req.typenames: IRP
+f1_keywords:
+ - _IRP
+ - wdm/_IRP
+ - IRP
+ - wdm/IRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IRP
 ---
 
 # _IRP structure
@@ -46,24 +48,13 @@ req.typenames: IRP
 
 ## -description
 
-
 The <b>IRP</b> structure is a partially opaque structure that represents an <i>I/O request packet</i>. Drivers can use the following members of the IRP structure.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Type
 
- 
-
-
 ### -field Size
-
- 
-
 
 ### -field MdlAddress
 
@@ -94,7 +85,6 @@ If the IOCTL code specifies the METHOD_OUT_DIRECT transfer type, the MDL describ
 For more information about the buffers that are associated with METHOD_IN_DIRECT and METHOD_OUT_DIRECT transfer types in IOCTL codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/buffer-descriptions-for-i-o-control-codes">Buffer Descriptions for I/O Control Codes</a>.
 
 If the driver is not using direct I/O, this pointer is <b>NULL</b>.
-
 
 ### -field Flags
 
@@ -134,19 +124,13 @@ IRP_HOLD_DEVICE_QUEUE
 
 IRP_UM_DRIVER_INITIATED_IO
 
-
 ### -field AssociatedIrp
-
 
 ### -field AssociatedIrp.MasterIrp
 
 Pointer to the master IRP in an IRP that was created by a highest-level driver's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp">IoMakeAssociatedIrp</a>.
 
-
 ### -field AssociatedIrp.IrpCount
-
- 
-
 
 ### -field AssociatedIrp.SystemBuffer
 
@@ -192,103 +176,55 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 If the driver is using direct I/O, the buffer's purpose is determined by the IRP major function code, as follows:
 
-
-
-
 ### -field ThreadListEntry
-
- 
-
 
 ### -field IoStatus
 
 Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>.
 
-
 ### -field RequestorMode
 
-Indicates the execution mode of the original requester of the operation, one of <b>UserMode</b> or <b>KernelMode</b>. 
-
+Indicates the execution mode of the original requester of the operation, one of <b>UserMode</b> or <b>KernelMode</b>.
 
 ### -field PendingReturned
 
 If set to <b>TRUE</b>, a driver has marked the IRP pending. Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine should check the value of this flag. If the flag is <b>TRUE</b>, and if the IoCompletion routine will not return STATUS_MORE_PROCESSING_REQUIRED, the routine should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a> to propagate the pending status to drivers above it in the device stack.
 
-
 ### -field StackCount
 
- 
-
-
 ### -field CurrentLocation
-
- 
-
 
 ### -field Cancel
 
 If set to <b>TRUE</b>, the IRP either is or should be canceled.
 
-
 ### -field CancelIrql
 
 Contains the IRQL at which a driver is running when <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548196(v=vs.85)">IoAcquireCancelSpinLock</a> is called.
 
-
 ### -field ApcEnvironment
-
- 
-
 
 ### -field AllocationFlags
 
- 
-
-
 ### -field UserIosb
-
- 
-
 
 ### -field UserEvent
 
- 
-
-
 ### -field Overlay
-
- 
-
 
 ### -field Overlay.AsynchronousParameters
 
- 
-
-
 ### -field Overlay.AsynchronousParameters.UserApcRoutine
-
- 
-
 
 ### -field Overlay.AsynchronousParameters.IssuingProcess
 
- 
-
-
 ### -field Overlay.AsynchronousParameters.UserApcContext
 
- 
-
-
 ### -field Overlay.AllocationSize
-
- 
-
 
 ### -field CancelRoutine
 
 Contains the entry point for a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a> routine to be called if the IRP is canceled. <b>NULL</b> indicates that the IRP is not currently cancelable.
-
 
 ### -field UserBuffer
 
@@ -300,68 +236,39 @@ Contains the address of an output buffer if both of the following conditions app
 </ul>
 For METHOD_BUFFERED, the driver should use the buffer pointed to by <b>Irp->AssociatedIrp.SystemBuffer</b> as the output buffer. When the driver completes the request, the I/O manager copies the contents of this buffer to the output buffer that is pointed to by <b>Irp->UserBuffer</b>. The driver should not write directly to the buffer pointed to by <b>Irp->UserBuffer</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/buffer-descriptions-for-i-o-control-codes">Buffer Descriptions for I/O Control Codes</a>.
 
-
 ### -field Tail
 
-
 ### -field Tail.Overlay
-
 
 ### -field Tail.Overlay.DeviceQueueEntry
 
 If IRPs are queued in the device queue associated with the driver's device object, this field links IRPs in the device queue. These links can be used only while the driver is processing the IRP.
 
-
 ### -field Tail.Overlay.DriverContext
 
 If IRPs are not queued in the device queue associated with the driver's device object, this field can be used by the driver to store up to four pointers. This field can be used only while the driver owns the IRP.
-
 
 ### -field Tail.Overlay.Thread
 
 A pointer to the caller's thread control block (TCB). For requests that originate in user-mode, the I/O manager always sets this field to point to the TCB of the thread that issued the request.
 
-
 ### -field Tail.Overlay.AuxiliaryBuffer
-
- 
-
 
 ### -field Tail.Overlay.ListEntry
 
 If a driver manages its own internal queues of IRPs, it uses this field to link one IRP to the next. These links can be used only while the driver is holding the IRP in its queue or is processing the IRP.
 
-
 ### -field Tail.Overlay.CurrentStackLocation
-
- 
-
 
 ### -field Tail.Overlay.PacketType
 
- 
-
-
 ### -field Tail.Overlay.OriginalFileObject
-
- 
-
 
 ### -field Tail.Apc
 
- 
-
-
 ### -field Tail.CompletionKey
 
- 
-
-
-
-
 ## -remarks
-
-
 
 Undocumented members of the IRP structure are reserved, used only by the I/O manager or, in some cases, by FSDs.
 
@@ -379,13 +286,7 @@ An IRP is the basic I/O manager structure used to communicate with drivers and t
 </ul>
 While a higher-level driver might check the value of the <b>Cancel</b> Boolean in an IRP, that driver cannot assume the IRP will be completed with STATUS_CANCELLED by a lower-level driver even if the value is <b>TRUE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
@@ -412,7 +313,4 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetnextirpstacklocation">IoSetNextIrpStackLocation</a>
- 
-
- 
 

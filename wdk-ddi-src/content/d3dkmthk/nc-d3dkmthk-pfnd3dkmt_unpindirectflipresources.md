@@ -5,47 +5,60 @@ description: The PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function unpins dir
 ms.assetid: 4b2692d3-7747-490e-9f90-45f8d4cfbf72
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function"]
-f1_keywords:
- - "d3dkmthk/PFND3DKMT_UNPINDIRECTFLIPRESOURCES"
- - "PFND3DKMT_UNPINDIRECTFLIPRESOURCES"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3dkmthk.h
-api_name: 
-- PFND3DKMT_UNPINDIRECTFLIPRESOURCES
-- D3DKMTUnpinDirectFlipResources
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - PFND3DKMT_UNPINDIRECTFLIPRESOURCES
+ - d3dkmthk/PFND3DKMT_UNPINDIRECTFLIPRESOURCES
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PFND3DKMT_UNPINDIRECTFLIPRESOURCES
+ - D3DKMTUnpinDirectFlipResources
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function
 
+
 ## -description
 
 The PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function unpins direct flip resources.
+
+## -parameters
+
+### -param Arg1
+
+*\_In\_* *pResources*
+
+Pointer to a [D3DKMT_UNPINDIRECTFLIPRESOURCES](ns-d3dkmthk-_d3dkmt_unpindirectflipresources.md) structure.
+
+## -returns
+
+Returns NTSTATUS.
 
 ## -prototype
 
@@ -61,24 +74,9 @@ _Check_return_ NTSTATUS APIENTRY* D3DKMTUnpinDirectFlipResources(
 
 ```
 
-## -parameters
-
-### -param Arg1
-
-*\_In\_* *pResources*
-
-Pointer to a [D3DKMT_UNPINDIRECTFLIPRESOURCES](ns-d3dkmthk-_d3dkmt_unpindirectflipresources.md) structure.
-
-## -returns
-
-Returns NTSTATUS.
-
-
 ## -remarks
-
-
-
 
 ## -see-also
 
 [D3DKMT_UNPINDIRECTFLIPRESOURCES](ns-d3dkmthk-_d3dkmt_unpindirectflipresources.md)
+

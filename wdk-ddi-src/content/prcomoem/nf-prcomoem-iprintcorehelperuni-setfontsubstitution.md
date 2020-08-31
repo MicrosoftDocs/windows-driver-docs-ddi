@@ -8,9 +8,6 @@ ms.assetid: 73afb4e9-23c7-473c-937f-045bf5e332f7
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperUni::SetFontSubstitution"]
 ms.keywords: IPrintCoreHelperUni interface [Print Devices],SetFontSubstitution method, IPrintCoreHelperUni.SetFontSubstitution, IPrintCoreHelperUni::SetFontSubstitution, SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices],IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, print.iprintcorehelperuni_setfontsubstitution, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml
-f1_keywords:
- - "prcomoem/IPrintCoreHelperUni.SetFontSubstitution"
- - "IPrintCoreHelperUni.SetFontSubstitution"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintCoreHelperUni.SetFontSubstitution
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreHelperUni::SetFontSubstitution
+ - prcomoem/IPrintCoreHelperUni::SetFontSubstitution
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintCoreHelperUni.SetFontSubstitution
 ---
 
 # IPrintCoreHelperUni::SetFontSubstitution
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <code>IPrintCoreHelperUni::SetFontSubstitution</code> method specifies the device font to print in place of a given TrueType font. 
-
+The <code>IPrintCoreHelperUni::SetFontSubstitution</code> method specifies the device font to print in place of a given TrueType font.
 
 ## -parameters
 
-
-
-
 ### -param pszTrueTypeFontName 
+
 [in]
 A pointer to a null-terminated Unicode string that contains a valid TrueType font name. This parameter must not be <b>NULL</b>.
 
-
 ### -param pszDevFontName 
-[in]
-A pointer to a null-terminated Unicode string that contains the name of the device font. 
 
+[in]
+A pointer to a null-terminated Unicode string that contains the name of the device font.
 
 ## -returns
-
-
 
 <code>IPrintCoreHelperUni::SetFontSubstitution</code> should return one of the following values.
 
@@ -132,14 +125,8 @@ The core driver seems to be in an invalid state. The caller should return a fail
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Setting a device font to use in place of a specified TrueType font can occur only during the device property sheets session and only if full UI replacement is enabled. The font that is represented by the <i>pszTrueTypeFontName</i> parameter must be a valid TrueType font and must be installed on the printer. The device font that is represented by the <i>pszDevFontName</i> parameter must be a valid font for this printer.
 
@@ -147,20 +134,11 @@ If a substitution mapping for the specified TrueType font already exists on this
 
 To obtain a list of valid device fonts, create an information context for the current printer, and call <b>SetGraphicsMode</b>(hIC, GM_ADVANCED). Then, enumerate device fonts by calling <b>EnumFontFamilies</b>. The callback parameter (see <b>EnumFontFamProc</b> in the Microsoft Windows SDK documentation) of <b>EnumFontFamilies</b> should filter for device fonts by incrementing a counter for each font for which the bitwise AND result (FontType & TRUETYPE_FONTTYPE) is nonzero. The <b>SetGraphicsMode</b>, <b>EnumFontFamilies</b>, and <b>EnumFontFamProc</b> functions are described in the Windows SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni">IPrintCoreHelperUni</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-getfontsubstitution">IPrintCoreHelperUni::GetFontSubstitution</a>
- 
-
- 
 

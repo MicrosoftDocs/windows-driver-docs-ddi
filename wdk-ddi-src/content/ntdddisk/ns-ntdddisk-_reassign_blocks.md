@@ -8,9 +8,6 @@ ms.assetid: b79f15d8-b777-43dc-82b9-fcd1ba19aebd
 ms.date: 03/29/2018
 keywords: ["REASSIGN_BLOCKS structure"]
 ms.keywords: "*PREASSIGN_BLOCKS, PREASSIGN_BLOCKS, PREASSIGN_BLOCKS structure pointer [Storage Devices], REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Storage Devices], _REASSIGN_BLOCKS, ntdddisk/PREASSIGN_BLOCKS, ntdddisk/REASSIGN_BLOCKS, storage.reassign_blocks, structs-disk_dbe1fcc8-083e-41c4-8620-b216cdbecd34.xml"
-f1_keywords:
- - "ntdddisk/REASSIGN_BLOCKS"
- - "REASSIGN_BLOCKS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdddisk.h
-api_name:
-- REASSIGN_BLOCKS
 targetos: Windows
 req.typenames: REASSIGN_BLOCKS, *PREASSIGN_BLOCKS
+f1_keywords:
+ - _REASSIGN_BLOCKS
+ - ntdddisk/_REASSIGN_BLOCKS
+ - PREASSIGN_BLOCKS
+ - ntdddisk/PREASSIGN_BLOCKS
+ - REASSIGN_BLOCKS
+ - ntdddisk/REASSIGN_BLOCKS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdddisk.h
+api_name:
+ - REASSIGN_BLOCKS
 ---
 
 # _REASSIGN_BLOCKS structure
@@ -46,37 +50,23 @@ req.typenames: REASSIGN_BLOCKS, *PREASSIGN_BLOCKS
 
 ## -description
 
-
 The <b>REASSIGN_BLOCKS</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a> request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Reserved
 
-Reserved for system use. 
-
+Reserved for system use.
 
 ### -field Count
 
-Contains the number of blocks in the array pointed to by <b>BlockNumber</b> to reassign. 
-
+Contains the number of blocks in the array pointed to by <b>BlockNumber</b> to reassign.
 
 ### -field BlockNumber
 
-Contains an array of block numbers corresponding to damaged blocks. These numbers will be reassigned to good blocks taken from the device's spare block pool. 
-
+Contains an array of block numbers corresponding to damaged blocks. These numbers will be reassigned to good blocks taken from the device's spare block pool.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a>
- 
-
- 
 

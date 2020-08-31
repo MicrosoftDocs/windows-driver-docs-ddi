@@ -8,9 +8,6 @@ ms.assetid: C71187C5-74B6-450A-8461-BB9FDF60DB8D
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_PCO_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PCO_STATUS, ndiswwan/NDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, netvista.ndis_wwan_pco_status"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_PCO_STATUS"
- - "NDIS_WWAN_PCO_STATUS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_PCO_STATUS
 targetos: Windows
 req.typenames: NDIS_WWAN_PCO_STATUS, *PNDIS_WWAN_PCO_STATUS
+f1_keywords:
+ - _NDIS_WWAN_PCO_STATUS
+ - ndiswwan/_NDIS_WWAN_PCO_STATUS
+ - PNDIS_WWAN_PCO_STATUS
+ - ndiswwan/PNDIS_WWAN_PCO_STATUS
+ - NDIS_WWAN_PCO_STATUS
+ - ndiswwan/NDIS_WWAN_PCO_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_PCO_STATUS
 ---
 
 # _NDIS_WWAN_PCO_STATUS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_PCO_STATUS, *PNDIS_WWAN_PCO_STATUS
 
 ## -description
 
-
 The <b>NDIS_WWAN_PCO_STATUS</b> structure represents the Protocol Configuration Option (PCO) status of the modem.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,7 +103,6 @@ sizeof(NDIS_WWAN_PCO_STATUS)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -218,18 +216,12 @@ The PCO value failed due to a read failure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PcoValue
 
 A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a> structure, which contains the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-options-pco-operations">MB Protocol Configuration Options (PCO) operations</a>
 
@@ -246,7 +238,4 @@ A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwa
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a>
- 
-
- 
 

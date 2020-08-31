@@ -8,9 +8,6 @@ ms.assetid: 4a917824-eef1-4945-b45e-1c940bc8a50d
 ms.date: 05/02/2018
 keywords: ["FILTER_RESTART callback function"]
 ms.keywords: FILTER_RESTART, FILTER_RESTART callback, FilterRestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml, ndis/FilterRestart, netvista.filterrestart
-f1_keywords:
- - "ndis/FilterRestart"
- - "FilterRestart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterRestart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_RESTART
+ - ndis/FILTER_RESTART
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterRestart
 ---
 
 # FILTER_RESTART callback function
 
 
 ## -description
-
 
 The 
   <i>FilterRestart</i> function initiates a restart operation for the specified filter module.
@@ -54,24 +53,14 @@ The
 
 ## -parameters
 
-
-
-
 ### -param FilterModuleContext 
+
 [in]
 A handle to the context area for the filter module that the filter driver should restart. The
      filter driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ### -param RestartParameters
-
-
-
-
-
-
-
 
 #### - FilterRestartParameters 
 [in]
@@ -80,10 +69,7 @@ A pointer to an
      NDIS_FILTER_RESTART_PARAMETERS</a> structure that defines the restart parameters for the filter
      module.
 
-
 ## -returns
-
-
 
 <i>FilterRestart</i> returns one of the following status values:
 
@@ -141,14 +127,8 @@ None of the preceding status values applies. The filter driver should call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>FilterRestart</i> is a required function for filter drivers. NDIS can call 
     <i>FilterRestart</i> when a filter module is in the 
@@ -299,15 +279,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_RESTART</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_RESTART</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -370,7 +344,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
- 
-
- 
 

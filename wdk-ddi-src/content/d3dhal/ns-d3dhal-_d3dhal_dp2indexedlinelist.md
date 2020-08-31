@@ -8,9 +8,6 @@ ms.assetid: 6205df9f-a6b1-4dd1-97a8-5d0d57a7ddd1
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2INDEXEDLINELIST structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDLINELIST, LPD3DHAL_DP2INDEXEDLINELIST structure pointer [Display Devices], _D3DHAL_DP2INDEXEDLINELIST, d3dhal/D3DHAL_DP2INDEXEDLINELIST, d3dhal/LPD3DHAL_DP2INDEXEDLINELIST, d3dstrct_895bb4b6-3e98-4275-a61d-38d89ec23a6f.xml, display.d3dhal_dp2indexedlinelist"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2INDEXEDLINELIST"
- - "D3DHAL_DP2INDEXEDLINELIST"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2INDEXEDLINELIST
 targetos: Windows
 req.typenames: D3DHAL_DP2INDEXEDLINELIST, *LPD3DHAL_DP2INDEXEDLINELIST
+f1_keywords:
+ - _D3DHAL_DP2INDEXEDLINELIST
+ - d3dhal/_D3DHAL_DP2INDEXEDLINELIST
+ - LPD3DHAL_DP2INDEXEDLINELIST
+ - d3dhal/LPD3DHAL_DP2INDEXEDLINELIST
+ - D3DHAL_DP2INDEXEDLINELIST
+ - d3dhal/D3DHAL_DP2INDEXEDLINELIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2INDEXEDLINELIST
 ---
 
 # _D3DHAL_DP2INDEXEDLINELIST structure
@@ -46,29 +50,19 @@ req.typenames: D3DHAL_DP2INDEXEDLINELIST, *LPD3DHAL_DP2INDEXEDLINELIST
 
 ## -description
 
-
 D3DHAL_DP2INDEXEDLINELIST is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_INDEXEDLINELIST, and is used to render the lines using vertex indices.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wV1
 
 Specifies the index into the vertex buffer, identifying the first endpoint of the line.
 
-
 ### -field wV2
 
 Specifies the index into the vertex buffer, identifying the second endpoint of the line.
 
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process (<b>wPrimitiveCount</b> * 2) indexes from the command buffer, in effect processing <b>wPrimitiveCount</b> D3DHAL_DP2INDEXEDLINELIST structures. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
@@ -91,12 +85,7 @@ Similarly, the following figure shows a portion of a sample command buffer conta
 
 <img alt="Figure showing a command buffer with a D3DDP2OP_INDEXEDLINELIST2 command, a D3DHAL_DP2STARTVERTEX offset, and two D3DHAL_DP2INDEXEDLINELIST structures" src="images/dp2ll2i.png"/>
 
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_INDEXEDLINELIST
 
@@ -115,7 +104,4 @@ D3DDP2OP_INDEXEDLINELIST
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

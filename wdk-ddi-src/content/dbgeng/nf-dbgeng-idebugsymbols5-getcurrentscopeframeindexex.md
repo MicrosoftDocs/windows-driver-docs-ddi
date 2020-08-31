@@ -8,9 +8,6 @@ ms.assetid: 0D8198BB-583F-4828-8131-61EB17621F32
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols5::GetCurrentScopeFrameIndexEx"]
 ms.keywords: GetCurrentScopeFrameIndexEx, GetCurrentScopeFrameIndexEx method [Windows Debugging], GetCurrentScopeFrameIndexEx method [Windows Debugging],IDebugSymbols5 interface, IDebugSymbols5 interface [Windows Debugging],GetCurrentScopeFrameIndexEx method, IDebugSymbols5.GetCurrentScopeFrameIndexEx, IDebugSymbols5::GetCurrentScopeFrameIndexEx, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx, debugger.idebugsymbols5_getcurrentscopeframeindexex
-f1_keywords:
- - "dbgeng/IDebugSymbols5.GetCurrentScopeFrameIndexEx"
- - "IDebugSymbols5.GetCurrentScopeFrameIndexEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols5.GetCurrentScopeFrameIndexEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols5::GetCurrentScopeFrameIndexEx
+ - dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols5.GetCurrentScopeFrameIndexEx
 ---
 
 # IDebugSymbols5::GetCurrentScopeFrameIndexEx
@@ -46,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Gets the index of the current frame.
-
 
 ## -parameters
 
-
-
-
 ### -param Flags 
-[in]
-A bit-set that contains options that affect the behavior of this method. 
 
+[in]
+A bit-set that contains options that affect the behavior of this method.
 
 ### -param Index 
+
 [out]
 A pointer to an index that this function gets.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols5">IDebugSymbols5</a>
- 
-
- 
 

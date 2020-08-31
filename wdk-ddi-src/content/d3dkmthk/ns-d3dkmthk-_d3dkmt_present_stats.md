@@ -7,9 +7,6 @@ ms.assetid: fd292f3c-2cf7-4f17-999b-a82b2a3a8e0e
 ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENT_STATS structure"]
 ms.keywords: D3DKMT_PRESENT_STATS, D3DKMT_PRESENT_STATS structure [Display Devices], OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, _D3DKMT_PRESENT_STATS, d3dkmthk/D3DKMT_PRESENT_STATS, display.d3dkmt_present_stats
-f1_keywords:
- - "d3dkmthk/D3DKMT_PRESENT_STATS"
- - "D3DKMT_PRESENT_STATS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_PRESENT_STATS
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_PRESENT_STATS
+f1_keywords:
+ - _D3DKMT_PRESENT_STATS
+ - d3dkmthk/_D3DKMT_PRESENT_STATS
+ - D3DKMT_PRESENT_STATS
+ - d3dkmthk/D3DKMT_PRESENT_STATS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_PRESENT_STATS
 ---
 
 # _D3DKMT_PRESENT_STATS structure
@@ -46,43 +48,31 @@ req.typenames: D3DKMT_PRESENT_STATS
 
 ## -description
 
-
 The D3DKMT_PRESENT_STATS structure describes present status for a rendering device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PresentCount
 
 [out] A UINT value that indicates the number of times that the OpenGL installable client driver (ICD) called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function on a rendering device or swap chain. After the maximum value is reached, <b>PresentCount</b> starts over at zero. When a new rendering device is created, <b>PresentCount</b> is initialized to zero. The operating system maintains a present counter for each swap chain that is created.
 
-
 ### -field PresentRefreshCount
 
-[out] A UINT value that indicates the number of times the display controller outputs a new video frame, which occurs at the beginning of each vertical retrace period. The operating system maintains a present refresh counter for each video display controller output in the operating system. <b>PresentRefreshCount</b> is initialized to an unspecified value. 
-
+[out] A UINT value that indicates the number of times the display controller outputs a new video frame, which occurs at the beginning of each vertical retrace period. The operating system maintains a present refresh counter for each video display controller output in the operating system. <b>PresentRefreshCount</b> is initialized to an unspecified value.
 
 ### -field SyncRefreshCount
 
 [out] A UINT value that indicates the number of the most recent capture of the timing information in the <b>SyncQPCTime</b> and <b>SyncGPUTime</b> members.
 
-
 ### -field SyncQPCTime
 
 [out] The computer processing unit (CPU) time that the current video frame was output at (that is, the CPU time that the vertical retrace started).
-
 
 ### -field SyncGPUTime
 
 [out] The graphics processing unit (GPU) time that the current video frame was output at (that is, the GPU time that the vertical retrace started).
 
-
 ## -remarks
-
-
 
 When a present operation is retired, the operating system maintains a correspondence (mapping) between the value in <b>PresentCount</b> and the value in <b>PresentRefreshCount</b>; that is, when the operating system finishes a present operation as a scanned out video frame, the value in <b>PresentRefreshCount</b> that the present operation was finished with is associated with the value in <b>PresentCount</b> of the retired present operation. 
 
@@ -93,19 +83,11 @@ Present statistics cannot work for windowed-mode devices. For windowed mode, eac
 <div class="alert"><b>Note</b>    The operating system might not update the <b>SyncRefreshCount</b>, <b>SyncQPCTime</b>, and <b>SyncGPUTime</b> members on every frame.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicepresent_state">D3DKMT_DEVICEPRESENT_STATE</a>
- 
-
- 
 

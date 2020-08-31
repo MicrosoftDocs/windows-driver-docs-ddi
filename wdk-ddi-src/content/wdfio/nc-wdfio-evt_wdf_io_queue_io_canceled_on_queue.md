@@ -8,9 +8,6 @@ ms.assetid: 1b938ee8-a5f3-4a1e-9beb-231d88aa5848
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback function"]
 ms.keywords: DFQueueObjectRef_24cf727b-3673-44a1-94a2-5308aa195827.xml, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback, EvtIoCanceledOnQueue, EvtIoCanceledOnQueue callback function, kmdf.evtiocanceledonqueue, wdf.evtiocanceledonqueue, wdfio/EvtIoCanceledOnQueue
-f1_keywords:
- - "wdfio/EvtIoCanceledOnQueue"
- - "EvtIoCanceledOnQueue"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfio.h
-api_name:
-- EvtIoCanceledOnQueue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE
+ - wdfio/EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfio.h
+api_name:
+ - EvtIoCanceledOnQueue
 ---
 
 # EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoCanceledOnQueue</i> event callback function informs the driver that it must complete an I/O request that the framework has removed from an I/O queue.
 
-
 ## -parameters
 
-
-
-
 ### -param Queue 
+
 [in]
 A handle to an I/O queue object.
 
-
 ### -param Request 
+
 [in]
 A handle to a request object.
 
-
 ## -remarks
-
-
 
 A driver registers an <i>EvtIoCanceledOnQueue</i> callback function when it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a> method. For more information about calling <b>WdfIoQueueCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
@@ -164,20 +157,11 @@ PscrEvtIoCanceledOnQueue(
 </table></span></div>
 The <b>EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE</b> function type is defined in the Wdfio.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestforwardtoioqueue">WdfRequestForwardToIoQueue</a>
- 
-
- 
 

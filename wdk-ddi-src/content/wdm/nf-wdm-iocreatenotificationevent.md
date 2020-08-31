@@ -8,9 +8,6 @@ ms.assetid: 44be034e-0c82-4980-a246-132d1b50dee1
 ms.date: 04/30/2018
 keywords: ["IoCreateNotificationEvent function"]
 ms.keywords: IoCreateNotificationEvent, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml, kernel.iocreatenotificationevent, wdm/IoCreateNotificationEvent
-f1_keywords:
- - "wdm/IoCreateNotificationEvent"
- - "IoCreateNotificationEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateNotificationEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateNotificationEvent
+ - wdm/IoCreateNotificationEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateNotificationEvent
 ---
 
 # IoCreateNotificationEvent function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoCreateNotificationEvent</b> routine creates or opens a named notification event used to notify one or more threads of execution that an event has occurred. 
-
+The <b>IoCreateNotificationEvent</b> routine creates or opens a named notification event used to notify one or more threads of execution that an event has occurred.
 
 ## -parameters
 
-
-
-
 ### -param EventName 
+
 [in]
 Pointer to a buffer containing a null-terminated Unicode string that names the event.
 
-
 ### -param EventHandle 
-[out]
-Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">kernel handle</a>. 
 
+[out]
+Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">kernel handle</a>.
 
 ## -returns
 
-
-
-<b>IoCreateNotificationEvent</b> returns a pointer to the created or opened event object or <b>NULL</b> if the event object could not be created or opened. 
-
-
-
+<b>IoCreateNotificationEvent</b> returns a pointer to the created or opened event object or <b>NULL</b> if the event object could not be created or opened.
 
 ## -remarks
-
-
 
 <b>IoCreateNotificationEvent</b> creates and opens the event object if it does not already exist. <b>IoCreateNotificationEvent</b> sets the state of a new notification event to Signaled. If the event object already exists, <b>IoCreateNotificationEvent</b> just opens the event object.
 
@@ -108,19 +96,13 @@ The user-mode application creates the event object and passes a handle to the ob
 
 </li>
 <li>
-The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70044">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routines.
+The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routines.
 
 </li>
 </ul>
-For more information about events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/event-objects">Event Objects</a>. 
-
-
-
+For more information about events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/event-objects">Event Objects</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesynchronizationevent">IoCreateSynchronizationEvent</a>
 
@@ -147,7 +129,4 @@ For more information about events, see <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
- 
-
- 
 

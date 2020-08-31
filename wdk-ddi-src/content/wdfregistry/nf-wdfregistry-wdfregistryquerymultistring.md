@@ -8,9 +8,6 @@ ms.assetid: 9ce754b4-a783-4b2e-978d-e38a30c5d3dd
 ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryMultiString function"]
 ms.keywords: DFRegKeyObjectRef_9610d27f-df2e-41f9-9376-4f5819e8ce66.xml, WdfRegistryQueryMultiString, WdfRegistryQueryMultiString method, kmdf.wdfregistryquerymultistring, wdf.wdfregistryquerymultistring, wdfregistry/WdfRegistryQueryMultiString
-f1_keywords:
- - "wdfregistry/WdfRegistryQueryMultiString"
- - "WdfRegistryQueryMultiString"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRegistryQueryMultiString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRegistryQueryMultiString
+ - wdfregistry/WdfRegistryQueryMultiString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRegistryQueryMultiString
 ---
 
 # WdfRegistryQueryMultiString function
@@ -49,40 +49,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRegistryQueryMultiString</b> method retrieves the strings that are currently assigned to a specified multi-string registry value, creates a framework string object for each string, and adds each string object to a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-collections">object collection</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param Key 
+
 [in]
 A handle to a registry-key object that represents an opened registry key.
 
-
 ### -param ValueName 
-[in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name.
 
 ### -param StringsAttributes 
-[in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for each new string object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for each new string object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param Collection 
+
 [in]
 A handle to a driver-supplied framework collection object.
 
-
 ## -returns
-
-
 
 <b>WdfRegistryQueryMultiString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -180,14 +173,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Before your driver calls <b>WdfRegistryQueryMultiString</b>, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectioncreate">WdfCollectionCreate</a> to create a collection object. 
 
@@ -232,12 +218,7 @@ status = WdfRegistryQueryMultiString(
 count = WdfCollectionGetCount(col);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
@@ -280,7 +261,4 @@ count = WdfCollectionGetCount(col);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfstring/nf-wdfstring-wdfstringgetunicodestring">WdfStringGetUnicodeString</a>
- 
-
- 
 

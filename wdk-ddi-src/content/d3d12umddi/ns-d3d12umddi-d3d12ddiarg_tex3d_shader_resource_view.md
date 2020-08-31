@@ -5,39 +5,40 @@ description: Describes a three-dimensional (3-D) texture that is used to create 
 ms.assetid: 869a8703-5fe7-42be-bbec-771703f7d843
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW"
- - "D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW"
-ms.keywords: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW, 
+ms.keywords: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
+ - d3d12umddi/D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW structure
+
 
 ## -description
 
@@ -54,9 +55,11 @@ The identifier of the most detailed MIP-map.
 The number of MIP-map levels for the texture.
 
 ### -field ResourceMinLODClamp
+
  
 A value to clamp sample LOD values to. For example, if you specify 2.0f for the clamp value, you ensure that no individual sample accesses a mip level less than 2.0f.
 
 ## -remarks
 
 ## -see-also
+

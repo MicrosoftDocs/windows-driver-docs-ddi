@@ -8,9 +8,6 @@ ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
 ms.date: 02/26/2018
 keywords: ["WdfPdoMarkMissing function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing
-f1_keywords:
- - "wdfpdo/WdfPdoMarkMissing"
- - "WdfPdoMarkMissing"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoMarkMissing
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoMarkMissing
+ - wdfpdo/WdfPdoMarkMissing
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoMarkMissing
 ---
 
 # WdfPdoMarkMissing function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoMarkMissing</b> method informs the framework that a device is no longer accessible.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object that represents the device's physical device object (PDO).
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns STATUS_SUCCESS. Additional return values include:
 
@@ -103,12 +96,7 @@ The method might also return other<a href="https://docs.microsoft.com/windows-ha
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 For more information about <b>WdfPdoMarkMissing</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/static-enumeration">Static Enumeration</a>.
 
@@ -144,12 +132,7 @@ while ((hChild = WdfFdoRetrieveNextStaticChild(
 WdfFdoUnlockStaticChildListFromIteration(Device);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdolockstaticchildlistforiteration">WdfFdoLockStaticChildListForIteration</a>
 
@@ -160,7 +143,4 @@ WdfFdoUnlockStaticChildListFromIteration(Device);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdounlockstaticchildlistfromiteration">WdfFdoUnlockStaticChildListFromIteration</a>
- 
-
- 
 

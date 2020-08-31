@@ -8,9 +8,6 @@ ms.assetid: b9b76796-bf08-4d10-82a4-7894b3285fff
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceSendUrbSynchronously function"]
 ms.keywords: DFUsbRef_33a88dd1-6d59-4e1f-bd4f-6d778c5aa6d8.xml, WdfUsbTargetDeviceSendUrbSynchronously, WdfUsbTargetDeviceSendUrbSynchronously method, kmdf.wdfusbtargetdevicesendurbsynchronously, wdf.wdfusbtargetdevicesendurbsynchronously, wdfusb/WdfUsbTargetDeviceSendUrbSynchronously
-f1_keywords:
- - "wdfusb/WdfUsbTargetDeviceSendUrbSynchronously"
- - "WdfUsbTargetDeviceSendUrbSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfUsbTargetDeviceSendUrbSynchronously
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetDeviceSendUrbSynchronously
+ - wdfusb/WdfUsbTargetDeviceSendUrbSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfUsbTargetDeviceSendUrbSynchronously
 ---
 
 # WdfUsbTargetDeviceSendUrbSynchronously function
@@ -47,42 +47,35 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfUsbTargetDeviceSendUrbSynchronously</b> method sends a USB request synchronously to a specified USB device, using request parameters that are described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param UsbDevice 
+
 [in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-
 ### -param Request 
+
 [in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ### -param RequestOptions 
+
 [in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ### -param Urb 
+
 [in]
 A pointer to a caller-initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure.
 
 If the driver previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> to create <i>UsbDevice</i>, the driver must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreateurb">WdfUsbTargetDeviceCreateUrb</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreateisochurb">WdfUsbTargetDeviceCreateIsochUrb</a> to create this URB.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetDeviceSendUrbSynchronously</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -142,14 +135,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use the <b>WdfUsbTargetDeviceSendUrbSynchronously</b> method to send a USB control transfer request synchronously. To send such requests asynchronously, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a>, followed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>.
 
@@ -201,12 +187,7 @@ status = WdfUsbTargetDeviceSendUrbSynchronously(
                                                 );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -233,7 +214,4 @@ status = WdfUsbTargetDeviceSendUrbSynchronously(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a>
- 
-
- 
 

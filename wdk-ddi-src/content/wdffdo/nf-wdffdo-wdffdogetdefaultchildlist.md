@@ -8,9 +8,6 @@ ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
 ms.date: 02/26/2018
 keywords: ["WdfFdoGetDefaultChildList function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, WdfFdoGetDefaultChildList, WdfFdoGetDefaultChildList method, kmdf.wdffdogetdefaultchildlist, wdf.wdffdogetdefaultchildlist, wdffdo/WdfFdoGetDefaultChildList
-f1_keywords:
- - "wdffdo/WdfFdoGetDefaultChildList"
- - "WdfFdoGetDefaultChildList"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfFdoGetDefaultChildList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfFdoGetDefaultChildList
+ - wdffdo/WdfFdoGetDefaultChildList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfFdoGetDefaultChildList
 ---
 
 # WdfFdoGetDefaultChildList function
@@ -47,36 +47,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFdoGetDefaultChildList</b> method returns a handle to a specified device's default child list.
 
-
 ## -parameters
 
-
-
-
 ### -param Fdo 
+
 [in]
 A handle to a framework device object.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfFdoGetDefaultChildList</b> returns a handle to the default child list that is associated with the device that is specified by <i>Fdo</i>. Otherwise the method returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 Before calling <b>WdfFdoGetDefaultChildList</b>, your driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetdefaultchildlistconfig">WdfFdoInitSetDefaultChildListConfig</a> to configure the default child list. Otherwise, <b>WdfFdoGetDefaultChildList</b> returns <b>NULL</b>.
 
@@ -93,15 +81,7 @@ WDFCHILDLIST  list;
 list = WdfFdoGetDefaultChildList(Device);
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetdefaultchildlistconfig">WdfFdoInitSetDefaultChildListConfig</a>
- 
-
- 
 

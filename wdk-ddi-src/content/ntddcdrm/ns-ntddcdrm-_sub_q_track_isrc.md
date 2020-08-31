@@ -8,9 +8,6 @@ ms.assetid: 0439bd46-b009-435d-aab7-efca48a17cb7
 ms.date: 03/29/2018
 keywords: ["SUB_Q_TRACK_ISRC structure"]
 ms.keywords: "*PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC structure pointer [Storage Devices], SUB_Q_TRACK_ISRC, SUB_Q_TRACK_ISRC structure [Storage Devices], _SUB_Q_TRACK_ISRC, ntddcdrm/PSUB_Q_TRACK_ISRC, ntddcdrm/SUB_Q_TRACK_ISRC, storage.sub_q_track_isrc, structs-CD-ROM_372ebccd-64cd-4f5d-a59c-de75c5ffe112.xml"
-f1_keywords:
- - "ntddcdrm/SUB_Q_TRACK_ISRC"
- - "SUB_Q_TRACK_ISRC"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- SUB_Q_TRACK_ISRC
 targetos: Windows
 req.typenames: SUB_Q_TRACK_ISRC, *PSUB_Q_TRACK_ISRC
+f1_keywords:
+ - _SUB_Q_TRACK_ISRC
+ - ntddcdrm/_SUB_Q_TRACK_ISRC
+ - PSUB_Q_TRACK_ISRC
+ - ntddcdrm/PSUB_Q_TRACK_ISRC
+ - SUB_Q_TRACK_ISRC
+ - ntddcdrm/SUB_Q_TRACK_ISRC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - SUB_Q_TRACK_ISRC
 ---
 
 # _SUB_Q_TRACK_ISRC structure
@@ -46,59 +50,43 @@ req.typenames: SUB_Q_TRACK_ISRC, *PSUB_Q_TRACK_ISRC
 
 ## -description
 
-
-The SUB_Q_TRACK_ISC contains position information and is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a> structure. 
-
+The SUB_Q_TRACK_ISC contains position information and is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a> structure.
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Indicates, among other things, the length of the Q subchannel data that was retrieved. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a> for further details. 
-
+Indicates, among other things, the length of the Q subchannel data that was retrieved. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a> for further details.
 
 ### -field FormatCode
 
-Should have a value of IOCTL_CDROM_TRACK_ISRC. 
-
+Should have a value of IOCTL_CDROM_TRACK_ISRC.
 
 ### -field Reserved0
 
-Reserved. 
-
+Reserved.
 
 ### -field Track
 
-Contains the number for the track for which the ISRC value was requested. 
-
+Contains the number for the track for which the ISRC value was requested.
 
 ### -field Reserved1
 
-Reserved. 
-
+Reserved.
 
 ### -field Reserved2
 
-Reserved. 
-
+Reserved.
 
 ### -field Tcval
 
-Indicates that ISRC data was detected, if set to 1. Otherwise, if set to zero, indicates that <b>TrackIsrc</b> is invalid. 
-
+Indicates that ISRC data was detected, if set to 1. Otherwise, if set to zero, indicates that <b>TrackIsrc</b> is invalid.
 
 ### -field TrackIsrc
 
-Contains an array that holds the tracking ISRC data. 
-
+Contains an array that holds the tracking ISRC data.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_sub_q_data_format">CDROM_SUB_Q_DATA_FORMAT</a>
 
@@ -113,7 +101,4 @@ Contains an array that holds the tracking ISRC data.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a>
- 
-
- 
 

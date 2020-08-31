@@ -8,9 +8,6 @@ ms.assetid: 32b92771-7f23-492c-a3b0-b10032c9f80a
 ms.date: 03/29/2018
 keywords: ["StorPortGetLogicalProcessorRelationship function"]
 ms.keywords: StorPortGetLogicalProcessorRelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storage.storportgetlogicalprocessorrelationship, storport/StorPortGetLogicalProcessorRelationship, storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml
-f1_keywords:
- - "storport/StorPortGetLogicalProcessorRelationship"
- - "StorPortGetLogicalProcessorRelationship"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetLogicalProcessorRelationship
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetLogicalProcessorRelationship
+ - storport/StorPortGetLogicalProcessorRelationship
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetLogicalProcessorRelationship
 ---
 
 # StorPortGetLogicalProcessorRelationship function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetLogicalProcessorRelationship</b> routine returns relationship information for one or more specified types. These types include groups, physical packages, and nodes in the host system. The information that is returned includes processor affinity masks that are composed of the logical processors in the host system. These logical processors share the specified relationship types.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param ProcessorNumber 
+
 [in, optional]
 An optional pointer to a processor number for which relationships are to be returned. If this parameter is not provided, information about all processors is returned.
 
-
 ### -param RelationshipType 
+
 [in]
 The type of relationship to be returned.
 
-
 ### -param Information 
+
 [out]
 A pointer to a buffer that receives the specified information.
 
-
 ### -param Length 
+
 [in, out]
 A pointer to the length of the information buffer, in bytes. Upon return, this value receives the number of bytes that are populated with relationship information.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetLogicalProcessorRelationship</b>routine returns one of the following status codes:
 
@@ -136,7 +129,4 @@ The operation fails with this return value if one or more of the parameters are 
 </td>
 </tr>
 </table>
- 
-
-
 

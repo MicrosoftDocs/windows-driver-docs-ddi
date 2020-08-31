@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSubmitCommand"
- - "DxgkDdiSubmitCommand"
+ - DXGKDDI_SUBMITCOMMAND
+ - d3dkmddi/DXGKDDI_SUBMITCOMMAND
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SUBMITCOMMAND callback function
+
 
 ## -description
 

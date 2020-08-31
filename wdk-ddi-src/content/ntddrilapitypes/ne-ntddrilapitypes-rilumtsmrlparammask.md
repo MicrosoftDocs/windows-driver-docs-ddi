@@ -8,37 +8,37 @@ ms.assetid: ba1f48ab-f301-4ae8-b56e-92eb6e3601f2
 ms.date: 02/16/2018
 keywords: ["RILUMTSMRLPARAMMASK enumeration"]
 ms.keywords: RILUMTSMRLPARAMMASK, RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_LAC, RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_PATHLOSS, RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_RSCP, RIL_PARAM_UMTSMRL_UARFCN, netvista.rilumtsmrlparammask, rilapitypes/RILUMTSMRLPARAMMASK, rilapitypes/RIL_PARAM_UMTSMRL_ALL, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, rilapitypes/RIL_PARAM_UMTSMRL_LAC, rilapitypes/RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_MNC, rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RIL_PARAM_UMTSMRL_RSCP, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN
-f1_keywords:
- - "ntddrilapitypes/RILUMTSMRLPARAMMASK"
- - "RILUMTSMRLPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILUMTSMRLPARAMMASK
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILUMTSMRLPARAMMASK
+f1_keywords:
+ - RILUMTSMRLPARAMMASK
+ - ntddrilapitypes/RILUMTSMRLPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILUMTSMRLPARAMMASK
 ---
 
 # RILUMTSMRLPARAMMASK enumeration
@@ -46,12 +46,31 @@ req.typenames: RILUMTSMRLPARAMMASK
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILUMTSMRLPARAMMASK.
 
+## -enum-fields
+
+### -field RIL_PARAM_UMTSMRL_MCC
+
+### -field RIL_PARAM_UMTSMRL_MNC
+
+### -field RIL_PARAM_UMTSMRL_LAC
+
+### -field RIL_PARAM_UMTSMRL_CELLID
+
+### -field RIL_PARAM_UMTSMRL_UARFCN
+
+### -field RIL_PARAM_UMTSMRL_PRIMARY_SC
+
+### -field RIL_PARAM_UMTSMRL_RSCP
+
+### -field RIL_PARAM_UMTSMRL_ECNO
+
+### -field RIL_PARAM_UMTSMRL_PATHLOSS
+
+### -field RIL_PARAM_UMTSMRL_ALL
 
 ## -syntax
-
 
 ```cpp
 enum RILUMTSMRLPARAMMASK  {
@@ -69,45 +88,7 @@ enum RILUMTSMRLPARAMMASK  {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_PARAM_UMTSMRL_MCC
-
-
-### -field RIL_PARAM_UMTSMRL_MNC
-
-
-### -field RIL_PARAM_UMTSMRL_LAC
-
-
-### -field RIL_PARAM_UMTSMRL_CELLID
-
-
-### -field RIL_PARAM_UMTSMRL_UARFCN
-
-
-### -field RIL_PARAM_UMTSMRL_PRIMARY_SC
-
-
-### -field RIL_PARAM_UMTSMRL_RSCP
-
-
-### -field RIL_PARAM_UMTSMRL_ECNO
-
-
-### -field RIL_PARAM_UMTSMRL_PATHLOSS
-
-
-### -field RIL_PARAM_UMTSMRL_ALL
-
-
 ## -remarks
-
-
 
 Networks will vary, but the following table summarizes which items are returned for common UMTS networks.
 
@@ -511,19 +492,8 @@ No
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
 

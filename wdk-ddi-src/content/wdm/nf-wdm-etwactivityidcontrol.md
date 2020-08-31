@@ -8,9 +8,6 @@ ms.assetid: dd2e1558-db5d-4d48-a55e-fbdf2838ec55
 ms.date: 02/23/2018
 keywords: ["EtwActivityIdControl function"]
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EtwActivityIdControl, EtwActivityIdControl function [Driver Development Tools], devtest.etwactivityidcontrol, etw_km_ecbfd65a-dd05-422b-9039-bb2a307d5978.xml, wdm/EtwActivityIdControl
-f1_keywords:
- - "wdm/EtwActivityIdControl"
- - "EtwActivityIdControl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Comments section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- EtwActivityIdControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EtwActivityIdControl
+ - wdm/EtwActivityIdControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - EtwActivityIdControl
 ---
 
 # EtwActivityIdControl function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
-The <b>EtwActivityIdControl</b> function creates, queries, and sets the current activity identifier. 
-
+The <b>EtwActivityIdControl</b> function creates, queries, and sets the current activity identifier.
 
 ## -parameters
 
-
-
-
 ### -param ControlCode 
+
 [in]
 The <i>ControlCode</i> parameter can be one of the following defined values.
 
@@ -119,43 +115,25 @@ Copies the current thread's activity identifier. Creates a new identifier and se
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ActivityId 
+
 [in, out]
 The identifier that indicates the activity associated with the event. The <i>ActivityId</i> parameter provides a way to group related events and is used in end-to-end tracing.
 
-
 ## -returns
-
-
 
 <b>EtwActivityIdControl</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value.
 
-
-
-
 ## -remarks
-
-
 
 Activity identifiers provide a method of linking separate events in a common thread of computation. An <i>activity</i> is a work item performed by an application and or a driver. The concept of activity is a core component in end-to-end tracing.
 
 Callers of <b>EtwActivityIdControl</b> must be running at IRQL < DISPATCH_LEVEL, unless the <i>ControlCode</i> is EVENT_ACTIVITY_CTRL_CREATE_ID, in which case the function can be called at any IRQL.
 
-Use the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn268326(v=vs.85)">EtwActivityIdControlKernel</a> function to  query or set  activity identifiers  kernel threads. 
-
-
-
+Use the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn268326(v=vs.85)">EtwActivityIdControlKernel</a> function to  query or set  activity identifiers  kernel threads.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn268326(v=vs.85)">EtwActivityIdControlKernel</a>
- 
-
- 
 

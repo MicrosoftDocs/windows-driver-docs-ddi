@@ -8,9 +8,6 @@ ms.assetid: a9b3ac31-2001-45cc-a917-de687419b561
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::OutputSymbolByOffset"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],OutputSymbolByOffset method, IDebugSymbols3.OutputSymbolByOffset, IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], OutputSymbolByOffset method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputSymbolByOffset, debugger.outputsymbolbyoffset
-f1_keywords:
- - "dbgeng/IDebugSymbols3.OutputSymbolByOffset"
- - "IDebugSymbols3.OutputSymbolByOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.OutputSymbolByOffset
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::OutputSymbolByOffset
+ - dbgeng/IDebugSymbols3::OutputSymbolByOffset
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.OutputSymbolByOffset
 ---
 
 # IDebugSymbols3::OutputSymbolByOffset
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>OutputSymbolByOffset</b> method looks up a symbol by address and prints the symbol name and other symbol information to the debugger console.
-
 
 ## -parameters
 
-
-
-
 ### -param OutputControl 
+
 [in]
 Specifies where to send the output. For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-
 ### -param Flags 
+
 [in]
 Specifies the flags used to determine what information is printed with the symbol.
 
@@ -104,17 +100,13 @@ This allows the <i>Offset</i> parameter to specify any address within the symbol
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Offset 
+
 [in]
 Specifies the location in the process's virtual address space of the symbol to be printed.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -146,31 +138,16 @@ No symbol was found at the specified location.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getnamebyoffset">GetNameByOffset</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

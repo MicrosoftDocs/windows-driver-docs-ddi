@@ -31,14 +31,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
  - DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
  - dispmprt/_DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
- - dispmprt//DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
  - DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
+ - dispmprt/DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_SAMPLED_GAMMA structure
+
 
 ## -description
 
@@ -75,3 +77,4 @@ In Windows 10 version 2004 and later, the gamma and CSC matrix requested by the 
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

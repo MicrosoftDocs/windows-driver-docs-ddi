@@ -8,9 +8,6 @@ ms.assetid: 733d84f5-c1d4-42a0-a59b-4ba50247f165
 ms.date: 05/02/2018
 keywords: ["MINIPORT_OID_REQUEST callback function"]
 ms.keywords: MINIPORT_OID_REQUEST, MINIPORT_OID_REQUEST callback, MiniportOidRequest, MiniportOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportOidRequest, ndis_request_ref_a05061c1-4fa7-485a-9751-05b146e8f961.xml, netvista.miniportoidrequest
-f1_keywords:
- - "ndis/MiniportOidRequest"
- - "MiniportOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_OID_REQUEST
+ - ndis/MINIPORT_OID_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportOidRequest
 ---
 
 # MINIPORT_OID_REQUEST callback function
 
 
 ## -description
-
 
 NDIS calls a miniport driver's 
    <i>MiniportOidRequest</i> function to handle an OID request to query or set information in the driver.
@@ -54,27 +53,22 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterContext 
+
 [in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
-
 ### -param OidRequest 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that contains
      both the buffer and the request packet for the miniport driver to handle. Depending on the request, the
      driver returns requested information in the structure provided.
 
-
 ## -returns
-
-
 
 <i>MiniportOidRequest</i> can return one of the following status values:
 
@@ -216,14 +210,8 @@ The miniport driver will provide an OID completion status with a subsequent stat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A driver specifies the 
     <i>MiniportOidRequest</i> entry point when it calls the 
@@ -294,15 +282,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_device_pnp_event_notify">
    MiniportDevicePnPEventNotify</a>
@@ -342,7 +324,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a>
- 
-
- 
 

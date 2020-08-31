@@ -8,9 +8,6 @@ ms.assetid: 88d5a5ad-b71a-49b3-a1cf-b0dff1a85745
 ms.date: 05/02/2018
 keywords: ["FWPS_CALLOUT2_ structure"]
 ms.keywords: FWPS_CALLOUT2, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT2_, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_RESERVED1, fwpsk/FWPS_CALLOUT2, netvista.fwps_callout2
-f1_keywords:
- - "fwpsk/FWPS_CALLOUT2"
- - "FWPS_CALLOUT2"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_CALLOUT2
 targetos: Windows
 req.typenames: FWPS_CALLOUT2
+f1_keywords:
+ - FWPS_CALLOUT2_
+ - fwpsk/FWPS_CALLOUT2_
+ - FWPS_CALLOUT2
+ - fwpsk/FWPS_CALLOUT2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_CALLOUT2
 ---
 
 # FWPS_CALLOUT2_ structure
@@ -46,22 +48,15 @@ req.typenames: FWPS_CALLOUT2
 
 ## -description
 
-
 The <b>FWPS_CALLOUT2</b> structure defines the data that is required for a callout driver to register a
   callout with the filter engine.<div class="alert"><b>Note</b>  <b>FWPS_CALLOUT2</b> is the specific version of <b>FWPS_CALLOUT</b> used in Windows 8 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout1_">FWPS_CALLOUT1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a> is available.</div>
 <div> </div>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field calloutKey
 
 A callout driver-defined <b>GUID</b> that uniquely identifies the callout.
-
 
 ### -field flags
 
@@ -191,8 +186,6 @@ A callout driver specifies this flag when registering a callout that will be add
 </td>
 </tr>
 </table>
- 
-
 
 ### -field classifyFn
 
@@ -200,13 +193,11 @@ A pointer to the callout driver's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function. The filter
      engine calls this function whenever there is network data to be processed by the callout.
 
-
 ### -field notifyFn
 
 A pointer to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a> function. The filter engine calls
      this function to notify the callout driver about events that are associated with the callout.
-
 
 ### -field flowDeleteFn
 
@@ -218,10 +209,7 @@ A pointer to the callout driver's
 If a callout driver does not associate a context with the data flows that the callout processes, then
      this member should be set to NULL.
 
-
 ## -remarks
-
-
 
 A callout driver passes a pointer to an initialized <b>FWPS_CALLOUT2</b> structure to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> function when it
@@ -236,13 +224,7 @@ This structure is essentially identical to the previous version,
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout1_">FWPS_CALLOUT1</a>. The only differences are that
     the members of this version store the updated versions of the callout function pointers, and additional flags are available for callout drivers to set.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a>
 
@@ -269,7 +251,4 @@ This structure is essentially identical to the previous version,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a>
- 
-
- 
 

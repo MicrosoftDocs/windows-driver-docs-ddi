@@ -6,41 +6,41 @@ description: Builds the pattern data to be used on a subsequent arm request - th
 tech.root: audio
 ms.assetid: 441cfb5c-8365-4260-b12f-285df29d54f5
 ms.author: windowsdriverdev
-ms.date: 02/25/2019 
+ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::BuildArmingPatternData"]
-f1_keywords:
- - "eventdetectoroemadapter/IEventDetectorOemAdapter.BuildArmingPatternData"
- - "IEventDetectorOemAdapter.BuildArmingPatternData"
 ms.keywords: IEventDetectorOemAdapter::BuildArmingPatternData, BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData, IEventDetectorOemAdapter::BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData
 req.header: eventdetectoroemadapter.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
+req.ddi-compliance: 
+req.unicode-ansi: 
 req.idl: eventdetectoroemadapter.idl
-req.max-support:
-req.namespace:
-req.assembly:
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- eventdetectoroemadapter.h
-api_name: 
-- IEventDetectorOemAdapter.BuildArmingPatternData
-product: 
-- Windows
 targetos: Windows
-ms.custom: 19H1 
+ms.custom: 19H1
+f1_keywords:
+ - IEventDetectorOemAdapter::BuildArmingPatternData
+ - eventdetectoroemadapter/IEventDetectorOemAdapter::BuildArmingPatternData
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - eventdetectoroemadapter.h
+api_name:
+ - IEventDetectorOemAdapter.BuildArmingPatternData
+product:
+ - Windows
 ---
 
 # IEventDetectorOemAdapter::BuildArmingPatternData
@@ -84,3 +84,4 @@ This function is the part of the Event Detector OEM interface to be used for har
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
+

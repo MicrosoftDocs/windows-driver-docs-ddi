@@ -8,9 +8,6 @@ ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.date: 04/20/2018
 keywords: ["AddPortUI function"]
 ms.keywords: AddPortUI, pfnAddPortUI, pfnAddPortUI function [Print Devices], print.addportui, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, winsplp/pfnAddPortUI
-f1_keywords:
- - "winsplp/pfnAddPortUI"
- - "pfnAddPortUI"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsplp.h
-api_name:
-- pfnAddPortUI
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AddPortUI
+ - winsplp/AddPortUI
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsplp.h
+api_name:
+ - pfnAddPortUI
 ---
 
 # AddPortUI function
@@ -46,31 +46,24 @@ req.typenames:
 
 ## -description
 
-
 A port monitor UI DLL's <b>AddPortUI</b> function adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.
-
 
 ## -parameters
 
-
-
-
 ### -param pszServer 
+
 [in, optional]
 Caller-supplied pointer to a string representing a server name, or <b>NULL</b> if the printer is local.
 
-
 ### -param hWnd 
+
 [in]
 Caller-supplied handle of the window that should be used as the parent for dialog boxes. If <b>NULL</b>, no dialog boxes should be displayed.
 
-
 ### -param pszMonitorNameIn
 
-
-
-
 ### -param ppszPortNameOut 
+
 [out, optional]
 Caller-supplied pointer to a location to receive a port name string. Can be <b>NULL</b>, in which case a name is not returned.
 
@@ -79,19 +72,11 @@ Caller-supplied pointer to a location to receive a port name string. Can be <b>N
 
 Caller-supplied pointer to a string representing the name of the monitor. Can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise SetLastError should be called to specify an error code, and the function should return <b>FALSE</b>. If the operation is canceled by the user or is unsupported, the function should call SetLastError(ERROR_CANCELLED), then return <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Port monitor UI DLLs are required to define an <b>AddPortUI</b> function and include the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui">MONITORUI</a> structure.
 
@@ -153,12 +138,7 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui">MONITORUI</a>
 
@@ -177,7 +157,4 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a>
- 
-
- 
 

@@ -25,8 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0072"
- - "PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0072"
+ - PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0072
+ - d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0072
 topic_type:
  - apiref
 api_type:
@@ -40,6 +40,7 @@ product:
 ---
 
 # PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0072 callback function
+
 
 ## -description
 
@@ -86,3 +87,4 @@ See the [D3D Video Protected Resource Support Specification](https://microsoft.g
 ## -see-also
 
 [**D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_processor_0072.md)
+

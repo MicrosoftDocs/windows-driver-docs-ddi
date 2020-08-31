@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/UnlockAsync"
- - "UnlockAsync"
+ - PFND3DDDI_UNLOCKASYNC
+ - d3dumddi/PFND3DDDI_UNLOCKASYNC
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_UNLOCKASYNC callback function
+
 
 ## -description
 

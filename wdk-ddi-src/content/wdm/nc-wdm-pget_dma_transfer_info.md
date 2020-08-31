@@ -8,9 +8,6 @@ ms.assetid: 27D1FAAE-6DEF-4485-AA29-32CC85A01000
 ms.date: 04/30/2018
 keywords: ["PGET_DMA_TRANSFER_INFO callback function"]
 ms.keywords: GetDmaTransferInfo, GetDmaTransferInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_TRANSFER_INFO, PGET_DMA_TRANSFER_INFO callback, kernel.getdmatransferinfo, wdm/GetDmaTransferInfo
-f1_keywords:
- - "wdm/GetDmaTransferInfo"
- - "GetDmaTransferInfo"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- GetDmaTransferInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PGET_DMA_TRANSFER_INFO
+ - wdm/PGET_DMA_TRANSFER_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - GetDmaTransferInfo
 ---
 
 # PGET_DMA_TRANSFER_INFO callback function
@@ -46,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetDmaTransferInfo</b> routine calculates the allocation requirements for a scatter/gather DMA transfer.
-
 
 ## -parameters
 
-
-
-
 ### -param DmaAdapter 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
-
 ### -param Mdl 
+
 [in]
 A pointer to the MDL chain that describes the pages of memory that are to be transferred. For more information, see the Remarks section.
 
-
 ### -param Offset 
+
 [in]
 The starting offset for the scatter/gather DMA transfer. This parameter is a byte offset from the start of the buffer in the first MDL in the MDL chain. If the MDLs in the MDL chain specify a total of N bytes of buffer space, valid values of <i>Offset</i> are in the range 0 to N–1.
 
-
 ### -param Length 
+
 [in]
 The length, in bytes, of the DMA transfer. If the MDL chain specifies a total of N bytes of buffer space, valid values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
-
 ### -param WriteOnly 
+
 [in]
 Indicates whether the transfer is a write-only operation (that is, a transfer to the device from memory). If <i>WriteOnly</i> is TRUE, information returned about the transfer might not be valid for a read transaction. This parameter might indicate that additional cache control operations are required at buffer boundaries to enforce cache coherency.
 
-
 ### -param TransferInfo 
+
 [in, out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_transfer_info">DMA_TRANSFER_INFO</a> structure. The caller must set the <b>Version</b> member of the structure to DMA_TRANSFER_INFO_VERSION1 before calling <b>GetDmaTransferInfo</b>.
 
-
 ## -returns
-
-
 
 <b>GetDmaTransferInfo</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
 
@@ -109,14 +102,8 @@ The routine does not support the specified version of the <b>DMA_TRANSFER_INFO_<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>GetDmaTransferInfo</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
@@ -144,13 +131,7 @@ For information about the DMA transfer information that is provided by version 1
 
 An MDL describes the physical memory pages that underlie a locked-down, contiguous block of virtual memory. Typically, these physical memory pages are non-contiguous. An MDL chain is an ordered collection of MDLs that describes memory that can be used to buffer I/O data. Typically, the virtual memory regions described by the MDLs in the chain are non-contiguous. For more information about MDLs and MDL chains, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>
 
@@ -177,7 +158,4 @@ An MDL describes the physical memory pages that underlie a locked-down, contiguo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
- 
-
- 
 

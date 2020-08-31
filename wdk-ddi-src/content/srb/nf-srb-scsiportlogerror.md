@@ -8,9 +8,6 @@ ms.assetid: 278f4fff-6e71-4544-8838-90f659c5029e
 ms.date: 03/29/2018
 keywords: ["ScsiPortLogError function"]
 ms.keywords: ScsiPortLogError, ScsiPortLogError routine [Storage Devices], scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, srb/ScsiPortLogError, storage.scsiportlogerror
-f1_keywords:
- - "srb/ScsiPortLogError"
- - "ScsiPortLogError"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortLogError
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortLogError
+ - srb/ScsiPortLogError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortLogError
 ---
 
 # ScsiPortLogError function
@@ -47,41 +47,37 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortLogError</b> routine logs errors to the system event log when a miniport driver or its HBA detects a SCSI error condition.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
-[in]
-Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
+[in]
+Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 ### -param OPTIONAL
 
 <p>Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.</p>
 
-
 ### -param PathId 
+
 [in]
 Identifies the SCSI bus.
 
-
 ### -param TargetId 
+
 [in]
 Identifies the target controller or device on the bus.
 
-
 ### -param Lun 
+
 [in]
 Identifies the logical unit number of the target device.
 
-
 ### -param ErrorCode 
+
 [in]
 Specifies an error code indicating one of the following values as the type of error.
 
@@ -191,39 +187,21 @@ Indicates that a target disconnected unexpectedly.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param UniqueId 
+
 [in]
 Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 A miniport driver should log all real hardware errors. However, it should not log common operational errors, such as selection time-outs or bus resets.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportnotification">ScsiPortNotification</a>
- 
-
- 
 

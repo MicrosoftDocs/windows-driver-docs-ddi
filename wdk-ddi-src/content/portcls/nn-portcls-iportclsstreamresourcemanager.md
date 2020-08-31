@@ -8,44 +8,43 @@ ms.assetid: FC13CB2E-2027-4BCE-AEEE-346CB0784819
 ms.date: 03/19/2018
 keywords: ["IPortClsStreamResourceManager interface"]
 ms.keywords: IPortClsStreamResourceManager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, audio.iportclsstreamresourcemanager, portcls/IPortClsStreamResourceManager
-f1_keywords:
- - "portcls/IPortClsStreamResourceManager"
- - "IPortClsStreamResourceManager"
 req.header: portcls.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Portcls.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortClsStreamResourceManager
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+f1_keywords:
+ - IPortClsStreamResourceManager
+ - portcls/IPortClsStreamResourceManager
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsStreamResourceManager
 ---
 
 # IPortClsStreamResourceManager interface
 
 
 ## -description
-
 
 IPortClsStreamResourceManager is used to manage the registration of audio stream resources.
 

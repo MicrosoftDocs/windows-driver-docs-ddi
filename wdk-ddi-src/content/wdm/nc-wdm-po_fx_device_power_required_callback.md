@@ -8,9 +8,6 @@ ms.assetid: AC2110EA-A124-4C01-8270-8D6650F80E0A
 ms.date: 04/30/2018
 keywords: ["PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function"]
 ms.keywords: DevicePowerRequiredCallback, DevicePowerRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_REQUIRED_CALLBACK, kernel.devicepowerrequiredcallback, wdm/DevicePowerRequiredCallback
-f1_keywords:
- - "wdm/DevicePowerRequiredCallback"
- - "DevicePowerRequiredCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- DevicePowerRequiredCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PO_FX_DEVICE_POWER_REQUIRED_CALLBACK
+ - wdm/PO_FX_DEVICE_POWER_REQUIRED_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - DevicePowerRequiredCallback
 ---
 
 # PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <i>DevicePowerRequiredCallback</i> callback routine notifies the device driver that the device must enter and remain in the D0 power state.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in]
 A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
-
 ## -remarks
-
-
 
 After PoFx calls the driver's <i>DevicePowerRequiredCallback</i> routine, the driver must initiate a transition to the D0 state by sending a D0 IRP (an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request) down the device stack, if the device is not already in the D0 state. After the driver completes (and all lower drivers complete) handling of this request, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon">PoFxReportDevicePoweredOn</a> routine. The <b>PoFxReportDevicePoweredOn</b> call notifies PoFx that the device completed its response to the <i>DevicePowerRequiredCallback</i> call. The driver can call <b>PoFxReportDevicePoweredOn</b> during or after the <i>DevicePowerRequiredCallback</i> call.
 
@@ -112,12 +105,7 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_not_required_callback">DevicePowerNotRequiredCallback</a>
 
@@ -136,7 +124,4 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon">PoFxReportDevicePoweredOn</a>
- 
-
- 
 

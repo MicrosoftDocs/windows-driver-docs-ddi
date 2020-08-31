@@ -8,9 +8,6 @@ ms.assetid: b56fef85-4058-4942-90c0-36646164cd3e
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_e38de652-334f-4b7a-b455-22c0eea8d8fd.xml, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback, EvtDeviceProcessQueryInterfaceRequest, EvtDeviceProcessQueryInterfaceRequest callback function, kmdf.evtdeviceprocessqueryinterfacerequest, wdf.evtdeviceprocessqueryinterfacerequest, wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest
-f1_keywords:
- - "wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest"
- - "EvtDeviceProcessQueryInterfaceRequest"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdfQueryInterface.h
-api_name:
-- EvtDeviceProcessQueryInterfaceRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST
+ - wdfqueryinterface/EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdfQueryInterface.h
+api_name:
+ - EvtDeviceProcessQueryInterfaceRequest
 ---
 
 # EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback function
@@ -46,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceProcessQueryInterfaceRequest</i> event callback function examines another driver's request for access to a driver-defined interface, before the framework passes the interface to the requesting driver.
 
-
 ## -parameters
 
-
-
-
 ### -param Device 
+
 [in]
 A handle to a framework device object.
 
-
 ### -param InterfaceType 
+
 [in]
 A pointer to the GUID that identifies the driver-defined interface.
 
-
 ### -param ExposedInterface 
+
 [in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure that describes the driver-defined interface and was provided by the driver that is requesting access to the interface.
 
-
 ### -param ExposedInterfaceSpecificData 
+
 [in, out]
 A pointer to additional, optional, driver-defined, interface-specific information. Framework-based drivers specify this value by providing a non-<b>NULL</b> <i>InterfaceSpecificData</i> parameter value when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>.
 
-
 ## -returns
-
-
 
 If the <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function receives a GUID that it supports, and if the function encounters no errors, it must return STATUS_SUCCESS or another status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(<i>status</i>) equals <b>TRUE</b>. The framework continues passing the request down the stack to see if additional drivers also support the interface.
 
@@ -89,14 +82,7 @@ The <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function must return S
 
 If the callback function encounters an error, it must return a status value for which NT_SUCCESS(<i>status</i>) equals <b>FALSE</b>. The framework fails the other driver's request for the interface and does not pass the request down the stack.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Framework-based drivers register an <i>EvtDeviceProcessQueryInterfaceRequest</i> event callback function by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface">WdfDeviceAddQueryInterface</a>.
 
@@ -159,13 +145,7 @@ NTSTATUS
 </table></span></div>
 The <b>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST</b> function type is defined in the WdfQueryInterface.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
 
@@ -180,7 +160,4 @@ The <b>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST</b> function type is defin
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 0AD4316E-67E7-4810-86DA-5DEB5C4E6DE6
 ms.date: 05/07/2018
 keywords: ["UfxDeviceIoInternalControl function"]
 ms.keywords: UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], buses.ufxdeviceiointernalcontrol, ufxclient/UfxDeviceIoInternalControl
-f1_keywords:
- - "ufxclient/UfxDeviceIoInternalControl"
- - "UfxDeviceIoInternalControl"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceIoInternalControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceIoInternalControl
+ - ufxclient/UfxDeviceIoInternalControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceIoInternalControl
 ---
 
 # UfxDeviceIoInternalControl function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 Passes kernel mode IOCTLs to UFX.
-
 
 ## -parameters
 
-
-
-
 ### -param UfxDevice 
+
 [in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ### -param Request 
+
 [in]
 A handle to a framework request object.
 
-
 ### -param OutputBufferLength 
+
 [in]
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
-
 ### -param InputBufferLength 
+
 [in]
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
-
 ### -param IoControlCode 
+
 [in]
 The driver-defined or system-defined IOCTL that is associated with the request.
 
-
 ## -remarks
-
-
 
 The client driver calls <b>UfxDeviceIoInternalControl</b> to forward internal IOCTLs that it receives in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a> callback function to UFX.  The following example shows how:
 
@@ -153,5 +146,4 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
-
 

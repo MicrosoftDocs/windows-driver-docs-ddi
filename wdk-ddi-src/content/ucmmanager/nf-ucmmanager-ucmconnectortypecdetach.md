@@ -8,9 +8,6 @@ ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.date: 05/07/2018
 keywords: ["UcmConnectorTypeCDetach function"]
 ms.keywords: UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach
-f1_keywords:
- - "ucmmanager/UcmConnectorTypeCDetach"
- - "UcmConnectorTypeCDetach"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UcmCxstub.lib
-- UcmCxstub.dll
-api_name:
-- UcmConnectorTypeCDetach
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcmConnectorTypeCDetach
+ - ucmmanager/UcmConnectorTypeCDetach
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UcmCxstub.lib
+ - UcmCxstub.dll
+api_name:
+ - UcmConnectorTypeCDetach
 ---
 
 # UcmConnectorTypeCDetach function
@@ -47,36 +47,20 @@ req.typenames:
 
 ## -description
 
-
 Notifies the USB connector manager framework extension (UcmCx) when the partner connector  detaches from the specified Type-C connector.
-
 
 ## -parameters
 
-
-
-
 ### -param Connector 
+
 [in]
 Handle to the connector object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
-
 ## -returns
 
-
-
-<b>UcmConnectorTypeCDetach</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value. 
-
-
-
+<b>UcmConnectorTypeCDetach</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
- 
-
- 
 

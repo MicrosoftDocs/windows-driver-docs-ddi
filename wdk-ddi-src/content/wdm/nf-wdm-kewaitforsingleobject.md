@@ -8,9 +8,6 @@ ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
 ms.date: 04/30/2018
 keywords: ["KeWaitForSingleObject function"]
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
-f1_keywords:
- - "wdm/KeWaitForSingleObject"
- - "KeWaitForSingleObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeWaitForSingleObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeWaitForSingleObject
+ - wdm/KeWaitForSingleObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeWaitForSingleObject
 ---
 
 # KeWaitForSingleObject function
@@ -46,48 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The **KeWaitForSingleObject** routine puts the current thread into a wait state until the given dispatcher object is set to a signaled state or (optionally) until the wait times out.
-
-## -syntax
-
-```cpp
-NTSTATUS
-KeWaitForSingleObject (
-    PVOID Object,
-    KWAIT_REASON WaitReason,
-    KPROCESSOR_MODE WaitMode,
-    BOOLEAN Alertable,
-    PLARGE_INTEGER Timeout
-    );
-```
 
 ## -parameters
 
-
-
-
 ### -param Object 
+
 [in]
 Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage.
 
-
 ### -param WaitReason 
+
 [in]
 Specifies the reason for the wait. A driver should set this value to **Executive**, unless it is doing work on behalf of a user and is running in the context of a user thread, in which case it should set this value to **UserRequest**.
 
-
 ### -param WaitMode 
+
 [in]
 Specifies whether the caller waits in **KernelMode** or **UserMode**. Lowest-level and intermediate drivers should specify **KernelMode**. If the given *Object* is a mutex, the caller must specify **KernelMode**.
 
-
 ### -param Alertable 
+
 [in]
 Specifies a Boolean value that is **TRUE** if the wait is alertable and **FALSE** otherwise.
 
-
 ### -param Timeout 
+
 [in, optional]
 Pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
 
@@ -95,9 +79,7 @@ A positive value specifies an absolute time, relative to January 1, 1601. A nega
 
 If **Timeout* = 0, the routine returns without waiting. If the caller supplies a **NULL** pointer, the routine waits indefinitely until the dispatcher object is set to the signaled state. For more information, see the following Remarks section.
 
-
 ## -returns
-
 
 **KeWaitForSingleObject** can return one of the following.
 
@@ -111,6 +93,18 @@ If **Timeout* = 0, the routine returns without waiting. If the caller supplies a
 |**STATUS_USER_APC**|The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.|
 |**STATUS_TIMEOUT**|A time-out occurred before the object was set to a signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and _Timeout_ is set to zero.|
 
+## -syntax
+
+```cpp
+NTSTATUS
+KeWaitForSingleObject (
+    PVOID Object,
+    KWAIT_REASON WaitReason,
+    KPROCESSOR_MODE WaitMode,
+    BOOLEAN Alertable,
+    PLARGE_INTEGER Timeout
+    );
+```
 
 ## -remarks
 
@@ -159,3 +153,4 @@ For more information about mutex objects, see <a href="https://docs.microsoft.co
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
+

@@ -8,9 +8,6 @@ ms.assetid: 74b3894e-972f-430b-bb8f-20fa46bf8b7d
 ms.date: 04/16/2018
 keywords: ["RtlIsRoot macro"]
 ms.keywords: RtlIsRoot, RtlIsRoot routine [Installable File System Drivers], ifsk.rtlisroot, ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml
-f1_keywords:
- - "ntddk/RtlIsRoot"
- - "RtlIsRoot"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- RtlIsRoot
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIsRoot
+ - ntddk/RtlIsRoot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - RtlIsRoot
 ---
 
 # RtlIsRoot macro
@@ -46,20 +46,14 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlIsRoot</b> routine determines whether the specified node is the root node of a splay link tree. 
-
+The <b>RtlIsRoot</b> routine determines whether the specified node is the root node of a splay link tree.
 
 ## -parameters
 
-
-
-
 ### -param Links 
+
 [in]
-Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
-
-
+Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -remarks
 
@@ -68,15 +62,9 @@ Pointer to the node. The node must have been initialized by calling <b>RtlInitia
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-Callers of <b>RtlIsRoot</b> must be running at IRQL <= DISPATCH_LEVEL if the splay link tree or just-initialized node at <i>Links</i> is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
-
-
-
+Callers of <b>RtlIsRoot</b> must be running at IRQL <= DISPATCH_LEVEL if the splay link tree or just-initialized node at <i>Links</i> is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializesplaylinks">RtlInitializeSplayLinks</a>
 
@@ -87,7 +75,4 @@ Callers of <b>RtlIsRoot</b> must be running at IRQL <= DISPATCH_LEVEL if the spl
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisrightchild">RtlIsRightChild</a>
- 
-
- 
 

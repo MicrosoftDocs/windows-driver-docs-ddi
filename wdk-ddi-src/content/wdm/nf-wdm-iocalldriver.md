@@ -8,9 +8,6 @@ ms.assetid: 5d1fff23-f1e8-41a5-9cd6-a20bd4a7883e
 ms.date: 04/30/2018
 keywords: ["IoCallDriver macro"]
 ms.keywords: IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
-f1_keywords:
- - "wdm/IoCallDriver"
- - "IoCallDriver"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCallDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCallDriver
+ - wdm/IoCallDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCallDriver
 ---
 
 # IoCallDriver macro
@@ -46,13 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to the driver associated with a specified device object. For more information, see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 >Do not call **IofCallDriver**. Call **IoCallDriver** instead.
 
-## -syntax
+## -parameters
 
+### -param DeviceObject 
+
+[in]
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
+
+### -param Irp 
+
+[in, out]
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
+
+## -returns
+
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
+
+## -syntax
 
 ```cpp
 NTSTATUS IoCallDriver(
@@ -60,24 +74,6 @@ NTSTATUS IoCallDriver(
   __drv_aliasesMem PIRP Irp
 );
 ```
-
-## -parameters
-
-
-
-
-### -param DeviceObject 
-[in]
-See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
-
-### -param Irp 
-[in, out]
-See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
-
-## -returns
-See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
-
-
 
 ## -see-also
 
@@ -106,7 +102,4 @@ See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver">PoCallDriver</a>
- 
-
- 
 

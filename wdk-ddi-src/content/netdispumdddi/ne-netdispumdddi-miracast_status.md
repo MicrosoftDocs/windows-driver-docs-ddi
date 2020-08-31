@@ -8,9 +8,6 @@ ms.assetid: 26949ef9-ddcd-496d-b7e2-7c971bfaf3fb
 ms.date: 05/10/2018
 keywords: ["MIRACAST_STATUS enumeration"]
 ms.keywords: MIRACAST_STATUS, MIRACAST_STATUS enumeration [Display Devices], MIRACAST_STATUS_CRITICAL_ERROR, MIRACAST_STATUS_FORCE_UINT32, MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, MIRACAST_STATUS_MISSING_KEEPALIVE, MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE, display.miracast_status, netdispumdddi/MIRACAST_STATUS, netdispumdddi/MIRACAST_STATUS_CRITICAL_ERROR, netdispumdddi/MIRACAST_STATUS_FORCE_UINT32, netdispumdddi/MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, netdispumdddi/MIRACAST_STATUS_MISSING_KEEPALIVE, netdispumdddi/MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, netdispumdddi/MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE
-f1_keywords:
- - "netdispumdddi/MIRACAST_STATUS"
- - "MIRACAST_STATUS"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netdispumdddi.h
-api_name:
-- MIRACAST_STATUS
 targetos: Windows
 req.typenames: MIRACAST_STATUS
+f1_keywords:
+ - MIRACAST_STATUS
+ - netdispumdddi/MIRACAST_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netdispumdddi.h
+api_name:
+ - MIRACAST_STATUS
 ---
 
 # MIRACAST_STATUS enumeration
@@ -46,42 +46,31 @@ req.typenames: MIRACAST_STATUS
 
 ## -description
 
-
 Specifies status types  that the user-mode display driver uses to report Miracast connection status.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MIRACAST_STATUS_CRITICAL_ERROR
 
 An unspecified error occurred, and the Miracast connected session cannot continue.
 
-
 ### -field MIRACAST_STATUS_MISSING_KEEPALIVE
 
 The Miracast sink failed to respond to the protocol keep-alive message.
-
 
 ### -field MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST
 
 The Miracast sink requested that it be disconnected.
 
-
 ### -field MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH
 
 The bandwidth of the wireless connection has changed such that the current mode cannot be sustained.
-
 
 ### -field MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE
 
 The Miracast sink failed to set a standard Video Electronics Standards Association (VESA) setting, Consumer Electronics Association (CEA) standard setting, or a hand-held mode change.
 
-
 ### -field MIRACAST_STATUS_COMPANION_DRIVER_DISCONNECT
-
 
 ### -field MIRACAST_STATUS_FORCE_UINT32
 

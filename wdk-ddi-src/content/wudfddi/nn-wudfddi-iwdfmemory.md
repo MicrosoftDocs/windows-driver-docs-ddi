@@ -8,9 +8,6 @@ ms.assetid: 8746eb43-7a6e-4e1d-b8fb-c8b7891295d6
 ms.date: 02/26/2018
 keywords: ["IWDFMemory interface"]
 ms.keywords: IWDFMemory, IWDFMemory interface, IWDFMemory interface,described, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory, wdf.iwdfmemory, wudfddi/IWDFMemory
-f1_keywords:
- - "wudfddi/IWDFMemory"
- - "IWDFMemory"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFMemory
+ - wudfddi/IWDFMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFMemory
 ---
 
 # IWDFMemory interface
@@ -46,11 +46,9 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IWDFMemory</b> interface exposes the framework memory object that provides access to a memory block.
-
 
 ## -inheritance
 

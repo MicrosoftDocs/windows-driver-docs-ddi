@@ -8,9 +8,6 @@ ms.assetid: 799273eb-0ff6-4815-ac32-8fbb01f457e2
 ms.date: 05/08/2018
 keywords: ["IInterruptSync::Disconnect"]
 ms.keywords: Disconnect, Disconnect method [Audio Devices], Disconnect method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],Disconnect method, IInterruptSync.Disconnect, IInterruptSync::Disconnect, audio.iinterruptsync_disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, portcls/IInterruptSync::Disconnect
-f1_keywords:
- - "portcls/IInterruptSync.Disconnect"
- - "IInterruptSync.Disconnect"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IInterruptSync.Disconnect
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IInterruptSync::Disconnect
+ - portcls/IInterruptSync::Disconnect
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IInterruptSync.Disconnect
 ---
 
 # IInterruptSync::Disconnect
@@ -46,21 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <code>Disconnect</code> method disconnects the synchronization object from the interrupt.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterrupt">IoDisconnectInterrupt</a>
- 
-
- 
 

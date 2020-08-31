@@ -8,9 +8,6 @@ ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_QUERYRESIDENCY structure"]
 ms.keywords: D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY structure [Display Devices], D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, _D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency
-f1_keywords:
- - "d3dumddi/D3DDDICB_QUERYRESIDENCY"
- - "D3DDDICB_QUERYRESIDENCY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_QUERYRESIDENCY
 targetos: Windows
 req.typenames: D3DDDICB_QUERYRESIDENCY
+f1_keywords:
+ - _D3DDDICB_QUERYRESIDENCY
+ - d3dumddi/_D3DDDICB_QUERYRESIDENCY
+ - D3DDDICB_QUERYRESIDENCY
+ - d3dumddi/D3DDDICB_QUERYRESIDENCY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_QUERYRESIDENCY
 ---
 
 # _D3DDDICB_QUERYRESIDENCY structure
@@ -46,14 +48,9 @@ req.typenames: D3DDDICB_QUERYRESIDENCY
 
 ## -description
 
-
-The D3DDDICB_QUERYRESIDENCY structure describes the residency status of a resource or list of allocations. 
-
+The D3DDDICB_QUERYRESIDENCY structure describes the residency status of a resource or list of allocations.
 
 ## -struct-fields
-
-
-
 
 ### -field hResource
 
@@ -61,18 +58,15 @@ The D3DDDICB_QUERYRESIDENCY structure describes the residency status of a resour
 
 If <b>hResource</b> is non-<b>NULL</b>, all allocations that belong to the resource are queried, and the result is returned in the first element of the array that <b>pResidencyStatus</b> points to. The residency status of a resource is equal to the lowest residency status of all allocations that belong to the resource.
 
-
 ### -field NumAllocations
 
 [in] The number of allocations in the <b>HandleList</b> array. If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, it must set <b>NumAllocations</b> to zero.
-
 
 ### -field HandleList
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to query for residency.
 
-If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, it must set <b>HandleList</b> to <b>NULL</b>. 
-
+If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, it must set <b>HandleList</b> to <b>NULL</b>.
 
 ### -field pResidencyStatus
 
@@ -82,16 +76,9 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 |:--|:--|
 | D3DDDI_RESIDENCYSTATUS_RESIDENTINGPUMEMORY (1) | The resource or list of allocations reside in GPU memory, which is the highest residency status. | 
 | D3DDDI_RESIDENCYSTATUS_RESIDENTINSHAREDMEMORY (2) | The resource or list of allocations reside in shared memory. | 
-| D3DDDI_RESIDENCYSTATUS_NOTRESIDENT (3) | The resource or list of allocations is nonresident, which is the lowest residency status. | 
-
+| D3DDDI_RESIDENCYSTATUS_NOTRESIDENT (3) | The resource or list of allocations is nonresident, which is the lowest residency status. |
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryresidencycb">pfnQueryResidencyCb</a>
- 
-
- 
 

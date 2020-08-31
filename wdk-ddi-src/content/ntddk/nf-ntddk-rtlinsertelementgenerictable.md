@@ -8,9 +8,6 @@ ms.assetid: 2554a212-edc0-4641-98bb-2db36ff0266f
 ms.date: 04/16/2018
 keywords: ["RtlInsertElementGenericTable function"]
 ms.keywords: RtlInsertElementGenericTable, RtlInsertElementGenericTable routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictable, ntddk/RtlInsertElementGenericTable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml
-f1_keywords:
- - "ntddk/RtlInsertElementGenericTable"
- - "RtlInsertElementGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInsertElementGenericTable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInsertElementGenericTable
+ - ntddk/RtlInsertElementGenericTable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInsertElementGenericTable
 ---
 
 # RtlInsertElementGenericTable function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlInsertElementGenericTable</b> routine adds a new element to a generic table. 
-
+The <b>RtlInsertElementGenericTable</b> routine adds a new element to a generic table.
 
 ## -parameters
 
-
-
-
 ### -param Table 
+
 [in]
 Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
-
 ### -param Buffer 
-[in]
-Pointer to a caller-allocated buffer containing data to be copied into the new element. For more information, see the description of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>. 
 
+[in]
+Pointer to a caller-allocated buffer containing data to be copied into the new element. For more information, see the description of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
 ### -param BufferSize 
-[in]
-Number of bytes to be allocated for caller-supplied data when the new element is inserted. 
 
+[in]
+Number of bytes to be allocated for caller-supplied data when the new element is inserted.
 
 ### -param NewElement 
-[out, optional]
-Pointer to a variable that receives <b>TRUE</b> if a new element with the data at <i>Buffer</i> was inserted in the generic table; or <b>FALSE</b> if the new element was not inserted. 
 
+[out, optional]
+Pointer to a variable that receives <b>TRUE</b> if a new element with the data at <i>Buffer</i> was inserted in the generic table; or <b>FALSE</b> if the new element was not inserted.
 
 ## -returns
 
-
-
-<b>RtlInsertElementGenericTable</b> returns a pointer to the newly inserted element's associated data, or it returns a pointer to the existing element's data if a matching element already exists in the generic table. If no matching element is found, but the new element cannot be inserted (for example, because the <i>AllocateRoutine</i> fails), <b>RtlInsertElementGenericTable</b> returns <b>NULL</b>. 
-
-
-
+<b>RtlInsertElementGenericTable</b> returns a pointer to the newly inserted element's associated data, or it returns a pointer to the existing element's data if a matching element already exists in the generic table. If no matching element is found, but the new element cannot be inserted (for example, because the <i>AllocateRoutine</i> fails), <b>RtlInsertElementGenericTable</b> returns <b>NULL</b>.
 
 ## -remarks
-
-
 
 To insert an element, <b>RtlInsertElementGenericTable</b> calls the <i>CompareRoutine</i> and <i>AllocateRoutine</i> that were registered when the generic table was initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>. After inserting the new element, <b>RtlInsertElementGenericTable</b> rebalances the splay link tree.
 
@@ -117,19 +105,11 @@ The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pag
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldeleteelementgenerictable">RtlDeleteElementGenericTable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>
- 
-
- 
 

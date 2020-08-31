@@ -8,39 +8,39 @@ ms.assetid: 5fe9b65f-29b2-494c-be8e-569a5b1e28fc
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetArpParameters function"]
-f1_keywords:
- - "netpoweroffload/NetPowerOffloadGetArpParameters"
- - "NetPowerOffloadGetArpParameters"
 ms.keywords: NetPowerOffloadGetArpParameters
 req.header: netpoweroffload.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetPowerOffloadGetArpParameters
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetPowerOffloadGetArpParameters
+ - netpoweroffload/NetPowerOffloadGetArpParameters
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetPowerOffloadGetArpParameters
+product:
+ - Windows
 ---
 
 # NetPowerOffloadGetArpParameters function
@@ -77,3 +77,4 @@ The client driver must only call **NetPowerOffloadGetArpParameters** during a po
 [**NET_POWER_OFFLOAD_ARP_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_arp_parameters.md)
 
 [**NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_arp_parameters_init.md)
+

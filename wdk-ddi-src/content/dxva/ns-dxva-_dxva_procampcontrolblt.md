@@ -8,9 +8,6 @@ ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.date: 05/10/2018
 keywords: ["DXVA_ProcAmpControlBlt structure"]
 ms.keywords: DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices], _DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxva/DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml
-f1_keywords:
- - "dxva/DXVA_ProcAmpControlBlt"
- - "DXVA_ProcAmpControlBlt"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_ProcAmpControlBlt
 targetos: Windows
 req.typenames: DXVA_ProcAmpControlBlt
+f1_keywords:
+ - _DXVA_ProcAmpControlBlt
+ - dxva/_DXVA_ProcAmpControlBlt
+ - DXVA_ProcAmpControlBlt
+ - dxva/DXVA_ProcAmpControlBlt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_ProcAmpControlBlt
 ---
 
 # _DXVA_ProcAmpControlBlt structure
@@ -46,66 +48,47 @@ req.typenames: DXVA_ProcAmpControlBlt
 
 ## -description
 
-
 The DXVA_ProcAmpControlBlt structure contains the ProcAmp adjustment data that is output to the destination surface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Specifies the size of this structure in bytes.
 
-
 ### -field DstRect
 
 Specifies the destination rectangle as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
-
 
 ### -field SrcRect
 
 Specifies the source rectangle as a RECT structure. The source rectangle is required for subrectangle stretching.sub Support for stretching is optional and is reported by the DXVA_ProcAmpControlCaps structure. Support for subrectangles is also optional.
 
-
 ### -field Alpha
 
 Specifies the transparency of the output image as it is written to the destination surface. A value of 0.0F indicates transparent. A value of 1.0F indicates opaque.
-
 
 ### -field Brightness
 
 Specifies the brightness of the output image as it is written to the destination surface.
 
-
 ### -field Contrast
 
 Specifies the contrast of the output image as it is written to the destination surface.
-
 
 ### -field Hue
 
 Specifies the hue of the output image as it is written to the destination surface.
 
-
 ### -field Saturation
 
 Specifies the saturation of the output image as it is written to the destination surface.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolqueryrange">DXVA_ProcAmpControlQueryRange</a>
- 
-
- 
 

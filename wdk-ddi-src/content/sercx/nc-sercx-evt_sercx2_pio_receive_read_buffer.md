@@ -8,9 +8,6 @@ ms.assetid: B69A128A-B1B0-47BC-9783-32780FC9C447
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveReadBuffer, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER, EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback, EvtSerCx2PioReceiveReadBuffer, EvtSerCx2PioReceiveReadBuffer callback function [Serial Ports], serports.evtsercx2pioreceivereadbuffer
-f1_keywords:
- - "sercx/EvtSerCx2PioReceiveReadBuffer"
- - "EvtSerCx2PioReceiveReadBuffer"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2PioReceiveReadBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_PIO_RECEIVE_READ_BUFFER
+ - sercx/EVT_SERCX2_PIO_RECEIVE_READ_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2PioReceiveReadBuffer
 ---
 
 # EVT_SERCX2_PIO_RECEIVE_READ_BUFFER callback function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2PioReceiveReadBuffer</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to use programmed I/O (PIO) to transfer data from the receive FIFO in the serial controller to a read buffer.
-
 
 ## -parameters
 
-
-
-
 ### -param PioReceive 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method to create this object.
 
-
 ### -param Buffer 
+
 [out]
 A pointer to the read buffer. This parameter is the virtual address of a locked-down buffer in system memory.
 
-
 ### -param Length 
+
 [in]
 The number of bytes in the read buffer that are available to store received data.
 
-
 ## -returns
-
-
 
 The <i>EvtSerCx2PioReceiveReadBuffer</i> function returns the number of bytes of data that it successfully transferred from the receive FIFO in the serial controller hardware to the read buffer.
 
-
-
-
 ## -remarks
-
-
 
 Your serial controller driver must implement this function. The driver registers the function in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> call that creates the PIO-receive object.
 
@@ -142,12 +130,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_receive_cleanup_transaction">EvtSerCx2PioReceiveCleanupTransaction</a>
 
@@ -166,7 +149,4 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a>
- 
-
- 
 

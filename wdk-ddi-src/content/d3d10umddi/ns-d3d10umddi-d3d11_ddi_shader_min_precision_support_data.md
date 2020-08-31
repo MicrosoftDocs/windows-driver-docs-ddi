@@ -7,9 +7,6 @@ ms.assetid: e93649d1-4ad0-4873-99c7-b2f3ed48aac6
 ms.date: 05/10/2018
 keywords: ["D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA structure"]
 ms.keywords: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA structure [Display Devices], d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, display.d3d11_ddi_shader_min_precision_support_data
-f1_keywords:
- - "d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA"
- - "D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
+f1_keywords:
+ - D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
+ - d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
 ---
 
 # D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA structure
@@ -46,19 +46,13 @@ req.typenames: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
 
 ## -description
 
-
 Describes precision support options for shaders in the user-mode display driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PixelShaderMinPrecision
 
 A combination of values of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_ddi_shader_min_precision">D3D11_DDI_SHADER_MIN_PRECISION</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies minimum precision levels that the driver supports for the pixel shader. A value of zero indicates that the driver supports only the default precision for the shader model, and not a lower precision.
-
 
 ### -field AllOtherStagesMinPrecision
 

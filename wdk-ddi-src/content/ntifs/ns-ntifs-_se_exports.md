@@ -8,9 +8,6 @@ ms.assetid: e6c398b4-f38f-4819-96f9-cefc3a728dbc
 ms.date: 04/16/2018
 keywords: ["SE_EXPORTS structure"]
 ms.keywords: "*PSE_EXPORTS, PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], SE_EXPORTS, SE_EXPORTS structure [Installable File System Drivers], SeExports, SeExports structure [Installable File System Drivers], _SE_EXPORTS, ifsk.seexports, ntifs/PSE_EXPORTS, ntifs/SeExports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml"
-f1_keywords:
- - "ntifs/SE_EXPORTS"
- - "SE_EXPORTS"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- SE_EXPORTS
 targetos: Windows
 req.typenames: SE_EXPORTS, *PSE_EXPORTS
+f1_keywords:
+ - _SE_EXPORTS
+ - ntifs/_SE_EXPORTS
+ - PSE_EXPORTS
+ - ntifs/PSE_EXPORTS
+ - SE_EXPORTS
+ - ntifs/SE_EXPORTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - SE_EXPORTS
 ---
 
 # _SE_EXPORTS structure
@@ -46,14 +50,9 @@ req.typenames: SE_EXPORTS, *PSE_EXPORTS
 
 ## -description
 
-
 The <b>SeExports</b> structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SeCreateTokenPrivilege
 
@@ -61,13 +60,11 @@ The privilege that is required to create a primary access token.
 
 User-mode applications represent this privilege as the following user-right string: "Create a token object".
 
-
 ### -field SeAssignPrimaryTokenPrivilege
 
 The privilege that is required to assign the primary token of a process. The privilege allows a parent process to replace the access token that is associated with a child process.
 
 User-mode applications represent this privilege as the following user-right string: "Replace a process-level token".
-
 
 ### -field SeLockMemoryPrivilege
 
@@ -75,18 +72,15 @@ The privilege that is required to lock physical pages in memory. This privilege 
 
 User-mode applications represent this privilege as the following user-right string: "Required to lock physical pages in memory".
 
-
 ### -field SeIncreaseQuotaPrivilege
 
 The privilege that is required to increase the quota assigned to a process. The privilege allows a process that has access to a second process to increase the processor quota assigned to the second process. This privilege is useful for system tuning, but it can be abused.
 
 User-mode applications represent this privilege as the following user-right string: "Adjust memory quotas for a process".
 
-
 ### -field SeUnsolicitedInputPrivilege
 
 The privilege that is required to read unsolicited input from a terminal device. This privilege is obsolete and unused. It has no effect on the system.
-
 
 ### -field SeTcbPrivilege
 
@@ -94,13 +88,11 @@ The privilege that identifies its holder as part of the trusted computer base. T
 
 User-mode applications represent this privilege as the following user-right string: "Act as part of the operating system".
 
-
 ### -field SeSecurityPrivilege
 
 The privilege that is required to perform a number of security-related functions, such as controlling and viewing audit messages. This privilege identifies its holder as a security operator. This privilege allows a user to specify object access auditing options for individual resources, including files, Active Directory objects, and Registry keys. A user who has this privilege can also view and clear the security log from Event Viewer.
 
 User-mode applications represent this privilege as the following user-right string: "Manage auditing and security log".
-
 
 ### -field SeTakeOwnershipPrivilege
 
@@ -108,13 +100,11 @@ The privilege that is required to take ownership of an object without being gran
 
 User-mode applications represent this privilege as the following user-right string: "Take ownership of files or other objects".
 
-
 ### -field SeLoadDriverPrivilege
 
 The privilege that is required to load or unload a device driver. This privilege allows a user to install and remove drivers for Plug and Play devices. This privilege is not required if a signed driver for the new hardware already exists in the <i>Driver.cab</i> file on the computer.
 
 User-mode applications represent this privilege as the following user-right string: "Load and unload device drivers".
-
 
 ### -field SeCreatePagefilePrivilege
 
@@ -122,13 +112,11 @@ The privilege that is required to create and change the size of a paging file.
 
 User-mode applications represent this privilege as the following user-right string: "Create a pagefile".
 
-
 ### -field SeIncreaseBasePriorityPrivilege
 
 The privilege that is required to increase the base priority of a process. This privilege allows a user to increase the base priority class of a process. Increasing relative priority within a priority class is not a privileged operation and does not need this privilege.
 
 User-mode applications represent this privilege as the following user-right string: "Increase scheduling priority".
-
 
 ### -field SeSystemProfilePrivilege
 
@@ -136,13 +124,11 @@ The privilege that is required to gather profiling information for the entire sy
 
 User-mode applications represent this privilege as the following user-right string: "Profile system performance".
 
-
 ### -field SeSystemtimePrivilege
 
 The privilege that is required to modify the system time. This privilege allows the user to adjust the time on the computer's internal clock. This privilege is not required to change the time zone or other display characteristics of the system time.
 
 User-mode applications represent this privilege as the following user-right string: "Change the system time".
-
 
 ### -field SeProfileSingleProcessPrivilege
 
@@ -150,13 +136,11 @@ The privilege that is required to gather profiling information for a single proc
 
 User-mode applications represent this privilege as the following user-right string: "Profile single process".
 
-
 ### -field SeCreatePermanentPrivilege
 
 The privilege that is required to create a permanent object. This privilege allows a process to create a directory object in the object manager. This privilege is useful to kernel-mode components that extend the object namespace. Components that are running in kernel mode have this privilege inherently.
 
 User-mode applications represent this privilege as the following user-right string: "Create permanent shared objects".
-
 
 ### -field SeBackupPrivilege
 
@@ -181,7 +165,6 @@ FILE_TRAVERSE
 </li>
 </ul>
 User-mode applications represent this privilege as the following user-right string: "Back up files and directories".
-
 
 ### -field SeRestorePrivilege
 
@@ -219,13 +202,11 @@ DELETE
 </ul>
 User-mode applications represent this privilege as the following user-right string: "Restore files and directories".
 
-
 ### -field SeShutdownPrivilege
 
 The privilege that is required to shut down a local system.
 
 User-mode applications represent this privilege as the following user-right string: "Shut down the system".
-
 
 ### -field SeDebugPrivilege
 
@@ -233,13 +214,11 @@ The privilege that is required to debug and adjust the memory of a process owned
 
 User-mode applications represent this privilege as the following user-right string: "Debug programs".
 
-
 ### -field SeAuditPrivilege
 
 The privilege that is required to generate audit-log entries in the security log. The security log can be used to trace unauthorized system access. This privilege should be given to secure servers.
 
-User-mode applications represent this privilege as the following user-right string: "Generate security audits". 
-
+User-mode applications represent this privilege as the following user-right string: "Generate security audits".
 
 ### -field SeSystemEnvironmentPrivilege
 
@@ -247,13 +226,11 @@ The privilege required to modify the nonvolatile RAM of systems that use this ty
 
 User-mode applications represent this privilege as the following user-right string: "Modify firmware environment values".
 
-
 ### -field SeChangeNotifyPrivilege
 
 The privilege that is required to receive notifications of changes to files or directories. This privilege allows the user to pass through folders to which the user otherwise has no access while navigating an object path in the NTFS file system or in the registry. This privilege does not allow the user to list the contents of a folder; it allows the user only to traverse its directories. This privilege causes the system to skip all traversal access checks. It is enabled by default for all users.
 
 User-mode applications represent this privilege as the following user-right string: "Bypass traverse checking".
-
 
 ### -field SeRemoteShutdownPrivilege
 
@@ -261,56 +238,45 @@ The privilege that is required to shut down a system by using a network request.
 
 User-mode applications represent this privilege as the following user-right string: "Force shutdown from a remote system".
 
-
 ### -field SeNullSid
 
-The null SID. 
-
+The null SID.
 
 ### -field SeWorldSid
 
 The SID that matches everyone.
 
-
 ### -field SeLocalSid
 
 The local SID.
-
 
 ### -field SeCreatorOwnerSid
 
 The SID that matches the owner or creator of an object. This SID is used in inheritable access control entries (ACEs).
 
-
 ### -field SeCreatorGroupSid
 
 The SID that matches the creator group of an object. This SID is used in inheritable ACEs.
-
 
 ### -field SeNtAuthoritySid
 
 The SID for the Microsoft Windows NT authority.
 
-
 ### -field SeDialupSid
 
 The SID for a dial-up account.
 
-
 ### -field SeNetworkSid
 
-The SID for a network account. This SID is added to the process of a token when it logs on across a network. The corresponding logon type is LOGON32_LOGON_NETWORK. 
-
+The SID for a network account. This SID is added to the process of a token when it logs on across a network. The corresponding logon type is LOGON32_LOGON_NETWORK.
 
 ### -field SeBatchSid
 
-The SID for a batch process. This SID is added to the process of a token when it logs on as a batch job. The corresponding logon type is LOGON32_LOGON_BATCH. 
-
+The SID for a batch process. This SID is added to the process of a token when it logs on as a batch job. The corresponding logon type is LOGON32_LOGON_BATCH.
 
 ### -field SeInteractiveSid
 
-The SID for an interactive account. This SID is added to the process of a token when it logs on interactively. The corresponding logon type is LOGON32_LOGON_INTERACTIVE. 
-
+The SID for an interactive account. This SID is added to the process of a token when it logs on interactively. The corresponding logon type is LOGON32_LOGON_INTERACTIVE.
 
 ### -field SeLocalSystemSid
 
@@ -410,78 +376,63 @@ SE_UNDOCK_NAME
 
 </li>
 </ul>
-Most services do not need such a high privilege level. If your service does not need these privileges, and it is not an interactive service, consider using the LocalService account or the NetworkService account. 
-
+Most services do not need such a high privilege level. If your service does not need these privileges, and it is not an interactive service, consider using the LocalService account or the NetworkService account.
 
 ### -field SeAliasAdminsSid
 
 The SID that matches the administrator account.
 
-
 ### -field SeAliasUsersSid
 
-The SID that matches built-in user accounts. 
-
+The SID that matches built-in user accounts.
 
 ### -field SeAliasGuestsSid
 
 The SID that matches the guest account.
 
-
 ### -field SeAliasPowerUsersSid
 
 The SID that matches the power users group.
-
 
 ### -field SeAliasAccountOpsSid
 
 The SID that matches the account operators account.
 
-
 ### -field SeAliasSystemOpsSid
 
 The SID that matches the system operators group.
-
 
 ### -field SeAliasPrintOpsSid
 
 The SID that matches the print operators group.
 
-
 ### -field SeAliasBackupOpsSid
 
 The SID that matches the backup operators group.
-
 
 ### -field SeAuthenticatedUsersSid
 
 The SID that matches any authenticated user.
 
-
 ### -field SeRestrictedSid
 
 The SID for restricted code.
 
-
 ### -field SeAnonymousLogonSid
 
-The SID for the anonymous account. 
-
+The SID for the anonymous account.
 
 ### -field SeUndockPrivilege
 
 The privilege that is required to remove a computer from a docking station. This privilege allows the user of a portable computer to undock the computer by clicking <b>Start</b>, and then clicking <b>Eject PC</b>.
 
-
 ### -field SeSyncAgentPrivilege
 
-The privilege that is required to synchronize directory service data. This privilege allows a process to read all objects and properties in the directory, regardless of the protection that is set on the objects and properties. This privilege is required in order to use Lightweight Directory Access Protocol (LDAP) directory synchronization (Dirsync) services. This privilege is required for a domain controller to use the LDAP directory synchronization services. 
-
+The privilege that is required to synchronize directory service data. This privilege allows a process to read all objects and properties in the directory, regardless of the protection that is set on the objects and properties. This privilege is required in order to use Lightweight Directory Access Protocol (LDAP) directory synchronization (Dirsync) services. This privilege is required for a domain controller to use the LDAP directory synchronization services.
 
 ### -field SeEnableDelegationPrivilege
 
 The privilege that is required to enable computer and user accounts to be trusted for delegation.
-
 
 ### -field SeLocalServiceSid
 
@@ -506,7 +457,6 @@ SE_UNDOCK_NAME
 Any privileges assigned to users and authenticated users 
 
 The LocalService account is available on the Microsoft Windows XP and later operating systems.
-
 
 ### -field SeNetworkServiceSid
 
@@ -536,11 +486,9 @@ Any privileges assigned to users and authenticated users
 
 The NetworkService account is available on Windows XP and later.
 
-
 ### -field SeManageVolumePrivilege
 
 The privilege that is required to allow a non-administrative or remote user to manage volumes or disks. The operating system checks for this privilege in a user's access token when a process running in the user's security context calls the user mode <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilevaliddata">SetFileValidData</a> routine.
-
 
 ### -field SeImpersonatePrivilege
 
@@ -548,13 +496,11 @@ The privilege that is required to impersonate a user. This privilege is availabl
 
 User-mode applications represent this privilege as the following user-right string: "Impersonate a client after authentication".
 
-
 ### -field SeCreateGlobalPrivilege
 
 The privilege that is required for a user account to create global objects in a Terminal Services session. Note that users can still create session-specific objects without being assigned this user right. By default, this privilege is assigned to members of the Administrators group, the System account, and services that are started by the Service Control Manager. This privilege is available on Windows 2000 with Service Pack 4  and later.
 
 User-mode applications represent this privilege as the following user-right string: "Create Global Objects".
-
 
 ### -field SeTrustedCredManAccessPrivilege
 
@@ -665,41 +611,19 @@ The SID for a group that represents all application packages.
 
 ### -field SeUserModeDriversSid
 
- 
-
-
 ### -field SeTrustedInstallerSid
-
- 
-
 
 ### -field SeDelegateSessionUserImpersonatePrivilege
 
- 
-
-
-
-
 ## -remarks
-
-
 
 <b>SeExports</b> is a large external static SE_EXPORTS structure exported by <i>Ntoskrnl.exe</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
- 
-
- 
 

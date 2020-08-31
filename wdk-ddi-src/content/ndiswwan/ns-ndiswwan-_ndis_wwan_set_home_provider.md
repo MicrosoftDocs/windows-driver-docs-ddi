@@ -8,9 +8,6 @@ ms.assetid: C0B1A72D-713B-48FF-8D1A-E9752569C10E
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_HOME_PROVIDER structure"]
 ms.keywords: "*PNDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_HOME_PROVIDER, PNDIS_WWAN_SET_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER, netvista.ndis_wwan_set_home_provider"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER"
- - "NDIS_WWAN_SET_HOME_PROVIDER"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_HOME_PROVIDER
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_HOME_PROVIDER, *PNDIS_WWAN_SET_HOME_PROVIDER
+f1_keywords:
+ - _NDIS_WWAN_SET_HOME_PROVIDER
+ - ndiswwan/_NDIS_WWAN_SET_HOME_PROVIDER
+ - PNDIS_WWAN_SET_HOME_PROVIDER
+ - ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER
+ - NDIS_WWAN_SET_HOME_PROVIDER
+ - ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_HOME_PROVIDER
 ---
 
 # _NDIS_WWAN_SET_HOME_PROVIDER structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_SET_HOME_PROVIDER, *PNDIS_WWAN_SET_HOME_PROVIDER
 
 ## -description
 
-
 The NDIS_WWAN_SET_HOME_PROVIDER structure describes a home provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,19 +104,11 @@ sizeof(NDIS_WWAN_SET_HOME_PROVIDER)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field HomeProvider
 
 A formatted WWAN_PROVIDER2 object that represents the details of the home provider to be set.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>
- 
-
- 
 

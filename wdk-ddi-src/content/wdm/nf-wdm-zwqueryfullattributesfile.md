@@ -8,9 +8,6 @@ ms.assetid: 896ea6aa-54e8-4109-8597-58d8d2cd75ce
 ms.date: 04/30/2018
 keywords: ["ZwQueryFullAttributesFile function"]
 ms.keywords: NtQueryFullAttributesFile, ZwQueryFullAttributesFile, ZwQueryFullAttributesFile routine [Kernel-Mode Driver Architecture], k111_58eefadc-2aff-4252-82a6-6f0c9ab43a19.xml, kernel.zwqueryfullattributesfile, wdm/NtQueryFullAttributesFile, wdm/ZwQueryFullAttributesFile
-f1_keywords:
- - "wdm/ZwQueryFullAttributesFile"
- - "ZwQueryFullAttributesFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryFullAttributesFile
-- NtQueryFullAttributesFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwQueryFullAttributesFile
+ - wdm/ZwQueryFullAttributesFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryFullAttributesFile
+ - NtQueryFullAttributesFile
 ---
 
 # ZwQueryFullAttributesFile function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwQueryFullAttributesFile</b> routine supplies network open information for the specified file.
-
 
 ## -parameters
 
-
-
-
 ### -param ObjectAttributes 
-[in]
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that supplies the attributes to be used for the file object. 
 
+[in]
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that supplies the attributes to be used for the file object.
 
 ### -param FileInformation 
-[out]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information">FILE_NETWORK_OPEN_INFORMATION</a> structure that receives the returned file attributes information. 
 
+[out]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information">FILE_NETWORK_OPEN_INFORMATION</a> structure that receives the returned file attributes information.
 
 ## -returns
 
-
-
 <b>ZwQueryFullAttributesFile</b> returns STATUS_SUCCESS on success, or the appropriate error status.
 
-
-
-
 ## -remarks
-
-
 
 Callers of <b>ZwQueryFullAttributesFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
 
@@ -85,13 +73,7 @@ Callers of <b>ZwQueryFullAttributesFile</b> must be running at IRQL = PASSIVE_LE
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_network_open_information">FILE_NETWORK_OPEN_INFORMATION</a>
 
@@ -102,7 +84,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
- 
-
- 
 

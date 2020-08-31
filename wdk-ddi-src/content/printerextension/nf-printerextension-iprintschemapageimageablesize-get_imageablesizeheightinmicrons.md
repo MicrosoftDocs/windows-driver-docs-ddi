@@ -8,9 +8,6 @@ ms.assetid: 4F46B3C5-9751-4594-9FFD-D3E6180FAFBD
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons"]
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],ImageableSizeHeightInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons, ImageableSizeHeightInMicrons property [Print Devices], ImageableSizeHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_ImageableSizeHeightInMicrons, print.iprintschemapageimageablesize_imageablesizeheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
-f1_keywords:
- - "printerextension/IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons"
- - "IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons
-- IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
+ - printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons
+ - IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons
 ---
 
 # IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
@@ -47,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the vertical dimension of the application media size relative to the page orientation.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize">IPrintSchemaPageImageableSize</a>
- 
-
- 
 

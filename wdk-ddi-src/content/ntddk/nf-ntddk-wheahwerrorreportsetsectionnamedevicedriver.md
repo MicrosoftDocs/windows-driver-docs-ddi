@@ -33,8 +33,8 @@ api_location:
 api_name:
  - WheaHwErrorReportSetSectionNameDeviceDriver
 f1_keywords:
- - ntddk//WheaHwErrorReportSetSectionNameDeviceDriver
  - WheaHwErrorReportSetSectionNameDeviceDriver
+ - ntddk/WheaHwErrorReportSetSectionNameDeviceDriver
 dev_langs:
  - c++
 ---
@@ -68,7 +68,6 @@ Sections in a Common Platform Error Record (CPER) have Field Replaceable Unit (F
 First call [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md).
 
 Then call this function with the buffer set from [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md), along with a string and its length and it will populate the FRUText field of [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) with the string.
-
 
 ## -see-also
 

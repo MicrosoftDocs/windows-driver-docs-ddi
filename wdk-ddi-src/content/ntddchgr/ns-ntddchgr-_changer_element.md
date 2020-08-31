@@ -8,9 +8,6 @@ ms.assetid: 85035147-0ae8-482a-9a12-1e4e53ae1969
 ms.date: 03/29/2018
 keywords: ["CHANGER_ELEMENT structure"]
 ms.keywords: "*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure [Storage Devices], PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer [Storage Devices], _CHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, storage.changer_element, structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml"
-f1_keywords:
- - "ntddchgr/CHANGER_ELEMENT"
- - "CHANGER_ELEMENT"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddchgr.h
-api_name:
-- CHANGER_ELEMENT
 targetos: Windows
 req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
+f1_keywords:
+ - _CHANGER_ELEMENT
+ - ntddchgr/_CHANGER_ELEMENT
+ - PCHANGER_ELEMENT
+ - ntddchgr/PCHANGER_ELEMENT
+ - CHANGER_ELEMENT
+ - ntddchgr/CHANGER_ELEMENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddchgr.h
+api_name:
+ - CHANGER_ELEMENT
 ---
 
 # _CHANGER_ELEMENT structure
@@ -46,14 +50,9 @@ req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 
 ## -description
 
-
-The CHANGER_ELEMENT structure contains a description of a changer element. 
-
+The CHANGER_ELEMENT structure contains a description of a changer element.
 
 ## -struct-fields
-
-
-
 
 ### -field ElementType
 
@@ -115,27 +114,17 @@ A mechanism that provides access to all media in a changer at one time (as compa
 
 The keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <b>ChangerSetAccess</b> call.
 
-
 ### -field ElementAddress
 
 Indicates the element's zero-based address used by the system. A changer miniclass driver is responsible for translating this address to the device-specific address used by the changer.
 
-
 ## -remarks
-
-
 
 CHANGER_ELEMENT is used by both the changer class driver and a changer miniclass driver to describe a changer element. 
 
 On input, a changer miniclass driver must translate the zero-based address in <b>ElementAddress</b> to a device-specific address before accessing the element. On output, the driver must translate a device-specific address to the zero-based equivalent before filling in <b>ElementAddress</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_list">CHANGER_ELEMENT_LIST</a>
 
@@ -146,7 +135,4 @@ On input, a changer miniclass driver must translate the zero-based address in <b
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_element_type">ELEMENT_TYPE</a>
- 
-
- 
 

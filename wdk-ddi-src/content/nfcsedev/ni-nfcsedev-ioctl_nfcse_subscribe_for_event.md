@@ -8,9 +8,6 @@ ms.assetid: 3A184392-A68C-4AFC-AE9F-36247153ADD2
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT IOCTL"]
 ms.keywords: IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, nfpdrivers.ioctl_nfcse_subscribe_for_event
-f1_keywords:
- - "nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT"
- - "IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
+ - nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
 ---
 
 # IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT IOCTL
@@ -46,63 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</b> 
-   control code is issued by a client to subscribe to a specific event. 
-
+   control code is issued by a client to subscribe to a specific event.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_event_subscription_info"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.
 
-
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -122,18 +85,11 @@ None
 <td>  This code is returned when the output is non-zero, or when the GUID of the secure element does not match any of the enumerated IDs.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following are requirements that the driver must adhere to.<ul>
 <li>This IOCTL must be called on a handle with a <b>SEEvents</b> file name; otherwise, the driver returns STATUS_INVALID_DEVICE_STATE.</li>
 <li><b>GUID_NULL</b> can be specified by the client as a wild card to subscribe for a specific event from all enumerated secure elements.</li>
 </ul>
-
-
-
 

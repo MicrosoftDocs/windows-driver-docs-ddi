@@ -8,9 +8,6 @@ ms.assetid: 624da381-86c9-46d8-82eb-1f21e752ea57
 ms.date: 05/10/2018
 keywords: ["DXGI1_1_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI1_1_DDI_BASE_FUNCTIONS, DXGI1_1_DDI_BASE_FUNCTIONS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_92bae538-7b48-48d5-a26f-c593ff5875cf.xml, display.dxgi1_1_ddi_base_functions, dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS
-f1_keywords:
- - "dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS"
- - "DXGI1_1_DDI_BASE_FUNCTIONS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxgiddi.h
-api_name:
-- DXGI1_1_DDI_BASE_FUNCTIONS
 targetos: Windows
 req.typenames: DXGI1_1_DDI_BASE_FUNCTIONS
+f1_keywords:
+ - DXGI1_1_DDI_BASE_FUNCTIONS
+ - dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxgiddi.h
+api_name:
+ - DXGI1_1_DDI_BASE_FUNCTIONS
 ---
 
 # DXGI1_1_DDI_BASE_FUNCTIONS structure
@@ -46,24 +46,17 @@ req.typenames: DXGI1_1_DDI_BASE_FUNCTIONS
 
 ## -description
 
-
-The DXGI1_1_DDI_BASE_FUNCTIONS structure contains pointers to functions that the user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, getting notifications regarding shared and GDI interoperable surfaces, and managing a full-screen transition. 
-
+The DXGI1_1_DDI_BASE_FUNCTIONS structure contains pointers to functions that the user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, getting notifications regarding shared and GDI interoperable surfaces, and managing a full-screen transition.
 
 ## -struct-fields
-
-
-
 
 ### -field pfnPresent
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">PresentDXGI</a> function.
 
-
 ### -field pfnGetGammaCaps
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">GetGammaCapsDXGI</a> function.
-
 
 ### -field pfnSetDisplayMode
 
@@ -95,26 +88,21 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member of the
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_setdisplaymode">DXGI_DDI_ARG_SETDISPLAYMODE</a> structure that specifies parameters for setting the display mode.
 
-
 ### -field pfnSetResourcePriority
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">SetResourcePriorityDXGI</a> function.
-
 
 ### -field pfnQueryResourceResidency
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">QueryResourceResidencyDXGI</a> function.
 
-
 ### -field pfnRotateResourceIdentities
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">RotateResourceIdentitiesDXGI</a> function.
 
-
 ### -field pfnBlt
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">BltDXGI</a> function.
-
 
 ### -field pfnResolveSharedResource
 
@@ -142,22 +130,13 @@ Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro (which is defined in the 
 
 #### pResourceData
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_resolvesharedresource">DXGI_DDI_ARG_RESOLVESHAREDRESOURCE</a> structure that specifies parameters for the display device and the surface that is associated with the display device. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_resolvesharedresource">DXGI_DDI_ARG_RESOLVESHAREDRESOURCE</a> structure that specifies parameters for the display device and the surface that is associated with the display device.
 
 ## -remarks
 
-
-
 Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro (which is defined in the <i>D3D10umddi.h</i> header file) to allow the user-mode display driver to determine whether it receives a pointer to a DXGI1_1_DDI_BASE_FUNCTIONS or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">DXGI_DDI_BASE_FUNCTIONS</a> structure in a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function. The DXGI1_1_DDI_BASE_FUNCTIONS structure includes the <b>pfnResolveSharedResource</b> member that the driver can fill with a pointer to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_1_ddi_base_functions">ResolveSharedResourceDXGI</a> function. If IS_DXGI1_1_BASE_FUNCTIONS returns <b>TRUE</b>, the driver expects to receive a pointer to a DXGI1_1_DDI_BASE_FUNCTIONS structure in the <b>pDXGIDDIBaseFunctions</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_args">DXGI_DDI_BASE_ARGS</a> structure that the <b>DXGIBaseDDI</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure specifies. Otherwise, if IS_DXGI1_1_BASE_FUNCTIONS returns <b>FALSE</b>, the driver expects to receive a pointer to a DXGI_DDI_BASE_FUNCTIONS structure. Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro to allow newer version drivers to work on older version runtimes. The drivers can then determine whether they will corrupt memory if they attempt to fill the <b>pfnResolveSharedResource</b> member of <b>DXGI1_1_DDI_BASE_FUNCTIONS</b> with a pointer to a <i>ResolveSharedResourceDXGI</i> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">BltDXGI</a>
 
@@ -208,7 +187,4 @@ Windows 7 provides the IS_DXGI1_1_BASE_FUNCTIONS macro (which is defined in the 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">SetResourcePriorityDXGI</a>
- 
-
- 
 

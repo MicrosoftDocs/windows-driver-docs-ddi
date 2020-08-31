@@ -8,9 +8,6 @@ ms.assetid: c2137849-aff0-4bf7-abab-b92e17aaef70
 ms.date: 04/23/2018
 keywords: ["KsPinGenerateEvents function"]
 ms.keywords: KsPinGenerateEvents, KsPinGenerateEvents function [Streaming Media Devices], avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, ks/KsPinGenerateEvents, stream.kspingenerateevents
-f1_keywords:
- - "ks/KsPinGenerateEvents"
- - "KsPinGenerateEvents"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL (See Remarks)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsPinGenerateEvents
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsPinGenerateEvents
+ - ks/KsPinGenerateEvents
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsPinGenerateEvents
 ---
 
 # KsPinGenerateEvents function
+
 
 ## -description
 
@@ -51,26 +52,32 @@ The **KsPinGenerateEvents** function generates events of an indicated type that 
 ## -parameters
 
 ### -param Pin 
+
 [in]
 A pointer to the [KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) structure on which to generate events.
 
 ### -param EventSet 
+
 [in, optional]
 A pointer to the event set GUID to match to determine which events to generate. If this parameter is **NULL**, set GUID is not taken into account for determining matching events.
 
 ### -param EventId 
+
 [in]
 The event ID to match to determine which events to generate.
 
 ### -param DataSize 
+
 [in]
 The size in bytes of the data with which to generate the data event.
 
 ### -param Data 
+
 [in, optional]
 A pointer to a data buffer. Specify if generating a data event.
 
 ### -param CallBack 
+
 [in, optional]
 A pointer to a caller-specified function that is called to determine whether a given event should be generated. If **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used). Prototype as follows:
 
@@ -83,6 +90,7 @@ BOOLEAN CallBack
 **KsPinGenerateEvents** passes the *CallBackContext* parameter unchanged as the *Context* parameter for the callback. The callback function returns **TRUE** if *EventEntry* should be generated. Otherwise, it returns **FALSE**.
 
 ### -param CallBackContext 
+
 [in, optional]
 A pointer to a caller-specified context that is passed to the callback function *CallBack*.
 
@@ -111,3 +119,4 @@ For more information, see [Event Handling in AVStream](https://docs.microsoft.co
 [KsFilterGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergenerateevents)
 
 [KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents)
+

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiEnumVidPnCofuncModality"
- - "DxgkDdiEnumVidPnCofuncModality"
+ - DXGKDDI_ENUMVIDPNCOFUNCMODALITY
+ - d3dkmddi/DXGKDDI_ENUMVIDPNCOFUNCMODALITY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_ENUMVIDPNCOFUNCMODALITY callback function
+
 
 ## -description
 

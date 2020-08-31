@@ -6,36 +6,37 @@ tech.root: storage
 ms.assetid: 93fb0e92-a17b-4aa5-af19-05c510d66388
 ms.date: 07/12/2019
 keywords: ["IOCTL_STORAGE_SET_PROPERTY IOCTL"]
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_SET_PROPERTY"
- - "IOCTL_STORAGE_SET_PROPERTY"
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddstor.h
-api_name: 
-- IOCTL_STORAGE_SET_PROPERTY
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_STORAGE_SET_PROPERTY
+ - ntddstor/IOCTL_STORAGE_SET_PROPERTY
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - IOCTL_STORAGE_SET_PROPERTY
 ---
 
 # IOCTL_STORAGE_SET_PROPERTY IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -74,3 +75,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 [STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md)
 
 [STORAGE_SET_TYPE](ne-ntddstor-storage_set_type.md)
+

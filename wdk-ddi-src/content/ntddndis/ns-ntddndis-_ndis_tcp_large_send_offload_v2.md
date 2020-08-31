@@ -8,9 +8,6 @@ ms.assetid: e53e5771-a3ca-4867-a0ac-65adb66e574c
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure"]
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, PNDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V2, netvista.ndis_tcp_large_send_offload_v2, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, tcpip_offload_ref_739d5001-8b37-437f-ad2e-8ad817feb59d.xml"
-f1_keywords:
- - "ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2"
- - "NDIS_TCP_LARGE_SEND_OFFLOAD_V2"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_TCP_LARGE_SEND_OFFLOAD_V2
 targetos: Windows
 req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V2, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
+f1_keywords:
+ - _NDIS_TCP_LARGE_SEND_OFFLOAD_V2
+ - ntddndis/_NDIS_TCP_LARGE_SEND_OFFLOAD_V2
+ - PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
+ - ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
+ - NDIS_TCP_LARGE_SEND_OFFLOAD_V2
+ - ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_TCP_LARGE_SEND_OFFLOAD_V2
 ---
 
 # _NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure
@@ -46,29 +50,21 @@ req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V2, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
 
 ## -description
 
-
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> structure provides large send offload version 2 (LSOV2)
   information in the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IPv4
 
 A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv4 information and that
      contains the following members:
-     
-
 
 ### -field IPv4.Encapsulation
 
 Encapsulation settings for IPv4. For more information about this member, see the following
        Remarks section.
-
 
 ### -field IPv4.MaxOffLoadSize
 
@@ -77,7 +73,6 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        than 
        <b>MaxOffLoadSize</b> specifies. If such a packet must be transmitted, the transport itself segments
        the packet into smaller packets.
-
 
 ### -field IPv4.MinSegmentCount
 
@@ -88,19 +83,15 @@ The minimum number of segments that a large TCP packet must be divisible by befo
        minimum-segment requirement, the TCP/IP transport itself segments the packet into smaller
        packets.
 
-
 ### -field IPv6
 
 A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv6 information and that
      contains the following members:
-     
-
 
 ### -field IPv6.Encapsulation
 
 Encapsulation settings for IPv6. For more information about this member, see the following
        Remarks section.
-
 
 ### -field IPv6.MaxOffLoadSize
 
@@ -109,7 +100,6 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        than 
        <b>MaxOffLoadSize</b> specifies. If such a packet must be transmitted, the transport itself segments
        the packet into smaller packets.
-
 
 ### -field IPv6.MinSegmentCount
 
@@ -120,12 +110,10 @@ The minimum number of segments that a large TCP packet must be divisible by befo
        minimum-segment requirement, the TCP/IP transport itself segments the packet into smaller
        packets.
 
-
 ### -field IPv6.IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can segment a
        large TCP packet whose IP header contains IPv6 extension headers.
-
 
 ### -field IPv6.TcpOptionsSupported
 
@@ -133,10 +121,7 @@ A ULONG value that a miniport driver sets to indicate that the miniport driver c
        large TCP packet whose TCP header contains TCP options or to indicate that this capability is enabled
        or disabled.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> structure is used in the 
     <b>LsoV2</b> member of the 
@@ -206,9 +191,6 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
@@ -245,7 +227,4 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
- 
-
- 
 

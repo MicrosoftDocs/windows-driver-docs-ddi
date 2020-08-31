@@ -8,38 +8,39 @@ ms.assetid: 74568b4c-5693-475b-9e72-69a499c1faf7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063"
- - "D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063"
-ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063, 
+ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063
 targetos: Windows
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
+f1_keywords:
+ - D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063
+ - d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063
 dev_langs:
  - c++
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 ---
 
 # D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063 structure
+
 
 ## -description
 
@@ -62,3 +63,4 @@ Parameter flags. See [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS](ne-d3d12
 ## -remarks
 
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: 9f4511b8-c41f-4a7f-81e6-20c30a131f64
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2::EDTSurpriseRemoveDevice"]
 ms.keywords: EDTSurpriseRemoveDevice, EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTSurpriseRemoveDevice method, IWDTFPNPActions2.EDTSurpriseRemoveDevice, IWDTFPNPActions2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpactions2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTSurpriseRemoveDevice
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPActions2.EDTSurpriseRemoveDevice"
- - "IWDTFPNPActions2.EDTSurpriseRemoveDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfpnpaction.h
-api_name:
-- IWDTFPNPActions2.EDTSurpriseRemoveDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPActions2::EDTSurpriseRemoveDevice
+ - wdtfpnpaction/IWDTFPNPActions2::EDTSurpriseRemoveDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfpnpaction.h
+api_name:
+ - IWDTFPNPActions2.EDTSurpriseRemoveDevice
 ---
 
 # IWDTFPNPActions2::EDTSurpriseRemoveDevice
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
-
 
 ## -parameters
 
-
-
-
 ### -param pbSuccess 
+
 [out, retval]
 True if the operation succeeds; otherwise, false.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
 method must be called for the target device before calling this method.</div>
@@ -81,16 +69,7 @@ This operation is useful for testing
 how drivers and driver/device aware applications handle the IRP_MN_SURPRISE_REMOVAL event, e.g. scenarios in which 
 the device unexpectedly fails or is removed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: ddd5d14f-f886-40d0-9fc8-eeb37da63ebd
 ms.date: 05/02/2018
 keywords: ["MINIPORT_PROCESS_SG_LIST callback function"]
 ms.keywords: MINIPORT_PROCESS_SG_LIST, MINIPORT_PROCESS_SG_LIST callback, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
-f1_keywords:
- - "ndis/MiniportProcessSGList"
- - "MiniportProcessSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportProcessSGList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_PROCESS_SG_LIST
+ - ndis/MINIPORT_PROCESS_SG_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportProcessSGList
 ---
 
 # MINIPORT_PROCESS_SG_LIST callback function
 
 
 ## -description
-
 
 A bus-master miniport driver provides a
    <i>MiniportProcessSGList</i> function to process scatter/gather lists for network data.
@@ -54,36 +53,31 @@ A bus-master miniport driver provides a
 
 ## -parameters
 
-
-
-
 ### -param pDO 
+
 [in]
 Miniport drivers should ignore this parameter.
-
 
 ### -param Reserved 
+
 [in]
 Miniport drivers should ignore this parameter.
 
-
 ### -param pSGL 
+
 [in]
 A pointer to a scatter/gather list buffer. This is not necessarily the same buffer as the one the
      driver specified in the call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatenetbuffersglist">
      NdisMAllocateNetBufferSGList</a> function
 
-
 ### -param Context 
+
 [in]
 A pointer to a context area that the miniport driver created prior to calling 
      <b>NdisMAllocateNetBufferSGList</b>.
 
-
 ## -remarks
-
-
 
 Miniport drivers call the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
@@ -143,15 +137,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_PROCESS_SG_LIST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_PROCESS_SG_LIST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatenetbuffersglist">NdisMAllocateNetBufferSGList</a>
 
@@ -159,7 +147,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>
- 
-
- 
 

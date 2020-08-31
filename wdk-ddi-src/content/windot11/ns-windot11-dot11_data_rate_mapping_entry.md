@@ -8,39 +8,41 @@ ms.assetid: d2772a9e-655a-4e3e-8b48-65d58b0a659d
 ms.date: 02/16/2018
 keywords: ["DOT11_DATA_RATE_MAPPING_ENTRY structure"]
 ms.keywords: "*PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, PDOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_data_rate_mapping_entry, windot11/DOT11_DATA_RATE_MAPPING_ENTRY, windot11/PDOT11_DATA_RATE_MAPPING_ENTRY"
-f1_keywords:
- - "windot11/DOT11_DATA_RATE_MAPPING_ENTRY"
- - "DOT11_DATA_RATE_MAPPING_ENTRY"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_DATA_RATE_MAPPING_ENTRY
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY
+f1_keywords:
+ - DOT11_DATA_RATE_MAPPING_ENTRY
+ - windot11/DOT11_DATA_RATE_MAPPING_ENTRY
+ - PDOT11_DATA_RATE_MAPPING_ENTRY
+ - windot11/PDOT11_DATA_RATE_MAPPING_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_DATA_RATE_MAPPING_ENTRY
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_DATA_RATE_MAPPING_ENTRY structure
@@ -48,27 +50,10 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_DATA_RATE_MAPPING_ENTRY structure defines a data rate supported by a PHY on the 802.11
   station for transmit and receive operations.
 
-
-## -syntax
-
-
-```cpp
-typedef struct DOT11_DATA_RATE_MAPPING_ENTRY {
-  UCHAR  ucDataRateIndex;
-  UCHAR  ucDataRateFlag;
-  USHORT usDataRateValue;
-} DOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field ucDataRateIndex
 
@@ -106,8 +91,6 @@ This bit is not used and must be set to zero.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ucDataRateFlag
 
@@ -148,18 +131,23 @@ These bits are not used and must be set to zero.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usDataRateValue
 
 The data rate, defined in units of 500 kilobits per second (Kbps), with a value from 0x0002 to
      0xFFFF.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_DATA_RATE_MAPPING_ENTRY {
+  UCHAR  ucDataRateIndex;
+  UCHAR  ucDataRateFlag;
+  USHORT usDataRateValue;
+} DOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY;
+```
 
 ## -remarks
-
-
 
 For the IEEE 802.11 standard data rates, the miniport driver must set the
     <b>ucDataRateIndex</b> and
@@ -415,10 +403,6 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
@@ -428,11 +412,4 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
-
-
-
- 
-
- 
-
 

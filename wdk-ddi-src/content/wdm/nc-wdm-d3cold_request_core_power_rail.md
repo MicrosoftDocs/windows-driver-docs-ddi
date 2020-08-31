@@ -5,43 +5,53 @@ description: Enables the function device object (FDO) to indicate whether the co
 ms.assetid: 48ce96cc-8827-47ba-bb32-028b0744c58e
 ms.date: 10/19/2018
 keywords: ["D3COLD_REQUEST_CORE_POWER_RAIL callback function"]
-f1_keywords:
- - "wdm/D3COLD_REQUEST_CORE_POWER_RAIL"
- - "D3COLD_REQUEST_CORE_POWER_RAIL"
 req.header: wdm.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- wdm.h
-api_name: 
-- D3COLD_REQUEST_CORE_POWER_RAIL
 targetos: Windows
+f1_keywords:
+ - D3COLD_REQUEST_CORE_POWER_RAIL
+ - wdm/D3COLD_REQUEST_CORE_POWER_RAIL
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - wdm.h
+api_name:
+ - D3COLD_REQUEST_CORE_POWER_RAIL
 ---
 
 # D3COLD_REQUEST_CORE_POWER_RAIL callback function
+
 
 ## -description
 
 Enables the function device object (FDO) to indicate whether the core power rail is needed.
 
+## -parameters
+
+### -param Context
+
+[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the device.
+
+### -param CorePowerRailNeeded: 
+
+[_In_] A flag that indicates whether or not the driver needs the core power rail.
 
 ## -prototype
 
@@ -64,16 +74,8 @@ D3COLD_REQUEST_CORE_POWER_RAIL *PD3COLD_REQUEST_CORE_POWER_RAIL
 
 ```
 
-## -parameters
-
-### -param Context
-[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the device.
- 
-### -param CorePowerRailNeeded: 
-[_In_] A flag that indicates whether or not the driver needs the core power rail.
-
-
 ## -remarks
+
 A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMING_INTERFACE interface receives a pointer to a [**D3COLD_AUX_POWER_AND_TIMING_INTERFACE**](ns-wdm-_d3cold_aux_power_and_timing_interface.md) structure in which the driver sets the **RequestCorePowerRail** member to a pointer to its implementation of the _D3COLD_REQUEST_CORE_POWER_RAIL_ callback function.
 
   - If the driver indicates that the core power rail is needed, it is
@@ -82,7 +84,7 @@ A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMI
   - When a driver indicates that the core power rail is no longer needed,
     there is no guarantee of the core power rail state onwards.
 
-  - This routine can never fail. 
-
+  - This routine can never fail.
 
 ## -see-also
+

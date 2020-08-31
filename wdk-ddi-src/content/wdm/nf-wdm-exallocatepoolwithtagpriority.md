@@ -8,9 +8,6 @@ ms.assetid: 33087a37-e6fc-4b21-aa9e-e4617eeccd29
 ms.date: 04/30/2018
 keywords: ["ExAllocatePoolWithTagPriority function"]
 ms.keywords: ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, kernel.exallocatepoolwithtagpriority, wdm/ExAllocatePoolWithTagPriority
-f1_keywords:
- - "wdm/ExAllocatePoolWithTagPriority"
- - "ExAllocatePoolWithTagPriority"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAllocatePoolWithTagPriority
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAllocatePoolWithTagPriority
+ - wdm/ExAllocatePoolWithTagPriority
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAllocatePoolWithTagPriority
 ---
 
 # ExAllocatePoolWithTagPriority function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExAllocatePoolWithTagPriority</b> routine allocates pool memory of the specified type.
-
 
 ## -parameters
 
-
-
-
 ### -param PoolType 
+
 [in]
 The type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
 
@@ -63,18 +59,18 @@ You can modify the <i>PoolType</i> value by bitwise-ORing this value with the PO
 
 Similarly, you can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out  quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available starting with Windows XP.
 
-
 ### -param NumberOfBytes 
+
 [in]
 The number of bytes to allocate.
 
-
 ### -param Tag 
+
 [in]
 The pool tag to use for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
-
 ### -param Priority 
+
 [in]
 The priority of this request. Set this parameter to one of the following <b>EX_POOL_PRIORITY</b> enumeration values.
 
@@ -118,19 +114,11 @@ Specifies that the system must not fail the request, unless it is completely out
 
 The <b>EX_POOL_PRIORITY</b> enumeration defines <b><i>Xxx</i>SpecialPoolOverrun</b> and <b><i>Xxx</i>SpecialPoolUnderrun</b> variants to specify how memory should be allocated when <a href="https://docs.microsoft.com/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> (or special pool) is enabled. If the driver specifies <b><i>Xxx</i>SpecialPoolUnderrun</b>, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-memory-manager">memory manager</a> allocates memory from <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/special-pool">special pool</a>, it allocates it at the start of a physical page. If the driver specifies <b><i>Xxx</i>SpecialPoolOverrun</b>, the memory manager allocates it at the end of a physical page.
 
-
 ## -returns
 
-
-
-<b>ExAllocatePoolWithTagPriority</b> returns <b>NULL</b> if there is insufficient memory in the free pool to satisfy the request unless POOL_RAISE_IF_ALLOCATION_FAILURE is specified. Otherwise, the routine returns a pointer to the allocated memory. 
-
-
-
+<b>ExAllocatePoolWithTagPriority</b> returns <b>NULL</b> if there is insufficient memory in the free pool to satisfy the request unless POOL_RAISE_IF_ALLOCATION_FAILURE is specified. Otherwise, the routine returns a pointer to the allocated memory.
 
 ## -remarks
-
-
 
 Callers of <b>ExAllocatePoolWithTagPriority</b> must be executing at IRQL <= DISPATCH_LEVEL. A caller executing at DISPATCH_LEVEL must specify a <b>NonPaged</b><i>Xxx</i> value for <i>PoolType</i>. A caller executing at IRQL <= APC_LEVEL can specify any <b>POOL_TYPE</b> value, but the IRQL and environment must also be considered for determining the page type.
 
@@ -145,12 +133,7 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 <div class="alert"><b>Note</b>  Memory that <b>ExAllocatePoolWithTagPriority</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
@@ -161,7 +144,4 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: e4ec9ece-ad20-47ff-86ac-9c6f43545579
 ms.date: 02/15/2018
 keywords: ["tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration"]
 ms.keywords: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE, enumeration, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE, tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, wpddk.wpd_rendering_information_profile_entry_types
-f1_keywords:
- - "portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES"
- - "WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PortableDevice.h
-api_name:
-- WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
 targetos: Windows
 req.typenames: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
 ms.custom: RS5
+f1_keywords:
+ - tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
+ - portabledevice/tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
+ - WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
+ - portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PortableDevice.h
+api_name:
+ - WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
 ---
 
 # tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration
@@ -47,35 +49,19 @@ ms.custom: RS5
 
 ## -description
 
-
-
 The <b>WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES</b> enumeration type indicates whether the rendering information profile entry corresponds to an Object or a Resource.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT
 
 The entry corresponds to an object.
 
-
 ### -field WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE
 
 The entry corresponds to a resource.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
- 
-
- 
 

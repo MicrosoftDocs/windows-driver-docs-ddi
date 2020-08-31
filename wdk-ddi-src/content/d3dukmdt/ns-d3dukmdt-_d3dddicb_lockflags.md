@@ -8,9 +8,6 @@ ms.assetid: 4b3a266f-4d60-4d39-81fb-ea2b4aa12a8d
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_LOCKFLAGS structure"]
 ms.keywords: D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS structure [Display Devices], D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, _D3DDDICB_LOCKFLAGS, d3dukmdt/D3DDDICB_LOCKFLAGS, display.d3dddicb_lockflags
-f1_keywords:
- - "d3dukmdt/D3DDDICB_LOCKFLAGS"
- - "D3DDDICB_LOCKFLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDICB_LOCKFLAGS
 targetos: Windows
 req.typenames: D3DDDICB_LOCKFLAGS
+f1_keywords:
+ - _D3DDDICB_LOCKFLAGS
+ - d3dukmdt/_D3DDDICB_LOCKFLAGS
+ - D3DDDICB_LOCKFLAGS
+ - d3dukmdt/D3DDDICB_LOCKFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDICB_LOCKFLAGS
 ---
 
 # _D3DDDICB_LOCKFLAGS structure
@@ -46,31 +48,23 @@ req.typenames: D3DDDICB_LOCKFLAGS
 
 ## -description
 
-
 The D3DDDICB_LOCKFLAGS structure identifies how to lock an allocation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ReadOnly
 
 A UINT value that specifies whether the locked allocation can only be read from. Setting this member is equivalent to setting the first bit of the 32-bit  <b>Value</b> member (0x00000001).
 
-
 ### -field WriteOnly
 
 A UINT value that specifies whether the locked allocation can only be written to. Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
-
 
 ### -field DonotWait
 
 A UINT value that specifies whether the video memory manager should wait to lock the allocation. If this member is set, the memory manager fails the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> with D3DERR_WASSTILLDRAWING if the graphics hardware is using the allocation.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
-
 
 ### -field IgnoreSync
 
@@ -80,20 +74,17 @@ A UINT value that specifies whether the video memory manager should check whethe
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
-
 ### -field LockEntire
 
 A UINT value that specifies whether the entire allocation region is locked rather than just a subregion.
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
-
 ### -field DonotEvict
 
 A UINT value that specifies whether the video memory manager should evict the allocation so that the lock can succeed. If this member is set, the memory manager should not evict the allocation. If the allocation must be evicted to handle the lock request, the memory manager fails the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> with D3DERR_NOTAVAILABLE. Eviction might be necessary when all of the deswizzling apertures are exhausted.
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
-
 
 ### -field AcquireAperture
 
@@ -105,7 +96,6 @@ An allocation that was locked without setting <b>AcquireAperture</b> cannot be l
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
-
 ### -field Discard
 
 A UINT value that specifies whether the video memory manager can rename or multiple-buffer the allocation. For more information about renaming allocations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/requesting-to-rename-an-allocation">Requesting to Rename an Allocation</a>.
@@ -114,13 +104,11 @@ A UINT value that specifies whether the video memory manager can rename or multi
 
 Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
 
-
 ### -field NoExistingReference
 
 A UINT value that specifies whether the user-mode display driver currently does not have queued in its command buffer a reference to any instance of the allocation that is being locked. The driver should use the <b>NoExistingReference</b> member after the video memory manager fails the lock request by using only the <b>Discard</b> flag and after the driver flushes its current command buffer to the kernel. The driver should use <b>NoExistingReference</b> in combination with <b>Discard</b>.
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
-
 
 ### -field UseAlternateVA
 
@@ -158,7 +146,6 @@ An allocation that was locked with <b>UseAlternateVA</b> set cannot be locked ag
 <div> </div>
 Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
 
-
 ### -field IgnoreReadSync
 
 A UINT value that specifies whether the video memory manager should wait only for pending Graphics Processing Unit (GPU) write operations to the allocation to complete. If this member is set, the memory manager is not required to wait for GPU read operations to complete. That is, as soon as the last GPU write operation completes, the lock can return even though the GPU might still be reading from the allocation.
@@ -167,20 +154,15 @@ A UINT value that specifies whether the video memory manager should wait only fo
 
 Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>Value</b> member (0x00000400).
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 21 bits (0xFFFFF800) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 
 A member in the union that is contained in D3DDDICB_LOCKFLAGS that can hold one 32-bit value that identifies how to lock an allocation.
 
-
 ## -remarks
-
-
 
 When you use a D3DDDICB_LOCKFLAGS structure to specify how to lock an allocation, you must adhere to the following rules:
 
@@ -223,12 +205,7 @@ An allocation that is locked with a swizzled range must be unlocked before it ca
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_lock">D3DDDICB_LOCK</a>
 
@@ -243,7 +220,4 @@ An allocation that is locked with a swizzled range must be unlocked before it ca
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
- 
-
- 
 

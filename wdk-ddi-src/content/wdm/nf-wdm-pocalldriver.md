@@ -8,9 +8,6 @@ ms.assetid: e5ce7786-717a-4e0f-bc57-342655a59ca1
 ms.date: 04/30/2018
 keywords: ["PoCallDriver function"]
 ms.keywords: PoCallDriver, PoCallDriver routine [Kernel-Mode Driver Architecture], kernel.pocalldriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml, wdm/PoCallDriver
-f1_keywords:
- - "wdm/PoCallDriver"
- - "PoCallDriver"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoCallDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoCallDriver
+ - wdm/PoCallDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoCallDriver
 ---
 
 # PoCallDriver function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoCallDriver</b> routine passes a power <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.)
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
+
 [in]
 A pointer to the driver-created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> to which the IRP is to be routed.
 
-
 ### -param Irp 
-[in, out]
-A pointer to an IRP. 
 
+[in, out]
+A pointer to an IRP.
 
 ## -returns
 
-
-
 <b>PoCallDriver</b> returns STATUS_SUCCESS to indicate success. It returns STATUS_PENDING if it has queued the IRP.
 
-
-
-
 ## -remarks
-
-
 
 Beginning with Windows Vista, drivers should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>, not <b>PoCallDriver</b> to pass a power IRP to the next-lower driver. However, on Windows Server 2003, Windows XP, and Windows 2000, drivers must call <b>PoCallDriver</b>, not <b>IoCallDriver</b>  to pass a power IRP to the next-lower driver. On Windows Server 2003, Windows XP, an Windows 2000, drivers must also call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-postartnextpowerirp">PoStartNextPowerIrp</a> before calling <b>PoCallDriver</b>.
 
@@ -96,13 +84,7 @@ On Windows 2000 and later systems, pageable drivers (the DO_POWER_PAGABLE flag i
 
 On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
@@ -137,7 +119,4 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-postartnextpowerirp">PoStartNextPowerIrp</a>
- 
-
- 
 

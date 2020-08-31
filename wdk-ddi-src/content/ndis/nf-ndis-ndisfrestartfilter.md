@@ -8,9 +8,6 @@ ms.assetid: 8b0fc032-3ec0-4e18-a5f5-6409db8ae42d
 ms.date: 05/02/2018
 keywords: ["NdisFRestartFilter function"]
 ms.keywords: NdisFRestartFilter, NdisFRestartFilter function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_c95250d0-3081-40cc-a39f-0d5c1ce51925.xml, ndis/NdisFRestartFilter, netvista.ndisfrestartfilter
-f1_keywords:
- - "ndis/NdisFRestartFilter"
- - "NdisFRestartFilter"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFRestartFilter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFRestartFilter
+ - ndis/NdisFRestartFilter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFRestartFilter
 ---
 
 # NdisFRestartFilter function
@@ -47,27 +47,20 @@ req.typenames:
 
 ## -description
 
-
 A filter driver calls the
   <b>NdisFRestartFilter</b> function to request NDIS to initiate a restart operation for a filter
   module.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisFilterHandle 
+
 [in]
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ## -returns
-
-
 
 <b>NdisFRestartFilter</b> returns one of the following status values:
 
@@ -113,14 +106,8 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The filter driver can change the filter module attributes at run time by calling the 
     <b>NdisFRestartFilter</b> function. 
@@ -134,13 +121,7 @@ Before NDIS restarts the filter module, it calls the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function
     and specifying a new set of handlers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -151,7 +132,4 @@ Before NDIS restarts the filter module, it calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
- 
-
- 
 

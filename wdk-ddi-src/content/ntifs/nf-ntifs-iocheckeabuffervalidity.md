@@ -8,9 +8,6 @@ ms.assetid: 1f9a4fcb-0e70-4f13-bd38-e87bee909a26
 ms.date: 04/16/2018
 keywords: ["IoCheckEaBufferValidity function"]
 ms.keywords: IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ifsk.iocheckeabuffervalidity, ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml, ntifs/IoCheckEaBufferValidity
-f1_keywords:
- - "ntifs/IoCheckEaBufferValidity"
- - "IoCheckEaBufferValidity"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCheckEaBufferValidity
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCheckEaBufferValidity
+ - ntifs/IoCheckEaBufferValidity
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCheckEaBufferValidity
 ---
 
 # IoCheckEaBufferValidity function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCheckEaBufferValidity</b> routine checks whether the specified extended attribute (EA) buffer is valid.
-
 
 ## -parameters
 
-
-
-
 ### -param EaBuffer 
+
 [in]
 Pointer to the buffer containing the EAs to be checked.
 
-
 ### -param EaLength 
+
 [in]
 Length, in bytes, of <i>EaBuffer</i>.
 
-
 ### -param ErrorOffset 
+
 [out]
 Pointer to a variable that receives the offset of the offending entry in the EA buffer if an error is found. This variable is only valid if an error occurs.
 
-
 ## -returns
-
-
 
 <b>IoCheckEaBufferValidity</b> returns STATUS_SUCCESS if the EA buffer is valid; otherwise it returns STATUS_EA_LIST_INCONSISTENT.
 
-
-
-
 ## -remarks
-
-
 
 <b>IoCheckEaBufferValidity</b> checks each FILE_FULL_EA_INFORMATION entry in the specified EA buffer to ensure that the following conditions are met:
 
@@ -121,12 +109,7 @@ To be valid, the EA buffer must meet all of these conditions.
       <b>IoCheckEaBufferValidity</b> does not perform any synchronization to ensure that the contents of <i>EaBuffer</i> do not change asynchronously. If a user-mode application can access the buffer in another thread, the application could change the buffer while <b>IoCheckEaBufferValidity</b> is running. This change might cause the routine to return incorrect information.  To avoid this scenario, the driver should copy the buffer before calling <b>IoCheckEaBufferValidity</b>.  After the buffer has been validated, the caller should use only the validated copy, not the original buffer.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>
 
@@ -137,7 +120,4 @@ To be valid, the EA buffer must meet all of these conditions.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-ea">IRP_MJ_SET_EA</a>
- 
-
- 
 

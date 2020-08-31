@@ -8,9 +8,6 @@ ms.assetid: b1d9ce90-9926-4ff8-a5bb-54c1a88d84dc
 ms.date: 05/02/2018
 keywords: ["NdisMCmCreateVc function"]
 ms.keywords: NdisMCmCreateVc, NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, ndis/NdisMCmCreateVc, netvista.ndismcmcreatevc
-f1_keywords:
- - "ndis/NdisMCmCreateVc"
- - "NdisMCmCreateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCmCreateVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmCreateVc
+ - ndis/NdisMCmCreateVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCmCreateVc
 ---
 
 # NdisMCmCreateVc function
@@ -47,38 +47,34 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmCreateVc</b> sets up a connection endpoint on which an MCM driver can dispatch an incoming-call
   offer to a client.
 
-
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterHandle 
+
 [in]
 Specifies the NDIS-supplied handle originally input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-
 ### -param NdisAfHandle 
+
 [in]
 Specifies the handle that identifies the client that is the target of an incoming call. The MCM
      driver obtained this handle as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
-
 ### -param MiniportVcContext 
+
 [in]
 Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
      state for this VC. NDIS passes this handle back to the MCM driver in all subsequent calls concerning
      this VC if the call to 
      <b>NdisMCmCreateVc</b> succeeds.
 
-
 ### -param NdisVcHandle 
+
 [out]
 Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> before 
      <b>NdisMCmCreateVc</b> is called. On return from a successful call, this variable has been set to an
@@ -86,10 +82,7 @@ Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> be
      connection-oriented 
      <b>Ndis<i>Xxx</i></b> functions concerning this VC.
 
-
 ## -returns
-
-
 
 <b>NdisMCmCreateVc</b> can return one of the following:
 
@@ -147,14 +140,8 @@ The client failed the creation of the VC for some reason, and NDIS has propagate
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An MCM driver creates a VC with 
     <b>NdisMCmCreateVc</b> to represent an incoming offer of a connection from a remote node directed to a SAP
@@ -193,13 +180,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCoCreateVc</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a>
 
@@ -231,7 +212,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

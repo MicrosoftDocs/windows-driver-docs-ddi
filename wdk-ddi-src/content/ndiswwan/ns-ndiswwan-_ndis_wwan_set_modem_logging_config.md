@@ -6,40 +6,45 @@ tech.root: netvista
 ms.assetid: 60555A58-2C1A-41FB-AE2C-E279C9BEC3CC
 ms.date: 04/11/2019
 keywords: ["NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure"]
-f1_keywords:
- - "ndiswwan/_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG"
- - "_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG"
-ms.keywords: _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG, 
+ms.keywords: _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG,
 req.header: ndiswwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndiswwan.h
-api_name: 
-- _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
+ - ndiswwan/_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
+ - PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG
+ - ndiswwan/PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG
+ - NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
+ - ndiswwan/NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
 ---
 
 # _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure
 
+
 ## -description
 
-The **NDIS_WWAN_SET_MODEM_LOGGING_CONFIG** structure specifies modem logging configuration for a modem. 
+The **NDIS_WWAN_SET_MODEM_LOGGING_CONFIG** structure specifies modem logging configuration for a modem.
 
 ## -struct-fields
 
@@ -54,7 +59,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_SET_M
 | Size | sizeof(NDIS_WWAN_SET_MODEM_LOGGING_CONFIG) |
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
- 
+
 ### -field ModemLoggingConfig
 
 A formatted [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-_wwan_modem_logging_config.md) structure that describes the modem logging configuration to set.
@@ -72,3 +77,4 @@ This structure is used in the payload of an [OID_WWAN_MODEM_LOGGING_CONFIG](http
 [NDIS_STATUS_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-modem-logging-config)
 
 [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-_wwan_modem_logging_config.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 83fadb77-90c2-4331-949c-5d8828ce33e2
 ms.date: 02/26/2018
 keywords: ["WDF_COMPANION_EVENT_CALLBACKS_INIT function"]
 ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdf.wdf_companion_event_callbacks_init, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT
-f1_keywords:
- - "wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT"
- - "WDF_COMPANION_EVENT_CALLBACKS_INIT"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompanion.h
-api_name:
-- WDF_COMPANION_EVENT_CALLBACKS_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_COMPANION_EVENT_CALLBACKS_INIT
+ - wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompanion.h
+api_name:
+ - WDF_COMPANION_EVENT_CALLBACKS_INIT
 ---
 
 # WDF_COMPANION_EVENT_CALLBACKS_INIT function
@@ -46,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
-
-
-
 ### -param Callbacks 
+
 [out]
 

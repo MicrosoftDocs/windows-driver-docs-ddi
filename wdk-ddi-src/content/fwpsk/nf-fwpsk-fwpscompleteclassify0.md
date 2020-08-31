@@ -8,9 +8,6 @@ ms.assetid: 995e86dc-fc26-4903-bc21-45475cb4e2bc
 ms.date: 05/02/2018
 keywords: ["FwpsCompleteClassify0 function"]
 ms.keywords: FwpsCompleteClassify0, FwpsCompleteClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteClassify0, netvista.fwpscompleteclassify0, wfp_ref_2_funct_3_fwps_C_32709694-e6b8-41b8-90ea-4c8ef187ab6f.xml
-f1_keywords:
- - "fwpsk/FwpsCompleteClassify0"
- - "FwpsCompleteClassify0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsCompleteClassify0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsCompleteClassify0
+ - fwpsk/FwpsCompleteClassify0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsCompleteClassify0
 ---
 
 # FwpsCompleteClassify0 function
 
 
 ## -description
-
 
 A callout driver calls 
   <b>FwpsCompleteClassify0</b> to asynchronously complete a pended classify request. The callout driver's 
@@ -58,25 +57,22 @@ A callout driver calls
 
 ## -parameters
 
-
-
-
 ### -param classifyHandle 
+
 [in]
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
-
 ### -param flags 
+
 [in]
 
       This parameter is reserved for future use. Set to zero.
-     
-
 
 ### -param classifyOut 
+
 [in, optional]
 A pointer to a deep copy of the 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that was originally
@@ -89,10 +85,7 @@ A pointer to a deep copy of the
 If this parameter is used, the classification is taken as the callout driver's final decision. If set
      to <b>NULL</b>, the indication will be reauthorized.
 
-
 ## -remarks
-
-
 
 <b>FwpsCompleteClassify0</b> must be called after a callout driver has called 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a> to remove the
@@ -102,13 +95,7 @@ After calling this function,
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a> must
     be called to free the system resources associated with the classification handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
@@ -127,7 +114,4 @@ After calling this function,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 9d5d30a5-4c87-4651-89e6-0fe4b02e7ea0
 ms.date: 04/23/2018
 keywords: ["KSEVENT_ENTRY_IRP_STORAGE macro"]
 ms.keywords: KSEVENT_ENTRY_IRP_STORAGE, KSEVENT_ENTRY_IRP_STORAGE macro [Streaming Media Devices], ks/KSEVENT_ENTRY_IRP_STORAGE, ksfunc_174dded2-4521-4d4a-b7ab-13401da80e5b.xml, stream.ksevent_entry_irp_storage
-f1_keywords:
- - "ks/KSEVENT_ENTRY_IRP_STORAGE"
- - "KSEVENT_ENTRY_IRP_STORAGE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSEVENT_ENTRY_IRP_STORAGE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KSEVENT_ENTRY_IRP_STORAGE
+ - ks/KSEVENT_ENTRY_IRP_STORAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSEVENT_ENTRY_IRP_STORAGE
 ---
 
 # KSEVENT_ENTRY_IRP_STORAGE macro
+
 
 ## -description
 
@@ -58,3 +59,4 @@ The macro is defined as follows:
 ```cpp
 #define KSEVENT_ENTRY_IRP_STORAGE(Irp)   (*(PKSEVENT_ENTRY*)&(Irp)->Tail.Overlay.DriverContext[0])
 ```
+

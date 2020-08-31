@@ -8,9 +8,6 @@ ms.assetid: 5bda6d10-dd68-4385-b71c-8319e6ed0d4a
 ms.date: 05/02/2018
 keywords: ["NdisRawReadPortUchar macro"]
 ms.keywords: NdisRawReadPortUchar, NdisRawReadPortUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_e478dfdb-7037-4a9e-8da5-3bc38561094f.xml, ndis/NdisRawReadPortUchar, netvista.ndisrawreadportuchar
-f1_keywords:
- - "ndis/NdisRawReadPortUchar"
- - "NdisRawReadPortUchar"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisRawReadPortUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRawReadPortUchar
+ - ndis/NdisRawReadPortUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisRawReadPortUchar
 ---
 
 # NdisRawReadPortUchar macro
@@ -46,43 +46,30 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisRawReadPortUchar</b> reads a byte from a given I/O port on the NIC.
-
 
 ## -parameters
 
-
-
-
 ### -param Port 
+
 [in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
-
 ### -param Data 
+
 [out]
 Pointer to a caller-supplied variable in which this function returns a byte read in from the
      port.
 
-
 ## -remarks
-
-
 
 <b>NdisRawReadPortUchar</b> runs fast
     because it need not map a bus-relative I/O port address onto a host-dependent logical port address at
     every call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -105,7 +92,4 @@ Pointer to a caller-supplied variable in which this function returns a byte read
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawwriteportuchar">NdisRawWritePortUchar</a>
- 
-
- 
 

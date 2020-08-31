@@ -8,9 +8,6 @@ ms.assetid: 0a1f9e89-df17-4802-9685-06a2eedbc0e5
 ms.date: 05/02/2018
 keywords: ["RILSUBADDRESS structure"]
 ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress, ntddrilapitypes/RILSUBADDRESS"
-f1_keywords:
- - "ntddrilapitypes/RILSUBADDRESS"
- - "RILSUBADDRESS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSUBADDRESS
 targetos: Windows
 req.typenames: RILSUBADDRESS, *LPRILSUBADDRESS
+f1_keywords:
+ - RILSUBADDRESS
+ - ntddrilapitypes/RILSUBADDRESS
+ - LPRILSUBADDRESS
+ - ntddrilapitypes/LPRILSUBADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSUBADDRESS
 ---
 
 # RILSUBADDRESS structure
@@ -46,23 +48,15 @@ req.typenames: RILSUBADDRESS, *LPRILSUBADDRESS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwType
-
 
 ### -field wszSubAddress
 

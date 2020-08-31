@@ -8,13 +8,10 @@ ms.assetid: d15bf48e-132d-4f89-8f19-64f57deed500
 ms.date: 05/03/2018
 keywords: ["wiasGetContextFromName function"]
 ms.keywords: image.wiasgetcontextfromname, wiamdef/wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetContextFromName"
- - "wiasGetContextFromName"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetContextFromName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetContextFromName
+ - wiamdef/wiasGetContextFromName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetContextFromName
 ---
 
 # wiasGetContextFromName function
+
 
 ## -description
 
@@ -50,6 +51,7 @@ The **wiasGetContextFromName** function retrieves the item context for an item n
 ## -parameters
 
 ### -param pWiasContext 
+
 [in]
 Pointer to a WIA item context.
 
@@ -58,10 +60,12 @@ Pointer to a WIA item context.
 Reserved for system use and should be set to 0.
 
 ### -param bstrName 
+
 [in]
 Specifies the name of the context that is being searched for.
 
 ### -param ppWiasContext 
+
 [out]
 Pointer to a memory location that receives the address of the WIA item context.
 
@@ -80,3 +84,4 @@ This function should be used by minidrivers when they need to move from one appl
 ## -see-also
 
 [wiasGetRootItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetrootitem)
+

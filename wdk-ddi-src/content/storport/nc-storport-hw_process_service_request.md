@@ -8,9 +8,6 @@ ms.assetid: bdcaf9a7-4c79-407b-bec4-182f3a1d1f37
 ms.date: 03/29/2018
 keywords: ["HW_PROCESS_SERVICE_REQUEST callback function"]
 ms.keywords: HW_PROCESS_SERVICE_REQUEST, HwStorProcessServiceRequest, HwStorProcessServiceRequest routine [Storage Devices], storage.hwstorprocessservicerequest, storport/HwStorProcessServiceRequest, storvmini_50b0d1a2-74bf-4ee4-a9f7-3c30f1a81507.xml
-f1_keywords:
- - "storport/HwStorProcessServiceRequest"
- - "HwStorProcessServiceRequest"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorProcessServiceRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_PROCESS_SERVICE_REQUEST
+ - storport/HW_PROCESS_SERVICE_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorProcessServiceRequest
 ---
 
 # HW_PROCESS_SERVICE_REQUEST callback function
@@ -46,28 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>HwStorProcessServiceRequest</b> callback routine receives the device control  IRP that contains the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_miniport_process_service_irp">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a> request when a caller, such as a user-mode application or kernel-mode driver, requires a "reverse callback" operation. The I/O is completed by the miniport driver when it needs to tell the caller of something or needs the caller to do something.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceExtension
 
 A pointer to the virtual miniport driver's per-adapter storage area.
 
-
 ### -param Irp
 
 A pointer to the I/O request.
 
-
 ## -remarks
-
-
 
 The name <b>HwStorProcessServiceRequest</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
@@ -127,20 +118,11 @@ MyHwProcessServiceRequest (
 </table></span></div>
 The <b>HW_PROCESS_SERVICE_REQUEST</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_PROCESS_SERVICE_REQUEST</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_miniport_process_service_irp">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportcompleteserviceirp">StorPortCompleteServiceIrp</a>
- 
-
- 
 

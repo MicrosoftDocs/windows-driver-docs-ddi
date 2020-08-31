@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateOpenedResourceSize"
- - "CalcPrivateOpenedResourceSize"
+ - PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE
+ - d3d10umddi/PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback function
+
 
 ## -description
 

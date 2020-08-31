@@ -8,9 +8,6 @@ ms.assetid: 8ad096bb-0012-40fc-a038-2f25d6a59b43
 ms.date: 05/10/2018
 keywords: ["DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration"]
 ms.keywords: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], DxgkBacklightOptimizationDesktop, DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationEDR, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level
-f1_keywords:
- - "d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL"
- - "DXGK_BACKLIGHT_OPTIMIZATION_LEVEL"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmdt.h
-api_name:
-- DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 targetos: Windows
 req.typenames: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
+f1_keywords:
+ - DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
+ - d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmdt.h
+api_name:
+ - DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 ---
 
 # DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration
@@ -46,14 +46,9 @@ req.typenames: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 
 ## -description
 
-
 Indicates the optimization level of brightness control. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DxgkBacklightOptimizationDisable
 
@@ -61,13 +56,11 @@ The display miniport driver must completely disable adaptive brightness control.
 
 The operating system always sets this value if the system is on AC power.
 
-
 ### -field DxgkBacklightOptimizationDesktop
 
 The display miniport driver should optimize backlight settings for desktop presentation when the system is on DC power and the other possible scenarios (disabled, dynamic, and dimmed) are not active. This type of optimization is appropriate for displaying photos, internet browsers, common document types, and video playback controls.
 
 This is the default adaptive brightness setting when the system is on DC power.
-
 
 ### -field DxgkBacklightOptimizationDynamic
 
@@ -77,35 +70,21 @@ The operating system sets this value if a full-screen Windows App is using the H
 
 The operating system sets this value only when only full-screen video content is displayed on the screen. This value is not set if playback controls or charms are displayed during video playback; in this case, adaptive brightness will not be enabled.
 
-
 ### -field DxgkBacklightOptimizationDimmed
 
 The display miniport driver should optimize backlight settings to display at a low light level that is still visible even if it is not easily readable. In this scenario the display is typically set to a 30 percent brightness level.
 
 After a defined period of no user input, the operating system sets this value to dim the display.
 
-
 ### -field DxgkBacklightOptimizationEDR
 
-Optimization level which informs the driver that the display is being driven with either High Dynamic Range or Enhanced Dynamic Range content so any backlight optimizations can be tailored to the scenario.                                                                                                                                                                                                                                                                                                         
-
+Optimization level which informs the driver that the display is being driven with either High Dynamic Range or Enhanced Dynamic Range content so any backlight optimizations can be tailored to the scenario.
 
 ## -remarks
 
-
-
 For more information on usage scenarios involving <b>DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</b> enumeration values, see Remarks in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization">DxgkDdiSetBacklightOptimization</a> function.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization">DxgkDdiSetBacklightOptimization</a>
- 
-
- 
 

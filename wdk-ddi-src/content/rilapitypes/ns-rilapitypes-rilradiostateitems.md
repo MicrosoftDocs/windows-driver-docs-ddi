@@ -8,9 +8,6 @@ ms.assetid: 26b2521c-7008-437d-aed3-3ed2be5d5959
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEITEMS structure"]
 ms.keywords: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitems, ntddrilapitypes/RILRADIOSTATEITEMS"
-f1_keywords:
- - "rilapitypes/RILRADIOSTATEITEMS"
- - "RILRADIOSTATEITEMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILRADIOSTATEITEMS
 targetos: Windows
 req.typenames: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS
+f1_keywords:
+ - RILRADIOSTATEITEMS
+ - rilapitypes/RILRADIOSTATEITEMS
+ - LPRILRADIOSTATEITEMS
+ - rilapitypes/LPRILRADIOSTATEITEMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILRADIOSTATEITEMS
 ---
 
 # RILRADIOSTATEITEMS structure
@@ -46,20 +48,13 @@ req.typenames: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwGroupId
 
-
 ### -field dwCntItems
-
 
 ### -field rilItems
 

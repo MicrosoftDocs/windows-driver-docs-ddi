@@ -8,9 +8,6 @@ ms.assetid: 2A151351-AC57-4F7C-BA1A-201F6FB29C4F
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_VLAN structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_VLAN, PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_VLAN, netvista.ndis_switch_port_property_vlan, ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN"
- - "NDIS_SWITCH_PORT_PROPERTY_VLAN"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_PORT_PROPERTY_VLAN
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN
+f1_keywords:
+ - _NDIS_SWITCH_PORT_PROPERTY_VLAN
+ - ntddndis/_NDIS_SWITCH_PORT_PROPERTY_VLAN
+ - PNDIS_SWITCH_PORT_PROPERTY_VLAN
+ - ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN
+ - NDIS_SWITCH_PORT_PROPERTY_VLAN
+ - ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_PORT_PROPERTY_VLAN
 ---
 
 # _NDIS_SWITCH_PORT_PROPERTY_VLAN structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN
 
 ## -description
 
-
 The <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure specifies a virtual local area network (VLAN) policy property for a Hyper-V extensible switch port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -71,22 +70,17 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_PROPERTY_VLAN_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field OperationMode
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_vlan_mode">NDIS_SWITCH_PORT_VLAN_MODE</a> enumeration value that specifies the operation mode of the VLAN.
 
-
 ### -field VlanProperties
 
 A structure that specifies the properties of a VLAN with an operation mode of <b>NdisSwitchPortVlanModeAccess</b> or <b>NdisSwitchPortVlanModeTrunk</b>. This structure contains the following members:
-
-
 
 ### -field VlanProperties.AccessVlanId
 
@@ -98,7 +92,6 @@ A UINT16 value that specifies the VLAN identifier for the extensible switch port
 ### -field VlanProperties.NativeVlanId
 
 A UINT16 value that specifies the VLAN identifier for the extensible switch port that operates in VLAN trunk mode.
-
 
 ### -field VlanProperties.PruneVlanIdArray
 
@@ -119,17 +112,13 @@ An array of UINT64 elements that specifies VLAN identifiers whose packets are al
 The array has 64 UINT64 elements that represent 4096 consecutive bits.
          Each bit that has a value of one specifies a VLAN identifier whose packets are allowed to be sent or received on an extensible switch port. For example,  if bit two is set to one, packet traffic from VLAN identifier two is allowed on a port. Similarly, if bit 1954 is set to zero, packet traffic from VLAN identifier 1954 is not allowed on a port.
 
-
-
 ### -field PvlanProperties
 
 A structure that specifies the properties of a VLAN with an operation mode of <b>NdisSwitchPortVlanModePrivate</b>. This structure contains the following members:
 
-
 ### -field PvlanProperties.PvlanMode
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_pvlan_mode">NDIS_SWITCH_PORT_PVLAN_MODE</a> enumeration value that specifies the operation mode of the PVLAN.
-
 
 ### -field PvlanProperties.PrimaryVlanId
 
@@ -184,12 +173,7 @@ Specifies a VLAN truck operation mode where packets from multiple VLANs and non-
 
 Specifies an operation mode where packets from a single VLAN can be sent or received over the port. These packets cannot be forwarded from other ports on the extensible switch.
 
-
-
-
 ## -remarks
-
-
 
 The <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure is used in the following OID set requests: 
 
@@ -216,12 +200,7 @@ For more information on forwarding extensions, see <a href="https://docs.microso
 <div class="alert"><b>Note</b>  If a forwarding extension is not installed, the extensible switch interface enforces the port property itself.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -248,7 +227,4 @@ For more information on forwarding extensions, see <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-property-update">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: aa04ef8c-5b69-4d7e-8af4-8cbdb680a23a
 ms.date: 05/03/2018
 keywords: ["wiasWritePageBufToFile function"]
 ms.keywords: image.wiaswritepagebuftofile, wiamdef/wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasWritePageBufToFile"
- - "wiasWritePageBufToFile"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasWritePageBufToFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasWritePageBufToFile
+ - wiamdef/wiasWritePageBufToFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasWritePageBufToFile
 ---
 
 # wiasWritePageBufToFile function
+
 
 ## -description
 
@@ -50,6 +51,7 @@ The **wiasWritePageBufToFile** function writes the contents of a temporary page 
 ## -parameters
 
 ### -param pmdtc 
+
 [in]
 Pointer to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure.
 
@@ -102,3 +104,4 @@ This is essentially what you would do if you used the file handle directly. The 
 [wiasWriteBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritebuftofile)
 
 [wiasWritePageBufToStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepagebuftostream)
+

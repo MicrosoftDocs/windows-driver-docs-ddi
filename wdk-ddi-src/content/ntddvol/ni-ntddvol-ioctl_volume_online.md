@@ -8,9 +8,6 @@ ms.assetid: 3391bda9-2eec-4c03-84ed-76b89e2c0cf0
 ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_ONLINE IOCTL"]
 ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control, IOCTL_VOLUME_ONLINE control code [Storage Devices], k307_236159f9-4ec2-4dec-9d34-5b4ecb8a2147.xml, ntddvol/IOCTL_VOLUME_ONLINE, storage.ioctl_volume_online
-f1_keywords:
- - "ntddvol/IOCTL_VOLUME_ONLINE"
- - "IOCTL_VOLUME_ONLINE"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvol.h
-api_name:
-- IOCTL_VOLUME_ONLINE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VOLUME_ONLINE
+ - ntddvol/IOCTL_VOLUME_ONLINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvol.h
+api_name:
+ - IOCTL_VOLUME_ONLINE
 ---
 
 # IOCTL_VOLUME_ONLINE IOCTL
 
 
 ## -description
-
-
 
 The <b>IOCTL_VOLUME_ONLINE</b> IOCTL puts the volume in an ONLINE state, which is a state where read and write operations will be executed. The requests are passed down to the physical disk until a subsequent <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a> is received.
 
@@ -58,64 +56,33 @@ But for volumes controlled by NoAutoMount, assigning a drive letter will cause <
 
 For volumes that are controlled by the cluster service, <b>IOCTL_VOLUME_ONLINE</b> is sent by the cluster service when the local node owns the volume. The cluster service uses both <b>IOCTL_VOLUME_ONLINE</b> and <b>IOCTL_VOLUME_ONLINE</b> to allow I/O to a disk volume when the disk volume is owned by the local server. Until the cluster service puts the disk volume in an ONLINE state, no I/O is permitted to the disk volume. This prevents disk volume corruption that could result from multiple cluster nodes writing to the same disk volume simultaneously.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The <b>Status</b> member is set to STATUS_SUCCESS.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a>
- 
-
- 
 

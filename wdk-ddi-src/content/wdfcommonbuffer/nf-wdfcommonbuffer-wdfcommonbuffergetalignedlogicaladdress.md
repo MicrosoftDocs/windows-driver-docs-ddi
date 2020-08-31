@@ -8,9 +8,6 @@ ms.assetid: 6222db07-5aba-467c-94a5-18493dfb1524
 ms.date: 02/26/2018
 keywords: ["WdfCommonBufferGetAlignedLogicalAddress function"]
 ms.keywords: DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress method, kmdf.wdfcommonbuffergetalignedlogicaladdress, wdf.wdfcommonbuffergetalignedlogicaladdress, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress
-f1_keywords:
- - "wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress"
- - "WdfCommonBufferGetAlignedLogicalAddress"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfCommonBufferGetAlignedLogicalAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCommonBufferGetAlignedLogicalAddress
+ - wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfCommonBufferGetAlignedLogicalAddress
 ---
 
 # WdfCommonBufferGetAlignedLogicalAddress function
@@ -47,38 +47,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfCommonBufferGetAlignedLogicalAddress</b> method returns the logical address that is associated with a specified common buffer. 
-
+The <b>WdfCommonBufferGetAlignedLogicalAddress</b> method returns the logical address that is associated with a specified common buffer.
 
 ## -parameters
 
-
-
-
 ### -param CommonBuffer 
-[in]
-A handle to a common buffer object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcommonbuffer/nf-wdfcommonbuffer-wdfcommonbuffercreate">WdfCommonBufferCreate</a>.  
 
+[in]
+A handle to a common buffer object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcommonbuffer/nf-wdfcommonbuffer-wdfcommonbuffercreate">WdfCommonBufferCreate</a>.
 
 ## -returns
-
-
 
 <b>WdfCommonBufferGetAlignedLogicalAddress</b> returns the logical address of the buffer that is associated with the common buffer that the <i>CommonBuffer</i> parameter specifies.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Logical addresses are mapped addresses that devices use to access physical memory.
 
@@ -94,12 +80,7 @@ For a code example that uses <b>WdfCommonBufferGetAlignedLogicalAddress</b>, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcommonbuffer/nf-wdfcommonbuffer-wdfcommonbuffercreate">WdfCommonBufferCreate</a>
 
@@ -110,7 +91,4 @@ For a code example that uses <b>WdfCommonBufferGetAlignedLogicalAddress</b>, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetalignmentrequirement">WdfDeviceSetAlignmentRequirement</a>
- 
-
- 
 

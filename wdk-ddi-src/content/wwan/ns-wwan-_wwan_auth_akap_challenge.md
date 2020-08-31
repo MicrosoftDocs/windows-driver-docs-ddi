@@ -8,9 +8,6 @@ ms.assetid: 0C1862D6-1252-4CF7-926A-C4647D545255
 ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_AKAP_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_CHALLENGE, WWAN_AUTH_AKAP_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKAP_CHALLENGE, netvista.wwan_auth_akap_challenge, wwan/PWWAN_AUTH_AKAP_CHALLENGE, wwan/WWAN_AUTH_AKAP_CHALLENGE"
-f1_keywords:
- - "wwan/WWAN_AUTH_AKAP_CHALLENGE"
- - "WWAN_AUTH_AKAP_CHALLENGE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_AUTH_AKAP_CHALLENGE
 targetos: Windows
 req.typenames: WWAN_AUTH_AKAP_CHALLENGE, *PWWAN_AUTH_AKAP_CHALLENGE
+f1_keywords:
+ - _WWAN_AUTH_AKAP_CHALLENGE
+ - wwan/_WWAN_AUTH_AKAP_CHALLENGE
+ - PWWAN_AUTH_AKAP_CHALLENGE
+ - wwan/PWWAN_AUTH_AKAP_CHALLENGE
+ - WWAN_AUTH_AKAP_CHALLENGE
+ - wwan/WWAN_AUTH_AKAP_CHALLENGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_AUTH_AKAP_CHALLENGE
 ---
 
 # _WWAN_AUTH_AKAP_CHALLENGE structure
@@ -46,29 +50,15 @@ req.typenames: WWAN_AUTH_AKAP_CHALLENGE, *PWWAN_AUTH_AKAP_CHALLENGE
 
 ## -description
 
-
 The WWAN_AUTH_AKAP_CHALLENGE structure represents an authentication challenge using the AKA' method.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Rand
-
- 
-
 
 ### -field Autn
 
- 
-
-
 ### -field NetworkName
-
- 
-
 
 ### -field NetworkNameLength
 
@@ -89,23 +79,11 @@ The name of the access network. This member is encoded using UTF-8 character enc
 
 A 128-bit random number challenge. This member represents a multi-byte value in little-endian format.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a>
- 
-
- 
 

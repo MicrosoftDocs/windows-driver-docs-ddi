@@ -8,9 +8,6 @@ ms.assetid: efd13e9e-ba25-4d1c-894c-a275374f5266
 ms.date: 04/20/2018
 keywords: ["IPrintOemDriverUni interface"]
 ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], IPrintOemDriverUni interface [Print Devices],described, prcomoem/IPrintOemDriverUni, print.iprintoemdriveruni_interface, print_unidrv-pscript_rendering_07d60c45-4913-4cac-b65d-31737752b24f.xml
-f1_keywords:
- - "prcomoem/IPrintOemDriverUni"
- - "IPrintOemDriverUni"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemDriverUni
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemDriverUni
+ - prcomoem/IPrintOemDriverUni
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemDriverUni
 ---
 
 # IPrintOemDriverUni interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
-This section describes the methods defined for the IPrintOemDriverUni COM interface. 
-
+This section describes the methods defined for the IPrintOemDriverUni COM interface.
 
 ## -inheritance
 

@@ -8,9 +8,6 @@ ms.assetid: d24577e3-3124-4ce7-a6ea-bed75ff18a1e
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeWdmGetPipeHandle function"]
 ms.keywords: DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, WdfUsbTargetPipeWdmGetPipeHandle, WdfUsbTargetPipeWdmGetPipeHandle method, kmdf.wdfusbtargetpipewdmgetpipehandle, wdf.wdfusbtargetpipewdmgetpipehandle, wdfusb/WdfUsbTargetPipeWdmGetPipeHandle
-f1_keywords:
- - "wdfusb/WdfUsbTargetPipeWdmGetPipeHandle"
- - "WdfUsbTargetPipeWdmGetPipeHandle"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfUsbTargetPipeWdmGetPipeHandle
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetPipeWdmGetPipeHandle
+ - wdfusb/WdfUsbTargetPipeWdmGetPipeHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfUsbTargetPipeWdmGetPipeHandle
 ---
 
 # WdfUsbTargetPipeWdmGetPipeHandle function
@@ -47,38 +47,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfUsbTargetPipeWdmGetPipeHandle</b> method returns the USBD_PIPE_HANDLE-typed handle that is associated with a specified framework pipe object. 
-
+The <b>WdfUsbTargetPipeWdmGetPipeHandle</b> method returns the USBD_PIPE_HANDLE-typed handle that is associated with a specified framework pipe object.
 
 ## -parameters
 
-
-
-
 ### -param UsbPipe 
+
 [in]
 A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetPipeWdmGetPipeHandle</b> returns a USBD_PIPE_HANDLE-typed handle. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 A framework-based driver needs to obtain a USBD_PIPE_HANDLE-typed handle only if it creates a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> that requires a pipe handle.
 
@@ -97,12 +83,7 @@ USBD_PIPE_HANDLE  usbdPipeHandle;
 usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
 
@@ -113,7 +94,4 @@ usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a>
- 
-
- 
 

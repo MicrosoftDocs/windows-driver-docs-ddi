@@ -5,45 +5,60 @@ description: Implemented by the client driver to obtain a pointer to a subregion
 ms.assetid: 86a95724-5522-4075-a1c6-9c0ccfe1193e
 ms.date: 10/19/2018
 keywords: ["DXGKCB_MAPFRAMEBUFFERPOINTER callback function"]
-f1_keywords:
- - "d3dkmddi/DXGKCB_MAPFRAMEBUFFERPOINTER"
- - "DXGKCB_MAPFRAMEBUFFERPOINTER"
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKCB_MAPFRAMEBUFFERPOINTER
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - DXGKCB_MAPFRAMEBUFFERPOINTER
+ - d3dkmddi/DXGKCB_MAPFRAMEBUFFERPOINTER
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKCB_MAPFRAMEBUFFERPOINTER
+product:
+ - Windows
 ---
 
 # DXGKCB_MAPFRAMEBUFFERPOINTER callback function
 
+
 ## -description
 
 Implemented by the client driver to obtain a pointer to a subregion of the section object that was created for each physical adapter. The driver is responsible for copying the data from the pre-allocated buffer to the mapped subregion.
+
+## -parameters
+
+### -param hAdapter
+
+A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
+
+### -param pMapFrameBufferPointer
+
+Pointer to [DXGKARGCB_MAPFRAMEBUFFERPOINTER](ns-d3dkmddi-_dxgkargcb_mapframebufferpointer.md) structure that contains a pointer to the subregion of the section object.
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
 
 ## -prototype
 
@@ -66,21 +81,6 @@ DXGKCB_MAPFRAMEBUFFERPOINTER
 
 ```
 
-## -parameters
-
-### -param hAdapter
-
-A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
-
-### -param pMapFrameBufferPointer
-
-Pointer to [DXGKARGCB_MAPFRAMEBUFFERPOINTER](ns-d3dkmddi-_dxgkargcb_mapframebufferpointer.md) structure that contains a pointer to the subregion of the section object.
-
-## -returns
-
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of [DXGKARGCB_MAPFRAMEBUFFERPOINTER](ns-d3dkmddi-_dxgkargcb_mapframebufferpointer.md) and then calling DxgkCbMapFrameBufferPointer.
@@ -100,3 +100,4 @@ The driver has two options to implement the frame buffer reservation:
 If pinning the entire frame buffer’s section object fails, the driver must try to ensure forward progress by performing the transfer in smaller pieces. This is accomplished by allocating a small MDL or chunk of memory during initialization time which can be used to transfer the contents from the hardware. Then call DxgkCbMapFrameBufferPointer to obtain a pointer to a subregion of the section object. The driver is responsible for copying the data from the pre-allocated buffer to the mapped subregion. The reverse is true when restoring the frame buffer contents.
 
 ## -see-also
+

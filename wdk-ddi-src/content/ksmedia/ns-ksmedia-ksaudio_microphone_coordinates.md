@@ -8,9 +8,6 @@ ms.assetid: 443fb3c0-0e75-4abc-b44f-047752b3cab7
 ms.date: 08/20/2020
 keywords: ["KSAUDIO_MICROPHONE_COORDINATES structure"]
 ms.keywords: "*PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], PKSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, audio.ksaudio_microphone_coordinates, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, ksmedia/PKSAUDIO_MICROPHONE_COORDINATES"
-f1_keywords:
- - "ksmedia/KSAUDIO_MICROPHONE_COORDINATES"
- - "KSAUDIO_MICROPHONE_COORDINATES"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_MICROPHONE_COORDINATES
 targetos: Windows
 req.typenames: KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES
+f1_keywords:
+ - PKSAUDIO_MICROPHONE_COORDINATES
+ - ksmedia/PKSAUDIO_MICROPHONE_COORDINATES
+ - KSAUDIO_MICROPHONE_COORDINATES
+ - ksmedia/KSAUDIO_MICROPHONE_COORDINATES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_MICROPHONE_COORDINATES
 ---
 
 # KSAUDIO_MICROPHONE_COORDINATES structure
+
 
 ## -description
 
@@ -98,3 +101,4 @@ Now assume that there are three microphones in the array, as shown in the preced
 If one of the microphones, for example **Mic 1**, happens to be dipped downward, or raised up, then this microphone would also have a vertical angle between its center line and the projection of its center line onto the x-y plane. This angle is represented by *wVerticalAngle*.
 
 For more information about how to process a microphone array in Windows, see the [Microphone array support in Windows](https://docs.microsoft.com/previous-versions/windows/hardware/design/dn613960(v=vs.85)) white paper.
+

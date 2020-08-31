@@ -8,9 +8,6 @@ ms.assetid: E6EF8852-E39C-491B-9430-0308CA6276C0
 ms.date: 02/26/2018
 keywords: ["WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure"]
 ms.keywords: "*PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, umdf.wudf_device_power_policy_idle_settings, wdf.wudf_device_power_policy_idle_settings, wudfddi_types/PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
-f1_keywords:
- - "wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
- - "WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 req.header: wudfddi_types.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wudfddi_types.h
-api_name:
-- WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 targetos: Windows
 req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+f1_keywords:
+ - _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ - wudfddi_types/_WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ - PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ - wudfddi_types/PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ - WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ - wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wudfddi_types.h
+api_name:
+ - WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 ---
 
 # _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure
@@ -46,41 +50,31 @@ req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLIC
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure contains driver-supplied information that the framework uses when a device is idle and the system is in the system working state (S0).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field IdleCaps
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself up after being set to a low-power state, while the system remains in its working (S0) state.
-
 
 ### -field DxState
 
 A DEVICE_POWER_STATE-typed enumerator that identifies the low <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power state</a> that the device will enter after the idle timeout period ends. DEVICE_POWER_STATE values are defined in <i>wdm.h</i>.
 
-
 ### -field IdleTimeout
 
 The amount of time, in milliseconds, that the device will remain idle before the framework places it in the <b>DxState</b>-supplied low-power state. To use the framework's default idle timeout value, specify <b>IdleTimeoutDefaultValue</b>. For more information on when the framework considers the device to be idle, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
-
 ### -field UserControlOfIdleSettings
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_s0_idle_user_control">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
-
 
 ### -field Enabled
 
@@ -94,7 +88,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-w
 
 If powering down is enabled, the device has a wake-up capability, and the idle timeout value expires, the framework calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipowerpolicycallbackwakefroms0-onarmwakefroms0">IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0</a> method before the device enters a low-power state.
 
-
 ### -field PowerUpIdleDeviceOnSystemWake
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will return to its working (D0) state when the system returns to its working (S0) state. This member is valid only if the driver sets the <b>IdleCaps</b> member to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities">IdleCannotWakeFromS0</a>. The <b>PowerUpIdleDeviceOnSystemWake</b> member can have one of the following values:
@@ -106,7 +99,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-w
 <b>WdfUseDefault</b> - The default value that the framework uses if the driver does not set a different value. This value has the same meaning as <b>WdfFalse</b>. 
 
 If the <b>PowerUpIdleDeviceOnSystemWake</b> member is set to <b>WdfFalse</b> or <b>WdfUseDefault</b>, the device returns to its working state only when software accesses the device, such as when an application sends an I/O request to the device. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/a-device-returns-to-its-working-state">A Device Returns to Its Working State</a>.
-
 
 ### -field ExcludeD3Cold
 
@@ -127,10 +119,7 @@ Needs = PciD3ColdSupported
 
 The <b>ExcludeD3Cold</b> member is available starting in UMDF version 1.11, and is ignored in operating systems earlier than Windows 8. See additional information in Remarks.
 
-
 ## -remarks
-
-
 
 The <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-assigns0idlesettingsex">IWDFDevice3::AssignS0IdleSettingsEx</a>. 
 
@@ -189,20 +178,11 @@ For information about registry entries that control a device's idle capabilities
 
 To initialize its <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfdevice/nf-wudfdevice-wudf_device_power_policy_idle_settings_init">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-assigns0idlesettingsex">IWDFDevice3::AssignS0IdleSettingsEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfdevice/nf-wudfdevice-wudf_device_power_policy_idle_settings_init">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>
- 
-
- 
 

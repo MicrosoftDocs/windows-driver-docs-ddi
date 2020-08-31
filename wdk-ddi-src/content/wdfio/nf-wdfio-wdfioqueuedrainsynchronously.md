@@ -8,9 +8,6 @@ ms.assetid: e8e53a6d-8b8b-49ed-947b-d0bb69a4d050
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueDrainSynchronously function"]
 ms.keywords: DFQueueObjectRef_8c2d977e-f24a-49b8-bb80-e4b3d369d23a.xml, WdfIoQueueDrainSynchronously, WdfIoQueueDrainSynchronously method, kmdf.wdfioqueuedrainsynchronously, wdf.wdfioqueuedrainsynchronously, wdfio/WdfIoQueueDrainSynchronously
-f1_keywords:
- - "wdfio/WdfIoQueueDrainSynchronously"
- - "WdfIoQueueDrainSynchronously"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoQueueDrainSynchronously
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoQueueDrainSynchronously
+ - wdfio/WdfIoQueueDrainSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoQueueDrainSynchronously
 ---
 
 # WdfIoQueueDrainSynchronously function
@@ -49,21 +49,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueDrainSynchronously</b> method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed. The method returns after all requests are completed or canceled.
 
-
 ## -parameters
 
-
-
-
 ### -param Queue 
+
 [in]
 A handle to a framework queue object.
-
 
 ## -remarks
 
@@ -95,15 +90,7 @@ The following code example drains an I/O queue.
 WdfIoQueueDrainSynchronously(queue);
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuedrain">WdfIoQueueDrain</a>
- 
-
- 
 

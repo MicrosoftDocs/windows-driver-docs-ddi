@@ -8,9 +8,6 @@ ms.assetid: 0406efa5-26ad-4a3d-829b-d9b03b7c3b26
 ms.date: 03/29/2018
 keywords: ["MSiSCSI_InitiatorSessionInfo structure"]
 ms.keywords: "*PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices], PMSiSCSI_InitiatorSessionInfo, PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], _MSiSCSI_InitiatorSessionInfo, iscsimgt/MSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo, storage.msiscsi_initiatorsessioninfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml"
-f1_keywords:
- - "iscsimgt/MSiSCSI_InitiatorSessionInfo"
- - "MSiSCSI_InitiatorSessionInfo"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsimgt.h
-api_name:
-- MSiSCSI_InitiatorSessionInfo
 targetos: Windows
 req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
+f1_keywords:
+ - _MSiSCSI_InitiatorSessionInfo
+ - iscsimgt/_MSiSCSI_InitiatorSessionInfo
+ - PMSiSCSI_InitiatorSessionInfo
+ - iscsimgt/PMSiSCSI_InitiatorSessionInfo
+ - MSiSCSI_InitiatorSessionInfo
+ - iscsimgt/MSiSCSI_InitiatorSessionInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsimgt.h
+api_name:
+ - MSiSCSI_InitiatorSessionInfo
 ---
 
 # _MSiSCSI_InitiatorSessionInfo structure
@@ -46,43 +50,27 @@ req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
 
 ## -description
 
-
 The MSiSCSI_InitiatorSessionInfo structure contains information about a collection of sessions that belong to the indicated HBA initiator.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UniqueAdapterId
 
 A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a> structure.
 
-
 ### -field SessionCount
 
 The number of sessions that have been established with the provided adapter ID.
-
 
 ### -field SessionsList
 
 A variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_sessionstaticinfo">ISCSI_SessionStaticInfo</a> structures, which describe the static information that is associated with a session.
 
-
 ## -remarks
-
-
 
 You must implement this class.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_sessionstaticinfo">ISCSI_SessionStaticInfo</a>
 
@@ -93,7 +81,4 @@ You must implement this class.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-initiatorsessioninfo-wmi-class">MSiSCSI_InitiatorSessionInfo WMI Class</a>
- 
-
- 
 

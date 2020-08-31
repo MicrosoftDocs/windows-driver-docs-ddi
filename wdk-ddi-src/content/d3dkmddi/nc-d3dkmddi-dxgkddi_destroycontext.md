@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiDestroyContext"
- - "DxgkDdiDestroyContext"
+ - DXGKDDI_DESTROYCONTEXT
+ - d3dkmddi/DXGKDDI_DESTROYCONTEXT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_DESTROYCONTEXT callback function
+
 
 ## -description
 

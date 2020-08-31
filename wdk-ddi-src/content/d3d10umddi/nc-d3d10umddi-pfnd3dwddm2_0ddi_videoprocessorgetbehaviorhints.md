@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoProcessorGetBehaviorHints"
- - "pfnVideoProcessorGetBehaviorHints"
+ - PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS callback function
+
 
 ## -description
 

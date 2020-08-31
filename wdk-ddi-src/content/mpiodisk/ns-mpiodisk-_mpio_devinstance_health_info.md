@@ -8,9 +8,6 @@ ms.assetid: 7f254389-58cf-43da-8611-a1598cc2eb66
 ms.date: 03/29/2018
 keywords: ["MPIO_DEVINSTANCE_HEALTH_INFO structure"]
 ms.keywords: "*PMPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, storage.mpio_devinstance_health_info, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml"
-f1_keywords:
- - "mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO"
- - "MPIO_DEVINSTANCE_HEALTH_INFO"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiodisk.h
-api_name:
-- MPIO_DEVINSTANCE_HEALTH_INFO
 targetos: Windows
 req.typenames: MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO
+f1_keywords:
+ - _MPIO_DEVINSTANCE_HEALTH_INFO
+ - mpiodisk/_MPIO_DEVINSTANCE_HEALTH_INFO
+ - PMPIO_DEVINSTANCE_HEALTH_INFO
+ - mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO
+ - MPIO_DEVINSTANCE_HEALTH_INFO
+ - mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiodisk.h
+api_name:
+ - MPIO_DEVINSTANCE_HEALTH_INFO
 ---
 
 # _MPIO_DEVINSTANCE_HEALTH_INFO structure
@@ -46,24 +50,17 @@ req.typenames: MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO
 
 ## -description
 
-
 The MPIO_DEVINSTANCE_HEALTH_INFO structure is used to query the available health information for every instance of a multi-path disk on each of the paths through which it is exposed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumberDevInstancePackets
 
 An unsigned 32-bitfield that returns the number of health packets that are available and that correspond to the number of available path instances associated with all multi-path disks.
 
-
 ### -field Reserved
 
 Should be zero.
-
 
 ### -field DevInstanceHealthPackets
 

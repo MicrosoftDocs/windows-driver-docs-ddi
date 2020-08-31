@@ -8,9 +8,6 @@ ms.assetid: 14247f48-7ef8-481c-aa1e-e657475812fa
 ms.date: 05/02/2018
 keywords: ["NET_BUFFER_ALLOCATE_MDL_HANDLER callback function"]
 ms.keywords: NET_BUFFER_ALLOCATE_MDL_HANDLER, NET_BUFFER_ALLOCATE_MDL_HANDLER callback, NetAllocateMdl, NetAllocateMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateMdl, ndis_netbuf_functions_ref_d6801343-5c75-4328-b2d9-4b252afdfe15.xml, netvista.netallocatemdl
-f1_keywords:
- - "ndis/NetAllocateMdl"
- - "NetAllocateMdl"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- NetAllocateMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NET_BUFFER_ALLOCATE_MDL_HANDLER
+ - ndis/NET_BUFFER_ALLOCATE_MDL_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - NetAllocateMdl
 ---
 
 # NET_BUFFER_ALLOCATE_MDL_HANDLER callback function
@@ -46,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>NetAllocateMdl</i> function allocates an MDL with an associated memory block of a specified size.
 
-
 ## -parameters
 
-
-
-
 ### -param BufferSize 
+
 [in]
 The size of the memory block, in bytes. When calling 
      <i>NetAllocateMdl</i>, NDIS passes in the requested size.
 
-
 ## -returns
-
-
 
 <i>NetAllocateMdl</i> returns a pointer to the allocated MDL. If the allocation fails, the return value
      is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the NDIS driver specifies an entry point for the 
     <i>NetAllocateMdl</i> function at the 
@@ -95,13 +83,7 @@ NDIS specifies the size of the associated memory block at
 NDIS calls 
     <i>NetAllocateMdl</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
    NdisRetreatNetBufferDataStart</a>
@@ -109,7 +91,4 @@ NDIS calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a>
- 
-
- 
 

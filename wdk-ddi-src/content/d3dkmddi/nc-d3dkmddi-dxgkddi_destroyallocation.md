@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiDestroyAllocation"
- - "DxgkDdiDestroyAllocation"
+ - DXGKDDI_DESTROYALLOCATION
+ - d3dkmddi/DXGKDDI_DESTROYALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_DESTROYALLOCATION callback function
+
 
 ## -description
 

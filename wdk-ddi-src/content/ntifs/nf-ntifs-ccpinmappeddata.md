@@ -8,9 +8,6 @@ ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.date: 04/18/2018
 keywords: ["CcPinMappedData function"]
 ms.keywords: CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, ntifs/CcPinMappedData
-f1_keywords:
-- "ntifs/CcPinMappedData"
- - "CcPinMappedData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcPinMappedData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcPinMappedData
+ - ntifs/CcPinMappedData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcPinMappedData
 ---
 
 # CcPinMappedData function
@@ -46,31 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcPinMappedData</b> routine pins the specified byte range of a cached file.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 Pointer to a file object for the cached file in which a range of data is to be pinned.
 
-
 ### -param FileOffset 
+
 [in]
 Pointer to a variable that specifies the starting byte offset within the cached file where the desired data resides.
 
-
 ### -param Length 
+
 [in]
 Length in bytes of the data to be pinned.
 
-
 ### -param Flags 
+
 [in]
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
 
@@ -120,26 +116,17 @@ The data is to be pinned only if a BCB already exists. Otherwise, the pin fails 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Bcb 
-[in, out]
-On the first call this returns a pointer to a buffer control block (BCB). This pointer must be supplied as input on all subsequent calls for this buffer. 
 
+[in, out]
+On the first call this returns a pointer to a buffer control block (BCB). This pointer must be supplied as input on all subsequent calls for this buffer.
 
 ## -returns
 
-
-
 <b>CcPinMappedData</b> returns <b>TRUE</b> if the data for the cached file was pinned successfully, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 A successful return from <b>CcPinMappedData</b> guarantees that the data previously mapped in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a> is pinned in the cache and data in the specified range can be safely modified. If the caller subsequently modifies the data pinned by <b>CcPinMappedData</b>, it must also call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a> so that the modified data will eventually be written to disk.
 
@@ -153,13 +140,7 @@ To map data for a cached file, use the <a href="https://msdn.microsoft.com/libra
 
 It is not necessary to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a> after calling <b>CcPinMappedData</b> since the pin reference is matched to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
@@ -182,7 +163,4 @@ It is not necessary to call <a href="https://msdn.microsoft.com/library/windows/
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
- 
-
- 
 

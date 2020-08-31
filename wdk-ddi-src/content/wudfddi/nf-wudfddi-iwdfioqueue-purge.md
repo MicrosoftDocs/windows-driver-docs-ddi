@@ -8,9 +8,6 @@ ms.assetid: c7863713-850f-4516-aec5-9e851c36cf52
 ms.date: 02/26/2018
 keywords: ["IWDFIoQueue::Purge"]
 ms.keywords: IWDFIoQueue interface,Purge method, IWDFIoQueue.Purge, IWDFIoQueue::Purge, Purge, Purge method, Purge method,IWDFIoQueue interface, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, umdf.iwdfioqueue_purge, wdf.iwdfioqueue_purge, wudfddi/IWDFIoQueue::Purge
-f1_keywords:
- - "wudfddi/IWDFIoQueue.Purge"
- - "IWDFIoQueue.Purge"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoQueue.Purge
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoQueue::Purge
+ - wudfddi/IWDFIoQueue::Purge
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoQueue.Purge
 ---
 
 # IWDFIoQueue::Purge
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>Purge</b> method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. 
-
+The <b>Purge</b> method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests.
 
 ## -parameters
 
-
-
-
 ### -param pPurgeComplete 
+
 [in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iqueuecallbackstatechange">IQueueCallbackStateChange</a> interface whose method the framework calls to deliver queue state to the driver. The framework calls the method after all requests are canceled. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 The framework cancels unprocessed requests in the queue. For requests that are delivered to the driver and marked cancelable, the framework calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackcancel-oncancel">IRequestCallbackCancel::OnCancel</a>. 
 
@@ -122,12 +115,7 @@ CUmdfHidFile::OnCleanupFile(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iqueuecallbackstatechange">IQueueCallbackStateChange</a>
 
@@ -146,7 +134,4 @@ CUmdfHidFile::OnCleanupFile(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-stop">IWDFIoQueue::Stop</a>
- 
-
- 
 

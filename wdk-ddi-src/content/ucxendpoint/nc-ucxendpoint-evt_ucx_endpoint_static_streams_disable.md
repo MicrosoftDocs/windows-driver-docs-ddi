@@ -8,9 +8,6 @@ ms.assetid: 79da55ac-61de-40cc-b25b-421f7637a9fe
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback, EvtUcxEndpointStaticStreamsDisable, EvtUcxEndpointStaticStreamsDisable callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_disable, ucxendpoint/EvtUcxEndpointStaticStreamsDisable
-f1_keywords:
- - "ucxendpoint/PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE"
- - "PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ucxendpoint.h
-api_name:
-- PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
+ - ucxendpoint/EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ucxendpoint.h
+api_name:
+ - PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
 ---
 
 # EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function
@@ -46,24 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation that UCX calls to release controller resources for all streams for an endpoint.
-
 
 ## -parameters
 
-
-
-
 ### -param UcxEndpoint
 
-
 ### -param UcxStaticStreams 
+
 [in]
 A handle to a UCX object that represents the static streams.
 
-
 ### -param Request 
+
 [in]
 Contains the URB for the <b>URB_FUNCTION_CLOSE_STATIC_STREAMS</b>.
 
@@ -72,10 +67,7 @@ Contains the URB for the <b>URB_FUNCTION_CLOSE_STATIC_STREAMS</b>.
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 
-
 ## -remarks
-
-
 
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  method.
@@ -110,5 +102,4 @@ Endpoint_EvtUcxEndpointStaticStreamsDisable(
 </td>
 </tr>
 </table></span></div>
-
 

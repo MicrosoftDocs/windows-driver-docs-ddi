@@ -8,9 +8,6 @@ ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.date: 03/29/2018
 keywords: ["STOR_DEVICE_CAPABILITIES structure"]
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], _STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, storport/PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES"
-f1_keywords:
- - "storport/STOR_DEVICE_CAPABILITIES"
- - "STOR_DEVICE_CAPABILITIES"
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- STOR_DEVICE_CAPABILITIES
 targetos: Windows
 req.typenames: STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES
+f1_keywords:
+ - _STOR_DEVICE_CAPABILITIES
+ - storport/_STOR_DEVICE_CAPABILITIES
+ - PSTOR_DEVICE_CAPABILITIES
+ - storport/PSTOR_DEVICE_CAPABILITIES
+ - STOR_DEVICE_CAPABILITIES
+ - storport/STOR_DEVICE_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_DEVICE_CAPABILITIES
 ---
 
 # _STOR_DEVICE_CAPABILITIES structure
+
 
 ## -description
 
@@ -71,9 +76,6 @@ Specifies whether the device supports software-controlled device ejection while 
 
 ### -field Removable
 
- 
-
-
 ### -field DockDevice
 
 Specifies whether the device is a docking peripheral.
@@ -88,7 +90,7 @@ Specifies whether <b>Device Manager</b> should suppress all installation dialog 
 
 ### -field SurpriseRemovalOK
 
-Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with <b>StorRemoveDevice</b> as the <b>PnPAction</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block">SCSI_PNP_REQUEST_BLOCK</a> structure. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in. 
+Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with <b>StorRemoveDevice</b> as the <b>PnPAction</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block">SCSI_PNP_REQUEST_BLOCK</a> structure. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
 
 ### -field NoDisplayInUI
 
@@ -119,3 +121,4 @@ Starting with Windows 8, miniports should use the <a href="https://docs.microso
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block">SCSI_PNP_REQUEST_BLOCK</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_device_capabilities_ex">STOR_DEVICE_CAPABILITIES_EX</a>
+

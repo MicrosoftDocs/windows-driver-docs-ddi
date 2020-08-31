@@ -8,9 +8,6 @@ ms.assetid: 21841DC6-B95F-4372-BBD1-EA195832A118
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_STOP callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_STOP, MINIPORT_WDI_TAL_TXRX_STOP callback, MiniportWdiTalTxRxStop, MiniportWdiTalTxRxStop callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStop, netvista.miniportwditaltxrxstop
-f1_keywords:
- - "dot11wdi/MiniportWdiTalTxRxStop"
- - "MiniportWdiTalTxRxStop"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiTalTxRxStop
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_TAL_TXRX_STOP
+ - dot11wdi/MINIPORT_WDI_TAL_TXRX_STOP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiTalTxRxStop
 ---
 
 # MINIPORT_WDI_TAL_TXRX_STOP callback function
 
 
 ## -description
-
 
 The 
   MiniportWdiTalTxRxStop handler function stops TXRX communication between the TAL and the target.
@@ -56,18 +55,12 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 ## -parameters
 
-
-
-
 ### -param MiniportTalTxRxContext 
+
 [in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_wdi_data_handlers">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
@@ -78,7 +71,4 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-general-datapath-interfaces">WDI general datapath interfaces</a>
- 
-
- 
 

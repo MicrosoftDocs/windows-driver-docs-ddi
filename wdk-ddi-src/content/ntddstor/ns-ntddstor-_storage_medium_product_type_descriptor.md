@@ -8,9 +8,6 @@ ms.assetid: AC0C09DF-EFD4-457B-8ABC-C60890D3AF6A
 ms.date: 03/29/2018
 keywords: ["STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, storage.storage_medium_product_type_descriptor
-f1_keywords:
- - "ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
- - "STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 targetos: Windows
 req.typenames: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+f1_keywords:
+ - _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - ntddstor/_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 ---
 
 # _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure
@@ -46,26 +50,19 @@ req.typenames: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_T
 
 ## -description
 
-
 Used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the product type of a storage device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Contains the size of this structure, in bytes, as defined by <code>Sizeof(STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR)</code>. The value of this member will change as members are added to 
-      the structure. 
-
+      the structure.
 
 ### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
-
 
 ### -field MediumProductType
 
@@ -117,16 +114,8 @@ Specifies the product type of the storage device.
 <td>Vendor-specific</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
- 
-
- 
 

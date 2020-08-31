@@ -7,9 +7,6 @@ ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
 ms.date: 05/10/2018
 keywords: ["DXGK_GDIARG_STRETCHBLT structure"]
 ms.keywords: BLACKONWHITE, DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, WHITEONBLACK, _DXGK_GDIARG_STRETCHBLT, d3dkmddi/DXGK_GDIARG_STRETCHBLT, display.dxgk_gdiarg_stretchblt
-f1_keywords:
- - "d3dkmddi/DXGK_GDIARG_STRETCHBLT"
- - "DXGK_GDIARG_STRETCHBLT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_GDIARG_STRETCHBLT
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_GDIARG_STRETCHBLT
+f1_keywords:
+ - _DXGK_GDIARG_STRETCHBLT
+ - d3dkmddi/_DXGK_GDIARG_STRETCHBLT
+ - DXGK_GDIARG_STRETCHBLT
+ - d3dkmddi/DXGK_GDIARG_STRETCHBLT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_GDIARG_STRETCHBLT
 ---
 
 # _DXGK_GDIARG_STRETCHBLT structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_GDIARG_STRETCHBLT
 
 ## -description
 
-
 The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hardware-accelerated stretch <a href="https://docs.microsoft.com/windows-hardware/drivers/">bit-block transfer (bitblt)</a> operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SrcRect
 
@@ -65,7 +62,6 @@ This rectangle is mapped to the destination rectangle defined by <b>DstRect</b>.
 
 For more information, see the Remarks section.
 
-
 ### -field DstRect
 
 [in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
@@ -74,32 +70,23 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 
 For more information, see the Remarks section.
 
-
 ### -field DstAllocationIndex
 
 [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
-     
-
 
 ### -field SrcAllocationIndex
 
 [in] An index of the element in the allocation list that specifies the allocation that is referenced by the SrcRect source rectangle.
-     
-
 
 ### -field NumSubRects
 
 The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
 
-
-
 ### -field pSubRects
 
 [in] A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
 
-
 ### -field Mode
-
 
 [in] Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
 		  
@@ -113,34 +100,23 @@ The number of sub-rectangles in the destination surface space that is bounded by
  
 This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
 
-
 ### -field MirrorX
 
 [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
-       
-
 
 ### -field MirrorY
 
 [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
-       
-
 
 ### -field Flags
 
 [in] Optional UINT value that can be used to debug driver code.
-      
-
 
 ### -field SrcPitch
 
 [in] The pitch of the source surface, in bytes.
-     
-
 
 ## -remarks
-
-
 
 The x and y stretch ratios are computed respectively as the ratios of the x and y sizes of the <b>DstRect</b> and <b>SrcRect</b> members.
 
@@ -167,11 +143,7 @@ OR
 int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_alphablend">DXGK_GDIARG_ALPHABLEND</a>
 
@@ -186,7 +158,4 @@ int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

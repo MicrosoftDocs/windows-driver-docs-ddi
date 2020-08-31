@@ -8,9 +8,6 @@ ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.date: 06/27/2019
 keywords: ["FsRtlIsNameInExpression function"]
 ms.keywords: FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
-f1_keywords:
- - "ntifs/FsRtlIsNameInExpression"
- - "FsRtlIsNameInExpression"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,23 +25,27 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlIsNameInExpression
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlIsNameInExpression
+ - ntifs/FsRtlIsNameInExpression
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlIsNameInExpression
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlIsNameInExpression function
+
 
 ## -description
 
@@ -53,18 +54,22 @@ The **FsRtlIsNameInExpression** routine determines whether a Unicode string matc
 ## -parameters
 
 ### -param Expression 
+
 [in]
 A pointer to the pattern string. Can contain wildcard characters. If *IgnoreCase* is **TRUE**, *Expression* must be uppercase.
 
 ### -param Name 
+
 [in]
 A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
 ### -param IgnoreCase 
+
 [in]
 Set to **TRUE** for case-insensitive matching, **FALSE** otherwise.
 
 ### -param UpcaseTable 
+
 [in, optional]
 Optional pointer to uppercase character table to use for case-insensitive matching. If this value is not supplied, the default system uppercase character table is used.
 
@@ -96,3 +101,4 @@ In low resource conditions, **FsRtlIsNameInExpression** can raise a structured e
 [**FsRtlIsDbcsInExpression**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression)
 
 [UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+

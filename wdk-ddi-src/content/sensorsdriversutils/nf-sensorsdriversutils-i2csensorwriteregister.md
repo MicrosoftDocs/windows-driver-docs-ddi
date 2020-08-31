@@ -5,39 +5,38 @@ description: The I2CSensorWriteRegister function writes to the device register(s
 ms.assetid: 066fda1c-63c2-451b-bead-6787eeaf49b0
 ms.date: 04/19/2018
 keywords: ["I2CSensorWriteRegister function"]
-f1_keywords:
- - "sensorsdriversutils/I2CSensorWriteRegister"
- - "I2CSensorWriteRegister"
 ms.keywords: I2CSensorWriteRegister
 req.header: sensorsdriversutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- I2CSensorWriteRegister
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
-
+f1_keywords:
+ - I2CSensorWriteRegister
+ - sensorsdriversutils/I2CSensorWriteRegister
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - I2CSensorWriteRegister
+product:
+ - Windows
 ---
 
 # I2CSensorWriteRegister function
@@ -72,3 +71,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

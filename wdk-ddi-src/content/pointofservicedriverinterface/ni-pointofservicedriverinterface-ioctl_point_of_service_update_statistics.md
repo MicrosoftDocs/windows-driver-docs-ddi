@@ -8,9 +8,6 @@ ms.assetid: 94c8d49a-5136-49f3-a313-74c032502f1f
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS"
- - "IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
 ---
 
 # IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL
+
 
 ## -description
 
@@ -80,3 +81,4 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
 
 - STATUS_NOT_SUPPORTED: Statistic updating or reporting is not supported.
+

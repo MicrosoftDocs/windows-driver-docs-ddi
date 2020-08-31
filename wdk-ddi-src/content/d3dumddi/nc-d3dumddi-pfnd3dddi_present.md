@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/Present"
- - "Present"
+ - PFND3DDDI_PRESENT
+ - d3dumddi/PFND3DDDI_PRESENT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_PRESENT callback function
+
 
 ## -description
 

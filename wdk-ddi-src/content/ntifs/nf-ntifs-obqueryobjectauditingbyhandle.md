@@ -8,9 +8,6 @@ ms.assetid: 7287b060-ab4c-48af-b5cd-67bae7bc1a73
 ms.date: 04/16/2018
 keywords: ["ObQueryObjectAuditingByHandle function"]
 ms.keywords: ObQueryObjectAuditingByHandle, ObQueryObjectAuditingByHandle function [Installable File System Drivers], ifsk.obqueryobjectauditingbyhandle, ntifs/ObQueryObjectAuditingByHandle, obref_1fb6339d-82a7-4c0f-bcaf-001886ebd898.xml
-f1_keywords:
- - "ntifs/ObQueryObjectAuditingByHandle"
- - "ObQueryObjectAuditingByHandle"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- ObQueryObjectAuditingByHandle
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObQueryObjectAuditingByHandle
+ - ntifs/ObQueryObjectAuditingByHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - ObQueryObjectAuditingByHandle
 ---
 
 # ObQueryObjectAuditingByHandle function
@@ -46,25 +46,15 @@ req.typenames:
 
 ## -description
 
-
-The <b>ObQueryObjectAuditingByHandle</b> routine is reserved for system use. 
-
+The <b>ObQueryObjectAuditingByHandle</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param Handle
 
 <p>Reserved.</p>
 
-
 ### -param GenerateOnClose
 
 Reserved.
-
-
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
 ms.date: 02/15/2018
 keywords: ["IRB structure"]
 ms.keywords: "*PIRB, 1394/IRB, 1394/PIRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IEEE.irb, IRB, IRB structure [Buses], PIRB, PIRB structure pointer [Buses], _IRB"
-f1_keywords:
- - "1394/IRB"
- - "IRB"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB
 targetos: Windows
 req.typenames: IRB, *PIRB
+f1_keywords:
+ - _IRB
+ - 1394/_IRB
+ - PIRB
+ - 1394/PIRB
+ - IRB
+ - 1394/IRB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB
 ---
 
 # _IRB structure
@@ -46,34 +50,25 @@ req.typenames: IRB, *PIRB
 
 ## -description
 
-
 Drivers use this structure to pass most requests to IEEE 1394 bus driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FunctionNumber
 
 Determines the type of request. Each request type is documented under the value of <b>FunctionNumber</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IEEE 1394 Bus I/O Requests</a>.
 
-
 ### -field Flags
 
-Reserved. Drivers must set this member to zero with one exception. When making a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537647">REQUEST_ISOCH_ALLOCATE_BANDWIDTH</a> request, the caller can set the IRB_FLAG_ALLOW_REMOTE_FREE flag in <b>Flags</b> to indicate that the system should free the bandwidth handle memory pointed to be <b>IsochAllocateBandwidth.hBandwidth</b>. If caller does not set this flag, then caller will have to free the bandwidth handle. 
-
+Reserved. Drivers must set this member to zero with one exception. When making a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537647">REQUEST_ISOCH_ALLOCATE_BANDWIDTH</a> request, the caller can set the IRB_FLAG_ALLOW_REMOTE_FREE flag in <b>Flags</b> to indicate that the system should free the bandwidth handle memory pointed to be <b>IsochAllocateBandwidth.hBandwidth</b>. If caller does not set this flag, then caller will have to free the bandwidth handle.
 
 ### -field BusReserved
 
-Reserved. 
-
+Reserved.
 
 ### -field PortReserved
 
-Reserved. 
-
+Reserved.
 
 ### -field u
 
@@ -211,207 +206,84 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
 <td>ReceivePhyPackets</td>
 </tr>
 </table>
- 
-
 
 ### -field u.AsyncRead
 
- 
-
-
 ### -field u.AsyncWrite
-
- 
-
 
 ### -field u.AsyncLock
 
- 
-
-
 ### -field u.IsochAllocateBandwidth
-
- 
-
 
 ### -field u.IsochAllocateChannel
 
- 
-
-
 ### -field u.IsochAllocateResources
-
- 
-
 
 ### -field u.IsochAttachBuffers
 
- 
-
-
 ### -field u.IsochDetachBuffers
-
- 
-
 
 ### -field u.IsochFreeBandwidth
 
- 
-
-
 ### -field u.IsochFreeChannel
-
- 
-
 
 ### -field u.IsochFreeResources
 
- 
-
-
 ### -field u.IsochListen
-
- 
-
 
 ### -field u.IsochQueryCurrentCycleTime
 
- 
-
-
 ### -field u.IsochQueryResources
-
- 
-
 
 ### -field u.IsochSetChannelBandwidth
 
- 
-
-
 ### -field u.IsochStop
-
- 
-
 
 ### -field u.IsochTalk
 
- 
-
-
 ### -field u.IsochModifyStreamProperties
-
- 
-
 
 ### -field u.AllocateAddressRange
 
- 
-
-
 ### -field u.FreeAddressRange
-
- 
-
 
 ### -field u.GetLocalHostInformation
 
- 
-
-
 ### -field u.Get1394AddressFromDeviceObject
-
- 
-
 
 ### -field u.Control
 
- 
-
-
 ### -field u.GetMaxSpeedBetweenDevices
-
- 
-
 
 ### -field u.SetDeviceXmitProperties
 
- 
-
-
 ### -field u.SetLocalHostProperties
-
- 
-
 
 ### -field u.GetConfigurationInformation
 
- 
-
-
 ### -field u.GetConfigRom
-
- 
-
 
 ### -field u.BusReset
 
- 
-
-
 ### -field u.GetGenerationCount
-
- 
-
 
 ### -field u.SendPhyConfigurationPacket
 
- 
-
-
 ### -field u.SendPhyPacket
-
- 
-
 
 ### -field u.ReceivePhyPackets
 
- 
-
-
 ### -field u.GetSpeedTopologyMaps
-
- 
-
 
 ### -field u.BusResetNotification
 
- 
-
-
 ### -field u.AsyncStream
-
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>Parameters->Others.Arguments1</b> member of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">IOCTL_1394_CLASS</a> IRP points to an IRB structure. The bus driver uses the IRB to determine the type of request made by the device driver, and also to return the results of the operation. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IEEE 1394 Bus I/O Requests</a> for a description of the behavior of each request.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">IOCTL_1394_CLASS</a>
- 
-
- 
 

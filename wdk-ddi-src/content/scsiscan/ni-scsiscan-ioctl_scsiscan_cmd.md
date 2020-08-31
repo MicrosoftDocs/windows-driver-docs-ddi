@@ -8,9 +8,6 @@ ms.assetid: af1f4107-f537-4b94-b9b4-c97429878fef
 ms.date: 05/03/2018
 keywords: ["IOCTL_SCSISCAN_CMD IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_CMD, IOCTL_SCSISCAN_CMD control, IOCTL_SCSISCAN_CMD control code [Imaging Devices], image.ioctl_scsiscan_cmd, scsiscan/IOCTL_SCSISCAN_CMD, stifnc_da087c9b-101a-47c9-b546-ba887b05dca0.xml
-f1_keywords:
- - "scsiscan/IOCTL_SCSISCAN_CMD"
- - "IOCTL_SCSISCAN_CMD"
 req.header: scsiscan.h
 req.include-header: Scsiscan.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Scsiscan.h
-api_name:
-- IOCTL_SCSISCAN_CMD
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SCSISCAN_CMD
+ - scsiscan/IOCTL_SCSISCAN_CMD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Scsiscan.h
+api_name:
+ - IOCTL_SCSISCAN_CMD
 ---
 
 # IOCTL_SCSISCAN_CMD IOCTL
+
 
 ## -description
 
@@ -153,3 +154,4 @@ if (SRB_STATUS_SUCCESS != SRB_STATUS(SrbStatus))
 [WdfIoTargetSendInternalIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
 
 [WdfIoTargetSendIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)
+

@@ -8,9 +8,6 @@ ms.assetid: e7ce1448-223f-4aea-b5e7-70a3b2f58e77
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION control, IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION control code [Buses], buses.ioctl_internal_usb_submit_idle_notification, usbioctl/IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, usbirp_4a27792b-b726-4741-9d59-5e2b70a3b1c6.xml
-f1_keywords:
- - "usbioctl/IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION"
- - "IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbioctl.h
-api_name:
-- IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
+ - usbioctl/IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbioctl.h
+api_name:
+ - IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
 ---
 
 # IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION IOCTL
+
 
 ## -description
 
@@ -90,3 +91,4 @@ None.
 ### -status-block
 
 The bus or port driver sets **Irp->IoStatus.Status** to STATUS_SUCCESS or the appropriate error status.
+

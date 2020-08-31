@@ -8,9 +8,6 @@ ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
 ms.date: 04/30/2018
 keywords: ["RtlQueryRegistryValues function"]
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
-f1_keywords:
- - "wdm/RtlQueryRegistryValues"
- - "RtlQueryRegistryValues"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- RtlQueryRegistryValues
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlQueryRegistryValues
+ - wdm/RtlQueryRegistryValues
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - RtlQueryRegistryValues
 ---
 
 # RtlQueryRegistryValues function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlQueryRegistryValues</b> routine allows the caller to query several values from the registry subtree with a single call.
-
 
 ## -parameters
 
-
-
-
 ### -param RelativeTo 
+
 [in]
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined path as one of the following.
 
@@ -151,15 +147,14 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Path 
+
 [in]
 Pointer to either an absolute registry path or a path relative to the known location specified by the <i>RelativeTo</i> parameter. Note that the names of keys in such a path must be known to the caller, including the last key in the path. If the RTL_REGISTRY_HANDLE flag is specified, this parameter is a registry handle for an already opened key to be queried directly.
 
-
 ### -param QueryTable 
+
 [in, out]
 Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a> function that will be called for each value name that exists in the registry. The table must be terminated with a <b>NULL</b> table entry, which is a table entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The structure for query table entries is defined as follows:
 
@@ -339,20 +334,17 @@ A pointer to the default value to be returned if no matching key is found and th
 
 Specifies the length, in bytes, of the <b>DefaultData</b> member. If <b>DefaultType</b> is REG_SZ, REG_EXPAND_SZ, or REG_MULTI_SZ, callers can optionally specify zero to indicate <b>RtlQueryRegistryValues</b> should compute the length based on the default data value. If <b>DefaultType</b> = REG_NONE, this member is ignored.
 
-
 ### -param Context 
+
 [in, optional]
 Specifies the value passed as the <i>Context</i> parameter of a <i>QueryRoutine</i> function each time it is called.
 
-
 ### -param Environment 
+
 [in, optional]
 Pointer to the environment used when expanding variable values in REG_EXPAND_SZ registry values, or a <b>NULL</b> pointer (optional).
 
-
 ## -returns
-
-
 
 <b>RtlQueryRegistryValues</b> returns an NTSTATUS code. The possible return values include:
 
@@ -421,12 +413,7 @@ The RTL_QUERY_REGISTRY_TYPECHECK flag is set and the type of the stored registry
 
 <b>RtlQueryRegistryValues</b> also terminates processing of the table if the <i>QueryRoutine</i> function for a table entry returns an NTSTATUS error code, and returns that error code as its result. (With one exception: If <i>QueryRoutine</i> returns STATUS_BUFFER_TOO_SMALL, the error code is ignored.)
 
-
-
-
 ## -remarks
-
-
 
 The caller specifies an initial key path and a table. The table contains one or more entries that describe the key values and subkey names in which the caller is interested. The table is terminated by an entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The table must be allocated from nonpaged pool.
 
@@ -536,13 +523,7 @@ If an error occurs at any stage of processing of the query table, <b>RtlQueryReg
 
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a> for a description of the possible REG_<i>XXX</i> values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a>
 
@@ -565,7 +546,4 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
- 
-
- 
 

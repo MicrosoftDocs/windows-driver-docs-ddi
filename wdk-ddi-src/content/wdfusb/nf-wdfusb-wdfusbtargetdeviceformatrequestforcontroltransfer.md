@@ -8,9 +8,6 @@ ms.assetid: 72ba7550-9153-4ff7-8478-c9cc71151a25
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceFormatRequestForControlTransfer function"]
 ms.keywords: DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, WdfUsbTargetDeviceFormatRequestForControlTransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer method, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer
-f1_keywords:
- - "wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer"
- - "WdfUsbTargetDeviceFormatRequestForControlTransfer"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetDeviceFormatRequestForControlTransfer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetDeviceFormatRequestForControlTransfer
+ - wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetDeviceFormatRequestForControlTransfer
 ---
 
 # WdfUsbTargetDeviceFormatRequestForControlTransfer function
@@ -49,45 +49,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceFormatRequestForControlTransfer</b> method builds a USB control transfer request, but it does not send the request.
 
-
 ## -parameters
 
-
-
-
 ### -param UsbDevice 
+
 [in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-
 ### -param Request 
+
 [in]
 A handle to a framework request object. For more information, see the following Remarks section.
 
-
 ### -param SetupPacket 
+
 [in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure that describes the control transfer.
 
-
 ### -param TransferMemory 
+
 [in, optional]
 A handle to a framework memory object that describes either an input or an output buffer, depending on the device-specific command. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ### -param TransferOffset 
-[in, optional]
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the buffer that <i>TransferMemory</i> specifies. If this pointer is <b>NULL</b>, the framework uses the entire buffer. 
 
+[in, optional]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the buffer that <i>TransferMemory</i> specifies. If this pointer is <b>NULL</b>, the framework uses the entire buffer.
 
 ## -returns
-
-
 
 <b>WdfUsbTargetDeviceFormatRequestForControlTransfer</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -136,14 +129,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use <b>WdfUsbTargetDeviceFormatRequestForControlTransfer</b>, followed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>, to send a USB control transfer request either synchronously or asynchronously. Alternatively, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously">WdfUsbTargetDeviceSendControlTransferSynchronously</a> method to send a request synchronously. 
 
@@ -262,12 +248,7 @@ if (WdfRequestSend(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a>
 
@@ -278,7 +259,4 @@ if (WdfRequestSend(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
- 
-
- 
 

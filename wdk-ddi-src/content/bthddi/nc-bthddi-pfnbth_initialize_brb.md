@@ -8,9 +8,6 @@ ms.assetid: 0b822d28-edaa-40cc-a678-112a356d9022
 ms.date: 04/27/2018
 keywords: ["PFNBTH_INITIALIZE_BRB callback function"]
 ms.keywords: BthInitializeBrb, BthInitializeBrb callback function [Bluetooth Devices], PFNBTH_INITIALIZE_BRB, PFNBTH_INITIALIZE_BRB callback, bltooth.bthinitializebrb, bth_funcs_11ec7e91-bfca-404f-a029-a3fbb8c56d47.xml, bthddi/BthInitializeBrb
-f1_keywords:
- - "bthddi/BthInitializeBrb"
- - "BthInitializeBrb"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- bthddi.h
-api_name:
-- BthInitializeBrb
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNBTH_INITIALIZE_BRB
+ - bthddi/PFNBTH_INITIALIZE_BRB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - bthddi.h
+api_name:
+ - BthInitializeBrb
 ---
 
 # PFNBTH_INITIALIZE_BRB callback function
@@ -46,32 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>BthInitializeBrb</i> function initializes a Bluetooth request block (BRB) allocated on the local
   stack.
 
-
 ## -parameters
 
-
-
-
 ### -param pBrb 
+
 [in, out]
 Pointer to the BRB to initialize.
 
-
 ### -param brbType 
+
 [in]
 Specifies a value from the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
-
 ## -remarks
-
-
 
 Profile drivers should use 
     <i>BthInitializeBrb</i> for stack based allocations, such as declaring variables at the beginning of a
@@ -86,20 +79,11 @@ Profile drivers obtain a pointer to the
     <a href="https://docs.microsoft.com/previous-versions/ff536769(v=vs.85)">Querying for Bluetooth
     Interfaces</a> for more information about querying the Bluetooth driver stack.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
- 
-
- 
 

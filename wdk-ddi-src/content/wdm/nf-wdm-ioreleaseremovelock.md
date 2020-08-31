@@ -8,9 +8,6 @@ ms.assetid: 75cf8262-8cb4-428e-b18e-b80121c6390e
 ms.date: 04/30/2018
 keywords: ["IoReleaseRemoveLock macro"]
 ms.keywords: IoReleaseRemoveLock, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, kernel.ioreleaseremovelock, wdm/IoReleaseRemoveLock
-f1_keywords:
- - "wdm/IoReleaseRemoveLock"
- - "IoReleaseRemoveLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoReleaseRemoveLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoReleaseRemoveLock
+ - wdm/IoReleaseRemoveLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoReleaseRemoveLock
 ---
 
 # IoReleaseRemoveLock macro
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoReleaseRemoveLock</b> routine releases a remove lock acquired with a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param RemoveLock 
-[in]
-Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller passed to a previous call to <b>IoAcquireRemoveLock</b>. 
 
+[in]
+Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller passed to a previous call to <b>IoAcquireRemoveLock</b>.
 
 ### -param Tag 
+
 [in]
 Pointer to a caller-supplied tag that was passed to a previous call to <b>IoAcquireRemoveLock</b>. 
 
@@ -68,11 +64,7 @@ If a driver specified a <i>Tag</i> when it acquired the lock, the driver must sp
 
 If the call to <b>IoAcquireRemoveLock</b> did not specify a <i>Tag</i>, then this parameter is <b>NULL</b>.
 
-
-
 ## -remarks
-
-
 
 A driver calls <b>IoReleaseRemoveLock</b> when it has completed the I/O operation for which it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>.
 
@@ -90,15 +82,9 @@ Each call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wd
 
 <b>IoReleaseRemoveLock</b> decrements the count of outstanding acquisitions of the remove lock. If the count goes to zero and the driver has received an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request, <b>IoReleaseRemoveLock</b> sets an internal event. When a driver is ready to delete a device object, it calls a similar routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>. The driver makes this call only in its dispatch code for an <b>IRP_MN_REMOVE_DEVICE</b> request. The <b>IoReleaseRemoveLockAndWait</b> routine does not return until <b>IoReleaseRemoveLock</b> sets the event that indicates the acquisition count is zero. After <b>IoReleaseRemoveLockAndWait</b> returns, the driver can safely detach and delete the device object.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>
 
@@ -109,7 +95,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>
- 
-
- 
 

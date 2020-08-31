@@ -8,9 +8,6 @@ ms.assetid: B142BB21-D70E-4BA2-B2C1-60468FA8378E
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_GET_NEXT_EVENT IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_NEXT_EVENT, IOCTL_NFCSE_GET_NEXT_EVENT control, IOCTL_NFCSE_GET_NEXT_EVENT control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NEXT_EVENT, nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT, nfpdrivers.ioctl_nfcse_get_next_event
-f1_keywords:
- - "nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT"
- - "IOCTL_NFCSE_GET_NEXT_EVENT"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- IOCTL_NFCSE_GET_NEXT_EVENT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFCSE_GET_NEXT_EVENT
+ - nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - IOCTL_NFCSE_GET_NEXT_EVENT
 ---
 
 # IOCTL_NFCSE_GET_NEXT_EVENT IOCTL
@@ -46,58 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_NFCSE_GET_NEXT_EVENT</b> 
-   control code returns the next event available in the buffer, or if there are no more buffered events remains pending until a secure element event is available. The event details must then be returned to the caller.  
-
+   control code returns the next event available in the buffer, or if there are no more buffered events remains pending until a secure element event is available. The event details must then be returned to the caller.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
 
 None
 
-
 ### -output-buffer
 
-
-                A <b>DWORD</b> indicating the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_event_info">SECURE_ELEMENT_EVENT_INFO</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_EVENT_INFO</b> structure itself. 
-
+                A <b>DWORD</b> indicating the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_event_info">SECURE_ELEMENT_EVENT_INFO</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_EVENT_INFO</b> structure itself.
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -117,12 +87,8 @@ None
 <td>This code is returned when the output buffer is non-zero, or when the GUID of the secure element does not match any of the enumerated IDs.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following are requirements that the driver must adhere to.<ul>
 <li>
@@ -160,7 +126,4 @@ If a received secure element event info is too large to be copied into this IOCT
 
 </li>
 </ul>
-
-
-
 

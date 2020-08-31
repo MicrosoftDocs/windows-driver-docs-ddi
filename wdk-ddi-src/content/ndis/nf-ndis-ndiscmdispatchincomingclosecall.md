@@ -8,9 +8,6 @@ ms.assetid: f0f1221d-3d95-4d4c-acd0-6bcd653241c4
 ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingCloseCall function"]
 ms.keywords: NdisCmDispatchIncomingCloseCall, NdisCmDispatchIncomingCloseCall function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_877248ee-cc60-430c-836c-d2580627363f.xml, ndis/NdisCmDispatchIncomingCloseCall, netvista.ndiscmdispatchincomingclosecall
-f1_keywords:
- - "ndis/NdisCmDispatchIncomingCloseCall"
- - "NdisCmDispatchIncomingCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmDispatchIncomingCloseCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmDispatchIncomingCloseCall
+ - ndis/NdisCmDispatchIncomingCloseCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmDispatchIncomingCloseCall
 ---
 
 # NdisCmDispatchIncomingCloseCall function
@@ -47,45 +47,38 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmDispatchIncomingCloseCall</b> tells a client to tear down an active or offered call, usually
   because the call manager has received a request from the network to close the connection.
 
-
 ## -parameters
 
-
-
-
 ### -param CloseStatus 
+
 [in]
 Specifies a CM-determined NDIS_STATUS_<i>XXX</i>, indicating the reason for the disconnect request. During normal network operations, a call
      manager passes NDIS_STATUS_SUCCESS to indicate that it has received a request, initiated by the remote
      party, to close an active call.
 
-
 ### -param NdisVcHandle 
+
 [in]
 Specifies the handle to the VC of the call being disconnected. This handle was supplied by NDIS
      when the VC was originally created, whether by the call manager or client, with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>.
 
-
 ### -param Buffer 
+
 [in, optional]
 Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
      data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>
 
-
 ### -param Size 
+
 [in]
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 In the course of normal network operations, a stand-alone CM calls 
     <b>NdisCmDispatchIncomingCloseCall</b> with the 
@@ -131,13 +124,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingcall">
     NdisMCmDispatchIncomingCall</a> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
@@ -167,7 +154,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_status_ex">ProtocolCoStatusEx</a>
- 
-
- 
 

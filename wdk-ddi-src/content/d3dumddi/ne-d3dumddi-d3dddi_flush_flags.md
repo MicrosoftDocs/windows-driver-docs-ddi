@@ -8,9 +8,6 @@ ms.assetid: FE5EF59E-3B37-4947-A7E8-5CBE6137D07D
 ms.date: 05/10/2018
 keywords: ["D3DDDI_FLUSH_FLAGS enumeration"]
 ms.keywords: D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS, d3dumddi/D3DDDI_TRIM_MEMORY, display.d3dddi_flush_flags
-f1_keywords:
- - "d3dumddi/D3DDDI_FLUSH_FLAGS"
- - "D3DDDI_FLUSH_FLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDI_FLUSH_FLAGS
 targetos: Windows
 req.typenames: D3DDDI_FLUSH_FLAGS
+f1_keywords:
+ - D3DDDI_FLUSH_FLAGS
+ - d3dumddi/D3DDDI_FLUSH_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDI_FLUSH_FLAGS
 ---
 
 # D3DDDI_FLUSH_FLAGS enumeration
@@ -46,14 +46,9 @@ req.typenames: D3DDDI_FLUSH_FLAGS
 
 ## -description
 
-
 In calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_flush1">pfnFlush1</a> function,  indicates whether the driver should free as much memory as possible. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DDDI_TRIM_MEMORY
 
@@ -63,14 +58,7 @@ The driver must no longer call <a href="https://docs.microsoft.com/windows-hardw
 
 Supported starting with Windows 8.1.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_flush1">pfnFlush1</a>
- 
-
- 
 

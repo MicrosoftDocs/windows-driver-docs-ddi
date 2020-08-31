@@ -8,9 +8,6 @@ ms.assetid: 0bd5966d-66a6-4548-8c84-7cedced2cf40
 ms.date: 05/02/2018
 keywords: ["MINIPORT_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: MINIPORT_SEND_NET_BUFFER_LISTS, MINIPORT_SEND_NET_BUFFER_LISTS callback, MiniportSendNetBufferLists, MiniportSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSendNetBufferLists, ndis_sendrcv_ref_2af2df46-99cf-4bae-9dea-12358fb0b489.xml, netvista.miniportsendnetbufferlists
-f1_keywords:
- - "ndis/MiniportSendNetBufferLists"
- - "MiniportSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportSendNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_SEND_NET_BUFFER_LISTS
+ - ndis/MINIPORT_SEND_NET_BUFFER_LISTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportSendNetBufferLists
 ---
 
 # MINIPORT_SEND_NET_BUFFER_LISTS callback function
 
 
 ## -description
-
 
 NDIS calls the 
    <i>MiniportSendNetBufferLists</i> function to transmit network data that is contained in a linked list of 
@@ -55,17 +54,15 @@ NDIS calls the
 
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterContext 
+
 [in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information about an adapter.
 
-
 ### -param NetBufferList 
+
 [in]
 A pointer to the first 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
@@ -73,16 +70,16 @@ A pointer to the first
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each NET_BUFFER structure
      in the list maps to a chain of MDLs. The MDLs contain the network data.
 
-
 ### -param PortNumber 
+
 [in]
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter.
 
-
 ### -param SendFlags 
+
 [in]
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
@@ -108,10 +105,7 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
        criteria to the overlying driver. This flag has no affect on checking for loopback, or looping back,
        on other bindings.
 
-
 ## -remarks
-
-
 
 <i>MiniportSendNetBufferLists</i> is a required function for miniport drivers. When an overlying driver
     calls the 
@@ -226,15 +220,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -262,7 +250,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 0c92e8d5-eb98-4789-a221-ebf891cd3876
 ms.date: 02/20/2018
 keywords: ["WHEA_AER_ROOTPORT_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml"
-f1_keywords:
- - "ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR"
- - "WHEA_AER_ROOTPORT_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_AER_ROOTPORT_DESCRIPTOR
 targetos: Windows
 req.typenames: WHEA_AER_ROOTPORT_DESCRIPTOR, *PWHEA_AER_ROOTPORT_DESCRIPTOR
+f1_keywords:
+ - _WHEA_AER_ROOTPORT_DESCRIPTOR
+ - ntddk/_WHEA_AER_ROOTPORT_DESCRIPTOR
+ - PWHEA_AER_ROOTPORT_DESCRIPTOR
+ - ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR
+ - WHEA_AER_ROOTPORT_DESCRIPTOR
+ - ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_AER_ROOTPORT_DESCRIPTOR
 ---
 
 # _WHEA_AER_ROOTPORT_DESCRIPTOR structure
@@ -46,44 +50,33 @@ req.typenames: WHEA_AER_ROOTPORT_DESCRIPTOR, *PWHEA_AER_ROOTPORT_DESCRIPTOR
 
 ## -description
 
-
 The WHEA_AER_ROOTPORT_DESCRIPTOR structure describes a PCI Express (PCIe) root port error source.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_AERROOTPORT.
 
-
 ### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
-
 
 ### -field Reserved
 
 Reserved for system use.
 
-
 ### -field BusNumber
 
 The root port's bus number.
-
 
 ### -field Slot
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the root port is located in the system.
 
-
 ### -field DeviceControl
 
 The contents of the root port's Device Control register.
-
 
 ### -field Flags
 
@@ -153,52 +146,35 @@ Reserved for system use.
 
 A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
 
-
 ### -field UncorrectableErrorMask
 
 The contents of the root port's Uncorrectable Error Mask register.
-
 
 ### -field UncorrectableErrorSeverity
 
 The contents of the root port's Uncorrectable Error Severity register.
 
-
 ### -field CorrectableErrorMask
 
 The contents of the root port's Correctable Error Mask register.
-
 
 ### -field AdvancedCapsAndControl
 
 The contents of the root port's Advanced Error Capabilities and Control register.
 
-
 ### -field RootErrorCommand
 
 The contents of the root port's Root Error Command register.
 
-
 ## -remarks
-
-
 
 A WHEA_AER_ROOTPORT_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a>
- 
-
- 
 

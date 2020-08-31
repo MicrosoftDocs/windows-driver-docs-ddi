@@ -8,9 +8,6 @@ ms.assetid: b0616c88-1304-4d39-b7bd-e7d1355a9de6
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPActions2::EDTCancelStopDevice"]
 ms.keywords: EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework], EDTCancelStopDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTCancelStopDevice method, IWDTFPNPActions2.EDTCancelStopDevice, IWDTFPNPActions2::EDTCancelStopDevice, dtf.iwdtfpnpactions2_edtcancelstopdevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelStopDevice
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPActions2.EDTCancelStopDevice"
- - "IWDTFPNPActions2.EDTCancelStopDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfpnpaction.h
-api_name:
-- IWDTFPNPActions2.EDTCancelStopDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPActions2::EDTCancelStopDevice
+ - wdtfpnpaction/IWDTFPNPActions2::EDTCancelStopDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfpnpaction.h
+api_name:
+ - IWDTFPNPActions2.EDTCancelStopDevice
 ---
 
 # IWDTFPNPActions2::EDTCancelStopDevice
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
-
 
 ## -parameters
 
-
-
-
 ### -param pbSuccess 
+
 [out, retval]
 True if the operation succeeds; otherwise, false.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
 method must be called for the target device before calling this method.</div>
@@ -84,16 +72,7 @@ It is possible for the filter drivers that are loaded above the helper driver
 to fail the query IRP as well. In that case, the helper driver will indicate this condition 
 by setting EDTRS_QueryStopVetoed in ppResult.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>
- 
-
- 
 

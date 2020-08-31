@@ -8,9 +8,6 @@ ms.assetid: 6EDF95F1-AE00-4931-9B18-E316D56D57AF
 ms.date: 05/02/2018
 keywords: ["NDK_FN_SEND callback function"]
 ms.keywords: NDK_FN_SEND, NDK_FN_SEND callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_SILENT_SUCCESS, NdkSend, NdkSend callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSend, netvista.ndk_fn_send
-f1_keywords:
- - "ndkpi/NdkSend"
- - "NdkSend"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkSend
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_SEND
+ - ndkpi/NDK_FN_SEND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkSend
 ---
 
 # NDK_FN_SEND callback function
@@ -46,39 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkSend</i> (<i>NDK_FN_SEND</i>) function posts a send request on an NDK queue pair (QP).
-
 
 ## -parameters
 
-
-
-
 ### -param pNdkQp 
+
 [in]
 A pointer to an NDK queue pair (QP) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
-
 ### -param RequestContext 
+
 [in, optional]
 A context value to be returned in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
-
-
 
 ### -param NDK_SGE
 
 An array of SGE structures (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>)  that represent the buffers holding the data to send.
 
-
 ### -param nSge 
+
 [in]
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
-
 ### -param Flags 
+
 [in]
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
@@ -148,8 +142,6 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 ## -returns
 
-
-
 The 
      <i>NdkSend</i> function returns one of the following NTSTATUS codes.
 
@@ -193,14 +185,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>NdkSend</i> posts a send request on a queue pair (QP).
 
@@ -211,12 +197,7 @@ An NDK consumer can use this flag when issuing multiple, related send requests. 
 <div class="alert"><b>Note</b>  Requests that complete  with an error always match the <b>NDK_CQ_NOTIFY_SOLICITED</b> notification type.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-deferred-processing-scheme">NDKPI Deferred Processing Scheme</a>
 
@@ -239,7 +220,4 @@ An NDK consumer can use this flag when issuing multiple, related send requests. 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>
- 
-
- 
 

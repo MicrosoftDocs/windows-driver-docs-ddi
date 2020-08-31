@@ -8,9 +8,6 @@ ms.assetid: b0cc6f5b-04ca-40ca-ad30-466859c5aaa6
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceKeyCollection::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,GetCount method, IPortableDeviceKeyCollection.GetCount, IPortableDeviceKeyCollection::GetCount, IPortableDeviceKeyCollectionGetCount, portabledevicetypes/IPortableDeviceKeyCollection::GetCount, wpddk.iportabledevicekeycollection_getcount
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceKeyCollection.GetCount"
- - "IPortableDeviceKeyCollection.GetCount"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceKeyCollection.GetCount
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceKeyCollection::GetCount
+ - portabledevicetypes/IPortableDeviceKeyCollection::GetCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceKeyCollection.GetCount
 ---
 
 # IPortableDeviceKeyCollection::GetCount
@@ -47,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves the number of keys in this collection.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pcElems 
+
 [in]
 Pointer to a <b>DWORD</b> that contains the number of keys in the collection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,27 +88,12 @@ A required pointer argument was <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection Interface</a>
- 
-
- 
 

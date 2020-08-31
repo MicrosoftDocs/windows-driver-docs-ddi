@@ -8,9 +8,6 @@ ms.assetid: D09A124A-82F6-4B0A-B60F-E60EB54B0EC1
 ms.date: 05/07/2018
 keywords: ["UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure"]
 ms.keywords: "*PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], UDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, buses.udecx_usb_device_plug_in_options, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
-f1_keywords:
- - "udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
- - "UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UdecxUsbDevice.h
-api_name:
-- UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
+f1_keywords:
+ - _UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ - udecxusbdevice/_UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ - PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ - udecxusbdevice/PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ - UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ - udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UdecxUsbDevice.h
+api_name:
+ - UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 ---
 
 # _UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure
@@ -46,37 +50,23 @@ req.typenames: UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTI
 
 ## -description
 
-
 Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecx_usb_device_plug_in_options_init">UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size of this structure.
 
-
 ### -field Usb20PortNumber
 
 The USB 2.0 port number.
-
 
 ### -field Usb30PortNumber
 
 The USB 2.0 port number.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceplugin">UdecxUsbDevicePlugIn</a>
- 
-
- 
 

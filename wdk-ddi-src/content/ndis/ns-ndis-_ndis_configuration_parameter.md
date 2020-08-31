@@ -8,9 +8,6 @@ ms.assetid: 80250799-4263-43c0-85d5-f1c1c1fb0bae
 ms.date: 05/02/2018
 keywords: ["NDIS_CONFIGURATION_PARAMETER structure"]
 ms.keywords: "*PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_PARAMETER, ndis/NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, netvista.ndis_configuration_parameter"
-f1_keywords:
- - "ndis/NDIS_CONFIGURATION_PARAMETER"
- - "NDIS_CONFIGURATION_PARAMETER"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_CONFIGURATION_PARAMETER
 targetos: Windows
 req.typenames: NDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER
+f1_keywords:
+ - _NDIS_CONFIGURATION_PARAMETER
+ - ndis/_NDIS_CONFIGURATION_PARAMETER
+ - PNDIS_CONFIGURATION_PARAMETER
+ - ndis/PNDIS_CONFIGURATION_PARAMETER
+ - NDIS_CONFIGURATION_PARAMETER
+ - ndis/NDIS_CONFIGURATION_PARAMETER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_CONFIGURATION_PARAMETER
 ---
 
 # _NDIS_CONFIGURATION_PARAMETER structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER
 
 ## -description
 
-
 The NDIS_CONFIGURATION_PARAMETER structure contains the data and type of a named entry in the
   registry.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ParameterType
 
@@ -71,7 +70,6 @@ For successful calls to the
      <b>ParameterType</b> member value is 
      <b>NdisParameterInteger</b>.
 
-
 ### -field ParameterData
 
 A union that contains the value of the given named entry. If ParameterType is a string type, this
@@ -82,14 +80,12 @@ A union that contains the value of the given named entry. If ParameterType is a 
 
 This union contains the following members:
 
-
 ### -field ParameterData.IntegerData
 
 A ULONG value that is used when the 
       <b>ParameterType</b> member is set to 
       <b>NdisParameterInteger</b> or 
       <b>NdisParameterHexInteger</b>.
-
 
 ### -field ParameterData.StringData
 
@@ -98,7 +94,6 @@ An NDIS_STRING value that is used when the
       <b>NdisParameterString</b> or 
       <b>NdisParameterMultiString</b>.
 
-
 ### -field ParameterData.BinaryData
 
 A 
@@ -106,10 +101,7 @@ A
       <b>ParameterType</b> member is set to 
       <b>NdisParameterBinary</b>.
 
-
 ## -remarks
-
-
 
 To read parameters in the registry, an NDIS driver can call the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function. If
@@ -123,13 +115,7 @@ To write parameters to the registry, an NDIS driver can call the
     <i>ParameterValue</i> parameter of 
     <b>NdisWriteConfiguration</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-binary_data">BINARY_DATA</a>
 
@@ -148,7 +134,4 @@ To write parameters to the registry, an NDIS driver can call the
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

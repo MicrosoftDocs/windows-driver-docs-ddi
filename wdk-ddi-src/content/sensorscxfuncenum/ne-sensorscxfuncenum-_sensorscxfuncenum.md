@@ -5,34 +5,37 @@ description: The _SENSORSCXFUNCENUM enumeration contains a list of all WDF API f
 ms.assetid: 818344e1-f99a-40a5-ae64-ab49d86530af
 ms.date: 04/19/2018
 keywords: ["SENSORSCXFUNCENUM enumeration"]
-f1_keywords:
- - "sensorscxfuncenum/_SENSORSCXFUNCENUM"
- - "_SENSORSCXFUNCENUM"
 ms.keywords: _SENSORSCXFUNCENUM, SENSORSCXFUNCENUM,
 req.header: sensorscxfuncenum.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: SENSORSCXFUNCENUM
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- sensorscxfuncenum.h
-api_name:
-- _SENSORSCXFUNCENUM
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _SENSORSCXFUNCENUM
+ - sensorscxfuncenum/_SENSORSCXFUNCENUM
+ - SENSORSCXFUNCENUM
+ - sensorscxfuncenum/SENSORSCXFUNCENUM
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sensorscxfuncenum.h
+api_name:
+ - _SENSORSCXFUNCENUM
+product:
+ - Windows
 ---
 
 # _SENSORSCXFUNCENUM enumeration
+
 
 ## -description
 
@@ -79,3 +82,4 @@ The number of entries in the table.
 ## -remarks
 
 ## -see-also
+

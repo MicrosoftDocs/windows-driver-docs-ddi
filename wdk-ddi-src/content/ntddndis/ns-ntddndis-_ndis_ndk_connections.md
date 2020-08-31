@@ -8,9 +8,6 @@ ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.date: 05/02/2018
 keywords: ["NDIS_NDK_CONNECTIONS structure"]
 ms.keywords: NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, ntddndis/NDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS
-f1_keywords:
- - "ntddndis/NDIS_NDK_CONNECTIONS"
- - "NDIS_NDK_CONNECTIONS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_NDK_CONNECTIONS
 targetos: Windows
 req.typenames: NDIS_NDK_CONNECTIONS
+f1_keywords:
+ - _NDIS_NDK_CONNECTIONS
+ - ntddndis/_NDIS_NDK_CONNECTIONS
+ - NDIS_NDK_CONNECTIONS
+ - ntddndis/NDIS_NDK_CONNECTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_NDK_CONNECTIONS
 ---
 
 # _NDIS_NDK_CONNECTIONS structure
@@ -46,14 +48,9 @@ req.typenames: NDIS_NDK_CONNECTIONS
 
 ## -description
 
-
 The <b>NDIS_NDK_CONNECTIONS</b> structure describes the NDK connections that are active on a miniport adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,27 +64,19 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-
 
 ### -field Flags
 
- 
-
-
 ### -field Count
 
-The number of elements in the connection array that is passed in the <b>Connections</b> member. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a> structure. 
-
+The number of elements in the connection array that is passed in the <b>Connections</b> member. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a> structure.
 
 ### -field NDConnectionsMappedtoTCPConnections
 
 A BOOLEAN value that specifies how the connections are mapped. If the RDMA technology for the NDK provider requires the provider to map ND connections to TCP connections, the NDK provider must set the <b>NDConnectionsMappedtoTCPConnections</b> member to TRUE. Otherwise, <b>NDConnectionsMappedtoTCPConnections</b> is FALSE.
 
-
 ### -field Connections
 
-A variable-sized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a> structures where the size of the array is determined by the number of connections being returned. The <b>Count</b> member  specifies the number of elements in the connection array. 
-
+A variable-sized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a> structures where the size of the array is determined by the number of connections being returned. The <b>Count</b> member  specifies the number of elements in the connection array.
 
 ## -remarks
-
-
 
 The <b>NDIS_NDK_CONNECTIONS</b> structure is returned with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-connections">OID_NDK_CONNECTIONS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
@@ -107,12 +96,7 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a>
 
@@ -123,7 +107,4 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-connections">OID_NDK_CONNECTIONS</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 12a8062a-6d4b-4757-a076-56aeb5e4e48c
 ms.date: 05/02/2018
 keywords: ["NdisMCompleteDmaTransfer macro"]
 ms.keywords: NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, ndis/NdisMCompleteDmaTransfer, netvista.ndismcompletedmatransfer
-f1_keywords:
- - "ndis/NdisMCompleteDmaTransfer"
- - "NdisMCompleteDmaTransfer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCompleteDmaTransfer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCompleteDmaTransfer
+ - ndis/NdisMCompleteDmaTransfer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCompleteDmaTransfer
 ---
 
 # NdisMCompleteDmaTransfer macro
@@ -46,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMCompleteDmaTransfer</b> function indicates that a system DMA transfer operation has completed. It
   resets the system DMA controller in preparation for further DMA transfers.
 
-
 ## -parameters
-
-
-
 
 ### -param _S
 
@@ -72,7 +67,6 @@ The data has been transferred and flushed to host memory or to the device to mai
 
 The DMA controller was released but the data transfer might be incoherent.
 
-
 ### -param _H
 
 The handle returned when the 
@@ -81,24 +75,20 @@ The handle returned when the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">
      NdisMRegisterDmaChannel</a> function.
 
-
 ### -param _B
 
 A pointer to the buffer descriptor previously passed to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetupdmatransfer">NdisMSetupDmaTransfer</a>.
-
 
 ### -param _O
 
 The byte offset at which the transfer began. This value also was passed to 
      <b>NdisMSetupDmaTransfer</b>.
 
-
 ### -param _L
 
 The length in bytes of the transfer. This value also was passed to 
      <b>NdisMSetupDmaTransfer</b>.
-
 
 ### -param _M_
 
@@ -106,20 +96,12 @@ The length in bytes of the transfer. This value also was passed to
 
 ## -remarks
 
-
-
 <b>NdisMCompleteDmaTransfer</b> must be called with 
     <i>WriteToDevice</i> set to <b>TRUE</b> before the transferred data is considered present in the NIC's memory. 
     <b>NdisMCompleteDmaTransfer</b> must be called with 
     <i>WriteToDevice</i> set to <b>FALSE</b> before the transferred data can be read from host memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -130,7 +112,4 @@ The length in bytes of the transfer. This value also was passed to
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetupdmatransfer">NdisMSetupDmaTransfer</a>
- 
-
- 
 

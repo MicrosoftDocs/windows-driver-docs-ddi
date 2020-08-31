@@ -8,9 +8,6 @@ ms.assetid: 5519aec9-9a02-4571-8809-fa8273269ea5
 ms.date: 07/28/2020
 keywords: ["PCW_MASK_INFORMATION structure"]
 ms.keywords: "*PPCW_MASK_INFORMATION, PCW_MASK_INFORMATION, PCW_MASK_INFORMATION structure [Driver Development Tools], PPCW_MASK_INFORMATION, PPCW_MASK_INFORMATION structure pointer [Driver Development Tools], _PCW_MASK_INFORMATION, devtest.pcw_mask_information, km_pcw_44887cd4-4c18-4c6e-9168-5e89f37e970a.xml, wdm/PCW_MASK_INFORMATION, wdm/PPCW_MASK_INFORMATION"
-f1_keywords:
- - "wdm/PCW_MASK_INFORMATION"
- - "PCW_MASK_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PCW_MASK_INFORMATION
 targetos: Windows
 req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
+f1_keywords:
+ - _PCW_MASK_INFORMATION
+ - wdm/_PCW_MASK_INFORMATION
+ - PPCW_MASK_INFORMATION
+ - wdm/PPCW_MASK_INFORMATION
+ - PCW_MASK_INFORMATION
+ - wdm/PCW_MASK_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PCW_MASK_INFORMATION
 ---
 
 # PCW_MASK_INFORMATION structure
+
 
 ## -description
 
@@ -80,3 +85,4 @@ If this field is non-NULL, it is an initialized event object that will be signal
 [PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
 
 [_PCW_CALLBACK_INFORMATION structure](ns-wdm-_pcw_callback_information.md)
+

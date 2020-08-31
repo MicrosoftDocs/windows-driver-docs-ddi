@@ -8,9 +8,6 @@ ms.assetid: 1d577588-72cf-44f2-b1bb-ebab0ee52fd6
 ms.date: 04/30/2018
 keywords: ["IoGetConfigurationInformation function"]
 ms.keywords: IoGetConfigurationInformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, ntddk/IoGetConfigurationInformation
-f1_keywords:
- - "ntddk/IoGetConfigurationInformation"
- - "IoGetConfigurationInformation"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetConfigurationInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetConfigurationInformation
+ - ntddk/IoGetConfigurationInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetConfigurationInformation
 ---
 
 # IoGetConfigurationInformation function
@@ -46,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetConfigurationInformation</b> routine returns a pointer to the I/O manager's global configuration information structure, which contains the current values for how many physical disk, floppy, CD-ROM, tape, SCSI HBA, serial, and parallel devices have device objects created to represent them by drivers as they are loaded.
 
-
 ## -returns
-
-
 
 <b>IoGetConfigurationInformation</b> returns a pointer to the configuration information structure. This structure is defined as follows:
 
@@ -107,11 +103,7 @@ The <b>IoGetConfigurationInformation</b> routine returns a pointer to the I/O ma
 </tr>
 </table></span></div>
 
-
-
 ## -remarks
-
-
 
 Certain types of device drivers can use the configuration information structure's values to construct device object names with appropriate digit suffixes when each driver creates its device objects. Note that the digit suffix for device object names is a zero-based count, while the counts maintained in the configuration information structure represent the number of device objects of a particular type already created. That is, the configuration information counts are one-based.
 
@@ -121,13 +113,7 @@ The system-supplied SCSI port driver supplies the count of SCSI HBAs present in 
 
 The configuration information structure also contains a value indicating whether an already loaded driver has claimed either of the "AT" disk I/O address ranges.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalAssignSlotResources</a>
 
@@ -150,7 +136,4 @@ The configuration information structure also contains a value indicating whether
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
- 
-
- 
 

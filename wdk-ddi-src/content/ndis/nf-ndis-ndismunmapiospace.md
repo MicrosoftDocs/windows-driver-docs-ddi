@@ -8,9 +8,6 @@ ms.assetid: 068232d3-b160-4090-b72c-63d9a31c1567
 ms.date: 05/02/2018
 keywords: ["NdisMUnmapIoSpace function"]
 ms.keywords: NdisMUnmapIoSpace, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, ndis/NdisMUnmapIoSpace, netvista.ndismunmapiospace
-f1_keywords:
- - "ndis/NdisMUnmapIoSpace"
- - "NdisMUnmapIoSpace"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMUnmapIoSpace
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMUnmapIoSpace
+ - ndis/NdisMUnmapIoSpace
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMUnmapIoSpace
 ---
 
 # NdisMUnmapIoSpace function
@@ -47,37 +47,30 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMUnmapIoSpace</b> releases a virtual range mapped by an initialization-time call to 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param MiniportAdapterHandle 
+
 [in]
 Specifies the handle originally input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-
 ### -param VirtualAddress 
+
 [in]
 Specifies the base virtual address for the mapped range that was returned by 
      <b>NdisMMapIoSpace</b>.
 
-
 ### -param Length 
+
 [in]
 Specifies the number of bytes in the range that was mapped with 
      <b>NdisMMapIoSpace</b>.
 
-
 ## -remarks
-
-
 
 When a miniport driver is unloading, any memory range that it mapped during initialization with 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a> must be released with a
@@ -94,13 +87,7 @@ The
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> and 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
@@ -111,7 +98,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>
- 
-
- 
 

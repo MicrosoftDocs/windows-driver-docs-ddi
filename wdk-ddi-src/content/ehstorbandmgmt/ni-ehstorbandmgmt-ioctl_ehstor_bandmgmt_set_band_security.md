@@ -8,9 +8,6 @@ ms.assetid: CBA94AF4-649D-47C9-879B-4B939DE32BE2
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, storage.ioctl_ehstor_bandmgmt_set_band_security
-f1_keywords:
- - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY"
- - "IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorBandMgmt.h
-api_name:
-- IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
+ - ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorBandMgmt.h
+api_name:
+ - IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
 ---
 
 # IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY IOCTL
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The security properties of bands in a band-managed storage device are modified with the <b>IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY</b> request.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -61,39 +56,21 @@ The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="htt
 
 If the <b>AuthKeyOffset</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure. Also, if a new authentication key is not given, no updated key structure is included.
 
-
 ### -input-buffer-length
 
 <i>Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer, which must be at least <b>sizeof</b> (SET_BAND_SECURITY_PARAMETERS)   + 2 * <b>sizeof</b>(AUTH_KEY) + <b>sizeof</b>(BAND_SECURITY_INFO) when all input structures are required.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -133,12 +110,8 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>Communication failed. The storage device might be incompatible with security protocols. </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Read and write locking and unlocking for bands are set with this IOCTL in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structure included as input in the system buffer. 
 
@@ -150,13 +123,7 @@ As a special case, this IOCTL can be used to notify the silo driver that a band 
 
 The changes made to the band table by this request are committed to the device atomically before the IOCTL request completes. Therefore, it is guaranteed that the band is modified with all of its properties set or no properties set at all should a system or power failure occur.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>
 
@@ -167,7 +134,4 @@ The changes made to the band table by this request are committed to the device a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a>
- 
-
- 
 

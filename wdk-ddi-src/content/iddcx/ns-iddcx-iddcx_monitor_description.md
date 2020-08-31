@@ -8,9 +8,6 @@ ms.assetid: 3ef7ffca-9192-4578-8397-c7fbb2ea2239
 ms.date: 05/10/2018
 keywords: ["IDDCX_MONITOR_DESCRIPTION structure"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION
-f1_keywords:
- - "iddcx/IDDCX_MONITOR_DESCRIPTION"
- - "IDDCX_MONITOR_DESCRIPTION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDDCX_MONITOR_DESCRIPTION
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDDCX_MONITOR_DESCRIPTION
+ - iddcx/IDDCX_MONITOR_DESCRIPTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDDCX_MONITOR_DESCRIPTION
 ---
 
 # IDDCX_MONITOR_DESCRIPTION structure
@@ -46,39 +46,23 @@ req.typenames:
 
 ## -description
 
-
 Gives information about the current monitor description.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-
                      Total size of the structure.
-                 
-
 
 ### -field Type
 
-
                      Type of this monitor description.
-                 
-
 
 ### -field DataSize
 
-
                      The size of the monitor description data.
-                 
-
 
 ### -field pData
 
-
                      Pointer to the monitor description data.
-                 
 

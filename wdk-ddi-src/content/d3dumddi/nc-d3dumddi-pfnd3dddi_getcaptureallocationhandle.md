@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/GetCaptureAllocationHandle"
- - "GetCaptureAllocationHandle"
+ - PFND3DDDI_GETCAPTUREALLOCATIONHANDLE
+ - d3dumddi/PFND3DDDI_GETCAPTUREALLOCATIONHANDLE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_GETCAPTUREALLOCATIONHANDLE callback function
+
 
 ## -description
 

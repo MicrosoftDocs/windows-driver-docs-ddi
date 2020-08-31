@@ -8,9 +8,6 @@ ms.assetid: f3801fdf-c300-4863-afb9-49fad011dc4c
 ms.date: 04/30/2018
 keywords: ["PoStartDeviceBusy function"]
 ms.keywords: PoStartDeviceBusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.postartdevicebusy, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, wdm/PoStartDeviceBusy
-f1_keywords:
- - "wdm/PoStartDeviceBusy"
- - "PoStartDeviceBusy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoStartDeviceBusy
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoStartDeviceBusy
+ - wdm/PoStartDeviceBusy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoStartDeviceBusy
 ---
 
 # PoStartDeviceBusy function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoStartDeviceBusy</b> routine marks the start of a period of time in which the device is busy.
-
 
 ## -parameters
 
-
-
-
 ### -param IdlePointer 
+
 [in, out]
 A pointer to an idle counter. This is a pointer value that was previously returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterdeviceforidledetection">PoRegisterDeviceForIdleDetection</a> routine. Because <b>PoRegisterDeviceForIdleDetection</b> might return a <b>NULL</b> pointer, the caller must verify that the pointer is non-<b>NULL</b> before it calls <b>PoStartDeviceBusy</b>.
 
-
 ## -remarks
-
-
 
 The <b>PoStartDeviceBusy</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poenddevicebusy">PoEndDeviceBusy</a> routines mark the start and end of a time period in which a device is busy. Each call to <b>PoStartDeviceBusy</b> must be followed by a corresponding call to <b>PoEndDeviceBusy</b>.
 
@@ -70,13 +63,7 @@ For each device, the <a href="https://docs.microsoft.com/windows-hardware/driver
 
 Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines to reset the idle counter, you can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetdevicebusyex">PoSetDeviceBusyEx</a> routine (or the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a> macro). To disable the idle counter during an extended busy period, a driver can call the <b>PoRegisterDeviceForIdleDetection</b> routine to disable and enable idle notifications at the start and end of the busy period. However, <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> are typically more convenient to use for this purpose, and you should consider using these routines in new code that you write for Windows 7 and later versions of Windows.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poenddevicebusy">PoEndDeviceBusy</a>
 
@@ -87,7 +74,4 @@ Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a>
- 
-
- 
 

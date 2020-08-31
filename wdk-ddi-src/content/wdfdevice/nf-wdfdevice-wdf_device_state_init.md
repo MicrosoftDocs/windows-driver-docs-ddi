@@ -8,9 +8,6 @@ ms.assetid: f8c040aa-bfa0-4b74-ad0a-8796f1cfc4b8
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_STATE_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_702c7f79-a50f-4115-ba93-82388ccbf063.xml, WDF_DEVICE_STATE_INIT, WDF_DEVICE_STATE_INIT function, kmdf.wdf_device_state_init, wdf.wdf_device_state_init, wdfdevice/WDF_DEVICE_STATE_INIT
-f1_keywords:
- - "wdfdevice/WDF_DEVICE_STATE_INIT"
- - "WDF_DEVICE_STATE_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WDF_DEVICE_STATE_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_DEVICE_STATE_INIT
+ - wdfdevice/WDF_DEVICE_STATE_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WDF_DEVICE_STATE_INIT
 ---
 
 # WDF_DEVICE_STATE_INIT function
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_STATE_INIT</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure.
 
-
 ## -parameters
 
-
-
-
 ### -param PnpDeviceState 
+
 [out]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure.
 
-
 ## -remarks
-
-
 
 The <b>WDF_DEVICE_STATE_INIT</b> function initializes all of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed members to <b>WdfUseDefault</b>.
 
@@ -75,15 +68,7 @@ For a code example that uses <b>WDF_DEVICE_STATE_INIT</b>, see <a href="https://
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a>
- 
-
- 
 

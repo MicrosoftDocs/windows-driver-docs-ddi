@@ -8,9 +8,6 @@ ms.assetid: 2ca1fdbe-efd3-4607-aab1-751e6d5d025b
 ms.date: 05/02/2018
 keywords: ["NDIS_PM_WOL_PATTERN structure"]
 ms.keywords: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, netvista.ndis_pm_wol_pattern, ntddndis/NDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN"
-f1_keywords:
- - "ntddndis/NDIS_PM_WOL_PATTERN"
- - "NDIS_PM_WOL_PATTERN"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_PM_WOL_PATTERN
 targetos: Windows
 req.typenames: NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN
+f1_keywords:
+ - _NDIS_PM_WOL_PATTERN
+ - ntddndis/_NDIS_PM_WOL_PATTERN
+ - PNDIS_PM_WOL_PATTERN
+ - ntddndis/PNDIS_PM_WOL_PATTERN
+ - NDIS_PM_WOL_PATTERN
+ - ntddndis/NDIS_PM_WOL_PATTERN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_PM_WOL_PATTERN
 ---
 
 # _NDIS_PM_WOL_PATTERN structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN
 
 ## -description
 
-
 The <b>NDIS_PM_WOL_PATTERN</b> structure defines a wake-on-LAN (WOL) pattern.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -79,11 +78,9 @@ Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field Priority
 
@@ -114,20 +111,17 @@ Specifies a normal priority WOL pattern.
 
 Specifies the highest priority WOL pattern.
 
-
 ### -field WoLPacketType
 
 An 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_pm_wol_packet">NDIS_PM_WOL_PACKET</a> enumeration value that
      specifies the type of the WOL packet.
 
-
 ### -field FriendlyName
 
 An 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_counted_string">NDIS_PM_COUNTED_STRING</a> structure
      that contains the user-readable description of the WOL packet.
-
 
 ### -field PatternId
 
@@ -137,7 +131,6 @@ A ULONG value that contains an NDIS-provided value that identifies the WOL patte
      to the underlying NDIS drivers or completes the request to the overlying driver, NDIS sets 
      <b>PatternId</b> to a value that is unique among the WOL patterns on a network adapter.
 
-
 ### -field NextWoLPatternOffset
 
 A ULONG value that contains an offset, in bytes. The 
@@ -146,95 +139,77 @@ A ULONG value that contains an offset, in bytes. The
      <b>InformationBuffer</b>) of the next NDIS_PM_WOL_PATTERN structure in the list. If 
      <b>NextWoLPatternOffset</b> is zero, the current structure is the last structure in the list.
 
-
 ### -field WoLPattern
 
 A union that contains the following member structures.
-
 
 ### -field WoLPattern.IPv4TcpSynParameters
 
 A structure that contains IPv4 TCP SYN information. This structure contains the following
       members:
 
-
 ### -field WoLPattern.IPv4TcpSynParameters.Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field WoLPattern.IPv4TcpSynParameters.IPv4SourceAddress
 
 The IPv4 source address in the TCP SYN packet.
 
-
 ### -field WoLPattern.IPv4TcpSynParameters.IPv4DestAddress
 
 The IPv4 destination address in the TCP SYN packet.
-
 
 ### -field WoLPattern.IPv4TcpSynParameters.TCPSourcePortNumber
 
 The TCP source port number in the TCP SYN packet.
 
-
 ### -field WoLPattern.IPv4TcpSynParameters.TCPDestPortNumber
 
 The TCP destination port number in the TCP SYN packet.
-
 
 ### -field WoLPattern.IPv6TcpSynParameters
 
 A structure that contains IPv6 TCP SYN information. This structure contains the following
       members:
 
-
 ### -field WoLPattern.IPv6TcpSynParameters.Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field WoLPattern.IPv6TcpSynParameters.IPv6SourceAddress
 
 The IPv6 source address in the TCP SYN packet.
 
-
 ### -field WoLPattern.IPv6TcpSynParameters.IPv6DestAddress
 
 The IPv6 destination address in the TCP SYN packet.
-
 
 ### -field WoLPattern.IPv6TcpSynParameters.TCPSourcePortNumber
 
 The TCP source port in the TCP SYN packet.
 
-
 ### -field WoLPattern.IPv6TcpSynParameters.TCPDestPortNumber
 
 The TCP destination port in the TCP SYN packet.
-
 
 ### -field WoLPattern.EapolRequestIdMessageParameters
 
 A structure that contains 802.1X EAPOL request identity message parameters. This structure
       contains the following members:
 
-
 ### -field WoLPattern.EapolRequestIdMessageParameters.Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field WoLPattern.WoLBitMapPattern
 
 A structure that specifies a WOL bitmap pattern. For more information about bitmap patterns, see
       the Remarks section. The structure has the following members:
 
-
 ### -field WoLPattern.WoLBitMapPattern.Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field WoLPattern.WoLBitMapPattern.MaskOffset
 
@@ -246,33 +221,22 @@ The mask specifies which bytes in incoming packets should be matched against the
         byte in the incoming packet should not be pattern-matched. If the bit is one, the network adapter compares the
         byte to the incoming packet with the byte specified in the pattern.
 
-
 ### -field WoLPattern.WoLBitMapPattern.MaskSize
 
 The size, in bytes, of the mask.
-
 
 ### -field WoLPattern.WoLBitMapPattern.PatternOffset
 
 The offset, in bytes, for a pattern buffer from the beginning of the NDIS_PM_WOL_PATTERN
        structure.
 
-
 ### -field WoLPattern.WoLBitMapPattern.PatternSize
 
 The size, in bytes, of the pattern.
 
-
 ### -field _WOL_PATTERN
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The NDIS_PM_WOL_PATTERN structure is used in the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a> and 
@@ -306,13 +270,7 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
     NDIS_PM_WOL_IPV6_DEST_ADDR_WILDCARD_ENABLED flags by issuing a set request of the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-parameters">OID_PM_PARAMETERS</a> OID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -331,7 +289,4 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-wol-pattern-list">OID_PM_WOL_PATTERN_LIST</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 55e4c835-88c8-403f-883c-182915aa614d
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_ADAPTER_INIT structure"]
 ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
-f1_keywords:
- - "iddcx/IDARG_OUT_ADAPTER_INIT"
- - "IDARG_OUT_ADAPTER_INIT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_OUT_ADAPTER_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_OUT_ADAPTER_INIT
+ - iddcx/IDARG_OUT_ADAPTER_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_OUT_ADAPTER_INIT
 ---
 
 # IDARG_OUT_ADAPTER_INIT structure
@@ -46,20 +46,11 @@ req.typenames:
 
 ## -description
 
-
 Gives information about the initialized adapter that can be used by the OS to call functions.
-                 
-             
-
 
 ## -struct-fields
 
-
-
-
 ### -field AdapterObject
 
-
                      [out] Handle to the adapter that the driver can use to identify it when calling OS functions.
-                 
 

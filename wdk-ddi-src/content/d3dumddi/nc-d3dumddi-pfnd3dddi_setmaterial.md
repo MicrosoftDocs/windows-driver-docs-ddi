@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetMaterial"
- - "SetMaterial"
+ - PFND3DDDI_SETMATERIAL
+ - d3dumddi/PFND3DDDI_SETMATERIAL
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETMATERIAL callback function
+
 
 ## -description
 

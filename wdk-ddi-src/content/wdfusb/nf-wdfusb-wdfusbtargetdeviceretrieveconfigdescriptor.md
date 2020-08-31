@@ -8,9 +8,6 @@ ms.assetid: 4d22384d-757a-499d-a82c-ae846a6372cc
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceRetrieveConfigDescriptor function"]
 ms.keywords: DFUsbRef_6c3748fe-16c0-4151-8cbd-42c5882475eb.xml, WdfUsbTargetDeviceRetrieveConfigDescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor method, kmdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor
-f1_keywords:
- - "wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor"
- - "WdfUsbTargetDeviceRetrieveConfigDescriptor"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetDeviceRetrieveConfigDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetDeviceRetrieveConfigDescriptor
+ - wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetDeviceRetrieveConfigDescriptor
 ---
 
 # WdfUsbTargetDeviceRetrieveConfigDescriptor function
@@ -49,35 +49,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> method retrieves the USB configuration descriptor for the USB device that is associated with a specified framework USB device object.
 
-
 ## -parameters
 
-
-
-
 ### -param UsbDevice 
+
 [in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-
 ### -param ConfigDescriptor 
+
 [out]
 A pointer to a caller-allocated buffer that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_configuration_descriptor">USB_CONFIGURATION_DESCRIPTOR</a> structure, followed by one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a> structures. This parameter is optional and can be <b>NULL</b>, in which case <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> returns the required buffer length. For more information, see the following Remarks section.
 
-
 ### -param ConfigDescriptorLength 
+
 [in, out]
 A pointer to a location that supplies the length of the buffer that <i>ConfigDescriptor</i> points to. If the pointer that is supplied for <i>ConfigDescriptor</i> is <b>NULL</b>, <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> returns the required buffer length at the location that is pointed to by <i>ConfigDescriptorLength</i>.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -126,14 +119,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> method retrieves all of the specified USB device's configuration information (that is, the configuration descriptor plus any interface or endpoint descriptors that might be present). To learn about the format of this information, see the USB specification.
 
@@ -209,12 +195,7 @@ if (!NT_SUCCESS(ntStatus)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
@@ -237,7 +218,4 @@ if (!NT_SUCCESS(ntStatus)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetdevicedescriptor">WdfUsbTargetDeviceGetDeviceDescriptor</a>
- 
-
- 
 

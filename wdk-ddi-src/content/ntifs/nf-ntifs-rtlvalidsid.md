@@ -8,9 +8,6 @@ ms.assetid: d4579703-0d51-4e23-b458-b2be43951dac
 ms.date: 04/16/2018
 keywords: ["RtlValidSid function"]
 ms.keywords: RtlValidSid, RtlValidSid routine [Installable File System Drivers], ifsk.rtlvalidsid, ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
-f1_keywords:
- - "ntifs/RtlValidSid"
- - "RtlValidSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlValidSid
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlValidSid
+ - ntifs/RtlValidSid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlValidSid
 ---
 
 # RtlValidSid function
@@ -47,42 +47,24 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlValidSid</b> routine validates a security identifier (SID) by verifying that the revision number is within a known range and that the number of subauthorities is less than the maximum. 
-
+The <b>RtlValidSid</b> routine validates a security identifier (SID) by verifying that the revision number is within a known range and that the number of subauthorities is less than the maximum.
 
 ## -parameters
 
-
-
-
 ### -param Sid 
-[in]
-Pointer to the SID structure to validate. 
 
+[in]
+Pointer to the SID structure to validate.
 
 ## -returns
 
-
-
-<b>RtlValidSid</b> returns <b>TRUE</b> if the security descriptor is valid, <b>FALSE</b> otherwise. 
-
-
-
+<b>RtlValidSid</b> returns <b>TRUE</b> if the security descriptor is valid, <b>FALSE</b> otherwise.
 
 ## -remarks
 
-
-
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlequalprefixsid">RtlEqualPrefixSid</a>
 
@@ -109,7 +91,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
- 
-
- 
 

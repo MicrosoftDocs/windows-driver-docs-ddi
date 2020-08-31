@@ -8,9 +8,6 @@ ms.assetid: 09b4f4e7-2688-4d6e-8512-a94c5ce25a79
 ms.date: 05/02/2018
 keywords: ["RILCALLLIST_V1 structure"]
 ms.keywords: "*LPRILCALLLIST_V1, RILCALLLIST_V1, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v1, ntddrilapitypes/RILCALLLIST_V1"
-f1_keywords:
- - "ntddrilapitypes/RILCALLLIST_V1"
- - "RILCALLLIST_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLLIST_V1
 targetos: Windows
 req.typenames: RILCALLLIST_V1, *LPRILCALLLIST_V1
+f1_keywords:
+ - RILCALLLIST_V1
+ - ntddrilapitypes/RILCALLLIST_V1
+ - LPRILCALLLIST_V1
+ - ntddrilapitypes/LPRILCALLLIST_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLLIST_V1
 ---
 
 # RILCALLLIST_V1 structure
@@ -46,17 +48,11 @@ req.typenames: RILCALLLIST_V1, *LPRILCALLLIST_V1
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwNumberOfCalls
-
 
 ### -field rciCallInfo
 

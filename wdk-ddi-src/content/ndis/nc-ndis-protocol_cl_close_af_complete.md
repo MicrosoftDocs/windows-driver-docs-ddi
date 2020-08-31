@@ -8,9 +8,6 @@ ms.assetid: 7597e124-34e4-4326-98b3-c65dbe90ae6f
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_CLOSE_AF_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_CLOSE_AF_COMPLETE, PROTOCOL_CL_CLOSE_AF_COMPLETE callback, ProtocolClCloseAfComplete, ProtocolClCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_27fe2447-59c5-4922-b6be-67911961f0e4.xml, ndis/ProtocolClCloseAfComplete, netvista.protocolclcloseafcomplete
-f1_keywords:
- - "ndis/ProtocolClCloseAfComplete"
- - "ProtocolClCloseAfComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClCloseAfComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_CLOSE_AF_COMPLETE
+ - ndis/PROTOCOL_CL_CLOSE_AF_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClCloseAfComplete
 ---
 
 # PROTOCOL_CL_CLOSE_AF_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolClCloseAfComplete</i> function is used by connection-oriented NDIS clients. All
@@ -57,10 +56,8 @@ The
 
 ## -parameters
 
-
-
-
 ### -param Status 
+
 [in]
 Specifies the final status of the client-initiated request to close the address family, which can
      be one of the following:
@@ -85,17 +82,14 @@ Either the AF has associated VC(s) and/or registered SAP(s) that the client must
        <b>NdisClCloseAddressFamily</b> twice because NDIS discovered that the AF state was marked as
        "closing."
 
-
 ### -param ProtocolAfContext 
+
 [in]
 Specifies the client-supplied handle to its per-AF context area. The client originally set up this
      context area and passed this handle to NDIS with 
      <b>NdisClOpenAddressFamilyEx</b>.
 
-
 ## -remarks
-
-
 
 After ensuring that it has no outstanding VCs and/or registered SAPs on its open address family, a
     client calls 
@@ -146,15 +140,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CL_CLOSE_AF_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_CLOSE_AF_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclcloseaddressfamily">NdisClCloseAddressFamily</a>
 
@@ -182,7 +170,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
 

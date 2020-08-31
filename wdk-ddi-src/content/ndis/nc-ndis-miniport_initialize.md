@@ -8,9 +8,6 @@ ms.assetid: b146fa81-005b-4a6c-962d-4cb023ea790e
 ms.date: 05/02/2018
 keywords: ["MINIPORT_INITIALIZE callback function"]
 ms.keywords: MINIPORT_INITIALIZE, MINIPORT_INITIALIZE callback, MiniportInitializeEx, MiniportInitializeEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_d98605bf-4032-4cfe-8529-2d0bebc9e29e.xml, ndis/MiniportInitializeEx, netvista.miniportinitializeex
-f1_keywords:
- - "ndis/MiniportInitializeEx"
- - "MiniportInitializeEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportInitializeEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_INITIALIZE
+ - ndis/MINIPORT_INITIALIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportInitializeEx
 ---
 
 # MINIPORT_INITIALIZE callback function
 
 
 ## -description
-
 
 NDIS calls a miniport driver's
    <i>MiniportInitializeEx</i> function to initialize a miniport adapter for network I/O operations.
@@ -54,34 +53,29 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
-
-
-
 ### -param NdisMiniportHandle 
+
 [in]
 An NDIS-supplied handle that identifies the miniport adapter that the miniport driver should
      initialize.
 
-
 ### -param MiniportDriverContext 
+
 [in]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The miniport driver passed this context area to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function.
 
-
 ### -param MiniportInitParameters 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_init_parameters">
      NDIS_MINIPORT_INIT_PARAMETERS</a> structure that defines the initialization parameters for the
      miniport adapter.
 
-
 ## -returns
-
-
 
 <i>MiniportInitializeEx</i> can return one of the following status values:
 
@@ -145,14 +139,8 @@ A pointer to an
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS calls 
     <i>MiniportInitializeEx</i> as part of a system PnP operation. Drivers specify the 
@@ -414,15 +402,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_INITIALIZE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_INITIALIZE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -576,7 +558,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
- 
-
- 
 

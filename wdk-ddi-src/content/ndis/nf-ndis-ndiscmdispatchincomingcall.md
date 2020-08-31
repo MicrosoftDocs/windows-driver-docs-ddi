@@ -8,9 +8,6 @@ ms.assetid: 2172aeec-8502-414e-9d01-9292c0eb7ce8
 ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingCall function"]
 ms.keywords: NdisCmDispatchIncomingCall, NdisCmDispatchIncomingCall function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_892a99ac-d4f0-4f4b-9656-a43c99d67aca.xml, ndis/NdisCmDispatchIncomingCall, netvista.ndiscmdispatchincomingcall
-f1_keywords:
- - "ndis/NdisCmDispatchIncomingCall"
- - "NdisCmDispatchIncomingCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmDispatchIncomingCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmDispatchIncomingCall
+ - ndis/NdisCmDispatchIncomingCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmDispatchIncomingCall
 ---
 
 # NdisCmDispatchIncomingCall function
@@ -47,17 +47,13 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmDispatchIncomingCall</b> informs the client of an incoming call on a SAP previously registered by
   that client.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisSapHandle 
+
 [in]
 Specifies the handle identifying the SAP. NDIS set up this handle when the client originally
      called 
@@ -66,24 +62,21 @@ Specifies the handle identifying the SAP. NDIS set up this handle when the clien
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">
      ProtocolCmRegisterSap</a> function.
 
-
 ### -param NdisVcHandle 
+
 [in]
 Specifies the handle identifying the VC, created with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> when the call manager
      processes the incoming call offer directed to this registered SAP.
 
-
 ### -param CallParameters 
+
 [in]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that specifies the
      traffic and media parameters for the VC.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisCmDispatchIncomingCall</b> returns anything other than NDIS_STATUS_PENDING, the call manager
@@ -92,12 +85,7 @@ When
      ProtocolCmIncomingCallComplete</a> function. Otherwise, NDIS calls the CM's 
      <i>ProtocolCmIncomingCallComplete</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 Before calling 
     <b>NdisCmDispatchIncomingCall</b>, a stand-alone call manager has already done the following:
@@ -145,13 +133,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmDispatchIncomingCall</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -208,7 +190,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
    ProtocolCoReceiveNetBufferLists</a>
- 
-
- 
 

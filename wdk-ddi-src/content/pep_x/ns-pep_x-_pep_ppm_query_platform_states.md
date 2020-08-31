@@ -8,9 +8,6 @@ ms.assetid: 488EC668-15B9-4B6F-B8AA-3142DB87D19B
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_QUERY_PLATFORM_STATES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_PLATFORM_STATES, PEP_PPM_QUERY_PLATFORM_STATES, PEP_PPM_QUERY_PLATFORM_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PLATFORM_STATES, PPEP_PPM_QUERY_PLATFORM_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PLATFORM_STATES, kernel.pep_ppm_query_platform_states, pepfx/PEP_PPM_QUERY_PLATFORM_STATES, pepfx/PPEP_PPM_QUERY_PLATFORM_STATES"
-f1_keywords:
- - "pep_x/PEP_PPM_QUERY_PLATFORM_STATES"
- - "PEP_PPM_QUERY_PLATFORM_STATES"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_PPM_QUERY_PLATFORM_STATES
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_PLATFORM_STATES, *PPEP_PPM_QUERY_PLATFORM_STATES
+f1_keywords:
+ - _PEP_PPM_QUERY_PLATFORM_STATES
+ - pep_x/_PEP_PPM_QUERY_PLATFORM_STATES
+ - PPEP_PPM_QUERY_PLATFORM_STATES
+ - pep_x/PPEP_PPM_QUERY_PLATFORM_STATES
+ - PEP_PPM_QUERY_PLATFORM_STATES
+ - pep_x/PEP_PPM_QUERY_PLATFORM_STATES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_PPM_QUERY_PLATFORM_STATES
 ---
 
 # _PEP_PPM_QUERY_PLATFORM_STATES structure
@@ -46,36 +50,19 @@ req.typenames: PEP_PPM_QUERY_PLATFORM_STATES, *PPEP_PPM_QUERY_PLATFORM_STATES
 
 ## -description
 
-
 The <b>PEP_PPM_QUERY_PLATFORM_STATES</b> structure specifies the number of platform idle states the hardware platform supports.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PlatformStateCount
 
 The number of platform idle states supported by the platform.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_GENERAL enumeration"]
 ms.keywords: KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, ks/KSPROPERTY_GENERAL_COMPONENTID, stream.ksproperty_general
-f1_keywords:
- - "ks/KSPROPERTY_GENERAL"
- - "KSPROPERTY_GENERAL"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSPROPERTY_GENERAL
 targetos: Windows
 req.typenames: KSPROPERTY_GENERAL
+f1_keywords:
+ - KSPROPERTY_GENERAL
+ - ks/KSPROPERTY_GENERAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSPROPERTY_GENERAL
 ---
 
 # KSPROPERTY_GENERAL enumeration
@@ -46,14 +46,7 @@ req.typenames: KSPROPERTY_GENERAL
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field KSPROPERTY_GENERAL_COMPONENTID
 

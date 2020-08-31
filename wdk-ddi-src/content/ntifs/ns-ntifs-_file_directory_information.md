@@ -8,9 +8,6 @@ ms.assetid: 012c3178-f3a0-449b-b4a2-91fff4af1a17
 ms.date: 04/16/2018
 keywords: ["FILE_DIRECTORY_INFORMATION structure"]
 ms.keywords: "*PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers], PFILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers], _FILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml, ifsk.file_directory_information, ntifs/FILE_DIRECTORY_INFORMATION, ntifs/PFILE_DIRECTORY_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_DIRECTORY_INFORMATION"
- - "FILE_DIRECTORY_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_DIRECTORY_INFORMATION
 targetos: Windows
 req.typenames: FILE_DIRECTORY_INFORMATION, *PFILE_DIRECTORY_INFORMATION
+f1_keywords:
+ - _FILE_DIRECTORY_INFORMATION
+ - ntifs/_FILE_DIRECTORY_INFORMATION
+ - PFILE_DIRECTORY_INFORMATION
+ - ntifs/PFILE_DIRECTORY_INFORMATION
+ - FILE_DIRECTORY_INFORMATION
+ - ntifs/FILE_DIRECTORY_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_DIRECTORY_INFORMATION
 ---
 
 # _FILE_DIRECTORY_INFORMATION structure
+
 
 ## -description
 
@@ -122,3 +127,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control">IRP_MJ_DIRECTORY_CONTROL</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
+

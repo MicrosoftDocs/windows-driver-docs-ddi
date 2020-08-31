@@ -8,38 +8,42 @@ ms.assetid: bc90a153-e6ff-4736-b625-1260a84bb157
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure"]
 ms.keywords: "*PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI.pci_express_enhanced_capability_header, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure [Buses], PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure pointer [Buses], _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, pci_struct_50b450a2-7198-4021-947b-2c276ca9b274.xml, wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER"
-f1_keywords:
- - "wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER"
- - "PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 targetos: Windows
 req.typenames: PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 req.product: Windows 10 or later.
+f1_keywords:
+ - _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+ - wdm/_PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+ - PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+ - wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+ - PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+ - wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 ---
 
 # _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure
@@ -47,26 +51,9 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 The PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure describes the header for a PCI Express (PCIe) extended capability structure.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER {
-  USHORT CapabilityID;
-  USHORT Version  :4;
-  USHORT Next  :12;
-} PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field CapabilityID
 
@@ -134,27 +121,29 @@ Virtual channel and multi-function virtual channel capability
 
 Root complex register block header capability
 
-
 ### -field Version
 
 The version of the extended capability structure. This member should be set to one for extended capability structures that are based on version 1.1 of the <i>PCIe Specification</i>.
-
 
 ### -field Next
 
 The offset in PCIe device configuration space to the next PCIe capability structure in the linked list of capabilities. If this is the last PCIe capability structure in the list, this member is set to zero.
 
+## -syntax
+
+```cpp
+typedef struct _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER {
+  USHORT CapabilityID;
+  USHORT Version  :4;
+  USHORT Next  :12;
+} PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER;
+```
 
 ## -remarks
-
-
 
 The PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER is included at the beginning of every extended capability structure. Microsoft defines structures for the advanced error reporting capability (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>) and the serial number capability (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_serial_number_capability">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>).
-
-
-
 
 ## -see-also
 
@@ -167,11 +156,4 @@ A PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER is included at the beginning of every e
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_serial_number_capability">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
-
-
-
- 
-
- 
-
 

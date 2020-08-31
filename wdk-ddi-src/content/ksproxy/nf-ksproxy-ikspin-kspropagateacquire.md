@@ -8,9 +8,6 @@ ms.assetid: 059bef5a-1db7-4fd7-a19b-c34df81f4447
 ms.date: 04/23/2018
 keywords: ["IKsPin::KsPropagateAcquire"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPropagateAcquire method, IKsPin.KsPropagateAcquire, IKsPin::KsPropagateAcquire, KsPropagateAcquire, KsPropagateAcquire method [Streaming Media Devices], KsPropagateAcquire method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPropagateAcquire, ksproxy_c3ce0cef-0366-4233-afa5-723f9d3bb4e9.xml, stream.ikspin_kspropagateacquire
-f1_keywords:
- - "ksproxy/IKsPin.KsPropagateAcquire"
- - "IKsPin.KsPropagateAcquire"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPin.KsPropagateAcquire
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPin::KsPropagateAcquire
+ - ksproxy/IKsPin::KsPropagateAcquire
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPin.KsPropagateAcquire
 ---
 
 # IKsPin::KsPropagateAcquire
@@ -46,37 +46,19 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsPropagateAcquire</b> method directs all the pins on the filter to attain the Acquire state. 
-
+The <b>KsPropagateAcquire</b> method directs all the pins on the filter to attain the Acquire state.
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 By using this method, a Communication source pin can direct the sink to which it is connected to change state before the Source. This forces the entire filter to which the sink belongs to change state so that any Acquire can be further propagated if needed.
 
 This method is for proxy use and is not recommended for application use.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
- 
-
- 
 

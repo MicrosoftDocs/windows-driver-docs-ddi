@@ -8,9 +8,6 @@ ms.assetid: 482cec75-8a21-4988-b869-639d019f9460
 ms.date: 05/02/2018
 keywords: ["FwpsNetBufferListRetrieveContext0 function"]
 ms.keywords: FwpsNetBufferListRetrieveContext0, FwpsNetBufferListRetrieveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRetrieveContext0, netvista.fwpsnetbufferlistretrievecontext0, wfp_ref_2_funct_3_fwps_J-Q_63312511-d342-4705-86d9-844c59f42fe3.xml
-f1_keywords:
- - "fwpsk/FwpsNetBufferListRetrieveContext0"
- - "FwpsNetBufferListRetrieveContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsNetBufferListRetrieveContext0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsNetBufferListRetrieveContext0
+ - fwpsk/FwpsNetBufferListRetrieveContext0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsNetBufferListRetrieveContext0
 ---
 
 # FwpsNetBufferListRetrieveContext0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsNetBufferListRetrieveContext0</b> function retrieves the context associated with a network buffer
@@ -55,44 +54,39 @@ The
 
 ## -parameters
 
-
-
-
 ### -param netBufferList 
+
 [in, out]
 A network buffer list that indicates one or more packets of interest to the callout driver. If 
      <i>removeContext</i> is set, the network buffer list returned will have the context removed.
 
-
 ### -param contextTag 
+
 [in]
 A locally unique identifier obtained by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">
      FwpsNetBufferListGetTagForContext0</a> function. This is the context tag used in the initial call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">FwpsNetBufferListAssociateContext0</a>.
 
-
 ### -param removeContext 
+
 [in]
 If set, 
      <b>FwpsNetBufferListRetrieveContext0</b> will remove the context association in addition to retrieving
      the context.
 
-
 ### -param flags 
+
 [in]
 This parameter is reserved for future use and is set to zero.
 
-
 ### -param context 
+
 [out]
 The context assigned to the packet by the callout driver in the initial call to 
      <b>FwpsNetBufferListAssociateContext0</b>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsNetBufferListRetrieveContext0</b> function returns one of the following NTSTATUS codes.
@@ -125,14 +119,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <b>FwpsNetBufferListRetrieveContext0</b> function retrieves a network buffer list that was tagged in
@@ -141,13 +129,7 @@ The
 You can also use this function to remove the context association by setting the 
     <i>removeContext</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">
    FwpsNetBufferListAssociateContext0</a>
@@ -165,7 +147,4 @@ You can also use this function to remove the context association by setting the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
- 
-
- 
 

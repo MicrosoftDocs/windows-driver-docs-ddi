@@ -8,9 +8,6 @@ ms.assetid: 5674317C-6785-46F5-880F-71FAF2CD3C64
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION callback function"]
 ms.keywords: CLIENT_QueryControllerBasicInformation, CLIENT_QueryControllerBasicInformation callback, CLIENT_QueryControllerBasicInformation callback function [Parallel Ports], GPIO.client_querycontrollerbasicinformation, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_QueryControllerBasicInformation
-f1_keywords:
- - "gpioclx/CLIENT_QueryControllerBasicInformation"
- - "CLIENT_QueryControllerBasicInformation"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_QueryControllerBasicInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
+ - gpioclx/GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_QueryControllerBasicInformation
 ---
 
 # GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_QueryControllerBasicInformation</i> event callback function retrieves the hardware attributes of the general-purpose I/O (GPIO) controller.
-
 
 ## -parameters
 
-
-
-
 ### -param Context 
+
 [in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-
 ### -param Information 
+
 [out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a> structure. The <i>CLIENT_QueryControllerBasicInformation</i> function writes the GPIO controller hardware attributes and configuration information into this structure.
 
-
 ## -returns
-
-
 
 The <i>CLIENT_QueryControllerBasicInformation</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function.
 
@@ -123,12 +111,7 @@ The GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type is defined in t
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
@@ -139,7 +122,4 @@ The GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type is defined in t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
- 
-
- 
 

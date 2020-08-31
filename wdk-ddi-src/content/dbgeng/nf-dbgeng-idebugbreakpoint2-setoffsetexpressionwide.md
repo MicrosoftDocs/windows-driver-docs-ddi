@@ -8,9 +8,6 @@ ms.assetid: 1db89a5a-641b-4fca-bd60-217c9be8f19f
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::SetOffsetExpressionWide"]
 ms.keywords: IDebugBreakpoint2 interface [Windows Debugging],SetOffsetExpressionWide method, IDebugBreakpoint2.SetOffsetExpressionWide, IDebugBreakpoint2::SetOffsetExpressionWide, SetOffsetExpressionWide, SetOffsetExpressionWide method [Windows Debugging], SetOffsetExpressionWide method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, debugger.setoffsetexpressionwide
-f1_keywords:
- - "dbgeng/IDebugBreakpoint2.SetOffsetExpressionWide"
- - "IDebugBreakpoint2.SetOffsetExpressionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint2.SetOffsetExpressionWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint2::SetOffsetExpressionWide
+ - dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint2.SetOffsetExpressionWide
 ---
 
 # IDebugBreakpoint2::SetOffsetExpressionWide
@@ -46,24 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetOffsetExpressionWide</b> methods set an expression string that evaluates to the location that triggers a breakpoint.
-
 
 ## -parameters
 
-
-
-
 ### -param Expression 
+
 [in]
 The expression string that evaluates to the location on the target that triggers the breakpoint.  If the engine scannot evaluate the expression (for example, if the expression contains a symbol that cannot be interpreted), the breakpoint is flagged as deferred. (For more information about deferred breakpoints, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.)  For more information about the expression syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
 
-
 ## -returns
-
-
-
 
       This method might return one of the following values:
 
@@ -84,16 +76,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about how to use breakpoints, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
-
-
 

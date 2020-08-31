@@ -8,9 +8,6 @@ ms.assetid: 3E510E2D-AC9B-4F00-B7FD-A67B1F3FEBA7
 ms.date: 04/30/2018
 keywords: ["PCANCEL_ADAPTER_CHANNEL callback function"]
 ms.keywords: CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], PCANCEL_ADAPTER_CHANNEL, PCANCEL_ADAPTER_CHANNEL callback, kernel.canceladapterchannel, wdm/CancelAdapterChannel
-f1_keywords:
- - "wdm/CancelAdapterChannel"
- - "CancelAdapterChannel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- CancelAdapterChannel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCANCEL_ADAPTER_CHANNEL
+ - wdm/PCANCEL_ADAPTER_CHANNEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - CancelAdapterChannel
 ---
 
 # PCANCEL_ADAPTER_CHANNEL callback function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>CancelAdapterChannel</b> routine tries to cancel a pending request to  allocate a DMA channel.
-
 
 ## -parameters
 
-
-
-
 ### -param DmaAdapter 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that is waiting for the pending resource allocation request to be granted. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine, and the caller passed this pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel_ex">AllocateAdapterChannelEx</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a> call that requested the resource allocation.
 
-
 ### -param DeviceObject 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This structure is the physical device object (PDO) that represents the target device for the DMA operation for which the DMA channel was requested.
 
-
 ### -param DmaTransferContext 
+
 [in]
 A pointer to a DMA transfer context. This parameter value must be the same DMA transfer context that was passed to the <b>AllocateAdapterChannelEx</b>, <b>GetScatterGatherListEx</b>, or <b>BuildScatterGatherListEx</b> call that requested the adapter channel allocation.
 
-
 ## -returns
-
-
 
 <b>CancelAdapterChannel</b> returns <b>TRUE</b> if the pending allocation request is successfully canceled. The routine returns <b>FALSE</b> if the request could not be canceled (for example, because the DMA channel was allocated before the request could be canceled).
 
-
-
-
 ## -remarks
-
-
 
 <b>CancelAdapterChannel</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
@@ -113,13 +101,7 @@ Similarly, if a driver calls <b>GetScatterGatherListEx</b> or <b>BuildScatterGat
 </ul>
 <b>CancelAdapterChannel</b> can preemptively cancel future channel allocation requests that use the specified DMA transfer context. For example, if the caller supplies the same DMA transfer context to <b>CancelAdapterChannel</b> and <b>AllocateAdapterChannelEx</b>, and the <b>CancelAdapterChannel</b> call is successful and occurs before the <b>AllocateAdapterChannelEx</b> call, the allocation requested by the <b>AllocateAdapterChannelEx</b> call is automatically canceled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a>
 
@@ -154,7 +136,4 @@ Similarly, if a driver calls <b>GetScatterGatherListEx</b> or <b>BuildScatterGat
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
- 
-
- 
 

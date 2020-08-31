@@ -8,9 +8,6 @@ ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni3::GetPDEVAdjustment"]
 ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices],IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices],GetPDEVAdjustment method, IPrintOemUni3.GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni3.GetPDEVAdjustment"
- - "IPrintOemUni3.GetPDEVAdjustment"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni3.GetPDEVAdjustment
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni3::GetPDEVAdjustment
+ - prcomoem/IPrintOemUni3::GetPDEVAdjustment
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni3.GetPDEVAdjustment
 ---
 
 # IPrintOemUni3::GetPDEVAdjustment
@@ -46,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni3::GetPDEVAdjustment</code> method enables a plug-in to override specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> settings.
 
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
-
 
 ### -param dwAdjustType
 
@@ -100,48 +94,31 @@ Adjust the physical paper size that is reported in the PDEV structure. For more 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuf
 
 Pointer to a structure that contains the planned settings that are used if there is no change. These structures are listed in the preceding table. The plug-in can overwrite the settings in the relevant structure.
 
-
 ### -param cbBuffer
 
 Specifies the size, in bytes, of the structure pointed to by <i>pBuf</i>.
 
-
 ### -param pbAdjustmentDone 
+
 [out]
 Pointer to a memory location that the plug-in sets to <b>TRUE</b> when it actually changes a value in the buffer. This may be used by the driver for optimizations.
 
-
 ## -returns
-
-
 
 The <code>IPrintOemUni3::GetPDEVAdjustment</code> method should return S_OK if it recognizes the adjustment type, and S_FALSE if it does not. If the method fails, it should return E_FAIL. The chain of plug-ins is called until either S_OK or a failure code other than E_NOTIMPL is returned. That is, the chain of plug-ins is called until the first plug-in that is capable of handling the adjustment is found.
 
-
-
-
 ## -remarks
-
-
 
 This function is available in Windows Vista and later.
 
 Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code> to adjust the graphics resolution setting, as reported in the PDEV, to adjust the imageable origin area, or to adjust the physical paper size.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni3">IPrintOemUni3</a>
 
@@ -168,7 +145,4 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_use_true_color">PDEV_USE_TRUE_COLOR</a>
- 
-
- 
 

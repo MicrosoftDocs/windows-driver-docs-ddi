@@ -8,9 +8,6 @@ ms.assetid: c3b67c73-446b-42a8-bc41-2ca42fde3513
 ms.date: 04/30/2018
 keywords: ["IoOpenDeviceRegistryKey function"]
 ms.keywords: IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, wdm/IoOpenDeviceRegistryKey
-f1_keywords:
- - "wdm/IoOpenDeviceRegistryKey"
- - "IoOpenDeviceRegistryKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoOpenDeviceRegistryKey
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoOpenDeviceRegistryKey
+ - wdm/IoOpenDeviceRegistryKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoOpenDeviceRegistryKey
 ---
 
 # IoOpenDeviceRegistryKey function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoOpenDeviceRegistryKey</b> routine returns a handle to a device-specific or a driver-specific registry key for a particular device instance. 
-
+The <b>IoOpenDeviceRegistryKey</b> routine returns a handle to a device-specific or a driver-specific registry key for a particular device instance.
 
 ## -parameters
 
-
-
-
 ### -param DeviceObject 
+
 [in]
 Pointer to the PDO of the device instance for which the registry key is to be opened.
 
-
 ### -param DevInstKeyType 
+
 [in]
 Specifies flags indicating whether to open a device-specific hardware key or a driver-specific software key. The flags also indicate whether the key is relative to the current hardware profile. For more information about hardware and software keys, see [Registry Keys for Drivers](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-registry-trees-and-keys) and [Introduction to Registry Keys for Drivers](https://docs.microsoft.com/windows-hardware/drivers/wdf/introduction-to-registry-keys-for-drivers).
 
@@ -90,16 +86,15 @@ A driver's software key is also called its *driver key* because the registry con
 
 Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. For more information, see [HKLM\SYSTEM\CurrentControlSet\HardwareProfiles Registry Tree](https://docs.microsoft.com/windows-hardware/drivers/install/hklm-system-currentcontrolset-hardwareprofiles-registry-tree).
 
-
 ### -param DesiredAccess 
+
 [in]
 Specifies the [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the access the caller needs to the key. See the [ZwCreateKey](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine for a description of each KEY_*XXX* access right.
 
-
 ### -param DeviceRegKey 
-[out]
-Pointer to a caller-allocated buffer that, on successful return, contains a handle to the requested registry key. 
 
+[out]
+Pointer to a caller-allocated buffer that, on successful return, contains a handle to the requested registry key.
 
 ## -returns
 
@@ -133,14 +128,8 @@ Possibly indicates that the <i>DeviceObject</i> is not a valid PDO.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The driver must call [ZwClose](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwclose) to close the handle returned from this routine when access is no longer required.
 
@@ -150,10 +139,7 @@ User-mode setup applications can access these registry keys by using [device ins
 
 To create registry keys, use <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in an INF file or use [SetupDiCreateDevRegKey](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdicreatedevregkeya) in a setup application.
 
-Callers of **IoOpenDeviceRegistryKey** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread. 
-
-
-
+Callers of **IoOpenDeviceRegistryKey** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
 ## -see-also
 
@@ -164,5 +150,4 @@ Callers of **IoOpenDeviceRegistryKey** must be running at IRQL = PASSIVE_LEVEL i
 [ZwCreateKey](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
  
 [ZwClose](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwclose)
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 7b33a311-7f00-4936-b4a9-727f66c12ef0
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCopyString function"]
 ms.keywords: RtlUnicodeStringCopyString, RtlUnicodeStringCopyString function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopystring, ntstrsafe/RtlUnicodeStringCopyString, safestrings_6c994257-53af-4692-88a9-41b38ffd6bcd.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringCopyString"
- - "RtlUnicodeStringCopyString"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringCopyString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringCopyString
+ - ntstrsafe/RtlUnicodeStringCopyString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringCopyString
 ---
 
 # RtlUnicodeStringCopyString function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlUnicodeStringCopyString</b> function copies a string into a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
-
 
 ## -parameters
 
-
-
-
 ### -param DestinationString 
+
 [out]
 A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>pszSrc </i>parameter points to (excluding the terminating null) is copied into the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of bytes in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH * <b>sizeof</b>(WCHAR).
 
-
 ### -param pszSrc 
+
 [in]
 A pointer to a null-terminated string. This string will be copied into the buffer that the <i>DestinationString </i>parameter's <b>UNICODE_STRING</b> structure points to.
 
-
 ## -returns
-
-
 
 <b>RtlUnicodeStringCopyString</b> returns one of the following NTSTATUS values. 
 
@@ -123,12 +116,7 @@ This <i>error</i> status means that the function received an invalid input param
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlUnicodeStringCopyString</b> function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. The function does not terminate the resultant string with a null character.
 
@@ -136,22 +124,13 @@ If the source and destination strings overlap, the behavior of the function is u
 
 The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcopystringex">RtlUnicodeStringCopyStringEx</a> function.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcopystringex">RtlUnicodeStringCopyStringEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
 

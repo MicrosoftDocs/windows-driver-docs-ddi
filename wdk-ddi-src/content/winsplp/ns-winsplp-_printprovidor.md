@@ -8,9 +8,6 @@ ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.date: 04/03/2019
 keywords: ["PRINTPROVIDOR structure"]
 ms.keywords: "*LPPRINTPROVIDOR, LPPRINTPROVIDOR, LPPRINTPROVIDOR structure pointer [Print Devices], PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], _PRINTPROVIDOR, print.printprovidor, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, winsplp/LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR"
-f1_keywords:
- - "winsplp/PRINTPROVIDOR"
- - "PRINTPROVIDOR"
 ms.custom: RS5, 19H1
 req.header: winsplp.h
 req.include-header: Winsplp.h
@@ -29,20 +26,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsplp.h
-api_name:
-- PRINTPROVIDOR
 targetos: Windows
 req.typenames: PRINTPROVIDOR, *LPPRINTPROVIDOR
+f1_keywords:
+ - _PRINTPROVIDOR
+ - winsplp/_PRINTPROVIDOR
+ - LPPRINTPROVIDOR
+ - winsplp/LPPRINTPROVIDOR
+ - PRINTPROVIDOR
+ - winsplp/PRINTPROVIDOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsplp.h
+api_name:
+ - PRINTPROVIDOR
 ---
 
 # _PRINTPROVIDOR structure
+
 
 ## -description
 
@@ -486,3 +491,4 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 [SendRecvBidiData](https://docs.microsoft.com/previous-versions//ff562068(v=vs.85))
 
 [XcvData](https://docs.microsoft.com/previous-versions/ff564255(v=vs.85))
+

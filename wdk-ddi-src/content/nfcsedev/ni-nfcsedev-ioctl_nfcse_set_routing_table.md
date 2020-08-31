@@ -8,9 +8,6 @@ ms.assetid: 54B37EC0-C38A-479C-A45F-424963C4D89A
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL"]
 ms.keywords: IOCTL_NFCSE_SET_ROUTING_TABLE, IOCTL_NFCSE_SET_ROUTING_TABLE control, IOCTL_NFCSE_SET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_set_routing_table
-f1_keywords:
- - "nfcsedev/IOCTL_NFCSE_SET_ROUTING_TABLE"
- - "IOCTL_NFCSE_SET_ROUTING_TABLE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- IOCTL_NFCSE_SET_ROUTING_TABLE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFCSE_SET_ROUTING_TABLE
+ - nfcsedev/IOCTL_NFCSE_SET_ROUTING_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - IOCTL_NFCSE_SET_ROUTING_TABLE
 ---
 
 # IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL
@@ -46,64 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Configures NFC controller listen mode routing table. Note that caller has to send complete listen mode routing information in a single call. The caller shall ensure that routing table is less than the cbMaxRoutingTableSize value defined in 4.2.5.1. The total size is computed as per NFC NCI standard sec 6.3.2 and is equal to Number of AID based routes x 4 + sum of cbAid + Number of technology based routes x 5 + Number of protocol based routes x 5. The caller shall ensure that values for technology- and protocol-based routes are conformant to NCI NFC spec sec 6.3.2.
-
-
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
 
-
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -132,12 +93,8 @@ None
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following are requirements that the driver must adhere to.
 
@@ -153,7 +110,4 @@ The following are requirements that the driver must adhere to.
 </li>
 <li>If this IOCTL is issued when the NFCC is in RF discovery state, the driver needs to put the NFCC into RF idle state, configure the routing table, and restart RF discovery.</li>
 </ul>
-
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: b8e74919-112f-468a-bac2-b193c269c46e
 ms.date: 02/15/2018
 keywords: ["tagWPD_SERVICE_INHERITANCE_TYPES enumeration"]
 ms.keywords: WPD_SERVICE_INHERITANCE_IMPLEMENTATION, WPD_SERVICE_INHERITANCE_TYPES, WPD_SERVICE_INHERITANCE_TYPES enumeration, portabledevice/WPD_SERVICE_INHERITANCE_IMPLEMENTATION, portabledevice/WPD_SERVICE_INHERITANCE_TYPES, tagWPD_SERVICE_INHERITANCE_TYPES, wpddk.wpd_service_inheritance_types
-f1_keywords:
- - "portabledevice/WPD_SERVICE_INHERITANCE_TYPES"
- - "WPD_SERVICE_INHERITANCE_TYPES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PortableDevice.h
-api_name:
-- WPD_SERVICE_INHERITANCE_TYPES
 targetos: Windows
 req.typenames: WPD_SERVICE_INHERITANCE_TYPES
 ms.custom: RS5
+f1_keywords:
+ - tagWPD_SERVICE_INHERITANCE_TYPES
+ - portabledevice/tagWPD_SERVICE_INHERITANCE_TYPES
+ - WPD_SERVICE_INHERITANCE_TYPES
+ - portabledevice/WPD_SERVICE_INHERITANCE_TYPES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PortableDevice.h
+api_name:
+ - WPD_SERVICE_INHERITANCE_TYPES
 ---
 
 # tagWPD_SERVICE_INHERITANCE_TYPES enumeration
@@ -47,14 +49,9 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>WPD_SERVICE_INHERITANCE_TYPES</b> enumeration type specifies the inheritance relationship for a service.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WPD_SERVICE_INHERITANCE_IMPLEMENTATION
 

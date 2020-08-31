@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/Blt"
- - "Blt"
+ - PFND3DDDI_BLT
+ - d3dumddi/PFND3DDDI_BLT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_BLT callback function
+
 
 ## -description
 

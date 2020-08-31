@@ -8,9 +8,6 @@ ms.assetid: 496e2206-56d1-47eb-a9e6-f5d4799e3dde
 ms.date: 05/02/2018
 keywords: ["FwpsCalloutRegister1 function"]
 ms.keywords: FwpsCalloutRegister1, FwpsCalloutRegister1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister1, netvista.fwpscalloutregister1, wfp_ref_2_funct_3_fwps_C_169881cd-1796-4774-8e62-481b00d877e3.xml
-f1_keywords:
- - "fwpsk/FwpsCalloutRegister1"
- - "FwpsCalloutRegister1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fwpkclnt.lib
-- Fwpkclnt.dll
-api_name:
-- FwpsCalloutRegister1
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsCalloutRegister1
+ - fwpsk/FwpsCalloutRegister1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fwpkclnt.lib
+ - Fwpkclnt.dll
+api_name:
+ - FwpsCalloutRegister1
 ---
 
 # FwpsCalloutRegister1 function
@@ -47,31 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsCalloutRegister1</b> function registers a callout with the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpsCalloutRegister1</b> is the specific version of <b>FwpsCalloutRegister</b> used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> is available. </div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param deviceObject 
+
 [in, out]
 A pointer to a device object that was previously created by the callout driver. For more
      information about how a callout driver creates a device object, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-a-device-object">Creating a Device Object</a>.
 
-
 ### -param callout 
+
 [in]
 A pointer to a constant 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout1_">FWPS_CALLOUT1</a> structure that contains the
      data that is required to register the callout with the filter engine.
 
-
 ### -param calloutId 
+
 [out, optional]
 A pointer to a UINT32-typed variable that receives a run-time identifier that identifies the
      callout in the filter engine. The callout driver passes this identifier to the 
@@ -86,10 +83,7 @@ A pointer to a UINT32-typed variable that receives a run-time identifier that id
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a> callout function. This
      parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsCalloutRegister1</b> function returns one of the following NTSTATUS codes.
@@ -137,14 +131,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsCalloutRegister1</b> function to register a callout with the filter engine. A callout driver can
@@ -164,13 +152,7 @@ A callout driver unregisters a callout from the filter engine by calling either 
     FwpsCalloutUnregisterByKey0</a> function. A callout driver cannot be unloaded until all of the callouts
     that were previously registered with the filter engine have been successfully unregistered.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout1_">FWPS_CALLOUT1</a>
 
@@ -213,7 +195,4 @@ A callout driver unregisters a callout from the filter engine by calling either 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a>
- 
-
- 
 

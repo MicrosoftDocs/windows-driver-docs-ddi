@@ -8,9 +8,6 @@ ms.assetid: 322A17F1-E767-44EF-837D-F9162C2D5237
 ms.date: 04/30/2018
 keywords: ["RtlULongLongToULong function"]
 ms.keywords: RtlULongLongToULong, RtlULongLongToULong function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoulong, ntintsafe/RtlULongLongToULong
-f1_keywords:
- - "ntintsafe/RtlULongLongToULong"
- - "RtlULongLongToULong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongLongToULong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongLongToULong
+ - ntintsafe/RtlULongLongToULong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongLongToULong
 ---
 
 # RtlULongLongToULong function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONGLONG</b> to a value of type <b>ULONG</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param ullOperand 
+
 [in]
 The value to be converted.
-
 
 ### -param pulResult
 
 <p>A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
-
-
-
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

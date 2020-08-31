@@ -8,9 +8,6 @@ ms.assetid: acc456b1-bf88-4c30-9221-3dd8e204b390
 ms.date: 04/04/2018
 keywords: ["IWDTFAction2::DisableObjectLogging"]
 ms.keywords: DisableObjectLogging, DisableObjectLogging method [Windows Device Testing Framework], DisableObjectLogging method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],DisableObjectLogging method, IWDTFAction2.DisableObjectLogging, IWDTFAction2::DisableObjectLogging, Microsoft.WDTF.IWDTFAction2.DisableObjectLogging, Microsoft::WDTF::IWDTFAction2::DisableObjectLogging, dtf.iwdtfaction2_disableobjectlogging, wdtf/IWDTFAction2::DisableObjectLogging
-f1_keywords:
- - "wdtf/IWDTFAction2.DisableObjectLogging"
- - "IWDTFAction2.DisableObjectLogging"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFAction2.DisableObjectLogging
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFAction2::DisableObjectLogging
+ - wdtf/IWDTFAction2::DisableObjectLogging
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFAction2.DisableObjectLogging
 ---
 
 # IWDTFAction2::DisableObjectLogging
@@ -46,26 +46,13 @@ req.typenames:
 
 ## -description
 
-
 Disables object logging for the action.
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a>
- 
-
- 
 

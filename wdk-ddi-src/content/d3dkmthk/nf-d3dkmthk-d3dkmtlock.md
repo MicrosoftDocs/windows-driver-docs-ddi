@@ -7,9 +7,6 @@ ms.assetid: d64abd43-edf2-465a-8d99-8fdce1fcd25f
 ms.date: 05/10/2018
 keywords: ["D3DKMTLock function"]
 ms.keywords: D3DKMTLock, D3DKMTLock function [Display Devices], OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, d3dkmthk/D3DKMTLock, display.d3dkmtlock
-f1_keywords:
- - "d3dkmthk/D3DKMTLock"
- - "D3DKMTLock"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,24 +24,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTLock
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTLock
+ - d3dkmthk/D3DKMTLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTLock
 ---
 
 # D3DKMTLock function
+
 
 ## -description
 
@@ -100,15 +101,7 @@ VOID* LockEntireAllocation(D3DKMT_HANDLE hDevice, D3DKMT_HANDLE hAllocation, UIN
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_lock">D3DKMT_LOCK</a>
- 
-
- 
 

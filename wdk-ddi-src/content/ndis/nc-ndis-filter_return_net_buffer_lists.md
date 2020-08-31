@@ -8,9 +8,6 @@ ms.assetid: 8d7e362f-62da-4ce7-9497-1cfaff2b678e
 ms.date: 05/02/2018
 keywords: ["FILTER_RETURN_NET_BUFFER_LISTS callback function"]
 ms.keywords: FILTER_RETURN_NET_BUFFER_LISTS, FILTER_RETURN_NET_BUFFER_LISTS callback, FilterReturnNetBufferLists, FilterReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_a4a0c4ae-790b-43f9-a209-06538a7bbab6.xml, ndis/FilterReturnNetBufferLists, netvista.filterreturnnetbufferlists
-f1_keywords:
- - "ndis/FilterReturnNetBufferLists"
- - "FilterReturnNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterReturnNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_RETURN_NET_BUFFER_LISTS
+ - ndis/FILTER_RETURN_NET_BUFFER_LISTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterReturnNetBufferLists
 ---
 
 # FILTER_RETURN_NET_BUFFER_LISTS callback function
 
 
 ## -description
-
 
 NDIS calls the 
   <i>FilterReturnNetBufferLists</i> function to return a linked list of 
@@ -56,17 +55,15 @@ NDIS calls the
 
 ## -parameters
 
-
-
-
 ### -param FilterModuleContext 
+
 [in]
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ### -param NetBufferLists 
+
 [in]
 A linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the filter driver indicated by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatereceivenetbufferlists">
@@ -74,8 +71,8 @@ A linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
      multiple calls to 
      <b>NdisFIndicateReceiveNetBufferLists</b>.
 
-
 ### -param ReturnFlags 
+
 [in]
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero.This function supports the following flags: 
@@ -101,8 +98,6 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 <div> </div>
 
 ## -remarks
-
-
 
 <i>FilterReturnNetBufferLists</i> is an optional function. If a filter driver does not filter receive indications, it can set the entry point for this function to <b>NULL</b> when it calls the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
@@ -182,15 +177,9 @@ VOID
 </table></span></div>
 The <b>FILTER_RETURN_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_RETURN_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -226,7 +215,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
- 
-
- 
 

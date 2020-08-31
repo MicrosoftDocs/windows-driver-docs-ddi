@@ -8,9 +8,6 @@ ms.assetid: b667f0c9-7746-432e-ae58-3fe5b48309e0
 ms.date: 04/16/2018
 keywords: ["FsRtlTestAnsiCharacter macro"]
 ms.keywords: FsRtlTestAnsiCharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers], fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, ifsk.fsrtltestansicharacter, ntifs/FsRtlTestAnsiCharacter
-f1_keywords:
- - "ntifs/FsRtlTestAnsiCharacter"
- - "FsRtlTestAnsiCharacter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlTestAnsiCharacter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlTestAnsiCharacter
+ - ntifs/FsRtlTestAnsiCharacter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlTestAnsiCharacter
 ---
 
 # FsRtlTestAnsiCharacter macro
@@ -46,29 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The<b> FsRtlTestAnsiCharacter</b> macro determines whether an ANSI or double-byte character set (DBCS) character meets the specified criteria.
 
-
 ## -parameters
-
-
-
 
 ### -param C
 
 <p>Pointer to the character to be tested.</p>
 
-
 ### -param DEFAULT_RET
 
 <p>Default value to be returned if the value of <i>(SCHAR *)Character</i> is < 0.</p>
 
-
 ### -param WILD_OK
 
 <p>Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.</p>
-
 
 ### -param FLAGS
 
@@ -129,24 +121,11 @@ The<b> FsRtlTestAnsiCharacter</b> macro determines whether an ANSI or double-byt
   </table>
   <p> </p>
 
-
-
-
-
-
 ## -remarks
 
-
-
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlisansicharacterlegal">FsRtlIsAnsiCharacterLegal</a>
 
@@ -161,7 +140,4 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlisansicharacterlegalntfs">FsRtlIsAnsiCharacterLegalNtfs</a>
- 
-
- 
 

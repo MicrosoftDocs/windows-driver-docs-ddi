@@ -8,9 +8,6 @@ ms.assetid: 272d99da-ef08-4ebd-90e7-74e99410b3f5
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_AF_REGISTER_NOTIFY callback function"]
 ms.keywords: PROTOCOL_CO_AF_REGISTER_NOTIFY, PROTOCOL_CO_AF_REGISTER_NOTIFY callback, ProtocolCoAfRegisterNotify, ProtocolCoAfRegisterNotify callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_aa4ed4ae-7fa9-4f92-9103-824fbe719739.xml, ndis/ProtocolCoAfRegisterNotify, netvista.protocolcoafregisternotify
-f1_keywords:
- - "ndis/ProtocolCoAfRegisterNotify"
- - "ProtocolCoAfRegisterNotify"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoAfRegisterNotify
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_AF_REGISTER_NOTIFY
+ - ndis/PROTOCOL_CO_AF_REGISTER_NOTIFY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoAfRegisterNotify
 ---
 
 # PROTOCOL_CO_AF_REGISTER_NOTIFY callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoAfRegisterNotify</i> function is used by connection-oriented NDIS clients. All
@@ -57,10 +56,8 @@ The
 
 ## -parameters
 
-
-
-
 ### -param ProtocolBindingContext 
+
 [in]
 Specifies the handle to the client-allocated context area in which the client protocol maintains
      per-binding run-time state. The client's 
@@ -68,8 +65,8 @@ Specifies the handle to the client-allocated context area in which the client pr
      supplied this handle when it called 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
-
 ### -param AddressFamily 
+
 [in]
 Pointer to a buffer describing the signaling-protocol support provided by a call manager that just
      registered these services with NDIS by calling 
@@ -78,19 +75,11 @@ Pointer to a buffer describing the signaling-protocol support provided by a call
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
      NdisMCmRegisterAddressFamilyEx</a>.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 A call to 
     <i>ProtocolCoAfRegisterNotify</i> advertises a particular call manager's or MCM driver's call-management
@@ -168,15 +157,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
 
@@ -218,7 +201,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>
- 
-
- 
 

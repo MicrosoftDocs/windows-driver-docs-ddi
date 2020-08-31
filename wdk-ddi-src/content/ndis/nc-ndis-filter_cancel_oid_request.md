@@ -8,9 +8,6 @@ ms.assetid: e7e3f67e-5353-4355-bf19-8a8041cafc84
 ms.date: 05/02/2018
 keywords: ["FILTER_CANCEL_OID_REQUEST callback function"]
 ms.keywords: FILTER_CANCEL_OID_REQUEST, FILTER_CANCEL_OID_REQUEST callback, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
-f1_keywords:
- - "ndis/FilterCancelOidRequest"
- - "FilterCancelOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterCancelOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_CANCEL_OID_REQUEST
+ - ndis/FILTER_CANCEL_OID_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterCancelOidRequest
 ---
 
 # FILTER_CANCEL_OID_REQUEST callback function
 
 
 ## -description
-
 
 NDIS calls a filter driver's 
   <i>FilterCancelOidRequest</i> function to cancel an OID request.
@@ -54,26 +53,21 @@ NDIS calls a filter driver's
 
 ## -parameters
 
-
-
-
 ### -param FilterModuleContext 
+
 [in]
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ### -param RequestId 
+
 [in]
 A cancellation identifier for the request. This identifier specifies the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
-
 ## -remarks
-
-
 
 <i>FilterCancelOidRequest</i> is an optional function. If a filter driver does not use OID requests, it
     can set the entry point for this function to <b>NULL</b> when it calls the 
@@ -146,15 +140,9 @@ VOID
 </table></span></div>
 The <b>FILTER_CANCEL_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_CANCEL_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -173,7 +161,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
- 
-
- 
 

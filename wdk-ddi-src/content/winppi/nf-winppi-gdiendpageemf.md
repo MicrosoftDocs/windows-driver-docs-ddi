@@ -8,9 +8,6 @@ ms.assetid: e15344a5-32ed-43a8-93c2-d5201617d595
 ms.date: 04/20/2018
 keywords: ["GdiEndPageEMF function"]
 ms.keywords: GdiEndPageEMF, GdiEndPageEMF function [Print Devices], gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, print.gdiendpageemf, winppi/GdiEndPageEMF
-f1_keywords:
- - "winppi/GdiEndPageEMF"
- - "GdiEndPageEMF"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GdiEndPageEMF
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GdiEndPageEMF
+ - winppi/GdiEndPageEMF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GdiEndPageEMF
 ---
 
 # GdiEndPageEMF function
@@ -48,19 +48,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>GdiEndPageEMF</b> function ends EMF playback operations for a physical page of an EMF-formatted print job.
 
-
 ## -parameters
-
-
-
 
 ### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetspoolfilehandle">GdiGetSpoolFileHandle</a>.
-
 
 ### -param dwOptimization
 
@@ -74,19 +68,11 @@ Caller-supplied flags. The following flag is defined:
 
 Enable color optimization. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the function returns <b>FALSE</b>, and an error code can be obtained by calling <b>GetLastError</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GdiEndPageEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
 
@@ -110,20 +96,11 @@ The color optimization controlled by the <i>dwOptimization</i> parameter can als
 
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiplaypageemf">GdiPlayPageEMF</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdistartpageemf">GdiStartPageEMF</a>
- 
-
- 
 

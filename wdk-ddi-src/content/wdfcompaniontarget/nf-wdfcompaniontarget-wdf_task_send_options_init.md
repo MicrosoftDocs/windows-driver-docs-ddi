@@ -8,9 +8,6 @@ ms.assetid: ba10c012-f64c-42cd-bedc-72f620818aa5
 ms.date: 02/26/2018
 keywords: ["WDF_TASK_SEND_OPTIONS_INIT function"]
 ms.keywords: WDF_TASK_SEND_OPTIONS_INIT, WDF_TASK_SEND_OPTIONS_INIT method, wdf.wdf_task_send_options_init, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_INIT
-f1_keywords:
- - "wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_INIT"
- - "WDF_TASK_SEND_OPTIONS_INIT"
 req.header: wdfcompaniontarget.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompaniontarget.h
-api_name:
-- WDF_TASK_SEND_OPTIONS_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_TASK_SEND_OPTIONS_INIT
+ - wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompaniontarget.h
+api_name:
+ - WDF_TASK_SEND_OPTIONS_INIT
 ---
 
 # WDF_TASK_SEND_OPTIONS_INIT function
@@ -46,19 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
-
-
-
 ### -param Options 
+
 [out]
 
 ### -param Flags 
+
 [in]
 

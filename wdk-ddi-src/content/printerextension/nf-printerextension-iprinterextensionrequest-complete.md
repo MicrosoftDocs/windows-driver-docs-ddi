@@ -8,9 +8,6 @@ ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionRequest::Complete"]
 ms.keywords: Complete, Complete method [Print Devices], Complete method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Complete method, IPrinterExtensionRequest.Complete, IPrinterExtensionRequest::Complete, print.iprinterextensionrequest_complete, printerextension/IPrinterExtensionRequest::Complete
-f1_keywords:
- - "printerextension/IPrinterExtensionRequest.Complete"
- - "IPrinterExtensionRequest.Complete"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionRequest.Complete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionRequest::Complete
+ - printerextension/IPrinterExtensionRequest::Complete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionRequest.Complete
 ---
 
 # IPrinterExtensionRequest::Complete
@@ -46,26 +46,13 @@ req.typenames:
 
 ## -description
 
-
 Completes the extension event.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a>
- 
-
- 
 

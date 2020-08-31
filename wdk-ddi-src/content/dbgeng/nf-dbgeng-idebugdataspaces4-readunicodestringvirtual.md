@@ -8,9 +8,6 @@ ms.assetid: 956ad15d-2c90-473a-b9be-8c5023628841
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces4::ReadUnicodeStringVirtual"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadUnicodeStringVirtual method, IDebugDataSpaces4.ReadUnicodeStringVirtual, IDebugDataSpaces4::ReadUnicodeStringVirtual, IDebugDataSpaces_423e591f-3840-4c6c-94e0-67b06a435652.xml, ReadUnicodeStringVirtual, ReadUnicodeStringVirtual method [Windows Debugging], ReadUnicodeStringVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtual, debugger.readunicodestringvirtual
-f1_keywords:
- - "dbgeng/IDebugDataSpaces4.ReadUnicodeStringVirtual"
- - "IDebugDataSpaces4.ReadUnicodeStringVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winnls.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugDataSpaces4.ReadUnicodeStringVirtual
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces4::ReadUnicodeStringVirtual
+ - dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtual
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugDataSpaces4.ReadUnicodeStringVirtual
 ---
 
 # IDebugDataSpaces4::ReadUnicodeStringVirtual
@@ -46,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReadUnicodeStringVirtual</b> method reads a null-terminated, Unicode string from the target and converts it to a multibyte string.
-
 
 ## -parameters
 
-
-
-
 ### -param Offset 
+
 [in]
 Specifies the location in the process's virtual address space of the string.
 
-
 ### -param MaxBytes 
+
 [in]
 Specifies the maximum number of bytes to read from the target.
 
-
 ### -param CodePage 
+
 [in]
 Specifies the code page to use to convert the multibyte string read from the target into a Unicode string.  For example, CP_ACP is the ANSI code page.
 
-
 ### -param Buffer 
+
 [out, optional]
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-
 ### -param BufferSize 
+
 [in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
-
 ### -param StringBytes 
+
 [out, optional]
 Receives the size, in bytes, of the string in the target.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -132,22 +125,11 @@ A null-terminator was not found after reading <i>MaxBytes</i> from the target.
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 The engine will read up to <i>MaxBytes</i> from the target, looking for a null-terminator.  If the string has more than <i>BufferSize</i> characters, the string will be truncated to fit in <i>Buffer</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
 
@@ -158,7 +140,4 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readunicodestringvirtualwide">ReadUnicodeStringVirtualWide</a>
- 
-
- 
 

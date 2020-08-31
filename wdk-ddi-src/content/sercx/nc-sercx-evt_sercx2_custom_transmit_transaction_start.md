@@ -8,9 +8,6 @@ ms.assetid: BFB2DBBE-9E00-4C1D-B336-2B9C48E98DD3
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START callback function"]
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionStart, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START callback, EvtSerCx2CustomTransmitTransactionStart, EvtSerCx2CustomTransmitTransactionStart callback function [Serial Ports], serports.evtsercx2customtransmittransactionstart
-f1_keywords:
- - "sercx/EvtSerCx2CustomTransmitTransactionStart"
- - "EvtSerCx2CustomTransmitTransactionStart"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2CustomTransmitTransactionStart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START
+ - sercx/EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2CustomTransmitTransactionStart
 ---
 
 # EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START callback function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2CustomTransmitTransactionStart</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to start a custom-transmit transaction.
-
 
 ## -parameters
 
-
-
-
 ### -param CustomTransmitTransaction 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to a custom-transmit-transaction object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a> method to create this object.
 
-
 ### -param Request 
+
 [in]
 A handle to the framework request object associated with the custom-transmit transaction. The driver is responsible for completing this request. This request might not be the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a> request sent by the client, and thus the serial controller driver should not try to use this request to access the write buffer. This request is primarily used for cancellation, completion, and queue forwarding (if needed). To access the write buffer for the client's write request, use the <i>Mdl</i>, <i>Offset</i>, and <i>Length</i> parameters.
 
-
 ### -param Mdl 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> that describes the memory pages that are spanned by the write buffer for the custom-transmit transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters. For more information about MDL chains, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
-
 ### -param Offset 
+
 [in]
 The starting offset for the data transfer. This parameter is a byte offset from the start of the buffer region described by the MDL. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Offset</i> are in the range 0 to N–1.
 
-
 ### -param Length 
+
 [in]
 The size, in bytes, of the data transfer. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
-
 ## -remarks
-
-
 
 Your serial controller driver must implement this function if it creates a custom-transmit-transaction object. If implemented, the driver registers the function in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a> call that creates this object.
 
@@ -144,12 +137,7 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START</b> function type is defined
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup">EvtSerCx2CustomTransmitTransactionCleanup</a>
 
@@ -184,7 +172,4 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START</b> function type is defined
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a>
- 
-
- 
 

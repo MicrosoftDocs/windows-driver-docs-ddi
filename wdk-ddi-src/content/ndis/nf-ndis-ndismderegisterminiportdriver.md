@@ -8,9 +8,6 @@ ms.assetid: c428e30d-ce86-4ca0-bc65-45d84a7c910e
 ms.date: 05/02/2018
 keywords: ["NdisMDeregisterMiniportDriver function"]
 ms.keywords: NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, ndis/NdisMDeregisterMiniportDriver, netvista.ndismderegisterminiportdriver
-f1_keywords:
- - "ndis/NdisMDeregisterMiniportDriver"
- - "NdisMDeregisterMiniportDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMDeregisterMiniportDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMDeregisterMiniportDriver
+ - ndis/NdisMDeregisterMiniportDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMDeregisterMiniportDriver
 ---
 
 # NdisMDeregisterMiniportDriver function
@@ -47,27 +47,20 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver calls the 
   <b>NdisMDeregisterMiniportDriver</b> function to release resources that it allocated with a previous call to
   the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a> function.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisMiniportDriverHandle 
+
 [in]
 The handle that the miniport driver obtained in a previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>.
 
-
 ## -remarks
-
-
 
 If an error occurs in the miniport driver's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine after the 
@@ -79,13 +72,7 @@ If an error occurs in the miniport driver's
     <b>NdisMDeregisterMiniportDriver</b> from its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_unload">MiniportDriverUnload</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -96,7 +83,4 @@ If an error occurs in the miniport driver's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
 

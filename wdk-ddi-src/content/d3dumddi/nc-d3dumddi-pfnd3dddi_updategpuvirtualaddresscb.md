@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnUpdateGpuVirtualAddressCb"
- - "pfnUpdateGpuVirtualAddressCb"
+ - PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB
+ - d3dumddi/PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback function
+
 
 ## -description
 

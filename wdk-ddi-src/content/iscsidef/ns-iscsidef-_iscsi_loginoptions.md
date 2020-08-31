@@ -8,9 +8,6 @@ ms.assetid: 2440999a-e10c-4a27-b076-a0b640c2ca7f
 ms.date: 03/29/2018
 keywords: ["ISCSI_LoginOptions structure"]
 ms.keywords: "*PISCSI_LoginOptions, ISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], PISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], _ISCSI_LoginOptions, iscsidef/ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, storage.iscsi_loginoptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml"
-f1_keywords:
- - "iscsidef/ISCSI_LoginOptions"
- - "ISCSI_LoginOptions"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsidef.h
-api_name:
-- ISCSI_LoginOptions
 targetos: Windows
 req.typenames: ISCSI_LoginOptions, *PISCSI_LoginOptions
+f1_keywords:
+ - _ISCSI_LoginOptions
+ - iscsidef/_ISCSI_LoginOptions
+ - PISCSI_LoginOptions
+ - iscsidef/PISCSI_LoginOptions
+ - ISCSI_LoginOptions
+ - iscsidef/ISCSI_LoginOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsidef.h
+api_name:
+ - ISCSI_LoginOptions
 ---
 
 # _ISCSI_LoginOptions structure
@@ -46,14 +50,9 @@ req.typenames: ISCSI_LoginOptions, *PISCSI_LoginOptions
 
 ## -description
 
-
 The ISCSI_LoginOptions structure defines the characteristics of a logon session. The LoginToTarget_IN routines use these defined characteristics while it logs into an iSCSI target.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InformationSpecified
 
@@ -145,33 +144,26 @@ The password to be used during logon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field HeaderDigest
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the header digest in a logon PDU.
 
-
 ### -field DataDigest
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the data digest in a logon PDU.
 
-
 ### -field MaximumConnections
 
-A value between 1 and 65535 that specifies the maximum number of connections to target devices that can be associated with a single logon session. A value of 0 indicates that there is no limit to the number of connections. 
-
+A value between 1 and 65535 that specifies the maximum number of connections to target devices that can be associated with a single logon session. A value of 0 indicates that there is no limit to the number of connections.
 
 ### -field DefaultTime2Wait
 
 The minimum time to wait, in seconds, before the initiator attempts to reconnect or reassign a connection (or task) that has been dropped after an unexpected connection termination or reset. The initiator and target negotiate to determine this value.
 
-
 ### -field DefaultTime2Retain
 
 The maximum time, in seconds, to reassign a connection after the initial wait that is indicated in <b>DefaultTime2Wait</b> has elapsed. The initiator and target negotiate to determine this value.
-
 
 ### -field LoginFlags
 
@@ -243,18 +235,12 @@ Use RADIUS to verify CHAP response.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a> value that indicates the authentication method that is used to establish a logon connection. 
-
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a> value that indicates the authentication method that is used to establish a logon connection.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a>
 
@@ -265,7 +251,4 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-loginoptions-wmi-class">ISCSI_LoginOptions WMI Class</a>
- 
-
- 
 

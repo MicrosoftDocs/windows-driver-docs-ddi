@@ -8,9 +8,6 @@ ms.assetid: 07ba6437-655b-417a-87a8-5374812ca4d7
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback function"]
 ms.keywords: DFQueueObjectRef_7fafb899-1038-409b-af8e-f45776b18abe.xml, EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST, EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback, EvtIoAllocateResourcesForReservedRequest, EvtIoAllocateResourcesForReservedRequest callback function, kmdf.evtioallocateresourcesforreservedrequest, wdf.evtioallocateresourcesforreservedrequest, wdfio/EvtIoAllocateResourcesForReservedRequest
-f1_keywords:
- - "wdfio/EvtIoAllocateResourcesForReservedRequest"
- - "EvtIoAllocateResourcesForReservedRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfio.h
-api_name:
-- EvtIoAllocateResourcesForReservedRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST
+ - wdfio/EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfio.h
+api_name:
+ - EvtIoAllocateResourcesForReservedRequest
 ---
 
 # EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback function
@@ -46,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtIoAllocateResourcesForReservedRequest</i> callback function allocates request-specific resources that the driver can use to process an I/O request in the future. The framework is pre-allocating the specified request object for future use in low-memory situations.
 
-
 ## -parameters
 
-
-
-
 ### -param Queue 
+
 [in]
 A handle to an I/O queue object.
 
-
 ### -param Request 
+
 [in]
 A handle to a request object that the framework has created for use during future low-memory situations.
 
-
 ## -returns
 
-
-
-The <i>EvtIoAllocateResourcesForReservedRequest</i> callback function must return STATUS_SUCCESS or another status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(<i>status</i>) equals <b>TRUE</b> if the function encounters no errors. Otherwise, this function must return a status value for which NT_SUCCESS(<i>status</i>) equals <b>FALSE</b>. 
-
-
-
+The <i>EvtIoAllocateResourcesForReservedRequest</i> callback function must return STATUS_SUCCESS or another status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(<i>status</i>) equals <b>TRUE</b> if the function encounters no errors. Otherwise, this function must return a status value for which NT_SUCCESS(<i>status</i>) equals <b>FALSE</b>.
 
 ## -remarks
-
-
 
 A driver can register an <i>EvtIoAllocateResourcesForReservedRequest</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>.
 
@@ -104,14 +92,7 @@ If a resource allocation error occurs, such as a low memory situation, the callb
 
 For more information about the <i>EvtIoAllocateResourcesForReservedRequest</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">Guaranteeing Forward Progress of I/O Operations</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_allocate_request_resources">EvtIoAllocateRequestResources</a>
 
@@ -122,7 +103,4 @@ For more information about the <i>EvtIoAllocateResourcesForReservedRequest</i> c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestisreserved">WdfRequestIsReserved</a>
- 
-
- 
 

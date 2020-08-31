@@ -7,9 +7,6 @@ ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.date: 05/10/2018
 keywords: ["DXGK_GDIARG_BITBLT structure"]
 ms.keywords: DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, _DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt
-f1_keywords:
- - "d3dkmddi/DXGK_GDIARG_BITBLT"
- - "DXGK_GDIARG_BITBLT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_GDIARG_BITBLT
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_GDIARG_BITBLT
+f1_keywords:
+ - _DXGK_GDIARG_BITBLT
+ - d3dkmddi/_DXGK_GDIARG_BITBLT
+ - DXGK_GDIARG_BITBLT
+ - d3dkmddi/DXGK_GDIARG_BITBLT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_GDIARG_BITBLT
 ---
 
 # _DXGK_GDIARG_BITBLT structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_GDIARG_BITBLT
 
 ## -description
 
-
 The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware-accelerated <a href="https://docs.microsoft.com/windows-hardware/drivers/">bit-block transfer (bitblt)</a> with no stretching.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SrcRect
 
@@ -65,7 +62,6 @@ This rectangle is mapped to the destination rectangle defined by <b>DstRect</b>.
 
 For more information, see the Remarks section.
 
-
 ### -field DstRect
 
 [in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
@@ -74,66 +70,39 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 
 For more information, see the Remarks section.
 
-
 ### -field SrcAllocationIndex
 
-
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>SrcRect</b> source rectangle.
-     
-
 
 ### -field DstAllocationIndex
 
-
       [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
-     
-
 
 ### -field NumSubRects
 
-
       [in] The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
-     
-
 
 ### -field pSubRects
 
-
       [in] A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
-     
-
 
 ### -field Rop
 
-
       [in] An 8-bit value that specifies a GDI raster operation (ROP) that is defined by the constant values of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_gdirop_bitblt">DXGK_GDIROP_BITBLT</a> enumeration.
-     
-
 
 ### -field Rop3
 
-
       [in] An 8-bit value that specifies a ternary GDI raster operation (ROP3) that combines a brush, a source bitmap, and a destination bitmap in one of 256 possible combinations. This type of raster operation will be processed only if the driver has set the <b>SupportAllBltRops</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
-     
-
 
 ### -field SrcPitch
 
-
       [in] The pitch of the source surface, in bytes. For more information on using pitch, see Remarks section.
-     
-
 
 ### -field DstPitch
 
-
       [in] The pitch of the destination surface, in bytes. For more information on using pitch, see Remarks section.
-     
-
 
 ## -remarks
-
-
 
 The <b>SrcPitch</b> and <b>DstPitch</b> pitch values must be used to determine the byte locations of the <b>SrcRect</b> and <b>DstRect</b> rectangles, respectively, for the following allocations of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_gdisurfacetype">D3DKMDT_GDISURFACETYPE</a>:
 
@@ -166,11 +135,7 @@ SrcSubRect.top = SubRect.top - DstRect.top + SrcRect.top;
 SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_gdisurfacetype">D3DKMDT_GDISURFACETYPE</a>
 
@@ -189,7 +154,4 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

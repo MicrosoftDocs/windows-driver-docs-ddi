@@ -8,9 +8,6 @@ ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.date: 05/02/2018
 keywords: ["NmrClientAttachProvider function"]
 ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
-f1_keywords:
- - "netioddk/NmrClientAttachProvider"
- - "NmrClientAttachProvider"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- netio.lib
-- netio.dll
-api_name:
-- NmrClientAttachProvider
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NmrClientAttachProvider
+ - netioddk/NmrClientAttachProvider
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - netio.lib
+ - netio.dll
+api_name:
+ - NmrClientAttachProvider
 ---
 
 # NmrClientAttachProvider function
@@ -47,25 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NmrClientAttachProvider</b> function attaches a client module to a provider module.
 
-
 ## -parameters
 
-
-
-
 ### -param NmrBindingHandle 
+
 [in]
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback
      function.
 
-
 ### -param ClientBindingContext 
+
 [in]
 A pointer to a caller-supplied context for the binding between the client module and the provider
      module. The client module uses this context to keep track of the state of the binding. The contents of
@@ -75,8 +71,8 @@ A pointer to a caller-supplied context for the binding between the client module
      require the client module's binding context. The client module must make sure that this context remains
      valid and resident in memory as long as the provider module is attached to the client module.
 
-
 ### -param ClientDispatch 
+
 [in]
 A pointer to a constant structure that contains the dispatch table of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
@@ -86,8 +82,8 @@ A pointer to a constant structure that contains the dispatch table of
      NPI does not define a client
      dispatch table structure, the client module must set this parameter to <b>NULL</b>.
 
-
 ### -param ProviderBindingContext 
+
 [out]
 A pointer to a variable that receives a pointer to the provider module's context for the binding
      between the client module and the provider module. The provider module uses this context to keep track
@@ -97,18 +93,15 @@ A pointer to a variable that receives a pointer to the provider module's context
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
      provider module's binding context.
 
-
 ### -param ProviderDispatch 
+
 [out]
 A pointer to a variable that receives a pointer to a structure that contains the dispatch table of     
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
      module. The contents of the structure are 
      NPI-specific.
 
-
 ## -returns
-
-
 
 The 
      <b>NmrClientAttachProvider</b> function returns one of the following NTSTATUS codes:
@@ -152,14 +145,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A client module calls the 
     <b>NmrClientAttachProvider</b> function from its 
@@ -195,13 +182,7 @@ If the
     <i>ProviderDispatch</i> parameters so that it can call the provider module's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a>
 
@@ -212,7 +193,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
- 
-
- 
 

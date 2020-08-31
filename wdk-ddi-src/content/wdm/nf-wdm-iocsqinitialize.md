@@ -8,9 +8,6 @@ ms.assetid: 5287db75-3096-45ab-b35b-1ee8b076157d
 ms.date: 04/30/2018
 keywords: ["IoCsqInitialize function"]
 ms.keywords: IoCsqInitialize, IoCsqInitialize routine [Kernel-Mode Driver Architecture], k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, kernel.iocsqinitialize, wdm/IoCsqInitialize
-f1_keywords:
- - "wdm/IoCsqInitialize"
- - "IoCsqInitialize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCsqInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCsqInitialize
+ - wdm/IoCsqInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCsqInitialize
 ---
 
 # IoCsqInitialize function
@@ -46,74 +46,56 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCsqInitialize</b> routine initializes the driver's cancel-safe IRP queue dispatch table.
-
 
 ## -parameters
 
-
-
-
 ### -param Csq 
+
 [out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure to be initialized by <b>IoCsqInitialize</b>.
 
-
 ### -param CsqInsertIrp 
+
 [in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp">CsqInsertIrp</a> function for the driver's cancel-safe IRP queue.
 
-
 ### -param CsqRemoveIrp 
+
 [in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp">CsqRemoveIrp</a> function for the driver's cancel-safe IRP queue.
 
-
 ### -param CsqPeekNextIrp 
+
 [in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp">CsqPeekNextIrp</a> function for the driver's cancel-safe IRP queue.
 
-
 ### -param CsqAcquireLock 
+
 [in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a> function for the driver's cancel-safe IRP queue.
 
-
 ### -param CsqReleaseLock 
+
 [in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a> function for the driver's cancel-safe IRP queue.
 
-
 ### -param CsqCompleteCanceledIrp 
-[in]
-Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp">CsqCompleteCanceledIrp</a> function for the driver's cancel-safe IRP queue. 
 
+[in]
+Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp">CsqCompleteCanceledIrp</a> function for the driver's cancel-safe IRP queue.
 
 ## -returns
 
-
-
 This routine returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IoCsqInitialize</b> routine initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure that describes a driver's cancel-safe IRP queue. Drivers can also use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a> to create an IRP queue with extended capabilities. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/cancel-safe-irp-queues">Cancel-Safe IRP Queues</a>.
 
 Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member of the IRP to hold IRP context information. Drivers that use these routines to queue IRPs must leave that member unused.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a>
 
@@ -164,7 +146,4 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
- 
-
- 
 

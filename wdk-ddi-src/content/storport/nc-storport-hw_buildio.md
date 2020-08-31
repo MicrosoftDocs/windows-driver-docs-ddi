@@ -8,9 +8,6 @@ ms.assetid: ebbb8289-5996-4d99-98b6-e95fd9dc7ec9
 ms.date: 03/29/2018
 keywords: ["HW_BUILDIO callback function"]
 ms.keywords: HW_BUILDIO, HwStorBuildIo, HwStorBuildIo routine [Storage Devices], storage.hwstorbuildio, stormini_3411fed2-32e6-4a3a-a9c3-0bbe0bb514ca.xml, storport/HwStorBuildIo
-f1_keywords:
- - "storport/HwStorBuildIo"
- - "HwStorBuildIo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorBuildIo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_BUILDIO
+ - storport/HW_BUILDIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorBuildIo
 ---
 
 # HW_BUILDIO callback function
+
 
 ## -description
 
@@ -159,3 +160,4 @@ The **HW_BUILDIO** function type is defined in the Storport.h header file. To mo
 [**StorPortAllocatePool**](nf-storport-storportallocatepool.md)
 
 [**StorPortNotification**](nf-storport-storportnotification.md)
+

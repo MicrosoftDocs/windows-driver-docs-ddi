@@ -8,9 +8,6 @@ ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.date: 04/23/2018
 keywords: ["KSIDENTIFIER structure"]
 ms.keywords: "*PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier"
-f1_keywords:
- - "ks/KSIDENTIFIER"
- - "KSIDENTIFIER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSIDENTIFIER
 targetos: Windows
 req.typenames: KSIDENTIFIER, *PKSIDENTIFIER
+f1_keywords:
+ - PKSIDENTIFIER
+ - ks/PKSIDENTIFIER
+ - KSIDENTIFIER
+ - ks/KSIDENTIFIER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSIDENTIFIER
 ---
 
 # KSIDENTIFIER structure
@@ -46,44 +48,25 @@ req.typenames: KSIDENTIFIER, *PKSIDENTIFIER
 
 ## -description
 
-
 The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
-
 
 ## -struct-fields
 
-
-
-
 ### -field _IDENTIFIER
-
- 
-
 
 ### -field _IDENTIFIER.Set
 
- 
-
-
 ### -field _IDENTIFIER.Id
 
- 
-
-
 ### -field _IDENTIFIER.Flags
-
- 
-
 
 ### -field Set
 
 Specifies a GUID that identifies a kernel streaming property, event, method, communication bus set. The KSPIN_INTERFACE structure describes a specific interface within an interface set. The KSDEGRADE structure contains specifics of degradation strategies. For more information see <b>Remarks</b>
 
-
 ### -field Id
 
 Specifies the member of the property, event, method set. For KSPIN_MEDIUM, identifies a unique connection on the bus. For KSPIN_INTERFACE, specifies the ID number of this particular interface within the interface set. For KSDEGRADE, specifies the set-specific identifier for an item within the set.
-
 
 ### -field Flags
 
@@ -349,15 +332,11 @@ Indicates that the specified method is of type KSM_NODE, where the <b>NodeId</b>
 
 For KSDEGRADE, specifies either the current percentage of degradation, expressed in parts per thousand (where a value of 1000 represents no degradation), or specifies the amount of time in native units as specified by the interface.
 
-
 ### -field Alignment
 
 Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a>, <a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>, and <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structures are aliases for the KSIDENTIFIER structure. As such, their definitions are identical. 
 
@@ -407,13 +386,7 @@ The <b>Flags</b> member can contain different values based on the type of signal
 
 Because <b>Flags</b> contains a ULONG value, multiple Skip requests may be needed to remedy the QM issue.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
 
@@ -424,7 +397,4 @@ Because <b>Flags</b> contains a ULONG value, multiple Skip requests may be neede
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
- 
-
- 
 

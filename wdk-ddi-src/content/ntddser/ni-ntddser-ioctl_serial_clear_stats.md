@@ -8,9 +8,6 @@ ms.assetid: b5549ab2-8978-4fe2-ac08-56e28179714e
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_CLEAR_STATS IOCTL"]
 ms.keywords: IOCTL_SERIAL_CLEAR_STATS, IOCTL_SERIAL_CLEAR_STATS control, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLEAR_STATS, serports.ioctl_serial_clear_stats, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_CLEAR_STATS"
- - "IOCTL_SERIAL_CLEAR_STATS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_CLEAR_STATS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_CLEAR_STATS
+ - ntddser/IOCTL_SERIAL_CLEAR_STATS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_CLEAR_STATS
 ---
 
 # IOCTL_SERIAL_CLEAR_STATS IOCTL
@@ -46,54 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SERIAL_CLEAR_STATS</b> request clears the performance statistics for a serial device.
 
 To obtain the performance statistics, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a> request.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -101,14 +78,7 @@ The <b>Information</b> field is set to zero.
 
 The <b>Status</b> field is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.date: 05/03/2018
 keywords: ["WritePhysicalWithFlags function"]
 ms.keywords: WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], debugger.writephysicalwithflags, wdbgexts/WritePhysicalWithFlags
-f1_keywords:
- - "wdbgexts/WritePhysicalWithFlags"
- - "WritePhysicalWithFlags"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- WritePhysicalWithFlags
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WritePhysicalWithFlags
+ - wdbgexts/WritePhysicalWithFlags
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - WritePhysicalWithFlags
 ---
 
 # WritePhysicalWithFlags function
@@ -46,29 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>WritePhysicalWithFlags</b> function writes to physical memory.
 
-
 ## -parameters
-
-
-
 
 ### -param address
 
 Specifies the physical address to write.
 
-
 ### -param buf
 
 Specifies the address of an array of bytes to hold the data that is  written.
 
-
 ### -param size
 
-Specifies the number of bytes to write. 
-
+Specifies the number of bytes to write.
 
 ### -param flags
 
@@ -120,34 +112,20 @@ The physical memory is write-combined.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param sizew
 
 Receives the number of bytes actually written.
 
-
 ## -remarks
-
-
 
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readphysicalwithflags">ReadPhysicalWithFlags</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>
- 
-
- 
 

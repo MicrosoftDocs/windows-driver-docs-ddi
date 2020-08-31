@@ -28,8 +28,10 @@ req.irql:
 targetos: Windows
 req.typenames: D3DKMDT_MONITOR_FREQUENCY_RANGE
 f1_keywords:
- - "d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE"
- - "D3DKMDT_MONITOR_FREQUENCY_RANGE"
+ - _D3DKMDT_MONITOR_FREQUENCY_RANGE
+ - d3dkmdt/_D3DKMDT_MONITOR_FREQUENCY_RANGE
+ - D3DKMDT_MONITOR_FREQUENCY_RANGE
+ - d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +46,7 @@ product:
 ---
 
 # _D3DKMDT_MONITOR_FREQUENCY_RANGE structure
+
 
 ## -description
 

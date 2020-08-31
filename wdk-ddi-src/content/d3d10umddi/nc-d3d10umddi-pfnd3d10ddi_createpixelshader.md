@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreatePixelShader"
- - "CreatePixelShader"
+ - PFND3D10DDI_CREATEPIXELSHADER
+ - d3d10umddi/PFND3D10DDI_CREATEPIXELSHADER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CREATEPIXELSHADER callback function
+
 
 ## -description
 
@@ -71,7 +72,7 @@ A handle to the driver's private data for the pixel shader. The driver returns t
 
 *hRTShader* [in]
 
-A handle to the pixel shader that the driver should use anytime it calls back into the Direct3D runtime. 
+A handle to the pixel shader that the driver should use anytime it calls back into the Direct3D runtime.
 
 ### -param Arg5
 

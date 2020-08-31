@@ -28,8 +28,10 @@ req.irql:
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_SOURCE_MODE
 f1_keywords:
- - "d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE"
- - "D3DKMDT_VIDPN_SOURCE_MODE"
+ - _D3DKMDT_VIDPN_SOURCE_MODE
+ - d3dkmdt/_D3DKMDT_VIDPN_SOURCE_MODE
+ - D3DKMDT_VIDPN_SOURCE_MODE
+ - d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +46,7 @@ product:
 ---
 
 # _D3DKMDT_VIDPN_SOURCE_MODE structure
+
 
 ## -description
 

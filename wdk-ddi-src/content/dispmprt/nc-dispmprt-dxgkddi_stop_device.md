@@ -8,9 +8,6 @@ ms.assetid: 3c17c7cf-9cfa-421d-a503-88726519fb6c
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_STOP_DEVICE callback function"]
 ms.keywords: DXGKDDI_STOP_DEVICE, DXGKDDI_STOP_DEVICE callback, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml, DxgkDdiStopDevice, DxgkDdiStopDevice callback function [Display Devices], display.dxgkddistopdevice, dispmprt/DxgkDdiStopDevice
-f1_keywords:
- - "dispmprt/DxgkDdiStopDevice"
- - "DxgkDdiStopDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiStopDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_STOP_DEVICE
+ - dispmprt/DXGKDDI_STOP_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiStopDevice
 ---
 
 # DXGKDDI_STOP_DEVICE callback function
@@ -46,47 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resources allocated during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param MiniportDeviceContext 
+
 [in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiStopDevice</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 For more information on how this function is used in Plug and Play (PnP) scenarios starting in Windows 8, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/plug-and-play--pnp--start-and-stop-cases">Plug and Play (PnP) in WDDM 1.2 and later</a>.
 
 The <i>DxgkDdiStopDevice</i> function should be made pageable.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
- 
-
- 
 

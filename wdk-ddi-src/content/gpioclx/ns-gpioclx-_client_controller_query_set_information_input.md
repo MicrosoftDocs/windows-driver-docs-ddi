@@ -8,9 +8,6 @@ ms.assetid: C4AA60FF-03AD-444F-B897-654B787B5F86
 ms.date: 02/15/2018
 keywords: ["CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_input, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure pointer [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT"
-f1_keywords:
- - "gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT"
- - "CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
 targetos: Windows
 req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+f1_keywords:
+ - _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ - gpioclx/_CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ - PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ - gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ - CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ - gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
 ---
 
 # _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure
@@ -46,79 +50,41 @@ req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLE
 
 ## -description
 
-
 The <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure contains a request for the hardware attributes of the general-purpose I/O (GPIO) controller.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RequestType
 
 The type of attribute information that is being requested. This member is set to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ne-gpioclx-_client_controller_query_set_request_type">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a> enumeration value.
 
-
 ### -field Size
 
 Specifies the size, in bytes, of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure.
-
 
 ### -field Flags
 
 A set of flag bits that supply additional information about the type of attribute request indicated by the <b>RequestType</b> member. No flags are currently defined for the <b>Flags</b> member.
 
-
 ### -field BankPowerInformation
-
- 
-
 
 ### -field BankPowerInformation.BankId
 
- 
-
-
 ### -field BankInterruptBinding
-
- 
-
 
 ### -field BankInterruptBinding.ResourcesTranslated
 
- 
-
-
 ### -field BankInterruptBinding.ResourcesRaw
-
- 
-
 
 ### -field BankInterruptBinding.TotalBanks
 
- 
-
-
 ### -field ControllerFunctionBankMapping
-
- 
-
 
 ### -field ControllerFunctionBankMapping.InputBuffer
 
- 
-
-
 ### -field ControllerFunctionBankMapping.InputBufferSize
 
- 
-
-
 ### -field ControllerFunctionBankMapping.OutputBufferSize
-
- 
-
 
 ### -field ControllerFunctionBankMapping.TotalBanks
 
@@ -217,20 +183,11 @@ The size, in bytes, of the output buffer for the IOCTL.
 
 The number of banks in the GPIO controller. This member indicates the expected length of the <b>ControllerFunctionBankMapping.Mapping</b> array in the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a> structure, if the caller supplies a non-NULL pointer to this structure.
 
-
 ## -remarks
-
-
 
 The <i>InputBuffer</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a> function is a pointer to a <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
@@ -245,7 +202,4 @@ The <i>InputBuffer</i> parameter of the <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a>
- 
-
- 
 

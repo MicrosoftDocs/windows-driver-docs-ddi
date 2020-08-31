@@ -8,9 +8,6 @@ ms.assetid: 55c16545-194e-4d23-b2e6-26821180eafa
 ms.date: 03/29/2018
 keywords: ["VIRTUAL_HW_FIND_ADAPTER callback function"]
 ms.keywords: VIRTUAL_HW_FIND_ADAPTER, VirtualHwStorFindAdapter, VirtualHwStorFindAdapter routine [Storage Devices], storage.virtualhwstorfindadapter, storport/VirtualHwStorFindAdapter, storvmini_d41a0c2e-d224-4cfd-95e1-997b6a54904b.xml
-f1_keywords:
- - "storport/VirtualHwStorFindAdapter"
- - "VirtualHwStorFindAdapter"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- VirtualHwStorFindAdapter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VIRTUAL_HW_FIND_ADAPTER
+ - storport/VIRTUAL_HW_FIND_ADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - VirtualHwStorFindAdapter
 ---
 
 # VIRTUAL_HW_FIND_ADAPTER callback function
@@ -46,53 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The Storport virtual miniport uses configuration information supplied to the <b>VirtualHwStorFindAdapter</b> routine to further initialize itself.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceExtension
 
 A pointer to the miniport driver's per-adapter non-paged storage area. The operating system-specific port driver allocates memory for and initializes this extension with zeros before it calls the miniport's <b>VirtualHwStorFindAdapter</b> routine.
 
-
 ### -param HwContext
 
 A pointer to the PDO in the device stack. The HBA itself is the FDO. The PDO might belong to the Pci.sys driver if the miniport driver controls physical hardware. But in the case of a virtual miniport driver, the PDO belongs to the PnP manager.
-
 
 ### -param BusInformation
 
 A pointer to the miniport's functional device object  (FDO).
 
-
 ### -param LowerDevice
 
 A pointer to the device object controlled by the miniport's FDO.
-
 
 ### -param ArgumentString
 
 A pointer to a null-terminated ASCII string. This string, if supplied, contains device information from the registry such as a base parameter.
 
-
 ### -param ConfigInfo
 
 A pointer to a [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information) structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) set in the [VIRTUAL_HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data). **VirtualHwStorFindAdapter**  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, **VirtualHwStorFindAdapter** initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's **DriverEntry** routine.
-
 
 ### -param Again
 
 Not used.
 
-
 ## -returns
-
-
 
 **VirtualHwStorFindAdapter** must return one of the following status values:
 
@@ -146,14 +132,8 @@ Indicates that no supported HBA was found for the supplied configuration informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>VirtualDevice</b> field in the configuration information structure must be set to <b>TRUE</b>. Other fields can be set as needed.
 
@@ -225,13 +205,7 @@ MyVirtualHwFindAdapter (
 </table></span></div>
 The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>VIRTUAL_HW_FIND_ADAPTER</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
@@ -246,7 +220,4 @@ The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h he
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a>
- 
-
- 
 

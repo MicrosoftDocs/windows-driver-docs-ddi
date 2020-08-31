@@ -8,9 +8,6 @@ ms.assetid: 73402b35-85ce-4bb1-8ec5-619805d5a3e0
 ms.date: 05/10/2018
 keywords: ["VideoPortReadPortUlong function"]
 ms.keywords: VideoPortReadPortUlong, VideoPortReadPortUlong function [Display Devices], VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, display.videoportreadportulong, video/VideoPortReadPortUlong
-f1_keywords:
- - "video/VideoPortReadPortUlong"
- - "VideoPortReadPortUlong"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortReadPortUlong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortReadPortUlong
+ - video/VideoPortReadPortUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortReadPortUlong
 ---
 
 # VideoPortReadPortUlong function
@@ -46,44 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortReadPortUlong</b> function reads a ULONG value from a mapped I/O port.
 
-
 ## -parameters
-
-
-
 
 ### -param Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
-
 ## -returns
-
-
 
 <b>VideoPortReadPortUlong</b> returns the ULONG value read from the adapter.
 
-
-
-
 ## -remarks
-
-
 
 A miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortReadPortUlong</b>.
 
 Callers of <b>VideoPortReadPortUlong</b> can be running at any IRQL, provided that the memory pointed to by the <i>Port</i> parameter is resident, mapped device memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
 
@@ -94,7 +75,4 @@ Callers of <b>VideoPortReadPortUlong</b> can be running at any IRQL, provided th
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
- 
-
- 
 

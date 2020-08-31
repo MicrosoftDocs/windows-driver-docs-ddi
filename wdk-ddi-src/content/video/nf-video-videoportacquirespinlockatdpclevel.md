@@ -8,9 +8,6 @@ ms.assetid: 72c6e923-e7c0-4d3d-a115-33e3e11053eb
 ms.date: 05/10/2018
 keywords: ["VideoPortAcquireSpinLockAtDpcLevel function"]
 ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, display.videoportacquirespinlockatdpclevel, video/VideoPortAcquireSpinLockAtDpcLevel
-f1_keywords:
- - "video/VideoPortAcquireSpinLockAtDpcLevel"
- - "VideoPortAcquireSpinLockAtDpcLevel"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortAcquireSpinLockAtDpcLevel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortAcquireSpinLockAtDpcLevel
+ - video/VideoPortAcquireSpinLockAtDpcLevel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortAcquireSpinLockAtDpcLevel
 ---
 
 # VideoPortAcquireSpinLockAtDpcLevel function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortAcquireSpinLockAtDpcLevel</b> function acquires a spin lock when the caller is already running at IRQL = DISPATCH_LEVEL.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in, out]
 Pointer to the miniport driver's device extension.
 
-
 ### -param SpinLock 
+
 [in]
 Pointer to a memory location that contains the spin lock.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 Miniport drivers call <b>VideoPortAcquireSpinLockAtDpcLevel</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a> for better driver performance if and only if they are already running at IRQL = DISPATCH_LEVEL.
 
@@ -84,20 +72,11 @@ If a miniport driver is running at IRQL < DISPATCH_LEVEL, it should call <b>Vide
 
 The caller should release the spin lock with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570358">VideoPortReleaseSpinLockFromDpcLevel</a> as quickly as possible.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570358">VideoPortReleaseSpinLockFromDpcLevel</a>
- 
-
- 
 

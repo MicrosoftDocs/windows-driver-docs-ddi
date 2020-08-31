@@ -8,9 +8,6 @@ ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.date: 04/30/2018
 keywords: ["MmProbeAndLockPages function"]
 ms.keywords: MmProbeAndLockPages, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages
-f1_keywords:
- - "wdm/MmProbeAndLockPages"
- - "MmProbeAndLockPages"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmProbeAndLockPages
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmProbeAndLockPages
+ - wdm/MmProbeAndLockPages
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmProbeAndLockPages
 ---
 
 # MmProbeAndLockPages function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmProbeAndLockPages</b> routine probes the specified virtual memory pages, makes them resident, and locks them in memory.
-
 
 ## -parameters
 
-
-
-
 ### -param MemoryDescriptorList 
+
 [in, out]
 A pointer to an MDL that specifies a virtual memory buffer. If the routine successfully locks the pages in memory, the MDL is updated to describe the underlying physical pages.
 
-
 ### -param AccessMode 
+
 [in]
 The access mode in which to probe the arguments, either <b>KernelMode</b> or <b>UserMode</b>.
 
-
 ### -param Operation 
+
 [in]
 The type of operation for which the caller wants the access rights probed and the pages locked. Set this parameter to <b>IoReadAccess</b>, <b>IoWriteAccess</b>, or <b>IoModifyAccess</b>. <b>IoReadAccess</b> indicates that the driver can examine the contents of the buffer but cannot change the contents. <b>IoWriteAccess</b> and <b>IoModifyAccess</b>, which are equivalent, indicate that the driver has both read and write access to the buffer.
 
-
 ## -remarks
-
-
 
 The highest-level driver in a chain of layered drivers that use direct I/O calls this routine. Drivers that use buffered I/O never call <b>MmProbeAndLockPages</b>.
 
@@ -108,13 +101,7 @@ Callers of <b>MmProbeAndLockPages</b> must be running at IRQL <= APC_LEVEL for p
 
 This routine does not provide any guarantees about the virtual address that describes these pages (that is, the virtual address might be unmapped, reused, and so on). However, the physical pages are guaranteed to be locked on successful return.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
 
@@ -125,7 +112,4 @@ This routine does not provide any guarantees about the virtual address that desc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpages">MmUnlockPages</a>
- 
-
- 
 

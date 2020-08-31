@@ -8,9 +8,6 @@ ms.assetid: dc0bade2-7781-4c08-aea5-0ff4809d3321
 ms.date: 05/03/2018
 keywords: ["IDebugClient2::StartProcessServer"]
 ms.keywords: IDebugClient interface [Windows Debugging],StartProcessServer method, IDebugClient2 interface [Windows Debugging],StartProcessServer method, IDebugClient2.StartProcessServer, IDebugClient2::StartProcessServer, IDebugClient3 interface [Windows Debugging],StartProcessServer method, IDebugClient3::StartProcessServer, IDebugClient4 interface [Windows Debugging],StartProcessServer method, IDebugClient4::StartProcessServer, IDebugClient5 interface [Windows Debugging],StartProcessServer method, IDebugClient5::StartProcessServer, IDebugClient::StartProcessServer, IDebugClient_de137b80-ffd7-4399-85a3-50b3c870c28c.xml, StartProcessServer, StartProcessServer method [Windows Debugging], StartProcessServer method [Windows Debugging],IDebugClient interface, StartProcessServer method [Windows Debugging],IDebugClient2 interface, StartProcessServer method [Windows Debugging],IDebugClient3 interface, StartProcessServer method [Windows Debugging],IDebugClient4 interface, StartProcessServer method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::StartProcessServer, dbgeng/IDebugClient3::StartProcessServer, dbgeng/IDebugClient4::StartProcessServer, dbgeng/IDebugClient5::StartProcessServer, dbgeng/IDebugClient::StartProcessServer, debugger.startprocessserver
-f1_keywords:
- - "dbgeng/IDebugClient.StartProcessServer"
- - "IDebugClient.StartProcessServer"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.StartProcessServer
-- IDebugClient2.StartProcessServer
-- IDebugClient3.StartProcessServer
-- IDebugClient4.StartProcessServer
-- IDebugClient5.StartProcessServer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient2::StartProcessServer
+ - dbgeng/IDebugClient2::StartProcessServer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.StartProcessServer
+ - IDebugClient2.StartProcessServer
+ - IDebugClient3.StartProcessServer
+ - IDebugClient4.StartProcessServer
+ - IDebugClient5.StartProcessServer
 ---
 
 # IDebugClient2::StartProcessServer
@@ -50,33 +50,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>StartProcessServer</b> method starts a process server.
-
 
 ## -parameters
 
-
-
-
 ### -param Flags 
+
 [in]
 Specifies the class of the targets that will be available through the process server.  This must be set to DEBUG_CLASS_USER_WINDOWS.
 
-
 ### -param Options 
+
 [in]
 Specifies the connections options for this process server.  These are the same options given to the <b>-t</b> option of the DbgSrv command line.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-process-server">Activating a Process Server</a>.
 
-
 ### -param Reserved 
+
 [in, optional]
 Set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -97,14 +90,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The process server that is started will be accessible by remote clients through the transport specified in the <i>Options</i> parameter.
 
@@ -112,13 +99,7 @@ To stop the process server from the smart client, use the <a href="https://docs.
 
 For more information about process servers and remote debugging, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/remote-targets">Process Servers, Kernel Connection Servers, and Smart Clients</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-connectprocessserver">ConnectProcessServer</a>
 
@@ -153,7 +134,4 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-waitforprocessserverend">WaitForProcessServerEnd</a>
- 
-
- 
 

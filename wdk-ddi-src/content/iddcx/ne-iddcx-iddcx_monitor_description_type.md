@@ -8,9 +8,6 @@ ms.assetid: ca50256b-2b37-4d39-ad4c-e2eaaa0adbb1
 ms.date: 05/10/2018
 keywords: ["IDDCX_MONITOR_DESCRIPTION_TYPE enumeration"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE, IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, display.iddcx_monitor_description_type, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
-f1_keywords:
- - "iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE"
- - "IDDCX_MONITOR_DESCRIPTION_TYPE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDDCX_MONITOR_DESCRIPTION_TYPE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDDCX_MONITOR_DESCRIPTION_TYPE
+ - iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDDCX_MONITOR_DESCRIPTION_TYPE
 ---
 
 # IDDCX_MONITOR_DESCRIPTION_TYPE enumeration
@@ -48,14 +48,11 @@ req.typenames:
 
 Used to describe the monitor description.
 
-
 ## -enum-fields
-
 
 ### -field IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
 
 Indicates that an <b>IDDCX_MONITOR_DESCRIPTION_TYPE</b> variable has not yet been assigned a meaningful value.
-
 
 ### -field IDDCX_MONITOR_DESCRIPTION_TYPE_EDID
 

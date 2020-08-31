@@ -8,9 +8,6 @@ ms.assetid: f5065217-a74e-41b6-bc23-59b39948a450
 ms.date: 05/02/2018
 keywords: ["NdisQueueIoWorkItem function"]
 ms.keywords: NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisQueueIoWorkItem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, netvista.ndisqueueioworkitem
-f1_keywords:
- - "ndis/NdisQueueIoWorkItem"
- - "NdisQueueIoWorkItem"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisQueueIoWorkItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisQueueIoWorkItem
+ - ndis/NdisQueueIoWorkItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisQueueIoWorkItem
 ---
 
 # NdisQueueIoWorkItem function
@@ -47,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 NDIS drivers call the 
   <b>NdisQueueIoWorkItem</b> function to queue a work item.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisIoWorkItemHandle 
+
 [in]
 A handle to a private <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure that was returned by a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">
      NdisAllocateIoWorkItem</a> function.
 
-
 ### -param Routine 
+
 [in]
 The entry point to the function that NDIS calls to process the work item. NDIS calls this routine
      in the context of a system thread. 
@@ -92,17 +88,14 @@ A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a p
        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">
      NdisAllocateIoWorkItem</a> function.
 
-
 ### -param WorkItemContext 
+
 [in]
 A pointer to a caller-supplied context area that NDIS passes through to the callback routine. 
      <i>WorkItemContext</i> can be any caller-specified data that the driver requires to manage the work
      item.
 
-
 ## -remarks
-
-
 
 <b>NdisQueueIoWorkItem</b> calls 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> to queue a work item. NDIS
@@ -151,15 +144,9 @@ VOID
 </table></span></div>
 The <b>NDIS_IO_WORKITEM_FUNCTION</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_IO_WORKITEM_FUNCTION</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
 
@@ -178,7 +165,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreeioworkitem">NdisFreeIoWorkItem</a>
- 
-
- 
 

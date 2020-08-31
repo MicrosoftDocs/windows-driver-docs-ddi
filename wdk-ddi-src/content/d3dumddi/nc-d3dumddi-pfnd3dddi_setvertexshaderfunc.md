@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetVertexShaderFunc"
- - "SetVertexShaderFunc"
+ - PFND3DDDI_SETVERTEXSHADERFUNC
+ - d3dumddi/PFND3DDDI_SETVERTEXSHADERFUNC
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETVERTEXSHADERFUNC callback function
+
 
 ## -description
 

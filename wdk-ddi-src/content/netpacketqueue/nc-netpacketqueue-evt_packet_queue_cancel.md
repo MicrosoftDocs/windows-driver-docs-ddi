@@ -6,45 +6,50 @@ tech.root: netvista
 ms.assetid: 92d4e786-7fac-43c2-910a-1c7c5873855f
 ms.date: 01/24/2019
 keywords: ["EVT_PACKET_QUEUE_CANCEL callback function"]
-f1_keywords:
- - "netpacketqueue/EVT_PACKET_QUEUE_CANCEL"
- - "EVT_PACKET_QUEUE_CANCEL"
 req.header: netpacketqueue.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- netpacketqueue.h
-api_name: 
-- EVT_PACKET_QUEUE_CANCEL
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - EVT_PACKET_QUEUE_CANCEL
+ - netpacketqueue/EVT_PACKET_QUEUE_CANCEL
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - netpacketqueue.h
+api_name:
+ - EVT_PACKET_QUEUE_CANCEL
 ---
 
 # EVT_PACKET_QUEUE_CANCEL callback function
 
+
 ## -description
 
-
-
 The *EvtPacketQueueCancel* callback function is implemented by the client driver to handle operations that must be performed before a packet queue is deleted.
+
+## -parameters
+
+### -param PacketQueue
+
+A handle to a packet queue.
 
 ## -prototype
 
@@ -62,12 +67,6 @@ VOID EvtPacketQueueCancel
 {...}
 
 ```
-
-## -parameters
-
-### -param PacketQueue
-
-A handle to a packet queue.
 
 ## -remarks
 
@@ -94,3 +93,4 @@ For more info and a diagram showing the NetAdapterCx data path polling model, se
 [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md)
 
 [*EVT_PACKET_QUEUE_STOP*](nc-netpacketqueue-evt_packet_queue_stop.md)
+

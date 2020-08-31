@@ -8,9 +8,6 @@ ms.assetid: a7b9dcca-ce89-4fde-9e58-3c4a675227bc
 ms.date: 04/23/2018
 keywords: ["KsLoadResource function"]
 ms.keywords: KsLoadResource, KsLoadResource function [Streaming Media Devices], ks/KsLoadResource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, stream.ksloadresource
-f1_keywords:
- - "ks/KsLoadResource"
- - "KsLoadResource"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsLoadResource
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsLoadResource
+ - ks/KsLoadResource
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsLoadResource
 ---
 
 # KsLoadResource function
@@ -47,50 +47,41 @@ req.typenames:
 
 ## -description
 
-
-Copies (loads) a resource from the given image. 
-
+Copies (loads) a resource from the given image.
 
 ## -parameters
 
-
-
-
 ### -param ImageBase 
+
 [in]
 Pointer to the image base
 
-
 ### -param PoolType 
+
 [in]
 Pool type to use when copying resource
 
-
 ### -param ResourceName 
+
 [in]
 Resource name.
 
-
 ### -param ResourceType 
+
 [in]
 Resource type
 
-
 ### -param Resource 
+
 [out]
 Pointer to resultant resource memory.
 
-
 ### -param ResourceSize 
+
 [out, optional]
 Pointer to ULONG value to receive the size of the resource.
 
-
 ## -returns
 
-
-
 STATUS_SUCCESS if successful, STATUS_INSUFFICIENT_RESOURCES if memory cannot be allocated, otherwise an appropriate error code.
-
-
 

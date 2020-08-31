@@ -5,35 +5,38 @@ description: Specifies the final wire signaling color space values.
 ms.assetid: 56328267-47fd-4d35-b033-34b5835a3802
 ms.date: 10/19/2018
 keywords: ["D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration"]
-f1_keywords:
- - "d3dukmdt/_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE"
- - "_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE"
 ms.keywords: _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE, D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE,
 req.header: d3dukmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
+ - d3dukmdt/_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
+ - D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
+ - d3dukmdt/D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
+product:
+ - Windows
 ---
 
 # _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration
+
 
 ## -description
 

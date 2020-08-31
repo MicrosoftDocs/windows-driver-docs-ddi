@@ -8,42 +8,42 @@ ms.assetid: ca975b09-cf73-4768-a314-3ff0e5ba211c
 ms.author: windowsdriverdev
 ms.date: 03/12/2019
 keywords: ["FltTagFileEx function"]
-f1_keywords:
- - "fltkernel/FltTagFileEx"
- - "FltTagFileEx"
 ms.keywords: FltTagFileEx, FltTagFile
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- fltkernel.h
-api_name: 
-- FltTagFileEx
+targetos: Windows
+f1_keywords:
+ - FltTagFileEx
+ - fltkernel/FltTagFileEx
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FltTagFileEx
 product:
  - Windows
-targetos: Windows
-
 ---
 
 # FltTagFileEx function
+
 
 ## -description
 
@@ -133,3 +133,4 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 [REPARSE_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer)
 
 [REPARSE_GUID_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer)
+

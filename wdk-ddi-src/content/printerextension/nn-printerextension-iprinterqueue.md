@@ -8,9 +8,6 @@ ms.assetid: 2DB57234-E783-4C6B-A743-F1E9F7D34D97
 ms.date: 04/20/2018
 keywords: ["IPrinterQueue interface"]
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], IPrinterQueue interface [Print Devices],described, print.iprinterqueue_interface, printerextension/IPrinterQueue
-f1_keywords:
- - "printerextension/IPrinterQueue"
- - "IPrinterQueue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueue
+ - printerextension/IPrinterQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueue
 ---
 
 # IPrinterQueue interface
+
 
 ## -description
 
@@ -61,3 +62,4 @@ Any event sink that implements [IPrinterQueueEvent](https://docs.microsoft.com/w
 [IConnectionPoint](https://docs.microsoft.com/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint)
 
 [IPrinterQueueEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueevent)
+

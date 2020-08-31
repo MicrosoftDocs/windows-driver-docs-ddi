@@ -8,9 +8,6 @@ ms.assetid: 8434bf2c-9c9a-49a1-bf88-b67b1eec721c
 ms.date: 05/02/2018
 keywords: ["NdisFOidRequest function"]
 ms.keywords: NdisFOidRequest, NdisFOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml, netvista.ndisfoidrequest
-f1_keywords:
- - "ndis/NdisFOidRequest"
- - "NdisFOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFOidRequest
+ - ndis/NdisFOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFOidRequest
 ---
 
 # NdisFOidRequest function
@@ -47,25 +47,21 @@ req.typenames:
 
 ## -description
 
-
 Filter drivers call the 
   <b>NdisFOidRequest</b> function to forward an OID request to underlying drivers or to originate such a
   request.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisFilterHandle 
+
 [in]
 An NDIS handle that identifies a filter module. NDIS passed the handle to the filter driver in a
      call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ### -param OidRequest 
+
 [in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
@@ -73,20 +69,12 @@ A pointer to an
      OIDs, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
-
 ## -returns
-
-
 
 See the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a> function.
 
-
-
-
 ## -remarks
-
-
 
 Filter drivers can originate OID requests to underlying drivers by calling 
     <b>NdisFOidRequest</b>.
@@ -118,13 +106,7 @@ A driver can call
     <i>Pausing</i>, or 
     <i>Paused</i> state.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -143,7 +125,4 @@ A driver can call
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a>
- 
-
- 
 

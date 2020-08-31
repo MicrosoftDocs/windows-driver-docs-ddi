@@ -8,9 +8,6 @@ ms.assetid: a9308d66-c8b0-4e0e-8203-e2b3f91b7e27
 ms.date: 05/03/2018
 keywords: ["wiauDbgInit macro"]
 ms.keywords: image.wiaudbginit, wiauDbgInit, wiauDbgInit function [Imaging Devices], wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml, wiautil/wiauDbgInit
-f1_keywords:
- - "wiautil/wiauDbgInit"
- - "wiauDbgInit"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiautil.h
-api_name:
-- wiauDbgInit
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgInit
+ - wiautil/wiauDbgInit
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiautil.h
+api_name:
+ - wiauDbgInit
 ---
 
 # wiauDbgInit macro
+
 
 ## -description
 
@@ -56,3 +57,4 @@ The **wiauDbgInit** function initializes WIA debugging.
 ## -remarks
 
 If the **wiauDbgInit** function not called, all DLLs loaded by a process inherit the debug flags of that process.
+

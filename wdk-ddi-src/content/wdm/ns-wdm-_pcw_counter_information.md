@@ -8,9 +8,6 @@ ms.assetid: fe4d8df4-0e15-49fb-a5ec-40aa8acf3675
 ms.date: 07/28/2020
 keywords: ["PCW_COUNTER_INFORMATION structure"]
 ms.keywords: "*PPCW_COUNTER_INFORMATION, PCW_COUNTER_INFORMATION, PCW_COUNTER_INFORMATION structure [Driver Development Tools], PPCW_COUNTER_INFORMATION, PPCW_COUNTER_INFORMATION structure pointer [Driver Development Tools], _PCW_COUNTER_INFORMATION, devtest.pcw_counter_information, km_pcw_b89088c5-c9df-4ca9-86b1-8fdb558216c5.xml, wdm/PCW_COUNTER_INFORMATION, wdm/PPCW_COUNTER_INFORMATION"
-f1_keywords:
- - "wdm/PCW_COUNTER_INFORMATION"
- - "PCW_COUNTER_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PCW_COUNTER_INFORMATION
 targetos: Windows
 req.typenames: PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION
+f1_keywords:
+ - _PCW_COUNTER_INFORMATION
+ - wdm/_PCW_COUNTER_INFORMATION
+ - PPCW_COUNTER_INFORMATION
+ - wdm/PPCW_COUNTER_INFORMATION
+ - PCW_COUNTER_INFORMATION
+ - wdm/PCW_COUNTER_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PCW_COUNTER_INFORMATION
 ---
 
 # PCW_COUNTER_INFORMATION structure
+
 
 ## -description
 
@@ -62,3 +67,4 @@ A Unicode string that contains a wildcard specification of instance names to be 
 [PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
 
 [_PCW_CALLBACK_INFORMATION structure](ns-wdm-_pcw_callback_information.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 923774E0-4F4E-470A-9793-8AD4261AEB64
 ms.date: 02/15/2018
 keywords: ["GNSS_DRIVER_REQUEST enumeration"]
 ms.keywords: GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices], SUPL_CONFIG_DATA, gnss.gnss_driver_request, gnssdriver/GNSS_DRIVER_REQUEST, gnssdriver/SUPL_CONFIG_DATA
-f1_keywords:
- - "gnssdriver/GNSS_DRIVER_REQUEST"
- - "GNSS_DRIVER_REQUEST"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_DRIVER_REQUEST
 targetos: Windows
 req.typenames: GNSS_DRIVER_REQUEST
+f1_keywords:
+ - GNSS_DRIVER_REQUEST
+ - gnssdriver/GNSS_DRIVER_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_DRIVER_REQUEST
 ---
 
 # GNSS_DRIVER_REQUEST enumeration
@@ -46,14 +46,9 @@ req.typenames: GNSS_DRIVER_REQUEST
 
 ## -description
 
-
-GNSS_DRIVER_REQUEST enumerates  the GNSS driver data request types. 
-
+GNSS_DRIVER_REQUEST enumerates  the GNSS driver data request types.
 
 ## -enum-fields
-
-
-
 
 ### -field SUPL_CONFIG_DATA
 

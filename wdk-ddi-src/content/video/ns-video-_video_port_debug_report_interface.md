@@ -8,9 +8,6 @@ ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.date: 05/10/2018
 keywords: ["VIDEO_PORT_DEBUG_REPORT_INTERFACE structure"]
 ms.keywords: PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure, Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE
-f1_keywords:
- - "video/VIDEO_PORT_DEBUG_REPORT_INTERFACE"
- - "VIDEO_PORT_DEBUG_REPORT_INTERFACE"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- video.h
-api_name:
-- VIDEO_PORT_DEBUG_REPORT_INTERFACE
 targetos: Windows
 req.typenames: VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
+f1_keywords:
+ - _VIDEO_PORT_DEBUG_REPORT_INTERFACE
+ - video/_VIDEO_PORT_DEBUG_REPORT_INTERFACE
+ - PVIDEO_PORT_DEBUG_REPORT_INTERFACE
+ - video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE
+ - VIDEO_PORT_DEBUG_REPORT_INTERFACE
+ - video/VIDEO_PORT_DEBUG_REPORT_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - video.h
+api_name:
+ - VIDEO_PORT_DEBUG_REPORT_INTERFACE
 ---
 
 # _VIDEO_PORT_DEBUG_REPORT_INTERFACE structure
@@ -46,43 +50,31 @@ req.typenames: VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTE
 
 ## -description
 
-
 The VIDEO_PORT_DEBUG_REPORT_INTERFACE structure holds pointers to the Debug Report functions, which are implemented by the video port driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Specifies the size, in bytes, of this structure.
 
-
 ### -field Version
 
 Specifies the version of the interface returned by the video port driver. Currently, the only supported version is VIDEO_PORT_DEBUG_REPORT_INTERFACE_VERSION_1.
-
 
 ### -field Context
 
 Pointer to a context that is provided by the video port driver.
 
-
 ### -field InterfaceReference
 
 Pointer to an interface reference function that is implemented by the video port driver.
-
 
 ### -field InterfaceDereference
 
 Pointer to an interface dereference function that is implemented by the video port driver.
 
-
 ## -remarks
-
-
 
 The following describes the callback functions in more detail.
 
@@ -188,13 +180,7 @@ This structure is available in the following operating systems:
 
 The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_debug_report_interface">DbgReportComplete</a>
 
@@ -213,7 +199,4 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
- 
-
- 
 

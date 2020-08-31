@@ -8,9 +8,6 @@ ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
 ms.date: 05/07/2018
 keywords: ["UcxControllerSetFailed function"]
 ms.keywords: UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed
-f1_keywords:
- - "ucxcontroller/UcxControllerSetFailed"
- - "UcxControllerSetFailed"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ucxcontroller.h
-api_name:
-- UcxControllerSetFailed
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcxControllerSetFailed
+ - ucxcontroller/UcxControllerSetFailed
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ucxcontroller.h
+api_name:
+ - UcxControllerSetFailed
 ---
 
 # UcxControllerSetFailed function
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
-Informs USB Host Controller Extension (UCX) that the controller has encountered a critical failure. 
-
+Informs USB Host Controller Extension (UCX) that the controller has encountered a critical failure.
 
 ## -parameters
 
-
-
-
 ### -param Controller 
+
 [in]
 A handle to the controller object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>.
 
-
 ## -remarks
 
-
-
-    The client driver for host controller must call this function if the driver fails D0 entry or the driver has stopped processing transfers to or from an endpoint. 
-
-
-
+    The client driver for host controller must call this function if the driver fails D0 entry or the driver has stopped processing transfers to or from an endpoint.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
- 
-
- 
 

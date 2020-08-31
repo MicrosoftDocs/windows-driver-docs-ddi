@@ -8,9 +8,6 @@ ms.assetid: f31a88c1-468f-4756-a5fa-b4aa0b8fe51d
 ms.date: 02/26/2018
 keywords: ["IWDFNamedPropertyStore interface"]
 ms.keywords: IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,described, UMDFPropertyStoreObjectRef_139eb19f-8bb7-42ba-ab86-44f5f35e0faf.xml, umdf.iwdfnamedpropertystore, wdf.iwdfnamedpropertystore, wudfddi/IWDFNamedPropertyStore
-f1_keywords:
- - "wudfddi/IWDFNamedPropertyStore"
- - "IWDFNamedPropertyStore"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFNamedPropertyStore
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFNamedPropertyStore
+ - wudfddi/IWDFNamedPropertyStore
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFNamedPropertyStore
 ---
 
 # IWDFNamedPropertyStore interface
@@ -46,11 +46,9 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IWDFNamedPropertyStore</b> interface exposes a property-store object.
-
 
 ## -inheritance
 

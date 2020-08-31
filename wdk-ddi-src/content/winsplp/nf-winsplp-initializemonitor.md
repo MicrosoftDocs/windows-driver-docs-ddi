@@ -8,9 +8,6 @@ ms.assetid: e9d833cd-29d6-4c71-ba90-8d7dcf934420
 ms.date: 04/20/2018
 keywords: ["InitializeMonitor function"]
 ms.keywords: InitializeMonitor, InitializeMonitor function [Print Devices], print.initializemonitor, spoolfnc_21afb8f9-70e1-478e-9ad0-cec810216b50.xml, winsplp/InitializeMonitor
-f1_keywords:
- - "winsplp/InitializeMonitor"
- - "InitializeMonitor"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsplp.h
-api_name:
-- InitializeMonitor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InitializeMonitor
+ - winsplp/InitializeMonitor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsplp.h
+api_name:
+ - InitializeMonitor
 ---
 
 # InitializeMonitor function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
-
-
-
 ### -param pRegistryRoot 
+
 [in]
+

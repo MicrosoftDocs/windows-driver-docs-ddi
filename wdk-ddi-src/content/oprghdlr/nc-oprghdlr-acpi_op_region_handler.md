@@ -8,9 +8,6 @@ ms.assetid: c3a5af59-c97c-42be-bc43-afa30ad710ec
 ms.date: 08/20/2020
 keywords: ["ACPI_OP_REGION_HANDLER callback function"]
 ms.keywords: ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
-f1_keywords:
- - "oprghdlr/AcpiOpRegionHandler"
- - "AcpiOpRegionHandler"
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- oprghdlr.h
-api_name:
-- AcpiOpRegionHandler
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ACPI_OP_REGION_HANDLER
+ - oprghdlr/ACPI_OP_REGION_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - oprghdlr.h
+api_name:
+ - AcpiOpRegionHandler
 ---
 
 # ACPI_OP_REGION_HANDLER callback function
+
 
 ## -description
 
@@ -111,3 +112,4 @@ For detailed information about constraints on operation regions, see the [Advanc
 [DeRegisterOpRegionHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-deregisteropregionhandler)
 
 [RegisterOpRegionHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler)
+

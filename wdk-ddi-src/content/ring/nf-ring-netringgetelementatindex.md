@@ -6,41 +6,42 @@ tech.root: netvista
 ms.assetid: 5feeac1c-9c69-4179-8604-5aaaff7e60a0
 ms.date: 09/25/2019
 keywords: ["NetRingGetElementAtIndex function"]
-f1_keywords:
- - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
- - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingGetElementAtIndex
 req.header: ring.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-req.alt-api:
-req.alt-loc:
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- ring.h
-apiname: 
-- NetRingGetElementAtIndex
+req.alt-api: 
+req.alt-loc: 
 targetos: Windows
+f1_keywords:
+ - NetRingGetElementAtIndex
+ - ring/NetRingGetElementAtIndex
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - ring.h
+apiname:
+ - NetRingGetElementAtIndex
 ---
 
 # NetRingGetElementAtIndex function
+
 
 ## -description
 
@@ -71,3 +72,4 @@ Returns the element at the specified location.
 [**NetRingGetPacketAtIndex**](../ring/nf-ring-netringgetpacketatindex.md)
 
 [**NetRingGetFragmentAtIndex**](../ring/nf-ring-netringgetfragmentatindex.md)
+

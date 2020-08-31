@@ -8,9 +8,6 @@ ms.assetid: de392c8c-3153-48e8-85ad-dc1a5ed2812c
 ms.date: 05/02/2018
 keywords: ["RILSETEXECUTORCONFIGPARAMS structure"]
 ms.keywords: "*LPRILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorconfigparams, ntddrilapitypes/RILSETEXECUTORCONFIGPARAMS"
-f1_keywords:
- - "rilapitypes/RILSETEXECUTORCONFIGPARAMS"
- - "RILSETEXECUTORCONFIGPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSETEXECUTORCONFIGPARAMS
 targetos: Windows
 req.typenames: RILSETEXECUTORCONFIGPARAMS, *LPRILSETEXECUTORCONFIGPARAMS
+f1_keywords:
+ - RILSETEXECUTORCONFIGPARAMS
+ - rilapitypes/RILSETEXECUTORCONFIGPARAMS
+ - LPRILSETEXECUTORCONFIGPARAMS
+ - rilapitypes/LPRILSETEXECUTORCONFIGPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSETEXECUTORCONFIGPARAMS
 ---
 
 # RILSETEXECUTORCONFIGPARAMS structure
@@ -46,17 +48,11 @@ req.typenames: RILSETEXECUTORCONFIGPARAMS, *LPRILSETEXECUTORCONFIGPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
-
 
 ### -field rilExecutorConfig
 

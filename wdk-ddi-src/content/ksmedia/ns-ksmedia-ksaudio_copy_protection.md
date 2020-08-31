@@ -8,9 +8,6 @@ ms.assetid: 7dab0240-67c3-4412-a7a5-bb98d84c6bdd
 ms.date: 05/08/2018
 keywords: ["KSAUDIO_COPY_PROTECTION structure"]
 ms.keywords: "*PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION structure [Audio Devices], PKSAUDIO_COPY_PROTECTION, PKSAUDIO_COPY_PROTECTION structure pointer [Audio Devices], aud-prop_94eac763-0c97-406d-b255-686ac82f908c.xml, audio.ksaudio_copy_protection, ksmedia/KSAUDIO_COPY_PROTECTION, ksmedia/PKSAUDIO_COPY_PROTECTION"
-f1_keywords:
- - "ksmedia/KSAUDIO_COPY_PROTECTION"
- - "KSAUDIO_COPY_PROTECTION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_COPY_PROTECTION
 targetos: Windows
 req.typenames: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION
+f1_keywords:
+ - PKSAUDIO_COPY_PROTECTION
+ - ksmedia/PKSAUDIO_COPY_PROTECTION
+ - KSAUDIO_COPY_PROTECTION
+ - ksmedia/KSAUDIO_COPY_PROTECTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_COPY_PROTECTION
 ---
 
 # KSAUDIO_COPY_PROTECTION structure
+
 
 ## -description
 
@@ -68,3 +71,4 @@ The KSPROPERTY_AUDIO_COPY_PROTECTION property is separate from and unrelated to 
 ## -see-also
 
 [KSPROPERTY_AUDIO_COPY_PROTECTION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-copy-protection)
+

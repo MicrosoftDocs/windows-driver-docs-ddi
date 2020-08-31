@@ -8,9 +8,6 @@ ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
 ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterBufferUchar macro"]
 ms.keywords: StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices], storage.storportwriteregisterbufferuchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml
-f1_keywords:
- - "storport/StorPortWriteRegisterBufferUchar"
- - "StorPortWriteRegisterBufferUchar"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortWriteRegisterBufferUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortWriteRegisterBufferUchar
+ - storport/StorPortWriteRegisterBufferUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortWriteRegisterBufferUchar
 ---
 
 # StorPortWriteRegisterBufferUchar macro
@@ -47,46 +47,27 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortWriteRegisterBufferUchar</b> routine transfers a given number of unsigned bytes from a buffer to the HBA. 
-
+The <b>StorPortWriteRegisterBufferUchar</b> routine transfers a given number of unsigned bytes from a buffer to the HBA.
 
 ## -parameters
-
-
-
 
 ### -param h
 
 <p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
 
-
 ### -param r
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by [**StorPortGetDeviceBase**](nf-storport-storportgetdevicebase.md).
-
 
 ### -param b
 
 <p>Pointer to a buffer containing the data to be written. </p>
 
-
 ### -param c
 
 <p>Specifies the number of bytes to be transferred to the HBA. </p>
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteregisterbufferuchar">ScsiPortWriteRegisterBufferUchar</a>
- 
-
- 
 

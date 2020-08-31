@@ -8,9 +8,6 @@ ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::SetCommand"]
 ms.keywords: ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint interface [Windows Debugging],SetCommand method, IDebugBreakpoint2 interface [Windows Debugging],SetCommand method, IDebugBreakpoint2.SetCommand, IDebugBreakpoint2::SetCommand, IDebugBreakpoint::SetCommand, SetCommand, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging],IDebugBreakpoint interface, SetCommand method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetCommand, dbgeng/IDebugBreakpoint::SetCommand, debugger.setcommand
-f1_keywords:
- - "dbgeng/IDebugBreakpoint.SetCommand"
- - "IDebugBreakpoint.SetCommand"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint.SetCommand
-- IDebugBreakpoint2.SetCommand
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint2::SetCommand
+ - dbgeng/IDebugBreakpoint2::SetCommand
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint.SetCommand
+ - IDebugBreakpoint2.SetCommand
 ---
 
 # IDebugBreakpoint2::SetCommand
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetCommand</b>  method sets the command that is executed when a breakpoint is triggered.
-
 
 ## -parameters
 
-
-
-
 ### -param Command 
+
 [in]
 The command string that is executed when the breakpoint is triggered.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -86,18 +79,11 @@ The method was successful.
 
 This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The command string is a list of debugger commands that are separated by semicolons.  These commands are executed every time that the breakpoint is triggered.  The commands are executed before the engine informs any event callbacks that the breakpoint has been triggered.
 
 If the command string includes an execution command such as <b>G (Go)</b>, this command should be the last command in the <i>Command</i> string.  If a command causes the target to resume execution, the rest of the command string is ignored.
 
 For more information about breakpoint properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
-
-
 

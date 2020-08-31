@@ -8,9 +8,6 @@ ms.assetid: 76e59376-58a4-4e35-bac4-ec5938c88cd7
 ms.date: 05/02/2018
 keywords: ["NDIS_TIMER_FUNCTION callback function"]
 ms.keywords: NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NdisTimerFunction, NdisTimerFunction callback function [Network Drivers Starting with Windows Vista], ndis/NdisTimerFunction, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
-f1_keywords:
- - "ndis/NdisTimerFunction"
- - "NdisTimerFunction"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- NdisTimerFunction
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_TIMER_FUNCTION
+ - ndis/NDIS_TIMER_FUNCTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - NdisTimerFunction
 ---
 
 # NDIS_TIMER_FUNCTION callback function
 
 
 ## -description
-
 
 The 
   <i>NdisTimerFunction</i> callback function is called by NDIS after a driver sets a one-shot or periodic timer when a
@@ -55,15 +54,13 @@ The
 
 ## -parameters
 
-
-
-
 ### -param SystemSpecific1 
+
 [in]
 A pointer to a system-specific value that is reserved for system use.
 
-
 ### -param FunctionContext 
+
 [in]
 A pointer to a driver-supplied context area that the driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissettimerobject">NdisSetTimerObject</a> function. If the 
@@ -74,20 +71,17 @@ A pointer to a driver-supplied context area that the driver passed to the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">NdisAllocateTimerObject</a> function
      to initialize the associated timer object.
 
-
 ### -param SystemSpecific2 
+
 [in]
 A pointer to a system-specific value that is reserved for system use.
-
 
 ### -param SystemSpecific3 
+
 [in]
 A pointer to a system-specific value that is reserved for system use.
 
-
 ## -remarks
-
-
 
 Any NDIS driver can have one or more 
     <i>NdisTimerFunction</i> callback functions. Each such 
@@ -153,13 +147,7 @@ The <b>NDIS_TIMER_FUNCTION</b> function type is defined in the Ndis.h header fil
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-ndis-timers">Initializing NDIS Timers</a>
 
@@ -186,7 +174,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/setting-and-clearing-timers">Setting and Clearing Timers</a>
- 
-
- 
 

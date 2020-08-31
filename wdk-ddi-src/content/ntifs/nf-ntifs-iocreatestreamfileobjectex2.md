@@ -8,9 +8,6 @@ ms.assetid: 2F12F4E5-21C2-4DA8-9111-0087A16F0256
 ms.date: 04/16/2018
 keywords: ["IoCreateStreamFileObjectEx2 function"]
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], IoCreateStreamFileObjectEx2, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx
-f1_keywords:
- - "ntifs/IoCreateStreamFileObjectEx"
- - "IoCreateStreamFileObjectEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateStreamFileObjectEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateStreamFileObjectEx2
+ - ntifs/IoCreateStreamFileObjectEx2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateStreamFileObjectEx
 ---
 
 # IoCreateStreamFileObjectEx2 function
@@ -46,16 +46,12 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoCreateStreamFileObjectEx2</b> routine creates a new stream file object with create options for a target device object. 
-
+The <b>IoCreateStreamFileObjectEx2</b> routine creates a new stream file object with create options for a target device object.
 
 ## -parameters
 
-
-
-
 ### -param CreateOptions 
+
 [in]
 Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create options for the new stream file object.  <b>IO_CREATE_STREAM_FILE_OPTIONS</b> is defined in <i>ntifs.h</i> as the following.
 
@@ -118,39 +114,31 @@ A pointer to the device object to set as the target for operations on the file
         handle.  <b>TargetDeviceObject</b> must be in the same device stack as <i>DeviceObject</i> parameter.  This
         member is optional.
 
-
 ### -param FileObject 
-[in, optional]
-Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>. 
 
+[in, optional]
+Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>.
 
 ### -param DeviceObject 
-[in, optional]
-Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>. 
 
+[in, optional]
+Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>.
 
 ### -param StreamFileObject 
+
 [out]
 Pointer to a device object pointer to receive the stream fille object.
 
-
 ### -param FileHandle 
-[out, optional]
-A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>. 
 
+[out, optional]
+A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
 
-
-
 <b>IoCreateStreamFileObjectEx2</b> returns a pointer to the newly created stream file object.
 
-
-
-
 ## -remarks
-
-
 
 File systems call <b>IoCreateStreamFileObjectEx2</b> to create a new stream file object. A <i>stream file object</i> is identical to an ordinary file object, except that the<b> FO_STREAM_FILE</b> file object flag is set.
 
@@ -164,13 +152,7 @@ File system filter driver writers should note that <b>IoCreateStreamFileObjectEx
 
 If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a <b>STATUS_INSUFFICIENT_RESOURCES</b> exception.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-cleanup">IRP_MJ_CLEANUP</a>
 
@@ -197,7 +179,4 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
- 
-
- 
 

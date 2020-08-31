@@ -27,8 +27,8 @@ api_location:
 api_name:
  - D3D12DDI_RAYTRACING_PIPELINE_FLAGS
 f1_keywords:
- - d3d12umddi//D3D12DDI_RAYTRACING_PIPELINE_FLAGS
  - D3D12DDI_RAYTRACING_PIPELINE_FLAGS
+ - d3d12umddi/D3D12DDI_RAYTRACING_PIPELINE_FLAGS
 dev_langs:
  - c++
 ---
@@ -60,3 +60,4 @@ See the [DirectX Raytracing (DXR) functional specification](https://microsoft.gi
 ## -see-also
 
 [**D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075**](ns-d3d12umddi-d3d12ddi_raytracing_pipeline_config_0075.md)
+

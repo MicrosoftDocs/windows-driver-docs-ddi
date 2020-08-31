@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnGetCertificateSize"
- - "pfnGetCertificateSize"
+ - PFND3D11_1DDI_GETCERTIFICATESIZE
+ - d3d10umddi/PFND3D11_1DDI_GETCERTIFICATESIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_GETCERTIFICATESIZE callback function
+
 
 ## -description
 

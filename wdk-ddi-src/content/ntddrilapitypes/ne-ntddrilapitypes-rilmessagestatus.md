@@ -8,9 +8,6 @@ ms.assetid: 8c111231-f94b-4e52-9887-59d07fe70937
 ms.date: 05/02/2018
 keywords: ["RILMESSAGESTATUS enumeration"]
 ms.keywords: RILMESSAGESTATUS, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_RECUNREAD, RIL_MSGSTATUS_STOSENT, RIL_MSGSTATUS_STOUNSENT, netvista.rilmessagestatus, ntddrilapitypes/RILMESSAGESTATUS, ntddrilapitypes/RIL_MSGSTATUS_MAX, ntddrilapitypes/RIL_MSGSTATUS_RECREAD, ntddrilapitypes/RIL_MSGSTATUS_RECUNREAD, ntddrilapitypes/RIL_MSGSTATUS_STOSENT, ntddrilapitypes/RIL_MSGSTATUS_STOUNSENT
-f1_keywords:
- - "ntddrilapitypes/RILMESSAGESTATUS"
- - "RILMESSAGESTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMESSAGESTATUS
 targetos: Windows
 req.typenames: RILMESSAGESTATUS
+f1_keywords:
+ - RILMESSAGESTATUS
+ - ntddrilapitypes/RILMESSAGESTATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMESSAGESTATUS
 ---
 
 # RILMESSAGESTATUS enumeration
@@ -46,29 +46,19 @@ req.typenames: RILMESSAGESTATUS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_MSGSTATUS_UNKNOWN
-
 
 ### -field RIL_MSGSTATUS_RECUNREAD
 
-
 ### -field RIL_MSGSTATUS_RECREAD
-
 
 ### -field RIL_MSGSTATUS_STOUNSENT
 
-
 ### -field RIL_MSGSTATUS_STOSENT
-
 
 ### -field RIL_MSGSTATUS_MAX
 

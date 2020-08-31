@@ -8,9 +8,6 @@ ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.date: 04/16/2018
 keywords: ["CcZeroData function"]
 ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, ntifs/CcZeroData
-f1_keywords:
- - "ntifs/CcZeroData"
- - "CcZeroData"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcZeroData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcZeroData
+ - ntifs/CcZeroData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcZeroData
 ---
 
 # CcZeroData function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcZeroData</b> routine zeros the specified range of bytes in a cached or noncached file.
-
 
 ## -parameters
 
-
-
-
 ### -param FileObject 
+
 [in]
 A pointer to a file object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
 
-
 ### -param StartOffset 
+
 [in]
 A pointer to a variable that specifies the byte offset within the file to the first byte that is to be zeroed.
 
-
 ### -param EndOffset 
+
 [in]
 A pointer to a variable that specifies the byte offset within the file to the last byte that is to be zeroed.
 
-
 ### -param Wait 
+
 [in]
 Set to <b>TRUE</b> if the caller should be put into a wait state until the entire byte range has been zeroed. Otherwise, this parameter is set to <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 <b>CcZeroData</b> returns <b>TRUE</b> if the data is zeroed successfully; otherwise, returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The file to be zeroed can be cached or noncached. However, if the file is noncached, the values of <i>StartOffset</i> and <i>EndOffset</i> must both be multiples of the volume's sector size. (For information about how to determine sector size, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/index">Kernel-Mode Driver Architecture Design Guide</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Kernel-Mode Driver Architecture Reference</a>.)
 
@@ -113,12 +101,7 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
@@ -129,7 +112,4 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
- 
-
- 
 

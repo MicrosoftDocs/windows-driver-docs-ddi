@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/VolBlt"
- - "VolBlt"
+ - PFND3DDDI_VOLBLT
+ - d3dumddi/PFND3DDDI_VOLBLT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_VOLBLT callback function
+
 
 ## -description
 

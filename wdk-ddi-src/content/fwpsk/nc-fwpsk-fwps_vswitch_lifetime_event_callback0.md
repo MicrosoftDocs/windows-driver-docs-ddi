@@ -8,9 +8,6 @@ ms.assetid: 6A2058FB-AE3D-48F0-B1D9-3B8894A5419E
 ms.date: 05/02/2018
 keywords: ["FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0, FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback, fwpsk/vSwitchLifetimeNotifyFn, netvista.fwps_vswitch_lifetime_event_callback0, vSwitchLifetimeNotifyFn, vSwitchLifetimeNotifyFn callback function [Network Drivers Starting with Windows Vista]
-f1_keywords:
- - "fwpsk/vSwitchLifetimeNotifyFn"
- - "vSwitchLifetimeNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fwpsk.h
-api_name:
-- vSwitchLifetimeNotifyFn
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0
+ - fwpsk/FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fwpsk.h
+api_name:
+ - vSwitchLifetimeNotifyFn
 ---
 
 # FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback function
@@ -46,31 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The filter engine calls the  <i>vSwitchLifetimeNotifyFn</i> (<i>FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</i>) callout function to notify the callout driver about create and delete events for  a virtual switch.
 
 <div class="alert"><b>Note</b>  <i>FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</i> is a specific version of <i>FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK</i>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
-
-
 ## -parameters
 
-
-
-
 ### -param notifyContext 
+
 [in, optional]
 A pointer to a context supplied by the callout driver. The driver passed this pointer to the  <i>notifyContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
-
 ### -param eventType 
+
 [in]
 The type of virtual switch event  specified as one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_vswitch_event_type_">FWPS_VSWITCH_EVENT_TYPE</a> enumeration values. For more information, see Remarks.
 
-
 ### -param vSwitch 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
 
@@ -79,20 +74,16 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 <div> </div>
 
 ### -param vSwitchPorts 
+
 [in, optional]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_array">NDIS_SWITCH_PORT_ARRAY</a> structure that specifies an array of port configuration parameters. Each element in the array specifies the parameters for a port on a virtual switch.   
-
-
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_array">NDIS_SWITCH_PORT_ARRAY</a> structure that specifies an array of port configuration parameters. Each element in the array specifies the parameters for a port on a virtual switch.
 
 ### -param vSwitchInterfaces 
+
 [in, optional]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_array">NDIS_SWITCH_NIC_ARRAY</a> structure that specifies an array of miniport adapter configuration parameters. Each element in the array specifies the parameters for a virtual or physical miniport adapter that is attached to a port on a virtual switch.   
-
-
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_array">NDIS_SWITCH_NIC_ARRAY</a> structure that specifies an array of miniport adapter configuration parameters. Each element in the array specifies the parameters for a virtual or physical miniport adapter that is attached to a port on a virtual switch.
 
 ## -returns
-
-
 
 A callout's 
   
@@ -126,10 +117,6 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
@@ -146,13 +133,7 @@ In the WFP filter driver's  <a href="https://docs.microsoft.com/windows-hardware
 
 A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
@@ -207,7 +188,4 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-array">OID_SWITCH_PORT_ARRAY</a>
- 
-
- 
 

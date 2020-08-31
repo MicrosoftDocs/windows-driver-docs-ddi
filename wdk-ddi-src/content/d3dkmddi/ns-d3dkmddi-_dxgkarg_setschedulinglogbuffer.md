@@ -5,39 +5,42 @@ description: Arguments used in the call to DxgkddiSetSchedulingLogBuffer.
 ms.assetid: 717395a0-86b7-4945-b3bf-c991e1c97406
 ms.date: 10/19/2018
 keywords: ["DXGKARG_SETSCHEDULINGLOGBUFFER structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARG_SETSCHEDULINGLOGBUFFER"
- - "_DXGKARG_SETSCHEDULINGLOGBUFFER"
 ms.keywords: _DXGKARG_SETSCHEDULINGLOGBUFFER, DXGKARG_SETSCHEDULINGLOGBUFFER,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_SETSCHEDULINGLOGBUFFER
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARG_SETSCHEDULINGLOGBUFFER
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGKARG_SETSCHEDULINGLOGBUFFER
+ - d3dkmddi/_DXGKARG_SETSCHEDULINGLOGBUFFER
+ - DXGKARG_SETSCHEDULINGLOGBUFFER
+ - d3dkmddi/DXGKARG_SETSCHEDULINGLOGBUFFER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARG_SETSCHEDULINGLOGBUFFER
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGKARG_SETSCHEDULINGLOGBUFFER structure
+
 
 ## -description
 
@@ -69,7 +72,7 @@ GPU VA of the log buffer.
 
 Index of entry to raise interrupt when writing to.
 
-
 ## -see-also
 
 [DxgkddiSetSchedulingLogBuffer](nc-d3dkmddi-dxgkddi_setschedulinglogbuffer.md)
+

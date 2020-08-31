@@ -8,9 +8,6 @@ ms.assetid: d6f02142-1cd8-4f09-b106-d963bf080495
 ms.date: 04/16/2018
 keywords: ["SeSetSecurityDescriptorInfo function"]
 ms.keywords: SeSetSecurityDescriptorInfo, SeSetSecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfo, ntifs/SeSetSecurityDescriptorInfo, seref_061b8609-a537-4ccb-aa60-50a46b08e97f.xml
-f1_keywords:
- - "ntifs/SeSetSecurityDescriptorInfo"
- - "SeSetSecurityDescriptorInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeSetSecurityDescriptorInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeSetSecurityDescriptorInfo
+ - ntifs/SeSetSecurityDescriptorInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeSetSecurityDescriptorInfo
 ---
 
 # SeSetSecurityDescriptorInfo function
@@ -46,21 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeSetSecurityDescriptorInfo</b> routine sets an object's security descriptor.
-
 
 ## -parameters
 
-
-
-
 ### -param Object 
+
 [in, optional]
 Pointer to the object whose security descriptor is to be set. This is used to update security quota information.
 
-
 ### -param SecurityInformation 
+
 [in]
 Pointer to a bitmask specifying which security information is to be applied to the object. Can be a combination of one or more of the following values. 
 
@@ -110,20 +106,18 @@ Indicates the system ACL (SACL) of the object is being set. Requires ACCESS_SYST
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ModificationDescriptor
 
 <p>The input security descriptor to be applied to the object. The caller of this routine is expected to probe and capture the passed security descriptor before calling <b>SeSetSecurityDescriptorInfo</b>, and to release it afterward.</p>
 
-
 ### -param ObjectsSecurityDescriptor 
+
 [in, out]
 Pointer to a pointer to the object's security descriptor. The security descriptor must be in self-relative format. The caller is responsible for freeing this structure when it is no longer needed.
 
-
 ### -param PoolType 
+
 [in]
 Specifies the pool type to use when allocating a new security descriptor, which can be one of the following: 
 
@@ -139,13 +133,11 @@ Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the
 <div> </div>
 
 ### -param GenericMapping 
+
 [in]
 Pointer to a GENERIC_MAPPING structure that specifies the mapping of generic to specific and standard access types for the object being accessed. This mapping structure is expected to be safe to access (that is, captured if necessary) prior to be passed to this routine.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -186,14 +178,8 @@ The object does not have a security descriptor.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SeSetSecurityDescriptorInfo</b> modifies an object's existing security descriptor. If the object does not have a security descriptor, the call to <b>SeSetSecurityDescriptorInfo</b> will fail.
 
@@ -203,13 +189,7 @@ A security descriptor can be in absolute or self-relative form. In self-relative
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
 
@@ -264,7 +244,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sesetsecuritydescriptorinfoex">SeSetSecurityDescriptorInfoEx</a>
- 
-
- 
 

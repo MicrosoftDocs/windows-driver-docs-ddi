@@ -8,9 +8,6 @@ ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.date: 04/30/2019
 keywords: ["MEDIUM_INFO structure"]
 ms.keywords: "*PMEDIUM_INFO, MEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], ksmedia/MEDIUM_INFO, ksmedia/PMEDIUM_INFO, stream.medium_info, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml"
-f1_keywords:
- - "ksmedia/MEDIUM_INFO"
- - "MEDIUM_INFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- MEDIUM_INFO
 targetos: Windows
 req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
+f1_keywords:
+ - PMEDIUM_INFO
+ - ksmedia/PMEDIUM_INFO
+ - MEDIUM_INFO
+ - ksmedia/MEDIUM_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - MEDIUM_INFO
 ---
 
 # MEDIUM_INFO structure
@@ -46,19 +48,13 @@ req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
 
 ## -description
 
-
 The MEDIUM_INFO structure describes the media loaded into an external device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MediaPresent
 
 Specifies if media is present in the external device. <b>TRUE</b> if media is loaded, <b>FALSE</b> otherwise.
-
 
 ### -field MediaType
 
@@ -100,19 +96,12 @@ Hi-8 cassette
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RecordInhibit
 
 Specifies if recording is inhibited on the media. <b>TRUE</b> if recording onto the media is inhibited, <b>FALSE</b> otherwise.
 
-
 ## -remarks
 
-
-
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
-
-
 

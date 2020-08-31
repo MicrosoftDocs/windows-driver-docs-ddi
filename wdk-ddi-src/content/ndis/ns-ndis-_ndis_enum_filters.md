@@ -8,9 +8,6 @@ ms.assetid: 0f57e226-dd60-4e62-8622-bfab5c66f537
 ms.date: 05/02/2018
 keywords: ["NDIS_ENUM_FILTERS structure"]
 ms.keywords: "*PNDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS structure [Network Drivers Starting with Windows Vista], PNDIS_ENUM_FILTERS, PNDIS_ENUM_FILTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ENUM_FILTERS, filter_structures_ref_4fe2a9d2-2539-40bc-9131-735a6337831e.xml, ndis/NDIS_ENUM_FILTERS, ndis/PNDIS_ENUM_FILTERS, netvista.ndis_enum_filters"
-f1_keywords:
- - "ndis/NDIS_ENUM_FILTERS"
- - "NDIS_ENUM_FILTERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_ENUM_FILTERS
 targetos: Windows
 req.typenames: NDIS_ENUM_FILTERS, *PNDIS_ENUM_FILTERS
+f1_keywords:
+ - _NDIS_ENUM_FILTERS
+ - ndis/_NDIS_ENUM_FILTERS
+ - PNDIS_ENUM_FILTERS
+ - ndis/PNDIS_ENUM_FILTERS
+ - NDIS_ENUM_FILTERS
+ - ndis/NDIS_ENUM_FILTERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_ENUM_FILTERS
 ---
 
 # _NDIS_ENUM_FILTERS structure
@@ -46,16 +50,11 @@ req.typenames: NDIS_ENUM_FILTERS, *PNDIS_ENUM_FILTERS
 
 ## -description
 
-
 The NDIS_ENUM_FILTERS structure is returned from the call to the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">
   NdisEnumerateFilterModules</a> function to provide filter information for a filter stack.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,23 +66,19 @@ The
      <b>Revision</b> member to NDIS_ENUM_FILTERS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_ENUM_FILTERS_REVISION_1.
 
-
 ### -field Flags
 
 Reserved for future use.
-
 
 ### -field NumberOfFilters
 
 The number of filter information structures that are included in the array in the 
      <b>Filter</b> member.
 
-
 ### -field OffsetFirstFilter
 
 The offset, in bytes, to the first member of array at the 
      <b>Filter</b> member from the beginning of the NDIS_ENUM_FILTERS structure.
-
 
 ### -field Filter
 
@@ -91,10 +86,7 @@ An array that contains zero or more
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures that
      the call returns.
 
-
 ## -remarks
-
-
 
 The 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">
@@ -104,13 +96,7 @@ The
     array contains one NDIS_FILTER_INTERFACE structure for each NDIS 5.1 or earlier filter intermediate
     driver or NDIS 6.0 or later NDIS filter module that is in the driver stack.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a>
 
@@ -121,7 +107,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a>
- 
-
- 
 

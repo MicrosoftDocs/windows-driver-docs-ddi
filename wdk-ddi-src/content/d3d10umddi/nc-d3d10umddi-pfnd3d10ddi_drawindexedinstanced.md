@@ -7,9 +7,6 @@ ms.assetid: 3dc64562-9dc0-4d43-835d-6fdd509435f8
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_DRAWINDEXEDINSTANCED callback function"]
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced callback function [Display Devices], PFND3D10DDI_DRAWINDEXEDINSTANCED, PFND3D10DDI_DRAWINDEXEDINSTANCED callback, UserModeDisplayDriverDx10_Functions_7452fd0b-4fff-4321-b0ce-464ac0ad2f6d.xml, d3d10umddi/DrawIndexedInstanced, display.drawindexedinstanced
-f1_keywords:
- - "d3d10umddi/DrawIndexedInstanced"
- - "DrawIndexedInstanced"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- DrawIndexedInstanced
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_DRAWINDEXEDINSTANCED
+ - d3d10umddi/PFND3D10DDI_DRAWINDEXEDINSTANCED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - DrawIndexedInstanced
 ---
 
 # PFND3D10DDI_DRAWINDEXEDINSTANCED callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>DrawIndexedInstanced</b> function draws particular instances of indexed primitives.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -71,7 +66,7 @@ The number of indexes per instance of the index buffer that indexes are read fro
 
 *InstanceCount* [in]
 
-The number of instances of the index buffer that indexes are read from to draw the primitives. 
+The number of instances of the index buffer that indexes are read from to draw the primitives.
 
 ### -param Arg4
 
@@ -89,14 +84,9 @@ The number that should be added to each index that is referenced by the various 
 
 *StartInstanceLocation* [in]
 
-The first instance of the index buffer that indexes are read from to draw the primitives. 
-
-
+The first instance of the index buffer that indexes are read from to draw the primitives.
 
 ## -remarks
-
-
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code.  
 
@@ -110,20 +100,11 @@ The driver can use the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>DrawIndexedInstanced</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

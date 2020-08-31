@@ -8,9 +8,6 @@ ms.assetid: c9e18ed0-bc34-49ed-a31e-20c82d43860f
 ms.date: 08/21/2020
 keywords: ["PosBarcodeScannerErrorOccurredEventData structure"]
 ms.keywords: PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, pos.posbarcodescannererroroccurredeventdata
-f1_keywords:
- - "pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData"
- - "PosBarcodeScannerErrorOccurredEventData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PointOfServiceDriverInterface.h
-api_name:
-- PosBarcodeScannerErrorOccurredEventData
 targetos: Windows
 req.typenames: PosBarcodeScannerErrorOccurredEventData
+f1_keywords:
+ - _PosBarcodeScannerErrorOccurredEventData
+ - pointofservicedriverinterface/_PosBarcodeScannerErrorOccurredEventData
+ - PosBarcodeScannerErrorOccurredEventData
+ - pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PointOfServiceDriverInterface.h
+api_name:
+ - PosBarcodeScannerErrorOccurredEventData
 ---
 
 # _PosBarcodeScannerErrorOccurredEventData structure
+
 
 ## -description
 
@@ -91,3 +94,4 @@ The error data should fill the buffer as shown in the following table (in order)
 | Error message text | **MessageLength** |
 | Partial scan data | **PartialData.ScanDataLength** |
 | Label data | **PartialData.ScanDataLabelLength** |
+

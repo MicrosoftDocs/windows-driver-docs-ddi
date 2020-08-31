@@ -8,9 +8,6 @@ ms.assetid: 7E02DDE0-7D55-4FBD-879E-EFBA6A517D86
 ms.date: 05/02/2018
 keywords: ["WWAN_DEVICE_SERVICE_EVENT structure"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_EVENT, netvista.wwan_device_service_event, wwan/PWWAN_DEVICE_SERVICE_EVENT, wwan/WWAN_DEVICE_SERVICE_EVENT"
-f1_keywords:
- - "wwan/WWAN_DEVICE_SERVICE_EVENT"
- - "WWAN_DEVICE_SERVICE_EVENT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_DEVICE_SERVICE_EVENT
 targetos: Windows
 req.typenames: WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT
+f1_keywords:
+ - _WWAN_DEVICE_SERVICE_EVENT
+ - wwan/_WWAN_DEVICE_SERVICE_EVENT
+ - PWWAN_DEVICE_SERVICE_EVENT
+ - wwan/PWWAN_DEVICE_SERVICE_EVENT
+ - WWAN_DEVICE_SERVICE_EVENT
+ - wwan/WWAN_DEVICE_SERVICE_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_DEVICE_SERVICE_EVENT
 ---
 
 # _WWAN_DEVICE_SERVICE_EVENT structure
@@ -46,37 +50,23 @@ req.typenames: WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT
 
 ## -description
 
-
 The WWAN_DEVICE_SERVICE_EVENT structure represents an unsolicited device service event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceServiceGuid
 
 The GUID of the device service that the event originated from.
 
-
 ### -field EventID
 
 The ID for the event.
-
 
 ### -field uDataSize
 
 The size, in bytes, of the device service event data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxCommandDataSize</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_supported_device_services">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_supported_device_services">WWAN_SUPPORTED_DEVICE_SERVICES</a>
- 
-
- 
 

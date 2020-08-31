@@ -8,9 +8,6 @@ ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::EnumConstrainedOptions"]
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumConstrainedOptions method, IPrintCoreUI2.EnumConstrainedOptions, IPrintCoreUI2::EnumConstrainedOptions, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.EnumConstrainedOptions"
- - "IPrintCoreUI2.EnumConstrainedOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.EnumConstrainedOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::EnumConstrainedOptions
+ - prcomoem/IPrintCoreUI2::EnumConstrainedOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.EnumConstrainedOptions
 ---
 
 # IPrintCoreUI2::EnumConstrainedOptions
@@ -46,50 +46,43 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::EnumConstrainedOptions</code> method determines which options of a feature are constrained.
-
 
 ## -parameters
 
-
-
-
 ### -param poemuiobj 
+
 [in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
-
 ### -param dwFlags 
+
 [in]
 Is reserved and must be set to zero.
 
-
 ### -param pszFeatureKeyword 
+
 [in]
 Pointer to a caller-supplied buffer containing the single feature keyword of interest to the caller.
 
-
 ### -param pmszConstrainedOptionList 
+
 [out]
 Pointer to a caller-supplied buffer that receives the list of option keywords, in MULTI_SZ format, for this feature. Each keyword represents an option that is constrained in the current configuration. 
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the constrained option list without having the list filled in.
 
-
 ### -param cbSize 
-[in]
-Specifies the size, in bytes, of the buffer pointed to by <i>pmszConstrainedOptionList</i>. 
 
+[in]
+Specifies the size, in bytes, of the buffer pointed to by <i>pmszConstrainedOptionList</i>.
 
 ### -param pcbNeeded 
+
 [out]
 Pointer to a memory location that receives the actual size, in bytes, of the constrained option list.
 
-
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -160,26 +153,14 @@ The method is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 UI plug-ins that fully replace the core driver's standard UI pages, and is supported only during the UI plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/replacing-driver-supplied-property-sheet-pages">Replacing Driver-Supplied Property Sheet Pages</a> for more information.
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -198,7 +179,4 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

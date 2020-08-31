@@ -8,9 +8,6 @@ ms.assetid: dca09bfc-97cc-43b8-bf57-3d7c2b0321a9
 ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, pos.ioctl_point_of_service_get_device_basics
-f1_keywords:
- - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS"
- - "IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
+ - pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
 ---
 
 # IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL
+
 
 ## -description
 
@@ -82,3 +83,4 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 - STATUS_INSUFFICIENT_RESOURCES: There is insufficient memory.
 
 Provide the version of the POS WinRT API to inform the driver which version of the runtime it is working with. This IOCTL returns the version of the driver in [PosDeviceBasicsType](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posdevicebasicstype), so that you can have the driver version available in the runtime API if you wish to provide it.
+

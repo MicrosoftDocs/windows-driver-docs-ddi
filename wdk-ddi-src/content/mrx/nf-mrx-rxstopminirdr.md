@@ -8,9 +8,6 @@ ms.assetid: 059d2a99-f4da-45f1-8d91-0e57930595d2
 ms.date: 04/16/2018
 keywords: ["RxStopMinirdr function"]
 ms.keywords: RxStopMinirdr, RxStopMinirdr function [Installable File System Drivers], ifsk.rxstopminirdr, mrx/RxStopMinirdr, rxref_3ec6b643-e13c-4aa6-879b-fdb2076e549d.xml
-f1_keywords:
- - "mrx/RxStopMinirdr"
- - "RxStopMinirdr"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mrx.h
-api_name:
-- RxStopMinirdr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxStopMinirdr
+ - mrx/RxStopMinirdr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mrx.h
+api_name:
+ - RxStopMinirdr
 ---
 
 # RxStopMinirdr function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 <b>RxStopMinirdr</b> is called to stop a network mini-redirector that has previously been started. As part of <b>RxStopMinirdr</b>, RDBSS will also de-register the network mini-redirector driver as a universal naming convention (UNC) provider with the Multiple UNC Provider (MUP) if the driver indicates support for UNC names.
-
 
 ## -parameters
 
-
-
-
 ### -param RxContext 
-[in]
-A pointer to the RX_CONTEXT structure to use to get the device object and determine if this is a file system process. 
 
+[in]
+A pointer to the RX_CONTEXT structure to use to get the device object and determine if this is a file system process.
 
 ### -param PostToFsp 
-[out]
-A pointer to a logical value that is set to <b>TRUE</b> on return if the request must be posted for later processing by the file system process. 
 
+[out]
+A pointer to a logical value that is set to <b>TRUE</b> on return if the request must be posted for later processing by the file system process.
 
 ## -returns
-
-
 
 <b>RxStopMinirdr</b> returns STATUS_SUCCESS if the stop sequence was successful or one of the following error values: 
 
@@ -110,14 +103,8 @@ The network mini-redirector was already stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a stop request is issued to RDBSS, there may be ongoing requests in the RDBSS. Some of the requests can be canceled while the remaining requests need to be processed to completion.
 
@@ -141,15 +128,9 @@ The stop sequence for RDBSS and the network mini-redirector must be completed in
 
 If a network mini-redirector indicates support for UNC when registering with RDBSS (the <i>Controls</i> parameter to <b>RxRegisterMinirdr</b>), then <b>RxStopMinirdr</b> will try to de-register the <i>DeviceName</i> of the network mini-redirector as a UNC provider with MUP (calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a> on behalf of the network mini-redirector). <b>RxStopMinirdr</b> also de-registers the file system with the I/O manager (calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfilesystem">IoUnregisterFileSystem</a>) on behalf of the network mini-redirector).
 
-The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxStop</b> callback routine if this routine is implemented. If there are no active FCBs remaining, STATUS_SUCCESS is returned. If there are some remaining active FCBs, STATUS_REDIRECTOR_HAS_OPEN_HANDLES is returned. In either case, the RDBSS dispatcher for the redrector is spun down and the internal state of the network mini-redirector in RDBSS is set to RDBSS_STARTABLE. 
-
-
-
+The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxStop</b> callback routine if this routine is implemented. If there are no active FCBs remaining, STATUS_SUCCESS is returned. If there are some remaining active FCBs, STATUS_REDIRECTOR_HAS_OPEN_HANDLES is returned. In either case, the RDBSS dispatcher for the redrector is spun down and the internal state of the network mini-redirector in RDBSS is set to RDBSS_STARTABLE.
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a>
 
@@ -172,7 +153,4 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxpunregisterminirdr">RxpUnregisterMinirdr</a>
- 
-
- 
 

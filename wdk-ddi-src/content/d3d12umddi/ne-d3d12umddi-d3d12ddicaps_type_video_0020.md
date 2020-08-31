@@ -29,8 +29,8 @@ tech.root: display
 req.typenames: D3D12DDICAPS_TYPE_VIDEO_0020
 ms.custom: 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020"
- - "D3D12DDICAPS_TYPE_VIDEO_0020"
+ - D3D12DDICAPS_TYPE_VIDEO_0020
+ - d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,6 +47,7 @@ dev_langs:
 ---
 
 # D3D12DDICAPS_TYPE_VIDEO_0020 enumeration
+
 
 ## -description
 
@@ -191,3 +192,4 @@ Available starting in Windows 10, version 2004.
 The data used when querying for video motion estimator protected resource support capabilities. Maps to the [**D3D12DDI_VIDEO_DECODE_PROTECTED_RESOURCES_DATA_0072**](ns-d3d12umddi-d3d12ddi_video_decode_protected_resources_data_0072.md) structure.
 
 Available starting in Windows 10, version 2004.
+

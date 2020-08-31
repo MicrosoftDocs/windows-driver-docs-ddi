@@ -8,9 +8,6 @@ ms.assetid: 578f7633-307e-4cda-b8fe-ae73a095976f
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe::RetrievePipePolicy"]
 ms.keywords: IWDFUsbTargetPipe interface,RetrievePipePolicy method, IWDFUsbTargetPipe.RetrievePipePolicy, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
-f1_keywords:
- - "wudfusb/IWDFUsbTargetPipe.RetrievePipePolicy"
- - "IWDFUsbTargetPipe.RetrievePipePolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetPipe.RetrievePipePolicy
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetPipe::RetrievePipePolicy
+ - wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetPipe.RetrievePipePolicy
 ---
 
 # IWDFUsbTargetPipe::RetrievePipePolicy
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrievePipePolicy</b> method retrieves a WinUsb pipe policy.
 
-
 ## -parameters
 
-
-
-
 ### -param PolicyType 
+
 [in]
 The type of WinUsb pipe policy that the UMDF driver requests.
 
-
 ### -param ValueLength 
+
 [in, out]
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrievePipePolicy</b> supplies for <i>Value</i>. On output, this parameter contains the size that <b>RetrievePipePolicy</b> requires for <i>Value</i>.
 
-
 ### -param Value 
+
 [out]
 A pointer that receives the buffer that contains the WinUsb pipe policy.
 
-
 ## -returns
-
-
 
 <b>RetrievePipePolicy</b> returns one of the following values: 
 
@@ -119,14 +112,8 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Pipe policy controls the behavior of the USB pipe (for example, time-outs, handling short packets, and so on).
 
@@ -136,13 +123,7 @@ For information about the behavior of the pipe policies, see <a href="https://do
 
 The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
@@ -153,7 +134,4 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>
- 
-
- 
 

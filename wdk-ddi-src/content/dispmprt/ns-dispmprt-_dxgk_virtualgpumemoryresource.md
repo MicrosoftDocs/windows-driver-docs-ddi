@@ -6,44 +6,49 @@ description: Virtual GPU memory resource.
 tech.root: display
 ms.assetid: c3a78863-0715-4051-9ae1-145bbc2746c6
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
+ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUMEMORYRESOURCE structure"]
-f1_keywords:
- - "dispmprt/_DXGK_VIRTUALGPUMEMORYRESOURCE"
- - "_DXGK_VIRTUALGPUMEMORYRESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGK_VIRTUALGPUMEMORYRESOURCE, DXGK_VIRTUALGPUMEMORYRESOURCE, *PDXGK_VIRTUALGPUMEMORYRESOURCE, 
+ms.keywords: _DXGK_VIRTUALGPUMEMORYRESOURCE, DXGK_VIRTUALGPUMEMORYRESOURCE, *PDXGK_VIRTUALGPUMEMORYRESOURCE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_VIRTUALGPUMEMORYRESOURCE, *PDXGK_VIRTUALGPUMEMORYRESOURCE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGK_VIRTUALGPUMEMORYRESOURCE
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_VIRTUALGPUMEMORYRESOURCE
+ - dispmprt/_DXGK_VIRTUALGPUMEMORYRESOURCE
+ - PDXGK_VIRTUALGPUMEMORYRESOURCE
+ - dispmprt/PDXGK_VIRTUALGPUMEMORYRESOURCE
+ - DXGK_VIRTUALGPUMEMORYRESOURCE
+ - dispmprt/DXGK_VIRTUALGPUMEMORYRESOURCE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_VIRTUALGPUMEMORYRESOURCE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_VIRTUALGPUMEMORYRESOURCE structure
+
 
 ## -description
 
@@ -60,9 +65,11 @@ The driver allocation handle.
 The physical address of the allocation, which include the driver memory segment ID and the segment offset.
 
 ### -field AllocationSize
+
  
 Allocation size in bytes.
 
 ## -remarks
 
 ## -see-also
+

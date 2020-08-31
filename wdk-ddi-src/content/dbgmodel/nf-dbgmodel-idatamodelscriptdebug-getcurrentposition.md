@@ -5,38 +5,38 @@ description: The GetCurrentPosition' method returns the current position within 
 ms.assetid: e6f5d524-a287-4cbb-bd65-28111f213518
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::GetCurrentPosition"]
-f1_keywords:
- - "dbgmodel/IDataModelScriptDebug.GetCurrentPosition"
- - "IDataModelScriptDebug.GetCurrentPosition"
 ms.keywords: IDataModelScriptDebug::GetCurrentPosition, GetCurrentPosition, IDataModelScriptDebug.GetCurrentPosition, IDataModelScriptDebug::GetCurrentPosition, IDataModelScriptDebug.GetCurrentPosition
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScriptDebug.GetCurrentPosition
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScriptDebug::GetCurrentPosition
+ - dbgmodel/IDataModelScriptDebug::GetCurrentPosition
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScriptDebug.GetCurrentPosition
 ---
 
 # IDataModelScriptDebug::GetCurrentPosition
@@ -48,21 +48,24 @@ The GetCurrentPosition' method returns the current position within the script. T
 
 The position of the script is defined as a span of characters. The start of the span must always be returned (both the line and column numbers). If the particular debugger is capable of returning the full span of the "current position" within the script, an ending position can optionally be returned in the positionSpanEnd argument. If the debugger is not capable of this, the line and column values in the span end (if requested) should be set to zero. 
 
-If the debugger can pass the source code for the line of code where the debugger is broken, it may return such from this method. If possible, it is strongly encouraged to provide this information. There is, however, no requirement that any more information than the starting line and column of the break position is returned. If source line information is not supported, a nullptr value may be returned for that argument. 
-
+If the debugger can pass the source code for the line of code where the debugger is broken, it may return such from this method. If possible, it is strongly encouraged to provide this information. There is, however, no requirement that any more information than the starting line and column of the break position is returned. If source line information is not supported, a nullptr value may be returned for that argument.
 
 ## -parameters
 
 ### -param currentPosition
+
 The current break position of the script must be returned here. The Line and Column fields of the returned structure are one based. A zero value in either indicates that the information is unavailable.
 
 ### -param positionSpanEnd
+
 If the debugger is capable of determining the full span of the break position, the ending position of the span can be returned here. If not, zero values should be filled into the Line and Column fields of the returned structure.
 
 ### -param lineText
+
 If the debugger is capable of returning the source code for the line (or the span) of the break, such can be returned here as a string allocated by the SysAllocString function. The caller is responsible for freeing the returned string with SysFreeString. If the debugger is incapable of producing this source information, nullptr should be returned.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -70,3 +73,4 @@ This method returns HRESULT that indicates success or failure.
 ## -see-also
 
 [IDataModelScriptDebug interface](nn-dbgmodel-idatamodelscriptdebug.md)
+

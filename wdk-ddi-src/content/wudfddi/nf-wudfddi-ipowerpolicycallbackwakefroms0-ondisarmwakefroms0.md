@@ -8,9 +8,6 @@ ms.assetid: 04c1eecd-c87f-45c5-be7b-0fbd8e114594
 ms.date: 02/26/2018
 keywords: ["IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0"]
 ms.keywords: IPowerPolicyCallbackWakeFromS0 interface,OnDisarmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, OnDisarmWakeFromS0, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method,IPowerPolicyCallbackWakeFromS0 interface, UMDFDeviceObjectRef_f12fda31-6979-43bf-af04-e46814728ed4.xml, umdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, wdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
-f1_keywords:
- - "wudfddi/IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0"
- - "IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wudfddi.h
-api_name:
-- IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
+ - wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wudfddi.h
+api_name:
+ - IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0
 ---
 
 # IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-A driver's <b>OnDisarmWakeFromS0</b> event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-working-state-s0">system working state</a> (S0). 
-
+A driver's <b>OnDisarmWakeFromS0</b> event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-working-state-s0">system working state</a> (S0).
 
 ## -parameters
 
-
-
-
 ### -param pWdfDevice 
+
 [in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
-
 ## -remarks
-
-
 
 Your driver must provide an <b>OnDisarmWakeFromS0</b> callback function if the driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipowerpolicycallbackwakefroms0">IPowerPolicyCallbackWakeFromS0</a> interface. 
 
@@ -76,13 +69,7 @@ For more information about when the framework calls this callback function, see 
 
 For more information about this callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipowerpolicycallbackwakefroms0">IPowerPolicyCallbackWakeFromS0</a>
 
@@ -93,7 +80,4 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipowerpolicycallbackwakefroms0-onwakefroms0triggered">IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered</a>
- 
-
- 
 

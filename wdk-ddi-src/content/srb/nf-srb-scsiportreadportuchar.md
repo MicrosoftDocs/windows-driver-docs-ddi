@@ -8,9 +8,6 @@ ms.assetid: aaf7e821-4f60-4018-b0ee-d0f3995482c4
 ms.date: 03/29/2018
 keywords: ["ScsiPortReadPortUchar function"]
 ms.keywords: ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, srb/ScsiPortReadPortUchar, storage.scsiportreadportuchar
-f1_keywords:
- - "srb/ScsiPortReadPortUchar"
- - "ScsiPortReadPortUchar"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortReadPortUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortReadPortUchar
+ - srb/ScsiPortReadPortUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortReadPortUchar
 ---
 
 # ScsiPortReadPortUchar function
@@ -47,45 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortReadPortUchar</b> routine reads an unsigned byte value from the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Port 
+
 [in]
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-
 ## -returns
-
-
 
 <b>ScsiPortReadPortUchar</b> returns an unsigned byte from the HBA's I/O port.
 
-
-
-
 ## -remarks
-
-
 
 <b>ScsiPortReadPortUchar</b> ensures that the data is transferred correctly.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>
- 
-
- 
 

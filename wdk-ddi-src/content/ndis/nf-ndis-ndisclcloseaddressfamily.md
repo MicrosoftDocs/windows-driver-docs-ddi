@@ -8,9 +8,6 @@ ms.assetid: ae6b9133-bb98-4858-bef5-1cbe0ae0dd4f
 ms.date: 05/02/2018
 keywords: ["NdisClCloseAddressFamily function"]
 ms.keywords: NdisClCloseAddressFamily, NdisClCloseAddressFamily function [Network Drivers Starting with Windows Vista], condis_client_ref_6aa6db12-2ebe-444a-a239-46542dd1be4a.xml, ndis/NdisClCloseAddressFamily, netvista.ndisclcloseaddressfamily
-f1_keywords:
- - "ndis/NdisClCloseAddressFamily"
- - "NdisClCloseAddressFamily"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisClCloseAddressFamily
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisClCloseAddressFamily
+ - ndis/NdisClCloseAddressFamily
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisClCloseAddressFamily
 ---
 
 # NdisClCloseAddressFamily function
@@ -47,27 +47,20 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisClCloseAddressFamily</b> releases
   the association between a client protocol and a call manager's or MCM driver's registered AF for a
   particular NIC to which the client is bound.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisAfHandle 
+
 [in]
 Specifies the NDIS-supplied handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a>.
 
-
 ## -returns
-
-
 
 When 
       <b>
@@ -93,12 +86,7 @@ If
       current thread, the client will never complete the handling of the 
       <b>NdisCmNotifyCloseAddressFamily</b> request, thus causing a deadlock.
 
-
-
-
 ## -remarks
-
-
 
 A client commonly calls 
     <b>NdisClCloseAddressFamily</b> from its    
@@ -150,13 +138,7 @@ Before a call to
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclnotifycloseaddressfamilycomplete">
     NdisClNotifyCloseAddressFamilyComplete</a> call after the close operation completes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
@@ -183,7 +165,4 @@ Before a call to
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
 

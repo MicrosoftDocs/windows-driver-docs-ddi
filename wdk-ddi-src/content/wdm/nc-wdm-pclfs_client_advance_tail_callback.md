@@ -8,9 +8,6 @@ ms.assetid: e5c3ac56-9e9f-40b8-b8a8-2eb4d41bca52
 ms.date: 04/30/2018
 keywords: ["PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback function"]
 ms.keywords: ClfsAdvanceTailCallback, ClfsAdvanceTailCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_86e7d14f-866d-4023-9f97-d495ac16989f.xml, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback, kernel.clfsadvancetailcallback, wdm/ClfsAdvanceTailCallback
-f1_keywords:
- - "wdm/ClfsAdvanceTailCallback"
- - "ClfsAdvanceTailCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- ClfsAdvanceTailCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK
+ - wdm/PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - ClfsAdvanceTailCallback
 ---
 
 # PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <i>ClfsAdvanceTailCallback</i> function advances the base log sequence number (LSN) of the client's log.
-
 
 ## -parameters
 
-
-
-
 ### -param LogFile 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose tail should be advanced.
 
-
 ### -param TargetLsn 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that contains the LSN that the client should advance its tail to or beyond.
 
-
 ### -param ClientData 
-[in]
-A pointer to client-supplied information. You specify this data in the <b>AdvanceTailCallbackData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a> structure. 
 
+[in]
+A pointer to client-supplied information. You specify this data in the <b>AdvanceTailCallbackData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a> structure.
 
 ## -returns
 
-
-
 The <i>ClfsAdvanceTailCallback</i> function should return either STATUS_PENDING or an error status. A return value of STATUS_PENDING indicates that the request to move the client's log tail will be completed asynchronously. The <b>ClfsMgmtAdvanceTailCallback</b> function must not return STATUS_SUCCESS, even if it completes synchronously.
 
-
-
-
 ## -remarks
-
-
 
 The <i>ClfsAdvanceTailCallback</i> function is called when CLFS management requests that the client advance its log tail.
 
@@ -99,13 +87,7 @@ If the request can be processed, create and queue a work item to perform the act
 </ol>
 When a client calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsAdvanceTailCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsAdvanceTailCallback</i> function when this function is called.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a>
 
@@ -120,7 +102,4 @@ When a client calls the <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmttailadvancefailure">ClfsMgmtTailAdvanceFailure</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
 ms.date: 07/28/2020
 keywords: ["PcwUnregister function"]
 ms.keywords: PcwUnregister, PcwUnregister function [Driver Development Tools], devtest.pcwunregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml, wdm/PcwUnregister
-f1_keywords:
- - "wdm/PcwUnregister"
- - "PcwUnregister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PcwUnregister
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcwUnregister
+ - wdm/PcwUnregister
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PcwUnregister
 ---
 
 # PcwUnregister function
+
 
 ## -description
 
@@ -80,3 +81,4 @@ The CTRPP-generated Unregister function will be named *Prefix*Unregister*Counter
 ## -see-also
 
 [PcwRegister function](nf-wdm-pcwregister.md)
+

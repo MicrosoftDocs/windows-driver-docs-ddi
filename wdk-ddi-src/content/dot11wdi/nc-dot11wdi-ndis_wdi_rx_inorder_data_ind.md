@@ -8,9 +8,6 @@ ms.assetid: F2F92DAE-6C13-4EE6-9DE7-B77F5FAFAE60
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_RX_INORDER_DATA_IND callback function"]
 ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NDIS_WDI_RX_INORDER_DATA_IND callback, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
-f1_keywords:
- - "dot11wdi/NdisWdiRxInorderDataIndication"
- - "NdisWdiRxInorderDataIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- NdisWdiRxInorderDataIndication
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_WDI_RX_INORDER_DATA_IND
+ - dot11wdi/NDIS_WDI_RX_INORDER_DATA_IND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NdisWdiRxInorderDataIndication
 ---
 
 # NDIS_WDI_RX_INORDER_DATA_IND callback function
@@ -46,51 +46,44 @@ req.typenames:
 
 ## -description
 
-
 The 
   NdisWdiRxInorderDataIndication callback function informs the RxMgr that a list of specified RX frames in the correct order are present.
 
 This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisMiniportDataPathHandle 
+
 [in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-
 ### -param IndicationLevel 
+
 [in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_indication_level">WDI_RX_INDICATION_LEVEL</a> enumeration value that specifies the RX indication level.
 
-
 ### -param PeerId 
+
 [in]
 The peer ID.
 
-
 ### -param ExTid 
+
 [in]
 The extended TID.
 
-
 ### -param pRxThrottleParams 
+
 [in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure.
 
-
 ### -param pWifiStatus 
+
 [out]
 Status from WDI for the <i>NdisWdiRxInorderDataIndication</i>.  See the <i>Remarks</i> section for more information.
 
-
 ## -remarks
-
-
 
 The RxEngine uses WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC if this indication is the first data indication <b>NdisWdiRxInorderDataIndication</b>) of a DPC.  Subsequent data indications use WDI_RX_INDICATION_DISPATCH_GENERAL.  If indications are made at passive level, then the RxEngine must use WDI_RX_INDICATION_PASSIVE.  Indications made in the context of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_rx_resume">MiniportWdiRxResume</a> must use WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES.  This parameter gives the RxMgr information necessary for limiting the lifetime of DPCs.
 
@@ -110,13 +103,7 @@ The RxEngine can choose how to handle incoming data while paused.  If possible, 
 
 The RxMgr tracks the number of frames indicated to NDIS against the limit specified in PNDIS_RECEIVE_THROTTLE_PARAMETERS. The RxMgr also tracks the time spent at dispatch.  When limits are reached, the RxMgr returns NDIS_STATUS_PAUSED.  The RxEngine should return/exit DPC as soon as possible, and must not indicate any more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures (via <b>NdisWdiRxInorderDataIndication</b>) until RxMgr calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_rx_resume">MiniportWdiRxResume</a>.  Any <b>NET_BUFFER_LIST</b> structures that are given to RxMgr (via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_rx_get_mpdus">MiniportWdiRxGetMpdus</a>) and have not been indicated up yet are indicated up to NDIS in a different context to avoid spending too much time at DPC.  Once that backlog has been cleared, RxMgr unpauses the RxEngine by invoking  <i>MiniportWdiRxResume</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_rx_get_mpdus">MiniportWdiRxGetMpdus</a>
 
@@ -151,7 +138,4 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_indication_level">WDI_RX_INDICATION_LEVEL</a>
- 
-
- 
 

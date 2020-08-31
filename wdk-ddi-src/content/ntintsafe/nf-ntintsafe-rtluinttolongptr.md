@@ -8,9 +8,6 @@ ms.assetid: B5EA3406-928E-436C-87F9-1C301CB7F592
 ms.date: 04/30/2018
 keywords: ["RtlUIntToLongPtr function"]
 ms.keywords: RtlUIntToLongPtr, RtlUIntToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtluinttolongptr, ntintsafe/RtlUIntToLongPtr
-f1_keywords:
- - "ntintsafe/RtlUIntToLongPtr"
- - "RtlUIntToLongPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlUIntToLongPtr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUIntToLongPtr
+ - ntintsafe/RtlUIntToLongPtr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlUIntToLongPtr
 ---
 
 # RtlUIntToLongPtr function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>UINT</b> to a value of type <b>LONG_PTR</b>.
-
 
 ## -parameters
 
-
-
-
 ### -param uOperand 
+
 [in]
 The value to be converted.
 
-
 ### -param plResult 
+
 [out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -79,5 +72,4 @@ This function uses the following alternate name:
 <li>RtlUInt32ToLongPtr
 </li>
 </ul>
-
 

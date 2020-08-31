@@ -8,9 +8,6 @@ ms.assetid: 964009ab-5f90-4f23-b22a-4c3e03d2449e
 ms.date: 03/29/2018
 keywords: ["INTERRUPT_SYNCHRONIZATION_MODE enumeration"]
 ms.keywords: INTERRUPT_SYNCHRONIZATION_MODE, INTERRUPT_SYNCHRONIZATION_MODE enumeration [Storage Devices], InterruptSupportNone, InterruptSynchronizeAll, InterruptSynchronizePerMessage, _INTERRUPT_SYNCHRONIZATION_MODE, storage.interrupt_synchronization_mode, storport/INTERRUPT_SYNCHRONIZATION_MODE, storport/InterruptSupportNone, storport/InterruptSynchronizeAll, storport/InterruptSynchronizePerMessage, structs-storport_036aa424-5b04-4bf5-8418-8da008834c5b.xml
-f1_keywords:
- - "storport/INTERRUPT_SYNCHRONIZATION_MODE"
- - "INTERRUPT_SYNCHRONIZATION_MODE"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- INTERRUPT_SYNCHRONIZATION_MODE
 targetos: Windows
 req.typenames: INTERRUPT_SYNCHRONIZATION_MODE
+f1_keywords:
+ - _INTERRUPT_SYNCHRONIZATION_MODE
+ - storport/_INTERRUPT_SYNCHRONIZATION_MODE
+ - INTERRUPT_SYNCHRONIZATION_MODE
+ - storport/INTERRUPT_SYNCHRONIZATION_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - INTERRUPT_SYNCHRONIZATION_MODE
 ---
 
 # _INTERRUPT_SYNCHRONIZATION_MODE enumeration
+
 
 ## -description
 
@@ -74,3 +77,4 @@ Miniport drivers define the HBA's interrupt synchronization mode by assigning on
 [**StorPortAcquireMSISpinLock**](nf-storport-storportacquiremsispinlock.md)
 
 [**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md)
+

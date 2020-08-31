@@ -20,23 +20,27 @@ req.target-type: Windows
 req.typenames: SDEV_SECURE_RESOURCE_ID_ENTRY, *PSDEV_SECURE_RESOURCE_ID_ENTRY
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- _SDEV_SECURE_RESOURCE_ID_ENTRY
-- SDEV_SECURE_RESOURCE_ID_ENTRY
-f1_keywords:
-- acpitabl/_SDEV_SECURE_RESOURCE_ID_ENTRY
-- acpitabl/SDEV_SECURE_RESOURCE_ID_ENTRY
-- SDEV_SECURE_RESOURCE_ID_ENTRY
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _SDEV_SECURE_RESOURCE_ID_ENTRY
+ - SDEV_SECURE_RESOURCE_ID_ENTRY
+f1_keywords:
+ - _SDEV_SECURE_RESOURCE_ID_ENTRY
+ - acpitabl/_SDEV_SECURE_RESOURCE_ID_ENTRY
+ - PSDEV_SECURE_RESOURCE_ID_ENTRY
+ - acpitabl/PSDEV_SECURE_RESOURCE_ID_ENTRY
+ - SDEV_SECURE_RESOURCE_ID_ENTRY
+ - acpitabl/SDEV_SECURE_RESOURCE_ID_ENTRY
 ---
 
 # _SDEV_SECURE_RESOURCE_ID_ENTRY structure
+
 
 ## -description
 
@@ -75,3 +79,4 @@ The hardware revision present value.
 ## -remarks
 
 ## -see-also
+

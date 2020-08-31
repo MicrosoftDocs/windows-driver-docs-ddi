@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnCreatePagingQueueCb"
- - "pfnCreatePagingQueueCb"
+ - PFND3DDDI_CREATEPAGINGQUEUECB
+ - d3dumddi/PFND3DDDI_CREATEPAGINGQUEUECB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATEPAGINGQUEUECB callback function
+
 
 ## -description
 

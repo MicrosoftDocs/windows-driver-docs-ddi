@@ -8,9 +8,6 @@ ms.assetid: ee6b4a41-e4a7-41b8-9ca9-77b9052724a3
 ms.date: 04/16/2018
 keywords: ["FltSetVolumeInformation function"]
 ms.keywords: FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers], fltkernel/FltSetVolumeInformation, ifsk.fltsetvolumeinformation
-f1_keywords:
- - "fltkernel/FltSetVolumeInformation"
- - "FltSetVolumeInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetVolumeInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetVolumeInformation
+ - fltkernel/FltSetVolumeInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetVolumeInformation
 ---
 
 # FltSetVolumeInformation function
@@ -46,36 +46,32 @@ req.typenames:
 
 ## -description
 
-
-<b>FltSetVolumeInformation</b> changes various kinds of information about the volume that the given instance is attached to. 
-
+<b>FltSetVolumeInformation</b> changes various kinds of information about the volume that the given instance is attached to.
 
 ## -parameters
 
-
-
-
 ### -param Instance 
-[in]
-Opaque instance pointer for a minifilter driver instance that is attached to the volume. 
 
+[in]
+Opaque instance pointer for a minifilter driver instance that is attached to the volume.
 
 ### -param Iosb 
-[out]
-Pointer to an IO_STATUS_BLOCK structure that receives the final completion status and information about the operation. 
 
+[out]
+Pointer to an IO_STATUS_BLOCK structure that receives the final completion status and information about the operation.
 
 ### -param FsInformation 
-[out]
-Pointer to a caller-allocated buffer containing the values to be set for the volume. The structure of the information contained in the buffer is defined by the <i>FsInformationClass</i> parameter. 
 
+[out]
+Pointer to a caller-allocated buffer containing the values to be set for the volume. The structure of the information contained in the buffer is defined by the <i>FsInformationClass</i> parameter.
 
 ### -param Length 
-[in]
-Size in bytes of the buffer that <i>FsInformation </i>points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof(</b>FILE_FS_CONTROL_INFORMATION<b>)</b>. 
 
+[in]
+Size in bytes of the buffer that <i>FsInformation </i>points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof(</b>FILE_FS_CONTROL_INFORMATION<b>)</b>.
 
 ### -param FsInformationClass 
+
 [in]
 Type of information to be set for the volume. One of the following. 
 
@@ -115,12 +111,8 @@ Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-nt
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>FltSetVolumeInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -174,24 +166,12 @@ The <i>Instance</i> is attached to a network volume. <b>FltSetVolumeInformation<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To query information about a volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>. 
-
-
-
+To query information about a volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a>
 
@@ -206,7 +186,4 @@ To query information about a volume, call <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>
- 
-
- 
 

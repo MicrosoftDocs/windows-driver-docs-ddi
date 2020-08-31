@@ -8,9 +8,6 @@ ms.assetid: ca6bd14b-533d-4451-b54f-29bc566c968d
 ms.date: 03/29/2018
 keywords: ["ScsiPortWritePortBufferUshort function"]
 ms.keywords: ScsiPortWritePortBufferUshort, ScsiPortWritePortBufferUshort routine [Storage Devices], scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml, srb/ScsiPortWritePortBufferUshort, storage.scsiportwriteportbufferushort
-f1_keywords:
- - "srb/ScsiPortWritePortBufferUshort"
- - "ScsiPortWritePortBufferUshort"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortWritePortBufferUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortWritePortBufferUshort
+ - srb/ScsiPortWritePortBufferUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortWritePortBufferUshort
 ---
 
 # ScsiPortWritePortBufferUshort function
@@ -47,46 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortWritePortBufferUshort</b> routine transfers a given number of USHORT values from a buffer to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Port 
+
 [in]
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-
 ### -param Buffer 
+
 [in]
 Pointer to the buffer.
 
-
 ### -param Count 
+
 [in]
 Specifies the number of USHORT values to be written to the HBA.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>
- 
-
- 
 

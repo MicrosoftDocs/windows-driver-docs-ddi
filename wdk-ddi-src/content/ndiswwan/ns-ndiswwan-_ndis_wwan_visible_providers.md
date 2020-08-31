@@ -8,9 +8,6 @@ ms.assetid: ed30def8-41c5-4fa9-8098-80f47ddaaa99
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_VISIBLE_PROVIDERS structure"]
 ms.keywords: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VISIBLE_PROVIDERS, PNDIS_WWAN_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_45997454-b06e-4291-82f5-57e29d8afa7e.xml, _NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS, netvista.ndis_wwan_visible_providers"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS"
- - "NDIS_WWAN_VISIBLE_PROVIDERS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_VISIBLE_PROVIDERS
 targetos: Windows
 req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+f1_keywords:
+ - _NDIS_WWAN_VISIBLE_PROVIDERS
+ - ndiswwan/_NDIS_WWAN_VISIBLE_PROVIDERS
+ - PNDIS_WWAN_VISIBLE_PROVIDERS
+ - ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS
+ - NDIS_WWAN_VISIBLE_PROVIDERS
+ - ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # _NDIS_WWAN_VISIBLE_PROVIDERS structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 
 ## -description
 
-
 The NDIS_WWAN_VISIBLE_PROVIDERS structure represents a list of visible providers and the number of
   providers in the list.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +104,6 @@ sizeof(NDIS_WWAN_VISIBLE_PROVIDERS)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -194,8 +192,6 @@ Service activation has failed. Subscription has expired. Device does not allow s
 </td>
 </tr>
 </table>
- 
-
 
 ### -field VisibleListHeader
 
@@ -206,18 +202,11 @@ A formatted
 
 This member points to the list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a> structures that use the WWAN_LIST_HEADER structure. <b>WwanDataClass</b> flags describe the presence of the specific data access technology and can be set to any combination according to the availability of the data-classes
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
- 
-
- 
 

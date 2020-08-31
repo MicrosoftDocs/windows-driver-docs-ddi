@@ -8,13 +8,10 @@ ms.assetid: 4581b852-f539-4cad-93fd-2638c885c2e7
 ms.date: 05/03/2018
 keywords: ["wiasDownSampleBuffer function"]
 ms.keywords: image.wiasdownsamplebuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml
-f1_keywords:
- - "wiamdef/wiasDownSampleBuffer"
- - "wiasDownSampleBuffer"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasDownSampleBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasDownSampleBuffer
+ - wiamdef/wiasDownSampleBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasDownSampleBuffer
 ---
 
 # wiasDownSampleBuffer function
+
 
 ## -description
 
@@ -58,6 +59,7 @@ Specifies a set of flags that determine the behavior of this function. Currently
 | **WIAS_GET_DOWNSAMPLED_SIZE_ONLY** | Do not copy the downsampled data to the destination buffer. Instead, set the following members of the [WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info) structure: **ulDownSampledHeight**, **ulDownSampleWidth**, **ulAlignedHeight**, **ulAlignedWidth**. |
 
 ### -param pInfo 
+
 [in, out]
 Pointer to the [WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info) structure that contains all of the information needed for the downsampling operation.
 
@@ -104,3 +106,4 @@ If the original image has a resolution of R*in* dpi, and is to be scaled down to
 ## -see-also
 
 [WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info)
+

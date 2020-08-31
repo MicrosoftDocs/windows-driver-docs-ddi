@@ -8,9 +8,6 @@ ms.assetid: BD1CB6CE-4196-4B85-AED0-A7B8ED957ADF
 ms.date: 02/15/2018
 keywords: ["GNSS_SINGLESHOT_PARAM structure"]
 ms.keywords: "*PGNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM structure [Sensor Devices], PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices], gnss.gnss_singleshot_param, gnssdriver/GNSS_SINGLESHOT_PARAM, gnssdriver/PGNSS_SINGLESHOT_PARAM"
-f1_keywords:
- - "gnssdriver/GNSS_SINGLESHOT_PARAM"
- - "GNSS_SINGLESHOT_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_SINGLESHOT_PARAM
 targetos: Windows
 req.typenames: GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM
+f1_keywords:
+ - PGNSS_SINGLESHOT_PARAM
+ - gnssdriver/PGNSS_SINGLESHOT_PARAM
+ - GNSS_SINGLESHOT_PARAM
+ - gnssdriver/GNSS_SINGLESHOT_PARAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_SINGLESHOT_PARAM
 ---
 
 # GNSS_SINGLESHOT_PARAM structure
@@ -46,24 +48,17 @@ req.typenames: GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM
 
 ## -description
 
-
 This structure defines the parameters for a single-shot fix session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field ResponseTime
 

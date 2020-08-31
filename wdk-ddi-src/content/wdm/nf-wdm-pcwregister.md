@@ -8,9 +8,6 @@ ms.assetid: 40fdb77c-bd6b-4ecd-a9c8-fd5e5b2adc80
 ms.date: 07/28/2020
 keywords: ["PcwRegister function"]
 ms.keywords: PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister
-f1_keywords:
- - "wdm/PcwRegister"
- - "PcwRegister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PcwRegister
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcwRegister
+ - wdm/PcwRegister
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PcwRegister
 ---
 
 # PcwRegister function
+
 
 ## -description
 
@@ -132,3 +133,4 @@ If using your own handle variables instead of *Counterset* to store the handle, 
 [PcwUnregister function](nf-wdm-pcwunregister.md)
 
 [_PCW_REGISTRATION_INFORMATION structure](ns-wdm-_pcw_registration_information.md)
+

@@ -8,9 +8,6 @@ ms.assetid: ac54ac59-4144-4449-a732-b9da16338ddf
 ms.date: 04/20/2018
 keywords: ["IXpsPartIterator::Next"]
 ms.keywords: IXpsPartIterator interface [Print Devices],Next method, IXpsPartIterator.Next, IXpsPartIterator::Next, Next, Next method [Print Devices], Next method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Next, filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml, print.ixpspartiterator_next
-f1_keywords:
- - "filterpipeline/IXpsPartIterator.Next"
- - "IXpsPartIterator.Next"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Filterpipeline.h
-api_name:
-- IXpsPartIterator.Next
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsPartIterator::Next
+ - filterpipeline/IXpsPartIterator::Next
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Filterpipeline.h
+api_name:
+ - IXpsPartIterator.Next
 ---
 
 # IXpsPartIterator::Next
@@ -46,7 +46,5 @@ req.typenames:
 
 ## -description
 
-
 The <code>Next</code> method advances the iterator to the next part.
-
 

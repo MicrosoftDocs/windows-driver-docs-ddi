@@ -8,9 +8,6 @@ ms.assetid: 8B601E53-9BE9-4D84-819E-3B0BD07560BC
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CREATE_QP callback function"]
 ms.keywords: NDK_FN_CREATE_QP, NDK_FN_CREATE_QP callback, NdkCreateQp, NdkCreateQp callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQp, netvista.ndk_fn_create_qp
-f1_keywords:
- - "ndkpi/NdkCreateQp"
- - "NdkCreateQp"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkCreateQp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_CREATE_QP
+ - ndkpi/NDK_FN_CREATE_QP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkCreateQp
 ---
 
 # NDK_FN_CREATE_QP callback function
@@ -46,78 +46,70 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkCreateQp</i> (<i>NDK_FN_CREATE_QP</i>) function creates an NDK queue pair (QP) object.
-
 
 ## -parameters
 
-
-
-
 ### -param pNdkPd 
+
 [in]
 A pointer to an NDK protection domain (PD) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>).
 
-
 ### -param pReceiveCq 
+
 [in]
 A pointer to a completion queue (CQ) to use for receive request completions (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 
-
 ### -param pInitiatorCq 
+
 [in]
 A pointer to a CQ to use for initiator request completions.
 
-
 ### -param QPContext 
+
 [in, optional]
 A context value to be returned in the <b>QPContext</b> member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for all requests that are posted over this QP.
 
-
 ### -param ReceiveQueueDepth 
+
 [in]
 The maximum number of receive requests that can be outstanding over the QP. This value must be less than or equal to the value in the  <b>MaxReceiveQueueDepth</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
-
 ### -param InitiatorQueueDepth 
+
 [in]
 The maximum number of initiator requests that can be outstanding over the QP. This value must be less than or equal to the value in the  <b>MaxInitiatorQueueDepth</b> member of the  NDK_ADAPTER_INFO structure.
 
-
 ### -param MaxReceiveRequestSge 
+
 [in]
 The maximum number of SGEs that can be supported in a single receive request. This value must be less than or equal to the value in the  <b>MaxReceiveRequestSge</b> member of the  NDK_ADAPTER_INFO structure.
 
-
 ### -param MaxInitiatorRequestSge 
+
 [in]
 The maximum number of SGEs that can be supported in a single initiator request. This value must be less than or equal to the value in the  <b>MaxInitiatorRequestSge</b> member of the  NDK_ADAPTER_INFO structure.
 
-
 ### -param InlineDataSize 
+
 [in]
 The maximum amount of inline data in bytes that can be sent in a single send or write request. This value must be less than or equal to the value in the  <b>MaxInlineDataSize</b> member of the  NDK_ADAPTER_INFO structure.
 
-
 ### -param CreateCompletion 
+
 [in]
 A pointer to an <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
-
 ### -param RequestContext 
+
 [in, optional]
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
-
-#### -param *ppNdkQp
+### -param *ppNdkQp
 
 A pointer to a created QP object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
-
 ## -returns
-
-
 
 The 
      <i>NdkCreateQp</i> function returns one of the following NTSTATUS codes.
@@ -186,26 +178,14 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>NdkCreateQp</i> function creates an   NDK queue pair (QP) object.  A QP consists of a receive queue and an initiator queue. The receive queue is used to  post receive requests. An initiator queue is used for initiating send, bind, fast-register, read, write, and invalidate requests.
 
 If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkQp</i> parameter. If <i>NdkCreateQp</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -232,7 +212,4 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
- 
-
- 
 

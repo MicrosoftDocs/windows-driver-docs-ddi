@@ -8,9 +8,6 @@ ms.assetid: 7ac67110-bc92-457a-88f4-a21f2fa38174
 ms.date: 04/16/2018
 keywords: ["IoEnumerateRegisteredFiltersList function"]
 ms.keywords: IoEnumerateRegisteredFiltersList, IoEnumerateRegisteredFiltersList routine [Installable File System Drivers], ifsk.ioenumerateregisteredfilterslist, ioref_b1530889-7d8a-4fd7-a7d3-954b1c7012ca.xml, ntifs/IoEnumerateRegisteredFiltersList
-f1_keywords:
- - "ntifs/IoEnumerateRegisteredFiltersList"
- - "IoEnumerateRegisteredFiltersList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoEnumerateRegisteredFiltersList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoEnumerateRegisteredFiltersList
+ - ntifs/IoEnumerateRegisteredFiltersList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoEnumerateRegisteredFiltersList
 ---
 
 # IoEnumerateRegisteredFiltersList function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoEnumerateRegisteredFiltersList</b> routine enumerates the file system filter drivers that have registered with the system. 
-
+The <b>IoEnumerateRegisteredFiltersList</b> routine enumerates the file system filter drivers that have registered with the system.
 
 ## -parameters
 
-
-
-
 ### -param DriverObjectList 
-[out]
-A pointer to a caller-allocated array that receives the driver object pointers. This parameter is optional and can be <b>NULL</b>. (See the following Remarks section.) 
 
+[out]
+A pointer to a caller-allocated array that receives the driver object pointers. This parameter is optional and can be <b>NULL</b>. (See the following Remarks section.)
 
 ### -param DriverObjectListSize 
-[in]
-Size, in bytes, of the <i>DriverObjectList</i> array. Can be zero. (See the following Remarks section.) 
 
+[in]
+Size, in bytes, of the <i>DriverObjectList</i> array. Can be zero. (See the following Remarks section.)
 
 ### -param ActualNumberDriverObjects 
-[out]
-Actual number of driver objects found. Note that if the array at <i>DriverObjectList</i> is too small, the number of driver object pointers that are copied into the array will be less than <i>ActualNumberDriverObjects</i>. 
 
+[out]
+Actual number of driver objects found. Note that if the array at <i>DriverObjectList</i> is too small, the number of driver object pointers that are copied into the array will be less than <i>ActualNumberDriverObjects</i>.
 
 ## -returns
-
-
 
 <b>IoEnumerateRegisteredFiltersList</b> can return one of the following: 
 
@@ -104,14 +97,8 @@ The array at <i>DriverObjectList</i> is too small to hold the entire driver obje
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A file system filter driver calls <b>IoEnumerateRegisteredFiltersList</b> to obtain an array of pointers to the driver objects for all file system filter drivers that have called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchange">IoRegisterFsRegistrationChange</a>. 
 
@@ -123,15 +110,9 @@ The filter driver typically calls <b>IoEnumerateRegisteredFiltersList</b> twice:
 
 <b>IoEnumerateRegisteredFiltersList</b> increments the reference count on every driver object in the list pointed to by <i>DriverObjectList</i>. Thus every successful call to <b>IoEnumerateRegisteredFiltersList</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>for each driver object in the list. Failure to do so prevents the system from freeing or deleting these driver objects because of an outstanding reference count. 
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a> instead of <b>IoEnumerateRegisteredFiltersList</b>. 
-
-
-
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a> instead of <b>IoEnumerateRegisteredFiltersList</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a>
 
@@ -146,7 +127,4 @@ Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
- 
-
- 
 

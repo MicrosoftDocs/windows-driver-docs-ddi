@@ -7,9 +7,6 @@ ms.assetid: fe472b54-09f5-4689-a3d1-0985dafa7d4b
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO callback, d3d10umddi/pfnVideoProcessorSetStreamPixelAspectRatio, display.videoprocessorsetstreampixelaspectratio, pfnVideoProcessorSetStreamPixelAspectRatio, pfnVideoProcessorSetStreamPixelAspectRatio callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamPixelAspectRatio"
- - "pfnVideoProcessorSetStreamPixelAspectRatio"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetStreamPixelAspectRatio
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetStreamPixelAspectRatio
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO callback function
@@ -46,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Sets the pixel aspect ratio for an input stream on the video processor.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -103,11 +96,7 @@ A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect rat
 </div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Pixel aspect ratios of the form 0/<i>n</i> and <i>n</i>/0 are not valid.
 
@@ -122,12 +111,7 @@ The driver reports its ability to support the pixel aspect ratio capability in t
 <div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO </b> capability, the Microsoft Direct3D runtime does not call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamalpha">VideoProcessorSetStreamAlpha</a> function.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
@@ -138,7 +122,4 @@ The driver reports its ability to support the pixel aspect ratio capability in t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps">GetVideoProcessorCaps</a>
- 
-
- 
 

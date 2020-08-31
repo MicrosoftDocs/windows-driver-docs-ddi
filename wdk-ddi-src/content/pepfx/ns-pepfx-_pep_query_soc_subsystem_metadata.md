@@ -8,9 +8,6 @@ ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
 ms.date: 04/30/2018
 keywords: ["PEP_QUERY_SOC_SUBSYSTEM_METADATA structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA"
-f1_keywords:
- - "pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA"
- - "PEP_QUERY_SOC_SUBSYSTEM_METADATA"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_QUERY_SOC_SUBSYSTEM_METADATA
 targetos: Windows
 req.typenames: PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA
+f1_keywords:
+ - _PEP_QUERY_SOC_SUBSYSTEM_METADATA
+ - pepfx/_PEP_QUERY_SOC_SUBSYSTEM_METADATA
+ - PPEP_QUERY_SOC_SUBSYSTEM_METADATA
+ - pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA
+ - PEP_QUERY_SOC_SUBSYSTEM_METADATA
+ - pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_QUERY_SOC_SUBSYSTEM_METADATA
 ---
 
 # _PEP_QUERY_SOC_SUBSYSTEM_METADATA structure
@@ -46,56 +50,39 @@ req.typenames: PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METAD
 
 ## -description
 
-
 The <b>PEP_QUERY_SOC_SUBSYSTEM_METADATA</b> structure is used with the <b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b> notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PlatformIdleStateIndex
 
 [in] The platform idle state index for the SoC subsystem that the OS is querying.
 
-
 ### -field SubsystemHandle
 
 [in] A context pointer that the PEP previously provided on subsystem initialization. The context pointer is optional, so if none was provided then the value will be zero. The PEP is free to ignore this field.
-
 
 ### -field SubsystemName
 
 [in] The name of the subsystem whose metadata is being queried.
 
-
 ### -field Flags
 
 This member is reserved and should be set to zero.
-
 
 ### -field MetadataCount
 
 [in] The number of entries in the <b>Metadata</b> array.  The PEP previously provided this value as <b>PEP_QUERY_SOC_SUBSYSTEM.MetadataCount</b>.
 
-
 ### -field Metadata
 
 [in/out] An array of pointers to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
 
-
 ## -see-also
-
-
-
 
 <b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_SOC_SUBSYSTEM_METADATA</a>
- 
-
- 
 

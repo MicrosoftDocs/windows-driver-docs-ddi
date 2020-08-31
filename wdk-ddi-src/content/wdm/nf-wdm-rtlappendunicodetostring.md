@@ -8,9 +8,6 @@ ms.assetid: 688f033b-1f0e-4f0a-9ccd-457ba726d728
 ms.date: 04/30/2018
 keywords: ["RtlAppendUnicodeToString function"]
 ms.keywords: RtlAppendUnicodeToString, RtlAppendUnicodeToString routine [Kernel-Mode Driver Architecture], k109_7bbe9676-db08-4bf2-b2d5-37b257621336.xml, kernel.rtlappendunicodetostring, wdm/RtlAppendUnicodeToString
-f1_keywords:
- - "wdm/RtlAppendUnicodeToString"
- - "RtlAppendUnicodeToString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlAppendUnicodeToString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlAppendUnicodeToString
+ - wdm/RtlAppendUnicodeToString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlAppendUnicodeToString
 ---
 
 # RtlAppendUnicodeToString function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlAppendUnicodeToString</b> routine concatenates the supplied Unicode string to a buffered Unicode string. 
-
+The <b>RtlAppendUnicodeToString</b> routine concatenates the supplied Unicode string to a buffered Unicode string.
 
 ## -parameters
 
-
-
-
 ### -param Destination 
-[in, out]
-A pointer to the buffered string. 
 
+[in, out]
+A pointer to the buffered string.
 
 ### -param Source 
+
 [in, optional]
 A pointer to the null-terminated string to append to the <i>Destination</i> string.
 
-
 ## -returns
-
-
 
 <b>RtlAppendUnicodeToString</b> can return one of the following:
 
@@ -100,14 +93,8 @@ The destination string buffer is too small to allow the source string to be appe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlAppendUnicodeToString</b> appends the source string to the end of the destination string.
 
@@ -115,16 +102,7 @@ If the destination buffer is not large enough to contain the string that would r
 
 The <i>Destination</i> buffer must be resident if the caller is running at IRQL >= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlappendunicodestringtostring">RtlAppendUnicodeStringToString</a>
- 
-
- 
 

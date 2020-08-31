@@ -8,9 +8,6 @@ ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
 ms.date: 05/02/2018
 keywords: ["NdisSetOptionalHandlers function"]
 ms.keywords: NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisSetOptionalHandlers, ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers
-f1_keywords:
- - "ndis/NdisSetOptionalHandlers"
- - "NdisSetOptionalHandlers"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisSetOptionalHandlers
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisSetOptionalHandlers
+ - ndis/NdisSetOptionalHandlers
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisSetOptionalHandlers
 ---
 
 # NdisSetOptionalHandlers function
@@ -47,15 +47,10 @@ req.typenames:
 
 ## -description
 
-
 NDIS drivers can call the 
   <b>NdisSetOptionalHandlers</b> function to set or change the entry points of driver functions.
 
-
 ## -parameters
-
-
-
 
 ### -param NdisHandle
 
@@ -77,7 +72,6 @@ For a filter driver, this is the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">FilterSetOptions</a> function or the 
      <i>NdisFilterHandle</i> value passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
-
 
 ### -param OptionalHandlers
 
@@ -146,11 +140,7 @@ A pointer to one of the following NDIS structures:
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_shared_memory_provider_characteristics">
         NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
-
-
 ## -returns
-
-
 
 <b>NdisSetOptionalHandlers</b> returns one of the following status values:
 
@@ -212,14 +202,8 @@ A pointer to one of the following NDIS structures:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An NDIS driver can call 
     <b>NdisSetOptionalHandlers</b> to overwrite its default entry points. The structure types passed at 
@@ -358,13 +342,7 @@ For more information on the 4 chimney offload structures, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
     documentation</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -435,7 +413,4 @@ For more information on the 4 chimney offload structures, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
- 
-
- 
 

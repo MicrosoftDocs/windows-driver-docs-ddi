@@ -8,9 +8,6 @@ ms.assetid: 50e0ef5d-0577-4b5c-b541-fc78079a953c
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_ABORT_EVENT callback function"]
 ms.keywords: PFN_WSK_ABORT_EVENT, PFN_WSK_ABORT_EVENT callback, WskAbortEvent, WskAbortEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskabortevent, wsk/WskAbortEvent, wskref_592d9a56-6a77-4c24-aaec-e70f84d23e49.xml
-f1_keywords:
- - "wsk/WskAbortEvent"
- - "WskAbortEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskAbortEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_ABORT_EVENT
+ - wsk/PFN_WSK_ABORT_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskAbortEvent
 ---
 
 # PFN_WSK_ABORT_EVENT callback function
@@ -46,45 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>WskAbortEvent</i> event callback function notifies a WSK application that an incoming connection request
   on a listening socket that has conditional accept mode enabled has been dropped.
 
-
 ## -parameters
 
-
-
-
 ### -param SocketContext 
+
 [in, optional]
 A pointer to the socket context for the listening socket on which the incoming connection request
      was received. The WSK application provided this pointer to the WSK subsystem when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the listening
      socket.
 
-
 ### -param InspectID 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a> structure. The contents of
      the structure identify the incoming connection request that has been dropped.
 
-
 ## -returns
-
-
 
 A WSK application's 
      <i>WskAbortEvent</i> event callback function must always return STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 The WSK subsystem calls a WSK application's 
     <i>WskAbortEvent</i> event callback function only when the following conditions are true:
@@ -136,13 +124,7 @@ The WSK subsystem calls a WSK application's
 
 A WSK application's <i>WskAbortEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_listen_dispatch">WSK_CLIENT_LISTEN_DISPATCH</a>
 
@@ -165,7 +147,4 @@ A WSK application's <i>WskAbortEvent</i> event callback function must not wait f
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
- 
-
- 
 

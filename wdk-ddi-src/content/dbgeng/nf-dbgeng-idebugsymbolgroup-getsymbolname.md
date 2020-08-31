@@ -8,9 +8,6 @@ ms.assetid: a594e436-3b37-4bba-ba9d-65159fdfb7ac
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup::GetSymbolName"]
 ms.keywords: ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, GetSymbolName, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging],IDebugSymbolGroup interface, GetSymbolName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup.GetSymbolName, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName, debugger.getsymbolname
-f1_keywords:
- - "dbgeng/IDebugSymbolGroup.GetSymbolName"
- - "IDebugSymbolGroup.GetSymbolName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbolGroup.GetSymbolName
-- IDebugSymbolGroup2.GetSymbolName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbolGroup::GetSymbolName
+ - dbgeng/IDebugSymbolGroup::GetSymbolName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbolGroup.GetSymbolName
+ - IDebugSymbolGroup2.GetSymbolName
 ---
 
 # IDebugSymbolGroup::GetSymbolName
@@ -47,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolName</b>  method returns the name of a symbol in a symbol group.
-
 
 ## -parameters
 
-
-
-
 ### -param Index 
+
 [in]
 The index of the symbol whose name you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
-
 ### -param Buffer 
+
 [out, optional]
 The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-
 ### -param BufferSize 
+
 [in]
 The size of the buffer that <i>Buffer </i>points to.
 
-
 ### -param NameSize 
+
 [out, optional]
 The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -112,22 +105,11 @@ The method was successful. However, the name of the symbol did not fit in the bu
 
 This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information about symbol groups, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
 
@@ -138,7 +120,4 @@ For more information about symbol groups, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>
- 
-
- 
 

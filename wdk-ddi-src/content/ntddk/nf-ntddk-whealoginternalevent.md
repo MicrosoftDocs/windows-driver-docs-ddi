@@ -33,8 +33,8 @@ api_location:
 api_name:
  - WheaLogInternalEvent
 f1_keywords:
- - ntddk//WheaLogInternalEvent
  - WheaLogInternalEvent
+ - ntddk/WheaLogInternalEvent
 dev_langs:
  - c++
 ---

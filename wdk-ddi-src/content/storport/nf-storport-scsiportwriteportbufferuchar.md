@@ -8,9 +8,6 @@ ms.assetid: 83b6425f-52fa-4c57-aac5-698d3a586248
 ms.date: 03/29/2018
 keywords: ["ScsiPortWritePortBufferUchar macro"]
 ms.keywords: ScsiPortWritePortBufferUchar, ScsiPortWritePortBufferUchar routine [Storage Devices], scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, srb/ScsiPortWritePortBufferUchar, storage.scsiportwriteportbufferuchar
-f1_keywords:
- - "storport/ScsiPortWritePortBufferUchar"
- - "ScsiPortWritePortBufferUchar"
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Scsiport.lib
-- Scsiport.dll
-api_name:
-- ScsiPortWritePortBufferUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortWritePortBufferUchar
+ - storport/ScsiPortWritePortBufferUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Scsiport.lib
+ - Scsiport.dll
+api_name:
+ - ScsiPortWritePortBufferUchar
 ---
 
 # ScsiPortWritePortBufferUchar macro
@@ -47,37 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortWritePortBufferUchar</b> routine transfers a given number of unsigned bytes from a buffer to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Port 
+
 [in]
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-
 ### -param Buffer 
+
 [in]
 Pointer to a buffer.
 
-
 ### -param Count 
+
 [in]
 Specifies the number of bytes to be written to the HBA.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>
- 
-
- 
 

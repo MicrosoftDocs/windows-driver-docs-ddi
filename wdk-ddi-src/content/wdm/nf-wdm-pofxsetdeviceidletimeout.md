@@ -8,9 +8,6 @@ ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.date: 04/30/2018
 keywords: ["PoFxSetDeviceIdleTimeout function"]
 ms.keywords: PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout
-f1_keywords:
- - "wdm/PoFxSetDeviceIdleTimeout"
- - "PoFxSetDeviceIdleTimeout"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- PoFxSetDeviceIdleTimeout
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxSetDeviceIdleTimeout
+ - wdm/PoFxSetDeviceIdleTimeout
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - PoFxSetDeviceIdleTimeout
 ---
 
 # PoFxSetDeviceIdleTimeout function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoFxSetDeviceIdleTimeout</b> routine specifies the minimum time interval from when the last component of the device enters the idle condition to when the power management framework (PoFx) calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_not_required_callback">DevicePowerNotRequiredCallback</a> routine.
-
 
 ## -parameters
 
-
-
-
 ### -param Handle 
+
 [in]
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
-
 ### -param IdleTimeout 
+
 [in]
 The idle time-out interval in 100-nanosecond units. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 This routine specifies a time-out interval for PoFx to apply to future calls to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_not_required_callback">DevicePowerNotRequiredCallback</a> callback routine. By default, this time-out interval is zero, in which case PoFx might call the <i>DevicePowerNotRequiredCallback</i> routine just as soon as the device is ready to switch to a low-power Dx state. However, a driver might prefer to delay this transition and to keep the device in the D0 power state for some additional time-out interval. In this case, if the device becomes active before the end of the time-out interval, and is therefore required to stay in the D0 state, the pending <i>DevicePowerNotRequiredCallback</i> call is no longer required and is canceled by PoFx.
 
@@ -77,20 +70,11 @@ The time-out interval starts when all components of the device complete their tr
 
 The device driver can call <b>PoFxSetDeviceIdleTimeout</b> each time a change in conditions requires a change in the idle time-out interval. After each call, the new idle time-out interval remains in effect until the driver calls <b>PoFxSetDeviceIdleTimeout</b> again to update it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_not_required_callback">DevicePowerNotRequiredCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
- 
-
- 
 

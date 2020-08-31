@@ -5,39 +5,40 @@ description: Contains memory requirements for a ray tracing acceleration structu
 ms.assetid: bcad8b22-709a-44fb-85ed-4b9f723576a8
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054"
- - "D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054"
-ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054, 
+ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
+ - d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 structure
+
 
 ## -description
 
@@ -54,6 +55,7 @@ Size required to hold the result of an acceleration structure build based on the
 Scratch storage on the GPU that is required during acceleration structure build, based on the specified inputs.
 
 ### -field UpdateScratchDataSizeInBytes
+
  
 Scratch storage on the GPU that is required during an acceleration structure update, based on the specified inputs. This only needs to be called for the original acceleration structure build, and defines the scratch storage requirement for every acceleration structure update other than the initial build.
 
@@ -62,3 +64,4 @@ If the D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAG_ALLOW_UPDATE flag i
 ## -remarks
 
 ## -see-also
+

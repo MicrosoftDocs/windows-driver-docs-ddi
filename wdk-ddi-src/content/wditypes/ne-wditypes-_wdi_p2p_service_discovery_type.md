@@ -8,9 +8,6 @@ ms.assetid: 5CA8F330-7AFE-44C9-BCCA-CA93479B9754
 ms.date: 05/02/2018
 keywords: ["WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration"]
 ms.keywords: WDI_P2P_SERVICE_DISCOVERY_TYPE, WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION, WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY, WDI_P2P_SERVICE_DISCOVERY_TYPE_NO_SERVICE_DISCOVERY, WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_INFORMATION, WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_NAME_ONLY, _WDI_P2P_SERVICE_DISCOVERY_TYPE, netvista.wdi_p2p_service_discovery_type, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_NO_SERVICE_DISCOVERY, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_INFORMATION, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_NAME_ONLY
-f1_keywords:
- - "wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE"
- - "WDI_P2P_SERVICE_DISCOVERY_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_P2P_SERVICE_DISCOVERY_TYPE
 targetos: Windows
 req.typenames: WDI_P2P_SERVICE_DISCOVERY_TYPE
+f1_keywords:
+ - _WDI_P2P_SERVICE_DISCOVERY_TYPE
+ - wditypes/_WDI_P2P_SERVICE_DISCOVERY_TYPE
+ - WDI_P2P_SERVICE_DISCOVERY_TYPE
+ - wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_P2P_SERVICE_DISCOVERY_TYPE
 ---
 
 # _WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration
@@ -46,34 +48,23 @@ req.typenames: WDI_P2P_SERVICE_DISCOVERY_TYPE
 
 ## -description
 
-
 The WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration defines the types of service discovery.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_NO_SERVICE_DISCOVERY
 
 The adapter should only do a WFD discovery for WFD devices.  It should not encode service hashes in the P2P IEs.
 
-
 ### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_NAME_ONLY
 
 The adapter encodes service hashes in the P2P IEs during probe requests and indicates probe responses.  It does not perform any GAS queries for service information.
-
 
 ### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_INFORMATION
 
 The adapter encodes the service hashes in the IEs, tracks the service names from the probe responses, and does GAS queries to get service information for each responding device.  This is only applicable if the adapter supports the P2P Service Information Discovery capability.
 
-
 ### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_MAX_VALUE
-
-
-
 
 #### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION
 

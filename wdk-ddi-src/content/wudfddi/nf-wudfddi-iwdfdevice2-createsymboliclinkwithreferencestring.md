@@ -8,9 +8,6 @@ ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::CreateSymbolicLinkWithReferenceString"]
 ms.keywords: CreateSymbolicLinkWithReferenceString, CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method,IWDFDevice2 interface, IWDFDevice2 interface,CreateSymbolicLinkWithReferenceString method, IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
-f1_keywords:
- - "wudfddi/IWDFDevice2.CreateSymbolicLinkWithReferenceString"
- - "IWDFDevice2.CreateSymbolicLinkWithReferenceString"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice2.CreateSymbolicLinkWithReferenceString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice2::CreateSymbolicLinkWithReferenceString
+ - wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice2.CreateSymbolicLinkWithReferenceString
 ---
 
 # IWDFDevice2::CreateSymbolicLinkWithReferenceString
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The<b>CreateSymbolicLinkWithReferenceString</b> method creates a symbolic link name, and optionally, a reference string, for a device 
-
+The<b>CreateSymbolicLinkWithReferenceString</b> method creates a symbolic link name, and optionally, a reference string, for a device
 
 ## -parameters
 
-
-
-
 ### -param pSymbolicLink 
+
 [in]
 A pointer to a <b>NULL</b>-terminated character string that becomes the user-visible name of the device. The symbolic link name must be in the global <b>DosDevices</b> namespace.
 
-
 ### -param pReferenceString 
+
 [in, optional]
 A pointer to a <b>NULL</b>-terminated character string that Windows appends to the device name when an application uses the symbolic name that the <i>pSymbolicLink</i> parameter specifies. For more information, see the following Remarks section. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>CreateSymbolicLinkWithReferenceString</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -105,12 +98,7 @@ The memory allocation failed.
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
 ## -remarks
-
-
 
 <b>CreateSymbolicLinkWithReferenceString</b> creates a symbolic link name, and optionally a reference string, for the device that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface represents. After a driver calls <b>CreateSymbolicLinkWithReferenceString</b>, applications can use the symbolic link name to access the device.
 
@@ -183,19 +171,11 @@ The following code example creates a symbolic name string, obtains the <a href="
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createsymboliclink">IWDFDevice::CreateSymbolicLink</a>
- 
-
- 
 

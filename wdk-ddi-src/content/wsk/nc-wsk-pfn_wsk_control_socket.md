@@ -8,9 +8,6 @@ ms.assetid: d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_CONTROL_SOCKET callback function"]
 ms.keywords: PFN_WSK_CONTROL_SOCKET, PFN_WSK_CONTROL_SOCKET callback, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
-f1_keywords:
- - "wsk/WskControlSocket"
- - "WskControlSocket"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskControlSocket
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_CONTROL_SOCKET
+ - wsk/PFN_WSK_CONTROL_SOCKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskControlSocket
 ---
 
 # PFN_WSK_CONTROL_SOCKET callback function
@@ -46,24 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskControlSocket</b> function performs control operations on a socket.
 
-
 ## -parameters
 
-
-
-
 ### -param Socket 
+
 [in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket on which the control operation is being performed.
 
-
 ### -param RequestType 
+
 [in]
 A value that specifies the type of control operation that is being performed. A WSK application
      sets this parameter to one of the following values:
@@ -89,8 +85,8 @@ Get the state or value of a socket option.
 
 Perform an I/O control operation.
 
-
 ### -param ControlCode 
+
 [in]
 If the 
      <i>RequestType</i> parameter is set to 
@@ -110,8 +106,8 @@ If the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>. The
      underlying network protocol might support additional socket I/O control operations.
 
-
 ### -param Level 
+
 [in]
 The level in the network stack at which the value for a socket option is being either set or
      retrieved. For WSK subsystem level socket options, the WSK application should set this parameter to
@@ -124,36 +120,36 @@ If the
      <b>WskIoctl</b>, the 
      <i>Level</i> parameter is ignored.
 
-
 ### -param InputSize 
+
 [in]
 The number of bytes of data in the buffer that is pointed to by the 
      <i>InputBuffer</i> parameter.
 
-
 ### -param InputBuffer 
+
 [in, optional]
 A caller-allocated buffer that supplies any input data that is required to perform the specified
      control operation. If no input data is required for the specified control operation, the WSK application
      should set this parameter to <b>NULL</b> and set the 
      <i>InputSize</i> parameter to zero.
 
-
 ### -param OutputSize 
+
 [in]
 The size of the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter.
 
-
 ### -param OutputBuffer 
+
 [out, optional]
 A caller-allocated buffer that receives any output data that is returned by the specified control
      operation. If no output data is returned by the specified control operation, the WSK application should
      set this parameter to <b>NULL</b> and set the 
      <i>OutputSize</i> parameter to zero.
 
-
 ### -param OutputSizeReturned 
+
 [out, optional]
 A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
      the buffer that is pointed to by the 
@@ -180,6 +176,7 @@ The number of bytes of output data that is returned by the operation that is bei
 </ul>
 
 ### -param Irp 
+
 [in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
@@ -205,10 +202,7 @@ If the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL
      Operations</a>.
 
-
 ## -returns
-
-
 
 <b>WskControlSocket</b> returns one of the following NTSTATUS codes:
 
@@ -291,14 +285,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a WSK application specifies 
     <b>WskSetOption</b> or 
@@ -331,13 +319,7 @@ Callers of the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-address-list-change">SIO_ADDRESS_LIST_CHANGE</a>, or <a href="https://docs.microsoft.com/windows/desktop/WinSock/using-sio-address-list-sort">SIO_ADDRESS_LIST_SORT</a>. In this
     situation, callers must be running at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
 
@@ -370,7 +352,4 @@ Callers of the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
- 
-
- 
 

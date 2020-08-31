@@ -8,9 +8,6 @@ ms.assetid: 3d5dd27f-8d0e-46e8-adbd-139db322cf6e
 ms.date: 05/10/2018
 keywords: ["MIRACAST_WFD_CONNECTION_STATS structure"]
 ms.keywords: MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices], display.miracast_wfd_connection_stats, netdispumdddi/MIRACAST_WFD_CONNECTION_STATS
-f1_keywords:
- - "netdispumdddi/MIRACAST_WFD_CONNECTION_STATS"
- - "MIRACAST_WFD_CONNECTION_STATS"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netdispumdddi.h
-api_name:
-- MIRACAST_WFD_CONNECTION_STATS
 targetos: Windows
 req.typenames: MIRACAST_WFD_CONNECTION_STATS
+f1_keywords:
+ - MIRACAST_WFD_CONNECTION_STATS
+ - netdispumdddi/MIRACAST_WFD_CONNECTION_STATS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netdispumdddi.h
+api_name:
+ - MIRACAST_WFD_CONNECTION_STATS
 ---
 
 # MIRACAST_WFD_CONNECTION_STATS structure
@@ -46,24 +46,17 @@ req.typenames: MIRACAST_WFD_CONNECTION_STATS
 
 ## -description
 
-
 Contains bit rate info on the Wi-Fi Direct connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CurrentBitRate
 
 The bit rate, in bits per second, that the operating system recommends that the audio/video encoder uses.
 
-
 ### -field LocalMaxBitRate
 
 The maximum bit rate, in bits per second, that the local Wi-Fi Direct hardware can support.
-
 
 ### -field RemoteMaxBitRate
 

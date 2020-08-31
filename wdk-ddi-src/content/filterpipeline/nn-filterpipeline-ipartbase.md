@@ -8,9 +8,6 @@ ms.assetid: 7523990f-04de-4182-99d9-fba100bebb84
 ms.date: 04/20/2018
 keywords: ["IPartBase interface"]
 ms.keywords: IPartBase, IPartBase interface [Print Devices], IPartBase interface [Print Devices],described, filterpipeline/IPartBase, filterpipeline_aaad898e-c110-439c-9983-fedbab82c06d.xml, print.ipartbase
-f1_keywords:
- - "filterpipeline/IPartBase"
- - "IPartBase"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPartBase
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPartBase
+ - filterpipeline/IPartBase
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPartBase
 ---
 
 # IPartBase interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 The <b>IPartBase </b>interface is a common base for document part interfaces.
-
 
 ## -inheritance
 

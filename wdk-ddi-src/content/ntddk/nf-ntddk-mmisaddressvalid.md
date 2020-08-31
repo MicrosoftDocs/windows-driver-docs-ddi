@@ -8,9 +8,6 @@ ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.date: 04/30/2018
 keywords: ["MmIsAddressValid function"]
 ms.keywords: MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, kernel.mmisaddressvalid, ntddk/MmIsAddressValid
-f1_keywords:
- - "ntddk/MmIsAddressValid"
- - "MmIsAddressValid"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmIsAddressValid
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmIsAddressValid
+ - ntddk/MmIsAddressValid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmIsAddressValid
 ---
 
 # MmIsAddressValid function
@@ -46,45 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmIsAddressValid</b> routine checks whether a page fault will occur for a read or write operation at a given virtual address.
 <div class="alert"><b>Warning</b>  We do not recommend using this function.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param VirtualAddress 
-[in]
-A pointer to the nonpaged virtual address to check. The caller must ensure that this address cannot be paged out or deleted for the duration of this call. Even after the return from the call, you must not page out or delete this address. If you do page out or delete this address, the return value might be unreliable. Paging out or deleting this address might cause the computer to stop responding (that is, <i>crash</i>). 
 
+[in]
+A pointer to the nonpaged virtual address to check. The caller must ensure that this address cannot be paged out or deleted for the duration of this call. Even after the return from the call, you must not page out or delete this address. If you do page out or delete this address, the return value might be unreliable. Paging out or deleting this address might cause the computer to stop responding (that is, <i>crash</i>).
 
 ## -returns
 
-
-
 If no page fault would occur from reading or writing at the given virtual address, <b>MmIsAddressValid</b> returns <b>TRUE</b>.
-
-
-
 
 ## -remarks
 
-
-
-Even if <b>MmIsAddressValid</b> returns <b>TRUE</b>, accessing the address can cause page faults unless the memory has been locked down or the address is a valid nonpaged pool address. 
-
-
-
+Even if <b>MmIsAddressValid</b> returns <b>TRUE</b>, accessing the address can cause page faults unless the memory has been locked down or the address is a valid nonpaged pool address.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a>
- 
-
- 
 

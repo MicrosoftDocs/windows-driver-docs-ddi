@@ -8,9 +8,6 @@ ms.assetid: 00f776f7-83c5-4856-a1d3-8b76122d3986
 ms.date: 04/30/2018
 keywords: ["ClfsAdvanceLogBase function"]
 ms.keywords: ClfsAdvanceLogBase, ClfsAdvanceLogBase routine [Kernel-Mode Driver Architecture], Clfs_d8f1a522-ef50-47fe-bd39-f18f2f176a3b.xml, kernel.clfsadvancelogbase, wdm/ClfsAdvanceLogBase
-f1_keywords:
- - "wdm/ClfsAdvanceLogBase"
- - "ClfsAdvanceLogBase"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsAdvanceLogBase
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsAdvanceLogBase
+ - wdm/ClfsAdvanceLogBase
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsAdvanceLogBase
 ---
 
 # ClfsAdvanceLogBase function
@@ -47,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsAdvanceLogBase</b> routine sets the base LSN of a CLFS stream.
-
 
 ## -parameters
 
-
-
-
 ### -param pvMarshalContext 
+
 [in, out]
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
-
 ### -param plsnBase 
+
 [in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that contains the new base LSN. This parameter must be the LSN of one of the records in the stream. Also, this parameter must be greater than or equal to the stream's current base LSN and less than or equal to the stream's current last LSN.
 
-
 ### -param fFlags 
+
 [in]
 This parameter is reserved for system use. Callers must set this parameter to zero.
 
-
 ## -returns
-
-
 
 <b>ClfsAdvanceLogBase</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 <b>ClfsAdvanceLogBase</b> does not write any records to the CLFS log; the only updates to the log are in the metadata. If you want to update the base LSN and write a restart record to a stream at the same time, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>.
 
@@ -90,18 +78,9 @@ Whenever possible, CLFS avoids writing queued log records that have LSNs less th
 
 <b>ClfsAdvanceLogBase</b> does not check to see whether the LSN supplied in <i>plsnBase</i> is actually the LSN of one of the records in the stream. If the caller sets <i>plsnBase</i> to an LSN that is not the LSN of one of the records in the stream, the stream's base LSN will be set to a meaningless value.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>. 
-
-
-
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>
- 
-
- 
 

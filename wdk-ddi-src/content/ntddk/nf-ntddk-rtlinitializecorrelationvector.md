@@ -8,9 +8,6 @@ ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.date: 04/30/2018
 keywords: ["RtlInitializeCorrelationVector function"]
 ms.keywords: RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector
-f1_keywords:
- - "ntddk/RtlInitializeCorrelationVector"
- - "RtlInitializeCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInitializeCorrelationVector
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInitializeCorrelationVector
+ - ntddk/RtlInitializeCorrelationVector
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInitializeCorrelationVector
 ---
 
 # RtlInitializeCorrelationVector function
@@ -46,24 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
 			
               Initializes the specified [correlation vector](https://github.com/Microsoft/CorrelationVector) with
     the supplied GUID.
 
-
 ## -parameters
 
-
-
-
 ### -param CorrelationVector 
+
 [in, out]
 A pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
 
-
 ### -param Version 
+
 [in]
 The version of the correlation vector. Possible values are: 
 
@@ -74,15 +69,12 @@ The version of the correlation vector. Possible values are:
 </ul>
 
 ### -param Guid 
+
 [in]
 The GUID to initialize the correlation vector. The first 22 bytes
             of the correlation vector are a base64 representation of the GUID. This value must not be NULL.
 
-
 ## -returns
-
-
-
 
 Returns an NTSTATUS value that indicates the success of failure of the operation. 
 
@@ -114,18 +106,8 @@ The supplied GUID is null.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a>
- 
-
- 
 

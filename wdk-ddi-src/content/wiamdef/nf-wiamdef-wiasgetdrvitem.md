@@ -8,13 +8,10 @@ ms.assetid: c09924ef-cd2c-419c-81d5-bbd40b886767
 ms.date: 05/03/2018
 keywords: ["wiasGetDrvItem function"]
 ms.keywords: image.wiasgetdrvitem, wiamdef/wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, wiasGetDrvItem, wiasGetDrvItem function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetDrvItem"
- - "wiasGetDrvItem"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetDrvItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetDrvItem
+ - wiamdef/wiasGetDrvItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetDrvItem
 ---
 
 # wiasGetDrvItem function
+
 
 ## -description
 
@@ -50,6 +51,7 @@ The **wiasGetDrvItem** function retrieves a driver item.
 ## -parameters
 
 ### -param pWiasContext 
+
 [in]
 Pointer to a WIA item context.
 
@@ -68,3 +70,4 @@ If the function fails, it returns a standard COM error or one of the [WIA error 
 [wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatedrvitem)
 
 [wiasGetRootItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetrootitem)
+

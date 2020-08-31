@@ -8,9 +8,6 @@ ms.assetid: 4DA3FB63-D2D3-43E1-9420-29303176B837
 ms.date: 05/07/2018
 keywords: ["UcxEndpointNeedToCancelTransfers function"]
 ms.keywords: UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers method [Buses], buses._ucxendpointneedtocanceltransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
-f1_keywords:
- - "ucxendpoint/UcxEndpointNeedToCancelTransfers"
- - "UcxEndpointNeedToCancelTransfers"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ucxendpoint.h
-api_name:
-- UcxEndpointNeedToCancelTransfers
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcxEndpointNeedToCancelTransfers
+ - ucxendpoint/UcxEndpointNeedToCancelTransfers
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ucxendpoint.h
+api_name:
+ - UcxEndpointNeedToCancelTransfers
 ---
 
 # UcxEndpointNeedToCancelTransfers function
@@ -46,38 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The client driver calls this method before it cancels transfers on the wire.
-
 
 ## -parameters
 
-
-
-
 ### -param Endpoint 
+
 [in]
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
 
-
 ## -remarks
-
-
 
  If needed, UCX coordinates with the hub driver to send a Clear TT buffer command to the TT Hub.
 
     After that operation completes, UCX invokes the client driver's  EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 67f41d3e-d306-400b-9970-88c62f0f7a7f
 ms.date: 04/30/2018
 keywords: ["IoSetHardErrorOrVerifyDevice function"]
 ms.keywords: IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, kernel.iosetharderrororverifydevice, ntddk/IoSetHardErrorOrVerifyDevice
-f1_keywords:
- - "ntddk/IoSetHardErrorOrVerifyDevice"
- - "IoSetHardErrorOrVerifyDevice"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetHardErrorOrVerifyDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetHardErrorOrVerifyDevice
+ - ntddk/IoSetHardErrorOrVerifyDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetHardErrorOrVerifyDevice
 ---
 
 # IoSetHardErrorOrVerifyDevice function
@@ -46,42 +46,29 @@ req.typenames:
 
 ## -description
 
-
 Lower-level drivers call the <b>IoSetHardErrorOrVerifyDevice</b> routine to identify a removable media device that has encountered an error, so that a file system driver can prompt the user to verify that the medium is valid.
-
 
 ## -parameters
 
-
-
-
 ### -param Irp 
+
 [in]
 Pointer to the IRP for which the driver encountered a user-induced error.
 
-
 ### -param DeviceObject 
-[in]
-Pointer to the target device to be verified for the I/O operation. 
 
+[in]
+Pointer to the target device to be verified for the I/O operation.
 
 ## -remarks
-
-
 
 Lower-level drivers for removal media devices must call <b>IoSetHardErrorOrVerifyDevice</b> before completing an IRP, if a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioiserroruserinduced">IoIsErrorUserInduced</a> returns <b>TRUE</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a>.
 
 Subsequently, a file system driver will use information supplied in the specified device object to send a dialog box to the user, who can correct the error and retry the operation or cancel it.
 
-The IRP passed to <b>IoSetHardErrorOrVerifyDevice</b> must be associated with a thread. Therefore, before a driver calls <b>IoSetHardErrorOrVerifyDevice</b>, it must verify that <i>irp</i><b>->Tail.Overlay</b>.Thread is not <b>NULL</b>. If the value is <b>NULL</b>, <b>IoSetHardErrorOrVerifyDevice</b> must not be called using the current IRP. Instead, the driver should check all IRPs subsequently received and processed, until one is received for which <i>irp</i><b>->Tail.Overlay</b>.Thread is not <b>NULL</b>. At that point, <b>IoSetHardErrorOrVerifyDevice</b> can be called. 
-
-
-
+The IRP passed to <b>IoSetHardErrorOrVerifyDevice</b> must be associated with a thread. Therefore, before a driver calls <b>IoSetHardErrorOrVerifyDevice</b>, it must verify that <i>irp</i><b>->Tail.Overlay</b>.Thread is not <b>NULL</b>. If the value is <b>NULL</b>, <b>IoSetHardErrorOrVerifyDevice</b> must not be called using the current IRP. Instead, the driver should check all IRPs subsequently received and processed, until one is received for which <i>irp</i><b>->Tail.Overlay</b>.Thread is not <b>NULL</b>. At that point, <b>IoSetHardErrorOrVerifyDevice</b> can be called.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioiserroruserinduced">IoIsErrorUserInduced</a>
 
@@ -92,7 +79,4 @@ The IRP passed to <b>IoSetHardErrorOrVerifyDevice</b> must be associated with a 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioraiseinformationalharderror">IoRaiseInformationalHardError</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 2706577e-ba03-4347-9672-7303752ec0fe
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_OID_REQUEST_COMPLETE callback function"]
 ms.keywords: PROTOCOL_OID_REQUEST_COMPLETE, PROTOCOL_OID_REQUEST_COMPLETE callback, ProtocolOidRequestComplete, ProtocolOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOidRequestComplete, ndis_request_ref_0460f62c-1ffe-4c81-ade3-56b5061eccb6.xml, netvista.protocoloidrequestcomplete
-f1_keywords:
- - "ndis/ProtocolOidRequestComplete"
- - "ProtocolOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolOidRequestComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_OID_REQUEST_COMPLETE
+ - ndis/PROTOCOL_OID_REQUEST_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolOidRequestComplete
 ---
 
 # PROTOCOL_OID_REQUEST_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolOidRequestComplete</i> function completes the processing of a protocol
@@ -57,35 +56,30 @@ The
 
 ## -parameters
 
-
-
-
 ### -param ProtocolBindingContext 
+
 [in]
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      per-binding run-time state. The driver supplied this handle when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-
 ### -param OidRequest 
+
 [in]
 A pointer to the protocol driver-supplied 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
      <b>NdisOidRequest</b> function.
 
-
 ### -param Status 
+
 [in]
 The final status of the request. The underlying driver or NDIS determines this final status. This
      parameter determines what 
      <i>ProtocolOidRequestComplete</i> does with the information at 
      <i>OidRequest</i>.
 
-
 ## -remarks
-
-
 
 <i>ProtocolOidRequestComplete</i> uses the input value of 
     <i>Status</i> as follows:
@@ -211,15 +205,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -238,7 +226,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
- 
-
- 
 

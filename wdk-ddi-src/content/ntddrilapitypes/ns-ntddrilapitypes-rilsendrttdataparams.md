@@ -8,9 +8,6 @@ ms.assetid: 733b8ccc-5335-4c7e-bfc0-4618b0b3a4d8
 ms.date: 05/02/2018
 keywords: ["RILSENDRTTDATAPARAMS structure"]
 ms.keywords: "*LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrttdataparams, ntddrilapitypes/RILSENDRTTDATAPARAMS"
-f1_keywords:
- - "ntddrilapitypes/RILSENDRTTDATAPARAMS"
- - "RILSENDRTTDATAPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSENDRTTDATAPARAMS
 targetos: Windows
 req.typenames: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
+f1_keywords:
+ - RILSENDRTTDATAPARAMS
+ - ntddrilapitypes/RILSENDRTTDATAPARAMS
+ - LPRILSENDRTTDATAPARAMS
+ - ntddrilapitypes/LPRILSENDRTTDATAPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSENDRTTDATAPARAMS
 ---
 
 # RILSENDRTTDATAPARAMS structure
@@ -46,23 +48,15 @@ req.typenames: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwID
 
-
 ### -field dwExecutor
-
 
 ### -field wszRTTText
 

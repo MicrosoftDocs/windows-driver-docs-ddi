@@ -8,9 +8,6 @@ ms.assetid: 966dfc6c-6830-4872-b411-2801e3a4b753
 ms.date: 05/10/2018
 keywords: ["PAGP_RESERVE_VIRTUAL callback function"]
 ms.keywords: AgpReserveVirtual, AgpReserveVirtual callback function [Display Devices], PAGP_RESERVE_VIRTUAL, PAGP_RESERVE_VIRTUAL callback, VideoPort_Functions_ed4d4e19-25f2-4169-a80e-8c57c80ffd2b.xml, display.agpreservevirtual, videoagp/AgpReserveVirtual
-f1_keywords:
- - "videoagp/AgpReserveVirtual"
- - "AgpReserveVirtual"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- videoagp.h
-api_name:
-- AgpReserveVirtual
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PAGP_RESERVE_VIRTUAL
+ - videoagp/PAGP_RESERVE_VIRTUAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - videoagp.h
+api_name:
+ - AgpReserveVirtual
 ---
 
 # PAGP_RESERVE_VIRTUAL callback function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>AgpReserveVirtual</b> function reserves a range of virtual addresses for AGP.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension 
+
 [in]
 Pointer to the miniport driver's device extension.
 
-
 ### -param ProcessHandle 
+
 [in]
 Handle of the process in which to reserve the virtual address range. If <b>ProcessHandle</b> is 0, then the virtual address range is allocated in system space.
 
-
 ### -param PhysicalReserveContext 
+
 [in]
 Is the context handle that identifies the reserved physical address range with which to associate the virtual memory reservation. This context was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
-
 ### -param VirtualReserveContext 
+
 [out]
 Is the location in which the video port driver writes a context handle that identifies the reserved virtual memory.
 
-
 ## -returns
-
-
 
 <b>AgpReserveVirtual</b> returns the base address of the reserved virtual address range if successful; otherwise, returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If <b>ProcessHandle</b> is not 0, then <b>AgpReserveVirtual</b> reserves, but does not commit, a range of virtual addresses in the address space of a user-mode process. In that case, you must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_virtual">AgpCommitVirtual</a> to map the reserved (user-mode) virtual addresses to physical addresses.
 
@@ -98,13 +86,7 @@ The miniport driver can call <a href="https://docs.microsoft.com/windows-hardwar
 
 The miniport driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_release_virtual">AgpReleaseVirtual</a> to release the reserved virtual address range when it is no longer needed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>
 
@@ -119,7 +101,4 @@ The miniport driver should call <a href="https://docs.microsoft.com/windows-hard
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>
- 
-
- 
 

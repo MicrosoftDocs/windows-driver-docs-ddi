@@ -8,9 +8,6 @@ ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.date: 05/08/2018
 keywords: ["IMiniportWavePciStream::RevokeMappings"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],RevokeMappings method, IMiniportWavePciStream.RevokeMappings, IMiniportWavePciStream::RevokeMappings, RevokeMappings, RevokeMappings method [Audio Devices], RevokeMappings method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, portcls/IMiniportWavePciStream::RevokeMappings
-f1_keywords:
- - "portcls/IMiniportWavePciStream.RevokeMappings"
- - "IMiniportWavePciStream.RevokeMappings"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportWavePciStream.RevokeMappings
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportWavePciStream::RevokeMappings
+ - portcls/IMiniportWavePciStream::RevokeMappings
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportWavePciStream.RevokeMappings
 ---
 
 # IMiniportWavePciStream::RevokeMappings
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <code>RevokeMappings</code> method revokes mappings that were previously obtained through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepcistream-getmapping">IPortWavePciStream::GetMapping</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param FirstTag 
+
 [in]
 Specifies the tag value that identifies the first mapping that is being revoked.
 
-
 ### -param LastTag 
+
 [in]
 Specifies the tag value that identifies the last mapping that is being revoked.
 
-
 ### -param MappingsRevoked 
+
 [out]
 Output pointer for the count of revoked mappings. This parameter points to a ULONG variable into which the method writes the number of mappings actually revoked by the call. This number excludes any mappings in the range <i>FirstTag</i> to <i>LastTag</i> that the miniport driver has already released. Due to synchronization issues, some of the mappings in the range might be released between the time that the port driver determines the list of mappings to be revoked and the call to <code>RevokeMappings</code>. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 <code>RevokeMappings</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The port driver calls <code>RevokeMappings</code> to revoke the stream's mappings when:
 
@@ -103,13 +91,7 @@ The port driver can call <code>RevokeMappings</code> asynchronously with respect
 
 For more information about mappings, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/wavepci-latency">WavePci Latency</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
 
@@ -132,7 +114,4 @@ For more information about mappings, see <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 613962D6-DF27-4AAE-BD8F-6BC0A538D7F8
 ms.date: 04/30/2018
 keywords: ["PLOAD_IMAGE_NOTIFY_ROUTINE callback function"]
 ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, PLOAD_IMAGE_NOTIFY_ROUTINE callback, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
-f1_keywords:
- - "ntddk/SetLoadImageNotifyRoutine"
- - "SetLoadImageNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntddk.h
-api_name:
-- SetLoadImageNotifyRoutine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PLOAD_IMAGE_NOTIFY_ROUTINE
+ - ntddk/PLOAD_IMAGE_NOTIFY_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntddk.h
+api_name:
+ - SetLoadImageNotifyRoutine
 ---
 
 # PLOAD_IMAGE_NOTIFY_ROUTINE callback function
@@ -46,33 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory. The operating system invokes this routine after an image has been mapped to memory, but before its entrypoint is called.
 <div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param FullImageName 
-[in, optional]
-A pointer to a buffered Unicode string that identifies the executable image file. (The <i>FullImageName</i> parameter can be <b>NULL</b> in cases in which the operating system is unable to obtain the full name of the image at process creation time.) 
 
+[in, optional]
+A pointer to a buffered Unicode string that identifies the executable image file. (The <i>FullImageName</i> parameter can be <b>NULL</b> in cases in which the operating system is unable to obtain the full name of the image at process creation time.)
 
 ### -param ProcessId 
+
 [in]
 The process ID of the process in which the image has been mapped, but this handle is zero if the newly loaded image is a driver.
 
-
 ### -param ImageInfo 
+
 [in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a> structure that contains image information. See Remarks.
 
-
 ## -remarks
-
-
 
 Highest-level system-profiling drivers can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a> to set up their load-image notify routine.
 
@@ -87,13 +81,7 @@ When the main executable image for a newly created process is loaded, the load-i
 
 When the load-image notify routine is called, the input <i>FullImageName</i> points to a buffered Unicode string that identifies the executable image file. (The <i>FullImageName</i> parameter can be <b>NULL</b> in cases in which the operating system is unable to obtain the full name of the image at process creation time.) The <i>ProcessId</i> handle identifies the process in which the image has been mapped, but this handle is zero if the newly loaded image is a driver. To see the format of the buffered data at <i>ImageInfo</i>, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a>. If the <b>ExtendedInfoPresent</b> flag is set in the <b>IMAGE_INFO</b> structure, the information is part of a larger, extended version of the image information structure, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info_ex">IMAGE_INFO_EX</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a>
 
@@ -104,7 +92,4 @@ When the load-image notify routine is called, the input <i>FullImageName</i> poi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
- 
-
- 
 

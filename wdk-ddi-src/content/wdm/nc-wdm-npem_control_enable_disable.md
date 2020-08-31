@@ -33,8 +33,8 @@ api_location:
 api_name:
  - NPEM_CONTROL_ENABLE_DISABLE
 f1_keywords:
- - wdm//NPEM_CONTROL_ENABLE_DISABLE
  - NPEM_CONTROL_ENABLE_DISABLE
+ - wdm/NPEM_CONTROL_ENABLE_DISABLE
 dev_langs:
  - c++
 ---

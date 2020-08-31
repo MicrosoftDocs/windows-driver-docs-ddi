@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CreateResource2"
- - "CreateResource2"
+ - PFND3DDDI_CREATERESOURCE2
+ - d3dumddi/PFND3DDDI_CREATERESOURCE2
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATERESOURCE2 callback function
+
 
 ## -description
 

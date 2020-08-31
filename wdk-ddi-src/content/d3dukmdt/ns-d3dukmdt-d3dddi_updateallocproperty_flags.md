@@ -8,11 +8,8 @@ ms.assetid: 377EC824-9D43-40CA-B5CA-A04402852EA3
 ms.date: 05/10/2018
 keywords: ["D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure"]
 ms.keywords: D3DDDI_UPDATEALLOCPROPERTY_FLAGS, D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure [Display Devices], PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS structure pointer [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, display.d3dddi_updateallocproperty_flags
-f1_keywords:
- - "d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS"
- - "D3DDDI_UPDATEALLOCPROPERTY_FLAGS"
 req.header: d3dukmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_UPDATEALLOCPROPERTY_FLAGS
 targetos: Windows
 req.typenames: D3DDDI_UPDATEALLOCPROPERTY_FLAGS
+f1_keywords:
+ - D3DDDI_UPDATEALLOCPROPERTY_FLAGS
+ - d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_UPDATEALLOCPROPERTY_FLAGS
 ---
 
 # D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure
@@ -46,14 +46,9 @@ req.typenames: D3DDDI_UPDATEALLOCPROPERTY_FLAGS
 
 ## -description
 
-
 The D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure identifies how to update a property in an allocation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AccessedPhysically
 
@@ -61,11 +56,9 @@ A UINT value that specifies whether the allocation is accessed by its physical a
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 

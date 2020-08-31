@@ -8,9 +8,6 @@ ms.assetid: 965e17bc-2a38-4caa-a0dd-41ee1e1198f0
 ms.date: 04/20/2018
 keywords: ["OEMImageProcessing function"]
 ms.keywords: OEMImageProcessing, OEMImageProcessing function [Print Devices], print.oemimageprocessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing
-f1_keywords:
- - "printoem/OEMImageProcessing"
- - "OEMImageProcessing"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMImageProcessing
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMImageProcessing
+ - printoem/OEMImageProcessing
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMImageProcessing
 ---
 
 # OEMImageProcessing function
@@ -46,28 +46,17 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
-
 ### -param pSrcBitmap
-
 
 ### -param pBitmapInfoHeader
 
-
 ### -param pColorTable
 
-
 ### -param dwCallbackID
-
 
 ### -param pIPParams
 

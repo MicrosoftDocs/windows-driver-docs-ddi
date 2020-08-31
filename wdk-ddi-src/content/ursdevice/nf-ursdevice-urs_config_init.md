@@ -8,9 +8,6 @@ ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.date: 05/07/2018
 keywords: ["URS_CONFIG_INIT function"]
 ms.keywords: URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init, ursdevice/URS_CONFIG_INIT
-f1_keywords:
- - "ursdevice/URS_CONFIG_INIT"
- - "URS_CONFIG_INIT"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ursdevice.h
-api_name:
-- URS_CONFIG_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - URS_CONFIG_INIT
+ - ursdevice/URS_CONFIG_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ursdevice.h
+api_name:
+ - URS_CONFIG_INIT
 ---
 
 # URS_CONFIG_INIT function
@@ -46,41 +46,30 @@ req.typenames:
 
 ## -description
 
-
-Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> structure. 
-
+Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> structure.
 
 ## -parameters
 
-
-
-
 ### -param Config 
+
 [out]
  A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> structure to initialize.
 
-
 ### -param HostInterfaceType 
+
 [in]
  A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/urstypes/ne-urstypes-_urs_host_interface_type">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of host controller that the dual-role controller implements.
 
-
 ### -param EvtUrsFilterRemoveResourceRequirements 
+
 [in]
  A  pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nc-ursdevice-evt_urs_device_filter_resource_requirements">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> callback function that is implemented by the  client driver.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>
- 
-
- 
 

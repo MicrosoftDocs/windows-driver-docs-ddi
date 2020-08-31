@@ -8,9 +8,6 @@ ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetAccessSubType method, CWiauPropertyList.SetAccessSubType, CWiauPropertyList.SetAccessSubType(INT,ULONG,ULONG), CWiauPropertyList::SetAccessSubType, CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG), SetAccessSubType, SetAccessSubType method [Imaging Devices], SetAccessSubType method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setaccesssubtype, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, wiautil/CWiauPropertyList::SetAccessSubType
-f1_keywords:
- - "wiautil/CWiauPropertyList.SetAccessSubType"
- - "CWiauPropertyList.SetAccessSubType"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -28,25 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.SetAccessSubType
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - CWiauPropertyList::SetAccessSubType
+ - wiautil/CWiauPropertyList::SetAccessSubType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.SetAccessSubType
 ---
 
 # CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)
 
+
 ## -description
 
-The **CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)** method resets a property's access and subtype. 
+The **CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)** method resets a property's access and subtype.
 
 ## -parameters
 
@@ -75,3 +76,4 @@ A property's access and subtype are set originally in a call to the [CWiauProper
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
+

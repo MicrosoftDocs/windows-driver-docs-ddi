@@ -8,9 +8,6 @@ ms.assetid: 7a2644af-fdfe-4481-8c44-c40244b8a00e
 ms.date: 04/20/2018
 keywords: ["IPrintPipelineProgressReport interface"]
 ms.keywords: IPrintPipelineProgressReport, IPrintPipelineProgressReport interface [Print Devices], IPrintPipelineProgressReport interface [Print Devices],described, filterpipeline/IPrintPipelineProgressReport, filterpipeline_de104fc6-8ac2-4a10-ab09-09596a093835.xml, print.iprintpipelineprogressreport
-f1_keywords:
- - "filterpipeline/IPrintPipelineProgressReport"
- - "IPrintPipelineProgressReport"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPrintPipelineProgressReport
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintPipelineProgressReport
+ - filterpipeline/IPrintPipelineProgressReport
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPrintPipelineProgressReport
 ---
 
 # IPrintPipelineProgressReport interface
@@ -46,11 +46,9 @@ req.typenames:
 
 ## -description
 
-
 A rendering filter uses the <code>IPrintPipelineProgressReport</code> interface to send progress status to a spooler. 
 
 A rendering filter should search for the <b>XPS_FP_PROGRESS_REPORT</b> property in a property bag, get the progress, and then remove it from the property bag. If there are no rendering filters, the filter pipeline sends the notifications to the spooler. It is very important for a rendering filter to remove the progress and send progress status to the spooler; if progress status is not handled correctly, the spooler may get conflicting progress reports.
-
 
 ## -inheritance
 

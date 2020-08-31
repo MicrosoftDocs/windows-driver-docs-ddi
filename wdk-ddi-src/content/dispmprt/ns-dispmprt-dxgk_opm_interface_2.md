@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGK_OPM_INTERFACE_2, *PDXGK_OPM_INTERFACE_2
@@ -31,14 +31,18 @@ api_name:
  - _DXGK_OPM_INTERFACE_2
  - DXGK_OPM_INTERFACE_2
 f1_keywords:
+ - _DXGK_OPM_INTERFACE_2
  - dispmprt/_DXGK_OPM_INTERFACE_2
- - dispmprt//DXGK_OPM_INTERFACE_2
+ - PDXGK_OPM_INTERFACE_2
+ - dispmprt/PDXGK_OPM_INTERFACE_2
  - DXGK_OPM_INTERFACE_2
+ - dispmprt/DXGK_OPM_INTERFACE_2
 dev_langs:
  - c++
 ---
 
 # DXGK_OPM_INTERFACE_2 structure
+
 
 ## -description
 
@@ -137,3 +141,4 @@ For more information on how to use this structure with the OPM interface, see [R
 [**DxgkDdiQueryInterface**](nc-dispmprt-dxgkddi_query_interface.md)
 
 [**INTERFACE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface.md)
+

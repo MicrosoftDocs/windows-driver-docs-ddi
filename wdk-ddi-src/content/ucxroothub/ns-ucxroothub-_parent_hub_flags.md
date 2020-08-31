@@ -8,9 +8,6 @@ ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.date: 05/07/2018
 keywords: ["PARENT_HUB_FLAGS structure"]
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
-f1_keywords:
- - "ucxroothub/PARENT_HUB_FLAGS"
- - "PARENT_HUB_FLAGS"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucxroothub.h
-api_name:
-- PARENT_HUB_FLAGS
 targetos: Windows
 req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
+f1_keywords:
+ - _PARENT_HUB_FLAGS
+ - ucxroothub/_PARENT_HUB_FLAGS
+ - PPARENT_HUB_FLAGS
+ - ucxroothub/PPARENT_HUB_FLAGS
+ - PARENT_HUB_FLAGS
+ - ucxroothub/PARENT_HUB_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucxroothub.h
+api_name:
+ - PARENT_HUB_FLAGS
 ---
 
 # _PARENT_HUB_FLAGS structure
@@ -46,45 +50,29 @@ req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 
 ## -description
 
-
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_hub_info_from_parent">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AsUlong32
 
 The size of structure represented as a LONG (32-bit) value.
 
-
 ### -field Flags
 
- 
-
-
 ### -field Flags.DisableLpmForAllDownstreamDevices
+
 Indicates that LPM should be disabled for all devices/hubs behind the this hub.
- 
 
 ### -field Flags.HubIsHighSpeedCapable
+
 Indicates that the hub is high-speed capable.
 
 ### -field Flags.DisableUpdateMaxExitLatency
-Indicates that UpdateMaxExitLatency is disabled for all devices/hubs behind the this hub. 
 
-
-
+Indicates that UpdateMaxExitLatency is disabled for all devices/hubs behind the this hub.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_hub_info_from_parent">HUB_INFO_FROM_PARENT</a>
- 
-
- 
 

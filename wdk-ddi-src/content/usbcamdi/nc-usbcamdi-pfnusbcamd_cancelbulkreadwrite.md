@@ -8,9 +8,6 @@ ms.assetid: e63a56d8-fdd8-468d-b0f9-2c46c5ff7a00
 ms.date: 04/23/2018
 keywords: ["PFNUSBCAMD_CancelBulkReadWrite callback function"]
 ms.keywords: PFNUSBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite routine [Streaming Media Devices], stream.usbcamd_cancelbulkreadwrite, usbcamdi/USBCAMD_CancelBulkReadWrite, usbcmdpr_ba242b77-cda6-4b16-a7a1-297701108cd8.xml
-f1_keywords:
- - "usbcamdi/USBCAMD_CancelBulkReadWrite"
- - "USBCAMD_CancelBulkReadWrite"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbcamdi.h
-api_name:
-- USBCAMD_CancelBulkReadWrite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNUSBCAMD_CancelBulkReadWrite
+ - usbcamdi/PFNUSBCAMD_CancelBulkReadWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbcamdi.h
+api_name:
+ - USBCAMD_CancelBulkReadWrite
 ---
 
 # PFNUSBCAMD_CancelBulkReadWrite callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBCAMD_CancelBulkReadWrite</b> service cancels a pending bulk read or write request.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceContext 
+
 [in]
 Pointer to device-specific context.
 
-
 ### -param PipeIndex 
+
 [in]
 Specifies the index of the bulk pipe to cancel the read or write request.
 
-
 ## -returns
-
-
 
 <b>USBCAMD_CancelBulkReadWrite</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
 
@@ -94,27 +87,12 @@ The current IRQL >= DISPATCH_LEVEL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>USBCAMD_CancelBulkReadWrite</b> is not available in USBCAMD version 1.0.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
- 
-
- 
 

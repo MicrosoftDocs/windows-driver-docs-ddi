@@ -7,9 +7,6 @@ ms.assetid: f74ea9da-71ba-466a-b102-78d999d38096
 ms.date: 05/10/2018
 keywords: ["D3DKMT_DESTROYDEVICE structure"]
 ms.keywords: D3DKMT_DESTROYDEVICE, D3DKMT_DESTROYDEVICE structure [Display Devices], OpenGL_Structs_dc051065-8102-453f-81cd-aa39ee592926.xml, _D3DKMT_DESTROYDEVICE, d3dkmthk/D3DKMT_DESTROYDEVICE, display.d3dkmt_destroydevice
-f1_keywords:
- - "d3dkmthk/D3DKMT_DESTROYDEVICE"
- - "D3DKMT_DESTROYDEVICE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_DESTROYDEVICE
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYDEVICE
+f1_keywords:
+ - _D3DKMT_DESTROYDEVICE
+ - d3dkmthk/_D3DKMT_DESTROYDEVICE
+ - D3DKMT_DESTROYDEVICE
+ - d3dkmthk/D3DKMT_DESTROYDEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_DESTROYDEVICE
 ---
 
 # _D3DKMT_DESTROYDEVICE structure
@@ -46,31 +48,19 @@ req.typenames: D3DKMT_DESTROYDEVICE
 
 ## -description
 
-
 The D3DKMT_DESTROYDEVICE structure contains a handle to the kernel-mode device context to release.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hDevice
 
 [in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroydevice">D3DKMTDestroyDevice</a>
- 
-
- 
 

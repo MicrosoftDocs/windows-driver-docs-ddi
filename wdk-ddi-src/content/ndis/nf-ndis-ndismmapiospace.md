@@ -8,9 +8,6 @@ ms.assetid: 16c62146-ed8d-4bf7-9d5e-0c5dbbf3c9c4
 ms.date: 05/02/2018
 keywords: ["NdisMMapIoSpace function"]
 ms.keywords: NdisMMapIoSpace, NdisMMapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b346fbc3-62d5-447e-82af-329afbafdb73.xml, ndis/NdisMMapIoSpace, netvista.ndismmapiospace
-f1_keywords:
- - "ndis/NdisMMapIoSpace"
- - "NdisMMapIoSpace"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMMapIoSpace
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMMapIoSpace
+ - ndis/NdisMMapIoSpace
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMMapIoSpace
 ---
 
 # NdisMMapIoSpace function
@@ -47,41 +47,34 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMMapIoSpace</b> maps a given bus-relative "physical" range of device RAM or registers onto a
   system-space virtual range.
 
-
 ## -parameters
 
-
-
-
 ### -param VirtualAddress 
+
 [out]
 Pointer to a caller-supplied variable that is set to the converted virtual address if the call is
      successful.
 
-
 ### -param MiniportAdapterHandle 
+
 [in]
 Specifies the handle input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-
 ### -param PhysicalAddress 
+
 [in]
 Specifies the bus-relative base physical address of the device memory range to be mapped.
 
-
 ### -param Length 
+
 [in]
 Specifies the number of bytes to be mapped.
 
-
 ## -returns
-
-
 
 <b>NdisMMapIoSpace</b> can return any of the following status values:
 
@@ -141,14 +134,8 @@ Either the bus type or bus number is out of range or the given
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is called by drivers of NICs that have on-board memory or a bank of device registers
     appearing in the I/O space of the host. For example, the driver of a NIC that uses PIO calls 
@@ -174,13 +161,7 @@ A miniport driver must call the reciprocal
     <i>MiniportInitializeEx</i> subsequently fails to initialize a NIC, if a NIC is removed from the machine,
     and/or when the driver is unloading.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
@@ -223,7 +204,4 @@ A miniport driver must call the reciprocal
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteregisterushort">NdisWriteRegisterUshort</a>
- 
-
- 
 

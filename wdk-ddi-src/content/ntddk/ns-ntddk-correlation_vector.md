@@ -8,9 +8,6 @@ ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
 ms.date: 04/30/2018
 keywords: ["CORRELATION_VECTOR structure"]
 ms.keywords: "*PCORRELATION_VECTOR, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, ntddk/CORRELATION_VECTOR"
-f1_keywords:
- - "ntddk/CORRELATION_VECTOR"
- - "CORRELATION_VECTOR"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- CORRELATION_VECTOR
 targetos: Windows
 req.typenames: CORRELATION_VECTOR
+f1_keywords:
+ - CORRELATION_VECTOR
+ - ntddk/CORRELATION_VECTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - CORRELATION_VECTOR
 ---
 
 # CORRELATION_VECTOR structure
@@ -46,15 +46,10 @@ req.typenames: CORRELATION_VECTOR
 
 ## -description
 
-
 Store the [correlation vector](https://github.com/Microsoft/CorrelationVector) that is used to reference events and the generated logs
     for diagnostic purposes.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 

@@ -8,9 +8,6 @@ ms.assetid: c5a8f551-36a5-4d49-b521-4ac43ea2fff8
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PROPERTY_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_PARAMETERS, NDIS_SWITCH_PROPERTY_PARAMETERS, NDIS_SWITCH_PROPERTY_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_PARAMETERS, PNDIS_SWITCH_PROPERTY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_PARAMETERS, netvista.ndis_switch_property_parameters, ntddndis/NDIS_SWITCH_PROPERTY_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PROPERTY_PARAMETERS"
- - "NDIS_SWITCH_PROPERTY_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_PROPERTY_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_SWITCH_PROPERTY_PARAMETERS, *PNDIS_SWITCH_PROPERTY_PARAMETERS
+f1_keywords:
+ - _NDIS_SWITCH_PROPERTY_PARAMETERS
+ - ntddndis/_NDIS_SWITCH_PROPERTY_PARAMETERS
+ - PNDIS_SWITCH_PROPERTY_PARAMETERS
+ - ntddndis/PNDIS_SWITCH_PROPERTY_PARAMETERS
+ - NDIS_SWITCH_PROPERTY_PARAMETERS
+ - ntddndis/NDIS_SWITCH_PROPERTY_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_PROPERTY_PARAMETERS
 ---
 
 # _NDIS_SWITCH_PROPERTY_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_SWITCH_PROPERTY_PARAMETERS, *PNDIS_SWITCH_PROPERTY_PARAMETER
 
 ## -description
 
-
-The <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure specifies the parameters for a policy property of a Hyper-V extensible switch. 
-
+The <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure specifies the parameters for a policy property of a Hyper-V extensible switch.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -71,16 +70,13 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PROPERTY_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
-
 ### -field PropertyType
 
  An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_property_type">NDIS_SWITCH_PROPERTY_TYPE</a> enumeration value that specifies the type of extensible switch property that is contained within the property buffer.
-
 
 ### -field PropertyId
 
@@ -95,9 +91,6 @@ For more information, see the Remarks section.
 
 An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the extensible switch property.
 
-
-
-
 ### -field SerializationVersion
 
 An NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION value that identifies the format version of the serialized extensible switch property data. This data is serialized for access by the extension from the Managed Object Format (MOF) file that defined the property.
@@ -109,22 +102,15 @@ An NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION value that identifies the format ver
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that specifies the instance identifier of the  extensible switch property.
 
-
-
-
 ### -field PropertyBufferLength
 
 A ULONG value that specifies the size, in bytes, of the property buffer.
 
-
 ### -field PropertyBufferOffset
 
-A ULONG value that specifies the offset, in bytes, to the property buffer that follows the <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure. The offset is measured from the start of the <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure up to the beginning of the property buffer. 
-
+A ULONG value that specifies the offset, in bytes, to the property buffer that follows the <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure. The offset is measured from the start of the <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure up to the beginning of the property buffer.
 
 ## -remarks
-
-
 
 The <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure is used in the following OID set requests:
 
@@ -150,13 +136,7 @@ Extensible switch extensions can access the  extensible switch property buffer i
 
 For more information about extensible switch policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -187,7 +167,4 @@ For more information about extensible switch policies, see <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-property-update">OID_SWITCH_PROPERTY_UPDATE</a>
- 
-
- 
 

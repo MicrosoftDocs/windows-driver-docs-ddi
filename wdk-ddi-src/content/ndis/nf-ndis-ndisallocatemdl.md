@@ -8,9 +8,6 @@ ms.assetid: 4863fe31-2c89-47af-99ed-02055e67621d
 ms.date: 05/02/2018
 keywords: ["NdisAllocateMdl function"]
 ms.keywords: NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateMdl, ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml, netvista.ndisallocatemdl
-f1_keywords:
- - "ndis/NdisAllocateMdl"
- - "NdisAllocateMdl"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateMdl
+ - ndis/NdisAllocateMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateMdl
 ---
 
 # NdisAllocateMdl function
@@ -47,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisAllocateMdl</b> function allocates an MDL that describes the memory buffer at the specified virtual
   address.
 
-
 ## -parameters
 
-
-
-
 ### -param NdisHandle 
+
 [in]
 An NDIS handle that was obtained during caller initialization. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/obtaining-pool-handles">Obtaining Pool Handles</a>.
 
-
 ### -param VirtualAddress 
+
 [in]
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 
@@ -77,23 +73,16 @@ A pointer to the base virtual address of the buffer that the MDL is to describe.
 <div> </div>
 
 ### -param Length 
+
 [in]
 The size, in bytes, of the memory buffer.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateMdl</b> returns a pointer to the allocated MDL. If the allocation fails, the return value
      is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 All MDLs that are allocated by calling 
     <b>NdisAllocateMdl</b> must be freed by calling the 
@@ -105,14 +94,7 @@ All MDLs that are allocated by calling
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> or 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages.</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool">ExAllocatePool</a>
 
@@ -139,7 +121,4 @@ All MDLs that are allocated by calling
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemory">NdisMAllocateSharedMemory</a>
- 
-
- 
 

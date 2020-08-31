@@ -8,41 +8,46 @@ ms.assetid: 6009d11b-4f44-4591-bcb8-66e0c42d5689
 ms.date: 08/26/2020
 keywords: ["ACCESS_RANGE structure"]
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
-f1_keywords:
- - "strmini/ACCESS_RANGE"
- - "ACCESS_RANGE"
 req.header: strmini.h
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- srb.h
-api_name:
-- ACCESS_RANGE
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: ACCESS_RANGE, *PACCESS_RANGE
 req.product: Windows 10 or later.
+f1_keywords:
+ - _ACCESS_RANGE
+ - strmini/_ACCESS_RANGE
+ - PACCESS_RANGE
+ - strmini/PACCESS_RANGE
+ - ACCESS_RANGE
+ - strmini/ACCESS_RANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - srb.h
+api_name:
+ - ACCESS_RANGE
 ---
 
 # _ACCESS_RANGE structure
+
 
 ## -description
 
@@ -50,16 +55,6 @@ An ACCESS_RANGE describes a memory or I/O port range used by an HBA.
 
 > [!NOTE]
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
-
-## -syntax
-
-```cpp
-typedef struct _ACCESS_RANGE {
-  SCSI_PHYSICAL_ADDRESS RangeStart;
-  ULONG                 RangeLength;
-  BOOLEAN               RangeInMemory;
-} ACCESS_RANGE, *PACCESS_RANGE;
-```
 
 ## -struct-fields
 
@@ -76,6 +71,16 @@ Specifies the size, in bytes, or number of ports in the range. A miniport driver
 Indicates the range is in memory when **TRUE**, rather than in I/O space. When **FALSE**, the range is in I/O space.
 
 ### -field Reserved
+
+## -syntax
+
+```cpp
+typedef struct _ACCESS_RANGE {
+  SCSI_PHYSICAL_ADDRESS RangeStart;
+  ULONG                 RangeLength;
+  BOOLEAN               RangeInMemory;
+} ACCESS_RANGE, *PACCESS_RANGE;
+```
 
 ## -remarks
 
@@ -104,3 +109,4 @@ The corresponding base logical address returned by **ScsiPortGetDeviceBase** sho
 [ScsiPortConvertUlongToPhysicalAddress](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportconvertulongtophysicaladdress)
 
 [HwScsiFindAdapter](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85))
+

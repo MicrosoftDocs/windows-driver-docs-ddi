@@ -8,9 +8,6 @@ ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyAttach function"]
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
-f1_keywords:
- - "ufxclient/UfxDeviceNotifyAttach"
- - "UfxDeviceNotifyAttach"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceNotifyAttach
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceNotifyAttach
+ - ufxclient/UfxDeviceNotifyAttach
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceNotifyAttach
 ---
 
 # UfxDeviceNotifyAttach function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 Notifies UFX that the device's  USB cable has been attached.
-
 
 ## -parameters
 
-
-
-
 ### -param UfxDevice 
+
 [in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ## -remarks
-
-
 
 When the client driver calls <b>UfxDeviceNotifyAttach</b>, the USB function class extension (UFX) does the following:
 
@@ -172,5 +165,4 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
-
 

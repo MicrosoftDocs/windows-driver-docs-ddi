@@ -8,9 +8,6 @@ ms.assetid: 7EA6E82C-D803-48CD-9955-CF576BF978CA
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_ATTACH_BUFFERS structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers, IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_ATTACH_BUFFERS
-f1_keywords:
- - "1394/IRB_REQ_ISOCH_ATTACH_BUFFERS"
- - "IRB_REQ_ISOCH_ATTACH_BUFFERS"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ISOCH_ATTACH_BUFFERS
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_ATTACH_BUFFERS
+f1_keywords:
+ - _IRB_REQ_ISOCH_ATTACH_BUFFERS
+ - 1394/_IRB_REQ_ISOCH_ATTACH_BUFFERS
+ - IRB_REQ_ISOCH_ATTACH_BUFFERS
+ - 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ISOCH_ATTACH_BUFFERS
 ---
 
 # _IRB_REQ_ISOCH_ATTACH_BUFFERS structure
@@ -46,24 +48,17 @@ req.typenames: IRB_REQ_ISOCH_ATTACH_BUFFERS
 
 ## -description
 
-
 This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hResource
 
 Specifies the resource handle to attach buffers to.
 
-
 ### -field nNumberOfDescriptors
 
 Specifies the number of elements in the <b>pIsochDescriptor</b> array.
-
 
 ### -field pIsochDescriptor
 

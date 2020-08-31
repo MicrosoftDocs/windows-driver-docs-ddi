@@ -8,9 +8,6 @@ ms.assetid: 01d74e69-55fe-4e2e-94ab-7676f9e33403
 ms.date: 05/02/2018
 keywords: ["NDIS_LINK_STATE structure"]
 ms.keywords: "*PNDIS_LINK_STATE, NDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_STATE, netvista.ndis_link_state, ntddndis/NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE"
-f1_keywords:
- - "ntddndis/NDIS_LINK_STATE"
- - "NDIS_LINK_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_LINK_STATE
 targetos: Windows
 req.typenames: NDIS_LINK_STATE, *PNDIS_LINK_STATE
+f1_keywords:
+ - _NDIS_LINK_STATE
+ - ntddndis/_NDIS_LINK_STATE
+ - PNDIS_LINK_STATE
+ - ntddndis/PNDIS_LINK_STATE
+ - NDIS_LINK_STATE
+ - ntddndis/NDIS_LINK_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_LINK_STATE
 ---
 
 # _NDIS_LINK_STATE structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_LINK_STATE, *PNDIS_LINK_STATE
 
 ## -description
 
-
 The <b>NDIS_LINK_STATE</b> structure specifies the current link state of a miniport adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -65,19 +64,16 @@ The
       <b>Revision</b> member to NDIS_LINK_STATE_REVISION_1, and the 
       <b>Size</b> member to NDIS_SIZEOF_LINK_STATE_REVISION_1.
 
-
 ### -field MediaConnectState
 
 The media connect state for the miniport adapter. For more information, see  
       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
  OID_GEN_MEDIA_CONNECT_STATUS_EX</a> OID.
 
-
 ### -field MediaDuplexState
 
 The media duplex state for the miniport adapter. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">
  OID_GEN_MEDIA_DUPLEX_STATE</a> OID.
-
 
 ### -field XmitLinkSpeed
 
@@ -139,7 +135,6 @@ the miniport adapter and link partner support sending and receiving pause frames
 Pause frame negotiation is in progress. The pause frame support that the link partner provides
  is unknown.
 
-
 ### -field AutoNegotiationFlags
 
 The auto-negotiation settings for the miniport adapter. This member is created from a bitwise OR
@@ -172,10 +167,7 @@ the miniport adapter has auto-negotiated the duplex state with the link partner.
 
 the miniport adapter has auto-negotiated the pause functions with the link partner.
 
-
 ## -remarks
-
-
 
 Miniport drivers use the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-link-state">NDIS_STATUS_LINK_STATE</a> status indication to notify NDIS and overlying drivers that there has been a change in the physical characteristics of a medium.
 
@@ -185,13 +177,7 @@ When it generates this status indication, the driver sets the
 
 The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it handles an OID query request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-state">OID_GEN_LINK_STATE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -220,7 +206,4 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">
  OID_GEN_MEDIA_DUPLEX_STATE</a>
- 
-
- 
 
