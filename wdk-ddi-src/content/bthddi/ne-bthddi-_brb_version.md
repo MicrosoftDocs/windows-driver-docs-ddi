@@ -6,10 +6,8 @@ old-location: bltooth\brb_version.htm
 tech.root: bltooth
 ms.assetid: 2bd4f3f6-94a4-47a6-8c15-a8f9bef5d2b5
 ms.date: 04/27/2018
-keywords: ["_BRB_VERSION enumeration"]
+keywords: ["BRB_VERSION enumeration"]
 ms.keywords: BLUETOOTH_V1, BLUETOOTH_V2, BRB_VERSION, BRB_VERSION Enumeration, BRB_VERSION enumeration [Bluetooth Devices], _BRB_VERSION, bltooth.brb_version, bth_enums_d14431ac-24e9-4a27-90b9-a8aef7e38769.xml, bthddi/BLUETOOTH_V1, bthddi/BLUETOOTH_V2, bthddi/BRB_VERSION
-f1_keywords:
- - "bthddi/BRB_VERSION"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- BRB_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: BRB_VERSION
+f1_keywords:
+ - _BRB_VERSION
+ - bthddi/_BRB_VERSION
+ - BRB_VERSION
+ - bthddi/BRB_VERSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - BRB_VERSION
 ---
 
 # _BRB_VERSION enumeration
@@ -47,29 +48,19 @@ req.typenames: BRB_VERSION
 
 ## -description
 
-
 Reserved for internal use.
 
-
 ## -enum-fields
-
-
-
 
 ### -field BLUETOOTH_V1
 
 Reserved.
 
-
 ### -field BLUETOOTH_V2
 
 Reserved.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb">BRB</a>
 
@@ -88,7 +79,4 @@ Reserved.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
- 
-
- 
 

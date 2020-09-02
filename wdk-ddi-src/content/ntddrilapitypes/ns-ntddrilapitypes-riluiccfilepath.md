@@ -8,8 +8,6 @@ ms.assetid: 65c46391-f0ef-4618-ac26-86f41e04e688
 ms.date: 05/02/2018
 keywords: ["RILUICCFILEPATH structure"]
 ms.keywords: "*LPRILUICCFILEPATH, RILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilepath, ntddrilapitypes/RILUICCFILEPATH"
-f1_keywords:
- - "ntddrilapitypes/RILUICCFILEPATH"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCFILEPATH
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCFILEPATH, *LPRILUICCFILEPATH
+f1_keywords:
+ - RILUICCFILEPATH
+ - ntddrilapitypes/RILUICCFILEPATH
+ - LPRILUICCFILEPATH
+ - ntddrilapitypes/LPRILUICCFILEPATH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCFILEPATH
 ---
 
 # RILUICCFILEPATH structure
@@ -47,20 +48,13 @@ req.typenames: RILUICCFILEPATH, *LPRILUICCFILEPATH
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hUiccApp
 
-
 ### -field dwFilePathLen
-
 
 ### -field wFilePath
 

@@ -6,10 +6,8 @@ old-location: whea\whea_error_record_section_descriptor.htm
 tech.root: whea
 ms.assetid: f1abbf2b-19c9-4d34-9975-4f7ab98792af
 ms.date: 02/20/2018
-keywords: ["_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure"]
+keywords: ["WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, ntddk/PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR, ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, whea.whea_error_record_section_descriptor, whearef_91e354e5-972e-4bf2-b3e7-34e99299ee1f.xml"
-f1_keywords:
- - "ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, *PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+f1_keywords:
+ - _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+ - ntddk/_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+ - PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+ - ntddk/PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+ - WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+ - ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
 ---
 
 # _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure
@@ -47,39 +50,29 @@ req.typenames: WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, *PWHEA_ERROR_RECORD_SECTION
 
 ## -description
 
-
 The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure describes a section of error information that is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SectionOffset
 
 The offset, in bytes, from the beginning of the error record to the beginning of the error record section.
 
-
 ### -field SectionLength
 
 The length, in bytes, of the error data contained in the error record section.
-
 
 ### -field Revision
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_revision">WHEA_REVISION</a> union that describes the revision level of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
 
-
 ### -field ValidBits
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor_validbits">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
-
 ### -field Reserved
 
 Reserved for system use.
-
 
 ### -field Flags
 
@@ -156,7 +149,6 @@ Reserved for system use.
 
 A ULONG representation of the contents of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS union.
 
-
 ### -field SectionType
 
 A GUID that identifies the type of error data that is contained in the error record section. The standard section types are defined as follows:
@@ -221,35 +213,23 @@ The error record section contains processor error data that is specific to the x
 
 For error record sections that do not conform to one of the standard section types, this member contains a platform-specific GUID that identifies the type of error data that is contained in the error record section. If a platform-specific GUID is not defined for the type of error data that is contained in the error record section, this member contains GENERIC_SECTION_GUID.
 
-
 ### -field FRUId
 
 A GUID that identifies the Field Replaceable Unit (FRU) that contains the hardware where the error occurred. This member contains valid data only if the <b>ValidBits.FRUId</b> bit is set.
-
 
 ### -field SectionSeverity
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_whea_error_severity">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition that is described by the error record section.
 
-
 ### -field FRUText
 
 A character string that identifies the Field Replaceable Unit (FRU) that contains the hardware where the error occurred. This member contains valid data only if the <b>ValidBits.FRUText</b> bit is set.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure contains an array of WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structures. Each descriptor describes a section of error information that is part of the error record.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
 
@@ -300,7 +280,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-nt
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
- 
-
- 
 

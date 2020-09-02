@@ -8,8 +8,6 @@ ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.date: 04/16/2018
 keywords: ["FsRtlIsDbcsInExpression function"]
 ms.keywords: FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, ifsk.fsrtlisdbcsinexpression, ntifs/FsRtlIsDbcsInExpression
-f1_keywords:
- - "ntifs/FsRtlIsDbcsInExpression"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlIsDbcsInExpression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlIsDbcsInExpression
+ - ntifs/FsRtlIsDbcsInExpression
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlIsDbcsInExpression
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlIsDbcsInExpression function
@@ -50,37 +49,25 @@ ms.custom: RS5
 
 ## -description
 
-
-The <b>FsRtlIsDbcsInExpression</b> routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern. 
-
+The <b>FsRtlIsDbcsInExpression</b> routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern.
 
 ## -parameters
 
+### -param Expression 
 
+[in]
+A pointer to the pattern string. Can contain wildcard characters.
 
+### -param Name 
 
-### -param Expression [in]
-
-A pointer to the pattern string. Can contain wildcard characters. 
-
-
-### -param Name [in]
-
-A pointer to the string to be compared against the pattern. Cannot contain wildcard characters. 
-
+[in]
+A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
 ## -returns
 
-
-
 <b>FsRtlIsDbcsInExpression</b> returns <b>TRUE</b> if the string matches the pattern, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The following wildcard characters can be used in the pattern string.
 
@@ -144,17 +131,11 @@ Matches zero or more characters until encountering and matching the final . in t
 
 Pattern matching is case sensitive. To perform a case-insensitive match, the caller must use a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupperstring">RtlUpperString</a> to convert the pattern and input strings to uppercase before calling <b>FsRtlIsDbcsInExpression</b>.
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 
@@ -163,7 +144,4 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupperstring">RtlUpperString</a>
- 
-
- 
 

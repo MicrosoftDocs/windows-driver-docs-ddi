@@ -34,12 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_DSITRANSMISSION
 f1_keywords:
+ - DXGKDDI_DSITRANSMISSION
  - dispmprt/DXGKDDI_DSITRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_DSITRANSMISSION callback function
+
 
 ## -description
 
@@ -213,3 +215,4 @@ To ensure that output is returned to the caller to provide details of any errors
 ## -see-also
 
 [DXGI_DSI_TRANSMISSION](ns-dispmprt-dxgk_dsi_transmission.md)
+

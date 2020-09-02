@@ -8,8 +8,6 @@ ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.date: 05/10/2018
 keywords: ["UMDEtwRegister function"]
 ms.keywords: UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister
-f1_keywords:
- - "umdprovider/UMDEtwRegister"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- umdprovider.h
-api_name:
-- UMDEtwRegister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UMDEtwRegister
+ - umdprovider/UMDEtwRegister
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - umdprovider.h
+api_name:
+ - UMDEtwRegister
 ---
 
 # UMDEtwRegister function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Registers the event trace provider. The driver should call this function before it makes any calls to log events.
 
-
 ## -parameters
-
-
-
 
 ### -param CbRundown
 
@@ -62,10 +56,7 @@ A pointer to a callback function that returns information about the current stat
 
 This callback function should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a> function for every current allocation mapping.
 
-
 ## -remarks
-
-
 
 The data type for the <i>CbRundown</i> parameter is defined as:
 
@@ -143,15 +134,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwunregister">UMDEtwUnregister</a>
- 
-
- 
 

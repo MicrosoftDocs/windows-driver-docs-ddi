@@ -8,8 +8,6 @@ ms.assetid: 33da3d63-0909-45fe-9a3b-d268b352231c
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_HARDWARE_ID IOCTL"]
 ms.keywords: IOCTL_HID_GET_HARDWARE_ID, IOCTL_HID_GET_HARDWARE_ID control, IOCTL_HID_GET_HARDWARE_ID control code [Human Input Devices], hid.ioctl_hid_get_hardware_id, hidclass/IOCTL_HID_GET_HARDWARE_ID, hidioreq_e5eb1673-bf55-451b-b8de-f8d735aa54eb.xml
-f1_keywords:
- - "hidclass/IOCTL_HID_GET_HARDWARE_ID"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidclass.h
-api_name:
-- IOCTL_HID_GET_HARDWARE_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_HID_GET_HARDWARE_ID
+ - hidclass/IOCTL_HID_GET_HARDWARE_ID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidclass.h
+api_name:
+ - IOCTL_HID_GET_HARDWARE_ID
 ---
 
 # IOCTL_HID_GET_HARDWARE_ID IOCTL
@@ -47,54 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_HID_GET_HARDWARE_ID request obtains the Plug and Play hardware ID of a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. 
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer. 
-
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer.
 
 ### -input-buffer-length
 
 The length of the buffer.
 
-
 ### -output-buffer
 
-<b>Irp->MdlAddress</b> points to a buffer to receive the number of device input buffers. 
-
+<b>Irp->MdlAddress</b> points to a buffer to receive the number of device input buffers.
 
 ### -output-buffer-length
 
 The length of the buffer.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -112,9 +88,6 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 </ul>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring">HidD_GetIndexedString</a>
 
@@ -145,7 +118,4 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
- 
-
- 
 

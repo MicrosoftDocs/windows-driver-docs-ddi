@@ -10,39 +10,40 @@ ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
 req.header: ntifs.h
-f1_keywords:
- - "ntifs/RtlUnicodeStringToUTF8String"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- RtlUnicodeStringToUTF8String
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - RtlUnicodeStringToUTF8String
+ - ntifs/RtlUnicodeStringToUTF8String
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - 
+api_name:
+ - RtlUnicodeStringToUTF8String
+product:
+ - Windows
 ---
 
 # RtlUnicodeStringToUTF8String function
+
 
 ## -description
 
@@ -90,3 +91,4 @@ You can use the **RtlUnicodeStringToUTF8String** and [**RtlUTF8StringToUnicodeSt
 [**RtlFreeUTF8String**](nf-ntifs-rtlfreeutf8string.md)
 
 [**RtlUTF8StringToUnicodeString**](nf-ntifs-rtlutf8stringtounicodestring.md)
+

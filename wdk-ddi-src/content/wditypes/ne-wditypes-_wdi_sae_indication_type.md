@@ -8,33 +8,35 @@ ms.assetid: 685c8f66-5b3a-4bb5-8579-18197e661e73
 ms.author: windowsdriverdev
 ms.date: 02/14/2019
 keywords: ["WDI_SAE_INDICATION_TYPE enumeration"]
-f1_keywords:
- - "wditypes/WDI_SAE_INDICATION_TYPE"
-ms.keywords: WDI_SAE_INDICATION_TYPE, WDI_SAE_INDICATION_TYPE, 
+ms.keywords: WDI_SAE_INDICATION_TYPE, WDI_SAE_INDICATION_TYPE,
 req.header: wditypes.hpp
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WDI_SAE_INDICATION_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - wditypes.hpp
-api_name: 
- - WDI_SAE_INDICATION_TYPE
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _WDI_SAE_INDICATION_TYPE
+ - wditypes/_WDI_SAE_INDICATION_TYPE
+ - WDI_SAE_INDICATION_TYPE
+ - wditypes/WDI_SAE_INDICATION_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_SAE_INDICATION_TYPE
 ---
 
 # WDI_SAE_INDICATION_TYPE enumeration
+
 
 ## -description
 
@@ -71,3 +73,4 @@ This enumeration is a value in the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_N
 [WPA3-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa3-sae-authentication)
 
 [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)
+

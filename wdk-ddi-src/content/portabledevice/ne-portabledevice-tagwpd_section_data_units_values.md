@@ -8,8 +8,6 @@ ms.assetid: 7904ef5f-734b-4cfb-9a84-c8ee26e37b0d
 ms.date: 02/15/2018
 keywords: ["tagWPD_SECTION_DATA_UNITS_VALUES enumeration"]
 ms.keywords: WPD_SECTION_DATA_UNITS_BYTES, WPD_SECTION_DATA_UNITS_MILLISECONDS, WPD_SECTION_DATA_UNITS_VALUES, WPD_SECTION_DATA_UNITS_VALUES enumeration, enumeration, portabledevice/WPD_SECTION_DATA_UNITS_BYTES, portabledevice/WPD_SECTION_DATA_UNITS_MILLISECONDS, portabledevice/WPD_SECTION_DATA_UNITS_VALUES, tagWPD_SECTION_DATA_UNITS_VALUES, wpddk.wpd_section_data_units_values
-f1_keywords:
- - "portabledevice/WPD_SECTION_DATA_UNITS_VALUES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PortableDevice.h
-api_name:
-- WPD_SECTION_DATA_UNITS_VALUES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_SECTION_DATA_UNITS_VALUES
 ms.custom: RS5
+f1_keywords:
+ - tagWPD_SECTION_DATA_UNITS_VALUES
+ - portabledevice/tagWPD_SECTION_DATA_UNITS_VALUES
+ - WPD_SECTION_DATA_UNITS_VALUES
+ - portabledevice/WPD_SECTION_DATA_UNITS_VALUES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PortableDevice.h
+api_name:
+ - WPD_SECTION_DATA_UNITS_VALUES
 ---
 
 # tagWPD_SECTION_DATA_UNITS_VALUES enumeration
@@ -48,35 +49,19 @@ ms.custom: RS5
 
 ## -description
 
-
-
 The <b>WPD_SECTION_DATA_UNITS_VALUES</b> enumeration indicates the units for a referenced section of data.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field WPD_SECTION_DATA_UNITS_BYTES
 
 The given units are specified in bytes.
 
-
 ### -field WPD_SECTION_DATA_UNITS_MILLISECONDS
 
 The given units are specified in milliseconds.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
- 
-
- 
 

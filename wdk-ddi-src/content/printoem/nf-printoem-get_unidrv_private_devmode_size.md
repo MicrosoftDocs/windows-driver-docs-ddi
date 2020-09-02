@@ -5,41 +5,43 @@ description:
 ms.assetid: c77fb1c5-d713-4d66-ae3c-27609731314c
 ms.date: 10/19/2018
 keywords: ["GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"]
-f1_keywords:
- - "printoem/GET_UNIDRV_PRIVATE_DEVMODE_SIZE"
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 req.header: printoem.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- printoem.h
-api_name: 
-- GET_UNIDRV_PRIVATE_DEVMODE_SIZE
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - GET_UNIDRV_PRIVATE_DEVMODE_SIZE
+ - printoem/GET_UNIDRV_PRIVATE_DEVMODE_SIZE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - GET_UNIDRV_PRIVATE_DEVMODE_SIZE
+product:
+ - Windows
 ---
 
 # GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro
+
 
 ## -description
 
@@ -62,3 +64,4 @@ The macro is defined as follows:
 ## -remarks
 
 ## -see-also
+

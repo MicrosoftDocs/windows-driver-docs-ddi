@@ -8,8 +8,6 @@ ms.assetid: F57B0E44-A6A1-4C43-83EE-8DF4A605C0D0
 ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, stream.kscamera_extendedprop_roi_ispcontrolheader, tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER"
-f1_keywords:
- - "ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+f1_keywords:
+ - tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+ - ksmedia/tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+ - PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+ - ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+ - KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+ - ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER structure
@@ -47,24 +50,17 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, *PKSCAMERA_EXTENDEDPR
 
 ## -description
 
-
 This structure contains the header information for ROI ISP controls.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The sum of this structure size, all <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_roi_ispcontrol">KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL</a> structures, and all KSCAMERA_EXTENDEDPROP_ROI_RECTINFO structures that follow
 
-
 ### -field ControlCount
 
 The number of ISP controls. If this value is 0, the ROI control will remove all ROIs previously configured. This effectively clears up all ROIs configured and resets the driver to the default ROI.
-
 
 ### -field Reserved
 

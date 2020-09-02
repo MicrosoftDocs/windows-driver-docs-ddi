@@ -8,8 +8,6 @@ ms.assetid: 689EE1EB-820A-4873-92C5-08F5F1873825
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, storage.ioctl_ehstor_driver_perform_authz
-f1_keywords:
- - "ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorIoctl.h
-api_name:
-- IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
+ - ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorIoctl.h
+api_name:
+ - IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
 ---
 
 # IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ IOCTL
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 <b>IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</b> is sent by the Enhanced Storage Class Driver (EHSTOR) to the silo driver to initiate on-demand authentication or deauthentication.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -93,50 +87,28 @@ The value of <b>AuthzState</b> specifies the authentication operation. This is o
 <td>Perform on-demand deauthentication and clear cached authentication keys.</td>
 </tr>
 </table>
- 
-
 
 ### -input-buffer-length
 
 The length of an <b>AUTHZ_STATE</b> structure.
 
-
 ### -output-buffer
 
 None.
-
 
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 STATUS_SUCCESS is returned in the <b>Status</b> field by the silo driver if the authentication state is changed. Otherwise, STATUS_UNSUCCESSFUL is returned.
 
-
 ## -remarks
-
-
 
 This IOCTL is sent by EHSTOR to a silo driver that supports on-demand authentication. The silo driver notifies EHSTOR of this capability in a prior <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request with the <b>CAP_ON_DEMAND_AUTHENTICATION</b> flag set in the <b>Capabilities</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">SILO_DRIVER_CAPABILITES</a>. 
 
@@ -148,20 +120,11 @@ If the <b>AuthzState</b> member of <b>AUTHZ_STATE</b> is set to <b>AUTHZSTATE_CL
 
 If a device supports multiple silos, authentication by each silo is exclusive. An authentication operation by one silo driver does not affect the authentication state set by another silo driver.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">SILO_DRIVER_CAPABILITES</a>
- 
-
- 
 

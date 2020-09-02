@@ -8,8 +8,6 @@ ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.date: 04/30/2018
 keywords: ["ZwQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
-f1_keywords:
- - "wdm/ZwQueryInformationFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryInformationFile
-- NtQueryInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwQueryInformationFile
+ - wdm/ZwQueryInformationFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryInformationFile
+ - NtQueryInformationFile
 ---
 
 # ZwQueryInformationFile function
@@ -48,37 +47,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwQueryInformationFile</b> routine returns various kinds of information about a file object.
-
 
 ## -parameters
 
+### -param FileHandle 
 
-
-
-### -param FileHandle [in]
-
+[in]
 Handle to a file object. The handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>.
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [out]
-
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. The <b>Information</b> member receives the number of bytes that this routine actually writes to the <i>FileInformation</i> buffer.
 
+### -param FileInformation 
 
-### -param FileInformation [out]
-
+[out]
 Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The <i>FileInformationClass</i> parameter specifies the type of information that the caller requests.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The size, in bytes, of the buffer pointed to by <i>FileInformation</i>.
 
+### -param FileInformationClass 
 
-### -param FileInformationClass [in]
-
+[in]
 Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values.
 
 <table>
@@ -229,21 +224,12 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_f
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 <b>ZwQueryInformationFile </b>returns STATUS_SUCCESS or an appropriate NTSTATUS error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>ZwQueryInformationFile</b> returns information about the specified file object. Note that it returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by a particular device or file system.
 
@@ -283,13 +269,7 @@ Callers of <b>ZwQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVEL
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information">FILE_ACCESS_INFORMATION</a>
 
@@ -356,7 +336,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
- 
-
- 
 

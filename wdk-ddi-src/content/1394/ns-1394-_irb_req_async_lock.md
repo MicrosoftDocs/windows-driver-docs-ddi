@@ -6,10 +6,8 @@ old-location: ieee\irb_req_async_lock.htm
 tech.root: IEEE
 ms.assetid: 735C613E-BEAA-4E95-AF9D-A94A4BD940DE
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_ASYNC_LOCK structure"]
+keywords: ["IRB_REQ_ASYNC_LOCK structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_LOCK, IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK structure [Buses], _IRB_REQ_ASYNC_LOCK
-f1_keywords:
- - "1394/IRB_REQ_ASYNC_LOCK"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ASYNC_LOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ASYNC_LOCK
+f1_keywords:
+ - _IRB_REQ_ASYNC_LOCK
+ - 1394/_IRB_REQ_ASYNC_LOCK
+ - IRB_REQ_ASYNC_LOCK
+ - 1394/IRB_REQ_ASYNC_LOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ASYNC_LOCK
 ---
 
 # _IRB_REQ_ASYNC_LOCK structure
@@ -47,29 +48,21 @@ req.typenames: IRB_REQ_ASYNC_LOCK
 
 ## -description
 
-
 This structure contains the fields necessary for the 1394 stack to carry out an asychronous lock request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DestinationAddress
 
 Specifies the 1394 64-bit destination address for this read operation. The driver only needs to fill in the <b>IA_Destination_Offset</b> member of <b>u.AsyncLock.DestinationAddress</b>; the bus driver fills in the <b>IA_Destination_ID</b> member. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_io_address">IO_ADDRESS</a> for the structure description.
 
-
 ### -field nNumberOfArgBytes
 
 Specifies the number of argument bytes used in performing this lock operation. May be zero, 4 or 8. See the <b>u.AsyncLock.fulTransactionType</b> member for details.
 
-
 ### -field nNumberOfDataBytes
 
 Specifies the number of data bytes used in performing this lock operation. May be 4 or 8. See the <b>u.AsyncLock.fulTransactionType</b> member for details.
-
 
 ### -field fulTransactionType
 
@@ -141,48 +134,38 @@ If the original value and the argument differ, add the data value to original va
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fulFlags
 
 Not currently used. Drivers should set this to zero.
 
-
 ### -field Arguments
 
 Specifies the arguments used in this lock operation.
-
 
 ### -field DataValues
 
 Specifies the data values used in this lock operation.
 
-
 ### -field pBuffer
 
 Points to a buffer that receives lock data values returned from the node. The size of the buffer must be at least equal to the <b>u.AsyncLock.nNumberOfDataBytes</b> member.
-
 
 ### -field ulGeneration
 
 Specifies the bus reset generation as known by the device driver who submitted this asynchronous request. If the generation count specified does not match the actual generation of the bus, then this request is returned with an error.
 
-
 ### -field chPriority
 
 Reserved.
-
 
 ### -field nSpeed
 
 Reserved.
 
-
 ### -field tCode
 
 Reserved.
-
 
 ### -field Reserved
 

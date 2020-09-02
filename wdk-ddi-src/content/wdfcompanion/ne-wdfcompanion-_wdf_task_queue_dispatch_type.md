@@ -6,10 +6,8 @@ old-location: wdf\wdf_task_queue_dispatch_type.htm
 tech.root: wdf
 ms.assetid: 27cc4067-33de-4f2d-abad-05c73c875458
 ms.date: 02/26/2018
-keywords: ["_WDF_TASK_QUEUE_DISPATCH_TYPE enumeration"]
+keywords: ["WDF_TASK_QUEUE_DISPATCH_TYPE enumeration"]
 ms.keywords: WDF_TASK_QUEUE_DISPATCH_TYPE, WDF_TASK_QUEUE_DISPATCH_TYPE enumeration, WdfTaskQueueDispatchInvalid, WdfTaskQueueDispatchMax, WdfTaskQueueDispatchParallel, WdfTaskQueueDispatchSequential, _WDF_TASK_QUEUE_DISPATCH_TYPE, wdf.wdf_task_queue_dispatch_type, wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE, wdfcompanion/WdfTaskQueueDispatchInvalid, wdfcompanion/WdfTaskQueueDispatchMax, wdfcompanion/WdfTaskQueueDispatchParallel, wdfcompanion/WdfTaskQueueDispatchSequential
-f1_keywords:
- - "wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompanion.h
-api_name:
-- WDF_TASK_QUEUE_DISPATCH_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
+f1_keywords:
+ - _WDF_TASK_QUEUE_DISPATCH_TYPE
+ - wdfcompanion/_WDF_TASK_QUEUE_DISPATCH_TYPE
+ - WDF_TASK_QUEUE_DISPATCH_TYPE
+ - wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompanion.h
+api_name:
+ - WDF_TASK_QUEUE_DISPATCH_TYPE
 ---
 
 # _WDF_TASK_QUEUE_DISPATCH_TYPE enumeration
@@ -47,23 +48,15 @@ req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
 
 ## -description
 
-
 For internal use only.
-
 
 ## -enum-fields
 
-
-
-
 ### -field WdfTaskQueueDispatchInvalid
-
 
 ### -field WdfTaskQueueDispatchSequential
 
-
 ### -field WdfTaskQueueDispatchParallel
-
 
 ### -field WdfTaskQueueDispatchMax
 

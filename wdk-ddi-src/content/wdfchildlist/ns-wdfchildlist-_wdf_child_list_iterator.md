@@ -6,10 +6,8 @@ old-location: wdf\wdf_child_list_iterator.htm
 tech.root: wdf
 ms.assetid: 3baeaaab-cb2f-49a1-bd01-01bd1e3e5214
 ms.date: 02/26/2018
-keywords: ["_WDF_CHILD_LIST_ITERATOR structure"]
+keywords: ["WDF_CHILD_LIST_ITERATOR structure"]
 ms.keywords: "*PWDF_CHILD_LIST_ITERATOR, DFDeviceObjectChildListRef_5a77ee51-8e18-4e86-afd0-8add561dab4d.xml, PWDF_CHILD_LIST_ITERATOR, PWDF_CHILD_LIST_ITERATOR structure pointer, WDF_CHILD_LIST_ITERATOR, WDF_CHILD_LIST_ITERATOR structure, _WDF_CHILD_LIST_ITERATOR, kmdf.wdf_child_list_iterator, wdf.wdf_child_list_iterator, wdfchildlist/PWDF_CHILD_LIST_ITERATOR, wdfchildlist/WDF_CHILD_LIST_ITERATOR"
-f1_keywords:
- - "wdfchildlist/WDF_CHILD_LIST_ITERATOR"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfchildlist.h
-api_name:
-- WDF_CHILD_LIST_ITERATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_CHILD_LIST_ITERATOR, *PWDF_CHILD_LIST_ITERATOR
+f1_keywords:
+ - _WDF_CHILD_LIST_ITERATOR
+ - wdfchildlist/_WDF_CHILD_LIST_ITERATOR
+ - PWDF_CHILD_LIST_ITERATOR
+ - wdfchildlist/PWDF_CHILD_LIST_ITERATOR
+ - WDF_CHILD_LIST_ITERATOR
+ - wdfchildlist/WDF_CHILD_LIST_ITERATOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfchildlist.h
+api_name:
+ - WDF_CHILD_LIST_ITERATOR
 ---
 
 # _WDF_CHILD_LIST_ITERATOR structure
@@ -47,35 +50,25 @@ req.typenames: WDF_CHILD_LIST_ITERATOR, *PWDF_CHILD_LIST_ITERATOR
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_CHILD_LIST_ITERATOR</b> structure identifies the type of child devices that the framework will retrieve when a driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Flags
 
 One or more flags that are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ne-wdfchildlist-_wdf_retrieve_child_flags">WDF_RETRIEVE_CHILD_FLAGS</a> enumeration.
-
 
 ### -field Reserved
 
 Reserved for internal use only.
 
-
 ## -remarks
-
-
 
 The driver must initialize the <b>WDF_CHILD_LIST_ITERATOR</b> structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdf_child_list_iterator_init">WDF_CHILD_LIST_ITERATOR_INIT</a>.
 
@@ -83,13 +76,7 @@ The WDF_CHILD_LIST_ITERATOR structure is used as input to the <a href="https://d
 
 For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdf_child_list_iterator_init">WDF_CHILD_LIST_ITERATOR_INIT</a>
 
@@ -108,7 +95,4 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a>
- 
-
- 
 

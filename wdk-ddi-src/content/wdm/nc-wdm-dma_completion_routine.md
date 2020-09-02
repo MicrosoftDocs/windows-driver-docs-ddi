@@ -8,8 +8,6 @@ ms.assetid: 13EC62D0-6C70-46BE-8088-2DEC7012EE1A
 ms.date: 04/30/2018
 keywords: ["DMA_COMPLETION_ROUTINE callback function"]
 ms.keywords: DMA_COMPLETION_ROUTINE, DmaCompletionRoutine, DmaCompletionRoutine routine [Kernel-Mode Driver Architecture], kernel.dmacompletionroutine, wdm/DmaCompletionRoutine
-f1_keywords:
- - "wdm/DmaCompletionRoutine"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- DmaCompletionRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DMA_COMPLETION_ROUTINE
+ - wdm/DMA_COMPLETION_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - DmaCompletionRoutine
 ---
 
 # DMA_COMPLETION_ROUTINE callback function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <i>DmaCompletionRoutine</i> callback routine notifies the driver that previously requested a system DMA transfer that this transfer is complete.
-
 
 ## -parameters
 
+### -param DmaAdapter 
 
-
-
-### -param DmaAdapter [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel.
 
+### -param DeviceObject 
 
-### -param DeviceObject [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This structure is the physical device object (PDO) that represents the target device for the requested DMA operation.
 
+### -param CompletionContext 
 
-### -param CompletionContext [in]
-
+[in]
 A pointer to a driver-determined context for the <i>DmaCompletionRoutine</i> routine. This context is the <i>CompletionContext</i> parameter value that the driver previously passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a> call that initiated the system DMA transfer.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 The completion status of the DMA transfer. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status">DMA_COMPLETION_STATUS</a> enumeration value that indicates whether the DMA transfer completed successfully.
 
-
 ## -remarks
-
-
 
 As an option, a driver can implement a <i>DmaCompletionRoutine</i> routine. When the driver requests a system DMA transfer, the driver can supply a pointer to this routine with the request. After the DMA transfer completes, the <i>DmaCompletionRoutine</i> routine is automatically called to notify the driver.
 
@@ -130,12 +122,7 @@ The DMA_COMPLETION_ROUTINE function type is defined in the Wdm.h header file. To
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>
 
@@ -162,7 +149,4 @@ The DMA_COMPLETION_ROUTINE function type is defined in the Wdm.h header file. To
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: d1043d5b-6f2c-4c2f-894a-ae6870865257
 ms.date: 05/10/2018
 keywords: ["D3D10_DDI_DEPTH_STENCIL_DESC structure"]
 ms.keywords: D3D10_DDI_DEPTH_STENCIL_DESC, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml, d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC, display.d3d10_ddi_depth_stencil_desc
-f1_keywords:
- - "d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D10_DDI_DEPTH_STENCIL_DESC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_DDI_DEPTH_STENCIL_DESC
+f1_keywords:
+ - D3D10_DDI_DEPTH_STENCIL_DESC
+ - d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D10_DDI_DEPTH_STENCIL_DESC
 ---
 
 # D3D10_DDI_DEPTH_STENCIL_DESC structure
@@ -47,19 +46,13 @@ req.typenames: D3D10_DDI_DEPTH_STENCIL_DESC
 
 ## -description
 
-
 The D3D10_DDI_DEPTH_STENCIL_DESC structure describes a depth stencil state.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DepthEnable
 
-[in] A Boolean value that specifies whether depth is enabled. <b>TRUE</b> indicates depth is enabled; <b>FALSE</b> indicates depth is disabled. 
-
+[in] A Boolean value that specifies whether depth is enabled. <b>TRUE</b> indicates depth is enabled; <b>FALSE</b> indicates depth is disabled.
 
 ### -field DepthWriteMask
 
@@ -69,62 +62,44 @@ The D3D10_DDI_DEPTH_STENCIL_DESC structure describes a depth stencil state.
 |--- |--- |
 |D3D10_DDI_DEPTH_WRITE_MASK_ZERO (0)|No properties|
 |D3D10_DDI_DEPTH_WRITE_MASK_ALL (1)|All properties|
- 
-
 
 ### -field DepthFunc
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_comparison_func">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the depth-comparison function to perform.
 
-
 ### -field StencilEnable
 
-[in] A Boolean value that specifies whether stencil is enabled. <b>TRUE</b> indicates stencil is enabled; <b>FALSE</b> indicates stencil is disabled. 
-
+[in] A Boolean value that specifies whether stencil is enabled. <b>TRUE</b> indicates stencil is enabled; <b>FALSE</b> indicates stencil is disabled.
 
 ### -field FrontEnable
 
-[in] A Boolean value that specifies whether the performance of stencil operations on forward-facing polygons is enabled. <b>TRUE</b> indicates that the performance on forward-facing polygons is enabled; <b>FALSE</b> indicates that it is disabled. 
-
+[in] A Boolean value that specifies whether the performance of stencil operations on forward-facing polygons is enabled. <b>TRUE</b> indicates that the performance on forward-facing polygons is enabled; <b>FALSE</b> indicates that it is disabled.
 
 ### -field BackEnable
 
-[in] A Boolean value that specifies whether the performance of stencil operations on back-facing polygons is enabled. <b>TRUE</b> indicates that the performance on back-facing polygons is enabled; <b>FALSE</b> indicates that it is disabled. 
-
+[in] A Boolean value that specifies whether the performance of stencil operations on back-facing polygons is enabled. <b>TRUE</b> indicates that the performance on back-facing polygons is enabled; <b>FALSE</b> indicates that it is disabled.
 
 ### -field StencilReadMask
 
-[in] An 8-bit bitwise value that the driver uses in a bitwise AND operation with the stencil value in the stencil buffer immediately after reading the stencil value out of the stencil buffer. 
-
+[in] An 8-bit bitwise value that the driver uses in a bitwise AND operation with the stencil value in the stencil buffer immediately after reading the stencil value out of the stencil buffer.
 
 ### -field StencilWriteMask
 
-[in] An 8-bit bitwise value that the driver uses in a bitwise AND operation with the current stencil value before writing the result back out to the stencil buffer. 
-
+[in] An 8-bit bitwise value that the driver uses in a bitwise AND operation with the current stencil value before writing the result back out to the stencil buffer.
 
 ### -field FrontFace
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc">D3D10_DDI_DEPTH_STENCILOP_DESC</a> structure that describes the stencil operation to perform on forward-facing polygons.
 
-
 ### -field BackFace
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc">D3D10_DDI_DEPTH_STENCILOP_DESC</a> structure that describes the stencil operation to perform on back-facing polygons.
 
-
 ## -remarks
 
-
-
-If the <b>StencilEnable</b> member is set to <b>TRUE</b>, the <b>FrontEnable</b> member, <b>BackEnable</b> member, or both must also be set to <b>TRUE</b>. 
-
-
-
+If the <b>StencilEnable</b> member is set to <b>TRUE</b>, the <b>FrontEnable</b> member, <b>BackEnable</b> member, or both must also be set to <b>TRUE</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivatedepthstencilstatesize">CalcPrivateDepthStencilStateSize</a>
 
@@ -139,7 +114,4 @@ If the <b>StencilEnable</b> member is set to <b>TRUE</b>, the <b>FrontEnable</b>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 4da0f5cb-a017-4df5-958b-c76b7a08495a
 ms.date: 05/10/2018
 keywords: ["PAGP_RELEASE_PHYSICAL callback function"]
 ms.keywords: AgpReleasePhysical, AgpReleasePhysical callback function [Display Devices], PAGP_RELEASE_PHYSICAL, PAGP_RELEASE_PHYSICAL callback, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml, display.agpreleasephysical, videoagp/AgpReleasePhysical
-f1_keywords:
- - "videoagp/AgpReleasePhysical"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- videoagp.h
-api_name:
-- AgpReleasePhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PAGP_RELEASE_PHYSICAL
+ - videoagp/PAGP_RELEASE_PHYSICAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - videoagp.h
+api_name:
+ - AgpReleasePhysical
 ---
 
 # PAGP_RELEASE_PHYSICAL callback function
@@ -47,45 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>AgpReleasePhysical</b> function frees a physical address range reserved by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param PhysicalReserveContext 
 
-### -param PhysicalReserveContext [in]
-
+[in]
 Is the context handle that identifies the reserved physical address range to be released. This context was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
-
 
 ## -remarks
 
-
-
 The miniport driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_free_physical">AgpFreePhysical</a> to unmap all committed memory within the address range identified by <b>PhysicalReserveContext</b> before calling <b>AgpReleasePhysical</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_free_physical">AgpFreePhysical</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>
- 
-
- 
 

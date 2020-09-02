@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_device_service_session_write_complete.htm
 tech.root: netvista
 ms.assetid: 16A48882-BEA6-4F95-8E9F-572BFD102031
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE structure"]
+keywords: ["NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, netvista.ndis_wwan_device_service_session_write_complete"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+f1_keywords:
+ - _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+ - ndiswwan/_NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+ - PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+ - ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+ - NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+ - ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE, *PNDIS_WWAN_DEVI
 
 ## -description
 
-
 The NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE structure represents the status of a device service session write operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +103,6 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 

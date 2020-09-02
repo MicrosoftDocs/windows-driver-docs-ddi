@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateDepthStencilView"
+ - PFND3D10DDI_CREATEDEPTHSTENCILVIEW
+ - d3d10umddi/PFND3D10DDI_CREATEDEPTHSTENCILVIEW
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CREATEDEPTHSTENCILVIEW callback function
+
 
 ## -description
 

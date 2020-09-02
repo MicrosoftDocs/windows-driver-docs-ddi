@@ -5,48 +5,53 @@ description: The HW_INITIALIZATION_DATA (Storport) structure contains informatio
 tech.root: storage
 ms.assetid: de37a235-10b4-4491-8e75-257f7c07ae32
 ms.date: 10/19/2018
-keywords: ["_HW_INITIALIZATION_DATA structure"]
-f1_keywords:
- - "storport/_HW_INITIALIZATION_DATA"
+keywords: ["HW_INITIALIZATION_DATA structure"]
 ms.keywords: _HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, ADDRESS_TYPE_FLAG_BTL8, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_DUMP_RESUME_CAPABLE, STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_FEATURE_VIRTUAL_MINIPORT, STOR_MAP_ALL_BUFFERS, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_MAP_NO_BUFFERS, _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__storport_, storport/HW_INITIALIZATION_DATA, storport/PHW_INITIALIZATION_DATA, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- storport.h
-api_name: 
-- _HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - _HW_INITIALIZATION_DATA
+ - storport/_HW_INITIALIZATION_DATA
+ - PHW_INITIALIZATION_DATA
+ - storport/PHW_INITIALIZATION_DATA
+ - HW_INITIALIZATION_DATA
+ - storport/HW_INITIALIZATION_DATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - _HW_INITIALIZATION_DATA
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _HW_INITIALIZATION_DATA structure
 
+
 ## -description
 
-The **HW_INITIALIZATION_DATA (Storport)** structure contains information particular to each miniport driver and the hardware that the miniport driver manages. 
+The **HW_INITIALIZATION_DATA (Storport)** structure contains information particular to each miniport driver and the hardware that the miniport driver manages.
 
 ## -struct-fields
 
 ### -field HwInitializationDataSize
+
  
 Specifies the size of this structure in bytes, as returned by <b>sizeof</b>(HW_INITIALIZATION_DATA). In effect, this member indicates the version of this structure being used by the miniport driver. A miniport driver's DriverEntry routine should set this member's value for the port driver.
 
@@ -56,23 +61,23 @@ The Storport driver does not support legacy buses. Therefore, most of the adapte
 
 ### -field HwInitialize
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwStartIo
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwInterrupt
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a> routine, which is a required entry point for all miniport drivers.  
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwFindAdapter
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwResetBus
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_reset_bus">HwStorResetBus</a> routine, which is a required entry point for all miniport drivers. 
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_reset_bus">HwStorResetBus</a> routine, which is a required entry point for all miniport drivers.
 
 ### -field HwDmaStarted
 
@@ -100,7 +105,7 @@ This value is based on the assumption that the HBA is able to receive 32-bit add
 
 ### -field NumberOfAccessRanges
 
-Specifies how many access ranges the adapter uses. Each is a range either of memory addresses or I/O port addresses. 
+Specifies how many access ranges the adapter uses. Each is a range either of memory addresses or I/O port addresses.
 
 ### -field Reserved
 
@@ -159,7 +164,7 @@ Map the buffer for all I/O including read and write requests. This value is vali
 
 ### -field NeedPhysicalAddresses
 
-Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport driver must translate certain types of addresses to physical addresses. Miniport drivers that work with the Storport driver must support bus-master DMA, so they will always be required to do address translation. 
+Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport driver must translate certain types of addresses to physical addresses. Miniport drivers that work with the Storport driver must support bus-master DMA, so they will always be required to do address translation.
 
 ### -field TaggedQueuing
 
@@ -167,7 +172,7 @@ Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the miniport d
 
 ### -field AutoRequestSense
 
-Must be <b>TRUE</b>. A value of <b>TRUE</b> indicates that the HBA can perform a request-sense operation without requiring an explicit request to do so. All miniport drivers that work with the Storport driver must support SCSI Auto-Request Sense. 
+Must be <b>TRUE</b>. A value of <b>TRUE</b> indicates that the HBA can perform a request-sense operation without requiring an explicit request to do so. All miniport drivers that work with the Storport driver must support SCSI Auto-Request Sense.
 
 ### -field MultipleRequestPerLu
 
@@ -186,7 +191,7 @@ The Storport driver ignores this member, because miniport drivers that work with
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
 
 ### -field ReservedUshort
- 
+
 ### -field PortVersionFlags
 
 Flags to indicate supported features.
@@ -201,11 +206,11 @@ The Storport driver ignores this member, because miniport drivers that work with
 
 ### -field HwAdapterControl
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. This is a required routine because miniport drivers that work with the Storport driver require PnP support. 
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. This is a required routine because miniport drivers that work with the Storport driver require PnP support.
 
 ### -field HwBuildIo
 
-Pointer to an optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_buildio">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine. 
+Pointer to an optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_buildio">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine.
 
 ### -field HwFreeAdapterResources
 
@@ -242,7 +247,6 @@ This callback is added in Windows 8. Virtual miniports for previous versions of
 A pointer to an optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_tracing_enabled">HwStorTracingEnabled</a> routine that the port driver calls to notify the miniport of whether tracing is enabled or not.
 
 ### -field FeatureSupport
-
 
 Flags indicating features that are supported by the miniport. <b>FeatureSupport</b> is set to a combination of these values:
 
@@ -366,7 +370,6 @@ The miniport supports extended SRBs.
 
 ### -field AddressTypeFlags
 
-
 The address schemes supported by the miniport. Currently, the only one address scheme is supported and the miniport must set this member to ADDRESS_TYPE_FLAG_BTL8.
 
 <table>
@@ -397,3 +400,4 @@ A pointer the miniport driver's <b>HwStorUnitControl</b> routine. The port drive
 ## -remarks
 
 ## -see-also
+

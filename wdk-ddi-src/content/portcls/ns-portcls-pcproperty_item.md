@@ -8,8 +8,6 @@ ms.assetid: aec5b9df-22cc-4ef8-8d09-103124ab357c
 ms.date: 05/08/2018
 keywords: ["PCPROPERTY_ITEM structure"]
 ms.keywords: "*PPCPROPERTY_ITEM, PCPROPERTY_ITEM, PCPROPERTY_ITEM structure [Audio Devices], PPCPROPERTY_ITEM, PPCPROPERTY_ITEM structure pointer [Audio Devices], audio.pcproperty_item, audpc-struct_6d95504b-3ecc-47dc-b98f-b6ebfa40d749.xml, portcls/PCPROPERTY_ITEM, portcls/PPCPROPERTY_ITEM"
-f1_keywords:
- - "portcls/PCPROPERTY_ITEM"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- portcls.h
-api_name:
-- PCPROPERTY_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: PCPROPERTY_ITEM, *PPCPROPERTY_ITEM
+f1_keywords:
+ - PPCPROPERTY_ITEM
+ - portcls/PPCPROPERTY_ITEM
+ - PCPROPERTY_ITEM
+ - portcls/PCPROPERTY_ITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - portcls.h
+api_name:
+ - PCPROPERTY_ITEM
 ---
 
 # PCPROPERTY_ITEM structure
@@ -47,24 +48,17 @@ req.typenames: PCPROPERTY_ITEM, *PPCPROPERTY_ITEM
 
 ## -description
 
-
 The <b>PCPROPERTY_ITEM</b> structure describes a property that is supported by a particular filter, pin, or node.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Set
 
 Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-drivers-property-sets">Audio Drivers Property Sets</a>.
 
-
 ### -field Id
 
 Specifies the property ID. This member identifies a property item within the property set. If the property set contains N items, valid property IDs are integers in the range 0 to N-1.
-
 
 ### -field Flags
 
@@ -156,8 +150,6 @@ PCPROPERTY_ITEM_FLAG_SERIALIZERAW | PCPROPERTY_ITEM_FLAG_UNSERIALIZERAW | PCPROP
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Handler
 
@@ -178,10 +170,7 @@ Pointer to the property-handler routine. This member is a function pointer of ty
 </table></span></div>
 See the following Remarks section.
 
-
 ## -remarks
-
-
 
 The <b>PCPROPERTY_ITEM</b> structure specifies a particular property item in an automation table. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCPROPERTY_ITEM</b> structures.
 
@@ -201,20 +190,11 @@ If the miniport driver attempts to access the structure after it has been freed,
 
 For more information about serialization and raw serialization of a property set, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pccompletependingpropertyrequest">PcCompletePendingPropertyRequest</a>
- 
-
- 
 

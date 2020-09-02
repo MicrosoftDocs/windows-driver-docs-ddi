@@ -6,43 +6,49 @@ description: Information about a virtual GPU profile.
 tech.root: display
 ms.assetid: be1bbb29-bb8c-4948-bebd-7c9dabb2dfd6
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGK_VIRTUALGPUPROFILE structure"]
-f1_keywords:
- - "dispmprt/_DXGK_VIRTUALGPUPROFILE"
+ms.date: 04/04/2019
+keywords: ["DXGK_VIRTUALGPUPROFILE structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGK_VIRTUALGPUPROFILE, DXGK_VIRTUALGPUPROFILE, *PDXGK_VIRTUALGPUPROFILE, 
+ms.keywords: _DXGK_VIRTUALGPUPROFILE, DXGK_VIRTUALGPUPROFILE, *PDXGK_VIRTUALGPUPROFILE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_VIRTUALGPUPROFILE, *PDXGK_VIRTUALGPUPROFILE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGK_VIRTUALGPUPROFILE
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_VIRTUALGPUPROFILE
+ - dispmprt/_DXGK_VIRTUALGPUPROFILE
+ - PDXGK_VIRTUALGPUPROFILE
+ - dispmprt/PDXGK_VIRTUALGPUPROFILE
+ - DXGK_VIRTUALGPUPROFILE
+ - dispmprt/DXGK_VIRTUALGPUPROFILE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_VIRTUALGPUPROFILE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_VIRTUALGPUPROFILE structure
+
 
 ## -description
 
@@ -56,6 +62,5 @@ The array of capability values, which include Memory, Encode, Decode and Compute
 
 ## -remarks
 
-
-
 ## -see-also
+

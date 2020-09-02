@@ -8,8 +8,6 @@ ms.assetid: f8ad7d35-5832-4258-8666-2c0f1f893f10
 ms.date: 05/02/2018
 keywords: ["NdisRawWritePortUshort macro"]
 ms.keywords: NdisRawWritePortUshort, NdisRawWritePortUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_6c164b75-fcfb-4251-803a-ca7cbe623b4d.xml, ndis/NdisRawWritePortUshort, netvista.ndisrawwriteportushort
-f1_keywords:
- - "ndis/NdisRawWritePortUshort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisRawWritePortUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRawWritePortUshort
+ - ndis/NdisRawWritePortUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisRawWritePortUshort
 ---
 
 # NdisRawWritePortUshort macro
@@ -47,41 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisRawWritePortUshort</b> writes a USHORT value to an I/O port on the NIC.
-
 
 ## -parameters
 
+### -param Port 
 
-
-
-### -param Port [in]
-
+[in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
+### -param Data 
 
-### -param Data [in]
-
+[in]
 Specifies the USHORT to be written.
 
-
 ## -remarks
-
-
 
 <b>NdisRawWritePortUshort</b> runs fast because it need not map a bus-relative I/O port address onto a
     host-dependent logical port address at every call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -104,7 +90,4 @@ Specifies the USHORT to be written.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawwriteportulong">NdisRawWritePortUlong</a>
- 
-
- 
 

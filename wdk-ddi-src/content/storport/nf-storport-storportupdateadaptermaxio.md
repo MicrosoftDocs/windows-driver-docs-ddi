@@ -8,8 +8,6 @@ ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.date: 03/29/2018
 keywords: ["StorPortUpdateAdapterMaxIO function"]
 ms.keywords: StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO
-f1_keywords:
- - "storport/StorPortUpdateAdapterMaxIO"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Storport.h
-api_name:
-- StorPortUpdateAdapterMaxIO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortUpdateAdapterMaxIO
+ - storport/StorPortUpdateAdapterMaxIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Storport.h
+api_name:
+ - StorPortUpdateAdapterMaxIO
 ---
 
 # StorPortUpdateAdapterMaxIO function
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 This function can be called by a miniport to update the maximum IO's supported by
     an adapter. This function is valid during HwInitialize/HwPassiveInitRoutine
     callback and has effect only during adapter initialization.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 A pointer to miniport's device extension.
 
-
 ### -param MaxIoCount
 
 Maximum IO's supported by the adapter.
 
-
 ## -returns
-
-
 
 This function returns of the following values.
 
@@ -96,18 +86,8 @@ This function returns of the following values.
 <td>The function was called outside of <b>HwInitialize</b>/<b>HwPassiveInitRoutine</b>. </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data">HwInitialize</a>
- 
-
- 
 

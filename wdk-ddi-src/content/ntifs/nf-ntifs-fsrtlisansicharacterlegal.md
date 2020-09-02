@@ -8,8 +8,6 @@ ms.assetid: e270e4a9-90dc-4e9b-abdf-079c331ad71c
 ms.date: 04/16/2018
 keywords: ["FsRtlIsAnsiCharacterLegal macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegal, FsRtlIsAnsiCharacterLegal function [Installable File System Drivers], fsrtlref_dad0349c-b705-4a0a-a1ea-359517e65eae.xml, ifsk.fsrtlisansicharacterlegal, ntifs/FsRtlIsAnsiCharacterLegal
-f1_keywords:
- - "ntifs/FsRtlIsAnsiCharacterLegal"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlIsAnsiCharacterLegal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlIsAnsiCharacterLegal
+ - ntifs/FsRtlIsAnsiCharacterLegal
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlIsAnsiCharacterLegal
 ---
 
 # FsRtlIsAnsiCharacterLegal macro
@@ -47,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlIsAnsiCharacterLegal</b> macro determines whether a character is a legal ANSI character.
 
-
 ## -parameters
-
-
-
 
 ### -param C
 
 <p>The character to be tested.</p>
-
 
 ### -param FLAGS
 
@@ -120,26 +113,13 @@ The <b>FsRtlIsAnsiCharacterLegal</b> macro determines whether a character is a l
   </table>
   <p> </p>
 
-
-
-
-
-
 ## -remarks
-
-
 
 To be a legal ANSI character, a character must be present in the ANSI legal character array and must satisfy the input flag settings. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlisansicharacterlegalfat">FsRtlIsAnsiCharacterLegalFat</a>
 
@@ -150,7 +130,4 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlisansicharacterlegalntfs">FsRtlIsAnsiCharacterLegalNtfs</a>
- 
-
- 
 

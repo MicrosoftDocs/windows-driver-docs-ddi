@@ -8,8 +8,6 @@ ms.assetid: 52ddeb83-8ac3-4e9d-84d8-dddfcc404b6e
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery"]
 ms.keywords: DisableSimulatedBattery, DisableSimulatedBattery method [Windows Device Testing Framework], DisableSimulatedBattery method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],DisableSimulatedBattery method, IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery, IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_disablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
-f1_keywords:
- - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfsimulatedbatterysystemaction.h
-api_name:
-- IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
+ - wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfsimulatedbatterysystemaction.h
+api_name:
+ - IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
 ---
 
 # IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
 
 
 ## -description
-
-
 
 Disables the simulated battery.
 
@@ -56,35 +53,21 @@ Disables the simulated battery.
 Use this method is used to disable the simulated battery (uninstalls simulated
     battery device).  This does not restore the system to its original state, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a> method must also be called.
 
-
 ## -parameters
 
+### -param pbSuccess 
 
-
-
-### -param pbSuccess [out, retval]
-
+[out, retval]
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFSimulatedBatterySystemAction</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a>
- 
-
- 
 

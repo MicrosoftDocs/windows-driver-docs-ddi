@@ -6,10 +6,8 @@ old-location: display\d3dkmdt_vidpn_present_path_transformation.htm
 tech.root: display
 ms.assetid: 7b2370c8-ea8a-4719-b88a-2401dbafb64c
 ms.date: 05/10/2018
-keywords: ["_D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure"]
+keywords: ["D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure [Display Devices], DmStructs_3c1dd0fd-471f-48e0-9df5-003f98237ac2.xml, _D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, display.d3dkmdt_vidpn_present_path_transformation
-f1_keywords:
- - "d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+f1_keywords:
+ - _D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+ - d3dkmdt/_D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+ - D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+ - d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
 ---
 
 # _D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure
@@ -47,14 +48,9 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
 
 ## -description
 
-
 The <b>D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</b> structure contains information about the transformations (for example, rotation, scaling, centering) that are pinned and the transformations that are supported for a path in a video present network (VIDPN).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Scaling
 
@@ -62,25 +58,19 @@ A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 For more information on how to use this member, see the Remarks section.
 
-
 ### -field ScalingSupport
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path_scaling_support">D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT</a> structure that holds a set of flags that indicate the types of scaling that are supported by the path.
-
 
 ### -field Rotation
 
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a> enumeration that indicates the type of rotation that is currently set for the path. If this member is equal to <b>D3DKMDT_VPPR_IDENTITY</b>, <b>D3DKMDT_VPPR_ROTATE90</b>, <b>D3DKMDT_VPPR_ROTATE180</b> or <b>D3DKMDT_VPPR_ROTATE270</b>, then the indicated rotation type is considered pinned for the path. If this member is equal to any other value, then no rotation type is pinned for the path.
 
-
 ### -field RotationSupport
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation_support">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</a> structure that holds a set of flags that indicate the types of rotation that are supported by the path.
 
-
 ## -remarks
-
-
 
 The <b>ContentTransformation</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a  <b>D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</b> structure.
 
@@ -89,12 +79,7 @@ If <b>D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX</b> or <b>D3DKMDT_VPPS_CUSTOM</b> valu
 <div class="alert"><b>Note</b>    A display miniport driver that supports the <b>D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX</b> or <b>D3DKMDT_VPPS_CUSTOM</b> values should never set a value of <b>D3DKMDT_VPPS_NOTSPECIFIED</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
@@ -121,7 +106,4 @@ If <b>D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX</b> or <b>D3DKMDT_VPPS_CUSTOM</b> valu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>
- 
-
- 
 

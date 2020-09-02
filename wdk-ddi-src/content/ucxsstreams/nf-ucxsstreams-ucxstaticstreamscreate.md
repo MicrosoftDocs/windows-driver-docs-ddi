@@ -8,8 +8,6 @@ ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.date: 05/07/2018
 keywords: ["UcxStaticStreamsCreate function"]
 ms.keywords: UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate
-f1_keywords:
- - "ucxsstreams/UcxStaticStreamsCreate"
 req.header: ucxsstreams.h
 req.include-header: Ucxclass.h, Ucxstreams.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ucxsstreams.h
-api_name:
-- UcxStaticStreamsCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcxStaticStreamsCreate
+ - ucxsstreams/UcxStaticStreamsCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ucxsstreams.h
+api_name:
+ - UcxStaticStreamsCreate
 ---
 
 # UcxStaticStreamsCreate function
@@ -47,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
 Creates a static streams object.
-
 
 ## -parameters
 
+### -param Endpoint 
 
-
-
-### -param Endpoint [in]
-
+[in]
 A handle to the endpoint object that supports static streams. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
-
 
 ### -param StaticStreamsInit
 
@@ -67,35 +61,22 @@ A handle to the endpoint object that supports static streams. The client driver 
         operations for creating the stream object. The driver specifies function pointers to its callback functions in this structure.
     This structure is managed by UCX.</p>
 
+### -param Attributes 
 
-### -param Attributes [in, optional]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the stream object. 
-
+[in, optional]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the stream object.
 
 ### -param StaticStreams
 
 <p>A pointer to a variable that receives a handle to the new stream object.</p>
 
-
-
-
 ## -returns
 
-
-
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-
-
-
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -remarks
 
-
-
 The client driver for the host controller must call this method after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. The parent of the new endpoint object is the endpoint object. 
 
-Typically, the client driver calls this method in its implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a> event callback. 
-
-
+Typically, the client driver calls this method in its implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a> event callback.
 

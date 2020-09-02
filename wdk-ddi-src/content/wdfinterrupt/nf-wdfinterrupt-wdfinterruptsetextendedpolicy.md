@@ -8,8 +8,6 @@ ms.assetid: 043c15dc-ebd7-4d91-8f65-d89d6064cc7c
 ms.date: 02/26/2018
 keywords: ["WdfInterruptSetExtendedPolicy function"]
 ms.keywords: DFInterruptObjectRef_ed600fb0-0e09-4c00-a132-cd4947dd2b04.xml, WdfInterruptSetExtendedPolicy, WdfInterruptSetExtendedPolicy method, kmdf.wdfinterruptsetextendedpolicy, wdf.wdfinterruptsetextendedpolicy, wdfinterrupt/WdfInterruptSetExtendedPolicy
-f1_keywords:
- - "wdfinterrupt/WdfInterruptSetExtendedPolicy"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfInterruptSetExtendedPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfInterruptSetExtendedPolicy
+ - wdfinterrupt/WdfInterruptSetExtendedPolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfInterruptSetExtendedPolicy
 ---
 
 # WdfInterruptSetExtendedPolicy function
@@ -50,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptSetExtendedPolicy</b> method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
 
-
 ## -parameters
 
+### -param Interrupt 
 
-
-
-### -param Interrupt [in]
-
+[in]
 A handle to a framework interrupt object.
 
+### -param PolicyAndGroup 
 
-### -param PolicyAndGroup [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_extended_policy">WDF_INTERRUPT_EXTENDED_POLICY</a> structure that the caller allocates and initializes.
-
 
 ## -remarks
 
@@ -115,15 +109,7 @@ WdfInterruptSetExtendedPolicy(
  );
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a>
- 
-
- 
 

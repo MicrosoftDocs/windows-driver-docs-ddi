@@ -6,10 +6,8 @@ old-location: display\dxva_connectmode.htm
 tech.root: display
 ms.assetid: 84520745-c99d-4495-a7c4-514d5e6cd27e
 ms.date: 05/10/2018
-keywords: ["_DXVA_ConnectMode structure"]
+keywords: ["DXVA_ConnectMode structure"]
 ms.keywords: "*LPDXVA_ConnectMode, DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], LPDXVA_ConnectMode, LPDXVA_ConnectMode structure pointer [Display Devices], _DXVA_ConnectMode, display.dxva_connectmode, dxva/DXVA_ConnectMode, dxva/LPDXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml"
-f1_keywords:
- - "dxva/DXVA_ConnectMode"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_ConnectMode
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConnectMode, *LPDXVA_ConnectMode
+f1_keywords:
+ - _DXVA_ConnectMode
+ - dxva/_DXVA_ConnectMode
+ - LPDXVA_ConnectMode
+ - dxva/LPDXVA_ConnectMode
+ - DXVA_ConnectMode
+ - dxva/DXVA_ConnectMode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_ConnectMode
 ---
 
 # _DXVA_ConnectMode structure
@@ -47,28 +50,19 @@ req.typenames: DXVA_ConnectMode, *LPDXVA_ConnectMode
 
 ## -description
 
-
 The DXVA_ConnectMode structure is sent by the host decoder to the accelerator to define the restricted profile used within a DirectX VA connection.
-
 
 ## -struct-fields
 
-
-
-
 ### -field guidMode
 
-Specifies the GUID associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/restricted-profiles">restricted profile</a> to be used. 
-
+Specifies the GUID associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/restricted-profiles">restricted profile</a> to be used.
 
 ### -field wRestrictedMode
 
-Specifies the numeric identifier of the restricted profile to be used. 
-
+Specifies the numeric identifier of the restricted profile to be used.
 
 ## -remarks
-
-
 
 The following GUIDs placed in the <b>guidMode</b> member of this structure set the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/restricted-profiles">restricted profile</a> to be used. The constants that define the GUIDs used are in <i>dxva.h</i>.
 
@@ -140,7 +134,5 @@ The following restricted mode identifiers placed in the <b>wRestrictedMode</b> m
 
  
 
-For information about the restricted profiles of the MPEG-4 AVC (H.264) and VC-1 video codec standards, download <a href="https://go.microsoft.com/fwlink/p/?linkid=141799">DirectX Video Acceleration Specification for H.264/AVC Decoding</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=141800">DirectX Video Acceleration Specification for Windows Media Video v8, v9 and vA Decoding (Including SMPTE 421M "VC-1")</a>. 
-
-
+For information about the restricted profiles of the MPEG-4 AVC (H.264) and VC-1 video codec standards, download <a href="https://go.microsoft.com/fwlink/p/?linkid=141799">DirectX Video Acceleration Specification for H.264/AVC Decoding</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=141800">DirectX Video Acceleration Specification for Windows Media Video v8, v9 and vA Decoding (Including SMPTE 421M "VC-1")</a>.
 

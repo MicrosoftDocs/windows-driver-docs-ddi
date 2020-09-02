@@ -8,8 +8,6 @@ ms.assetid: aabad72e-2636-47cd-9986-f50ab5101e68
 ms.date: 04/30/2018
 keywords: ["MmAllocateNonCachedMemory function"]
 ms.keywords: MmAllocateNonCachedMemory, MmAllocateNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_a52baa62-3e10-4158-98e5-5e4dce16ee6a.xml, kernel.mmallocatenoncachedmemory, ntddk/MmAllocateNonCachedMemory
-f1_keywords:
- - "ntddk/MmAllocateNonCachedMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmAllocateNonCachedMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmAllocateNonCachedMemory
+ - ntddk/MmAllocateNonCachedMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmAllocateNonCachedMemory
 ---
 
 # MmAllocateNonCachedMemory function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmAllocateNonCachedMemory</b> routine allocates a virtual address range of noncached and cache-aligned memory.
-
 
 ## -parameters
 
+### -param NumberOfBytes 
 
-
-
-### -param NumberOfBytes [in]
-
-Specifies the size in bytes of the range to be allocated. 
-
+[in]
+Specifies the size in bytes of the range to be allocated.
 
 ## -returns
 
-
-
-If the requested memory cannot be allocated, the return value is <b>NULL</b>. Otherwise, it is the base virtual address of the allocated range. 
-
-
-
+If the requested memory cannot be allocated, the return value is <b>NULL</b>. Otherwise, it is the base virtual address of the allocated range.
 
 ## -remarks
-
-
 
 <b>MmAllocateNonCachedMemory</b> can be called from a <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine to allocate a noncached block of virtual memory for various device-specific buffers. The function always returns a full multiple of the virtual memory page size, of nonpaged system-address-space memory, regardless of the requested allocation size.
 
@@ -83,12 +70,7 @@ The physical memory pages that <b>MmAllocateNonCachedMemory</b> returns are typi
 <div class="alert"><b>Note</b>  Memory that <b>MmAllocateNonCachedMemory</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
 
@@ -107,7 +89,4 @@ The physical memory pages that <b>MmAllocateNonCachedMemory</b> returns are typi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmfreenoncachedmemory">MmFreeNonCachedMemory</a>
- 
-
- 
 

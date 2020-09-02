@@ -8,8 +8,6 @@ ms.assetid: 166584fb-8a81-4a5b-93c9-3ad5348e15a7
 ms.date: 05/02/2018
 keywords: ["NdisAllocateGenericObject function"]
 ms.keywords: NdisAllocateGenericObject, NdisAllocateGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateGenericObject, ndis_object_ref_bb08930d-d264-4580-be64-a48061ab8ad4.xml, netvista.ndisallocategenericobject
-f1_keywords:
- - "ndis/NdisAllocateGenericObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateGenericObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateGenericObject
+ - ndis/NdisAllocateGenericObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateGenericObject
 ---
 
 # NdisAllocateGenericObject function
@@ -48,25 +47,19 @@ req.typenames:
 
 ## -description
 
-
 Components that do not have an NDIS handle use the 
   <b>NdisAllocateGenericObject</b> function to allocate a generic NDIS object.
 
-
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [optional]
-
+[optional]
 A driver object to associate with the generic object. This parameter can be <b>NULL</b>.
-
 
 ### -param Tag
 
 The kernel memory tag that NDIS should use to allocate memory for the generic object.
-
 
 ### -param Size
 
@@ -75,20 +68,12 @@ The amount of memory, in bytes, to reserve for the caller. This does not include
      additional memory space for your own purposes. To access the additional memory, use 
      sizeof(NDIS_GENERIC_OBJECT) to skip over the generic object structure.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateGenericObject</b> returns a pointer to the NDIS_GENERIC_OBJECT that it allocated. If NDIS
      failed to create the object, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 NDIS uses a generic object to manage resources that are allocated by a component that does not
     otherwise have an NDIS handle. Such a component uses the returned generic object pointer as an NDIS
@@ -99,20 +84,11 @@ NDIS drivers must call the
     free a generic object that was created with 
     <b>NdisAllocateGenericObject</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreegenericobject">NdisFreeGenericObject</a>
- 
-
- 
 

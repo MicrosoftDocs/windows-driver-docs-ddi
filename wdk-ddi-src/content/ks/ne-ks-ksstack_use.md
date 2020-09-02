@@ -8,8 +8,6 @@ ms.assetid: 76B45154-5E81-4515-ADEE-11401FDF4681
 ms.date: 04/23/2018
 keywords: ["KSSTACK_USE enumeration"]
 ms.keywords: KSSTACK_USE, KSSTACK_USE enumeration [Streaming Media Devices], KsStackCopyToNewLocation, KsStackReuseCurrentLocation, KsStackUseNewLocation, ks/KSSTACK_USE, ks/KsStackCopyToNewLocation, ks/KsStackReuseCurrentLocation, ks/KsStackUseNewLocation, stream.ksstack_use
-f1_keywords:
- - "ks/KSSTACK_USE"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSSTACK_USE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTACK_USE
+f1_keywords:
+ - KSSTACK_USE
+ - ks/KSSTACK_USE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSSTACK_USE
 ---
 
 # KSSTACK_USE enumeration
@@ -47,20 +46,11 @@ req.typenames: KSSTACK_USE
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field KsStackCopyToNewLocation
 
-
 ### -field KsStackReuseCurrentLocation
-
 
 ### -field KsStackUseNewLocation
 

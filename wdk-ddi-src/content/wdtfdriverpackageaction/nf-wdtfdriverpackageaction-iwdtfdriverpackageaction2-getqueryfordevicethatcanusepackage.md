@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::GetQueryForDeviceThatCanUsePackage method
 ms.keywords: GetQueryForDeviceThatCanUsePackage,IWDTFDriverPackageAction2.GetQueryForDeviceThatCanUsePackage, GetQueryForDevicesThatCanUsePackage method [Windows Device Testing Framework], GetQueryForDevicesThatCanUsePackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesThatCanUsePackage method, IWDTFDriverPackageAction2::GetQueryForDeviceThatCanUsePackage, IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage, Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage, dtf.iwdtfdriverpackageaction2_getqueryfordevicethatcanusepackage, wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage"
+ - "IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage"
 req.header: wdtfdriverpackageaction.h
 req.include-header:
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPackageAction.Interop.dll
 api_name:
 - IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage
-product:
-- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -57,8 +56,8 @@ Returns an SDEL statement that queries for all devices that can use the driver p
 
 
 
-### -param pSDEL [out, retval]
-
+### -param pSDEL 
+[out, retval]
 The SDEL statement.
 
 
@@ -66,7 +65,7 @@ The SDEL statement.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

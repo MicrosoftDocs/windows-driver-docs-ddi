@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetVideoProcessStreamState"
+ - PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
+ - d3dumddi/PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback function
+
 
 ## -description
 

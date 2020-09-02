@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_enumerate_device_service_commands.htm
 tech.root: netvista
 ms.assetid: 9D30F8BE-C376-48FD-A76C-6069F332BC11
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure"]
+keywords: ["NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure"]
 ms.keywords: "*PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, ndiswwan/NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, ndiswwan/PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, netvista.ndis_wwan_enumerate_device_service_commands"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, *PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+f1_keywords:
+ - _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+ - ndiswwan/_NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+ - PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+ - ndiswwan/PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+ - NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+ - ndiswwan/NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
 ---
 
 # _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, *PNDIS_WWAN_ENUMERAT
 
 ## -description
 
-
 The NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure represents the commands supported by a device service.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +103,6 @@ sizeof(NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field DeviceServiceGuid
 

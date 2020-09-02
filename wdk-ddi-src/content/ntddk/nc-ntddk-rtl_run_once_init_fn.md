@@ -8,8 +8,6 @@ ms.assetid: 7411c10f-76ab-44df-8cab-2266443417aa
 ms.date: 04/30/2018
 keywords: ["RTL_RUN_ONCE_INIT_FN callback function"]
 ms.keywords: DrvrRtns_2bf4e129-77ac-4525-9504-4f039a503943.xml, RTL_RUN_ONCE_INIT_FN, RunOnceInitialization, RunOnceInitialization routine [Kernel-Mode Driver Architecture], kernel.runonceinitialization, ntddk/RunOnceInitialization
-f1_keywords:
- - "ntddk/RunOnceInitialization"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= APC_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntddk.h
-api_name:
-- RunOnceInitialization
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RTL_RUN_ONCE_INIT_FN
+ - ntddk/RTL_RUN_ONCE_INIT_FN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntddk.h
+api_name:
+ - RunOnceInitialization
 ---
 
 # RTL_RUN_ONCE_INIT_FN callback function
@@ -47,8 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <i>RunOnceInitialization</i> routine performs a one-time initialization operation.
+
+## -parameters
+
+### -param RunOnce 
+
+[in, out]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure that the driver previously passed as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a> routine that called this <i>RunOnceInitialization</i> routine.
+
+### -param Parameter 
+
+[in, out]
+The <i>Parameter</i> value that the driver passed to the <b>RtlRunOnceExecuteOnce</b> routine that called this <i>RunOnceInitialization</i> routine.
+
+### -param Context 
+
+[out]
+A pointer to a PVOID variable to which the routine writes the initialization data.
+
+## -returns
+
+      The <i>RunOnceInitialization</i> routine returns a nonzero value to indicate success, and returns zero to indicate failure.
 
 ## -syntax
 
@@ -60,40 +79,7 @@ RTL_RUN_ONCE_INIT_FN (
     );
 ```
 
-## -parameters
-
-
-
-
-### -param RunOnce [in, out]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure that the driver previously passed as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a> routine that called this <i>RunOnceInitialization</i> routine.
-
-### -param Parameter [in, out]
-
-The <i>Parameter</i> value that the driver passed to the <b>RtlRunOnceExecuteOnce</b> routine that called this <i>RunOnceInitialization</i> routine.
-
-
-### -param Context [out]
-
-A pointer to a PVOID variable to which the routine writes the initialization data.
-
-
-
-
-## -returns
-
-
-
-
-      The <i>RunOnceInitialization</i> routine returns a nonzero value to indicate success, and returns zero to indicate failure.
-
-
-
-
 ## -remarks
-
-
 
 A driver-implemented <i>RunOnceInitialization</i> routine performs driver-specific initialization and then writes the initialization data to the memory location that the <i>Context</i> parameter points to. Drivers use the <b>RtlRunOnceExecuteOnce</b> routine to make a one-time call to a <i>RunOnceInitialization</i> routine. The operating system guarantees that the <i>RunOnceInitialization</i> routine is not called twice for the same value of the <i>RunOnce</i> parameter.
 
@@ -141,12 +127,7 @@ The RTL_RUN_ONCE_INIT_FN function type is defined in the Wdm.h header file. To m
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a>
 
@@ -165,7 +146,4 @@ The RTL_RUN_ONCE_INIT_FN function type is defined in the Wdm.h header file. To m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceinitialize">RtlRunOnceInitialize</a>
- 
-
- 
 

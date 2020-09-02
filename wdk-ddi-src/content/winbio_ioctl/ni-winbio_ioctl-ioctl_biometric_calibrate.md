@@ -8,8 +8,6 @@ ms.assetid: 3ffd954f-91f8-4896-b105-86e07a5b6be7
 ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_CALIBRATE IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
-f1_keywords:
- - "winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbio_ioctl.h
-api_name:
-- IOCTL_BIOMETRIC_CALIBRATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BIOMETRIC_CALIBRATE
+ - winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbio_ioctl.h
+api_name:
+ - IOCTL_BIOMETRIC_CALIBRATE
 ---
 
 # IOCTL_BIOMETRIC_CALIBRATE IOCTL
@@ -47,29 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_BIOMETRIC_CALIBRATE IOCTL directs the driver to perform any necessary steps to calibrate the device for use.  Internally, the driver may also collect and return vendor specific calibration data to be analyzed by an application. Vendor-supplied WBDI drivers must support this IOCTL.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
 
-
 ### -output-buffer
 
 The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_calibration_info">WINBIO_CALIBRATION_INFO</a> structure.
-
 
 ### -output-buffer-length
 
@@ -77,24 +68,9 @@ Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/win
 
 The vendor-supplied driver can optionally return a DWORD-sized buffer that specifies the buffer size necessary for the requested operation.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -112,9 +88,5 @@ The <b>Status</b> member is set to one of the values in the following table.
 
 ## -remarks
 
-
-
 If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of WINBIO_CALIBRATION_INFO with the status of the Biometric operation.
-
-
 

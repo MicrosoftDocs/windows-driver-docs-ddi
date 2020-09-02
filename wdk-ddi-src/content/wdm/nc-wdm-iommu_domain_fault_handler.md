@@ -9,6 +9,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_FAULT_HANDLER callback function"]
 f1_keywords:
  - "wdm/IOMMU_DOMAIN_FAULT_HANDLER"
+ - "IOMMU_DOMAIN_FAULT_HANDLER"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -34,8 +35,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_DOMAIN_FAULT_HANDLER
-product:
-- Windows
 targetos: Windows
 ---
 

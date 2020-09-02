@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::RescanAllDevices"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],RescanAllDevices method, IWDTFDriverSetupSystemAction2.RescanAllDevices, IWDTFDriverSetupSystemAction2::RescanAllDevices, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], RescanAllDevices method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_rescanalldevices, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.RescanAllDevices"
+ - "IWDTFDriverSetupSystemAction2.RescanAllDevices"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.RescanAllDevices
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,8 +55,8 @@ Re-enumerates all devices in the system.
 
 
 
-### -param bRet [out, retval]
-
+### -param bRet 
+[out, retval]
 True if all devices were re-enumerated; otherwise, false.
 
 
@@ -65,7 +64,7 @@ True if all devices were re-enumerated; otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

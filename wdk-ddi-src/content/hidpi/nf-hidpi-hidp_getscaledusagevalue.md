@@ -8,8 +8,6 @@ ms.assetid: 0af1a3f2-b933-4232-865c-cccca53fd32e
 ms.date: 04/30/2018
 keywords: ["HidP_GetScaledUsageValue function"]
 ms.keywords: HidP_GetScaledUsageValue, HidP_GetScaledUsageValue routine [Human Input Devices], hid.hidp_getscaledusagevalue, hidfunc_7fa22086-ab66-4c6b-a7de-65adce226b10.xml, hidpi/HidP_GetScaledUsageValue
-f1_keywords:
- - "hidpi/HidP_GetScaledUsageValue"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hidparse.lib
-- Hidparse.dll
-api_name:
-- HidP_GetScaledUsageValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidP_GetScaledUsageValue
+ - hidpi/HidP_GetScaledUsageValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hidparse.lib
+ - Hidparse.dll
+api_name:
+ - HidP_GetScaledUsageValue
 ---
 
 # HidP_GetScaledUsageValue function
@@ -48,58 +47,51 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidP_GetScaledUsageValue</b> routine returns the signed and scaled result of a HID control value extracted from a HID report.
-
 
 ## -parameters
 
+### -param ReportType 
 
-
-
-### -param ReportType [in]
-
+[in]
 Specifies a <b>HIDP_REPORT_TYPE</b> enumerator value that identifies the type of HID report that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usage</a> value.
 
+### -param UsagePage 
 
-### -param UsagePage [in]
-
+[in]
 Specifies the usage page of the value to extract.
 
+### -param LinkCollection 
 
-### -param LinkCollection [in]
-
+[in]
 Specifies the link collection identifier of the value to extract. A LinkCollection value of zero identifies the top-level collection.
 
+### -param Usage 
 
-### -param Usage [in]
-
+[in]
 Specifies the usage of the value to extract.
 
+### -param UsageValue 
 
-### -param UsageValue [out]
-
+[out]
 Pointer to the buffer in which the routine returns the signed and scaled value.
 
+### -param PreparsedData 
 
-### -param PreparsedData [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that generated the report located at <i>Report</i>.
 
+### -param Report 
 
-### -param Report [in]
-
+[in]
 Pointer to the report that contains the usage.
 
+### -param ReportLength 
 
-### -param ReportLength [in]
-
+[in]
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
-
 ## -returns
-
-
 
 <b>HidP_GetScaledUsageValue</b> returns one of the following status values:
 
@@ -197,14 +189,8 @@ The specified value is not contained in the specified report, but is contained i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller-allocated buffers supplied at <i>PreparsedData</i>, <i>UsageValue</i>, and<i> Report </i>must be allocated from nonpaged pool.
 
@@ -212,15 +198,9 @@ User-mode applications and kernel-mode drivers must use <a href="https://docs.mi
 
 If the routine returns status HIDP_STATUS_BAD_LOG_PHY_VALUES, an application or driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a> to extract the raw usage data.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>
 
@@ -231,7 +211,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
- 
-
- 
 

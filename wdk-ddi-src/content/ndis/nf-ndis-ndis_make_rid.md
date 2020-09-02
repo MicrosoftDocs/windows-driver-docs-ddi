@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: 54c60b0f-619c-45e9-bc2f-0598f915dca3
 ms.date: 04/16/2018
 keywords: ["NDIS_MAKE_RID macro"]
-f1_keywords:
- - "ndis/NDIS_MAKE_RID"
 ms.keywords: NDIS_MAKE_RID
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NDIS_MAKE_RID
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NDIS_MAKE_RID
+ - ndis/NDIS_MAKE_RID
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MAKE_RID
 ---
 
 # NDIS_MAKE_RID macro
@@ -77,3 +75,4 @@ When it handles an OID request of [OID_NIC_SWITCH_ALLOCATE_VF](https://docs.micr
 [**NdisMGetVirtualFunctionLocation**](nf-ndis-ndismgetvirtualfunctionlocation.md)
 
 [OID_NIC_SWITCH_ALLOCATE_VF](https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf)
+

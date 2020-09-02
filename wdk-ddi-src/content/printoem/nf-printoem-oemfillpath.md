@@ -8,8 +8,6 @@ ms.assetid: a61081ad-308e-49c5-a428-1142520d38e4
 ms.date: 04/20/2018
 keywords: ["OEMFillPath function"]
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], OEMFillPath, print.oemfillpath, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml, printoem/OEMEscape
-f1_keywords:
- - "printoem/OEMEscape"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMEscape
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMFillPath
+ - printoem/OEMFillPath
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMEscape
 ---
 
 # OEMFillPath function
@@ -47,32 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMFillPath</code> function handles the filling of closed paths.
-
 
 ## -parameters
 
-
-
-
 ### -param pso
-
 
 ### -param ppo
 
-
 ### -param pco
-
 
 ### -param pbo
 
-
 ### -param pptlBrushOrg
 
-
 ### -param mix
-
 
 ### -param flOptions
 

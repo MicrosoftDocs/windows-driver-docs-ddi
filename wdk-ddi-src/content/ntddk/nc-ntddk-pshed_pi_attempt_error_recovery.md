@@ -8,8 +8,6 @@ ms.assetid: e7186c16-f093-4a64-aa25-03e9ce0f967e
 ms.date: 02/20/2018
 keywords: ["PSHED_PI_ATTEMPT_ERROR_RECOVERY callback function"]
 ms.keywords: AttemptRecovery, AttemptRecovery callback function [WHEA Drivers and Applications], PSHED_PI_ATTEMPT_ERROR_RECOVERY, PSHED_PI_ATTEMPT_ERROR_RECOVERY callback, ntddk/AttemptRecovery, whea.attemptrecovery, whearef_e6307253-0f45-4613-b384-ad737da27031.xml
-f1_keywords:
- - "ntddk/AttemptRecovery"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= HIGH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntddk.h
-api_name:
-- AttemptRecovery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PSHED_PI_ATTEMPT_ERROR_RECOVERY
+ - ntddk/PSHED_PI_ATTEMPT_ERROR_RECOVERY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntddk.h
+api_name:
+ - AttemptRecovery
 ---
 
 # PSHED_PI_ATTEMPT_ERROR_RECOVERY callback function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 A PSHED plug-in's <i>AttemptRecovery</i> callback function attempts to recover from a recoverable hardware error.
-
 
 ## -parameters
 
+### -param PluginContext 
 
-
-
-### -param PluginContext [in, out, optional]
-
+[in, out, optional]
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 The size, in bytes, of the error record that is pointed to by the <i>ErrorRecord</i> parameter.
 
+### -param ErrorRecord 
 
-### -param ErrorRecord [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure that describes an error record for a recoverable hardware error.
 
-
 ## -returns
-
-
 
 A PSHED plug-in's <i>AttemptRecovery</i> callback function returns one of the following NTSTATUS codes.
 
@@ -105,14 +97,8 @@ The attempt to recover from the hardware error was unsuccessful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A PSHED plug-in that participates in error recovery sets the <b>Callbacks.AttemptRecovery</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <i>AttemptRecovery</i> callback function when the plug-in calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorRecovery</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
@@ -134,13 +120,7 @@ If the PSHED plug-in successfully recovers from the hardware error, the PSHED wi
 
 The PSHED calls a PSHED plug-in's <i>AttemptRecovery</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a>
 
@@ -151,7 +131,4 @@ The PSHED calls a PSHED plug-in's <i>AttemptRecovery</i> callback function at IR
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
- 
-
- 
 

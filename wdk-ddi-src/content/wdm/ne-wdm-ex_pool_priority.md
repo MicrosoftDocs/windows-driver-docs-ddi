@@ -26,7 +26,9 @@ api_name:
  - _EX_POOL_PRIORITY
  - EX_POOL_PRIORITY
 f1_keywords:
+ - _EX_POOL_PRIORITY
  - wdm/_EX_POOL_PRIORITY
+ - EX_POOL_PRIORITY
  - wdm/EX_POOL_PRIORITY
 dev_langs:
  - c++
@@ -35,22 +37,6 @@ dev_langs:
 ## -description
 
 Specifies the priority of a pool memory allocation request.
-
-## -syntax
-
-```cpp
-typedef _Enum_is_bitflag_ enum _EX_POOL_PRIORITY {
-    LowPoolPriority,
-    LowPoolPrioritySpecialPoolOverrun = 8,
-    LowPoolPrioritySpecialPoolUnderrun = 9,
-    NormalPoolPriority = 16,
-    NormalPoolPrioritySpecialPoolOverrun = 24,
-    NormalPoolPrioritySpecialPoolUnderrun = 25,
-    HighPoolPriority = 32,
-    HighPoolPrioritySpecialPoolOverrun = 40,
-    HighPoolPrioritySpecialPoolUnderrun = 41
-} EX_POOL_PRIORITY;
-```
 
 ## -enum-fields
 
@@ -78,6 +64,22 @@ Should be used when it is unacceptable to the driver for the mapping request to 
 
 ### -field HighPoolPrioritySpecialPoolUnderrun
 
+## -syntax
+
+```cpp
+typedef _Enum_is_bitflag_ enum _EX_POOL_PRIORITY {
+    LowPoolPriority,
+    LowPoolPrioritySpecialPoolOverrun = 8,
+    LowPoolPrioritySpecialPoolUnderrun = 9,
+    NormalPoolPriority = 16,
+    NormalPoolPrioritySpecialPoolOverrun = 24,
+    NormalPoolPrioritySpecialPoolUnderrun = 25,
+    HighPoolPriority = 32,
+    HighPoolPrioritySpecialPoolOverrun = 40,
+    HighPoolPrioritySpecialPoolUnderrun = 41
+} EX_POOL_PRIORITY;
+```
+
 ## -remarks
 
 The **SpecialPool** settings can be used to bound the allocation at a page beginning or end.Use this option only on systems being debugged as the memory cost is expensive.
@@ -85,3 +87,4 @@ The **SpecialPool** settings can be used to bound the allocation at a page begin
 ## -see-also
 
 [**ExAllocatePoolPriorityZero**](nf-wdm-exallocatepoolpriorityzero.md)
+

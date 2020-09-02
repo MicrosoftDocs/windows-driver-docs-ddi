@@ -4,38 +4,42 @@ title: _DXGK_DIAGNOSTIC_CATEGORIES (dispmprt.h)
 description: Structure with a bit-field for each defined category of diagnostic.
 ms.assetid: ba2233ae-fe9b-4cd1-a9a6-7a26c95d5dae
 ms.date: 10/19/2018
-keywords: ["_DXGK_DIAGNOSTIC_CATEGORIES structure"]
-f1_keywords:
- - "dispmprt/_DXGK_DIAGNOSTIC_CATEGORIES"
+keywords: ["DXGK_DIAGNOSTIC_CATEGORIES structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_CATEGORIES, DXGK_DIAGNOSTIC_CATEGORIES,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_DIAGNOSTIC_CATEGORIES
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- _DXGK_DIAGNOSTIC_CATEGORIES
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_DIAGNOSTIC_CATEGORIES
+ - dispmprt/_DXGK_DIAGNOSTIC_CATEGORIES
+ - DXGK_DIAGNOSTIC_CATEGORIES
+ - dispmprt/DXGK_DIAGNOSTIC_CATEGORIES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_DIAGNOSTIC_CATEGORIES
+product:
+ - Windows
 ---
 
 # _DXGK_DIAGNOSTIC_CATEGORIES structure
+
 
 ## -description
 

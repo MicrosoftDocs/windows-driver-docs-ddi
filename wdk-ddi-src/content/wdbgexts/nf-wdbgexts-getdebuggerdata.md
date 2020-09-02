@@ -8,8 +8,6 @@ ms.assetid: a07afa2e-1f7d-4685-9ede-8b7805dd6583
 ms.date: 11/13/2018
 keywords: ["GetDebuggerData macro"]
 ms.keywords: GetDebuggerData, GetDebuggerData function [Windows Debugging], WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, debugger.getdebuggerdata, wdbgexts/GetDebuggerData
-f1_keywords:
- - "wdbgexts/GetDebuggerData"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- GetDebuggerData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetDebuggerData
+ - wdbgexts/GetDebuggerData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetDebuggerData
 ---
 
 # GetDebuggerData macro
@@ -47,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetDebuggerData</b> function retrieves information stored in a data block.
 
-
 ## -parameters
-
-
-
 
 ### -param TAG
 
 <p>This should be set equal to KDBG_TAG. (This value is specified in wdbgexts.h.)</p>
 
-
 ### -param BUF
 
 <p>Points to the debugger data block.</p>
-
 
 ### -param SIZE
 
@@ -73,8 +65,4 @@ The <b>GetDebuggerData</b> function retrieves information stored in a data block
 ## -returns
 
 If the data block is found, the return value is TRUE; otherwise, it is FALSE.
-
-
-
-
 

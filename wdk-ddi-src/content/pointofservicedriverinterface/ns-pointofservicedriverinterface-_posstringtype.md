@@ -6,10 +6,8 @@ old-location: pos\posstringtype.htm
 tech.root: pos
 ms.assetid: 26cf79d7-1df3-40a3-8536-b672f9bf13a8
 ms.date: 02/23/2018
-keywords: ["_PosStringType structure"]
+keywords: ["PosStringType structure"]
 ms.keywords: PosStringType, PosStringType structure, _PosStringType, pointofservicedriverinterface/PosStringType, pos.posstringtype
-f1_keywords:
- - "pointofservicedriverinterface/PosStringType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PointOfServiceDriverInterface.h
-api_name:
-- PosStringType
-product:
-- Windows
 targetos: Windows
 req.typenames: PosStringType
+f1_keywords:
+ - _PosStringType
+ - pointofservicedriverinterface/_PosStringType
+ - PosStringType
+ - pointofservicedriverinterface/PosStringType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PointOfServiceDriverInterface.h
+api_name:
+ - PosStringType
 ---
 
 # _PosStringType structure
@@ -47,25 +48,15 @@ req.typenames: PosStringType
 
 ## -description
 
-
-This structure represents a Point of Service (POS) unicode string with a length of <i>DataLengthInBytes</i>.
-
+This structure represents a Point of Service (POS) unicode string with a length of *DataLengthInBytes*.
 
 ## -struct-fields
-
-
-
 
 ### -field DataLengthInBytes
 
 The length of the string in bytes.
 
-
 ## -remarks
 
-
-
 The string is Unicode and the contents of the string follow immediately after the PosStringType structure.
-
-
 

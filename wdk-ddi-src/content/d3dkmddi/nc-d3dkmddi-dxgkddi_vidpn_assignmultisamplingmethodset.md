@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAssignMultisamplingMethodSet"
+ - DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
+ - d3dkmddi/DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback function
+
 
 ## -description
 

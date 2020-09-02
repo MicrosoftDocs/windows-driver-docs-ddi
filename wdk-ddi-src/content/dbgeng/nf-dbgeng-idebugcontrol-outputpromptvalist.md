@@ -8,8 +8,6 @@ ms.assetid: 08140a38-19dd-4fce-8659-ab5eb3257f2f
 ms.date: 05/03/2018
 keywords: ["IDebugControl::OutputPromptVaList"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputPromptVaList method, IDebugControl.OutputPromptVaList, IDebugControl2 interface [Windows Debugging],OutputPromptVaList method, IDebugControl2::OutputPromptVaList, IDebugControl3 interface [Windows Debugging],OutputPromptVaList method, IDebugControl3::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList, OutputPromptVaList method [Windows Debugging], OutputPromptVaList method [Windows Debugging],IDebugControl interface, OutputPromptVaList method [Windows Debugging],IDebugControl2 interface, OutputPromptVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputPromptVaList, dbgeng/IDebugControl3::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList, debugger.outputpromptvalist
-f1_keywords:
- - "dbgeng/IDebugControl.OutputPromptVaList"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.OutputPromptVaList
-- IDebugControl2.OutputPromptVaList
-- IDebugControl3.OutputPromptVaList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl::OutputPromptVaList
+ - dbgeng/IDebugControl::OutputPromptVaList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.OutputPromptVaList
+ - IDebugControl2.OutputPromptVaList
+ - IDebugControl3.OutputPromptVaList
 ---
 
 # IDebugControl::OutputPromptVaList
@@ -49,22 +48,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>OutputPromptVaList</b>  method formats and sends a user prompt to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-callback-objects">output callback objects</a>.
-
 
 ## -parameters
 
+### -param OutputControl 
 
-
-
-### -param OutputControl [in]
-
+[in]
 Specifies an output control that determines which of the client's output callbacks will receive the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
+### -param Format 
 
-### -param Format [in, optional]
-
+[in, optional]
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
@@ -243,15 +238,12 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the output callbacks.
 
+### -param Args 
 
-### -param Args [in]
-
+[in]
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>. This method does not call <b>va_end</b>.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -272,14 +264,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>OutputPromptVaList</b> and <b>OutputPromptVaListWide</b> can be used to prompt the user for input.
 
@@ -289,13 +275,7 @@ The prompt text is sent to the output callbacks with the <a href="https://docs.m
 
 For more information about prompting the user, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-controlledoutputvalist">ControlledOutputVaList</a>
 
@@ -322,7 +302,4 @@ For more information about prompting the user, see <a href="https://docs.microso
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_service_activation_status.htm
 tech.root: netvista
 ms.assetid: 669ef35f-0e59-4ec3-b6cc-5cb2156b51a2
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure"]
+keywords: ["NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, netvista.ndis_wwan_service_activation_status"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SERVICE_ACTIVATION_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
+f1_keywords:
+ - _NDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ - ndiswwan/_NDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ - PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ - ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ - NDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ - ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SERVICE_ACTIVATION_STATUS
 ---
 
 # _NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATI
 
 ## -description
 
-
 The NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service activation on the
   MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,7 +104,6 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION_STATUS)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -222,8 +219,6 @@ The operation failed because the device is in the process of initializing. Retry
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ServiceActivationStatus
 
@@ -232,11 +227,7 @@ A formatted
      WWAN_SERVICE_ACTIVATION_STATUS</a> object that represents the status of service activation on the
      device.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -244,7 +235,4 @@ A formatted
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_service_activation_status">
    WWAN_SERVICE_ACTIVATION_STATUS</a>
- 
-
- 
 

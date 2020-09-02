@@ -6,10 +6,8 @@ old-location: print\unifm_hdr.htm
 tech.root: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.date: 04/20/2018
-keywords: ["_UNIFM_HDR structure"]
+keywords: ["UNIFM_HDR structure"]
 ms.keywords: "*PUNIFM_HDR, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
-f1_keywords:
- - "prntfont/UNIFM_HDR"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- UNIFM_HDR
-product:
-- Windows
 targetos: Windows
 req.typenames: UNIFM_HDR, *PUNIFM_HDR
+f1_keywords:
+ - _UNIFM_HDR
+ - prntfont/_UNIFM_HDR
+ - PUNIFM_HDR
+ - prntfont/PUNIFM_HDR
+ - UNIFM_HDR
+ - prntfont/UNIFM_HDR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - UNIFM_HDR
 ---
 
 # _UNIFM_HDR structure
+
 
 ## -description
 
@@ -150,3 +154,4 @@ If **lGlyphSetDataRCID** is CC_DEFAULT, there are no restrictions on the value s
 [UNI_CODEPAGEINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo)
 
 [WIDTHTABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable)
+

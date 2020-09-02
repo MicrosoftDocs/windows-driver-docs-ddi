@@ -8,8 +8,6 @@ ms.assetid: d8e96d49-e4f5-468c-bdce-fbfaa8428eb7
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCatString function"]
 ms.keywords: RtlUnicodeStringCatString, RtlUnicodeStringCatString function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatstring, ntstrsafe/RtlUnicodeStringCatString, safestrings_28fc9345-6d09-492c-bda5-94216a260965.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringCatString"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringCatString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringCatString
+ - ntstrsafe/RtlUnicodeStringCatString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringCatString
 ---
 
 # RtlUnicodeStringCatString function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlUnicodeStringCatString</b> function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
-
+The <b>RtlUnicodeStringCatString</b> function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
 ## -parameters
 
+### -param DestinationString 
 
-
-
-### -param DestinationString [in, out]
-
+[in, out]
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
+### -param pszSrc 
 
-### -param pszSrc [in]
-
+[in]
 A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer that the <b>UNICODE_STRING</b> structure points to.
 
-
 ## -returns
-
-
 
 <b>RtlUnicodeStringCatString</b> returns one of the following NTSTATUS values. 
 
@@ -124,12 +116,7 @@ This <i>error</i> status means that the function received an invalid input param
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlUnicodeStringCatString</b> function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. The function does <u>not</u> terminate the resultant string with a null character value (that is, with zero).
 
@@ -137,22 +124,13 @@ If the source and destination strings overlap, the behavior of the function is u
 
 The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcatstringex">RtlUnicodeStringCatStringEx</a> function.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcatstringex">RtlUnicodeStringCatStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -26,13 +26,14 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
 api_name:
  - WdfPdoInitRemovePowerDependencyOnParent
 f1_keywords:
+ - WdfPdoInitRemovePowerDependencyOnParent
  - wdfpdo/WdfPdoInitRemovePowerDependencyOnParent
 dev_langs:
  - c++

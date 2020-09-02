@@ -8,8 +8,6 @@ ms.assetid: b1eb237d-ad4d-428c-beee-5f24677bd0d3
 ms.date: 04/30/2018
 keywords: ["IoCsqInsertIrpEx function"]
 ms.keywords: IoCsqInsertIrpEx, IoCsqInsertIrpEx routine [Kernel-Mode Driver Architecture], k104_5a30f95f-f46d-4f45-a261-a740f33c5327.xml, kernel.iocsqinsertirpex, wdm/IoCsqInsertIrpEx
-f1_keywords:
- - "wdm/IoCsqInsertIrpEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCsqInsertIrpEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCsqInsertIrpEx
+ - wdm/IoCsqInsertIrpEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCsqInsertIrpEx
 ---
 
 # IoCsqInsertIrpEx function
@@ -47,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCsqInsertIrpEx</b> routine inserts an IRP into the driver's cancel-safe IRP queue.
-
 
 ## -parameters
 
+### -param Csq 
 
-
-
-### -param Csq [in, out]
-
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the driver's cancel-safe IRP queue. This structure must have been initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a>.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 Pointer to the IRP to be queued.
 
+### -param Context 
 
-### -param Context [out, optional]
-
+[out, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ_IRP_CONTEXT</a> structure. <b>IoCsqInsertIrpEx</b> initializes this structure with context information for the inserted IRP. The driver passes this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a> to delete the IRP from the queue. <i>Context</i> can be <b>NULL</b> if the driver will not use <b>IoCsqRemoveIrp</b> to remove this IRP from the queue.
 
+### -param InsertContext 
 
-### -param InsertContext [in, optional]
-
+[in, optional]
 Pointer to a driver-defined context value. This parameter is passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex">CsqInsertIrpEx</a> routine, if it has one. Otherwise, this parameter is ignored.
-
 
 ## -returns
 
-
-
 If the <i>Csq</i> parameter was initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a>, <b>IoCsqInsertIrpEx</b> always returns STATUS_SUCCESS. If <i>Csq</i> was initialized with <b>IoCsqInitializeEx</b>, <b>IoCsqInsertIrpEx</b> returns the value that was returned by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex">CsqInsertIrpEx</a> routine.
 
-
-
-
 ## -remarks
-
-
 
 <b>IoCsqInsertIrpEx</b> uses the queue's dispatch routines to insert the IRP. The <b>IoCsqInsertIrpEx</b> routine:
 
@@ -111,15 +98,9 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member of the IRP to hold IRP context information. Drivers that use these routines to queue IRPs must leave that member unused.
 
-Callers of <b>IoCsqInsertIrpEx</b> must be running at an IRQL <= DISPATCH_LEVEL. The driver's callback routines must work correctly at this IRQL. 
-
-
-
+Callers of <b>IoCsqInsertIrpEx</b> must be running at an IRQL <= DISPATCH_LEVEL. The driver's callback routines must work correctly at this IRQL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a>
 
@@ -174,7 +155,4 @@ Callers of <b>IoCsqInsertIrpEx</b> must be running at an IRQL <= DISPATCH_LEVEL.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
- 
-
- 
 

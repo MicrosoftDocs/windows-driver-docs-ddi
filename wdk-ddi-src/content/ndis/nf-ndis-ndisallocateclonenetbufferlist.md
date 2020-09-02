@@ -8,8 +8,6 @@ ms.assetid: 357605a1-5c57-44ed-97b3-f466f9a7182c
 ms.date: 05/02/2018
 keywords: ["NdisAllocateCloneNetBufferList function"]
 ms.keywords: NdisAllocateCloneNetBufferList, NdisAllocateCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneNetBufferList, ndis_netbuf_functions_ref_52fbbc8b-cf3c-4df8-8e02-053946be8136.xml, netvista.ndisallocateclonenetbufferlist
-f1_keywords:
- - "ndis/NdisAllocateCloneNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateCloneNetBufferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateCloneNetBufferList
+ - ndis/NdisAllocateCloneNetBufferList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateCloneNetBufferList
 ---
 
 # NdisAllocateCloneNetBufferList function
@@ -48,40 +47,36 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisAllocateCloneNetBufferList</b> function to create a new clone 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -parameters
 
+### -param OriginalNetBufferList 
 
-
-
-### -param OriginalNetBufferList [in]
-
+[in]
 A pointer to an existing <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
+### -param NetBufferListPoolHandle 
 
-### -param NetBufferListPoolHandle [in, optional]
-
+[in, optional]
 A handle that was obtained from a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function.
 
+### -param NetBufferPoolHandle 
 
-### -param NetBufferPoolHandle [in, optional]
-
+[in, optional]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure pool handle that was
      previously returned from a call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
      NdisAllocateNetBufferPool</a>.
 
+### -param AllocateCloneFlags 
 
-### -param AllocateCloneFlags [in]
-
+[in]
 NDIS flags that can be combined with an OR operation. The following flags are defined:
      
 
@@ -102,20 +97,12 @@ If this flag is set, NDIS does not allocate new MDLs for the cloned <a href="htt
        NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS is cleared, NDIS allocates new MDLs to reference the original data
        buffers.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateCloneNetBufferList</b> returns a pointer to the new clone <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. If
      the allocation was unsuccessful, this pointer is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Call 
     <b>NdisAllocateCloneNetBufferList</b> to create a clone 
@@ -144,13 +131,7 @@ Call the
     structures and MDL chains that were allocated by calling 
     <b>NdisAllocateCloneNetBufferList</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -174,7 +155,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreeclonenetbufferlist">NdisFreeCloneNetBufferList</a>
- 
-
- 
 

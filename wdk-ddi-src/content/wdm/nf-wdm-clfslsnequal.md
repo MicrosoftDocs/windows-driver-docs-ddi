@@ -8,8 +8,6 @@ ms.assetid: e154c9d5-a131-47db-b0fa-d51154637c56
 ms.date: 04/30/2018
 keywords: ["ClfsLsnEqual function"]
 ms.keywords: ClfsLsnEqual, ClfsLsnEqual routine [Kernel-Mode Driver Architecture], Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml, kernel.clfslsnequal, wdm/ClfsLsnEqual
-f1_keywords:
- - "wdm/ClfsLsnEqual"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsLsnEqual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsLsnEqual
+ - wdm/ClfsLsnEqual
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsLsnEqual
 ---
 
 # ClfsLsnEqual function
@@ -48,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsLsnEqual</b> routine determines whether two LSNs from the same stream are equal.
-
 
 ## -parameters
 
+### -param plsn1 
 
-
-
-### -param plsn1 [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
 
+### -param plsn2 
 
-### -param plsn2 [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the other LSN to be compared.
-
 
 ## -returns
 
-
-
 <b>ClfsLsnEqual</b> returns <b>TRUE</b> if the two LSNs are equal; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 CLFS_LSN_NULL (the smallest LSN) and CLFS_LSN_INVALID (larger than any valid LSN) are valid arguments to <b>ClfsLsnEqual</b>.
 
@@ -86,13 +73,7 @@ LSNs from different streams are not comparable. Do not use <b>ClfsLsnEqual</b>, 
 
 For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsngreater">ClfsLsnGreater</a>
 
@@ -103,7 +84,4 @@ For an explanation of CLFS concepts and terminology, see <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnnull">ClfsLsnNull</a>
- 
-
- 
 

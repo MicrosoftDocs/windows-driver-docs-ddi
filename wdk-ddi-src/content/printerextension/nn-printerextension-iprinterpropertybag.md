@@ -8,8 +8,6 @@ ms.assetid: 421397FF-4956-4052-B63D-32F8E79A22D0
 ms.date: 04/20/2018
 keywords: ["IPrinterPropertyBag interface"]
 ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], IPrinterPropertyBag interface [Print Devices],described, print.iprinterpropertybag_interface, printerextension/IPrinterPropertyBag
-f1_keywords:
- - "printerextension/IPrinterPropertyBag"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterPropertyBag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterPropertyBag
+ - printerextension/IPrinterPropertyBag
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterPropertyBag
 ---
 
 # IPrinterPropertyBag interface
+
 
 ## -description
 
@@ -71,3 +71,4 @@ The **IPrinterPropertyBag** interface is used by all the printer property bags, 
 [IPrinterScriptablePropertyBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
 
 [V4 Printer Driver Property Bags](https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags)
+

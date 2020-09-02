@@ -8,8 +8,6 @@ ms.assetid: C8A6A286-8F62-4A55-9AED-263317088706
 ms.date: 02/15/2018
 keywords: ["NFC_CX_RF_DISCOVERY_CONFIG_INIT function"]
 ms.keywords: NFC_CX_RF_DISCOVERY_CONFIG_INIT, NFC_CX_RF_DISCOVERY_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT, nfpdrivers.nfc_cx_rf_discovery_config_init
-f1_keywords:
- - "nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- nfccxstub.lib
-- nfccxstub.dll
-api_name:
-- NFC_CX_RF_DISCOVERY_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NFC_CX_RF_DISCOVERY_CONFIG_INIT
+ - nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - nfccxstub.lib
+ - nfccxstub.dll
+api_name:
+ - NFC_CX_RF_DISCOVERY_CONFIG_INIT
 ---
 
 # NFC_CX_RF_DISCOVERY_CONFIG_INIT function
@@ -48,31 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_rf_discovery_config">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
-
 
 ## -parameters
 
+### -param Config 
 
-
-
-### -param Config [out]
-
+[out]
 A pointer to the NFC_CX_RF_DISCOVERY_CONFIG structure that the function initializes.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
 

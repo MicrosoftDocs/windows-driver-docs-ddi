@@ -8,8 +8,6 @@ ms.assetid: 83609679-20df-463d-ac3a-bb8a87897608
 ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_SET callback function"]
 ms.keywords: DXGK_BRIGHTNESS_SET, DXGK_BRIGHTNESS_SET callback, DmFunctions_7b5ff27a-7a8f-4dee-8b3d-c9b0df76db6d.xml, DxgkDdiSetBrightness, DxgkDdiSetBrightness callback function [Display Devices], display.dxgkddisetbrightness, dispmprt/DxgkDdiSetBrightness
-f1_keywords:
- - "dispmprt/DxgkDdiSetBrightness"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiSetBrightness
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGK_BRIGHTNESS_SET
+ - dispmprt/DXGK_BRIGHTNESS_SET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiSetBrightness
 ---
 
 # DXGK_BRIGHTNESS_SET callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <i>DxgkDdiSetBrightness</i> function sets a new brightness level. 
-
+The <i>DxgkDdiSetBrightness</i> function sets a new brightness level.
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
+### -param Brightness 
 
-### -param Brightness [in]
-
+[in]
 The brightness level value to set.
-
 
 ## -returns
 
-
-
-<i>DxgkDdiSetBrightness</i> returns STATUS_SUCCESS if it succeeds in setting a new brightness level. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>. 
-
-
-
+<i>DxgkDdiSetBrightness</i> returns STATUS_SUCCESS if it succeeds in setting a new brightness level. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/display/monitor-drivers">monitor driver</a> calls the display miniport driver's <i>DxgkDdiSetBrightness</i> function to change the brightness level of the integrated display panel for the following reasons:
 
@@ -99,22 +86,13 @@ The monitor driver interprets brightness hot-key notifications from the Advanced
 
 </li>
 </ul>
-<i>DxgkDdiSetBrightness</i> should be made pageable. 
-
-
-
+<i>DxgkDdiSetBrightness</i> should be made pageable.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_display_brightness">IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS</a>
- 
-
- 
 

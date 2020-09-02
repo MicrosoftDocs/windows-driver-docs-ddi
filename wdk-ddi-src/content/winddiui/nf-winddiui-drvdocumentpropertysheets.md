@@ -8,8 +8,6 @@ ms.assetid: fc7e98ba-5c49-4c2d-af2e-b6c13757f6e6
 ms.date: 04/20/2018
 keywords: ["DrvDocumentPropertySheets function"]
 ms.keywords: DrvDocumentPropertySheets, DrvDocumentPropertySheets function [Print Devices], print.drvdocumentpropertysheets, print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml, winddiui/DrvDocumentPropertySheets
-f1_keywords:
- - "winddiui/DrvDocumentPropertySheets"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvDocumentPropertySheets
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvDocumentPropertySheets
+ - winddiui/DrvDocumentPropertySheets
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvDocumentPropertySheets
 ---
 
 # DrvDocumentPropertySheets function
@@ -47,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
 A printer interface DLL's <b>DrvDocumentPropertySheets</b> function is responsible for creating property sheet pages that describe a print document's properties.
-
 
 ## -parameters
 
+### -param pPSUIInfo 
 
-
-
-### -param pPSUIInfo [in, optional]
-
+[in, optional]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. Can be <b>NULL</b> (see the following Remarks section).
-
 
 ### -param lParam
 
@@ -93,21 +87,12 @@ See the description of the <i>lParam</i> parameter for the <a href="https://docs
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If <i>pPSUIInfo</i> is <b>NULL</b>, and if either <i>lParam</i> -> <b>fMode</b> is zero or <i>lParam -</i>> <b>pdmOut</b> is <b>NULL</b>, this function should return the size, in bytes, of the printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. Otherwise, the function's return value is the same as that described in the ReturnValue section of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a> function type. For more information, see the Remarks section. 
-
-
-
+If <i>pPSUIInfo</i> is <b>NULL</b>, and if either <i>lParam</i> -> <b>fMode</b> is zero or <i>lParam -</i>> <b>pdmOut</b> is <b>NULL</b>, this function should return the size, in bytes, of the printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. Otherwise, the function's return value is the same as that described in the ReturnValue section of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a> function type. For more information, see the Remarks section.
 
 ## -remarks
-
-
 
 All <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-interface-dll">printer interface DLLs</a> must provide a <b>DrvDocumentPropertySheets</b> function, which is defined using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a> function type. The function's purpose is to call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, provided by <a href="https://docs.microsoft.com/windows-hardware/drivers/print/common-property-sheet-user-interface">CPSUI</a>, to specify property sheet pages containing user-modifiable properties for print documents.
 
@@ -136,12 +121,7 @@ If the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is not zero, 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_documentpropertyheader">DOCUMENTPROPERTYHEADER</a>
 
@@ -152,7 +132,4 @@ If the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is not zero, 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a>
- 
-
- 
 

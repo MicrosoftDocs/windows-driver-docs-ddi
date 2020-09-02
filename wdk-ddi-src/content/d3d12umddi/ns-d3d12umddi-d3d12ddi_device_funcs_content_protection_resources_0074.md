@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_RESOURCES_0074
 f1_keywords:
+ - D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_RESOURCES_0074
  - d3d12umddi/D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_RESOURCES_0074
 dev_langs:
  - c++
@@ -67,3 +68,4 @@ Destroy the protected resource session.
 See the [Protected Resources Specification](https://microsoft.github.io/DirectX-Specs/d3d/ProtectedResources.html) for more information.
 
 ## -see-also
+

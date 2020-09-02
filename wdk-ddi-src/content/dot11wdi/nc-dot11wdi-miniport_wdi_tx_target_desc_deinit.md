@@ -8,8 +8,6 @@ ms.assetid: C7C6C175-5E9D-4C6B-8A6B-F903DDE4DC78
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback function"]
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_DEINIT, MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback, MiniportWdiTxTargetDescDeInit, MiniportWdiTxTargetDescDeInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescDeInit, netvista.miniportwditxtargetdescdeinit
-f1_keywords:
- - "dot11wdi/MiniportWdiTxTargetDescDeInit"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiTxTargetDescDeInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_TX_TARGET_DESC_DEINIT
+ - dot11wdi/MINIPORT_WDI_TX_TARGET_DESC_DEINIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiTxTargetDescDeInit
 ---
 
 # MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback function
 
 
 ## -description
-
 
 The 
   <i>MINIPORT_WDI_TX_TARGET_DESC_DEINIT</i> callback function informs the TxEngine that the target TX descriptors associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> (NBLs) in the NBL chain are no longer needed and can be freed.
@@ -57,22 +55,17 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 ## -parameters
 
+### -param MiniportTalTxRxContext 
 
-
-
-### -param MiniportTalTxRxContext [in]
-
+[in]
 TAL device handle returned by the IHV miniport in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MINIPORT_WDI_TAL_TXRX_INITIALIZE</a> callback function.
 
+### -param pNBL 
 
-### -param pNBL [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Important</b>  The IHV miniport is not permitted to make any indication in the context of this call.
 The TxMgr serializes calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_wdi_data_handlers">TxTargetDescDeInitHandler</a>.</div>
@@ -114,15 +107,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_WDI_TX_TARGET_DESC_DEINIT</b> function type is defined in the dot11wdi.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_WDI_TX_TARGET_DESC_DEINIT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_wdi_data_handlers">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
@@ -137,7 +124,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>
- 
-
- 
 

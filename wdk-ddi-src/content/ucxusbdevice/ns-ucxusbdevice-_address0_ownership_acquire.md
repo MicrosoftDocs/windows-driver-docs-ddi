@@ -6,10 +6,8 @@ old-location: buses\_address0_ownership_acquire.htm
 tech.root: usbref
 ms.assetid: D2FECBA5-21DF-411C-BBDB-968328E18C12
 ms.date: 05/07/2018
-keywords: ["_ADDRESS0_OWNERSHIP_ACQUIRE structure"]
+keywords: ["ADDRESS0_OWNERSHIP_ACQUIRE structure"]
 ms.keywords: "*PADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE structure [Buses], P_ADDRESS0_OWNERSHIP_ACQUIRE, P_ADDRESS0_OWNERSHIP_ACQUIRE structure pointer [Buses], _ADDRESS0_OWNERSHIP_ACQUIRE, buses._address0_ownership_acquire, ucxusbdevice/P_ADDRESS0_OWNERSHIP_ACQUIRE, ucxusbdevice/_ADDRESS0_OWNERSHIP_ACQUIRE"
-f1_keywords:
- - "ucxusbdevice/ADDRESS0_OWNERSHIP_ACQUIRE"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucxusbdevice.h
-api_name:
-- ADDRESS0_OWNERSHIP_ACQUIRE
-product:
-- Windows
 targetos: Windows
 req.typenames: ADDRESS0_OWNERSHIP_ACQUIRE, *PADDRESS0_OWNERSHIP_ACQUIRE
+f1_keywords:
+ - _ADDRESS0_OWNERSHIP_ACQUIRE
+ - ucxusbdevice/_ADDRESS0_OWNERSHIP_ACQUIRE
+ - PADDRESS0_OWNERSHIP_ACQUIRE
+ - ucxusbdevice/PADDRESS0_OWNERSHIP_ACQUIRE
+ - ADDRESS0_OWNERSHIP_ACQUIRE
+ - ucxusbdevice/ADDRESS0_OWNERSHIP_ACQUIRE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucxusbdevice.h
+api_name:
+ - ADDRESS0_OWNERSHIP_ACQUIRE
 ---
 
 # _ADDRESS0_OWNERSHIP_ACQUIRE structure
@@ -47,14 +50,9 @@ req.typenames: ADDRESS0_OWNERSHIP_ACQUIRE, *PADDRESS0_OWNERSHIP_ACQUIRE
 
 ## -description
 
-
-Contains parameters for configuring the device. 
-
+Contains parameters for configuring the device.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 

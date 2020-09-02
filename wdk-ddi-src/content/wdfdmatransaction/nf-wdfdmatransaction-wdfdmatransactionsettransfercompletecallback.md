@@ -8,8 +8,6 @@ ms.assetid: B97FF6B1-BFCB-4293-B2F0-EE08E12CFCFF
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionSetTransferCompleteCallback function"]
 ms.keywords: WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback method, kmdf.wdfdmatransactionsettransfercompletecallback, wdf.wdfdmatransactionsettransfercompletecallback, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback
-f1_keywords:
- - "wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDmaTransactionSetTransferCompleteCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDmaTransactionSetTransferCompleteCallback
+ - wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDmaTransactionSetTransferCompleteCallback
 ---
 
 # WdfDmaTransactionSetTransferCompleteCallback function
@@ -48,36 +47,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WdfDmaTransactionSetTransferCompleteCallback</b> method registers a transfer completion event callback function for a system-mode DMA transaction.
 
-
 ## -parameters
 
+### -param DmaTransaction 
 
-
-
-### -param DmaTransaction [in]
-
+[in]
 A handle to an initialized DMA transaction object for which to set or clear the transfer completion callback.
 
+### -param DmaCompletionRoutine 
 
-### -param DmaCompletionRoutine [in, optional]
-
+[in, optional]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL to clear a previously set callback function.
 
+### -param DmaCompletionContext 
 
-### -param DmaCompletionContext [in, optional]
-
+[in, optional]
 A pointer to a buffer containing the driver-specified context to be provided to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL.
 
-
 ## -remarks
-
-
 
 The driver calls this method to set a completion routine that the framework calls after the system DMA controller completes a transfer.  The framework calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> callback once for each transfer in the transaction.
 
@@ -94,20 +86,11 @@ If the driver has specified an <a href="https://docs.microsoft.com/windows-hardw
 
 If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionrelease">WdfDmaTransactionRelease</a>
- 
-
- 
 

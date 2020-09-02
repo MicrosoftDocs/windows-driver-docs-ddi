@@ -6,10 +6,8 @@ old-location: kernel\ob_post_duplicate_handle_information.htm
 tech.root: kernel
 ms.assetid: 780ace20-bb88-47fe-b504-dd6a5e903840
 ms.date: 04/30/2018
-keywords: ["_OB_POST_DUPLICATE_HANDLE_INFORMATION structure"]
+keywords: ["OB_POST_DUPLICATE_HANDLE_INFORMATION structure"]
 ms.keywords: "*POB_POST_DUPLICATE_HANDLE_INFORMATION, OB_POST_DUPLICATE_HANDLE_INFORMATION, OB_POST_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_DUPLICATE_HANDLE_INFORMATION, POB_POST_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_DUPLICATE_HANDLE_INFORMATION, kernel.ob_post_duplicate_handle_information, kstruct_c_7b277d55-5e47-4b6d-a77b-9f10decc3dbd.xml, wdm/OB_POST_DUPLICATE_HANDLE_INFORMATION, wdm/POB_POST_DUPLICATE_HANDLE_INFORMATION"
-f1_keywords:
- - "wdm/OB_POST_DUPLICATE_HANDLE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- OB_POST_DUPLICATE_HANDLE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_POST_DUPLICATE_HANDLE_INFORMATION, *POB_POST_DUPLICATE_HANDLE_INFORMATION
+f1_keywords:
+ - _OB_POST_DUPLICATE_HANDLE_INFORMATION
+ - wdm/_OB_POST_DUPLICATE_HANDLE_INFORMATION
+ - POB_POST_DUPLICATE_HANDLE_INFORMATION
+ - wdm/POB_POST_DUPLICATE_HANDLE_INFORMATION
+ - OB_POST_DUPLICATE_HANDLE_INFORMATION
+ - wdm/OB_POST_DUPLICATE_HANDLE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - OB_POST_DUPLICATE_HANDLE_INFORMATION
 ---
 
 # _OB_POST_DUPLICATE_HANDLE_INFORMATION structure
@@ -47,31 +50,19 @@ req.typenames: OB_POST_DUPLICATE_HANDLE_INFORMATION, *POB_POST_DUPLICATE_HANDLE_
 
 ## -description
 
-
 The <b>OB_POST_DUPLICATE_HANDLE_INFORMATION</b> structure provides information to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine about a thread or process handle that has been duplicated.
 
-
 ## -struct-fields
-
-
-
 
 ### -field GrantedAccess
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the access that is granted for the handle.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
- 
-
- 
 

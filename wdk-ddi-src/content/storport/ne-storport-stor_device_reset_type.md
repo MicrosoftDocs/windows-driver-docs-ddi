@@ -8,33 +8,37 @@ ms.assetid: b0c412bb-9354-4599-9078-8b8656185d15
 ms.author: windowsdriverdev
 ms.date: 03/20/2020
 ms.topic: enum
-ms.keywords: STOR_DEVICE_RESET_TYPE, STOR_DEVICE_RESET_TYPE, 
+ms.keywords: STOR_DEVICE_RESET_TYPE, STOR_DEVICE_RESET_TYPE,
 req.header: storport.h
-f1_keywords:
- - "storport/STOR_DEVICE_RESET_TYPE"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: STOR_DEVICE_RESET_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - storport.h
-api_name: 
- - STOR_DEVICE_RESET_TYPE
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _STOR_DEVICE_RESET_TYPE
+ - storport/_STOR_DEVICE_RESET_TYPE
+ - STOR_DEVICE_RESET_TYPE
+ - storport/STOR_DEVICE_RESET_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_DEVICE_RESET_TYPE
+product:
+ - Windows
 ---
 
 # STOR_DEVICE_RESET_TYPE enumeration
+
 
 ## -description
 
@@ -58,3 +62,4 @@ See [Resetting and recovering a device](https://docs.microsoft.com/windows-hardw
 ## -see-also
 
 [**StorPortHardwareReset**](nf-storport-storporthardwarereset.md)
+

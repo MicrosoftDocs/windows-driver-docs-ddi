@@ -8,8 +8,6 @@ ms.assetid: 318ba587-e34f-4f9f-bdf9-3e7c402456c5
 ms.date: 05/08/2018
 keywords: ["IPortWaveCyclic::Notify"]
 ms.keywords: IPortWaveCyclic interface [Audio Devices],Notify method, IPortWaveCyclic.Notify, IPortWaveCyclic::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortWaveCyclic interface, audio.iportwavecyclic_notify, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, portcls/IPortWaveCyclic::Notify
-f1_keywords:
- - "portcls/IPortWaveCyclic.Notify"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortWaveCyclic.Notify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortWaveCyclic::Notify
+ - portcls/IPortWaveCyclic::Notify
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortWaveCyclic.Notify
 ---
 
 # IPortWaveCyclic::Notify
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <code>Notify</code> method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).
-
 
 ## -parameters
 
+### -param ServiceGroup 
 
-
-
-### -param ServiceGroup [in]
-
+[in]
 Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object.
 
-
 ## -remarks
-
-
 
 This method is vital for accurate timing. Miniport drivers typically call this method in response to a notification interrupt after having cleared the interrupt source. Although the miniport driver is free to use other methods for determining when to call this method, precise timing is important and should be maintained.
 
@@ -73,13 +65,7 @@ The port driver calls the <a href="https://docs.microsoft.com/windows-hardware/d
 
 The <i>ServiceGroup</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavecyclicstream-setnotificationfreq">IMiniportWaveCyclicStream::SetNotificationFreq</a>
 
@@ -90,7 +76,4 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
- 
-
- 
 

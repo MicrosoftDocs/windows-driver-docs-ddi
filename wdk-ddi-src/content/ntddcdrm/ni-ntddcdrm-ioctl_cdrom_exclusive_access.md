@@ -8,8 +8,6 @@ ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_EXCLUSIVE_ACCESS IOCTL"]
 ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
-f1_keywords:
- - "ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddcdrm.h
-api_name:
-- IOCTL_CDROM_EXCLUSIVE_ACCESS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_CDROM_EXCLUSIVE_ACCESS
+ - ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddcdrm.h
+api_name:
+ - IOCTL_CDROM_EXCLUSIVE_ACCESS
 ---
 
 # IOCTL_CDROM_EXCLUSIVE_ACCESS IOCTL
 
 
 ## -description
-
 
 The IOCTL_CDROM_EXCLUSIVE_ACCESS request instructs the CD-ROM class driver to:<ul>
 <li>
@@ -64,13 +62,7 @@ Unlock a CD-ROM device for exclusive access.
 </ul>
 A valid FileObject handle must exist in order for this IOCTL to succeed. The FileObject handle protects the system from unexpected application termination or accidental acquisition of an exclusive access lock without subsequent release of the exclusive access lock. A valid FileObject handle is necessary because when an application closes, the CD-ROM class driver will receive CLEANUP and CLOSE I/O Request Packets (IRPs), which it can use to automatically release an exclusive access lock obtained by that handle. This simple method protects against the majority of accidental releases of exclusive access. Any methods used to avoid this functionality may reduce the safety and effectiveness of the exclusive access locking method.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -98,34 +90,17 @@ Depending on the operation that the caller requests, the caller must provide one
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure indicates the size, in bytes, of the user-allocated input buffer.
 
-
 ### -output-buffer
 
 If the caller requests the exclusive access state of the CD-ROM device (<b>RequestType</b> = <b>ExclusiveAccessQueryState</b>), the CD-ROM class driver returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exclusive_lock_state">CDROM_EXCLUSIVE_LOCK_STATE</a>-type structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer </b>whose <b>LockState</b> member indicates the access state of the device.
-
 
 ### -output-buffer-length
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member in the I/O stack location (IO_STACK_LOCATION) indicates the size, in bytes, of the output buffer.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -203,9 +178,6 @@ The caller name string in the <b>CallerName</b> member of <a href="https://docs.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exclusive_access">CDROM_EXCLUSIVE_ACCESS</a>
 
 
@@ -223,7 +195,4 @@ The caller name string in the <b>CallerName</b> member of <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
- 
-
- 
 

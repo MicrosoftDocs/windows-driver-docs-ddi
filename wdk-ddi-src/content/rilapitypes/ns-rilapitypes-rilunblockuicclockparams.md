@@ -8,8 +8,6 @@ ms.assetid: 48d1deeb-8862-4e01-aa22-119a53aa4aba
 ms.date: 05/02/2018
 keywords: ["RILUNBLOCKUICCLOCKPARAMS structure"]
 ms.keywords: "*LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilunblockuicclockparams, ntddrilapitypes/RILUNBLOCKUICCLOCKPARAMS"
-f1_keywords:
- - "rilapitypes/RILUNBLOCKUICCLOCKPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUNBLOCKUICCLOCKPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUNBLOCKUICCLOCKPARAMS, *LPRILUNBLOCKUICCLOCKPARAMS
+f1_keywords:
+ - RILUNBLOCKUICCLOCKPARAMS
+ - rilapitypes/RILUNBLOCKUICCLOCKPARAMS
+ - LPRILUNBLOCKUICCLOCKPARAMS
+ - rilapitypes/LPRILUNBLOCKUICCLOCKPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUNBLOCKUICCLOCKPARAMS
 ---
 
 # RILUNBLOCKUICCLOCKPARAMS structure
@@ -47,17 +48,11 @@ req.typenames: RILUNBLOCKUICCLOCKPARAMS, *LPRILUNBLOCKUICCLOCKPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field lockCredential
-
 
 ### -field szNewPassword
 

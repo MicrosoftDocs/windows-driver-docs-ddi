@@ -5,39 +5,38 @@ description: The GetAt method retrieves the value at a particular N-dimensional 
 ms.assetid: a2ad86e3-55ea-49ad-88a5-745a69741e17
 ms.date: 09/19/2018
 keywords: ["IIndexableConcept::GetAt"]
-f1_keywords:
- - "dbgmodel/IIndexableConcept.GetAt"
 ms.keywords: IIndexableConcept::GetAt, GetAt, IIndexableConcept.GetAt, IIndexableConcept::GetAt, IIndexableConcept.GetAt
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IIndexableConcept.GetAt
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IIndexableConcept::GetAt
+ - dbgmodel/IIndexableConcept::GetAt
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IIndexableConcept.GetAt
 ---
 
 # IIndexableConcept::GetAt
@@ -45,27 +44,32 @@ ms.custom: RS5
 
 ## -description
 
-The GetAt method retrieves the value at a particular N-dimensional index from within the indexed object. An indexer of N-dimensions where N is the value returned from GetDimensionality must be supported. Note that an object may be indexable in different domains by different types (e.g.: indexable via both ordinals and strings). If the index is out of range (or could not be accessed), the method will return a failure; however, in such cases, the output object may still be set to an error object. 
+The GetAt method retrieves the value at a particular N-dimensional index from within the indexed object. An indexer of N-dimensions where N is the value returned from GetDimensionality must be supported. Note that an object may be indexable in different domains by different types (e.g.: indexable via both ordinals and strings). If the index is out of range (or could not be accessed), the method will return a failure; however, in such cases, the output object may still be set to an error object.
 
 ## -parameters
 
 ### -param contextObject
+
 The instance object (this pointer) which is being indexed is passed here.
 
 ### -param indexerCount
+
 The number of dimensions that the object is being indexed in.
 
 ### -param indexers
+
 An array (sized according to the indexerCount) of indicies indicating where inside the instance object to access.
 
 ### -param object
+
 The value of the element at the specified indicies is returned here. If the method fails, extended error information may be returned here as an error object.
 
 ### -param metadata
+
 Optional metadata about the indexed element may be returned here.
 
-
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
@@ -135,3 +139,4 @@ IFACEMETHOD(GetAt)(_In_ IModelObject *pContextObject,
 ## -see-also
 
 [IIndexableConcept interface](nn-dbgmodel-iindexableconcept.md)
+

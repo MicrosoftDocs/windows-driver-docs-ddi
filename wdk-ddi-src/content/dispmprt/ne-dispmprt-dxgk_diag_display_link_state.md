@@ -27,13 +27,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_LINK_STATE
  - DXGK_DIAG_DISPLAY_LINK_STATE
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_LINK_STATE
  - dispmprt/_DXGK_DIAG_DISPLAY_LINK_STATE
+ - DXGK_DIAG_DISPLAY_LINK_STATE
  - dispmprt/DXGK_DIAG_DISPLAY_LINK_STATE
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_LINK_STATE enumeration
+
 
 ## -description
 
@@ -82,3 +85,4 @@ The **DXGK_DIAG_DISPLAY_LINK_STATE** enumeration is a member of the [**DXGK_DISP
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
+

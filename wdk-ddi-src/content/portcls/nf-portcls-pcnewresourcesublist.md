@@ -8,8 +8,6 @@ ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.date: 05/08/2018
 keywords: ["PcNewResourceSublist function"]
 ms.keywords: PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], audio.pcnewresourcesublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, portcls/PcNewResourceSublist
-f1_keywords:
- - "portcls/PcNewResourceSublist"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcNewResourceSublist
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcNewResourceSublist
+ - portcls/PcNewResourceSublist
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcNewResourceSublist
 ---
 
 # PcNewResourceSublist function
@@ -48,52 +47,40 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcNewResourceSublist</b> function creates and initializes an empty resource list that is derived from another resource list.
-
 
 ## -parameters
 
+### -param OutResourceList 
 
-
-
-### -param OutResourceList [out]
-
+[out]
 Output pointer to the resource-list object that this function creates. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
+### -param OuterUnknown 
 
-### -param OuterUnknown [in, optional]
+[in, optional]
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
+### -param PoolType 
 
-
-### -param PoolType [in]
-
+[in]
 Specifies the type of pool from which the object is to be allocated. This is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration value.
 
+### -param ParentList 
 
-### -param ParentList [in]
-
+[in]
 Pointer to the resource list from which the child list will be created. The resource list has an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> interface.
 
+### -param MaximumEntries 
 
-### -param MaximumEntries [in]
-
+[in]
 Specifies the maximum number of entries that will be added to the resource list.
-
 
 ## -returns
 
-
-
 <b>PcNewResourceSublist</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This function creates an empty resource sublist.
 
@@ -101,13 +88,7 @@ An adapter driver typically uses the <b>PcNewResourceSublist</b> function in com
 
 The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a>
 
@@ -118,7 +99,4 @@ The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameter
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
- 
-
- 
 

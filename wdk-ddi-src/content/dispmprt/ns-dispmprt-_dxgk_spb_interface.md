@@ -6,10 +6,8 @@ old-location: display\dxgk_spb_interface.htm
 tech.root: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.date: 05/10/2018
-keywords: ["_DXGK_SPB_INTERFACE structure"]
+keywords: ["DXGK_SPB_INTERFACE structure"]
 ms.keywords: "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
-f1_keywords:
- - "dispmprt/DXGK_SPB_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dispmprt.h
-api_name:
-- DXGK_SPB_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE
+f1_keywords:
+ - _DXGK_SPB_INTERFACE
+ - dispmprt/_DXGK_SPB_INTERFACE
+ - PDXGK_SPB_INTERFACE
+ - dispmprt/PDXGK_SPB_INTERFACE
+ - DXGK_SPB_INTERFACE
+ - dispmprt/DXGK_SPB_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dispmprt.h
+api_name:
+ - DXGK_SPB_INTERFACE
 ---
 
 # _DXGK_SPB_INTERFACE structure
@@ -47,43 +50,33 @@ req.typenames: DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE
 
 ## -description
 
-
 Contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Simple Peripheral Bus (SPB) Interface</a> that the Windows Display Driver Model (WDDM) 1.2 and later  display miniport driver can call to inspect and alter SPB resources.
 
 To use these functions, first supply the <b>Size</b> and <b>Version</b> members of the  <b>DXGK_SPB_INTERFACE</b> structure. Then call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a> function with the  <i>ServicesType</i>  parameter set to a value of <b>DxgkServicesFirmwareTable</b>, and set the <i>Interface</i> parameter to the address (cast as <b>PINTERFACE</b>) of the <b>DXGK_SPB_INTERFACE</b> structure.
 
 For more information on SPB architecture, see <a href="https://docs.microsoft.com/previous-versions/hh450903(v=vs.85)">Simple Peripheral Buses</a> and <a href="https://docs.microsoft.com/previous-versions/hh698226(v=vs.85)">SPB Peripheral Device Driver Overview</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Version
 
 The version number of the SPB interface. Version number constants are defined in Dispmprt.h (for example, DXGK_SPB_INTERFACE_VERSION_1).
-
 
 ### -field Context
 
 A pointer to a context that is provided by the display miniport driver.
 
-
 ### -field InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display miniport driver.
 
-
 ### -field InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display miniport driver.
-
 
 ### -field OpenSpbResource
 
@@ -131,7 +124,6 @@ Specifies the options to apply when opening the SPB resource. For more informati
 
 A pointer to a buffer that is used to return the handle to the SPB resource.
 
-
 ### -field CloseSpbResource
 
 Closes a Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
@@ -153,7 +145,6 @@ A handle that represents a display adapter. The display miniport driver previous
 #### SpbResource
 
 A pointer to an SPB resource that the display miniport driver opened using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
-
 
 ### -field ReadSpbResource
 
@@ -215,9 +206,6 @@ This parameter can be <b>NULL</b>.
 #### IoStatusBlock
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
-
-
-
 
 ### -field WriteSpbResource
 
@@ -286,7 +274,6 @@ This parameter can be <b>NULL</b>.
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
 
-
 ### -field SpbResourceIoControl
 
 Performs an I/O control operation on an open Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
@@ -353,11 +340,7 @@ This parameter can be <b>NULL</b>.
 
 A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a>
 
@@ -376,7 +359,4 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a>
- 
-
- 
 

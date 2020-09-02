@@ -8,39 +8,41 @@ ms.assetid: 758482bb-b832-4749-9a3b-17670fc65156
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_RESTOREMEMORYFORHOTUPDATE structure"]
-f1_keywords:
- - "d3dkmddi/DXGKARG_RESTOREMEMORYFORHOTUPDATE"
-ms.keywords: DXGKARG_RESTOREMEMORYFORHOTUPDATE, DXGKARG_RESTOREMEMORYFORHOTUPDATE, 
+ms.keywords: DXGKARG_RESTOREMEMORYFORHOTUPDATE, DXGKARG_RESTOREMEMORYFORHOTUPDATE,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_RESTOREMEMORYFORHOTUPDATE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3dkmddi.h
-api_name: 
- - DXGKARG_RESTOREMEMORYFORHOTUPDATE
-product:
-- Windows
 targetos: Windows
+ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
+f1_keywords:
+ - _DXGKARG_RESTOREMEMORYFORHOTUPDATE
+ - d3dkmddi/_DXGKARG_RESTOREMEMORYFORHOTUPDATE
+ - DXGKARG_RESTOREMEMORYFORHOTUPDATE
+ - d3dkmddi/DXGKARG_RESTOREMEMORYFORHOTUPDATE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_RESTOREMEMORYFORHOTUPDATE
 dev_langs:
  - c++
-ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
 ---
 
 # DXGKARG_RESTOREMEMORYFORHOTUPDATE structure
+
 
 ## -description
 
@@ -79,9 +81,11 @@ pBuffer = MmGetSystemAddressForMdlSafe(pMdl, NormalPagePriority | MdlMappingNoEx
 [in] The number of bytes in the buffer that *pMetaData* points to.
 
 ### -field pMetaData
+
  
 [in] A virtual memory pointer to the metadata that is associated with the memory block.
 
 ## -remarks
 
 ## -see-also
+

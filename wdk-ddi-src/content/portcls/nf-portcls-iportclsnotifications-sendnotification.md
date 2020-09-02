@@ -8,8 +8,6 @@ ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.date: 05/08/2018
 keywords: ["IPortClsNotifications::SendNotification"]
 ms.keywords: IPortClsNotifications interface [Audio Devices],SendNotification method, IPortClsNotifications.SendNotification, IPortClsNotifications::SendNotification, SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices],IPortClsNotifications interface, audio.iportclsnotifications_sendnotification, portcls/IPortClsNotifications::SendNotification
-f1_keywords:
- - "portcls/IPortClsNotifications.SendNotification"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- IPortClsNotifications.SendNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsNotifications::SendNotification
+ - portcls/IPortClsNotifications::SendNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - IPortClsNotifications.SendNotification
 ---
 
 # IPortClsNotifications::SendNotification
@@ -48,36 +47,22 @@ req.typenames:
 
 ## -description
 
-
-Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps. 
-
+Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps.
 
 ## -parameters
 
+### -param NotificationId 
 
-
-
-### -param NotificationId [in]
-
+[in]
 KSNOTIFICATIONID_AudioModule
-
-
 
 ### -param NotificationBuffer
 
-
-
-
-
-
 #### - PPCNOTIFICATION* [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcnotification_buffer">PCNOTIFICATION_BUFFER</a> structure to send to the listening audio module UWP clients. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcnotification_buffer">PCNOTIFICATION_BUFFER</a> structure to send to the listening audio module UWP clients.
 
 ## -remarks
-
-
 
 Pointer to the PCNOTIFICATION structure to send to Audio Module clients.
 
@@ -85,18 +70,9 @@ The expected format of the payload is a <a href="https://docs.microsoft.com/wind
 
 
 
-For more information about audio modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
-
-
-
+For more information about audio modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
- 
-
- 
 

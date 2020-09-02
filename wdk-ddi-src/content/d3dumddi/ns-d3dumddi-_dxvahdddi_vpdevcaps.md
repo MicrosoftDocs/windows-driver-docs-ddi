@@ -6,10 +6,8 @@ old-location: display\dxvahdddi_vpdevcaps.htm
 tech.root: display
 ms.assetid: 25b15c20-e23a-438f-a02e-aedc26498828
 ms.date: 05/10/2018
-keywords: ["_DXVAHDDDI_VPDEVCAPS structure"]
+keywords: ["DXVAHDDDI_VPDEVCAPS structure"]
 ms.keywords: DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], _DXVAHDDDI_VPDEVCAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps
-f1_keywords:
- - "d3dumddi/DXVAHDDDI_VPDEVCAPS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVAHDDDI_VPDEVCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_VPDEVCAPS
+f1_keywords:
+ - _DXVAHDDDI_VPDEVCAPS
+ - d3dumddi/_DXVAHDDDI_VPDEVCAPS
+ - DXVAHDDDI_VPDEVCAPS
+ - d3dumddi/DXVAHDDDI_VPDEVCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVAHDDDI_VPDEVCAPS
 ---
 
 # _DXVAHDDDI_VPDEVCAPS structure
@@ -47,19 +48,13 @@ req.typenames: DXVAHDDDI_VPDEVCAPS
 
 ## -description
 
-
 The DXVAHDDDI_VPDEVCAPS structure describes the video processor capabilities that the decode device supports.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Reserved
 
-[in] Reserved. Must be zero. 
-
+[in] Reserved. Must be zero.
 
 ### -field DeviceCaps
 
@@ -101,8 +96,7 @@ For more information on luminance range, see <a href="https://docs.microsoft.com
 
 Supported starting with Windows 8.1.
 
-The driver determines that the XR_BIAS, FP16, and FP32 formats (wide gamut formats) are in linear space and so can retain the extended gamut color regardless of whether the preceding capability values are set. 
-
+The driver determines that the XR_BIAS, FP16, and FP32 formats (wide gamut formats) are in linear space and so can retain the extended gamut color regardless of whether the preceding capability values are set.
 
 ### -field FeatureCaps
 
@@ -141,7 +135,6 @@ The driver can apply the alpha value of the palette entry. For more information 
 The driver can apply discrete display rotation values to the display output surface. For more information about this operation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_state_rotation_data">DXVAHDDDI_STREAM_STATE_ROTATION_DATA</a>.
 
 Supported starting with Windows 8.
-
 
 ### -field FilterCaps
 
@@ -191,7 +184,6 @@ The driver supports edge-enhancement filter.
 
 The driver can scale from the source rectangle to the destination rectangle linearly or nonlinearly. If the driver has this capability, it can stretch 4:3 standard video content to 16:9 widescreen.
 
-
 ### -field InputFormatCaps
 
 [out] A bitwise OR of the following values from the DXVAHDDDI_INPUT_FORMAT_CAPS enumeration to indicate input-format-specific capabilities.
@@ -226,52 +218,37 @@ The driver can support the preceding capabilities rather than supporting rarely 
 
 If the driver supports these capabilities, the driver might require a certain color space to perform the processing to the input stream. For example, ProcAmp and the luma keying are performed in YCbCr color space. The driver refers the color space of the stream state to perform the intermediate color conversion.
 
-For example, when the driver sets the <b>RGB_Range</b> and <b>YCbCr_Matrix</b> members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a> to 0 and 1 respectively, the driver converts from full range RGB to BT.709 YCbCr before the driver applies ProcAmp, and then converts the input stream back to full range RGB. 
-
+For example, when the driver sets the <b>RGB_Range</b> and <b>YCbCr_Matrix</b> members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a> to 0 and 1 respectively, the driver converts from full range RGB to BT.709 YCbCr before the driver applies ProcAmp, and then converts the input stream back to full range RGB.
 
 ### -field InputPool
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the input surfaces should be allocated. 
-
+[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the input surfaces should be allocated.
 
 ### -field OutputFormatCount
 
-[out] The number of supported output formats. The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the output formats that the decode device supports when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPOUTPUTFORMATS value set. 
-
+[out] The number of supported output formats. The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the output formats that the decode device supports when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPOUTPUTFORMATS value set.
 
 ### -field InputFormatCount
 
-[out] The number of supported input formats. The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the input formats that the decode device supports when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPINPUTFORMATS value set. 
-
+[out] The number of supported input formats. The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the input formats that the decode device supports when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPINPUTFORMATS value set.
 
 ### -field VideoProcessorCount
 
-[out] The number of supported video processors. The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structures for the capabilities for each video processor that the decode device supports when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCAPS value set. 
-
+[out] The number of supported video processors. The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structures for the capabilities for each video processor that the decode device supports when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCAPS value set.
 
 ### -field MaxInputStreams
 
-[out] The driver can enable the maximum number of input streams at a time. 
-
+[out] The driver can enable the maximum number of input streams at a time.
 
 ### -field MaxStreamStates
 
-[out] The maximum number of stream states. 
-
+[out] The maximum number of stream states.
 
 ## -remarks
 
-
-
 The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAPS structure in the <b>pData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a> structure when its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPDEVCAPS value set in the <b>Type</b> member of D3DDDIARG_GETCAPS.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
 
@@ -290,7 +267,4 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAP
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
- 
-
- 
 

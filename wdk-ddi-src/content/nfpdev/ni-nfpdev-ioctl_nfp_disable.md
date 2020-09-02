@@ -8,8 +8,6 @@ ms.assetid: 5999EBAE-9B4A-469C-A8CE-E0A72B6F6A14
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_DISABLE IOCTL"]
 ms.keywords: IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable
-f1_keywords:
- - "nfpdev/IOCTL_NFP_DISABLE"
 req.header: nfpdev.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfpdev.h
-api_name:
-- IOCTL_NFP_DISABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFP_DISABLE
+ - nfpdev/IOCTL_NFP_DISABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfpdev.h
+api_name:
+ - IOCTL_NFP_DISABLE
 ---
 
 # IOCTL_NFP_DISABLE IOCTL
@@ -47,64 +46,27 @@ req.typenames:
 
 ## -description
 
-
 A client sends the <b>IOCTL_NFP_DISABLE</b> request to temporarily disable subscriptions, publications, and presence events. This is useful when a client wants to disable the proximity functionality but keep the resources allocated to quickly re-enable them when needed again.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -112,12 +74,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 The following are required actions when using this IOCTL:<ul>
 <li>
@@ -148,14 +105,7 @@ The driver MUST complete all pended <a href="https://docs.microsoft.com/windows-
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfpdev/ni-nfpdev-ioctl_nfp_enable">IOCTL_NFP_ENABLE</a>
 
@@ -166,7 +116,4 @@ The driver MUST complete all pended <a href="https://docs.microsoft.com/windows-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 5eea0877-329d-4fa3-847e-365d6a545b07
 ms.date: 04/30/2018
 keywords: ["ZwWaitForSingleObject function"]
 ms.keywords: NtWaitForSingleObject, ZwWaitForSingleObject, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, kernel.zwwaitforsingleobject, ntifs/NtWaitForSingleObject, ntifs/ZwWaitForSingleObject
-f1_keywords:
- - "ntifs/ZwWaitForSingleObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwWaitForSingleObject
-- NtWaitForSingleObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwWaitForSingleObject
+ - ntifs/ZwWaitForSingleObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwWaitForSingleObject
+ - NtWaitForSingleObject
 ---
 
 # ZwWaitForSingleObject function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwWaitForSingleObject</b> routine waits until the specified object attains a state of Signaled. An optional time-out can also be specified.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 A handle to the object.
 
+### -param Alertable 
 
-### -param Alertable [in]
-
+[in]
 A boolean value that specifies whether the wait is alertable.
 
+### -param Timeout 
 
-### -param Timeout [in, optional]
-
+[in, optional]
 An optional pointer to a time-out value that specifies the absolute or relative time at which the wait is to be completed. A negative value specifies an interval relative to the current time. The value should be expressed in units of 100 nanoseconds. Absolute expiration times track any changes in the system time. Relative expiration times are not affected by system time changes.
 
-
 ## -returns
-
-
 
 <b>ZwWaitForSingleObject</b> can return one of the following possible status codes:
 
@@ -154,12 +146,7 @@ The wait was aborted to deliver a user APC to the current thread.
 
 Note that the NT_SUCCESS macro recognizes the STATUS_ALERTED, STATUS_SUCCESS, STATUS_TIMEOUT, and STATUS_USER_APC status values as "success" values.
 
-
-
-
 ## -remarks
-
-
 
 <b>ZwWaitForSingleObject</b> waits until the specified object attains a state of Signaled. An optional timeout can also be specified. <b>ZwWaitForSingleObject</b> examines the current state of the specified object to determine whether the wait can be satisfied immediately. If so, actions are performed. Otherwise, the current thread is put in a waiting state and a new thread is selected for execution on the current processor.
 
@@ -202,13 +189,7 @@ Time-out intervals are measured relative to the system clock, and the accuracy o
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatenotificationevent">IoCreateNotificationEvent</a>
 
@@ -247,7 +228,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567092">ZwSetEvent</a>
- 
-
- 
 

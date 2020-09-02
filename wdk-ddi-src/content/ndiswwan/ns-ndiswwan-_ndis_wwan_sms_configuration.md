@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_sms_configuration.htm
 tech.root: netvista
 ms.assetid: 77d62078-7421-40c7-b743-fbc09b0eb5f9
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SMS_CONFIGURATION structure"]
+keywords: ["NDIS_WWAN_SMS_CONFIGURATION structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_CONFIGURATION, PNDIS_WWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_29c93c56-0878-421c-a690-aa5d3ba2e64a.xml, _NDIS_WWAN_SMS_CONFIGURATION, ndiswwan/NDIS_WWAN_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SMS_CONFIGURATION, netvista.ndis_wwan_sms_configuration"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SMS_CONFIGURATION"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SMS_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION
+f1_keywords:
+ - _NDIS_WWAN_SMS_CONFIGURATION
+ - ndiswwan/_NDIS_WWAN_SMS_CONFIGURATION
+ - PNDIS_WWAN_SMS_CONFIGURATION
+ - ndiswwan/PNDIS_WWAN_SMS_CONFIGURATION
+ - NDIS_WWAN_SMS_CONFIGURATION
+ - ndiswwan/NDIS_WWAN_SMS_CONFIGURATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SMS_CONFIGURATION
 ---
 
 # _NDIS_WWAN_SMS_CONFIGURATION structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION
 
 ## -description
 
-
 The NDIS_WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +103,6 @@ sizeof(NDIS_WWAN_SMS_CONFIGURATION)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -181,8 +178,6 @@ The operation failed because the SMS format specified in <a href="https://docs.m
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SmsConfiguration
 
@@ -190,18 +185,11 @@ A formatted
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_configuration">WWAN_SMS_CONFIGURATION</a> object that
      represents the SMS configuration of the MB device.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_configuration">WWAN_SMS_CONFIGURATION</a>
- 
-
- 
 

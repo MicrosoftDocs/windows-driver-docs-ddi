@@ -8,8 +8,6 @@ ms.assetid: 678bbca6-f21f-480a-897d-a30e922d01e3
 ms.date: 08/23/2019
 keywords: ["IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES IOCTL"]
 ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code [Storage Devices], k307_99edaea9-af25-4aba-ba16-0758c63252b6.xml, ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, storage.ioctl_storage_manage_data_set_attributes
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: IRQL < DISPATCH_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+ - ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 ---
 
 # IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES IOCTL
+
 
 ## -description
 
@@ -89,3 +89,4 @@ See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/d
 [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_manage_data_set_attributes)
 
 [DEVICE_DSM_OUTPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_manage_data_set_attributes_output)
+

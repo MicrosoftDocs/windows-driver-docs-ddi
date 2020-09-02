@@ -6,10 +6,8 @@ old-location: netvista\ipsec_offload_v2_add_sa.htm
 tech.root: netvista
 ms.assetid: 78c5e765-40e5-47f0-8460-a86124fb43d8
 ms.date: 05/02/2018
-keywords: ["_IPSEC_OFFLOAD_V2_ADD_SA structure"]
+keywords: ["IPSEC_OFFLOAD_V2_ADD_SA structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ADD_SA, IPSEC_OFFLOAD_V2_ADD_SA, IPSEC_OFFLOAD_V2_ADD_SA structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ADD_SA, PIPSEC_OFFLOAD_V2_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ADD_SA, ndis/IPSEC_OFFLOAD_V2_ADD_SA, ndis/PIPSEC_OFFLOAD_V2_ADD_SA, netvista.ipsec_offload_v2_add_sa, task_offload_IPsecv2_ref_0358b0f6-783e-4466-8615-12bd95ce4638.xml"
-f1_keywords:
- - "ndis/IPSEC_OFFLOAD_V2_ADD_SA"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- IPSEC_OFFLOAD_V2_ADD_SA
-product:
-- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_ADD_SA, *PIPSEC_OFFLOAD_V2_ADD_SA
+f1_keywords:
+ - _IPSEC_OFFLOAD_V2_ADD_SA
+ - ndis/_IPSEC_OFFLOAD_V2_ADD_SA
+ - PIPSEC_OFFLOAD_V2_ADD_SA
+ - ndis/PIPSEC_OFFLOAD_V2_ADD_SA
+ - IPSEC_OFFLOAD_V2_ADD_SA
+ - ndis/IPSEC_OFFLOAD_V2_ADD_SA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - IPSEC_OFFLOAD_V2_ADD_SA
 ---
 
 # _IPSEC_OFFLOAD_V2_ADD_SA structure
@@ -47,17 +50,12 @@ req.typenames: IPSEC_OFFLOAD_V2_ADD_SA, *PIPSEC_OFFLOAD_V2_ADD_SA
 
 ## -description
 
-
 <p class="CCE_Message">[The IPsec Task Offload feature is deprecated and should not be used.]
 
 The <b>IPSEC_OFFLOAD_V2_ADD_SA</b> structure defines information about a security association (SA) that a
   miniport driver should add to a NIC.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -69,12 +67,10 @@ The
      <b>Revision</b> member to NDIS_IPSEC_OFFLOAD_V2_ADD_SA_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_IPSEC_OFFLOAD_V2_ADD_SA_REVISION_1.
 
-
 ### -field Next
 
 A pointer to an IPSEC_OFFLOAD_V2_ADD_SA structure that is the next structure in a linked list. If
      the pointer is <b>NULL</b>, the current structure is the last structure in the list.
-
 
 ### -field NumExtHdrs
 
@@ -147,8 +143,6 @@ UDP ESP
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -172,36 +166,29 @@ If this flag is set, the addresses are IPv6. Otherwise, the addresses are IPv4
 
 If this flag is set, the SA is inbound. Otherwise, the SA is outbound.
 
-
 ### -field IPv4Endpoints
 
 The IPv4 endpoint addresses. This structure contains the following members:
-
 
 ### -field IPv4Endpoints.SrcAddr
 
 The IPv4 address of the source host (the host that is sending the packets).
 
-
 ### -field IPv4Endpoints.DestAddr
 
 The IPv4 address of the destination host (the host that is receiving the packets).
-
 
 ### -field IPv6Endpoints
 
 The IPv6 endpoint addresses. This structure contains the following members:
 
-
 ### -field IPv6Endpoints.SrcAddr
 
 The IPv6 address of the source host (the host that is sending the packets).
 
-
 ### -field IPv6Endpoints.DestAddr
 
 The IPv6 address of the destination host (the host that is receiving the packets).
-
 
 ### -field OffloadHandle
 
@@ -215,7 +202,6 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      miniport driver. The TCP/IP transport must also specify this handle when deleting the SA with an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
      OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a> request.
-
 
 ### -field UdpEspEncapsulation
 
@@ -257,7 +243,6 @@ The tunnel-mode portion of a packet is UDP-encapsulated. The transport-mode port
 The tunnel-mode portion of a packet is not UDP-encapsulated. The transport-mode portion of a
        packet is UDP-encapsulated and ESP-protected.
 
-
 ### -field SecAssoc
 
 An array with two elements that contain the information about the IPsec operations (AH, ESP, or
@@ -275,12 +260,10 @@ The TCP/IP transport specifies one or two IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION 
      in which the miniport driver should perform the operations for each SA. Only one combination of
      operations is supported: encryption/decryption (ESP) followed by authentication (AH).
 
-
 ### -field KeyLength
 
 The length, in bytes, of the buffer at 
      <b>KeyData</b> .
-
 
 ### -field KeyData
 
@@ -295,10 +278,7 @@ A variable-length array that contains keys for the SAs that are specified at
      <b>KeyOffsetBytes</b> and 
      <b>KeyLength</b> members, respectively.
 
-
 ## -remarks
-
-
 
 This structure is obsolete, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa_ex">IPSEC_OFFLOAD_V2_ADD_SA_EX</a> instead.
 
@@ -319,13 +299,7 @@ If a member is set to zero, that parameter is not used to filter packets for the
     If all of the filter parameters are set to zero, the specified SAs apply to any source host that is
     sending any type of packet to any destination host.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa_ex">IPSEC_OFFLOAD_V2_ADD_SA_EX</a>
 
@@ -362,7 +336,4 @@ If a member is set to zero, that parameter is not used to filter packets for the
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
- 
-
- 
 

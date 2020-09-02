@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3dkmddi/DXGKDDI_BEGINEXCLUSIVEACCESS"
+ - DXGKDDI_BEGINEXCLUSIVEACCESS
+ - d3dkmddi/DXGKDDI_BEGINEXCLUSIVEACCESS
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # DXGKDDI_BEGINEXCLUSIVEACCESS callback function
+
 
 ## -description
 

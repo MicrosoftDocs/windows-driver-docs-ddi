@@ -8,8 +8,6 @@ ms.assetid: ed91d41a-575d-4b26-a7e0-f3ce43db76b4
 ms.date: 03/29/2018
 keywords: ["StorPortReleaseSpinLock function"]
 ms.keywords: StorPortReleaseSpinLock, StorPortReleaseSpinLock routine [Storage Devices], storage.storportreleasespinlock, storport/StorPortReleaseSpinLock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml
-f1_keywords:
- - "storport/StorPortReleaseSpinLock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortReleaseSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortReleaseSpinLock
+ - storport/StorPortReleaseSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortReleaseSpinLock
 ---
 
 # StorPortReleaseSpinLock function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceExtension
 
 <p>Pointer to a per-adapter device extension.</p>
 
+### -param LockHandle 
 
-### -param LockHandle [in, out]
-
+[in, out]
 Pointer to a lock handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: b685f2f5-3491-471d-b1da-07a7e56bda62
 ms.date: 07/08/2019
 keywords: ["KSAUDIO_MIXLEVEL structure"]
 ms.keywords: "*PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], PKSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, audio.ksaudio_mixlevel, ksmedia/KSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL"
-f1_keywords:
- - "ksmedia/KSAUDIO_MIXLEVEL"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_MIXLEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL
+f1_keywords:
+ - PKSAUDIO_MIXLEVEL
+ - ksmedia/PKSAUDIO_MIXLEVEL
+ - KSAUDIO_MIXLEVEL
+ - ksmedia/KSAUDIO_MIXLEVEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_MIXLEVEL
 ---
 
 # KSAUDIO_MIXLEVEL structure
@@ -47,28 +48,19 @@ req.typenames: KSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL
 
 ## -description
 
-
 The KSAUDIO_MIXLEVEL structure specifies the mixing level of an input-output path in a supermixer node (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-supermix">KSNODETYPE_SUPERMIX</a>).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Mute
 
 Specifies whether the input channel is muted (not mixed) as it flows into the output channel. A value of <b>TRUE</b> indicates that the channel is muted. A value of <b>FALSE</b> indicates that the channel's mix level is specified by the <b>Level</b> member.
 
-
 ### -field Level
 
 Specifies the mix level that is applied to the input channel as it flows into the output channel. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 A KSAUDIO_MIXLEVEL structure specifies the volume level of a particular data path from one input channel of a supermixer node to an output channel of the same node. An array of these structures is needed to specify the volume levels for all the input-output paths through a supermixer node.
 
@@ -86,13 +78,7 @@ A decibel range represented by integer values -2147483648 to +2147483647, where
 
 This scale has a resolution of 1/65536 decibel.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-supermix">KSNODETYPE_SUPERMIX</a>
 
@@ -103,7 +89,4 @@ This scale has a resolution of 1/65536 decibel.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
- 
-
- 
 

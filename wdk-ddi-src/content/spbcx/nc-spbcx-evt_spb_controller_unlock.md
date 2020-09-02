@@ -8,8 +8,6 @@ ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_CONTROLLER_UNLOCK callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
-f1_keywords:
- - "spbcx/EvtSpbControllerUnlock"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Spbcx.h
-api_name:
-- EvtSpbControllerUnlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SPB_CONTROLLER_UNLOCK
+ - spbcx/EVT_SPB_CONTROLLER_UNLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Spbcx.h
+api_name:
+ - EvtSpbControllerUnlock
 ---
 
 # EVT_SPB_CONTROLLER_UNLOCK callback function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 An SPB controller driver's <i>EvtSpbControllerUnlock</i> event callback function unlocks the SPB controller, which was locked by a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock">EvtSpbControllerLock</a> event callback function.
-
 
 ## -parameters
 
+### -param Controller 
 
-
-
-### -param Controller [in]
-
+[in]
 A WDFDEVICE handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
+### -param Target 
 
-### -param Target [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
 
+### -param UnlockRequest 
 
-### -param UnlockRequest [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to an I/O control request to unlock the controller. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 SpbCx manages the I/O queue for the SPB controller. SpbCx calls this function when a client (peripheral driver) of the controller sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a> request to a target on the bus. The <i>UnlockRequest</i> parameter value is a handle that encapsulates this request.
 
@@ -129,12 +121,7 @@ The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header fil
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock">EvtSpbControllerLock</a>
 
@@ -157,7 +144,4 @@ The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header fil
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
- 
-
- 
 

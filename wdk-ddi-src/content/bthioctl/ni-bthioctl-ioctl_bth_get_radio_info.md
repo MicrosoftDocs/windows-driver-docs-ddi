@@ -8,8 +8,6 @@ ms.assetid: 45803e80-6090-4b64-8c92-6b5efebd1cfc
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_GET_RADIO_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_RADIO_INFO, IOCTL_BTH_GET_RADIO_INFO control, IOCTL_BTH_GET_RADIO_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_radio_info, bth_ioctls_ed6699c7-3a05-46bd-ba8b-d138ce1ad751.xml, bthioctl/IOCTL_BTH_GET_RADIO_INFO
-f1_keywords:
- - "bthioctl/IOCTL_BTH_GET_RADIO_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_GET_RADIO_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_GET_RADIO_INFO
+ - bthioctl/IOCTL_BTH_GET_RADIO_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_GET_RADIO_INFO
 ---
 
 # IOCTL_BTH_GET_RADIO_INFO IOCTL
@@ -47,17 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_BTH_GET_RADIO_INFO request obtains information about the specified remote radio.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -65,11 +56,9 @@ The
       <b>AssociatedIrp.SystemBuffer</b> member specifies the Bluetooth address of the remote radio to
       query.
 
-
 ### -input-buffer-length
 
 The length of the buffer.
-
 
 ### -output-buffer
 
@@ -79,30 +68,14 @@ The
       contains information about the remote radio's feature support for the Link Management Protocol (LMP),
       the radio's manufacturer ID, and its LMP version.
 
-
 ### -output-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure. 
-
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -140,26 +113,13 @@ The device object for the specified device was not connected.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The IOCTL_BTH_GET_RADIO_INFO IOCTL returns similar information as the IOCTL_BTH_GET_LOCAL_INFO IOCTL,
     but for a remote Bluetooth radio.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a>
- 
-
- 
 

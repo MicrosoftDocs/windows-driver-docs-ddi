@@ -8,8 +8,6 @@ ms.assetid: 8C6356A2-9E4A-4654-9FB3-EC11894A24AB
 ms.date: 04/30/2018
 keywords: ["RtlULongLongToChar function"]
 ms.keywords: RtlULongLongToChar, RtlULongLongToChar function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtochar, ntintsafe/RtlULongLongToChar
-f1_keywords:
- - "ntintsafe/RtlULongLongToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongLongToChar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongLongToChar
+ - ntintsafe/RtlULongLongToChar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongLongToChar
 ---
 
 # RtlULongLongToChar function
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONGLONG</b> to a value of type <b>CHAR</b>.
-
 
 ## -parameters
 
+### -param ullOperand 
 
-
-
-### -param ullOperand [in]
-
+[in]
 The value to be converted.
 
+### -param pch 
 
-### -param pch [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

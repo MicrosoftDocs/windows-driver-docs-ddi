@@ -6,10 +6,8 @@ old-location: netvista\fwps_connect_request0.htm
 tech.root: netvista
 ms.assetid: dee5586d-62fd-4e08-854c-c7d44be60a71
 ms.date: 05/02/2018
-keywords: ["_FWPS_CONNECT_REQUEST0 structure"]
+keywords: ["FWPS_CONNECT_REQUEST0 structure"]
 ms.keywords: FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_CONNECT_REQUEST0, fwpsk/FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0, wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml
-f1_keywords:
- - "fwpsk/FWPS_CONNECT_REQUEST0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -27,26 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_CONNECT_REQUEST0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_CONNECT_REQUEST0
+f1_keywords:
+ - _FWPS_CONNECT_REQUEST0
+ - fwpsk/_FWPS_CONNECT_REQUEST0
+ - FWPS_CONNECT_REQUEST0
+ - fwpsk/FWPS_CONNECT_REQUEST0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_CONNECT_REQUEST0
 ---
 
 # _FWPS_CONNECT_REQUEST0 structure
 
 
 ## -description
-
 
 The <b>FWPS_CONNECT_REQUEST0</b> structure defines modifiable data for the
   <b>FWPM_LAYER_ALE_AUTH_CONNECT_REDIRECT_V4</b> and <b>FWPM_LAYER_ALE_AUTH_CONNECT_REDIRECT_V6</b> layers. The callout
@@ -55,22 +55,17 @@ The <b>FWPS_CONNECT_REQUEST0</b> structure defines modifiable data for the
 
 ## -struct-fields
 
-
-
-
 ### -field localAddressAndPort
 
 The local transport address of the connect request. This is an IPV4 or IPV6 address and TCP port
      formatted as a 
      <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
 
-
 ### -field remoteAddressAndPort
 
 The remote transport address of the connect request. This is an IPV4 or IPV6 address and TCP/UDP
      port formatted as a 
      <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
-
 
 ### -field portReservationToken
 
@@ -79,7 +74,6 @@ A token used to reserve the appropriate port. The token is obtained when a port 
      <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> or 
      <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>.
 
-
 ### -field localRedirectTargetPID
 
 The process identifier of the local host process that will be handling traffic to the address
@@ -87,13 +81,11 @@ The process identifier of the local host process that will be handling traffic t
      <b>localAddressAndPort</b>. This value must be set for loopback redirect changes to be accepted by the
      engine.
 
-
 ### -field previousVersion
 
 The previous version of the connect request data. This read-only field records the modification history of the connect request. If the connect
      request data has not been previously modified by another WFP filter, 
      <i>previousVersion</i> will be set to <b>NULL</b>.
-
 
 ### -field modifierFilterId
 
@@ -103,7 +95,6 @@ The value of the
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
-
 
 ### -field localRedirectHandle
 
@@ -128,8 +119,6 @@ The    size, in bytes, of the callout-supplied context area.
 <div> </div>
 
 ## -remarks
-
-
 
 The callout driver obtains this structure by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
@@ -167,13 +156,7 @@ This structure acts as a linked list that contains a record of all the changes m
     must continue to examine the 
     <b>previousVersion</b> member of each structure in the list until it is set to <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
@@ -206,7 +189,4 @@ This structure acts as a linked list that contains a record of all the changes m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

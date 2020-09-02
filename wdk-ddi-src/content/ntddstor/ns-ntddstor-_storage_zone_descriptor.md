@@ -6,10 +6,8 @@ old-location: storage\storage_zone_descriptor.htm
 tech.root: storage
 ms.assetid: 33AE6D40-F54D-427D-B811-2188EA623A26
 ms.date: 03/29/2018
-keywords: ["_STORAGE_ZONE_DESCRIPTOR structure"]
+keywords: ["STORAGE_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], _STORAGE_ZONE_DESCRIPTOR, ntddstor/PSTORAGE_ZONE_DESCRIPTOR, ntddstor/STORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor"
-f1_keywords:
- - "ntddstor/STORAGE_ZONE_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_ZONE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR
+f1_keywords:
+ - _STORAGE_ZONE_DESCRIPTOR
+ - ntddstor/_STORAGE_ZONE_DESCRIPTOR
+ - PSTORAGE_ZONE_DESCRIPTOR
+ - ntddstor/PSTORAGE_ZONE_DESCRIPTOR
+ - STORAGE_ZONE_DESCRIPTOR
+ - ntddstor/STORAGE_ZONE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_ZONE_DESCRIPTOR
 ---
 
 # _STORAGE_ZONE_DESCRIPTOR structure
@@ -47,47 +50,30 @@ req.typenames: STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 N/A
 
-
 ### -field ZoneType
 
 N/A
 
-
 ### -field ZoneCondition
 
- 
-
-
 ### -field ResetWritePointerRecommend
-
- 
-
 
 ### -field Reserved0
 
 N/A
 
-
 ### -field ZoneSize
 
 N/A
-
 
 ### -field WritePointerOffset
 

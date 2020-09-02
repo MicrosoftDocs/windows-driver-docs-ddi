@@ -4,38 +4,40 @@ title: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY (d3dkmthk.h)
 description: Multiplane overlay stretch quality.
 ms.assetid: 3591496e-cc49-43b1-b048-1f37e96159fd
 ms.date: 10/19/2018
-keywords: ["_DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration"]
-f1_keywords:
- - "d3dkmthk/_DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY"
-ms.keywords: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY, 
+keywords: ["DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration"]
+ms.keywords: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+ - d3dkmthk/_DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+ - DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+ - d3dkmthk/DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration
+
 
 ## -description
 
@@ -54,3 +56,4 @@ High quality.
 ## -remarks
 
 ## -see-also
+

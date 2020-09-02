@@ -8,38 +8,37 @@ ms.assetid: 17fe6e28-59ce-4678-8268-b49cef09a3db
 ms.date: 02/24/2018
 keywords: ["SRIOV_QUERY_VF_LUID callback"]
 ms.keywords: "*PSRIOV_QUERY_VF_LUID, *PSRIOV_QUERY_VF_LUID callback function pointer [Buses], PCI.sriov_query_vf_luid, SRIOV_QUERY_VF_LUID, SriovQueryVfLuid, SriovQueryVfLuid callback function [Buses], pcivirt/SriovQueryVfLuid"
-f1_keywords:
- - "pcivirt/*PSRIOV_QUERY_VF_LUID"
 req.header: pcivirt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- pcivirt.h
-api_name:
-- PSRIOV_QUERY_VF_LUID
-product:
-- Windows
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+f1_keywords:
+ - SRIOV_QUERY_VF_LUID
+ - pcivirt/SRIOV_QUERY_VF_LUID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - pcivirt.h
+api_name:
+ - PSRIOV_QUERY_VF_LUID
 ---
 
 # SRIOV_QUERY_VF_LUID callback
@@ -47,12 +46,31 @@ req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 
 ## -description
 
-
 Gets the local unique identifier of the PCI Express SR-IOV Virtual Function (VF).
 
+## -parameters
+
+### -param Context 
+
+[in]
+A pointer to a driver-defined context.
+
+### -param VfIndex 
+
+[in]
+A zero-based index of the VF that is being queried.
+
+### -param Luid 
+
+[out]
+A pointer to the local unique
+identifier of the SR_IOV device implementing the interface.
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -prototype
-
 
 ```cpp
 SRIOV_QUERY_VF_LUID SriovQueryVfLuid;
@@ -67,43 +85,7 @@ NTSTATUS SriovQueryVfLuid(
 typedef SRIOV_QUERY_VF_LUID *PSRIOV_QUERY_VF_LUID;
 ```
 
-
-## -parameters
-
-
-
-
-### -param Context [in]
-
-A pointer to a driver-defined context.
-
-
-
-
-### -param VfIndex [in]
-
-A zero-based index of the VF that is being queried.
-
-
-### -param Luid [out]
-
-A pointer to the local unique
-identifier of the SR_IOV device implementing the interface.
-
-
-## -returns
-
-
-
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to get the identifier of a specific virtual function.
 
@@ -138,5 +120,4 @@ Virtualization_QueryLuid (
 </td>
 </tr>
 </table></span></div>
-
 

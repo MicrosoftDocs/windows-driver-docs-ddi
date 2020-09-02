@@ -6,10 +6,8 @@ old-location: serports\serial_timeouts.htm
 tech.root: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.date: 04/23/2018
-keywords: ["_SERIAL_TIMEOUTS structure"]
+keywords: ["SERIAL_TIMEOUTS structure"]
 ms.keywords: "*PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, serports.serial_timeouts"
-f1_keywords:
- - "ntddser/SERIAL_TIMEOUTS"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- SERIAL_TIMEOUTS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
+f1_keywords:
+ - _SERIAL_TIMEOUTS
+ - ntddser/_SERIAL_TIMEOUTS
+ - PSERIAL_TIMEOUTS
+ - ntddser/PSERIAL_TIMEOUTS
+ - SERIAL_TIMEOUTS
+ - ntddser/SERIAL_TIMEOUTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - SERIAL_TIMEOUTS
 ---
 
 # _SERIAL_TIMEOUTS structure
@@ -47,43 +50,31 @@ req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
 
 ## -description
 
-
 The <b>SERIAL_TIMEOUTS</b> structure specifies the time-out parameters for read and write operations by the serial port.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ReadIntervalTimeout
 
 The maximum amount of time, in milliseconds, that is allowed between two consecutive bytes in a read operation. A read operation that exceeds this maximum times out. This maximum does not apply to the time interval that precedes the reading of the first byte. A value of zero indicates that interval time-outs are not used. For more information, see Remarks.
 
-
 ### -field ReadTotalTimeoutMultiplier
 
 The maximum amount of time, in milliseconds, that is allowed per byte in a read operation. A read operation that exceeds this maximum times out. For more information, see Remarks.
-
 
 ### -field ReadTotalTimeoutConstant
 
 The maximum amount of additional time, in milliseconds, that is allowed per read operation. A read operation that exceeds this maximum times out. For more information, see Remarks.
 
-
 ### -field WriteTotalTimeoutMultiplier
 
 The maximum total time, in milliseconds, that is allowed per byte in a write operation. A write operation that exceeds this maximum times out. For more information, see Remarks.
-
 
 ### -field WriteTotalTimeoutConstant
 
 The maximum amount of additional time, in milliseconds, that is allowed per write operation. A write operation that exceeds this maximum times out. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 The <b>SERIAL_TIMEOUTS</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_timeouts">IOCTL_SERIAL_SET_TIMEOUTS</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_timeouts">IOCTL_SERIAL_GET_TIMEOUTS</a> I/O control requests. An <b>IOCTL_SERIAL_SET_TIMEOUTS</b> I/O control request uses this structure to specify a set of time-out parameters for the serial port to use for read and write operations. An <b>IOCTL_SERIAL_GET_TIMEOUTS</b> I/O control request uses this structure to retrieve the time-out parameters that were set by the previous <b>IOCTL_SERIAL_SET_TIMEOUTS</b> request.
 
@@ -139,13 +130,7 @@ The <b>SERIAL_TIMEOUTS</b> structure is similar to the <a href="https://docs.mic
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/ff547486(v=vs.85)">Setting Read and Write Timeouts for a Serial Device</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a>
 
@@ -172,7 +157,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
- 
-
- 
 

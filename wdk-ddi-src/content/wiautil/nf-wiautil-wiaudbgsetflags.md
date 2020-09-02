@@ -8,8 +8,6 @@ ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.date: 05/03/2018
 keywords: ["wiauDbgSetFlags macro"]
 ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags
-f1_keywords:
- - "wiautil/wiauDbgSetFlags"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiautil.h
-api_name:
-- wiauDbgSetFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgSetFlags
+ - wiautil/wiauDbgSetFlags
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiautil.h
+api_name:
+ - wiauDbgSetFlags
 ---
 
 # wiauDbgSetFlags macro
+
 
 ## -description
 
@@ -71,3 +71,4 @@ The **wiauDbgSetFlags** function sets debugging flags.
 ## -see-also
 
 [wiauDbgFlags](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgflags)
+

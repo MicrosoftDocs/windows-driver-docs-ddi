@@ -8,8 +8,6 @@ ms.assetid: 23a9ab2a-be8e-40ff-8654-adf170adc6f2
 ms.date: 02/26/2018
 keywords: ["WdfPdoAddEjectionRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, WdfPdoAddEjectionRelationsPhysicalDevice, WdfPdoAddEjectionRelationsPhysicalDevice method, kmdf.wdfpdoaddejectionrelationsphysicaldevice, wdf.wdfpdoaddejectionrelationsphysicaldevice, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
-f1_keywords:
- - "wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoAddEjectionRelationsPhysicalDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoAddEjectionRelationsPhysicalDevice
+ - wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoAddEjectionRelationsPhysicalDevice
 ---
 
 # WdfPdoAddEjectionRelationsPhysicalDevice function
@@ -48,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoAddEjectionRelationsPhysicalDevice</b> method indicates that a specified device is ejected when another specified device is ejected.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param PhysicalDevice 
 
-### -param PhysicalDevice [in]
-
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
-
 ## -returns
-
-
 
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
 
@@ -109,12 +101,7 @@ The method might also return other<a href="https://docs.microsoft.com/windows-ha
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 The <i>PhysicalDevice</i> parameter points to a PDO of a device that is ejected when the device that is identified by <i>Device</i> is ejected. Typically, both devices are controlled by the calling driver. Do not report the child devices of <i>Device</i> because when the PnP manager ejects a parent device, it also ejects the device's children.
 
@@ -135,19 +122,11 @@ status = WdfPdoAddEjectionRelationsPhysicalDevice(
                                                   );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoclearejectionrelationsdevices">WdfPdoClearEjectionRelationsDevices</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
- 
-
- 
 

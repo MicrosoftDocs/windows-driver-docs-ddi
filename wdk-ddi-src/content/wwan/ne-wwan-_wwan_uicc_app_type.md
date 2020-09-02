@@ -5,35 +5,39 @@ description: The WWAN_UICC_APP_TYPE enumeration specifies the type for a UICC ap
 tech.root: netvista
 ms.assetid: 32EA323E-E02A-4194-88F3-A18BDA4816AB
 ms.date: 04/08/2019
-keywords: ["_WWAN_UICC_APP_TYPE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_UICC_APP_TYPE"
-ms.keywords: _WWAN_UICC_APP_TYPE, WWAN_UICC_APP_TYPE, *PWWAN_UICC_APP_TYPE, 
+keywords: ["WWAN_UICC_APP_TYPE enumeration"]
+ms.keywords: _WWAN_UICC_APP_TYPE, WWAN_UICC_APP_TYPE, *PWWAN_UICC_APP_TYPE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_UICC_APP_TYPE, *PWWAN_UICC_APP_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_UICC_APP_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_UICC_APP_TYPE
+ - wwan/_WWAN_UICC_APP_TYPE
+ - PWWAN_UICC_APP_TYPE
+ - wwan/PWWAN_UICC_APP_TYPE
+ - WWAN_UICC_APP_TYPE
+ - wwan/WWAN_UICC_APP_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_UICC_APP_TYPE
 ---
 
 # _WWAN_UICC_APP_TYPE enumeration
+
 
 ## -description
 
@@ -84,3 +88,4 @@ This enumeration is used in the [**WWAN_UICC_APP_INFO**](../wwan/ns-wwan-_wwan_u
 [OID_WWAN_UICC_APP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-app-list)
 
 [**WWAN_UICC_APP_INFO**](../wwan/ns-wwan-_wwan_uicc_app_info.md)
+

@@ -6,38 +6,37 @@ description: Instructs the class extension to stop sending requests to the clien
 ms.assetid: 851fee56-96fc-4ec0-b9e6-7933463eac61
 ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmStop function"]
-f1_keywords:
- - "ucmucsippm/UcmUcsiPpmStop"
 ms.keywords: UcmUcsiPpmStop
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
 req.umdf-ver: N/A
 req.lib: UcmUcsiCxStub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- UcmUcsiCxStub.lib
-api_name: 
-- UcmUcsiPpmStop
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - UcmUcsiPpmStop
+ - ucmucsippm/UcmUcsiPpmStop
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - UcmUcsiCxStub.lib
+api_name:
+ - UcmUcsiPpmStop
 ---
 
 # UcmUcsiPpmStop function
@@ -49,8 +48,9 @@ Instructs the UcmUcsiCx class extension to stop sending requests to the client d
 
 ## -parameters
 
-### -param PpmObject [in]
-A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
+### -param PpmObject 
+
+[in]A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
 
 ## -remarks
 
@@ -60,6 +60,7 @@ The client driver is expected to call this DDI on driver unload. This call indic
 
 Because **UcmUcsiPpmStop** relies on sending UCSI commands to PPM over the power-managed WDFQUEUE provided by the client driver, an attempt to call this function from [EVT_WDF_DEVICE_D0_EXIT](../wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit.md) callback results in a failure. That is because at this time, the dispatch gates for the queue are closed.
 
-After the **UcmUcsiPpmStop** returns, [**UcmUcsiPpmStart**](nf-ucmucsippm-ucmucsippmstart.md) can be called to start the PPM again.  
+After the **UcmUcsiPpmStop** returns, [**UcmUcsiPpmStart**](nf-ucmucsippm-ucmucsippmstart.md) can be called to start the PPM again.
 
 ## -see-also
+

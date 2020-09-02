@@ -6,10 +6,8 @@ old-location: debugger\debug_last_event_info_exit_thread.htm
 tech.root: debugger
 ms.assetid: 1C7E79F2-120A-424B-B4E3-EF202FA90C2A
 ms.date: 05/03/2018
-keywords: ["_DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure"]
+keywords: ["DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_EXIT_THREAD, dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, debugger.debug_last_event_info_exit_thread"
-f1_keywords:
- - "dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgEng.h
-api_name:
-- DEBUG_LAST_EVENT_INFO_EXIT_THREAD
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD
+f1_keywords:
+ - _DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+ - dbgeng/_DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+ - PDEBUG_LAST_EVENT_INFO_EXIT_THREAD
+ - dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_THREAD
+ - DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+ - dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgEng.h
+api_name:
+ - DEBUG_LAST_EVENT_INFO_EXIT_THREAD
 ---
 
 # _DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure
@@ -47,14 +50,9 @@ req.typenames: DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_T
 
 ## -description
 
-
 Describes the exit thread of the last event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ExitCode
 

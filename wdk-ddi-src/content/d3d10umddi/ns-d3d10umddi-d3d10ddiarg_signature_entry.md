@@ -7,8 +7,6 @@ ms.assetid: 9a7a595e-59b1-4cc2-ab09-ba22aebae9ca
 ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_SIGNATURE_ENTRY structure"]
 ms.keywords: D3D10DDIARG_SIGNATURE_ENTRY, D3D10DDIARG_SIGNATURE_ENTRY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8f54c330-f382-4bae-939f-7b96fd9b1a46.xml, d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY, display.d3d10ddiarg_signature_entry
-f1_keywords:
- - "d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D10DDIARG_SIGNATURE_ENTRY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDIARG_SIGNATURE_ENTRY
+f1_keywords:
+ - D3D10DDIARG_SIGNATURE_ENTRY
+ - d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D10DDIARG_SIGNATURE_ENTRY
 ---
 
 # D3D10DDIARG_SIGNATURE_ENTRY structure
@@ -47,14 +46,9 @@ req.typenames: D3D10DDIARG_SIGNATURE_ENTRY
 
 ## -description
 
-
 The D3D10DDIARG_SIGNATURE_ENTRY structure describes an entry for a signature.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SystemValue
 
@@ -72,26 +66,16 @@ The D3D10DDIARG_SIGNATURE_ENTRY structure describes an entry for a signature.
 |D3D10_SB_NAME_PRIMITIVE_ID (7)|Primitive ID.|
 |D3D10_SB_NAME_INSTANCE_ID (8)|Instance ID.|
 |D3D10_SB_NAME_IS_FRONT_FACE (9)|Is front face.|
- 
-
 
 ### -field Register
 
 [in] The number of the register for the signature entry.
 
-
 ### -field Mask
 
 [in] The xyzw mask for the signature entry. The four least significant bits (LSBs) of the mask represent xyzw respectively.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_stage_io_signatures">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
- 
-
- 
 

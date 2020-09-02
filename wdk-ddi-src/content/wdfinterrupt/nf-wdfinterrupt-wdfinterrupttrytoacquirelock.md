@@ -8,8 +8,6 @@ ms.assetid: 272165BE-3DF2-410C-B60A-31B48A3F3231
 ms.date: 02/26/2018
 keywords: ["WdfInterruptTryToAcquireLock function"]
 ms.keywords: WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock method, kmdf.wdfinterrupttrytoacquirelock, wdf.wdfinterrupttrytoacquirelock, wdfinterrupt/WdfInterruptTryToAcquireLock
-f1_keywords:
- - "wdfinterrupt/WdfInterruptTryToAcquireLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfInterruptTryToAcquireLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfInterruptTryToAcquireLock
+ - wdfinterrupt/WdfInterruptTryToAcquireLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfInterruptTryToAcquireLock
 ---
 
 # WdfInterruptTryToAcquireLock function
@@ -50,34 +49,22 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
- The <b>WdfInterruptTryToAcquireLock</b> method attempts to acquire an interrupt object's passive lock. 
-
+ The <b>WdfInterruptTryToAcquireLock</b> method attempts to acquire an interrupt object's passive lock.
 
 ## -parameters
 
+### -param Interrupt 
 
-
-
-### -param Interrupt [in]
-
+[in]
 A handle to a framework interrupt object.
-
 
 ## -returns
 
-
-
 <b>WdfInterruptTryToAcquireLock</b> returns TRUE if it successfully acquires the interrupt’s lock. Otherwise, the method returns FALSE.
 
-
-
-
 ## -remarks
-
-
 
 Drivers that use <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-passive-level-interrupts">passive-level interrupt handling</a> call <b>WdfInterruptTryToAcquireLock</b> to start a code sequence that executes at IRQL = PASSIVE_LEVEL while holding the passive-level interrupt lock that the driver configured in the interrupt object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config">WDF_INTERRUPT_CONFIG</a> structure.
 
@@ -167,12 +154,7 @@ EvtReadWorkItemCallback(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_workitem">EvtInterruptWorkItem</a>
 
@@ -199,7 +181,4 @@ EvtReadWorkItemCallback(
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551168">WdfWaitLockAcquire</a>
- 
-
- 
 

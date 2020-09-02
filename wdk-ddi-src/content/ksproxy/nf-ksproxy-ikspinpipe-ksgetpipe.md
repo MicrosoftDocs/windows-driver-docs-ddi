@@ -8,8 +8,6 @@ ms.assetid: 5672C7E2-83AA-4BDC-BE60-E2BC54BD636F
 ms.date: 04/23/2018
 keywords: ["IKsPinPipe::KsGetPipe"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipe method, IKsPinPipe.KsGetPipe, IKsPinPipe::KsGetPipe, KsGetPipe, KsGetPipe method [Streaming Media Devices], KsGetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipe, stream.ikspinpipe_ksgetpipe
-f1_keywords:
- - "ksproxy/IKsPinPipe.KsGetPipe"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPinPipe.KsGetPipe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPinPipe::KsGetPipe
+ - ksproxy/IKsPinPipe::KsGetPipe
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPinPipe.KsGetPipe
 ---
 
 # IKsPinPipe::KsGetPipe
@@ -47,40 +46,19 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Not recommended for application use.
 
-
 ## -parameters
-
-
-
 
 ### -param Operation
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinpipe">IKsPinPipe</a>
- 
-
- 
 

@@ -5,10 +5,8 @@ author: windows-driver-content
 description: The HDAUDIO_DEVICE_INFORMATION_V2 structure specifies the hardware capabilities of the HD Audio bus controller.
 tech.root: audio
 ms.date: 02/01/2019
-keywords: ["_HDAUDIO_DEVICE_INFORMATION_V2 structure"]
+keywords: ["HDAUDIO_DEVICE_INFORMATION_V2 structure"]
 ms.keywords: "*PHDAUDIO_DEVICE_INFORMATION_V2, HDAUDIO_DEVICE_INFORMATION_V2, HDAUDIO_DEVICE_INFORMATION_V2 structure [Audio Devices], PHDAUDIO_DEVICE_INFORMATION_V2, PHDAUDIO_DEVICE_INFORMATION_V2 structure pointer [Audio Devices], _HDAUDIO_DEVICE_INFORMATION_V2, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, audio.HDAUDIO_DEVICE_INFORMATION_V2, hdaudio/HDAUDIO_DEVICE_INFORMATION_V2, hdaudio/PHDAUDIO_DEVICE_INFORMATION_V2"
-f1_keywords:
- - "hdaudio/HDAUDIO_DEVICE_INFORMATION_V2"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows
@@ -26,20 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hdaudio.h
-api_name:
-- HDAUDIO_DEVICE_INFORMATION_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_DEVICE_INFORMATION_V2, *PHDAUDIO_DEVICE_INFORMATION_V2
-ms.custom: 19H1 
+ms.custom: 19H1
+f1_keywords:
+ - _HDAUDIO_DEVICE_INFORMATION_V2
+ - hdaudio/_HDAUDIO_DEVICE_INFORMATION_V2
+ - PHDAUDIO_DEVICE_INFORMATION_V2
+ - hdaudio/PHDAUDIO_DEVICE_INFORMATION_V2
+ - HDAUDIO_DEVICE_INFORMATION_V2
+ - hdaudio/HDAUDIO_DEVICE_INFORMATION_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hdaudio.h
+api_name:
+ - HDAUDIO_DEVICE_INFORMATION_V2
 ---
 
 # _HDAUDIO_DEVICE_INFORMATION_V2 structure
@@ -48,7 +51,6 @@ ms.custom: 19H1
 ## -description
 
 The _HDAUDIO_DEVICE_INFORMATION_V2 structure specifies the hardware capabilities of the HD Audio bus controller.
-
 
 ## -struct-fields
 
@@ -60,16 +62,13 @@ Specifies the size in bytes of the _HDAUDIO_DEVICE_INFORMATION_V2 structure.
 
 Specifies the HD Audio controller device version.
 
-
 ### -field DriverVersion
 
 Specifies the HD Audio bus driver version.
 
-
 ### -field CodecsDetected
 
 Specifies the number of codecs that the HD Audio controller detects on the HD Audio Link.
-
 
 ### -field IsStripingSupported
 
@@ -86,8 +85,6 @@ HDA controller vendor ID.
 ### -field - CtrlDeviceId
 
 HDA controller device ID.
-
-
 
 ## -remarks
 
@@ -107,14 +104,9 @@ status = m_BusIntV3->GetDeviceInformation(m_BusIntV3->Context, (PHDAUDIO_DEVICE_
 
 The [GetDeviceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information) routine uses the _HDAUDIO_DEVICE_INFORMATION_V2 structure to provide information about the HD Audio controller's device-specific capabilities to clients.
 
-
 ## -see-also
 
 [HDAUDIO_DEVICE_INFORMATION](ns-hdaudio-_hdaudio_device_information.md) 
 
-[GetDeviceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information) 
-
- 
-
- 
+[GetDeviceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information)
 

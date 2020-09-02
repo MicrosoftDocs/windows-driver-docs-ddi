@@ -8,8 +8,6 @@ ms.assetid: 58B60160-FE04-4EDE-900F-244D0F76E50D
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_PEER_CREATE_IND callback function"]
 ms.keywords: NDIS_WDI_PEER_CREATE_IND, NDIS_WDI_PEER_CREATE_IND callback, NdisWdiPeerCreateIndication, NdisWdiPeerCreateIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerCreateIndication, netvista.ndiswdipeercreateindication
-f1_keywords:
- - "dot11wdi/NdisWdiPeerCreateIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- NdisWdiPeerCreateIndication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_WDI_PEER_CREATE_IND
+ - dot11wdi/NDIS_WDI_PEER_CREATE_IND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NdisWdiPeerCreateIndication
 ---
 
 # NDIS_WDI_PEER_CREATE_IND callback function
@@ -47,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The NdisWdiPeerCreateIndication callback function specifies a peer ID to associate with a peer MAC address.
 
 This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
 
-
 ## -parameters
 
+### -param NdisMiniportDataPathHandle 
 
-
-
-### -param NdisMiniportDataPathHandle [in]
-
+[in]
 The NdisMiniportDataPathHandle passed to IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
+### -param PortId 
 
-### -param PortId [in]
-
+[in]
 The port ID.
 
+### -param PeerId 
 
-### -param PeerId [in]
-
+[in]
 The peer ID. This is used to identify the  peer in subsequent commands and indications.
 
+### -param PeerAddr 
 
-### -param PeerAddr [in]
-
+[in]
 The peer MAC address.
 
-
 ## -remarks
-
-
 
 This must be received and processed prior to exchanging frames with the peer.
 
@@ -92,13 +84,7 @@ To facilitate TDLS implementation in the IHV component, a port operating in STA 
 
 In peer queuing mode, a peer is created with all TIDs paused with <b>WDI_TX_PAUSE_REASON_PEER_CREATE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>
 
@@ -117,7 +103,4 @@ In peer queuing mode, a peer is created with all TIDs paused with <b>WDI_TX_PAUS
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
- 
-
- 
 

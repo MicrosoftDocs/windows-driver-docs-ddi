@@ -8,8 +8,6 @@ ms.assetid: cf2460c5-325f-43c3-a1fe-5b6982234194
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrvCallBack interface"]
 ms.keywords: CallBack_2e94f80e-dde0-4289-8911-a769a909b4d8.xml, IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], IWiaMiniDrvCallBack interface [Imaging Devices],described, image.iwiaminidrvcallback_interface, wiamindr_lh/IWiaMiniDrvCallBack
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrvCallBack"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrvCallBack
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrvCallBack
+ - wiamindr_lh/IWiaMiniDrvCallBack
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrvCallBack
 ---
 
 # IWiaMiniDrvCallBack interface
+
 
 ## -description
 

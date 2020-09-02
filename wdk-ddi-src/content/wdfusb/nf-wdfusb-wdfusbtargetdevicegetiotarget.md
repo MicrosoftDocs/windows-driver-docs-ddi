@@ -8,8 +8,6 @@ ms.assetid: 8c598cb8-083a-459d-b94b-958b7d625c88
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceGetIoTarget function"]
 ms.keywords: DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget method, kmdf.wdfusbtargetdevicegetiotarget, wdf.wdfusbtargetdevicegetiotarget, wdfusb/WdfUsbTargetDeviceGetIoTarget
-f1_keywords:
- - "wdfusb/WdfUsbTargetDeviceGetIoTarget"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetDeviceGetIoTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetDeviceGetIoTarget
+ - wdfusb/WdfUsbTargetDeviceGetIoTarget
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetDeviceGetIoTarget
 ---
 
 # WdfUsbTargetDeviceGetIoTarget function
@@ -50,36 +49,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetDeviceGetIoTarget</b> method returns a handle to the I/O target object that is associated with a specified USB device.
 
-
 ## -parameters
 
+### -param UsbDevice 
 
-
-
-### -param UsbDevice [in]
-
+[in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-
 ## -returns
-
-
 
 The <b>WdfUsbTargetDeviceGetIoTarget</b> method returns a handle to an I/O target object.
 
 A bug check occurs if a driver-supplied object handle is invalid.
 
-
-
-
 ## -remarks
-
-
 
 For more information about the <b>WdfUsbTargetDeviceGetIoTarget</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets">USB I/O Targets</a>.
 
@@ -96,19 +83,11 @@ status = WdfRequestCreate(
                           );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipegetiotarget">WdfUsbTargetPipeGetIoTarget</a>
- 
-
- 
 

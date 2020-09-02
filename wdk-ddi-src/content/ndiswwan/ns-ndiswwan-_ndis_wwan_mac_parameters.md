@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_mac_parameters.htm
 tech.root: netvista
 ms.assetid: 661DA853-E848-4FEB-995F-EC5F20CE36EB
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_MAC_PARAMETERS structure"]
+keywords: ["NDIS_WWAN_MAC_PARAMETERS structure"]
 ms.keywords: "*PNDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_PARAMETERS, PNDIS_WWAN_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_PARAMETERS, ndiswwan/NDIS_WWAN_MAC_PARAMETERS, ndiswwan/PNDIS_WWAN_MAC_PARAMETERS, netvista.ndis_wwan_mac_parameters"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_MAC_PARAMETERS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_MAC_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_MAC_PARAMETERS, *PNDIS_WWAN_MAC_PARAMETERS
+f1_keywords:
+ - _NDIS_WWAN_MAC_PARAMETERS
+ - ndiswwan/_NDIS_WWAN_MAC_PARAMETERS
+ - PNDIS_WWAN_MAC_PARAMETERS
+ - ndiswwan/PNDIS_WWAN_MAC_PARAMETERS
+ - NDIS_WWAN_MAC_PARAMETERS
+ - ndiswwan/NDIS_WWAN_MAC_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_MAC_PARAMETERS
 ---
 
 # _NDIS_WWAN_MAC_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_MAC_PARAMETERS, *PNDIS_WWAN_MAC_PARAMETERS
 
 ## -description
 
-
 The NDIS_WWAN_MAC_PARAMETERS structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-create-mac">OID_WWAN_CREATE_MAC</a> when processing a request to create an NDIS port for a new PDP context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -101,14 +99,7 @@ sizeof(NDIS_WWAN_MAC_PARAMETERS)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-create-mac">OID_WWAN_CREATE_MAC</a>
- 
-
- 
 

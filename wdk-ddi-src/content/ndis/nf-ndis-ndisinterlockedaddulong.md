@@ -8,8 +8,6 @@ ms.assetid: d2e31f3c-7152-4df9-8206-a15dee9b641f
 ms.date: 05/02/2018
 keywords: ["NdisInterlockedAddUlong macro"]
 ms.keywords: NdisInterlockedAddUlong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, netvista.ndisinterlockedaddulong
-f1_keywords:
- - "ndis/NdisInterlockedAddUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisInterlockedAddUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInterlockedAddUlong
+ - ndis/NdisInterlockedAddUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisInterlockedAddUlong
 ---
 
 # NdisInterlockedAddUlong macro
@@ -48,37 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInterlockedAddUlong</b> function adds an unsigned long value to a given unsigned integer as an atomic
   operation, using a caller-supplied spin lock to synchronize access to the integer variable.
 
-
 ## -parameters
 
+### -param _Addend 
 
-
-
-### -param _Addend [in]
-
+[in]
 A pointer to the variable for which the value is to be adjusted by the given 
      <i>Increment</i> .
 
+### -param _Increment 
 
-### -param _Increment [in]
-
+[in]
 The value to be added to that at 
      <i>Addend</i> .
 
+### -param _SpinLock 
 
-### -param _SpinLock [in]
-
+[in]
 A pointer to a caller-initialized spin lock.
 
-
 ## -remarks
-
-
 
 The caller of 
     <b>NdisInterlockedAddUlong</b> must provide resident storage for the spin lock, which must be initialized
@@ -98,13 +90,7 @@ The
     restores the original IRQL before it returns control. Consequently, any driver function that calls 
     <b>NdisInterlockedAddUlong</b> cannot be pageable code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a>
 
@@ -123,7 +109,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisstoreulong">NdisStoreUlong</a>
- 
-
- 
 

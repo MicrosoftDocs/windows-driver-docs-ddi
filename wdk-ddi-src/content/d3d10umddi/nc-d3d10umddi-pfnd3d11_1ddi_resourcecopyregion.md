@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/ResourceCopyRegion(D3D11_1)"
+ - PFND3D11_1DDI_RESOURCECOPYREGION
+ - d3d10umddi/PFND3D11_1DDI_RESOURCECOPYREGION
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_RESOURCECOPYREGION callback function
+
 
 ## -description
 
@@ -111,8 +113,6 @@ If the members of the <a href="https://docs.microsoft.com/windows-hardware/drive
 [in] A value that specifies characteristics of copy operation as a bitwise <b>OR</b> of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1_ddi_copy_flags">D3D11_1_DDI_COPY_FLAGS</a> enumeration type.
 
 ## -remarks
-
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 

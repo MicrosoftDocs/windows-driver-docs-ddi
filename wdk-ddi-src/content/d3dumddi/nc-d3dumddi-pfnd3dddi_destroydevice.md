@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DestroyDevice"
+ - PFND3DDDI_DESTROYDEVICE
+ - d3dumddi/PFND3DDDI_DESTROYDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DESTROYDEVICE callback function
+
 
 ## -description
 

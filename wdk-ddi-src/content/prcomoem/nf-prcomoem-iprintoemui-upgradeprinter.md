@@ -8,8 +8,6 @@ ms.assetid: 405f0000-c239-4f2c-83ad-5d35441a5df2
 ms.date: 04/20/2018
 keywords: ["IPrintOemUI::UpgradePrinter"]
 ms.keywords: IPrintOemUI interface [Print Devices],UpgradePrinter method, IPrintOemUI.UpgradePrinter, IPrintOemUI::UpgradePrinter, UpgradePrinter, UpgradePrinter method [Print Devices], UpgradePrinter method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::UpgradePrinter, print.iprintoemui_upgradeprinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml
-f1_keywords:
- - "prcomoem/IPrintOemUI.UpgradePrinter"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUI.UpgradePrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUI::UpgradePrinter
+ - prcomoem/IPrintOemUI::UpgradePrinter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUI.UpgradePrinter
 ---
 
 # IPrintOemUI::UpgradePrinter
@@ -47,28 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUI::UpgradePrinter</code> method allows a user interface plug-in to upgrade device option values that are stored in the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLevel
 
 Caller-supplied version number of the structure pointed to by <i>pDriverUpgradeInfo</i>. Current valid value is 1.
 
-
 ### -param pDriverUpgradeInfo
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1">DRIVER_UPGRADE_INFO_1</a> structure.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -111,14 +101,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you provide a user interface plug-in for one of Microsoft's printer drivers, and if the user interface plug-in stores device option values in the registry, it should implement the <code>IPrintOemUI::UpgradePrinter</code> method to update those values.
 
@@ -127,6 +111,4 @@ A user interface plug-in's <code>IPrintOemUI::UpgradePrinter</code> method perfo
 If <code>IPrintOemUI::UpgradePrinter</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 For more information about creating and installing user interface plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
-
-
 

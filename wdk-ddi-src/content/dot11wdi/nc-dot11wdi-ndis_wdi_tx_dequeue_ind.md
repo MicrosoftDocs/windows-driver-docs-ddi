@@ -8,8 +8,6 @@ ms.assetid: ACCB45DA-1233-4276-A0F5-466E50D9377B
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_TX_DEQUEUE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_DEQUEUE_IND, NDIS_WDI_TX_DEQUEUE_IND callback, NdisWdiTxDequeueIndication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxDequeueIndication, netvista.ndiswditxdequeueindication
-f1_keywords:
- - "dot11wdi/NdisWdiTxDequeueIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- NdisWdiTxDequeueIndication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_WDI_TX_DEQUEUE_IND
+ - dot11wdi/NDIS_WDI_TX_DEQUEUE_IND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NdisWdiTxDequeueIndication
 ---
 
 # NDIS_WDI_TX_DEQUEUE_IND callback function
@@ -47,46 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The 
   NdisWdiTxDequeueIndication callback function is called in the context of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tx_data_send">MiniportWdiTxDataSend</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tx_tal_send">MiniportWdiTxTalSend</a> by the IHV miniport to dequeue frames from WDI to the IHV miniport.
 
 This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
 
-
 ## -parameters
 
+### -param NdisMiniportDataPathHandle 
 
-
-
-### -param NdisMiniportDataPathHandle [in]
-
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
+### -param Quantum 
 
-### -param Quantum [in]
-
+[in]
 The quantum. For more information, see the <i>Host - target TX transfer scheduling</i> section in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>.
 
+### -param MaxNumFrames 
 
-### -param MaxNumFrames [in]
-
+[in]
 Maximum frame count.
 
+### -param Credit 
 
-### -param Credit [in]
-
+[in]
 Credit value. For more information, see <i>The target-credit scheme and the pause/resume mechanism</i> section in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>.
 
+### -param ppNBL 
 
-### -param ppNBL [out]
-
+[out]
 Pointer to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain dequeued by WDI.
 
-
 ## -remarks
-
-
 
 A subset of the parameters may not be applicable to a device. For instance, the maximum frame count may not apply to a store and forward device (message-based bus interface).
 
@@ -103,13 +95,7 @@ If the TAL does not have enough credit to dequeue a maximum cost frame, it shoul
 
 The TxMgr may return a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> that exceed the limit of the number of frames, frame cost, or quantum. This only happens if the frames are being requeued/replayed after being send completed with status of Postponed and with identical sequence number, which indicates they were originally transmitted as part of a single A-MSDU.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>
 
@@ -128,7 +114,4 @@ The TxMgr may return a list of <a href="https://docs.microsoft.com/windows-hardw
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>
- 
-
- 
 

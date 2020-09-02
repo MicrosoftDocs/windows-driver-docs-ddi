@@ -8,8 +8,6 @@ ms.assetid: 6eedef2d-9fa5-4001-9246-7445198c4386
 ms.date: 04/16/2018
 keywords: ["IoSetInformation function"]
 ms.keywords: IoSetInformation, IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ntifs/IoSetInformation
-f1_keywords:
- - "ntifs/IoSetInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IoSetInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetInformation
+ - ntifs/IoSetInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IoSetInformation
 ---
 
 # IoSetInformation function
@@ -47,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoSetInformation</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param FileObject
 
 <p>Reserved.</p>
 
-
 ### -param FileInformationClass
 
 Reserved.
-
 
 ### -param Length
 
 Reserved.
 
-
 ### -param FileInformation
 
 Reserved.
-
-
-
-
 

@@ -8,8 +8,6 @@ ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyHardwareReady function"]
 ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
-f1_keywords:
- - "ufxclient/UfxDeviceNotifyHardwareReady"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceNotifyHardwareReady
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceNotifyHardwareReady
+ - ufxclient/UfxDeviceNotifyHardwareReady
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceNotifyHardwareReady
 ---
 
 # UfxDeviceNotifyHardwareReady function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 Notifies UFX that the hardware is ready.
-
 
 ## -parameters
 
+### -param UfxDevice 
 
-
-
-### -param UfxDevice [in]
-
+[in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ## -remarks
-
-
 
 The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a> callback function, as shown in the following example.
 
@@ -124,5 +116,4 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
-
 

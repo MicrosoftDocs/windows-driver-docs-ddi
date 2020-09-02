@@ -8,8 +8,6 @@ ms.assetid: 336fa87a-6c3e-4337-90d9-b0ebeb355e68
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_UNLOAD callback function"]
 ms.keywords: DXGKDDI_UNLOAD, DXGKDDI_UNLOAD callback, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
-f1_keywords:
- - "dispmprt/DxgkDdiUnload"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dispmprt.h
-api_name:
-- DxgkDdiUnload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_UNLOAD
+ - dispmprt/DXGKDDI_UNLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dispmprt.h
+api_name:
+ - DxgkDdiUnload
 ---
 
 # DXGKDDI_UNLOAD callback function
@@ -47,28 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
-
 ## -remarks
-
-
 
 Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 <i>DxgkDdiUnload</i> should be made pageable.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
- 
-
- 
 

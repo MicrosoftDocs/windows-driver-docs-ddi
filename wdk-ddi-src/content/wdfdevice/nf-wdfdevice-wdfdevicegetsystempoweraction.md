@@ -8,8 +8,6 @@ ms.assetid: 5c4e44cd-94a3-4265-b195-7a5711d8035d
 ms.date: 03/24/2020
 keywords: ["WdfDeviceGetSystemPowerAction function"]
 ms.keywords: DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml, WdfDeviceGetSystemPowerAction, WdfDeviceGetSystemPowerAction method, kmdf.wdfdevicegetsystempoweraction, wdf.wdfdevicegetsystempoweraction, wdfdevice/WdfDeviceGetSystemPowerAction
-f1_keywords:
- - "wdfdevice/WdfDeviceGetSystemPowerAction"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceGetSystemPowerAction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceGetSystemPowerAction
+ - wdfdevice/WdfDeviceGetSystemPowerAction
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceGetSystemPowerAction
 ---
 
 # WdfDeviceGetSystemPowerAction function
@@ -50,39 +49,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfDeviceGetSystemPowerAction</b> method returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a>, if any, that is currently occurring for the computer. 
-
+The <b>WdfDeviceGetSystemPowerAction</b> method returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a>, if any, that is currently occurring for the computer.
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
-
 ## -returns
-
-
 
 <b>WdfDeviceGetSystemPowerAction</b> returns a POWER_ACTION-typed enumerator value. The value indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. The POWER_ACTION enumeration is defined in <i>wdm.h</i>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
 
-Starting in WDF version 1.31, **WdfDeviceGetSystemPowerAction** has been updated to more accurately report system power action when the device is the power policy owner. Drivers need to be recompiled with KMDF or UMDF 1.31 or later to get the following new behavior:
+Starting in WDF version 1.31/2.31 (referred to as "v31"), **WdfDeviceGetSystemPowerAction** has been updated to more accurately report system power action when the device is the power policy owner. Drivers need to be recompiled with v31 or later to get the following new behavior:
 
-* If the device enters or exits D0 due to S0 Idle (see [**WdfDeviceAssignS0IdleSettings**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings)) while an unrelated system power transition is in progress, **WdfDeviceGetSystemPowerAction** might return **PowerActionSleep**. This is fixed in version 1.31 and now it returns **PowerActionNone**.
-* When the system wakes up from Hybrid Sleep (sleep with a hibernation file), before v31, **WdfDeviceGetSystemPowerAction** returned **PowerActionHibernate**. This is fixed in version 1.31 and now it returns **PowerActionSleep**. 
+* If the device enters or exits D0 due to S0 Idle (see [**WdfDeviceAssignS0IdleSettings**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings)) while an unrelated system power transition is in progress, **WdfDeviceGetSystemPowerAction** might return **PowerActionSleep**. This is fixed in v31 and now it returns **PowerActionNone**.
+* When the system wakes up from Hybrid Sleep (sleep with a hibernation file), before v31, **WdfDeviceGetSystemPowerAction** always returned **PowerActionHibernate**. This is fixed in v31 and now it returns:
+
+   - **PowerActionSleep** if it wakes without power loss, which means the system remained in S3
+   - **PowerActionHibernate** if it wakes after power loss, which means the system resumed from the hibernation file
+
 
 The <b>WdfDeviceGetSystemPowerAction</b> method enables a driver to determine whether a device's power transition is occurring because the device is idle (or waking up), or because the entire computer is entering (or leaving) a low-power state. 
 
@@ -124,5 +117,4 @@ POWER_ACTION SysPowerAction;
 
 SysPowerAction = WdfDeviceGetSystemPowerAction(device);
 ```
-
 

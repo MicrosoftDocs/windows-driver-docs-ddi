@@ -7,8 +7,6 @@ ms.assetid: bcd33f64-7ad0-4e26-af73-e4f2b1b6e5fb
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenNtHandleFromName function"]
 ms.keywords: D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName callback function [Display Devices], PFND3DKMT_OPENNTHANDLEFROMNAME, PFND3DKMT_OPENNTHANDLEFROMNAME callback, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname
-f1_keywords:
- - "d3dkmthk/D3DKMTOpenNtHandleFromName"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -23,26 +21,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTOpenNtHandleFromName
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTOpenNtHandleFromName
+ - d3dkmthk/D3DKMTOpenNtHandleFromName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTOpenNtHandleFromName
 ---
 
 # D3DKMTOpenNtHandleFromName function
+
 
 ## -description
 
@@ -66,3 +66,4 @@ Returns one of the following values:
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
+

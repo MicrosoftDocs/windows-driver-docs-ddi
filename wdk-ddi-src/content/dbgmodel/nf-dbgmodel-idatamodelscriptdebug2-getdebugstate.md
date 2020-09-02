@@ -1,49 +1,49 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.GetDebugState
 title: IDataModelScriptDebug2::GetDebugState (dbgmodel.h)
-description: The GetDebugState method returns the current state of the script (that is whether it is executing or not). 
+description: The GetDebugState method returns the current state of the script (that is whether it is executing or not).
 ms.assetid: 5426937e-cf7e-4af0-afe3-39b2dce07983
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug2::GetDebugState"]
-f1_keywords:
- - "dbgmodel/IDataModelScriptDebug2.GetDebugState"
 ms.keywords: IDataModelScriptDebug2::GetDebugState, GetDebugState, IDataModelScriptDebug2.GetDebugState, IDataModelScriptDebug2::GetDebugState, IDataModelScriptDebug2.GetDebugState
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScriptDebug2.GetDebugState
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScriptDebug2::GetDebugState
+ - dbgmodel/IDataModelScriptDebug2::GetDebugState
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScriptDebug2.GetDebugState
 ---
 
 # IDataModelScriptDebug2::GetDebugState
 
 
 ## -description
+
 The GetDebugState method returns the current state of the script (e.g.: whether it is executing or not). The state is defined by a value within the ScriptDebugState enumeration which is defined as follows.
 
 Enumerant |	Description
@@ -53,11 +53,11 @@ ScriptDebugNotExecuting |	Indicates that no code within the script is actively e
 ScriptDebugExecuting |	Indicates that the script is actively executing code and is not broken into the debugger.
 ScriptDebugBreak |	Indicates that the script is broken into the debugger during the execution of code within the script
 
-
-
 ## -returns
+
 The debug state of the script as indicated by a value in the ScriptDebugState enumeration.
 
 ## -see-also
 
 [IDataModelScriptDebug2 interface](nn-dbgmodel-idatamodelscriptdebug2.md)
+

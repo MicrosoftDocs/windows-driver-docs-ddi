@@ -8,8 +8,6 @@ ms.assetid: 14fb5b30-7169-4d8a-ad72-d0ee86da7f98
 ms.date: 04/23/2018
 keywords: ["KsPinAttachOrGate function"]
 ms.keywords: KsPinAttachOrGate, KsPinAttachOrGate function [Streaming Media Devices], avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml, ks/KsPinAttachOrGate, stream.kspinattachorgate
-f1_keywords:
- - "ks/KsPinAttachOrGate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsPinAttachOrGate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsPinAttachOrGate
+ - ks/KsPinAttachOrGate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsPinAttachOrGate
 ---
 
 # KsPinAttachOrGate function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
-The<b> KsPinAttachOrGate</b> function connects <i>Pin</i> as an input to a previously initialized OR gate, and connects <i>OrGate</i> as an input to the relevant filter's AND gate. 
-
+The<b> KsPinAttachOrGate</b> function connects <i>Pin</i> as an input to a previously initialized OR gate, and connects <i>OrGate</i> as an input to the relevant filter's AND gate.
 
 ## -parameters
 
+### -param Pin 
 
-
-
-### -param Pin [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure to use an input to the OR gate.
 
+### -param OrGate 
 
-### -param OrGate [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure that is the previously initialized OR gate to connect to the relevant filter's AND gate. If this optional parameter is NULL, any <b>KSGATE</b> currently attached to the pin is detached.
 
-
 ## -remarks
-
-
 
 To insert the gate, first call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgateinitializeor">KsGateInitializeOr</a>. Then call <b>KsPinAttachOrGate</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
 
@@ -77,13 +69,7 @@ Do not leave an unattached OR gate at filter creation time. Instead, create the 
 
 <b>KsPinAttachOrGate </b>must be called at IRQL = PASSIVE_LEVEL before the pin in question leaves KSSTATE_STOP.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a>
 
@@ -94,7 +80,4 @@ Do not leave an unattached OR gate at filter creation time. Instead, create the 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachandgate">KsPinAttachAndGate</a>
- 
-
- 
 

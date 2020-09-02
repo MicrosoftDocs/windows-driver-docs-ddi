@@ -8,8 +8,6 @@ ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.date: 03/29/2018
 keywords: ["ScsiPortNotification function"]
 ms.keywords: ScsiPortNotification, ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification, storage.scsiportnotification
-f1_keywords:
- - "srb/ScsiPortNotification"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Scsiport.lib; Storport.lib
 req.dll: 
 req.irql: (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- scsiport.lib
-- scsiport.dll
-- storport.lib
-- storport.dll
-api_name:
-- ScsiPortNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortNotification
+ - srb/ScsiPortNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - scsiport.lib
+ - scsiport.dll
+ - storport.lib
+ - storport.dll
+api_name:
+ - ScsiPortNotification
 ---
 
 # ScsiPortNotification function
@@ -50,14 +49,10 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortNotification</b> routine informs the operating system-specific port driver of certain events, such as when a miniport driver completes a request or is ready to start another SRB, as well as when the HBA indicates certain SCSI error conditions that occurred during an operation.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param NotificationType
 
@@ -338,33 +333,20 @@ Syntax for PathId = 0xFF
 </td>
 </tr>
 </table>
- 
-
 
 ### -param HwDeviceExtension
 
-Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
-
+Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 ### -param param
 
 TBD
 
-
-
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 The <b>ScsiPortNotification</b> routine has a different set of optional parameters associated with each <i>NotificationType</i>. For a description of the optional parameters associated a particular <i>NotificationType</i>, see the reference page associated with that <i>NotificationType</i>. The following reference pages provide this information:
 
@@ -417,15 +399,9 @@ A miniport driver's <i>HwScsiInterrupt</i> routine is most likely to call <b>Scs
 
 If an HBA requires the miniport driver to use more than a millisecond processing interrupt-driven I/O operations, its <i>HwScsiInterrupt</i> routine should disable interrupts on the HBA and call <b>ScsiPortNotification</b> with <b>CallEnableInterrupts</b> and a driver-supplied <i>HwScsiEnableInterruptsCallback</i> routine. This routine, in turn, calls <b>ScsiPortNotification</b> with <b>CallDisableInterrupts</b> and the corresponding driver-supplied <i>HwScsiDisableInterruptsCallback</i>.
 
-A miniport driver that is registered as a WMI data provider can call <b>ScsiPortNotification</b> with <b>WMIEvent</b> to post an event for which it has previously received an enable request. The port driver queues the event in the interrupt data area of the miniport driver's device extension for later processing at a lower IRQL. Because only a limited number of events can be queued at one time, the miniport driver should use <b>WMIEvent</b> to signal exceptional rather than routine conditions, and it should give the port driver time to get back to DISPATCH_LEVEL between postings, to prevent events from being lost. 
-
-
-
+A miniport driver that is registered as a WMI data provider can call <b>ScsiPortNotification</b> with <b>WMIEvent</b> to post an event for which it has previously received an enable request. The port driver queues the event in the interrupt data area of the miniport driver's device extension for later processing at a lower IRQL. Because only a limited number of events can be queued at one time, the miniport driver should use <b>WMIEvent</b> to signal exceptional rather than routine conditions, and it should give the port driver time to get back to DISPATCH_LEVEL between postings, to prevent events from being lost.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557288(v=vs.85)">HwScsiDisableInterruptsCallback</a>
 
@@ -444,7 +420,4 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportcompleterequest">ScsiPortCompleteRequest</a>
- 
-
- 
 

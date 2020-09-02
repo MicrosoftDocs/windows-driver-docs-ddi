@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateVertexShader(D3D11_1)"
+ - PFND3D11_1DDI_CREATEVERTEXSHADER
+ - d3d10umddi/PFND3D11_1DDI_CREATEVERTEXSHADER
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CREATEVERTEXSHADER callback function
+
 
 ## -description
 
@@ -70,7 +72,7 @@ A handle to the driver's private data for the vertex shader. The driver returns 
 
 *hRTShader* [in]
 
-A handle to the vertex shader that the driver should use when it calls back into the Direct3D runtime. 
+A handle to the vertex shader that the driver should use when it calls back into the Direct3D runtime.
 
 ### -param Arg5
 

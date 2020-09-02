@@ -8,8 +8,6 @@ ms.assetid: 838D31E8-1835-47C7-8201-93910610F5EC
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_GET_ROUTING_TABLE IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_ROUTING_TABLE, IOCTL_NFCSE_GET_ROUTING_TABLE control, IOCTL_NFCSE_GET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_get_routing_table
-f1_keywords:
- - "nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- IOCTL_NFCSE_GET_ROUTING_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFCSE_GET_ROUTING_TABLE
+ - nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - IOCTL_NFCSE_GET_ROUTING_TABLE
 ---
 
 # IOCTL_NFCSE_GET_ROUTING_TABLE IOCTL
@@ -47,56 +46,29 @@ req.typenames:
 
 ## -description
 
-
 Returns information regarding the current configuration of listen mode routing table. Note that the caller must allocate an output buffer large enough to hold information regarding all the entries that are present in the current listen mode routing table, i.e. Total number of routing entries x Size of routing table entry, otherwise the driver should return a STATUS_BUFFER_OVERFLOW error code to the client with NumberOfEntries field containing the number of routing table entries configured. The routing table entry is of type SECURE_ELEMENT_ROUTING_TABLE_ENTRY. Note: The driver shouldn’t return entry routing NFC-DEP to DH as part of the routing table returned in the output buffer even though the entry is present in the NFCC routing table.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None
 
-
 ### -input-buffer-length
 
 None
 
-
 ### -output-buffer
 
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
-
-
 
 ### -output-buffer-length
 
 sizeof(SECURE_ELEMENT_ROUTING_TABLE)
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -126,5 +98,4 @@ sizeof(SECURE_ELEMENT_ROUTING_TABLE)
 </td>
 </tr>
 </table>
- 
 

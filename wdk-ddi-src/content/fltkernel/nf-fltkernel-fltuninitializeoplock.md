@@ -8,8 +8,6 @@ ms.assetid: 6379014a-f9bc-4e86-93da-83d90f009a3b
 ms.date: 04/16/2018
 keywords: ["FltUninitializeOplock function"]
 ms.keywords: FltApiRef_p_to_z_d759e280-7507-44ae-8155-578320562c8b.xml, FltUninitializeOplock, FltUninitializeOplock function [Installable File System Drivers], fltkernel/FltUninitializeOplock, ifsk.fltuninitializeoplock
-f1_keywords:
- - "fltkernel/FltUninitializeOplock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltUninitializeOplock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltUninitializeOplock
+ - fltkernel/FltUninitializeOplock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltUninitializeOplock
 ---
 
 # FltUninitializeOplock function
@@ -47,44 +46,26 @@ req.typenames:
 
 ## -description
 
-
-<b>FltUninitializeOplock</b> uninitializes an opportunistic lock (oplock) pointer. 
-
+<b>FltUninitializeOplock</b> uninitializes an opportunistic lock (oplock) pointer.
 
 ## -parameters
 
+### -param Oplock 
 
-
-
-### -param Oplock [in]
-
-Opaque oplock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>. 
-
+[in]
+Opaque oplock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>.
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
 
-
-
 Minifilter drivers call <b>FltUninitializeOplock</b> to uninitialize an initialized opportunistic lock (oplock) pointer. The uninitialized oplock pointer can be initialized for reuse by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>. 
 
-For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
-
-
-
+For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-opbatch-ack-close-pending">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
@@ -139,7 +120,4 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock">FsRtlUninitializeOplock</a>
- 
-
- 
 

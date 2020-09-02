@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2trianglelist.htm
 tech.root: display
 ms.assetid: f9a9b407-dae5-4456-8542-4f5b06af50a5
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2TRIANGLELIST structure"]
+keywords: ["D3DHAL_DP2TRIANGLELIST structure"]
 ms.keywords: "*LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST structure [Display Devices], LPD3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], _D3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, d3dhal/LPD3DHAL_DP2TRIANGLELIST, d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, display.d3dhal_dp2trianglelist"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2TRIANGLELIST"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2TRIANGLELIST
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST
+f1_keywords:
+ - _D3DHAL_DP2TRIANGLELIST
+ - d3dhal/_D3DHAL_DP2TRIANGLELIST
+ - LPD3DHAL_DP2TRIANGLELIST
+ - d3dhal/LPD3DHAL_DP2TRIANGLELIST
+ - D3DHAL_DP2TRIANGLELIST
+ - d3dhal/D3DHAL_DP2TRIANGLELIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2TRIANGLELIST
 ---
 
 # _D3DHAL_DP2TRIANGLELIST structure
@@ -47,23 +50,15 @@ req.typenames: D3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST
 
 ## -description
 
-
 One D3DHAL_DP2TRIANGLELIST structure is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLELIST, and is used to render the specified unconnected triangles.
-
 
 ## -struct-fields
 
-
-
-
 ### -field wVStart
 
-Specifies the offset into the vertex buffer containing coordinate data for the initial vertex of the triangle list 
-
+Specifies the offset into the vertex buffer containing coordinate data for the initial vertex of the triangle list
 
 ## -remarks
-
-
 
 One D3DHAL_DP2TRIANGLELIST structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
 
@@ -74,12 +69,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <img alt="Figure showing a command buffer with a D3DDP2OP_TRIANGLELIST command and one D3DHAL_DP2TRIANGLELIST structure " src="images/dp2tlist.png"/>
 
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_TRIANGLELIST
 
@@ -90,7 +80,4 @@ D3DDP2OP_TRIANGLELIST
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

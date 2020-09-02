@@ -8,8 +8,6 @@ ms.assetid: 1a402deb-132c-4cda-a019-e044318e1910
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_MANUFACTURER_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_MANUFACTURER_STRING, IOCTL_HID_GET_MANUFACTURER_STRING control, IOCTL_HID_GET_MANUFACTURER_STRING control code [Human Input Devices], hid.ioctl_hid_get_manufacturer_string, hidclass/IOCTL_HID_GET_MANUFACTURER_STRING, hidioreq_05724f70-c708-4f9a-ba51-fa2edabf56ed.xml
-f1_keywords:
- - "hidclass/IOCTL_HID_GET_MANUFACTURER_STRING"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidclass.h
-api_name:
-- IOCTL_HID_GET_MANUFACTURER_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_HID_GET_MANUFACTURER_STRING
+ - hidclass/IOCTL_HID_GET_MANUFACTURER_STRING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidclass.h
+api_name:
+ - IOCTL_HID_GET_MANUFACTURER_STRING
 ---
 
 # IOCTL_HID_GET_MANUFACTURER_STRING IOCTL
@@ -47,58 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_HID_GET_MANUFACTURER_STRING request obtains a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> embedded string that identifies the manufacturer of the device. The retrieved string is a NULL-terminated wide character string in a human-readable format.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer. 
-
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer.
 
 ### -input-buffer-length
 
-The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character). 
-
+The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
 
 ### -output-buffer
 
-<b>Irp->MdlAddress</b> points to a buffer to receive the manufacturer ID (a NULL-terminated wide character string). 
-
+<b>Irp->MdlAddress</b> points to a buffer to receive the manufacturer ID (a NULL-terminated wide character string).
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -116,9 +86,6 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 </ul>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring">HidD_GetIndexedString</a>
 
@@ -149,7 +116,4 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
- 
-
- 
 

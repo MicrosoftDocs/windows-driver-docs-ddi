@@ -8,8 +8,6 @@ ms.assetid: 290825dd-d5f6-4e9b-b1a3-3e146d3e1856
 ms.date: 04/16/2018
 keywords: ["IOCTL_REDIR_QUERY_PATH_EX IOCTL"]
 ms.keywords: IOCTL_REDIR_QUERY_PATH_EX, IOCTL_REDIR_QUERY_PATH_EX control, IOCTL_REDIR_QUERY_PATH_EX control code [Installable File System Drivers], ifsk.ioctl_redir_query_path_ex, ioctl_ref_de59d691-17c8-4e21-8acc-61d2f27c2799.xml, ntifs/IOCTL_REDIR_QUERY_PATH_EX
-f1_keywords:
- - "ntifs/IOCTL_REDIR_QUERY_PATH_EX"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IOCTL_REDIR_QUERY_PATH_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_REDIR_QUERY_PATH_EX
+ - ntifs/IOCTL_REDIR_QUERY_PATH_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IOCTL_REDIR_QUERY_PATH_EX
 ---
 
 # IOCTL_REDIR_QUERY_PATH_EX IOCTL
 
 
 ## -description
-
 
 The <b>IOCTL_REDIR_QUERY_PATH_EX</b> control code is sent by the multiple UNC provider (MUP) on Windows Vista or later to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request. This request is referred to as "prefix resolution." 
 
@@ -79,9 +77,6 @@ The provider and the prefix that it claimed are entered in a prefix cache mainta
 </ul>
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -148,17 +143,8 @@ A non-NULL terminated Unicode string of the form \<server>\<share>\<path>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
@@ -192,35 +178,12 @@ The length, in bytes, of the prefix claimed by the provider from the Unicode str
 </td>
 </tr>
 </table>
- 
-
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -253,12 +216,9 @@ An IOCTL_REDIR_QUERY_PATH_EX request should only come from MUP and the <b>Reques
 
 **STATUS_LOGON_FAILURE** or **STATUS_ACCESS_DENIED**
 
-If the prefix resolution operation failed due to invalid or incorrect credentials, the provider should return the exact error code returned by the remote server; these error codes must not be translated to STATUS_BAD_NETWORK_NAME or STATUS_BAD_NETWORK_PATH. Error codes like STATUS_LOGON_FAILURE and STATUS_ACCESS_DENIED serve as a feedback mechanism to the user and indicate the requirement to use appropriate credentials. These error codes are also used in certain cases to prompt the user automatically for credentials. Without these error codes, the user might assume that the machine is not accessible. 
-
+If the prefix resolution operation failed due to invalid or incorrect credentials, the provider should return the exact error code returned by the remote server; these error codes must not be translated to STATUS_BAD_NETWORK_NAME or STATUS_BAD_NETWORK_PATH. Error codes like STATUS_LOGON_FAILURE and STATUS_ACCESS_DENIED serve as a feedback mechanism to the user and indicate the requirement to use appropriate credentials. These error codes are also used in certain cases to prompt the user automatically for credentials. Without these error codes, the user might assume that the machine is not accessible.
 
 ## -remarks
-
-
 
 Network redirectors should only honor kernel-mode senders of this IOCTL, by verifying that <b>Irp->RequestorMode</b> is <b>KernelMode</b>. 
 
@@ -279,14 +239,7 @@ For more information, see the following sections in the Design Guide:
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a>
 
@@ -301,7 +254,4 @@ For more information, see the following sections in the Design Guide:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ni-ntifs-ioctl_redir_query_path">IOCTL_REDIR_QUERY_PATH</a>
- 
-
- 
 

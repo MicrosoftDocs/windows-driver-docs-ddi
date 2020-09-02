@@ -6,10 +6,8 @@ old-location: wdf\wdf_property_store_root.htm
 tech.root: wdf
 ms.assetid: 431ae991-35e0-4cf7-a3e0-57591abfe5c5
 ms.date: 02/26/2018
-keywords: ["_WDF_PROPERTY_STORE_ROOT structure"]
+keywords: ["WDF_PROPERTY_STORE_ROOT structure"]
 ms.keywords: "*PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT structure pointer, WDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure, _WDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, wdf.wdf_property_store_root, wudfddi_types/PWDF_PROPERTY_STORE_ROOT, wudfddi_types/WDF_PROPERTY_STORE_ROOT"
-f1_keywords:
- - "wudfddi_types/WDF_PROPERTY_STORE_ROOT"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wudfddi_types.h
-api_name:
-- WDF_PROPERTY_STORE_ROOT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT
+f1_keywords:
+ - _WDF_PROPERTY_STORE_ROOT
+ - wudfddi_types/_WDF_PROPERTY_STORE_ROOT
+ - PWDF_PROPERTY_STORE_ROOT
+ - wudfddi_types/PWDF_PROPERTY_STORE_ROOT
+ - WDF_PROPERTY_STORE_ROOT
+ - wudfddi_types/WDF_PROPERTY_STORE_ROOT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wudfddi_types.h
+api_name:
+ - WDF_PROPERTY_STORE_ROOT
 ---
 
 # _WDF_PROPERTY_STORE_ROOT structure
@@ -47,62 +50,45 @@ req.typenames: WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>WDF_PROPERTY_STORE_ROOT</b> structure contains information that identifies a UMDF property store. 
-
+The <b>WDF_PROPERTY_STORE_ROOT</b> structure contains information that identifies a UMDF property store.
 
 ## -struct-fields
-
-
-
 
 ### -field LengthCb
 
 The length, in bytes, of this structure.
 
-
 ### -field RootClass
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_root_class">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
 
-
 ### -field Qualifier
 
-
 ### -field Qualifier.HardwareKey
-
 
 ### -field Qualifier.HardwareKey.ServiceName
 
 A pointer to a <b>NULL</b>-terminated character string that identifies a driver-specific subkey under a device's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">hardware key</a> in the registry. For more information about this member, see the following Remarks section.
 
-
 ### -field Qualifier.DeviceInterfaceKey
-
 
 ### -field Qualifier.DeviceInterfaceKey.InterfaceGUID
 
 A pointer to a GUID that identifies a device interface. The driver must have previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createdeviceinterface">IWDFDevice::CreateDeviceInterface</a> to register the device interface.
 
-
 ### -field Qualifier.DeviceInterfaceKey.ReferenceString
 
 A pointer to a <b>NULL</b>-terminated character string that identifies a reference string for a device interface. The driver must specify this member if it specified a reference string when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createdeviceinterface">IWDFDevice::CreateDeviceInterface</a>. Otherwise, this member must be <b>NULL</b>.
 
-
 ### -field Qualifier.LegacyHardwareKey
-
 
 ### -field Qualifier.LegacyHardwareKey.LegacyMapName
 
 A pointer to a <b>NULL</b>-terminated character string that identifies a subkey under the <b>HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP</b> key in the registry. This key is used by only a few older drivers.
 
-
 ## -remarks
-
-
 
 The <b>WDF_PROPERTY_STORE_ROOT</b> structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystorefactory-retrieveunifieddevicepropertystore">IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore</a>.
 
@@ -194,16 +180,7 @@ The driver can obtain read or write access to the specified subkey under the <b>
 
 For more information about these registry keys, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
- 
-
- 
 

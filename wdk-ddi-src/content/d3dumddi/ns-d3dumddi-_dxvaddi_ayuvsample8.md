@@ -6,10 +6,8 @@ old-location: display\dxvaddi_ayuvsample8.htm
 tech.root: display
 ms.assetid: 0fce82e9-0932-4838-b247-af0b2b8642d3
 ms.date: 05/10/2018
-keywords: ["_DXVADDI_AYUVSAMPLE8 structure"]
+keywords: ["DXVADDI_AYUVSAMPLE8 structure"]
 ms.keywords: DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8, DXVADDI_AYUVSAMPLE8 structure [Display Devices], _DXVADDI_AYUVSAMPLE8, d3dumddi/DXVADDI_AYUVSAMPLE8, display.dxvaddi_ayuvsample8
-f1_keywords:
- - "d3dumddi/DXVADDI_AYUVSAMPLE8"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVADDI_AYUVSAMPLE8
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_AYUVSAMPLE8
+f1_keywords:
+ - _DXVADDI_AYUVSAMPLE8
+ - d3dumddi/_DXVADDI_AYUVSAMPLE8
+ - DXVADDI_AYUVSAMPLE8
+ - d3dumddi/DXVADDI_AYUVSAMPLE8
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVADDI_AYUVSAMPLE8
 ---
 
 # _DXVADDI_AYUVSAMPLE8 structure
@@ -47,38 +48,27 @@ req.typenames: DXVADDI_AYUVSAMPLE8
 
 ## -description
 
-
 The DXVADDI_AYUVSAMPLE8 structure describes 8-bit Cr, Cb, and Y color values and an associated opacity.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Cr
 
 [in] An 8-bit chrominance (V) sample value.
 
-
 ### -field Cb
 
 [in] An 8-bit chrominance (U) sample value.
-
 
 ### -field Y
 
 [in] An 8-bit luminance (Y) sample value.
 
-
 ### -field Alpha
 
-[in] The 8-bit opacity of the pixel when it is used as a source graphic for blending with another picture. 
-
+[in] The 8-bit opacity of the pixel when it is used as a source graphic for blending with another picture.
 
 ## -remarks
-
-
 
 A value of 0 in the <b>Alpha</b> member indicates that the pixel is transparent (so that the other entries have no effect on the resulting blended picture), and a value of 255 indicates that the pixel is opaque (so that the other entries completely determine the value of the resulting blended picture sample). 
 
@@ -97,20 +87,11 @@ The color value is scaled according to ITU-R Rec. BT.601, which you can learn ab
 
 The width and height of the AYUV alpha-blending surface are specified in the associated <a href="https://docs.microsoft.com/windows-hardware/drivers/display/buffer-description-list">buffer description list</a> that is defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_decodebufferdesc">DXVADDI_DECODEBUFFERDESC</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_decodebufferdesc">DXVADDI_DECODEBUFFERDESC</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
- 
-
- 
 

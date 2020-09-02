@@ -8,8 +8,6 @@ ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.date: 04/23/2018
 keywords: ["IKsPropertySet::QuerySupported"]
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],QuerySupported method, IKsPropertySet.QuerySupported, IKsPropertySet::QuerySupported, QuerySupported, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, stream.ikspropertyset_querysupported
-f1_keywords:
- - "ksproxy/IKsPropertySet.QuerySupported"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h, Ksproxy.h, Dsound.h, Ksproxy.h, Ksproxy.h, Dsound.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPropertySet.QuerySupported
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPropertySet::QuerySupported
+ - ksproxy/IKsPropertySet::QuerySupported
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPropertySet.QuerySupported
 ---
 
 # IKsPropertySet::QuerySupported
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>QuerySupported</b> method determines whether a KS object supports a property set and the type of that support.
-
 
 ## -parameters
 
+### -param PropSet 
 
-
-
-### -param PropSet [in]
-
+[in]
 GUID that identifies the property set.
 
+### -param Id 
 
-### -param Id [in]
+[in]
+Identifier of the property within the property set.
 
-Identifier of the property within the property set. 
+### -param TypeSupport 
 
-
-### -param TypeSupport [out]
-
+[out]
 Pointer to a variable that receives a bitmask enumerating the flags that indicate the support that the underlying driver provides. A driver can support a bitwise OR combination of the following flags: 
 
 <table>
@@ -96,12 +91,8 @@ Supports setting a property. Use the <a href="https://docs.microsoft.com/windows
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns NOERROR if successful; otherwise, returns one of the following error codes:
 
@@ -144,14 +135,8 @@ Property set is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 KS objects include, for example, KS filters, KS pins, and KS clocks. 
 
@@ -166,19 +151,11 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>
- 
-
- 
 

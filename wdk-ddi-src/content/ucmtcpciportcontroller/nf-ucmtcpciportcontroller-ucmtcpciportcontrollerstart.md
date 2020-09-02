@@ -8,8 +8,6 @@ ms.assetid: 94e7c36a-e45c-4d98-aeb7-f23769347ca5
 ms.date: 05/07/2018
 keywords: ["UcmTcpciPortControllerStart function"]
 ms.keywords: UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart, ucmtcpciportcontroller/UcmTcpciPortControllerStart
-f1_keywords:
- - "ucmtcpciportcontroller/UcmTcpciPortControllerStart"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ucmtcpcicxstub.lib
-- ucmtcpcicxstub.dll
-api_name:
-- UcmTcpciPortControllerStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcmTcpciPortControllerStart
+ - ucmtcpciportcontroller/UcmTcpciPortControllerStart
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ucmtcpcicxstub.lib
+ - ucmtcpcicxstub.dll
+api_name:
+ - UcmTcpciPortControllerStart
 ---
 
 # UcmTcpciPortControllerStart function
@@ -48,24 +47,15 @@ req.typenames:
 
 ## -description
 
-
 Indicates to the UcmTcpciCx class extension that the client driver  is now ready to service hardware requests for the port controller.
 
-
 ## -parameters
-
-
-
 
 ### -param PortControllerObject
 
 Handle to the port controller  object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>.
 
-
 ## -returns
-
-
-
 
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
                     
@@ -98,14 +88,8 @@ Hardware request queue has not been set by calling <a href="https://docs.microso
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After the client driver has received the UCMPORTCONTROLLER handle for the port controller object, the driver calls this method to notify the class extension that the driver can start receiving hardware requests. This method call allows the client driver to perform initialization of its framework context space on the port controller object, before the class extension can invoke the driver's callback functions or requests for the port controller object. The driver cannot call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert">UcmTcpciPortControllerAlert</a> or  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstop">UcmTcpciPortControllerStop</a> until the port controller has been started.
 
@@ -118,16 +102,7 @@ A call to <b>UcmTcpciPortControllerStart</b> to start a port controller object a
 
 On boot, if the BIOS had already negotiated a PD contract, UcmTcpciCx starts from an unattached state.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstop">UcmTcpciPortControllerStop</a>
- 
-
- 
 

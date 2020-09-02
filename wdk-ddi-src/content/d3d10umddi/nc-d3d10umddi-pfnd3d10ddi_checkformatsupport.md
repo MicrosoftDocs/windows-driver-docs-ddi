@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CheckFormatSupport"
+ - PFND3D10DDI_CHECKFORMATSUPPORT
+ - d3d10umddi/PFND3D10DDI_CHECKFORMATSUPPORT
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CHECKFORMATSUPPORT callback function
+
 
 ## -description
 
@@ -60,7 +62,7 @@ A handle to the display device (graphics context).
 
 *Format* [in]
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) typed value that indicates the pixel format to retrieve capabilities for.
+A [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) typed value that indicates the pixel format to retrieve capabilities for.
 
 ### -param Arg3
 
@@ -90,7 +92,6 @@ A pointer to a variable that receives a valid bitwise <b>OR</b> of the following
 |D3DWDDM1_3DDI_FORMAT_SUPPORT_TILED (0x00010000)|The format supports use in a tiled resource of type <b>D3D10DDIRESOURCE_TEXTURE1D</b>, <b>D3D10DDIRESOURCE_TEXTURE2D</b>, or <b>D3D10DDIRESOURCE_TEXTURECUBE</b>.<br/>Available starting with Windows 8.1, and supported only by WDDM 1.3 and later drivers.|
 
 ## -remarks
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 

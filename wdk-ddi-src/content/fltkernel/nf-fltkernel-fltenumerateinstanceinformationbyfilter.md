@@ -8,8 +8,6 @@ ms.assetid: c5590897-45cf-4712-b980-b99aaacfba88
 ms.date: 04/16/2018
 keywords: ["FltEnumerateInstanceInformationByFilter function"]
 ms.keywords: FltApiRef_e_to_o_89f20331-46dd-42f8-bbf5-42650766bdc8.xml, FltEnumerateInstanceInformationByFilter, FltEnumerateInstanceInformationByFilter routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByFilter, ifsk.fltenumerateinstanceinformationbyfilter
-f1_keywords:
- - "fltkernel/FltEnumerateInstanceInformationByFilter"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltEnumerateInstanceInformationByFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltEnumerateInstanceInformationByFilter
+ - fltkernel/FltEnumerateInstanceInformationByFilter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltEnumerateInstanceInformationByFilter
 ---
 
 # FltEnumerateInstanceInformationByFilter function
@@ -48,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltEnumerateInstanceInformationByFilter</b> routine provides information about instances of a given minifilter driver.
-
 
 ## -parameters
 
+### -param Filter 
 
+[in]
+Opaque filter pointer for the caller.
 
+### -param Index 
 
-### -param Filter [in]
+[in]
+Zero-based index of the instance for which the information is requested.
 
-Opaque filter pointer for the caller. 
+### -param InformationClass 
 
-
-### -param Index [in]
-
-Zero-based index of the instance for which the information is requested. 
-
-
-### -param InformationClass [in]
-
+[in]
 Type of information requested. This parameter can have one of the following values. 
 
 <table>
@@ -117,27 +112,23 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https:
 </td>
 </tr>
 </table>
- 
 
+### -param Buffer 
 
-### -param Buffer [out]
+[out]
+Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter.
 
-Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter. 
+### -param BufferSize 
 
+[in]
+Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value.
 
-### -param BufferSize [in]
+### -param BytesReturned 
 
-Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value. 
-
-
-### -param BytesReturned [out]
-
-Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltEnumerateInstanceInformationByFilter</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltEnumerateInstanceInformationByFilter</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltEnumerateInstanceInformationByFilter</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -191,14 +182,8 @@ There are no more entries in the minifilter driver's instance list. This is a wa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>Index</i> parameter is simply a way for <b>FltEnumerateInstanceInformationByFilter </b>to select among instances in the instance list for the minifilter driver specified by <i>Filter</i>.  Because the minifilter driver instances in the instance list can change at any time, two calls to <b>FltEnumerateInstanceInformationByFilter </b>with the same <i>Index</i> and <i>Filter</i> values are not guaranteed to return the same result. 
 
@@ -216,13 +201,7 @@ To enumerate all volumes that are known to the Filter Manager, call <a href="htt
 
 .
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a>
 
@@ -257,7 +236,4 @@ To enumerate all volumes that are known to the Filter Manager, call <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
- 
-
- 
 

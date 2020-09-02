@@ -8,8 +8,6 @@ ms.assetid: 6d0352ae-0376-4992-89ef-90702591042e
 ms.date: 05/03/2018
 keywords: ["IDebugOutputCallbacks::Output"]
 ms.keywords: ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, IDebugOutputCallbacks interface [Windows Debugging],Output method, IDebugOutputCallbacks.Output, IDebugOutputCallbacks::Output, Output, Output method [Windows Debugging], Output method [Windows Debugging],IDebugOutputCallbacks interface, dbgeng/IDebugOutputCallbacks::Output, debugger.idebugoutputcallbacks_output
-f1_keywords:
- - "dbgeng/IDebugOutputCallbacks.Output"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugOutputCallbacks.Output
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugOutputCallbacks::Output
+ - dbgeng/IDebugOutputCallbacks::Output
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugOutputCallbacks.Output
 ---
 
 # IDebugOutputCallbacks::Output
@@ -47,41 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>Output</b> callback method is called by the engine to send output from the client to the <b>IDebugOutputCallbacks</b>  object that is registered with the client.
-
 
 ## -parameters
 
+### -param Mask 
 
-
-
-### -param Mask [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> bit flags that indicate the nature of the output.
 
+### -param Text 
 
-### -param Text [in]
-
+[in]
 Specifies the output that is being sent.
-
 
 ## -returns
 
-
-
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacks</b> object is registered, is disabled.
 
-
-
-
 ## -remarks
-
-
 
 The engine calls this method only if the supplied value of <i>Mask</i> is allowed by the client's output control.
 
 For more information about debugger engine output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
-
 

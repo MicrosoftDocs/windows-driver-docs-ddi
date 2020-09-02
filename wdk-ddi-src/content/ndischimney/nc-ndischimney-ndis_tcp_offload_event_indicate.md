@@ -8,8 +8,6 @@ ms.assetid: b62e8a07-fe7b-4c52-8795-19e4bb889b6e
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_OFFLOAD_EVENT_INDICATE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_EVENT_INDICATE, NDIS_TCP_OFFLOAD_EVENT_INDICATE callback, NdisTcpOffloadEventHandler, NdisTcpOffloadEventHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadEventHandler, netvista.ndistcpoffloadeventhandler, tcp_chim_ndis_func_24cca7c4-aa36-4ff3-8896-93bd0b8517af.xml
-f1_keywords:
- - "ndischimney/NdisTcpOffloadEventHandler"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndischimney.h
-api_name:
-- NdisTcpOffloadEventHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_TCP_OFFLOAD_EVENT_INDICATE
+ - ndischimney/NDIS_TCP_OFFLOAD_EVENT_INDICATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisTcpOffloadEventHandler
 ---
 
 # NDIS_TCP_OFFLOAD_EVENT_INDICATE callback function
@@ -47,30 +46,26 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 An offload target calls the 
   <b>NdisTcpOffloadEventHandler</b> function to indicate an event that pertains to an offloaded TCP
   connection.
 
-
 ## -parameters
 
+### -param NdisOffloadHandle 
 
-
-
-### -param NdisOffloadHandle [in]
-
+[in]
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
+### -param EventType 
 
-### -param EventType [in]
-
+[in]
 The event being indicated as one of the following <b>TCP_OFFLOAD_EVENT_TYPE</b> values:
      
 
@@ -103,9 +98,9 @@ Indicates that the remote host has initiated an abortive disconnect by sending a
 
 Indicates a change in the preferred send backlog size.
 
+### -param EventSpecificInformation 
 
-### -param EventSpecificInformation [in]
-
+[in]
 Specifies additional information about the event being indicated as follows:
      
 
@@ -137,10 +132,7 @@ Not meaningful.
 Specifies the optimum number of send data bytes that the host stack should have outstanding at
        the offload target.
 
-
 ## -remarks
-
-
 
 <h3><a id="Indicating_a_Graceful_Disconnect"></a><a id="indicating_a_graceful_disconnect"></a><a id="INDICATING_A_GRACEFUL_DISCONNECT"></a>Indicating a Graceful Disconnect</h3>
 An offload target should indicate a graceful disconnect only when:
@@ -418,13 +410,7 @@ The offload target should implement a throttling mechanism to ensure that, if th
     indicate a 
     <b>SendBacklogSize</b> event. This will prevent a storm of event indications from occurring.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-tcp-chimney-specific-events">Indicating TCP Chimney-Specific Events</a>
 
@@ -462,7 +448,4 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
      the Reception of a FIN or RST Segment</a>
- 
-
- 
 

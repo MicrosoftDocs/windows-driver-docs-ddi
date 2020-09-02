@@ -8,8 +8,6 @@ ms.assetid: b6ac1458-775d-4f73-86a1-30bfbf2256cc
 ms.date: 04/30/2018
 keywords: ["ZwFlushBuffersFile function"]
 ms.keywords: NtFlushBuffersFile, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml, kernel.zwflushbuffersfile, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile
-f1_keywords:
- - "ntifs/ZwFlushBuffersFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwFlushBuffersFile
-- NtFlushBuffersFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwFlushBuffersFile
+ - ntifs/ZwFlushBuffersFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwFlushBuffersFile
+ - NtFlushBuffersFile
 ---
 
 # ZwFlushBuffersFile function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwFlushBuffersFile</b> routine is called by a file system filter driver to send a flush request for the specified file to the file system.
-
 
 ## -parameters
 
+### -param FileHandle 
 
-
-
-### -param FileHandle [in]
-
+[in]
 Handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a> for the file whose buffers will be flushed. This parameter is required and cannot be <b>NULL</b>.
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [out]
-
+[out]
 Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>ZwFlushBuffersFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
 
@@ -101,14 +93,8 @@ The file resides on a volume that is not currently mounted; this is an error cod
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A file system filter driver can call <b>ZwFlushBuffersFile</b> to issue an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a> request to the file system for a given file. The flush operation is synchronous.
 
@@ -120,13 +106,7 @@ Callers of <b>ZwFlushBuffersFile</b> must be running at IRQL = PASSIVE_LEVEL and
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers">FltFlushBuffers</a>
 
@@ -145,7 +125,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>
- 
-
- 
 

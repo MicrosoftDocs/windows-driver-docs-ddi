@@ -8,8 +8,6 @@ ms.assetid: 8981e2f9-b456-48de-b31c-25a6884bcf12
 ms.date: 04/30/2018
 keywords: ["IO_CSQ_ACQUIRE_LOCK callback function"]
 ms.keywords: CsqAcquireLock, CsqAcquireLock routine [Kernel-Mode Driver Architecture], DrvrRtns_02339dc6-f9f2-47b0-a0c9-df36f862b5d6.xml, IO_CSQ_ACQUIRE_LOCK, kernel.csqacquirelock, wdm/CsqAcquireLock
-f1_keywords:
- - "wdm/CsqAcquireLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- CsqAcquireLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IO_CSQ_ACQUIRE_LOCK
+ - wdm/IO_CSQ_ACQUIRE_LOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - CsqAcquireLock
 ---
 
 # IO_CSQ_ACQUIRE_LOCK callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>CsqAcquireLock</i> routine is used by the system to acquire the lock for a driver-implemented, cancel-safe IRP queue.
-
 
 ## -parameters
 
+### -param Csq 
 
-
-
-### -param Csq [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
+### -param Irql 
 
-### -param Irql [out]
-
+[out]
 Pointer to a variable that the <i>CsqAcquireLock</i> routine can use to store the current IRQL. The system passes the stored value <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a> when it releases the lock.
 
-
 ## -remarks
-
-
 
 The driver specifies the <i>CsqAcquireLock</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqAcquireLock</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/cancel-safe-irp-queues">Cancel-Safe IRP Queues</a>.
 
@@ -119,12 +111,7 @@ The IO_CSQ_ACQUIRE_LOCK function type is defined in the Wdm.h header file. To mo
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp">CsqCompleteCanceledIrp</a>
 
@@ -175,7 +162,4 @@ The IO_CSQ_ACQUIRE_LOCK function type is defined in the Wdm.h header file. To mo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
- 
-
- 
 

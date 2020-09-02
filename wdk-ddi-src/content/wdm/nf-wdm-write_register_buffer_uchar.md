@@ -8,8 +8,6 @@ ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
 ms.date: 04/30/2018
 keywords: ["WRITE_REGISTER_BUFFER_UCHAR function"]
 ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_29b68153-db95-4017-ab96-d05e6c984503.xml, kernel.write_register_buffer_uchar, wdm/WRITE_REGISTER_BUFFER_UCHAR
-f1_keywords:
- - "wdm/WRITE_REGISTER_BUFFER_UCHAR"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- WRITE_REGISTER_BUFFER_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WRITE_REGISTER_BUFFER_UCHAR
+ - wdm/WRITE_REGISTER_BUFFER_UCHAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - WRITE_REGISTER_BUFFER_UCHAR
 ---
 
 # WRITE_REGISTER_BUFFER_UCHAR function
@@ -47,37 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>WRITE_REGISTER_BUFFER_UCHAR</b> routine writes a number of bytes from a buffer to the specified register.
-
 
 ## -parameters
 
+### -param Register 
 
-
-
-### -param Register [in]
-
+[in]
 Pointer to the register, which must be a mapped range in memory space.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Pointer to a buffer from which an array of UCHAR values is to be written.
 
+### -param Count 
 
-### -param Count [in]
-
-Specifies the number of bytes to be written to the register. 
-
+[in]
+Specifies the number of bytes to be written to the register.
 
 ## -remarks
-
-
 
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 Callers of <b>WRITE_REGISTER_BUFFER_UCHAR</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
-
-
 

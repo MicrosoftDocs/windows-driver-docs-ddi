@@ -8,8 +8,6 @@ ms.assetid: 18d248d9-d447-4d3e-9eaa-f6befb4bef58
 ms.date: 05/03/2018
 keywords: ["wiauDbgErrorHr function"]
 ms.keywords: image.wiaudbgerrorhr, wiauDbgErrorHr, wiauDbgErrorHr function [Imaging Devices], wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
-f1_keywords:
- - "wiautil/wiauDbgErrorHr"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wiautil.h
-api_name:
-- wiauDbgErrorHr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgErrorHr
+ - wiautil/wiauDbgErrorHr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wiautil.h
+api_name:
+ - wiauDbgErrorHr
 ---
 
 # wiauDbgErrorHr function
+
 
 ## -description
 
@@ -83,3 +83,4 @@ wiauDbgErrorHr(hr, "AllocateBuffer", "Buffer size is %d bytes", size);
 [wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
 
 [wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
+

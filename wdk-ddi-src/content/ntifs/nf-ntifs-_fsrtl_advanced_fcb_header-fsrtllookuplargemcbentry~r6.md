@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupLargeMcbEntry function"]
 ms.keywords: FsRtlLookupLargeMcbEntry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, ifsk.fsrtllookuplargemcbentry, ntifs/FsRtlLookupLargeMcbEntry
 f1_keywords:
  - "ntifs/FsRtlLookupLargeMcbEntry"
+ - "FsRtlLookupLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlLookupLargeMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -86,8 +85,8 @@ Given a virtual block number (VBN) and a map control block (MCB), the <b>FsRtlLo
 <p>Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. </p>
 
 
-### -param Index [out, optional]
-
+### -param Index 
+[out, optional]
 Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>.
 
 

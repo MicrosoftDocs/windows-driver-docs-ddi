@@ -8,8 +8,6 @@ ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
 ms.date: 02/26/2018
 keywords: ["WdfMemoryCreateFromLookaside function"]
 ms.keywords: DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, kmdf.wdfmemorycreatefromlookaside, wdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside
-f1_keywords:
- - "wdfmemory/WdfMemoryCreateFromLookaside"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfMemoryCreateFromLookaside
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfMemoryCreateFromLookaside
+ - wdfmemory/WdfMemoryCreateFromLookaside
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfMemoryCreateFromLookaside
 ---
 
 # WdfMemoryCreateFromLookaside function
@@ -48,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfMemoryCreateFromLookaside</b> method creates a framework memory object and obtains a memory buffer from a specified lookaside list.
 
-
 ## -parameters
 
+### -param Lookaside 
 
-
-
-### -param Lookaside [in]
-
+[in]
 A handle to a framework lookaside-list object that is obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdflookasidelistcreate">WdfLookasideListCreate</a>.
 
+### -param Memory 
 
-### -param Memory [out]
-
+[out]
 A pointer to a location that receives a handle to the new framework memory object.
 
-
 ## -returns
-
-
 
 <b>WdfMemoryCreateFromLookaside</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method return one of the following values:
 
@@ -109,14 +101,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 After your driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdflookasidelistcreate">WdfLookasideListCreate</a> to create a lookaside-list object, the driver can call <b>WdfMemoryCreateFromLookaside</b> to obtain a buffer from the lookaside list. 
 
@@ -154,12 +139,7 @@ status = WdfMemoryCreateFromLookaside(
                                       );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdflookasidelistcreate">WdfLookasideListCreate</a>
 
@@ -174,7 +154,4 @@ status = WdfMemoryCreateFromLookaside(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>
- 
-
- 
 

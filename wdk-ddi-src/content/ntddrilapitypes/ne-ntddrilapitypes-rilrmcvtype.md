@@ -10,6 +10,7 @@ keywords: ["RILRMCVTYPE enumeration"]
 ms.keywords: RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_STRING, netvista.rilrmcvtype, ntddrilapitypes/RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_RMCV_TYPE_DWORD, ntddrilapitypes/RIL_RMCV_TYPE_STRING
 f1_keywords:
  - "ntddrilapitypes/RILRMCVTYPE"
+ - "RILRMCVTYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRMCVTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRMCVTYPE
 ---

@@ -8,8 +8,6 @@ ms.assetid: 7566f92d-0e25-44bf-a2b3-587bb11a7d03
 ms.date: 04/20/2018
 keywords: ["DrvPrinterEvent function"]
 ms.keywords: DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, winddiui/DrvPrinterEvent
-f1_keywords:
- - "winddiui/DrvPrinterEvent"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvPrinterEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvPrinterEvent
+ - winddiui/DrvPrinterEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvPrinterEvent
 ---
 
 # DrvPrinterEvent function
@@ -47,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
 A printer interface DLL's <b>DrvPrinterEvent</b> function is called by the print spooler when processing printer-specific events that might require action by the printer driver.
-
 
 ## -parameters
 
+### -param pPrinterName 
 
-
-
-### -param pPrinterName [in]
-
+[in]
 Caller-supplied pointer to a NULL-terminated printer name string. The string format can be \\<i>Machine</i>\\<i>PrinterName</i> to specify a remote printer, or <i>PrinterName</i> to specify a local printer.
-
 
 ### -param DriverEvent
 
@@ -165,8 +159,6 @@ The PRINTER_EVENT_INITIALIZE event specifies a <b>NULL</b> lParam parameter valu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags
 
@@ -190,26 +182,16 @@ If set, the function <b>mustnot</b> display a user interface. During the install
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lParam
 
 Not used unless the <i>DriverEvent</i> parameter is set to PRINTER_EVENT_ATTRIBUTES_CHANGED. In this case, <i>lParam</i> contains the address of a PRINTER_EVENT_ATTRIBUTES_INFO structure. (See the preceding description of the <i>DriverEvent</i> parameter.) For all other values of the <i>DriverEvent</i> parameter, the <i>lParam</i> parameter is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>TRUE</b>; otherwise, it should return <b>FALSE</b>. Currently, however, the only time the function's return value is checked is when the spooler has called <b>DrvPrinterEvent</b> during processing of the <b>AddPrinter</b> function, with <i>DriverEvent</i> set to PRINTER_EVENT_INITIALIZE. If <b>DrvPrinterEvent</b> returns <b>FALSE</b> in this case, the spooler does not create the printer and instead causes <b>AddPrinter</b> to fail.
 
-
-
-
 ## -remarks
-
-
 
 All <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-interface-dll">printer interface DLLs</a> must provide a <b>DrvPrinterEvent</b> function, and the function must support the PRINTER_EVENT_INITIALIZE event code. Support for all other event codes is optional.
 
@@ -222,6 +204,4 @@ For the PRINTER_EVENT_ADD_CONNECTION and PRINTER_EVENT_DELETE_CONNECTION event c
 An example of a driver that might display a user interface when a connection is made is a FAX driver, which could prompt the user for the name and telephone number of the user (FAX sender), and save the information until the connection is deleted.
 
 An example of the type of file that might be stored in a client cache is a large font-metrics file that contains too much information to be written to the registry. When the <b>DrvPrinterEvent</b> function's event code is PRINTER_EVENT_CACHE_REFRESH, the printer interface DLL can reload the file from the server to ensure the cache is up to date.
-
-
 

@@ -8,8 +8,6 @@ ms.assetid: be551557-06db-4fc9-bdcb-030e621e205a
 ms.date: 05/02/2018
 keywords: ["NdisMCmCloseAddressFamilyComplete macro"]
 ms.keywords: NdisMCmCloseAddressFamilyComplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, ndis/NdisMCmCloseAddressFamilyComplete, netvista.ndismcmcloseaddressfamilycomplete
-f1_keywords:
- - "ndis/NdisMCmCloseAddressFamilyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmCloseAddressFamilyComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmCloseAddressFamilyComplete
+ - ndis/NdisMCmCloseAddressFamilyComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmCloseAddressFamilyComplete
 ---
 
 # NdisMCmCloseAddressFamilyComplete macro
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmCloseAddressFamilyComplete</b> returns the final status of a client's request, for which the MCM
   driver returned NDIS_STATUS_PENDING, to close the AF.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -68,8 +62,6 @@ Specifies the NDIS-supplied handle passed to the MCM driver's
      client originally opened the address family.
 
 ## -remarks
-
-
 
 An MCM driver must call 
     <b>NdisMCmCloseAddressFamilyComplete</b> if its 
@@ -94,13 +86,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     as protocol drivers, call 
     <b>NdisCmCloseAddressFamilyComplete</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclcloseaddressfamily">NdisClCloseAddressFamily</a>
 
@@ -120,7 +106,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
- 
-
- 
 

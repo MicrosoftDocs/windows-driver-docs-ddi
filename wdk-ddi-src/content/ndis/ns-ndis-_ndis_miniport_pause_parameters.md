@@ -6,10 +6,8 @@ old-location: netvista\ndis_miniport_pause_parameters.htm
 tech.root: netvista
 ms.assetid: 2d442ff7-37dd-4288-aadf-1ae04f98364c
 ms.date: 10/10/2018
-keywords: ["_NDIS_MINIPORT_PAUSE_PARAMETERS structure"]
+keywords: ["NDIS_MINIPORT_PAUSE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MINIPORT_PAUSE_PARAMETERS, NDIS_MINIPORT_PAUSE_PARAMETERS, NDIS_MINIPORT_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_PAUSE_PARAMETERS, PNDIS_MINIPORT_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_PAUSE_PARAMETERS, miniport_structures_ref_cd7d1bc3-5c65-45c5-8e45-f23619dafff8.xml, ndis/NDIS_MINIPORT_PAUSE_PARAMETERS, ndis/PNDIS_MINIPORT_PAUSE_PARAMETERS, netvista.ndis_miniport_pause_parameters"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_PAUSE_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MINIPORT_PAUSE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_PAUSE_PARAMETERS, *PNDIS_MINIPORT_PAUSE_PARAMETERS
+f1_keywords:
+ - _NDIS_MINIPORT_PAUSE_PARAMETERS
+ - ndis/_NDIS_MINIPORT_PAUSE_PARAMETERS
+ - PNDIS_MINIPORT_PAUSE_PARAMETERS
+ - ndis/PNDIS_MINIPORT_PAUSE_PARAMETERS
+ - NDIS_MINIPORT_PAUSE_PARAMETERS
+ - ndis/NDIS_MINIPORT_PAUSE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MINIPORT_PAUSE_PARAMETERS
 ---
 
 # _NDIS_MINIPORT_PAUSE_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_MINIPORT_PAUSE_PARAMETERS, *PNDIS_MINIPORT_PAUSE_PARAMETERS
 
 ## -description
 
-
 The NDIS_MINIPORT_PAUSE_PARAMETERS structure defines pause parameters for miniport adapters.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -66,11 +64,9 @@ The
      <b>Revision</b> member to NDIS_MINIPORT_PAUSE_PARAMETERS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_MINIPORT_PAUSE_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 Reserved.
-
 
 ### -field PauseReason
 
@@ -85,26 +81,15 @@ For NDIS 6.40 and later miniport drivers running on Windows 10, version 1903 and
 
 ## -remarks
 
-
-
 To define miniport adapter pause parameters, NDIS passes a pointer to an
     NDIS_MINIPORT_PAUSE_PARAMETERS structure to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
- 
-
- 
 

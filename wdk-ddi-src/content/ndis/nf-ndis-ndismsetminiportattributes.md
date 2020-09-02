@@ -8,8 +8,6 @@ ms.assetid: 861626af-23ea-40dc-a91a-7da42d4b0a1c
 ms.date: 05/02/2018
 keywords: ["NdisMSetMiniportAttributes function"]
 ms.keywords: NdisMSetMiniportAttributes, NdisMSetMiniportAttributes function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_2fc47304-466b-4ae0-8450-44c636cecf64.xml, ndis/NdisMSetMiniportAttributes, netvista.ndismsetminiportattributes
-f1_keywords:
- - "ndis/NdisMSetMiniportAttributes"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMSetMiniportAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMSetMiniportAttributes
+ - ndis/NdisMSetMiniportAttributes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMSetMiniportAttributes
 ---
 
 # NdisMSetMiniportAttributes function
@@ -48,18 +47,13 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver must call the 
   <b>NdisMSetMiniportAttributes</b> function from its 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function to
   identify a context area for miniport adapter to NDIS, and to provide NDIS with information about the
   miniport adapter.
 
-
 ## -parameters
-
-
-
 
 ### -param NdisMiniportHandle
 
@@ -67,8 +61,9 @@ The miniport adapter handle that NDIS passed to the
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param MiniportAttributes [in]
+### -param MiniportAttributes 
 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_attributes">
      NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a> union which contains a driver-allocated attributes structure. The
@@ -76,8 +71,6 @@ A pointer to an
      <i>MiniportAdapterHandle</i> specifies.
 
 ## -returns
-
-
 
 <b>NdisMSetMiniportAttributes</b> returns one of the following status values:
 
@@ -113,14 +106,8 @@ Indicates that NDIS does not support the version that is specified in the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A miniport driver must call 
     <b>NdisMSetMiniportAttributes</b> from its 
@@ -156,13 +143,7 @@ Miniport drivers must set the attributes in the
 
 A miniport driver can also call <b>NdisMSetMiniportAttributes</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function. In this case, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_add_device_registration_attributes">NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a> structure is used to specify the context area.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-adapter">Initializing a Miniport Adapter</a>
 
@@ -208,7 +189,4 @@ A miniport driver can also call <b>NdisMSetMiniportAttributes</b> from its <a hr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/setting-the-ndis-6-0-miniport-adapter-attributes">Setting the NDIS 6.0 Miniport Adapter Attributes</a>
- 
-
- 
 

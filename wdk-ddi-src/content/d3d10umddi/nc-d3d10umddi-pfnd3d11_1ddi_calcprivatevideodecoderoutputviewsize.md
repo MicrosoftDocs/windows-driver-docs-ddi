@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateVideoDecoderOutputViewSize"
+ - PFND3D11_1DDI_CALCPRIVATEVIDEODECODEROUTPUTVIEWSIZE
+ - d3d10umddi/PFND3D11_1DDI_CALCPRIVATEVIDEODECODEROUTPUTVIEWSIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CALCPRIVATEVIDEODECODEROUTPUTVIEWSIZE callback function
+
 
 ## -description
 

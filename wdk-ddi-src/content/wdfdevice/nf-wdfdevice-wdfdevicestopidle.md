@@ -8,8 +8,6 @@ ms.assetid: a394f539-bd66-44e2-a857-d657a123b473
 ms.date: 02/26/2018
 keywords: ["WdfDeviceStopIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
-f1_keywords:
- - "wdfdevice/WdfDeviceStopIdle"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceStopIdle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceStopIdle
+ - wdfdevice/WdfDeviceStopIdle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceStopIdle
 ---
 
 # WdfDeviceStopIdle macro
@@ -50,10 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceStopIdle</b> method informs the framework that the specified device must be placed in its working (D0) power state.
+
+## -parameters
+
+### -param Device 
+
+[in]
+A handle to a framework device object.
+
+### -param WaitForD0 
+
+[in]
+A Boolean value that indicates when <b>WdfDeviceStopIdle</b> will return. If <b>TRUE</b>, it returns only after the specified device has entered the D0 device power state. If <b>FALSE</b>, the method returns immediately.
 
 ## -syntax
 
@@ -64,22 +74,7 @@ NTSTATUS WdfDeviceStopIdle(
 );
 ```
 
-## -parameters
-
-
-
-
-### -param Device [in]
-
-A handle to a framework device object.
-
-
-### -param WaitForD0 [in]
-
-A Boolean value that indicates when <b>WdfDeviceStopIdle</b> will return. If <b>TRUE</b>, it returns only after the specified device has entered the D0 device power state. If <b>FALSE</b>, the method returns immediately.
-
 ## -remarks
-
 
 This macro can return the following values:
 
@@ -130,12 +125,7 @@ NTSTATUS  status;
 status = WdfDeviceStopIdle(Device, TRUE);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-power-reference-leaks-in-wdf">Debugging Power Reference Leaks in WDF</a>
 
@@ -150,7 +140,4 @@ status = WdfDeviceStopIdle(Device, TRUE);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevicestopidlewithtag">WdfDeviceStopIdleWithTag</a>
- 
-
- 
 

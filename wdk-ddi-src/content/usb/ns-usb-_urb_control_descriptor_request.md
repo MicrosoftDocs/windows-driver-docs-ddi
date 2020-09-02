@@ -6,10 +6,8 @@ old-location: buses\_urb_control_descriptor_request.htm
 tech.root: usbref
 ms.assetid: 770659f4-701f-47dc-b20f-e51c85cdee4b
 ms.date: 05/07/2018
-keywords: ["_URB_CONTROL_DESCRIPTOR_REQUEST structure"]
+keywords: ["URB_CONTROL_DESCRIPTOR_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], buses._urb_control_descriptor_request, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml"
-f1_keywords:
- - "usb/_URB_CONTROL_DESCRIPTOR_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usb.h
-api_name:
-- _URB_CONTROL_DESCRIPTOR_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _URB_CONTROL_DESCRIPTOR_REQUEST
+ - usb/_URB_CONTROL_DESCRIPTOR_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usb.h
+api_name:
+ - _URB_CONTROL_DESCRIPTOR_REQUEST
 ---
 
 # _URB_CONTROL_DESCRIPTOR_REQUEST structure
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>_URB_CONTROL_DESCRIPTOR_REQUEST</b> structure is used by USB client drivers to get or set descriptors on a USB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -62,70 +56,55 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/us
 
 <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_DESCRIPTOR_REQUEST)</code>.
 
-
 ### -field Reserved
 
 Reserved. Do not use.
-
 
 ### -field Reserved0
 
 Reserved. Do not use.
 
-
 ### -field TransferBufferLength
 
 Specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes sent to or read from the pipe in this member.
-
 
 ### -field TransferBuffer
 
 Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>.
 
-
 ### -field TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. This MDL must be allocated from nonpaged pool.
-
 
 ### -field UrbLink
 
 Reserved. Do not use.
 
-
 ### -field hca
 
 Reserved. Do not use.
-
 
 ### -field Reserved1
 
 Reserved. Do not use.
 
-
 ### -field Index
 
 Specifies the device-defined index of the descriptor that is being retrieved or set.
-
 
 ### -field DescriptorType
 
 Indicates what type of descriptor is being retrieved or set. One of the following values must be specified:
 
-
 ### -field LanguageId
 
 Specifies the language ID of the descriptor to be retrieved when USB_STRING_DESCRIPTOR_TYPE is set in <b>DescriptorType</b>. This member must be set to zero for any other value in <b>DescriptorType</b>.
-
 
 ### -field Reserved2
 
 Reserved. Do not use.
 
-
 ## -remarks
-
-
 
 Drivers can use the <b>UsbBuildGetDescriptorRequest</b> service routine to format this URB. If the caller passes a buffer too small to hold all of the data, the bus driver truncates the data to fit in the buffer without error.
 
@@ -137,13 +116,7 @@ When the caller requests a string descriptor, the bus driver returns a <a href="
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
 
@@ -174,7 +147,4 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_header">_URB_HEADER</a>
- 
-
- 
 

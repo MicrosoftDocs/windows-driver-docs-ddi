@@ -8,8 +8,6 @@ ms.assetid: DC0AB4E3-AA73-4DD5-B91D-95F9D3792321
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_APPLY_CONFIG callback function"]
 ms.keywords: 1/EvtSerCxApplyConfig, EVT_SERCX_APPLY_CONFIG, EVT_SERCX_APPLY_CONFIG callback, EvtSerCxApplyConfig, EvtSerCxApplyConfig callback function [Serial Ports], serports.evtsercxapplyconfig
-f1_keywords:
- - "sercx/EvtSerCxApplyConfig"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 1.0\Sercx.h
-api_name:
-- EvtSerCxApplyConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX_APPLY_CONFIG
+ - sercx/EVT_SERCX_APPLY_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - EvtSerCxApplyConfig
 ---
 
 # EVT_SERCX_APPLY_CONFIG callback function
+
 
 ## -description
 
@@ -50,13 +50,14 @@ The <i>EvtSerCxApplyConfig</i> event callback function instructs the serial cont
 
 ## -parameters
 
-### -param Device [in]
+### -param Device 
 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
+### -param ConnectionParameters 
 
-### -param ConnectionParameters [in]
-
+[in]
 A pointer to the connection parameters structure.  This function must cast this parameter to the appropriate pointer type, parse the data structure to obtain the configuration settings, and apply these settings to the serial controller hardware. The connection parameters structure is defined by the hardware platform vendor and is opaque to both the serial framework extension (SerCx) and the operating system.
 
 ## -returns
@@ -227,3 +228,4 @@ The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetconnectionparameters">SerCxGetConnectionParameters</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
+

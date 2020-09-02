@@ -8,8 +8,6 @@ ms.assetid: ed441ca2-ca98-4c8c-9c2f-4258c535ebac
 ms.date: 04/16/2018
 keywords: ["PFLT_TRANSACTION_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: FltCallbacks_e4045561-4dc3-44eb-b5c6-086e767f9c22.xml, PFLT_TRANSACTION_NOTIFICATION_CALLBACK, TransactionNotificationCallback, TransactionNotificationCallback routine [Installable File System Drivers], fltkernel/TransactionNotificationCallback, ifsk.pflt_transaction_notification_callback
-f1_keywords:
- - "fltkernel/TransactionNotificationCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- TransactionNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFLT_TRANSACTION_NOTIFICATION_CALLBACK
+ - fltkernel/PFLT_TRANSACTION_NOTIFICATION_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - TransactionNotificationCallback
 ---
 
 # PFLT_TRANSACTION_NOTIFICATION_CALLBACK callback function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
-A minifilter driver can register a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK as its <i>TransactionNotificationCallback</i> routine. 
-
+A minifilter driver can register a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK as its <i>TransactionNotificationCallback</i> routine.
 
 ## -parameters
 
+### -param FltObjects 
 
+[in]
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
 
+### -param TransactionContext 
 
-### -param FltObjects [in]
+[in]
+Pointer to the minifilter driver's transaction context.
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation. 
+### -param NotificationMask 
 
-
-### -param TransactionContext [in]
-
-Pointer to the minifilter driver's transaction context. 
-
-
-### -param NotificationMask [in]
-
+[in]
 Specifies the type of notifications that the filter manager is sending to the minifilter driver, as one of the following values. 
 
 <table>
@@ -126,12 +121,8 @@ This notification is sent when the transaction is being rolled back or aborted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The PFLT_TRANSACTION_NOTIFICATION_CALLBACK routine returns one of the following NTSTATUS values: 
 
@@ -163,14 +154,8 @@ Returning this status value indicates that the minifilter driver is not yet fini
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a minifilter driver registers itself by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine, it can register a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK as the minifilter's <i>TransactionNotificationCallback</i> routine. 
 
@@ -195,14 +180,7 @@ If the minifilter driver returns STATUS_PENDING from this callback routine, it m
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackcomplete">FltRollbackComplete</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
 
@@ -229,7 +207,4 @@ If the minifilter driver returns STATUS_PENDING from this callback routine, it m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackcomplete">FltRollbackComplete</a>
- 
-
- 
 

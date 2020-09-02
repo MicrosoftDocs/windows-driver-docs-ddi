@@ -6,10 +6,8 @@ old-location: netvista\ndis_ipsec_offload_v1_net_buffer_list_info.htm
 tech.root: netvista
 ms.assetid: 990b3df6-5ef7-4201-a09d-d94822d0a8bb
 ms.date: 05/02/2018
-keywords: ["_NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure"]
+keywords: ["NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure"]
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_GENERIC_ERROR, CRYPTO_INVALID_PACKET_SYNTAX, CRYPTO_INVALID_PROTOCOL, CRYPTO_SUCCESS, CRYPTO_TRANSPORT_AH_AUTH_FAILED, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, CRYPTO_TUNNEL_AH_AUTH_FAILED, CRYPTO_TUNNEL_ESP_AUTH_FAILED, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml"
-f1_keywords:
- - "ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+f1_keywords:
+ - _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ - ndis/_NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ - PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ - ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ - NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ - ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
 ---
 
 # _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure
@@ -47,20 +50,14 @@ req.typenames: NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_
 
 ## -description
 
-
 The <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure specifies information that is used in
   offloading Internet protocol security (IPsec) tasks from the TCP/IP transport to a miniport driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Transmit
 
 A structure that contains the following members:
-
 
 ### -field Transmit.OffloadHandle
 
@@ -68,11 +65,9 @@ A handle to the outbound security association (SA) for a packet that has just on
        regardless of whether that payload is for a transport (end-to-end) connection or a tunnel
        connection.
 
-
 ### -field Receive
 
 A structure that contains the following members:
-
 
 ### -field Receive.SaDeleteReq
 
@@ -83,13 +78,11 @@ A USHORT value that, when set, indicates that the TCP/IP transport should issue 
        interface card (NIC) must not remove either of these SAs before it receives the corresponding
        OID_TCP_TASK_IPSEC_DELETE_SA request.
 
-
 ### -field Receive.CryptoDone
 
 A USHORT value that, when set, indicates that a NIC performed IPsec checking on at least one
        IPsec payload in the receive packet. When this value is cleared, it indicates that the NIC did not
        perform IPsec checking on the packet.
-
 
 ### -field Receive.NextCryptoDone
 
@@ -99,11 +92,9 @@ A USHORT value that, when set, indicates that a NIC performed IPsec checking on 
        <b>NextCryptoDone</b> is set only if a packet has both tunnel and transport IPsec payloads; otherwise, 
        <b>NextCryptoDone</b> is set to zero.
 
-
 ### -field Receive.Pad
 
 Reserved for NDIS.
-
 
 ### -field Receive.CryptoStatus
 
@@ -209,12 +200,8 @@ The IPsec protocols that were specified in the SA that the packet was received o
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Before the TCP/IP transport passes a send packet that a NIC will perform IPsec tasks on to the
     miniport driver of the NIC, the transport updates the IPsec information in the
@@ -276,13 +263,7 @@ To set and get the IPsec information, use the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro.
     <b>NET_BUFFER_LIST_INFO</b> returns the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
@@ -301,7 +282,4 @@ To set and get the IPsec information, use the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>
- 
-
- 
 

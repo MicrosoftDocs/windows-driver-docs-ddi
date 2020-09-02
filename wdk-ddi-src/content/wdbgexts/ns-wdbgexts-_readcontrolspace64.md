@@ -6,40 +6,43 @@ old-location: debugger\readcontrolspace64.htm
 tech.root: debugger
 ms.assetid: 4fa3d51a-d2f5-4b5f-abc0-515bf7211b87
 ms.date: 02/27/2018
-keywords: ["_READCONTROLSPACE64 structure"]
+keywords: ["READCONTROLSPACE64 structure"]
 ms.keywords: "*PREADCONTROLSPACE64, READCONTROLSPACE64, ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, _READCONTROLSPACE64, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64"
-f1_keywords:
- - "wdbgexts/ReadControlSpace64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- ReadControlSpace64
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: READCONTROLSPACE64, *PREADCONTROLSPACE64
+f1_keywords:
+ - _READCONTROLSPACE64
+ - wdbgexts/_READCONTROLSPACE64
+ - PREADCONTROLSPACE64
+ - wdbgexts/PREADCONTROLSPACE64
+ - READCONTROLSPACE64
+ - wdbgexts/READCONTROLSPACE64
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - ReadControlSpace64
 ---
 
 # _READCONTROLSPACE64 structure
@@ -47,16 +50,11 @@ req.typenames: READCONTROLSPACE64, *PREADCONTROLSPACE64
 
 ## -description
 
-
 The <b>ReadControlSpace64</b> function reads the processor-specific control space into the array pointed to by <i>buf</i>.
-
 
 ## -struct-fields
 
-
 ## -remarks
-
-
 
 If you are writing 32-bit code, you should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace">ReadControlSpace</a> instead. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/32-bit-pointers-and-64-bit-pointers">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
@@ -134,6 +132,4 @@ This macro does not return a value.
 
 
 The parameters provided to this macro are the same as those provided to the <b>ReadControlSpace64</b> function except that instead of providing a pointer to a structure and its size, the structure can be provided directly.
-
-
 

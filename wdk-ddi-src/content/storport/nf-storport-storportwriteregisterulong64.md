@@ -8,8 +8,6 @@ ms.assetid: FFBC7A27-B980-49AF-9207-237E0F0292FA
 ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterUlong64 macro"]
 ms.keywords: StorPortWriteRegisterUlong64, StorPortWriteRegisterUlong64 routine [Storage Devices], storage.storportwriteregisterulong64, storport/StorPortWriteRegisterUlong64
-f1_keywords:
- - "storport/StorPortWriteRegisterUlong64"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortWriteRegisterUlong64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortWriteRegisterUlong64
+ - storport/StorPortWriteRegisterUlong64
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortWriteRegisterUlong64
 ---
 
 # StorPortWriteRegisterUlong64 macro
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 This <b>StorPortWriteRegisterUlong64</b> routine writes a <b>ULONG64</b> value to the specified register address.
 
-
 ## -parameters
-
-
-
 
 ### -param h
 
@@ -68,27 +62,11 @@ This <b>StorPortWriteRegisterUlong64</b> routine writes a <b>ULONG64</b> value t
 
 <p>A <b>ULONG64</b> value to write to the register.</p>
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>StorPortWriteRegisterUlong64</b> routine is only available on the 64-bit version of Windows.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterulong64">StorPortReadRegisterUlong64</a>
- 
-
- 
 

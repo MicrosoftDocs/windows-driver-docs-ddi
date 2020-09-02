@@ -8,38 +8,37 @@ ms.assetid: 7e282ec6-c159-47a4-af14-2b0cb8e34a8e
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_PROTECTED_CALLBACK callback function"]
 ms.keywords: DXGKDDI_PROTECTED_CALLBACK, DXGKDDI_PROTECTED_CALLBACK callback, DmFunctions_a4386149-d1c4-45f4-8649-5539783620f4.xml, DxgkProtectedCallback, DxgkProtectedCallback callback function [Display Devices], display.dxgkprotectedcallback, dispmprt/DxgkProtectedCallback
-f1_keywords:
- - "dispmprt/DxgkProtectedCallback"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkProtectedCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_PROTECTED_CALLBACK
+ - dispmprt/DXGKDDI_PROTECTED_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkProtectedCallback
 ---
 
 # DXGKDDI_PROTECTED_CALLBACK callback function
@@ -47,27 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkProtectedCallback</i> callback routine is implemented by the display miniport driver and is called by <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a> during a protected state when all access to the display adapter is prevented.
 
-
-## -prototype
-
-
-```cpp
-DXGKDDI_PROTECTED_CALLBACK DxgkProtectedCallback;
-
-VOID DxgkProtectedCallback(
-  _In_ const PVOID    MiniportDeviceContext,
-  _In_       PVOID    ProtectedCallbackContext,
-  _In_       NTSTATUS ProtectionStatus
-)
-{ ... }
-```
-
-
 ## -parameters
-
 
 ### -param MiniportDeviceContext
 
@@ -81,12 +62,20 @@ VOID DxgkProtectedCallback(
 
 [in] Status of the display adapter's protected state. If STATUS_SUCCESS, the adapter was successfully protected from access. A failure status code indicates that the adapter is not protected.
 
+## -prototype
 
+```cpp
+DXGKDDI_PROTECTED_CALLBACK DxgkProtectedCallback;
 
+VOID DxgkProtectedCallback(
+  _In_ const PVOID    MiniportDeviceContext,
+  _In_       PVOID    ProtectedCallbackContext,
+  _In_       NTSTATUS ProtectionStatus
+)
+{ ... }
+```
 
 ## -remarks
-
-
 
 <i>DxgkProtectedCallback</i> must be called only when all access to the display adapter has been halted, as indicated by the status parameter <i>ProtectionStatus.</i>
 
@@ -115,16 +104,7 @@ The adapter, including its registers and display mode, is maintained in the prop
 </li>
 </ul>
 
-
-
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>
-
-
-
- 
-
- 
-
 

@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDIARG_CREATERESOURCE_0075
 f1_keywords:
+ - D3D12DDIARG_CREATERESOURCE_0075
  - d3d12umddi/D3D12DDIARG_CREATERESOURCE_0075
 dev_langs:
  - c++
@@ -97,3 +98,4 @@ A [**D3D12DDI_MIP_REGION_0075**](ns-d3d12umddi-d3d12ddi_mip_region_0075.md) stru
 ## -remarks
 
 ## -see-also
+

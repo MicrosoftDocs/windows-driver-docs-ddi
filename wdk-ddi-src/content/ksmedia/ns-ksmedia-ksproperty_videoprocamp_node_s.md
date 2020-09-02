@@ -8,8 +8,6 @@ ms.assetid: 7350ffec-2993-4f05-b031-3d633a6f17ad
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_VIDEOPROCAMP_NODE_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S, PKSPROPERTY_VIDEOPROCAMP_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S, stream.ksproperty_videoprocamp_node_s, vidcapstruct_d7d544d4-dd33-4498-9104-c63fa5a48079.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_VIDEOPROCAMP_NODE_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VIDEOPROCAMP_NODE_S, *PKSPROPERTY_VIDEOPROCAMP_NODE_S
+f1_keywords:
+ - PKSPROPERTY_VIDEOPROCAMP_NODE_S
+ - ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S
+ - KSPROPERTY_VIDEOPROCAMP_NODE_S
+ - ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_VIDEOPROCAMP_NODE_S
 ---
 
 # KSPROPERTY_VIDEOPROCAMP_NODE_S structure
@@ -47,24 +48,17 @@ req.typenames: KSPROPERTY_VIDEOPROCAMP_NODE_S, *PKSPROPERTY_VIDEOPROCAMP_NODE_S
 
 ## -description
 
-
 The KSPROPERTY_VIDEOPROCAMP_NODE_S structure describes node-based property settings in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a> property set.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NodeProperty
 
 Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
-
 ### -field Value
 
 Specifies the value of a request. For Set requests, the minidriver should set the property specified in <b>Property</b> to this value. For Get requests, the minidriver should return the value of the property specified in <b>Property</b>.
-
 
 ### -field Flags
 
@@ -96,8 +90,6 @@ Indicates that the property is to be adjusted automatically.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Capabilities
 
@@ -129,16 +121,8 @@ The device supports automatic setting of the specified property.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a>
- 
-
- 
 

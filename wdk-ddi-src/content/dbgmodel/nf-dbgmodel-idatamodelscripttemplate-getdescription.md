@@ -1,43 +1,42 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetDescription
 title: IDataModelScriptTemplate::GetDescription (dbgmodel.h)
-description: The GetDescription method returns a description of the template. 
+description: The GetDescription method returns a description of the template.
 ms.assetid: 1335191d-ca6c-4f68-80c1-a0116944f8c8
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptTemplate::GetDescription"]
-f1_keywords:
- - "dbgmodel/IDataModelScriptTemplate.GetDescription"
 ms.keywords: IDataModelScriptTemplate::GetDescription, GetDescription, IDataModelScriptTemplate.GetDescription, IDataModelScriptTemplate::GetDescription, IDataModelScriptTemplate.GetDescription
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScriptTemplate.GetDescription
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScriptTemplate::GetDescription
+ - dbgmodel/IDataModelScriptTemplate::GetDescription
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScriptTemplate.GetDescription
 ---
 
 # IDataModelScriptTemplate::GetDescription
@@ -45,7 +44,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetDescription method returns a description of the template. Such description would be presented to the user in more descriptive interfaces to help the user understand what the template is designed to do. The template may return E_NOTIMPL from this method if it does not have a description. 
+The GetDescription method returns a description of the template. Such description would be presented to the user in more descriptive interfaces to help the user understand what the template is designed to do. The template may return E_NOTIMPL from this method if it does not have a description.
 
 ## -parameters
 
@@ -53,8 +52,8 @@ The GetDescription method returns a description of the template. Such descriptio
 
 The description of the template is returned here as a string allocated via the SysAllocString function. The caller is responsible for freeing this string with SysFreeString.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -62,3 +61,4 @@ This method returns HRESULT that indicates success or failure.
 ## -see-also
 
 [IDataModelScriptTemplate interface](nn-dbgmodel-idatamodelscripttemplate.md)
+

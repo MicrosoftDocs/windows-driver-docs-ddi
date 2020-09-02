@@ -8,8 +8,6 @@ ms.assetid: 3ec5c4ab-d5da-44c7-9a62-c25d04dbef41
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_MODEM_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_MODEM_CONTROL, IOCTL_SERIAL_SET_MODEM_CONTROL control, IOCTL_SERIAL_SET_MODEM_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_MODEM_CONTROL, serports.ioctl_serial_set_modem_control, serref_a7d7db4d-c889-4a99-b21b-9efb533901a9.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_SET_MODEM_CONTROL"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_SET_MODEM_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_SET_MODEM_CONTROL
+ - ntddser/IOCTL_SERIAL_SET_MODEM_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_SET_MODEM_CONTROL
 ---
 
 # IOCTL_SERIAL_SET_MODEM_CONTROL IOCTL
@@ -47,54 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SERIAL_SET_MODEM_CONTROL</b> request sets the modem control register (MCR) in the UART. No parameter checking is done on the client-supplied register settings.
 
 To obtain the value of the MCR, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_modem_control">IOCTL_SERIAL_GET_MODEM_CONTROL</a> request.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG that is used to input modem control information.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a ULONG.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -102,25 +78,13 @@ The <b>Information</b> member is set to zero.
 
 The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
-
 ## -remarks
-
-
 
 The implementation of this I/O control request (IOCTL) is hardware-specific because no standard layout is defined for the modem control register (MCR) across 16550-compatible UART devices. The drivers for peripheral devices that connect to serial ports should avoid using this IOCTL, which might work with some UARTs but not with others. This IOCTL is primarily used to configure the UART into loopback mode for testing, but only if the UART has an MCR that supports loopback mode.
 
 For an example layout of an MCR, see the definition of the MCR bits (SERIAL_MCR_DTR through SERIAL_MCR_LOOP) in the Serial.h header file in the <a href="https://go.microsoft.com/fwlink/p/?LinkId=617962">Serial driver sample</a> on GitHub.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_modem_control">IOCTL_SERIAL_GET_MODEM_CONTROL</a>
- 
-
- 
 

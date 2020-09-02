@@ -8,8 +8,6 @@ ms.assetid: 7f7eac7e-f512-4446-a83b-92d313c14420
 ms.date: 05/02/2018
 keywords: ["NdisInitializeEvent function"]
 ms.keywords: NdisInitializeEvent, NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeEvent, ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, netvista.ndisinitializeevent
-f1_keywords:
- - "ndis/NdisInitializeEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisInitializeEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInitializeEvent
+ - ndis/NdisInitializeEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisInitializeEvent
 ---
 
 # NdisInitializeEvent function
@@ -48,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInitializeEvent</b> function sets up an event object during driver initialization to be used
   subsequently as a synchronization mechanism.
 
-
 ## -parameters
 
+### -param Event 
 
-
-
-### -param Event [out]
-
+[out]
 A pointer to caller-supplied storage for the event object, which is opaque to drivers.
 
-
 ## -remarks
-
-
 
 The 
     <b>NdisInitializeEvent</b> function creates an event object that has an event type of 
@@ -85,13 +77,7 @@ While driver functions that must run at IRQL <= DISPATCH_LEVEL can call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisresetevent">NdisResetEvent</a> functions ,calling 
     <b>NdisWaitEvent</b> from any IRQL > PASSIVE_LEVEL is a fatal error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -106,7 +92,4 @@ While driver functions that must run at IRQL <= DISPATCH_LEVEL can call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswaitevent">NdisWaitEvent</a>
- 
-
- 
 

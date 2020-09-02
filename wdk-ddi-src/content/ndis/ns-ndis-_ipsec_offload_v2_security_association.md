@@ -6,10 +6,8 @@ old-location: netvista\ipsec_offload_v2_security_association.htm
 tech.root: netvista
 ms.assetid: b2c5611e-930d-41a5-a07e-7de8f8584283
 ms.date: 05/02/2018
-keywords: ["_IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure"]
+keywords: ["IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, netvista.ipsec_offload_v2_security_association, task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml"
-f1_keywords:
- - "ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
-product:
-- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+f1_keywords:
+ - _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ - ndis/_IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ - PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ - ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ - IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ - ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 ---
 
 # _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure
@@ -47,17 +50,12 @@ req.typenames: IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURIT
 
 ## -description
 
-
 <p class="CCE_Message">[The IPsec Task Offload feature is deprecated and should not be used.]
 
 The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure specifies a single security association
   (SA).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -73,25 +71,21 @@ A set of flags that can be combined with a bitwise OR operation. Otherwise, set 
 
 Specifies ESN SA.
 
-
 ### -field Operation
 
 The IPsec operation for which the SA is to be used. The 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ipsec_offload_v2_operation">
      IPSEC_OFFLOAD_V2_OPERATION</a> enumeration defines the supported operations.
 
-
 ### -field Spi
 
 A 32 bit security parameters index (SPI) for the SA.
-
 
 ### -field AuthenticationAlgorithm
 
 The integrity (authentication) algorithm for the SA, formatted as an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_algorithm_info">
      IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a> structure.
-
 
 ### -field EncryptionAlgorithm
 
@@ -111,10 +105,7 @@ The sequence number high-order extension. This sequence number high-order extens
      RFC 4304. This member represents the high-order portion of the sequence number that is not included in
      the IPsec header.
 
-
 ## -remarks
-
-
 
 The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure is an element in the 
     <b>SecAssoc</b> variable-length array in the 
@@ -144,13 +135,7 @@ A
     that for combined mode algorithms, only the 
     <b>EncryptionAlgorithm</b> member will be specified.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
@@ -162,7 +147,4 @@ A
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ipsec_offload_v2_operation">IPSEC_OFFLOAD_V2_OPERATION</a>
- 
-
- 
 

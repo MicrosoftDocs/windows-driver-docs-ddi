@@ -26,7 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/PFND3DDDI_CREATECONTEXTCB"
+ - PFND3DDDI_CREATECONTEXTCB
+ - d3dumddi/PFND3DDDI_CREATECONTEXTCB
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3DDDI_CREATECONTEXTCB callback function
+
 
 ## -description
 

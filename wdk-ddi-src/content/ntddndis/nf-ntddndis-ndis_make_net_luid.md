@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: e8f14ed7-53ed-4bef-af8c-a7f818437d98
 ms.date: 04/16/2018
 keywords: ["NDIS_MAKE_NET_LUID macro"]
-f1_keywords:
- - "ntddndis/NDIS_MAKE_NET_LUID"
 ms.keywords: NDIS_MAKE_NET_LUID
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddndis.h
-api_name: 
-- NDIS_MAKE_NET_LUID
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NDIS_MAKE_NET_LUID
+ - ntddndis/NDIS_MAKE_NET_LUID
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_MAKE_NET_LUID
 ---
 
 # NDIS_MAKE_NET_LUID macro
@@ -72,3 +70,4 @@ NDIS network interface providers should use the **NDIS_MAKE_NET_LUID** macro to 
 [**NdisIfRegisterInterface**](../ndis/nf-ndis-ndisifregisterinterface.md)
 
 [**NET_LUID**](https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh)
+

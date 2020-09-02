@@ -8,8 +8,6 @@ ms.assetid: 508d73f6-1660-4663-87f5-8dbd1dff153a
 ms.date: 05/08/2018
 keywords: ["KSAUDIO_MIXCAP_TABLE structure"]
 ms.keywords: "*PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, audio.ksaudio_mixcap_table, ksmedia/KSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE"
-f1_keywords:
- - "ksmedia/KSAUDIO_MIXCAP_TABLE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,22 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_MIXCAP_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE
+f1_keywords:
+ - PKSAUDIO_MIXCAP_TABLE
+ - ksmedia/PKSAUDIO_MIXCAP_TABLE
+ - KSAUDIO_MIXCAP_TABLE
+ - ksmedia/KSAUDIO_MIXCAP_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_MIXCAP_TABLE
 ---
 
 # KSAUDIO_MIXCAP_TABLE structure
+
 
 ## -description
 
@@ -99,3 +101,4 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 [KSPROPERTY_AUDIO_MIX_LEVEL_CAPS](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps)
 
 [KSPROPERTY_AUDIO_MIX_LEVEL_TABLE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table)
+

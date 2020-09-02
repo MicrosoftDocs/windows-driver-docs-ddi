@@ -6,10 +6,8 @@ old-location: netvista\ndk_pd.htm
 tech.root: netvista
 ms.assetid: 77D3503A-8544-4E73-AD17-56F9C8603068
 ms.date: 05/02/2018
-keywords: ["_NDK_PD structure"]
+keywords: ["NDK_PD structure"]
 ms.keywords: NDK_PD, NDK_PD structure [Network Drivers Starting with Windows Vista], PNDK_PD, PNDK_PD structure pointer [Network Drivers Starting with Windows Vista], _NDK_PD, ndkpi/NDK_PD, ndkpi/PNDK_PD, netvista.ndk_pd
-f1_keywords:
- - "ndkpi/NDK_PD"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndkpi.h
-api_name:
-- NDK_PD
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_PD
+f1_keywords:
+ - _NDK_PD
+ - ndkpi/_NDK_PD
+ - NDK_PD
+ - ndkpi/NDK_PD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndkpi.h
+api_name:
+ - NDK_PD
 ---
 
 # _NDK_PD structure
@@ -47,38 +48,23 @@ req.typenames: NDK_PD
 
 ## -description
 
-
 The <b>NDK_PD</b> structure specifies the attributes of an NDK protection domain (PD) object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a> structure for the <b>NDK_PD</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypePd</b>.
 
-
 ### -field Dispatch
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd_dispatch">NDK_PD_DISPATCH</a> structure that defines dispatch functions for the NDK PD object.
 
-
 ## -remarks
-
-
 
 An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd_dispatch">NDK_PD_DISPATCH</a> table before returning the  created PD object. Also, the NDK provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can change the <b>Dispatch</b> member to some other value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -101,7 +87,4 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd_dispatch">NDK_PD_DISPATCH</a>
- 
-
- 
 

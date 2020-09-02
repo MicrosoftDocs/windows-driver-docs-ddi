@@ -6,10 +6,8 @@ old-location: netvista\ndis_ndk_capabilities.htm
 tech.root: netvista
 ms.assetid: 4E8AD6FA-BB89-4CB0-A06E-7B4917390311
 ms.date: 05/02/2018
-keywords: ["_NDIS_NDK_CAPABILITIES structure"]
+keywords: ["NDIS_NDK_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CAPABILITIES, netvista.ndis_ndk_capabilities, ntddndis/NDIS_NDK_CAPABILITIES, ntddndis/PNDIS_NDK_CAPABILITIES"
-f1_keywords:
- - "ntddndis/NDIS_NDK_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_NDK_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES
+f1_keywords:
+ - _NDIS_NDK_CAPABILITIES
+ - ntddndis/_NDIS_NDK_CAPABILITIES
+ - PNDIS_NDK_CAPABILITIES
+ - ntddndis/PNDIS_NDK_CAPABILITIES
+ - NDIS_NDK_CAPABILITIES
+ - ntddndis/NDIS_NDK_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_NDK_CAPABILITIES
 ---
 
 # _NDIS_NDK_CAPABILITIES structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES
 
 ## -description
 
-
 The <b>NDIS_NDK_CAPABILITIES</b> structure specifies the capabilities of an NDK adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -68,50 +66,39 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns
 
 ### -field Flags
 
- 
-
-
 ### -field MaxQpCount
 
 The maximum number of queue pairs (QPs) that can be supported by the adapter.
-
 
 ### -field MaxCqCount
 
 The maximum number of completion queues (CQs) that can be supported by the adapter.
 
-
 ### -field MaxMrCount
 
 The maximum number of memory regions (MRs) that can be supported by the adapter.
 
-
 ### -field MaxPdCount
 
 The maximum number of protection domains (PDs) that can be supported by the adapter
-
 
 ### -field MaxInboundReadLimit
 
 The maximum number of incoming outstanding read requests that can be supported by the adapter. 
      If this member is zero, there is no adapter limit. In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxInboundReadLimit</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
-
 ### -field MaxOutboundReadLimit
 
 The maximum number of outgoing outstanding read requests that can be supported by the adapter. 
     If this member is zero, there is no adapter-wide limit.  In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxOutboundReadLimit</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
-
 ### -field MaxMwCount
 
 The maximum number of memory windows (MWs) that are supported by the adapter.
 
-
 ### -field MaxSrqCount
 
 The maximum number of shared receive queues (SRQs) that are supported by the adapter.
-
 
 ### -field MissingCounterMask
 
@@ -121,15 +108,11 @@ A bitmask that identifies counters that an NDK provider does not support. NDK pr
     the provider must indicate any unsupported counters with the mask value for the
     counter which it cannot support.
 
-
 ### -field NdkInfo
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure that specifies NDK adapter capabilities and limits that are relevant for an specific NDK consumer. These capabilities can be different from system-wide limits.
 
-
 ## -remarks
-
-
 
 <b>NDIS_NDK_CAPABILITIES</b> specifies capacity limits that are relevant for
     system-wide management or partitioning of resources that are available on a given NDK adapter.
@@ -140,13 +123,7 @@ Independent of whether NDK functionality of an adapter is currently enabled or d
 
 The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_ndk_attributes">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_ndk_attributes">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
 
@@ -161,7 +138,4 @@ The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
- 
-
- 
 

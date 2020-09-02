@@ -6,10 +6,8 @@ old-location: stream\kspin_descriptor_ex.htm
 tech.root: stream
 ms.assetid: 05c82973-86f9-44f9-8df2-1fc84c8be975
 ms.date: 04/23/2018
-keywords: ["_KSPIN_DESCRIPTOR_EX structure"]
+keywords: ["KSPIN_DESCRIPTOR_EX structure"]
 ms.keywords: "*PKSPIN_DESCRIPTOR_EX, KSPIN_DESCRIPTOR_EX, KSPIN_DESCRIPTOR_EX structure [Streaming Media Devices], KSPIN_FLAG_ASYNCHRONOUS_PROCESSING, KSPIN_FLAG_CRITICAL_PROCESSING, KSPIN_FLAG_DENY_USERMODE_ACCESS, KSPIN_FLAG_DISPATCH_LEVEL_PROCESSING, KSPIN_FLAG_DISTINCT_TRAILING_EDGE, KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING, KSPIN_FLAG_DO_NOT_USE_STANDARD_TRANSPORT, KSPIN_FLAG_ENFORCE_FIFO, KSPIN_FLAG_FIXED_FORMAT, KSPIN_FLAG_FRAMES_NOT_REQUIRED_FOR_PROCESSING, KSPIN_FLAG_GENERATE_EOS_EVENTS, KSPIN_FLAG_GENERATE_MAPPINGS, KSPIN_FLAG_HYPERCRITICAL_PROCESSING, KSPIN_FLAG_IMPLEMENT_CLOCK, KSPIN_FLAG_INITIATE_PROCESSING_ON_EVERY_ARRIVAL, KSPIN_FLAG_PROCESS_IF_ANY_IN_RUN_STATE, KSPIN_FLAG_PROCESS_IN_RUN_STATE_ONLY, KSPIN_FLAG_RENDERER, KSPIN_FLAG_SOME_FRAMES_REQUIRED_FOR_PROCESSING, KSPIN_FLAG_SPLITTER, KSPIN_FLAG_USE_STANDARD_TRANSPORT, PKSPIN_DESCRIPTOR_EX, PKSPIN_DESCRIPTOR_EX structure pointer [Streaming Media Devices], _KSPIN_DESCRIPTOR_EX, avstruct_6a73afe1-d131-47fc-877b-1abff4a75833.xml, ks/KSPIN_DESCRIPTOR_EX, ks/PKSPIN_DESCRIPTOR_EX, stream.kspin_descriptor_ex"
-f1_keywords:
- - "ks/KSPIN_DESCRIPTOR_EX"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSPIN_DESCRIPTOR_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN_DESCRIPTOR_EX, *PKSPIN_DESCRIPTOR_EX
+f1_keywords:
+ - _KSPIN_DESCRIPTOR_EX
+ - ks/_KSPIN_DESCRIPTOR_EX
+ - PKSPIN_DESCRIPTOR_EX
+ - ks/PKSPIN_DESCRIPTOR_EX
+ - KSPIN_DESCRIPTOR_EX
+ - ks/KSPIN_DESCRIPTOR_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSPIN_DESCRIPTOR_EX
 ---
 
 # _KSPIN_DESCRIPTOR_EX structure
@@ -47,29 +50,21 @@ req.typenames: KSPIN_DESCRIPTOR_EX, *PKSPIN_DESCRIPTOR_EX
 
 ## -description
 
-
 The KSPIN_DESCRIPTOR_EX structure describes the characteristics of a pin type on a given filter type.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Dispatch
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a> structure for this pin. This pointer is optional and should only be provided by clients that wish to receive notifications. Clients that need to perform pin-centric processing (filters concerned with the routing of data, in other words hardware drivers) must provide this dispatch table and a process dispatch. See <b>KSPIN_DISPATCH</b> for more information.
 
-
 ### -field AutomationTable
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_">KSAUTOMATION_TABLE</a> structure for this pin. The automation table contains the properties, methods, and events supported by the pin. This automation table is merged with the automation table provided by AVStream for all pins. If the client supplies any property, event, or method handlers that are already provided by AVStream, the client's implementation supersedes that of AVStream.
 
-
 ### -field PinDescriptor
 
 This member specifies a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>.
-
 
 ### -field Flags
 
@@ -205,30 +200,23 @@ This flag prevents user-mode access to this specific pin.
 
 Indicates that this pin exposes a clock that can be selected by the graph manager as a master clock. Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
 
-
 ### -field InstancesPossible
 
 Specifies a value of type ULONG that contains a count of the maximum number of possible instances of this pin. Any attempt to instantiate more than this number of pins of the given type fails. Set to KSINSTANCE_INDETERMINATE to have no limit on number of pins instantiated.
-
 
 ### -field InstancesNecessary
 
 Specifies a value of type ULONG that contains the minimum number of pins of a given pin type that are required to be in a state at or above the minimum processing level for proper functioning of the filter. By default the minimum processing level is KSSTATE_PAUSE, although the minidriver can modify the default behavior by setting the <b>Flags</b> member of this structure to either KSPIN_FLAG_PROCESS_IN_RUN_STATE_ONLY or KSPIN_FLAG_PROCESS_IF_ANY_IN_RUN_STATE. Any attempt to change the state of a filter that does not have this number of instances of this type of pin fails. See additional information in the Remarks section.
 
-
 ### -field AllocatorFraming
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a> structure containing the allocator framing requirements for this pin type. Allocator framing specifies items such as memory alignment requirements, maximum frame size, and minimum frame size. This member can be <b>NULL</b>, which indicates that this pin does not support the allocator framing property.
-
 
 ### -field IntersectHandler
 
 A pointer to a driver-defined <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a> function to handle data-intersection. If this member is <b>NULL</b>, the pin handles data intersection queries for data ranges with the specifier KSDATAFORMAT_SPECIFIER_NONE. The intersection handler function receives a single data range from the query and a single data range from the pins list of data ranges. The type, subtype, and specifier GUIDs of these ranges are guaranteed to match, though some may be wildcards. The function either indicates the data ranges do not match, or it produces the best data format in the intersection of the two data ranges. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/data-range-intersections-in-avstream">Data Range Intersections in AVStream</a> for more information.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>    AMCap and Blink might not be able to find tuner and crossbar interfaces on your AVStream driver if the <b>InstancesNecessary</b> member of KSPIN_DESCRIPTOR_EX is set to zero for the analog video input pin. To fix this problem, set <b>InstancesNecessary</b> for this pin to one.</div>
 <div> </div>
@@ -239,13 +227,7 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/data-range-intersections-in-avstream">Data Range Intersections in AVStream</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-splitters">AVStream Splitters</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a>
 
@@ -260,7 +242,4 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>
- 
-
- 
 

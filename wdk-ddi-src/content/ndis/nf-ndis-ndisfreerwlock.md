@@ -8,8 +8,6 @@ ms.assetid: 1f54e8fe-e6a2-4ddd-9451-289d3df21fde
 ms.date: 05/02/2018
 keywords: ["NdisFreeRWLock function"]
 ms.keywords: NdisFreeRWLock, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml, netvista.ndisfreerwlock
-f1_keywords:
- - "ndis/NdisFreeRWLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFreeRWLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeRWLock
+ - ndis/NdisFreeRWLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFreeRWLock
 ---
 
 # NdisFreeRWLock function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisFreeRWLock</b> function frees a read/write lock that was previously allocated with the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocaterwlock">NdisAllocateRWLock</a> function.
 
-
 ## -parameters
 
+### -param Lock 
 
-
-
-### -param Lock [in]
-
+[in]
 A pointer to an opaque 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> variable that represents a
      lock. The caller can use this lock to gain write or read access to resources that are shared among
      non-ISR driver threads.
 
-
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisFreeRWLock</b> function to free the 
@@ -82,13 +74,7 @@ A driver must call the
     read/write lock before it calls the 
     <b>NdisFreeRWLock</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a>
 
@@ -99,7 +85,4 @@ A driver must call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleaserwlock">NdisReleaseRWLock</a>
- 
-
- 
 

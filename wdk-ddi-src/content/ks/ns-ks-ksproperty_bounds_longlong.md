@@ -8,8 +8,6 @@ ms.assetid: 25e3e430-abce-4d14-a336-4cb32a4fe5df
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_BOUNDS_LONGLONG structure"]
 ms.keywords: "*PKSPROPERTY_BOUNDS_LONGLONG, KSPROPERTY_BOUNDS_LONGLONG, KSPROPERTY_BOUNDS_LONGLONG union [Streaming Media Devices], PKSPROPERTY_BOUNDS_LONGLONG, PKSPROPERTY_BOUNDS_LONGLONG union pointer [Streaming Media Devices], ks-struct_553b35b1-55c4-404d-af6b-a9fb2bbfb6b9.xml, ks/KSPROPERTY_BOUNDS_LONGLONG, ks/PKSPROPERTY_BOUNDS_LONGLONG, stream.ksproperty_bounds_longlong"
-f1_keywords:
- - "ks/KSPROPERTY_BOUNDS_LONGLONG"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSPROPERTY_BOUNDS_LONGLONG
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_BOUNDS_LONGLONG, *PKSPROPERTY_BOUNDS_LONGLONG
+f1_keywords:
+ - PKSPROPERTY_BOUNDS_LONGLONG
+ - ks/PKSPROPERTY_BOUNDS_LONGLONG
+ - KSPROPERTY_BOUNDS_LONGLONG
+ - ks/KSPROPERTY_BOUNDS_LONGLONG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSPROPERTY_BOUNDS_LONGLONG
 ---
 
 # KSPROPERTY_BOUNDS_LONGLONG structure
@@ -47,68 +48,39 @@ req.typenames: KSPROPERTY_BOUNDS_LONGLONG, *PKSPROPERTY_BOUNDS_LONGLONG
 
 ## -description
 
-
 The KSPROPERTY_BOUNDS_LONGLONG structure defines the bounds for a 64-bit property.
-
 
 ## -struct-fields
 
-
-
-
 ### -field _SIGNED64
-
- 
-
 
 ### -field _SIGNED64.SignedMinimum
 
- 
-
-
 ### -field _SIGNED64.SignedMaximum
-
- 
-
 
 ### -field SignedMinimum
 
 Specifies a minimum bound as a signed 64-bit value.
 
-
 ### -field SignedMaximum
 
 Specifies a maximum bound as a signed 64-bit value.
 
-
 ### -field _UNSIGNED64
-
- 
-
 
 ### -field _UNSIGNED64.UnsignedMinimum
 
- 
-
-
 ### -field _UNSIGNED64.UnsignedMaximum
-
- 
-
 
 ### -field UnsignedMinimum
 
 Specifies a minimum bound as an unsigned 64-bit value.
 
-
 ### -field UnsignedMaximum
 
 Specifies a maximum bound as an unsigned 64-bit value.
 
-
 ## -remarks
-
-
 
 This structure specifies a range of 64-bit values for a property. Use only when the <b>MembersFlags</b> member of the relevant <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader">KSPROPERTY_MEMBERSHEADER</a> is set to KSPROPERTY_MEMBER_RANGES. Use this structure in the <b>Members</b> array in the relevant <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist">KSPROPERTY_MEMBERSLIST</a> structure.
 
@@ -116,13 +88,7 @@ See the Testcap sample in the Windows Driver Kit (WDK) for examples of usage.
 
 Also see related information in <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader">KSPROPERTY_MEMBERSHEADER</a>
 
@@ -133,7 +99,4 @@ Also see related information in <a href="https://docs.microsoft.com/windows-hard
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>
- 
-
- 
 

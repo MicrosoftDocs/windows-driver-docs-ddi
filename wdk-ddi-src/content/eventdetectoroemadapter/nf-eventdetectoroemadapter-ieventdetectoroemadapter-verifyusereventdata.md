@@ -8,38 +8,39 @@ ms.assetid: 7f4bf4e4-d635-4738-9ce3-45d55eda52ac
 ms.author: windowsdriverdev
 ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::VerifyUserEventData"]
-f1_keywords:
- - "eventdetectoroemadapter/IEventDetectorOemAdapter.VerifyUserEventData"
 ms.keywords: IEventDetectorOemAdapter::VerifyUserEventData, VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData, IEventDetectorOemAdapter::VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData
 req.header: eventdetectoroemadapter.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
+req.ddi-compliance: 
+req.unicode-ansi: 
 req.idl: eventdetectoroemadapter.idl
-req.max-support:
-req.namespace:
-req.assembly:
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- eventdetectoroemadapter.h
-api_name: 
-- IEventDetectorOemAdapter.VerifyUserEventData
-product: 
-- Windows
 targetos: Windows
-ms.custom: 19H1 
+ms.custom: 19H1
+f1_keywords:
+ - IEventDetectorOemAdapter::VerifyUserEventData
+ - eventdetectoroemadapter/IEventDetectorOemAdapter::VerifyUserEventData
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - eventdetectoroemadapter.h
+api_name:
+ - IEventDetectorOemAdapter.VerifyUserEventData
+product:
+ - Windows
 ---
 
 # IEventDetectorOemAdapter::VerifyUserEventData
@@ -49,21 +50,23 @@ ms.custom: 19H1
 
 Verifies the user recording for the given EVENTID.
 
-
 ## -parameters
 
 ### -param ModelData
+
 \[*In*\] - ModelData- Pointer to IStream bound to model data for a given stored model (optional).
 
 ### -param UserRecording
+
 \[*In*\] - Pointer to the buffer containing the raw data in the appropriate format. Note that non-standard use of cbSize in WAVEFORMATEX. It is the size of the following: (PCM data for the user recording).
 
 ### -param EventSelector
+
 \[*In*\] - The [DETECTIONEVENTELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) associated with this UserRecording.
 
 ### -param EventEndBytePos
-\[*In*\] - Byte position of the end of the sound pattern in the UserRecording. A value of -1 indicates the position was unavailable.
 
+\[*In*\] - Byte position of the end of the sound pattern in the UserRecording. A value of -1 indicates the position was unavailable.
 
 ## -returns
 
@@ -84,10 +87,9 @@ Optional return values that may be implemented:
 
 This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
 
-
-
 ## -see-also
 
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
+

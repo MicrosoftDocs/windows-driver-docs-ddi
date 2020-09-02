@@ -6,10 +6,8 @@ old-location: kernel\file_access_information.htm
 tech.root: kernel
 ms.assetid: f5a09843-caf7-4550-bbc6-c0d799d66cd6
 ms.date: 04/30/2018
-keywords: ["_FILE_ACCESS_INFORMATION structure"]
+keywords: ["FILE_ACCESS_INFORMATION structure"]
 ms.keywords: "*PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ACCESS_INFORMATION, PFILE_ACCESS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ACCESS_INFORMATION, kernel.file_access_information, kstruct_b_3419b751-aa57-41e2-a51d-35bb5a6f38c8.xml, ntifs/FILE_ACCESS_INFORMATION, ntifs/PFILE_ACCESS_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_ACCESS_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntifs.h
-api_name:
-- FILE_ACCESS_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_ACCESS_INFORMATION, *PFILE_ACCESS_INFORMATION
+f1_keywords:
+ - _FILE_ACCESS_INFORMATION
+ - ntifs/_FILE_ACCESS_INFORMATION
+ - PFILE_ACCESS_INFORMATION
+ - ntifs/PFILE_ACCESS_INFORMATION
+ - FILE_ACCESS_INFORMATION
+ - ntifs/FILE_ACCESS_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntifs.h
+api_name:
+ - FILE_ACCESS_INFORMATION
 ---
 
 # _FILE_ACCESS_INFORMATION structure
@@ -47,42 +50,25 @@ req.typenames: FILE_ACCESS_INFORMATION, *PFILE_ACCESS_INFORMATION
 
 ## -description
 
-
 The <b>FILE_ACCESS_INFORMATION</b> structure is used to query for or set the access rights of a file.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AccessFlags
 
 Flags that specify a set of access rights in the access mask of an access control entry. This member is a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> routine.
 
 The <i>AccessFlags</i> parameter is an access mask that encodes the user rights to a file object. An access mask can be used to encode the rights to an object that is assigned to a user or a user group, or to encode the requested access when a user opens an object. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
- 
-
- 
 

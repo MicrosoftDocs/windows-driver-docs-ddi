@@ -5,10 +5,8 @@ description: The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a 
 old-location: display\dxgkarg_commitvidpn_flags.htm
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_COMMITVIDPN_FLAGS structure"]
+keywords: ["DXGKARG_COMMITVIDPN_FLAGS structure"]
 ms.keywords: DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, _DXGKARG_COMMITVIDPN_FLAGS, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags
-f1_keywords:
- - "d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_COMMITVIDPN_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_COMMITVIDPN_FLAGS
+f1_keywords:
+ - _DXGKARG_COMMITVIDPN_FLAGS
+ - d3dkmddi/_DXGKARG_COMMITVIDPN_FLAGS
+ - DXGKARG_COMMITVIDPN_FLAGS
+ - d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_COMMITVIDPN_FLAGS
 ---
 
 # _DXGKARG_COMMITVIDPN_FLAGS structure
@@ -47,14 +48,9 @@ req.typenames: DXGKARG_COMMITVIDPN_FLAGS
 
 ## -description
 
-
 The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PathPowerTransition
 
@@ -66,7 +62,6 @@ Setting this member is equivalent to setting the first bit of a 32-bit value (0x
 
 For more information, see the following Remarks section.
 
-
 ### -field PathPoweredOff
 
 A UINT value that specifies whether the DirectX graphics kernel subsystem calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a> to inform the driver that the user changed modes.
@@ -77,15 +72,11 @@ If <b>PathPoweredOff</b> is set to <b>FALSE</b>, the topology path is powered on
 
 For more information, see the following Remarks section.
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of a 32-bit value to zeros.
 
-
 ## -remarks
-
-
 
 The DXGKARG_COMMITVIDPN_FLAGS structure stores information that the display miniport driver can use to determine how to respond to requested mode changes. With this information, the driver can distinguish between mode changes that occur during regular activity because an application requested a mode change, changes that occur because of power transitions, and changes that occur while monitors are turned off.
 
@@ -99,13 +90,7 @@ Because the monitor might not be physically connected (at system resume time, fo
 
 If a system resume operation is triggered after monitors were turned off for a system suspend operation, the driver can receive a <i>DxgkDdiCommitVidPn</i> call with both <b>PathPowerTransition</b> = <b>FALSE</b> and <b>PathPoweredOff</b> = <b>FALSE</b> before a <i>DxgkDdiCommitVidPn</i> call is made with <b>PathPowerTransition</b> = <b>TRUE</b>. This situation should only occur with an empty topology and, in this case, the driver should not turn monitors back on because the power transition is not yet completed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_commitvidpn">DXGKARG_COMMITVIDPN</a>
 
@@ -116,7 +101,4 @@ If a system resume operation is triggered after monitors were turned off for a s
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_set_power_state">DxgkDdiSetPowerState</a>
- 
-
- 
 

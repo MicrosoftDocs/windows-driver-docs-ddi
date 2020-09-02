@@ -7,8 +7,6 @@ ms.assetid: 3946483d-85a2-4f2f-9937-894cbe4e4184
 ms.date: 03/24/2020
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_DESC structure"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_DESC, D3D12DDI_INDIRECT_ARGUMENT_DESC structure [Display Devices], d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_DESC, display.d3d12ddi_INDIRECT_ARGUMENT_DESC
-f1_keywords:
- - "d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_DESC"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -26,23 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d12umddi.h
-api_name:
-- D3D12DDI_INDIRECT_ARGUMENT_DESC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_INDIRECT_ARGUMENT_DESC
+f1_keywords:
+ - D3D12DDI_INDIRECT_ARGUMENT_DESC
+ - d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_DESC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d12umddi.h
+api_name:
+ - D3D12DDI_INDIRECT_ARGUMENT_DESC
 ---
 
 # D3D12DDI_INDIRECT_ARGUMENT_DESC structure
+
 
 ## -description
 
@@ -99,3 +99,4 @@ Use this structure with the [**D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001**] stru
 See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ## -see-also
+

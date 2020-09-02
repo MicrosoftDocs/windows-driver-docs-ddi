@@ -8,8 +8,6 @@ ms.assetid: 571aaa9b-8620-46ff-af29-19b00804e0ad
 ms.date: 04/16/2018
 keywords: ["DRIVER_FS_NOTIFICATION callback function"]
 ms.keywords: DRIVER_FS_NOTIFICATION, DriverNotificationRoutine, DriverNotificationRoutine routine [Installable File System Drivers], FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml, PDRIVER_FS_NOTIFICATION, ifsk.pdriver_fs_notification, ntifs/DriverNotificationRoutine
-f1_keywords:
- - "ntifs/PDRIVER_FS_NOTIFICATION"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntifs.h
-api_name:
-- PDRIVER_FS_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DRIVER_FS_NOTIFICATION
+ - ntifs/DRIVER_FS_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntifs.h
+api_name:
+ - PDRIVER_FS_NOTIFICATION
 ---
 
 # DRIVER_FS_NOTIFICATION callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a file system registers or unregisters itself by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfilesystem">IoUnregisterFileSystem</a>.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 A pointer to a file system device object for which the notification was called.
 
+### -param FsActive 
 
-### -param FsActive [in]
-
+[in]
 A Boolean value that indicates whether the file system has registered (TRUE) or unregistered (FALSE) itself as an active file system.
 
-
 ## -remarks
-
-
 
 You must declare the callback function by using the <i>DRIVER_FS_NOTIFICATION</i> type. For more information, see the following Example section.
 
@@ -123,12 +115,7 @@ typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;</pre>
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchange">IoRegisterFsRegistrationChange</a>
 
@@ -143,7 +130,4 @@ typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;</pre>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfsregistrationchange">IoUnregisterFsRegistrationChange</a>
- 
-
- 
 

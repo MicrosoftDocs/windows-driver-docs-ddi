@@ -8,8 +8,6 @@ ms.assetid: C6BED59F-066E-42F6-86AE-B0423E0E847F
 ms.date: 02/26/2018
 keywords: ["EVT_WDFDEVICE_WDM_IRP_DISPATCH callback function"]
 ms.keywords: EVT_WDFDEVICE_WDM_IRP_DISPATCH, EVT_WDFDEVICE_WDM_IRP_DISPATCH callback, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch
-f1_keywords:
- - "wdfdevice/EvtDeviceWdmIrpDispatch"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfdevice.h
-api_name:
-- EvtDeviceWdmIrpDispatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDFDEVICE_WDM_IRP_DISPATCH
+ - wdfdevice/EVT_WDFDEVICE_WDM_IRP_DISPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfdevice.h
+api_name:
+ - EvtDeviceWdmIrpDispatch
 ---
 
 # EVT_WDFDEVICE_WDM_IRP_DISPATCH callback function
@@ -47,55 +46,48 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtDeviceWdmIrpDispatch</i> event callback function receives an IRP before the framework processes the IRP.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param MajorFunction 
 
-### -param MajorFunction [in]
-
+[in]
 One of the IRP major function codes that are defined in wdm.h.
 
+### -param MinorFunction 
 
-### -param MinorFunction [in]
-
+[in]
 One of the I/O IRP minor function codes that are defined in wdm.h for the <i>MajorFunction</i> code.
 
+### -param Code 
 
-### -param Code [in]
-
+[in]
 Specifies an I/O control code value.  This parameter is valid only if <i>MajorFunction</i> is set to IRP_MJ_DEVICE_CONTROL.
 
+### -param DriverContext 
 
-### -param DriverContext [in]
-
+[in]
 An untyped pointer to driver-defined context information that the driver provided when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback">WdfDeviceConfigureWdmIrpDispatchCallback</a>.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to an IRP structure.
 
+### -param DispatchContext 
 
-### -param DispatchContext [in]
-
+[in]
 An untyped pointer to the framework's dispatch  context information. The driver must provide this parameter when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirp">WdfDeviceWdmDispatchIrp</a>.
 
-
 ## -returns
-
-
 
 The <i>EvtDeviceWdmIrpDispatch</i> callback function must:
 
@@ -110,11 +102,7 @@ The <i>EvtDeviceWdmIrpDispatch</i> callback function must:
 <b>KMDF only</b></p>Return STATUS_PENDING if the callback function calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a>.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The <i>EvtDeviceWdmIrpDispatch</i> callback function should only be used to select a specific queue for an IRP. To do so, the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue">WdfDeviceWdmDispatchIrpToIoQueue</a> method from within the callback function.
 
@@ -128,14 +116,7 @@ In its <i>EvtDeviceWdmIrpDispatch</i> callback function, a driver should not set
 
  For more information about specifying queues for IRPs as they arrive, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback">WdfDeviceConfigureWdmIrpDispatchCallback</a>
 
@@ -146,7 +127,4 @@ In its <i>EvtDeviceWdmIrpDispatch</i> callback function, a driver should not set
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue">WdfDeviceWdmDispatchIrpToIoQueue</a>
- 
-
- 
 

@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: 09d45f00-d0b1-4e2f-9190-bc4cacdb67a0
 ms.date: 04/16/2018
 keywords: ["NdisTestNblFlags macro"]
-f1_keywords:
- - "ndis/NdisTestNblFlags"
 ms.keywords: NdisTestNblFlags
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NdisTestNblFlags
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NdisTestNblFlags
+ - ndis/NdisTestNblFlags
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisTestNblFlags
 ---
 
 # NdisTestNblFlags macro
@@ -72,3 +70,4 @@ For more information about the flags, see the **NblFlags** member on the **NET_B
 ## -see-also
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+

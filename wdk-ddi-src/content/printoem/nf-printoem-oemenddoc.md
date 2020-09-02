@@ -8,8 +8,6 @@ ms.assetid: 268a22ba-1dce-4326-bdf4-4d7e7e83257c
 ms.date: 04/20/2018
 keywords: ["OEMEndDoc function"]
 ms.keywords: OEMEndDoc, OEMEndDoc function [Print Devices], print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, printoem/OEMEndDoc
-f1_keywords:
- - "printoem/OEMEndDoc"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMEndDoc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMEndDoc
+ - printoem/OEMEndDoc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMEndDoc
 ---
 
 # OEMEndDoc function
@@ -47,17 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMEndDoc</code> function is called by the GDI when it has finished sending a document to the driver for rendering.
-
 
 ## -parameters
 
-
-
-
 ### -param pso
-
 
 ### -param fl
 

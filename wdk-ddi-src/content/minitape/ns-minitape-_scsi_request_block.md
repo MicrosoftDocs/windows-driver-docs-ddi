@@ -6,10 +6,8 @@ old-location: storage\scsi_request_block.htm
 tech.root: storage
 ms.assetid: ddd5180d-275c-4226-9af8-8e2ae25256e7
 ms.date: 03/29/2018
-keywords: ["_SCSI_REQUEST_BLOCK structure"]
+keywords: ["SCSI_REQUEST_BLOCK structure"]
 ms.keywords: "*PSCSI_REQUEST_BLOCK, PSCSI_REQUEST_BLOCK, PSCSI_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_REQUEST_BLOCK, SCSI_REQUEST_BLOCK structure [Storage Devices], SRB_FLAGS_ALLOCATED_FROM_ZONE, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_FLAGS_BYPASS_LOCKED_QUEUE, SRB_FLAGS_DATA_IN, SRB_FLAGS_DATA_OUT, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_FLAGS_DISABLE_DISCONNECT, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, SRB_FLAGS_FREE_SENSE_BUFFER, SRB_FLAGS_IS_ACTIVE, SRB_FLAGS_NO_DATA_TRANSFER, SRB_FLAGS_NO_KEEP_AWAKE, SRB_FLAGS_NO_QUEUE_FREEZE, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_FLAGS_SGLIST_FROM_POOL, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_FUNCTION_ABORT_COMMAND, SRB_FUNCTION_DUMP_POINTERS, SRB_FUNCTION_EXECUTE_SCSI, SRB_FUNCTION_FLUSH, SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_FUNCTION_IO_CONTROL, SRB_FUNCTION_LOCK_QUEUE, SRB_FUNCTION_RECEIVE_EVENT, SRB_FUNCTION_RELEASE_RECOVERY, SRB_FUNCTION_RESET_BUS, SRB_FUNCTION_RESET_DEVICE, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_FUNCTION_SHUTDOWN, SRB_FUNCTION_TERMINATE_IO, SRB_FUNCTION_UNLOCK_QUEUE, SRB_STATUS_ABORTED, SRB_STATUS_ABORT_FAILED, SRB_STATUS_AUTOSENSE_VALID, SRB_STATUS_BAD_FUNCTION, SRB_STATUS_BUSY, SRB_STATUS_BUS_RESET, SRB_STATUS_COMMAND_TIMEOUT, SRB_STATUS_DATA_OVERRUN, SRB_STATUS_ERROR, SRB_STATUS_ERROR_RECOVERY, SRB_STATUS_INTERNAL_ERROR, SRB_STATUS_INVALID_LUN, SRB_STATUS_INVALID_PATH_ID, SRB_STATUS_INVALID_REQUEST, SRB_STATUS_INVALID_TARGET_ID, SRB_STATUS_MESSAGE_REJECTED, SRB_STATUS_NO_DEVICE, SRB_STATUS_NO_HBA, SRB_STATUS_PARITY_ERROR, SRB_STATUS_PENDING, SRB_STATUS_PHASE_SEQUENCE_FAILURE, SRB_STATUS_QUEUE_FROZEN, SRB_STATUS_REQUEST_FLUSHED, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_STATUS_SELECTION_TIMEOUT, SRB_STATUS_SUCCESS, SRB_STATUS_TIMEOUT, SRB_STATUS_UNEXPECTED_BUS_FREE, _SCSI_REQUEST_BLOCK, srb/PSCSI_REQUEST_BLOCK, srb/SCSI_REQUEST_BLOCK, storage.scsi_request_block, structs-scsibus_9cd58a74-3ae0-4536-ac0c-efaf73bf9733.xml"
-f1_keywords:
- - "minitape/SCSI_REQUEST_BLOCK"
 req.header: minitape.h
 req.include-header: Srb.h, Minitape.h, Storport.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- srb.h
-api_name:
-- SCSI_REQUEST_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSI_REQUEST_BLOCK, *PSCSI_REQUEST_BLOCK
+f1_keywords:
+ - _SCSI_REQUEST_BLOCK
+ - minitape/_SCSI_REQUEST_BLOCK
+ - PSCSI_REQUEST_BLOCK
+ - minitape/PSCSI_REQUEST_BLOCK
+ - SCSI_REQUEST_BLOCK
+ - minitape/SCSI_REQUEST_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - srb.h
+api_name:
+ - SCSI_REQUEST_BLOCK
 ---
 
 # _SCSI_REQUEST_BLOCK structure
@@ -47,18 +50,13 @@ req.typenames: SCSI_REQUEST_BLOCK, *PSCSI_REQUEST_BLOCK
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field Length
 
 Specifies the size in bytes of this structure.
-
 
 ### -field Function
 
@@ -153,7 +151,6 @@ A request with this function is sent to a Storport miniport driver that is used 
 #### SRB_FUNCTION_FREE_DUMP_POINTERS (0x27)
 
 A request with this function is sent to a Storport miniport driver to release any resources allocated during a previous request for SRB_FUNCTION_DUMP_POINTERS.
-
 
 ### -field SrbStatus
 
@@ -325,48 +322,39 @@ Indicates information returned in the <b>SenseInfoBuffer</b> is valid.
 
 #### SRB_STATUS_QUEUE_FROZEN
 
-A miniport driver should <i>never</i> set the <b>SrbStatus</b> member to this value. The Windows port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen. 
-
+A miniport driver should <i>never</i> set the <b>SrbStatus</b> member to this value. The Windows port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen.
 
 ### -field ScsiStatus
 
 Returns the SCSI status that was returned by the HBA or target device. If the status is not SUCCESS, the miniport driver should set the <b>SrbStatus</b> member to SRB_STATUS_ERROR.
 
-
 ### -field PathId
 
 Indicates the SCSI port or bus for the request. This value is zero-based.
-
 
 ### -field TargetId
 
 Indicates the target controller or device on the bus.
 
-
 ### -field Lun
 
 Indicates the logical unit number of the device.
-
 
 ### -field QueueTag
 
 Contains the queue-tag value assigned by the OS-specific port driver. If this member is used for tagged queuing, the HBA supports internal queuing of requests to LUs and the miniport driver set <b>TaggedQueueing</b> to <b>TRUE</b> in the PORT_CONFIGURATION_INFORMATION for this HBA.
 
-
 ### -field QueueAction
 
 Indicates the tagged-queuing message to be used when the SRB_FLAGS_QUEUE_ACTION_ENABLE flag is set. The value can be one of the following: SRB_SIMPLE_TAG_REQUEST, SRB_HEAD_OF_QUEUE_TAG_REQUEST, or SRB_ORDERED_QUEUE_TAG_REQUEST, as defined according to the SCSI specification.
-
 
 ### -field CdbLength
 
 Indicates the size in bytes of the SCSI-2 or later command descriptor block.
 
-
 ### -field SenseInfoBufferLength
 
 Indicates the size in bytes of the request-sense buffer. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
-
 
 ### -field SrbFlags
 
@@ -468,76 +456,59 @@ Is irrelevant to miniport drivers. A Windows  class driver uses this flag to ind
 
 Indicates that either the port or the miniport driver has allocated a buffer for sense data. This informs the class driver that it must free the sense data buffer after extracting the data.
 
-
 ### -field DataTransferLength
 
 Indicates the size in bytes of the data buffer. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
-
 
 ### -field TimeOutValue
 
 Indicates the interval in seconds that the request can execute before the OS-specific port driver might consider it timed out. Miniport drivers are not required to time requests because the port driver already does.
 
-
 ### -field DataBuffer
 
 Points to the data buffer. Miniport drivers should not use this value as a data pointer unless the miniport driver set <b>MapBuffers</b> to <b>TRUE</b> in the PORT_CONFIGURATION_INFORMATION for the HBA. In the case of SRB_FUNCTION_IO_CONTROL requests, however, miniport drivers can use this value as a data pointer regardless of the value of <b>MapBuffers</b>.
 
-
 ### -field SenseInfoBuffer
 
-Points to the request-sense buffer. A miniport driver is not required to provide request-sense data after a CHECK CONDITION. 
-
+Points to the request-sense buffer. A miniport driver is not required to provide request-sense data after a CHECK CONDITION.
 
 ### -field NextSrb
 
 Indicates the SCSI_REQUEST_BLOCK to which this request applies. Only a small subset of requests use a second SRB, for example SRB_FUNCTION_ABORT_COMMAND.
 
-
 ### -field OriginalRequest
 
 Points to the IRP for this request. This member is irrelevant to miniport drivers
-
 
 ### -field SrbExtension
 
 Points to the Srb extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the SCSI_HW_INITIALIZATION_DATA. The memory at <b>SrbExtension</b> is not initialized by the OS-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetphysicaladdress">ScsiPortGetPhysicalAddress</a> with the <b>SrbExtension</b> pointer.
 
-
 ### -field InternalStatus
 
 Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status of the completed request whenever the request cannot be delivered to the miniport driver. In such cases, <b>SrbStatus</b> is set to SRB_STATUS_INTERNAL_ERROR. This member is used exclusively for communication between the SCSI Port and the class driver and should not be used by miniport drivers.
 
-
 ### -field QueueSortKey
 
-Specifies the offset from the start of the media or zero, depending on the type of the target device. 
-
+Specifies the offset from the start of the media or zero, depending on the type of the target device.
 
 ### -field LinkTimeoutValue
-
-
 
 #### offset 2c
 
 
 
-#### 
-
+####
 
 ### -field Reserved
 
 Reserved.
 
-
 ### -field Cdb
 
-Specifies the SCSI-2 or later command descriptor block to be sent to the target device. 
-
+Specifies the SCSI-2 or later command descriptor block to be sent to the target device.
 
 ## -remarks
-
-
 
 Windows storage class and filter drivers can send SRBs with the following <b>Function</b> values to the system port driver:
 
@@ -565,13 +536,7 @@ SRB_FUNCTION_RELEASE_QUEUE to request that the port driver release a frozen queu
 </ul>
 The preceding SRB_FUNCTION_<i>XXX</i>  are never set in SRBs sent to SCSI miniport drivers. SRB_FUNCTION_REMOVE_DEVICE is defined for use in future versions of the system. It, too, is never set in SRBs sent to SCSI miniport drivers. SRB_FUNCTION_WMI_REQUEST is valid only in SCSI_WMI_REQUEST_BLOCK. A storage class or filter driver uses this to send WMI requests to the port driver.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
@@ -610,7 +575,4 @@ The preceding SRB_FUNCTION_<i>XXX</i>  are never set in SRBs sent to SCSI minipo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportnotification">ScsiPortNotification</a>
- 
-
- 
 

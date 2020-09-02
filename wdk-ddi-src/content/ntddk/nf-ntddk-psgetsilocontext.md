@@ -8,8 +8,6 @@ ms.assetid: 08C795F2-64F9-4EFE-AA25-3B2FCB31D062
 ms.date: 04/30/2018
 keywords: ["PsGetSiloContext function"]
 ms.keywords: PsGetSiloContext, PsGetSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetsilocontext, ntddk/PsGetSiloContext
-f1_keywords:
- - "ntddk/PsGetSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsGetSiloContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetSiloContext
+ - ntddk/PsGetSiloContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsGetSiloContext
 ---
 
 # PsGetSiloContext function
@@ -47,33 +46,25 @@ req.typenames:
 
 ## -description
 
-
 This routine retrieves the silo context from the specified silo and slot.
-
 
 ## -parameters
 
+### -param Silo 
 
-
-
-### -param Silo [in]
-
+[in]
 The silo where the silo context is to exist. This parameter is required and it cannot be <b>NULL</b>.
 
+### -param ContextSlot 
 
-### -param ContextSlot [in]
-
+[in]
 The slot where the silo context is to exist. A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
-
 
 ### -param ReturnedSiloContext
 
 Receives a referenced pointer to the silo context. On failure, the value received will be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -116,17 +107,9 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>PsGetSiloContext</b> routine retrieves an object that was inserted in the specified silo. A successful call to this routine increments the reference count on the object that the <i>ReturnedSiloContext</i> parameter points to. The object that the <i>ReturnedSiloContext</i> parameter points to, must be decremented by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdereferencesilocontext">PsDereferenceSiloContext</a> when it is no longer needed.
 A context slot may go empty if the silo is being terminated by either having no more processes or a specific call to <b>NtTerminateJobObject</b>. The return status in this case is <b>STATUS_NOT_FOUND</b>.
-
-
 

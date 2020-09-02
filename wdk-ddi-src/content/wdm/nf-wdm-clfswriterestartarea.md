@@ -8,8 +8,6 @@ ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.date: 04/30/2018
 keywords: ["ClfsWriteRestartArea function"]
 ms.keywords: ClfsWriteRestartArea, ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml, kernel.clfswriterestartarea, wdm/ClfsWriteRestartArea
-f1_keywords:
- - "wdm/ClfsWriteRestartArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsWriteRestartArea
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsWriteRestartArea
+ - wdm/ClfsWriteRestartArea
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsWriteRestartArea
 ---
 
 # ClfsWriteRestartArea function
@@ -48,37 +47,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsWriteRestartArea</b> routine atomically appends a new restart record to a CLFS stream, flushes the restart record to stable storage, and optionally updates the base LSN of the stream.
-
 
 ## -parameters
 
+### -param pvMarshalContext 
 
-
-
-### -param pvMarshalContext [in, out]
-
+[in, out]
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
+### -param pvRestartBuffer 
 
-### -param pvRestartBuffer [in]
-
+[in]
 A pointer to a buffer that contains the data for the restart record.
 
+### -param cbRestartBuffer 
 
-### -param cbRestartBuffer [in]
-
+[in]
 The size, in bytes, of the buffer pointed to by <i>pvRestartBuffer</i>. This is the size of the restart data.
 
+### -param plsnBase 
 
-### -param plsnBase [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that specifies a new base LSN for the stream. If this parameter is <b>NULL</b>, the base LSN is not changed.
 
+### -param fFlags 
 
-### -param fFlags [in]
-
+[in]
 This parameter must be one of the following values.
 
 <table>
@@ -107,31 +102,22 @@ The restart record is placed in previously reserved space in an I/O block. The n
 </td>
 </tr>
 </table>
- 
 
+### -param pcbWritten 
 
-### -param pcbWritten [out, optional]
-
+[out, optional]
 A pointer to a ULONG-typed variable that receives the number of bytes actually forced to stable storage. This parameter can be <b>NULL</b>.
 
+### -param plsnNext 
 
-### -param plsnNext [out, optional]
-
+[out, optional]
 A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the newly written restart record.
-
 
 ## -returns
 
-
-
 <b>ClfsWriteRestartArea</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 Typically ClfsWriteRestartArea is called as the last act of a client checkpoint.
 
@@ -141,15 +127,9 @@ At any one time, only one marshalling area should be used to write data to a str
 
 If you just want to set the base LSN of a stream, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsadvancelogbase">ClfsAdvanceLogBase</a>, which does not necessarily flush any data to stable storage.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>. 
-
-
-
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a>
 
@@ -168,7 +148,4 @@ For an explanation of CLFS concepts and terminology, see <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>
- 
-
- 
 

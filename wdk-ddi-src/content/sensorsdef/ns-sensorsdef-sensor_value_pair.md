@@ -8,8 +8,6 @@ ms.assetid: 0D0B06FE-BE88-4FB2-92FC-8B6D396CEFE8
 ms.date: 05/03/2018
 keywords: ["SENSOR_VALUE_PAIR structure"]
 ms.keywords: "*PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], sensors.sensor_value_pair, sensorsdef/PSENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR"
-f1_keywords:
- - "sensorsdef/SENSOR_VALUE_PAIR"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sensorsdef.h
-api_name:
-- SENSOR_VALUE_PAIR
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
+f1_keywords:
+ - SENSOR_VALUE_PAIR
+ - sensorsdef/SENSOR_VALUE_PAIR
+ - PSENSOR_VALUE_PAIR
+ - sensorsdef/PSENSOR_VALUE_PAIR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sensorsdef.h
+api_name:
+ - SENSOR_VALUE_PAIR
 ---
 
 # SENSOR_VALUE_PAIR structure
@@ -47,28 +48,19 @@ req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 
 ## -description
 
-
 This structure pairs the property keys listed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a> section with the data that each key represents.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Key
 
 A property key that is associated with a sensor. For a list of the valid property keys, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>.
 
-
 ### -field Value
 
 A value that is associated with the property key element.
 
-
 ## -remarks
-
-
 
 The Value is one of the VT types (VARTYPE) that are supported by the sensor class extension (CX):
 
@@ -88,5 +80,4 @@ The Value is one of the VT types (VARTYPE) that are supported by the sensor clas
 <li>VT_CLSID</li>
 <li>VT_LPWSTR</li>
 </ul>
-
 

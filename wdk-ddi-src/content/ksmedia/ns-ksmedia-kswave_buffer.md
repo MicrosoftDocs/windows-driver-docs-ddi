@@ -8,8 +8,6 @@ ms.assetid: 1bd19fcd-90da-4e1a-ac9a-692c6fddc7ab
 ms.date: 04/30/2019
 keywords: ["KSWAVE_BUFFER structure"]
 ms.keywords: "*PKSWAVE_BUFFER, KSWAVE_BUFFER, KSWAVE_BUFFER structure [Streaming Media Devices], PKSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices], dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, ksmedia/KSWAVE_BUFFER, ksmedia/PKSWAVE_BUFFER, stream.kswave_buffer"
-f1_keywords:
- - "ksmedia/KSWAVE_BUFFER"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSWAVE_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: KSWAVE_BUFFER, *PKSWAVE_BUFFER
+f1_keywords:
+ - PKSWAVE_BUFFER
+ - ksmedia/PKSWAVE_BUFFER
+ - KSWAVE_BUFFER
+ - ksmedia/KSWAVE_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSWAVE_BUFFER
 ---
 
 # KSWAVE_BUFFER structure
@@ -47,14 +48,9 @@ req.typenames: KSWAVE_BUFFER, *PKSWAVE_BUFFER
 
 ## -description
 
-
 The KSWAVE_BUFFER structure is used to describe a sample buffer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Attributes
 
@@ -86,35 +82,20 @@ Indicates that the buffer is static.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BufferSize
 
 Specifies the size of the buffer, in bytes.
 
-
 ### -field BufferAddress
 
 Specifies the starting address of the buffer.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a> property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a>
- 
-
- 
 

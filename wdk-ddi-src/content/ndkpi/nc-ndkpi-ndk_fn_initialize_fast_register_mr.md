@@ -8,8 +8,6 @@ ms.assetid: E5051F79-E523-4A2B-965F-4D2C3BB5847F
 ms.date: 05/02/2018
 keywords: ["NDK_FN_INITIALIZE_FAST_REGISTER_MR callback function"]
 ms.keywords: NDK_FN_INITIALIZE_FAST_REGISTER_MR, NDK_FN_INITIALIZE_FAST_REGISTER_MR callback, NdkInitializeFastRegisterMr, NdkInitializeFastRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInitializeFastRegisterMr, netvista.ndk_fn_initialize_fast_register_mr
-f1_keywords:
- - "ndkpi/NdkInitializeFastRegisterMr"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkInitializeFastRegisterMr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_INITIALIZE_FAST_REGISTER_MR
+ - ndkpi/NDK_FN_INITIALIZE_FAST_REGISTER_MR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkInitializeFastRegisterMr
 ---
 
 # NDK_FN_INITIALIZE_FAST_REGISTER_MR callback function
@@ -47,44 +46,37 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkInitializeFastRegisterMr</i> (<i>NDK_FN_INITIALIZE_FAST_REGISTER_MR</i>) function initializes an NDK memory region (MR) for fast registration.
-
 
 ## -parameters
 
+### -param pNdkMr 
 
-
-
-### -param pNdkMr [in]
-
+[in]
 A pointer to an NDK memory region (MR) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
+### -param AdapterPageCount 
 
-### -param AdapterPageCount [in]
-
+[in]
 The maximum number of adapter pages to support in this MR such that fast-register work requests with equal or  a lower  number of adapter pages can be supported.
 
+### -param RemoteAccess 
 
-### -param RemoteAccess [in]
-
+[in]
 A BOOLEAN value that indicates if the MR must be initialized for remote access or not. An NDK consumer must set <i>RemoteAccess</i> to TRUE if the consumer will request remote access with  the <i>NdkFastRegister</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_fast_register">NDK_FN_FAST_REGISTER</a>) function.
 
+### -param RequestCompletion 
 
-### -param RequestCompletion [in]
-
+[in]
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
-
 ## -returns
-
-
 
 The  
      <i>NdkInitializeFastRegisterMr</i> function returns one of the following NTSTATUS codes.
@@ -140,14 +132,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>NdkInitializeFastRegisterMr</i> initializes an MR for fast registration. The  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a> object must be created with <i>FastRegister</i> parameter of the <i>NdkCreateMr</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_mr">NDK_FN_CREATE_MR</a>) function set to TRUE.
 
@@ -155,13 +141,7 @@ You can make multiple calls to <i>NdkInitializeFastRegisterMr</i>, either in par
 
 After <i>NdkInitializeFastRegisterMr</i> returns, a fast register work request can be posted to a queue pair (QP).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -180,7 +160,4 @@ After <i>NdkInitializeFastRegisterMr</i> returns, a fast register work request c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
- 
-
- 
 

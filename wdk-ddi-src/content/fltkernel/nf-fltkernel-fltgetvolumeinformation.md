@@ -8,8 +8,6 @@ ms.assetid: e25a7114-c1e5-4432-82a1-4c2e82d9fbc6
 ms.date: 04/16/2018
 keywords: ["FltGetVolumeInformation function"]
 ms.keywords: FltApiRef_e_to_o_79337a57-aa20-42b8-a85b-8268ef108564.xml, FltGetVolumeInformation, FltGetVolumeInformation routine [Installable File System Drivers], fltkernel/FltGetVolumeInformation, ifsk.fltgetvolumeinformation
-f1_keywords:
- - "fltkernel/FltGetVolumeInformation"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetVolumeInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetVolumeInformation
+ - fltkernel/FltGetVolumeInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetVolumeInformation
 ---
 
 # FltGetVolumeInformation function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltGetVolumeInformation</b> routine provides information about a given volume.
-
 
 ## -parameters
 
+### -param Volume 
 
-
-
-### -param Volume [in]
-
+[in]
 Opaque pointer for the volume.  This parameter is required and cannot be <b>NULL</b>.
 
+### -param InformationClass 
 
-### -param InformationClass [in]
-
+[in]
 Type of information requested. This parameter is required and must be one of the following values. 
 
 <table>
@@ -91,27 +86,23 @@ The <i>Buffer</i> parameter receives a <a href="https://docs.microsoft.com/windo
 </td>
 </tr>
 </table>
- 
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter.  This parameter is required and cannot be <b>NULL</b>.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value.  This parameter is required.
 
+### -param BytesReturned 
 
-### -param BytesReturned [out]
-
+[out]
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltGetVolumeInformation </b>returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FltGetVolumeInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS status code, such as one of the following:
 
@@ -143,14 +134,8 @@ The buffer that the <i>Buffer</i> parameter points to is not large enough to sto
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Given an opaque volume pointer, such as that returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratevolumes">FltEnumerateVolumes</a> routine, the <b>FltGetVolumeInformation</b> routine provides information about the volume pointed to by the opaque volume pointer, passed through the <i>Volume</i> parameter.  Note that the caller must eventually release the opaque volume pointer by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a> routine.
 
@@ -195,12 +180,7 @@ The following list contains related information, which may be of use:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_volume_basic_information">FILTER_VOLUME_BASIC_INFORMATION</a>
 
@@ -247,7 +227,4 @@ The following list contains related information, which may be of use:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromname">FltGetVolumeFromName</a>
- 
-
- 
 

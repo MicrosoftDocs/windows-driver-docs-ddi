@@ -8,8 +8,6 @@ ms.assetid: 5f725332-155d-484f-8eaf-b45e0d7413e7
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_STANDARD_MODE_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STANDARD_MODE_S, PKSPROPERTY_TUNER_STANDARD_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_MODE_S, stream.ksproperty_tuner_standard_mode_s, vidcapstruct_5b923a0a-26a2-4ef4-82d7-de7b3c3b67d0.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_TUNER_STANDARD_MODE_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_STANDARD_MODE_S, *PKSPROPERTY_TUNER_STANDARD_MODE_S
+f1_keywords:
+ - PKSPROPERTY_TUNER_STANDARD_MODE_S
+ - ksmedia/PKSPROPERTY_TUNER_STANDARD_MODE_S
+ - KSPROPERTY_TUNER_STANDARD_MODE_S
+ - ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_TUNER_STANDARD_MODE_S
 ---
 
 # KSPROPERTY_TUNER_STANDARD_MODE_S structure
@@ -47,29 +48,19 @@ req.typenames: KSPROPERTY_TUNER_STANDARD_MODE_S, *PKSPROPERTY_TUNER_STANDARD_MOD
 
 ## -description
 
-
 The KSPROPERTY_TUNER_STANDARD_MODE_S structure describes whether the tuning device can identify the tuner standard from the signal itself.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Property
 
 Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
-
 ### -field AutoDetect
 
-A Boolean value that indicates whether the tuning device can automatically detect the tuner standard from the signal. <b>TRUE</b> indicates that the tuning device can automatically detect the tuner standard from the signal. <b>FALSE</b> indicates that the tuning device cannot automatically detect the tuner standard. 
-
+A Boolean value that indicates whether the tuning device can automatically detect the tuner standard from the signal. <b>TRUE</b> indicates that the tuning device can automatically detect the tuner standard from the signal. <b>FALSE</b> indicates that the tuning device cannot automatically detect the tuner standard.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
@@ -80,7 +71,4 @@ A Boolean value that indicates whether the tuning device can automatically detec
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.date: 05/10/2018
 keywords: ["UMDEtwLogMapAllocation function"]
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
-f1_keywords:
- - "umdprovider/UMDEtwLogMapAllocation"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- umdprovider.h
-api_name:
-- UMDEtwLogMapAllocation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UMDEtwLogMapAllocation
+ - umdprovider/UMDEtwLogMapAllocation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - umdprovider.h
+api_name:
+ - UMDEtwLogMapAllocation
 ---
 
 # UMDEtwLogMapAllocation function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Describes how a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is being used.
 
-
 ## -parameters
-
-
-
 
 ### -param hD3DAllocation
 
@@ -64,35 +58,27 @@ A handle to the Direct3D allocation.
 
 The driver can set this value to <b>NULL</b> if it uses allocations internally.
 
-
 ### -param hDxgAllocation
 
 A handle to the DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation that the Direct3D allocation is mapped to.
-
 
 ### -param Offset
 
 The starting address, in bytes, of the Direct3D allocation within the Dxgkrnl allocation.
 
-
 ### -param Size
 
 The size, in bytes, of the Direct3D allocation within the Dxgkrnl allocation.
-
 
 ### -param Usage
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/ns-umdprovider-_umdetw_allocation_usage">UMDETW_ALLOCATION_USAGE</a> structure that indicates the reason for this mapping.
 
-
 ### -param Semantic
 
 If the allocation is used internally by the user-mode driver, this is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/ne-umdprovider-_umdetw_allocation_semantic">UMDETW_ALLOCATION_SEMANTIC</a> structure that indicates what the allocation is used for.
 
-
 ## -remarks
-
-
 
 The user-mode display driver must completely account for the video memory it allocates, so it must call this function to log an event every time the allocation changes.
 
@@ -152,11 +138,7 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
 }
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource">CreateResource</a>
 
@@ -171,7 +153,4 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/ns-umdprovider-_umdetw_allocation_usage">UMDETW_ALLOCATION_USAGE</a>
- 
-
- 
 

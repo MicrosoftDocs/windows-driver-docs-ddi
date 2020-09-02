@@ -5,44 +5,42 @@ description:
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
-f1_keywords:
- - "sidebandaudio/IOCTL_SBAUD_SET_DEVICE_CLAIMED"
 req.header: sidebandaudio.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sidebandaudio.h
-api_name: 
-- IOCTL_SBAUD_SET_DEVICE_CLAIMED
-product:
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_SBAUD_SET_DEVICE_CLAIMED
+ - sidebandaudio/IOCTL_SBAUD_SET_DEVICE_CLAIMED
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sidebandaudio.h
+api_name:
+ - IOCTL_SBAUD_SET_DEVICE_CLAIMED
 ---
 
 # IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
 
 This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
-
-
 
 ## -ioctlparameters
 
@@ -83,3 +81,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+

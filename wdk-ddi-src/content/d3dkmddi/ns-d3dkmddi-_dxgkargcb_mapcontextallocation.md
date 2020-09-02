@@ -5,10 +5,8 @@ description: DXGKARGCB_MAPCONTEXTALLOCATION is used with DxgkCbMapContextAllocat
 old-location: display\dxgkargcb_mapcontextallocation.htm
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.date: 05/10/2018
-keywords: ["_DXGKARGCB_MAPCONTEXTALLOCATION structure"]
+keywords: ["DXGKARGCB_MAPCONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation
-f1_keywords:
- - "d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARGCB_MAPCONTEXTALLOCATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION
+f1_keywords:
+ - _DXGKARGCB_MAPCONTEXTALLOCATION
+ - d3dkmddi/_DXGKARGCB_MAPCONTEXTALLOCATION
+ - DXGKARGCB_MAPCONTEXTALLOCATION
+ - d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARGCB_MAPCONTEXTALLOCATION
 ---
 
 # _DXGKARGCB_MAPCONTEXTALLOCATION structure
@@ -47,14 +48,9 @@ req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION
 
 ## -description
 
-
 <b>DXGKARGCB_MAPCONTEXTALLOCATION</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_mapcontextallocation">DxgkCbMapContextAllocation</a> to map a graphics processing unit (GPU) virtual address to the specified context allocation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BaseAddress
 
@@ -62,9 +58,7 @@ req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION
 
 
 
-If NULL is specified, the video memory manager will pick the base address for the allocation within the specified <b>MinimumAddress</b> and <b>MaximumAddress</b>. 
-
-
+If NULL is specified, the video memory manager will pick the base address for the allocation within the specified <b>MinimumAddress</b> and <b>MaximumAddress</b>.
 
 ### -field MinimumAddress
 
@@ -73,8 +67,6 @@ If NULL is specified, the video memory manager will pick the base address for th
 
 This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
-
-
 ### -field MaximumAddress
 
 Specifies the maximum GPU virtual address to consider for the mapped range. The video memory manager will guarantee that <b>BaseAddress</b>+<b>Size</b> <= <b>MaximumAddress</b>. If this is set to <b>NULL</b> the video memory manager will not apply any limit.
@@ -82,44 +74,31 @@ Specifies the maximum GPU virtual address to consider for the mapped range. The 
 
 This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
-
-
 ### -field hAllocation
 
 Handle to the allocation being mapped into the GPU virtual address space. This is a DirectX graphics kernel  handle, returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>.
-
 
 ### -field OffsetInPages
 
 Specifies the offset, in 4KB pages, to the starting page within the specified allocation that must be mapped.
 
-
 ### -field SizeInPages
 
 Specifies the size of the range to map in number of 4KB pages.
 
-
 ### -field Protection
 
-Specifies the protection on the GPU virtual address that is mapped. 
-
+Specifies the protection on the GPU virtual address that is mapped.
 
 ### -field DriverProtection
 
 Specifies the driver protection parameters.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_mapcontextallocation">DxgkCbMapContextAllocation</a>
- 
-
- 
 

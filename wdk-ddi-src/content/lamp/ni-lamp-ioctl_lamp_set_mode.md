@@ -8,8 +8,6 @@ ms.assetid: 188F8AC8-BB1A-43C1-9933-5E03F954C2C0
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_SET_MODE IOCTL"]
 ms.keywords: IOCTL_LAMP_SET_MODE, IOCTL_LAMP_SET_MODE control, IOCTL_LAMP_SET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_MODE, stream.ioctl_lamp_set_mode
-f1_keywords:
- - "lamp/IOCTL_LAMP_SET_MODE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_SET_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_SET_MODE
+ - lamp/IOCTL_LAMP_SET_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_SET_MODE
 ---
 
 # IOCTL_LAMP_SET_MODE IOCTL
+
 
 ## -description
 
@@ -80,3 +80,4 @@ None.
 The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status.
 
 If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
+

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiPresentDisplayOnly"
+ - DXGKDDI_PRESENTDISPLAYONLY
+ - d3dkmddi/DXGKDDI_PRESENTDISPLAYONLY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_PRESENTDISPLAYONLY callback function
+
 
 ## -description
 

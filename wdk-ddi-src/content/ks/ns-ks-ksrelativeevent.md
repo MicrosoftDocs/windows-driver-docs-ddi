@@ -8,8 +8,6 @@ ms.assetid: 4edb8b74-d5e5-49ee-85a7-9eb095f5a575
 ms.date: 04/23/2018
 keywords: ["KSRELATIVEEVENT structure"]
 ms.keywords: KSRELATIVEEVENT, KSRELATIVEEVENT , KSRELATIVEEVENT structure [Streaming Media Devices], ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, ks/KSRELATIVEEVENT, stream.ksrelativeevent
-f1_keywords:
- - "ks/KSRELATIVEEVENT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSRELATIVEEVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRELATIVEEVENT
+f1_keywords:
+ - KSRELATIVEEVENT
+ - ks/KSRELATIVEEVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSRELATIVEEVENT
 ---
 
 # KSRELATIVEEVENT structure
@@ -47,44 +46,33 @@ req.typenames: KSRELATIVEEVENT
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-connection-startat">KSPROPERTY_CONNECTION_STARTAT</a> property is passed a KSRELATIVEEVENT structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Specifies the inclusive size of the structure, including any event specific data appended to the <b>EventData</b> member.
 
-
 ### -field Flags
 
 Specifies what type of object is specified in the <b>ObjectHandle</b> and <b>ObjectPointer</b> union.
-
 
 ### -field ObjectHandle
 
 Specifies the handle of the object supporting the event to be used if the <b>Flags</b> member contains the KSRELATIVEEVENT_FLAG_HANDLE flag.
 
-
 ### -field ObjectPointer
 
 Specifies a pointer to the object supporting the event to be used if the Flags member contains the KSRELATIVEEVENT_FLAG_POINTER flag. This is valid only for kernel-mode clients.
-
 
 ### -field Reserved
 
 Reserved and set to zero.
 
-
 ### -field Event
 
 A <a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a> structure that contains the event to be used.
-
 
 ### -field EventData
 

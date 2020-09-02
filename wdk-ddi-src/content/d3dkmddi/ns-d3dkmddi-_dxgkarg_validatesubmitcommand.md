@@ -4,41 +4,43 @@ title: _DXGKARG_VALIDATESUBMITCOMMAND (d3dkmddi.h)
 description: Arguments used in the call to DXGKDDI_VALIDATESUBMITCOMMAND.
 ms.assetid: c1d647f6-1b10-4a58-b3af-33e45f0a19ce
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_VALIDATESUBMITCOMMAND structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARG_VALIDATESUBMITCOMMAND"
+keywords: ["DXGKARG_VALIDATESUBMITCOMMAND structure"]
 ms.keywords: _DXGKARG_VALIDATESUBMITCOMMAND, DXGKARG_VALIDATESUBMITCOMMAND, *INOUT_PDXGKARG_VALIDATESUBMITCOMMAND
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_VALIDATESUBMITCOMMAND
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmddi.h
-api_name: 
-- _DXGKARG_VALIDATESUBMITCOMMAND
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGKARG_VALIDATESUBMITCOMMAND
+ - d3dkmddi/_DXGKARG_VALIDATESUBMITCOMMAND
+ - DXGKARG_VALIDATESUBMITCOMMAND
+ - d3dkmddi/DXGKARG_VALIDATESUBMITCOMMAND
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARG_VALIDATESUBMITCOMMAND
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGKARG_VALIDATESUBMITCOMMAND structure
+
 
 ## -description
 
@@ -81,9 +83,11 @@ Portion of the private data buffer in bytes, passed from user mode.
 The portion of the buffer, which is not passed from user mode, is not initialized. The kernel mode driver could use this portion to store its own data, which can be consumed in [DxgkDdiSubmitCommandVirtual](nc-d3dkmddi-dxgkddi_submitcommandvirtual.md).
 
 ### -field HwQueueProgressFenceId
+
  
 Valid only when **Flags.HardwareQueueSubmission** is set.
 
 ## -remarks
 
 ## -see-also
+

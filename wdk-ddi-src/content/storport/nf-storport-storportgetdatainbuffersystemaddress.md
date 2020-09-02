@@ -8,8 +8,6 @@ ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.date: 03/29/2018
 keywords: ["StorPortGetDataInBufferSystemAddress function"]
 ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress
-f1_keywords:
- - "storport/StorPortGetDataInBufferSystemAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortGetDataInBufferSystemAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetDataInBufferSystemAddress
+ - storport/StorPortGetDataInBufferSystemAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortGetDataInBufferSystemAddress
 ---
 
 # StorPortGetDataInBufferSystemAddress function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 Returns the system address for the input data buffer  of a SCSI request block (SRB).
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Srb 
 
-### -param Srb [in]
-
+[in]
 The request block to containing the input data buffer.
 
+### -param SystemAddress 
 
-### -param SystemAddress [out]
-
+[out]
 A pointer to  a an  address  value to receive the system address for the input data buffer in <i>Srb</i>.
 
-
 ## -returns
-
-
 
 A status value indicating the result of the notification. This can be one of these values:
 
@@ -128,22 +120,12 @@ A system address can not be assigned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdatainbuffermdl">StorPortGetDataInBufferMdl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdatainbufferscattergatherlist">StorPortGetDataInBufferScatterGatherList</a>
- 
-
- 
 

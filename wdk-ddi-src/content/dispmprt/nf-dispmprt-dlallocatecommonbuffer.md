@@ -6,43 +6,44 @@ description: Allocates and maps a logically contiguous region of memory that is 
 tech.root: display
 ms.assetid: dc2f64dc-204a-41c5-af32-341e7dd06782
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
+ms.date: 04/04/2019
 keywords: ["DlAllocateCommonBuffer function"]
-f1_keywords:
- - "dispmprt/DlAllocateCommonBuffer"
 ms.keywords: DlAllocateCommonBuffer
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- DispLib.dll
-- DispLib.dll
-api_name: 
-- DlAllocateCommonBuffer
-product: 
-- Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - DlAllocateCommonBuffer
+ - dispmprt/DlAllocateCommonBuffer
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - DispLib.dll
+ - DispLib.dll
+api_name:
+ - DlAllocateCommonBuffer
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # DlAllocateCommonBuffer function
@@ -78,7 +79,6 @@ Specifies whether the allocated memory can be cached.
 
 Is currently ignored by the video port driver.
 
-
 ## -returns
 
 This function returns PVOID.
@@ -86,3 +86,4 @@ This function returns PVOID.
 ## -remarks
 
 ## -see-also
+

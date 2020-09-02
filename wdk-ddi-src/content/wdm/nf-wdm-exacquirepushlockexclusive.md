@@ -5,40 +5,37 @@ description: Acquires the given push lock for exclusive access by the calling th
 ms.assetid: ba752619-f885-4977-b0e6-7c0339373b78
 ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockExclusive macro"]
-f1_keywords:
- - "wdm/ExAcquirePushLockExclusive"
 ms.keywords: ExAcquirePushLockExclusive
 req.header: wdm.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:  Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: Windows 10, version 1809
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wdm.h
-api_name: 
-- ExAcquirePushLockExclusive
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - ExAcquirePushLockExclusive
+ - wdm/ExAcquirePushLockExclusive
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - ExAcquirePushLockExclusive
 ---
 
 # ExAcquirePushLockExclusive macro
@@ -51,6 +48,7 @@ Acquires the given push lock for exclusive access by the calling thread.
 ## -parameters
 
 ### -param Lock
+
 Opaque push lock pointer. This pointer must have been initialized by a previous call to [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md).
 
 ## -remarks
@@ -70,9 +68,8 @@ To release the push lock after it is acquired, call [**ExReleasePushLockExclusiv
 
 To acquire a push lock for shared access, call [**ExAcquirePushLockShared**](nf-wdm-exacquirepushlockshared.md).
 
-
-
 ## -see-also
+
 [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md)
 
 [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md)

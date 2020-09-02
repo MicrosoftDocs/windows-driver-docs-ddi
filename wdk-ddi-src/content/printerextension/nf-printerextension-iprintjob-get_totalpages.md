@@ -8,8 +8,6 @@ ms.assetid: 1035337F-2EDD-4538-AF39-3828B6DE424B
 ms.date: 04/20/2018
 keywords: ["IPrintJob::get_TotalPages"]
 ms.keywords: IPrintJob interface [Print Devices],TotalPages property, IPrintJob.TotalPages, IPrintJob.get_TotalPages, IPrintJob::TotalPages, IPrintJob::get_TotalPages, TotalPages property [Print Devices], TotalPages property [Print Devices],IPrintJob interface, get_TotalPages, print.iprintjob_totalpages, printerextension/IPrintJob::TotalPages, printerextension/IPrintJob::get_TotalPages
-f1_keywords:
- - "printerextension/IPrintJob.TotalPages"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintJob.TotalPages
-- IPrintJob.get_TotalPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintJob::get_TotalPages
+ - printerextension/IPrintJob::get_TotalPages
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintJob.TotalPages
+ - IPrintJob.get_TotalPages
 ---
 
 # IPrintJob::get_TotalPages
@@ -48,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the total number of pages that the document contains.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
 ms.date: 04/30/2018
 keywords: ["IoCreateSystemThread function"]
 ms.keywords: IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, wdm/IoCreateSystemThread
-f1_keywords:
- - "wdm/IoCreateSystemThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateSystemThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateSystemThread
+ - wdm/IoCreateSystemThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateSystemThread
 ---
 
 # IoCreateSystemThread function
@@ -47,58 +46,51 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCreateSystemThread</b> routine creates a system thread that executes in kernel mode, and supplies a handle for the thread.
-
 
 ## -parameters
 
+### -param IoObject 
 
-
-
-### -param IoObject [in, out]
-
+[in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> to associate with          the created thread. <b>IoCreateSystemThread</b> takes a counted reference to this object. The I/O manager later releases this reference when the thread exits. For more information, see Remarks.
 
+### -param ThreadHandle 
 
-### -param ThreadHandle [out]
-
+[out]
 A pointer to a variable to which the routine writes the kernel handle for the created thread. When the handle is no longer needed, the driver must close the handle by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> routine.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the types of access the caller requests to the created thread.
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in, optional]
-
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the thread object's attributes. The OBJ_PERMANENT, OBJ_EXCLUSIVE, and OBJ_OPENIF attributes are not valid attributes for a thread object. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute in the <b>OBJECT_ATTRIBUTES</b> structure.
 
+### -param ProcessHandle 
 
-### -param ProcessHandle [in, optional]
-
+[in, optional]
 An open handle for the process in whose address space the created thread is to run. The caller's thread must have PROCESS_CREATE_THREAD access to this process. If this parameter is <b>NULL</b>, the thread will be created in the initial system process. This parameter should be <b>NULL</b> for a driver-created thread. Use the <b>NtCurrentProcess</b> macro, defined in the Wdm.h header file, to specify the current process.
 
+### -param ClientId 
 
-### -param ClientId [out, optional]
-
+[out, optional]
 A pointer to a structure to which the routine writes the client identifier for the created thread. This parameter should be <b>NULL</b> for a driver-created thread.
 
+### -param StartRoutine 
 
-### -param StartRoutine [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a> routine that is the entry point for the created thread.
 
+### -param StartContext 
 
-### -param StartContext [in, optional]
-
+[in, optional]
 A context pointer that is passed as the <i>StartContext</i> parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a> routine when the created thread starts to run.
 
-
 ## -returns
-
-
 
 <b>IoCreateSystemThread</b> returns STATUS_SUCCESS if the new thread was successfully created. Possible return values include the following error status codes.
 
@@ -141,14 +133,8 @@ Insufficient system resources are available to perform the requested operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Starting with Windows 8, a driver can call <b>IoCreateSystemThread</b> to create a device-dedicated thread.
      This routine creates a new system thread that has no thread environment block (TEB) or user-mode context, and runs only in kernel mode.
@@ -175,13 +161,7 @@ InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NUL
 
 In contrast to a system thread that is created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a> routine, a thread created by <b>IoCreateSystemThread</b> does not call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread">PsTerminateSystemThread</a> routine to terminate itself. Instead, the I/O manager calls <b>PsTerminateSystemThread</b> on behalf of the created thread when the thread exits.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -216,7 +196,4 @@ In contrast to a system thread that is created by the <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
- 
-
- 
 

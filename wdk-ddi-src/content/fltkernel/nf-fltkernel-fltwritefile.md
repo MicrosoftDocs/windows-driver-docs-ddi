@@ -8,8 +8,6 @@ ms.assetid: 994b4a75-4581-423b-8b8f-17a64600fb74
 ms.date: 04/16/2018
 keywords: ["FltWriteFile function"]
 ms.keywords: FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, FltWriteFile, FltWriteFile function [Installable File System Drivers], fltkernel/FltWriteFile, ifsk.fltwritefile
-f1_keywords:
- - "fltkernel/FltWriteFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltWriteFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltWriteFile
+ - fltkernel/FltWriteFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltWriteFile
 ---
 
 # FltWriteFile function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <b>FltWriteFile</b> is used to write data to an open file, stream, or device.
-
 
 ## -parameters
 
+### -param InitiatingInstance 
 
+[in]
+An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param InitiatingInstance [in]
+[in]
+Pointer to a file object for the file that the data is to be written to. This file object must be currently open. Calling <b>FltWriteFile</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>.
 
-Opaque instance pointer for the minifilter driver instance that is initiating the write request. This parameter is required and cannot be <b>NULL</b>. 
+### -param ByteOffset 
 
-
-### -param FileObject [in]
-
-Pointer to a file object for the file that the data is to be written to. This file object must be currently open. Calling <b>FltWriteFile</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param ByteOffset [in, optional]
-
+[in, optional]
 Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the write operation is to begin. 
 
 If this offset is supplied, or if the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag is specified in the <i>Flags</i> parameter, <b>FltWriteFile</b> does not update the file object's <b>CurrentByteOffset</b> field. 
@@ -80,20 +75,19 @@ If the file object that <i>FileObject</i> points to was opened for asynchronous 
 <div class="alert"><b>Note</b>  Prior to Windows 8, the special constants FILE_WRITE_TO_END_OF_FILE and  FILE_USE_FILE_POINTER_POSITION are not supported for this parameter.</div>
 <div> </div>
 
+### -param Length 
 
+[in]
+Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
-### -param Length [in]
+### -param Buffer 
 
-Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
+[in]
+Pointer to a buffer that contains the data to be written to the file. If the file is opened for noncached I/O, this buffer be must be aligned in accordance with the alignment requirement of the underlying storage device. Minifilter drivers can allocate such an aligned buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>.
 
+### -param Flags 
 
-### -param Buffer [in]
-
-Pointer to a buffer that contains the data to be written to the file. If the file is opened for noncached I/O, this buffer be must be aligned in accordance with the alignment requirement of the underlying storage device. Minifilter drivers can allocate such an aligned buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>. 
-
-
-### -param Flags [in]
-
+[in]
 Bitmask of flags specifying the type of write operation to be performed. 
 
 <table>
@@ -145,36 +139,27 @@ This flag is available for Windows Vista and later versions of the Windows opera
 </td>
 </tr>
 </table>
- 
 
+### -param BytesWritten 
 
-### -param BytesWritten [out, optional]
+[out, optional]
+Pointer to a caller-allocated variable that receives the number of bytes written to the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>.
 
-Pointer to a caller-allocated variable that receives the number of bytes written to the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>. 
+### -param CallbackRoutine 
 
+[in, optional]
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the write operation is complete. This parameter is optional and can be <b>NULL</b>.
 
-### -param CallbackRoutine [in, optional]
+### -param CallbackContext 
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the write operation is complete. This parameter is optional and can be <b>NULL</b>. 
-
-
-### -param CallbackContext [in, optional]
-
-Context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored. 
-
+[in, optional]
+Context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored.
 
 ## -returns
 
-
-
-<b>FltWriteFile</b> returns the NTSTATUS value that was returned by the file system. 
-
-
-
+<b>FltWriteFile</b> returns the NTSTATUS value that was returned by the file system.
 
 ## -remarks
-
-
 
 A minifilter driver calls <b>FltWriteFile</b> to write data to an open file. 
 
@@ -212,15 +197,9 @@ If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the wri
 
 If the value of the <i>CallbackRoutine</i> parameter is <b>NULL</b>, the write operation is performed synchronously. That is, <b>FltWriteFile</b> waits until the write operation is complete before returning. This is true even if the file object that <i>FileObject</i> points to was opened for asynchronous I/O. 
 
-If multiple threads call <b>FltWriteFile</b> for the same file object, and the file object was opened for synchronous I/O, the Filter Manager does not attempt to serialize I/O on the file. In this respect, <b>FltWriteFile</b> differs from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>. 
-
-
-
+If multiple threads call <b>FltWriteFile</b> for the same file object, and the file object was opened for synchronous I/O, the Filter Manager does not attempt to serialize I/O on the file. In this respect, <b>FltWriteFile</b> differs from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>
 
@@ -251,7 +230,4 @@ If multiple threads call <b>FltWriteFile</b> for the same file object, and the f
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
- 
-
- 
 

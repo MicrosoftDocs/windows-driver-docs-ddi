@@ -8,8 +8,6 @@ ms.assetid: d299074f-18db-4eff-b177-4d2d3535e299
 ms.date: 04/27/2018
 keywords: ["SdpCreateNodeBoolean function"]
 ms.keywords: SdpCreateNodeBoolean, SdpCreateNodeBoolean function [Bluetooth Devices], bltooth.sdpcreatenodeboolean, bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, sdplib/SdpCreateNodeBoolean
-f1_keywords:
- - "sdplib/SdpCreateNodeBoolean"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sdplib.h
-api_name:
-- SdpCreateNodeBoolean
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SdpCreateNodeBoolean
+ - sdplib/SdpCreateNodeBoolean
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sdplib.h
+api_name:
+ - SdpCreateNodeBoolean
 ---
 
 # SdpCreateNodeBoolean function
@@ -47,40 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The Bluetooth 
   <b>SdpCreateNodeBoolean</b> function is used to allocate and initialize an 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure to a Boolean type.
 
-
 ## -parameters
 
+### -param bVal 
 
-
-
-### -param bVal [in]
-
+[in]
 The Boolean value that is used to initialize the SDP_NODE structure.
 
+### -param tag 
 
-### -param tag [in]
-
+[in]
 A profile driver defined tag to associate with the node.
 
-
 ## -returns
-
-
 
 If successful, this function returns a pointer to the newly allocated SDP_NODE structure. If not
      successful, this function returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The data associated with the 
     <b>SdpCreateNodeBoolean</b> function is copied into the node, and the original data can be freed at any
@@ -89,20 +76,11 @@ The data associated with the
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
- 
-
- 
 

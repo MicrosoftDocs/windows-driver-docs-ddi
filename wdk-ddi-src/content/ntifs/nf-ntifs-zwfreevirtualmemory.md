@@ -8,8 +8,6 @@ ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.date: 04/30/2018
 keywords: ["ZwFreeVirtualMemory function"]
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
-f1_keywords:
- - "ntifs/ZwFreeVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwFreeVirtualMemory
-- NtFreeVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwFreeVirtualMemory
+ - ntifs/ZwFreeVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwFreeVirtualMemory
+ - NtFreeVirtualMemory
 ---
 
 # ZwFreeVirtualMemory function
@@ -48,29 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwFreeVirtualMemory</b> routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
-
 
 ## -parameters
 
+### -param ProcessHandle 
 
-
-
-### -param ProcessHandle [in]
-
+[in]
 A handle for the process in whose context the pages to be freed reside. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
+### -param BaseAddress 
 
-### -param BaseAddress [in, out]
-
+[in, out]
 A pointer to a variable that will receive the virtual address of the freed region of pages. 
 
 If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> when the region was reserved.
 
+### -param RegionSize 
 
-### -param RegionSize [in, out]
-
+[in, out]
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
 If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, the variable pointed to by <i>RegionSize</i> must be zero. <b>ZwFreeVirtualMemory</b> frees the entire region that was reserved in the initial allocation call to <b>ZwAllocateVirtualMemory</b>.
@@ -95,8 +90,9 @@ The MEM_DECOMMIT flag is set.
 </li>
 </ul>
 
-### -param FreeType [in]
+### -param FreeType 
 
+[in]
 A bitmask that contains flags that describe the type of free operation that <b>ZwFreeVirtualMemory</b> will perform for the specified region of pages. The possible values are listed in the following table.
 
 <table>
@@ -133,12 +129,8 @@ If any pages in the region are currently committed, <b>ZwFreeVirtualMemory</b> f
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>ZwFreeVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following.
 
@@ -181,14 +173,8 @@ There is a mismatch between the type of object required by the requested operati
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each page in the process's virtual address space is in one of the three states described in the following table.
 
@@ -270,20 +256,11 @@ For more information about memory management support for kernel-mode drivers, se
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 0fc60bae-2191-4e19-85c5-ed06f09225f0
 ms.date: 05/02/2018
 keywords: ["FWPS_PACKET_INJECTION_STATE_ enumeration"]
 ms.keywords: FWPS_PACKET_INJECTED_BY_OTHER, FWPS_PACKET_INJECTED_BY_SELF, FWPS_PACKET_INJECTION_STATE, FWPS_PACKET_INJECTION_STATE enumeration [Network Drivers Starting with Windows Vista], FWPS_PACKET_INJECTION_STATE_, FWPS_PACKET_INJECTION_STATE_MAX, FWPS_PACKET_NOT_INJECTED, FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, fwpsk/FWPS_PACKET_INJECTED_BY_OTHER, fwpsk/FWPS_PACKET_INJECTED_BY_SELF, fwpsk/FWPS_PACKET_INJECTION_STATE, fwpsk/FWPS_PACKET_INJECTION_STATE_MAX, fwpsk/FWPS_PACKET_NOT_INJECTED, fwpsk/FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, netvista.fwps_packet_injection_state, wfp_ref_4_enum_d8d574f4-6323-43e0-924f-09639f6aec10.xml
-f1_keywords:
- - "fwpsk/FWPS_PACKET_INJECTION_STATE"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_PACKET_INJECTION_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_PACKET_INJECTION_STATE
+f1_keywords:
+ - FWPS_PACKET_INJECTION_STATE_
+ - fwpsk/FWPS_PACKET_INJECTION_STATE_
+ - FWPS_PACKET_INJECTION_STATE
+ - fwpsk/FWPS_PACKET_INJECTION_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_PACKET_INJECTION_STATE
 ---
 
 # FWPS_PACKET_INJECTION_STATE_ enumeration
@@ -47,15 +48,10 @@ req.typenames: FWPS_PACKET_INJECTION_STATE
 
 ## -description
 
-
 The FWPS_PACKET_INJECTION_STATE enumeration type specifies the injection state of a network buffer
   list.
 
-
 ## -enum-fields
-
-
-
 
 ### -field FWPS_PACKET_NOT_INJECTED
 
@@ -63,19 +59,16 @@ The packet was not injected by any of the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>. A
      packet that originated from the TCP/IP stack will be at this state.
 
-
 ### -field FWPS_PACKET_INJECTED_BY_SELF
 
 The packet was injected using an injection handle passed by a call to one of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>.
-
 
 ### -field FWPS_PACKET_INJECTED_BY_OTHER
 
 The packet was injected using an injection handle other than one passed by a call
      to one of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>.
-
 
 ### -field FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF
 
@@ -84,7 +77,6 @@ The packet was injected by using an injection handle passed by a call to one of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, but
      the packet was later cloned and reinjected by an additional call to a packet injection function,
      possibly using a different injection handle.
-
 
 ### -field FWPS_PACKET_INJECTION_STATE_MAX
 

@@ -8,8 +8,6 @@ ms.assetid: a125161d-c086-45a4-9b66-4c13d9ed5f11
 ms.date: 04/23/2018
 keywords: ["KsCreateClock function"]
 ms.keywords: KsCreateClock, KsCreateClock function [Streaming Media Devices], ks/KsCreateClock, ksfunc_ba840ce8-a1c9-4ede-8d2e-6e2829ad9b11.xml, stream.kscreateclock
-f1_keywords:
- - "ks/KsCreateClock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ks.lib
-- ks.dll
-api_name:
-- KsCreateClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsCreateClock
+ - ks/KsCreateClock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ks.lib
+ - ks.dll
+api_name:
+ - KsCreateClock
 ---
 
 # KsCreateClock function
@@ -48,35 +47,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsCreateClock</b> function creates a handle to a clock instance. 
-
+The <b>KsCreateClock</b> function creates a handle to a clock instance.
 
 ## -parameters
 
+### -param ConnectionHandle 
 
-
-
-### -param ConnectionHandle [in]
-
+[in]
 Specifies the handle to the connection on which to create the clock.
 
+### -param ClockCreate 
 
-### -param ClockCreate [in]
-
+[in]
 Specifies clock create parameters. This currently consists of a flag that must be set to zero.
 
+### -param ClockHandle 
 
-### -param ClockHandle [out]
-
+[out]
 Specifies the new clock handle.
-
 
 ## -returns
 
-
-
 The <b>KsCreateClock</b> function returns STATUS_SUCCESS if successful, or it returns an error on clock creation failure.
-
-
 

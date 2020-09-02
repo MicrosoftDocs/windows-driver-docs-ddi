@@ -8,8 +8,6 @@ ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.date: 06/21/2019
 keywords: ["NtFreeVirtualMemory function"]
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
-f1_keywords:
- - "ntifs/ZwFreeVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwFreeVirtualMemory
-- NtFreeVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtFreeVirtualMemory
+ - ntifs/NtFreeVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwFreeVirtualMemory
+ - NtFreeVirtualMemory
 ---
 
 # NtFreeVirtualMemory function
+
 
 ## -description
 
@@ -51,18 +51,21 @@ The **NtFreeVirtualMemory** routine releases, decommits, or both releases and de
 
 ## -parameters
 
-### -param ProcessHandle [in]
+### -param ProcessHandle 
 
+[in]
 A handle for the process in whose context the pages to be freed reside. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
 
-### -param BaseAddress [in, out]
+### -param BaseAddress 
 
+[in, out]
 A pointer to a variable that will receive the base virtual address of the freed region of pages.
 
 If the MEM_RELEASE flag is set in the *FreeType* parameter, *\*BaseAddress* must be the base address returned by [**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory) when the region was reserved.
 
-### -param RegionSize [in, out]
+### -param RegionSize 
 
+[in, out]
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
 If the MEM_RELEASE flag is set in *\*FreeType*, *\*RegionSize* must be zero. **NtFreeVirtualMemory** frees the entire region that was reserved in the initial allocation call to **NtAllocateVirtualMemory**.
@@ -75,8 +78,9 @@ If the MEM_DECOMMIT flag is set in *\*FreeType*, **NtFreeVirtualMemory** decommi
 * *\*BaseAddress* is the base address returned by **NtAllocateVirtualMemory** when the region was reserved.
 * *\*RegionSize* is zero.
 
-### -param FreeType [in]
+### -param FreeType 
 
+[in]
 A bitmask containing flags that describe the type of free operation that **NtFreeVirtualMemory** will perform for the specified region of pages. The possible values are listed in the following table.
 
 <table>
@@ -199,3 +203,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 ## -see-also
 
 [**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory)
+

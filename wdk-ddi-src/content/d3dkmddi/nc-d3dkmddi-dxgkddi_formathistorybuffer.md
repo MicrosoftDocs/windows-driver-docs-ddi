@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiFormatHistoryBuffer"
+ - DXGKDDI_FORMATHISTORYBUFFER
+ - d3dkmddi/DXGKDDI_FORMATHISTORYBUFFER
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_FORMATHISTORYBUFFER callback function
+
 
 ## -description
 

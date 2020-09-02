@@ -10,6 +10,7 @@ keywords: ["FsRtlCopyWrite function"]
 ms.keywords: FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
 f1_keywords:
  - "ntifs/FsRtlCopyWrite"
+ - "FsRtlCopyWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCopyWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,43 +58,43 @@ The <b>FsRtlCopyWrite</b> routine copies data from a user buffer to a cached fil
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length in bytes of the data to be written.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
 
-### -param LockKey [in]
-
+### -param LockKey 
+[in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to the buffer from which the data is to be copied.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation. If the data is copied successfully, <i>IoStatus.Status</i> contains STATUS_SUCCESS. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the device object for the mounted volume that holds the file data.
 
 

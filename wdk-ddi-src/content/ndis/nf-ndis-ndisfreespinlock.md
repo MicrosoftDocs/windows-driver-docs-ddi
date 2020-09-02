@@ -8,8 +8,6 @@ ms.assetid: 4807d413-c40f-4ee8-b670-9afcac809bd2
 ms.date: 05/02/2018
 keywords: ["NdisFreeSpinLock function"]
 ms.keywords: NdisFreeSpinLock, NdisFreeSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSpinLock, ndis_spin_lock_ref_c5b1dcb1-afdc-4622-a07b-f81bb7c1f550.xml, netvista.ndisfreespinlock
-f1_keywords:
- - "ndis/NdisFreeSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFreeSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeSpinLock
+ - ndis/NdisFreeSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFreeSpinLock
 ---
 
 # NdisFreeSpinLock function
@@ -48,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisFreeSpinLock</b> function releases a spin lock initialized in a preceding call to the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> functioin.
 
-
 ## -parameters
 
+### -param SpinLock 
 
-
-
-### -param SpinLock [in]
-
+[in]
 Pointer to the spin lock to be deinitialized.
 
-
 ## -remarks
-
-
 
 If the caller of 
     <b>NdisFreeSpinLock</b> needs to use the spin lock again, it must call 
@@ -78,13 +70,7 @@ Callers of
     <b>NdisFreeSpinLock</b> can run at any IRQL. Usually, this function is not called until a driver is
     unloading.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
@@ -126,7 +112,4 @@ Callers of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_sriov_vf_invalidate_config_block_info.htm
 tech.root: netvista
 ms.assetid: 29FA9E0E-9DE4-459C-9947-3FD232E6417B
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure"]
+keywords: ["NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, netvista.ndis_sriov_vf_invalidate_config_block_info, ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, ntddndis/PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, *PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+f1_keywords:
+ - _NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+ - ntddndis/_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+ - PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+ - ntddndis/PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+ - NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+ - ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
 ---
 
 # _NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure
@@ -47,17 +50,9 @@ req.typenames: NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, *PNDIS_SRIOV_VF_INVAL
 
 ## -description
 
-
-
 The <b>NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</b> structure specifies one or more Virtual Function (VF) configuration blocks whose data has been changed (<i>invalidated</i>) by the driver for the PCI Express (PCIe) Physical Function (PF) on the network adapter.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -75,16 +70,11 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_VF_CONFIG_STATE_REVISION_1.
 
-
 ### -field BlockMask
 
 A ULONG64 value that specifies a bitmask for the first 64 VF configuration blocks. Each bit in the bitmask corresponds to a VF configuration block. If the bit is set to one, the data associated with the corresponding VF configuration block has changed.
 
-
-
 ## -remarks
-
-
 
 The  <b>NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</b> structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-invalidate-config-block">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>.
 
@@ -110,13 +100,7 @@ However, we recommend that IHVs reserve the first 64 VF configuration blocks for
 <div> </div>
 For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sr-iov-pf-vf-backchannel-communication">SR-IOV PF/VF Backchannel Communication</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -127,7 +111,4 @@ For more information about backchannel communication within the single root I/O 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-invalidate-config-block">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
- 
-
- 
 

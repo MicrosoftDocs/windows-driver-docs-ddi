@@ -6,10 +6,8 @@ old-location: netvista\wwan_registration_state.htm
 tech.root: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.date: 04/04/2019
-keywords: ["_WWAN_REGISTRATION_STATE structure"]
+keywords: ["WWAN_REGISTRATION_STATE structure"]
 ms.keywords: "*PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, _WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/PWWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE"
-f1_keywords:
- - "wwan/WWAN_REGISTRATION_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_REGISTRATION_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE
+f1_keywords:
+ - _WWAN_REGISTRATION_STATE
+ - wwan/_WWAN_REGISTRATION_STATE
+ - PWWAN_REGISTRATION_STATE
+ - wwan/PWWAN_REGISTRATION_STATE
+ - WWAN_REGISTRATION_STATE
+ - wwan/WWAN_REGISTRATION_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_REGISTRATION_STATE
 ---
 
 # _WWAN_REGISTRATION_STATE structure
@@ -47,21 +50,15 @@ req.typenames: WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE
 
 ## -description
 
-
 The WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field uNwError
 
 A network specific error, in the event of a registration failure. For more information about this
      member, see the following 
      "Remarks" section.
-
 
 ### -field RegisterState
 
@@ -76,12 +73,10 @@ The
      characterization of the roaming state is not available, the miniport driver should report 
      <b>WwanRegisterStateRoaming</b>.
 
-
 ### -field RegisterMode
 
 The registration mode of the device. For a list of defined values, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>.
-
 
 ### -field ProviderId
 
@@ -113,7 +108,6 @@ When processing a
 CDMA 1xRTT providers must be set to WWAN_CDMA_DEFAULT_PROVIDER_ID if the provider ID is not
      available.
 
-
 ### -field ProviderName
 
 A NULL-terminated string that represents the network provider's name. This member is limited to,
@@ -129,7 +123,6 @@ This member is ignored when the MB Service sets the preferred provider list.
 Miniport drivers should specify a <b>NULL</b> string for devices that do not have this
      information.
 
-
 ### -field RoamingText
 
 A NULL-terminated string to inform the user that the device is roaming. This member is limited to
@@ -139,7 +132,6 @@ A NULL-terminated string to inform the user that the device is roaming. This mem
 This text should provide additional information to the user when the registration state is either 
      <b>WwanRegisterStatePartner</b> or 
      <b>WwanRegisterStateRoaming</b>. This member is optional.
-
 
 ### -field WwanRegFlags
 
@@ -181,8 +173,6 @@ Indicates that the MB device manages its own packet context. The MB Service will
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CurrentCellularClass
 
@@ -193,8 +183,6 @@ The current cellular class of the registered network. For networks that only sup
 A bitmask that represents the data access technologies that are preferred for a connection.
 
 ## -remarks
-
-
 
 <i>Query</i> and 
     <i>set</i> OID requests as well as unsolicited status events use the 
@@ -252,13 +240,7 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 Miniport drivers connected to a multi-mode network should indicate the cellular class change through a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-register-state">NDIS_STATUS_WWAN_REGISTER_STATE</a> notification.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_registration_state">NDIS_WWAN_REGISTRATION_STATE</a>
 
@@ -269,7 +251,4 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>
- 
-
- 
 

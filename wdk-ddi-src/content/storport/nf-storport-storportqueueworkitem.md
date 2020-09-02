@@ -8,8 +8,6 @@ ms.assetid: 7B5DD97C-2E3D-4FF7-BF04-36F016B0C6B3
 ms.date: 03/29/2018
 keywords: ["StorPortQueueWorkItem function"]
 ms.keywords: StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], storage.storportqueueworkitem, storport/StorPortQueueWorkItem
-f1_keywords:
- - "storport/StorPortQueueWorkItem"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortQueueWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortQueueWorkItem
+ - storport/StorPortQueueWorkItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortQueueWorkItem
 ---
 
 # StorPortQueueWorkItem function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 Schedules a Storport work item to execute within the context of  a system worker thread.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param WorkItemCallback 
 
-### -param WorkItemCallback [in]
-
+[in]
 A pointer to a work item callback routine supplied by the miniport. This routine is called in context of the system thread to process the scheduled <i>WorkItem</i>.
 
+### -param Worker 
 
-### -param Worker [in]
-
+[in]
 A pointer to an opaque buffer for the worker returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 Optional context for the <i>WorkItem</i> that is processed by the callback routine in <i>WorkItemCallback</i>.
 
-
 ## -returns
-
-
 
 The <b>StorPortQueueWorkItem</b> routine returns one of these status codes:
 
@@ -132,15 +124,8 @@ The work item was successfully queued.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_workitem">HwStorWorkItem</a>
 
@@ -151,7 +136,4 @@ The work item was successfully queued.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>
- 
-
- 
 

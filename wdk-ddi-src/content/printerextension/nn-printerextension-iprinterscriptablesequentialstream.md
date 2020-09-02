@@ -8,8 +8,6 @@ ms.assetid: 85DF7DCB-7AB1-4A46-AD70-6D47D9F98079
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptableSequentialStream interface"]
 ms.keywords: IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], IPrinterScriptableSequentialStream interface [Print Devices],described, print.iprinterscriptablesequentialstream_interface, printerextension/IPrinterScriptableSequentialStream
-f1_keywords:
- - "printerextension/IPrinterScriptableSequentialStream"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- printerextension.h
-api_name:
-- IPrinterScriptableSequentialStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterScriptableSequentialStream
+ - printerextension/IPrinterScriptableSequentialStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - printerextension.h
+api_name:
+ - IPrinterScriptableSequentialStream
 ---
 
 # IPrinterScriptableSequentialStream interface
@@ -47,13 +46,11 @@ req.typenames:
 
 ## -description
 
-
-The IPrinterScriptableSequentialStream interface is an ISequentialStream-like interface that works in JavaScript. Instead of reading and writing byte arrays, it reads and writes JavaScript arrays of bytes, which are values between 0 and 255. 
-
+The IPrinterScriptableSequentialStream interface is an ISequentialStream-like interface that works in JavaScript. Instead of reading and writing byte arrays, it reads and writes JavaScript arrays of bytes, which are values between 0 and 255.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableSequentialStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptableSequentialStream</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableSequentialStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptableSequentialStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

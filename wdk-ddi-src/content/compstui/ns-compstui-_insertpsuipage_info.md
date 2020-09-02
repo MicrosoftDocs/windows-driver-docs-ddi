@@ -6,10 +6,8 @@ old-location: print\insertpsuipage_info.htm
 tech.root: print
 ms.assetid: 99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a
 ms.date: 04/20/2018
-keywords: ["_INSERTPSUIPAGE_INFO structure"]
+keywords: ["INSERTPSUIPAGE_INFO structure"]
 ms.keywords: "*PINSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO structure [Print Devices], PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO structure pointer [Print Devices], _INSERTPSUIPAGE_INFO, compstui/INSERTPSUIPAGE_INFO, compstui/PINSERTPSUIPAGE_INFO, cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml, print.insertpsuipage_info"
-f1_keywords:
- - "compstui/INSERTPSUIPAGE_INFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- INSERTPSUIPAGE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO
+f1_keywords:
+ - _INSERTPSUIPAGE_INFO
+ - compstui/_INSERTPSUIPAGE_INFO
+ - PINSERTPSUIPAGE_INFO
+ - compstui/PINSERTPSUIPAGE_INFO
+ - INSERTPSUIPAGE_INFO
+ - compstui/INSERTPSUIPAGE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - INSERTPSUIPAGE_INFO
 ---
 
 # _INSERTPSUIPAGE_INFO structure
@@ -47,19 +50,13 @@ req.typenames: INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO
 
 ## -description
 
-
 The INSERTPSUIPAGE_INFO structure is used as an input parameter to CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, if the function code is <a href="https://docs.microsoft.com/previous-versions/ff546414(v=vs.85)">CPSFUNC_INSERT_PSUIPAGE</a>. All member values must be supplied by the <b>ComPropSheet</b> caller.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Caller-supplied size, in bytes, of the INSERTPSUIPAGE_INFO structure.
-
 
 ### -field Type
 
@@ -121,7 +118,6 @@ CPSUI inserts the page described by the specified PROPSHEETPAGE structure.
 
 (This is equivalent to calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> with a function code of <a href="https://docs.microsoft.com/previous-versions/ff546394(v=vs.85)">CPSFUNC_ADD_PROPSHEETPAGE</a>.)
 
-
 ### -field Mode
 
 Caller-supplied value indicating where CPSUI should insert the new pages. It must be one of the following values:
@@ -172,12 +168,9 @@ CPSUI inserts pages as the last children of the parent group identified by the <
 
 The <i>lParam1</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> is ignored.
 
-
 ### -field dwData1
 
-
 ### -field dwData2
-
 
 ### -field dwData3
 

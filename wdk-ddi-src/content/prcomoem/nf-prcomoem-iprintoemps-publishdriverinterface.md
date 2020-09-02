@@ -8,8 +8,6 @@ ms.assetid: f878a674-7c08-4a7a-ab00-6c79f02566be
 ms.date: 04/20/2018
 keywords: ["IPrintOemPS::PublishDriverInterface"]
 ms.keywords: IPrintOemPS interface [Print Devices],PublishDriverInterface method, IPrintOemPS.PublishDriverInterface, IPrintOemPS::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemPS interface, prcomoem/IPrintOemPS::PublishDriverInterface, print.iprintoemps_publishdriverinterface, print_unidrv-pscript_rendering_b7e2dc4b-ecc1-41bd-853d-4099614b5cae.xml
-f1_keywords:
- - "prcomoem/IPrintOemPS.PublishDriverInterface"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemPS.PublishDriverInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemPS::PublishDriverInterface
+ - prcomoem/IPrintOemPS::PublishDriverInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemPS.PublishDriverInterface
 ---
 
 # IPrintOemPS::PublishDriverInterface
@@ -47,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemPS::PublishDriverInterface</code> method allows a rendering plug-in for Pscript5 to obtain the Pscript5 driver's <b>IPrintCorePS2</b>, <b>IPrintOemDriverPS</b>, or <b>IPrintCoreHelperPS</b> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pIUnknown
 
 Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintcoreps2-com-interface">IPrintCorePS2 COM Interface</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintoemdriverps-com-interface">IPrintOemDriverPS COM Interface</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps">IPrintCoreHelperPS Interface</a>.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -95,14 +86,8 @@ The operation failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Pscript5 driver supports the <b>IPrintCorePS2</b>, <b>IPrintOemDriverPS</b>, and <b>IPrintCoreHelperPS</b> interfaces. A rendering plug-in for Pscript5 must implement the <code>IPrintOemPS::PublishDriverInterface</code> method. The method should return information on its supported Pscript5 interfaces as follows:
 
@@ -122,20 +107,11 @@ If the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 </ol>
 If the plug-in fails all calls to <code>IPrintOemPS::PublishDriverInterface</code>, the plug-in will not receive further calls. If the plug-in will be calling <b>IPrintCorePS2</b>, <b>IPrintOemDriverPS</b>, or <b>IPrintCoreHelperPS</b> interface methods, it must use the received <b>IUnknown</b> interface pointer to call <b>IUnknown::QueryInterface</b> (described in the Microsoft Windows SDK documentation) in order to obtain a pointer to the driver's supported version of the <b>IPrintCorePS2</b>, <b>IPrintOemDriverPS</b>, or <b>IPrintCoreHelperPS</b> interface. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/accessing-printer-driver-interfaces-from-plug-ins">Accessing Printer Driver Interfaces from Plug-Ins</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemps">IPrintOemPS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo">IPrintOemPS::GetInfo</a>
- 
-
- 
 

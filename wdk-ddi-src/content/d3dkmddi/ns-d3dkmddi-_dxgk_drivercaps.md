@@ -5,47 +5,49 @@ description: The DXGK_DRIVERCAPS structure describes capabilities of a display m
 old-location: display\dxgk_drivercaps.htm
 ms.assetid: 1ee8eb02-066c-4a54-b31a-cd6644cbce06
 ms.date: 03/24/2020
-keywords: ["_DXGK_DRIVERCAPS structure"]
+keywords: ["DXGK_DRIVERCAPS structure"]
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
-f1_keywords:
- - "d3dkmddi/DXGK_DRIVERCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_DRIVERCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DRIVERCAPS
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_DRIVERCAPS
+ - d3dkmddi/_DXGK_DRIVERCAPS
+ - DXGK_DRIVERCAPS
+ - d3dkmddi/DXGK_DRIVERCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_DRIVERCAPS
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_DRIVERCAPS structure
+
 
 ## -description
 
@@ -327,3 +329,4 @@ Reserved.
 [**DXGK_FLIPCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_flipcaps.md)
 
 [**DXGKARG_QUERYADAPTERINFO**](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
+

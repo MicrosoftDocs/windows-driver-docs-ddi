@@ -8,8 +8,6 @@ ms.assetid: BA710D92-63F4-4B4B-868A-58074FC052E9
 ms.date: 05/03/2018
 keywords: ["IDebugOutputCallbacks2::GetInterestMask"]
 ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging],IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2 interface [Windows Debugging],GetInterestMask method, IDebugOutputCallbacks2.GetInterestMask, IDebugOutputCallbacks2::GetInterestMask, dbgeng/IDebugOutputCallbacks2::GetInterestMask, debugger.idebugoutputcallbacks2_getinterestmask
-f1_keywords:
- - "dbgeng/IDebugOutputCallbacks2.GetInterestMask"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugOutputCallbacks2.GetInterestMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugOutputCallbacks2::GetInterestMask
+ - dbgeng/IDebugOutputCallbacks2::GetInterestMask
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugOutputCallbacks2.GetInterestMask
 ---
 
 # IDebugOutputCallbacks2::GetInterestMask
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-Allows the callback object to describe which kinds of output notifications it wants to receive. 
-
+Allows the callback object to describe which kinds of output notifications it wants to receive.
 
 ## -parameters
-
-
-
 
 ### -param Mask
 
@@ -115,25 +109,12 @@ content in any format.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks2">IDebugOutputCallbacks2</a>
- 
-
- 
 

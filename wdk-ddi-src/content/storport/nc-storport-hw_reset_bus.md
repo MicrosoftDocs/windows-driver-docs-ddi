@@ -8,8 +8,6 @@ ms.assetid: fda5291c-dd4e-4aa1-8dac-65cf4c4306ab
 ms.date: 03/29/2018
 keywords: ["HW_RESET_BUS callback function"]
 ms.keywords: HW_RESET_BUS, HwStorResetBus, HwStorResetBus routine [Storage Devices], storage.hwstorresetbus, stormini_b3051379-4caa-4502-9492-a21672cfbf0d.xml, storport/HwStorResetBus
-f1_keywords:
- - "storport/HwStorResetBus"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorResetBus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_RESET_BUS
+ - storport/HW_RESET_BUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorResetBus
 ---
 
 # HW_RESET_BUS callback function
@@ -47,37 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>HwStorResetBus</b> routine is called by the port driver to clear error conditions.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceExtension
 
-A pointer to the miniport driver's per HBA storage area. 
-
+A pointer to the miniport driver's per HBA storage area.
 
 ### -param PathId
 
-Identifies the SCSI bus to be reset. 
-
+Identifies the SCSI bus to be reset.
 
 ## -returns
 
-
-
-If the bus is successfully reset, <b>HwStorResetBus</b> returns <b>TRUE</b>. 
-
-
-
+If the bus is successfully reset, <b>HwStorResetBus</b> returns <b>TRUE</b>.
 
 ## -remarks
-
-
 
 The name <b>HwStorResetBus</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
@@ -138,6 +123,4 @@ MyHwResetBus (
 </tr>
 </table></span></div>
 The <b>HW_RESET_BUS</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_RESET_BUS</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
-
 

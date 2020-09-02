@@ -8,8 +8,6 @@ ms.assetid: EBC36C42-50FC-4FB1-B11F-79ADAC2ABBBC
 ms.date: 04/30/2018
 keywords: ["RtlULongToUIntPtr function"]
 ms.keywords: RtlULongToUIntPtr, RtlULongToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongtouintptr, ntintsafe/RtlULongToUIntPtr
-f1_keywords:
- - "ntintsafe/RtlULongToUIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongToUIntPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongToUIntPtr
+ - ntintsafe/RtlULongToUIntPtr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongToUIntPtr
 ---
 
 # RtlULongToUIntPtr function
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONG_PTR</b> to a value of type <b>UINT_PTR</b>.
-
 
 ## -parameters
 
+### -param ulOperand 
 
-
-
-### -param ulOperand [in]
-
+[in]
 The value to be converted.
 
+### -param puiResult 
 
-### -param puiResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

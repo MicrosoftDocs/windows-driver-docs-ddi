@@ -8,8 +8,6 @@ ms.assetid: A307584E-CBF6-4CEB-8A0F-D519DA7599D3
 ms.date: 05/02/2018
 keywords: ["NDK_FN_QUERY_ADAPTER_INFO callback function"]
 ms.keywords: NDK_FN_QUERY_ADAPTER_INFO, NDK_FN_QUERY_ADAPTER_INFO callback, NdkQueryAdapterInfo, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQueryAdapterInfo, netvista.ndk_fn_query_adapter_info
-f1_keywords:
- - "ndkpi/NdkQueryAdapterInfo"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkQueryAdapterInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_QUERY_ADAPTER_INFO
+ - ndkpi/NDK_FN_QUERY_ADAPTER_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkQueryAdapterInfo
 ---
 
 # NDK_FN_QUERY_ADAPTER_INFO callback function
@@ -47,34 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkQueryAdapterInfo</i> (<i>NDK_FN_QUERY_ADAPTER_INFO</i>) function retrieves information about limits and capabilities of an  NDK adapter.
-
 
 ## -parameters
 
+### -param pNdkAdapter 
 
-
-
-### -param pNdkAdapter [in]
-
+[in]
 A pointer to an NDK adapter (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER)</a> instance.
-
 
 ### -param pInfo
 
-A pointer to a buffer that contains an <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. If the request completes with STATUS_SUCCESS, the NDK provider  fills  the structure with adapter information. 
-
+A pointer to a buffer that contains an <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. If the request completes with STATUS_SUCCESS, the NDK provider  fills  the structure with adapter information.
 
 ### -param pBufferSize
 
 On input, this parameter is a pointer to a variable that holds the size, in bytes, of the buffer that the  <i>pInfo</i> parameter  points to. On output, the variable receives the size, in bytes,  of the adapter information that was written into the buffer.
 
-
-
 ## -returns
-
-
 
 The 
      <i>NdkQueryAdapterInfo</i> function returns one of the following NTSTATUS codes.
@@ -121,26 +110,14 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>NdkQueryAdapterInfo</i> retrieves the adapter information in an  <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. The structure  contains information on various limits and capabilities of the adapter.
 
 <i>NdkQueryAdapterInfo</i>  requires an IRQL equal to PASSIVE_LEVEL and  it blocks until the request is completed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>
 
@@ -151,7 +128,4 @@ An error occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
- 
-
- 
 

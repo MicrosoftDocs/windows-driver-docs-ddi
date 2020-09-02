@@ -8,8 +8,6 @@ ms.assetid: 339e688f-64ec-402f-bd28-9fa487acb984
 ms.date: 04/30/2018
 keywords: ["ExInterlockedPopEntryList function"]
 ms.keywords: ExInterlockedPopEntryList, ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture], k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml, kernel.exinterlockedpopentrylist, wdm/ExInterlockedPopEntryList
-f1_keywords:
- - "wdm/ExInterlockedPopEntryList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExInterlockedPopEntryList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInterlockedPopEntryList
+ - wdm/ExInterlockedPopEntryList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExInterlockedPopEntryList
 ---
 
 # ExInterlockedPopEntryList function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExInterlockedPopEntryList</b> routine atomically removes an entry from the beginning of a singly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structures.
-
 
 ## -parameters
 
+### -param ListHead 
 
-
-
-### -param ListHead [in, out]
-
+[in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
 
+### -param Lock 
 
-### -param Lock [in, out]
-
+[in, out]
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
-
 
 ## -returns
 
-
-
 <b>ExInterlockedPopEntryList</b> returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure removed from the list. If the list was empty, the routine returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>ExInterlockedPopEntryList</b> performs the same operation as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-popentrylist">PopEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
 
@@ -85,13 +72,7 @@ For more information about using this routine to implement a singly linked list,
 
 The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The storage for the <i>ListHead</i> parameter must be resident at all IRQLs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializeslisthead">ExInitializeSListHead</a>
 
@@ -110,7 +91,4 @@ The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The stor
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-popentrylist">PopEntryList</a>
- 
-
- 
 

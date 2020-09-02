@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 353b996b-0678-4ce6-aaeb-3835ae05ee3e
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
 ---
 
 # FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST callback function
+
 
 ## -description
 
@@ -47,35 +47,11 @@ ms.custom: RS5
 
 The <b>VmbChannelSendSynchronousRequest</b> function sends a packet to the opposite endpoint and waits for a response.
 
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST FnVmbChannelSendSynchronousRequest; 
-
-// Definition
-
-NTSTATUS FnVmbChannelSendSynchronousRequest 
-(
-	VMBCHANNEL Channel
-	PVOID Buffer
-	UINT32 BufferSize
-	PMDL ExternalDataMdl
-	UINT32 Flags
-	PVOID CompletionBuffer
-	PUINT32 CompletionBufferSize
-	PLARGE_INTEGER Timeout
-)
-{...}
-
-```
-
 ## -parameters
 
 ### -param Channel
 
-A handle for the channel. 
+A handle for the channel.
 
 ### -param Buffer
 
@@ -162,6 +138,30 @@ The channel is being shut down.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST FnVmbChannelSendSynchronousRequest; 
+
+// Definition
+
+NTSTATUS FnVmbChannelSendSynchronousRequest 
+(
+	VMBCHANNEL Channel
+	PVOID Buffer
+	UINT32 BufferSize
+	PMDL ExternalDataMdl
+	UINT32 Flags
+	PVOID CompletionBuffer
+	PUINT32 CompletionBufferSize
+	PLARGE_INTEGER Timeout
+)
+{...}
+
+```
+
 ## -remarks
 
 Clients can run this function with any combination of parameters. 
@@ -177,3 +177,4 @@ this if <code>*Timeout == 0</code> and the <b>VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
+

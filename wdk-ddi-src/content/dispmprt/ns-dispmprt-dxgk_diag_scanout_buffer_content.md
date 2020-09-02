@@ -31,13 +31,16 @@ api_name:
  - _DXGK_DIAG_SCANOUT_BUFFER_CONTENT
  - DXGK_DIAG_SCANOUT_BUFFER_CONTENT
 f1_keywords:
+ - _DXGK_DIAG_SCANOUT_BUFFER_CONTENT
  - dispmprt/_DXGK_DIAG_SCANOUT_BUFFER_CONTENT
+ - DXGK_DIAG_SCANOUT_BUFFER_CONTENT
  - dispmprt/DXGK_DIAG_SCANOUT_BUFFER_CONTENT
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CONTENT structure
+
 
 ## -description
 
@@ -70,3 +73,4 @@ Drivers should use either **ScanoutBufferCrc** or **ScanoutBufferHistogram**, or
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

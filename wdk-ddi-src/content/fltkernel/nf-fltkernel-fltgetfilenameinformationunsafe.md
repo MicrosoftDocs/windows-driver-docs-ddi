@@ -8,8 +8,6 @@ ms.assetid: 3c5ec515-d332-4fef-8b78-b2f04a672fd7
 ms.date: 05/09/2019
 keywords: ["FltGetFileNameInformationUnsafe function"]
 ms.keywords: FltGetFileNameInformationUnsafe, FltGetFileNameInformationUnsafe routine [Installable File System Drivers], fltkernel/FltGetFileNameInformationUnsafe, ifsk.fltgetfilenameinformationunsafe
-f1_keywords:
- - "fltkernel/FltGetFileNameInformationUnsafe"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL (see Remarks)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetFileNameInformationUnsafe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetFileNameInformationUnsafe
+ - fltkernel/FltGetFileNameInformationUnsafe
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetFileNameInformationUnsafe
 ---
 
 # FltGetFileNameInformationUnsafe function
+
 
 ## -description
 
@@ -50,16 +50,19 @@ The **FltGetFileNameInformationUnsafe** routine returns name information for an 
 
 ## -parameters
 
-### -param FileObject [in]
+### -param FileObject 
 
+[in]
 Pointer to a file object for the file or directory. The file object must be currently open. This parameter is required and cannot be set to **NULL**.
 
-### -param Instance [in, optional]
+### -param Instance 
 
+[in, optional]
 Instance pointer for the caller. This parameter can be set to **NULL**.
 
-### -param NameOptions [in]
+### -param NameOptions 
 
+[in]
 A [FLT_FILE_NAME_OPTIONS](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method to be used by the Filter Manager. This parameter is required and cannot be set to **NULL**.
 
 The following table describes the name format flag values. Only one of the flags can be specified. For more information about these formats, see [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md).
@@ -150,8 +153,9 @@ FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP
 </tr>
 </table>
 
-### -param FileNameInformation [out]
+### -param FileNameInformation 
 
+[out]
 Pointer to a caller-allocated variable that receives the address of a system-allocated FLT_FILE_NAME_INFORMATION structure. **FltGetFileNameInformationUnsafe** allocates this structure from paged pool. When this information is no longer needed, the caller must release the structure by calling [FltReleaseFileNameInformation](nf-fltkernel-fltreleasefilenameinformation.md). This parameter is required and cannot be set to **NULL**.
 
 ## -returns
@@ -240,3 +244,4 @@ For more information about normalized file name information, see [FLT_FILE_NAME_
 [PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)
 
 [PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)
+

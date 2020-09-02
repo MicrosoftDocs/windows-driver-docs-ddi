@@ -8,8 +8,6 @@ ms.assetid: 58dd579c-3fb8-45c7-a7bc-ca0919166153
 ms.date: 04/16/2018
 keywords: ["RxCeQueryInformation function"]
 ms.keywords: RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers], ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml
-f1_keywords:
- - "rxce/RxCeQueryInformation"
 req.header: rxce.h
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeQueryInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeQueryInformation
+ - rxce/RxCeQueryInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeQueryInformation
 ---
 
 # RxCeQueryInformation function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeQueryInformation</b> queries information about a connection in a caller-allocated buffer.
-
 
 ## -parameters
 
+### -param pVc 
 
-
-
-### -param pVc [in]
-
+[in]
 A pointer to the virtual circuit associated with this connection.
 
+### -param InformationClass 
 
-### -param InformationClass [in]
-
+[in]
 The desired information class for this query type. The value specified for <i>InformationClass</i> determines the type of information that is returned. This parameter is an enumeration defined in <i>rxcehdlr.h</i> and can be one of the following values:
 
 
@@ -89,22 +84,19 @@ Query the transport For information about the connection endpoint. An RXCE_CONNE
 
 #### RxCeRemoteAddressInformation
 
-Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success. 
+Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success.
 
+### -param pInformation 
 
-### -param pInformation [out]
+[out]
+The caller-supplied buffer for returning information.
 
-The caller-supplied buffer for returning information. 
+### -param Length 
 
-
-### -param Length [in]
-
-The length of  the buffer. 
-
+[in]
+The length of  the buffer.
 
 ## -returns
-
-
 
 <b>RxCeQueryInformation</b> returns STATUS_SUCCESS on success or one of the following warning or error codes: 
 
@@ -161,14 +153,8 @@ The <i>InformationClass</i> for this query type was not one of the allowed value
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RxCeQueryInformation</b> returns information for a given virtual circuit. The  only values for <i>InformationClass</i> that can be specified when calling <b>RxCeQueryInformation</b> are the following:
 
@@ -182,20 +168,11 @@ RxCeRemoteAddressInformation
 
 For some values of <i>InformationClass</i>, <b>RxCeQueryInformation</b> calls <b>TdiBuildQueryInformation</b> and TDI to retrieve the requested information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryadapterstatus">RxCeQueryAdapterStatus</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequerytransportinformation">RxCeQueryTransportInformation</a>
- 
-
- 
 

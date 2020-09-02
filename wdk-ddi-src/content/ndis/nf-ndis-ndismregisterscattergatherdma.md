@@ -8,8 +8,6 @@ ms.assetid: 90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f
 ms.date: 05/02/2018
 keywords: ["NdisMRegisterScatterGatherDma function"]
 ms.keywords: NdisMRegisterScatterGatherDma, NdisMRegisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterScatterGatherDma, ndis_sgdma_ref_4c89dae9-d6bc-44a5-9b8b-8efcb69ecc75.xml, netvista.ndismregisterscattergatherdma
-f1_keywords:
- - "ndis/NdisMRegisterScatterGatherDma"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMRegisterScatterGatherDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMRegisterScatterGatherDma
+ - ndis/NdisMRegisterScatterGatherDma
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMRegisterScatterGatherDma
 ---
 
 # NdisMRegisterScatterGatherDma function
@@ -61,20 +60,17 @@ Bus master miniport drivers call the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> to initialize a
   scatter/gather DMA channel.
 
-
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 The miniport handle that NDIS passed to 
      <i>MiniportInitializeEx</i>.
 
+### -param DmaDescription 
 
-### -param DmaDescription [in, out]
-
+[in, out]
 A pointer to an NDIS_SG_DMA_DESCRIPTION structure. This structure describes the scatter/gather DMA
      properties of the miniport driver. The structure is defined as follows:
      
@@ -163,17 +159,14 @@ The size, in bytes, of the memory that is required to hold a scatter/gather list
        <b>NdisMRegisterScatterGatherDma</b>. Miniport drivers should use this size to preallocate memory for
        each scatter/gather list.
 
+### -param NdisMiniportDmaHandle 
 
-### -param NdisMiniportDmaHandle [out]
-
+[out]
 A pointer to a variable that the caller supplies and that NDIS fills with a handle. The handle
      identifies a context area that NDIS uses to manage this DMA resource. The miniport driver passes this
      handle to NDIS in subsequent calls to NDIS that involve this DMA resource.
 
-
 ## -returns
-
-
 
 <b>NdisMRegisterScatterGatherDma</b> returns one of the following:
 
@@ -238,14 +231,8 @@ The current version of NDIS does not support the version specified in the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An NDIS bus-master miniport driver calls 
     <b>NdisMRegisterScatterGatherDma</b> within its 
@@ -293,11 +280,7 @@ Miniport drivers call the
     NdisMDeregisterScatterGatherDma</a> function to deallocate the DMA resources that 
     <b>NdisMRegisterScatterGatherDma</b> allocated.
 
-
-
-
 ## -see-also
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -339,3 +322,4 @@ Miniport drivers call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+

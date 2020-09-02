@@ -6,10 +6,8 @@ old-location: bltooth\_brb_sco_open_channel.htm
 tech.root: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.date: 04/27/2018
-keywords: ["_BRB_SCO_OPEN_CHANNEL structure"]
+keywords: ["BRB_SCO_OPEN_CHANNEL structure"]
 ms.keywords: "_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_open_channel, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml, bthddi/_BRB_SCO_OPEN_CHANNEL"
-f1_keywords:
- - "bthddi/_BRB_SCO_OPEN_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_SCO_OPEN_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_SCO_OPEN_CHANNEL
+ - bthddi/_BRB_SCO_OPEN_CHANNEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_SCO_OPEN_CHANNEL
 ---
 
 # _BRB_SCO_OPEN_CHANNEL structure
@@ -47,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The _BRB_SCO_OPEN_CHANNEL structure describes a SCO channel to open to a remote device, or a response
   from the profile driver accepting or rejecting an incoming SCO connection request that was initiated by a
   remote device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -64,21 +58,17 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
-
 ### -field BtAddress
 
 The Bluetooth address of the remote device to open a SCO channel to.
-
 
 ### -field TransmitBandwidth
 
 The transmission bandwidth, in bytes per second, to be assigned to the SCO channel.
 
-
 ### -field ReceiveBandwidth
 
 The reception bandwidth, in bytes per second, to be assigned to the SCO channel.
-
 
 ### -field MaxLatency
 
@@ -131,8 +121,6 @@ The channel doesn't have a preferred
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PacketType
 
@@ -164,7 +152,6 @@ A flag or combination of flags that indicate the type of data packets that the S
 
 
 #### SCO_EV5
-
 
 ### -field ContentFormat
 
@@ -212,12 +199,9 @@ The audio voice settings for the channel. Use the following definitions to encod
 <dt>SCO_VS_SETTING_DEFAULT</dt>
 </dl>
 
-
-
 ### -field Reserved
 
 Reserved for future use. Do not use.
-
 
 ### -field RetransmissionEffort
 
@@ -225,7 +209,6 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">
      SCO_RETRANSMISSION_EFFORT</a> enumeration value that determines the retransmission policies for the
      channel.
-
 
 ### -field ChannelFlags
 
@@ -275,8 +258,6 @@ The profile driver indicates its preference that users not be prompted for a PIN
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CallbackFlags
 
@@ -306,8 +287,6 @@ The profile driver should be notified when the remote device is disconnected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Callback
 
@@ -316,12 +295,10 @@ The
      the profile driver, that the Bluetooth driver stack should call to notify the profile driver about any
      changes to the SCO connection.
 
-
 ### -field CallbackContext
 
 The context to pass to the callback function specified in the 
      <b>Callback</b> member. The profile driver defines this value.
-
 
 ### -field ReferenceObject
 
@@ -330,11 +307,9 @@ A pointer to an object to pass to
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
-
 ### -field ChannelHandle
 
 A handle to identify the SCO channel, if the open channel request completes successfully.
-
 
 ### -field Response
 
@@ -391,12 +366,8 @@ The local server rejects the SCO connection request because it does not accept c
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 To open a SCO channel, profile drivers should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
@@ -421,13 +392,7 @@ The profile driver specifies whether the connection should be accepted by storin
     in the 
     <b>Response</b> member of this structure. In this context, the local system is the server.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
@@ -454,7 +419,4 @@ The profile driver specifies whether the connection should be accepted by storin
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">SCO_RETRANSMISSION_EFFORT</a>
- 
-
- 
 

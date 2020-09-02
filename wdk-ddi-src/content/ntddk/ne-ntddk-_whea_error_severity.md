@@ -6,10 +6,8 @@ old-location: whea\whea_error_severity.htm
 tech.root: whea
 ms.assetid: 3b056910-dc33-4608-bb7d-a3f13bc546ca
 ms.date: 02/20/2018
-keywords: ["_WHEA_ERROR_SEVERITY enumeration"]
+keywords: ["WHEA_ERROR_SEVERITY enumeration"]
 ms.keywords: "*PWHEA_ERROR_SEVERITY, PWHEA_ERROR_SEVERITY, PWHEA_ERROR_SEVERITY enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SEVERITY, WHEA_ERROR_SEVERITY enumeration [WHEA Drivers and Applications], WheaErrSevCorrected, WheaErrSevFatal, WheaErrSevInformational, WheaErrSevRecoverable, _WHEA_ERROR_SEVERITY, ntddk/PWHEA_ERROR_SEVERITY, ntddk/WHEA_ERROR_SEVERITY, ntddk/WheaErrSevCorrected, ntddk/WheaErrSevFatal, ntddk/WheaErrSevInformational, ntddk/WheaErrSevRecoverable, whea.whea_error_severity, whearef_e9b0fee6-a6cf-4f61-a3b6-ef53553aa3ff.xml"
-f1_keywords:
- - "ntddk/WHEA_ERROR_SEVERITY"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_ERROR_SEVERITY
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_SEVERITY, *PWHEA_ERROR_SEVERITY
+f1_keywords:
+ - _WHEA_ERROR_SEVERITY
+ - ntddk/_WHEA_ERROR_SEVERITY
+ - PWHEA_ERROR_SEVERITY
+ - ntddk/PWHEA_ERROR_SEVERITY
+ - WHEA_ERROR_SEVERITY
+ - ntddk/WHEA_ERROR_SEVERITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_ERROR_SEVERITY
 ---
 
 # _WHEA_ERROR_SEVERITY enumeration
@@ -47,29 +50,21 @@ req.typenames: WHEA_ERROR_SEVERITY, *PWHEA_ERROR_SEVERITY
 
 ## -description
 
-
 The WHEA_ERROR_SEVERITY enumeration defines the possible severity levels of a hardware error condition.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WheaErrSevRecoverable
 
 The error has not been corrected but might be recoverable.
 
-
 ### -field WheaErrSevFatal
 
 The error has not been corrected and is fatal.
 
-
 ### -field WheaErrSevCorrected
 
 The error has been corrected by the hardware or firmware.
-
 
 ### -field WheaErrSevInformational
 
@@ -80,17 +75,9 @@ An error has not occurred.
 
 ## -remarks
 
-
-
 The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structures each contain a member of type WHEA_ERROR_SEVERITY that specifies the severity of the error that is described by the structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
 
@@ -105,7 +92,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drive
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
- 
-
- 
 

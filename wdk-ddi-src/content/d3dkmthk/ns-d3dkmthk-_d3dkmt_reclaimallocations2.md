@@ -5,10 +5,8 @@ description: D3DKMT_RECLAIMALLOCATIONS2 describes video memory resources that ar
 old-location: display\d3dkmt_reclaimallocations2.htm
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_RECLAIMALLOCATIONS2 structure"]
+keywords: ["D3DKMT_RECLAIMALLOCATIONS2 structure"]
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2
-f1_keywords:
- - "d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMT_RECLAIMALLOCATIONS2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_RECLAIMALLOCATIONS2
+f1_keywords:
+ - _D3DKMT_RECLAIMALLOCATIONS2
+ - d3dkmthk/_D3DKMT_RECLAIMALLOCATIONS2
+ - D3DKMT_RECLAIMALLOCATIONS2
+ - d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMT_RECLAIMALLOCATIONS2
 ---
 
 # _D3DKMT_RECLAIMALLOCATIONS2 structure
@@ -47,29 +48,21 @@ req.typenames: D3DKMT_RECLAIMALLOCATIONS2
 
 ## -description
 
-
 <b>D3DKMT_RECLAIMALLOCATIONS2</b> describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreclaimallocations2">D3DKMTReclaimAllocations2</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hPagingQueue
 
 [in] A handle to the device that created the allocations.
 
-
 ### -field NumAllocations
 
 [in] The number of items in the <b>pResources</b>, <b>HandleList</b>, or  <b>pDiscarded</b> members, whichever is not <b>NULL</b>.
 
-
 ### -field pResources
 
 [in] An array of <b>D3DKMT_HANDLE</b> data types that represent Direct3D runtime resource handles.
-
 
 ### -field HandleList
 
@@ -77,11 +70,9 @@ req.typenames: D3DKMT_RECLAIMALLOCATIONS2
 
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
 
-
 ### -field pResults
 
 [in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
-
 
 ### -field pDiscarded
 

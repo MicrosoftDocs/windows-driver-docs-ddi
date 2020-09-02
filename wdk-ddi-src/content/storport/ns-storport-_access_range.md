@@ -6,10 +6,8 @@ old-location: storage\access_range.htm
 tech.root: storage
 ms.assetid: 6009d11b-4f44-4591-bcb8-66e0c42d5689
 ms.date: 04/03/2020
-keywords: ["_ACCESS_RANGE structure"]
+keywords: ["ACCESS_RANGE structure"]
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
-f1_keywords:
- - "storport/ACCESS_RANGE"
 req.header: storport.h
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- srb.h
-api_name:
-- ACCESS_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACCESS_RANGE, *PACCESS_RANGE
+f1_keywords:
+ - _ACCESS_RANGE
+ - storport/_ACCESS_RANGE
+ - PACCESS_RANGE
+ - storport/PACCESS_RANGE
+ - ACCESS_RANGE
+ - storport/ACCESS_RANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - srb.h
+api_name:
+ - ACCESS_RANGE
 ---
 
 # _ACCESS_RANGE structure
+
 
 ## -description
 
@@ -75,3 +79,4 @@ Storport allocates memory for the access ranges and initializes the **AccessRang
 [**PORT_CONFIGURATION_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information)
 
 [**StorPortGetDeviceBase**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdevicebase)
+

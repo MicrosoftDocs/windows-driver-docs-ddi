@@ -8,8 +8,6 @@ ms.assetid: ccbe98ca-7da9-4159-ac1a-c25ec6745ff4
 ms.date: 05/02/2018
 keywords: ["NdisMAllocateSharedMemoryAsyncEx function"]
 ms.keywords: NdisMAllocateSharedMemoryAsyncEx, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateSharedMemoryAsyncEx, ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, netvista.ndismallocatesharedmemoryasyncex
-f1_keywords:
- - "ndis/NdisMAllocateSharedMemoryAsyncEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMAllocateSharedMemoryAsyncEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMAllocateSharedMemoryAsyncEx
+ - ndis/NdisMAllocateSharedMemoryAsyncEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMAllocateSharedMemoryAsyncEx
 ---
 
 # NdisMAllocateSharedMemoryAsyncEx function
@@ -59,39 +58,33 @@ Miniport drivers call the
   its bus-master DMA NIC, usually when the miniport driver is running low on available NIC receive
   buffers.
 
-
 ## -parameters
 
+### -param MiniportDmaHandle 
 
-
-
-### -param MiniportDmaHandle [in]
-
+[in]
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
      NdisMRegisterScatterGatherDma</a> function.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes to allocate.
 
+### -param Cached 
 
-### -param Cached [in]
-
+[in]
 This parameter is ignored (cached memory is always used on x86 and x64 systems).
 
+### -param Context 
 
-### -param Context [in]
-
+[in]
 A pointer to driver-determined context to be passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_allocate_shared_mem_complete">MiniportSharedMemoryAllocateComplete</a> function when it is called.
 
-
 ## -returns
-
-
 
 <b>NdisMAllocateSharedMemoryAsyncEx</b> can return one of the following:
 
@@ -128,14 +121,8 @@ The requested memory could not be allocated at this time. If
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  A miniport driver must have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">NdisMRegisterScatterGatherDma</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> to initialize a
   scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemoryAsyncEx</b>.</div>
@@ -172,13 +159,7 @@ Any miniport driver that calls
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemory">NdisMAllocateSharedMemory</a> must release all outstanding allocations with one or more calls to 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreesharedmemory">NdisMFreeSharedMemory</a> when its NIC is removed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
@@ -207,7 +188,4 @@ Any miniport driver that calls
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>
- 
-
- 
 

@@ -5,10 +5,8 @@ description: The DXGKARG_RECOMMENDFUNCTIONALVIDPN structure contains arguments f
 old-location: display\dxgkarg_recommendfunctionalvidpn.htm
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_RECOMMENDFUNCTIONALVIDPN structure"]
+keywords: ["DXGKARG_RECOMMENDFUNCTIONALVIDPN structure"]
 ms.keywords: DXGKARG_RECOMMENDFUNCTIONALVIDPN, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, _DXGKARG_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn
-f1_keywords:
- - "d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_RECOMMENDFUNCTIONALVIDPN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_RECOMMENDFUNCTIONALVIDPN
+f1_keywords:
+ - _DXGKARG_RECOMMENDFUNCTIONALVIDPN
+ - d3dkmddi/_DXGKARG_RECOMMENDFUNCTIONALVIDPN
+ - DXGKARG_RECOMMENDFUNCTIONALVIDPN
+ - d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_RECOMMENDFUNCTIONALVIDPN
 ---
 
 # _DXGKARG_RECOMMENDFUNCTIONALVIDPN structure
@@ -47,52 +48,35 @@ req.typenames: DXGKARG_RECOMMENDFUNCTIONALVIDPN
 
 ## -description
 
-
 The DXGKARG_RECOMMENDFUNCTIONALVIDPN structure contains arguments for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a> function. The <i>DxgkDdiRecommendFunctionalVidPn</i> function creates a functional video present network (VidPN) that can be implemented on a specified display adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumberOfVidPnTargets
 
 Reserved for future use.
 
-
 ### -field pVidPnTargetPrioritizationVector
 
 Reserved for future use.
-
 
 ### -field hRecommendedFunctionalVidPn
 
 A handle, provided by the caller, to an empty VidPN object. <i>DxgkDdiRecommendFunctionalVidPn</i> must add a path (source-target pair) to the VidPN's topology and must pin modes on the path's source and target. For information about adding paths to a topology and creating mode sets for video present sources and targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/vidpn-objects-and-interfaces">VidPN Objects and Interfaces</a>.
 
-
 ### -field RequestReason
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_recommendfunctionalvidpn_reason">DXGK_RECOMMENDFUNCTIONALVIDPN_REASON</a> value that indicates why the caller is requesting a functional VidPN.
-
 
 ### -field pPrivateDriverData
 
 A pointer to a buffer that contains private data that is passed from a user-mode application to the display miniport driver.
 
-
 ### -field PrivateDriverDataSize
 
 The size, in bytes, of the data block pointed to by <i>pPrivateDriverData</i>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>
- 
-
- 
 

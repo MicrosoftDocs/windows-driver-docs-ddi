@@ -8,8 +8,6 @@ ms.assetid: eb8ba04a-dbf8-4964-8b45-2620447418b5
 ms.date: 04/16/2018
 keywords: ["FltGetInstanceInformation function"]
 ms.keywords: FltApiRef_e_to_o_d476d1f7-fff3-45d1-91e9-25879ab9e90e.xml, FltGetInstanceInformation, FltGetInstanceInformation routine [Installable File System Drivers], fltkernel/FltGetInstanceInformation, ifsk.fltgetinstanceinformation
-f1_keywords:
- - "fltkernel/FltGetInstanceInformation"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetInstanceInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetInstanceInformation
+ - fltkernel/FltGetInstanceInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetInstanceInformation
 ---
 
 # FltGetInstanceInformation function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetInstanceInformation</b> routine returns information about a minifilter driver instance. 
-
+The <b>FltGetInstanceInformation</b> routine returns information about a minifilter driver instance.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller.
 
+### -param InformationClass 
 
-### -param Instance [in]
-
-Opaque instance pointer for the caller. 
-
-
-### -param InformationClass [in]
-
+[in]
 Type of information requested. This parameter can have one of the following values. 
 
 <table>
@@ -111,27 +106,23 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https:
 </td>
 </tr>
 </table>
- 
 
+### -param Buffer 
 
-### -param Buffer [out]
+[out]
+Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter.
 
-Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter. 
+### -param BufferSize 
 
+[in]
+Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value.
 
-### -param BufferSize [in]
+### -param BytesReturned 
 
-Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value. 
-
-
-### -param BytesReturned [out]
-
-Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltGetInstanceInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltGetInstanceInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetInstanceInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
 
@@ -163,24 +154,12 @@ An invalid value was specified for the <i>InformationClass</i> parameter.  For e
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Given a pointer to a minifilter instance, this routine returns information about the minifilter instance.  The type of instance information returned is determined by the <i>InformationClass</i> parameter. 
-
-
-
+Given a pointer to a minifilter instance, this routine returns information about the minifilter instance.  The type of instance information returned is determined by the <i>InformationClass</i> parameter.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a>
 
@@ -211,7 +190,4 @@ Given a pointer to a minifilter instance, this routine returns information about
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
- 
-
- 
 

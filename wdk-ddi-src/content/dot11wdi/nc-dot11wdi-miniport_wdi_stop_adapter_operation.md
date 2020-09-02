@@ -8,8 +8,6 @@ ms.assetid: 19BDA96D-DA25-4555-B836-78F4695257B0
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_STOP_ADAPTER_OPERATION callback function"]
 ms.keywords: "(*MINIPORT_WDI_STOP_OPERATION_HANDLER), (*MINIPORT_WDI_STOP_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_WDI_STOP_ADAPTER_OPERATION, MINIPORT_WDI_STOP_ADAPTER_OPERATION callback, MiniportWdiStopAdapterOperation, MiniportWdiStopAdapterOperation callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiStopAdapterOperation, netvista.miniportwdistopoperation"
-f1_keywords:
- - "dot11wdi/(*MINIPORT_WDI_STOP_OPERATION_HANDLER)"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- (*MINIPORT_WDI_STOP_OPERATION_HANDLER)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_STOP_ADAPTER_OPERATION
+ - dot11wdi/MINIPORT_WDI_STOP_ADAPTER_OPERATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - (*MINIPORT_WDI_STOP_OPERATION_HANDLER)
 ---
 
 # MINIPORT_WDI_STOP_ADAPTER_OPERATION callback function
 
 
 ## -description
-
 
 The MiniportWdiStopAdapterOperation handler function can be used by the IHV driver to undo the operations performed in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_start_adapter_operation">MiniportWdiStartAdapterOperation</a>.
 
@@ -56,25 +54,16 @@ This is an optional WDI miniport handler inside <a href="https://docs.microsoft.
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to the context area that the miniport driver allocated.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_start_adapter_operation">MiniportWdiStartOperation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
- 
-
- 
 

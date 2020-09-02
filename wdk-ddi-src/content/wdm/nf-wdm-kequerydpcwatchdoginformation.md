@@ -5,11 +5,9 @@ description: The KeQueryDpcWatchdogInformation routine returns the deferred proc
 old-location: kernel\kequerydpcwatchdoginformation.htm
 tech.root: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
-ms.date: 04/30/2018
+ms.date: 07/28/2020
 keywords: ["KeQueryDpcWatchdogInformation function"]
 ms.keywords: KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation, wdm/KeQueryDpcWatchdogInformation
-f1_keywords:
- - "wdm/KeQueryDpcWatchdogInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeQueryDpcWatchdogInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeQueryDpcWatchdogInformation
+ - wdm/KeQueryDpcWatchdogInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeQueryDpcWatchdogInformation
 ---
 
 # KeQueryDpcWatchdogInformation function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeQueryDpcWatchdogInformation</b> routine returns the deferred procedure call (DPC) watchdog timer values for the current processor.
-
 
 ## -parameters
 
+### -param WatchdogInformation 
 
-
-
-### -param WatchdogInformation [out]
-
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kdpc_watchdog_information">KDPC_WATCHDOG_INFORMATION</a> structure. The routine writes the current DPC watchdog timer values to this structure.
 
-
 ## -returns
-
-
 
 <b>KeQueryDpcWatchdogInformation</b> returns an NTSTATUS value. Possible return values include the following status codes.
 
@@ -95,14 +87,8 @@ The current processor was not running a DPC when <b>KeQueryDpcWatchdogInformatio
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>KeQueryDpcWatchdogInformation</b> routine can be called from a DPC routine or at an IRQL= DISPATCH_LEVEL to determine the amount of time that remains before a DPC time-out occurs. The operating system implements a DPC watchdog timer to detect when a single DPC routine runs for too long, or when a series of queued DPC routines runs back-to-back for too long. If DPC time-out errors are enabled, and if either a DPC routine exceeds the time limit for a single routine, or a series of DPC routines exceeds the aggregate time limit, a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x133-dpc-watchdog-violation">DPC_WATCHDOG_VIOLATION</a> (0x133) bug check occurs.
 
@@ -110,16 +96,7 @@ The <b>KeQueryDpcWatchdogInformation</b> routine can be called from a DPC routin
 
 DPC routines should run only for brief periods, and should delegate as much processing as possible to worker threads. To avoid degrading system responsiveness, a typical DPC routine should run for no more than 100 microseconds each time it is called. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/guidelines-for-writing-dpc-routines">Guidelines for Writing DPC Routines</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kdpc_watchdog_information">KDPC_WATCHDOG_INFORMATION</a>
- 
-
- 
 

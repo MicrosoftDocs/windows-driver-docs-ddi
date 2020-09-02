@@ -8,45 +8,43 @@ ms.assetid: ba54320e-42b3-489c-a192-dce794c3b3d4
 ms.date: 03/19/2018
 keywords: ["IPortWaveRT interface"]
 ms.keywords: IPortWaveRT, IPortWaveRT interface [Audio Devices], IPortWaveRT interface [Audio Devices], described, audio.iportwavert, audmp-routines_0c88b444-3414-49e0-a021-2bc4cd6f1fff.xml, portcls/IPortWaveRT
-f1_keywords:
- - "portcls/IPortWaveRT"
 req.header: portcls.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Portcls.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortWaveRT
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+f1_keywords:
+ - IPortWaveRT
+ - portcls/IPortWaveRT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortWaveRT
 ---
 
 # IPortWaveRT interface
 
 
 ## -description
-
 
 The <code>IPortWaveRT</code> interface is supported in Windows Vista and later operating systems and it is the main interface that the WaveRT port driver exposes to the adapter driver that implements the WaveRT miniport driver object.
 

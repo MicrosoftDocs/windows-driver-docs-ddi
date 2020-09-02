@@ -8,8 +8,6 @@ ms.assetid: a686ea04-8a6b-4c4b-be06-73a75c4fc87d
 ms.date: 04/30/2018
 keywords: ["IoSetShareAccess function"]
 ms.keywords: IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture], k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, kernel.iosetshareaccess, wdm/IoSetShareAccess
-f1_keywords:
- - "wdm/IoSetShareAccess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetShareAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetShareAccess
+ - wdm/IoSetShareAccess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetShareAccess
 ---
 
 # IoSetShareAccess function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoSetShareAccess</b> routine sets the access rights for sharing the given file object.
-
 
 ## -parameters
 
+### -param DesiredAccess 
 
-
-
-### -param DesiredAccess [in]
-
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the type of access requested for the <i>FileObject</i>. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a> for a complete list of system-defined <i>DesiredAccess </i>flags.
 
+### -param DesiredShareAccess 
 
-### -param DesiredShareAccess [in]
-
+[in]
 Specifies the type of share access to be set for the file object. This value can be zero, or any combination of the following:
 
 FILE_SHARE_READ
@@ -71,20 +66,17 @@ FILE_SHARE_WRITE
 
 FILE_SHARE_DELETE
 
+### -param FileObject 
 
-### -param FileObject [in, out]
-
+[in, out]
 Pointer to the file object whose share access is being set or reset.
 
+### -param ShareAccess 
 
-### -param ShareAccess [out]
-
-Pointer to the SHARE_ACCESS structure associated with <i>FileObject</i>. Drivers should treat this structure as opaque. 
-
+[out]
+Pointer to the SHARE_ACCESS structure associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 ## -remarks
-
-
 
 Only highest-level kernel-mode drivers should call this routine. The call must occur in the context of the first thread that attempts to open the <i>FileObject</i>.
 
@@ -94,13 +86,7 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 <b>IoSetShareAccess</b> is not an atomic operation. Therefore, drivers calling this routine must protect the shared file object passed to <b>IoSetShareAccess </b>by means of some kind of lock, such as a mutex or a resource lock, in order to prevent corruption of the shared access counts.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -131,7 +117,4 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioupdateshareaccess">IoUpdateShareAccess</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetProcessorTypeNames"]
 ms.keywords: GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging],IDebugControl interface, GetProcessorTypeNames method [Windows Debugging],IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl2 interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl2::GetProcessorTypeNames, IDebugControl3 interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl3.GetProcessorTypeNames, IDebugControl3::GetProcessorTypeNames, IDebugControl::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, dbgeng/IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, debugger.getprocessortypenames
-f1_keywords:
- - "dbgeng/IDebugControl.GetProcessorTypeNames"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetProcessorTypeNames
-- IDebugControl2.GetProcessorTypeNames
-- IDebugControl3.GetProcessorTypeNames
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::GetProcessorTypeNames
+ - dbgeng/IDebugControl3::GetProcessorTypeNames
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetProcessorTypeNames
+ - IDebugControl2.GetProcessorTypeNames
+ - IDebugControl3.GetProcessorTypeNames
 ---
 
 # IDebugControl3::GetProcessorTypeNames
@@ -49,53 +48,46 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetProcessorTypeNames</b>  method returns the full name and abbreviated name of the specified processor type.
-
 
 ## -parameters
 
+### -param Type 
 
-
-
-### -param Type [in]
-
+[in]
 Specifies the type of the processor whose name is requested.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a> for a list of possible values.
 
+### -param FullNameBuffer 
 
-### -param FullNameBuffer [out, optional]
-
+[out, optional]
 Receives the full name of the processor type.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param FullNameBufferSize 
 
-### -param FullNameBufferSize [in]
-
+[in]
 Specifies the size, in characters, of the buffer that <i>FullNameBuffer</i> specifies.
 
+### -param FullNameSize 
 
-### -param FullNameSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the full name of the processor type.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
+### -param AbbrevNameBuffer 
 
-### -param AbbrevNameBuffer [out, optional]
-
+[out, optional]
 Receives the abbreviated name of the processor type.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param AbbrevNameBufferSize 
 
-### -param AbbrevNameBufferSize [in]
-
+[in]
 Specifies the size, in characters, of the buffer that <i>AbbrevNameBuffer</i> specifies.
 
+### -param AbbrevNameSize 
 
-### -param AbbrevNameSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the abbreviated name of the processor type.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -127,24 +119,12 @@ The method was successful.  However, at least one of <i>FullNameBuffer</i> or <i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/target-information">Target Information</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getsupportedprocessortypes">GetSupportedProcessorTypes</a>
 
@@ -159,7 +139,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
 

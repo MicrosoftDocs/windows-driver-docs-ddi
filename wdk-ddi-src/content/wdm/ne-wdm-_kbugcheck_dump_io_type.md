@@ -6,10 +6,8 @@ old-location: kernel\kbugcheck_dump_io_type.htm
 tech.root: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.date: 05/02/2019
-keywords: ["_KBUGCHECK_DUMP_IO_TYPE enumeration"]
+keywords: ["KBUGCHECK_DUMP_IO_TYPE enumeration"]
 ms.keywords: KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoBody, KbDumpIoComplete, KbDumpIoHeader, KbDumpIoInvalid, KbDumpIoSecondaryData, _KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, wdm/KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoBody, wdm/KbDumpIoComplete, wdm/KbDumpIoHeader, wdm/KbDumpIoInvalid, wdm/KbDumpIoSecondaryData
-f1_keywords:
- - "wdm/KBUGCHECK_DUMP_IO_TYPE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,22 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- KBUGCHECK_DUMP_IO_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DUMP_IO_TYPE
+f1_keywords:
+ - _KBUGCHECK_DUMP_IO_TYPE
+ - wdm/_KBUGCHECK_DUMP_IO_TYPE
+ - KBUGCHECK_DUMP_IO_TYPE
+ - wdm/KBUGCHECK_DUMP_IO_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - KBUGCHECK_DUMP_IO_TYPE
 ---
 
 # _KBUGCHECK_DUMP_IO_TYPE enumeration
+
 
 ## -description
 
@@ -81,3 +83,4 @@ Specifies that the crash dump data has been completely written.
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_dump_io">KBUGCHECK_DUMP_IO</a>
+

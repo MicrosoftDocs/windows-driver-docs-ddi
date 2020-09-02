@@ -8,8 +8,6 @@ ms.assetid: 5A2B787B-13B8-48E9-B53E-7F6409820B88
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function"]
 ms.keywords: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback, EvtUfxDeviceSuperSpeedPowerFeature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], buses.evt_ufx_device_super_speed_power_feature, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature
-f1_keywords:
- - "ufxclient/PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ufxclient.h
-api_name:
-- PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+ - ufxclient/EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ufxclient.h
+api_name:
+ - PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
 ---
 
 # EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function
@@ -47,22 +46,9 @@ req.typenames:
 
 ## -description
 
-
-The client driver's implementation to set or clear the specified power feature on the function controller. 
-
+The client driver's implementation to set or clear the specified power feature on the function controller.
 
 ## -parameters
-
-
-
-
-
-
-
-
-
-
-
 
 #### - Feature [in]
 
@@ -85,10 +71,7 @@ If FALSE, clear the feature.
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
-
 ## -remarks
-
-
 
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE</i> implementation with the USB function class extension (UFX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
 
@@ -167,19 +150,11 @@ Arguments:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: bc0b48a9-6e15-4351-bba0-abd66120b449
 ms.date: 04/16/2018
 keywords: ["FsRtlAcquireFileExclusive function"]
 ms.keywords: FsRtlAcquireFileExclusive, FsRtlAcquireFileExclusive function [Installable File System Drivers], fsrtlref_740f5dc5-adba-4b85-83eb-42877fb154d6.xml, ifsk.fsrtlacquirefileexclusive, ntifs/FsRtlAcquireFileExclusive
-f1_keywords:
- - "ntifs/FsRtlAcquireFileExclusive"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlAcquireFileExclusive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlAcquireFileExclusive
+ - ntifs/FsRtlAcquireFileExclusive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlAcquireFileExclusive
 ---
 
 # FsRtlAcquireFileExclusive function
@@ -47,20 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not use this routine in your driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlregisterfilesystemfiltercallbacks">FsRtlRegisterFileSystemFilterCallbacks</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param FileObject
 
 <p>Reserved.</p>
-
-
-
-
 

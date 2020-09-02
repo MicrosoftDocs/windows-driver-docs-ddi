@@ -8,8 +8,6 @@ ms.assetid: 7CAE67CD-44B3-48C0-AB9B-F67404D8FB7C
 ms.date: 04/30/2018
 keywords: ["RtlULongPtrToUInt8 function"]
 ms.keywords: RtlULongPtrToUInt8, RtlULongPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouint8, ntintsafe/RtlULongPtrToUInt8
-f1_keywords:
- - "ntintsafe/RtlULongPtrToUInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongPtrToUInt8
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongPtrToUInt8
+ - ntintsafe/RtlULongPtrToUInt8
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongPtrToUInt8
 ---
 
 # RtlULongPtrToUInt8 function
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONG_PTR</b> to a value of type <b>UINT8</b>.
-
 
 ## -parameters
 
+### -param ulOperand 
 
-
-
-### -param ulOperand [in]
-
+[in]
 The value to be converted.
 
+### -param pui8Result 
 
-### -param pui8Result [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

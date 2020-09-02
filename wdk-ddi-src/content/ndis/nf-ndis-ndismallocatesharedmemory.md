@@ -8,8 +8,6 @@ ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.date: 05/02/2018
 keywords: ["NdisMAllocateSharedMemory function"]
 ms.keywords: NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory
-f1_keywords:
- - "ndis/NdisMAllocateSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMAllocateSharedMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMAllocateSharedMemory
+ - ndis/NdisMAllocateSharedMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMAllocateSharedMemory
 ---
 
 # NdisMAllocateSharedMemory function
@@ -58,46 +57,40 @@ req.typenames:
 <b>NdisMAllocateSharedMemory</b> allocates and maps a host memory range so that the memory range is
   simultaneously accessible from both the host system and a DMA NIC.
 
-
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 Specifies the handle input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the number of bytes to allocate.
 
+### -param Cached 
 
-### -param Cached [in]
-
+[in]
 This parameter is ignored (cached memory is always used on x86 and x64 systems).
 
+### -param VirtualAddress 
 
-### -param VirtualAddress [out]
-
+[out]
 Pointer to a caller-supplied variable in which this function returns the base virtual address of
      the allocation for use by the miniport driver. If 
      <b>NdisMAllocateSharedMemory</b> cannot satisfy its caller, it returns <b>NULL</b> to indicate that no memory
      was allocated.
 
+### -param PhysicalAddress 
 
-### -param PhysicalAddress [out]
-
+[out]
 Pointer to a caller-supplied variable in which this function returns a physical address, suitable
      for use by the NIC, that corresponds to that returned at 
      <i>VirtualAddress</i>, or it returns <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  A miniport driver must have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">NdisMRegisterScatterGatherDma</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> to initialize a
   scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemory</b>.</div>
@@ -217,13 +210,7 @@ If a miniport driver calls
     removed, that is, when its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function is called.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushiobuffers">KeFlushIoBuffers</a>
 
@@ -273,7 +260,4 @@ If a miniport driver calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
- 
-
- 
 

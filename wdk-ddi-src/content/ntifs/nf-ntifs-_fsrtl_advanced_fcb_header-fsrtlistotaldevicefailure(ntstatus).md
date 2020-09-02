@@ -10,6 +10,7 @@ keywords: ["FsRtlIsTotalDeviceFailure function"]
 ms.keywords: FsRtlIsTotalDeviceFailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml, ifsk.fsrtlistotaldevicefailure, ntddk/FsRtlIsTotalDeviceFailure
 f1_keywords:
  - "ntifs/FsRtlIsTotalDeviceFailure"
+ - "FsRtlIsTotalDeviceFailure"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlIsTotalDeviceFailure
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,8 +58,8 @@ The <b>FsRtlIsTotalDeviceFailure</b> routine determines whether a media or other
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the current NTSTATUS value, usually within a file system's or fault-tolerant disk driver's completion routine.
 
 

@@ -8,8 +8,6 @@ ms.assetid: 79816d01-bf27-49d0-b6f1-083b7e87cc4e
 ms.date: 05/02/2018
 keywords: ["FwpsAcquireWritableLayerDataPointer0 function"]
 ms.keywords: FwpsAcquireWritableLayerDataPointer0, FwpsAcquireWritableLayerDataPointer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireWritableLayerDataPointer0, netvista.fwpsacquirewritablelayerdatapointer0, wfp_ref_2_funct_3_fwps_A-B_adf2c5a7-ebcb-4c05-aa5a-3b794b60dc74.xml
-f1_keywords:
- - "fwpsk/FwpsAcquireWritableLayerDataPointer0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAcquireWritableLayerDataPointer0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAcquireWritableLayerDataPointer0
+ - fwpsk/FwpsAcquireWritableLayerDataPointer0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAcquireWritableLayerDataPointer0
 ---
 
 # FwpsAcquireWritableLayerDataPointer0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsAcquireWritableLayerDataPointer0</b> function returns layer-specific data that can be inspected and
@@ -56,19 +54,17 @@ The
 
 ## -parameters
 
+### -param classifyHandle 
 
-
-
-### -param classifyHandle [in]
-
+[in]
 A handle for the classify request.
      This handle is obtained by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
+### -param filterId 
 
-### -param filterId [in]
-
+[in]
 The value of the 
      <b>FilterId</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
@@ -76,21 +72,21 @@ The value of the
      <b>FilterId</b> member, see 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 Reserved for future use. Set to zero.
 
+### -param writableLayerData 
 
-### -param writableLayerData [out]
-
+[out]
 A data buffer that contains the modifiable data for the layer. The supported data types, which are listed in the following Remarks section, are defined as
      structures. On return, the data can be accessed by casting the void pointer to the appropriate structure
      type.
 
+### -param classifyOut 
 
-### -param classifyOut [in, out]
-
+[in, out]
 Set to the 
      <i>classifyOut</i> parameter of the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function. The 
@@ -99,10 +95,7 @@ Set to the
      input to be useful to the engine when passed to 
      <b>FwpsAcquireWritableLayerDataPointer0</b>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAcquireWritableLayerDataPointer0</b> function returns one of the following NTSTATUS codes.
@@ -135,14 +128,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FwpsAcquireWritableLayerDataPointer0</b> sets the following members of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure:<ul>
 <li><i>classifyOut</i>-><b>actionType</b> = <b>FWP_ACTION_BLOCK</b></li>
@@ -173,12 +160,7 @@ The following structures are defined to contain modifiable layer data. The point
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_bind_request0">FWPS_BIND_REQUEST0</a>
 
@@ -209,7 +191,4 @@ The following structures are defined to contain modifiable layer data. The point
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.date: 04/23/2018
 keywords: ["KsGetObjectTypeFromIrp function"]
 ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp, stream.ksgetobjecttypefromirp
-f1_keywords:
- - "ks/KsGetObjectTypeFromIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsGetObjectTypeFromIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsGetObjectTypeFromIrp
+ - ks/KsGetObjectTypeFromIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsGetObjectTypeFromIrp
 ---
 
 # KsGetObjectTypeFromIrp function
@@ -48,33 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsGetObjectTypeFromIrp</b> function returns the AVStream object type that is associated with a given IRP.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure for which to find the associated AVStream object type.
-
 
 ## -returns
 
-
-
 <b>KsGetObjectTypeFromIrp</b> returns the type of AVStream object associated with the given IRP as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksobjecttype">KSOBJECTTYPE</a> enumeration. This is one of the following: <b>KsObjectTypeDevice</b>, <b>KsObjectTypeFilterFactory</b>, <b>KsObjectTypeFilter</b>, <b>KsObjectTypePin</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
@@ -89,7 +75,4 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksforwardirp">KsForwardIrp</a>
- 
-
- 
 

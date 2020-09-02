@@ -6,41 +6,44 @@ old-location: netvista\dot11ext_ihv_handlers.htm
 tech.root: netvista
 ms.assetid: 6dacd330-45f1-46f8-b2bf-2006c89f664f
 ms.date: 02/16/2018
-keywords: ["_DOT11EXT_IHV_HANDLERS structure"]
+keywords: ["DOT11EXT_IHV_HANDLERS structure"]
 ms.keywords: "*PDOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e072dcd6-e41c-4c08-b958-9302f62f02c1.xml, PDOT11EXT_IHV_HANDLERS, PDOT11EXT_IHV_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_HANDLERS, netvista.dot11ext_ihv_handlers, wlanihv/DOT11EXT_IHV_HANDLERS, wlanihv/PDOT11EXT_IHV_HANDLERS"
-f1_keywords:
- - "wlanihv/DOT11EXT_IHV_HANDLERS"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanihv.h
-api_name:
-- DOT11EXT_IHV_HANDLERS
-product:
-- Windows
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11EXT_IHV_HANDLERS, *PDOT11EXT_IHV_HANDLERS
 req.product: Windows 10 or later.
+f1_keywords:
+ - _DOT11EXT_IHV_HANDLERS
+ - wlanihv/_DOT11EXT_IHV_HANDLERS
+ - PDOT11EXT_IHV_HANDLERS
+ - wlanihv/PDOT11EXT_IHV_HANDLERS
+ - DOT11EXT_IHV_HANDLERS
+ - wlanihv/DOT11EXT_IHV_HANDLERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanihv.h
+api_name:
+ - DOT11EXT_IHV_HANDLERS
 ---
 
 # _DOT11EXT_IHV_HANDLERS structure
@@ -48,14 +51,126 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11EXT_IHV_HANDLERS structure specifies a list of pointers to the IHV handler functions supported by the IHV Extensions DLL.
 
+## -struct-fields
+
+### -field Dot11ExtIhvDeinitService
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_service.md">
+     Dot11ExtIhvDeinitService</a> function.
+
+### -field Dot11ExtIhvInitAdapter
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
+     Dot11ExtIhvInitAdapter</a> function.
+
+### -field Dot11ExtIhvDeinitAdapter
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">
+     Dot11ExtIhvDeinitAdapter</a> function.
+
+### -field Dot11ExtIhvPerformPreAssociate
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+     Dot11ExtIhvPerformPreAssociate</a> function.
+
+### -field Dot11ExtIhvAdapterReset
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">
+     Dot11ExtIhvAdapterReset</a> function.
+
+### -field Dot11ExtIhvPerformPostAssociate
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+     Dot11ExtIhvPerformPostAssociate</a> function.
+
+### -field Dot11ExtIhvStopPostAssociate
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_stop_post_associate.md">
+     Dot11ExtIhvStopPostAssociate</a> function.
+
+### -field Dot11ExtIhvValidateProfile
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">
+     Dot11ExtIhvValidateProfile</a> function.
+
+### -field Dot11ExtIhvPerformCapabilityMatch
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_capability_match.md">
+     Dot11ExtIhvPerformCapabilityMatch</a> function.
+
+### -field Dot11ExtIhvCreateDiscoveryProfiles
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
+     Dot11ExtIhvCreateDiscoveryProfiles</a> function.
+
+### -field Dot11ExtIhvProcessSessionChange
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_process_session_change.md">
+     Dot11ExtIhvProcessSessionChange</a> function.
+
+### -field Dot11ExtIhvReceiveIndication
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_indication.md">
+     Dot11ExtIhvReceiveIndication</a> function.
+
+### -field Dot11ExtIhvReceivePacket
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">
+     Dot11ExtIhvReceivePacket</a> function.
+
+### -field Dot11ExtIhvSendPacketCompletion
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
+     Dot11ExtIhvSendPacketCompletion</a> function.
+
+### -field Dot11ExtIhvIsUIRequestPending
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
+     Dot11ExtIhvIsUIRequestPending</a> function.
+
+### -field Dot11ExtIhvProcessUIResponse
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_process_ui_response.md">
+     Dot11ExtIhvProcessUIResponse</a> function.
+
+### -field Dot11ExtIhvQueryUIRequest
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">
+     Dot11ExtIhvQueryUIRequest</a> function.
+
+### -field Dot11ExtIhvOnexIndicateResult
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+     Dot11ExtIhvOneXIndicateResult</a> function.
+
+### -field Dot11ExtIhvControl
+
+A pointer to the
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_control.md">Dot11ExtIhvControl</a> function.
 
 ## -syntax
-
 
 ```cpp
 typedef struct _DOT11EXT_IHV_HANDLERS {
@@ -81,147 +196,7 @@ typedef struct _DOT11EXT_IHV_HANDLERS {
 } DOT11EXT_IHV_HANDLERS, *PDOT11EXT_IHV_HANDLERS;
 ```
 
-
-## -struct-fields
-
-
-
-
-### -field Dot11ExtIhvDeinitService
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_service.md">
-     Dot11ExtIhvDeinitService</a> function.
-
-
-### -field Dot11ExtIhvInitAdapter
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
-     Dot11ExtIhvInitAdapter</a> function.
-
-
-### -field Dot11ExtIhvDeinitAdapter
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">
-     Dot11ExtIhvDeinitAdapter</a> function.
-
-
-### -field Dot11ExtIhvPerformPreAssociate
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-     Dot11ExtIhvPerformPreAssociate</a> function.
-
-
-### -field Dot11ExtIhvAdapterReset
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">
-     Dot11ExtIhvAdapterReset</a> function.
-
-
-### -field Dot11ExtIhvPerformPostAssociate
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
-     Dot11ExtIhvPerformPostAssociate</a> function.
-
-
-### -field Dot11ExtIhvStopPostAssociate
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_stop_post_associate.md">
-     Dot11ExtIhvStopPostAssociate</a> function.
-
-
-### -field Dot11ExtIhvValidateProfile
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">
-     Dot11ExtIhvValidateProfile</a> function.
-
-
-### -field Dot11ExtIhvPerformCapabilityMatch
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_capability_match.md">
-     Dot11ExtIhvPerformCapabilityMatch</a> function.
-
-
-### -field Dot11ExtIhvCreateDiscoveryProfiles
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
-     Dot11ExtIhvCreateDiscoveryProfiles</a> function.
-
-
-### -field Dot11ExtIhvProcessSessionChange
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_process_session_change.md">
-     Dot11ExtIhvProcessSessionChange</a> function.
-
-
-### -field Dot11ExtIhvReceiveIndication
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_indication.md">
-     Dot11ExtIhvReceiveIndication</a> function.
-
-
-### -field Dot11ExtIhvReceivePacket
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">
-     Dot11ExtIhvReceivePacket</a> function.
-
-
-### -field Dot11ExtIhvSendPacketCompletion
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
-     Dot11ExtIhvSendPacketCompletion</a> function.
-
-
-### -field Dot11ExtIhvIsUIRequestPending
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
-     Dot11ExtIhvIsUIRequestPending</a> function.
-
-
-### -field Dot11ExtIhvProcessUIResponse
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_process_ui_response.md">
-     Dot11ExtIhvProcessUIResponse</a> function.
-
-
-### -field Dot11ExtIhvQueryUIRequest
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">
-     Dot11ExtIhvQueryUIRequest</a> function.
-
-
-### -field Dot11ExtIhvOnexIndicateResult
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
-     Dot11ExtIhvOneXIndicateResult</a> function.
-
-
-### -field Dot11ExtIhvControl
-
-A pointer to the
-     <a href="..\wlanihv\nc-wlanihv-dot11extihv_control.md">Dot11ExtIhvControl</a> function.
-
-
 ## -remarks
-
-
 
 The IHV handler functions are a set of callback functions supported by the IHV Extensions DLL. When
     the operating system calls the
@@ -238,9 +213,6 @@ The IHV handler functions are a set of callback functions supported by the IHV E
     <b>GetProcAddress</b>, refer to the Microsoft Windows SDK documentation.</div>
 
 All of the function pointers are required and must not be set to <b>NULL</b>.
-
-
-
 
 ## -see-also
 
@@ -346,3 +318,4 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
    Dot11ExtIhvSendPacketCompletion</a>
+

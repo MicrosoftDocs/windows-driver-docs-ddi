@@ -6,40 +6,45 @@ old-location: netvista\dot11_wfd_group_join_parameters.htm
 tech.root: netvista
 ms.assetid: 7E526179-97B6-4BA3-8F78-C4C04FFF9085
 ms.date: 02/16/2018
-keywords: ["_DOT11_WFD_GROUP_JOIN_PARAMETERS structure"]
+keywords: ["DOT11_WFD_GROUP_JOIN_PARAMETERS structure"]
 ms.keywords: "*PDOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_GROUP_JOIN_PARAMETERS, netvista.dot11_wfd_group_join_parameters, windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS"
-f1_keywords:
- - "windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windot11.h
-api_name:
-- DOT11_WFD_GROUP_JOIN_PARAMETERS
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_WFD_GROUP_JOIN_PARAMETERS, *PDOT11_WFD_GROUP_JOIN_PARAMETERS
+f1_keywords:
+ - _DOT11_WFD_GROUP_JOIN_PARAMETERS
+ - windot11/_DOT11_WFD_GROUP_JOIN_PARAMETERS
+ - PDOT11_WFD_GROUP_JOIN_PARAMETERS
+ - windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS
+ - DOT11_WFD_GROUP_JOIN_PARAMETERS
+ - windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windot11.h
+api_name:
+ - DOT11_WFD_GROUP_JOIN_PARAMETERS
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_WFD_GROUP_JOIN_PARAMETERS structure
@@ -47,28 +52,9 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_WFD_GROUP_JOIN_PARAMETERS</b> structure is included with an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/-oid-dot11-wfd-group-join-parameters">OID_DOT11_WFD_GROUP_JOIN_PARAMETERS</a> request. The structure contains startup parameters for a Client.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_WFD_GROUP_JOIN_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  DOT11_WFD_CHANNEL  GOOperatingChannel;
-  ULONG              GOConfigTime;
-  BOOLEAN            bInGroupFormation;
-  BOOLEAN            bWaitForWPSReady;
-} DOT11_WFD_GROUP_JOIN_PARAMETERS, *PDOT11_WFD_GROUP_JOIN_PARAMETERS;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -92,37 +78,36 @@ The type, revision, and size of the <b>DOT11_WFD_GROUP_JOIN_PARAMETERS</b> struc
 <td>DOT11_SIZEOF_WFD_GROUP_JOIN_PARAMETERS_REVISION_1</td>
 </tr>
 </table>
- 
-
 
 ### -field GOOperatingChannel
 
 This channel on which the Group Owner (GO) may operate the group. This channel information was received by the Client in a GO Negotiation or Invitation exchange. The miniport must also be able to handle the group operating on a channel different than specified. The miniport must ensure regulatory compliance when joining the group.
 
-
 ### -field GOConfigTime
 
 The configuration time allowed for the GO to start. This time-out is received by the Client in a GO Negotiation or Invitation exchange.
-
 
 ### -field bInGroupFormation
 
 If set to TRUE, special handling of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/-oid-dot11-wfd-connect-to-group-request">OID_DOT11_WFD_CONNECT_TO_GROUP_REQUEST</a> is required. The miniport must not attempt to connect until it receives a probe response or beacon from the GO with the Group Formation field set to 1. Otherwise, no connect delay is necessary.
 
-
 ### -field bWaitForWPSReady
 
 If set to TRUE, special handling of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/-oid-dot11-wfd-connect-to-group-request">OID_DOT11_WFD_CONNECT_TO_GROUP_REQUEST</a> is required. The miniport must not attempt to connect until it receives a probe response or beacon from the GO with the Selected Registrar WPS attribute set to TRUE and the Group Formation field set to the  value indicated by <b>bInGroupFormation</b>. Otherwise, the Selected Registrar attribute should be ignored.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_WFD_GROUP_JOIN_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  DOT11_WFD_CHANNEL  GOOperatingChannel;
+  ULONG              GOConfigTime;
+  BOOLEAN            bInGroupFormation;
+  BOOLEAN            bWaitForWPSReady;
+} DOT11_WFD_GROUP_JOIN_PARAMETERS, *PDOT11_WFD_GROUP_JOIN_PARAMETERS;
+```
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/-oid-dot11-wfd-group-join-parameters">OID_DOT11_WFD_GROUP_JOIN_PARAMETERS</a>
-
-
-
- 
-
- 
-
 

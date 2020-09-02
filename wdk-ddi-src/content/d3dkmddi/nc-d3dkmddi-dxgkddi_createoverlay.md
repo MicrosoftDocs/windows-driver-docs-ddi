@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCreateOverlay"
+ - DXGKDDI_CREATEOVERLAY
+ - d3dkmddi/DXGKDDI_CREATEOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CREATEOVERLAY callback function
+
 
 ## -description
 

@@ -6,10 +6,8 @@ old-location: storage\tape_prepare.htm
 tech.root: storage
 ms.assetid: 0bca5849-e0f9-42b2-82f8-aadea2aa01ae
 ms.date: 03/29/2018
-keywords: ["_TAPE_PREPARE structure"]
+keywords: ["TAPE_PREPARE structure"]
 ms.keywords: "*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Storage Devices], TAPE_PREPARE, TAPE_PREPARE structure [Storage Devices], _TAPE_PREPARE, ntddtape/PTAPE_PREPARE, ntddtape/TAPE_PREPARE, storage.tape_prepare, structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml"
-f1_keywords:
- - "minitape/TAPE_PREPARE"
 req.header: minitape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddtape.h
-api_name:
-- TAPE_PREPARE
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
+f1_keywords:
+ - _TAPE_PREPARE
+ - minitape/_TAPE_PREPARE
+ - PTAPE_PREPARE
+ - minitape/PTAPE_PREPARE
+ - TAPE_PREPARE
+ - minitape/TAPE_PREPARE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddtape.h
+api_name:
+ - TAPE_PREPARE
 ---
 
 # _TAPE_PREPARE structure
@@ -47,14 +50,9 @@ req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 
 ## -description
 
-
 The TAPE_PREPARE structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_prepare">IOCTL_TAPE_PREPARE</a> request to load or unload tape, reset the tape's tension, lock or unlock the ejection mechanism, or format the tape.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Operation
 
@@ -126,25 +124,16 @@ Performs a low-level format of the tape. Not all devices support this feature. T
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Immediate
 
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_prepare">IOCTL_TAPE_PREPARE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniPrepare</a>
- 
-
- 
 

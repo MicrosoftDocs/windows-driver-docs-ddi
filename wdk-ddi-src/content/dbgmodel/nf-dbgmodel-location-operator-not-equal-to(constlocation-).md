@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["operator!= function"]
 f1_keywords:
  - "dbgmodel/operator!="
+ - "operator!="
 ms.keywords: operator!=
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - operator!=
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ---

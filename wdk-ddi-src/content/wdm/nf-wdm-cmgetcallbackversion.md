@@ -8,8 +8,6 @@ ms.assetid: 4b7aba14-bc6a-4d3d-bcc5-53fd122794a1
 ms.date: 04/30/2018
 keywords: ["CmGetCallbackVersion function"]
 ms.keywords: CmGetCallbackVersion, CmGetCallbackVersion routine [Kernel-Mode Driver Architecture], ConfigMgrRef_f15e2e9c-8b84-40b2-abb4-b37a6d38f920.xml, kernel.cmgetcallbackversion, wdm/CmGetCallbackVersion
-f1_keywords:
- - "wdm/CmGetCallbackVersion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CmGetCallbackVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CmGetCallbackVersion
+ - wdm/CmGetCallbackVersion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CmGetCallbackVersion
 ---
 
 # CmGetCallbackVersion function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>CmGetCallbackVersion</b> routine retrieves the major and minor version numbers for the current version of the configuration manager's registry callback feature.
-
 
 ## -parameters
 
+### -param Major 
 
-
-
-### -param Major [out, optional]
-
+[out, optional]
 A pointer to a location that receives the major version number.
 
+### -param Minor 
 
-### -param Minor [out, optional]
-
+[out, optional]
 A pointer to a location that receives the minor version number.
 
-
 ## -remarks
-
-
 
 The <b>CmGetCallbackVersion</b> routine is available starting with Windows Vista.
 
@@ -84,13 +76,7 @@ Second, in version 1.0, an uncaught exception in a registry callback routine is 
 
 For more information on the differences between versions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_create_key_information">REG_POST_CREATE_KEY_INFORMATION</a>
 
@@ -105,7 +91,4 @@ For more information on the differences between versions, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
 

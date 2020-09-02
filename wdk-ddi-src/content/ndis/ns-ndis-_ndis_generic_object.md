@@ -6,10 +6,8 @@ old-location: netvista\ndis_generic_object.htm
 tech.root: netvista
 ms.assetid: 1e7af434-a6ad-44c8-a33d-adebb53b8e1d
 ms.date: 05/02/2018
-keywords: ["_NDIS_GENERIC_OBJECT structure"]
+keywords: ["NDIS_GENERIC_OBJECT structure"]
 ms.keywords: "*PNDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_GENERIC_OBJECT, PNDIS_GENERIC_OBJECT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_GENERIC_OBJECT, ndis/NDIS_GENERIC_OBJECT, ndis/PNDIS_GENERIC_OBJECT, ndis_object_ref_19f8706c-633c-4c32-9d86-17edc4e2ad12.xml, netvista.ndis_generic_object"
-f1_keywords:
- - "ndis/NDIS_GENERIC_OBJECT"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_GENERIC_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT
+f1_keywords:
+ - _NDIS_GENERIC_OBJECT
+ - ndis/_NDIS_GENERIC_OBJECT
+ - PNDIS_GENERIC_OBJECT
+ - ndis/PNDIS_GENERIC_OBJECT
+ - NDIS_GENERIC_OBJECT
+ - ndis/NDIS_GENERIC_OBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_GENERIC_OBJECT
 ---
 
 # _NDIS_GENERIC_OBJECT structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT
 
 ## -description
 
-
 The NDIS_GENERIC_OBJECT structure defines a generic object which a software component can use to
   obtain an NDIS handle.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -68,16 +66,13 @@ The
      <b>Size</b> member to 
      sizeof(NDIS_GENERIC_OBJECT).
 
-
 ### -field Caller
 
 Reserved for NDIS.
 
-
 ### -field CallersCaller
 
 Reserved for NDIS.
-
 
 ### -field DriverObject
 
@@ -87,10 +82,7 @@ The driver object that is associated with the generic object. If there is no dri
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">
      NdisAllocateGenericObject</a> function.
 
-
 ## -remarks
-
-
 
 Software components that do not already have an NDIS handle call 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">NdisAllocateGenericObject</a> to
@@ -110,13 +102,7 @@ Use the
     free a generic object that was created with 
     <b>NdisAllocateGenericObject</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -127,7 +113,4 @@ Use the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreegenericobject">NdisFreeGenericObject</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: a9951e7b-60a2-4bf2-913c-b7291d7c3173
 ms.date: 04/30/2018
 keywords: ["ExAllocatePoolWithTag function"]
 ms.keywords: ExAllocatePoolWithTag, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, kernel.exallocatepoolwithtag, wdm/ExAllocatePoolWithTag
-f1_keywords:
- - "wdm/ExAllocatePoolWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAllocatePoolWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAllocatePoolWithTag
+ - wdm/ExAllocatePoolWithTag
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAllocatePoolWithTag
 ---
 
 # ExAllocatePoolWithTag function
@@ -47,46 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExAllocatePoolWithTag</b> routine allocates pool memory of the specified type and returns a pointer to the allocated block.
-
 
 ## -parameters
 
+### -param PoolType 
 
-
-
-### -param PoolType [in]
-
+[in]
 The type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
 
 You can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the request cannot be satisfied. Use of the POOL_RAISE_IF_ALLOCATION_FAILURE flag is not recommended because it is costly.
 
 Similarly, you can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is supported starting with Windows XP.
 
+### -param NumberOfBytes 
 
-### -param NumberOfBytes [in]
-
+[in]
 The number of bytes to allocate.
 
+### -param Tag 
 
-### -param Tag [in]
-
+[in]
 The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to to four characters delimited by single quotation marks (for example, 'Tag1'). The string is usually specified in reverse order (for example, '1gaT'). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
-
 
 ## -returns
 
-
-
 <b>ExAllocatePoolWithTag</b> returns <b>NULL</b> if there is insufficient memory in the free pool to satisfy the request. Otherwise, the routine returns a pointer to the allocated memory.
 
-
-
-
 ## -remarks
-
-
 
 This routine is used for the general pool allocation of memory.
 
@@ -111,12 +98,7 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 <div class="alert"><b>Note</b>  Memory that <b>ExAllocatePoolWithTag</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a>
 
@@ -135,7 +117,4 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
- 
-
- 
 

@@ -5,38 +5,42 @@ description: The WWAN_SET_SAR_CONFIG structure describes Specific Absorption Rat
 tech.root: netvista
 ms.assetid: a4703e73-677a-42ea-8f8b-dbd77957ef6e
 ms.date: 08/20/2018
-keywords: ["_WWAN_SET_SAR_CONFIG structure"]
-f1_keywords:
- - "wwan/_WWAN_SET_SAR_CONFIG"
-ms.keywords: _WWAN_SET_SAR_CONFIG, WWAN_SET_SAR_CONFIG, *PWWAN_SET_SAR_CONFIG, 
+keywords: ["WWAN_SET_SAR_CONFIG structure"]
+ms.keywords: _WWAN_SET_SAR_CONFIG, WWAN_SET_SAR_CONFIG, *PWWAN_SET_SAR_CONFIG,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: WWAN_SET_SAR_CONFIG, *PWWAN_SET_SAR_CONFIG
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_SET_SAR_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _WWAN_SET_SAR_CONFIG
+ - wwan/_WWAN_SET_SAR_CONFIG
+ - PWWAN_SET_SAR_CONFIG
+ - wwan/PWWAN_SET_SAR_CONFIG
+ - WWAN_SET_SAR_CONFIG
+ - wwan/WWAN_SET_SAR_CONFIG
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_SET_SAR_CONFIG
 ---
 
 # _WWAN_SET_SAR_CONFIG structure
+
 
 ## -description
 
@@ -47,12 +51,13 @@ The **WWAN_SET_SAR_CONFIG** structure describes Specific Absorption Rate (SAR) i
 ### -field SarMode
 
 A [**WWAN_SAR_CONTROL_MODE**](ne-wwan-_wwan_sar_control_mode.md) value that specifies how the SAR back off mechanism should be controlled.
- 
+
 ### -field SarBackoffStatus
 
 A [**WWAN_SAR_BACKOFF_STATE**](ne-wwan-_wwan_sar_backoff_state.md) value that specifies the state of SAR backoff for the modem's antennas.
- 
+
 ### -field SarConfigIndexListHeader
+
  
 A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) structure that represents a list of SAR configurations that the modem supports. The **ElementType** member in the **WWAN_LIST_HEADER** should be set to **WwanStructSarConfig**. The **ElementCount** member in the **WWAN_LIST_HEADER** should be set to the number of SAR configurations that follow the **WWAN_LIST_HEADER** structure.
 
@@ -73,3 +78,4 @@ This structure is used in the [**NDIS_WWAN_SET_SAR_CONFIG**](../ndiswwan/ns-ndis
 [**WWAN_SAR_BACKOFF_STATE**](ne-wwan-_wwan_sar_backoff_state.md)
 
 [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md)
+

@@ -6,10 +6,8 @@ old-location: whea\soc_sybsystem_type.htm
 tech.root: whea
 ms.assetid: 179D61E3-C2EE-4821-93F8-DB763892DD3D
 ms.date: 02/20/2018
-keywords: ["_SOC_SUBSYSTEM_TYPE enumeration"]
+keywords: ["SOC_SUBSYSTEM_TYPE enumeration"]
 ms.keywords: "*PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], SOC_SUBSYSTEM_WIRELESS_MODEM, SOC_SUBSYS_AUDIO_DSP, SOC_SUBSYS_SENSORS, SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYS_WIRELSS_CONNECTIVITY, _SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, ntddk/SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYS_VENDOR_DEFINED, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, whea.soc_sybsystem_type"
-f1_keywords:
- - "ntddk/SOC_SUBSYSTEM_TYPE"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- SOC_SUBSYSTEM_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SOC_SUBSYSTEM_TYPE, *PSOC_SUBSYSTEM_TYPE
+f1_keywords:
+ - _SOC_SUBSYSTEM_TYPE
+ - ntddk/_SOC_SUBSYSTEM_TYPE
+ - PSOC_SUBSYSTEM_TYPE
+ - ntddk/PSOC_SUBSYSTEM_TYPE
+ - SOC_SUBSYSTEM_TYPE
+ - ntddk/SOC_SUBSYSTEM_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - SOC_SUBSYSTEM_TYPE
 ---
 
 # _SOC_SUBSYSTEM_TYPE enumeration
 
 
 ## -description
-
 
 The <b>SOC_SYBSYSTEM_TYPE</b> enumeration defines different types of System on a Chip (SoC) subsystems.
 
@@ -62,27 +64,24 @@ The <b>SybsysType</b> member of the <a href="https://docs.microsoft.com/windows-
 
 ## -enum-fields
 
-
-
-
 ### -field SOC_SUBSYS_WIRELESS_MODEM
+
 Wireless modem.
 
 ### -field SOC_SUBSYS_AUDIO_DSP
 
 Audio digital signal processor (DSP).
 
-
 ### -field SOC_SUBSYS_WIRELSS_CONNECTIVITY
 
 Wireless connectivity.
-
 
 ### -field SOC_SUBSYS_SENSORS
 
 Sensors.
 
 ### -field SOC_SUBSYS_COMPUTE_DSP : 
+
 Compute digital signal processor (DSP).
 
 ### -field SOC_SUBSYS_VENDOR_DEFINED

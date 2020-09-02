@@ -8,8 +8,6 @@ ms.assetid: 64158ea5-23ca-42a3-9284-2b1523e616b8
 ms.date: 05/08/2018
 keywords: ["IPortDMus::Notify"]
 ms.keywords: IPortDMus interface [Audio Devices],Notify method, IPortDMus.Notify, IPortDMus::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortDMus interface, audio.iportdmus_notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify
-f1_keywords:
- - "dmusicks/IPortDMus.Notify"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusicks.h
-api_name:
-- IPortDMus.Notify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortDMus::Notify
+ - dmusicks/IPortDMus::Notify
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusicks.h
+api_name:
+ - IPortDMus.Notify
 ---
 
 # IPortDMus::Notify
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <code>Notify</code> method should be called from the miniport driver's interrupt service routine (ISR) when a hardware interrupt has occurred. This call requests that the port driver call the miniport driver back with a deferred procedure call (DPC) while the miniport driver handles the interrupt.
-
 
 ## -parameters
 
+### -param ServiceGroup 
 
-
-
-### -param ServiceGroup [in, optional]
-
+[in, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 The <code>Notify</code> method sends notification to the miniport driver's service group:
 
@@ -90,13 +82,7 @@ When an adapter driver installs an ISR, it submits a <i>ServiceContext</i> param
 
 The <i>pServiceGroup</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imxf-putmessage">IMXF::PutMessage</a>
 
@@ -119,7 +105,4 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
- 
-
- 
 

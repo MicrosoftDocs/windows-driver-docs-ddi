@@ -8,8 +8,6 @@ ms.assetid: c3512a79-884f-4f38-9942-63a4a464585c
 ms.date: 04/23/2018
 keywords: ["USBCAMD_GetRegistryKeyValue function"]
 ms.keywords: USBCAMD_GetRegistryKeyValue, USBCAMD_GetRegistryKeyValue function [Streaming Media Devices], stream.usbcamd_getregistrykeyvalue, usbcamdi/USBCAMD_GetRegistryKeyValue, usbcmdpr_f93ab3a6-f063-4c69-819d-1aed77b8efe6.xml
-f1_keywords:
- - "usbcamdi/USBCAMD_GetRegistryKeyValue"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- usbcamd2.lib
-- usbcamd2.dll
-api_name:
-- USBCAMD_GetRegistryKeyValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBCAMD_GetRegistryKeyValue
+ - usbcamdi/USBCAMD_GetRegistryKeyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - usbcamd2.lib
+ - usbcamd2.dll
+api_name:
+ - USBCAMD_GetRegistryKeyValue
 ---
 
 # USBCAMD_GetRegistryKeyValue function
@@ -48,43 +47,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBCAMD_GetRegistryKeyValue</b> function retrieves the device-instance-specific registry key value.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 Handle to a valid and open device registry key.
 
+### -param KeyNameString 
 
-### -param KeyNameString [in]
-
+[in]
 Pointer to the string buffer describing the key type.
 
+### -param KeyNameStringLength 
 
-### -param KeyNameStringLength [in]
-
+[in]
 Specifies the length, in characters, of <i>KeyNameString</i>.
 
+### -param Data 
 
-### -param Data [in]
-
+[in]
 Pointer to a caller-specified value or structure.
 
+### -param DataLength 
 
-### -param DataLength [in]
-
+[in]
 Specifies the length, in bytes, of the value or structure at <i>Data.</i>
 
-
 ## -returns
-
-
 
 <b>USBCAMD_GetRegistryKeyValue </b>returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
 
@@ -105,7 +97,4 @@ There was insufficient memory to continue.
 </td>
 </tr>
 </table>
- 
-
-
 

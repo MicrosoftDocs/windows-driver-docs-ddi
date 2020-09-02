@@ -8,8 +8,6 @@ ms.assetid: 006edbf7-b3f8-45f2-902e-03d86e83b0a0
 ms.date: 04/30/2018
 keywords: ["ClfsLsnContainer function"]
 ms.keywords: ClfsLsnContainer, ClfsLsnContainer routine [Kernel-Mode Driver Architecture], Clfs_87c1e289-57b7-414d-a78e-8074a75d1262.xml, kernel.clfslsncontainer, wdm/ClfsLsnContainer
-f1_keywords:
- - "wdm/ClfsLsnContainer"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsLsnContainer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsLsnContainer
+ - wdm/ClfsLsnContainer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsLsnContainer
 ---
 
 # ClfsLsnContainer function
@@ -48,42 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsLsnContainer</b> routine returns the logical container identifier contained in a specified LSN.
-
 
 ## -parameters
 
+### -param plsn 
 
-
-
-### -param plsn [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure from which the container identifier is retrieved.
-
 
 ## -returns
 
-
-
 <b>ClfsLsnContainer</b> returns the logical container identifier contained in the LSN that is supplied by the caller. The logical container identifier is not necessarily the same as the identifier of the physical container on stable storage.
-
-
-
 
 ## -remarks
 
-
-
 For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnblockoffset">ClfsLsnBlockOffset</a>
 
@@ -94,7 +75,4 @@ For an explanation of CLFS concepts and terminology, see <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnrecordsequence">ClfsLsnRecordSequence</a>
- 
-
- 
 

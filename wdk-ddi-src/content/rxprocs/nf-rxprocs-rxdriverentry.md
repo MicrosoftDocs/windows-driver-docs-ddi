@@ -8,8 +8,6 @@ ms.assetid: f100f872-6db2-4b6d-a9c0-abbbfee0a621
 ms.date: 04/16/2018
 keywords: ["RxDriverEntry function"]
 ms.keywords: RxDriverEntry, RxDriverEntry routine [Installable File System Drivers], ifsk.rxdriverentry, rxprocs/RxDriverEntry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml
-f1_keywords:
- - "rxprocs/RxDriverEntry"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxprocs.h
-api_name:
-- RxDriverEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxDriverEntry
+ - rxprocs/RxDriverEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxprocs.h
+api_name:
+ - RxDriverEntry
 ---
 
 # RxDriverEntry function
@@ -47,32 +46,25 @@ req.typenames:
 
 ## -description
 
-
 <b>RxDriverEntry</b> is called by a monolithic network mini-redirector driver from its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine to initialize the RDBSS static library.
 
 For non-monolithic drivers, this initialization routine is equivalent to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine of the RDBSS.SYS device driver.
 
-
 ## -parameters
 
+### -param DriverObject 
 
+[in]
+A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver.
 
+### -param RegistryPath 
 
-### -param DriverObject [in]
-
-A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
-
-
-### -param RegistryPath [in]
-
+[in]
 A pointer to a Unicode string containing the registry path to where driver parameters and other configuration data are stored. This registry path is normally located under a services entry for the specific network mini-redirector located under the following key:
 
 HKLM\System\CurrentControlSet\Services
 
-
 ## -returns
-
-
 
 <b>RxDriverEntry</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
 
@@ -93,14 +85,8 @@ The initialization of RDBSS was started, but an error occurred. This error code 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A monolithic network mini-redirector driver which is linked statically with RDBSSLIB.LIB must call <b>RxDriverEntry</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine to initialize the copy of the RDBSSLIB library linked with the driver. <b>RxDriverEntry</b> must be called by a monolithic network mini-redirector driver before any other RDBSS routines are called. 
 
@@ -169,15 +155,9 @@ On Windows Server 2003, a registry value to set ReadAheadGranularity is not expo
 
 <b>RxDriverEntry</b> then copies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxfsddispatch">RxFsdDispatch</a> routine over all of the entries in the driver dispatch table. So if a monolithic network mini-redirector driver needs to receive specific IRPs for special processing before the RDBSS library, then a copy of its original driver dispatch table should be saved before calling <b>RxDriverEntry</b> and any routine pointers restored after the call to <b>RxDriverEntry</b> has returned. Note that RDBSS will also copy <b>RxFsdDispatch</b> to all the driver dispatch table entries when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxregisterminirdr">RxRegisterMiniRdr</a> is called unless an option is set to prevent this behavior..
 
-For a non-monolithic network mini-redirector driver (the Microsoft SMB redirector), the RDBSS.SYS device driver is initialized in its own <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine when loaded which internally calls <b>RxDriverEntry</b>. On a monolithic driver, the <b>RxDriverEntry</b> routine is exported from the RDBSSLIB.LIB static library and must be called explicitly by the network mini-redirector. 
-
-
-
+For a non-monolithic network mini-redirector driver (the Microsoft SMB redirector), the RDBSS.SYS device driver is initialized in its own <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine when loaded which internally calls <b>RxDriverEntry</b>. On a monolithic driver, the <b>RxDriverEntry</b> routine is exported from the RDBSSLIB.LIB static library and must be called explicitly by the network mini-redirector.
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
 
@@ -212,7 +192,4 @@ For a non-monolithic network mini-redirector driver (the Microsoft SMB redirecto
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-__rxfillandinstallfastiodispatch">__RxFillAndInstallFastIoDispatch</a>
- 
-
- 
 

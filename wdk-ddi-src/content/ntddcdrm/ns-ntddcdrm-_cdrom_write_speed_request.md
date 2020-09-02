@@ -6,10 +6,8 @@ old-location: storage\cdrom_write_speed_request.htm
 tech.root: storage
 ms.assetid: A7F8AFAE-AFFA-4022-8C04-2BF9177FE9EB
 ms.date: 03/29/2018
-keywords: ["_CDROM_WRITE_SPEED_REQUEST structure"]
+keywords: ["CDROM_WRITE_SPEED_REQUEST structure"]
 ms.keywords: "*PCDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST structure [Storage Devices], PCDROM_WRITE_SPEED_REQUEST, PCDROM_WRITE_SPEED_REQUEST structure pointer [Storage Devices], _CDROM_WRITE_SPEED_REQUEST, ntddcdrm/CDROM_WRITE_SPEED_REQUEST, ntddcdrm/PCDROM_WRITE_SPEED_REQUEST, storage.cdrom_write_speed_request"
-f1_keywords:
- - "ntddcdrm/CDROM_WRITE_SPEED_REQUEST"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddcdrm.h
-api_name:
-- CDROM_WRITE_SPEED_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_WRITE_SPEED_REQUEST, *PCDROM_WRITE_SPEED_REQUEST
+f1_keywords:
+ - _CDROM_WRITE_SPEED_REQUEST
+ - ntddcdrm/_CDROM_WRITE_SPEED_REQUEST
+ - PCDROM_WRITE_SPEED_REQUEST
+ - ntddcdrm/PCDROM_WRITE_SPEED_REQUEST
+ - CDROM_WRITE_SPEED_REQUEST
+ - ntddcdrm/CDROM_WRITE_SPEED_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddcdrm.h
+api_name:
+ - CDROM_WRITE_SPEED_REQUEST
 ---
 
 # _CDROM_WRITE_SPEED_REQUEST structure
@@ -47,31 +50,19 @@ req.typenames: CDROM_WRITE_SPEED_REQUEST, *PCDROM_WRITE_SPEED_REQUEST
 
 ## -description
 
-
 The <b>CDROM_WRITE_SPEED_REQUEST</b> structure is used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL and for requesting write speed descriptors.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RequestType
 
 As defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_request_type">CDROM_PERFORMANCE_REQUEST_TYPE</a>    enumeration.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_request_type">CDROM_PERFORMANCE_REQUEST_TYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
- 
-
- 
 

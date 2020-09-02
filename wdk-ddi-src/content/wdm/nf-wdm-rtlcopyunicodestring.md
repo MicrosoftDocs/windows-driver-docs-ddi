@@ -8,8 +8,6 @@ ms.assetid: 241801a5-4a02-46f3-a007-f571d58c7825
 ms.date: 04/30/2018
 keywords: ["RtlCopyUnicodeString function"]
 ms.keywords: RtlCopyUnicodeString, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture], k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml, kernel.rtlcopyunicodestring, wdm/RtlCopyUnicodeString
-f1_keywords:
- - "wdm/RtlCopyUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlCopyUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCopyUnicodeString
+ - wdm/RtlCopyUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlCopyUnicodeString
 ---
 
 # RtlCopyUnicodeString function
@@ -48,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlCopyUnicodeString</b> routine copies a source string to a destination string.
-
 
 ## -parameters
 
+### -param DestinationString 
 
+[in, out]
+A pointer to the destination string buffer. This parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
+### -param SourceString 
 
-### -param DestinationString [in, out]
-
-A pointer to the destination string buffer. This parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. 
-
-
-### -param SourceString [in, optional]
-
-A pointer to the source string buffer. This parameter points to a <b>UNICODE_STRING</b> structure. 
-
+[in, optional]
+A pointer to the source string buffer. This parameter points to a <b>UNICODE_STRING</b> structure.
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 If <i>SourceString</i> is <b>NULL</b>, this routine sets the <b>Length</b> field of the structure pointed to by <i>DestinationString</i> to zero.
 
@@ -90,20 +77,11 @@ The caller must properly initialize all members of the structure pointed to by <
 
 The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if the caller is running at IRQL >= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlcopystring">RtlCopyString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

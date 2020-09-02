@@ -31,13 +31,18 @@ api_name:
  - _DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
  - DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 f1_keywords:
+ - _DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
  - dispmprt/_DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
+ - PDXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
+ - dispmprt/PDXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
+ - DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
  - dispmprt/DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 dev_langs:
  - c++
 ---
 
 # DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS structure
+
 
 ## -description
 
@@ -54,3 +59,4 @@ dev_langs:
 ## -see-also
 
 [**DxgkddiSystemDisplayEnable**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_enable)
+

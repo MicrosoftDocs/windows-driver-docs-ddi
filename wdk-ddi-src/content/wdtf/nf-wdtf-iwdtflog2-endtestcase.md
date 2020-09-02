@@ -8,8 +8,6 @@ ms.assetid: 1932a0f0-bf76-4a8e-8b2a-e2ba2c81dc2b
 ms.date: 04/04/2018
 keywords: ["IWDTFLOG2::EndTestCase"]
 ms.keywords: EndTestCase, EndTestCase method [Windows Device Testing Framework], EndTestCase method [Windows Device Testing Framework],IWDTFLOG2 interface, IWDTFLOG2 interface [Windows Device Testing Framework],EndTestCase method, IWDTFLOG2.EndTestCase, IWDTFLOG2::EndTestCase, Microsoft.WDTF.IWDTFLOG2.EndTestCase, Microsoft::WDTF::IWDTFLOG2::EndTestCase, dtf.iwdtflog2_endtestcase, wdtf/IWDTFLOG2::EndTestCase
-f1_keywords:
- - "wdtf/IWDTFLOG2.EndTestCase"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFLOG2.EndTestCase
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFLOG2::EndTestCase
+ - wdtf/IWDTFLOG2::EndTestCase
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFLOG2.EndTestCase
 ---
 
 # IWDTFLOG2::EndTestCase
@@ -47,26 +46,13 @@ req.typenames:
 
 ## -description
 
-
 Marks the end of a test case.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflog2">IWDTFLOG2</a>
- 
-
- 
 

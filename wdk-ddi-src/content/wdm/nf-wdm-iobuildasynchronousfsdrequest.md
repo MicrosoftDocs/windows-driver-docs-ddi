@@ -8,8 +8,6 @@ ms.assetid: cb633146-c3ab-4a09-bbcd-5964ecbf6e44
 ms.date: 04/30/2018
 keywords: ["IoBuildAsynchronousFsdRequest function"]
 ms.keywords: IoBuildAsynchronousFsdRequest, IoBuildAsynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_bbefd6f7-02b9-497d-9d9e-aef507436cd4.xml, kernel.iobuildasynchronousfsdrequest, wdm/IoBuildAsynchronousFsdRequest
-f1_keywords:
- - "wdm/IoBuildAsynchronousFsdRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoBuildAsynchronousFsdRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoBuildAsynchronousFsdRequest
+ - wdm/IoBuildAsynchronousFsdRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoBuildAsynchronousFsdRequest
 ---
 
 # IoBuildAsynchronousFsdRequest function
@@ -47,57 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoBuildAsynchronousFsdRequest</b> routine allocates and sets up an IRP to be sent to lower-level drivers.
-
 
 ## -parameters
 
+### -param MajorFunction 
 
-
-
-### -param MajorFunction [in]
-
+[in]
 The major function code to be set in the IRP. This code can be <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a>.
 
+### -param DeviceObject 
 
-### -param DeviceObject [in]
-
+[in]
 A pointer to the next-lower driver's device object. This object represents the target device for the read, write, flush, or shutdown operation.
 
+### -param Buffer 
 
-### -param Buffer [in, out]
-
+[in, out]
 A pointer to a buffer into which data is read or from which data is written. The value of this argument is <b>NULL</b> for flush and shutdown requests.
 
+### -param Length 
 
-### -param Length [in, optional]
-
+[in, optional]
 The length, in bytes, of the buffer pointed to by <i>Buffer</i>. For devices such as disks, this value must be an integer multiple of the sector size. Starting with Windows 8, the sector size can be 4,096 or 512 bytes. In earlier versions of Windows, the sector size is always 512 bytes. This parameter is required for read and write requests, but must be zero for flush and shutdown requests.
 
+### -param StartingOffset 
 
-### -param StartingOffset [in, optional]
-
+[in, optional]
 A pointer to the starting offset on the input/output media. The value of this argument is zero for flush and shutdown requests.
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [in, optional]
-
+[in, optional]
 A pointer to the address of an I/O status block in which the to-be-called drivers return final status about the requested operation.
-
 
 ## -returns
 
-
-
 <b>IoBuildAsynchronousFsdRequest</b> returns a pointer to an IRP, or a <b>NULL</b> pointer if the IRP cannot be allocated.
 
-
-
-
 ## -remarks
-
-
 
 Intermediate or highest-level drivers can call <b>IoBuildAsynchronousFsdRequest</b> to set up IRPs for requests sent to lower-level drivers. The calling driver must supply an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine for the IRP, so the IRP can be deallocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>. For more information about IRP deallocation, see Examples.
 
@@ -146,12 +133,7 @@ IoFreeIrp(Irp);
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
@@ -210,7 +192,4 @@ IoFreeIrp(Irp);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread">PsGetCurrentThread</a>
- 
-
- 
 

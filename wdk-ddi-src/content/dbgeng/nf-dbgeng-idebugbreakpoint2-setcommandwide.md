@@ -8,8 +8,6 @@ ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::SetCommandWide"]
 ms.keywords: IDebugBreakpoint2 interface [Windows Debugging],SetCommandWide method, IDebugBreakpoint2.SetCommandWide, IDebugBreakpoint2::SetCommandWide, SetCommandWide, SetCommandWide method [Windows Debugging], SetCommandWide method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide
-f1_keywords:
- - "dbgeng/IDebugBreakpoint2.SetCommandWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint2.SetCommandWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint2::SetCommandWide
+ - dbgeng/IDebugBreakpoint2::SetCommandWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint2.SetCommandWide
 ---
 
 # IDebugBreakpoint2::SetCommandWide
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetCommandWide</b> method sets the command that is executed when a breakpoint is triggered.
-
 
 ## -parameters
 
+### -param Command 
 
-
-
-### -param Command [in]
-
+[in]
 The command string that is executed when the breakpoint is triggered.
 
-
 ## -returns
-
-
 
 <b>SetCommandWide</b> might return one of the following values:
 
@@ -84,20 +76,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The command string is a list of debugger commands that are separated by semicolons.  These commands are executed every time that the breakpoint is triggered.  The commands are executed before the engine informs any event callbacks that the breakpoint has been triggered.
 
 If the command string includes an execution command such as <b>G (Go)</b>, this command should be the last command in the <i>Command</i> string.  If a command causes the target to resume execution, the rest of the command string is ignored.
 
 For more information about breakpoint properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
-
-
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_device_service_event.htm
 tech.root: netvista
 ms.assetid: 43205AA6-2B1A-4D04-9AF8-E0EB53253F5B
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_DEVICE_SERVICE_EVENT structure"]
+keywords: ["NDIS_WWAN_DEVICE_SERVICE_EVENT structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_EVENT, NDIS_WWAN_DEVICE_SERVICE_EVENT, NDIS_WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_EVENT, PNDIS_WWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_EVENT, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_EVENT, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_EVENT, netvista.ndis_wwan_device_service_event"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_DEVICE_SERVICE_EVENT"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_DEVICE_SERVICE_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_EVENT, *PNDIS_WWAN_DEVICE_SERVICE_EVENT
+f1_keywords:
+ - _NDIS_WWAN_DEVICE_SERVICE_EVENT
+ - ndiswwan/_NDIS_WWAN_DEVICE_SERVICE_EVENT
+ - PNDIS_WWAN_DEVICE_SERVICE_EVENT
+ - ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_EVENT
+ - NDIS_WWAN_DEVICE_SERVICE_EVENT
+ - ndiswwan/NDIS_WWAN_DEVICE_SERVICE_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_DEVICE_SERVICE_EVENT
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_EVENT structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_EVENT, *PNDIS_WWAN_DEVICE_SERVICE_EVENT
 
 ## -description
 
-
 The NDIS_WWAN_DEVICE_SERVICE_EVENT structure describes unsolicited device service data that were not initiated by commands from Windows.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,7 +104,6 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_EVENT)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field Event
 
  
@@ -118,14 +115,7 @@ For more information about these members, see
 
 The information from the event.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_event">WWAN_DEVICE_SERVICE_EVENT</a>
- 
-
- 
 

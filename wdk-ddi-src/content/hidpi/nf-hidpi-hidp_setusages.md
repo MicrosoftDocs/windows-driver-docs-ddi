@@ -8,8 +8,6 @@ ms.assetid: a9f229cd-33ca-42b5-bae6-3f367e5f1e84
 ms.date: 04/30/2018
 keywords: ["HidP_SetUsages function"]
 ms.keywords: HidP_SetUsages, HidP_SetUsages routine [Human Input Devices], hid.hidp_setusages, hidfunc_4d0213bb-2715-446b-bdaf-f82be3cbc11b.xml, hidpi/HidP_SetUsages
-f1_keywords:
- - "hidpi/HidP_SetUsages"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hidparse.lib
-- Hidparse.dll
-api_name:
-- HidP_SetUsages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidP_SetUsages
+ - hidpi/HidP_SetUsages
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hidparse.lib
+ - Hidparse.dll
+api_name:
+ - HidP_SetUsages
 ---
 
 # HidP_SetUsages function
@@ -48,58 +47,51 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidP_SetUsages</b> routine sets specified HID control buttons ON (1) in a HID report.
-
 
 ## -parameters
 
+### -param ReportType 
 
-
-
-### -param ReportType [in]
-
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of report located at <i>Report</i>.
 
+### -param UsagePage 
 
-### -param UsagePage [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a> for the usages specified by <i>UsageList</i>.
 
+### -param LinkCollection 
 
-### -param LinkCollection [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the usages. If <i>LinkCollection</i> is nonzero, the routine only sets the usages, if they exist, in this link collection. If <i>LinkCollection</i> is zero, the routine sets the first usage for each specified usage in the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
+### -param UsageList 
 
-### -param UsageList [in, out]
-
+[in, out]
 Pointer to the array of usages.
 
+### -param UsageLength 
 
-### -param UsageLength [in, out]
-
+[in, out]
 Specifies, on input, the number of usages in <i>UsageList</i>. See the Remarks section for information about the output value.
 
+### -param PreparsedData 
 
-### -param PreparsedData [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the top-level collection associated with the report located at <i>Report</i>.
 
+### -param Report 
 
-### -param Report [in]
-
+[in]
 Pointer to a report.
 
+### -param ReportLength 
 
-### -param ReportLength [in]
-
+[in]
 Specifies the size, in bytes, of the report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a> returns in a collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
 
-
 ## -returns
-
-
 
 <b>HidP_SetUsages</b> returns one of the following status values:
 
@@ -186,26 +178,14 @@ A usage does not exist in any report of the specified report type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If <b>HidP_SetUsages</b> cannot set a usage in <i>UsageList</i>, the routine sets <i>UsageLength</i> to the index of the usage that could not be set, and returns a status value that indicates the error.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtons</a>
 
@@ -228,7 +208,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
- 
-
- 
 

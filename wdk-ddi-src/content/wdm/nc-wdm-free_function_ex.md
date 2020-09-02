@@ -8,8 +8,6 @@ ms.assetid: 2cc2fc91-eb14-4f15-a8ad-c35b4667406f
 ms.date: 04/30/2018
 keywords: ["FREE_FUNCTION_EX callback function"]
 ms.keywords: DrvrRtns_8e1790bd-6b06-4eed-afec-eb8055f2cbde.xml, FREE_FUNCTION_EX, LookasideListFreeEx, LookasideListFreeEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistfreeex, wdm/LookasideListFreeEx
-f1_keywords:
- - "wdm/LookasideListFreeEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- LookasideListFreeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FREE_FUNCTION_EX
+ - wdm/FREE_FUNCTION_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - LookasideListFreeEx
 ---
 
 # FREE_FUNCTION_EX callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <i>LookasideListFreeEx</i> routine frees the storage for a lookaside-list entry when a client tries to insert the entry into a lookaside list that is full. 
-
+The <i>LookasideListFreeEx</i> routine frees the storage for a lookaside-list entry when a client tries to insert the entry into a lookaside list that is full.
 
 ## -parameters
 
+### -param Buffer 
 
+[in]
+A pointer to the lookaside-list entry that is to be freed.
 
+### -param Lookaside 
 
-### -param Buffer [in]
-
-A pointer to the lookaside-list entry that is to be freed. 
-
-
-### -param Lookaside [in, out]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIST_EX</a> structure that describes the lookaside list. This structure was previously initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex">ExInitializeLookasideListEx</a> routine. 
-
+[in, out]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIST_EX</a> structure that describes the lookaside list. This structure was previously initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex">ExInitializeLookasideListEx</a> routine.
 
 ## -remarks
-
-
 
 A driver that creates a lookaside list can implement a <i>LookasideListFreeEx</i> routine to free previously allocated buffers when the list becomes full and can contain no more buffers. A buffer that is not in use is stored as an entry in the list. All entries in a lookaside list are buffers of a uniform size, which the driver specifies when the list is initialized.
 
@@ -123,12 +115,7 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetolookasidelistex">ExFreeToLookasideListEx</a>
 
@@ -139,7 +126,4 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIST_EX</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 21dfcbe8-2fc1-4495-af54-5d4c83b8bb79
 ms.date: 04/20/2018
 keywords: ["IBidiRequestContainer interface"]
 ms.keywords: IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer interface [Print Devices],described, _win32_IBidiRequestContainer, bidispl/IBidiRequestContainer, gdi.ibidirequestcontainer, print.ibidirequestcontainer
-f1_keywords:
- - "bidispl/IBidiRequestContainer"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bidispl.h
-api_name:
-- IBidiRequestContainer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiRequestContainer
+ - bidispl/IBidiRequestContainer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bidispl.h
+api_name:
+ - IBidiRequestContainer
 ---
 
 # IBidiRequestContainer interface
+
 
 ## -description
 
@@ -55,3 +55,4 @@ The **IBidiRequestContainer** interface allows an application or other objects t
 [Bidirectional Communication Schema](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema)
 
 [Print Spooler Components](https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components)
+

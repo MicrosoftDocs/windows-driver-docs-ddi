@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiRenderGdi"
+ - DXGKDDI_RENDERGDI
+ - d3dkmddi/DXGKDDI_RENDERGDI
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_RENDERGDI callback function
+
 
 ## -description
 

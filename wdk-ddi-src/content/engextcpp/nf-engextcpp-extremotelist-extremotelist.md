@@ -10,6 +10,7 @@ keywords: ["ExtRemoteList::ExtRemoteList method"]
 ms.keywords: engextcpp/ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList::ExtRemoteList, ExtRemoteList, ExtRemoteList class [Windows Debugging], described, debugger.extremotelist, EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml
 f1_keywords:
  - "engextcpp/ExtRemoteList"
+ - "ExtRemoteList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteList
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

@@ -8,41 +8,42 @@ ms.assetid: 5f07dff9-004f-415a-81fb-5d32e44fbc48
 ms.author: windowsdriverdev
 ms.date: 03/08/2019
 keywords: ["FltQueryDirectoryFileEx function"]
-f1_keywords:
- - "fltkernel/FltQueryDirectoryFileEx"
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile
 req.header: fltkernel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- fltkernel.h
-api_name: 
-- FltQueryDirectoryFileEx
+targetos: Windows
+f1_keywords:
+ - FltQueryDirectoryFileEx
+ - fltkernel/FltQueryDirectoryFileEx
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FltQueryDirectoryFileEx
 product:
  - Windows
-targetos: Windows
-
 ---
 
 # FltQueryDirectoryFileEx function
+
 
 ## -description
 
@@ -178,3 +179,4 @@ Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL a
 [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
 
 [ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047")
+

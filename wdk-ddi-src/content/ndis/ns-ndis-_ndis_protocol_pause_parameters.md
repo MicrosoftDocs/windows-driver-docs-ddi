@@ -6,10 +6,8 @@ old-location: netvista\ndis_protocol_pause_parameters.htm
 tech.root: netvista
 ms.assetid: 7754d47f-9e21-44c7-8a6f-141d18623ddf
 ms.date: 05/02/2018
-keywords: ["_NDIS_PROTOCOL_PAUSE_PARAMETERS structure"]
+keywords: ["NDIS_PROTOCOL_PAUSE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, netvista.ndis_protocol_pause_parameters, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml"
-f1_keywords:
- - "ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_PROTOCOL_PAUSE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PROTOCOL_PAUSE_PARAMETERS, *PNDIS_PROTOCOL_PAUSE_PARAMETERS
+f1_keywords:
+ - _NDIS_PROTOCOL_PAUSE_PARAMETERS
+ - ndis/_NDIS_PROTOCOL_PAUSE_PARAMETERS
+ - PNDIS_PROTOCOL_PAUSE_PARAMETERS
+ - ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS
+ - NDIS_PROTOCOL_PAUSE_PARAMETERS
+ - ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_PROTOCOL_PAUSE_PARAMETERS
 ---
 
 # _NDIS_PROTOCOL_PAUSE_PARAMETERS structure
@@ -47,17 +50,12 @@ req.typenames: NDIS_PROTOCOL_PAUSE_PARAMETERS, *PNDIS_PROTOCOL_PAUSE_PARAMETERS
 
 ## -description
 
-
 NDIS passes an NDIS_PROTOCOL_PAUSE_PARAMETERS structure to a protocol driver when it calls the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function to
   indicate a 
   <b>NetEventPause</b> event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -69,11 +67,9 @@ The
      <b>Revision</b> member to NDIS_PROTOCOL_PAUSE_PARAMETERS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_PROTOCOL_PAUSE_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 Reserved.
-
 
 ### -field PauseReason
 
@@ -81,10 +77,7 @@ Reserved.
 <div> </div>
 The value will always be NDIS_PAUSE_NDIS_INTERNAL.
 
-
 ## -remarks
-
-
 
 To specify the pause parameters for a binding, NDIS passes a pointer to an
     NDIS_PROTOCOL_PAUSE_PARAMETERS structure to the 
@@ -92,20 +85,11 @@ To specify the pause parameters for a binding, NDIS passes a pointer to an
     NDIS indicates a 
     <b>NetEventPause</b> event.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
- 
-
- 
 

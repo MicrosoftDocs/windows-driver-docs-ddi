@@ -8,8 +8,6 @@ ms.assetid: 535e1603-08e3-4ad1-b4e5-f0368b7d3e71
 ms.date: 05/10/2018
 keywords: ["PI2C_STOP callback function"]
 ms.keywords: I2CStop, I2CStop callback function [Display Devices], PI2C_STOP, PI2C_STOP callback, VideoPort_Functions_736a5ce6-846f-4c8c-b851-b65c365bba71.xml, display.i2cstop, video/I2CStop
-f1_keywords:
- - "video/I2CStop"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- I2CStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PI2C_STOP
+ - video/PI2C_STOP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - I2CStop
 ---
 
 # PI2C_STOP callback function
@@ -47,50 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <i>I2CStop</i> function ends <a href="https://docs.microsoft.com/windows-hardware/drivers/">I2C</a> communication.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's per-adapter device extension.
 
+### -param I2CCallbacks 
 
-### -param I2CCallbacks [in]
-
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_i2c_callbacks">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
-
 
 ## -returns
 
-
-
 <i>I2CStop</i> returns <b>TRUE</b> if I²C communication was successfully stopped, and <b>FALSE</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
 The video port implements this function, which can be accessed through a pointer in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_i2c_interface">VIDEO_PORT_I2C_INTERFACE</a> structure.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_i2c_interface">VIDEO_PORT_I2C_INTERFACE</a>
- 
-
- 
 

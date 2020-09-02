@@ -8,8 +8,6 @@ ms.assetid: 1d03b97f-5c01-48b2-a0e4-2dc6bf732813
 ms.date: 04/23/2018
 keywords: ["KsStreamPointerUnlock function"]
 ms.keywords: KsStreamPointerUnlock, KsStreamPointerUnlock function [Streaming Media Devices], avfunc_71260371-8ee2-45e1-ad72-7eba8212d081.xml, ks/KsStreamPointerUnlock, stream.ksstreampointerunlock
-f1_keywords:
- - "ks/KsStreamPointerUnlock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsStreamPointerUnlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsStreamPointerUnlock
+ - ks/KsStreamPointerUnlock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsStreamPointerUnlock
 ---
 
 # KsStreamPointerUnlock function
@@ -48,40 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsStreamPointerUnlock </b>function unlocks a stream pointer that has previously been locked by an acquisition function <b>(KsGet</b><i>Xxx</i><b>EdgeStreamPointer</b>) or by <b>KsStreamPointerLock</b>.
-
 
 ## -parameters
 
+### -param StreamPointer 
 
-
-
-### -param StreamPointer [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer to unlock.
 
+### -param Eject 
 
-### -param Eject [in]
-
+[in]
 This parameter specifies whether to advance <i>StreamPointer</i> to the next data frame. A value of <b>TRUE</b> advances the stream pointer.
 
-
 ## -remarks
-
-
 
 <b>KsStreamPointerUnlock</b> can also advance the stream pointer to the next data frame. See the description of <i>Eject</i> above.
 
 Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>
 
@@ -112,7 +98,4 @@ Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/str
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerlock">KsStreamPointerLock</a>
- 
-
- 
 

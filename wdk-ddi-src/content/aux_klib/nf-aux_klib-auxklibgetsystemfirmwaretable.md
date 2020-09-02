@@ -8,8 +8,6 @@ ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
 ms.date: 04/30/2018
 keywords: ["AuxKlibGetSystemFirmwareTable function"]
 ms.keywords: AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
-f1_keywords:
- - "aux_klib/AuxKlibGetSystemFirmwareTable"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Aux_Klib.lib
-- Aux_Klib.dll
-api_name:
-- AuxKlibGetSystemFirmwareTable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AuxKlibGetSystemFirmwareTable
+ - aux_klib/AuxKlibGetSystemFirmwareTable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Aux_Klib.lib
+ - Aux_Klib.dll
+api_name:
+ - AuxKlibGetSystemFirmwareTable
 ---
 
 # AuxKlibGetSystemFirmwareTable function
@@ -48,17 +47,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>AuxKlibGetSystemFirmwareTable</b> routine retrieves the specified firmware table from the firmware table provider.
-
 
 ## -parameters
 
+### -param FirmwareTableProviderSignature 
 
-
-
-### -param FirmwareTableProviderSignature [in]
-
+[in]
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
 
 <table>
@@ -97,11 +92,10 @@ The raw SMBIOS firmware table provider.
 </td>
 </tr>
 </table>
- 
 
+### -param FirmwareTableID 
 
-### -param FirmwareTableID [in]
-
+[in]
 The identifier of the firmware table. The characters in the identifier are in little-endian order.
 
 For example, FACP is the name of a table provided by ACPI. The FACP table is identified by the 4-byte value 'PCAF' (0x50434146) in the <b>Signature</b> field of the <b>DESCRIPTION_HEADER</b> structure at the start of the table. The following code example shows how to specify FACP in an <b>AuxKlibGetSystemFirmwareTable</b> call:
@@ -110,25 +104,22 @@ For example, FACP is the name of a table provided by ACPI. The FACP table is ide
 
 In this example, <code>pBuffer</code> points to the caller-allocated buffer, <code>BUFSIZE</code> is the size in bytes of this buffer, and <code>dataSize</code> is a variable to which the routine writes the number of bytes written to the buffer. For more information about the <b>DESCRIPTION_HEADER</b> structure, see the Advanced Configuration and Power Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
 
+### -param FirmwareTableBuffer 
 
-### -param FirmwareTableBuffer [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer that receives the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 The size, in bytes, of the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
+### -param ReturnLength 
 
-### -param ReturnLength [out, optional]
-
+[out, optional]
 A pointer to a location to which the routine writes the number of bytes of data written to the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
-
 ## -returns
-
-
 
 <b>AuxKlibGetSystemFirmwareTable</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
 
@@ -160,14 +151,8 @@ The caller-allocated buffer is too small, but the required buffer size has been 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The data written to the <i>FirmwareTableBuffer</i> buffer starts with the following structure:
 
@@ -201,13 +186,7 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 <b>AuxKlibGetSystemFirmwareTable</b> is defined in the Aux_klib.h header file that is included in the WDK for Windows 8 and later versions of Windows. To use this routine, drivers should link to the version of Aux_klib.lib that is included in the WDK for Windows 8 and later versions of Windows. The implementation of <b>AuxKlibGetSystemFirmwareTable</b> in these versions of the WDK can be used in versions of Windows starting with Windows Vista.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibenumeratesystemfirmwaretables">AuxKlibEnumerateSystemFirmwareTables</a>
 
@@ -218,7 +197,4 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
- 
-
- 
 

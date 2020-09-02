@@ -8,8 +8,6 @@ ms.assetid: 3e19439d-397c-4c22-823c-aa53c456d7b9
 ms.date: 04/23/2018
 keywords: ["tagKS_DATARANGE_MPEG2TS_AVC structure"]
 ms.keywords: "*PKS_DATARANGE_MPEG2TS_AVC, KS_DATARANGE_MPEG2TS_AVC, KS_DATARANGE_MPEG2TS_AVC structure [Streaming Media Devices], PKS_DATARANGE_MPEG2TS_AVC, PKS_DATARANGE_MPEG2TS_AVC structure pointer [Streaming Media Devices], avcsref_604304aa-f90b-4897-a134-c05eff1240aa.xml, avcstrm/KS_DATARANGE_MPEG2TS_AVC, avcstrm/PKS_DATARANGE_MPEG2TS_AVC, stream.ks_datarange_mpeg2ts_avc, tagKS_DATARANGE_MPEG2TS_AVC"
-f1_keywords:
- - "avcstrm/KS_DATARANGE_MPEG2TS_AVC"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avcstrm.h
-api_name:
-- KS_DATARANGE_MPEG2TS_AVC
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_MPEG2TS_AVC, *PKS_DATARANGE_MPEG2TS_AVC
+f1_keywords:
+ - tagKS_DATARANGE_MPEG2TS_AVC
+ - avcstrm/tagKS_DATARANGE_MPEG2TS_AVC
+ - PKS_DATARANGE_MPEG2TS_AVC
+ - avcstrm/PKS_DATARANGE_MPEG2TS_AVC
+ - KS_DATARANGE_MPEG2TS_AVC
+ - avcstrm/KS_DATARANGE_MPEG2TS_AVC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avcstrm.h
+api_name:
+ - KS_DATARANGE_MPEG2TS_AVC
 ---
 
 # tagKS_DATARANGE_MPEG2TS_AVC structure
@@ -47,36 +50,23 @@ req.typenames: KS_DATARANGE_MPEG2TS_AVC, *PKS_DATARANGE_MPEG2TS_AVC
 
 ## -description
 
-
 The KS_DATARANGE_MPEG2TS_AVC structure stores a range of AV/C MPEG2 formats.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DataRange
 
 Specifies the range of supported AV/C MPEG2 formats.
 
-
 ### -field ConnectInfo
 
 Specifies the AV/C preconnection info.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avcpreconnectinfo">AVCPRECONNECTINFO</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
- 
-
- 
 

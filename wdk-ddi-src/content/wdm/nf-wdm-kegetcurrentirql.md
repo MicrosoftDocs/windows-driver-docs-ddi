@@ -8,8 +8,6 @@ ms.assetid: 63c33017-d827-4a8f-bb6f-fd13a2528e0c
 ms.date: 04/30/2018
 keywords: ["KeGetCurrentIrql function"]
 ms.keywords: KeGetCurrentIrql, KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], k105_04c845e8-a239-4400-8a5f-15996754494a.xml, kernel.kegetcurrentirql, wdm/KeGetCurrentIrql
-f1_keywords:
- - "wdm/KeGetCurrentIrql"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeGetCurrentIrql
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeGetCurrentIrql
+ - wdm/KeGetCurrentIrql
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeGetCurrentIrql
 ---
 
 # KeGetCurrentIrql function
@@ -47,23 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities).
-
 
 ## -returns
 
-
-
 <b>KeGetCurrentIrql</b> returns the current IRQL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>
 
@@ -78,5 +67,4 @@ The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information ab
 
  
 [Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities)
- 
 

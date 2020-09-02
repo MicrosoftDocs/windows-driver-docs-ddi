@@ -8,8 +8,6 @@ ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
 ms.date: 04/16/2018
 keywords: ["SecMakeSPNEx function"]
 ms.keywords: SecMakeSPNEx, SecMakeSPNEx function [Installable File System Drivers], ifsk.secmakespnex, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ntifs/SecMakeSPNEx
-f1_keywords:
- - "ntifs/SecMakeSPNEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ksecdd.lib
-- Ksecdd.dll
-api_name:
-- SecMakeSPNEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SecMakeSPNEx
+ - ntifs/SecMakeSPNEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ksecdd.lib
+ - Ksecdd.dll
+api_name:
+ - SecMakeSPNEx
 ---
 
 # SecMakeSPNEx function
@@ -48,43 +47,35 @@ req.typenames:
 
 ## -description
 
-
-<b>SecMakeSPNEx</b> creates a service provider name string that can be used when communicating with specific security service providers. 
-
+<b>SecMakeSPNEx</b> creates a service provider name string that can be used when communicating with specific security service providers.
 
 ## -parameters
 
+### -param ServiceClass 
 
+[in]
+A pointer to a Unicode string specifying the service class for the security service provider.
 
+### -param ServiceName 
 
-### -param ServiceClass [in]
-
-A pointer to a Unicode string specifying the service class for the security service provider. 
-
-
-### -param ServiceName [in]
-
-A pointer to a Unicode string specifying the service name for the security service provider. 
-
+[in]
+A pointer to a Unicode string specifying the service name for the security service provider.
 
 ### -param OPTIONAL
 
 <p>A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. </p>
 
+### -param Spn 
 
-### -param Spn [in, out]
-
+[in, out]
 A pointer to a Unicode string for storing the security service provider name string created by this function.
 
+### -param Allocate 
 
-### -param Allocate [in]
-
+[in]
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
-
 ## -returns
-
-
 
 <b>SecMakeSPNEx</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -131,31 +122,16 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>SecMakeSPNEx</b> is an enhanced version of <b>SecMakeSPN</b>. 
-
-
-
+<b>SecMakeSPNEx</b> is an enhanced version of <b>SecMakeSPN</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556584">SecMakeSPN</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556592">SecMakeSPNEx2</a>
- 
-
- 
 

@@ -5,10 +5,8 @@ description: The D3DKMT_ESCAPE structure describes information that is exchanged
 old-location: display\d3dkmt_escape.htm
 ms.assetid: db57ae5e-7060-4d45-99a5-e54c82b0aa05
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_ESCAPE structure"]
+keywords: ["D3DKMT_ESCAPE structure"]
 ms.keywords: D3DKMT_ESCAPE, D3DKMT_ESCAPE structure [Display Devices], OpenGL_Structs_b17fc4f1-d9cc-4ebe-a29a-66f9a93b9462.xml, _D3DKMT_ESCAPE, d3dkmthk/D3DKMT_ESCAPE, display.d3dkmt_escape
-f1_keywords:
- - "d3dkmthk/D3DKMT_ESCAPE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_ESCAPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ESCAPE
+f1_keywords:
+ - _D3DKMT_ESCAPE
+ - d3dkmthk/_D3DKMT_ESCAPE
+ - D3DKMT_ESCAPE
+ - d3dkmthk/D3DKMT_ESCAPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_ESCAPE
 ---
 
 # _D3DKMT_ESCAPE structure
@@ -47,24 +48,17 @@ req.typenames: D3DKMT_ESCAPE
 
 ## -description
 
-
 The D3DKMT_ESCAPE structure describes information that is exchanged with the display miniport driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hAdapter
 
 [in] A handle to the graphics adapter that information is exchanged on.
 
-
 ### -field hDevice
 
 [in] A handle to a display device that is optionally specified if the information to be exchanged is specific to a particular device.
-
 
 ### -field Type
 
@@ -100,13 +94,11 @@ The D3DKMT_ESCAPE structure describes information that is exchanged with the dis
 | D3DKMT_ESCAPE_WIN32K_QUERY_CD_ROTATION_BLOCK (1025) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
 | D3DKMT_ESCAPE_WIN32K_DPI_INFO (1026) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
 | D3DKMT_ESCAPE_WIN32K_PRESENTER_VIEW_INFO (1027) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
-| D3DKMT_ESCAPE_WIN32K_SYSTEM_DPI (1028) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
-
+| D3DKMT_ESCAPE_WIN32K_SYSTEM_DPI (1028) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. |
 
 ### -field Flags
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags">D3DDDI_ESCAPEFLAGS</a> structure that indicates, in bit-field flags, how to share information. The OpenGL ICD should specify the <b>HardwareAccess</b> bit-field flag to indicate that the display miniport driver must access graphics hardware in such a way that the operating system must perform the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-second-level">second level of synchronization</a> into the display miniport driver for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call. 
-
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags">D3DDDI_ESCAPEFLAGS</a> structure that indicates, in bit-field flags, how to share information. The OpenGL ICD should specify the <b>HardwareAccess</b> bit-field flag to indicate that the display miniport driver must access graphics hardware in such a way that the operating system must perform the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-second-level">second level of synchronization</a> into the display miniport driver for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call.
 
 ### -field pPrivateDriverData
 
@@ -132,17 +124,9 @@ The D3DKMT_ESCAPE structure describes information that is exchanged with the dis
 
 ## -remarks
 
-
-
-For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE structure in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function to control the video memory manager and GPU scheduler (which are part of <i>Dxgkrnl.sys</i>) and the behavior of the operating system's TDR process. 
-
-
-
+For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE structure in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function to control the video memory manager and GPU scheduler (which are part of <i>Dxgkrnl.sys</i>) and the behavior of the operating system's TDR process.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a>
 
@@ -169,7 +153,4 @@ For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE struc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidsch_escape">D3DKMT_VIDSCH_ESCAPE</a>
- 
-
- 
 

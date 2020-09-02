@@ -2,49 +2,51 @@
 UID: NF:storport.StorPortQueryConfiguration
 title: StorPortQueryConfiguration function
 author: windows-driver-content
-description: A miniport can call StorPortQueryConfiguration to get the specific configuration of the platform. 
+description: A miniport can call StorPortQueryConfiguration to get the specific configuration of the platform.
 tech.root: storage
 ms.assetid: f5f37d7a-4171-4273-9076-32d7cce1c508
 ms.author: windowsdriverdev
 ms.date: 03/06/2019
 keywords: ["StorPortQueryConfiguration function"]
-f1_keywords:
- - "storport/StorPortQueryConfiguration"
 ms.keywords: StorPortQueryConfiguration
 req.header: storport.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - StorPortQueryConfiguration
+ - storport/StorPortQueryConfiguration
+topic_type:
+ - apiref
+api_type:
+ - LibDef
 api_location:
-- storport.h
-api_name: 
-- StorPortQueryConfiguration
+ - storport.h
+api_name:
+ - StorPortQueryConfiguration
 product:
  - Windows
-targetos: Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # StorPortQueryConfiguration function
+
 
 ## -description
 
@@ -84,3 +86,4 @@ Pointer to a **BOOLEAN** value in which the Storport driver will return one of t
 ## -see-also
 
 [STORPORT_QUERY_CONFIGURATION_TYPE](ne-storport-storport_query_configuration_type.md)
+

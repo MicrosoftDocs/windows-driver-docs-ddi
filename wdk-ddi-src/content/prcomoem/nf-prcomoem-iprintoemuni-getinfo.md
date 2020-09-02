@@ -8,8 +8,6 @@ ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::GetInfo"]
 ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],GetInfo method, IPrintOemUni.GetInfo, IPrintOemUni::GetInfo, prcomoem/IPrintOemUni::GetInfo, print.iprintoemuni_getinfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.GetInfo"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintOemUni.GetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::GetInfo
+ - prcomoem/IPrintOemUni::GetInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintOemUni.GetInfo
 ---
 
 # IPrintOemUni::GetInfo
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 A rendering plug-in's <code>IPrintOemUni::GetInfo</code> method returns identification information.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMode
 
@@ -84,25 +78,19 @@ The method must return a unique four-byte identification signature. The plug-in 
 
 The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
 
-
 ### -param pBuffer
 
 Caller-supplied pointer to memory allocated to receive the information specified by <i>dwInfo</i>.
-
 
 ### -param cbSize
 
 Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 
-
 ### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pBuffer</i>.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -134,14 +122,8 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::GetInfo</code> method, which is called immediately after the plug-in is loaded. The method should return the specified information by writing it to the address specified by <i>pBuffer</i> and writing the size, in bytes, of the returned information into the location specified by <i>pcbNeeded</i>.
 
@@ -149,13 +131,7 @@ If <i>pBuffer</i> is <b>NULL</b>, the method should just use <i>pcbNeeded</i> to
 
 For more information about creating and installing rendering plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo">IPrintOemPS::GetInfo</a>
 
@@ -166,7 +142,4 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: wdf\wdf_usb_request_completion_params.htm
 tech.root: wdf
 ms.assetid: cd29d27c-9da2-477f-898e-13ee480aac9e
 ms.date: 02/26/2018
-keywords: ["_WDF_USB_REQUEST_COMPLETION_PARAMS structure"]
+keywords: ["WDF_USB_REQUEST_COMPLETION_PARAMS structure"]
 ms.keywords: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, DFUsbRef_14574f86-fd65-41df-be8e-557f6fe09c4f.xml, PWDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS structure pointer, WDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS structure, _WDF_USB_REQUEST_COMPLETION_PARAMS, kmdf.wdf_usb_request_completion_params, wdf.wdf_usb_request_completion_params, wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS, wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS"
-f1_keywords:
- - "wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfusb.h
-api_name:
-- WDF_USB_REQUEST_COMPLETION_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
+f1_keywords:
+ - _WDF_USB_REQUEST_COMPLETION_PARAMS
+ - wdfusb/_WDF_USB_REQUEST_COMPLETION_PARAMS
+ - PWDF_USB_REQUEST_COMPLETION_PARAMS
+ - wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS
+ - WDF_USB_REQUEST_COMPLETION_PARAMS
+ - wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfusb.h
+api_name:
+ - WDF_USB_REQUEST_COMPLETION_PARAMS
 ---
 
 # _WDF_USB_REQUEST_COMPLETION_PARAMS structure
@@ -47,47 +50,35 @@ req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_P
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure contains parameters that are associated with the completion of an I/O request for a USB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UsbdStatus
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff539136(v=vs.85)">USBD_STATUS</a>-typed status value that the I/O target returned.
 
-
 ### -field Type
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a>-typed values that identifies the request type.
 
-
 ### -field Parameters
 
-
 ### -field Parameters.DeviceString
-
 
 ### -field Parameters.DeviceString.Buffer
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforstring">WdfUsbTargetDeviceFormatRequestForString</a>, this member contains the driver-supplied handle to the memory object that receives the Unicode string.
 
-
 ### -field Parameters.DeviceString.LangID
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforstring">WdfUsbTargetDeviceFormatRequestForString</a>, this member contains the driver-supplied language identifier.
 
-
 ### -field Parameters.DeviceString.StringIndex
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforstring">WdfUsbTargetDeviceFormatRequestForString</a>, this member contains the driver-supplied string index.
-
 
 ### -field Parameters.DeviceString.RequiredSize
 
@@ -95,19 +86,15 @@ If the driver has called any method that <a href="https://docs.microsoft.com/win
 
 If the driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the required size value from the URB whose handle is in <b>Parameters.DeviceUrb.Buffer</b>.
 
-
 ### -field Parameters.DeviceControlTransfer
-
 
 ### -field Parameters.DeviceControlTransfer.Buffer
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>, this member contains the driver-supplied handle to the memory object that receives input or output data.
 
-
 ### -field Parameters.DeviceControlTransfer.SetupPacket
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>, this member contains the address of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure that the driver supplied.
-
 
 ### -field Parameters.DeviceControlTransfer.Length
 
@@ -115,22 +102,17 @@ If the driver has called any method that <a href="https://docs.microsoft.com/win
 
 If the driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the length value from the URB whose handle is in <b>Parameters.DeviceUrb.Buffer</b>.
 
-
 ### -field Parameters.DeviceUrb
-
 
 ### -field Parameters.DeviceUrb.Buffer
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a>, this member contains the driver-supplied handle to the memory object that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure.
 
-
 ### -field Parameters.PipeWrite
-
 
 ### -field Parameters.PipeWrite.Buffer
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforwrite">WdfUsbTargetPipeFormatRequestForWrite</a>, this member contains the driver-supplied handle to the memory object that was written to the pipe.
-
 
 ### -field Parameters.PipeWrite.Length
 
@@ -138,19 +120,15 @@ If the driver has called any method <a href="https://docs.microsoft.com/windows-
 
 If the driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the length value from the URB whose handle is in <b>Parameters.PipeUrb.Buffer</b>.
 
-
 ### -field Parameters.PipeWrite.Offset
 
-If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforwrite">WdfUsbTargetPipeFormatRequestForWrite</a>, this member contains the driver-supplied buffer offset. 
-
+If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforwrite">WdfUsbTargetPipeFormatRequestForWrite</a>, this member contains the driver-supplied buffer offset.
 
 ### -field Parameters.PipeRead
-
 
 ### -field Parameters.PipeRead.Buffer
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforread">WdfUsbTargetPipeFormatRequestForRead</a>, this member contains the driver-supplied handle to the memory object that contains data that was read from the pipe.
-
 
 ### -field Parameters.PipeRead.Length
 
@@ -158,33 +136,21 @@ If the driver has called any method that <a href="https://docs.microsoft.com/win
 
 If the driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a>, it can obtain the length value from the URB whose handle is in <b>Parameters.PipeUrb.Buffer</b>.
 
-
 ### -field Parameters.PipeRead.Offset
 
-If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforread">WdfUsbTargetPipeFormatRequestForRead</a>, this member contains the driver-supplied buffer offset. 
-
+If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforread">WdfUsbTargetPipeFormatRequestForRead</a>, this member contains the driver-supplied buffer offset.
 
 ### -field Parameters.PipeUrb
-
 
 ### -field Parameters.PipeUrb.Buffer
 
 If the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforurb">WdfUsbTargetPipeFormatRequestForUrb</a>, this member contains the driver-supplied handle to the memory object that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure.
 
-
 ## -remarks
-
-
 
 The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a>
 
@@ -195,7 +161,4 @@ The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a hre
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetcompletionparams">WdfRequestGetCompletionParams</a>
- 
-
- 
 

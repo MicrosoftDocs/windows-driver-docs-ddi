@@ -8,8 +8,6 @@ ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
 ms.date: 02/15/2018
 keywords: ["DeRegisterOpRegionHandler function"]
 ms.keywords: DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], acpi.deregisteropregionhandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler
-f1_keywords:
- - "oprghdlr/DeRegisterOpRegionHandler"
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Oprghdlr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Oprghdlr.lib
-- Oprghdlr.dll
-api_name:
-- DeRegisterOpRegionHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DeRegisterOpRegionHandler
+ - oprghdlr/DeRegisterOpRegionHandler
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Oprghdlr.lib
+ - Oprghdlr.dll
+api_name:
+ - DeRegisterOpRegionHandler
 ---
 
 # DeRegisterOpRegionHandler function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>DeRegisterOpRegionHandler</b> routine deregisters an operation region handler with the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-driver">ACPI driver</a>.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the physical device object (PDO) that represents the ACPI device that defines the operation region.
 
+### -param OperationRegionObject 
 
-### -param OperationRegionObject [in]
-
+[in]
 Specifies the operation region object returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a> for the operation region handler.
 
-
 ## -returns
-
-
 
 Returns one of the following status values.
 
@@ -112,33 +104,18 @@ An internal error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine is used in combination with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>. To deregister an operation region handler, the caller must specify the operation region object returned by <b>RegisterOpRegionHandler</b> when it registered the operation region handler.
 
-For more information about operation regions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>. 
-
-
-
+For more information about operation regions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nc-oprghdlr-acpi_op_region_handler">ACPI_OP_REGION_HANDLER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 389f0776-1010-4f3c-b5c5-b8807ff07130
 ms.date: 04/30/2018
 keywords: ["IoSizeofWorkItem function"]
 ms.keywords: IoSizeofWorkItem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, kernel.iosizeofworkitem, wdm/IoSizeofWorkItem
-f1_keywords:
- - "wdm/IoSizeofWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSizeofWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSizeofWorkItem
+ - wdm/IoSizeofWorkItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSizeofWorkItem
 ---
 
 # IoSizeofWorkItem function
@@ -47,39 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure. 
-
+The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
 
 ## -returns
 
-
-
 <b>IoSizeofWorkItem</b> returns the number of bytes necessary to hold an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
-
-
-
 
 ## -remarks
 
-
-
-For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>. 
-
-
-
+For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a>
- 
-
- 
 

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateBlendStateSize"
+ - PFND3D10DDI_CALCPRIVATEBLENDSTATESIZE
+ - d3d10umddi/PFND3D10DDI_CALCPRIVATEBLENDSTATESIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CALCPRIVATEBLENDSTATESIZE callback function
+
 
 ## -description
 
@@ -67,8 +69,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 <b>CalcPrivateBlendStateSize</b> returns the size of the memory region that the driver requires for creating a blend state.
 
 ## -remarks
-
-
 
 ## -see-also
 

@@ -6,10 +6,8 @@ old-location: pos\msrdataencryption.htm
 tech.root: pos
 ms.assetid: 3e587242-2d7e-4b1f-8fcd-e0acada91524
 ms.date: 02/23/2018
-keywords: ["_MsrDataEncryption enumeration"]
+keywords: ["MsrDataEncryption enumeration"]
 ms.keywords: MsrDataEncryption, MsrDataEncryption enumeration, MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption_ExtendedBase, MsrDataEncryption_None, _MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pointofservicedriverinterface/MsrDataEncryption_None, pos.msrdataencryption
-f1_keywords:
- - "pointofservicedriverinterface/MsrDataEncryption"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- MsrDataEncryption
-product:
-- Windows
 targetos: Windows
 req.typenames: MsrDataEncryption
+f1_keywords:
+ - _MsrDataEncryption
+ - pointofservicedriverinterface/_MsrDataEncryption
+ - MsrDataEncryption
+ - pointofservicedriverinterface/MsrDataEncryption
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - MsrDataEncryption
 ---
 
 # _MsrDataEncryption enumeration
@@ -47,29 +48,21 @@ req.typenames: MsrDataEncryption
 
 ## -description
 
-
 This enumeration defines the kind of encryption algorithm supported by the magnetic stripe reader (MSR).
 
-
 ## -enum-fields
-
-
-
 
 ### -field MsrDataEncryption_None
 
 Indicates no encryption algorithm.
 
-
 ### -field MsrDataEncryption_3DEA_DUKPT
 
 The Triple Data Encryption Standard (DES) Derived Unique Key Per Transaction (DUKPT) encryption algorithm.
 
-
 ### -field MsrDataEncryption_AES
 
 The Advanced Encryption Standard (AES).
-
 
 ### -field MsrDataEncryption_ExtendedBase
 

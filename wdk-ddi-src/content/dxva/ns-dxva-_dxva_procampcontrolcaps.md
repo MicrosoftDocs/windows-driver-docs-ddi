@@ -6,10 +6,8 @@ old-location: display\dxva_procampcontrolcaps.htm
 tech.root: display
 ms.assetid: 93de54dc-8826-4b1c-acf7-1861f337318a
 ms.date: 05/10/2018
-keywords: ["_DXVA_ProcAmpControlCaps structure"]
+keywords: ["DXVA_ProcAmpControlCaps structure"]
 ms.keywords: "*LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], LPDXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], _DXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, dxva/DXVA_ProcAmpControlCaps, dxva/LPDXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml"
-f1_keywords:
- - "dxva/DXVA_ProcAmpControlCaps"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_ProcAmpControlCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
+f1_keywords:
+ - _DXVA_ProcAmpControlCaps
+ - dxva/_DXVA_ProcAmpControlCaps
+ - LPDXVA_ProcAmpControlCaps
+ - dxva/LPDXVA_ProcAmpControlCaps
+ - DXVA_ProcAmpControlCaps
+ - dxva/DXVA_ProcAmpControlCaps
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_ProcAmpControlCaps
 ---
 
 # _DXVA_ProcAmpControlCaps structure
@@ -47,9 +50,7 @@ req.typenames: DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
 
 ## -description
 
-
 The DXVA_ProcAmpControlCaps structure identifies the ProcAmp operations that the hardware supports.
-
 
 ## -struct-fields
 
@@ -64,7 +65,6 @@ Indicates the memory pool from which the ProcAmp control source surfaces should 
 ### -field d3dOutputFormat
 
 Indicates the Direct3D surface format of the output frames. Usually the ProcAmp device outputs frames in a surface format that matches the input surface format. This member ensures that the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VMR</a> or other video renderer is able to supply the correct format for the output frame surfaces to the ProcAmp control hardware. If the <b>DXVA_VideoProcess_YUV2RGB</b> flag is returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_videoprocesscaps">DXVA_VideoProcessCaps</a> structure, the VMR assumes that valid output formats are specified by this member as well as the RGB32 format.
-
 
 ### -field ProcAmpControlProps
 
@@ -95,7 +95,4 @@ Identifies the operations that can be performed by the ProcAmp control hardware 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_procampcontrolprop">DXVA_ProcAmpControlProp</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_videoprocesscaps">DXVA_VideoProcessCaps</a>
- 
-
- 
 

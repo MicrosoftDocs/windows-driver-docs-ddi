@@ -8,8 +8,6 @@ ms.assetid: 4E810EAD-3864-44C1-9845-60DAB288BB48
 ms.date: 05/08/2018
 keywords: ["IKeywordDetectorOemAdapter::ComputeAndAddUserModelData"]
 ms.keywords: ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter.ComputeAndAddUserModelData, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
-f1_keywords:
- - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.ComputeAndAddUserModelData"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- KeywordDetectorOemAdapter.h
-api_name:
-- IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
+ - keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - KeywordDetectorOemAdapter.h
+api_name:
+ - IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
 ---
 
 # IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
@@ -47,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>ComputeAndAddUserModelData</b> method is used by the training user experience to compute the user-specific information relative to the user-independent keyword. The DLL updates the <i>ModelData</i> parameter with the results. 
-
+The <b>ComputeAndAddUserModelData</b> method is used by the training user experience to compute the user-specific information relative to the user-independent keyword. The DLL updates the <i>ModelData</i> parameter with the results.
 
 ## -parameters
 
+### -param ModelData 
 
-
-
-### -param ModelData [in]
-
+[in]
 A pointer to the <b>IStream</b> object bound to model data. It is modified by this call.
 
+### -param KeywordSelector 
 
-### -param KeywordSelector [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003">KEYWORDSELECTOR</a> struct that uniquely identifies this model.
 
+### -param KeywordEndBytePos 
 
-### -param KeywordEndBytePos [in]
-
+[in]
 Indicates the end of the keyword in the UserRecording.
 
+### -param UserRecordings 
 
-### -param UserRecordings [in]
-
+[in]
 A pointer to an array of pointers to the previously verified user recordings of the keyword.
 
+### -param NumUserRecordings 
 
-### -param NumUserRecordings [in]
-
+[in]
 The number of recordings.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -137,22 +129,12 @@ The processing was unable to complete.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter">IKeywordDetectorOemAdapter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003">KEYWORDSELECTOR</a>
- 
-
- 
 

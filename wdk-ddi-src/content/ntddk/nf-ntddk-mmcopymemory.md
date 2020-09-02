@@ -8,8 +8,6 @@ ms.assetid: 2B5492CD-B24D-44B5-BDAE-0B43A1AF1FCA
 ms.date: 04/30/2018
 keywords: ["MmCopyMemory function"]
 ms.keywords: MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory
-f1_keywords:
- - "ntddk/MmCopyMemory"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- MmCopyMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmCopyMemory
+ - ntddk/MmCopyMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - MmCopyMemory
 ---
 
 # MmCopyMemory function
@@ -48,32 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmCopyMemory</b> routine copies the specified range of virtual or physical memory into the caller-supplied buffer.
-
 
 ## -parameters
 
+### -param TargetAddress 
 
-
-
-### -param TargetAddress [in]
-
+[in]
 A pointer to a caller-supplied buffer. This buffer must be in nonpageable  memory.
 
+### -param SourceAddress 
 
-### -param SourceAddress [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a> structure, passed by value, that contains either the virtual address or the physical address of the data to be copied to the buffer pointed to by <i>TargetAddress</i>.
 
+### -param NumberOfBytes 
 
-### -param NumberOfBytes [in]
-
+[in]
 The number of bytes to copy from <i>SourceAddress</i> to <i>TargetAddress</i>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Flags that indicate whether <i>SourceAddress</i> is a virtual address or a physical address. The following flag bits are defined for this parameter.
 
 <table>
@@ -94,24 +89,16 @@ Flags that indicate whether <i>SourceAddress</i> is a virtual address or a physi
 
 These two flag bits are mutually exclusive. The caller must set one or the other, but not both.
 
+### -param NumberOfBytesTransferred 
 
-### -param NumberOfBytesTransferred [out]
-
+[out]
 A pointer to a location to which the routine writes the number of bytes successfully copied from the <i>SourceAddress</i> location to the buffer at <i>TargetAddress</i>.
-
 
 ## -returns
 
-
-
 <b>MmCopyMemory</b> returns STATUS_SUCCESS if the entire range has been copied successfully. Otherwise, an error status is returned and the caller must inspect the output value pointed to by the <i>NumberOfBytesTransferred</i> parameter to determine how many bytes were actually copied.
 
-
-
-
 ## -remarks
-
-
 
 Kernel-mode drivers can call this routine to safely access arbitrary physical or virtual addresses.
 
@@ -121,20 +108,11 @@ If the MM_COPY_MEMORY_VIRTUAL flag is set, <i>SourceAddress</i> can point to eit
 
 If memory at the virtual address specified by <i>SourceAddress</i> is not resident, <b>MmCopyMemory</b> will try to make it resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: c37095d2-fbf5-49fa-a6c8-b4776bf530af
 ms.date: 04/04/2018
 keywords: ["IWDTFSystemAction2::PowerTracingStartByFile"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],PowerTracingStartByFile method, IWDTFSystemAction2.PowerTracingStartByFile, IWDTFSystemAction2::PowerTracingStartByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingStartByFile, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingStartByFile, PowerTracingStartByFile, PowerTracingStartByFile method [Windows Device Testing Framework], PowerTracingStartByFile method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_powertracingstartbyfile, wdtfsystemaction/IWDTFSystemAction2::PowerTracingStartByFile
-f1_keywords:
- - "wdtfsystemaction/IWDTFSystemAction2.PowerTracingStartByFile"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFSystemAction.Interop.dll
-api_name:
-- IWDTFSystemAction2.PowerTracingStartByFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSystemAction2::PowerTracingStartByFile
+ - wdtfsystemaction/IWDTFSystemAction2::PowerTracingStartByFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFSystemAction.Interop.dll
+api_name:
+ - IWDTFSystemAction2.PowerTracingStartByFile
 ---
 
 # IWDTFSystemAction2::PowerTracingStartByFile
@@ -47,38 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Starts a trace session for power state transitions and saves the trace message file (.etl) using the specified path. This method is available starting with Windows 8.
-
-
 
 ## -parameters
 
+### -param EventFilePath 
 
-
-
-### -param EventFilePath [in]
-
+[in]
 Specifies the location to store the trace message (.etl)
     log file.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
- 
-
- 
 

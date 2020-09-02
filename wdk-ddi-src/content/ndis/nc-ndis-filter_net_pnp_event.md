@@ -8,8 +8,6 @@ ms.assetid: 5c52b2d2-3fba-4d28-8172-7b6854386061
 ms.date: 05/02/2018
 keywords: ["FILTER_NET_PNP_EVENT callback function"]
 ms.keywords: FILTER_NET_PNP_EVENT, FILTER_NET_PNP_EVENT callback, FilterNetPnPEvent, FilterNetPnPEvent callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4d98cb8b-3f25-4e2c-abca-ac9c714f4a1a.xml, ndis/FilterNetPnPEvent, netvista.filternetpnpevent
-f1_keywords:
- - "ndis/FilterNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterNetPnPEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_NET_PNP_EVENT
+ - ndis/FILTER_NET_PNP_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterNetPnPEvent
 ---
 
 # FILTER_NET_PNP_EVENT callback function
 
 
 ## -description
-
 
 NDIS calls a filter driver's 
   <i>FilterNetPnPEvent</i> function to notify the driver of network Plug and Play (PnP)
@@ -56,24 +54,14 @@ NDIS calls a filter driver's
 
 ## -parameters
 
+### -param FilterModuleContext 
 
-
-
-### -param FilterModuleContext [in]
-
+[in]
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ### -param NetPnPEventNotification
-
-
-
-
-
-
-
 
 #### - NetPnPEvent [in]
 
@@ -82,10 +70,7 @@ A pointer to a
      NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the PnP event or Power Management event
      being indicated to the filter driver.
 
-
 ## -returns
-
-
 
 <i>FilterNetPnPEvent</i> can return either of the following:
 
@@ -124,12 +109,7 @@ The return value is significant only when the propagated event is a
      <b>NetEventQueryRemove</b> event. For all other propagated events, the return
      value is always NDIS_STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 <i>FilterNetPnPEvent</i> is an optional function. If a filter driver does not handle
     network PnP events, it can set the entry point for this function to <b>NULL</b> when it calls the 
@@ -195,15 +175,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_NET_PNP_EVENT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_NET_PNP_EVENT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -226,7 +200,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
- 
-
- 
 

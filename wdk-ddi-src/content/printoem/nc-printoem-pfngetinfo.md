@@ -8,8 +8,6 @@ ms.assetid: 2c0d350d-dcdf-4da7-8cca-7f36d4ca622e
 ms.date: 04/20/2018
 keywords: ["PFNGETINFO callback function"]
 ms.keywords: PFNGETINFO, UNIFONTOBJ_GetInfo, UNIFONTOBJ_GetInfo routine [Print Devices], print.unifontobj_getinfo, print_unidrv-pscript_rendering_7dc55246-beaa-4058-87a3-5438db3368c4.xml, printoem/UNIFONTOBJ_GetInfo
-f1_keywords:
- - "printoem/UNIFONTOBJ_GetInfo"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- printoem.h
-api_name:
-- UNIFONTOBJ_GetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNGETINFO
+ - printoem/PFNGETINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - printoem.h
+api_name:
+ - UNIFONTOBJ_GetInfo
 ---
 
 # PFNGETINFO callback function
@@ -47,35 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>UNIFONTOBJ_GetInfo</b> callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
-
 
 ## -parameters
 
-
-
-
 ### -param 
-
 
 ### -param Arg1
 
-
 ### -param Arg2
-
 
 ### -param Arg3
 
-
 ### -param Arg4
-
-
-
-
-
-
-
 
 #### - dwDataSize
 
@@ -183,19 +166,11 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by <i>dwInfoID</i>. Supplied by the caller.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>UNIFONTOBJ_GetInfo</b> callback function allows a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/rendering-plug-ins">rendering plug-in</a> to call back into Unidrv to obtain font or glyph information from GDI, needed for handling <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">customized font management</a> operations.
 
@@ -284,6 +259,4 @@ The current value for one or more of Unidrv's <a href="https://docs.microsoft.co
  
 
 If the buffer described by <i>pData</i> and <i>dwDataSize</i> is too small to receive the structure indicated by <i>dwInfoID</i>, the function loads the required buffer size into the location pointed by <i>pcbNeeded</i> and returns <b>FALSE</b>.
-
-
 

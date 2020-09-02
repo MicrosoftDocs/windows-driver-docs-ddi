@@ -6,10 +6,8 @@ old-location: storage\storage_hw_firmware_download.htm
 tech.root: storage
 ms.assetid: EFF4688D-E5B2-4F4C-837D-D536F9244AB6
 ms.date: 03/29/2018
-keywords: ["_STORAGE_HW_FIRMWARE_DOWNLOAD structure"]
+keywords: ["STORAGE_HW_FIRMWARE_DOWNLOAD structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Storage Devices], _STORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/PSTORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD, storage.storage_hw_firmware_download"
-f1_keywords:
- - "ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_HW_FIRMWARE_DOWNLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
+f1_keywords:
+ - _STORAGE_HW_FIRMWARE_DOWNLOAD
+ - ntddstor/_STORAGE_HW_FIRMWARE_DOWNLOAD
+ - PSTORAGE_HW_FIRMWARE_DOWNLOAD
+ - ntddstor/PSTORAGE_HW_FIRMWARE_DOWNLOAD
+ - STORAGE_HW_FIRMWARE_DOWNLOAD
+ - ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_HW_FIRMWARE_DOWNLOAD
 ---
 
 # _STORAGE_HW_FIRMWARE_DOWNLOAD structure
@@ -47,24 +50,17 @@ req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 
 ## -description
 
-
 This structure contains a firmware image payload to be downloaded to the target.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_DOWNLOAD).
 
-
 ### -field Size
 
 The size of this structure and the download image buffer.
-
 
 ### -field Flags
 
@@ -84,28 +80,22 @@ Flags associated with this download. The following are valid flags that this mem
 <td>Indicates that the current firmware image segment is the last one. </td>
 </tr>
 </table>
- 
-
 
 ### -field Slot
 
 The slot number that the firmware image will be downloaded to.
 
-
 ### -field Reserved
 
 Reserved for future use.
-
 
 ### -field Offset
 
 The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info">STORAGE_HW_FIRMWARE_INFO</a>.
 
-
 ### -field BufferSize
 
 The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info">STORAGE_HW_FIRMWARE_INFO</a>.
-
 
 ### -field ImageBuffer
 

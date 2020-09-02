@@ -6,10 +6,8 @@ old-location: storage\cdrom_toc_cd_text_data_block.htm
 tech.root: storage
 ms.assetid: 119386fe-1eff-4dac-b9d5-54baefcf6e12
 ms.date: 03/29/2018
-keywords: ["_CDROM_TOC_CD_TEXT_DATA_BLOCK structure"]
+keywords: ["CDROM_TOC_CD_TEXT_DATA_BLOCK structure"]
 ms.keywords: "*PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA_BLOCK, PCDROM_TOC_CD_TEXT_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK, storage.cdrom_toc_cd_text_data_block, structs-CD-ROM_6bdb8d21-6388-4505-b9a1-1b3e1e594e02.xml"
-f1_keywords:
- - "ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdrm.h
-api_name:
-- CDROM_TOC_CD_TEXT_DATA_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_TOC_CD_TEXT_DATA_BLOCK, *PCDROM_TOC_CD_TEXT_DATA_BLOCK
+f1_keywords:
+ - _CDROM_TOC_CD_TEXT_DATA_BLOCK
+ - ntddcdrm/_CDROM_TOC_CD_TEXT_DATA_BLOCK
+ - PCDROM_TOC_CD_TEXT_DATA_BLOCK
+ - ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK
+ - CDROM_TOC_CD_TEXT_DATA_BLOCK
+ - ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdrm.h
+api_name:
+ - CDROM_TOC_CD_TEXT_DATA_BLOCK
 ---
 
 # _CDROM_TOC_CD_TEXT_DATA_BLOCK structure
+
 
 ## -description
 
@@ -87,7 +91,7 @@ See specification *T10/1363-D*, by National Committee for Information Technology
 
 ### -field BlockNumber
 
-See specification *T10/1363-D*, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member.  
+See specification *T10/1363-D*, by National Committee for Information Technology Standards (NCITS) For information about the permissible values for this member.
 
 ### -field Unicode
 
@@ -112,3 +116,4 @@ Contains the cyclic redundancy check.
 [CDROM_TOC_CD_TEXT_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_cd_text_data)
 
 [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
+

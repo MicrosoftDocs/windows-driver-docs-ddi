@@ -8,8 +8,6 @@ ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe::SetPipePolicy"]
 ms.keywords: IWDFUsbTargetPipe interface,SetPipePolicy method, IWDFUsbTargetPipe.SetPipePolicy, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy, SetPipePolicy method, SetPipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
-f1_keywords:
- - "wudfusb/IWDFUsbTargetPipe.SetPipePolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetPipe.SetPipePolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetPipe::SetPipePolicy
+ - wudfusb/IWDFUsbTargetPipe::SetPipePolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetPipe.SetPipePolicy
 ---
 
 # IWDFUsbTargetPipe::SetPipePolicy
@@ -47,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPipePolicy</b> method sets the WinUsb pipe policy.
 
-
 ## -parameters
 
+### -param PolicyType 
 
-
-
-### -param PolicyType [in]
-
+[in]
 The type of WinUsb pipe policy that the UMDF driver sets.
 
+### -param ValueLength 
 
-### -param ValueLength [in]
-
+[in]
 The size, in bytes, of the buffer that <b>SetPipePolicy</b> supplies for <i>Value</i>.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 A pointer to the buffer that contains the WinUsb pipe policy.
 
-
 ## -returns
-
-
 
 <b>SetPipePolicy</b> returns one of the following values: 
 
@@ -120,14 +112,8 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Pipe policy controls the behavior of the USB pipe (for example, time-outs, handling short packets, and so on).
 
@@ -199,12 +185,7 @@ CMyDevice::ConfigureUsbIoTargets(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
@@ -215,7 +196,4 @@ CMyDevice::ConfigureUsbIoTargets(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: A6099DCB-7F10-4BDB-B463-422C2B7A2B3F
 ms.date: 05/02/2018
 keywords: ["NDK_FN_GET_CONNECTION_DATA callback function"]
 ms.keywords: NDK_FN_GET_CONNECTION_DATA, NDK_FN_GET_CONNECTION_DATA callback, NdkGetConnectionData, NdkGetConnectionData callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetConnectionData, netvista.ndk_fn_get_connection_data
-f1_keywords:
- - "ndkpi/NdkGetConnectionData"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkGetConnectionData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_GET_CONNECTION_DATA
+ - ndkpi/NDK_FN_GET_CONNECTION_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkGetConnectionData
 ---
 
 # NDK_FN_GET_CONNECTION_DATA callback function
@@ -47,36 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkGetConnectionData</i>  (<i>NDK_FN_GET_CONNECTION_DATA</i>) function gets read limit values and the private data sent by the peer.
-
 
 ## -parameters
 
+### -param pNdkConnector 
 
-
-
-### -param pNdkConnector [in]
-
+[in]
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
+### -param pInboundReadLimit 
 
-### -param pInboundReadLimit [out, optional]
-
+[out, optional]
 The maximum number of incoming in-progress read operations to allow on the QP is returned in this location.
 
+### -param pOutboundReadLimit 
 
-### -param pOutboundReadLimit [out, optional]
-
+[out, optional]
 The maximum number of outgoing in-progress read operations to allow on the QP is returned in this location.
-
 
 ### -param pPrivateData
 
 A pointer to private data that is returned.
-
-
-
 
 ### -param pPrivateDataLength
 
@@ -86,8 +77,6 @@ The length, in bytes, of the private data that is provided in the <i>pPrivateDat
 <div> </div>
 
 ## -returns
-
-
 
 The <i>NdkGetConnectionData</i> function returns one of the following NTSTATUS codes.
 
@@ -130,14 +119,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>NdkGetConnectionData</i>   function gets the private data sent by the peer with connect, accept, or reject requests and the effective inbound and outbound read limit values. These values are derived from the local and remote peers' requested values and the provider's maximum limits.
 
@@ -156,23 +139,13 @@ If <i>pPrivateData</i> is NULL and <i>*pPrivateDataLength</i> is greater than ze
 
 If <i>pPrivateData</i> is not NULL, the provider must copy the private data to the buffer at  <i>pPrivateData</i> up to the smaller of <i>*pPrivateDataLength</i> or <i>RDS</i> in  bytes. 
 
-If <i>*pPrivateDataLength</i> is greater than or equal to <i>RDS</i>, the provider must return STATUS_SUCCESS. Otherwise, the provider must return STATUS_BUFFER_TOO_SMALL. In both cases, the provider must store the <i>RDS</i> in <i>*pPrivateDataLength</i> before returning.  
-
-
-
-
+If <i>*pPrivateDataLength</i> is greater than or equal to <i>RDS</i>, the provider must return STATUS_SUCCESS. Otherwise, the provider must return STATUS_BUFFER_TOO_SMALL. In both cases, the provider must store the <i>RDS</i> in <i>*pPrivateDataLength</i> before returning.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a>
- 
-
- 
 

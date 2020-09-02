@@ -6,10 +6,8 @@ old-location: ifsk\fsrtl_per_file_context.htm
 tech.root: ifsk
 ms.assetid: d20668f0-b076-4edd-bf21-98841cbbdc74
 ms.date: 04/16/2018
-keywords: ["_FSRTL_PER_FILE_CONTEXT structure"]
+keywords: ["FSRTL_PER_FILE_CONTEXT structure"]
 ms.keywords: "*PFSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, ifsk.fsrtl_per_file_context, ntifs/FSRTL_PER_FILE_CONTEXT, ntifs/PFSRTL_PER_FILE_CONTEXT"
-f1_keywords:
- - "ntifs/FSRTL_PER_FILE_CONTEXT"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FSRTL_PER_FILE_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT
+f1_keywords:
+ - _FSRTL_PER_FILE_CONTEXT
+ - ntifs/_FSRTL_PER_FILE_CONTEXT
+ - PFSRTL_PER_FILE_CONTEXT
+ - ntifs/PFSRTL_PER_FILE_CONTEXT
+ - FSRTL_PER_FILE_CONTEXT
+ - ntifs/FSRTL_PER_FILE_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FSRTL_PER_FILE_CONTEXT
 ---
 
 # _FSRTL_PER_FILE_CONTEXT structure
@@ -47,38 +50,27 @@ req.typenames: FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT
 
 ## -description
 
-
 A legacy file system filter driver can use a <b>FSRTL_PER_FILE_CONTEXT</b> structure to associate driver-specific context information to an open file.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Links
 
-A link for this structure in the list of all per-file context structures that are associated with the same file. <a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a> inserts this member into the list of all per-file context structures for a file. 
-
+A link for this structure in the list of all per-file context structures that are associated with the same file. <a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a> inserts this member into the list of all per-file context structures for a file.
 
 ### -field OwnerId
 
-A pointer to a filter-driver-allocated buffer that uniquely identifies the owner of the per-file context structure. The format of this variable is filter-driver-specific.  Filter drivers must set this member to a non-<b>NULL</b> value. 
-
+A pointer to a filter-driver-allocated buffer that uniquely identifies the owner of the per-file context structure. The format of this variable is filter-driver-specific.  Filter drivers must set this member to a non-<b>NULL</b> value.
 
 ### -field InstanceId
 
 A pointer to a filter-driver-allocated buffer that can be used to distinguish among the per-file context structures that are created by the same filter driver. The format of this variable is filter-driver-specific. Filter drivers can set this member to <b>NULL</b>.
 
-
 ### -field FreeCallback
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/pfree-function">callback routine</a> that frees the per-file context structure. Filter drivers must set this member to a non-<b>NULL</b> value.
 
-
 ## -remarks
-
-
 
 In order to associate context information with a file, a legacy filter driver first allocates a <b>FSRTL_PER_FILE_CONTEXT</b> structure and initializes it using <a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a>. The driver then uses <b>FsRtlInsertPerFileContext</b> to associate that <b>FSRTL_PER_FILE_CONTEXT</b> object with the file. When the system tears down the file context object for a file, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547290">FsRtlTeardownPerFileContexts</a> which calls the <i>FreeCallback</i> routine that is specified in the <b>FSRTL_PER_FILE_CONTEXT</b> object. That callback must free the driver-specific context object.
 
@@ -132,13 +124,7 @@ Filter writers should use an <i>InstanceID</i> value that is both meaningful and
 
 For more information about how to use and create context objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a>
 
@@ -161,7 +147,4 @@ For more information about how to use and create context objects, see <a href="h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>
- 
-
- 
 

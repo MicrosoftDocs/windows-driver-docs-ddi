@@ -6,10 +6,8 @@ old-location: kernel\io_resource_requirements_list.htm
 tech.root: kernel
 ms.assetid: e581fd34-4564-4882-b91d-94801e579bde
 ms.date: 04/30/2018
-keywords: ["_IO_RESOURCE_REQUIREMENTS_LIST structure"]
+keywords: ["IO_RESOURCE_REQUIREMENTS_LIST structure"]
 ms.keywords: "*PIO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_REQUIREMENTS_LIST, kernel.io_resource_requirements_list, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, wdm/IO_RESOURCE_REQUIREMENTS_LIST, wdm/PIO_RESOURCE_REQUIREMENTS_LIST"
-f1_keywords:
- - "miniport/IO_RESOURCE_REQUIREMENTS_LIST"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IO_RESOURCE_REQUIREMENTS_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_RESOURCE_REQUIREMENTS_LIST, *PIO_RESOURCE_REQUIREMENTS_LIST
+f1_keywords:
+ - _IO_RESOURCE_REQUIREMENTS_LIST
+ - miniport/_IO_RESOURCE_REQUIREMENTS_LIST
+ - PIO_RESOURCE_REQUIREMENTS_LIST
+ - miniport/PIO_RESOURCE_REQUIREMENTS_LIST
+ - IO_RESOURCE_REQUIREMENTS_LIST
+ - miniport/IO_RESOURCE_REQUIREMENTS_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IO_RESOURCE_REQUIREMENTS_LIST
 ---
 
 # _IO_RESOURCE_REQUIREMENTS_LIST structure
@@ -47,54 +50,39 @@ req.typenames: IO_RESOURCE_REQUIREMENTS_LIST, *PIO_RESOURCE_REQUIREMENTS_LIST
 
 ## -description
 
-
 The <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ListSize
 
 The total number of bytes that constitute the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure, its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> array, and the latter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array.
 
-
 ### -field InterfaceType
 
 Specifies an interface type. This must be one of the types defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
-
 
 ### -field BusNumber
 
 A system-assigned, zero-based bus number. (Not used by WDM drivers.)
 
-
 ### -field SlotNumber
 
 A system slot number. (Not used by WDM drivers.)
 
-
 ### -field Reserved
 
 Not used.
-                    
-
 
 ### -field AlternativeLists
 
 The number of alternative lists (or configurations) of hardware resources that are described by this <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure. The <b>List</b> member is the header for the first alternative list.
 
-
 ### -field List
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> structure that serves as the header for the first alternative list of hardware resources. If the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array that it contains. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a> IRPs to describe one or more alternative configurations of <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">hardware resources</a>.
 
@@ -165,12 +153,7 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
@@ -185,7 +168,4 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
- 
-
- 
 

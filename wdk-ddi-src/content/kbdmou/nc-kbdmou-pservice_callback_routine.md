@@ -8,8 +8,6 @@ ms.assetid: 78ae2a98-bebd-43ee-b016-2f619c3135ca
 ms.date: 04/30/2018
 keywords: ["PSERVICE_CALLBACK_ROUTINE callback function"]
 ms.keywords: ClassServiceCallback, ClassServiceCallback callback function [Human Input Devices], PSERVICE_CALLBACK_ROUTINE, PSERVICE_CALLBACK_ROUTINE callback, hid.kbdclass_class_service_callback_routine, kbdmou/ClassServiceCallback, kref_c3fa9125-0bc4-4936-b4e5-eb4e5eee23e2.xml
-f1_keywords:
- - "kbdmou/ClassServiceCallback"
 req.header: kbdmou.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- kbdmou.h
-api_name:
-- ClassServiceCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PSERVICE_CALLBACK_ROUTINE
+ - kbdmou/PSERVICE_CALLBACK_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - kbdmou.h
+api_name:
+ - ClassServiceCallback
 ---
 
 # PSERVICE_CALLBACK_ROUTINE callback function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
-A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue. 
-
+A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue.
 
 ## -parameters
 
+### -param NormalContext 
 
-
-
-### -param NormalContext [in]
-
+[in]
 Pointer to the class device object.
 
+### -param SystemArgument1 
 
-### -param SystemArgument1 [in]
-
+[in]
 Pointer to the first keyboard input data packet in the input data buffer of the port device.
 
+### -param SystemArgument2 
 
-### -param SystemArgument2 [in]
-
+[in]
 Pointer to the keyboard input data packet that immediately follows the last data packet in the input data buffer of the port device.
 
+### -param SystemArgument3 
 
-### -param SystemArgument3 [in, out]
-
+[in, out]
 Pointer to the number of keyboard input data packets that are transferred by the routine.
 
-
 ## -remarks
-
-
 
 <b>Keyboard Class Service Callback</b>
 
@@ -146,13 +138,7 @@ VOID MouseClassServiceCallback(
 
 <b>MouseClassServiceCallback</b> can be supplemented by a filter service callback that is provided by an upper-level mouse filter driver. A filter service callback can filter the mouse data that is transferred to the class data queue. For example, the filter service callback can delete, transform, or insert data. <a href="https://go.microsoft.com/fwlink/p/?linkid=256135">Moufiltr</a>, the sample filter driver in the WDK, includes <b>MouFilter_ServiceCallback</b>, which is a template for a filter service callback.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a>
 
@@ -163,7 +149,4 @@ VOID MouseClassServiceCallback(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_input_data">MOUSE_INPUT_DATA</a>
- 
-
- 
 

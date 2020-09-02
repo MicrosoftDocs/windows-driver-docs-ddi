@@ -6,10 +6,8 @@ old-location: kernel\bdcb_callback_type.htm
 tech.root: kernel
 ms.assetid: 22698DF4-7B8C-40B8-9B07-EEDCC03D0D0F
 ms.date: 04/30/2018
-keywords: ["_BDCB_CALLBACK_TYPE enumeration"]
+keywords: ["BDCB_CALLBACK_TYPE enumeration"]
 ms.keywords: "*PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate"
-f1_keywords:
- - "ntddk/BDCB_CALLBACK_TYPE"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- BDCB_CALLBACK_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: BDCB_CALLBACK_TYPE, *PBDCB_CALLBACK_TYPE
+f1_keywords:
+ - _BDCB_CALLBACK_TYPE
+ - ntddk/_BDCB_CALLBACK_TYPE
+ - PBDCB_CALLBACK_TYPE
+ - ntddk/PBDCB_CALLBACK_TYPE
+ - BDCB_CALLBACK_TYPE
+ - ntddk/BDCB_CALLBACK_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - BDCB_CALLBACK_TYPE
 ---
 
 # _BDCB_CALLBACK_TYPE enumeration
@@ -47,28 +50,19 @@ req.typenames: BDCB_CALLBACK_TYPE, *PBDCB_CALLBACK_TYPE
 
 ## -description
 
-
 The BDCB_CALLBACK_TYPE enumeration specifies  whether the callback being passed to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine is a status update or a boot-start driver initialization notification.
 
-
 ## -enum-fields
-
-
-
 
 ### -field BdCbStatusUpdate
 
 A status update provided by the system to a boot-start driver.
 
-
 ### -field BdCbInitializeImage
 
 A boot image is about to be initialized. During this callback, boot-start drivers may classify a boot image as a known good image or a known bad image.
 
-
 ## -remarks
-
-
 
 The two callback types have unique context structures that provide additional information specific to the callback.
 
@@ -102,15 +96,8 @@ BdCbInitializeImage
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification">BDCB_CLASSIFICATION</a>
 
@@ -121,3 +108,4 @@ BdCbInitializeImage
 
 
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
+

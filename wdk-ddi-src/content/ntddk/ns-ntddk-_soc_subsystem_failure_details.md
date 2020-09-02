@@ -6,10 +6,8 @@ old-location: whea\soc_subsystem_failure_details.htm
 tech.root: whea
 ms.assetid: 416F9A0C-0A86-4FAA-9052-5D37D29C464D
 ms.date: 02/20/2018
-keywords: ["_SOC_SUBSYSTEM_FAILURE_DETAILS structure"]
+keywords: ["SOC_SUBSYSTEM_FAILURE_DETAILS structure"]
 ms.keywords: "*PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS structure pointer [WHEA Drivers and Applications], SOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS structure [WHEA Drivers and Applications], _SOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS, whea.soc_subsystem_failure_details"
-f1_keywords:
- - "ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- SOC_SUBSYSTEM_FAILURE_DETAILS
-product:
-- Windows
 targetos: Windows
 req.typenames: SOC_SUBSYSTEM_FAILURE_DETAILS, *PSOC_SUBSYSTEM_FAILURE_DETAILS
+f1_keywords:
+ - _SOC_SUBSYSTEM_FAILURE_DETAILS
+ - ntddk/_SOC_SUBSYSTEM_FAILURE_DETAILS
+ - PSOC_SUBSYSTEM_FAILURE_DETAILS
+ - ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS
+ - SOC_SUBSYSTEM_FAILURE_DETAILS
+ - ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - SOC_SUBSYSTEM_FAILURE_DETAILS
 ---
 
 # _SOC_SUBSYSTEM_FAILURE_DETAILS structure
 
 
 ## -description
-
 
 The   <b>SOC_SUBSYSTEM_FAILURE_DETAILS</b> structure holds information related to a System on a Chip (SoC) bug code.
 
@@ -63,28 +65,21 @@ These bug codes store information in a
 
 ## -struct-fields
 
-
-
-
 ### -field SubsysType
 
-A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_soc_subsystem_type">SOC_SYBSYSTEM_TYPE</a> enumeration or a vendor-defined subsystem type. Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors. 
-
+A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_soc_subsystem_type">SOC_SYBSYSTEM_TYPE</a> enumeration or a vendor-defined subsystem type. Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors.
 
 ### -field FirmwareVersion
 
 A vendor-defined SoC firmware version number.
 
-
 ### -field HardwareVersion
 
 A  vendor-defined SoC hardware version number.
 
-
 ### -field UnifiedFailureRegionSize
 
 The size, in bytes, of the <b>UnifiedFailureRegion</b> string including the <b>NULL</b> terminator.
-
 
 ### -field UnifiedFailureRegion
 

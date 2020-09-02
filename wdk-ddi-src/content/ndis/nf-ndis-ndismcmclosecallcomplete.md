@@ -8,8 +8,6 @@ ms.assetid: 24477865-fb89-4078-99cb-1bf24249c7e2
 ms.date: 05/02/2018
 keywords: ["NdisMCmCloseCallComplete macro"]
 ms.keywords: NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, ndis/NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete
-f1_keywords:
- - "ndis/NdisMCmCloseCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmCloseCallComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmCloseCallComplete
+ - ndis/NdisMCmCloseCallComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmCloseCallComplete
 ---
 
 # NdisMCmCloseCallComplete macro
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmCloseCallComplete</b> returns the final status of a client's request, for which the MCM driver
   previously returned NDIS_STATUS_PENDING, to tear down a call.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -79,10 +73,7 @@ Specifies either <b>NULL</b> if the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">
      ProtocolCmCloseCall</a> function.
 
-
 ## -remarks
-
-
 
 If an MCM driver's 
     <i>ProtocolCmCloseCall</i> function returns NDIS_STATUS_PENDING, it must call 
@@ -108,13 +99,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCmCloseCallComplete</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
@@ -141,7 +126,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

@@ -5,43 +5,43 @@ description: A NET_PACKET_LAYOUT structure describes the start of each protocol 
 tech.root: netvista
 ms.assetid: 71300205-2332-4127-8622-86390FE54BBD
 ms.date: 09/27/2019
-keywords: ["_NET_PACKET_LAYOUT structure"]
-f1_keywords:
- - "packet/RegisterOpRegionHandler"
+keywords: ["NET_PACKET_LAYOUT structure"]
 ms.keywords: _NET_PACKET_LAYOUT, NET_PACKET_LAYOUT, *PNET_PACKET_LAYOUT, _NET_PACKET_LAYER2_TYPE, NET_PACKET_LAYER2_TYPE, _NET_PACKET_LAYER3_TYPE, NET_PACKET_LAYER3_TYPE, _NET_PACKET_LAYER4_TYPE, NET_PACKET_LAYER4_TYPE
 req.header: packet.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
-req.alt-api:
-req.alt-loc:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
+req.alt-api: 
+req.alt-loc: 
 req.typenames: NET_PACKET_LAYOUT
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- packet.h
-apiname: 
-- NET_PACKET_LAYOUT
 targetos: Windows
-product:
-- Windows
+f1_keywords:
+ - _NET_PACKET_LAYOUT
+ - packet/_NET_PACKET_LAYOUT
+ - NET_PACKET_LAYOUT
+ - packet/NET_PACKET_LAYOUT
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - packet.h
+apiname:
+ - NET_PACKET_LAYOUT
 ---
 
 # _NET_PACKET_LAYOUT structure
 
+
 ## -description
-
-
 
 A **NET_PACKET_LAYOUT** structure describes the start of each protocol header in a [**NET_PACKET**](ns-packet-_net_packet.md).
 
@@ -113,3 +113,4 @@ Reserved for system use.
 For more info about using this structure, see the **Layout** member of [**NET_PACKET**](ns-packet-_net_packet.md).
 
 ## -see-also
+

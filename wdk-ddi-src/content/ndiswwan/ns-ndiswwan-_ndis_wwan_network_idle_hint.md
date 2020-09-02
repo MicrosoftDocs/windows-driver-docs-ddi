@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_network_idle_hint.htm
 tech.root: netvista
 ms.assetid: 81CA12B7-A7AD-494A-B79A-3EF4A50CB848
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_NETWORK_IDLE_HINT structure"]
+keywords: ["NDIS_WWAN_NETWORK_IDLE_HINT structure"]
 ms.keywords: "*PNDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_NETWORK_IDLE_HINT, PNDIS_WWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/PNDIS_WWAN_NETWORK_IDLE_HINT, netvista.ndis_wwan_network_idle_hint"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_NETWORK_IDLE_HINT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_NETWORK_IDLE_HINT, *PNDIS_WWAN_NETWORK_IDLE_HINT
+f1_keywords:
+ - _NDIS_WWAN_NETWORK_IDLE_HINT
+ - ndiswwan/_NDIS_WWAN_NETWORK_IDLE_HINT
+ - PNDIS_WWAN_NETWORK_IDLE_HINT
+ - ndiswwan/PNDIS_WWAN_NETWORK_IDLE_HINT
+ - NDIS_WWAN_NETWORK_IDLE_HINT
+ - ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_NETWORK_IDLE_HINT
 ---
 
 # _NDIS_WWAN_NETWORK_IDLE_HINT structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_NETWORK_IDLE_HINT, *PNDIS_WWAN_NETWORK_IDLE_HINT
 
 ## -description
 
-
 The NDIS_WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interface regarding whether data is expected to be active or idle on the interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -85,18 +83,12 @@ The miniport driver must set the members of
 <td>SIZEOF_NDIS_WWAN_NETWORK_IDLE_HINT_1</td>
 </tr>
 </table>
- 
-
 
 ### -field IdleHint
 
 A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_network_idle_hint">WWAN_NETWORK_IDLE_HINT</a> object that contains the network idle hint.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -107,7 +99,4 @@ A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwa
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_network_idle_hint">WWAN_NETWORK_IDLE_HINT</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: biometric\winbio_sensor_attributes.htm
 tech.root: biometric
 ms.assetid: edfd5b49-f658-46c7-a3f3-221afb35abb7
 ms.date: 02/20/2018
-keywords: ["_WINBIO_SENSOR_ATTRIBUTES structure"]
+keywords: ["WINBIO_SENSOR_ATTRIBUTES structure"]
 ms.keywords: "*PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], _WINBIO_SENSOR_ATTRIBUTES, biometric.winbio_sensor_attributes, biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES"
-f1_keywords:
- - "winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winbio_ioctl.h
-api_name:
-- WINBIO_SENSOR_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES
+f1_keywords:
+ - _WINBIO_SENSOR_ATTRIBUTES
+ - winbio_ioctl/_WINBIO_SENSOR_ATTRIBUTES
+ - PWINBIO_SENSOR_ATTRIBUTES
+ - winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES
+ - WINBIO_SENSOR_ATTRIBUTES
+ - winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winbio_ioctl.h
+api_name:
+ - WINBIO_SENSOR_ATTRIBUTES
 ---
 
 # _WINBIO_SENSOR_ATTRIBUTES structure
@@ -47,19 +50,13 @@ req.typenames: WINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_attributes">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a> structure returns the WINBIO_SENSOR_ATTRIBUTES structure as output.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PayloadSize
 
 A DWORD value that indicates the total size of the payload, including the fixed length structure and any variable data at the end.
-
 
 ### -field WinBioHresult
 
@@ -72,13 +69,11 @@ An HRESULT value that indicates containing status detail of the I/O operation.  
 
 ### -field WinBioVersion
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_version">WINBIO_VERSION</a> that contains a WinBio WBDI version that is supported by the driver. To be compatible with the WinBio service, <b>WinBioVersion</b> must contain the same major version as the current major version of the WinBio service, in addition to a minor version that is less than or equal to the current minor version of the WinBio service. 
-
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_version">WINBIO_VERSION</a> that contains a WinBio WBDI version that is supported by the driver. To be compatible with the WinBio service, <b>WinBioVersion</b> must contain the same major version as the current major version of the WinBio service, in addition to a minor version that is less than or equal to the current minor version of the WinBio service.
 
 ### -field SensorType
 
 A DWORD bitmask of type WINBIO_BIOMETRIC_TYPE that contains biometric data that is collected by the sensor. In Windows 7, only WINBIO_TYPE_FINGERPRINT is supported.
-
 
 ### -field SensorSubType
 
@@ -115,39 +110,27 @@ WINBIO_CAPABILITIES can contain the values in the following table.
 
  A structure of type WINBIO_STRING that contains the name of the device manufacturer.
 
-
 ### -field ModelName
 
  A structure of type WINBIO_STRING that contains the name of the device model.
-
 
 ### -field SerialNumber
 
 A structure of type WINBIO_STRING that contains the serial number of the device, if one exists.
 
-
 ### -field FirmwareVersion
 
  A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_version">WINBIO_VERSION</a> that contains the version of the firmware that is loaded on the device.
-
 
 ### -field SupportedFormatEntries
 
  The number of formats that are supported by the driver and device.  There must be at least one, which is the Windows standard format.
 
-
 ### -field SupportedFormat
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that contains a list of the formats supported by the driver and device. 
-
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that contains a list of the formats supported by the driver and device.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_attributes">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a>
- 
-
- 
 

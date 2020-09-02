@@ -6,10 +6,8 @@ old-location: whea\whea_xpf_mc_bank_descriptor.htm
 tech.root: whea
 ms.assetid: e5360f75-53cf-4025-9a1c-665c098329dd
 ms.date: 02/20/2018
-keywords: ["_WHEA_XPF_MC_BANK_DESCRIPTOR structure"]
+keywords: ["WHEA_XPF_MC_BANK_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR, PWHEA_XPF_MC_BANK_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_MC_BANK_DESCRIPTOR, WHEA_XPF_MC_BANK_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR, ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR, whea.whea_xpf_mc_bank_descriptor, whearef_9f1970bd-6dbf-4104-9525-2018ab2f766e.xml"
-f1_keywords:
- - "ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_XPF_MC_BANK_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR
+f1_keywords:
+ - _WHEA_XPF_MC_BANK_DESCRIPTOR
+ - ntddk/_WHEA_XPF_MC_BANK_DESCRIPTOR
+ - PWHEA_XPF_MC_BANK_DESCRIPTOR
+ - ntddk/PWHEA_XPF_MC_BANK_DESCRIPTOR
+ - WHEA_XPF_MC_BANK_DESCRIPTOR
+ - ntddk/WHEA_XPF_MC_BANK_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_XPF_MC_BANK_DESCRIPTOR
 ---
 
 # _WHEA_XPF_MC_BANK_DESCRIPTOR structure
@@ -47,24 +50,17 @@ req.typenames: WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR
 
 ## -description
 
-
 The WHEA_XPF_MC_BANK_DESCRIPTOR structure describes a bank of machine check registers for an x86 or x64 processor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BankNumber
 
 The processor machine check register bank number.
 
-
 ### -field ClearOnInitialization
 
 A Boolean value that indicates that the status registers for the bank are to be cleared by the operating system during initialization.
-
 
 ### -field StatusDataFormat
 
@@ -89,7 +85,6 @@ Intel64 machine check architecture.
 #### WHEA_XPF_MC_BANK_STATUSFORMAT_AMD64MCA
 
 AMD64 machine check architecture.
-
 
 ### -field Flags
 
@@ -138,52 +133,35 @@ Reserved for system use.
 
 A UCHAR representation of contents of the XPF_MC_BANK_FLAGS union.
 
-
 ### -field ControlMsr
 
 The model-specific register address of the register bank's IA32_MCi_CTL register. For more information about the IA32_MCi_CTL register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
-
 
 ### -field StatusMsr
 
 The model-specific register address of the register bank's IA32_MCi_STATUS register. For more information about the IA32_MCi_STATUS register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
-
 ### -field AddressMsr
 
 The model-specific register address of the register bank's IA32_MCi_ADDR register. For more information about the IA32_MCi_ADDR register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
-
 
 ### -field MiscMsr
 
 The model-specific register address of the register bank's IA32_MCi_MISC register. For more information about the IA32_MCi_MISC register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
-
 ### -field ControlData
 
 The value that the operating system writes to the register bank's control register during initialization.
 
-
 ## -remarks
-
-
 
 An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor">WHEA_XPF_MCE_DESCRIPTOR</a> structures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor">WHEA_XPF_MCE_DESCRIPTOR</a>
- 
-
- 
 

@@ -8,13 +8,13 @@ description:
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: NtosKrnl.exe 
+req.dll: NtosKrnl.exe
 req.header: ntddk.h
 req.idl: 
 req.include-header: 
 req.irql: See Remarks section.
 req.kmdf-ver: 
-req.lib: NtosKrnl.lib 
+req.lib: NtosKrnl.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -27,12 +27,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - KeExpandKernelStackAndCalloutEx
 f1_keywords:
+ - KeExpandKernelStackAndCalloutEx
  - ntddk/KeExpandKernelStackAndCalloutEx
 dev_langs:
  - c++
@@ -48,26 +49,21 @@ The **KeExpandKernelStackAndCalloutEx** routine calls a routine and guarantees t
 
 A function pointer to an [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. **KeExpandKernelStackAndCalloutEx** expands the stack, if necessary, before it calls this routine.
 
-
 ### -param Size
 
 Specifies the number of bytes of stack space to provide for the call to the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. This value must be large enough to accommodate the stack usage of the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine and of any call that this routine might make. The Size value must not exceed MAXIMUM_EXPANSION_SIZE.
-
 
 ### -param Wait
 
 Specifies whether the routine should wait to allocate the required stack space if this space is not immediately available. Set Wait to **TRUE** if the routine can wait for an expanded stack to be allocated. Otherwise, set Wait to **FALSE**. This parameter must be **FALSE** if **KeExpandKernelStackAndCalloutEx** is called at IRQL = DISPATCH_LEVEL.
 
-
 ### -param Context
 
 Reserved. Always set this parameter to NULL.
 
-
 ### -param Parameter
 
 Specifies the parameter value to pass to the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine.
-
 
 ## -returns
 
@@ -79,7 +75,6 @@ Specifies the parameter value to pass to the [*ExpandedStackCall*](https://docs.
 |STATUS_INVALID_PARAMETER_4|The Wait parameter is TRUE but the routine was called at IRQL = DISPATCH_LEVEL.|
 |STATUS_NO_MEMORY|Not enough memory is available to expand the stack.|
 |STATUS_STACK_OVERFLOW|The stack, if expanded, would exceed the operating system's internal limits on stack space.|
- 
 
 ## -remarks
 
@@ -113,9 +108,9 @@ The calling thread must not call the [**PsTerminateSystemThread**](https://docs.
 
 In Windows Vista and Windows Server 2008, **KeExpandKernelStackAndCalloutEx** must be called at IRQL <= APC_LEVEL. In Windows 7, Windows Server 2008 R2, and later versions of Windows, this routine can be called at IRQL <= DISPATCH_LEVEL. However, the *Wait* parameter must be **FALSE** if the routine is called at DISPATCH_LEVEL. If *Wait* is **TRUE**, the call must occur at IRQL <= APC_LEVEL.
 
-
 ## -see-also
 
 [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) 
 [**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) 
-[**PsTerminateSystemThread**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread) 
+[**PsTerminateSystemThread**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread)
+

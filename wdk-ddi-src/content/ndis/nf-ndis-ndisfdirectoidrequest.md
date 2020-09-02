@@ -8,8 +8,6 @@ ms.assetid: dec5415b-6903-416e-819b-007ea6f7e7b5
 ms.date: 05/02/2018
 keywords: ["NdisFDirectOidRequest function"]
 ms.keywords: NdisFDirectOidRequest, NdisFDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFDirectOidRequest, ndis_request_direct_ref_f29e3367-5ebb-43af-bea8-d8729436ee17.xml, netvista.ndisfdirectoidrequest
-f1_keywords:
- - "ndis/NdisFDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFDirectOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFDirectOidRequest
+ - ndis/NdisFDirectOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFDirectOidRequest
 ---
 
 # NdisFDirectOidRequest function
@@ -48,44 +47,32 @@ req.typenames:
 
 ## -description
 
-
 Filter drivers call the 
   <b>NdisFDirectOidRequest</b> function to forward a direct OID request to underlying drivers or to originate
   such a request.
 
-
 ## -parameters
 
+### -param NdisFilterHandle 
 
-
-
-### -param NdisFilterHandle [in]
-
+[in]
 An NDIS handle that identifies a filter module. NDIS passed the handle to the filter driver in a
      call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
+### -param OidRequest 
 
-### -param OidRequest [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation that is requested with a given OID_<i>Xxx</i> code. The structure can specify an OID query, set, or method request.
 
-
 ## -returns
-
-
 
 For a list of possible return values, see the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdirectoidrequest">NdisDirectOidRequest</a> function.
 
-
-
-
 ## -remarks
-
-
 
 The 
     <b>NdisFDirectOidRequest</b> function cannot be used for general OID requests. For general OID requests,
@@ -135,13 +122,7 @@ The direct OID request interface is similar to the general OID request interface
     about issuing general requests, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -180,7 +161,4 @@ The direct OID request interface is similar to the general OID request interface
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 98257b56-e586-41e7-80c3-f9f96d471125
 ms.date: 05/02/2018
 keywords: ["NdisGetRoutineAddress function"]
 ms.keywords: NdisGetRoutineAddress, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], ndis/NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, netvista.ndisgetroutineaddress
-f1_keywords:
- - "ndis/NdisGetRoutineAddress"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetRoutineAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetRoutineAddress
+ - ndis/NdisGetRoutineAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetRoutineAddress
 ---
 
 # NdisGetRoutineAddress function
@@ -48,36 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisGetRoutineAddress</b> function returns the address of a routine given the routine's name.
 
-
 ## -parameters
 
+### -param NdisRoutineName 
 
-
-
-### -param NdisRoutineName [in]
-
+[in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the
      string that contains the name of a routine.
 
-
 ## -returns
-
-
 
 Returns the address of the routine whose name is specified at 
      <i>NdisRoutineName</i> if the routine is available; otherwise, <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 An NDIS driver can use 
     <b>NdisGetRoutineAddress</b> to obtain the address of an exported NDIS routine. The driver can then use
@@ -102,20 +89,11 @@ Typically, an NDIS driver calls
     <b>NdisGetRoutineAddress</b> in its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -6,10 +6,8 @@ old-location: storage\stor_pofx_device.htm
 tech.root: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.date: 03/29/2018
-keywords: ["_STOR_POFX_DEVICE structure"]
+keywords: ["STOR_POFX_DEVICE structure"]
 ms.keywords: "*PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE, STOR_POFX_DEVICE structure [Storage Devices], STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, _STOR_POFX_DEVICE, storage.stor_pofx_device, storport/PSTOR_POFX_DEVICE, storport/STOR_POFX_DEVICE"
-f1_keywords:
- - "storport/STOR_POFX_DEVICE"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- STOR_POFX_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_POFX_DEVICE, *PSTOR_POFX_DEVICE
+f1_keywords:
+ - _STOR_POFX_DEVICE
+ - storport/_STOR_POFX_DEVICE
+ - PSTOR_POFX_DEVICE
+ - storport/PSTOR_POFX_DEVICE
+ - STOR_POFX_DEVICE
+ - storport/STOR_POFX_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_POFX_DEVICE
 ---
 
 # _STOR_POFX_DEVICE structure
@@ -47,29 +50,21 @@ req.typenames: STOR_POFX_DEVICE, *PSTOR_POFX_DEVICE
 
 ## -description
 
-
 The <b>STOR_POFX_DEVICE</b> structure describes the power attributes of a storage device to the power management framework (PoFx).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version number of this structure. Set this member to <b>STOR_POFX_DEVICE_VERSION_V1</b>.
 
-
 ### -field Size
 
 The size of this structure. Set this value to <b>STOR_POFX_DEVICE_SIZE</b>.
 
-
 ### -field ComponentCount
 
 The number of elements in the <b>Components</b> array. Set this member to 1. Currently, only a single component is supported for either a storage adapter or logical unit.
-
 
 ### -field Flags
 
@@ -138,17 +133,12 @@ This flag indicates whether a device is available for dump when it is idle.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Components
 
 This member is the first element in an array of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_component">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
-
 ## -remarks
-
-
 
 To register a storage adapter for Storport PoFx support, the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportenablepassiveinitialization">StorPortEnablePassiveInitialization</a> in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine and implements a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>. The miniport calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a> within it's <b>HwStorPassiveInitializeRoutine</b> to provide information about the adapter component.
 
@@ -156,13 +146,7 @@ To register a storage unit for Storport PoFx support, the miniport driver implem
 
 The component for the storage device identified by its <b>Components</b> array index. Storage devices have only one component so the index of 0 is used.  Routines such as  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportpofxactivatecomponent">StorPortPoFxActivateComponent</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportpofxidlecomponent">StorPortPoFxIdleComponent</a> use the array index of a component to identify the component.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_component">STOR_POFX_COMPONENT</a>
 
@@ -177,7 +161,4 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportpofxidlecomponent">StorPortPoFxIdleComponent</a>
- 
-
- 
 

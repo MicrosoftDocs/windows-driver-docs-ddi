@@ -8,8 +8,6 @@ ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.date: 04/30/2019
 keywords: ["KSWAVE_INPUT_CAPABILITIES structure"]
 ms.keywords: "*PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, ksmedia/KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, stream.kswave_input_capabilities"
-f1_keywords:
- - "ksmedia/KSWAVE_INPUT_CAPABILITIES"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSWAVE_INPUT_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
+f1_keywords:
+ - PKSWAVE_INPUT_CAPABILITIES
+ - ksmedia/PKSWAVE_INPUT_CAPABILITIES
+ - KSWAVE_INPUT_CAPABILITIES
+ - ksmedia/KSWAVE_INPUT_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSWAVE_INPUT_CAPABILITIES
 ---
 
 # KSWAVE_INPUT_CAPABILITIES structure
@@ -47,66 +48,43 @@ req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
 
 ## -description
 
-
 The KSWAVE_INPUT_CAPABILITIES structure is used to describe the input capabilities of a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MaximumChannelsPerConnection
 
 Specifies the maximum channels per connection.
 
-
 ### -field MinimumBitsPerSample
 
 Specifies the minimum bits per sample.
-
 
 ### -field MaximumBitsPerSample
 
 Specifies the maximum bits per sample.
 
-
 ### -field MinimumSampleFrequency
 
 Specifies the minimum sampling frequency.
-
 
 ### -field MaximumSampleFrequency
 
 Specifies the maximum sampling frequency.
 
-
 ### -field TotalConnections
 
 Indicates the total number of connections.
-
 
 ### -field ActiveConnections
 
 Indicates the number of active connections.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a> property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
- 
-
- 
 

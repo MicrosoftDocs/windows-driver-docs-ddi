@@ -8,8 +8,6 @@ ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
 ms.date: 04/30/2018
 keywords: ["ExGetFirmwareEnvironmentVariable function"]
 ms.keywords: ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exgetfirmwareenvironmentvariable, wdm/ExGetFirmwareEnvironmentVariable
-f1_keywords:
- - "wdm/ExGetFirmwareEnvironmentVariable"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExGetFirmwareEnvironmentVariable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExGetFirmwareEnvironmentVariable
+ - wdm/ExGetFirmwareEnvironmentVariable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExGetFirmwareEnvironmentVariable
 ---
 
 # ExGetFirmwareEnvironmentVariable function
@@ -47,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExGetFirmwareEnvironmentVariable</b> routine gets the value of the specified system firmware environment variable.
-
 
 ## -parameters
 
+### -param VariableName 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
 
+### -param VendorGuid 
 
-### -param VariableName [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
-
-
-### -param VendorGuid [in]
-
+[in]
 A pointer to a GUID that identifies the vendor associated with the specified environment variable. Environment variables are grouped into namespaces based on their vendor GUIDs. Some hardware platforms might not support vendor GUIDs. On these platforms, all variables are grouped into one, common namespace, and the <i>VendorGuid</i> parameter is ignored.
 
+### -param Value 
 
-### -param Value [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer to which the routine writes the value of the specified environment variable.
 
+### -param ValueLength 
 
-### -param ValueLength [in, out]
-
+[in, out]
 A pointer to a location that contains the buffer size. On entry, the location pointed to by this parameter contains the size, in bytes, of the caller-supplied <i>Value</i> buffer. Before exiting, the routine writes to this location the size, in bytes, of the variable value. If the routine returns STATUS_SUCCESS, the *<i>ValueLength</i> output value is the number of bytes of data written to the <i>Value</i> buffer. If the routine returns STATUS_BUFFER_TOO_SMALL, *<i>ValueLength</i> is the required buffer size.
 
+### -param Attributes 
 
-### -param Attributes [out, optional]
-
+[out, optional]
 A pointer to a location to which the routine writes the attributes of the specified environment variable. This parameter is optional and can be set to NULL if the caller does not need the attributes. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 <b>ExGetFirmwareEnvironmentVariable</b> returns STATUS_SUCCESS if it is successful. Possible return values include the following error status codes.
 
@@ -159,14 +151,8 @@ The firmware returned an unrecognized error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 System firmware environment variables contain data values that are passed between the boot firmware environment implemented in the hardware platform and the operating-system loaders and other software that runs in the firmware environment.
 
@@ -220,13 +206,7 @@ If you create a backup datastore, you can use this function to save all the boot
 
 <b>ExGetFirmwareEnvironmentVariable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfirmwareenvironmentvariablea">GetFirmwareEnvironmentVariable</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsetfirmwareenvironmentvariable">ExSetFirmwareEnvironmentVariable</a>
 
@@ -236,8 +216,5 @@ If you create a backup datastore, you can use this function to save all the boot
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

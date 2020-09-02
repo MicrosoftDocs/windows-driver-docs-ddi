@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbMapContextAllocation"
+ - DXGKCB_MAPCONTEXTALLOCATION
+ - d3dkmddi/DXGKCB_MAPCONTEXTALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_MAPCONTEXTALLOCATION callback function
+
 
 ## -description
 

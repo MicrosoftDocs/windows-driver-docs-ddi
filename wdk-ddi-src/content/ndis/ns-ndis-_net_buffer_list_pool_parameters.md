@@ -6,10 +6,8 @@ old-location: netvista\net_buffer_list_pool_parameters.htm
 tech.root: netvista
 ms.assetid: DBB172A0-957E-4FAC-9727-D72B060E3193
 ms.date: 05/02/2018
-keywords: ["_NET_BUFFER_LIST_POOL_PARAMETERS structure"]
+keywords: ["NET_BUFFER_LIST_POOL_PARAMETERS structure"]
 ms.keywords: "*PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_POOL_PARAMETERS, ndis/NET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, netvista.net_buffer_list_pool_parameters"
-f1_keywords:
- - "ndis/NET_BUFFER_LIST_POOL_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NET_BUFFER_LIST_POOL_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_LIST_POOL_PARAMETERS, *PNET_BUFFER_LIST_POOL_PARAMETERS
+f1_keywords:
+ - _NET_BUFFER_LIST_POOL_PARAMETERS
+ - ndis/_NET_BUFFER_LIST_POOL_PARAMETERS
+ - PNET_BUFFER_LIST_POOL_PARAMETERS
+ - ndis/PNET_BUFFER_LIST_POOL_PARAMETERS
+ - NET_BUFFER_LIST_POOL_PARAMETERS
+ - ndis/NET_BUFFER_LIST_POOL_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST_POOL_PARAMETERS
 ---
 
 # _NET_BUFFER_LIST_POOL_PARAMETERS structure
@@ -47,17 +50,9 @@ req.typenames: NET_BUFFER_LIST_POOL_PARAMETERS, *PNET_BUFFER_LIST_POOL_PARAMETER
 
 ## -description
 
-
-
 The <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure defines the parameters for a pool of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -74,7 +69,6 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 Original version for NDIS 6.0.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NET_BUFFER_LIST_POOL_PARAMETERS_REVISION_1.
-
 
 ### -field ProtocolId
 
@@ -108,7 +102,6 @@ Specifies the IPX protocol.
 
 Specifies the NetBEUI protocol.
 
-
 ### -field fAllocateNetBuffer
 
 If this member is set to TRUE, NDIS allocates a pool of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is initialized with one 
@@ -119,7 +112,6 @@ If this member is set to FALSE, NDIS allocates a pool of <a href="https://docs.m
 
 For more information, see the Remarks section.
 
-
 ### -field ContextSize
 
 The size, in bytes, of the preallocated 
@@ -127,14 +119,12 @@ The size, in bytes, of the preallocated
        data that NDIS should provide for the NET_BUFFER_LIST structures in this pool. The 
        <b>ContextSize</b> must be a multiple of the value that is defined by MEMORY_ALLOCATION_ALIGNMENT.
 
-
 ### -field PoolTag
 
 A kernel pool tag that the caller uses when it allocates NET_BUFFER_LIST structures from this
        pool. The tag is a string, delimited by single quotation marks, with up to four characters, usually
        specified in reversed order. The kernel pool tag helps NDIS to identify the owner of the
        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are allocated from this pool.
-
 
 ### -field DataSize
 
@@ -146,10 +136,7 @@ The default data size, in bytes, for data buffers that are associated with this
 
 For more information, see the Remarks section.
 
-
 ## -remarks
-
-
 
 If 
        <b>fAllocateNetBuffer</b> is set to FALSE, NDIS will not allocate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and 
@@ -167,13 +154,7 @@ If
 
 The <i>Parameters</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function contains a pointer to an <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -188,7 +169,4 @@ The <i>Parameters</i> parameter of the <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a>
- 
-
- 
 

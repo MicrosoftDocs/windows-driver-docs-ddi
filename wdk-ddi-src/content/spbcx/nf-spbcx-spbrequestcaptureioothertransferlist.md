@@ -8,8 +8,6 @@ ms.assetid: 7AC76E6F-1250-49EB-BEA1-3807C65AC2B7
 ms.date: 04/30/2018
 keywords: ["SpbRequestCaptureIoOtherTransferList function"]
 ms.keywords: SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList
-f1_keywords:
- - "spbcx/SpbRequestCaptureIoOtherTransferList"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- spbcxstubs.lib
-- spbcxstubs.dll
-api_name:
-- SpbRequestCaptureIoOtherTransferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpbRequestCaptureIoOtherTransferList
+ - spbcx/SpbRequestCaptureIoOtherTransferList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - spbcxstubs.lib
+ - spbcxstubs.dll
+api_name:
+ - SpbRequestCaptureIoOtherTransferList
 ---
 
 # SpbRequestCaptureIoOtherTransferList function
@@ -48,25 +47,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>SpbRequestCaptureIoOtherTransferList</b> method retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a> structure in the input buffer of the custom IOCTL request.
 
-
 ## -parameters
-
-
-
 
 ### -param Request
 
 <p>An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the custom IOCTL request. The SPB controller driver previously received this handle through one of its registered <a href="https://docs.microsoft.com/previous-versions/hh450911(v=vs.85)">event callback functions</a>.</p>
 
-
-
-
 ## -returns
-
-
 
 <b>SpbRequestCaptureIoOtherTransferList</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
 
@@ -98,14 +87,8 @@ Cannot allocate the system resources that are required for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method must be called in the context of the process in which the buffer addresses are valid. Typically, the SPB controller driver calls this method from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> event callback function that the driver supplies as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbcontrollersetioothercallback">SpbControllerSetIoOtherCallback</a> method.
 
@@ -167,12 +150,7 @@ exit:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a>
 
@@ -191,7 +169,4 @@ exit:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetrequestormode">WdfRequestGetRequestorMode</a>
- 
-
- 
 

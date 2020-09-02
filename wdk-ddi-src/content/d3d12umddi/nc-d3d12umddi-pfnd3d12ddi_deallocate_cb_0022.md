@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnDeallocateCb"
+ - PFND3D12DDI_DEALLOCATE_CB_0022
+ - d3d12umddi/PFND3D12DDI_DEALLOCATE_CB_0022
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_DEALLOCATE_CB_0022 callback function
+
 
 ## -description
 
@@ -60,7 +62,7 @@ A  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/n
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

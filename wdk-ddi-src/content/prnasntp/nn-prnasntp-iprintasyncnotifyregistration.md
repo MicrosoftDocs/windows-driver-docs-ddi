@@ -8,8 +8,6 @@ ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncNotifyRegistration interface"]
 ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices],described, print.iprintasyncnotifyregistration, prnasntp/IPrintAsyncNotifyRegistration
-f1_keywords:
- - "prnasntp/IPrintAsyncNotifyRegistration"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncNotifyRegistration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncNotifyRegistration
+ - prnasntp/IPrintAsyncNotifyRegistration
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncNotifyRegistration
 ---
 
 # IPrintAsyncNotifyRegistration interface
@@ -47,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncNotifyRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyRegistration</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncNotifyRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

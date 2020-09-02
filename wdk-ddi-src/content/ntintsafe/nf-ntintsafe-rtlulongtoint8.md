@@ -8,8 +8,6 @@ ms.assetid: E44C756E-BD9B-4DC0-9F6D-07A366ED72B7
 ms.date: 04/30/2018
 keywords: ["RtlULongToInt8 function"]
 ms.keywords: RtlULongToInt8, RtlULongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongtoint8, ntintsafe/RtlULongToInt8
-f1_keywords:
- - "ntintsafe/RtlULongToInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongToInt8
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongToInt8
+ - ntintsafe/RtlULongToInt8
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongToInt8
 ---
 
 # RtlULongToInt8 function
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONG</b> to a value of type <b>INT8</b>.
-
 
 ## -parameters
 
+### -param ulOperand 
 
-
-
-### -param ulOperand [in]
-
+[in]
 The value to be converted.
 
+### -param pi8Result 
 
-### -param pi8Result [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

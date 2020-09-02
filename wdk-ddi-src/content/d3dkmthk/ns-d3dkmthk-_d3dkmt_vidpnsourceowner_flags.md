@@ -5,10 +5,8 @@ description: Specifies output duplication options for use with the D3DKMTSetVidP
 old-location: display\d3dkmt_vidpnsourceowner_flags.htm
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_VIDPNSOURCEOWNER_FLAGS structure"]
+keywords: ["D3DKMT_VIDPNSOURCEOWNER_FLAGS structure"]
 ms.keywords: D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], _D3DKMT_VIDPNSOURCEOWNER_FLAGS, d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags
-f1_keywords:
- - "d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMT_VIDPNSOURCEOWNER_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_VIDPNSOURCEOWNER_FLAGS
+f1_keywords:
+ - _D3DKMT_VIDPNSOURCEOWNER_FLAGS
+ - d3dkmthk/_D3DKMT_VIDPNSOURCEOWNER_FLAGS
+ - D3DKMT_VIDPNSOURCEOWNER_FLAGS
+ - d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMT_VIDPNSOURCEOWNER_FLAGS
 ---
 
 # _D3DKMT_VIDPNSOURCEOWNER_FLAGS structure
@@ -47,47 +48,27 @@ req.typenames: D3DKMT_VIDPNSOURCEOWNER_FLAGS
 
 ## -description
 
-
 Specifies output duplication options for use with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner1">D3DKMTSetVidPnSourceOwner1</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AllowOutputDuplication
 
 If a value of one, the video present network (VidPN) explicitly allows output duplication. Otherwise output duplication is not allowed.
 
-
 ### -field DisableDWMVirtualMode
 
- 
-
-
 ### -field UseNtHandles
-
- 
-
 
 ### -field Reserved
 
 Reserved for internal use.
 
-
 ### -field Value
 
 Specifies the number of output duplication paths on the VidPN.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner1">D3DKMTSetVidPnSourceOwner1</a>
- 
-
- 
 

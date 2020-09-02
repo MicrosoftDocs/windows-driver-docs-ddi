@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay"
+ - DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY
+ - d3dkmddi/DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,9 @@ product:
 ---
 
 # DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY callback function
+
+> [!NOTE] This callback has been replaced by [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3](nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md)
+
 
 ## -description
 

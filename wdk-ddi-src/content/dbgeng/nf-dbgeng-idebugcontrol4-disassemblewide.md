@@ -8,8 +8,6 @@ ms.assetid: 7df1f9e5-dac2-490b-9eed-28f8bc4e677a
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::DisassembleWide"]
 ms.keywords: DisassembleWide, DisassembleWide method [Windows Debugging], DisassembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],DisassembleWide method, IDebugControl4.DisassembleWide, IDebugControl4::DisassembleWide, dbgeng/IDebugControl4::DisassembleWide, debugger.disassemblewide
-f1_keywords:
- - "dbgeng/IDebugControl4.DisassembleWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.DisassembleWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::DisassembleWide
+ - dbgeng/IDebugControl4::DisassembleWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.DisassembleWide
 ---
 
 # IDebugControl4::DisassembleWide
@@ -47,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>DisassembleWide</b>  method disassembles a processor instruction in the target's memory.
-
 
 ## -parameters
 
+### -param Offset 
 
-
-
-### -param Offset [in]
-
+[in]
 Specifies the location in the target's memory of the instruction to disassemble.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies the bit-flags that affect the behavior of this method.  Currently the only flag that can be set is DEBUG_DISASM_EFFECTIVE_ADDRESS; when set, the engine will compute the effective address from the current register information and display it.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the disassembled instruction.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
+### -param DisassemblySize 
 
-### -param DisassemblySize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the disassembled instruction.  If <i>DisassemblySize</i> is <b>NULL</b>, this information is not returned.
 
+### -param EndOffset 
 
-### -param EndOffset [out]
-
+[out]
 Receives the location in the target's memory of the instruction following the disassembled instruction.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -120,14 +112,8 @@ The method was successful.  However, <i>Buffer</i> was too small to hold the dis
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The assembly language depends on the effective processor type of the target system.  For information about the assembly language, see the processor documentation.
 
@@ -135,13 +121,7 @@ The disassembly options--returned by <a href="https://docs.microsoft.com/windows
 
 For an overview of using assembly in debugger applications, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-in-assembly-mode">Debugging in Assembly Mode</a>.  For more information about using assembly with the debugger engine API, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/assembling-and-disassembling-instructions">Assembling and Disassembling Instructions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-assemble">Assemble</a>
 
@@ -156,7 +136,4 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/u--unassemble-">u (Unassemble)</a>
- 
-
- 
 

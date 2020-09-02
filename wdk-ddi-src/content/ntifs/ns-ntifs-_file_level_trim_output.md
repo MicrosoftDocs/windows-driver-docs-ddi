@@ -6,10 +6,8 @@ old-location: ifsk\file_level_trim_output.htm
 tech.root: ifsk
 ms.assetid: 28CCE967-E752-4E0E-94D9-3A4243266684
 ms.date: 04/16/2018
-keywords: ["_FILE_LEVEL_TRIM_OUTPUT structure"]
+keywords: ["FILE_LEVEL_TRIM_OUTPUT structure"]
 ms.keywords: "*PFILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT structure [Installable File System Drivers], FILE_LEVEL_TRIM_RANGE_OUTPUT, FILE_LEVEL_TRIM_RANGE_OUTPUT structure [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE_OUTPUT, PFILE_LEVEL_TRIM_RANGE_OUTPUT structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM_OUTPUT, ifsk.file_level_trim_output, ntifs/FILE_LEVEL_TRIM_RANGE, ntifs/PFILE_LEVEL_TRIM_RANGE_OUTPUT"
-f1_keywords:
- - "ntifs/FILE_LEVEL_TRIM_RANGE_OUTPUT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_LEVEL_TRIM_RANGE_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
+f1_keywords:
+ - _FILE_LEVEL_TRIM_OUTPUT
+ - ntifs/_FILE_LEVEL_TRIM_OUTPUT
+ - PFILE_LEVEL_TRIM_OUTPUT
+ - ntifs/PFILE_LEVEL_TRIM_OUTPUT
+ - FILE_LEVEL_TRIM_OUTPUT
+ - ntifs/FILE_LEVEL_TRIM_OUTPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_LEVEL_TRIM_RANGE_OUTPUT
 ---
 
 # _FILE_LEVEL_TRIM_OUTPUT structure
@@ -47,38 +50,21 @@ req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
 
 ## -description
 
-
 The <b>FILE_LEVEL_TRIM_OUTPUT</b> structure contains the results of a trim operation performed by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-file-level-trim">FSCTL_FILE_LEVEL_TRIM</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumRangesProcessed
 
 The number or trim ranges processed.
 
-
 ## -remarks
-
-
 
 This structure is optionally included as the output buffer for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-file-level-trim">FSCTL_FILE_LEVEL_TRIM</a> request. <b>NumRangesProcessed</b> indicates how many ranges of the in the array given in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_level_trim">FILE_LEVEL_TRIM</a> were processed.
 
 All trim ranges in the array in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_level_trim">FILE_LEVEL_TRIM</a> were successfully processed if  <b>NumRangesProcessed</b> is equivalent to the <b>NumRanges</b> member of <b>FILE_LEVEL_TRIM</b>. Otherwise, the value in <b>NumRangesProcessed</b> is the starting index of the trim ranges that were not processed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-file-level-trim">FSCTL_FILE_LEVEL_TRIM</a>
- 
-
- 
 

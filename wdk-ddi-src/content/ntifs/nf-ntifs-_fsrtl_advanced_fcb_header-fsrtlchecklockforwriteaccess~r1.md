@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckLockForWriteAccess function"]
 ms.keywords: FsRtlCheckLockForWriteAccess, FsRtlCheckLockForWriteAccess routine [Installable File System Drivers], fsrtlref_460451fb-37b9-4c7e-bf53-8d72c7e73a55.xml, ifsk.fsrtlchecklockforwriteaccess, ntifs/FsRtlCheckLockForWriteAccess
 f1_keywords:
  - "ntifs/FsRtlCheckLockForWriteAccess"
+ - "FsRtlCheckLockForWriteAccess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckLockForWriteAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlCheckLockForWriteAccess</b> routine determines whether the process a
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP. Must be an IRP for a write operation.
 
 

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbSetPowerComponentActive"
+ - DXGKCB_SETPOWERCOMPONENTACTIVE
+ - d3dkmddi/DXGKCB_SETPOWERCOMPONENTACTIVE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_SETPOWERCOMPONENTACTIVE callback function
+
 
 ## -description
 

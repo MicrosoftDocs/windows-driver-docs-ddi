@@ -8,8 +8,6 @@ ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.date: 04/16/2018
 keywords: ["GetSecurityUserInfo function"]
 ms.keywords: GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ifsk.getsecurityuserinfo, ntifs/GetSecurityUserInfo
-f1_keywords:
- - "ntifs/GetSecurityUserInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ksecdd.lib
-- ksecdd.dll
-api_name:
-- GetSecurityUserInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetSecurityUserInfo
+ - ntifs/GetSecurityUserInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ksecdd.lib
+ - ksecdd.dll
+api_name:
+ - GetSecurityUserInfo
 ---
 
 # GetSecurityUserInfo function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="https://go.microsoft.com/fwlink/p/?linkid=121237">session</a>.
-
 
 ## -parameters
 
+### -param LogonId 
 
-
-
-### -param LogonId [in, optional]
-
+[in, optional]
 An optional pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=121236">LUID</a> containing the logon session for which information is to be retrieved. If <i>LogonId</i> is <b>NULL</b>, information for the logon session of the calling thread is returned.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 This parameter is currently not used.
 
+### -param UserInformation 
 
-### -param UserInformation [out]
-
+[out]
 A pointer to a location which contains a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The caller is responsible for freeing this buffer by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a> function.
 
-
 ## -returns
-
-
 
 <b>GetSecurityUserInfo</b> returns an appropriate NTSTATUS value, such as one of the following.
 
@@ -106,31 +98,16 @@ Indicates that the specified logon session does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function obtains information about a logon <a href="https://go.microsoft.com/fwlink/p/?linkid=121237">session</a> via  the <a href="https://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a>  structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549736">MapSecurityError</a>
- 
-
- 
 

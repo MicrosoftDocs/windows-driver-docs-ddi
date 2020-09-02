@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB"
+ - PFND3DDDI_DESTROYHWCONTEXTCB
+ - d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DESTROYHWCONTEXTCB callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 5ec2e981-87ee-4ebe-ae60-c5acae2c073e
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::GetInterfacesIfExist"]
 ms.keywords: GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], GetInterfacesIfExist method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],GetInterfacesIfExist method, IWDTFTargets2.GetInterfacesIfExist, IWDTFTargets2::GetInterfacesIfExist, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, dtf.iwdtftargets2_getinterfacesifexist, wdtf/IWDTFTargets2::GetInterfacesIfExist
-f1_keywords:
- - "wdtf/IWDTFTargets2.GetInterfacesIfExist"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTargets2.GetInterfacesIfExist
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTargets2::GetInterfacesIfExist
+ - wdtf/IWDTFTargets2::GetInterfacesIfExist
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTargets2.GetInterfacesIfExist
 ---
 
 # IWDTFTargets2::GetInterfacesIfExist
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 Returns a collection of actions that support the interface - one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> for each item
 that has one.
 
-
 ## -parameters
-
-
-
 
 ### -param WDTFInterfaceName
 
+### -param MoreTargets 
 
-
-
-### -param MoreTargets [in, optional]
-
+[in, optional]
 Optional extra arguments that you can use to 
 define additional targets to attach to the returned interface. 
 
@@ -71,9 +63,9 @@ This parameter is not
 currently implemented. Set <i>MoreTargets </i>to a <b>VARIANT</b> 
 that contains <b>VT_EMPTY</b>.
 
+### -param MonikerSuffix 
 
-### -param MonikerSuffix [in, optional]
-
+[in, optional]
 An optional moniker that defines more options about how 
 the interface should be instantiated. 
 
@@ -81,9 +73,9 @@ This parameter is not yet implemented.
 Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that 
 contains <b>VT_EMPTY</b>.
 
+### -param ppInterface 
 
-### -param ppInterface [out, retval]
-
+[out, retval]
 The address of a variable that will receive the 
 collection of actions.
 
@@ -92,32 +84,15 @@ collection of actions.
 
 The WDTF ProgID of the requested interface.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-
-
 This method will succeed even if one or more of the collection members do not return an action.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
- 
-
- 
 

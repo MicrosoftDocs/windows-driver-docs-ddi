@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE enumeration"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE"
+ - "D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE"
 ms.keywords: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE, D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

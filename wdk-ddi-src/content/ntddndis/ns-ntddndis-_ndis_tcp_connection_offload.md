@@ -6,10 +6,8 @@ old-location: netvista\ndis_tcp_connection_offload.htm
 tech.root: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
 ms.date: 07/26/2019
-keywords: ["_NDIS_TCP_CONNECTION_OFFLOAD structure"]
+keywords: ["NDIS_TCP_CONNECTION_OFFLOAD structure"]
 ms.keywords: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml"
-f1_keywords:
- - "ntddndis/NDIS_TCP_CONNECTION_OFFLOAD"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_TCP_CONNECTION_OFFLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
+f1_keywords:
+ - _NDIS_TCP_CONNECTION_OFFLOAD
+ - ntddndis/_NDIS_TCP_CONNECTION_OFFLOAD
+ - PNDIS_TCP_CONNECTION_OFFLOAD
+ - ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD
+ - NDIS_TCP_CONNECTION_OFFLOAD
+ - ntddndis/NDIS_TCP_CONNECTION_OFFLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_TCP_CONNECTION_OFFLOAD
 ---
 
 # _NDIS_TCP_CONNECTION_OFFLOAD structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
 
 ## -description
 
-
 The NDIS_TCP_CONNECTION_OFFLOAD structure provides connection offload information for current
   settings and for supported capabilities.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -70,17 +68,14 @@ The
      <b>Size</b> member to 
      <b>NDIS_SIZEOF_TCP_CONNECTION_OFFLOAD_REVISION_1</b>.
 
-
 ### -field Encapsulation
 
 Encapsulation settings for TCP chimney offload. For more information about this member, see the following Remarks section.
-
 
 ### -field SupportIPv4
 
 A ULONG value that an offload target sets to indicate that it supports IPv4. The TCP/IP driver
      stack sets this member to enable IPv4.
-
 
 ### -field SupportIPv6
 
@@ -88,13 +83,11 @@ A ULONG value that an offload target sets to indicate that it supports IPv6. The
      stack sets this member to enable IPv6. Note that an offload target can support both IPv4 and
      IPv6.
 
-
 ### -field SupportIPv6ExtensionHeaders
 
 A ULONG value that an offload target sets to indicate that it supports IPv6 extension headers
      (that is, routing, fragmentation/reassembly, authentication, encapsulation, hop-by-hop processing, and
      destination options). The TCP/IP driver stack sets this member to enable IPv6 extension headers.
-
 
 ### -field SupportSack
 
@@ -108,7 +101,6 @@ If an offload target sets the
      segments. If an offload target does not support the SACK option, the target must be able to ignore the
      SACK option and process the rest of the TCP segment normally.
 
-
 ### -field CongestionAlgorithm
 
 Reserved for future use.
@@ -118,22 +110,16 @@ If you are an independent hardware vendor (IHV) and you want to implement nondef
      control algorithms, for example Compound TCP, contact Microsoft at 
      <a href="mailto:offloadt@microsoft.com">External TCP Offload Triage</a>.
 
-
-
 ### -field TcpConnectionOffloadCapacity
 
 A ULONG value that an offload target sets to indicate the maximum number of offloaded TCP
      connections that it supports. This number includes both IPv4 and IPv6 connections.
 
-
 ### -field Flags
 
 Reserved.
 
-
 ## -remarks
-
-
 
 The NDIS_TCP_CONNECTION_OFFLOAD structure specifies the current or supported services that a miniport
     adapter provides for TCP chimney offload.
@@ -231,13 +217,7 @@ Note that an offload target cannot directly indicate new offload capabilities. I
        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
        documentation</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
@@ -273,7 +253,4 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
- 
-
- 
 

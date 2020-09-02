@@ -8,8 +8,6 @@ ms.assetid: 424d5ebd-c871-40d8-b5b7-3a4a04fe60fa
 ms.date: 04/30/2018
 keywords: ["IoMarkIrpPending function"]
 ms.keywords: IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, kernel.iomarkirppending, wdm/IoMarkIrpPending
-f1_keywords:
- - "wdm/IoMarkIrpPending"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IoMarkIrpPending
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoMarkIrpPending
+ - wdm/IoMarkIrpPending
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IoMarkIrpPending
 ---
 
 # IoMarkIrpPending function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoMarkIrpPending</b> routine marks the specified IRP, indicating that a driver's dispatch routine subsequently returned STATUS_PENDING because further processing is required by other driver routines.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in, out]
-
+[in, out]
 Pointer to the IRP to be marked as pending.
 
-
 ## -remarks
-
-
 
 Unless the driver's dispatch routine completes the IRP (by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>) or passes the IRP on to lower drivers, it must call <b>IoMarkIrpPending</b> with the IRP. Otherwise, the I/O manager attempts to complete the IRP as soon as the dispatch routine returns control.
 
@@ -79,13 +71,7 @@ A driver that passes down the IRP and then waits on an event should not mark the
 
 If your driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">IoSkipCurrentIrpStackLocation</a>, be careful not to modify the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure in a way that could unintentionally affect the lower driver or the system's behavior with respect to that driver. In particular, your driver should not modify the <b>IO_STACK_LOCATION</b> structure's <b>Parameters</b> union, and should not call <b>IoMarkIrpPending</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
@@ -104,7 +90,4 @@ If your driver calls <a href="https://docs.microsoft.com/windows-hardware/driver
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartpacket">IoStartPacket</a>
- 
-
- 
 

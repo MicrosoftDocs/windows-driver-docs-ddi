@@ -8,36 +8,38 @@ ms.assetid: ec0813b8-a2ac-4312-a748-410afe7d7725
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["OUTPUT_COLOR_ENCODING enumeration"]
-f1_keywords:
- - "ntddvdeo/OUTPUT_COLOR_ENCODING"
-ms.keywords: OUTPUT_COLOR_ENCODING, OUTPUT_COLOR_ENCODING, 
+ms.keywords: OUTPUT_COLOR_ENCODING, OUTPUT_COLOR_ENCODING,
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: OUTPUT_COLOR_ENCODING
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddvdeo.h
-api_name: 
- - OUTPUT_COLOR_ENCODING
-product:
-- Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _OUTPUT_COLOR_ENCODING
+ - ntddvdeo/_OUTPUT_COLOR_ENCODING
+ - OUTPUT_COLOR_ENCODING
+ - ntddvdeo/OUTPUT_COLOR_ENCODING
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - OUTPUT_COLOR_ENCODING
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # OUTPUT_COLOR_ENCODING enumeration
+
 
 ## -description
 
@@ -72,3 +74,4 @@ Uint32.
 ## -remarks
 
 ## -see-also
+

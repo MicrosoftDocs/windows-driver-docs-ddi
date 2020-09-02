@@ -6,10 +6,8 @@ old-location: netvista\ndk_mw.htm
 tech.root: netvista
 ms.assetid: C304A6AA-6ABA-40DF-8EE1-ABDEBEE3B006
 ms.date: 05/02/2018
-keywords: ["_NDK_MW structure"]
+keywords: ["NDK_MW structure"]
 ms.keywords: NDK_MW, NDK_MW structure [Network Drivers Starting with Windows Vista], PNDK_MW, PNDK_MW structure pointer [Network Drivers Starting with Windows Vista], _NDK_MW, ndkpi/NDK_MW, ndkpi/PNDK_MW, netvista.ndk_mw
-f1_keywords:
- - "ndkpi/NDK_MW"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndkpi.h
-api_name:
-- NDK_MW
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_MW
+f1_keywords:
+ - _NDK_MW
+ - ndkpi/_NDK_MW
+ - NDK_MW
+ - ndkpi/NDK_MW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndkpi.h
+api_name:
+ - NDK_MW
 ---
 
 # _NDK_MW structure
@@ -47,38 +48,23 @@ req.typenames: NDK_MW
 
 ## -description
 
-
 The <b>NDK_MW</b> structure specifies the attributes of an NDK memory window (MW) object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a> structure for the <b>NDK_MW</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeMw</b>.
 
-
 ### -field Dispatch
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw_dispatch">NDK_MW_DISPATCH</a> structure that defines dispatch functions for the NDK MW object.
 
-
 ## -remarks
-
-
 
 An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw_dispatch">NDK_MW_DISPATCH</a> table before returning the  created MW object. Also, the NDK provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can change the <b>Dispatch</b> member to some other value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -101,7 +87,4 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
- 
-
- 
 

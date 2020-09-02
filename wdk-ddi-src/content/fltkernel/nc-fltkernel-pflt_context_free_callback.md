@@ -8,8 +8,6 @@ ms.assetid: 11c397c2-51a5-4acd-8029-cd002f990366
 ms.date: 04/16/2018
 keywords: ["PFLT_CONTEXT_FREE_CALLBACK callback function"]
 ms.keywords: ContextFreeCallback, ContextFreeCallback routine [Installable File System Drivers], FltCallbacks_c7e2b5e1-5666-431c-9032-59914ef23336.xml, PFLT_CONTEXT_FREE_CALLBACK, fltkernel/ContextFreeCallback, ifsk.pflt_context_free_callback
-f1_keywords:
- - "fltkernel/ContextFreeCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- ContextFreeCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFLT_CONTEXT_FREE_CALLBACK
+ - fltkernel/PFLT_CONTEXT_FREE_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - ContextFreeCallback
 ---
 
 # PFLT_CONTEXT_FREE_CALLBACK callback function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-A minifilter can register a routine of type PFLT_CONTEXT_FREE_CALLBACK as the minifilter driver's <i>ContextFreeCallback</i> routine. 
-
+A minifilter can register a routine of type PFLT_CONTEXT_FREE_CALLBACK as the minifilter driver's <i>ContextFreeCallback</i> routine.
 
 ## -parameters
 
+### -param Pool 
 
+[in]
+A pointer to the context to be freed.
 
+### -param ContextType 
 
-### -param Pool [in]
-
-A pointer to the context to be freed. 
-
-
-### -param ContextType [in]
-
+[in]
 The type of context. This parameter is required and must be one of the following values: 
 
 FLT_FILE_CONTEXT (starting with  Windows Vista)
@@ -79,22 +74,13 @@ FLT_TRANSACTION_CONTEXT (starting with  Windows Vista)
 
 FLT_VOLUME_CONTEXT
 
-
 ## -remarks
-
-
 
 For the rare cases that a minifilter driver must free its own contexts manually, the minifilter driver can specify a routine of type PFLT_CONTEXT_FREE_CALLBACK as the minifilter driver's <i>ContextFreeCallback</i> routine for each context type that it registers when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. To specify this routine, the minifilter driver stores a pointer to the routine in the <i>ContextFreeCallback</i> member of the FLT_CONTEXT_REGISTRATION structure for the context type. 
 
-For more information about context registration, see the reference entry for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>. 
-
-
-
+For more information about context registration, see the reference entry for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>
 
@@ -113,7 +99,4 @@ For more information about context registration, see the reference entry for <a 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_context_cleanup_callback">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
- 
-
- 
 

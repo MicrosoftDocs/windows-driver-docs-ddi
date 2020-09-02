@@ -8,8 +8,6 @@ ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.date: 04/30/2018
 keywords: ["RtlFreeAnsiString function"]
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString
-f1_keywords:
- - "wdm/RtlFreeAnsiString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlFreeAnsiString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlFreeAnsiString
+ - wdm/RtlFreeAnsiString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlFreeAnsiString
 ---
 
 # RtlFreeAnsiString function
@@ -47,45 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlFreeAnsiString</b> routine releases storage that was allocated by <b>RtlUnicodeStringToAnsiString</b>.
-
 
 ## -parameters
 
+### -param AnsiString 
 
-
-
-### -param AnsiString [in, out]
-
-Pointer to the ANSI string buffer previously allocated by <b>RtlUnicodeStringToAnsiString</b>. 
-
+[in, out]
+Pointer to the ANSI string buffer previously allocated by <b>RtlUnicodeStringToAnsiString</b>.
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
-This routine does not release the Unicode string buffer passed to <b>RtlUnicodeStringToAnsiString</b>. 
-
-
-
+This routine does not release the Unicode string buffer passed to <b>RtlUnicodeStringToAnsiString</b>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>
- 
-
- 
 

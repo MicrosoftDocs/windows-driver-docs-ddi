@@ -8,8 +8,6 @@ ms.assetid: AAFECA64-07D7-43E6-ABFB-C0C85A9C03CD
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_RX_STOP callback function"]
 ms.keywords: MINIPORT_WDI_RX_STOP, MINIPORT_WDI_RX_STOP callback, MiniportWdiRxStop, MiniportWdiRxStop callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxStop, netvista.miniportwdirxstop
-f1_keywords:
- - "dot11wdi/MiniportWdiRxStop"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiRxStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_RX_STOP
+ - dot11wdi/MINIPORT_WDI_RX_STOP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiRxStop
 ---
 
 # MINIPORT_WDI_RX_STOP callback function
 
 
 ## -description
-
 
 The 
   MiniportWdiRxStop handler function stops RX on a given port and accepts the wildcard port ID  to stop RX across the adapter. The TAL completes the RX stop operation by completing the request with a success status, or by completing it with a pending status and asynchronously indicating <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_rx_stop_confirm">RxStopConfirm</a>.
@@ -61,28 +59,22 @@ This request is issued to the TAL as part of a transition to low power (adapter)
 
 ## -parameters
 
+### -param MiniportTalTxRxContext 
 
-
-
-### -param MiniportTalTxRxContext [in]
-
+[in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
+### -param PortId 
 
-### -param PortId [in]
-
+[in]
 The port ID.
 
+### -param pWifiStatus 
 
-### -param pWifiStatus [out]
-
+[out]
 Status from the IHV miniport. A success status indicates that the operation completion synchronously.  A pending status indicates that the stop will be asynchronously confirmed.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_wdi_data_handlers">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
@@ -97,7 +89,4 @@ Status from the IHV miniport. A success status indicates that the operation comp
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 14205476-3f58-4105-99a7-a3baa2eba033
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacksWide::ChangeEngineState"]
 ms.keywords: ChangeEngineState, ChangeEngineState method [Windows Debugging], ChangeEngineState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeEngineState method, IDebugEventCallbacksWide.ChangeEngineState, IDebugEventCallbacksWide::ChangeEngineState, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate
-f1_keywords:
- - "dbgeng/IDebugEventCallbacksWide.ChangeEngineState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugEventCallbacksWide.ChangeEngineState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugEventCallbacksWide::ChangeEngineState
+ - dbgeng/IDebugEventCallbacksWide::ChangeEngineState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugEventCallbacksWide.ChangeEngineState
 ---
 
 # IDebugEventCallbacksWide::ChangeEngineState
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>ChangeEngineState</b> callback method is called by the engine when its state has changed.
-
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [in]
-
+[in]
 Specifies a bit-set indicating the type of changes that occurred in the engine's state.  The following bit flags might be set:
 
 <table>
@@ -216,11 +211,10 @@ Text replacements have changed.
 </td>
 </tr>
 </table>
- 
 
+### -param Argument 
 
-### -param Argument [in]
-
+[in]
 Provides additional information about the change to the engine's state.  If more than one bit flag is set in the <i>Flags</i> parameter, the <i>Argument</i> parameter is not used.  Otherwise, the interpretation of the value of <i>Argument</i> depends on the value of <i>Flags</i>:
 
 
@@ -315,23 +309,13 @@ The value of <i>Argument</i> is the default expression syntax.
 
 The value of <i>Argument</i> is DEBUG_ANY_ID.
 
-
 ## -returns
-
-
 
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacksWide</b> object is registered, is disabled.
 
-
-
-
 ## -remarks
-
-
 
 This method is only called by the engine if the DEBUG_EVENT_CHANGE_ENGINE_STATE flag is set in the mask returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">IDebugEventCallbacksWide::GetInterestMask</a>.
 
-For more information about handling events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>. 
-
-
+For more information about handling events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
 

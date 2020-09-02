@@ -6,10 +6,8 @@ old-location: netvista\wdi_stop_ap_reason.htm
 tech.root: netvista
 ms.assetid: F0CACC25-2F7B-431A-8AAB-CBE495178CC1
 ms.date: 05/02/2018
-keywords: ["_WDI_STOP_AP_REASON enumeration"]
+keywords: ["WDI_STOP_AP_REASON enumeration"]
 ms.keywords: WDI_STOP_AP_REASON, WDI_STOP_AP_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_STOP_AP_REASON_AP_ACTIVE, WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, WDI_STOP_AP_REASON_IHV_END, WDI_STOP_AP_REASON_IHV_START, _WDI_STOP_AP_REASON, netvista.wdi_stop_ap_reason, wditypes/WDI_STOP_AP_REASON, wditypes/WDI_STOP_AP_REASON_AP_ACTIVE, wditypes/WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_IHV_END, wditypes/WDI_STOP_AP_REASON_IHV_START
-f1_keywords:
- - "wditypes/WDI_STOP_AP_REASON"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_STOP_AP_REASON
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_STOP_AP_REASON
+f1_keywords:
+ - _WDI_STOP_AP_REASON
+ - wditypes/_WDI_STOP_AP_REASON
+ - WDI_STOP_AP_REASON
+ - wditypes/WDI_STOP_AP_REASON
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_STOP_AP_REASON
 ---
 
 # _WDI_STOP_AP_REASON enumeration
@@ -47,34 +48,25 @@ req.typenames: WDI_STOP_AP_REASON
 
 ## -description
 
-
 The WDI_STOP_AP_REASON enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
 
 The adapter determined that no valid operating frequency is available.
 
-
 ### -field WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE
 
 The adapter determined that no operating channel is available.
-
 
 ### -field WDI_STOP_AP_REASON_AP_ACTIVE
 
 The adapter determined that an AP is already active on another 802.11 MAC entity for this physical wireless LAN adapter.
 
-
 ### -field WDI_STOP_AP_REASON_IHV_START
 
 The start value of possible IHV-specified reasons.
-
 
 ### -field WDI_STOP_AP_REASON_IHV_END
 

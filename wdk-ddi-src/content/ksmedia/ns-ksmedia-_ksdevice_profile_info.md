@@ -6,10 +6,8 @@ old-location: stream\ksdevice_profile_info.htm
 tech.root: stream
 ms.assetid: 32C894CA-B644-4221-97B6-A21F2A459DE6
 ms.date: 04/23/2018
-keywords: ["_KSDEVICE_PROFILE_INFO structure"]
+keywords: ["KSDEVICE_PROFILE_INFO structure"]
 ms.keywords: "*PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], PKSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], _KSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, ksmedia/PKSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info"
-f1_keywords:
- - "ksmedia/KSDEVICE_PROFILE_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSDEVICE_PROFILE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO
+f1_keywords:
+ - _KSDEVICE_PROFILE_INFO
+ - ksmedia/_KSDEVICE_PROFILE_INFO
+ - PKSDEVICE_PROFILE_INFO
+ - ksmedia/PKSDEVICE_PROFILE_INFO
+ - KSDEVICE_PROFILE_INFO
+ - ksmedia/KSDEVICE_PROFILE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSDEVICE_PROFILE_INFO
 ---
 
 # _KSDEVICE_PROFILE_INFO structure
+
 
 ## -description
 
@@ -87,3 +91,4 @@ An array of **KSCAMERA_PROFILE_CONCURRENCYINFO** structures describing the concu
 If **CountOfConcurrency** is 0, this parameter must be **NULL**.
 
 If **CountOfConcurrency** is greater than 0, this parameter must not be **NULL**.
+

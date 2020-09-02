@@ -5,11 +5,9 @@ description: The CWiaLogProc constructor is called when the function or method b
 old-location: image\cwialogproc_cwialogproc.htm
 tech.root: image
 ms.assetid: FB963A5D-ACB2-4720-95D1-0CA1661A99C9
-ms.date: 05/03/2018
+ms.date: 08/26/2020
 keywords: ["CWiaLogProc::CWiaLogProc"]
 ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices],CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices],CWiaLogProc interface, CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
-f1_keywords:
- - "wiamdef/CWiaLogProc.CWiaLogProc"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Windows
@@ -27,26 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiamdef.h
-api_name:
-- CWiaLogProc.CWiaLogProc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiaLogProc::CWiaLogProc
+ - wiamdef/CWiaLogProc::CWiaLogProc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiamdef.h
+api_name:
+ - CWiaLogProc.CWiaLogProc
 ---
 
 # CWiaLogProc::CWiaLogProc
 
+
 ## -description
 
-The [CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc-~cwialogproc) constructor is called when the function or method being logged is entered.
+The [CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc--cwialogproc) constructor is called when the function or method being logged is entered.
 
 ## -parameters
 
@@ -73,3 +73,4 @@ Defines the **CHAR** parameter _*pszMsg_.
 ## -see-also
 
 [CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc-cwialogproc)
+

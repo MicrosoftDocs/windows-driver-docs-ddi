@@ -8,8 +8,6 @@ ms.assetid: 2755d0fd-9801-4d54-89cb-54f8b984288c
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber
-f1_keywords:
- - "ucxcontroller/PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ucxcontroller.h
-api_name:
-- PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
+ - ucxcontroller/EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ucxcontroller.h
+api_name:
+ - PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
 ---
 
 # EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation that UCX calls to retrieve the current 32-bit frame number.
-
 
 ## -parameters
 
+### -param UcxController 
 
-
-
-### -param UcxController [in]
-
+[in]
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
+### -param FrameNumber 
 
-### -param FrameNumber [out]
-
+[out]
 A pointer to the current 32-bit frame number.
-
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
-
-
 
 The UCX client driver registers its <i>EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER</i> implementation with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
@@ -114,15 +101,7 @@ Controller_EvtControllerGetCurrentFrameNumber(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
- 
-
- 
 

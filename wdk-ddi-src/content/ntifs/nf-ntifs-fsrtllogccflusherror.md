@@ -8,8 +8,6 @@ ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.date: 04/16/2018
 keywords: ["FsRtlLogCcFlushError function"]
 ms.keywords: FsRtlLogCcFlushError, FsRtlLogCcFlushError routine [Installable File System Drivers], fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError
-f1_keywords:
- - "ntifs/FsRtlLogCcFlushError"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlLogCcFlushError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlLogCcFlushError
+ - ntifs/FsRtlLogCcFlushError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlLogCcFlushError
 ---
 
 # FsRtlLogCcFlushError function
@@ -47,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlLogCcFlushError</b> routine logs a lost delayed-write error and displays a dialog box to the user.
-
 
 ## -parameters
 
+### -param FileName 
 
-
-
-### -param FileName [in]
-
+[in]
 The name of the file that could not be flushed.
 
+### -param DeviceObject 
 
-### -param DeviceObject [in]
-
+[in]
 A pointer to the device object that this log entry should be filed against.
 
+### -param SectionObjectPointer 
 
-### -param SectionObjectPointer [in]
-
+[in]
 A pointer to the section object for the file on which the flush failed.
 
+### -param FlushError 
 
-### -param FlushError [in]
-
+[in]
 The error returned by the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A value of 0 or a bitwise combination of one or more of the following flags:
 
 <table>
@@ -106,21 +101,12 @@ Suppresses generation of a system error log entry.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The <b>FsRtlLogCcFlushError</b> routine returns STATUS_SUCCESS on success or another NTSTATUS value, such as STATUS_INSUFFICIENT_RESOURCES.
 
-
-
-
 ## -remarks
-
-
 
 Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioraiseinformationalharderror">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a> logs the error. 
 
@@ -130,13 +116,7 @@ If the cache still has pages that have been modified, the error is not fatal. Th
 
 If the error is fatal, the routine increments the lost delayed write counter in the processor control block (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PRCB</a>). This counter can be used in troubleshooting lost delayed write errors.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
 
@@ -147,7 +127,4 @@ If the error is fatal, the routine increments the lost delayed write counter in 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>
- 
-
- 
 

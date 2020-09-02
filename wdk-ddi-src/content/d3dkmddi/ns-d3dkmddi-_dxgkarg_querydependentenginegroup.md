@@ -5,10 +5,8 @@ description: Describes all nodes on the physical display adapter (engine) that a
 old-location: display\dxgkarg_querydependentenginegroup.htm
 ms.assetid: 6b1d6465-83bd-42c4-be1f-d7a2cfb74483
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_QUERYDEPENDENTENGINEGROUP structure"]
+keywords: ["DXGKARG_QUERYDEPENDENTENGINEGROUP structure"]
 ms.keywords: "*INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], _DXGKARG_QUERYDEPENDENTENGINEGROUP, d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, display.dxgkarg_querydependentenginegroup"
-f1_keywords:
- - "d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGKARG_QUERYDEPENDENTENGINEGROUP
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_QUERYDEPENDENTENGINEGROUP
+f1_keywords:
+ - _DXGKARG_QUERYDEPENDENTENGINEGROUP
+ - d3dkmddi/_DXGKARG_QUERYDEPENDENTENGINEGROUP
+ - DXGKARG_QUERYDEPENDENTENGINEGROUP
+ - d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGKARG_QUERYDEPENDENTENGINEGROUP
 ---
 
 # _DXGKARG_QUERYDEPENDENTENGINEGROUP structure
@@ -47,33 +48,23 @@ req.typenames: DXGKARG_QUERYDEPENDENTENGINEGROUP
 
 ## -description
 
-
 Describes all nodes on the physical display adapter (engine) that are to be queried when the display port driver's GPU scheduler calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a> function to query node dependencies.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NodeOrdinal
 
 [in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a>.
 
-
 ### -field EngineOrdinal
 
 [in] An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
-
 
 ### -field DependentNodeOrdinalMask
 
 [out] The bitmask that describes all dependent nodes that will be affected by a reset operation.
 
-
 ## -remarks
-
-
 
 The index value <b>EngineOrdinal</b> is assumed to be identical for all dependent nodes.
 
@@ -81,20 +72,11 @@ See Remarks of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/tdr-changes-in-windows-8">TDR changes in Windows 8</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>
- 
-
- 
 

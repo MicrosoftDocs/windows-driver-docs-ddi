@@ -8,8 +8,6 @@ ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.date: 05/08/2018
 keywords: ["IInterruptSync::RegisterServiceRoutine"]
 ms.keywords: IInterruptSync interface [Audio Devices],RegisterServiceRoutine method, IInterruptSync.RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices],IInterruptSync interface, audio.iinterruptsync_registerserviceroutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine
-f1_keywords:
- - "portcls/IInterruptSync.RegisterServiceRoutine"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IInterruptSync.RegisterServiceRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IInterruptSync::RegisterServiceRoutine
+ - portcls/IInterruptSync::RegisterServiceRoutine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IInterruptSync.RegisterServiceRoutine
 ---
 
 # IInterruptSync::RegisterServiceRoutine
@@ -47,44 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <code>RegisterServiceRoutine</code> method registers an interrupt service routine (ISR) that is to be called when an interrupt occurs.
-
 
 ## -parameters
 
+### -param Routine 
 
-
-
-### -param Routine [in]
-
+[in]
 Pointer to the routine that is to be called. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>).
 
+### -param DynamicContext 
 
-### -param DynamicContext [in]
-
+[in]
 Specifies a context value that is passed to the routine when it is called.
 
+### -param First 
 
-### -param First [in]
-
+[in]
 Specifies whether the routine is added at the head or tail of the list of ISRs. If <b>TRUE</b>, the routine is added at the head of the list. If <b>FALSE</b>, it is added at the tail.
-
 
 ## -returns
 
-
-
 <code>RegisterServiceRoutine</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
-
-
-
 
 ## -remarks
 
-
-
 This method adds the specified routine to the synchronization object's list of ISRs. When an interrupt occurs, the routine at the head of the list is called first, and the routine at the tail is called last.
-
-
 

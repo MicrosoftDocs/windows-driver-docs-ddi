@@ -8,38 +8,37 @@ ms.assetid: 3418dd2b-63cb-411f-9bae-390148885907
 ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_GET_CAPS callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET_CAPS, DXGK_BRIGHTNESS_GET_CAPS callback, DxgkDdiGetBrightnessCaps, DxgkDdiGetBrightnessCaps callback function [Display Devices], display.dxgkddigetbrightnesscaps, dispmprt/DxgkDdiGetBrightnessCaps
-f1_keywords:
- - "dispmprt/DxgkDdiGetBrightnessCaps"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dispmprt.h
-api_name:
-- DxgkDdiGetBrightnessCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGK_BRIGHTNESS_GET_CAPS
+ - dispmprt/DXGK_BRIGHTNESS_GET_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dispmprt.h
+api_name:
+ - DxgkDdiGetBrightnessCaps
 ---
 
 # DXGK_BRIGHTNESS_GET_CAPS callback function
@@ -47,12 +46,23 @@ req.typenames:
 
 ## -description
 
-
 Retrieves brightness control capabilities of an integrated display panel.
 
+## -parameters
+
+### -param Context
+
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+
+### -param BrightnessCaps
+
+[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a> structure that represents the brightness control capabilities of the display panel.
+
+## -returns
+
+Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
 
 ## -prototype
-
 
 ```cpp
 DXGK_BRIGHTNESS_GET_CAPS DxgkDdiGetBrightnessCaps;
@@ -64,34 +74,7 @@ NTSTATUS* DxgkDdiGetBrightnessCaps(
 { ... }
 ```
 
-
-## -parameters
-
-
-
-
-### -param Context
-
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
-
-
-### -param BrightnessCaps
-
-[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a> structure that represents the brightness control capabilities of the display panel.
-
-
-## -returns
-
-
-
-Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
-
-
-
-
 ## -remarks
-
-
 
 This function lets the display miniport driver independently indicate its support for adaptive brightness control and/or smooth brightness control.
 
@@ -103,9 +86,6 @@ The driver must continue to support smooth brightness control even if adaptive b
 
 This function should be made pageable.
 
-
-
-
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a>
@@ -113,11 +93,4 @@ This function should be made pageable.
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
- 
-
- 
-
 

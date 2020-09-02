@@ -8,8 +8,6 @@ ms.assetid: abe15fd9-620e-4c24-9a82-32d20a7e49cc
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_TIMER callback function"]
 ms.keywords: DFTimerObjectRef_adf533a0-e5e3-4036-b1fd-5071d010adb5.xml, EVT_WDF_TIMER, EVT_WDF_TIMER callback, EvtTimerFunc, EvtTimerFunc callback function, kmdf.evttimerfunc, wdf.evttimerfunc, wdftimer/EvtTimerFunc
-f1_keywords:
- - "wdftimer/EvtTimerFunc"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdftimer.h
-api_name:
-- EvtTimerFunc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_TIMER
+ - wdftimer/EVT_WDF_TIMER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdftimer.h
+api_name:
+ - EvtTimerFunc
 ---
 
 # EVT_WDF_TIMER callback function
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <i>EvtTimerFunc</i> event callback function is called when a specified time period has elapsed.
 
-
 ## -parameters
 
+### -param Timer 
 
-
-
-### -param Timer [in]
-
-A handle to a framework timer object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>. 
-
+[in]
+A handle to a framework timer object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
 ## -remarks
-
-
 
 To register an <i>EvtTimerFunc</i> callback function and specify the time period that should elapse before the framework calls this function, your driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
@@ -77,16 +69,7 @@ Starting in UMDF version 2.0, a UMDF driver's <i>EvtTimerFunc</i> callback funct
 
 For more information about framework timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>
- 
-
- 
 

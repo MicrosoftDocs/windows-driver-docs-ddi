@@ -8,36 +8,42 @@ ms.assetid: 910ff4a4-e0e3-4402-8231-c3d62afe2ea4
 ms.author: windowsdriverdev
 ms.date: 11/30/2019
 ms.topic: struct
-f1_keywords:
- - "ntddstor/DEVICE_INTERNAL_STATUS_DATA"
-ms.keywords: DEVICE_INTERNAL_STATUS_DATA, DEVICE_INTERNAL_STATUS_DATA, *PDEVICE_INTERNAL_STATUS_DATA, 
+ms.keywords: DEVICE_INTERNAL_STATUS_DATA, DEVICE_INTERNAL_STATUS_DATA, *PDEVICE_INTERNAL_STATUS_DATA,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DEVICE_INTERNAL_STATUS_DATA, *PDEVICE_INTERNAL_STATUS_DATA
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddstor.h
-api_name: 
- - DEVICE_INTERNAL_STATUS_DATA
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _DEVICE_INTERNAL_STATUS_DATA
+ - ntddstor/_DEVICE_INTERNAL_STATUS_DATA
+ - PDEVICE_INTERNAL_STATUS_DATA
+ - ntddstor/PDEVICE_INTERNAL_STATUS_DATA
+ - DEVICE_INTERNAL_STATUS_DATA
+ - ntddstor/DEVICE_INTERNAL_STATUS_DATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_INTERNAL_STATUS_DATA
+product:
+ - Windows
 ---
 
 # DEVICE_INTERNAL_STATUS_DATA structure
+
 
 ## -description
 
@@ -102,3 +108,4 @@ See the SCSI specification for more information.
 ## -see-also
 
 [IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG](ni-ntddstor-ioctl_storage_get_device_internal_log.md)
+

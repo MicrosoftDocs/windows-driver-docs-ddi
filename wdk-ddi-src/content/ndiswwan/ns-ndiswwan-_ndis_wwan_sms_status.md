@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_sms_status.htm
 tech.root: netvista
 ms.assetid: 7ab05cae-6902-4150-9af3-52981ba820b7
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SMS_STATUS structure"]
+keywords: ["NDIS_WWAN_SMS_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_STATUS, PNDIS_WWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7f7554d1-07d3-451b-b36c-0c03d589c6f8.xml, _NDIS_WWAN_SMS_STATUS, ndiswwan/NDIS_WWAN_SMS_STATUS, ndiswwan/PNDIS_WWAN_SMS_STATUS, netvista.ndis_wwan_sms_status"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SMS_STATUS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SMS_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS
+f1_keywords:
+ - _NDIS_WWAN_SMS_STATUS
+ - ndiswwan/_NDIS_WWAN_SMS_STATUS
+ - PNDIS_WWAN_SMS_STATUS
+ - ndiswwan/PNDIS_WWAN_SMS_STATUS
+ - NDIS_WWAN_SMS_STATUS
+ - ndiswwan/NDIS_WWAN_SMS_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SMS_STATUS
 ---
 
 # _NDIS_WWAN_SMS_STATUS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS
 
 ## -description
 
-
 The NDIS_WWAN_SMS_STATUS structure represents the status of the SMS message store.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,11 +104,9 @@ sizeof(NDIS_WWAN_SMS_STATUS)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uStatus
 
 The status of the SMS operation.
-
 
 ### -field SmsStatus
 
@@ -118,18 +114,11 @@ A formatted
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_status">WWAN_SMS_STATUS</a> object that represents the
      status of the SMS message store.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_status">WWAN_SMS_STATUS</a>
- 
-
- 
 

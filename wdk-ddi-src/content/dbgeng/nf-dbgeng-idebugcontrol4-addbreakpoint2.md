@@ -8,8 +8,6 @@ ms.assetid: 001a64dd-1470-42e0-98ba-22ba33f3fa69
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::AddBreakpoint2"]
 ms.keywords: AddBreakpoint2, AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddBreakpoint2 method, IDebugControl4.AddBreakpoint2, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2
-f1_keywords:
- - "dbgeng/IDebugControl4.AddBreakpoint2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugControl4.AddBreakpoint2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::AddBreakpoint2
+ - dbgeng/IDebugControl4::AddBreakpoint2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugControl4.AddBreakpoint2
 ---
 
 # IDebugControl4::AddBreakpoint2
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>AddBreakpoint2</b>  method creates a new breakpoint for the current target.
-
 
 ## -parameters
 
+### -param Type 
 
-
-
-### -param Type [in]
-
+[in]
 Specifies the breakpoint type of the new breakpoint.  This can be either of the following values:
 
 <table>
@@ -86,22 +81,18 @@ DEBUG_BREAKPOINT_DATA
 </td>
 </tr>
 </table>
- 
 
+### -param DesiredId 
 
-### -param DesiredId [in]
-
+[in]
 Specifies the desired ID of the new breakpoint.  If it is DEBUG_ANY_ID, the engine will pick an unused ID.
 
+### -param Bp 
 
-### -param Bp [out]
-
+[out]
 Receives an interface pointer to the new breakpoint.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -135,12 +126,7 @@ The breakpoint couldn't be created with the desired ID or the value of <i>Type</
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 If <i>DesiredId</i> is not DEBUG_ANY_ID and another breakpoint already uses the ID <i>DesiredId</i>, these methods will fail.
 
@@ -151,12 +137,7 @@ The client is saved as the adder of the new breakpoint. See <a href="https://doc
 <div class="alert"><b>Note</b>    Even though <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a> is called.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>
 
@@ -175,7 +156,4 @@ The client is saved as the adder of the new breakpoint. See <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>
- 
-
- 
 

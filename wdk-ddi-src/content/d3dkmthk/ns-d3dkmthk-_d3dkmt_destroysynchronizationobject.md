@@ -5,10 +5,8 @@ description: The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the hand
 old-location: display\d3dkmt_destroysynchronizationobject.htm
 ms.assetid: d6be16da-7f92-4c10-af8b-7ecd05ef6856
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure"]
+keywords: ["D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_ca88b27b-fcac-41f6-bf16-9f26507f4e3f.xml, _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, display.d3dkmt_destroysynchronizationobject
-f1_keywords:
- - "d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+f1_keywords:
+ - _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+ - d3dkmthk/_D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+ - D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+ - d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 ---
 
 # _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure
@@ -47,31 +48,19 @@ req.typenames: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 
 ## -description
 
-
 The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hSyncObject
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
-
+[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject">D3DKMTCreateSynchronizationObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroysynchronizationobject">D3DKMTDestroySynchronizationObject</a>
- 
-
- 
 

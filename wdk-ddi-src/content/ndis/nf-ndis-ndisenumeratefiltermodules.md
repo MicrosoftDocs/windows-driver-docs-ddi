@@ -8,8 +8,6 @@ ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.date: 05/02/2018
 keywords: ["NdisEnumerateFilterModules function"]
 ms.keywords: NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules
-f1_keywords:
- - "ndis/NdisEnumerateFilterModules"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisEnumerateFilterModules
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisEnumerateFilterModules
+ - ndis/NdisEnumerateFilterModules
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisEnumerateFilterModules
 ---
 
 # NdisEnumerateFilterModules function
@@ -48,19 +47,15 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisEnumerateFilterModules</b> function enumerates all the filters modules and filter intermediate driver
   instances in a filter stack.
 
-
 ## -parameters
 
+### -param NdisHandle 
 
-
-
-### -param NdisHandle [in]
-
+[in]
 An NDIS handle that was obtained during caller initialization. For more information about this
      handle, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/obtaining-pool-handles">Obtaining Pool Handles</a>.
@@ -77,9 +72,9 @@ If the handle is an NDIS filter module handle, NDIS returns information about al
      that are currently attached to the underlying miniport adapter to which the specified filter module is
      attached, starting with the top-most filter module.
 
+### -param InterfaceBuffer 
 
-### -param InterfaceBuffer [in]
-
+[in]
 A pointer to a caller-allocated memory block in which NDIS returns the information for all the
      filter modules in a filter stack, starting with top-most filter. This buffer contains an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that is
@@ -87,30 +82,27 @@ A pointer to a caller-allocated memory block in which NDIS returns the informati
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures, one
      for each filter module in the stack.
 
+### -param InterfaceBufferLength 
 
-### -param InterfaceBufferLength [in]
-
+[in]
 The length, in bytes, of the caller-supplied memory block at the 
      <b>InterfaceBuffer</b> member.
 
+### -param BytesNeeded 
 
-### -param BytesNeeded [in, out]
-
+[in, out]
 A pointer to a caller-supplied variable where NDIS writes the total number of bytes that NDIS
      requires to successfully return the interface information for all the filters in the filter
      stack.
 
+### -param BytesWritten 
 
-### -param BytesWritten [in, out]
-
+[in, out]
 A pointer to a caller-supplied variable where NDIS writes the total bytes that NDIS wrote in the
      memory at 
      <b>InterfaceBuffer</b>.
 
-
 ## -returns
-
-
 
 <b>NdisEnumerateFilterModules</b> returns one of the following status values:
 
@@ -159,14 +151,8 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An NDIS miniport driver, protocol driver, or filter driver can call the 
     <b>NdisEnumerateFilterModules</b> function to enumerate all the filters in a filter stack.
@@ -179,20 +165,11 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
     attached to M2, 
     <b>NdisEnumerateFilterModules</b> returns the filter list in the following order: F3, M2, F2, F1.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a>
- 
-
- 
 

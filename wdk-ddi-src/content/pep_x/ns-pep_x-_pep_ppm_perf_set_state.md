@@ -6,10 +6,8 @@ old-location: kernel\pep_ppm_perf_set_state.htm
 tech.root: kernel
 ms.assetid: 0d822370-f08b-404d-ad0f-60ea091661d9
 ms.date: 04/30/2018
-keywords: ["_PEP_PPM_PERF_SET_STATE structure"]
+keywords: ["PEP_PPM_PERF_SET_STATE structure"]
 ms.keywords: "*PPEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET_STATE, kernel.pep_ppm_perf_set_state, pepfx/PEP_PPM_PERF_SET_STATE, pepfx/PPEP_PPM_PERF_SET_STATE"
-f1_keywords:
- - "pep_x/PEP_PPM_PERF_SET_STATE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pepfx.h
-api_name:
-- PEP_PPM_PERF_SET_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE
+f1_keywords:
+ - _PEP_PPM_PERF_SET_STATE
+ - pep_x/_PEP_PPM_PERF_SET_STATE
+ - PPEP_PPM_PERF_SET_STATE
+ - pep_x/PPEP_PPM_PERF_SET_STATE
+ - PEP_PPM_PERF_SET_STATE
+ - pep_x/PEP_PPM_PERF_SET_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pepfx.h
+api_name:
+ - PEP_PPM_PERF_SET_STATE
 ---
 
 # _PEP_PPM_PERF_SET_STATE structure
@@ -47,24 +50,17 @@ req.typenames: PEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE
 
 ## -description
 
-
-Used in the <b>PEP_NOTIFY_PPM_PERF_SET </b>notification at runtime to set the current operating performance of the processor.  
-
+Used in the <b>PEP_NOTIFY_PPM_PERF_SET </b>notification at runtime to set the current operating performance of the processor.
 
 ## -struct-fields
 
-
-
-
 ### -field MinimumPerformanceState
 
-On input, the new requested minimum performance state. This state is  defined as the absolute minimum instantaneous performance level at which  the processor may run. The operating system may set this value to any performance value in the range [Lowest Performance, Guaranteed Performance], inclusive. Minimum performance must never be set to a value higher than maximum performance. 
-
+On input, the new requested minimum performance state. This state is  defined as the absolute minimum instantaneous performance level at which  the processor may run. The operating system may set this value to any performance value in the range [Lowest Performance, Guaranteed Performance], inclusive. Minimum performance must never be set to a value higher than maximum performance.
 
 ### -field MaximumPerformanceState
 
 On input, the new requested maximum performance state. This state is defined as the absolute maximum instantaneous performance level at which the processor may run. The OS may set Maximum performance to any performance value in the range [Lowest Performance, Highest Performance], inclusive.
-
 
 ### -field DesiredPerformanceState
 
@@ -77,16 +73,7 @@ On input, the new requested desired performance state. This state is defined as 
 <li>Above the guaranteed performance level, the platform must provide the guaranteed performance level. The platform should attempt to provide up to the desired performance level, if current operating conditions allow for it, but it is not required to do so. </li>
 </ul>
 
- 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
- 
-
- 
 

@@ -5,38 +5,42 @@ description: The WWAN_UICC_APP_INFO structure describes information about a UICC
 tech.root: netvista
 ms.assetid: 1F3B41B3-0781-42A1-9ADD-1F1F6BBDC4E6
 ms.date: 04/08/2019
-keywords: ["_WWAN_UICC_APP_INFO structure"]
-f1_keywords:
- - "wwan/_WWAN_UICC_APP_INFO"
-ms.keywords: _WWAN_UICC_APP_INFO, WWAN_UICC_APP_INFO, *PWWAN_UICC_APP_INFO, 
+keywords: ["WWAN_UICC_APP_INFO structure"]
+ms.keywords: _WWAN_UICC_APP_INFO, WWAN_UICC_APP_INFO, *PWWAN_UICC_APP_INFO,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: WWAN_UICC_APP_INFO, *PWWAN_UICC_APP_INFO
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_UICC_APP_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_UICC_APP_INFO
+ - wwan/_WWAN_UICC_APP_INFO
+ - PWWAN_UICC_APP_INFO
+ - wwan/PWWAN_UICC_APP_INFO
+ - WWAN_UICC_APP_INFO
+ - wwan/WWAN_UICC_APP_INFO
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_UICC_APP_INFO
 ---
 
 # _WWAN_UICC_APP_INFO structure
+
 
 ## -description
 
@@ -47,15 +51,15 @@ The **WWAN_UICC_APP_INFO** structure describes information about a UICC applicat
 ### -field AppType
 
 A [**WWAN_UICC_APP_TYPE**](../wwan/ne-wwan-_wwan_uicc_app_type.md) value that specifies the type of the UICC application.
- 
+
 ### -field AppIdSize
 
 The size of the application ID in bytes, as defined in Section 8.3 of the [ETSI TS 102 221 technical specification](https://go.microsoft.com/fwlink/p/?linkid=864594). This field is set to zero (0) for the **WwanUiccAppTypeMf**, **WwanUiccAppTypeMfSIM**, or **WwanUiccAppTypeMfRUIM** app types.
- 
+
 ### -field AppId
 
 The application ID. Only the first **AppIdSize** bytes are meaningful. If the application ID is longer than **WWAN_UICC_APP_ID_MAX_LEN** bytes, then **AppIdSize** specifies the actual length but only the first **WWAN_UICC_APP_ID_MAX_LEN** bytes are in this field. This field is valid only when **AppType** is not **WwanUiccAppTypeMf**, **WwanUiccAppTypeMfSIM**, or **WwanUiccAppTypeMfRUIM**.
- 
+
 ### -field AppNameLength
 
 The length, in characters, of the application name.
@@ -80,7 +84,7 @@ The following constants are defined in the Wwan.h header for this structure.
 
 `#define WWAN_UICC_APP_ID_MAX_LEN 32`  
 `#define WWAN_UICC_APP_NAME_MAX_LEN 256`  
-`#define WWAN_UICC_PINREF_MAX 8`  
+`#define WWAN_UICC_PINREF_MAX 8`
 
 ## -see-also
 
@@ -91,3 +95,4 @@ The following constants are defined in the Wwan.h header for this structure.
 [**WWAN_UICC_APP_LIST**](../wwan/ns-wwan-_wwan_uicc_app_list.md)
 
 [**WWAN_UICC_APP_TYPE**](../wwan/ne-wwan-_wwan_uicc_app_type.md)
+

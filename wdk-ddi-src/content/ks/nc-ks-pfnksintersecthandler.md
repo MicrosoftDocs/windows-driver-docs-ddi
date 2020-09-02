@@ -8,8 +8,6 @@ ms.assetid: ec4ca8b0-5386-4a03-8cf8-46852c168732
 ms.date: 04/23/2018
 keywords: ["PFNKSINTERSECTHANDLER callback function"]
 ms.keywords: KStrIntersectHandler, KStrIntersectHandler routine [Streaming Media Devices], PFNKSINTERSECTHANDLER, ks/KStrIntersectHandler, ksfunc_25fa087e-9d66-4479-aa4c-632a63ee6779.xml, stream.kstrintersecthandler
-f1_keywords:
- - "ks/KStrIntersectHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- KStrIntersectHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSINTERSECTHANDLER
+ - ks/PFNKSINTERSECTHANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - KStrIntersectHandler
 ---
 
 # PFNKSINTERSECTHANDLER callback function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 A streaming minidriver's <i>KStrIntersectHandler</i> routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in]
-
+[in]
 Specifies the IRP that handles the property request.
 
+### -param Pin 
 
-### -param Pin [in]
-
+[in]
 Specifies the specific property being queried and the pin factory identifier that was validated.
 
+### -param DataRange 
 
-### -param DataRange [in]
-
+[in]
 Specifies the current data range to compare. The data range has been validated as either matching a particular range on the pin or as a wildcard match.
 
+### -param Data 
 
-### -param Data [out, optional]
-
+[out, optional]
 Specifies the data format returned, or the size, in bytes, of the data format.
 
-
 ## -returns
-
-
 
 Returns STATUS_SUCCESS if there is a data intersection that fits in the supplied buffer. Otherwise, one of the following values is returned. 
 
@@ -121,18 +113,8 @@ If there is no intersection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspindataintersection">KsPinDataIntersection</a>
- 
-
- 
 

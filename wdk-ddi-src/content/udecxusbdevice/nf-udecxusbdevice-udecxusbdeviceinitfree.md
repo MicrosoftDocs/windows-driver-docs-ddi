@@ -8,8 +8,6 @@ ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitFree function"]
 ms.keywords: UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree
-f1_keywords:
- - "udecxusbdevice/UdecxUsbDeviceInitFree"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbDeviceInitFree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbDeviceInitFree
+ - udecxusbdevice/UdecxUsbDeviceInitFree
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbDeviceInitFree
 ---
 
 # UdecxUsbDeviceInitFree function
@@ -48,31 +47,20 @@ req.typenames:
 
 ## -description
 
-
-Releases the resources that were allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a> call. 
-
+Releases the resources that were allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a> call.
 
 ## -parameters
 
+### -param UdecxUsbDeviceInit 
 
-
-
-### -param UdecxUsbDeviceInit [in, out]
-
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
-
+[in, out]
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: display\dxgkmdt_opm_hdcp_key_selection_vector.htm
 tech.root: display
 ms.assetid: a69eae04-a7e0-4d0c-a3e0-d49905096c8e
 ms.date: 05/10/2018
-keywords: ["_DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure"]
+keywords: ["DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure"]
 ms.keywords: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure [Display Devices], DmStructs_381ec3d0-fcf3-4153-8cc3-f2dda3f9684f.xml, _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, display.dxgkmdt_opm_hdcp_key_selection_vector
-f1_keywords:
- - "d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+f1_keywords:
+ - _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+ - d3dkmdt/_DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+ - DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+ - d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 ---
 
 # _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure
@@ -47,36 +48,19 @@ req.typenames: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 
 ## -description
 
-
 The DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure contains a key-selection vector (KSV) for a High-bandwidth Digital Content Protection (HDCP) protected output.
-
 
 ## -struct-fields
 
-
-
-
 ### -field abKeySelectionVector
 
-A 5-byte array that comprises the HDCP KSV. Byte 0 is the least significant byte and byte 4 is the most significant byte. 
-
+A 5-byte array that comprises the HDCP KSV. Byte 0 is the least significant byte and byte 4 is the most significant byte.
 
 ## -remarks
 
-
-
-For more information about the HDCP KSV, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>. 
-
-
-
+For more information about the HDCP KSV, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
- 
-
- 
 

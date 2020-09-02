@@ -8,8 +8,6 @@ ms.assetid: A8BAD8D4-1009-43D0-B82F-8252062A029C
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_group_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-f1_keywords:
- - "dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dxgiddi.h
-api_name:
-- DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+f1_keywords:
+ - DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+ - dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dxgiddi.h
+api_name:
+ - DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ---
 
 # DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure
@@ -47,19 +46,13 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 
 ## -description
 
-
 Used by the user-mode display driver to specify groups of overlay plane capabilities.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumPlanes
 
 Specifies the number of overlay planes that are supported by the overlay planes within the capability group.
-
 
 ### -field MaxStretchFactor
 
@@ -69,7 +62,6 @@ The stretch factor is the ratio of the final, stretched overlay plane size to th
 
 It's not guaranteed that this stretch factor can be applied in all scenarios. For example, it might be possible to stretch only one overlay plane out of several using this factor.
 
-
 ### -field MaxShrinkFactor
 
 Specifies the maximum shrink factor that is supported by the overlay planes within the capability group.
@@ -78,11 +70,9 @@ The shrink factor is the ratio of the final, shrunk overlay plane size to the or
 
 It's not guaranteed that this shrink factor can be applied in all scenarios. For example, it might be possible to shrink only one overlay plane out of several using this factor.
 
-
 ### -field OverlayCaps
 
 The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_feature_caps">DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
-
 
 ### -field StereoCaps
 

@@ -8,8 +8,6 @@ ms.assetid: 5a00917b-36e8-4e06-a001-d8e6ac2e3573
 ms.date: 05/02/2018
 keywords: ["FwpsInjectionHandleDestroy0 function"]
 ms.keywords: FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
-f1_keywords:
- - "fwpsk/FwpsInjectionHandleDestroy0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsInjectionHandleDestroy0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsInjectionHandleDestroy0
+ - fwpsk/FwpsInjectionHandleDestroy0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsInjectionHandleDestroy0
 ---
 
 # FwpsInjectionHandleDestroy0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsInjectionHandleDestroy0</b> function destroys an injection handle that was previously created by
@@ -57,17 +55,12 @@ The
 
 ## -parameters
 
+### -param injectionHandle 
 
-
-
-### -param injectionHandle [in]
-
+[in]
 The injection handle being destroyed.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsInjectionHandleDestroy0</b> function returns one of the following NTSTATUS codes.
@@ -100,14 +93,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsInjectionHandleDestroy0</b> function to destroy an injection handle that was previously created by
@@ -117,16 +104,7 @@ A callout driver calls the
     <b>FwpsInjectionHandleDestroy0</b> function will not return to the caller until all pending injections are
     completed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a>
- 
-
- 
 

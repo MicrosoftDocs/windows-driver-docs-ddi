@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/OpenResource"
+ - PFND3D10DDI_OPENRESOURCE
+ - d3d10umddi/PFND3D10DDI_OPENRESOURCE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_OPENRESOURCE callback function
+
 
 ## -description
 

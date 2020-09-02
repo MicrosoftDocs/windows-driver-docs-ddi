@@ -8,8 +8,6 @@ ms.assetid: 2B56A2D3-1FA6-4212-A83C-3C20D826353B
 ms.date: 03/29/2018
 keywords: ["HW_TRACING_ENABLED callback function"]
 ms.keywords: HW_TRACING_ENABLED, HwStorTracingEnabled, HwStorTracingEnabled routine [Storage Devices], storage.hwstortracingenabled, storport/HwStorTracingEnabled
-f1_keywords:
- - "storport/HwStorTracingEnabled"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorTracingEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_TRACING_ENABLED
+ - storport/HW_TRACING_ENABLED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorTracingEnabled
 ---
 
 # HW_TRACING_ENABLED callback function
@@ -47,59 +46,35 @@ req.typenames:
 
 ## -description
 
-
-The <b>HwStorTracingEnabled</b> callback routine enables the Storport to notify a miniport that event tracing is enabled. 
-
+The **HwStorTracingEnabled** callback routine enables the Storport to notify a miniport that event tracing is enabled.
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension
 
+### -param Enabled 
 
-### -param Enabled [in]
-
+[in]
 True to enable tracing in the miniport. Otherwise, false.
-
 
 #### - DeviceExtension [in]
 
-A pointer to the miniport driver's per-HBA storage area. 
-
+A pointer to the miniport driver's per-HBA storage area.
 
 ## -remarks
 
+The name *HwStorTracingEnabled* is placeholder text for the actual routine name. The actual prototype of this routine is defined in *Storport.h* as follows:
 
-
-The name <i>HwStorTracingEnabled</i> is placeholder text for the actual routine name. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+```cpp
+typedef
 VOID
 HW_TRACING_ENABLED (
     _In_ PVOID HwDeviceExtension,
     _In_ BOOLEAN Enabled
-    );</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+    );
+```
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>
- 
-
- 
+[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md)
 

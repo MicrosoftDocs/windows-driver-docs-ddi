@@ -7,8 +7,6 @@ ms.assetid: 5F4E17CB-3B8B-4BBA-A819-B8E28183F1CB
 ms.date: 05/10/2018
 keywords: ["D3DKMTMakeResident function"]
 ms.keywords: D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices], d3dkmthk/D3DKMTMakeResident, display.d3dkmtmakeresident
-f1_keywords:
- - "d3dkmthk/D3DKMTMakeResident"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,22 +24,23 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTMakeResident
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTMakeResident
+ - d3dkmthk/D3DKMTMakeResident
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTMakeResident
 ---
 
 # D3DKMTMakeResident function
@@ -73,7 +72,4 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident">D3DDDI_MAKERESIDENT</a>
- 
-
- 
 

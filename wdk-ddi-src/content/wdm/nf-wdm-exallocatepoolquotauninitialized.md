@@ -8,7 +8,7 @@ targetos: Windows
 description: 
 req.assembly: 
 req.construct-type: function
-req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo 
+req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.idl: 
@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePoolQuotaUninitialized
 f1_keywords:
+ - ExAllocatePoolQuotaUninitialized
  - wdm/ExAllocatePoolQuotaUninitialized
 dev_langs:
  - c++
@@ -43,7 +44,7 @@ dev_langs:
 
 This routine is a wrapper and replacement option for [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md). There is no difference in functionality.
 
-The **ExAllocatePoolQuotaUninitialized** routine allocates pool memory, charging the quota against the current process. 
+The **ExAllocatePoolQuotaUninitialized** routine allocates pool memory, charging the quota against the current process.
 
 ## -parameters
 
@@ -51,23 +52,21 @@ The **ExAllocatePoolQuotaUninitialized** routine allocates pool memory, charging
 
 The type of pool memory to allocate. For a description of the available pool memory types, see [**POOL_TYPE**](ne-wdm-_pool_type.md). 
 
-Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the **POOL_COLD_ALLOCATION** flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The **POOL_COLD_ALLOCATION** flag is only advisory. 
-
+Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the **POOL_COLD_ALLOCATION** flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The **POOL_COLD_ALLOCATION** flag is only advisory.
 
 ### -param NumberOfBytes
 
-The number of bytes to allocate. 
-
+The number of bytes to allocate.
 
 ### -param Tag
 
-The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to four characters delimited by single quotation marks (for example, `Tag1`). The string is usually specified in reverse order (for example, `1gaT`). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path. 
+The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to four characters delimited by single quotation marks (for example, `Tag1`). The string is usually specified in reverse order (for example, `1gaT`). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
 
 ## -returns
 
 **ExAllocatePoolQuotaUninitialized** returns a pointer to the allocated pool. 
 
-If the request cannot be satisfied, **ExAllocatePoolQuotaUninitialized** raises an exception unless POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is specified. Using POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is preferred for performance reasons. 
+If the request cannot be satisfied, **ExAllocatePoolQuotaUninitialized** raises an exception unless POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is specified. Using POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is preferred for performance reasons.
 
 ## -remarks
 
@@ -78,8 +77,8 @@ This routine is called by highest-level drivers that allocate memory to satisfy 
 
 See the Remarks section of [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md) for additional guidance.
 
-
 ## -see-also
 
 * [**ExAllocatePoolQuotaZero**](nf-wdm-exallocatepoolquotazero.md)
 * [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md)
+

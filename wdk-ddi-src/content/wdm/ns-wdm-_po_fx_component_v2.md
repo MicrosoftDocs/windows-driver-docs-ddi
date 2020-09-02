@@ -6,10 +6,8 @@ old-location: kernel\po_fx_component.htm
 tech.root: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
 ms.date: 04/30/2018
-keywords: ["_PO_FX_COMPONENT_V2 structure"]
+keywords: ["PO_FX_COMPONENT_V2 structure"]
 ms.keywords: "*PPO_FX_COMPONENT, *PPO_FX_COMPONENT_V2, PO_FX_COMPONENT, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_V2, kernel.po_fx_component, wdm/PO_FX_COMPONENT, wdm/PO_FX_COMPONENT_V2, wdm/PPO_FX_COMPONENT_V2"
-f1_keywords:
- - "wdm/PO_FX_COMPONENT_V2"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- PO_FX_COMPONENT_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: PO_FX_COMPONENT_V2, *PPO_FX_COMPONENT_V2
+f1_keywords:
+ - _PO_FX_COMPONENT_V2
+ - wdm/_PO_FX_COMPONENT_V2
+ - PPO_FX_COMPONENT_V2
+ - wdm/PPO_FX_COMPONENT_V2
+ - PO_FX_COMPONENT_V2
+ - wdm/PO_FX_COMPONENT_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - PO_FX_COMPONENT_V2
 ---
 
 # _PO_FX_COMPONENT_V2 structure
@@ -47,14 +50,9 @@ req.typenames: PO_FX_COMPONENT_V2, *PPO_FX_COMPONENT_V2
 
 ## -description
 
-
 The <b>PO_FX_COMPONENT</b> structure describes the power state attributes of a component in a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Id
 
@@ -65,16 +63,13 @@ A component ID that uniquely identifies this component with respect to the other
 
 This member can be set to the following flag bit: <b>PO_FX_COMPONENT_FLAG_F0_ON_DX</b>. For more information, see Remarks.
 
-
 ### -field DeepestWakeableIdleState
 
 The index of the deepest Fx state from which the component can wake. Specify 0 for F0, 1 for F1, and so on. This index must be less than <b>IdleStateCount</b>.
 
-
 ### -field IdleStateCount
 
 The number of elements in the array that is pointed to by the <b>IdleStates</b> member. Additionally, this member specifies the number of Fx power states that the component supports. A component must support at least one Fx state (F0).
-
 
 ### -field IdleStates
 
@@ -90,10 +85,7 @@ A value that specifies the number of components this component depends on. For m
 
 A pointer to an array of component indexes this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
 
-
 ## -remarks
-
-
 
 When a device driver registers a device with PoFx, the driver supplies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that holds the registration information. This structure contains an array of <b>PO_FX_COMPONENT</b> structures. The elements in this array describe the power attributes of the individual components in the device. PoFx uses the information in this array to manage the power settings of these components.
 
@@ -114,14 +106,7 @@ During the component activation, PoFx asynchronously activates all providers fir
 
 When the component transitions to the idle state, PoFx first makes the dependent components idle. After the driver completes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a> and the platform extension plug-in (PEP) is notified that the component is idle, PoFx recursively traverses the dependency graph in breadth-first traversal and asynchronously idles each provider.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/component-level-power-management">Component-Level Power Management</a>
 
@@ -132,7 +117,4 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
- 
-
- 
 

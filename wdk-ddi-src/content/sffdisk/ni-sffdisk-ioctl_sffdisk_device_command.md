@@ -8,8 +8,6 @@ ms.assetid: ccf9e0a2-b891-474c-ac95-7b18112857c0
 ms.date: 02/15/2018
 keywords: ["IOCTL_SFFDISK_DEVICE_COMMAND IOCTL"]
 ms.keywords: IOCTL_SFFDISK_DEVICE_COMMAND, IOCTL_SFFDISK_DEVICE_COMMAND control, IOCTL_SFFDISK_DEVICE_COMMAND control code [Buses], SD.ioctl_sffdisk_device_command, sd-ioctls_27448784-2a0f-484b-a36f-60f3c617ec08.xml, sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND
-f1_keywords:
- - "sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND"
 req.header: sffdisk.h
 req.include-header: Sffdisk.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sffdisk.h
-api_name:
-- IOCTL_SFFDISK_DEVICE_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SFFDISK_DEVICE_COMMAND
+ - sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sffdisk.h
+api_name:
+ - IOCTL_SFFDISK_DEVICE_COMMAND
 ---
 
 # IOCTL_SFFDISK_DEVICE_COMMAND IOCTL
 
 
 ## -description
-
 
 User-mode applications use this IOCTL to send Secure Digital (SD) card commands to an SD card. For a description of these commands, see the <i>SD Memory Card Part 1 Physical Layer Specification</i>, and the <i>SD Memory Card Part 3 Security</i> specification.
 
@@ -130,62 +128,17 @@ If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-
-
-
-
 
 ### -input-buffer-length
 
-
-
-
-
-
-
-
 ### -output-buffer
-
-
-
-
-
-
-
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

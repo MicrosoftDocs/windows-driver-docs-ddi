@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbSetPowerComponentResidency"
+ - DXGKCB_SETPOWERCOMPONENTRESIDENCY
+ - d3dkmddi/DXGKCB_SETPOWERCOMPONENTRESIDENCY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_SETPOWERCOMPONENTRESIDENCY callback function
+
 
 ## -description
 

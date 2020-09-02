@@ -8,8 +8,6 @@ ms.assetid: e3a6d757-68c5-49d1-92cc-0ebf6ba6bbec
 ms.date: 04/23/2018
 keywords: ["BdaValidateNodeProperty function"]
 ms.keywords: BdaValidateNodeProperty, BdaValidateNodeProperty function [Streaming Media Devices], bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, bdasup/BdaValidateNodeProperty, stream.bdavalidatenodeproperty
-f1_keywords:
- - "bdasup/BdaValidateNodeProperty"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Bdasup.lib
-- Bdasup.dll
-api_name:
-- BdaValidateNodeProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - BdaValidateNodeProperty
+ - bdasup/BdaValidateNodeProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Bdasup.lib
+ - Bdasup.dll
+api_name:
+ - BdaValidateNodeProperty
 ---
 
 # BdaValidateNodeProperty function
@@ -48,26 +47,13 @@ req.typenames:
 
 ## -description
 
-
-The <b>BdaValidateNodeProperty</b> function validates that a node property request is associated with a specific pin. 
-
+The <b>BdaValidateNodeProperty</b> function validates that a node property request is associated with a specific pin.
 
 ## -parameters
 
-
-
-
 ### -param pIrp
 
-
-
-
 ### -param pProperty
-
-
-
-
-
 
 #### - Irp [in]
 
@@ -78,29 +64,15 @@ Points to the IRP for the request to validate that the current pin controls the 
 
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
-
 ## -returns
 
-
-
-Returns STATUS_SUCCESS or an appropriate error code. 
-
-
-
+Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-
-
-A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> function to validate that the pin controls a specific node property after the minidriver receives the node property request from the network provider. This node property request can be, for example, a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-rf-tuner-frequency">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdafrequencyfilter">KSPROPSETID_BdaFrequencyFilter</a> property set or a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-autodemodulate-start">KSPROPERTY_BDA_AUTODEMODULATE_START</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdaautodemodulate">KSPROPSETID_BdaAutodemodulate</a> property set. These property sets manipulate tuner and demodulator nodes. After successfully calling <b>BdaValidateNodeProperty</b>, the minidriver obtains a pointer to the BDA filter from the passed IRP so that the minidriver can perform an operation on the particular node. 
-
-
-
+A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> function to validate that the pin controls a specific node property after the minidriver receives the node property request from the network provider. This node property request can be, for example, a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-rf-tuner-frequency">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdafrequencyfilter">KSPROPSETID_BdaFrequencyFilter</a> property set or a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-autodemodulate-start">KSPROPERTY_BDA_AUTODEMODULATE_START</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdaautodemodulate">KSPROPSETID_BdaAutodemodulate</a> property set. These property sets manipulate tuner and demodulator nodes. After successfully calling <b>BdaValidateNodeProperty</b>, the minidriver obtains a pointer to the BDA filter from the passed IRP so that the minidriver can perform an operation on the particular node.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
@@ -119,7 +91,4 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdafrequencyfilter">KSPROPSETID_BdaFrequencyFilter</a>
- 
-
- 
 

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiPatch"
+ - DXGKDDI_PATCH
+ - d3dkmddi/DXGKDDI_PATCH
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_PATCH callback function
+
 
 ## -description
 

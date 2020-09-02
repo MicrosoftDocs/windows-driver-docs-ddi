@@ -8,39 +8,39 @@ ms.assetid: 5b621cc0-5062-44ab-8d1e-ddd88e10b1eb
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063"
-ms.keywords: D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063, D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063, 
+ms.keywords: D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063, D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
-product:
-- Windows
 targetos: Windows
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
+f1_keywords:
+ - D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
+ - d3d12umddi/D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
 dev_langs:
  - c++
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 ---
 
 # D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063 structure
+
 
 ## -description
 
@@ -65,9 +65,11 @@ Contains arguments used to create a video extension command.
 The size of the creation parameters structure in bytes.
 
 ### -field hDrvProtectedResourceSession
+
  
 Handle to the D3D12DDI_HPROTECTEDRESOURCESESSION_0030. Runtime has allocated space according to the result of PFND3D12DDI_CALC_PRIVATE_VIDEO_EXTENSION_COMMAND_SIZE for the driver to place its object.
 
 ## -remarks
 
 ## -see-also
+

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAcquireSourceModeSet"
+ - DXGKDDI_VIDPN_ACQUIRESOURCEMODESET
+ - d3dkmddi/DXGKDDI_VIDPN_ACQUIRESOURCEMODESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPN_ACQUIRESOURCEMODESET callback function
+
 
 ## -description
 

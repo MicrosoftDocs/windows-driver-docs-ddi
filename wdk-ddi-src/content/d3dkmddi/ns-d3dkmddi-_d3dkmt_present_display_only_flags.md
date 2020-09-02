@@ -5,10 +5,8 @@ description: Indicates how a kernel mode display-only driver (KMDOD) is to perfo
 old-location: display\d3dkmt_present_display_only_flags.htm
 ms.assetid: a45dfdeb-06d2-49c8-a6e1-f42a43857492
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure"]
+keywords: ["D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure"]
 ms.keywords: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure [Display Devices], _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, display.d3dkmt_present_display_only_flags
-f1_keywords:
- - "d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
+f1_keywords:
+ - _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
+ - d3dkmddi/_D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
+ - D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
+ - d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
 ---
 
 # _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure
@@ -47,14 +48,9 @@ req.typenames: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
 
 ## -description
 
-
 Indicates how a kernel mode display-only driver (KMDOD) is to perform a present operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Rotate
 
@@ -64,30 +60,21 @@ The KMDOD should rotate the data only if the <b>Rotate</b> bit-field flag is set
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Reserved
 
 [in] This member is reserved and should be set to zero.
 
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFF) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 A member in the union that <b>D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</b> contains that can hold a 32-bit value that identifies the type of present operation to perform.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
- 
-
- 
 

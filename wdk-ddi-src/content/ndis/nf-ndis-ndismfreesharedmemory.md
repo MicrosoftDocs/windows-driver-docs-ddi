@@ -8,8 +8,6 @@ ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.date: 05/02/2018
 keywords: ["NdisMFreeSharedMemory function"]
 ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory
-f1_keywords:
- - "ndis/NdisMFreeSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMFreeSharedMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMFreeSharedMemory
+ - ndis/NdisMFreeSharedMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMFreeSharedMemory
 ---
 
 # NdisMFreeSharedMemory function
@@ -48,51 +47,44 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMFreeSharedMemory</b> frees memory that was previously allocated by 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemory">NdisMAllocateSharedMemory</a> or 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
   NdisMAllocateSharedMemoryAsyncEx</a> by the driver of a DMA NIC.
 
-
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 Specifies the handle originally input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the number of bytes originally allocated.
 
+### -param Cached 
 
-### -param Cached [in]
-
+[in]
 Specifies <b>TRUE</b> if the original allocation was cacheable.
 
+### -param VirtualAddress 
 
-### -param VirtualAddress [in]
-
+[in]
 Specifies the base virtual address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
+### -param PhysicalAddress 
 
-### -param PhysicalAddress [in]
-
+[in]
 Specifies the corresponding physical address returned by 
      <b>NdisMAllocateSharedMemory</b> or 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
-
 ## -remarks
-
-
 
 If it has already made a successful call to 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemory">NdisMAllocateSharedMemory</a> or 
@@ -138,13 +130,7 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
     <b>NdisMFreeSharedMemory</b>. Prior releases allow only bus-master DMA NICs to call 
     <b>NdisMFreeSharedMemory</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
@@ -169,7 +155,4 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
    NdisMAllocateSharedMemoryAsyncEx</a>
- 
-
- 
 

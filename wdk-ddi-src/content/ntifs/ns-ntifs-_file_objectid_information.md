@@ -6,10 +6,8 @@ old-location: ifsk\file_objectid_information.htm
 tech.root: ifsk
 ms.assetid: bbbaf48b-78c3-4a4b-801b-2fe3c0112a68
 ms.date: 05/20/2019
-keywords: ["_FILE_OBJECTID_INFORMATION structure"]
+keywords: ["FILE_OBJECTID_INFORMATION structure"]
 ms.keywords: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], _FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ifsk.file_objectid_information, ntifs/FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_OBJECTID_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_OBJECTID_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
+f1_keywords:
+ - _FILE_OBJECTID_INFORMATION
+ - ntifs/_FILE_OBJECTID_INFORMATION
+ - PFILE_OBJECTID_INFORMATION
+ - ntifs/PFILE_OBJECTID_INFORMATION
+ - FILE_OBJECTID_INFORMATION
+ - ntifs/FILE_OBJECTID_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_OBJECTID_INFORMATION
 ---
 
 # _FILE_OBJECTID_INFORMATION structure
+
 
 ## -description
 
@@ -101,3 +105,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 [IRP_MJ_DIRECTORY_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
 [ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047)
+

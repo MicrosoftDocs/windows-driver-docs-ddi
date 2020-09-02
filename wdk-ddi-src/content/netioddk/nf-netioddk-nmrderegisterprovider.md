@@ -8,8 +8,6 @@ ms.assetid: 889f872a-f4fe-4d7a-b9b6-7fb7335831a5
 ms.date: 05/02/2018
 keywords: ["NmrDeregisterProvider function"]
 ms.keywords: NmrDeregisterProvider, NmrDeregisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterProvider, netvista.nmrderegisterprovider, nmrref_581ad526-b42f-4ff3-993c-58558cd281c8.xml
-f1_keywords:
- - "netioddk/NmrDeregisterProvider"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Netio.lib
-- Netio.dll
-api_name:
-- NmrDeregisterProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NmrDeregisterProvider
+ - netioddk/NmrDeregisterProvider
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Netio.lib
+ - Netio.dll
+api_name:
+ - NmrDeregisterProvider
 ---
 
 # NmrDeregisterProvider function
@@ -48,26 +47,19 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NmrDeregisterProvider</b> function deregisters a provider module from the NMR.
 
-
 ## -parameters
 
+### -param NmrProviderHandle 
 
-
-
-### -param NmrProviderHandle [in]
-
+[in]
 A handle used by the NMR to represent the registration of the provider module. The NMR returns
      this handle to the provider module when the provider module calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function.
 
-
 ## -returns
-
-
 
 The 
      <b>NmrDeregisterProvider</b> function returns one of the following NTSTATUS codes:
@@ -103,14 +95,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a provider module calls the 
     <b>NmrDeregisterProvider</b> function, the NMR calls the provider module's 
@@ -144,14 +130,7 @@ A provider module typically calls the
      deregistration is complete.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
 
@@ -175,7 +154,4 @@ A provider module typically calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a>
- 
-
- 
 

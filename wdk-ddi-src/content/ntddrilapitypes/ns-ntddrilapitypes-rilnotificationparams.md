@@ -8,8 +8,6 @@ ms.assetid: c89c7df3-7ccb-46db-adcc-22c49cae5108
 ms.date: 05/02/2018
 keywords: ["RILNOTIFICATIONPARAMS structure"]
 ms.keywords: "*LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilnotificationparams, ntddrilapitypes/RILNOTIFICATIONPARAMS"
-f1_keywords:
- - "ntddrilapitypes/RILNOTIFICATIONPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILNOTIFICATIONPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILNOTIFICATIONPARAMS, *LPRILNOTIFICATIONPARAMS
+f1_keywords:
+ - RILNOTIFICATIONPARAMS
+ - ntddrilapitypes/RILNOTIFICATIONPARAMS
+ - LPRILNOTIFICATIONPARAMS
+ - ntddrilapitypes/LPRILNOTIFICATIONPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILNOTIFICATIONPARAMS
 ---
 
 # RILNOTIFICATIONPARAMS structure
@@ -47,17 +48,11 @@ req.typenames: RILNOTIFICATIONPARAMS, *LPRILNOTIFICATIONPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwNotificationCount
-
 
 ### -field pdwNotifications
 

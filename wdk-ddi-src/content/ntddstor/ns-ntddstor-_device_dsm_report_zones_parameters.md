@@ -8,36 +8,42 @@ ms.assetid: 7fa98d11-38ab-45c2-9095-f7c768ee7182
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_REPORT_ZONES_PARAMETERS structure"]
-f1_keywords:
- - "ntddstor/DEVICE_DSM_REPORT_ZONES_PARAMETERS"
-ms.keywords: DEVICE_DSM_REPORT_ZONES_PARAMETERS, DEVICE_DSM_REPORT_ZONES_PARAMETERS, *PDEVICE_DSM_REPORT_ZONES_PARAMETERS, 
+ms.keywords: DEVICE_DSM_REPORT_ZONES_PARAMETERS, DEVICE_DSM_REPORT_ZONES_PARAMETERS, *PDEVICE_DSM_REPORT_ZONES_PARAMETERS,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DEVICE_DSM_REPORT_ZONES_PARAMETERS, *PDEVICE_DSM_REPORT_ZONES_PARAMETERS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddstor.h
-api_name: 
- - DEVICE_DSM_REPORT_ZONES_PARAMETERS
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _DEVICE_DSM_REPORT_ZONES_PARAMETERS
+ - ntddstor/_DEVICE_DSM_REPORT_ZONES_PARAMETERS
+ - PDEVICE_DSM_REPORT_ZONES_PARAMETERS
+ - ntddstor/PDEVICE_DSM_REPORT_ZONES_PARAMETERS
+ - DEVICE_DSM_REPORT_ZONES_PARAMETERS
+ - ntddstor/DEVICE_DSM_REPORT_ZONES_PARAMETERS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_DSM_REPORT_ZONES_PARAMETERS
+product:
+ - Windows
 ---
 
 # DEVICE_DSM_REPORT_ZONES_PARAMETERS structure
+
 
 ## -description
 
@@ -64,3 +70,4 @@ Not applicable.
 ## -remarks
 
 ## -see-also
+

@@ -6,40 +6,44 @@ description: Specifies the DirectX graphics kernel virtual GPU capability.
 tech.root: display
 ms.assetid: c0ef8f34-9276-4372-a99d-9541a943b6e2
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGK_VGPU_CAPABILITY_TYPE enumeration"]
-f1_keywords:
- - "dispmprt/_DXGK_VGPU_CAPABILITY_TYPE"
-ms.keywords: _DXGK_VGPU_CAPABILITY_TYPE, DXGK_VGPU_CAPABILITY_TYPE, 
+ms.date: 04/04/2019
+keywords: ["DXGK_VGPU_CAPABILITY_TYPE enumeration"]
+ms.keywords: _DXGK_VGPU_CAPABILITY_TYPE, DXGK_VGPU_CAPABILITY_TYPE,
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DXGK_VGPU_CAPABILITY_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGK_VGPU_CAPABILITY_TYPE
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19h1, 19H1
+f1_keywords:
+ - _DXGK_VGPU_CAPABILITY_TYPE
+ - dispmprt/_DXGK_VGPU_CAPABILITY_TYPE
+ - DXGK_VGPU_CAPABILITY_TYPE
+ - dispmprt/DXGK_VGPU_CAPABILITY_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_VGPU_CAPABILITY_TYPE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19h1, 19H1
 ---
 
 # _DXGK_VGPU_CAPABILITY_TYPE enumeration
+
 
 ## -description
 
@@ -70,3 +74,4 @@ Max.
 ## -remarks
 
 ## -see-also
+

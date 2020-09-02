@@ -8,8 +8,6 @@ ms.assetid: 77850B5A-4E24-4057-B87F-D964620ABF94
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs interface"]
 ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], IPrinterExtensionEventArgs interface [Print Devices],described, print.iprinterextensioneventargs, printerextension/IPrinterExtensionEventArgs
-f1_keywords:
- - "printerextension/IPrinterExtensionEventArgs"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionEventArgs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEventArgs
+ - printerextension/IPrinterExtensionEventArgs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionEventArgs
 ---
 
 # IPrinterExtensionEventArgs interface
@@ -47,21 +46,13 @@ req.typenames:
 
 ## -description
 
-
 Represents the context for the desktop printer extension activation.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags">V4 Printer Driver Property Bags</a>
- 
-
- 
 

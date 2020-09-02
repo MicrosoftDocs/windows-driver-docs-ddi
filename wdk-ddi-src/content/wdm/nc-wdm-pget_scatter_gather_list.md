@@ -8,8 +8,6 @@ ms.assetid: 44c597ed-a41e-4170-b75b-dcd61aa70350
 ms.date: 04/30/2018
 keywords: ["PGET_SCATTER_GATHER_LIST callback function"]
 ms.keywords: GetScatterGatherList, GetScatterGatherList callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST, PGET_SCATTER_GATHER_LIST callback, kdma_b451cb34-7181-4272-a1ef-0c8fc233a7fd.xml, kernel.getscattergatherlist, ntddk/GetScatterGatherList
-f1_keywords:
- - "wdm/GetScatterGatherList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ntddk.h
-api_name:
-- GetScatterGatherList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PGET_SCATTER_GATHER_LIST
+ - wdm/PGET_SCATTER_GATHER_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ntddk.h
+api_name:
+ - GetScatterGatherList
 ---
 
 # PGET_SCATTER_GATHER_LIST callback function
@@ -47,58 +46,51 @@ req.typenames:
 
 ## -description
 
-
-The <b>GetScatterGatherList</b> routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter. 
-
+The <b>GetScatterGatherList</b> routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter.
 
 ## -parameters
 
+### -param DmaAdapter 
 
-
-
-### -param DmaAdapter [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
+### -param DeviceObject 
 
-### -param DeviceObject [in]
-
+[in]
 Pointer to the device object that represents the target device for the DMA operation.
 
+### -param Mdl 
 
-### -param Mdl [in]
-
+[in]
 Pointer to the MDL that describes the buffer at <i>MdlAddress</i> in the current IRP.
 
+### -param CurrentVa 
 
-### -param CurrentVa [in]
-
+[in]
 Pointer to the current virtual address in the MDL for the buffer to be mapped for a DMA transfer operation.
 
+### -param Length 
 
-### -param Length [in]
+[in]
+Specifies the length, in bytes, to be mapped.
 
-Specifies the length, in bytes, to be mapped. 
+### -param ExecutionRoutine 
 
-
-### -param ExecutionRoutine [in]
-
+[in]
 Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine, which is called at DISPATCH_LEVEL when the system DMA controller or bus-master adapter is available.
 
+### -param Context 
 
-### -param Context [in]
+[in]
+Pointer to the driver-determined context passed to the driver's <i>AdapterListControl</i> routine when it is called.
 
-Pointer to the driver-determined context passed to the driver's <i>AdapterListControl</i> routine when it is called. 
+### -param WriteToDevice 
 
-
-### -param WriteToDevice [in]
-
-Indicates the direction of the DMA transfer: <b>TRUE</b> for a transfer from the buffer to the device, and <b>FALSE</b> otherwise. 
-
+[in]
+Indicates the direction of the DMA transfer: <b>TRUE</b> for a transfer from the buffer to the device, and <b>FALSE</b> otherwise.
 
 ## -returns
-
-
 
 This routine can return one of the following NTSTATUS values. 
 
@@ -141,14 +133,8 @@ The buffer is too small for the requested transfer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetScatterGatherList</b> routine dynamically allocates a buffer to hold the scatter/gather list. For possible NTSTATUS values if the buffer allocation fails, see the return value.
 
@@ -163,15 +149,9 @@ As soon as the appropriate DMA channel and any necessary map registers are avail
 
 In its <i>AdapterListControl</i> routine, the driver should perform the I/O. On return from the driver-supplied routine, <b>GetScatterGatherList</b> keeps the map registers but frees the DMA adapter structure. The driver must call <b>PutScatterGatherList</b> (which flushes the buffers) before it can access the data in the buffer.
 
-This routine can handle chained MDLs, provided that the total number of map registers required by all chained MDLs does not exceed the number of map registers that are available. 
-
-
-
+This routine can handle chained MDLs, provided that the total number of map registers required by all chained MDLs does not exceed the number of map registers that are available.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>
 
@@ -198,7 +178,4 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
- 
-
- 
 

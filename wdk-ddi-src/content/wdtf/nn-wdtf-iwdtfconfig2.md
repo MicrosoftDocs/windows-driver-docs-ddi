@@ -8,8 +8,6 @@ ms.assetid: 7cc3775e-d116-4852-9b1a-606d909d878b
 ms.date: 04/04/2018
 keywords: ["IWDTFCONFIG2 interface"]
 ms.keywords: IWDTFCONFIG2, IWDTFCONFIG2 interface [Windows Device Testing Framework], IWDTFCONFIG2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFCONFIG2, dtf.iwdtfconfig2, wdtf/IWDTFCONFIG2
-f1_keywords:
- - "wdtf/IWDTFCONFIG2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFCONFIG2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFCONFIG2
+ - wdtf/IWDTFCONFIG2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFCONFIG2
 ---
 
 # IWDTFCONFIG2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations that control <b>WDTF</b> objects within a test script.
-
 
 ## -inheritance
 
@@ -59,8 +56,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFCONFIG2</b> interface in
 </ul>
 
 ## -remarks
-
-
 
 <b>WDTF</b> object logging defaults to disabled. If object logging is enabled, 
 each <b>WDTF</b> object writes to the test scripts log. If object logging is enabled, 
@@ -89,5 +84,4 @@ WDTF_TARGETS    : INFO  :          Target: Generic volume
 </td>
 </tr>
 </table></span></div>
-
 

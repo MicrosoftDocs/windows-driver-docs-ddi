@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDIARG_CREATERESOURCE_0073
 f1_keywords:
+ - D3D12DDIARG_CREATERESOURCE_0073
  - d3d12umddi/D3D12DDIARG_CREATERESOURCE_0073
 dev_langs:
  - c++
@@ -99,3 +100,4 @@ Deprecated. Use [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_
 ## -see-also
 
 [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md)
+

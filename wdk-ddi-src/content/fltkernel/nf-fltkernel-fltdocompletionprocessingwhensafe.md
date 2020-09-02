@@ -8,8 +8,6 @@ ms.assetid: 8143c741-8f6e-442d-a52a-c226b2e4aa57
 ms.date: 01/06/2020
 keywords: ["FltDoCompletionProcessingWhenSafe function"]
 ms.keywords: FltApiRef_a_to_d_4e8cd7a1-1469-4ae1-97a9-51a184d0ad5a.xml, FltDoCompletionProcessingWhenSafe, FltDoCompletionProcessingWhenSafe routine [Installable File System Drivers], fltkernel/FltDoCompletionProcessingWhenSafe, ifsk.fltdocompletionprocessingwhensafe
-f1_keywords:
- - "fltkernel/FltDoCompletionProcessingWhenSafe"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: Any.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fltmgr.lib
-- Fltmgr.dll
-api_name:
-- FltDoCompletionProcessingWhenSafe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltDoCompletionProcessingWhenSafe
+ - fltkernel/FltDoCompletionProcessingWhenSafe
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fltmgr.lib
+ - Fltmgr.dll
+api_name:
+ - FltDoCompletionProcessingWhenSafe
 ---
 
 # FltDoCompletionProcessingWhenSafe function
+
 
 ## -description
 
@@ -51,28 +51,34 @@ If it is safe to do so, the **FltDoCompletionProcessingWhenSafe** function execu
 
 ## -parameters
 
-### -param Data [in]
+### -param Data 
 
+[in]
 Pointer to the callback data structure ([FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data)) for the I/O operation. Usually this is the same as the *Data* pointer that was passed to the postoperation callback routine ([PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)) that called **FltDoCompletionProcessingWhenSafe**.
 
-### -param FltObjects [in]
+### -param FltObjects 
 
+[in]
 Pointer to the related objects structure ([FLT_RELATED_OBJECTS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects)) for the I/O operation. Usually this is the same as the *FltObjects* pointer that was passed to the postoperation callback routine that called **FltDoCompletionProcessingWhenSafe**.
 
-### -param CompletionContext [in, optional]
+### -param CompletionContext 
 
+[in, optional]
 Pointer to a caller-supplied context information that will be passed in to the callback function that is specified in the *SafePostCallback* parameter.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 Bitmask of flags which specify how completion processing will be performed. Usually this is the same as the *Flags* value that was passed to the postoperation callback routine that called **FltDoCompletionProcessingWhenSafe**. For more information, see the following Remarks section.
 
-### -param SafePostCallback [in]
+### -param SafePostCallback 
 
+[in]
 Pointer to a caller-supplied [PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)-typed callback routine that the operating system calls when it is safe to do so.
 
-### -param RetPostOperationStatus [out]
+### -param RetPostOperationStatus 
 
+[out]
 Caller-allocated variable that receives the final status value for the I/O operation. For more information on how this parameter is set, see the following Remarks section.
 
 ## -returns
@@ -129,3 +135,4 @@ If the minifilter does return FLT_POSTOP_MORE_PROCESSING_REQUIRED from the *Safe
 [**FltCompletePendedPostOperation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpostoperation)
 
 [PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)
+

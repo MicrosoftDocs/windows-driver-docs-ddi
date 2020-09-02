@@ -8,8 +8,6 @@ ms.assetid: d6fbb153-1355-4e94-b5d3-a218bd8c565d
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_QUEUE_IO_READ callback function"]
 ms.keywords: DFQueueObjectRef_d5f59efc-e7db-4c3e-9845-5ba0c4949cd5.xml, EVT_WDF_IO_QUEUE_IO_READ, EVT_WDF_IO_QUEUE_IO_READ callback, EvtIoRead, EvtIoRead callback function, kmdf.evtioread, wdf.evtioread, wdfio/EvtIoRead
-f1_keywords:
- - "wdfio/EvtIoRead"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfio.h
-api_name:
-- EvtIoRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_QUEUE_IO_READ
+ - wdfio/EVT_WDF_IO_QUEUE_IO_READ
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfio.h
+api_name:
+ - EvtIoRead
 ---
 
 # EVT_WDF_IO_QUEUE_IO_READ callback function
@@ -47,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoRead</i> event callback function processes a specified read request.
 
-
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to the framework queue object that is associated with the I/O request.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes to be read.
 
-
 ## -remarks
-
-
 
 A driver registers an <i>EvtIoRead</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>. For more information about calling <b>WdfIoQueueCreate</b>, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
@@ -103,14 +95,7 @@ A driver's <i>EvtIoRead</i> callback function should not call the following queu
 </dd>
 </dl>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a>
 
@@ -125,7 +110,4 @@ A driver's <i>EvtIoRead</i> callback function should not call the following queu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
- 
-
- 
 

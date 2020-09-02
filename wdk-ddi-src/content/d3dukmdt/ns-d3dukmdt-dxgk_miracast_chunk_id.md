@@ -8,8 +8,6 @@ ms.assetid: 4D350666-B103-4421-A25A-22A7BF41558E
 ms.date: 05/10/2018
 keywords: ["DXGK_MIRACAST_CHUNK_ID structure"]
 ms.keywords: DXGK_MIRACAST_CHUNK_ID, DXGK_MIRACAST_CHUNK_ID union [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_ID, display.dxgk_miracast_chunk_id
-f1_keywords:
- - "d3dukmdt/DXGK_MIRACAST_CHUNK_ID"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dukmdt.h
-api_name:
-- DXGK_MIRACAST_CHUNK_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_CHUNK_ID
+f1_keywords:
+ - DXGK_MIRACAST_CHUNK_ID
+ - d3dukmdt/DXGK_MIRACAST_CHUNK_ID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dukmdt.h
+api_name:
+ - DXGK_MIRACAST_CHUNK_ID
 ---
 
 # DXGK_MIRACAST_CHUNK_ID structure
@@ -47,24 +46,17 @@ req.typenames: DXGK_MIRACAST_CHUNK_ID
 
 ## -description
 
-
 Stores info that identifies a wireless display (Miracast) encode chunk.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FrameNumber
 
 The number of the encoded Wi-Fi frame.
 
-
 ### -field PartNumber
 
 The frame part number.
-
 
 ### -field Value
 

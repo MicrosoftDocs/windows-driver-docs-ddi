@@ -8,8 +8,6 @@ ms.assetid: 7a858b32-408e-4926-9aba-44046b0266e2
 ms.date: 05/10/2018
 keywords: ["VideoPortGetAccessRanges function"]
 ms.keywords: VideoPortGetAccessRanges, VideoPortGetAccessRanges function [Display Devices], VideoPort_Functions_a0db7d5d-01be-4c3c-9ea2-2ebd9b8aaca3.xml, display.videoportgetaccessranges, video/VideoPortGetAccessRanges
-f1_keywords:
- - "video/VideoPortGetAccessRanges"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortGetAccessRanges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortGetAccessRanges
+ - video/VideoPortGetAccessRanges
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortGetAccessRanges
 ---
 
 # VideoPortGetAccessRanges function
@@ -47,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortGetAccessRanges</b> function retrieves bus-relative configuration information and, if possible, claims these hardware resources in the registry for the caller.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
 
-
 ### -param NumRequestedResources
 
 Specifies the number of elements in the <i>RequestedResources</i> array.
-
 
 ### -param OPTIONAL
 
@@ -72,26 +64,22 @@ Specifies the number of elements in the <i>RequestedResources</i> array.
 
 <p>An array of IO_RESOURCE_DESCRIPTOR-type elements. Each descriptor specifies a single hardware resource that the miniport driver needs, prefers, or can use as an alternative to that specified in another array element. For detailed information about this structure, see the description of <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl"><b>IoAssignResources</b></a>.</p>
 
-
 ### -param NumAccessRanges
 
 Specifies the number of elements in the <i>AccessRanges</i> array.
 
+### -param AccessRanges 
 
-### -param AccessRanges [out]
-
+[out]
 Pointer to an area on the stack or to a static structure in the miniport driver to which <b>VideoPortGetAccessRanges</b> returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> elements filled with the bus-relative device memory ranges for the adapter.
-
 
 ### -param VendorId
 
 Should be set to <b>NULL</b>.
 
-
 ### -param DeviceId
 
 Should be set to <b>NULL</b>.
-
 
 ### -param Slot
 
@@ -99,20 +87,11 @@ Pointer to a memory location in which the video port driver stores the slot numb
 
 For Plug and Play devices, if this is a valid pointer, the video port driver stores the slot number at the memory location specified by the pointer. If a <b>NULL</b> value is passed in the call, the video port driver does not store a value in the location.
 
-
-
 ## -returns
-
-
 
 <b>VideoPortGetAccessRanges</b> returns NO_ERROR if it successfully filled in the <i>AccessRanges</i> information or returned configuration information at <i>RequestedResources</i>.
 
-
-
-
 ## -remarks
-
-
 
 Every video miniport driver either must use access ranges returned by <b>VideoPortGetAccessRanges</b>, or must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a> before attempting to access a video adapter during the driver (and system) initialization process.
 
@@ -130,13 +109,7 @@ Note that miniport drivers of adapters on other types of I/O buses also can call
 
 If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and possibly other hardware resources for an adapter, but then determines that it does not support the adapter, then the miniport driver must relinquish its claims on hardware resources in the registry by calling <b>VideoPortGetAccessRanges</b> or <b>VideoPortVerifyAccessRanges</b> with the <i>NumAccessRanges</i> parameter set to zero.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
@@ -171,7 +144,4 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
- 
-
- 
 

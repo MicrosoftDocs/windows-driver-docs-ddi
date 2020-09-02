@@ -6,10 +6,8 @@ old-location: ifsk\io_foext_silo_parameters.htm
 tech.root: ifsk
 ms.assetid: EC7C59D0-96AE-400D-9502-D6DBFD9918DC
 ms.date: 04/16/2018
-keywords: ["_IO_FOEXT_SILO_PARAMETERS structure"]
+keywords: ["IO_FOEXT_SILO_PARAMETERS structure"]
 ms.keywords: "*PIO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], _IO_FOEXT_SILO_PARAMETERS, ifsk.io_foext_silo_parameters, ntddk/IO_FOEXT_SILO_PARAMETERS, ntddk/PIO_FOEXT_SILO_PARAMETERS"
-f1_keywords:
- - "ntddk/IO_FOEXT_SILO_PARAMETERS"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- IO_FOEXT_SILO_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_FOEXT_SILO_PARAMETERS, *PIO_FOEXT_SILO_PARAMETERS
+f1_keywords:
+ - _IO_FOEXT_SILO_PARAMETERS
+ - ntddk/_IO_FOEXT_SILO_PARAMETERS
+ - PIO_FOEXT_SILO_PARAMETERS
+ - ntddk/PIO_FOEXT_SILO_PARAMETERS
+ - IO_FOEXT_SILO_PARAMETERS
+ - ntddk/IO_FOEXT_SILO_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - IO_FOEXT_SILO_PARAMETERS
 ---
 
 # _IO_FOEXT_SILO_PARAMETERS structure
@@ -47,34 +50,19 @@ req.typenames: IO_FOEXT_SILO_PARAMETERS, *PIO_FOEXT_SILO_PARAMETERS
 
 ## -description
 
-
 This structure describes the Container context that's identified by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetsiloparameters">IoGetSiloParameters</a> routine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Length
 
 The length of the structure. This also serves as the structure version.
 
-
 ### -field HasHardReference
-
- 
-
 
 ### -field SpareFlags
 
- 
-
-
 ### -field Flags
-
- 
-
 
 ### -field SiloContext
 

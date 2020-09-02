@@ -8,8 +8,6 @@ ms.assetid: ad91208e-e57a-4b80-b1a1-13b9f7eb1119
 ms.date: 02/26/2018
 keywords: ["IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure"]
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed interface,OnReaderFailure method, IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure, IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure, OnReaderFailure, OnReaderFailure method, OnReaderFailure method,IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, UMDFUSBref_01c8b9de-ab85-4cc6-abec-238dcda2b1e8.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
-f1_keywords:
- - "wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wudfusb.h
-api_name:
-- IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
+ - wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wudfusb.h
+api_name:
+ - IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure
 ---
 
 # IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
@@ -47,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <b>OnReaderFailure</b> event callback function informs the driver that a continuous reader has reported an error while processing a read request.
 
-
 ## -parameters
 
+### -param pPipe 
 
-
-
-### -param pPipe [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a> interface for the USB pipe on which the driver has enabled a continuous reader.
 
+### -param hrStatus 
 
-### -param hrStatus [in]
-
+[in]
 The HRESULT-typed status value that the USB pipe's I/O target returned.
-
 
 ## -returns
 
-
-
 The <b>OnReaderFailure</b> event callback function must return a Boolean value. If the return value is <b>TRUE</b>, the framework resets the USB pipe and then restarts the continuous reader. If the callback function returns <b>FALSE</b>, the framework does not reset the device or restart the continuous reader.
 
-
-
-
 ## -remarks
-
-
 
 To register an <b>OnReaderFailure</b> callback function, your driver must provide a pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a> interface when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>.
 
@@ -95,20 +82,11 @@ If a driver does not provide an <b>OnReaderFailure</b> callback function and the
 
 For more information about the <b>OnReaderFailure</b> callback function and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets-in-umdf">Handling a USB I/O Target</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a>
- 
-
- 
 

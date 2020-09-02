@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CheckCounterInfo"
+ - PFND3D10DDI_CHECKCOUNTERINFO
+ - d3d10umddi/PFND3D10DDI_CHECKCOUNTERINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CHECKCOUNTERINFO callback function
+
 
 ## -description
 

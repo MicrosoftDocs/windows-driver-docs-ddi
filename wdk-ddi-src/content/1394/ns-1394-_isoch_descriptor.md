@@ -6,10 +6,8 @@ old-location: ieee\isoch_descriptor.htm
 tech.root: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
 ms.date: 02/15/2018
-keywords: ["_ISOCH_DESCRIPTOR structure"]
+keywords: ["ISOCH_DESCRIPTOR structure"]
 ms.keywords: "*PISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR, 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, IEEE.isoch_descriptor, ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses], PISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR structure pointer [Buses], _ISOCH_DESCRIPTOR"
-f1_keywords:
- - "1394/ISOCH_DESCRIPTOR"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- ISOCH_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: ISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR
+f1_keywords:
+ - _ISOCH_DESCRIPTOR
+ - 1394/_ISOCH_DESCRIPTOR
+ - PISOCH_DESCRIPTOR
+ - 1394/PISOCH_DESCRIPTOR
+ - ISOCH_DESCRIPTOR
+ - 1394/ISOCH_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - ISOCH_DESCRIPTOR
 ---
 
 # _ISOCH_DESCRIPTOR structure
+
 
 ## -description
 
@@ -253,3 +257,4 @@ If the driver sets the DESCRIPTOR_HEADER_SCATTER_GATHER flag, the host controlle
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+

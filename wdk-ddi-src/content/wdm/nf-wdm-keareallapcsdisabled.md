@@ -8,8 +8,6 @@ ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
 ms.date: 04/30/2018
 keywords: ["KeAreAllApcsDisabled function"]
 ms.keywords: KeAreAllApcsDisabled, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture], k105_91675ec9-bef3-4ef8-9403-14999e018745.xml, kernel.keareallapcsdisabled, wdm/KeAreAllApcsDisabled
-f1_keywords:
- - "wdm/KeAreAllApcsDisabled"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeAreAllApcsDisabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeAreAllApcsDisabled
+ - wdm/KeAreAllApcsDisabled
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeAreAllApcsDisabled
 ---
 
 # KeAreAllApcsDisabled function
@@ -47,35 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeAreAllApcsDisabled</b> routine indicates whether the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, which disables all APC delivery.
-
 
 ## -returns
 
-
-
 <b>KeAreAllApcsDisabled</b> returns <b>TRUE</b> if the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, and <b>FALSE</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
 A thread inside a guarded region or running at IRQL >= APC_LEVEL has all APCs disabled, including special kernel APCs.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keareapcsdisabled">KeAreApcsDisabled</a>
- 
-
- 
 

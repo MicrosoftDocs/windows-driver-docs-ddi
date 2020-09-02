@@ -6,10 +6,8 @@ old-location: ifsk\file_network_physical_name_information.htm
 tech.root: ifsk
 ms.assetid: 04F6A7B1-1198-4E5F-B6A8-70EEABE7CE83
 ms.date: 04/16/2018
-keywords: ["_FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure"]
+keywords: ["FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure"]
 ms.keywords: "*PFILE_NETWORK_PHYSICAL_NAME_INFORMATION, FILE_NETWORK_PHYSICAL_NAME_INFORMATION, FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure [Installable File System Drivers], PFILE_NETWORK_PHYSICAL_NAME_INFORMATION, PFILE_NETWORK_PHYSICAL_NAME_INFORMATION structure pointer [Installable File System Drivers], _FILE_NETWORK_PHYSICAL_NAME_INFORMATION, ifsk.file_network_physical_name_information, ntifs/FILE_NETWORK_PHYSICAL_NAME_INFORMATION, ntifs/PFILE_NETWORK_PHYSICAL_NAME_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_NETWORK_PHYSICAL_NAME_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_NETWORK_PHYSICAL_NAME_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_NETWORK_PHYSICAL_NAME_INFORMATION, *PFILE_NETWORK_PHYSICAL_NAME_INFORMATION
+f1_keywords:
+ - _FILE_NETWORK_PHYSICAL_NAME_INFORMATION
+ - ntifs/_FILE_NETWORK_PHYSICAL_NAME_INFORMATION
+ - PFILE_NETWORK_PHYSICAL_NAME_INFORMATION
+ - ntifs/PFILE_NETWORK_PHYSICAL_NAME_INFORMATION
+ - FILE_NETWORK_PHYSICAL_NAME_INFORMATION
+ - ntifs/FILE_NETWORK_PHYSICAL_NAME_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_NETWORK_PHYSICAL_NAME_INFORMATION
 ---
 
 # _FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure
@@ -47,28 +50,19 @@ req.typenames: FILE_NETWORK_PHYSICAL_NAME_INFORMATION, *PFILE_NETWORK_PHYSICAL_N
 
 ## -description
 
-
 Contains the full UNC physical pathname for a file or directory on a remote file share.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FileNameLength
 
 The length, in bytes, of the physical name in <b>FileName</b>.
 
-
 ### -field FileName
 
 The full UNC path of the network file share of the target.
 
-
 ## -remarks
-
-
 
 The <b>FILE_NETWORK_PHYSICAL_NAME_INFORMATION</b> structure is used to retrieve the network physical name information for a file. This operation can be performed in either of the following ways: 
 
@@ -172,12 +166,7 @@ The following is an example of querying the network physical name  information o
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a>
 
@@ -188,7 +177,4 @@ The following is an example of querying the network physical name  information o
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
- 
-
- 
 

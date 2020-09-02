@@ -8,8 +8,6 @@ ms.assetid: 5e1b37f2-f567-4c03-b0f4-cc1dbd568907
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_STATUS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STATUS_S, PKSPROPERTY_TUNER_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STATUS_S, ksmedia/PKSPROPERTY_TUNER_STATUS_S, stream.ksproperty_tuner_status_s, vidcapstruct_a36247d8-99d7-4dad-8632-5feb685616d6.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_TUNER_STATUS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_TUNER_STATUS_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_STATUS_S, *PKSPROPERTY_TUNER_STATUS_S
+f1_keywords:
+ - PKSPROPERTY_TUNER_STATUS_S
+ - ksmedia/PKSPROPERTY_TUNER_STATUS_S
+ - KSPROPERTY_TUNER_STATUS_S
+ - ksmedia/KSPROPERTY_TUNER_STATUS_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_TUNER_STATUS_S
 ---
 
 # KSPROPERTY_TUNER_STATUS_S structure
@@ -47,24 +48,17 @@ req.typenames: KSPROPERTY_TUNER_STATUS_S, *PKSPROPERTY_TUNER_STATUS_S
 
 ## -description
 
-
 The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
-
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field CurrentFrequency
 
 Specifies the current tuner frequency. This value is in hertz (Hz).
-
 
 ### -field PLLOffset
 
@@ -126,8 +120,6 @@ Perfectly tuned
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SignalStrength
 
@@ -169,27 +161,16 @@ On an acceptable frequency.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Busy
 
 Indicates if the minidriver is presently busy with the process of tuning. This member must be set to <b>TRUE</b> if the minidriver is currently tuning to a channel. Otherwise, if the minidriver is not currently tuning to a new channel, this member must be set to <b>FALSE</b>.
 
-
 ## -remarks
-
-
 
 For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> members see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/pci-based-tv-capture">PCI based TV capture</a>. If your tuner device supports radio tuning, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/video-capture-devices-with-radio-tuners">Video Capture Devices with Radio Tuners</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
@@ -200,7 +181,4 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
- 
-
- 
 

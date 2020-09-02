@@ -8,8 +8,6 @@ ms.assetid: d9654346-1f28-4e02-8f6c-17e37ed09b92
 ms.date: 04/20/2018
 keywords: ["PFNCOMPROPSHEET callback function"]
 ms.keywords: ComPropSheet, ComPropSheet routine [Print Devices], PFNCOMPROPSHEET, compstui/ComPropSheet, cpsuifnc_2586427b-a3ae-4c2e-b081-06d58ec310c3.xml, print.compropsheet
-f1_keywords:
- - "compstui/ComPropSheet"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- compstui.h
-api_name:
-- ComPropSheet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNCOMPROPSHEET
+ - compstui/PFNCOMPROPSHEET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - compstui.h
+api_name:
+ - ComPropSheet
 ---
 
 # PFNCOMPROPSHEET callback function
@@ -47,49 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The <i>ComPropSheet</i> function is supplied by <a href="https://docs.microsoft.com/windows-hardware/drivers/print/common-property-sheet-user-interface">CPSUI</a> and can be called by CPSUI applications (including printer interface DLLs) to build property sheet pages.
-
 
 ## -parameters
 
+### -param hComPropSheet 
 
-
-
-### -param hComPropSheet [in]
-
+[in]
 Caller-supplied handle to a property sheet <a href="https://docs.microsoft.com/windows-hardware/drivers/print/group-parent">group parent</a>. For more information, see the following Remarks section.
 
+### -param Function 
 
-### -param Function [in]
-
+[in]
 Caller-supplied, CPSFUNC_-prefixed ComPropSheet function codes specifying the operation to be performed by the <i>ComPropSheet</i> function.
 
 <div class="alert"><b>Note</b>  See the <b>ComPropSheet</b> function codes table in the <b>Remarks</b> section below.</div>
 <div> </div>
 
-### -param lParam1 [in]
+### -param lParam1 
 
+[in]
 Caller-supplied value that depends on the <i>ComPropSheet</i> function code supplied for <i>Function</i>.
 
+### -param lParam2 
 
-### -param lParam2 [in]
-
+[in]
 Caller-supplied value that depends on the <i>ComPropSheet</i> function code supplied for <i>Function</i>.
-
 
 ## -returns
 
-
-
 The return value depends on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">ComPropSheet function code</a> supplied for <i>Function</i>.
 
-
-
-
 ## -remarks
-
-
 
 When CPSUI calls one of an application's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed functions, it passes a pointer to the <i>ComPropSheet</i> function in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. A <b>PFNPROPSHEETUI</b>-typed function can call the <i>ComPropSheet</i> function to describe property sheet pages to CPSUI.
 
@@ -524,7 +512,4 @@ The following caution applies to Unidrv- or Pscript5-based IHV UI plug-in with c
 </td>
 </tr>
 </table>
- 
-
-
 

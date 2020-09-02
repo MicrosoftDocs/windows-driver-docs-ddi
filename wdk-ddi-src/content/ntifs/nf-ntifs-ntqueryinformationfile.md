@@ -8,8 +8,6 @@ ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.date: 10/30/2019
 keywords: ["NtQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
-f1_keywords:
- - "ntifs/ZwQueryInformationFile"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryInformationFile
-- NtQueryInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtQueryInformationFile
+ - ntifs/NtQueryInformationFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryInformationFile
+ - NtQueryInformationFile
 ---
 
 # NtQueryInformationFile function
+
 
 ## -description
 
@@ -51,33 +51,37 @@ The **NtQueryInformationFile** routine returns various kinds of information abou
 
 ## -parameters
 
-### -param FileHandle [in]
+### -param FileHandle 
 
+[in]
 Handle to a file object. The handle is created by a successful call to [**NtCreateFile**](nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](nf-ntifs-ntopenfile.md), or to an equivalent file create or open routine.
 
-### -param IoStatusBlock [out]
+### -param IoStatusBlock 
 
+[out]
 Pointer to an [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the operation. The **Information** member receives the number of bytes that this routine actually writes to the *FileInformation* buffer.
 
-### -param FileInformation [out]
+### -param FileInformation 
 
+[out]
 Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The *FileInformationClass* parameter specifies the type of information that the caller requests.
 
-### -param Length [in]
+### -param Length 
 
+[in]
 The size, in bytes, of the buffer pointed to by *FileInformation*.
 
-### -param FileInformationClass [in]
+### -param FileInformationClass 
 
+[in]
 Specifies the type of information to be returned about the file, in the buffer that *FileInformation* points to. Device and intermediate drivers can specify any of the following [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) values.
 
-| FILE_INFORMATION_CLASS value | Type of information returned |
-| **FileAccessInformation** | A [FILE_ACCESS_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information) structure. This structure contains an access mask. For more information about access masks, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask).
- |
+|FILE_INFORMATION_CLASS value|Type of information returned|
+|----|----|
+|**FileAccessInformation**|A [FILE_ACCESS_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information) structure. This structure contains an access mask. For more information about access masks, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask).|
  | **FileAlignmentInformation** | A [FILE_ALIGNMENT_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_alignment_information) structure. The caller can query this information as long as the file is open, without any particular requirements for *DesiredAccess*. This information is useful if the file was opened with the FILE_NO_INTERMEDIATE_BUFFERING flag specified in the *CreateOptions* parameter. |
  | **FileAllInformation** | A [FILE_ALL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_all_information) structure. By combining several file-information structures into a single structure, **FILE_ALL_INFORMATION** reduces the number of queries required to obtain information about a file. |
- | **FileAttributeTagInformation** |
- | A [FILE_ATTRIBUTE_TAG_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_attribute_tag_information) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. |
+ | **FileAttributeTagInformation** | A [FILE_ATTRIBUTE_TAG_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_attribute_tag_information) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. |
  | **FileBasicInformation** | A [FILE_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_basic_information) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. |
  | **FileCaseSensitiveInformation** | A [FILE_CASE_SENSITIVE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. This value is available starting with Windows 10, version 1803. |
  | **FileCaseSensitiveInformationForceAccessCheck** | A [FILE_CASE_SENSITIVE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803. |
@@ -159,3 +163,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtQueryInformationByName**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationbyname)
 
 [**NtSetInformationFile**](nf-ntifs-ntsetinformationfile.md)
+

@@ -8,8 +8,6 @@ ms.assetid: fa571ca0-194c-4018-9b93-a3cc687f7632
 ms.date: 05/08/2018
 keywords: ["PcAddAdapterDevice function"]
 ms.keywords: PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice
-f1_keywords:
- - "portcls/PcAddAdapterDevice"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcAddAdapterDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcAddAdapterDevice
+ - portcls/PcAddAdapterDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcAddAdapterDevice
 ---
 
 # PcAddAdapterDevice function
@@ -48,52 +47,40 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcAddAdapterDevice</b> function adds an adapter device to the WDM device stack.
-
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 Pointer to the driver object. This pointer is passed as a parameter to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> handler. The driver object is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>.
 
+### -param PhysicalDeviceObject 
 
-### -param PhysicalDeviceObject [in]
-
+[in]
 Pointer to the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">physical device object (PDO)</a>. PortCls passes this pointer as a call parameter to the adapter's <i>AddDevice</i> handler. The PDO is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
+### -param StartDevice 
 
-### -param StartDevice [in]
-
+[in]
 Pointer to the function that the operating system calls in order to start the device. For more information, see the following <b>Remarks</b> section.
 
+### -param MaxObjects 
 
-### -param MaxObjects [in]
-
+[in]
 Specifies the maximum number of subdevices to be registered by calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>. This count sets the upper limit to the total number of miniport objects that the adapter driver can instantiate.
 
+### -param DeviceExtensionSize 
 
-### -param DeviceExtensionSize [in]
-
+[in]
 Specifies the device extension size. Use zero for default size. See the following <b>Remarks</b> section for user-supplied extension sizes.
-
 
 ## -returns
 
-
-
 <b>PcAddAdapterDevice</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This function does most of the work that the audio adapter driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> handler needs to perform. <b>PcAddAdapterDevice</b> creates the device object, initializes the device context, and attaches the device object to the device stack.
 
@@ -152,13 +139,7 @@ The adapter driver can then access the device-specific extension data, as shown 
 </table></span></div>
 Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, and <i>pMyExtensionData</i> is a temporary pointer to the extension data. Avoid confusing the FDO with the PDO, which belongs to the PCI bus driver. The adapter driver must not modify data in the PDO because doing so corrupts memory owned by the PCI bus driver and can cause the system to crash.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
@@ -173,7 +154,4 @@ Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>
- 
-
- 
 

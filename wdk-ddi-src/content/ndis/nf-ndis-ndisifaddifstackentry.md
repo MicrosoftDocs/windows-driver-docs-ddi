@@ -8,8 +8,6 @@ ms.assetid: 6927bcdf-e2b5-4a60-8f71-a977f3a1c120
 ms.date: 05/02/2018
 keywords: ["NdisIfAddIfStackEntry function"]
 ms.keywords: NdisIfAddIfStackEntry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfAddIfStackEntry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, netvista.ndisifaddifstackentry
-f1_keywords:
- - "ndis/NdisIfAddIfStackEntry"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIfAddIfStackEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIfAddIfStackEntry
+ - ndis/NdisIfAddIfStackEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIfAddIfStackEntry
 ---
 
 # NdisIfAddIfStackEntry function
@@ -48,32 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisIfAddIfStackEntry</b> function specifies the ordering of two network interfaces in the NDIS network
   interface stack.
 
-
 ## -parameters
 
+### -param HigherLayerIfIndex 
 
-
-
-### -param HigherLayerIfIndex [in]
-
+[in]
 The network interface index for the interface that should be higher in the interface stack
      table.
 
+### -param LowerLayerIfIndex 
 
-### -param LowerLayerIfIndex [in]
-
+[in]
 The network interface index for the interface that should be lower in the interface stack
      table.
 
-
 ## -returns
-
-
 
 <b>NdisIfAddIfStackEntry</b> returns one of the following status values:
 
@@ -118,14 +110,8 @@ The operation failed because of insufficient resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS drivers can call the 
     <b>NdisIfAddIfStackEntry</b> function to specify the ordering of two network interfaces in the NDIS
@@ -146,16 +132,7 @@ Any driver that can provide the information about the stack order relationship b
     <b>NdisIfAddIfStackEntry</b> to populate the interface stack table. NDIS deletes the corresponding stack
     entries for an interface when the interface is deregistered.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifdeleteifstackentry">NdisIfDeleteIfStackEntry</a>
- 
-
- 
 

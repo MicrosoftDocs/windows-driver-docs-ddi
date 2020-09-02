@@ -8,8 +8,6 @@ ms.assetid: D0E23A94-515B-4225-A8AC-390CDD3BEA60
 ms.date: 04/30/2018
 keywords: ["RtlUIntPtrSub function"]
 ms.keywords: RtlUIntPtrSub, RtlUIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtluintptrsub, ntintsafe/RtlUIntPtrSub
-f1_keywords:
- - "ntintsafe/RtlUIntPtrSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlUIntPtrSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUIntPtrSub
+ - ntintsafe/RtlUIntPtrSub
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlUIntPtrSub
 ---
 
 # RtlUIntPtrSub function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Subtracts one value of type <b>UINT_PTR</b> from another.
-
 
 ## -parameters
 
+### -param uMinuend 
 
-
-
-### -param uMinuend [in]
-
+[in]
 The value from which <i>uSubtrahend</i> is subtracted.
 
+### -param uSubtrahend 
 
-### -param uSubtrahend [in]
-
+[in]
 The value to subtract from <i>uMinuend</i>.
 
+### -param puResult 
 
-### -param puResult [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
@@ -97,5 +89,4 @@ This function uses the following alternate name:
 <li>RtlUInt64Sub
 </li>
 </ul>
-
 

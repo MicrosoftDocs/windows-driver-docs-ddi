@@ -8,8 +8,6 @@ ms.assetid: 0e172d33-e4af-4345-a979-6b4549565ec7
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure"]
 ms.keywords: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_out_getdefaultdescriptionmodes, iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
-f1_keywords:
- - "iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
+ - iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
 ---
 
 # IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure
@@ -47,37 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Gives information about the default description modes for the monitor, as well as the preferred mode of the monitor.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DefaultMonitorModeBufferOutputCount
-
 
                      [out] If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description.
 
  If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was non-NULL, then this is the count of the monitor modes that the driver copied to that buffer.
-                 
-
 
 ### -field PreferredMonitorModeIdx
 
-
                      [out] Index into the <b>pMonitorModes</b> array of the preferred monitor mode. A value of <b>NO_PREFERRED_MODE</b> indicates that there is no preferred monitor mode.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a>
- 
-
- 
 

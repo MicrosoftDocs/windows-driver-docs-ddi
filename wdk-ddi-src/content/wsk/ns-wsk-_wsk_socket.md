@@ -6,10 +6,8 @@ old-location: netvista\wsk_socket.htm
 tech.root: netvista
 ms.assetid: dce4a087-a14b-400b-bdc1-944c1d4d492a
 ms.date: 05/02/2018
-keywords: ["_WSK_SOCKET structure"]
+keywords: ["WSK_SOCKET structure"]
 ms.keywords: "*PWSK_SOCKET, PWSK_SOCKET, PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], WSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], _WSK_SOCKET, netvista.wsk_socket, wsk/PWSK_SOCKET, wsk/WSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml"
-f1_keywords:
- - "wsk/WSK_SOCKET"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wsk.h
-api_name:
-- WSK_SOCKET
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_SOCKET, *PWSK_SOCKET
+f1_keywords:
+ - _WSK_SOCKET
+ - wsk/_WSK_SOCKET
+ - PWSK_SOCKET
+ - wsk/PWSK_SOCKET
+ - WSK_SOCKET
+ - wsk/WSK_SOCKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wsk.h
+api_name:
+ - WSK_SOCKET
 ---
 
 # _WSK_SOCKET structure
@@ -47,14 +50,9 @@ req.typenames: WSK_SOCKET, *PWSK_SOCKET
 
 ## -description
 
-
 The WSK_SOCKET structure defines a socket object for a socket.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Dispatch
 
@@ -135,12 +133,8 @@ Stream socket
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The WSK subsystem allocates and fills in a WSK_SOCKET structure whenever a new socket is created. A
     WSK application receives a pointer to the WSK_SOCKET structure for a socket from the WSK subsystem in one
@@ -179,13 +173,7 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
     socket.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_basic_dispatch">WSK_PROVIDER_BASIC_DISPATCH</a>
 
@@ -226,7 +214,4 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
 

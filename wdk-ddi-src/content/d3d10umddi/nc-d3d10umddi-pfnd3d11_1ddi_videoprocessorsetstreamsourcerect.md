@@ -7,8 +7,6 @@ ms.assetid: 78d62117-260a-46ab-9daa-ee9dcfc7fc1f
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback, d3d10umddi/pfnVideoProcessorSetStreamSourceRect, display.videoprocessorsetstreamsourcerect, pfnVideoProcessorSetStreamSourceRect, pfnVideoProcessorSetStreamSourceRect callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamSourceRect"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetStreamSourceRect
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetStreamSourceRect
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback function
@@ -47,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Sets the source rectangle for an input stream on the video processor.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -86,7 +78,6 @@ If <b>TRUE</b>, the specified source rectangle must be applied to the input stre
 
 If <b>FALSE</b>, no source rectangle is applied to the input stream.
 
-
 ### -param Arg5
 
 *pSourceRect* [in]
@@ -99,30 +90,17 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns
 
 ## -remarks
 
-
-
 The source rectangle is the portion of the input surface from which the video processor performs a bit-block transfer (bitblt) to the destination surface. The source rectangle is given in pixel coordinates, relative to the input surface.
 
 
 
 If the <b>VideoProcessorSetStreamSourceRect</b> function is never called, or if the <i>Enable</i> parameter is FALSE, the video processor reads from the entire input surface.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: b7a9beaf-5eca-4fb0-af63-06c002297085
 ms.date: 04/30/2018
 keywords: ["RtlSecureZeroMemory function"]
 ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
-f1_keywords:
- - "wdm/RtlSecureZeroMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- RtlSecureZeroMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlSecureZeroMemory
+ - wdm/RtlSecureZeroMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - RtlSecureZeroMemory
 ---
 
 # RtlSecureZeroMemory function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlSecureZeroMemory</b> routine fills a block of memory with zeros in a way that is guaranteed to be secure.
-
 
 ## -parameters
 
+### -param ptr 
 
-
-
-### -param ptr [out]
-
+[out]
 Pointer to the memory buffer to be filled with zeros.
 
+### -param cnt 
 
-### -param cnt [in]
-
+[in]
 Specifies the number of bytes to be filled with zeros.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 The effect of <b>RtlSecureZeroMemory</b> is identical to that of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>, except that it is guaranteed to zero the memory location, even if it is not subsequently written to. (The compiler can optimize away a call to <b>RtlZeroMemory</b>, if it determines that the caller does not access that memory range again.)
 
@@ -87,20 +74,11 @@ Use <b>RtlSecureZeroMemory</b> to guarantee that sensitive information has been 
 
 Callers of <b>RtlSecureZeroMemory</b> can be running at any IRQL if the <i>ptr</i> block is in nonpaged pool. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
- 
-
- 
 

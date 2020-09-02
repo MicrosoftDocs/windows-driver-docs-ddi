@@ -8,8 +8,6 @@ ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
-f1_keywords:
- - "ndischimney/NdisTcpOffloadReceiveHandler"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndischimney.h
-api_name:
-- NdisTcpOffloadReceiveHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_TCP_OFFLOAD_RECEIVE_INDICATE
+ - ndischimney/NDIS_TCP_OFFLOAD_RECEIVE_INDICATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisTcpOffloadReceiveHandler
 ---
 
 # NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function
@@ -47,30 +46,26 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 An offload target calls the 
   <b>NdisTcpOffloadReceiveHandler</b> function to indicate that received network data is available for
   consumption by a client application.
 
-
 ## -parameters
 
+### -param NdisOffloadHandle 
 
-
-
-### -param NdisOffloadHandle [in]
-
+[in]
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
+### -param NetBufferList 
 
-### -param NetBufferList [in]
-
+[in]
 A pointer to a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
@@ -92,9 +87,9 @@ The
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> in an offload receive
       indication.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 The offload target must supply the following status value:
      
 
@@ -109,16 +104,13 @@ This indicates that the host stack can retain ownership of the NET_BUFFER_LIST s
        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_receive_return_handler">
        MiniportTcpOffloadReceiveReturn</a> function of the offload target.
 
+### -param BytesConsumed 
 
-### -param BytesConsumed [out]
-
+[out]
 A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
      client application.
 
-
 ## -returns
-
-
 
 The 
      <b>NdisTcpOffloadReceiveHandler</b> function can return one of the following values:
@@ -164,14 +156,8 @@ The client application consumed a subset of the indicated receive data. The amou
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Receive buffers are posted to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_receive_handler">
@@ -281,13 +267,7 @@ In the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">Using the Specified
     Receive Indication Size</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
 
@@ -315,7 +295,4 @@ In the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
 

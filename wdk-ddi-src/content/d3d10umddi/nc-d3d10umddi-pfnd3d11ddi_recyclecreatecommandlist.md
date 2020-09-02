@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/RecycleCreateCommandList"
+ - PFND3D11DDI_RECYCLECREATECOMMANDLIST
+ - d3d10umddi/PFND3D11DDI_RECYCLECREATECOMMANDLIST
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_RECYCLECREATECOMMANDLIST callback function
+
 
 ## -description
 

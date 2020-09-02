@@ -8,8 +8,6 @@ ms.assetid: 0f33ae87-164e-40dc-a915-28211a0d74b7
 ms.date: 05/02/2018
 keywords: ["MINIPORT_RETURN_NET_BUFFER_LISTS callback function"]
 ms.keywords: MINIPORT_RETURN_NET_BUFFER_LISTS, MINIPORT_RETURN_NET_BUFFER_LISTS callback, MiniportReturnNetBufferLists, MiniportReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportReturnNetBufferLists, ndis_sendrcv_ref_dfe745f1-643d-4834-827c-687aa6404cf2.xml, netvista.miniportreturnnetbufferlists
-f1_keywords:
- - "ndis/MiniportReturnNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportReturnNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_RETURN_NET_BUFFER_LISTS
+ - ndis/MINIPORT_RETURN_NET_BUFFER_LISTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportReturnNetBufferLists
 ---
 
 # MINIPORT_RETURN_NET_BUFFER_LISTS callback function
 
 
 ## -description
-
 
 NDIS calls the 
    <i>MiniportReturnNetBufferLists</i> function to return ownership of 
@@ -58,18 +56,16 @@ NDIS calls the
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information about an adapter.
 
+### -param NetBufferLists 
 
-### -param NetBufferLists [in]
-
+[in]
 A pointer to a linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that NDIS is
      returning to the miniport driver. The linked list can contain NET_BUFFER_LIST structures from multiple
@@ -77,17 +73,14 @@ A pointer to a linked list of
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
      NdisMIndicateReceiveNetBufferLists</a> function.
 
+### -param ReturnFlags 
 
-### -param ReturnFlags [in]
-
+[in]
 NDIS flags that can be combined with an OR operation. This function supports the NDIS_RETURN_FLAGS_DISPATCH_LEVEL flag which, if set, indicates that the
      current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
-
 ## -remarks
-
-
 
 <i>MiniportReturnNetBufferLists</i> is a required function for miniport drivers that indicate received
     network data with the 
@@ -144,15 +137,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_RETURN_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_RETURN_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -176,7 +163,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreturnnetbufferlists">NdisReturnNetBufferLists</a>
- 
-
- 
 

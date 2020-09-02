@@ -8,8 +8,6 @@ ms.assetid: c19c9396-bc24-4f4b-a0c9-f8de76a9c46b
 ms.date: 05/02/2018
 keywords: ["NdisAcquireSpinLock macro"]
 ms.keywords: NdisAcquireSpinLock, NdisAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisAcquireSpinLock, ndis_spin_lock_ref_54c55d32-a190-4454-ad0d-670427754b8b.xml, netvista.ndisacquirespinlock
-f1_keywords:
- - "ndis/NdisAcquireSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAcquireSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAcquireSpinLock
+ - ndis/NdisAcquireSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAcquireSpinLock
 ---
 
 # NdisAcquireSpinLock macro
@@ -48,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisAcquireSpinLock</b> function acquires a spin lock so the caller gains exclusive access to the
   resources, shared among driver functions, that the spin lock protects.
 
-
 ## -parameters
 
+### -param _SpinLock 
 
-
-
-### -param _SpinLock [in]
-
+[in]
 Pointer to an opaque spin lock, already initialized by the caller.
 
-
 ## -remarks
-
-
 
 The driver must initialize a variable of type NDIS_SPIN_LOCK with 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> before it calls
@@ -104,13 +96,7 @@ For more information about acquiring and releasing NDIS spin locks, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_disable_interrupt">MiniportDisableInterruptEx</a>
 
@@ -147,7 +133,4 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a>
- 
-
- 
 

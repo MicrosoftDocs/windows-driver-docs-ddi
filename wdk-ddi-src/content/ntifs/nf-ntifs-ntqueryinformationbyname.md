@@ -10,39 +10,40 @@ ms.date: 10/30/2019
 ms.topic: function
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
-f1_keywords:
- - "ntifs/NtQueryInformationByName"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Available starting with Windows 10 version 1703.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- NtQueryInformationByName
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NtQueryInformationByName
+ - ntifs/NtQueryInformationByName
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - 
+api_name:
+ - NtQueryInformationByName
+product:
+ - Windows
 ---
 
 # NtQueryInformationByName function
+
 
 ## -description
 
@@ -106,3 +107,4 @@ Callers of **NtQueryInformationByName** must be running at IRQL = PASSIVE_LEVEL 
 [**NtQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
 
 [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes)
+

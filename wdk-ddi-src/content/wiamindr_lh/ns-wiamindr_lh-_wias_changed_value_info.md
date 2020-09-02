@@ -6,14 +6,12 @@ old-location: image\wias_changed_value_info.htm
 tech.root: image
 ms.assetid: bfef9d54-fcd5-436b-b3ec-8cd3b8f38360
 ms.date: 05/03/2018
-keywords: ["_WIAS_CHANGED_VALUE_INFO structure"]
+keywords: ["WIAS_CHANGED_VALUE_INFO structure"]
 ms.keywords: "*PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], WIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], _WIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info, wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, wiamindr_lh/WIAS_CHANGED_VALUE_INFO, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml"
-f1_keywords:
- - "wiamindr_lh/WIAS_CHANGED_VALUE_INFO"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamindr_lh.h
-api_name:
-- WIAS_CHANGED_VALUE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO
+f1_keywords:
+ - _WIAS_CHANGED_VALUE_INFO
+ - wiamindr_lh/_WIAS_CHANGED_VALUE_INFO
+ - PWIAS_CHANGED_VALUE_INFO
+ - wiamindr_lh/PWIAS_CHANGED_VALUE_INFO
+ - WIAS_CHANGED_VALUE_INFO
+ - wiamindr_lh/WIAS_CHANGED_VALUE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - WIAS_CHANGED_VALUE_INFO
 ---
 
 # _WIAS_CHANGED_VALUE_INFO structure
+
 
 ## -description
 
@@ -76,7 +80,7 @@ VT_CLSID
 
 VT_BSTR
 
-See the [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropvariant) structure for more information.
+See the [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant) structure for more information.
 
 ### -field Old
 
@@ -113,3 +117,4 @@ The **wiasGetChangedValue**_Xxx_ functions, use this structure to determine whet
 [wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
 
 [wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)
+

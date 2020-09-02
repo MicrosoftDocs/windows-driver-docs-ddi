@@ -8,8 +8,6 @@ ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.date: 04/20/2018
 keywords: ["IFixedDocument::GetUri"]
 ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IFixedDocument interface, IFixedDocument interface [Print Devices],GetUri method, IFixedDocument.GetUri, IFixedDocument::GetUri, filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, print.ifixeddocument_geturi
-f1_keywords:
- - "filterpipeline/IFixedDocument.GetUri"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IFixedDocument.GetUri
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IFixedDocument::GetUri
+ - filterpipeline/IFixedDocument::GetUri
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IFixedDocument.GetUri
 ---
 
 # IFixedDocument::GetUri
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetUri</b> method gets the URI of the fixed document.
-
 
 ## -parameters
 
+### -param uri 
 
-
-
-### -param uri [out]
-
+[out]
 The URI of the fixed document.
-
 
 ## -returns
 
-
-
 <b>GetUri</b> returns an <b>HRESULT</b> value.
-
-
 

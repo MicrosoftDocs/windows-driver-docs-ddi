@@ -6,10 +6,8 @@ old-location: netvista\ndis_open_ndk_adapter_parameters.htm
 tech.root: netvista
 ms.assetid: AC8D4FA1-59E0-4934-A6C5-EA2E645C53FA
 ms.date: 05/02/2018
-keywords: ["_NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure"]
+keywords: ["NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure"]
 ms.keywords: "*PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, PNDIS_OPEN_NDK_ADAPTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, netvista.ndis_open_ndk_adapter_parameters"
-f1_keywords:
- - "ndisndk/NDIS_OPEN_NDK_ADAPTER_PARAMETERS"
 req.header: ndisndk.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndisndk.h
-api_name:
-- NDIS_OPEN_NDK_ADAPTER_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OPEN_NDK_ADAPTER_PARAMETERS, *PNDIS_OPEN_NDK_ADAPTER_PARAMETERS
+f1_keywords:
+ - _NDIS_OPEN_NDK_ADAPTER_PARAMETERS
+ - ndisndk/_NDIS_OPEN_NDK_ADAPTER_PARAMETERS
+ - PNDIS_OPEN_NDK_ADAPTER_PARAMETERS
+ - ndisndk/PNDIS_OPEN_NDK_ADAPTER_PARAMETERS
+ - NDIS_OPEN_NDK_ADAPTER_PARAMETERS
+ - ndisndk/NDIS_OPEN_NDK_ADAPTER_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndisndk.h
+api_name:
+ - NDIS_OPEN_NDK_ADAPTER_PARAMETERS
 ---
 
 # _NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_OPEN_NDK_ADAPTER_PARAMETERS, *PNDIS_OPEN_NDK_ADAPTER_PARAMET
 
 ## -description
 
-
 The <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure specifies parameters to open an NDK adapter instance on the NDK-capable miniport adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -64,39 +62,19 @@ For NDIS 6.30 (Windows Server 2012), the major version number is 1. The  minor 
 
 For NDIS 6.40 (Windows Server 2012 R2), the major version number is 1. The  minor version number is 2.
 
-
 ### -field SwitchId
-
- 
-
 
 ### -field VPortId
 
- 
-
-
-
-
 ## -remarks
-
-
 
 To open an NDK adapter, NDIS calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a> function and passes it a  pointer to an <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure that defines the NDK adapter open parameters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
- 
-
- 
 

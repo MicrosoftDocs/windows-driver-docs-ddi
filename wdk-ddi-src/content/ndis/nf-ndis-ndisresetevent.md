@@ -8,8 +8,6 @@ ms.assetid: fba29b92-5735-4050-b690-3c25e4f57cd1
 ms.date: 05/02/2018
 keywords: ["NdisResetEvent function"]
 ms.keywords: NdisResetEvent, NdisResetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisResetEvent, ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml, netvista.ndisresetevent
-f1_keywords:
- - "ndis/NdisResetEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisResetEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisResetEvent
+ - ndis/NdisResetEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisResetEvent
 ---
 
 # NdisResetEvent function
@@ -48,24 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisResetEvent</b> function clears the Signaled state of a given event.
 
-
 ## -parameters
 
+### -param Event 
 
-
-
-### -param Event [in]
-
+[in]
 A pointer to an initialized event object for which the caller provided the storage.
 
-
 ## -remarks
-
-
 
 <b>NdisResetEvent</b> explicitly sets the state of the given event to 
     <i>not-signaled</i>.
@@ -79,13 +71,7 @@ When an event is set to the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswaitevent">NdisWaitEvent</a> function on that event are
     dispatched for execution without waiting.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeevent">NdisInitializeEvent</a>
 
@@ -96,7 +82,4 @@ When an event is set to the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswaitevent">NdisWaitEvent</a>
- 
-
- 
 

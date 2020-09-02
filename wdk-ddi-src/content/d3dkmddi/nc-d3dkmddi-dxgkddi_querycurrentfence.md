@@ -7,8 +7,6 @@ ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_QUERYCURRENTFENCE callback function"]
 ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DXGKDDI_QUERYCURRENTFENCE callback, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
-f1_keywords:
- - "d3dkmddi/DxgkDdiQueryCurrentFence"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiQueryCurrentFence
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_QUERYCURRENTFENCE
+ - d3dkmddi/DXGKDDI_QUERYCURRENTFENCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiQueryCurrentFence
 ---
 
 # DXGKDDI_QUERYCURRENTFENCE callback function
@@ -47,37 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiQueryCurrentFence</i> function queries about the latest completed submission fence identifier in the hardware command execution unit.
 
-
 ## -parameters
-
-
-
 
 ### -param hAdapter
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
 ### -param pCurrentFence
 
-[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_querycurrentfence">DXGKARG_QUERYCURRENTFENCE</a> structure that contains information about the current fence data. 
-
+[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_querycurrentfence">DXGKARG_QUERYCURRENTFENCE</a> structure that contains information about the current fence data.
 
 ## -returns
 
-
-
 <i>DxgkDdiQueryCurrentFence</i> returns STATUS_SUCCESS, or an appropriate error result if the fence data is not successfully retrieved.
 
-
-
-
 ## -remarks
-
-
 
 A <i>fence</i> is an instruction that contains 64 bits of data and an address. The display miniport driver can insert a fence in the direct memory access (DMA) stream that is sent to the graphics processing unit (GPU). When the GPU reads the fence, the GPU writes the fence data at the specified fence address. However, before the GPU can write the fence data to memory, it must ensure that all of the pixels from the primitives that precede the fence instruction are retired and properly written to memory. 
 
@@ -123,13 +108,7 @@ At device interrupt IRQL, calls <a href="https://docs.microsoft.com/windows-hard
 </ol>
 <i>DxgkDdiQueryCurrentFence</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_querycurrentfence">DXGKARG_QUERYCURRENTFENCE</a>
 
@@ -148,7 +127,4 @@ At device interrupt IRQL, calls <a href="https://docs.microsoft.com/windows-hard
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: display\video_access_range.htm
 tech.root: display
 ms.assetid: 200c957d-2ba4-488b-afd7-609c13543a7a
 ms.date: 05/10/2018
-keywords: ["_VIDEO_ACCESS_RANGE structure"]
+keywords: ["VIDEO_ACCESS_RANGE structure"]
 ms.keywords: "*PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, _VIDEO_ACCESS_RANGE, display.video_access_range, video/PVIDEO_ACCESS_RANGE, video/VIDEO_ACCESS_RANGE"
-f1_keywords:
- - "video/VIDEO_ACCESS_RANGE"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- video.h
-api_name:
-- VIDEO_ACCESS_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_ACCESS_RANGE, *PVIDEO_ACCESS_RANGE
+f1_keywords:
+ - _VIDEO_ACCESS_RANGE
+ - video/_VIDEO_ACCESS_RANGE
+ - PVIDEO_ACCESS_RANGE
+ - video/PVIDEO_ACCESS_RANGE
+ - VIDEO_ACCESS_RANGE
+ - video/VIDEO_ACCESS_RANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - video.h
+api_name:
+ - VIDEO_ACCESS_RANGE
 ---
 
 # _VIDEO_ACCESS_RANGE structure
@@ -47,16 +50,11 @@ req.typenames: VIDEO_ACCESS_RANGE, *PVIDEO_ACCESS_RANGE
 
 ## -description
 
-
 The VIDEO_ACCESS_RANGE structure defines a device I/O port or memory range for the video adapter. Every miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> function must set up an array of VIDEO_ACCESS_RANGE-type elements, called the <i>access ranges array</i>, for each video adapter the miniport driver supports.
 
 For VGA-compatible miniport drivers, VIDEO_ACCESS_RANGE also defines an element in an array passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsettrappedemulatorports">VideoPortSetTrappedEmulatorPorts</a> to enable or disable direct access to I/O ports by full-screen MS-DOS applications.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RangeStart
 
@@ -64,16 +62,13 @@ Specifies the bus-relative base address of a memory or I/O port range for an ele
 
 Specifies the bus-relative base address of an I/O port range for an array to be passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsettrappedemulatorports">VideoPortSetTrappedEmulatorPorts</a>.
 
-
 ### -field RangeLength
 
 Specifies the number of I/O ports or size in bytes for the range.
 
-
 ### -field RangeInIoSpace
 
 Specifies whether the range is in I/O space or in memory space. A value of <b>TRUE</b> (1) indicates that the range is in I/O space; a value of <b>FALSE</b> (0) indicates the range is in memory space.
-
 
 ### -field RangeVisible
 
@@ -81,13 +76,11 @@ Is ignored if the miniport driver's <a href="https://docs.microsoft.com/windows-
 
 Is set to <b>TRUE</b> by VGA-compatible miniport drivers and passed to <b>VideoPortSetTrappedEmulatorPorts</b> to enable direct access to the I/O port range by a full-screen MS-DOS application. If set to <b>FALSE</b>, application-issued instructions continue to be trapped and forwarded to the miniport driver's <i>SvgaHwIoXxx</i> function for validation.
 
-
 ### -field RangeShareable
 
 Is set to <b>TRUE</b> if the access range described by this element can be shared with another driver and/or device or to <b>FALSE</b> if the range cannot be shared.
 
 Is ignored by VideoPortSetTrappedEmulatorPorts.
-
 
 ### -field RangePassive
 
@@ -138,13 +131,7 @@ All VIDEO_ACCESS_RANGE-type array elements describing I/O port ranges are assume
 
 In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrappedEmulatorPorts</b>, the value of each element's <b>RangeVisible</b> member determines whether the given I/O port(s) can be accessed directly by the VDM (MS-DOS application running in full-screen on an x86-based machine) or whether such an application-issued I/O stream is trapped and forwarded to a miniport driver-supplied <i>SvgaHwIoPortXxx</i> function for validation first.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-video-miniport-driver">DriverEntry of Video Miniport Driver</a>
 
@@ -195,7 +182,4 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
- 
-
- 
 

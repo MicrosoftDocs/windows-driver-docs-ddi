@@ -8,8 +8,6 @@ ms.assetid: bfccd901-9ce7-4873-ba9a-0e4718fd7d19
 ms.date: 05/02/2018
 keywords: ["NdisCancelDirectOidRequest function"]
 ms.keywords: NdisCancelDirectOidRequest, NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelDirectOidRequest, ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, netvista.ndiscanceldirectoidrequest
-f1_keywords:
- - "ndis/NdisCancelDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCancelDirectOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCancelDirectOidRequest
+ - ndis/NdisCancelDirectOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCancelDirectOidRequest
 ---
 
 # NdisCancelDirectOidRequest function
@@ -48,34 +47,27 @@ req.typenames:
 
 ## -description
 
-
 Protocol drivers call the 
   <b>NdisCancelDirectOidRequest</b> function to cancel a previous direct OID request to the underlying
   drivers.
 
-
 ## -parameters
 
+### -param NdisBindingHandle 
 
-
-
-### -param NdisBindingHandle [in]
-
+[in]
 The handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returned
      that identifies the target miniport adapter on the binding.
 
+### -param RequestId 
 
-### -param RequestId [in]
-
+[in]
 A cancellation identifier for the request. This identifier specifies the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
-
 ## -remarks
-
-
 
 Protocol drivers call the 
     <b>NdisCancelDirectOidRequest</b> function to cancel a previously issued direct OID request. The request
@@ -85,13 +77,7 @@ Protocol drivers call the
     in the call to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdirectoidrequest">NdisDirectOidRequest</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -102,7 +88,4 @@ Protocol drivers call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
- 
-
- 
 

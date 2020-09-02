@@ -6,10 +6,8 @@ old-location: powermeter\pmi_event.htm
 tech.root: powermeter
 ms.assetid: 51ae6247-c482-4f13-8699-df871ae346c0
 ms.date: 05/08/2018
-keywords: ["_PMI_EVENT structure"]
+keywords: ["PMI_EVENT structure"]
 ms.keywords: "*PPMI_EVENT, PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, _PMI_EVENT, pmi/PMI_EVENT, pmi/PPMI_EVENT, powermeter.pmi_event"
-f1_keywords:
- - "pmi/PMI_EVENT"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pmi.h
-api_name:
-- PMI_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_EVENT, *PPMI_EVENT
+f1_keywords:
+ - _PMI_EVENT
+ - pmi/_PMI_EVENT
+ - PPMI_EVENT
+ - pmi/PPMI_EVENT
+ - PMI_EVENT
+ - pmi/PMI_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pmi.h
+api_name:
+ - PMI_EVENT
 ---
 
 # _PMI_EVENT structure
@@ -47,28 +50,19 @@ req.typenames: PMI_EVENT, *PPMI_EVENT
 
 ## -description
 
-
 The PMI_EVENT structure contains information about a power metering and budgeting event that is signaled through the Power Meter Interface (PMI).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 A value that specifies the version of this structure. For Windows 7, Windows Server 2008 R2, and later versions of Windows, this value must be 1.
 
-
 ### -field EventType
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_event_type">PMI_EVENT_TYPE</a> enumeration value that specifies the PMI event type.
 
-
 ## -remarks
-
-
 
 The PMI_EVENT structure contains information about a power metering or budgeting event. PMI generates an event for a power meter when one of the following occurs:
 
@@ -181,15 +175,8 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
@@ -216,7 +203,4 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_event_type">PMI_EVENT_TYPE</a>
- 
-
- 
 

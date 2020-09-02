@@ -6,10 +6,8 @@ old-location: netvista\wdi_qos_protocol.htm
 tech.root: netvista
 ms.assetid: 39466BF7-0517-4113-9C94-26D8691CCCC1
 ms.date: 05/02/2018
-keywords: ["_WDI_QOS_PROTOCOL enumeration"]
+keywords: ["WDI_QOS_PROTOCOL enumeration"]
 ms.keywords: WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL enumeration [Device and Driver Installation], WDI_QOS_PROTOCOL_11E, WDI_QOS_PROTOCOL_NONE, WDI_QOS_PROTOCOL_WMM, _WDI_QOS_PROTOCOL, netvista.wdi_qos_protocol, netvista.wifi_qos_protocol, wditypes/WDI_QOS_PROTOCOL, wditypes/WDI_QOS_PROTOCOL_11E, wditypes/WDI_QOS_PROTOCOL_NONE, wditypes/WDI_QOS_PROTOCOL_WMM
-f1_keywords:
- - "wditypes/WDI_QOS_PROTOCOL"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wditypes.hpp
-api_name:
-- WDI_QOS_PROTOCOL
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_QOS_PROTOCOL
+f1_keywords:
+ - _WDI_QOS_PROTOCOL
+ - wditypes/_WDI_QOS_PROTOCOL
+ - WDI_QOS_PROTOCOL
+ - wditypes/WDI_QOS_PROTOCOL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wditypes.hpp
+api_name:
+ - WDI_QOS_PROTOCOL
 ---
 
 # _WDI_QOS_PROTOCOL enumeration
@@ -47,31 +48,21 @@ req.typenames: WDI_QOS_PROTOCOL
 
 ## -description
 
-
 The WDI_QOS_PROTOCOL enumeration defines Wi-Fi QOS protocols.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WDI_QOS_PROTOCOL_NONE
 
 None
 
-
 ### -field WDI_QOS_PROTOCOL_WMM
 
 Wi-Fi Multimedia (WMM, formerly known as Wireless Multimedia Extensions)
-
 
 ### -field WDI_QOS_PROTOCOL_11E
 
 802.11E
 
-
 ### -field WDI_QOS_PROTOCOL_MAX
-
-
 

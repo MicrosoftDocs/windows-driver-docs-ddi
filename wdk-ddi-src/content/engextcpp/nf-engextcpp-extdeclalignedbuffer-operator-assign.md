@@ -10,6 +10,7 @@ keywords: ["ExtDeclAlignedBuffer::operator= method"]
 ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtCheckedPointer::operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer, ExtDeclAlignedBuffer::operator=, ExtBuffer::operator=, ExtBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging], ExtDeclAlignedBuffer
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.operator="
+ - "ExtRemoteTyped.operator="
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - arrayofelements.hpp
 api_name:
 - ExtRemoteTyped.operator=
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

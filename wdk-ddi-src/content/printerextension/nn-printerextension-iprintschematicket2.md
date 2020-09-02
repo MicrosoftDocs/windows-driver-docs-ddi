@@ -8,8 +8,6 @@ ms.assetid: 52D9FA01-578B-43C2-A0B1-F3CD0BAAFAE4
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaTicket2 interface"]
 ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices],described, print.iprintschematicket2, printerextension/IPrintSchemaTicket2
-f1_keywords:
- - "printerextension/IPrintSchemaTicket2"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaTicket2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaTicket2
+ - printerextension/IPrintSchemaTicket2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaTicket2
 ---
 
 # IPrintSchemaTicket2 interface
+
 
 ## -description
 
@@ -53,3 +53,4 @@ The **IPrintSchemaTicket2** interface is an extension to the [IPrintSchemaTicket
 ## -see-also
 
 [IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+

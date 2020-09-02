@@ -8,39 +8,38 @@ ms.assetid: 9a6aca10-f0b2-4476-93c7-b3670d239b15
 ms.date: 01/11/2018
 keywords: ["PFN_WDFOBJECTACQUIRELOCK callback"]
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock
-f1_keywords:
- - "wdfsync/WdfObjectAcquireLock"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdfsync.h
-api_name:
-- WdfObjectAcquireLock
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
+f1_keywords:
+ - PFN_WDFOBJECTACQUIRELOCK
+ - wdfsync/PFN_WDFOBJECTACQUIRELOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdfsync.h
+api_name:
+ - WdfObjectAcquireLock
 ---
 
 # WdfObjectAcquireLock callback
@@ -48,44 +47,27 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfObjectAcquireLock</b> method acquires an object's synchronization lock.
 
+## -parameters
+
+### -param DriverGlobals
+
+### -param WDFOBJECT
+
+#### - Object [in]
+
+A handle to a framework device object or a framework queue object.
 
 ## -prototype
-
 
 ```cpp
 VOID WdfObjectAcquireLock(
   _In_ WDFOBJECT Object
 );
 ```
-
-
-## -parameters
-
-
-
-
-### -param DriverGlobals
-
-
-
-### -param WDFOBJECT
-
-
-
-
-
-
-#### - Object [in]
-
-A handle to a framework device object or a framework queue object.
-
-
-
 
 ## -remarks
 
@@ -101,8 +83,6 @@ If the driver did <i>not</i> specify <b>WdfExecutionLevelPassive</b> for the <b>
 
 For more information about synchronization locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
-
-
 ## -see-also
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
@@ -110,9 +90,4 @@ For more information about synchronization locks, see <a href="https://docs.micr
 <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548765">WdfObjectReleaseLock</a>
-
- 
-
- 
-
 

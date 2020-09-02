@@ -6,10 +6,8 @@ old-location: kernel\io_connect_interrupt_parameters.htm
 tech.root: kernel
 ms.assetid: 450c2e2b-56fa-4896-ba81-0f84f7e3051d
 ms.date: 04/30/2018
-keywords: ["_IO_CONNECT_INTERRUPT_PARAMETERS structure"]
+keywords: ["IO_CONNECT_INTERRUPT_PARAMETERS structure"]
 ms.keywords: "*PIO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_CONNECT_INTERRUPT_PARAMETERS, PIO_CONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_CONNECT_INTERRUPT_PARAMETERS, kernel.io_connect_interrupt_parameters, kstruct_b_c3854cf4-b084-42f4-9f3b-92a96fc741c1.xml, wdm/IO_CONNECT_INTERRUPT_PARAMETERS, wdm/PIO_CONNECT_INTERRUPT_PARAMETERS"
-f1_keywords:
- - "wdm/IO_CONNECT_INTERRUPT_PARAMETERS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IO_CONNECT_INTERRUPT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_CONNECT_INTERRUPT_PARAMETERS, *PIO_CONNECT_INTERRUPT_PARAMETERS
+f1_keywords:
+ - _IO_CONNECT_INTERRUPT_PARAMETERS
+ - wdm/_IO_CONNECT_INTERRUPT_PARAMETERS
+ - PIO_CONNECT_INTERRUPT_PARAMETERS
+ - wdm/PIO_CONNECT_INTERRUPT_PARAMETERS
+ - IO_CONNECT_INTERRUPT_PARAMETERS
+ - wdm/IO_CONNECT_INTERRUPT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IO_CONNECT_INTERRUPT_PARAMETERS
 ---
 
 # _IO_CONNECT_INTERRUPT_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: IO_CONNECT_INTERRUPT_PARAMETERS, *PIO_CONNECT_INTERRUPT_PARAMETER
 
 ## -description
 
-
 The <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure contains the parameters that a driver supplies to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine to register an interrupt service routine (ISR).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -136,8 +134,6 @@ The caller specified CONNECT_MESSAGE_BASED and the caller's <i>InterruptMessageS
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FullySpecified
 
@@ -221,7 +217,6 @@ Specifies the [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/driver
 
 Specifies a group number that identifies the processor group to which the interrupt is to be delivered. Typically, a driver receives its group number as part of the translated resources that are included in an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request. Starting with Windows 7, the <b>Group</b> member is used if the <b>Version</b> member of the <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure is set to CONNECT_FULLY_SPECIFIED_GROUP. The <b>Group</b> member is ignored if <b>Version</b> is set to CONNECT_FULLY_SPECIFIED, in which case the group number for delivery of the interrupt is always 0.
 
-
 ### -field LineBased
 
 Specifies the additional parameters of the operation to be performed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_LINE_BASED. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-the-connect-line-based-version-of-ioconnectinterruptex">Using the CONNECT_LINE_BASED Version of IoConnectInterruptEx</a>.
@@ -267,7 +262,6 @@ Specifies the minimum device IRQL (DIRQL) at which the ISR runs. The system uses
 #### FloatingSave
 
 Specifies if the system saves the processor's floating-point state when the interrupt occurs. If <b>TRUE</b>, the system saves floating-point state. For x86-based and Itanium-based platforms, this value must be set to <b>FALSE</b>. For more information about saving floating-point and MMX state, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-floating-point-or-mmx-in-a-wdm-driver">Using Floating Point or MMX in a WDM Driver</a>.
-
 
 ### -field MessageBased
 
@@ -341,23 +335,11 @@ Specifies if the system saves the processor's floating-point state when the inte
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine to use as the ISR for line-based interrupts. If the device has no message-signaled interrupts, but has line-based interrupts, the system registers this routine to handle the line-based interrupts.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine takes a single <i>Parameters</i> parameter, which points to an <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure that contains all of the parameters of the operation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
- 
-
- 
 

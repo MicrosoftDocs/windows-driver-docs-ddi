@@ -8,8 +8,6 @@ ms.assetid: 92DDF65E-4B5B-443A-9C90-3B1BB2DD3CAF
 ms.date: 05/07/2018
 keywords: ["COMPOSITE_DEVICE_CAPABILITIES_INIT function"]
 ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], buses.composite_driver_capabilities_init, usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT
-f1_keywords:
- - "usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Usbdex.lib
-- Usbdex.dll
-api_name:
-- COMPOSITE_DEVICE_CAPABILITIES_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - COMPOSITE_DEVICE_CAPABILITIES_INIT
+ - usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Usbdex.lib
+ - Usbdex.dll
+api_name:
+ - COMPOSITE_DEVICE_CAPABILITIES_INIT
 ---
 
 # COMPOSITE_DEVICE_CAPABILITIES_INIT function
@@ -48,25 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>COMPOSITE_DEVICE_CAPABILITIES_INIT</b> macro initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param CapabilityFlags
 
  A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a> structure to be initialized. The macro sets the <b>CompositeDriverCapabilityFunctionSuspend</b>
 member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 0.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a>
 
@@ -77,7 +67,4 @@ member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 0.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_register_composite_device">REGISTER_COMPOSITE_DEVICE</a>
- 
-
- 
 

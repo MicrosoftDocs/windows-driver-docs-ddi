@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCalibrateGpuClock"
+ - DXGKDDI_CALIBRATEGPUCLOCK
+ - d3dkmddi/DXGKDDI_CALIBRATEGPUCLOCK
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CALIBRATEGPUCLOCK callback function
+
 
 ## -description
 

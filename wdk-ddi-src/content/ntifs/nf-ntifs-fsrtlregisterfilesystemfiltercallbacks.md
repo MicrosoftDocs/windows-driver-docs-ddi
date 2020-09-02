@@ -8,8 +8,6 @@ ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
 ms.date: 12/15/2019
 keywords: ["FsRtlRegisterFileSystemFilterCallbacks function"]
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
-f1_keywords:
- - "ntifs/FsRtlRegisterFileSystemFilterCallbacks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlRegisterFileSystemFilterCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlRegisterFileSystemFilterCallbacks
+ - ntifs/FsRtlRegisterFileSystemFilterCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlRegisterFileSystemFilterCallbacks
 ---
 
 # FsRtlRegisterFileSystemFilterCallbacks function
+
 
 ## -description
 
@@ -50,12 +50,14 @@ File system filter drivers and file systems call the **FsRtlRegisterFileSystemFi
 
 ## -parameters
 
-### -param FilterDriverObject [in]
+### -param FilterDriverObject 
 
+[in]
 A pointer to the driver object for the filter or file system driver.
 
-### -param Callbacks [in]
+### -param Callbacks 
 
+[in]
 A pointer to a structure that contains the entry points of caller-supplied notification callback routines.
 
 This structure is defined as follows.
@@ -434,3 +436,4 @@ The callback routines defined by **FsRtlRegisterFileSystemFilterCallbacks** supe
 * ReleaseForCcFlush
 * ReleaseFileForNtCreateSection
 * ReleaseForModWrite
+

@@ -8,8 +8,6 @@ ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionWdmGetTransferContext function"]
 ms.keywords: WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
-f1_keywords:
- - "wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDmaTransactionWdmGetTransferContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDmaTransactionWdmGetTransferContext
+ - wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDmaTransactionWdmGetTransferContext
 ---
 
 # WdfDmaTransactionWdmGetTransferContext function
@@ -48,35 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WdfDmaTransactionWdmGetTransferContext</b> method retrieves the WDM transfer context that is associated with a DMA transaction.
 
-
 ## -parameters
 
+### -param DmaTransaction 
 
-
-
-### -param DmaTransaction [in]
-
+[in]
 A handle to an initialized DMA transaction object from which to retrieve the transfer context.
-
 
 ## -returns
 
-
-
 A pointer to the DMA transfer context (PTRANSFER_CONTEXT) associated with the transaction.
 
-
-
-
 ## -remarks
-
-
 
 The DMA transfer context for a transaction is allocated when the driver creates the transaction.
 
@@ -103,16 +90,7 @@ Your driver can use the DMA transfer context to call the following WDM DMA libra
 </ul>
 You must initialize the DMA transaction before calling <b>WdfDmaTransactionWdmGetTransferContext</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>
- 
-
- 
 

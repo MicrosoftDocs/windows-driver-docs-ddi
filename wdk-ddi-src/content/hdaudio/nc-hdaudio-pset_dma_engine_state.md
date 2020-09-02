@@ -8,8 +8,6 @@ ms.assetid: 05cfb827-e143-4d77-b378-e02dd381e429
 ms.date: 05/08/2018
 keywords: ["PSET_DMA_ENGINE_STATE callback function"]
 ms.keywords: PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE callback, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
-f1_keywords:
- - "hdaudio/SetDmaEngineState"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- hdaudio.h
-api_name:
-- SetDmaEngineState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PSET_DMA_ENGINE_STATE
+ - hdaudio/PSET_DMA_ENGINE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - hdaudio.h
+api_name:
+ - SetDmaEngineState
 ---
 
 # PSET_DMA_ENGINE_STATE callback function
@@ -47,32 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <i>SetDmaEngineState</i> routine sets the state of one or more DMA engines to the Running, Stopped, Paused, or Reset state.
 
 The function pointer type for a <i>SetDmaEngineState</i> routine is defined as follows.
 
-
 ## -parameters
 
+### -param _context 
 
-
-
-### -param _context [in]
-
+[in]
 Specifies the context value from the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
-
 
 ### -param StreamState
 
+### -param NumberOfHandles 
 
-### -param NumberOfHandles [in]
-
+[in]
 Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
 
+### -param Handles 
 
-### -param Handles [in]
-
+[in]
 Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
 
 
@@ -100,10 +94,7 @@ Specifies the new stream state. Set this parameter to one of the following HDAUD
 </ul>
 In the current implementation, <b>PauseState</b> and <b>StopState</b> represent the same hardware state.
 
-
 ## -returns
-
-
 
 <i>SetDmaEngineState</i> returns STATUS_SUCCESS if the call succeeds in changing the DMA engines' states. Otherwise, the routine returns an appropriate error code. The following table shows some of the possible return status codes.
 
@@ -146,14 +137,8 @@ Indicates that no buffer is currently allocated for one of the DMA engines.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine changes the state of one or more DMA engines to the state that the <i>streamState</i> parameter specifies. The routine synchronizes the state transitions of all the DMA engines that the handles in the <i>handles</i> array identify. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/synchronizing-two-or-more-streams">Synchronizing Two or More Streams</a>.
 
@@ -185,13 +170,7 @@ From a paused or stopped state, the stream state can change directly to either R
 </ul>
 A WDM audio driver calls this routine during a call to its <b>SetState</b> method. For example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavecyclicstream-setstate">IMiniportWaveCyclicStream::SetState</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_dma_buffer">AllocateDmaBuffer</a>
 
@@ -214,7 +193,4 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
- 
-
- 
 

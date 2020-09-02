@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2drawrectpatch.htm
 tech.root: display
 ms.assetid: 892fe11a-4dfd-43cb-8f9a-b148d81a087f
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2DRAWRECTPATCH structure"]
+keywords: ["D3DHAL_DP2DRAWRECTPATCH structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH structure [Display Devices], LPD3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH structure pointer [Display Devices], _D3DHAL_DP2DRAWRECTPATCH, d3dhal/D3DHAL_DP2DRAWRECTPATCH, d3dhal/LPD3DHAL_DP2DRAWRECTPATCH, d3dstrct_beda6033-07b1-4985-8eac-6bb49bcce07e.xml, display.d3dhal_dp2drawrectpatch"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2DRAWRECTPATCH"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2DRAWRECTPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2DRAWRECTPATCH
+f1_keywords:
+ - _D3DHAL_DP2DRAWRECTPATCH
+ - d3dhal/_D3DHAL_DP2DRAWRECTPATCH
+ - D3DHAL_DP2DRAWRECTPATCH
+ - d3dhal/D3DHAL_DP2DRAWRECTPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2DRAWRECTPATCH
 ---
 
 # _D3DHAL_DP2DRAWRECTPATCH structure
@@ -47,32 +48,22 @@ req.typenames: D3DHAL_DP2DRAWRECTPATCH
 
 ## -description
 
-
-
    DirectX 8.0 and later versions only.
    
 
 D3DHAL_DRAWRECTPATCH is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWRECTPATCH, and is used to render a rectangular patch.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Handle
 
 Specifies the handle associated with the surface.
 
-
 ### -field Flags
 
 Specifies what, if any, additional information follows the D3DHAL_DP2DRAWRECTPATCH data structure in the DP2 stream.
 
-
 ## -remarks
-
-
 
 The <b>Handle</b> member is used to associate the surface with a handle, so that the next time this surface is drawn, there is no need to respecify the D3DRECTPATCH_INFO data structure for this patch. This makes it possible for the driver to precompute and cache forward difference coefficients and/or any other information, which in turn allows subsequent D3DDP2OP_DRAWRECTPATCH tokens using the same handle to execute more efficiently. D3DRECTPATCH_INFO is described in the latest DirectX SDK documentation. 
 
@@ -92,13 +83,7 @@ If <b>Handle</b> is subzero, the handle value has been specified by an earlier D
 
 The driver receives notification that cached patch information is be released via the render state D3DRS_DELETERTPATCH. The value of this render state is the patch to be deleted.
 
-
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_DRAWRECTPATCH
 
@@ -117,7 +102,4 @@ D3DRS_DELETERTPATCH
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

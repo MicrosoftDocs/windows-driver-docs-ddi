@@ -6,10 +6,8 @@ old-location: buses\_urb_header.htm
 tech.root: usbref
 ms.assetid: d23b9332-1e9d-4592-9674-3e5d8fc1d11e
 ms.date: 05/07/2018
-keywords: ["_URB_HEADER structure"]
+keywords: ["URB_HEADER structure"]
 ms.keywords: URB_FUNCTION_ABORT_PIPE, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER_USING_CHAINED_MDL, URB_FUNCTION_CLASS_DEVICE, URB_FUNCTION_CLASS_ENDPOINT, URB_FUNCTION_CLASS_INTERFACE, URB_FUNCTION_CLASS_OTHER, URB_FUNCTION_CLEAR_FEATURE_TO_DEVICE, URB_FUNCTION_CLEAR_FEATURE_TO_ENDPOINT, URB_FUNCTION_CLEAR_FEATURE_TO_INTERFACE, URB_FUNCTION_CLEAR_FEATURE_TO_OTHER, URB_FUNCTION_CLOSE_STATIC_STREAMS, URB_FUNCTION_CONTROL_TRANSFER, URB_FUNCTION_CONTROL_TRANSFER_EX, URB_FUNCTION_GET_CONFIGURATION, URB_FUNCTION_GET_CURRENT_FRAME_NUMBER, URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE, URB_FUNCTION_GET_DESCRIPTOR_FROM_ENDPOINT, URB_FUNCTION_GET_DESCRIPTOR_FROM_INTERFACE, URB_FUNCTION_GET_FRAME_LENGTH, URB_FUNCTION_GET_INTERFACE, URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR, URB_FUNCTION_GET_STATUS_FROM_DEVICE, URB_FUNCTION_GET_STATUS_FROM_ENDPOINT, URB_FUNCTION_GET_STATUS_FROM_INTERFACE, URB_FUNCTION_GET_STATUS_FROM_OTHER, URB_FUNCTION_ISOCH_TRANSFER, URB_FUNCTION_ISOCH_TRANSFER_USING_CHAINED_MDL, URB_FUNCTION_OPEN_STATIC_STREAMS, URB_FUNCTION_RELEASE_FRAME_LENGTH_CONTROL, URB_FUNCTION_RESET_PIPE, URB_FUNCTION_SELECT_CONFIGURATION, URB_FUNCTION_SELECT_INTERFACE, URB_FUNCTION_SET_DESCRIPTOR_TO_DEVICE, URB_FUNCTION_SET_DESCRIPTOR_TO_ENDPOINT, URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACE, URB_FUNCTION_SET_FEATURE_TO_DEVICE, URB_FUNCTION_SET_FEATURE_TO_ENDPOINT, URB_FUNCTION_SET_FEATURE_TO_INTERFACE, URB_FUNCTION_SET_FEATURE_TO_OTHER, URB_FUNCTION_SET_FRAME_LENGTH, URB_FUNCTION_SYNC_CLEAR_STALL, URB_FUNCTION_SYNC_RESET_PIPE, URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL, URB_FUNCTION_TAKE_FRAME_LENGTH_CONTROL, URB_FUNCTION_VENDOR_DEVICE, URB_FUNCTION_VENDOR_ENDPOINT, URB_FUNCTION_VENDOR_INTERFACE, URB_FUNCTION_VENDOR_OTHER, _URB_HEADER, _URB_HEADER structure [Buses], buses._urb_header, usb/_URB_HEADER, usbstrct_588f903a-8690-4295-94b0-8b9162ff190e.xml
-f1_keywords:
- - "usb/_URB_HEADER"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usb.h
-api_name:
-- _URB_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _URB_HEADER
+ - usb/_URB_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usb.h
+api_name:
+ - _URB_HEADER
 ---
 
 # _URB_HEADER structure
@@ -47,22 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>_URB_HEADER</b> structure is used by USB client drivers to provide basic information about the request being sent to the host controller driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Length
 
 Specifies the length, in bytes, of the URB. For URB requests that use data structures other than <b>_URB_HEADER</b>, this member must be set to the length of the entire URB request structure, not the _URB_HEADER size.
 
-
 ### -field Function
-
 
 Specifies a numeric code indicating the requested operation for this URB. One of the following values must be set:
 
@@ -423,37 +415,25 @@ Closes all opened streams in the specified bulk endpoint. If set, the URB is use
 
 Available in Windows 8. For information about formatting an URB for a close-stream request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
-
 ### -field Status
 
 Contains a USBD_STATUS_<i>XXX</i> code on return from the host controller driver.
-
 
 ### -field UsbdDeviceHandle
 
 Reserved. Do not use.
 
-
 ### -field UsbdFlags
 
 Reserved. Do not use.
 
-
 ## -remarks
-
-
 
 The <b>_URB_HEADER</b> structure is a member of all USB requests that are part of the URB structure. The <b>_URB_HEADER</b> structure is used to provide common information about each request to the host controller driver.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
 
@@ -516,7 +496,4 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_select_interface">_URB_SELECT_INTERFACE</a>
- 
-
- 
 

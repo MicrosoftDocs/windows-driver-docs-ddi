@@ -10,6 +10,7 @@ keywords: ["FsRtlRegisterUncProvider function"]
 ms.keywords: FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
 f1_keywords:
  - "ntifs/FsRtlRegisterUncProvider"
+ - "FsRtlRegisterUncProvider"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlRegisterUncProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,8 +55,8 @@ The <b>FsRtlRegisterUncProvider</b> routine registers a network redirector as a 
 
 
 
-### -param MupHandle [out]
-
+### -param MupHandle 
+[out]
 A pointer to a location in which to return a MUP handle to be used when calling <b>FsRtlRegisterUncProvider</b> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS.
 
 
@@ -66,8 +65,8 @@ A pointer to a location in which to return a MUP handle to be used when calling 
 <p>A pointer to a Unicode string that contains the device name of the network redirector. </p>
 
 
-### -param MailslotsSupported [in]
-
+### -param MailslotsSupported 
+[in]
 Set to <b>TRUE</b> if the network redirector supports mailslots. This option is normally reserved for use by the Microsoft SMB redirector.
 
 

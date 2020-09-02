@@ -8,38 +8,41 @@ ms.assetid: 0ab5239d-422e-483e-a633-4efab47311fc
 ms.date: 02/16/2018
 keywords: ["DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure"]
 ms.keywords: "*PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_key_mapping_key_value, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE"
-f1_keywords:
- - "windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+f1_keywords:
+ - DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+ - windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+ - PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+ - windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure
@@ -47,33 +50,12 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure defines a key-mapping cipher key that will be added
   to or deleted from the key tables on the 802.11 station. For more information about this cipher key type,
   see
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>.
 
-
-## -syntax
-
-
-```cpp
-typedef struct DOT11_CIPHER_KEY_MAPPING_KEY_VALUE {
-  DOT11_MAC_ADDRESS      PeerMacAddr;
-  DOT11_CIPHER_ALGORITHM AlgorithmId;
-  DOT11_DIRECTION        Direction;
-  BOOLEAN                bDelete;
-  BOOLEAN                bStatic;
-  USHORT                 usKeyLength;
-  UCHAR                  ucKey[1];
-} DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field PeerMacAddr
 
@@ -89,20 +71,17 @@ This member is used to uniquely identify a key entry. For the standard 802.11 ci
 When the NIC is in the Extensible Access Point (ExtAP) OP mode,
      <b>PeerMacAddr</b> must have a unique value.
 
-
 ### -field AlgorithmId
 
 The value of the cipher algorithm that uses this key. For more information about enumerator values
      for cipher algorithms, see
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
 
-
 ### -field Direction
 
 This member specifies whether the 802.11 station uses the key for receive or transmit packets. The
      data type for this member is the
      <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a> enumeration.
-
 
 ### -field bDelete
 
@@ -111,7 +90,6 @@ If set to <b>TRUE</b>, the miniport driver must delete the key referenced by
      <b>Direction</b> . If set to <b>FALSE</b>, the miniport driver must add or update the key referenced by
      <b>PeerMacAddr</b> and
      <b>Direction</b> .
-
 
 ### -field bStatic
 
@@ -158,7 +136,6 @@ Implicitly deleted through a method request of
 The length, in bytes, of the key material in the
      <b>ucKey</b> array.
 
-
 ### -field ucKey
 
 The key material.
@@ -178,10 +155,21 @@ If
      <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">
      DOT11_KEY_ALGO_CCMP</a> structure.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_CIPHER_KEY_MAPPING_KEY_VALUE {
+  DOT11_MAC_ADDRESS      PeerMacAddr;
+  DOT11_CIPHER_ALGORITHM AlgorithmId;
+  DOT11_DIRECTION        Direction;
+  BOOLEAN                bDelete;
+  BOOLEAN                bStatic;
+  USHORT                 usKeyLength;
+  UCHAR                  ucKey[1];
+} DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE;
+```
 
 ## -remarks
-
-
 
 The Native 802.11 miniport driver uniquely identifies key-mapping keys through the
     <b>PeerMacAddr</b> and
@@ -209,8 +197,6 @@ If the
 
 </li>
 </ul>
-
-
 
 ## -see-also
 
@@ -240,11 +226,4 @@ If the
 
 
 <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
-
-
-
- 
-
- 
-
 

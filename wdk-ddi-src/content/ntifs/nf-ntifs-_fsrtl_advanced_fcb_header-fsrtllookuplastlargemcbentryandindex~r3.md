@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupLastLargeMcbEntryAndIndex function"]
 ms.keywords: FsRtlLookupLastLargeMcbEntryAndIndex, FsRtlLookupLastLargeMcbEntryAndIndex routine [Installable File System Drivers], fsrtlref_d7148458-8a3c-4633-8be3-578623ba4d01.xml, ifsk.fsrtllookuplastlargemcbentryandindex, ntifs/FsRtlLookupLastLargeMcbEntryAndIndex
 f1_keywords:
  - "ntifs/FsRtlLookupLastLargeMcbEntryAndIndex"
+ - "FsRtlLookupLastLargeMcbEntryAndIndex"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlLookupLastLargeMcbEntryAndIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,23 +55,23 @@ The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mappi
 
 
 
-### -param OpaqueMcb [in]
-
+### -param OpaqueMcb 
+[in]
 Pointer to an initialized MCB structure to be searched.
 
 
-### -param LargeVbn [out]
-
+### -param LargeVbn 
+[out]
 Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
 
 
-### -param LargeLbn [out]
-
+### -param LargeLbn 
+[out]
 Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists.
 
 
-### -param Index [out]
-
+### -param Index 
+[out]
 Pointer to a variable that receives the index of the last run in the MCB.
 
 

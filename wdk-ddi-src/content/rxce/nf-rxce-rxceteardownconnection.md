@@ -8,8 +8,6 @@ ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
 ms.date: 04/16/2018
 keywords: ["RxCeTearDownConnection function"]
 ms.keywords: RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers], ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml
-f1_keywords:
- - "rxce/RxCeTearDownConnection"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeTearDownConnection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeTearDownConnection
+ - rxce/RxCeTearDownConnection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeTearDownConnection
 ---
 
 # RxCeTearDownConnection function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeTearDownConnection</b> tears down a given connection between a local RDBSS connection address and a remote address.
-
 
 ## -parameters
 
+### -param pConnection 
 
-
-
-### -param pConnection [in]
-
+[in]
 A pointer to an connection to be torn down.
 
-
 ## -returns
-
-
 
 <b>RxCeTearDownConnection</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -95,27 +87,12 @@ One of the parameters passed to this routine was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When <b>RxCeTearDownConnection</b> is successful, the data members in the RXCE_CONNECTION structure pointed to by the <i>pConnection</i> parameter will be properly uninitialized, and allocated memory for connection information and handler will be freed. 
-
-
-
+When <b>RxCeTearDownConnection</b> is successful, the data members in the RXCE_CONNECTION structure pointed to by the <i>pConnection</i> parameter will be properly uninitialized, and allocated memory for connection information and handler will be freed.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildconnection">RxCeBuildConnection</a>
- 
-
- 
 

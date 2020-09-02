@@ -6,10 +6,8 @@ old-location: netvista\ndis_receive_filter_capabilities.htm
 tech.root: netvista
 ms.assetid: aecc1fe0-03f9-44be-9a38-b689eee4c5a6
 ms.date: 05/02/2018
-keywords: ["_NDIS_RECEIVE_FILTER_CAPABILITIES structure"]
+keywords: ["NDIS_RECEIVE_FILTER_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_RECEIVE_FILTER_CAPABILITIES, NDIS_RECEIVE_FILTER_CAPABILITIES, NDIS_RECEIVE_FILTER_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_CAPABILITIES, PNDIS_RECEIVE_FILTER_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_CAPABILITIES, netvista.ndis_receive_filter_capabilities, ntddndis/NDIS_RECEIVE_FILTER_CAPABILITIES, ntddndis/PNDIS_RECEIVE_FILTER_CAPABILITIES, virtual_machine_queue_ref_51c84771-6803-4059-9011-df2d870614a0.xml"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_FILTER_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_FILTER_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_CAPABILITIES, *PNDIS_RECEIVE_FILTER_CAPABILITIES
+f1_keywords:
+ - _NDIS_RECEIVE_FILTER_CAPABILITIES
+ - ntddndis/_NDIS_RECEIVE_FILTER_CAPABILITIES
+ - PNDIS_RECEIVE_FILTER_CAPABILITIES
+ - ntddndis/PNDIS_RECEIVE_FILTER_CAPABILITIES
+ - NDIS_RECEIVE_FILTER_CAPABILITIES
+ - ntddndis/NDIS_RECEIVE_FILTER_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_FILTER_CAPABILITIES
 ---
 
 # _NDIS_RECEIVE_FILTER_CAPABILITIES structure
 
 
 ## -description
-
 
 The <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure specifies the  receive filtering capabilities of a
   network adapter.
@@ -71,9 +73,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 </ul>
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -107,11 +106,9 @@ Original version for NDIS 6.20.
 The driver sets the 
         <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_CAPABILITIES_REVISION_1.
 
-
 ### -field Flags
 
 A bitwise OR of flags. This member is reserved for NDIS.
-
 
 ### -field EnabledFilterTypes
 
@@ -134,7 +131,6 @@ Specifies that VMQ filters are enabled.
 #### NDIS_RECEIVE_FILTER_PACKET_COALESCING_FILTERS_ENABLED
 
 Specifies that NDIS packet coalescing receive filters are enabled.
-
 
 ### -field EnabledQueueTypes
 
@@ -404,16 +400,13 @@ The network adapter supports inspecting and filtering that are based on the pack
 The maximum number of MAC header filters that the miniport driver
      supports.
 
-
 ### -field MaxQueueGroups
 
 This member is reserved for NDIS.
 
-
 ### -field MaxQueuesPerQueueGroup
 
 This member is reserved for NDIS.
-
 
 ### -field MinLookaheadSplitSize
 
@@ -457,7 +450,6 @@ The network adapter supports receive filtering on the ARP source protocol addres
 
 The network adapter supports receive filtering on the ARP target protocol address (TPA) field.
 
-
 ### -field SupportedIPv4HeaderFields
 
 A bitwise OR of flags that specify the types of IPv4 header fields that a
@@ -472,7 +464,6 @@ A bitwise OR of flags that specify the types of IPv4 header fields that a
 
 The network adapter supports receive filtering on the IPv4 protocol field.
 
-
 ### -field SupportedIPv6HeaderFields
 
 A bitwise OR of flags that specify the types of IPv6 header fields that a
@@ -486,7 +477,6 @@ A bitwise OR of flags that specify the types of IPv6 header fields that a
 #### NDIS_RECEIVE_FILTER_IPV6_HEADER_PROTOCOL_SUPPORTED
 
 The network adapter supports receive filtering on the IPv6 protocol field.
-
 
 ### -field SupportedUdpHeaderFields
 
@@ -523,10 +513,7 @@ The maximum number of packet coalescing receive filters that are supported by th
 
 Reserved. Set to 0.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure is used in the 
     <b>ReceiveFilterCapabilities</b> member of the 
@@ -541,13 +528,7 @@ The <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure is used in the
 
 Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure are valid only if the miniport driver is enabled to use the VMQ or SR-IOV interface. The miniport driver is enabled to use these interfaces through standardized INF keywords. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-sr-iov--vmq--and-rss-standardized-inf-keywords">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
@@ -576,7 +557,4 @@ Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
    OID_RECEIVE_FILTER_HARDWARE_CAPABILITIES</a>
- 
-
- 
 

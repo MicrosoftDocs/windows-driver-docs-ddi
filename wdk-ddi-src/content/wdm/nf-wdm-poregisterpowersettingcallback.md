@@ -8,8 +8,6 @@ ms.assetid: a4dd91c4-f6b1-4751-a2be-9b4872fa7bb2
 ms.date: 04/30/2018
 keywords: ["PoRegisterPowerSettingCallback function"]
 ms.keywords: PoRegisterPowerSettingCallback, PoRegisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.poregisterpowersettingcallback, portn_ddaef830-5cf5-4b7f-9fa6-e29a2b9f847f.xml, wdm/PoRegisterPowerSettingCallback
-f1_keywords:
- - "wdm/PoRegisterPowerSettingCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoRegisterPowerSettingCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoRegisterPowerSettingCallback
+ - wdm/PoRegisterPowerSettingCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoRegisterPowerSettingCallback
 ---
 
 # PoRegisterPowerSettingCallback function
@@ -47,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoRegisterPowerSettingCallback</b> routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that is associated with the caller of this routine. This parameter is optional. It is used internally only for debugging purposes. If this parameter is not supplied, it must be set to <b>NULL</b>.
 
+### -param SettingGuid 
 
-### -param SettingGuid [in]
-
+[in]
 A pointer to the GUID that represents the power setting for this registration. When the specified power setting changes, the power manager calls the callback routine to notify the driver of the change and to supply the new value of the setting. For more information, see Remarks.
 
+### -param Callback 
 
-### -param Callback [in]
-
+[in]
 A pointer to a caller-implemented power-setting callback routine that the power manager calls when the specified power setting changes. For the functional prototype for the callback routine, see <a href="https://docs.microsoft.com/">Power-Setting Callback</a>.
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 A pointer to the context for the callback routine. This parameter is optional. It is provided so that a driver or device context can be passed to the callback routine. If this parameter is not used, it must be set to <b>NULL</b>.
 
+### -param Handle 
 
-### -param Handle [out]
-
+[out]
 A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregisterpowersettingcallback">PoUnregisterPowerSettingCallback</a> to unregister the callback routine.
 
-
 ## -returns
-
-
 
 <b>PoRegisterPowerSettingCallback</b> returns one of the following:
 
@@ -115,14 +107,8 @@ The routine could not allocate the system resources that are required to registe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A driver calls <b>PoRegisterPowerSettingCallback</b> to register a callback routine with the power manager. The power manager subsequently calls this callback routine to notify the driver after there is a change to the specified power setting. In addition, the power manager initializes the power setting of the driver by immediately calling the callback routine and passing the current value of the power setting. The power manager initializes the power setting of the driver this way regardless of whether the power setting has actually changed.
 
@@ -231,12 +217,7 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -255,7 +236,4 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregisterpowersettingcallback">PoUnregisterPowerSettingCallback</a>
- 
-
- 
 

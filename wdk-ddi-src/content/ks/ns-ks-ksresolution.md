@@ -8,8 +8,6 @@ ms.assetid: fbd6222c-6d54-4e2a-aa5b-8051f0838886
 ms.date: 04/23/2018
 keywords: ["KSRESOLUTION structure"]
 ms.keywords: "*PKSRESOLUTION, KSRESOLUTION, KSRESOLUTION structure [Streaming Media Devices], PKSRESOLUTION, PKSRESOLUTION structure pointer [Streaming Media Devices], ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, ks/KSRESOLUTION, ks/PKSRESOLUTION, stream.ksresolution"
-f1_keywords:
- - "ks/KSRESOLUTION"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSRESOLUTION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRESOLUTION, *PKSRESOLUTION
+f1_keywords:
+ - PKSRESOLUTION
+ - ks/PKSRESOLUTION
+ - KSRESOLUTION
+ - ks/KSRESOLUTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSRESOLUTION
 ---
 
 # KSRESOLUTION structure
@@ -47,41 +48,23 @@ req.typenames: KSRESOLUTION, *PKSRESOLUTION
 
 ## -description
 
-
 The KSRESOLUTION structure specifies granularity and error of a kernel streaming clock.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Granularity
 
 Specifies the increment granularity of the clock in 100-nanosecond units, where 1 is the best.
 
-
 ### -field Error
 
 Specifies the +/- notification error of the clock in 100-nanosecond units, where 0 is the best, meaning the event notification granularity is as good as the increment granularity.
 
-
 ## -remarks
-
-
 
 Vendors can supply a structure of type KSRESOLUTION in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a> property request.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a>
- 
-
- 
 

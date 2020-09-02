@@ -8,8 +8,6 @@ ms.assetid: ce54870e-80af-4588-a0ca-1ad115739256
 ms.date: 04/30/2018
 keywords: ["MmAllocateContiguousMemorySpecifyCacheNode function"]
 ms.keywords: MmAllocateContiguousMemorySpecifyCacheNode, MmAllocateContiguousMemorySpecifyCacheNode routine [Kernel-Mode Driver Architecture], k106_0ccc75e1-5d61-4f89-b576-1c709b50609f.xml, kernel.mmallocatecontiguousmemoryspecifycachenode, wdm/MmAllocateContiguousMemorySpecifyCacheNode
-f1_keywords:
- - "wdm/MmAllocateContiguousMemorySpecifyCacheNode"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmAllocateContiguousMemorySpecifyCacheNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmAllocateContiguousMemorySpecifyCacheNode
+ - wdm/MmAllocateContiguousMemorySpecifyCacheNode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmAllocateContiguousMemorySpecifyCacheNode
 ---
 
 # MmAllocateContiguousMemorySpecifyCacheNode function
@@ -47,57 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmAllocateContiguousMemorySpecifyCacheNode</b> routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
-
 
 ## -parameters
 
+### -param NumberOfBytes 
 
-
-
-### -param NumberOfBytes [in]
-
+[in]
 The size, in bytes, of the block of contiguous memory to allocate. For more information, see Remarks.
 
+### -param LowestAcceptableAddress 
 
-### -param LowestAcceptableAddress [in]
-
+[in]
 The lowest valid physical address the caller can use. For example, if a device can address only locations above the first 8 megabytes of the processor's physical memory address range, the driver for this device  should set <i>LowestAcceptableAddress</i> to 0x0000000000800000.
 
+### -param HighestAcceptableAddress 
 
-### -param HighestAcceptableAddress [in]
-
+[in]
 The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set <i>HighestAcceptableAddress</i> to 0x0000000000FFFFFF.
 
+### -param BoundaryAddressMultiple 
 
-### -param BoundaryAddressMultiple [in, optional]
-
+[in, optional]
 The physical address multiple that the allocated buffer must not cross. A physical address multiple must always be a power of two. This parameter is optional and can be specified as zero to indicate that the device has no special memory boundary restrictions. For more information, see Remarks.
 
+### -param CacheType 
 
-### -param CacheType [in]
-
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching requested for the contiguous physical memory.
 
+### -param PreferredNode 
 
-### -param PreferredNode [in]
-
+[in]
 The preferred node number. If a multiprocessor system contains N nodes, the nodes are numbered 0 to N-1. If MM_ANY_NODE_OK is specified or the machine only has one node, then the allocation is satisfied from any node. Otherwise, the allocation is made from the preferred node or if a satisfactory range cannot be found from the preferred node, then <b>NULL</b> is returned.
-
 
 ## -returns
 
-
-
 <b>MmAllocateContiguousMemorySpecifyCacheNode</b> returns the base virtual address for the allocated memory. If the request cannot be satisfied, the routine returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 A kernel-mode device driver calls this routine  to allocate a contiguous block of physical memory. In a non-uniform memory access (NUMA) multiprocessor system, the caller can specify a preferred node from which to allocate the memory. A node is a collection of processors that share fast access to a region of memory. In a non-NUMA multiprocessor or a single-processor system, <b>MmAllocateContiguousMemorySpecifyCacheNode</b> treats all memory as belonging to a single node and allocates memory from this node.
 
@@ -116,12 +103,7 @@ If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter,
 <div class="alert"><b>Note</b>  Memory that <b>MmAllocateContiguousMemorySpecifyCacheNode</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -132,7 +114,4 @@ If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter,
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreecontiguousmemory">MmFreeContiguousMemory</a>
- 
-
- 
 

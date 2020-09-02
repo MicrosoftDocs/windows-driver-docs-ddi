@@ -5,43 +5,43 @@ description: The NET_RING_COLLECTION structure describes the collection of net r
 tech.root: netvista
 ms.assetid: 0E384B79-9277-43DD-A28E-0C0D39559847
 ms.date: 02/06/2019
-keywords: ["_NET_RING_COLLECTION structure"]
-f1_keywords:
- - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
-ms.keywords: _NET_RING_COLLECTION, NET_RING_COLLECTION, *PNET_RING_COLLECTION, 
+keywords: ["NET_RING_COLLECTION structure"]
+ms.keywords: _NET_RING_COLLECTION, NET_RING_COLLECTION, *PNET_RING_COLLECTION,
 req.header: ringcollection.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
-req.alt-api:
-req.alt-loc:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
+req.alt-api: 
+req.alt-loc: 
 req.typenames: NET_RING_COLLECTION
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- ringcollection.h
-apiname: 
-- NET_RING_COLLECTION
 targetos: Windows
-product:
-- Windows
+f1_keywords:
+ - _NET_RING_COLLECTION
+ - ringcollection/_NET_RING_COLLECTION
+ - NET_RING_COLLECTION
+ - ringcollection/NET_RING_COLLECTION
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - ringcollection.h
+apiname:
+ - NET_RING_COLLECTION
 ---
 
 # _NET_RING_COLLECTION structure
 
+
 ## -description
-
-
 
 The **NET_RING_COLLECTION** structure describes the collection of net rings that belong to a packet queue.
 
@@ -58,3 +58,4 @@ Call [**NetRxQueueGetRingCollection**](../netrxqueue/nf-netrxqueue-netrxqueueget
 ## -see-also
 
 [Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)
+

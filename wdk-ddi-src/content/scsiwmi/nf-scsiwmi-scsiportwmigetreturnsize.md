@@ -8,8 +8,6 @@ ms.assetid: 7cd54ac2-e13b-45eb-a0ac-56a2d60d9057
 ms.date: 03/29/2018
 keywords: ["ScsiPortWmiGetReturnSize macro"]
 ms.keywords: ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize macro [Storage Devices], scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, scsiwmi/ScsiPortWmiGetReturnSize, storage.scsiportwmigetreturnsize
-f1_keywords:
- - "scsiwmi/ScsiPortWmiGetReturnSize"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsiwmi.h
-api_name:
-- ScsiPortWmiGetReturnSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortWmiGetReturnSize
+ - scsiwmi/ScsiPortWmiGetReturnSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsiwmi.h
+api_name:
+ - ScsiPortWmiGetReturnSize
 ---
 
 # ScsiPortWmiGetReturnSize macro
@@ -47,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortWmiGetReturnSize</b> routine indicates the number of bytes of data to be returned by a miniport driver for a WMI SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param RequestContext
 
 Pointer to the request context for this SRB.
 
-
 ## -remarks
-
-
 
 A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value to put into <b>Srb->DataTransferLength</b> before completing the SRB. <b>ScsiPortWmiGetReturnSize</b> should be called sometime after the miniport driver calls <b>ScsiWmiPostProcess</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-scsiwmi_request_context">SCSIWMI_REQUEST_CONTEXT</a>
 
@@ -84,7 +70,4 @@ A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a>
- 
-
- 
 

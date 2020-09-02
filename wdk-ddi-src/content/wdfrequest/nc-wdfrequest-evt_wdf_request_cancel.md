@@ -8,8 +8,6 @@ ms.assetid: db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_REQUEST_CANCEL callback function"]
 ms.keywords: DFRequestObjectRef_fe2e3eee-9f6a-4fd8-afa7-23eb740ccd01.xml, EVT_WDF_REQUEST_CANCEL, EVT_WDF_REQUEST_CANCEL callback, EvtRequestCancel, EvtRequestCancel callback function, kmdf.evtrequestcancel, wdf.evtrequestcancel, wdfrequest/EvtRequestCancel
-f1_keywords:
- - "wdfrequest/EvtRequestCancel"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfrequest.h
-api_name:
-- EvtRequestCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_REQUEST_CANCEL
+ - wdfrequest/EVT_WDF_REQUEST_CANCEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfrequest.h
+api_name:
+ - EvtRequestCancel
 ---
 
 # EVT_WDF_REQUEST_CANCEL callback function
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtRequestCancel</i> event callback function handles operations that must be performed when an I/O request is canceled.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object that represents the I/O request that is being canceled.
 
-
 ## -remarks
-
-
 
 To register an <i>EvtRequestCancel</i> callback function, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelable">WdfRequestMarkCancelable</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a>.
 
@@ -83,14 +75,7 @@ Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest
 </ol>
 For more information about this callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a>
 
@@ -101,7 +86,4 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a>
- 
-
- 
 

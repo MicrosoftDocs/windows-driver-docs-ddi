@@ -8,8 +8,6 @@ ms.assetid: d35d5186-a5ee-4a64-88e7-d3e95de32d07
 ms.date: 05/03/2018
 keywords: ["ExtRemoteList class"]
 ms.keywords: EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList class [Windows Debugging],described, debugger.extremotelist, engextcpp/ExtRemoteList
-f1_keywords:
- - "engextcpp/ExtRemoteList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteList
+ - engextcpp/ExtRemoteList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteList
 ---
 
 # ExtRemoteList class
 
 
 ## -description
-
 
 The <b>ExtRemoteList</b> class provides a wrapper around a singly-linked or doubly-linked list.  The class contains methods that can be used to move both forward and backward through the list.
 
@@ -167,9 +165,6 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
 
@@ -179,7 +174,4 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>
- 
-
- 
 

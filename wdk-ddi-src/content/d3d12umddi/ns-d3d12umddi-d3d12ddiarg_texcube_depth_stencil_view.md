@@ -5,40 +5,40 @@ description: Describes a cube texture that is used to create a depth stencil vie
 ms.assetid: afc276bf-a01a-413b-8057-45d60d87162a
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW"
-ms.keywords: D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW, D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW, 
+ms.keywords: D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW, D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW
+ - d3d12umddi/D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW structure
+
 
 ## -description
 
@@ -61,3 +61,4 @@ The number of array slices for the texture.
 ## -remarks
 
 ## -see-also
+

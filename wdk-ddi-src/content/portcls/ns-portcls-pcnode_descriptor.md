@@ -8,8 +8,6 @@ ms.assetid: e83051ca-07fa-439d-8b0f-cbe6d84679a7
 ms.date: 05/08/2018
 keywords: ["PCNODE_DESCRIPTOR structure"]
 ms.keywords: "*PPCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR structure [Audio Devices], PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], audio.pcnode_descriptor, audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, portcls/PCNODE_DESCRIPTOR, portcls/PPCNODE_DESCRIPTOR"
-f1_keywords:
- - "portcls/PCNODE_DESCRIPTOR"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- portcls.h
-api_name:
-- PCNODE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: PCNODE_DESCRIPTOR, *PPCNODE_DESCRIPTOR
+f1_keywords:
+ - PPCNODE_DESCRIPTOR
+ - portcls/PPCNODE_DESCRIPTOR
+ - PCNODE_DESCRIPTOR
+ - portcls/PCNODE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - portcls.h
+api_name:
+ - PCNODE_DESCRIPTOR
 ---
 
 # PCNODE_DESCRIPTOR structure
@@ -47,38 +48,27 @@ req.typenames: PCNODE_DESCRIPTOR, *PPCNODE_DESCRIPTOR
 
 ## -description
 
-
 The <b>PCNODE_DESCRIPTOR</b> structure describes a node in the filter that a topology miniport driver implements.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 Set to zero. No flag bits are currently defined.
 
-
 ### -field AutomationTable
 
 Pointer to the automation table, which is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>. This member can be set to <b>NULL</b> to indicate no automation support. The automation table specifies the handlers for the properties and events belonging to the node instance.
-
 
 ### -field Type
 
 Specifies the node type. This member is a pointer to a GUID that uniquely identifies the node type. See the list of node-type GUIDs in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-topology-nodes">Audio Topology Nodes</a>.
 
-
 ### -field Name
 
 Pointer to a GUID that represents the name of this topology node. This GUID is specified in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a>get-property request to obtain the corresponding name string for the node. This pointer can be set to <b>NULL</b> to indicate that the GUID in the <b>Type</b> member should be used to determine the node name.
 
-
 ## -remarks
-
-
 
 If a filter contains only a single node of the type specified by the <b>Type</b> member, then the <b>Name</b> member can be specified as <b>NULL</b> because the <b>Type</b> value is sufficient to uniquely identify the node within the filter. If the filter contains two or more nodes of the same type, the <b>Name</b> members for those nodes must be non-<b>NULL</b>.
 
@@ -88,13 +78,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-
 
 For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/exposing-filter-topology">Exposing Filter Topology</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a>
 
@@ -105,7 +89,4 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a>
- 
-
- 
 

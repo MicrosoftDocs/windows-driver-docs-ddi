@@ -8,8 +8,6 @@ ms.assetid: c6c70f15-2614-4623-8979-6046cdc6239b
 ms.date: 03/29/2018
 keywords: ["HW_INITIALIZE callback function"]
 ms.keywords: HW_INITIALIZE, HwStorInitialize, HwStorInitialize routine [Storage Devices], storage.hwstorinitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml, storport/HwStorInitialize
-f1_keywords:
- - "storport/HwStorInitialize"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_INITIALIZE
+ - storport/HW_INITIALIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorInitialize
 ---
 
 # HW_INITIALIZE callback function
@@ -47,32 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>HwStorInitialize</b> routine initializes the miniport driver after a system reboot or power failure occurs. It is called by StorPort after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> successfully returns. <b>HwStorInitialize</b> initializes the HBA and finds all devices that are of interest to the miniport driver.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceExtension
 
-A pointer to the miniport driver's per HBA storage area. 
-
+A pointer to the miniport driver's per HBA storage area.
 
 ## -returns
 
-
-
-If the initialization succeeds, <b>HwStorInitialize</b> returns <b>TRUE</b>. 
-
-
-
+If the initialization succeeds, <b>HwStorInitialize</b> returns <b>TRUE</b>.
 
 ## -remarks
-
-
 
 The name <b>HwStorInitialize</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
@@ -146,13 +132,7 @@ BOOLEAN
 </table></span></div>
 The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INITIALIZE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_dpc_routine">HwStorDpcRoutine</a>
 
@@ -167,7 +147,4 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>
- 
-
- 
 

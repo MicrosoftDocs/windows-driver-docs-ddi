@@ -8,8 +8,6 @@ ms.assetid: 383ed544-c8c8-42a0-a7de-57f0f4072611
 ms.date: 05/02/2018
 keywords: ["RILMSGINSTATUS structure"]
 ms.keywords: "*LPRILMSGINSTATUS, RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsginstatus, ntddrilapitypes/RILMSGINSTATUS"
-f1_keywords:
- - "rilapitypes/RILMSGINSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMSGINSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGINSTATUS, *LPRILMSGINSTATUS
+f1_keywords:
+ - RILMSGINSTATUS
+ - rilapitypes/RILMSGINSTATUS
+ - LPRILMSGINSTATUS
+ - rilapitypes/LPRILMSGINSTATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMSGINSTATUS
 ---
 
 # RILMSGINSTATUS structure
@@ -47,47 +48,31 @@ req.typenames: RILMSGINSTATUS, *LPRILMSGINSTATUS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwMsgID
-
 
 ### -field raTgtRecipAddress
 
-
 ### -field stTgtSCReceiveTime
-
 
 ### -field stTgtDischargeTime
 
-
 ### -field dwReserved
-
 
 ### -field dwTgtDlvStatus
 
-
 ### -field dwProtocolID
-
 
 ### -field rmdDataCoding
 
-
 ### -field cbHdrLength
-
 
 ### -field cchMsgLength
 
-
 ### -field rgbHdr
-
 
 ### -field rgbMsg
 

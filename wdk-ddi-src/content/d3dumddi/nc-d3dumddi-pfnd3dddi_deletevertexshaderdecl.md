@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DeleteVertexShaderDecl"
+ - PFND3DDDI_DELETEVERTEXSHADERDECL
+ - d3dumddi/PFND3DDDI_DELETEVERTEXSHADERDECL
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DELETEVERTEXSHADERDECL callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 0de394a0-9ae8-4ac9-970b-8575bb7dcc99
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::GetNextSymbolMatch"]
 ms.keywords: GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging],IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols.GetNextSymbolMatch, IDebugSymbols2 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetNextSymbolMatch"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetNextSymbolMatch
-- IDebugSymbols2.GetNextSymbolMatch
-- IDebugSymbols3.GetNextSymbolMatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols::GetNextSymbolMatch
+ - dbgeng/IDebugSymbols::GetNextSymbolMatch
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetNextSymbolMatch
+ - IDebugSymbols2.GetNextSymbolMatch
+ - IDebugSymbols3.GetNextSymbolMatch
 ---
 
 # IDebugSymbols::GetNextSymbolMatch
@@ -49,43 +48,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetNextSymbolMatch</b>  method returns the next symbol found in a symbol search.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 Specifies the handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatch">StartSymbolMatch</a> when the search was initialized.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, the same symbol will be returned again next time one of these methods are called (with the same handle); this can be used to determine the size of the name of the symbol.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in characters of the buffer.
 
+### -param MatchSize 
 
-### -param MatchSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the name of the symbol.  If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
 
+### -param Offset 
 
-### -param Offset [out, optional]
-
+[out, optional]
 Receives the location in the target's virtual address space of the symbol.  If <i>Offset</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -128,26 +120,14 @@ No more symbols were found matching the pattern.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The search must first be initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatch">StartSymbolMatch</a>.  Once all the desired symbols have been found, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-endsymbolmatch">EndSymbolMatch</a> can be used to release the resources the engine holds for the search.
 
 For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-endsymbolmatch">EndSymbolMatch</a>
 
@@ -166,7 +146,4 @@ For more information about symbols, see <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatch">StartSymbolMatch</a>
- 
-
- 
 

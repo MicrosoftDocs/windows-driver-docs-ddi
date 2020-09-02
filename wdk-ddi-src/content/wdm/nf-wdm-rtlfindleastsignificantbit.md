@@ -8,8 +8,6 @@ ms.assetid: fb260c9b-dece-49ef-9701-d5198b8a08fb
 ms.date: 04/30/2018
 keywords: ["RtlFindLeastSignificantBit function"]
 ms.keywords: RtlFindLeastSignificantBit, RtlFindLeastSignificantBit routine [Kernel-Mode Driver Architecture], k109_c7ab87ad-4b9e-40f5-87fb-25ced2ec0dd8.xml, kernel.rtlfindleastsignificantbit, wdm/RtlFindLeastSignificantBit
-f1_keywords:
- - "wdm/RtlFindLeastSignificantBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlFindLeastSignificantBit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlFindLeastSignificantBit
+ - wdm/RtlFindLeastSignificantBit
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlFindLeastSignificantBit
 ---
 
 # RtlFindLeastSignificantBit function
@@ -47,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlFindLeastSignificantBit</b> routine returns the zero-based position of the least significant nonzero bit in its parameter.
-
 
 ## -parameters
 
+### -param Set 
 
-
-
-### -param Set [in]
-
-The 64-bit value to be searched for its least significant nonzero bit. 
-
+[in]
+The 64-bit value to be searched for its least significant nonzero bit.
 
 ## -returns
 
-
-
 The zero-based bit position of the least significant nonzero bit, or -1 if every bit is zero.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindmostsignificantbit">RtlFindMostSignificantBit</a>
- 
-
- 
 

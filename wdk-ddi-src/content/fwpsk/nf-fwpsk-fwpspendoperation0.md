@@ -8,8 +8,6 @@ ms.assetid: 03423785-83c5-4908-8c06-3be1b226c29e
 ms.date: 05/02/2018
 keywords: ["FwpsPendOperation0 function"]
 ms.keywords: FwpsPendOperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendOperation0, netvista.fwpspendoperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml
-f1_keywords:
- - "fwpsk/FwpsPendOperation0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fwpkclnt.lib
-- Fwpkclnt.dll
-api_name:
-- FwpsPendOperation0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsPendOperation0
+ - fwpsk/FwpsPendOperation0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fwpkclnt.lib
+ - Fwpkclnt.dll
+api_name:
+ - FwpsPendOperation0
 ---
 
 # FwpsPendOperation0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsPendOperation0</b> function is called by a callout to suspend packet processing pending completion of
@@ -56,30 +54,25 @@ The
 
 ## -parameters
 
+### -param completionHandle 
 
-
-
-### -param completionHandle [in]
-
+[in]
 A completion handle that is required to pend the current filtering operation. This parameter is
      obtained from the 
      <b>completionHandle</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure passed into the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function.
 
+### -param completionContext 
 
-### -param completionContext [out]
-
+[out]
 The handle to the completion context of this pend operation. When the callout is ready to resume
      packet processing, it calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteoperation0">FwpsCompleteOperation0</a> function
      with the value of this parameter as the input 
      <i>completionContext</i> parameter.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsPendOperation0</b> function returns one of the following NTSTATUS codes.
@@ -146,14 +139,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The callout should retain the 
     <i>completionContext</i> parameter value until it resumes packet processing. When the operation that
@@ -201,13 +188,7 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
     FWP_CONDITION_FLAG_IS_REAUTHORIZE flag is set, and the STATUS_FWP_CANNOT_PEND status code will be
     returned. For more information, see ALE Reauthorization in the Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
@@ -223,7 +204,4 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

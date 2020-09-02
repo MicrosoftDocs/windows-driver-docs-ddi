@@ -8,8 +8,6 @@ ms.assetid: 59d18822-8ce2-4506-90d7-9f1cdc7a9e10
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback function"]
 ms.keywords: PROTOCOL_OPEN_ADAPTER_COMPLETE_EX, PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback, ProtocolOpenAdapterCompleteEx, ProtocolOpenAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOpenAdapterCompleteEx, netvista.protocolopenadaptercompleteex, protocol_functions_ref_d47f5a23-aa11-4fc8-9dec-a1ecb3184d9a.xml
-f1_keywords:
- - "ndis/ProtocolOpenAdapterCompleteEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolOpenAdapterCompleteEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_OPEN_ADAPTER_COMPLETE_EX
+ - ndis/PROTOCOL_OPEN_ADAPTER_COMPLETE_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolOpenAdapterCompleteEx
 ---
 
 # PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback function
 
 
 ## -description
-
 
 NDIS calls a protocol driver's 
   <i>ProtocolOpenAdapterCompleteEx</i> function to complete an open adapter operation for which the 
@@ -57,27 +55,22 @@ NDIS calls a protocol driver's
 
 ## -parameters
 
+### -param ProtocolBindingContext 
 
-
-
-### -param ProtocolBindingContext [in]
-
+[in]
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called 
      <b>NdisOpenAdapterEx</b>.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 The final status of the open operation for the underlying miniport driver. This status value is
      NDIS_STATUS_SUCCESS if the binding was established or any error status that the underlying driver
      determines.
 
-
 ## -remarks
-
-
 
 The 
     <i>ProtocolOpenAdapterCompleteEx</i> function is required. A protocol driver calls the 
@@ -149,15 +142,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_OPEN_ADAPTER_COMPLETE_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_OPEN_ADAPTER_COMPLETE_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompletebindadapterex">NdisCompleteBindAdapterEx</a>
 
@@ -168,7 +155,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
- 
-
- 
 

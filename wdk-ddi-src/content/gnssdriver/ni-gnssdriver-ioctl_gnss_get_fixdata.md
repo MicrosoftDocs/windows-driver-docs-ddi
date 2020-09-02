@@ -8,8 +8,6 @@ ms.assetid: 037B5AD9-39C2-4F50-8E63-0736EA37FEF9
 ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_GET_FIXDATA IOCTL"]
 ms.keywords: IOCTL_GNSS_GET_FIXDATA, IOCTL_GNSS_GET_FIXDATA control, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], gnss.ioctl_gnss_get_fixdata, gnssdriver/IOCTL_GNSS_GET_FIXDATA
-f1_keywords:
- - "gnssdriver/IOCTL_GNSS_GET_FIXDATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- IOCTL_GNSS_GET_FIXDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_GNSS_GET_FIXDATA
+ - gnssdriver/IOCTL_GNSS_GET_FIXDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - IOCTL_GNSS_GET_FIXDATA
 ---
 
 # IOCTL_GNSS_GET_FIXDATA IOCTL
@@ -47,69 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_GNSS_GET_FIXDATA</b> 
    control code is used by the GNSS adapter to register to receive the next fix data from an active fix session. This IOCTL provides the GNSS driver with a pending I/O request, the asynchronous resolution of which notifies the adapter that data is being provided through the overlapped structures <b>GnssEvent</b> member as a data buffer. The GnssEvent member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_event">GNSS_EVENT</a> structure.
 
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Pointer to a DWORD value that represents the fix session ID.
 
-
-
-
 ### -input-buffer-length
 
 Set to sizeof(DWORD).
-
-
-
 
 ### -output-buffer
 
 Set to NULL
 
-
 ### -output-buffer-length
 
 Set to 0.
 
-
-
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
-
-
 
 <h3><a id="Input"></a><a id="input"></a><a id="INPUT"></a>Input</h3>
 <b>FixSessionID</b>: Session ID for an active fix.
@@ -131,13 +97,7 @@ Whenever a fix data is ready, the driver fills the buffer and completes the I/O.
 
 Whenever fix data is ready, the driver must fill the buffer and complete the I/O request. It is the driver’s responsibility to ensure that the data is returned for the specified fix session ID. Additionally, when a fix session is stopped by the GNSS adapter issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_stop_fixsession">IOCTL_GNSS_STOP_FIXSESSION</a>, the driver must cancel all pending get fix requests for the given fix session ID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -152,7 +112,4 @@ Whenever fix data is ready, the driver must fill the buffer and complete the I/O
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

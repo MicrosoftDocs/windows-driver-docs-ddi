@@ -7,31 +7,30 @@ tech.root: display
 ms.assetid: 8472c449-74ee-4590-a94b-7d726e1707db
 ms.author: windowsdriverdev
 ms.date: 03/24/2020
-f1_keywords:
- - "ntddvdeo/IOCTL_MIPI_DSI_QUERY_CAPS"
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddvdeo.h
-api_name: 
- - IOCTL_MIPI_DSI_QUERY_CAPS
-product:
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
+f1_keywords:
+ - IOCTL_MIPI_DSI_QUERY_CAPS
+ - ntddvdeo/IOCTL_MIPI_DSI_QUERY_CAPS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - IOCTL_MIPI_DSI_QUERY_CAPS
 dev_langs:
  - c++
 ---
@@ -39,6 +38,7 @@ dev_langs:
 # IOCTL_MIPI_DSI_QUERY_CAPS IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -94,3 +94,4 @@ The OS translates the query IOCTL into a call to [**DsiQueryCaps**](../dispmprt/
 [**IOCTL_MIPI_DSI_RESET**](ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
 
 [**IOCTL_MIPI_DSI_TRANSMISSION**](ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)
+

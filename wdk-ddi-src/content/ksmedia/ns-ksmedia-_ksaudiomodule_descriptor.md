@@ -6,10 +6,8 @@ old-location: audio\ksaudiomodule_descriptor.htm
 tech.root: audio
 ms.assetid: 3A991D49-B873-4C03-8A5B-D91EB5E63192
 ms.date: 05/08/2018
-keywords: ["_KSAUDIOMODULE_DESCRIPTOR structure"]
+keywords: ["KSAUDIOMODULE_DESCRIPTOR structure"]
 ms.keywords: "*PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], PKSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], _KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, ksmedia/KSAUDIOMODULE_DESCRIPTOR, ksmedia/PKSAUDIOMODULE_DESCRIPTOR"
-f1_keywords:
- - "ksmedia/KSAUDIOMODULE_DESCRIPTOR"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSAUDIOMODULE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
+f1_keywords:
+ - _KSAUDIOMODULE_DESCRIPTOR
+ - ksmedia/_KSAUDIOMODULE_DESCRIPTOR
+ - PKSAUDIOMODULE_DESCRIPTOR
+ - ksmedia/PKSAUDIOMODULE_DESCRIPTOR
+ - KSAUDIOMODULE_DESCRIPTOR
+ - ksmedia/KSAUDIOMODULE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSAUDIOMODULE_DESCRIPTOR
 ---
 
 # _KSAUDIOMODULE_DESCRIPTOR structure
@@ -47,56 +50,35 @@ req.typenames: KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
 
 ## -description
 
-
 The <b>KSAUDIOMODULE_DESCRIPTOR</b> structure describes the static, external  properties of audio modules.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ClassId
 
 The ClassId of the audio module. The ClassId is an identifier that establishes what type of module this is. The value and mapping is established by the ISV and IHV.
 
-
 ### -field InstanceId
 
-The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of a module. 
-
+The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of a module.
 
 ### -field VersionMajor
 
 The major version of the audio module. Usage is defined by the implementer.
 
-
 ### -field VersionMinor
 
 The minor version of the audio module.  Usage is defined by the implementer.
-
 
 ### -field Name
 
 The friendly name of the audio module. The maximum length is AUDIOMODULE_MAX_NAME_CCH_SIZE wide characters. It is defined as 128 in KSMedia.h.
 
-
 ## -remarks
 
-
-
-For more information about audio modules, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
-
-
-
+For more information about audio modules, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audiomodule-descriptors">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
- 
-
- 
 

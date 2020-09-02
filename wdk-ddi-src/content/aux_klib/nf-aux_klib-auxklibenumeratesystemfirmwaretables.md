@@ -8,8 +8,6 @@ ms.assetid: EEAB636B-5565-4C2A-9EC7-4DC63EBB286F
 ms.date: 04/30/2018
 keywords: ["AuxKlibEnumerateSystemFirmwareTables function"]
 ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibEnumerateSystemFirmwareTables, kernel.auxklibenumeratesystemfirmwaretables
-f1_keywords:
- - "aux_klib/AuxKlibEnumerateSystemFirmwareTables"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Aux_Klib.lib
-- Aux_Klib.dll
-api_name:
-- AuxKlibEnumerateSystemFirmwareTables
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AuxKlibEnumerateSystemFirmwareTables
+ - aux_klib/AuxKlibEnumerateSystemFirmwareTables
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Aux_Klib.lib
+ - Aux_Klib.dll
+api_name:
+ - AuxKlibEnumerateSystemFirmwareTables
 ---
 
 # AuxKlibEnumerateSystemFirmwareTables function
@@ -48,17 +47,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>AuxKlibEnumerateSystemFirmwareTables</b> routine enumerates all system firmware tables of the specified type.
-
 
 ## -parameters
 
+### -param FirmwareTableProviderSignature 
 
-
-
-### -param FirmwareTableProviderSignature [in]
-
+[in]
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
 
 <table>
@@ -97,27 +92,23 @@ The raw SMBIOS firmware table provider.
 </td>
 </tr>
 </table>
- 
 
+### -param FirmwareTableBuffer 
 
-### -param FirmwareTableBuffer [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer to which the routine writes the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 The size, in bytes, of the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
+### -param ReturnLength 
 
-### -param ReturnLength [out, optional]
-
+[out, optional]
 A pointer to a location to which the routine writes the number of bytes of data written to the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
-
 ## -returns
-
-
 
 <b>AuxKlibEnumerateSystemFirmwareTables</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
 
@@ -149,14 +140,8 @@ The caller-allocated buffer is too small, but the required buffer size has been 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the call is successful, this routine writes an array of one or more table identifiers to the buffer pointed to by the <i>FirmwareTableBuffer</i> parameter. Each element of this array is a DWORD value that identifies a firmware table that is available from the provider specified by the <i>FirmwareTableProviderSignature</i> parameter.
 
@@ -174,13 +159,7 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 <b>AuxKlibEnumerateSystemFirmwareTables</b> is defined in the Aux_klib.h header file that is included in the WDK for Windows 8 and later versions of Windows. To use this routine, drivers should link to the version of Aux_klib.lib that is included in the WDK for Windows 8 and later versions of Windows. The implementation of <b>AuxKlibEnumerateSystemFirmwareTables</b> in these versions of the WDK can be used in versions of Windows starting with Windows Vista.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetsystemfirmwaretable">AuxKlibGetSystemFirmwareTable</a>
 
@@ -191,7 +170,4 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface">EnumSystemFirmwareTables</a>
- 
-
- 
 

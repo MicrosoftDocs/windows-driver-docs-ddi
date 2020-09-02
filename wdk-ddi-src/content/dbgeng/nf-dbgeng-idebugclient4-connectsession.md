@@ -8,8 +8,6 @@ ms.assetid: 4531bf2f-ef3b-4d4f-b922-3a01a9468ac9
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::ConnectSession"]
 ms.keywords: ConnectSession, ConnectSession method [Windows Debugging], ConnectSession method [Windows Debugging],IDebugClient interface, ConnectSession method [Windows Debugging],IDebugClient2 interface, ConnectSession method [Windows Debugging],IDebugClient3 interface, ConnectSession method [Windows Debugging],IDebugClient4 interface, ConnectSession method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],ConnectSession method, IDebugClient2 interface [Windows Debugging],ConnectSession method, IDebugClient2::ConnectSession, IDebugClient3 interface [Windows Debugging],ConnectSession method, IDebugClient3::ConnectSession, IDebugClient4 interface [Windows Debugging],ConnectSession method, IDebugClient4.ConnectSession, IDebugClient4::ConnectSession, IDebugClient5 interface [Windows Debugging],ConnectSession method, IDebugClient5::ConnectSession, IDebugClient::ConnectSession, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, dbgeng/IDebugClient2::ConnectSession, dbgeng/IDebugClient3::ConnectSession, dbgeng/IDebugClient4::ConnectSession, dbgeng/IDebugClient5::ConnectSession, dbgeng/IDebugClient::ConnectSession, debugger.connectsession
-f1_keywords:
- - "dbgeng/IDebugClient.ConnectSession"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,23 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.ConnectSession
-- IDebugClient2.ConnectSession
-- IDebugClient3.ConnectSession
-- IDebugClient4.ConnectSession
-- IDebugClient5.ConnectSession
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::ConnectSession
+ - dbgeng/IDebugClient4::ConnectSession
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.ConnectSession
+ - IDebugClient2.ConnectSession
+ - IDebugClient3.ConnectSession
+ - IDebugClient4.ConnectSession
+ - IDebugClient5.ConnectSession
 ---
 
 # IDebugClient4::ConnectSession
@@ -51,17 +50,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>ConnectSession</b> method joins the client to an existing debugger session.
-
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [in]
-
+[in]
 Specifies a bit-set of option flags for connecting to the session.  The possible values of these flags are:
 
 <table>
@@ -90,17 +85,13 @@ Do not output a message notifying other clients that this client has connected.
 </td>
 </tr>
 </table>
- 
 
+### -param HistoryLimit 
 
-### -param HistoryLimit [in]
-
+[in]
 Specifies the maximum number of characters from the session's history to send to this client's output upon connection.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -121,14 +112,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the client object connects to a session, the most recent output from the session is sent to the client.  If the session is currently waiting on input, the client object is given the opportunity to provide input.  Thus, the client object synchronizes with the session's input and output.
 
@@ -136,13 +121,7 @@ The client becomes a primary client and will appear among the list of clients in
 
 For more information about debugging clients, see Debugging Server and Debugging Client.  For more information about debugger sessions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a>
 
@@ -173,7 +152,4 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startserver">StartServer</a>
- 
-
- 
 

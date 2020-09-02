@@ -8,8 +8,6 @@ ms.assetid: 6023ca71-47ce-4add-891f-e125252ace08
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPAction2::RestartDevice"]
 ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RestartDevice method, IWDTFPNPAction2.RestartDevice, IWDTFPNPAction2::RestartDevice, Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPAction2.RestartDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverPNPAction.Interop.dll
-api_name:
-- IWDTFPNPAction2.RestartDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPAction2::RestartDevice
+ - wdtfpnpaction/IWDTFPNPAction2::RestartDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverPNPAction.Interop.dll
+api_name:
+ - IWDTFPNPAction2.RestartDevice
 ---
 
 # IWDTFPNPAction2::RestartDevice
@@ -47,46 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Initiates a device restart.
-
 
 ## -parameters
 
+### -param pbSuccess 
 
-
-
-### -param pbSuccess [out, retval]
-
+[out, retval]
 True if the operation succeeds; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 From a SetupDi interface perspective, this will translate to a DICS_PROPCHANGE.   
 See the MSDN docs for details.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
- 
-
- 
 

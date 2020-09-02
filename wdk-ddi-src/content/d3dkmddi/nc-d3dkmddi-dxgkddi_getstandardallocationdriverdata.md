@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiGetStandardAllocationDriverData"
+ - DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
+ - d3dkmddi/DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA callback function
+
 
 ## -description
 

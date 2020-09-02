@@ -8,8 +8,6 @@ ms.assetid: 6208f750-4871-43b9-b848-011180d39fd8
 ms.date: 04/30/2018
 keywords: ["RtlNumberOfSetBits function"]
 ms.keywords: RtlNumberOfSetBits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture], k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, kernel.rtlnumberofsetbits, wdm/RtlNumberOfSetBits
-f1_keywords:
- - "wdm/RtlNumberOfSetBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: <= APC_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlNumberOfSetBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlNumberOfSetBits
+ - wdm/RtlNumberOfSetBits
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlNumberOfSetBits
 ---
 
 # RtlNumberOfSetBits function
@@ -48,42 +47,24 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlNumberOfSetBits</b> routine returns a count of the set bits in a given bitmap variable. 
-
+The <b>RtlNumberOfSetBits</b> routine returns a count of the set bits in a given bitmap variable.
 
 ## -parameters
 
+### -param BitMapHeader 
 
-
-
-### -param BitMapHeader [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine. 
-
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
 ## -returns
 
-
-
-<b>RtlNumberOfSetBits</b> returns a count of the bits that are currently set. 
-
-
-
+<b>RtlNumberOfSetBits</b> returns a count of the bits that are currently set.
 
 ## -remarks
 
-
-
 Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlNumberOfSetBits</b> can be called at any IRQL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
 
@@ -98,7 +79,4 @@ Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL <= APC_LEVEL if the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlnumberofclearbits">RtlNumberOfClearBits</a>
- 
-
- 
 

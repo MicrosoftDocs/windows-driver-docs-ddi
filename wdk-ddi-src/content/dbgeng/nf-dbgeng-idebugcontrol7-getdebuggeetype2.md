@@ -8,8 +8,6 @@ ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.date: 05/03/2018
 keywords: ["IDebugControl7::GetDebuggeeType2"]
 ms.keywords: GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging],IDebugControl7 interface, IDebugControl7 interface [Windows Debugging],GetDebuggeeType2 method, IDebugControl7.GetDebuggeeType2, IDebugControl7::GetDebuggeeType2, dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2
-f1_keywords:
- - "dbgeng/IDebugControl7.GetDebuggeeType2"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl7.GetDebuggeeType2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl7::GetDebuggeeType2
+ - dbgeng/IDebugControl7::GetDebuggeeType2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl7.GetDebuggeeType2
 ---
 
 # IDebugControl7::GetDebuggeeType2
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
-The GetDebuggeeType2 method describes the nature of the current target. 
-
+The GetDebuggeeType2 method describes the nature of the current target.
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [in]
-
+[in]
 Takes a single flag, DEBUG_EXEC_FLAGS_NONBLOCK, that indicates whether the function GetDebuggeeType2 should own the engine critical section object (g_EngineLock) before finding the debuggee type.
 
 
@@ -67,9 +62,9 @@ If the Flag is present, then the function  will try to own the critical section.
 
 If the flag is not passed in, then the function will wait for the engine critical section to become available before continuing.
 
+### -param Class 
 
-### -param Class [out]
-
+[out]
 Receives the class of the current target.  It will be set to one of the values in the following table.
 
 <table>
@@ -108,11 +103,10 @@ The current target is a user-mode target.
 </td>
 </tr>
 </table>
- 
 
+### -param Qualifier 
 
-### -param Qualifier [out]
-
+[out]
 Provides more details about the type of the target.  Its interpretation depends on the value of <i>Class</i>.  When class is DEBUG_CLASS_UNINITIALIZED, <i>Qualifier</i> returns zero.  The following values are applicable for kernel-mode targets.
 
 <table>
@@ -231,25 +225,12 @@ The current target is a Full User-Mode Dump file.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol7">IDebugControl7</a>
- 
-
- 
 

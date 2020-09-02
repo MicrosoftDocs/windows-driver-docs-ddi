@@ -8,8 +8,6 @@ ms.assetid: 5a09a8b1-7a20-42e3-a58d-ecd4e7a0558e
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICEPNPSTART callback function"]
 ms.keywords: AVStrMiniDeviceStart, AVStrMiniDeviceStart routine [Streaming Media Devices], PFNKSDEVICEPNPSTART, avstclbk_b9fd90e7-3d9b-47a3-86c4-8df35f000269.xml, ks/AVStrMiniDeviceStart, stream.avstrminidevicestart
-f1_keywords:
- - "ks/AVStrMiniDeviceStart"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniDeviceStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSDEVICEPNPSTART
+ - ks/PFNKSDEVICEPNPSTART
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniDeviceStart
 ---
 
 # PFNKSDEVICEPNPSTART callback function
@@ -47,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 An AVStream minidriver's <i>AVStrMiniDeviceStart</i> routine is called when an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request is sent for a specified device.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure describing the device to be started.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> that was received.
 
+### -param TranslatedResourceList 
 
-### -param TranslatedResourceList [in, optional]
-
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a> structure that contains the translated resource list extracted from <i>Irp</i>. Equals <b>NULL</b> if <i>Device</i> has no assigned resources. Optional.
 
+### -param UntranslatedResourceList 
 
-### -param UntranslatedResourceList [in, optional]
-
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a> structure that contains the untranslated resource list extracted from <i>Irp</i>. Equals <b>NULL</b> if the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> member of this parameter list has no assigned resources. Optional.
-
 
 ## -returns
 
-
-
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. The start is guaranteed to succeed if the routine returns a successful status code. Do NOT return STATUS_PENDING.
 
-
-
-
 ## -remarks
-
-
 
 Specify this routine's address in the <b>Start</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a> structure.
 
@@ -99,20 +86,11 @@ Note that STATUS_PENDING is not a legal return code from this function.  To perf
 
 This routine is optional.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
- 
-
- 
 

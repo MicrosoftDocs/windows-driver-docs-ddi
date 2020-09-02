@@ -8,8 +8,6 @@ ms.assetid: 68fbaa04-ca7a-46b4-a7ca-c3d44443c2af
 ms.date: 02/26/2018
 keywords: ["WdfRequestProbeAndLockUserBufferForRead function"]
 ms.keywords: DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, kmdf.wdfrequestprobeandlockuserbufferforread, wdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead
-f1_keywords:
- - "wdfrequest/WdfRequestProbeAndLockUserBufferForRead"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfRequestProbeAndLockUserBufferForRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestProbeAndLockUserBufferForRead
+ - wdfrequest/WdfRequestProbeAndLockUserBufferForRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfRequestProbeAndLockUserBufferForRead
 ---
 
 # WdfRequestProbeAndLockUserBufferForRead function
@@ -48,40 +47,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestProbeAndLockUserBufferForRead</b> method verifies that an I/O request's user-mode buffer is readable, and then it locks the buffer's physical memory pages so drivers in the driver stack can read the buffer.
 
-
 ## -parameters
 
+### -param Request 
 
+[in]
+A handle to a framework request object.
 
+### -param Buffer 
 
-### -param Request [in]
-
-A handle to a framework request object. 
-
-
-### -param Buffer [in]
-
+[in]
 A pointer to the request's input buffer. For more information, see the following Remarks section.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The length, in bytes, of the request's input buffer.
 
+### -param MemoryObject 
 
-### -param MemoryObject [out]
-
+[out]
 A pointer to a location that receives a handle to a framework memory object that represents the user input buffer.
 
-
 ## -returns
-
-
 
 <b>WdfRequestProbeAndLockUserBufferForRead</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -155,12 +147,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 Only a top-level driver can call the <b>WdfRequestProbeAndLockUserBufferForRead</b> method, because the method requires the process context of the process that created the I/O request.
 
@@ -311,12 +298,7 @@ End:
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>
 
@@ -327,7 +309,4 @@ End:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer">WdfRequestRetrieveUnsafeUserInputBuffer</a>
- 
-
- 
 

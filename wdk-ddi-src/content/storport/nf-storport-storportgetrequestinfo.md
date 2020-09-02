@@ -8,8 +8,6 @@ ms.assetid: 3B0A25E8-6DBC-4AA9-A0D0-DDB36B402F43
 ms.date: 03/29/2018
 keywords: ["StorPortGetRequestInfo function"]
 ms.keywords: StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], storage.storportgetrequestinfo, storport/StorPortGetRequestInfo
-f1_keywords:
- - "storport/StorPortGetRequestInfo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetRequestInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetRequestInfo
+ - storport/StorPortGetRequestInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetRequestInfo
 ---
 
 # StorPortGetRequestInfo function
@@ -47,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
-
-   The <b>StorPortGetRequestInfo</b> routine retrieves the IO request information associated with a SCSI request block (SRB) and  returns it in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure. 
-  
-
+   The <b>StorPortGetRequestInfo</b> routine retrieves the IO request information associated with a SCSI request block (SRB) and  returns it in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Srb 
 
-### -param Srb [in]
-
+[in]
 A pointer to the SRB to be queried.
 
+### -param RequestInfo 
 
-### -param RequestInfo [out]
-
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetRequestInfo</b> routine returns one of these status codes:
 
@@ -118,27 +108,12 @@ Either <i>Srb</i> or <i>RequestInfo</i> is set to NULL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller of <b>StorPortGetRequestInfo</b> must set the <b>Version</b> member of <i>RequestInfo</i> to STOR_REQUEST_INFO_VER_1. Otherwise, function will return STOR_STATUS_UNSUPPORTED_VERSION.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.date: 05/08/2018
 keywords: ["IPortClsRuntimePower::UnregisterPowerControlCallback"]
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],UnregisterPowerControlCallback method, IPortClsRuntimePower.UnregisterPowerControlCallback, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_unregisterpowercontrolcallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
-f1_keywords:
- - "portcls/IPortClsRuntimePower.UnregisterPowerControlCallback"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IPortClsRuntimePower.UnregisterPowerControlCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsRuntimePower::UnregisterPowerControlCallback
+ - portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IPortClsRuntimePower.UnregisterPowerControlCallback
 ---
 
 # IPortClsRuntimePower::UnregisterPowerControlCallback
@@ -47,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</code>  method to unregister a power control callback.
-
 
 ## -parameters
 
+### -param _DeviceObject 
 
-
-
-### -param _DeviceObject [in]
-
+[in]
 The device object.
-
 
 ## -returns
 
-
-
 The <code>UnregisterPowerControlCallback</code> method returns STATUS_SUCCESS, if the call is successful. Otherwise, it returns the appropriate error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
- 
-
- 
 

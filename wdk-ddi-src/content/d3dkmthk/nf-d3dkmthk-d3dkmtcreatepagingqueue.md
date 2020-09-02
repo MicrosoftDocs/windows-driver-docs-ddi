@@ -7,8 +7,6 @@ ms.assetid: B95ADBC5-35CC-486D-A5C7-0950ABF4B70A
 ms.date: 05/10/2018
 keywords: ["D3DKMTCreatePagingQueue function"]
 ms.keywords: D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue function [Display Devices], d3dkmthk/D3DKMTCreatePagingQueue, display.d3dkmtcreatepagingqueue
-f1_keywords:
- - "d3dkmthk/D3DKMTCreatePagingQueue"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,25 +24,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTCreatePagingQueue
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTCreatePagingQueue
+ - d3dkmthk/D3DKMTCreatePagingQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTCreatePagingQueue
 ---
 
 # D3DKMTCreatePagingQueue function
+
 
 ## -description
 
@@ -72,7 +72,4 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createpagingqueue">D3DKMT_CREATEPAGINGQUEUE</a>
- 
-
- 
 

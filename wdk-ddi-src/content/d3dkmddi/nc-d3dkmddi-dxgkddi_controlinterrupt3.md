@@ -35,6 +35,7 @@ api_location:
 api_name:
  - DXGKDDI_CONTROLINTERRUPT3
 f1_keywords:
+ - DXGKDDI_CONTROLINTERRUPT3
  - d3dkmddi/DXGKDDI_CONTROLINTERRUPT3
 dev_langs:
  - c++
@@ -82,3 +83,4 @@ WDDM 2.7 drivers that do not implement *DxgkDdi_ControlInterrupt3* are opting ou
 [**DXGKARG_CONTROLINTERRUPT3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt3)
 
 [*DxgkDdi_ControlInterrupt2*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2)
+

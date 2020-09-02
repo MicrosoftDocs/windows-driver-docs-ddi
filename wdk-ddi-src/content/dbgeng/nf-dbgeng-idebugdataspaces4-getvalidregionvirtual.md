@@ -8,8 +8,6 @@ ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces4::GetValidRegionVirtual"]
 ms.keywords: GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], GetValidRegionVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetValidRegionVirtual method, IDebugDataSpaces4.GetValidRegionVirtual, IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, debugger.getvalidregionvirtual
-f1_keywords:
- - "dbgeng/IDebugDataSpaces4.GetValidRegionVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugDataSpaces4.GetValidRegionVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces4::GetValidRegionVirtual
+ - dbgeng/IDebugDataSpaces4::GetValidRegionVirtual
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugDataSpaces4.GetValidRegionVirtual
 ---
 
 # IDebugDataSpaces4::GetValidRegionVirtual
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetValidRegionVirtual</b> method locates the first valid region of memory in a specified memory range.
-
 
 ## -parameters
 
+### -param Base 
 
-
-
-### -param Base [in]
-
+[in]
 Specifies the address of the beginning of the memory range to search for valid memory.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Specifies the size, in bytes, of the memory range to search.
 
+### -param ValidBase 
 
-### -param ValidBase [out]
-
+[out]
 Receives the address of the beginning of the found valid memory.
 
+### -param ValidSize 
 
-### -param ValidSize [out]
-
+[out]
 Receives the size, in bytes, of the valid memory.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -99,22 +91,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-getnextdifferentlyvalidoffsetvirtual">GetNextDifferentlyValidOffsetVirtual</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
- 
-
- 
 

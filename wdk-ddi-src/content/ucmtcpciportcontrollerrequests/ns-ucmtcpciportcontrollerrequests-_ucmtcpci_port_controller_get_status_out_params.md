@@ -6,10 +6,8 @@ old-location: buses\ucmtcpci_port_controller_get_status_out_params.htm
 tech.root: usbref
 ms.assetid: e43b2a10-20b5-4cb8-ae7b-fc1feb7a4bf1
 ms.date: 05/07/2018
-keywords: ["_UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure"]
+keywords: ["UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, buses.ucmtcpci_port_controller_get_status_out_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS"
-f1_keywords:
- - "ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS"
 req.header: ucmtcpciportcontrollerrequests.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucmtcpciportcontrollerrequests.h
-api_name:
-- UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
+f1_keywords:
+ - _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
+ - ucmtcpciportcontrollerrequests/_UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
+ - PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
+ - ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
+ - UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
+ - ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucmtcpciportcontrollerrequests.h
+api_name:
+ - UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS
 ---
 
 # _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS structure
@@ -47,45 +50,27 @@ req.typenames: UCMTCPCI_PORT_CONTROLLER_GET_STATUS_OUT_PARAMS, *PUCMTCPCI_PORT_C
 
 ## -description
 
-
-
              Stores the values of all status registers of the port controller. This structure is used in the 
              <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_status">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS</a> request.
 
-
 ## -struct-fields
 
-
-
-
 ### -field CCStatus
-
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_CC_STATUS</b> structure that describes the CC_STATUS Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
-
 ### -field PowerStatus
-
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_POWER_STATUS</b> structure that describes the POWER_STATUS Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
-
 ### -field FaultStatus
-
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_FAULT_STATUS</b> structure that describes the FAULT_STATUS Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_status">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS</a>
- 
-
- 
 

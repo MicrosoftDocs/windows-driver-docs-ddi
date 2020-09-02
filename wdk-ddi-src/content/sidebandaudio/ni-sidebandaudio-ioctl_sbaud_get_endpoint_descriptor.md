@@ -5,43 +5,42 @@ description:
 ms.assetid: 425f4c56-06d0-438a-81ec-f1335b52e398
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL"]
-f1_keywords:
- - "sidebandaudio/IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR"
 req.header: sidebandaudio.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sidebandaudio.h
-api_name: 
-- IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
-product:
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
+ - sidebandaudio/IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sidebandaudio.h
+api_name:
+ - IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
 ---
 
 # IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
+
 The audio driver issues the <b>IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</b> control code to get information about an Audio endpoint exposed through Sideband Audio device interface.
-
-
 
 ## -ioctlparameters
 
@@ -87,3 +86,4 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor">SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</a>
+

@@ -5,10 +5,8 @@ description: The DXGK_PHYSICALADAPTERCAPS structure is used to report details of
 old-location: display\dxgk_physicaladaptercaps.htm
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.date: 05/10/2018
-keywords: ["_DXGK_PHYSICALADAPTERCAPS structure"]
+keywords: ["DXGK_PHYSICALADAPTERCAPS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, Flags.IoMmuSupported, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps
-f1_keywords:
- - "d3dkmddi/DXGK_PHYSICALADAPTERCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_PHYSICALADAPTERCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PHYSICALADAPTERCAPS
+f1_keywords:
+ - _DXGK_PHYSICALADAPTERCAPS
+ - d3dkmddi/_DXGK_PHYSICALADAPTERCAPS
+ - DXGK_PHYSICALADAPTERCAPS
+ - d3dkmddi/DXGK_PHYSICALADAPTERCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_PHYSICALADAPTERCAPS
 ---
 
 # _DXGK_PHYSICALADAPTERCAPS structure
@@ -47,29 +48,21 @@ req.typenames: DXGK_PHYSICALADAPTERCAPS
 
 ## -description
 
-
 The <b>DXGK_PHYSICALADAPTERCAPS</b> structure is used to report details of a physical adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumExecutionNodes
 
 The number of execution nodes in the physical adapter.
 
-
 ### -field PagingNodeIndex
 
 Index of the paging node for the physical adapter.
 
-
 ### -field DxgkPhysicalAdapterHandle
 
-Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::DeviceHandle</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>. 
-
+Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::DeviceHandle</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 ### -field Flags
 
@@ -79,7 +72,6 @@ Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::Devic
 |Flags.GpuMmuSupported TRUE|The adapter supports GpuMmu.|
 |Flags.MovePagingSupported TRUE|The adapter supports move paging.|
 |Flags.VPRPagingContextRequired TRUE|The adapter requires the index of the VPR paging node.|
-
 
 ### -field VPRPagingNode
 

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiGetRootPageTableSize"
+ - DXGKDDI_GETROOTPAGETABLESIZE
+ - d3dkmddi/DXGKDDI_GETROOTPAGETABLESIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_GETROOTPAGETABLESIZE callback function
+
 
 ## -description
 

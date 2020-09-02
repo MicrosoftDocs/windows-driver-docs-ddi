@@ -8,8 +8,6 @@ ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.date: 05/07/2018
 keywords: ["UfxEndpointCreate function"]
 ms.keywords: UfxEndpointCreate, UfxEndpointCreate method [Buses], buses.ufxendpointcreate, ufxclient/UfxEndpointCreate
-f1_keywords:
- - "ufxclient/UfxEndpointCreate"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxEndpointCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxEndpointCreate
+ - ufxclient/UfxEndpointCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxEndpointCreate
 ---
 
 # UfxEndpointCreate function
@@ -47,67 +46,55 @@ req.typenames:
 
 ## -description
 
-
 Creates an endpoint object.
-
 
 ## -parameters
 
+### -param UfxDevice 
 
-
-
-### -param UfxDevice [in]
-
+[in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
+### -param EndpointInit 
 
-### -param EndpointInit [in, out]
-
+[in, out]
 Opaque structure passed by UFX in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_endpoint_add">EVT_UFX_DEVICE_ENDPOINT_ADD</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_default_endpoint_add">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a>.
 
+### -param Attributes 
 
-### -param Attributes [in, optional]
-
+[in, optional]
 A pointer to caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
+### -param TransferQueueConfig 
 
-### -param TransferQueueConfig [in]
-
+[in]
 A pointer to a caller allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.  This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a>.
 
+### -param TransferQueueAttributes 
 
-### -param TransferQueueAttributes [in, optional]
-
+[in, optional]
 A pointer to caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
+### -param CommandQueueConfig 
 
-### -param CommandQueueConfig [in]
-
+[in]
 A pointer to a caller allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.  This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a>.
 
+### -param CommandQueueAttributes 
 
-### -param CommandQueueAttributes [in, optional]
-
+[in, optional]
 A pointer to caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
+### -param UfxEndpoint 
 
-### -param UfxEndpoint [out]
-
+[out]
 A pointer to a location that receives a handle to a UFXENDPOINT object.
-
 
 ## -returns
 
-
-
 If the operation is successful, the method returns STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it returns a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
-
-
 
   The transfer queue handles the following IOCTLs related to endpoint transfers:
 
@@ -265,5 +252,4 @@ End:
 </td>
 </tr>
 </table></span></div>
-
 

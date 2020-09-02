@@ -8,38 +8,41 @@ ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.date: 02/16/2018
 keywords: ["DOT11_STATISTICS structure"]
 ms.keywords: "*PDOT11_STATISTICS, DOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_statistics, windot11/DOT11_STATISTICS, windot11/PDOT11_STATISTICS"
-f1_keywords:
- - "windot11/DOT11_STATISTICS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_STATISTICS
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_STATISTICS, *PDOT11_STATISTICS
+f1_keywords:
+ - DOT11_STATISTICS
+ - windot11/DOT11_STATISTICS
+ - PDOT11_STATISTICS
+ - windot11/PDOT11_STATISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_STATISTICS
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_STATISTICS structure
@@ -47,31 +50,11 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11_STATISTICS structure records statistical counters for the 802.11 interface.
 
-## -syntax
-
-
-```cpp
-typedef struct DOT11_STATISTICS {
-  NDIS_OBJECT_HEADER         Header;
-  ULONGLONG                  ullFourWayHandshakeFailures;
-  ULONGLONG                  ullTKIPCounterMeasuresInvoked;
-  ULONGLONG                  ullReserved;
-  DOT11_MAC_FRAME_STATISTICS MacUcastCounters;
-  DOT11_MAC_FRAME_STATISTICS MacMcastCounters;
-  DOT11_PHY_FRAME_STATISTICS PhyCounters[1];
-} DOT11_STATISTICS, *PDOT11_STATISTICS;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +88,6 @@ This member must be set to `sizeof(DOT11_STATISTICS)`.
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field ullFourWayHandshakeFailures
 
 The number of four-way handshake failures that the 802.11 station encountered during Wi-Fi
@@ -114,7 +96,6 @@ The number of four-way handshake failures that the 802.11 station encountered du
 
 If the 802.11 station is not performing the WPA or RSNA authentication, it should set this member to
      DOT11_STATISTICS_UNKNOWN.
-
 
 ### -field ullTKIPCounterMeasuresInvoked
 
@@ -125,12 +106,10 @@ The number of times that the 802.11 station invoked countermeasures following a 
 If the 802.11 station is not performing TKIP countermeasures, it should set this member to
      DOT11_STATISTICS_UNKNOWN.
 
-
 ### -field ullReserved
 
 This member is reserved for use by the operating system. The miniport driver must not write to
      this member.
-
 
 ### -field MacUcastCounters
 
@@ -174,10 +153,21 @@ Entries within the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_STATISTICS {
+  NDIS_OBJECT_HEADER         Header;
+  ULONGLONG                  ullFourWayHandshakeFailures;
+  ULONGLONG                  ullTKIPCounterMeasuresInvoked;
+  ULONGLONG                  ullReserved;
+  DOT11_MAC_FRAME_STATISTICS MacUcastCounters;
+  DOT11_MAC_FRAME_STATISTICS MacMcastCounters;
+  DOT11_PHY_FRAME_STATISTICS PhyCounters[1];
+} DOT11_STATISTICS, *PDOT11_STATISTICS;
+```
 
 ## -remarks
-
-
 
 The miniport driver must unconditionally set all of the counters in the DOT11_STATISTICS structure to
     zero, including MAC-layer and PHY-layer counters, when one of the following occurs:
@@ -200,17 +190,7 @@ The driver's
 For more information about the statistics gathered by a Native 802.11 miniport driver, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>.
 
-
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
-
-
-
- 
-
- 
-
 

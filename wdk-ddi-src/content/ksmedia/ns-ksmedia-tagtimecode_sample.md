@@ -8,8 +8,6 @@ ms.assetid: 01654107-29a1-4f34-bb9a-a17fe36a84fe
 ms.date: 04/23/2018
 keywords: ["tagTIMECODE_SAMPLE structure"]
 ms.keywords: "*PTIMECODE_SAMPLE, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], ksmedia/TIMECODE_SAMPLE, stream.timecode_sample, tagTIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml"
-f1_keywords:
- - "ksmedia/TIMECODE_SAMPLE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- TIMECODE_SAMPLE
-product:
-- Windows
 targetos: Windows
 req.typenames: TIMECODE_SAMPLE
+f1_keywords:
+ - tagTIMECODE_SAMPLE
+ - ksmedia/tagTIMECODE_SAMPLE
+ - TIMECODE_SAMPLE
+ - ksmedia/TIMECODE_SAMPLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - TIMECODE_SAMPLE
 ---
 
 # tagTIMECODE_SAMPLE structure
@@ -47,29 +48,21 @@ req.typenames: TIMECODE_SAMPLE
 
 ## -description
 
-
 The TIMECODE_SAMPLE structure describes a complete timecode.
 
-
 ## -struct-fields
-
-
-
 
 ### -field qwTick
 
 Specifies a reference time, in 100-nanosecond units.
 
-
 ### -field timecode
 
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a> structure.
 
-
 ### -field dwUser
 
 Specifies packed SMPTE user-bits.
-
 
 ### -field dwFlags
 
@@ -181,27 +174,14 @@ Read the relative time counter (RTC); applies to MPEG camcorders.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the DirectX SDK.
 
 The upper 16 bits in <b>dwFlags</b> are reserved for future use and must be set to zero.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a>
- 
-
- 
 

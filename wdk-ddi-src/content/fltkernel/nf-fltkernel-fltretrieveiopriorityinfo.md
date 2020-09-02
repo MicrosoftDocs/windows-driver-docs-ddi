@@ -8,8 +8,6 @@ ms.assetid: b764e55e-e58b-4a4f-a32f-84e3cfd5f8c4
 ms.date: 04/16/2018
 keywords: ["FltRetrieveIoPriorityInfo function"]
 ms.keywords: FltApiRef_p_to_z_ac6da005-5f47-441d-8277-9beedb72c0ee.xml, FltRetrieveIoPriorityInfo, FltRetrieveIoPriorityInfo routine [Installable File System Drivers], fltkernel/FltRetrieveIoPriorityInfo, ifsk.fltretrieveiopriorityinfo
-f1_keywords:
- - "fltkernel/FltRetrieveIoPriorityInfo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: FltMgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltMgr.sys
-api_name:
-- FltRetrieveIoPriorityInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltRetrieveIoPriorityInfo
+ - fltkernel/FltRetrieveIoPriorityInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltMgr.sys
+api_name:
+ - FltRetrieveIoPriorityInfo
 ---
 
 # FltRetrieveIoPriorityInfo function
@@ -47,49 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltRetrieveIoPriorityInfo</b> routine is used by a minifilter driver to retrieve priority information from a thread.
-
 
 ## -parameters
 
+### -param Data 
 
-
-
-### -param Data [in, optional]
-
+[in, optional]
 
       An optional pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure, which represents an I/O operation.  This parameter can be <b>NULL</b>.
-     
 
+### -param FileObject 
 
-### -param FileObject [in, optional]
-
+[in, optional]
 An optional pointer to the file object associated with the I/O operation.  This parameter can be <b>NULL</b>.
 
+### -param Thread 
 
-### -param Thread [in, optional]
-
+[in, optional]
 An optional pointer to the thread in which to retrieve priority information from.  This parameter can be <b>NULL</b>.
 
+### -param PriorityInfo 
 
-### -param PriorityInfo [in, out]
-
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_io_priority_info">IO_PRIORITY_INFO</a> structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
-
 
 ## -returns
 
-
-
 The <b>FltRetrieveIoPriorityInfo</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS value.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FltRetrieveIoPriorityInfo</b> routine retrieves priority information and saves the information in the structure pointed to by the <i>PriorityInfo</i> parameter.
 
@@ -122,14 +108,7 @@ ELSE
      If the IO_PRIORITY_INFO structure pointed to by the <i>PriorityInfo</i> parameter has not been initialized, you must do so prior to calling this routine, by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioinitializepriorityinfo">IoInitializePriorityInfo</a> routine.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -180,7 +159,4 @@ ELSE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread">PsGetCurrentThread</a>
- 
-
- 
 

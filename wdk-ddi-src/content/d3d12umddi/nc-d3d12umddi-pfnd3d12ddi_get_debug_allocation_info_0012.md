@@ -26,7 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012"
+ - PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012
+ - d3d12umddi/PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012 callback function
+
 
 ## -description
 

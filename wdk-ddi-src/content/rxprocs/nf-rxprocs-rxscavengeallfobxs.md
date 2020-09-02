@@ -8,8 +8,6 @@ ms.assetid: dd849f18-6271-483a-9c00-b7fe50109989
 ms.date: 04/16/2018
 keywords: ["RxScavengeAllFobxs function"]
 ms.keywords: RxScavengeAllFobxs, RxScavengeAllFobxs function [Installable File System Drivers], ifsk.rxscavengeallfobxs, rxprocs/RxScavengeAllFobxs, rxref_d983b334-0cc7-42ab-abc7-79f1bc0876cd.xml
-f1_keywords:
- - "rxprocs/RxScavengeAllFobxs"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxprocs.h
-api_name:
-- RxScavengeAllFobxs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxScavengeAllFobxs
+ - rxprocs/RxScavengeAllFobxs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxprocs.h
+api_name:
+ - RxScavengeAllFobxs
 ---
 
 # RxScavengeAllFobxs function
@@ -47,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
 <b>RxScavengeAllFobxs</b> scavenges all of the FOBX structures associated with a network mini-redirector device object.
 
-
 ## -parameters
-
-
-
 
 ### -param RxDeviceObject
 
 A pointer to the mini-redirector device object for which the scavenge should be done.
 
-
 ## -remarks
-
-
 
 At cleanup, there are no more user handles associated with the file object. In such cases, the time window between close and cleanup is dictated by the additional references maintained by the memory manager and cache manager. RDBSS uses a scavenger process running on a separate thread to scavenge and purge unneeded FOBX and other structures.
 
@@ -80,12 +71,7 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxpurgeallfobxs">RxPurgeAllFobxs</a>
 
@@ -96,7 +82,4 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a>
- 
-
- 
 

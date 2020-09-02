@@ -5,38 +5,42 @@ description: A structure that represents a 4-dimensional vector used for simple 
 ms.assetid: e4035fcd-d43e-4ee9-b9b9-9f55aebc56a5
 ms.date: 10/19/2018
 keywords: ["QUATERNION structure"]
-f1_keywords:
- - "sensorsstructures/QUATERNION"
 tech.root: sensors
-ms.keywords: QUATERNION, QUATERNION, *PQUATERNION, 
+ms.keywords: QUATERNION, QUATERNION, *PQUATERNION,
 req.header: sensorsstructures.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: QUATERNION, *PQUATERNION
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sensorsstructures.h
-api_name: 
-- QUATERNION
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - PQUATERNION
+ - sensorsstructures/PQUATERNION
+ - QUATERNION
+ - sensorsstructures/QUATERNION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sensorsstructures.h
+api_name:
+ - QUATERNION
+product:
+ - Windows
 ---
 
 # QUATERNION structure
+
 
 ## -description
 
@@ -58,8 +62,6 @@ Vector on the Z-axis.
 
 ### -field W
 
-
-
 ## -remarks
 
 The rotation is done around the axis formed by the vector v= [X, Y, Z] and is of angle ?, and we have:
@@ -68,3 +70,4 @@ The rotation is done around the axis formed by the vector v= [X, Y, Z] and is of
 >|v|=sin(theta/2)
 
 ## -see-also
+

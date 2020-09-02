@@ -7,8 +7,6 @@ ms.assetid: fc1644d8-9058-4100-8e3e-f4727af89773
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS, PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback, d3d10umddi/pfnVideoDecoderSubmitBuffers, display.videodecodersubmitbuffers, pfnVideoDecoderSubmitBuffers, pfnVideoDecoderSubmitBuffers callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoDecoderSubmitBuffers"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoDecoderSubmitBuffers
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
+ - d3d10umddi/PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoDecoderSubmitBuffers
 ---
 
 # PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function
@@ -47,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -82,12 +74,7 @@ The number of buffers in the array that is referenced by the <i>pBufferDesc</i> 
 
 A pointer to an array of one or more  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. For more information, see the Remarks section.
 
-
-
-
 ## -returns
-
-
 
 <b>VideoDecoderSubmitBuffers</b> returns one of the following values:
 
@@ -97,8 +84,6 @@ A pointer to an array of one or more  <a href="https://docs.microsoft.com/window
 |E_OUTOFMEMORY|Memory was not available to complete the operation.|
 
 ## -remarks
-
-
 
 The <i>pBufferDesc</i> parameter points to an array of one or more  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
 
@@ -117,11 +102,7 @@ Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi
 > [!NOTE]
 > This function does not honor a Microsoft Direct3D 11 predicate that may have been set.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
 
@@ -136,7 +117,4 @@ Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
- 
-
- 
 

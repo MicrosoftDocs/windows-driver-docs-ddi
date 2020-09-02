@@ -7,8 +7,6 @@ ms.assetid: 3545AE6F-3D9E-4C3B-8C22-B823A18CC700
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure"]
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW, display.d3d11_1ddiarg_createvideoprocessoroutputview
-f1_keywords:
- - "d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
+f1_keywords:
+ - D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
+ - d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
 ---
 
 # D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW structure
@@ -47,47 +46,31 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
 
 ## -description
 
-
 Describes the video processor's output view.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hDrvResource
 
 A handle to the video decoder output resource.
 
-
 ### -field hDrvVideoProcessorEnum
 
 A handle to the video processor enumeration.
-
 
 ### -field MipSlice
 
 The identifier of the MIP-map slice.
 
-
 ### -field FirstArraySlice
 
 The identifier of the first array slice.
-
 
 ### -field ArraySize
 
 The number of array slices for the texture.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
- 
-
- 
 

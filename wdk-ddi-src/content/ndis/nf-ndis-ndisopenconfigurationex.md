@@ -8,8 +8,6 @@ ms.assetid: 76539106-6d8d-4a80-9c74-a6a4ca37c40e
 ms.date: 05/02/2018
 keywords: ["NdisOpenConfigurationEx function"]
 ms.keywords: NdisOpenConfigurationEx, NdisOpenConfigurationEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationEx, ndis_configuration_ref_c1d84b46-85f5-4a0a-9a5f-d553fea94027.xml, netvista.ndisopenconfigurationex
-f1_keywords:
- - "ndis/NdisOpenConfigurationEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisOpenConfigurationEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisOpenConfigurationEx
+ - ndis/NdisOpenConfigurationEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisOpenConfigurationEx
 ---
 
 # NdisOpenConfigurationEx function
@@ -48,34 +47,27 @@ req.typenames:
 
 ## -description
 
-
 NDIS drivers call the 
   <b>NdisOpenConfigurationEx</b> function to get a configuration handle that allows access to configuration
   parameters in the registry.
 
-
 ## -parameters
 
+### -param ConfigObject 
 
-
-
-### -param ConfigObject [in]
-
+[in]
 A pointer to a caller-supplied and initialized 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_object">
      NDIS_CONFIGURATION_OBJECT</a> structure.
 
+### -param ConfigurationHandle 
 
-### -param ConfigurationHandle [out]
-
+[out]
 A pointer to a caller-supplied variable in which 
      <b>NdisOpenConfigurationEx</b> returns a handle to a registry key. The registry key identifies the
      configuration parameters.
 
-
 ## -returns
-
-
 
 <b>NdisOpenConfigurationEx</b> returns one of the following status values:
 
@@ -120,14 +112,8 @@ A pointer to a caller-supplied variable in which
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>NdisOpenConfigurationEx</b> returns a configuration handle at the 
     <i>ConfigurationHandle</i> parameter. The configuration handle is associated with a registry key that
@@ -246,12 +232,7 @@ After a driver is done accessing the configuration information, the driver must 
     callback.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -337,7 +318,4 @@ After a driver is done accessing the configuration information, the driver must 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
- 
-
- 
 

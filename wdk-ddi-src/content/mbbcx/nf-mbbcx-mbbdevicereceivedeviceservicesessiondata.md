@@ -6,48 +6,43 @@ tech.root: netvista
 ms.assetid: 691429b7-4abd-4a79-80bb-9dade10fda86
 ms.date: 06/29/2018
 keywords: ["MbbDeviceReceiveDeviceServiceSessionData function"]
-f1_keywords:
- - "mbbcx/MbbDeviceReceiveDeviceServiceSessionData"
 ms.keywords: MbbDeviceReceiveDeviceServiceSessionData
 req.header: mbbcx.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: mbbcxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- mbbcxstub.lib
-api_name: 
-- MbbDeviceReceiveDeviceServiceSessionData
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - MbbDeviceReceiveDeviceServiceSessionData
+ - mbbcx/MbbDeviceReceiveDeviceServiceSessionData
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - mbbcxstub.lib
+api_name:
+ - MbbDeviceReceiveDeviceServiceSessionData
 ---
 
 # MbbDeviceReceiveDeviceServiceSessionData function
 
 
 ## -description
-
-
 
 Client drivers call the **MbbDeviceReceiveServiceSessionData** method to pass received device service session data up to an application through the MBBCx framework.
 
@@ -105,3 +100,4 @@ MyReceiveDssData(
 ```
 
 ## -see-also
+

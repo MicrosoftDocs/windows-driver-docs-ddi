@@ -6,10 +6,8 @@ old-location: bltooth\_brb_acl_enter_active_mode.htm
 tech.root: bltooth
 ms.assetid: 2a42c8b5-acc0-463e-8ecd-179724be27d9
 ms.date: 04/27/2018
-keywords: ["_BRB_ACL_ENTER_ACTIVE_MODE structure"]
+keywords: ["BRB_ACL_ENTER_ACTIVE_MODE structure"]
 ms.keywords: "_BRB_ACL_ENTER_ACTIVE_MODE, _BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bltooth._brb_acl_enter_active_mode, bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml, bthddi/_BRB_ACL_ENTER_ACTIVE_MODE"
-f1_keywords:
- - "bthddi/_BRB_ACL_ENTER_ACTIVE_MODE"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_ACL_ENTER_ACTIVE_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_ACL_ENTER_ACTIVE_MODE
+ - bthddi/_BRB_ACL_ENTER_ACTIVE_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_ACL_ENTER_ACTIVE_MODE
 ---
 
 # _BRB_ACL_ENTER_ACTIVE_MODE structure
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 The _BRB_ACL_ENTER_ACTIVE_MODE structure specifies the remote device to be placed into active
   mode.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -63,35 +57,22 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
-
 ### -field BtAddress
 
 The address of the remote device.
 
-
 ## -remarks
-
-
 
 To place a remote device into active mode, profile drivers should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_enter_active_mode">
     BRB_ACL_ENTER_ACTIVE_MODE</a> request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_enter_active_mode">BRB_ACL_ENTER_ACTIVE_MODE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
- 
-
- 
 

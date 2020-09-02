@@ -6,10 +6,8 @@ old-location: storage\sendtargets_in.htm
 tech.root: storage
 ms.assetid: fa6af43c-4fbd-43b5-9c3d-61254dfe894f
 ms.date: 03/29/2018
-keywords: ["_SendTargets_IN structure"]
+keywords: ["SendTargets_IN structure"]
 ms.keywords: "*PSendTargets_IN, PSendTargets_IN, PSendTargets_IN structure pointer [Storage Devices], SendTargets_IN, SendTargets_IN structure [Storage Devices], _SendTargets_IN, iscsiop/PSendTargets_IN, iscsiop/SendTargets_IN, storage.sendtargets_in, structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml"
-f1_keywords:
- - "iscsiop/SendTargets_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsiop.h
-api_name:
-- SendTargets_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SendTargets_IN, *PSendTargets_IN
+f1_keywords:
+ - _SendTargets_IN
+ - iscsiop/_SendTargets_IN
+ - PSendTargets_IN
+ - iscsiop/PSendTargets_IN
+ - SendTargets_IN
+ - iscsiop/SendTargets_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsiop.h
+api_name:
+ - SendTargets_IN
 ---
 
 # _SendTargets_IN structure
@@ -47,38 +50,23 @@ req.typenames: SendTargets_IN, *PSendTargets_IN
 
 ## -description
 
-
 The SendTargets_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendtargets">SendTargets</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The LoginToTarget and AddConnectionToSession methods both return this value in their UniqueSessionId parameter.
 
-
 ### -field SendTargetsText
 
 The authentication key text in the PDU.
 
-
 ## -remarks
-
-
 
 You must implement this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
@@ -93,7 +81,4 @@ You must implement this method.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_sendtargets_out">SendTargets_OUT</a>
- 
-
- 
 

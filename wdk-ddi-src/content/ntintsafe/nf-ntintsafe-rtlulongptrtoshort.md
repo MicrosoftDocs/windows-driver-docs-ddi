@@ -8,8 +8,6 @@ ms.assetid: 37C4A2B0-6FB4-431D-8FB2-0B13EE1F00F1
 ms.date: 04/30/2018
 keywords: ["RtlULongPtrToShort function"]
 ms.keywords: RtlULongPtrToShort, RtlULongPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoshort, ntintsafe/RtlULongPtrToShort
-f1_keywords:
- - "ntintsafe/RtlULongPtrToShort"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongPtrToShort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongPtrToShort
+ - ntintsafe/RtlULongPtrToShort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongPtrToShort
 ---
 
 # RtlULongPtrToShort function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONG_PTR</b> to a value of type <b>SHORT</b>.
-
 
 ## -parameters
 
+### -param ulOperand 
 
-
-
-### -param ulOperand [in]
-
+[in]
 The value to be converted.
 
+### -param psResult 
 
-### -param psResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -92,5 +84,4 @@ This function uses the following alternate name:
 <li>RtlSIZETToWord
 </li>
 </ul>
-
 

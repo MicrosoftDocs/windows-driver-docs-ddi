@@ -8,8 +8,6 @@ ms.assetid: 7c3fed89-a4e1-436f-9cbb-e140ad42bb13
 ms.date: 04/16/2018
 keywords: ["RxCreateMidAtlas function"]
 ms.keywords: RxCreateMidAtlas, RxCreateMidAtlas function [Installable File System Drivers], ifsk.rxcreatemidatlas, midatlax/RxCreateMidAtlas, rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml
-f1_keywords:
- - "midatlax/RxCreateMidAtlas"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- midatlax.h
-api_name:
-- RxCreateMidAtlas
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCreateMidAtlas
+ - midatlax/RxCreateMidAtlas
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - midatlax.h
+api_name:
+ - RxCreateMidAtlas
 ---
 
 # RxCreateMidAtlas function
@@ -47,39 +46,23 @@ req.typenames:
 
 ## -description
 
-
-<b>RxCreateMidAtlas</b> allocates a new instance of MID_ATLAS data structure and initializes it. 
-
+<b>RxCreateMidAtlas</b> allocates a new instance of MID_ATLAS data structure and initializes it.
 
 ## -parameters
-
-
-
 
 ### -param MaximumNumberOfEntries
 
 <p>The maximum number of multiplex IDs (MIDs) to be allowed in the atlas.</p>
 
-
 ### -param InitialAllocation
 
 <p>The number of multiplex IDs allocated initially.</p>
 
-
-
-
 ## -returns
 
-
-
-<b>RxCreateMidAtlas</b> returns a pointer to allocated and initialized MID_ATLAS data structure on success or a <b>NULL</b> pointer on failure. 
-
-
-
+<b>RxCreateMidAtlas</b> returns a pointer to allocated and initialized MID_ATLAS data structure on success or a <b>NULL</b> pointer on failure.
 
 ## -remarks
-
-
 
 RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the network client (mini-redirector) and the server to distinguish between the concurrently active requests on any connection. 
 
@@ -87,15 +70,9 @@ The MID must be efficiently able to manage the unique tagging and identification
 
 For example, if a maximum of 50 MIDs are to be allocated on creation , the length of the first field is 6 (64 ( 2 ** 6 ) is greater than 50 ). The remaining length is split into two fields of 5 bits each.
 
-<b>RxCreateMidAtlas</b> allocates non-paged pool memory when creating a new MID_ATLAS data structure. 
-
-
-
+<b>RxCreateMidAtlas</b> allocates non-paged pool memory when creating a new MID_ATLAS data structure.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxassociatecontextwithmid">RxAssociateContextWithMid</a>
 
@@ -114,7 +91,4 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxreassociatemid">RxReassociateMid</a>
- 
-
- 
 

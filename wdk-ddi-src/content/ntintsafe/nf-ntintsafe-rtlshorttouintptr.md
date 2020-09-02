@@ -8,8 +8,6 @@ ms.assetid: C9E81C1A-56F2-414F-8FE5-847E291A022A
 ms.date: 04/30/2018
 keywords: ["RtlShortToUIntPtr function"]
 ms.keywords: RtlShortToUIntPtr, RtlShortToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttouintptr, ntintsafe/RtlShortToUIntPtr
-f1_keywords:
- - "ntintsafe/RtlShortToUIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlShortToUIntPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlShortToUIntPtr
+ - ntintsafe/RtlShortToUIntPtr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlShortToUIntPtr
 ---
 
 # RtlShortToUIntPtr function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>SHORT</b> to a value of type <b>UINT_PTR</b>.
-
 
 ## -parameters
 
+### -param sOperand 
 
-
-
-### -param sOperand [in]
-
+[in]
 The value to be converted.
 
+### -param puResult 
 
-### -param puResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -82,5 +74,4 @@ This function uses the following alternate name:
 <li>RtlInt16ToSizeT
 </li>
 </ul>
-
 

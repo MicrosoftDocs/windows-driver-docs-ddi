@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CheckDeferredContextHandleSizes"
+ - PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES
+ - d3d10umddi/PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES callback function
+
 
 ## -description
 
@@ -67,8 +69,6 @@ The size, in bytes, of the array pointed to by <i>pHandleSize</i>.
 An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_handlesize">D3D11DDI_HANDLESIZE</a> structures that describe the handle data of deferred context handles.
 
 ## -remarks
-
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set a critical error code. 
 

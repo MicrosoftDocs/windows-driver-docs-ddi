@@ -8,41 +8,42 @@ ms.assetid: a52c39a3-c6a2-4885-9679-5f56531be851
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["IsDsmActionNonDestructive macro"]
-f1_keywords:
- - "ntddstor/IsDsmActionNonDestructive"
 ms.keywords: IsDsmActionNonDestructive
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddstor.h
-api_name: 
-- IsDsmActionNonDestructive
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - IsDsmActionNonDestructive
+ - ntddstor/IsDsmActionNonDestructive
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - IsDsmActionNonDestructive
+product:
+ - Windows
 ---
 
 # IsDsmActionNonDestructive macro
+
 
 ## -description
 
@@ -59,3 +60,4 @@ The **DeviceDsmAction_*Xxx*** action to be performed. DSM action values are defi
 **IsDsmActionNonDestructive** returns **TRUE** if the action is nondestructive or **FALSE** if the action is destructive.
 
 ## -see-also
+

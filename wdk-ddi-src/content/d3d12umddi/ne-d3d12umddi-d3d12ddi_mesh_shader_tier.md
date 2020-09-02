@@ -27,6 +27,7 @@ api_location:
 api_name:
  - D3D12DDI_MESH_SHADER_TIER
 f1_keywords:
+ - D3D12DDI_MESH_SHADER_TIER
  - d3d12umddi/D3D12DDI_MESH_SHADER_TIER
 dev_langs:
  - c++
@@ -53,3 +54,4 @@ See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3
 ## -see-also
 
 [**D3D12DDI_D3D12_OPTIONS_DATA_0073**](d3d12umddi\ne-d3d12umddi-d3d12ddi_mesh_shader_tier.md)
+

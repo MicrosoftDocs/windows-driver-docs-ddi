@@ -8,8 +8,6 @@ ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces4::ReadUnicodeStringVirtualWide"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadUnicodeStringVirtualWide method, IDebugDataSpaces4.ReadUnicodeStringVirtualWide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
-f1_keywords:
- - "dbgeng/IDebugDataSpaces4.ReadUnicodeStringVirtualWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugDataSpaces4.ReadUnicodeStringVirtualWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces4::ReadUnicodeStringVirtualWide
+ - dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugDataSpaces4.ReadUnicodeStringVirtualWide
 ---
 
 # IDebugDataSpaces4::ReadUnicodeStringVirtualWide
@@ -47,45 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReadUnicodeStringVirtualWide</b> method reads a null-terminated, Unicode string from the target.
-
 
 ## -parameters
 
+### -param Offset 
 
-
-
-### -param Offset [in]
-
+[in]
 Specifies the location of the string in the process's virtual address space.
 
+### -param MaxBytes 
 
-### -param MaxBytes [in]
-
+[in]
 Specifies the maximum number of bytes to read from the target.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 <div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div>
 <div> </div>
 
-### -param BufferSize [in]
+### -param BufferSize 
 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
+### -param StringBytes 
 
-### -param StringBytes [out, optional]
-
+[out, optional]
 Receives the size, in bytes, of the string.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -129,22 +122,11 @@ A null-terminator was not found after reading <i>MaxBytes</i> from the target.
 
 The method was successful.
 
-
-
-
 ## -remarks
-
-
 
 The engine will read up to <i>MaxBytes</i> from the target, looking for a null-terminator.  If the string has more than <i>BufferSize</i> characters, the string will be truncated to fit in <i>Buffer</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
 
@@ -155,7 +137,4 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readunicodestringvirtual">ReadUnicodeStringVirtual</a>
- 
-
- 
 

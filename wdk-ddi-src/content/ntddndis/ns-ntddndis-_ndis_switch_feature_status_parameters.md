@@ -6,10 +6,8 @@ old-location: netvista\ndis_switch_feature_status_parameters.htm
 tech.root: netvista
 ms.assetid: 6d365e49-49ff-4b00-8cce-cf0c25cc2491
 ms.date: 05/02/2018
-keywords: ["_NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure"]
+keywords: ["NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_feature_status_parameters, ntddndis/NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_FEATURE_STATUS_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+f1_keywords:
+ - _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+ - ntddndis/_NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+ - PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+ - ntddndis/PNDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+ - NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+ - ntddndis/NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_FEATURE_STATUS_PARAMETERS
 ---
 
 # _NDIS_SWITCH_FEATURE_STATUS_PARAMETERS structure
@@ -47,19 +50,11 @@ req.typenames: NDIS_SWITCH_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_FEATURE_STAT
 
 ## -description
 
-
-
 The <b>NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</b> structure specifies the parameters for the custom status information of a Hyper-V extensible switch. This information is known as <i>feature status</i> information. The format of this information is defined by the independent software vendor (ISV). 
 
 The status information is specified through an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_custom">NDIS_SWITCH_FEATURE_STATUS_CUSTOM</a> structure that is returned through an object identifier (OID) method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-feature-status-query">OID_SWITCH_FEATURE_STATUS_QUERY</a>.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -77,11 +72,9 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_FEATURE_STATUS_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
-
 
 ### -field FeatureStatusType
 
@@ -96,18 +89,13 @@ A GUID value that identifies the feature status information for the extensible s
 
 This  value is defined in the managed object format (MOF) class definition for the feature status information. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/custom-switch-property-definition-and-registration">Custom Switch Property Definition and Registration</a>.
 
-
 ### -field FeatureStatusInstanceId
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that identifies the instance of the  feature status information for the extensible switch.
 
-
-
-
 ### -field FeatureStatusVersion
 
 An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the feature status information for the extensible switch. This value is defined in the MOF class definition for the feature status information.
-
 
 ### -field SerializationVersion
 
@@ -120,17 +108,13 @@ An NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION value that identifies the format ver
 
 A ULONG value that specifies the offset, in bytes, to the feature status buffer  that follows the <b>NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</b> structure. The status buffer contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_custom">NDIS_SWITCH_FEATURE_STATUS_CUSTOM</a> structure. 
 
-The offset is measured from the start of the <b>NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</b> structure up to the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_custom">NDIS_SWITCH_FEATURE_STATUS_CUSTOM</a> structure. 
-
+The offset is measured from the start of the <b>NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</b> structure up to the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_custom">NDIS_SWITCH_FEATURE_STATUS_CUSTOM</a> structure.
 
 ### -field FeatureStatusBufferLength
 
 A ULONG value that specifies the size, in bytes, of the feature status buffer.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</b> structure is used in OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-feature-status-query">OID_SWITCH_FEATURE_STATUS_QUERY</a>. This OID request returns the following structures in the information buffer that is associated with the OID request: 
 
@@ -145,12 +129,7 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -169,7 +148,4 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-feature-status-query">OID_SWITCH_FEATURE_STATUS_QUERY</a>
- 
-
- 
 

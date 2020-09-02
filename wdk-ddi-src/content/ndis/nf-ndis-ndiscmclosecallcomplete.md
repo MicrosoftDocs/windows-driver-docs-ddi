@@ -8,8 +8,6 @@ ms.assetid: caf248e0-ec9a-4c85-86f7-f35c715c6e39
 ms.date: 05/02/2018
 keywords: ["NdisCmCloseCallComplete function"]
 ms.keywords: NdisCmCloseCallComplete, NdisCmCloseCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_9380a315-f44c-4f6d-914f-480408c8d804.xml, ndis/NdisCmCloseCallComplete, netvista.ndiscmclosecallcomplete
-f1_keywords:
- - "ndis/NdisCmCloseCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmCloseCallComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmCloseCallComplete
+ - ndis/NdisCmCloseCallComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmCloseCallComplete
 ---
 
 # NdisCmCloseCallComplete function
@@ -48,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmCloseCallComplete</b> returns the final status of a client's request, for which the call manager
   previously returned NDIS_STATUS_PENDING, to tear down a call.
 
-
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Specifies the final status of the client's request that the CM close the connection, either
      NDIS_STATUS_SUCCESS or any CM-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
+### -param NdisVcHandle 
 
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle to the VC for the call. This handle was supplied by NDIS when the VC was
      originally created, whether by the call manager or client, with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>. More recently, the call
@@ -74,19 +69,16 @@ Specifies the handle to the VC for the call. This handle was supplied by NDIS wh
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">
      ProtocolCmCloseCall</a> function.
 
+### -param NdisPartyHandle 
 
-### -param NdisPartyHandle [in, optional]
-
+[in, optional]
 Specifies either <b>NULL</b> if the 
      <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
      multipoint connection, which the CM obtained from its per-party state designated by the 
      <i>CallMgrPartyContext</i> passed as an input parameter to its 
      <i>ProtocolCmCloseCall</i> function.
 
-
 ## -remarks
-
-
 
 If a stand-alone call manager's 
     <i>ProtocolCmCloseCall</i> function returns NDIS_STATUS_PENDING, the CM must call 
@@ -113,13 +105,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmCloseCallComplete</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
@@ -138,7 +124,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

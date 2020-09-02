@@ -8,8 +8,6 @@ ms.assetid: 20d75838-6dbf-49a2-a0c9-a0c1ae74d7a6
 ms.date: 05/03/2018
 keywords: ["PWINDBG_GET_EXPRESSION callback function"]
 ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, PWINDBG_GET_EXPRESSION callback, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
-f1_keywords:
- - "wdbgexts/GetExpression"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdbgexts.h
-api_name:
-- GetExpression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PWINDBG_GET_EXPRESSION
+ - wdbgexts/PWINDBG_GET_EXPRESSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetExpression
 ---
 
 # PWINDBG_GET_EXPRESSION callback function
@@ -47,45 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>PWINDBG_GET_EXPRESSION</b> (<b>GetExpression</b>) function returns the value of <i>expression</i>. The expression is evaluated using the current expression evaluator, and can contain aliases.
-
 
 ## -parameters
 
-
-
-
 ### -param lpExpression
-
-
-
-
-
-
-
 
 #### - expression [in]
 
 Specifies the expression to evaluate.
 
-
 ## -returns
-
-
 
 The value of the expression passed to <b>GetExpression</b>
 
-
-
-
 ## -remarks
-
-
 
 The expression is evaluated by the current expression evaluator (either the MASM or C++ expression evaluator); see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a> for details.  Aliases will be properly understood; see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-aliases">Using Aliases</a> for details.   
 
 If KDEXT_64BIT is defined, this function returns a value of type ULONG64. Otherwise, it returns a value of type ULONG.
-
-
 

@@ -10,6 +10,7 @@ keywords: ["FsRtlProcessFileLock function"]
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
 f1_keywords:
  - "ntifs/FsRtlProcessFileLock"
+ - "FsRtlProcessFileLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlProcessFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,18 +58,18 @@ The <b>FsRtlProcessFileLock</b> routine processes and completes an IRP for a fil
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP. Must be an IRP for a file-lock operation.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Optional context pointer to be used when completing IRPs.
 
 

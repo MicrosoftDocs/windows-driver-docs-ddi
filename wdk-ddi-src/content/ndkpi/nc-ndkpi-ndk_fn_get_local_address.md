@@ -8,8 +8,6 @@ ms.assetid: EA7B1E9C-5777-4002-BCB3-57479B86993C
 ms.date: 05/02/2018
 keywords: ["NDK_FN_GET_LOCAL_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_LOCAL_ADDRESS, NDK_FN_GET_LOCAL_ADDRESS callback, NdkGetLocalAddress, NdkGetLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetLocalAddress, netvista.ndk_fn_get_local_address
-f1_keywords:
- - "ndkpi/NdkGetLocalAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkGetLocalAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_GET_LOCAL_ADDRESS
+ - ndkpi/NDK_FN_GET_LOCAL_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkGetLocalAddress
 ---
 
 # NDK_FN_GET_LOCAL_ADDRESS callback function
@@ -47,33 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkGetLocalAddress</i> (<i>NDK_FN_GET_LOCAL_ADDRESS</i>) function returns the local address for an NDK connection.
-
 
 ## -parameters
 
+### -param pNdkConnector 
 
-
-
-### -param pNdkConnector [in]
-
+[in]
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
-
 
 ### -param pAddress
 
 A local address for a listener is returned in this buffer.
 
-
 ### -param pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes,  of the  address written into the buffer for output.
 
-
 ## -returns
-
-
 
 The 
      <i>NdkGetLocalAddress</i> function returns one of the following NTSTATUS codes.
@@ -117,31 +107,16 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<i>NdkGetLocalAddress</i> returns the local address for a connection. 
-
-
-
+<i>NdkGetLocalAddress</i> returns the local address for a connection.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a>
- 
-
- 
 

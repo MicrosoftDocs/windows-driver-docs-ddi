@@ -8,8 +8,6 @@ ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 ms.date: 04/20/2018
 keywords: ["DrvDeviceCapabilities function"]
 ms.keywords: DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices], print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities
-f1_keywords:
- - "winddiui/DrvDeviceCapabilities"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvDeviceCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvDeviceCapabilities
+ - winddiui/DrvDeviceCapabilities
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvDeviceCapabilities
 ---
 
 # DrvDeviceCapabilities function
@@ -47,41 +46,21 @@ req.typenames:
 
 ## -description
 
-
 A printer interface DLL's <b>DrvDeviceCapabilities</b> function returns requested information about a printer's capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param hPrinter
 
 Caller-supplied printer handle.
 
-
 ### -param pszDeviceName
-
-
-
 
 ### -param Capability
 
-
-
-
 ### -param pOutput
 
-
-
-
 ### -param pDevmode
-
-
-
-
-
 
 #### - iDevCap
 
@@ -560,12 +539,7 @@ Caller-supplied pointer to a printer name string.
 
 A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
 
-
 ## -returns
 
-
-
 The function's return value is dependent on the value received for the <i>iDevCap</i> parameter. If the received <i>iDevCap</i> value represents a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
-
-
 

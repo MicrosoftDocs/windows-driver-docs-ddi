@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateHullShader(D3D11_1)"
+ - PFND3D11_1DDI_CREATEHULLSHADER
+ - d3d10umddi/PFND3D11_1DDI_CREATEHULLSHADER
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CREATEHULLSHADER callback function
+
 
 ## -description
 
@@ -70,7 +72,7 @@ A handle to the driver's private data for the hull shader. The driver returns th
 
 *hRTShader* [in]
 
-A handle to the hull shader that the driver should use when it calls back into the Direct3D runtime. 
+A handle to the hull shader that the driver should use when it calls back into the Direct3D runtime.
 
 ### -param Arg5
 

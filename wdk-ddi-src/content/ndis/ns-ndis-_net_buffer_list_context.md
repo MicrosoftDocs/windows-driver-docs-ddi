@@ -6,10 +6,8 @@ old-location: netvista\net_buffer_list_context.htm
 tech.root: netvista
 ms.assetid: e5d70be6-daa5-4d2e-94fd-5739edd8821e
 ms.date: 05/02/2018
-keywords: ["_NET_BUFFER_LIST_CONTEXT structure"]
+keywords: ["NET_BUFFER_LIST_CONTEXT structure"]
 ms.keywords: "*PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, ndis/PNET_BUFFER_LIST_CONTEXT, ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, netvista.net_buffer_list_context"
-f1_keywords:
- - "ndis/NET_BUFFER_LIST_CONTEXT"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NET_BUFFER_LIST_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT
+f1_keywords:
+ - _NET_BUFFER_LIST_CONTEXT
+ - ndis/_NET_BUFFER_LIST_CONTEXT
+ - PNET_BUFFER_LIST_CONTEXT
+ - ndis/PNET_BUFFER_LIST_CONTEXT
+ - NET_BUFFER_LIST_CONTEXT
+ - ndis/NET_BUFFER_LIST_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST_CONTEXT
 ---
 
 # _NET_BUFFER_LIST_CONTEXT structure
@@ -47,27 +50,20 @@ req.typenames: NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT
 
 ## -description
 
-
 The NET_BUFFER_LIST_CONTEXT structure stores context information for a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Next
 
 A pointer to the next NET_BUFFER_LIST_CONTEXT structure in a linked list of
      NET_BUFFER_LIST_CONTEXT structures.
 
-
 ### -field Size
 
 The size, in bytes, of the entire context space in the NET_BUFFER_LIST_CONTEXT structure,
      including the used and unused context space.
-
 
 ### -field Offset
 
@@ -76,16 +72,12 @@ The offset, in bytes, from the beginning of the context data buffer to the start
      <b>Offset</b> member also specifies the size in bytes of the unused context space in the
      NET_BUFFER_LIST_CONTEXT structure.
 
-
 ### -field ContextData
 
 The context data buffer. The context data can include any information that a driver
      requires.
 
-
 ## -remarks
-
-
 
 Every 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure can include a
@@ -162,13 +154,7 @@ Use the
 For more information on how to use net buffers, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -199,7 +185,4 @@ For more information on how to use net buffers, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">NdisFreeNetBufferListContext</a>
- 
-
- 
 

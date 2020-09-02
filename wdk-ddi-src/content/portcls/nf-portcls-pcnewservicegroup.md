@@ -8,8 +8,6 @@ ms.assetid: 9fcc8cee-61a1-417c-9e69-5c658dab80b2
 ms.date: 05/08/2018
 keywords: ["PcNewServiceGroup function"]
 ms.keywords: PcNewServiceGroup, PcNewServiceGroup function [Audio Devices], audio.pcnewservicegroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, portcls/PcNewServiceGroup
-f1_keywords:
- - "portcls/PcNewServiceGroup"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcNewServiceGroup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcNewServiceGroup
+ - portcls/PcNewServiceGroup
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcNewServiceGroup
 ---
 
 # PcNewServiceGroup function
@@ -48,50 +47,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcNewServiceGroup</b> function creates and initializes a service group.
-
 
 ## -parameters
 
+### -param OutServiceGroup 
 
-
-
-### -param OutServiceGroup [out]
-
+[out]
 Pointer to the service-group object created by this function. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
+### -param OuterUnknown 
 
-### -param OuterUnknown [in, optional]
-
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
-
+[in, optional]
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 ## -returns
 
-
-
 <b>PcNewServiceGroup</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
-
-
-
 
 ## -remarks
 
-
-
 The <i>OutServiceGroup</i> and <i>OuterUnknown</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
- 
-
- 
 

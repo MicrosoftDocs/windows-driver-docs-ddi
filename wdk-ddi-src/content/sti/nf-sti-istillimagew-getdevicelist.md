@@ -8,8 +8,6 @@ ms.assetid: 43c8a5d2-7f34-4b68-b316-020049e98444
 ms.date: 05/03/2018
 keywords: ["IStillImageW::GetDeviceList"]
 ms.keywords: GetDeviceList, GetDeviceList method [Imaging Devices], GetDeviceList method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceList method, IStillImageW.GetDeviceList, IStillImageW::GetDeviceList, image.istillimage_getdevicelist, sti/IStillImageW::GetDeviceList, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml
-f1_keywords:
- - "sti/IStillImageW.GetDeviceList"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sti.h
-api_name:
-- IStillImageW.GetDeviceList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStillImageW::GetDeviceList
+ - sti/IStillImageW::GetDeviceList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sti.h
+api_name:
+ - IStillImageW.GetDeviceList
 ---
 
 # IStillImageW::GetDeviceList
@@ -47,47 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>IStillImage::GetDeviceList</b> method returns hardware characteristics for all installed still image devices.
 
-
 ## -parameters
-
-
-
 
 ### -param dwType
 
 Reserved parameter, use <b>NULL</b>.
 
-
 ### -param dwFlags
 
 Reserved parameter, use <b>NULL</b>.
 
+### -param pdwItemsReturned 
 
-### -param pdwItemsReturned [out]
-
+[out]
 Receives the number of STI_DEVICE_INFORMATION structures supplied in the buffer referenced by <i>ppBuffer</i>.
 
+### -param ppBuffer 
 
-### -param ppBuffer [out]
-
+[out]
 Receives a handle to an STI-allocated buffer. This buffer will contain an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structures.
-
 
 ## -returns
 
-
-
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IStillImage::GetDeviceList</b> method returns an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structure for each installed still-image device. Structure contents are typically used for creating user interface displays and for finding a device's internal name.
 
@@ -95,20 +80,11 @@ Before calling <b>IStillImage::GetDeviceList</b>, clients of the <b>IStillImage<
 
 When the caller has finished using the array of STI_DEVICE_INFORMATION structures referenced by <i>ppBuffer</i>, it must deallocate the array by calling <b>LocalFree</b> (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543782(v=vs.85)">IStillImage::GetDeviceInfo</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
- 
-
- 
 

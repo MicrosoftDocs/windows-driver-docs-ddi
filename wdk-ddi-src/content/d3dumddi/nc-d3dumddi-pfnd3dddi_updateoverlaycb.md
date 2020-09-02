@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnUpdateOverlayCb"
+ - PFND3DDDI_UPDATEOVERLAYCB
+ - d3dumddi/PFND3DDDI_UPDATEOVERLAYCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_UPDATEOVERLAYCB callback function
+
 
 ## -description
 

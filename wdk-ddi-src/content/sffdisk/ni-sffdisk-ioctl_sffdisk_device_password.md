@@ -8,8 +8,6 @@ ms.assetid: 76b65ada-06b8-411e-83e9-62088f697f02
 ms.date: 02/15/2018
 keywords: ["IOCTL_SFFDISK_DEVICE_PASSWORD IOCTL"]
 ms.keywords: IOCTL_SFFDISK_DEVICE_PASSWORD, IOCTL_SFFDISK_DEVICE_PASSWORD control, IOCTL_SFFDISK_DEVICE_PASSWORD control code [Buses], SD.ioctl_sffdisk_device_password, sd-ioctls_409f2592-46a6-4658-bc4f-d15c10452007.xml, sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD
-f1_keywords:
- - "sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD"
 req.header: sffdisk.h
 req.include-header: Sffdisk.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sffdisk.h
-api_name:
-- IOCTL_SFFDISK_DEVICE_PASSWORD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SFFDISK_DEVICE_PASSWORD
+ - sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sffdisk.h
+api_name:
+ - IOCTL_SFFDISK_DEVICE_PASSWORD
 ---
 
 # IOCTL_SFFDISK_DEVICE_PASSWORD IOCTL
 
 
 ## -description
-
 
 User-mode applications use this IOCTL to perform basic operations on a Secure Digital (SD) card, such as setting the password on the card, resetting the card, or locking and unlocking the card. For a description of this command, see the <i>Secure Digital I/O (SDIO)</i> specification.
 
@@ -128,62 +126,17 @@ If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-
-
-
-
 
 ### -input-buffer-length
 
-
-
-
-
-
-
-
 ### -output-buffer
-
-
-
-
-
-
-
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

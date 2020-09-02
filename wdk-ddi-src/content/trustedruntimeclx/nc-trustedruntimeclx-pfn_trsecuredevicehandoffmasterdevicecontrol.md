@@ -5,44 +5,56 @@ description:
 ms.assetid: ad975985-ee86-4f2d-ad02-16d5818b12a3
 ms.date: 10/19/2018
 keywords: ["PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL callback function"]
-f1_keywords:
- - "trustedruntimeclx/PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL"
 req.header: trustedruntimeclx.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- trustedruntimeclx.h
-api_name: 
-- PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
+ - trustedruntimeclx/PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - trustedruntimeclx.h
+api_name:
+ - PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL
 ---
 
 # PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL callback function
 
+
 ## -description
 
- 
+## -parameters
+
+### -param BindContextObject: 
+
+### -param DeviceInit: 
+
+### -param Callbacks: 
+
+### -param MasterDevice: 
+
+## -returns
+
+Returns WDFAPI.
 
 ## -syntax
 
@@ -64,22 +76,7 @@ WDFAPI PfnTrsecuredevicehandoffmasterdevicecontrol
 
 ```
 
-## -parameters
-
-### -param BindContextObject: 
-### -param DeviceInit: 
-### -param Callbacks: 
-### -param MasterDevice: 
-
-
-
-## -returns
-
-Returns WDFAPI.
-
 ## -remarks
 
-
-
-
 ## -see-also
+

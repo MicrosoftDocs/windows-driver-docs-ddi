@@ -8,8 +8,6 @@ ms.assetid: 1189fe8d-7b94-46ed-9090-bfe40f244e6a
 ms.date: 05/03/2018
 keywords: ["wiasWritePropGuid function"]
 ms.keywords: image.wiaswritepropguid, wiamdef/wiasWritePropGuid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasWritePropGuid"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasWritePropGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasWritePropGuid
+ - wiamdef/wiasWritePropGuid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasWritePropGuid
 ---
 
 # wiasWritePropGuid function
@@ -47,50 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasWritePropGuid </b>function writes a single GUID property value to a WIA item.
-
 
 ## -parameters
 
+### -param pWiasContext 
 
-
-
-### -param pWiasContext [in]
-
+[in]
 Pointer to a WIA item context.
-
 
 ### -param propid
 
 Specifies the property identifier.
 
-
 ### -param guidVal
-
-
-
-
-
 
 #### - gVal
 
 Specifies a GUID property value to write to the item.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropguid">wiasReadPropGuid</a>
 
@@ -109,7 +88,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropstr">wiasWritePropStr</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 8db0e6fe-1dfc-4f26-8fd7-7d170c33da0a
 ms.date: 03/29/2018
 keywords: ["IOCTL_DVD_SEND_KEY IOCTL"]
 ms.keywords: IOCTL_DVD_SEND_KEY, IOCTL_DVD_SEND_KEY control, IOCTL_DVD_SEND_KEY control code [Storage Devices], k307_9c0512f6-da79-4da0-a779-5a870ffe4b91.xml, ntddcdvd/IOCTL_DVD_SEND_KEY, storage.ioctl_dvd_send_key
-f1_keywords:
- - "ntddcdvd/IOCTL_DVD_SEND_KEY"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -27,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddcdvd.h
-api_name:
-- IOCTL_DVD_SEND_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_DVD_SEND_KEY
+ - ntddcdvd/IOCTL_DVD_SEND_KEY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddcdvd.h
+api_name:
+ - IOCTL_DVD_SEND_KEY
 ---
 
 # IOCTL_DVD_SEND_KEY IOCTL
 
 
 ## -description
-
-
 
 Sends the specified key to a DVD device to complete the related step in an authentication sequence.
 
@@ -57,64 +54,33 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ne-ntddcdvd-dvd_key_type">DVD_KEY_TYPE</a>.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_dvd_copy_protect_key">DVD_COPY_PROTECT_KEY</a> structure that indicates the session ID, key type, and key to be sent to the device.
 
-
 ### -input-buffer-length
 
 Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_dvd_copy_protect_key">DVD_COPY_PROTECT_KEY</a>.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The <b>Information</b> field is set to zero. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INSUFFICIENT_RESOURCES.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_dvd_copy_protect_key">DVD_COPY_PROTECT_KEY</a>
- 
-
- 
 

@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_QUERY_NODE_MAP"
+ - PFND3D12DDI_QUERY_NODE_MAP
+ - d3d12umddi/PFND3D12DDI_QUERY_NODE_MAP
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_QUERY_NODE_MAP callback function
+
 
 ## -description
 

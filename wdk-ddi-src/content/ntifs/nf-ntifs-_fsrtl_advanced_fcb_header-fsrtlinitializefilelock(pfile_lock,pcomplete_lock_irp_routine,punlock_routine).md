@@ -10,6 +10,7 @@ keywords: ["FsRtlInitializeFileLock function"]
 ms.keywords: FsRtlInitializeFileLock, FsRtlInitializeFileLock routine [Installable File System Drivers], fsrtlref_227dc998-43e4-427b-afe5-6d26ff5d1c36.xml, ifsk.fsrtlinitializefilelock, ntifs/FsRtlInitializeFileLock
 f1_keywords:
  - "ntifs/FsRtlInitializeFileLock"
+ - "FsRtlInitializeFileLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlInitializeFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,18 +58,18 @@ The <b>FsRtlInitializeFileLock</b> routine initializes a FILE_LOCK structure.
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 Pointer to an uninitialized FILE_LOCK structure.
 
 
-### -param CompleteLockIrpRoutine [in, optional]
-
+### -param CompleteLockIrpRoutine 
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/pcomplete-lock-irp-routine">PCOMPLETE_LOCK_IRP_ROUTINE</a>-typed callback routine to be called when an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request is completed. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param UnlockRoutine [in, optional]
-
+### -param UnlockRoutine 
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>.
 
 

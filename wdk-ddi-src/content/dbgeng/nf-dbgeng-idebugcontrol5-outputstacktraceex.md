@@ -8,8 +8,6 @@ ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.date: 05/03/2018
 keywords: ["IDebugControl5::OutputStackTraceEx"]
 ms.keywords: IDebugControl5 interface [Windows Debugging],OutputStackTraceEx method, IDebugControl5.OutputStackTraceEx, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], OutputStackTraceEx method [Windows Debugging],IDebugControl5 interface, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex
-f1_keywords:
- - "dbgeng/IDebugControl5.OutputStackTraceEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl5.OutputStackTraceEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl5::OutputStackTraceEx
+ - dbgeng/IDebugControl5::OutputStackTraceEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl5.OutputStackTraceEx
 ---
 
 # IDebugControl5::OutputStackTraceEx
@@ -47,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The OutputStackTraceEx method outputs either the supplied stack frame or the current stack frames.   The OutputStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-optimized-code-and-inline-functions-external">Debugging Optimized Code and Inline Functions</a>.
-
 
 ## -parameters
 
+### -param OutputControl 
 
-
-
-### -param OutputControl [in]
-
+[in]
 Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
+### -param Frames 
 
-### -param Frames [in, optional]
-
+[in, optional]
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frames are used.
 
+### -param FramesSize 
 
-### -param FramesSize [in]
-
+[in]
 Specifies the number of frames to output.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 
 <table>
@@ -191,12 +186,8 @@ Displays each parameter and its type and value on a new line.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -217,24 +208,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The array of stack frames can be obtained using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol5-getstacktraceex">GetStackTraceEx</a>. 
-
-
-
+The array of stack frames can be obtained using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol5-getstacktraceex">GetStackTraceEx</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol5-getcontextstacktraceex">GetContextStackTraceEx</a>
 
@@ -249,7 +228,4 @@ The array of stack frames can be obtained using <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
- 
-
- 
 

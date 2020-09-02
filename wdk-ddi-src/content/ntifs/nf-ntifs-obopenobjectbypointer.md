@@ -8,8 +8,6 @@ ms.assetid: f2aa198e-6018-486f-8c39-c89c3f78cb41
 ms.date: 04/16/2018
 keywords: ["ObOpenObjectByPointer function"]
 ms.keywords: OBJ_EXCLUSIVE, OBJ_FORCE_ACCESS_CHECK, OBJ_INHERIT, OBJ_KERNEL_HANDLE, ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], ifsk.obopenobjectbypointer, ntifs/ObOpenObjectByPointer, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml
-f1_keywords:
- - "ntifs/ObOpenObjectByPointer"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ObOpenObjectByPointer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObOpenObjectByPointer
+ - ntifs/ObOpenObjectByPointer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ObOpenObjectByPointer
 ---
 
 # ObOpenObjectByPointer function
@@ -47,23 +46,18 @@ req.typenames:
 
 ## -description
 
-
-
-   The <b>ObOpenObjectByPointer</b> function opens an object referenced by a pointer and returns a handle to the object. 
-
+   The <b>ObOpenObjectByPointer</b> function opens an object referenced by a pointer and returns a handle to the object.
 
 ## -parameters
 
+### -param Object 
 
+[in]
+Pointer to the object to be opened.
 
+### -param HandleAttributes 
 
-### -param Object [in]
-
-Pointer to the object to be opened. 
-
-
-### -param HandleAttributes [in]
-
+[in]
 Bitmask of flags specifying the desired attributes for the object handle. If the caller is not running in the system process context, these flags must include OBJ_KERNEL_HANDLE. This parameter is optional and can be zero. Otherwise, it is an ORed combination of one or more of the following: 
 
 
@@ -88,40 +82,38 @@ The handle can be inherited by child processes of the current process. This flag
 
 #### OBJ_KERNEL_HANDLE
 
-The handle can only be accessed in kernel mode. This flag must be specified if the caller is not running in the system process context. 
+The handle can only be accessed in kernel mode. This flag must be specified if the caller is not running in the system process context.
 
+### -param PassedAccessState 
 
-### -param PassedAccessState [in, optional]
+[in, optional]
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp->Parameters.Create.SecurityContext->AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>.)
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp->Parameters.Create.SecurityContext->AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>.) 
+### -param DesiredAccess 
 
+[in]
 
-### -param DesiredAccess [in]
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value specifying the desired access to the object. This parameter is optional and can be zero.
 
+### -param ObjectType 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value specifying the desired access to the object. This parameter is optional and can be zero. 
-
-
-### -param ObjectType [in, optional]
-
+[in, optional]
 Pointer to the object type. If the value of <i>AccessMode</i> is <b>KernelMode</b>, this parameter is optional and can be <b>NULL</b>. Otherwise, it must be either <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsThreadType </b>, <b>*SeTokenObjectType</b>, or <b>*CmKeyObjectType</b>. 
 
 <div class="alert"><b>Note</b>    The <b>SeTokenObjectType</b> object type is supported staring with Windows XP and the <b>CmKeyObjectType</b> object type is supported staring with Windows 7.</div>
 <div> </div>
 
-### -param AccessMode [in]
+### -param AccessMode 
 
-Access mode to be used for the access check. This parameter is required and must be either <b>UserMode</b> or <b>KernelMode</b>. 
+[in]
+Access mode to be used for the access check. This parameter is required and must be either <b>UserMode</b> or <b>KernelMode</b>.
 
+### -param Handle 
 
-### -param Handle [out]
-
-Pointer to a caller-allocated variable that receives a handle to the object. 
-
+[out]
+Pointer to a caller-allocated variable that receives a handle to the object.
 
 ## -returns
-
-
 
 <b>ObOpenObjectByPointer</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -208,14 +200,8 @@ The object handle could not be created. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>Object</i> parameter points to a file object (that is, a FILE_OBJECT structure), <b>ObOpenObjectByPointer</b> can only be called after at least one handle has been created for the file object. Callers can check the <b>Flags</b> member of the FILE_OBJECT structure that the <i>Object</i> parameter points to. If the FO_HANDLE_CREATED flag is set, this means that one or more handles have been created for the file object, so it is safe to call <b>ObOpenObjectByPointer</b>. 
 
@@ -223,15 +209,9 @@ Any handle obtained by calling <b>ObOpenObjectByPointer</b> must eventually be r
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag in the <i>HandleAttributes</i> parameter. This restricts the use of the handle returned by <b>ObOpenObjectByPointer</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
-If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is always allowed. If <i>AccessMode</i> is <b>UserMode</b>, the requested access is compared to the granted access for the object. 
-
-
-
+If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is always allowed. If <i>AccessMode</i> is <b>UserMode</b>, the requested access is compared to the granted access for the object.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -258,7 +238,4 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
- 
-
- 
 

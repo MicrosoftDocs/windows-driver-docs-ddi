@@ -8,8 +8,6 @@ ms.assetid: 93dfe9fe-e1af-45db-ab28-fd166f511fcc
 ms.date: 04/23/2018
 keywords: ["KsFilterAcquireControl function"]
 ms.keywords: KsFilterAcquireControl, KsFilterAcquireControl function [Streaming Media Devices], avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml, ks/KsFilterAcquireControl, stream.ksfilteracquirecontrol
-f1_keywords:
- - "ks/KsFilterAcquireControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsFilterAcquireControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterAcquireControl
+ - ks/KsFilterAcquireControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsFilterAcquireControl
 ---
 
 # KsFilterAcquireControl function
@@ -47,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsFilterAcquireControl </b>function acquires the filter control mutex for the AVStream filter specified by <i>Filter</i>.
-
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> for which to acquire the control mutex.
-
 
 ## -remarks
 
-
-
 This function is an inline call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksacquirecontrol">KsAcquireControl</a> with the appropriate typecasting. Minidrivers that manipulate the filter control mutex should call this function instead of calling <b>KsAcquireControl </b>directly. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
 
@@ -84,7 +70,4 @@ This function is an inline call to <a href="https://docs.microsoft.com/windows-h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterreleasecontrol">KsFilterReleaseControl</a>
- 
-
- 
 

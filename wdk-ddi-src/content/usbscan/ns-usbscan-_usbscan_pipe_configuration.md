@@ -6,10 +6,8 @@ old-location: image\usbscan_pipe_configuration.htm
 tech.root: image
 ms.assetid: c9b0247b-1444-46c9-a430-897594f8d223
 ms.date: 05/03/2018
-keywords: ["_USBSCAN_PIPE_CONFIGURATION structure"]
+keywords: ["USBSCAN_PIPE_CONFIGURATION structure"]
 ms.keywords: "*PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION structure pointer [Imaging Devices], USBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION structure [Imaging Devices], _USBSCAN_PIPE_CONFIGURATION, image.usbscan_pipe_configuration, stifnc_b18d3edd-f392-4b68-82e4-10f870c18f6a.xml, usbscan/PUSBSCAN_PIPE_CONFIGURATION, usbscan/USBSCAN_PIPE_CONFIGURATION"
-f1_keywords:
- - "usbscan/USBSCAN_PIPE_CONFIGURATION"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbscan.h
-api_name:
-- USBSCAN_PIPE_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBSCAN_PIPE_CONFIGURATION, *PUSBSCAN_PIPE_CONFIGURATION
+f1_keywords:
+ - _USBSCAN_PIPE_CONFIGURATION
+ - usbscan/_USBSCAN_PIPE_CONFIGURATION
+ - PUSBSCAN_PIPE_CONFIGURATION
+ - usbscan/PUSBSCAN_PIPE_CONFIGURATION
+ - USBSCAN_PIPE_CONFIGURATION
+ - usbscan/USBSCAN_PIPE_CONFIGURATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbscan.h
+api_name:
+ - USBSCAN_PIPE_CONFIGURATION
 ---
 
 # _USBSCAN_PIPE_CONFIGURATION structure
@@ -47,19 +50,13 @@ req.typenames: USBSCAN_PIPE_CONFIGURATION, *PUSBSCAN_PIPE_CONFIGURATION
 
 ## -description
 
-
 The USBSCAN_PIPE_CONFIGURATION structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_pipe_configuration">IOCTL_GET_PIPE_CONFIGURATION</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumberOfPipes
 
 The number of transfer pipes supported for the device.
-
 
 ### -field PipeInfo
 

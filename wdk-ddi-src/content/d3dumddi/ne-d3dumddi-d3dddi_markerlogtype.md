@@ -8,8 +8,6 @@ ms.assetid: CBD48828-7DAA-470F-AB9E-34957C579EB5
 ms.date: 03/24/2020
 keywords: ["D3DDDI_MARKERLOGTYPE enumeration"]
 ms.keywords: D3DDDIMLT_FT_PROFILE, D3DDDIMLT_NONE, D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], d3dumddi/D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDIMLT_NONE, d3dumddi/D3DDDIMLT_PROFILE, d3dumddi/D3DDDI_MARKERLOGTYPE, display.d3dddi_markerlogtype
-f1_keywords:
- - "d3dumddi/D3DDDI_MARKERLOGTYPE"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDI_MARKERLOGTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_MARKERLOGTYPE
+f1_keywords:
+ - D3DDDI_MARKERLOGTYPE
+ - d3dumddi/D3DDDI_MARKERLOGTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDI_MARKERLOGTYPE
 ---
 
 # D3DDDI_MARKERLOGTYPE enumeration
+
 
 ## -description
 
@@ -73,3 +73,4 @@ The driver is submitting data that may correspond to multiple command lists in a
 [**D3DDDI_MARKERTYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_markertype)
 
 [**ExecuteCommandLists**](https://docs.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)
+

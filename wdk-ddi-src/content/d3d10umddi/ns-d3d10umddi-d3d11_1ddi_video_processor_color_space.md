@@ -7,8 +7,6 @@ ms.assetid: 2878b36e-3850-4af8-aeca-9c5d2da717f9
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, display.d3d11_1ddi_video_processor_color_space
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
+f1_keywords:
+ - D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
+ - d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure
@@ -47,14 +46,9 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
 
 ## -description
 
-
 Specifies the color space for video processing.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Usage
 
@@ -66,8 +60,6 @@ Specifies whether the output is intended for playback or video processing (such 
 |--- |--- |
 |0|Playback|
 |1|Video processing|
- 
-
 
 ### -field RGB_Range
 
@@ -78,8 +70,6 @@ Specifies the RGB color range. The default state value is 0 (full range).
 |--- |--- |
 |0|Full range (0-255)|
 |1|Limited range (16-235)|
- 
-
 
 ### -field YCbCr_Matrix
 
@@ -90,7 +80,6 @@ Specifies the YCbCr transfer matrix. The default state value is 0 (BT.601).
 |0|ITU-R BT.601|
 |1|ITU-R BT.709|
 
-
 ### -field YCbCr_xvYCC
 
 Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). The default state value is zero (conventional YCbCr).
@@ -99,7 +88,6 @@ Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). 
 |--- |--- |
 |0|Conventional YCbCr|
 |1|Extended YCbCr (xvYCC)|
-
 
 ### -field Nominal_Range
 
@@ -111,19 +99,11 @@ For more information on luminance range, see <a href="https://docs.microsoft.com
 
 Supported starting with Windows 8.1.
 
-
 ### -field Reserved
 
 Reserved for system use. Set to zero.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a>
- 
-
- 
 

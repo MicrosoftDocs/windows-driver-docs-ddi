@@ -6,40 +6,39 @@ ms.assetid: 5bbf7dfc-b18a-4d4e-9297-4b1ffdcc1d12
 ms.date: 08/08/2018
 keywords: ["IsCollectionListSame function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/IsCollectionListSame"
 ms.keywords: IsCollectionListSame
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- IsCollectionListSame
+targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - IsCollectionListSame
+ - sensorsutils/IsCollectionListSame
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - IsCollectionListSame
 product:
  - Windows
-targetos: Windows
-
-
-ms.custom: RS5
 ---
 
 # IsCollectionListSame function
@@ -48,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine compares two collection lists and determines if they are the same.
-
 
 ## -parameters
 
@@ -67,3 +65,4 @@ This function returns TRUE if the two collection lists are the same, FALSE other
 ## -remarks
 
 ## -see-also
+

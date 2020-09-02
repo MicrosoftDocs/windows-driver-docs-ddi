@@ -6,44 +6,61 @@ tech.root: netvista
 ms.assetid: a37af139-8c98-4733-b2d2-cb0c9d67de35
 ms.date: 07/13/2018
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE callback function"]
-f1_keywords:
- - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
 req.header: netreceivescaling.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- netreceivescaling.h
-api_name: 
-- EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
+ - netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - netreceivescaling.h
+api_name:
+ - EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
 ---
 
 # EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE callback function
 
+
 ## -description
 
-
 The *EvtNetAdapterReceiveScalingEnable* callback function is implemented by the client driver to enable receive side scaling (RSS) for a network interface controller (NIC).
+
+## -parameters
+
+### -param Adapter 
+
+The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
+
+### -param HashType
+
+A [**NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE**](ne-netreceivescaling-_net_adapter_receive_scaling_hash_type.md) value that specifies the type of receive side scaling (RSS) hash function that a NIC should use to compute the hash values for incoming packets.
+
+### -param ProtocolType
+
+A [**NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE**](ne-netreceivescaling-_net_adapter_receive_scaling_protocol_type.md) value that specifies the portion of received network data that an RSS-capable NIC must use to calculate an RSS hash value.
+
+## -returns
+
+Returns STATUS_SUCCESS if RSS was successfully enabled. Otherwise, returns an appropriate NTSTATUS error code.
 
 ## -prototype
 
@@ -64,24 +81,6 @@ NTSTATUS EvtNetAdapterReceiveScalingEnable
 
 typedef EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE *PFN_NET_ADAPTER_RECEIVE_SCALING_ENABLE;
 ```
-
-## -parameters
-
-### -param Adapter 
-
-The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
-
-### -param HashType
-
-A [**NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE**](ne-netreceivescaling-_net_adapter_receive_scaling_hash_type.md) value that specifies the type of receive side scaling (RSS) hash function that a NIC should use to compute the hash values for incoming packets.
-
-### -param ProtocolType
-
-A [**NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE**](ne-netreceivescaling-_net_adapter_receive_scaling_protocol_type.md) value that specifies the portion of received network data that an RSS-capable NIC must use to calculate an RSS hash value.
-
-## -returns
-
-Returns STATUS_SUCCESS if RSS was successfully enabled. Otherwise, returns an appropriate NTSTATUS error code.
 
 ## -remarks
 
@@ -141,3 +140,4 @@ MyEvtNetAdapterReceiveScalingEnable(
 *[EvtNetAdapterReceiveScalingDisable](nc-netreceivescaling-evt_net_adapter_receive_scaling_disable.md)*
 
 [NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
+

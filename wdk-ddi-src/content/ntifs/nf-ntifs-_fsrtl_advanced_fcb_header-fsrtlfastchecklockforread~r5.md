@@ -10,6 +10,7 @@ keywords: ["FsRtlFastCheckLockForRead function"]
 ms.keywords: FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead routine [Installable File System Drivers], fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, ifsk.fsrtlfastchecklockforread, ntifs/FsRtlFastCheckLockForRead
 f1_keywords:
  - "ntifs/FsRtlFastCheckLockForRead"
+ - "FsRtlFastCheckLockForRead"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlFastCheckLockForRead
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,33 +55,33 @@ The <b>FsRtlFastCheckLockForRead</b> routine determines whether the specified pr
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
 
-### -param StartingByte [in]
-
+### -param StartingByte 
+[in]
 A pointer to a variable that specifies the starting byte offset within the file of the byte range to check.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 A pointer to a variable that specifies the length, in bytes, of the range to check.
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 The key for the byte range lock.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object for the file.
 
 
-### -param ProcessId [in]
-
+### -param ProcessId 
+[in]
 A pointer to the process ID for the process.
 
 

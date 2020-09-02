@@ -8,8 +8,6 @@ ms.assetid: b1482160-49db-4490-b347-ff9396abf2ff
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_SOCKET_CONNECT callback function"]
 ms.keywords: PFN_WSK_SOCKET_CONNECT, PFN_WSK_SOCKET_CONNECT callback, WskSocketConnect, WskSocketConnect callback function [Network Drivers Starting with Windows Vista], netvista.wsksocketconnect, wsk/WskSocketConnect, wskref_326c63cb-233d-4b6e-9c36-15e7f2cb1f1c.xml
-f1_keywords:
- - "wsk/WskSocketConnect"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskSocketConnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_SOCKET_CONNECT
+ - wsk/PFN_WSK_SOCKET_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskSocketConnect
 ---
 
 # PFN_WSK_SOCKET_CONNECT callback function
@@ -47,20 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskSocketConnect</b> function creates a new connection-oriented socket, binds it to a local transport
   address, connects it to a given remote transport address, and returns a pointer to the associated socket
   object.
 
-
 ## -parameters
 
+### -param Client 
 
-
-
-### -param Client [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
@@ -68,9 +63,9 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
+### -param SocketType 
 
-### -param SocketType [in]
-
+[in]
 The type of the socket that is being created. The following socket types are supported:
      
 
@@ -97,44 +92,43 @@ Supports raw access to the transport protocol.
 For more information about the socket types that are supported for each supported address family, see     
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
+### -param Protocol 
 
-### -param Protocol [in]
-
+[in]
 The transport protocol for the socket that is being created. For more information about the
      protocols that are supported for each supported address family, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
+### -param LocalAddress 
 
-### -param LocalAddress [in]
-
+[in]
 A pointer to a structure that specifies the local transport address to which to bind the socket.
      The WSK application must specify a pointer to the specific SOCKADDR structure type that corresponds to
      the address family for the socket that is being created.
 
+### -param RemoteAddress 
 
-### -param RemoteAddress [in]
-
+[in]
 A pointer to a structure that specifies the remote transport address to which to connect the
      socket. The WSK application must specify a pointer to the specific SOCKADDR structure type that
      corresponds to the address family for the socket that is being created.
-
 
 ### -param Flags
 
 This parameter is reserved for system use. WSK applications must set this parameter to
      zero.
 
+### -param SocketContext 
 
-### -param SocketContext [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied context for the socket that is being created. The WSK subsystem
      passes this pointer to the socket's event callback functions. The context information is opaque to the
      WSK subsystem and must be stored in non-paged memory. If the WSK application will not be enabling any
      event callback functions on the new socket, it should set this pointer to <b>NULL</b>.
 
+### -param Dispatch 
 
-### -param Dispatch [in, optional]
-
+[in, optional]
 A pointer to a constant 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
      WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
@@ -143,25 +137,25 @@ A pointer to a constant
      to <b>NULL</b> for those event callback functions that it does not enable. If the WSK application will not be
      enabling any event callback functions on the new socket, it should set this pointer to <b>NULL</b>.
 
+### -param OwningProcess 
 
-### -param OwningProcess [in, optional]
-
+[in, optional]
 A pointer to the process from which the WSK subsystem will retrieve the security context to use
      when it binds the socket. The WSK subsystem uses the security context to determine whether the local
      transport address can be shared if that address is already in use. To specify the current process, a WSK
      application sets this pointer to <b>NULL</b>.
 
+### -param OwningThread 
 
-### -param OwningThread [in, optional]
-
+[in, optional]
 A pointer to a specific thread from which the WSK subsystem will retrieve the security context to
      use when it binds the socket. The WSK subsystem uses the security context to determine whether the local
      transport address can be shared if that address is already in use. If a WSK application does not need to
      specify a specific thread, it sets this pointer to <b>NULL</b>.
 
+### -param SecurityDescriptor 
 
-### -param SecurityDescriptor [in, optional]
-
+[in, optional]
 A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descriptor to apply to
      the socket that is being created. The security descriptor controls the sharing of the local transport
      address to which the socket is bound. If a WSK application specifies a non-<b>NULL</b> pointer, it must specify
@@ -176,18 +170,15 @@ A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descrip
 For more information about the SECURITY_DESCRIPTOR structure, see the reference page for
      SECURITY_DESCRIPTOR in the Microsoft Windows SDK documentation.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the creation of the
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskSocketConnect</b> returns one of the following NTSTATUS codes:
 
@@ -232,14 +223,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the IRP is completed with success status, the 
     <b>IoStatus.Information</b> field of the IRP contains a pointer to a socket object structure (
@@ -281,13 +266,7 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
     on behalf of the WSK application. The WSK subsystem deallocates this memory when the socket is
     closed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
@@ -327,7 +306,4 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
- 
-
- 
 

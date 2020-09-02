@@ -4,38 +4,42 @@ title: _DXGKARGCB_ALLOCATEPAGESFORMDL (d3dkmddi.h)
 description: Arguments used in the DXGKCB_ALLOCATEPAGESFORMDL callback function, to allocate pages for MDL.
 ms.assetid: c41ff98e-5704-441d-b73f-1fad90895555
 ms.date: 10/19/2018
-keywords: ["_DXGKARGCB_ALLOCATEPAGESFORMDL structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARGCB_ALLOCATEPAGESFORMDL"
+keywords: ["DXGKARGCB_ALLOCATEPAGESFORMDL structure"]
 ms.keywords: _DXGKARGCB_ALLOCATEPAGESFORMDL, DXGKARGCB_ALLOCATEPAGESFORMDL, *INOUT_PDXGKARGCB_ALLOCATEPAGESFORMDL
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARGCB_ALLOCATEPAGESFORMDL
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARGCB_ALLOCATEPAGESFORMDL
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARGCB_ALLOCATEPAGESFORMDL
+ - d3dkmddi/_DXGKARGCB_ALLOCATEPAGESFORMDL
+ - DXGKARGCB_ALLOCATEPAGESFORMDL
+ - d3dkmddi/DXGKARGCB_ALLOCATEPAGESFORMDL
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARGCB_ALLOCATEPAGESFORMDL
+product:
+ - Windows
 ---
 
 # _DXGKARGCB_ALLOCATEPAGESFORMDL structure
+
 
 ## -description
 
@@ -78,3 +82,4 @@ An MDL of non-paged memory guaranteed to be mapped to the IoMmu for its lifetime
 ## -remarks
 
 ## -see-also
+

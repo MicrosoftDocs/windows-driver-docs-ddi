@@ -8,8 +8,6 @@ ms.assetid: 9c821aac-9abd-4041-a15e-64306ada1c02
 ms.date: 05/02/2018
 keywords: ["NdisAllocateNetBufferList function"]
 ms.keywords: NdisAllocateNetBufferList, NdisAllocateNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferList, ndis_netbuf_functions_ref_85e4ad07-739d-4c37-b436-d9ca95c9db92.xml, netvista.ndisallocatenetbufferlist
-f1_keywords:
- - "ndis/NdisAllocateNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateNetBufferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateNetBufferList
+ - ndis/NdisAllocateNetBufferList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateNetBufferList
 ---
 
 # NdisAllocateNetBufferList function
@@ -48,55 +47,43 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisAllocateNetBufferList</b> function to allocate and initialize a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure from a
   NET_BUFFER_LIST structure pool.
 
-
 ## -parameters
 
+### -param PoolHandle 
 
-
-
-### -param PoolHandle [in]
-
+[in]
 A NET_BUFFER_LIST structure pool handle that was previously returned from a call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a>.
 
+### -param ContextSize 
 
-### -param ContextSize [in]
-
+[in]
 The amount of 
      <i>used data space</i> in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
      to reserve for the caller. The 
      <i>ContextSize</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
+### -param ContextBackFill 
 
-### -param ContextBackFill [in]
-
+[in]
 The amount of 
      <i>unused data space</i> (backfill space) that the caller requires. NDIS adds this value to the 
      <i>ContextSize</i> and allocates additional space. The 
      <i>ContextBackFill</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateNetBufferList</b> returns a pointer to the allocated NET_BUFFER_LIST structure. If the
      allocation was unsuccessful, this pointer is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 You can call the 
     <b>NdisAllocateNetBufferList</b> or 
@@ -122,13 +109,7 @@ Call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlist">NdisFreeNetBufferList</a> function to
     free a NET_BUFFER_LIST structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -157,7 +138,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlist">NdisFreeNetBufferList</a>
- 
-
- 
 

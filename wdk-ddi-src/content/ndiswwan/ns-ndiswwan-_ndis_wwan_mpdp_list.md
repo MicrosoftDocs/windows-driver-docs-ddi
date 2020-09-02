@@ -5,38 +5,42 @@ description: The NDIS_WWAN_MPDP_LIST structure contains a list of existing Multi
 tech.root: netvista
 ms.assetid: 42de1468-e1ef-4391-a454-c7978987ded1
 ms.date: 06/25/2018
-keywords: ["_NDIS_WWAN_MPDP_LIST structure"]
-f1_keywords:
- - "ndiswwan/_NDIS_WWAN_MPDP_LIST"
-ms.keywords: _NDIS_WWAN_MPDP_LIST, NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST, 
+keywords: ["NDIS_WWAN_MPDP_LIST structure"]
+ms.keywords: _NDIS_WWAN_MPDP_LIST, NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST,
 req.header: ndiswwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndiswwan.h
-api_name: 
-- _NDIS_WWAN_MPDP_LIST
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _NDIS_WWAN_MPDP_LIST
+ - ndiswwan/_NDIS_WWAN_MPDP_LIST
+ - PNDIS_WWAN_MPDP_LIST
+ - ndiswwan/PNDIS_WWAN_MPDP_LIST
+ - NDIS_WWAN_MPDP_LIST
+ - ndiswwan/NDIS_WWAN_MPDP_LIST
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - _NDIS_WWAN_MPDP_LIST
 ---
 
 # _NDIS_WWAN_MPDP_LIST structure
+
 
 ## -description
 
@@ -52,13 +56,14 @@ The header with type, revision, and size information about the **NDIS_WWAN_MPDP_
 | --- | --- |
 | Type | NDIS_OBJECT_TYPE_DEFAULT |
 | Revision | NDIS_WWAN_MPDP_LIST_REVISION_1 |
-| Size | `sizeof(NDIS_WWAN_MPDP_LIST)` | 
- 
+| Size | `sizeof(NDIS_WWAN_MPDP_LIST)` |
+
 ### -field uStatus
 
 A **WWAN_STATUS** value that indicates the result of the query request.
- 
+
 ### -field ChildInterfaceList
+
  
 If **uStatus** == WWAN_STATUS_SUCCESS, this field contains a list of the existing MPDP interfaces. The **ElementType** member of this list header must be **WwanStructMPDPChildInterface**, and the **ElementCount** member of interface GUIDs must follow this header.
 
@@ -71,3 +76,4 @@ This structure is used in an [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft
 [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list)
 
 [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)
+

@@ -6,10 +6,8 @@ old-location: ifsk\fsrtl_per_fileobject_context.htm
 tech.root: ifsk
 ms.assetid: f9d6f957-5878-45ca-86a3-1c62f2a52e65
 ms.date: 04/16/2018
-keywords: ["_FSRTL_PER_FILEOBJECT_CONTEXT structure"]
+keywords: ["FSRTL_PER_FILEOBJECT_CONTEXT structure"]
 ms.keywords: "*PFSRTL_PER_FILEOBJECT_CONTEXT, FSRTL_PER_FILEOBJECT_CONTEXT, FSRTL_PER_FILEOBJECT_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_FILEOBJECT_CONTEXT, PFSRTL_PER_FILEOBJECT_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_FILEOBJECT_CONTEXT, contextstructures_0b5fadaf-8b73-4a63-9e1d-fa08359d5e8d.xml, ifsk.fsrtl_per_fileobject_context, ntifs/FSRTL_PER_FILEOBJECT_CONTEXT, ntifs/PFSRTL_PER_FILEOBJECT_CONTEXT"
-f1_keywords:
- - "ntifs/FSRTL_PER_FILEOBJECT_CONTEXT"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FSRTL_PER_FILEOBJECT_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: FSRTL_PER_FILEOBJECT_CONTEXT, *PFSRTL_PER_FILEOBJECT_CONTEXT
+f1_keywords:
+ - _FSRTL_PER_FILEOBJECT_CONTEXT
+ - ntifs/_FSRTL_PER_FILEOBJECT_CONTEXT
+ - PFSRTL_PER_FILEOBJECT_CONTEXT
+ - ntifs/PFSRTL_PER_FILEOBJECT_CONTEXT
+ - FSRTL_PER_FILEOBJECT_CONTEXT
+ - ntifs/FSRTL_PER_FILEOBJECT_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FSRTL_PER_FILEOBJECT_CONTEXT
 ---
 
 # _FSRTL_PER_FILEOBJECT_CONTEXT structure
@@ -47,33 +50,23 @@ req.typenames: FSRTL_PER_FILEOBJECT_CONTEXT, *PFSRTL_PER_FILEOBJECT_CONTEXT
 
 ## -description
 
-
 The opaque <b>FSRTL_PER_FILEOBJECT_CONTEXT </b>structure is used by the operating system to track file system filter-driver-defined context information structures for a file object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Links
 
 Link for this structure in the list of all per-file-object context structures associated with the same file object. <a href="https://msdn.microsoft.com/library/windows/hardware/ff546189">FsRtlInsertPerFileObjectContext</a> inserts this member into the list of all per-file-object context structures for the file object.
 
-
 ### -field OwnerId
 
 A pointer to a filter-driver-allocated variable that uniquely identifies the owning filter of the per-file-object context structure. The format of this variable is filter-driver-specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of the filter's device object or driver object. Note that the value of this member cannot be <b>NULL</b>.
-
 
 ### -field InstanceId
 
 A pointer to a filter-driver-allocated variable that can be used to distinguish among per-file-object context structures created by the same filter driver. The format of this variable is filter-driver-specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of the file object itself. Note that the value of this member can be <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 File system filter drivers can use the opaque FSRTL_PER_FILEOBJECT_CONTEXT structure to maintain context information for a file object. This structure can be used as-is or embedded in a driver-defined, per-file-object context structure.
 
@@ -197,12 +190,7 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 <div class="alert"><b>Note</b>  File system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i> PerFileObjectContext functions. Instead, minifilters can use the <b>Flt</b><i>Xxx</i><b>Context</b> functions to associate context information with a file object. For a complete list, see the <b>FSRTL_PER_FILEOBJECT_CONTEXT</b> topic.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -253,7 +241,4 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547232">FsRtlRemovePerFileObjectContext</a>
- 
-
- 
 

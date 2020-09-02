@@ -8,8 +8,6 @@ ms.assetid: 28DD175B-9869-4CFC-9BDD-172DA7E015DE
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitWriteBuffer, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback, EvtSerCx2PioTransmitWriteBuffer, EvtSerCx2PioTransmitWriteBuffer callback function [Serial Ports], serports.evtsercx2piotransmitwritebuffer
-f1_keywords:
- - "sercx/EvtSerCx2PioTransmitWriteBuffer"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2PioTransmitWriteBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER
+ - sercx/EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2PioTransmitWriteBuffer
 ---
 
 # EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback function
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2PioTransmitWriteBuffer</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to use programmed I/O (PIO) to transfer the contents of a write buffer to the transmit FIFO in the serial controller.
-
 
 ## -parameters
 
+### -param PioTransmit 
 
-
-
-### -param PioTransmit [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A pointer to the write buffer. This parameter is the virtual address of a locked-down buffer in system memory.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes in the write buffer that are available to be transmitted.
-
 
 ## -returns
 
-
-
 The <i>EvtSerCx2PioTransmitWriteBuffer</i> function returns the number of bytes of data it successfully transferred from the write buffer to the transmit FIFO in the serial controller hardware.
 
-
-
-
 ## -remarks
-
-
 
 Your serial controller driver must implement this function. The driver registers the function in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> call that creates the PIO-transmit object.
 
@@ -140,12 +127,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER</b> function type is defined in the 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_cancel_drain_fifo">EvtSerCx2PioTransmitCancelDrainFifo</a>
 
@@ -172,7 +154,4 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER</b> function type is defined in the 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a>
- 
-
- 
 

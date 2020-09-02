@@ -6,10 +6,8 @@ old-location: print\unidrvinfo.htm
 tech.root: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.date: 04/20/2018
-keywords: ["_UNIDRVINFO structure"]
+keywords: ["UNIDRVINFO structure"]
 ms.keywords: "*PUNIDRVINFO, PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, UNIDRVINFO structure [Print Devices], _UNIDRVINFO, print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, prntfont/PUNIDRVINFO, prntfont/UNIDRVINFO"
-f1_keywords:
- - "prntfont/UNIDRVINFO"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- UNIDRVINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: UNIDRVINFO, *PUNIDRVINFO
+f1_keywords:
+ - _UNIDRVINFO
+ - prntfont/_UNIDRVINFO
+ - PUNIDRVINFO
+ - prntfont/PUNIDRVINFO
+ - UNIDRVINFO
+ - prntfont/UNIDRVINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - UNIDRVINFO
 ---
 
 # _UNIDRVINFO structure
@@ -47,19 +50,13 @@ req.typenames: UNIDRVINFO, *PUNIDRVINFO
 
 ## -description
 
-
 The UNIDRVINFO structure is used to specify printer-specific information within <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size, in bytes, of the UNIDRVINFO structure.
-
 
 ### -field flGenFlags
 
@@ -101,8 +98,6 @@ The font is a soft font, requiring downloading.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wType
 
@@ -174,8 +169,6 @@ HP PCLETTO font for LJ4 printers
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCaps
 
@@ -259,70 +252,48 @@ Unidrv must send a carriage return command after each line of text.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wXRes
 
 Specifies the font's x-resolution.
 
-
 ### -field wYRes
 
 Specifies the font's y-resolution.
-
 
 ### -field sYAdjust
 
 Specifies the amount of vertical adjustment required before output of double-height characters on dot-matrix printers.
 
-
 ### -field sYMoved
 
 Specifies the amount of vertical cursor movement that results when a double-height character is printed on a dot-matrix printer.
-
 
 ### -field wPrivateData
 
 Can be used for printer-specific information such as, for example, HP DeskJet permutations.
 
-
 ### -field sShift
 
 Specifies the number of pixels by which each character must be shifted. Used for the Microsoft Z1a cartridge.
-
 
 ### -field SelectFont
 
 Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer's font selection command.
 
-
 ### -field UnSelectFont
 
 Is an INVOC structure containing the printer's font deselection command.
-
 
 ### -field wReserved
 
 Not used.
 
-
 ## -remarks
-
-
 
 A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
- 
-
- 
 

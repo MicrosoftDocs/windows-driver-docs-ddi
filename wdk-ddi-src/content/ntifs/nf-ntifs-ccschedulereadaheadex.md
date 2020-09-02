@@ -8,8 +8,6 @@ ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.date: 04/16/2018
 keywords: ["CcScheduleReadAheadEx function"]
 ms.keywords: CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx
-f1_keywords:
- - "ntifs/CcScheduleReadAheadEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcScheduleReadAheadEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcScheduleReadAheadEx
+ - ntifs/CcScheduleReadAheadEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcScheduleReadAheadEx
 ---
 
 # CcScheduleReadAheadEx function
@@ -47,50 +46,37 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcScheduleReadAheadEx</b> routine performs read-ahead (also called "lazy read") on a cached file. The I/O byte count for the operation is charged to the issuing thread.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Pointer to a file object for the file on which read-ahead is to be performed.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 Pointer to a variable that specifies the starting byte offset within the cached file where the last read occurred.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Length in bytes of the range that was last read.
 
+### -param IoIssuerThread 
 
-### -param IoIssuerThread [in]
-
+[in]
 The thread issuing the read ahead request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 
-
 ## -remarks
-
-
 
 <b>CcScheduleReadAheadEx</b> should be called only when <i>Length</i> >= 256. Measurements have shown that calling <b>CcScheduleReadAheadEx</b> for smaller reads actually decreases performance.
 
 <b>CcScheduleReadAheadEx</b> can only be called after a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh971560">CcCopyReadEx</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539067">CcFastCopyRead</a>, or <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>
 
@@ -117,7 +103,4 @@ The thread issuing the read ahead request. For a file system with disk I/O accou
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
- 
-
- 
 

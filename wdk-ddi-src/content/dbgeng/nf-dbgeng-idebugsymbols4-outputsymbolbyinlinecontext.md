@@ -8,8 +8,6 @@ ms.assetid: 55BA214C-7161-4B2C-8107-11EE22D63CD6
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols4::OutputSymbolByInlineContext"]
 ms.keywords: IDebugSymbols4 interface [Windows Debugging],OutputSymbolByInlineContext method, IDebugSymbols4.OutputSymbolByInlineContext, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], OutputSymbolByInlineContext method [Windows Debugging],IDebugSymbols4 interface, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext
-f1_keywords:
- - "dbgeng/IDebugSymbols4.OutputSymbolByInlineContext"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols4.OutputSymbolByInlineContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols4::OutputSymbolByInlineContext
+ - dbgeng/IDebugSymbols4::OutputSymbolByInlineContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols4.OutputSymbolByInlineContext
 ---
 
 # IDebugSymbols4::OutputSymbolByInlineContext
@@ -47,51 +46,35 @@ req.typenames:
 
 ## -description
 
-
 Specifies an output symbol by using an inline context.
-
 
 ## -parameters
 
+### -param OutputControl 
 
-
-
-### -param OutputControl [in]
-
+[in]
 An output control.
 
+### -param Flags 
 
-### -param Flags [in]
+[in]
+A bit-set that contains options that affect the behavior of this method.
 
-A bit-set that contains options that affect the behavior of this method. 
+### -param Offset 
 
-
-### -param Offset [in]
-
+[in]
 An offset.
 
+### -param InlineContext 
 
-### -param InlineContext [in]
-
+[in]
 An inline context.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols4">IDebugSymbols4</a>
- 
-
- 
 

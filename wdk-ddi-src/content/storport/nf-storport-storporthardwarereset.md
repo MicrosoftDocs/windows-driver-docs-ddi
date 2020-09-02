@@ -10,39 +10,40 @@ ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortHardwareReset
 req.header: storport.h
-f1_keywords:
- - "storport/StorPortHardwareReset"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- StorPortHardwareReset
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - StorPortHardwareReset
+ - storport/StorPortHardwareReset
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - 
+api_name:
+ - StorPortHardwareReset
+product:
+ - Windows
 ---
 
 # StorPortHardwareReset function
+
 
 ## -description
 
@@ -77,3 +78,4 @@ See [Resetting and recovering a device](https://docs.microsoft.com/windows-hardw
 ## -see-also
 
 [**STOR_DEVICE_RESET_TYPE**](ne-storport-stor_device_reset_type.md)
+

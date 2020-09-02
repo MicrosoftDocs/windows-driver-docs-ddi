@@ -8,8 +8,6 @@ ms.assetid: b264fac0-61d9-4789-b60b-c0b309eb25f1
 ms.date: 02/26/2018
 keywords: ["WdfWorkItemEnqueue function"]
 ms.keywords: DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue
-f1_keywords:
- - "wdfworkitem/WdfWorkItemEnqueue"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfWorkItemEnqueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfWorkItemEnqueue
+ - wdfworkitem/WdfWorkItemEnqueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfWorkItemEnqueue
 ---
 
 # WdfWorkItemEnqueue function
@@ -50,21 +49,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWorkItemEnqueue</b> method adds a specified framework work-item object to the system's work-item queue.
 
-
 ## -parameters
 
+### -param WorkItem 
 
-
-
-### -param WorkItem [in]
-
+[in]
 A handle to a framework work-item object that is obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
-
 
 ## -remarks
 
@@ -176,12 +170,7 @@ MyWorkItemCallback (
 ```
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a>
 
@@ -196,7 +185,4 @@ MyWorkItemCallback (
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>
- 
-
- 
 

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateShaderResourceViewSize_d3d10_1_"
+ - PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE
+ - d3d10umddi/PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback function
+
 
 ## -description
 

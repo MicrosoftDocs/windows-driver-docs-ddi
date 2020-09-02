@@ -6,38 +6,38 @@ tech.root: audio
 ms.assetid: 86b217d6-9f15-41f0-a8ae-70e1e10dd140
 ms.date: 10/31/2018
 keywords: ["IMXF::SetState"]
-f1_keywords:
- - "dmusicks/IMXF.SetState"
 ms.keywords: IMXF::SetState, SetState, IMXF.SetState, IMXF::SetState, IMXF.SetState
 req.header: dmusicks.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - dmusicks.h
-api_name: 
- - IMXF.SetState
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - IMXF::SetState
+ - dmusicks/IMXF::SetState
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dmusicks.h
+api_name:
+ - IMXF.SetState
+product:
+ - Windows
 ---
 
 # IMXF::SetState
@@ -50,11 +50,11 @@ The SetState method is used to set the state of the MIDI transform interface.
 ## -parameters
 
 ### -param State
+
 Specifies the state that the filter graph is to be set to. This parameter is a KSSTATE enumeration value. For more information, see the following Remarks section.
 
-
-
 ## -returns
+
 This method returns NTSTATUS which contains STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 ## -remarks
@@ -71,9 +71,9 @@ The behavior of the miniport driver depends on the state of the filter graph. Th
 
 On the output side, if the current state is anything other than KSSTATE_RUN, the IMXF interface should hold onto the data and not pass it to the hardware. If the current state is KSTATE_STOP then the miniport driver should discard any data it is given by passing that data to the allocator.
 
-On the input side, if the input stream is in either KSSTATE_RUN or KSSTATE_PAUSE, it is legal for the miniport driver to get messages from the allocator and send them upstream to the capture sink. If the state is KSSTATE_STOP or KSSTATE_ACQUIRE and the hardware is trying to produce data, that data should be thrown away. 
-
+On the input side, if the input stream is in either KSSTATE_RUN or KSSTATE_PAUSE, it is legal for the miniport driver to get messages from the allocator and send them upstream to the capture sink. If the state is KSSTATE_STOP or KSSTATE_ACQUIRE and the hardware is trying to produce data, that data should be thrown away.
 
 ## -see-also
 
 [IMXF](nn-dmusicks-imxf.md)
+

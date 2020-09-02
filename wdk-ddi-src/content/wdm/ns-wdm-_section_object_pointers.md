@@ -6,10 +6,8 @@ old-location: kernel\section_object_pointers.htm
 tech.root: kernel
 ms.assetid: ce867f4f-f091-4a85-96b8-7da6b528a6cc
 ms.date: 04/30/2018
-keywords: ["_SECTION_OBJECT_POINTERS structure"]
+keywords: ["SECTION_OBJECT_POINTERS structure"]
 ms.keywords: "*PSECTION_OBJECT_POINTERS, PSECTION_OBJECT_POINTERS, PSECTION_OBJECT_POINTERS structure pointer [Kernel-Mode Driver Architecture], SECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS structure [Kernel-Mode Driver Architecture], _SECTION_OBJECT_POINTERS, kernel.section_object_pointers, kstruct_d_2b10d7da-97f5-43d6-8f46-0d8ee393ed84.xml, wdm/PSECTION_OBJECT_POINTERS, wdm/SECTION_OBJECT_POINTERS"
-f1_keywords:
- - "wdm/SECTION_OBJECT_POINTERS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- SECTION_OBJECT_POINTERS
-product:
-- Windows
 targetos: Windows
 req.typenames: SECTION_OBJECT_POINTERS
+f1_keywords:
+ - _SECTION_OBJECT_POINTERS
+ - wdm/_SECTION_OBJECT_POINTERS
+ - SECTION_OBJECT_POINTERS
+ - wdm/SECTION_OBJECT_POINTERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - SECTION_OBJECT_POINTERS
 ---
 
 # _SECTION_OBJECT_POINTERS structure
@@ -47,33 +48,23 @@ req.typenames: SECTION_OBJECT_POINTERS
 
 ## -description
 
-
 The <b>SECTION_OBJECT_POINTERS</b> structure, allocated by a file system or a redirector driver, is used by the memory manager and cache manager to store file-mapping and cache-related information for a file stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DataSectionObject
 
 Opaque pointer to a data section object (that is, a <b>CONTROL_AREA</b> structure) that is used to track state information for a data file stream. Memory manager sets this member when the operating system first caches the data stream. A <b>NULL</b> value indicates that the data stream is <u>currently</u> not in memory; this value, however, can change at any time.
 
-
 ### -field SharedCacheMap
 
 Opaque pointer to a cache map object (that is, a <b>SHARED_CACHE_MAP</b> structure) that is used to track views that are mapped to the data file stream. Cache manager sets this member when the operating system first caches the stream. A <b>NULL</b> value indicates that the data stream is <pre class="syntax">currently</pre> not cached; this value, however, can change at any time.
 
-
 ### -field ImageSectionObject
 
-Opaque pointer to an image section object (that is, a <b>CONTROL_AREA</b> structure) that is used to track state information for an executable file stream. Memory manager sets this member whenever an executable image section is created for the stream. A <b>NULL</b> value indicates that the executable image is <u>currently</u> not in memory; this value, however, can change at any time. 
-
+Opaque pointer to an image section object (that is, a <b>CONTROL_AREA</b> structure) that is used to track state information for an executable file stream. Memory manager sets this member whenever an executable image section is created for the stream. A <b>NULL</b> value indicates that the executable image is <u>currently</u> not in memory; this value, however, can change at any time.
 
 ## -remarks
-
-
 
 The <b>SECTION_OBJECT_POINTERS</b> structure links a file object to a file stream's section object. That is, through its members, the <b>SECTION_OBJECT_POINTERS</b> structure connects a particular file object to virtual memory control structures that keep track of the stream's contents when they are in memory, and allow the operating system to fetch those contents when they are not. 
 
@@ -102,12 +93,7 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 <div class="alert"><b>Note</b>    A file is composed of one or more streams, depending on the file system. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-streams--stream-contexts--and-per-stream-contexts">File Streams, Stream Contexts, and Per-Stream Contexts</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
@@ -138,7 +124,4 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
- 
-
- 
 

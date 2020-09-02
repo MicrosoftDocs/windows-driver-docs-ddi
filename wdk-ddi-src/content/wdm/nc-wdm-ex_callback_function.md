@@ -8,8 +8,6 @@ ms.assetid: 220ce3b8-2820-4753-9659-5ce7b4f4f32d
 ms.date: 04/30/2018
 keywords: ["EX_CALLBACK_FUNCTION callback function"]
 ms.keywords: DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml, EX_CALLBACK_FUNCTION, RegistryCallback, RegistryCallback routine [Kernel-Mode Driver Architecture], kernel.registrycallback, wdm/RegistryCallback
-f1_keywords:
- - "wdm/RegistryCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL (see Remarks section).
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- RegistryCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EX_CALLBACK_FUNCTION
+ - wdm/EX_CALLBACK_FUNCTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - RegistryCallback
 ---
 
 # EX_CALLBACK_FUNCTION callback function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 A filter driver's <i>RegistryCallback</i> routine can monitor, block, or modify a registry operation.
-
 
 ## -parameters
 
+### -param CallbackContext 
 
-
-
-### -param CallbackContext [in]
-
+[in]
 The value that the driver passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> when it registered this <i>RegistryCallback</i> routine.
 
+### -param Argument1 
 
-### -param Argument1 [in, optional]
-
+[in, optional]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>-typed value that identifies the type of registry operation that is being performed and whether the <i>RegistryCallback</i> routine is being called before or after the registry operation is performed.
 
+### -param Argument2 
 
-### -param Argument2 [in, optional]
-
+[in, optional]
 A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for <i>Argument1</i>, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>.
 
 | **REG_NOTIFY_CLASS Value** | **Structure Type** | 
@@ -139,26 +134,13 @@ A pointer to a structure that contains information that is specific to the type 
 | **Version number** | **Structure name** | 
 |:--|:--|
 | 0 | REG_CREATE_KEY_INFORMATION and REG_OPEN_KEY_INFORMATION | 
-| 1 | REG_CREATE_KEY_INFORMATION_V1 and REG_OPEN_KEY_INFORMATION_V1 | 
-
-
-
-
+| 1 | REG_CREATE_KEY_INFORMATION_V1 and REG_OPEN_KEY_INFORMATION_V1 |
 
 ## -returns
 
-
-
-
-
 For more information about when a <i>RegistryCallback</i> routine should return each of these status values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
-
-
-
 ## -remarks
-
-
 
 To be notified of registry operations, a kernel-mode component (such as the driver component of an antivirus software package) can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> to register a <i>RegistryCallback</i> routine.
 
@@ -255,12 +237,7 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
 
@@ -279,7 +256,4 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
 

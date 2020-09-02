@@ -8,8 +8,6 @@ ms.assetid: 7a24d8b4-cd07-453c-9813-d794b75b039e
 ms.date: 04/16/2018
 keywords: ["RxFinalizeVNetRoot function"]
 ms.keywords: RxFinalizeVNetRoot, RxFinalizeVNetRoot function [Installable File System Drivers], fcb/RxFinalizeVNetRoot, ifsk.rxfinalizevnetroot, rxref_1c20872c-4783-4c7d-a1fa-44ca6170ab00.xml
-f1_keywords:
- - "fcb/RxFinalizeVNetRoot"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fcb.h
-api_name:
-- RxFinalizeVNetRoot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxFinalizeVNetRoot
+ - fcb/RxFinalizeVNetRoot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fcb.h
+api_name:
+ - RxFinalizeVNetRoot
 ---
 
 # RxFinalizeVNetRoot function
@@ -47,44 +46,32 @@ req.typenames:
 
 ## -description
 
-
-<b>RxFinalizeVNetRoot</b> finalizes the given V_NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object. 
-
+<b>RxFinalizeVNetRoot</b> finalizes the given V_NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 
 ## -parameters
 
+### -param ThisVNetRoot 
 
-
-
-### -param ThisVNetRoot [out]
-
+[out]
 A pointer to the V_NET_ROOT structure to finalize.
 
+### -param RecursiveFinalize 
 
-### -param RecursiveFinalize [in]
-
+[in]
 The value indicating whether the finalization should be done recursively. This parameter in not currently used.
 
+### -param ForceFinalize 
 
-### -param ForceFinalize [in]
-
+[in]
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
-If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the V_NET_ROOT structure pointed to by <i>ThisVNetRoot</i> must be 1 for the V_NET_ROOT to be finalized. 
-
+If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the V_NET_ROOT structure pointed to by <i>ThisVNetRoot</i> must be 1 for the V_NET_ROOT to be finalized.
 
 ## -returns
 
-
-
-<b>RxFinalizeVNetRoot</b> returns <b>TRUE</b> on success or <b>FALSE</b> if the finalization did not occur: 
-
-
-
+<b>RxFinalizeVNetRoot</b> returns <b>TRUE</b> on success or <b>FALSE</b> if the finalization did not occur:
 
 ## -remarks
-
-
 
 The <b>RxFinalizeVNetRoot</b> routine is not normally called by network mini-redirector drivers directly. RDBSS calls this routine internally when the reference count on the V_NET_ROOT is decremented to 1. 
 
@@ -96,15 +83,9 @@ Before calling <b>RxFinalizeVNetRoot</b>, a lock on the netname table associated
 
 If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinalizeVNetRoot</b> will iterate through all the FCBs that belong to the NET_ROOT associated with this V_NET_ROOT and orphan all of the SRV_OPEN structures that are associated with the V_NET_ROOT. 
 
-<b>RxFinalizeVNetRoot</b> will call the <b>MRxFinalizeVNetRoot</b> routine provided by the network mini-redirector to finalize the V_NET_ROOT before the memory for the V_NET_ROOT structure will be released. 
-
-
-
+<b>RxFinalizeVNetRoot</b> will call the <b>MRxFinalizeVNetRoot</b> routine provided by the network mini-redirector to finalize the V_NET_ROOT before the memory for the V_NET_ROOT structure will be released.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_v_net_root_calldown">MRxFinalizeVNetRoot</a>
 
@@ -187,7 +168,4 @@ If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinaliz
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-v-net-root-structure">The V_NET_ROOT Structure</a>
- 
-
- 
 

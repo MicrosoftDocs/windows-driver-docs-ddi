@@ -8,8 +8,6 @@ ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.date: 04/30/2018
 keywords: ["WdmlibIoValidateDeviceIoControlAccess function"]
 ms.keywords: FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess
-f1_keywords:
- - "wdmsec/WdmlibIoValidateDeviceIoControlAccess"
 req.header: wdmsec.h
 req.include-header: Wdmsec.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- WdmlibIoValidateDeviceIoControlAccess
-- IoValidateDeviceIoControlAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdmlibIoValidateDeviceIoControlAccess
+ - wdmsec/WdmlibIoValidateDeviceIoControlAccess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - WdmlibIoValidateDeviceIoControlAccess
+ - IoValidateDeviceIoControlAccess
 ---
 
 # WdmlibIoValidateDeviceIoControlAccess function
@@ -48,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>WdmlibIoValidateDeviceIoControlAccess</b> function verifies that the sender of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-file-system-control">IRP_MJ_FILE_SYSTEM_CONTROL</a> IRP has the specified access to the device object.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> on which to perform the access check.
 
+### -param RequiredAccess 
 
-### -param RequiredAccess [in]
-
+[in]
 Specifies the type of access to the device object that the request sender must have. The caller can specify one or more of the following flags.
 
 <table>
@@ -92,12 +87,8 @@ The request sender must have write access to the device object.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>WdmlibIoValidateDeviceIoControlAccess</b> returns an NTSTATUS value. Possible return values include:
 
@@ -140,14 +131,8 @@ The specified parameters are invalid. For example, if the routine is passed an I
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WdmlibIoValidateDeviceIoControlAccess</b> allows drivers to perform dynamic access checks for IOCTLs. Use this routine to require more restrictive access than that specified in the IOCTL's definition. If the routine returns STATUS_ACCESS_DENIED, then the driver can complete the request with the STATUS_ACCESS_DENIED status value.
 
@@ -156,16 +141,7 @@ For example, if an IOCTL is defined with a <i>RequiredAccess</i> value of FILE_A
 
 The access checks are only performed if the <b>RequestorMode</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure is <b>UserMode</b>. If <b>RequestorMode</b> is <b>KernelMode</b>, the routine automatically returns STATUS_SUCCESS.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 48BB554D-A19E-46C0-8278-690A686A731D
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_PEER_CONFIG, MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback, MiniportWdiTalTxRxPeerConfig, MiniportWdiTalTxRxPeerConfig callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxPeerConfig, netvista.miniportwditaltxrxpeerconfig
-f1_keywords:
- - "dot11wdi/MiniportWdiTalTxRxPeerConfig"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiTalTxRxPeerConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_TAL_TXRX_PEER_CONFIG
+ - dot11wdi/MINIPORT_WDI_TAL_TXRX_PEER_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiTalTxRxPeerConfig
 ---
 
 # MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback function
 
 
 ## -description
-
 
 The 
   MiniportWdiTalTxRxPeerConfig handler function specifies the port ID, peer ID,  and peer capabilities  (for example, QoS capabilities). It is invoked after the peer has associated, which involves creation of the peer object in the TAL.
@@ -57,33 +55,27 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 ## -parameters
 
+### -param MiniportTalTxRxContext 
 
-
-
-### -param MiniportTalTxRxContext [in]
-
+[in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
+### -param PortId 
 
-### -param PortId [in]
-
+[in]
 Port ID associated with the peer.
 
+### -param PeerId 
 
-### -param PeerId [in]
-
+[in]
 Peer ID for the peer.
 
+### -param pPeerCfg 
 
-### -param pPeerCfg [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_peer_cfg">WDI_TXRX_PEER_CFG</a> structure that contains negotiated QoS settings.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_wdi_data_handlers">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
@@ -102,7 +94,4 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_peer_cfg">WDI_TXRX_PEER_CFG</a>
- 
-
- 
 

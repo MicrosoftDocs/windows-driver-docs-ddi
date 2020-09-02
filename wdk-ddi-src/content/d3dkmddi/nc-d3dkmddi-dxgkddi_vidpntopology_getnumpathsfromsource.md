@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetNumPathsFromSource"
+ - DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE callback function
+
 
 ## -description
 

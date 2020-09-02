@@ -8,8 +8,6 @@ ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.date: 04/30/2018
 keywords: ["ZwDeleteKey function"]
 ms.keywords: NtDeleteKey, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, wdm/NtDeleteKey, wdm/ZwDeleteKey
-f1_keywords:
- - "wdm/ZwDeleteKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwDeleteKey
-- NtDeleteKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwDeleteKey
+ - wdm/ZwDeleteKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwDeleteKey
+ - NtDeleteKey
 ---
 
 # ZwDeleteKey function
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwDeleteKey</b> routine deletes an open key from the registry.
-
 
 ## -parameters
 
+### -param KeyHandle 
 
-
-
-### -param KeyHandle [in]
-
-Handle to the registry key to be deleted. The handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>. 
-
+[in]
+Handle to the registry key to be deleted. The handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
 
 ## -returns
-
-
 
 <b>ZwDeleteKey</b> returns an NTSTATUS value. Possible return values include:
 
@@ -74,10 +66,7 @@ Handle to the registry key to be deleted. The handle is created by a successful 
 
 - **STATUS_INVALID_HANDLE**
 
-
 ## -remarks
-
-
 
 The handle must have been opened for DELETE access for this routine to succeed. For more information, see the <i>DesiredAccess</i> parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
 
@@ -89,13 +78,7 @@ For more information about working with registry keys, see <a href="https://docs
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
@@ -106,7 +89,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
 

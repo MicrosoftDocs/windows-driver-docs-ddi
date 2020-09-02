@@ -31,13 +31,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
  - DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
  - dispmprt/_DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
+ - DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
  - dispmprt/DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM structure
+
 
 ## -description
 
@@ -70,3 +73,4 @@ If the hardware doesn't support CRC calculation on the scanned out pixels and th
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

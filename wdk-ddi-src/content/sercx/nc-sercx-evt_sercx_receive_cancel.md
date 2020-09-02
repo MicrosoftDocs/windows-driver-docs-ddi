@@ -8,8 +8,6 @@ ms.assetid: 17362701-67C9-4275-B072-CB17111A838F
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_RECEIVE_CANCEL callback function"]
 ms.keywords: 1/EvtSerCxReceiveCancel, EVT_SERCX_RECEIVE_CANCEL, EVT_SERCX_RECEIVE_CANCEL callback, EvtSerCxReceiveCancel, EvtSerCxReceiveCancel callback function [Serial Ports], serports.evtsercxreceivecancel
-f1_keywords:
- - "sercx/EvtSerCxReceiveCancel"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 1.0\Sercx.h
-api_name:
-- EvtSerCxReceiveCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX_RECEIVE_CANCEL
+ - sercx/EVT_SERCX_RECEIVE_CANCEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - EvtSerCxReceiveCancel
 ---
 
 # EVT_SERCX_RECEIVE_CANCEL callback function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCxReceiveCancel</i> event callback function notifies the serial controller driver that the pending receive request is canceled.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-
 ## -remarks
-
-
 
 The serial framework extension (SerCx) calls this function to inform the serial controller driver that the current receive request has been canceled.  If the driver has an outstanding receive operation in progress, the driver should cancel this operation and call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">SerCxProgressReceive</a> method to report the cancellation. In the <b>SerCxProgressReceive</b> call, set <i>BytesReceived</i> to the number of bytes received before the operation was canceled, and set <i>ReceiveStatus</i> to <b>SerCxStatusCancelled</b>.
 
@@ -119,19 +111,11 @@ For more information about SDV requirements for function declarations, see <a hr
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogressreceive">SerCxProgressReceive</a>
- 
-
- 
 

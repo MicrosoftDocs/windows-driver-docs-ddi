@@ -8,8 +8,6 @@ ms.assetid: 7d61402e-e248-4770-a828-9c266e528115
 ms.date: 04/20/2018
 keywords: ["IBidiSpl2::SendRecvXMLString"]
 ms.keywords: IBidiSpl2 interface [Print Devices],SendRecvXMLString method, IBidiSpl2.SendRecvXMLString, IBidiSpl2::SendRecvXMLString, SendRecvXMLString, SendRecvXMLString method [Print Devices], SendRecvXMLString method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, print.ibidispl2_ibidispl2__sendrecvxmlstring
-f1_keywords:
- - "bidispl/IBidiSpl2.SendRecvXMLString"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiSpl2.SendRecvXMLString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiSpl2::SendRecvXMLString
+ - bidispl/IBidiSpl2::SendRecvXMLString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiSpl2.SendRecvXMLString
 ---
 
 # IBidiSpl2::SendRecvXMLString
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SendRecvXMLString</b> method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
-
 
 ## -parameters
 
+### -param bstrRequest 
 
-
-
-### -param bstrRequest [in]
-
+[in]
 The bidi communication request as a Unicode string that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
+### -param pbstrResponse 
 
-### -param pbstrResponse [out]
-
+[out]
 A pointer to the printer's response as a Unicode string that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
-
 ## -returns
-
-
 
 The method returns one of the following values.
 
@@ -115,13 +107,7 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 Note that the <b>HRESULT</b> may contain a system error code that is defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -132,7 +118,4 @@ Note that the <b>HRESULT</b> may contain a system error code that is defined in 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
- 
-
- 
 

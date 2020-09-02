@@ -8,8 +8,6 @@ ms.assetid: a4010756-b230-4e49-85a4-498f5ebcf785
 ms.date: 03/29/2018
 keywords: ["IOCTL_DVD_START_SESSION IOCTL"]
 ms.keywords: IOCTL_DVD_START_SESSION, IOCTL_DVD_START_SESSION control, IOCTL_DVD_START_SESSION control code [Storage Devices], k307_e26336f9-b482-4340-8315-cd8771c5bb81.xml, ntddcdvd/IOCTL_DVD_START_SESSION, storage.ioctl_dvd_start_session
-f1_keywords:
- - "ntddcdvd/IOCTL_DVD_START_SESSION"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddcdvd.h
-api_name:
-- IOCTL_DVD_START_SESSION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_DVD_START_SESSION
+ - ntddcdvd/IOCTL_DVD_START_SESSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddcdvd.h
+api_name:
+ - IOCTL_DVD_START_SESSION
 ---
 
 # IOCTL_DVD_START_SESSION IOCTL
@@ -47,55 +46,29 @@ req.typenames:
 
 ## -description
 
-
-
 Returns an authentication grant ID (AGID) as a DVD session ID, which a caller must pass to the device in all subsequent operations in a DVD session.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
 
-
 ### -output-buffer
 
-The driver returns an integer authentication grant ID of type DVD_SESSION_ID in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
-
+The driver returns an integer authentication grant ID of type DVD_SESSION_ID in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
 Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

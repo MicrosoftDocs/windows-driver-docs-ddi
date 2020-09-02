@@ -8,38 +8,37 @@ ms.assetid: a46b1f7f-d624-48f3-a2cf-6828908ba3c1
 ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_QUERY_LOCATION IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_LOCATION, IOCTL_PAR_QUERY_LOCATION control code [Parallel Ports], cisspd_49c52fd1-3855-4611-aa3b-4fa7c0ec6b16.xml, ntddpar/IOCTL_PAR_QUERY_LOCATION, parports.ioctl_par_query_location
-f1_keywords:
- - "ntddpar/IOCTL_PAR_QUERY_LOCATION"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddpar.h
-api_name:
-- IOCTL_PAR_QUERY_LOCATION
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+f1_keywords:
+ - IOCTL_PAR_QUERY_LOCATION
+ - ntddpar/IOCTL_PAR_QUERY_LOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddpar.h
+api_name:
+ - IOCTL_PAR_QUERY_LOCATION
 ---
 
 # IOCTL_PAR_QUERY_LOCATION IOCTL
@@ -50,9 +49,8 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
-
-
 
 The IOCTL_PAR_QUERY_LOCATION request returns the "LPT<i>n</i>" or "LPT<i>n.m</i>" symbolic link name associated with a parallel device. This request is only supported by Windows XP and later.
 
@@ -63,50 +61,27 @@ The IOCTL_PAR_QUERY_LOCATION request returns the "LPT<i>n</i>" or "LPT<i>n.m</i>
 <dd></dd>
 </dl>
 
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The client sets the <b>AssociatedIrp.SystemBuffer</b> member to a pointer to a character buffer for the location information.
 
-
 ### -input-buffer-length
 
 The length of the character buffer.
-
 
 ### -output-buffer
 
 The parallel port bus driver outputs the location information in the buffer pointed to by <b>AssociatedIrp.SystemBuffer</b> as a <b>NULL</b>-terminated character string.
 
-
 ### -output-buffer-length
 
 The client sets the <b>Parameters.DeviceIoControl.OutputBufferLength </b>member to the length of the output buffer that the system-supplied bus driver for parallel ports uses to output the device location information.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -121,15 +96,7 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than size, in bytes, of the location information and the <b>NULL</b> terminator.
 
-
 ## -see-also
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
-
-
-
- 
-
- 
-
 

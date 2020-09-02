@@ -6,10 +6,8 @@ old-location: wdf\wdf_power_policy_idle_timeout_constants.htm
 tech.root: wdf
 ms.assetid: a707c7b9-2fc9-48c8-9492-b911c126668b
 ms.date: 02/26/2018
-keywords: ["_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration"]
+keywords: ["WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration"]
 ms.keywords: IdleTimeoutDefaultConstant, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdf.wdf_power_policy_idle_timeout_constants, wdfdevice/IdleTimeoutDefaultConstant, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/IdleTimeoutDefaultConstant, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
-f1_keywords:
- - "wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -27,20 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-- wudfddi_types.h
-api_name:
-- WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+f1_keywords:
+ - _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+ - wdfdevice/_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+ - WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+ - wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+ - wudfddi_types.h
+api_name:
+ - WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ---
 
 # _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration
@@ -48,16 +49,11 @@ req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS</b> enumeration is reserved for internal use.
 
-
 ## -enum-fields
-
-
-
 
 ### -field IdleTimeoutDefaultConstant
 

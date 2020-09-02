@@ -8,8 +8,6 @@ ms.assetid: 4E39AC46-BE78-4503-AA3A-D45BC79DBDEF
 ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST IOCTL"]
 ms.keywords: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_wait_activity_broadcast
-f1_keywords:
- - "d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D4drvif.h
-api_name:
-- IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
+ - d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D4drvif.h
+api_name:
+ - IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
 ---
 
 # IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST IOCTL
@@ -47,54 +46,27 @@ req.typenames:
 
 ## -description
 
-
 This topic describes <b>IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST</b>.
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
 
 ### -input-buffer-length
 
-
-
-
 ### -output-buffer
-
-
-
 
 ### -output-buffer-length
 
-
-
-
 ### -in-out-buffer
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -109,7 +81,4 @@ This topic describes <b>IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST</b>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

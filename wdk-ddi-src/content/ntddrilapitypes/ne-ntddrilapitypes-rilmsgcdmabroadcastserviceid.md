@@ -8,8 +8,6 @@ ms.assetid: 71f887ed-ab80-4b5f-bc74-d4333984fdd2
 ms.date: 05/02/2018
 keywords: ["RILMSGCDMABROADCASTSERVICEID enumeration"]
 ms.keywords: RILMSGCDMABROADCASTSERVICEID, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], RIL_1xBROADCAST_CMAS_AMBER, RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_SEVERE, RIL_1xBROADCAST_CMAS_TEST, netvista.rilmsgcdmabroadcastserviceid, ntddrilapitypes/RILMSGCDMABROADCASTSERVICEID, ntddrilapitypes/RIL_1xBROADCAST_CMAS_AMBER, ntddrilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, ntddrilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, ntddrilapitypes/RIL_1xBROADCAST_CMAS_TEST
-f1_keywords:
- - "ntddrilapitypes/RILMSGCDMABROADCASTSERVICEID"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMSGCDMABROADCASTSERVICEID
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGCDMABROADCASTSERVICEID
+f1_keywords:
+ - RILMSGCDMABROADCASTSERVICEID
+ - ntddrilapitypes/RILMSGCDMABROADCASTSERVICEID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMSGCDMABROADCASTSERVICEID
 ---
 
 # RILMSGCDMABROADCASTSERVICEID enumeration
@@ -47,26 +46,17 @@ req.typenames: RILMSGCDMABROADCASTSERVICEID
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_1xBROADCAST_CMAS_PRESIDENTIAL
-
 
 ### -field RIL_1xBROADCAST_CMAS_EXTREME
 
-
 ### -field RIL_1xBROADCAST_CMAS_SEVERE
 
-
 ### -field RIL_1xBROADCAST_CMAS_AMBER
-
 
 ### -field RIL_1xBROADCAST_CMAS_TEST
 

@@ -5,10 +5,8 @@ description: DXGKARGCB_UPDATECONTEXTALLOCATION contains the data used to call Dx
 old-location: display\dxgkargcb_updatecontextallocation.htm
 ms.assetid: 07BFCA6C-4E75-4BB5-9F6A-22E1FFAFFF6F
 ms.date: 05/10/2018
-keywords: ["_DXGKARGCB_UPDATECONTEXTALLOCATION structure"]
+keywords: ["DXGKARGCB_UPDATECONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation
-f1_keywords:
- - "d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARGCB_UPDATECONTEXTALLOCATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_UPDATECONTEXTALLOCATION
+f1_keywords:
+ - _DXGKARGCB_UPDATECONTEXTALLOCATION
+ - d3dkmddi/_DXGKARGCB_UPDATECONTEXTALLOCATION
+ - DXGKARGCB_UPDATECONTEXTALLOCATION
+ - d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARGCB_UPDATECONTEXTALLOCATION
 ---
 
 # _DXGKARGCB_UPDATECONTEXTALLOCATION structure
@@ -47,37 +48,23 @@ req.typenames: DXGKARGCB_UPDATECONTEXTALLOCATION
 
 ## -description
 
-
 <b>DXGKARGCB_UPDATECONTEXTALLOCATION</b> contains the data used to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hAllocation
 
 Handle to the context allocation being updated. The allocation defines a physical adapter in a linked display adapter link.
 
-
 ### -field pPrivateDriverData
 
 Pointer to a private driver data buffer to be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a> paging operation.
-
 
 ### -field PrivateDriverDataSize
 
 Specify the size of the driver private data.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.date: 04/30/2018
 keywords: ["ExInitializeSetTimerParameters function"]
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
-f1_keywords:
- - "wdm/ExInitializeSetTimerParameters"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- ExInitializeSetTimerParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInitializeSetTimerParameters
+ - wdm/ExInitializeSetTimerParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - ExInitializeSetTimerParameters
 ---
 
 # ExInitializeSetTimerParameters function
@@ -47,40 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExInitializeSetTimerParameters</b> routine initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a> structure.
-
 
 ## -parameters
 
+### -param Parameters 
 
-
-
-### -param Parameters [out]
-
+[out]
 A pointer to the <b>EXT_SET_PARAMETER</b> structure that is to be initialized.
-
 
 ## -remarks
 
-
-
 Your driver must call <b>ExInitializeSetTimerParameters</b> to initialize an <b>EXT_SET_PARAMETERS</b> structure before the driver passes this structure to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a> routine. For more information about the member values that <b>ExInitializeSetTimerParameters</b> writes to the members of this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a>
- 
-
- 
 

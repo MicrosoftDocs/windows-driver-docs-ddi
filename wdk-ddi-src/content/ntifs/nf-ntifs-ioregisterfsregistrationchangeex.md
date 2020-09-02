@@ -8,8 +8,6 @@ ms.assetid: e318e13b-8b6c-4593-93ce-17d2a1056ac2
 ms.date: 04/16/2018
 keywords: ["IoRegisterFsRegistrationChangeEx function"]
 ms.keywords: IoRegisterFsRegistrationChangeEx, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangeex, ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, ntifs/IoRegisterFsRegistrationChangeEx
-f1_keywords:
- - "ntifs/IoRegisterFsRegistrationChangeEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IoRegisterFsRegistrationChangeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoRegisterFsRegistrationChangeEx
+ - ntifs/IoRegisterFsRegistrationChangeEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IoRegisterFsRegistrationChangeEx
 ---
 
 # IoRegisterFsRegistrationChangeEx function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoRegisterFsRegistrationChangeEx</b> routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.
-
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 Pointer to the driver object for the file system filter driver.
 
+### -param DriverNotificationRoutine 
 
-### -param DriverNotificationRoutine [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nc-ntifs-driver_fs_notification">PDRIVER_FS_NOTIFICATION</a> routine, which the file system calls when it registers or unregisters itself.
 
-
 ## -returns
-
-
 
 <b>IoRegisterFsRegistrationChangeEx</b> returns one of the following values:
 
@@ -100,14 +92,8 @@ A notification packet could not be allocated for the notification routine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The effect of <b>IoRegisterFsRegistrationChangeEx</b> is identical to that of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfsregistrationchange">IoRegisterFsRegistrationChange</a> on Windows XP and later. 
 
@@ -123,15 +109,9 @@ Because the caller's notification routine can be called even before <b>IoRegiste
 
 <b>IoRegisterFsRegistrationChangeEx</b> increments the reference count on the filter driver's driver object. 
 
-If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twice in succession (without calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfsregistrationchange">IoUnregisterFsRegistrationChange</a> in between), passing the same values for the <i>DriverObject</i> and <i>DriverNotificationRoutine</i> parameters that it registered in the previous call to <b>IoRegisterFsRegistrationChangeEx</b>, and no other filter drivers have registered since the first call, <b>IoRegisterFsRegistrationChangeEx</b> returns STATUS_DEVICE_ALREADY_ATTACHED. 
-
-
-
+If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twice in succession (without calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfsregistrationchange">IoUnregisterFsRegistrationChange</a> in between), passing the same values for the <i>DriverObject</i> and <i>DriverNotificationRoutine</i> parameters that it registered in the previous call to <b>IoRegisterFsRegistrationChangeEx</b>, and no other filter drivers have registered since the first call, <b>IoRegisterFsRegistrationChangeEx</b> returns STATUS_DEVICE_ALREADY_ATTACHED.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a>
 
@@ -146,7 +126,4 @@ If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iounregisterfsregistrationchange">IoUnregisterFsRegistrationChange</a>
- 
-
- 
 

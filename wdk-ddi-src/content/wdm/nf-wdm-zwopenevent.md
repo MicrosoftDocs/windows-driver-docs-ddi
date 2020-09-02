@@ -8,8 +8,6 @@ ms.assetid: 1facaf24-ed94-4516-b9d6-bdcd8ac4b9e9
 ms.date: 04/30/2018
 keywords: ["ZwOpenEvent function"]
 ms.keywords: NtOpenEvent, ZwOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, wdm/NtOpenEvent, wdm/ZwOpenEvent
-f1_keywords:
- - "wdm/ZwOpenEvent"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwOpenEvent
-- NtOpenEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwOpenEvent
+ - wdm/ZwOpenEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwOpenEvent
+ - NtOpenEvent
 ---
 
 # ZwOpenEvent function
@@ -48,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwOpenEvent</b> routine opens a handle to an existing named event object with the specified desired access.
-
 
 ## -parameters
 
+### -param EventHandle 
 
-
-
-### -param EventHandle [out]
-
+[out]
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
 
 <table>
@@ -84,17 +79,13 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-m
 <td>All possible access rights to the event object.</td>
 </tr>
 </table>
- 
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in]
-
-A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro. 
-
+[in]
+A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro.
 
 ## -returns
-
-
 
 <b>ZwOpenEvent</b> returns STATUS_SUCCESS or an appropriate error status. This routine might return one of the following error status codes: 
 
@@ -181,14 +172,8 @@ The caller did not have the required privilege to create a handle with the acces
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>ZwOpenEvent</b> opens an existing named event object and creates a handle to the object with the specified desired access.
 
@@ -202,13 +187,7 @@ Notification events can be used to notify one or more threads of execution that 
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -259,7 +238,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567120">ZwWaitForSingleObject</a>
- 
-
- 
 

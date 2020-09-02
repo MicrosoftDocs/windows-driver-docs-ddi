@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnReleasePathInfo"
+ - DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.date: 05/08/2018
 keywords: ["tagDRMRIGHTS structure"]
 ms.keywords: "*PDRMRIGHTS, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, drmk/PDRMRIGHTS, tagDRMRIGHTS"
-f1_keywords:
- - "drmk/DRMRIGHTS"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- drmk.h
-api_name:
-- DRMRIGHTS
-product:
-- Windows
 targetos: Windows
 req.typenames: DRMRIGHTS, *PDRMRIGHTS
+f1_keywords:
+ - tagDRMRIGHTS
+ - drmk/tagDRMRIGHTS
+ - PDRMRIGHTS
+ - drmk/PDRMRIGHTS
+ - DRMRIGHTS
+ - drmk/DRMRIGHTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - drmk.h
+api_name:
+ - DRMRIGHTS
 ---
 
 # tagDRMRIGHTS structure
@@ -47,15 +50,10 @@ req.typenames: DRMRIGHTS, *PDRMRIGHTS
 
 ## -description
 
-
 The <b>DRMRIGHTS</b> structure specifies the DRM content rights 
    assigned to a KS audio pin or to a port-class driver's stream object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CopyProtect
 
@@ -90,11 +88,9 @@ Disables copy protection. Content can be copied without restrictions.
 
 For more information about <b>CopyProtect</b>, see the Remarks section.
 
-
 ### -field Reserved
 
 Reserved for future use. Initialize to zero.
-
 
 ### -field DigitalOutputDisable
 
@@ -116,10 +112,7 @@ Enables digital outputs. Content can be transferred from the host system to an e
 
 For more information about <b>DigitalOutputDisable</b>, see the Remarks section.
 
-
 ## -remarks
-
-
 
 The Windows Certification Program places specific requirements on the way an audio driver handles the <b>CopyProtect</b> and <b>DigitalOutputDisable</b> values. These requirements are applicable when the <b>CopyProtect</b> and <b>DigitalOutputDisable</b> values are applied to an audio stream and to the output from which the audio stream is accessed. New requirements for Windows 7 include the correct way to program the serial copy management system (SCMS) for S/PDIF endpoints, and high-bandwidth digital content protection (HDCP) for HDMI endpoints.
 
@@ -248,13 +241,7 @@ Return value
 
 This macro does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>
 
@@ -277,7 +264,4 @@ This macro does not return a value.
 
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
- 
-
- 
 

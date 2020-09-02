@@ -7,8 +7,6 @@ ms.assetid: 380f7fbd-34aa-401b-a7dc-5d8b521f7948
 ms.date: 05/10/2018
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION callback, d3d10umddi/pfnVideoProcessorSetStreamExtension, display.videoprocessorsetstreamextension, pfnVideoProcessorSetStreamExtension, pfnVideoProcessorSetStreamExtension callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamExtension"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetStreamExtension
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetStreamExtension
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Sets the private state data for a video processor stream from an application.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -86,8 +80,6 @@ A pointer to a GUID that identifies the private state data. The meaning of this 
 
 The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
-
-
 ### -param Arg6
 
 *pData* [in, out]
@@ -100,11 +92,7 @@ A pointer to a buffer that contains the private state data.
 > The Direct3D runtime does not validate the private state data in the buffer before it calls the  <b>VideoProcessorSetStreamExtension</b> function</div>
 <div> </div>
 
-
-
 ## -returns
-
-
 
 <b>VideoProcessorSetStreamExtension</b> returns one of the following values:
 
@@ -114,18 +102,8 @@ A pointer to a buffer that contains the private state data.
 |D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
 |E_FAIL|The display miniport driver cannot set the requested private state data for the video processor.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
- 
-
- 
 

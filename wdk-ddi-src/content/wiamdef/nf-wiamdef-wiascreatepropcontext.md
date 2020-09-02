@@ -8,12 +8,10 @@ ms.assetid: b820c19d-a12b-417b-a9a3-6a3d700009c0
 ms.date: 05/03/2018
 keywords: ["wiasCreatePropContext function"]
 ms.keywords: image.wiascreatepropcontext, wiamdef/wiasCreatePropContext, wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml
-f1_keywords:
- - "wiamdef/wiasCreatePropContext"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasCreatePropContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasCreatePropContext
+ - wiamdef/wiasCreatePropContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasCreatePropContext
 ---
 
 # wiasCreatePropContext function
+
 
 ## -description
 
@@ -54,20 +54,23 @@ The **wiasCreatePropContext** function allocates a property context to indicate 
 
 Specifies the total number of PROPSPEC structures in the *pPropSpec* array.
 
-### -param pPropSpec [in]
+### -param pPropSpec 
 
+[in]
 Pointer to the first element of an array of PROPSPEC structures identifying which properties are changing.
 
 ### -param cProps
 
 Specifies the number of property identifiers stored in this context.
 
-### -param pProps [in, optional]
+### -param pProps 
 
+[in, optional]
 Pointer to the first element of an array of property identifiers that indicate the properties to put into this property context.
 
-### -param pContext [in]
+### -param pContext 
 
+[in]
 Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains a property context.
 
 ## -returns
@@ -82,7 +85,7 @@ Entries in the property context are identifiers for properties that either have 
 
 The properties to which an application writes are specified by the *pPropSpec* array. The properties that were changed by the application, as well as any properties dependent on the changed properties, are specified by the *pProps* array. Only properties that have been changed by the application (and any dependent properties) can be specified in *pProps*.
 
-For more information. see the [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropspec)structure.
+For more information. see the [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propspec) structure.
 
 Drivers can specify additional properties when creating a property context with wiasCreatePropContext.
 
@@ -109,3 +112,4 @@ The following properties are always present in WIA_PROPERTY_CONTEXT:
 [wiasFreePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasfreepropcontext)
 
 [wiasValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasvalidateitemproperties)
+

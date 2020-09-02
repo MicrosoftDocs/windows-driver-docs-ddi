@@ -8,8 +8,6 @@ ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
 ms.date: 03/29/2018
 keywords: ["StorPortPoFxActivateComponent function"]
 ms.keywords: StorPortPoFxActivateComponent, StorPortPoFxActivateComponent routine [Storage Devices], storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent
-f1_keywords:
- - "storport/StorPortPoFxActivateComponent"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- storport.lib
-- storport.dll
-api_name:
-- StorPortPoFxActivateComponent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortPoFxActivateComponent
+ - storport/StorPortPoFxActivateComponent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - storport.lib
+ - storport.dll
+api_name:
+ - StorPortPoFxActivateComponent
 ---
 
 # StorPortPoFxActivateComponent function
@@ -48,43 +47,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortPoFxActivateComponent</b> routine increments the activation reference count on the specified component of a storage device.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Address 
 
-### -param Address [in, optional]
-
+[in, optional]
 The address of a storage device unit. This parameter is <b>NULL</b> when activating a storage adapter component.
 
+### -param Srb 
 
-### -param Srb [in, optional]
-
+[in, optional]
 The SRB triggering the component activation. This parameter is <b>NULL</b> if the miniport is activating a device component for a request not sent through Storport.
 
+### -param Component 
 
-### -param Component [in]
-
+[in]
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Not used. Set to 0.
 
-
 ## -returns
-
-
 
 The <b>StorPortPoFxActivateComponent</b> routine returns one of these status codes:
 
@@ -169,26 +161,14 @@ The current IRQL > DISPATCH_LEVEL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Currently, both adapter devices and unit devices have maximum component count of 1. The index in <i>Component</i> must always be set to 0.
 
 Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportpofxidlecomponent">StorPortPoFxIdleComponent</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>
 
@@ -199,7 +179,4 @@ Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequ
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportpofxidlecomponent">StorPortPoFxIdleComponent</a>
- 
-
- 
 

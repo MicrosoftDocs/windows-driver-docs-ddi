@@ -6,38 +6,36 @@ tech.root: storage
 ms.assetid: f56640ac-4a31-4384-86bf-423fb7c5cd21
 ms.date: 10/19/2018
 keywords: ["StorPortAllocateDmaMemory function"]
-f1_keywords:
- - "storport/StorPortAllocateDmaMemory"
 ms.keywords: StorPortAllocateDmaMemory
 req.header: storport.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10 (Version 1803)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
 req.ddi-compliance: StorPortIrql
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- StorPortAllocateDmaMemory
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - StorPortAllocateDmaMemory
+ - storport/StorPortAllocateDmaMemory
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - StorPortAllocateDmaMemory
 ---
 
 # StorPortAllocateDmaMemory function
@@ -86,6 +84,7 @@ The variable that receives the starting address of the allocated memory block. U
 Physical address of the allocated memory block.
 
 ## -returns
+
 This function returns a STOR_STATUS code.
 
 
@@ -134,3 +133,4 @@ The operation failed to allocate the requested memory because of insufficient re
 If the request fails, BufferPointer will be set to NULL.
 
 ## -see-also
+

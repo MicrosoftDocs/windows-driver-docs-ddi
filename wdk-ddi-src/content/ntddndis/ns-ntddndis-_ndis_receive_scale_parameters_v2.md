@@ -6,10 +6,8 @@ old-location: netvista\ndis_receive_scale_parameters_v2.htm
 tech.root: netvista
 ms.assetid: 96EAB6EE-BF9A-46AD-8DED-5D9BD2B6F219
 ms.date: 05/02/2018
-keywords: ["_NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure"]
+keywords: ["NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure"]
 ms.keywords: "*PNDIS_RECEIVE_SCALE_PARAMETERS_V2, NDIS_RECEIVE_SCALE_PARAMETERS_V2, NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_SCALE_PARAM_ENABLE_RSS, NDIS_RECEIVE_SCALE_PARAM_HASH_INFO_CHANGED, NDIS_RECEIVE_SCALE_PARAM_HASH_KEY_CHANGED, NDIS_RECEIVE_SCALE_PARAM_NUMBER_OF_ENTRIES_CHANGED, NDIS_RECEIVE_SCALE_PARAM_NUMBER_OF_QUEUES_CHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS_V2, PNDIS_RECEIVE_SCALE_PARAMETERS_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_PARAMETERS_V2, netvista.ndis_receive_scale_parameters_v2, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS_V2, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS_V2"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS_V2"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_SCALE_PARAMETERS_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS_V2, *PNDIS_RECEIVE_SCALE_PARAMETERS_V2
+f1_keywords:
+ - _NDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - ntddndis/_NDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - PNDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - NDIS_RECEIVE_SCALE_PARAMETERS_V2
+ - ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_SCALE_PARAMETERS_V2
 ---
 
 # _NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure
@@ -54,7 +57,6 @@ req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS_V2, *PNDIS_RECEIVE_SCALE_PARAMETERS
 
 The **NDIS_RECEIVE_SCALE_PARAMETERS_V2** structure specifies the Receive Side Scaling (RSS) parameters for a miniport adapter that advertises support for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>. It is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters-v2">OID_GEN_RECEIVE_SCALE_PARAMETERS_V2</a> OID.
 
-
 ## -struct-fields
 
 ### -field Header
@@ -68,7 +70,6 @@ The
 For NDIS  6.80 and later drivers, set the 
      <b>Revision</b> member to <b>NDIS_RECEIVE_SCALE_PARAMETERS_V2_REVISION_1</b> and the 
      <b>Size</b> member to <b>sizeof(NDIS_RECEIVE_SCALE_PARAMETERS_V2)</b>.
-
 
 ### -field Flags
 
@@ -136,8 +137,6 @@ The number of entries in the indirection table has changed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field HashInformation
 
@@ -160,13 +159,11 @@ Miniport drivers can use the
 
 This parameter can be changed at the same time that RSS is enabled, or afterward.
 
-
 ### -field HashSecretKeySize
 
 The size of the secret key array of the hash function, in bytes. The size of the array is 40 bytes for **NdisHashFunctionToeplitz**.
 
 This parameter can be changed at the same time that RSS is enabled, or afterward.
-
 
 ### -field HashSecretKeyOffset
 
@@ -178,13 +175,11 @@ This parameter can be changed at the same time that RSS is enabled, or afterward
 
 The maximum number of queues for the scaling entity. This parameter is an alias for the NUM_QUEUE_PAIRS variable of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_vport_parameters">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a> structure, which can also be queried or set through the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a> OID. It can be changed when RSS is enabled or disabled.
 
-
 ### -field NumberOfIndirectionTableEntries
 
 The number of indirection table entries (ITEs) for the scaling entity. This value is a power of two and does not exceed the corresponding adapter's capabilities. It can be changed at the before RSS is enabled, or afterward.
 
 New values for this parameter are also a power of two and do exceed adapter capabilities. When this number is increased, the miniport driver should clone the current indirection table into the new ITEs as many times as needed (this is possible because of the power-of-two restriction). When this number is decreased, the upper layer guarantees that the portion of the indirection table which is being removed contains exact replicas of the remaining portion.
-
 
 ## -see-also
 
@@ -217,7 +212,4 @@ New values for this parameter are also a power of two and do exceed adapter capa
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 6B99D78A-B582-4114-9472-D01D39FDD4C9
 ms.date: 03/29/2018
 keywords: ["StorPortInterlockedRemoveHeadList function"]
 ms.keywords: StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList
-f1_keywords:
- - "storport/StorPortInterlockedRemoveHeadList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInterlockedRemoveHeadList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInterlockedRemoveHeadList
+ - storport/StorPortInterlockedRemoveHeadList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInterlockedRemoveHeadList
 ---
 
 # StorPortInterlockedRemoveHeadList function
@@ -47,42 +46,34 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structures. 
-
+The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structures.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param ListHead 
 
-### -param ListHead [in, out]
-
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of the list.
-
 
 ### -param Result
 
 <p>Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry"><b>STOR_LIST_ENTRY</b></a> structure that represents the entry removed from the list. If the list was empty, the routine returns <b>NULL</b>.</p>
 
+### -param Lock 
 
-### -param Lock [in, out]
-
+[in, out]
 A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializespinlock">StorPortInitializeSpinLock</a>.
 
  You must use this spin lock only with the <b>StorPortInterlocked<i>Xxx</i>List</b> routines.
 
-
 ## -returns
-
-
 
 <b>StorPortInterlockedRemoveHeadList</b> returns one of the following status codes:
 
@@ -125,15 +116,8 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
@@ -152,7 +136,4 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedremoveheadlist">StorPortInterlockedRemoveHeadList</a>
- 
-
- 
 

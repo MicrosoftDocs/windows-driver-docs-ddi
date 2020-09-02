@@ -8,8 +8,6 @@ ms.assetid: AE0DA609-90E5-452F-B24E-0902C5E868A8
 ms.date: 05/07/2018
 keywords: ["UDECX_USB_ENDPOINT_CALLBACKS_INIT function"]
 ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses], buses.udecx_usb_endpoint_callbacks_init, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT
-f1_keywords:
- - "udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UDECX_USB_ENDPOINT_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UDECX_USB_ENDPOINT_CALLBACKS_INIT
+ - udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UDECX_USB_ENDPOINT_CALLBACKS_INIT
 ---
 
 # UDECX_USB_ENDPOINT_CALLBACKS_INIT function
@@ -48,34 +47,20 @@ req.typenames:
 
 ## -description
 
-
 Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks">UDECX_USB_ENDPOINT_CALLBACKS</a> structure before a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a> call.
-
 
 ## -parameters
 
+### -param Callbacks 
 
-
-
-### -param Callbacks [out]
-
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks">UDECX_USB_ENDPOINT_CALLBACKS</a> to initialize.
-
 
 ### -param EvtUsbEndpointReset
 
 TBD
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>
- 
-
- 
 

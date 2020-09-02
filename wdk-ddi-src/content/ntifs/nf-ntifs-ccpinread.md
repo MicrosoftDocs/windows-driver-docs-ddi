@@ -8,8 +8,6 @@ ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.date: 04/16/2018
 keywords: ["CcPinRead function"]
 ms.keywords: CcPinRead, CcPinRead routine [Installable File System Drivers], ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread, ntifs/CcPinRead
-f1_keywords:
- - "ntifs/CcPinRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcPinRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcPinRead
+ - ntifs/CcPinRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcPinRead
 ---
 
 # CcPinRead function
@@ -47,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcPinRead</b> routine pins the specified byte range of a cached file and reads the pinned data into a buffer in memory.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Pointer to a file object for the cached file in which a range of data is to be pinned.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 Pointer to a variable that specifies the starting byte offset within the cached file where the desired data resides.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Length of desired data in bytes.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
 
 <table>
@@ -121,31 +116,22 @@ The data is to be pinned only if a BCB already exists. Otherwise, the pin fails 
 </td>
 </tr>
 </table>
- 
 
+### -param Bcb 
 
-### -param Bcb [out]
-
+[out]
 On the first call this returns a pointer to a buffer control block (BCB). This pointer must be supplied as input on all subsequent calls for this buffer.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to a buffer containing the pinned data.
-
 
 ## -returns
 
-
-
 <b>CcPinRead</b> returns <b>TRUE</b> if the data for the cached file was pinned and read successfully, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 If the PIN_WAIT flag is set, <b>CcPinRead</b> is guaranteed to complete the pinning request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data is pinned immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be pinned. If the PIN_WAIT flag is not set, but the data cannot be pinned immediately, <b>CcPinRead</b> returns <b>FALSE</b>, and its output parameter values are meaningless.
 
@@ -163,13 +149,7 @@ If any failure occurs, <b>CcPinRead</b> raises a status exception for that parti
 
 To map data for a cached file, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a> routine. To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
@@ -192,7 +172,4 @@ To map data for a cached file, use the <a href="https://msdn.microsoft.com/libra
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
- 
-
- 
 

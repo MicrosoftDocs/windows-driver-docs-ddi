@@ -6,10 +6,8 @@ old-location: netvista\ndis_protocol_offload_block_list.htm
 tech.root: netvista
 ms.assetid: 64febd55-1ab8-4e2e-b738-340167866333
 ms.date: 05/02/2018
-keywords: ["_NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure"]
+keywords: ["NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure"]
 ms.keywords: "*PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, netvista.ndis_protocol_offload_block_list, tcp_chim_struct_77380eae-055d-471e-a94a-67575124981b.xml"
-f1_keywords:
- - "ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, *PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+f1_keywords:
+ - _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+ - ndischimney/_NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+ - PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+ - ndischimney/PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+ - NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+ - ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
 ---
 
 # _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure
@@ -47,16 +50,11 @@ req.typenames: NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, *PNDIS_PROTOCOL_OFFLOAD_BLOCK_L
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -218,7 +216,6 @@ Specifies all of the TCP state, including the constant, cached, and delegated TC
 
 Reserved for filter drivers.
 
-
 ### -field NextBlock
 
 A pointer to the next NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure at the offload state layer
@@ -228,7 +225,6 @@ A pointer to the next NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure at the offload 
      <b>NextBlock</b> pointers are always at the same layer of the offload state. A 
      <b>NextBlock</b> value of <b>NULL</b> indicates that there is no additional next
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure at this level.
-
 
 ### -field DependentBlockList
 
@@ -254,11 +250,7 @@ A
      <b>DependentBlockList</b> value of <b>NULL</b> indicates that there is no dependent
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure.
 
-
 ### -field _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
-
- 
-
 
 ### -field Status
 
@@ -442,11 +434,9 @@ Initiate offload: The path MTU for the TCP connection is larger than the offload
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
-
 ### -field NdisReserved
 
 Reserved for use by NDIS.
-
 
 ### -field OffloadHandle
 
@@ -455,21 +445,17 @@ A pointer to an
      NDIS_OFFLOAD_HANDLE structure represents a protocol or intermediate driver's context for an offloaded
      state object.
 
-
 ### -field ProtocolReserved
 
 Reserved for use by protocol drivers, which can use this area for their own purposes.
-
 
 ### -field MiniportReserved
 
 Reserved for use by offload targets or the miniport portion of an intermediate driver.
 
-
 ### -field ImReserved
 
 Reserved for use by intermediate drivers, which can use this area for their own purposes.
-
 
 ### -field Scratch
 
@@ -477,7 +463,6 @@ The protocol driver or intermediate driver can use this area for internal tracki
      information in this area is valid only while the driver has ownership of the 
      <b>
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIS</b> T.
-
 
 ### -field SourceHandle
 
@@ -490,7 +475,6 @@ When propagating the completion of a state-manipulation operation, an intermedia
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that it passes to the NdisMXxxComplete function.
 
-
 ### -field PortNumber
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
@@ -498,7 +482,6 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
-
 
 ### -field NetBufferListChain
 
@@ -531,10 +514,7 @@ An offload target or intermediate driver can pass outstanding send data to the o
       connection that is being terminated, it specifies a <b>NULL</b> value for the 
       <b>NetBufferListChain</b> member.
 
-
 ## -remarks
-
-
 
 An intermediate driver creates an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure from an 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
@@ -553,13 +533,7 @@ An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in mem
     <b>Header</b> specifies the type of offload state, and by implication, the specific offload state
     structure (or structures) that follow the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure in memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -648,7 +622,4 @@ An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in mem
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
- 
-
- 
 

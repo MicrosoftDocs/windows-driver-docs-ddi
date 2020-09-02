@@ -8,12 +8,10 @@ ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.date: 05/03/2018
 keywords: ["tagDEVICEDIALOGDATA structure"]
 ms.keywords: "*LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], PDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, image.devicedialogdata, tagDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, wiadevd/LPDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA"
-f1_keywords:
- - "wiadevd/DEVICEDIALOGDATA"
 req.header: wiadevd.h
 req.include-header: Wiadevd.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiadevd.h
-api_name:
-- DEVICEDIALOGDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA
+f1_keywords:
+ - tagDEVICEDIALOGDATA
+ - wiadevd/tagDEVICEDIALOGDATA
+ - LPDEVICEDIALOGDATA
+ - wiadevd/LPDEVICEDIALOGDATA
+ - DEVICEDIALOGDATA
+ - wiadevd/DEVICEDIALOGDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiadevd.h
+api_name:
+ - DEVICEDIALOGDATA
 ---
 
 # tagDEVICEDIALOGDATA structure
+
 
 ## -description
 
@@ -89,3 +93,4 @@ The **IWiaPropertyStorage** interface is used to access information about the **
 ## -see-also
 
 [IWiaUIExtension::DeviceDialog](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545069(v=vs.85))
+

@@ -3,9 +3,8 @@ UID: NS:icm.WhitePoint
 title: WhitePoint structure (icm.h)
 description: The Whitepoint structure encapsulates a display whitepoint.
 ms.assetid: 15925576-f238-430f-885b-879de5716710
-ms.date: 09/10/2018
+ms.date: 08/14/2020
 keywords: ["WhitePoint structure"]
-ms.topic: struct
 ms.keywords: WhitePoint, WhitePoint, 
 req.header: icm.h
 req.include-header:
@@ -28,8 +27,6 @@ api_location:
 - icm.h
 api_name: 
 - WhitePoint
-product:
-- Windows
 targetos: Windows
 ---
 
@@ -52,6 +49,6 @@ The Whitepoint structure encapsulates a display whitepoint in various ways:
 
 ## -remarks
 
-Set the type enum to the preferred expression type and populate the corresponding data entry in the union. 
+Set the type enum to the preferred expression type and populate the corresponding data entry in the union.
 
 ## -see-also

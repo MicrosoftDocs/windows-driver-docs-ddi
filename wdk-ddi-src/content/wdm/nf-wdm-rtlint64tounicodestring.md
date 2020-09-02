@@ -8,8 +8,6 @@ ms.assetid: 36f146a7-cdc2-4b88-bd9a-5008bf94c180
 ms.date: 04/30/2018
 keywords: ["RtlInt64ToUnicodeString function"]
 ms.keywords: RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, kernel.rtlint64tounicodestring, wdm/RtlInt64ToUnicodeString
-f1_keywords:
- - "wdm/RtlInt64ToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInt64ToUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInt64ToUnicodeString
+ - wdm/RtlInt64ToUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInt64ToUnicodeString
 ---
 
 # RtlInt64ToUnicodeString function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlInt64ToUnicodeString</b> routine converts a specified unsigned 64-bit integer value to a Unicode string that represents the value in a specified base.
-
 
 ## -parameters
 
+### -param Value 
 
+[in]
+Specifies the ULONGLONG value to convert.
 
+### -param Base 
 
-### -param Value [in]
-
-Specifies the ULONGLONG value to convert. 
-
-
-### -param Base [in, optional]
-
+[in, optional]
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
 
 <table>
@@ -111,17 +106,13 @@ Decimal
 </td>
 </tr>
 </table>
- 
 
+### -param String 
 
-### -param String [in, out]
-
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
-
+[in, out]
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result.
 
 ## -returns
-
-
 
 <b>RtlInt64ToUnicodeString</b> returns an NTSTATUS value. Possible return values include :
 
@@ -164,15 +155,8 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlappendunicodestringtostring">RtlAppendUnicodeStringToString</a>
 
@@ -182,8 +166,5 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

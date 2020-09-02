@@ -4,9 +4,10 @@ title: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE (d3dkmthk.h)
 description: Specifies the tracked workload deadline type.
 ms.assetid: 7bf49b7e-0658-46c2-bc35-e5dcddb4f507
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_TRACKEDWORKLOADDEADLINETYPE enumeration"]
+keywords: ["D3DKMT_TRACKEDWORKLOADDEADLINETYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRACKEDWORKLOADDEADLINETYPE"
+ - "_D3DKMT_TRACKEDWORKLOADDEADLINETYPE"
 ms.keywords: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE, D3DKMT_TRACKEDWORKLOADDEADLINETYPE, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_TRACKEDWORKLOADDEADLINETYPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

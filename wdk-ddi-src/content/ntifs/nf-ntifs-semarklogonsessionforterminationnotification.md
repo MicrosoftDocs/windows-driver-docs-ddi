@@ -8,8 +8,6 @@ ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.date: 04/16/2018
 keywords: ["SeMarkLogonSessionForTerminationNotification function"]
 ms.keywords: SeMarkLogonSessionForTerminationNotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ifsk.semarklogonsessionforterminationnotification, ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml
-f1_keywords:
- - "ntifs/SeMarkLogonSessionForTerminationNotification"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeMarkLogonSessionForTerminationNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeMarkLogonSessionForTerminationNotification
+ - ntifs/SeMarkLogonSessionForTerminationNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeMarkLogonSessionForTerminationNotification
 ---
 
 # SeMarkLogonSessionForTerminationNotification function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeMarkLogonSessionForTerminationNotification</b> routine marks a logon session so that the caller's registered callback routine is called when the logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
-
 
 ## -parameters
 
+### -param LogonId 
 
-
-
-### -param LogonId [in]
-
+[in]
 Pointer to the logon ID of the logon session.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -93,26 +85,14 @@ The logon session was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To register the callback routine, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seregisterlogonsessionterminatedroutine">SeRegisterLogonSessionTerminatedRoutine</a>.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
@@ -123,7 +103,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunregisterlogonsessionterminatedroutine">SeUnregisterLogonSessionTerminatedRoutine</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: display\ddvideoportconnect.htm
 tech.root: display
 ms.assetid: 54c1bb05-37a8-4841-808b-2eb9d1ecd7a3
 ms.date: 05/10/2018
-keywords: ["_DDVIDEOPORTCONNECT structure"]
+keywords: ["DDVIDEOPORTCONNECT structure"]
 ms.keywords: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], _DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, display.ddvideoportconnect, ksmedia/DDVIDEOPORTCONNECT"
-f1_keywords:
- - "ksmedia/DDVIDEOPORTCONNECT"
 req.header: ksmedia.h
 req.include-header: Dvp.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- DDVIDEOPORTCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT
+f1_keywords:
+ - _DDVIDEOPORTCONNECT
+ - ksmedia/_DDVIDEOPORTCONNECT
+ - LPDDVIDEOPORTCONNECT
+ - ksmedia/LPDDVIDEOPORTCONNECT
+ - DDVIDEOPORTCONNECT
+ - ksmedia/DDVIDEOPORTCONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - DDVIDEOPORTCONNECT
 ---
 
 # _DDVIDEOPORTCONNECT structure
@@ -47,24 +50,17 @@ req.typenames: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT
 
 ## -description
 
-
 The DDVIDEOPORTCONNECT structure describes a hardware video port connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size in bytes of the DDVIDEOPORTCONNECT structure.
 
-
 ### -field dwPortWidth
 
-Specifies the width of the hardware video port. This value represents the number of physical pins on the hardware video port. This member must always be filled in, even when the <b>guidTypeID</b> assumes a certain size. 
-
+Specifies the width of the hardware video port. This value represents the number of physical pins on the hardware video port. This member must always be filled in, even when the <b>guidTypeID</b> assumes a certain size.
 
 ### -field guidTypeID
 
@@ -146,8 +142,6 @@ Sync information is embedded in the data stream using the Philips definition.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFlags
 
@@ -239,34 +233,20 @@ When set by the driver, this flag indicates that the hardware video port is capa
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwReserved1
 
-Reserved for system use and should be set to zero. 
-
+Reserved for system use and should be set to zero.
 
 ## -remarks
 
-
-
-The driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a> callback routine initializes a DDVIDEOPORTCONNECT structure for every connection that the hardware video port supports. The client can change the <b>dwFlags</b> member of one of the driver's DDVIDEOPORTCONNECT structures before calling the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a> callback.
-
-
-
+The driver's <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a> callback routine initializes a DDVIDEOPORTCONNECT structure for every connection that the hardware video port supports. The client can change the <b>dwFlags</b> member of one of the driver's DDVIDEOPORTCONNECT structures before calling the driver's <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a> callback.
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a>
 

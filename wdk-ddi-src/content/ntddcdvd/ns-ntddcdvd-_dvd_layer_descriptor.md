@@ -6,10 +6,8 @@ old-location: storage\dvd_layer_descriptor.htm
 tech.root: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.date: 03/29/2018
-keywords: ["_DVD_LAYER_DESCRIPTOR structure"]
+keywords: ["DVD_LAYER_DESCRIPTOR structure"]
 ms.keywords: "*PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], _DVD_LAYER_DESCRIPTOR, ntddcdvd/DVD_LAYER_DESCRIPTOR, ntddcdvd/PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml"
-f1_keywords:
- - "ntddcdvd/DVD_LAYER_DESCRIPTOR"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddcdvd.h
-api_name:
-- DVD_LAYER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR
+f1_keywords:
+ - _DVD_LAYER_DESCRIPTOR
+ - ntddcdvd/_DVD_LAYER_DESCRIPTOR
+ - PDVD_LAYER_DESCRIPTOR
+ - ntddcdvd/PDVD_LAYER_DESCRIPTOR
+ - DVD_LAYER_DESCRIPTOR
+ - ntddcdvd/DVD_LAYER_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddcdvd.h
+api_name:
+ - DVD_LAYER_DESCRIPTOR
 ---
 
 # _DVD_LAYER_DESCRIPTOR structure
@@ -47,19 +50,13 @@ req.typenames: DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR
 
 ## -description
 
-
-The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD layer descriptor. 
-
+The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD layer descriptor.
 
 ## -struct-fields
-
-
-
 
 ### -field BookVersion
 
 Specifies the version of the specified book that this media complies with.
-
 
 ### -field BookType
 
@@ -121,8 +118,6 @@ DVD+RW
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MinimumRate
 
@@ -184,13 +179,10 @@ DVD+RW
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DiskSize
 
 Specifies the physical size of the media. A value of zero indicates 120 mm. A value of 1 indicates a size of 80 mm.
-
 
 ### -field LayerType
 
@@ -232,23 +224,18 @@ Rewritable layer
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TrackPath
 
-Specifies the direction of the layers when more than one layer is used. If the <b>TrackPath</b> member is zero, this media uses a parallel track path (PTP). With PTP, each layer is independent and has its own lead-in and lead-out areas. If <b>TrackPath</b> is 1, the media uses opposite track path (OTP). With opposite track path, the two layers are united, and there is only one lead-in and lead-out area. For further details, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification. 
-
+Specifies the direction of the layers when more than one layer is used. If the <b>TrackPath</b> member is zero, this media uses a parallel track path (PTP). With PTP, each layer is independent and has its own lead-in and lead-out areas. If <b>TrackPath</b> is 1, the media uses opposite track path (OTP). With opposite track path, the two layers are united, and there is only one lead-in and lead-out area. For further details, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification.
 
 ### -field NumberOfLayers
 
-Specifies the number of layers present on the side of the media being read. A value of zero indicates that the media has one layer. A value of 1 indicates that the media has two layers. 
-
+Specifies the number of layers present on the side of the media being read. A value of zero indicates that the media has one layer. A value of 1 indicates that the media has two layers.
 
 ### -field Reserved1
 
-Reserved. 
-
+Reserved.
 
 ### -field TrackDensity
 
@@ -290,8 +277,6 @@ Indicates the track width used for this media in units of micrometers per track.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LinearDensity
 
@@ -353,8 +338,6 @@ Indicates the minimum/maximum pit length used for this layer in units of microme
 </td>
 </tr>
 </table>
- 
-
 
 ### -field StartingDataSector
 
@@ -386,45 +369,28 @@ An initial block value of 0x30000 indicates that the media type is DVD-RAM or DV
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EndDataSector
 
-Specifies the last sector of the user data in the last layer of the media. 
-
+Specifies the last sector of the user data in the last layer of the media.
 
 ### -field EndLayerZeroSector
 
 Specifies the last sector of the user data in layer zero. If this media does not use the opposite track path method and contains multiple layers, this value is set to zero.
 
-
 ### -field Reserved5
 
-Reserved. 
-
+Reserved.
 
 ### -field BCAFlag
 
 Indicates, if set to 1, the presence of data in the burst cutting area (BCA). If set to zero, it indicates that there is no BCA data.
 
-
 ## -remarks
 
-
-
-For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification. 
-
-
-
+For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
- 
-
- 
 

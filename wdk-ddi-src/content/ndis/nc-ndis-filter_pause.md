@@ -8,8 +8,6 @@ ms.assetid: a239889e-ec39-48fc-9e82-c8bc3d7ca51a
 ms.date: 05/02/2018
 keywords: ["FILTER_PAUSE callback function"]
 ms.keywords: FILTER_PAUSE, FILTER_PAUSE callback, FilterPause, FilterPause callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_2f28fa9f-47cb-4638-b673-e938872f54f1.xml, ndis/FilterPause, netvista.filterpause
-f1_keywords:
- - "ndis/FilterPause"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterPause
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_PAUSE
+ - ndis/FILTER_PAUSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterPause
 ---
 
 # FILTER_PAUSE callback function
 
 
 ## -description
-
 
 NDIS calls a filter driver's 
   <i>FilterPause</i> function to initiate a pause operation for the specified filter module.
@@ -55,36 +53,23 @@ NDIS calls a filter driver's
 
 ## -parameters
 
+### -param FilterModuleContext 
 
-
-
-### -param FilterModuleContext [in]
-
+[in]
 A handle to the context area for the filter module that the filter driver should pause. The filter
      driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ### -param PauseParameters
 
-
-
-
-
-
-
-
-#### - FilterPauseParameters [in]
-
+#### - FilterPauseParameters 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_pause_parameters">
      NDIS_FILTER_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the filter
      module.
 
-
 ## -returns
-
-
 
 NDIS drivers cannot fail a pause request. The filter driver should call the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteeventlogentry">NdisWriteEventLogEntry</a> function
@@ -119,14 +104,8 @@ The filter driver will complete the request asynchronously with a call to the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>FilterPause</i> is a required function. NDIS can call 
     <i>FilterPause</i> when the filter module is in the 
@@ -227,15 +206,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_PAUSE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_PAUSE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -284,7 +257,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteeventlogentry">NdisWriteEventLogEntry</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
 ms.date: 04/20/2018
 keywords: ["IBidiSpl::BindDevice"]
 ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl interface, IBidiSpl interface [Print Devices],BindDevice method, IBidiSpl.BindDevice, IBidiSpl::BindDevice, _win32_IBidiSpl_BindDevice, bidispl/IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, print.ibidispl_ibidispl__binddevice
-f1_keywords:
- - "bidispl/IBidiSpl.BindDevice"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiSpl.BindDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiSpl::BindDevice
+ - bidispl/IBidiSpl::BindDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiSpl.BindDevice
 ---
 
 # IBidiSpl::BindDevice
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>BindDevice</b> method binds a printer to a bidi request. This method is similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a> function.
-
 
 ## -parameters
 
+### -param pszDeviceName 
 
-
-
-### -param pszDeviceName [in]
-
+[in]
 A pointer to a null-terminated string that contains name of the printer or print server. If <b>NULL</b>, it indicates the local printer server.
 
+### -param dwAccess 
 
-### -param dwAccess [in]
-
+[in]
 The access privileges for the printer. This parameter can be one of the following values.
 
 <table>
@@ -91,12 +86,8 @@ Permits users to perform basic printing operations. This is the same as PRINTER_
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
@@ -139,15 +130,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -162,7 +146,4 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>
- 
-
- 
 

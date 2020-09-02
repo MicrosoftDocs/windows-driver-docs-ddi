@@ -8,8 +8,6 @@ ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
 ms.date: 05/30/2019
 keywords: ["IoCheckQuerySetFileInformation function"]
 ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
-f1_keywords:
- - "ntifs/IoCheckQuerySetFileInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IoCheckQuerySetFileInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCheckQuerySetFileInformation
+ - ntifs/IoCheckQuerySetFileInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IoCheckQuerySetFileInformation
 ---
 
 # IoCheckQuerySetFileInformation function
+
 
 ## -description
 
@@ -82,3 +82,4 @@ Boolean value that specifies the operation type. If *SetOperation* is **TRUE**, 
 [ZwQueryInformationFile](nf-ntifs-ntqueryinformationfile.md)
 
 [ZwSetInformationFile](nf-ntifs-ntsetinformationfile.md)
+

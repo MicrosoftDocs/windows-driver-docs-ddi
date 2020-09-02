@@ -6,10 +6,8 @@ old-location: storage\device_data_set_lb_provisioning_state.htm
 tech.root: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.date: 08/23/2019
-keywords: ["_DEVICE_DATA_SET_LB_PROVISIONING_STATE structure"]
+keywords: ["DEVICE_DATA_SET_LB_PROVISIONING_STATE structure"]
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state"
-f1_keywords:
- - "ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- DEVICE_DATA_SET_LB_PROVISIONING_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE
+f1_keywords:
+ - _DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - ntddstor/_DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - PDEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_DATA_SET_LB_PROVISIONING_STATE
 ---
 
 # _DEVICE_DATA_SET_LB_PROVISIONING_STATE structure
+
 
 ## -description
 
@@ -103,3 +107,4 @@ If the slab allocation total returned in **SlabAllocationBitMapBitCount** is not
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
 
 [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
+

@@ -8,8 +8,6 @@ ms.assetid: 34257ef2-947a-463a-b234-04fbaffa9344
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_SEND_TO callback function"]
 ms.keywords: PFN_WSK_SEND_TO, PFN_WSK_SEND_TO callback, WskSendTo, WskSendTo callback function [Network Drivers Starting with Windows Vista], netvista.wsksendto, wsk/WskSendTo, wskref_9e00d25c-f00b-4656-8e67-37a22bd36a16.xml
-f1_keywords:
- - "wsk/WskSendTo"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskSendTo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_SEND_TO
+ - wsk/PFN_WSK_SEND_TO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskSendTo
 ---
 
 # PFN_WSK_SEND_TO callback function
@@ -47,38 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskSendTo</b> function sends datagram data to a remote transport address.
 
-
 ## -parameters
 
+### -param Socket 
 
-
-
-### -param Socket [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket over which to send the datagram.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A pointer to an initialized 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
      that contains the datagram that is being sent over the socket.
-
 
 ### -param Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
+### -param RemoteAddress 
 
-### -param RemoteAddress [in, optional]
-
+[in, optional]
 A pointer to a structure that specifies the remote transport address to which to send the
      datagram. This pointer must be a pointer to the specific SOCKADDR structure type that corresponds to the
      address family that the WSK application specified when it created the socket.
@@ -97,34 +91,31 @@ For more information about setting a fixed destination transport address for a d
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-set-sendto-address">
      SIO_WSK_SET_SENDTO_ADDRESS</a>.
 
+### -param ControlInfoLength 
 
-### -param ControlInfoLength [in]
-
+[in]
 The number of bytes of data in the buffer that is pointed to by the 
      <i>ControlInfo</i> parameter. If there is no control information associated with the datagram, the 
      <i>ControlInfoLength</i> parameter must be zero.
 
+### -param ControlInfo 
 
-### -param ControlInfo [in, optional]
-
+[in, optional]
 A pointer to a buffer that contains control information that is associated with the datagram that
      is being sent. The control information data consists of one or more control data objects, each of which
      begins with a 
      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
      information that is associated with the datagram, this parameter should be <b>NULL</b>.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskSendTo</b> returns one of the following NTSTATUS codes:
 
@@ -187,14 +178,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the 
     <b>WskSendTo</b> function returns STATUS_PENDING, the MDL chain that is described in the 
@@ -213,13 +198,7 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
     <b>WskSendTo</b> function will not be completed by the WSK subsystem until all of the data has actually
     been sent.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
@@ -255,7 +234,4 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaTicket::NotifyXmlChanged"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],NotifyXmlChanged method, IPrintSchemaTicket.NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_notifyxmlchanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
-f1_keywords:
- - "printerextension/IPrintSchemaTicket.NotifyXmlChanged"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaTicket.NotifyXmlChanged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaTicket::NotifyXmlChanged
+ - printerextension/IPrintSchemaTicket::NotifyXmlChanged
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaTicket.NotifyXmlChanged
 ---
 
 # IPrintSchemaTicket::NotifyXmlChanged
@@ -47,39 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Notifies the print system that the XML DOM object has changed.
-
 
 ## -returns
 
-
-
 This method returns an HRESULT value.
-
-
-
 
 ## -remarks
 
-
-
 If the client retrieves the XML DOM object of the PrintTicket by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode">IPrintSchemaElement::XmlNode</a>, and makes direct modifications to the PrintTicket using XMLDOM APIs, then it is the responsibility of the client to call <b>IPrintSchemaTicket::NotifyXmlChanged</b> to notify the system that the PrintTicket content has been modified.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode">IPrintSchemaElement::XmlNode</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 68BBD6B8-5C7C-4FE5-97F7-473A9510400F
 ms.date: 04/30/2018
 keywords: ["RtlIntSub function"]
 ms.keywords: RtlIntSub, RtlIntSub function [Kernel-Mode Driver Architecture], kernel.rtlintsub, ntintsafe/RtlIntSub
-f1_keywords:
- - "ntintsafe/RtlIntSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlIntSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntSub
+ - ntintsafe/RtlIntSub
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlIntSub
 ---
 
 # RtlIntSub function
@@ -47,35 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Subtracts one value of type <b>INT</b> from another.
-
 
 ## -parameters
 
+### -param iMinuend 
 
-
-
-### -param iMinuend [in]
-
+[in]
 The value from which <i>iSubtrahend</i> is subtracted.
 
+### -param iSubtrahend 
 
-### -param iSubtrahend [in]
-
+[in]
 The value to subtract from <i>iMinuend</i>.
-
 
 ### -param piResult
 
 <p>A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.</p>
 
-
-
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
@@ -87,5 +76,4 @@ This function uses the following alternate name:
 <li>RtlLong32Sub
 </li>
 </ul>
-
 

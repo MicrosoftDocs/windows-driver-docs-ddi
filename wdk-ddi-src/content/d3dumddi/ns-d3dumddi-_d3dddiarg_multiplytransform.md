@@ -6,10 +6,8 @@ old-location: display\d3dddiarg_multiplytransform.htm
 tech.root: display
 ms.assetid: 4f14532f-8937-4715-aa9f-e38f18179af7
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_MULTIPLYTRANSFORM structure"]
+keywords: ["D3DDDIARG_MULTIPLYTRANSFORM structure"]
 ms.keywords: D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, _D3DDDIARG_MULTIPLYTRANSFORM, d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform
-f1_keywords:
- - "d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDIARG_MULTIPLYTRANSFORM
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_MULTIPLYTRANSFORM
+f1_keywords:
+ - _D3DDDIARG_MULTIPLYTRANSFORM
+ - d3dumddi/_D3DDDIARG_MULTIPLYTRANSFORM
+ - D3DDDIARG_MULTIPLYTRANSFORM
+ - d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDIARG_MULTIPLYTRANSFORM
 ---
 
 # _D3DDDIARG_MULTIPLYTRANSFORM structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDIARG_MULTIPLYTRANSFORM
 
 ## -description
 
-
-The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current transform. 
-
+The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current transform.
 
 ## -struct-fields
-
-
-
 
 ### -field TransformType
 
@@ -64,30 +60,17 @@ The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current tr
 |:--|:--|
 | D3DTRANSFORMSTATE_PROJECTION | Projection transformation | 
 | D3DTRANSFORMSTATE_VIEW | View transformation | 
-| D3DTRANSFORMSTATE_WORLD | World transformation | 
-
+| D3DTRANSFORMSTATE_WORLD | World transformation |
 
 ### -field Matrix
 
 [in] A D3DMATRIX structure that describes the matrix that is used to modify the current transform. For more information about D3DMATRIX, see the Microsoft Windows SDK documentation.
 
-
 ## -remarks
-
-
 
 The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_multiplytransform">MultiplyTransform</a> function to inform the driver about modifications to the various transformation matrices.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_multiplytransform">MultiplyTransform</a>
- 
-
- 
 

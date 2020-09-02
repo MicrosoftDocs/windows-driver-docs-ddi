@@ -8,8 +8,6 @@ ms.assetid: 136b7582-b974-44fb-8026-e9678ae6623c
 ms.date: 02/26/2018
 keywords: ["IWDFIoQueue::RetrieveNextRequestByFileObject"]
 ms.keywords: IWDFIoQueue interface,RetrieveNextRequestByFileObject method, IWDFIoQueue.RetrieveNextRequestByFileObject, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, RetrieveNextRequestByFileObject method,IWDFIoQueue interface, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject
-f1_keywords:
- - "wudfddi/IWDFIoQueue.RetrieveNextRequestByFileObject"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoQueue.RetrieveNextRequestByFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoQueue::RetrieveNextRequestByFileObject
+ - wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoQueue.RetrieveNextRequestByFileObject
 ---
 
 # IWDFIoQueue::RetrieveNextRequestByFileObject
@@ -47,35 +46,25 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveNextRequestByFileObject</b> method retrieves from an I/O queue the next I/O request whose file object matches the specified file object.
 
-
 ## -parameters
-
-
-
 
 ### -param pFile
 
+### -param ppRequest 
 
-
-
-### -param ppRequest [out]
-
+[out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the next request object whose file object matches the supplied file object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
 
 #### - pFileObject [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is used to retrieve the next I/O request whose file object matches this supplied file object. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is used to retrieve the next I/O request whose file object matches this supplied file object.
 
 ## -returns
-
-
 
 <b>RetrieveNextRequestByFileObject</b> returns one of the following values:
 
@@ -133,12 +122,7 @@ The call was made to retrieve the request from a parallel queue.
 
 <b>RetrieveNextRequestByFileObject</b> might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 If a driver configures an I/O queue for manual dispatching of I/O requests, the driver can call the <b>RetrieveNextRequestByFileObject</b> method to obtain the next request whose file object matches the supplied file object from the queue. For more information about manually dispatching I/O requests, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">Configuring Dispatch Mode for an I/O Queue</a>. 
 
@@ -151,12 +135,7 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
 
@@ -175,7 +154,4 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
- 
-
- 
 

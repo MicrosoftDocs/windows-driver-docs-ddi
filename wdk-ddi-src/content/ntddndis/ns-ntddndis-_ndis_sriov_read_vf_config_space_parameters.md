@@ -6,10 +6,8 @@ old-location: netvista\ndis_sriov_read_vf_config_space_parameters.htm
 tech.root: netvista
 ms.assetid: aa127aa2-8002-4e96-8822-ed66291edf6e
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure"]
+keywords: ["NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, netvista.ndis_sriov_read_vf_config_space_parameters, ntddndis/NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+f1_keywords:
+ - _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+ - ntddndis/_NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+ - PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+ - ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+ - NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+ - ntddndis/NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
 ---
 
 # _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_READ_VF_
 
 ## -description
 
-
 The <b>NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS</b> structure specifies the parameters for a read operation on the PCI Express (PCIe) configuration space  of a network adapter's Virtual Function (VF).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,7 +70,6 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS_REVISION_1.
 
-
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
@@ -86,30 +83,19 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 
 A ULONG value that specifies the offset within the PCI configuration space of the VF in which data will be read.
 
-
 ### -field Length
 
 A ULONG value that specifies the length, in units of bytes, of the read operation.
-
 
 ### -field BufferOffset
 
 A ULONG value that specifies the offset, in units of bytes, from the beginning of this structure to a buffer that contains the data that is read from the PCI configuration space of the VF.
 
-
 ## -remarks
-
-
 
  The <b>NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS</b> structure is used in OID method requests of  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-read-vf-config-space">OID_SRIOV_READ_VF_CONFIG_SPACE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -120,7 +106,4 @@ A ULONG value that specifies the offset, in units of bytes, from the beginning o
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-read-vf-config-space">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
- 
-
- 
 

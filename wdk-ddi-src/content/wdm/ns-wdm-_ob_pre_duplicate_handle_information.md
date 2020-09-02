@@ -6,10 +6,8 @@ old-location: kernel\ob_pre_duplicate_handle_information.htm
 tech.root: kernel
 ms.assetid: f2798729-98a2-44b6-94a6-180bb4db96cb
 ms.date: 04/30/2018
-keywords: ["_OB_PRE_DUPLICATE_HANDLE_INFORMATION structure"]
+keywords: ["OB_PRE_DUPLICATE_HANDLE_INFORMATION structure"]
 ms.keywords: "*POB_PRE_DUPLICATE_HANDLE_INFORMATION, OB_PRE_DUPLICATE_HANDLE_INFORMATION, OB_PRE_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_DUPLICATE_HANDLE_INFORMATION, POB_PRE_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_DUPLICATE_HANDLE_INFORMATION, kernel.ob_pre_duplicate_handle_information, kstruct_c_5511a4ac-ea2e-412f-8514-021853d5abfd.xml, wdm/OB_PRE_DUPLICATE_HANDLE_INFORMATION, wdm/POB_PRE_DUPLICATE_HANDLE_INFORMATION"
-f1_keywords:
- - "wdm/OB_PRE_DUPLICATE_HANDLE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- OB_PRE_DUPLICATE_HANDLE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_PRE_DUPLICATE_HANDLE_INFORMATION, *POB_PRE_DUPLICATE_HANDLE_INFORMATION
+f1_keywords:
+ - _OB_PRE_DUPLICATE_HANDLE_INFORMATION
+ - wdm/_OB_PRE_DUPLICATE_HANDLE_INFORMATION
+ - POB_PRE_DUPLICATE_HANDLE_INFORMATION
+ - wdm/POB_PRE_DUPLICATE_HANDLE_INFORMATION
+ - OB_PRE_DUPLICATE_HANDLE_INFORMATION
+ - wdm/OB_PRE_DUPLICATE_HANDLE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - OB_PRE_DUPLICATE_HANDLE_INFORMATION
 ---
 
 # _OB_PRE_DUPLICATE_HANDLE_INFORMATION structure
@@ -47,55 +50,35 @@ req.typenames: OB_PRE_DUPLICATE_HANDLE_INFORMATION, *POB_PRE_DUPLICATE_HANDLE_IN
 
 ## -description
 
-
 The <b>OB_PRE_DUPLICATE_HANDLE_INFORMATION</b> structure provides information to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> routine about a thread or process handle that is being duplicated.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DesiredAccess
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the access rights to grant for the handle. By default, this member equals <i>OriginalDesiredAccess</i>, but the <i>ObjectPreCallback</i> routine can modify this value to restrict the access that is granted. For a description of the access rights that drivers can use, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_pre_create_handle_information">OB_PRE_CREATE_HANDLE_INFORMATION</a>.
 
-
 ### -field OriginalDesiredAccess
 
 An ACCESS_MASK value that specifies the original access that was requested for the handle.
-
 
 ### -field SourceProcess
 
 A pointer to the process object for the process that is the source of the handle.
 
-
 ### -field TargetProcess
 
-A pointer to the process object for the process that receives the duplicated handle. 
-
+A pointer to the process object for the process that receives the duplicated handle.
 
 ## -remarks
 
-
-
 You can never add access rights beyond what is specified in the <b>DesiredAccess</b> member. If the access right is listed as a modifiable flag, the access right can be removed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
- 
-
- 
 

@@ -7,39 +7,38 @@ ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_SET_PREDICATION callback function"]
 ms.keywords: PFND3D12DDI_SET_PREDICATION, PFND3D12DDI_SET_PREDICATION callback, d3d12umddi/pfnSetPredication, display.pfnd3d12ddi_set_predication, pfnSetPredication, pfnSetPredication callback function [Display Devices]
-f1_keywords:
- - "d3d12umddi/pfnSetPredication"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d12umddi.h
-api_name:
-- pfnSetPredication
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D12DDI_SET_PREDICATION
+ - d3d12umddi/PFND3D12DDI_SET_PREDICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d12umddi.h
+api_name:
+ - pfnSetPredication
 ---
 
 # PFND3D12DDI_SET_PREDICATION callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <i>pfnSetPredication</i> callback function denotes that subsequent video operations and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -70,22 +64,13 @@ The handle of a resource.
 
 ### -param Arg3
 
-
 ### -param Arg4
 
 *PredicationOp*
 
 A predication operation. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_predication_op">D3D12DDI_PREDICATION_OP</a> enumeration.
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_predication_op">D3D12DDI_PREDICATION_OP</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 8cff3bc3-771f-47b7-bf4b-b7221f498252
 ms.date: 04/04/2018
 keywords: ["IWDTFNumbers2 interface"]
 ms.keywords: IWDTFNumbers2, IWDTFNumbers2 interface [Windows Device Testing Framework], IWDTFNumbers2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFNumbers2, dtf.iwdtfnumbers2, wdtf/IWDTFNumbers2
-f1_keywords:
- - "wdtf/IWDTFNumbers2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFNumbers2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFNumbers2
+ - wdtf/IWDTFNumbers2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFNumbers2
 ---
 
 # IWDTFNumbers2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties for a collection of numbers.
-
 
 ## -inheritance
 

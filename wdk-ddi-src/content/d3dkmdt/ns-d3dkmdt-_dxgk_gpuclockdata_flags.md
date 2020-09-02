@@ -4,41 +4,43 @@ title: _DXGK_GPUCLOCKDATA_FLAGS (d3dkmdt.h)
 description: Contains information about the GPU clock data flags.
 ms.assetid: 24796b6b-4381-48a7-93af-e8e5273bd07a
 ms.date: 10/19/2018
-keywords: ["_DXGK_GPUCLOCKDATA_FLAGS structure"]
-f1_keywords:
- - "d3dkmdt/_DXGK_GPUCLOCKDATA_FLAGS"
+keywords: ["DXGK_GPUCLOCKDATA_FLAGS structure"]
 ms.keywords: _DXGK_GPUCLOCKDATA_FLAGS, DXGK_GPUCLOCKDATA_FLAGS,
 req.header: d3dkmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_GPUCLOCKDATA_FLAGS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- _DXGK_GPUCLOCKDATA_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGK_GPUCLOCKDATA_FLAGS
+ - d3dkmdt/_DXGK_GPUCLOCKDATA_FLAGS
+ - DXGK_GPUCLOCKDATA_FLAGS
+ - d3dkmdt/DXGK_GPUCLOCKDATA_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - _DXGK_GPUCLOCKDATA_FLAGS
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_GPUCLOCKDATA_FLAGS structure
+
 
 ## -description
 
@@ -70,3 +72,4 @@ When a GPU node is initialized, the OS calibrates the GPU clock against the CPU 
 ## -see-also
 
 [DxgkDdiCalibrateGpuClock](../d3dkmddi/nc-d3dkmddi-dxgkddi_calibrategpuclock.md)
+

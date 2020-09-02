@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetTopology"
+ - DXGKDDI_VIDPN_GETTOPOLOGY
+ - d3dkmddi/DXGKDDI_VIDPN_GETTOPOLOGY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPN_GETTOPOLOGY callback function
+
 
 ## -description
 

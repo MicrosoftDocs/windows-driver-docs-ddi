@@ -6,10 +6,8 @@ old-location: bltooth\sco_link_type.htm
 tech.root: bltooth
 ms.assetid: 6867a88d-6bce-46eb-894a-cc034a1c3ece
 ms.date: 04/27/2018
-keywords: ["_SCO_LINK_TYPE enumeration"]
+keywords: ["SCO_LINK_TYPE enumeration"]
 ms.keywords: "*PSCO_LINK_TYPE, PSCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], SCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], ScoLinkType, _SCO_LINK_TYPE, bltooth.sco_link_type, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/PSCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, bthddi/ScoLinkType, bthddi/eScoLinkType, eScoLinkType"
-f1_keywords:
- - "bthddi/SCO_LINK_TYPE"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- SCO_LINK_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SCO_LINK_TYPE, *PSCO_LINK_TYPE
+f1_keywords:
+ - _SCO_LINK_TYPE
+ - bthddi/_SCO_LINK_TYPE
+ - PSCO_LINK_TYPE
+ - bthddi/PSCO_LINK_TYPE
+ - SCO_LINK_TYPE
+ - bthddi/SCO_LINK_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - SCO_LINK_TYPE
 ---
 
 # _SCO_LINK_TYPE enumeration
@@ -47,44 +50,26 @@ req.typenames: SCO_LINK_TYPE, *PSCO_LINK_TYPE
 
 ## -description
 
-
 The SCO_LINK_TYPE enumeration type describes the type of link used by the SCO connection when a 
   <b>ScoIndicationRemoteConnect</b> indication event is processed.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ScoLinkType
 
 This value indicates that the link used by the connection is a SCO link.
 
-
 ### -field eScoLinkType
 
 This value indicates that the link used by the connection is an eSCO link.
 
-
 ## -remarks
-
-
 
 The 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a> structure
     uses this enumeration.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
- 
-
- 
 

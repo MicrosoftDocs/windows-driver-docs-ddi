@@ -6,10 +6,8 @@ old-location: netvista\ndis_miniport_init_parameters.htm
 tech.root: netvista
 ms.assetid: 945d921b-3024-4c4f-a50d-e996c6183db7
 ms.date: 05/02/2018
-keywords: ["_NDIS_MINIPORT_INIT_PARAMETERS structure"]
+keywords: ["NDIS_MINIPORT_INIT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INIT_PARAMETERS, PNDIS_MINIPORT_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_INIT_PARAMETERS, miniport_structures_ref_064614b0-eb2a-4fdd-8b0a-d14540e6faa5.xml, ndis/NDIS_MINIPORT_INIT_PARAMETERS, ndis/PNDIS_MINIPORT_INIT_PARAMETERS, netvista.ndis_miniport_init_parameters"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_INIT_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MINIPORT_INIT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_INIT_PARAMETERS, *PNDIS_MINIPORT_INIT_PARAMETERS
+f1_keywords:
+ - _NDIS_MINIPORT_INIT_PARAMETERS
+ - ndis/_NDIS_MINIPORT_INIT_PARAMETERS
+ - PNDIS_MINIPORT_INIT_PARAMETERS
+ - ndis/PNDIS_MINIPORT_INIT_PARAMETERS
+ - NDIS_MINIPORT_INIT_PARAMETERS
+ - ndis/NDIS_MINIPORT_INIT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MINIPORT_INIT_PARAMETERS
 ---
 
 # _NDIS_MINIPORT_INIT_PARAMETERS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_MINIPORT_INIT_PARAMETERS, *PNDIS_MINIPORT_INIT_PARAMETERS
 
 ## -description
 
-
 The <b>NDIS_MINIPORT_INIT_PARAMETERS</b> structure defines the initialization parameters for a miniport
   adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,11 +65,9 @@ The
      <b>Revision</b> member to NDIS_MINIPORT_INIT_PARAMETERS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_MINIPORT_INIT_PARAMETER_REVISION_1.
 
-
 ### -field Flags
 
 Reserved for NDIS.
-
 
 ### -field AllocatedResources
 
@@ -80,7 +76,6 @@ A pointer to an NDIS_RESOURCE_LIST-type structure that lists the hardware resour
      equivalent to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_list">CM_PARTIAL_RESOURCE_LIST</a> on Windows
      2000 and later platforms.
-
 
 ### -field IMDeviceInstanceContext
 
@@ -91,25 +86,21 @@ A pointer to the context area for a virtual device that an intermediate driver s
      <i>DeviceContext</i> parameter. If the miniport driver is not an intermediate driver, 
      <b>IMDeviceInstanceContext</b> is <b>NULL</b>.
 
-
 ### -field MiniportAddDeviceContext
 
 A handle for a driver-allocated context area, or <b>NULL</b>. The miniport driver specifies this handle,
      if any, in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
 
-
 ### -field IfIndex
 
 The network interface index that is associated with the miniport adapter.
-
 
 ### -field NetLuid
 
 The 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
      miniport adapter.
-
 
 ### -field DefaultPortAuthStates
 
@@ -120,7 +111,6 @@ A pointer to an
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
      OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>.
 
-
 ### -field PciDeviceCustomProperties
 
 A pointer to an 
@@ -128,22 +118,13 @@ A pointer to an
      NDIS_PCI_DEVICE_CUSTOM_PROPERTIES</a> structure that defines the PCI custom properties for the
      miniport adapter.
 
-
 ## -remarks
-
-
 
 NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> structure in the 
     <i>MiniportInitParameters</i> parameter of the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_list">CM_PARTIAL_RESOURCE_LIST</a>
 
@@ -182,7 +163,4 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 4264f5e1-08f5-4878-9e10-b98859043515
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetModuleNameString"]
 ms.keywords: GetModuleNameString, GetModuleNameString method [Windows Debugging], GetModuleNameString method [Windows Debugging],IDebugSymbols2 interface, GetModuleNameString method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetModuleNameString method, IDebugSymbols2::GetModuleNameString, IDebugSymbols3 interface [Windows Debugging],GetModuleNameString method, IDebugSymbols3.GetModuleNameString, IDebugSymbols3::GetModuleNameString, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, dbgeng/IDebugSymbols2::GetModuleNameString, dbgeng/IDebugSymbols3::GetModuleNameString, debugger.getmodulenamestring
-f1_keywords:
- - "dbgeng/IDebugSymbols2.GetModuleNameString"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols2.GetModuleNameString
-- IDebugSymbols3.GetModuleNameString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetModuleNameString
+ - dbgeng/IDebugSymbols3::GetModuleNameString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols2.GetModuleNameString
+ - IDebugSymbols3.GetModuleNameString
 ---
 
 # IDebugSymbols3::GetModuleNameString
@@ -48,17 +47,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetModuleNameString</b>  method returns the name of the specified module.
-
 
 ## -parameters
 
+### -param Which 
 
-
-
-### -param Which [in]
-
+[in]
 Specifies which of the module's names to return, possible values are:
 
 <table>
@@ -117,37 +112,33 @@ The mapped image name.  In most cases, this is <b>NULL</b>. If the debugger is m
 </td>
 </tr>
 </table>
- 
 
+### -param Index 
 
-### -param Index [in]
-
+[in]
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
+### -param Base 
 
-### -param Base [in]
-
+[in]
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the name of the module.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
+### -param NameSize 
 
-### -param NameSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -179,24 +170,12 @@ The method was successful. However, the size of the buffer was smaller than the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulenames">GetModuleNames</a>
 
@@ -207,7 +186,4 @@ For more information about modules, see <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

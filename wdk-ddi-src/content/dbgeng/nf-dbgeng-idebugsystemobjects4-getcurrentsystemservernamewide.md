@@ -8,8 +8,6 @@ ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects4::GetCurrentSystemServerNameWide"]
 ms.keywords: GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], GetCurrentSystemServerNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemServerNameWide method, IDebugSystemObjects4.GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide
-f1_keywords:
- - "dbgeng/IDebugSystemObjects4.GetCurrentSystemServerNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSystemObjects4.GetCurrentSystemServerNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects4::GetCurrentSystemServerNameWide
+ - dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSystemObjects4.GetCurrentSystemServerNameWide
 ---
 
 # IDebugSystemObjects4::GetCurrentSystemServerNameWide
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Gets the server name for the current process.
-
 
 ## -parameters
 
+### -param Buffer 
 
+[out]
+A pointer to an output buffer as a Unicode character string.
 
+### -param BufferSize 
 
-### -param Buffer [out]
+[in]
+The buffer size.
 
-A pointer to an output buffer as a Unicode character string. 
+### -param NameSize 
 
-
-### -param BufferSize [in]
-
-The buffer size. 
-
-
-### -param NameSize [out, optional]
-
-A pointer to the name size. 
-
+[out, optional]
+A pointer to the name size.
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -94,22 +86,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
- 
-
- 
 

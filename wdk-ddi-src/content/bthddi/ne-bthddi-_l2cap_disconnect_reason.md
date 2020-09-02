@@ -6,10 +6,8 @@ old-location: bltooth\l2cap_disconnect_reason.htm
 tech.root: bltooth
 ms.assetid: 34a37d29-c517-45dc-b94d-abffaa91cb31
 ms.date: 04/27/2018
-keywords: ["_L2CAP_DISCONNECT_REASON enumeration"]
+keywords: ["L2CAP_DISCONNECT_REASON enumeration"]
 ms.keywords: HardwareRemoval, HciDisconnect, L2CAP_DISCONNECT_REASON, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], L2capDisconnectRequest, RadioPoweredDown, _L2CAP_DISCONNECT_REASON, bltooth.l2cap_disconnect_reason, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, bthddi/HardwareRemoval, bthddi/HciDisconnect, bthddi/L2CAP_DISCONNECT_REASON, bthddi/L2capDisconnectRequest, bthddi/RadioPoweredDown
-f1_keywords:
- - "bthddi/L2CAP_DISCONNECT_REASON"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- L2CAP_DISCONNECT_REASON
-product:
-- Windows
 targetos: Windows
 req.typenames: L2CAP_DISCONNECT_REASON
+f1_keywords:
+ - _L2CAP_DISCONNECT_REASON
+ - bthddi/_L2CAP_DISCONNECT_REASON
+ - L2CAP_DISCONNECT_REASON
+ - bthddi/L2CAP_DISCONNECT_REASON
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - L2CAP_DISCONNECT_REASON
 ---
 
 # _L2CAP_DISCONNECT_REASON enumeration
@@ -47,42 +48,31 @@ req.typenames: L2CAP_DISCONNECT_REASON
 
 ## -description
 
-
 The L2CAP_DISCONNECT_REASON enumeration type gives the reason an L2CAP channel has been
   disconnected.
 
-
 ## -enum-fields
-
-
-
 
 ### -field HciDisconnect
 
 The value specifies for the profile driver that the Bluetooth driver stack has received a
      disconnect notification from the host controller interface (HCI) layer.
 
-
 ### -field L2capDisconnectRequest
 
 This value specifies for the profile driver that a disconnect request has been received from a
      remote device.
 
-
 ### -field RadioPoweredDown
 
 This value specifies for the profile driver that the local radio has been turned off.
-
 
 ### -field HardwareRemoval
 
 This value specifies for the profile driver that the local radio has been physically
      removed.
 
-
 ## -remarks
-
-
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
@@ -97,16 +87,7 @@ Currently,
     <i>L2capDisconnectRequest</i> are the only values the Bluetooth driver stack passes to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
- 
-
- 
 

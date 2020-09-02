@@ -5,41 +5,40 @@ description: Gets allocation priority.
 ms.assetid: 2aaf0b1a-1c15-4db0-8400-18a02ab46903
 ms.date: 10/19/2018
 keywords: ["D3DKMTGetAllocationPriority function"]
-f1_keywords:
- - "d3dkmthk/D3DKMTGetAllocationPriority"
 ms.keywords: D3DKMTGetAllocationPriority
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Gdi32.dll
-api_name: 
-- D3DKMTGetAllocationPriority
-product:
-- Windows
 targetos: Windows
-dev_langs:
- - c++
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - D3DKMTGetAllocationPriority
+ - d3dkmthk/D3DKMTGetAllocationPriority
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTGetAllocationPriority
+dev_langs:
+ - c++
 ---
 
 # D3DKMTGetAllocationPriority function
@@ -62,3 +61,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

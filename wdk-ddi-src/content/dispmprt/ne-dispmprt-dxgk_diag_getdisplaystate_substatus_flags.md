@@ -27,13 +27,16 @@ api_name:
  - _DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
  - DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
 f1_keywords:
+ - _DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
  - dispmprt/_DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
+ - DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
  - dispmprt/DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS enumeration
+
 
 ## -description
 
@@ -88,3 +91,4 @@ The substatus information helps the driver succeed the overall [**DxgkDdiGetDisp
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
+

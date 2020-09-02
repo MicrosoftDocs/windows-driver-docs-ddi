@@ -6,10 +6,8 @@ old-location: ieee\set_unit_info.htm
 tech.root: IEEE
 ms.assetid: D4A9B507-E199-42EA-BC29-6F477BEC8D20
 ms.date: 02/15/2018
-keywords: ["_SET_UNIT_INFO structure"]
+keywords: ["SET_UNIT_INFO structure"]
 ms.keywords: "*PSET_UNIT_INFO, 61883/PSET_UNIT_INFO, 61883/SET_UNIT_INFO, IEEE.set_unit_info, PSET_UNIT_INFO, PSET_UNIT_INFO structure pointer [Buses], SET_UNIT_INFO, SET_UNIT_INFO structure [Buses], _SET_UNIT_INFO"
-f1_keywords:
- - "61883/SET_UNIT_INFO"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 61883.h
-api_name:
-- SET_UNIT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_UNIT_INFO, *PSET_UNIT_INFO
+f1_keywords:
+ - _SET_UNIT_INFO
+ - 61883/_SET_UNIT_INFO
+ - PSET_UNIT_INFO
+ - 61883/PSET_UNIT_INFO
+ - SET_UNIT_INFO
+ - 61883/SET_UNIT_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 61883.h
+api_name:
+ - SET_UNIT_INFO
 ---
 
 # _SET_UNIT_INFO structure
@@ -47,16 +50,11 @@ req.typenames: SET_UNIT_INFO, *PSET_UNIT_INFO
 
 ## -description
 
-
 This structure is used to set unit information.
 
-The Av61883_SetUnitInfo request sets the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets. 
-
+The Av61883_SetUnitInfo request sets the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets.
 
 ## -struct-fields
-
-
-
 
 ### -field nLevel
 
@@ -68,34 +66,21 @@ SET_UNIT_INFO_ISOCH_PARAMS
 
 SET_CMP_ADDRESS_RANGE_TYPE
 
-
 ### -field Information
 
 On input, if <b>nLevel</b> is SET_UNIT_INFO_DIAG_LEVEL, this member is a pointer to a caller-allocated and initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_unit_diag_level">UNIT_DIAG_LEVEL</a> structure.
 
 If <b>nLevel</b> is SET_UNIT_INFO_ISOCH_PARAMS, this member is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_unit_isoch_params">UNIT_ISOCH_PARAMS</a> structure. 
 
-If <b>nLevel</b> is SET_CMP_ADDRESS_RANGE_TYPE, this member is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_set_cmp_address_type">SET_CMP_ADDRESS_TYPE</a> structure. 
-
+If <b>nLevel</b> is SET_CMP_ADDRESS_RANGE_TYPE, this member is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_set_cmp_address_type">SET_CMP_ADDRESS_TYPE</a> structure.
 
 ## -remarks
-
-
 
 If successful, the IEC-61883 protocol driver sets <b>Irp->IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp->IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
- 
-
- 
 

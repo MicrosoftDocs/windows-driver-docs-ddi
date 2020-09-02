@@ -4,7 +4,7 @@ title: _DXGK_SCHEDULING_LOG_OPERATION (d3dkmddi.h)
 description: Describes the log operations.
 ms.assetid: d1e9190a-1454-4faa-801b-a449a2864d1f
 ms.date: 10/19/2018
-keywords: ["_DXGK_SCHEDULING_LOG_OPERATION enumeration"]
+keywords: ["DXGK_SCHEDULING_LOG_OPERATION enumeration"]
 ms.keywords: _DXGK_SCHEDULING_LOG_OPERATION, DXGK_SCHEDULING_LOG_OPERATION,
 req.header: d3dkmddi.h
 req.include-header: 
@@ -20,7 +20,10 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION"
+ - _DXGK_SCHEDULING_LOG_OPERATION
+ - d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION
+ - DXGK_SCHEDULING_LOG_OPERATION
+ - d3dkmddi/DXGK_SCHEDULING_LOG_OPERATION
 topic_type:
  - apiref
 api_type:
@@ -36,6 +39,7 @@ dev_langs:
 ---
 
 # _DXGK_SCHEDULING_LOG_OPERATION enumeration
+
 
 ## -description
 

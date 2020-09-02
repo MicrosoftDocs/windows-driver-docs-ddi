@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePool3
 f1_keywords:
+ - ExAllocatePool3
  - wdm/ExAllocatePool3
 dev_langs:
  - c++
@@ -84,3 +85,4 @@ See the remarks of [**ExAllocatePool2**](/windows-hardware/drivers/ddi/wdm/nf-wd
 ## -see-also
 
 [**ExAllocatePool2**](nf-wdm-exallocatepool2.md)
+

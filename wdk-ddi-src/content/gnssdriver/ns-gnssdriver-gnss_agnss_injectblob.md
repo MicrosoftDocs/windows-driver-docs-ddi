@@ -8,8 +8,6 @@ ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.date: 02/15/2018
 keywords: ["GNSS_AGNSS_INJECTBLOB structure"]
 ms.keywords: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], gnss.gnss_agnss_injectblob, gnssdriver/GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB"
-f1_keywords:
- - "gnssdriver/GNSS_AGNSS_INJECTBLOB"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_AGNSS_INJECTBLOB
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB
+f1_keywords:
+ - PGNSS_AGNSS_INJECTBLOB
+ - gnssdriver/PGNSS_AGNSS_INJECTBLOB
+ - GNSS_AGNSS_INJECTBLOB
+ - gnssdriver/GNSS_AGNSS_INJECTBLOB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_AGNSS_INJECTBLOB
 ---
 
 # GNSS_AGNSS_INJECTBLOB structure
@@ -47,34 +48,25 @@ req.typenames: GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB
 
 ## -description
 
-
 This structure defines the format for AGNSS extended ephemeris injection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field BlobOui
 
 This field indicates the 3-byte OUI of silicon vendor or device maker.
 
-
 ### -field BlobVersion
 
 Version of the blob from the same vendor.
-
 
 ### -field AgnssFormat
 
@@ -82,11 +74,9 @@ Data format of the blob.
 
 The formats are defined as macros (GNSS_AGNSSFORMAT_*).
 
-
 ### -field BlobSize
 
 Size of the blob data in bytes.
-
 
 ### -field BlobData
 

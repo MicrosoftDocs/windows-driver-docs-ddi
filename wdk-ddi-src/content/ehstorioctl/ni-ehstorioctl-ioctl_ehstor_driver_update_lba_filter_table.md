@@ -8,8 +8,6 @@ ms.assetid: 295EE3CC-4244-4411-9684-7C5D38B10EA9
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, storage.ioctl_ehstor_driver_update_lba_filter_table
-f1_keywords:
- - "ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorIoctl.h
-api_name:
-- IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
+ - ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorIoctl.h
+api_name:
+ - IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
 ---
 
 # IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE IOCTL
@@ -47,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of changes to the LBA filter table. Bands managed by the silo  driver are composed of LBA ranges. The silo driver notifies the EHSTOR class driver of updates to the set of  bands it controls with this IOCTL.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table">LBA_FILTER_TABLE</a>. This structure contains the filter table and the total entries it contains. An array <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a> structure follows <b>LBA_FILTER_TABLE</b>.
 
-
 ### -input-buffer-length
 
 The length of the buffer.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -124,32 +100,19 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>The sending device is not a silo device or banding is not supported.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The LBA filters cannot overlap or be empty. The LBA filters do not have to be sorted in any way. 
 
 If an LBA range is being unlocked, an <b>IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</b> request should be sent after the LBA range is unlocked on the storage device. Also,
  if an LBA range is currently being locked, <b>IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</b>  must be sent before the LBA range has been locked on the storage device.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table">LBA_FILTER_TABLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a>
- 
-
- 
 

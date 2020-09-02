@@ -6,10 +6,8 @@ old-location: netvista\ndis_switch_property_enum_info.htm
 tech.root: netvista
 ms.assetid: 1b990bc5-3ff4-4e37-b011-258c4dbe8f22
 ms.date: 05/02/2018
-keywords: ["_NDIS_SWITCH_PROPERTY_ENUM_INFO structure"]
+keywords: ["NDIS_SWITCH_PROPERTY_ENUM_INFO structure"]
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_ENUM_INFO, netvista.ndis_switch_property_enum_info, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_INFO"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_PROPERTY_ENUM_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PROPERTY_ENUM_INFO, *PNDIS_SWITCH_PROPERTY_ENUM_INFO
+f1_keywords:
+ - _NDIS_SWITCH_PROPERTY_ENUM_INFO
+ - ntddndis/_NDIS_SWITCH_PROPERTY_ENUM_INFO
+ - PNDIS_SWITCH_PROPERTY_ENUM_INFO
+ - ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_INFO
+ - NDIS_SWITCH_PROPERTY_ENUM_INFO
+ - ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_PROPERTY_ENUM_INFO
 ---
 
 # _NDIS_SWITCH_PROPERTY_ENUM_INFO structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_SWITCH_PROPERTY_ENUM_INFO, *PNDIS_SWITCH_PROPERTY_ENUM_INFO
 
 ## -description
 
-
 The <b>NDIS_SWITCH_PROPERTY_ENUM_INFO</b> structure specifies information about a profile property for the Hyper-V extensible switch.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,30 +70,21 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
-
 
 ### -field PropertyInstanceId
 
 An NDIS_SWITCH_OBJECT_INSTANCE_ID value that specifies the instance identifier of the  extensible switch property.
 
-
-
-
 ### -field PropertyVersion
 
-An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the property for the extensible switch port. 
-
-
-
+An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the property for the extensible switch port.
 
 ### -field QwordAlignedPropertyBufferLength
 
 A ULONG value that specifies the aligned size, in bytes, of the property buffer.
-
 
 ### -field PropertyBufferLength
 
@@ -108,10 +97,7 @@ A ULONG value that specifies the actual size, in bytes, of the property buffer.
 
 A ULONG value that specifies the offset, in bytes, to the property buffer that follows the <b>NDIS_SWITCH_PROPERTY_ENUM_INFO</b> structure. The offset is measured from the start of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_property_parameters">NDIS_SWITCH_PROPERTY_PARAMETERS</a> structure up to the beginning of the property buffer.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_SWITCH_PROPERTY_ENUM_INFO</b> structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-property-enum">OID_SWITCH_PROPERTY_ENUM</a>. An array of <b>NDIS_SWITCH_PROPERTY_ENUM_INFO</b> structures follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_property_enum_parameters">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a> structure in the information buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
 
@@ -121,13 +107,7 @@ Extensible switch extensions can access the extensible switch property buffer th
 
 For more information about extensible switch policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -154,7 +134,4 @@ For more information about extensible switch policies, see <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-property-enum">OID_SWITCH_PROPERTY_ENUM</a>
- 
-
- 
 

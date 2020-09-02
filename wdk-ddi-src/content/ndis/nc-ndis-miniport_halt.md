@@ -8,8 +8,6 @@ ms.assetid: b8d452b4-bef3-4991-87cf-fac15bedfde4
 ms.date: 05/02/2018
 keywords: ["MINIPORT_HALT callback function"]
 ms.keywords: MINIPORT_HALT, MINIPORT_HALT callback, MiniportHaltEx, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml, ndis/MiniportHaltEx, netvista.miniporthaltex
-f1_keywords:
- - "ndis/MiniportHaltEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportHaltEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_HALT
+ - ndis/MINIPORT_HALT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportHaltEx
 ---
 
 # MINIPORT_HALT callback function
 
 
 ## -description
-
 
 NDIS calls a miniport driver's 
    <i>MiniportHaltEx</i> function to free resources when a miniport adapter is
@@ -56,18 +54,16 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
+### -param HaltAction 
 
-### -param HaltAction [in]
-
+[in]
 The reason for halting the miniport adapter. It can be one of the following values:
      
 
@@ -121,10 +117,7 @@ NDIS could not initialize the miniport adapter for an unknown reason after the
 
 NDIS is halting the miniport adapter in response to a PnP stop device message.
 
-
 ## -remarks
-
-
 
 A driver specifies the 
     <i>MiniportHaltEx</i> entry point when it calls the 
@@ -225,15 +218,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_HALT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_HALT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/adapter-states-of-a-miniport-driver">Adapter States of a Miniport Driver</a>
 
@@ -298,7 +285,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
- 
-
- 
 

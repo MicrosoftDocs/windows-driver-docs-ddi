@@ -8,8 +8,6 @@ ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
 ms.date: 04/30/2018
 keywords: ["PsSetCreateProcessNotifyRoutineEx2 function"]
 ms.keywords: PsSetCreateProcessNotifyRoutineEx2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], kernel.pssetcreateprocessnotifyroutineex2, ntddk/PsSetCreateProcessNotifyRoutineEx2
-f1_keywords:
- - "ntddk/PsSetCreateProcessNotifyRoutineEx2"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsSetCreateProcessNotifyRoutineEx2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsSetCreateProcessNotifyRoutineEx2
+ - ntddk/PsSetCreateProcessNotifyRoutineEx2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsSetCreateProcessNotifyRoutineEx2
 ---
 
 # PsSetCreateProcessNotifyRoutineEx2 function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>PsSetCreateProcessNotifyRoutineEx2</b> routine registers or removes a callback routine that notifies the caller when a process is created or deleted.
-
 
 ## -parameters
 
+### -param NotifyType 
 
-
-
-### -param NotifyType [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_pscreateprocessnotifytype">PSCREATEPROCESSNOTIFYTYPE</a>-type value that indicates the type of process notification.
 
+### -param NotifyInformation 
 
-### -param NotifyInformation [in]
+[in]
+The address of the notification information for the specified type of process notification. If <i>NotifyType</i> is <b>PsCreateProcessNotifySubsystems</b>, <i>NotifyInformation</i> is a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_process_notify_routine_ex">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> that specifies the entry point of the caller-supplied process-creation callback.
 
-The address of the notification information for the specified type of process notification. If <i>NotifyType</i> is <b>PsCreateProcessNotifySubsystems</b>, <i>NotifyInformation</i> is a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_process_notify_routine_ex">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> that specifies the entry point of the caller-supplied process-creation callback. 
+### -param Remove 
 
-
-### -param Remove [in]
-
+[in]
 A Boolean value that specifies whether <b>PsSetCreateProcessNotifyRoutineEx2</b> will add or remove a specified routine from the list of callback routines. If this parameter is <b>TRUE</b>, the specified routine is removed from the list of callback routines. If this parameter is <b>FALSE</b>, the specified routine is added to the list of callback routines. If <i>Remove</i> is <b>TRUE</b>, the system also waits for all in-flight callback routines to complete before returning.
 
-
 ## -returns
-
-
 
 <b>PsSetCreateProcessNotifyRoutineEx2</b> returns one of the following NTSTATUS values:
 
@@ -118,14 +110,8 @@ The image that contains the callback routine pointer did not have IMAGE_DLLCHARA
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Drivers can call <b>PsSetCreateProcessNotifyRoutineEx2</b> to register their process-creation notify routines.
 
@@ -145,15 +131,9 @@ When the process is created, the callback function is invoked just after the fir
         call in cases where the process was created and deleted
         without a thread ever being created.
 
-A driver must remove any callback function that it registers before it unloads. You can remove the callback by calling <b>PsSetCreateProcessNotifyRoutineEx2</b> with <i>Remove</i> = <b>TRUE</b>.  
-
-
-
+A driver must remove any callback function that it registers before it unloads. You can remove the callback by calling <b>PsSetCreateProcessNotifyRoutineEx2</b> with <i>Remove</i> = <b>TRUE</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_process_notify_routine_ex">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a>
 
@@ -164,7 +144,4 @@ A driver must remove any callback function that it registers before it unloads. 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutineex">PsSetCreateProcessNotifyRoutineEx</a>
- 
-
- 
 

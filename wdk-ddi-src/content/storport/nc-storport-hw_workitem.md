@@ -8,8 +8,6 @@ ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.date: 03/29/2018
 keywords: ["HW_WORKITEM callback function"]
 ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
-f1_keywords:
- - "storport/HwStorWorkItem"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- storport.h
-api_name:
-- HwStorWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_WORKITEM
+ - storport/HW_WORKITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - storport.h
+api_name:
+ - HwStorWorkItem
 ---
 
 # HW_WORKITEM callback function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 A miniport-provided callback function for processing a Storport work item request.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
+[in]
+A pointer to the miniport driver's per-HBA storage area.
 
+### -param Context 
 
-### -param HwDeviceExtension [in]
-
-A pointer to the miniport driver's per-HBA storage area. 
-
-
-### -param Context [in, optional]
-
+[in, optional]
 Optional context provided by the miniport in the <i>Callback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>.
 
+### -param Worker 
 
-### -param Worker [in]
-
+[in]
 A pointer to an opaque buffer that holds context information for the work item returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
 
-
 ## -remarks
-
-
 
 If needed, a work item can be queued within <b>HwStorWorkItem</b>. Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a> with the current work item to reuse it. Otherwise, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a> to release the work item.
 
@@ -98,12 +90,7 @@ HW_WORKITEM (
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
 
@@ -114,7 +101,4 @@ HW_WORKITEM (
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>
- 
-
- 
 

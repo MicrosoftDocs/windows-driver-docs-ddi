@@ -8,8 +8,6 @@ ms.assetid: 114B7E39-1FC6-4AC4-A238-3FC3D4A122B0
 ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_CREATE_GEOFENCE IOCTL"]
 ms.keywords: IOCTL_GNSS_CREATE_GEOFENCE, IOCTL_GNSS_CREATE_GEOFENCE control, IOCTL_GNSS_CREATE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_create_geofence, gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE
-f1_keywords:
- - "gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- IOCTL_GNSS_CREATE_GEOFENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_GNSS_CREATE_GEOFENCE
+ - gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - IOCTL_GNSS_CREATE_GEOFENCE
 ---
 
 # IOCTL_GNSS_CREATE_GEOFENCE IOCTL
 
 
 ## -description
-
 
 The <b>IOCTL_GNSS_CREATE_GEOFENCE</b> 
    control code is used by the GNSS adapter to create a geofence.
@@ -57,59 +55,31 @@ The <b>IOCTL_GNSS_CREATE_GEOFENCE</b>
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_geofence_create_param">GNSS_GEOFENCE_CREATE_PARAM</a> structure that defines the geofence to be created.
-
-
-
 
 ### -input-buffer-length
 
 Set to sizeof(<b>GNSS_GEOFENCE_CREATE_PARAM</b>).
 
-
-
-
 ### -output-buffer
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_geofence_create_response">GNSS_GEOFENCE_CREATE_RESPONSE</a> structure.
-
 
 ### -output-buffer-length
 
 Set to sizeof(<b>GNSS_GEOFENCE_CREATE_RESPONSE</b>).
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
-
-
 
 <h3><a id="GNSS_adapter_notes"></a><a id="gnss_adapter_notes"></a><a id="GNSS_ADAPTER_NOTES"></a>GNSS adapter notes</h3>
 If the call is successful, the GNSS engine registers the geofence and assigns a unique ID. The GNSS adapter uses the unique ID for all interaction with the driver regarding this specific geofence.
@@ -156,12 +126,7 @@ The GNSS driver and the GNSS engine must expose documented IHV-specific tuning p
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -176,7 +141,4 @@ The GNSS driver and the GNSS engine must expose documented IHV-specific tuning p
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

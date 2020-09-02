@@ -8,8 +8,6 @@ ms.assetid: d8255f36-be3a-4b19-ac8d-8748ac9b6a24
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_QUERY_INTERFACE callback function"]
 ms.keywords: DXGKDDI_QUERY_INTERFACE, DXGKDDI_QUERY_INTERFACE callback, DmFunctions_1c8cdcd5-60e2-4d76-ba70-6af3f96f1740.xml, DxgkDdiQueryInterface, DxgkDdiQueryInterface callback function [Display Devices], display.dxgkddiqueryinterface, dispmprt/DxgkDdiQueryInterface
-f1_keywords:
- - "dispmprt/DxgkDdiQueryInterface"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiQueryInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_QUERY_INTERFACE
+ - dispmprt/DXGKDDI_QUERY_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiQueryInterface
 ---
 
 # DXGKDDI_QUERY_INTERFACE callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiQueryInterface</i> function returns a functional interface that is implemented by the display miniport driver.
-
 
 ## -parameters
 
+### -param MiniportDeviceContext 
 
-
-
-### -param MiniportDeviceContext [in]
-
+[in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
+### -param QueryInterface 
 
-### -param QueryInterface [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_query_interface">QUERY_INTERFACE</a> structure in which the display miniport driver should return information about the interface it supports.
-
 
 ## -returns
 
-
-
 <i>DxgkDdiQueryInterface </i>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>. If a display miniport driver does not support the requested interface, it must return STATUS_NOT_SUPPORTED. By returning STATUS_NOT_SUPPORTED, the display miniport driver informs the operating system to pass the query on to the next driver.
 
-
-
-
 ## -remarks
-
-
 
 <i>DxgkDdiQueryInterface</i> exposes a communication mechanism between the display miniport driver and the driver of a child device (for example, a video capture device). A display miniport driver that exposes such a mechanism should implement this function.
 
@@ -107,13 +94,7 @@ Initialize all additional interface-specific members to point to the appropriate
 </ul>
 <i>DxgkDdiQueryInterface</i> runs at IRQL = PASSIVE_LEVEL and should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
@@ -124,7 +105,4 @@ Initialize all additional interface-specific members to point to the appropriate
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_query_interface">QUERY_INTERFACE</a>
- 
-
- 
 

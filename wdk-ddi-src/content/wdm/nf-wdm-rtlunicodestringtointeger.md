@@ -8,8 +8,6 @@ ms.assetid: d9357864-d49b-44fe-b884-64c6da609789
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringToInteger function"]
 ms.keywords: RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger, wdm/RtlUnicodeStringToInteger
-f1_keywords:
- - "wdm/RtlUnicodeStringToInteger"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlUnicodeStringToInteger
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringToInteger
+ - wdm/RtlUnicodeStringToInteger
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlUnicodeStringToInteger
 ---
 
 # RtlUnicodeStringToInteger function
@@ -48,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlUnicodeStringToInteger</b> routine converts a Unicode string representation of a number to the equivalent integer value.
-
 
 ## -parameters
 
+### -param String 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
 
+### -param Base 
 
-### -param String [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
-
-
-### -param Base [in, optional]
-
+[in, optional]
 A numeric value that indicates the base (or radix) of the number that the Unicode string represents. This parameter value is optional and can be set to zero.
 
 If <i>Base</i> is zero, <b>RtlUnicodeStringToInteger</b> checks the prefix of the Unicode string to determine the base of the number:
@@ -84,24 +79,16 @@ If the prefix is "0b", <b>RtlUnicodeStringToInteger</b> interprets the number in
 </ul>
 If the Unicode string does not contain any of these prefixes, <b>RtlUnicodeStringToInteger</b> treats the string as a base-10 integer.
 
+### -param Value 
 
-### -param Value [out]
-
+[out]
 A pointer to a ULONG variable to which <b>RtlUnicodeStringToInteger</b> writes the integer value that results from conversion of the Unicode string.
-
 
 ## -returns
 
-
-
 If the conversion is successful, the <b>RtlUnicodeStringToInteger</b> routine returns STATUS_SUCCESS and sets *<i>Value</i> to the integer value represented by the number in the Unicode string. If the string is not empty, but does not start with a valid number representation, the routine returns STATUS_SUCCESS and sets *<i>Value</i> to zero. If the string is empty, the routine fails and returns STATUS_INVALID_PARAMETER.
 
-
-
-
 ## -remarks
-
-
 
 This routine skips any white space at the start of the input string to find the start of the number.
 
@@ -169,20 +156,11 @@ The following table contains examples of output values that result from various 
 
 A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

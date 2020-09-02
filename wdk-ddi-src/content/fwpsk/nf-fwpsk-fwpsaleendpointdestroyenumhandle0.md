@@ -8,8 +8,6 @@ ms.assetid: 45ec429e-d324-40c9-bedc-acd75ccb160e
 ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointDestroyEnumHandle0 function"]
 ms.keywords: FwpsAleEndpointDestroyEnumHandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointDestroyEnumHandle0, netvista.fwpsaleendpointdestroyenumhandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml
-f1_keywords:
- - "fwpsk/FwpsAleEndpointDestroyEnumHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAleEndpointDestroyEnumHandle0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAleEndpointDestroyEnumHandle0
+ - fwpsk/FwpsAleEndpointDestroyEnumHandle0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAleEndpointDestroyEnumHandle0
 ---
 
 # FwpsAleEndpointDestroyEnumHandle0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsAleEndpointDestroyEnumHandle0</b> function destroys an endpoint enumeration handle that was created
@@ -58,26 +56,21 @@ The
 
 ## -parameters
 
+### -param engineHandle 
 
-
-
-### -param engineHandle [in]
-
+[in]
 The handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
+### -param enumHandle 
 
-### -param enumHandle [in, out]
-
+[in, out]
 The enumeration handle created by a previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">
      FwpsAleEndpointCreateEnumHandle0</a>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAleEndpointDestroyEnumHandle0</b> function returns one of the following NTSTATUS codes.
@@ -110,29 +103,14 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When endpoint enumeration is complete, the enumeration handle must be destroyed by calling 
     <b>FwpsAleEndpointDestroyEnumHandle0</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">
      FwpsAleEndpointCreateEnumHandle0</a>
- 
-
- 
 

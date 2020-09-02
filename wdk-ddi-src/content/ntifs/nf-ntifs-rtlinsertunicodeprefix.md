@@ -8,8 +8,6 @@ ms.assetid: d8a2fa19-8f44-4088-b515-69c9f2119714
 ms.date: 04/16/2018
 keywords: ["RtlInsertUnicodePrefix function"]
 ms.keywords: RtlInsertUnicodePrefix, RtlInsertUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinsertunicodeprefix, ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml
-f1_keywords:
- - "ntifs/RtlInsertUnicodePrefix"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInsertUnicodePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInsertUnicodePrefix
+ - ntifs/RtlInsertUnicodePrefix
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInsertUnicodePrefix
 ---
 
 # RtlInsertUnicodePrefix function
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlInsertUnicodePrefix</b> routine inserts a new element into a Unicode prefix table. 
-
+The <b>RtlInsertUnicodePrefix</b> routine inserts a new element into a Unicode prefix table.
 
 ## -parameters
 
+### -param PrefixTable 
 
-
-
-### -param PrefixTable [in]
-
+[in]
 Pointer to the prefix table. The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
 
+### -param Prefix 
 
-### -param Prefix [in]
+[in]
+Pointer to the name string to be inserted with the element at <i>PrefixTableEntry</i>.
 
-Pointer to the name string to be inserted with the element at <i>PrefixTableEntry</i>. 
+### -param PrefixTableEntry 
 
-
-### -param PrefixTableEntry [out]
-
-Pointer to caller-allocated storage, which must be at least <b>sizeof</b>(UNICODE_PREFIX_TABLE_ENTRY), for the element to be inserted for the new prefix. <b>RtlInsertUnicodePrefix</b> initializes this element, which should be considered opaque by the caller. 
-
+[out]
+Pointer to caller-allocated storage, which must be at least <b>sizeof</b>(UNICODE_PREFIX_TABLE_ENTRY), for the element to be inserted for the new prefix. <b>RtlInsertUnicodePrefix</b> initializes this element, which should be considered opaque by the caller.
 
 ## -returns
 
-
-
-<b>RtlInsertUnicodePrefix</b> returns <b>TRUE</b> if the new element was inserted in the prefix table, or it returns <b>FALSE</b> if a duplicate element already exists in the prefix table. 
-
-
-
+<b>RtlInsertUnicodePrefix</b> returns <b>TRUE</b> if the new element was inserted in the prefix table, or it returns <b>FALSE</b> if a duplicate element already exists in the prefix table.
 
 ## -remarks
-
-
 
 Each prefix entry in the table is a pathname relative to the root directory of a file system volume. To be well-formed, the prefix must begin with a single backslash (\). 
 
@@ -92,15 +79,9 @@ File systems must call <a href="https://docs.microsoft.com/windows-hardware/driv
 
 Callers of the <b>Rtl..UnicodePrefix</b> routines are responsible for synchronizing access to the prefix table. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfindunicodeprefix">RtlFindUnicodePrefix</a>
 
@@ -118,8 +99,5 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

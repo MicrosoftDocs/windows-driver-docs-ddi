@@ -5,38 +5,42 @@ description: This structure is reserved for system use and should not be used in
 tech.root: netvista
 ms.assetid: 6ecc7e27-d8c3-4fdf-aa3c-b7b5fece8200
 ms.date: 08/08/2018
-keywords: ["_NET_BUFFER_LIST_TIMESTAMP structure"]
-f1_keywords:
- - "ndis/_NET_BUFFER_LIST_TIMESTAMP"
-ms.keywords: _NET_BUFFER_LIST_TIMESTAMP, NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP, 
+keywords: ["NET_BUFFER_LIST_TIMESTAMP structure"]
+ms.keywords: _NET_BUFFER_LIST_TIMESTAMP, NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP,
 req.header: ndis.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2019
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- _NET_BUFFER_LIST_TIMESTAMP
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _NET_BUFFER_LIST_TIMESTAMP
+ - ndis/_NET_BUFFER_LIST_TIMESTAMP
+ - PNET_BUFFER_LIST_TIMESTAMP
+ - ndis/PNET_BUFFER_LIST_TIMESTAMP
+ - NET_BUFFER_LIST_TIMESTAMP
+ - ndis/NET_BUFFER_LIST_TIMESTAMP
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - _NET_BUFFER_LIST_TIMESTAMP
 ---
 
 # _NET_BUFFER_LIST_TIMESTAMP structure
+
 
 ## -description
 
@@ -54,3 +58,4 @@ Reserved.
 ## -remarks
 
 ## -see-also
+

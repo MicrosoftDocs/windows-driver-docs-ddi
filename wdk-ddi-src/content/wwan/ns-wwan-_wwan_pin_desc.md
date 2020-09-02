@@ -6,10 +6,8 @@ old-location: netvista\wwan_pin_desc.htm
 tech.root: netvista
 ms.assetid: a88f56eb-b527-4c7c-8f59-650dd10c671e
 ms.date: 05/02/2018
-keywords: ["_WWAN_PIN_DESC structure"]
+keywords: ["WWAN_PIN_DESC structure"]
 ms.keywords: "*PWWAN_PIN_DESC, PWWAN_PIN_DESC, PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_DESC, WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, _WWAN_PIN_DESC, netvista.wwan_pin_desc, wwan/PWWAN_PIN_DESC, wwan/WWAN_PIN_DESC"
-f1_keywords:
- - "wwan/WWAN_PIN_DESC"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_PIN_DESC
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PIN_DESC, *PWWAN_PIN_DESC
+f1_keywords:
+ - _WWAN_PIN_DESC
+ - wwan/_WWAN_PIN_DESC
+ - PWWAN_PIN_DESC
+ - wwan/PWWAN_PIN_DESC
+ - WWAN_PIN_DESC
+ - wwan/WWAN_PIN_DESC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_PIN_DESC
 ---
 
 # _WWAN_PIN_DESC structure
@@ -47,20 +50,14 @@ req.typenames: WWAN_PIN_DESC, *PWWAN_PIN_DESC
 
 ## -description
 
-
 The WWAN_PIN_DESC structure represents the description or current status for a Personal
   Identification Number (PIN).
 
-
 ## -struct-fields
-
-
-
 
 ### -field PinMode
 
 The current status of the PIN.
-
 
 ### -field PinFormat
 
@@ -68,13 +65,11 @@ The format of the PIN. This member is ignored if the
      <b>PinMode</b> is 
      <b>WwanPinModeNotSupported</b>.
 
-
 ### -field PinLengthMin
 
 The minimum number of characters in the PIN. Miniport drivers should not specify a value that is
      greater than WWAN_PIN_LEN (12). Miniport drivers should specify WWAN_PIN_LENGTH_UNKNOWN, if the PIN
      length is not available.
-
 
 ### -field PinLengthMax
 
@@ -82,11 +77,7 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
      greater than WWAN_PIN_LEN (12). Miniport drivers should specify WWAN_PIN_LENGTH_UNKNOWN, if the PIN
      length is not available.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pin_format">WWAN_PIN_FORMAT</a>
 
@@ -97,7 +88,4 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pin_mode">WWAN_PIN_MODE</a>
- 
-
- 
 

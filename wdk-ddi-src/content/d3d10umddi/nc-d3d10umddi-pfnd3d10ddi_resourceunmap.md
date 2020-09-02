@@ -7,8 +7,6 @@ ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_RESOURCEUNMAP callback function"]
 ms.keywords: PFND3D10DDI_RESOURCEUNMAP, PFND3D10DDI_RESOURCEUNMAP callback, ResourceUnmap, ResourceUnmap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml, d3d10umddi/ResourceUnmap, display.resourceunmap
-f1_keywords:
- - "d3d10umddi/ResourceUnmap"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- ResourceUnmap
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_RESOURCEUNMAP
+ - d3d10umddi/PFND3D10DDI_RESOURCEUNMAP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - ResourceUnmap
 ---
 
 # PFND3D10DDI_RESOURCEUNMAP callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <i>ResourceUnmap</i> function unmaps a subresource of a resource.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -72,9 +66,7 @@ A handle to the resource to unmap.
 
 *Subresource* [in]
 
-An index that indicates the subresource to unmap. 
-
-
+An index that indicates the subresource to unmap.
 
 ## -remarks
 
@@ -87,20 +79,11 @@ The driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers
 <h3><a id="Restrictions_on_input_values"></a><a id="restrictions_on_input_values"></a><a id="RESTRICTIONS_ON_INPUT_VALUES"></a>Restrictions on input values</h3>
 For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Direct3D runtime supplies a restricted set of input values used by this function. For a list of all restricted values, see [Direct3D rendering performance improvements](https://docs.microsoft.com/windows-hardware/drivers/display/direct3d-rendering-performance-improvements).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

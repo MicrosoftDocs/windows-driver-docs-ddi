@@ -8,8 +8,6 @@ ms.assetid: A0705B79-BD13-4AB7-8647-A7AF905B97CC
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMaxValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, JobCopiesAllDocumentsMaxValue property [Print Devices], JobCopiesAllDocumentsMaxValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMaxValue, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
-f1_keywords:
- - "printerextension/IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
-- IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
+ - printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
+ - IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
 ---
 
 # IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
@@ -48,24 +47,15 @@ req.typenames:
 
 ## -description
 
-
 Gets the <b>JobCopiesAllDocuments</b> parameter maximum value.
 
 This is the copy count maximum.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
- 
-
- 
 

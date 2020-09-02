@@ -8,8 +8,6 @@ ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.date: 04/30/2018
 keywords: ["ZwAllocateVirtualMemory function"]
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
-f1_keywords:
- - "ntifs/ZwAllocateVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwAllocateVirtualMemory
-- NtAllocateVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwAllocateVirtualMemory
+ - ntifs/ZwAllocateVirtualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwAllocateVirtualMemory
+ - NtAllocateVirtualMemory
 ---
 
 # ZwAllocateVirtualMemory function
@@ -48,37 +47,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwAllocateVirtualMemory</b> routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
-
 
 ## -parameters
 
+### -param ProcessHandle 
 
-
-
-### -param ProcessHandle [in]
-
+[in]
 A handle for the process for which the mapping should be done. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process.
 
+### -param BaseAddress 
 
-### -param BaseAddress [in, out]
-
+[in, out]
 A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of this parameter is non-<b>NULL</b>, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of this parameter is <b>NULL</b>, the operating system will determine where to allocate the region.
 
+### -param ZeroBits 
 
-### -param ZeroBits [in]
-
+[in]
 The number of high-order address bits that must be zero in the base address of the section view. This value must be less than 21 and is used only when the operating system determines where to allocate the region, as when <i>BaseAddress</i> is <b>NULL</b>.
 
+### -param RegionSize 
 
-### -param RegionSize [in, out]
+[in, out]
+A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of this parameter specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. <i>*RegionSize</i> cannot be zero on input.
 
-A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of this parameter specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. <i>*RegionSize</i> cannot be zero on input. 
+### -param AllocationType 
 
-
-### -param AllocationType [in]
-
+[in]
 A bitmask containing flags that specify the type of allocation to be performed. The following table describes these flags.
 
 <table>
@@ -145,11 +140,10 @@ The specified region should be created at the highest virtual address possible b
 </td>
 </tr>
 </table>
- 
 
+### -param Protect 
 
-### -param Protect [in]
-
+[in]
 A bitmask containing page protection flags that specify the protection desired for the committed region of pages. The following table describes these flags.
 
 <table>
@@ -260,21 +254,12 @@ This flag is a page protection modifier, valid only when used with one of the pa
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 <b>ZwAllocateVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following:
 
-
-
-
 ## -remarks
-
-
 
 <b>ZwAllocateVirtualMemory</b> can perform the following operations:
 
@@ -342,20 +327,11 @@ For more information about memory management, see <a href="https://docs.microsof
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566460">ZwFreeVirtualMemory</a>
- 
-
- 
 

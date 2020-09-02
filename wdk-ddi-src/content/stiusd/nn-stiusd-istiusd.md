@@ -8,8 +8,6 @@ ms.assetid: 62740263-5bbb-48e1-be3d-9ee9cb37d6b9
 ms.date: 05/03/2018
 keywords: ["IStiUSD interface"]
 ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], IStiUSD interface [Imaging Devices],described, image.istiusd_interface_methods, stifnc_2fa7c229-f4c5-455e-ba93-019c5b84dd79.xml, stiusd/IStiUSD
-f1_keywords:
- - "stiusd/IStiUSD"
 req.header: stiusd.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,25 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- stiusd.h
-api_name:
-- IStiUSD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStiUSD
+ - stiusd/IStiUSD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - stiusd.h
+api_name:
+ - IStiUSD
 ---
 
 # IStiUSD interface
+
 
 ## -description
 
 This section describes the methods defined for the [IStiUSD COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istiusd-com-interface). Method prototypes are contained in *Stiusd.h*.
 
 ## -inheritance
+

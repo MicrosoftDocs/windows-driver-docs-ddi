@@ -8,8 +8,6 @@ ms.assetid: c6e7c0d8-8005-4a40-a13b-ee58feeabbf0
 ms.date: 04/16/2018
 keywords: ["FltGetStreamHandleContext function"]
 ms.keywords: FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
-f1_keywords:
- - "fltkernel/FltGetStreamHandleContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetStreamHandleContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetStreamHandleContext
+ - fltkernel/FltGetStreamHandleContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetStreamHandleContext
 ---
 
 # FltGetStreamHandleContext function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetStreamHandleContext</b> routine retrieves a context that was set for a stream handle by a given minifilter driver instance. 
-
+The <b>FltGetStreamHandleContext</b> routine retrieves a context that was set for a stream handle by a given minifilter driver instance.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+Pointer to a file object for the stream handle.
 
-Opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
+### -param Context 
 
-
-### -param FileObject [in]
-
-Pointer to a file object for the stream handle. 
-
-
-### -param Context [out]
-
-Pointer to a caller-allocated variable that receives the address of the context. 
-
+[out]
+Pointer to a caller-allocated variable that receives the address of the context.
 
 ## -returns
-
-
 
 <b>FltGetStreamHandleContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -105,14 +97,8 @@ The file system does not support per-stream contexts for this file stream. This 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltGetStreamHandleContext</b> retrieves a context that was set for a stream handle by a given minifilter driver. 
 
@@ -122,15 +108,9 @@ To set a context for a stream handle, call <a href="https://docs.microsoft.com/w
 
 To allocate a new context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
 
-To delete a stream handle context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamhandlecontext">FltDeleteStreamHandleContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
-
-
-
+To delete a stream handle context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletestreamhandlecontext">FltDeleteStreamHandleContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -149,7 +129,4 @@ To delete a stream handle context, call <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetstreamhandlecontext">FltSetStreamHandleContext</a>
- 
-
- 
 

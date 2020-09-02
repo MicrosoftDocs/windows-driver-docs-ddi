@@ -8,8 +8,6 @@ ms.assetid: 2f704899-eb5e-4632-a76d-eb474f3273f9
 ms.date: 05/02/2018
 keywords: ["RILRANGE structure"]
 ms.keywords: "*LPRILRANGE, RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], netvista.rilrange, ntddrilapitypes/RILRANGE"
-f1_keywords:
- - "rilapitypes/RILRANGE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILRANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRANGE, *LPRILRANGE
+f1_keywords:
+ - RILRANGE
+ - rilapitypes/RILRANGE
+ - LPRILRANGE
+ - rilapitypes/LPRILRANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILRANGE
 ---
 
 # RILRANGE structure
@@ -47,17 +48,11 @@ req.typenames: RILRANGE, *LPRILRANGE
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwMinValue
-
 
 ### -field dwMaxValue
 

@@ -8,8 +8,6 @@ ms.assetid: 30daf70e-34d1-45f7-a69b-503e275b83af
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_attribute_search, bth_ioctls_19f12c1a-aaf5-4751-ba53-94054d3fb725.xml, bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
-f1_keywords:
- - "bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
+ - bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
 ---
 
 # IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL
@@ -47,17 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified SDP record.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -67,13 +58,11 @@ The
       BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure that specifies the remote computer range of attributes
       to search plus other key members.
 
-
 ### -input-buffer-length
 
 The length of a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
       BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure.
-
 
 ### -output-buffer
 
@@ -82,30 +71,14 @@ The
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> structure
       that is followed by a variable-length raw SDP stream.
 
-
 ### -output-buffer-length
 
 The length of a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -194,12 +167,8 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 In most circumstances, profile drivers can combine SDP service and attribute searches by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
@@ -215,13 +184,7 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
     BTH_SDP_STREAM_RESPONSE structure, and the first byte of that stream. The variable-length stream is the
     SDP record attributes returned by the search.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
    BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
@@ -238,7 +201,4 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
- 
-
- 
 

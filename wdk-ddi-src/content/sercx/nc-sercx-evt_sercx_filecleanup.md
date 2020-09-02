@@ -8,8 +8,6 @@ ms.assetid: D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_FILECLEANUP callback function"]
 ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EVT_SERCX_FILECLEANUP callback, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
-f1_keywords:
- - "sercx/EvtSerCxFileCleanup"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 1.0\Sercx.h
-api_name:
-- EvtSerCxFileCleanup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX_FILECLEANUP
+ - sercx/EVT_SERCX_FILECLEANUP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - EvtSerCxFileCleanup
 ---
 
 # EVT_SERCX_FILECLEANUP callback function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCxFileCleanup</i> event callback function notifies the serial controller driver that a client has closed the last handle to the file object that represents the serial controller device.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-
 ## -remarks
-
-
 
 This function can deallocate certain system resources that the driver previously allocated for the lifetime of the file object. In conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_fileclose">EvtSerCxFileClose</a> function, the <i>EvtSerCxFileCleanup</i> function should remove the serial controller device from the state in which it is ready to receive and transmit data. The <i>EvtSerCxFileCleanup</i> function should focus specifically on clean-up tasks, such as deallocating memory.
 
@@ -131,19 +123,11 @@ For more information about SDV requirements for function declarations, see <a hr
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_fileclose">EvtSerCxFileClose</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
- 
-
- 
 

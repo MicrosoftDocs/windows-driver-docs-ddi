@@ -6,10 +6,8 @@ old-location: whea\whea_aer_bridge_descriptor.htm
 tech.root: whea
 ms.assetid: 33cc9d34-cffb-410d-9948-37c8a409e0a5
 ms.date: 02/20/2018
-keywords: ["_WHEA_AER_BRIDGE_DESCRIPTOR structure"]
+keywords: ["WHEA_AER_BRIDGE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml"
-f1_keywords:
- - "ntddk/WHEA_AER_BRIDGE_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_AER_BRIDGE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR
+f1_keywords:
+ - _WHEA_AER_BRIDGE_DESCRIPTOR
+ - ntddk/_WHEA_AER_BRIDGE_DESCRIPTOR
+ - PWHEA_AER_BRIDGE_DESCRIPTOR
+ - ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR
+ - WHEA_AER_BRIDGE_DESCRIPTOR
+ - ntddk/WHEA_AER_BRIDGE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_AER_BRIDGE_DESCRIPTOR
 ---
 
 # _WHEA_AER_BRIDGE_DESCRIPTOR structure
@@ -47,44 +50,33 @@ req.typenames: WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR
 
 ## -description
 
-
 The WHEA_AER_BRIDGE_DESCRIPTOR structure describes a PCI Express (PCIe) bridge error source.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_AERBRIDGE.
 
-
 ### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
-
 
 ### -field Reserved
 
 Reserved for system use.
 
-
 ### -field BusNumber
 
 The bridge's primary bus number.
-
 
 ### -field Slot
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the bridge is located in the system.
 
-
 ### -field DeviceControl
 
 The contents of the bridge's Device Control register.
-
 
 ### -field Flags
 
@@ -168,62 +160,43 @@ Reserved for system use.
 
 A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
 
-
 ### -field UncorrectableErrorMask
 
 The contents of the bridge's Uncorrectable Error Mask register.
-
 
 ### -field UncorrectableErrorSeverity
 
 The contents of the bridge's Uncorrectable Error Severity register.
 
-
 ### -field CorrectableErrorMask
 
 The contents of the bridge's Correctable Error Mask register.
-
 
 ### -field AdvancedCapsAndControl
 
 The contents of the bridge's Advanced Error Capabilities and Control register.
 
-
 ### -field SecondaryUncorrectableErrorMask
 
 The contents of the bridge's Secondary Uncorrectable Error Mask register.
-
 
 ### -field SecondaryUncorrectableErrorSev
 
 The contents of the bridge's Secondary Uncorrectable Error Severity register.
 
-
 ### -field SecondaryCapsAndControl
 
 The contents of the bridge's Secondary Error Capabilities and Control register.
 
-
 ## -remarks
-
-
 
 A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a>
- 
-
- 
 

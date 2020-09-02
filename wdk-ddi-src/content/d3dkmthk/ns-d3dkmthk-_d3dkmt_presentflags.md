@@ -5,10 +5,8 @@ description: The D3DKMT_PRESENTFLAGS structure identifies how to perform a prese
 old-location: display\d3dkmt_presentflags.htm
 ms.assetid: 2ebee0bd-90f0-4628-8ddf-9e8029b4959a
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_PRESENTFLAGS structure"]
+keywords: ["D3DKMT_PRESENTFLAGS structure"]
 ms.keywords: D3DKMT_PRESENTFLAGS, D3DKMT_PRESENTFLAGS structure [Display Devices], OpenGL_Structs_bd28ba63-6019-4cc5-b1d0-7275a5a575b3.xml, _D3DKMT_PRESENTFLAGS, d3dkmthk/D3DKMT_PRESENTFLAGS, display.d3dkmt_presentflags
-f1_keywords:
- - "d3dkmthk/D3DKMT_PRESENTFLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_PRESENTFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_PRESENTFLAGS
+f1_keywords:
+ - _D3DKMT_PRESENTFLAGS
+ - d3dkmthk/_D3DKMT_PRESENTFLAGS
+ - D3DKMT_PRESENTFLAGS
+ - d3dkmthk/D3DKMT_PRESENTFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_PRESENTFLAGS
 ---
 
 # _D3DKMT_PRESENTFLAGS structure
@@ -47,14 +48,9 @@ req.typenames: D3DKMT_PRESENTFLAGS
 
 ## -description
 
-
 The D3DKMT_PRESENTFLAGS structure identifies how to perform a present operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Blt
 
@@ -62,13 +58,11 @@ A UINT value that specifies whether to bit-block transfer (bitblt) data to the p
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field ColorFill
 
 A UINT value that specifies whether to perform a colorfill bitblt to the primary surface by using the value in the <b>Color</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present">D3DKMT_PRESENT</a> structure. This bit-field flag can be used with the <b>DstRectValid</b> bit-field flag.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
-
 
 ### -field Flip
 
@@ -76,13 +70,11 @@ A UINT value that specifies whether to flip to a new surface.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
-
 ### -field FlipDoNotFlip
 
 A UINT value that specifies whether to insert queued waits into the rendering stream. Setting this member indicates to flip to the same surface that is currently being scanned out.
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
-
 
 ### -field FlipDoNotWait
 
@@ -90,13 +82,11 @@ A UINT value that specifies whether the OpenGL installable client driver (ICD) r
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
-
 ### -field FlipRestart
 
 A UINT value that specifies whether to restart a flip to a new surface.
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
-
 
 ### -field DstRectValid
 
@@ -104,13 +94,11 @@ A UINT value that specifies whether the bitblt uses a destination rectangular ar
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
-
 ### -field SrcRectValid
 
 A UINT value that specifies whether the bitblt uses a source rectangular area.
 
 Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
-
 
 ### -field RestrictVidPnSource
 
@@ -118,13 +106,11 @@ A UINT value that specifies whether to restrict the bitblt. If the <b>hWindow</b
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
 
-
 ### -field SrcColorKey
 
 A UINT value that specifies whether to perform source color-keying by using the value in the <b>Color</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present">D3DKMT_PRESENT</a> structure. That is, any pixel in the source surface that matches the color key should not be copied to the destination surface, and all of the source pixels that do not match the color key should be copied.
 
 Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
-
 
 ### -field DstColorKey
 
@@ -132,20 +118,17 @@ A UINT value that specifies whether to perform destination color-keying by using
 
 Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>Value</b> member (0x00000400).
 
-
 ### -field LinearToSrgb
 
 A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the copy operation. sRGB format is gamma corrected. For more information about sRGB format, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
 
 Setting this member is equivalent to setting the twelfth bit of the 32-bit <b>Value</b> member (0x00000800).
 
-
 ### -field PresentCountValid
 
 A UINT value that specifies whether the value set in the <b>PresentCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present">D3DKMT_PRESENT</a> structure is valid. 
 
 Setting this member is equivalent to setting the thirteenth bit of the 32-bit <b>Value</b> member (0x00001000).
-
 
 ### -field Rotate
 
@@ -155,7 +138,6 @@ The display miniport driver should rotate the data only if the <b>Rotate</b> bit
 
 Setting this member is equivalent to setting the fourteenth bit of the 32-bit <b>Value</b> member (0x00002000).
 
-
 ### -field PresentToBitmap
 
 A UINT value that specifies whether to present to a bitmap. 
@@ -163,7 +145,6 @@ A UINT value that specifies whether to present to a bitmap.
 Setting this member is equivalent to setting the fifteenth bit of the 32-bit <b>Value</b> member (0x00004000).
 
 Supported starting with Windows 7.
-
 
 ### -field RedirectedFlip
 
@@ -173,7 +154,6 @@ Setting this member is equivalent to setting the sixteenth bit of the 32-bit <b>
 
 Supported starting with Windows 7.
 
-
 ### -field RedirectedBlt
 
 A UINT value that specifies whether to redirect a bitblt to a new surface. 
@@ -181,7 +161,6 @@ A UINT value that specifies whether to redirect a bitblt to a new surface.
 Setting this member is equivalent to setting the seventeenth bit of the 32-bit <b>Value</b> member (0x00010000).
 
 Supported starting with Windows 7.
-
 
 ### -field FlipStereo
 
@@ -199,7 +178,6 @@ Setting this member is equivalent to setting the    eighteenth bit of the 32-bit
 
 Supported starting with Windows 8.
 
-
 ### -field FlipStereoTemporaryMono
 
 Specifies whether the driver should use the left image of a stereo allocation for the right and left portions of a stereo frame. The driver performs the same present operation as with <b>FlipStereo</b>, except that it should scan out only from the left image to produce both images of a stereo frame.
@@ -216,7 +194,6 @@ Setting this member is equivalent to setting the    nineteenth bit of the 32-bit
 
 Supported starting with Windows 8.
 
-
 ### -field FlipStereoPreferRight
 
 Specifies that when the driver clones a stereo primary allocation to a mono monitor, it should use the right image.
@@ -229,7 +206,6 @@ Setting this member is equivalent to setting the    twentieth bit of the 32-bit 
 
 Supported starting with Windows 8.
 
-
 ### -field BltStereoUseRight
 
 Specifies that when the driver presents from a stereo allocation to a mono allocation, it should use the right image. If not set, the driver should use the left image.
@@ -237,7 +213,6 @@ Specifies that when the driver presents from a stereo allocation to a mono alloc
 Setting this member is equivalent to setting the    twenty-first bit of the 32-bit <b>Value</b> member (0x00100000).
 
 Supported starting with Windows 8.
-
 
 ### -field PresentHistoryTokenOnly
 
@@ -249,7 +224,6 @@ Setting this member is equivalent to setting the    twenty-second bit of the 32-
 
 Supported starting with Windows 8.
 
-
 ### -field PresentRegionsValid
 
 Specifies that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present">D3DKMT_PRESENT</a>.<b>pPresentRegions</b> member is a valid pointer (not <b>NULL</b>).
@@ -257,7 +231,6 @@ Specifies that the <a href="https://docs.microsoft.com/windows-hardware/drivers/
 Setting this member is equivalent to setting the twenty-third    bit of the 32-bit <b>Value</b> member (0x00400000).
 
 Supported starting with Windows 8.
-
 
 ### -field PresentDDA
 
@@ -267,7 +240,6 @@ Setting this member is equivalent to setting the twenty-fourth    bit of the 32-
 
 Supported starting with Windows 8.
 
-
 ### -field ProtectedContentBlankedOut
 
 This member is reserved and should be set to zero.
@@ -276,7 +248,6 @@ Setting this member is equivalent to setting the    twenty-fifth bit of the 32-b
 
 Supported starting with Windows 8.
 
-
 ### -field RemoteSession
 
 Specifies that the present operation is directed to a remote session.
@@ -284,7 +255,6 @@ Specifies that the present operation is directed to a remote session.
 Setting this member is equivalent to setting the    twenty-sixth bit of the 32-bit <b>Value</b> member (0x02000000).
 
 Supported starting with Windows 8.
-
 
 ### -field CrossAdapter
 
@@ -300,11 +270,7 @@ Indicates whether the duration is valid.
 
 Present indirect.
 
-
 ### -field PresentHMD
-
-
-
 
 ### -field Reserved
 
@@ -312,15 +278,11 @@ Supported starting with Windows 8.
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 9 bits (0xFF800000) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 A 32-bit value that identifies how to perform the present operation.
 
-
 ## -remarks
-
-
 
 If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStereoPreferRight</b>  members are set, these conditions apply:
 
@@ -330,12 +292,7 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 <li>The driver should honor the settings of the <b>FlipImmediate</b> and <b>FlipOnNextVSync</b> members of  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
@@ -358,7 +315,4 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
- 
-
- 
 

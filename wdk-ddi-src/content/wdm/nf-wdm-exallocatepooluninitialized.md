@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePoolUninitialized
 f1_keywords:
+ - ExAllocatePoolUninitialized
  - wdm/ExAllocatePoolUninitialized
 dev_langs:
  - c++
@@ -70,3 +71,4 @@ See the Remarks section of [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwith
 ## -see-also
 
 [**ExAllocatePoolZero**](nf-wdm-exallocatepoolzero.md)
+

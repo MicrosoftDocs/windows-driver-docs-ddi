@@ -6,10 +6,8 @@ old-location: biometric\winbio_version.htm
 tech.root: biometric
 ms.assetid: 6a89a581-0af4-4a42-be81-fb7cb1f33bdd
 ms.date: 02/20/2018
-keywords: ["_WINBIO_VERSION structure"]
+keywords: ["WINBIO_VERSION structure"]
 ms.keywords: "*PWINBIO_VERSION, PWINBIO_VERSION, PWINBIO_VERSION structure pointer [Biometric Devices], WINBIO_VERSION, WINBIO_VERSION structure [Biometric Devices], _WINBIO_VERSION, biometric.winbio_version, biometric_ref_2f55229e-601f-422c-b35c-0fb58605b273.xml, winbio_types/PWINBIO_VERSION, winbio_types/WINBIO_VERSION"
-f1_keywords:
- - "winbio_types/WINBIO_VERSION"
 req.header: winbio_types.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winbio_types.h
-api_name:
-- WINBIO_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+f1_keywords:
+ - _WINBIO_VERSION
+ - winbio_types/_WINBIO_VERSION
+ - PWINBIO_VERSION
+ - winbio_types/PWINBIO_VERSION
+ - WINBIO_VERSION
+ - winbio_types/WINBIO_VERSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winbio_types.h
+api_name:
+ - WINBIO_VERSION
 ---
 
 # _WINBIO_VERSION structure
@@ -47,19 +50,13 @@ req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 
 ## -description
 
-
 The WINBIO_VERSION structure describes major and minor version information for a WBDI driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MajorVersion
 
 Identifies the major version of the driver.
-
 
 ### -field MinorVersion
 

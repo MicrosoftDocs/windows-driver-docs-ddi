@@ -8,8 +8,6 @@ ms.assetid: 8257c636-824d-4909-b0cb-76d72ac980fa
 ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_STOPPED function"]
 ms.keywords: DFQueueObjectRef_55457efd-0074-4be5-b078-bb223963bfca.xml, WDF_IO_QUEUE_STOPPED, WDF_IO_QUEUE_STOPPED function, kmdf.wdf_io_queue_stopped, wdf.wdf_io_queue_stopped, wdfio/WDF_IO_QUEUE_STOPPED
-f1_keywords:
- - "wdfio/WDF_IO_QUEUE_STOPPED"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any IRQL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- None
-- None.dll
-api_name:
-- WDF_IO_QUEUE_STOPPED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_IO_QUEUE_STOPPED
+ - wdfio/WDF_IO_QUEUE_STOPPED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - None
+ - None.dll
+api_name:
+ - WDF_IO_QUEUE_STOPPED
 ---
 
 # WDF_IO_QUEUE_STOPPED function
@@ -48,34 +47,22 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_QUEUE_STOPPED</b> function returns <b>TRUE</b> if an I/O queue's state indicates that the queue is stopped.
 
-
 ## -parameters
 
+### -param State 
 
-
-
-### -param State [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_state">WDF_IO_QUEUE_STATE</a>-typed value that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuegetstate">WdfIoQueueGetState</a> returns.
-
 
 ## -returns
 
-
-
 <b>WDF_IO_QUEUE_STOPPED</b> returns <b>TRUE</b> if the specified queue state indicates that the queue is stopped. Otherwise, the function returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 An I/O queue is stopped if it can accept new I/O requests but the framework is not delivering them to the driver. 
 
@@ -104,12 +91,7 @@ IsQueueStopped(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_drained">WDF_IO_QUEUE_DRAINED</a>
 
@@ -124,7 +106,4 @@ IsQueueStopped(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_ready">WDF_IO_QUEUE_READY</a>
- 
-
- 
 

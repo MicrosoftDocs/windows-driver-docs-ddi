@@ -10,39 +10,40 @@ ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortSetEvent
 req.header: storport.h
-f1_keywords:
- - "storport/StorPortSetEvent"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- StorPortSetEvent
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - StorPortSetEvent
+ - storport/StorPortSetEvent
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - 
+api_name:
+ - StorPortSetEvent
+product:
+ - Windows
 ---
 
 # StorPortSetEvent function
+
 
 ## -description
 
@@ -80,3 +81,4 @@ See [**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm
 [**STOR_EVENT**](ns-storport-stor_event.md)
 
 [**StorPortInitializeEvent**](ns-storport-storport_initialize_event.md)
+

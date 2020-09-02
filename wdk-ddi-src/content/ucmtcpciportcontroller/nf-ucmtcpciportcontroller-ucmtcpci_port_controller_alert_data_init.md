@@ -8,8 +8,6 @@ ms.assetid: 7c3276cc-9194-4c18-b1d8-2795efbeb357
 ms.date: 05/07/2018
 keywords: ["UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT function"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT method [Buses], buses.ucmtcpci_port_controller_alert_data_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
-f1_keywords:
- - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucmtcpciportcontroller.h
-api_name:
-- UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
+ - ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucmtcpciportcontroller.h
+api_name:
+ - UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
 ---
 
 # UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT function
@@ -47,21 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
                         Initializes the <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.
                 
             
         Call this function before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert">UcmTcpciPortControllerAlert</a>.
 
-
 ## -parameters
 
+### -param AlertData 
 
-
-
-### -param AlertData [out]
-
+[out]
 A pointer to the driver-allocated <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.
-
 

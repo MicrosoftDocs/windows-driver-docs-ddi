@@ -8,8 +8,6 @@ ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.date: 03/29/2018
 keywords: ["StorPortInitializeDpc function"]
 ms.keywords: StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storport/StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
-f1_keywords:
- - "storport/StorPortInitializeDpc"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInitializeDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInitializeDpc
+ - storport/StorPortInitializeDpc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInitializeDpc
 ---
 
 # StorPortInitializeDpc function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortInitializeDpc</b> routine initializes a StorPort DPC. 
-
+The <b>StorPortInitializeDpc</b> routine initializes a StorPort DPC.
 
 ## -parameters
 
+### -param DeviceExtension 
 
+[in]
+Pointer to the per-adapter device extension.
 
+### -param Dpc 
 
-### -param DeviceExtension [in]
+[out]
+Pointer to a buffer where a DPC object of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc">STOR_DPC</a> will be created. The caller must ensure that the size in bytes of this buffer is greater than or equal to <b>sizeof</b>(STOR_DPC).
 
-Pointer to the per-adapter device extension. 
+### -param HwDpcRoutine 
 
-
-### -param Dpc [out]
-
-Pointer to a buffer where a DPC object of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc">STOR_DPC</a> will be created. The caller must ensure that the size in bytes of this buffer is greater than or equal to <b>sizeof</b>(STOR_DPC). 
-
-
-### -param HwDpcRoutine [in]
-
+[in]
 Pointer to the DPC routine that corresponds to the DPC object pointed to by <i>Dpc</i>. The prototype for this deferred routine is defined in Storport.h as follows: 
 
 <div class="code"><span codelanguage=""><table>
@@ -90,26 +85,15 @@ VOID
 
 ## -remarks
 
-
-
 The <b>StorPortInitializeDpc</b> routine must be called during HBA initialization from within the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a> routine. 
 
-This routine is implemented using inline function definitions, so that miniport drivers that use this routine will not have to link to libraries that are dependent on the version of the operating system. Miniport drivers can use this routine without sacrificing backward compatibility with versions of the operating system that do not support DPCs in storage miniport drivers. 
-
-
-
+This routine is implemented using inline function definitions, so that miniport drivers that use this routine will not have to link to libraries that are dependent on the version of the operating system. Miniport drivers can use this routine without sacrificing backward compatibility with versions of the operating system that do not support DPCs in storage miniport drivers.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc">STOR_DPC</a>
- 
-
- 
 

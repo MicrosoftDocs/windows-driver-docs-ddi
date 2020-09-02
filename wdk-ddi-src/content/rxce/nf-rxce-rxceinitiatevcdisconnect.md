@@ -8,8 +8,6 @@ ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.date: 04/16/2018
 keywords: ["RxCeInitiateVCDisconnect function"]
 ms.keywords: RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], ifsk.rxceinitiatevcdisconnect, rxce/RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml
-f1_keywords:
- - "rxce/RxCeInitiateVCDisconnect"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeInitiateVCDisconnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeInitiateVCDisconnect
+ - rxce/RxCeInitiateVCDisconnect
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeInitiateVCDisconnect
 ---
 
 # RxCeInitiateVCDisconnect function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeInitiateVCDisconnect</b> initiates a disconnect on the virtual circuit.
-
 
 ## -parameters
 
+### -param pVc 
 
-
-
-### -param pVc [in]
-
-A pointer to the virtual circuit structure to be disconnected. 
-
+[in]
+A pointer to the virtual circuit structure to be disconnected.
 
 ## -returns
-
-
 
 <b>RxCeInitiateVCDisconnect</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -95,31 +87,16 @@ The <i>pVc</i> parameter passed to this routine was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>RxCeInitiateVCDisconnect</b> must be called in the context of a system worker thread. 
-
-
-
+<b>RxCeInitiateVCDisconnect</b> must be called in the context of a system worker thread.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildvc">RxCeBuildVC</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownvc">RxCeTearDownVC</a>
- 
-
- 
 

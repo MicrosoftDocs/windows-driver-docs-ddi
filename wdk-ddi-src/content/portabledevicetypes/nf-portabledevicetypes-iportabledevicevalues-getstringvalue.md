@@ -8,8 +8,6 @@ ms.assetid: 6c63adae-ab57-4826-aaa2-6953ab918ddd
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetStringValue"]
 ms.keywords: GetStringValue, GetStringValue method, GetStringValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetStringValue method, IPortableDeviceValues.GetStringValue, IPortableDeviceValues::GetStringValue, IPortableDeviceValuesGetStringValue, portabledevicetypes/IPortableDeviceValues::GetStringValue, wpddk.iportabledevicevalues_getstringvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetStringValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetStringValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetStringValue
+ - portabledevicetypes/IPortableDeviceValues::GetStringValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetStringValue
 ---
 
 # IPortableDeviceValues::GetStringValue
@@ -48,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves a string value (type VT_LPWSTR) that is specified by a key.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
+### -param pValue 
 
-### -param pValue [out]
-
+[out]
 Pointer to the retrieved <b>LPWSTR</b> value. The caller is responsible for calling <b>CoTaskMemFree</b> to release the memory.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,24 +104,12 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
@@ -143,7 +120,4 @@ None.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setstringvalue">IPortableDeviceValues::SetStringValue</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: kernel\pep_ppm_perf_constraints.htm
 tech.root: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
 ms.date: 04/30/2018
-keywords: ["_PEP_PPM_QUERY_PERF_CONSTRAINTS structure"]
+keywords: ["PEP_PPM_QUERY_PERF_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PERFORMANCE_LIMIT_POWER, PERFORMANCE_LIMIT_THERMAL, PPEP_PPM_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS"
-f1_keywords:
- - "pep_x/PEP_PPM_PERF_CONSTRAINTS"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_PPM_PERF_CONSTRAINTS
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PERF_CONSTRAINTS, *PPEP_PPM_PERF_CONSTRAINTS
+f1_keywords:
+ - _PEP_PPM_QUERY_PERF_CONSTRAINTS
+ - pep_x/_PEP_PPM_QUERY_PERF_CONSTRAINTS
+ - PPEP_PPM_PERF_CONSTRAINTS
+ - pep_x/PPEP_PPM_PERF_CONSTRAINTS
+ - PEP_PPM_PERF_CONSTRAINTS
+ - pep_x/PEP_PPM_PERF_CONSTRAINTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_PPM_PERF_CONSTRAINTS
 ---
 
 # _PEP_PPM_QUERY_PERF_CONSTRAINTS structure
@@ -47,19 +50,13 @@ req.typenames: PEP_PPM_PERF_CONSTRAINTS, *PPEP_PPM_PERF_CONSTRAINTS
 
 ## -description
 
-
 The <b>PEP_PPM_PERF_CONSTRAINTS</b> structure describes the performance limits to apply to the processor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field GuaranteedPerformanceLimit
 
 [out] The guaranteed performance threshold in platform-specific units. If nonzero, this value specifies the maximum sustained performance level of the processor, taking into account all known external constraints (power budgeting, thermal constraints, power source, and so on). All processors are expected to be able to simultaneously sustain their guaranteed performance levels. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/platform-performance-thresholds">Platform Performance Thresholds</a>.
-
 
 ### -field LimitReasons
 
@@ -104,27 +101,14 @@ The processor performance can be limited because of a voltage or frequency depen
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_perf_constraints">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a> notification. The <b>GuaranteedPerformanceLimit</b> and <b>LimitReasons</b> members contain output values that the platform extension plug-in (PEP) writes to the structure in response to this notification.
 
-The <b>GuaranteedPerformanceLimit</b> member value is specified in platform-specific units. For example, a hardware platform might use a metric such as the processor clock frequency to provide a rough approximation to the amount of processing work that is being done. 
-
-
-
+The <b>GuaranteedPerformanceLimit</b> member value is specified in platform-specific units. For example, a hardware platform might use a metric such as the processor clock frequency to provide a rough approximation to the amount of processing work that is being done.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_perf_constraints">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.date: 02/26/2018
 keywords: ["IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink"]
 ms.keywords: IWDFRemoteInterfaceInitialize interface,RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, RetrieveSymbolicLink, RetrieveSymbolicLink method, RetrieveSymbolicLink method,IWDFRemoteInterfaceInitialize interface, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
-f1_keywords:
- - "wudfddi/IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
+ - wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
 ---
 
 # IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
@@ -47,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>RetrieveSymbolicLink</b> method retrieves the symbolic link name that the operating system assigned to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>. 
-
+The <b>RetrieveSymbolicLink</b> method retrieves the symbolic link name that the operating system assigned to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
 
 ## -parameters
 
+### -param pSymbolicLink 
 
-
-
-### -param pSymbolicLink [out, optional]
-
+[out, optional]
 A pointer to a buffer that receives a <b>null</b>-terminated Unicode character string that represents the symbolic link name. Set this pointer to <b>NULL</b> to obtain the required buffer size.
 
+### -param pdwSymbolicLinkLengthInChars 
 
-### -param pdwSymbolicLinkLengthInChars [in, out]
-
+[in, out]
 A pointer to a caller-allocated location. On input, this location must contain the caller-supplied length of the buffer that <i>pSymbolicLink</i> points to. On output, the location receives the length, in characters, of the symbolic link name, including the <b>NULL</b> terminating character.
 
-
 ## -returns
-
-
 
 <b>RetrieveSymbolicLink</b> returns S_OK if the operation succeeds. Otherwise the method might return the following value:
 
@@ -95,12 +87,7 @@ The buffer that <i>pSymbolicLink</i> points to is too small. In this case, the f
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
 ## -remarks
-
-
 
 The symbolic link name can include an appended backslash (\) character, followed by an instance-specific reference string.
 
@@ -160,19 +147,11 @@ Error:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterfaceinitialize">IWDFRemoteInterfaceInitialize</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremoteinterfaceinitialize-getinterfaceguid">IWDFRemoteInterfaceInitialize::GetInterfaceGuid</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 329ae226-02fb-438b-b461-da51e3afd6eb
 ms.date: 05/08/2018
 keywords: ["IServiceSink interface"]
 ms.keywords: IServiceSink, IServiceSink interface [Audio Devices], IServiceSink interface [Audio Devices],described, audio.iservicesink, audmp-routines_68a03e77-6246-44e7-acad-6de0fbe10c41.xml, portcls/IServiceSink
-f1_keywords:
- - "portcls/IServiceSink"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IServiceSink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IServiceSink
+ - portcls/IServiceSink
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IServiceSink
 ---
 
 # IServiceSink interface
 
 
 ## -description
-
 
 The <code>IServiceSink</code> interface encapsulates handling of a service request. The source of the service request is typically the miniport driver's interrupt service routine. PortCls supports the <code>IServiceSink</code> interface. An <code>IServiceSink</code> object is typically a member of a service group that is managed by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. <code>IServiceSink</code> inherits from the <b>IUnknown</b> interface.
 
@@ -56,10 +54,9 @@ Although the PortCls system driver provides a <a href="https://docs.microsoft.co
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/service-sink-and-service-group-objects">Service Sink and Service Group Objects</a>.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

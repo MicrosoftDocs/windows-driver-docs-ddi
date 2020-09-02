@@ -8,8 +8,6 @@ ms.assetid: 6C565DAF-3363-466F-AC4A-9DB534E581FC
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback function"]
 ms.keywords: NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA, NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback, NdisWdiAllocateWiFiFrameMetaData, NdisWdiAllocateWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiAllocateWiFiFrameMetaData, netvista.ndiswdiallocatewdiframemetadata
-f1_keywords:
- - "dot11wdi/NdisWdiAllocateWiFiFrameMetaData"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- NdisWdiAllocateWiFiFrameMetaData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA
+ - dot11wdi/NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NdisWdiAllocateWiFiFrameMetaData
 ---
 
 # NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback function
@@ -47,42 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The NdisWdiAllocateWiFiFrameMetaData callback function  allocates a frame metadata buffer.
 
 This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
 
-
 ## -parameters
 
+### -param NdisMiniportDataPathHandle 
 
-
-
-### -param NdisMiniportDataPathHandle [in]
-
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
-
 
 ## -returns
 
-
-
 The allocated frame metadata buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_frame_metadata">WDI_FRAME_METADATA</a>
- 
-
- 
 

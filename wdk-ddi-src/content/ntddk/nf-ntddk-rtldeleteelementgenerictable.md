@@ -8,8 +8,6 @@ ms.assetid: 3bf33ebb-bdb1-487d-b10f-1f00227d7128
 ms.date: 04/16/2018
 keywords: ["RtlDeleteElementGenericTable function"]
 ms.keywords: RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictable, ntddk/RtlDeleteElementGenericTable, rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml
-f1_keywords:
- - "ntddk/RtlDeleteElementGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlDeleteElementGenericTable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlDeleteElementGenericTable
+ - ntddk/RtlDeleteElementGenericTable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlDeleteElementGenericTable
 ---
 
 # RtlDeleteElementGenericTable function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlDeleteElementGenericTable</b> routine deletes an element from a generic table. 
-
+The <b>RtlDeleteElementGenericTable</b> routine deletes an element from a generic table.
 
 ## -parameters
 
+### -param Table 
 
-
-
-### -param Table [in]
-
+[in]
 A pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A pointer to a caller-allocated buffer containing a value that uniquely identifies the element to be deleted.
-
 
 ## -returns
 
-
-
 <b>RtlDeleteElementGenericTable</b> returns <b>TRUE</b> if the element was successfully deleted, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 <b>RtlDeleteElementGenericTable</b> calls the <i>CompareRoutine</i> and <i>FreeRoutine</i> that were registered in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>. 
 
@@ -102,19 +89,11 @@ The caller-supplied <i>CompareRoutine</i> or <i>FreeRoutine</i> contains pageabl
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictable">RtlInsertElementGenericTable</a>
- 
-
- 
 

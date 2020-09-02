@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCreateProcess"
+ - DXGKDDI_CREATEPROCESS
+ - d3dkmddi/DXGKDDI_CREATEPROCESS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 ---
 
 # DXGKDDI_CREATEPROCESS callback function
+
 
 ## -description
 

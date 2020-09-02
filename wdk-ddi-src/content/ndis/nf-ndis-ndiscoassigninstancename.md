@@ -8,8 +8,6 @@ ms.assetid: 78a1808e-d244-4f23-bba1-c48a7b2e051b
 ms.date: 05/02/2018
 keywords: ["NdisCoAssignInstanceName function"]
 ms.keywords: NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, ndis/NdisCoAssignInstanceName, netvista.ndiscoassigninstancename
-f1_keywords:
- - "ndis/NdisCoAssignInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCoAssignInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCoAssignInstanceName
+ - ndis/NdisCoAssignInstanceName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCoAssignInstanceName
 ---
 
 # NdisCoAssignInstanceName function
@@ -48,43 +47,36 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCoAssignInstanceName</b> assigns an instance name to a VC and causes NDIS to register a GUID
   (globally unique identifier) for the assigned name with Windows Management Instrumentation (WMI).
 
-
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle to the VC being named. This handle was supplied by NDIS when the VC was
      originally created with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, whether by the client in
      preparation for making an outgoing call or by the call manager in preparation for dispatching an
      incoming call to the client.
 
+### -param BaseInstanceName 
 
-### -param BaseInstanceName [in]
-
+[in]
 Pointer to an NDIS_STRING type that describes a caller-supplied Unicode string that specifies the
      base name of the VC. The base name can be any localizable Unicode string that uniquely identifies the VC
      with respect to the other named VCs within the scope of the miniport driver. For Windows Vista and
      later, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
+### -param VcInstanceName 
 
-### -param VcInstanceName [out, optional]
-
+[out, optional]
 Pointer to a caller-allocated NDIS_STRING type in which this routine returns a Unicode string that
      specifies the NDIS-assigned instance name assigned for the VC.
 
-
 ## -returns
-
-
 
 <b>NdisCoAssignInstanceName</b> can return any of the following:
 
@@ -128,14 +120,8 @@ NDIS could not allocate a buffer for the instance name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After initiating the setup of a VC with 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, a call manager or
@@ -171,13 +157,7 @@ The caller is responsible for freeing the buffer containing the returned instanc
     buffer with 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreestring">NdisFreeString</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_oid_request">MiniportCoOidRequest</a>
 
@@ -199,8 +179,5 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

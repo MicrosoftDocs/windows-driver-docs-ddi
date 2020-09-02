@@ -10,6 +10,7 @@ keywords: ["FsRtlDissectName function"]
 ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, ntifs/FsRtlDissectName
 f1_keywords:
  - "ntifs/FsRtlDissectName"
+ - "FsRtlDissectName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlDissectName
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,18 +55,18 @@ Given a Unicode pathname string, the <b>FsRtlDissectName</b> routine returns two
 
 
 
-### -param Path [in]
-
+### -param Path 
+[in]
 Pathname string to be parsed.
 
 
-### -param FirstName [out]
-
+### -param FirstName 
+[out]
 Pointer to the first file name in the pathname string.
 
 
-### -param RemainingName [out]
-
+### -param RemainingName 
+[out]
 Pointer to the remaining unparsed portion of the pathname string.
 
 
@@ -237,7 +236,7 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

@@ -8,8 +8,6 @@ ms.assetid: bc646191-e405-49e2-8793-0c0b81e52f50
 ms.date: 03/29/2018
 keywords: ["HW_DPC_ROUTINE callback function"]
 ms.keywords: HW_DPC_ROUTINE, HwStorDpcRoutine, HwStorDpcRoutine routine [Storage Devices], storage.hwstordpcroutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml, storport/HwStorDpcRoutine
-f1_keywords:
- - "storport/HwStorDpcRoutine"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorDpcRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_DPC_ROUTINE
+ - storport/HW_DPC_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorDpcRoutine
 ---
 
 # HW_DPC_ROUTINE callback function
@@ -47,38 +46,27 @@ req.typenames:
 
 ## -description
 
-
-The <b>HwStorDpcRoutine</b> routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism. 
-
+The <b>HwStorDpcRoutine</b> routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism.
 
 ## -parameters
 
-
-
-
 ### -param Dpc
 
-A pointer to a Storport DPC  context. 
-
+A pointer to a Storport DPC  context.
 
 ### -param HwDeviceExtension
 
-A pointer to the per-adapter device extension. 
-
+A pointer to the per-adapter device extension.
 
 ### -param SystemArgument1
 
 A pointer to caller-supplied information.
 
-
 ### -param SystemArgument2
 
 A pointer to caller-supplied information.
 
-
 ## -remarks
-
-
 
 When a miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializedpc">StorPortInitializeDpc</a> to initialize a DPC it must load the <i>HwDpcRoutine</i>  parameter of the <b>StorPortInitializeDpc</b> routine with a pointer to the <b>HwStorDpcRoutine</b> routine. 
 
@@ -146,13 +134,7 @@ MyHwDpcRoutine (
 </table></span></div>
 The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_DPC_ROUTINE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
 
@@ -171,7 +153,4 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
- 
-
- 
 

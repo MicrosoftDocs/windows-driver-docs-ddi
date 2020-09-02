@@ -8,8 +8,6 @@ ms.assetid: 404E9893-97BA-48A7-87CE-0B4AF46692CE
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs::get_ReasonId"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],ReasonId property, IPrinterExtensionEventArgs.ReasonId, IPrinterExtensionEventArgs.get_ReasonId, IPrinterExtensionEventArgs::ReasonId, IPrinterExtensionEventArgs::get_ReasonId, ReasonId property [Print Devices], ReasonId property [Print Devices],IPrinterExtensionEventArgs interface, get_ReasonId, print.iprinterextensioneventargs_reasonid, printerextension/IPrinterExtensionEventArgs::ReasonId, printerextension/IPrinterExtensionEventArgs::get_ReasonId
-f1_keywords:
- - "printerextension/IPrinterExtensionEventArgs.ReasonId"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionEventArgs.ReasonId
-- IPrinterExtensionEventArgs.get_ReasonId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEventArgs::get_ReasonId
+ - printerextension/IPrinterExtensionEventArgs::get_ReasonId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionEventArgs.ReasonId
+ - IPrinterExtensionEventArgs.get_ReasonId
 ---
 
 # IPrinterExtensionEventArgs::get_ReasonId
@@ -48,19 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the reason why the printer extension was activated.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 <ul>
 <li>
@@ -82,21 +75,11 @@ Guid = {23BB1328-63DE-4293-915B-A6A23D929ACB}
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_detailedreasonid">DetailedReasonId</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
- 
-
- 
 

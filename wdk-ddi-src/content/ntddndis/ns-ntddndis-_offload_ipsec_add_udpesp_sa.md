@@ -6,10 +6,8 @@ old-location: netvista\offload_ipsec_add_udpesp_sa.htm
 tech.root: netvista
 ms.assetid: 4d3f554f-2733-4896-827c-14e92e8034ce
 ms.date: 05/02/2018
-keywords: ["_OFFLOAD_IPSEC_ADD_UDPESP_SA structure"]
+keywords: ["OFFLOAD_IPSEC_ADD_UDPESP_SA structure"]
 ms.keywords: "*POFFLOAD_IPSEC_ADD_UDPESP_SA, 216offload_081b17de-1f16-44c7-9888-5d0388c081d9.xml, OFFLOAD_IPSEC_ADD_UDPESP_SA, OFFLOAD_IPSEC_ADD_UDPESP_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_ADD_UDPESP_SA, netvista.offload_ipsec_add_udpesp_sa, ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA, ntddndis/POFFLOAD_IPSEC_ADD_UDPESP_SA"
-f1_keywords:
- - "ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- OFFLOAD_IPSEC_ADD_UDPESP_SA
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_IPSEC_ADD_UDPESP_SA, *POFFLOAD_IPSEC_ADD_UDPESP_SA
+f1_keywords:
+ - _OFFLOAD_IPSEC_ADD_UDPESP_SA
+ - ntddndis/_OFFLOAD_IPSEC_ADD_UDPESP_SA
+ - POFFLOAD_IPSEC_ADD_UDPESP_SA
+ - ntddndis/POFFLOAD_IPSEC_ADD_UDPESP_SA
+ - OFFLOAD_IPSEC_ADD_UDPESP_SA
+ - ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - OFFLOAD_IPSEC_ADD_UDPESP_SA
 ---
 
 # _OFFLOAD_IPSEC_ADD_UDPESP_SA structure
@@ -47,35 +50,26 @@ req.typenames: OFFLOAD_IPSEC_ADD_UDPESP_SA, *POFFLOAD_IPSEC_ADD_UDPESP_SA
 
 ## -description
 
-
 The OFFLOAD_IPSEC_ADD_UDPESP_SA structure contains information for each security association (SA)
   that a miniport driver adds for UDP-encapsulated ESP packets to a NIC.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SrcAddr
 
 The IP address of the source host (the host sending the packets).
 
-
 ### -field SrcMask
 
 The subnet mask for the source IP address.
-
 
 ### -field DstAddr
 
 The IP address of the destination host (the host receiving the packets).
 
-
 ### -field DstMask
 
 The subnet mask for the destination IP address.
-
 
 ### -field Protocol
 
@@ -83,18 +77,15 @@ The IP protocol. The encoding of
      <b>Protocol</b> is identical to that of the Protocol field in an IP header. The
      value should be 11 (hexadecimal), which specifies UDP.
 
-
 ### -field SrcPort
 
 A source TCP or UDP port. If 
      <b>SrcPort</b> is set to zero, the SA applies to any source TCP/UDP port.
 
-
 ### -field DstPort
 
 A destination TCP or UDP port. If DestPort is set to zero, the SA applies to any source TCP/UDP
      port.
-
 
 ### -field SrcTunnelAddr
 
@@ -106,7 +97,6 @@ The IP address for the source endpoint, such as a connector, of a tunnel. The mi
      <b>SrcTunnelAddr</b> is set to zero for an SA that applies to the transport
      portion of a packet.
 
-
 ### -field DstTunnelAddr
 
 The IP address for the destination endpoint, such as a connector, of a tunnel. The miniport driver
@@ -117,7 +107,6 @@ The IP address for the destination endpoint, such as a connector, of a tunnel. T
      portion of a packet. 
      <b>DestTunnelAddr</b> is set to zero for an SA that applies to the transport
      portion of a packet.
-
 
 ### -field Flags
 
@@ -139,14 +128,12 @@ Specifies an inbound SA.
 
 Specifies an outbound SA.
 
-
 ### -field NumSAs
 
 The number of elements in the 
      <b>SecAssoc</b> array. Each element in the array is an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_security_association">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure.
-
 
 ### -field SecAssoc
 
@@ -162,7 +149,6 @@ The TCP/IP transport specifies one or two OFFLOAD_SECURITY_ASSOCIATION structure
      which the miniport driver should perform the operations for each SA. Only one combination of operations
      is supported: encryption/decryption (ESP) followed by authentication (AH).
 
-
 ### -field OffloadHandle
 
 The handle to the newly created SA. The miniport driver supplies this handle before completing the     
@@ -174,14 +160,12 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
      <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">
      OID_TCP_TASK_IPSEC_DELETE_SA</a> request.
 
-
 ### -field EncapTypeEntry
 
 The UDP-ESP encapsulation type and destination port of a parser entry. This information is
      formatted as an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_ipsec_udpesp_encaptype_entry">
      OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</a> structure.
-
 
 ### -field EncapTypeEntryOffldHandle
 
@@ -214,12 +198,10 @@ When
      <b>OFFLOAD_OUTBOUND_SA</b>, the miniport driver should ignore the 
      <b>EncapTypeEntryOffldHandle</b> parameter.
 
-
 ### -field KeyLen
 
 The length, in bytes, of the buffer at 
      <b>KeyMat</b>.
-
 
 ### -field KeyMat
 
@@ -241,10 +223,7 @@ The length of each key in the buffer at
      specifies the confidentiality or integrity algorithm. (An OFFLOAD_ALGO_INFO structure is a member of an
      OFFLOAD_SECURITY_ASSOCIATION structure.)
 
-
 ## -remarks
-
-
 
 The OFFLOAD_IPSEC_ADD_UDPESP_SA structure is used with the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
@@ -258,13 +237,7 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
     <b>EncapTypeEntry</b> and the 
     <b>EncapTypeEntryOffldHandle</b> members.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff557028(v=vs.85)">NDIS_IPSEC_PACKET_INFO</a>
 
@@ -297,7 +270,4 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>
- 
-
- 
 

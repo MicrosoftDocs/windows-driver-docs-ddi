@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetNumDescriptors"
+ - DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
+ - d3dkmddi/DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback function
+
 
 ## -description
 

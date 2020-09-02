@@ -8,8 +8,6 @@ ms.assetid: 47d5e7e2-bc97-4413-b1ca-ef958288902c
 ms.date: 02/13/2020
 keywords: ["IoCreateFileEx function"]
 ms.keywords: IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, ntddk/IoCreateFileEx
-f1_keywords:
- - "ntddk/IoCreateFileEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateFileEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateFileEx
+ - ntddk/IoCreateFileEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateFileEx
 ---
 
 # IoCreateFileEx function
+
 
 ## -description
 
@@ -50,12 +50,14 @@ The **IoCreateFileEx** routine either causes a new file or directory to be creat
 
 ## -parameters
 
-### -param FileHandle [out]
+### -param FileHandle 
 
+[out]
 A pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) as soon as the handle is no longer being used.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess 
 
+[in]
 A bitmask of flags (see [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)) that specifies the type of access that the caller requires to the file or directory. This set of system-defined *DesiredAccess* flags determines the following specific access rights for file objects.
 
 | *DesiredAccess* flag | Meaning |
@@ -91,8 +93,9 @@ For directories (the FILE_DIRECTORY_FILE *CreateOptions* flag is set), you can s
 
 The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA *DesiredAccess* flags are incompatible with creating or opening a directory file.
 
-### -param ObjectAttributes [in]
+### -param ObjectAttributes 
 
+[in]
 Pointer to an [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes) structure already initialized by the [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) routine. If the caller is running in the system process context, this parameter can be **NULL**. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to **InitializeObjectAttributes**. Members of this structure for a file object include the following.
 
 | Member | Value |
@@ -103,8 +106,9 @@ Pointer to an [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop
 | **PSECURITY_DESCRIPTOR SecurityDescriptor** | Optional security descriptor to be applied to a file. ACLs specified by such a security descriptor are only applied to the file when it is created. If the value is **NULL** when a file is created, the ACL placed on the file is file-system-dependent; most file systems propagate some part of such an ACL from the parent directory file combined with the caller's default ACL. |
 | **ULONG Attributes** | A set of flags that controls the file object attributes. If the caller is running in the system process context, this parameter can be zero. Otherwise, the caller must set the **OBJ_KERNEL_HANDLE** flag. The caller can also optionally set the **OBJ_CASE_INSENSITIVE** flag, which indicates that name-lookup code should ignore the case of **ObjectName** instead of performing an exact-match search. |
 
-### -param IoStatusBlock [out]
+### -param IoStatusBlock 
 
+[out]
 Pointer to a variable of type [**IO_STATUS_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) that receives the final completion status and information about the requested operation. On return from **IoCreateFileEx**, the **Information** member of the variable contains one of the following values:
 
 * FILE_CREATED
@@ -114,12 +118,14 @@ Pointer to a variable of type [**IO_STATUS_BLOCK**](https://docs.microsoft.com/w
 * FILE_EXISTS
 * FILE_DOES_NOT_EXIST
 
-### -param AllocationSize [in, optional]
+### -param AllocationSize 
 
+[in, optional]
 Optionally specifies the initial allocation size, in bytes, for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-### -param FileAttributes [in]
+### -param FileAttributes 
 
+[in]
 Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by any other flag or by a combination (through a bitwise OR operation) of compatible flags. Possible *FileAttributes* flags include the following.
 
 | *FileAttributes* flags   | Meaning |
@@ -131,8 +137,9 @@ Explicitly specified attributes are applied only when the file is created, super
 | FILE_ATTRIBUTE_ARCHIVE   | The file should be marked so that it will be archived. |
 | FILE_ATTRIBUTE_TEMPORARY | A temporary file should be created. |
 
-### -param ShareAccess [in]
+### -param ShareAccess 
 
+[in]
 Specifies the type of share access to the file that the caller would like, as zero, or one, or a combination of the following flags. To request exclusive access, set this parameter to zero. If the IO_IGNORE_SHARE_ACCESS_CHECK flag is specified in the *Options* parameter, the I/O manager ignores the *ShareAccess* parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for this parameter, even when you use the IO_IGNORE_SHARE_ACCESS_CHECK flag. To help you avoid sharing violation errors, specify all the following share access flags.
 
 | *ShareAccess* flags | Meaning |
@@ -143,8 +150,9 @@ Specifies the type of share access to the file that the caller would like, as ze
 
 Device drivers and intermediate drivers usually set *ShareAccess* to zero, which gives the caller exclusive access to the open file.
 
-### -param Disposition [in]
+### -param Disposition 
 
+[in]
 Value that determines how the file should be handled when the file already exists. *Disposition* can be one of the following.
 
 | Value | Meaning |
@@ -156,8 +164,9 @@ Value that determines how the file should be handled when the file already exist
 | FILE_OVERWRITE | If the file already exists, open it and overwrite it. If it does not exist, fail the request. |
 | FILE_OVERWRITE_IF | If the file already exists, open it and overwrite it. If it does not exist, create the given file. |
 
-### -param CreateOptions [in]
+### -param CreateOptions 
 
+[in]
 Specifies the options to be applied when creating or opening the file, as a compatible combination of the following flags.
 
 | *CreateOptions* flag | Meaning |
@@ -186,24 +195,29 @@ FILE_OPEN_REPARSE_POINT (0x00200000) | Open a file with a reparse point and bypa
 FILE_OPEN_NO_RECALL (0x00400000) | Instructs any filters that perform offline storage or virtualization to not recall the contents of the file as a result of this open.
 FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file system to capture the user associated with the calling thread. Any subsequent calls to FltQueryVolumeInformation or ZwQueryVolumeInformationFile using the returned handle will assume the captured user, rather than the calling user at the time, for purposes of computing the free space available to the caller. This applies to the following FsInformationClass values: FileFsSizeInformation, FileFsFullSizeInformation, and FileFsFullSizeInformationEx. |
 
-### -param EaBuffer [in, optional]
+### -param EaBuffer 
 
+[in, optional]
 A pointer to a caller-supplied variable of type [**FILE_FULL_EA_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information) that contains extended attribute (EA) information to be applied to the file.  For device and intermediate drivers, this parameter must be **NULL**.
 
-### -param EaLength [in]
+### -param EaLength 
 
+[in]
 Length, in bytes, of *EaBuffer*.  For device drivers and intermediate drivers, this parameter must be zero.
 
-### -param CreateFileType [in]
+### -param CreateFileType 
 
+[in]
 Drivers must set this parameter to CreateFileTypeNone.
 
-### -param InternalParameters [in, optional]
+### -param InternalParameters 
 
+[in, optional]
 Drivers must set this parameter to **NULL**.
 
-### -param Options [in]
+### -param Options 
 
+[in]
 Specifies options to be used during the generation of the create request. Zero or more of the following bit flag values can be used.
 
 | *Options* flag | Meaning |
@@ -213,8 +227,9 @@ Specifies options to be used during the generation of the create request. Zero o
 | IO_STOP_ON_SYMLINK | If a junction, symbolic link, or global reparse point is encountered while opening or creating the file, I/O manager will return STATUS_STOPPED_ON_SYMLINK. Additionally, a REPARSE_DATA_BUFFER structure will be returned in **IoStatusBlock->Information**. The caller is responsible for freeing the [**REPARSE_DATA_BUFFER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer) structure. |
 | IO_OPEN_TARGET_DIRECTORY | Open the file's parent directory. |
 
-### -param DriverContext [in, optional]
+### -param DriverContext 
 
+[in, optional]
 An optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context) structure that was previously initialized by the [**IoInitializeDriverCreateContext**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext) routine.  The IO_DRIVER_CREATE_CONTEXT structure can be used to pass additional parameters to the **IoCreateFileEx** and [**FltCreateFileEx2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2) routines.  See the following Remarks section for more information.
 
 ## -returns
@@ -352,7 +367,7 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 [**IoCreateFileSpecifyDeviceObjectHint**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint)
 
-[**UNICODE_STRING**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)
+[**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
 [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
 
@@ -365,3 +380,4 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
 
 [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
+

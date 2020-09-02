@@ -8,8 +8,6 @@ ms.assetid: 68819fe9-fd90-4391-a129-5aa0cae1558b
 ms.date: 04/23/2018
 keywords: ["KsStreamPointerDelete function"]
 ms.keywords: KsStreamPointerDelete, KsStreamPointerDelete function [Streaming Media Devices], avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml, ks/KsStreamPointerDelete, stream.ksstreampointerdelete
-f1_keywords:
- - "ks/KsStreamPointerDelete"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsStreamPointerDelete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsStreamPointerDelete
+ - ks/KsStreamPointerDelete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsStreamPointerDelete
 ---
 
 # KsStreamPointerDelete function
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsStreamPointerDelete </b>function deletes a clone stream pointer, releasing a reference on the frame to which this stream pointer referred.
-
 
 ## -parameters
 
+### -param StreamPointer 
 
-
-
-### -param StreamPointer [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the clone stream pointer to delete. Must be a clone stream pointer; cannot be the leading or trailing edge stream pointer.
 
-
 ## -remarks
-
-
 
 If the frame to which <i>StreamPointer</i> points has no other references on it after deletion, it is completed. When the last frame in a given IRP is completed, the IRP is completed.
 
@@ -72,13 +64,7 @@ The leading edge and trailing edge stream pointers for a given queue and pin are
 
 Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetleadingedgestreampointer">KsPinGetLeadingEdgeStreamPointer</a>
 
@@ -89,7 +75,4 @@ Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/str
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>
- 
-
- 
 

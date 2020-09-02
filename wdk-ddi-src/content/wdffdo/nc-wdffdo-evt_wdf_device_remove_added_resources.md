@@ -8,8 +8,6 @@ ms.assetid: b18c2b34-db6d-4553-9340-556da1fd7991
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_c1020fff-8895-4ece-ae27-ef33d3a65de6.xml, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback, EvtDeviceRemoveAddedResources, EvtDeviceRemoveAddedResources callback function, kmdf.evtdeviceremoveaddedresources, wdf.evtdeviceremoveaddedresources, wdffdo/EvtDeviceRemoveAddedResources
-f1_keywords:
- - "wdffdo/EvtDeviceRemoveAddedResources"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdffdo.h
-api_name:
-- EvtDeviceRemoveAddedResources
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES
+ - wdffdo/EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdffdo.h
+api_name:
+ - EvtDeviceRemoveAddedResources
 ---
 
 # EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback function
@@ -47,46 +46,34 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceRemoveAddedResources</i> event callback function removes hardware resources that the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterAddResourceRequirements</a> callback function added.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to the framework device object to which resources will be assigned.
 
+### -param ResourcesRaw 
 
-### -param ResourcesRaw [in]
+[in]
+A handle to a resource list object that identifies the raw hardware resources that the PnP manager has assigned to the device.
 
-A handle to a resource list object that identifies the raw hardware resources that the PnP manager has assigned to the device. 
+### -param ResourcesTranslated 
 
-
-### -param ResourcesTranslated [in]
-
-A handle to a resource list object that identifies the translated hardware resources that the PnP manager has assigned to the device. 
-
+[in]
+A handle to a resource list object that identifies the translated hardware resources that the PnP manager has assigned to the device.
 
 ## -returns
-
-
 
 If the driver encountered no errors it must return STATUS_SUCCESS. Otherwise it must return an NTSTATUS value that <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a> evaluates as <b>FALSE</b>.
 
 For more information about return values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
 
-
-
-
 ## -remarks
-
-
 
 Framework-based function drivers can provide an <i>EvtDeviceRemoveAddedResources</i> callback function. To register this callback function, drivers call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>.
 
@@ -100,20 +87,11 @@ For more information about the <i>EvtDeviceRemoveAddedResources</i> callback fun
 
 For more information about hardware resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterAddResourceRequirements</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: display\dxgk_backlight_info.htm
 tech.root: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.date: 05/10/2018
-keywords: ["_DXGK_BACKLIGHT_INFO structure"]
+keywords: ["DXGK_BACKLIGHT_INFO structure"]
 ms.keywords: DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info
-f1_keywords:
- - "d3dkmdt/DXGK_BACKLIGHT_INFO"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmdt.h
-api_name:
-- DXGK_BACKLIGHT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_BACKLIGHT_INFO
+f1_keywords:
+ - _DXGK_BACKLIGHT_INFO
+ - d3dkmdt/_DXGK_BACKLIGHT_INFO
+ - DXGK_BACKLIGHT_INFO
+ - d3dkmdt/DXGK_BACKLIGHT_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmdt.h
+api_name:
+ - DXGK_BACKLIGHT_INFO
 ---
 
 # _DXGK_BACKLIGHT_INFO structure
@@ -47,14 +48,9 @@ req.typenames: DXGK_BACKLIGHT_INFO
 
 ## -description
 
-
 Contains the current level of backlight reduction that is applied to the integrated display panel. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BacklightUsersetting
 
@@ -62,40 +58,26 @@ Contains the current level of backlight reduction that is applied to the integra
 
 This member can range in value from 0 to 65535.
 
-
 ### -field BacklightEffective
 
 [out] The absolute brightness level in hardware that is currently set by the display miniport drive for adaptive brightness control.
 
 This member can range in value from 0 to 65535.
 
-
 ### -field GammaRamp
 
 [out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16">D3DDDI_GAMMA_RAMP_RGB256x3x16</a> structure that contains a description of a gamma lookup table.
 This lookup table represents the gamma ramp that has been optimized for backlight display by the display miniport driver from a gamma ramp set by an application.
 
-
 ## -remarks
-
-
 
 For more information about the use of this structure, see Remarks of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_backlight_reduction">DxgkDdiGetBacklightReduction</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16">D3DDDI_GAMMA_RAMP_RGB256x3x16</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_get_backlight_reduction">DxgkDdiGetBacklightReduction</a>
- 
-
- 
 

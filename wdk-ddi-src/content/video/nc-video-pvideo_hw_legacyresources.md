@@ -8,8 +8,6 @@ ms.assetid: 015086e9-70b4-4756-9945-c9da17829e90
 ms.date: 05/10/2018
 keywords: ["PVIDEO_HW_LEGACYRESOURCES callback function"]
 ms.keywords: HwVidLegacyResources, HwVidLegacyResources callback function [Display Devices], PVIDEO_HW_LEGACYRESOURCES, PVIDEO_HW_LEGACYRESOURCES callback, VideoMiniport_Functions_a629bf4d-8f16-4d71-ab88-c691160a5df7.xml, display.hwvidlegacyresources, video/HwVidLegacyResources
-f1_keywords:
- - "video/HwVidLegacyResources"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- HwVidLegacyResources
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PVIDEO_HW_LEGACYRESOURCES
+ - video/PVIDEO_HW_LEGACYRESOURCES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - HwVidLegacyResources
 ---
 
 # PVIDEO_HW_LEGACYRESOURCES callback function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 <i>HwVidLegacyResources </i>returns a list of resources that are not listed in a device's PCI configuration space but that are decoded by the device.
-
 
 ## -parameters
 
+### -param VendorId 
 
-
-
-### -param VendorId [in]
-
+[in]
 Specifies a code that identifies the device's vendor. This is the vendor ID specified in the device's PCI configuration space. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
 
+### -param DeviceId 
 
-### -param DeviceId [in]
-
+[in]
 Specifies a code that identifies the particular device. This is the device ID specified in the device's PCI configuration space.
 
+### -param LegacyResourceList 
 
-### -param LegacyResourceList [in, out]
+[in, out]
+Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space.
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
+### -param LegacyResourceCount 
 
-
-### -param LegacyResourceCount [in, out]
-
+[in, out]
 Is the number of elements in the array to which <i>LegacyResourceList</i> points.
 
-
 ## -remarks
-
-
 
 Legacy resources are those resources that are not listed in the device's PCI configuration space but that are decoded by the device. If the legacy resource list for the device is not known at compile time, a miniport driver should implement a <i>HwVidLegacyResources </i> function and initialize the <b>HwGetLegacyResources</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a> to point to this function. For example, a miniport driver that supports two devices with different sets of legacy resources would implement <i>HwVidLegacyResources </i> to report the legacy resources for a particular device at run time.
 
@@ -86,16 +78,7 @@ The resources returned by <i>HwVidLegacyResources </i> are added to the list of 
 
 <i>HwVidLegacyResources</i> should be made pageable.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>
- 
-
- 
 

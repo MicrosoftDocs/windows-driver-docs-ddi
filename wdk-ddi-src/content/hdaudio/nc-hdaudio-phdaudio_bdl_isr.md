@@ -8,8 +8,6 @@ ms.assetid: 9DC36C2E-6609-46C8-870E-44845020A4B2
 ms.date: 05/08/2018
 keywords: ["PHDAUDIO_BDL_ISR callback function"]
 ms.keywords: HDAudioBdlIsr, HDAudioBdlIsr callback function [Audio Devices], PHDAUDIO_BDL_ISR, PHDAUDIO_BDL_ISR callback, audio.phdaudio_bdl_isr, hdaudio/HDAudioBdlIsr
-f1_keywords:
- - "hdaudio/HDAudioBdlIsr"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- hdaudio.h
-api_name:
-- HDAudioBdlIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PHDAUDIO_BDL_ISR
+ - hdaudio/PHDAUDIO_BDL_ISR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - hdaudio.h
+api_name:
+ - HDAudioBdlIsr
 ---
 
 # PHDAUDIO_BDL_ISR callback function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The HDAudioBdlIsr routine is the ISR that the HD Audio bus driver calls each time an IOC interrupt occurs on the stream. It is a function pointer of type PHDAUDIO_BDL_ISR, which is defined as follows.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 The HD Audio bus driver calls the ISR with the same context value that the client specified in the context parameter of the preceding SetupDmaEngineWithBdl call. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">PSETUP_DMA_ENGINE_WITH_BDL</a>.
 
+### -param InterruptBitMask 
 
-### -param InterruptBitMask [in]
-
+[in]
 The interruptBitMask parameter contains the bits from the HD Audio controller device's stream status register that indicate the reason for the interrupt. The following table shows the meaning of the individual bits in interruptBitMask.
 
 <table>
@@ -139,25 +134,13 @@ The FIFO size is the maximum number of bytes that the DMA engine can hold in its
 
 Depending on the hardware implementation, a DMA engine's FIFO size can either be static or vary dynamically with changes in the stream format. For more information about the FIFO size, see the Intel High Definition Audio Specification.
 
-
-
-
 ## -remarks
 
-
-
-
-
 The caller must allocate the buffer memory and BDL from the nonpaged pool.
-
-
-
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">PSETUP_DMA_ENGINE_WITH_BDL</a>
 
 [hdaudio.h](../hdaudio/index.md)
-
- 
 

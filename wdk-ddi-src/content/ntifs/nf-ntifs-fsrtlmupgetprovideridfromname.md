@@ -8,8 +8,6 @@ ms.assetid: a572398c-1755-4fc6-844b-85059d4d02cb
 ms.date: 04/16/2018
 keywords: ["FsRtlMupGetProviderIdFromName function"]
 ms.keywords: FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName
-f1_keywords:
- - "ntifs/FsRtlMupGetProviderIdFromName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlMupGetProviderIdFromName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlMupGetProviderIdFromName
+ - ntifs/FsRtlMupGetProviderIdFromName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlMupGetProviderIdFromName
 ---
 
 # FsRtlMupGetProviderIdFromName function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlMupGetProviderIdFromName</b> routine gets the provider identifier of a network redirector that is registered with the multiple UNC provider (MUP) from the device name of the network redirector.
-
 
 ## -parameters
 
+### -param pProviderName 
 
-
-
-### -param pProviderName [in]
-
+[in]
 A pointer to a Unicode string that contains the device name of the network redirector.
 
+### -param pProviderId 
 
-### -param pProviderId [out]
-
+[out]
 A pointer to a ULONG32-typed variable that receives the provider identifier of the network redirector.
 
-
 ## -returns
-
-
 
 The <b>FsRtlMupGetProviderIdFromName</b> routine returns one of the following NTSTATUS values.
 
@@ -111,14 +103,8 @@ The name of the network redirector specified in the <i>pProviderName </i>paramet
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A file system filter driver can call the <b>FsRtlMupGetProviderIdFromName</b> routine to get the provider identifier of a network redirector from the name of the network redirector. The file system filter driver can quickly compare the value of this identifier to the value of other provider identifiers without needing to do a string comparison.
 
@@ -126,16 +112,7 @@ The value of the provider identifier for a particular network redirector remains
 
 To get the provider identifier of a network redirector from a file object, a file system filter driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546981">FsRtlMupGetProviderInfoFromFileObject</a> routine.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546981">FsRtlMupGetProviderInfoFromFileObject</a>
- 
-
- 
 

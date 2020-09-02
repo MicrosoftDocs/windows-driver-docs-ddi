@@ -8,8 +8,6 @@ ms.assetid: 0b834d01-5603-43e8-9b74-9292610cc06d
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_QUEUE_IO_DEFAULT callback function"]
 ms.keywords: DFQueueObjectRef_aca0c34e-8d7d-4eba-b1ac-c91928db896e.xml, EVT_WDF_IO_QUEUE_IO_DEFAULT, EVT_WDF_IO_QUEUE_IO_DEFAULT callback, EvtIoDefault, EvtIoDefault callback function, kmdf.evtiodefault, wdf.evtiodefault, wdfio/EvtIoDefault
-f1_keywords:
- - "wdfio/EvtIoDefault"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfio.h
-api_name:
-- EvtIoDefault
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_QUEUE_IO_DEFAULT
+ - wdfio/EVT_WDF_IO_QUEUE_IO_DEFAULT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfio.h
+api_name:
+ - EvtIoDefault
 ---
 
 # EVT_WDF_IO_QUEUE_IO_DEFAULT callback function
@@ -47,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoDefault</i> event callback function processes a specified I/O request.
 
-
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to the framework queue object that is associated with the I/O request.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
-
 ## -remarks
-
-
 
 A driver registers an <i>EvtIoDefault</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>. For more information about calling <b>WdfIoQueueCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
@@ -100,15 +92,7 @@ A driver's <i>EvtIoDefault</i> callback function should not call the following q
 </dd>
 </dl>
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a>
 
@@ -131,7 +115,4 @@ A driver's <i>EvtIoDefault</i> callback function should not call the following q
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
- 
-
- 
 

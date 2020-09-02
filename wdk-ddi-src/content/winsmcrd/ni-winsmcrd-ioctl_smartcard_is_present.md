@@ -8,8 +8,6 @@ ms.assetid: 8EF97A77-7A6A-4FDF-82AA-05481AEA7C28
 ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_IS_PRESENT IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_IS_PRESENT, IOCTL_SMARTCARD_IS_PRESENT control, IOCTL_SMARTCARD_IS_PRESENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_present, winsmcrd/IOCTL_SMARTCARD_IS_PRESENT
-f1_keywords:
- - "winsmcrd/IOCTL_SMARTCARD_IS_PRESENT"
 req.header: winsmcrd.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsmcrd.h
-api_name:
-- IOCTL_SMARTCARD_IS_PRESENT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SMARTCARD_IS_PRESENT
+ - winsmcrd/IOCTL_SMARTCARD_IS_PRESENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsmcrd.h
+api_name:
+ - IOCTL_SMARTCARD_IS_PRESENT
 ---
 
 # IOCTL_SMARTCARD_IS_PRESENT IOCTL
@@ -47,61 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SMARTCARD_IS_PRESENT</b> 
-   control code detects whether a smart card is currently detected. If a card is present, it returns immediately with STATUS_SUCCESS. If no smart card is detected, it subscribes to the smart card arrival event and is kept pending. Closing the file handle unsubscribes the event. 
-
+   control code detects whether a smart card is currently detected. If a card is present, it returns immediately with STATUS_SUCCESS. If no smart card is detected, it subscribes to the smart card arrival event and is kept pending. Closing the file handle unsubscribes the event.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -134,12 +98,8 @@ None.
 <td>This code is returned when the proximity radio control is off.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following actions are required when using this IOCTL:<ul>
 <li>
@@ -151,21 +111,11 @@ The driver must support CancelIo on this pended IOCTL.
 <li>The driver must return STATUS_SUCCESS only for the supported type.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
- 
-
- 
 

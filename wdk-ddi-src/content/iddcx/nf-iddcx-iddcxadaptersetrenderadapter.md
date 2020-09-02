@@ -8,43 +8,45 @@ ms.assetid: 98694b19-628c-4e3e-959f-49445fa232c2
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["IddCxAdapterSetRenderAdapter function"]
-f1_keywords:
- - "iddcx/IddCxAdapterSetRenderAdapter"
 ms.keywords: IddCxAdapterSetRenderAdapter
 req.header: iddcx.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
-- iddcx.h
-api_name: 
- - IddCxAdapterSetRenderAdapter
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - IddCxAdapterSetRenderAdapter
+ - iddcx/IddCxAdapterSetRenderAdapter
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IddCxAdapterSetRenderAdapter
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # IddCxAdapterSetRenderAdapter function
+
 
 ## -description
 
@@ -67,3 +69,4 @@ The driver can call **IddCxAdapterSetRenderAdapter** at anytime to change the pr
 ## -see-also
 
 [IDARG_IN_ADAPTERSETRENDERADAPTER](ns-iddcx-idarg_in_adaptersetrenderadapter.md)
+

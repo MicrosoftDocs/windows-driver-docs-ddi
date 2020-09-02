@@ -8,8 +8,6 @@ ms.assetid: 96bc080b-1ee2-4a32-be98-c58f6649e120
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPAction2::EDTSurpriseRemoveDevice"]
 ms.keywords: EDTSurpriseRemoveDevice, EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTSurpriseRemoveDevice method, IWDTFPNPAction2.EDTSurpriseRemoveDevice, IWDTFPNPAction2::EDTSurpriseRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTSurpriseRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpaction2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPAction2::EDTSurpriseRemoveDevice
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPAction2.EDTSurpriseRemoveDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverPNPAction.Interop.dll
-api_name:
-- IWDTFPNPAction2.EDTSurpriseRemoveDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPAction2::EDTSurpriseRemoveDevice
+ - wdtfpnpaction/IWDTFPNPAction2::EDTSurpriseRemoveDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverPNPAction.Interop.dll
+api_name:
+ - IWDTFPNPAction2.EDTSurpriseRemoveDevice
 ---
 
 # IWDTFPNPAction2::EDTSurpriseRemoveDevice
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
-
 
 ## -parameters
 
+### -param pbSuccess 
 
-
-
-### -param pbSuccess [out, retval]
-
+[out, retval]
 True if the operation succeeds; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
 method must be called for the target device before calling this method.</div>
@@ -82,16 +69,7 @@ This operation is useful for testing
 how drivers and driver/device aware applications handle the IRP_MN_SURPRISE_REMOVAL event, e.g. scenarios in which 
 the device unexpectedly fails or is removed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
- 
-
- 
 

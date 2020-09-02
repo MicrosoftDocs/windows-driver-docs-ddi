@@ -8,8 +8,6 @@ ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.date: 05/10/2018
 keywords: ["VideoPortGetDeviceBase function"]
 ms.keywords: VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
-f1_keywords:
- - "video/VideoPortGetDeviceBase"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortGetDeviceBase
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortGetDeviceBase
+ - video/VideoPortGetDeviceBase
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortGetDeviceBase
 ---
 
 # VideoPortGetDeviceBase function
@@ -47,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortGetDeviceBase</b> function maps a range of bus-relative device memory or I/O addresses into system space.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's device extension.
-
 
 ### -param IoAddress
 
@@ -67,11 +60,9 @@ The base physical address of the range to map. You get this bus-relative value b
 
 You must have successfully claimed the range described by <i>IoAddress</i> and <i>NumberOfUchars</i> in the registry through a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a> or <b>VideoPortGetAccessRanges</b>.
 
-
 ### -param NumberOfUchars
 
 The number of bytes, starting at <i>IoAddress</i>, to map.
-
 
 ### -param InIoSpace
 
@@ -82,20 +73,13 @@ The location of the <i>IoAddress</i> range. This parameter can be one of the fol
 | VIDEO_MEMORY_SPACE_DENSE | Obsolete. | 
 | VIDEO_MEMORY_SPACE_IO | The address range is in I/O space, not in memory space. | 
 | VIDEO_MEMORY_SPACE_MEMORY | The address range is in memory space, not in I/O space. | 
-| VIDEO_MEMORY_SPACE_P6CACHE | The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set. Designates the video memory as write-combined (WC). For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://docs.microsoft.com/previous-versions/windows/hardware/design/dn642116(v=vs.85)) website article. | 
+| VIDEO_MEMORY_SPACE_P6CACHE | The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set. Designates the video memory as write-combined (WC). For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://docs.microsoft.com/previous-versions/windows/hardware/design/dn642116(v=vs.85)) website article. |
 
 ## -returns
 
-
-
 If successful, <b>VideoPortGetDeviceBase</b> returns the base virtual address of the mapping. If the specified bus-relative range cannot be mapped, <b>VideoPortGetDeviceBase</b> returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 You can pass the mapped virtual addresses to the <b>VideoPortRead</b><i>Xxx</i>, <b>VideoPortWrite</b><i>Xxx</i>, and <b>VideoPort</b><i>Xxx</i><b>Memory</b> functions, except for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportmapmemory">VideoPortMapMemory</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportunmapmemory">VideoPortUnmapMemory</a>.
 
@@ -123,15 +107,9 @@ The driver must not access addresses that are outside the range delimited by <i>
 
 Every universal memory architecture (UMA) display device uses a frame buffer that is located in main memory rather than on a PCI bus. In this case, do not call <b>VideoPortMapMemory</b> to map the frame buffer. To map a UMA frame buffer into system space, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>.
 
-If a miniport driver does not support an adapter that it has mapped a logical range for, it must perform two steps before it returns control to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function: call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportfreedevicebase">VideoPortFreeDeviceBase</a> to unmap the previously mapped range from system space, and call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetaccessranges">VideoPortGetAccessRanges</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a> to release its claims on the range in the registry. 
-
-
-
+If a miniport driver does not support an adapter that it has mapped a logical range for, it must perform two steps before it returns control to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function: call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportfreedevicebase">VideoPortFreeDeviceBase</a> to unmap the previously mapped range from system space, and call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetaccessranges">VideoPortGetAccessRanges</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a> to release its claims on the range in the registry.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
@@ -178,7 +156,4 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
- 
-
- 
 

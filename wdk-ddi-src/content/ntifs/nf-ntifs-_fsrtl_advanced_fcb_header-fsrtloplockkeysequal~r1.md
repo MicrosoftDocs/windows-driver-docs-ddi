@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockKeysEqual function"]
 ms.keywords: FsRtlOplockKeysEqual, FsRtlOplockKeysEqual routine [Installable File System Drivers], fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, ifsk.fsrtloplockkeysequal, ntifs/FsRtlOplockKeysEqual
 f1_keywords:
  - "ntifs/FsRtlOplockKeysEqual"
+ - "FsRtlOplockKeysEqual"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockKeysEqual
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlOplockKeysEqual</b> routine compares the opportunistic lock (oplock)
 
 
 
-### -param Fo1 [in, optional]
-
+### -param Fo1 
+[in, optional]
 A pointer to the first file object for the comparison.
 
 
-### -param Fo2 [in, optional]
-
+### -param Fo2 
+[in, optional]
 A pointer to the second file object for the comparison.
 
 

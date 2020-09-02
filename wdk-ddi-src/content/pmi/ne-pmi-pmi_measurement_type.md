@@ -8,8 +8,6 @@ ms.assetid: 7a075d95-3bc6-4869-bcd6-1bce6df43384
 ms.date: 05/08/2018
 keywords: ["PMI_MEASUREMENT_TYPE enumeration"]
 ms.keywords: PMI_MEASUREMENT_TYPE, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeInput, PmiMeasurementTypeMax, PmiMeasurementTypeOutput, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeMax, pmi/PmiMeasurementTypeOutput, powermeter.pmi_measurement_type
-f1_keywords:
- - "pmi/PMI_MEASUREMENT_TYPE"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pmi.h
-api_name:
-- PMI_MEASUREMENT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_MEASUREMENT_TYPE
+f1_keywords:
+ - PMI_MEASUREMENT_TYPE
+ - pmi/PMI_MEASUREMENT_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pmi.h
+api_name:
+ - PMI_MEASUREMENT_TYPE
 ---
 
 # PMI_MEASUREMENT_TYPE enumeration
@@ -47,45 +46,29 @@ req.typenames: PMI_MEASUREMENT_TYPE
 
 ## -description
 
-
 The PMI_MEASUREMENT_TYPE enumeration defines the source of the PMI measurement data.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PmiMeasurementTypeInput
 
 The PMI measurement data is based on input power.
 
-
 ### -field PmiMeasurementTypeOutput
 
 The PMI measurement data is based on output power.
-
 
 ### -field PmiMeasurementTypeMax
 
 The maximum types of PMI measurement data.
 
-
 ## -remarks
-
-
 
 The <b>MeasurementType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a> structure specifies the type of PMI measurement data reported by a power meter. This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a> request.
 
 PMI measurement data is returned through a query request of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_measurement">IOCTL_PMI_GET_MEASUREMENT</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
@@ -96,7 +79,4 @@ PMI measurement data is returned through a query request of <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a>
- 
-
- 
 

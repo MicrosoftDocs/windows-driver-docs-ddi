@@ -8,8 +8,6 @@ ms.assetid: 4b7aac38-ab29-4cac-a7f0-896423b17400
 ms.date: 04/23/2018
 keywords: ["KsGetMediaType function"]
 ms.keywords: KsGetMediaType, KsGetMediaType function [Streaming Media Devices], ksproxy/KsGetMediaType, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, stream.ksgetmediatype
-f1_keywords:
- - "ksproxy/KsGetMediaType"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ksproxy.lib
-- Ksproxy.dll
-api_name:
-- KsGetMediaType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsGetMediaType
+ - ksproxy/KsGetMediaType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ksproxy.lib
+ - Ksproxy.dll
+api_name:
+ - KsGetMediaType
 ---
 
 # KsGetMediaType function
@@ -48,62 +47,41 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsGetMediaType</b> function retrieves information about a media type on a pin factory identifier. 
-
+The <b>KsGetMediaType</b> function retrieves information about a media type on a pin factory identifier.
 
 ## -parameters
 
+### -param Position 
 
-
-
-### -param Position [in]
-
+[in]
 Offset into the data range item that <b>KsGetMediaType</b> fills. Note that the data type of <i>Position</i> is <b>int</b> to conform to underlying calls.
 
+### -param AmMediaType 
 
-### -param AmMediaType [out]
-
+[out]
 Pointer to a variable that receives information in a AM_MEDIA_TYPE structure.
 
+### -param FilterHandle 
 
-### -param FilterHandle [in]
-
+[in]
 Handle to the filter that contains the pin factory to query.
 
+### -param PinFactoryId 
 
-### -param PinFactoryId [in]
-
+[in]
 Identifier of the pin factory against which the information for a media type is being returned.
-
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>KsGetMediaType</b> function queries the list of data ranges and performs a data intersection on the specified data range, thus producing a data format. It then converts that data format to a media type.
 
 For more information about AM_MEDIA_TYPE, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>
- 
-
- 
 

@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::IsImported"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],IsImported method, IWDTFDriverSetupSystemAction2.IsImported, IWDTFDriverSetupSystemAction2::IsImported, IsImported, IsImported method [Windows Device Testing Framework], IsImported method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.IsImported, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::IsImported, dtf.iwdtfdriversetupsystemaction2_isimported, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::IsImported
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.IsImported"
+ - "IWDTFDriverSetupSystemAction2.IsImported"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.IsImported
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,8 +55,8 @@ Returns a value that indicates whether a package has already been imported.
 
 
 
-### -param pDp [in]
-
+### -param pDp 
+[in]
 The package that is to be checked.
 
 
@@ -77,7 +76,7 @@ True if the package has already been imported; otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

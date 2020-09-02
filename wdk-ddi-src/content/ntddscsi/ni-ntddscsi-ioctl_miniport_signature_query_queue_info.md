@@ -9,6 +9,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO IOCTL"]
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO"
+ - "IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO"
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:
@@ -29,8 +30,6 @@ api_location:
 - ntddscsi.h
 api_name: 
 - IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
-product:
-- Windows
 targetos: Windows
 ---
 

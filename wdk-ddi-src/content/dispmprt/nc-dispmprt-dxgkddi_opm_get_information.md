@@ -8,38 +8,37 @@ ms.assetid: 3d6559e5-776e-4fc0-b99a-8818cbcc289d
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_OPM_GET_INFORMATION callback function"]
 ms.keywords: DXGKDDI_OPM_GET_INFORMATION, DXGKDDI_OPM_GET_INFORMATION callback, Dm_Opm_functions_6d4af4a5-4390-49f1-a557-735bf2c90ce6.xml, DxgkDdiOPMGetInformation, DxgkDdiOPMGetInformation callback function [Display Devices], display.dxgkddiopmgetinformation, dispmprt/DxgkDdiOPMGetInformation
-f1_keywords:
- - "dispmprt/DxgkDdiOPMGetInformation"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiOPMGetInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_OPM_GET_INFORMATION
+ - dispmprt/DXGKDDI_OPM_GET_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiOPMGetInformation
 ---
 
 # DXGKDDI_OPM_GET_INFORMATION callback function
@@ -47,12 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The<i> DxgkDdiOPMGetInformation</i> function retrieves information from the given protected output object.
 
+## -parameters
+
+### -param MiniportDeviceContext 
+
+[in]
+A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
+
+### -param ProtectedOutputHandle 
+
+[in]
+The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a> function creates the protected output object and returns the handle to the object. The protected output object that corresponds to this handle should have OPM semantics.
+
+### -param PDXGKMDT_OPM_GET_INFO_PARAMETERS
+
+A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> structure that contains parameters that are used to retrieve information from a protected output object whose handle is specified in the <i>ProtectedOutputHandle</i> parameter. <i>DxgkDdiOPMGetInformation</i> determines if the parameters contain a valid request from the application that indirectly created the protected output object. For more information, see the Remarks section.
+
+### -param RequestedInformation 
+
+[out]
+A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a> structure that receives the protected output object's information if <i>DxgkDdiOPMGetInformation</i> returns successfully.
+
+If <i>DxgkDdiOPMGetInformation</i> fails, the value that <i>RequestedInformation</i> points to is unchanged.
+
+## -returns
+
+<i>DxgkDdiOPMGetInformation</i> returns one of the following values:
+
+This function might also return other error codes that are defined in Ntstatus.h.
 
 ## -prototype
-
 
 ```cpp
 DXGKDDI_OPM_GET_INFORMATION DxgkDdiOPMGetInformation;
@@ -66,51 +91,7 @@ NTSTATUS DxgkDdiOPMGetInformation(
 { ... }
 ```
 
-
-## -parameters
-
-
-
-
-### -param MiniportDeviceContext [in]
-
-A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
-
-
-### -param ProtectedOutputHandle [in]
-
-The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a> function creates the protected output object and returns the handle to the object. The protected output object that corresponds to this handle should have OPM semantics.
-
-
-### -param PDXGKMDT_OPM_GET_INFO_PARAMETERS
-
-A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> structure that contains parameters that are used to retrieve information from a protected output object whose handle is specified in the <i>ProtectedOutputHandle</i> parameter. <i>DxgkDdiOPMGetInformation</i> determines if the parameters contain a valid request from the application that indirectly created the protected output object. For more information, see the Remarks section.
-
-### -param RequestedInformation [out]
-
-A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a> structure that receives the protected output object's information if <i>DxgkDdiOPMGetInformation</i> returns successfully.
-
-If <i>DxgkDdiOPMGetInformation</i> fails, the value that <i>RequestedInformation</i> points to is unchanged.
-
-
-
-
-
-
-## -returns
-
-
-
-<i>DxgkDdiOPMGetInformation</i> returns one of the following values:
-
-This function might also return other error codes that are defined in Ntstatus.h.
-
-
-
-
 ## -remarks
-
-
 
 The DirectX graphics kernel subsystem should call <i>DxgkDdiOPMGetInformation</i> only if the output has OPM semantics.
 
@@ -180,9 +161,6 @@ Initially, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetInformati
 
 <i>DxgkDdiOPMGetInformation</i> should be made pageable.
 
-
-
-
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
@@ -214,11 +192,4 @@ Initially, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetInformati
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
-
-
-
- 
-
- 
-
 

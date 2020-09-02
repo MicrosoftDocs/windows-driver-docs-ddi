@@ -6,10 +6,8 @@ old-location: kernel\pep_soc_subsystem_metadata.htm
 tech.root: kernel
 ms.assetid: 4FAE15C7-7B2F-47A5-B429-B7FF7D3D018C
 ms.date: 04/30/2018
-keywords: ["_PEP_SOC_SUBSYSTEM_METADATA structure"]
+keywords: ["PEP_SOC_SUBSYSTEM_METADATA structure"]
 ms.keywords: "*PPEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_SOC_SUBSYSTEM_METADATA, PPEP_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_SOC_SUBSYSTEM_METADATA, kernel.pep_soc_subsystem_metadata, pepfx/PEP_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_SOC_SUBSYSTEM_METADATA"
-f1_keywords:
- - "pep_x/PEP_SOC_SUBSYSTEM_METADATA"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_SOC_SUBSYSTEM_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA
+f1_keywords:
+ - _PEP_SOC_SUBSYSTEM_METADATA
+ - pep_x/_PEP_SOC_SUBSYSTEM_METADATA
+ - PPEP_SOC_SUBSYSTEM_METADATA
+ - pep_x/PPEP_SOC_SUBSYSTEM_METADATA
+ - PEP_SOC_SUBSYSTEM_METADATA
+ - pep_x/PEP_SOC_SUBSYSTEM_METADATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_SOC_SUBSYSTEM_METADATA
 ---
 
 # _PEP_SOC_SUBSYSTEM_METADATA structure
@@ -47,14 +50,9 @@ req.typenames: PEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA
 
 ## -description
 
-
 The <b>PEP_SOC_SUBSYSTEM_METADATA</b> structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a> notification sent to a platform extension plug-in (PEP).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Key
 
@@ -75,7 +73,6 @@ Prior to exit from the callback routine, the PEP must copy a null-terminated str
 The PEP must use the allocated memory that is pointed to by the address in <b>Key.Buffer</b> to provide the key. 
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the key string, if necessary, so that it does not exceed the length specified in <b>Key.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
 
-
 ### -field Value
 
 [in/out] A buffer for the PEP to write the value portion of the metadata string-pair.  
@@ -93,18 +90,11 @@ Prior to exit from the callback routine, the PEP must copy a null-terminated str
 The PEP must use the allocated memory that is pointed to by the address in <b>Value.Buffer</b> to provide the metadata value. 
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the value string, if necessary, so that it does not exceed the length specified in <b>Value.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_soc_subsystem_metadata">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
- 
-
- 
 

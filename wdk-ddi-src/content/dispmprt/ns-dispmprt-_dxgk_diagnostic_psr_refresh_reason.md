@@ -4,41 +4,43 @@ title: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON (dispmprt.h)
 description: Indicates the reason or reasons for exiting PSR (Panel Self-Refresh).
 ms.assetid: 6dcc76d1-6019-4ccd-b560-44ec3d59e0cd
 ms.date: 10/19/2018
-keywords: ["_DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure"]
-f1_keywords:
- - "dispmprt/_DXGK_DIAGNOSTIC_PSR_REFRESH_REASON"
-ms.keywords: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, 
+keywords: ["DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure"]
+ms.keywords: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, DXGK_DIAGNOSTIC_PSR_REFRESH_REASON,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- dispmprt.h
-api_name: 
-- _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
+ - dispmprt/_DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
+ - DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
+ - dispmprt/DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure
+
 
 ## -description
 
@@ -74,17 +76,17 @@ The display panel has requested an update from the host.
 
 ### -field Other
 
-A reason understood by the driver but not specified by any of the above. 
+A reason understood by the driver but not specified by any of the above.
 
 ### -field Reserved
 
 Reserved.
 
 ### -field Value
- 
 
 ## -remarks
 
 See [_DXGK_DIAGNOSTIC_PSR](../dispmprt/ns-dispmprt-_dxgk_diagnostic_psr.md) structure, in the remarks section for more info about PSR.
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 6e291139-d7d3-4927-ad01-b09bddb0b945
 ms.date: 04/30/2018
 keywords: ["CmUnRegisterCallback function"]
 ms.keywords: CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml, kernel.cmunregistercallback, wdm/CmUnRegisterCallback
-f1_keywords:
- - "wdm/CmUnRegisterCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CmUnRegisterCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CmUnRegisterCallback
+ - wdm/CmUnRegisterCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CmUnRegisterCallback
 ---
 
 # CmUnRegisterCallback function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>CmUnRegisterCallback</b> routine unregisters a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine that a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine previously registered.
-
 
 ## -parameters
 
+### -param Cookie 
 
-
-
-### -param Cookie [in]
-
-A LARGE_INTEGER value that identifies the callback routine to unregister. <b>CmRegisterCallback</b> provided this value when you registered the callback routine. 
-
+[in]
+A LARGE_INTEGER value that identifies the callback routine to unregister. <b>CmRegisterCallback</b> provided this value when you registered the callback routine.
 
 ## -returns
 
-
-
 <b>CmUnRegisterCallback</b> returns STATUS_SUCCESS if it succeeds or the appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> error code if it fails. If the <i>Cookie</i> parameter does not match any registered callback routines, <b>CmUnRegisterCallback</b> returns STATUS_INVALID_PARAMETER.
 
-
-
-
 ## -remarks
-
-
 
 A driver that calls <b>CmRegisterCallback</b> or <b>CmRegisterCallbackEx</b> should call <b>CmUnRegisterCallback</b> before the driver is unloaded. 
 
@@ -80,13 +67,7 @@ A driver that calls <b>CmRegisterCallback</b> or <b>CmRegisterCallbackEx</b> sho
 <div> </div>
 For more information about <b>CmUnRegisterCallback</b> and filtering registry operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
 
@@ -97,7 +78,4 @@ For more information about <b>CmUnRegisterCallback</b> and filtering registry op
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
- 
-
- 
 

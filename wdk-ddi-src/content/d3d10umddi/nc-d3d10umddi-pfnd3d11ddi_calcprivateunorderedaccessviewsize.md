@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateUnorderedAccessViewSize"
+ - PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE
+ - d3d10umddi/PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE callback function
+
 
 ## -description
 

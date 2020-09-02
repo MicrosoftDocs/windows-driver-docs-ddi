@@ -8,8 +8,6 @@ ms.assetid: 311C5273-1C16-4EA7-96B4-838CCE6926BA
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_START_CONTROLLER callback function"]
 ms.keywords: CLIENT_StartController, CLIENT_StartController callback, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
-f1_keywords:
- - "gpioclx/CLIENT_StartController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL (see Remarks).
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_StartController
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_START_CONTROLLER
+ - gpioclx/GPIO_CLIENT_START_CONTROLLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_StartController
 ---
 
 # GPIO_CLIENT_START_CONTROLLER callback function
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_StartController</i> event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device enters the D0 power state.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
+### -param RestoreContext 
 
-### -param RestoreContext [in]
-
+[in]
 Whether the client driver should restore the GPIO controller to a previously saved hardware context. If TRUE, the hardware context should be restored. If FALSE, the hardware context should not be restored. For more information, see Remarks.
 
+### -param PreviousPowerState 
 
-### -param PreviousPowerState [in]
-
+[in]
 The previous device power state. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state from which the device entered the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device so that it is ready to use.
-
 
 ## -returns
 
-
-
 The <i>CLIENT_StartController</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function to place the GPIO controller device in a known, initial state at system startup or when the device transitions from a low-power state to a working state. This callback function must perform any operations that are necessary after the device wakes from a low-power state, such as restoring any information that the driver needs after the device enters the D0 power state.
 
@@ -133,19 +120,11 @@ The GPIO_CLIENT_START_CONTROLLER function type is defined in the Gpioclx.h heade
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
- 
-
- 
 

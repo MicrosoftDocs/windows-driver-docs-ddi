@@ -8,8 +8,6 @@ ms.assetid: 76ab776d-0921-4fdb-9646-2cb97a582f6e
 ms.date: 04/23/2018
 keywords: ["KSAUTOMATION_TABLE_ structure"]
 ms.keywords: "*PKSAUTOMATION_TABLE, KSAUTOMATION_TABLE, KSAUTOMATION_TABLE structure [Streaming Media Devices], KSAUTOMATION_TABLE_, PKSAUTOMATION_TABLE, PKSAUTOMATION_TABLE structure pointer [Streaming Media Devices], avstruct_7389df5c-d86a-43b2-9daf-d0e1e8a2dfbe.xml, ks/KSAUTOMATION_TABLE, ks/PKSAUTOMATION_TABLE, stream.ksautomation_table"
-f1_keywords:
- - "ks/KSAUTOMATION_TABLE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSAUTOMATION_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUTOMATION_TABLE, *PKSAUTOMATION_TABLE
+f1_keywords:
+ - KSAUTOMATION_TABLE_
+ - ks/KSAUTOMATION_TABLE_
+ - PKSAUTOMATION_TABLE
+ - ks/PKSAUTOMATION_TABLE
+ - KSAUTOMATION_TABLE
+ - ks/KSAUTOMATION_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSAUTOMATION_TABLE
 ---
 
 # KSAUTOMATION_TABLE_ structure
+
 
 ## -description
 
@@ -133,3 +137,4 @@ DEFINE_KSAUTOMATION_TABLE (MyAutomationTable) {
 [KSPROPERTY_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item)
 
 [KSPROPERTY_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set)
+

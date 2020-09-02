@@ -8,8 +8,6 @@ ms.assetid: fb67b116-12f5-4eef-ab05-f2056ccec4e3
 ms.date: 04/16/2018
 keywords: ["FsRtlValidateReparsePointBuffer function"]
 ms.keywords: FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, ifsk.fsrtlvalidatereparsepointbuffer, ntifs/FsRtlValidateReparsePointBuffer
-f1_keywords:
- - "ntifs/FsRtlValidateReparsePointBuffer"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlValidateReparsePointBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlValidateReparsePointBuffer
+ - ntifs/FsRtlValidateReparsePointBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlValidateReparsePointBuffer
 ---
 
 # FsRtlValidateReparsePointBuffer function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlValidateReparsePointBuffer</b> routine verifies that the specified reparse point buffer is valid.
-
 
 ## -parameters
 
+### -param BufferLength 
 
-
-
-### -param BufferLength [in]
-
+[in]
 The length of the reparse point buffer.
 
+### -param ReparseBuffer 
 
-### -param ReparseBuffer [in]
-
+[in]
 The reparse point buffer to be validated.
 
-
 ## -returns
-
-
 
 The<b> FsRtlValidateReparsePointBuffer</b> returns one of the following NTSTATUS values:
 
@@ -111,33 +103,18 @@ The buffer has an invalid reparse tag.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For more information about reparse points, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/reparse-points-in-a-file-system-filter-driver">Reparse Points in a File System Filter Driver</a>.
 
 Reparse tags contain several bits that cannot be set except by system components. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=179582">Reparse Point Tags</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer">REPARSE_DATA_BUFFER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a>
- 
-
- 
 

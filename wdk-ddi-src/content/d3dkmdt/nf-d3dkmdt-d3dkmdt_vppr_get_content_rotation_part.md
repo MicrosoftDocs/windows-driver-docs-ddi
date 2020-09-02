@@ -8,8 +8,6 @@ ms.assetid: B533B0DD-B72C-4294-8E88-4C15EA1BB16E
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function"]
 ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, display.d3dkmdt_vppr_get_content_rotation_part
-f1_keywords:
- - "d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3dkmdt.h
-api_name:
-- D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
+ - d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3dkmdt.h
+api_name:
+ - D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
 ---
 
 # D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 A helper function that extracts the rotation angle from a given value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a> enumeration. Only drivers that support path-independent rotation (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION) should call this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Rotation
 
@@ -62,10 +56,7 @@ On input, a value from  the <a href="https://docs.microsoft.com/windows-hardware
 
 On output, a value between 1 and 4, inclusive, that corresponds to the <b>ROTATION</b> portion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a> constant values. An output value of 1 (identity) represents 0 degrees of rotation, 2 represents 90 degrees, and so on. An output value of 0 indicates that the VidPN path is not initialized.
 
-
 ## -returns
-
-
 
 The returned value corresponds to the rotation angle as follows:
 
@@ -89,10 +80,7 @@ The returned value corresponds to the rotation angle as follows:
 |15|D3DKMDT_VPPR_ROTATE180_OFFSET270|180|3|
 |16|D3DKMDT_VPPR_ROTATE270_OFFSET270|270|4|
 
-
 ## -remarks
-
-
 
 This function is declared inline in D3dkmdt.h as:
 
@@ -115,16 +103,7 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 
 Your driver typically won't need to call this function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
- 
-
- 
 

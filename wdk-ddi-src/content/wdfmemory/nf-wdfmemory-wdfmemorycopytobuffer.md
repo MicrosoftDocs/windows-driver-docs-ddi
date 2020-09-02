@@ -8,8 +8,6 @@ ms.assetid: cb1fc590-3d3a-4b06-b467-28c3adb43706
 ms.date: 02/26/2018
 keywords: ["WdfMemoryCopyToBuffer function"]
 ms.keywords: DFMemoryObjectRef_8668c3aa-f5f0-4a1a-9290-27cf78fbcd24.xml, WdfMemoryCopyToBuffer, WdfMemoryCopyToBuffer method, kmdf.wdfmemorycopytobuffer, wdf.wdfmemorycopytobuffer, wdfmemory/WdfMemoryCopyToBuffer
-f1_keywords:
- - "wdfmemory/WdfMemoryCopyToBuffer"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfMemoryCopyToBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfMemoryCopyToBuffer
+ - wdfmemory/WdfMemoryCopyToBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfMemoryCopyToBuffer
 ---
 
 # WdfMemoryCopyToBuffer function
@@ -50,40 +49,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfMemoryCopyToBuffer</b> method copies the contents of a specified memory object's buffer into a specified destination buffer.
 
-
 ## -parameters
 
+### -param SourceMemory 
 
-
-
-### -param SourceMemory [in]
-
+[in]
 A handle to a framework memory object that represents the source buffer.
 
+### -param SourceOffset 
 
-### -param SourceOffset [in]
-
+[in]
 An offset, in bytes, from the beginning of the source buffer. The copy operation begins at the specified offset in the source buffer.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 A pointer to a destination buffer.
 
+### -param NumBytesToCopyTo 
 
-### -param NumBytesToCopyTo [in]
-
+[in]
 The number of bytes to copy from the source buffer to the destination buffer. This value must not be greater than the size of the source buffer.
 
-
 ## -returns
-
-
 
 <b>WdfMemoryCopyToBuffer</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -121,14 +113,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The framework does not allow the driver to copy more bytes than the source buffer that the <i>SourceMemory</i> parameter specifies can contain. 
 
@@ -163,15 +148,7 @@ else{
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycopyfrombuffer">WdfMemoryCopyFromBuffer</a>
- 
-
- 
 

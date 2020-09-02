@@ -1,43 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionParameterTypeAt
 title: IDebugHostType2::GetFunctionParameterTypeAt (dbgmodel.h)
-description: The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function. 
+description: The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function.
 ms.assetid: 7e0e1d0c-519b-4acf-ba48-8231f5235058
 ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetFunctionParameterTypeAt"]
-f1_keywords:
- - "dbgmodel/IDebugHostType2.GetFunctionParameterTypeAt"
 ms.keywords: IDebugHostType2::GetFunctionParameterTypeAt, GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt, IDebugHostType2::GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostType2.GetFunctionParameterTypeAt
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostType2::GetFunctionParameterTypeAt
+ - dbgmodel/IDebugHostType2::GetFunctionParameterTypeAt
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostType2.GetFunctionParameterTypeAt
 ---
 
 # IDebugHostType2::GetFunctionParameterTypeAt
@@ -45,19 +44,20 @@ ms.custom: RS5
 
 ## -description
 
-The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function. 
+The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function.
 
 ## -parameters
 
 ### -param i
+
 A zero based index into the function argument list for which to retrieve the argument type.
 
-
 ### -param parameterType
+
 The type of the i-th argument to the function will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -82,5 +82,8 @@ if (SUCCEEDED(spType->GetFunctionParameterTypeCount(&count)))
     }
 }
 ```
+
 ## -see-also
+
 [IDebugHostType2 interface](nn-dbgmodel-idebughosttype2.md)
+

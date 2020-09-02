@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnShaderCacheStoreValue"
+ - PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB
+ - d3d10umddi/PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback function
+
 
 ## -description
 
@@ -76,5 +78,5 @@ The length of the input value.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

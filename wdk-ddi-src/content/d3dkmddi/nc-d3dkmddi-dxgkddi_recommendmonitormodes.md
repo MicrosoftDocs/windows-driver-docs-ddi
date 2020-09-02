@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiRecommendMonitorModes"
+ - DXGKDDI_RECOMMENDMONITORMODES
+ - d3dkmddi/DXGKDDI_RECOMMENDMONITORMODES
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_RECOMMENDMONITORMODES callback function
+
 
 ## -description
 

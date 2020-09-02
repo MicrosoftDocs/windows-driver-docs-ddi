@@ -6,10 +6,8 @@ old-location: netvista\ndis_pm_capabilities.htm
 tech.root: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
 ms.date: 05/02/2018
-keywords: ["_NDIS_PM_CAPABILITIES structure"]
+keywords: ["NDIS_PM_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, ntddndis/NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES"
-f1_keywords:
- - "ntddndis/NDIS_PM_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_PM_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES
+f1_keywords:
+ - _NDIS_PM_CAPABILITIES
+ - ntddndis/_NDIS_PM_CAPABILITIES
+ - PNDIS_PM_CAPABILITIES
+ - ntddndis/PNDIS_PM_CAPABILITIES
+ - NDIS_PM_CAPABILITIES
+ - ntddndis/NDIS_PM_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_PM_CAPABILITIES
 ---
 
 # _NDIS_PM_CAPABILITIES structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES
 
 ## -description
 
-
 The <b>NDIS_PM_CAPABILITIES</b> structure specifies power management capabilities of a network adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -79,7 +77,6 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
 Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_1.
-
 
 ### -field Flags
 
@@ -120,7 +117,6 @@ For more information about this power management capability, see <a href="https:
 If this flag is set, the miniport driver supports NDIS selective suspend for network adapters. 
 
 For more information about this power management capability, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS Selective Suspend</a>.
-
 
 ### -field SupportedWoLPacketPatterns
 
@@ -241,7 +237,6 @@ The miniport driver must restrict wake-up events to the specified IPv6 addresses
 The network adapter can generate a wake-up event when it receives an EAPOL request identifier
        message.
 
-
 ### -field NumTotalWoLPatterns
 
 A <b>ULONG</b> value that contains the total number of WOL patterns that a network adapter supports. This is the sum of "number of
@@ -256,18 +251,15 @@ For more information about WOL
      protocol patterns, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>.
 
-
 ### -field MaxWoLPatternSize
 
 A ULONG value that contains the maximum number of bytes that can be compared with a
      pattern.
 
-
 ### -field MaxWoLPatternOffset
 
 A ULONG value that contains the number of bytes in a packet that can be examined, starting at
      the beginning of the MAC header.
-
 
 ### -field MaxWoLPacketSaveBuffer
 
@@ -313,12 +305,10 @@ For more information about IPv6 NS messages, see <a href="https://go.microsoft.c
 The network adapter can respond to IEEE 802.11i Robust Security Network (RSN) re-key requests
        while it is in a low power state.
 
-
 ### -field NumArpOffloadIPv4Addresses
 
 A <b>ULONG</b> value that contains the number of IPv4 addresses that the adapter supports for ARP
      offload.
-
 
 ### -field NumNSOffloadIPv6Addresses
 
@@ -376,7 +366,6 @@ The network adapter can signal a magic packet wake-up from a device state of D2.
 
 The network adapter can signal a magic packet wake-up from a device power state  of D3.
 
-
 ### -field MinPatternWakeUp
 
 Specifies the lowest device power state from which a network adapter can signal a wake-up event on receipt of
@@ -420,7 +409,6 @@ The network adapter can signal a pattern-match wake-up from a device power state
 #### NdisDeviceStateD3
 
 The network adapter can signal a pattern-match wake-up from a device power state of D3.
-
 
 ### -field MinLinkChangeWakeUp
 
@@ -470,7 +458,6 @@ The network adapter can signal a link change wake-up from a device power state o
 
 The network adapter can signal a link change wake-up from a device power state of D3.
 
-
 ### -field SupportedWakeUpEvents
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. These flags specify the   media-independent wake-up events that a network adapter supports. 
@@ -491,7 +478,6 @@ If this flag is set, the network adapter can generate a wake-up event when it be
 #### NDIS_PM_WAKE_ON_MEDIA_DISCONNECT_SUPPORTED
 
 If this flag is set, the network adapter can generate a wake-up event when it becomes disconnected to the networking interface.
-
 
 ### -field MediaSpecificWakeUpEvents
 
@@ -546,10 +532,7 @@ If this flag is set, the MB network adapter can generate a wake-up event if the 
 
 If this flag is set, the MB network adapter can generate a wake-up event if it receives an Unstructured Supplementary Service Data (USSD) message.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_PM_CAPABILITIES</b> structure is used in the 
     <b>PowerManagementCapabilitiesEx</b> member of the 
@@ -581,13 +564,7 @@ The
     the NDIS_PM_PROTOCOL_OFFLOAD_ARP_SUPPORTED bit in 
     <b>SupportedProtocolOffloads</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
@@ -620,7 +597,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a>
- 
-
- 
 

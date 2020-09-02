@@ -8,8 +8,6 @@ ms.assetid: a2afb8b8-b0e2-4d22-9d93-33ba2b2f8933
 ms.date: 04/16/2018
 keywords: ["FltAllocateCallbackData function"]
 ms.keywords: FltAllocateCallbackData, FltAllocateCallbackData routine [Installable File System Drivers], FltApiRef_a_to_d_74309bb1-841a-41a6-bd3e-71ed710bc727.xml, fltkernel/FltAllocateCallbackData, ifsk.fltallocatecallbackdata
-f1_keywords:
- - "fltkernel/FltAllocateCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltAllocateCallbackData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltAllocateCallbackData
+ - fltkernel/FltAllocateCallbackData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltAllocateCallbackData
 ---
 
 # FltAllocateCallbackData function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
-<b>FltAllocateCallbackData</b> allocates a callback data structure that a minifilter driver can use to initiate an I/O request. 
-
+<b>FltAllocateCallbackData</b> allocates a callback data structure that a minifilter driver can use to initiate an I/O request.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in, optional]
+File object pointer to be used in the I/O operation. This parameter is optional and can be <b>NULL</b>.
 
-Opaque instance pointer for the minifilter driver instance that is initiating the I/O operation. This parameter is required and cannot be <b>NULL</b>. 
+### -param RetNewCallbackData 
 
-
-### -param FileObject [in, optional]
-
-File object pointer to be used in the I/O operation. This parameter is optional and can be <b>NULL</b>. 
-
-
-### -param RetNewCallbackData [out]
-
-Pointer to a caller-allocated variable that receives the address of the newly allocated callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure. 
-
+[out]
+Pointer to a caller-allocated variable that receives the address of the newly allocated callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure.
 
 ## -returns
-
-
 
 <b>FltAllocateCallbackData</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -96,14 +88,8 @@ Pointer to a caller-allocated variable that receives the address of the newly al
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver can call <b>FltAllocateCallbackData</b> to allocate a callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for an I/O operation initiated by the minifilter driver. 
 
@@ -149,15 +135,9 @@ Minifilter drivers should use <b>FltAllocateCallbackData</b>, <a href="https://d
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltwritefile">FltWriteFile</a>
 
 
-When the callback data structure allocated by <b>FltAllocateCallbackData</b> is no longer needed, the caller is responsible for freeing it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreecallbackdata">FltFreeCallbackData</a>. 
-
-
-
+When the callback data structure allocated by <b>FltAllocateCallbackData</b> is no longer needed, the caller is responsible for freeing it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreecallbackdata">FltFreeCallbackData</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -212,7 +192,4 @@ When the callback data structure allocated by <b>FltAllocateCallbackData</b> is 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltwritefile">FltWriteFile</a>
- 
-
- 
 

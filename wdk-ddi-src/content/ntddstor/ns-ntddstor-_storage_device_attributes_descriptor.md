@@ -6,10 +6,8 @@ old-location: storage\storage_device_attributes_descriptor.htm
 tech.root: storage
 ms.assetid: DA8434EF-6163-4D07-A81D-D1AC2D55BFB4
 ms.date: 03/29/2018
-keywords: ["_STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure"]
+keywords: ["STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION, STORAGE_ATTRIBUTE_BLOCK_IO, STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO, STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE, STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT, STORAGE_ATTRIBUTE_VOLATILE, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, ntddstor/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, storage.storage_device_attributes_descriptor
-f1_keywords:
- - "ntddstor/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+f1_keywords:
+ - _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+ - ntddstor/_STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+ - PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+ - ntddstor/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+ - STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+ - ntddstor/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 ---
 
 # _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure
@@ -47,24 +50,17 @@ req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_
 
 ## -description
 
-
 The STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure is used to retrieve the attributes information for a  device.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
-Contains the version of the data reported. 
-
+Contains the version of the data reported.
 
 ### -field Size
 
 Indicates the quantity of data reported, in bytes. This is the <code>sizeof(STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR)</code>.
-
 
 ### -field Attributes
 
@@ -140,5 +136,4 @@ Attribute that indicates a storage device has IO performance independent of IO s
 </td>
 </tr>
 </table>
- 
 

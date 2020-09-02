@@ -8,8 +8,6 @@ ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::OutTypeDefinition"]
 ms.keywords: EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped interface [Windows Debugging],OutTypeDefinition method, ExtRemoteTyped.OutTypeDefinition, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outtypedefinition
-f1_keywords:
- - "engextcpp/ExtRemoteTyped.OutTypeDefinition"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTyped.OutTypeDefinition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTyped::OutTypeDefinition
+ - engextcpp/ExtRemoteTyped::OutTypeDefinition
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTyped.OutTypeDefinition
 ---
 
 # ExtRemoteTyped::OutTypeDefinition
@@ -47,24 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>OutTypeDefinition</b> method prints the type of the typed data represented by this object.
-
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -remarks
 
-
-
 The type is sent to the debugger engine's output callbacks.
-
-
 

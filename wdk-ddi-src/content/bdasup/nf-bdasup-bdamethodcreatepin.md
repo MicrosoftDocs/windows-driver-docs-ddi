@@ -8,8 +8,6 @@ ms.assetid: 0bc31a97-661c-463d-a043-9f86f63bb4b4
 ms.date: 04/23/2018
 keywords: ["BdaMethodCreatePin function"]
 ms.keywords: BdaMethodCreatePin, BdaMethodCreatePin function [Streaming Media Devices], bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml, bdasup/BdaMethodCreatePin, stream.bdamethodcreatepin
-f1_keywords:
- - "bdasup/BdaMethodCreatePin"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Bdasup.lib
-- Bdasup.dll
-api_name:
-- BdaMethodCreatePin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - BdaMethodCreatePin
+ - bdasup/BdaMethodCreatePin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Bdasup.lib
+ - Bdasup.dll
+api_name:
+ - BdaMethodCreatePin
 ---
 
 # BdaMethodCreatePin function
@@ -48,27 +47,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>BdaMethodCreatePin</b> function creates a pin factory. 
-
+The <b>BdaMethodCreatePin</b> function creates a pin factory.
 
 ## -parameters
 
-
-
-
 ### -param pIrp
 
+### -param pKSMethod 
 
-
-
-### -param pKSMethod [in]
-
+[in]
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes the method and request type of a method request.
 
+### -param pulPinFactoryID 
 
-### -param pulPinFactoryID [out, optional]
-
+[out, optional]
 Points to a variable that receives the identifier of the pin factory. 
 
 
@@ -76,31 +68,17 @@ Points to a variable that receives the identifier of the pin factory.
 
 Points to the IRP for the request to create a pin factory. The BDA minidriver receives this IRP with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request.
 
-
 ## -returns
 
-
-
-Returns STATUS_SUCCESS or an appropriate error code. 
-
-
-
+Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
-
-
 
 A BDA minidriver calls the <b>BdaMethodCreatePin</b> function to create a pin factory after the minidriver receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a> method set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaMethodCreatePin</b> function directly, without intercepting this request using an internal method (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler">KStrMethodHandler</a>). See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/configuring-a-bda-filter">Configuring a BDA Filter</a> for more information. 
 
 If a BDA minidriver must create a pin without relying on the network provider, the BDA minidriver should call the <b>BdaCreatePin</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdacreatepin">BdaCreatePin</a>
 
@@ -123,7 +101,4 @@ If a BDA minidriver must create a pin without relying on the network provider, t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler">KStrMethodHandler</a>
- 
-
- 
 

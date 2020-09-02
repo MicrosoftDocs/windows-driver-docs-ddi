@@ -6,10 +6,8 @@ old-location: netvista\ndis_miniport_co_characteristics.htm
 tech.root: netvista
 ms.assetid: 9348c338-9fb4-4eee-a50f-f709748da56b
 ms.date: 05/02/2018
-keywords: ["_NDIS_MINIPORT_CO_CHARACTERISTICS structure"]
+keywords: ["NDIS_MINIPORT_CO_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_CO_CHARACTERISTICS, PNDIS_MINIPORT_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_CO_CHARACTERISTICS, condis_structures_ref_148c0384-32c9-4d21-bab8-66b839ee75a6.xml, ndis/NDIS_MINIPORT_CO_CHARACTERISTICS, ndis/PNDIS_MINIPORT_CO_CHARACTERISTICS, netvista.ndis_miniport_co_characteristics"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_CO_CHARACTERISTICS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MINIPORT_CO_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_CO_CHARACTERISTICS, *PNDIS_MINIPORT_CO_CHARACTERISTICS
+f1_keywords:
+ - _NDIS_MINIPORT_CO_CHARACTERISTICS
+ - ndis/_NDIS_MINIPORT_CO_CHARACTERISTICS
+ - PNDIS_MINIPORT_CO_CHARACTERISTICS
+ - ndis/PNDIS_MINIPORT_CO_CHARACTERISTICS
+ - NDIS_MINIPORT_CO_CHARACTERISTICS
+ - ndis/NDIS_MINIPORT_CO_CHARACTERISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MINIPORT_CO_CHARACTERISTICS
 ---
 
 # _NDIS_MINIPORT_CO_CHARACTERISTICS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_MINIPORT_CO_CHARACTERISTICS, *PNDIS_MINIPORT_CO_CHARACTERIST
 
 ## -description
 
-
 The NDIS_MINIPORT_CO_CHARACTERISTICS structure specifies the CoNDIS entry points for a CoNDIS
   miniport driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,11 +65,9 @@ The
      <b>Revision</b> member to NDIS_MINIPORT_CO_CHARACTERISTICS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_MINIPORT_CO_CHARACTERISTICS_REVISION_1.
 
-
 ### -field Flags
 
 Reserved for NDIS.
-
 
 ### -field CoCreateVcHandler
 
@@ -85,7 +81,6 @@ The entry point of the driver's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_co_call_manager_optional_handlers">
      NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>.
 
-
 ### -field CoDeleteVcHandler
 
 The entry point of the driver's 
@@ -98,13 +93,11 @@ The entry point of the driver's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_co_call_manager_optional_handlers">
      NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>.
 
-
 ### -field CoActivateVcHandler
 
 The entry point of the driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_activate_vc">
      MiniportCoActivateVc</a> function.
-
 
 ### -field CoDeactivateVcHandler
 
@@ -112,13 +105,11 @@ The entry point of the driver's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_deactivate_vc">
      MiniportCoDeactivateVc</a> function.
 
-
 ### -field CoSendNetBufferListsHandler
 
 The entry point of the driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_send_net_buffer_lists">
      MiniportCoSendNetBufferLists</a> function.
-
 
 ### -field CoOidRequestHandler
 
@@ -126,10 +117,7 @@ The entry point of the driver's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_oid_request">
      MiniportCoOidRequest</a> function.
 
-
 ## -remarks
-
-
 
 To specify entry points for CoNDIS, a miniport driver initializes an NDIS_MINIPORT_CO_CHARACTERISTICS
     structure and passes it to the 
@@ -140,13 +128,7 @@ The miniport driver calls
     <b>NdisSetOptionalHandlers</b> from the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a>
 
@@ -195,7 +177,4 @@ The miniport driver calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

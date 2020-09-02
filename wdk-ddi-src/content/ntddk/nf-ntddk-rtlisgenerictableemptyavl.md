@@ -8,8 +8,6 @@ ms.assetid: 9190DA2F-5530-4427-862F-00434DD9C950
 ms.date: 04/16/2018
 keywords: ["RtlIsGenericTableEmptyAvl function"]
 ms.keywords: RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers], ifsk.rtlisgenerictableemptyavl, ntddk/RtlIsGenericTableEmptyAvl
-f1_keywords:
- - "ntddk/RtlIsGenericTableEmptyAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlIsGenericTableEmptyAvl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIsGenericTableEmptyAvl
+ - ntddk/RtlIsGenericTableEmptyAvl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlIsGenericTableEmptyAvl
 ---
 
 # RtlIsGenericTableEmptyAvl function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlIsGenericTableEmptyAvl</b> routine determines if a generic table is empty. 
-
+The <b>RtlIsGenericTableEmptyAvl</b> routine determines if a generic table is empty.
 
 ## -parameters
 
+### -param Table 
 
-
-
-### -param Table [in]
-
+[in]
 Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlIsGenericTableEmptyAvl</b>.
-
 
 ## -returns
 
-
-
-<b>RtlIsGenericTableEmptyAvl</b> returns <b>FALSE</b> if the table contains one or more elements, <b>TRUE</b> otherwise. 
-
-
-
+<b>RtlIsGenericTableEmptyAvl</b> returns <b>FALSE</b> if the table contains one or more elements, <b>TRUE</b> otherwise.
 
 ## -remarks
-
-
 
 By default, the operating system uses splay trees to implement generic tables, but the <b>RtlIsGenericTableEmptyAvl</b> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
 
@@ -82,16 +69,7 @@ If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic t
 
 Callers of <b>RtlIsGenericTableEmptyAvl</b> must be running at ≤ APC_LEVEL if the caller-allocated memory at <i>Table</i> is pageable.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>
- 
-
- 
 

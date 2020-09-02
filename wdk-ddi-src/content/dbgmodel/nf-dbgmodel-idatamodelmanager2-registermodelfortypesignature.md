@@ -5,39 +5,38 @@ description: The RegisterModelForTypeSignature method is the primary method that
 ms.assetid: 41a6f6d2-749f-47e0-aad5-41ca41674320
 ms.date: 09/11/2018
 keywords: ["IDataModelManager2::RegisterModelForTypeSignature"]
-f1_keywords:
- - "dbgmodel/IDataModelManager2.RegisterModelForTypeSignature"
 ms.keywords: IDataModelManager2::RegisterModelForTypeSignature, RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature, IDataModelManager2::RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelManager2.RegisterModelForTypeSignature
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelManager2::RegisterModelForTypeSignature
+ - dbgmodel/IDataModelManager2::RegisterModelForTypeSignature
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelManager2.RegisterModelForTypeSignature
 ---
 
 # IDataModelManager2::RegisterModelForTypeSignature
@@ -72,22 +71,21 @@ Only matches the first of these (D) since float and int do not match. However, i
 
     std::pair<int, int>
 
-Either of these signatures is equally good (both have one concrete and one wildcard match). These type signatures are ambiguous. Hence, a call to register the second of them will fail for this reason. 
-
+Either of these signatures is equally good (both have one concrete and one wildcard match). These type signatures are ambiguous. Hence, a call to register the second of them will fail for this reason.
 
 ## -parameters
 
 ### -param typeSignature
+
 The type signature being registered. Any native/language object of a concrete type which best matches this type signature will have the data model given by the dataModel argument automatically attached.
 
-
 ### -param dataModel
+
 The data model which is to become the canonical visualizer for types matching the given type signature.
 
-
 ## -returns
-This method returns HRESULT that indicates success or failure. This method will fail to register identical or ambiguous type signatures.
 
+This method returns HRESULT that indicates success or failure. This method will fail to register identical or ambiguous type signatures.
 
 ## -remarks
 
@@ -126,3 +124,4 @@ if (SUCCEEDED(spHost.As(&spSym)))
 ## -see-also
 
 [IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)
+

@@ -34,12 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_GETDPADDRESS
 f1_keywords:
+ - DXGKDDI_GETDPADDRESS
  - dispmprt/DXGKDDI_GETDPADDRESS
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_GETDPADDRESS callback function
+
 
 ## -description
 
@@ -68,3 +70,4 @@ For **TargetId** of a monitor connected through DP, the driver should return its
 ## -see-also
 
 [**DXGKARG_GETDPADDRESS**](ns-dispmprt-dxgkarg_getdpaddress.md)
+

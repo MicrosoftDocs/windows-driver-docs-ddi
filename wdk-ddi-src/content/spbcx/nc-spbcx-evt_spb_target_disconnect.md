@@ -8,8 +8,6 @@ ms.assetid: 02756C35-E76C-42C0-80FA-359CADE224A1
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_TARGET_DISCONNECT callback function"]
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect
-f1_keywords:
- - "spbcx/EvtSpbTargetDisconnect"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Spbcx.h
-api_name:
-- EvtSpbTargetDisconnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SPB_TARGET_DISCONNECT
+ - spbcx/EVT_SPB_TARGET_DISCONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Spbcx.h
+api_name:
+ - EvtSpbTargetDisconnect
 ---
 
 # EVT_SPB_TARGET_DISCONNECT callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 An SPB controller driver's <i>EvtSpbTargetDisconnect</i> event callback function closes a connection to a target device that was previously opened by a call to the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> event callback function.
-
 
 ## -parameters
 
+### -param Controller 
 
-
-
-### -param Controller [in]
-
+[in]
 A WDFDEVICE handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
+### -param Target 
 
-### -param Target [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target to close. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
 
-
 ## -remarks
-
-
 
 Implementation of this function by the SPB controller driver is optional.
 
@@ -121,12 +113,7 @@ The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header fil
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a>
 
@@ -145,7 +132,4 @@ The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header fil
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
- 
-
- 
 

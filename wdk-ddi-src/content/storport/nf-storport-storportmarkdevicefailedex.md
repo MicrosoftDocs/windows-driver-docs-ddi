@@ -8,41 +8,42 @@ ms.assetid: b3a300c1-7c14-4c6c-90c6-2fd8b89a1de8
 ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
-f1_keywords:
- - "storport/StorPortMarkDeviceFailedEx"
 ms.keywords: StorPortMarkDeviceFailedEx
 req.header: storport.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- StorPortMarkDeviceFailedEx
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - StorPortMarkDeviceFailedEx
+ - storport/StorPortMarkDeviceFailedEx
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - 
+api_name:
+ - StorPortMarkDeviceFailedEx
+product:
+ - Windows
 ---
 
 # StorPortMarkDeviceFailedEx function
+
 
 ## -description
 
@@ -108,3 +109,4 @@ The PnP manager will send an IRP to query the failed device's PnP state. If *Fla
 [**IoInvalidateDeviceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinvalidatedevicestate)
 
 [**StorPortMarkDeviceFailed**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportmarkdevicefailed)
+

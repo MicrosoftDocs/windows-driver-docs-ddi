@@ -8,8 +8,6 @@ ms.assetid: c019f382-1ad3-4b08-a254-ae803e2b6bc6
 ms.date: 04/27/2018
 keywords: ["SdpCreateNodeTree function"]
 ms.keywords: SdpCreateNodeTree, SdpCreateNodeTree function [Bluetooth Devices], bltooth.sdpcreatenodetree, bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, sdplib/SdpCreateNodeTree
-f1_keywords:
- - "sdplib/SdpCreateNodeTree"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sdplib.h
-api_name:
-- SdpCreateNodeTree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SdpCreateNodeTree
+ - sdplib/SdpCreateNodeTree
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sdplib.h
+api_name:
+ - SdpCreateNodeTree
 ---
 
 # SdpCreateNodeTree function
@@ -47,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The Bluetooth 
   <b>SdpCreateNodeTree</b> function is used to allocate an empty root 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_tree_root_node">SDP_TREE_ROOT_NODE</a> structure.
 
-
 ## -parameters
 
+### -param tag 
 
-
-
-### -param tag [in]
-
+[in]
 A profile driver defined tag to associate with the node.
 
-
 ## -returns
-
-
 
 If successful, this function returns a pointer to the newly allocated SDP_TREE_ROOT_NODE
      structure. If not successful, this function returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Calling the 
     <b>SdpCreateNodeTree</b> function is the first step in building an SDP tree. After a Bluetooth profile
@@ -94,13 +81,7 @@ When an SDP tree is no longer needed, the Bluetooth profile driver should destro
 Bluetooth profile drivers can obtain a pointer to this function through the BTHDDI_SDP_NODE_INTERFACE
     structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>
 
@@ -119,7 +100,4 @@ Bluetooth profile drivers can obtain a pointer to this function through the BTHD
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a>
- 
-
- 
 

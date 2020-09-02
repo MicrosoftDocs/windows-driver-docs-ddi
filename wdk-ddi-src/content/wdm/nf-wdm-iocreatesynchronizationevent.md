@@ -8,8 +8,6 @@ ms.assetid: ce068ad0-3826-4f5d-a41c-2c3a40200f30
 ms.date: 04/30/2018
 keywords: ["IoCreateSynchronizationEvent function"]
 ms.keywords: IoCreateSynchronizationEvent, IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml, kernel.iocreatesynchronizationevent, wdm/IoCreateSynchronizationEvent
-f1_keywords:
- - "wdm/IoCreateSynchronizationEvent"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateSynchronizationEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateSynchronizationEvent
+ - wdm/IoCreateSynchronizationEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateSynchronizationEvent
 ---
 
 # IoCreateSynchronizationEvent function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCreateSynchronizationEvent</b> routine creates or opens a named synchronization event for use in serialization of access to hardware between two otherwise unrelated drivers.
-
 
 ## -parameters
 
+### -param EventName 
 
-
-
-### -param EventName [in]
-
+[in]
 Pointer to a buffer containing a null-terminated Unicode string that names the event.
 
+### -param EventHandle 
 
-### -param EventHandle [out]
-
-Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">kernel handle</a>. 
-
+[out]
+Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">kernel handle</a>.
 
 ## -returns
 
-
-
-<b>IoCreateSynchronizationEvent</b> returns a pointer to the created or opened event object or <b>NULL</b> if the event object could not be created or opened. 
-
-
-
+<b>IoCreateSynchronizationEvent</b> returns a pointer to the created or opened event object or <b>NULL</b> if the event object could not be created or opened.
 
 ## -remarks
-
-
 
 The event object is created if it does not already exist. <b>IoCreateSynchronizationEvent</b> sets the state of a new synchronization event to Signaled. If the event object already exists, it is simply opened. The pair of drivers that use a synchronization event call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> with the PKEVENT pointer returned by this routine.
 
@@ -97,15 +84,9 @@ The driver creates a named event object in the \\BaseNamedObjects object directo
 
 </li>
 </ul>
-For more information about events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/event-objects">Event Objects</a>. 
-
-
-
+For more information about events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/event-objects">Event Objects</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatenotificationevent">IoCreateNotificationEvent</a>
 
@@ -120,7 +101,4 @@ For more information about events, see <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
- 
-
- 
 

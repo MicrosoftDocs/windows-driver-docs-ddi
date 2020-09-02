@@ -8,8 +8,6 @@ ms.assetid: 53070b37-3836-49c2-91d1-369552afe214
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetSendInternalIoctlOthersSynchronously function"]
 ms.keywords: DFIOTargetRef_78072360-08c2-4a51-be52-8e00425c5ba2.xml, WdfIoTargetSendInternalIoctlOthersSynchronously, WdfIoTargetSendInternalIoctlOthersSynchronously method, kmdf.wdfiotargetsendinternalioctlotherssynchronously, wdf.wdfiotargetsendinternalioctlotherssynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlOthersSynchronously
-f1_keywords:
- - "wdfiotarget/WdfIoTargetSendInternalIoctlOthersSynchronously"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoTargetSendInternalIoctlOthersSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoTargetSendInternalIoctlOthersSynchronously
+ - wdfiotarget/WdfIoTargetSendInternalIoctlOthersSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoTargetSendInternalIoctlOthersSynchronously
 ---
 
 # WdfIoTargetSendInternalIoctlOthersSynchronously function
@@ -48,60 +47,53 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoTargetSendInternalIoctlOthersSynchronously</b> method builds a non-standard internal device control request and sends it synchronously to an I/O target.
 
-
 ## -parameters
 
+### -param IoTarget 
 
-
-
-### -param IoTarget [in]
-
+[in]
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
+### -param Request 
 
-### -param Request [in, optional]
-
+[in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
+### -param IoctlCode 
 
-### -param IoctlCode [in]
+[in]
+An I/O control code (IOCTL) that the I/O target supports.
 
-An I/O control code (IOCTL) that the I/O target supports. 
+### -param OtherArg1 
 
-
-### -param OtherArg1 [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure that describes a memory buffer that contains context information. This parameter is optional and can be <b>NULL</b>.
 
+### -param OtherArg2 
 
-### -param OtherArg2 [in, optional]
-
+[in, optional]
 A pointer to a WDF_MEMORY_DESCRIPTOR structure that describes a memory buffer that contains context information. This parameter is optional and can be <b>NULL</b>.
 
+### -param OtherArg4 
 
-### -param OtherArg4 [in, optional]
-
+[in, optional]
 A pointer to a WDF_MEMORY_DESCRIPTOR structure that describes a memory buffer that contains context information. This parameter is optional and can be <b>NULL</b>.
 
+### -param RequestOptions 
 
-### -param RequestOptions [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
+### -param BytesReturned 
 
-### -param BytesReturned [out, optional]
-
+[out, optional]
 A pointer to a location that receives information (such as the number of bytes that were transferred) that another driver supplies when it completes the request by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcompletewithinformation">WdfRequestCompleteWithInformation</a>. This pointer is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfIoTargetSendInternalIoctlOthersSynchronously</b> returns after the internal device control request completes, and the return value is the request's completion status value. Otherwise, this method might return one of the following values:
 
@@ -183,14 +175,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 A non-standard internal device control request uses an IOCTL code to identify the operation to be performed, but the request does not use the standard input and output buffers that other internal device control requests use. If you are creating a set of interacting drivers, you can define how this set of drivers use the request's arguments: <i>OtherArg1</i>, <i>OtherArg2</i>, and <i>OtherArg4</i>. 
 
@@ -334,12 +319,7 @@ ntStatus = WdfIoTargetSendInternalIoctlOthersSynchronously(
                                                            );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -414,7 +394,4 @@ ntStatus = WdfIoTargetSendInternalIoctlOthersSynchronously(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>
- 
-
- 
 

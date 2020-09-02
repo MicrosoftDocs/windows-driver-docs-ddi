@@ -8,8 +8,6 @@ ms.assetid: 2fde7925-040b-4a8c-8a95-29321f1ae474
 ms.date: 04/16/2018
 keywords: ["PMRX_EXTENDFILE_CALLDOWN callback function"]
 ms.keywords: MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], PMRX_EXTENDFILE_CALLDOWN, ifsk.mrxextendforcache, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
-f1_keywords:
- - "mrx/MRxExtendForCache"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MRxExtendForCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_EXTENDFILE_CALLDOWN
+ - mrx/PMRX_EXTENDFILE_CALLDOWN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MRxExtendForCache
 ---
 
 # PMRX_EXTENDFILE_CALLDOWN callback function
@@ -47,31 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The<i> MRxExtendForCache</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector extend a file when the file is being cached by the cache manager. 
-
+The<i> MRxExtendForCache</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector extend a file when the file is being cached by the cache manager.
 
 ## -parameters
 
+### -param RxContext 
 
-
-
-### -param RxContext [in, out]
-
-A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
-
+[in, out]
+A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
 ### -param NewFileSize
 
-
 ### -param NewAllocationSize
-
-
-
-
-
-
-
 
 #### - pNewAllocationSize [out]
 
@@ -80,21 +66,13 @@ A pointer to the LARGE_INTEGER structure for storing the new allocation size whe
 
 #### - pNewFileSize [in, out]
 
-A pointer to the LARGE_INTEGER structure indicating the byte count of the new file size. 
-
+A pointer to the LARGE_INTEGER structure indicating the byte count of the new file size.
 
 ## -returns
 
-
-
-<i>MRxExtendForCache</i> returns STATUS_SUCCESS on success or an error code on failure. 
-
-
-
+<i>MRxExtendForCache</i> returns STATUS_SUCCESS on success or an error code on failure.
 
 ## -remarks
-
-
 
 <i>MRxExtendForCache</i> handles network requests to extend the file for cached I/O.
 
@@ -106,13 +84,7 @@ Before calling<i> MRxExtendForCache</i>, RDBSS modifies the following members in
 
 A network mini-redirector that caches file or directory information may need to invalidate its cache information when the file is extended.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
 
@@ -167,7 +139,4 @@ A network mini-redirector that caches file or directory information may need to 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
- 
-
- 
 

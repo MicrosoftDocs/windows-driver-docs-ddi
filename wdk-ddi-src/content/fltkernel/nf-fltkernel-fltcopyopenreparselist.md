@@ -8,8 +8,6 @@ ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.date: 04/16/2018
 keywords: ["FltCopyOpenReparseList function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltCopyOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist
-f1_keywords:
- - "fltkernel/FltAddOpenReparseEntry"
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _IRQL_requires_max_(APC_LEVEL)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltKernel.h
-api_name:
-- FltAddOpenReparseEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCopyOpenReparseList
+ - fltkernel/FltCopyOpenReparseList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltKernel.h
+api_name:
+ - FltAddOpenReparseEntry
 ---
 
 # FltCopyOpenReparseList function
@@ -47,36 +46,29 @@ req.typenames:
 
 ## -description
 
-
 This routine copies any open reparse information from a previous create into
     a new ECP list that can be used to issue a second create.
 
-
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 The filter to reference.
 
+### -param Data 
 
-### -param Data [in]
-
+[in]
 The create operation from which open reparse
                        information should be copied.
 
+### -param EcpList 
 
-### -param EcpList [in, out]
-
+[in, out]
 A new ECP list to copy open reparse information
                        to.
 
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -108,18 +100,8 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeopenreparselist">FltFreeOpenReparseList</a>
- 
-
- 
 

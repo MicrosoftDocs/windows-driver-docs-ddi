@@ -6,10 +6,8 @@ old-location: bltooth\_brb_psm.htm
 tech.root: bltooth
 ms.assetid: 893edad2-8419-4c93-bf0b-2cca8ca5a2f6
 ms.date: 04/27/2018
-keywords: ["_BRB_PSM structure"]
+keywords: ["BRB_PSM structure"]
 ms.keywords: "_BRB_PSM, _BRB_PSM structure [Bluetooth Devices], bltooth._brb_psm, bth_structs_f40af07e-a5ad-4654-9ff6-4d162a46ea58.xml, bthddi/_BRB_PSM"
-f1_keywords:
- - "bthddi/_BRB_PSM"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_PSM
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_PSM
+ - bthddi/_BRB_PSM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_PSM
 ---
 
 # _BRB_PSM structure
@@ -47,22 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The _BRB_PSM structure describes a Protocol/Service Multiplexer (PSM) to register or
   unregister.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
-
 
 ### -field Psm
 
@@ -90,10 +83,7 @@ HID Data: 0x13
 
 BNEP: 0x0F
 
-
 ## -remarks
-
-
 
 To register a PSM, profile drivers should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
@@ -136,13 +126,7 @@ A <b>BRB_UNREGISTER_PSM</b> request has no effect on SDP records that attempt to
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_remove_record">
     IOCTL_BTH_SDP_REMOVE_RECORD</a> IOCTL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
@@ -166,7 +150,4 @@ A <b>BRB_UNREGISTER_PSM</b> request has no effect on SDP records that attempt to
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
- 
-
- 
 

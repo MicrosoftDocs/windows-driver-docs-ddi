@@ -8,8 +8,6 @@ ms.assetid: 34be4ca1-9484-41c5-9382-4785c36fca1a
 ms.date: 05/29/2019
 keywords: ["FltAllocateContext function"]
 ms.keywords: FltAllocateContext, FltAllocateContext routine [Installable File System Drivers], FltApiRef_a_to_d_dcc03d8c-1f61-4afb-8774-f98951ebfb1f.xml, fltkernel/FltAllocateContext, ifsk.fltallocatecontext
-f1_keywords:
- - "fltkernel/FltAllocateContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltAllocateContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltAllocateContext
+ - fltkernel/FltAllocateContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltAllocateContext
 ---
 
 # FltAllocateContext function
+
 
 ## -description
 
@@ -50,12 +50,14 @@ The **FltAllocateContext** routine allocates a context structure for a specified
 
 ## -parameters
 
-### -param Filter [in]
+### -param Filter 
 
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**. (Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.)
 
-### -param ContextType [in]
+### -param ContextType 
 
+[in]
 The type of context to allocate. *ContextType* can be one of the following:
 
 * FLT_FILE_CONTEXT (starting with Windows Vista)
@@ -66,12 +68,14 @@ The type of context to allocate. *ContextType* can be one of the following:
 * FLT_TRANSACTION_CONTEXT (starting with Windows Vista)
 * FLT_VOLUME_CONTEXT
 
-### -param ContextSize [in]
+### -param ContextSize 
 
+[in]
 The size, in bytes, of the portion of the context defined by the minifilter driver. Must be greater than zero and less than or equal to **MAXUSHORT**; for fixed-size contexts, must be less than or equal to the *Size* specified in the [FLT_CONTEXT_REGISTRATION](ns-fltkernel-_flt_context_registration.md) structure. A minifilter driver uses this portion of the context to maintain context information specific to the minifilter driver. The filter manager treats this portion of the context structure as opaque. This parameter is required and cannot be zero.
 
-### -param PoolType [in]
+### -param PoolType 
 
+[in]
 The type of pool to allocate. This parameter is required and must be one of the following:
 
 * **NonPagedPool**
@@ -79,8 +83,9 @@ The type of pool to allocate. This parameter is required and must be one of the 
 
 Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.
 
-### -param ReturnedContext [out]
+### -param ReturnedContext 
 
+[out]
 Pointer to a caller-allocated variable that receives the address of the newly allocated context. The caller is responsible for calling [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
@@ -268,3 +273,4 @@ Because contexts are reference-counted, it is not usually necessary to delete th
 [FltSetTransactionContext](nf-fltkernel-fltsettransactioncontext.md)
 
 [FltSetVolumeContext](nf-fltkernel-fltsetvolumecontext.md)
+

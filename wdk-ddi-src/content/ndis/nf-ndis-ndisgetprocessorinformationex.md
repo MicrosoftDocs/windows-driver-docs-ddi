@@ -8,8 +8,6 @@ ms.assetid: 9af21f56-d93d-4130-888c-c7009dc2854d
 ms.date: 05/02/2018
 keywords: ["NdisGetProcessorInformationEx function"]
 ms.keywords: NdisGetProcessorInformationEx, NdisGetProcessorInformationEx function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformationEx, ndis_processor_group_ref_f387710b-fb49-4202-9ff5-496021972695.xml, netvista.ndisgetprocessorinformationex
-f1_keywords:
- - "ndis/NdisGetProcessorInformationEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetProcessorInformationEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetProcessorInformationEx
+ - ndis/NdisGetProcessorInformationEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetProcessorInformationEx
 ---
 
 # NdisGetProcessorInformationEx function
@@ -48,19 +47,15 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisGetProcessorInformationEx</b> function retrieves information about the CPU topology of the local
   computer.
 
-
 ## -parameters
 
+### -param NdisHandle 
 
-
-
-### -param NdisHandle [in, optional]
-
+[in, optional]
 An NDIS driver or instance handle that was obtained during caller initialization. For example, a
      miniport driver can use the NDIS handle that it obtained from the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
@@ -84,10 +79,9 @@ An NDIS driver or instance handle that was obtained during caller initialization
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
+### -param SystemProcessorInfo 
 
-
-### -param SystemProcessorInfo [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer where NDIS puts the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_system_processor_info_ex">
      NDIS_SYSTEM_PROCESSOR_INFO_EX</a> structure and an array of 
@@ -96,17 +90,14 @@ A pointer to a caller-allocated buffer where NDIS puts the
      the buffer in the 
      <i>Size</i> parameter.
 
+### -param Size 
 
-### -param Size [in, out]
-
+[in, out]
 A pointer to a value that is the size, in bytes, of the buffer that the caller provided. When the
      function returns, this value contains either the amount of data that NDIS put in the buffer or the
      required size of the buffer if the buffer was too short.
 
-
 ## -returns
-
-
 
 <b>NdisGetProcessorInformationEx</b> can return one of the following status values:
 
@@ -140,26 +131,14 @@ The size of the buffer at the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisGetProcessorInformationEx</b> function to retrieve information about the processors on the local
     computer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -186,7 +165,4 @@ NDIS drivers call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
- 
-
- 
 

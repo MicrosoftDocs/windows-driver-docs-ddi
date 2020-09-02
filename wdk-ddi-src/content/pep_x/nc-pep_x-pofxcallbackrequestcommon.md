@@ -8,8 +8,6 @@ ms.assetid: 16699B3D-D02B-4D01-9EBE-003C92B06D31
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKREQUESTCOMMON callback function"]
 ms.keywords: POFXCALLBACKREQUESTCOMMON, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], kernel.requestcommon, pepfx/RequestCommon
-f1_keywords:
- - "pep_x/RequestCommon"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= HIGH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- pepfx.h
-api_name:
-- RequestCommon
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - POFXCALLBACKREQUESTCOMMON
+ - pep_x/POFXCALLBACKREQUESTCOMMON
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - pepfx.h
+api_name:
+ - RequestCommon
 ---
 
 # POFXCALLBACKREQUESTCOMMON callback function
@@ -47,52 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>RequestCommon</b> routine is a generic request handler.
-
 
 ## -parameters
 
+### -param RequestId 
 
+[in]
+A request ID that specifies the operation being requested.
 
+### -param Data 
 
-### -param RequestId [in]
-
-A request ID that specifies the operation being requested. 
-
-
-### -param Data [in, out, optional]
-
-A pointer to a data structure that contains the input data and/or result data for the request specified by the <i>RequestId</i> parameter. 
-
+[in, out, optional]
+A pointer to a data structure that contains the input data and/or result data for the request specified by the <i>RequestId</i> parameter.
 
 ## -returns
 
-
-
 <b>RequestCommon</b> returns STATUS_SUCCESS if the request is successfully handled. Otherwise, it returns an appropriate error status code.
 
-
-
-
 ## -remarks
-
-
 
 This routine is implemented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
 
 A PEP can call this routine at IRQL <= HIGH_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
- 
-
- 
 

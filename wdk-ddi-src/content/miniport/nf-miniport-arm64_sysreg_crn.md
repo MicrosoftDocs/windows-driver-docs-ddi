@@ -5,38 +5,36 @@ description: Returns the CRn field for a given ARM system register encoding valu
 ms.assetid: e49773c3-d777-4f0b-b14f-1bd505f55f43
 ms.date: 09/20/2018
 keywords: ["ARM64_SYSREG_CRN macro"]
-f1_keywords:
- - "miniport/ARM64_SYSREG_CRN"
 ms.keywords: ARM64_SYSREG_CRN
 req.header: miniport.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- miniport.h
-api_name: 
-- ARM64_SYSREG_CRN
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - ARM64_SYSREG_CRN
+ - miniport/ARM64_SYSREG_CRN
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - miniport.h
+api_name:
+ - ARM64_SYSREG_CRN
 ---
 
 # ARM64_SYSREG_CRN macro
@@ -50,9 +48,9 @@ Returns the CRn field for a given ARM system register encoding value. For more i
 
 ### -param _Reg_
 
-ARM system register encoding value. 
-
+ARM system register encoding value.
 
 ## -remarks
 
 ## -see-also
+

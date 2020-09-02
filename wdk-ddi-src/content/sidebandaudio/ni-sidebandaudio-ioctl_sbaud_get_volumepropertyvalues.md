@@ -5,44 +5,42 @@ description:
 ms.assetid: 11e26b8c-2c82-46b5-907f-7e2b81f0e16a
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL"]
-f1_keywords:
- - "sidebandaudio/IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES"
 req.header: sidebandaudio.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sidebandaudio.h
-api_name: 
-- IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
-product:
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
+ - sidebandaudio/IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sidebandaudio.h
+api_name:
+ - IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
 ---
 
 # IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
 
 Audio driver can call this IOCTL to query the volume stepped data ranges and min/max values for all of the channels. These values should then be returned for KSPROPERTY_AUDIO_VOLUMELEVEL basic support.
-
-
 
 ## -ioctlparameters
 
@@ -79,6 +77,8 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-volumelevel">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel">KSNODEPROPERTY_AUDIO_CHANNEL</a>
+

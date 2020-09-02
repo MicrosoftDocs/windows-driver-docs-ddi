@@ -6,10 +6,11 @@ old-location: pos\linedisplaymarqueetypetype.htm
 tech.root: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
 ms.date: 02/23/2018
-keywords: ["_LineDisplayMarqueeTypeType enumeration"]
+keywords: ["LineDisplayMarqueeTypeType enumeration"]
 ms.keywords: LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, _LineDisplayMarqueeTypeType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType, pointofservicecommontypes/PLineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayMarqueeTypeType"
+ - "LineDisplayMarqueeTypeType"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - LineDisplayMarqueeTypeType
-product:
-- Windows
 targetos: Windows
 req.typenames: LineDisplayMarqueeTypeType
 ---

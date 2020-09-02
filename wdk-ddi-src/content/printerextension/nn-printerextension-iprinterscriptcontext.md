@@ -8,8 +8,6 @@ ms.assetid: B44B47EA-6848-430E-9C10-F6DD460C2304
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptContext interface"]
 ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices],described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
-f1_keywords:
- - "printerextension/IPrinterScriptContext"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterScriptContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterScriptContext
+ - printerextension/IPrinterScriptContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterScriptContext
 ---
 
 # IPrinterScriptContext interface
+
 
 ## -description
 
@@ -59,3 +59,4 @@ The **IPrinterScriptContext** interface has these properties.
 ## -see-also
 
 [V4 Printer Driver Property Bags](https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags)
+

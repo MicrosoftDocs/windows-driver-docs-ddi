@@ -8,8 +8,6 @@ ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterBufferUlong macro"]
 ms.keywords: StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], storage.storportreadregisterbufferulong, storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml
-f1_keywords:
- - "storport/StorPortReadRegisterBufferUlong"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortReadRegisterBufferUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortReadRegisterBufferUlong
+ - storport/StorPortReadRegisterBufferUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortReadRegisterBufferUlong
 ---
 
 # StorPortReadRegisterBufferUlong macro
@@ -48,57 +47,40 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortReadRegisterBufferUlong</b> routine reads a value from a specified register address. 
-
+The <b>StorPortReadRegisterBufferUlong</b> routine reads a value from a specified register address.
 
 ## -parameters
 
+### -param h 
 
-
-
-### -param h [in]
-
+[in]
 A pointer to the hardware device extension.
 
+### -param r 
 
-### -param r [in]
+[in]
 
+Pointer to the register where the data is to be read.
 
-Pointer to the register where the data is to be read. 
+### -param b 
 
-
-### -param b [in]
-
+[in]
 Pointer to the buffer that receives the data that is read.
 
+### -param c 
 
-### -param c [in]
-
-Specifies the number of data items to be read. Each data item has a size of <b>sizeof</b>(ULONG). 
-
-
+[in]
+Specifies the number of data items to be read. Each data item has a size of <b>sizeof</b>(ULONG).
 
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisterbufferulong">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterulong">StorPortReadRegisterUlong</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisterbufferulong">ScsiPortReadRegisterBufferUlong</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterulong">StorPortReadRegisterUlong</a>
- 
-
- 
 

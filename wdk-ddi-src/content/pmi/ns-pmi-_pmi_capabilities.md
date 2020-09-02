@@ -6,10 +6,8 @@ old-location: powermeter\pmi_capabilities.htm
 tech.root: powermeter
 ms.assetid: 7e564512-ff57-4bce-93c1-76e6034ec061
 ms.date: 05/08/2018
-keywords: ["_PMI_CAPABILITIES structure"]
+keywords: ["PMI_CAPABILITIES structure"]
 ms.keywords: "*PPMI_CAPABILITIES, PMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], PPMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, _PMI_CAPABILITIES, pmi/PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES, powermeter.pmi_capabilities"
-f1_keywords:
- - "pmi/PMI_CAPABILITIES"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pmi.h
-api_name:
-- PMI_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_CAPABILITIES, *PPMI_CAPABILITIES
+f1_keywords:
+ - _PMI_CAPABILITIES
+ - pmi/_PMI_CAPABILITIES
+ - PPMI_CAPABILITIES
+ - pmi/PPMI_CAPABILITIES
+ - PMI_CAPABILITIES
+ - pmi/PMI_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pmi.h
+api_name:
+ - PMI_CAPABILITIES
 ---
 
 # _PMI_CAPABILITIES structure
@@ -47,41 +50,31 @@ req.typenames: PMI_CAPABILITIES, *PPMI_CAPABILITIES
 
 ## -description
 
-
 The PMI_CAPABILITIES structure contains information about the power metering and budgeting capabilities of a power meter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 A value that specifies the version of this structure. For Windows 7, Windows Server 2008 R2, and later versions of Windows, this value must be 1.
 
-
 ### -field Size
 
 A value, in units of bytes, that specifies the size of the structure.
-
 
 ### -field CapabilityType
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a> enumeration value that specifies the data type of the <b>Capabilities</b> member.
 
-
 ### -field Capabilities
 
 A union of the supported Power Meter Interface (PMI) capability structures. Based on the value of the <b>CapabilityType</b> member, one of the following <b>Capabilities</b> submembers is used to reference the following PMI capability structures:
-
 
 ### -field Capabilities.ReportedCapabilities
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_metered_hardware_information">PMI_METERED_HARDWARE_INFORMATION</a> structure that specifies one or more hardware devices that are monitored by the power meter. 
 
 The <b>Capabilities</b> member contains this structure if the <b>CapabilityType</b> member is set to <b>PmiMeteredHardware</b>.
-
 
 ### -field Capabilities.MeteredHardwareInformation
 
@@ -97,10 +90,7 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_p
 </ul>
 The <b>Capabilities</b> member contains this structure if the <b>CapabilityType</b> member is set to <b>PmiReportedCapabilities</b>.
 
-
 ## -remarks
-
-
 
 The PMI_CAPABILITIES structure is used to query many PMI capabilities that are supported by a power meter. 
 
@@ -121,12 +111,7 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="htt
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
@@ -141,7 +126,4 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a>
- 
-
- 
 

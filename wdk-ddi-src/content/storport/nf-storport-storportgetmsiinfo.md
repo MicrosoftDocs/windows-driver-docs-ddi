@@ -8,8 +8,6 @@ ms.assetid: 3c98c04c-246a-42a0-bb40-f7771f7ae968
 ms.date: 03/29/2018
 keywords: ["StorPortGetMSIInfo function"]
 ms.keywords: StorPortGetMSIInfo, StorPortGetMSIInfo routine [Storage Devices], storage.storportgetmsiinfo, storport/StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml
-f1_keywords:
- - "storport/StorPortGetMSIInfo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetMSIInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetMSIInfo
+ - storport/StorPortGetMSIInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetMSIInfo
 ---
 
 # StorPortGetMSIInfo function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortGetMSIInfo</b> routine retrieves the message signaled interrupt (MSI) information for the specified message. 
-
+The <b>StorPortGetMSIInfo</b> routine retrieves the message signaled interrupt (MSI) information for the specified message.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param MessageId 
 
-### -param MessageId [in]
-
+[in]
 The identifier of the message for which the information is retrieved.
 
+### -param InterruptInfo 
 
-### -param InterruptInfo [out]
-
+[out]
 A pointer to a miniport driver-provided <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_message_interrupt_information">MESSAGE_INTERRUPT_INFORMATION</a> structure that receives the information for the message specified by the <i>MessageId</i> parameter.
 
-
 ## -returns
-
-
 
 <b>StorPortGetMSIInfo</b> returns one of the status codes:
 
@@ -135,18 +127,8 @@ The HBA does not support MSI.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_message_interrupt_information">MESSAGE_INTERRUPT_INFORMATION</a>
- 
-
- 
 

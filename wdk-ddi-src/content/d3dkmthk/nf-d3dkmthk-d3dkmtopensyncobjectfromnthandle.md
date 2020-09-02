@@ -7,8 +7,6 @@ ms.assetid: 202695a2-cfe3-423f-b4da-a9ad312c5168
 ms.date: 05/10/2018
 keywords: ["D3DKMTOpenSyncObjectFromNtHandle function"]
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle, D3DKMTOpenSyncObjectFromNtHandle function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle, display.d3dkmtopensyncobjectfromnthandle
-f1_keywords:
- - "d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,26 +24,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- GDI32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTOpenSyncObjectFromNtHandle
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTOpenSyncObjectFromNtHandle
+ - d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - GDI32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTOpenSyncObjectFromNtHandle
 ---
 
 # D3DKMTOpenSyncObjectFromNtHandle function
+
 
 ## -description
 
@@ -73,7 +73,4 @@ This function might also return other NTSTATUS values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a>
- 
-
- 
 

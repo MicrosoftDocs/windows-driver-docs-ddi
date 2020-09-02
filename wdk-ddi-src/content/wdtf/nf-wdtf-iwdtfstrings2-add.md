@@ -8,8 +8,6 @@ ms.assetid: 44a62325-4135-483d-adb4-e73803190541
 ms.date: 04/04/2018
 keywords: ["IWDTFStrings2::Add"]
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFStrings2 interface, IWDTFStrings2 interface [Windows Device Testing Framework],Add method, IWDTFStrings2.Add, IWDTFStrings2::Add, Microsoft.WDTF.IWDTFStrings2.Add, Microsoft::WDTF::IWDTFStrings2::Add, dtf.iwdtfstrings2_add, wdtf/IWDTFStrings2::Add
-f1_keywords:
- - "wdtf/IWDTFStrings2.Add"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFStrings2.Add
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFStrings2::Add
+ - wdtf/IWDTFStrings2::Add
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFStrings2.Add
 ---
 
 # IWDTFStrings2::Add
@@ -47,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Adds a single string to the collection.
-
 
 ## -parameters
 
+### -param pString 
 
-
-
-### -param pString [in]
-
+[in]
 The string to add to this collection.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfstrings2">IWDTFStrings2</a>
- 
-
- 
 

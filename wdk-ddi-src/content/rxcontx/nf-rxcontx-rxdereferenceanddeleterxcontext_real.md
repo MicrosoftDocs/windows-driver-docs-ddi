@@ -8,8 +8,6 @@ ms.assetid: a2a2bb57-6f5c-4bc9-8564-ab0db2efd872
 ms.date: 04/16/2018
 keywords: ["RxDereferenceAndDeleteRxContext_Real function"]
 ms.keywords: RxDereferenceAndDeleteRxContext_Real, RxDereferenceAndDeleteRxContext_Real function [Installable File System Drivers], ifsk.rxdereferenceanddeleterxcontext_real, rxcontx/RxDereferenceAndDeleteRxContext_Real, rxref_d3ea173c-343f-4fbf-b07b-be17816e1b2e.xml
-f1_keywords:
- - "rxcontx/RxDereferenceAndDeleteRxContext_Real"
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxcontx.h
-api_name:
-- RxDereferenceAndDeleteRxContext_Real
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxDereferenceAndDeleteRxContext_Real
+ - rxcontx/RxDereferenceAndDeleteRxContext_Real
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxcontx.h
+api_name:
+ - RxDereferenceAndDeleteRxContext_Real
 ---
 
 # RxDereferenceAndDeleteRxContext_Real function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-<b>RxDereferenceAndDeleteRxContext_Real</b> dereferences an RX_CONTEXT data structure and if the <b>ReferenceCount</b> member goes to zero, then it deallocates and removes the specified RX_CONTEXT structure from the RDBSS in-memory data structures. 
-
+<b>RxDereferenceAndDeleteRxContext_Real</b> dereferences an RX_CONTEXT data structure and if the <b>ReferenceCount</b> member goes to zero, then it deallocates and removes the specified RX_CONTEXT structure from the RDBSS in-memory data structures.
 
 ## -parameters
 
+### -param RxContext 
 
-
-
-### -param RxContext [in]
-
+[in]
 A pointer to the RX_CONTEXT structure to be removed.
 
-
 ## -remarks
-
-
 
 <b>RxDereferenceAndDeleteRxContext_Real</b> is called by routines other than <b>RxCompleteRequest</b> during asynchronous requests that touch the <i>RxContext</i> parameter in either the initiating thread or in some other thread. Thus, the RX_CONTEXT data structure is reference counted and finalized on the last dereference.
 
@@ -81,15 +73,9 @@ If the <b>NumberOfActiveContexts</b> member of the associated RDBSS_DEVICE_OBJEC
 
 </li>
 </ul>
-If the RX_CONTEXT structure was allocated from non-page pool memory (the <b>Flags</b> member of the RX_CONTEXT structure has the RX_CONTEXT_FLAG_FROM_POOL option set), then the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter will be returned to an internal RDBSS lookaside list or to non-paged pool memory. 
-
-
-
+If the RX_CONTEXT structure was allocated from non-page pool memory (the <b>Flags</b> member of the RX_CONTEXT structure has the RX_CONTEXT_FLAG_FROM_POOL option set), then the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter will be returned to an internal RDBSS lookaside list or to non-paged pool memory.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
@@ -128,7 +114,4 @@ If the RX_CONTEXT structure was allocated from non-page pool memory (the <b>Flag
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/--rxsynchronizeblockingoperationsmaybedroppingfcblock">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
- 
-
- 
 

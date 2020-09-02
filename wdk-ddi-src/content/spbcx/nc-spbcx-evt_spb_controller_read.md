@@ -8,8 +8,6 @@ ms.assetid: 2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_CONTROLLER_READ callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_READ, EVT_SPB_CONTROLLER_READ callback, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead
-f1_keywords:
- - "spbcx/EvtSpbControllerIoRead"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Spbcx.h
-api_name:
-- EvtSpbControllerIoRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SPB_CONTROLLER_READ
+ - spbcx/EVT_SPB_CONTROLLER_READ
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Spbcx.h
+api_name:
+ - EvtSpbControllerIoRead
 ---
 
 # EVT_SPB_CONTROLLER_READ callback function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 An SPB controller driver's <i>EvtSpbControllerIoRead</i> event callback function reads data from the specified target device into the buffers that are supplied with the read request.
-
 
 ## -parameters
 
+### -param Controller 
 
-
-
-### -param Controller [in]
-
+[in]
 A WDFDEVICE handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
+### -param Target 
 
-### -param Target [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see Remarks.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes to read from the target device.
 
-
 ## -remarks
-
-
 
 SpbCx manages the I/O queue for the SPB controller. SpbCx calls the SPB controller driver's <i>EvtSpbControllerIoRead</i> callback function when a client (peripheral driver) of the SPB controller sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> request to a target device that is attached to the bus. The <i>Request</i> parameter value is a handle that encapsulates this request.
 
@@ -133,12 +125,7 @@ The EVT_SPB_CONTROLLER_READ function type is defined in the Spbcx.h header file.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_sequence">EvtSpbControllerIoSequence</a>
 
@@ -165,7 +152,4 @@ The EVT_SPB_CONTROLLER_READ function type is defined in the Spbcx.h header file.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
- 
-
- 
 

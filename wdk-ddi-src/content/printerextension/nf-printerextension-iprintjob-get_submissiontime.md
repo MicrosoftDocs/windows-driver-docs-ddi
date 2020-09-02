@@ -8,8 +8,6 @@ ms.assetid: 23433B59-A376-4D92-863E-4492621F3BF5
 ms.date: 04/20/2018
 keywords: ["IPrintJob::get_SubmissionTime"]
 ms.keywords: IPrintJob interface [Print Devices],SubmissionTime property, IPrintJob.SubmissionTime, IPrintJob.get_SubmissionTime, IPrintJob::SubmissionTime, IPrintJob::get_SubmissionTime, SubmissionTime property [Print Devices], SubmissionTime property [Print Devices],IPrintJob interface, get_SubmissionTime, print.iprintjob_submissiontime, printerextension/IPrintJob::SubmissionTime, printerextension/IPrintJob::get_SubmissionTime
-f1_keywords:
- - "printerextension/IPrintJob.SubmissionTime"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintJob.SubmissionTime
-- IPrintJob.get_SubmissionTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintJob::get_SubmissionTime
+ - printerextension/IPrintJob::get_SubmissionTime
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintJob.SubmissionTime
+ - IPrintJob.get_SubmissionTime
 ---
 
 # IPrintJob::get_SubmissionTime
@@ -48,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.date: 04/20/2018
 keywords: ["UpdatePrintDeviceObject function"]
 ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
-f1_keywords:
- - "winsplp/UpdatePrintDeviceObject"
 req.header: winsplp.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinSpool.drv
-api_name:
-- UpdatePrintDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UpdatePrintDeviceObject
+ - winsplp/UpdatePrintDeviceObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinSpool.drv
+api_name:
+ - UpdatePrintDeviceObject
 ---
 
 # UpdatePrintDeviceObject function
@@ -47,58 +46,37 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
 </div><div> </div>The <b>UpdatePrintDeviceObject</b> function updates the properties of a device object that is in the print provider queue.
 
-
 ## -parameters
 
+### -param hPrinter 
 
-
-
-### -param hPrinter [in]
-
+[in]
 The HANDLE to an open printer. This should be a handle that was returned by the <b>AddPrinter</b> or <b>OpenPrinter</b> spooler functions.
 
+### -param hDeviceObject 
 
-### -param hDeviceObject [in]
-
+[in]
 The HANDLE to the device object to be updated. This should be a device object that was created with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
 
-
 ## -returns
-
-
 
 The <b>UpdatePrintDeviceObject</b> function returns S_OK, if the properties of the  device object were updated successfully. Otherwise it returns an error.
 
 For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), if the function call was made with an invalid HANDLE, or the device object was removed before the function call was made.
 
-
-
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/printdocs/printer-info-2">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
-
-
-
+The <a href="https://docs.microsoft.com/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printer-info-2">PRINTER_INFO_2</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>
 

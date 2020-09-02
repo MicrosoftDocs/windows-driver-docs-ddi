@@ -8,8 +8,6 @@ ms.assetid: 5EA31AC4-FFAF-4AB8-B471-32B823F35D2F
 ms.date: 04/20/2018
 keywords: ["SpoolerFreePrinterNotifyInfo function"]
 ms.keywords: SpoolerFreePrinterNotifyInfo, SpoolerFreePrinterNotifyInfo function [Print Devices], print.spoolerfreeprinternotifyinfo, winsplp/SpoolerFreePrinterNotifyInfo
-f1_keywords:
- - "winsplp/SpoolerFreePrinterNotifyInfo"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- SpoolerFreePrinterNotifyInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpoolerFreePrinterNotifyInfo
+ - winsplp/SpoolerFreePrinterNotifyInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - SpoolerFreePrinterNotifyInfo
 ---
 
 # SpoolerFreePrinterNotifyInfo function
@@ -47,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param pInfo 
 
-
-
-### -param pInfo [in]
-
+[in]
 

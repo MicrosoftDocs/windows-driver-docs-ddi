@@ -5,39 +5,41 @@ description: A NET_PACKET_CHECKSUM structure describes checksum information for 
 tech.root: netvista
 ms.assetid: 75363870-C58D-4677-A523-9728CB4A1BAC
 ms.date: 09/25/2019
-keywords: ["_NET_PACKET_CHECKSUM structure"]
-f1_keywords:
- - "checksumtypes/BATTERY_INFORMATION"
+keywords: ["NET_PACKET_CHECKSUM structure"]
 ms.keywords: _NET_PACKET_CHECKSUM, NET_PACKET_CHECKSUM, *PNET_PACKET_CHECKSUM
 req.header: checksumtypes.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
-req.alt-api:
-req.alt-loc:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
+req.alt-api: 
+req.alt-loc: 
 req.typenames: NET_PACKET_CHECKSUM
-topictype:
-- APIRef
-apitype: 
-- HeaderDef
-apilocation: 
-- checksumtypes.h
-apiname: 
-- NET_PACKET_CHECKSUM
 targetos: Windows
-product:
-- Windows
+f1_keywords:
+ - _NET_PACKET_CHECKSUM
+ - checksumtypes/_NET_PACKET_CHECKSUM
+ - NET_PACKET_CHECKSUM
+ - checksumtypes/NET_PACKET_CHECKSUM
+topictype:
+ - APIRef
+apitype:
+ - HeaderDef
+apilocation:
+ - checksumtypes.h
+apiname:
+ - NET_PACKET_CHECKSUM
 ---
 
 # _NET_PACKET_CHECKSUM structure
+
 
 ## -description
 
@@ -72,3 +74,4 @@ For a receive queue, the client specifies flag values from the [**NET_PACKET_RX_
 ## -see-also
 
 [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+

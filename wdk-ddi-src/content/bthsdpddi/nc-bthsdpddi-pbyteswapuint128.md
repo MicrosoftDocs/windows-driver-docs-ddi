@@ -8,8 +8,6 @@ ms.assetid: 04a3400a-e526-47d2-a602-6ecaa7ee7fcf
 ms.date: 04/27/2018
 keywords: ["PBYTESWAPUINT128 callback function"]
 ms.keywords: PBYTESWAPUINT128, PBYTESWAPUINT128 callback, SdpByteSwapUint128, SdpByteSwapUint128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuint128, bth_funcs_48f64465-c4dd-4cf2-8655-b55d5f0c89ba.xml, sdplib/SdpByteSwapUint128
-f1_keywords:
- - "bthsdpddi/SdpByteSwapUint128"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- sdplib.h
-api_name:
-- SdpByteSwapUint128
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PBYTESWAPUINT128
+ - bthsdpddi/PBYTESWAPUINT128
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - sdplib.h
+api_name:
+ - SdpByteSwapUint128
 ---
 
 # PBYTESWAPUINT128 callback function
@@ -47,29 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The Bluetooth 
   <b>SdpByteSwapUint128</b> function is used to reverse the byte order of an unsigned 128-bit integer.
 
-
 ## -parameters
-
-
-
 
 ### -param pInUint128
 
 A pointer to an unsigned 128-bit integer for which to reverse the byte order.
 
-
 ### -param pOutUint128
 
 A pointer to a variable that receives the converted 128-bit integer.
 
-
 ## -remarks
-
-
 
 The 
     <b>SdpByteSwapUint128</b> function always reverses the byte order of the value passed in the 
@@ -80,16 +70,7 @@ The
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
- 
-
- 
 

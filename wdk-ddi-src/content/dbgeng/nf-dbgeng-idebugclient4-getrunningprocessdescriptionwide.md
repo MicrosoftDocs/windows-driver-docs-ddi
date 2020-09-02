@@ -8,8 +8,6 @@ ms.assetid: 1af85bbe-19e8-4e16-a598-f9822fd6f766
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::GetRunningProcessDescriptionWide"]
 ms.keywords: GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient3::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient4.GetRunningProcessDescriptionWide, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, debugger.getrunningprocessdescriptionwide
-f1_keywords:
- - "dbgeng/IDebugClient3.GetRunningProcessDescriptionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient3.GetRunningProcessDescriptionWide
-- IDebugClient4.GetRunningProcessDescriptionWide
-- IDebugClient5.GetRunningProcessDescriptionWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::GetRunningProcessDescriptionWide
+ - dbgeng/IDebugClient4::GetRunningProcessDescriptionWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient3.GetRunningProcessDescriptionWide
+ - IDebugClient4.GetRunningProcessDescriptionWide
+ - IDebugClient5.GetRunningProcessDescriptionWide
 ---
 
 # IDebugClient4::GetRunningProcessDescriptionWide
@@ -49,27 +48,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetRunningProcessDescriptionWide</b> method returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
-
 
 ## -parameters
 
+### -param Server 
 
-
-
-### -param Server [in]
-
+[in]
 Specifies the process server to query for the process description.  If <i>Server</i> is zero, the engine will query information about the local process directly.
 
+### -param SystemId 
 
-### -param SystemId [in]
-
+[in]
 Specifies the process ID of the process whose description is desired.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies a bit-set containing options that affect the behavior of this method.  <i>Flags</i> can contain the following bit flags:
 
 <table>
@@ -118,42 +113,38 @@ Do not retrieve the command line.
 </td>
 </tr>
 </table>
- 
 
+### -param ExeName 
 
-### -param ExeName [out, optional]
-
+[out, optional]
 Receives the name of the executable file used to start the process.  If <i>ExeName</i> is <b>NULL</b>, this information is not returned.
 
+### -param ExeNameSize 
 
-### -param ExeNameSize [in]
-
+[in]
 Specifies the size in characters of the buffer <i>ExeNameSize</i>.
 
+### -param ActualExeNameSize 
 
-### -param ActualExeNameSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the executable file name.  If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
 
+### -param Description 
 
-### -param Description [out, optional]
-
+[out, optional]
 Receives extra information about the process, including service names, MTS package names, and the command line.  If <i>Description</i> is <b>NULL</b>, this information is not returned.
 
+### -param DescriptionSize 
 
-### -param DescriptionSize [in]
-
+[in]
 Specifies the size in characters of the buffer <i>Description</i>.
 
+### -param ActualDescriptionSize 
 
-### -param ActualDescriptionSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the extra information.  If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -185,26 +176,14 @@ The method was successful.  However, either <i>ExeNameSize</i> or <i>Description
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available only for live user-mode debugging.
 
 For more information about creating and attaching to live user-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a>
 
@@ -235,7 +214,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
 

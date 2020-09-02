@@ -8,8 +8,6 @@ ms.assetid: 24de4374-fa73-4891-b212-6f5c7ed53407
 ms.date: 04/30/2018
 keywords: ["KeGetCurrentProcessorNumber function"]
 ms.keywords: KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture], k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, kernel.kegetcurrentprocessornumber, ntddk/KeGetCurrentProcessorNumber
-f1_keywords:
- - "ntddk/KeGetCurrentProcessorNumber"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- KeGetCurrentProcessorNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeGetCurrentProcessorNumber
+ - ntddk/KeGetCurrentProcessorNumber
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - KeGetCurrentProcessorNumber
 ---
 
 # KeGetCurrentProcessorNumber function
@@ -47,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeGetCurrentProcessorNumber</b> routine returns the system-assigned number of the current processor on which the caller is running.
-
 
 ## -returns
 
-
-
-<b>KeGetCurrentProcessorNumber</b> returns a ULONG value that represents the processor on which the caller is currently running. 
-
-
-
+<b>KeGetCurrentProcessorNumber</b> returns a ULONG value that represents the processor on which the caller is currently running.
 
 ## -remarks
-
-
 
 <b>KeGetCurrentProcessorNumber</b> can be called to debug spin lock usage on SMP machines during driver development. A driver also might call <b>KeGetCurrentProcessorNumber</b> if it maintained some per-processor data and attempted to reduce cache-line contention.
 
@@ -72,20 +62,11 @@ Windows 7 and later versions of Windows support processor groups. Drivers that a
 
 If the call to <b>KeGetCurrentProcessorNumber</b> occurs at IRQL <= APC_LEVEL, a processor switch can occur between instructions. Consequently, callers of <b>KeGetCurrentProcessorNumber</b> usually run at IRQL >= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumberex">KeGetCurrentProcessorNumberEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>
- 
-
- 
 

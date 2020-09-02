@@ -8,8 +8,6 @@ ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
 ms.date: 05/03/2018
 keywords: ["wiasWriteMultiple function"]
 ms.keywords: image.wiaswritemultiple, wiamdef/wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasWriteMultiple"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasWriteMultiple
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasWriteMultiple
+ - wiamdef/wiasWriteMultiple
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasWriteMultiple
 ---
 
 # wiasWriteMultiple function
@@ -47,60 +46,37 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasWriteMultiple </b>function writes multiple property values to a WIA item.
-
 
 ## -parameters
 
+### -param pWiasContext 
 
-
-
-### -param pWiasContext [in]
-
+[in]
 Pointer to a WIA item context.
-
 
 ### -param ulCount
 
 Specifies the total number of properties to write.
 
+### -param ps 
 
-### -param ps [in]
-
+[in]
 Pointer to the first element of an array of PROPSPEC structures that indicate the properties to write.
-
 
 ### -param pv
 
 Pointer to the first element of an array of PROPVARIANT structures that contain the values to write to the item.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -remarks
-
-
 
 This function operates in a similar manner to <b>IPropertyStorage::WriteMultiple</b>, which is described in the Windows SDK documentation. The PROPSPEC and PROPVARIANT structures are also described in the Windows SDK documentation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadmultiple">wiasReadMultiple</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.date: 04/23/2018
 keywords: ["KSALLOCATOR_FRAMING structure"]
 ms.keywords: "*PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, ks/KSALLOCATOR_FRAMING, ks/PKSALLOCATOR_FRAMING, stream.ksallocator_framing"
-f1_keywords:
- - "ks/KSALLOCATOR_FRAMING"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSALLOCATOR_FRAMING
-product:
-- Windows
 targetos: Windows
 req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
+f1_keywords:
+ - PKSALLOCATOR_FRAMING
+ - ks/PKSALLOCATOR_FRAMING
+ - KSALLOCATOR_FRAMING
+ - ks/KSALLOCATOR_FRAMING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSALLOCATOR_FRAMING
 ---
 
 # KSALLOCATOR_FRAMING structure
@@ -47,14 +48,9 @@ req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
 
 ## -description
 
-
 The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OptionsFlags
 
@@ -86,8 +82,6 @@ Indicates that system memory should be used for allocations. When specified, the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RequirementsFlags
 
@@ -149,23 +143,18 @@ Indicates that the Requirements flags are preferences only and the connection po
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PoolType
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
 
-
 ### -field Frames
 
 Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
 
-
 ### -field FrameSize
 
 Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
-
 
 ### -field FileAlignment
 
@@ -227,37 +216,20 @@ FILE_64_BYTE_ALIGNMENT
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FramePitch
-
- 
-
 
 ### -field Reserved
 
 Reserved for system use. Set to zero.
 
-
 ## -remarks
-
-
 
 Use KSALLOCATOR_FRAMING to submit an allocator creation request to a handle of a sink by using IRP_MJ_CREATE.
 
 When you specify a value for the <b>FileAlignment</b> member, the smallest allocation alignment is 1 byte (FILE_BYTE_ALIGNMENT). Software that functions as an allocation should support 4-byte alignment (FILE_LONG_ALIGNMENT), if possible.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>
- 
-
- 
 

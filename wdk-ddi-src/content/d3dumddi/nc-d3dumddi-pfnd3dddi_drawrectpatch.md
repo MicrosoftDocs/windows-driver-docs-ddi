@@ -8,8 +8,6 @@ ms.assetid: c0e3046c-f2af-4406-ac5a-c3e44f40b1fd
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_DRAWRECTPATCH callback function"]
 ms.keywords: DrawRectPatch, DrawRectPatch callback function [Display Devices], PFND3DDDI_DRAWRECTPATCH, PFND3DDDI_DRAWRECTPATCH callback, UserModeDisplayDriver_Functions_a32bf010-d5a9-4cf7-b885-4f0fb407a4ad.xml, d3dumddi/DrawRectPatch, display.drawrectpatch
-f1_keywords:
- - "d3dumddi/DrawRectPatch"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- DrawRectPatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFND3DDDI_DRAWRECTPATCH
+ - d3dumddi/PFND3DDDI_DRAWRECTPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - DrawRectPatch
 ---
 
 # PFND3DDDI_DRAWRECTPATCH callback function
@@ -47,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>DrawRectPatch</b> function draws a new or cached rectangular patch or updates the specification of a previously defined patch.
-
 
 ## -parameters
 
+### -param hDevice 
 
-
-
-### -param hDevice [in]
-
+[in]
 A handle to the display device (graphics context).
-
 
 ### -param Arg2
 
@@ -79,19 +73,11 @@ Optional. A pointer to a D3DDDIRECTPATCH_INFO structure that describes informati
 
 Optional. A pointer to a buffer that contains four floating-point values (D3DFLOAT[4]) that provide the segment counts for each of the four edges of the rectangular patch.
 
-
 ## -returns
-
-
 
 <b>DrawRectPatch</b> returns S_OK or an appropriate error result if the rectangular patch is not successfully drawn.
 
-
-
-
 ## -remarks
-
-
 
 When the Microsoft Direct3D runtime calls<i>pPatch</i> the user-mode display driver's <b>DrawRectPatch</b> function, it can optionally supply information in the <i>pInfo</i> and  parameters. The runtime sets flags in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_drawrectpatch">D3DDDIARG_DRAWRECTPATCH</a> structure that is specified by <i>pData</i> to indicate if it supplies this optional information. 
 
@@ -123,20 +109,11 @@ If a nonzero <b>Handle</b> value has been previously specified in an earlier cal
 </ul>
 The driver receives notification to release cached patch information through the D3DRS_DELETERTPATCH render state. The value of this render state is the patch to delete.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_drawrectpatch">D3DDDIARG_DRAWRECTPATCH</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

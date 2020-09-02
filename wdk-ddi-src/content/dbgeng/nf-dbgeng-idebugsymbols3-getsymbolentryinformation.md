@@ -8,8 +8,6 @@ ms.assetid: 02fe418f-1793-4585-9891-1274a4ddba74
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetSymbolEntryInformation"]
 ms.keywords: GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryInformation method, IDebugSymbols3.GetSymbolEntryInformation, IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, debugger.getsymbolentryinformation
-f1_keywords:
- - "dbgeng/IDebugSymbols3.GetSymbolEntryInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.GetSymbolEntryInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetSymbolEntryInformation
+ - dbgeng/IDebugSymbols3::GetSymbolEntryInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.GetSymbolEntryInformation
 ---
 
 # IDebugSymbols3::GetSymbolEntryInformation
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolEntryInformation</b> method returns the symbol entry information for a symbol.
-
 
 ## -parameters
 
+### -param Id 
 
-
-
-### -param Id [in]
-
+[in]
 Specifies the module and symbol ID of the desired symbol.  For details on this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a>.
 
+### -param Info 
 
-### -param Info [out]
-
+[out]
 Receives the symbol entry information for the symbol.  For details on this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_entry">DEBUG_SYMBOL_ENTRY</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -89,31 +81,16 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For details on the symbol entry information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getsymbolentryinformation">IdebugSymbolGroup2::GetSymbolEntryInformation</a>
- 
-
- 
 

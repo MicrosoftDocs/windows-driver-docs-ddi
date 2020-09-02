@@ -8,8 +8,6 @@ ms.assetid: 3fbb3e5d-e7a3-4d76-9996-50375ed9fd03
 ms.date: 04/20/2018
 keywords: ["IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL"]
 ms.keywords: IOCTL_USBPRINT_VENDOR_SET_COMMAND, IOCTL_USBPRINT_VENDOR_SET_COMMAND control, IOCTL_USBPRINT_VENDOR_SET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_set_command, usbioctl_b3ea3ada-47c2-4acc-b08c-2d16e9d3ead1.xml, usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND
-f1_keywords:
- - "usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbprint.h
-api_name:
-- IOCTL_USBPRINT_VENDOR_SET_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_USBPRINT_VENDOR_SET_COMMAND
+ - usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbprint.h
+api_name:
+ - IOCTL_USBPRINT_VENDOR_SET_COMMAND
 ---
 
 # IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL
@@ -47,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
-The <b>IOCTL_USBPRINT_VENDOR_SET_COMMAND</b> request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device. 
-
-
+The <b>IOCTL_USBPRINT_VENDOR_SET_COMMAND</b> request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -107,51 +100,28 @@ Any additional data to be sent as part of the command
 </td>
 </tr>
 </table>
- 
-
 
 ### -input-buffer-length
 
 The size of the input buffer, in bytes.
 
-
 ### -output-buffer
 
 Not used in this operation; set this parameter to <b>NULL</b>.
-
 
 ### -output-buffer-length
 
 Not used in this operation; set this parameter to 0.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -170,7 +140,4 @@ Not used in this operation; set this parameter to 0.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

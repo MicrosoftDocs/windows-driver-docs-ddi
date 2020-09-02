@@ -6,70 +6,52 @@ tech.root: netvista
 ms.assetid: 88bb4032-3349-485a-a276-48f993c68a88
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE
 ---
 
 # FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE callback function
+
 
 ## -description
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The  <b>VmbChannelInitSetMaximumPacketSize</b> function sets the maximum packet size that can be delivered through a channel, which is the maximum size that will ever be specified by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend">VmbPacketSend</a> function.  
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE FnVmbChannelInitSetMaximumPacketSize; 
-
-// Definition
-
-NTSTATUS FnVmbChannelInitSetMaximumPacketSize 
-(
-	VMBCHANNEL Channel
-	UINT32 PacketSize
-)
-{...}
-
-```
+The  <b>VmbChannelInitSetMaximumPacketSize</b> function sets the maximum packet size that can be delivered through a channel, which is the maximum size that will ever be specified by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend">VmbPacketSend</a> function.
 
 ## -parameters
 
 ### -param Channel
 
-A handle for the channel. 
+A handle for the channel.
 
 ### -param PacketSize
 
@@ -119,6 +101,24 @@ The <i>PacketSize</i> value is invalid. Zero (0) is invalid.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE FnVmbChannelInitSetMaximumPacketSize; 
+
+// Definition
+
+NTSTATUS FnVmbChannelInitSetMaximumPacketSize 
+(
+	VMBCHANNEL Channel
+	UINT32 PacketSize
+)
+{...}
+
+```
+
 ## -remarks
 
 This function can only be called during channel initialization. 
@@ -133,3 +133,4 @@ The size of the ring buffers is, in part, based on this maximum packet size.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend">VmbPacketSend</a>
+

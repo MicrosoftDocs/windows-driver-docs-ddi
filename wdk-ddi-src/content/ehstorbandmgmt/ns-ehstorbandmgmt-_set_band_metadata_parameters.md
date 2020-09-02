@@ -6,10 +6,8 @@ old-location: storage\set_band_metadata_parameters.htm
 tech.root: storage
 ms.assetid: 3FCCFFE1-C341-4C8D-8EEC-E07C7ECFC317
 ms.date: 03/29/2018
-keywords: ["_SET_BAND_METADATA_PARAMETERS structure"]
+keywords: ["SET_BAND_METADATA_PARAMETERS structure"]
 ms.keywords: "*PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], SET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], _SET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters"
-f1_keywords:
- - "ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorBandMgmt.h
-api_name:
-- SET_BAND_METADATA_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS
+f1_keywords:
+ - _SET_BAND_METADATA_PARAMETERS
+ - ehstorbandmgmt/_SET_BAND_METADATA_PARAMETERS
+ - PSET_BAND_METADATA_PARAMETERS
+ - ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS
+ - SET_BAND_METADATA_PARAMETERS
+ - ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorBandMgmt.h
+api_name:
+ - SET_BAND_METADATA_PARAMETERS
 ---
 
 # _SET_BAND_METADATA_PARAMETERS structure
@@ -47,44 +50,33 @@ req.typenames: SET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS
 
 ## -description
 
-
 The metadata for a configured band is set to the parameters in a <b>SET_BAND_METADATA_PARAMETERS</b> structure. This structure is input for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(SET_BAND_METADATA_PARAMETERS).
 
-
 ### -field BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
-
 
 ### -field BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
-
 ### -field MetadataOffset
 
 The offset from the start of the band metadata property  to set the new   data.
-
 
 ### -field MetadataSize
 
 The length of metadata bytes to set. This size is limited by the value of <b>MetadataOffset</b> subtracted from the <b>BandMetadataSize</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a> structure.
 
-
 ### -field BufferOffset
 
 The offset, in bytes, from the beginning of <b>SET_BAND_METADATA_PARAMETERS </b> to the location of the new metadata.
-
 
 ### -field AuthKeyOffset
 
@@ -120,10 +112,7 @@ A variable-length byte array that contains the key data.
 
 To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
-
 ## -remarks
-
-
 
  Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == -1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a>.
 
@@ -133,13 +122,7 @@ The size of the  band metadata store is found in the <b>BandMetadataSize</b> mem
 
 The new metadata to set for the band is included in the system buffer for  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a> request and follows this structure at <b>BufferOffset</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>
 
@@ -150,7 +133,4 @@ The new metadata to set for the band is included in the system buffer for  the <
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a>
- 
-
- 
 

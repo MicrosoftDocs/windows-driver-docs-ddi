@@ -6,10 +6,8 @@ old-location: kernel\process_mitigation_system_call_filter_policy.htm
 tech.root: kernel
 ms.assetid: 6a64ae8d-43e3-4ebd-b10b-2ae8e607071f
 ms.date: 04/30/2018
-keywords: ["_PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure"]
+keywords: ["PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure"]
 ms.keywords: "*PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, kernel.process_mitigation_system_call_filter_policy, ntddk/PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY"
-f1_keywords:
- - "ntddk/PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
-product:
-- Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, *PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
+f1_keywords:
+ - _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
+ - ntddk/_PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
+ - PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
+ - ntddk/PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
+ - PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
+ - ntddk/PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
 ---
 
 # _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure
@@ -47,30 +50,17 @@ req.typenames: PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, *PPROCESS_MITIGATIO
 
 ## -description
 
-
-This structure is not supported. 
-
+This structure is not supported.
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
 
 ### -field DUMMYUNIONNAME.Flags
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.FilterId
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 

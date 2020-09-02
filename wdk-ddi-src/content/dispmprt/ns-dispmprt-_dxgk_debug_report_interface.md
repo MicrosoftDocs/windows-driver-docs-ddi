@@ -6,10 +6,8 @@ old-location: display\dxgk_debug_report_interface.htm
 tech.root: display
 ms.assetid: fb1bd1dd-feab-4aa4-8b4f-932f0d5ec4ab
 ms.date: 05/10/2018
-keywords: ["_DXGK_DEBUG_REPORT_INTERFACE structure"]
+keywords: ["DXGK_DEBUG_REPORT_INTERFACE structure"]
 ms.keywords: "*PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices], DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml, PDXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _DXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, dispmprt/DXGK_DEBUG_REPORT_INTERFACE, dispmprt/PDXGK_DEBUG_REPORT_INTERFACE"
-f1_keywords:
- - "dispmprt/DXGK_DEBUG_REPORT_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- DXGK_DEBUG_REPORT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE
+f1_keywords:
+ - _DXGK_DEBUG_REPORT_INTERFACE
+ - dispmprt/_DXGK_DEBUG_REPORT_INTERFACE
+ - PDXGK_DEBUG_REPORT_INTERFACE
+ - dispmprt/PDXGK_DEBUG_REPORT_INTERFACE
+ - DXGK_DEBUG_REPORT_INTERFACE
+ - dispmprt/DXGK_DEBUG_REPORT_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - DXGK_DEBUG_REPORT_INTERFACE
 ---
 
 # _DXGK_DEBUG_REPORT_INTERFACE structure
@@ -47,39 +50,29 @@ req.typenames: DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE
 
 ## -description
 
-
 The DXGK_DEBUG_REPORT_INTERFACE structure contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Debug Report interface</a>, which is implemented by the display port driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Version
 
 The version number of the Debug Report interface. Version number constants are defined in <i>Dispmprt.h</i> (for example, DXGK_DEBUG_REPORT_INTERFACE_VERSION_1).
-
 
 ### -field Context
 
 A pointer to a context that is provided by the display port driver.
 
-
 ### -field InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display port driver.
 
-
 ### -field InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display port driver.
-
 
 ### -field DbgReportCreate
 
@@ -186,6 +179,4 @@ VOID DbgReportComplete(
 ## -remarks
 
 The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
-
-
 

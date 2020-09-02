@@ -8,8 +8,6 @@ ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
 ms.date: 04/16/2018
 keywords: ["FltQueryDirectoryFile function"]
 ms.keywords: FltQueryDirectoryFile, FltQueryDirectoryFile routine [Installable File System Drivers], fltkernel/FltQueryDirectoryFile, ifsk.fltquerydirectoryfile, FltQueryDirectoryFileEx
-f1_keywords:
- - "fltkernel/FltQueryDirectoryFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQueryDirectoryFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQueryDirectoryFile
+ - fltkernel/FltQueryDirectoryFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueryDirectoryFile
 ---
 
 # FltQueryDirectoryFile function
+
 
 ## -description
 
@@ -50,24 +50,29 @@ The **FltQueryDirectoryFile** routine returns various kinds of information about
 
 ## -parameters
 
-### -param Instance [in]
+### -param Instance 
 
+[in]
 Opaque pointer to the minifilter driver instance that initiates the I/O.
 
-### -param FileObject [in]
+### -param FileObject 
 
+[in]
 Pointer to the file object that represents the directory to be scanned.
 
-### -param FileInformation [out]
+### -param FileInformation 
 
+[out]
 Pointer to a buffer that receives the desired information about the file. The structure of the information returned in the buffer is defined by the *FileInformationClass* parameter.
 
-### -param Length [in]
+### -param Length 
 
+[in]
 Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should set this parameter according to the given *FileInformationClass*.
 
-### -param FileInformationClass [in]
+### -param FileInformationClass 
 
+[in]
 Type of information to be returned about files in the directory. One of the values in the following table can be used.
 
 <table>
@@ -186,22 +191,26 @@ Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 </table>
 
-### -param ReturnSingleEntry [in]
+### -param ReturnSingleEntry 
 
+[in]
 Set to **TRUE** if only a single entry should be returned, **FALSE** otherwise. If this parameter is **TRUE**, **FltQueryDirectoryFile** returns only the first entry that is found.
 
-### -param FileName [in, optional]
+### -param FileName 
 
+[in, optional]
 Pointer to a caller-allocated Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**.
 
 If *FileName* is not **NULL**, only files whose names match the *FileName* string are included in the directory scan. If *FileName* is **NULL**, all files are included. If *RestartScan* is **FALSE**, the value of *FileName* is ignored.
 
-### -param RestartScan [in]
+### -param RestartScan 
 
+[in]
 Set to **TRUE** if the scan is to start at the first entry in the directory. Set to **FALSE** if resuming the scan from a previous call. The caller must set this parameter to **TRUE** when calling **FltQueryDirectoryFile **for the first time.
 
-### -param LengthReturned [out, optional]
+### -param LengthReturned 
 
+[out, optional]
 Receives the number of bytes actually written to the given *FileInformation* buffer.
 
 ## -returns
@@ -278,3 +287,4 @@ Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and
 [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
 
 [ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047")
+

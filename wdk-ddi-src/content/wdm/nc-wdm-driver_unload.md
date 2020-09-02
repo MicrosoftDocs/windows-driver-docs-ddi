@@ -8,8 +8,6 @@ ms.assetid: 56638b74-6233-4239-9315-ec8a643a2cea
 ms.date: 04/30/2018
 keywords: ["DRIVER_UNLOAD callback function"]
 ms.keywords: DRIVER_UNLOAD, DrvrRtns_68cde0dd-4521-4771-8965-309dedd87d37.xml, Unload, Unload routine [Kernel-Mode Driver Architecture], kernel.unload, wdm/Unload
-f1_keywords:
- - "wdm/Unload"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- Unload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DRIVER_UNLOAD
+ - wdm/DRIVER_UNLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - Unload
 ---
 
 # DRIVER_UNLOAD callback function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <i>Unload</i> routine performs any operations that are necessary before the system unloads the driver.
-
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
-
 ## -remarks
-
-
 
 A driver's <i>Unload</i> routine executes in a system thread context at IRQL = PASSIVE_LEVEL.
 
@@ -110,5 +102,4 @@ VOID
 The DRIVER_UNLOAD function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_UNLOAD function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
-
 

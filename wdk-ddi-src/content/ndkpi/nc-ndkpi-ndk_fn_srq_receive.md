@@ -8,8 +8,6 @@ ms.assetid: 1D615DEA-5599-4A3D-AEE7-BDBFE9D40C47
 ms.date: 05/02/2018
 keywords: ["NDK_FN_SRQ_RECEIVE callback function"]
 ms.keywords: NDK_FN_SRQ_RECEIVE, NDK_FN_SRQ_RECEIVE callback, NdkSrqReceive, NdkSrqReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqReceive, netvista.ndk_fn_srq_receive
-f1_keywords:
- - "ndkpi/NdkSrqReceive"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkSrqReceive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_SRQ_RECEIVE
+ - ndkpi/NDK_FN_SRQ_RECEIVE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkSrqReceive
 ---
 
 # NDK_FN_SRQ_RECEIVE callback function
@@ -47,42 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkSrqReceive</i> (<i>NDK_FN_SRQ_RECEIVE</i>) function posts a receive request on an NDK shared receive queue (SRQ).
-
 
 ## -parameters
 
+### -param pNdkSrq 
 
-
-
-### -param pNdkSrq [in]
-
+[in]
 A pointer to an NDK shared receive queue (SRQ) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value to be returned in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
-
-
 
 ### -param NDK_SGE
 
 An array of SGE structures (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>) that represent the buffers to receive incoming data.
 
+### -param nSge 
 
-### -param nSge [in]
-
+[in]
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
-
-
 ## -returns
-
-
 
 The 
      <i>NdkSrqReceive</i> function returns one of the following NTSTATUS codes.
@@ -116,24 +105,12 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>NdkSrqReceive</i> posts a receive request to a shared receive queue (SRQ).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
 
@@ -144,7 +121,4 @@ An error occurred.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
- 
-
- 
 

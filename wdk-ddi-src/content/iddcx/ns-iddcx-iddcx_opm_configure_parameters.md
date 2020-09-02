@@ -8,8 +8,6 @@ ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
 ms.date: 05/10/2018
 keywords: ["IDDCX_OPM_CONFIGURE_PARAMETERS structure"]
 ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS, IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], display.iddcx_opm_configure_parameters, iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS
-f1_keywords:
- - "iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDDCX_OPM_CONFIGURE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDDCX_OPM_CONFIGURE_PARAMETERS
+ - iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDDCX_OPM_CONFIGURE_PARAMETERS
 ---
 
 # IDDCX_OPM_CONFIGURE_PARAMETERS structure
@@ -47,25 +46,15 @@ req.typenames:
 
 ## -description
 
-
 Gives information about the OPM configure parameters.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-
                      Total size of the structure.
-                 
-
 
 ### -field ConfigParameters
 
-
                      Configuration parameters.
-                 
 

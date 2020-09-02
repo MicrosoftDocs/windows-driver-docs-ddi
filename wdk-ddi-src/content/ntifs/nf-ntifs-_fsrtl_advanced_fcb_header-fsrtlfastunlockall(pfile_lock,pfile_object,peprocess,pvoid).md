@@ -10,6 +10,7 @@ keywords: ["FsRtlFastUnlockAll function"]
 ms.keywords: FsRtlFastUnlockAll, FsRtlFastUnlockAll routine [Installable File System Drivers], fsrtlref_713fc415-f52e-4e0f-8806-02f44fb9b3f4.xml, ifsk.fsrtlfastunlockall, ntifs/FsRtlFastUnlockAll
 f1_keywords:
  - "ntifs/FsRtlFastUnlockAll"
+ - "FsRtlFastUnlockAll"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlFastUnlockAll
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:
@@ -59,23 +58,23 @@ The <b>FsRtlFastUnlockAll</b> routine releases all byte-range locks that were ac
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to the file object for the file.
 
 
-### -param ProcessId [in]
-
+### -param ProcessId 
+[in]
 Pointer to the process ID for the process.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Optional context pointer to be used when completing IRPs.
 
 

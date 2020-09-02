@@ -8,8 +8,6 @@ ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.date: 04/30/2018
 keywords: ["ZwFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
-f1_keywords:
- - "ntifs/ZwFlushBuffersFileEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwFlushBuffersFileEx
-- NtFlushBuffersFileEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwFlushBuffersFileEx
+ - ntifs/ZwFlushBuffersFileEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwFlushBuffersFileEx
+ - NtFlushBuffersFileEx
 ---
 
 # ZwFlushBuffersFileEx function
@@ -48,19 +47,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwFlushBuffersFileEx</b> routine is called by a file system filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
-
 
 ## -parameters
 
+### -param FileHandle 
 
-
-
-### -param FileHandle [in]
-
+[in]
 Handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a> for the file whose buffers will be flushed. This parameter is required and cannot be <b>NULL</b>.
-
 
 ### -param FLags
 
@@ -101,25 +95,20 @@ Handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/
   </table>
   <p> </p>
 
-
 ### -param Parameters
 
 <p>Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.</p>
-
 
 ### -param ParametersSize
 
 The size, in bytes, of the parameters block.
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [out]
-
+[out]
 Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>ZwFlushBuffersFileEx</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following: 
 
@@ -162,14 +151,8 @@ The file does has neither write or append access.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A file system filter driver can call <b>ZwFlushBuffersFileEx</b> to issue an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a> request to the file system for a given file. The flush operation is synchronous. 
 
@@ -181,13 +164,7 @@ Callers of <b>ZwFlushBuffersFileEx</b> must be running at IRQL = PASSIVE_LEVEL a
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers">FltFlushBuffers</a>
 
@@ -206,7 +183,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>
- 
-
- 
 

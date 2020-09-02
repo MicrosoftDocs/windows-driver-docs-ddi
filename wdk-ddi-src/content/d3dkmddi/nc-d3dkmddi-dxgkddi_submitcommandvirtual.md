@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSubmitCommandVirtual"
+ - DXGKDDI_SUBMITCOMMANDVIRTUAL
+ - d3dkmddi/DXGKDDI_SUBMITCOMMANDVIRTUAL
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SUBMITCOMMANDVIRTUAL callback function
+
 
 ## -description
 

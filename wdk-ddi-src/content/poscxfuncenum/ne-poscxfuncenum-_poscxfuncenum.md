@@ -4,35 +4,37 @@ title: _POSCXFUNCENUM (poscxfuncenum.h)
 description: Provides a list of all PosCx WDF API functions.
 ms.assetid: ecc743f2-db9a-4816-a23b-8b6f072276f8
 ms.date: 10/19/2018
-keywords: ["_POSCXFUNCENUM enumeration"]
-f1_keywords:
- - "poscxfuncenum/_POSCXFUNCENUM"
-ms.keywords: _POSCXFUNCENUM, POSCXFUNCENUM, 
+keywords: ["POSCXFUNCENUM enumeration"]
+ms.keywords: _POSCXFUNCENUM, POSCXFUNCENUM,
 req.header: poscxfuncenum.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: POSCXFUNCENUM
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- poscxfuncenum.h
-api_name: 
-- _POSCXFUNCENUM
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _POSCXFUNCENUM
+ - poscxfuncenum/_POSCXFUNCENUM
+ - POSCXFUNCENUM
+ - poscxfuncenum/POSCXFUNCENUM
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - poscxfuncenum.h
+api_name:
+ - _POSCXFUNCENUM
 ---
 
 # _POSCXFUNCENUM enumeration
+
 
 ## -description
 
@@ -111,3 +113,4 @@ Value = 16
 ## -remarks
 
 ## -see-also
+

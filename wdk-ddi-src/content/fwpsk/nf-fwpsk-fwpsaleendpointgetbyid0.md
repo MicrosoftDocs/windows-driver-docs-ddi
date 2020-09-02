@@ -8,8 +8,6 @@ ms.assetid: fa9a5078-d254-4b4a-bbfb-256491beff5f
 ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointGetById0 function"]
 ms.keywords: FwpsAleEndpointGetById0, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetById0, netvista.fwpsaleendpointgetbyid0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml
-f1_keywords:
- - "fwpsk/FwpsAleEndpointGetById0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAleEndpointGetById0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAleEndpointGetById0
+ - fwpsk/FwpsAleEndpointGetById0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAleEndpointGetById0
 ---
 
 # FwpsAleEndpointGetById0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsAleEndpointGetById0</b> function retrieves information about an application layer enforcement (ALE)
@@ -56,31 +54,26 @@ The
 
 ## -parameters
 
+### -param engineHandle 
 
-
-
-### -param engineHandle [in]
-
+[in]
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
+### -param endpointId 
 
-### -param endpointId [in]
-
+[in]
 The unique endpoint identifier.
 
+### -param properties 
 
-### -param properties [out]
-
+[out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0_">
      FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure that contains the properties of the endpoint.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAleEndpointGetById0</b> function returns one of the following NTSTATUS codes.
@@ -113,15 +106,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
 
@@ -134,7 +120,4 @@ An error occurred.
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsaleendpointsetsecurityinfo0">
    FwpsAleEndpointSetSecurityInfo0</a>
- 
-
- 
 

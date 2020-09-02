@@ -8,8 +8,6 @@ ms.assetid: 175030c1-95d9-4a3b-976c-16e04852cb91
 ms.date: 05/10/2018
 keywords: ["PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function"]
 ms.keywords: HwVidGetVideoChildDescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], PVIDEO_HW_GET_CHILD_DESCRIPTOR, PVIDEO_HW_GET_CHILD_DESCRIPTOR callback, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml, display.hwvidgetvideochilddescriptor, video/HwVidGetVideoChildDescriptor
-f1_keywords:
- - "video/HwVidGetVideoChildDescriptor"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- HwVidGetVideoChildDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PVIDEO_HW_GET_CHILD_DESCRIPTOR
+ - video/PVIDEO_HW_GET_CHILD_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - HwVidGetVideoChildDescriptor
 ---
 
 # PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <i>HwVidGetVideoChildDescriptor</i> returns a descriptor, a type, and an identification number for a particular child device of the display adapter.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
+### -param ChildEnumInfo 
 
-### -param ChildEnumInfo [in]
-
+[in]
 Is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a> structure that describes the device being enumerated.
 
+### -param VideoChildType 
 
-### -param VideoChildType [out]
-
+[out]
 Pointer to a location in which the miniport driver returns the type of child being enumerated. This member can be one of the following from the VIDEO_CHILD_TYPE enumeration:
 
 | **Value** | **Meaning** |
@@ -77,20 +72,20 @@ Pointer to a location in which the miniport driver returns the type of child bei
 | **VideoChip** | The child device is the graphics chip.<br/>The miniport driver should return this type when ChildEnumInfo.ChildIndex is DISPLAY_ADAPTER_HW_ID. The miniport driver should not return anything in pChildDescriptor. | 
 | **Other** | The child device has a separate device driver associated with it.<br/>The miniport driver should return the device's PnP hardware identifier as a Unicode string in the buffer to which pChildDescriptor points. This string must match the [device ID](https://docs.microsoft.com/windows-hardware/drivers/)  specified in the driver's INF file. It will be used by the operating system as the hardware ID for this device. |
 
-### -param pChildDescriptor [out]
+### -param pChildDescriptor 
 
+[out]
 Pointer to a buffer in which the miniport driver can return data that identifies the device. The information returned depends on the child type specified in <i>VideoChildType</i>. The size of this buffer is specified by the video port driver in the <b>ChildDescriptorSize</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a>.
 
+### -param UId 
 
-### -param UId [out]
-
+[out]
 Pointer to the location in which the miniport driver returns a unique 32-bit <a href="https://docs.microsoft.com/windows-hardware/drivers/">device ID</a> for this device. The miniport driver should set <i>UId</i> to be DISPLAY_ADAPTER_HW_ID when the device is the actual display adapter.
 
+### -param pUnused 
 
-### -param pUnused [out]
-
+[out]
 Is unused and must be set to zero.
-
 
 ## -returns
 
@@ -101,7 +96,7 @@ Is unused and must be set to zero.
 |VIDEO_ENUM_INVALID_DEVICE|Call again. The miniport driver could not enumerate the child device identified in ChildEnumInfo but there are more devices to be enumerated.|
 |VIDEO_ENUM_MORE_DEVICES|A new child device is enumerated. The video port will call HwVidGetVideoChildDescriptor again in this case.|
 |VIDEO_ENUM_NO_MORE_DEVICES|The miniport driver could not enumerate the child device identified in ChildEnumInfo. Stop enumeration. There are no more devices to be enumerated.|
- 
+
 ## -remarks
 
 By default, <i>HwVidGetVideoChildDescriptor</i> is not called until after the device is started by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>. To allow the enumeration of a device's children before the device is started, set the <b>AllowEarlyEnumeration</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>. When <b>AllowEarlyEnumeration</b> is set, <i>HwVidGetVideoChildDescriptor</i> can be called at any time.
@@ -124,13 +119,7 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 </ul>
 <i>HwVidGetVideoChildDescriptor</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_power_get">HwVidGetPowerState</a>
 
@@ -149,7 +138,4 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportenumeratechildren">VideoPortEnumerateChildren</a>
- 
-
- 
 

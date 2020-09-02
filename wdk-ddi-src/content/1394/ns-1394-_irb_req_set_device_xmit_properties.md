@@ -6,10 +6,8 @@ old-location: ieee\irb_req_set_device_xmit_properties.htm
 tech.root: IEEE
 ms.assetid: 1E99F892-CD7C-411D-8832-08F988B9F2D7
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure"]
+keywords: ["IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure"]
 ms.keywords: 1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IEEE.irb_req_set_device_xmit_properties, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure [Buses], _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
-f1_keywords:
- - "1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
+f1_keywords:
+ - _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
+ - 1394/_IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
+ - IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
+ - 1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 ---
 
 # _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure
@@ -47,14 +48,9 @@ req.typenames: IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 
 ## -description
 
-
 This structure contains the fields necessary to carry out a SetDeviceXmitProperties request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fulSpeed
 
@@ -107,12 +103,7 @@ Reserved.
 
 Specifies the priority.
 
-
 ## -remarks
 
-
-
 By default, the maximum permitted transmission speed is the physical maximum. A driver should use this request to lower the maximum permitted speed.
-
-
 

@@ -8,8 +8,6 @@ ms.assetid: 4b94690a-cac9-4e36-ac51-34b02b4be28a
 ms.date: 04/30/2018
 keywords: ["KDEFERRED_ROUTINE callback function"]
 ms.keywords: CustomDpc, CustomThreadedDpc, CustomTimerDpc, DrvrRtns_977bffb4-a7ff-4b2b-80c6-181d00462d69.xml, KDEFERRED_ROUTINE, MyDpc, MyDpc routine [Kernel-Mode Driver Architecture], kernel.customdpc, wdm/MyDpc
-f1_keywords:
- - "wdm/MyDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- MyDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KDEFERRED_ROUTINE
+ - wdm/KDEFERRED_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - MyDpc
 ---
 
 # KDEFERRED_ROUTINE callback function
 
 
 ## -description
-
 
 The callback routine performs actions, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> returns,  of a threaded DPC, 
 
@@ -56,43 +54,37 @@ The <i>CustomThreadedDpc</i> routine performs the action of a threaded DPC. The 
 
 The <i>CustomTimerDpc</i> routine executes after a timer object's time interval expires.
 
-
 ## -parameters
 
+### -param Dpc 
 
-
-
-### -param Dpc [in]
-
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, which represents the DPC object that is associated with this callback  routine.
 
+### -param DeferredContext 
 
-### -param DeferredContext [in, optional]
-
+[in, optional]
 For <i>CustomDpc</i>, a caller-supplied pointer to driver-defined context information that was specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>.
 
 For <i>CustomThreadedDpc</i>, specifies driver-defined context information. When it initialized the DPC object, the driver supplied this value as the <i>DeferredContext</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>.
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, which represents the DPC object associated with this <i>CustomTimerDpc</i> routine.
 
+### -param SystemArgument1 
 
-### -param SystemArgument1 [in, optional]
-
+[in, optional]
 Caller-supplied pointer to driver-supplied information that was specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>. When it added the DPC to the DPC queue, the driver supplied this value as the <i>SystemArgument1</i> parameter to <b>KeInsertQueueDpc</b>.
 
 For <i>CustomTimerDpc</i>,  this value is not used.
 
+### -param SystemArgument2 
 
-### -param SystemArgument2 [in, optional]
-
+[in, optional]
 Specifies driver-defined context information. When it added the DPC to the DPC queue, the driver supplied this value as the <i>SystemArgument2</i> parameter to <b>KeInsertQueueDpc</b>.
 
 For <i>CustomTimerDpc</i>,  this value is not used.
 
-
 ## -remarks
-
-
 
 <b>About implementing <i>CustomDpc</i>:  </b>To create a DPC object and register a <i>CustomDpc</i> routine for that object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. (If you need only one DPC routine, you can use a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine and the system-allocated DPC object.)
 
@@ -176,12 +168,7 @@ VOID
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>KeInitializeDpc</b>
 
@@ -196,7 +183,4 @@ VOID
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
- 
-
- 
 

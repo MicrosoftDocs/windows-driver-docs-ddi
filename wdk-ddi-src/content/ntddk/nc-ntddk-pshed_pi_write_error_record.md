@@ -8,8 +8,6 @@ ms.assetid: 4800a0f9-29ee-4631-aee8-5a4924a08f55
 ms.date: 02/20/2018
 keywords: ["PSHED_PI_WRITE_ERROR_RECORD callback function"]
 ms.keywords: PSHED_PI_WRITE_ERROR_RECORD, PSHED_PI_WRITE_ERROR_RECORD callback, WriteErrorRecord, WriteErrorRecord callback function [WHEA Drivers and Applications], ntddk/WriteErrorRecord, whea.writeerrorrecord, whearef_3a405d7d-3427-4c22-919e-7cbab5ea4f19.xml
-f1_keywords:
- - "ntddk/WriteErrorRecord"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= HIGH_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntddk.h
-api_name:
-- WriteErrorRecord
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PSHED_PI_WRITE_ERROR_RECORD
+ - ntddk/PSHED_PI_WRITE_ERROR_RECORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntddk.h
+api_name:
+ - WriteErrorRecord
 ---
 
 # PSHED_PI_WRITE_ERROR_RECORD callback function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 A PSHED plug-in's <i>WriteErrorRecord </i>callback function writes an error record to the system's persistent data storage.
-
 
 ## -parameters
 
+### -param PluginContext 
 
-
-
-### -param PluginContext [in, out, optional]
-
+[in, out, optional]
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A bit-wise OR'ed combination of flags that affect the write operation. A possible flag is:
 
 
@@ -73,20 +68,17 @@ A bit-wise OR'ed combination of flags that affect the write operation. A possibl
 
 The write operation is a dummy write operation. No data is to be written to the system's persistent data storage.
 
+### -param RecordLength 
 
-### -param RecordLength [in]
-
+[in]
 The size, in bytes, of the error record pointed to by the <i>ErrorRecord</i> parameter.
 
+### -param ErrorRecord 
 
-### -param ErrorRecord [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure that describes the error record that is being written to the system's persistent data storage.
 
-
 ## -returns
-
-
 
 A PSHED plug-in's <i>WriteErrorRecord</i> callback function returns one of the following NTSTATUS codes:
 
@@ -118,14 +110,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A PSHED plug-in that participates in error record persistence sets the <b>Callbacks.WriteErrorRecord</b>, <b>Callbacks.ReadErrorRecord </b>and <b>Callbacks.ClearErrorRecord </b>members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <i>WriteErrorRecord</i>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_read_error_record">ReadErrorRecord</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_clear_error_record">ClearErrorRecord</a> callback functions when the plug-in calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorRecordPersistence</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
@@ -133,13 +119,7 @@ The Windows kernel calls into the PSHED to write an error record to the system's
 
 The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_clear_error_record">ClearErrorRecord</a>
 
@@ -158,7 +138,4 @@ The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at I
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
- 
-
- 
 

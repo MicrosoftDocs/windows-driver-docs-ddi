@@ -8,8 +8,6 @@ ms.assetid: 7972fd88-ca99-4a42-8476-754b26eb118c
 ms.date: 11/18/2019
 keywords: ["DrvSplEndDoc function"]
 ms.keywords: DrvSplEndDoc, DrvSplEndDoc function [Print Devices], print.drvsplenddoc, print_interface-graphics_13e407aa-2d2a-4ec5-b3ab-bcb6fa745039.xml, winddiui/DrvSplEndDoc
-f1_keywords:
- - "winddiui/DrvSplEndDoc"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvSplEndDoc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvSplEndDoc
+ - winddiui/DrvSplEndDoc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvSplEndDoc
 ---
 
 # DrvSplEndDoc function
+
 
 ## -description
 
@@ -61,3 +61,4 @@ The handle of the driver object.
 ## -remarks
 
 To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://docs.microsoft.com/windows-hardware/drivers/print/choosing-user-mode-or-kernel-mode).
+

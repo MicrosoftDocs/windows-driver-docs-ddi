@@ -8,8 +8,6 @@ ms.assetid: 143c4ca2-91ae-49c3-80e0-e7959e4bd297
 ms.date: 04/23/2018
 keywords: ["KsStreamPointerScheduleTimeout function"]
 ms.keywords: KsStreamPointerScheduleTimeout, KsStreamPointerScheduleTimeout function [Streaming Media Devices], avfunc_bde904b2-cfb8-45d1-80a1-ef1046d60276.xml, ks/KsStreamPointerScheduleTimeout, stream.ksstreampointerscheduletimeout
-f1_keywords:
- - "ks/KsStreamPointerScheduleTimeout"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsStreamPointerScheduleTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsStreamPointerScheduleTimeout
+ - ks/KsStreamPointerScheduleTimeout
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsStreamPointerScheduleTimeout
 ---
 
 # KsStreamPointerScheduleTimeout function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsStreamPointerScheduleTimeout </b>function registers a timeout callback with AVStream for the given stream pointer.
-
 
 ## -parameters
 
+### -param StreamPointer 
 
-
-
-### -param StreamPointer [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer for which to register a timeout.
 
+### -param Callback 
 
-### -param Callback [in]
-
+[in]
 A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff556362(v=vs.85)">AVStrMiniTimeoutCallback</a> routine. If the stream pointer has not been deleted or the timeout canceled before the interval expires, AVStream calls this routine immediately following expiration of the interval.
 
+### -param Interval 
 
-### -param Interval [in]
-
+[in]
 Specifies the interval in 100-nanosecond units from the current time to the time that the timeout occurs.
 
-
 ## -remarks
-
-
 
 It is safe to call <b>KsStreamPointerScheduleTimeout</b> on a stream pointer that already has a timeout scheduled. In this case, AVStream cancels the previous timeout and replaces it with the new timeout.
 
@@ -83,12 +75,7 @@ It is safe to call <b>KsStreamPointerScheduleTimeout</b> on a stream pointer tha
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
 
@@ -99,7 +86,4 @@ It is safe to call <b>KsStreamPointerScheduleTimeout</b> on a stream pointer tha
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>
- 
-
- 
 

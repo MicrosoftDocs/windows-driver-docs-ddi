@@ -6,10 +6,8 @@ old-location: storage\nvcache_request_block.htm
 tech.root: storage
 ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.date: 03/29/2018
-keywords: ["_NVCACHE_REQUEST_BLOCK structure"]
+keywords: ["NVCACHE_REQUEST_BLOCK structure"]
 ms.keywords: "*PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK structure [Storage Devices], PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], _NVCACHE_REQUEST_BLOCK, ntddscsi/NVCACHE_REQUEST_BLOCK, ntddscsi/PNVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml"
-f1_keywords:
- - "ntddscsi/NVCACHE_REQUEST_BLOCK"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddscsi.h
-api_name:
-- NVCACHE_REQUEST_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
+f1_keywords:
+ - _NVCACHE_REQUEST_BLOCK
+ - ntddscsi/_NVCACHE_REQUEST_BLOCK
+ - PNVCACHE_REQUEST_BLOCK
+ - ntddscsi/PNVCACHE_REQUEST_BLOCK
+ - NVCACHE_REQUEST_BLOCK
+ - ntddscsi/NVCACHE_REQUEST_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddscsi.h
+api_name:
+ - NVCACHE_REQUEST_BLOCK
 ---
 
 # _NVCACHE_REQUEST_BLOCK structure
@@ -47,19 +50,13 @@ req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 
 ## -description
 
-
 The <b>NVCACHE_REQUEST_BLOCK</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport">IOCTL_SCSI_MINIPORT</a> request to manage hybrid-hard disk drive (H-HDD) devices (for example, Microsoft ReadyDrive technology). This topic defines the general structure for both input data and output data for a call made to the NV Cache Manager. A caller should fill all required fields before calling <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>. The miniport driver must do the same after the requested function is completed, and before it returns.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NRBSize
 
 The <b>sizeof</b>(NVCACHE_REQUEST_BLOCK).
-
 
 ### -field Function
 
@@ -133,11 +130,9 @@ Reserved for future use.
 
 Pass IO hints to a SATA device.
 
-
 ### -field NRBFlags
 
 Reserved for future use.
-
 
 ### -field NRBStatus
 
@@ -187,52 +182,35 @@ Too much data returned from the port driver.
 
 Not enough data returned from the port driver.
 
-
 ### -field Count
 
 Number of 512-byte blocks to be transferred with the specified function.
-
 
 ### -field LBA
 
 Starting LBA of the device for the specified function.
 
-
 ### -field DataBufSize
 
 Size of the data buffer, in bytes.
-
 
 ### -field NVCacheStatus
 
 Status returned from the device. For an ATA device, this value is the contents of the Status Register in its Task File. For a SCSI device, this value is the Sense Code returned from the device.
 
-
 ### -field NVCacheSubStatus
 
 The error code returned from the device. For an ATA device, this value is the contents of the Error Register in its Task File. For a SCSI device, this value is the Sense key returned from the device.
 
-
 ## -remarks
-
-
 
 For more information on function behavior, see section 7.20 of the <a href="https://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport">IOCTL_SCSI_MINIPORT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_nvcache">IOCTL_SCSI_MINIPORT_NVCACHE</a>
- 
-
- 
 

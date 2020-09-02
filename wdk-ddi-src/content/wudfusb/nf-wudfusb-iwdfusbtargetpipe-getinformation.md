@@ -8,8 +8,6 @@ ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe::GetInformation"]
 ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetInformation method, IWDFUsbTargetPipe.GetInformation, IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, umdf.iwdfusbtargetpipe_getinformation, wdf.iwdfusbtargetpipe_getinformation, wudfusb/IWDFUsbTargetPipe::GetInformation
-f1_keywords:
- - "wudfusb/IWDFUsbTargetPipe.GetInformation"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetPipe.GetInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetPipe::GetInformation
+ - wudfusb/IWDFUsbTargetPipe::GetInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetPipe.GetInformation
 ---
 
 # IWDFUsbTargetPipe::GetInformation
@@ -47,42 +46,26 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetInformation</b> method retrieves information about a USB pipe (endpoint).
 
-
 ## -parameters
 
+### -param pInfo 
 
-
-
-### -param pInfo [out]
-
+[out]
 A pointer to a variable that receives USB pipe information.
-
 
 ## -remarks
 
-
-
 After a UMDF driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbinterface-retrieveusbpipeobject">IWDFUsbInterface::RetrieveUsbPipeObject</a> method to retrieve a USB pipe object, the UMDF driver should retrieve information about the USB pipe. Therefore, the <b>GetInformation</b> method does not fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbinterface-retrieveusbpipeobject">IWDFUsbInterface::RetrieveUsbPipeObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
- 
-
- 
 

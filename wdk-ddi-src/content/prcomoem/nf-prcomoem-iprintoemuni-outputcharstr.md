@@ -8,8 +8,6 @@ ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::OutputCharStr"]
 ms.keywords: IPrintOemUni interface [Print Devices],OutputCharStr method, IPrintOemUni.OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.OutputCharStr"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni.OutputCharStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::OutputCharStr
+ - prcomoem/IPrintOemUni::OutputCharStr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni.OutputCharStr
 ---
 
 # IPrintOemUni::OutputCharStr
@@ -47,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni::OutputCharStr</code> method enables a rendering plug-in to control the printing of font glyphs.
 
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
-
 ### -param pUFObj
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure.
-
 
 ### -param dwType
 
@@ -96,22 +88,16 @@ The <i>pGlyph</i> array elements are glyph identifiers of type DWORD.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwCount
 
 Caller-supplied value representing the number of glyph specifiers in the array pointed to by <i>pGlyph</i>.
 
-
 ### -param pGlyph
 
 Caller-supplied pointer to an array of glyph specifiers, where the array element type is indicated by <i>dwType</i>.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -154,14 +140,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <code>IPrintOemUni::OutputCharStr</code> method is used for supporting printers that do not recognize the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PCL</a>, CAPSL, or PPDS-formatted character output commands supported by Unidrv. Its purpose is to allow a rendering plug-in to control the printing of a font's glyphs, and to provide glyph substitutions if necessary.
 
@@ -194,6 +174,4 @@ If the specified font is a soft font, the method can just call <b>IPrintOemDrive
 The <code>IPrintOemUni::OutputCharStr</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "OutputCharStr" as input.
 
 For additional information see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Customized Font Management</a>.
-
-
 

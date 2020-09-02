@@ -8,8 +8,6 @@ ms.assetid: accc3600-9614-48e0-912d-1e8b324e659f
 ms.date: 04/16/2018
 keywords: ["FsRtlInsertPerFileContext function"]
 ms.keywords: FsRtlInsertPerFileContext, FsRtlInsertPerFileContext routine [Installable File System Drivers], fsrtlref_570a2352-733f-4b83-8f63-f4bfed0e2f56.xml, ifsk.fsrtlinsertperfilecontext, ntifs/FsRtlInsertPerFileContext
-f1_keywords:
- - "ntifs/FsRtlInsertPerFileContext"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlInsertPerFileContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlInsertPerFileContext
+ - ntifs/FsRtlInsertPerFileContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlInsertPerFileContext
 ---
 
 # FsRtlInsertPerFileContext function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlInsertPerFileContext</b> routine associates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> object with a driver-specified context object for a file.
-
 
 ## -parameters
 
+### -param PerFileContextPointer 
 
-
-
-### -param PerFileContextPointer [in]
-
+[in]
 A pointer to an opaque pointer used by the file system runtime library (FSRTL) package to track file contexts. To retrieve this pointer from a file object, use the <a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
+### -param Ptr 
 
-### -param Ptr [in]
-
-A pointer to the driver-specific context structure. 
-
+[in]
+A pointer to the driver-specific context structure.
 
 ## -returns
-
-
 
 The <b>FsRtlInsertPerFileContext</b> routine returns STATUS_SUCCESS, or an appropriate error code, such as:
 
@@ -100,14 +92,8 @@ The system could not allocate resources (typically memory).
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The FsRtlGetPerFileContextPointer macro returns a <i>FileContextSupportPointer</i> for an open file. 
 
@@ -129,13 +115,7 @@ The FsRtlGetPerFileContextPointer macro returns the pointer to be passed to rout
 
 For more information about how to use and create context objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a>
 
@@ -150,7 +130,4 @@ For more information about how to use and create context objects, see <a href="h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>
- 
-
- 
 

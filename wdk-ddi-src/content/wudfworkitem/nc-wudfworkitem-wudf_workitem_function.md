@@ -8,8 +8,6 @@ ms.assetid: 4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703
 ms.date: 02/26/2018
 keywords: ["WUDF_WORKITEM_FUNCTION callback function"]
 ms.keywords: OnWorkItem, OnWorkItem callback function, PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, WUDF_WORKITEM_FUNCTION, WUDF_WORKITEM_FUNCTION callback, umdf.onworkitem, wdf.onworkitem, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM
-f1_keywords:
- - "wudfworkitem/WUDF_WORKITEM_FUNCTION"
 req.header: wudfworkitem.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wudfworkitem.h
-api_name:
-- WUDF_WORKITEM_FUNCTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WUDF_WORKITEM_FUNCTION
+ - wudfworkitem/WUDF_WORKITEM_FUNCTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wudfworkitem.h
+api_name:
+ - WUDF_WORKITEM_FUNCTION
 ---
 
 # WUDF_WORKITEM_FUNCTION callback function
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <i>OnWorkItem</i> event callback function performs the work that is associated with a specified work item.
 
-
 ## -parameters
 
+### -param pWorkItem 
 
-
-
-### -param pWorkItem [in]
-
+[in]
 A pointer to an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfworkitem">IWDFWorkItem</a> interface.
 
-
 ## -remarks
-
-
 
 To register an <i>OnWorkItem</i> callback function, your driver must place the callback function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfworkitem/ns-wudfworkitem-_wudf_workitem_config">WUDF_WORKITEM_CONFIG</a> structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createworkitem">IWDFDevice3::CreateWorkItem</a>.
 
@@ -128,12 +120,7 @@ Then, implement your callback function as follows:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createworkitem">IWDFDevice3::CreateWorkItem</a>
 
@@ -144,7 +131,4 @@ Then, implement your callback function as follows:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfworkitem/ns-wudfworkitem-_wudf_workitem_config">WUDF_WORKITEM_CONFIG</a>
- 
-
- 
 

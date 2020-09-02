@@ -6,10 +6,8 @@ old-location: storage\srbex_data.htm
 tech.root: storage
 ms.assetid: 15FB9877-6339-484B-83D5-6AD44EEE1D6E
 ms.date: 03/29/2018
-keywords: ["_SRBEX_DATA structure"]
+keywords: ["SRBEX_DATA structure"]
 ms.keywords: "*PSRBEX_DATA, PSRBEX_DATA, PSRBEX_DATA structure pointer [Storage Devices], SRBEX_DATA, SRBEX_DATA structure [Storage Devices], SrbExDataTypeBidirectional, SrbExDataTypeIoInfo, SrbExDataTypePnp, SrbExDataTypePower, SrbExDataTypeScsiCdb16, SrbExDataTypeScsiCdb32, SrbExDataTypeScsiCdbVar, SrbExDataTypeUnknown, SrbExDataTypeWmi, _SRBEX_DATA, storage.srbex_data, storport/PSRBEX_DATA, storport/SRBEX_DATA"
-f1_keywords:
- - "storport/SRBEX_DATA"
 req.header: storport.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Storport.h
-api_name:
-- SRBEX_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA, *PSRBEX_DATA
+f1_keywords:
+ - _SRBEX_DATA
+ - storport/_SRBEX_DATA
+ - PSRBEX_DATA
+ - storport/PSRBEX_DATA
+ - SRBEX_DATA
+ - storport/SRBEX_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Storport.h
+api_name:
+ - SRBEX_DATA
 ---
 
 # _SRBEX_DATA structure
@@ -47,14 +50,10 @@ req.typenames: SRBEX_DATA, *PSRBEX_DATA
 
 ## -description
 
-
 The <b>SRBEX_DATA</b> structure is the generalized format for containing extended SRB data.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -156,22 +155,16 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Length
 
 Length of the SRB data, in bytes, present  in the <b>Data</b> member.
 
-
 ### -field Data
 
 The extended SRB data block contents.
 
-
 ## -remarks
-
-
 
 The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a> structure contains valid offset locations.  A storage driver initially references a memory offset location contained in <b>SrbExDataOffset</b> as an <b>SRBEX_DATA</b> structure. A pointer to the data block is then cast to the appropriate structure type based on the data type value in the <b>Type</b> member.
 
@@ -252,12 +245,7 @@ The following example code fragment shows how to access the extended data for th
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_bidirectional">SRBEX_DATA_BIDIRECTIONAL</a>
 
@@ -288,7 +276,4 @@ The following example code fragment shows how to access the extended data for th
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_wmi">SRBEX_DATA_WMI</a>
- 
-
- 
 

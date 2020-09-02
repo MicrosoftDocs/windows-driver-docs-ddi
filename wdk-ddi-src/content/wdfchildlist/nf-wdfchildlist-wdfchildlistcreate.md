@@ -8,8 +8,6 @@ ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.date: 02/26/2018
 keywords: ["WdfChildListCreate function"]
 ms.keywords: DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, WdfChildListCreate method, kmdf.wdfchildlistcreate, wdf.wdfchildlistcreate, wdfchildlist/WdfChildListCreate
-f1_keywords:
- - "wdfchildlist/WdfChildListCreate"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfChildListCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfChildListCreate
+ - wdfchildlist/WdfChildListCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfChildListCreate
 ---
 
 # WdfChildListCreate function
@@ -48,40 +47,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfChildListCreate</b> method creates a child list for a specified parent device.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object that represents the parent device.
 
+### -param Config 
 
-### -param Config [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a> structure that contains driver-supplied configuration information for the child list.
 
+### -param ChildListAttributes 
 
-### -param ChildListAttributes [in, optional]
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the framework child-list object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.)
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the framework child-list object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) 
+### -param ChildList 
 
-
-### -param ChildList [out]
-
+[out]
 A pointer to a caller-allocated location that receives a handle to a framework child-list object.
 
-
 ## -returns
-
-
 
 <b>WdfChildListCreate</b> returns STATUS_SUCCESS, or another status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS(status)</a> equals <b>TRUE</b>, if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -121,13 +113,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
 ## -remarks
-
-
 
 The framework creates a default child list for each framework device object that represents a functional device object (FDO). To use the default child list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdogetdefaultchildlist">WdfFdoGetDefaultChildList</a>. If your driver requires additional child lists, it can call <b>WdfChildListCreate</b> to create them.
 
@@ -170,12 +156,7 @@ if (!NT_SUCCESS(status)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a>
 
@@ -186,7 +167,4 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdogetdefaultchildlist">WdfFdoGetDefaultChildList</a>
- 
-
- 
 

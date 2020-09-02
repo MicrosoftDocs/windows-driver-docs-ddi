@@ -8,8 +8,6 @@ ms.assetid: 0e5c4b23-cb62-4320-9e55-d0da67b62aa1
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_MONITORARRIVAL structure"]
 ms.keywords: IDARG_OUT_MONITORARRIVAL, IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, iddcx/IDARG_OUT_MONITORARRIVAL
-f1_keywords:
- - "iddcx/IDARG_OUT_MONITORARRIVAL"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_OUT_MONITORARRIVAL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_OUT_MONITORARRIVAL
+ - iddcx/IDARG_OUT_MONITORARRIVAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_OUT_MONITORARRIVAL
 ---
 
 # IDARG_OUT_MONITORARRIVAL structure
@@ -47,18 +46,11 @@ req.typenames:
 
 ## -description
 
-
 Gives information about the monitor that is exposed to the OS.
-             
-
 
 ## -struct-fields
 
-
-
-
 ### -field OsAdapterLuid
-
 
                      LUID of the adapter where this monitor is exposed to the OS
     . 
@@ -67,7 +59,6 @@ Gives information about the monitor that is exposed to the OS.
 <div> </div>
 
 ### -field OsTargetId
-
 
                      DMM VidPn target id of the target this monitor is exposed to the OS. 
 
@@ -78,11 +69,5 @@ Gives information about the monitor that is exposed to the OS.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_monitor_info">IDDCX_MONITOR_INFO</a>
- 
-
- 
 

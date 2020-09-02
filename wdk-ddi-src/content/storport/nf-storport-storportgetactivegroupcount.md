@@ -8,8 +8,6 @@ ms.assetid: 640dd836-a5f9-4a88-b2a3-038a66a50868
 ms.date: 03/29/2018
 keywords: ["StorPortGetActiveGroupCount function"]
 ms.keywords: StorPortGetActiveGroupCount, StorPortGetActiveGroupCount routine [Storage Devices], storage.storportgetactivegroupcount, storport/StorPortGetActiveGroupCount, storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml
-f1_keywords:
- - "storport/StorPortGetActiveGroupCount"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetActiveGroupCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetActiveGroupCount
+ - storport/StorPortGetActiveGroupCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetActiveGroupCount
 ---
 
 # StorPortGetActiveGroupCount function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetActiveGroupCount</b> routine returns the number of processor groups that are present in the system.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param NumberGroups 
 
-### -param NumberGroups [out]
-
+[out]
 A pointer to a variable that holds the number of groups.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetActiveGroupCount</b> routine returns one of the following status codes:
 
@@ -100,7 +92,4 @@ The operation was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,8 +8,6 @@ ms.assetid: 7956E4F6-7FB5-4349-81D2-4953108557D2
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3::GetCurrentSystemServer"]
 ms.keywords: GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], GetCurrentSystemServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServer method, IDebugSystemObjects3.GetCurrentSystemServer, IDebugSystemObjects3::GetCurrentSystemServer, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, debugger.idebugsystemobjects3_getcurrentsystemserver
-f1_keywords:
- - "dbgeng/IDebugSystemObjects3.GetCurrentSystemServer"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSystemObjects3.GetCurrentSystemServer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects3::GetCurrentSystemServer
+ - dbgeng/IDebugSystemObjects3::GetCurrentSystemServer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSystemObjects3.GetCurrentSystemServer
 ---
 
 # IDebugSystemObjects3::GetCurrentSystemServer
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 Gets the server for the current process.
-
 
 ## -parameters
 
+### -param Server 
 
-
-
-### -param Server [out]
-
-A pointer to the returned server value. 
-
+[out]
+A pointer to the returned server value.
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -84,22 +76,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>
- 
-
- 
 

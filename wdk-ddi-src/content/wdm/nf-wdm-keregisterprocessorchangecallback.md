@@ -8,8 +8,6 @@ ms.assetid: a10d54a2-39e4-4c90-ac91-28d31b3ebfb8
 ms.date: 04/30/2018
 keywords: ["KeRegisterProcessorChangeCallback function"]
 ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback
-f1_keywords:
- - "wdm/KeRegisterProcessorChangeCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeRegisterProcessorChangeCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeRegisterProcessorChangeCallback
+ - wdm/KeRegisterProcessorChangeCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeRegisterProcessorChangeCallback
 ---
 
 # KeRegisterProcessorChangeCallback function
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeRegisterProcessorChangeCallback</b> routine registers a callback function with the operating system so that the operating system will notify the driver when a new processor is added to the hardware partition.
-
 
 ## -parameters
 
+### -param CallbackFunction 
 
-
-
-### -param CallbackFunction [in]
-
+[in]
 A pointer to a driver-supplied processor change callback function that is to be called by the operating system whenever a new processor is added to the hardware partition. A processor change callback function is defined as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -97,14 +92,14 @@ A pointer to a variable that contains an NTSTATUS code. A device driver must not
 
 The processor change callback function is called at IRQL = PASSIVE_LEVEL.
 
+### -param CallbackContext 
 
-### -param CallbackContext [in, optional]
-
+[in, optional]
 A driver-supplied context that is passed to the callback function. This parameter can be <b>NULL</b>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Optional flags that modify the behavior of the <b>KeRegisterProcessorChangeCallback</b> routine. The following is one possible flag:
 
 
@@ -115,19 +110,11 @@ Optional flags that modify the behavior of the <b>KeRegisterProcessorChangeCallb
 
 If this flag is set, the registered callback function is immediately called for each active processor that currently exists in the hardware partition, in addition to being called whenever a new processor is added to the hardware partition. If this flag is not set, the registered callback function is only called whenever a new processor is added to the system.
 
-
 ## -returns
-
-
 
 <b>KeRegisterProcessorChangeCallback</b> returns a non-<b>NULL</b> callback registration handle if the callback function is successfully registered with the operating system. Otherwise, <b>KeRegisterProcessorChangeCallback</b> returns <b>NULL</b>. For more information about this handle, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 A device driver calls the <b>KeRegisterProcessorChangeCallback</b> routine to register a callback function that is to be called by the operating system whenever a new processor is added to the hardware partition. When a user hot-plugs a new processor into the partition, the operating system calls the registered callback functions to rebalance the system resources that are allocated among the processors in the partition.
 
@@ -147,22 +134,13 @@ A device driver typically calls the <b>KeRegisterProcessorChangeCallback</b> rou
 <div> </div>
 <div class="alert"><b>Note</b>  The status value returned by <b>KeRegisterProcessorChangeCallback</b> indicates only whether the registration of the callback function succeeds or fails. It does not indicate the success or failure of any calls to callback functions that might occur before <b>KeRegisterProcessorChangeCallback</b> returns.</div>
 <div> </div>
-A callback function that has been registered for notification of processor changes must be unregistered before the device driver is unloaded from the operating system. To unregister the callback function, the device driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterprocessorchangecallback">KeDeregisterProcessorChangeCallback</a> routine, and passes, as an input parameter to this routine, the registration handle that was returned by the call to the <b>KeRegisterProcessorChangeCallback</b> routine. 
-
-
-
+A callback function that has been registered for notification of processor changes must be unregistered before the device driver is unloaded from the operating system. To unregister the callback function, the device driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterprocessorchangecallback">KeDeregisterProcessorChangeCallback</a> routine, and passes, as an input parameter to this routine, the registration handle that was returned by the call to the <b>KeRegisterProcessorChangeCallback</b> routine.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ke_processor_change_notify_context">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterprocessorchangecallback">KeDeregisterProcessorChangeCallback</a>
- 
-
- 
 

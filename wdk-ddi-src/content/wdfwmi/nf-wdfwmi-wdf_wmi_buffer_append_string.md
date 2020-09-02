@@ -8,8 +8,6 @@ ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
 ms.date: 02/26/2018
 keywords: ["WDF_WMI_BUFFER_APPEND_STRING function"]
 ms.keywords: DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, WDF_WMI_BUFFER_APPEND_STRING, WDF_WMI_BUFFER_APPEND_STRING function, kmdf.wdf_wmi_buffer_append_string, wdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING
-f1_keywords:
- - "wdfwmi/WDF_WMI_BUFFER_APPEND_STRING"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- None
-- None.dll
-api_name:
-- WDF_WMI_BUFFER_APPEND_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WMI_BUFFER_APPEND_STRING
+ - wdfwmi/WDF_WMI_BUFFER_APPEND_STRING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - None
+ - None.dll
+api_name:
+ - WDF_WMI_BUFFER_APPEND_STRING
 ---
 
 # WDF_WMI_BUFFER_APPEND_STRING function
@@ -48,51 +47,39 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_WMI_BUFFER_APPEND_STRING</b> function copies a specified Unicode string into a specified buffer in the format that WMI requires.
 
-
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out]
-
+[out]
 A pointer to a destination buffer that receives the string.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 The length, in bytes, of the destination buffer that receives the string.
 
+### -param String 
 
-### -param String [in]
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the string to be copied.
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the string to be copied.
+### -param RequiredSize 
 
-
-### -param RequiredSize [out]
-
+[out]
 A pointer to a location that receives the number of bytes that are required to store the specified string in the destination buffer.
-
 
 ## -returns
 
-
-
 <b>WDF_WMI_BUFFER_APPEND_STRING</b> returns STATUS_SUCCESS if the operation succeeds. If the destination buffer is too small to hold the Unicode string that the <i>String</i> parameter specifies, the function returns STATUS_BUFFER_TOO_SMALL.
-
-
-
 
 ## -remarks
 
-
-
-WMI requires that strings that an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_instance_query_instance">EvtWmiInstanceQueryInstance</a> callback function returns be preceded by a byte count. The <b>WDF_WMI_BUFFER_APPEND_STRING</b> function calculates the byte count, stores it in the destination buffer, and then copies the string from the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure into the destination buffer. 
+WMI requires that strings that an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_instance_query_instance">EvtWmiInstanceQueryInstance</a> callback function returns be preceded by a byte count. The <b>WDF_WMI_BUFFER_APPEND_STRING</b> function calculates the byte count, stores it in the destination buffer, and then copies the string from the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure into the destination buffer. 
 
 When <b>WDF_WMI_BUFFER_APPEND_STRING</b> returns, the location that the <i>RequiredSize</i> parameter points to contains the total number of bytes that were written to the buffer. To find the first buffer address that follows the string, your driver can pass the <i>RequiredSize</i> value to the WDF_PTR_ADD_OFFSET macro that is defined in <i>Wdfcore.h</i>.
 
@@ -143,19 +130,11 @@ EvtWmiQueryPortName(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_instance_query_instance">EvtWmiInstanceQueryInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

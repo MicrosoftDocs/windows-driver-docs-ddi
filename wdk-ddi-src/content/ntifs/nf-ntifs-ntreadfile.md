@@ -8,8 +8,6 @@ ms.assetid: 0f1ec015-bda6-45fe-973d-be414aece918
 ms.date: 04/30/2018
 keywords: ["NtReadFile function"]
 ms.keywords: NtReadFile, ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, kernel.zwreadfile, wdm/NtReadFile, wdm/ZwReadFile
-f1_keywords:
- - "ntifs/ZwReadFile"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwReadFile
-- NtReadFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtReadFile
+ - ntifs/NtReadFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwReadFile
+ - NtReadFile
 ---
 
 # NtReadFile function
@@ -48,52 +47,48 @@ req.typenames:
 
 ## -description
 
-
-The <b>NtReadFile</b> routine reads data from an open file. 
-
+The <b>NtReadFile</b> routine reads data from an open file.
 
 ## -parameters
 
+### -param FileHandle 
 
+[in]
+Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a>.
 
+### -param Event 
 
-### -param FileHandle [in]
-
-Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a>. 
-
-
-### -param Event [in, optional]
-
+[in, optional]
 Optionally, a handle to an event object to set to the signaled state after the read operation completes. Device and intermediate drivers should set this parameter to <b>NULL</b>.
 
+### -param ApcRoutine 
 
-### -param ApcRoutine [in, optional]
-
+[in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
+### -param ApcContext 
 
-### -param ApcContext [in, optional]
-
+[in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [out]
-
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The <b>Information</b> member receives the number of bytes actually read from the file.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to a caller-allocated buffer that receives the data read from the file.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
+### -param ByteOffset 
 
-### -param ByteOffset [in, optional]
-
+[in, optional]
 Pointer to a variable that specifies the starting byte offset in the file where the read operation will begin. If an attempt is made to read beyond the end of the file, <b>NtReadFile</b> returns an error.
 
 If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> set either of the <b>CreateOptions</b> flags FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of <b>NtReadFile</b> can specify that the current file position offset be used instead of an explicit <b>ByteOffset</b> value. This specification can be made by using one of the following methods:
@@ -112,24 +107,16 @@ Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.
 
 Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <b>NtReadFile</b>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the read operation, and then updates the position according to the number of bytes actually read. This technique gives the caller atomic seek-and-read service.
 
+### -param Key 
 
-### -param Key [in, optional]
-
-Device and intermediate drivers should set this pointer to <b>NULL</b>. 
-
+[in, optional]
+Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 ## -returns
 
-
-
 <b>NtReadFile</b> returns either STATUS_SUCCESS or the appropriate NTSTATUS error code.
 
-
-
-
 ## -remarks
-
-
 
 Callers of <b>NtReadFile</b> must have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> with the FILE_READ_DATA or GENERIC_READ value set in the <i>DesiredAccess</i> parameter.
 
@@ -190,12 +177,7 @@ Callers of <b>NtReadFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">NtReadFile</a>" instead of "<b>ZwReadFile</b>".</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
@@ -214,7 +196,4 @@ Callers of <b>NtReadFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
- 
-
- 
 

@@ -7,39 +7,38 @@ ms.assetid: 994f8de8-bb2f-441d-af45-87b9e600ed64
 ms.date: 04/16/2018
 keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS enumeration"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO, d3d10umddi/, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO, display.d3d11_1ddi_video_processor_feature_caps
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS
-product:
-- Windows
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS
+f1_keywords:
+ - D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS
+ - d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS enumeration
@@ -47,34 +46,25 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS
 
 ## -description
 
-
 Defines features that a Microsoft Direct3D 11 video processor can support.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL
 
 The video processor can set alpha values on the output pixels. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode">VideoProcessorSetOutputAlphaFillMode</a>.
 
-
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION
 
 The video processor can downsample the video output. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputconstriction">VideoProcessorSetOutputConstriction</a>.
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY
 
 The video processor can perform luma keying. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamlumakey">VideoProcessorSetStreamLumaKey</a>.
 
-
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE
 
 The video processor can apply alpha values from color palette entries.
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY
 
@@ -94,21 +84,17 @@ The driver does not support the DXVA-HDDDI. If this capability flag is set, the 
 
 The video processor can support 3-D stereo video. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>.
 
-
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION
 
 The video processor is capable of rotating the input stream by 90, 180, or 270 degrees (clockwise).
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM
 
 The video processor supports blending input streams using a per-stream alpha value.
 
-
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO
 
 The video processor supports explicit aspect ratios for the source and destination.
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR
 
@@ -116,15 +102,11 @@ Indicates that the driver supports <a href="https://docs.microsoft.com/windows-h
 
 Supported starting with Windows 10.
 
-
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_SHADER_USAGE
-
 
 ### -field D3DWDDM2_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_METADATA_HDR10
 
-
 Indicates that the driver will properly convert the video data based on the specified HDR10 metadata.
-
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE
 
@@ -132,11 +114,7 @@ Indicates that the hardware can benefit from a hint as to whether a shader might
 
 Supported starting with Windows 10.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt">VideoProcessorBlt</a>
 
@@ -159,7 +137,4 @@ Supported starting with Windows 10.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>
- 
-
- 
 

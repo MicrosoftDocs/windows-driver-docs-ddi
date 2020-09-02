@@ -8,8 +8,6 @@ ms.assetid: f5fc28df-ee06-4efd-8509-a05ed0ebf322
 ms.date: 05/02/2018
 keywords: ["RILUICCTOOLKITCMD structure"]
 ms.keywords: "*LPRILUICCTOOLKITCMD, RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitcmd, ntddrilapitypes/RILUICCTOOLKITCMD"
-f1_keywords:
- - "rilapitypes/RILUICCTOOLKITCMD"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCTOOLKITCMD
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCTOOLKITCMD, *LPRILUICCTOOLKITCMD
+f1_keywords:
+ - RILUICCTOOLKITCMD
+ - rilapitypes/RILUICCTOOLKITCMD
+ - LPRILUICCTOOLKITCMD
+ - rilapitypes/LPRILUICCTOOLKITCMD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCTOOLKITCMD
 ---
 
 # RILUICCTOOLKITCMD structure
@@ -47,26 +48,17 @@ req.typenames: RILUICCTOOLKITCMD, *LPRILUICCTOOLKITCMD
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwSlotIndex
 
-
 ### -field fTerminalResponseNeeded
 
-
 ### -field dwDetailsSize
-
 
 ### -field bDetails
 

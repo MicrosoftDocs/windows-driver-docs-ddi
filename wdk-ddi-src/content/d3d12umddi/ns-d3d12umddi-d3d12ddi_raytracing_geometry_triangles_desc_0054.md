@@ -5,40 +5,40 @@ description: Describes a ray tracing triangle geometry.
 ms.assetid: bd34c803-32d9-4976-bce7-adc492c36a47
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054"
-ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054, D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054, 
+ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054, D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054
+ - d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_GEOMETRY_TRIANGLES_DESC_0054 structure
+
 
 ## -description
 
@@ -56,7 +56,7 @@ The memory pointed to must be in [resource state](ne-d3d12umddi-d3d12ddi_resourc
 
 ### -field IndexFormat
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the indices in *IndexBuffer*. This value must be one of the following:
+A [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the indices in *IndexBuffer*. This value must be one of the following:
 
 * DXGI_FORMAT_UNKNOWN (when *IndexBuffer* is NULL)
 * DXGI_FORMAT_R32_UINT
@@ -64,12 +64,12 @@ A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxg
 
 ### -field VertexFormat
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the vertices (positions) in *VertexBuffer*. This value must be one of the following:
+A [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the vertices (positions) in *VertexBuffer*. This value must be one of the following:
 
 * DXGI_FORMAT_R32G32_FLOAT (third component assumed 0)
 * DXGI_FORMAT_R32G32B32_FLOAT
 * DXGI_FORMAT_R16G16_FLOAT (third component assumed 0)
-* DXGI_FORMAT_R16G16B16A16_FLOAT 
+* DXGI_FORMAT_R16G16B16A16_FLOAT
 
 ### -field IndexCount
 
@@ -83,7 +83,7 @@ Number of vertices (positions) in *VertexBuffer*.
 
 Array of vertex indices. If NULL, triangles are non-indexed. The address must be aligned to the size of *IndexFormat*.
 
-The memory pointed to must be in [resource state](ne-d3d12umddi-d3d12ddi_resource_states.md) D3D12DDI_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE. 
+The memory pointed to must be in [resource state](ne-d3d12umddi-d3d12ddi_resource_states.md) D3D12DDI_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE.
 
 ### -field VertexBuffer
 
@@ -96,3 +96,4 @@ The memory pointed to must be in [resource state](ne-d3d12umddi-d3d12ddi_resourc
 The geometry pointed to by this structure is always in triangle list from (indexed or non-indexed form). Strips are not supported.
 
 ## -see-also
+

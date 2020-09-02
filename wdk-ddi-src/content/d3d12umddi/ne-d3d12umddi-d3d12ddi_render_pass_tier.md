@@ -20,7 +20,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/D3D12DDI_RENDER_PASS_TIER"
+ - D3D12DDI_RENDER_PASS_TIER
+ - d3d12umddi/D3D12DDI_RENDER_PASS_TIER
 topic_type:
  - apiref
 api_type:
@@ -36,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_RENDER_PASS_TIER enumeration
+
 
 ## -description
 

@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_VIDEO_DECODE_FRAME_0021 callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_DECODE_FRAME_0021, PFND3D12DDI_VIDEO_DECODE_FRAME_0021 callback, d3d12umddi/pfnDecodeFrame, display.pfnd3d12ddi_video_decode_frame, pfnDecodeFrame, pfnDecodeFrame callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnDecodeFrame"
+ - "pfnDecodeFrame"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - pfnDecodeFrame
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

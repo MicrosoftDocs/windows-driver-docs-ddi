@@ -8,8 +8,6 @@ ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
 ms.date: 04/16/2018
 keywords: ["RxCeSend function"]
 ms.keywords: RxCeSend, RxCeSend function [Installable File System Drivers], ifsk.rxcesend, rxce/RxCeSend, rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml
-f1_keywords:
- - "rxce/RxCeSend"
 req.header: rxce.h
 req.include-header: Rxce.h, Tdi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeSend
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeSend
+ - rxce/RxCeSend
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeSend
 ---
 
 # RxCeSend function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeSend</b> sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
-
 
 ## -parameters
 
+### -param pVc 
 
-
-
-### -param pVc [in]
-
+[in]
 A pointer to the virtual circuit along which the TSDU is to be sent.
 
+### -param SendOptions 
 
-### -param SendOptions [in]
-
+[in]
 The desired options for transmitting the data on this send operation by the transport. Note that this is only a request sent to the transport. The transport may only support a limited number of the options specified and ignore options not supported. The <i>SendOptions</i> parameter consists of a set of bits defined in <i>rxce.h</i>. The <i>SendOptions</i> parameter can be a combination of the following bits:
 
 
@@ -99,25 +94,22 @@ Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only porti
 
 Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
 
+### -param pMdl 
 
-### -param pMdl [in]
-
+[in]
 A pointer to the buffer to be sent.
 
+### -param SendLength 
 
-### -param SendLength [in]
-
+[in]
 The length of data to be sent.
 
+### -param pCompletionContext 
 
-### -param pCompletionContext [in]
-
+[in]
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>SendOptions</i> parameter requests a synchronous send operation.
 
-
 ## -returns
-
-
 
 <b>RxCeSend</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -160,14 +152,8 @@ An invalid length was passed in the <i>SendLength</i> parameter based on the <i>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RxCeSend</b> routine will allocate the IRP, build the send request for the underlying transport driver, and submit the request to TDI. In the case of synchronous send operations, this routine will also the free IRP and resources allocated when the routine completes.
 
@@ -177,20 +163,11 @@ In the synchronous case, the request is submitted to the underlying transport an
 
 The benefit of asynchronous and synchronous options depends on the underlying transport. In a virtual circuit environment (TCP, for example), a synchronous option implies that the control does not return until the data reaches the server. On the other hand for datagram oriented transports (UDP, for example), there is very little difference between the two options.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcesenddatagram">RxCeSendDatagram</a>
- 
-
- 
 

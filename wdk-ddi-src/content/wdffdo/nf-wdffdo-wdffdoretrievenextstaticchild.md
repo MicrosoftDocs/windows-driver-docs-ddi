@@ -8,8 +8,6 @@ ms.assetid: ee0f458b-c8b3-46e7-87bd-25599d39203d
 ms.date: 02/26/2018
 keywords: ["WdfFdoRetrieveNextStaticChild function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, WdfFdoRetrieveNextStaticChild, WdfFdoRetrieveNextStaticChild method, kmdf.wdffdoretrievenextstaticchild, wdf.wdffdoretrievenextstaticchild, wdffdo/WdfFdoRetrieveNextStaticChild
-f1_keywords:
- - "wdffdo/WdfFdoRetrieveNextStaticChild"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfFdoRetrieveNextStaticChild
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfFdoRetrieveNextStaticChild
+ - wdffdo/WdfFdoRetrieveNextStaticChild
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfFdoRetrieveNextStaticChild
 ---
 
 # WdfFdoRetrieveNextStaticChild function
@@ -48,46 +47,34 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFdoRetrieveNextStaticChild</b> method retrieves a handle to the next framework device object in a list of child devices.
 
-
 ## -parameters
 
+### -param Fdo 
 
-
-
-### -param Fdo [in]
-
+[in]
 A handle to a framework device object that represents the parent device.
 
+### -param PreviousChild 
 
-### -param PreviousChild [in, optional]
-
+[in, optional]
 A handle to a framework device object that represents the child device that was returned by a previous call to <b>WdfFdoRetrieveNextStaticChild</b>. For the first call to <b>WdfFdoRetrieveNextStaticChild</b>, this value must be <b>NULL</b>.
 
+### -param Flags 
 
-### -param Flags [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ne-wdfchildlist-_wdf_retrieve_child_flags">WDF_RETRIEVE_CHILD_FLAGS</a>-typed enumerator value that identifies the type of child devices that the method should retrieve. This parameter cannot be zero. 
-
+[in]
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ne-wdfchildlist-_wdf_retrieve_child_flags">WDF_RETRIEVE_CHILD_FLAGS</a>-typed enumerator value that identifies the type of child devices that the method should retrieve. This parameter cannot be zero.
 
 ## -returns
-
-
 
 If the operation succeeds, the method returns a handle to a framework device object. Otherwise it returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 Bus drivers that use static bus enumeration can call <b>WdfFdoRetrieveNextStaticChild</b>. 
 
@@ -140,19 +127,11 @@ while ((hChild = WdfFdoRetrieveNextStaticChild(
 WdfFdoUnlockStaticChildListFromIteration(Device);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdolockstaticchildlistforiteration">WdfFdoLockStaticChildListForIteration</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdounlockstaticchildlistfromiteration">WdfFdoUnlockStaticChildListFromIteration</a>
- 
-
- 
 

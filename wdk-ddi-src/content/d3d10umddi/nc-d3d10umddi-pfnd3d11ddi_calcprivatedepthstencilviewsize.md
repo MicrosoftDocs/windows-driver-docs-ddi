@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateDepthStencilViewSize"
+ - PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE
+ - d3d10umddi/PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE callback function
+
 
 ## -description
 
@@ -67,8 +69,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 <b>CalcPrivateDepthStencilViewSize(D3D11)</b> returns the size of the memory region that the driver requires to create a depth-stencil view.
 
 ## -remarks
-
-
 
 ## -see-also
 

@@ -8,8 +8,6 @@ ms.assetid: 1917e0f0-47a3-4f95-97d6-c60d3f511a91
 ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_GET_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_CAPABILITIES, IOCTL_SCSI_GET_CAPABILITIES control, IOCTL_SCSI_GET_CAPABILITIES control code [Storage Devices], k307_99c3b622-6b7f-4550-9740-22b46d141966.xml, ntddscsi/IOCTL_SCSI_GET_CAPABILITIES, storage.ioctl_scsi_get_capabilities
-f1_keywords:
- - "ntddscsi/IOCTL_SCSI_GET_CAPABILITIES"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -27,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddscsi.h
-api_name:
-- IOCTL_SCSI_GET_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SCSI_GET_CAPABILITIES
+ - ntddscsi/IOCTL_SCSI_GET_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddscsi.h
+api_name:
+ - IOCTL_SCSI_GET_CAPABILITIES
 ---
 
 # IOCTL_SCSI_GET_CAPABILITIES IOCTL
 
 
 ## -description
-
-
 
 Returns the capabilities and limitations of the underlying SCSI HBA. The most important information is returned in the <b>MaximumTransferLength</b> and <b>AlignmentMask </b>members. Class drivers and users of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through">IOCTL_SCSI_PASS_THROUGH</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> are required to honor these limitations.
 
@@ -60,59 +57,31 @@ To get SCSI capabilities data, a Plug and Play driver must issue an <a href="htt
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 None.
-
 
 ### -input-buffer-length
 
 None.
 
-
 ### -output-buffer
 
 Updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_io_scsi_capabilities">IO_SCSI_CAPABILITIES</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
-
 
 ### -output-buffer-length
 
 <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(IO_SCSI_CAPABILITIES).
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-The <b>Information</b> field contains the number of bytes returned in the output buffer. The <b>Status</b> field indicates the results of the operation. 
-
+The <b>Information</b> field contains the number of bytes returned in the output buffer. The <b>Status</b> field indicates the results of the operation.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_io_scsi_capabilities">IO_SCSI_CAPABILITIES</a>
- 
-
- 
 

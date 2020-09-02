@@ -8,8 +8,6 @@ ms.assetid: 7a36f278-45eb-4ee9-9bdf-370c546245c0
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::StartServerWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],StartServerWide method, IDebugClient5.StartServerWide, IDebugClient5::StartServerWide, StartServerWide, StartServerWide method [Windows Debugging], StartServerWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::StartServerWide, debugger.startserverwide
-f1_keywords:
- - "dbgeng/IDebugClient5.StartServerWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient5.StartServerWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::StartServerWide
+ - dbgeng/IDebugClient5::StartServerWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient5.StartServerWide
 ---
 
 # IDebugClient5::StartServerWide
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>StartServerWide</b> method starts a debugging server.
-
 
 ## -parameters
 
+### -param Options 
 
-
-
-### -param Options [in]
-
+[in]
 Specifies the connections options for this server.  These are the same options given to the <b>.server</b> debugger command or the WinDbg and CDB <b>-server</b> command-line option.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-debugging-server">Activating a Debugging Server</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -84,26 +76,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The server that is started will be accessible by other <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debuggers-in-the-debugging-tools-for-windows-package">debuggers</a> through the transport specified in the <i>Options</i> parameter.
 
 For more information about debugging servers, see Debugging Server and Debugging Client.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a>
 
@@ -118,7 +98,4 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startprocessserver">StartProcessServer</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 97C92A85-BE00-4B95-80D1-20FE7A31BCA9
 ms.date: 05/08/2018
 keywords: ["IKeywordDetectorOemAdapter::ParseDetectionResultData"]
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],ParseDetectionResultData method, IKeywordDetectorOemAdapter.ParseDetectionResultData, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData
-f1_keywords:
- - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.ParseDetectionResultData"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- KeywordDetectorOemAdapter.h
-api_name:
-- IKeywordDetectorOemAdapter.ParseDetectionResultData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKeywordDetectorOemAdapter::ParseDetectionResultData
+ - keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - KeywordDetectorOemAdapter.h
+api_name:
+ - IKeywordDetectorOemAdapter.ParseDetectionResultData
 ---
 
 # IKeywordDetectorOemAdapter::ParseDetectionResultData
@@ -47,54 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The <b>ParseDetectionResultData</b> method is called by the operating system after handling a keyword detection event and after retrieving the result data from <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-matchresult">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>. The operating system passes the OEM-specific match result data to this method in order to get the results of a keyword detection.  The OEMDLL processes the results and returns information about the matched keyword, the language associated with the matched keyword, and the matched user (if any).
-
 
 ## -parameters
 
+### -param UserModelData 
 
-
-
-### -param UserModelData [in]
-
+[in]
 A pointer to <b>IStream</b> bound to model data for the arming pattern.
 
+### -param Result 
 
-
-
-### -param Result [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a> from the DDI.
 
+### -param KeywordId 
 
-
-### -param KeywordId [out]
-
+[out]
 Identifies a keyword function. The driver may return 0 to indicate no match.
 
+### -param LangId 
 
-### -param LangId [out]
-
+[out]
 Identifies a language.
 
+### -param pIsUserMatch 
 
-### -param pIsUserMatch [out]
-
+[out]
 Indicates if the user matched.
-
 
 ### -param KeywordStartPerformanceCounterValue
 
-
-
-
 ### -param KeywordEndPerformanceCounterValue
-
-
-
-
-
 
 #### - KeywordEndPerformanceCounter [out]
 
@@ -105,10 +88,7 @@ Optionally returns the end time of the keyword in terms of the Windows performan
 
 Optionally returns the start time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -173,14 +153,8 @@ The hardware reset due to an internal fault.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the driver includes any portion of the spoken keyword in the burst keyword/command stream from its keyword detector pin, then the driver must return a valid value for <i>KeywordEndTime</i>. Otherwise the driver may optionally return 0.
 
@@ -193,13 +167,7 @@ The driver may return valid values for <i>KeywordStartTime</i> and <i>KeywordEnd
 
 If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardware and the state was lost. A re-arm will be required to get back to a monitoring state.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
@@ -222,7 +190,4 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a>
- 
-
- 
 

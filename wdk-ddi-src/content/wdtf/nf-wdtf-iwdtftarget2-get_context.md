@@ -8,8 +8,6 @@ ms.assetid: e7a19b73-3393-4ab4-a967-c00b46f81a9e
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2::get_Context"]
 ms.keywords: Context property [Windows Device Testing Framework], Context property [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],Context property, IWDTFTarget2.Context, IWDTFTarget2.get_Context, IWDTFTarget2::Context, IWDTFTarget2::get_Context, IWDTFTarget2::put_Context, Microsoft.WDTF.IWDTFTarget2.Context, Microsoft::WDTF::IWDTFTarget2::Context, dtf.iwdtftarget2_context, get_Context, ntddk/IWDTFTarget2::Context, ntddk/IWDTFTarget2::get_Context, ntddk/IWDTFTarget2::put_Context
-f1_keywords:
- - "wdtf/IWDTFTarget2.Context"
 req.header: wdtf.h
 req.include-header: WDTF.h
 req.target-type: Windows
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTarget2.Context
-- IWDTFTarget2.get_Context
-- IWDTFTarget2.put_Context
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTarget2::get_Context
+ - wdtf/IWDTFTarget2::get_Context
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTarget2.Context
+ - IWDTFTarget2.get_Context
+ - IWDTFTarget2.put_Context
 ---
 
 # IWDTFTarget2::get_Context
@@ -49,18 +48,13 @@ req.typenames:
 
 ## -description
 
-
 Gets and sets a name-value pair that represents user data for the target.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <b>Context</b> property is parameterized with the 
 <b>BSTR </b><i>Tag </i>parameter. This parameterization 
@@ -75,16 +69,7 @@ easily as any other variable data-type.
 For more information about the <b>Context</b> property, 
 see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/creating-wdtf-scenarios">Creating WDTF Scenarios</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
- 
-
- 
 

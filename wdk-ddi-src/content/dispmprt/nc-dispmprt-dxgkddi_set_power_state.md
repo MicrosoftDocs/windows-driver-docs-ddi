@@ -8,8 +8,6 @@ ms.assetid: 6462be4f-1f6e-4b85-a3ba-15820ee8605b
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_SET_POWER_STATE callback function"]
 ms.keywords: DXGKDDI_SET_POWER_STATE, DXGKDDI_SET_POWER_STATE callback, DmFunctions_712dfd67-ab92-4ffb-80e8-18e6b80a0dd4.xml, DxgkDdiSetPowerState, DxgkDdiSetPowerState callback function [Display Devices], display.dxgkddisetpowerstate, dispmprt/DxgkDdiSetPowerState
-f1_keywords:
- - "dispmprt/DxgkDdiSetPowerState"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dispmprt.h
-api_name:
-- DxgkDdiSetPowerState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_SET_POWER_STATE
+ - dispmprt/DXGKDDI_SET_POWER_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dispmprt.h
+api_name:
+ - DxgkDdiSetPowerState
 ---
 
 # DXGKDDI_SET_POWER_STATE callback function
@@ -47,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiSetPowerState</i> function sets the power state of a display adapter or a child device of a display adapter.
-
 
 ## -parameters
 
+### -param MiniportDeviceContext 
 
-
-
-### -param MiniportDeviceContext [in]
-
+[in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
+### -param DeviceUid 
 
-### -param DeviceUid [in]
-
+[in]
 A positive integer that identifies the device for which the power state is to be set. If <i>DeviceUid</i> is equal to <b>DISPLAY_ADAPTER_HW_ID</b> (defined in Video.h), the device is the display adapter itself. Otherwise, <i>DeviceUid</i> is the identifier of a child device of the display adapter. Child device identifiers were previously assigned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function.
 
+### -param DevicePowerState 
 
-### -param DevicePowerState [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration value that supplies the power state (<b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, <b>PowerDeviceD3</b>) to which the device should be set.
 
+### -param ActionType 
 
-### -param ActionType [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-ppower_action">POWER_ACTION</a> enumeration value that supplies the reason (<b>PowerActionSleep</b>, <b>PowerActionHibernate</b>, <b>PowerActionShutdown</b>) for the power state change.
-
 
 ## -returns
 
-
-
 <i>DxgkDdiSetPowerState</i> returns <b>STATUS_SUCCESS</b> if it succeeds. <i>DxgkDdiSetPowerState</i> should never fail; however, it can return any NTSTATUS-typed value that is defined in <i>Ntstatus.h</i> and that passes the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NT_SUCCESS(Status)</a> macro.
 
-
-
-
 ## -remarks
-
-
 
 If the requested state is equal to <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>, <i>DxgkDdiSetPowerState</i> saves any context that will later be required to bring the device back to <b>PowerDeviceD0</b> and then places the device in the requested state. If the requested state is <b>PowerDeviceD0</b> (fully on), <i>DxgkDdiSetPowerState</i> restores the device context and places the device in <b>PowerDeviceD0</b>.
 
@@ -101,13 +88,7 @@ Starting with Windows Display Driver Model (WDDM) 1.2, if the <i>DevicePowerStat
 
 The <i>DxgkDdiSetPowerState</i> function should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a>
 
@@ -118,7 +99,4 @@ The <i>DxgkDdiSetPowerState</i> function should be made pageable.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_provisioned_contexts.htm
 tech.root: netvista
 ms.assetid: ee4ba781-9adf-4eb0-8c3d-b11aac86c943
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_PROVISIONED_CONTEXTS structure"]
+keywords: ["NDIS_WWAN_PROVISIONED_CONTEXTS structure"]
 ms.keywords: "*PNDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PROVISIONED_CONTEXTS, PNDIS_WWAN_PROVISIONED_CONTEXTS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_ad7bfe2b-eb11-45f9-a49d-a602df06b97f.xml, _NDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/PNDIS_WWAN_PROVISIONED_CONTEXTS, netvista.ndis_wwan_provisioned_contexts"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_PROVISIONED_CONTEXTS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PROVISIONED_CONTEXTS, *PNDIS_WWAN_PROVISIONED_CONTEXTS
+f1_keywords:
+ - _NDIS_WWAN_PROVISIONED_CONTEXTS
+ - ndiswwan/_NDIS_WWAN_PROVISIONED_CONTEXTS
+ - PNDIS_WWAN_PROVISIONED_CONTEXTS
+ - ndiswwan/PNDIS_WWAN_PROVISIONED_CONTEXTS
+ - NDIS_WWAN_PROVISIONED_CONTEXTS
+ - ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_PROVISIONED_CONTEXTS
 ---
 
 # _NDIS_WWAN_PROVISIONED_CONTEXTS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_WWAN_PROVISIONED_CONTEXTS, *PNDIS_WWAN_PROVISIONED_CONTEXTS
 
 ## -description
 
-
 The NDIS_WWAN_PROVISIONED_CONTEXTS structure represents a list of provisioned contexts and the number
   of provisioned contexts in the list.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,7 +104,6 @@ sizeof(NDIS_WWAN_PROVISIONED_CONTEXTS)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -244,8 +241,6 @@ The operation failed because the update request was unsuccessful.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ContextListHeader
 
@@ -253,29 +248,17 @@ A formatted
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a> object that represents a
      list of provisioned contexts and the number of provisioned contexts in the list.
 
-
 ## -remarks
-
-
 
 Miniport drivers should specify zero elements in the context list when they respond to
     OID_WWAN_PROVISIONED_CONTEXT 
     <i>set</i> requests.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
- 
-
- 
 

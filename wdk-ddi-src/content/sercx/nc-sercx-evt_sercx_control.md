@@ -8,8 +8,6 @@ ms.assetid: 2A88BA68-48A7-4C00-8031-CCC50A0C090D
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_CONTROL callback function"]
 ms.keywords: 1/EvtSerCxControl, EVT_SERCX_CONTROL, EVT_SERCX_CONTROL callback, EvtSerCxControl, EvtSerCxControl callback function [Serial Ports], serports.evtsercxcontrol
-f1_keywords:
- - "sercx/EvtSerCxControl"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 1.0\Sercx.h
-api_name:
-- EvtSerCxControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX_CONTROL
+ - sercx/EVT_SERCX_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - EvtSerCxControl
 ---
 
 # EVT_SERCX_CONTROL callback function
@@ -47,52 +46,40 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCxControl</i> event callback function handles an I/O control request that has an I/O control code (IOCTL) that the serial framework extension (SerCx) supports.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 A WDFREQUEST handle to the framework request object that represents the I/O control request.
 
+### -param OutputBufferLength 
 
-### -param OutputBufferLength [in]
-
+[in]
 Specifies the length, in bytes, of the output buffer for the I/O control request specified by the <i>Request</i> parameter.
 
+### -param InputBufferLength 
 
-### -param InputBufferLength [in]
-
+[in]
 Specifies the length, in bytes, of the input buffer for the I/O control request specified by the <i>Request</i> parameter.
 
+### -param IoControlCode 
 
-### -param IoControlCode [in]
-
+[in]
 Specifies the IOCTL from the I/O control request specified by the <i>Request</i> parameter.
-
 
 ## -returns
 
-
-
 The <i>EvtSerCxControl</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code. For more information, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 The serial controller driver is required to implement this callback function. SerCx calls this function to hand off an I/O control request to the controller driver for processing. Before this function returns, it must complete the request either by performing the requested operation or by returning an error status. A driver that does not implement support for a particular request should return the STATUS_NOT_IMPLEMENTED error status for this request.
 
@@ -188,19 +175,11 @@ For more information about SDV requirements for function declarations, see <a hr
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
- 
-
- 
 

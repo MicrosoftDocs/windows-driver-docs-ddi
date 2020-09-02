@@ -8,8 +8,6 @@ ms.assetid: 02eb7351-fde0-4738-be96-53f8cda67d40
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPAction2 interface"]
 ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], IWDTFPNPAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFPNPAction2, dtf.iwdtfpnpaction2, wdtfpnpaction/IWDTFPNPAction2
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPAction2"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverPNPAction.Interop.dll
-api_name:
-- IWDTFPNPAction2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPAction2
+ - wdtfpnpaction/IWDTFPNPAction2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverPNPAction.Interop.dll
+api_name:
+ - IWDTFPNPAction2
 ---
 
 # IWDTFPNPAction2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties for the Plug and Play (PNP) device-related test interfaces.
-
 
 ## -inheritance
 

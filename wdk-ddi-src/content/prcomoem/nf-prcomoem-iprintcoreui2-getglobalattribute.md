@@ -8,8 +8,6 @@ ms.assetid: fa5555df-4ada-40f3-9878-e6ba3dac2345
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::GetGlobalAttribute"]
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetGlobalAttribute method, IPrintCoreUI2.GetGlobalAttribute, IPrintCoreUI2::GetGlobalAttribute, prcomoem/IPrintCoreUI2::GetGlobalAttribute, print.iprintcoreui2_getglobalattribute, print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.GetGlobalAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.GetGlobalAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::GetGlobalAttribute
+ - prcomoem/IPrintCoreUI2::GetGlobalAttribute
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.GetGlobalAttribute
 ---
 
 # IPrintCoreUI2::GetGlobalAttribute
@@ -47,53 +46,46 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::GetGlobalAttribute</code> method retrieves the global attribute list or the value of a specific global attribute.
-
 
 ## -parameters
 
+### -param poemuiobj 
 
-
-
-### -param poemuiobj [in]
-
+[in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 Is reserved and must be set to zero.
 
+### -param pszAttribute 
 
-### -param pszAttribute [in]
-
+[in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported global attribute names, as opposed to specifying a specific global attribute name.
 
+### -param pdwDataType 
 
-### -param pdwDataType [out]
-
+[out]
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
+### -param pbData 
 
-### -param pbData [out]
-
+[out]
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
+### -param cbSize 
 
-### -param cbSize [in]
-
+[in]
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
-
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
-
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -151,14 +143,8 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
 
@@ -168,13 +154,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-getglobalattribute">Using GetGlobalAttribute</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -189,7 +169,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

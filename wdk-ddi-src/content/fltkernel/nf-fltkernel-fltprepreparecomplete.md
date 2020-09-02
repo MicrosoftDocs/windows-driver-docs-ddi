@@ -8,8 +8,6 @@ ms.assetid: f4049af3-3a6f-40fc-a2a7-fd081b27170e
 ms.date: 04/16/2018
 keywords: ["FltPrePrepareComplete function"]
 ms.keywords: FltApiRef_p_to_z_d0d56c7a-abff-4cd2-a1c7-a511d1ac8903.xml, FltPrePrepareComplete, FltPrePrepareComplete routine [Installable File System Drivers], fltkernel/FltPrePrepareComplete, ifsk.fltprepreparecomplete
-f1_keywords:
- - "fltkernel/FltPrePrepareComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltPrePrepareComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltPrePrepareComplete
+ - fltkernel/FltPrePrepareComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltPrePrepareComplete
 ---
 
 # FltPrePrepareComplete function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltPrePrepareComplete</b> routine acknowledges a TRANSACTION_NOTIFY_PREPREPARE notification. 
-
+The <b>FltPrePrepareComplete</b> routine acknowledges a TRANSACTION_NOTIFY_PREPREPARE notification.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller.
 
+### -param Transaction 
 
-### -param Instance [in]
+[in]
+Opaque transaction pointer for the transaction.
 
-Opaque instance pointer for the caller. 
+### -param TransactionContext 
 
-
-### -param Transaction [in]
-
-Opaque transaction pointer for the transaction. 
-
-
-### -param TransactionContext [in, optional]
-
-Pointer to the minifilter driver's transaction context. 
-
+[in, optional]
+Pointer to the minifilter driver's transaction context.
 
 ## -returns
-
-
 
 <b>FltPrePrepareComplete</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
 
@@ -94,14 +86,8 @@ The minifilter driver did not set a context on the transaction. This is an error
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver that is enlisted in a transaction can receive a TRANSACTION_NOTIFY_PREPREPARE notification when the transaction enters the pre-prepare for commit phase. To send the notification to the minifilter driver, the filter manager calls the minifilter driver's <i>TransactionNotificationCallback</i> routine. The minifilter driver acknowledges this notification in one of two ways: 
 
@@ -125,15 +111,9 @@ To retrieve a transaction context, call <a href="https://docs.microsoft.com/wind
 
 To delete a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
 
-To set a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>. 
-
-
-
+To set a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
 
@@ -188,7 +168,4 @@ To set a transaction context, call <a href="https://docs.microsoft.com/windows-h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_transaction_notification_callback">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
- 
-
- 
 

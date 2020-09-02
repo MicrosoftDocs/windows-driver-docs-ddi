@@ -30,13 +30,18 @@ api_name:
  - _DXGKARG_GETDISPLAYSTATE_INTRUSIVE
  - DXGKARG_GETDISPLAYSTATEINTRUSIVE
 f1_keywords:
+ - _DXGKARG_GETDISPLAYSTATE_INTRUSIVE
  - dispmprt/_DXGKARG_GETDISPLAYSTATE_INTRUSIVE
+ - PDXGKARG_GETDISPLAYSTATEINTRUSIVE
+ - dispmprt/PDXGKARG_GETDISPLAYSTATEINTRUSIVE
+ - DXGKARG_GETDISPLAYSTATEINTRUSIVE
  - dispmprt/DXGKARG_GETDISPLAYSTATEINTRUSIVE
 dev_langs:
  - c++
 ---
 
 # DXGKARG_GETDISPLAYSTATEINTRUSIVE structure
+
 
 ## -description
 
@@ -65,3 +70,4 @@ DXGKRNL passes **DXGKARG_GETDISPLAYSTATEINTRUSIVE** in calls to [**DxgkDdiGetDis
 [**DXGK_DISPLAYSTATE_INTRUSIVE**](ns-dispmprt-dxgk_displaystate_intrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

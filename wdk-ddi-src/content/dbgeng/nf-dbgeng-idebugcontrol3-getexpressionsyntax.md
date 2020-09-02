@@ -8,8 +8,6 @@ ms.assetid: e04e4567-5ae6-4349-9876-0c2b55c340e0
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetExpressionSyntax"]
 ms.keywords: GetExpressionSyntax, GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetExpressionSyntax method, IDebugControl3.GetExpressionSyntax, IDebugControl3::GetExpressionSyntax, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax
-f1_keywords:
- - "dbgeng/IDebugControl3.GetExpressionSyntax"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl3.GetExpressionSyntax
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::GetExpressionSyntax
+ - dbgeng/IDebugControl3::GetExpressionSyntax
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl3.GetExpressionSyntax
 ---
 
 # IDebugControl3::GetExpressionSyntax
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetExpressionSyntax</b> method returns the current syntax that the engine is using for evaluating expressions.
-
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [out]
-
+[out]
 Receives the expression syntax.  It is set to one of the following values:
 
 
@@ -74,10 +69,7 @@ Expressions will be evaluated according to MASM syntax. For details of this synt
 
 Expressions will be evaluated according to C++ syntax. For details of this syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c---numbers-and-operators">C++ Numbers and Operators</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -98,15 +90,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-evaluate">Evaluate</a>
 
@@ -121,7 +106,4 @@ The method was successful.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
- 
-
- 
 

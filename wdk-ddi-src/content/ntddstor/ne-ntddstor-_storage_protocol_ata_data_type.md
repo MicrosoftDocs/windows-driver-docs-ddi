@@ -6,10 +6,8 @@ old-location: storage\storage_protocol_ata_data_type.htm
 tech.root: storage
 ms.assetid: 4B42E143-17F5-4841-A9EA-C225B167E242
 ms.date: 03/29/2018
-keywords: ["_STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration"]
+keywords: ["STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, AtaDataTypeLogPage, AtaDataTypeUnknown, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Storage Devices], STORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/AtaDataTypeIdentify, ntddstor/AtaDataTypeLogPage, ntddstor/AtaDataTypeUnknown, ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE, storage.storage_protocol_ata_data_type"
-f1_keywords:
- - "ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_PROTOCOL_ATA_DATA_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_ATA_DATA_TYPE, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+f1_keywords:
+ - _STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - ntddstor/_STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+ - ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+ - STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_PROTOCOL_ATA_DATA_TYPE
 ---
 
 # _STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration
+
 
 ## -description
 
@@ -85,3 +89,4 @@ To specify a type of ATA protocol-specific information, configure the [STORAGE_P
 
   - Use **AtaDataTypeIdentify** to identify the ATA drive.
   - Use **AtaDataTypeLogPage** to get log pages from the ATA drive.
+

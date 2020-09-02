@@ -8,8 +8,6 @@ ms.assetid: d2315dd9-1643-4b8e-a010-8fccc582ca2b
 ms.date: 04/23/2018
 keywords: ["PFNKSPIN callback function"]
 ms.keywords: AVStrMiniPinConnect, AVStrMiniPinProcess, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPIN, avstclbk_9c9fb1b9-d592-41de-8190-b8b2808ea35b.xml, ks/MyAVStrMiniPin, stream.avstrminipinprocess
-f1_keywords:
- - "ks/MyAVStrMiniPin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- MyAVStrMiniPin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSPIN
+ - ks/PFNKSPIN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - MyAVStrMiniPin
 ---
 
 # PFNKSPIN callback function
 
 
 ## -description
-
 
 An AVStream minidriver's callback routine is called when: 
 <ul>
@@ -56,26 +54,16 @@ An AVStream minidriver's callback routine is called when:
 
 ## -parameters
 
+### -param Pin 
 
-
-
-### -param Pin [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> that has frame data available to process.
-
 
 ## -returns
 
-
-
 Return STATUS_SUCCESS to continue processing. Return STATUS_PENDING to stop processing until the next triggering event.
 
-
-
-
 ## -remarks
-
-
 
 <b>About AVStrMiniPinProcess</b>
 
@@ -101,13 +89,7 @@ This routine is optional.
 
 Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-pins">KS Pins</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>
 
@@ -126,7 +108,4 @@ Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/pin-centric-processing">Pin-Centric Processing</a>
- 
-
- 
 

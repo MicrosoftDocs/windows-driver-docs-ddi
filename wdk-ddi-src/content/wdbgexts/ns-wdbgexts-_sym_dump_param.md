@@ -6,10 +6,8 @@ old-location: debugger\ig_dump_symbol_info.htm
 tech.root: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.date: 05/03/2018
-keywords: ["_SYM_DUMP_PARAM structure"]
+keywords: ["SYM_DUMP_PARAM structure"]
 ms.keywords: "*PSYM_DUMP_PARAM, PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, wdbgexts/PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM"
-f1_keywords:
- - "wdbgexts/SYM_DUMP_PARAM"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- SYM_DUMP_PARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
+f1_keywords:
+ - _SYM_DUMP_PARAM
+ - wdbgexts/_SYM_DUMP_PARAM
+ - PSYM_DUMP_PARAM
+ - wdbgexts/PSYM_DUMP_PARAM
+ - SYM_DUMP_PARAM
+ - wdbgexts/SYM_DUMP_PARAM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - SYM_DUMP_PARAM
 ---
 
 # _SYM_DUMP_PARAM structure
@@ -47,34 +50,25 @@ req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
 
 ## -description
 
-
 The IG_DUMP_SYMBOL_INFO <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation provides information about the type of a symbol.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_DUMP_SYMBOL_INFO, <i>IpvData</i> should contain an instance of the SYM_DUMP_PARAM structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field size
 
 Specifies the size, in bytes, of this structure.  It should be set to <code>sizeof(SYM_DUMP_PARAM)</code>.
 
-
 ### -field sName
 
 Specifies the name of the symbol to lookup.
-
 
 ### -field Options
 
 Specifies the flags that determine the behavior of this <b>Ioctl</b> operation.  For a description of these flags, see Remarks.
 
-
 ### -field addr
 
 Specifies the address of the symbol.
-
 
 ### -field listLink
 
@@ -84,78 +78,61 @@ The callback function specified in the <b>fieldCallBack</b> member of this struc
 
 DBG_DUMP_LIST should be set in <b>Options</b> to tell this <b>Ioctl</b> to iterate over the list.
 
-
 ### -field Context
 
 Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
-
 
 ### -field pBuffer
 
 Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
 
-
 ### -field CallbackRoutine
 
 Specifies a callback function that is called by the engine.  The engine provides the callback function with information about the symbol and its members.
-
 
 ### -field nFields
 
 Specifies the number of entries in the <b>Fields</b> array.
 
-
 ### -field Fields
 
 Specifies an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a> structures that control the behavior of this operation for individual members of the specified symbol. See FIELD_INFO for details.
-
 
 ### -field ModBase
 
 Receives the location in the target's memory of the start of the module that contains the symbol.
 
-
 ### -field TypeId
 
 Receives the type ID of the symbol.
-
 
 ### -field TypeSize
 
 Receives the size, in bytes, of the symbol in the target's memory.
 
-
 ### -field BufferSize
 
 Specifies the size, in bytes, of the <b>pBuffer</b> buffer.
-
 
 ### -field fPointer
 
 Receives a Boolean value that indicates whether the symbol is a pointer.  <b>fPointer</b> is <b>FALSE</b> if the symbol is not a pointer.  It is 1 if the symbol is a 32-bit pointer and 3 if the symbol is a 64-bit pointer.
 
-
 ### -field fArray
 
 Receives a Boolean value that indicates whether the symbol is an array.  <b>fArray</b> is <b>FALSE</b> if the symbol is not an array and <b>TRUE</b> if it is.
-
 
 ### -field fStruct
 
 Receives a Boolean value that indicates whether the symbol is a structure.  <b>fStruct</b> is <b>FALSE</b> if the symbol is not a structure and <b>TRUE</b> if it is.
 
-
 ### -field fConstant
 
 Receives a Boolean value that indicates whether the symbol is a constant.  <b>fConstant</b> is <b>FALSE</b> if the symbol is not a constant and <b>TRUE</b> if it is.
 
-
 ### -field Reserved
 
-
 ## -remarks
-
-
 
 The parameters for the IG_DUMP_SYMBOL_INFO <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation are the members of the SYM_DUMP_PARAM structure.
 
@@ -447,13 +424,7 @@ If the member is a pointer, it is printed as a string, ANSI string , WCHAR strin
 
 In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be added to the bit-set to specify how deep into structures to recurse.  <i>Level</i> can be a number between 0 and 15.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dbg-dump-xxx">DBG_DUMP_XXX</a>
 
@@ -468,7 +439,4 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
- 
-
- 
 

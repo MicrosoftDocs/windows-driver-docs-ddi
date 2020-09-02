@@ -8,8 +8,6 @@ ms.assetid: C1C91ECE-7AFF-468B-84AE-9D289EECE1E1
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition"]
 ms.keywords: GetStreamLinearBufferPosition, GetStreamLinearBufferPosition method [Audio Devices], GetStreamLinearBufferPosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamLinearBufferPosition method, IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition, IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition, audio.iminiportstreamaudioenginenode_getstreamlinearbufferposition, portcls/IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition
-f1_keywords:
- - "portcls/IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition
+ - portcls/IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition
@@ -47,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 	Gets the number of bytes that the DMA has fetched from the audio buffer since the beginning of the stream.
-
 
 ## -parameters
 
+### -param pullLinearBufferPosition 
 
-
-
-### -param pullLinearBufferPosition [out]
-
+[out]
 The number of bytes that the DMA has fetched.
-
 
 ## -returns
 
-
-
 <b>GetStreamLinearBufferPosition</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
- 
-
- 
 

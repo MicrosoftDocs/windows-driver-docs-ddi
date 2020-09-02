@@ -8,8 +8,6 @@ ms.assetid: 01469cd7-a023-42b0-9306-fc390bf990e6
 ms.date: 02/15/2018
 keywords: ["PCMCIA_MODIFY_MEMORY_WINDOW callback function"]
 ms.keywords: ModifyMemoryWindow, ModifyMemoryWindow callback function [Buses], PCMCIA.pcmcia_modify_memory_window, PCMCIA_MODIFY_MEMORY_WINDOW, PCMCIA_MODIFY_MEMORY_WINDOW callback, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml, ntddpcm/ModifyMemoryWindow
-f1_keywords:
- - "ntddpcm/ModifyMemoryWindow"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ntddpcm.h
-api_name:
-- ModifyMemoryWindow
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCMCIA_MODIFY_MEMORY_WINDOW
+ - ntddpcm/PCMCIA_MODIFY_MEMORY_WINDOW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ntddpcm.h
+api_name:
+ - ModifyMemoryWindow
 ---
 
 # PCMCIA_MODIFY_MEMORY_WINDOW callback function
@@ -47,47 +46,43 @@ req.typenames:
 
 ## -description
 
-
 The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine sets the attributes of a memory window for a PCMCIA memory card. The memory window is mapped by the PCMCIA bus driver.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in, optional]
-
+[in, optional]
 Pointer to the context for the interface routine.
 
+### -param HostBase 
 
-### -param HostBase [in]
-
+[in]
 Specifies the physical memory window to map. <i>HostBase</i> is the base address for the memory card in the system's physical address space.
 
+### -param CardBase 
 
-### -param CardBase [in]
-
+[in]
 Specifies the byte offset in the PC Card's or CardBus card's memory where the memory mapping begins.
 
+### -param Enable 
 
-### -param Enable [in]
-
+[in]
 Specifies permission to access the memory window. If <i>Enable</i> is <b>TRUE</b>, memory access is permitted, otherwise memory access is not permitted.
 
+### -param WindowSize 
 
-### -param WindowSize [in, optional]
-
+[in, optional]
 Specifies the size, in bytes, of the memory window that is mapped. The value of <i>WindowSize</i> cannot exceed the memory window granted to the driver in its assigned resources. If the value of Enable is <b>TRUE</b> and the value of WindowSize is zero, the size of the memory window granted to the driver in its assigned resources is used. If <i>Enable</i> is <b>FALSE</b>, <i>WindowSize</i> is not used.
 
+### -param AccessSpeed 
 
-### -param AccessSpeed [in, optional]
-
+[in, optional]
 Specifies the access speed of the PC Card or CardBus card. The value of <i>AccessSpeed</i> is encoded as specified by the <i>PC Card Standard, Release 6.1</i>. If Enable is <b>FALSE</b>, <i>AccessSpeed</i> is not used.
 
+### -param BusWidth 
 
-### -param BusWidth [in, optional]
-
+[in, optional]
 Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> must be one of the following values:
 
 
@@ -98,52 +93,27 @@ Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> mus
 
 If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
-
 ### -param IsAttributeMemory
-
-
-
-
-
-
-
 
 #### - AttributeMemory [in, optional]
 
-Must be <b>FALSE</b> for common memory and <b>TRUE</b> for attribute memory. 
-
+Must be <b>FALSE</b> for common memory and <b>TRUE</b> for attribute memory.
 
 ## -returns
 
-
-
 The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine returns <b>TRUE</b> if the memory window is successfully enabled or disabled, as specified by the <i>Enable</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 A caller must set the <i>Context</i> parameter to the context that is specified by the PCMCIA bus driver. The PCMCIA bus driver returns the context for the interface routines in the <b>Context</b> member of the same PCMCIA_INTERFACE_STANDARD structure that contains the pointers to the interface routines. If the <i>Context</i> parameter is not valid, system behavior is not defined, and the system might halt.
 
 Callers of this routine must be running at IRQL <= DISPATCH_LEVEL. To maintain overall system performance, it is recommended that drivers call this routine at IRQL < DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_is_write_protected">PCMCIA_IS_WRITE_PROTECTED</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a>
- 
-
- 
 

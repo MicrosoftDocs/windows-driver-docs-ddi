@@ -8,8 +8,6 @@ ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.date: 02/15/2018
 keywords: ["SdBusOpenInterface function"]
 ms.keywords: SD.sdbusopeninterface, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml
-f1_keywords:
- - "ntddsd/SdBusOpenInterface"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddsd.h
-api_name:
-- SdBusOpenInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SdBusOpenInterface
+ - ntddsd/SdBusOpenInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddsd.h
+api_name:
+ - SdBusOpenInterface
 ---
 
 # SdBusOpenInterface function
@@ -47,66 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <b>SdBusOpenInterface</b> routine obtains an interface from the Secure Digital (SD) bus driver.
-
 
 ## -parameters
 
+### -param Pdo 
 
-
-
-### -param Pdo [in]
-
+[in]
 Pointer to the physical device object that the SD bus driver created for the SD device that the device driver manages. The system passes this pointer to the device driver when it calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
+### -param InterfaceStandard 
 
-### -param InterfaceStandard [out]
-
+[out]
 Contains, on input, a pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> supplied by the caller. On output, this structure holds pointers to the SD bus interface routines. This structure also contains some context information in its <b>Context</b> member that the caller should pass in every time it calls an interface routine.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Contains the size, in bytes, of the structure pointed to by <i>InterfaceStandard</i>.
 
+### -param Version 
 
-### -param Version [in]
-
+[in]
 Must be set to SDBUS_INTERFACE_VERSION.
-
 
 ## -returns
 
-
-
-Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error code if the operation fails. 
-
-
-
+Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error code if the operation fails.
 
 ## -remarks
 
-
-
 An SD card driver should call this routine from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
-SD card drivers must call this routine to establish communication with the bus driver. On successful completion of this call, the <b>Context</b> member of the structure pointed to by <i>InterfaceStandard</i> will contain a handle that the driver must pass in when calling methods that belong to the retrieved interface. 
-
-
-
+SD card drivers must call this routine to establish communication with the bus driver. On successful completion of this call, the <b>Context</b> member of the structure pointed to by <i>InterfaceStandard</i> will contain a handle that the driver must pass in when calling methods that belong to the retrieved interface.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a>
- 
-
- 
 

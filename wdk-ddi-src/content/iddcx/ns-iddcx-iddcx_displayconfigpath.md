@@ -8,41 +8,43 @@ ms.assetid: 5dce6205-f03c-4ca5-8f40-09a24eacbd13
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["IDDCX_DISPLAYCONFIGPATH structure"]
-f1_keywords:
- - "iddcx/IDDCX_DISPLAYCONFIGPATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: IDDCX_DISPLAYCONFIGPATH, , 
+ms.keywords: IDDCX_DISPLAYCONFIGPATH, ,
 req.header: iddcx.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: 
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - iddcx.h
-api_name: 
- - IDDCX_DISPLAYCONFIGPATH
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - IDDCX_DISPLAYCONFIGPATH
+ - iddcx/IDDCX_DISPLAYCONFIGPATH
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDDCX_DISPLAYCONFIGPATH
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # IDDCX_DISPLAYCONFIGPATH structure
+
 
 ## -description
 
@@ -98,3 +100,4 @@ Physical height override for the specified monitor in millimeters, zero means no
 ## -remarks
 
 ## -see-also
+

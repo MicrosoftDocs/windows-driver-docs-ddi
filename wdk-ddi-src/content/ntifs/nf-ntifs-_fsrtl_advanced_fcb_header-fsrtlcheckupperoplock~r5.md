@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckUpperOplock function"]
 ms.keywords: FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
 f1_keywords:
  - "ntifs/FsRtlCheckUpperOplock"
+ - "FsRtlCheckUpperOplock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckUpperOplock
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlCheckUpperOplock</b> routine provides opportunistic lock (oplock) ch
 
 
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
 
-### -param NewLowerOplockState [in]
-
+### -param NewLowerOplockState 
+[in]
 A value representing the requested oplock held in a lower file system by a secondary file system. This a bitwise OR combination of the following:
 
 <table>
@@ -104,13 +103,13 @@ Indicates an oplock Handle (H) type.
  
 
 
-### -param CompletionRoutineContext [in, optional]
-
+### -param CompletionRoutineContext 
+[in, optional]
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PrePendIrpRoutine</i> parameters point to.
 
 
-### -param CompletionRoutine [in, optional]
-
+### -param CompletionRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed.
 
 This routine is declared as follows:
@@ -191,8 +190,8 @@ A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b>
   </dl>
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of <b>FsRtlCheckUpperOplock</b>. The <i>Flags</i> parameter has the following options:
 
 

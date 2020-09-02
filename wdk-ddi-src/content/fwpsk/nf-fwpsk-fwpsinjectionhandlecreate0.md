@@ -8,8 +8,6 @@ ms.assetid: 61cee8ef-1070-46d4-a541-94a9f09b593b
 ms.date: 05/02/2018
 keywords: ["FwpsInjectionHandleCreate0 function"]
 ms.keywords: FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleCreate0, netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml
-f1_keywords:
- - "fwpsk/FwpsInjectionHandleCreate0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsInjectionHandleCreate0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsInjectionHandleCreate0
+ - fwpsk/FwpsInjectionHandleCreate0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsInjectionHandleCreate0
 ---
 
 # FwpsInjectionHandleCreate0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsInjectionHandleCreate0</b> function creates a handle that can be used by 
@@ -58,11 +56,9 @@ The
 
 ## -parameters
 
+### -param addressFamily 
 
-
-
-### -param addressFamily [in, optional]
-
+[in, optional]
 The address family for which the injection handle is being created. This can be one of the
      following address families:
      
@@ -91,9 +87,9 @@ For transport, stream, and forward injections, this parameter is optional and ca
      AF_UNSPEC, which indicates an unspecified address family. This value is defined in 
      Ws2def.h.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 A flag value set by a callout driver to indicate the type of data to be injected. This flag can have
      one or more of the following values: 
      
@@ -140,15 +136,12 @@ Transport data will be injected by calling either the
      injection type bits with bitwise OR operations. If the flag value is set to zero, the resulting
      injection handle can be used for transport, stream, and forward injections.
 
+### -param injectionHandle 
 
-### -param injectionHandle [out]
-
+[out]
 A pointer to a variable that receives the handle.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsInjectionHandleCreate0</b> function returns one of the following NTSTATUS codes.
@@ -193,14 +186,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsInjectionHandleCreate0</b> function to create a handle that can be used for injecting packet or
@@ -221,13 +208,7 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
     <i>addressFamily</i> set to AF_INET, and a second call with 
     <i>addressFamily</i> set to AF_INET6.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandledestroy0">FwpsInjectionHandleDestroy0</a>
 
@@ -239,7 +220,4 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
- 
-
- 
 

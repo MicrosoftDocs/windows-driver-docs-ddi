@@ -8,8 +8,6 @@ ms.assetid: ceaadcca-e206-402b-8aff-62aca483fb64
 ms.date: 05/03/2018
 keywords: ["IDebugClient3::CreateProcessAndAttachWide"]
 ms.keywords: CreateProcessAndAttachWide, CreateProcessAndAttachWide method [Windows Debugging], CreateProcessAndAttachWide method [Windows Debugging],IDebugClient3 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient4 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient3.CreateProcessAndAttachWide, IDebugClient3::CreateProcessAndAttachWide, IDebugClient4 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient4::CreateProcessAndAttachWide, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient5::CreateProcessAndAttachWide, dbgeng/IDebugClient3::CreateProcessAndAttachWide, dbgeng/IDebugClient4::CreateProcessAndAttachWide, dbgeng/IDebugClient5::CreateProcessAndAttachWide, debugger.createprocessandattachwide
-f1_keywords:
- - "dbgeng/IDebugClient3.CreateProcessAndAttachWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient3.CreateProcessAndAttachWide
-- IDebugClient4.CreateProcessAndAttachWide
-- IDebugClient5.CreateProcessAndAttachWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient3::CreateProcessAndAttachWide
+ - dbgeng/IDebugClient3::CreateProcessAndAttachWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient3.CreateProcessAndAttachWide
+ - IDebugClient4.CreateProcessAndAttachWide
+ - IDebugClient5.CreateProcessAndAttachWide
 ---
 
 # IDebugClient3::CreateProcessAndAttachWide
@@ -49,43 +48,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>CreateProcessAndAttachWide</b> method creates a process from a specified command line, then attach to another user-mode process.  The created process is suspended and only allowed to execute when the attach has completed.  This allows rough synchronization when debugging both,  client and server processes.
-
 
 ## -parameters
 
+### -param Server 
 
-
-
-### -param Server [in]
-
+[in]
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to the local process without using a process server.
 
+### -param CommandLine 
 
-### -param CommandLine [in, optional]
-
+[in, optional]
 Specifies the command line to execute to create the new process.  If <i>CommandLine</i> is <b>NULL</b>, then no process is created and these methods attach to an existing process, as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a> does.
 
+### -param CreateFlags 
 
-### -param CreateFlags [in]
-
+[in]
 Specifies the flags to use when creating the process.  For details on these flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_create_process_options">DEBUG_CREATE_PROCESS_OPTIONS</a>.<b>CreateFlags</b>.
 
+### -param ProcessId 
 
-### -param ProcessId [in]
-
+[in]
 Specifies the process ID of the target process the debugger will attach to.  If <i>ProcessId</i> is zero, the debugger will attach to the process it created from <i>CommandLine</i>.
 
+### -param AttachFlags 
 
-### -param AttachFlags [in]
-
+[in]
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see <a href="https://docs.microsoft.com/previous-versions/ff541454(v=vs.85)">DEBUG_ATTACH_XXX</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -106,14 +98,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available only for live user-mode debugging.
 
@@ -123,13 +109,7 @@ The engine does not completely attach to the process until the <a href="https://
 
 For more information about creating and attaching to live user-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-attach--attach-to-process-">.attach (Attach to Process)</a>
 
@@ -184,7 +164,4 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-terminatecurrentprocess">TerminateCurrentProcess</a>
- 
-
- 
 

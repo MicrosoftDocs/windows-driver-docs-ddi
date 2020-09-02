@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_MIP_REGION_0075
 f1_keywords:
+ - D3D12DDI_MIP_REGION_0075
  - d3d12umddi/D3D12DDI_MIP_REGION_0075
 dev_langs:
  - c++
@@ -59,3 +60,4 @@ Depth of the MIP region, in texels.
 See the [Sampler Feedback](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html) document for more information.
 
 ## -see-also
+

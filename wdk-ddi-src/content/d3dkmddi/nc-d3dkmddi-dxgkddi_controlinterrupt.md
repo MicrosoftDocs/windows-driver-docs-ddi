@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiControlInterrupt"
+ - DXGKDDI_CONTROLINTERRUPT
+ - d3dkmddi/DXGKDDI_CONTROLINTERRUPT
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CONTROLINTERRUPT callback function
+
 
 ## -description
 

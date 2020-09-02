@@ -8,8 +8,6 @@ ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.date: 04/16/2018
 keywords: ["FltFastIoMdlWriteComplete function"]
 ms.keywords: FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
-f1_keywords:
- - "fltkernel/FsRtlMdlWriteCompleteDev"
 req.header: fltkernel.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlMdlWriteCompleteDev
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltFastIoMdlWriteComplete
+ - fltkernel/FltFastIoMdlWriteComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlMdlWriteCompleteDev
 ---
 
 # FltFastIoMdlWriteComplete function
@@ -47,47 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltFastIoMdlWriteComplete</b> routine frees the resources that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiopreparemdlwrite">FltFastIoPrepareMdlWrite</a> allocated.
-
 
 ## -parameters
 
-
-
-
 ### -param InitiatingInstance
 
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param FileObject [in]
-
+[in]
 A pointer to the file object.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
+### -param MdlChain 
 
-### -param MdlChain [in]
-
+[in]
 A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiopreparemdlwrite">FltFastIoPrepareMdlWrite</a> allocated.
-
 
 ## -returns
 
-
-
 The <b>FltFastIoMdlWriteComplete</b> routine returns <b>TRUE</b> if the operation succeeds and <b>FALSE</b> if the operation fails or if the FO_WRITE_THROUGH flag is set in the file object.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FltFastIoMdlWriteComplete</b> routine frees the memory descriptor lists (MDLs) that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiopreparemdlwrite">FltFastIoPrepareMdlWrite</a> allocated and unlocks the cache memory that <b>FltFastIoPrepareMdlWrite</b> locked.
 
@@ -95,16 +81,7 @@ If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>File
 
 Each call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiopreparemdlwrite">FltFastIoPrepareMdlWrite</a> must be followed by a call to <b>FltFastIoMdlWriteComplete</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiopreparemdlwrite">FltFastIoPrepareMdlWrite</a>
- 
-
- 
 

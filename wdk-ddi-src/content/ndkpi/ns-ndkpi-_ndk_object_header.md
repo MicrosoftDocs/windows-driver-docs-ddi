@@ -6,10 +6,8 @@ old-location: netvista\ndk_object_header.htm
 tech.root: netvista
 ms.assetid: 12E3ED4A-F078-4489-BC84-69EE735CAEF8
 ms.date: 05/02/2018
-keywords: ["_NDK_OBJECT_HEADER structure"]
+keywords: ["NDK_OBJECT_HEADER structure"]
 ms.keywords: NDK_OBJECT_HEADER, NDK_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER, PNDK_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER, ndkpi/NDK_OBJECT_HEADER, ndkpi/PNDK_OBJECT_HEADER, netvista.ndk_object_header
-f1_keywords:
- - "ndkpi/NDK_OBJECT_HEADER"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndkpi.h
-api_name:
-- NDK_OBJECT_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_OBJECT_HEADER
+f1_keywords:
+ - _NDK_OBJECT_HEADER
+ - ndkpi/_NDK_OBJECT_HEADER
+ - NDK_OBJECT_HEADER
+ - ndkpi/NDK_OBJECT_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndkpi.h
+api_name:
+ - NDK_OBJECT_HEADER
 ---
 
 # _NDK_OBJECT_HEADER structure
@@ -47,21 +48,15 @@ req.typenames: NDK_OBJECT_HEADER
 
 ## -description
 
-
 The <b>NDK_OBJECT_HEADER</b> structure specifies the object version, type, and other  information.
 
 It is used in the <b>Header</b> member of every NDK object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a> structure that contains the revision number of the NDK object.
-
 
 ### -field ObjectType
 
@@ -69,15 +64,11 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ne-ndk
 
 This member is required and cannot be zero.
 
-
 ### -field NdkReserved
 
 A reserved block in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header_reserved_block">NDK_OBJECT_HEADER_RESERVED_BLOCK</a> structure.
 
-
 ## -remarks
-
-
 
 When an NDK provider creates an NDK object instance, the <b>Header</b> member must be initialized as follows:
 
@@ -100,12 +91,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>
 
@@ -172,7 +158,4 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
- 
-
- 
 

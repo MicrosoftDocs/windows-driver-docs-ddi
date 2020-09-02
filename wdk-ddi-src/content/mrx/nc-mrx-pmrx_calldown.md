@@ -8,8 +8,6 @@ ms.assetid: 6300595e-8cf6-47c4-a6ca-7851dd95576d
 ms.date: 04/16/2018
 keywords: ["PMRX_CALLDOWN callback function"]
 ms.keywords: MRxCleanupFobx, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MyCalldown, MyCalldown routine [Installable File System Drivers], PMRX_CALLDOWN, ifsk.mrxclosesrvopen, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml
-f1_keywords:
- - "mrx/MyCalldown"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MyCalldown
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_CALLDOWN
+ - mrx/PMRX_CALLDOWN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MyCalldown
 ---
 
 # PMRX_CALLDOWN callback function
@@ -47,24 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This callback is called by RDBSS to request that the network mini-redirector perform an action based in the supplied IRP.
-
 
 ## -parameters
 
+### -param RxContext 
 
-
-
-### -param RxContext [in, out]
-
-A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
-
+[in, out]
+A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
 ## -returns
-
-
-
 
             This callback returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
 
@@ -430,14 +421,8 @@ The call was unsuccessful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The<i> MRxCloseSrvOpen</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector close an SRV_OPEN structure.
 
@@ -1042,14 +1027,7 @@ MRxCleanupFobx is called by RDBSS as part of cleanup and close operations on a f
 
 MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call should be retried. If a retry loop is necessary, it must be handled internally in the MRxCleanupFobx routine by the network mini-redirector.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
 
@@ -1104,7 +1082,4 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
- 
-
- 
 

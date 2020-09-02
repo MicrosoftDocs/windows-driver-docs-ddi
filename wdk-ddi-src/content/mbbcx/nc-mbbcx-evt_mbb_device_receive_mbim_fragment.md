@@ -6,46 +6,54 @@ tech.root: netvista
 ms.assetid: aaf0e1ca-600d-4912-93ae-10dc6d04dd7e
 ms.date: 07/02/2018
 keywords: ["EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT callback function"]
-f1_keywords:
- - "mbbcx/EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT"
 req.header: mbbcx.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- mbbcx.h
-api_name: 
-- EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT
+ - mbbcx/EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - mbbcx.h
+api_name:
+ - EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT
 ---
 
 # EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT callback function
 
+
 ## -description
 
-
-
 A client driver's *EvtMbbDeviceReceiveMbimFragment* event callback function provides the response message returned from its device in response to a previous MBIM control message sent from MBBCx. This callback function is the equivalent of the *GetEncapsulatedResponse* request defined in the MBIM specification.
+
+## -parameters
+
+### -param Device
+
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+
+### -param ReceiveRequest 
+
+A handle to the framework object which represents the request to receive a fragemented MBIM message from the device.
 
 ## -prototype
 
@@ -64,16 +72,6 @@ VOID EvtMbbDeviceReceiveMbimFragment
 {...}
 
 ```
-
-## -parameters
-
-### -param Device
-
-A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
-
-### -param ReceiveRequest 
-
-A handle to the framework object which represents the request to receive a fragemented MBIM message from the device.
 
 ## -remarks
 
@@ -117,3 +115,4 @@ EvtMbbDeviceReceiveMbimFragment(
 ```
 
 ## -see-also
+

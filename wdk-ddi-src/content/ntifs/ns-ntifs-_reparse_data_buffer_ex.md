@@ -5,37 +5,40 @@ description: The REPARSE_DATA_BUFFER_EX structure contains reparse point data fo
 ms.assetid: fcbcb8e5-293f-4a19-8015-99cd870669bf
 ms.date: 05/31/2019
 tech.root: ifsk
-keywords: ["_REPARSE_DATA_BUFFER_EX structure"]
-f1_keywords:
- - "ntifs/_REPARSE_DATA_BUFFER_EX"
+keywords: ["REPARSE_DATA_BUFFER_EX structure"]
 ms.keywords: _REPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER
 req.header: ntifs.h
-req.include-header:
-req.target-type:
-req.target- min-winverclnt: Windows 10 (Version 1803)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntifs.h
-api_name: 
-- _REPARSE_DATA_BUFFER_EX
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _REPARSE_DATA_BUFFER_EX
+ - ntifs/_REPARSE_DATA_BUFFER_EX
+ - PREPARSE_DATA_BUFFER_EX
+ - ntifs/PREPARSE_DATA_BUFFER_EX
+ - REPARSE_DATA_BUFFER_EX
+ - ntifs/REPARSE_DATA_BUFFER_EX
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - _REPARSE_DATA_BUFFER_EX
 ---
 
 # _REPARSE_DATA_BUFFER_EX structure
+
 
 ## -description
 
@@ -88,3 +91,4 @@ The REPARSE_DATA_BUFFER_EX structure is used to store data for a reparse point. 
 [REPARSE_DATA_BUFFER](ns-ntifs-_reparse_data_buffer.md)
 
 [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 051ce37c-a7a5-4367-9495-023fc51349ba
 ms.date: 05/02/2018
 keywords: ["FILTER_STATUS callback function"]
 ms.keywords: FILTER_STATUS, FILTER_STATUS callback, FilterStatus, FilterStatus callback function [Network Drivers Starting with Windows Vista], ndis/FilterStatus, ndis_status_ref_4bddf4b3-3869-4e47-ba86-021e9f25484b.xml, netvista.filterstatus
-f1_keywords:
- - "ndis/FilterStatus"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_STATUS
+ - ndis/FILTER_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterStatus
 ---
 
 # FILTER_STATUS callback function
 
 
 ## -description
-
 
 The
   <i>FilterStatus</i> function indicates status changes that are reported by NDIS or an underlying
@@ -56,26 +54,21 @@ The
 
 ## -parameters
 
+### -param FilterModuleContext 
 
-
-
-### -param FilterModuleContext [in]
-
+[in]
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
+### -param StatusIndication 
 
-### -param StatusIndication [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
 
-
 ## -remarks
-
-
 
 <i>FilterStatus</i> is an optional function. If a filter driver does not use status indications, it can
     set the entry point for this function to <b>NULL</b> when it calls the 
@@ -132,15 +125,9 @@ VOID
 </table></span></div>
 The <b>FILTER_STATUS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_STATUS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -155,7 +142,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
- 
-
- 
 

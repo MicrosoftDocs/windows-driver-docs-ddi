@@ -8,8 +8,6 @@ ms.assetid: 5b74b4c4-d1a3-4587-900a-b54eebfeb553
 ms.date: 04/16/2018
 keywords: ["RxSetMinirdrCancelRoutine function"]
 ms.keywords: RxSetMinirdrCancelRoutine, RxSetMinirdrCancelRoutine routine [Installable File System Drivers], ifsk.rxsetminirdrcancelroutine, rxcontx/RxSetMinirdrCancelRoutine, rxref_5883f8a0-cc54-4efe-bb98-13239c78abff.xml
-f1_keywords:
- - "rxcontx/RxSetMinirdrCancelRoutine"
 req.header: rxcontx.h
 req.include-header: Mrx.h, Rxcontx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxcontx.h
-api_name:
-- RxSetMinirdrCancelRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxSetMinirdrCancelRoutine
+ - rxcontx/RxSetMinirdrCancelRoutine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxcontx.h
+api_name:
+ - RxSetMinirdrCancelRoutine
 ---
 
 # RxSetMinirdrCancelRoutine function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 <b>RxSetMinirdrCancelRoutine</b> is called by a network mini-redirector driver to set up a network mini-redirector cancel routine for an RX_CONTEXT structure.
-
 
 ## -parameters
 
+### -param RxContext 
 
+[in, out]
+A pointer to the RX_CONTEXT structure.
 
+### -param MRxCancelRoutine 
 
-### -param RxContext [in, out]
-
-A pointer to the RX_CONTEXT structure. 
-
-
-### -param MRxCancelRoutine [in]
-
-A pointer to a cancel routine. 
-
+[in]
+A pointer to a cancel routine.
 
 ## -returns
-
-
 
 <b>RxSetMinirdrCancelRoutine</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
 
@@ -89,24 +81,12 @@ The <i>RxContext</i> parameter was already canceled. The error will be returned 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>RxSetMinirdrCancelRoutine</b> routine sets the <b>MRxCancelRoutine</b> member of the <i>RxContext</i> parameter to the value of the <i>MRxCancelRoutine</i> parameter. This operation is protected by a spinlock.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
@@ -141,7 +121,4 @@ The <b>RxSetMinirdrCancelRoutine</b> routine sets the <b>MRxCancelRoutine</b> me
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/nf-rxcontx-rxresumeblockedoperations_serially">RxResumeBlockedOperations_Serially</a>
- 
-
- 
 

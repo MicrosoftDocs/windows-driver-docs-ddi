@@ -8,8 +8,6 @@ ms.assetid: 8f720af6-d70a-4682-86f4-011e70a6f64f
 ms.date: 05/02/2018
 keywords: ["NdisWriteRegisterUchar macro"]
 ms.keywords: NdisWriteRegisterUchar, NdisWriteRegisterUchar macro [Network Drivers Starting with Windows Vista], miniport_register_ref_60f684ba-a2ca-4fa8-8a80-9e805fb5c453.xml, ndis/NdisWriteRegisterUchar, netvista.ndiswriteregisteruchar
-f1_keywords:
- - "ndis/NdisWriteRegisterUchar"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisWriteRegisterUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisWriteRegisterUchar
+ - ndis/NdisWriteRegisterUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisWriteRegisterUchar
 ---
 
 # NdisWriteRegisterUchar macro
@@ -47,43 +46,30 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisWriteRegisterUchar</b> is called by the miniport driver to write a UCHAR to a memory-mapped device
   register.
 
-
 ## -parameters
 
+### -param Register 
 
-
-
-### -param Register [in]
-
+[in]
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
      an initialization-time call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
 
+### -param Data 
 
-### -param Data [in]
-
+[in]
 Specifies the caller-supplied UCHAR that this function transfers to the 
      <i>Register</i> .
 
-
 ## -remarks
-
-
 
 If a driver calls this function, a NIC's device registers must be mapped to noncached memory during
     driver initialization.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -102,7 +88,4 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteregisterushort">NdisWriteRegisterUshort</a>
- 
-
- 
 

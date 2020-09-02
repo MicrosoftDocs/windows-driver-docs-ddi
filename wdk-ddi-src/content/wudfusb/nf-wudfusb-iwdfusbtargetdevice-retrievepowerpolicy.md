@@ -8,8 +8,6 @@ ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetDevice::RetrievePowerPolicy"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrievePowerPolicy method, IWDFUsbTargetDevice.RetrievePowerPolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy, RetrievePowerPolicy method, RetrievePowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
-f1_keywords:
- - "wudfusb/IWDFUsbTargetDevice.RetrievePowerPolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetDevice.RetrievePowerPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetDevice::RetrievePowerPolicy
+ - wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetDevice.RetrievePowerPolicy
 ---
 
 # IWDFUsbTargetDevice::RetrievePowerPolicy
@@ -47,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrievePowerPolicy</b> method retrieves a WinUsb power policy.
 
-
 ## -parameters
 
+### -param PolicyType 
 
-
-
-### -param PolicyType [in]
-
+[in]
 The type of WinUsb power policy that the UMDF driver requests.
 
+### -param ValueLength 
 
-### -param ValueLength [in, out]
-
+[in, out]
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrievePowerPolicy</b> supplies in <i>Value</i>. On output, this parameter contains the size that <b>RetrievePowerPolicy</b> requires for <i>Value</i>.
 
+### -param Value 
 
-### -param Value [out]
-
+[out]
 A pointer that receives the buffer that contains the WinUsb power policy.
 
-
 ## -returns
-
-
 
 <b>RetrievePowerPolicy</b> returns one of the following values: 
 
@@ -120,14 +112,8 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Power policy controls the power management that WinUsb for the device performs.
 
@@ -137,13 +123,7 @@ For more information about the power behavior of WinUSB, see <a href="https://do
 
 The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
@@ -154,7 +134,4 @@ The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpowerpolicy">WinUsb_GetPowerPolicy</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: ff67bc75-b424-4278-b979-f67d118232aa
 ms.date: 04/30/2018
 keywords: ["ExIsSoftBoot function"]
 ms.keywords: ExIsSoftBoot, ExIsSoftBoot function [Kernel-Mode Driver Architecture], kernel.exissoftboot, wdm/ExIsSoftBoot
-f1_keywords:
- - "wdm/ExIsSoftBoot"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExIsSoftBoot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExIsSoftBoot
+ - wdm/ExIsSoftBoot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExIsSoftBoot
 ---
 
 # ExIsSoftBoot function
@@ -47,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Determines whether the system has gone through a soft restart.
-
 
 ## -returns
 
-
-
 TRUE indicates a soft restart; FALSE otherwise.
-
-
 

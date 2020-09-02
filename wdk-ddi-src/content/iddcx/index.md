@@ -9,8 +9,6 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: display
-product:
-- Windows
 ---
 
 # Iddcx.h header
@@ -19,6 +17,7 @@ product:
 ## -description
 
 
-This header is used by display. For more information, see:
+This header is used by indirect display drivers. For more information, see:
 
-- [Display](../_display/index.md)
+- [Indirect display driver model overview](https://docs.microsoft.com/windows-hardware/drivers/display/indirect-display-driver-model-overview)
+- [All display driver headers](../_display/index.md)

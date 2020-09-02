@@ -6,10 +6,8 @@ old-location: storage\feature_data_write_once.htm
 tech.root: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_WRITE_ONCE structure"]
+keywords: ["FEATURE_DATA_WRITE_ONCE structure"]
 ms.keywords: "*PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], PFEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], _FEATURE_DATA_WRITE_ONCE, ntddmmc/FEATURE_DATA_WRITE_ONCE, ntddmmc/PFEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml"
-f1_keywords:
- - "ntddmmc/FEATURE_DATA_WRITE_ONCE"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddmmc.h
-api_name:
-- FEATURE_DATA_WRITE_ONCE
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE
+f1_keywords:
+ - _FEATURE_DATA_WRITE_ONCE
+ - ntddmmc/_FEATURE_DATA_WRITE_ONCE
+ - PFEATURE_DATA_WRITE_ONCE
+ - ntddmmc/PFEATURE_DATA_WRITE_ONCE
+ - FEATURE_DATA_WRITE_ONCE
+ - ntddmmc/FEATURE_DATA_WRITE_ONCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddmmc.h
+api_name:
+ - FEATURE_DATA_WRITE_ONCE
 ---
 
 # _FEATURE_DATA_WRITE_ONCE structure
@@ -47,65 +50,43 @@ req.typenames: FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE
 
 ## -description
 
-
 The FEATURE_DATA_WRITE_ONCE structure holds information for the Write Once feature.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
-
+Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 ### -field LogicalBlockSize
 
-Indicates the number of bytes per logical block. The bytes in this array are arranged in big-endian order. <b>LogicalBlockSize</b>[0] holds the most significant byte. <b>LogicalBlockSize</b>[3] holds the least significant byte. 
-
+Indicates the number of bytes per logical block. The bytes in this array are arranged in big-endian order. <b>LogicalBlockSize</b>[0] holds the most significant byte. <b>LogicalBlockSize</b>[3] holds the least significant byte.
 
 ### -field Blocking
 
-Indicates the number of logical blocks per device. The bytes in this array are arranged in big-endian order. <b>Blocking</b>[0] holds the most significant byte. <b>Blocking</b>[1] holds the least significant byte. 
-
+Indicates the number of logical blocks per device. The bytes in this array are arranged in big-endian order. <b>Blocking</b>[0] holds the most significant byte. <b>Blocking</b>[1] holds the least significant byte.
 
 ### -field ErrorRecoveryPagePresent
 
-Indicates, when set to 1, that the Read/Write Error Recovery Mode Page is present. When set to zero, indicates that it might not be present. See the <i>SCSI Multimedia 3</i> (<i>MMC-3</i>) specification for a description of this page. 
-
+Indicates, when set to 1, that the Read/Write Error Recovery Mode Page is present. When set to zero, indicates that it might not be present. See the <i>SCSI Multimedia 3</i> (<i>MMC-3</i>) specification for a description of this page.
 
 ### -field Reserved1
 
-Reserved. 
-
+Reserved.
 
 ### -field Reserved2
 
-Reserved. 
-
+Reserved.
 
 ## -remarks
 
-
-
-This structure holds data for the feature named "Write Once" by the <i>MMC-3 </i>specification. Devices that support this feature can write to any previously unused logical block. 
-
-
-
+This structure holds data for the feature named "Write Once" by the <i>MMC-3 </i>specification. Devices that support this feature can write to any previously unused logical block.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
- 
-
- 
 

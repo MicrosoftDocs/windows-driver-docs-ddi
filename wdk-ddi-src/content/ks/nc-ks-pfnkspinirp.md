@@ -8,8 +8,6 @@ ms.assetid: 85e91b13-96c8-4422-b9b7-90f6cecbb2a5
 ms.date: 04/23/2018
 keywords: ["PFNKSPINIRP callback function"]
 ms.keywords: AVStrMiniPinCreate, AVStrMiniPinCreate routine [Streaming Media Devices], PFNKSPINIRP, avstclbk_0feeeb85-88fe-43d7-83e4-399b0c26aa53.xml, ks/AVStrMiniPinCreate, stream.avstrminipincreate
-f1_keywords:
- - "ks/AVStrMiniPinCreate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniPinCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSPINIRP
+ - ks/PFNKSPINIRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniPinCreate
 ---
 
 # PFNKSPINIRP callback function
 
 
 ## -description
-
 
 An AVStream minidriver's routine is called when an activity on the pin is performed and it receives these IRPs:
 <ul>
@@ -60,31 +58,21 @@ An AVStream minidriver's routine is called when an activity on the pin is perfor
 
 ## -parameters
 
+### -param Pin 
 
-
-
-### -param Pin [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> that was just created.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 Pointer to the  IRP for <i>Pin</i>.
-
 
 ## -returns
 
-
-
-If the routine succeeds, the operation is guaranteed to succeed. Return STATUS_SUCCESS or STATUS_PENDING. 
-
-
-
+If the routine succeeds, the operation is guaranteed to succeed. Return STATUS_SUCCESS or STATUS_PENDING.
 
 ## -remarks
-
-
 
 <table>
 <tr>
@@ -123,15 +111,8 @@ This routine is optional.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a>
 
@@ -142,7 +123,4 @@ This routine is optional.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
- 
-
- 
 

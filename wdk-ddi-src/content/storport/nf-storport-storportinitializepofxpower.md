@@ -8,8 +8,6 @@ ms.assetid: 154EAF9B-4B30-4124-B31D-6C7D09B52674
 ms.date: 03/29/2018
 keywords: ["StorPortInitializePoFxPower function"]
 ms.keywords: StorPortInitializePoFxPower, StorPortInitializePoFxPower routine [Storage Devices], storage.storportinitializepofxpower, storport/StorPortInitializePoFxPower
-f1_keywords:
- - "storport/StorPortInitializePoFxPower"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInitializePoFxPower
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInitializePoFxPower
+ - storport/StorPortInitializePoFxPower
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInitializePoFxPower
 ---
 
 # StorPortInitializePoFxPower function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver calls <b>StorPortInitializePoFxPower</b> to register a storage device with the power management framework (PoFx).
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Address 
 
-### -param Address [in, optional]
-
+[in, optional]
 The address of a storage device unit. This parameter is <b>NULL</b> when registering for a storage adapter.
 
+### -param Device 
 
-### -param Device [in]
-
+[in]
 A pointer to a <b>STOR_POFX_DEVICE_V2</b> structure cast to a pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>. This structure contains a component list with F-states for a storage device.
 
+### -param D3ColdEnabled 
 
-### -param D3ColdEnabled [in, out]
-
+[in, out]
 A pointer to a <b>BOOLEAN</b> value which the Storport driver will set to indicate whether the D3 Cold state is enabled for the storage device.
 
-
 ## -returns
-
-
 
 The <b>StorPortInitializePoFxPower</b> routine returns one of these status codes:
 
@@ -148,29 +140,14 @@ The storage device is already registered with PoFx.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Adapter devices are always registered with a <b>NULL</b> value for <i>address</i>. Unit devices are registered by specifying a valid unit address for <i>address</i>.
 
 If the <b>STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD</b> flag is set in the <b>Flags</b> member of <i>Device</i>, Storport will attempt to enable D3 Cold support for the device component. The D3 Cold enabled status is returned in the <b>BOOLEAN</b> value pointed to by <i>D3ColdEnabled</i>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>
- 
-
- 
 

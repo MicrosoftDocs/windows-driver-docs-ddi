@@ -7,8 +7,6 @@ ms.assetid: 07bbc201-0320-4f26-be0a-27c06763813f
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback function"]
 ms.keywords: D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame callback function [Display Devices], PFND3DKMT_OUTPUTDUPLRELEASEFRAME, PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback, d3dkmthk/D3DKMTOutputDuplReleaseFrame, display.d3dkmtoutputduplreleaseframe
-f1_keywords:
- - "d3dkmthk/D3DKMTOutputDuplReleaseFrame"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,23 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMTOutputDuplReleaseFrame
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_OUTPUTDUPLRELEASEFRAME
+ - d3dkmthk/PFND3DKMT_OUTPUTDUPLRELEASEFRAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMTOutputDuplReleaseFrame
 ---
 
 # PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback function
+
 
 ## -description
 
@@ -55,7 +55,6 @@ Indicates that the driver has finished processing the duplicated desktop image.
 *pData* 
 
 [in, out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputdupl_release_frame">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a> structure that defines the duplicated desktop image that is to be released.
-
 
 ## -returns
 
@@ -70,16 +69,7 @@ Returns one of the following values:
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputdupl_release_frame">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a>
- 
-
- 
 

@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiPreemptCommand"
+ - DXGKDDI_PREEMPTCOMMAND
+ - d3dkmddi/DXGKDDI_PREEMPTCOMMAND
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_PREEMPTCOMMAND callback function
+
 
 ## -description
 

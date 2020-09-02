@@ -34,12 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_OPM_SET_SRM_LIST
 f1_keywords:
+ - DXGKDDI_OPM_SET_SRM_LIST
  - dispmprt/DXGKDDI_OPM_SET_SRM_LIST
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_OPM_SET_SRM_LIST callback function
+
 
 ## -description
 
@@ -70,3 +72,4 @@ Pointer to a buffer containing the updated SRM list.
 [**DXGK_OPM_INTERFACE_3**](ns-dispmprt-_dxgk_opm_interface_3)
 
 [*DxgkDdiOPMGetSrmListVersion*](nc-dispmprt-dxgkddi_opm_get_srm_list_version.md)
+

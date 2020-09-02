@@ -8,8 +8,6 @@ ms.assetid: 843050e1-a1ec-4313-b527-529c4ff6ca07
 ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchIncomingCloseCall macro"]
 ms.keywords: NdisMCmDispatchIncomingCloseCall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, ndis/NdisMCmDispatchIncomingCloseCall, netvista.ndismcmdispatchincomingclosecall
-f1_keywords:
- - "ndis/NdisMCmDispatchIncomingCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmDispatchIncomingCloseCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDispatchIncomingCloseCall
+ - ndis/NdisMCmDispatchIncomingCloseCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmDispatchIncomingCloseCall
 ---
 
 # NdisMCmDispatchIncomingCloseCall macro
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDispatchIncomingCloseCall</b> tells a client to tear down an active or offered call, usually
   because the MCM driver has received a request from the network to close the connection.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -82,8 +76,6 @@ Specifies the size in bytes of the buffer, zero if
      <i>Buffer</i> is <b>NULL</b>.
 
 ## -remarks
-
-
 
 In the course of normal network operations, an MCM driver calls 
     <b>NdisMCmDispatchIncomingCloseCall</b> with the 
@@ -135,13 +127,7 @@ Only connection-oriented miniport drivers that provide call-management support c
     protocol drivers, call 
     <b>NdisCmDispatchIncomingCloseCall</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
@@ -173,7 +159,4 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

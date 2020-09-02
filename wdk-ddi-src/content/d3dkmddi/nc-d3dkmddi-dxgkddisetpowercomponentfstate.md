@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetPowerComponentFState"
+ - DXGKDDISETPOWERCOMPONENTFSTATE
+ - d3dkmddi/DXGKDDISETPOWERCOMPONENTFSTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDISETPOWERCOMPONENTFSTATE callback function
+
 
 ## -description
 

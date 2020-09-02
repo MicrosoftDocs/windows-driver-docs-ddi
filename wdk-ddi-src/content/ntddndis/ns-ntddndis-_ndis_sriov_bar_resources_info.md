@@ -6,10 +6,8 @@ old-location: netvista\ndis_sriov_bar_resources_info.htm
 tech.root: netvista
 ms.assetid: e5a5ac98-171d-4a31-8bc6-400f613b7dc9
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_BAR_RESOURCES_INFO structure"]
+keywords: ["NDIS_SRIOV_BAR_RESOURCES_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_BAR_RESOURCES_INFO, NDIS_SRIOV_BAR_RESOURCES_INFO, NDIS_SRIOV_BAR_RESOURCES_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_BAR_RESOURCES_INFO, PNDIS_SRIOV_BAR_RESOURCES_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_BAR_RESOURCES_INFO, netvista.ndis_sriov_bar_resources_info, ntddndis/NDIS_SRIOV_BAR_RESOURCES_INFO, ntddndis/PNDIS_SRIOV_BAR_RESOURCES_INFO"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_BAR_RESOURCES_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_BAR_RESOURCES_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_BAR_RESOURCES_INFO, *PNDIS_SRIOV_BAR_RESOURCES_INFO
+f1_keywords:
+ - _NDIS_SRIOV_BAR_RESOURCES_INFO
+ - ntddndis/_NDIS_SRIOV_BAR_RESOURCES_INFO
+ - PNDIS_SRIOV_BAR_RESOURCES_INFO
+ - ntddndis/PNDIS_SRIOV_BAR_RESOURCES_INFO
+ - NDIS_SRIOV_BAR_RESOURCES_INFO
+ - ntddndis/NDIS_SRIOV_BAR_RESOURCES_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_BAR_RESOURCES_INFO
 ---
 
 # _NDIS_SRIOV_BAR_RESOURCES_INFO structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_SRIOV_BAR_RESOURCES_INFO, *PNDIS_SRIOV_BAR_RESOURCES_INFO
 
 ## -description
 
-
-The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure specifies the PCI Express (PCIe) Base Address Register (BAR) of a network adapter's PCIe Virtual Function (VF). 
-
+The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure specifies the PCI Express (PCIe) Base Address Register (BAR) of a network adapter's PCIe Virtual Function (VF).
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,7 +70,6 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_BAR_RESOURCES_INFO_REVISION_1.
 
-
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
@@ -86,25 +83,15 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 
 A USHORT value that specifies the BAR index on the VF. This value is the offset of the register within the table of BARs in the PCI configuration space.
 
-
 ### -field BarResourcesOffset
 
 A ULONG value that specifies the offset, in units of bytes, from the beginning of this structure to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
-
 ## -remarks
 
-
-
-The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure is used in OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-bar-resources">OID_SRIOV_BAR_RESOURCES</a>.  
-
-
-
+The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure is used in OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-bar-resources">OID_SRIOV_BAR_RESOURCES</a>.
 
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -119,7 +106,4 @@ The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure is used in OID method request
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-bar-resources">OID_SRIOV_BAR_RESOURCES</a>
- 
-
- 
 

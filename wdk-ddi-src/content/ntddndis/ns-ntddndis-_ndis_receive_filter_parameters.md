@@ -6,10 +6,8 @@ old-location: netvista\ndis_receive_filter_parameters.htm
 tech.root: netvista
 ms.assetid: 39dc6b3a-f24d-4f1a-96f8-416fbcb3f894
 ms.date: 05/02/2018
-keywords: ["_NDIS_RECEIVE_FILTER_PARAMETERS structure"]
+keywords: ["NDIS_RECEIVE_FILTER_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE, NDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_PARAMETERS, PNDIS_RECEIVE_FILTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_PARAMETERS, netvista.ndis_receive_filter_parameters, ntddndis/NDIS_RECEIVE_FILTER_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_PARAMETERS, virtual_machine_queue_ref_abdd073b-8e49-4d6d-9bd6-1eca198dbd2d.xml"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_FILTER_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_FILTER_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_PARAMETERS, *PNDIS_RECEIVE_FILTER_PARAMETERS
+f1_keywords:
+ - _NDIS_RECEIVE_FILTER_PARAMETERS
+ - ntddndis/_NDIS_RECEIVE_FILTER_PARAMETERS
+ - PNDIS_RECEIVE_FILTER_PARAMETERS
+ - ntddndis/PNDIS_RECEIVE_FILTER_PARAMETERS
+ - NDIS_RECEIVE_FILTER_PARAMETERS
+ - ntddndis/NDIS_RECEIVE_FILTER_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_FILTER_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_FILTER_PARAMETERS structure
 
 
 ## -description
-
-
 
 The <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure specifies the parameters for an NDIS receive filter.
 
@@ -73,9 +74,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 </ul>
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -109,7 +107,6 @@ Original version for NDIS 6.20.
 The driver sets the 
         <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A bitwise OR of the following flags.
@@ -131,13 +128,10 @@ If this flag is set on the receive filter, the network adapter  must match this 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FilterType
 
 The type of the receive filter.
-
 
 ### -field QueueId
 
@@ -154,7 +148,6 @@ A receive filter identifier. The filter identifier
      is an integer from one to the number of receive filters that the network adapter supports. A value of zero is
      invalid.
 
-
 ### -field FieldParametersArrayOffset
 
 The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
@@ -168,11 +161,9 @@ The offset, in bytes, to the first element in an array of elements that follow t
 
 The number of elements in the array.
 
-
 ### -field FieldParametersArrayElementSize
 
 The size, in bytes, of each element in the array.
-
 
 ### -field RequestedFilterIdBitCount
 
@@ -184,7 +175,6 @@ The number of bits in a filter identifier. The miniport driver uses
      <b>NetBufferListFilteringInfo</b> data.
 
 Starting with NDIS 6.20, this member must be set to zero.
-
 
 ### -field MaxCoalescingDelay
 
@@ -207,8 +197,6 @@ The VPort identifier on which the receive filter is to be configured. A value of
 <div> </div>
 
 ## -remarks
-
-
 
 The <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure is used with OID requests of  
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-parameters">OID_RECEIVE_FILTER_PARAMETERS</a>
@@ -262,14 +250,7 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -289,7 +270,4 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
- 
-
- 
 

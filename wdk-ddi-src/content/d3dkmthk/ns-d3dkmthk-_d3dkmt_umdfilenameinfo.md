@@ -5,10 +5,8 @@ description: The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL
 old-location: display\d3dkmt_umdfilenameinfo.htm
 ms.assetid: 456aef5a-f297-4670-8a83-b468569d23ad
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_UMDFILENAMEINFO structure"]
+keywords: ["D3DKMT_UMDFILENAMEINFO structure"]
 ms.keywords: D3DKMT_UMDFILENAMEINFO, D3DKMT_UMDFILENAMEINFO structure [Display Devices], OpenGL_Structs_631f8c52-0978-4f26-bd6b-08348676795b.xml, _D3DKMT_UMDFILENAMEINFO, d3dkmthk/D3DKMT_UMDFILENAMEINFO, display.d3dkmt_umdfilenameinfo
-f1_keywords:
- - "d3dkmthk/D3DKMT_UMDFILENAMEINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_UMDFILENAMEINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_UMDFILENAMEINFO
+f1_keywords:
+ - _D3DKMT_UMDFILENAMEINFO
+ - d3dkmthk/_D3DKMT_UMDFILENAMEINFO
+ - D3DKMT_UMDFILENAMEINFO
+ - d3dkmthk/D3DKMT_UMDFILENAMEINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_UMDFILENAMEINFO
 ---
 
 # _D3DKMT_UMDFILENAMEINFO structure
@@ -47,14 +48,9 @@ req.typenames: D3DKMT_UMDFILENAMEINFO
 
 ## -description
 
-
-The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL ICD that is based on the specified version of the DirectX runtime. 
-
+The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL ICD that is based on the specified version of the DirectX runtime.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 

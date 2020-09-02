@@ -8,8 +8,6 @@ ms.assetid: 208d9dc3-736b-4684-b8d3-802f6df78142
 ms.date: 05/03/2018
 keywords: ["IStiDevice::LockDevice"]
 ms.keywords: IStiDevice interface [Imaging Devices],LockDevice method, IStiDevice.LockDevice, IStiDevice::LockDevice, LockDevice, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices],IStiDevice interface, image.istidevice_lockdevice, sti/IStiDevice::LockDevice, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml
-f1_keywords:
- - "sti/IStiDevice.LockDevice"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sti.h
-api_name:
-- IStiDevice.LockDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStiDevice::LockDevice
+ - sti/IStiDevice::LockDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sti.h
+api_name:
+ - IStiDevice.LockDevice
 ---
 
 # IStiDevice::LockDevice
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IStiDevice::LockDevice </b>method locks a device for exclusive use by the caller.
-
 
 ## -parameters
 
+### -param dwTimeOut 
 
-
-
-### -param dwTimeOut [in]
-
+[in]
 Caller-supplied time-out value, in milliseconds. If the lock is not obtained in this time period, an error is returned.
-
 
 ## -returns
 
-
-
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 Clients of the <b>IStiDevice</b> COM interface must call <b>IStiDevice::LockDevice</b> before calling the following methods:
 
@@ -113,6 +100,4 @@ If the <b>IStiDevice::LockDevice</b> method is able to obtain an <b>IStiDevice</
 Each call to <b>IStiDevice::LockDevice</b> must be paired with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unlockdevice">IStiDevice::UnLockDevice</a>.
 
 Before calling <b>IStiDevice::LockDevice</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
-
-
 

@@ -22,7 +22,8 @@ req.typenames: D3D12DDI_SHADING_RATE_0062
 targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 2., 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_SHADING_RATE_0062"
+ - D3D12DDI_SHADING_RATE_0062
+ - d3d12umddi/D3D12DDI_SHADING_RATE_0062
 topic_type:
  - apiref
 api_type:
@@ -38,6 +39,7 @@ dev_langs:
 ---
 
 # D3D12DDI_SHADING_RATE_0062 enumeration
+
 
 ## -description
 

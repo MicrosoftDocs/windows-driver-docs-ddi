@@ -8,8 +8,6 @@ ms.assetid: 363ae373-5474-4c20-a382-20577a72521e
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_LSRMST_INSERT IOCTL"]
 ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOCTL_SERIAL_LSRMST_INSERT control code [Serial Ports], ntddser/IOCTL_SERIAL_LSRMST_INSERT, serports.ioctl_serial_lsrmst_insert, serref_d071ffb1-f8ea-44e3-8caa-08e2c51e0198.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_LSRMST_INSERT"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_LSRMST_INSERT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_LSRMST_INSERT
+ - ntddser/IOCTL_SERIAL_LSRMST_INSERT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_LSRMST_INSERT
 ---
 
 # IOCTL_SERIAL_LSRMST_INSERT IOCTL
 
 
 ## -description
-
 
 The <b>IOCTL_SERIAL_LSRMST_INSERT</b> request enables or disables the insertion of information about line status and modem status in the receive data stream. If LSRMST insertion is enabled, the driver inserts event information for the supported event types. The event information includes an <i>event header</i> followed by event-specific data.
 
@@ -78,46 +76,25 @@ Indicates that the next character in the receive data stream, which was received
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated UCHAR input value to use as the escape character. If the escape character is nonzero, insertion is enabled, and the serial driver uses the specified escape character. Otherwise, insertion is disabled.
-
 
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the size, in bytes, of a UCHAR.
 
-
 ### -output-buffer
 
 None.
-
 
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

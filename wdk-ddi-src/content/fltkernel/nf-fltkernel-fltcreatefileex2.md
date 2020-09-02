@@ -8,8 +8,6 @@ ms.assetid: e662472d-4d72-449e-91d7-119bd59e0943
 ms.date: 02/13/2020
 keywords: ["FltCreateFileEx2 function"]
 ms.keywords: FltApiRef_a_to_d_21436e16-822a-4250-abac-10346593435f.xml, FltCreateFileEx2, FltCreateFileEx2 routine [Installable File System Drivers], fltkernel/FltCreateFileEx2, ifsk.fltcreatefileex2
-f1_keywords:
- - "fltkernel/FltCreateFileEx2"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fltmgr.lib
-- Fltmgr.sys
-api_name:
-- FltCreateFileEx2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCreateFileEx2
+ - fltkernel/FltCreateFileEx2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fltmgr.lib
+ - Fltmgr.sys
+api_name:
+ - FltCreateFileEx2
 ---
 
 # FltCreateFileEx2 function
+
 
 ## -description
 
@@ -51,68 +51,84 @@ Minifilter drivers call **FltCreateFileEx2** to create a new file or open an exi
 
 ## -parameters
 
-### -param Filter [in]
+### -param Filter 
 
+[in]
 An opaque filter pointer for the caller.
 
-### -param Instance [in, optional]
+### -param Instance 
 
+[in, optional]
 An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume where the file or directory resides. This parameter is optional and can be **NULL**. If this parameter is **NULL**, the request is sent to the device object at the top of the file system driver stack for the volume. If this parameter is non-**NULL**, the request is sent only to minifilter driver instances that are attached below the specified instance.
 
-### -param FileHandle [out]
+### -param FileHandle 
 
+[out]
 A pointer to a caller-allocated variable that receives the file handle if the call to **FltCreateFileEx2** is successful.
 
-### -param FileObject [out, optional]
+### -param FileObject 
 
+[out, optional]
 A pointer to a caller-allocated variable that receives the file object pointer if the call to **FltCreateFileEx2** is successful. This parameter is optional and can be **NULL**.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess 
 
+[in]
 A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#desiredaccess) for more information about this parameter and for the list of flag values.
 
-### -param ObjectAttributes [in]
+### -param ObjectAttributes 
 
+[in]
 Pointer to an opaque [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#objectattributes) for more information and for a description of each structure member.
 
-### -param IoStatusBlock [out]
+### -param IoStatusBlock 
 
+[out]
 Pointer to an [**IO_STATUS_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#iostatusblock) for more information about this parameter.
 
-### -param AllocationSize [in, optional]
+### -param AllocationSize 
 
+[in, optional]
 Optionally specifies the initial allocation size, in bytes, for the file stream. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-### -param FileAttributes [in]
+### -param FileAttributes 
 
+[in]
 Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you are creating, superseding, or overwriting a file. See the *FileAttributes* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#fileattributes) for more details and for the list of flags.
 
-### -param ShareAccess [in]
+### -param ShareAccess 
 
+[in]
 Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#shareaccess) for more details and for the list of flags.
 
-### -param CreateDisposition [in]
+### -param CreateDisposition 
 
+[in]
 Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#disposition) for the list of possible values.
 
-### -param CreateOptions [in]
+### -param CreateOptions 
 
+[in]
 Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#createoptions).
 
-### -param EaBuffer [in, optional]
+### -param EaBuffer 
 
+[in, optional]
 A pointer to a caller-supplied [**FILE_FULL_EA_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information) buffer that contains extended attribute (EA) information to be applied to the file.
 
-### -param EaLength [in]
+### -param EaLength 
 
+[in]
 Length, in bytes, of *EaBuffer*.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#options) for the list of possible options.
 
-### -param DriverContext [in, optional]
+### -param DriverContext 
 
+[in, optional]
 Optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context) structure already initialized by [**IoInitializeDriverCreateContext**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext).
 
 ## -returns
@@ -288,7 +304,7 @@ When a caller of **FltCreateFileEx2** wishes to enable reparsing for a volume ta
 
 [**SECURITY_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor)
 
-[**UNICODE_STRING**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)
+[**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
 [**ZwCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
 
@@ -299,3 +315,4 @@ When a caller of **FltCreateFileEx2** wishes to enable reparsing for a volume ta
 [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
 
 [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
+

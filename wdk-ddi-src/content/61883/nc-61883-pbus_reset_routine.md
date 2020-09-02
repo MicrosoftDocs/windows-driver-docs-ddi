@@ -8,8 +8,6 @@ ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
 ms.date: 02/15/2018
 keywords: ["PBUS_RESET_ROUTINE callback function"]
 ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE callback
-f1_keywords:
- - "61883/BusResetRoutine"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 61883.h
-api_name:
-- BusResetRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PBUS_RESET_ROUTINE
+ - 61883/PBUS_RESET_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 61883.h
+api_name:
+ - BusResetRoutine
 ---
 
 # PBUS_RESET_ROUTINE callback function
@@ -47,32 +46,21 @@ req.typenames:
 
 ## -description
 
-
 This is a caller-supplied function to be called by the protocol driver when the 1394 bus is reset.
-
 
 ## -parameters
 
+### -param Context 
 
+[in]
+Pointer to the context supplied by the caller at the <b>Context</b> member of the input BUS_RESET_NOTIFY structure.
 
+### -param BusResetInfo 
 
-### -param Context [in]
-
-Pointer to the context supplied by the caller at the <b>Context</b> member of the input BUS_RESET_NOTIFY structure. 
-
-
-### -param BusResetInfo [in]
-
-The bus reset information. 
-
+[in]
+The bus reset information.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
- 
-
- 
 

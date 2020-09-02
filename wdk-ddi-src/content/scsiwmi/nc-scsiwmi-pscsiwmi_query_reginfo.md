@@ -8,8 +8,6 @@ ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
 ms.date: 03/29/2018
 keywords: ["PSCSIWMI_QUERY_REGINFO callback function"]
 ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
-f1_keywords:
- - "scsiwmi/HwScsiWmiQueryReginfo"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- scsiwmi.h
-api_name:
-- HwScsiWmiQueryReginfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PSCSIWMI_QUERY_REGINFO
+ - scsiwmi/PSCSIWMI_QUERY_REGINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - scsiwmi.h
+api_name:
+ - HwScsiWmiQueryReginfo
 ---
 
 # PSCSIWMI_QUERY_REGINFO callback function
@@ -47,42 +46,31 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver's <b>HwScsiWmiQueryReginfo</b> routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver. This routine is required.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param DeviceContext 
 
+[in]
+Points to the miniport driver-defined context value passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
+### -param RequestContext 
 
-### -param DeviceContext [in]
+[in]
+Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-Points to the miniport driver-defined context value passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. 
+### -param MofResourceName 
 
-
-### -param RequestContext [in]
-
-Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. 
-
-
-### -param MofResourceName [out]
-
-Points to a <b>null</b>-terminated Unicode string that indicates the name of the MOF resource attached to the miniport driver's binary image file. This string can be declared as a constant in the miniport driver. If the miniport driver does not have a MOF resource attached, it should set <i>MofResourceName</i> to <b>NULL</b>. 
-
+[out]
+Points to a <b>null</b>-terminated Unicode string that indicates the name of the MOF resource attached to the miniport driver's binary image file. This string can be declared as a constant in the miniport driver. If the miniport driver does not have a MOF resource attached, it should set <i>MofResourceName</i> to <b>NULL</b>.
 
 ## -returns
 
-
-
 <b>HwScsiWmiQueryReginfo</b> always returns SRB_STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb->WmiSubFunction</b>. If <i>MinorFunction</i> indicates a request for registration information, the SCSI port driver calls the miniport driver's <b>HwScsiWmiQueryReginfo</b> routine.
 
@@ -90,13 +78,7 @@ The miniport driver provides new or updated registration information about indiv
 
 The miniport driver must not pend or block the SRB. The miniport driver must not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportnotification">ScsiPortNotification</a> from its <b>HwScsiWmiQueryReginfo</b> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-scsiwmi_request_context">SCSIWMI_REQUEST_CONTEXT</a>
 
@@ -107,7 +89,4 @@ The miniport driver must not pend or block the SRB. The miniport driver must not
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>
- 
-
- 
 

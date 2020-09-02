@@ -6,10 +6,8 @@ old-location: print\docevent_filter.htm
 tech.root: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.date: 04/20/2018
-keywords: ["_DOCEVENT_FILTER structure"]
+keywords: ["DOCEVENT_FILTER structure"]
 ms.keywords: "*PDOCEVENT_FILTER, DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], _DOCEVENT_FILTER, print.docevent_filter, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, winddiui/DOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER"
-f1_keywords:
- - "winddiui/DOCEVENT_FILTER"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DOCEVENT_FILTER
-product:
-- Windows
 targetos: Windows
 req.typenames: DOCEVENT_FILTER, *PDOCEVENT_FILTER
+f1_keywords:
+ - _DOCEVENT_FILTER
+ - winddiui/_DOCEVENT_FILTER
+ - PDOCEVENT_FILTER
+ - winddiui/PDOCEVENT_FILTER
+ - DOCEVENT_FILTER
+ - winddiui/DOCEVENT_FILTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DOCEVENT_FILTER
 ---
 
 # _DOCEVENT_FILTER structure
+
 
 ## -description
 
@@ -115,3 +119,4 @@ If the driver does not support the DOCUMENTEVENT_QUERYFILTER event, it should re
 ## -see-also
 
 [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentevent)
+

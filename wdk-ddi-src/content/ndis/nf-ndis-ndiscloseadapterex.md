@@ -8,8 +8,6 @@ ms.assetid: 8e3c6373-e39d-4f9b-b874-e3a9c93791b9
 ms.date: 05/02/2018
 keywords: ["NdisCloseAdapterEx function"]
 ms.keywords: NdisCloseAdapterEx, NdisCloseAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCloseAdapterEx, netvista.ndiscloseadapterex, protocol_ndis_functions_ref_f349b273-d8c6-4711-af43-59646c41536c.xml
-f1_keywords:
- - "ndis/NdisCloseAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCloseAdapterEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCloseAdapterEx
+ - ndis/NdisCloseAdapterEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCloseAdapterEx
 ---
 
 # NdisCloseAdapterEx function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 A protocol driver calls the 
   <b>NdisCloseAdapterEx</b> function to release the binding and the resources that were allocated when the
   driver called the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-
 ## -parameters
 
+### -param NdisBindingHandle 
 
-
-
-### -param NdisBindingHandle [in]
-
+[in]
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
      <b>NdisOpenAdapterEx</b>. This handle identifies the binding that NDIS should close.
 
-
 ## -returns
-
-
 
 <b>NdisCloseAdapterEx</b> returns one of the following status values:
 
@@ -104,14 +96,8 @@ The handle that NDIS provided at the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A protocol driver typically calls 
     <b>NdisCloseAdapterEx</b> from its 
@@ -138,13 +124,7 @@ As soon as the driver calls
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function at the 
     <i>NdisBindingHandle</i> parameter becomes invalid.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
@@ -164,7 +144,4 @@ As soon as the driver calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
 

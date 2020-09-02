@@ -8,8 +8,6 @@ ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
 ms.date: 04/20/2018
 keywords: ["IPrintJobCollection interface"]
 ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
-f1_keywords:
- - "printerextension/IPrintJobCollection"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintJobCollection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintJobCollection
+ - printerextension/IPrintJobCollection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintJobCollection
 ---
 
 # IPrintJobCollection interface
@@ -47,15 +46,13 @@ req.typenames:
 
 ## -description
 
-
 This interfaces provides an enumeration of the jobs in the print queue.
 
 The enumerated list of jobs represents a snapshot of the current job status.
 
-
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -63,26 +60,15 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> inte
 
 ## -remarks
 
-
-
-The order of print jobs in the enumerated list is the same as the order provided by <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
+The order of print jobs in the enumerated list is the same as the order provided by <a href="https://docs.microsoft.com/windows/win32/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
 
 <b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/enumjobs">EnumJobs</a>
+<a href="https://docs.microsoft.com/windows/win32/printdocs/enumjobs">EnumJobs</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>
- 
-
- 
 

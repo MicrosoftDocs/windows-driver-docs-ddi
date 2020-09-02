@@ -8,8 +8,6 @@ ms.assetid: 24daa47b-993c-49ee-b4e2-462cd7570f3c
 ms.date: 05/02/2018
 keywords: ["RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration"]
 ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_RESPONSEAPDU, netvista.rilexchangeuiccapduresponseparammask, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
-f1_keywords:
- - "rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILEXCHANGEUICCAPDURESPONSEPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXCHANGEUICCAPDURESPONSEPARAMMASK
+f1_keywords:
+ - RILEXCHANGEUICCAPDURESPONSEPARAMMASK
+ - rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 ---
 
 # RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration
@@ -47,20 +46,13 @@ req.typenames: RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_EUAR_RESPONSEAPDULENGTH
 
-
 ### -field RIL_PARAM_EUAR_RESPONSEAPDU
-
 
 ### -field RIL_PARAM_EUAR_ALL
 

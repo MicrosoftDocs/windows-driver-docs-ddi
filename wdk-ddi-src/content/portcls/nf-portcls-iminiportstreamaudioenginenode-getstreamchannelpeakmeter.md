@@ -8,8 +8,6 @@ ms.assetid: 69860DFE-DDA6-4889-B796-CEAEE59A10CC
 ms.date: 05/08/2018
 keywords: ["IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter"]
 ms.keywords: GetStreamChannelPeakMeter, GetStreamChannelPeakMeter method [Audio Devices], GetStreamChannelPeakMeter method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelPeakMeter method, IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
-f1_keywords:
- - "portcls/IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
+ - portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
@@ -47,43 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Gets the value of the PeakMeter node in the path of the audio stream.
-
 
 ## -parameters
 
+### -param ulChannel 
 
-
-
-### -param ulChannel [in]
-
+[in]
 The channel of the audio stream.
 
+### -param plPeakMeter 
 
-### -param plPeakMeter [out]
-
+[out]
 The PeakMeter value.
 
-
 ## -returns
-
-
 
 <b>GetStreamChannelPeakMeter</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error 
 
 code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
- 
-
- 
 

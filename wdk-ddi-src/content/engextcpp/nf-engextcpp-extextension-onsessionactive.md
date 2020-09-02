@@ -8,8 +8,6 @@ ms.assetid: 356675af-cc2e-4295-bb44-dc0a9377f701
 ms.date: 05/03/2018
 keywords: ["ExtExtension::OnSessionActive"]
 ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension class [Windows Debugging],OnSessionActive method, ExtExtension.OnSessionActive, ExtExtension::OnSessionActive, OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging],ExtExtension class, debugger.onsessionactive
-f1_keywords:
- - "engextcpp/ExtExtension.OnSessionActive"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Engextcpp.hpp
-api_name:
-- ExtExtension.OnSessionActive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtExtension::OnSessionActive
+ - engextcpp/ExtExtension::OnSessionActive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Engextcpp.hpp
+api_name:
+ - ExtExtension.OnSessionActive
 ---
 
 # ExtExtension::OnSessionActive
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>OnSessionActive</b> method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes active.
-
 
 ## -parameters
 
+### -param Argument 
 
-
-
-### -param Argument [in]
-
+[in]
 Set to zero. (Reserved for future use).
-
 
 ## -returns
 
-
-
 This method does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The session might not be accessible.
 
@@ -82,13 +69,7 @@ This method is called at the beginning of a session and, if a session has alread
 
 If a target is suspended, <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552310(v=vs.85)">OnSessionAccessible</a> is called instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
@@ -107,7 +88,4 @@ If a target is suspended, <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552318(v=vs.85)">OnSessionInactive</a>
- 
-
- 
 

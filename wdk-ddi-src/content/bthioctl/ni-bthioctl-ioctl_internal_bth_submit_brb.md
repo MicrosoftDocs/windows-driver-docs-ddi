@@ -8,8 +8,6 @@ ms.assetid: 60e4ee90-81d4-47a1-aed4-ee39b9fe3174
 ms.date: 04/27/2018
 keywords: ["IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL"]
 ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
-f1_keywords:
- - "bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB"
 req.header: bthioctl.h
 req.include-header: BthIoctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BthIoctl.h
-api_name:
-- IOCTL_INTERNAL_BTH_SUBMIT_BRB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_BTH_SUBMIT_BRB
+ - bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BthIoctl.h
+api_name:
+ - IOCTL_INTERNAL_BTH_SUBMIT_BRB
 ---
 
 # IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL
@@ -47,18 +46,10 @@ req.typenames:
 
 ## -description
 
-
-
 Profile drivers use <b>IOCTL_INTERNAL_BTH_SUBMIT_BRB</b> to submit a Bluetooth Request Block (BRB) to the
      Bluetooth driver stack.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -351,13 +342,10 @@ BRB_GET_DEVICE_INTERFACE_STRING
 </td>
 </tr>
 </table>
- 
-
 
 ### -input-buffer-length
 
 The length of the structure.
-
 
 ### -output-buffer
 
@@ -366,29 +354,13 @@ If the BRB returns output,
       returned in the members of the associated BRB structure or in buffers that are specified in the BRB
       structure.
 
-
 ### -output-buffer-length
 
 The length of the structure
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -482,12 +454,8 @@ The BRB is pending.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Profile drivers use BRBs to handle most input, output, and connection tasks. A number of BRBs are
     defined for these tasks, and each one uses a specific, corresponding structure. All BRBs share a common
@@ -501,13 +469,7 @@ For more information about how profile drivers use BRBs to communicate with the 
 
 These BRBs must be called at IRQL <= PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
@@ -518,7 +480,4 @@ These BRBs must be called at IRQL <= PASSIVE_LEVEL.
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">Building and Sending a BRB</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.date: 04/30/2018
 keywords: ["PoFxActivateComponent function"]
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent, wdm/PoFxActivateComponent
-f1_keywords:
- - "wdm/PoFxActivateComponent"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- PoFxActivateComponent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxActivateComponent
+ - wdm/PoFxActivateComponent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - PoFxActivateComponent
 ---
 
 # PoFxActivateComponent function
@@ -47,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoFxActivateComponent</b> routine increments the activation reference count on the specified component.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
+### -param Component 
 
-### -param Component [in]
-
+[in]
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 The flags for the activation operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
@@ -100,12 +95,8 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Before a device driver can access a component in a device, the driver must first call <b>PoFxActivateComponent</b> to obtain an activation reference to the component. If the component is not already in the active condition, this call initiates a transition from the idle condition to the active condition. When this transition completes, PoFx calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_active_condition_callback">ComponentActiveConditionCallback</a> routine to notify the driver. The driver can access the hardware registers in a component only when the component is in the active condition.
 
@@ -127,13 +118,7 @@ When a <b>PoFxActivateComponent</b> call causes the activation reference count t
 
 PoFx notifies the driver when a transition between the active condition and idle condition occurs. A <i>ComponentActiveConditionCallback</i> callback notifies the driver of a transition to the active condition, and a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a> callback notifies the driver of a transition to the idle condition. When a <b>PoFxActivateComponent</b> or <b>PoFxIdleComponent</b> call simply increments or decrements the activation reference count without causing such a transition, the driver receives no notification.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_active_condition_callback">ComponentActiveConditionCallback</a>
 
@@ -152,7 +137,4 @@ PoFx notifies the driver when a transition between the active condition and idle
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
- 
-
- 
 

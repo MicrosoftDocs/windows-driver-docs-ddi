@@ -8,8 +8,6 @@ ms.assetid: 887aab56-2f3f-4aaa-96fa-c597bc540a92
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetAt"]
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetAt method, IPortableDeviceValues.GetAt, IPortableDeviceValues::GetAt, IPortableDeviceValuesGetAt, portabledevicetypes/IPortableDeviceValues::GetAt, wpddk.iportabledevicevalues_getat
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetAt"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetAt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetAt
+ - portabledevicetypes/IPortableDeviceValues::GetAt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetAt
 ---
 
 # IPortableDeviceValues::GetAt
@@ -48,36 +47,26 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves a value from the collection, by a zero-based index.
-
-
-
 
 ## -parameters
 
+### -param index 
 
-
-
-### -param index [in]
-
+[in]
 A <b>DWORD</b> that specifies a zero-based index in the collection.
 
+### -param pKey 
 
-### -param pKey [in, out]
-
+[in, out]
 An optional <b>PROPERTYKEY</b> pointer that retrieves the key of the specified item.
 
+### -param pValue 
 
-### -param pValue [in, out]
-
+[in, out]
 An optional <b>PROPVARIANT</b> that retrieves the value of the specified item. The caller must free the memory by calling <b>PropVariantClear</b> when done with it.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -109,31 +98,16 @@ An invalid index number was specified.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If a property indicates a value of type VT_UNKNOWN, the property will be one of the Windows Portable Devices interfaces (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a>). No other interfaces can be returned by Windows Portable Devices.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getstringvalue">IPortableDeviceValues::GetStringValue</a>
- 
-
- 
 

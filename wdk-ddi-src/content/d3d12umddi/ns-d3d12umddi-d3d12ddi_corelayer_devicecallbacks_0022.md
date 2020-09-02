@@ -7,8 +7,6 @@ ms.assetid: E5B7FDB6-3351-489E-B0BB-8B8DD605FCF4
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure"]
 ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022, D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure [Display Devices], d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0022, display.d3d12ddi_corelayer_devicecallbacks_0022
-f1_keywords:
- - "d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -26,23 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d12umddi.h
-api_name:
-- D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
+ms.custom: 19H1
+f1_keywords:
+ - D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
+ - d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d12umddi.h
+api_name:
+ - D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure
@@ -50,9 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This structure contains runtime callback functions that the user-mode display driver can use.
-
 
 ## -struct-fields
 
@@ -60,11 +57,9 @@ This structure contains runtime callback functions that the user-mode display dr
 
 A pointer to the PFND3D12DDI_SETERROR_CB function.
 
-
 ### -field pfnSetCommandListErrorCb
 
 A pointer to the PFND3D12DDI_SETCOMMANDLISTERROR_CB function.
-
 
 ### -field pfnSetCommandListDDITableCb
 
@@ -73,7 +68,6 @@ A pointer to the PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB function.
 ### -field pfnCreateContextCb
 
 A pointer to the PFND3D12DDI_CREATECONTEXT_CB function.
-
 
 ### -field pfnCreateContextVirtualCb
 
@@ -146,13 +140,13 @@ A function pointer for WDDM versions less than 2.0.
 A function pointer for WDDM versions less than 2.0.
 
 ### -field pfnReservedOfferAllocationsCb
+
  
 A function pointer for WDDM versions less than 2.0.
 
 ### -field pfnAllocateCb
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_allocate_cb_0022">pfnAllocateCb</a> function.
-
 
 ### -field pfnDeallocateCb
 

@@ -6,10 +6,8 @@ old-location: kernel\pep_processor_idle_state.htm
 tech.root: kernel
 ms.assetid: 10CAB3CA-83BF-421B-81F5-2B42790B8928
 ms.date: 04/30/2018
-keywords: ["_PEP_PROCESSOR_IDLE_STATE structure"]
+keywords: ["PEP_PROCESSOR_IDLE_STATE structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state, pep_x/PEP_PROCESSOR_IDLE_STATE, pep_x/PPEP_PROCESSOR_IDLE_STATE"
-f1_keywords:
- - "pep_x/PEP_PROCESSOR_IDLE_STATE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pep_x.h
-api_name:
-- PEP_PROCESSOR_IDLE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_STATE, *PPEP_PROCESSOR_IDLE_STATE
+f1_keywords:
+ - _PEP_PROCESSOR_IDLE_STATE
+ - pep_x/_PEP_PROCESSOR_IDLE_STATE
+ - PPEP_PROCESSOR_IDLE_STATE
+ - pep_x/PPEP_PROCESSOR_IDLE_STATE
+ - PEP_PROCESSOR_IDLE_STATE
+ - pep_x/PEP_PROCESSOR_IDLE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pep_x.h
+api_name:
+ - PEP_PROCESSOR_IDLE_STATE
 ---
 
 # _PEP_PROCESSOR_IDLE_STATE structure
@@ -47,39 +50,19 @@ req.typenames: PEP_PROCESSOR_IDLE_STATE, *PPEP_PROCESSOR_IDLE_STATE
 
 ## -description
 
-
 The <b>PEP_PROCESSOR_IDLE_STATE</b> structure describes the capabilities of a processor idle state.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Ulong
-
- 
-
 
 ### -field Interruptible
 
- 
-
-
 ### -field CacheCoherent
-
- 
-
 
 ### -field ThreadContextRetained
 
- 
-
-
 ### -field CStateType
-
- 
-
 
 ### -field Reserved
 
@@ -134,23 +117,11 @@ The C-state type of the processor idle state. Set this bitfield to zero if this 
 
 Reserved for future use.
 
-
 ## -remarks
-
-
 
 The <b>IdleStates</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE</b> structures.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a>
- 
-
- 
 

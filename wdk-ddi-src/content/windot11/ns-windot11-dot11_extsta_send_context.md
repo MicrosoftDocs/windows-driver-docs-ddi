@@ -8,38 +8,41 @@ ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
 ms.date: 02/16/2018
 keywords: ["DOT11_EXTSTA_SEND_CONTEXT structure"]
 ms.keywords: "*PDOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, PDOT11_EXTSTA_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_send_context, windot11/DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT"
-f1_keywords:
- - "windot11/DOT11_EXTSTA_SEND_CONTEXT"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_EXTSTA_SEND_CONTEXT
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT
+f1_keywords:
+ - DOT11_EXTSTA_SEND_CONTEXT
+ - windot11/DOT11_EXTSTA_SEND_CONTEXT
+ - PDOT11_EXTSTA_SEND_CONTEXT
+ - windot11/PDOT11_EXTSTA_SEND_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_EXTSTA_SEND_CONTEXT
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_EXTSTA_SEND_CONTEXT structure
@@ -47,33 +50,13 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTSTA_SEND_CONTEXT structure defines the Native 802.11 attributes of a packet to be sent
   by the miniport driver operating in Extensible Station (ExtSTA) mode. For more information about this
   operation mode, see
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
   Mode</a>.
 
-
-## -syntax
-
-
-```cpp
-typedef struct DOT11_EXTSTA_SEND_CONTEXT {
-  NDIS_OBJECT_HEADER Header;
-  USHORT             usExemptionActionType;
-  ULONG              uPhyId;
-  ULONG              uDelayedSleepValue;
-  PVOID              pvMediaSpecificInfo;
-  ULONG              uSendFlags;
-} DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -109,7 +92,6 @@ This member must be set to
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field usExemptionActionType
 
 The type of encryption exemption for the packet. The following exemption types are defined:
@@ -138,7 +120,6 @@ The packet is exempt from any cipher operations performed by the 802.11 station 
        station does not have a key-mapping key for the packet's destination media access control (MAC)
        address. For more information about key-mapping keys, see
        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>.
-
 
 ### -field uPhyId
 
@@ -175,7 +156,6 @@ The miniport driver must fail the send request if the PHY specified by
      <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
      NdisMSendNetBufferListsComplete</a> to complete the send request.
 
-
 ### -field uDelayedSleepValue
 
 The time, in microseconds, before a response to the packet is expected. The
@@ -205,7 +185,6 @@ The 802.11 station uses the value of
      <b>uDelayedSleepValue</b> is small. By doing so, the network latency will be reduced for receiving the
      response.
 
-
 ### -field pvMediaSpecificInfo
 
 A pointer to a buffer that contains media-specific information. This member should be <b>NULL</b> when
@@ -222,16 +201,25 @@ Otherwise,
      <b>pvMediaSpecificInfo</b> allows the miniport driver to access the media-specific information from an
      IHV-specific 802.3 protocol driver.
 
-
 ### -field uSendFlags
 
 A set of flags that define send attributes. Currently, there are no flags defined. This member
      should be zero.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_EXTSTA_SEND_CONTEXT {
+  NDIS_OBJECT_HEADER Header;
+  USHORT             usExemptionActionType;
+  ULONG              uPhyId;
+  ULONG              uDelayedSleepValue;
+  PVOID              pvMediaSpecificInfo;
+  ULONG              uSendFlags;
+} DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT;
+```
 
 ## -remarks
-
-
 
 The miniport driver performs a send operation when its
     <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
@@ -263,9 +251,6 @@ The _
 For more information about Native 802.11 send operations, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-send-operations">Native 802.11 Send
     Operations</a>.
-
-
-
 
 ## -see-also
 
@@ -299,11 +284,4 @@ For more information about Native 802.11 send operations, see
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
 

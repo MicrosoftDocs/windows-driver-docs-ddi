@@ -8,8 +8,6 @@ ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
 ms.date: 02/23/2018
 keywords: ["PosCxPutPendingEvent function"]
 ms.keywords: PosCxPutPendingEvent, PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent
-f1_keywords:
- - "poscx/PosCxPutPendingEvent"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxPutPendingEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxPutPendingEvent
+ - poscx/PosCxPutPendingEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxPutPendingEvent
 ---
 
 # PosCxPutPendingEvent function
@@ -48,53 +47,45 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 PosCxPutPendingEvent creates a new event object, copies the event data to the
       new event object, and tries to delegate it to the waiting caller. 
       If the target caller does not have a read request waiting, the new event is added to 
       the designated event queue (control or data).
 
-
 ## -parameters
 
+### -param device 
 
-
-
-### -param device [in]
-
+[in]
 A handle to a framework device object that represents the device.
 
+### -param deviceInterfaceTag 
 
-### -param deviceInterfaceTag [in]
-
+[in]
 The device interface associated with the event.  By default, only
           file objects that have the same tag will receive this event.
 
+### -param eventType 
 
-### -param eventType [in]
-
+[in]
 The new event type.
 
+### -param rawEventDataSize 
 
-### -param rawEventDataSize [in]
-
+[in]
 The raw event (without point-of-service header) buffer size in bytes.
-
 
 ### -param rawEventDataPtr
 
 The pointer to the raw (without point-of-service header) event data.
           The caller may reuse/release <i>rawEventDataPtr</i> after <b>PosCxPutPendingEvent</b> returns.
 
+### -param eventAttr 
 
-### -param eventAttr [in]
-
+[in]
 The event attributes.
 
-
 ## -returns
-
-
 
 Possible return values are:
 
@@ -114,18 +105,8 @@ Possible return values are:
 <td>Other appropriate failure error codes.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_attributes">POS_CX_EVENT_ATTRIBUTES</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 67dc0769-0d65-4048-84aa-1100883bde46
 ms.date: 05/02/2018
 keywords: ["NdisFCancelOidRequest function"]
 ms.keywords: NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, netvista.ndisfcanceloidrequest
-f1_keywords:
- - "ndis/NdisFCancelOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFCancelOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFCancelOidRequest
+ - ndis/NdisFCancelOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFCancelOidRequest
 ---
 
 # NdisFCancelOidRequest function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 Filter drivers call the 
   <b>NdisFCancelOidRequest</b> function to cancel a previous request to the underlying drivers.
 
-
 ## -parameters
 
+### -param NdisFilterHandle 
 
-
-
-### -param NdisFilterHandle [in]
-
+[in]
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
+### -param RequestId 
 
-### -param RequestId [in]
-
+[in]
 A cancellation identifier for the request. This identifier specifies the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
-
 ## -remarks
-
-
 
 Filter drivers call 
     <b>NdisFCancelOidRequest</b> to cancel a previously issued request. The request can be originated by the
@@ -87,13 +79,7 @@ The filter driver can call
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_oid_request">FilterCancelOidRequest</a> function
     to pass on the cancellation to underlying drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -108,7 +94,4 @@ The filter driver can call
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a>
- 
-
- 
 

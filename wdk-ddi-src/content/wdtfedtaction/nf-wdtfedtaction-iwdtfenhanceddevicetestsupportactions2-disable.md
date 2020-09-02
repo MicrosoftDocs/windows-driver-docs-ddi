@@ -8,8 +8,6 @@ ms.assetid: aaa9604a-1c82-48c5-ab5d-0251bf9f13cd
 ms.date: 04/04/2018
 keywords: ["IWDTFEnhancedDeviceTestSupportActions2::Disable"]
 ms.keywords: Disable, Disable method [Windows Device Testing Framework], Disable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],Disable method, IWDTFEnhancedDeviceTestSupportActions2.Disable, IWDTFEnhancedDeviceTestSupportActions2::Disable, dtf.iwdtfenhanceddevicetestsupportactions2_disable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Disable
-f1_keywords:
- - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2.Disable"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfedtaction.h
-api_name:
-- IWDTFEnhancedDeviceTestSupportActions2.Disable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFEnhancedDeviceTestSupportActions2::Disable
+ - wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Disable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfedtaction.h
+api_name:
+ - IWDTFEnhancedDeviceTestSupportActions2.Disable
 ---
 
 # IWDTFEnhancedDeviceTestSupportActions2::Disable
@@ -47,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Disables the Enhanced Device Test (EDT) filter driver on the target device.
-
 
 ## -parameters
 
+### -param pbRebootRequired 
 
-
-
-### -param pbRebootRequired [out, retval]
-
+[out, retval]
 True if the operation requires a restart to complete; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFEnhancedDeviceTestSupportActions2</a>
- 
-
- 
 

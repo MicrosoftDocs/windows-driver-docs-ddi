@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAcquireMonitorSourceModeSet"
+ - DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET
+ - d3dkmddi/DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback function
+
 
 ## -description
 

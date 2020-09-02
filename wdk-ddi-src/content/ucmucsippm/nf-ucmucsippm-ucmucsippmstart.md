@@ -6,40 +6,37 @@ description: Instructs the class extension to start sending requests to the clie
 ms.assetid: b0899727-573a-4cd6-b1b4-3ca6b682bffa
 ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmStart function"]
-f1_keywords:
- - "ucmucsippm/UcmUcsiPpmStart"
 ms.keywords: UcmUcsiPpmStart
 req.header: Ucmucsippm.h
 req.include-header: UcmUcsiCx.h
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
 req.umdf-ver: N/A
 req.lib: UcmUcsiCxStub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- UcmUcsiCxStub.lib
-api_name: 
-- UcmUcsiPpmStart
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - UcmUcsiPpmStart
+ - ucmucsippm/UcmUcsiPpmStart
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - UcmUcsiCxStub.lib
+api_name:
+ - UcmUcsiPpmStart
 ---
 
 # UcmUcsiPpmStart function
@@ -51,12 +48,13 @@ Instructs the UcmUcsiCx class extension to start sending requests to the client 
 
 ## -parameters
 
-### -param PpmObject [in]
-A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
+### -param PpmObject 
+
+[in]A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
 
 ## -returns
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
 
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 
@@ -71,3 +69,4 @@ Attempting to start the PPM after it has already started leads to an error condi
 After the client calls **UcmUcsiPpmStart**, the class extension sends a number of commands to the PPM firmware in order to get PPM and connector capabilities and their statuses. Due to a high number interactions with the firmware, we strongly recommend UcmUcsiCx client implementors call this DDI once during startup and not on resume from a low power state, such as D0Entry callback. This is especially true when the client implements S0 idling.
 
 ## -see-also
+

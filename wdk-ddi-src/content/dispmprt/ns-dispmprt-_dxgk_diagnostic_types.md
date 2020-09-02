@@ -4,38 +4,42 @@ title: _DXGK_DIAGNOSTIC_TYPES (dispmprt.h)
 description: A structure that contains a union of all the defined sets of diagnostic types.
 ms.assetid: 9373b413-20a5-4bee-a619-b71c0258124d
 ms.date: 10/19/2018
-keywords: ["_DXGK_DIAGNOSTIC_TYPES structure"]
-f1_keywords:
- - "dispmprt/_DXGK_DIAGNOSTIC_TYPES"
+keywords: ["DXGK_DIAGNOSTIC_TYPES structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_TYPES, DXGK_DIAGNOSTIC_TYPES,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_DIAGNOSTIC_TYPES
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- _DXGK_DIAGNOSTIC_TYPES
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_DIAGNOSTIC_TYPES
+ - dispmprt/_DXGK_DIAGNOSTIC_TYPES
+ - DXGK_DIAGNOSTIC_TYPES
+ - dispmprt/DXGK_DIAGNOSTIC_TYPES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_DIAGNOSTIC_TYPES
+product:
+ - Windows
 ---
 
 # _DXGK_DIAGNOSTIC_TYPES structure
+
 
 ## -description
 

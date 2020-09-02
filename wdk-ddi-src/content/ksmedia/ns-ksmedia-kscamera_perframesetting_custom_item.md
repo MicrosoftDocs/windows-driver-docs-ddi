@@ -8,8 +8,6 @@ ms.assetid: 7BB23F25-6E39-40B3-A158-5EE69370B1FD
 ms.date: 04/30/2019
 keywords: ["KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure"]
 ms.keywords: "*PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, ksmedia/PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, stream.kscamera_perframesetting_custom_item"
-f1_keywords:
- - "ksmedia/KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, *PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+f1_keywords:
+ - PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+ - ksmedia/PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+ - KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+ - ksmedia/KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 ---
 
 # KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure
@@ -47,24 +48,17 @@ req.typenames: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, *PKSCAMERA_PERFRAMESETTING_
 
 ## -description
 
-
 This structure contains a custom item.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size of this header and custom data that follows.
 
-
 ### -field Reserved
 
 Reserved for future use.
-
 
 ### -field Id
 

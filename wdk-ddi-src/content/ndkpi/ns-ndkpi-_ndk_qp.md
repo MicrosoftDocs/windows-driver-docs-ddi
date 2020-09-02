@@ -6,10 +6,8 @@ old-location: netvista\ndk_qp.htm
 tech.root: netvista
 ms.assetid: 43491796-35CA-4E0C-90EF-7148651C68A6
 ms.date: 05/02/2018
-keywords: ["_NDK_QP structure"]
+keywords: ["NDK_QP structure"]
 ms.keywords: NDK_QP, NDK_QP structure [Network Drivers Starting with Windows Vista], _NDK_QP, ndkpi/NDK_QP, netvista.ndk_qp
-f1_keywords:
- - "ndkpi/NDK_QP"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndkpi.h
-api_name:
-- NDK_QP
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_QP
+f1_keywords:
+ - _NDK_QP
+ - ndkpi/_NDK_QP
+ - NDK_QP
+ - ndkpi/NDK_QP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndkpi.h
+api_name:
+ - NDK_QP
 ---
 
 # _NDK_QP structure
@@ -47,38 +48,23 @@ req.typenames: NDK_QP
 
 ## -description
 
-
 The <b>NDK_QP</b> structure specifies the attributes of an NDK queue pair (QP) object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a> structure for the <b>NDK_QP</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeQp</b>.
 
-
 ### -field Dispatch
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp_dispatch">NDK_QP_DISPATCH</a> structure that defines dispatch functions for the NDK QP object.
 
-
 ## -remarks
-
-
 
 An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp_dispatch">NDK_QP_DISPATCH</a> table before returning the  created QP object. Also, the NDK provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can change the <b>Dispatch</b> member to some other value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -109,7 +95,4 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp_dispatch">NDK_QP_DISPATCH</a>
- 
-
- 
 

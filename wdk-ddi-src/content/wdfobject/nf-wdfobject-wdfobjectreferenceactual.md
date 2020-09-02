@@ -8,8 +8,6 @@ ms.assetid: d0bb58c1-1036-496a-b108-c0d5e5de3bc2
 ms.date: 02/26/2018
 keywords: ["WdfObjectReferenceActual function"]
 ms.keywords: DFGenObjectRef_f1251726-c87f-4faa-9a96-0b7e49da2f2c.xml, WdfObjectReferenceActual, WdfObjectReferenceActual method, kmdf.wdfobjectreferenceactual, wdf.wdfobjectreferenceactual, wdfobject/WdfObjectReferenceActual
-f1_keywords:
- - "wdfobject/WdfObjectReferenceActual"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfObjectReferenceActual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfObjectReferenceActual
+ - wdfobject/WdfObjectReferenceActual
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfObjectReferenceActual
 ---
 
 # WdfObjectReferenceActual function
@@ -50,36 +49,31 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfObjectReferenceActual</b> method increments the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference.
 
-
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 A handle to a framework object.
 
+### -param Tag 
 
-### -param Tag [in, optional]
-
+[in, optional]
 A driver-defined value that the framework stores as an identification tag for the object reference.
 
+### -param Line 
 
-### -param Line [in]
-
+[in]
 A numeric value that represents a line number in a driver source file.
 
+### -param File 
 
-### -param File [in]
-
+[in]
 A pointer to a null-terminated constant character string that represents the name of a driver source file. This parameter is optional and can be <b>NULL</b>.
-
 
 ## -remarks
 
@@ -111,15 +105,7 @@ WdfObjectReferenceActual(
                          );
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectreference">WdfObjectReference</a>
- 
-
- 
 

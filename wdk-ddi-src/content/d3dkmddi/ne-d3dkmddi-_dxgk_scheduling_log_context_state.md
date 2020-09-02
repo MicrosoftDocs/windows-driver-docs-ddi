@@ -4,38 +4,40 @@ title: _DXGK_SCHEDULING_LOG_CONTEXT_STATE (d3dkmddi.h)
 description: Describes that event to log when a context transitions between one of its execution states.
 ms.assetid: ec661384-328c-479c-9f9e-dd6b955ff3bb
 ms.date: 10/19/2018
-keywords: ["_DXGK_SCHEDULING_LOG_CONTEXT_STATE enumeration"]
-f1_keywords:
- - "d3dkmddi/_DXGK_SCHEDULING_LOG_CONTEXT_STATE"
+keywords: ["DXGK_SCHEDULING_LOG_CONTEXT_STATE enumeration"]
 ms.keywords: _DXGK_SCHEDULING_LOG_CONTEXT_STATE, DXGK_SCHEDULING_LOG_CONTEXT_STATE,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DXGK_SCHEDULING_LOG_CONTEXT_STATE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGK_SCHEDULING_LOG_CONTEXT_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGK_SCHEDULING_LOG_CONTEXT_STATE
+ - d3dkmddi/_DXGK_SCHEDULING_LOG_CONTEXT_STATE
+ - DXGK_SCHEDULING_LOG_CONTEXT_STATE
+ - d3dkmddi/DXGK_SCHEDULING_LOG_CONTEXT_STATE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_SCHEDULING_LOG_CONTEXT_STATE
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_SCHEDULING_LOG_CONTEXT_STATE enumeration
+
 
 ## -description
 
@@ -58,3 +60,4 @@ The context has pending GPU work, but is not executing on the GPU.
 ### -field DXGK_SCHEDULING_LOG_CONTEXT_STATE_READY_STANDBY
 
 The context is ready, and the GPU has been informed this context is next to be executed, but the context has not started running yet. This state is not strictly required to be supported by the GPU context management processor, but it is useful for reducing context switch latency.
+

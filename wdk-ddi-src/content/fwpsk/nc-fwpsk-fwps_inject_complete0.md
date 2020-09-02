@@ -8,8 +8,6 @@ ms.assetid: c03656ec-f0fe-49f5-8a04-2d26ef23c50a
 ms.date: 05/02/2018
 keywords: ["FWPS_INJECT_COMPLETE0 callback function"]
 ms.keywords: FWPS_INJECT_COMPLETE0, FWPS_INJECT_COMPLETE0 callback, completionFn, completionFn callback function [Network Drivers Starting with Windows Vista], fwpsk/completionFn, netvista.completionfn, wfp_ref_2_funct_4_callout_bc142e7e-f390-4b8c-b82b-c13077e1d6bf.xml
-f1_keywords:
- - "fwpsk/completionFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Fwpsk.h
-api_name:
-- completionFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_INJECT_COMPLETE0
+ - fwpsk/FWPS_INJECT_COMPLETE0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Fwpsk.h
+api_name:
+ - completionFn
 ---
 
 # FWPS_INJECT_COMPLETE0 callback function
@@ -47,47 +46,40 @@ req.typenames:
 
 ## -description
 
-
 The filter engine calls a callout's 
   <i>completionFn</i> callout function whenever packet data, described by the 
   <i>netBufferList</i> parameter in one of the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, has been
   injected into the network stack.
 
-
 ## -parameters
 
+### -param context 
 
-
-
-### -param context [in]
-
+[in]
 A pointer to the 
      <i>completionContext</i> parameter of one of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
+### -param netBufferList 
 
-### -param netBufferList [in, out]
-
+[in, out]
 The pointer passed in the 
      <i>netBufferList</i> parameter of one of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
+### -param dispatchLevel 
 
-### -param dispatchLevel [in]
-
+[in]
 A value that indicates the IRQL at which the 
      <i>completionFn</i> callout function is being called. If this parameter is <b>TRUE</b>, the 
      <i>completionFn</i> callout function is being called at IRQL = DISPATCH_LEVEL. If this parameter is
      <b>FALSE</b>, the 
      <i>completionFn</i> callout function is being called at an IRQL < DISPATCH_LEVEL.
 
-
 ## -remarks
-
-
 
 The FWPS_INJECT_COMPLETE0 type is defined as a pointer to the 
     <i>completionFn</i> function as follows:
@@ -125,13 +117,7 @@ If the
 The filter engine calls a callout's 
     <i>completionFn</i> callout function at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
@@ -166,7 +152,4 @@ The filter engine calls a callout's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
- 
-
- 
 

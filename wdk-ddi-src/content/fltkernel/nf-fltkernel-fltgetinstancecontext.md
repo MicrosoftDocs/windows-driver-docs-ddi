@@ -8,8 +8,6 @@ ms.assetid: 74bbffcd-27a9-4a9e-b625-64f9860f2c66
 ms.date: 04/16/2018
 keywords: ["FltGetInstanceContext function"]
 ms.keywords: FltApiRef_e_to_o_8d05bb2a-ad52-454b-89d6-b15413c34e7f.xml, FltGetInstanceContext, FltGetInstanceContext routine [Installable File System Drivers], fltkernel/FltGetInstanceContext, ifsk.fltgetinstancecontext
-f1_keywords:
- - "fltkernel/FltGetInstanceContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetInstanceContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetInstanceContext
+ - fltkernel/FltGetInstanceContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetInstanceContext
 ---
 
 # FltGetInstanceContext function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetInstanceContext</b> routine retrieves a context that was set for an instance by a given minifilter driver. 
-
+The <b>FltGetInstanceContext</b> routine retrieves a context that was set for an instance by a given minifilter driver.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the instance.
 
+### -param Context 
 
-### -param Instance [in]
-
-Opaque instance pointer for the instance. 
-
-
-### -param Context [out]
-
-Pointer to a caller-allocated variable that receives the address of the instance context. 
-
+[out]
+Pointer to a caller-allocated variable that receives the address of the instance context.
 
 ## -returns
-
-
 
 <b>FltGetInstanceContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
 
@@ -89,14 +81,8 @@ No matching context was found. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltGetInstanceContext</b> retrieves a context that was set for an instance by a given minifilter driver. 
 
@@ -106,15 +92,9 @@ To set a context for an instance, call <a href="https://docs.microsoft.com/windo
 
 To allocate a new context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. 
 
-To delete an instance context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeleteinstancecontext">FltDeleteInstanceContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
-
-
-
+To delete an instance context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeleteinstancecontext">FltDeleteInstanceContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -133,7 +113,4 @@ To delete an instance context, call <a href="https://docs.microsoft.com/windows-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 22945e04-9feb-4f4b-9ca6-916dab372a64
 ms.date: 05/02/2018
 keywords: ["NdisMFreeNetBufferSGList function"]
 ms.keywords: NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, netvista.ndismfreenetbuffersglist
-f1_keywords:
- - "ndis/NdisMFreeNetBufferSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMFreeNetBufferSGList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMFreeNetBufferSGList
+ - ndis/NdisMFreeNetBufferSGList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMFreeNetBufferSGList
 ---
 
 # NdisMFreeNetBufferSGList function
@@ -61,35 +60,29 @@ Bus-master miniport drivers call the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatenetbuffersglist">
   NdisMAllocateNetBufferSGList</a> function.
 
-
 ## -parameters
 
+### -param NdisMiniportDmaHandle 
 
-
-
-### -param NdisMiniportDmaHandle [in]
-
+[in]
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
      NdisMRegisterScatterGatherDma</a> function.
 
+### -param pSGL 
 
-### -param pSGL [in]
-
+[in]
 A pointer to a miniport driver scatter/gather list buffer.
 
+### -param NetBuffer 
 
-### -param NetBuffer [in]
-
+[in]
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure associated with the
      specified scatter/gather list buffer.
 
-
 ## -remarks
-
-
 
 Bus-master miniport drivers must call the 
     <b>NdisMFreeNetBufferSGList</b> function to free a scatter/gather list. A miniport driver typically calls 
@@ -109,11 +102,7 @@ Miniport drivers can free the buffer that was specified in the
 
 Before accessing received data, miniport drivers must call <b>NdisMFreeNetBufferSGList</b> to flush the memory cache.
 
-
-
-
 ## -see-also
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
@@ -133,3 +122,4 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>
+

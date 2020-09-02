@@ -8,8 +8,6 @@ ms.assetid: e5886fa3-dc37-4764-9304-3609a4ced0ad
 ms.date: 03/29/2018
 keywords: ["StorPortFreePool function"]
 ms.keywords: StorPortFreePool, StorPortFreePool routine [Storage Devices], storage.storportfreepool, storport/StorPortFreePool, storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml
-f1_keywords:
- - "storport/StorPortFreePool"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortFreePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortFreePool
+ - storport/StorPortFreePool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortFreePool
 ---
 
 # StorPortFreePool function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortFreePool</b> routine frees a block of memory that was previously allocated by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param BufferPointer 
 
-### -param BufferPointer [in]
-
+[in]
 A pointer to the block of memory to free. This must be a pointer that was returned by a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
 
-
 ## -returns
-
-
 
 StorPortFreePool returns one of the following status codes:
 
@@ -122,18 +114,8 @@ The call was made at an invalid IRQL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a>
- 
-
- 
 

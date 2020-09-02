@@ -8,45 +8,43 @@ ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.date: 01/19/2018
 keywords: ["ExtRemoteData::SetStdBool method"]
 ms.keywords: ExtRemoteData::SetChar, SetLong64, ExtRemoteData::SetPtr, ExtRemoteData::SetStdBool, ExtRemoteData::SetData, SetLongPtr, SetBoolean, SetLong, ExtRemoteData::SetFloat, SetDouble, ExtRemoteData, ExtRemoteData::SetLong64, SetShort, SetChar, ExtRemoteData::SetLong, ExtRemoteData::SetBoolean, ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, ExtRemoteData::SetShort, ExtRemoteData::SetLongPtr, SetPtr, SetFloat, debugger.extremotedata, ExtRemoteData class [Windows Debugging], engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, SetStdBool, ExtRemoteData::Clear, SetData
-f1_keywords:
- - "engextcpp/ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: engextcpp.hpp
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteData
-product:
-- Windows
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DXVA_VideoSample32
+f1_keywords:
+ - ExtRemoteData::SetStdBool
+ - engextcpp/ExtRemoteData::SetStdBool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteData
 ---
 
 # ExtRemoteData::SetStdBool method
 
 
 ## -description
-
 
 The <b>ExtRemoteData</b> class provides a wrapper around a small section of a target's memory.  <b>ExtRemoteData</b> automatically retrieves the memory and provides a number of convenience methods.
 
@@ -261,7 +259,6 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
 ## -parameters
 
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set(Typed)</a>
@@ -273,9 +270,4 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set">ExtRemoteData::Set(Offset Bytes)</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-read">ExtRemoteData::Read</a>
-
- 
-
- 
-
 

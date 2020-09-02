@@ -8,8 +8,6 @@ ms.assetid: e663a9aa-ed83-4d85-b110-390f0c03a724
 ms.date: 03/29/2018
 keywords: ["IoSetPartitionInformationEx function"]
 ms.keywords: IoSetPartitionInformationEx, IoSetPartitionInformationEx routine [Storage Devices], ntddk/IoSetPartitionInformationEx, rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, storage.iosetpartitioninformationex
-f1_keywords:
- - "ntddk/IoSetPartitionInformationEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetPartitionInformationEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetPartitionInformationEx
+ - ntddk/IoSetPartitionInformationEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetPartitionInformationEx
 ---
 
 # IoSetPartitionInformationEx function
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 For the disk represented by <i>DeviceObject</i>, the <b>IoSetPartitionInformationEx</b> routine initializes a partition table entry with the information specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_set_partition_information_ex">SET_PARTITION_INFORMATION_EX</a> structure.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the device object representing the device on which the partition type is to be set.
 
+### -param PartitionNumber 
 
-### -param PartitionNumber [in]
-
+[in]
 Specifies the partition number on the device whose partition type is to be set.
 
+### -param PartitionInfo 
 
-### -param PartitionInfo [in]
-
+[in]
 A structure whose <i>PartitionType</i> member specifies the type for the partition. For the currently defined <i>PartitionType</i> values <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_partition_information">PARTITION_INFORMATION</a>.
-
 
 ## -returns
 
-
-
 If <b>IoSetPartitionInformationEx</b> returns STATUS_SUCCESS, the disk driver updates its notion of the partition type for this partition in its device extension.
 
-
-
-
 ## -remarks
-
-
 
 <b>IoSetPartitionInformationEx</b> must only be used by disk drivers. Other drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a> disk I/O request instead.
 
@@ -98,13 +85,7 @@ This routine operates under the assumption that the partition number passed in b
 
 This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel event object to synchronize I/O completion on the device. The event cannot be set to the Signaled state without queuing and executing the I/O system's special kernel APC routine for I/O completion.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable">IoReadPartitionTable</a>
 
@@ -123,7 +104,4 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_set_partition_information_ex">SET_PARTITION_INFORMATION_EX</a>
- 
-
- 
 

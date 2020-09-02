@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2trianglefan.htm
 tech.root: display
 ms.assetid: 563fe6c9-868e-4b84-b14b-baee8ab00a2d
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2TRIANGLEFAN structure"]
+keywords: ["D3DHAL_DP2TRIANGLEFAN structure"]
 ms.keywords: "*LPD3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN structure [Display Devices], LPD3DHAL_DP2TRIANGLEFAN, LPD3DHAL_DP2TRIANGLEFAN structure pointer [Display Devices], _D3DHAL_DP2TRIANGLEFAN, d3dhal/D3DHAL_DP2TRIANGLEFAN, d3dhal/LPD3DHAL_DP2TRIANGLEFAN, d3dstrct_6726a70e-3ff1-4a9f-ac1e-46acf9be04e9.xml, display.d3dhal_dp2trianglefan"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2TRIANGLEFAN"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2TRIANGLEFAN
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2TRIANGLEFAN, *LPD3DHAL_DP2TRIANGLEFAN
+f1_keywords:
+ - _D3DHAL_DP2TRIANGLEFAN
+ - d3dhal/_D3DHAL_DP2TRIANGLEFAN
+ - LPD3DHAL_DP2TRIANGLEFAN
+ - d3dhal/LPD3DHAL_DP2TRIANGLEFAN
+ - D3DHAL_DP2TRIANGLEFAN
+ - d3dhal/D3DHAL_DP2TRIANGLEFAN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2TRIANGLEFAN
 ---
 
 # _D3DHAL_DP2TRIANGLEFAN structure
@@ -47,23 +50,15 @@ req.typenames: D3DHAL_DP2TRIANGLEFAN, *LPD3DHAL_DP2TRIANGLEFAN
 
 ## -description
 
-
 One D3DHAL_DP2TRIANGLEFAN structure is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLEFAN, and is used to render a triangle fan.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wVStart
 
 Specifies the index into the vertex buffer containing coordinate data for the initial vertex of the triangle fan.
 
-
 ## -remarks
-
-
 
 One D3DHAL_DP2TRIANGLEFAN structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
 
@@ -74,12 +69,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <img alt="Figure showing a command buffer with a D3DDP2OP_TRIANGLEFAN command and a D3DHAL_DP2TRIANGLEFAN structure" src="images/dp2tfan.png"/>
 
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_TRIANGLEFAN
 
@@ -90,7 +80,4 @@ D3DDP2OP_TRIANGLEFAN
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

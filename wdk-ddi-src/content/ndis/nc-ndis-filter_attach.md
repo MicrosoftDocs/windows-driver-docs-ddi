@@ -8,8 +8,6 @@ ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
 ms.date: 05/02/2018
 keywords: ["FILTER_ATTACH callback function"]
 ms.keywords: FILTER_ATTACH, FILTER_ATTACH callback, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
-f1_keywords:
- - "ndis/FilterAttach"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndis.h
-api_name:
-- FilterAttach
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_ATTACH
+ - ndis/FILTER_ATTACH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndis.h
+api_name:
+ - FilterAttach
 ---
 
 # FILTER_ATTACH callback function
 
 
 ## -description
-
 
 NDIS calls a filter driver's 
   <i>FilterAttach</i> function to allocate and initialize a filter module's data structures.
@@ -55,34 +53,29 @@ NDIS calls a filter driver's
 
 ## -parameters
 
+### -param NdisFilterHandle 
 
-
-
-### -param NdisFilterHandle [in]
-
+[in]
 An NDIS handle that identifies a filter module. The filter driver must save this handle. The
      handle is required in subsequent calls to 
      <b>NdisF<i>Xxx</i></b> functions.
 
+### -param FilterDriverContext 
 
-### -param FilterDriverContext [in]
-
+[in]
 The handle that the driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
      NdisFRegisterFilterDriver</a> function that identifies the driver context area.
 
+### -param AttachParameters 
 
-### -param AttachParameters [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">
      NDIS_FILTER_ATTACH_PARAMETERS</a> structure that defines the initialization parameters for the filter
      module.
 
-
 ## -returns
-
-
 
 <i>FilterAttach</i> returns one of the following status values:
 
@@ -129,14 +122,8 @@ A pointer to an
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>FilterAttach</i> is a required function. NDIS calls a filter driver's 
     <i>FilterAttach</i> function when the specified filter module is in the 
@@ -241,15 +228,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_ATTACH</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_ATTACH</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_detach">FilterDetach</a>
 
@@ -272,7 +253,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteeventlogentry">NdisWriteEventLogEntry</a>
- 
-
- 
 

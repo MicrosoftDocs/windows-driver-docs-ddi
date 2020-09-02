@@ -8,8 +8,6 @@ ms.assetid: bcf2ac97-0aa2-4464-a045-b98866351243
 ms.date: 04/16/2018
 keywords: ["FltFreeFileLock function"]
 ms.keywords: FltApiRef_e_to_o_823e2511-8afe-4151-bbac-a9481c079068.xml, FltFreeFileLock, FltFreeFileLock routine [Installable File System Drivers], fltkernel/FltFreeFileLock, ifsk.fltfreefilelock
-f1_keywords:
- - "fltkernel/FltFreeFileLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltFreeFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltFreeFileLock
+ - fltkernel/FltFreeFileLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltFreeFileLock
 ---
 
 # FltFreeFileLock function
@@ -48,32 +47,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltFreeFileLock</b> routine uninitializes and frees an initialized FILE_LOCK structure. 
-
+The <b>FltFreeFileLock</b> routine uninitializes and frees an initialized FILE_LOCK structure.
 
 ## -parameters
 
+### -param FileLock 
 
-
-
-### -param FileLock [in]
-
+[in]
 Pointer to the FILE_LOCK structure. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 The FILE_LOCK structure is opaque: that is, its members are reserved for system use. 
 
@@ -81,13 +68,7 @@ To allocate and initialize a new file lock structure, call <a href="https://docs
 
 It is a programming error to call <b>FltFreeFileLock</b> for a FILE_LOCK structure that has already been uninitialized by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializefilelock">FltUninitializeFileLock</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>
 
@@ -114,7 +95,4 @@ It is a programming error to call <b>FltFreeFileLock</b> for a FILE_LOCK structu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfreefilelock">FsRtlFreeFileLock</a>
- 
-
- 
 

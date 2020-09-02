@@ -8,8 +8,6 @@ ms.assetid: e7be1bb8-eb8a-4ebd-b824-bbaa41b21ca5
 ms.date: 04/23/2018
 keywords: ["KsAddDevice function"]
 ms.keywords: KsAddDevice, KsAddDevice function [Streaming Media Devices], avfunc_8d3f4443-fa48-4484-a2b3-2f3b70cc2ce5.xml, ks/KsAddDevice, stream.ksadddevice
-f1_keywords:
- - "ks/KsAddDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsAddDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsAddDevice
+ - ks/KsAddDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsAddDevice
 ---
 
 # KsAddDevice function
@@ -48,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
-The<b> KsAddDevice </b>function is the default <i>AddDevice</i> handler installed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a>. 
-
+The<b> KsAddDevice </b>function is the default <i>AddDevice</i> handler installed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a>.
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 A pointer to the WDM driver object for the minidriver.
 
+### -param PhysicalDeviceObject 
 
-### -param PhysicalDeviceObject [in]
-
+[in]
 A pointer to the WDM physical device object.
-
 
 ## -returns
 
-
-
 Returns STATUS_SUCCESS indicating the device was successfully created or an error status from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedevice">KsInitializeDevice</a>.
 
-
-
-
 ## -remarks
-
-
 
 Normally, an AVStream minidriver does not call this function directly.
 
@@ -86,13 +73,7 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 <b>KsAddDevice</b> extracts the device descriptor stored in the device extension allocated from a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a> and creates the device described by it. If <b>KsInitializeDriver</b> is not used to initialize the driver, this function creates a device with the default characteristics and no filter factories. The minidriver always has the option of calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a> directly, in which case the driver extension is not used by AVStream. Because <b>KsAddDevice</b> calls <b>KsCreateDevice</b>, drivers that call <b>KsAddDevice</b> should not call <b>KsCreateDevice</b> separately.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -119,7 +100,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a>
- 
-
- 
 

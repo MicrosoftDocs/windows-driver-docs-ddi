@@ -6,10 +6,8 @@ old-location: buses\usb_bus_interface_usbdi_v2.htm
 tech.root: usbref
 ms.assetid: c7d9f8b1-a18f-4644-aaee-c019692e62a6
 ms.date: 05/07/2018
-keywords: ["_USB_BUS_INTERFACE_USBDI_V2 structure"]
+keywords: ["USB_BUS_INTERFACE_USBDI_V2 structure"]
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2 structure [Buses], _USB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2, usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, usbbusif/USB_BUS_INTERFACE_USBDI_V2, usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml"
-f1_keywords:
- - "usbbusif/USB_BUS_INTERFACE_USBDI_V2"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbbusif.h
-api_name:
-- USB_BUS_INTERFACE_USBDI_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2
+f1_keywords:
+ - _USB_BUS_INTERFACE_USBDI_V2
+ - usbbusif/_USB_BUS_INTERFACE_USBDI_V2
+ - PUSB_BUS_INTERFACE_USBDI_V2
+ - usbbusif/PUSB_BUS_INTERFACE_USBDI_V2
+ - USB_BUS_INTERFACE_USBDI_V2
+ - usbbusif/USB_BUS_INTERFACE_USBDI_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbbusif.h
+api_name:
+ - USB_BUS_INTERFACE_USBDI_V2
 ---
 
 # _USB_BUS_INTERFACE_USBDI_V2 structure
@@ -47,19 +50,13 @@ req.typenames: USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2
 
 ## -description
 
-
-The <b>USB_BUS_INTERFACE_USBDI_V2</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs. 
-
+The <b>USB_BUS_INTERFACE_USBDI_V2</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-Specifies the size in bytes of the buffer that holds the interface pointers. 
-
+Specifies the size in bytes of the buffer that holds the interface pointers.
 
 ### -field Version
 
@@ -111,76 +108,54 @@ Version 3 of the interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BusContext
 
-Contains information that describes the USB bus and the USB bus driver that exposes this interface. This is an opaque entity that the caller must pass to the interface routines. 
-
+Contains information that describes the USB bus and the USB bus driver that exposes this interface. This is an opaque entity that the caller must pass to the interface routines.
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>. 
-
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>.
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a>. 
-
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a>.
 
 ### -field GetUSBDIVersion
 
-Pointer to a routine that returns the USB interface version number, the version number of USB specification that defines the interface, along with host controller capabilities information. This routine returns the highest USBDI interface version supported by the port driver. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_getusbdi_version">GetUSBDIVersion</a>. 
-
+Pointer to a routine that returns the USB interface version number, the version number of USB specification that defines the interface, along with host controller capabilities information. This routine returns the highest USBDI interface version supported by the port driver. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_getusbdi_version">GetUSBDIVersion</a>.
 
 ### -field QueryBusTime
 
 Pointer to a routine that returns the current 32-bit USB frame number. This routine replaces the <b>USBD_QueryBusTime</b> function provided by usbd.sys. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_time">QueryBusTime</a>.
 
-
 ### -field SubmitIsoOutUrb
 
 Reserved. Do not use.
 
-
 ### -field QueryBusInformation
 
-Pointer to a routine that retrieves information about the bus. The information that is returned depends on the value of the <b>Level </b>member. If <b>Level</b> is 0, this routine returns bus bandwidth information. If <b>Level</b> is 1, it returns bus bandwidth information and the host controller's symbolic name. This routine replaces the <b>USBD_QueryBusInformation</b> function provided by usbd.sys. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a>. 
-
+Pointer to a routine that retrieves information about the bus. The information that is returned depends on the value of the <b>Level </b>member. If <b>Level</b> is 0, this routine returns bus bandwidth information. If <b>Level</b> is 1, it returns bus bandwidth information and the host controller's symbolic name. This routine replaces the <b>USBD_QueryBusInformation</b> function provided by usbd.sys. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a>.
 
 ### -field IsDeviceHighSpeed
 
-Pointer to a routine that determines if the USB device is operating at high speed. This routine returns <b>TRUE</b> if the USB device is operating at high speed USB 2.0 compliant device. Returns <b>FALSE</b> otherwise. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_is_device_high_speed">IsDeviceHighSpeed</a>. 
-
+Pointer to a routine that determines if the USB device is operating at high speed. This routine returns <b>TRUE</b> if the USB device is operating at high speed USB 2.0 compliant device. Returns <b>FALSE</b> otherwise. For more information about this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_is_device_high_speed">IsDeviceHighSpeed</a>.
 
 ### -field EnumLogEntry
 
 Reserved. Do not use.
 
-
 ## -remarks
-
-
 
 The <b>IsDeviceHighSpeed</b> routine does not indicate whether a device is capable of high-speed operation, but whether it is in fact operating at high speed. 
 
-The routines in this structure must be callable at IRQL >= DISPATCH_LEVEL. 
-
-
-
+The routines in this structure must be callable at IRQL >= DISPATCH_LEVEL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">Bus Driver Interface Routines for USB Client Drivers</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
- 
-
- 
 

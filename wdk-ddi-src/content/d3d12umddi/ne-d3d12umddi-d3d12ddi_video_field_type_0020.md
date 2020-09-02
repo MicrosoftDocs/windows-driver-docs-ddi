@@ -7,8 +7,6 @@ ms.assetid: 869BF62F-C8FE-4AD8-A413-65FBE97EE7FB
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIDEO_FIELD_TYPE_0020 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_FIELD_TYPE_0020, D3D12DDI_VIDEO_FIELD_TYPE_0020 enumeration [Display Devices], D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST, D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST, D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE, display.d3d12ddi_video_field_type
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d12umddi.h
-api_name:
-- D3D12DDI_VIDEO_FIELD_TYPE_0020
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_FIELD_TYPE_0020
+f1_keywords:
+ - D3D12DDI_VIDEO_FIELD_TYPE_0020
+ - d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_FIELD_TYPE_0020
 ---
 
 # D3D12DDI_VIDEO_FIELD_TYPE_0020 enumeration
@@ -47,24 +46,17 @@ req.typenames: D3D12DDI_VIDEO_FIELD_TYPE_0020
 
 ## -description
 
-
 Contains values that define how a video frame is interlaced.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE
 
 Frame is progressive.
 
-
 ### -field D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST
 
-Frame is interlaced. The top field of each frame is displayed first. 
-
+Frame is interlaced. The top field of each frame is displayed first.
 
 ### -field D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST
 

@@ -8,8 +8,6 @@ ms.assetid: 713cd675-56a8-42d8-ac75-4af227c55dec
 ms.date: 05/10/2018
 keywords: ["IDARG_OUT_MONITORCREATE structure"]
 ms.keywords: IDARG_OUT_MONITORCREATE, IDARG_OUT_MONITORCREATE structure [Display Devices], display.idarg_out_monitorcreate, iddcx/IDARG_OUT_MONITORCREATE
-f1_keywords:
- - "iddcx/IDARG_OUT_MONITORCREATE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_OUT_MONITORCREATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_OUT_MONITORCREATE
+ - iddcx/IDARG_OUT_MONITORCREATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_OUT_MONITORCREATE
 ---
 
 # IDARG_OUT_MONITORCREATE structure
@@ -47,18 +46,11 @@ req.typenames:
 
 ## -description
 
-
 Gives information about the newly created monitor object.
-
 
 ## -struct-fields
 
-
-
-
 ### -field MonitorObject
 
-
                      [out] Handle the driver can use to identify this monitor when calling OS functions.
-                 
 

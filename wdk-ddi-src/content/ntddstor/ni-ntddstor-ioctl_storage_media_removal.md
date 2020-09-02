@@ -8,8 +8,6 @@ ms.assetid: ea8d7924-7ecc-47df-9616-8e2ed60c3de8
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_MEDIA_REMOVAL IOCTL"]
 ms.keywords: IOCTL_STORAGE_MEDIA_REMOVAL, IOCTL_STORAGE_MEDIA_REMOVAL control, IOCTL_STORAGE_MEDIA_REMOVAL control code [Storage Devices], k307_3579b0fa-49fa-4051-8726-15662992f0d2.xml, ntddstor/IOCTL_STORAGE_MEDIA_REMOVAL, storage.ioctl_storage_media_removal
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_MEDIA_REMOVAL"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -27,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_MEDIA_REMOVAL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_MEDIA_REMOVAL
+ - ntddstor/IOCTL_STORAGE_MEDIA_REMOVAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_MEDIA_REMOVAL
 ---
 
 # IOCTL_STORAGE_MEDIA_REMOVAL IOCTL
 
 
 ## -description
-
-
 
 Locks the device to prevent removal of the media. If the driver can prevent the media from being removed while the drive is in use, it disables or enables the mechanism that ejects media on a device - the caller has opened for read or write access.
 
@@ -74,63 +71,33 @@ Prevent removal of the media unless all lock counts are zero.
 </li>
 </ol>
 
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a Boolean value, with <b>TRUE</b> indicating that the driver should lock the media in the drive.
 
-
 ### -input-buffer-length
 
 The length of a Boolean.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The <b>Information</b> field is set to zero. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INVALID_DEVICE_REQUEST, STATUS_NO_MEDIA_IN_DEVICE, or STATUS_DEVICE_NOT_CONNECTED.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_ejection_control">IOCTL_STORAGE_EJECTION_CONTROL</a>
- 
-
- 
 

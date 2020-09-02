@@ -8,8 +8,6 @@ ms.assetid: a5da1ed0-c4e6-4ab8-b581-64bc7d0519f2
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces3 interface"]
 ms.keywords: IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces3, debugger.idebugdataspaces3
-f1_keywords:
- - "dbgeng/IDebugDataSpaces3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,28 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugDataSpaces3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces3
+ - dbgeng/IDebugDataSpaces3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugDataSpaces3
 ---
 
 # IDebugDataSpaces3 interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -59,9 +55,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugDataSpaces3</b> interfa
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces">IDebugDataSpaces</a>
 
 
@@ -71,7 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugDataSpaces3</b> interfa
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
- 
-
- 
 

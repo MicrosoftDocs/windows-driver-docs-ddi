@@ -8,8 +8,6 @@ ms.assetid: 9878f614-89dc-4b23-8095-2a8c2b80c79d
 ms.date: 04/16/2018
 keywords: ["FltInitializeOplock function"]
 ms.keywords: FltApiRef_e_to_o_5d9b6a6a-6721-41b4-961c-49904596c916.xml, FltInitializeOplock, FltInitializeOplock routine [Installable File System Drivers], fltkernel/FltInitializeOplock, ifsk.fltinitializeoplock
-f1_keywords:
- - "fltkernel/FltInitializeOplock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltInitializeOplock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltInitializeOplock
+ - fltkernel/FltInitializeOplock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltInitializeOplock
 ---
 
 # FltInitializeOplock function
@@ -47,46 +46,28 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltInitializeOplock</b> routine initializes an opportunistic lock (oplock) pointer. 
-
+The <b>FltInitializeOplock</b> routine initializes an opportunistic lock (oplock) pointer.
 
 ## -parameters
 
+### -param Oplock 
 
-
-
-### -param Oplock [out]
-
-Caller-supplied pointer variable that receives the initialized opaque oplock pointer. This variable must be initialized to <b>NULL</b> before the initial call to <b>FltInitializeOplock</b>. 
-
+[out]
+Caller-supplied pointer variable that receives the initialized opaque oplock pointer. This variable must be initialized to <b>NULL</b> before the initial call to <b>FltInitializeOplock</b>.
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
-
-
 
 When the oplock pointer is no longer needed, it can be uninitialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializeoplock">FltUninitializeOplock</a>. The uninitialized oplock pointer can then be initialized for reuse by calling <b>FltInitializeOplock</b>. 
 
 To request an oplock or respond to an oplock break notification, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockfsctrl">FltOplockFsctrl</a>. 
 
-For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
-
-
-
+For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcheckoplock">FltCheckOplock</a>
 
@@ -109,7 +90,4 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>
- 
-
- 
 

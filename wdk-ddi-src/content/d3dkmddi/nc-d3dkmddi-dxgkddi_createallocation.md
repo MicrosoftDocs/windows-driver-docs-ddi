@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCreateAllocation"
+ - DXGKDDI_CREATEALLOCATION
+ - d3dkmddi/DXGKDDI_CREATEALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CREATEALLOCATION callback function
+
 
 ## -description
 

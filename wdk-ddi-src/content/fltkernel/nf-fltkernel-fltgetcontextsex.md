@@ -8,8 +8,6 @@ ms.assetid: 99903B10-5FA8-430F-9E1F-90A45E07B7D0
 ms.date: 04/16/2018
 keywords: ["FltGetContextsEx function"]
 ms.keywords: FltGetContextsEx, FltGetContextsEx routine [Installable File System Drivers], fltkernel/FltGetContextsEx, ifsk.fltgetcontextsex
-f1_keywords:
- - "fltkernel/FltGetContextsEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetContextsEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetContextsEx
+ - fltkernel/FltGetContextsEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetContextsEx
 ---
 
 # FltGetContextsEx function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetContextsEx</b> routine retrieves a minifilter driver's contexts for the objects related to the current operation. 
-
+The <b>FltGetContextsEx</b> routine retrieves a minifilter driver's contexts for the objects related to the current operation.
 
 ## -parameters
 
+### -param FltObjects 
 
+[in]
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure containing opaque pointers for the objects related to the current operation. (For more information about this parameter, see the  Remarks section.)
 
+### -param DesiredContexts 
 
-### -param FltObjects [in]
-
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure containing opaque pointers for the objects related to the current operation. (For more information about this parameter, see the  Remarks section.) 
-
-
-### -param DesiredContexts [in]
-
+[in]
 Type of contexts to retrieve. This parameter can have one or more of the following values: 
 
 FLT_ALL_CONTEXTS
@@ -81,29 +76,21 @@ FLT_VOLUME_CONTEXT
 
 FLT_SECTION_CONTEXT (Windows 8 and later only.)
 
+### -param ContextsSize 
 
-### -param ContextsSize [in]
-
+[in]
 The size, in bytes, of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts_ex">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
 
+### -param Contexts 
 
-### -param Contexts [out]
-
-Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts_ex">FLT_RELATED_CONTEXTS_EX</a> structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero. 
-
+[out]
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts_ex">FLT_RELATED_CONTEXTS_EX</a> structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero.
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
-
-
 
 A minifilter driver calls <b>FltGetContextsEx</b> to retrieve pointers to the minifilter driver's contexts for the objects in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure. 
 
@@ -142,12 +129,7 @@ Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_contexts_ex">FLT_RELATED_CONTEXTS_EX</a>
 
@@ -186,7 +168,4 @@ Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
- 
-
- 
 

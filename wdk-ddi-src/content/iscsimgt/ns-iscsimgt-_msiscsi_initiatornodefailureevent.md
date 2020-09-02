@@ -6,10 +6,8 @@ old-location: storage\msiscsi_initiatornodefailureevent.htm
 tech.root: storage
 ms.assetid: 0d761b64-d405-4c19-9fd8-e4bf371515a1
 ms.date: 03/29/2018
-keywords: ["_MSiSCSI_InitiatorNodeFailureEvent structure"]
+keywords: ["MSiSCSI_InitiatorNodeFailureEvent structure"]
 ms.keywords: "*PMSiSCSI_InitiatorNodeFailureEvent, MSiSCSI_InitiatorNodeFailureEvent, MSiSCSI_InitiatorNodeFailureEvent structure [Storage Devices], PMSiSCSI_InitiatorNodeFailureEvent, PMSiSCSI_InitiatorNodeFailureEvent structure pointer [Storage Devices], _MSiSCSI_InitiatorNodeFailureEvent, iscsimgt/MSiSCSI_InitiatorNodeFailureEvent, iscsimgt/PMSiSCSI_InitiatorNodeFailureEvent, storage.msiscsi_initiatornodefailureevent, structs-iSCSI_0d1bb4bf-74a0-4d99-9bf8-1545faaff14d.xml"
-f1_keywords:
- - "iscsimgt/MSiSCSI_InitiatorNodeFailureEvent"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsimgt.h
-api_name:
-- MSiSCSI_InitiatorNodeFailureEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_InitiatorNodeFailureEvent, *PMSiSCSI_InitiatorNodeFailureEvent
+f1_keywords:
+ - _MSiSCSI_InitiatorNodeFailureEvent
+ - iscsimgt/_MSiSCSI_InitiatorNodeFailureEvent
+ - PMSiSCSI_InitiatorNodeFailureEvent
+ - iscsimgt/PMSiSCSI_InitiatorNodeFailureEvent
+ - MSiSCSI_InitiatorNodeFailureEvent
+ - iscsimgt/MSiSCSI_InitiatorNodeFailureEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsimgt.h
+api_name:
+ - MSiSCSI_InitiatorNodeFailureEvent
 ---
 
 # _MSiSCSI_InitiatorNodeFailureEvent structure
@@ -47,19 +50,13 @@ req.typenames: MSiSCSI_InitiatorNodeFailureEvent, *PMSiSCSI_InitiatorNodeFailure
 
 ## -description
 
-
 The MSiSCSI_InitiatorNodeFailureEvent structure is used to report an event when a node failure occurs.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FailureTime
 
 A timestamp that indicates when the node failure occurred.
-
 
 ### -field FailureType
 
@@ -121,39 +118,24 @@ The logout failed due to other reasons.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TargetFailureName
 
 A wide character string that specifies the name of the target that a logon or logoff failed for.
 
-
 ### -field TargetFailureAddr
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address of the target that a logon or logoff failed for.
 
-
 ## -remarks
-
-
 
 It is optional that you implement this class.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-initiatornodefailureevent-wmi-class">MSiSCSI_InitiatorNodeFailureEvent WMI Class</a>
- 
-
- 
 

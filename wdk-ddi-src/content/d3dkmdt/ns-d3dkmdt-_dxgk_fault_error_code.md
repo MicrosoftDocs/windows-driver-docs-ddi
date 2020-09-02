@@ -6,10 +6,8 @@ old-location: display\dxgk_fault_error_code.htm
 tech.root: display
 ms.assetid: 753FC177-D430-40E5-98CD-B3BDFD47ACEF
 ms.date: 05/10/2018
-keywords: ["_DXGK_FAULT_ERROR_CODE structure"]
+keywords: ["DXGK_FAULT_ERROR_CODE structure"]
 ms.keywords: DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code
-f1_keywords:
- - "d3dkmdt/DXGK_FAULT_ERROR_CODE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmdt.h
-api_name:
-- DXGK_FAULT_ERROR_CODE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_FAULT_ERROR_CODE
+f1_keywords:
+ - _DXGK_FAULT_ERROR_CODE
+ - d3dkmdt/_DXGK_FAULT_ERROR_CODE
+ - DXGK_FAULT_ERROR_CODE
+ - d3dkmdt/DXGK_FAULT_ERROR_CODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmdt.h
+api_name:
+ - DXGK_FAULT_ERROR_CODE
 ---
 
 # _DXGK_FAULT_ERROR_CODE structure
@@ -47,14 +48,9 @@ req.typenames: DXGK_FAULT_ERROR_CODE
 
 ## -description
 
-
 The <b>DXGK_FAULT_ERROR_CODE</b> structure provides a status code for the graphics processing unit (GPU) error reported via a page fault interrupt.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IsDeviceSpecificCode
 
@@ -62,11 +58,9 @@ When set, this indicates that the GPU error code is specific to the particular v
 
 When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
-
 ### -field GeneralErrorCode
 
 General error code defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a>.
-
 
 ### -field IsDeviceSpecificCodeReservedBit
 
@@ -76,19 +70,11 @@ When set, this indicates that the GPU error code is specific to the particular v
 
 When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
-
 ### -field DeviceSpecificCode
 
 A device specific error code.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a>
- 
-
- 
 

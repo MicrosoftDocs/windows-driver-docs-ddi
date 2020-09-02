@@ -6,10 +6,8 @@ old-location: netvista\wsk_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: 25371620-23bb-4a98-9554-14057742b0ca
 ms.date: 05/02/2018
-keywords: ["_WSK_PROVIDER_CHARACTERISTICS structure"]
+keywords: ["WSK_PROVIDER_CHARACTERISTICS structure"]
 ms.keywords: "*PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics, wsk/PWSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml"
-f1_keywords:
- - "wsk/WSK_PROVIDER_CHARACTERISTICS"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wsk.h
-api_name:
-- WSK_PROVIDER_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS
+f1_keywords:
+ - _WSK_PROVIDER_CHARACTERISTICS
+ - wsk/_WSK_PROVIDER_CHARACTERISTICS
+ - PWSK_PROVIDER_CHARACTERISTICS
+ - wsk/PWSK_PROVIDER_CHARACTERISTICS
+ - WSK_PROVIDER_CHARACTERISTICS
+ - wsk/WSK_PROVIDER_CHARACTERISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wsk.h
+api_name:
+ - WSK_PROVIDER_CHARACTERISTICS
 ---
 
 # _WSK_PROVIDER_CHARACTERISTICS structure
@@ -47,14 +50,9 @@ req.typenames: WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS
 
 ## -description
 
-
 The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteristics of the WSK subsystem.
 
-
 ## -struct-fields
-
-
-
 
 ### -field HighestVersion
 
@@ -62,15 +60,11 @@ The highest version of the WSK
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> that is supported by the WSK subsystem.
 
-
 ### -field LowestVersion
 
 The lowest version of the WSK NPI that is supported by the WSK subsystem.
 
-
 ## -remarks
-
-
 
 When a 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a> call fails
@@ -128,13 +122,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
 
@@ -154,7 +142,4 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
- 
-
- 
 

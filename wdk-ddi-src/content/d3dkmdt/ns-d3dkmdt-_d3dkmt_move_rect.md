@@ -6,10 +6,8 @@ old-location: display\d3dkmt_move_rect.htm
 tech.root: display
 ms.assetid: 2d9e0a8e-9485-427d-bdd0-2d89dec76a77
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_MOVE_RECT structure"]
+keywords: ["D3DKMT_MOVE_RECT structure"]
 ms.keywords: D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT structure [Display Devices], _D3DKMT_MOVE_RECT, d3dkmdt/D3DKMT_MOVE_RECT, display.d3dkmt_move_rect
-f1_keywords:
- - "d3dkmdt/D3DKMT_MOVE_RECT"
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmdt.h
-api_name:
-- D3DKMT_MOVE_RECT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMT_MOVE_RECT
+f1_keywords:
+ - _D3DKMT_MOVE_RECT
+ - d3dkmdt/_D3DKMT_MOVE_RECT
+ - D3DKMT_MOVE_RECT
+ - d3dkmdt/D3DKMT_MOVE_RECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmdt.h
+api_name:
+ - D3DKMT_MOVE_RECT
 ---
 
 # _D3DKMT_MOVE_RECT structure
@@ -47,36 +48,23 @@ req.typenames: D3DKMT_MOVE_RECT
 
 ## -description
 
-
 Provides information on a screen-to-screen move and a dirty rectangle copy operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SourcePoint
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the source (<i>x, y</i>) point where the source rectangle is copied from.
 
-
 ### -field DestRect
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that contains the destination rectangle where the dirty rectangle is copied to.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

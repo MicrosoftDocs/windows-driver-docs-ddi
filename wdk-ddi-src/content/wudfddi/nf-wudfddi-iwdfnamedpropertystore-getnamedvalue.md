@@ -8,8 +8,6 @@ ms.assetid: 9581e3af-f7f8-4365-8bb2-daedcb7a3280
 ms.date: 02/26/2018
 keywords: ["IWDFNamedPropertyStore::GetNamedValue"]
 ms.keywords: GetNamedValue, GetNamedValue method, GetNamedValue method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNamedValue method, IWDFNamedPropertyStore.GetNamedValue, IWDFNamedPropertyStore::GetNamedValue, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, umdf.iwdfnamedpropertystore_getnamedvalue, wdf.iwdfnamedpropertystore_getnamedvalue, wudfddi/IWDFNamedPropertyStore::GetNamedValue
-f1_keywords:
- - "wudfddi/IWDFNamedPropertyStore.GetNamedValue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFNamedPropertyStore.GetNamedValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFNamedPropertyStore::GetNamedValue
+ - wudfddi/IWDFNamedPropertyStore::GetNamedValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFNamedPropertyStore.GetNamedValue
 ---
 
 # IWDFNamedPropertyStore::GetNamedValue
@@ -47,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetNamedValue</b> method retrieves the value of a property.
 
-
 ## -parameters
 
+### -param pszName 
 
-
-
-### -param pszName [in]
-
+[in]
 A pointer to a null-terminated string that contains the name of the property.
 
+### -param pv 
 
-### -param pv [out]
-
-A pointer to a variable that receives the value for the property. 
-
+[out]
+A pointer to a variable that receives the value for the property.
 
 ## -returns
 
-
-
 <b>GetNamedValue</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetNamedValue</b> method allocates memory for a string in the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure pointed to by the <i>pv</i> parameter.   The caller must then free this memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a> function, as shown in the following snippet:
 
@@ -190,13 +177,7 @@ A string that contains environment variables is expanded on read.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore">IWDFNamedPropertyStore</a>
 
@@ -207,7 +188,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>
- 
-
- 
 

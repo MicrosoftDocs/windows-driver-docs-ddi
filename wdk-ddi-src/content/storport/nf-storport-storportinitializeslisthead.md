@@ -8,8 +8,6 @@ ms.assetid: E8EF5995-67AE-4F34-B885-CBADDF3D151F
 ms.date: 03/29/2018
 keywords: ["StorPortInitializeSListHead function"]
 ms.keywords: StorPortInitializeSListHead, StorPortInitializeSListHead routine [Storage Devices], storage.storportinitializeslisthead, storport/StorPortInitializeSListHead
-f1_keywords:
- - "storport/StorPortInitializeSListHead"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortInitializeSListHead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortInitializeSListHead
+ - storport/StorPortInitializeSListHead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortInitializeSListHead
 ---
 
 # StorPortInitializeSListHead function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Initializes the head of a Storport managed singly linked list.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param SListHead 
 
-### -param SListHead [in, out]
-
+[in, out]
 A pointer to an <b>STOR_SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is considered opaque and is for use by the Storport driver only.
 
-
 ## -returns
-
-
 
 <b>StorPortInitializeSListHead</b> returns one of the following status codes:
 
@@ -111,26 +103,14 @@ The pointer in <i>SListHead</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When allocated by the caller,  the <b>STOR_SLIST_HEADER</b> structure pointed to by <i>SListHead</i> must be aligned at  a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary. <b>MEMORY_ALLOCATION_ALIGNMENT</b> is defined in <i>miniport.h</i>.
 
 When memory for the list head is freed, any deallocation code must account for the original location of the buffer containing the list head structure prior to the adjustment for <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedflushslist">StorPortInterlockedFlushSList</a>
 
@@ -145,7 +125,4 @@ When memory for the list head is freed, any deallocation code must account for t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>
- 
-
- 
 

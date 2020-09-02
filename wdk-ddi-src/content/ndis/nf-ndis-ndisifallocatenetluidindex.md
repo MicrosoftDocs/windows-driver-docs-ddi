@@ -8,8 +8,6 @@ ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
 ms.date: 05/02/2018
 keywords: ["NdisIfAllocateNetLuidIndex function"]
 ms.keywords: NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex
-f1_keywords:
- - "ndis/NdisIfAllocateNetLuidIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIfAllocateNetLuidIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIfAllocateNetLuidIndex
+ - ndis/NdisIfAllocateNetLuidIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIfAllocateNetLuidIndex
 ---
 
 # NdisIfAllocateNetLuidIndex function
@@ -48,17 +47,12 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisIfAllocateNetLuidIndex</b> function allocates a 
   <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index for an NDIS network interface
   provider.
 
-
 ## -parameters
-
-
-
 
 ### -param ifType
 
@@ -67,17 +61,15 @@ The Internet Assigned Numbers Authority (IANA) interface type for an index. For 
      <i>IfType</i> that is assigned to any Ethernet-like interface. For a list of interface types, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-interface-types">NDIS Interface Types</a>.
 
-### -param pNetLuidIndex [out]
+### -param pNetLuidIndex 
 
+[out]
 A pointer to a caller-supplied 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index variable. If allocation is
      successful, 
      <b>NdisIfAllocateNetLuidIndex</b> sets this variable to the allocated 24-bit NET_LUID index value.
 
-
 ## -returns
-
-
 
 <b>NdisIfAllocateNetLuidIndex</b> returns one of the following values:
 
@@ -109,14 +101,8 @@ The operation failed because of insufficient resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS interface providers call the 
     <b>NdisIfAllocateNetLuidIndex</b> function to allocate a 
@@ -146,13 +132,7 @@ The interface provider must store the NET_LUID values that it allocates in persi
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
     NdisIfRegisterInterface</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a>
 
@@ -167,7 +147,4 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 09aa3ba9-d5b6-4c08-93f1-f7beca9350a1
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::GetTypeName"]
 ms.keywords: GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],IDebugSymbols interface, GetTypeName method [Windows Debugging],IDebugSymbols2 interface, GetTypeName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeName method, IDebugSymbols.GetTypeName, IDebugSymbols2 interface [Windows Debugging],GetTypeName method, IDebugSymbols2::GetTypeName, IDebugSymbols3 interface [Windows Debugging],GetTypeName method, IDebugSymbols3::GetTypeName, IDebugSymbols::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename
-f1_keywords:
- - "dbgeng/IDebugSymbols.GetTypeName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.GetTypeName
-- IDebugSymbols2.GetTypeName
-- IDebugSymbols3.GetTypeName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols::GetTypeName
+ - dbgeng/IDebugSymbols::GetTypeName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.GetTypeName
+ - IDebugSymbols2.GetTypeName
+ - IDebugSymbols3.GetTypeName
 ---
 
 # IDebugSymbols::GetTypeName
@@ -49,43 +48,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetTypeName</b>  method returns the name of the type symbol specified by its type ID and module.
-
 
 ## -parameters
 
+### -param Module 
 
-
-
-### -param Module [in]
-
+[in]
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
+### -param TypeId 
 
-### -param TypeId [in]
-
+[in]
 Specifies the type ID of the type.
 
+### -param NameBuffer 
 
-### -param NameBuffer [out, optional]
-
+[out, optional]
 Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param NameBufferSize 
 
-### -param NameBufferSize [in]
-
+[in]
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
+### -param NameSize 
 
-### -param NameSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -128,24 +120,12 @@ The specified type could not be found in the specified module.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a>
 
@@ -160,7 +140,4 @@ For more information about symbols, see <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

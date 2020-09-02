@@ -8,8 +8,6 @@ ms.assetid: 2e533d7b-be70-4601-b9e1-4fe3ce51817f
 ms.date: 04/30/2018
 keywords: ["KeWaitForMultipleObjects function"]
 ms.keywords: KeWaitForMultipleObjects, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, kernel.kewaitformultipleobjects, wdm/KeWaitForMultipleObjects
-f1_keywords:
- - "wdm/KeWaitForMultipleObjects"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeWaitForMultipleObjects
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeWaitForMultipleObjects
+ - wdm/KeWaitForMultipleObjects
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeWaitForMultipleObjects
 ---
 
 # KeWaitForMultipleObjects function
@@ -47,8 +46,70 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeWaitForMultipleObjects</b> routine puts the current thread into an alertable or nonalertable wait state until any or all of a number of dispatcher objects are set to a signaled state or (optionally) until the wait times out.
+
+## -parameters
+
+### -param Count 
+
+[in]
+The number of objects to be waited on. This parameter specifies the number of elements in the array pointed to by the <i>Object</i> parameter.
+
+### -param Object 
+
+[in]
+A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage. Both the pointer array and the dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
+
+### -param WaitType 
+
+[in]
+The type of wait operation to perform. Specify either <b>WaitAll</b>, indicating that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, indicating that any one of the objects must attain a signaled state before the wait is satisfied.
+
+### -param WaitReason 
+
+[in]
+The reason for the wait. Drivers should set this value to <b>Executive</b> or, if the driver is doing work on behalf of a user and is running in the context of a user thread, to <b>UserRequest</b>.
+
+### -param WaitMode 
+
+[in]
+Whether the caller waits in <b>KernelMode</b> or <b>UserMode</b>. Intermediate and lowest-level drivers should specify <b>KernelMode</b>. If the set of objects waited on includes a mutex, the caller must specify <b>KernelMode</b>.
+
+### -param Alertable 
+
+[in]
+A Boolean value that indicates whether the thread can be alerted while it is in the waiting state.
+
+### -param Timeout 
+
+[in, optional]
+A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
+
+A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
+
+If *<i>Timeout</i> = 0, the routine returns without waiting. If the caller supplies a <b>NULL</b> pointer, the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state. For more information, see the following Remarks section.
+
+### -param WaitBlockArray 
+
+[out, optional]
+A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> <= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
+
+## -returns
+
+<b>KeWaitForMultipleObjects</b> can return one of the following:
+
+|Return code|Description|
+|--- |--- |
+|**STATUS_SUCCESS**|The caller specified **WaitAll** for the _WaitType_ parameter and all dispatcher objects in the _Object_ array have been set to the signaled state.|
+|**STATUS_ALERTED**|The wait was interrupted to deliver an alert to the calling thread.|
+|**STATUS_USER_APC**|The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.|
+|**STATUS_TIMEOUT**|A time-out occurred before the specified set of wait conditions was met. This value can be returned when an explicit time-out value of zero is specified, but the specified set of wait conditions cannot be met immediately.|
+|**STATUS_WAIT_0** through **STATUS_WAIT_63**|The caller specified **WaitAny** for _WaitType_ and one of the dispatcher objects in the _Object_ array has been set to the signaled state. The lower six bits of the return value encode the zero-based index of the object that satisfied the wait.|
+|**STATUS_ABANDONED_WAIT_0** through **STATUS_ABANDONED_WAIT_63**|The caller attempted to wait for a mutex that has been abandoned. The lower six bits of the return value encode the zero-based index of the mutex in the _Object_ array.|
+
+ 
+
+Note that the NT_SUCCESS macro recognizes all of these status values as "success" values.
 
 ## -syntax
 
@@ -66,121 +127,7 @@ KeWaitForMultipleObjects (
     );
 ```
 
-## -parameters
-
-
-
-
-### -param Count [in]
-
-The number of objects to be waited on. This parameter specifies the number of elements in the array pointed to by the <i>Object</i> parameter.
-
-
-### -param Object [in]
-
-A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage. Both the pointer array and the dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
-
-
-### -param WaitType [in]
-
-The type of wait operation to perform. Specify either <b>WaitAll</b>, indicating that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, indicating that any one of the objects must attain a signaled state before the wait is satisfied.
-
-
-### -param WaitReason [in]
-
-The reason for the wait. Drivers should set this value to <b>Executive</b> or, if the driver is doing work on behalf of a user and is running in the context of a user thread, to <b>UserRequest</b>.
-
-
-### -param WaitMode [in]
-
-Whether the caller waits in <b>KernelMode</b> or <b>UserMode</b>. Intermediate and lowest-level drivers should specify <b>KernelMode</b>. If the set of objects waited on includes a mutex, the caller must specify <b>KernelMode</b>.
-
-
-### -param Alertable [in]
-
-A Boolean value that indicates whether the thread can be alerted while it is in the waiting state.
-
-
-### -param Timeout [in, optional]
-
-A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
-
-A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
-
-If *<i>Timeout</i> = 0, the routine returns without waiting. If the caller supplies a <b>NULL</b> pointer, the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state. For more information, see the following Remarks section.
-
-
-### -param WaitBlockArray [out, optional]
-
-A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> <= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
-
-
-## -returns
-
-
-
-<b>KeWaitForMultipleObjects</b> can return one of the following:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller specified <b>WaitAll</b> for the <i>WaitType</i> parameter and all dispatcher objects in the <i>Object</i> array have been set to the signaled state.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ALERTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver an alert to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_USER_APC</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_TIMEOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-A time-out occurred before the specified set of wait conditions was met. This value can be returned when an explicit time-out value of zero is specified, but the specified set of wait conditions cannot be met immediately.
-
-</td>
-</tr>
-</table>
- 
-
-Note that the NT_SUCCESS macro recognizes all of these status values as "success" values.
-
-
-
-
 ## -remarks
-
-
 
 Each thread object has a built-in array of wait blocks that can be used to wait for several objects to be set concurrently. Whenever possible, the built-in array of wait blocks should be used in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that must be waited on concurrently is greater than the number of built-in wait blocks, use the <i>WaitBlockArray</i> parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently large memory buffer for <i>WaitBlockArray</i>. The buffer does not need to be initialized; however, it must be allocated from nonpaged system memory. If the <i>WaitMode</i> parameter is <b>UserMode</b>, the <i>WaitBlockArray</i> buffer must not be allocated on the local stack because the stack might be swapped out of memory. Drivers can treat this buffer as an opaque structure and can free it after the routine returns. If either <i>Count</i> > MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and <i>Count</i> > THREAD_WAIT_OBJECTS, the system issues <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0xc--maximum-wait-objects-exceeded">Bug Check 0xC (MAXIMUM_WAIT_OBJECTS_EXCEEDED)</a>.
 
@@ -212,13 +159,7 @@ A mutex can be recursively acquired only MINLONG times. If this limit is exceede
 
 Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL <= DISPATCH_LEVEL. However, if <i>Timeout</i> = <b>NULL</b> or *<i>Timeout</i> != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. (If <i>Timeout</i> != <b>NULL</b> and *<i>Timeout</i> = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
@@ -245,7 +186,4 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL <= DISPATCH_LE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

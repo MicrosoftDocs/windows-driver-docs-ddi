@@ -8,40 +8,41 @@ ms.assetid: 38d12545-6ee4-49d2-93ba-c9c1fa89c968
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["IddCxAdapterDisplayConfigUpdate function"]
-f1_keywords:
- - "iddcx/IddCxAdapterDisplayConfigUpdate"
 ms.keywords: IddCxAdapterDisplayConfigUpdate
 req.header: iddcx.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - DllExport
-api_location: 
- - IddCx.dll
-api_name: 
- - IddCxAdapterDisplayConfigUpdate
-product: 
- - Windows
 targetos: Windows
+ms.custom: rs6, 19H1
+f1_keywords:
+ - IddCxAdapterDisplayConfigUpdate
+ - iddcx/IddCxAdapterDisplayConfigUpdate
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - IddCx.dll
+api_name:
+ - IddCxAdapterDisplayConfigUpdate
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: rs6, 19H1
 ---
 
 # IddCxAdapterDisplayConfigUpdate function
@@ -68,3 +69,4 @@ If STATUS_SUCCESS is returned then the OS has stored the new display configurati
 ## -remarks
 
 ## -see-also
+

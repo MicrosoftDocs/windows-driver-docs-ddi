@@ -6,10 +6,8 @@ old-location: display\dxva_encryptprotocolheader.htm
 tech.root: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.date: 05/10/2018
-keywords: ["_DXVA_EncryptProtocolHeader structure"]
+keywords: ["DXVA_EncryptProtocolHeader structure"]
 ms.keywords: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], _DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml"
-f1_keywords:
- - "dxva/DXVA_EncryptProtocolHeader"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_EncryptProtocolHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
+f1_keywords:
+ - _DXVA_EncryptProtocolHeader
+ - dxva/_DXVA_EncryptProtocolHeader
+ - LPDXVA_EncryptProtocolHeader
+ - dxva/LPDXVA_EncryptProtocolHeader
+ - DXVA_EncryptProtocolHeader
+ - dxva/DXVA_EncryptProtocolHeader
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_EncryptProtocolHeader
 ---
 
 # _DXVA_EncryptProtocolHeader structure
@@ -47,14 +50,9 @@ req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 
 ## -description
 
-
 The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFunction
 
@@ -62,22 +60,15 @@ Indicates whether encryption is being used and the operation to which encryption
 
 There are only two possible values for <b>dwFunction</b> in this structure: 0xFFFF0001 when sent by a host software decoder, and 0xFFFF0801 when sent by the hardware accelerator.
 
-
 ### -field ReservedBits
 
 Reserved bits used for packing and alignment. This must be zero.
-
 
 ### -field guidEncryptProtocol
 
 Contains the GUID associated with the encryption protocol.
 
-
 ## -remarks
 
-
-
 The encryption protocol in use is externally defined and operates as described in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/encryption-support">Encryption Support</a>.
-
-
 

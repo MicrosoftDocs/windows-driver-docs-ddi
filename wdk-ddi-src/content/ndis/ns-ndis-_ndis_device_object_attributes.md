@@ -6,10 +6,8 @@ old-location: netvista\ndis_device_object_attributes.htm
 tech.root: netvista
 ms.assetid: 658e1597-eacf-4e9e-9f10-37f7646d38ad
 ms.date: 05/02/2018
-keywords: ["_NDIS_DEVICE_OBJECT_ATTRIBUTES structure"]
+keywords: ["NDIS_DEVICE_OBJECT_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, netvista.ndis_device_object_attributes"
-f1_keywords:
- - "ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_DEVICE_OBJECT_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_DEVICE_OBJECT_ATTRIBUTES, *PNDIS_DEVICE_OBJECT_ATTRIBUTES
+f1_keywords:
+ - _NDIS_DEVICE_OBJECT_ATTRIBUTES
+ - ndis/_NDIS_DEVICE_OBJECT_ATTRIBUTES
+ - PNDIS_DEVICE_OBJECT_ATTRIBUTES
+ - ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES
+ - NDIS_DEVICE_OBJECT_ATTRIBUTES
+ - ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_DEVICE_OBJECT_ATTRIBUTES
 ---
 
 # _NDIS_DEVICE_OBJECT_ATTRIBUTES structure
@@ -47,16 +50,11 @@ req.typenames: NDIS_DEVICE_OBJECT_ATTRIBUTES, *PNDIS_DEVICE_OBJECT_ATTRIBUTES
 
 ## -description
 
-
 The NDIS_DEVICE_OBJECT_ATTRIBUTES structure defines the attributes of a device that an NDIS filter or
   miniport driver can pass to the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -68,14 +66,12 @@ The
      <b>Revision</b> member to NDIS_DEVICE_OBJECT_ATTRIBUTES_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_DEVICE_OBJECT_ATTRIBUTES_REVISION_1.
 
-
 ### -field DeviceName
 
 A pointer to a variable of type NDIS_STRING that contains a null-terminated Unicode string that
      names the device object. The string must be a full path name--for example, 
      \Device\\<i>DeviceName</i>. For Microsoft Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
-
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 ### -field SymbolicName
 
@@ -83,7 +79,6 @@ A pointer to a variable of type NDIS_STRING that contains a Unicode string that 
      Win32-visible name of the device being registered. Typically, 
      <b>SymbolicName</b> has the following format: 
      \DosDevices\\<i>SymbolicName</i>.
-
 
 ### -field MajorFunctions
 
@@ -126,12 +121,10 @@ A driver must not supply entry points for PnP or Power Management handlers, beca
      device object is not for a physical device and therefore does not receive PnP or Power Management
      IRPs.
 
-
 ### -field ExtensionSize
 
 The driver-determined number of bytes to be allocated for the device extension of the device
      object. The internal structure of the device extension is driver-defined.
-
 
 ### -field DefaultSDDLString
 
@@ -143,15 +136,11 @@ The security setting is specified in a subset of Security Descriptor Definition 
      set of predefined constants (SDDL_DEVOBJ_<i>XXX</i>) is also provided. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/securing-device-objects">Securing Device Objects</a>.
 
-
 ### -field DeviceClassGuid
 
 Reserved for NDIS. Set this member to <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 An NDIS filter or miniport driver can call the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function to
@@ -160,13 +149,7 @@ An NDIS filter or miniport driver can call the
     <i>DeviceObjectAttributes</i> parameter of 
     <b>NdisRegisterDeviceEx</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -176,8 +159,5 @@ An NDIS filter or miniport driver can call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -6,10 +6,8 @@ old-location: display\dxgkvgpu_escape_release.htm
 tech.root: display
 ms.assetid: 96BA0967-BA65-483D-9165-C7ADE05C0216
 ms.date: 05/10/2018
-keywords: ["_DXGKVGPU_ESCAPE_RELEASE structure"]
+keywords: ["DXGKVGPU_ESCAPE_RELEASE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release
-f1_keywords:
- - "d3dukmdt/DXGKVGPU_ESCAPE_RELEASE"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- DXGKVGPU_ESCAPE_RELEASE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_RELEASE
+f1_keywords:
+ - _DXGKVGPU_ESCAPE_RELEASE
+ - d3dukmdt/_DXGKVGPU_ESCAPE_RELEASE
+ - DXGKVGPU_ESCAPE_RELEASE
+ - d3dukmdt/DXGKVGPU_ESCAPE_RELEASE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - DXGKVGPU_ESCAPE_RELEASE
 ---
 
 # _DXGKVGPU_ESCAPE_RELEASE structure
@@ -47,14 +48,9 @@ req.typenames: DXGKVGPU_ESCAPE_RELEASE
 
 ## -description
 
-
 Indicates that an escape has been released.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 

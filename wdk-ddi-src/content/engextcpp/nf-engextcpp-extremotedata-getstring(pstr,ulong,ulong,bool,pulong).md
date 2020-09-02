@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetString(PSTR,ULONG,ULONG,bool,PULONG)"]
 ms.keywords: EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, ExtRemoteData class [Windows Debugging],GetString method, ExtRemoteData.GetString, ExtRemoteData.GetString(PSTR,ULONG,ULONG,bool,PULONG), ExtRemoteData::GetString, ExtRemoteData::GetString(PSTR,ULONG,ULONG,bool,PULONG), GetString, GetString method [Windows Debugging], GetString method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getstring
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetString"
+ - "ExtRemoteData.GetString"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
@@ -57,8 +56,8 @@ The <b>GetString</b> method reads a null-terminated string from the target's mem
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Receives the null-terminated string read from the target.  The type of <i>Buffer</i> must be the same as the type of the string on the target.  If the string is a Unicode string, the type of <i>Buffer</i> must be PWSTR.  If the string is a multibyte string, the type of <i>Buffer</i> must be PSTR.
 
 <div class="alert"><b>Note</b>   the remainder of the <i>Buffer</i> buffer, after the string, can be overwritten by this method.</div>
@@ -69,8 +68,8 @@ Receives the null-terminated string read from the target.  The type of <i>Buffer
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param MaxChars [in]
-
+### -param MaxChars 
+[in]
 Specifies the maximum number of characters to read from the target.
 
 

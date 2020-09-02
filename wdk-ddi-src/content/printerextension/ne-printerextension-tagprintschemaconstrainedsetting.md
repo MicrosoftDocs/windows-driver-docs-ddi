@@ -8,8 +8,6 @@ ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.date: 04/20/2018
 keywords: ["tagPrintSchemaConstrainedSetting enumeration"]
 ms.keywords: PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices], PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_PrintTicket, print.printschemaconstrainedsetting, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Admin, printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting_PrintTicket, tagPrintSchemaConstrainedSetting
-f1_keywords:
- - "printerextension/PrintSchemaConstrainedSetting"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Printerextension.h
-api_name:
-- PrintSchemaConstrainedSetting
-product:
-- Windows
 targetos: Windows
 req.typenames: PrintSchemaConstrainedSetting
+f1_keywords:
+ - tagPrintSchemaConstrainedSetting
+ - printerextension/tagPrintSchemaConstrainedSetting
+ - PrintSchemaConstrainedSetting
+ - printerextension/PrintSchemaConstrainedSetting
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Printerextension.h
+api_name:
+ - PrintSchemaConstrainedSetting
 ---
 
 # tagPrintSchemaConstrainedSetting enumeration
@@ -47,42 +48,27 @@ req.typenames: PrintSchemaConstrainedSetting
 
 ## -description
 
-
 The  PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The <b>constrained</b> attribute appears only in a PrintCapabilities document.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PrintSchemaConstrainedSetting_None
 
 The Option is not constrained.
 
-
 ### -field PrintSchemaConstrainedSetting_PrintTicket
 
 The Option is constrained by the PrintTicket settings. Changing the PrintTicket document settings should be able to remove the constraint.
-
 
 ### -field PrintSchemaConstrainedSetting_Admin
 
 The Option is constrained by the administrator's settings. The Option constraint should not be removable by a user without administrator privileges.
 
-
 ### -field PrintSchemaConstrainedSetting_Device
 
 The Option is constrained by the device configuration. The Option should not be removable by either a user or administrator without changing the device configuration.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaoption-get_constrained">IPrintSchemaOption::Constrained</a>
- 
-
- 
 

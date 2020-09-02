@@ -8,8 +8,6 @@ ms.assetid: 77ccd451-40c7-4f64-af2b-480e44e7f672
 ms.date: 04/30/2018
 keywords: ["ZwEnumerateKey function"]
 ms.keywords: NtEnumerateKey, ZwEnumerateKey, ZwEnumerateKey routine [Kernel-Mode Driver Architecture], k111_a41e7865-8cac-4dd8-83fb-ca04485feb48.xml, kernel.zwenumeratekey, wdm/NtEnumerateKey, wdm/ZwEnumerateKey
-f1_keywords:
- - "wdm/ZwEnumerateKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwEnumerateKey
-- NtEnumerateKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwEnumerateKey
+ - wdm/ZwEnumerateKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwEnumerateKey
+ - NtEnumerateKey
 ---
 
 # ZwEnumerateKey function
@@ -48,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwEnumerateKey</b> routine returns information about a subkey of an open registry key.
-
 
 ## -parameters
 
+### -param KeyHandle 
 
+[in]
+Handle to the registry key that contains the subkeys to be enumerated. The handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
 
+### -param Index 
 
-### -param KeyHandle [in]
+[in]
+The index of the subkey that you want information for. If the key has <i>n</i> subkeys, the subkeys are numbered from 0 to <i>n</i>-1.
 
-Handle to the registry key that contains the subkeys to be enumerated. The handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>. 
+### -param KeyInformationClass 
 
-
-### -param Index [in]
-
-The index of the subkey that you want information for. If the key has <i>n</i> subkeys, the subkeys are numbered from 0 to <i>n</i>-1. 
-
-
-### -param KeyInformationClass [in]
-
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_information_class">KEY_INFORMATION_CLASS</a> enumeration value that determines the type of information to be received by the <i>KeyInformation</i> buffer. Set <i>KeyInformationClass</i> to one of the following values:
 
 <ul>
@@ -78,25 +73,22 @@ Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm
 </ul>
 If any value not in this list is specified, the routine returns error code STATUS_INVALID_PARAMETER.
 
+### -param KeyInformation 
 
-### -param KeyInformation [out, optional]
+[out, optional]
+Pointer to a caller-allocated buffer that receives the requested information. The <i>KeyInformationClass</i> parameter determines the type of information provided.
 
-Pointer to a caller-allocated buffer that receives the requested information. The <i>KeyInformationClass</i> parameter determines the type of information provided. 
+### -param Length 
 
+[in]
+Specifies the size, in bytes, of the <i>KeyInformation</i> buffer.
 
-### -param Length [in]
+### -param ResultLength 
 
-Specifies the size, in bytes, of the <i>KeyInformation</i> buffer. 
-
-
-### -param ResultLength [out]
-
-Pointer to a variable that receives the size, in bytes, of the registry-key information. If <b>ZwEnumerateKey</b> returns STATUS_SUCCESS, you can use the value of this variable to determine the amount of data returned. If the routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of this variable to determine the size of buffer required to hold the key information. 
-
+[out]
+Pointer to a variable that receives the size, in bytes, of the registry-key information. If <b>ZwEnumerateKey</b> returns STATUS_SUCCESS, you can use the value of this variable to determine the amount of data returned. If the routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of this variable to determine the size of buffer required to hold the key information.
 
 ## -returns
-
-
 
 <b>ZwEnumerateKey</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error code values include:
 
@@ -150,14 +142,8 @@ The <i>Index</i> value is out of range for the registry key specified by <i>KeyH
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The handle must have been opened with KEY_ENUMERATE_SUB_KEYS access. This is accomplished by passing KEY_ENUMERATE_SUB_KEYS, KEY_READ, or KEY_ALL_ACCESS as the <i>DesiredAccess</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
 
@@ -169,13 +155,7 @@ For more information about working with registry keys, see <a href="https://docs
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_basic_information">KEY_BASIC_INFORMATION</a>
 
@@ -222,7 +202,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
 

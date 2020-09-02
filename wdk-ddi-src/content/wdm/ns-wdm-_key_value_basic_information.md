@@ -6,10 +6,8 @@ old-location: kernel\key_value_basic_information.htm
 tech.root: kernel
 ms.assetid: b3b14c21-3613-4f84-9e7d-368c4cc3fa9d
 ms.date: 04/30/2018
-keywords: ["_KEY_VALUE_BASIC_INFORMATION structure"]
+keywords: ["KEY_VALUE_BASIC_INFORMATION structure"]
 ms.keywords: "*PKEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_BASIC_INFORMATION, kernel.key_value_basic_information, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, wdm/KEY_VALUE_BASIC_INFORMATION, wdm/PKEY_VALUE_BASIC_INFORMATION"
-f1_keywords:
- - "wdm/KEY_VALUE_BASIC_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- KEY_VALUE_BASIC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_VALUE_BASIC_INFORMATION, *PKEY_VALUE_BASIC_INFORMATION
+f1_keywords:
+ - _KEY_VALUE_BASIC_INFORMATION
+ - wdm/_KEY_VALUE_BASIC_INFORMATION
+ - PKEY_VALUE_BASIC_INFORMATION
+ - wdm/PKEY_VALUE_BASIC_INFORMATION
+ - KEY_VALUE_BASIC_INFORMATION
+ - wdm/KEY_VALUE_BASIC_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - KEY_VALUE_BASIC_INFORMATION
 ---
 
 # _KEY_VALUE_BASIC_INFORMATION structure
@@ -47,19 +50,13 @@ req.typenames: KEY_VALUE_BASIC_INFORMATION, *PKEY_VALUE_BASIC_INFORMATION
 
 ## -description
 
-
-The <b>KEY_VALUE_BASIC_INFORMATION</b> structure defines a subset of the full information available for a value entry of a registry key. 
-
+The <b>KEY_VALUE_BASIC_INFORMATION</b> structure defines a subset of the full information available for a value entry of a registry key.
 
 ## -struct-fields
-
-
-
 
 ### -field TitleIndex
 
 Device and intermediate drivers should ignore this member.
-
 
 ### -field Type
 
@@ -191,32 +188,20 @@ A list of hardware resources that a physical device is using, detected and writt
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NameLength
 
 Specifies the size in bytes of the following value entry name.
 
-
 ### -field Name
 
 A string of Unicode characters naming a value entry of the key.
 
-
 ## -remarks
-
-
 
 A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that describes a registry key by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_full_information">KEY_VALUE_FULL_INFORMATION</a>
 
@@ -235,7 +220,4 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
- 
-
- 
 

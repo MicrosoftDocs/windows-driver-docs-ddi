@@ -8,8 +8,6 @@ ms.assetid: e06bbf6f-f636-4fb1-8195-b74512d4cd13
 ms.date: 04/23/2018
 keywords: ["KSMETHOD_SET structure"]
 ms.keywords: "*PKSMETHOD_SET, KSMETHOD_SET, KSMETHOD_SET structure [Streaming Media Devices], PKSMETHOD_SET, PKSMETHOD_SET structure pointer [Streaming Media Devices], ks-struct_c3d1123f-8d2a-491b-a748-df8d88c7d9bc.xml, ks/KSMETHOD_SET, ks/PKSMETHOD_SET, stream.ksmethod_set"
-f1_keywords:
- - "ks/KSMETHOD_SET"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSMETHOD_SET
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMETHOD_SET, *PKSMETHOD_SET
+f1_keywords:
+ - PKSMETHOD_SET
+ - ks/PKSMETHOD_SET
+ - KSMETHOD_SET
+ - ks/KSMETHOD_SET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSMETHOD_SET
 ---
 
 # KSMETHOD_SET structure
@@ -47,56 +48,35 @@ req.typenames: KSMETHOD_SET, *PKSMETHOD_SET
 
 ## -description
 
-
 The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Set
 
 Specifies a GUID the identifies the kernel streaming method set. For more information about method set GUIDs, see <b>Remarks</b>.
 
-
 ### -field MethodsCount
 
 Specifies the number of methods in this method set.
-
 
 ### -field MethodItem
 
 Points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
 
-
 ### -field FastIoCount
 
 Reserved for system use. Do not use.
-
 
 ### -field FastIoTable
 
 Reserved for system use. Do not use.
 
-
 ## -remarks
-
-
 
 Microsoft provides several system-defined kernel streaming method set GUIDs. Minidrivers specify one of these GUIDs in the <b>Set</b> member. Kernel streaming method sets typically begin with a <i>KSMETHODSETID</i> prefix. Method set GUIDs are defined in <i>ks.h</i>, <i>ksmedia.h</i>, <i>bdamedia.h</i>, and possibly other header files.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a>
- 
-
- 
 

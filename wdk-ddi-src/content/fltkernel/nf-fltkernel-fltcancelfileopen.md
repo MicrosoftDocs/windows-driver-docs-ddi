@@ -8,8 +8,6 @@ ms.assetid: adc1a1fd-ddbc-4ed5-85e3-4d4e85d710b1
 ms.date: 04/16/2018
 keywords: ["FltCancelFileOpen function"]
 ms.keywords: FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml, FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers], fltkernel/FltCancelFileOpen, ifsk.fltcancelfileopen
-f1_keywords:
- - "fltkernel/FltCancelFileOpen"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltCancelFileOpen
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCancelFileOpen
+ - fltkernel/FltCancelFileOpen
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltCancelFileOpen
 ---
 
 # FltCancelFileOpen function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-A minifilter driver can use the <b>FltCancelFileOpen</b> routine to close a newly opened or created file. 
-
+A minifilter driver can use the <b>FltCancelFileOpen</b> routine to close a newly opened or created file.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Instance [in]
-
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param FileObject [in]
-
-File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
-
+[in]
+File object pointer for the file. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
-
-
 
 If a minifilter driver determines that a file-open or file-create (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>) operation must fail after the file system has already completed the operation with a success NTSTATUS value such as STATUS_SUCCESS, the minifilter driver can call <b>FltCancelFileOpen</b> from its post-create callback routine to close the file. 
 
@@ -95,15 +82,9 @@ Once the create operation has been canceled, it cannot be reissued. For more inf
 
 <b>FltCancelFileOpen</b> can only be called from a minifilter driver's post-create callback routine. Calling <b>FltCancelFileOpen</b> from a postoperation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine for any other type of I/O operation, or calling it from a preoperation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>) routine, is a programming error. 
 
-Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. However, it is safe for minifilter drivers to call this routine from a post-create callback routine, because post-create callback routines are guaranteed to be called at IRQL PASSIVE_LEVEL, in the context of the thread that originated the IRP_MJ_CREATE request. 
-
-
-
+Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. However, it is safe for minifilter drivers to call this routine from a post-create callback routine, because post-create callback routines are guaranteed to be called at IRQL PASSIVE_LEVEL, in the context of the thread that originated the IRP_MJ_CREATE request.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
 
@@ -146,7 +127,4 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
- 
-
- 
 

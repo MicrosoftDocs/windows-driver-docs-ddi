@@ -6,40 +6,45 @@ old-location: netvista\dot11_extap_attributes.htm
 tech.root: netvista
 ms.assetid: 0460357c-7180-45f0-a7ab-83c46c24ba68
 ms.date: 02/16/2018
-keywords: ["_DOT11_EXTAP_ATTRIBUTES structure"]
+keywords: ["DOT11_EXTAP_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_a1779e69-266e-4fa0-bbd2-01701b9b8772.xml, PDOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _DOT11_EXTAP_ATTRIBUTES, netvista.dot11_extap_attributes, windot11/DOT11_EXTAP_ATTRIBUTES, windot11/PDOT11_EXTAP_ATTRIBUTES"
-f1_keywords:
- - "windot11/DOT11_EXTAP_ATTRIBUTES"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_EXTAP_ATTRIBUTES
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_EXTAP_ATTRIBUTES, *PDOT11_EXTAP_ATTRIBUTES
+f1_keywords:
+ - _DOT11_EXTAP_ATTRIBUTES
+ - windot11/_DOT11_EXTAP_ATTRIBUTES
+ - PDOT11_EXTAP_ATTRIBUTES
+ - windot11/PDOT11_EXTAP_ATTRIBUTES
+ - DOT11_EXTAP_ATTRIBUTES
+ - windot11/DOT11_EXTAP_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_EXTAP_ATTRIBUTES
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_EXTAP_ATTRIBUTES structure
@@ -47,38 +52,10 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport
   driver and 802.11 station when it operates in Extensible Access Point (ExtAP) mode.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_EXTAP_ATTRIBUTES {
-  NDIS_OBJECT_HEADER              Header;
-  ULONG                           uScanSSIDListSize;
-  ULONG                           uDesiredSSIDListSize;
-  ULONG                           uPrivacyExemptionListSize;
-  ULONG                           uAssociationTableSize;
-  ULONG                           uDefaultKeyTableSize;
-  ULONG                           uWEPKeyValueMaxLength;
-  BOOLEAN                         bStrictlyOrderedServiceClassImplemented;
-  ULONG                           uNumSupportedCountryOrRegionStrings;
-  PDOT11_COUNTRY_OR_REGION_STRING pSupportedCountryOrRegionStrings;
-  ULONG                           uInfraNumSupportedUcastAlgoPairs;
-  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedUcastAlgoPairs;
-  ULONG                           uInfraNumSupportedMcastAlgoPairs;
-  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastAlgoPairs;
-} DOT11_EXTAP_ATTRIBUTES, *PDOT11_EXTAP_ATTRIBUTES;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -114,7 +91,6 @@ This member must be set to
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uScanSSIDListSize
 
 The maximum number of service set identifiers (SSIDs) supported by the 802.11 station for scan
@@ -124,7 +100,6 @@ The maximum number of service set identifiers (SSIDs) supported by the 802.11 st
 The SSID list that the 802.11 station uses for scanning is specified when
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
      set.
-
 
 ### -field uDesiredSSIDListSize
 
@@ -136,7 +111,6 @@ For more information about the desired BSSID list, see
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
      OID_DOT11_DESIRED_BSSID_LIST</a>.
 
-
 ### -field uPrivacyExemptionListSize
 
 The maximum number of entries in the privacy exemption list supported by the 802.11 station. The
@@ -146,7 +120,6 @@ The maximum number of entries in the privacy exemption list supported by the 802
 For more information about the privacy exemption list, see
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
      OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
-
 
 ### -field uAssociationTableSize
 
@@ -159,7 +132,6 @@ If the NIC supports any authentication and cipher algorithms that require
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/key-mapping-keys">key-Mapping keys</a>, it must support at least
      the number of entries in its key-mapping key table.
 
-
 ### -field uDefaultKeyTableSize
 
 The maximum number of cipher keys the 802.11 station supports for the default key and per-station
@@ -169,7 +141,6 @@ The maximum number of cipher keys the 802.11 station supports for the default ke
 For standard 802.11 cipher algorithms, the 802.11 station must support a table size of at least four
      cipher keys. For cipher algorithms developed by the independent hardware vendor (IHV), the table size
      can be four or greater.
-
 
 ### -field uWEPKeyValueMaxLength
 
@@ -238,8 +209,6 @@ Any length supported by the 802.11 station
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bStrictlyOrderedServiceClassImplemented
 
@@ -249,7 +218,6 @@ A Boolean value that, if set to <b>TRUE</b>, specifies that the 802.11 station s
 
 For more information about the StrictlyOrdered service class, refer to Clause 5.1.3 of the IEEE
      802.11-2012 standard.
-
 
 ### -field uNumSupportedCountryOrRegionStrings
 
@@ -261,14 +229,12 @@ The number of country or region strings supported by the 802.11 station. If the 
 If the 802.11 station does not support the IEEE 802.11d-2001 standard, the miniport driver must set
      <b>uNumSupportedCountryOrRegionStrings</b> to zero.
 
-
 ### -field pSupportedCountryOrRegionStrings
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
      station. Each entry in the array is formatted as a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
      DOT11_COUNTRY_OR_REGION_STRING</a> structure.
-
 
 ### -field uInfraNumSupportedUcastAlgoPairs
 
@@ -280,7 +246,6 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      the array referenced by the
      <b>pInfraSupportedUcastAlgoPairs</b> member.
 
-
 ### -field pInfraSupportedUcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
@@ -288,7 +253,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      formatted as a
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
 
 ### -field uInfraNumSupportedMcastAlgoPairs
 
@@ -300,7 +264,6 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
      the array referenced by the
      <b>pInfraSupportedMcastAlgoPairs</b> member.
 
-
 ### -field pInfraSupportedMcastAlgoPairs
 
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
@@ -309,6 +272,26 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_EXTAP_ATTRIBUTES {
+  NDIS_OBJECT_HEADER              Header;
+  ULONG                           uScanSSIDListSize;
+  ULONG                           uDesiredSSIDListSize;
+  ULONG                           uPrivacyExemptionListSize;
+  ULONG                           uAssociationTableSize;
+  ULONG                           uDefaultKeyTableSize;
+  ULONG                           uWEPKeyValueMaxLength;
+  BOOLEAN                         bStrictlyOrderedServiceClassImplemented;
+  ULONG                           uNumSupportedCountryOrRegionStrings;
+  PDOT11_COUNTRY_OR_REGION_STRING pSupportedCountryOrRegionStrings;
+  ULONG                           uInfraNumSupportedUcastAlgoPairs;
+  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedUcastAlgoPairs;
+  ULONG                           uInfraNumSupportedMcastAlgoPairs;
+  PDOT11_AUTH_CIPHER_PAIR         pInfraSupportedMcastAlgoPairs;
+} DOT11_EXTAP_ATTRIBUTES, *PDOT11_EXTAP_ATTRIBUTES;
+```
 
 ## -see-also
 
@@ -343,11 +326,4 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
 

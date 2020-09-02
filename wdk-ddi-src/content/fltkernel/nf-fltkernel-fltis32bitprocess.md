@@ -8,8 +8,6 @@ ms.assetid: 0ba4d101-5eba-4258-9526-9e9dc3fd142a
 ms.date: 04/16/2018
 keywords: ["FltIs32bitProcess function"]
 ms.keywords: FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess, FltIs32bitProcess routine [Installable File System Drivers], fltkernel/FltIs32bitProcess, ifsk.fltis32bitprocess
-f1_keywords:
- - "fltkernel/FltIs32bitProcess"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltIs32bitProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltIs32bitProcess
+ - fltkernel/FltIs32bitProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltIs32bitProcess
 ---
 
 # FltIs32bitProcess function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltIs32bitProcess</b> routine checks whether the originator of the current I/O operation is a 32-bit user-mode application.
-
 
 ## -parameters
 
+### -param CallbackData 
 
-
-
-### -param CallbackData [in, optional]
-
-Pointer to the callback data structure for the current I/O operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>). This parameter is optional and can be <b>NULL</b>. 
-
+[in, optional]
+Pointer to the callback data structure for the current I/O operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>). This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
 
-
-
 <b>FltIs32bitProcess</b> returns <b>TRUE</b> if the originator of the current I/O operation is a 32-bit user-mode process, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 Minifilter drivers call <b>FltIs32bitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver. For more information about thunking and other 64-bit driver issues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/programming-issues-for-64-bit-drivers">Programming Issues for 64-Bit Drivers</a>. 
 
@@ -104,13 +91,7 @@ To determine whether a callback data structure represents a fast I/O operation, 
 
 To determine whether a callback data structure represents a file system filter (FSFilter) callback operation, use the <a href="https://docs.microsoft.com/previous-versions/ff544648(v=vs.85)">FLT_IS_FS_FILTER_OPERATION</a> macro.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">FLT_IS_FASTIO_OPERATION</a>
 
@@ -125,7 +106,4 @@ To determine whether a callback data structure represents a file system filter (
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iois32bitprocess">IoIs32bitProcess</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 2F654D79-7DB6-45C4-8E6D-2EBAEF2DA7F5
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_RECONFIGURE_INTERRUPT callback function"]
 ms.keywords: CLIENT_ReconfigureInterrupt, CLIENT_ReconfigureInterrupt callback, CLIENT_ReconfigureInterrupt callback function [Parallel Ports], GPIO.client_reconfigureinterrupt, GPIO_CLIENT_RECONFIGURE_INTERRUPT, gpioclx/CLIENT_ReconfigureInterrupt
-f1_keywords:
- - "gpioclx/CLIENT_ReconfigureInterrupt"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_ReconfigureInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_RECONFIGURE_INTERRUPT
+ - gpioclx/GPIO_CLIENT_RECONFIGURE_INTERRUPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_ReconfigureInterrupt
 ---
 
 # GPIO_CLIENT_RECONFIGURE_INTERRUPT callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_ReconfigureInterrupt</i> event callback function reconfigures a general-purpose I/O (GPIO) pin that is used as an interrupt input.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
+### -param ReconfigureParameters 
 
-### -param ReconfigureParameters [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_reconfigure_interrupts_parameters">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a> structure that specifies how to reconfigure the GPIO interrupt pin.
-
 
 ## -returns
 
-
-
 The <i>CLIENT_ReconfigureInterrupt</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The GPIO framework extension (GpioClx) might call the <i>CLIENT_ReconfigureInterrupt</i> function to change the interrupt mode or interrupt polarity of a GPIO pin that is used as an interrupt input.
 
@@ -124,12 +111,7 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
@@ -144,7 +126,4 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_reconfigure_interrupts_parameters">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
 ms.date: 07/19/2019
 keywords: ["HW_UNIT_CONTROL callback function"]
 ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
-f1_keywords:
- - "storport/HwStorUnitControl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorUnitControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_UNIT_CONTROL
+ - storport/HW_UNIT_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorUnitControl
 ---
 
 # HW_UNIT_CONTROL callback function
+
 
 ## -description
 
@@ -50,12 +50,14 @@ A miniport driver's <b>HwStorUnitControl</b> routine is called to perform synchr
 
 ## -parameters
 
-### -param DeviceExtension [in]
+### -param DeviceExtension 
 
-A pointer to the miniport driver's per-unit storage area. 
+[in]
+A pointer to the miniport driver's per-unit storage area.
 
-### -param ControlType [in]
+### -param ControlType 
 
+[in]
 Specifies  an unit control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings.
 
 <table>
@@ -284,8 +286,9 @@ None
 </tr>
 </table>
 
-### -param Parameters [in]
+### -param Parameters 
 
+[in]
 Contains information related to the <i>ControlType</i>.  
 
 <table>
@@ -849,3 +852,4 @@ HW_UNIT_CONTROL (
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+

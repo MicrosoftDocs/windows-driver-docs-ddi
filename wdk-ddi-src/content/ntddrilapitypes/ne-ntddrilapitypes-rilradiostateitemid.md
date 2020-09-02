@@ -8,8 +8,6 @@ ms.assetid: 2aec37af-fd7d-44c6-a728-889dd75012cb
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEITEMID enumeration"]
 ms.keywords: RILRADIOSTATEITEMID, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostateitemid, ntddrilapitypes/RILRADIOSTATEITEMID
-f1_keywords:
- - "ntddrilapitypes/RILRADIOSTATEITEMID"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILRADIOSTATEITEMID
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEITEMID
+f1_keywords:
+ - RILRADIOSTATEITEMID
+ - ntddrilapitypes/RILRADIOSTATEITEMID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILRADIOSTATEITEMID
 ---
 
 # RILRADIOSTATEITEMID enumeration
@@ -47,9 +46,7 @@ req.typenames: RILRADIOSTATEITEMID
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 

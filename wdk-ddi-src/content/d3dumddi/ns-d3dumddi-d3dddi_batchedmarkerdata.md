@@ -32,7 +32,9 @@ api_name:
  - _D3DDDI_BATCHEDMARKERDATA
  - D3DDDI_BATCHEDMARKERDATA
 f1_keywords:
+ - _D3DDDI_BATCHEDMARKERDATA
  - d3dumddi/_D3DDDI_BATCHEDMARKERDATA
+ - D3DDDI_BATCHEDMARKERDATA
  - d3dumddi/D3DDDI_BATCHEDMARKERDATA
 dev_langs:
  - c++
@@ -73,3 +75,4 @@ The driver is responsible for filling out this structure when submitting renderi
 [**D3DDDICB_SUBMITCOMMAND**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_submitcommand)
 
 [**D3DDDICB_SUBMITHISTORYSEQUENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_submithistorysequence)
+

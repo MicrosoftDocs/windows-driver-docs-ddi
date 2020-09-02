@@ -6,10 +6,8 @@ old-location: kernel\file_object.htm
 tech.root: kernel
 ms.assetid: fa87a3e8-97d2-48c0-9722-2be011d145dd
 ms.date: 04/30/2018
-keywords: ["_FILE_OBJECT structure"]
+keywords: ["FILE_OBJECT structure"]
 ms.keywords: "*PFILE_OBJECT, *PLOG_FILE_OBJECT, FILE_OBJECT, FILE_OBJECT structure [Kernel-Mode Driver Architecture], LOG_FILE_OBJECT, LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], PFILE_OBJECT, PFILE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _FILE_OBJECT, kernel.file_object, kstruct_b_513d4c8b-8e8d-402f-836d-18e00767bd29.xml, wdm/FILE_OBJECT, wdm/LOG_FILE_OBJECT, wdm/PFILE_OBJECT"
-f1_keywords:
- - "wdm/FILE_OBJECT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- FILE_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_OBJECT, *PFILE_OBJECT
+f1_keywords:
+ - _FILE_OBJECT
+ - wdm/_FILE_OBJECT
+ - PFILE_OBJECT
+ - wdm/PFILE_OBJECT
+ - FILE_OBJECT
+ - wdm/FILE_OBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - FILE_OBJECT
 ---
 
 # _FILE_OBJECT structure
@@ -47,38 +50,29 @@ req.typenames: FILE_OBJECT, *PFILE_OBJECT
 
 ## -description
 
-
 The <b>FILE_OBJECT</b> structure is used by the system to represent a file object. To user-mode protected subsystems, a file object represents an open instance of a file, device, directory, or volume. To device and intermediate drivers, a file object usually represents a device object. To drivers in the file system stack, a file object usually represents a directory or file.
 
 A file object is partially opaque. Certain types of drivers, such as file system drivers and network transport drivers, use some of the fields of file objects.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 A read-only member used by the system to indicate that the object is a file object. If the object is a file object, the value of this member is 5.
 
-
 ### -field Size
 
 A read-only member that specifies the size, in bytes, of the file object. This size does not include the file object extension, if one is present.
 
-
 ### -field DeviceObject
 
 A pointer to the device object on which the file is opened.
-
 
 ### -field Vpb
 
 A pointer to the volume parameter block associated with the file object.
 
 Note that if the <b>Vpb</b> member is non-<b>NULL</b>, the file resides on a mounted volume.
-
 
 ### -field FsContext
 
@@ -103,21 +97,17 @@ A pointer to whatever additional state a driver maintains about the file object;
 
 A pointer to the file object's read-only section object. This member is set only by file systems and used for Cache Manager interaction.
 
-
 ### -field PrivateCacheMap
 
 An opaque member, set only by file systems, that points to handle-specific information and that is used for Cache Manager interaction.
-
 
 ### -field FinalStatus
 
 A read-only member that is used, in certain synchronous cases, to indicate the final status of the file object's I/O request.
 
-
 ### -field RelatedFileObject
 
 A pointer to a <b>FILE_OBJECT</b> structure used to indicate that the current file object has been opened relative to an already open file object. The file object pointed to by this member is usually a directory (meaning the current file has been opened relative to this directory). However, a file can be reopened relative to itself, and alternate data streams for a file can be opened relative to an already open primary data stream for that same file. The <b>RelatedFileObject</b> member is only valid during the processing of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> requests.
-
 
 ### -field LockOperation
 
@@ -126,21 +116,17 @@ A read-only member. If <b>FALSE</b>, a lock operation
       <b>TRUE</b>, at least one lock operation has been performed on the file object. Once set to 
       <b>TRUE</b>, this member always remains <b>TRUE</b> (for example, releasing file locks on the file object does not reset this member to <b>FALSE</b>).
 
-
 ### -field DeletePending
 
 A read-only member. If <b>TRUE</b>, a delete operation for the file associated with the file object exists. If <b>FALSE</b>, there currently is no pending delete operation for the file object.
-
 
 ### -field ReadAccess
 
 A read-only member. If <b>TRUE</b>, the file associated with the file object has been opened for read access. If <b>FALSE</b>, the file has been opened without read access. This information is used when checking and/or setting the share access of the file.
 
-
 ### -field WriteAccess
 
 A read-only member. If <b>TRUE</b>, the file associated with the file object has been opened for write access. If <b>FALSE</b>, the file has been opened without write access. This information is used when checking and/or setting the share access of the file.
-
 
 ### -field DeleteAccess
 
@@ -148,21 +134,17 @@ A read-only member. If <b>TRUE</b>, the file associated with the file object has
       opened for delete access. If <b>FALSE</b>, the file has been opened without delete access. 
       This information is used when checking and/or setting the share access of the file.
 
-
 ### -field SharedRead
 
 A read-only member. If <b>TRUE</b>, the file associated with the file object has been opened for read sharing access. If <b>FALSE</b>, the file has been opened without read sharing access. This information is used when checking and/or setting the share access of the file.
 
-
 ### -field SharedWrite
 
-A read-only member. If <b>TRUE</b>, the file associated with the file object has been opened for write sharing access. If <b>FALSE</b>, the file has been opened without write sharing access. This information is used when checking and/or setting the share access of the file. 
-
+A read-only member. If <b>TRUE</b>, the file associated with the file object has been opened for write sharing access. If <b>FALSE</b>, the file has been opened without write sharing access. This information is used when checking and/or setting the share access of the file.
 
 ### -field SharedDelete
 
 A read-only member. If <b>TRUE</b>, the file associated with the file object has been opened for delete sharing access. If <b>FALSE</b>, the file has been opened without delete sharing access. This information is used when checking and/or setting the share access of the file.
-
 
 ### -field Flags
 
@@ -459,68 +441,53 @@ Skip setting an event supplied to a system service when the fast I/O path is suc
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FileName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure whose <b>Buffer</b> member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the <b>Length</b> member of the 
+A <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure whose <b>Buffer</b> member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the <b>Length</b> member of the 
       <b>UNICODE_STRING</b> structure will be zero. Note that the file name in this string is valid only during the initial processing of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request. This file name should <u>not</u> be considered valid after the file system starts to process the <b>IRP_MJ_CREATE</b> request. The storage for the string pointed to by the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure is allocated in paged system memory. For more information about obtaining a file name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>.
-
 
 ### -field CurrentByteOffset
 
 A read-only member that specifies the file offset, in bytes, associated with the file object.
 
-
 ### -field Waiters
 
 A read-only member used by the system to count the number of outstanding waiters on a file object opened for synchronous access.
-
 
 ### -field Busy
 
 A read-only member used by the system to indicate whether a file object opened for synchronous access is currently busy.
 
-
 ### -field LastLock
 
 An opaque pointer to the last lock applied to the file object.
-
 
 ### -field Lock
 
 An opaque member used by the system to hold a file object event lock. The event lock is used to control synchronous access to the file object. Applicable only to file objects that are opened for synchronous access.
 
-
 ### -field Event
 
 An opaque member used by the system to hold an event object for the file object. The event object is used to signal the completion of an I/O request on the file object if no user event was supplied or a synchronous API was called.
-
 
 ### -field CompletionContext
 
 An opaque pointer to completion port information (port pointer and key) associated with the file object, if any.
 
-
 ### -field IrpListLock
 
 An opaque pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-spin-locks">KSPIN_LOCK</a> structure that serves as the spin lock used to synchronize access to the file object's IRP list.
-
 
 ### -field IrpList
 
 An opaque pointer to the head of the IRP list associated with the file object.
 
-
 ### -field FileObjectExtension
 
 An opaque pointer to the file object's file object extension (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>) structure. The <b>FOBX</b> structure contains various opaque contexts used internally as well as the per-file object contexts available through <b>FsRtl<i>Xxx</i></b> routines.
 
-
 ## -remarks
-
-
 
 Drivers can use the <b>FsContext</b> and <b>FsContext2</b> members to maintain driver-determined state about an open file object. A driver cannot use these members unless the file object is accessible in the driver's I/O stack location of an IRP.
 
@@ -555,12 +522,7 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -595,7 +557,4 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
- 
-
- 
 

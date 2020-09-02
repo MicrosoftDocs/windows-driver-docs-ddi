@@ -8,8 +8,6 @@ ms.assetid: 5bbe432d-f236-46ec-8e78-788bd676b852
 ms.date: 05/02/2018
 keywords: ["DMA_CHANNEL_FREE_HANDLER callback function"]
 ms.keywords: DMA_CHANNEL_FREE_HANDLER, DMA_CHANNEL_FREE_HANDLER callback, ProviderFreeDmaChannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml, netvista.providerfreedmachannel
-f1_keywords:
- - "netdma/ProviderFreeDmaChannel"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netdma.h
-api_name:
-- ProviderFreeDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DMA_CHANNEL_FREE_HANDLER
+ - netdma/DMA_CHANNEL_FREE_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netdma.h
+api_name:
+ - ProviderFreeDmaChannel
 ---
 
 # DMA_CHANNEL_FREE_HANDLER callback function
 
 
 ## -description
-
 
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
@@ -55,24 +53,18 @@ in Windows 8 and later.</div><div> </div>The
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
   ProviderAllocateDmaChannel</a> function previously allocated.
 
-
 ## -parameters
 
+### -param ProviderChannelContext 
 
-
-
-### -param ProviderChannelContext [in]
-
+[in]
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
-
 ## -remarks
-
-
 
 The NetDMA interface calls a DMA provider driver's 
     <i>ProviderFreeDmaChannel</i> function to free a DMA channel. Before the NetDMA interface calls 
@@ -89,20 +81,11 @@ The NetDMA interface frees all of the allocated DMA channels before it returns f
 NetDMA calls 
     <i>ProviderFreeDmaChannel</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
- 
-
- 
 

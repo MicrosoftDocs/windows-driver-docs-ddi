@@ -8,8 +8,6 @@ ms.assetid: 287bf42b-253a-4d1a-8879-c3ab89b6743a
 ms.date: 05/03/2018
 keywords: ["wiasReadPropGuid function"]
 ms.keywords: image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasReadPropGuid"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasReadPropGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasReadPropGuid
+ - wiamdef/wiasReadPropGuid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasReadPropGuid
 ---
 
 # wiasReadPropGuid function
@@ -47,34 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasReadPropGuid </b>function retrieves a GUID property value from a WIA item.
-
 
 ## -parameters
 
+### -param pWiasContext 
 
-
-
-### -param pWiasContext [in]
-
+[in]
 Pointer to a WIA item context.
-
 
 ### -param propid
 
 Specifies the property identifier.
 
-
 ### -param pguidVal
 
-
-
-
 ### -param pguidValOld
-
-
-
 
 ### -param bMustExist
 
@@ -90,20 +77,11 @@ Pointer to a memory location that receives the GUID property value.
 
 Pointer to a memory location that receives the previous value of the GUID property data. If this information is not needed, this parameter can be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropbin">wiasReadPropBin</a>
 
@@ -122,7 +100,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropguid">wiasWritePropGuid</a>
- 
-
- 
 

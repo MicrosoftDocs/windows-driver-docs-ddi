@@ -8,8 +8,6 @@ ms.assetid: 6a456b8c-aec6-443d-8db4-21e7715ab818
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces4::EndEnumTagged"]
 ms.keywords: EndEnumTagged, EndEnumTagged method [Windows Debugging], EndEnumTagged method [Windows Debugging],IDebugDataSpaces3 interface, EndEnumTagged method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces3 interface [Windows Debugging],EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, IDebugDataSpaces4 interface [Windows Debugging],EndEnumTagged method, IDebugDataSpaces4.EndEnumTagged, IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, dbgeng/IDebugDataSpaces3::EndEnumTagged, dbgeng/IDebugDataSpaces4::EndEnumTagged, debugger.endenumtagged
-f1_keywords:
- - "dbgeng/IDebugDataSpaces3.EndEnumTagged"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugDataSpaces3.EndEnumTagged
-- IDebugDataSpaces4.EndEnumTagged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces4::EndEnumTagged
+ - dbgeng/IDebugDataSpaces4::EndEnumTagged
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugDataSpaces3.EndEnumTagged
+ - IDebugDataSpaces4.EndEnumTagged
 ---
 
 # IDebugDataSpaces4::EndEnumTagged
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>EndEnumTagged</b> method releases the resources used by the specified enumeration.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 Specifies the handle identifying the enumeration.  This is the handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -85,16 +77,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After a handle has been passed to this method it is no longer valid and must not be used again.
-
-
 

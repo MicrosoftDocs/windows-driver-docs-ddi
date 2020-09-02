@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["MIPI_DSI2_CAPS structure"]
 f1_keywords:
  - "ntddvdeo/MIPI_DSI2_CAPS"
+ - "MIPI_DSI2_CAPS"
 ms.keywords: MIPI_DSI2_CAPS, MIPI_DSI2_CAPS, *PMIPI_DSI2_CAPS, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - MIPI_DSI2_CAPS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

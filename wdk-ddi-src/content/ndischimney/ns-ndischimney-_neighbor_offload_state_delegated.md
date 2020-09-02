@@ -6,10 +6,8 @@ old-location: netvista\neighbor_offload_state_delegated.htm
 tech.root: netvista
 ms.assetid: 94a35d0f-3585-45d0-bba8-0b4a8ebbe883
 ms.date: 05/02/2018
-keywords: ["_NEIGHBOR_OFFLOAD_STATE_DELEGATED structure"]
+keywords: ["NEIGHBOR_OFFLOAD_STATE_DELEGATED structure"]
 ms.keywords: "*PNEIGHBOR_OFFLOAD_STATE_DELEGATED, NEIGHBOR_OFFLOAD_STATE_DELEGATED, NEIGHBOR_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_DELEGATED, PNEIGHBOR_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_DELEGATED, netvista.neighbor_offload_state_delegated, tcp_chim_struct_860c3a42-4276-4a6e-92c2-c32bc1afa9b2.xml"
-f1_keywords:
- - "ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- NEIGHBOR_OFFLOAD_STATE_DELEGATED
-product:
-- Windows
 targetos: Windows
 req.typenames: NEIGHBOR_OFFLOAD_STATE_DELEGATED, *PNEIGHBOR_OFFLOAD_STATE_DELEGATED
+f1_keywords:
+ - _NEIGHBOR_OFFLOAD_STATE_DELEGATED
+ - ndischimney/_NEIGHBOR_OFFLOAD_STATE_DELEGATED
+ - PNEIGHBOR_OFFLOAD_STATE_DELEGATED
+ - ndischimney/PNEIGHBOR_OFFLOAD_STATE_DELEGATED
+ - NEIGHBOR_OFFLOAD_STATE_DELEGATED
+ - ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - NEIGHBOR_OFFLOAD_STATE_DELEGATED
 ---
 
 # _NEIGHBOR_OFFLOAD_STATE_DELEGATED structure
@@ -47,17 +50,12 @@ req.typenames: NEIGHBOR_OFFLOAD_STATE_DELEGATED, *PNEIGHBOR_OFFLOAD_STATE_DELEGA
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The NEIGHBOR_OFFLOAD_STATE_DELGATED structure contains the delegated variable of a neighbor state
   object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -69,7 +67,6 @@ An
      <b>RecognizedOptions</b> member of 
      <b>Header</b> is reserved.
 
-
 ### -field NicReachabilityDelta
 
 The NIC's current time minus the 
@@ -78,10 +75,7 @@ The NIC's current time minus the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismoffloadeventindicate">NdisMOffloadEventIndicate</a>. 
      <b>NicReachabilityDelta</b> is measured in units of clock ticks.
 
-
 ## -remarks
-
-
 
 The host stack provides initial values for the 
     <b>NicReachabilityDelta</b> variable when it offloads the variable to the offload target. After it's been
@@ -106,13 +100,7 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_DELEGATED structure i
     <b>Revision</b> member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of
     the NEIGHBOR_OFFLOAD_STATE_DELEGATED structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
 
@@ -135,7 +123,4 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_DELEGATED structure i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
- 
-
- 
 

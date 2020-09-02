@@ -6,10 +6,8 @@ old-location: netvista\ndis_msix_config_parameters.htm
 tech.root: netvista
 ms.assetid: 52c3238f-4d3a-4241-95bf-630e57e8a6e1
 ms.date: 05/02/2018
-keywords: ["_NDIS_MSIX_CONFIG_PARAMETERS structure"]
+keywords: ["NDIS_MSIX_CONFIG_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MSIX_CONFIG_PARAMETERS, ndis/NDIS_MSIX_CONFIG_PARAMETERS, ndis/PNDIS_MSIX_CONFIG_PARAMETERS, ndis_msix_ref_01a237b1-bb32-4aad-8552-b36b66141061.xml, netvista.ndis_msix_config_parameters"
-f1_keywords:
- - "ndis/NDIS_MSIX_CONFIG_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MSIX_CONFIG_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MSIX_CONFIG_PARAMETERS, *PNDIS_MSIX_CONFIG_PARAMETERS
+f1_keywords:
+ - _NDIS_MSIX_CONFIG_PARAMETERS
+ - ndis/_NDIS_MSIX_CONFIG_PARAMETERS
+ - PNDIS_MSIX_CONFIG_PARAMETERS
+ - ndis/PNDIS_MSIX_CONFIG_PARAMETERS
+ - NDIS_MSIX_CONFIG_PARAMETERS
+ - ndis/NDIS_MSIX_CONFIG_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MSIX_CONFIG_PARAMETERS
 ---
 
 # _NDIS_MSIX_CONFIG_PARAMETERS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_MSIX_CONFIG_PARAMETERS, *PNDIS_MSIX_CONFIG_PARAMETERS
 
 ## -description
 
-
 The NDIS_MSIX_CONFIG_PARAMETERS structure defines a requested configuration operation and specifies
   the parameters that are required for that particular operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,7 +65,6 @@ The
      <b>Revision</b> member to NDIS_MSIX_CONFIG_PARAMETERS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_MSIX_CONFIG_PARAMETERS_REVISION_1.
 
-
 ### -field ConfigOperation
 
 The requested configuration operation for a MSI-X table entry. This operation is specified as one
@@ -75,11 +72,9 @@ The requested configuration operation for a MSI-X table entry. This operation is
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_msix_table_config">
      NDIS_MSIX_TABLE_OPERATION</a> enumeration.
 
-
 ### -field TableEntry
 
 The MSI-X table entry index.
-
 
 ### -field MessageNumber
 
@@ -88,10 +83,7 @@ The MSI-X message number that is assigned to the device. This value is required 
      <b>NdisMSIXTableConfigMaskTableEntry</b> or 
      <b>NdisMSIXTableConfigUnmaskTableEntry</b> operations.
 
-
 ## -remarks
-
-
 
 To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX_CONFIG_PARAMETERS
     structure to the 
@@ -99,13 +91,7 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
     NdisMConfigMSIXTableEntry</a> function. NDIS_MSIX_CONFIG_PARAMETERS defines a requested configuration
     operation and specifies the parameters that are required for that operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_msix_table_config">NDIS_MSIX_TABLE_OPERATION</a>
 
@@ -116,7 +102,4 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismconfigmsixtableentry">NdisMConfigMSIXTableEntry</a>
- 
-
- 
 

@@ -6,38 +6,38 @@ tech.root: audio
 ms.assetid: 7ad59aef-fc02-4102-a5b8-5349209bd65d
 ms.date: 10/31/2018
 keywords: ["IAdapterPnpManagement::PnpStop"]
-f1_keywords:
- - "portcls/IAdapterPnpManagement.PnpStop"
 ms.keywords: IAdapterPnpManagement::PnpStop, PnpStop, IAdapterPnpManagement.PnpStop, IAdapterPnpManagement::PnpStop, IAdapterPnpManagement.PnpStop
 req.header: portcls.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - portcls.h
-api_name: 
- - IAdapterPnpManagement.PnpStop
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - IAdapterPnpManagement::PnpStop
+ - portcls/IAdapterPnpManagement::PnpStop
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IAdapterPnpManagement.PnpStop
+product:
+ - Windows
 ---
 
 # IAdapterPnpManagement::PnpStop
@@ -60,7 +60,7 @@ IAdapterPnpManagement::Pnpstop is called after:
 - All the Pnp interfaces have been turned off. 
 - All pending I/O has been cancelled. 
 
-For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).  
+For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).
 
 ## -see-also
 

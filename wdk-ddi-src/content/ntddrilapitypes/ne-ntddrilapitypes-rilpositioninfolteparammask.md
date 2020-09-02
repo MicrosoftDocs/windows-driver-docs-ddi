@@ -8,38 +8,37 @@ ms.assetid: cf89467e-1bf1-44ee-a027-23b49aca845f
 ms.date: 02/16/2018
 keywords: ["RILPOSITIONINFOLTEPARAMMASK enumeration"]
 ms.keywords: RILPOSITIONINFOLTEPARAMMASK, RILPOSITIONINFOLTEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_LTE_ALL, RIL_PARAM_POSITION_LTE_CELLID, RIL_PARAM_POSITION_LTE_EARFCN, RIL_PARAM_POSITION_LTE_MCC, RIL_PARAM_POSITION_LTE_MNC, RIL_PARAM_POSITION_LTE_PHYSCELLID, RIL_PARAM_POSITION_LTE_RSRP, RIL_PARAM_POSITION_LTE_RSRQ, RIL_PARAM_POSITION_LTE_TA, RIL_PARAM_POSITION_LTE_TAC, netvista.rilpositioninfolteparammask, rilapitypes/RILPOSITIONINFOLTEPARAMMASK, rilapitypes/RIL_PARAM_POSITION_LTE_ALL, rilapitypes/RIL_PARAM_POSITION_LTE_CELLID, rilapitypes/RIL_PARAM_POSITION_LTE_EARFCN, rilapitypes/RIL_PARAM_POSITION_LTE_MCC, rilapitypes/RIL_PARAM_POSITION_LTE_MNC, rilapitypes/RIL_PARAM_POSITION_LTE_PHYSCELLID, rilapitypes/RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_RSRQ, rilapitypes/RIL_PARAM_POSITION_LTE_TA, rilapitypes/RIL_PARAM_POSITION_LTE_TAC
-f1_keywords:
- - "ntddrilapitypes/RILPOSITIONINFOLTEPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILPOSITIONINFOLTEPARAMMASK
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILPOSITIONINFOLTEPARAMMASK
+f1_keywords:
+ - RILPOSITIONINFOLTEPARAMMASK
+ - ntddrilapitypes/RILPOSITIONINFOLTEPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILPOSITIONINFOLTEPARAMMASK
 ---
 
 # RILPOSITIONINFOLTEPARAMMASK enumeration
@@ -47,14 +46,31 @@ req.typenames: RILPOSITIONINFOLTEPARAMMASK
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILPOSITIONINFOLTEPARAMMASK.
 
+## -enum-fields
 
+### -field RIL_PARAM_POSITION_LTE_MCC
 
+### -field RIL_PARAM_POSITION_LTE_MNC
+
+### -field RIL_PARAM_POSITION_LTE_CELLID
+
+### -field RIL_PARAM_POSITION_LTE_EARFCN
+
+### -field RIL_PARAM_POSITION_LTE_PHYSCELLID
+
+### -field RIL_PARAM_POSITION_LTE_TAC
+
+### -field RIL_PARAM_POSITION_LTE_RSRP
+
+### -field RIL_PARAM_POSITION_LTE_RSRQ
+
+### -field RIL_PARAM_POSITION_LTE_TA
+
+### -field RIL_PARAM_POSITION_LTE_ALL
 
 ## -syntax
-
 
 ```cpp
 enum RILPOSITIONINFOLTEPARAMMASK {
@@ -72,45 +88,7 @@ enum RILPOSITIONINFOLTEPARAMMASK {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_PARAM_POSITION_LTE_MCC
-
-
-### -field RIL_PARAM_POSITION_LTE_MNC
-
-
-### -field RIL_PARAM_POSITION_LTE_CELLID
-
-
-### -field RIL_PARAM_POSITION_LTE_EARFCN
-
-
-### -field RIL_PARAM_POSITION_LTE_PHYSCELLID
-
-
-### -field RIL_PARAM_POSITION_LTE_TAC
-
-
-### -field RIL_PARAM_POSITION_LTE_RSRP
-
-
-### -field RIL_PARAM_POSITION_LTE_RSRQ
-
-
-### -field RIL_PARAM_POSITION_LTE_TA
-
-
-### -field RIL_PARAM_POSITION_LTE_ALL
-
-
 ## -remarks
-
-
 
 Networks will vary, but the following table summarizes which items are returned for typical LTE networks.
 
@@ -460,19 +438,8 @@ No
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
 

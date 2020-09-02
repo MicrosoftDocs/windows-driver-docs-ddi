@@ -8,8 +8,6 @@ ms.assetid: b80a1823-6d91-440f-89e4-f7248579cc8f
 ms.date: 05/10/2018
 keywords: ["PFND3DDDI_CREATEPIXELSHADER callback function"]
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3DDDI_CREATEPIXELSHADER, PFND3DDDI_CREATEPIXELSHADER callback, UserModeDisplayDriver_Functions_4e9d378f-d5aa-4b5d-9a66-ff2dd2f8fae8.xml, d3dumddi/CreatePixelShader, display.createpixelshader
-f1_keywords:
- - "d3dumddi/CreatePixelShader"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- CreatePixelShader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFND3DDDI_CREATEPIXELSHADER
+ - d3dumddi/PFND3DDDI_CREATEPIXELSHADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - CreatePixelShader
 ---
 
 # PFND3DDDI_CREATEPIXELSHADER callback function
@@ -47,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>CreatePixelShader</b> function converts pixel shader code into a hardware-specific format and associates this code with a shader handle.
-
 
 ## -parameters
 
+### -param hDevice 
 
-
-
-### -param hDevice [in]
-
+[in]
 A handle to the display device (graphics context).
-
 
 ### -param Arg2
 
@@ -73,36 +67,19 @@ An array of CONST UINT tokens that make up the pixel shader code.
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createpixelshader">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
 
-
 ## -returns
-
-
 
 <b>CreatePixelShader</b> returns S_OK or an appropriate error result if the pixel shader code object is not successfully created.
 
-
-
-
 ## -remarks
-
-
 
 For more information about programming shader assemblers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/processing-shader-codes">Processing Shader Codes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createpixelshader">D3DDDIARG_CREATEPIXELSHADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

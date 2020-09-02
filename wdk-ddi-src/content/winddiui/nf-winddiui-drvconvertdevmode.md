@@ -8,8 +8,6 @@ ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.date: 04/20/2018
 keywords: ["DrvConvertDevMode function"]
 ms.keywords: DrvConvertDevMode, DrvConvertDevMode function [Print Devices], print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, winddiui/DrvConvertDevMode
-f1_keywords:
- - "winddiui/DrvConvertDevMode"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvConvertDevMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvConvertDevMode
+ - winddiui/DrvConvertDevMode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvConvertDevMode
 ---
 
 # DrvConvertDevMode function
@@ -47,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
 A printer interface DLL's <b>DrvConvertDevMode</b> function converts a printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure from one version to another.
-
 
 ## -parameters
 
+### -param pPrinterName 
 
-
-
-### -param pPrinterName [in]
-
+[in]
 Caller-supplied pointer to a printer name string. For more information about this parameter, see the following Remarks section.
 
+### -param pdmIn 
 
-### -param pdmIn [in]
-
+[in]
 Caller-supplied pointer to an input DEVMODEW structure. If <i>fMode</i> is CDM_DRIVER_DEFAULT, this pointer is <b>NULL</b>.
 
+### -param pdmOut 
 
-### -param pdmOut [out]
-
+[out]
 Caller-supplied pointer to a buffer to receive an output DEVMODEW structure. If <i>fMode</i> is CDM_CONVERT the buffer contains, on input, a valid DEVMODEW structure indicating the target driver version.
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [in, out]
-
+[in, out]
 Caller-supplied pointer to the size, in bytes, of the buffer pointed to by <i>pdmOut</i>. On output, the printer interface DLL should overwrite the received size value with the actual size of the converted DEVMODEW structure. If the received buffer is too small, the printer interface DLL should overwrite the received size value with the required buffer size.
 
+### -param fMode 
 
-### -param fMode [in]
-
+[in]
 Caller-supplied bit flag indicating the type of operation to be performed. This can be one of the following flags:
 
 
@@ -106,19 +101,11 @@ If the driver does not support a DEVMODEW structure for Windows NT 3.51, the fun
 
 The function should copy the current version of its default DEVMODEW structure to the buffer pointed to by <i>pdmOut</i>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>TRUE</b>; otherwise, it should call SetLastError to set an error code, and return <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 In a client/server environment, a client might be running one version of the operating system or printer driver while the server (spooler) is running another, which means a printer's DEVMODEW structure definition might be inconsistent between the client and server. The <b>DrvConvertDevMode</b> function must be capable of performing conversions from one version of the printer's DEVMODEW structure to another.
 
@@ -131,6 +118,4 @@ The function should verify that both <i>pdmIn</i> and <i>pdmOut</i> (if applicab
 The <b>DrvConvertDevMode</b> function runs in the spooler's context and must therefore not display a user interface.
 
 When <b>DrvConvertDevMode</b> is called with a <b>NULL</b> DEVMODEW structure pointer in the <i>pdmOut </i>parameter to get the buffer size, the driver is expected to set the last error to ERROR_INSUFFICIENT_BUFFER. If the last error is not set to this value, the spooler assumes a general error.
-
-
 

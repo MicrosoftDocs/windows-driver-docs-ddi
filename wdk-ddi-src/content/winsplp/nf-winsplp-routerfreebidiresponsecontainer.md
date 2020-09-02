@@ -8,8 +8,6 @@ ms.assetid: 3998eed5-398e-4835-b917-54f5ae814ddf
 ms.date: 04/20/2018
 keywords: ["RouterFreeBidiResponseContainer function"]
 ms.keywords: RouterFreeBidiResponseContainer, RouterFreeBidiResponseContainer function [Print Devices], print.routerfreebidiresponsecontainer, spoolfnc_065c8a3a-5790-45f5-bf79-3af94fdd0571.xml, winsplp/RouterFreeBidiResponseContainer
-f1_keywords:
- - "winsplp/RouterFreeBidiResponseContainer"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinSpool.drv
-api_name:
-- RouterFreeBidiResponseContainer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RouterFreeBidiResponseContainer
+ - winsplp/RouterFreeBidiResponseContainer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinSpool.drv
+api_name:
+ - RouterFreeBidiResponseContainer
 ---
 
 # RouterFreeBidiResponseContainer function
@@ -47,40 +46,24 @@ req.typenames:
 
 ## -description
 
-
 <code>RouterFreeBidiResponseContainer</code> frees a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>.
-
 
 ## -parameters
 
+### -param pData 
 
-
-
-### -param pData [in]
-
+[in]
 Pointer to the BIDI_RESPONSE_CONTAINER structure to be freed.
-
 
 ## -returns
 
-
-
 <code>RouterFreeBidiResponseContainer</code> normally returns ERROR_SUCCESS, unless it throws an exception. In that case it returns an appropriate error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>
- 
-
- 
 

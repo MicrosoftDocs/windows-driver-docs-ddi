@@ -5,42 +5,44 @@ description: The client driver uses the MBB_DEVICE_MBIM_PARAMETERS structure to 
 tech.root: netvista
 ms.assetid: 814daf06-b7f3-4cee-8b74-8b0a13a6292a
 ms.date: 02/06/2019
-keywords: ["_MBB_DEVICE_MBIM_PARAMETERS structure"]
-f1_keywords:
- - "mbbcx/-	_MBB_DEVICE_MBIM_PARAMETERS"
-ms.keywords: _MBB_DEVICE_MBIM_PARAMETERS, MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS, 
+keywords: ["MBB_DEVICE_MBIM_PARAMETERS structure"]
+ms.keywords: _MBB_DEVICE_MBIM_PARAMETERS, MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS,
 req.header: mbbcx.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- mbbcx.h
-api_name: 
-- _MBB_DEVICE_MBIM_PARAMETERS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _MBB_DEVICE_MBIM_PARAMETERS
+ - mbbcx/_MBB_DEVICE_MBIM_PARAMETERS
+ - PMBB_DEVICE_MBIM_PARAMETERS
+ - mbbcx/PMBB_DEVICE_MBIM_PARAMETERS
+ - MBB_DEVICE_MBIM_PARAMETERS
+ - mbbcx/MBB_DEVICE_MBIM_PARAMETERS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - mbbcx.h
+api_name:
+ - _MBB_DEVICE_MBIM_PARAMETERS
 ---
 
 # _MBB_DEVICE_MBIM_PARAMETERS structure
 
+
 ## -description
-
-
 
 The client driver uses the **MBB_DEVICE_MBIM_PARAMETERS** structure to describe its MBIM specification-related parameters to the MBBCx framework.
 
@@ -49,7 +51,7 @@ The client driver uses the **MBB_DEVICE_MBIM_PARAMETERS** structure to describe 
 ### -field Size
 
 The size of this structure, in bytes.
- 
+
 ### -field Version
 
 An [**MBB_MBIM_VERSION**](ne-mbbcx-_mbb_mbim_version.md) value that defines the version of the MBIM specification that the client driver supports. The value of this field must be **MBB_MBIM_VERSION1_0_ERRATA**.
@@ -60,7 +62,7 @@ An [**MBB_MBIM_VERSION**](ne-mbbcx-_mbb_mbim_version.md) value that defines the 
 ### -field ExtendedVersion
 
 An [**MBB_MBIM_EXTENDED_VERSION**](../mbbcx/ne-mbbcx-_mbb_mbim_extended_version.md) value that defines the version of the extended MBIM specification that the client driver supports. The value of this field must be **MBB_MBIM_EXTENDED_VERSION2_0**.
- 
+
 ### -field MaximumFragmentSize
 
 The maximum size of MBIM control messages that the client driver can support.
@@ -72,3 +74,4 @@ The MBBCx framework uses the value of this field to determine if it needs to fra
 Call [**MBB_DEVICE_MBIM_PARAMETERS_INIT**](nf-mbbcx-mbb_device_mbim_parameters_init.md) to intialize this structure.
 
 ## -see-also
+

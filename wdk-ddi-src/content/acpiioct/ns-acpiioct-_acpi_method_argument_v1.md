@@ -6,10 +6,8 @@ old-location: acpi\acpi_method_argument.htm
 tech.root: acpi
 ms.assetid: 4038d5a5-9ce7-44cb-a6f0-3033617cfe6a
 ms.date: 02/15/2018
-keywords: ["_ACPI_METHOD_ARGUMENT_V1 structure"]
+keywords: ["ACPI_METHOD_ARGUMENT_V1 structure"]
 ms.keywords: "*PACPI_METHOD_ARGUMENT, *PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT, ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], _ACPI_METHOD_ARGUMENT_V1, acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, acpi.acpi_method_argument, acpiioct/ACPI_METHOD_ARGUMENT_V1"
-f1_keywords:
- - "acpiioct/ACPI_METHOD_ARGUMENT_V1"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_METHOD_ARGUMENT_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT
+f1_keywords:
+ - _ACPI_METHOD_ARGUMENT_V1
+ - acpiioct/_ACPI_METHOD_ARGUMENT_V1
+ - ACPI_METHOD_ARGUMENT_V1
+ - acpiioct/ACPI_METHOD_ARGUMENT_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_METHOD_ARGUMENT_V1
 ---
 
 # _ACPI_METHOD_ARGUMENT_V1 structure
@@ -47,14 +48,9 @@ req.typenames: ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT
 
 ## -description
 
-
 The ACPI_METHOD_ARGUMENT structure contains the value of an input or output argument of an ACPI control method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -84,32 +80,23 @@ The <b>Data</b> array contains custom data, and <b>DataLength</b> supplies the n
 
 #### ACPI_METHOD_ARGUMENT_PACKAGE
 
-The <b>Data</b> array contains an ACPI package descriptor and <b>DataLength</b> supplies the number of consecutive array elements that contain the package descriptor, beginning with the <b>Data</b>[0] element. 
-
+The <b>Data</b> array contains an ACPI package descriptor and <b>DataLength</b> supplies the number of consecutive array elements that contain the package descriptor, beginning with the <b>Data</b>[0] element.
 
 ### -field DataLength
 
 The number of UCHAR elements in the <b>Data</b> array that contains the argument data.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.Argument
 
 An argument value of type ULONG.
 
-
 ### -field DUMMYUNIONNAME.Data
 
 An array of values of type UCHAR that contains argument data.
 
-
 ## -remarks
-
-
 
 An ACPI_EVAL_OUTPUT_BUFFER structure includes an <b>Argument</b> array of ACPI_METHOD_ARGUMENT structures. The following IOCTLs evaluate control methods and return output arguments in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_output_buffer_v1">ACPI_EVAL_OUTPUT_BUFFER</a> structure:
 
@@ -133,13 +120,7 @@ The ACPI_METHOD_ARGUMENT structure is also used to supply an array of complex in
 
 For more information about how to use ACPI_METHOD_ARGUMENT structures to supply and retrieve argument data to an ACPI control method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_input_buffer_complex_v1">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
@@ -150,7 +131,4 @@ For more information about how to use ACPI_METHOD_ARGUMENT structures to supply 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_output_buffer_v1">ACPI_EVAL_OUTPUT_BUFFER</a>
- 
-
- 
 

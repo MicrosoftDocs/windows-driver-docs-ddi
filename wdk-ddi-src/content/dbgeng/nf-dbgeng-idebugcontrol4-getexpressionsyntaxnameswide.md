@@ -8,8 +8,6 @@ ms.assetid: 4d381718-366b-483b-804d-b12b31832b35
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetExpressionSyntaxNamesWide"]
 ms.keywords: GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], GetExpressionSyntaxNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExpressionSyntaxNamesWide method, IDebugControl4.GetExpressionSyntaxNamesWide, IDebugControl4::GetExpressionSyntaxNamesWide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide
-f1_keywords:
- - "dbgeng/IDebugControl4.GetExpressionSyntaxNamesWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.GetExpressionSyntaxNamesWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::GetExpressionSyntaxNamesWide
+ - dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.GetExpressionSyntaxNamesWide
 ---
 
 # IDebugControl4::GetExpressionSyntaxNamesWide
@@ -47,53 +46,46 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetExpressionSyntaxNamesWide</b> method returns the full and abbreviated names of an expression syntax.
-
 
 ## -parameters
 
+### -param Index 
 
-
-
-### -param Index [in]
-
+[in]
 Specifies the index of the expression syntax.  <i>Index</i> should be between zero and the number of expression syntaxes returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberexpressionsyntaxes">GetNumberExpressionSyntaxes</a> minus one.
 
+### -param FullNameBuffer 
 
-### -param FullNameBuffer [out, optional]
-
+[out, optional]
 Receives the full name of the expression syntax.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param FullNameBufferSize 
 
-### -param FullNameBufferSize [in]
-
+[in]
 Specifies the size, in characters, of the buffer <i>FullNameBuffer</i>.
 
+### -param FullNameSize 
 
-### -param FullNameSize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the full name of the expression syntax.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
+### -param AbbrevNameBuffer 
 
-### -param AbbrevNameBuffer [out, optional]
-
+[out, optional]
 Receives the abbreviated name of the expression syntax.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param AbbrevNameBufferSize 
 
-### -param AbbrevNameBufferSize [in]
-
+[in]
 Specifies the size, in characters, of the buffer <i>AbbrevNameBufferSize</i>.
 
+### -param AbbrevNameSize 
 
-### -param AbbrevNameSize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the abbreviated name of the expression syntax.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -125,24 +117,12 @@ The method was successful.  However, either <i>FullNameBufferSize</i> or <i>Abbr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Currently, there are two expression syntaxes, their full names are "Microsoft Assembler expressions" and "C++ source expressions."  The corresponding abbreviated expression syntaxes are "MASM" and "C++."
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-evaluate">Evaluate</a>
 
@@ -157,7 +137,4 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
- 
-
- 
 

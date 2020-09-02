@@ -8,8 +8,6 @@ ms.assetid: 55979b0d-61a6-43da-8fa5-11159b1a48d1
 ms.date: 05/02/2018
 keywords: ["FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: "(*FILTER_CANCEL_SEND_HANDLER), (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback, FilterCancelSendNetBufferLists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml, ndis/FilterCancelSendNetBufferLists, netvista.filtercancelsendnetbufferlists"
-f1_keywords:
- - "ndis/(*FILTER_CANCEL_SEND_HANDLER)"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- (*FILTER_CANCEL_SEND_HANDLER)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_CANCEL_SEND_NET_BUFFER_LISTS
+ - ndis/FILTER_CANCEL_SEND_NET_BUFFER_LISTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - (*FILTER_CANCEL_SEND_HANDLER)
 ---
 
 # FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback function
 
 
 ## -description
-
 
 NDIS calls a filter driver's 
   <i>FilterCancelSendNetBufferLists</i> function to cancel the transmission of all 
@@ -57,25 +55,20 @@ NDIS calls a filter driver's
 
 ## -parameters
 
+### -param FilterModuleContext 
 
-
-
-### -param FilterModuleContext [in]
-
+[in]
 A handle to a context area that the filter driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function. The filter driver
      uses this context area to maintain state information for a filter module.
 
+### -param CancelId 
 
-### -param CancelId [in]
-
+[in]
 A cancellation identifier. This identifier specifies the NET_BUFFER_LIST structures that are being
      canceled.
 
-
 ## -remarks
-
-
 
 The
     <i>FilterCancelSendNetBufferLists</i> function is optional. If a filter driver does not filter send
@@ -169,15 +162,9 @@ VOID
 </table></span></div>
 The <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -211,7 +198,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsendnetbufferlistscomplete">
    NdisFSendNetBufferListsComplete</a>
- 
-
- 
 

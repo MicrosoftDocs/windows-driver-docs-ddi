@@ -8,8 +8,6 @@ ms.assetid: 5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_ADD_DEVICE callback function"]
 ms.keywords: DXGKDDI_ADD_DEVICE, DXGKDDI_ADD_DEVICE callback, DmFunctions_83323c62-42ac-45f5-80c8-b914fda642b5.xml, DxgkDdiAddDevice, DxgkDdiAddDevice callback function [Display Devices], display.dxgkddiadddevice, dispmprt/DxgkDdiAddDevice
-f1_keywords:
- - "dispmprt/DxgkDdiAddDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiAddDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_ADD_DEVICE
+ - dispmprt/DXGKDDI_ADD_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiAddDevice
 ---
 
 # DXGKDDI_ADD_DEVICE callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiAddDevice</i> function creates a context block for a display adapter and returns a handle that represents the display adapter.
-
 
 ## -parameters
 
+### -param PhysicalDeviceObject 
 
-
-
-### -param PhysicalDeviceObject [in]
-
+[in]
 A pointer to a physical device object (PDO) that identifies a display adapter.
 
+### -param MiniportDeviceContext 
 
-### -param MiniportDeviceContext [out]
-
-A pointer to a variable that receives a handle, created by the display miniport driver, that will represent the display adapter identified by <i>PhysicalDeviceObject</i>. The display miniport driver can return <b>NULL</b> in this parameter to indicate that it will not support the display adapter identified by <i>PhysicalDeviceObject</i>. 
-
+[out]
+A pointer to a variable that receives a handle, created by the display miniport driver, that will represent the display adapter identified by <i>PhysicalDeviceObject</i>. The display miniport driver can return <b>NULL</b> in this parameter to indicate that it will not support the display adapter identified by <i>PhysicalDeviceObject</i>.
 
 ## -returns
 
-
-
 <i>DxgkDdiAddDevice </i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 The <i>DxgkDdiAddDevice</i> function allocates a private context block that is associated with the display adapter identified by <i>PhysicalDeviceObject</i>. You can think of the handle returned in <i>MiniportDeviceContext</i> as a handle to the display adapter or as a handle to the context block associated with the display adapter. The DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) will supply the handle in subsequent calls to the display miniport driver. The following list gives examples of various components of <i>Dxgkrnl.sys</i> passing the handle to functions implemented by the display miniport driver.
 
@@ -103,20 +90,11 @@ In <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-
 
 The <i>DxgkDdiAddDevice</i> function should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_remove_device">DxgkDdiRemoveDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
- 
-
- 
 

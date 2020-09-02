@@ -8,8 +8,6 @@ ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.date: 04/30/2018
 keywords: ["PoRegisterSystemState function"]
 ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
-f1_keywords:
- - "wdm/PoRegisterSystemState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoRegisterSystemState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoRegisterSystemState
+ - wdm/PoRegisterSystemState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoRegisterSystemState
 ---
 
 # PoRegisterSystemState function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoRegisterSystemState</b> routine registers the system as busy due to certain activity.
-
 
 ## -parameters
 
+### -param StateHandle 
 
-
-
-### -param StateHandle [in, out]
-
+[in, out]
 A pointer to a caller-supplied buffer for a registration state handle. The size, in bytes, of the buffer is <b>sizeof</b>(ULONG). If <b>NULL</b>, this is a new registration. If non-<b>NULL</b>, this parameter points to a handle that was returned by a previous call to <b>PoRegisterSystemState</b>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Indicates the type of activity, as specified by a bitwise OR of one or more of the following values:
 
 
@@ -111,19 +106,11 @@ The system is not idle, regardless of apparent load.
 
 A user is present.
 
-
 ## -returns
-
-
 
 <b>PoRegisterSystemState</b> returns a handle to be used later to change or unregister the system busy state. It returns <b>NULL</b> if the handle could not be allocated.
 
-
-
-
 ## -remarks
-
-
 
 <b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>.
 
@@ -135,20 +122,11 @@ A driver can set the system busy state to request that the <a href="https://docs
 
 To set the system power state, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>
- 
-
- 
 

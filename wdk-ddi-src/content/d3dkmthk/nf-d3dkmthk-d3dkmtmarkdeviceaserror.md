@@ -5,41 +5,40 @@ description: Marks a device as error.
 ms.assetid: 4f9096f9-20a2-4312-a4a4-7bc62899e3ce
 ms.date: 10/19/2018
 keywords: ["D3DKMTMarkDeviceAsError function"]
-f1_keywords:
- - "d3dkmthk/D3DKMTMarkDeviceAsError"
 ms.keywords: D3DKMTMarkDeviceAsError
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Gdi32.dll
-api_name: 
-- D3DKMTMarkDeviceAsError
-product:
-- Windows
 targetos: Windows
-dev_langs:
- - c++
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - D3DKMTMarkDeviceAsError
+ - d3dkmthk/D3DKMTMarkDeviceAsError
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTMarkDeviceAsError
+dev_langs:
+ - c++
 ---
 
 # D3DKMTMarkDeviceAsError function
@@ -62,3 +61,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

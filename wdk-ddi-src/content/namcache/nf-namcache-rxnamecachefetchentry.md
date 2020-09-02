@@ -8,8 +8,6 @@ ms.assetid: 1f4c50a8-2eee-46c6-8ca0-f5858d227922
 ms.date: 04/16/2018
 keywords: ["RxNameCacheFetchEntry function"]
 ms.keywords: RxNameCacheFetchEntry, RxNameCacheFetchEntry function [Installable File System Drivers], ifsk.rxnamecachefetchentry, namcache/RxNameCacheFetchEntry, rxref_8e34b551-b8ee-44e9-a0ff-bbc680e44ad6.xml
-f1_keywords:
- - "namcache/RxNameCacheFetchEntry"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- namcache.h
-api_name:
-- RxNameCacheFetchEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxNameCacheFetchEntry
+ - namcache/RxNameCacheFetchEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - namcache.h
+api_name:
+ - RxNameCacheFetchEntry
 ---
 
 # RxNameCacheFetchEntry function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 <b>RxNameCacheFetchEntry</b> looks for a match with a specified name string for a NAME_CACHE entry.
-
 
 ## -parameters
 
+### -param NameCacheCtl 
 
-
-
-### -param NameCacheCtl [in]
-
+[in]
 A pointer to the NAME_CACHE_CONTROL structure to scan.
 
+### -param Name 
 
-### -param Name [in]
-
+[in]
 A pointer to the Unicode string that contains the name to match.
-
 
 ## -returns
 
-
-
-<b>RxNameCacheFetchEntry </b>returns a pointer to the matching NAME_CACHE structure if a match was found, or <b>NULL</b> if the match failed. 
-
-
-
+<b>RxNameCacheFetchEntry </b>returns a pointer to the matching NAME_CACHE structure if a match was found, or <b>NULL</b> if the match failed.
 
 ## -remarks
-
-
 
 <b>RxNameCacheFetchEntry</b> looks for a match in the name cache active list for the specified <i>Name</i> parameter. If the name is found, the entry is removed from the name cache active list and a pointer to the NAME_CACHE structure is returned. Otherwise, <b>NULL</b> is returned.
 
@@ -87,13 +74,7 @@ If a matching NAME_CACHE entry is found, no check is made for expiration. The ca
 
 As a aside effect as the name cache active list is scanned, any non-matching entries that have expired are put on the free list. The name cache lock is acquired to protect this operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/namcache/nf-namcache-rxnamecacheactivateentry">RxNameCacheActivateEntry</a>
 
@@ -124,7 +105,4 @@ As a aside effect as the name cache active list is scanned, any non-matching ent
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/namcache/nf-namcache-rxnamecacheinitialize">RxNameCacheInitialize</a>
- 
-
- 
 

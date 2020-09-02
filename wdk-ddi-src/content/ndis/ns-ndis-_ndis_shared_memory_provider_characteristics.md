@@ -6,10 +6,8 @@ old-location: netvista\ndis_shared_memory_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: 45001da1-5fe3-4383-8da7-31e3ee115c1f
 ms.date: 05/02/2018
-keywords: ["_NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure"]
+keywords: ["NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis_shared_memory_ref_0cb54ab1-d469-4fa0-833a-eb17e1441e76.xml, netvista.ndis_shared_memory_provider_characteristics"
-f1_keywords:
- - "ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, *PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+f1_keywords:
+ - _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+ - ndis/_NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+ - PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+ - ndis/PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+ - NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+ - ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
 ---
 
 # _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, *PNDIS_SHARED_MEMORY
 
 ## -description
 
-
 The NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure specifies shared memory provider
   characteristics.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,11 +65,9 @@ The
      <b>Revision</b> member to NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_SHARED_MEMORY_PROVIDER_CHARACTERISTICS_REVISION_1.
 
-
 ### -field Flags
 
 Reserved for NDIS.
-
 
 ### -field ProviderContext
 
@@ -80,36 +76,25 @@ An NDIS_HANDLE to a block of driver-allocated context information that stores in
      <i>NetXxxSharedMemory</i> functions at the 
      <i>ProviderContext</i> parameter.
 
-
 ### -field AllocateSharedMemoryHandler
 
 An entry point for the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-allocate_shared_memory_handler">
      NetAllocateSharedMemory</a> function.
 
-
 ### -field FreeSharedMemoryHandler
 
 An entry point for the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-free_shared_memory_handler">NetFreeSharedMemory</a> function.
 
-
 ## -remarks
-
-
 
 To specify entry points for shared memory services, an NDIS driver initializes an
     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure and passes it to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">
     NdisSetOptionalHandlers</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -124,7 +109,4 @@ To specify entry points for shared memory services, an NDIS driver initializes a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-free_shared_memory_handler">NetFreeSharedMemory</a>
- 
-
- 
 

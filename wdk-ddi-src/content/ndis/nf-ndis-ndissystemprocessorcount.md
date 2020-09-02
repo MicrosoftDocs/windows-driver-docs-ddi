@@ -8,8 +8,6 @@ ms.assetid: 17c7b02d-3d32-4056-9baa-2fef74765da3
 ms.date: 05/02/2018
 keywords: ["NdisSystemProcessorCount function"]
 ms.keywords: NdisSystemProcessorCount, NdisSystemProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemProcessorCount, ndis_sysinfo_ref_2bec0b11-bc24-4c8d-9e78-ff94c7f1645f.xml, netvista.ndissystemprocessorcount
-f1_keywords:
- - "ndis/NdisSystemProcessorCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisSystemProcessorCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisSystemProcessorCount
+ - ndis/NdisSystemProcessorCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisSystemProcessorCount
 ---
 
 # NdisSystemProcessorCount function
@@ -48,24 +47,15 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisSystemProcessorCount</b> function determines whether the caller is running on a uniprocessor or
   multiprocessor computer.
 
-
 ## -returns
-
-
 
 <b>NdisSystemProcessorCount</b> returns the number of processors in the computer.
 
-
-
-
 ## -remarks
-
-
 
 An NDIS driver can call the 
     <b>NdisSystemProcessorCount</b> function to retrieve the maximum number of processors in the local
@@ -93,13 +83,7 @@ If you are not optimizing and if the data structures that result from using the 
     count are relatively small, a resizable structure is not necessary. In this case, use 
     <b>NdisSystemProcessorCount</b> to determine the size for a static array.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
    Drivers</a>
@@ -116,7 +100,4 @@ If you are not optimizing and if the data structures that result from using the 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
    NdisSystemActiveProcessorCount</a>
- 
-
- 
 

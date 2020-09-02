@@ -8,8 +8,6 @@ ms.assetid: b41a13a6-4573-495f-8dfd-9405917d8e66
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_FIFO_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_FIFO_CONTROL, IOCTL_SERIAL_SET_FIFO_CONTROL control, IOCTL_SERIAL_SET_FIFO_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL, serports.ioctl_serial_set_fifo_control, serref_5e21a668-7fca-4d1e-baf2-3356ba2087d9.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_SET_FIFO_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_SET_FIFO_CONTROL
+ - ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_SET_FIFO_CONTROL
 ---
 
 # IOCTL_SERIAL_SET_FIFO_CONTROL IOCTL
@@ -47,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SERIAL_SET_FIFO_CONTROL</b> request sets the FIFO control register (FCR). Serial does not verify the specified FIFO control information.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG that is used to input FIFO control information.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> is set to the size, in bytes, of a ULONG.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

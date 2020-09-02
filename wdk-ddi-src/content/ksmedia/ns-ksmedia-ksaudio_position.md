@@ -8,8 +8,6 @@ ms.assetid: 91658dfc-dad4-4fbb-8688-13971e7275e2
 ms.date: 05/08/2018
 keywords: ["KSAUDIO_POSITION structure"]
 ms.keywords: "*PKSAUDIO_POSITION, KSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], PKSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, audio.ksaudio_position, ksmedia/KSAUDIO_POSITION, ksmedia/PKSAUDIO_POSITION"
-f1_keywords:
- - "ksmedia/KSAUDIO_POSITION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSAUDIO_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_POSITION, *PKSAUDIO_POSITION
+f1_keywords:
+ - PKSAUDIO_POSITION
+ - ksmedia/PKSAUDIO_POSITION
+ - KSAUDIO_POSITION
+ - ksmedia/KSAUDIO_POSITION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSAUDIO_POSITION
 ---
 
 # KSAUDIO_POSITION structure
@@ -47,28 +48,19 @@ req.typenames: KSAUDIO_POSITION, *PKSAUDIO_POSITION
 
 ## -description
 
-
 The KSAUDIO_POSITION structure specifies the current positions of the play and write cursors in the sound buffer for an audio stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PlayOffset
 
 Specifies the current play position as a byte offset.
 
-
 ### -field WriteOffset
 
 Specifies the current write position as a byte offset.
 
-
 ## -remarks
-
-
 
 This structure is used to get and set the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a> property.
 
@@ -108,13 +100,7 @@ The space between <b>PlayOffset</b> and <b>WriteOffset</b> is considered off-lim
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-position-property">Audio Position Property</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
 
@@ -125,7 +111,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
- 
-
- 
 

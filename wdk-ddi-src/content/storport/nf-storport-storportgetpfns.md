@@ -8,8 +8,6 @@ ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.date: 03/29/2018
 keywords: ["StorPortGetPfns function"]
 ms.keywords: StorPortGetPfns, StorPortGetPfns routine [Storage Devices], storage.storportgetpfns, storport/StorPortGetPfns
-f1_keywords:
- - "storport/StorPortGetPfns"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Storport.h
-api_name:
-- StorPortGetPfns
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetPfns
+ - storport/StorPortGetPfns
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Storport.h
+api_name:
+ - StorPortGetPfns
 ---
 
 # StorPortGetPfns function
@@ -47,53 +46,45 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>StorPortGetPfns</b> routine can be called when a miniport needs to retreive PFNs associated with a MDL for a SRB
 
-
-
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver.
 
+### -param Srb 
 
-### -param Srb [in]
+[in]
+A pointer to the source SCSI request block (SRB).
 
-A pointer to the source SCSI request block (SRB). 
+### -param Mdl 
 
-
-### -param Mdl [in]
-
+[in]
 A pointer to the MDL for which Pfns are requested. Only MDLs obtained 
             using <b>StorPortGetOriginalMdl</b> or <b>StorPortGetDataInBufferMdl</b> are supported.
 
+### -param Pfns 
 
-### -param Pfns [out]
-
+[out]
  A pointer to the beginning of the array of physical page numbers that are associated with the MDL.
               Callers must NOT modify or update or free the list.
 
+### -param PfnCount 
 
-### -param PfnCount [out]
-
+[out]
 Specifies the number of PFNs in the array.
 
+### -param StartingOffset 
 
-### -param StartingOffset [out]
-
+[out]
 Specifies the byte offset within the initial page of the buffer described by the given MDL.
 
-
 ## -returns
-
-
 
 <b>StorPortGetPfns</b> returns one of the following status codes:
 
@@ -136,26 +127,14 @@ A pointer to one of the parameters  is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the device object for the HBA immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetdatainbuffermdl">StorPortGetDataInBufferMdl</a>
 
@@ -166,7 +145,4 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
- 
-
- 
 

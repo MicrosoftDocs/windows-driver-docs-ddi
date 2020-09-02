@@ -6,10 +6,8 @@ old-location: netvista\ndis_sriov_reset_vf_parameters.htm
 tech.root: netvista
 ms.assetid: 0f3c1da5-7e1d-4e13-9942-bedb9ddaf541
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_RESET_VF_PARAMETERS structure"]
+keywords: ["NDIS_SRIOV_RESET_VF_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SRIOV_RESET_VF_PARAMETERS, NDIS_SRIOV_RESET_VF_PARAMETERS, NDIS_SRIOV_RESET_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_RESET_VF_PARAMETERS, PNDIS_SRIOV_RESET_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_RESET_VF_PARAMETERS, netvista.ndis_sriov_reset_vf_parameters, ntddndis/NDIS_SRIOV_RESET_VF_PARAMETERS, ntddndis/PNDIS_SRIOV_RESET_VF_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_RESET_VF_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_RESET_VF_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_RESET_VF_PARAMETERS, *PNDIS_SRIOV_RESET_VF_PARAMETERS
+f1_keywords:
+ - _NDIS_SRIOV_RESET_VF_PARAMETERS
+ - ntddndis/_NDIS_SRIOV_RESET_VF_PARAMETERS
+ - PNDIS_SRIOV_RESET_VF_PARAMETERS
+ - ntddndis/PNDIS_SRIOV_RESET_VF_PARAMETERS
+ - NDIS_SRIOV_RESET_VF_PARAMETERS
+ - ntddndis/NDIS_SRIOV_RESET_VF_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_RESET_VF_PARAMETERS
 ---
 
 # _NDIS_SRIOV_RESET_VF_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_SRIOV_RESET_VF_PARAMETERS, *PNDIS_SRIOV_RESET_VF_PARAMETERS
 
 ## -description
 
-
 The <b>NDIS_SRIOV_RESET_VF_PARAMETERS</b> structure specifies the parameters for resetting a network adapter's PCI Express (PCIe) Virtual Function (VF).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,7 +70,6 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_RESET_VF_PARAMETERS_REVISION_1.
 
-
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
@@ -84,17 +81,9 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 
 ## -remarks
 
-
-
-The <b>NDIS_SRIOV_RESET_VF_PARAMETERS</b> structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-reset-vf">OID_SRIOV_RESET_VF</a>. 
-
-
-
+The <b>NDIS_SRIOV_RESET_VF_PARAMETERS</b> structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-reset-vf">OID_SRIOV_RESET_VF</a>.
 
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -105,7 +94,4 @@ The <b>NDIS_SRIOV_RESET_VF_PARAMETERS</b> structure is used in OID set requests 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-reset-vf">OID_SRIOV_RESET_VF</a>
- 
-
- 
 

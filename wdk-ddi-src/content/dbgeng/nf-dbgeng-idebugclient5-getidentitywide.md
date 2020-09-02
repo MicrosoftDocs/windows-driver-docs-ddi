@@ -8,8 +8,6 @@ ms.assetid: 8e55f829-2f55-4b83-8e0d-2554246a5d59
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::GetIdentityWide"]
 ms.keywords: GetIdentityWide, GetIdentityWide method [Windows Debugging], GetIdentityWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetIdentityWide method, IDebugClient5.GetIdentityWide, IDebugClient5::GetIdentityWide, dbgeng/IDebugClient5::GetIdentityWide, debugger.getidentitywide
-f1_keywords:
- - "dbgeng/IDebugClient5.GetIdentityWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient5.GetIdentityWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::GetIdentityWide
+ - dbgeng/IDebugClient5::GetIdentityWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient5.GetIdentityWide
 ---
 
 # IDebugClient5::GetIdentityWide
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetIdentityWide</b> method returns a string describing the computer and user this client represents.
-
 
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out, optional]
-
+[out, optional]
 Specifies the buffer to receive the string.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size of the buffer <i>Buffer</i>.
 
+### -param IdentitySize 
 
-### -param IdentitySize [out, optional]
-
+[out, optional]
 Receives the size of the string. If <i>IdentitySize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -105,33 +97,18 @@ The size of the string was greater than the size of the buffer, so it was trunca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The specific content of the string varies with the operating system.  If the client is remotely connected, some network information may also be present.
 
 For more information about client objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">Client Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-outputidentity">OutputIdentity</a>
- 
-
- 
 

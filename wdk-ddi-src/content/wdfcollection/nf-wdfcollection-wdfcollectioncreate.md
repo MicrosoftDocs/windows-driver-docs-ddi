@@ -8,8 +8,6 @@ ms.assetid: b185b1ca-6fd9-4508-b001-d1853f2948c2
 ms.date: 02/26/2018
 keywords: ["WdfCollectionCreate function"]
 ms.keywords: DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, WdfCollectionCreate, WdfCollectionCreate method, kmdf.wdfcollectioncreate, wdf.wdfcollectioncreate, wdfcollection/WdfCollectionCreate
-f1_keywords:
- - "wdfcollection/WdfCollectionCreate"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfCollectionCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCollectionCreate
+ - wdfcollection/WdfCollectionCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfCollectionCreate
 ---
 
 # WdfCollectionCreate function
@@ -50,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfCollectionCreate</b> method creates a framework collection object. 
-
+The <b>WdfCollectionCreate</b> method creates a framework collection object.
 
 ## -parameters
 
+### -param CollectionAttributes 
 
-
-
-### -param CollectionAttributes [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param Collection 
 
-### -param Collection [out]
-
+[out]
 A pointer to a location that receives a handle to the new collection object.
 
-
 ## -returns
-
-
 
 <b>WdfCollectionCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -109,12 +101,7 @@ A collection object could not be allocated.
 
 This method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 After calling <b>WdfCollectionCreate</b> to create a framework collection object, a driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionadd">WdfCollectionAdd</a> to add objects to the collection. 
 
@@ -129,12 +116,7 @@ For a code example that uses <b>WdfCollectionCreate</b>, see <a href="https://do
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
@@ -149,7 +131,4 @@ For a code example that uses <b>WdfCollectionCreate</b>, see <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>
- 
-
- 
 

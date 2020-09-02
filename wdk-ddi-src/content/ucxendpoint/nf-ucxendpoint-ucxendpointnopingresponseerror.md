@@ -8,8 +8,6 @@ ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.date: 05/07/2018
 keywords: ["UcxEndpointNoPingResponseError function"]
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
-f1_keywords:
- - "ucxendpoint/UcxEndpointNoPingResponseError"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ucxendpoint.h
-api_name:
-- UcxEndpointNoPingResponseError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcxEndpointNoPingResponseError
+ - ucxendpoint/UcxEndpointNoPingResponseError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ucxendpoint.h
+api_name:
+ - UcxEndpointNoPingResponseError
 ---
 
 # UcxEndpointNoPingResponseError function
@@ -47,28 +46,17 @@ req.typenames:
 
 ## -description
 
-
 Notifies UCX about a "No Ping Response" error for a transfer on
     the specified endpoint object
 
-
 ## -parameters
 
+### -param Endpoint 
 
-
-
-### -param Endpoint [in]
-
+[in]
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
- 
-
- 
 

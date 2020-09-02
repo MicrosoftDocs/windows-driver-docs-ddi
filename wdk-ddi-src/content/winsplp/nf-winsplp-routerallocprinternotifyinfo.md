@@ -8,8 +8,6 @@ ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 ms.date: 04/20/2018
 keywords: ["RouterAllocPrinterNotifyInfo function"]
 ms.keywords: RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo function [Print Devices], print.routerallocprinternotifyinfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, winsplp/RouterAllocPrinterNotifyInfo
-f1_keywords:
- - "winsplp/RouterAllocPrinterNotifyInfo"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Spoolss.dll
-api_name:
-- RouterAllocPrinterNotifyInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RouterAllocPrinterNotifyInfo
+ - winsplp/RouterAllocPrinterNotifyInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Spoolss.dll
+api_name:
+ - RouterAllocPrinterNotifyInfo
 ---
 
 # RouterAllocPrinterNotifyInfo function
@@ -47,32 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The print spooler's <code>RouterAllocPrinterNotifyInfo</code> function allocates a PRINTER_NOTIFY_INFO structure and an array of PRINTER_NOTIFY_INFO_DATA structures. (These structures are described in the Microsoft Windows SDK documentation.)
 
-
 ## -parameters
-
-
-
 
 ### -param cPrinterNotifyInfoData
 
 Caller-supplied number specifying size of the PRINTER_NOTIFY_INFO_DATA structure array to be allocated.
 
-
 ## -returns
-
-
 
 The function returns a pointer to the allocated PRINTER_NOTIFY_INFO structure.
 
-
-
-
 ## -remarks
-
-
 
 Print providers should call <code>RouterAllocPrinterNotifyInfo</code> to allocate the PRINTER_NOTIFY_INFO structure and the PRINTER_NOTIFY_INFO_DATA structure array that the provider's <a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a> function must supply.
 
@@ -84,13 +70,7 @@ If <code>RefreshPrinterChangeNotification</code> executes successfully and retur
 
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-appendprinternotifyinfodata">AppendPrinterNotifyInfoData</a>
 
@@ -101,7 +81,4 @@ For additional information, see <a href="https://docs.microsoft.com/windows-hard
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreeprinternotifyinfo">RouterFreePrinterNotifyInfo</a>
- 
-
- 
 

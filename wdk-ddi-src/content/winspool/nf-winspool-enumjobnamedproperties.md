@@ -8,8 +8,6 @@ ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 ms.date: 04/20/2018
 keywords: ["EnumJobNamedProperties function"]
 ms.keywords: EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, winspool/EnumJobNamedProperties
-f1_keywords:
- - "winspool/EnumJobNamedProperties"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winspool.h
-api_name:
-- EnumJobNamedProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EnumJobNamedProperties
+ - winspool/EnumJobNamedProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winspool.h
+api_name:
+ - EnumJobNamedProperties
 ---
 
 # EnumJobNamedProperties function
@@ -47,23 +46,21 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
+[in]
 
+### -param JobId 
 
-### -param hPrinter [in]
+[in]
 
+### -param pcProperties 
 
-### -param JobId [in]
+[out]
 
+### -param ppProperties 
 
-### -param pcProperties [out]
-
-
-### -param ppProperties [out]
+[out]
 

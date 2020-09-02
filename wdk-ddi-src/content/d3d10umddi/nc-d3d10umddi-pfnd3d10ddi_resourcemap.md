@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/ResourceMap"
+ - PFND3D10DDI_RESOURCEMAP
+ - d3d10umddi/PFND3D10DDI_RESOURCEMAP
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_RESOURCEMAP callback function
+
 
 ## -description
 

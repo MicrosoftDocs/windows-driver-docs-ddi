@@ -8,8 +8,6 @@ ms.assetid: 5e877882-00f7-4c46-86e1-debf576ffdb1
 ms.date: 05/03/2018
 keywords: ["PDEBUG_EXTENSION_NOTIFY callback function"]
 ms.keywords: DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, PDEBUG_EXTENSION_NOTIFY callback, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify
-f1_keywords:
- - "dbgeng/DebugExtensionNotify"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Universal
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dbgeng.h
-api_name:
-- DebugExtensionNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDEBUG_EXTENSION_NOTIFY
+ - dbgeng/PDEBUG_EXTENSION_NOTIFY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dbgeng.h
+api_name:
+ - DebugExtensionNotify
 ---
 
 # PDEBUG_EXTENSION_NOTIFY callback function
 
 
 ## -description
-
 
 The engine calls the <b>DebugExtensionNotify</b> callback function to inform the extension <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> when a session changes its active or accessible status.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -62,11 +60,9 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 
 ## -parameters
 
+### -param Notify 
 
-
-
-### -param Notify [in]
-
+[in]
 Can be any of the following values:
 
 <table>
@@ -115,17 +111,13 @@ The debugging session has started running and is now inaccessible.
 </td>
 </tr>
 </table>
- 
 
+### -param Argument 
 
-### -param Argument [in]
-
+[in]
 Set to zero. (Reserved for future use.)
 
-
 ## -remarks
-
-
 
 This function is optional.  A DbgEng extension DLL only needs to export <b>DebugExtensionNotify</b> if it wants to be notified when the session state changes.  The engine looks for this function by name in the extension DLL.
 
@@ -133,16 +125,7 @@ This function allows the extension DLL to cache information about the session wi
 
 After the extension DLL is initialized, the engine will use this function to notify the DLL if it has started a session.  If the current session is suspended, the engine will call this function a second time to notify the DLL that the session is accessible.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
- 
-
- 
 

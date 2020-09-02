@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::RemoveDriverPackage"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],RemoveDriverPackage method, IWDTFDriverSetupSystemAction2.RemoveDriverPackage, IWDTFDriverSetupSystemAction2::RemoveDriverPackage, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RemoveDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RemoveDriverPackage, RemoveDriverPackage, RemoveDriverPackage method [Windows Device Testing Framework], RemoveDriverPackage method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_removedriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RemoveDriverPackage
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.RemoveDriverPackage"
+ - "IWDTFDriverSetupSystemAction2.RemoveDriverPackage"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.RemoveDriverPackage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -56,8 +55,8 @@ Removes a driver package from the driver store.
 
 
 
-### -param pDp [in]
-
+### -param pDp 
+[in]
 The driver package to remove.
 
 
@@ -65,7 +64,7 @@ The driver package to remove.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

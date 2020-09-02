@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CreateDecodeDevice"
+ - PFND3DDDI_CREATEDECODEDEVICE
+ - d3dumddi/PFND3DDDI_CREATEDECODEDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATEDECODEDEVICE callback function
+
 
 ## -description
 

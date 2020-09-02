@@ -7,8 +7,6 @@ ms.assetid: 3debfb11-4de9-456b-a094-feb2f68e96a5
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback function"]
 ms.keywords: DrawIndexedInstancedIndirect, DrawIndexedInstancedIndirect callback function [Display Devices], PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT, PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback, UserModeDisplayDriverDx11_Functions_18c492b3-4d4b-413c-82c3-7290af5aade6.xml, d3d10umddi/DrawIndexedInstancedIndirect, display.drawindexedinstancedindirect
-f1_keywords:
- - "d3d10umddi/DrawIndexedInstancedIndirect"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- DrawIndexedInstancedIndirect
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
+ - d3d10umddi/PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - DrawIndexedInstancedIndirect
 ---
 
 # PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of indexed primitives. 
-
+The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of indexed primitives.
 
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -78,23 +72,15 @@ struct DrawIndexedInstancedIndirectArgs {
 }
 ```
 
-For more information about these arguments, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_drawindexedinstanced">DrawIndexedInstanced</a> reference page. 
+For more information about these arguments, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_drawindexedinstanced">DrawIndexedInstanced</a> reference page.
 
 ### -param Arg3
 
 *AlignedByteOffsetForArgs*
 
-The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
-
-
-
-
+The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4.
 
 ## -remarks
-
-
-
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code.
 
@@ -110,13 +96,7 @@ When the Direct3D runtime calls the driver's <a href="https://docs.microsoft.com
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>DrawIndexedInstancedIndirect</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createresource">CreateResource(D3D11)</a>
 
@@ -135,7 +115,4 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

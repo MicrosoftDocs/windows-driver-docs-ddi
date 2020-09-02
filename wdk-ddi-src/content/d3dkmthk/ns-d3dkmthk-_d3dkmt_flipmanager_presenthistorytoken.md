@@ -4,38 +4,42 @@ title: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: Identifies a flip present-history token.
 ms.assetid: 4622a5f0-905e-4ed6-9d78-54329bf5b2f7
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN"
+keywords: ["D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure"]
 ms.keywords: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN, D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+ - d3dkmthk/_D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+ - D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+ - d3dkmthk/D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+product:
+ - Windows
 ---
 
 # _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure
+
 
 ## -description
 
@@ -66,3 +70,4 @@ Value.
 ### -field hPrivateData
 
 Token private data.
+

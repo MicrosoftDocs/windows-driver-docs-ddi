@@ -8,8 +8,6 @@ ms.assetid: b3bfd54d-9fd2-401a-b01d-32983f0a6021
 ms.date: 05/30/2019
 keywords: ["IoCheckQuerySetVolumeInformation function"]
 ms.keywords: IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation function [Installable File System Drivers], ifsk.iocheckquerysetvolumeinformation, ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, ntifs/IoCheckQuerySetVolumeInformation
-f1_keywords:
- - "ntifs/IoCheckQuerySetVolumeInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IoCheckQuerySetVolumeInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCheckQuerySetVolumeInformation
+ - ntifs/IoCheckQuerySetVolumeInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IoCheckQuerySetVolumeInformation
 ---
 
 # IoCheckQuerySetVolumeInformation function
+
 
 ## -description
 
@@ -82,3 +82,4 @@ Boolean value that specifies the operation type. If *SetOperation* is **TRUE**, 
 [ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile)
 
 [ZwSetVolumeInformationFile](https://msdn.microsoft.com/library/windows/hardware/ff567112(d=robot))
+

@@ -8,8 +8,6 @@ ms.assetid: 65579299-829c-48e2-b2f6-dc1a09578e9a
 ms.date: 03/29/2018
 keywords: ["ChangerQueryVolumeTags function"]
 ms.keywords: ChangerQueryVolumeTags, ChangerQueryVolumeTags function [Storage Devices], chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, mcd/ChangerQueryVolumeTags, storage.changerqueryvolumetags
-f1_keywords:
- - "mcd/ChangerQueryVolumeTags"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mcd.h
-api_name:
-- ChangerQueryVolumeTags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ChangerQueryVolumeTags
+ - mcd/ChangerQueryVolumeTags
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mcd.h
+api_name:
+ - ChangerQueryVolumeTags
 ---
 
 # ChangerQueryVolumeTags function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-<b>ChangerQueryVolumeTags</b> handles the device-specific aspects of a device-control IRP with the IOCTL code of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>. 
-
+<b>ChangerQueryVolumeTags</b> handles the device-specific aspects of a device-control IRP with the IOCTL code of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>.
 
 ## -parameters
 
+### -param DeviceObject 
 
+[in]
+Pointer to the device object that represents the changer.
 
+### -param Irp 
 
-### -param DeviceObject [in]
-
-Pointer to the device object that represents the changer. 
-
-
-### -param Irp [in]
-
-Pointer to the IRP. 
-
+[in]
+Pointer to the IRP.
 
 ## -returns
-
-
 
 If the changer supports retrieval of volume tag information, <b>ChangerQueryVolumeTags</b> returns the STATUS_<i>XXX</i> value returned by the system port driver, or one of the following values:
       
@@ -81,12 +73,7 @@ STATUS_INSUFFICIENT_RESOURCES
 
 If the changer does not support retrieval of volume tag information, ChangerQueryVolumeTags returns STATUS_INVALID_DEVICE_REQUEST.
 
-
-
-
 ## -remarks
-
-
 
 This routine combines the functionality of two SCSI commands: SEND VOLUME TAGS and REQUEST VOLUME ELEMENT ADDRESS. This routine is required.
 
@@ -102,13 +89,7 @@ If the first SRB succeeds, <b>ChangerQueryVolumeTags</b> builds a second SRB wit
 
 After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>Information</b> field in the I/O status block to the number of bytes written to the buffer before returning to the changer class driver.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">, GET_CHANGER_PARAMETERS</a>
 
@@ -131,7 +112,4 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a>
- 
-
- 
 

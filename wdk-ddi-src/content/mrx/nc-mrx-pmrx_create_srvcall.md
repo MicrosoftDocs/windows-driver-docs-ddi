@@ -8,8 +8,6 @@ ms.assetid: 2f6325e1-4ede-41e5-87d3-833c6b52157a
 ms.date: 04/16/2018
 keywords: ["PMRX_CREATE_SRVCALL callback function"]
 ms.keywords: MRxCreateSrvCall, MRxCreateSrvCall routine [Installable File System Drivers], PMRX_CREATE_SRVCALL, ifsk.mrxcreatesrvcall, mrx/MRxCreateSrvCall, mrxref_bc85d9c3-6d64-4510-ae94-0ec858c49110.xml
-f1_keywords:
- - "mrx/MRxCreateSrvCall"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MRxCreateSrvCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_CREATE_SRVCALL
+ - mrx/PMRX_CREATE_SRVCALL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MRxCreateSrvCall
 ---
 
 # PMRX_CREATE_SRVCALL callback function
@@ -47,26 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The<i> MRxCreateSrvCall</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector create an SRV_CALL structure and establish connection with a server.
-
 
 ## -parameters
 
-
-
-
 ### -param SrvCall
 
-
 ### -param SrvCallCallBackContext
-
-
-
-
-
-
-
 
 #### - pCallbackContext [in, out]
 
@@ -75,12 +61,9 @@ A pointer to the callback context used by the network mini-redirector to notify 
 
 #### - pSrvCall [in, out]
 
-A pointer to the SRV_CALL structure to be created. 
-
+A pointer to the SRV_CALL structure to be created.
 
 ## -returns
-
-
 
 RDBSS expects <i>MRxCreateSrvCall</i> to return STATUS_PENDING on success or failure. This behavior results because RDBSS expects this call to be completed asynchronously. A network mini-redirector should map STATUS_SUCCESS to STATUS_PENDING as a return value for <i>MRxCreateSrvCall</i>.
 
@@ -118,14 +101,8 @@ The network was unreachable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The two important abstractions used in the interface between RDBSS and a network mini-redirector are the SRV_CALL structure and the NET_ROOT structure. An SRV_CALL structure corresponds to the context associated with a server once a connection is established. A NET_ROOT structure corresponds to a share on a server (this could also be viewed as a portion of the namespace that has been claimed by a network mini-redirector).
 
@@ -147,13 +124,7 @@ When this call completes, the <i>pSrvCall</i> parameter should be modified with 
 
 A network mini-redirector that indicates support as a UNC provider will receive a prefix claim from the Multiple UNC Provider (MUP) as a call to <i>MRxCreateSrvCall</i>. For more information about UNC Naming and MUP, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup">Support for UNC Naming and MUP</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentprocess">IoGetCurrentProcess</a>
 
@@ -192,7 +163,4 @@ A network mini-redirector that indicates support as a UNC provider will receive 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxstruc/nf-rxstruc-rxgetrdbssprocess">RxGetRDBSSProcess</a>
- 
-
- 
 

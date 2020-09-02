@@ -5,37 +5,39 @@ description: Retrieves the memory allocation size of a video processor created w
 ms.assetid: 0c42a649-c528-4813-bfd8-1f5e85f048dc
 ms.date: 10/19/2018
 keywords: ["D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043"
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043, D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
+ - d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
+product:
+ - Windows
 ---
 
 # D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 structure
+
 
 ## -description
 

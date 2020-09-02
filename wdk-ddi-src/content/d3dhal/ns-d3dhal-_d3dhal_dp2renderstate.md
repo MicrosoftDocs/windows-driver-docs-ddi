@@ -6,10 +6,8 @@ old-location: display\d3dhal_dp2renderstate.htm
 tech.root: display
 ms.assetid: 9d30ed5d-0621-4a90-941c-c5b0564df13f
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2RENDERSTATE structure"]
+keywords: ["D3DHAL_DP2RENDERSTATE structure"]
 ms.keywords: "*LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE structure [Display Devices], LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, display.d3dhal_dp2renderstate"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2RENDERSTATE"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2RENDERSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2RENDERSTATE
+f1_keywords:
+ - _D3DHAL_DP2RENDERSTATE
+ - d3dhal/_D3DHAL_DP2RENDERSTATE
+ - D3DHAL_DP2RENDERSTATE
+ - d3dhal/D3DHAL_DP2RENDERSTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2RENDERSTATE
 ---
 
 # _D3DHAL_DP2RENDERSTATE structure
@@ -47,34 +48,23 @@ req.typenames: D3DHAL_DP2RENDERSTATE
 
 ## -description
 
-
 One or more D3DHAL_DP2RENDERSTATE structures are parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_RENDERSTATE, and are used to set the appropriate render state.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RenderState
 
 Specifies a D3DRENDERSTATETYPE enumerated type that indicates the render state to be updated. Render states that are requested at the application level are described in the DirectX SDK documentation. Render states that are exclusively used by drivers are described in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a>.
 
-
 ### -field dvState
 
-Specifies the value that the driver should update the render state identified by the <b>RenderState</b> member with. This member is valid when <b>RenderState</b> requires a D3DVALUE. 
-
+Specifies the value that the driver should update the render state identified by the <b>RenderState</b> member with. This member is valid when <b>RenderState</b> requires a D3DVALUE.
 
 ### -field dwState
 
 Specifies the value that the driver should update the render state identified by <b>RenderState</b> to. This member is valid when <b>RenderState</b> requires a DWORD.
 
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process <b>wStateCount</b> D3DHAL_DP2RENDERSTATE structures from the command buffer. The value of <b>wStateCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
@@ -85,13 +75,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 <img alt="Figure showing a command buffer with a D3DDP2OP_RENDERSTATE command and two D3DHAL_DP2RENDERSTATE structures" src="images/dp2rs.png"/>
 Although render states whose values are Boolean in type are documented as only accepting <b>TRUE</b>(1) and <b>FALSE</b>(0) the runtime does not validate this and accepts any subzero value as true. The sample driver interprets this strictly and does interpret values other than 1 as being <b>TRUE</b>. However, because the runtime does not offer validation, your driver should interpret 0 as <b>FALSE</b> and any other subzero value as <b>TRUE</b>. In this respect your driver should not mimic the behavior of the supplied sample driver.
 
-
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_RENDERSTATE
 
@@ -110,7 +94,4 @@ D3DDP2OP_RENDERSTATE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

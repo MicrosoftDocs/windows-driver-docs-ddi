@@ -8,8 +8,6 @@ ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtInstallPolicy function"]
 ms.keywords: ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy
-f1_keywords:
- - "wdm/ClfsMgmtInstallPolicy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsMgmtInstallPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsMgmtInstallPolicy
+ - wdm/ClfsMgmtInstallPolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsMgmtInstallPolicy
 ---
 
 # ClfsMgmtInstallPolicy function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsMgmtInstallPolicy</b> routine adds a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure to a physical log.
-
 
 ## -parameters
 
+### -param LogFile 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log that this instance of the <b>CLFS_MGMT_POLICY</b> structure will apply to. The policy applies to all streams within the log, even if a single stream within the log was specified.
 
+### -param Policy 
 
-### -param LogFile [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log that this instance of the <b>CLFS_MGMT_POLICY</b> structure will apply to. The policy applies to all streams within the log, even if a single stream within the log was specified. 
-
-
-### -param Policy [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that contains the policy to be installed.
 
+### -param PolicyLength 
 
-### -param PolicyLength [in]
-
-The length, in bytes, of the structure pointed to by the <i>Policy</i> parameter. 
-
+[in]
+The length, in bytes, of the structure pointed to by the <i>Policy</i> parameter.
 
 ## -returns
-
-
 
 The <b>ClfsMgmtInstallPolicy</b> routine returns one of the following NTSTATUS values:
 
@@ -190,12 +182,7 @@ There is insufficient memory to complete the operation.
 
 This routine might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Policies are volatile. When all handles to the log are closed, the policies will be lost. You should install policies each time you register the first client.
 
@@ -203,16 +190,7 @@ You should only register a <b>CLFS_MGMT_POLICY</b> structure whose <b>PolicyType
 
 The log policy that is installed applies to the physical log, even if the <i>LogFile</i> parameter specifies a log stream.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 147eb9f7-da0c-41c2-83b3-766164dbc905
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEGROUPID enumeration"]
 ms.keywords: RILRADIOSTATEGROUPID, RILRADIOSTATEGROUPID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostategroupid, ntddrilapitypes/RILRADIOSTATEGROUPID
-f1_keywords:
- - "rilapitypes/RILRADIOSTATEGROUPID"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILRADIOSTATEGROUPID
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEGROUPID
+f1_keywords:
+ - RILRADIOSTATEGROUPID
+ - rilapitypes/RILRADIOSTATEGROUPID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILRADIOSTATEGROUPID
 ---
 
 # RILRADIOSTATEGROUPID enumeration
@@ -47,9 +46,7 @@ req.typenames: RILRADIOSTATEGROUPID
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 

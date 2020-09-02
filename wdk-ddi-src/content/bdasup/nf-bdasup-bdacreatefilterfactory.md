@@ -8,12 +8,10 @@ ms.assetid: bce1a41a-03fa-4f41-aeba-e18c85b07e00
 ms.date: 04/23/2018
 keywords: ["BdaCreateFilterFactory function"]
 ms.keywords: BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices], bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, bdasup/BdaCreateFilterFactory, stream.bdacreatefilterfactory
-f1_keywords:
- - "bdasup/BdaCreateFilterFactory"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. 
+req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Bdasup.lib
-- Bdasup.dll
-api_name:
-- BdaCreateFilterFactory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - BdaCreateFilterFactory
+ - bdasup/BdaCreateFilterFactory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Bdasup.lib
+ - Bdasup.dll
+api_name:
+ - BdaCreateFilterFactory
 ---
 
 # BdaCreateFilterFactory function
@@ -48,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>BdaCreateFilterFactory</b> function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology. 
-
+The <b>BdaCreateFilterFactory</b> function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology.
 
 ## -parameters
 
+### -param pKSDevice 
 
-
-
-### -param pKSDevice [in]
-
+[in]
 Points to the BDA device to which to add the filter factory with associated BDA template topology.
 
+### -param pFilterDescriptor 
 
-### -param pFilterDescriptor [in]
+[in]
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a> structure that describes a filter for the BDA device. Note that not all of the template pin and node types may be exposed as pin and node factories when the filter is first initialized.
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a> structure that describes a filter for the BDA device. Note that not all of the template pin and node types may be exposed as pin and node factories when the filter is first initialized. 
+### -param pBdaFilterTemplate 
 
-
-### -param pBdaFilterTemplate [in]
-
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template">BDA_FILTER_TEMPLATE</a> structure that describes a BDA template topology. 
-
+[in]
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template">BDA_FILTER_TEMPLATE</a> structure that describes a BDA template topology.
 
 ## -returns
 
-
-
-Returns STATUS_SUCCESS or an appropriate error code. 
-
-
-
+Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
-
-
 
 A BDA minidriver calls the <b>BdaCreateFilterFactory</b> function to add a filter factory with an associated BDA template topology to a device and to register all of the topology's static template structures with the BDA support library (<i>BdaSup.sys</i>). The BDA support library can then handle the following method and property calls: 
 
@@ -109,13 +96,7 @@ A BDA minidriver calls the <b>BdaCreateFilterFactory</b> function to add a filte
 </ul>
 If a BDA minidriver requires a pointer to the newly created filter factory (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>), the minidriver should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdacreatefilterfactoryex">BdaCreateFilterFactoryEx</a> function instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template">BDA_FILTER_TEMPLATE</a>
 
@@ -146,7 +127,4 @@ If a BDA minidriver requires a pointer to the newly created filter factory (<a h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
- 
-
- 
 

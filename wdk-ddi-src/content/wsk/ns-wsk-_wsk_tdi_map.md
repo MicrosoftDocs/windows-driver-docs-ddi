@@ -6,10 +6,8 @@ old-location: netvista\wsk_tdi_map.htm
 tech.root: netvista
 ms.assetid: 4c1407e9-2e4d-41cc-8d50-017c8c2bf20f
 ms.date: 05/02/2018
-keywords: ["_WSK_TDI_MAP structure"]
+keywords: ["WSK_TDI_MAP structure"]
 ms.keywords: "*PWSK_TDI_MAP, PWSK_TDI_MAP, PWSK_TDI_MAP structure pointer [Network Drivers Starting with Windows Vista], WSK_TDI_MAP, WSK_TDI_MAP structure [Network Drivers Starting with Windows Vista], _WSK_TDI_MAP, netvista.wsk_tdi_map, wsk/PWSK_TDI_MAP, wsk/WSK_TDI_MAP, wskref_7be2eb13-c9b8-4fc8-bc00-b3d168353ed0.xml"
-f1_keywords:
- - "wsk/WSK_TDI_MAP"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wsk.h
-api_name:
-- WSK_TDI_MAP
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_TDI_MAP, *PWSK_TDI_MAP
+f1_keywords:
+ - _WSK_TDI_MAP
+ - wsk/_WSK_TDI_MAP
+ - PWSK_TDI_MAP
+ - wsk/PWSK_TDI_MAP
+ - WSK_TDI_MAP
+ - wsk/WSK_TDI_MAP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wsk.h
+api_name:
+ - WSK_TDI_MAP
 ---
 
 # _WSK_TDI_MAP structure
@@ -47,33 +50,25 @@ req.typenames: WSK_TDI_MAP, *PWSK_TDI_MAP
 
 ## -description
 
-
 The WSK_TDI_MAP structure specifies a mapping between a particular address family, socket type, and
   protocol to the device name of a 
   <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SocketType
 
 The socket type. This member can contain any of the SOCK_<i>XXX</i> values that are defined in the 
      Ws2def.h header file.
 
-
 ### -field AddressFamily
 
 The address family. This member can contain any of the AF_<i>XXX</i> values that are defined in the 
      Ws2def.h header file.
 
-
 ### -field Protocol
 
 The transport protocol.
-
 
 ### -field TdiDeviceName
 
@@ -84,10 +79,7 @@ A pointer to a null-terminated wide character string that contains the device na
      <b>SocketType</b>, and 
      <b>Protocol</b> members.
 
-
 ## -remarks
-
-
 
 The 
     <b>Map</b> member of the 
@@ -105,15 +97,7 @@ For more information about using TDI transports, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Winsock Kernel</a> instead.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a>
- 
-
- 
 

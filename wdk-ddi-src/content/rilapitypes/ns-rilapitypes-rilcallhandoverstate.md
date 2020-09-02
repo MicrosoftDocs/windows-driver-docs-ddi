@@ -8,8 +8,6 @@ ms.assetid: 1c9fb343-32f1-444e-9328-097da72cd006
 ms.date: 05/02/2018
 keywords: ["RILCALLHANDOVERSTATE structure"]
 ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate, ntddrilapitypes/RILCALLHANDOVERSTATE"
-f1_keywords:
- - "rilapitypes/RILCALLHANDOVERSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLHANDOVERSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE
+f1_keywords:
+ - RILCALLHANDOVERSTATE
+ - rilapitypes/RILCALLHANDOVERSTATE
+ - LPRILCALLHANDOVERSTATE
+ - rilapitypes/LPRILCALLHANDOVERSTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLHANDOVERSTATE
 ---
 
 # RILCALLHANDOVERSTATE structure
@@ -47,29 +48,19 @@ req.typenames: RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwPhase
-
 
 ### -field dwOldType
 
-
 ### -field dwNewType
-
 
 ### -field dw3gppCause
 

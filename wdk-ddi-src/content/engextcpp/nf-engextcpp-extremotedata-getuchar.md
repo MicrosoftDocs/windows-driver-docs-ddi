@@ -8,8 +8,6 @@ ms.assetid: 2c4b7f40-210a-44fa-b7d4-150355d6b75b
 ms.date: 05/03/2018
 keywords: ["ExtRemoteData::GetUchar"]
 ms.keywords: EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData class [Windows Debugging],GetUchar method, ExtRemoteData.GetUchar, ExtRemoteData::GetUchar, GetUchar, GetUchar method [Windows Debugging], GetUchar method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getuchar
-f1_keywords:
- - "engextcpp/ExtRemoteData.GetUchar"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteData.GetUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteData::GetUchar
+ - engextcpp/ExtRemoteData::GetUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteData.GetUchar
 ---
 
 # ExtRemoteData::GetUchar
@@ -47,32 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetUChar</b> method returns a UCHAR version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
 
 ## -returns
 
-
-
 <b>GetUChar</b> returns the UCHAR version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.
-
-
-
 
 ## -remarks
 
-
-
 The size of the memory represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object must be <code>sizeof(UCHAR)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
@@ -83,7 +67,4 @@ The size of the memory represented by the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getdata">ExtRemoteData::GetData</a>
- 
-
- 
 

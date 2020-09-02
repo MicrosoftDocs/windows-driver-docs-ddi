@@ -4,34 +4,38 @@ title: _DRIVER_DIRECTORY_TYPE (wdm.h)
 description: 
 ms.assetid: 587aa860-ad2d-4de2-9f84-1ad5cb7b01bf
 ms.date: 10/19/2018
-keywords: ["_DRIVER_DIRECTORY_TYPE enumeration"]
-f1_keywords:
- - "wdm/_DRIVER_DIRECTORY_TYPE"
-ms.keywords: _DRIVER_DIRECTORY_TYPE, DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE, 
+keywords: ["DRIVER_DIRECTORY_TYPE enumeration"]
+ms.keywords: _DRIVER_DIRECTORY_TYPE, DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE,
 req.header: wdm.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- wdm.h
-api_name: 
-- _DRIVER_DIRECTORY_TYPE
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _DRIVER_DIRECTORY_TYPE
+ - wdm/_DRIVER_DIRECTORY_TYPE
+ - PDRIVER_DIRECTORY_TYPE
+ - wdm/PDRIVER_DIRECTORY_TYPE
+ - DRIVER_DIRECTORY_TYPE
+ - wdm/DRIVER_DIRECTORY_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - _DRIVER_DIRECTORY_TYPE
 ---
 
 # _DRIVER_DIRECTORY_TYPE enumeration
+
 
 ## -description
 
@@ -40,6 +44,7 @@ Defines values for the type of directory used by the driver to load and store fi
 ## -enum-fields
 
 ### -field DriverDirectoryImage
+
 The directory from which the driver was loaded.
 
 ### -field DriverDirectoryData
@@ -51,4 +56,6 @@ The requested directory is a general-purpose directory in which the driver store
 ## -remarks
 
 ## -see-also
+
 [**IoGetDriverDirectory**](nf-wdm-iogetdriverdirectory.md)
+

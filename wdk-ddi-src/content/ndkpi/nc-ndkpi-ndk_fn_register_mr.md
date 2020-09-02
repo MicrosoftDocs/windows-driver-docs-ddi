@@ -8,8 +8,6 @@ ms.assetid: 082BBDE1-1B80-4306-96A1-DCD23910B0F7
 ms.date: 05/02/2018
 keywords: ["NDK_FN_REGISTER_MR callback function"]
 ms.keywords: NDK_FN_REGISTER_MR, NDK_FN_REGISTER_MR callback, NDK_MR_FLAG_ALLOW_LOCAL_READ, NDK_MR_FLAG_ALLOW_LOCAL_WRITE, NDK_MR_FLAG_ALLOW_REMOTE_READ, NDK_MR_FLAG_ALLOW_REMOTE_WRITE, NDK_MR_FLAG_RDMA_READ_SINK, NdkRegisterMr, NdkRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRegisterMr, netvista.ndk_fn_register_mr
-f1_keywords:
- - "ndkpi/NdkRegisterMr"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkRegisterMr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_REGISTER_MR
+ - ndkpi/NDK_FN_REGISTER_MR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkRegisterMr
 ---
 
 # NDK_FN_REGISTER_MR callback function
@@ -47,34 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkRegisterMr</i> (<i>NDK_FN_REGISTER_MR</i>) function registers a virtually contiguous memory region with an NDK adapter.
-
 
 ## -parameters
 
+### -param pNdkMr 
 
-
-
-### -param pNdkMr [in]
-
+[in]
 A pointer to an NDK memory region (MR) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
+### -param Mdl 
 
-### -param Mdl [in]
-
+[in]
 An MDL or chain of MDLs that represent a virtually contiguous memory region from the starting virtual address up to the number of bytes specified in the <i>Length</i> parameter.
 
+### -param Length 
 
-
-### -param Length [in]
-
+[in]
 The number of bytes to register starting from the first MDL's virtual address. The first MDL's virtual address can be obtained by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro. The length must not exceed the total number of bytes represented by the MDL chain.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A bitmask of flags that specify the access permissions for the registered memory region. The following flags can be set:
 
 <table>
@@ -123,22 +117,18 @@ A bitmask of flags that specify the access permissions for the registered memory
 <td width="60%"></td>
 </tr>
 </table>
- 
 
+### -param RequestCompletion 
 
-### -param RequestCompletion [in]
-
+[in]
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
-
 ## -returns
-
-
 
 The 
      <i>NdkRegisterMr</i> function returns one of the following NTSTATUS codes.
@@ -209,14 +199,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a> object that was created with  the <i>FastRegister</i> parameter set to FALSE, <i>NdkRegisterMr</i> is used to register a virtually contiguous memory region with the adapter. 
 
@@ -236,13 +220,7 @@ If an NDK consumer passes the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag on an adapt
 
 To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_deregister_mr">NDK_FN_DEREGISTER_MR</a>) function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
 
@@ -265,7 +243,4 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="https:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
- 
-
- 
 

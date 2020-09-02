@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateVideoProcessorInputView"
+ - PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW
+ - d3d10umddi/PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback function
+
 
 ## -description
 

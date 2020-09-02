@@ -8,8 +8,6 @@ ms.assetid: 05d03799-752d-4f59-b96e-1a6d91bee8c4
 ms.date: 04/16/2018
 keywords: ["FsRtlIsAnsiCharacterLegalNtfs macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegalNtfs, FsRtlIsAnsiCharacterLegalNtfs function [Installable File System Drivers], fsrtlref_9150101b-7411-4de2-afd5-0b928ed0e6b1.xml, ifsk.fsrtlisansicharacterlegalntfs, ntifs/FsRtlIsAnsiCharacterLegalNtfs
-f1_keywords:
- - "ntifs/FsRtlIsAnsiCharacterLegalNtfs"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlIsAnsiCharacterLegalNtfs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlIsAnsiCharacterLegalNtfs
+ - ntifs/FsRtlIsAnsiCharacterLegalNtfs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlIsAnsiCharacterLegalNtfs
 ---
 
 # FsRtlIsAnsiCharacterLegalNtfs macro
@@ -47,42 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlIsAnsiCharacterLegalNtfs</b> macro determines whether an ANSI character is legal for NTFS file names.
 
-
 ## -parameters
-
-
-
 
 ### -param C
 
 <p>Pointer to the character to be tested.</p>
 
-
 ### -param WILD_OK
 
 <p>Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.</p>
 
-
-
-
-
-
 ## -remarks
 
-
-
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlisansicharacterlegal">FsRtlIsAnsiCharacterLegal</a>
 
@@ -93,7 +73,4 @@ For information about other string-handling routines, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlisansicharacterlegalhpfs">FsRtlIsAnsiCharacterLegalHpfs</a>
- 
-
- 
 

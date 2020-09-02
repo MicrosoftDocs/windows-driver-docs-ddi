@@ -8,8 +8,6 @@ ms.assetid: 26c553d1-5a71-4e96-a5ef-56e8e364faca
 ms.date: 04/16/2018
 keywords: ["FltCommitComplete function"]
 ms.keywords: FltApiRef_a_to_d_fc4b72a5-52df-47f9-b119-68ccb02b14bc.xml, FltCommitComplete, FltCommitComplete routine [Installable File System Drivers], fltkernel/FltCommitComplete, ifsk.fltcommitcomplete
-f1_keywords:
- - "fltkernel/FltCommitComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fltmgr.lib
-- Fltmgr.dll
-api_name:
-- FltCommitComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCommitComplete
+ - fltkernel/FltCommitComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fltmgr.lib
+ - Fltmgr.dll
+api_name:
+ - FltCommitComplete
 ---
 
 # FltCommitComplete function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltCommitComplete</b> routine acknowledges a TRANSACTION_NOTIFY_COMMIT notification. 
-
+The <b>FltCommitComplete</b> routine acknowledges a TRANSACTION_NOTIFY_COMMIT notification.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller.
 
+### -param Transaction 
 
-### -param Instance [in]
+[in]
+Opaque transaction pointer for the transaction.
 
-Opaque instance pointer for the caller. 
+### -param TransactionContext 
 
-
-### -param Transaction [in]
-
-Opaque transaction pointer for the transaction. 
-
-
-### -param TransactionContext [in, optional]
-
-Pointer to the minifilter driver's context for the transaction. This parameter is optional and can be <b>NULL</b>. 
-
+[in, optional]
+Pointer to the minifilter driver's context for the transaction. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltCommitComplete</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -95,14 +87,8 @@ The minifilter driver did not set a context on the transaction. This is an error
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine is available on Windows Vista and later. 
 
@@ -128,15 +114,9 @@ To retrieve a transaction context, call <a href="https://docs.microsoft.com/wind
 
 To delete a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
 
-To set a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>. 
-
-
-
+To set a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
 
@@ -191,7 +171,4 @@ To set a transaction context, call <a href="https://docs.microsoft.com/windows-h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_transaction_notification_callback">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
- 
-
- 
 

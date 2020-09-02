@@ -6,10 +6,8 @@ old-location: print\dlgpage.htm
 tech.root: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.date: 04/20/2018
-keywords: ["_DLGPAGE structure"]
+keywords: ["DLGPAGE structure"]
 ms.keywords: "*PDLGPAGE, DLGPAGE, DLGPAGE structure [Print Devices], PDLGPAGE, PDLGPAGE structure pointer [Print Devices], _DLGPAGE, compstui/DLGPAGE, compstui/PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage"
-f1_keywords:
- - "compstui/DLGPAGE"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- DLGPAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: DLGPAGE, *PDLGPAGE
+f1_keywords:
+ - _DLGPAGE
+ - compstui/_DLGPAGE
+ - PDLGPAGE
+ - compstui/PDLGPAGE
+ - DLGPAGE
+ - compstui/DLGPAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - DLGPAGE
 ---
 
 # _DLGPAGE structure
@@ -47,19 +50,13 @@ req.typenames: DLGPAGE, *PDLGPAGE
 
 ## -description
 
-
 The DLGPAGE structure is used for specifying a property sheet page to CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function. The structure's address is included in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure, and all member values are supplied by the <b>ComPropSheet</b> caller.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Caller-supplied size, in bytes, of the DLGPAGE structure.
-
 
 ### -field Flags
 
@@ -95,18 +92,14 @@ If not set, <b>DlgTemplateID</b> contains a template resource identifier.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DlgProc
 
 Optional, caller-supplied DLGPROC-typed pointer to a dialog box procedure, used to process messages sent by the system when user events occur. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) If <b>NULL</b>, CPSUI supplies a dialog box procedure. For more information, see the following Remarks section.
 
-
 ### -field pTabName
 
 Caller-supplied pointer to a NULL-terminated string to be displayed on the page tab.
-
 
 ### -field IconID
 
@@ -124,11 +117,7 @@ An icon handle. If a handle is specified, DPF_ICONID_AS_HICON must be set in the
 </ul>
 The specified icon is displayed on the page tab. If this value is zero, an icon is not displayed.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DlgTemplateID
 
@@ -176,17 +165,13 @@ The CPSUI-supplied identifiers refer to templates that can display <a href="http
 
 This member is not used if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
-
 ### -field DUMMYUNIONNAME.hDlgTemplate
 
 Caller-supplied handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
 
 Used only if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
-
 ## -remarks
-
-
 
 CPSUI creates a property sheet page by allocating a PROPSHEETPAGE structure and passing it to CreatePropertySheetPage (described in the Windows SDK documentation). If the caller has specified a DLGPROC-typed pointer to a dialog box procedure in <b>DlgProc</b>, that procedure is used for handling the page's window messages. If <b>DlgProc</b> is <b>NULL</b>, CPSUI's own dialog box procedures are used.
 
@@ -195,6 +180,4 @@ When the dialog box procedure pointed to by <b>DlgProc</b> is called with a mess
 If a caller-supplied dialog box procedure handles a message, it should return a nonzero value. If the function does not handle the message it should return zero, which causes CPSUI to handle the message.
 
 The PROPSHEETPAGE structure, the DLGPROC pointer type, and the WM_INITDIALOG message are described in the Windows SDK documentation.
-
-
 

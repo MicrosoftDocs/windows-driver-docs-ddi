@@ -8,8 +8,6 @@ ms.assetid: 5038BCFA-6E18-4BF8-9442-4F12D77418B0
 ms.date: 04/20/2018
 keywords: ["IBidiAsyncNotifyChannel interface"]
 ms.keywords: IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], IBidiAsyncNotifyChannel interface [Print Devices],described, print.ibidiasyncnotifychannel, prnasntp/IBidiAsyncNotifyChannel
-f1_keywords:
- - "prnasntp/IBidiAsyncNotifyChannel"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IBidiAsyncNotifyChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiAsyncNotifyChannel
+ - prnasntp/IBidiAsyncNotifyChannel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IBidiAsyncNotifyChannel
 ---
 
 # IBidiAsyncNotifyChannel interface
@@ -47,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IBidiAsyncNotifyChannel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBidiAsyncNotifyChannel</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IBidiAsyncNotifyChannel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBidiAsyncNotifyChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

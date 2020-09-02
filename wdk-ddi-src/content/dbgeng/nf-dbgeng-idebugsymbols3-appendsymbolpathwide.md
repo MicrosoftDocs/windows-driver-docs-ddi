@@ -8,8 +8,6 @@ ms.assetid: 184f40ff-be43-482c-8620-382f11f95548
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AppendSymbolPathWide"]
 ms.keywords: AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendSymbolPathWide method, IDebugSymbols3.AppendSymbolPathWide, IDebugSymbols3::AppendSymbolPathWide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.AppendSymbolPathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols3.AppendSymbolPathWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::AppendSymbolPathWide
+ - dbgeng/IDebugSymbols3::AppendSymbolPathWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols3.AppendSymbolPathWide
 ---
 
 # IDebugSymbols3::AppendSymbolPathWide
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>AppendSymbolPathWide</b>  method appends directories to the symbol path.
-
 
 ## -parameters
 
+### -param Addition 
 
-
-
-### -param Addition [in]
-
+[in]
 Specifies the directories to append to the symbol path.  This is a string that contains symbol path elements separated by semicolons (;).  Each symbol path element can specify either a directory or a symbol server.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -86,22 +78,11 @@ The method was successful.
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 For more information about manipulating the symbol path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-symbols">Using Symbols</a>.  For an overview of the symbol path and its syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-path">Symbol Path</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolpath">GetSymbolPath</a>
 
@@ -112,7 +93,4 @@ For more information about manipulating the symbol path, see <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setsymbolpath">SetSymbolPath</a>
- 
-
- 
 

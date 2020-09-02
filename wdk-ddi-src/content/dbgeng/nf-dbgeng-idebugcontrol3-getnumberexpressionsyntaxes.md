@@ -8,8 +8,6 @@ ms.assetid: eb96dd47-300a-49b7-b3c3-ee3bcb6662ba
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetNumberExpressionSyntaxes"]
 ms.keywords: GetNumberExpressionSyntaxes, GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetNumberExpressionSyntaxes method, IDebugControl3.GetNumberExpressionSyntaxes, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes
-f1_keywords:
- - "dbgeng/IDebugControl3.GetNumberExpressionSyntaxes"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl3.GetNumberExpressionSyntaxes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::GetNumberExpressionSyntaxes
+ - dbgeng/IDebugControl3::GetNumberExpressionSyntaxes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl3.GetNumberExpressionSyntaxes
 ---
 
 # IDebugControl3::GetNumberExpressionSyntaxes
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetNumberExpressionSyntaxes</b> method returns the number of expression syntaxes that are supported by the engine.
-
 
 ## -parameters
 
+### -param Number 
 
-
-
-### -param Number [out]
-
+[out]
 Receives the number of expression syntaxes.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -84,15 +76,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-evaluate">Evaluate</a>
 
@@ -107,7 +92,4 @@ The method was successful.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
- 
-
- 
 

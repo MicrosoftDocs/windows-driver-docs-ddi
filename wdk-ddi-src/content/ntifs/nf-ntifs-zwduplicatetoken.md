@@ -8,8 +8,6 @@ ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
 ms.date: 04/30/2018
 keywords: ["ZwDuplicateToken function"]
 ms.keywords: NtDuplicateToken, ZwDuplicateToken, ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, kernel.zwduplicatetoken, ntifs/NtDuplicateToken, ntifs/ZwDuplicateToken
-f1_keywords:
- - "ntifs/ZwDuplicateToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwDuplicateToken
-- NtDuplicateToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwDuplicateToken
+ - ntifs/ZwDuplicateToken
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwDuplicateToken
+ - NtDuplicateToken
 ---
 
 # ZwDuplicateToken function
@@ -48,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>ZwDuplicateToken</b> function creates a handle to a new <a href="https://go.microsoft.com/fwlink/p/?linkid=96098">access token</a> that duplicates an existing token. This function can create either a primary token or an impersonation token. 
-
+The <b>ZwDuplicateToken</b> function creates a handle to a new <a href="https://go.microsoft.com/fwlink/p/?linkid=96098">access token</a> that duplicates an existing token. This function can create either a primary token or an impersonation token.
 
 ## -parameters
 
+### -param ExistingTokenHandle 
 
-
-
-### -param ExistingTokenHandle [in]
-
+[in]
 A handle to an existing access token that was opened with the TOKEN_DUPLICATE access right. This parameter is required and cannot be <b>NULL</b>.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 Bitmask that specifies the requested access rights for the new token. <b>ZwDuplicateToken</b> compares the requested access rights with the existing token's discretionary access control list (DACL) to determine which rights are granted or denied to the new token. To request the same access rights as the existing token, specify zero. To request all access rights that are valid for the caller, specify MAXIMUM_ALLOWED. This parameter is optional and can either be zero, MAXIMUM_ALLOWED, or a bitwise OR combination of one or more of the following values:
 
 <table>
@@ -306,9 +301,9 @@ Combines all possible token access permissions for a token.
 
 For additional information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91036">Access Rights for Access-Token Objects</a> in the Microsoft Windows SDK. Note that access tokens do not support the SYNCHRONIZE right.
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in]
-
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that describes the requested properties for the new token. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. If the <i>ObjectAttributes</i> parameter is <b>NULL</b> or if the <b>SecurityDescriptor</b> member of the structure pointed to by the <i>ObjectAttributes</i> parameter is <b>NULL</b>, the new token receives a default security descriptor and the new token handle cannot be inherited. In that case, this default security descriptor is created from the user group, primary group, and DACL information that is stored in the caller's token.
 
 When the <i>TokenType</i> parameter is set to <b>TokenImpersonation</b>:
@@ -328,13 +323,14 @@ If the existing token is a primary token and no impersonation level information 
 </li>
 </ul>
 
-### -param EffectiveOnly [in]
+### -param EffectiveOnly 
 
+[in]
 A Boolean value that indicates whether the entire existing token should be duplicated into the new token or just the effective (currently enabled) part of the token. If set to <b>TRUE</b>, only the currently enabled parts of the source token will be duplicated. If set to <b>FALSE</b>, the entire existing token will be duplicated. This provides a means for a caller of a protected subsystem to limit which optional groups and privileges are made available to the protected subsystem. For example, if <i>EffectiveOnly</i> is <b>TRUE</b>, the caller could duplicate a token but remove the Administrators group and the SeTcbPrivilege right. The resulting token could then be passed to a child process (<a href="https://go.microsoft.com/fwlink/p/?linkid=91041">CreateProcessAsUser</a>), which would restrict what the child process can do. This parameter is required.
 
+### -param TokenType 
 
-### -param TokenType [in]
-
+[in]
 Specifies one of the following values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a> enumeration.
 
 <table>
@@ -367,15 +363,12 @@ The new token is an impersonation token. If the existing token is an impersonati
 
 The <i>TokenType</i> parameter is required and cannot be <b>NULL</b>.
 
+### -param NewTokenHandle 
 
-### -param NewTokenHandle [out]
-
+[out]
 A pointer to a caller-allocated variable, of type HANDLE, that receives a handle to the new token. This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>ZwDuplicateToken</b> returns STATUS_SUCCESS if the call is successfull. Possible error return codes include the following:
 
@@ -451,14 +444,8 @@ The requested impersonation level for the new token is greater than the imperson
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If no impersonation level information was provided by the <i>ObjectAttributes</i> parameter, the existing token's impersonation level will be used for the new token.
 
@@ -474,13 +461,7 @@ When you have finished using the new token, call the <a href="https://docs.micro
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -495,7 +476,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
- 
-
- 
 

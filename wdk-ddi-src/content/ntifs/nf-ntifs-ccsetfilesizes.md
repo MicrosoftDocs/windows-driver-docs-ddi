@@ -8,8 +8,6 @@ ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
 ms.date: 04/16/2018
 keywords: ["CcSetFileSizes function"]
 ms.keywords: CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers], ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ifsk.ccsetfilesizes, ntifs/CcSetFileSizes
-f1_keywords:
- - "ntifs/CcSetFileSizes"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcSetFileSizes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcSetFileSizes
+ - ntifs/CcSetFileSizes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcSetFileSizes
 ---
 
 # CcSetFileSizes function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcSetFileSizes</b> routine updates the cache maps and section object for a cached file whose size has changed.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Pointer to a file object for the cached file.
 
+### -param FileSizes 
 
-### -param FileSizes [in]
-
+[in]
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b> and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -115,12 +110,8 @@ New valid data length for the file.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 File systems must call <b>CcSetFileSizes</b> to update the cache manager data structures whenever one of the following changes is made to a cached file:
 
@@ -171,16 +162,7 @@ Return value
 
 A pointer to a member of the cache manager structure for this file that specifies the file size in bytes.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: fe4197ad-52a2-47b3-ad96-57ea73cd931f
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback function"]
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
-f1_keywords:
- - "dispmprt/DxgkDdiOPMGetCertificateSize"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiOPMGetCertificateSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_OPM_GET_CERTIFICATE_SIZE
+ - dispmprt/DXGKDDI_OPM_GET_CERTIFICATE_SIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiOPMGetCertificateSize
 ---
 
 # DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The<i> DxgkDdiOPMGetCertificateSize</i> function retrieves the size of a certificate of the given type.
-
 
 ## -parameters
 
+### -param MiniportDeviceContext 
 
-
-
-### -param MiniportDeviceContext [in]
-
+[in]
 A handle to a context block that is associated with a display adapter. Previously, the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
 
+### -param CertificateType 
 
-### -param CertificateType [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgkmdt_certificate_type">DXGKMDT_CERTIFICATE_TYPE</a>-typed value that identifies the type of certificate whose size <i> DxgkDdiOPMGetCertificateSize</i>  returns.
 
+### -param CertificateSize 
 
-### -param CertificateSize [out]
-
+[out]
 A pointer to a variable that receives the size, in bytes, of the certificate whose type is identified by the value in the <i>CertificateType</i> parameter.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiOPMGetCertificateSize</i> returns one of the following values:
 
@@ -87,31 +79,17 @@ A pointer to a variable that receives the size, in bytes, of the certificate who
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 <i>DxgkDdiOPMGetCertificateSize</i> can retrieve the size of the display miniport driver's OPM certificate, User Accessible Bus (UAB) certificate, or Certified Output Protection Protocol (COPP) certificate. For information about these certificates, download the Output Content Protection document from the <a href="https://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
 
 <i>DxgkDdiOPMGetCertificateSize</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgkmdt_certificate_type">DXGKMDT_CERTIFICATE_TYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
- 
-
- 
 

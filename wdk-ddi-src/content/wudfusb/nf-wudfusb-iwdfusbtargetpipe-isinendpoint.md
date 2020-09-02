@@ -8,8 +8,6 @@ ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetPipe::IsInEndPoint"]
 ms.keywords: IWDFUsbTargetPipe interface,IsInEndPoint method, IWDFUsbTargetPipe.IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint, IsInEndPoint method, IsInEndPoint method,IWDFUsbTargetPipe interface, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint
-f1_keywords:
- - "wudfusb/IWDFUsbTargetPipe.IsInEndPoint"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetPipe.IsInEndPoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetPipe::IsInEndPoint
+ - wudfusb/IWDFUsbTargetPipe::IsInEndPoint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetPipe.IsInEndPoint
 ---
 
 # IWDFUsbTargetPipe::IsInEndPoint
@@ -47,24 +46,15 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IsInEndPoint</b> method determines whether a USB pipe (endpoint) is an IN pipe.
 
-
 ## -returns
-
-
 
 <b>IsInEndPoint</b> returns a BOOL value that indicates whether the USB pipe is an IN pipe. <b>TRUE</b> indicates the pipe is an IN pipe. <b>FALSE</b> indicates the pipe is not an IN pipe.
 
-
-
-
 ## -remarks
-
-
 
 If the USB pipe is an IN pipe, a UMDF driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiotarget-formatrequestforread">IWDFIoTarget::FormatRequestForRead</a> method to format a read request. The framework can then send the request to the USB pipe.
 
@@ -77,19 +67,11 @@ For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="ht
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiotarget-formatrequestforread">IWDFIoTarget::FormatRequestForRead</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
- 
-
- 
 

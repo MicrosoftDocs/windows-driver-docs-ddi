@@ -8,8 +8,6 @@ ms.assetid: fa108ef4-54b8-4c6a-9d77-25e6b9e2c09d
 ms.date: 04/30/2018
 keywords: ["IoGetDmaAdapter function"]
 ms.keywords: IoGetDmaAdapter, IoGetDmaAdapter routine [Kernel-Mode Driver Architecture], k104_36398d16-2a22-4a85-a260-265aa9c54bbd.xml, kernel.iogetdmaadapter, wdm/IoGetDmaAdapter
-f1_keywords:
- - "wdm/IoGetDmaAdapter"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetDmaAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetDmaAdapter
+ - wdm/IoGetDmaAdapter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetDmaAdapter
 ---
 
 # IoGetDmaAdapter function
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetDmaAdapter</b> routine returns a pointer to the DMA adapter structure for a physical device object.
-
 
 ## -parameters
 
+### -param PhysicalDeviceObject 
 
-
-
-### -param PhysicalDeviceObject [in, optional]
-
+[in, optional]
 Pointer to the physical device object for the device requesting the DMA adapter structure.
 
+### -param DeviceDescription 
 
-### -param DeviceDescription [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device. Regardless of the version set in the DEVICE_DESCRIPTION structure, this function always returns `DMA_ADAPTER->Version == 1`.
 
+### -param NumberOfMapRegisters 
 
-### -param NumberOfMapRegisters [out]
-
-A pointer to, on output, the maximum number of map registers that the driver can allocate for any DMA transfer operation. 
-
+[out]
+A pointer to, on output, the maximum number of map registers that the driver can allocate for any DMA transfer operation.
 
 ## -returns
 
-
-
 <b>IoGetDmaAdapter</b> returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure, which contains pointers to functions that support system-defined DMA operations. If the structure cannot be allocated, the routine returns <b>NULL</b>.  See version comment above in description of *DeviceDescription* parameter.
 
-
-
-
 ## -remarks
-
-
 
 Before calling this routine, a driver must zero-initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> structure pointed to by <i>DeviceDescription</i> and then add the relevant information for its device to this structure.
 
@@ -105,9 +92,6 @@ To free the adapter object, the driver should call <a href="https://docs.microso
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
 
@@ -129,7 +113,4 @@ To free the adapter object, the driver should call <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pput_dma_adapter">PutDmaAdapter</a>
- 
-
- 
 

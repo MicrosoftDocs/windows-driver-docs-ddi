@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbSetPowerComponentIdle"
+ - DXGKCB_SETPOWERCOMPONENTIDLE
+ - d3dkmddi/DXGKCB_SETPOWERCOMPONENTIDLE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_SETPOWERCOMPONENTIDLE callback function
+
 
 ## -description
 

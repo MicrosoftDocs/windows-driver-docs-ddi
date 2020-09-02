@@ -6,10 +6,8 @@ old-location: bltooth\_brb_sco_get_channel_info.htm
 tech.root: bltooth
 ms.assetid: 1a7eb79c-5a3e-4977-ba1f-682bbebb0494
 ms.date: 04/27/2018
-keywords: ["_BRB_SCO_GET_CHANNEL_INFO structure"]
+keywords: ["BRB_SCO_GET_CHANNEL_INFO structure"]
 ms.keywords: "_BRB_SCO_GET_CHANNEL_INFO, _BRB_SCO_GET_CHANNEL_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_channel_info, bth_structs_cf7da00a-9c32-432d-a8a2-7bac58fe17e0.xml, bthddi/_BRB_SCO_GET_CHANNEL_INFO"
-f1_keywords:
- - "bthddi/_BRB_SCO_GET_CHANNEL_INFO"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_SCO_GET_CHANNEL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_SCO_GET_CHANNEL_INFO
+ - bthddi/_BRB_SCO_GET_CHANNEL_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_SCO_GET_CHANNEL_INFO
 ---
 
 # _BRB_SCO_GET_CHANNEL_INFO structure
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 The _BRB_SCO_GET_CHANNEL_INFO structure describes the settings and statistics of a SCO
   channel.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -63,16 +57,13 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
-
 ### -field BtAddress
 
 The Bluetooth address of the remote device.
 
-
 ### -field ChannelHandle
 
 The handle to the SCO channel to query.
-
 
 ### -field InfoFlags
 
@@ -97,18 +88,14 @@ If set, baseband settings are available for the SCO channel.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TransmitBandwidth
 
 The transmission bandwidth of the channel, in bytes per second.
 
-
 ### -field ReceiveBandwidth
 
 The reception bandwidth of the channel, in bytes per second.
-
 
 ### -field MaxLatency
 
@@ -154,8 +141,6 @@ The channel doesn't have a preferred
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PacketType
 
@@ -178,8 +163,6 @@ A flag or combination of flags that indicates the type of data packets that the 
      </dt>
 <dt>SCO_EV5</dt>
 </dl>
-
-
 
 ### -field ContentFormat
 
@@ -227,19 +210,15 @@ The audio voice setting for the channel. Use the following definitions to decode
 <dt>SCO_VS_SETTING_DEFAULT</dt>
 </dl>
 
-
-
 ### -field Reserved
 
 Reserved for future use. Do not use.
-
 
 ### -field RetransmissionEffort
 
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">SCO_RETRANSMISSION_EFFORT</a> value that
      determines the channel's retransmission policies.
-
 
 ### -field ChannelFlags
 
@@ -283,20 +262,16 @@ The profile driver indicates its preference that users not be prompted for a PIN
 </td>
 </tr>
 </table>
- 
-
 
 ### -field HciConnectionHandle
 
 The host controller interface's connection handle for the SCO connection.
-
 
 ### -field LinkType
 
 The 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a> that is associated with the host
      controller interface.
-
 
 ### -field BasebandInfo
 
@@ -305,23 +280,14 @@ A
      contains information for the SCO connection. This information is only available for links established
      using the 1.2 Bluetooth Synchronous Commands.
 
-
 ## -remarks
-
-
 
 To get the settings and statistics of a SCO channel, profile drivers should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">
     BRB_SCO_GET_CHANNEL_INFO</a> request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_baseband_channel_info">BASEBAND_CHANNEL_INFO</a>
 
@@ -340,7 +306,4 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">SCO_RETRANSMISSION_EFFORT</a>
- 
-
- 
 

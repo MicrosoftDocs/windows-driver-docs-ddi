@@ -6,66 +6,47 @@ tech.root: netvista
 ms.assetid: ccc4fa85-12fd-4491-af6e-29248f23f837
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA
 ---
 
 # FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA callback function
+
 
 ## -description
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelPacketGetExternalData</b>  function gets any external
-Memory Descriptor Lists (MDLs) associated with a packet during packet processing. 
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA FnVmbChannelPacketGetExternalData; 
-
-// Definition
-
-NTSTATUS FnVmbChannelPacketGetExternalData 
-(
-	VMBPACKETCOMPLETION PacketCompletionContext
-	UINT32 Flags
-	PMDL *Mdl
-)
-{...}
-
-```
+Memory Descriptor Lists (MDLs) associated with a packet during packet processing.
 
 ## -parameters
 
@@ -107,6 +88,25 @@ called again, possibly at a different IRQL, when the external data is ready.
 At this point, a call to this function will succeed and return the external
 data.
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA FnVmbChannelPacketGetExternalData; 
+
+// Definition
+
+NTSTATUS FnVmbChannelPacketGetExternalData 
+(
+	VMBPACKETCOMPLETION PacketCompletionContext
+	UINT32 Flags
+	PMDL *Mdl
+)
+{...}
+
+```
+
 ## -remarks
 
 Creating an MDL which represents the memory described by this
@@ -147,3 +147,4 @@ An alternative to using a virtual address would be to just pass the MDL on down 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete">VmbChannelPacketComplete</a>
+

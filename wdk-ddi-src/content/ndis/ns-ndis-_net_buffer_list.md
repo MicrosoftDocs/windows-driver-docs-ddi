@@ -6,10 +6,8 @@ old-location: netvista\net_buffer_list.htm
 tech.root: netvista
 ms.assetid: 3b61a424-33f8-4b33-aaef-f68f0026ce27
 ms.date: 05/02/2018
-keywords: ["_NET_BUFFER_LIST structure"]
+keywords: ["NET_BUFFER_LIST structure"]
 ms.keywords: "*PNET_BUFFER_LIST, NET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST, PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST, ndis/NET_BUFFER_LIST, ndis/PNET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, netvista.net_buffer_list"
-f1_keywords:
- - "ndis/NET_BUFFER_LIST"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NET_BUFFER_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_LIST, *PNET_BUFFER_LIST
+f1_keywords:
+ - _NET_BUFFER_LIST
+ - ndis/_NET_BUFFER_LIST
+ - PNET_BUFFER_LIST
+ - ndis/PNET_BUFFER_LIST
+ - NET_BUFFER_LIST
+ - ndis/NET_BUFFER_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST
 ---
 
 # _NET_BUFFER_LIST structure
@@ -47,22 +50,16 @@ req.typenames: NET_BUFFER_LIST, *PNET_BUFFER_LIST
 
 ## -description
 
-
 The NET_BUFFER_LIST structure specifies a linked list of 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Next
 
 The next **NET_BUFFER_LIST** structure in the chain. 
 
 Drivers should not access this member directly. Instead, they should call the [**NET_BUFFER_LIST_NEXT_NBL**](nf-ndis-net_buffer_list_next_nbl.md) macro.
-
 
 ### -field FirstNetBuffer
 
@@ -77,7 +74,6 @@ Reserved for NDIS.
 ### -field NetBufferListHeader
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">NET_BUFFER_LIST_HEADER</a> structure.
-
 
 ### -field Context
 
@@ -108,8 +104,6 @@ Use the following functions and macros to access data in the NET_BUFFER_LIST_CON
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-size">
          NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
-
-
 ### -field ParentNetBufferList
 
 If this NET_BUFFER_LIST structure is a clone of another NET_BUFFER_LIST structure, this member
@@ -118,27 +112,22 @@ If this NET_BUFFER_LIST structure is a clone of another NET_BUFFER_LIST structur
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">
      NdisAllocateCloneNetBufferList</a> function to create a clone.
 
-
 ### -field NdisPoolHandle
 
 A pool handle that identifies the NET_BUFFER_LIST pool from which the NET_BUFFER_LIST structure
      was allocated.
 
-
 ### -field NdisReserved
 
 Reserved for use by NDIS.
-
 
 ### -field ProtocolReserved
 
 Reserved for use by protocol drivers.
 
-
 ### -field MiniportReserved
 
 Reserved for use by miniport drivers.
-
 
 ### -field Scratch
 
@@ -146,7 +135,6 @@ Data that is defined by the current owner of the NET_BUFFER_LIST structure. The 
      either NDIS or an NDIS driver, can use this member for their own purposes. When the NET_BUFFER_LIST
      structure is initially allocated, this member is <b>NULL</b>. After the current owner relinquishes ownership,
      NDIS or another driver can overwrite this member.
-
 
 ### -field SourceHandle
 
@@ -178,7 +166,6 @@ A handle that NDIS provided to the driver in a binding or attaching operation by
 NDIS uses 
      <b>SourceHandle</b> to return the NET_BUFFER_LIST structure to the driver that sent the NET_BUFFER_LIST
      structure.
-
 
 ### -field NblFlags
 
@@ -270,12 +257,10 @@ All of the Ethernet frames in this NET_BUFFER_LIST structure are split at the be
        NDIS_NBL_FLAGS_IS_TCP flag or the NDIS_NBL_FLAGS_IS_UDP flag, but the provider must not set the
        NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_HEADER flag.
 
-
 ### -field ChildRefCount
 
 If this NET_BUFFER_LIST structure has clones (is a parent), this member specifies the number of
      outstanding clones. Otherwise, this member is zero.
-
 
 ### -field Flags
 
@@ -308,7 +293,6 @@ The current owner of the NET_BUFFER_LIST structure, either NDIS or an NDIS drive
 #### NBL_FLAGS_NDIS_RESERVED
 
 This set is reserved for NDIS.
-
 
 ### -field Status
 
@@ -363,7 +347,6 @@ The miniport driver aborted the send request due to a reset.
 If a driver must reject send requests because it is paused, it sets the complete status in each
        affected NET_BUFFER_LIST to NDIS_STATUS_PAUSED.
 
-
 ### -field NdisReserved2
 
 Reserved for NDIS.
@@ -380,10 +363,7 @@ Use the
      get values in the 
      <b>NetBufferListInfo</b> array.
 
-
 ## -remarks
-
-
 
 NDIS drivers can call any of the following functions to allocate and initialize a NET_BUFFER_LIST
     structure:
@@ -502,13 +482,7 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 For more information on how to use net buffers, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
 
@@ -628,7 +602,4 @@ For more information on how to use net buffers, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndistestnblflags">NdisTestNblFlags</a>
- 
-
- 
 

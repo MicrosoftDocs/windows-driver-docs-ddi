@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnReleaseMonitorSourceModeSet"
+ - DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET
+ - d3dkmddi/DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback function
+
 
 ## -description
 

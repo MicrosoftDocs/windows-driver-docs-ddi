@@ -8,8 +8,6 @@ ms.assetid: fbf06a28-d6f8-424c-95e0-ce24653cac64
 ms.date: 04/16/2018
 keywords: ["SecLookupWellKnownSid function"]
 ms.keywords: SecLookupWellKnownSid, SecLookupWellKnownSid function [Installable File System Drivers], ifsk.seclookupwellknownsid, ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ntifs/SecLookupWellKnownSid
-f1_keywords:
- - "ntifs/SecLookupWellKnownSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ksecdd.lib
-- Ksecdd.dll
-api_name:
-- SecLookupWellKnownSid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SecLookupWellKnownSid
+ - ntifs/SecLookupWellKnownSid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ksecdd.lib
+ - Ksecdd.dll
+api_name:
+ - SecLookupWellKnownSid
 ---
 
 # SecLookupWellKnownSid function
@@ -48,17 +47,13 @@ req.typenames:
 
 ## -description
 
-
 <b>SecLookupWellKnownSid</b> accepts a well-known security identifier (SID) type as input and retrieves the local security identifier (SID) for this well known SID.
-
 
 ## -parameters
 
+### -param SidType 
 
-
-
-### -param SidType [in]
-
+[in]
 An enumerated type that indicates the type of security identifier (SID) the function returns. This parameter can be one of the following enumerations for WELL_KNOWN_SID_TYPE:
 
 
@@ -435,29 +430,22 @@ This value indicates a SID is present in a server that can issue Terminal Server
 
 This value indicates a SID that matches the DCOM users group.
 
+### -param Sid 
 
-### -param Sid [out]
+[out]
 
+      A pointer to a buffer that receives the SID structure that corresponds to the <i>SidType</i> parameter. If this parameter is <b>NULL</b>, <i>SidBufferSize</i> must be zero.
 
-      A pointer to a buffer that receives the SID structure that corresponds to the <i>SidType</i> parameter. If this parameter is <b>NULL</b>, <i>SidBufferSize</i> must be zero. 
-     
+### -param SidBufferSize 
 
-
-### -param SidBufferSize [in]
-
+[in]
 A variable that specifies the size of the <i>Sid</i> buffer in bytes.
-
 
 ### -param OPTIONAL
 
 <p>An optional pointer to a variable that specifies the size of the <i>Sid</i> buffer. If the function fails because the buffer is too small or if <i>SidBufferSize</i> is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>Sid</i></p>
 
-
-
-
 ## -returns
-
-
 
 <b>SecLookupWellKnownSid</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -522,14 +510,8 @@ This process has terminated so it is not possible to establish a local procedure
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SecLookupWellKnownSid</b> attempts to find a well known SID using a <i>SidType</i> parameter. In addition to looking up well-known SIDs on the local machine, <b>SecLookupWellKnownSid</b> can look up well-known SIDs on the local domain. <b>SecLookupWellKnownSid</b>first checks a list of well-known local SIDs. If the <i>SidType</i> does not correspond to a local well-known SID, the function checks for well-known SIDs on the primary domain. 
 
@@ -537,15 +519,9 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 <b>SecLookupWellKnownSid</b> is equivalent to the Win32   <b>CreateWellKnownSid</b> function. For user-mode applications, the WELL_KNOWN_SID_TYPE enumeration is defined in <i>winbase.h</i>.
 
-<b>SecLookupWellKnownSid</b> is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. <b>SecLookupWellKnownSid</b> cannot be used during paging file I/O. 
-
-
-
+<b>SecLookupWellKnownSid</b> is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. <b>SecLookupWellKnownSid</b> cannot be used during paging file I/O.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
 
@@ -556,7 +532,4 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556579">SecLookupAccountSid</a>
- 
-
- 
 

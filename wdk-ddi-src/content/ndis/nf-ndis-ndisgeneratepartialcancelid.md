@@ -8,8 +8,6 @@ ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.date: 05/02/2018
 keywords: ["NdisGeneratePartialCancelId function"]
 ms.keywords: NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml
-f1_keywords:
- - "ndis/NdisGeneratePartialCancelId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGeneratePartialCancelId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGeneratePartialCancelId
+ - ndis/NdisGeneratePartialCancelId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGeneratePartialCancelId
 ---
 
 # NdisGeneratePartialCancelId function
@@ -48,25 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisGeneratePartialCancelId</b> function returns a value that the calling driver must use as the
   high-order byte of a cancellation ID.
 
-
 ## -returns
-
-
 
 <b>NdisGeneratePartialCancelId</b> returns a value that the calling driver uses as the high-order byte of
      a cancellation ID.
 
-
-
-
 ## -remarks
-
-
 
 Before marking send 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures with cancellation
@@ -90,13 +80,7 @@ Typically, an overlying driver calls
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>) of the
     underlying drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
 
@@ -112,7 +96,4 @@ Typically, an overlying driver calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
- 
-
- 
 

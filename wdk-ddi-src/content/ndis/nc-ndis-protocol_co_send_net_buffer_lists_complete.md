@@ -8,8 +8,6 @@ ms.assetid: fb4b00c0-0b14-48dd-a6f2-aae659c6bb28
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolCoSendNetBufferListsComplete, ProtocolCoSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_d2516eb4-44f1-4bae-a4f8-5a1ddd069c5a.xml, ndis/ProtocolCoSendNetBufferListsComplete, netvista.protocolcosendnetbufferlistscomplete
-f1_keywords:
- - "ndis/ProtocolCoSendNetBufferListsComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoSendNetBufferListsComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE
+ - ndis/PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoSendNetBufferListsComplete
 ---
 
 # PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoSendNetBufferListsComplete</i> function completes a send operation that the protocol driver
@@ -58,29 +56,27 @@ The
 
 ## -parameters
 
+### -param ProtocolVcContext 
 
-
-
-### -param ProtocolVcContext [in]
-
+[in]
 A handle to a protocol driver-allocated context area in which this driver maintains the
      per-virtual connection (VC) run-time state information. A client or stand-alone call manager supplied
      this handle either when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function or from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
+### -param NetBufferLists 
 
-### -param NetBufferLists [in]
-
+[in]
 A pointer to a list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      protocol driver supplied in a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">
      NdisCoSendNetBufferLists</a> function.
 
+### -param SendCompleteFlags 
 
-### -param SendCompleteFlags [in]
-
+[in]
 NDIS flags that can be combined with a bitwise OR operation. To clear all of the flags, set this
      parameter to zero. 
      <i>ProtocolCoSendNetBufferListsComplete</i> supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag,
@@ -88,10 +84,7 @@ NDIS flags that can be combined with a bitwise OR operation. To clear all of the
      see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
-
 ## -remarks
-
-
 
 The 
     <i>ProtocolCoSendNetBufferListsComplete</i> function is required for CoNDIS protocol drivers. 
@@ -158,15 +151,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">CoNDIS Protocol Driver Send and Receive Functions</a>
 
@@ -194,7 +181,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">ProtocolCoReceiveNetBufferLists</a>
- 
-
- 
 

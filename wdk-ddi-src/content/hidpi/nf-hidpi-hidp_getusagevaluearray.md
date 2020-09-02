@@ -8,8 +8,6 @@ ms.assetid: afc92692-c665-44a7-b268-d29adc42f5bd
 ms.date: 04/30/2018
 keywords: ["HidP_GetUsageValueArray function"]
 ms.keywords: HidP_GetUsageValueArray, HidP_GetUsageValueArray routine [Human Input Devices], hid.hidp_getusagevaluearray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml, hidpi/HidP_GetUsageValueArray
-f1_keywords:
- - "hidpi/HidP_GetUsageValueArray"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hidparse.lib
-- Hidparse.dll
-api_name:
-- HidP_GetUsageValueArray
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidP_GetUsageValueArray
+ - hidpi/HidP_GetUsageValueArray
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hidparse.lib
+ - Hidparse.dll
+api_name:
+ - HidP_GetUsageValueArray
 ---
 
 # HidP_GetUsageValueArray function
@@ -48,63 +47,56 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidP_GetUsageValueArray</b> routine extracts the data associated with a HID control <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/value-capability-arrays">usage value array</a> from a HID report.
-
 
 ## -parameters
 
+### -param ReportType 
 
-
-
-### -param ReportType [in]
-
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
+### -param UsagePage 
 
-### -param UsagePage [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a> of the usage value array.
 
+### -param LinkCollection 
 
-### -param LinkCollection [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the usage value array. If <i>LinkCollection</i> is nonzero, the routine only searches for a usage value array in this link collection; otherwise, if <i>LinkCollection</i> is zero, the routine searches for a usage value array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
+### -param Usage 
 
-### -param Usage [in]
-
+[in]
 Specifies the usage of the usage value array.
 
+### -param UsageValue 
 
-### -param UsageValue [in, out]
-
+[in, out]
 Pointer to a caller-allocated buffer in which the routine returns the data associated with the usage value array.
 
+### -param UsageValueByteLength 
 
-### -param UsageValueByteLength [in]
-
+[in]
 Specifies the length, in bytes, of the buffer at <i>UsageValue</i>.
 
+### -param PreparsedData 
 
-### -param PreparsedData [in]
-
+[in]
 Pointer to a top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
+### -param Report 
 
-### -param Report [in]
-
+[in]
 Pointer to a report that contains values.
 
+### -param ReportLength 
 
-### -param ReportLength [in]
-
+[in]
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
-
 ## -returns
-
-
 
 <b>HidP_GetUsageValueArray </b>returns one of the following status values:
 
@@ -202,14 +194,8 @@ The collection does not contain a usage value array on the specified usage page 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The required size, in bytes, of <i>UsageValueByteLength</i> is determined by multiplying together the <b>BitSize</b> and <b>ReportCount</b> members of the usage value array's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a> structure, and rounding the result up to the nearest byte.
 
@@ -217,15 +203,9 @@ The required size, in bytes, of <i>UsageValueByteLength</i> is determined by mul
 
 <b>HidP_GetUsageValueArray</b> is designed to extract all the usage values for a usage whose report count is greater than 1. To extract a usage whose report count is equal to 1, use <b>HidP_GetUsageValue</b>. 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
 
@@ -260,7 +240,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
- 
-
- 
 

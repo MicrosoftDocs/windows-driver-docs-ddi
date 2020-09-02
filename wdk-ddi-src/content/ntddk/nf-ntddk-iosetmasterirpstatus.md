@@ -8,8 +8,6 @@ ms.assetid: 68C7C46B-AFDB-449D-99B5-1F9A5A9AFFA4
 ms.date: 04/30/2018
 keywords: ["IoSetMasterIrpStatus function"]
 ms.keywords: IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], kernel.iosetmasterirpstatus, ntddk/IoSetMasterIrpStatus
-f1_keywords:
- - "ntddk/IoSetMasterIrpStatus"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetMasterIrpStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetMasterIrpStatus
+ - ntddk/IoSetMasterIrpStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetMasterIrpStatus
 ---
 
 # IoSetMasterIrpStatus function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoSetMasterIrpStatus</b> routine conditionally replaces the <b>Status</b> value in an IRP with the specified NTSTATUS value.
-
 
 ## -parameters
 
+### -param MasterIrp 
 
-
-
-### -param MasterIrp [in, out]
-
+[in, out]
 A pointer to the master <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>. For more information, see Remarks.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 An NTSTATUS value to compare to the <b>Status</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-status-blocks">I/O status block</a> in the master IRP.
 
-
 ## -remarks
-
-
 
 On receipt of an IRP, a driver can create two or more subordinate IRPs to perform the work requested by the original (or master) IRP. When the subordinate IRPs complete, the driver gathers the completion status codes from the subordinate IRPs and merges them to form a single completion status code for the master IRP.
 
@@ -84,16 +76,7 @@ As a general rule, <b>IoSetMasterIrpStatus</b> replaces the status code in <i>PI
 </ul>
 There are two exceptions to the general rule. A <i>Status</i> value of STATUS_VERIFY_REQUIRED <u>always</u> replaces the status value in *<i>PIRP</i>. A <i>Status</i> value of STATUS_FT_READ_FROM_COPY <u>never</u> replaces the status value in *<i>PIRP</i>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
- 
-
- 
 

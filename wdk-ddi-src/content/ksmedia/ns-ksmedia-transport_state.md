@@ -8,8 +8,6 @@ ms.assetid: 373fb91d-e469-4136-b2e3-bf57016c0fd6
 ms.date: 04/30/2019
 keywords: ["TRANSPORT_STATE structure"]
 ms.keywords: "*PTRANSPORT_STATE, PTRANSPORT_STATE, PTRANSPORT_STATE structure pointer [Streaming Media Devices], TRANSPORT_STATE, TRANSPORT_STATE structure [Streaming Media Devices], ksmedia/PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE, stream.transport_state, vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml"
-f1_keywords:
- - "ksmedia/TRANSPORT_STATE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- TRANSPORT_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSPORT_STATE, *PTRANSPORT_STATE
+f1_keywords:
+ - PTRANSPORT_STATE
+ - ksmedia/PTRANSPORT_STATE
+ - TRANSPORT_STATE
+ - ksmedia/TRANSPORT_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - TRANSPORT_STATE
 ---
 
 # TRANSPORT_STATE structure
@@ -47,28 +48,19 @@ req.typenames: TRANSPORT_STATE, *PTRANSPORT_STATE
 
 ## -description
 
-
-The TRANSPORT_STATE structure 
-
+The TRANSPORT_STATE structure
 
 ## -struct-fields
-
-
-
 
 ### -field Mode
 
 Specifies the mode of the external device transport.
 
-
 ### -field State
 
 Specifies the state of the external device transport mode.
 
-
 ## -remarks
-
-
 
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
 
@@ -109,6 +101,4 @@ ED_MODE_STOP
 ED_MODE_PLAY
 
 ED_MODE_FF
-
-
 

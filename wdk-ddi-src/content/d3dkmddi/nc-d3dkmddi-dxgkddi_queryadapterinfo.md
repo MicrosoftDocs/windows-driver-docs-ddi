@@ -29,7 +29,8 @@ tech.root: display
 req.typenames: 
 ms.custom: 19H1
 f1_keywords:
- - "d3dkmddi/DxgkDdiQueryAdapterInfo"
+ - DXGKDDI_QUERYADAPTERINFO
+ - d3dkmddi/DXGKDDI_QUERYADAPTERINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,6 +47,7 @@ dev_langs:
 ---
 
 # DXGKDDI_QUERYADAPTERINFO callback function
+
 
 ## -description
 

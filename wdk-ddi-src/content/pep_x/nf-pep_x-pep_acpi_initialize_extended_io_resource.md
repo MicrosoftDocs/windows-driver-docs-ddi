@@ -8,8 +8,6 @@ ms.assetid: 95464DE1-221A-4053-B124-4CFD44557CD3
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_extended_io_resource, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
-f1_keywords:
- - "pep_x/PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
+ - pep_x/PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE
 ---
 
 # PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE function
@@ -47,100 +46,89 @@ req.typenames:
 
 ## -description
 
-
 The <b>PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
-
 
 ## -parameters
 
+### -param ResourceUsage 
 
-
-
-### -param ResourceUsage [in]
-
+[in]
 This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
+### -param Decode 
 
-### -param Decode [in]
-
+[in]
 When set, indicates that this bridge subtractively decodes the address. This applies to top level bridges only. 
 
 When not set, indicates that this bridge positively decodes this address.
 
+### -param IsMinFixed 
 
-### -param IsMinFixed [in]
-
+[in]
 When set, indicates that the minimum address is fixed.
 
+### -param IsMaxFixed 
 
-### -param IsMaxFixed [in]
+[in]
+When set, indicates that the maximum address is fixed.
 
-When set, indicates that the maximum address is fixed. 
+### -param ISARanges 
 
-
-### -param ISARanges [in]
-
+[in]
 This parameter is copied into the <b>TypeSpecificFlags</b> member of the initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
+### -param AddressGranularity 
 
-### -param AddressGranularity [in]
-
+[in]
 A bit mask indicating which bits have been decoded.
 
+### -param AddressMinimum 
 
-### -param AddressMinimum [in]
-
+[in]
 For bridges that translate addresses, this indicates the minimum starting address on the secondary side of the bridge.
 
+### -param AddressMaximum 
 
-### -param AddressMaximum [in]
-
+[in]
 For bridges that translate addresses, this indicates the maximum starting address on the secondary side of the bridge.
 
+### -param AddressTranslation 
 
-### -param AddressTranslation [in]
-
+[in]
 For bridges that translate addresses across the bridge, this is the
-address on the primary side. 
+address on the primary side.
 
+### -param RangeLength 
 
-### -param RangeLength [in]
+[in]
+The length of the address range.
 
-The length of the address range. 
+### -param TypeSpecificAttributes 
 
-
-### -param TypeSpecificAttributes [in]
-
+[in]
 The type-specific attributes for this resource.
 
+### -param DescriptorName 
 
-### -param DescriptorName [in]
-
+[in]
 The name of the resource descriptor.
 
+### -param TranslationTypeNonStatic 
 
-### -param TranslationTypeNonStatic [in]
-
+[in]
 When true, indicates that the resource uses type translation. Otherwise, it uses type-static translation.
 
+### -param TanslationSparseDensity 
 
-### -param TanslationSparseDensity [in]
+[in]
+When false, indicates that this is a dense translation. Otherwise, it is sparse.
 
-When false, indicates that this is a dense translation. Otherwise, it is sparse. 
+### -param Resource 
 
-
-### -param Resource [out]
-
+[out]
 This is cast to *<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>
- 
-
- 
 

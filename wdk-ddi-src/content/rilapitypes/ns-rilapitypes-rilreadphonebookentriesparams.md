@@ -8,8 +8,6 @@ ms.assetid: af74f94a-497a-4771-aee4-d1ba8d2f3ad9
 ms.date: 05/02/2018
 keywords: ["RILREADPHONEBOOKENTRIESPARAMS structure"]
 ms.keywords: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadphonebookentriesparams, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
-f1_keywords:
- - "rilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILREADPHONEBOOKENTRIESPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS
+f1_keywords:
+ - RILREADPHONEBOOKENTRIESPARAMS
+ - rilapitypes/RILREADPHONEBOOKENTRIESPARAMS
+ - LPRILREADPHONEBOOKENTRIESPARAMS
+ - rilapitypes/LPRILREADPHONEBOOKENTRIESPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILREADPHONEBOOKENTRIESPARAMS
 ---
 
 # RILREADPHONEBOOKENTRIESPARAMS structure
@@ -47,23 +48,15 @@ req.typenames: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hUiccApp
-
 
 ### -field dwStoreLocation
 
-
 ### -field dwStartIndex
-
 
 ### -field dwEndIndex
 

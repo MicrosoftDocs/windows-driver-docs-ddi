@@ -8,8 +8,6 @@ ms.assetid: 583fe92d-ce81-47b4-bd75-5566a5379790
 ms.date: 06/10/2020
 keywords: ["NETWORK_OPEN_ECP_CONTEXT structure"]
 ms.keywords: "*PNETWORK_OPEN_ECP_CONTEXT, ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, NETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_OPEN_ECP_CONTEXT, ifsk.network_open_ecp_context, ntifs/NETWORK_OPEN_ECP_CONTEXT, ntifs/PNETWORK_OPEN_ECP_CONTEXT"
-f1_keywords:
- - "ntifs/NETWORK_OPEN_ECP_CONTEXT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- NETWORK_OPEN_ECP_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: NETWORK_OPEN_ECP_CONTEXT, *PNETWORK_OPEN_ECP_CONTEXT
+f1_keywords:
+ - _NETWORK_OPEN_ECP_CONTEXT
+ - ntifs/_NETWORK_OPEN_ECP_CONTEXT
+ - PNETWORK_OPEN_ECP_CONTEXT
+ - ntifs/PNETWORK_OPEN_ECP_CONTEXT
+ - NETWORK_OPEN_ECP_CONTEXT
+ - ntifs/NETWORK_OPEN_ECP_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - NETWORK_OPEN_ECP_CONTEXT
 ---
 
 # NETWORK_OPEN_ECP_CONTEXT structure
+
 
 ## -description
 
@@ -130,3 +134,4 @@ Drivers that run on Windows Vista and later versions of Windows use the **NETWO
 [**NETWORK_OPEN_LOCATION_QUALIFIER**](ne-ntifs-network_open_location_qualifier.md)
 
 [**NETWORK_OPEN_INTEGRITY_QUALIFIER**](ne-ntifs-network_open_integrity_qualifier.md)
+

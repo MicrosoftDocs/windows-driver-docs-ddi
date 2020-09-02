@@ -8,8 +8,6 @@ ms.assetid: 95f97b95-fdb1-43f2-b733-4054adda4c41
 ms.date: 02/26/2018
 keywords: ["WdfWmiInstanceRegister function"]
 ms.keywords: DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, WdfWmiInstanceRegister, WdfWmiInstanceRegister method, kmdf.wdfwmiinstanceregister, wdf.wdfwmiinstanceregister, wdfwmi/WdfWmiInstanceRegister
-f1_keywords:
- - "wdfwmi/WdfWmiInstanceRegister"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfWmiInstanceRegister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfWmiInstanceRegister
+ - wdfwmi/WdfWmiInstanceRegister
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfWmiInstanceRegister
 ---
 
 # WdfWmiInstanceRegister function
@@ -48,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfWmiInstanceRegister</b> method registers a specified instance of a WMI data provider with the system's WMI service.
 
-
 ## -parameters
 
+### -param WmiInstance 
 
-
-
-### -param WmiInstance [in]
-
+[in]
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>.
 
-
 ## -returns
-
-
 
 <b>WdfWmiInstanceRegister</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -93,14 +85,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Provider instances are not available to WMI clients until they have been registered. Your driver must either call <b>WdfWmiInstanceRegister</b> or set the <b>Register</b> member of the instance's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a> structure to <b>TRUE</b>.
 
@@ -119,12 +104,7 @@ NTSTATUS  status;
 status = WdfWmiInstanceRegister(wmiInstance);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a>
 
@@ -135,7 +115,4 @@ status = WdfWmiInstanceRegister(wmiInstance);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancederegister">WdfWmiInstanceDeregister</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 9182084b-ea11-48e4-acb5-06a8375d05bf
 ms.date: 04/16/2018
 keywords: ["RtlLookupElementGenericTable function"]
 ms.keywords: RtlLookupElementGenericTable, RtlLookupElementGenericTable routine [Installable File System Drivers], ifsk.rtllookupelementgenerictable, ntddk/RtlLookupElementGenericTable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml
-f1_keywords:
- - "ntddk/RtlLookupElementGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlLookupElementGenericTable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlLookupElementGenericTable
+ - ntddk/RtlLookupElementGenericTable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlLookupElementGenericTable
 ---
 
 # RtlLookupElementGenericTable function
+
 
 ## -description
 
@@ -95,3 +95,4 @@ Otherwise, callers of **RtlLookupElementGenericTable** can run at IRQL <= DISPAT
 [RtlIsGenericTableEmpty](nf-ntddk-rtlisgenerictableempty.md)
 
 [RtlNumberGenericTableElements](nf-ntddk-rtlnumbergenerictableelements.md)
+

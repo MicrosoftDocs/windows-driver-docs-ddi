@@ -8,8 +8,6 @@ ms.assetid: 3cfb7f31-93ae-47a2-8da8-becfbe045f5e
 ms.date: 05/02/2018
 keywords: ["NdisIfGetNetLuidFromInterfaceIndex function"]
 ms.keywords: NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetNetLuidFromInterfaceIndex, net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, netvista.ndisifgetnetluidfrominterfaceindex
-f1_keywords:
- - "ndis/NdisIfGetNetLuidFromInterfaceIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIfGetNetLuidFromInterfaceIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIfGetNetLuidFromInterfaceIndex
+ - ndis/NdisIfGetNetLuidFromInterfaceIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIfGetNetLuidFromInterfaceIndex
 ---
 
 # NdisIfGetNetLuidFromInterfaceIndex function
@@ -48,17 +47,12 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisIfGetNetLuidFromInterfaceIndex</b> function gets the 
   <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with a network
   interface index.
 
-
 ## -parameters
-
-
-
 
 ### -param ifIndex
 
@@ -67,15 +61,14 @@ A network interface index that NDIS assigned to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
-### -param pNetLuid [out]
+### -param pNetLuid 
 
+[out]
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfGetNetLuidFromInterfaceIndex</b> succeeds, NDIS writes the NET_LUID value that is associated
      with the specified network interface index to this variable.
 
 ## -returns
-
-
 
 <b>NdisIfGetNetLuidFromInterfaceIndex</b> returns one of the following status values:
 
@@ -108,14 +101,8 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS drivers can call the 
     <b>NdisIfGetNetLuidFromInterfaceIndex</b> function to get the 
@@ -160,13 +147,7 @@ NDIS provides the
     NdisIfGetInterfaceIndexFromNetLuid</a> function to obtain the interface index for a specified
     NET_LUID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
@@ -194,7 +175,4 @@ NDIS provides the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
- 
-
- 
 

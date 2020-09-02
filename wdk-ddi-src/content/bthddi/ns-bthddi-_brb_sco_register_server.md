@@ -6,10 +6,8 @@ old-location: bltooth\_brb_sco_register_server.htm
 tech.root: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.date: 04/27/2018
-keywords: ["_BRB_SCO_REGISTER_SERVER structure"]
+keywords: ["BRB_SCO_REGISTER_SERVER structure"]
 ms.keywords: "_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, bthddi/_BRB_SCO_REGISTER_SERVER"
-f1_keywords:
- - "bthddi/_BRB_SCO_REGISTER_SERVER"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_SCO_REGISTER_SERVER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_SCO_REGISTER_SERVER
+ - bthddi/_BRB_SCO_REGISTER_SERVER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_SCO_REGISTER_SERVER
 ---
 
 # _BRB_SCO_REGISTER_SERVER structure
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 A profile driver uses the _BRB_SCO_REGISTER_SERVER structure to register itself as a server capable
   of receiving SCO connections from remote Bluetooth devices.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -63,16 +57,13 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
-
 ### -field BtAddress
 
 The address of the remote Bluetooth device for which to receive notifications.
 
-
 ### -field Reserved
 
 Reserved for future use. Do not use.
-
 
 ### -field IndicationFlags
 
@@ -112,8 +103,6 @@ Notify the profile driver if there are any incoming eSCO connections.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IndicationCallback
 
@@ -122,12 +111,10 @@ A
      by the profile driver, that the Bluetooth driver stack should call to notify the profile driver about
      incoming SCO connections.
 
-
 ### -field IndicationCallbackContext
 
 The context passed to the function that is defined in the 
      <b>IndicationCallback</b> member.
-
 
 ### -field ReferenceObject
 
@@ -143,7 +130,6 @@ A pointer to an object to pass to the
      <a href="https://docs.microsoft.com/previous-versions/ff536630(v=vs.85)">
      BRB_SCO_UNREGISTER_SERVER</a> request.
 
-
 ### -field ServerHandle
 
 Handle to the SCO server, if successfully returned. When the profile driver should no longer
@@ -151,10 +137,7 @@ Handle to the SCO server, if successfully returned. When the profile driver shou
      <a href="https://docs.microsoft.com/previous-versions/ff536630(v=vs.85)">
      BRB_SCO_UNREGISTER_SERVER</a>.
 
-
 ## -remarks
-
-
 
 To register itself as a SCO server, a profile driver should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
@@ -184,13 +167,7 @@ To stop receiving remote connection notifications, a profile driver should
     <a href="https://docs.microsoft.com/previous-versions/ff536630(v=vs.85)">
     BRB_SCO_UNREGISTER_SERVER</a> request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
@@ -213,7 +190,4 @@ To stop receiving remote connection notifications, a profile driver should
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
- 
-
- 
 

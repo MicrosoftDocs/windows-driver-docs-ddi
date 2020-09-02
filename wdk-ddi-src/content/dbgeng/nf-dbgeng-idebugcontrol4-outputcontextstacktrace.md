@@ -8,8 +8,6 @@ ms.assetid: da3d19ab-258d-4214-8674-b35fec06534b
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::OutputContextStackTrace"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OutputContextStackTrace method, IDebugControl4.OutputContextStackTrace, IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, OutputContextStackTrace, OutputContextStackTrace method [Windows Debugging], OutputContextStackTrace method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace
-f1_keywords:
- - "dbgeng/IDebugControl4.OutputContextStackTrace"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.OutputContextStackTrace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::OutputContextStackTrace
+ - dbgeng/IDebugControl4::OutputContextStackTrace
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.OutputContextStackTrace
 ---
 
 # IDebugControl4::OutputContextStackTrace
@@ -47,47 +46,43 @@ req.typenames:
 
 ## -description
 
-
 The <b>OutputContextStackTrace</b> method prints the call stack specified by an array of stack frames and corresponding register contexts.
-
 
 ## -parameters
 
+### -param OutputControl 
 
-
-
-### -param OutputControl [in]
-
+[in]
 Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
+### -param Frames 
 
-### -param Frames [in]
-
+[in]
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frame is used.
 
+### -param FramesSize 
 
-### -param FramesSize [in]
-
+[in]
 Specifies the number of frames to output.
 
+### -param FrameContexts 
 
-### -param FrameContexts [in]
-
+[in]
 Specifies the register context for each frame in the stack.  The entries in this array correspond to the entries in the <i>Frames</i> array.  The type of the thread context is the CONTEXT structure for the target's effective processor.
 
+### -param FrameContextsSize 
 
-### -param FrameContextsSize [in]
-
+[in]
 Specifies the size, in bytes, of the memory pointed to by <i>FrameContexts</i>.  The number of stack frames must equal the number of contexts, and <i>FrameContextsSize</i> must equal <i>FramesSize</i> multiplied by <i>FrameContextsEntrySize</i>.
 
+### -param FrameContextsEntrySize 
 
-### -param FrameContextsEntrySize [in]
-
+[in]
 Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 
 <table>
@@ -206,12 +201,8 @@ Displays each parameter and its type and value on a new line.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -232,24 +223,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The array of stack frames can be obtained using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-getcontextstacktrace">GetContextStackTrace</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-getcontextstacktrace">GetContextStackTrace</a>
 
@@ -264,7 +243,4 @@ The array of stack frames can be obtained using <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
- 
-
- 
 

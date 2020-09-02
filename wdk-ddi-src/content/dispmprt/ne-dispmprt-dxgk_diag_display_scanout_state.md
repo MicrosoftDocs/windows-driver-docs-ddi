@@ -27,13 +27,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_SCANOUT_STATE
  - DXGK_DIAG_DISPLAY_SCANOUT_STATE
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_SCANOUT_STATE
  - dispmprt/_DXGK_DIAG_DISPLAY_SCANOUT_STATE
+ - DXGK_DIAG_DISPLAY_SCANOUT_STATE
  - dispmprt/DXGK_DIAG_DISPLAY_SCANOUT_STATE
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_SCANOUT_STATE enumeration
+
 
 ## -description
 
@@ -68,3 +71,4 @@ The **DXGK_DIAG_DISPLAY_SCANOUT_STATE** enumeration is a member of the [**DXGK_D
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

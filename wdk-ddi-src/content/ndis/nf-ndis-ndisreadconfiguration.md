@@ -8,8 +8,6 @@ ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
 ms.date: 05/02/2018
 keywords: ["NdisReadConfiguration function"]
 ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_RESOURCES, NDIS_STATUS_SUCCESS, NdisReadConfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, netvista.ndisreadconfiguration
-f1_keywords:
- - "ndis/NdisReadConfiguration"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisReadConfiguration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisReadConfiguration
+ - ndis/NdisReadConfiguration
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisReadConfiguration
 ---
 
 # NdisReadConfiguration function
@@ -48,20 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisReadConfiguration</b> function returns
   the value of a named entry of the specified type from the registry, given the handle to an open registry
   key. This function must be invoked serially with respect to itself and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a> function.
 
-
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following values.
 
@@ -104,11 +99,10 @@ The requested information could not be found under the opened registry key desig
 </td>
 </tr>
 </table>
- 
 
+### -param ParameterValue 
 
-### -param ParameterValue [out]
-
+[out]
 A pointer to a memory location where NDIS supplies a pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
      NDIS_CONFIGURATION_PARAMETER</a> structure if the call to 
@@ -117,9 +111,9 @@ A pointer to a memory location where NDIS supplies a pointer to an
      <b>
      NDIS_CONFIGURATION_PARAMETER</b> structure.
 
+### -param ConfigurationHandle 
 
-### -param ConfigurationHandle [in]
-
+[in]
 The handle to a registry key that was returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>, 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
@@ -127,9 +121,9 @@ The handle to a registry key that was returned by the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyname">
      NdisOpenConfigurationKeyByName</a> function.
 
+### -param Keyword 
 
-### -param Keyword [in]
-
+[in]
 A pointer to a caller-supplied NDIS_STRING type describing a counted string, in the system-default
      character set, specifying the name of the entry under the open registry key for which to return the
      value. 
@@ -178,19 +172,15 @@ NdisVersion
 </td>
 </tr>
 </table>
- 
 
+### -param ParameterType 
 
-### -param ParameterType [in]
-
+[in]
 The type of the value entry that is specified as one of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values.
      This parameter is ignored in Windows NT and later versions.
 
-
 ## -remarks
-
-
 
 In the configuration registry of Windows 2000 and later versions, an NDIS 
     <i>keyword</i> is a synonym for a 
@@ -233,15 +223,9 @@ For more information about setup and installation files, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
     Overview</a>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 
@@ -305,8 +289,5 @@ For more information about setup and installation files, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

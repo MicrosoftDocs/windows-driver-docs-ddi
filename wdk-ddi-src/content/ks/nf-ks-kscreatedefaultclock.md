@@ -8,8 +8,6 @@ ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
 ms.date: 06/25/2020
 keywords: ["KsCreateDefaultClock function"]
 ms.keywords: KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], ks/KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock
-f1_keywords:
- - "ks/KsCreateDefaultClock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsCreateDefaultClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsCreateDefaultClock
+ - ks/KsCreateDefaultClock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsCreateDefaultClock
 ---
 
 # KsCreateDefaultClock function
+
 
 ## -description
 
@@ -53,12 +53,14 @@ The **KsCreateDefaultClock** function can only be called at PASSIVE_LEVEL.
 
 ## -parameters
 
-### -param Irp [in]
+### -param Irp 
 
+[in]
 Specifies the IRP with the clock-create request being handled.
 
-### -param DefaultClock [in]
+### -param DefaultClock 
 
+[in]
 Specifies an initialize default clock structure that is shared among any instance of the default clock for the parent.
 
 ## -returns
@@ -72,3 +74,4 @@ The clock can be created after using **KsAllocateDefaultClock** to create and in
 ## -see-also
 
 [KsAllocateDefaultClock](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock)
+

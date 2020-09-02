@@ -6,10 +6,8 @@ old-location: acpi\acpi_eval_input_buffer_simple_string.htm
 tech.root: acpi
 ms.assetid: f8f5db79-d1ea-4ce8-b941-49ef7518b941
 ms.date: 02/15/2018
-keywords: ["_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure"]
+keywords: ["ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, acpi-meth-eval-ref_e7f8f5c8-9aef-488b-b041-2dc9d2f1a280.xml, acpi.acpi_eval_input_buffer_simple_string, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1"
-f1_keywords:
- - "acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING
+f1_keywords:
+ - _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
+ - acpiioct/_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
+ - PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
+ - acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
+ - ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
+ - acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure
@@ -47,48 +50,33 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, *PACPI_EVAL_INPUT_BUFFER
 
 ## -description
 
-
-The ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING structure is used as input to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method">IOCTL_ACPI_EVAL_METHOD</a> request and to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_async_eval_method">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> request. The structure supplies the name of a control method and an input argument that is an ASCII string. 
-
+The ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING structure is used as input to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method">IOCTL_ACPI_EVAL_METHOD</a> request and to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_async_eval_method">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> request. The structure supplies the name of a control method and an input argument that is an ASCII string.
 
 ## -struct-fields
-
-
-
 
 ### -field Signature
 
 The signature of a string input buffer, which must be set to ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_SIGNATURE.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.MethodName
 
 This union member is a four-element ASCII character array that contains the name of the method. For example, 'ABCD.'
 
-
 ### -field DUMMYUNIONNAME.MethodNameAsUlong
 
 This union member is a ULONG-typed variable that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
-
 
 ### -field StringLength
 
 The number of ASCII characters in the array of characters that is supplied by <b>String</b>.
 
-
 ### -field String
 
-An ASCII character string that contains the number of characters that is specified by <b>StringLength</b>. The string does not include a NULL terminator. 
-
+An ASCII character string that contains the number of characters that is specified by <b>StringLength</b>. The string does not include a NULL terminator.
 
 ## -remarks
-
-
 
 If a device supports a control method named ABCD that takes an ASCII string as input, a driver for the device can evaluate the method by sending an IOCTL_ACPI_EVAL_METHOD request or an IOCTL_ACPI_ASYNC_EVAL_METHOD request to the device and setting the members of the input ACPI_EVAL_INPUT_BUFFER structure as follows:
 
@@ -112,20 +100,11 @@ Set <b>String</b> to the input string.
 </ul>
 For more information about how to use this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_async_eval_method">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_eval_method">IOCTL_ACPI_EVAL_METHOD</a>
- 
-
- 
 

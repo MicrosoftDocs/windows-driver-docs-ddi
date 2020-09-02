@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CheckCryptoSessionStatus"
+ - PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS
+ - d3d10umddi/PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback function
+
 
 ## -description
 

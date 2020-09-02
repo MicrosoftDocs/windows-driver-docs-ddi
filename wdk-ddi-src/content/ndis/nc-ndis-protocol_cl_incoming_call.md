@@ -8,8 +8,6 @@ ms.assetid: 8a5922ac-b22b-444e-9ea0-3bb56e71ef33
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_INCOMING_CALL callback function"]
 ms.keywords: PROTOCOL_CL_INCOMING_CALL, PROTOCOL_CL_INCOMING_CALL callback, ProtocolClIncomingCall, ProtocolClIncomingCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8c9188c3-7134-4fab-a9c7-67862e881054.xml, ndis/ProtocolClIncomingCall, netvista.protocolclincomingcall
-f1_keywords:
- - "ndis/ProtocolClIncomingCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClIncomingCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_INCOMING_CALL
+ - ndis/PROTOCOL_CL_INCOMING_CALL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClIncomingCall
 ---
 
 # PROTOCOL_CL_INCOMING_CALL callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolClIncomingCall</i> function is used by connection-oriented clients that accept incoming calls.
@@ -58,31 +56,26 @@ The
 
 ## -parameters
 
+### -param ProtocolSapContext 
 
-
-
-### -param ProtocolSapContext [in]
-
+[in]
 Specifies the handle that the client originally supplied when it registered the SAP, which the
      call manager matched to this incoming call offer.
 
+### -param ProtocolVcContext 
 
-### -param ProtocolVcContext [in]
-
+[in]
 Specifies the handle to the client's per-VC context area, previously returned to NDIS by its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
+### -param CallParameters 
 
-### -param CallParameters [in, out]
-
+[in, out]
 Pointer to a buffer, formatted as a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure, that contains
      the call parameters for this offered call.
 
-
 ## -returns
-
-
 
 <i>ProtocolClIncomingCall</i> can return one of the following status codes:
 
@@ -127,14 +120,8 @@ The client rejected the incoming call offer for some driver-determined reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A call to 
     <i>ProtocolClIncomingCall</i> indicates that the call manager has received a request over the network from
@@ -195,15 +182,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CL_INCOMING_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_INCOMING_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -238,7 +219,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

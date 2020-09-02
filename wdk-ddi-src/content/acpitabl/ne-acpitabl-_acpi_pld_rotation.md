@@ -4,34 +4,38 @@ title: _ACPI_PLD_ROTATION enumeration (acpitabl.h)
 description: Describes rotation bits 115:118.
 ms.assetid: aac7540e-8bb2-4208-b917-ebdc74ff170a
 ms.date: 10/02/2018
-keywords: ["_ACPI_PLD_ROTATION enumeration"]
-f1_keywords:
- - "acpitabl/_ACPI_PLD_ROTATION"
+keywords: ["ACPI_PLD_ROTATION enumeration"]
 ms.keywords: _ACPI_PLD_ROTATION, ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION, AcpiPldRotation
 req.header: acpitabl.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- acpitabl.h
-api_name: 
-- _ACPI_PLD_ROTATION
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _ACPI_PLD_ROTATION
+ - acpitabl/_ACPI_PLD_ROTATION
+ - PACPI_PLD_ROTATION
+ - acpitabl/PACPI_PLD_ROTATION
+ - ACPI_PLD_ROTATION
+ - acpitabl/ACPI_PLD_ROTATION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _ACPI_PLD_ROTATION
 ---
 
 # _ACPI_PLD_ROTATION enumeration
+
 
 ## -description
 
@@ -71,7 +75,7 @@ Value is 6.
 
 Value is 7.
 
-
 ## -remarks
 
 ## -see-also
+

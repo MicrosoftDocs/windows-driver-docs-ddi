@@ -8,38 +8,41 @@ ms.assetid: 770962e3-0339-46f8-a789-7c9bbf9e058f
 ms.date: 02/16/2018
 keywords: ["DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure"]
 ms.keywords: "*PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_association_completion_parameters, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS"
-f1_keywords:
- - "windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_ASSOCIATION_COMPLETION_PARAMETERS
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
+f1_keywords:
+ - DOT11_ASSOCIATION_COMPLETION_PARAMETERS
+ - windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS
+ - PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
+ - windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_ASSOCIATION_COMPLETION_PARAMETERS
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure
@@ -51,39 +54,6 @@ product:
 > The [Native 802.11 Wireless LAN](https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model).
 
 The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of the association operation performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11 miniport driver includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when the miniport driver makes an [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion) status indication.
-
-## -syntax
-
-```cpp
-typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
-  NDIS_OBJECT_HEADER     Header;
-  DOT11_MAC_ADDRESS      MacAddr;
-  DOT11_ASSOC_STATUS     uStatus;
-  BOOLEAN                bReAssocReq;
-  BOOLEAN                bReAssocResp;
-  ULONG                  uAssocReqOffset;
-  ULONG                  uAssocReqSize;
-  ULONG                  uAssocRespOffset;
-  ULONG                  uAssocRespSize;
-  ULONG                  uBeaconOffset;
-  ULONG                  uBeaconSize;
-  ULONG                  uIHVDataOffset;
-  ULONG                  uIHVDataSize;
-  DOT11_AUTH_ALGORITHM   AuthAlgo;
-  DOT11_CIPHER_ALGORITHM UnicastCipher;
-  DOT11_CIPHER_ALGORITHM MulticastCipher;
-  ULONG                  uActivePhyListOffset;
-  ULONG                  uActivePhyListSize;
-  BOOLEAN                bFourAddressSupported;
-  BOOLEAN                bPortAuthorized;
-  UCHAR                  ucActiveQoSProtocol;
-  DOT11_DS_INFO          DSInfo;
-  ULONG                  uEncapTableOffset;
-  ULONG                  uEncapTableSize;
-  DOT11_CIPHER_ALGORITHM MulticastMgmtCipher;
-  ULONG                  uAssocComebackTime;
-} DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS;
-```
 
 ## -struct-fields
 
@@ -186,7 +156,6 @@ The offset of a block of data in a proprietary format that is defined by the IHV
 This offset is relative to the start of the buffer, which contains the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure.
 
 If the miniport driver is not returning IHV data in the [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion) status indication, it must set **uIHVDataOffset** to zero.
-
 
 ### -field uIHVDataSize
 
@@ -310,6 +279,39 @@ When a (re)association fails with 802.11 reason code 30 ("Association request re
 
 Windows' auto-connection service will add the AP to a blocked list and not attempt to reconnect for at least the indicated comeback time. The NIC will behave like a regular failed authentication until the next connection sequence is begun. After the indicated timeout(comeback) elapses and the connection process is stopped Windows may either find a better alternate connection or comeback to this connection. This value set in this member should use the time units defined in the 802.11 specification. For example, TU.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
+  NDIS_OBJECT_HEADER     Header;
+  DOT11_MAC_ADDRESS      MacAddr;
+  DOT11_ASSOC_STATUS     uStatus;
+  BOOLEAN                bReAssocReq;
+  BOOLEAN                bReAssocResp;
+  ULONG                  uAssocReqOffset;
+  ULONG                  uAssocReqSize;
+  ULONG                  uAssocRespOffset;
+  ULONG                  uAssocRespSize;
+  ULONG                  uBeaconOffset;
+  ULONG                  uBeaconSize;
+  ULONG                  uIHVDataOffset;
+  ULONG                  uIHVDataSize;
+  DOT11_AUTH_ALGORITHM   AuthAlgo;
+  DOT11_CIPHER_ALGORITHM UnicastCipher;
+  DOT11_CIPHER_ALGORITHM MulticastCipher;
+  ULONG                  uActivePhyListOffset;
+  ULONG                  uActivePhyListSize;
+  BOOLEAN                bFourAddressSupported;
+  BOOLEAN                bPortAuthorized;
+  UCHAR                  ucActiveQoSProtocol;
+  DOT11_DS_INFO          DSInfo;
+  ULONG                  uEncapTableOffset;
+  ULONG                  uEncapTableSize;
+  DOT11_CIPHER_ALGORITHM MulticastMgmtCipher;
+  ULONG                  uAssocComebackTime;
+} DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS;
+```
+
 ## -remarks
 
 The miniport driver must set the **uEncapTableOffset** and **uEncapTableSize** members to zero if any of the following are true:
@@ -347,3 +349,4 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion)
 
 [NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md)
+

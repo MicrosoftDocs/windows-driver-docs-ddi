@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupAction2::UnInstallDriverPermanently"]
 ms.keywords: IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],UnInstallDriverPermanently method, IWDTFDriverSetupAction2.UnInstallDriverPermanently, IWDTFDriverSetupAction2::UnInstallDriverPermanently, Microsoft.WDTF.IWDTFDriverSetupAction2.UnInstallDriverPermanently, Microsoft::WDTF::IWDTFDriverSetupAction2::UnInstallDriverPermanently, UnInstallDriverPermanently, UnInstallDriverPermanently method [Windows Device Testing Framework], UnInstallDriverPermanently method [Windows Device Testing Framework],IWDTFDriverSetupAction2 interface, dtf.iwdtfdriversetupaction2_uninstalldriverpermanently, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UnInstallDriverPermanently
 f1_keywords:
  - "wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2.UnInstallDriverPermanently"
+ - "IWDTFDriverSetupAction2.UnInstallDriverPermanently"
 req.header: wdtfdriversetupdeviceaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupDeviceAction.Interop.dll
 api_name:
 - IWDTFDriverSetupAction2.UnInstallDriverPermanently
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -67,7 +66,7 @@ Uninstalls the current driver for the target device.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

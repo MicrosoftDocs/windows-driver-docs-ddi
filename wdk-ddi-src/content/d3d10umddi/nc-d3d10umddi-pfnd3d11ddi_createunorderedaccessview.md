@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateUnorderedAccessView"
+ - PFND3D11DDI_CREATEUNORDEREDACCESSVIEW
+ - d3d10umddi/PFND3D11DDI_CREATEUNORDEREDACCESSVIEW
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_CREATEUNORDEREDACCESSVIEW callback function
+
 
 ## -description
 

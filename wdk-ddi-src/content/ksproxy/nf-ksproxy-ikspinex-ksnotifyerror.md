@@ -8,8 +8,6 @@ ms.assetid: a2526734-c0bf-4f6b-b91e-2f6891c46c69
 ms.date: 04/23/2018
 keywords: ["IKsPinEx::KsNotifyError"]
 ms.keywords: IKsPinEx interface [Streaming Media Devices],KsNotifyError method, IKsPinEx.KsNotifyError, IKsPinEx::KsNotifyError, KsNotifyError, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices],IKsPinEx interface, ksproxy/IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, stream.ikspinex_ksnotifyerror
-f1_keywords:
- - "ksproxy/IKsPinEx.KsNotifyError"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPinEx.KsNotifyError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPinEx::KsNotifyError
+ - ksproxy/IKsPinEx::KsNotifyError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPinEx.KsNotifyError
 ---
 
 # IKsPinEx::KsNotifyError
@@ -47,43 +46,27 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsNotifyError</b> method notifies the filter graph of an error to give the filter graph an opportunity to halt. 
-
+The <b>KsNotifyError</b> method notifies the filter graph of an error to give the filter graph an opportunity to halt.
 
 ## -parameters
 
+### -param Sample 
 
-
-
-### -param Sample [in]
-
+[in]
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
+### -param hr 
 
-### -param hr [in]
-
-Error value for notification. If ERROR_OPERATION_ABORTED (that is, the I/O was purposefully canceled), the filter graph is not notified. 
-
+[in]
+Error value for notification. If ERROR_OPERATION_ABORTED (that is, the I/O was purposefully canceled), the filter graph is not notified.
 
 ## -remarks
-
-
 
 The <b>KsNotifyError</b> method notifies the filter graph of the specific error using the EC_ERRORABORT event, which specifies that the error forced the termination of an I/O operation.
 
 For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinex">IKsPinEx</a>
- 
-
- 
 

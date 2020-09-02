@@ -6,10 +6,8 @@ old-location: ieee\irb_req_isoch_detach_buffers.htm
 tech.root: IEEE
 ms.assetid: 60ED83BD-4AFA-432F-B918-9006815C8D47
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_ISOCH_DETACH_BUFFERS structure"]
+keywords: ["IRB_REQ_ISOCH_DETACH_BUFFERS structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_DETACH_BUFFERS, IEEE.irb_req_isoch_detach_buffers, IRB_REQ_ISOCH_DETACH_BUFFERS, IRB_REQ_ISOCH_DETACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_DETACH_BUFFERS
-f1_keywords:
- - "1394/IRB_REQ_ISOCH_DETACH_BUFFERS"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ISOCH_DETACH_BUFFERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_DETACH_BUFFERS
+f1_keywords:
+ - _IRB_REQ_ISOCH_DETACH_BUFFERS
+ - 1394/_IRB_REQ_ISOCH_DETACH_BUFFERS
+ - IRB_REQ_ISOCH_DETACH_BUFFERS
+ - 1394/IRB_REQ_ISOCH_DETACH_BUFFERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ISOCH_DETACH_BUFFERS
 ---
 
 # _IRB_REQ_ISOCH_DETACH_BUFFERS structure
@@ -47,24 +48,17 @@ req.typenames: IRB_REQ_ISOCH_DETACH_BUFFERS
 
 ## -description
 
-
 This structure contains the fields required to carry out a IsochDetachBuffers request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hResource
 
 Specifies the resource handle to detach buffers from.
 
-
 ### -field nNumberOfDescriptors
 
 Specifies the number of elements in the <b>pIsochDescriptor</b> array.
-
 
 ### -field pIsochDescriptor
 

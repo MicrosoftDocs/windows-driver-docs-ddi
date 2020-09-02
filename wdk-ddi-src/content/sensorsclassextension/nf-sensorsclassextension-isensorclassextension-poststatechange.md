@@ -8,8 +8,6 @@ ms.assetid: ae3bc846-df63-4186-9554-f4600e1f2066
 ms.date: 05/03/2018
 keywords: ["ISensorClassExtension::PostStateChange"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostStateChange method, ISensorClassExtension.PostStateChange, ISensorClassExtension::PostStateChange, PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices],ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange
-f1_keywords:
- - "sensorsclassextension/ISensorClassExtension.PostStateChange"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SensorsClassExtension.lib
-- SensorsClassExtension.dll
-api_name:
-- ISensorClassExtension.PostStateChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ISensorClassExtension::PostStateChange
+ - sensorsclassextension/ISensorClassExtension::PostStateChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SensorsClassExtension.lib
+ - SensorsClassExtension.dll
+api_name:
+ - ISensorClassExtension.PostStateChange
 ---
 
 # ISensorClassExtension::PostStateChange
@@ -48,36 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor class extension about a change in the operational state of the sensor.
-
 
 ## -parameters
 
+### -param pwszSensorID 
 
-
-
-### -param pwszSensorID [in]
-
+[in]
 <b>LPWSTR</b> that contains the ID for the sensor for which the driver is raising the event.
 
-
 ### -param state
-
-
-
-
-
 
 #### - State [in]
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001">SensorState</a> value that indicates the new state.
 
-
 ## -returns
-
-
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
@@ -87,10 +73,7 @@ This method returns an HRESULT. Possible values include, but are not limited to,
 |E_POINTER|A required pointer argument was NULL.|
 |HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)|The class extension is not initialized.|
 
-
 ## -remarks
-
-
 
 Sensor state information is also available through the <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">SENSOR_PROPERTY_STATE</a> property key.
 
@@ -124,11 +107,7 @@ HRESULT PostStateEvent()
 }
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
 
@@ -139,7 +118,4 @@ HRESULT PostStateEvent()
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents">ISensorDriver::OnClientUnsubscribeFromEvents</a>
- 
-
- 
 

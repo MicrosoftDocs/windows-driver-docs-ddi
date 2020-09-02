@@ -8,8 +8,6 @@ ms.assetid: fb36b3e9-c17b-4c15-b1ad-b93f71f43cd5
 ms.date: 04/16/2018
 keywords: ["FsRtlCopyRead function"]
 ms.keywords: FsRtlCopyRead, FsRtlCopyRead routine [Installable File System Drivers], fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead
-f1_keywords:
- - "ntifs/FsRtlCopyRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlCopyRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlCopyRead
+ - ntifs/FsRtlCopyRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlCopyRead
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlCopyRead function
@@ -50,70 +49,58 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlCopyRead</b> routine copies data from a cached file to a user buffer.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Pointer to a file object for the cached file from which the data is to be read.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 Starting byte offset within the cached file.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Length in bytes of the data to be read.
 
+### -param Wait 
 
-### -param Wait [in]
-
+[in]
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
+### -param LockKey 
 
-### -param LockKey [in]
-
+[in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
+### -param Buffer 
 
-### -param Buffer [out]
+[out]
+Pointer to a buffer into which the data is to be copied.
 
-Pointer to a buffer into which the data is to be copied. 
+### -param IoStatus 
 
-
-### -param IoStatus [out]
-
+[out]
 Pointer to a caller-allocated structure that receives the final completion status and information about the operation. If the data is copied successfully, <i>IoStatus.Status</i> contains STATUS_SUCCESS. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
+### -param DeviceObject 
 
-### -param DeviceObject [in]
-
+[in]
 The device object for the device that holds the file data.
 
-
 ## -returns
-
-
 
 <b>FsRtlCopyRead</b>
       returns <b>TRUE</b> if the copy request was completed, <b>FALSE</b> otherwise. Note that a return value of <b>TRUE</b> does not necessarily mean that the copy operation was successful. 
 
 If <b>FsRtlCopyRead</b> returns <b>FALSE</b>, or if the contents of <i>IoStatus</i> indicate that the copy operation failed, the caller must allocate a read IRP instead of calling <b>FsRtlCopyRead</b>.
 
-
-
-
 ## -remarks
-
-
 
 Rather than implementing a file-system-specific fast I/O read routine, developers of file systems that support file caching should consider using <b>FsRtlCopyRead</b> as the file system's entry point for processing fast I/O read requests. This requires that the file system's <b>DriverEntry</b> routine set the <b>FastIoRead</b> entry point to <b>FsRtlCopyRead</b> in the FAST_IO_DISPATCH structure of the file system driver object. In addition, the file system must do the following:
 
@@ -145,13 +132,7 @@ The file system's <b>FastIoCheckIfPossible</b> routine is responsible for ensuri
 
 To cache a file, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
@@ -162,7 +143,4 @@ To cache a file, use the <a href="https://msdn.microsoft.com/library/windows/har
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread">FsRtlFastCheckLockForRead</a>
- 
-
- 
 

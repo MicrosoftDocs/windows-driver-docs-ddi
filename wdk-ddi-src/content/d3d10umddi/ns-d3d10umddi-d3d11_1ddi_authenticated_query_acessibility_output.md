@@ -7,8 +7,6 @@ ms.assetid: 0b32d283-9a5f-4e37-9b03-3c0f5c33c11d
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT, display.d3d11_1ddi_authenticated_query_acessibility_output
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
+f1_keywords:
+ - D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT
+ - d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT
+ - D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
+ - d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
 ---
 
 # D3D11_1DDI_AUTHENTICATED_QUERY_ACESSIBILITY_OUTPUT structure
@@ -47,39 +48,27 @@ req.typenames: D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
 
 ## -description
 
-
 Contains the response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel">QueryAuthenticatedChannel(D3D11_1)</a> query with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_output">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>.<b>QueryType</b> value of <b>D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES</b>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Output
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_output">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a> structure that contains a Message Authentication Code (MAC) and other data.
 
-
 ### -field BusType
 
 A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_bus_type">D3D11_1DDI_BUS_TYPE</a> enumeration.
-
 
 ### -field AccessibleInContiguousBlocks
 
 If <b>TRUE</b>, contiguous blocks of video memory may be accessible to the CPU or the bus.
 
-
 ### -field AccessibleInNonContiguousBlocks
 
 If <b>TRUE</b>, non-contiguous blocks of video memory may be accessible to the CPU or the bus.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_output">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>
 
@@ -90,7 +79,4 @@ If <b>TRUE</b>, non-contiguous blocks of video memory may be accessible to the C
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel">QueryAuthenticatedChannel(D3D11_1)</a>
- 
-
- 
 

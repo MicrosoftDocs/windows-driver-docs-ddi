@@ -8,8 +8,6 @@ ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.date: 04/23/2018
 keywords: ["tagTRANSPORTBASICPARMS structure"]
 ms.keywords: "*PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], TRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, ksmedia/TRANSPORTBASICPARMS, stream.transportbasicparms, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml"
-f1_keywords:
- - "ksmedia/TRANSPORTBASICPARMS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- TRANSPORTBASICPARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
+f1_keywords:
+ - tagTRANSPORTBASICPARMS
+ - ksmedia/tagTRANSPORTBASICPARMS
+ - PTRANSPORTBASICPARMS
+ - ksmedia/PTRANSPORTBASICPARMS
+ - TRANSPORTBASICPARMS
+ - ksmedia/TRANSPORTBASICPARMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - TRANSPORTBASICPARMS
 ---
 
 # tagTRANSPORTBASICPARMS structure
@@ -47,14 +50,9 @@ req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 
 ## -description
 
-
 The TRANSPORTBASICPARMS structure is defined but not used.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TimeFormat
 
@@ -116,8 +114,6 @@ Binary coded decimal, representing tracks, minutes, seconds, and frames
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TimeReference
 
@@ -159,13 +155,10 @@ Index
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Superimpose
 
 Indicates whether to enable or disable the onscreen display. Specify <b>TRUE</b> to enable, <b>FALSE</b> to disable.
-
 
 ### -field EndStopAction
 
@@ -207,8 +200,6 @@ Freeze/pause
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RecordFormat
 
@@ -250,63 +241,50 @@ Extended play
 </td>
 </tr>
 </table>
- 
-
 
 ### -field StepFrames
 
 Indicates the frame step count.
 
-
 ### -field SetpField
 
 Indicates the field step count.
-
 
 ### -field Preroll
 
 Indicates the preroll amount.
 
-
 ### -field RecPreroll
 
 Indicates the record preroll amount.
-
 
 ### -field Postroll
 
 Indicates the postroll amount.
 
-
 ### -field EditDelay
 
 Indicates the edit delay amount.
-
 
 ### -field PlayTCDelay
 
 Indicates the play timecode delay amount.
 
-
 ### -field RecTCDelay
 
 Indicates the record timecode delay amount.
-
 
 ### -field EditField
 
 Indicates the edit field.
 
-
 ### -field FrameServo
 
 Specifies the frame servo.
 
-
 ### -field ColorFrameServo
 
 Specifies the color frame servo.
-
 
 ### -field ServoRef
 
@@ -358,13 +336,10 @@ Auto
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WarnGenlock
 
 Indicates the warn genlock.
-
 
 ### -field SetTracking
 
@@ -406,69 +381,52 @@ Reset
 </td>
 </tr>
 </table>
- 
-
 
 ### -field VolumeName
 
 Specifies the volume name.
 
-
 ### -field Ballistic
 
 Specifies any proprietary data.
-
 
 ### -field Speed
 
 Specifies the speed.
 
-
 ### -field CounterFormat
 
 Specifies the counter format.
-
 
 ### -field TunerChannel
 
 Indicates the tuner channel.
 
-
 ### -field TunerNumber
 
 Indicates the tuner number.
-
 
 ### -field TimerEvent
 
 Specifies a timer event.
 
-
 ### -field TimerStartDay
 
 Indicates the timer start-day.
-
 
 ### -field TimerStartTime
 
 Indicates the timer start-time.
 
-
 ### -field TimerStopDay
 
 Indicates the timer stop-day.
-
 
 ### -field TimerStopTime
 
 Indicates the timer stop-time.
 
-
 ## -remarks
 
-
-
 Any ED_<i>Xxx</i> tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
-
-
 

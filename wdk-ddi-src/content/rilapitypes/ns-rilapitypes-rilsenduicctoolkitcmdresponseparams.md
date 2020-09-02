@@ -8,8 +8,6 @@ ms.assetid: 9006d542-0f83-4cd4-ab81-d2e4cce67406
 ms.date: 05/02/2018
 keywords: ["RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure"]
 ms.keywords: "*LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitcmdresponseparams, ntddrilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
-f1_keywords:
- - "rilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSENDUICCTOOLKITCMDRESPONSEPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS
+f1_keywords:
+ - RILSENDUICCTOOLKITCMDRESPONSEPARAMS
+ - rilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS
+ - LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS
+ - rilapitypes/LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSENDUICCTOOLKITCMDRESPONSEPARAMS
 ---
 
 # RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure
@@ -47,20 +48,13 @@ req.typenames: RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESP
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwSlotIndex
 
-
 ### -field dwDetailsSize
-
 
 ### -field bDetails
 

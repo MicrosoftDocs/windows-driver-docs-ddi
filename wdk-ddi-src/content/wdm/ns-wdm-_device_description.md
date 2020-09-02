@@ -6,10 +6,8 @@ old-location: kernel\device_description.htm
 tech.root: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.date: 04/30/2018
-keywords: ["_DEVICE_DESCRIPTION structure"]
+keywords: ["DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION_VERSION2, DEVICE_DESCRIPTION_VERSION3, PDEVICE_DESCRIPTION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], _DEVICE_DESCRIPTION, kernel.device_description, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, wdm/DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION"
-f1_keywords:
- - "wdm/DEVICE_DESCRIPTION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- DEVICE_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION
+f1_keywords:
+ - _DEVICE_DESCRIPTION
+ - wdm/_DEVICE_DESCRIPTION
+ - PDEVICE_DESCRIPTION
+ - wdm/PDEVICE_DESCRIPTION
+ - DEVICE_DESCRIPTION
+ - wdm/DEVICE_DESCRIPTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - DEVICE_DESCRIPTION
 ---
 
 # _DEVICE_DESCRIPTION structure
@@ -47,14 +50,9 @@ req.typenames: DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION
 
 ## -description
 
-
 The <b>DEVICE_DESCRIPTION</b> structure describes the attributes of the physical device for which a driver is requesting a DMA adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -84,18 +82,15 @@ If <b>Version</b> = <b>DEVICE_DESCRIPTION_VERSION2</b>, <b>IoGetDmaAdapter</b> u
 
 If <b>Version</b> = <b>DEVICE_DESCRIPTION_VERSION3</b>, <b>IoGetDmaAdapter</b> uses the <b>IgnoreCount</b> member, and returns version 3 of the <b>DMA_ADAPTER</b> structure. Version 3 is available starting with  Windows 8.
 
-
 ### -field Master
 
 Whether the device is a bus-master DMA device. Set to <b>TRUE</b> if the device is a bus-master DMA device. Set to <b>FALSE</b> if it is a subordinate DMA device.
-
 
 ### -field ScatterGather
 
 For a bus-master DMA device, this member indicates whether the device supports scatter/gather DMA. Set to <b>TRUE</b> if the device can do scatter/gather DMA. Otherwise, set this member to <b>FALSE</b>.
 
 For a subordinate DMA device, the <b>ScatterGather</b> value is not used. Instead, <b>IoGetDmaAdapter</b> assumes that the scatter/gather capability of a subordinate DMA device is the same as that of the  underlying system DMA controller to which the device is connected.
-
 
 ### -field DemandMode
 
@@ -107,13 +102,11 @@ For a bus-master DMA device, the <b>DemandMode</b> value is not used.
 
 If <b>Version</b> is DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION1, or DEVICE_DESCRIPTION_VERSION3, the <b>DemandMode</b> value is not used.
 
-
 ### -field AutoInitialize
 
 For a subordinate DMA device, this member indicates whether to use the system DMA controller's autoinitialize mode. Set to <b>TRUE</b> to use autoinitialize mode. Otherwise, set this member to <b>FALSE</b>.
 
 For a bus-master DMA device, the <b>AutoInitialize</b> value is not used.
-
 
 ### -field Dma32BitAddresses
 
@@ -123,7 +116,6 @@ This member is used only if <b>Version</b> is DEVICE_DESCRIPTION_VERSION, DEVICE
 
 If <b>Version</b> = DEVICE_DESCRIPTION_VERSION3, the <b>Dma32BitAddresses</b> value is not used.
 
-
 ### -field IgnoreCount
 
 Whether to ignore the DMA controller's transfer counter. Set to <b>TRUE</b> if the DMA controller in this platform does not maintain an accurate transfer counter, and therefore requires a workaround. Otherwise, set this member to <b>FALSE</b>.
@@ -132,11 +124,9 @@ If <b>Version</b> = DEVICE_DESCRIPTION_VERSION, the <b>IgnoreCount</b> value is 
 
 For more information, see the Remarks section.
 
-
 ### -field Reserved1
 
 Reserved for system use. Must be <b>FALSE</b>.
-
 
 ### -field Dma64BitAddresses
 
@@ -146,28 +136,23 @@ This member is used only if <b>Version</b> is DEVICE_DESCRIPTION_VERSION, DEVICE
 
 If <b>Version</b> = DEVICE_DESCRIPTION_VERSION3, the <b>Dma64BitAddresses</b> value is not used.
 
-
 ### -field BusNumber
 
 The system-assigned bus number for the I/O bus. This member is not used by WDM drivers.
-
 
 ### -field DmaChannel
 
 The number of the DMA channel to which a subordinate device is assigned. The device driver obtains this channel number from the resource list that it receives in the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request that starts the device. For more information about this number, see the description of the <b>Dma.Channel</b> member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
-
 ### -field InterfaceType
 
 The interface type of the I/O bus to use for DMA. Set this member to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a> enumeration value that indicates the interface type. For more information, see the Remarks section.
-
 
 ### -field DmaWidth
 
 For a subordinate DMA device, this member specifies the DMA data width for transfers by the system DMA controller. Possible values are <b>Width8Bits</b>, <b>Width16Bits</b>, <b>Width32Bits</b>, and <b>Width64Bits</b>.
 
 For a bus-master DMA device, the <b>DmaWidth</b> value is not used.
-
 
 ### -field DmaSpeed
 
@@ -179,16 +164,13 @@ For a bus-master DMA device, the <b>DmaSpeed</b> value is not used.
 
 If <b>Version</b> = DEVICE_DESCRIPTION_VERSION3, the <b>DmaSpeed</b> value is not used.
 
-
 ### -field MaximumLength
 
 The maximum number of bytes the device can transfer in a DMA operation that uses the allocated adapter object.
 
-
 ### -field DmaPort
 
 The Microchannel-type bus port number. This parameter is obsolete, but is retained in the structure for compatibility with legacy drivers.
-
 
 ### -field DmaAddressWidth
 
@@ -198,11 +180,9 @@ For a bus-master DMA device, <b>DmaAddressWidth</b> specifies the width, in bits
 
 For a subordinate DMA device, the <b>DmaAddressWidth</b> value is not used. Instead, <b>IoGetDmaAdapter</b> assumes that the address width of a subordinate DMA device is the same as that of the underlying system DMA controller to which the device is connected.
 
-
 ### -field DmaControllerInstance
 
 Not used.
-
 
 ### -field DmaRequestLine
 
@@ -212,7 +192,6 @@ For a subordinate DMA device, <b>DmaRequestLine</b> specifies the request line o
 
 For a bus-master DMA device, the <b>DmaRequestLine</b> value is not used.
 
-
 ### -field DeviceAddress
 
 This member is used only if <b>Version</b> = DEVICE_DESCRIPTION_VERSION3.
@@ -221,10 +200,7 @@ For a subordinate DMA device, <b>DeviceAddress</b> is the memory-mapped address 
 
 For a bus-master DMA device, the <b>DeviceAddress</b> member is not used.
 
-
 ## -remarks
-
-
 
 The driver of a device that uses DMA to transfer data uses the <b>DEVICE_DESCRIPTION</b> structure to pass information about the device to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine. The driver calls this routine to request an adapter object for a physical device object (PDO). This PDO represents the device's physical connection to the I/O bus to use for DMA. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/getting-an-adapter-object">Getting an Adapter Object</a>.
 
@@ -242,13 +218,7 @@ To indicate that the DMA controller hardware cannot reliably maintain an accurat
 
 A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the computer's ACPI firmware supports it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
@@ -271,7 +241,4 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
- 
-
- 
 

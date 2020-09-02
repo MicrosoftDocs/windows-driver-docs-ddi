@@ -8,8 +8,6 @@ ms.assetid: 46020122-0B0E-4C05-8B13-68100B227E93
 ms.date: 05/02/2018
 keywords: ["EVT_VMB_CHANNEL_PROCESS_PACKET callback function"]
 ms.keywords: EVT_VMB_CHANNEL_PROCESS_PACKET, EVT_VMB_CHANNEL_PROCESS_PACKET callback, EvtVmbChannelProcessPacket, EvtVmbChannelProcessPacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESS_PACKET, PFN_VMB_CHANNEL_PROCESS_PACKET callback function pointer [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_PROCESS_PACKET_FLAGS, netvista.evt_vmb_channel_process_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessPacket
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_PROCESS_PACKET"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- VmbusKernelModeClientLibApi.h
-api_name:
-- PFN_VMB_CHANNEL_PROCESS_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_VMB_CHANNEL_PROCESS_PACKET
+ - vmbuskernelmodeclientlibapi/EVT_VMB_CHANNEL_PROCESS_PACKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - VmbusKernelModeClientLibApi.h
+api_name:
+ - PFN_VMB_CHANNEL_PROCESS_PACKET
 ---
 
 # EVT_VMB_CHANNEL_PROCESS_PACKET callback function
@@ -47,42 +46,35 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <i>EvtVmbChannelProcessPacket</i> callback function is invoked when a packet arrives in the incoming ring buffer.
 
-
-
 ## -parameters
 
+### -param Channel 
 
-
-
-### -param Channel [in]
-
+[in]
 The channel on which the packet arrives.
 
+### -param Packet 
 
-### -param Packet [in]
-
+[in]
 The completion context, which identifies this packet to Kernel Mode Client Library (KMCL) when the transaction can be retired.
 
+### -param Buffer 
 
-
-### -param Buffer [in]
-
+[in]
 The packet which was sent by the opposite endpoint.  This value does not contain the VMBus and KMCL headers.
 
+### -param BufferLength 
 
-
-### -param BufferLength [in]
-
+[in]
 The length of the <i>Buffer</i> parameter, in bytes.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Flags. Possible values include the following: 
 
 <table>
@@ -104,12 +96,8 @@ the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernel
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The client driver registers its implementation of this callback function by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks">VmbChannelInitSetProcessPacketCallbacks</a> function. 
 
@@ -119,13 +107,7 @@ the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernel
 This callback function can be invoked at DISPATCH_LEVEL or lower, unless the channel
 has been configured to defer packet processing to a worker thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks">VmbChannelInitSetProcessPacketCallbacks</a>
 
@@ -136,7 +118,4 @@ has been configured to defer packet processing to a worker thread.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata">VmbChannelPacketGetExternalData</a>
- 
-
- 
 

@@ -10,6 +10,7 @@ keywords: ["FsRtlSplitLargeMcb function"]
 ms.keywords: FsRtlSplitLargeMcb, FsRtlSplitLargeMcb routine [Installable File System Drivers], fsrtlref_f8b7262b-59e2-442d-9525-faa934101bd8.xml, ifsk.fsrtlsplitlargemcb, ntifs/FsRtlSplitLargeMcb
 f1_keywords:
  - "ntifs/FsRtlSplitLargeMcb"
+ - "FsRtlSplitLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlSplitLargeMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,18 +55,18 @@ The <b>FsRtlSplitLargeMcb</b> routine inserts a hole into the mappings in a map 
 
 
 
-### -param Mcb [in]
-
+### -param Mcb 
+[in]
 Pointer to the MCB structure.
 
 
-### -param Vbn [in]
-
+### -param Vbn 
+[in]
 Starting virtual block number (VBN) of the range of mappings to be shifted upward by <i>Amount</i> to make room for the hole.
 
 
-### -param Amount [in]
-
+### -param Amount 
+[in]
 Number of sectors (VBNs) in the hole to be created.
 
 

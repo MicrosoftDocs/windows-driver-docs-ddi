@@ -6,10 +6,8 @@ old-location: netvista\ndis_rsc_statistics_info.htm
 tech.root: netvista
 ms.assetid: 14911610-f2d6-4ad4-884f-3137eab143be
 ms.date: 05/02/2018
-keywords: ["_NDIS_RSC_STATISTICS_INFO structure"]
+keywords: ["NDIS_RSC_STATISTICS_INFO structure"]
 ms.keywords: "*PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, ntddndis/NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO"
-f1_keywords:
- - "ntddndis/NDIS_RSC_STATISTICS_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RSC_STATISTICS_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
+f1_keywords:
+ - _NDIS_RSC_STATISTICS_INFO
+ - ntddndis/_NDIS_RSC_STATISTICS_INFO
+ - PNDIS_RSC_STATISTICS_INFO
+ - ntddndis/PNDIS_RSC_STATISTICS_INFO
+ - NDIS_RSC_STATISTICS_INFO
+ - ntddndis/NDIS_RSC_STATISTICS_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RSC_STATISTICS_INFO
 ---
 
 # _NDIS_RSC_STATISTICS_INFO structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
 
 ## -description
 
-
-The <b>NDIS_RSC_STATISTICS_INFO</b> structure contains statistics that  a miniport driver supplies in response to a query of the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-rsc-statistics">OID_TCP_RSC_STATISTICS</a> OID. 
-
+The <b>NDIS_RSC_STATISTICS_INFO</b> structure contains statistics that  a miniport driver supplies in response to a query of the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-rsc-statistics">OID_TCP_RSC_STATISTICS</a> OID.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,39 +70,27 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_RSC_STATISTICS_REVISION_1.
 
-
 ### -field CoalescedPkts
 
 The total  number of packets that were coalesced.
-
 
 ### -field CoalescedOctets
 
 The total number of bytes that were coalesced.
 
-
 ### -field CoalesceEvents
 
 The total number of coalescing events. That is, the total number of packets that were formed from coalescing packets.
 
-
 ### -field Aborts
 
 The total number of RSC abort events. That is, the number of exceptions other than the IP datagram length being exceeded. This count should include the cases where a packet is not coalesced because of insufficient hardware  resources.
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-rsc-statistics">OID_TCP_RSC_STATISTICS</a>
- 
-
- 
 

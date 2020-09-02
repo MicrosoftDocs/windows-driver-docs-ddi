@@ -8,8 +8,6 @@ ms.assetid: 878a7c4f-8584-4de2-9a32-f1c358d9b27f
 ms.date: 03/29/2018
 keywords: ["HW_CLEANUP_TRACING callback function"]
 ms.keywords: HW_CLEANUP_TRACING, HwStorCleanupTracing, HwStorCleanupTracing routine [Storage Devices], storage.hwstorcleanuptracing, storport/HwStorCleanupTracing, storvmini_7a5c9359-04e5-4ad4-b638-14cce4087df2.xml
-f1_keywords:
- - "storport/HwStorCleanupTracing"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorCleanupTracing
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_CLEANUP_TRACING
+ - storport/HW_CLEANUP_TRACING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorCleanupTracing
 ---
 
 # HW_CLEANUP_TRACING callback function
@@ -47,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>HwStorCleanupTracing</b> callback routine allows the Storport virtual miniport driver to stop tracing and to free any related resources.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
 A pointer to the driver object.
 
-
 ## -remarks
-
-
 
 The name <b>HwStorCleanupTracing</b> is  placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
 
@@ -120,6 +111,4 @@ MyHwCleanupTracing (
 </tr>
 </table></span></div>
 The <b>HW_CLEANUP_TRACING</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_CLEANUP_TRACING</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
-
 

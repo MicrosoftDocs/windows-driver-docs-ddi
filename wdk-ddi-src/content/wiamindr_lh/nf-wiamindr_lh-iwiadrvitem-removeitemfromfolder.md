@@ -8,12 +8,10 @@ ms.assetid: f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem::RemoveItemFromFolder"]
 ms.keywords: DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem interface [Imaging Devices],RemoveItemFromFolder method, IWiaDrvItem.RemoveItemFromFolder, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
-f1_keywords:
- - "wiamindr_lh/IWiaDrvItem.RemoveItemFromFolder"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaDrvItem.RemoveItemFromFolder
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaDrvItem::RemoveItemFromFolder
+ - wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaDrvItem.RemoveItemFromFolder
 ---
 
 # IWiaDrvItem::RemoveItemFromFolder
+
 
 ## -description
 
@@ -83,3 +83,4 @@ After the item has been removed from the folder, it can no longer be used for de
 [IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
 [IWiaDrvItem::AddItemToFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-additemtofolder)
+

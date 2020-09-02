@@ -8,8 +8,6 @@ ms.assetid: 7244a63b-404f-45e0-b2f7-6c4ea70e4a21
 ms.date: 04/30/2018
 keywords: ["IoFreeErrorLogEntry function"]
 ms.keywords: IoFreeErrorLogEntry, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, kernel.iofreeerrorlogentry, wdm/IoFreeErrorLogEntry
-f1_keywords:
- - "wdm/IoFreeErrorLogEntry"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoFreeErrorLogEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoFreeErrorLogEntry
+ - wdm/IoFreeErrorLogEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoFreeErrorLogEntry
 ---
 
 # IoFreeErrorLogEntry function
@@ -47,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoFreeErrorLogEntry</b> routine frees an unused error log entry. 
-
+The <b>IoFreeErrorLogEntry</b> routine frees an unused error log entry.
 
 ## -parameters
 
+### -param ElEntry 
 
-
-
-### -param ElEntry [in]
-
-Pointer to an error log packet allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a>. 
-
+[in]
+Pointer to an error log packet allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a>.
 
 ## -remarks
 
-
-
 Drivers use <b>IoFreeErrorLogEntry</b> to free an error log entry allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a>. <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a> also frees any error log entries passed to it, so drivers must not call both on the same log entry.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_error_log_packet">IO_ERROR_LOG_PACKET</a>
 
@@ -84,7 +70,4 @@ Drivers use <b>IoFreeErrorLogEntry</b> to free an error log entry allocated by <
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>
- 
-
- 
 

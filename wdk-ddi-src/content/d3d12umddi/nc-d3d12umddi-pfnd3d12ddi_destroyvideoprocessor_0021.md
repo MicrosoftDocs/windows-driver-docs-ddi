@@ -7,8 +7,6 @@ ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
 ms.date: 05/10/2018
 keywords: ["PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback function"]
 ms.keywords: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnDestroyVideoProcessor, display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor, pfnDestroyVideoProcessor callback function [Display Devices]
-f1_keywords:
- - "d3d12umddi/pfnDestroyVideoProcessor"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d12umddi.h
-api_name:
-- pfnDestroyVideoProcessor
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021
+ - d3d12umddi/PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d12umddi.h
+api_name:
+ - pfnDestroyVideoProcessor
 ---
 
 # PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback function
@@ -47,22 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <i>pfnDestroyVideoProcessor</i> callback function destroys a video processor.
 
-
 ## -parameters
-
-
-
 
 ### -param hDrvDevice
 
 The handle of a device driver.
 
-
 ### -param hDrvVideoProcessor
 
 The handle of a video processor.
-
 

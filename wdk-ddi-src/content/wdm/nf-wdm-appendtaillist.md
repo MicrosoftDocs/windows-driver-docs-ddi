@@ -8,8 +8,6 @@ ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
 ms.date: 04/30/2018
 keywords: ["AppendTailList function"]
 ms.keywords: AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], kernel.appendtaillist, wdm/AppendTailList
-f1_keywords:
- - "wdm/AppendTailList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- AppendTailList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AppendTailList
+ - wdm/AppendTailList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - AppendTailList
 ---
 
 # AppendTailList function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>AppendTailList</b> routine appends a doubly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures to the tail of another doubly linked list of <b>LIST_ENTRY</b> structures.
-
 
 ## -parameters
 
+### -param ListHead 
 
-
-
-### -param ListHead [in, out]
-
+[in, out]
 A pointer to the head of the list to which the list pointed to by <i>ListToAppend</i> is to be appended. This parameter must be a valid, non-NULL pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that is the head of a list. This list can be empty.
 
+### -param ListToAppend 
 
-### -param ListToAppend [in, out]
-
+[in, out]
 A pointer to the first entry in the list to append to the list pointed to by <i>ListHead</i>. This parameter must be a valid, non-NULL pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that is the first entry in a headless list. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 This routine constructs a list that contains all the combined entries from the input <i>ListHead</i> and <i>ListToAppend</i> lists. When the routine returns, the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure pointed to by the <i>ListHead</i> parameter is the head of the resulting combined list. The <b>LIST_ENTRY</b> structure pointed to by the <i>ListToAppend</i> parameter is an entry in the resulting combined list.
 
@@ -115,12 +107,7 @@ The <code>MyAppendTailList</code> function in this code example treats both the 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
@@ -135,7 +122,4 @@ The <code>MyAppendTailList</code> function in this code example treats both the 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
- 
-
- 
 

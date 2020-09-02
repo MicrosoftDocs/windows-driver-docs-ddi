@@ -6,40 +6,45 @@ old-location: netvista\dot11_incoming_assoc_decision.htm
 tech.root: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
 ms.date: 02/16/2018
-keywords: ["_DOT11_INCOMING_ASSOC_DECISION structure"]
+keywords: ["DOT11_INCOMING_ASSOC_DECISION structure"]
 ms.keywords: "*PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, PDOT11_INCOMING_ASSOC_DECISION, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], Revision, Size, Type, _DOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, windot11/DOT11_INCOMING_ASSOC_DECISION, windot11/PDOT11_INCOMING_ASSOC_DECISION"
-f1_keywords:
- - "windot11/DOT11_INCOMING_ASSOC_DECISION"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_INCOMING_ASSOC_DECISION
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION
+f1_keywords:
+ - _DOT11_INCOMING_ASSOC_DECISION
+ - windot11/_DOT11_INCOMING_ASSOC_DECISION
+ - PDOT11_INCOMING_ASSOC_DECISION
+ - windot11/PDOT11_INCOMING_ASSOC_DECISION
+ - DOT11_INCOMING_ASSOC_DECISION
+ - windot11/DOT11_INCOMING_ASSOC_DECISION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_INCOMING_ASSOC_DECISION
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_INCOMING_ASSOC_DECISION structure
@@ -47,30 +52,10 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_INCOMING_ASSOC_DECISION structure specifies the miniport driver's decision whether to
   accept an incoming association request from a peer station on an infrastructure BSS.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_INCOMING_ASSOC_DECISION {
-  NDIS_OBJECT_HEADER Header;
-  DOT11_MAC_ADDRESS  PeerMacAddr;
-  BOOLEAN            bAccept;
-  USHORT             usReasonCode;
-  ULONG              uAssocResponseIEsOffset;
-  ULONG              uAssocResponseIEsLength;
-} DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -124,12 +109,10 @@ This member must be set to
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field PeerMacAddr
 
 The media access control (MAC) address of the peer station that the 802.11 station attempted to
      connect to.
-
 
 ### -field bAccept
 
@@ -137,12 +120,10 @@ A Boolean value that indicates whether the miniport driver accepts the incoming 
      request. If <b>TRUE</b>, the driver instructs the NIC to accept the association request. Otherwise, the NIC
      should reject the request.
 
-
 ### -field usReasonCode
 
 A USHORT value that represents a reason code to include in the NIC's association response if
      <b>bAccept</b> is <b>FALSE</b>.
-
 
 ### -field uAssocResponseIEsOffset
 
@@ -151,24 +132,30 @@ The offset of the additional information elements (IEs), in bytes, which the NIC
      to the start of the buffer that contains the DOT11_INCOMING_ASSOC_DECISION structure. The default value
      is zero.
 
-
 ### -field uAssocResponseIEsLength
 
 The length of the additional information elements (IEs), in bytes, which the NIC must add to the
      probe response frame that it sends to the peer station that seeks association. The default value is
      zero.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_INCOMING_ASSOC_DECISION {
+  NDIS_OBJECT_HEADER Header;
+  DOT11_MAC_ADDRESS  PeerMacAddr;
+  BOOLEAN            bAccept;
+  USHORT             usReasonCode;
+  ULONG              uAssocResponseIEsOffset;
+  ULONG              uAssocResponseIEsLength;
+} DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION;
+```
 
 ## -remarks
-
-
 
 This structure is used with
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">
     OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>.
-
-
-
 
 ## -see-also
 
@@ -178,11 +165,4 @@ This structure is used with
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
 

@@ -6,48 +6,43 @@ tech.root: netvista
 ms.assetid: a6d7477e-6107-4bef-bd0a-2759284dc72a
 ms.date: 06/29/2018
 keywords: ["MbbRequestGetBuffer function"]
-f1_keywords:
- - "mbbcx/MbbRequestGetBuffer"
 ms.keywords: MbbRequestGetBuffer
 req.header: mbbcx.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: mbbcxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- mbbcxstub.lib
-api_name: 
-- MbbRequestGetBuffer
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - MbbRequestGetBuffer
+ - mbbcx/MbbRequestGetBuffer
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - mbbcxstub.lib
+api_name:
+ - MbbRequestGetBuffer
 ---
 
 # MbbRequestGetBuffer function
 
 
 ## -description
-
-
 
 The client driver calls the **MbbRequestGetBuffer** method to get the memory location where an MBIM control message is stored or should be stored.
 
@@ -73,3 +68,4 @@ Returns a pointer to the memory location where the MBIM message is stored:
 For more information, see [Handling MBIM control messages](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
 
 ## -see-also
+

@@ -6,10 +6,8 @@ old-location: netvista\ndis_wdi_init_parameters.htm
 tech.root: netvista
 ms.assetid: 871D266C-55DF-4113-9714-92AB129303E5
 ms.date: 05/02/2018
-keywords: ["_NDIS_WDI_INIT_PARAMETERS structure"]
+keywords: ["NDIS_WDI_INIT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS, PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, dot11wdi/PNDIS_WDI_INIT_PARAMETERS, netvista.ndis_wdi_init_parameters"
-f1_keywords:
- - "dot11wdi/NDIS_WDI_INIT_PARAMETERS"
 req.header: dot11wdi.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dot11wdi.h
-api_name:
-- NDIS_WDI_INIT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS
+f1_keywords:
+ - _NDIS_WDI_INIT_PARAMETERS
+ - dot11wdi/_NDIS_WDI_INIT_PARAMETERS
+ - PNDIS_WDI_INIT_PARAMETERS
+ - dot11wdi/PNDIS_WDI_INIT_PARAMETERS
+ - NDIS_WDI_INIT_PARAMETERS
+ - dot11wdi/NDIS_WDI_INIT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dot11wdi.h
+api_name:
+ - NDIS_WDI_INIT_PARAMETERS
 ---
 
 # _NDIS_WDI_INIT_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS
 
 ## -description
 
-
 The NDIS_WDI_INIT_PARAMETERS structure specifies the WDI functions provided by the operating system and called by the IHV WDI driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -77,7 +75,6 @@ To indicate the version of the NDIS_WDI_INIT_PARAMETERS structure, set the
 Set the 
         <b>Size</b> member to NDIS_SIZEOF_WDI_INIT_PARAMETERS_REVISION_1.
 
-
 ### -field WdiVersion
 
 The version of WDI used by the driver. Set this member to one of the following values:
@@ -90,21 +87,17 @@ The version of WDI used by the driver. Set this member to one of the following v
 
 WDI version 1.0
 
-
 ### -field OpenAdapterCompleteHandler
 
 The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_open_adapter_complete">NdisWdiOpenAdapterComplete</a> callback function.
-
 
 ### -field CloseAdapterCompleteHandler
 
 The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_close_adapter_complete">NdisWdiCloseAdapterComplete</a> callback function.
 
-
 ### -field UeIdleNotificationConfirm
 
 The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_confirm">NdisWdiIdleNotificationConfirm</a> callback function.
-
 
 ### -field UeIdleNotificationComplete
 

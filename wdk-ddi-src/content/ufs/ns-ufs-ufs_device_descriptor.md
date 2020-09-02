@@ -8,8 +8,6 @@ ms.assetid: CD1F59DA-3D84-422B-A862-8F4C5E1AA515
 ms.date: 03/29/2018
 keywords: ["UFS_DEVICE_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR structure [Storage Devices], storage.ufs_device_descriptor, ufs/PUFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR"
-f1_keywords:
- - "ufs/UFS_DEVICE_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ufs.h
-api_name:
-- UFS_DEVICE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR
+f1_keywords:
+ - PUFS_DEVICE_DESCRIPTOR
+ - ufs/PUFS_DEVICE_DESCRIPTOR
+ - UFS_DEVICE_DESCRIPTOR
+ - ufs/UFS_DEVICE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ufs.h
+api_name:
+ - UFS_DEVICE_DESCRIPTOR
 ---
 
 # UFS_DEVICE_DESCRIPTOR structure
@@ -47,25 +48,18 @@ req.typenames: UFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR
 
 ## -description
 
-
 <b>UFS_DEVICE_DESCRIPTOR</b> is the main descriptor for Universal Flash Storage (UFS) devices and should be the first descriptor retrieved as it specifies the device class and sub-class and the protocol (command set) to use to access this device and the maximum number of logical
 units contained within the device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
 
-
 ### -field bDescriptorIDN
 
 Specifies the type of the descriptor. This descriptor will have a value of <b>UFS_DESC_DEVICE_IDN</b>.
-
 
 ### -field bDevice
 
@@ -85,8 +79,6 @@ Specifies the device type.
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bDeviceClass
 
@@ -106,8 +98,6 @@ Specifies the device class.
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bDeviceSubClass
 
@@ -135,8 +125,6 @@ Specifies the UFS mass storage subclasses in a bit map as follows:
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bProtocol
 
@@ -156,18 +144,14 @@ Specifies the protocol support by the UFS device.
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bNumberLU
 
 Specifies the number of Logical Units. This does not include the number of well known logical units.
 
-
 ### -field bNumberWLU
 
 Specifies the number of well known logical units.
-
 
 ### -field bBootEnable
 
@@ -191,8 +175,6 @@ Specifies if a device's boot feature is enabled.
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bDescrAccessEn
 
@@ -218,8 +200,6 @@ boot sequence.
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bInitPowerMode
 
@@ -244,14 +224,11 @@ after device initialization or hardware reset.
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bHighPriorityLUN
 
 <b>bHighPriorityLUN</b> defines the high priority
 logical unit.
-
 
 ### -field bSecureRemovalType
 
@@ -289,8 +266,6 @@ define mechanism.</td>
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bSecurityLU
 
@@ -314,8 +289,6 @@ Specifies if there is support for security LU's
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bBackgroundOpsTermLat
 
@@ -332,43 +305,35 @@ expected to terminate background operations within the latency limit.</li>
 ### -field bInitActiveICCLevel
 
 <b>bInitActiveICCLevel</b> defines the <b>bActiveICCLevel</b>
-value after power on or reset. The range of the value is from 0x00 to 0x0F. 
-
+value after power on or reset. The range of the value is from 0x00 to 0x0F.
 
 ### -field wSpecVersion
 
 Indicates the specification version in Binary Coded Decimal (BCD) format.
 
-
 ### -field wManufactureDate
 
 Specifies the manufacturing date  in BCD format as 0xMMYY.
-
 
 ### -field iManufacturerName
 
 Contains an index value to the string which contains the manufacturer's name.
 
-
 ### -field iProductName
 
 Contains an index value to the string which contains the product's name.
-
 
 ### -field iSerialNumberID
 
 Contains an index value to the string which contains the serial's number.
 
-
 ### -field iOemID
 
 Contains an index value to the string which contains the OEM ID.
 
-
 ### -field wManufacturerID
 
 Specifies the Manufacturer ID of the device.
-
 
 ### -field bUD0BaseOffset
 
@@ -376,23 +341,19 @@ Specifies the Offset of Unit Descriptor 0's configurable
 parameters within the Configuration
 Descriptor, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>.
 
-
 ### -field bUDConfigPLength
 
 Total size of a <b>UFS_UNIT_CONFIG_DESCRIPTOR</b>'s
 parameters.
-
 
 ### -field bDeviceRTTCap
 
 Specifies the maximum number of outstanding READY TO TRANSFER UPIU'S
 supported by device. The minimum value is 2.
 
-
 ### -field wPeriodicRTCUpdate
 
 Specifies the frequency and method of real-time clock updates. Bits 10 to 15 are reserved.
-
 
 ### -field bUFSFeaturesSupport
 
@@ -420,8 +381,6 @@ Specifies which features are supported on this device. A feature is supported if
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field bFFUTimeout
 
@@ -430,17 +389,14 @@ to the device is limited or not possible through
 any ports associated due to execution of a
 WRITE BUFFER command.
 
-
 ### -field bQueueDepth
 
 Specifies the queue depth. If this member is equal to 0, the device implements the per-LU
 queuing architecture.
 
-
 ### -field wDeviceVersion
 
 Specifies the device version.
-
 
 ### -field bNumSecureWPArea
 
@@ -448,29 +404,22 @@ Specifies the total number of
 Secure Write Protect Areas supported by the
 device. The value of this member is between <b>bNumberLU</b> and 32
 
-
 ### -field dPSAMaxDataSize
 
 Specifies the maximum
 amount of data that may be written during the
 pre-soldering phase of the PSA flow.
 
-
 ### -field dPSAStateTimeout
-
- 
-
 
 ### -field iProductRevisionLevel
 
 Specifies the index to the string which contains the Product
 Revision Level.
 
-
 ### -field Reserved
 
 Reserved for future use.
-
 
 ### -field Reserved2
 
@@ -484,22 +433,13 @@ maximum timeout for a change in <b>bPSAState</b>. The timeout value is calculate
 
 100 x 2 ^ <b>bPSAStateTimeout</b>
 
-
 ## -remarks
-
-
 
 If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if the Boot well known logical unit is not mapped to an enabled logical unit, then the Boot well known logical unit shall terminate.
 
 <b>UFS_DEVICE_DESCRIPTOR</b> is read only, some of its parameters may be changed by changing the corresponding parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>
 
@@ -534,7 +474,4 @@ If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_descriptor">UFS_UNIT_DESCRIPTOR</a>
- 
-
- 
 

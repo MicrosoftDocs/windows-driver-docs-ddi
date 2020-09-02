@@ -6,10 +6,8 @@ old-location: kernel\clfs_io_statistics.htm
 tech.root: kernel
 ms.assetid: 054d1673-0c1a-4ceb-821a-d61bf28392cf
 ms.date: 04/30/2018
-keywords: ["_CLS_IO_STATISTICS structure"]
+keywords: ["CLS_IO_STATISTICS structure"]
 ms.keywords: "*PCLFS_IO_STATISTICS, *PCLS_IO_STATISTICS, CLFS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS, CLS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], PCLFS_IO_STATISTICS, PCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PCLS_IO_STATISTICS, PCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PPCLS_IO_STATISTICS, PPCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], _CLS_IO_STATISTICS, kernel.clfs_io_statistics, kstruct_a_2e43db78-8c4e-462f-ad85-8c799be2f2e3.xml, wdm/CLFS_IO_STATISTICS, wdm/CLS_IO_STATISTICS, wdm/PCLFS_IO_STATISTICS, wdm/PCLS_IO_STATISTICS, wdm/PPCLFS_IO_STATISTICS, wdm/PPCLS_IO_STATISTICS"
-f1_keywords:
- - "wdm/CLS_IO_STATISTICS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- CLS_IO_STATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS
+f1_keywords:
+ - _CLS_IO_STATISTICS
+ - wdm/_CLS_IO_STATISTICS
+ - PCLS_IO_STATISTICS
+ - wdm/PCLS_IO_STATISTICS
+ - CLS_IO_STATISTICS
+ - wdm/CLS_IO_STATISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - CLS_IO_STATISTICS
 ---
 
 # _CLS_IO_STATISTICS structure
@@ -47,51 +50,35 @@ req.typenames: CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS
 
 ## -description
 
-
-The <b>CLFS_IO_STATISTICS</b> structure holds I/O statistics data for a Common Log File System (CLFS) log. 
-
+The <b>CLFS_IO_STATISTICS</b> structure holds I/O statistics data for a Common Log File System (CLFS) log.
 
 ## -struct-fields
-
-
-
 
 ### -field hdrIoStats
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a> structure that holds header information for the set of statistics.
 
-
 ### -field cFlush
 
 The number of data flushes.
-
 
 ### -field cbFlush
 
 The number of bytes of data flushed.
 
-
 ### -field cMetaFlush
 
 The number of metadata flushes.
 
-
 ### -field cbMetaFlush
 
-The number of bytes of metadata flushed. 
-
+The number of bytes of metadata flushed.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsgetiostatistics">ClfsGetIoStatistics</a>
- 
-
- 
 

@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckOplock function"]
 ms.keywords: FsRtlCheckOplock, FsRtlCheckOplock routine [Installable File System Drivers], fsrtlref_c11dbb80-c7a8-437d-bb6b-661edcf2f24a.xml, ifsk.fsrtlcheckoplock, rxprocs/FsRtlCheckOplock
 f1_keywords:
  - "ntifs/FsRtlCheckOplock"
+ - "FsRtlCheckOplock"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckOplock
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,23 +55,23 @@ The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operatio
 
 
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP for the I/O operation.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to.
 
 
-### -param CompletionRoutine [in, optional]
-
+### -param CompletionRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed.
 
 This routine is declared as follows:
@@ -108,8 +107,8 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 A pointer to the IRP for the I/O operation.
 
 
-### -param PostIrpRoutine [in, optional]
-
+### -param PostIrpRoutine 
+[in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>.
 
 This routine is declared as follows:

@@ -8,8 +8,6 @@ ms.assetid: 20c898fd-a782-4d73-bf1b-a25db4440632
 ms.date: 05/08/2018
 keywords: ["IAdapterPowerManagement interface"]
 ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], IAdapterPowerManagement interface [Audio Devices],described, audio.iadapterpowermanagement, audmp-routines_9daec120-c61d-426c-b30f-80484e1fb652.xml, portcls/IAdapterPowerManagement
-f1_keywords:
- - "portcls/IAdapterPowerManagement"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IAdapterPowerManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IAdapterPowerManagement
+ - portcls/IAdapterPowerManagement
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IAdapterPowerManagement
 ---
 
 # IAdapterPowerManagement interface
 
 
 ## -description
-
 
 The <code>IAdapterPowerManagement</code> interface is used to manage the power state of an audio adapter. This interface is implemented by the adapter driver, which exposes the interface to the PortCls system driver. <code>IAdapterPowerManagement</code> inherits from the <b>IUnknown</b> interface.
 

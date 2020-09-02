@@ -8,8 +8,6 @@ ms.assetid: 3a7e50e9-0aeb-46e8-a1d2-7267df4921ad
 ms.date: 04/30/2018
 keywords: ["KeQueryActiveProcessors function"]
 ms.keywords: KeQueryActiveProcessors, KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml, kernel.kequeryactiveprocessors, wdm/KeQueryActiveProcessors
-f1_keywords:
- - "wdm/KeQueryActiveProcessors"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeQueryActiveProcessors
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeQueryActiveProcessors
+ - wdm/KeQueryActiveProcessors
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeQueryActiveProcessors
 ---
 
 # KeQueryActiveProcessors function
@@ -47,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeQueryActiveProcessors</b> routine returns a bitmask of the currently active processors.
-
 
 ## -returns
 
-
-
 <b>KeQueryActiveProcessors</b> returns a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value that represents the set of currently active processors.
 
-
-
-
 ## -remarks
-
-
 
 Callers cannot assume that <b>KeQueryActiveProcessors</b> maps processors to bits consecutively, or that the routine consistently uses the same mapping each time it is called. The only valid use for the return value is to determine the number of active processors by counting the number of bits that are set.
 
@@ -102,20 +92,11 @@ extern PCCHAR KeNumberProcessors;
 </table></span></div>
 Starting with Windows XP, <b>KeNumberProcessors</b> is an 8-bit integer value that indicates the number of processors in the platform. In earlier versions of Windows, <b>KeNumberProcessors</b> is a pointer to an 8-bit integer value that indicates the number of processors in the platform.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerygroupaffinity">KeQueryGroupAffinity</a>
- 
-
- 
 

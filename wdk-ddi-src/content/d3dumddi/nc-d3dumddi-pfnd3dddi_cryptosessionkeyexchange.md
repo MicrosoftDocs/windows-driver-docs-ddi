@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CryptoSessionKeyExchange"
+ - PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE
+ - d3dumddi/PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE callback function
+
 
 ## -description
 

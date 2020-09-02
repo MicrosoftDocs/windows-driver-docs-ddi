@@ -8,8 +8,6 @@ ms.assetid: 91257BC3-C469-44D5-96E2-D1FA599963F1
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointPurgeComplete function"]
 ms.keywords: UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete
-f1_keywords:
- - "udecxusbendpoint/UdecxUsbEndpointPurgeComplete"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbEndpointPurgeComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbEndpointPurgeComplete
+ - udecxusbendpoint/UdecxUsbEndpointPurgeComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbEndpointPurgeComplete
 ---
 
 # UdecxUsbEndpointPurgeComplete function
@@ -48,24 +47,16 @@ req.typenames:
 
 ## -description
 
-
-Completes an asynchronous request for canceling all I/O requests queued to the specified endpoint. 
-
+Completes an asynchronous request for canceling all I/O requests queued to the specified endpoint.
 
 ## -parameters
 
+### -param UdecxUsbEndpoint 
 
-
-
-### -param UdecxUsbEndpoint [in]
-
+[in]
 A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -76,7 +67,4 @@ A handle to a UDE endpoint object. The client driver retrieved this pointer in t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

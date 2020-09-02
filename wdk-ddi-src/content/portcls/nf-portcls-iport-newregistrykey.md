@@ -1,43 +1,43 @@
 ---
 UID: NF:portcls.IPort.NewRegistryKey
 title: IPort::NewRegistryKey (portcls.h)
-description: The NewRegistryKey method either opens an existing registry key or creates a new key in the registry. The method creates a registry-key object to represent the key. 
+description: The NewRegistryKey method either opens an existing registry key or creates a new key in the registry. The method creates a registry-key object to represent the key.
 tech.root: audio
 ms.assetid: 012f6963-9091-4b76-88c6-040e4f5217c1
 ms.date: 10/31/2018
 keywords: ["IPort::NewRegistryKey"]
-f1_keywords:
- - "portcls/IPort.NewRegistryKey"
 ms.keywords: IPort::NewRegistryKey, NewRegistryKey, IPort.NewRegistryKey, IPort::NewRegistryKey, IPort.NewRegistryKey
 req.header: portcls.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - portcls.h
-api_name: 
- - IPort.NewRegistryKey
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - IPort::NewRegistryKey
+ - portcls/IPort::NewRegistryKey
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPort.NewRegistryKey
+product:
+ - Windows
 ---
 
 # IPort::NewRegistryKey
@@ -50,32 +50,36 @@ The NewRegistryKey method either opens an existing registry key or creates a new
 ## -parameters
 
 ### -param OutRegistryKey
+
 Pointer to a caller-allocated pointer variable into which the method writes the reference to the IRegistryKey object. This object represents the registry key that is being opened or created. The caller must specify a valid, non-NULL pointer value for this parameter.
 
 ### -param OuterUnknown
+
 Pointer to the IUnknown interface of an object that needs to aggregate the registry key object. This parameter is optional. If aggregation is not required, specify this parameter as NULL.
 
 ### -param RegistryKeyType
+
 Specifies the type of registry key that the caller is requesting access to. For more information, see the following Remarks section.
 
-
 ### -param DesiredAccess
+
 An access-control mask that specifies the type of access that the caller requires to the key. This parameter is of type ACCESS_MASK. For more information, see the following Remarks section.
 
 ### -param ObjectAttributes
+
 Pointer to the object attributes of the key being created or opened. If RegistryKeyType has the value GeneralRegistryKey, this parameter must point to a valid, initialized system structure of type OBJECT_ATTRIBUTES with a valid ObjectName string for the key; otherwise, the method does not use this parameter. For more information, see the following Remarks section.
 
 ### -param CreateOptions
+
 Flags indicating the create options. Can be zero if none are desired. This parameter is required if RegistryKeyType has the value GeneralRegistryKey; otherwise, the method does not use this parameter. For more information, see the following Remarks section.
 
-
 ### -param Disposition
+
 Pointer to a caller-allocated ULONG variable into which the method writes a status value indicating whether a new key was created or an existing key was opened. This parameter is optional and can be specified as NULL if the caller does not need the status value. The method uses this parameter only if RegistryKeyType has the value GeneralRegistryKey. The method does not use the parameter for any of the other key types. For more information, see the following Remarks section.
 
-
 ## -returns
-This method returns NTSTATUS which contains STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
+This method returns NTSTATUS which contains STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 ## -remarks
 
@@ -107,8 +111,7 @@ Once a registry key has been created or opened by a call to either NewRegistryKe
 
 The OutRegistryKey and OuterUnknown parameters follow the reference-counting conventions for COM objects.
 
-
-
 ## -see-also
 
 [IPort](nn-portcls-iport.md)
+

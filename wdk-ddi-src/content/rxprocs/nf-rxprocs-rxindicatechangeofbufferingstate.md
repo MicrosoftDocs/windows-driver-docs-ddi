@@ -8,8 +8,6 @@ ms.assetid: 981f5a33-a4f1-438c-8fcf-03a5ab4c0e44
 ms.date: 04/16/2018
 keywords: ["RxIndicateChangeOfBufferingState function"]
 ms.keywords: RxIndicateChangeOfBufferingState, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstate, rxprocs/RxIndicateChangeOfBufferingState, rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml
-f1_keywords:
- - "rxprocs/RxIndicateChangeOfBufferingState"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxprocs.h
-api_name:
-- RxIndicateChangeOfBufferingState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxIndicateChangeOfBufferingState
+ - rxprocs/RxIndicateChangeOfBufferingState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxprocs.h
+api_name:
+ - RxIndicateChangeOfBufferingState
 ---
 
 # RxIndicateChangeOfBufferingState function
@@ -47,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <b>RxIndicateChangeOfBufferingState</b> is called to register a change buffering state request (an oplock break indication, for example) for later processing. If necessary, worker thread routines for further processing are activated.
 
-
 ## -parameters
-
-
-
 
 ### -param SrvCall
 
 A pointer to the SRV_CALL structure.
 
-
 ### -param SrvOpenKey
 
 A pointer to the key for the SRV_OPEN structure.
-
 
 ### -param Context
 
 <p>A pointer to the context to be passed back to the network mini-redirector during callbacks for processing the request.</p>
 
-
-
-
 ## -remarks
-
-
 
 <b>RxIndicateChangeOfBufferingState</b> registers the change buffering state request by either inserting it in the registration list (DPC Level processing ) or the appropriate dispatcher/handler list.
 
@@ -83,15 +70,9 @@ This is an instance in which the buffering state change request from the server 
 
 The internal routines called by this routine can fail because of a lack of available memory (unable to allocate non-paged pool memory, for example), but since this is a VOID routine no error is returned when this condition occurs.
 
-If a buffering state request can be processed immediately instead of being queued for processing later, then <b>RxChangeBufferingState</b> can be called. 
-
-
-
+If a buffering state request can be processed immediately instead of being queued for processing later, then <b>RxChangeBufferingState</b> can be called.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
@@ -106,7 +87,4 @@ If a buffering state request can be processed immediately instead of being queue
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>
- 
-
- 
 

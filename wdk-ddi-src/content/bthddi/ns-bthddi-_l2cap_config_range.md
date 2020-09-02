@@ -6,10 +6,8 @@ old-location: bltooth\l2cap_config_range.htm
 tech.root: bltooth
 ms.assetid: 95f288ea-a32a-478f-870b-5aa6ff1edf44
 ms.date: 04/27/2018
-keywords: ["_L2CAP_CONFIG_RANGE structure"]
+keywords: ["L2CAP_CONFIG_RANGE structure"]
 ms.keywords: "*PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE structure [Bluetooth Devices], PL2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_RANGE, bltooth.l2cap_config_range, bth_structs_86178813-5f20-4c58-8d70-c863217350b3.xml, bthddi/L2CAP_CONFIG_RANGE, bthddi/PL2CAP_CONFIG_RANGE"
-f1_keywords:
- - "bthddi/L2CAP_CONFIG_RANGE"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- L2CAP_CONFIG_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE
+f1_keywords:
+ - _L2CAP_CONFIG_RANGE
+ - bthddi/_L2CAP_CONFIG_RANGE
+ - PL2CAP_CONFIG_RANGE
+ - bthddi/PL2CAP_CONFIG_RANGE
+ - L2CAP_CONFIG_RANGE
+ - bthddi/L2CAP_CONFIG_RANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - L2CAP_CONFIG_RANGE
 ---
 
 # _L2CAP_CONFIG_RANGE structure
@@ -47,31 +50,22 @@ req.typenames: L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE
 
 ## -description
 
-
 The L2CAP_CONFIG_RANGE structure is used to specify a range of possible values for the 
   <b>FlushTO</b> member of the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a> structure during
   incoming requests.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Min
 
 The minimum value that the local system can accept.
 
-
 ### -field Max
 
 The maximum value that the local system can accept.
 
-
 ## -remarks
-
-
 
 The L2CAP_CONFIG_RANGE structure contains the range of values that the profile driver uses to
     negotiate a flush timeout when a remote device contacts the profile driver to request a L2CAP connection.
@@ -99,20 +93,11 @@ A profile driver negotiates these values separately from the flush timeout setti
     more information about value ranges, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_value_range">L2CAP_CONFIG_VALUE_RANGE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_value_range">L2CAP_CONFIG_VALUE_RANGE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
- 
-
- 
 

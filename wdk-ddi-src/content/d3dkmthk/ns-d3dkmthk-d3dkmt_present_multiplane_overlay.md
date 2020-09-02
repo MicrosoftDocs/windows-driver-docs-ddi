@@ -5,40 +5,40 @@ description: Contains present multiplane overlay information.
 ms.assetid: 4f98ff62-0189-452e-82cc-dbd596aa7a48
 ms.date: 10/19/2018
 keywords: ["D3DKMT_PRESENT_MULTIPLANE_OVERLAY structure"]
-f1_keywords:
- - "d3dkmthk/D3DKMT_PRESENT_MULTIPLANE_OVERLAY"
-ms.keywords: D3DKMT_PRESENT_MULTIPLANE_OVERLAY, D3DKMT_PRESENT_MULTIPLANE_OVERLAY, 
+ms.keywords: D3DKMT_PRESENT_MULTIPLANE_OVERLAY, D3DKMT_PRESENT_MULTIPLANE_OVERLAY,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_PRESENT_MULTIPLANE_OVERLAY
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- D3DKMT_PRESENT_MULTIPLANE_OVERLAY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3DKMT_PRESENT_MULTIPLANE_OVERLAY
+ - d3dkmthk/D3DKMT_PRESENT_MULTIPLANE_OVERLAY
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_PRESENT_MULTIPLANE_OVERLAY
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3DKMT_PRESENT_MULTIPLANE_OVERLAY structure
+
 
 ## -description
 
@@ -87,9 +87,11 @@ The number of resources to pin.
 Pointer to present planes.
 
 ### -field Duration
+
  
-Per-present duration. 
+Per-present duration.
 
 ## -remarks
 
 ## -see-also
+

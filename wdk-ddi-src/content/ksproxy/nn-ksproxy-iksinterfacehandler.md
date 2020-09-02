@@ -8,8 +8,6 @@ ms.assetid: b9f72e79-930c-456e-8001-5df808604caa
 ms.date: 04/23/2018
 keywords: ["IKsInterfaceHandler interface"]
 ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices],described, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml, stream.iksinterfacehandler
-f1_keywords:
- - "ksproxy/IKsInterfaceHandler"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -27,40 +25,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsInterfaceHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsInterfaceHandler
+ - ksproxy/IKsInterfaceHandler
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsInterfaceHandler
 ---
 
 # IKsInterfaceHandler interface
 
+
+## -description
+
+The <b>IKsInterfaceHandler</b> interface provides methods that marshal samples into the kernel based on the <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
+
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -description
-
-
-The <b>IKsInterfaceHandler</b> interface provides methods that marshal samples into the kernel based on the <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
-
-
-
 ## -remarks
-
-
 
 In order to keep the proxy neutral with regard to the interface used to stream data, interface handlers are loaded to translate DirectShow media samples to and from a kernel-level driver. An interface handler implements the methods of the <b>IKsInterfaceHandler</b> interface to perform preprocessing and postprocessing on all media samples and to signal the completion of input and output (I/O).
 
@@ -72,20 +67,11 @@ On an interface handler create request through <b>CoCreateInstance</b>, the serv
 
 For more information about <b>CoCreateInstance</b>, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a>
- 
-
- 
 

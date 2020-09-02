@@ -8,8 +8,6 @@ ms.assetid: 8c880eff-4b4c-439e-9239-f2343c1fe084
 ms.date: 05/10/2018
 keywords: ["PVIDEO_HW_FIND_ADAPTER callback function"]
 ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, PVIDEO_HW_FIND_ADAPTER callback, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
-f1_keywords:
- - "video/HwVidFindAdapter"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- HwVidFindAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PVIDEO_HW_FIND_ADAPTER
+ - video/PVIDEO_HW_FIND_ADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - HwVidFindAdapter
 ---
 
 # PVIDEO_HW_FIND_ADAPTER callback function
@@ -47,43 +46,31 @@ req.typenames:
 
 ## -description
 
-
 <i>HwVidFindAdapter</i> performs initialization of data specific to the miniport driver and devices supported by the miniport driver.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 Pointer to the driver's per-device storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
-
 ### -param HwContext
 
 Is <b>NULL</b> and should be ignored by the miniport driver.
-
 
 ### -param ArgumentString
 
 Pointer to a null-terminated ASCII string that originates with the user. This pointer can be <b>NULL</b>.
 
-
 ### -param ConfigInfo
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> structure. The video port driver allocates memory for and initializes this structure with any known configuration information, such as the system IO bus number and values that the miniport driver set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a> structure.
-
 
 ### -param Again
 
 Should be ignored by the miniport driver.
 
-
 ## -returns
-
-
 
 <i>HwVidFindAdapter</i> must return one of the following status codes:
 
@@ -181,13 +168,7 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 <i>HwVidFindAdapter</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-video-miniport-driver">DriverEntry of Video Miniport Driver</a>
 
@@ -242,7 +223,4 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
- 
-
- 
 

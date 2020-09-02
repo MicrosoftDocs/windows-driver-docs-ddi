@@ -8,8 +8,6 @@ ms.assetid: B073D354-14FB-477E-BBD7-8BD282696EF4
 ms.date: 05/08/2018
 keywords: ["IMiniportAudioEngineNode::SetGfxState"]
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetGfxState method, IMiniportAudioEngineNode.SetGfxState, IMiniportAudioEngineNode::SetGfxState, SetGfxState, SetGfxState method [Audio Devices], SetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setgfxstate, portcls/IMiniportAudioEngineNode::SetGfxState
-f1_keywords:
- - "portcls/IMiniportAudioEngineNode.SetGfxState"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportAudioEngineNode.SetGfxState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportAudioEngineNode::SetGfxState
+ - portcls/IMiniportAudioEngineNode::SetGfxState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportAudioEngineNode.SetGfxState
 ---
 
 # IMiniportAudioEngineNode::SetGfxState
@@ -47,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Sets the state of the global effects (GFX) node in the audio engine.
-
 
 ## -parameters
 
+### -param ulNodeId 
 
-
-
-### -param ulNodeId [in]
-
+[in]
 The ID of the GFX node.
 
+### -param bEnable 
 
-### -param bEnable [in]
-
+[in]
 The state of the GFX node.
-
 
 ## -returns
 
-
-
 <b>SetGfxState</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
- 
-
- 
 

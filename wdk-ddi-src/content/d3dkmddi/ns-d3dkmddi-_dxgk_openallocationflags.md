@@ -5,10 +5,8 @@ description: The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to 
 old-location: display\dxgk_openallocationflags.htm
 ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9
 ms.date: 05/10/2018
-keywords: ["_DXGK_OPENALLOCATIONFLAGS structure"]
+keywords: ["DXGK_OPENALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_OPENALLOCATIONFLAGS, DXGK_OPENALLOCATIONFLAGS structure [Display Devices], DmStructs_3b5228f0-93fa-434a-b2ca-9007c372d9ed.xml, _DXGK_OPENALLOCATIONFLAGS, d3dkmddi/DXGK_OPENALLOCATIONFLAGS, display.dxgk_openallocationflags
-f1_keywords:
- - "d3dkmddi/DXGK_OPENALLOCATIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_OPENALLOCATIONFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_OPENALLOCATIONFLAGS
+f1_keywords:
+ - _DXGK_OPENALLOCATIONFLAGS
+ - d3dkmddi/_DXGK_OPENALLOCATIONFLAGS
+ - DXGK_OPENALLOCATIONFLAGS
+ - d3dkmddi/DXGK_OPENALLOCATIONFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_OPENALLOCATIONFLAGS
 ---
 
 # _DXGK_OPENALLOCATIONFLAGS structure
@@ -47,21 +48,15 @@ req.typenames: DXGK_OPENALLOCATIONFLAGS
 
 ## -description
 
-
 The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to perform for allocations.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Create
 
 A UINT value that specifies whether allocations should be created. If this member is not set, the allocations are opened. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b>= member (0x00000001).
-
 
 ### -field ReadOnly
 
@@ -71,24 +66,15 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 
 Supported starting with Windows 8.
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 
 A member in the union that DXGK_OPENALLOCATIONFLAGS contains that can hold a 32-bit value that identifies the operation to perform for allocations.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_openallocation">DXGKARG_OPENALLOCATION</a>
- 
-
- 
 

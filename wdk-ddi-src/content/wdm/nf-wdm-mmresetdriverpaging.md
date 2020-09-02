@@ -8,8 +8,6 @@ ms.assetid: 6d1d1f0d-d6da-488d-a120-713b77da86a9
 ms.date: 04/30/2018
 keywords: ["MmResetDriverPaging function"]
 ms.keywords: MmResetDriverPaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, kernel.mmresetdriverpaging, wdm/MmResetDriverPaging
-f1_keywords:
- - "wdm/MmResetDriverPaging"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmResetDriverPaging
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmResetDriverPaging
+ - wdm/MmResetDriverPaging
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmResetDriverPaging
 ---
 
 # MmResetDriverPaging function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmResetDriverPaging</b> routine resets the pageable status of a driver's sections to that specified when the driver was compiled.
-
 
 ## -parameters
 
+### -param AddressWithinSection 
 
-
-
-### -param AddressWithinSection [in]
-
+[in]
 A pointer to a virtual address in the driver (for example, the address of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine).
 
-
 ## -remarks
-
-
 
 <b>MmResetDriverPaging</b> causes those routines that would not normally be pageable, to be locked into memory. Hence, image sections such as .text and .data will be locked in memory if this routine is called.
 
@@ -73,13 +65,7 @@ A call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/n
 
 For more information about paging an entire driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-drivers-pageable">Making Drivers Pageable</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagablecodesection">MmLockPagableCodeSection</a>
 
@@ -98,7 +84,4 @@ For more information about paging an entire driver, see <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpagableimagesection">MmUnlockPagableImageSection</a>
- 
-
- 
 

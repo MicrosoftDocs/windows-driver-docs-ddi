@@ -8,8 +8,6 @@ ms.assetid: 3d1dc600-f7cb-488e-9f92-678e0a6a58f8
 ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_HWREGISTER structure"]
 ms.keywords: "*PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, audio.ksrtaudio_hwregister, ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER"
-f1_keywords:
- - "ksmedia/KSRTAUDIO_HWREGISTER"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSRTAUDIO_HWREGISTER
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER
+f1_keywords:
+ - PKSRTAUDIO_HWREGISTER
+ - ksmedia/PKSRTAUDIO_HWREGISTER
+ - KSRTAUDIO_HWREGISTER
+ - ksmedia/KSRTAUDIO_HWREGISTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSRTAUDIO_HWREGISTER
 ---
 
 # KSRTAUDIO_HWREGISTER structure
@@ -47,43 +48,31 @@ req.typenames: KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER
 
 ## -description
 
-
 The KSRTAUDIO_HWREGISTER structure specifies the address and additional information about a hardware register requested by the client.  It is filled in by the driver in response to a register request via <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Register
 
 Pointer to the register. This member specifies the virtual address into which the register is mapped.
 
-
 ### -field Width
 
 Specifies the width, in bits, of the register. The value of this member can be 32 or 64.
-
 
 ### -field Numerator
 
 Specifies the numerator of the frequency at which the clock register increments. See the following Remarks. section.
 
-
 ### -field Denominator
 
 Specifies the denominator of the frequency at which the clock register increments. See the following Remarks. section.
-
 
 ### -field Accuracy
 
 Specifies the accuracy of the clock or position register. See the following Remarks section.
 
-
 ## -remarks
-
-
 
 For hardware position register requests via KSPROPERTY_RTAUDIO_POSITIONREGISTER the driver fills in the <b>Register</b>, <b>Width</b> and <b>Accuracy</b> members, because the other members are specific to clock registers.  For hardware clock register requests via KSPROPERTY_RTAUDIO_CLOCKREGISTER the driver fills in the entire structure.
 
@@ -99,13 +88,7 @@ The <i>Accuracy</i> parameter specifies the maximum error in a position or clock
 
 For position registers, the <i>Accuracy</i> parameter represents the accuracy of the position register in units of bytes.  For example, the audio frame size for a 2-channel, 16-bit PCM stream is 4 bytes. If the position register increments (by two times the frame size) once every second tick of the sample clock, the accuracy value is 8 bytes. If the position register increments (by four times the frame size) once every fourth tick of the sample clock, the accuracy value is 16 bytes, and so on.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
 
@@ -116,7 +99,4 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_hwregister_property">KSRTAUDIO_HWREGISTER_PROPERTY</a>
- 
-
- 
 

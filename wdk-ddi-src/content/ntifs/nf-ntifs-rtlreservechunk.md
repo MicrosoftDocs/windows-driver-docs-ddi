@@ -8,8 +8,6 @@ ms.assetid: d6cd676c-32ed-457f-84a3-999246eba0d8
 ms.date: 04/16/2018
 keywords: ["RtlReserveChunk function"]
 ms.keywords: RtlReserveChunk, RtlReserveChunk function [Installable File System Drivers], ifsk.rtlreservechunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml
-f1_keywords:
- - "ntifs/RtlReserveChunk"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- RtlReserveChunk
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlReserveChunk
+ - ntifs/RtlReserveChunk
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - RtlReserveChunk
 ---
 
 # RtlReserveChunk function
@@ -47,40 +46,27 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlReserveChunk</b> routine is reserved for system use. 
-
+The <b>RtlReserveChunk</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param CompressionFormat
 
 <p>Reserved.</p>
 
-
 ### -param CompressedBuffer
 
 Reserved.
-
 
 ### -param EndOfCompressedBufferPlus1
 
 Reserved.
 
-
 ### -param ChunkBuffer
 
 Reserved.
 
-
 ### -param ChunkSize
 
 Reserved.
-
-
-
-
 

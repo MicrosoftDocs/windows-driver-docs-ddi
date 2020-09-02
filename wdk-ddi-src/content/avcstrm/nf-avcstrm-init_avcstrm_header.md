@@ -8,8 +8,6 @@ ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.date: 04/23/2018
 keywords: ["INIT_AVCSTRM_HEADER macro"]
 ms.keywords: INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, stream.init_avcstrm_header
-f1_keywords:
- - "avcstrm/INIT_AVCSTRM_HEADER"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avcstrm.h
-api_name:
-- INIT_AVCSTRM_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - INIT_AVCSTRM_HEADER
+ - avcstrm/INIT_AVCSTRM_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avcstrm.h
+api_name:
+ - INIT_AVCSTRM_HEADER
 ---
 
 # INIT_AVCSTRM_HEADER macro
+
 
 ## -description
 
@@ -50,12 +50,14 @@ The **INIT_AVCSTRM_HEADER** macro initializes the **SizeOfThisBlock**, **Version
 
 ## -parameters
 
-### -param AVCStrm [in]
+### -param AVCStrm 
 
+[in]
 Points to a caller-allocated AVC_STREAM_REQUEST_BLOCK structure.
 
-### -param Request [in]
+### -param Request 
 
+[in]
 Indicates the type of the request (function code) from the [AVCSTRM_FUNCTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_function) enumeration. Each function code is documented under the [IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ni-avcstrm-ioctl_avcstrm_class) topic.
 
 ## -remarks
@@ -92,3 +94,4 @@ The macro is defined as follows:
 [AVC_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avc_stream_request_block)
 
 [IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ni-avcstrm-ioctl_avcstrm_class)
+

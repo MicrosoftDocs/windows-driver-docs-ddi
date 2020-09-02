@@ -8,8 +8,6 @@ ms.assetid: 40fe1e3b-22b2-4d78-a306-977188246935
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_SEND callback function"]
 ms.keywords: PFN_WSK_SEND, PFN_WSK_SEND callback, WskSend, WskSend callback function [Network Drivers Starting with Windows Vista], netvista.wsksend, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml
-f1_keywords:
- - "wsk/WskSend"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskSend
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_SEND
+ - wsk/PFN_WSK_SEND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskSend
 ---
 
 # PFN_WSK_SEND callback function
@@ -47,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskSend</b> function sends data over a connection-oriented or stream socket to a remote transport address.
 
-
 ## -parameters
 
+### -param Socket 
 
-
-
-### -param Socket [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket over which to send the data.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A pointer to an initialized 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
      that contains the data that is being sent over the socket.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
 
@@ -89,18 +84,15 @@ Directs the underlying transport to immediately send the data, and any previousl
 This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
        by other transport protocols.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskSend</b> returns one of the following NTSTATUS codes:
 
@@ -173,14 +165,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK application can call the 
     <b>WskSend</b> function only on a connection-oriented or stream socket that has been previously connected to a
@@ -214,13 +200,7 @@ The WSK subsystem does not perform any buffering of data when it sends data over
     <b>WskSend</b> function will not be completed by the WSK subsystem until all of the data has actually been
     sent.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a>
 
@@ -248,7 +228,4 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a>
- 
-
- 
 

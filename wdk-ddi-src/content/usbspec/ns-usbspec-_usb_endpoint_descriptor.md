@@ -6,10 +6,8 @@ old-location: buses\usb_endpoint_descriptor.htm
 tech.root: usbref
 ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.date: 05/07/2018
-keywords: ["_USB_ENDPOINT_DESCRIPTOR structure"]
+keywords: ["USB_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], _USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml"
-f1_keywords:
- - "usbspec/USB_ENDPOINT_DESCRIPTOR"
 req.header: usbspec.h
 req.include-header: Usb100.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbspec.h
-api_name:
-- USB_ENDPOINT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
+f1_keywords:
+ - _USB_ENDPOINT_DESCRIPTOR
+ - usbspec/_USB_ENDPOINT_DESCRIPTOR
+ - PUSB_ENDPOINT_DESCRIPTOR
+ - usbspec/PUSB_ENDPOINT_DESCRIPTOR
+ - USB_ENDPOINT_DESCRIPTOR
+ - usbspec/USB_ENDPOINT_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbspec.h
+api_name:
+ - USB_ENDPOINT_DESCRIPTOR
 ---
 
 # _USB_ENDPOINT_DESCRIPTOR structure
@@ -47,39 +50,30 @@ req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
 
 ## -description
 
-
 The <b>USB_ENDPOINT_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
 The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.6.
 
 ## -struct-fields
 
-
-
-
 ### -field bLength
 
 Specifies the length, in bytes, of this descriptor.
-
 
 ### -field bDescriptorType
 
 Specifies the descriptor type. Must be set to USB_ENDPOINT_DESCRIPTOR_TYPE.
 
-
 ### -field bEndpointAddress
 
 Specifies the USB-defined endpoint address. The four low-order bits specify the endpoint number. The high-order bit specifies the direction of data flow on this endpoint: 1 for in, 0 for out.
-
 
 ### -field bmAttributes
 
 The two low-order bits specify the endpoint type, one of USB_ENDPOINT_TYPE_CONTROL, USB_ENDPOINT_TYPE_ISOCHRONOUS, USB_ENDPOINT_TYPE_BULK, or USB_ENDPOINT_TYPE_INTERRUPT.
 
-
 ### -field wMaxPacketSize
 
 Specifies the maximum packet size that can be sent from or to this endpoint.
-
 
 ### -field bInterval
 
@@ -234,11 +228,7 @@ For devices and host controllers that can operate at high speed, the period is m
 
 The mappings in the preceding tables between periods and polling intervals are valid in Windows 2000 and later operating systems.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
 
@@ -249,7 +239,4 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
- 
-
- 
 

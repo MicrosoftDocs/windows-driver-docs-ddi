@@ -8,57 +8,48 @@ ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.date: 02/24/2018
 keywords: ["ExAllocatePool macro"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
-f1_keywords:
- - "smcnt/ExAllocatePool"
 req.header: smcnt.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h, Smcnt.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete. This routine is exported only for existing binaries. Use ExAllocatePoolWithTag instead.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAllocatePool
-product:
-- Windows
 targetos: Windows
 req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
 req.product: Windows 10 or later.
+f1_keywords:
+ - ExAllocatePool
+ - smcnt/ExAllocatePool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAllocatePool
 ---
 
 # ExAllocatePool macro
+
 
 ## -description
 
 The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag) instead.
 
 **ExAllocatePool** allocates pool memory of the specified type and returns a pointer to the allocated block.
-
-## -syntax
-
-```cpp
-PVOID ExAllocatePool(
-  _In_ POOL_TYPE PoolType,
-  _In_ SIZE_T    NumberOfBytes
-);
-```
 
 ## -parameters
 
@@ -71,6 +62,15 @@ You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION fl
 ### -param NumberOfBytes
 
 Specifies the number of bytes to allocate.
+
+## -syntax
+
+```cpp
+PVOID ExAllocatePool(
+  _In_ POOL_TYPE PoolType,
+  _In_ SIZE_T    NumberOfBytes
+);
+```
 
 ## -remarks
 
@@ -99,3 +99,4 @@ The system automatically sets certain standard event objects when the amount of 
 [**ExFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepool)
 
 [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+

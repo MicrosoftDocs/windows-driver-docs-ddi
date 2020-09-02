@@ -8,8 +8,6 @@ ms.assetid: db92bbc1-7257-4e84-af69-ce09c1fd998e
 ms.date: 04/30/2018
 keywords: ["IoCsqRemoveNextIrp function"]
 ms.keywords: IoCsqRemoveNextIrp, IoCsqRemoveNextIrp routine [Kernel-Mode Driver Architecture], k104_da0b9a4a-daa7-4085-ab2a-77b81856820f.xml, kernel.iocsqremovenextirp, wdm/IoCsqRemoveNextIrp
-f1_keywords:
- - "wdm/IoCsqRemoveNextIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCsqRemoveNextIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCsqRemoveNextIrp
+ - wdm/IoCsqRemoveNextIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCsqRemoveNextIrp
 ---
 
 # IoCsqRemoveNextIrp function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCsqRemoveNextIrp</b> routine removes the next matching IRP in the queue.
-
 
 ## -parameters
 
+### -param Csq 
 
-
-
-### -param Csq [in, out]
-
+[in, out]
 Pointer to the driver's dispatch table for cancel-safe IRP queues. The dispatch table must be initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a>.
 
+### -param PeekContext 
 
-### -param PeekContext [in, optional]
-
+[in, optional]
 A pointer to a driver-defined context value. <b>IoCsqRemoveNextIrp</b> passes this parameter to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp">CsqPeekNextIrp</a> routine. For more information, see the following Remarks section.
-
 
 ## -returns
 
-
-
 This routine returns a pointer to the next matching IRP in the queue, or <b>NULL</b> if no more IRPs are available. The routine only returns IRPs that have not yet been canceled.
 
-
-
-
 ## -remarks
-
-
 
 <b>IoCsqRemoveNextIrp</b> uses the queue's dispatch routines to remove the IRP. The <b>IoCsqRemoveNextIrp</b> routine:
 
@@ -105,13 +92,7 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 Callers of <b>IoCsqRemoveNextIrp</b> must be running at an IRQL <= DISPATCH_LEVEL. The driver's callback routines must work correctly at that IRQL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a>
 
@@ -162,7 +143,4 @@ Callers of <b>IoCsqRemoveNextIrp</b> must be running at an IRQL <= DISPATCH_LEVE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a>
- 
-
- 
 

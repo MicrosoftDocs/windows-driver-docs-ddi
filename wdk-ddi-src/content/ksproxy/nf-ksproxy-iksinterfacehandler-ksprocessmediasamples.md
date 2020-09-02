@@ -8,8 +8,6 @@ ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
 ms.date: 04/23/2018
 keywords: ["IKsInterfaceHandler::KsProcessMediaSamples"]
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsProcessMediaSamples method, IKsInterfaceHandler.KsProcessMediaSamples, IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, stream.iksinterfacehandler_ksprocessmediasamples
-f1_keywords:
- - "ksproxy/IKsInterfaceHandler.KsProcessMediaSamples"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsInterfaceHandler.KsProcessMediaSamples
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsInterfaceHandler::KsProcessMediaSamples
+ - ksproxy/IKsInterfaceHandler::KsProcessMediaSamples
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsInterfaceHandler.KsProcessMediaSamples
 ---
 
 # IKsInterfaceHandler::KsProcessMediaSamples
@@ -47,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsProcessMediaSamples</b> method processes media samples.
-
 
 ## -parameters
 
+### -param KsDataTypeHandler 
 
-
-
-### -param KsDataTypeHandler [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a> interface for the data type handler that handles the type of media listed at <i>SampleList</i>. This data type handler has specific information about the media type being streamed.
 
+### -param SampleList 
 
-### -param SampleList [in]
+[in]
+Pointer to a buffer that contains an array of pointers to the <b>IMediaSample</b> interfaces for the list of media samples to process.
 
-Pointer to a buffer that contains an array of pointers to the <b>IMediaSample</b> interfaces for the list of media samples to process. 
+### -param SampleCount 
 
-
-### -param SampleCount [in, out]
-
+[in, out]
 Pointer to a variable that initially contains the number of samples in the list at <i>SampleList</i> and, on return, receives the actual number of samples processed.
 
+### -param IoOperation 
 
-### -param IoOperation [in]
-
+[in]
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 
 <table>
@@ -101,26 +96,17 @@ Read data from stream.
 </td>
 </tr>
 </table>
- 
 
+### -param StreamSegment 
 
-### -param StreamSegment [out]
-
-Pointer to a buffer that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment that is sent to the kernel-mode pin. 
-
+[out]
+Pointer to a buffer that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment that is sent to the kernel-mode pin.
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>KsProcessMediaSamples</b> method moves samples from or to a previously assigned filter pin. A stream header is initialized to represent each media sample in the stream segment. The input and output (I/O) are then performed, the count of wait items is incremented, and the proxy I/O thread waits for completion.
 
@@ -128,13 +114,7 @@ The <b>KsProcessMediaSamples</b> method calls the <a href="https://docs.microsof
 
 For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a>
 
@@ -145,7 +125,4 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a>
- 
-
- 
 

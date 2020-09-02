@@ -8,8 +8,6 @@ ms.assetid: 976f7e83-9b2a-4e1b-ab76-76d8e9711bff
 ms.date: 05/08/2018
 keywords: ["IPortWaveRTStream::AllocateContiguousPagesForMdl"]
 ms.keywords: AllocateContiguousPagesForMdl, AllocateContiguousPagesForMdl method [Audio Devices], AllocateContiguousPagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocateContiguousPagesForMdl method, IPortWaveRTStream.AllocateContiguousPagesForMdl, IPortWaveRTStream::AllocateContiguousPagesForMdl, audio.iportwavertstream_allocatecontiguouspagesformdl, audmp-routines_92ff395d-072b-4a11-b856-3afc1a024289.xml, portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl
-f1_keywords:
- - "portcls/IPortWaveRTStream.AllocateContiguousPagesForMdl"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Passive level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IPortWaveRTStream.AllocateContiguousPagesForMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortWaveRTStream::AllocateContiguousPagesForMdl
+ - portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IPortWaveRTStream.AllocateContiguousPagesForMdl
 ---
 
 # IPortWaveRTStream::AllocateContiguousPagesForMdl
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <code>AllocateContiguousPagesForMdl</code> method allocates a list of contiguous, nonpaged, physical memory pages and returns a pointer to a memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) that describes them.
-
 
 ## -parameters
 
+### -param LowAddress 
 
-
-
-### -param LowAddress [in]
-
+[in]
 Specifies the low end of the address range from which the storage for the MDL can be allocated.
 
+### -param HighAddress 
 
-### -param HighAddress [in]
-
+[in]
 Specifies the high end of the address range from which the storage for the MDL can be allocated.
 
+### -param TotalBytes 
 
-### -param TotalBytes [in]
-
+[in]
 Specifies the total number of bytes to allocate for the MDL. This method always allocates an integral number of memory pages.
-
 
 ## -returns
 
-
-
 <code>AllocateContiguousPagesForMdl</code> returns a pointer to an MDL (PMDL) that describes a list of physical memory pages. If the method is unable to allocate the requested buffer, it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The driver calls this method to allocate a block of physically contiguous memory pages. All of the physical memory pages in the MDL fall within the address range specified by the <i>LowAddress</i> and <i>HighAddress</i> parameters. If sufficient memory is available, the memory allocation is the requested size rounded up to the next page; otherwise, the call fails.
 
@@ -90,13 +77,7 @@ After a system has been running for some time, the system's pool of nonpaged mem
 
 The <code>AllocateContiguousPagesforMdl</code> method allocates memory pages that are locked (nonpaged) but unmapped. If the miniport driver requires software access to this memory, the miniport driver must make a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-mapallocatedpages">IPortWaveRTStream::MapAllocatedPages</a> to map the pages into kernel-mode address space.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>
 
@@ -107,7 +88,4 @@ The <code>AllocateContiguousPagesforMdl</code> method allocates memory pages tha
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-mapallocatedpages">IPortWaveRTStream::MapAllocatedPages</a>
- 
-
- 
 

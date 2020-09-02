@@ -8,8 +8,6 @@ ms.assetid: 822d3ed1-66ce-48a8-924c-48e1082cbb25
 ms.date: 04/16/2018
 keywords: ["FltRollbackComplete function"]
 ms.keywords: FltApiRef_p_to_z_5a4ebf97-8580-437d-b34d-e873bad7161b.xml, FltRollbackComplete, FltRollbackComplete routine [Installable File System Drivers], fltkernel/FltRollbackComplete, ifsk.fltrollbackcomplete
-f1_keywords:
- - "fltkernel/FltRollbackComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltRollbackComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltRollbackComplete
+ - fltkernel/FltRollbackComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltRollbackComplete
 ---
 
 # FltRollbackComplete function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltRollbackComplete</b> routine acknowledges a TRANSACTION_NOTIFY_ROLLBACK notification. 
-
+The <b>FltRollbackComplete</b> routine acknowledges a TRANSACTION_NOTIFY_ROLLBACK notification.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller.
 
+### -param Transaction 
 
-### -param Instance [in]
+[in]
+Opaque transaction pointer for the transaction.
 
-Opaque instance pointer for the caller. 
+### -param TransactionContext 
 
-
-### -param Transaction [in]
-
-Opaque transaction pointer for the transaction. 
-
-
-### -param TransactionContext [in, optional]
-
-Pointer to the minifilter driver's transaction context. 
-
+[in, optional]
+Pointer to the minifilter driver's transaction context.
 
 ## -returns
-
-
 
 <b>FltRollbackComplete</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -94,14 +86,8 @@ The minifilter driver did not set a context on the transaction. This is an error
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver that is enlisted in a transaction can receive a TRANSACTION_NOTIFY_ROLLBACK notification when the transaction is in the process of being rolled back or aborted. To send the notification to the minifilter driver, the filter manager calls the minifilter driver's <i>TransactionNotificationCallback</i> routine. The minifilter driver acknowledges this notification in one of two ways: 
 
@@ -125,15 +111,9 @@ To retrieve a transaction context, call <a href="https://docs.microsoft.com/wind
 
 To delete a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletetransactioncontext">FltDeleteTransactionContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
 
-To set a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>. 
-
-
-
+To set a transaction context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsettransactioncontext">FltSetTransactionContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
 
@@ -188,7 +168,4 @@ To set a transaction context, call <a href="https://docs.microsoft.com/windows-h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_transaction_notification_callback">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
- 
-
- 
 

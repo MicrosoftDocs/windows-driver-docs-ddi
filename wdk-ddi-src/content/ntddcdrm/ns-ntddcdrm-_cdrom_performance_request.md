@@ -6,10 +6,8 @@ old-location: storage\cdrom_performance_request.htm
 tech.root: storage
 ms.assetid: E43D2F2C-B5A1-4724-AEBC-F4B6A85EA846
 ms.date: 03/29/2018
-keywords: ["_CDROM_PERFORMANCE_REQUEST structure"]
+keywords: ["CDROM_PERFORMANCE_REQUEST structure"]
 ms.keywords: "*PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], _CDROM_PERFORMANCE_REQUEST, ntddcdrm/CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request"
-f1_keywords:
- - "ntddcdrm/CDROM_PERFORMANCE_REQUEST"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddcdrm.h
-api_name:
-- CDROM_PERFORMANCE_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST
+f1_keywords:
+ - _CDROM_PERFORMANCE_REQUEST
+ - ntddcdrm/_CDROM_PERFORMANCE_REQUEST
+ - PCDROM_PERFORMANCE_REQUEST
+ - ntddcdrm/PCDROM_PERFORMANCE_REQUEST
+ - CDROM_PERFORMANCE_REQUEST
+ - ntddcdrm/CDROM_PERFORMANCE_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddcdrm.h
+api_name:
+ - CDROM_PERFORMANCE_REQUEST
 ---
 
 # _CDROM_PERFORMANCE_REQUEST structure
@@ -47,34 +50,25 @@ req.typenames: CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST
 
 ## -description
 
-
 The <b>CDROM_PERFORMANCE_REQUEST</b> structure is used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request and describes the performance data requested.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RequestType
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_request_type">CDROM_PERFORMANCE_REQUEST_TYPE</a> enumeration specifies the request type, <b>CdromPerformanceRequest</b>, or <b>CdromWriteSpeedRequest</b>.
 
-
 ### -field PerformanceType
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_type">CDROM_PERFORMANCE_TYPE</a> enumeration specifies the type of performance data.
 
-
 ### -field Exceptions
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_exception_type">CDROM_PERFORMANCE_EXCEPTION_TYPE</a>    enumeration specifies the type of exception. 
-
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_exception_type">CDROM_PERFORMANCE_EXCEPTION_TYPE</a>    enumeration specifies the type of exception.
 
 ### -field Tolerance
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_tolerance_type">CDROM_PERFORMANCE_TOLERANCE_TYPE</a> enumeration specifies the performance tolerance for the nominal performance and the time tolerance (seek delay) for the exception list.
-
 
 ### -field StaringLba
 
@@ -87,14 +81,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne
 
 The starting logical block address field.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
- 
-
- 
 

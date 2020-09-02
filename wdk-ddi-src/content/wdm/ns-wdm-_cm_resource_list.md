@@ -6,10 +6,8 @@ old-location: kernel\cm_resource_list.htm
 tech.root: kernel
 ms.assetid: 01f31255-a4f7-4a16-9238-a7391bb850d1
 ms.date: 04/30/2018
-keywords: ["_CM_RESOURCE_LIST structure"]
+keywords: ["CM_RESOURCE_LIST structure"]
 ms.keywords: "*PCM_RESOURCE_LIST, CM_RESOURCE_LIST, CM_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PCM_RESOURCE_LIST, PCM_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _CM_RESOURCE_LIST, kernel.cm_resource_list, kstruct_a_29dadb2f-b0d2-41a4-b17e-f69c12b6def6.xml, wdm/CM_RESOURCE_LIST, wdm/PCM_RESOURCE_LIST"
-f1_keywords:
- - "wdm/CM_RESOURCE_LIST"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- CM_RESOURCE_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_RESOURCE_LIST, *PCM_RESOURCE_LIST
+f1_keywords:
+ - _CM_RESOURCE_LIST
+ - wdm/_CM_RESOURCE_LIST
+ - PCM_RESOURCE_LIST
+ - wdm/PCM_RESOURCE_LIST
+ - CM_RESOURCE_LIST
+ - wdm/CM_RESOURCE_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - CM_RESOURCE_LIST
 ---
 
 # _CM_RESOURCE_LIST structure
@@ -47,28 +50,19 @@ req.typenames: CM_RESOURCE_LIST, *PCM_RESOURCE_LIST
 
 ## -description
 
-
 The <b>CM_RESOURCE_LIST</b> structure specifies all of the system hardware resources assigned to a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Count
 
 The number of full resource descriptors that are specified by this <b>CM_RESOURCE_LIST</b> structure. The <b>List</b> member is the header for the first full resource descriptor. For WDM drivers, <b>Count</b> is always 1.
 
-
 ### -field List
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a> structure that serves as the header for the first full resource descriptor. If the <b>CM_RESOURCE_LIST</b> structure contains more than one full resource descriptor, the second full resource descriptor immediately follows the first in memory, and so on. The size of each full resource descriptor depends on the length of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> array that it contains. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 This structure describes the assignment of hardware resources to a device. An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> IRP uses this structure to specify the resources that the Plug and Play manager assigns to a device. Drivers for legacy devices use this structure to pass their resource requirements to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportresourcefordetection">IoReportResourceForDetection</a> routine. For more information about hardware resource allocation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
@@ -143,12 +137,7 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_floppy_device_data">CM_FLOPPY_DEVICE_DATA</a>
 
@@ -191,7 +180,4 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportresourcefordetection">IoReportResourceForDetection</a>
- 
-
- 
 

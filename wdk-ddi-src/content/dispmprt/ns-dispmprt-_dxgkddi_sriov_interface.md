@@ -6,43 +6,49 @@ description: The SRIOV device interface exposes the PCIe virtual devices.
 tech.root: display
 ms.assetid: 2b5a7fed-5c3d-4831-8274-14f9f70e3fe3
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGKDDI_SRIOV_INTERFACE structure"]
-f1_keywords:
- - "dispmprt/_DXGKDDI_SRIOV_INTERFACE"
+ms.date: 04/04/2019
+keywords: ["DXGKDDI_SRIOV_INTERFACE structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGKDDI_SRIOV_INTERFACE, DXGKDDI_SRIOV_INTERFACE, *PDXGKDDI_SRIOV_INTERFACE, 
+ms.keywords: _DXGKDDI_SRIOV_INTERFACE, DXGKDDI_SRIOV_INTERFACE, *PDXGKDDI_SRIOV_INTERFACE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKDDI_SRIOV_INTERFACE, *PDXGKDDI_SRIOV_INTERFACE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGKDDI_SRIOV_INTERFACE
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGKDDI_SRIOV_INTERFACE
+ - dispmprt/_DXGKDDI_SRIOV_INTERFACE
+ - PDXGKDDI_SRIOV_INTERFACE
+ - dispmprt/PDXGKDDI_SRIOV_INTERFACE
+ - DXGKDDI_SRIOV_INTERFACE
+ - dispmprt/DXGKDDI_SRIOV_INTERFACE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKDDI_SRIOV_INTERFACE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGKDDI_SRIOV_INTERFACE structure
+
 
 ## -description
 
@@ -115,9 +121,11 @@ Deference.
 [DxgkDdiGetResourceForBar](nc-dispmprt-dxgkddi_getresourceforbar.md)
 
 ### -field DxgkDdiQueryVirtualFunctionLuid
+
  
 [DxgkDdiQueryVirtualFunctionLuid](nc-dispmprt-dxgkddi_queryvirtualfunctionluid.md)
 
 ## -remarks
 
 ## -see-also
+

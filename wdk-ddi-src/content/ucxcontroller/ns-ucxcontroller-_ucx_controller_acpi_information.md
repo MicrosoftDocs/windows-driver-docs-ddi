@@ -6,10 +6,8 @@ old-location: buses\_ucx_controller_acpi_information.htm
 tech.root: usbref
 ms.assetid: BB5C69FF-166A-4A38-BF5E-FD644FCD1285
 ms.date: 05/07/2018
-keywords: ["_UCX_CONTROLLER_ACPI_INFORMATION structure"]
+keywords: ["UCX_CONTROLLER_ACPI_INFORMATION structure"]
 ms.keywords: "*PUCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], _UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION"
-f1_keywords:
- - "ucxcontroller/UCX_CONTROLLER_ACPI_INFORMATION"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucxcontroller.h
-api_name:
-- UCX_CONTROLLER_ACPI_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION
+f1_keywords:
+ - _UCX_CONTROLLER_ACPI_INFORMATION
+ - ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION
+ - PUCX_CONTROLLER_ACPI_INFORMATION
+ - ucxcontroller/PUCX_CONTROLLER_ACPI_INFORMATION
+ - UCX_CONTROLLER_ACPI_INFORMATION
+ - ucxcontroller/UCX_CONTROLLER_ACPI_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucxcontroller.h
+api_name:
+ - UCX_CONTROLLER_ACPI_INFORMATION
 ---
 
 # _UCX_CONTROLLER_ACPI_INFORMATION structure
@@ -47,41 +50,27 @@ req.typenames: UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATIO
 
 ## -description
 
-
 This structure provides information about an advanced Configuration and power interface (ACPI) USB controller.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VendorId
 
 The vendor ID of the ACPI USB controller.
 
-
 ### -field DeviceId
 
 The device ID of the ACPI USB controller.
-
 
 ### -field RevisionId
 
 The revision ID of the ACPI USB controller.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_acpi_info">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: E6897994-51C7-4278-9CCE-9B7E9DD408D7
 ms.date: 05/03/2018
 keywords: ["SensorsCxStateChange function"]
 ms.keywords: SensorsCxStateChange, SensorsCxStateChange function [Sensor Devices], sensors.sensorscxstatechange, sensorscx/SensorsCxStateChange
-f1_keywords:
- - "sensorscx/SensorsCxStateChange"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsCx.h
-api_name:
-- SensorsCxStateChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SensorsCxStateChange
+ - sensorscx/SensorsCxStateChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsCx.h
+api_name:
+ - SensorsCxStateChange
 ---
 
 # SensorsCxStateChange function
@@ -47,22 +46,17 @@ req.typenames:
 
 ## -description
 
-
 Used to initialize a state change.
-
 
 ## -parameters
 
+### -param Sensor 
 
-
-
-### -param Sensor [in]
-
+[in]
 Holds information on the sensor being managed by the driver.
 
+### -param State 
 
-### -param State [in]
-
+[in]
 Holds information on the state of the sensor.
-
 

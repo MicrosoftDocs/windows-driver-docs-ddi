@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES"
+ - PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
+ - d3d12umddi/PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES callback function
+
 
 ## -description
 

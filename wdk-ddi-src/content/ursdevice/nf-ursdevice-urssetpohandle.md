@@ -8,8 +8,6 @@ ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.date: 05/07/2018
 keywords: ["UrsSetPoHandle function"]
 ms.keywords: UrsSetPoHandle, UrsSetPoHandle function [Buses], buses.urssetpohandle, ursdevice/UrsSetPoHandle
-f1_keywords:
- - "ursdevice/UrsSetPoHandle"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Urscxstub.lib
-- Urscxstub.dll
-api_name:
-- UrsSetPoHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UrsSetPoHandle
+ - ursdevice/UrsSetPoHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Urscxstub.lib
+ - Urscxstub.dll
+api_name:
+ - UrsSetPoHandle
 ---
 
 # UrsSetPoHandle function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 Registers and deletes the client driver's registration with the power management framework (PoFx).
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
+### -param PoHandle 
 
-### -param PoHandle [in]
-
+[in]
 A handle that represents the registration of the device with PoFx. The client driver receives this handle from WDF in  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>  and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device">EvtDeviceWdmPrePoFxUnregisterDevice</a> callback functions.
 
-
 ## -remarks
-
-
 
 The client driver for the dual-role controller must be the power policy owner. The driver can receive notifications from the power management framework (PoFx). To do so, after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>, the driver must register PoFx callback functions. The client driver registers the device with the power framework directly or obtains a POHANDLE from WDF in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>. After registration is successful, the driver provides that handle to the USB dual-role class extension.
 
@@ -161,19 +153,11 @@ EvtDevicePrePoFxUnregister (
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
 
 
 <i>EvtDeviceWdmPrePoFxUnregisterDevice</i>
- 
-
- 
 

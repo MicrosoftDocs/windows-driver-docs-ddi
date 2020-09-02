@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DepthFill"
+ - PFND3DDDI_DEPTHFILL
+ - d3dumddi/PFND3DDDI_DEPTHFILL
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DEPTHFILL callback function
+
 
 ## -description
 

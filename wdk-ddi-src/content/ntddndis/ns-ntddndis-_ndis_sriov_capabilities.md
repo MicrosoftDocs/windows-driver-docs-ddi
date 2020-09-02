@@ -6,10 +6,8 @@ old-location: netvista\ndis_sriov_capabilities.htm
 tech.root: netvista
 ms.assetid: 57cf980c-4477-4c12-8d82-7a8df8b2922f
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_CAPABILITIES structure"]
+keywords: ["NDIS_SRIOV_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_CAPABILITIES, PNDIS_SRIOV_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_CAPABILITIES, netvista.ndis_sriov_capabilities, ntddndis/NDIS_SRIOV_CAPABILITIES, ntddndis/PNDIS_SRIOV_CAPABILITIES"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_CAPABILITIES, *PNDIS_SRIOV_CAPABILITIES
+f1_keywords:
+ - _NDIS_SRIOV_CAPABILITIES
+ - ntddndis/_NDIS_SRIOV_CAPABILITIES
+ - PNDIS_SRIOV_CAPABILITIES
+ - ntddndis/PNDIS_SRIOV_CAPABILITIES
+ - NDIS_SRIOV_CAPABILITIES
+ - ntddndis/NDIS_SRIOV_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_CAPABILITIES
 ---
 
 # _NDIS_SRIOV_CAPABILITIES structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_SRIOV_CAPABILITIES, *PNDIS_SRIOV_CAPABILITIES
 
 ## -description
 
-
 The <b>NDIS_SRIOV_CAPABILITIES</b> structure specifies the single root I/O virtualization (SR-IOV) capabilities of the network adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,11 +70,9 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_CAPABILITIES _REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS
-
 
 ### -field SriovCapabilities
 
@@ -102,12 +98,9 @@ Specifies that this is a PF  miniport driver.
 
 #### NDIS_SRIOV_CAPS_VF_MINIPORT
 
-Specifies that this is a PCIe  Virtual Function (VF) miniport driver. 
-
+Specifies that this is a PCIe  Virtual Function (VF) miniport driver.
 
 ## -remarks
-
-
 
  The miniport driver uses the <b>NDIS_SRIOV_CAPABILITIES</b> structure to report its SR-IOV capabilities in the following ways:
 
@@ -134,13 +127,7 @@ When NDIS calls an overlying protocol driver's <a href="https://docs.microsoft.c
 </ul>
 For more information on how to report the SR-IOV capabilities of a network adapter, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/determining-sr-iov-capabilities">Determining SR-IOV Capabilities</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -175,7 +162,4 @@ For more information on how to report the SR-IOV capabilities of a network adapt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-hardware-capabilities">OID_SRIOV_HARDWARE_CAPABILITIES</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_qos_capabilities.htm
 tech.root: netvista
 ms.assetid: 23698bb8-3fb6-4e60-aaac-75c2e3341d54
 ms.date: 05/02/2018
-keywords: ["_NDIS_QOS_CAPABILITIES structure"]
+keywords: ["NDIS_QOS_CAPABILITIES structure"]
 ms.keywords: NDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CAPABILITIES, netvista.ndis_qos_capabilities, ntddndis/NDIS_QOS_CAPABILITIES, ntddndis/PNDIS_QOS_CAPABILITIES
-f1_keywords:
- - "ntddndis/NDIS_QOS_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_QOS_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES
+f1_keywords:
+ - _NDIS_QOS_CAPABILITIES
+ - ntddndis/_NDIS_QOS_CAPABILITIES
+ - PNDIS_QOS_CAPABILITIES
+ - ntddndis/PNDIS_QOS_CAPABILITIES
+ - NDIS_QOS_CAPABILITIES
+ - ntddndis/NDIS_QOS_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_QOS_CAPABILITIES
 ---
 
 # _NDIS_QOS_CAPABILITIES structure
@@ -47,17 +50,9 @@ req.typenames: NDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES
 
 ## -description
 
-
-
 The <b>NDIS_QOS_CAPABILITIES</b> structure specifies the NDIS Quality of Service (QoS) capabilities of a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -74,7 +69,6 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_QOS_CAPABILITIES_REVISION_1.
-
 
 ### -field Flags
 
@@ -139,8 +133,6 @@ For more information about PFC, see <a href="https://docs.microsoft.com/windows-
 
 ## -remarks
 
-
-
 The miniport driver registers the NDIS QoS capabilities of the underlying network adapter  from the driver's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function by following these steps: 
 
@@ -164,13 +156,7 @@ The miniport driver  calls <a href="https://docs.microsoft.com/windows-hardware/
 </ol>
 The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-current-capabilities">OID_QOS_CURRENT_CAPABILITIES</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -194,7 +180,4 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query request
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>
- 
-
- 
 

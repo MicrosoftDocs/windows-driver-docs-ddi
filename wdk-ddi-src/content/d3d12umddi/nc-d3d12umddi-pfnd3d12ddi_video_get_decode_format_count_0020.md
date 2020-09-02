@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020, PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback, d3d12umddi/pfnGetDecodeFormatCount, display.pfnd3d12ddi_video_get_decode_format_count, pfnGetDecodeFormatCount, pfnGetDecodeFormatCount callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnGetDecodeFormatCount"
+ - "pfnGetDecodeFormatCount"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - pfnGetDecodeFormatCount
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

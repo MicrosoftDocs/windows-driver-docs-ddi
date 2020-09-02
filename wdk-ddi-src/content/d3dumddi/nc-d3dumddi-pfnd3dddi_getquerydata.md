@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/GetQueryData"
+ - PFND3DDDI_GETQUERYDATA
+ - d3dumddi/PFND3DDDI_GETQUERYDATA
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_GETQUERYDATA callback function
+
 
 ## -description
 

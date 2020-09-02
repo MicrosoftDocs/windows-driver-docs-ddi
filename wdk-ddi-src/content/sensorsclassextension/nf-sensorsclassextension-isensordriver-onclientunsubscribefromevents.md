@@ -8,8 +8,6 @@ ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
 ms.date: 05/03/2018
 keywords: ["ISensorDriver::OnClientUnsubscribeFromEvents"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientUnsubscribeFromEvents method, ISensorDriver.OnClientUnsubscribeFromEvents, ISensorDriver::OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientunsubscribefromevents, sensorsclassextension/ISensorDriver::OnClientUnsubscribeFromEvents
-f1_keywords:
- - "sensorsclassextension/OnClientUnsubscribeFromEvents"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SensorsClassExtension.lib
-- SensorsClassExtension.dll
-api_name:
-- OnClientUnsubscribeFromEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ISensorDriver::OnClientUnsubscribeFromEvents
+ - sensorsclassextension/ISensorDriver::OnClientUnsubscribeFromEvents
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SensorsClassExtension.lib
+ - SensorsClassExtension.dll
+api_name:
+ - OnClientUnsubscribeFromEvents
 ---
 
 # ISensorDriver::OnClientUnsubscribeFromEvents
@@ -48,37 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents">ISensorDriver::OnClientUnsubscribeFromEvents</a> method notifies the sensor driver that a client application no longer requests event notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param pClientFile
 
  Pointer to an IWDFFile interface that represents the file object for the application requesting cancellation of event notifications.
 
-
 ### -param pwszSensorID
 
 LPWSTR that contains the ID for the sensor from which the client application is requesting cancellation of event notifications.
 
-
 ## -returns
-
-
 
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 The sensor class extension calls this method in the following instances:
 
@@ -110,16 +95,7 @@ For more information about how to use this method, see <a href="https://docs.mic
 
 The ClientData structure is defined as follows.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
- 
-
- 
 

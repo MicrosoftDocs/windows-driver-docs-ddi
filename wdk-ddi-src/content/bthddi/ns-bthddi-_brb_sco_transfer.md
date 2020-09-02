@@ -6,10 +6,8 @@ old-location: bltooth\_brb_sco_transfer.htm
 tech.root: bltooth
 ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.date: 04/27/2018
-keywords: ["_BRB_SCO_TRANSFER structure"]
+keywords: ["BRB_SCO_TRANSFER structure"]
 ms.keywords: "_BRB_SCO_TRANSFER, _BRB_SCO_TRANSFER structure [Bluetooth Devices], bltooth._brb_sco_transfer, bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, bthddi/_BRB_SCO_TRANSFER"
-f1_keywords:
- - "bthddi/_BRB_SCO_TRANSFER"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_SCO_TRANSFER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_SCO_TRANSFER
+ - bthddi/_BRB_SCO_TRANSFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_SCO_TRANSFER
 ---
 
 # _BRB_SCO_TRANSFER structure
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from, or write
   isochronous data to a SCO channel.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -63,11 +57,9 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
-
 ### -field BtAddress
 
 The Bluetooth address of the remote device.
-
 
 ### -field ChannelHandle
 
@@ -75,7 +67,6 @@ The SCO channel handle that was returned by Bluetooth driver stack in response t
      <a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a> or 
      <a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/home?forum=windows-bluetooth-sco-brbscoopenchannelresponse">
      BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
-
 
 ### -field TransferFlags
 
@@ -110,41 +101,31 @@ If this bit is set, the BRB writes isochronousdata to a remote device through th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BufferSize
 
 The size, in bytes, of the input buffer described by the 
      <b>Buffer</b> member of this structure.
 
-
 ### -field Buffer
 
 A pointer to the input buffer. This value should be <b>NULL</b> when the 
      <b>Buffer</b> member is not used.
-
 
 ### -field BufferMDL
 
 A pointer to the MDL input buffer. This value should be <b>NULL</b> when the 
      <b>BufferMDL</b> member is not used.
 
-
 ### -field DataTag
-
-
 
 #### SCO write
 
 
 
-#### 
-
+####
 
 ## -remarks
-
-
 
 To read isochronous data from or write isochronous data to a SCO connection, profile drivers should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
@@ -164,13 +145,7 @@ If both
     <b>BufferMDL</b> contain non-<b>NULL</b> values, then 
     <b>BufferMDL</b> takes precedence.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
@@ -185,7 +160,4 @@ If both
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff536629(v=vs.85)">BRB_SCO_TRANSFER</a>
- 
-
- 
 

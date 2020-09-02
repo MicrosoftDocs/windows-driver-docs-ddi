@@ -8,8 +8,6 @@ ms.assetid: 3c05c1a0-339e-447f-b0df-18303ee63f98
 ms.date: 05/02/2018
 keywords: ["RILSENDMSGACKPARAMS_V2 structure"]
 ms.keywords: "*LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v2, ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
-f1_keywords:
- - "ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSENDMSGACKPARAMS_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS, *LPRILSENDMSGACKPARAMS
+f1_keywords:
+ - RILSENDMSGACKPARAMS_V2
+ - ntddrilapitypes/RILSENDMSGACKPARAMS_V2
+ - LPRILSENDMSGACKPARAMS
+ - ntddrilapitypes/LPRILSENDMSGACKPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSENDMSGACKPARAMS_V2
 ---
 
 # RILSENDMSGACKPARAMS_V2 structure
@@ -47,32 +48,21 @@ req.typenames: RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS, *LPRILSENDMSGACKPARA
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwExecutor
 
-
 ### -field hUiccApp
-
 
 ### -field dwAckID
 
-
 ### -field dwMsgStatus
 
-
 ### -field dwSmsFormat
-
 
 ### -field dwOptions
 

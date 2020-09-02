@@ -8,8 +8,6 @@ ms.assetid: 8AAC657A-218E-41CF-AE89-0199A5B35280
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs::get_BidiNotification"]
 ms.keywords: BidiNotification property [Print Devices], BidiNotification property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],BidiNotification property, IPrinterExtensionEventArgs.BidiNotification, IPrinterExtensionEventArgs.get_BidiNotification, IPrinterExtensionEventArgs::BidiNotification, IPrinterExtensionEventArgs::get_BidiNotification, get_BidiNotification, print.iprinterextensioneventargs_bidinotification, printerextension/IPrinterExtensionEventArgs::BidiNotification, printerextension/IPrinterExtensionEventArgs::get_BidiNotification
-f1_keywords:
- - "printerextension/IPrinterExtensionEventArgs.BidiNotification"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionEventArgs.BidiNotification
-- IPrinterExtensionEventArgs.get_BidiNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEventArgs::get_BidiNotification
+ - printerextension/IPrinterExtensionEventArgs::get_BidiNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionEventArgs.BidiNotification
+ - IPrinterExtensionEventArgs.get_BidiNotification
 ---
 
 # IPrinterExtensionEventArgs::get_BidiNotification
@@ -48,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the text of the bidirectional communication (Bidi) notification, if applicable.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
- 
-
- 
 

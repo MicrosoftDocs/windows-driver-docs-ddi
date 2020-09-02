@@ -8,8 +8,6 @@ ms.assetid: 83503353-e4f7-47ba-9a0c-71264798e983
 ms.date: 04/23/2018
 keywords: ["KSEVENTDATA structure"]
 ms.keywords: "*PKSEVENTDATA, KSEVENTDATA, KSEVENTDATA structure [Streaming Media Devices], PKSEVENTDATA, PKSEVENTDATA structure pointer [Streaming Media Devices], ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, ks/KSEVENTDATA, ks/PKSEVENTDATA, stream.kseventdata"
-f1_keywords:
- - "ks/KSEVENTDATA"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSEVENTDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENTDATA, *PKSEVENTDATA
+f1_keywords:
+ - PKSEVENTDATA
+ - ks/PKSEVENTDATA
+ - KSEVENTDATA
+ - ks/KSEVENTDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSEVENTDATA
 ---
 
 # KSEVENTDATA structure
@@ -47,14 +48,9 @@ req.typenames: KSEVENTDATA, *PKSEVENTDATA
 
 ## -description
 
-
 Kernel streaming clients send the KSEVENTDATA structure to the class driver to specify a notification method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NotificationType
 
@@ -136,166 +132,86 @@ Indicates that a pointer to a kernel streaming work item structure is being pass
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EventHandle
-
 
 ### -field EventHandle.Event
 
 Contains a handle to a synchronization event when the KSEVENT_EVENT_HANDLE flag is set.
 
-
 ### -field EventHandle.Reserved
 
 Reserved and set to zero.
 
-
 ### -field SemaphoreHandle
-
 
 ### -field SemaphoreHandle.Semaphore
 
 Contains a handle to a semaphore when the KSEVENT_SEMAPHORE_HANDLE flag is set.
 
-
 ### -field SemaphoreHandle.Reserved
 
 Reserved and set to zero.
-
 
 ### -field SemaphoreHandle.Adjustment
 
 Contains the adjustment to the semaphore when it is released.
 
-
 ### -field EventObject
-
- 
-
 
 ### -field EventObject.Event
 
- 
-
-
 ### -field EventObject.Increment
-
- 
-
 
 ### -field EventObject.Reserved
 
- 
-
-
 ### -field SemaphoreObject
-
- 
-
 
 ### -field SemaphoreObject.Semaphore
 
- 
-
-
 ### -field SemaphoreObject.Increment
-
- 
-
 
 ### -field SemaphoreObject.Adjustment
 
- 
-
-
 ### -field Dpc
-
- 
-
 
 ### -field Dpc.Dpc
 
- 
-
-
 ### -field Dpc.ReferenceCount
-
- 
-
 
 ### -field Dpc.Reserved
 
- 
-
-
 ### -field WorkItem
-
- 
-
 
 ### -field WorkItem.WorkQueueItem
 
- 
-
-
 ### -field WorkItem.WorkQueueType
-
- 
-
 
 ### -field WorkItem.Reserved
 
- 
-
-
 ### -field KsWorkItem
-
- 
-
 
 ### -field KsWorkItem.WorkQueueItem
 
- 
-
-
 ### -field KsWorkItem.KsWorkerObject
-
- 
-
 
 ### -field KsWorkItem.Reserved
 
- 
-
-
 ### -field Alignment
-
 
 ### -field Alignment.Unused
 
 Not used.
 
-
 ### -field Alignment.Alignment
 
 Reserved for internal use by AVStream. Minidrivers should not manipulate this member.
 
-
 ## -remarks
-
-
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-events">KS Events</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a>
 
@@ -318,7 +234,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_work_queue_type">WORK_QUEUE_TYPE</a>
- 
-
- 
 

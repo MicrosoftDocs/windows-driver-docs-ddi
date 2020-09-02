@@ -5,39 +5,38 @@ description: The Execute method executes the content of the script as dictated b
 ms.assetid: 6682b609-fd29-4878-b820-f7a582b7295d
 ms.date: 08/20/2018
 keywords: ["IDataModelScript::Execute"]
-f1_keywords:
- - "dbgmodel/IDataModelScript.Execute"
 ms.keywords: IDataModelScript::Execute, Execute, IDataModelScript.Execute, IDataModelScript::Execute, IDataModelScript.Execute
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScript.Execute
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScript::Execute
+ - dbgmodel/IDataModelScript::Execute
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScript.Execute
 ---
 
 # IDataModelScript::Execute
@@ -66,14 +65,13 @@ o	The prior state of the script is restored. All its object model manipulations 
 
 o	The state should be as it was after the successful Populate call but before any Execute call
 
-Note that for a properly written script provider and scripting environment, calling the Execute method multiple times without an intervening call to Populate or Unlink 'should be idempotent. That is, calling Execute N times in a row should appear to the user the same as calling Execute once. The execution should not produce side effecting results on the state of the debug target. Subsequently utilizing properties, methods, or events on the bridge produced via the Execute method may indeed produce side effecting results. 
-
+Note that for a properly written script provider and scripting environment, calling the Execute method multiple times without an intervening call to Populate or Unlink 'should be idempotent. That is, calling Execute N times in a row should appear to the user the same as calling Execute once. The execution should not produce side effecting results on the state of the debug target. Subsequently utilizing properties, methods, or events on the bridge produced via the Execute method may indeed produce side effecting results.
 
 ## -parameters
 
 ### -param client
-An interface to the client requesting the execution should be passed here. If there are errors or other events during execution of the script, the client should be notified of those and their location within the script via methods on this interface.
 
+An interface to the client requesting the execution should be passed here. If there are errors or other events during execution of the script, the client should be notified of those and their location within the script via methods on this interface.
 
 ## -returns
 
@@ -81,7 +79,7 @@ This method returns HRESULT that indicates success or failure.
 
 ## -remarks
 
-
 ## -see-also
 
 [IDataModelScript interface](nn-dbgmodel-idatamodelscript.md)
+

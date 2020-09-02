@@ -8,8 +8,6 @@ ms.assetid: bd6fade6-9b9b-4b38-8e53-c70c40c1165f
 ms.date: 05/02/2018
 keywords: ["NdisQueryAdapterInstanceName function"]
 ms.keywords: NdisQueryAdapterInstanceName, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], ndis/NdisQueryAdapterInstanceName, netvista.ndisqueryadapterinstancename, protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml
-f1_keywords:
- - "ndis/NdisQueryAdapterInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisQueryAdapterInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisQueryAdapterInstanceName
+ - ndis/NdisQueryAdapterInstanceName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisQueryAdapterInstanceName
 ---
 
 # NdisQueryAdapterInstanceName function
@@ -48,16 +47,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisQueryAdapterInstanceName</b> function retrieves the friendly name of a physical NIC or a virtual
   adapter that the calling protocol driver is bound to.
 
-
 ## -parameters
-
-
-
 
 ### -param pAdapterInstanceName
 
@@ -65,31 +59,23 @@ A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode 
      string specifies the friendly name of the interface to which the binding refers. This interface is
      either a physical NIC or a virtual adapter. For Windows 2000 and later, NDIS defines the NDIS_STRING
      type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
+### -param NdisBindingHandle 
 
-### -param NdisBindingHandle [in]
-
+[in]
 A handle that identifies the binding to the target physical NIC or virtual adapter of the
      next-lower driver to which the caller is bound. Typically, 
      <i>NdisBindingHandle</i> was returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-
 ## -returns
-
-
 
 <b>NdisQueryAdapterInstanceName</b> returns NDIS_STATUS_SUCCESS if memory for the string at 
      <i>AdapterInstanceName</i> was successfully allocated; otherwise, it returns
      NDIS_STATUS_RESOURCES.
 
-
-
-
 ## -remarks
-
-
 
 A protocol driver uses 
     <b>NdisQueryAdapterInstanceName</b> to retrieve the friendly name of a physical NIC or a virtual adapter
@@ -108,13 +94,7 @@ Friendly names are intended to help the user quickly and accurately identify a p
     adapter--for example, "PCI Ethernet Adapter" and "Virtual Private Networking Adapter" are considered
     friendly names.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a>
 
@@ -124,8 +104,5 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -8,8 +8,6 @@ ms.assetid: 96D932C6-B969-4C91-B4B1-6FEC7D4AD250
 ms.date: 04/30/2018
 keywords: ["RtlIntPtrToInt function"]
 ms.keywords: RtlIntPtrToInt, RtlIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoint, ntintsafe/RtlIntPtrToInt
-f1_keywords:
- - "ntintsafe/RtlIntPtrToInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlIntPtrToInt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntPtrToInt
+ - ntintsafe/RtlIntPtrToInt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlIntPtrToInt
 ---
 
 # RtlIntPtrToInt function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>INT_PTR</b> to a value of type <b>INT</b>.
-
 
 ## -parameters
 
+### -param iOperand 
 
-
-
-### -param iOperand [in]
-
+[in]
 The value to be converted.
 
+### -param piResult 
 
-### -param piResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -82,5 +74,4 @@ This function uses the following alternate name:
 <li>RtlPtrdiffTToInt32
 </li>
 </ul>
-
 

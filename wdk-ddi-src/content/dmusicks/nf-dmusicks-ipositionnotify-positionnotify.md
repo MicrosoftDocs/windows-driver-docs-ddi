@@ -8,8 +8,6 @@ ms.assetid: 1C29A0B4-E50D-4EA2-95A4-4845BD14C88A
 ms.date: 05/08/2018
 keywords: ["IPositionNotify::PositionNotify"]
 ms.keywords: IPositionNotify interface [Audio Devices],PositionNotify method, IPositionNotify.PositionNotify, IPositionNotify::PositionNotify, PositionNotify, PositionNotify method [Audio Devices], PositionNotify method [Audio Devices],IPositionNotify interface, audio.ipositionnotify_positionnotify, dmusicks/IPositionNotify::PositionNotify
-f1_keywords:
- - "dmusicks/IPositionNotify.PositionNotify"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmusicks.h
-api_name:
-- IPositionNotify.PositionNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPositionNotify::PositionNotify
+ - dmusicks/IPositionNotify::PositionNotify
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmusicks.h
+api_name:
+ - IPositionNotify.PositionNotify
 ---
 
 # IPositionNotify::PositionNotify
@@ -47,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Byte position notify for MXF graph.
-
 
 ## -parameters
 
+### -param bytePosition 
 
-
-
-### -param bytePosition [in]
-
+[in]
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-ipositionnotify">IPositionNotify</a>
- 
-
- 
 

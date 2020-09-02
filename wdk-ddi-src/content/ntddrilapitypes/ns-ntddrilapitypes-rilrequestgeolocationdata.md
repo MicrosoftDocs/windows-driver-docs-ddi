@@ -8,8 +8,6 @@ ms.assetid: 814e00c5-7248-4853-a61b-e70be86bca0e
 ms.date: 05/02/2018
 keywords: ["RILREQUESTGEOLOCATIONDATA structure"]
 ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata, ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
-f1_keywords:
- - "ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILREQUESTGEOLOCATIONDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA
+f1_keywords:
+ - RILREQUESTGEOLOCATIONDATA
+ - ntddrilapitypes/RILREQUESTGEOLOCATIONDATA
+ - LPRILREQUESTGEOLOCATIONDATA
+ - ntddrilapitypes/LPRILREQUESTGEOLOCATIONDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILREQUESTGEOLOCATIONDATA
 ---
 
 # RILREQUESTGEOLOCATIONDATA structure
@@ -47,29 +48,19 @@ req.typenames: RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field dwLocationInformationMask
 
-
 ### -field dwLocationRequestAccuracy
-
 
 ### -field rrRequestInformation
 

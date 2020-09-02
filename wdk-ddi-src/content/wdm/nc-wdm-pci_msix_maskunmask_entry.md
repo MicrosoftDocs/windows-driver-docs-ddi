@@ -8,8 +8,6 @@ ms.assetid: ADD9AA38-594D-413A-BE8B-BCC6B62EAA8E
 ms.date: 04/30/2018
 keywords: ["PCI_MSIX_MASKUNMASK_ENTRY callback function"]
 ms.keywords: MaskTableEntry, MaskTableEntry routine [Kernel-Mode Driver Architecture], PCI_MSIX_MASKUNMASK_ENTRY, drvr_interface_c4246cdd-8a44-423e-b145-fae6e1e96716.xml, kernel.masktableentry, kernel.msixmasktableentry, wdm/MaskTableEntry
-f1_keywords:
- - "wdm/MaskTableEntry"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DIRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- MaskTableEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCI_MSIX_MASKUNMASK_ENTRY
+ - wdm/PCI_MSIX_MASKUNMASK_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - MaskTableEntry
 ---
 
 # PCI_MSIX_MASKUNMASK_ENTRY callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>MaskTableEntry</i> routine masks an interrupt in the MSI-X hardware interrupt table.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_msix_table_config_interface">PCI_MSIX_TABLE_CONFIG_INTERFACE</a> structure for the interface.
 
+### -param TableEntry 
 
-### -param TableEntry [in]
-
+[in]
 The index of the table entry in the MSI-X hardware interrupt table.
 
-
 ## -returns
-
-
 
 The <i>MaskTableEntry</i> routine might return one of the following NTSTATUS values:
 
@@ -100,33 +92,18 @@ The <i>TableEntry</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a table entry is masked, the device does not generate any interrupts that correspond to that table entry.
 
 You can unmask the table entry by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_msix_table_config_interface">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a>
- 
-
- 
 

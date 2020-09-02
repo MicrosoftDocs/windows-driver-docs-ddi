@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiDestroyProcess"
+ - DXGKDDI_DESTROYPROCESS
+ - d3dkmddi/DXGKDDI_DESTROYPROCESS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 ---
 
 # DXGKDDI_DESTROYPROCESS callback function
+
 
 ## -description
 

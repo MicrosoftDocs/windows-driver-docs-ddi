@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockFsctrlEx function"]
 ms.keywords: FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers], fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx
 f1_keywords:
  - "ntifs/FsRtlOplockFsctrlEx"
+ - "FsRtlOplockFsctrlEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockFsctrlEx
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,23 +55,23 @@ The <b>FsRtlOplockFsctrlEx</b> routine performs various opportunistic lock (oplo
 
 
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP for the I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param OpenCount [in]
-
+### -param OpenCount 
+[in]
 Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask for the associated oplock operations. A file system or filter driver sets bits to specify the behavior of <b>FsRtlOplockFsctrlEx</b>. The <i>Flags</i> parameter has the following options:
 
 

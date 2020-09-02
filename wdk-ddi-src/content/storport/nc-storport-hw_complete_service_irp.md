@@ -8,8 +8,6 @@ ms.assetid: 1a6a6073-27ec-43c0-b5ec-37ef4177fa54
 ms.date: 03/29/2018
 keywords: ["HW_COMPLETE_SERVICE_IRP callback function"]
 ms.keywords: HW_COMPLETE_SERVICE_IRP, HwStorCompleteServiceIrp, HwStorCompleteServiceIrp routine [Storage Devices], storage.hwstorcompleteserviceirp, storport/HwStorCompleteServiceIrp, storvmini_57cddd18-134c-4ecc-9180-4c4b3ff3903d.xml
-f1_keywords:
- - "storport/HwStorCompleteServiceIrp"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorCompleteServiceIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_COMPLETE_SERVICE_IRP
+ - storport/HW_COMPLETE_SERVICE_IRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorCompleteServiceIrp
 ---
 
 # HW_COMPLETE_SERVICE_IRP callback function
@@ -47,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>HwStorCompleteServiceIrp</b> routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in <b>HwStorCompleteServiceIrp</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceExtension
 
 A pointer to the virtual miniport driver's per-adapter storage area.
 
-
 ## -remarks
-
-
 
 The name <b>HwStorCompleteServiceIrp</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
 
@@ -123,19 +114,11 @@ The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h he
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportcompleteserviceirp">StorPortCompleteServiceIrp</a>
- 
-
- 
 

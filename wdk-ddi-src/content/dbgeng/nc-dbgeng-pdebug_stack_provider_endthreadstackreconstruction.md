@@ -8,8 +8,6 @@ ms.assetid: 76984F28-7AC9-44FD-9D8B-CC184484C73E
 ms.date: 05/03/2018
 keywords: ["PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback function"]
 ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction
-f1_keywords:
- - "dbgeng/EndThreadStackReconstruction"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dbgeng.h
-api_name:
-- EndThreadStackReconstruction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION
+ - dbgeng/PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dbgeng.h
+api_name:
+ - EndThreadStackReconstruction
 ---
 
 # PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback function
 
 
 ## -description
-
 
 The <i>EndThreadStackReconstruction</i> callback function may be called after stack reconstruction to clean up state.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -62,32 +60,13 @@ The <i>EndThreadStackReconstruction</i> callback function may be called after st
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 ## -returns
 
-
-
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-
-
 <i>EndThreadStackReconstruction</i> is called <b>PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION</b> in the Dbgeng.h header file.
-
-
 

@@ -8,8 +8,6 @@ ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
 ms.date: 02/26/2018
 keywords: ["WdfDriverOpenParametersRegistryKey function"]
 ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey method, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, wdfdriver/WdfDriverOpenParametersRegistryKey
-f1_keywords:
- - "wdfdriver/WdfDriverOpenParametersRegistryKey"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDriverOpenParametersRegistryKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDriverOpenParametersRegistryKey
+ - wdfdriver/WdfDriverOpenParametersRegistryKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDriverOpenParametersRegistryKey
 ---
 
 # WdfDriverOpenParametersRegistryKey function
@@ -50,24 +49,20 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDriverOpenParametersRegistryKey</b> method opens the driver's <b>Parameters</b> registry key and retrieves a handle to a framework registry-key object that represents the key.
 
-
 ## -parameters
 
+### -param Driver 
 
-
-
-### -param Driver [in]
-
+[in]
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies an access mask for the <b>Parameters</b> registry key.
 
 A KMDF driver typically requests <b>KEY_READ</b>, <b>KEY_WRITE</b>, or <b>KEY_READ | KEY_WRITE</b>.
@@ -76,20 +71,17 @@ If you are writing a UMDF driver, use <b>KEY_READ</b> or <b>KEY_READ | KEY_SET_V
 
 As a best practice, ask for only the types of access that your driver needs.
 
+### -param KeyAttributes 
 
-### -param KeyAttributes [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the framework registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param Key 
 
-### -param Key [out]
-
+[out]
 A pointer to a location that receives a handle to a framework registry-key object.
 
-
 ## -returns
-
-
 
 <b>WdfDriverOpenParametersRegistryKey</b> returns STATUS_SUCCESS if the operation succeeds. Additional return values include:
 
@@ -125,12 +117,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A system bug check occurs if a KMDF driver specifies an invalid handle in <i>Driver</i>.
 
-
-
-
 ## -remarks
-
-
 
 The driver's <b>Parameters</b> key is located in the registry's <a href="https://docs.microsoft.com/windows-hardware/test/wpt/services">Services</a> tree. If the driver's <b>Parameters</b> key does not exist, the <b>WdfDriverOpenParametersRegistryKey</b> method creates it. 
 
@@ -154,12 +141,7 @@ status = WdfDriverOpenParametersRegistryKey(
                                             );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -182,7 +164,4 @@ status = WdfDriverOpenParametersRegistryKey(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryclose">WdfRegistryClose</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: image\stisubscribe.htm
 tech.root: image
 ms.assetid: 68859180-274d-44f8-9ccf-1cae0348f902
 ms.date: 05/03/2018
-keywords: ["_STISUBSCRIBE structure"]
+keywords: ["STISUBSCRIBE structure"]
 ms.keywords: "*LPSTISUBSCRIBE, LPSTISUBSCRIBE, LPSTISUBSCRIBE structure pointer [Imaging Devices], STISUBSCRIBE, STISUBSCRIBE structure [Imaging Devices], _STISUBSCRIBE, image.stisubscribe, sti/LPSTISUBSCRIBE, sti/STISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml"
-f1_keywords:
- - "sti/STISUBSCRIBE"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sti.h
-api_name:
-- STISUBSCRIBE
-product:
-- Windows
 targetos: Windows
 req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
+f1_keywords:
+ - _STISUBSCRIBE
+ - sti/_STISUBSCRIBE
+ - LPSTISUBSCRIBE
+ - sti/LPSTISUBSCRIBE
+ - STISUBSCRIBE
+ - sti/STISUBSCRIBE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sti.h
+api_name:
+ - STISUBSCRIBE
 ---
 
 # _STISUBSCRIBE structure
+
 
 ## -description
 
@@ -85,3 +89,4 @@ Handle to a Win32 event created with **CreateEvent**, which the event monitor wi
 ### -field uiNotificationMessage
 
 Window message that should be passed to the **dwWndNotify** window when an event occurs.
+

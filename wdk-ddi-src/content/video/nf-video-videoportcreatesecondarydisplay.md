@@ -8,8 +8,6 @@ ms.assetid: 49dc9ed8-a506-475e-910f-5dce2ad9b168
 ms.date: 05/10/2018
 keywords: ["VideoPortCreateSecondaryDisplay function"]
 ms.keywords: VideoPortCreateSecondaryDisplay, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, display.videoportcreatesecondarydisplay, video/VideoPortCreateSecondaryDisplay
-f1_keywords:
- - "video/VideoPortCreateSecondaryDisplay"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortCreateSecondaryDisplay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortCreateSecondaryDisplay
+ - video/VideoPortCreateSecondaryDisplay
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortCreateSecondaryDisplay
 ---
 
 # VideoPortCreateSecondaryDisplay function
@@ -47,43 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortCreateSecondaryDisplay</b> function enables dual-view support by creating a secondary device object for the given device.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension. This is the hardware extension for the device that wants to create additional display device objects.
 
+### -param SecondaryDeviceExtension 
 
-### -param SecondaryDeviceExtension [in, out]
-
+[in, out]
 Pointer to the location in which to store the hardware device extension for the secondary display device.
 
+### -param ulFlag 
 
-### -param ulFlag [in]
-
+[in]
 Is a set of attributes for the secondary display device. This parameter is restricted to the following value:
 
 |Value|Meaning|
 |--- |--- |
 |VIDEO_DUALVIEW_REMOVABLE|The secondary view can be removed.|
- 
+
 ## -returns
 
-<b>VideoPortCreateSecondaryDisplay</b> returns NO_ERROR if the secondary display device was successfully created. Otherwise, this function returns an error code. 
-
-
-
+<b>VideoPortCreateSecondaryDisplay</b> returns NO_ERROR if the secondary display device was successfully created. Otherwise, this function returns an error code.
 
 ## -remarks
-
-
 
 In Windows XP and later, a removable logical device will never become the <a href="https://docs.microsoft.com/windows-hardware/drivers/">primary display</a>.
 
@@ -91,7 +81,5 @@ Note that on some editions of Windows XP, <b>VideoPortCreateSecondaryDisplay</b>
 
 When the video minport driver calls <b>VideoPortCreateSecondaryDisplay</b>, the value of the <i>ulFlags</i> parameter must be equal to VIDEO_DUALVIEW_REMOVABLE, which is defined in <i>ntddvdeo.h</i>.
 
-The flags VIDEO_DUALVIEW_PRIMARY and VIDEO_DUALVIEW_SECONDARY, which are defined in <i>ntddvdeo.h</i>, are for internal use only. The video miniport driver must never set these flags. 
-
-
+The flags VIDEO_DUALVIEW_PRIMARY and VIDEO_DUALVIEW_SECONDARY, which are defined in <i>ntddvdeo.h</i>, are for internal use only. The video miniport driver must never set these flags.
 

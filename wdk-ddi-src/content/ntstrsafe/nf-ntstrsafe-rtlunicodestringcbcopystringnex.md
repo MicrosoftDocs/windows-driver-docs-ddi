@@ -8,8 +8,6 @@ ms.assetid: 67c364a7-5cf7-424a-8ba3-ba9a11276f5d
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCbCopyStringNEx function"]
 ms.keywords: RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopystringnex, ntstrsafe/RtlUnicodeStringCbCopyStringNEx, safestrings_3b90a87b-c560-40e4-809a-c3d1dd1671e8.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringCbCopyStringNEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringCbCopyStringNEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringCbCopyStringNEx
+ - ntstrsafe/RtlUnicodeStringCbCopyStringNEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringCbCopyStringNEx
 ---
 
 # RtlUnicodeStringCbCopyStringNEx function
@@ -48,37 +47,33 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlUnicodeStringCbCopyStringNEx</b> function copies a string into a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure while limiting the size of the copied string.
-
+The <b>RtlUnicodeStringCbCopyStringNEx</b> function copies a string into a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure while limiting the size of the copied string.
 
 ## -parameters
 
+### -param DestinationString 
 
-
-
-### -param DestinationString [out]
-
+[out]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>pszSrc </i>parameter points to (excluding the terminating null) is copied into the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of bytes in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param pszSrc 
 
-### -param pszSrc [in]
-
+[in]
 Optional. A pointer to the string to be copied. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param cbToCopy 
 
-### -param cbToCopy [in]
+[in]
+The number of bytes to be copied from the source to the destination.
 
-The number of bytes to be copied from the source to the destination. 
+### -param RemainingString 
 
-
-### -param RemainingString [out, optional]
-
+[out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
 
@@ -119,10 +114,7 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the content
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
 
-
 ## -returns
-
-
 
 <b>RtlUnicodeStringCbCopyStringNEx</b> returns one of the following NTSTATUS values.
 
@@ -180,16 +172,11 @@ This <i>error</i> status means that the function received an invalid input param
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlUnicodeStringCbCopyStringNEx</b> function uses the destination buffer's size to ensure that the copy operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringCbCopyStringNEx</b> adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcopystringn">RtlUnicodeStringCbCopyStringN</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes left unused in that string. You can pass flags <b>RtlUnicodeStringCbCopyStringNEx</b> for additional control.
+<b>RtlUnicodeStringCbCopyStringNEx</b> adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcopystringn">RtlUnicodeStringCbCopyStringN</a> function by returning a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes left unused in that string. You can pass flags <b>RtlUnicodeStringCbCopyStringNEx</b> for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
@@ -197,13 +184,7 @@ The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b> un
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcopystringn">RtlUnicodeStringCbCopyStringN</a>
 
@@ -213,8 +194,5 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_sriov_set_vf_power_state_parameters.htm
 tech.root: netvista
 ms.assetid: f2914619-1721-42ef-a20f-5774b906a35e
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure"]
+keywords: ["NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, netvista.ndis_sriov_set_vf_power_state_parameters, ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, ntddndis/PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, *PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+f1_keywords:
+ - _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+ - ntddndis/_NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+ - PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+ - ntddndis/PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+ - NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+ - ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
 ---
 
 # _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, *PNDIS_SRIOV_SET_VF_POW
 
 ## -description
 
-
 The <b>NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</b> structure specifies the parameters for changing the power state of a network adapter's PCI Express (PCIe) Virtual Function (VF).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,7 +70,6 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_SET_VF_POWER_STATE_PARAMETERS_REVISION_1.
 
-
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
@@ -86,7 +83,6 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_device_power_state">NDIS_DEVICE_POWER_STATE</a> value that specifies the power state of the network adapter.
 
-
 ### -field WakeEnable
 
 A BOOLEAN value that specifies whether the network adapter should have its WAKE# signal (on the PCI Express bus) or PME# signal (on the PCI bus) asserted as it goes into the low-power state.  
@@ -96,17 +92,9 @@ A BOOLEAN value that specifies whether the network adapter should have its WAKE#
 
 ## -remarks
 
-
-
-The  <b>NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</b> structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-set-vf-power-state">OID_SRIOV_SET_VF_POWER_STATE</a>. 
-
-
-
+The  <b>NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</b> structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-set-vf-power-state">OID_SRIOV_SET_VF_POWER_STATE</a>.
 
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -117,7 +105,4 @@ The  <b>NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</b> structure is used in OID se
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-set-vf-power-state">OID_SRIOV_SET_VF_POWER_STATE</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 15622472-808b-4d9e-ac59-ca5c9efbff7c
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2::GetRelations"]
 ms.keywords: GetRelations, GetRelations method [Windows Device Testing Framework], GetRelations method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetRelations method, IWDTFTarget2.GetRelations, IWDTFTarget2::GetRelations, Microsoft.WDTF.IWDTFTarget2.GetRelations, Microsoft::WDTF::IWDTFTarget2::GetRelations, dtf.iwdtftarget2_getrelations, wdtf/IWDTFTarget2::GetRelations
-f1_keywords:
- - "wdtf/IWDTFTarget2.GetRelations"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTarget2.GetRelations
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTarget2::GetRelations
+ - wdtf/IWDTFTarget2::GetRelations
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTarget2.GetRelations
 ---
 
 # IWDTFTarget2::GetRelations
@@ -47,45 +46,33 @@ req.typenames:
 
 ## -description
 
-
 Returns a collection of related targets.
-
 
 ## -parameters
 
+### -param RelationSDEL 
 
-
-
-### -param RelationSDEL [in]
-
+[in]
 An SDEL statement that contains one or more relation tokens 
 that specify the desired targets.
 
+### -param MatchSDEL 
 
-### -param MatchSDEL [in]
-
+[in]
 The SDEL statement that each returned target must match.
 If <i>MatchSDEL</i> is empty, all targets are returned.
 
+### -param ppRelations 
 
-### -param ppRelations [out, retval]
-
+[out, retval]
 The address of the variable that will receive the 
 result of this method.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 You use the <b>GetRelations</b> method to retrieve related 
 instances of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface. 
@@ -112,16 +99,7 @@ For more information about using the <b>GetRelations</b> method,
 see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data Evaluation 
 Language Overview</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
- 
-
- 
 

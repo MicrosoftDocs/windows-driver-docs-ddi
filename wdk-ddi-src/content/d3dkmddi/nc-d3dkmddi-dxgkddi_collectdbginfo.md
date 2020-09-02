@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCollectDbgInfo"
+ - DXGKDDI_COLLECTDBGINFO
+ - d3dkmddi/DXGKDDI_COLLECTDBGINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_COLLECTDBGINFO callback function
+
 
 ## -description
 

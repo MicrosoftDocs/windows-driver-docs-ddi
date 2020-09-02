@@ -8,8 +8,6 @@ ms.assetid: 67D61FBA-15E9-4157-9286-72D51DE18275
 ms.date: 04/30/2018
 keywords: ["RtlIntPtrToUChar function"]
 ms.keywords: RtlIntPtrToUChar, RtlIntPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouchar, ntintsafe/RtlIntPtrToUChar
-f1_keywords:
- - "ntintsafe/RtlIntPtrToUChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlIntPtrToUChar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntPtrToUChar
+ - ntintsafe/RtlIntPtrToUChar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlIntPtrToUChar
 ---
 
 # RtlIntPtrToUChar function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>INT_PTR</b> to a value of type <b>UCHAR</b>.
-
 
 ## -parameters
 
+### -param iOperand 
 
-
-
-### -param iOperand [in]
-
+[in]
 The value to be converted.
 
+### -param pch 
 
-### -param pch [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -78,5 +70,4 @@ This function uses the following alternate name:
 <li>RtlPtrdiffTToUChar
 </li>
 </ul>
-
 

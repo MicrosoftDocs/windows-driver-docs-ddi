@@ -6,10 +6,8 @@ old-location: kernel\image_info.htm
 tech.root: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
 ms.date: 07/08/2019
-keywords: ["_IMAGE_INFO structure"]
+keywords: ["IMAGE_INFO structure"]
 ms.keywords: "*PIMAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, kernel.image_info, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO"
-f1_keywords:
- - "ntddk/IMAGE_INFO"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- IMAGE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: IMAGE_INFO, *PIMAGE_INFO
+f1_keywords:
+ - _IMAGE_INFO
+ - ntddk/_IMAGE_INFO
+ - PIMAGE_INFO
+ - ntddk/PIMAGE_INFO
+ - IMAGE_INFO
+ - ntddk/IMAGE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - IMAGE_INFO
 ---
 
 # _IMAGE_INFO structure
+
 
 ## -description
 
@@ -117,3 +121,4 @@ If the **ExtendedInfoPresent** flag is set, the IMAGE_INFO structure is part of 
 [PLOAD_IMAGE_NOTIFY_ROUTINE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pload_image_notify_routine)
 
 [PsSetLoadImageNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine)
+

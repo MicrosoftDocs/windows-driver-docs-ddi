@@ -6,10 +6,8 @@ old-location: print\uni_codepageinfo.htm
 tech.root: print
 ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.date: 04/20/2018
-keywords: ["_UNI_CODEPAGEINFO structure"]
+keywords: ["UNI_CODEPAGEINFO structure"]
 ms.keywords: "*PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], UNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], _UNI_CODEPAGEINFO, print.uni_codepageinfo, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, prntfont/PUNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO"
-f1_keywords:
- - "prntfont/UNI_CODEPAGEINFO"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- UNI_CODEPAGEINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO
+f1_keywords:
+ - _UNI_CODEPAGEINFO
+ - prntfont/_UNI_CODEPAGEINFO
+ - PUNI_CODEPAGEINFO
+ - prntfont/PUNI_CODEPAGEINFO
+ - UNI_CODEPAGEINFO
+ - prntfont/UNI_CODEPAGEINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - UNI_CODEPAGEINFO
 ---
 
 # _UNI_CODEPAGEINFO structure
@@ -47,37 +50,23 @@ req.typenames: UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO
 
 ## -description
 
-
 The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwCodePage
 
 Identifies a Windows code page.
 
-
 ### -field SelectSymbolSet
 
 Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to select the code page's symbol set.
-
 
 ### -field UnSelectSymbolSet
 
 Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
- 
-
- 
 

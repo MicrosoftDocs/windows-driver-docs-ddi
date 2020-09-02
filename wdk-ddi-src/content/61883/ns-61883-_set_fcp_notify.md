@@ -6,10 +6,8 @@ old-location: ieee\set_fcp_notify.htm
 tech.root: IEEE
 ms.assetid: 94A966C4-9FFA-4937-B7D8-D1A3608E4A7F
 ms.date: 02/15/2018
-keywords: ["_SET_FCP_NOTIFY structure"]
+keywords: ["SET_FCP_NOTIFY structure"]
 ms.keywords: "*PSET_FCP_NOTIFY, 61883/PSET_FCP_NOTIFY, 61883/SET_FCP_NOTIFY, IEEE.set_fcp_notify, PSET_FCP_NOTIFY, PSET_FCP_NOTIFY structure pointer [Buses], SET_FCP_NOTIFY, SET_FCP_NOTIFY structure [Buses], _SET_FCP_NOTIFY"
-f1_keywords:
- - "61883/SET_FCP_NOTIFY"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 61883.h
-api_name:
-- SET_FCP_NOTIFY
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_FCP_NOTIFY, *PSET_FCP_NOTIFY
+f1_keywords:
+ - _SET_FCP_NOTIFY
+ - 61883/_SET_FCP_NOTIFY
+ - PSET_FCP_NOTIFY
+ - 61883/PSET_FCP_NOTIFY
+ - SET_FCP_NOTIFY
+ - 61883/SET_FCP_NOTIFY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 61883.h
+api_name:
+ - SET_FCP_NOTIFY
 ---
 
 # _SET_FCP_NOTIFY structure
@@ -47,14 +50,9 @@ req.typenames: SET_FCP_NOTIFY, *PSET_FCP_NOTIFY
 
 ## -description
 
-
-This structure is used for FCP notification. The SetFcpNotify request registers a client driver notification of FCP requests or responses, or cancels a prior registration. A driver must register for FCP notifications in order to retrieve requests or responses. The driver is responsible for canceling registration by sending an SetFcpNotify request with DEREGISTER_FCP_NOTIFY set in <b>Flags</b> before the system unloads the driver. 
-
+This structure is used for FCP notification. The SetFcpNotify request registers a client driver notification of FCP requests or responses, or cancels a prior registration. A driver must register for FCP notifications in order to retrieve requests or responses. The driver is responsible for canceling registration by sending an SetFcpNotify request with DEREGISTER_FCP_NOTIFY set in <b>Flags</b> before the system unloads the driver.
 
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -66,28 +64,15 @@ REGISTER_FCP_REQUEST_NOTIFY
 
 The driver can cancel notification by setting <b>Flags</b> with DEREGISTER_FCP_NOTIFY, which clears REGISTER_FCP_RESPONSE_NOTIFY and REGISTER_FCP_REQUEST_NOTIFY.
 
-
 ### -field NodeAddress
 
 Reserved for use by the operating system.
 
-
 ## -remarks
 
-
-
-If successful, the IEC-61883 protocol driver sets <b>Irp->IoStatus.Status </b>to STATUS_SUCCESS. 
-
-
-
+If successful, the IEC-61883 protocol driver sets <b>Irp->IoStatus.Status </b>to STATUS_SUCCESS.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
- 
-
- 
 

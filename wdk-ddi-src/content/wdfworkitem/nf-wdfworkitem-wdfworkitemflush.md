@@ -8,8 +8,6 @@ ms.assetid: 5868dd01-17ba-4edf-b665-c90d2b1aa2ba
 ms.date: 02/26/2018
 keywords: ["WdfWorkItemFlush function"]
 ms.keywords: DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, WdfWorkItemFlush, WdfWorkItemFlush method, kmdf.wdfworkitemflush, wdf.wdfworkitemflush, wdfworkitem/WdfWorkItemFlush
-f1_keywords:
- - "wdfworkitem/WdfWorkItemFlush"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfWorkItemFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfWorkItemFlush
+ - wdfworkitem/WdfWorkItemFlush
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfWorkItemFlush
 ---
 
 # WdfWorkItemFlush function
@@ -50,21 +49,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWorkItemFlush</b> method returns after a specified work item has been serviced.
 
-
 ## -parameters
 
+### -param WorkItem 
 
-
-
-### -param WorkItem [in]
-
+[in]
 A handle to a framework work-item object that is obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
-
 
 ## -remarks
 
@@ -108,15 +102,7 @@ ToastMon_EvtIoTargetQueryRemove(
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a>
- 
-
- 
 

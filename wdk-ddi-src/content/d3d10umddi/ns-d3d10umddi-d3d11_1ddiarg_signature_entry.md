@@ -7,8 +7,6 @@ ms.assetid: 571ed880-a4c6-4eb1-a254-c1faf2a589d2
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_SIGNATURE_ENTRY structure"]
 ms.keywords: D3D11_1DDIARG_SIGNATURE_ENTRY, D3D11_1DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY, display.d3d11_1ddiarg_signature_entry
-f1_keywords:
- - "d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDIARG_SIGNATURE_ENTRY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDIARG_SIGNATURE_ENTRY
+f1_keywords:
+ - D3D11_1DDIARG_SIGNATURE_ENTRY
+ - d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDIARG_SIGNATURE_ENTRY
 ---
 
 # D3D11_1DDIARG_SIGNATURE_ENTRY structure
@@ -47,14 +46,9 @@ req.typenames: D3D11_1DDIARG_SIGNATURE_ENTRY
 
 ## -description
 
-
 Describes an entry for a signature.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SystemValue
 
@@ -72,25 +66,20 @@ Describes an entry for a signature.
 |D3D10_SB_NAME_PRIMITIVE_ID (7)|Primitive ID.|
 |D3D10_SB_NAME_INSTANCE_ID (8)|Instance ID.|
 |D3D10_SB_NAME_IS_FRONT_FACE (9)|Is front face.|
- 
-
 
 ### -field Register
 
 [in] The number of the register for the signature entry.
 
-
 ### -field Mask
 
 [in] The xyzw mask for the signature entry. The four least significant bits (LSBs) of the mask represent xyzw respectively.
-
 
 ### -field RegisterComponentType
 
 A  <b>D3D10_SB_REGISTER_COMPONENT_TYPE</b> type that indicates the register component type.
 
 The <b>D3D10_SB_REGISTER_COMPONENT_TYPE</b> enumeration is defined in the D3d10tokenizedprogramformat.hpp header file.
-
 
 ### -field MinPrecision
 

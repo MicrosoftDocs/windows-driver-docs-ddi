@@ -8,8 +8,6 @@ ms.assetid: 9865C8D1-DA20-4733-8862-7CA38069A93F
 ms.date: 04/30/2018
 keywords: ["RtlULongLongMult function"]
 ms.keywords: RtlULongLongMult, RtlULongLongMult function [Kernel-Mode Driver Architecture], kernel.rtlulonglongmult, ntintsafe/RtlULongLongMult
-f1_keywords:
- - "ntintsafe/RtlULongLongMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongLongMult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongLongMult
+ - ntintsafe/RtlULongLongMult
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongLongMult
 ---
 
 # RtlULongLongMult function
@@ -47,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Multiplies one value of type <b>ULONGLONG</b> by another.
-
 
 ## -parameters
 
+### -param ullMultiplicand 
 
-
-
-### -param ullMultiplicand [in]
-
+[in]
 The value to be multiplied by <i>ullMultiplier</i>.
 
+### -param ullMultiplier 
 
-### -param ullMultiplier [in]
-
+[in]
 The value by which to multiply <i>ullMultiplicand</i>.
 
+### -param pullResult 
 
-### -param pullResult [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

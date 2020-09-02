@@ -6,10 +6,8 @@ old-location: storage\storage_hw_firmware_slot_info.htm
 tech.root: storage
 ms.assetid: D5DF9785-83E0-4137-8E5F-357F94721CAD
 ms.date: 03/29/2018
-keywords: ["_STORAGE_HW_FIRMWARE_SLOT_INFO structure"]
+keywords: ["STORAGE_HW_FIRMWARE_SLOT_INFO structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_SLOT_INFO, STORAGE_HW_FIRMWARE_SLOT_INFO structure [Storage Devices], _STORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO, storage.storage_hw_firmware_slot_info"
-f1_keywords:
- - "ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_HW_FIRMWARE_SLOT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_SLOT_INFO, *PSTORAGE_HW_FIRMWARE_SLOT_INFO
+f1_keywords:
+ - _STORAGE_HW_FIRMWARE_SLOT_INFO
+ - ntddstor/_STORAGE_HW_FIRMWARE_SLOT_INFO
+ - PSTORAGE_HW_FIRMWARE_SLOT_INFO
+ - ntddstor/PSTORAGE_HW_FIRMWARE_SLOT_INFO
+ - STORAGE_HW_FIRMWARE_SLOT_INFO
+ - ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_HW_FIRMWARE_SLOT_INFO
 ---
 
 # _STORAGE_HW_FIRMWARE_SLOT_INFO structure
@@ -47,44 +50,33 @@ req.typenames: STORAGE_HW_FIRMWARE_SLOT_INFO, *PSTORAGE_HW_FIRMWARE_SLOT_INFO
 
 ## -description
 
-
 This structure contains information about a slot on a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_SLOT_INFO)
 
-
 ### -field Size
 
 The size of this structure.
-
 
 ### -field SlotNumber
 
 The slot number of this slot.
 
-
 ### -field ReadOnly
 
 Indicates whether this slot is read-only or not.
-
 
 ### -field Reserved0
 
 Reserved for future use.
 
-
 ### -field Reserved1
 
 Reserved for future use.
-
 
 ### -field Revision
 

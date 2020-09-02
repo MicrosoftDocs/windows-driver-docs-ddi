@@ -6,10 +6,8 @@ old-location: stream\kscamera_profile_info.htm
 tech.root: stream
 ms.assetid: 566052ED-2FD8-46A9-8C4E-9FED660D93BF
 ms.date: 04/23/2018
-keywords: ["_KSCAMERA_PROFILE_INFO structure"]
+keywords: ["KSCAMERA_PROFILE_INFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_INFO, PKSCAMERA_PROFILE_INFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_INFO, ksmedia/KSCAMERA_PROFILE_INFO, ksmedia/PKSCAMERA_PROFILE_INFO, stream.kscamera_profile_info"
-f1_keywords:
- - "ksmedia/KSCAMERA_PROFILE_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSCAMERA_PROFILE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO
+f1_keywords:
+ - _KSCAMERA_PROFILE_INFO
+ - ksmedia/_KSCAMERA_PROFILE_INFO
+ - PKSCAMERA_PROFILE_INFO
+ - ksmedia/PKSCAMERA_PROFILE_INFO
+ - KSCAMERA_PROFILE_INFO
+ - ksmedia/KSCAMERA_PROFILE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSCAMERA_PROFILE_INFO
 ---
 
 # _KSCAMERA_PROFILE_INFO structure
@@ -47,14 +50,9 @@ req.typenames: KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO
 
 ## -description
 
-
 The <b>KSCAMERA_PROFILE_INFO</b> structure is used to uniquely identify a given profile.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProfileId
 
@@ -67,11 +65,9 @@ GUID representing a unique ID for the profile.  This GUID may be a unique IHV/OE
 
 Each profile within a given <b>ProfileId</b> group must have a unique <b>Index</b> value.  This allows any profile for a device to be uniquely identified with <b>ProfileId</b> + <b>Index</b>.
 
-
 ### -field PinCount
 
 The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_pininfo">KSCAMERA_PROFILE_PININFO</a> structures pointed to by <b>Pins</b>.  This value must be greater than 0.
-
 
 ### -field Pins
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_shared_memory_parameters.htm
 tech.root: netvista
 ms.assetid: 286b08f6-179e-426e-ae65-b108529d049a
 ms.date: 05/02/2018
-keywords: ["_NDIS_SHARED_MEMORY_PARAMETERS structure"]
+keywords: ["NDIS_SHARED_MEMORY_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PARAMETERS, PNDIS_SHARED_MEMORY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_PARAMETERS, ndis/NDIS_SHARED_MEMORY_PARAMETERS, ndis/PNDIS_SHARED_MEMORY_PARAMETERS, ndis_shared_memory_ref_76b2c89f-c221-42de-ae92-ad10cf2297f2.xml, netvista.ndis_shared_memory_parameters"
-f1_keywords:
- - "ndis/NDIS_SHARED_MEMORY_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_SHARED_MEMORY_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_PARAMETERS, *PNDIS_SHARED_MEMORY_PARAMETERS
+f1_keywords:
+ - _NDIS_SHARED_MEMORY_PARAMETERS
+ - ndis/_NDIS_SHARED_MEMORY_PARAMETERS
+ - PNDIS_SHARED_MEMORY_PARAMETERS
+ - ndis/PNDIS_SHARED_MEMORY_PARAMETERS
+ - NDIS_SHARED_MEMORY_PARAMETERS
+ - ndis/NDIS_SHARED_MEMORY_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_SHARED_MEMORY_PARAMETERS
 ---
 
 # _NDIS_SHARED_MEMORY_PARAMETERS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_SHARED_MEMORY_PARAMETERS, *PNDIS_SHARED_MEMORY_PARAMETERS
 
 ## -description
 
-
 The NDIS_SHARED_MEMORY_PARAMETERS structure specifies the shared memory parameters for a shared
   memory allocation request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -81,7 +79,6 @@ Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SHARED_MEMORY_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A UCHAR value that contains a bitwise OR of the following value:
@@ -94,7 +91,6 @@ A UCHAR value that contains a bitwise OR of the following value:
 #### NDIS_SHARED_MEM_PARAMETERS_CONTIGOUS
 
 The shared memory is in a contiguous block of memory.
-
 
 ### -field QueueId
 
@@ -112,11 +108,9 @@ An NDIS_HANDLE value that identifies a block of shared memory. NDIS provides thi
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatesharedmemory">
      NdisAllocateSharedMemory</a> function.
 
-
 ### -field PreferredNode
 
 A NODE_REQUIREMENT value that indicates the preferred node to use while allocating memory. If the driver does not have a preference, then the value must be set to MM_ANY_NODE_OK.
-
 
 ### -field Usage
 
@@ -124,11 +118,9 @@ An
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_shared_memory_usage">NDIS_SHARED_MEMORY_USAGE</a> enumeration
      value that specifies the purpose of the shared memory.
 
-
 ### -field Length
 
 A ULONG value that contains the length, in bytes, of the shared memory block.
-
 
 ### -field VirtualAddress
 
@@ -136,17 +128,14 @@ A PVOID value that contains the base virtual address of the shared memory. NDIS 
      value before it returns from the 
      <b>NdisAllocateSharedMemory</b> function.
 
-
 ### -field SGListBufferLength
 
 A ULONG value that contains the length, in bytes, of the scatter gather list buffer.
-
 
 ### -field SGListBuffer
 
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure.
-
 
 ### -field VPortId
 
@@ -159,8 +148,6 @@ An NDIS_NIC_SWITCH_VPORT_ID value that specifies a virtual port (VPort) identifi
 
 ## -remarks
 
-
-
 The NDIS_SHARED_MEMORY_PARAMETERS structure specifies the shared memory parameters for a shared memory
     allocation request for a receive queue.
 
@@ -170,13 +157,7 @@ NDIS drivers pass this structure to the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-allocate_shared_memory_handler">NetAllocateSharedMemory</a> function
     (ALLOCATE_SHARED_MEMORY_HANDLER entry point).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -195,7 +176,4 @@ NDIS drivers pass this structure to the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
- 
-
- 
 

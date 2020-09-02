@@ -8,8 +8,6 @@ ms.assetid: D94EF91A-784D-4AA2-A43D-6A4AE88CF0A3
 ms.date: 05/10/2018
 keywords: ["DXGK_ENGINE_TYPE enumeration"]
 ms.keywords: DXGK_ENGINE_TYPE, DXGK_ENGINE_TYPE enumeration [Display Devices], DXGK_ENGINE_TYPE_3D, DXGK_ENGINE_TYPE_COPY, DXGK_ENGINE_TYPE_OTHER, DXGK_ENGINE_TYPE_OVERLAY, DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, DXGK_ENGINE_TYPE_VIDEO_DECODE, DXGK_ENGINE_TYPE_VIDEO_ENCODE, DXGK_ENGINE_TYPE_VIDEO_PROCESSING, d3dkmdt/DXGK_ENGINE_TYPE, d3dkmdt/DXGK_ENGINE_TYPE_3D, d3dkmdt/DXGK_ENGINE_TYPE_COPY, d3dkmdt/DXGK_ENGINE_TYPE_OTHER, d3dkmdt/DXGK_ENGINE_TYPE_OVERLAY, d3dkmdt/DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_DECODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_ENCODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_PROCESSING, display.dxgk_engine_type
-f1_keywords:
- - "d3dkmdt/DXGK_ENGINE_TYPE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmdt.h
-api_name:
-- DXGK_ENGINE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_ENGINE_TYPE
+f1_keywords:
+ - DXGK_ENGINE_TYPE
+ - d3dkmdt/DXGK_ENGINE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmdt.h
+api_name:
+ - DXGK_ENGINE_TYPE
 ---
 
 # DXGK_ENGINE_TYPE enumeration
@@ -47,24 +46,17 @@ req.typenames: DXGK_ENGINE_TYPE
 
 ## -description
 
-
 Indicates the type of engine on a GPU node. Note the selection rules discussed in Remarks.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DXGK_ENGINE_TYPE_OTHER
 
 The engine does not match any of the other <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-dxgk_engine_type">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
 
-
 ### -field DXGK_ENGINE_TYPE_3D
 
 The adapter's 3-D processing engine. All adapters that are not a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">display-only device</a> have one 3-D engine.
-
 
 ### -field DXGK_ENGINE_TYPE_VIDEO_DECODE
 
@@ -72,11 +64,9 @@ The engine that handles video decoding, including decompression of video frames 
 
 The workload packets for an H.264 video codec workload test must appear on either the decode engine or the 3-D engine.
 
-
 ### -field DXGK_ENGINE_TYPE_VIDEO_ENCODE
 
 The engine that handles video encoding, including compression of typical video frames into an encoded video format.
-
 
 ### -field DXGK_ENGINE_TYPE_VIDEO_PROCESSING
 
@@ -84,11 +74,9 @@ The engine that is responsible for any video processing that is done after a vid
 
 The workload packets for workload tests must appear on either the video processing engine or the 3-D engine.
 
-
 ### -field DXGK_ENGINE_TYPE_SCENE_ASSEMBLY
 
 The engine that performs vertex processing of 3-D workloads as a preliminary pass prior to the remainder of the 3-D rendering. This engine also stores vertices in bins that tile-based rendering engines use.
-
 
 ### -field DXGK_ENGINE_TYPE_COPY
 
@@ -96,23 +84,15 @@ The engine that is a copy engine used for moving data. This engine can perform s
 
 The workload packets for calls to <b>CopySubresourceRegion</b> or <b>UpdateSubResource</b> methods of Direct3D 10 and Direct3D 11 must appear on either the copy engine or the 3-D engine.
 
-
 ### -field DXGK_ENGINE_TYPE_OVERLAY
 
 The virtual engine that is used for synchronized flipping of overlays in Direct3D 9.
 
-
 ### -field DXGK_ENGINE_TYPE_CRYPTO
-
 
 ### -field DXGK_ENGINE_TYPE_MAX
 
-
-
-
 ## -remarks
-
-
 
 The display miniport driver should follow these rules to determine the engine type:
 
@@ -125,6 +105,4 @@ The display miniport driver should follow these rules to determine the engine ty
 <li>If none of the conditions in steps 1-3 are met, only then should the driver select a value of <b>DXGK_ENGINE_TYPE_OTHER</b>.</li>
 </ol>
 For more information on how to use this enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/enumerating-gpu-nodes">Enumerating GPU engine capabilities</a>.
-
-
 

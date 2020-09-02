@@ -8,8 +8,6 @@ ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
 ms.date: 04/20/2018
 keywords: ["IPrinterQueueEvent::OnBidiResponseReceived"]
 ms.keywords: IPrinterQueueEvent interface [Print Devices],OnBidiResponseReceived method, IPrinterQueueEvent.OnBidiResponseReceived, IPrinterQueueEvent::OnBidiResponseReceived, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices],IPrinterQueueEvent interface, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived
-f1_keywords:
- - "printerextension/IPrinterQueueEvent.OnBidiResponseReceived"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueueEvent.OnBidiResponseReceived
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueueEvent::OnBidiResponseReceived
+ - printerextension/IPrinterQueueEvent::OnBidiResponseReceived
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueueEvent.OnBidiResponseReceived
 ---
 
 # IPrinterQueueEvent::OnBidiResponseReceived
@@ -47,47 +46,29 @@ req.typenames:
 
 ## -description
 
-
 Called when a bidi response  is received.
-
 
 ## -parameters
 
+### -param bstrResponse 
 
-
-
-### -param bstrResponse [in]
-
+[in]
 The received response.
 
+### -param hrStatus 
 
-### -param hrStatus [in]
-
+[in]
 An HRESULT value.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
-
-
 The <i>bstrResponse</i> parameter is formatted according to the schema that is described in <a href="https://docs.microsoft.com/previous-versions/dd183368(v=vs.85)">Bidi Request and Response Schemas</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dd183368(v=vs.85)">Bidi Request and Response Schemas</a>
 
@@ -102,7 +83,4 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueevent">IPrinterQueueEvent</a>
- 
-
- 
 

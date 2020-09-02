@@ -7,8 +7,6 @@ ms.assetid: 3cd9db56-7b6e-4ee3-bbce-c13830b93a24
 ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030 structure"]
 ms.keywords: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030, display.d3d12ddi-video-content-protection-system-count-data-0030
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030
+f1_keywords:
+ - D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030
+ - d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030
 ---
 
 # D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030 structure
@@ -47,19 +46,13 @@ req.typenames: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_COUNT_DATA_0030
 
 ## -description
 
-
 Video content protection system count data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NodeIndex
 
 Node index.
-
 
 ### -field ContentProtectionSystemCount
 

@@ -6,10 +6,8 @@ old-location: display\dxva_tcoefsingle.htm
 tech.root: display
 ms.assetid: 665a9819-d319-414d-9a31-ee565b293197
 ms.date: 05/10/2018
-keywords: ["_DXVA_TCoefSingle structure"]
+keywords: ["DXVA_TCoefSingle structure"]
 ms.keywords: "*LPDXVA_TCoefSingle, DXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices], _DXVA_TCoefSingle, display.dxva_tcoefsingle, dxva/DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml"
-f1_keywords:
- - "dxva/DXVA_TCoefSingle"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_TCoefSingle
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_TCoefSingle, *LPDXVA_TCoefSingle
+f1_keywords:
+ - _DXVA_TCoefSingle
+ - dxva/_DXVA_TCoefSingle
+ - LPDXVA_TCoefSingle
+ - dxva/LPDXVA_TCoefSingle
+ - DXVA_TCoefSingle
+ - dxva/DXVA_TCoefSingle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_TCoefSingle
 ---
 
 # _DXVA_TCoefSingle structure
@@ -47,14 +50,9 @@ req.typenames: DXVA_TCoefSingle, *LPDXVA_TCoefSingle
 
 ## -description
 
-
 The DXVA_TCoefSingle structure is sent by the host decoder to the accelerator to specify <a href="https://docs.microsoft.com/windows-hardware/drivers/">IDCT</a> coefficient values.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wIndexWithEOB
 
@@ -86,27 +84,17 @@ Arbitrary ordering: When <b>bConfigHostInverseScan</b> is 1, the <i>MBscanMethod
 
 #### TCoefEOB
 
-Indicates whether the current coefficient is the last one associated with the current block of transform coefficients. A value of 1 indicates that the current coefficient is the last one for the block and a value of zero indicates that it is not. This field is in the least significant bit of the <b>wIndexWithEOB</b> member. 
-
+Indicates whether the current coefficient is the last one associated with the current block of transform coefficients. A value of 1 indicates that the current coefficient is the last one for the block and a value of zero indicates that it is not. This field is in the least significant bit of the <b>wIndexWithEOB</b> member.
 
 ### -field TCoefValue
 
 Indicates the value of the coefficient in the block. <b>TCoefValue</b> must be clipped to the appropriate range as specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/low-level-idct-processing-elements">Low-Level IDCT Processing Elements</a> by the host prior to passing the coefficient value to the accelerator for <a href="https://docs.microsoft.com/windows-hardware/drivers/">IDCT</a> operation. MPEG-2 mismatch control, if necessary, is also the responsibility of the host, not the accelerator. (This might require the creation of extra "phantom" nonzero coefficients.)
 
-
 ## -remarks
-
-
 
 The DXVA_TCoefSingle structure is used whenever the <i>HostResidDiff</i> flag (bit 10 in the <b>wMBtype</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_mbctrl_p_offhostidct_1">DXVA_MBctrl_P_OffHostIDCT_1</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_mbctrl_i_offhostidct_1">DXVA_MBctrl_I_OffHostIDCT_1</a> structure) is 1 and the <b>bConfig4GroupedCoefs</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a> structure is zero.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a>
 
@@ -117,7 +105,4 @@ The DXVA_TCoefSingle structure is used whenever the <i>HostResidDiff</i> flag (b
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_mbctrl_p_offhostidct_1">DXVA_MBctrl_P_OffHostIDCT_1</a>
- 
-
- 
 

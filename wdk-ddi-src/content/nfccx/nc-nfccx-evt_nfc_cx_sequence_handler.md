@@ -8,8 +8,6 @@ ms.assetid: 6EB96A37-06B9-4655-AD69-375EE770F4DF
 ms.date: 02/15/2018
 keywords: ["EVT_NFC_CX_SEQUENCE_HANDLER callback function"]
 ms.keywords: "*PFN_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER callback, EvtNfcCxSequenceHandler, EvtNfcCxSequenceHandler callback function [Near-Field Proximity Drivers], nfccx/ EvtNfcCxSequenceHandler, nfpdrivers.evtnfccxsequencehandler"
-f1_keywords:
- - "nfccx/EvtNfcCxSequenceHandler"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- nfccx.h
-api_name:
-- EvtNfcCxSequenceHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_NFC_CX_SEQUENCE_HANDLER
+ - nfccx/EVT_NFC_CX_SEQUENCE_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - nfccx.h
+api_name:
+ - EvtNfcCxSequenceHandler
 ---
 
 # EVT_NFC_CX_SEQUENCE_HANDLER callback function
@@ -47,55 +46,39 @@ req.typenames:
 
 ## -description
 
-
 Called by the NFC CX to notify the client driver to handle the specific registered sequence.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Sequence 
 
-### -param Sequence [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a> enumeration.
 
+### -param CompletionRoutine 
 
-### -param CompletionRoutine [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function.
 
+### -param CompletionContext 
 
-### -param CompletionContext [in, optional]
-
+[in, optional]
 Driver-defined context information that the driver specified when it registered the <i>EvtNfcCxSequenceHandler</i> callback function.
-
 
 ## -remarks
 
-
-
 On completion of handling the sequence, the client driver notifies the NFC CX through the sequence completion callback. Similar to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_write_nci_packet">EvtNfcCxWriteNciPacket</a>, the client must not make any blocking calls when handling this function call. Any I/O processing must be handled on a separate thread or work item. However, the client driver can invoke the completion routine with a status flag when handling this call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
 

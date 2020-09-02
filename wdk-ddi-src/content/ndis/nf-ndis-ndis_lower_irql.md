@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: 378ea89f-cad9-410d-88b3-14bd1109e399
 ms.date: 04/16/2018
 keywords: ["NDIS_LOWER_IRQL macro"]
-f1_keywords:
- - "ndis/NDIS_LOWER_IRQL"
 ms.keywords: NDIS_LOWER_IRQL
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level (see Remarks section)
 req.ddi-compliance: Irql_IrqlSetting_Function
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NDIS_LOWER_IRQL
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NDIS_LOWER_IRQL
+ - ndis/NDIS_LOWER_IRQL
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_LOWER_IRQL
 ---
 
 # NDIS_LOWER_IRQL macro
@@ -72,3 +70,4 @@ It is a fatal error to call **NDIS_LOWER_IRQL** and use a value for *\_OldIrql\_
 [**KeLowerIrql**](../wdm/nf-wdm-kelowerirql~r1.md)
 
 [**NDIS_RAISE_IRQL_TO_DISPATCH**](nf-ndis-ndis_raise_irql_to_dispatch.md)
+

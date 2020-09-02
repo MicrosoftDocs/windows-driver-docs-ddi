@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/RelocateDeviceFuncs(D3D11_2)"
+ - PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS
+ - d3d10umddi/PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: dc3c55e3-ddbe-4f06-b9fb-55696dc07502
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_PARSEMONITORDESCRIPTION structure"]
 ms.keywords: IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_in_parsemonitordescription, iddcx/IDARG_IN_PARSEMONITORDESCRIPTION
-f1_keywords:
- - "iddcx/IDARG_IN_PARSEMONITORDESCRIPTION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_PARSEMONITORDESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_PARSEMONITORDESCRIPTION
+ - iddcx/IDARG_IN_PARSEMONITORDESCRIPTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_PARSEMONITORDESCRIPTION
 ---
 
 # IDARG_IN_PARSEMONITORDESCRIPTION structure
@@ -47,43 +46,23 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the monitor description.
-             
-
 
 ## -struct-fields
 
-
-
-
 ### -field MonitorDescription
 
-
                      [in] Monitor description the driver should decode.
-                 
-
 
 ### -field MonitorModeBufferInputCount
 
-
                      [in] The number of monitor modes the <b>pMonitorModes</b> buffer being passed into the driver can hold. A value of zero indicates that the driver should not copy the monitor mode list into the provided buffer, but should set the output buffer size to the size required.
-
 
 ### -field pMonitorModes
 
-
                      [out] Pointer to buffer that the driver should copy the monitor modes to if the value is non-NULL. If value is NULL, then driver should not copy any data and should just set the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_out_parsemonitordescription">IDARG_OUT_PARSEMONITORDESCRIPTION</a> value <b>MonitorModeBufferOutputCount</b> to indicate the size of buffer required to store the modes.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_out_parsemonitordescription">IDARG_OUT_PARSEMONITORDESCRIPTION</a>
- 
-
- 
 

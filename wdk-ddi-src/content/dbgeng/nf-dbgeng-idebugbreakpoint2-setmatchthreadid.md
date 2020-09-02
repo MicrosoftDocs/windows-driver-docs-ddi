@@ -8,8 +8,6 @@ ms.assetid: 66170e28-24db-4125-bd4e-ef07e8e82e79
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::SetMatchThreadId"]
 ms.keywords: ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, IDebugBreakpoint interface [Windows Debugging],SetMatchThreadId method, IDebugBreakpoint2 interface [Windows Debugging],SetMatchThreadId method, IDebugBreakpoint2.SetMatchThreadId, IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint::SetMatchThreadId, SetMatchThreadId, SetMatchThreadId method [Windows Debugging], SetMatchThreadId method [Windows Debugging],IDebugBreakpoint interface, SetMatchThreadId method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetMatchThreadId, dbgeng/IDebugBreakpoint::SetMatchThreadId, debugger.setmatchthreadid
-f1_keywords:
- - "dbgeng/IDebugBreakpoint.SetMatchThreadId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint.SetMatchThreadId
-- IDebugBreakpoint2.SetMatchThreadId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint2::SetMatchThreadId
+ - dbgeng/IDebugBreakpoint2::SetMatchThreadId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint.SetMatchThreadId
+ - IDebugBreakpoint2.SetMatchThreadId
 ---
 
 # IDebugBreakpoint2::SetMatchThreadId
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetMatchThreadId</b> method sets the engine thread ID of the thread that can trigger a breakpoint.
-
 
 ## -parameters
 
+### -param Thread 
 
-
-
-### -param Thread [in]
-
+[in]
 The engine thread ID of the thread that can trigger this breakpoint.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -109,18 +101,11 @@ The target is in a kernel and the breakpoint is a processor breakpoint.  Process
 
 This method can also return other error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 If you have set a thread for the breakpoint, the breakpoint can be triggered only if that thread hits the breakpoint.  If you have not set a thread, any thread can trigger the breakpoint.
 
 If you have set a thread, you can remove the setting by setting <i>Id</i> to DEBUG_ANY_ID.
 
 For more information about breakpoint properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
-
-
 

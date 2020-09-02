@@ -8,8 +8,6 @@ ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.date: 02/26/2018
 keywords: ["IWDFNamedPropertyStore2::DeleteNamedValue"]
 ms.keywords: DeleteNamedValue, DeleteNamedValue method, DeleteNamedValue method,IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,DeleteNamedValue method, IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
-f1_keywords:
- - "wudfddi/IWDFNamedPropertyStore2.DeleteNamedValue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFNamedPropertyStore2.DeleteNamedValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFNamedPropertyStore2::DeleteNamedValue
+ - wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFNamedPropertyStore2.DeleteNamedValue
 ---
 
 # IWDFNamedPropertyStore2::DeleteNamedValue
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>DeleteNamedValue</b> method deletes a value name from the registry.
 
-
 ## -parameters
 
+### -param pwszName 
 
-
-
-### -param pwszName [in]
-
+[in]
 A pointer to a <b>null</b>-terminated string that contains a registry value name.
 
-
 ## -returns
-
-
 
 <b>DeleteNamedValue</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
 
@@ -90,12 +82,7 @@ The caller provided an invalid input argument.
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
 ## -remarks
-
-
 
 Before a driver calls <b>DeleteNamedValue</b>, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> to obtain the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore2">IWDFNamedPropertyStore2</a> interface.
 
@@ -131,19 +118,11 @@ CMyDevice::OnCleanup(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore2">IWDFNamedPropertyStore2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfpropertystorefactory-retrievedevicepropertystore">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
- 
-
- 
 

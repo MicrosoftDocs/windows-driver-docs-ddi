@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::Set(ULONG64,ULONG)"]
 ms.keywords: ExtRemoteData interface [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData.Set(ULONG64,ULONG), ExtRemoteData::Set, ExtRemoteData::Set(ULONG64,ULONG), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData interface, debugger.extremotedata_set_offset_bytes
 f1_keywords:
  - "engextcpp/ExtRemoteData.Set"
+ - "ExtRemoteData.Set"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.Set
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
@@ -57,13 +56,13 @@ The <b>Set</b> method sets the region of the target's memory represented by the 
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Location of the beginning of the memory region in the target's virtual address space.
 
 
-### -param Bytes [in]
-
+### -param Bytes 
+[in]
 Number of bytes in the memory region.
 
 

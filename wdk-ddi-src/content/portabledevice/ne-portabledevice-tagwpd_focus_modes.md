@@ -8,8 +8,6 @@ ms.assetid: 141d6396-e715-4ee2-8898-bde517b18409
 ms.date: 02/15/2018
 keywords: ["tagWPD_FOCUS_MODES enumeration"]
 ms.keywords: WPD_FOCUS_AUTOMATIC, WPD_FOCUS_AUTOMATIC_MACRO, WPD_FOCUS_MANUAL, WPD_FOCUS_MODES, WPD_FOCUS_MODES enumeration, WPD_FOCUS_UNDEFINED, enumeration, portabledevice/WPD_FOCUS_AUTOMATIC, portabledevice/WPD_FOCUS_AUTOMATIC_MACRO, portabledevice/WPD_FOCUS_MANUAL, portabledevice/WPD_FOCUS_MODES, portabledevice/WPD_FOCUS_UNDEFINED, tagWPD_FOCUS_MODES, wpddk.wpd_focus_modes
-f1_keywords:
- - "portabledevice/WPD_FOCUS_MODES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PortableDevice.h
-api_name:
-- WPD_FOCUS_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_FOCUS_MODES
 ms.custom: RS5
+f1_keywords:
+ - tagWPD_FOCUS_MODES
+ - portabledevice/tagWPD_FOCUS_MODES
+ - WPD_FOCUS_MODES
+ - portabledevice/WPD_FOCUS_MODES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PortableDevice.h
+api_name:
+ - WPD_FOCUS_MODES
 ---
 
 # tagWPD_FOCUS_MODES enumeration
@@ -48,54 +49,31 @@ ms.custom: RS5
 
 ## -description
 
-
-
 The <b>WPD_FOCUS_MODES</b> enumeration type describes the focus mode used by a still image capture device.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field WPD_FOCUS_UNDEFINED
 
 The focus mode has not been specified.
 
-
 ### -field WPD_FOCUS_MANUAL
 
 Specifies manual focus.
-
 
 ### -field WPD_FOCUS_AUTOMATIC
 
 Specifies automatic focus, controlled by the device.
 
-
 ### -field WPD_FOCUS_AUTOMATIC_MACRO
 
 Specifies that the device should automatically switch between macro and normal focus, as required.
 
-
 ## -remarks
-
-
 
 This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_FOCUS_MODE</a> property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
- 
-
- 
 

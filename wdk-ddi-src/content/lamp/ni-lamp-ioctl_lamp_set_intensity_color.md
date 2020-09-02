@@ -8,8 +8,6 @@ ms.assetid: AD531C16-0E24-4CDE-B188-981260CF8F49
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_SET_INTENSITY_COLOR IOCTL"]
 ms.keywords: IOCTL_LAMP_SET_INTENSITY_COLOR, IOCTL_LAMP_SET_INTENSITY_COLOR control, IOCTL_LAMP_SET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_INTENSITY_COLOR, stream.ioctl_lamp_set_intensity_color
-f1_keywords:
- - "lamp/IOCTL_LAMP_SET_INTENSITY_COLOR"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_SET_INTENSITY_COLOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_SET_INTENSITY_COLOR
+ - lamp/IOCTL_LAMP_SET_INTENSITY_COLOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_SET_INTENSITY_COLOR
 ---
 
 # IOCTL_LAMP_SET_INTENSITY_COLOR IOCTL
+
 
 ## -description
 
@@ -80,3 +80,4 @@ None.
 The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status.
 
 If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
+

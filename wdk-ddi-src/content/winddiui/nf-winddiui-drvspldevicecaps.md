@@ -8,8 +8,6 @@ ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.date: 04/20/2018
 keywords: ["DrvSplDeviceCaps function"]
 ms.keywords: DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
-f1_keywords:
- - "winddiui/DrvSplDeviceCaps"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvSplDeviceCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvSplDeviceCaps
+ - winddiui/DrvSplDeviceCaps
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvSplDeviceCaps
 ---
 
 # DrvSplDeviceCaps function
@@ -47,46 +46,23 @@ req.typenames:
 
 ## -description
 
-
 A printer interface DLL's <b>DrvSplDeviceCaps</b> function queries a printer for its capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param hPrinter
 
 Caller-supplied handle to the printer.
 
-
 ### -param pszDeviceName
-
-
-
 
 ### -param Capability
 
-
-
-
 ### -param pOutput
-
-
-
 
 ### -param cchBufSize
 
-
-
-
 ### -param pDevmode
-
-
-
-
-
 
 #### - DeviceCap
 
@@ -148,19 +124,11 @@ Caller-supplied pointer to a buffer that receives function-supplied information.
 
 Caller-supplied pointer to a Unicode string that contains the printer name.
 
-
 ## -returns
-
-
 
 The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> indicates a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
 
@@ -168,16 +136,7 @@ For descriptions of the DC_<i>XXX</i> flags, see <a href="https://docs.microsoft
 
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
- 
-
- 
 

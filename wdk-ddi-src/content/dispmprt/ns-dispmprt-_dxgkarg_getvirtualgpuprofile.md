@@ -6,43 +6,49 @@ description: Arguments used to get virtual GPU profile.
 tech.root: display
 ms.assetid: 10392f1f-3112-4cbe-9e70-47ea6d37fbaf
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGKARG_GETVIRTUALGPUPROFILE structure"]
-f1_keywords:
- - "dispmprt/_DXGKARG_GETVIRTUALGPUPROFILE"
+ms.date: 04/04/2019
+keywords: ["DXGKARG_GETVIRTUALGPUPROFILE structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGKARG_GETVIRTUALGPUPROFILE, DXGKARG_GETVIRTUALGPUPROFILE, *PDXGKARG_GETVIRTUALGPUPROFILE, 
+ms.keywords: _DXGKARG_GETVIRTUALGPUPROFILE, DXGKARG_GETVIRTUALGPUPROFILE, *PDXGKARG_GETVIRTUALGPUPROFILE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_GETVIRTUALGPUPROFILE, *PDXGKARG_GETVIRTUALGPUPROFILE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGKARG_GETVIRTUALGPUPROFILE
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGKARG_GETVIRTUALGPUPROFILE
+ - dispmprt/_DXGKARG_GETVIRTUALGPUPROFILE
+ - PDXGKARG_GETVIRTUALGPUPROFILE
+ - dispmprt/PDXGKARG_GETVIRTUALGPUPROFILE
+ - DXGKARG_GETVIRTUALGPUPROFILE
+ - dispmprt/DXGKARG_GETVIRTUALGPUPROFILE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKARG_GETVIRTUALGPUPROFILE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGKARG_GETVIRTUALGPUPROFILE structure
+
 
 ## -description
 
@@ -69,6 +75,7 @@ To disable the security policy set the following registry keys:
 > DWORD HKLM\SOFTWARE\Policies\Microsoft\Windows\HyperV\RequireSupportedDeviceAssignment = 0
 
 ### -field ProfileCapability
+
  
 The profile capabilities for each partition, specified by the kernel mode driver. The capabilities are memory, encode, decode and compute. For each capability the following information is provided by the driver:
 
@@ -83,3 +90,4 @@ The meaning of the capability values depend on the capability type. For memory i
 ## -remarks
 
 ## -see-also
+

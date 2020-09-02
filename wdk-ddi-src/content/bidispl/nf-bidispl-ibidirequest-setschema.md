@@ -8,8 +8,6 @@ ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.date: 04/20/2018
 keywords: ["IBidiRequest::SetSchema"]
 ms.keywords: IBidiRequest interface [Print Devices],SetSchema method, IBidiRequest.SetSchema, IBidiRequest::SetSchema, SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema
-f1_keywords:
- - "bidispl/IBidiRequest.SetSchema"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiRequest.SetSchema
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiRequest::SetSchema
+ - bidispl/IBidiRequest::SetSchema
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiRequest.SetSchema
 ---
 
 # IBidiRequest::SetSchema
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetSchema</b> method sets the bidi schema string.
-
 
 ## -parameters
 
+### -param pszSchema 
 
-
-
-### -param pszSchema [in]
-
+[in]
 Pointer to a schema string.
 
-
 ## -returns
-
-
 
 The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
@@ -106,15 +98,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -125,7 +110,4 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
- 
-
- 
 

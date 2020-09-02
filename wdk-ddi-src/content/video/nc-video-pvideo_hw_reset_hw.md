@@ -8,8 +8,6 @@ ms.assetid: dae00663-17bd-461d-9b3f-febff2d9811b
 ms.date: 05/10/2018
 keywords: ["PVIDEO_HW_RESET_HW callback function"]
 ms.keywords: HwVidResetHw, HwVidResetHw callback function [Display Devices], PVIDEO_HW_RESET_HW, PVIDEO_HW_RESET_HW callback, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml, display.hwvidresethw, video/HwVidResetHw
-f1_keywords:
- - "video/HwVidResetHw"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- HwVidResetHw
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PVIDEO_HW_RESET_HW
+ - video/PVIDEO_HW_RESET_HW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - HwVidResetHw
 ---
 
 # PVIDEO_HW_RESET_HW callback function
@@ -47,42 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <i>HwVidResetHw</i> resets the adapter to character mode.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
-
 ### -param Columns
 
 Specifies the number of columns of the mode to be set up.
-
 
 ### -param Rows
 
 Specifies the number of rows of the mode to be set up.
 
-
 ## -returns
-
-
 
 <i>HwVidResetHw</i> should return <b>TRUE</b> if it completely resets the adapter to the given character mode. Otherwise, it should return <b>FALSE</b> to indicate that the HAL should perform the equivalent of an INT10, MODE3-type BIOS call after <i>HwVidResetHw</i> returns control.
 
-
-
-
 ## -remarks
-
-
 
 A video miniport driver must have a <i>HwVidResetHw</i> function if its adapter cannot be reset to a fully initialized state without a hard boot of the machine. For example, if the adapter's ROM initialization code cannot reset the adapter state to a boot-up mode, the miniport driver must have a <i>HwVidResetHw</i> function. Another reason the miniport driver must implement this function is to clean up the adapter's interrupt lines when the adapter is powered down, thereby avoiding a deluge of interrupts the next time the system boots.
 
@@ -98,13 +82,7 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 <i>HwVidResetHw</i> must not be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Functions Exported by the Video Port Driver</a>
 
@@ -123,7 +101,4 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportint10">VideoPortInt10</a>
- 
-
- 
 

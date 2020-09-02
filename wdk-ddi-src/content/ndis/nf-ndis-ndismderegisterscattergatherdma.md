@@ -8,8 +8,6 @@ ms.assetid: 44792a1f-c6d5-4491-a06d-e00e41e40059
 ms.date: 05/02/2018
 keywords: ["NdisMDeregisterScatterGatherDma function"]
 ms.keywords: NdisMDeregisterScatterGatherDma, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterScatterGatherDma, ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, netvista.ndismderegisterscattergatherdma
-f1_keywords:
- - "ndis/NdisMDeregisterScatterGatherDma"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMDeregisterScatterGatherDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMDeregisterScatterGatherDma
+ - ndis/NdisMDeregisterScatterGatherDma
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMDeregisterScatterGatherDma
 ---
 
 # NdisMDeregisterScatterGatherDma function
@@ -60,31 +59,22 @@ Bus-master miniport drivers call
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
   NdisMRegisterScatterGatherDma</a> function.
 
-
 ## -parameters
 
+### -param NdisMiniportDmaHandle 
 
-
-
-### -param NdisMiniportDmaHandle [in]
-
+[in]
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <b>NdisMRegisterScatterGatherDma</b> function.
 
-
 ## -remarks
-
-
 
 An NDIS miniport driver calls 
     <b>NdisMDeregisterScatterGatherDma</b> from its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function to release the
     DMA resources it allocated and initialized in a previous call to 
     <b>NdisMRegisterScatterGatherDma</b>.
-
-
-
 
 ## -see-also
 
@@ -98,3 +88,4 @@ An NDIS miniport driver calls
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>
+

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: ff693135-419c-4950-a780-f99313dd5ea5
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-keywords: ["_DXGK_FEATURE_ID enumeration"]
+keywords: ["DXGK_FEATURE_ID enumeration"]
 ms.keywords: _DXGK_FEATURE_ID, DXGK_FEATURE_ID,
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -24,7 +24,10 @@ req.typenames: DXGK_FEATURE_ID
 targetos: Windows
 ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
 f1_keywords:
- - "d3dkmddi/_DXGK_FEATURE_ID"
+ - _DXGK_FEATURE_ID
+ - d3dkmddi/_DXGK_FEATURE_ID
+ - DXGK_FEATURE_ID
+ - d3dkmddi/DXGK_FEATURE_ID
 topic_type:
  - apiref
 api_type:
@@ -40,6 +43,7 @@ dev_langs:
 ---
 
 # _DXGK_FEATURE_ID enumeration
+
 
 ## -description
 

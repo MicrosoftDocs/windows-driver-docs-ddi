@@ -5,44 +5,42 @@ description:
 ms.assetid: 634e196a-52a4-44ae-ba71-8f61369c459f
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_STREAM_OPEN IOCTL"]
-f1_keywords:
- - "sidebandaudio/IOCTL_SBAUD_STREAM_OPEN"
 req.header: sidebandaudio.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sidebandaudio.h
-api_name: 
-- IOCTL_SBAUD_STREAM_OPEN
-product:
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_SBAUD_STREAM_OPEN
+ - sidebandaudio/IOCTL_SBAUD_STREAM_OPEN
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sidebandaudio.h
+api_name:
+ - IOCTL_SBAUD_STREAM_OPEN
 ---
 
 # IOCTL_SBAUD_STREAM_OPEN IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
+
 This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
-
-
-
 
 ## -ioctlparameters
 
@@ -79,3 +77,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+

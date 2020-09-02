@@ -8,8 +8,6 @@ ms.assetid: 38d53977-ada2-41b9-8b6a-a3bd691f4525
 ms.date: 05/02/2018
 keywords: ["NdisMFreePort function"]
 ms.keywords: NdisMFreePort, NdisMFreePort function [Network Drivers Starting with Windows Vista], ndis/NdisMFreePort, ndis_ports_ref_b5b73dda-9bc0-4d7d-a265-d50d1436c8f4.xml, netvista.ndismfreeport
-f1_keywords:
- - "ndis/NdisMFreePort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMFreePort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMFreePort
+ - ndis/NdisMFreePort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMFreePort
 ---
 
 # NdisMFreePort function
@@ -48,16 +47,11 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMFreePort</b> function frees an NDIS port that was previously allocated with the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param NdisMiniportHandle
 
@@ -66,8 +60,9 @@ The miniport adapter handle that NDIS passed to the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param PortNumber [in]
+### -param PortNumber 
 
+[in]
 The number of the NDIS port that NDIS should free. The 
      <i>PortNumber</i> value is an NDIS_PORT_NUMBER value, which has a ULONG data type. NDIS provided the port
      number in the 
@@ -81,8 +76,6 @@ The port number can be a number from 1 through 0xffffff. You cannot set
      <i>PortNumber</i> to zero, which indicates the default port.
 
 ## -returns
-
-
 
 <b>NdisMFreePort</b> can return one of the following values:
 
@@ -138,14 +131,8 @@ The port number that was supplied at the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a miniport driver allocated a port by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function, the driver
@@ -159,13 +146,7 @@ When a miniport driver calls <b>NdisMFreePort</b> to free a port, NDIS also free
 
 The miniport driver must not attempt to free the default port.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/default-ndis-port">Default NDIS Port</a>
 
@@ -188,7 +169,4 @@ The miniport driver must not attempt to free the default port.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
- 
-
- 
 

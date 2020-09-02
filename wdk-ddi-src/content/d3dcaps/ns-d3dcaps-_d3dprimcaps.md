@@ -6,10 +6,8 @@ old-location: display\d3dprimcaps.htm
 tech.root: display
 ms.assetid: fa725534-ccc3-4e71-a83f-b25fd4c72c14
 ms.date: 05/10/2018
-keywords: ["_D3DPrimCaps structure"]
+keywords: ["D3DPrimCaps structure"]
 ms.keywords: "*LPD3DPRIMCAPS, D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], _D3DPrimCaps, d3dcaps/D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, display.d3dprimcaps"
-f1_keywords:
- - "d3dcaps/D3DPRIMCAPS"
 req.header: d3dcaps.h
 req.include-header: D3dcaps.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dcaps.h
-api_name:
-- D3DPRIMCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DPRIMCAPS, *LPD3DPRIMCAPS
+f1_keywords:
+ - _D3DPrimCaps
+ - d3dcaps/_D3DPrimCaps
+ - LPD3DPRIMCAPS
+ - d3dcaps/LPD3DPRIMCAPS
+ - D3DPRIMCAPS
+ - d3dcaps/D3DPRIMCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dcaps.h
+api_name:
+ - D3DPRIMCAPS
 ---
 
 # _D3DPrimCaps structure
@@ -47,23 +50,16 @@ req.typenames: D3DPRIMCAPS, *LPD3DPRIMCAPS
 
 ## -description
 
-
-
    Obsolete in DirectX 8.0 and later versions; see Remarks.
    
 
 The D3DPRIMCAPS structure defines the capabilities for each primitive type.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the D3DPRIMCAPS structure. 
-
+Specifies the size, in bytes, of the D3DPRIMCAPS structure.
 
 ### -field dwMiscCaps
 
@@ -78,7 +74,6 @@ Specifies the general capabilities for this primitive. This member can be one or
 | D3DPMISCCAPS_LINEPATTERNREP | The driver can handle values other than 1 in the wRepeatFactor member of the D3DLINEPATTERN structure. (This applies only to line-drawing primitives.)<br/>Applications can set the line-pattern-repetition number to a maximum value of 65535 (16-bit value). However, hardware only supports a maximum of 255 (8-bit value). Therefore, a display driver must fail a request that attempts to set this number to a value greater than 255 as an invalid request. For more information, see [Setting the Number of Line Pattern Repetitions](https://docs.microsoft.com/windows-hardware/drivers/display/setting-the-number-of-line-pattern-repetitions).<br/>D3DPMISCCAPS_LINEPATTERNREP and D3DPRASTERCAPS_PAT must be set consistently (both on or both off). | 
 | D3DPMISCCAPS_MASKPLANES | The device can perform a bitmask of color planes. | 
 | D3DPMISCCAPS_MASKZ | The device can enable and disable modification of the z-buffer on pixel operations. |
-
 
 ### -field dwRasterCaps
 
@@ -107,8 +102,6 @@ Contains information about raster-drawing capabilities. This member can be one o
 |D3DPRASTERCAPS_ZBUFFERLESSHSR|The device can perform hidden-surface removal (HSR) without requiring the application to sort polygons, and without requiring the allocation of a z-buffer. This leaves more video memory for textures. The method used to perform HSR is hardware-dependent and is transparent to the application. Z-buffer-less HSR is performed if no z-buffer surface is attached to the rendering target surface and the z-buffer comparison test is enabled (that is, when the state value associated with the D3DRENDERSTATE_ZENABLE render state value is set to TRUE).|
 |D3DPRASTERCAPS_ZFOG|The device supports z based fog.|
 |D3DPRASTERCAPS_ZTEST|The device can perform z-test operations. This effectively renders a primitive and indicates whether any z pixels would have been rendered.|
- 
-
 
 ### -field dwZCmpCaps
 
@@ -124,8 +117,6 @@ Specifies Z-buffer comparison functions that the driver can perform through the 
 |D3DPCMPCAPS_LESSEQUAL|Pass the z test if the new z is less than or equal to the current z.|
 |D3DPCMPCAPS_NEVER|Always fail the z test.|
 |D3DPCMPCAPS_NOTEQUAL|Pass the z test if the new z does not equal the current z.|
- 
-
 
 ### -field dwSrcBlendCaps
 
@@ -148,17 +139,13 @@ Specifies source blending capabilities supported by the driver through the D3DRE
 |D3DPBLENDCAPS_SRCCOLOR|Blend factor is (Rₛ, Gₛ, Bₛ, Aₛ).|
 |D3DPBLENDCAPS_ZERO|Blend factor is (0, 0, 0, 0).|
 
-
-
 ### -field dwDestBlendCaps
 
-Specifies destination blending capabilities supported by the driver through the D3DRENDERSTATE_DESTBLEND render state. This member can be the same capabilities that are defined for the <b>dwSrcBlendCaps</b> member. 
-
+Specifies destination blending capabilities supported by the driver through the D3DRENDERSTATE_DESTBLEND render state. This member can be the same capabilities that are defined for the <b>dwSrcBlendCaps</b> member.
 
 ### -field dwAlphaCmpCaps
 
-Specifies alpha-test comparison functions that the driver can perform. This member uses the same comparison functions as are defined for the <b>dwZCmpCaps</b> member. If the <b>dwAlphaCmpCaps</b> member of the D3DPRIMCAPS structure is 0, the driver does not support alpha test render states D3DRENDERSTATE_ALPHAFUNC, D3DRENDERSTATE_ALPHAREF, and D3DRENDERSTATE_ALPHATESTENABLE. 
-
+Specifies alpha-test comparison functions that the driver can perform. This member uses the same comparison functions as are defined for the <b>dwZCmpCaps</b> member. If the <b>dwAlphaCmpCaps</b> member of the D3DPRIMCAPS structure is 0, the driver does not support alpha test render states D3DRENDERSTATE_ALPHAFUNC, D3DRENDERSTATE_ALPHAREF, and D3DRENDERSTATE_ALPHATESTENABLE.
 
 ### -field dwShadeCaps
 
@@ -185,7 +172,6 @@ This member can be one or more of values listed in the following table. Related 
 
 Most hardware drivers should expose the D3DPSHADECAPS_COLORFLATRGB and D3DPSHADECAPS_COLORGOURAUDRGB capabilities. Hardware that supports intensity (grayscale) lighting (see D3DRENDERSTATE_MONOENABLE for more details) should also expose the D3DPSHADECAPS_COLORFLATMONO and D3DSHADECAPS_COLORGOURAUDMONO capabilities.
 
-
 ### -field dwTextureCaps
 
 Specifies miscellaneous texture-mapping capabilities. This member can be one or more of the following: 
@@ -204,8 +190,7 @@ Specifies miscellaneous texture-mapping capabilities. This member can be one or 
 | D3DPTEXTURECAPS_SQUAREONLY | All textures must be square. | 
 | D3DPTEXTURECAPS_TEXREPEATNOTSCALESBYSIZE | Texture indexes are not scaled by the texture size before interpolation. | 
 | D3DPTEXTURECAPS_TEXTURETRANSFORM | The device is capable of doing texture transforms. | 
-| D3DPTEXTURECAPS_TRANSPARENCY | Texture transparency is supported. (Only those texels that are not the current transparent color are drawn.) | 
-
+| D3DPTEXTURECAPS_TRANSPARENCY | Texture transparency is supported. (Only those texels that are not the current transparent color are drawn.) |
 
 ### -field dwTextureFilterCaps
 
@@ -229,8 +214,6 @@ Specifies texture-mapping capabilities. This member can be one or more of the fo
 |D3DPTFILTERCAPS_MIPLINEAR|Nearest MIP mapping, with bilinear filtering applied to the result is supported. Chooses the texel from the appropriate MIP map that has the nearest coordinates, then performs a weighted average with the four surrounding texels to determine the final color.|
 |D3DPTFILTERCAPS_MIPNEAREST|Nearest MIP mapping is supported. Chooses the texel from the appropriate MIP map with coordinates nearest to the desired pixel value.|
 |D3DPTFILTERCAPS_NEAREST|Point sampling is supported. The texel with coordinates nearest to the desired pixel value is used. This applies to both zooming in and zooming out. If either zooming in or zooming out is supported, then both must be supported.|
- 
-
 
 ### -field dwTextureBlendCaps
 
@@ -247,8 +230,6 @@ Specifies texture-blending capabilities. See the D3DRENDERSTATE_TEXTUREMAPBLEND 
 |D3DPTBLENDCAPS_MODULATE|Modulate-texture-blending mode is supported (D3DTBLEND_MODULATE from the D3DTEXTUREBLEND enumerated type).|
 |D3DPTBLENDCAPS_MODULATEALPHA|Modulate-alpha texture-blending mode is supported (D3DTBLEND_MODULATEALPHA from the D3DTEXTUREBLEND enumerated type).|
 |D3DPTBLENDCAPS_MODULATEMASK|Modulate-mask texture-blending mode is supported (D3DTBLEND_MODULATEMASK from the D3DTEXTUREBLEND enumerated type).|
- 
-
 
 ### -field dwTextureAddressCaps
 
@@ -262,35 +243,19 @@ Specifies the texture-addressing capabilities. This member can be one or more of
 |D3DPTADDRESSCAPS_MIRROR|The device can mirror textures to addresses. This ability corresponds to the D3DTADDRESS_MIRROR texture-addressing mode.|
 |D3DPTADDRESSCAPS_WRAP|The device can wrap textures to addresses. This ability corresponds to the D3DTADDRESS_WRAP texture-addressing mode.|
 
- 
-
-
 ### -field dwStippleWidth
-
 
 ### -field dwStippleHeight
 
-Specify the maximum width and height of the supported stipple (up to 32-by-32). 
-
+Specify the maximum width and height of the supported stipple (up to 32-by-32).
 
 ## -remarks
-
-
 
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for DirectX 7.0 and earlier runtime compatibility. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/reporting-directx-8-0-style-direct3d-capabilities">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
 This structure is used when a device is created and when the capabilities of a device are queried. It defines several members in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
- 
-
- 
 

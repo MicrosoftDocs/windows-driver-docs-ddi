@@ -8,39 +8,38 @@ ms.assetid: 37c01180-0742-4764-88c3-9ceb807a0086
 ms.date: 02/16/2018
 keywords: ["DOT11EXTIHV_QUERY_UI_REQUEST callback"]
 ms.keywords: DOT11EXTIHV_QUERY_UI_REQUEST, Dot11ExtIhvQueryUIRequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml, netvista.dot11extihvqueryuirequest, wlanihv/Dot11ExtIhvQueryUIRequest
-f1_keywords:
- - "wlanihv/Dot11ExtIhvQueryUIRequest"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wlanihv.h
-api_name:
-- Dot11ExtIhvQueryUIRequest
-product:
-- Windows
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
+f1_keywords:
+ - DOT11EXTIHV_QUERY_UI_REQUEST
+ - wlanihv/DOT11EXTIHV_QUERY_UI_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wlanihv.h
+api_name:
+ - Dot11ExtIhvQueryUIRequest
 ---
 
 # DOT11EXTIHV_QUERY_UI_REQUEST callback
@@ -48,44 +47,25 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvQueryUIRequest</i> function whenever the connection status changes. When this function is
   called, the IHV Extensions DLL returns a
   <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure that
   the operating system can use for a UI request.
 
-
-## -prototype
-
-
-```cpp
-DOT11EXTIHV_QUERY_UI_REQUEST Dot11ExtIhvQueryUIRequest;
-
-DWORD APIENTRY Dot11ExtIhvQueryUIRequest(
-  _In_opt_ HANDLE                        hIhvExtAdapter,
-  _In_     DOT11EXT_IHV_CONNECTION_PHASE connectionPhase,
-  _Out_    PDOT11EXT_IHV_UI_REQUEST      *ppIhvUIRequest
-)
-{ ... }
-```
-
-
 ## -parameters
 
+### -param hIhvExtAdapter 
 
-
-
-### -param hIhvExtAdapter [in, optional]
-
+[in, optional]
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
+### -param connectionPhase 
 
-### -param connectionPhase [in]
-
+[in]
 The current connection phase. The data type for this member is the
      <b>DOT11EXT_IHV_CONNECTION_PHASE</b> enumeration:
 
@@ -116,29 +96,34 @@ Specifies the connection phase after the IHV Extensions DLL completes a post-ass
        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association
        Operations</a>.
 
+### -param ppIhvUIRequest 
 
-### -param ppIhvUIRequest [out]
-
+[out]
 The address of a pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.
      The IHV Extensions DLL must allocate a buffer for the DOT11EXT_IHV_UI_REQUEST structure by calling
      <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>.
 
-
 ## -returns
-
-
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in
      Winerror.h.
 
+## -prototype
 
+```cpp
+DOT11EXTIHV_QUERY_UI_REQUEST Dot11ExtIhvQueryUIRequest;
 
+DWORD APIENTRY Dot11ExtIhvQueryUIRequest(
+  _In_opt_ HANDLE                        hIhvExtAdapter,
+  _In_     DOT11EXT_IHV_CONNECTION_PHASE connectionPhase,
+  _Out_    PDOT11EXT_IHV_UI_REQUEST      *ppIhvUIRequest
+)
+{ ... }
+```
 
 ## -remarks
-
-
 
 When
     <i>Dot11ExtIhvQueryUIRequest</i> is called, the IHV Extensions DLL must allocate and return a buffer
@@ -170,8 +155,6 @@ For example, if
 </li>
 </ul>
 
-
-
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
@@ -187,11 +170,4 @@ For example, if
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-
-
- 
-
- 
-
 

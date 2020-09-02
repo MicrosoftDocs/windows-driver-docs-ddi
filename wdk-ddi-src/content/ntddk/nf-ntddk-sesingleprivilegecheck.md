@@ -8,8 +8,6 @@ ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
 ms.date: 04/30/2018
 keywords: ["SeSinglePrivilegeCheck function"]
 ms.keywords: SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture], k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, kernel.sesingleprivilegecheck, ntddk/SeSinglePrivilegeCheck
-f1_keywords:
- - "ntddk/SeSinglePrivilegeCheck"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeSinglePrivilegeCheck
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeSinglePrivilegeCheck
+ - ntddk/SeSinglePrivilegeCheck
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeSinglePrivilegeCheck
 ---
 
 # SeSinglePrivilegeCheck function
@@ -47,48 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The 
    <b>SeSinglePrivilegeCheck</b> routine checks for the passed privilege value in the context of the current thread.
 
-
 ## -parameters
 
+### -param PrivilegeValue 
 
-
-
-### -param PrivilegeValue [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a> value of the privilege being checked.
 
+### -param PreviousMode 
 
-### -param PreviousMode [in]
-
+[in]
 Specifies the previous execution mode, one of <b>UserMode</b> or <b>KernelMode</b>.
-
 
 ## -returns
 
-
-
 <b>SeSinglePrivilegeCheck</b> returns <b>TRUE</b> if the current subject has the required privilege.
-
-
-
 
 ## -remarks
 
-
-
-If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds. Otherwise, this routine uses the token of the user-mode thread to determine whether the current (user-mode) thread has been granted the given privilege. 
-
-
-
+If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds. Otherwise, this routine uses the token of the user-mode thread to determine whether the current (user-mode) thread has been granted the given privilege.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
@@ -107,7 +88,4 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-sevalidsecuritydescriptor">SeValidSecurityDescriptor</a>
- 
-
- 
 

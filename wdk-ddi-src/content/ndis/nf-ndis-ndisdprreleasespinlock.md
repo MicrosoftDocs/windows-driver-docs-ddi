@@ -8,8 +8,6 @@ ms.assetid: d6a7af70-6a1e-471b-919f-80a704d25446
 ms.date: 05/02/2018
 keywords: ["NdisDprReleaseSpinLock macro"]
 ms.keywords: NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseSpinLock, ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, netvista.ndisdprreleasespinlock
-f1_keywords:
- - "ndis/NdisDprReleaseSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisDprReleaseSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisDprReleaseSpinLock
+ - ndis/NdisDprReleaseSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisDprReleaseSpinLock
 ---
 
 # NdisDprReleaseSpinLock macro
@@ -48,27 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisDprReleaseSpinLock</b> function releases a spin lock acquired in the immediately preceding call to
   the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdpracquirespinlock">
   NdisDprAcquireSpinLock</a> function.
 
-
 ## -parameters
 
+### -param _SpinLock 
 
-
-
-### -param _SpinLock [in]
-
+[in]
 Pointer to the acquired spin lock to be released.
 
-
 ## -remarks
-
-
 
 Release of the spin lock allows another driver function to use the resources the lock protects after
     that function acquires the spin lock.
@@ -84,16 +76,7 @@ For more information about acquiring and releasing NDIS spin locks, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdpracquirespinlock">NdisDprAcquireSpinLock</a>
- 
-
- 
 

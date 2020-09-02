@@ -6,10 +6,8 @@ old-location: ieee\bus_reset_data.htm
 tech.root: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.date: 02/15/2018
-keywords: ["_BUS_RESET_DATA structure"]
+keywords: ["BUS_RESET_DATA structure"]
 ms.keywords: "*PBUS_RESET_DATA, 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], IEEE.bus_reset_data, PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], _BUS_RESET_DATA"
-f1_keywords:
- - "1394/BUS_RESET_DATA"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- BUS_RESET_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_RESET_DATA, *PBUS_RESET_DATA
+f1_keywords:
+ - _BUS_RESET_DATA
+ - 1394/_BUS_RESET_DATA
+ - PBUS_RESET_DATA
+ - 1394/PBUS_RESET_DATA
+ - BUS_RESET_DATA
+ - 1394/BUS_RESET_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - BUS_RESET_DATA
 ---
 
 # _BUS_RESET_DATA structure
@@ -47,34 +50,25 @@ req.typenames: BUS_RESET_DATA, *PBUS_RESET_DATA
 
 ## -description
 
-
-The <b>BUS_RESET_DATA</b> structure specifies the context for the extended bus reset notification routine. 
-
+The <b>BUS_RESET_DATA</b> structure specifies the context for the extended bus reset notification routine.
 
 ## -struct-fields
-
-
-
 
 ### -field ResetContext
 
 Pointer to a client driver-defined context when a bus reset occurs. The argument that is specified in the <b>u.BusResetNotification.ResetContext</b> parameter when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537638">REQUEST_BUS_RESET_NOTIFICATION</a> request is sent.
 
-
 ### -field GenerationCount
 
 The current generation of the 1394 bus.
-
 
 ### -field DeviceNodeId
 
 The 1394 address for the device.
 
-
 ### -field LocalNodeId
 
 The 1394 address for the local host.
-
 
 ### -field SpeedToNode
 
@@ -102,16 +96,8 @@ The negotiated speed to the device. The possible values are as follows:
 <td>3200 Mb/s</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">Device Driver Interface (DDI) Changes in Windows 7</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
 ms.date: 04/23/2018
 keywords: ["KSTOPOLOGY_CONNECTION structure"]
 ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], PCCONNECTION_DESCRIPTOR, PCCONNECTION_DESCRIPTOR structure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, ks/KSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION, stream.kstopology_connection"
-f1_keywords:
- - "ks/KSTOPOLOGY_CONNECTION"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,22 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSTOPOLOGY_CONNECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
+f1_keywords:
+ - PKSTOPOLOGY_CONNECTION
+ - ks/PKSTOPOLOGY_CONNECTION
+ - KSTOPOLOGY_CONNECTION
+ - ks/KSTOPOLOGY_CONNECTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSTOPOLOGY_CONNECTION
 ---
 
 # KSTOPOLOGY_CONNECTION structure
+
 
 ## -description
 
@@ -125,3 +127,4 @@ For a simple code example that shows how the **PCCONNECTION_DESCRIPTOR** structu
 [KSPROPSETID_Pin](https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-pin)
 
 [KSPROPSETID_Topology](https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-topology)
+

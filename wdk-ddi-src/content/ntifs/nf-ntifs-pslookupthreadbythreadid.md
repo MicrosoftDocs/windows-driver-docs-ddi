@@ -8,8 +8,6 @@ ms.assetid: 4b61f480-6432-48db-9211-68a7d823d698
 ms.date: 04/16/2018
 keywords: ["PsLookupThreadByThreadId function"]
 ms.keywords: PsLookupThreadByThreadId, PsLookupThreadByThreadId routine [Installable File System Drivers], ifsk.pslookupthreadbythreadid, ntifs/PsLookupThreadByThreadId, psref_36f0c499-8370-4257-849c-dc8bad2720cc.xml
-f1_keywords:
- - "ntifs/PsLookupThreadByThreadId"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsLookupThreadByThreadId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsLookupThreadByThreadId
+ - ntifs/PsLookupThreadByThreadId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsLookupThreadByThreadId
 ---
 
 # PsLookupThreadByThreadId function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>PsLookupThreadByThreadId</b> routine accepts the thread ID of a thread and returns a referenced pointer to the ETHREAD structure of the thread.
-
 
 ## -parameters
 
+### -param ThreadId 
 
-
-
-### -param ThreadId [in]
-
+[in]
 Specifies the thread ID of the thread.
 
+### -param Thread 
 
-### -param Thread [out]
-
+[out]
 Returns a referenced pointer to the ETHREAD structure of thread specified by the <i>ThreadId</i>.
 
-
 ## -returns
-
-
 
 <b>PsLookupThreadByThreadId </b>returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as: 
 
@@ -89,14 +81,8 @@ The thread ID was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine is available on Windows 2000 and later versions. 
 
@@ -106,15 +92,9 @@ The ETHREAD structure is an opaque data structure used internally by the operati
 
 A file system filter driver can enumerate active threads by calling <b>PsLookupThreadByThreadId</b> to convert a thread ID to an ETHREAD structure. The thread ID is available in the thread create routine. A file system filter driver can set a thread notification callback routine using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreatethreadnotifyroutine">PsSetCreateThreadNotifyRoutine</a>. In the notification callback routine, the file system filter driver can use the passed in <i>ThreadId</i> parameter and call <b>PsLookupThreadByThreadId </b>to locate the ETHREAD structure.
 
-The <b>PsLookupThreadByThreadId</b> routine contains pageable code. 
-
-
-
+The <b>PsLookupThreadByThreadId</b> routine contains pageable code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
@@ -153,7 +133,4 @@ The <b>PsLookupThreadByThreadId</b> routine contains pageable code.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
- 
-
- 
 

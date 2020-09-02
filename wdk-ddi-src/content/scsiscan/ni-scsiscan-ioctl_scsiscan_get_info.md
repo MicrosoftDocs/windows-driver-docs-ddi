@@ -8,8 +8,6 @@ ms.assetid: 48045e29-5982-44e6-b9a7-3b000e5cf338
 ms.date: 05/03/2018
 keywords: ["IOCTL_SCSISCAN_GET_INFO IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_GET_INFO, IOCTL_SCSISCAN_GET_INFO control, IOCTL_SCSISCAN_GET_INFO control code [Imaging Devices], image.ioctl_scsiscan_get_info, scsiscan/IOCTL_SCSISCAN_GET_INFO, stifnc_5897897c-6c10-42cd-9301-d5b5f54675fd.xml
-f1_keywords:
- - "scsiscan/IOCTL_SCSISCAN_GET_INFO"
 req.header: scsiscan.h
 req.include-header: Scsiscan.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsiscan.h
-api_name:
-- IOCTL_SCSISCAN_GET_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SCSISCAN_GET_INFO
+ - scsiscan/IOCTL_SCSISCAN_GET_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsiscan.h
+api_name:
+ - IOCTL_SCSISCAN_GET_INFO
 ---
 
 # IOCTL_SCSISCAN_GET_INFO IOCTL
+
 
 ## -description
 
@@ -72,7 +72,7 @@ Size of output buffer.
 
 ### -status-block
 
-**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values) code.
 
 ## -remarks
 
@@ -87,3 +87,4 @@ When the DeviceloControl function is called with the **IOCTL_SCSISCAN_GET_INFO**
 [WdfIoTargetSendInternalIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
 
 [WdfIoTargetSendIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)
+

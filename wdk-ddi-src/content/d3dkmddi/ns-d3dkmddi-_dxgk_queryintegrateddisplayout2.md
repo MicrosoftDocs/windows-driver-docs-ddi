@@ -4,41 +4,47 @@ title: _DXGK_QUERYINTEGRATEDDISPLAYOUT2 (d3dkmddi.h)
 description: Used during a query for the integrated display output.
 ms.assetid: f40c9cdf-92f4-40c4-b7c4-52109b8494ef
 ms.date: 10/19/2018
-keywords: ["_DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure"]
-f1_keywords:
- - "d3dkmddi/_DXGK_QUERYINTEGRATEDDISPLAYOUT2"
+keywords: ["DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure"]
 ms.keywords: _DXGK_QUERYINTEGRATEDDISPLAYOUT2, DXGK_QUERYINTEGRATEDDISPLAYOUT2, *PDXGK_QUERYINTEGRATEDDISPLAYOUT2,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_QUERYINTEGRATEDDISPLAYOUT2, *PDXGK_QUERYINTEGRATEDDISPLAYOUT2
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGK_QUERYINTEGRATEDDISPLAYOUT2
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_QUERYINTEGRATEDDISPLAYOUT2
+ - d3dkmddi/_DXGK_QUERYINTEGRATEDDISPLAYOUT2
+ - PDXGK_QUERYINTEGRATEDDISPLAYOUT2
+ - d3dkmddi/PDXGK_QUERYINTEGRATEDDISPLAYOUT2
+ - DXGK_QUERYINTEGRATEDDISPLAYOUT2
+ - d3dkmddi/DXGK_QUERYINTEGRATEDDISPLAYOUT2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_QUERYINTEGRATEDDISPLAYOUT2
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure
+
 
 ## -description
 
@@ -92,3 +98,4 @@ The fields provide overrides attributes of the display which could be provided b
 The OS will sanity check the fields and will fail driver start if any fields are found to be inconsistent or invalid. For most fields, sanity checking simply means verifying that reported values are in range but the Colorimetry, Instance and Descriptor fields have further validation applied. For Colorimetry, see the description of DXGK_COLORIMETRY for validation. Instance values are verified to be consistent across all integrated displays as noted above. The Descriptor must be a valid EDID.
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 97140cf6-9c5a-4fdc-b7c7-10e6d28b9b1b
 ms.date: 04/30/2018
 keywords: ["KeInitializeTimer function"]
 ms.keywords: KeInitializeTimer, KeInitializeTimer routine [Kernel-Mode Driver Architecture], k105_ce90de5c-7259-4863-adf1-fe90f288e791.xml, kernel.keinitializetimer, wdm/KeInitializeTimer
-f1_keywords:
- - "wdm/KeInitializeTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeInitializeTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeInitializeTimer
+ - wdm/KeInitializeTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeInitializeTimer
 ---
 
 # KeInitializeTimer function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeInitializeTimer</b> routine initializes a timer object.
-
 
 ## -parameters
 
+### -param Timer 
 
-
-
-### -param Timer [out]
-
+[out]
 Pointer to a timer object, for which the caller provides the storage.
 
-
 ## -remarks
-
-
 
 The timer object is initialized to a not-signaled state.
 
@@ -77,13 +69,7 @@ For more information about timer objects, see <a href="https://docs.microsoft.co
 
 Callers of <b>KeInitializeTimer</b> should be running at IRQL = DISPATCH_LEVEL or lower. It is best to initialize timers at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a>
 
@@ -110,7 +96,4 @@ Callers of <b>KeInitializeTimer</b> should be running at IRQL = DISPATCH_LEVEL o
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

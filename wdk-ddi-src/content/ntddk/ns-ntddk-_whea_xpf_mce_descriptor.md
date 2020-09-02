@@ -6,10 +6,8 @@ old-location: whea\whea_xpf_mce_descriptor.htm
 tech.root: whea
 ms.assetid: cdf52fe7-40ac-4baf-aaa0-c23b40574376
 ms.date: 02/20/2018
-keywords: ["_WHEA_XPF_MCE_DESCRIPTOR structure"]
+keywords: ["WHEA_XPF_MCE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_MCE_DESCRIPTOR, ntddk/PWHEA_XPF_MCE_DESCRIPTOR, ntddk/WHEA_XPF_MCE_DESCRIPTOR, whea.whea_xpf_mce_descriptor, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml"
-f1_keywords:
- - "ntddk/WHEA_XPF_MCE_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- WHEA_XPF_MCE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR
+f1_keywords:
+ - _WHEA_XPF_MCE_DESCRIPTOR
+ - ntddk/_WHEA_XPF_MCE_DESCRIPTOR
+ - PWHEA_XPF_MCE_DESCRIPTOR
+ - ntddk/PWHEA_XPF_MCE_DESCRIPTOR
+ - WHEA_XPF_MCE_DESCRIPTOR
+ - ntddk/WHEA_XPF_MCE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_XPF_MCE_DESCRIPTOR
 ---
 
 # _WHEA_XPF_MCE_DESCRIPTOR structure
@@ -47,29 +50,21 @@ req.typenames: WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR
 
 ## -description
 
-
 The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of error source descriptor. This member is always set to WHEA_ERROR_SOURCE_DESCRIPTOR_TYPE_XPFMCE.
 
-
 ### -field Enabled
 
 A Boolean value that indicates if the error source is enabled.
 
-
 ### -field NumberOfBanks
 
 The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
-
 
 ### -field Flags
 
@@ -118,42 +113,27 @@ Reserved for system use.
 
 A ULONG representation of the contents of the XPF_MCE_FLAGS union.
 
-
 ### -field MCG_Capability
 
 The contents of the processor's IA32_MCG_CAP model-specific register. This register contains capability information about the machine check architecture of the processor. For more information about the IA32_MCG_CAP register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
-
 
 ### -field MCG_GlobalControl
 
 The contents of the processor's IA32_MCG_CTL model-specific register. This register controls the reporting of machine check exceptions. For more information about the IA32_MCG_CTL register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
-
 ### -field Banks
 
 An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
 
-
 ## -remarks
-
-
 
 A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
- 
-
- 
 

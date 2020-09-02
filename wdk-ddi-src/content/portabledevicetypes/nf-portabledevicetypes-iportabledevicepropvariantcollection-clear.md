@@ -8,8 +8,6 @@ ms.assetid: 5d663753-963a-474e-ab35-25a2cefd8b5e
 ms.date: 02/15/2018
 keywords: ["IPortableDevicePropVariantCollection::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Clear method, IPortableDevicePropVariantCollection.Clear, IPortableDevicePropVariantCollection::Clear, IPortableDevicePropVariantCollectionClear, portabledevicetypes/IPortableDevicePropVariantCollection::Clear, wpddk.iportabledevicepropvariantcollection_clear
-f1_keywords:
- - "portabledevicetypes/IPortableDevicePropVariantCollection.Clear"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDevicePropVariantCollection.Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDevicePropVariantCollection::Clear
+ - portabledevicetypes/IPortableDevicePropVariantCollection::Clear
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDevicePropVariantCollection.Clear
 ---
 
 # IPortableDevicePropVariantCollection::Clear
@@ -48,16 +47,9 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Removes or frees all items in the collection. The collection is considered empty after calling this method.
 
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -78,27 +70,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After calling <b>Clear</b> the collection is considered type-less, meaning that the <b>VARTYPE</b> it was previously set to is no longer restricting <b>Add</b> operations. A call to <b>Add</b> after calling <b>Clear</b> is considered the "first" <b>Add</b> for this collection.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
- 
-
- 
 

@@ -6,40 +6,43 @@ old-location: pci\pci_capabilities_header.htm
 tech.root: PCI
 ms.assetid: 6a2ee9be-03bc-436d-91c7-f00222911b19
 ms.date: 02/24/2018
-keywords: ["_PCI_CAPABILITIES_HEADER structure"]
+keywords: ["PCI_CAPABILITIES_HEADER structure"]
 ms.keywords: "*PPCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header, PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], _PCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, wdm/PCI_CAPABILITIES_HEADER, wdm/PPCI_CAPABILITIES_HEADER"
-f1_keywords:
- - "miniport/PCI_CAPABILITIES_HEADER"
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PCI_CAPABILITIES_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER
+f1_keywords:
+ - _PCI_CAPABILITIES_HEADER
+ - miniport/_PCI_CAPABILITIES_HEADER
+ - PPCI_CAPABILITIES_HEADER
+ - miniport/PPCI_CAPABILITIES_HEADER
+ - PCI_CAPABILITIES_HEADER
+ - miniport/PCI_CAPABILITIES_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PCI_CAPABILITIES_HEADER
 ---
 
 # _PCI_CAPABILITIES_HEADER structure
@@ -47,25 +50,9 @@ req.typenames: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER
 
 ## -description
 
-
 The PCI_CAPABILITIES_HEADER structure defines a header that is present in every PCI capability structure.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _PCI_CAPABILITIES_HEADER {
-  UCHAR CapabilityID;
-  UCHAR Next;
-} PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field CapabilityID
 
@@ -247,22 +234,23 @@ Indicates that the capability structure that follows the header defines an optio
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Next
 
 Contains an offset into the PCI configuration space that indicates the location of the next item in the capability list. If there are no additional items in the list, this member will contain zero.
 
+## -syntax
+
+```cpp
+typedef struct _PCI_CAPABILITIES_HEADER {
+  UCHAR CapabilityID;
+  UCHAR Next;
+} PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER;
+```
 
 ## -remarks
 
-
-
 All PCI Capability structures have the header described by PCI_CAPABILITIES_HEADER.
-
-
-
 
 ## -see-also
 
@@ -275,11 +263,4 @@ All PCI Capability structures have the header described by PCI_CAPABILITIES_HEAD
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr_bse">PCI_PMCSR_BSE</a>
-
-
-
- 
-
- 
-
 

@@ -27,13 +27,16 @@ api_name:
  - _DXGK_DIAG_MONITOR_STATE
  - DXGK_DIAG_MONITOR_STATE
 f1_keywords:
+ - _DXGK_DIAG_MONITOR_STATE
  - dispmprt/_DXGK_DIAG_MONITOR_STATE
+ - DXGK_DIAG_MONITOR_STATE
  - dispmprt/DXGK_DIAG_MONITOR_STATE
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_MONITOR_STATE enumeration
+
 
 ## -description
 
@@ -75,3 +78,4 @@ In many situations, the driver needs to initialize the monitor and set it up (ty
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.date: 03/29/2018
 keywords: ["AtaPortStallExecution function"]
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution
-f1_keywords:
- - "irb/AtaPortStallExecution"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ataport.lib
-- ataport.dll
-- pciidex.lib
-- pciidex.dll
-api_name:
-- AtaPortStallExecution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortStallExecution
+ - irb/AtaPortStallExecution
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ataport.lib
+ - ataport.dll
+ - pciidex.lib
+ - pciidex.dll
+api_name:
+ - AtaPortStallExecution
 ---
 
 # AtaPortStallExecution function
@@ -50,23 +49,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortStallExecution</b> stalls in the miniport driver.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param Delay 
 
-
-
-### -param Delay [in]
-
+[in]
 Specifies the delay interval, in microseconds.
 
-
 ## -remarks
-
-
 
 Miniport drivers should rarely call the <b>AtaPortStallExecution</b> routine. The total stall time in any miniport driver routine must always be less than one millisecond. Because this call ties up a processor, the processor does no useful work while it stalls in the driver.
 
@@ -74,16 +67,7 @@ Typically, a miniport driver should call <b>AtaPortStallExecution</b> only if th
 
 Miniport drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequesttimer">AtaPortRequestTimer</a> routine for delays longer than 1 millisecond.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequesttimer">AtaPortRequestTimer</a>
- 
-
- 
 

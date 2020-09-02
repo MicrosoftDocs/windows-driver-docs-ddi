@@ -10,6 +10,7 @@ keywords: ["ExtExtension class"]
 ms.keywords: EngExtCpp_Ref_3a533353-f008-4887-b937-2098acf1c68e.xml, ExtExtension, ExtExtension class [Windows Debugging], ExtExtension class [Windows Debugging], described, debugger.extextension, engextcpp/ExtExtension
 f1_keywords:
  - "engextcpp/ExtExtension"
+ - "ExtExtension"
 req.header: engextcpp.hpp
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

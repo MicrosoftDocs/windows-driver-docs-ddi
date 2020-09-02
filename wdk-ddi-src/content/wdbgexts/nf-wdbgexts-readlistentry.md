@@ -8,8 +8,6 @@ ms.assetid: b5bfbb6d-4797-4e5f-bc66-398527b13d85
 ms.date: 05/03/2018
 keywords: ["ReadListEntry function"]
 ms.keywords: ReadListEntry, ReadListEntry function [Windows Debugging], WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, debugger.readlistentry, wdbgexts/ReadListEntry
-f1_keywords:
- - "wdbgexts/ReadListEntry"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h, Winnt.h, Ntdef.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- ReadListEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ReadListEntry
+ - wdbgexts/ReadListEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - ReadListEntry
 ---
 
 # ReadListEntry function
@@ -47,37 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReadListEntry</b> function reads a doubly-linked list entry from the target's memory.
 
-
 ## -parameters
-
-
-
 
 ### -param Address
 
 Specifies the address of the list entry in the target.  If the target uses 32-bit pointers, this should be the address of a LIST_ENTRY32 structure.  If the target uses 64-bit pointers, this should be the address of a LIST_ENTRY64 structure.
 
-
 ### -param List
 
 Receives a LIST_ENTRY64 structure that contains pointers to the previous and next entries in the list.  If the target uses 32-bit pointers, they are sign-extended to 64 bits.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 For more information about the LIST_ENTRY structures, see the Windows Driver Kit (WDK) documentation.
 
@@ -85,6 +70,4 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 
 LIST_ENTRY64 and LIST_ENTRY32 are defined in <b>winnt.h</b>.
-
-
 

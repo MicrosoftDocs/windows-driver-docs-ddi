@@ -8,8 +8,6 @@ ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
 ms.date: 02/26/2018
 keywords: ["WdfCollectionAdd function"]
 ms.keywords: DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, WdfCollectionAdd, WdfCollectionAdd method, kmdf.wdfcollectionadd, wdf.wdfcollectionadd, wdfcollection/WdfCollectionAdd
-f1_keywords:
- - "wdfcollection/WdfCollectionAdd"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfCollectionAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCollectionAdd
+ - wdfcollection/WdfCollectionAdd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfCollectionAdd
 ---
 
 # WdfCollectionAdd function
@@ -50,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfCollectionAdd</b> method adds a specified framework object to an object collection. 
-
+The <b>WdfCollectionAdd</b> method adds a specified framework object to an object collection.
 
 ## -parameters
 
+### -param Collection 
 
-
-
-### -param Collection [in]
-
+[in]
 A handle to a collection object.
 
+### -param Object 
 
-### -param Object [in]
-
+[in]
 A handle to the framework object that will be added to the collection.
 
-
 ## -returns
-
-
 
 <b>WdfCollectionAdd</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -100,12 +92,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 The <b>WdfCollectionAdd</b> method appends the specified object to the end of the set of objects that the collection contains. When <b>WdfCollectionAdd</b> adds an object to a collection, it increments the object's reference count. Your driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionremove">WdfCollectionRemove</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionremoveitem">WdfCollectionRemoveItem</a> to remove the object and decrement its reference count. 
 
@@ -157,12 +144,7 @@ for (i = 0; i < numSubRequests; i++) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectioncreate">WdfCollectionCreate</a>
 
@@ -173,7 +155,4 @@ for (i = 0; i < numSubRequests; i++) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionremoveitem">WdfCollectionRemoveItem</a>
- 
-
- 
 

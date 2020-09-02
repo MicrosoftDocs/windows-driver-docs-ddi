@@ -8,8 +8,6 @@ ms.assetid: 07167C7E-E8EB-41E3-B2E3-7B9E9CCC5465
 ms.date: 04/30/2018
 keywords: ["RtlUShortAdd function"]
 ms.keywords: RtlUShortAdd, RtlUShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlushortadd, ntintsafe/RtlUShortAdd
-f1_keywords:
- - "ntintsafe/RtlUShortAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlUShortAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUShortAdd
+ - ntintsafe/RtlUShortAdd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlUShortAdd
 ---
 
 # RtlUShortAdd function
@@ -47,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Adds two values of type <b>USHORT</b>.
-
 
 ## -parameters
 
+### -param usAugend 
 
-
-
-### -param usAugend [in]
-
+[in]
 The first value in the equation.
 
+### -param usAddend 
 
-### -param usAddend [in]
-
+[in]
 The value to add to <i>usAugend</i>.
 
+### -param pusResult 
 
-### -param pusResult [out]
-
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

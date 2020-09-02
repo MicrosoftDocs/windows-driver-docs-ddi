@@ -8,8 +8,6 @@ ms.assetid: 51BBE9F6-7661-45A1-8416-9AAA307FCA10
 ms.date: 05/08/2018
 keywords: ["PcUnregisterAdapterPnpManagement function"]
 ms.keywords: PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement function [Audio Devices], audio.pcunregisteradapterpnpmanagement, portcls/PcUnregisterAdapterPnpManagement
-f1_keywords:
- - "portcls/PcUnregisterAdapterPnpManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcUnregisterAdapterPnpManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcUnregisterAdapterPnpManagement
+ - portcls/PcUnregisterAdapterPnpManagement
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcUnregisterAdapterPnpManagement
 ---
 
 # PcUnregisterAdapterPnpManagement function
@@ -48,32 +47,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>PcUnregisterAdapterPnpManagement</b> function unregisters the audio adapter's PnP management interface from the PortCls class driver.  It is used to support PnP rebalance. 
-
+The <b>PcUnregisterAdapterPnpManagement</b> function unregisters the audio adapter's PnP management interface from the PortCls class driver.  It is used to support PnP rebalance.
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
-
 
 ## -returns
 
-
-
 The <b>PcUnregisterAdapterPnpManagement</b>  function returns STATUS_SUCCESS if the function call was successful. Otherwise, it returns the appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>PcUnregisterAdapterPnpManagement</b>  function unregisters a driver's PnP management interface that was registered with PortCls by using the <b>PcUnregisterAdapterPnpManagement</b>  function. 
 
@@ -84,20 +71,11 @@ Portcls uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/po
 
 For more information,  see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">Implement PnP Rebalance for PortCls Audio Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteradapterpnpmanagement">PcRegisterAdapterPnpManagement</a>
- 
-
- 
 

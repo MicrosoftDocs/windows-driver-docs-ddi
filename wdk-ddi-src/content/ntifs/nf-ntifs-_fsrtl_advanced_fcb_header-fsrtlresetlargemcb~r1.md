@@ -10,6 +10,7 @@ keywords: ["FsRtlResetLargeMcb function"]
 ms.keywords: FsRtlResetLargeMcb, FsRtlResetLargeMcb routine [Installable File System Drivers], fsrtlref_947ccacb-eef2-44d8-9b73-1b8aa930cd03.xml, ifsk.fsrtlresetlargemcb, ntifs/FsRtlResetLargeMcb
 f1_keywords:
  - "ntifs/FsRtlResetLargeMcb"
+ - "FsRtlResetLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlResetLargeMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FsRtlResetLargeMcb</b> routine truncates a map control block (MCB) struct
 
 
 
-### -param Mcb [in]
-
+### -param Mcb 
+[in]
 Pointer to the MCB structure to truncate.
 
 
-### -param SelfSynchronized [in]
-
+### -param SelfSynchronized 
+[in]
 Indicates whether the caller is already synchronized with respect to the MCB.
 
 

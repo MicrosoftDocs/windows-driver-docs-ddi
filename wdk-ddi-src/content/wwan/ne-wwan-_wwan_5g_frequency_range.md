@@ -5,35 +5,39 @@ description: The WWAN_5G_FREQUENCY_RANGE enumeration specifies the frequency ran
 tech.root: netvista
 ms.assetid: 63C14301-2D71-4F19-937E-4FBC1A43DFBC
 ms.date: 04/05/2019
-keywords: ["_WWAN_5G_FREQUENCY_RANGE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_5G_FREQUENCY_RANGE"
-ms.keywords: _WWAN_5G_FREQUENCY_RANGE, WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE, 
+keywords: ["WWAN_5G_FREQUENCY_RANGE enumeration"]
+ms.keywords: _WWAN_5G_FREQUENCY_RANGE, WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_5G_FREQUENCY_RANGE
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_5G_FREQUENCY_RANGE
+ - wwan/_WWAN_5G_FREQUENCY_RANGE
+ - PWWAN_5G_FREQUENCY_RANGE
+ - wwan/PWWAN_5G_FREQUENCY_RANGE
+ - WWAN_5G_FREQUENCY_RANGE
+ - wwan/WWAN_5G_FREQUENCY_RANGE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_5G_FREQUENCY_RANGE
 ---
 
 # _WWAN_5G_FREQUENCY_RANGE enumeration
+
 
 ## -description
 
@@ -68,3 +72,4 @@ This enumeration is used in the [**WWAN_PACKET_SERVICE**](ns-wwan-_wwan_packet_s
 [OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-packet-service)
 
 [**WWAN_PACKET_SERVICE*](ns-wwan-_wwan_packet_service.md)
+

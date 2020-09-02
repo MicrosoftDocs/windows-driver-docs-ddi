@@ -6,10 +6,8 @@ old-location: stream\ks_video_stream_config_caps.htm
 tech.root: stream
 ms.assetid: a8089653-a14b-4542-bf20-b1b596b1b4ea
 ms.date: 04/23/2018
-keywords: ["_KS_VIDEO_STREAM_CONFIG_CAPS structure"]
+keywords: ["KS_VIDEO_STREAM_CONFIG_CAPS structure"]
 ms.keywords: "*PKS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS structure [Streaming Media Devices], PKS_VIDEO_STREAM_CONFIG_CAPS, PKS_VIDEO_STREAM_CONFIG_CAPS structure pointer [Streaming Media Devices], _KS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS, stream.ks_video_stream_config_caps, vidcapstruct_43cae18b-0430-4a1e-9bac-7de2e32388a6.xml"
-f1_keywords:
- - "ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KS_VIDEO_STREAM_CONFIG_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS
+f1_keywords:
+ - _KS_VIDEO_STREAM_CONFIG_CAPS
+ - ksmedia/_KS_VIDEO_STREAM_CONFIG_CAPS
+ - PKS_VIDEO_STREAM_CONFIG_CAPS
+ - ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS
+ - KS_VIDEO_STREAM_CONFIG_CAPS
+ - ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KS_VIDEO_STREAM_CONFIG_CAPS
 ---
 
 # _KS_VIDEO_STREAM_CONFIG_CAPS structure
@@ -47,14 +50,9 @@ req.typenames: KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS
 
 ## -description
 
-
 The KS_VIDEO_STREAM_CONFIG_CAPS structure describes the configuration and capabilities of a video stream, including analog video standard (for example, NTSC, PAL or SECAM), scaling, and cropping capabilities; minimum and maximum frame rates; and minimum and maximum data rates.
 
-
 ## -struct-fields
-
-
-
 
 ### -field guid
 
@@ -74,66 +72,53 @@ KSDATAFORMAT_SPECIFIER_MPEG2_VIDEO
 
 This GUID is identical to the DirectShow AM_MEDIA_TYPE enumeration. For more information about AM_MEDIA_TYPE, see the DirectX SDK documentation.
 
-
 ### -field VideoStandard
 
 Specifies the analog video standards that are supported by the stream. This member can be set to one or more (logically ORed) values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a> enumeration.
 
-
 ### -field InputSize
 
-Specifies the size of the incoming signal. <b>InputSize</b> indicates the image rectangle's width and height, in pixels. This is the largest signal that the filter can digitize with each pixel remaining unique. 
-
+Specifies the size of the incoming signal. <b>InputSize</b> indicates the image rectangle's width and height, in pixels. This is the largest signal that the filter can digitize with each pixel remaining unique.
 
 ### -field MinCroppingSize
 
-Specifies the smallest cropping rectangle allowed, as specified in the <b>rcSource</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a> structure, which is associated with the <b>DataRange</b> member. 
-
+Specifies the smallest cropping rectangle allowed, as specified in the <b>rcSource</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a> structure, which is associated with the <b>DataRange</b> member.
 
 ### -field MaxCroppingSize
 
-Specifies the largest cropping rectangle allowed, as specified in the <b>rcSource</b> member of the KS_VIDEOINFOHEADER structure, which is associated with the <b>DataRange</b> member. 
-
+Specifies the largest cropping rectangle allowed, as specified in the <b>rcSource</b> member of the KS_VIDEOINFOHEADER structure, which is associated with the <b>DataRange</b> member.
 
 ### -field CropGranularityX
 
-Specifies the horizontal granularity of the cropping size. For example, valid widths could be specified as even multiples of four. 
-
+Specifies the horizontal granularity of the cropping size. For example, valid widths could be specified as even multiples of four.
 
 ### -field CropGranularityY
 
-Specifies the vertical granularity of the cropping size. For example, valid heights could be specified as even multiples of four. 
-
+Specifies the vertical granularity of the cropping size. For example, valid heights could be specified as even multiples of four.
 
 ### -field CropAlignX
 
-Specifies the horizontal alignment of the cropping rectangle inside <b>InputSize</b>. For example, the minidriver could specify that valid rectangles must start on a boundary that is a multiple of four. 
-
+Specifies the horizontal alignment of the cropping rectangle inside <b>InputSize</b>. For example, the minidriver could specify that valid rectangles must start on a boundary that is a multiple of four.
 
 ### -field CropAlignY
 
 Specifies the vertical alignment of the cropping rectangle inside <b>InputSize</b>. For example, the minidriver could specify that valid rectangles must start on a boundary that is a multiple of four.
 
-
 ### -field MinOutputSize
 
 Specifies the smallest bitmap that this pin can produce.
-
 
 ### -field MaxOutputSize
 
 Specifies the largest bitmap that this pin can produce.
 
-
 ### -field OutputGranularityX
 
 Specifies the granularity of the output bitmap width.
 
-
 ### -field OutputGranularityY
 
 Specifies the granularity of the output bitmap height.
-
 
 ### -field StretchTapsX
 
@@ -185,8 +170,6 @@ The filter uses a higher-order (smoother) form of interpolation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field StretchTapsY
 
@@ -238,8 +221,6 @@ The filter uses a higher-order (smoother) form of interpolation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ShrinkTapsX
 
@@ -291,8 +272,6 @@ The filter uses a higher-order (smoother) form of interpolation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ShrinkTapsY
 
@@ -344,32 +323,24 @@ The filter uses a higher-order (smoother) form of interpolation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MinFrameInterval
 
 Specifies the minimum frame rate allowed. This value applies to capture filters only.
 
-
 ### -field MaxFrameInterval
 
 Specifies the maximum frame rate allowed. This value applies to capture filters only.
-
 
 ### -field MinBitsPerSecond
 
 Specifies the minimum data rate, in bits per second, that this pin can produce.
 
-
 ### -field MaxBitsPerSecond
 
 Specifies the maximum data rate, in bits per second, that this pin can produce.
 
-
 ## -remarks
-
-
 
 The KS_VIDEO_STREAM_CONFIG_CAPS structure is identical to the DirectShow VIDEO_STREAM_CONFIG_CAPS structure.
 
@@ -425,15 +396,9 @@ some of the valid values for the <b>rcSource</b> member of the <a href="https://
 </ul>
 For a 320 × 240 cropping rectangle and the same cropping alignment values, (2, 4, 322, 244) is one example of the many valid rectangles. 
 
-The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>CropGranularityY</b>, <b>CropAlignX</b>, and <b>CropAlignY</b> members discussed above work together to specify which values of <b>rcSource</b> are valid for the KS_VIDEOINFOHEADER structure that describes the output pin's media type. The remaining structure members (<b>MinOutputSize</b>, <b>MaxOutputSize</b>, <b>OutputGranularityX</b>, and <b>OutputGranularityY</b>) describe the <b>biWidth</b> and <b>biHeight</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a> structure, which is contained in the pin's media type KS_VIDEOINFOHEADER structure. 
-
-
-
+The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>CropGranularityY</b>, <b>CropAlignX</b>, and <b>CropAlignY</b> members discussed above work together to specify which values of <b>rcSource</b> are valid for the KS_VIDEOINFOHEADER structure that describes the output pin's media type. The remaining structure members (<b>MinOutputSize</b>, <b>MaxOutputSize</b>, <b>OutputGranularityX</b>, and <b>OutputGranularityY</b>) describe the <b>biWidth</b> and <b>biHeight</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a> structure, which is contained in the pin's media type KS_VIDEOINFOHEADER structure.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
 
@@ -444,7 +409,4 @@ The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
- 
-
- 
 

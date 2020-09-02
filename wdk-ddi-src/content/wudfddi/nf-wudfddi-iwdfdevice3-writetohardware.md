@@ -8,8 +8,6 @@ ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.date: 02/26/2018
 keywords: ["IWDFDevice3::WriteToHardware"]
 ms.keywords: IWDFDevice3 interface,WriteToHardware method, IWDFDevice3.WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware, WriteToHardware method, WriteToHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware
-f1_keywords:
- - "wudfddi/IWDFDevice3.WriteToHardware"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice3.WriteToHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice3::WriteToHardware
+ - wudfddi/IWDFDevice3::WriteToHardware
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice3.WriteToHardware
 ---
 
 # IWDFDevice3::WriteToHardware
@@ -47,42 +46,37 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WriteToHardware</b> method is used internally by the framework. Do not use.
 
-
 ## -parameters
 
+### -param Type 
 
+[in]
 
+### -param Size 
 
-### -param Type [in]
+[in]
 
+### -param Address 
 
-### -param Size [in]
+[in]
 
+### -param Value 
 
-### -param Address [in]
+[in]
 
+### -param Buffer 
 
-### -param Value [in]
+[in, optional]
 
+### -param Count 
 
-### -param Buffer [in, optional]
-
-
-### -param Count [in, optional]
-
+[in, optional]
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
- 
-
- 
 

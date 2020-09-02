@@ -8,8 +8,6 @@ ms.assetid: ae9175e5-c1fc-44ae-a7c9-921ac8483e33
 ms.date: 05/02/2018
 keywords: ["NdisCoCreateVc function"]
 ms.keywords: NdisCoCreateVc, NdisCoCreateVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml, ndis/NdisCoCreateVc, netvista.ndiscocreatevc
-f1_keywords:
- - "ndis/NdisCoCreateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCoCreateVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCoCreateVc
+ - ndis/NdisCoCreateVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCoCreateVc
 ---
 
 # NdisCoCreateVc function
@@ -48,25 +47,21 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCoCreateVc</b> sets up a connection endpoint from which a client can make outgoing calls or on which
   a stand-alone call manager can dispatch incoming calls.
 
-
 ## -parameters
 
+### -param NdisBindingHandle 
 
-
-
-### -param NdisBindingHandle [in]
-
+[in]
 Specifies the handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> that identifies the
      target NIC or virtual adapter of the next-lower driver to which the caller is bound.
 
+### -param NdisAfHandle 
 
-### -param NdisAfHandle [in, optional]
-
+[in, optional]
 Specifies the handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a> if
      the caller is a client. A call manager sets this parameter to <b>NULL</b> if it is creating a VC for itself,
@@ -76,27 +71,24 @@ Specifies the handle returned by
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">
      ProtocolCmRegisterSap</a> function.
 
+### -param ProtocolVcContext 
 
-### -param ProtocolVcContext [in]
-
+[in]
 Specifies the handle to a caller-supplied resident context area in which the caller maintains
      state for this VC. NDIS passes this handle back to the VC creator in all subsequent calls concerning
      this endpoint if the call to 
      <b>NdisCoCreateVc</b> succeeds.
 
+### -param NdisVcHandle 
 
-### -param NdisVcHandle [in, out]
-
+[in, out]
 Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> when 
      <b>NdisCoCreateVc</b> is called. On return from a successful call, this points to a variable that NDIS
      has set to its handle for the newly created VC. The caller must save this handle for subsequent calls to
      connection-oriented Ndis
      <i>Xxx</i> functions.
 
-
 ## -returns
-
-
 
 <b>NdisCoCreateVc</b> can return one of the following:
 
@@ -153,14 +145,8 @@ The underlying miniport driver failed the creation of the VC for a miniport driv
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A client or stand-alone call manager creates a VC with 
     <b>NdisCoCreateVc</b>, depending on whether the VC represents an outgoing or incoming call,
@@ -209,13 +195,7 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
     support call 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>, instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a>
 
@@ -252,7 +232,4 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
    ProtocolCoReceiveNetBufferLists</a>
- 
-
- 
 

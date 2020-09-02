@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyFullChangeDirectory function"]
 ms.keywords: FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, ifsk.fsrtlnotifyfullchangedirectory, rxprocs/FsRtlNotifyFullChangeDirectory
 f1_keywords:
  - "ntifs/FsRtlNotifyFullChangeDirectory"
+ - "FsRtlNotifyFullChangeDirectory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyFullChangeDirectory
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,38 +55,38 @@ The <b>FsRtlNotifyFullChangeDirectory</b> routine creates a notify structure for
 
 
 
-### -param NotifySync [in]
-
+### -param NotifySync 
+[in]
 A pointer to an opaque synchronization object for the notify list for the current volume.
 
 
-### -param NotifyList [in]
-
+### -param NotifyList 
+[in]
 A pointer to the head of a notify list. Each element in the list is an opaque notify structure.
 
 
-### -param FsContext [in]
-
+### -param FsContext 
+[in]
 A pointer to a unique value assigned by the file system to identify the notify structure to be created as belonging to a particular file object. If a <i>TraverseCallback</i> routine is supplied, <i>FsContext</i> is passed as the <i>NotifyContext</i> parameter to that routine.
 
 
-### -param FullDirectoryName [in]
-
+### -param FullDirectoryName 
+[in]
 A pointer to an ANSI or Unicode string that contains the full name for the directory associated with this notify structure. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
-### -param WatchTree [in]
-
+### -param WatchTree 
+[in]
 Set to <b>TRUE</b> if all subdirectories of this directory should also be watched. Set to <b>FALSE</b> if only the directory itself is to be watched. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
-### -param IgnoreBuffer [in]
-
+### -param IgnoreBuffer 
+[in]
 Set to <b>TRUE</b> to ignore any user buffers and force the directory to be reenumerated. This action speeds the operation. Ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
-### -param CompletionFilter [in]
-
+### -param CompletionFilter 
+[in]
 Bitmask of flags that specify the types of changes to files or subdirectories that should cause the queue of pending notify IRPs to be completed. The possible flag values are described following.
 
 <table>
@@ -231,13 +230,13 @@ This file stream's data has changed.
 <i>CompletionFilter</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
-### -param NotifyIrp [in, optional]
-
+### -param NotifyIrp 
+[in, optional]
 A pointer to the IRP to complete on notify change. If <i>NotifyIrp</i> is <b>NULL</b>, this means that the file stream represented by this file object is being deleted.
 
 
-### -param TraverseCallback [in, optional]
-
+### -param TraverseCallback 
+[in, optional]
 Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory being watched in a directory tree. This lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -258,8 +257,8 @@ Optional pointer to a callback routine to be invoked when a change occurs in a s
 For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
-### -param SubjectContext [in, optional]
-
+### -param SubjectContext 
+[in, optional]
 A pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsRtlNotifyFullChangeDirectory</b> releases the context and frees the structure after using it. Ignored if <i>NotifyIrp</i> is <b>NULL</b>. If a <i>TraverseCallback</i> routine is supplied, <i>SubjectContext</i> is passed as the <i>SubjectContext</i> parameter to that routine.
 
 

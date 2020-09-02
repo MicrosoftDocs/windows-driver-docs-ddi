@@ -6,10 +6,8 @@ old-location: ifsk\vpb.htm
 tech.root: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.date: 04/16/2018
-keywords: ["_VPB structure"]
+keywords: ["VPB structure"]
 ms.keywords: "*PVPB, PVPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB structure [Installable File System Drivers], VPB_DIRECT_WRITES_ALLOWED, VPB_LOCKED, VPB_MOUNTED, VPB_PERSISTENT, VPB_RAW_MOUNT, VPB_REMOVE_PENDING, _VPB, ifsk.vpb, wdm/PVPB, wdm/VPB"
-f1_keywords:
- - "wdm/VPB"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- VPB
-product:
-- Windows
 targetos: Windows
 req.typenames: VPB, *PVPB
+f1_keywords:
+ - _VPB
+ - wdm/_VPB
+ - PVPB
+ - wdm/PVPB
+ - VPB
+ - wdm/VPB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - VPB
 ---
 
 # _VPB structure
@@ -47,24 +50,17 @@ req.typenames: VPB, *PVPB
 
 ## -description
 
-
 The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 A read-only member that is used by the system to indicate that the structure is a VPB object.
 
-
 ### -field Size
 
 A read-only member that is used by the system to indicate that the structure is a VPB object.
-
 
 ### -field Flags
 
@@ -134,33 +130,26 @@ Indicates that direct write operations to the volume are allowed.  This flag is 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field VolumeLabelLength
 
 A read/write member that specifies the length of the volume label, in bytes. This member must be set by the file system driver. If the volume has no label, this member must be set to zero.
 
-
 ### -field DeviceObject
 
 A read/write member, set by the file system driver, which points to a device object of type <b>FILE_DEVICE_DISK_FILE_SYSTEM</b>. This device object is created by the file system driver to represent the mounted volume.
-
 
 ### -field RealDevice
 
 A read-only member, set by the I/O manager, which points to the device object for a physical or virtual disk device that contains the mountable logical volume (pointed to by <b>DeviceObject</b>).
 
-
 ### -field SerialNumber
 
 A read/write member that specifies the serial number associated with the file system volume.  This member should be set by the file system driver, if available.
 
-
 ### -field ReferenceCount
 
 A read-only member that specifies the reference count for the VPB structure. If the reference count for the VPB structure is greater than zero, the I/O manager does not deallocate the VPB structure. Be aware that <b>ReferenceCount</b> can be considered a read/write member when a file system driver must keep the volume present to process a tear down request.
-
 
 ### -field VolumeLabel
 
@@ -168,10 +157,7 @@ A read/write member, set by the file system driver, that specifies the label of 
 
 <code>#define MAXIMUM_VOLUME_LABEL_LENGTH  (32 * sizeof(WCHAR));</code>
 
-
 ## -remarks
-
-
 
 A volume parameter block (VPB) object is used to create an association between a physical disk device object and a logical volume device object. That is, a VPB maps a file system's volume device object to the device or partition upon which the volume is mounted. A VPB object exists only for device objects that represent physical media, virtual media, or logical media that can be mounted.
 
@@ -194,12 +180,7 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -210,7 +191,4 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/how-the-volume-is-mounted">How the Volume Is Mounted</a>
- 
-
- 
 

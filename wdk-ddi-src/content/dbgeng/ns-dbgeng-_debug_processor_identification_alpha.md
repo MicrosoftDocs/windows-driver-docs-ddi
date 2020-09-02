@@ -6,10 +6,8 @@ old-location: debugger\debug_processor_identification_alpha.htm
 tech.root: debugger
 ms.assetid: AE0DB2CC-6364-4B50-8CD3-8EF8B495FBED
 ms.date: 05/03/2018
-keywords: ["_DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure"]
+keywords: ["DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha"
-f1_keywords:
- - "dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgEng.h
-api_name:
-- DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+f1_keywords:
+ - _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ - dbgeng/_DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ - PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ - dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ - DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ - dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgEng.h
+api_name:
+ - DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
 ---
 
 # _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure
@@ -47,32 +50,19 @@ req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFIC
 
 ## -description
 
-
 Identifies an Alpha processor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of the processor.
 
-
 ### -field Revision
 
 The revision of the processor.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_all">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
- 
-
- 
 

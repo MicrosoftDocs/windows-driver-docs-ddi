@@ -6,43 +6,49 @@ description: Arguments used to get the host partition base address of a single V
 tech.root: display
 ms.assetid: e1eb7f17-4895-4920-b51a-db3b8cdb374a
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGKARG_GETRESOURCEFORBAR structure"]
-f1_keywords:
- - "dispmprt/_DXGKARG_GETRESOURCEFORBAR"
+ms.date: 04/04/2019
+keywords: ["DXGKARG_GETRESOURCEFORBAR structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGKARG_GETRESOURCEFORBAR, DXGKARG_GETRESOURCEFORBAR, *PDXGKARG_GETRESOURCEFORBAR, 
+ms.keywords: _DXGKARG_GETRESOURCEFORBAR, DXGKARG_GETRESOURCEFORBAR, *PDXGKARG_GETRESOURCEFORBAR,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_GETRESOURCEFORBAR, *PDXGKARG_GETRESOURCEFORBAR
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGKARG_GETRESOURCEFORBAR
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGKARG_GETRESOURCEFORBAR
+ - dispmprt/_DXGKARG_GETRESOURCEFORBAR
+ - PDXGKARG_GETRESOURCEFORBAR
+ - dispmprt/PDXGKARG_GETRESOURCEFORBAR
+ - DXGKARG_GETRESOURCEFORBAR
+ - dispmprt/DXGKARG_GETRESOURCEFORBAR
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKARG_GETRESOURCEFORBAR
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGKARG_GETRESOURCEFORBAR structure
+
 
 ## -description
 
@@ -65,3 +71,4 @@ Out variable that will be filled in with the resource information, specifically 
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: b4a4cc4b-8f23-4dd6-81d3-4cb2c861ba4f
 ms.date: 04/30/2018
 keywords: ["NtQueryInformationTransaction function"]
 ms.keywords: NtQueryInformationTransaction, ZwQueryInformationTransaction, ZwQueryInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationtransaction, ktm_ref_ffef2acc-e180-4adf-8aa5-31ee7dae0592.xml, wdm/NtQueryInformationTransaction, wdm/ZwQueryInformationTransaction
-f1_keywords:
- - "wdm/ZwQueryInformationTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryInformationTransaction
-- NtQueryInformationTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtQueryInformationTransaction
+ - wdm/NtQueryInformationTransaction
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryInformationTransaction
+ - NtQueryInformationTransaction
 ---
 
 # NtQueryInformationTransaction function
@@ -48,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwQueryInformationTransaction</b> routine retrieves information about a specified transaction.
-
 
 ## -parameters
 
+### -param TransactionHandle 
 
-
-
-### -param TransactionHandle [in]
-
+[in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a>. The handle must have TRANSACTION_QUERY_INFORMATION access to the object.
 
+### -param TransactionInformationClass 
 
-### -param TransactionInformationClass [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_transaction_information_class">TRANSACTION_INFORMATION_CLASS</a>-typed value that specifies the information to obtain. The value must be one of the following values:
 
 <ul>
@@ -82,25 +77,22 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_t
 </ul>
 The <b>TransactionFullInformation</b> value is not used with <b>ZwQueryInformationTransaction</b>.
 
+### -param TransactionInformation 
 
-### -param TransactionInformation [out]
-
+[out]
 A pointer to a caller-allocated buffer that receives the information that the <i>TransactionInformationClass</i> parameter specifies. The buffer's structure type must be <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_properties_information">TRANSACTION_PROPERTIES_INFORMATION</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a>.
 
+### -param TransactionInformationLength 
 
-### -param TransactionInformationLength [in]
-
+[in]
 The length, in bytes, of the buffer that the <i>TransactionInformation</i> parameter points to, including the length of any additional array elements that the caller has allocated to receive information.
 
+### -param ReturnLength 
 
-### -param ReturnLength [out, optional]
-
-A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>TransactionInformation</i> buffer. This parameter is optional and can be <b>NULL</b>. 
-
+[out, optional]
+A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>TransactionInformation</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>ZwQueryInformationTransaction</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
 
@@ -180,12 +172,7 @@ The buffer that the <i>TransactionInformation </i>parameter specifies is too sma
 
 The routine might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information about how to use <b>ZwQueryInformationTransaction</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-a-transactional-client">Creating a Transactional Client</a>.
 
@@ -193,13 +180,7 @@ For more information about how to use <b>ZwQueryInformationTransaction</b>, see 
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a>
 
@@ -234,7 +215,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a>
- 
-
- 
 

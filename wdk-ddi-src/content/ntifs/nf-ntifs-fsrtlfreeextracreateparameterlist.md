@@ -8,8 +8,6 @@ ms.assetid: 0d2f1204-0874-4ede-9931-be6f2dbc3c47
 ms.date: 04/16/2018
 keywords: ["FsRtlFreeExtraCreateParameterList function"]
 ms.keywords: FsRtlFreeExtraCreateParameterList, FsRtlFreeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_909d50be-4f8d-47dc-ad00-03d3f9eb4533.xml, ifsk.fsrtlfreeextracreateparameterlist, ntifs/FsRtlFreeExtraCreateParameterList
-f1_keywords:
- - "ntifs/FsRtlFreeExtraCreateParameterList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlFreeExtraCreateParameterList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlFreeExtraCreateParameterList
+ - ntifs/FsRtlFreeExtraCreateParameterList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlFreeExtraCreateParameterList
 ---
 
 # FsRtlFreeExtraCreateParameterList function
@@ -47,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlFreeExtraCreateParameterList</b> routine frees an extra create parameter (ECP) list structure.
-
 
 ## -parameters
 
+### -param EcpList 
 
-
-
-### -param EcpList [in]
-
+[in]
 Pointer to the ECP list structure to be freed.
-
 
 ## -remarks
 
-
-
-<b>FsRtlFreeExtraCreateParameterList</b> frees an ECP list structure including any list elements, if they exist.  
-
-
-
+<b>FsRtlFreeExtraCreateParameterList</b> frees an ECP list structure including any list elements, if they exist.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -112,7 +98,4 @@ Pointer to the ECP list structure to be freed.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
- 
-
- 
 

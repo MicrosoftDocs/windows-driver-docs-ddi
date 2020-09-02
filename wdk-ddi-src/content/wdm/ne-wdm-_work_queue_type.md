@@ -6,10 +6,8 @@ old-location: kernel\work_queue_type.htm
 tech.root: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.date: 04/30/2018
-keywords: ["_WORK_QUEUE_TYPE enumeration"]
+keywords: ["WORK_QUEUE_TYPE enumeration"]
 ms.keywords: BackgroundWorkQueue, CriticalWorkQueue, CustomPriorityWorkQueue, DelayedWorkQueue, HyperCriticalWorkQueue, MaximumWorkQueue, NormalWorkQueue, RealTimeWorkQueue, SuperCriticalWorkQueue, WORK_QUEUE_TYPE, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], _WORK_QUEUE_TYPE, kernel.work_queue_type, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, wdm/BackgroundWorkQueue, wdm/CriticalWorkQueue, wdm/CustomPriorityWorkQueue, wdm/DelayedWorkQueue, wdm/HyperCriticalWorkQueue, wdm/MaximumWorkQueue, wdm/NormalWorkQueue, wdm/RealTimeWorkQueue, wdm/SuperCriticalWorkQueue, wdm/WORK_QUEUE_TYPE
-f1_keywords:
- - "wdm/WORK_QUEUE_TYPE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- WORK_QUEUE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
+f1_keywords:
+ - _WORK_QUEUE_TYPE
+ - wdm/_WORK_QUEUE_TYPE
+ - WORK_QUEUE_TYPE
+ - wdm/WORK_QUEUE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - WORK_QUEUE_TYPE
 ---
 
 # _WORK_QUEUE_TYPE enumeration
@@ -47,54 +48,41 @@ req.typenames: WORK_QUEUE_TYPE
 
 ## -description
 
-
 The <b>WORK_QUEUE_TYPE</b> enumeration type indicates the type of system worker thread that handles a work item.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CriticalWorkQueue
 
 Indicates a real-time system worker thread. The assigned priority level is 13.
 
-
 ### -field DelayedWorkQueue
 
 Indicates an ordinary worker thread. The assigned priority level is 12.
-
 
 ### -field HyperCriticalWorkQueue
 
 System  priority level. The assigned priority level is 15.
 
-
 ### -field NormalWorkQueue
 
 System priority level. The assigned priority level is 8
-
 
 ### -field BackgroundWorkQueue
 
 System priority level. The assigned priority level is 7.
 
-
 ### -field RealTimeWorkQueue
 
 System  priority level. The assigned priority level is18.
-
 
 ### -field SuperCriticalWorkQueue
 
 System  priority level. The assigned priority level is 14.
 
-
 ### -field MaximumWorkQueue
 
 System  priority maximum. No priority level assigned.
-
 
 ### -field CustomPriorityWorkQueue
 
@@ -102,10 +90,7 @@ The queue has a custom priority level assigned by the caller. The <b>CustomPrior
 
 This queue type is valid starting with Windows 8.1.
 
-
 ## -remarks
-
-
 
 For drivers targeting Windows 8.1 or later versions of Windows, use of only <b>CustomPriorityWorkQueue</b> with a custom priority level is recommended.
 
@@ -114,13 +99,7 @@ For drivers targeting Windows 8.1 or later versions of Windows, use of only <b>
 
 For more information about system worker threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
 
@@ -131,7 +110,4 @@ For more information about system worker threads, see <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a>
- 
-
- 
 

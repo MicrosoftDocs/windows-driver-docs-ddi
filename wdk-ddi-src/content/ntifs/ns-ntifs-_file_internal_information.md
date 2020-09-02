@@ -6,10 +6,8 @@ old-location: ifsk\file_internal_information.htm
 tech.root: ifsk
 ms.assetid: b82bc943-d9f0-451f-a8ac-f89936e866eb
 ms.date: 04/16/2018
-keywords: ["_FILE_INTERNAL_INFORMATION structure"]
+keywords: ["FILE_INTERNAL_INFORMATION structure"]
 ms.keywords: "*PFILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION structure [Installable File System Drivers], PFILE_INTERNAL_INFORMATION, PFILE_INTERNAL_INFORMATION structure pointer [Installable File System Drivers], _FILE_INTERNAL_INFORMATION, fileinformationstructures_7be724e0-06ec-4555-bcce-14926b7d92df.xml, ifsk.file_internal_information, ntifs/FILE_INTERNAL_INFORMATION, ntifs/PFILE_INTERNAL_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_INTERNAL_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_INTERNAL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_INTERNAL_INFORMATION, *PFILE_INTERNAL_INFORMATION
+f1_keywords:
+ - _FILE_INTERNAL_INFORMATION
+ - ntifs/_FILE_INTERNAL_INFORMATION
+ - PFILE_INTERNAL_INFORMATION
+ - ntifs/PFILE_INTERNAL_INFORMATION
+ - FILE_INTERNAL_INFORMATION
+ - ntifs/FILE_INTERNAL_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_INTERNAL_INFORMATION
 ---
 
 # _FILE_INTERNAL_INFORMATION structure
@@ -47,23 +50,15 @@ req.typenames: FILE_INTERNAL_INFORMATION, *PFILE_INTERNAL_INFORMATION
 
 ## -description
 
-
-The FILE_INTERNAL_INFORMATION structure is used to query for the file system's 8-byte file reference number for a file. 
-
+The FILE_INTERNAL_INFORMATION structure is used to query for the file system's 8-byte file reference number for a file.
 
 ## -struct-fields
 
-
-
-
 ### -field IndexNumber
 
-The 8-byte file reference number for the file. This number is assigned by the file system and is file-system-specific. (Note that this is not the same as the 16-byte "file object ID" that was added to NTFS for Microsoft Windows 2000.) 
-
+The 8-byte file reference number for the file. This number is assigned by the file system and is file-system-specific. (Note that this is not the same as the 16-byte "file object ID" that was added to NTFS for Microsoft Windows 2000.)
 
 ## -remarks
-
-
 
 This information can be queried in either of the following ways: 
 
@@ -85,15 +80,9 @@ File reference numbers, also called file IDs, are guaranteed to be unique only w
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> must be at least <b>sizeof</b> (FILE_INTERNAL_INFORMATION). 
 
-This structure must be aligned on a LONGLONG (8-byte) boundary. 
-
-
-
+This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information">FILE_ID_BOTH_DIR_INFORMATION</a>
 
@@ -112,7 +101,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
- 
-
- 
 

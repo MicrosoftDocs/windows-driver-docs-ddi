@@ -8,8 +8,6 @@ ms.assetid: 5d2f218c-a9a5-4149-8fde-898171dfc9a7
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_ACTIVATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_HID_ACTIVATE_DEVICE, IOCTL_HID_ACTIVATE_DEVICE control, IOCTL_HID_ACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_activate_device, hidioreq_031bb843-02fe-4859-acf2-4bcbfaaea657.xml, hidport/IOCTL_HID_ACTIVATE_DEVICE
-f1_keywords:
- - "hidport/IOCTL_HID_ACTIVATE_DEVICE"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidport.h
-api_name:
-- IOCTL_HID_ACTIVATE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_HID_ACTIVATE_DEVICE
+ - hidport/IOCTL_HID_ACTIVATE_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidport.h
+api_name:
+ - IOCTL_HID_ACTIVATE_DEVICE
 ---
 
 # IOCTL_HID_ACTIVATE_DEVICE IOCTL
@@ -47,57 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains a collection identifier, as a ULONG value, of the collection to activate.
 
-
 ### -input-buffer-length
 
 The length of a ULONG value.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
 
        HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
@@ -113,14 +88,7 @@ None.
 </ul>
 Minidrivers that call other drivers with this IRP to carry out the I/O to their device should ensure that the <b>Information</b> field of the status block is zero and not change the contents of the <b>Status</b> field.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_deactivate_device">IOCTL_HID_DEACTIVATE_DEVICE</a>
- 
-
- 
 

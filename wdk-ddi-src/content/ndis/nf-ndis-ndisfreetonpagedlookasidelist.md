@@ -8,8 +8,6 @@ ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.date: 05/02/2018
 keywords: ["NdisFreeToNPagedLookasideList macro"]
 ms.keywords: NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist
-f1_keywords:
- - "ndis/NdisFreeToNPagedLookasideList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisFreeToNPagedLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeToNPagedLookasideList
+ - ndis/NdisFreeToNPagedLookasideList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisFreeToNPagedLookasideList
 ---
 
 # NdisFreeToNPagedLookasideList macro
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisFreeToNPagedLookasideList</b> function returns an entry to the given lookaside list.
 
-
 ## -parameters
-
-
-
 
 ### -param _L
 
@@ -67,8 +61,6 @@ A pointer to the entry to be freed.
 
 ## -remarks
 
-
-
 If the lookaside list has not reached the system-determined maximum number of entries, 
     <i>Entry</i> is inserted at the front of the lookaside list. If the list has reached its maximum size, 
     <i>Entry</i> is released to nonpaged pool. That is, 
@@ -78,13 +70,7 @@ If the lookaside list has not reached the system-determined maximum number of en
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
     NdisInitializeNPagedLookasideList</a> function, or it frees the given entry itself.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
@@ -98,7 +84,4 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
    NdisInitializeNPagedLookasideList</a>
- 
-
- 
 

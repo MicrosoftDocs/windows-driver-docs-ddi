@@ -8,8 +8,6 @@ ms.assetid: b6a554b7-9e3e-4362-9dcf-fd84d9a69150
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,FLOAT    ,FLOAT  ,INT  ,PFLOAT  ), CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(FLOAT,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_float__list_, wiauFncs_18bd612f-ceb6-44ab-9242-1ef033f1bce8.xml, wiautil/CWiauPropertyList::SetValidValues
-f1_keywords:
- - "wiautil/CWiauPropertyList.SetValidValues"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.SetValidValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - CWiauPropertyList::SetValidValues
+ - wiautil/CWiauPropertyList::SetValidValues
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.SetValidValues
 ---
 
 # CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)
+
 
 ## -description
 
@@ -80,3 +80,4 @@ Points to the first property in the property list. This pointer must remain vali
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
 [CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT) method](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_float_float_float))
+

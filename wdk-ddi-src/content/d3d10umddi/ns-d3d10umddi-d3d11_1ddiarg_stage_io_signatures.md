@@ -7,8 +7,6 @@ ms.assetid: c7da4303-2ba4-4ac3-ad24-4ff25bb5466d
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_STAGE_IO_SIGNATURES structure"]
 ms.keywords: D3D11_1DDIARG_STAGE_IO_SIGNATURES, D3D11_1DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES, display.d3d11_1ddiarg_stage_io_signatures
-f1_keywords:
- - "d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDIARG_STAGE_IO_SIGNATURES
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDIARG_STAGE_IO_SIGNATURES
+f1_keywords:
+ - D3D11_1DDIARG_STAGE_IO_SIGNATURES
+ - d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDIARG_STAGE_IO_SIGNATURES
 ---
 
 # D3D11_1DDIARG_STAGE_IO_SIGNATURES structure
@@ -47,50 +46,31 @@ req.typenames: D3D11_1DDIARG_STAGE_IO_SIGNATURES
 
 ## -description
 
-
 Describes an I/O signature.
-
 
 ## -struct-fields
 
-
-
-
 ### -field pInputSignatureDeprecated
-
- 
-
 
 ### -field pInputSignature
 
-[in] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature. 
-
+[in] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
 
 ### -field NumInputSignatureEntries
 
-[in] The number of entries in the array that the <b>pInputSignature</b> member specifies. 
-
-
-
+[in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
 
 ### -field pOutputSignatureDeprecated
 
- 
-
-
 ### -field pOutputSignature
 
-[in] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature. 
-
+[in] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
 
 ### -field NumOutputSignatureEntries
 
 [in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
 
-
 ## -remarks
-
-
 
 A signature is basically the union of all registers that are input and output by any shader that shares the signature. Therefore, a signature might be a superset of what a given shader might actually input or output. 
 
@@ -100,16 +80,7 @@ To comply with the requirement for the event input and output registers to be re
 
 The declarations within the shader code itself also show which registers are actually used by a particular shader. These registers are possibly a subset of the input and output parts of the signature. If some hardware is not required to reorder input and output registers at compile time, the driver for that hardware can completely ignore the full signature that the <b>D3D11_1DDIARG_STAGE_IO_SIGNATURES</b> structure provides. The reference rasterizer, for example, does not require the information that the <b>D3D11_1DDIARG_STAGE_IO_SIGNATURES</b> structure provides.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_signature_entry">D3D11_1DDIARG_SIGNATURE_ENTRY</a>
- 
-
- 
 

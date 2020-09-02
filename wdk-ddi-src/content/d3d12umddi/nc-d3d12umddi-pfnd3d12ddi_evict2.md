@@ -26,7 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_EVICT2"
+ - PFND3D12DDI_EVICT2
+ - d3d12umddi/PFND3D12DDI_EVICT2
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_EVICT2 callback function
+
 
 ## -description
 
@@ -59,7 +61,7 @@ A pointer to a [D3D12DDIARG_EVICT](ns-d3d12umddi-d3d12ddiarg_evict.md) structure
 
 ## -returns
 
-If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+If this callback function succeeds, it returns S_OK. Otherwise, it returns an **HRESULT** error code.
 
 ## -prototype
 

@@ -8,8 +8,6 @@ ms.assetid: c724a4f5-55ef-413d-bd1a-9cd39d3e42f5
 ms.date: 05/03/2018
 keywords: ["wiasParseEndorserString function"]
 ms.keywords: image.wiasparseendorserstring, wiamdef/wiasParseEndorserString, wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasParseEndorserString"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasParseEndorserString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasParseEndorserString
+ - wiamdef/wiasParseEndorserString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasParseEndorserString
 ---
 
 # wiasParseEndorserString function
+
 
 ## -description
 
@@ -50,20 +50,23 @@ The **wiasParseEndorserString** function parses an endorser string, replacing WI
 
 ## -parameters
 
-### -param pWiasContext [in]
+### -param pWiasContext 
 
+[in]
 Pointer to a WIA Item context (the context of the item containing the WIA_DPS_ENDORSER_STRING property (described in the Microsoft Windows SDK documentation)).
 
 ### -param lFlags
 
 Reserved for system use and should be set to 0.
 
-### -param pInfo [out, optional]
+### -param pInfo 
 
+[out, optional]
 Pointer to a [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info) structure containing the page count and a list of custom token/value pairs. Can be **NULL**.
 
-### -param pOutputString [out]
+### -param pOutputString 
 
+[out]
 Pointer to a memory location that receives the address of the parsed endorser string. If **pOutputString* is non-NULL on entry, then the function assumes that the caller allocated the buffer; otherwise the WIA service will allocate it. Note that the WIA service assumes the *maximum* resultant endorser string is MAX_PATH (defined in *stdlib.h*) characters long. If the driver expects the string to be longer, it should allocate the buffer itself. If the caller allocates the buffer, it *must* initialize the contents of the buffer to zero before using this function.
 
 ## -returns
@@ -96,3 +99,4 @@ Assuming that the WIA_DPS_ENDORSER_STRING property contains "This is $MY_TOKEN$"
 [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info)
 
 [WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value)
+

@@ -8,8 +8,6 @@ ms.assetid: 3104cccf-03ae-4ff9-8cfe-86bd3719a47f
 ms.date: 04/16/2018
 keywords: ["FltGetFileContext function"]
 ms.keywords: FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml, FltGetFileContext, FltGetFileContext routine [Installable File System Drivers], fltkernel/FltGetFileContext, ifsk.fltgetfilecontext
-f1_keywords:
- - "fltkernel/FltGetFileContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetFileContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetFileContext
+ - fltkernel/FltGetFileContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetFileContext
 ---
 
 # FltGetFileContext function
@@ -47,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetFileContext</b> routine retrieves a context that was set for a file by a given minifilter driver instance. 
-
+The <b>FltGetFileContext</b> routine retrieves a context that was set for a file by a given minifilter driver instance.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+File object pointer for the file. This parameter is required and cannot be <b>NULL</b>.
 
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+### -param Context 
 
-
-### -param FileObject [in]
-
-File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param Context [out]
-
-Pointer to a caller-allocated variable that receives the address of the context. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives the address of the context. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetFileContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -105,14 +97,8 @@ File contexts are not supported for this file. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver calls <b>FltGetFileContext</b> to retrieve the file context that it has set for a given file. 
 
@@ -126,15 +112,9 @@ To allocate a new context, call <a href="https://docs.microsoft.com/windows-hard
 
 To delete a file context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletefilecontext">FltDeleteFileContext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletecontext">FltDeleteContext</a>. 
 
-To determine whether file contexts are supported for a given file, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontexts">FltSupportsFileContexts</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>. 
-
-
-
+To determine whether file contexts are supported for a given file, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontexts">FltSupportsFileContexts</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>
 
@@ -165,7 +145,4 @@ To determine whether file contexts are supported for a given file, call <a href=
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>
- 
-
- 
 

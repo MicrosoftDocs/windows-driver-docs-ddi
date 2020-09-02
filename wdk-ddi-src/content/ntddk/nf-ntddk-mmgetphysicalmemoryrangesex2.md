@@ -6,7 +6,6 @@ ms.date: 03/01/2020
 ms.keywords: MmGetPhysicalMemoryRangesEx2
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - MmGetPhysicalMemoryRangesEx2
 f1_keywords:
+ - MmGetPhysicalMemoryRangesEx2
  - ntddk/MmGetPhysicalMemoryRangesEx2
 dev_langs:
  - c++
@@ -43,8 +43,6 @@ dev_langs:
 ## -description
 
  This routine returns the virtual address of a nonpaged pool block which contains the physical memory ranges in the system.
-
-    
 
 ## -parameters
 

@@ -5,10 +5,8 @@ description: The DXGKARG_MAPCPUHOSTAPERTURE structure is used to map an allocati
 old-location: display\dxgkarg_mapcpuhostaperture.htm
 ms.assetid: ACC0C800-B6E3-4EF2-846C-63BF4564D0FD
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_MAPCPUHOSTAPERTURE structure"]
+keywords: ["DXGKARG_MAPCPUHOSTAPERTURE structure"]
 ms.keywords: DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, display.dxgkarg_mapcpuhostaperture
-f1_keywords:
- - "d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARG_MAPCPUHOSTAPERTURE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_MAPCPUHOSTAPERTURE
+f1_keywords:
+ - _DXGKARG_MAPCPUHOSTAPERTURE
+ - d3dkmddi/_DXGKARG_MAPCPUHOSTAPERTURE
+ - DXGKARG_MAPCPUHOSTAPERTURE
+ - d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARG_MAPCPUHOSTAPERTURE
 ---
 
 # _DXGKARG_MAPCPUHOSTAPERTURE structure
@@ -47,24 +48,17 @@ req.typenames: DXGKARG_MAPCPUHOSTAPERTURE
 
 ## -description
 
-
 The <b>DXGKARG_MAPCPUHOSTAPERTURE</b> structure is used to map an allocation, resident in a local memory segment, into the CPU host aperture in order to make it visible to the CPU.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hAllocation
 
 Specifies the allocation handle, associated with the allocation being mapped. This is the handle, returned by the kernel mode driver from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> or passed in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>. This parameter will be <b>NULL</b> for implicit allocations, such as a page table.
 
-
 ### -field SegmentId
 
 Specifies the segment identifier of the segment being accessed.
-
 
 ### -field PhysicalAdapterIndex
 
@@ -80,13 +74,11 @@ The page size is equal to the segment page size, reported in <a href="https://do
 
 Specifies the number of pages being mapped.
 
-
 ### -field pCpuHostAperturePages
 
 Array of CPU Host Aperture pages to map. This is an array of page indices from the start of the CPU host aperture physical address.
 
-
 ### -field pMemorySegmentPages
 
-MDL-style array of page indices to the allocation pages that need to be mapped into the CPU host aperture. The page indexes starting from 0. 
+MDL-style array of page indices to the allocation pages that need to be mapped into the CPU host aperture. The page indexes starting from 0.
 

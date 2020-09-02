@@ -6,43 +6,49 @@ description: This device interface specifies the parts of the device base addres
 tech.root: display
 ms.assetid: 77323c81-e0e9-47e0-9a99-b277fc678ee3
 ms.author: windowsdriverdev
-ms.date: 04/04/2019 
-keywords: ["_DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure"]
-f1_keywords:
- - "dispmprt/_DXGKDDI_MITIGABLE_DEVICE_INTERFACE"
+ms.date: 04/04/2019
+keywords: ["DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGKDDI_MITIGABLE_DEVICE_INTERFACE, DXGKDDI_MITIGABLE_DEVICE_INTERFACE, *PDXGKDDI_MITIGABLE_DEVICE_INTERFACE, 
+ms.keywords: _DXGKDDI_MITIGABLE_DEVICE_INTERFACE, DXGKDDI_MITIGABLE_DEVICE_INTERFACE, *PDXGKDDI_MITIGABLE_DEVICE_INTERFACE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKDDI_MITIGABLE_DEVICE_INTERFACE, *PDXGKDDI_MITIGABLE_DEVICE_INTERFACE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGKDDI_MITIGABLE_DEVICE_INTERFACE
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _DXGKDDI_MITIGABLE_DEVICE_INTERFACE
+ - dispmprt/_DXGKDDI_MITIGABLE_DEVICE_INTERFACE
+ - PDXGKDDI_MITIGABLE_DEVICE_INTERFACE
+ - dispmprt/PDXGKDDI_MITIGABLE_DEVICE_INTERFACE
+ - DXGKDDI_MITIGABLE_DEVICE_INTERFACE
+ - dispmprt/DXGKDDI_MITIGABLE_DEVICE_INTERFACE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKDDI_MITIGABLE_DEVICE_INTERFACE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure
+
 
 ## -description
 
@@ -77,6 +83,7 @@ Dereference.
 Called to query the mitigated range count.
 
 ### -field DxgkDdiQueryMitigatedRanges
+
  
 Called to query the mitigated ranges.
 
@@ -86,3 +93,4 @@ This interface is optional but must be implemented for any GPU where a virtual f
 The KMD could decide that the mitigated ranges need remapping and DxgkCbMitigatedRangeUpdate callback is provided to notify Dxgkrnl. Dxgkrnl will re-enumerate mitigated ranges asynchronously.
 
 ## -see-also
+

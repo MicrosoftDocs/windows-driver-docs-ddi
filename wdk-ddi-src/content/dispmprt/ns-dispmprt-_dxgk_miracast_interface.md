@@ -6,10 +6,8 @@ old-location: display\dxgk_miracast_display_interface.htm
 tech.root: display
 ms.assetid: 39DCDA28-D32F-4755-91FB-0D42822D7B54
 ms.date: 10/12/2018
-keywords: ["_DXGK_MIRACAST_INTERFACE structure"]
+keywords: ["DXGK_MIRACAST_INTERFACE structure"]
 ms.keywords: "*PDXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], _DXGK_MIRACAST_INTERFACE, display.dxgk_miracast_display_interface, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE"
-f1_keywords:
- - "dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dispmprt.h
-api_name:
-- DXGK_MIRACAST_DISPLAY_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_DISPLAY_INTERFACE, *PDXGK_MIRACAST_DISPLAY_INTERFACE
+f1_keywords:
+ - _DXGK_MIRACAST_INTERFACE
+ - dispmprt/_DXGK_MIRACAST_INTERFACE
+ - PDXGK_MIRACAST_DISPLAY_INTERFACE
+ - dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE
+ - DXGK_MIRACAST_DISPLAY_INTERFACE
+ - dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dispmprt.h
+api_name:
+ - DXGK_MIRACAST_DISPLAY_INTERFACE
 ---
 
 # _DXGK_MIRACAST_INTERFACE structure
@@ -47,63 +50,47 @@ req.typenames: DXGK_MIRACAST_DISPLAY_INTERFACE, *PDXGK_MIRACAST_DISPLAY_INTERFAC
 
 ## -description
 
-
 Contains pointers to functions in the [Wireless display (Miracast) interface](https://docs.microsoft.com/windows-hardware/drivers/display/wireless-displays--miracast-#miracast-reference) that the display miniport driver implements to create, destroy, query, and control Miracast device resources.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Version
 
 The version number of the Miracast interface. Version number constants are defined in Dispmprt.h (for example, DXGK_MIRACAST_DISPLAY_INTERFACE_VERSION_1).
-
 
 ### -field Context
 
 A pointer to a context that is provided by the display miniport driver.
 
-
 ### -field InterfaceReference
 
 A pointer to an interface reference function that is implemented by the display miniport driver.
-
 
 ### -field InterfaceDereference
 
 A pointer to an interface dereference function that is implemented by the display miniport driver.
 
-
 ### -field DxgkDdiMiracastQueryCaps
 
 A pointer to the display miniport driver's [DxgkDdiMiracastQueryCaps](nc-dispmprt-dxgkddi_miracast_query_caps.md) function.
-
 
 ### -field DxgkDdiMiracastCreateContext
 
 A pointer to the display miniport driver's [DxgkDdiMiracastCreateContext](nc-dispmprt-dxgkddi_miracast_create_context.md) function.
 
-
 ### -field DxgkDdiMiracastIoControl
 
 A pointer to the display miniport driver's [DxgkDdiMiracastIoControl](nc-dispmprt-dxgkddi_miracast_handle_io_control.md) function.
-
 
 ### -field DxgkDdiMiracastDestroyContext
 
 A pointer to the display miniport driver's [DxgkDdiMiracastDestroyContext](nc-dispmprt-dxgkddi_miracast_destroy_context.md) function.
 
-
 ## -remarks
-
-
 
 When the graphics adapter is started, the Microsoft DirectX graphics kernel subsystem calls the display miniport driver's [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md) function to retrieve the interface.
 
@@ -113,13 +100,7 @@ If the driver supports Miracast displays, then it must also support High-bandwid
 
 For more info on how to use the Miracast interface, see [WDDM display miniport driver tasks to support Miracast wireless displays](https://docs.microsoft.com/windows-hardware/drivers/display/wddm-display-miniport-driver-tasks-to-support-miracast-wireless-displays).
 
-
-
-
 ## -see-also
-
-
-
 
 [DxgkDdiMiracastCreateContext](nc-dispmprt-dxgkddi_miracast_create_context.md)
 
@@ -139,7 +120,4 @@ For more info on how to use the Miracast interface, see [WDDM display miniport d
 
 
 [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md)
- 
-
- 
 

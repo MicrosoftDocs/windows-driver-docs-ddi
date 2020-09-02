@@ -6,10 +6,8 @@ old-location: netvista\ndis_net_buffer_list_filtering_info.htm
 tech.root: netvista
 ms.assetid: 992a4c77-e22f-4123-81e8-86c8030accfa
 ms.date: 05/02/2018
-keywords: ["_NDIS_NET_BUFFER_LIST_FILTERING_INFO structure"]
+keywords: ["NDIS_NET_BUFFER_LIST_FILTERING_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_FILTERING_INFO, PNDIS_NET_BUFFER_LIST_FILTERING_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis_netbuf_macros_media_specific_ad9f53c1-d93a-4b73-9903-76aa54acd563.xml, netvista.ndis_net_buffer_list_filtering_info"
-f1_keywords:
- - "ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- NDIS_NET_BUFFER_LIST_FILTERING_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTERING_INFO
+f1_keywords:
+ - _NDIS_NET_BUFFER_LIST_FILTERING_INFO
+ - ndis/_NDIS_NET_BUFFER_LIST_FILTERING_INFO
+ - PNDIS_NET_BUFFER_LIST_FILTERING_INFO
+ - ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO
+ - NDIS_NET_BUFFER_LIST_FILTERING_INFO
+ - ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - NDIS_NET_BUFFER_LIST_FILTERING_INFO
 ---
 
 # _NDIS_NET_BUFFER_LIST_FILTERING_INFO structure
@@ -47,21 +50,15 @@ req.typenames: NDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTE
 
 ## -description
 
-
 The <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure defines filtering information that is associated
   with a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FilteringInfo
 
 A structure that contains the following members:
-
 
 ### -field FilteringInfo.FilterId
 
@@ -74,7 +71,6 @@ A USHORT value that contains a receive filter identifier. The receive filter ide
 ### -field FilteringInfo.QueueVPortInfo
 
 A union that contains the following members:
-
 
 ### -field FilteringInfo.QueueVPortInfo.QueueId
 
@@ -100,10 +96,7 @@ A PVOID type value that is in a union with the
       <b>FilteringInfo</b> member. This member lets a driver access all the information in the
       <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure as one PVOID value.
 
-
 ## -remarks
-
-
 
 Starting with NDIS 6.20, miniport drivers  use the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure to specify receive
     filter information that accompanies the 
@@ -122,13 +115,7 @@ To access the identifier values directly, use the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-queue-id">
     NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a> macros.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -153,7 +140,4 @@ To access the identifier values directly, use the
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-queue-id">
    NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
- 
-
- 
 

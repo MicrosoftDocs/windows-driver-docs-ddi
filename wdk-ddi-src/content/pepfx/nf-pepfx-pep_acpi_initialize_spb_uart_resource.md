@@ -8,8 +8,6 @@ ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function"]
 ms.keywords: 0, 1, 2, 3, 4, 5, 6, 7, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_uart_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
-f1_keywords:
- - "pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
+ - pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
@@ -47,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_uart_resource">PEP_ACPI_SPB_UART_RESOURCE</a> structure.
-
 
 ## -parameters
 
+### -param BaudRate 
 
-
-
-### -param BaudRate [in]
-
+[in]
 Specifies the baud rate of the connection.
 
+### -param BitsPerByte 
 
-### -param BitsPerByte [in]
-
+[in]
 Specifies the number of bits per byte of data.
 
+### -param StopBits 
 
-### -param StopBits [in]
-
+[in]
 Specifies the stop bits used in the connection.
 
+### -param LinesInUse 
 
-### -param LinesInUse [in]
-
+[in]
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
 
 <table>
@@ -161,16 +156,15 @@ Request to Send (RTS)
 </td>
 </tr>
 </table>
- 
 
+### -param IsBigEndian 
 
-### -param IsBigEndian [in]
+[in]
+Indicates if the most significant bits of data are in the lowest address.
 
-Indicates if the most significant bits of data are in the lowest address. 
+### -param Parity 
 
-
-### -param Parity [in]
-
+[in]
 Specifies the parity of the connection.
 
 <table>
@@ -234,69 +228,61 @@ Space
 </td>
 </tr>
 </table>
- 
 
+### -param FlowControl 
 
-### -param FlowControl [in]
-
+[in]
 Specifies the type of flow control used by the connection.
 
+### -param RxSize 
 
-### -param RxSize [in]
-
+[in]
 Specifies the maximum receive buffer size, in bytes, that is supported by this connection.
 
+### -param TxSize 
 
-### -param TxSize [in]
-
+[in]
 Specifies the maximum transmit buffer size, in bytes, that is supported by this connection.
 
+### -param ResourceSource 
 
-### -param ResourceSource [in]
-
+[in]
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
 qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
+### -param ResourceSourceIndex 
 
-### -param ResourceSourceIndex [in]
-
+[in]
 This parameter should always be zero.
 
+### -param ResourceUsage 
 
-### -param ResourceUsage [in]
-
+[in]
 Indicates if this resource is in use.
 
+### -param SharedMode 
 
-### -param SharedMode [in]
-
+[in]
 Indicates if this resource is shared.
 
+### -param VendorData 
 
-### -param VendorData [in]
-
+[in]
 A pointer to optional data that is specific to the serial bus connection type.
 
+### -param VendorDataLength 
 
-### -param VendorDataLength [in]
-
+[in]
 The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
+### -param Resource 
 
-### -param Resource [out]
-
+[out]
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_uart_resource">PEP_ACPI_SPB_UART_RESOURCE</a>.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_uart_resource">PEP_ACPI_SPB_UART_RESOURCE</a>
- 
-
- 
 

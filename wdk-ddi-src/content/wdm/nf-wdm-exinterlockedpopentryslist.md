@@ -8,8 +8,6 @@ ms.assetid: dbea07e1-f987-45d8-91cb-bde45df0672b
 ms.date: 04/30/2018
 keywords: ["ExInterlockedPopEntrySList macro"]
 ms.keywords: ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList
-f1_keywords:
- - "wdm/ExInterlockedPopEntrySList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExInterlockedPopEntrySList
-- ExpInterlockedPopEntrySList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInterlockedPopEntrySList
+ - wdm/ExInterlockedPopEntrySList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExInterlockedPopEntrySList
+ - ExpInterlockedPopEntrySList
 ---
 
 # ExInterlockedPopEntrySList macro
@@ -48,8 +47,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExInterlockedPopEntrySList</b> routine atomically removes the first entry from a sequenced singly linked list.
+
+## -parameters
+
+### -param ListHead 
+
+[in, out]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializeslisthead">ExInitializeSListHead</a>.
+
+### -param Lock 
+
+[in, out]
+A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 ## -syntax
 
@@ -63,23 +73,6 @@ ExInterlockedPopEntrySList (
     );
 ```
 
-## -parameters
-
-
-
-
-### -param ListHead [in, out]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializeslisthead">ExInitializeSListHead</a>.
-
-
-### -param Lock [in, out]
-
-A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
-
-
-
-
 ## -remarks
 
 **ExInterlockedPopEntrySList** returns a pointer to the first [**SLIST_ENTRY**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry) structure on the list. If the list was empty, the routine returns NULL.
@@ -91,13 +84,7 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 <b>ExInterlockedPopEntrySList</b> can be called at any IRQL. The storage for the <i>ListHead</i> parameter must be resident at all IRQLs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializeslisthead">ExInitializeSListHead</a>
 
@@ -116,7 +103,4 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
- 
-
- 
 

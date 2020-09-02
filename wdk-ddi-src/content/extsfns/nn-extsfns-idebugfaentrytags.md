@@ -8,8 +8,6 @@ ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
 ms.date: 05/03/2018
 keywords: ["IDebugFAEntryTags interface"]
 ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging],described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
-f1_keywords:
- - "extsfns/IDebugFAEntryTags"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- extsfns.h
-api_name:
-- IDebugFAEntryTags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugFAEntryTags
+ - extsfns/IDebugFAEntryTags
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - extsfns.h
+api_name:
+ - IDebugFAEntryTags
 ---
 
 # IDebugFAEntryTags interface
 
 
 ## -description
-
 
  When the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-analyze">!analyze</a> debugger command runs, the analysis engine
    can load and run extension analysis plug-ins. The analysis engine creates a 
@@ -145,7 +143,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,8 +8,6 @@ ms.assetid: a21be482-7640-4e72-a8af-00bb10216fa8
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::FindSourceFileWide"]
 ms.keywords: FindSourceFileWide, FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],FindSourceFileWide method, IDebugSymbols3.FindSourceFileWide, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.FindSourceFileWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.FindSourceFileWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::FindSourceFileWide
+ - dbgeng/IDebugSymbols3::FindSourceFileWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.FindSourceFileWide
 ---
 
 # IDebugSymbols3::FindSourceFileWide
@@ -47,57 +46,50 @@ req.typenames:
 
 ## -description
 
-
 The <b>FindSourceFileWide</b>  method searches the source path for a specified source file.
-
 
 ## -parameters
 
+### -param StartElement 
 
-
-
-### -param StartElement [in]
-
+[in]
 Specifies the index of an element within the source path to start searching from.  All elements in the source path before <i>StartElement</i> are excluded from the search.  The index of the first element is zero.  If <i>StartElement</i> is greater than or equal to the number of elements in the source path, the filing system is checked directly.
 
 This parameter can be used with <i>FoundElement</i> to check for multiple matches in the source path.
 
+### -param File 
 
-### -param File [in]
-
+[in]
 Specifies the path and file name of the file to search for.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies the search flags. For a description of these flags, see <a href="https://docs.microsoft.com/previous-versions/ff541495(v=vs.85)">DEBUG_FIND_SOURCE_XXX</a>.
 
 The flag DEBUG_FIND_SOURCE_TOKEN_LOOKUP should not be set.  The flag DEBUG_FIND_SOURCE_NO_SRCSRV is ignored because this method does not include source servers in the search.
 
+### -param FoundElement 
 
-### -param FoundElement [out, optional]
-
+[out, optional]
 Receives the index of the element within the source path that contains the file.  If the file was found directly on the filing system (not using the source path) then <b>-1</b> is returned to <i>FoundElement</i>.  If <i>FoundElement</i> is <b>NULL</b>, this information is not returned.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the path and name of the found file.  If the flag DEBUG_FIND_SOURCE_FULL_PATH is set, this is the full canonical path name for the file.  Otherwise, it is the concatenation of the directory in the source path with the tail of <i>File</i> that was used to find the file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
+### -param FoundSize 
 
-### -param FoundSize [out, optional]
-
+[out, optional]
 Specifies the size, in characters, of the name of the file.  If <i>FoundSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -129,14 +121,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The engine uses the following steps--in order--to search for the file:
 
@@ -162,13 +148,7 @@ The first match found is returned.
 <div> </div>
 For more information about using the source path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/source-path">Source Path</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff541495(v=vs.85)">DEBUG_FIND_SOURCE_XXX</a>
 
@@ -187,7 +167,4 @@ For more information about using the source path, see <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

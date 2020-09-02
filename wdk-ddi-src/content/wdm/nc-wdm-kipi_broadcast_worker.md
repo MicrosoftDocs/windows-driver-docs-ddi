@@ -8,8 +8,6 @@ ms.assetid: 7c4e3d6b-e000-4ac4-b200-966689d05426
 ms.date: 04/30/2018
 keywords: ["KIPI_BROADCAST_WORKER callback function"]
 ms.keywords: DrvrRtns_80b940d9-3d19-4525-af3f-8e4058c57ddc.xml, IpiGenericCall, IpiGenericCall routine [Kernel-Mode Driver Architecture], KIPI_BROADCAST_WORKER, kernel.ipigenericcall, wdm/IpiGenericCall
-f1_keywords:
- - "wdm/IpiGenericCall"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IPI_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- IpiGenericCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KIPI_BROADCAST_WORKER
+ - wdm/KIPI_BROADCAST_WORKER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - IpiGenericCall
 ---
 
 # KIPI_BROADCAST_WORKER callback function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <i>IpiGenericCall</i> routine runs simultaneously on all processors.
-
 
 ## -parameters
 
+### -param Argument 
 
-
-
-### -param Argument [in]
-
+[in]
 Supplies the value that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keipigenericcall">KeIpiGenericCall</a> routine that called <i>IpiGenericCall</i>.
-
 
 ## -returns
 
-
-
-<i>IpiGenericCall</i> returns a driver-defined value. If <i>IpiGenericCall</i> ran on the same processor that called <b>KeIpiGenericCall</b>, <b>KeIpiGenericCall</b> returns the driver-defined value that <i>IpiGenericCall</i> returns. Otherwise, the value is ignored. 
-
-
-
+<i>IpiGenericCall</i> returns a driver-defined value. If <i>IpiGenericCall</i> ran on the same processor that called <b>KeIpiGenericCall</b>, <b>KeIpiGenericCall</b> returns the driver-defined value that <i>IpiGenericCall</i> returns. Otherwise, the value is ignored.
 
 ## -remarks
-
-
 
 <i>IpiGenericCall</i> routines run at IRQL = IPI_LEVEL, which is greater than DIRQL for every device. <i>IpiGenericCall</i> routines must satisfy the same restrictions as bug check callback routines. For more information about these restrictions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
@@ -116,15 +103,7 @@ The KIPI_BROADCAST_WORKER function type is defined in the Wdm.h header file. To 
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keipigenericcall">KeIpiGenericCall</a>
- 
-
- 
 

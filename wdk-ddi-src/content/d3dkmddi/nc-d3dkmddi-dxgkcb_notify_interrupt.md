@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbNotifyInterrupt"
+ - DXGKCB_NOTIFY_INTERRUPT
+ - d3dkmddi/DXGKCB_NOTIFY_INTERRUPT
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_NOTIFY_INTERRUPT callback function
+
 
 ## -description
 

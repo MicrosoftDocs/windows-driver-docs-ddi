@@ -8,8 +8,6 @@ ms.assetid: 4c08a70e-5092-40fb-94fd-c3ef8a5537b5
 ms.date: 04/30/2018
 keywords: ["RtlUlongByteSwap macro"]
 ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, wdm/RtlUlongByteSwap
-f1_keywords:
- - "wdm/RtlUlongByteSwap"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlUlongByteSwap
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUlongByteSwap
+ - wdm/RtlUlongByteSwap
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlUlongByteSwap
 ---
 
 # RtlUlongByteSwap macro
@@ -47,25 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlUlongByteSwap</b> routine reverses the ordering of the four bytes in a 32-bit unsigned integer value.
-
 
 ## -parameters
 
+### -param Source 
 
-
-
-### -param Source [in]
-
+[in]
 A ULONG value to convert to a byte-swapped version.
 
 ## -returns
+
 The byte-swapped version of the Source input parameter value.
 
 ## -remarks
-
-
 
 For example, if the <i>Source</i> parameter value is 0x12345678, the routine returns 0x78563412.
 
@@ -75,20 +69,11 @@ Use this routine instead of <b>ntohl</b> or <b>htonl</b>.
 
 To reverse the ordering of bytes in a USHORT value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a>
- 
-
- 
 

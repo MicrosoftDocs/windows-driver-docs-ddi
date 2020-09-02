@@ -8,8 +8,6 @@ ms.assetid: 6454adb3-c958-467b-acbc-b8937b98cd57
 ms.date: 05/10/2018
 keywords: ["DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function"]
 ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback, DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], display.DxgkCbAcquirePostDisplayOwnership, dispmprt/DxgkCbAcquirePostDisplayOwnership
-f1_keywords:
- - "dispmprt/DxgkCbAcquirePostDisplayOwnership"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkCbAcquirePostDisplayOwnership
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP
+ - dispmprt/DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkCbAcquirePostDisplayOwnership
 ---
 
 # DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function
@@ -47,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to obtain the display information from the current  power-on self-test (POST) display device or the previously running WDDM driver.
 
  The driver must use this display information to optimize the initial mode change request after the display device has been started.
 
-
 ## -parameters
 
+### -param DeviceHandle 
 
-
-
-### -param DeviceHandle [in]
-
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
+### -param DisplayInfo 
 
-### -param DisplayInfo [out]
-
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgk_display_information">DXGK_DISPLAY_INFORMATION</a> structure that is allocated by the display miniport driver. If <i>DxgkCbAcquirePostDisplayOwnership</i> returns STATUS_SUCCESS, this structure contains display information for the current display device that is used for POST operations.
-
 
 ## -returns
 
-
-
 <i>DxgkCbAcquirePostDisplayOwnership</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>
 The <i>DisplayInfo</i>-><b>ColorFormat</b> member must include a bitwise-OR combination of the following two formats:
@@ -123,12 +110,7 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a>
 
@@ -151,7 +133,4 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>
- 
-
- 
 

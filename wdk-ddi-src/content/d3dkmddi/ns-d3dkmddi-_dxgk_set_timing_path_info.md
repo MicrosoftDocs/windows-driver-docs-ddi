@@ -5,44 +5,45 @@ description: Structure to hold information to modify SetTiming path.
 old-location: display\dxgk_set_timing_path_info.htm
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.date: 05/10/2018
-keywords: ["_DXGK_SET_TIMING_PATH_INFO structure"]
+keywords: ["DXGK_SET_TIMING_PATH_INFO structure"]
 ms.keywords: DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info
-f1_keywords:
- - "d3dkmddi/DXGK_SET_TIMING_PATH_INFO"
 req.header: d3dkmddi.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_SET_TIMING_PATH_INFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SET_TIMING_PATH_INFO
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_SET_TIMING_PATH_INFO
+ - d3dkmddi/_DXGK_SET_TIMING_PATH_INFO
+ - DXGK_SET_TIMING_PATH_INFO
+ - d3dkmddi/DXGK_SET_TIMING_PATH_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_SET_TIMING_PATH_INFO
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_SET_TIMING_PATH_INFO structure
@@ -50,53 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Structure to hold information to modify SetTiming path.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DXGK_SET_TIMING_PATH_INFO {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID     VidPnTargetId;
-  D3DDDI_COLOR_SPACE_TYPE            OutputColorSpace;
-  D3DKMDT_WIRE_FORMAT_AND_PREFERENCE SelectedWireFormat;
-  union {
-    struct {
-      DXGK_PATH_UPDATE VidPnPathUpdates  :2;
-      UINT             Active  :1;
-      UINT             IgnoreConnectivity  :1;
-      UINT             PreserveInherited  :1;
-      UINT             Reserved  :27;
-    } Input;
-    UINT InputFlags;
-  };
-  union {
-    struct {
-      UINT RecheckMPO  :1;
-      UINT Reserved  :31;
-    } Output;
-    UINT OutputFlags;
-  };
-  DXGK_CONNECTION_CHANGE             TargetState;
-  union {
-    struct {
-      DXGK_GLITCH_CAUSE    GlitchCause;
-      DXGK_GLITCH_EFFECT   GlitchEffect;
-      DXGK_GLITCH_DURATION GlitchDuration;
-      UINT8                Reserved;
-    };
-    UINT DiagnosticInfo;
-  };
-} DXGK_SET_TIMING_PATH_INFO, *PDXGK_SET_TIMING_PATH_INFO;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field VidPnTargetId
 
@@ -127,7 +84,6 @@ Given that there are no plans to support ST.2084 gamma with Rec.709 primaries, o
 #### OutputWireColorSpace
 
 The D3DDDI_COLOR_SPACE_TYPE enum type is also used by OS to specify the input color space of MPOs, hence it is deprecated starting in WDDM 2.3. WDDM2.3 and later drivers should use the new type D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE.
-
 
 ### -field SelectedWireFormat
 
@@ -201,7 +157,6 @@ This value is reserved for system use.
 
 A set of flags specifying outcomes the OS needs to be aware of relating to this path.
 
-
 ### -field TargetState
 
 Indicates the target state as a result of this call. Since changing timings may cause the connection state of both modified targets and targets which the OS did not intended to change, this field communicates the state for each path.
@@ -238,4 +193,41 @@ This value is reserved for system use.
 
 Set of information filled out by the driver for each path to describe any side-effects of the timing change.
 In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.
+
+## -syntax
+
+```cpp
+typedef struct _DXGK_SET_TIMING_PATH_INFO {
+  D3DDDI_VIDEO_PRESENT_TARGET_ID     VidPnTargetId;
+  D3DDDI_COLOR_SPACE_TYPE            OutputColorSpace;
+  D3DKMDT_WIRE_FORMAT_AND_PREFERENCE SelectedWireFormat;
+  union {
+    struct {
+      DXGK_PATH_UPDATE VidPnPathUpdates  :2;
+      UINT             Active  :1;
+      UINT             IgnoreConnectivity  :1;
+      UINT             PreserveInherited  :1;
+      UINT             Reserved  :27;
+    } Input;
+    UINT InputFlags;
+  };
+  union {
+    struct {
+      UINT RecheckMPO  :1;
+      UINT Reserved  :31;
+    } Output;
+    UINT OutputFlags;
+  };
+  DXGK_CONNECTION_CHANGE             TargetState;
+  union {
+    struct {
+      DXGK_GLITCH_CAUSE    GlitchCause;
+      DXGK_GLITCH_EFFECT   GlitchEffect;
+      DXGK_GLITCH_DURATION GlitchDuration;
+      UINT8                Reserved;
+    };
+    UINT DiagnosticInfo;
+  };
+} DXGK_SET_TIMING_PATH_INFO, *PDXGK_SET_TIMING_PATH_INFO;
+```
 

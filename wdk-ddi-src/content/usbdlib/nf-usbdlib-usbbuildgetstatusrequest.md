@@ -8,8 +8,6 @@ ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
 ms.date: 05/07/2018
 keywords: ["UsbBuildGetStatusRequest macro"]
 ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml
-f1_keywords:
- - "usbdlib/UsbBuildGetStatusRequest"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbdlib.h
-api_name:
-- UsbBuildGetStatusRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UsbBuildGetStatusRequest
+ - usbdlib/UsbBuildGetStatusRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbdlib.h
+api_name:
+ - UsbBuildGetStatusRequest
 ---
 
 # UsbBuildGetStatusRequest macro
@@ -47,23 +46,18 @@ req.typenames:
 
 ## -description
 
-
-
    The <b>UsbBuildGetStatusRequest</b> macro formats an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
-
 
 ## -parameters
 
+### -param urb 
 
-
-
-### -param urb [in, out]
-
+[in, out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be formatted as an status request.
 
+### -param op 
 
-### -param op [in]
-
+[in]
 Specifies one of the following values:
 
 
@@ -92,31 +86,27 @@ Retrieves status from an endpoint for an interface on a USB device.
 
 Retrieves status from a device-defined target on a USB device.
 
+### -param index 
 
-### -param index [in]
-
+[in]
 Specifies the device-defined index, returned by a successful configuration request, if the request is for an endpoint or interface. Otherwise, <i>Index</i> must be zero.
 
+### -param transferBuffer 
 
-### -param transferBuffer [in, optional]
-
+[in, optional]
 Pointer to a resident buffer to receive the status data or is <b>NULL</b> if an MDL is supplied in <i>TransferBufferMDL</i>.
 
+### -param transferBufferMDL 
 
-### -param transferBufferMDL [in, optional]
-
+[in, optional]
 Pointer to an MDL that describes a resident buffer to receive the status data or is <b>NULL</b> if a buffer is supplied in <i>TransferBuffer</i>.
 
+### -param link 
 
-### -param link [in]
-
-Reserved. Must be set to <b>NULL</b>. 
-
+[in]
+Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
 
@@ -127,7 +117,4 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_get_status_request">_URB_CONTROL_GET_STATUS_REQUEST</a>
- 
-
- 
 

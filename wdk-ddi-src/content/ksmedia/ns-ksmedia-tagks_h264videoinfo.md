@@ -8,8 +8,6 @@ ms.assetid: 1EBA2124-F5D3-4683-B967-8179CCCD3102
 ms.date: 09/12/2018
 keywords: ["tagKS_H264VIDEOINFO structure"]
 ms.keywords: "*PKS_H264VIDEOINFO, KS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices], PKS_H264VIDEOINFO, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, stream.ks_h264videoinfo, tagKS_H264VIDEOINFO"
-f1_keywords:
- - "ksmedia/KS_H264VIDEOINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KS_H264VIDEOINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_H264VIDEOINFO, *PKS_H264VIDEOINFO
+f1_keywords:
+ - tagKS_H264VIDEOINFO
+ - ksmedia/tagKS_H264VIDEOINFO
+ - PKS_H264VIDEOINFO
+ - ksmedia/PKS_H264VIDEOINFO
+ - KS_H264VIDEOINFO
+ - ksmedia/KS_H264VIDEOINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KS_H264VIDEOINFO
 ---
 
 # tagKS_H264VIDEOINFO structure
+
 
 ## -description
 
@@ -125,8 +129,6 @@ The following are examples of allowed values:
 <td>Stereo High Profile.</td>
 </tr>
 </table>
- 
-
 
 ### -field bLevelIDC
 
@@ -151,7 +153,7 @@ The following are examples of allowed values:
 <td>Level 4.0.</td>
 </tr>
 </table>
- 
+
 ### -field wConstrainedToolset
 
 Constrains the features allowed by <b>wProfile</b>.
@@ -182,8 +184,6 @@ Constrains the features allowed by <b>wProfile</b>.
 <td>Reserved.</td>
 </tr>
 </table>
- 
-
 
 ### -field bmSupportedUsages
 
@@ -251,8 +251,6 @@ Defines the bitmap that specifies the supported usages.
 <td>Reserved; set to 0.</td>
 </tr>
 </table>
- 
-
 
 ### -field bmCapabilities
 
@@ -292,8 +290,6 @@ Defines the bitmap that specifies the capabilities for this frame descriptor.
 <td>Reserved; set to 0.</td>
 </tr>
 </table>
- 
-
 
 ### -field bmSVCCapabilities
 
@@ -333,8 +329,6 @@ Defines the bitmap that specifies the Scalable Video Coding (SVC) capabilities.
 <td>Reserved.</td>
 </tr>
 </table>
- 
-
 
 ### -field bmMVCCapabilities
 
@@ -358,8 +352,6 @@ Defines the bitmap that specifies the Multicast Video Coding (MVC) capabilities.
 <td>Reserved.</td>
 </tr>
 </table>
- 
-
 
 ### -field dwFrameInterval
 
@@ -371,7 +363,6 @@ Specifies the supported frame interval.
 ### -field bMaxCodecConfigDelay
 
 Specifies the maximum number of frames the encoder takes to respond to a command.
-
 
 ### -field bmSupportedSliceModes
 
@@ -395,16 +386,10 @@ Defines the bitmap that specifies the slice modes.
 <td>Reserved.</td>
 </tr>
 </table>
- 
-
 
 ### -field bmSupportedSyncFrameTypes
 
-
 ### -field bResolutionScaling
-
- 
-
 
 ### -field bSimulcastSupport
 
@@ -424,8 +409,6 @@ Specifies the number of H.264 video streaming endpoints and the number of stream
 <td>One endpoint and multiple streams.</td>
 </tr>
 </table>
- 
-
 
 ### -field bmSupportedRateControlModes
 
@@ -465,103 +448,44 @@ Defines the bitmap that specifies the rate control modes.
 <td>Reserved, set to 0.</td>
 </tr>
 </table>
- 
-
 
 ### -field wMaxMBperSecOneResolutionNoScalability
 
- 
-
-
 ### -field wMaxMBperSecTwoResolutionsNoScalability
-
- 
-
 
 ### -field wMaxMBperSecThreeResolutionsNoScalability
 
- 
-
-
 ### -field wMaxMBperSecFourResolutionsNoScalability
-
- 
-
 
 ### -field wMaxMBperSecOneResolutionTemporalScalability
 
- 
-
-
 ### -field wMaxMBperSecTwoResolutionsTemporalScalablility
-
- 
-
 
 ### -field wMaxMBperSecThreeResolutionsTemporalScalability
 
- 
-
-
 ### -field wMaxMBperSecFourResolutionsTemporalScalability
-
- 
-
 
 ### -field wMaxMBperSecOneResolutionTemporalQualityScalability
 
- 
-
-
 ### -field wMaxMBperSecTwoResolutionsTemporalQualityScalability
-
- 
-
 
 ### -field wMaxMBperSecThreeResolutionsTemporalQualityScalablity
 
- 
-
-
 ### -field wMaxMBperSecFourResolutionsTemporalQualityScalability
-
- 
-
 
 ### -field wMaxMBperSecOneResolutionTemporalSpatialScalability
 
- 
-
-
 ### -field wMaxMBperSecTwoResolutionsTemporalSpatialScalability
-
- 
-
 
 ### -field wMaxMBperSecThreeResolutionsTemporalSpatialScalablity
 
- 
-
-
 ### -field wMaxMBperSecFourResolutionsTemporalSpatialScalability
-
- 
-
 
 ### -field wMaxMBperSecOneResolutionFullScalability
 
- 
-
-
 ### -field wMaxMBperSecTwoResolutionsFullScalability
 
- 
-
-
 ### -field wMaxMBperSecThreeResolutionsFullScalability
-
- 
-
 
 ### -field wMaxMBperSecFourResolutionsFullScalability
 
@@ -682,13 +606,13 @@ Specifies the maximum macroblock processing rate allowed for temporal and qualit
 
 Specifies the maximum macroblock processing rate allowed for temporal scalable streams, summing up across all layers when all layers consist of two different resolutions.
 
-
 ## -remarks
 
-The KS_H264VIDEOINFO structure contains the frame and the format descriptor information.  
+The KS_H264VIDEOINFO structure contains the frame and the format descriptor information.
 
 ## -see-also
 
 [KS_DATAFORMAT_H264VIDEOINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_dataformat_h264videoinfo)
 
 [KS_DATARANGE_H264_VIDEO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_datarange_h264_video)
+

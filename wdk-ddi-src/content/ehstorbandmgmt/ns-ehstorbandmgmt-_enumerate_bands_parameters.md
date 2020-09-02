@@ -6,10 +6,8 @@ old-location: storage\enumerate_bands_parameters.htm
 tech.root: storage
 ms.assetid: A493EF45-AA62-43FE-8E19-613B66FA0D83
 ms.date: 03/29/2018
-keywords: ["_ENUMERATE_BANDS_PARAMETERS structure"]
+keywords: ["ENUMERATE_BANDS_PARAMETERS structure"]
 ms.keywords: "*PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_ENUM_ALL_BANDS, ENUMBANDS_REPORT_CRYPTO_ALGO, ENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], PENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], _ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, storage.enumerate_bands_parameters"
-f1_keywords:
- - "ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorBandMgmt.h
-api_name:
-- ENUMERATE_BANDS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: ENUMERATE_BANDS_PARAMETERS, *PENUMERATE_BANDS_PARAMETERS
+f1_keywords:
+ - _ENUMERATE_BANDS_PARAMETERS
+ - ehstorbandmgmt/_ENUMERATE_BANDS_PARAMETERS
+ - PENUMERATE_BANDS_PARAMETERS
+ - ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS
+ - ENUMERATE_BANDS_PARAMETERS
+ - ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorBandMgmt.h
+api_name:
+ - ENUMERATE_BANDS_PARAMETERS
 ---
 
 # _ENUMERATE_BANDS_PARAMETERS structure
@@ -47,19 +50,13 @@ req.typenames: ENUMERATE_BANDS_PARAMETERS, *PENUMERATE_BANDS_PARAMETERS
 
 ## -description
 
-
 The <b>ENUMERATE_BANDS_PARAMETERS</b> structure is used to select which band information entries are selected for return from an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(ENUMERATE_BANDS_PARAMETERS).
-
 
 ### -field Flags
 
@@ -91,32 +88,24 @@ Include media encryption algorithm information in the <b>SecurityInfo</b> member
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved.
 
-
 ### -field BandId
 
 The identifier of a single band to return information for. <b>BandSize</b> must be 0 when a single band is selected  with <b>BandId.</b> To use <b>BandStart</b> and <b>BandSize</b> instead of <b>BandId</b> to select a band, set <b>BandId</b> = (ULONG) –1.
-
 
 ### -field BandStart
 
 The starting byte location on the storage device to begin a band search. An attempt is made to match a band at or after <b>BandStart</b>.
 
-
 ### -field BandSize
 
 An optional band size match value in bytes. If <b>BandSize</b> == 0 and <b>BandId</b> == –1, then <b>BandStart</b> is the only match value for selecting a band. Otherwise, a band at or after <b>BandStart</b> and matching  <b>BandSize</b> exactly is selected.
 
-
 ## -remarks
-
-
 
 When <b>ENUMBANDS_ENUM_ALL_BANDS</b> is not set in <b>Flags</b>, a selection attempt is made to match a single band. A single band match is made based on the values in <b>BandID</b>, <b>BandStart</b>, and <b>BandSize</b>. Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b> > 0 and  <b>BandID</b> < <b>MaxBandCount</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a> If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <b>BAND_MANAGEMENT_CAPABILITIES</b>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> and <b>BandSize</b> are used as  match criteria to select a band.
 
@@ -126,13 +115,7 @@ If <b>BandID</b> == 0 or no bands are configured and <b>Flags</b> is not set to 
 
 <b>BandStart</b> and <b>BandSize</b> are not valid unless their values, in bytes, are exact multiples of the sector size of the underlying storage device.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>
 
@@ -147,7 +130,4 @@ If <b>BandID</b> == 0 or no bands are configured and <b>Flags</b> is not set to 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
- 
-
- 
 

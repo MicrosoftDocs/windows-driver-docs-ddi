@@ -6,10 +6,8 @@ old-location: netvista\net_pnp_event_notification.htm
 tech.root: netvista
 ms.assetid: 58d3baf3-a1fa-42ae-b795-2774a148aeda
 ms.date: 05/02/2018
-keywords: ["_NET_PNP_EVENT_NOTIFICATION structure"]
+keywords: ["NET_PNP_EVENT_NOTIFICATION structure"]
 ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT_NOTIFICATION, PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml"
-f1_keywords:
- - "ndis/NET_PNP_EVENT_NOTIFICATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NET_PNP_EVENT_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION
+f1_keywords:
+ - _NET_PNP_EVENT_NOTIFICATION
+ - ndis/_NET_PNP_EVENT_NOTIFICATION
+ - PNET_PNP_EVENT_NOTIFICATION
+ - ndis/PNET_PNP_EVENT_NOTIFICATION
+ - NET_PNP_EVENT_NOTIFICATION
+ - ndis/NET_PNP_EVENT_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_PNP_EVENT_NOTIFICATION
 ---
 
 # _NET_PNP_EVENT_NOTIFICATION structure
@@ -47,15 +50,10 @@ req.typenames: NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION
 
 ## -description
 
-
 The NET_PNP_EVENT_NOTIFICATION structure describes a network Plug and Play (PnP) event, an NDIS PnP
   event, or a power management event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,19 +65,16 @@ The
      <b>Revision</b> member to NET_PNP_EVENT_NOTIFICATION_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_NET_PNP_EVENT_NOTIFICATION_REVISION_1.
 
-
 ### -field PortNumber
 
 The source port of the event notification. If the status indication is not specific to a port, 
      <b>PortNumber</b> is zero.
-
 
 ### -field NetPnPEvent
 
 A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure that describes the
      event.
-
 
 ### -field Flags
 
@@ -102,7 +97,6 @@ A value of **NDIS_DEFAULT_VPORT_ID** specifies the default VPort on the switch. 
 
 > [!NOTE]
 > A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
-
 
 ## -remarks
 
@@ -134,13 +128,7 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function of
     overlying protocol drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a>
 
@@ -155,7 +143,4 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
- 
-
- 
 

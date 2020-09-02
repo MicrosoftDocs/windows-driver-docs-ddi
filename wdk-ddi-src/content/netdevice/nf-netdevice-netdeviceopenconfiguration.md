@@ -1,45 +1,42 @@
 ---
 UID: NF:netdevice.NetDeviceOpenConfiguration
 title: NetDeviceOpenConfiguration function (netdevice.h)
-description: The NetDeviceOpenConfiguration method opens a net device's configuration database.
+description: The NetDeviceOpenConfiguration function opens a net device's configuration database.
 tech.root: netvista
 ms.assetid: 3446a849-1637-4aa8-96b6-70491c47bf31
 ms.date: 07/19/2018
 keywords: ["NetDeviceOpenConfiguration function"]
-f1_keywords:
- - "netdevice/NetDeviceOpenConfiguration"
 ms.keywords: NetDeviceOpenConfiguration
 req.header: netdevice.h
 req.include-header: netadaptercxstub.lib
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetDeviceOpenConfiguration
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - NetDeviceOpenConfiguration
+ - netdevice/NetDeviceOpenConfiguration
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetDeviceOpenConfiguration
 ---
 
 # NetDeviceOpenConfiguration function
@@ -47,9 +44,7 @@ ms.custom: RS5
 
 ## -description
 
-
-
-The **NetDeviceOpenConfiguration** method opens a net device's configuration database.
+The **NetDeviceOpenConfiguration** function opens a net device's configuration database.
 
 ## -parameters
 
@@ -67,11 +62,11 @@ A pointer to the location that receives the new NETCONFIGURATION object.
 
 ## -returns
 
-This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+This function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 
-Typically, the client calls this method from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function.
+Typically, the client calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function.
 
 If the client provides a [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md), it specifies **NULL** for **ParentObject**. The device configuration object is automatically parented to the device object.
 
@@ -80,3 +75,4 @@ As a result, WDF automatically deletes the configuration object when the device 
 ## -see-also
 
 [Accessing configuration information](https://docs.microsoft.com/windows-hardware/drivers/netcx/accessing-configuration-information)
+

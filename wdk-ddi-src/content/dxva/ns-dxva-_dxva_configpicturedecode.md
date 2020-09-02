@@ -6,10 +6,8 @@ old-location: display\dxva_configpicturedecode.htm
 tech.root: display
 ms.assetid: b36c2901-33ca-4c76-98d0-8dbe6551226b
 ms.date: 05/10/2018
-keywords: ["_DXVA_ConfigPictureDecode structure"]
+keywords: ["DXVA_ConfigPictureDecode structure"]
 ms.keywords: "*LPDXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode structure [Display Devices], LPDXVA_ConfigPictureDecode, LPDXVA_ConfigPictureDecode structure pointer [Display Devices], _DXVA_ConfigPictureDecode, display.dxva_configpicturedecode, dxva/DXVA_ConfigPictureDecode, dxva/LPDXVA_ConfigPictureDecode, dxvaref_857a5bfe-282a-49c2-8db6-a0fde8e26a61.xml"
-f1_keywords:
- - "dxva/DXVA_ConfigPictureDecode"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_ConfigPictureDecode
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigPictureDecode, *LPDXVA_ConfigPictureDecode
+f1_keywords:
+ - _DXVA_ConfigPictureDecode
+ - dxva/_DXVA_ConfigPictureDecode
+ - LPDXVA_ConfigPictureDecode
+ - dxva/LPDXVA_ConfigPictureDecode
+ - DXVA_ConfigPictureDecode
+ - dxva/DXVA_ConfigPictureDecode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_ConfigPictureDecode
 ---
 
 # _DXVA_ConfigPictureDecode structure
@@ -47,14 +50,9 @@ req.typenames: DXVA_ConfigPictureDecode, *LPDXVA_ConfigPictureDecode
 
 ## -description
 
-
 The DXVA_ConfigPictureDecode structure is sent by the host decoder to the accelerator to set the configuration for compressed picture decoding.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFunction
 
@@ -64,43 +62,35 @@ The least significant 4 bits of the <i>DXVA_ConfigQueryOrReplyFlag</i> variable 
 
 The least significant 8 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> that, in this case, is equal to 1.
 
-
 ### -field dwReservedBits
 
 Reserved bits used for packing and alignment. These bits are zero.
-
 
 ### -field guidConfigBitstreamEncryption
 
 Indicates a GUID associated with the encryption protocol type for bitstream data buffers. The value DXVA_NoEncrypt (a GUID name defined in <i>dxva.h</i>) indicates that encryption is not applied. This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is zero.
 
-
 ### -field guidConfigMBcontrolEncryption
 
-Indicates a GUID associated with the encryption protocol type for <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding">macroblock control buffers</a>. The value DXVA_NoEncrypt (a GUID name defined in <i>dxva.h</i>) indicates that encryption is not applied. This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is 1. 
-
+Indicates a GUID associated with the encryption protocol type for <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding">macroblock control buffers</a>. The value DXVA_NoEncrypt (a GUID name defined in <i>dxva.h</i>) indicates that encryption is not applied. This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is 1.
 
 ### -field guidConfigResidDiffEncryption
 
 Indicates a GUID associated with the encryption protocol type for residual difference decoding data buffers (buffers containing spatial-domain data or sets of transform-domain coefficients for accelerator-based <a href="https://docs.microsoft.com/windows-hardware/drivers/">IDCT</a>). This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is 1. (DXVA_NoEncrypt is a GUID defined in <i>dxva.h</i> that indicates encryption is not applied.)
 
-
 ### -field bConfigBitstreamRaw
 
 Contains the bitstream processing indicator. A value of 1 specifies that the picture data will be sent in bitstream buffers as raw bitstream content. A value of zero specifies that picture data will be sent using macroblock control command buffers. 
 
-This is zero if <b>bConfigResidDiffHost</b> is 1 or if <b>bConfigResidDiffAccelerator</b> is 1. The value zero is considered the basic level of support. The additional support of level one is preferred. 
-
+This is zero if <b>bConfigResidDiffHost</b> is 1 or if <b>bConfigResidDiffAccelerator</b> is 1. The value zero is considered the basic level of support. The additional support of level one is preferred.
 
 ### -field bConfigMBcontrolRasterOrder
 
 Specifies whether macroblock control commands are in raster scan order or in arbitrary order. A value of 1 specifies that the macroblock control commands within each macroblock control command buffer are in raster scan order, and a value of zero indicates arbitrary order. Currently, a driver is allowed to restrict support to raster scan order; however, a driver should support both arbitrary and raster scan order.
 
-
 ### -field bConfigResidDiffHost
 
 Contains the host residual difference configuration (See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding">Macroblock-Oriented Picture Decoding</a> for more information). A value of 1 specifies that some residual difference decoding data may be sent as blocks in the spatial domain from the host. A value of zero specifies that spatial domain data will not be sent. This member is zero if <b>bConfigBitstreamRaw</b> is 1. It is preferred that an accelerator support both zero and 1.
-
 
 ### -field bConfigSpatialResid8
 
@@ -141,16 +131,13 @@ The <b>bConfigSpatialResid8</b> member must be zero if <b>bConfigResidDiffHost</
 
 When equal to 1, indicates that 8-bit difference overflow blocks are subtracted rather than added. Must be zero unless <b>bConfigSpatialResid8</b> is 1. The preferred value for an accelerator to support is 1 if <b>bConfigSpatialResid8</b> is 1. The ability to subtract differences rather than to add them allows 8-bit difference decoding to be fully compliant with the full +/-255 range of values required in video decoder specifications. This is because +255 cannot be represented as the addition of two signed 8-bit numbers but any number in the range +/-255 can be represented as the difference between two signed 8-bit numbers (+255 is equal to +127 minus âˆ’128).
 
-
 ### -field bConfigSpatialHost8or9Clipping
 
 When equal to 1, indicates that spatial-domain blocks for intra macroblocks are clipped to an 8-bit range on the host and that spatial-domain blocks for nonintra macroblocks are clipped to a 9-bit range on the host. A value of zero indicates that no such clipping is performed by the host. Must be zero unless <b>bConfigSpatialResid8</b> is equal to zero and <b>bConfigResidDiffHost</b> is equal to 1. The preferred value for an accelerator to support is zero.
 
-
 ### -field bConfigSpatialResidInterleaved
 
 When equal to 1, indicates that any spatial-domain residual difference data is sent in a chrominance-interleaved form matching the YUV format chrominance interleaving pattern. Must be zero unless <b>bConfigResidDiffHost</b> is 1 and the YUV format is NV12 or NV21. The preferred value for an accelerator to support is zero.
-
 
 ### -field bConfigIntraResidUnsigned
 
@@ -184,7 +171,6 @@ The <b>bConfigIntraResidUnsigned</b> member must be zero unless <b>bConfigResidD
 
 The preferred value for an accelerator to support is zero for <b>bConfigIntraResidUnsigned</b>.
 
-
 ### -field bConfigResidDiffAccelerator
 
 Contains the accelerator residual difference configuration. A value of 1 indicates that transform-domain blocks of coefficient data may be sent from the host for accelerator-based IDCT. A value of zero specifies that accelerator-based IDCT will not be used. If both <b>bConfigResidDiffHost</b> and <b>bConfigResidDiffAccelerator</b> are 1, some residual difference decoding will be done on the host and some on the accelerator, as indicated by macroblock-level control commands. This member must be zero if <b>bConfigBitstreamRaw</b> is 1. 
@@ -193,13 +179,11 @@ The preferred value for an accelerator to support is 1 for <b>bConfigResidDiffAc
 
 When <b>bConfigResidDiffAccelerator</b> and <b>bConfigResidDiffHost</b> are equal to 1, residual difference decoding can be shared between the host and accelerator on a macroblock basis. This is considered an even higher level of accelerator capability than when <b>bConfigResidDiffAccelerator</b> is equal to 1 and <b>bConfigResidDiffHost</b> is equal to zero.
 
-
 ### -field bConfigHostInverseScan
 
 Indicates whether the inverse scan for transform-domain block processing is performed on the host or the accelerator. A value of 1 indicates that the inverse scan for transform-domain block processing will be performed on the host, and absolute indices will be sent instead for any transform coefficients. A value of zero indicates that inverse scan will be performed on the accelerator. This member must be zero if <b>bConfigResidDiffAccelerator</b> is zero or if <b>bConfig4GroupedCoefs</b> is 1.
 
 The preferred value for an accelerator to support is 1 if <b>bConfigResidDiffAccelerator</b> is 1.
-
 
 ### -field bConfigSpecificIDCT
 
@@ -216,20 +200,11 @@ A value of 1 indicates that transform coefficients for off-host IDCT will be sen
 
 The preferred value for an accelerator to support is zero if <b>bConfigResidDiffAccelerator</b> is 1.
 
-
 ## -remarks
-
-
 
 For some types of bitstreams, forcing macroblock control commands within each macroblock control command buffer to be in raster order either greatly increases the number of required buffers that must be processed or requires host reordering of the control information. Support of arbitrary order can thus be advantageous for the decoding process. For example, H.261 CIF-resolution decoding can require 36 macroblock control buffers per picture if raster scan order is necessary within each buffer (H.263 Annex K's arbitrary slice ordering and rectangular slice modes have more severe repercussions, possibly requiring an extremely large number of buffers.)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_mbctrl_i_hostresiddiff_1">DXVA_MBctrl_I_HostResidDiff_1</a>
 
@@ -252,7 +227,4 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a>
- 
-
- 
 

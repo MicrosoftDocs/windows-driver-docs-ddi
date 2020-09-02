@@ -8,8 +8,6 @@ ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
 ms.date: 04/20/2018
 keywords: ["GdiGetDevmodeForPage function"]
 ms.keywords: GdiGetDevmodeForPage, GdiGetDevmodeForPage function [Print Devices], gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, print.gdigetdevmodeforpage, winppi/GdiGetDevmodeForPage
-f1_keywords:
- - "winppi/GdiGetDevmodeForPage"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GdiGetDevmodeForPage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GdiGetDevmodeForPage
+ - winppi/GdiGetDevmodeForPage
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GdiGetDevmodeForPage
 ---
 
 # GdiGetDevmodeForPage function
@@ -49,47 +48,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GdiGetDevmodeForPage</b> function returns <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structures for the specified and previous pages of a print job.
 
-
 ## -parameters
-
-
-
 
 ### -param SpoolFileHandle
 
 Caller-supplied spool file handle, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetspoolfilehandle">GdiGetSpoolFileHandle</a>.
 
-
 ### -param dwPageNumber
 
 Caller-supplied number of the page for which <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> contents are to be returned.
-
 
 ### -param pCurrDM
 
 Caller-supplied location to receive a pointer to a DEVMODE structure for the page specified by <i>dwPageNumber</i>.
 
-
 ### -param pLastDM
 
 Caller-supplied location to receive a pointer to a DEVMODE structure for the page previous to the one specified by <i>dwPageNumber</i>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GdiGetDevmodeForPage</b> function is exported by gdi32.dll for use within a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
 
@@ -110,6 +93,4 @@ Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-
 </li>
 </ol>
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.
-
-
 

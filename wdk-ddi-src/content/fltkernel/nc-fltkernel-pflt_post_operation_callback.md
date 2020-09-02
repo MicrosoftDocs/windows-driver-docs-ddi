@@ -8,41 +8,41 @@ ms.assetid: 5bf2a533-e06b-4834-9075-62cb62fa5b06
 ms.date: 07/03/2019
 keywords: ["PFLT_POST_OPERATION_CALLBACK callback"]
 ms.keywords: FltCallbacks_a3bdb676-d994-4bef-9b35-c233b12c5c9c.xml, PFLT_POST_OPERATION_CALLBACK, PFLT_POST_OPERATION_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_POST_OPERATION_CALLBACK, ifsk.pflt_post_operation_callback
-f1_keywords:
- - "fltkernel/PFLT_POST_OPERATION_CALLBACK"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later Windows operating systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- PFLT_POST_OPERATION_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
+f1_keywords:
+ - PFLT_POST_OPERATION_CALLBACK
+ - fltkernel/PFLT_POST_OPERATION_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - PFLT_POST_OPERATION_CALLBACK
 ---
 
 # PFLT_POST_OPERATION_CALLBACK callback
+
 
 ## -description
 
@@ -50,20 +50,24 @@ A minifilter driver can register one or more routines of type PFLT_POST_OPERATIO
 
 ## -parameters
 
-### -param Data [in, out]
+### -param Data 
 
+[in, out]
 A pointer to the callback data [FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data) structure for the I/O operation.
 
-### -param FltObjects [in]
+### -param FltObjects 
 
+[in]
 A pointer to a filter manager maintained [FLT_RELATED_OBJECTS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects) structure that contains opaque pointers for the objects related to the current I/O request.
 
-### -param CompletionContext [in, optional]
+### -param CompletionContext 
 
+[in, optional]
 A context pointer that was returned by the minifilter driver's pre-operation callback [PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback) routine.  The *CompletionContext* pointer provides a way to communicate information from the pre-operation callback routine to the post-operation callback routine.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 A bitmask of flags that specifies how the post-operation callback is to be performed.
 
 | Flag | Meaning |
@@ -188,3 +192,4 @@ A minifilter driver can register a post-operation callback routine for a particu
 [FltSetCallbackDataDirty](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcallbackdatadirty)
 
 [PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback)
+

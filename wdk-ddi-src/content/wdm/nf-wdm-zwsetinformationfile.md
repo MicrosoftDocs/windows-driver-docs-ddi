@@ -8,8 +8,6 @@ ms.assetid: a6f92495-89f0-4728-b6d8-083c55bc3206
 ms.date: 04/30/2018
 keywords: ["ZwSetInformationFile function"]
 ms.keywords: NtSetInformationFile, ZwSetInformationFile, ZwSetInformationFile routine [Kernel-Mode Driver Architecture], k111_91ac021a-37b3-4d2d-9369-c80659e0dcd7.xml, kernel.zwsetinformationfile, wdm/NtSetInformationFile, wdm/ZwSetInformationFile
-f1_keywords:
- - "wdm/ZwSetInformationFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwSetInformationFile
-- NtSetInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwSetInformationFile
+ - wdm/ZwSetInformationFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwSetInformationFile
+ - NtSetInformationFile
 ---
 
 # ZwSetInformationFile function
@@ -48,38 +47,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwSetInformationFile</b> routine changes various kinds of information about a file object.
-
 
 ## -parameters
 
+### -param FileHandle 
 
-
-
-### -param FileHandle [in]
-
+[in]
 Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>.
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [out]
-
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. The <b>Information</b> member receives the number of bytes set on the file.
 
+### -param FileInformation 
 
-### -param FileInformation [in]
-
+[in]
 
 Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the <i>FileInformationClass</i> parameter. For example, if the <i>FileInformationClass</i> parameter is set to the **FileDispositionInformationEx** constant, this parameter should be a pointer to a [**FILE_DISPOSITION_INFORMATION_EX**](https://docs.microsoft.comwindows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_disposition_information_ex) structure.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The size, in bytes, of the <i>FileInformation</i> buffer.
 
+### -param FileInformationClass 
 
-### -param FileInformationClass [in]
-
+[in]
 The type of information, supplied in the buffer pointed to by <i>FileInformation</i>, to set for the file. Device and intermediate drivers can specify any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values.
 
 <table>
@@ -200,21 +195,12 @@ Change or remove the I/O completion port for the specified file handle. The call
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 <b>ZwSetInformationFile</b> returns STATUS_SUCCESS or an appropriate error status.
 
-
-
-
 ## -remarks
-
-
 
 <b>ZwSetInformationFile</b> changes information about a file. It ignores any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by a particular device or file system.
 
@@ -232,13 +218,7 @@ Callers of <b>ZwSetInformationFile</b> must be running at IRQL = PASSIVE_LEVEL a
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
 
@@ -301,7 +281,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
- 
-
- 
 

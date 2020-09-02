@@ -10,6 +10,7 @@ keywords: ["FsRtlMdlReadEx function"]
 ms.keywords: FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx
 f1_keywords:
  - "ntifs/FsRtlMdlReadEx"
+ - "FsRtlMdlReadEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlMdlReadEx
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,33 +55,33 @@ The <b>FsRtlMdlReadEx</b> routine performs a fast cached MDL read.  If the reque
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a variable that specifies the starting byte offset within the cached file that holds the data.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length in bytes of the data to read from the cache.
 
 
-### -param LockKey [in]
-
+### -param LockKey 
+[in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
 
-### -param MdlChain [out]
-
+### -param MdlChain 
+[out]
 On output, a pointer to a linked list of memory descriptor lists (MDLs).
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 

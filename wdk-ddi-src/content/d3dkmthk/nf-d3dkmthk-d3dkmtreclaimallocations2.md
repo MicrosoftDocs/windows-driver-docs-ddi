@@ -7,8 +7,6 @@ ms.assetid: 0BC49546-ECDE-447D-8F7E-4235D96D293B
 ms.date: 05/10/2018
 keywords: ["D3DKMTReclaimAllocations2 function"]
 ms.keywords: D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2 function [Display Devices], d3dkmthk/D3DKMTReclaimAllocations2, display.d3dkmtreclaimallocations2
-f1_keywords:
- - "d3dkmthk/D3DKMTReclaimAllocations2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,25 +24,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTReclaimAllocations2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTReclaimAllocations2
+ - d3dkmthk/D3DKMTReclaimAllocations2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTReclaimAllocations2
 ---
 
 # D3DKMTReclaimAllocations2 function
+
 
 ## -description
 
@@ -71,3 +71,4 @@ Returns one of the following values:
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_reclaimallocations2">D3DKMT_RECLAIMALLOCATIONS2</a>
+

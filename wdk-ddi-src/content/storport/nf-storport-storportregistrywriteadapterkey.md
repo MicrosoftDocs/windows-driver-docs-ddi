@@ -8,8 +8,6 @@ ms.assetid: 85D43276-53A1-4CEE-99FE-23ED8BECB316
 ms.date: 03/29/2018
 keywords: ["StorPortRegistryWriteAdapterKey function"]
 ms.keywords: StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey
-f1_keywords:
- - "storport/StorPortRegistryWriteAdapterKey"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortRegistryWriteAdapterKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortRegistryWriteAdapterKey
+ - storport/StorPortRegistryWriteAdapterKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortRegistryWriteAdapterKey
 ---
 
 # StorPortRegistryWriteAdapterKey function
@@ -48,32 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortRegistryReadAdapterKey</b> routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/<Instance path>/DeviceParameters/... these keys are read from in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-hw-section">INF DDInstall.HW Section</a>.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
+### -param SubKeyName 
 
-### -param SubKeyName [in, optional]
-
+[in, optional]
 The miniport subkey.
 
+### -param ValueName 
 
-### -param ValueName [in]
-
+[in]
 The name of the Value under the key.
 
+### -param ValueType 
 
-### -param ValueType [in]
-
+[in]
 One of the following registry data types.
 
 <table>
@@ -212,36 +207,22 @@ REG_QWORD_LITTLE_ENDIAN
 </td>
 </tr>
 </table>
- 
 
+### -param ValueData 
 
-### -param ValueData [in, out]
-
+[in, out]
 Pointer to a the data that contains the registry data to be read. The data is converted from UNICODE to a NULL-terminated ASCII string.
 
+### -param ValueDataLength 
 
-### -param ValueDataLength [in, out]
-
+[in, out]
 Specifies the size of the data pointed to by <i>ValueData</i>.
-
 
 ## -returns
 
-
-
-
             Returns STOR_STATUS_SUCCESS when the operation is successful, otherwise the appropriate error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
- 
-
- 
 

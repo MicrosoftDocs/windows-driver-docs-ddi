@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTCreateSwapChain function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateSwapChain"
+ - "D3DKMTCreateSwapChain"
 ms.keywords: D3DKMTCreateSwapChain
 req.header: d3dkmthk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTCreateSwapChain
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

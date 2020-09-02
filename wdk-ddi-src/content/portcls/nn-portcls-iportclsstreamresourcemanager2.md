@@ -8,8 +8,6 @@ ms.assetid: B37310B5-3C74-428A-B8DF-C39B85A521C0
 ms.date: 05/08/2018
 keywords: ["IPortClsStreamResourceManager2 interface"]
 ms.keywords: IPortClsStreamResourceManager2, IPortClsStreamResourceManager2 interface [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices],described, audio.iportclsstreamresourcemanager2, portcls/IPortClsStreamResourceManager2
-f1_keywords:
- - "portcls/IPortClsStreamResourceManager2"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortClsStreamResourceManager2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsStreamResourceManager2
+ - portcls/IPortClsStreamResourceManager2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsStreamResourceManager2
 ---
 
 # IPortClsStreamResourceManager2 interface
 
 
 ## -description
-
 
 IPortClsStreamResourceManager2 is used to manage the registration of audio stream resources. 
 

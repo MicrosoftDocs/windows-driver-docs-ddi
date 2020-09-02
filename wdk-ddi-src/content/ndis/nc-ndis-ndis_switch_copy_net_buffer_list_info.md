@@ -8,8 +8,6 @@ ms.assetid: 5CC345FA-C3EF-4122-8E9C-6EA27B20DD5A
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback function"]
 ms.keywords: CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback, ndis/CopyNetBufferListInfo, netvista.CopyNetBufferListInfo
-f1_keywords:
- - "ndis/CopyNetBufferListInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- CopyNetBufferListInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO
+ - ndis/NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - CopyNetBufferListInfo
 ---
 
 # NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback function
@@ -47,56 +46,39 @@ req.typenames:
 
 ## -description
 
-
-
 The Hyper-V extensible switch extension calls the <i>CopyNetBufferListInfo</i> function to copy the out-of-band (OOB) forwarding context from a source packet's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure to a destination packet's <b>NET_BUFFER_LIST</b> structure. This context includes the extensible switch source port and network adapter information. The extensible switch destination port information can also be copied.
-
-
-
 
 ## -parameters
 
+### -param NdisSwitchContext 
 
-
-
-### -param NdisSwitchContext [in]
-
+[in]
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the extension is attached. When the extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
+### -param DestNetBufferList 
 
-### -param DestNetBufferList [in, out]
+[in, out]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the destination packet to which the extensible switch forwarding context is copied.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the destination packet to which the extensible switch forwarding context is copied.  
+### -param SrcNetBufferList 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the source packet from which the extensible switch forwarding context is copied.
 
-### -param SrcNetBufferList [in]
+### -param Flags 
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for the source packet from which the extensible switch forwarding context is copied. 
-
-
-### -param Flags [in]
-
+[in]
 A UINT32 value. When the NDIS_SWITCH_COPY_NBL_INFO_FLAGS_PRESERVE_DESTINATIONS flag is specified, the function copies the extensible switch destination ports from the source packet to the destination packet.
 
 The data that is contained within the source packet's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a> union is always copied to the extensible switch forwarding context in the destination packet. This data includes the source port identifiers and index of the network adapter connection from which the packet originated. Depending on the number of extensible switch destination ports that are copied to the destination packet, the NumAvailableDestinations member of the <b>NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</b> union is updated in the destination packet.
 
 For more information about the forwarding context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-forwarding-context">Hyper-V Extensible Switch Forwarding Context</a>.
 
-
 ## -returns
-
-
 
 If the call succeeds, the function returns NDIS_STATUS_SUCCESS. Otherwise, it returns an NDIS_STATUS_<i>Xxx</i> error code that is defined in Ndis.h.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The extensible switch extension calls the <i>CopyNetBufferListInfo</i> function to copy the OOB data from a source packet to a destination packet. This data includes the following:
 
@@ -130,12 +112,7 @@ For example, the extension can call <a href="https://docs.microsoft.com/windows-
 <div class="alert"><b>Note</b>  If the extension is creating or cloning the source packet, the extension must have previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_allocate_net_buffer_list_forwarding_context">AllocateNetBufferListForwardingContext</a> function for the packet. Source packets that the extension filters through the extensible switch driver stack already contain an allocated extensible switch forwarding context.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -162,7 +139,4 @@ For example, the extension can call <a href="https://docs.microsoft.com/windows-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>
- 
-
- 
 

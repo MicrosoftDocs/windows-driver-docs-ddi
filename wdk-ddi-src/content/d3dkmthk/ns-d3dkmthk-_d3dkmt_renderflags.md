@@ -5,10 +5,8 @@ description: The D3DKMT_RENDERFLAGS structure identifies the type of command buf
 old-location: display\d3dkmt_renderflags.htm
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_RENDERFLAGS structure"]
+keywords: ["D3DKMT_RENDERFLAGS structure"]
 ms.keywords: D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
-f1_keywords:
- - "d3dkmthk/D3DKMT_RENDERFLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_RENDERFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_RENDERFLAGS
+f1_keywords:
+ - _D3DKMT_RENDERFLAGS
+ - d3dkmthk/_D3DKMT_RENDERFLAGS
+ - D3DKMT_RENDERFLAGS
+ - d3dkmthk/D3DKMT_RENDERFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_RENDERFLAGS
 ---
 
 # _D3DKMT_RENDERFLAGS structure
@@ -47,14 +48,9 @@ req.typenames: D3DKMT_RENDERFLAGS
 
 ## -description
 
-
 The D3DKMT_RENDERFLAGS structure identifies the type of command buffer to be rendered in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtrender">D3DKMTRender</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ResizeCommandBuffer
 
@@ -62,13 +58,11 @@ A UINT value that specifies whether to resize the command buffer. The driver put
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
-
 ### -field ResizeAllocationList
 
 A UINT value that specifies whether to resize the allocation list. The driver puts the requested number of elements in the <b>NewAllocationListSize</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_render">D3DKMT_RENDER</a> structure. Because a resize request by the driver might not be possible, the driver must always verify the size value that is returned.
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
-
 
 ### -field ResizePatchLocationList
 
@@ -76,20 +70,17 @@ A UINT value that specifies whether to resize the patch-location list. The drive
 
 Setting this member is equivalent to setting the third bit of a 32-bit value (0x00000004).
 
-
 ### -field NullRendering
 
 A UINT value that specifies whether the graphics processing unit (GPU) should process any commands for the rendering context. The <b>NullRendering</b> bit-field flag is set to inform the GPU not to process any commands for the rendering context. The <b>NullRendering</b> bit-field flag is set only during performance investigating and debugging to simulate an infinitely fast rendering engine that still must perform the overhead of DMA buffer submission and signaling. <b>NullRendering</b> is never set during typical operations. 
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
-
 ### -field PresentRedirected
 
 A UINT value that specifies whether to redirect the present command. The command contains a completion of one frame even though the command was completed in the OpenGl ICD.
 
 Setting this member is equivalent to setting the fifth bit of a 32-bit value (0x00000010).
-
 
 ### -field RenderKm
 
@@ -99,24 +90,13 @@ A UINT value that specifies whether the OpenGL ICD supplies a pointer to the com
 
 Setting this member is equivalent to setting the sixth bit of a 32-bit value (0x00000020).
 
-
 ### -field RenderKmReadback
-
- 
-
 
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_render">D3DKMT_RENDER</a>
- 
-
- 
 

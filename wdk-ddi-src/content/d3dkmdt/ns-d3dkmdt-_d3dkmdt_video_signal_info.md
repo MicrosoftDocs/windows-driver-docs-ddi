@@ -6,10 +6,8 @@ old-location: display\d3dkmdt_video_signal_info.htm
 tech.root: display
 ms.assetid: 38d0a655-265b-46e0-8af3-de6757025588
 ms.date: 05/10/2018
-keywords: ["_D3DKMDT_VIDEO_SIGNAL_INFO structure"]
+keywords: ["D3DKMDT_VIDEO_SIGNAL_INFO structure"]
 ms.keywords: D3DKMDT_VIDEO_SIGNAL_INFO, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml, _D3DKMDT_VIDEO_SIGNAL_INFO, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO, display.d3dkmdt_video_signal_info
-f1_keywords:
- - "d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_VIDEO_SIGNAL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDEO_SIGNAL_INFO
+f1_keywords:
+ - _D3DKMDT_VIDEO_SIGNAL_INFO
+ - d3dkmdt/_D3DKMDT_VIDEO_SIGNAL_INFO
+ - D3DKMDT_VIDEO_SIGNAL_INFO
+ - d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_VIDEO_SIGNAL_INFO
 ---
 
 # _D3DKMDT_VIDEO_SIGNAL_INFO structure
@@ -47,56 +48,43 @@ req.typenames: D3DKMDT_VIDEO_SIGNAL_INFO
 
 ## -description
 
-
 The D3DKMDT_VIDEO_SIGNAL_INFO structure contains information about a video signal driven by a video output on a display adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VideoStandard
 
 A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumeration that indicates the video standard (if any) that defines the video signal.
 
-
 ### -field TotalSize
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_2dregion">D3DKMDT_2DREGION</a> structure that specifies the width and height (in pixels) of the entire video signal.
-
 
 ### -field ActiveSize
 
 A D3DKMDT_2DREGION structure that specifies the width and height (in pixels) of the active portion of the video signal.
 
-
 ### -field VSyncFreq
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_rational">D3DDDI_RATIONAL</a> structure that specifies the vertical refresh rate in Hz.
-
 
 ### -field HSyncFreq
 
 A D3DDDI_RATIONAL structure that specifies the horizontal refresh rate in Hz.
 
-
 ### -field PixelRate
 
 The pixel clock rate.
 
-
 ### -field AdditionalSignalInfo
 
 Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1 and later.
-
 
 ### -field AdditionalSignalInfo.ScanLineOrdering
 
 A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
 
 Supported starting with Windows 8.1.
-
 
 ### -field AdditionalSignalInfo.VSyncFreqDivider
 
@@ -110,30 +98,21 @@ For a non-Miracast target, the driver should set <b>VSyncFreqDivider</b> to zero
 
 Supported starting with Windows 8.1.
 
-
 ### -field AdditionalSignalInfo.Reserved
 
 Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.1.
 
-
 ### -field ScanLineOrdering
 
 A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target">D3DKMDT_VIDEO_PRESENT_TARGET</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_target_mode">D3DKMDT_VIDPN_TARGET_MODE</a>
- 
-
- 
 

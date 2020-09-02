@@ -8,8 +8,6 @@ ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptableStream interface"]
 ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
-f1_keywords:
- - "printerextension/IPrinterScriptableStream"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterScriptableStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterScriptableStream
+ - printerextension/IPrinterScriptableStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterScriptableStream
 ---
 
 # IPrinterScriptableStream interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 The IPrinterScriptableStream interface builds on <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a> and adds IStream-like semantics.
-
 
 ## -inheritance
 
@@ -59,9 +56,6 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableStream</b>
 </ul>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
 
@@ -76,7 +70,4 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableStream</b>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>
- 
-
- 
 

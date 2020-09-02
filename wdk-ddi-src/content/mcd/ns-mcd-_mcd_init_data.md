@@ -6,10 +6,8 @@ old-location: storage\mcd_init_data.htm
 tech.root: storage
 ms.assetid: 4fc4c36f-a2ad-4b9f-a30b-e7ed600c38e9
 ms.date: 03/29/2018
-keywords: ["_MCD_INIT_DATA structure"]
+keywords: ["MCD_INIT_DATA structure"]
 ms.keywords: "*PMCD_INIT_DATA, MCD_INIT_DATA, MCD_INIT_DATA structure [Storage Devices], PMCD_INIT_DATA, PMCD_INIT_DATA structure pointer [Storage Devices], _MCD_INIT_DATA, mcd/MCD_INIT_DATA, mcd/PMCD_INIT_DATA, storage.mcd_init_data, structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml"
-f1_keywords:
- - "mcd/MCD_INIT_DATA"
 req.header: mcd.h
 req.include-header: Mcd.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mcd.h
-api_name:
-- MCD_INIT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+f1_keywords:
+ - _MCD_INIT_DATA
+ - mcd/_MCD_INIT_DATA
+ - PMCD_INIT_DATA
+ - mcd/PMCD_INIT_DATA
+ - MCD_INIT_DATA
+ - mcd/MCD_INIT_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mcd.h
+api_name:
+ - MCD_INIT_DATA
 ---
 
 # _MCD_INIT_DATA structure
@@ -47,19 +50,13 @@ req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 
 ## -description
 
-
-The changer miniclass driver fills the MCD_INIT_DATA structure with pointers to its internal command processing routines and passes them to the changer class driver. 
-
+The changer miniclass driver fills the MCD_INIT_DATA structure with pointers to its internal command processing routines and passes them to the changer class driver.
 
 ## -struct-fields
 
-
-
-
 ### -field InitDataSize
 
-Size of this structure in bytes. 
-
+Size of this structure in bytes.
 
 ### -field ChangerAdditionalExtensionSize
 
@@ -363,17 +360,9 @@ NTSTATUS
 
 ## -remarks
 
-
-
-This structure is used by the changer driver in Windows XP and later operating systems only. 
-
-
-
+This structure is used by the changer driver in Windows XP and later operating systems only.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changeradditionalextensionsize">ChangerAdditionalExtensionSize</a>
 
@@ -468,7 +457,4 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a>
- 
-
- 
 

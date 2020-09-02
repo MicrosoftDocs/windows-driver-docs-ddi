@@ -8,8 +8,6 @@ ms.assetid: 8492CCCB-2BA9-419D-A22F-DE06D08D4CC7
 ms.date: 02/15/2018
 keywords: ["GPIO_CLX_ProcessAddDevicePreDeviceCreate function"]
 ms.keywords: GPIO.gpio_clx_processadddevicepredevicecreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate
-f1_keywords:
- - "gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Msgpioclxstub.lib
-- Msgpioclxstub.dll
-api_name:
-- GPIO_CLX_ProcessAddDevicePreDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLX_ProcessAddDevicePreDeviceCreate
+ - gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Msgpioclxstub.lib
+ - Msgpioclxstub.dll
+api_name:
+ - GPIO_CLX_ProcessAddDevicePreDeviceCreate
 ---
 
 # GPIO_CLX_ProcessAddDevicePreDeviceCreate function
@@ -48,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>GPIO_CLX_ProcessAddDevicePreDeviceCreate</b> method loads initialization information into two structures that are passed as input parameters to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> method.
-
 
 ## -parameters
 
+### -param Driver 
 
-
-
-### -param Driver [in]
-
+[in]
 A WDFDRIVER handle to the framework driver object for the GPIO controller driver.
 
+### -param DeviceInit 
 
-### -param DeviceInit [in, out]
-
+[in, out]
 A pointer to a framework-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. This method loads initialization information into this structure. On return, this structure is ready to be used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> method.
 
+### -param FdoAttributes 
 
-### -param FdoAttributes [out]
-
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This method loads initialization information into this structure. On return, this structure is ready to be used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> method.
 
-
 ## -returns
-
-
 
 <b>GPIO_CLX_ProcessAddDevicePreDeviceCreate</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
 
@@ -106,14 +98,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Your GPIO controller driver must call this method in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function, before the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> method that creates the device object (FDO) that represents the GPIO controller. Otherwise, the GPIO framework extension (GpioClx) cannot handle I/O requests or process interrupts for the new framework device object.
 
@@ -169,12 +155,7 @@ In the preceding code example, the <b>WdfDeviceCreate</b> call creates the frame
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -193,7 +174,4 @@ In the preceding code example, the <b>WdfDeviceCreate</b> call creates the frame
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
- 
-
- 
 

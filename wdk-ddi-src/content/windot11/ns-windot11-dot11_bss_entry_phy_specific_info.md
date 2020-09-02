@@ -8,38 +8,41 @@ ms.assetid: 85bcd355-633b-4d3f-a387-1e3b2ac3a013
 ms.date: 02/16/2018
 keywords: ["DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO structure"]
 ms.keywords: "*PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union [Network Drivers Starting with Windows Vista], Native_802.11_data_types_bd52a4e6-211b-4bb7-9398-22545a3a70c3.xml, PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union pointer [Network Drivers Starting with Windows Vista], netvista.dot11_bss_entry_phy_specific_info, windot11/DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, windot11/PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO"
-f1_keywords:
- - "windot11/DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO"
 req.header: windot11.h
 req.include-header: Wlclient.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, *PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+f1_keywords:
+ - DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+ - windot11/DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+ - PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+ - windot11/PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO structure
@@ -51,19 +54,6 @@ product:
 > The [Native 802.11 Wireless LAN](https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model).
 
 The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union specifies the attributes of the PHY which received an IEEE 802.11 Beacon or Response Frame during the Native 802.11 miniport driver's last scan operation.
-
-## -syntax
-
-```cpp
-typedef union DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO {
-  ULONG  uChCenterFrequency;
-  struct {
-    ULONG uHopPattern;
-    ULONG uHopSet;
-    ULONG uDwellTime;
-  } FHSS;
-} DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, *PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO;
-```
 
 ## -struct-fields
 
@@ -99,6 +89,19 @@ The maximum amount of time that the PHY can use when transmitting on a single ch
 > [!NOTE]
 > This member is only valid for FHSS PHY types.
 
+## -syntax
+
+```cpp
+typedef union DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO {
+  ULONG  uChCenterFrequency;
+  struct {
+    ULONG uHopPattern;
+    ULONG uHopSet;
+    ULONG uDwellTime;
+  } FHSS;
+} DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, *PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO;
+```
+
 ## -remarks
 
 The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union is a member of the [DOT11_BSS_ENTRY](../windot11/ns-windot11-dot11_bss_entry.md) structure.
@@ -106,3 +109,4 @@ The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union is a member of the [DOT11_BSS_ENTRY]
 ## -see-also
 
 [DOT11_BSS_ENTRY](../windot11/ns-windot11-dot11_bss_entry.md)
+

@@ -6,10 +6,8 @@ old-location: netvista\ndis_port_array.htm
 tech.root: netvista
 ms.assetid: f77469d3-ce48-4e17-9fff-1af56296f61f
 ms.date: 05/02/2018
-keywords: ["_NDIS_PORT_ARRAY structure"]
+keywords: ["NDIS_PORT_ARRAY structure"]
 ms.keywords: "*PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, netvista.ndis_port_array, ntddndis/NDIS_PORT_ARRAY, ntddndis/PNDIS_PORT_ARRAY"
-f1_keywords:
- - "ntddndis/NDIS_PORT_ARRAY"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_PORT_ARRAY
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY
+f1_keywords:
+ - _NDIS_PORT_ARRAY
+ - ntddndis/_NDIS_PORT_ARRAY
+ - PNDIS_PORT_ARRAY
+ - ntddndis/PNDIS_PORT_ARRAY
+ - NDIS_PORT_ARRAY
+ - ntddndis/NDIS_PORT_ARRAY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_PORT_ARRAY
 ---
 
 # _NDIS_PORT_ARRAY structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY
 
 ## -description
 
-
 The NDIS_PORT_ARRAY structure specifies a list of NDIS ports and their associated
   characteristics.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,24 +65,20 @@ The
      <b>Revision</b> member to NDIS_PORT_ARRAY_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_PORT_ARRAY_REVISION_1.
 
-
 ### -field NumberOfPorts
 
 The number of NDIS ports that have characteristics that are listed in the 
      <b>Ports</b> member.
-
 
 ### -field OffsetFirstPort
 
 The offset, in bytes, from the beginning of the NDIS_PORT_ARRAY structure to the start of the
      first port characteristics data.
 
-
 ### -field ElementSize
 
 The size, in bytes, of each element in the array that the 
      <b>Ports</b> member specifies.
-
 
 ### -field Ports
 
@@ -96,22 +90,13 @@ An array that contains the port characteristics for each active NDIS port on a m
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_port_characteristics">
      NDIS_PORT_CHARACTERISTICS</a> structure.
 
-
 ## -remarks
-
-
 
 The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active NDIS ports on the
     miniport adapter, for the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-enumerate-ports">OID_GEN_ENUMERATE_PORTS</a> OID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -122,7 +107,4 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-enumerate-ports">OID_GEN_ENUMERATE_PORTS</a>
- 
-
- 
 

@@ -1,43 +1,42 @@
 ---
 UID: NF:dbgmodel.IModelObject.SetConcept
 title: IModelObject::SetConcept (dbgmodel.h)
-description: The SetConcept method will place a specified concept on the object instance specified by the this pointer. 
+description: The SetConcept method will place a specified concept on the object instance specified by the this pointer.
 ms.assetid: 498fef63-ad2a-4021-9f48-b5441ae0d81f
 ms.date: 06/10/2019
 keywords: ["IModelObject::SetConcept"]
-f1_keywords:
- - "dbgmodel/IModelObject.SetConcept"
 ms.keywords: IModelObject::SetConcept, SetConcept, IModelObject.SetConcept, IModelObject::SetConcept, IModelObject.SetConcept
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelObject.SetConcept
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelObject::SetConcept
+ - dbgmodel/IModelObject::SetConcept
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelObject.SetConcept
 ---
 
 # IModelObject::SetConcept
@@ -54,15 +53,19 @@ For information on the [IKeyStore](nn-dbgmodel-ikeystore.md) interface, see [IKe
 ## -parameters
 
 ### -param conceptId
+
 The unique identifier of the concept being assigned. This is also the IID of the core interface of the concept.
 
 ### -param conceptInterface
+
 The concept interface being assigned (defined by conceptId).
 
 ### -param conceptMetadata
+
 Optional metadata to be associated with this concept.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -103,7 +106,6 @@ if (spStringConverter != nullptr)
 }
 ```
 
-
 ## -see-also
 
 [Debugger Data Model C++ Concepts](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-concepts)
@@ -111,3 +113,4 @@ if (spStringConverter != nullptr)
 [IKeyStore interface](nn-dbgmodel-ikeystore.md)
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 67fe089d-4cde-4caa-a4ad-8e879a30b516
 ms.date: 05/10/2018
 keywords: ["VideoPortGetBytesUsed function"]
 ms.keywords: VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices], VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, display.videoportgetbytesused, video/VideoPortGetBytesUsed
-f1_keywords:
- - "video/VideoPortGetBytesUsed"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortGetBytesUsed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortGetBytesUsed
+ - video/VideoPortGetBytesUsed
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortGetBytesUsed
 ---
 
 # VideoPortGetBytesUsed function
@@ -47,41 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortGetBytesUsed</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 <b>VideoPortGetBytesUsed</b> determines the size, in bytes, of the buffer associated with a DMA handle.
 
-
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param pDma 
 
-### -param pDma [in]
-
-Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a> returns. 
-
+[in]
+Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a> returns.
 
 ## -returns
 
-
-
 <b>VideoPortGetBytesUsed</b> always returns zero.
-
-
-
 
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
-
-
 

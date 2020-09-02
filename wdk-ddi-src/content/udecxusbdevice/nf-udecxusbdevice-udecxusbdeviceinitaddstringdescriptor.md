@@ -8,8 +8,6 @@ ms.assetid: 05971A19-4B66-41F6-9043-DA9C81FA92E5
 ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitAddStringDescriptor function"]
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses], buses.udecxusbdeviceinitaddstringdescriptor, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor
-f1_keywords:
- - "udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbDeviceInitAddStringDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbDeviceInitAddStringDescriptor
+ - udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbDeviceInitAddStringDescriptor
 ---
 
 # UdecxUsbDeviceInitAddStringDescriptor function
@@ -48,51 +47,38 @@ req.typenames:
 
 ## -description
 
-
-Adds a USB string descriptor to the initialization parameters used to create a virtual USB device. 
-
+Adds a USB string descriptor to the initialization parameters used to create a virtual USB device.
 
 ## -parameters
 
+### -param UdecxUsbDeviceInit 
 
+[in, out]
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>.
 
+### -param String 
 
-### -param UdecxUsbDeviceInit [in, out]
-
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
-
-
-### -param String [in]
-
+[in]
 A Unicode string that contains the USB string descriptor to add to the device.
 
+### -param DescriptorIndex 
 
-### -param DescriptorIndex [in]
-
+[in]
 The index of the descriptor.
 
+### -param LanguageId 
 
-### -param LanguageId [in]
-
+[in]
 The language identifier of the string. The client driver must define constants for the language support, such as:
 
 <code>const USHORT US_ENGLISH = 0x409;
 </code>
 
-
 ## -returns
 
-
-
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-
-
-
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -107,7 +93,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

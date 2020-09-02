@@ -34,12 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_DPI2CIOTRANSMISSION
 f1_keywords:
+ - DXGKDDI_DPI2CIOTRANSMISSION
  - dispmprt/DXGKDDI_DPI2CIOTRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_DPI2CIOTRANSMISSION callback function
+
 
 ## -description
 
@@ -84,3 +86,4 @@ For Windows 10 version 2004, the write operation is only allowed for MCCS I2C ad
 ## -see-also
 
 [DXGKARG_DPI2CIOTRANSMISSION](ns-dispmprt-dxgkarg_dpi2ciotransmission.md)
+

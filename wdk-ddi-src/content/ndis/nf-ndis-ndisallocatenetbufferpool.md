@@ -8,8 +8,6 @@ ms.assetid: bc27758a-a793-48a1-a6ab-bd193aa9c61a
 ms.date: 05/02/2018
 keywords: ["NdisAllocateNetBufferPool function"]
 ms.keywords: NdisAllocateNetBufferPool, NdisAllocateNetBufferPool function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferPool, ndis_netbuf_functions_ref_f12d38a1-161d-4209-95ea-6e66fcbef255.xml, netvista.ndisallocatenetbufferpool
-f1_keywords:
- - "ndis/NdisAllocateNetBufferPool"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateNetBufferPool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateNetBufferPool
+ - ndis/NdisAllocateNetBufferPool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateNetBufferPool
 ---
 
 # NdisAllocateNetBufferPool function
@@ -48,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 Call the
   <b>NdisAllocateNetBufferPool</b> function to allocate a pool of 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
-
 ## -parameters
 
+### -param NdisHandle 
 
-
-
-### -param NdisHandle [in, optional]
-
+[in, optional]
 An NDIS handle that was obtained during caller initialization.
 
+### -param Parameters 
 
-### -param Parameters [in]
-
+[in]
 A pointer to a NET_BUFFER_POOL_PARAMETERS structure that defines the parameters for the pool. The
      structure is defined as follows:
      
@@ -121,21 +116,13 @@ The default data size for data buffers associated with this pool. The caller mus
        buffer that it allocates for the NET_BUFFER structure. If the caller does not use this feature, this
        value should be set to zero.
 
-
 ## -returns
-
-
 
 <b>NdisAllocateNetBufferPool</b> returns a handle to the NET_BUFFER structure pool that NDIS allocates.
      If the allocation was unsuccessful, this handle is <b>NULL</b>. This handle is a required parameter in
      subsequent calls to NDIS functions that allocate and free NET_BUFFER structures from this pool.
 
-
-
-
 ## -remarks
-
-
 
 Call the following functions to allocate 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures from the NET_BUFFER
@@ -171,13 +158,7 @@ Call the
     free NET_BUFFER structure pools that are created with 
     <b>NdisAllocateNetBufferPool</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -201,7 +182,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferpool">NdisFreeNetBufferPool</a>
- 
-
- 
 

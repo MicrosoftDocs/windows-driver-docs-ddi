@@ -8,8 +8,6 @@ ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
 ms.date: 05/10/2018
 keywords: ["VideoPortFreePool function"]
 ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool
-f1_keywords:
- - "video/VideoPortFreePool"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortFreePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortFreePool
+ - video/VideoPortFreePool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortFreePool
 ---
 
 # VideoPortFreePool function
@@ -47,56 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortFreePool</b> function deallocates a block of pool memory previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param Ptr 
 
-### -param Ptr [in]
-
+[in]
 Pointer to the first byte of the memory to be freed.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 <b>VideoPortFreePool</b> is intended to replace <b>VideoPortReleaseBuffer</b>, which is obsolete.
 
 Callers of <b>VideoPortFreePool</b> must be running at IRQL <= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must have specified a <b>VpNonPaged </b><i>XxxPoolType</i> when the memory was allocated. Otherwise, the caller must be running at IRQL < DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>
- 
-
- 
 

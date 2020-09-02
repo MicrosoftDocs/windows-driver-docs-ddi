@@ -8,8 +8,6 @@ ms.assetid: 0E0480BA-0F9D-4AD4-8FEC-35B3757494B9
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_MASK_INTERRUPTS callback function"]
 ms.keywords: CLIENT_MaskInterrupts, CLIENT_MaskInterrupts callback, CLIENT_MaskInterrupts callback function [Parallel Ports], GPIO.client_maskinterrupts, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
-f1_keywords:
- - "gpioclx/CLIENT_MaskInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_MaskInterrupts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_MASK_INTERRUPTS
+ - gpioclx/GPIO_CLIENT_MASK_INTERRUPTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_MaskInterrupts
 ---
 
 # GPIO_CLIENT_MASK_INTERRUPTS callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_MaskInterrupts</i> event callback function masks interrupts on a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
+### -param MaskParameters 
 
-### -param MaskParameters [in, out]
-
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_mask_interrupt_parameters">GPIO_MASK_INTERRUPT_PARAMETERS</a> structure that, on entry, describes the GPIO interrupt pins to mask, and, on exit, contains the status of the mask operation.
-
 
 ## -returns
 
-
-
 The <i>CLIENT_MaskInterrupts</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function to mask interrupts on GPIO pins that are configured as interrupt request inputs. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-interrupt-masks">GPIO Interrupt Masks</a>.
 
@@ -126,12 +113,7 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
@@ -150,7 +132,4 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_mask_interrupt_parameters">GPIO_MASK_INTERRUPT_PARAMETERS</a>
- 
-
- 
 

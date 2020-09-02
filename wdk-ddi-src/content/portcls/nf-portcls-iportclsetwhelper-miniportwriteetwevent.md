@@ -8,8 +8,6 @@ ms.assetid: 7E0C1140-35AA-424F-8229-21B4F4E1EBDF
 ms.date: 05/08/2018
 keywords: ["IPortClsEtwHelper::MiniportWriteEtwEvent"]
 ms.keywords: IPortClsEtwHelper interface [Audio Devices],MiniportWriteEtwEvent method, IPortClsEtwHelper.MiniportWriteEtwEvent, IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], MiniportWriteEtwEvent method [Audio Devices],IPortClsEtwHelper interface, audio.iportclsetwhelper_miniportwriteetwevent, portcls/IPortClsEtwHelper::MiniportWriteEtwEvent
-f1_keywords:
- - "portcls/IPortClsEtwHelper.MiniportWriteEtwEvent"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IPortClsEtwHelper.MiniportWriteEtwEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsEtwHelper::MiniportWriteEtwEvent
+ - portcls/IPortClsEtwHelper::MiniportWriteEtwEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IPortClsEtwHelper.MiniportWriteEtwEvent
 ---
 
 # IPortClsEtwHelper::MiniportWriteEtwEvent
@@ -47,60 +46,44 @@ req.typenames:
 
 ## -description
 
-
 The <code>MiniportWriteEtwEvent</code> method is used by an audio miniport driver for providing the information about an Event Tracing for Windows (ETW) event.
-
 
 ## -parameters
 
+### -param miniportEventType 
 
-
-
-### -param miniportEventType [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-epcminiportengineevent">EPcMiniportEngineEvent</a> enumerated value that provides additional error information for reporting glitching errors.
 
+### -param pvData1 
 
-### -param pvData1 [in]
-
+[in]
 Data parameter.
 
+### -param pvData2 
 
-### -param pvData2 [in]
-
+[in]
 Data parameter.
 
+### -param ulData3 
 
-### -param ulData3 [in]
-
+[in]
 Data parameter.
 
+### -param ulData4 
 
-### -param ulData4 [in]
-
+[in]
 Data parameter.
-
 
 ## -returns
 
-
-
 <b>MiniportWriteEtwEvent</b> returns S_OK, if the call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-epcminiportengineevent">EPcMiniportEngineEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsetwhelper">IPortClsEtwHelper</a>
- 
-
- 
 

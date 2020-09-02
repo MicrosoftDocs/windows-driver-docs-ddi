@@ -28,7 +28,8 @@ req.irql: <= PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "bthsdpddi/SdpConvertTreeToStream"
+ - PCONVERTTREETOSTREAM
+ - bthsdpddi/PCONVERTTREETOSTREAM
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PCONVERTTREETOSTREAM callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 15D6A09F-2AEC-431F-91F4-D1571DB56E81
 ms.date: 04/30/2018
 keywords: ["ObCloseHandle function"]
 ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
-f1_keywords:
- - "wdm/ObCloseHandle"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- ObCloseHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObCloseHandle
+ - wdm/ObCloseHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - ObCloseHandle
 ---
 
 # ObCloseHandle function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ObCloseHandle</b> routine closes an object handle.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 A handle to a system-supplied object of any type.
 
+### -param PreviousMode 
 
-### -param PreviousMode [in]
-
+[in]
 Specifies the previous processor mode of the thread that opened the handle. To close a kernel handle set this parameter to <b>KernelMode</b>. To close a <i>user handle</i>, set this parameter to <b>UserMode</b>. For more information about these two handle types, see Remarks.
 
-
 ## -returns
-
-
 
 <b>ObCloseHandle</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following NTSTATUS codes.
 
@@ -100,14 +92,8 @@ The calling thread does not have permission to close the handle.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A kernel-mode driver calls <b>ObCloseHandle</b> to close a handle to any type of object that is created by the Windows kernel. A driver must close every handle that it opens as soon as the handle is no longer required.
 
@@ -147,12 +133,7 @@ NTSTATUS
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetpreviousmode">ExGetPreviousMode</a>
 
@@ -167,7 +148,4 @@ NTSTATUS
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
- 
-
- 
 

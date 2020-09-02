@@ -5,47 +5,64 @@ description: Validates private driver data, which is passed by user mode driver 
 ms.assetid: bc83b8eb-da96-49f3-8462-1cd0838ba03d
 ms.date: 10/19/2018
 keywords: ["DXGKDDI_VALIDATESUBMITCOMMAND callback function"]
-f1_keywords:
- - "d3dkmddi/DXGKDDI_VALIDATESUBMITCOMMAND"
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3dkmddi.h
-api_name: 
-- DXGKDDI_VALIDATESUBMITCOMMAND
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - DXGKDDI_VALIDATESUBMITCOMMAND
+ - d3dkmddi/DXGKDDI_VALIDATESUBMITCOMMAND
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKDDI_VALIDATESUBMITCOMMAND
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # DXGKDDI_VALIDATESUBMITCOMMAND callback function
 
+
 ## -description
 
 Validates private driver data, which is passed by user mode driver in [D3DKMTSubmitCommand](nc-d3dkmddi-dxgkddi_submitcommand.md) or [D3DKMTSubmitCommandToHwQueue](../d3dkmthk/nf-d3dkmthk-d3dkmtsubmitcommandtohwqueue.md).
+
+## -parameters
+
+### -param hContext
+
+Driver context handle for the context.
+
+### -param pArgs
+
+Pointer to a [DXGKARG_VALIDATESUBMITCOMMAND](ns-d3dkmddi-_dxgkarg_validatesubmitcommand.md) structure.
+
+## -returns
+
+Returns NTSTATUS:
+
+* STATUS_SUCCESS
+* STATUS_INVALID_USER_BUFFER
 
 ## -prototype
 
@@ -65,23 +82,6 @@ NTSTATUS DxgkddiValidatesubmitcommand
 
 ```
 
-## -parameters
-
-### -param hContext
-
-Driver context handle for the context.
-
-### -param pArgs
-
-Pointer to a [DXGKARG_VALIDATESUBMITCOMMAND](ns-d3dkmddi-_dxgkarg_validatesubmitcommand.md) structure.
-
-## -returns
-
-Returns NTSTATUS:
-
-* STATUS_SUCCESS
-* STATUS_INVALID_USER_BUFFER
-
 ## -remarks
 
 When this callback is implemented, private data, passed in [DxgkDdiSubmitCommandVirtual](nc-d3dkmddi-dxgkddi_submitcommandvirtual.md) or [DxgkDdiSubmitCommandToHwQueue](nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md) is always validated by kernel mode driver.
@@ -92,6 +92,5 @@ The kernel mode driver should not assume that this callback is called in the con
 
 This callback is called before the command is submitted to the GPU scheduler software queue.
 
-
-
 ## -see-also
+

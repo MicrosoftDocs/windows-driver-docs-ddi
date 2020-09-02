@@ -6,10 +6,8 @@ old-location: kernel\device_object.htm
 tech.root: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
 ms.date: 04/30/2018
-keywords: ["_DEVICE_OBJECT structure"]
+keywords: ["DEVICE_OBJECT structure"]
 ms.keywords: "*PDEVICE_OBJECT, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DEVICE_OBJECT, kernel.device_object, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT"
-f1_keywords:
- - "wdm/DEVICE_OBJECT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- DEVICE_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_OBJECT, *PDEVICE_OBJECT
+f1_keywords:
+ - _DEVICE_OBJECT
+ - wdm/_DEVICE_OBJECT
+ - PDEVICE_OBJECT
+ - wdm/PDEVICE_OBJECT
+ - DEVICE_OBJECT
+ - wdm/DEVICE_OBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - DEVICE_OBJECT
 ---
 
 # _DEVICE_OBJECT structure
@@ -47,34 +50,25 @@ req.typenames: DEVICE_OBJECT, *PDEVICE_OBJECT
 
 ## -description
 
-
 The <b>DEVICE_OBJECT</b> structure is used by the operating system to represent a device object. A device object represents a logical, virtual, or physical device for which a driver handles I/O requests.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 Used by the operating system to indicate that an object is a device object. For device objects, the value of this member is 3. This is a read-only member.
 
-
 ### -field Size
 
 Specifies the size, in bytes, of the device object. This size includes the driver-specified device extension pointed to by the <b>DeviceExtension</b> member, but does not include the opaque device object extension pointed to by the <b>DeviceObjectExtension</b> member. <b>Size</b> is a read-only member.
-
 
 ### -field ReferenceCount
 
 Used by the I/O manager to track the number of open handles for the device that are associated with the device object. This allows the I/O manager to avoid unloading a driver when there are outstanding handles for the driver's device(s). This is a read-only member.
 
-
 ### -field DriverObject
 
 A pointer to the driver object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiocreatedevicesecure">IoCreateDeviceSecure</a>. This is a read-only member.
-
 
 ### -field NextDevice
 
@@ -84,21 +78,17 @@ A non- Plug and Play (PnP) driver that is being unloaded must traverse ("walk") 
 
 A driver that recreates its device objects dynamically also uses this member. This is a read/write member.
 
-
 ### -field AttachedDevice
 
 A pointer to the attached device object. If there is no attached device object, this member is <b>NULL</b>. The device object that is pointed to by the <b>AttachedDevice</b> member typically is the device object of a filter driver, which intercepts I/O requests originally targeted to the device represent by the device object. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevice">IoAttachDevice</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoAttachDeviceByPointer</a> topics. This is an opaque member.
-
 
 ### -field CurrentIrp
 
 A pointer to the current IRP if the driver has a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine whose entry point was set in the driver object and if the driver is currently processing IRP(s). Otherwise, this member is <b>NULL</b>. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartpacket">IoStartPacket</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a> topics. This is a read-only member.
 
-
 ### -field Timer
 
 A pointer to a timer object. This allows the I/O manager to call a driver-supplied timer routine every second. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>. This is a read/write member.
-
 
 ### -field Flags
 
@@ -168,7 +158,6 @@ Used by the I/O manager to indicate that a driver has registered the device obje
 Removable-media drivers set this flag while they process transfer requests. Such drivers should also check for this flag in the target for a transfer request before they transfer any data. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a> topic.
 
 For more information about how to set the <b>Flags</b> member, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/initializing-a-device-object">Initializing a Device Object</a>.
-
 
 ### -field Characteristics
 
@@ -266,95 +255,75 @@ The IO Manager normally performs a full security check for traverse access on ev
 
 Indicates that the underlying stack considers the device portable. This is used by the storage stack and means that the device is not in the local machine container and is not on a fixed bus type.
 
-
 ### -field Vpb
 
 A pointer to the volume parameter block (VPB) that is associated with the device object. For file system drivers, the VPB can provide a connection to any unnamed logical device object that represents an instance of a mounted volume. This is an opaque member.
-
 
 ### -field DeviceExtension
 
 A pointer to the device extension. The structure and contents of the device extension are driver-defined. The size is driver-determined, specified in the driver's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiocreatedevicesecure">IoCreateDeviceSecure</a>. For more information about device extensions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>. This is a read-only member. However, the object that the member points to can be modified by the driver.
 
-
 ### -field DeviceType
 
 Set by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiocreatedevicesecure">IoCreateDeviceSecure</a> by using the value that is specified for that routine's <i>DeviceType</i> parameter. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a> topic.
-
 
 ### -field StackSize
 
 Specifies the minimum number of stack locations in IRPs to be sent to this driver. <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiocreatedevicesecure">IoCreateDeviceSecure</a> set this member to 1 in newly created device objects; lowest-level drivers can therefore ignore this member. The I/O manager automatically sets the <b>StackSize</b> member in a higher-level driver's device object to the appropriate value if the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevice">IoAttachDevice</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>. Only a higher-level driver that chains itself over another driver with <b>IoGetDeviceObjectPointer</b> must explicitly set the value of <b>StackSize</b> in its own device object(s) to 1 + the <b>StackSize</b> value of the next-lower driver's device object.
 
-
 ### -field Queue
 
 Used internally by the I/O manager to queue the device object when it is required. This is an opaque member.
-
 
 ### -field Queue.ListEntry
 
 A <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that contains forward and backward pointers for a doubly linked list.
 
-
 ### -field Queue.Wcb
 
 Device context information used by I/O manager.
-
 
 ### -field AlignmentRequirement
 
 Specifies the device's address alignment requirement for data transfers. The value must be one of the FILE_<i>XXX</i>_ALIGNMENT values that are defined in Wdm.h. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/initializing-a-device-object">Initializing a Device Object</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_dma_alignment">GetDmaAlignment</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> topics.
 
-
 ### -field DeviceQueue
 
 The device queue object for the device object. The device queue object contains any IRPs that are waiting to be processed by the driver that is associated with the device object. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/driver-managed-irp-queues">Driver-Managed IRP Queues</a> topic. This is an opaque member.
-
 
 ### -field Dpc
 
 The deferred procedure call (DPC) object for the device object. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-dpc-objects">Introduction to DPC Objects</a> topic. This is an opaque member.
 
-
 ### -field ActiveThreadCount
 
 Reserved for future use. This is an opaque member.
-
 
 ### -field SecurityDescriptor
 
 Specifies a security descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) for the device object when the device object is created. If this member is <b>NULL</b>, the device object receives default security settings. This is a read-only member, although the member can be modified through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567106">ZwSetSecurityObject</a>function.
 
-
 ### -field DeviceLock
 
 A synchronization event object that is allocated by the I/O manager. The I/O manager obtains his event object before it dispatches a mount or mount-verify request to a file-system driver. This is an opaque member.
-
 
 ### -field SectorSize
 
 If the device object does not represent a volume, this member is set to zero. If the device object represents a volume, this member specifies the volume's sector size, in bytes. The I/O manager uses this member to make sure that all read operations, write operations, and set file position operations that are issued are aligned correctly when intermediate buffering is disabled. A default system bytes-per-sector value is used when the device object is created, however, file system drivers; and more rarely, legacy and minifilter drivers, can update this value that is based on the geometry of the underlying volume hardware when a mount occurs. Other drivers should not modify this member.
 
-
 ### -field Spare1
 
 Reserved for system use. This is an opaque member.
-
 
 ### -field DeviceObjectExtension
 
 A pointer to a device object extension that is used by the I/O manager and PnP manager to store information about the state of the device. This is an opaque member.
 
-
 ### -field Reserved
 
 Reserved for system use. This is an opaque member.
 
-
 ## -remarks
-
-
 
 The operating system represents devices by device objects. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-objects-and-device-stacks">Device Objects and Device Stacks</a> topic.
 
@@ -370,13 +339,7 @@ The system-supplied SCSI port driver sets up the fields of the device objects th
 
 The system-supplied NDIS library sets up the fields of the device objects that it creates on behalf of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff557068(v=vs.85)">NDIS miniport drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
@@ -399,7 +362,4 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceobjectpointer">IoGetDeviceObjectPointer</a>
- 
-
- 
 

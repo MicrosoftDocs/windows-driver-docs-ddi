@@ -8,8 +8,6 @@ ms.assetid: 5D108897-93D9-4C67-9138-86C608AD8C4C
 ms.date: 02/15/2018
 keywords: ["NfcCxHardwareEvent function"]
 ms.keywords: NfcCxHardwareEvent, NfcCxHardwareEvent method [Near-Field Proximity Drivers], nfccx/NfcCxHardwareEvent, nfpdrivers._nfccxhardwareevent
-f1_keywords:
- - "nfccx/NfcCxHardwareEvent"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NfcCx.dll
-api_name:
-- NfcCxHardwareEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NfcCxHardwareEvent
+ - nfccx/NfcCxHardwareEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NfcCx.dll
+api_name:
+ - NfcCxHardwareEvent
 ---
 
 # NfcCxHardwareEvent function
 
 
 ## -description
-
 
 Called by the client driver when a hardware event occurs like D0Entry and D0Exit callbacks to start or stop the device. For drivers that require firmware download on initialization or boot-up, it is recommended to move this call to a separate work item. However, the client driver is responsible for the following:
 <ul>
@@ -57,39 +55,23 @@ Called by the client driver when a hardware event occurs like D0Entry and D0Exit
 
 ## -parameters
 
-
-
-
 ### -param Device
 
 A handle to a framework device object.
-
 
 ### -param HardwareEvent
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_hardware_event">NFC_CX_HARDWARE_EVENT</a> structure.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns STATUS_SUCCESS.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
- 
-
- 
 

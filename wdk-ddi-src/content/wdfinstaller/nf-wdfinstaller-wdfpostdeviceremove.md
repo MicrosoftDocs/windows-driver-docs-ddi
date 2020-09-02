@@ -8,8 +8,6 @@ ms.assetid: f29579de-ba5d-4b7a-9aeb-558be03d7eef
 ms.date: 02/26/2018
 keywords: ["WdfPostDeviceRemove function"]
 ms.keywords: DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, WdfPostDeviceRemove, WdfPostDeviceRemove function, kmdf.wdfpostdeviceremove, wdf.wdfpostdeviceremove, wdfinstaller/WdfPostDeviceRemove
-f1_keywords:
- - "wdfinstaller/WdfPostDeviceRemove"
 req.header: wdfinstaller.h
 req.include-header: Wdfinstaller.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- N/A
-- N/A.dll
-api_name:
-- WdfPostDeviceRemove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPostDeviceRemove
+ - wdfinstaller/WdfPostDeviceRemove
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - N/A
+ - N/A.dll
+api_name:
+ - WdfPostDeviceRemove
 ---
 
 # WdfPostDeviceRemove function
@@ -48,39 +47,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The co-installer's <b>WdfPostDeviceRemove</b> function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service. 
-
+The co-installer's <b>WdfPostDeviceRemove</b> function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service.
 
 ## -parameters
 
+### -param InfPath 
 
-
-
-### -param InfPath [in]
-
+[in]
 A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <b>GetCurrentDirectory</b>, which is described in the Microsoft Windows SDK.
 
+### -param InfSectionName 
 
-### -param InfSectionName [in, optional]
-
+[in, optional]
 A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
-
 
 ## -returns
 
-
-
 <b>WdfPostDeviceRemove</b> returns ERROR_SUCCESS if the operation succeeds. Otherwise, the function returns one of the additional ERROR_<i>XXX</i> values that are defined in <i>Winerror.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 The installer for the framework-based drivers of a non-PnP device must call <b>WdfPostDeviceRemove</b> after the installer calls <b>DeleteService</b>.
 
@@ -95,15 +82,7 @@ For a code example that uses the <b>WdfPostDeviceRemove</b> function, see the in
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceremove">WdfPreDeviceRemove</a>
- 
-
- 
 

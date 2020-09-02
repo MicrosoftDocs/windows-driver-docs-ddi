@@ -8,8 +8,6 @@ ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.date: 04/16/2018
 keywords: ["IoGetSiloParameters function"]
 ms.keywords: IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters
-f1_keywords:
- - "ntddk/IoGetSiloParameters"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetSiloParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetSiloParameters
+ - ntddk/IoGetSiloParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetSiloParameters
 ---
 
 # IoGetSiloParameters function
@@ -47,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This routine indicates if a file is within a Container context.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 The file in question.
-
 
 ## -returns
 
-
-
 If <b>null</b>, the file is not in a container context. Otherwise, a non-null value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_foext_silo_parameters">IO_FOEXT_SILO_PARAMETERS</a> indicates that the file is within a Container context.
-
-
 

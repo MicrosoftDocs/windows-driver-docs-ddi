@@ -8,8 +8,6 @@ ms.assetid: a0445969-b4b5-43f3-a8dc-a8d61bf44d94
 ms.date: 05/02/2018
 keywords: ["RILHIDECONNECTEDIDSETTINGS structure"]
 ms.keywords: "*LPRILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideconnectedidsettings, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGS"
-f1_keywords:
- - "rilapitypes/RILHIDECONNECTEDIDSETTINGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILHIDECONNECTEDIDSETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILHIDECONNECTEDIDSETTINGS, *LPRILHIDECONNECTEDIDSETTINGS
+f1_keywords:
+ - RILHIDECONNECTEDIDSETTINGS
+ - rilapitypes/RILHIDECONNECTEDIDSETTINGS
+ - LPRILHIDECONNECTEDIDSETTINGS
+ - rilapitypes/LPRILHIDECONNECTEDIDSETTINGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILHIDECONNECTEDIDSETTINGS
 ---
 
 # RILHIDECONNECTEDIDSETTINGS structure
@@ -47,26 +48,17 @@ req.typenames: RILHIDECONNECTEDIDSETTINGS, *LPRILHIDECONNECTEDIDSETTINGS
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
 
-
 ### -field dwStatus
-
 
 ### -field dwProvisioning
 

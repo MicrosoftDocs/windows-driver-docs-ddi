@@ -5,63 +5,47 @@ description: The VmbServerChannelInitSetTargetVtl function sets the target VTL f
 ms.assetid: dde46e18-27a0-4d4d-85bc-1bd05d61d5a1
 ms.date: 09/13/2018
 keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL
-product: 
-- Windows
 targetos: Windows
 tech.root: netvista
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL
+ - vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL
+product:
+ - Windows
 ---
 
 # FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL callback function
 
+
 ## -description
 
 The **VmbServerChannelInitSetTargetVtl** function sets the target VTL for this channel. The channel will be offered to clients running in the specified VTL and no others.
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL FnVmbServerChannelInitSetTargetVtl; 
-
-// Definition
-
-NTSTATUS FnVmbServerChannelInitSetTargetVtl 
-(
-	VMBCHANNEL Channel
-	UINT8 TargetVtl
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -82,6 +66,24 @@ The VTL level where this channel will be offered.
 | STATUS_INVALID_PARAMETER_1 | The **Channel** parameter was invalid or in an invalid state (Disabled).
 | STATUS_INVALID_PARAMETER_2 | **TargetVtl** is invalid. |
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL FnVmbServerChannelInitSetTargetVtl; 
+
+// Definition
+
+NTSTATUS FnVmbServerChannelInitSetTargetVtl 
+(
+	VMBCHANNEL Channel
+	UINT8 TargetVtl
+)
+{...}
+
+```
+
 ## -remarks
 
 > [!IMPORTANT]
@@ -92,3 +94,4 @@ The VTL level where this channel will be offered.
 ## -see-also
 
 [**VmbChannelAllocate**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_allocate.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 2854fa05-61a9-4515-9dc1-463f160ae89a
 ms.date: 02/26/2018
 keywords: ["WdfSpinLockCreate function"]
 ms.keywords: DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, WdfSpinLockCreate, WdfSpinLockCreate method, kmdf.wdfspinlockcreate, wdf.wdfspinlockcreate, wdfsync/WdfSpinLockCreate
-f1_keywords:
- - "wdfsync/WdfSpinLockCreate"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfSpinLockCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfSpinLockCreate
+ - wdfsync/WdfSpinLockCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfSpinLockCreate
 ---
 
 # WdfSpinLockCreate function
@@ -50,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfSpinLockCreate</b> method creates a framework spin-lock object.
 
-
 ## -parameters
 
+### -param SpinLockAttributes 
 
-
-
-### -param SpinLockAttributes [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the spin-lock object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param SpinLock 
 
-### -param SpinLock [out]
-
+[out]
 A pointer to a location that receives a handle to a new framework spin-lock object.
 
-
 ## -returns
-
-
 
 <b>WdfSpinLockCreate</b> returns STATUS_SUCCESS if the operation succeeds. 
 
@@ -81,12 +73,7 @@ For a list of other return values that the <b>WdfSpinLockCreate</b> method might
 
 This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>WdfSpinLockCreate</b> method creates a framework spin-lock object. After creating a spin-lock object, a driver can call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550040(v=vs.85)">WdfSpinLockAcquire</a> to acquire the lock and <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550044(v=vs.85)">WdfSpinLockRelease</a> to release the lock.
 
@@ -111,12 +98,7 @@ status = WdfSpinLockCreate(
                            );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
@@ -131,7 +113,4 @@ status = WdfSpinLockCreate(
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550044(v=vs.85)">WdfSpinLockRelease</a>
- 
-
- 
 

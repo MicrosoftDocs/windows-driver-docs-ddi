@@ -8,36 +8,42 @@ ms.assetid: 988906ae-fa8c-4370-aedb-c5073766282c
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_REPORT_ZONES_DATA structure"]
-f1_keywords:
- - "ntddstor/DEVICE_DSM_REPORT_ZONES_DATA"
-ms.keywords: DEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_DATA, *PDEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_OUTPUT, *PDEVICE_DSM_REPORT_ZONES_OUTPUT, 
+ms.keywords: DEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_DATA, *PDEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_OUTPUT, *PDEVICE_DSM_REPORT_ZONES_OUTPUT,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DEVICE_DSM_REPORT_ZONES_DATA, *PDEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_OUTPUT, *PDEVICE_DSM_REPORT_ZONES_OUTPUT
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddstor.h
-api_name: 
- - DEVICE_DSM_REPORT_ZONES_DATA
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _DEVICE_DSM_REPORT_ZONES_DATA
+ - ntddstor/_DEVICE_DSM_REPORT_ZONES_DATA
+ - PDEVICE_DSM_REPORT_ZONES_DATA
+ - ntddstor/PDEVICE_DSM_REPORT_ZONES_DATA
+ - DEVICE_DSM_REPORT_ZONES_DATA
+ - ntddstor/DEVICE_DSM_REPORT_ZONES_DATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_DSM_REPORT_ZONES_DATA
+product:
+ - Windows
 ---
 
 # DEVICE_DSM_REPORT_ZONES_DATA structure
+
 
 ## -description
 
@@ -68,3 +74,4 @@ Not applicable.
 ## -remarks
 
 ## -see-also
+

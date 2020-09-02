@@ -8,8 +8,6 @@ ms.assetid: 21886c34-ca8d-4466-a3db-6841b2f59137
 ms.date: 05/02/2018
 keywords: ["RILMSGDCSALPHABET enumeration"]
 ms.keywords: RILMSGDCSALPHABET, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet, ntddrilapitypes/RILMSGDCSALPHABET, ntddrilapitypes/RIL_DCSALPHABET_8BIT, ntddrilapitypes/RIL_DCSALPHABET_MAX, ntddrilapitypes/RIL_DCSALPHABET_UCS2
-f1_keywords:
- - "ntddrilapitypes/RILMSGDCSALPHABET"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMSGDCSALPHABET
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGDCSALPHABET
+f1_keywords:
+ - RILMSGDCSALPHABET
+ - ntddrilapitypes/RILMSGDCSALPHABET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMSGDCSALPHABET
 ---
 
 # RILMSGDCSALPHABET enumeration
@@ -47,23 +46,15 @@ req.typenames: RILMSGDCSALPHABET
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_DCSALPHABET_DEFAULT
-
 
 ### -field RIL_DCSALPHABET_8BIT
 
-
 ### -field RIL_DCSALPHABET_UCS2
-
 
 ### -field RIL_DCSALPHABET_MAX
 

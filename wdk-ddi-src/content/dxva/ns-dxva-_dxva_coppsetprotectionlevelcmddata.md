@@ -6,10 +6,8 @@ old-location: display\dxva_coppsetprotectionlevelcmddata.htm
 tech.root: display
 ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.date: 05/10/2018
-keywords: ["_DXVA_COPPSetProtectionLevelCmdData structure"]
+keywords: ["DXVA_COPPSetProtectionLevelCmdData structure"]
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], _DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, dxva/DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml
-f1_keywords:
- - "dxva/DXVA_COPPSetProtectionLevelCmdData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_COPPSetProtectionLevelCmdData
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_COPPSetProtectionLevelCmdData
+f1_keywords:
+ - _DXVA_COPPSetProtectionLevelCmdData
+ - dxva/_DXVA_COPPSetProtectionLevelCmdData
+ - DXVA_COPPSetProtectionLevelCmdData
+ - dxva/DXVA_COPPSetProtectionLevelCmdData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_COPPSetProtectionLevelCmdData
 ---
 
 # _DXVA_COPPSetProtectionLevelCmdData structure
@@ -47,14 +48,9 @@ req.typenames: DXVA_COPPSetProtectionLevelCmdData
 
 ## -description
 
-
 The DXVA_COPPSetProtectionLevelCmdData structure describes the protection types and levels to set on the physical connector associated with a COPP DirectX VA device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProtType
 
@@ -112,23 +108,15 @@ Specifies the protection level to set for the protection type in <b>ProtType</b>
 
 Specifies a value that indicates the valid bitfields in the following <b>ExtendedInfoData</b> member.
 
-
 ### -field ExtendedInfoData
 
 Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not currently used.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppcommand">COPPCommand</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
- 
-
- 
 

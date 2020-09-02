@@ -10,6 +10,7 @@ ms.date: 03/24/2020
 ms.topic: method
 f1_keywords:
  - "ntifs/FsRtlCheckOplockEx2"
+ - "FsRtlCheckOplockEx2"
 ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2
 req.header: ntifs.h
 req.include-header:
@@ -50,16 +51,16 @@ targetos: Windows
 
 ## -parameters
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 Pointer to the opaque oplock structure for the file. This pointer must have been initialized by a previous call to [**FsRtlInitializeOplock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock).
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP that declares the requested I/O operation.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of **FsRtlCheckOplockEx2**. *Flags* has the following options:
 
 | Flag Value | Meaning |
@@ -72,16 +73,16 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 | OPLOCK_FLAG_CLOSING_DELETE_ON_CLOSE (0x00000020) | Specifies that the I/O operation specified in *Irp* is an IRP_MJ_CLEANUP for a handle that was originally opened with the FILE_DELETE_ON_CLOSE flag set in its create options.  This flag as no effect if *Irp* is not an IRP_MJ_CLEANUP operation.  Specifying this flag may result in an oplock break. Supported starting with Windows 8. |
 | OPLOCK_FLAG_REMOVING_FILE_OR_LINK   (0x00000040) | Specifies handling an oplock break on a parent directory when deleting a file or link in that directory. If specified, this flag must be combined with OPLOCK_FLAG_PARENT_OBJECT.  This flag must be specified when the file system is processing an operation that results in the removal of a link or file. Supported starting with Windows 8. |
 
-### -param FlagsEx2 [in]
-
+### -param FlagsEx2 
+[in]
 Reserved; must be set to zero.
 
-### -param CompletionRoutineContext [in, optional]
-
+### -param CompletionRoutineContext 
+[in, optional]
 Pointer to caller-defined context information to be passed to the callback routine that the *CompletionRoutine* parameter points to. This parameter is optional and can be **NULL**.
 
-### -param CompletionRoutine [in, optional]
-
+### -param CompletionRoutine 
+[in, optional]
 Pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be **NULL**. If it is **NULL**, **FsRtlCheckOpLockEx2** operates synchronously, putting the caller into a wait state until the oplock break is completed.
 
 *CompletionRoutine* is declared as follows:
@@ -99,8 +100,8 @@ typedef VOID
 - *Context*: A context information pointer that was passed in the *Context* parameter to **FsRtlCheckOplockEx2**.
 - *Irp*: A pointer to the IRP for the I/O operation.
 
-### -param PostIrpRoutine [in, optional]
-
+### -param PostIrpRoutine 
+[in, optional]
 Pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be **NULL**.
 
 *PostIrpRoutine* is declared as follows:
@@ -118,16 +119,16 @@ typedef VOID
 - *Context*, which is a context information pointer that was passed in the *Context* parameter to **FsRtlCheckOplockEx2**.
 - *Irp*: A pointer to the IRP for the I/O operation.
 
-### -param Timeout [in]
-
+### -param Timeout 
+[in]
 If non-zero, specifies a timeout (in milliseconds) to wait on an event used to block the caller's thread in order to wait for the oplock break to complete. This value is ignored unless both of the following conditions are true: *CompletionRoutine* is NULL and *NotifyRoutine* is not NULL.
 
-### -param NotifyContext [in, optional]
-
+### -param NotifyContext 
+[in, optional]
 Pointer to an [OPLOCK_NOTIFY_PARAMS](ns-ntifs-_oplock_notify_params.md) structure to be passed to the callback routine that the *NotifyRoutine* parameter points to. This parameter is optional and can be **NULL**.
 
-### -param NotifyRoutine [in, optional]
-
+### -param NotifyRoutine 
+[in, optional]
 Pointer to a caller-supplied callback routine to be called for oplock state notification. This parameter is optional and can be **NULL**.
 
 *NotifyRoutine* is declared as follows:

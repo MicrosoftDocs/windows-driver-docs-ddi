@@ -8,8 +8,6 @@ ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
 ms.date: 05/07/2018
 keywords: ["UfxDeviceCreate function"]
 ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], buses.ufxdevicecreate, ufxclient/UfxDeviceCreate
-f1_keywords:
- - "ufxclient/UfxDeviceCreate"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceCreate
+ - ufxclient/UfxDeviceCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceCreate
 ---
 
 # UfxDeviceCreate function
@@ -47,54 +46,39 @@ req.typenames:
 
 ## -description
 
-
 Creates a UFX device object, registers event callback routines, and specifies capabilities specific to the controller.
 
-
 ## -parameters
-
-
-
 
 ### -param WdfDevice
 
 <p>A handle to a WDF device object.</p>
 
+### -param Callbacks 
 
-### -param Callbacks [in]
-
+[in]
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> that contains pointers to driver-supplied callback routines to be associated with the UFX device object.
 
+### -param Capabilities 
 
-### -param Capabilities [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
 
+### -param Attributes 
 
-### -param Attributes [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
+### -param UfxDevice 
 
-### -param UfxDevice [out]
-
+[out]
 A pointer to a location that receives a handle to the new UFX device object.
-
-
-
 
 ## -returns
 
-
-
 If the operation is successful, the method returns STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it returns a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
-
-
 
 The client driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> before it calls <b>UfxDeviceCreate</b>. Typically, the client driver calls  <b>UfxDeviceCreate</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback routine.
 
@@ -194,5 +178,4 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
-
 

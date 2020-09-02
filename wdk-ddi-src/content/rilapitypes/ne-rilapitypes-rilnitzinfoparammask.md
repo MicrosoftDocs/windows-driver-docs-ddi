@@ -8,8 +8,6 @@ ms.assetid: bdf1505f-2a84-48a3-9534-df83237ab7bb
 ms.date: 05/02/2018
 keywords: ["RILNITZINFOPARAMMASK enumeration"]
 ms.keywords: RILNITZINFOPARAMMASK, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_NITZ_ALL, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_SYSTEMTYPE, RIL_PARAM_NITZ_TIMEZONEOFFSET, netvista.rilnitzinfoparammask, ntddrilapitypes/RILNITZINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_NITZ_ALL, ntddrilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, ntddrilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET
-f1_keywords:
- - "rilapitypes/RILNITZINFOPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILNITZINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILNITZINFOPARAMMASK
+f1_keywords:
+ - RILNITZINFOPARAMMASK
+ - rilapitypes/RILNITZINFOPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILNITZINFOPARAMMASK
 ---
 
 # RILNITZINFOPARAMMASK enumeration
@@ -47,29 +46,19 @@ req.typenames: RILNITZINFOPARAMMASK
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_NITZ_EXECUTOR
-
 
 ### -field RIL_PARAM_NITZ_TIMEZONEOFFSET
 
-
 ### -field RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET
-
 
 ### -field RIL_PARAM_NITZ_SYSTEMTIME
 
-
 ### -field RIL_PARAM_NITZ_SYSTEMTYPE
-
 
 ### -field RIL_PARAM_NITZ_ALL
 

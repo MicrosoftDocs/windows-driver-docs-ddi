@@ -8,8 +8,6 @@ ms.assetid: 8ece6a3f-2f25-4143-8f0e-c65c02794cc4
 ms.date: 02/26/2018
 keywords: ["WdfInterruptDisable function"]
 ms.keywords: DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml, WdfInterruptDisable, WdfInterruptDisable method, kmdf.wdfinterruptdisable, wdf.wdfinterruptdisable, wdfinterrupt/WdfInterruptDisable
-f1_keywords:
- - "wdfinterrupt/WdfInterruptDisable"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfInterruptDisable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfInterruptDisable
+ - wdfinterrupt/WdfInterruptDisable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfInterruptDisable
 ---
 
 # WdfInterruptDisable function
@@ -50,21 +49,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptDisable</b> method disables a specified device interrupt by calling the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a> callback function.
 
-
 ## -parameters
 
+### -param Interrupt 
 
-
-
-### -param Interrupt [in]
-
+[in]
 A handle to a framework interrupt object.
-
 
 ## -remarks
 
@@ -89,19 +83,11 @@ The following code example disables the device interrupt that is associated with
 WdfInterruptDisable(Interrupt);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptenable">WdfInterruptEnable</a>
- 
-
- 
 

@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 37e0ab68-e710-48ae-a476-0bceb206fd80
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_UNMAP_GPADL callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_UNMAP_GPADL"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_UNMAP_GPADL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_UNMAP_GPADL
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_UNMAP_GPADL
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_UNMAP_GPADL
 ---
 
 # FN_VMB_CHANNEL_UNMAP_GPADL callback function
+
 
 ## -description
 
@@ -47,6 +47,16 @@ ms.custom: RS5
 
 The <b>VmbChannelUnmapGpadl</b> function unmaps a Guest Physical Address Descriptor List (GPADL) mapped using by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl">VmbChannelMapGpadl</a> function. The buffer must no longer be in
 use by the server before this function is called.
+
+## -parameters
+
+### -param Channel
+
+A handle for a channel.
+
+### -param GpadlHandle 
+
+The handle of the GPADL to unmap.
 
 ## -prototype
 
@@ -66,16 +76,6 @@ VOID FnVmbChannelUnmapGpadl
 
 ```
 
-## -parameters
-
-### -param Channel
-
-A handle for a channel. 
-
-### -param GpadlHandle 
-
-The handle of the GPADL to unmap.
-
 ## -remarks
 
 > [!IMPORTANT]
@@ -86,3 +86,4 @@ The handle of the GPADL to unmap.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl">VmbChannelMapGpadl</a>
+

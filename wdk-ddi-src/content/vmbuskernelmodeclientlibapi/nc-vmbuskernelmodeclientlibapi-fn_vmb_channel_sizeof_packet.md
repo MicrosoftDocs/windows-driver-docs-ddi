@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 05f275dd-cde2-425f-ac13-57b11c8affdf
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SIZEOF_PACKET callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SIZEOF_PACKET"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_SIZEOF_PACKET
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_SIZEOF_PACKET
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SIZEOF_PACKET
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_SIZEOF_PACKET
 ---
 
 # FN_VMB_CHANNEL_SIZEOF_PACKET callback function
+
 
 ## -description
 
@@ -47,6 +47,16 @@ ms.custom: RS5
 
 The <b>VmbChannelSizeofPacket</b> function calculates the necessary size for buffers to be used with
 the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize">VmbPacketInitialize</a> function.
+
+## -parameters
+
+### -param Channel
+
+A handle for a channel.
+
+## -returns
+
+The necessary buffer size, in bytes.
 
 ## -prototype
 
@@ -65,16 +75,6 @@ UINT32 FnVmbChannelSizeofPacket
 
 ```
 
-## -parameters
-
-### -param Channel
-
-A handle for a channel.
-
-## -returns
-
-The necessary buffer size, in bytes.
-
 ## -remarks
 
 > [!IMPORTANT]
@@ -85,3 +85,4 @@ The necessary buffer size, in bytes.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize">VmbPacketInitialize</a>
+

@@ -6,10 +6,8 @@ old-location: display\dxva_configalphaload.htm
 tech.root: display
 ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
 ms.date: 05/10/2018
-keywords: ["_DXVA_ConfigAlphaLoad structure"]
+keywords: ["DXVA_ConfigAlphaLoad structure"]
 ms.keywords: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], _DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/DXVA_ConfigAlphaLoad, dxva/LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml"
-f1_keywords:
- - "dxva/DXVA_ConfigAlphaLoad"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_ConfigAlphaLoad
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
+f1_keywords:
+ - _DXVA_ConfigAlphaLoad
+ - dxva/_DXVA_ConfigAlphaLoad
+ - LPDXVA_ConfigAlphaLoad
+ - dxva/LPDXVA_ConfigAlphaLoad
+ - DXVA_ConfigAlphaLoad
+ - dxva/DXVA_ConfigAlphaLoad
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_ConfigAlphaLoad
 ---
 
 # _DXVA_ConfigAlphaLoad structure
@@ -47,14 +50,9 @@ req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 
 ## -description
 
-
 The DXVA_ConfigAlphaLoad structure is sent by the host decoder to the accelerator to set the configuration for alpha-blend, texture-loading operations.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFunction
 
@@ -64,11 +62,9 @@ The least significant 4 bits of the <i>DXVA_ConfigQueryOrReplyFlag</i> variable 
 
 The least significant 8 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> that, in this case, is equal to 2.
 
-
 ### -field dwReservedBits
 
 Reserved bits used for packing and alignment. These bits are zero.
-
 
 ### -field bConfigDataType
 

@@ -8,8 +8,6 @@ ms.assetid: 01d64333-3f49-45e1-bd2b-dda0aeb6a083
 ms.date: 05/02/2018
 keywords: ["RILUICCSERVICESTATE enumeration"]
 ms.keywords: RILUICCSERVICESTATE, RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSERVICESTATE_DISABLED, RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_MAX, netvista.riluiccservicestate, ntddrilapitypes/RILUICCSERVICESTATE, ntddrilapitypes/RIL_UICCSERVICESTATE_DISABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_ENABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_MAX
-f1_keywords:
- - "rilapitypes/RILUICCSERVICESTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCSERVICESTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCSERVICESTATE
+f1_keywords:
+ - RILUICCSERVICESTATE
+ - rilapitypes/RILUICCSERVICESTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCSERVICESTATE
 ---
 
 # RILUICCSERVICESTATE enumeration
@@ -47,23 +46,15 @@ req.typenames: RILUICCSERVICESTATE
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_UICCSERVICESTATE_NOTAVAILABLE
-
 
 ### -field RIL_UICCSERVICESTATE_DISABLED
 
-
 ### -field RIL_UICCSERVICESTATE_ENABLED
-
 
 ### -field RIL_UICCSERVICESTATE_MAX
 

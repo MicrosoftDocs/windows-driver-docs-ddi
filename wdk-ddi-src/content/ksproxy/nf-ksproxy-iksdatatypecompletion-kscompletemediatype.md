@@ -8,8 +8,6 @@ ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.date: 04/23/2018
 keywords: ["IKsDataTypeCompletion::KsCompleteMediaType"]
 ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices],KsCompleteMediaType method, IKsDataTypeCompletion.KsCompleteMediaType, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], KsCompleteMediaType method [Streaming Media Devices],IKsDataTypeCompletion interface, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype
-f1_keywords:
- - "ksproxy/IKsDataTypeCompletion.KsCompleteMediaType"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsDataTypeCompletion.KsCompleteMediaType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsDataTypeCompletion::KsCompleteMediaType
+ - ksproxy/IKsDataTypeCompletion::KsCompleteMediaType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsDataTypeCompletion.KsCompleteMediaType
 ---
 
 # IKsDataTypeCompletion::KsCompleteMediaType
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsCompleteMediaType</b> method completes a partially-specified media type that was first presented to the <b>IAMStreamConfig::SetFormat</b> method.
-
 
 ## -parameters
 
+### -param FilterHandle 
 
-
-
-### -param FilterHandle [in]
-
+[in]
 Handle to the underlying KS filter.
 
+### -param PinFactoryId 
 
-### -param PinFactoryId [in]
-
+[in]
 Identifier of the pin factory against which the media type is being completed.
 
+### -param AmMediaType 
 
-### -param AmMediaType [in, out]
-
+[in, out]
 Pointer to a AM_MEDIA_TYPE structure that describes the format of the media samples. <b>KsCompleteMediaType</b> receives partially specified media samples, completes the specification, and returns.
-
 
 ## -returns
 
-
-
 Returns NOERROR if successful and the media type was completed; otherwise, returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>KsCompleteMediaType</b> method is primarily used for video media types, in which the <b>biSizeImage</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a> structure is known only to the driver, because of the private compression formats supported. If required, the data type handler can query the underlying KS filter in order to complete the given media type. 
 
@@ -90,20 +77,11 @@ When the proxy creates an instance of the data type handler for purposes of comp
 
 For more information about <b>IAMStreamConfig::SetFormat</b> and AM_MEDIA_TYPE, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kssetmediatype">IKsDataTypeHandler::KsSetMediaType</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a>
- 
-
- 
 

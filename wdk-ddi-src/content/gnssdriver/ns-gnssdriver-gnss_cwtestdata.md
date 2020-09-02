@@ -8,8 +8,6 @@ ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.date: 02/15/2018
 keywords: ["GNSS_CWTESTDATA structure"]
 ms.keywords: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], PGNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices], gnss.gnss_cwtestdata, gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA"
-f1_keywords:
- - "gnssdriver/GNSS_CWTESTDATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_CWTESTDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_CWTESTDATA, *PGNSS_CWTESTDATA
+f1_keywords:
+ - PGNSS_CWTESTDATA
+ - gnssdriver/PGNSS_CWTESTDATA
+ - GNSS_CWTESTDATA
+ - gnssdriver/GNSS_CWTESTDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_CWTESTDATA
 ---
 
 # GNSS_CWTESTDATA structure
@@ -47,24 +48,17 @@ req.typenames: GNSS_CWTESTDATA, *PGNSS_CWTESTDATA
 
 ## -description
 
-
 This structure defines specific data elements associated with  carrier wave test results returned from the driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field TestResultStatus
 
@@ -85,13 +79,11 @@ Failed - with error code: test not implemented, carrier wave test already in pro
 
 Signal to noise ratio in the carrier wave in dB-Hz.
 
-
 ### -field Frequency
 
 Frequency of the carrier wave detected in the measurement band.
 
 This frequency is provided as a difference to GPS frequency (1575.42 MHz) in kHz.
-
 
 ### -field Unused
 

@@ -8,8 +8,6 @@ ms.assetid: 8D496490-2BB8-49A4-B575-101E61599A65
 ms.date: 05/03/2018
 keywords: ["EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS callback, EvtSensorGetDataThresholds, EvtSensorGetDataThresholds callback function [Sensor Devices], sensors.evtsensorgetdatathresholds, sensorscx/EvtSensorGetDataThresholds
-f1_keywords:
- - "sensorscx/EvtSensorGetDataThresholds"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- SensorsCx.h
-api_name:
-- EvtSensorGetDataThresholds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS
+ - sensorscx/EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - SensorsCx.h
+api_name:
+ - EvtSensorGetDataThresholds
 ---
 
 # EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS callback function
@@ -47,37 +46,23 @@ req.typenames:
 
 ## -description
 
-
 This callback function returns the thresholds that are associated with a sensor.
 
-
 ## -parameters
-
-
-
 
 ### -param Sensor
 
 [in] A reference to a sensor object.
 
-
 ### -param pThresholds
 
 [out] A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
-
 ### -param pSize
-
 
 The size of *pThresholds*.
 
-
-
-
-
 ## -returns
-
-
 
 This function returns STATUS_SUCCESS when completed successfully.
 
@@ -85,25 +70,11 @@ This function returns STATUS_SUCCESS when completed successfully.
 		  determine if the call to the driver’s Evt function was successful, 
 		  but does not take any action if the function failed or does not return STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 This function must be implemented by the driver and is called by the class extension.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
- 
-
- 
 

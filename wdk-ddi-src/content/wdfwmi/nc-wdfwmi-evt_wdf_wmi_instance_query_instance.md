@@ -8,8 +8,6 @@ ms.assetid: 13eed838-2943-4bb4-915f-6a84f0f95851
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback function"]
 ms.keywords: DFWMIRef_424a0070-8839-4d3f-b285-166b23ac03f7.xml, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback, EvtWmiInstanceQueryInstance, EvtWmiInstanceQueryInstance callback function, kmdf.evtwmiinstancequeryinstance, wdf.evtwmiinstancequeryinstance, wdfwmi/EvtWmiInstanceQueryInstance
-f1_keywords:
- - "wdfwmi/EvtWmiInstanceQueryInstance"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdfWMI.h
-api_name:
-- EvtWmiInstanceQueryInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE
+ - wdfwmi/EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdfWMI.h
+api_name:
+ - EvtWmiInstanceQueryInstance
 ---
 
 # EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback function
@@ -47,49 +46,37 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtWmiInstanceQueryInstance</i> callback function copies a WMI provider's instance data into a buffer for delivery to a WMI client.
 
-
 ## -parameters
 
+### -param WmiInstance 
 
-
-
-### -param WmiInstance [in]
-
+[in]
 A handle to a WMI instance object.
 
+### -param OutBufferSize 
 
-### -param OutBufferSize [in]
-
+[in]
 The size, in bytes, of the output buffer that <i>OutBuffer</i> points to.
 
+### -param OutBuffer 
 
-### -param OutBuffer [in]
-
+[in]
 A pointer to the output buffer.
 
+### -param BufferUsed 
 
-### -param BufferUsed [out]
-
-A pointer to a location that receives the number of bytes that the driver places in the output buffer. If the output buffer size that the <i>OutBufferSize</i> parameter specifies is too small, the driver sets this location to the required buffer size.  
-
+[out]
+A pointer to a location that receives the number of bytes that the driver places in the output buffer. If the output buffer size that the <i>OutBufferSize</i> parameter specifies is too small, the driver sets this location to the required buffer size.
 
 ## -returns
 
-
-
 The <i>EvtWmiInstanceQueryInstance</i> callback function must return STATUS_BUFFER_TOO_SMALL, if the value of the <i>OutBufferSize</i> parameter indicates that the output buffer is too small to receive the data. Otherwise, the callback function must copy data into the buffer and return STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 To register an <i>EvtWmiInstanceQueryInstance</i> callback function, your driver must place the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a> structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>. 
 
@@ -105,14 +92,7 @@ The framework does not synchronize calls to a driver's WMI event callback functi
 
 For more information about WMI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_instance_execute_method">EvtWmiInstanceExecuteMethod</a>
 
@@ -139,7 +119,4 @@ For more information about WMI, see <a href="https://docs.microsoft.com/windows-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.date: 04/30/2018
 keywords: ["KeSetSystemAffinityThreadEx function"]
 ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx
-f1_keywords:
- - "wdm/KeSetSystemAffinityThreadEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section).
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSetSystemAffinityThreadEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSetSystemAffinityThreadEx
+ - wdm/KeSetSystemAffinityThreadEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSetSystemAffinityThreadEx
 ---
 
 # KeSetSystemAffinityThreadEx function
@@ -47,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeSetSystemAffinityThreadEx</b> routine sets the system affinity of the current thread.
-
 
 ## -parameters
 
+### -param Affinity 
 
-
-
-### -param Affinity [in]
-
+[in]
 A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread.
-
 
 ## -returns
 
-
-
 <b>KeSetSystemAffinityThreadEx</b> returns either the previous system affinity of the current thread, or zero to indicate that there was no previous system affinity.
 
-
-
-
 ## -remarks
-
-
 
 <b>KeSetSystemAffinityThreadEx</b> changes the affinity mask of the current thread. The affinity mask identifies a set of processors on which the thread can run. If successful, the routine schedules the thread to run on a processor in this set.
 
@@ -102,13 +89,7 @@ Windows 7 and later versions of Windows support processor groups. Drivers that a
 
 If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL <= APC_LEVEL and the call is successful, the new affinity mask takes effect immediately. When the call returns, the calling thread is already running on a processor that is specified in the new affinity mask. If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL = DISPATCH_LEVEL and the call is successful, the pending processor change is deferred until the caller lowers the IRQL below DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
@@ -123,7 +104,4 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL <= APC_LEVEL and the cal
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemgroupaffinitythread">KeSetSystemGroupAffinityThread</a>
- 
-
- 
 

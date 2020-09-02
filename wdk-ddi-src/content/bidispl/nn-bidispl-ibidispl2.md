@@ -8,8 +8,6 @@ ms.assetid: 90e8a390-7d30-4bcf-8c81-438c86529ceb
 ms.date: 04/20/2018
 keywords: ["IBidiSpl2 interface"]
 ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices],described, _win32_IBidiSpl2, bidispl/IBidiSpl2, gdi.ibidispl2, print.ibidispl2
-f1_keywords:
- - "bidispl/IBidiSpl2"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bidispl.h
-api_name:
-- IBidiSpl2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiSpl2
+ - bidispl/IBidiSpl2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bidispl.h
+api_name:
+ - IBidiSpl2
 ---
 
 # IBidiSpl2 interface
+
 
 ## -description
 
@@ -55,3 +55,4 @@ The **IBidiSpl2** interface enables an application or other objects to send one 
 [Bidirectional Communication Schema](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema)
 
 [Print Spooler Components](https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components)
+

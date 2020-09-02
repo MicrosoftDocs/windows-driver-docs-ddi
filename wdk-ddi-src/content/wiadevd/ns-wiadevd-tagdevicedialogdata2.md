@@ -8,12 +8,10 @@ ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.date: 05/03/2018
 keywords: ["tagDEVICEDIALOGDATA2 structure"]
 ms.keywords: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, image.devicedialogdata2, tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2"
-f1_keywords:
- - "wiadevd/DEVICEDIALOGDATA2"
 req.header: wiadevd.h
 req.include-header: Wiadevd.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiadevd.h
-api_name:
-- DEVICEDIALOGDATA2
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
+f1_keywords:
+ - tagDEVICEDIALOGDATA2
+ - wiadevd/tagDEVICEDIALOGDATA2
+ - LPDEVICEDIALOGDATA2
+ - wiadevd/LPDEVICEDIALOGDATA2
+ - DEVICEDIALOGDATA2
+ - wiadevd/DEVICEDIALOGDATA2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiadevd.h
+api_name:
+ - DEVICEDIALOGDATA2
 ---
 
 # tagDEVICEDIALOGDATA2 structure
+
 
 ## -description
 
@@ -56,11 +60,11 @@ Specifies the size, in bytes, of this structure.
 
 ### -field pIWiaItemRoot
 
-Points to an [IWiaItem2](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2) interface that represents the valid root item in the application item tree.
+Points to an [IWiaItem2](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2) interface that represents the valid root item in the application item tree.
 
 ### -field dwFlags
 
-Specifies the flags passed to [IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2-devicedlg) and [IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiadevmgr2-getimagedlg) by the calling program. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in header file *Wiadef.h*).
+Specifies the flags passed to [IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2-devicedlg) and [IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg) by the calling program. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in header file *Wiadef.h*).
 
 ### -field hwndParent
 
@@ -94,7 +98,7 @@ The **DeviceDialog** method must allocate the **BSTR** pointer array specified i
 
 To retain a reference to an **IWiaItem2** interface, the **DeviceDialog** method must call the [IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) method on the interface before returning from the call.
 
-To access information about an **IWiaItem2** object's properties, the **DeviceDialog** method must query the object to obtain its [IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface. To transfer data from an **IWiaItem2** object, the **DeviceDialog** method must query the object to obtain its [IWiaTransfer](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiatransfer) interface.
+To access information about an **IWiaItem2** object's properties, the **DeviceDialog** method must query the object to obtain its [IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface. To transfer data from an **IWiaItem2** object, the **DeviceDialog** method must query the object to obtain its [IWiaTransfer](https://docs.microsoft.com/windows/win32/wia/-wia-iwiatransfer) interface.
 
 ## -see-also
 
@@ -102,15 +106,15 @@ To access information about an **IWiaItem2** object's properties, the **DeviceDi
 
 [IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)
 
-[IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiadevmgr2-getimagedlg)
+[IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg)
 
-[IWiaItem2](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2)
+[IWiaItem2](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2)
 
-[IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2-devicedlg)
+[IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2-devicedlg)
 
 [IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage)
 
-[IWiaTransfer](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiatransfer)
+[IWiaTransfer](https://docs.microsoft.com/windows/win32/wia/-wia-iwiatransfer)
 
 [IWiaUIExtension2::DeviceDialog](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545053(v=vs.85))
 
@@ -119,3 +123,4 @@ To access information about an **IWiaItem2** object's properties, the **DeviceDi
 [PathYetAnotherMakeUniqueName Function](https://docs.microsoft.com/windows/win32/api/shlobj_core/nf-shlobj_core-pathyetanothermakeuniquename)
 
 [SysAllocString](https://docs.microsoft.com/windows/win32/api/oleauto/nf-oleauto-sysallocstring)
+

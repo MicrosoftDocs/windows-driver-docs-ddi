@@ -6,10 +6,8 @@ old-location: print\attribute_info_2.htm
 tech.root: print
 ms.assetid: c5bb9943-ee5b-4128-9e5f-438971119e3a
 ms.date: 04/20/2018
-keywords: ["_ATTRIBUTE_INFO_2 structure"]
+keywords: ["ATTRIBUTE_INFO_2 structure"]
 ms.keywords: "*PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices], PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, print.attribute_info_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, winddiui/ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2"
-f1_keywords:
- - "winddiui/ATTRIBUTE_INFO_2"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- ATTRIBUTE_INFO_2
-product:
-- Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_INFO_2, *PATTRIBUTE_INFO_2
+f1_keywords:
+ - _ATTRIBUTE_INFO_2
+ - winddiui/_ATTRIBUTE_INFO_2
+ - PATTRIBUTE_INFO_2
+ - winddiui/PATTRIBUTE_INFO_2
+ - ATTRIBUTE_INFO_2
+ - winddiui/ATTRIBUTE_INFO_2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - ATTRIBUTE_INFO_2
 ---
 
 # _ATTRIBUTE_INFO_2 structure
@@ -47,24 +50,17 @@ req.typenames: ATTRIBUTE_INFO_2, *PATTRIBUTE_INFO_2
 
 ## -description
 
-
 The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a> function. All member values are function-supplied.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwJobNumberOfPagesPerSide
 
 Number of document pages to be placed on one side of a physical page, as requested by the user. Allowable values are 1, 2, 4, 6, 9, or 16.
 
-
 ### -field dwDrvNumberOfPagesPerSide
 
 Number of document pages that the printer and driver can place on one side of a physical page. This value must be 1 or the value specified for <b>dwJobNumberOfPagesPerSide</b>.
-
 
 ### -field dwNupBorderFlags
 
@@ -96,8 +92,6 @@ The print processor should not draw a border around the page.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwJobPageOrderFlags
 
@@ -139,23 +133,18 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwDrvPageOrderFlags
 
 Bit flags indicating which page ordering options are supported by the printer and driver. Uses the same flags as <b>dwJobPageOrderFlags</b>.
 
-
 ### -field dwJobNumberOfCopies
 
 Number of copies of the print job, as requested by the user.
 
-
 ### -field dwDrvNumberOfCopies
 
 Maximum number of copies the printer and driver can handle at once, taking into account such job attributes as collating and stapling.
-
 
 ### -field dwColorOptimization
 
@@ -187,12 +176,8 @@ The print processor should not use monochrome color optimization.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The EMF print processor uses the flag specified for <b>dwColorOptimization</b> to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
@@ -200,13 +185,7 @@ If you are creating a Unidrv rendering plug-in to generate color watermarks, not
 
 For more information about other structure members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1">ATTRIBUTE_INFO_1</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1">ATTRIBUTE_INFO_1</a>
 
@@ -217,7 +196,4 @@ For more information about other structure members, see <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf">GdiEndPageEMF</a>
- 
-
- 
 

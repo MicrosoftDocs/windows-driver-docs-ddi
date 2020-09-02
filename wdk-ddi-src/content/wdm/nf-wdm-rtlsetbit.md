@@ -8,8 +8,6 @@ ms.assetid: 6e78da3d-7a37-41f9-bfa6-db2e83581769
 ms.date: 04/30/2018
 keywords: ["RtlSetBit function"]
 ms.keywords: RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, kernel.rtlsetbit, wdm/RtlSetBit
-f1_keywords:
- - "wdm/RtlSetBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlSetBit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlSetBit
+ - wdm/RtlSetBit
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlSetBit
 ---
 
 # RtlSetBit function
@@ -47,54 +46,33 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlSetBit</b> routine sets the specified bit in a bitmap to one. 
-
+The <b>RtlSetBit</b> routine sets the specified bit in a bitmap to one.
 
 ## -parameters
 
+### -param BitMapHeader 
 
+[in]
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
+### -param BitNumber 
 
-### -param BitMapHeader [in]
-
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine. 
-
-
-### -param BitNumber [in]
-
+[in]
 Specifies the zero-based index of the bit within the bitmap. The routine sets this bit to one.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 Callers of <b>RtlSetBit</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlSetBit</b> can be called at any IRQL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a>
- 
-
- 
 

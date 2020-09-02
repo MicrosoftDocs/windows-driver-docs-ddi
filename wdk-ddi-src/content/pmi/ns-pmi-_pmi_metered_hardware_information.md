@@ -6,10 +6,8 @@ old-location: powermeter\pmi_metered_hardware_information.htm
 tech.root: powermeter
 ms.assetid: 44dcfd41-7f0e-487e-8b08-5f301f17e7c1
 ms.date: 05/08/2018
-keywords: ["_PMI_METERED_HARDWARE_INFORMATION structure"]
+keywords: ["PMI_METERED_HARDWARE_INFORMATION structure"]
 ms.keywords: "*PPMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], PPMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml, _PMI_METERED_HARDWARE_INFORMATION, pmi/PMI_METERED_HARDWARE_INFORMATION, pmi/PPMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information"
-f1_keywords:
- - "pmi/PMI_METERED_HARDWARE_INFORMATION"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pmi.h
-api_name:
-- PMI_METERED_HARDWARE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_METERED_HARDWARE_INFORMATION, *PPMI_METERED_HARDWARE_INFORMATION
+f1_keywords:
+ - _PMI_METERED_HARDWARE_INFORMATION
+ - pmi/_PMI_METERED_HARDWARE_INFORMATION
+ - PPMI_METERED_HARDWARE_INFORMATION
+ - pmi/PPMI_METERED_HARDWARE_INFORMATION
+ - PMI_METERED_HARDWARE_INFORMATION
+ - pmi/PMI_METERED_HARDWARE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pmi.h
+api_name:
+ - PMI_METERED_HARDWARE_INFORMATION
 ---
 
 # _PMI_METERED_HARDWARE_INFORMATION structure
@@ -47,19 +50,13 @@ req.typenames: PMI_METERED_HARDWARE_INFORMATION, *PPMI_METERED_HARDWARE_INFORMAT
 
 ## -description
 
-
 The PMI_METERED_HARDWARE_INFORMATION structure contains information about one or more power supplies that are monitored by the power meter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MeteredHardwareCount
 
 A value that specifies the number of device identifiers that are returned in the <b>MeteredHardware</b> member.
-
 
 ### -field MeteredHardware
 
@@ -70,26 +67,15 @@ A Unicode string that specifies the name of each device that is powered by the c
 
 ## -remarks
 
-
-
 The PMI_METERED_HARDWARE_INFORMATION structure is returned through an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request. The input data for this query request is set to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a> enumerator value of <b>PmiMeteredHardware</b>.
 
 If the query request completes successfully, the request returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a> structure. The <b>Capabilities</b> member of this structure is formatted as a PMI_METERED_HARDWARE_INFORMATION structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a>
- 
-
- 
 

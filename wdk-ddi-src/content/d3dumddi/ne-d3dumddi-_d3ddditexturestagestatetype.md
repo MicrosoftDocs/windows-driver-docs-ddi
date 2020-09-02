@@ -4,7 +4,7 @@ title: _D3DDDITEXTURESTAGESTATETYPE (d3dumddi.h)
 description: The texture stage state type.
 ms.assetid: 7da9bfc3-f8e1-4898-9f12-f87ea1a1450f
 ms.date: 10/19/2018
-keywords: ["_D3DDDITEXTURESTAGESTATETYPE enumeration"]
+keywords: ["D3DDDITEXTURESTAGESTATETYPE enumeration"]
 ms.keywords: _D3DDDITEXTURESTAGESTATETYPE, D3DDDITEXTURESTAGESTATETYPE,
 req.header: d3dumddi.h
 req.include-header: 
@@ -20,7 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDITEXTURESTAGESTATETYPE"
+ - _D3DDDITEXTURESTAGESTATETYPE
+ - d3dumddi/_D3DDDITEXTURESTAGESTATETYPE
+ - D3DDDITEXTURESTAGESTATETYPE
+ - d3dumddi/D3DDDITEXTURESTAGESTATETYPE
 topic_type:
  - apiref
 api_type:
@@ -36,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDITEXTURESTAGESTATETYPE enumeration
+
 
 ## -description
 

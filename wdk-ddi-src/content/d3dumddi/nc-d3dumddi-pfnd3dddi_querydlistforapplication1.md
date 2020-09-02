@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/QueryDListForApplication"
+ - PFND3DDDI_QUERYDLISTFORAPPLICATION1
+ - d3dumddi/PFND3DDDI_QUERYDLISTFORAPPLICATION1
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback function
+
 
 ## -description
 

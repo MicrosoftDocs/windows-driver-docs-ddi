@@ -8,8 +8,6 @@ ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.date: 05/02/2018
 keywords: ["NdisGetDataBuffer function"]
 ms.keywords: NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, netvista.ndisgetdatabuffer
-f1_keywords:
- - "ndis/NdisGetDataBuffer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetDataBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetDataBuffer
+ - ndis/NdisGetDataBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetDataBuffer
 ---
 
 # NdisGetDataBuffer function
@@ -48,50 +47,43 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisGetDataBuffer</b> function to gain access to a contiguous block of data from a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
-
 ## -parameters
 
+### -param NetBuffer 
 
-
-
-### -param NetBuffer [in]
-
+[in]
 A pointer to a NET_BUFFER structure.
 
+### -param BytesNeeded 
 
-### -param BytesNeeded [in]
-
+[in]
 The number of contiguous bytes of data requested.
 
+### -param Storage 
 
-### -param Storage [in, optional]
-
+[in, optional]
 A pointer to a buffer, or <b>NULL</b> if no buffer is provided by the caller. The buffer must be greater
      than or equal in size to the number of bytes specified in 
      <i>BytesNeeded</i> . If this value is non-<b>NULL</b>, and the data requested is not contiguous, NDIS copies the
      requested data to the area indicated by 
      <i>Storage</i> .
 
+### -param AlignMultiple 
 
-### -param AlignMultiple [in]
-
+[in]
 The alignment multiple expressed in power of two. For example, 2, 4, 8, 16, and so forth. If 
      <i>AlignMultiple</i> is 1, then there is no alignment requirement.
 
+### -param AlignOffset 
 
-### -param AlignOffset [in]
-
+[in]
 The offset, in bytes, from the alignment multiple.
 
-
 ## -returns
-
-
 
 <b>NdisGetDataBuffer</b> returns a pointer to the start of the contiguous data or it returns <b>NULL</b>.
 
@@ -116,12 +108,7 @@ If the requested data in the buffer is contiguous, the return value is a pointer
 </ul>
 The return value can also be <b>NULL</b> due to a low resource condition where a data buffer cannot be mapped. This may occur even if the data is contiguous or the <i>Storage</i> parameter is non-<b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Call this function to get a pointer to a network data header contained in the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. You can easily parse the
@@ -133,20 +120,11 @@ The requested alignment requirement is expressed as a power-of-two multiple plus
     <i>AlignOffset</i> is 3 then the data address should be a multiple of 4 plus 3. If necessary, NDIS will
     allocate memory to satisfy the alignment requirement.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
- 
-
- 
 

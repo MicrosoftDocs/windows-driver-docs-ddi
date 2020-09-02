@@ -8,8 +8,6 @@ ms.assetid: d67ad000-0f9e-4b08-a5d7-04743a3a3007
 ms.date: 04/16/2018
 keywords: ["RtlCompressChunks function"]
 ms.keywords: RtlCompressChunks, RtlCompressChunks function [Installable File System Drivers], ifsk.rtlcompresschunks, ntifs/RtlCompressChunks, rtlref_5a8506ad-e74c-410f-9da3-18d3812601c3.xml
-f1_keywords:
- - "ntifs/RtlCompressChunks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- RtlCompressChunks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCompressChunks
+ - ntifs/RtlCompressChunks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - RtlCompressChunks
 ---
 
 # RtlCompressChunks function
@@ -47,50 +46,35 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlCompressChunks</b> routine is reserved for system use. 
-
+The <b>RtlCompressChunks</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param UncompressedBuffer
 
 <p>Reserved.</p>
 
-
 ### -param UncompressedBufferSize
 
 Reserved.
-
 
 ### -param CompressedBuffer
 
 Reserved.
 
-
 ### -param CompressedBufferSize
 
 Reserved.
-
 
 ### -param CompressedDataInfo
 
 Reserved.
 
-
 ### -param CompressedDataInfoLength
 
 Reserved.
 
-
 ### -param WorkSpace
 
 Reserved.
-
-
-
-
 

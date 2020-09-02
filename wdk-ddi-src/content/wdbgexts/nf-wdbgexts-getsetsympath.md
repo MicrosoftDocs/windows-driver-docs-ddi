@@ -8,8 +8,6 @@ ms.assetid: 2c7392c2-49c8-4b27-addc-0200eabbe87e
 ms.date: 05/03/2018
 keywords: ["GetSetSympath function"]
 ms.keywords: GetSetSympath, GetSetSympath function [Windows Debugging], WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, debugger.getsetsympath, wdbgexts/GetSetSympath
-f1_keywords:
- - "wdbgexts/GetSetSympath"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- GetSetSympath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetSetSympath
+ - wdbgexts/GetSetSympath
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetSetSympath
 ---
 
 # GetSetSympath function
@@ -47,45 +46,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>GetSetSympath</b> function can be used to either get or set the symbol search path. 
-
+The <b>GetSetSympath</b> function can be used to either get or set the symbol search path.
 
 ## -parameters
 
+### -param Arg 
 
-
-
-### -param Arg [in]
-
+[in]
 Specifies the new search path. If this argument is <b>NULL</b> or the string is empty, the search path is not set and the current setting is returned in <i>Result</i>.
-
 
 ### -param OPTIONAL
 
 <p>Optional. If <i>Arg</i> is <b>NULL</b>, <b>GetSetSympath</b> stores the current search path in the buffer pointed to by <i>Result</i>.</p>
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the size of the buffer for storing the result.
 
-
 ## -returns
-
-
 
 None
 
 <h2><a id="ddk_getsetsympath_dbwx"></a><a id="DDK_GETSETSYMPATH_DBWX"></a></h2>
 
-
-
 ## -remarks
 
-
-
 When the symbol path is changed, a call to <b>ReloadSymbols</b> is made implicitly.
-
-
 

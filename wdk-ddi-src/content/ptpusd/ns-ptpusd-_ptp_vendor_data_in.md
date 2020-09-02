@@ -6,14 +6,12 @@ old-location: image\ptp_vendor_data_in.htm
 tech.root: image
 ms.assetid: 896209d0-d545-495b-b743-98c0b9d976ff
 ms.date: 05/03/2018
-keywords: ["_PTP_VENDOR_DATA_IN structure"]
+keywords: ["PTP_VENDOR_DATA_IN structure"]
 ms.keywords: "*PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], PTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], _PTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, ptpusd/PPTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml"
-f1_keywords:
- - "ptpusd/PTP_VENDOR_DATA_IN"
 req.header: ptpusd.h
 req.include-header: Ptpusd.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ptpusd.h
-api_name:
-- PTP_VENDOR_DATA_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN
+f1_keywords:
+ - _PTP_VENDOR_DATA_IN
+ - ptpusd/_PTP_VENDOR_DATA_IN
+ - PPTP_VENDOR_DATA_IN
+ - ptpusd/PPTP_VENDOR_DATA_IN
+ - PTP_VENDOR_DATA_IN
+ - ptpusd/PTP_VENDOR_DATA_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ptpusd.h
+api_name:
+ - PTP_VENDOR_DATA_IN
 ---
 
 # _PTP_VENDOR_DATA_IN structure
+
 
 ## -description
 
@@ -93,3 +97,4 @@ For more information about the opcodes used in the **OpCode** member, see [ISO 1
 ## -see-also
 
 [PTP_VENDOR_DATA_OUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ptpusd/ns-ptpusd-_ptp_vendor_data_out)
+

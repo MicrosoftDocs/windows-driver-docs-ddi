@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbSetPowerComponentLatency"
+ - DXGKCB_SETPOWERCOMPONENTLATENCY
+ - d3dkmddi/DXGKCB_SETPOWERCOMPONENTLATENCY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_SETPOWERCOMPONENTLATENCY callback function
+
 
 ## -description
 

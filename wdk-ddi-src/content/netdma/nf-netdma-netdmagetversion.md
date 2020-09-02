@@ -8,8 +8,6 @@ ms.assetid: eec8ba30-0f9e-4487-ba0d-99587d97b44a
 ms.date: 05/02/2018
 keywords: ["NetDmaGetVersion function"]
 ms.keywords: NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion
-f1_keywords:
- - "netdma/NetDmaGetVersion"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- netdma.h
-api_name:
-- NetDmaGetVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NetDmaGetVersion
+ - netdma/NetDmaGetVersion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - netdma.h
+api_name:
+ - NetDmaGetVersion
 ---
 
 # NetDmaGetVersion function
 
 
 ## -description
-
 
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
@@ -56,10 +54,7 @@ The
   <b>NetDmaGetVersion</b> function returns the version of the NetDMA interface that the local computer
   supports.
 
-
 ## -returns
-
-
 
 <b>NetDmaGetVersion</b> returns a UINT value that contains the major and minor version numbers as
      follows:
@@ -92,14 +87,8 @@ The minor version of NetDMA interface.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NetDMA provider drivers can call the 
     <b>NetDmaGetVersion</b> function to obtain the version of the NetDMA interface. A NetDMA provider must
@@ -128,13 +117,7 @@ NetDMA provider drivers can call the
 NetDMA provider drivers call 
     <b>NetDmaGetVersion</b> at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
@@ -146,7 +129,4 @@ NetDMA provider drivers call
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: storage\storage_protocol_command.htm
 tech.root: storage
 ms.assetid: 0B7FC33E-A417-48E4-99CC-D1FFC340A405
 ms.date: 06/11/2019
-keywords: ["_STORAGE_PROTOCOL_COMMAND structure"]
+keywords: ["STORAGE_PROTOCOL_COMMAND structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices], _STORAGE_PROTOCOL_COMMAND, ntddstor/PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, storage.storage_protocol_command"
-f1_keywords:
- - "ntddstor/STORAGE_PROTOCOL_COMMAND"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_PROTOCOL_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
+f1_keywords:
+ - _STORAGE_PROTOCOL_COMMAND
+ - ntddstor/_STORAGE_PROTOCOL_COMMAND
+ - PSTORAGE_PROTOCOL_COMMAND
+ - ntddstor/PSTORAGE_PROTOCOL_COMMAND
+ - STORAGE_PROTOCOL_COMMAND
+ - ntddstor/STORAGE_PROTOCOL_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_PROTOCOL_COMMAND
 ---
 
 # _STORAGE_PROTOCOL_COMMAND structure
+
 
 ## -description
 
@@ -145,3 +149,4 @@ The vendor-specific command that is to be passed-through to the device.
 ## -see-also
 
 [IOCTL_STORAGE_PROTOCOL_COMMAND](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_protocol_command)
+

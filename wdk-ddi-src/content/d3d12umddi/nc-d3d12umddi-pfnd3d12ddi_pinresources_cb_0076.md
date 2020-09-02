@@ -24,9 +24,10 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 tech.root: display
-ms.custom:
+ms.custom: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_PINRESOURCES_CB_0076"
+ - PFND3D12DDI_PINRESOURCES_CB_0076
+ - d3d12umddi/PFND3D12DDI_PINRESOURCES_CB_0076
 topic_type:
  - apiref
 api_type:
@@ -42,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_PINRESOURCES_CB_0076 callback function
+
 
 ## -description
 
@@ -87,3 +89,4 @@ A resource that has been pinned can be unpinned by calling [**PFND3D12DDI_UNPINR
 [**D3D12DDICB_PIN_RESOURCES_0076**](ns-d3d12umddi-d3d12ddicb_pinresources_0076.md)
 
 [**PFND3D12DDI_UNPINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_unpinresources_cb_0076.md)
+

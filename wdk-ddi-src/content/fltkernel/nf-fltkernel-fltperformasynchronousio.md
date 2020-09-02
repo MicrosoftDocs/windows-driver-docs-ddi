@@ -8,8 +8,6 @@ ms.assetid: c76529fe-c808-4239-9bde-68dc68d987ec
 ms.date: 11/06/2019
 keywords: ["FltPerformAsynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_ed6cd087-6139-4280-aaf3-fe6f0d5b056a.xml, FltPerformAsynchronousIo, FltPerformAsynchronousIo function [Installable File System Drivers], fltkernel/FltPerformAsynchronousIo, ifsk.fltperformasynchronousio
-f1_keywords:
- - "fltkernel/FltPerformAsynchronousIo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltPerformAsynchronousIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltPerformAsynchronousIo
+ - fltkernel/FltPerformAsynchronousIo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltPerformAsynchronousIo
 ---
 
 # FltPerformAsynchronousIo function
+
 
 ## -description
 
@@ -50,16 +50,19 @@ A minifilter driver calls **FltPerformAsynchronousIo** to initiate an asynchrono
 
 ## -parameters
 
-### -param CallbackData [in, out]
+### -param CallbackData 
 
+[in, out]
 Pointer to a callback data ([FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data)) structure allocated by a previous call to [FltAllocateCallbackData](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecallbackdata). This parameter is required and cannot be **NULL**. The caller is responsible for freeing this structure when it is no longer needed by calling [FltFreeCallbackData](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreecallbackdata).
 
-### -param CallbackRoutine [in]
+### -param CallbackRoutine 
 
+[in]
 Pointer to a [PFLT_COMPLETED_ASYNC_IO_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback)-typed callback routine to be called when the I/O operation is completed. Note: The Filter Manager calls this routine after it calls the postoperation callback ([PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)) routines of any minifilter drivers whose instances are attached below the initiating instance (specified in the *Instance* parameter to [FltAllocateCallbackData](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecallbackdata)). This parameter is required and cannot be **NULL**. The Filter Manager always calls this routine, even when **FltPerformAsynchronousIo** fails.
 
-### -param CallbackContext [in]
+### -param CallbackContext 
 
+[in]
 Context pointer to be passed to the *CallbackRoutine* This parameter is optional and can be **NULL**.
 
 ## -returns
@@ -116,3 +119,4 @@ The caller of **FltPerformAsynchronousIo** can be running at IRQL <= APC_LEVEL i
 [PFLT_COMPLETED_ASYNC_IO_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback)
 
 [PFLT_POST_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback)
+

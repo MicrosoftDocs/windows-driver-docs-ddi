@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_COMMAND_LIST_FUNCS_3D_0074
 f1_keywords:
+ - D3D12DDI_COMMAND_LIST_FUNCS_3D_0074
  - d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0074
 dev_langs:
  - c++
@@ -317,3 +318,4 @@ Dispatch mesh. See the [D3D Sampler Feedback Specification](https://microsoft.gi
 ## -remarks
 
 ## -see-also
+

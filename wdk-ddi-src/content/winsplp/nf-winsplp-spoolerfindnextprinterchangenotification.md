@@ -8,8 +8,6 @@ ms.assetid: FE69BD53-F463-480A-820B-4259D6F48BD0
 ms.date: 04/20/2018
 keywords: ["SpoolerFindNextPrinterChangeNotification function"]
 ms.keywords: SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, winsplp/SpoolerFindNextPrinterChangeNotification
-f1_keywords:
- - "winsplp/SpoolerFindNextPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- SpoolerFindNextPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpoolerFindNextPrinterChangeNotification
+ - winsplp/SpoolerFindNextPrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - SpoolerFindNextPrinterChangeNotification
 ---
 
 # SpoolerFindNextPrinterChangeNotification function
@@ -47,23 +46,21 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
+[in]
 
+### -param pfdwChange 
 
-### -param hPrinter [in]
+[out]
 
+### -param pPrinterNotifyOptions 
 
-### -param pfdwChange [out]
+[in, optional]
 
+### -param ppPrinterNotifyInfo 
 
-### -param pPrinterNotifyOptions [in, optional]
-
-
-### -param ppPrinterNotifyInfo [in, out, optional]
+[in, out, optional]
 

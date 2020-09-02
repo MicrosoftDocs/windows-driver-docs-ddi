@@ -8,8 +8,6 @@ ms.assetid: c1eca20b-eda1-442c-8644-798fa864d5d7
 ms.date: 05/02/2018
 keywords: ["MINIPORT_MESSAGE_INTERRUPT_DPC callback function"]
 ms.keywords: MINIPORT_MESSAGE_INTERRUPT_DPC, MINIPORT_MESSAGE_INTERRUPT_DPC callback, MiniportMessageInterruptDPC, MiniportMessageInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportMessageInterruptDPC, ndis_interrupts_miniport_functions_ref_eb463565-15ab-4751-be20-4239e6ccb987.xml, netvista.miniportmessageinterruptdpc
-f1_keywords:
- - "ndis/MiniportMessageInterruptDPC"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportMessageInterruptDPC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_MESSAGE_INTERRUPT_DPC
+ - ndis/MINIPORT_MESSAGE_INTERRUPT_DPC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportMessageInterruptDPC
 ---
 
 # MINIPORT_MESSAGE_INTERRUPT_DPC callback function
 
 
 ## -description
-
 
 A miniport driver must provide a
    <i>MiniportMessageInterruptDPC</i> handler if the driver calls the 
@@ -57,20 +55,18 @@ A miniport driver must provide a
 
 ## -parameters
 
+### -param MiniportInterruptContext 
 
-
-
-### -param MiniportInterruptContext [in]
-
+[in]
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
+### -param MessageId 
 
-### -param MessageId [in]
-
+[in]
 A message-signaled interrupt (MSI) message identifier. 
      <i>MessageId</i> is an index to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info_entry">
@@ -81,9 +77,9 @@ A message-signaled interrupt (MSI) message identifier.
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a> function.
 
+### -param MiniportDpcContext 
 
-### -param MiniportDpcContext [in]
-
+[in]
 A pointer to a context area that the miniport driver supplied when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismqueuedpcex">NdisMQueueDpcEx</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismqueuedpc">NdisMQueueDpc</a> function. If NDIS called 
@@ -93,9 +89,9 @@ A pointer to a context area that the miniport driver supplied when it called the
      MiniportMessageInterrupt</a> function, then 
      <i>MiniportDpcContext</i> is <b>NULL</b>.
 
+### -param ReceiveThrottleParameters 
 
-### -param ReceiveThrottleParameters [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">
      NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure specifies the maximum number of 
@@ -109,16 +105,15 @@ A pointer to an
 
 Reserved for NDIS.
 
-### -param NdisReserved2 [in]
+### -param NdisReserved2 
 
+[in]
 Reserved for NDIS.
 
 <div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter's datatype is <b>PULONG</b>.</div>
 <div> </div>
 
 ## -remarks
-
-
 
 Miniport drivers that register a message-signaled interrupt with the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a> function
@@ -227,15 +222,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_MESSAGE_INTERRUPT_DPC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_MESSAGE_INTERRUPT_DPC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>
 
@@ -294,7 +283,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
- 
-
- 
 

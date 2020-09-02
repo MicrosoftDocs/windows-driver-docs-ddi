@@ -8,8 +8,6 @@ ms.assetid: 95e714b4-4167-41a1-ab2c-b088dbaf5fe2
 ms.date: 05/03/2018
 keywords: ["IDebugControl3 interface"]
 ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging],described, dbgeng/IDebugControl3, debugger.idebugcontrol3
-f1_keywords:
- - "dbgeng/IDebugControl3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,28 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3
+ - dbgeng/IDebugControl3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl3
 ---
 
 # IDebugControl3 interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -59,9 +55,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl3</b> interface 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
@@ -71,7 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl3</b> interface 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
- 
-
- 
 

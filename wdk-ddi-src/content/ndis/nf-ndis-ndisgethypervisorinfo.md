@@ -8,8 +8,6 @@ ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.date: 05/02/2018
 keywords: ["NdisGetHypervisorInfo function"]
 ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
-f1_keywords:
- - "ndis/NdisGetHypervisorInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetHypervisorInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetHypervisorInfo
+ - ndis/NdisGetHypervisorInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetHypervisorInfo
 ---
 
 # NdisGetHypervisorInfo function
 
 
 ## -description
-
 
 <div class="alert"><b>Important</b>  <p class="note">Starting with Windows 10 Version 1703, NdisGetHypervisorInfo is deprecated and should not be used.  Drivers are encouraged to move away from it, as it may not be available in future versions of the operating system. 
 
@@ -57,21 +55,15 @@ req.typenames:
 
 The <b>NdisGetHypervisorInfo</b> function returns information about the hypervisor that is present on the system.
 
-
 ## -parameters
 
+### -param HypervisorInfo 
 
-
-
-### -param HypervisorInfo [in, out]
-
+[in, out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a> structure that
      contains information about the hypervisor that is present on the system.
 
-
 ## -returns
-
-
 
 <b>NdisGetHypervisorInfo</b> can return one of the following status values:
 
@@ -103,14 +95,8 @@ The size of the input parameter buffer was too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS miniport drivers call the 
     <b>NdisGetHypervisorInfo</b> function to determine whether a hypervisor is present on the system.
@@ -146,15 +132,7 @@ If another vendor's hypervisor is present, the <b>PartitionType</b> member is se
     <b>Header</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a> structure before it calls the <b>NdisGetHypervisorInfo</b> function.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a>
- 
-
- 
 

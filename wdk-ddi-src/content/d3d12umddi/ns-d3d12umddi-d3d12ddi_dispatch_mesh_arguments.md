@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_DISPATCH_MESH_ARGUMENTS
 f1_keywords:
+ - D3D12DDI_DISPATCH_MESH_ARGUMENTS
  - d3d12umddi/D3D12DDI_DISPATCH_MESH_ARGUMENTS
 dev_langs:
  - c++
@@ -61,3 +62,4 @@ The total number of threads is **ThreadGroupCountX * ThreadGroupCountY * ThreadG
 See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ## -see-also
+

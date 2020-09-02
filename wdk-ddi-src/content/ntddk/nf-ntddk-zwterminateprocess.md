@@ -8,8 +8,6 @@ ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.date: 04/30/2018
 keywords: ["ZwTerminateProcess function"]
 ms.keywords: NtTerminateProcess, ZwTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml, kernel.zwterminateprocess, ntddk/NtTerminateProcess, ntddk/ZwTerminateProcess
-f1_keywords:
- - "ntddk/ZwTerminateProcess"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwTerminateProcess
-- NtTerminateProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwTerminateProcess
+ - ntddk/ZwTerminateProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwTerminateProcess
+ - NtTerminateProcess
 ---
 
 # ZwTerminateProcess function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwTerminateProcess</b> routine terminates a process and all of its threads.
-
 
 ## -parameters
 
+### -param ProcessHandle 
 
+[in, optional]
+A handle to the process object that represents the process to be terminated.
 
+### -param ExitStatus 
 
-### -param ProcessHandle [in, optional]
-
-A handle to the process object that represents the process to be terminated. 
-
-
-### -param ExitStatus [in]
-
-An NTSTATUS value that the operating system uses as the final status for the process and each of its threads. 
-
+[in]
+An NTSTATUS value that the operating system uses as the final status for the process and each of its threads.
 
 ## -returns
-
-
 
 <b>ZwTerminateProcess</b> returns STATUS_SUCCESS if the operation succeeds. Additional return values include:
 
@@ -127,12 +119,7 @@ The specified process is already terminating.
 
 If the caller specifies the current process in the <i>ProcessHandle</i> parameter, <b>ZwTerminateProcess</b> does not return.
 
-
-
-
 ## -remarks
-
-
 
 To obtain a process handle that a driver can specify for the <i>ProcessHandle</i> parameter, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ntopenprocess">ZwOpenProcess</a>. The handle must be a *kernel handle*, a handle that can only be accessed in kernel mode. A handle is a kernel handle if it is created with the OBJ_KERNEL_HANDLE flag. For more info see [InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes).
 
@@ -142,20 +129,11 @@ Drivers must not specify the current process if resources have not been freed fr
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ntopenprocess">ZwOpenProcess</a>
- 
-
- 
 

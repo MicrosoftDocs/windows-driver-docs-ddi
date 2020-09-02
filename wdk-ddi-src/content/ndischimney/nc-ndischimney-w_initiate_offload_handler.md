@@ -8,8 +8,6 @@ ms.assetid: f430642b-01bf-4ed7-bfea-e8dd8d5a8208
 ms.date: 05/02/2018
 keywords: ["W_INITIATE_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportInitiateOffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], W_INITIATE_OFFLOAD_HANDLER, W_INITIATE_OFFLOAD_HANDLER callback, ndischimney/MiniportInitiateOffload, netvista.miniportinitiateoffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml
-f1_keywords:
- - "ndischimney/MiniportInitiateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- MiniportInitiateOffload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - W_INITIATE_OFFLOAD_HANDLER
+ - ndischimney/W_INITIATE_OFFLOAD_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - MiniportInitiateOffload
 ---
 
 # W_INITIATE_OFFLOAD_HANDLER callback function
@@ -47,19 +46,15 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 <i>MiniportInitiateOffload</i> offloads TCP chimney state from the host stack.
 
-
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
@@ -68,18 +63,15 @@ The handle to an offload-target allocated context area in which the offload targ
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param OffloadBlockList 
 
-### -param OffloadBlockList [in, out]
-
+[in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures.
 
-
 ## -remarks
-
-
 
 The 
     <i>MiniportInitiateOffload</i> function stores the 
@@ -134,13 +126,7 @@ For each state object that it offloads, the offload target must also supply a PV
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -156,7 +142,4 @@ For each state object that it offloads, the offload target must also supply a PV
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

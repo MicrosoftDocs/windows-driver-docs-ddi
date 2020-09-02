@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport"
+ - DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
+ - d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,9 @@ product:
 
 # DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback function
 
+> [!NOTE] This function has been replaced with [DxgkDdiCheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md).
+
+
 ## -description
 
 Called by the Microsoft DirectX graphics kernel subsystem to check the details of hardware support for multiplane overlays.
@@ -52,11 +56,11 @@ Called by the Microsoft DirectX graphics kernel subsystem to check the details o
 
 ### -param hAdapter
 
-A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the [DxgkDdiAddDevice](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) function.
 
 ### -param pCheckMultiPlaneOverlaySupport
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that provides details on hardware support for multiplane overlays.
+A pointer to a [DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT](../d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport.md) structure that provides details on hardware support for multiplane overlays.
 
 ## -returns
 
@@ -64,9 +68,7 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise it returns one of the er
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT</a>
+[DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT](../d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport.md)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+[DxgkDdiAddDevice](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
 

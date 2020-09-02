@@ -8,8 +8,6 @@ ms.assetid: c4f27011-f198-474e-8d2c-8bf35c3c8c66
 ms.date: 04/16/2018
 keywords: ["IoGetDiskDeviceObject function"]
 ms.keywords: IoGetDiskDeviceObject, IoGetDiskDeviceObject routine [Installable File System Drivers], ifsk.iogetdiskdeviceobject, ioref_b3532bdd-87b6-4e6b-91a0-093b8ed5aa6c.xml, ntifs/IoGetDiskDeviceObject
-f1_keywords:
- - "ntifs/IoGetDiskDeviceObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetDiskDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetDiskDeviceObject
+ - ntifs/IoGetDiskDeviceObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetDiskDeviceObject
 ---
 
 # IoGetDiskDeviceObject function
@@ -47,30 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetDiskDeviceObject</b> routine retrieves a pointer to the disk device object associated with a given file system volume device object.
-
 
 ## -parameters
 
+### -param FileSystemDeviceObject 
 
-
-
-### -param FileSystemDeviceObject [in]
-
-A pointer to the file system device object. 
-
+[in]
+A pointer to the file system device object.
 
 ### -param DiskDeviceObject
 
 <p>A pointer to a variable that receives the address of the device object for the disk device object. </p>
 
-
-
-
 ## -returns
-
-
 
 <b>IoGetDiskDeviceObject</b> returns one of the following status values: 
 
@@ -107,28 +96,16 @@ One of the parameters passed to this function was invalid.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IoGetDiskDeviceObject</b> returns a pointer to the storage device object associated with the file system volume. The storage device need not be an actual disk 
 
 File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a file system volume device object to determine whether the volume is mounted. 
 
-<b>IoGetDiskDeviceObject</b> increments the reference count on the disk device object pointed to by <i>DeviceObject</i>. Thus every successful call to <b>IoGetDiskDeviceObject</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>. 
-
-
-
+<b>IoGetDiskDeviceObject</b> increments the reference count on the disk device object pointed to by <i>DeviceObject</i>. Thus every successful call to <b>IoGetDiskDeviceObject</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioenumeratedeviceobjectlist">IoEnumerateDeviceObjectList</a>
 
@@ -147,7 +124,4 @@ File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a fil
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
- 
-
- 
 

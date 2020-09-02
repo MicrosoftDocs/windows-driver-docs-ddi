@@ -6,10 +6,7 @@ old-location: netvista\providersetobject.htm
 tech.root: netvista
 ms.assetid: e5dcb46e-5a8a-45b7-b6aa-150a9cec0155
 ms.date: 05/02/2018
-keywords: ["IF_SET_OBJECT callback function"]
-ms.keywords: "IFP_SET_OBJECT, IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_SET_OBJECT, IF_SET_OBJECT callback, ProviderSetObject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderSetObject, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml, netvista.providersetobject"
-f1_keywords:
- - "ndis/IFP_SET_OBJECT"
+ms.keywords: IFP_SET_OBJECT, IFP_SET_OBJECT callback function
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +24,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- IFP_SET_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IF_SET_OBJECT
+ - ndis/IF_SET_OBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - IFP_SET_OBJECT
+product:
+ - Windows
 ---
 
 # IF_SET_OBJECT callback function
@@ -47,47 +47,40 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>ProviderSetObject</i> function sets information that is associated with a network interface.
 
-
 ## -parameters
 
+### -param ProviderIfContext 
 
-
-
-### -param ProviderIfContext [in]
-
+[in]
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
+### -param ObjectId 
 
-### -param ObjectId [in]
-
+[in]
 An identifier for the object that is the target of the set request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
      OIDs</a>.
 
+### -param InputBufferLength 
 
-### -param InputBufferLength [in]
-
+[in]
 The length, in bytes, of the buffer that 
      <i>pInputBuffer</i> points to.
 
+### -param pInputBuffer 
 
-### -param pInputBuffer [in]
-
+[in]
 A pointer to an input buffer that specifies the information that the interface provider should use
      to set the object data.
 
-
 ## -returns
-
-
 
 <i>ProviderSetObject</i> returns one of the following status values:
 
@@ -142,14 +135,8 @@ The call failed for some other reason. This function can propagate error codes f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS calls a network interface provider's 
     <i>ProviderSetObject</i> function to set information that is associated with an interface that the
@@ -161,16 +148,7 @@ Note that there are currently no set OIDs defined.
 NDIS calls 
     <i>ProviderSetObject</i> at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
- 
-
- 
 

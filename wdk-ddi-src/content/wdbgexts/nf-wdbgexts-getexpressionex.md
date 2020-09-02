@@ -8,8 +8,6 @@ ms.assetid: 07525217-afa5-4fbf-8c84-847ded9556d8
 ms.date: 05/03/2018
 keywords: ["GetExpressionEx function"]
 ms.keywords: GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
-f1_keywords:
- - "wdbgexts/GetExpressionEx"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- GetExpressionEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GetExpressionEx
+ - wdbgexts/GetExpressionEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - GetExpressionEx
 ---
 
 # GetExpressionEx function
@@ -47,33 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetExpressionEx</b> function evaluates an expression. The expression is evaluated using the MASM evaluator, and can contain aliases.
 
-
 ## -parameters
-
-
-
 
 ### -param Expression
 
 Specifies the expression to evaluate.  The expression uses the MASM syntax.  For details of this syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/masm-numbers-and-operators">MASM Numbers and Operators</a>.
 
-
 ### -param Value
 
 Receives the value of the expression.
-
 
 ### -param Remainder
 
 Receives a pointer to the first character in the expression <i>Expression</i> that was not used in the evaluation of the expression.
 
-
 ## -returns
-
-
 
 <b>GetExpressionEx</b> returns one of the following values:
 
@@ -105,18 +94,8 @@ An error occurred while attempting to evaluate the expression.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_get_expression">GetExpression</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 4cb6e9af-ddd0-48d9-9f07-43c828e4187b
 ms.date: 03/29/2018
 keywords: ["ChangerExchangeMedium function"]
 ms.keywords: ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium, storage.changerexchangemedium
-f1_keywords:
- - "mcd/ChangerExchangeMedium"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mcd.h
-api_name:
-- ChangerExchangeMedium
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ChangerExchangeMedium
+ - mcd/ChangerExchangeMedium
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mcd.h
+api_name:
+ - ChangerExchangeMedium
 ---
 
 # ChangerExchangeMedium function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-<b>ChangerExchangeMedium</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_exchange_medium">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>. 
-
+<b>ChangerExchangeMedium</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_exchange_medium">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>.
 
 ## -parameters
 
+### -param DeviceObject 
 
+[in]
+Pointer to the device object that represents the changer.
 
+### -param Irp 
 
-### -param DeviceObject [in]
-
-Pointer to the device object that represents the changer. 
-
-
-### -param Irp [in]
-
-Pointer to the IRP. 
-
+[in]
+Pointer to the IRP.
 
 ## -returns
-
-
 
 If the changer supports exchanging media, <b>ChangerExchangeMedium</b> returns the status returned by the system port driver, or one of the following values:
       
@@ -83,12 +75,7 @@ STATUS_SOURCE_ELEMENT_EMPTY
 
 If the changer does not support exchanging media, ChangerExchangeMedium returns STATUS_INVALID_DEVICE_REQUEST.
 
-
-
-
 ## -remarks
-
-
 
 This routine is required.
 
@@ -98,15 +85,9 @@ The CHANGER_EXCHANGE_MEDIA flag in <b>Features0</b> of the <a href="https://docs
 
 The changer class driver checks the input buffer length in the I/O stack location before calling a miniclass driver's <b>ChangerExchangeMedium</b> routine. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_exchange_medium">CHANGER_EXCHANGE_MEDIUM</a> structure as an input parameter that indicates the transport element and the destination to set. 
 
-<b>ChangerExchangeMedium</b> first verifies that the transport, source, and destination element addresses are valid, then converts zero-based element addresses to device-specific element addresses. It then builds an SRB with a CDB to exchange the media and sends it to the system port driver. 
-
-
-
+<b>ChangerExchangeMedium</b> first verifies that the transport, source, and destination element addresses are valid, then converts zero-based element addresses to device-specific element addresses. It then builds an SRB with a CDB to exchange the media and sends it to the system port driver.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>
 
@@ -121,7 +102,4 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
- 
-
- 
 

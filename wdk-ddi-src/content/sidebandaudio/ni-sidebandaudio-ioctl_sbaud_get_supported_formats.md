@@ -5,38 +5,38 @@ description:
 ms.assetid: 0e17eae1-e498-43b6-88d8-6a5f0752f3f0
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL"]
-f1_keywords:
- - "sidebandaudio/IOCTL_SBAUD_GET_SUPPORTED_FORMATS"
 req.header: sidebandaudio.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sidebandaudio.h
-api_name: 
-- IOCTL_SBAUD_GET_SUPPORTED_FORMATS
-product:
-- Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_SBAUD_GET_SUPPORTED_FORMATS
+ - sidebandaudio/IOCTL_SBAUD_GET_SUPPORTED_FORMATS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sidebandaudio.h
+api_name:
+ - IOCTL_SBAUD_GET_SUPPORTED_FORMATS
 ---
 
 # IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -77,4 +77,6 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 ## -remarks
 
 ## -see-also
+
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats)
+

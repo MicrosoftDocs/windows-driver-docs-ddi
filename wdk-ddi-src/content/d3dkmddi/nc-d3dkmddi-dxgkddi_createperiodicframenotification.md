@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_CREATEPERIODICFRAMENOTIFICATION"
+ - DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
+ - d3dkmddi/DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CREATEPERIODICFRAMENOTIFICATION callback function
+
 
 ## -description
 

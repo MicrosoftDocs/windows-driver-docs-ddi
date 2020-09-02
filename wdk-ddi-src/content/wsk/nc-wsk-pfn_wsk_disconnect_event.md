@@ -8,8 +8,6 @@ ms.assetid: bf12d7b3-080e-46d9-b276-76d42068e7c6
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_DISCONNECT_EVENT callback function"]
 ms.keywords: PFN_WSK_DISCONNECT_EVENT, PFN_WSK_DISCONNECT_EVENT callback, WskDisconnectEvent, WskDisconnectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnectevent, wsk/WskDisconnectEvent, wskref_ec112b8d-f939-456f-9766-e181c7836e2c.xml
-f1_keywords:
- - "wsk/WskDisconnectEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskDisconnectEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_DISCONNECT_EVENT
+ - wsk/PFN_WSK_DISCONNECT_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskDisconnectEvent
 ---
 
 # PFN_WSK_DISCONNECT_EVENT callback function
@@ -47,19 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>WskDisconnectEvent</i> event callback function notifies a WSK application that a connection on a
   connection-oriented socket has been disconnected by the remote application.
 
-
 ## -parameters
 
+### -param SocketContext 
 
-
-
-### -param SocketContext [in, optional]
-
+[in, optional]
 A pointer to the socket context for the connection-oriented socket that has been disconnected. The
      WSK application provided this pointer to the WSK subsystem in one of the following ways:
      
@@ -90,8 +85,9 @@ Its
 </li>
 </ul>
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
 
@@ -113,27 +109,19 @@ The WSK subsystem called the
        the WSK subsystem might have called the 
        <i>WskDisconnectEvent</i> event callback function at any IRQL <= DISPATCH_LEVEL.
 
-
 ## -returns
-
-
 
 A WSK application's 
      <i>WskDisconnectEvent</i> event callback function must always return STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 The WSK subsystem calls a WSK application's 
     <i>WskDisconnectEvent</i> event callback function when a connection-oriented socket is disconnected by the
     remote application only if the event callback function was previously enabled with the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 If the remote application performed a graceful disconnect of the socket, no further data will be
@@ -150,13 +138,7 @@ The WSK subsystem calls a WSK application's
 
 A WSK application's <i>WskDisconnectEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
@@ -192,7 +174,4 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
 

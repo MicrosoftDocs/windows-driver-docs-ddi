@@ -8,12 +8,10 @@ ms.assetid: e742f898-e663-431d-870e-bb0fe7e89b5a
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvAnalyzeItem"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvAnalyzeItem method, IWiaMiniDrv.drvAnalyzeItem, IWiaMiniDrv::drvAnalyzeItem, MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, drvAnalyzeItem, drvAnalyzeItem method [Imaging Devices], drvAnalyzeItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvanalyzeitem, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvAnalyzeItem"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvAnalyzeItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvAnalyzeItem
+ - wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvAnalyzeItem
 ---
 
 # IWiaMiniDrv::drvAnalyzeItem
+
 
 ## -description
 
@@ -91,3 +91,4 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 [IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
 
 [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
+

@@ -8,8 +8,6 @@ ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::EnumFeatures"]
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumFeatures method, IPrintCoreUI2.EnumFeatures, IPrintCoreUI2::EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.EnumFeatures"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.EnumFeatures
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::EnumFeatures
+ - prcomoem/IPrintCoreUI2::EnumFeatures
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.EnumFeatures
 ---
 
 # IPrintCoreUI2::EnumFeatures
@@ -47,45 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::EnumFeatures</code> method enumerates a printer's available features.
-
 
 ## -parameters
 
+### -param poemuiobj 
 
-
-
-### -param poemuiobj [in]
-
+[in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 Is reserved and must be set to zero.
 
+### -param pmszFeatureList 
 
-### -param pmszFeatureList [out]
-
+[out]
 Pointer to a caller-supplied buffer that receives a null-delimited list of feature keywords in MULTI_SZ format. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the feature list without having the list filled in.
 
+### -param cbSize 
 
-### -param cbSize [in]
-
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureList</i>.
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
-
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the feature list.
 
-
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -141,14 +133,8 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
 
@@ -158,13 +144,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-enumfeatures">Using EnumFeatures</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -175,7 +155,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

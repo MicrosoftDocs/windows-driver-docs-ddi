@@ -6,10 +6,8 @@ old-location: display\d3dddicb_lock.htm
 tech.root: display
 ms.assetid: e8d563fe-937a-48cb-9c7b-f282d12a9fcf
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_LOCK structure"]
+keywords: ["D3DDDICB_LOCK structure"]
 ms.keywords: D3DDDICB_LOCK, D3DDDICB_LOCK structure [Display Devices], D3D_param_Structs_84ac7e9c-e228-4ace-9e1b-74af8c52af85.xml, _D3DDDICB_LOCK, d3dumddi/D3DDDICB_LOCK, display.d3dddicb_lock
-f1_keywords:
- - "d3dumddi/D3DDDICB_LOCK"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_LOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_LOCK
+f1_keywords:
+ - _D3DDDICB_LOCK
+ - d3dumddi/_D3DDDICB_LOCK
+ - D3DDDICB_LOCK
+ - d3dumddi/D3DDDICB_LOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_LOCK
 ---
 
 # _D3DDDICB_LOCK structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDICB_LOCK
 
 ## -description
 
-
-The D3DDDICB_LOCK structure describes parameters for locking an allocation. 
-
+The D3DDDICB_LOCK structure describes parameters for locking an allocation.
 
 ## -struct-fields
-
-
-
 
 ### -field hAllocation
 
@@ -62,26 +58,21 @@ The D3DDDICB_LOCK structure describes parameters for locking an allocation.
 
 If the <b>Discard</b> bit-field flag is set in the <b>Flags</b> member, the video memory manager creates a new instance of the allocation and returns a new handle that represents the new instance.
 
-
 ### -field PrivateDriverData
 
 [in] Private data (for example, MIP level) that is sent from the user-mode display driver to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a> function.
-
 
 ### -field NumPages
 
 [in] The number of pages in the page list that is pointed to by <b>pPages</b>.
 
-
 ### -field pPages
 
 [in] An array of pages to lock. Each page in the array is described by an integer offset. Zero means the first page in the surface, one means the second, and so on.
 
-
 ### -field pData
 
 [out] A pointer to the memory that is returned from the display miniport driver and memory manager. When locking a memory page list, the pointer that is returned is a pointer to the first memory page.
-
 
 ### -field Flags
 
@@ -89,18 +80,13 @@ If the <b>Discard</b> bit-field flag is set in the <b>Flags</b> member, the vide
 
 Note that specifying some flags together is invalid and that some flags depend on other flags. For more information about specifying these flags, see the Remarks section of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lockflags">D3DDDICB_LOCKFLAGS</a>.
 
-
 ### -field GpuVirtualAddress
 
 This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lockflags">D3DDDICB_LOCKFLAGS</a>
 
@@ -111,7 +97,4 @@ This member is available beginning with Windows 7.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
- 
-
- 
 

@@ -6,10 +6,8 @@ old-location: kernel\file_mode_information.htm
 tech.root: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.date: 04/30/2018
-keywords: ["_FILE_MODE_INFORMATION structure"]
+keywords: ["FILE_MODE_INFORMATION structure"]
 ms.keywords: "*PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_MODE_INFORMATION, kernel.file_mode_information, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, ntifs/FILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_MODE_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntifs.h
-api_name:
-- FILE_MODE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
+f1_keywords:
+ - _FILE_MODE_INFORMATION
+ - ntifs/_FILE_MODE_INFORMATION
+ - PFILE_MODE_INFORMATION
+ - ntifs/PFILE_MODE_INFORMATION
+ - FILE_MODE_INFORMATION
+ - ntifs/FILE_MODE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntifs.h
+api_name:
+ - FILE_MODE_INFORMATION
 ---
 
 # _FILE_MODE_INFORMATION structure
@@ -47,14 +50,9 @@ req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
 
 ## -description
 
-
 The <b>FILE_MODE_INFORMATION</b> structure is used to query or set the access mode of a file.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Mode
 
@@ -100,29 +98,17 @@ Delete the file when the last handle to the file is closed.
 
 These flags are defined in the Wdm.h header file. For more information, see the Remarks section.
 
-
 ## -remarks
-
-
 
 This structure contains a set of flags that specify the mode in which the file can be accessed. These flags are a subset of the options that can be specified in the <i>CreateOptions</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a> routine.
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
- 
-
- 
 

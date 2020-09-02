@@ -8,8 +8,6 @@ ms.assetid: 46bf7f4e-f1cc-413d-bd3b-229399741eb9
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::CopyValuesToPropertyStore"]
 ms.keywords: CopyValuesToPropertyStore, CopyValuesToPropertyStore method, CopyValuesToPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesToPropertyStore method, IPortableDeviceValues.CopyValuesToPropertyStore, IPortableDeviceValues::CopyValuesToPropertyStore, IPortableDeviceValuesCopyValuesToPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesToPropertyStore, wpddk.iportabledevicevalues_copyvaluestopropertystore
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.CopyValuesToPropertyStore"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.CopyValuesToPropertyStore
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::CopyValuesToPropertyStore
+ - portabledevicetypes/IPortableDeviceValues::CopyValuesToPropertyStore
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.CopyValuesToPropertyStore
 ---
 
 # IPortableDeviceValues::CopyValuesToPropertyStore
@@ -48,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Copies all the values from a collection into an <b>IPropertyStore</b> interface.
-
-
-
 
 ## -parameters
 
+### -param pStore 
 
-
-
-### -param pStore [in]
-
+[in]
 Pointer to a store object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,27 +77,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Many external applications or components that communicate with your application, such as some shell applications, use the <b>IPropertyStore</b> interface. This method provides an efficient way to exchange data with these programs.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
- 
-
- 
 

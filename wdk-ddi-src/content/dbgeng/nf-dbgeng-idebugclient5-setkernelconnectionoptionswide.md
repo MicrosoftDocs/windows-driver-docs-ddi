@@ -8,8 +8,6 @@ ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::SetKernelConnectionOptionsWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetKernelConnectionOptionsWide method, IDebugClient5.SetKernelConnectionOptionsWide, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide
-f1_keywords:
- - "dbgeng/IDebugClient5.SetKernelConnectionOptionsWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient5.SetKernelConnectionOptionsWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::SetKernelConnectionOptionsWide
+ - dbgeng/IDebugClient5::SetKernelConnectionOptionsWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient5.SetKernelConnectionOptionsWide
 ---
 
 # IDebugClient5::SetKernelConnectionOptionsWide
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetKernelConnectionOptionsWide</b> method updates some of the connection options for a live kernel target.
-
 
 ## -parameters
 
+### -param Options 
 
-
-
-### -param Options [in]
-
+[in]
 Specifies the connection options to update.  The possible values are:
 
 <table>
@@ -86,12 +81,8 @@ For kernel connections through a COM port, cycle through the supported baud rate
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -123,33 +114,18 @@ The current target is not a live (non-local) kernel target.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available only for live kernel targets that are not local and not connected through eXDI.  This method is reentrant.
 
 For more information about connecting to live kernel-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-kernel-mode-targets">Live Kernel-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachkernel">AttachKernel</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
 

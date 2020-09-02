@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiDestroyOverlay"
+ - DXGKDDI_DESTROYOVERLAY
+ - d3dkmddi/DXGKDDI_DESTROYOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_DESTROYOVERLAY callback function
+
 
 ## -description
 

@@ -6,10 +6,8 @@ old-location: netvista\ndis_pd_queue_parameters.htm
 tech.root: netvista
 ms.assetid: AE9110D8-FB13-43DA-8BAA-8DD88CA3492A
 ms.date: 05/02/2018
-keywords: ["_NDIS_PD_QUEUE_PARAMETERS structure"]
+keywords: ["NDIS_PD_QUEUE_PARAMETERS structure"]
 ms.keywords: NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters
-f1_keywords:
- - "ndis/NDIS_PD_QUEUE_PARAMETERS"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- NDIS_PD_QUEUE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PD_QUEUE_PARAMETERS
+f1_keywords:
+ - _NDIS_PD_QUEUE_PARAMETERS
+ - ndis/_NDIS_PD_QUEUE_PARAMETERS
+ - NDIS_PD_QUEUE_PARAMETERS
+ - ndis/NDIS_PD_QUEUE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - NDIS_PD_QUEUE_PARAMETERS
 ---
 
 # _NDIS_PD_QUEUE_PARAMETERS structure
@@ -47,14 +48,9 @@ req.typenames: NDIS_PD_QUEUE_PARAMETERS
 
 ## -description
 
-
 This structure is used to hold parameters for a transmit or receive queue when calling any of the queue routines.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -70,32 +66,23 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns
 
 This member is reserved and must be set to 0 by the provider.
 
-
 ### -field QueueType
 
 The type of the queue. For more information see, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_queue_type">NDIS_PD_QUEUE_TYPE</a>.
-
 
 ### -field QueueSize
 
 The maximum amount of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures this queue can hold and is always equal to a number of the form (2^k)-1 (63, 127, 255, 511, 1023, etc.). This lends itself to efficient circular index arithmetic.
 
-
 ### -field ReceiveDataLength
 
 The minimum <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> data length.
-
 
 ### -field Affinity
 
 The processor affinity is a hint to the provider for performance optimization. The platform will primarily be processing the queue on processors indicated by this mask. The provider must set this value to the processor core derived from the indirection table configured from <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
-
-
 ### -field TrafficClassId
-
- 
-
 
 ### -field MaximumPartialBufferCount
 
@@ -117,27 +104,15 @@ For queues that are not directly created by the client, such as RSS receive queu
 
 Used by the provider to determine the traffic class for the queue.
 
-
 ## -remarks
-
-
 
 This structure must be aligned on an 8-byte boundary.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_queue_type">NDIS_PD_QUEUE_TYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a>
- 
-
- 
 

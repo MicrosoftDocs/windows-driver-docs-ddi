@@ -8,8 +8,6 @@ ms.assetid: 3648668C-65CD-45F9-80E0-490AE2FE405E
 ms.date: 04/30/2018
 keywords: ["RtlInt8Sub function"]
 ms.keywords: RtlInt8Sub, RtlInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtlint8sub, ntintsafe/RtlInt8Sub
-f1_keywords:
- - "ntintsafe/RtlInt8Sub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlInt8Sub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInt8Sub
+ - ntintsafe/RtlInt8Sub
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlInt8Sub
 ---
 
 # RtlInt8Sub function
@@ -47,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Subtracts one value of type <b>INT8</b> from another.
-
 
 ## -parameters
 
+### -param i8Minuend 
 
-
-
-### -param i8Minuend [in]
-
+[in]
 The value from which <i>i8Subtrahend</i> is subtracted.
 
+### -param i8Subtrahend 
 
-### -param i8Subtrahend [in]
-
+[in]
 The value to subtract from <i>i8Minuend</i>.
 
+### -param pi8Result 
 
-### -param pi8Result [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

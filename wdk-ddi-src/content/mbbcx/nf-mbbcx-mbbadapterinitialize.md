@@ -6,48 +6,43 @@ tech.root: netvista
 ms.assetid: 0f2afaaf-e43d-4b08-9200-0ca2d18428c1
 ms.date: 06/29/2018
 keywords: ["MbbAdapterInitialize function"]
-f1_keywords:
- - "mbbcx/MbbAdapterInitialize"
 ms.keywords: MbbAdapterInitialize
 req.header: mbbcx.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: mbbcxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- mbbcxstub.lib
-api_name: 
-- MbbAdapterInitialize
-product:
-- Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - MbbAdapterInitialize
+ - mbbcx/MbbAdapterInitialize
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - mbbcxstub.lib
+api_name:
+ - MbbAdapterInitialize
 ---
 
 # MbbAdapterInitialize function
 
 
 ## -description
-
-
 
 The **MbbAdapterInitialize** method initializes a newly created NETADAPTER object for MBBCx.
 
@@ -70,3 +65,4 @@ The client driver must call this method from within [*EvtMbbDeviceCreateAdapter*
 For more information, see [Creating the NetAdapter interface for the PDP context/EPS bearer](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#creating-the-netadapter-interface-for-the-pdp-contexteps-bearer).
 
 ## -see-also
+

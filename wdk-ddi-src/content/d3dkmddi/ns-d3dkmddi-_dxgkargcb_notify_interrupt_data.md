@@ -5,193 +5,50 @@ description: The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notificatio
 old-location: display\dxgkargcb_notify_interrupt_data.htm
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.date: 05/27/2020
-keywords: ["_DXGKARGCB_NOTIFY_INTERRUPT_DATA structure"]
+keywords: ["DXGKARGCB_NOTIFY_INTERRUPT_DATA structure"]
 ms.keywords: "*IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_INVALID_PARAMETER, STATUS_NO_MEMORY, STATUS_SUCCESS, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data"
-f1_keywords:
- - "d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARGCB_NOTIFY_INTERRUPT_DATA
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_NOTIFY_INTERRUPT_DATA
+f1_keywords:
+ - _DXGKARGCB_NOTIFY_INTERRUPT_DATA
+ - d3dkmddi/_DXGKARGCB_NOTIFY_INTERRUPT_DATA
+ - DXGKARGCB_NOTIFY_INTERRUPT_DATA
+ - d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARGCB_NOTIFY_INTERRUPT_DATA
 ---
 
 # DXGKARGCB_NOTIFY_INTERRUPT_DATA structure
 
+
 ## -description
 
 The **DXGKARGCB_NOTIFY_INTERRUPT_DATA** structure describes notification information for an interrupt.
-
-## -syntax
-
-```cpp
-typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
-  DXGK_INTERRUPT_TYPE                InterruptType;
-  union {
-    struct {
-      UINT SubmissionFenceId;
-      UINT NodeOrdinal;
-      UINT EngineOrdinal;
-    } DmaCompleted;
-    struct {
-      UINT PreemptionFenceId;
-      UINT LastCompletedFenceId;
-      UINT NodeOrdinal;
-      UINT EngineOrdinal;
-    } DmaPreempted;
-    struct {
-      UINT     FaultedFenceId;
-      NTSTATUS Status;
-      UINT     NodeOrdinal;
-      UINT     EngineOrdinal;
-    } DmaFaulted;
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-      PHYSICAL_ADDRESS               PhysicalAddress;
-      UINT                           PhysicalAdapterMask;
-    } CrtcVsync;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-    } DisplayOnlyVsync;
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID     VidPnTargetId;
-      UINT                               PhysicalAdapterMask;
-      UINT                               MultiPlaneOverlayVsyncInfoCount;
-      DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO *pMultiPlaneOverlayVsyncInfo;
-    } CrtcVsyncWithMultiPlaneOverlay;
-    DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS DisplayOnlyPresentProgress;
-#endif
-
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-      DXGK_MIRACAST_CHUNK_INFO       ChunkInfo;
-      PVOID                          pPrivateDriverData;
-      UINT                           PrivateDataDriverSize;
-      NTSTATUS                       Status;
-    } MiracastEncodeChunkCompleted;
-#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-    struct {
-      UINT                        FaultedFenceId;
-      UINT64                      FaultedPrimitiveAPISequenceNumber;
-      DXGK_RENDER_PIPELINE_STAGE  FaultedPipelineStage;
-      UINT                        FaultedBindTableEntry;
-      DXGK_PAGE_FAULT_FLAGS       PageFaultFlags;
-      D3DGPU_VIRTUAL_ADDRESS      FaultedVirtualAddress;
-      UINT                        NodeOrdinal;
-      UINT                        EngineOrdinal;
-      UINT                        PageTableLevel;
-      DXGK_FAULT_ERROR_CODE       FaultErrorCode;
-      HANDLE                      FaultedProcessHandle;
-    } DmaPageFaulted;
-#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_1)
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID                VidPnTargetId;
-      UINT                                          PhysicalAdapterMask;
-      UINT                                          MultiPlaneOverlayVsyncInfoCount;
-      _Field_size_(MultiPlaneOverlayVsyncInfoCount) DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 *pMultiPlaneOverlayVsyncInfo;
-      ULONGLONG                                     GpuFrequency;
-      ULONGLONG                                     GpuClockCounter;
-    } CrtcVsyncWithMultiPlaneOverlay2;
-
-#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_1)
-
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
-    struct {
-      UINT    NodeOrdinal;
-      UINT    EngineOrdinal;
-    } MonitoredFenceSignaled;
-
-    struct {
-      UINT    NodeOrdinal;
-      UINT    EngineOrdinal;
-      UINT64  ContextSwitchFence;
-    } HwContextListSwitchCompleted;
-
-    struct {
-      UINT64                      FaultedFenceId;
-      D3DGPU_VIRTUAL_ADDRESS      FaultedVirtualAddress;
-      UINT64                      FaultedPrimitiveAPISequenceNumber;
-
-      union {
-        HANDLE                  FaultedHwQueue;
-        HANDLE                  FaultedHwContext;
-        HANDLE                  FaultedProcessHandle;
-      };
-
-      UINT                        NodeOrdinal;
-      UINT                        EngineOrdinal;
-
-      DXGK_RENDER_PIPELINE_STAGE  FaultedPipelineStage;
-      UINT                        FaultedBindTableEntry;
-      DXGK_PAGE_FAULT_FLAGS       PageFaultFlags;
-      UINT                        PageTableLevel;
-      DXGK_FAULT_ERROR_CODE       FaultErrorCode;
-    } HwQueuePageFaulted;
-
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID    VidPnTargetId;
-      UINT                              NotificationID;
-    } PeriodicMonitoredFenceSignaled;
-
-#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
-
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_4)
-    struct {
-      UINT    NodeOrdinal;
-      UINT    EngineOrdinal;
-    } SchedulingLogInterrupt;
-
-    struct {
-      UINT    NodeOrdinal;
-      UINT    EngineOrdinal;
-    } GpuEngineTimeout;
-
-    struct {
-      HANDLE  hContext;
-      UINT64  ContextSuspendFence;
-    } SuspendContextCompleted;
-
-#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_4)
-
-    struct {
-      UINT Reserved[16];
-    } Reserved;
-  };
-  DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS Flags;
-} DXGKARGCB_NOTIFY_INTERRUPT_DATA;
-```
 
 ## -struct-fields
 
@@ -556,6 +413,151 @@ An array of 32-bit values that are reserved for future use.
 
 [in] A [**DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS**](..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md) structure that indicates if the display miniport driver provides a physical adapter mask in a call to the [**DxgkCbNotifyInterrupt**](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md) function.
 
+## -syntax
+
+```cpp
+typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
+  DXGK_INTERRUPT_TYPE                InterruptType;
+  union {
+    struct {
+      UINT SubmissionFenceId;
+      UINT NodeOrdinal;
+      UINT EngineOrdinal;
+    } DmaCompleted;
+    struct {
+      UINT PreemptionFenceId;
+      UINT LastCompletedFenceId;
+      UINT NodeOrdinal;
+      UINT EngineOrdinal;
+    } DmaPreempted;
+    struct {
+      UINT     FaultedFenceId;
+      NTSTATUS Status;
+      UINT     NodeOrdinal;
+      UINT     EngineOrdinal;
+    } DmaFaulted;
+    struct {
+      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
+      PHYSICAL_ADDRESS               PhysicalAddress;
+      UINT                           PhysicalAdapterMask;
+    } CrtcVsync;
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
+    struct {
+      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
+    } DisplayOnlyVsync;
+    struct {
+      D3DDDI_VIDEO_PRESENT_TARGET_ID     VidPnTargetId;
+      UINT                               PhysicalAdapterMask;
+      UINT                               MultiPlaneOverlayVsyncInfoCount;
+      DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO *pMultiPlaneOverlayVsyncInfo;
+    } CrtcVsyncWithMultiPlaneOverlay;
+    DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS DisplayOnlyPresentProgress;
+#endif
+
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
+    struct {
+      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
+      DXGK_MIRACAST_CHUNK_INFO       ChunkInfo;
+      PVOID                          pPrivateDriverData;
+      UINT                           PrivateDataDriverSize;
+      NTSTATUS                       Status;
+    } MiracastEncodeChunkCompleted;
+#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
+
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+    struct {
+      UINT                        FaultedFenceId;
+      UINT64                      FaultedPrimitiveAPISequenceNumber;
+      DXGK_RENDER_PIPELINE_STAGE  FaultedPipelineStage;
+      UINT                        FaultedBindTableEntry;
+      DXGK_PAGE_FAULT_FLAGS       PageFaultFlags;
+      D3DGPU_VIRTUAL_ADDRESS      FaultedVirtualAddress;
+      UINT                        NodeOrdinal;
+      UINT                        EngineOrdinal;
+      UINT                        PageTableLevel;
+      DXGK_FAULT_ERROR_CODE       FaultErrorCode;
+      HANDLE                      FaultedProcessHandle;
+    } DmaPageFaulted;
+#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_1)
+    struct {
+      D3DDDI_VIDEO_PRESENT_TARGET_ID                VidPnTargetId;
+      UINT                                          PhysicalAdapterMask;
+      UINT                                          MultiPlaneOverlayVsyncInfoCount;
+      _Field_size_(MultiPlaneOverlayVsyncInfoCount) DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 *pMultiPlaneOverlayVsyncInfo;
+      ULONGLONG                                     GpuFrequency;
+      ULONGLONG                                     GpuClockCounter;
+    } CrtcVsyncWithMultiPlaneOverlay2;
+
+#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_1)
+
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
+    struct {
+      UINT    NodeOrdinal;
+      UINT    EngineOrdinal;
+    } MonitoredFenceSignaled;
+
+    struct {
+      UINT    NodeOrdinal;
+      UINT    EngineOrdinal;
+      UINT64  ContextSwitchFence;
+    } HwContextListSwitchCompleted;
+
+    struct {
+      UINT64                      FaultedFenceId;
+      D3DGPU_VIRTUAL_ADDRESS      FaultedVirtualAddress;
+      UINT64                      FaultedPrimitiveAPISequenceNumber;
+
+      union {
+        HANDLE                  FaultedHwQueue;
+        HANDLE                  FaultedHwContext;
+        HANDLE                  FaultedProcessHandle;
+      };
+
+      UINT                        NodeOrdinal;
+      UINT                        EngineOrdinal;
+
+      DXGK_RENDER_PIPELINE_STAGE  FaultedPipelineStage;
+      UINT                        FaultedBindTableEntry;
+      DXGK_PAGE_FAULT_FLAGS       PageFaultFlags;
+      UINT                        PageTableLevel;
+      DXGK_FAULT_ERROR_CODE       FaultErrorCode;
+    } HwQueuePageFaulted;
+
+    struct {
+      D3DDDI_VIDEO_PRESENT_TARGET_ID    VidPnTargetId;
+      UINT                              NotificationID;
+    } PeriodicMonitoredFenceSignaled;
+
+#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
+
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_4)
+    struct {
+      UINT    NodeOrdinal;
+      UINT    EngineOrdinal;
+    } SchedulingLogInterrupt;
+
+    struct {
+      UINT    NodeOrdinal;
+      UINT    EngineOrdinal;
+    } GpuEngineTimeout;
+
+    struct {
+      HANDLE  hContext;
+      UINT64  ContextSuspendFence;
+    } SuspendContextCompleted;
+
+#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_4)
+
+    struct {
+      UINT Reserved[16];
+    } Reserved;
+  };
+  DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS Flags;
+} DXGKARGCB_NOTIFY_INTERRUPT_DATA;
+```
+
 ## -remarks
 
 A miniport driver fills in **DXGKARGCB_NOTIFY_INTERRUPT_DATA**, and then uses the [**DXGKCB_SYNCHRONIZE_EXECUTION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_synchronize_execution) callback to sync with the interrupt. The **SynchronizeRoutine** parameter of the **DXGKCB_SYNCHRONIZE_EXECUTION** callback points to a miniport-implemented function that gets called by the OS when appropriate, and then the driver fills out the parameter info before calling back into the OS with the [**DXGKCB_NOTIFY_INTERRUPT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt) callback. The OS then handles the interrupt, with the scheduler using information in the DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 struct.
@@ -581,3 +583,4 @@ Depending on the value in the **InterruptType** member, the display miniport dri
 [**DXGK_PAGE_FAULT_FLAGS**](..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md)
 
 [**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
+

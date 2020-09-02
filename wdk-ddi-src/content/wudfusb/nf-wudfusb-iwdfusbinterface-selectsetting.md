@@ -8,8 +8,6 @@ ms.assetid: c47b025b-1be9-4fdc-965a-a9a82a394177
 ms.date: 02/26/2018
 keywords: ["IWDFUsbInterface::SelectSetting"]
 ms.keywords: IWDFUsbInterface interface,SelectSetting method, IWDFUsbInterface.SelectSetting, IWDFUsbInterface::SelectSetting, SelectSetting, SelectSetting method, SelectSetting method,IWDFUsbInterface interface, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, umdf.iwdfusbinterface_selectsetting, wdf.iwdfusbinterface_selectsetting, wudfusb/IWDFUsbInterface::SelectSetting
-f1_keywords:
- - "wudfusb/IWDFUsbInterface.SelectSetting"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbInterface.SelectSetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbInterface::SelectSetting
+ - wudfusb/IWDFUsbInterface::SelectSetting
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbInterface.SelectSetting
 ---
 
 # IWDFUsbInterface::SelectSetting
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SelectSetting</b> method selects the specified alternate setting on a USB interface.
 
-
 ## -parameters
 
+### -param SettingNumber 
 
-
-
-### -param SettingNumber [in]
-
+[in]
 The setting to select on the USB interface.
 
-
 ## -returns
-
-
 
 <b>SelectSetting</b> returns one of the following values: 
 
@@ -110,14 +102,8 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The framework automatically selects configuration zero, its interface zero, and the alternate setting zero. To change the alternate setting, the driver can call <b>SelectSetting</b>.
 
@@ -130,15 +116,7 @@ For more info <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/i
 <pre class="syntax" xml:space="preserve"><code>
 hr = pIWDFUsbInterface->SelectSetting(SettingNumber);</code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
- 
-
- 
 

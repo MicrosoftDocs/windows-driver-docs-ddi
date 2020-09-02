@@ -5,11 +5,9 @@ description: The MmPrefetchPages routine reads groups of pages from secondary st
 old-location: ifsk\mmprefetchpages.htm
 tech.root: ifsk
 ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
-ms.date: 04/16/2018
+ms.date: 08/21/2020
 keywords: ["MmPrefetchPages function"]
 ms.keywords: MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers], ifsk.mmprefetchpages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages
-f1_keywords:
- - "ntifs/MmPrefetchPages"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmPrefetchPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmPrefetchPages
+ - ntifs/MmPrefetchPages
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmPrefetchPages
 ---
 
 # MmPrefetchPages function
@@ -47,60 +46,34 @@ req.typenames:
 
 ## -description
 
-
-The <b>MmPrefetchPages</b> routine reads groups of pages from secondary storage in the optimal fashion. 
-
+The **MmPrefetchPages** routine reads groups of pages from secondary storage in the optimal fashion.
 
 ## -parameters
 
+### -param NumberOfLists
 
+[in] The number of read-lists in the array passed in the *ReadLists* parameter.
 
+### -param ReadLists
 
-### -param NumberOfLists [in]
-
-The number of read-lists in the array passed in the <i>ReadLists</i> parameter.
-
-
-### -param ReadLists [in]
-
-A pointer to an array of read-lists to be prefetched.
-
+[in] A pointer to an array of read-lists to be prefetched.
 
 ## -returns
 
+**MmPrefetchPages** returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following:
 
+| Return code | Description |
+| ----------- | ----------- |
+| **STATUS_INSUFFICIENT_RESOURCES** | A temporary buffer required by this function could not be allocated. |
+| **STATUS_INVALID_PARAMETER_1**    | A section in *ReadLists* is not prefetchable (for example, a physical or pagefile-backed section), or an invalid *NumberOfLists* value was provided. |
 
-<b>MmPrefetchPages</b> returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following: 
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-A temporary buffer required by this function could not be allocated. 
-
-</td>
-</tr>
-</table>
- 
-
-<b>MmPrefetchPages</b> returns STATUS_SUCCESS on success and also if all of the requested pages were already in memory indicating no reads from secondary storage were required. 
-
-
-
+**MmPrefetchPages** returns STATUS_SUCCESS on success and also if all of the requested pages were already in memory indicating no reads from secondary storage were required.
 
 ## -remarks
 
+**MmPrefetchPages** reads pages from secondary storage described in the read-lists in the optimal fashion. The caller builds a list of various file objects and logical block offsets, passing them to the **MmPrefetchPages** function which examines the internal pages, reading in those that are not already valid or in transition. The pages are read with a single read, using a dummy page to bridge small gaps. If the gap is "large", then separate reads are issued.
 
-
-<b>MmPrefetchPages</b> reads pages from secondary storage described in the read-lists in the optimal fashion. The caller builds a list of various file objects and logical block offsets, passing them to the <b>MmPrefetchPages</b> function which examines the internal pages, reading in those that are not already valid or in transition. The pages are read with a single read, using a dummy page to bridge small gaps. If the gap is "large", then separate reads are issued. 
-
-
+> [!NOTE]
+>
+> The [section object](https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views) must already exist for the file to be prefetched. A section handle can be obtained by calling [**ZwCreateSection**](../wdm/nf-wdm-zwcreatefile.md).
 

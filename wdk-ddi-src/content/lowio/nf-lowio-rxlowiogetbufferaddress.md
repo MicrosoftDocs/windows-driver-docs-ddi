@@ -8,8 +8,6 @@ ms.assetid: a4d78135-38bc-4a34-98ce-d2712829124a
 ms.date: 04/16/2018
 keywords: ["RxLowIoGetBufferAddress function"]
 ms.keywords: RxLowIoGetBufferAddress, RxLowIoGetBufferAddress function [Installable File System Drivers], ifsk.rxlowiogetbufferaddress, lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml
-f1_keywords:
- - "lowio/RxLowIoGetBufferAddress"
 req.header: lowio.h
 req.include-header: Rxcontx.h, Lowio.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lowio.h
-api_name:
-- RxLowIoGetBufferAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxLowIoGetBufferAddress
+ - lowio/RxLowIoGetBufferAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lowio.h
+api_name:
+ - RxLowIoGetBufferAddress
 ---
 
 # RxLowIoGetBufferAddress function
+
 
 ## -description
 
@@ -50,8 +50,9 @@ req.typenames:
 
 ## -parameters
 
-### -param RxContext [in]
+### -param RxContext 
 
+[in]
 A pointer to the RX_CONTEXT structure for this request.
 
 ## -returns
@@ -75,3 +76,4 @@ A pointer to the RX_CONTEXT structure for this request.
 [RxMapSystemBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxmapsystembuffer)
 
 [RxNewMapUserBuffer](https://docs.microsoft.com/windows-hardware/drivers/ifs/rxnewmapuserbuffer)
+

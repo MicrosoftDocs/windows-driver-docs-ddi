@@ -8,8 +8,6 @@ ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
 ms.date: 04/30/2018
 keywords: ["RtlIsStateSeparationEnabled function"]
 ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
-f1_keywords:
- - "ntddk/RtlIsStateSeparationEnabled"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlIsStateSeparationEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIsStateSeparationEnabled
+ - ntddk/RtlIsStateSeparationEnabled
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlIsStateSeparationEnabled
 ---
 
 # RtlIsStateSeparationEnabled function
@@ -47,21 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
 			
             Checks if the SKU for the current context supports multiple
     sessions.
 
-
-
 ## -returns
-
-
 
  TRUE indicates state separation enabled;
 
     FALSE otherwise.
-
-
 

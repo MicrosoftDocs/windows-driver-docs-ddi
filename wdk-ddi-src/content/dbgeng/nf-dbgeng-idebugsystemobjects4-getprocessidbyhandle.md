@@ -8,8 +8,6 @@ ms.assetid: 6920cbd3-0a20-4d38-8538-85f46d0f0d5b
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects4::GetProcessIdByHandle"]
 ms.keywords: GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects2 interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects3 interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects2 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects3 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects4 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects4.GetProcessIdByHandle, IDebugSystemObjects4::GetProcessIdByHandle, IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, dbgeng/IDebugSystemObjects::GetProcessIdByHandle, debugger.getprocessidbyhandle
-f1_keywords:
- - "dbgeng/IDebugSystemObjects.GetProcessIdByHandle"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects.GetProcessIdByHandle
-- IDebugSystemObjects2.GetProcessIdByHandle
-- IDebugSystemObjects3.GetProcessIdByHandle
-- IDebugSystemObjects4.GetProcessIdByHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects4::GetProcessIdByHandle
+ - dbgeng/IDebugSystemObjects4::GetProcessIdByHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects.GetProcessIdByHandle
+ - IDebugSystemObjects2.GetProcessIdByHandle
+ - IDebugSystemObjects3.GetProcessIdByHandle
+ - IDebugSystemObjects4.GetProcessIdByHandle
 ---
 
 # IDebugSystemObjects4::GetProcessIdByHandle
@@ -50,28 +49,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetProcessIdByHandle</b> method returns the engine process ID for the specified process.  The process is specified by its system handle.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 Specifies the handle of the process whose process ID is requested.  This handle must be a process handle previously retrieved from the debugger engine.
 
+### -param Id 
 
-### -param Id [out]
-
+[out]
 Receives the engine process ID.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -92,16 +84,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about processes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="https://docs.microsoft.com/windows-hardware/drivers/">Handles</a>.
-
-
 

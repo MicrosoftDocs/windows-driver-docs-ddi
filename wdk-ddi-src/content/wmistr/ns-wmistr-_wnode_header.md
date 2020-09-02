@@ -6,10 +6,8 @@ old-location: kernel\wnode_header.htm
 tech.root: kernel
 ms.assetid: a895f048-b111-4ccc-8466-fe9b169a2f95
 ms.date: 04/30/2018
-keywords: ["_WNODE_HEADER structure"]
+keywords: ["WNODE_HEADER structure"]
 ms.keywords: "*PWNODE_HEADER, PWNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], WNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], _WNODE_HEADER, kernel.wnode_header, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, wmistr/PWNODE_HEADER, wmistr/WNODE_HEADER"
-f1_keywords:
- - "wmistr/WNODE_HEADER"
 req.header: wmistr.h
 req.include-header: Wmistr.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wmistr.h
-api_name:
-- WNODE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
+f1_keywords:
+ - _WNODE_HEADER
+ - wmistr/_WNODE_HEADER
+ - PWNODE_HEADER
+ - wmistr/PWNODE_HEADER
+ - WNODE_HEADER
+ - wmistr/WNODE_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wmistr.h
+api_name:
+ - WNODE_HEADER
 ---
 
 # _WNODE_HEADER structure
@@ -47,74 +50,51 @@ req.typenames: WNODE_HEADER, *PWNODE_HEADER
 
 ## -description
 
-
 The <b>WNODE_HEADER</b> structure is the first member of all other <b>WNODE_<i>XXX</i></b> structures. It contains information common to all such structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BufferSize
 
 This member specifies the size, in bytes, of the nonpaged buffer to receive any <b>WNODE_<i>XXX</i></b> data to be returned, including this <b>WNODE_HEADER</b> structure, additional members of a <b>WNODE_<i>XXX</i></b> structure of the type indicated by <b>Flags</b>, and any WMI- or driver-determined data that accompanies that structure.
 
-
 ### -field ProviderId
 
 If <b>Flags</b> is set to WNODE_FLAG_EVENT_ITEM or WNODE_FLAG_EVENT_REFERENCE, <b>ProviderId</b> should contain the ID of the WMI provider associated with the device object. You can obtain the <b>ProviderId</b> value by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWMIDeviceObjectToProviderId</a>. If <b>Flags</b> is set to any other value, this member is reserved.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.HistoricalContext
 
-This member stores the handle to the event tracing session. 
-
+This member stores the handle to the event tracing session.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Version
 
 This member is reserved for WMI.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Linkage
 
-This member is reserved for WMI. 
-
+This member is reserved for WMI.
 
 ### -field DUMMYUNIONNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME2.CountLost
 
 Reserved
 
-
 ### -field DUMMYUNIONNAME2.KernelHandle
 
 This member is reserved for WMI.
 
-
 ### -field DUMMYUNIONNAME2.TimeStamp
 
-This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged. 
-
+This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged.
 
 ### -field Guid
 
-This member indicates the GUID that represents the data block associated with the <b>WNODE_<i>XXX</i></b> to be returned. 
-
+This member indicates the GUID that represents the data block associated with the <b>WNODE_<i>XXX</i></b> to be returned.
 
 ### -field ClientContext
 
@@ -156,8 +136,6 @@ CPU cycle
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -299,22 +277,13 @@ The <b>Guid</b> member points to a GUID in memory, rather than containing the GU
 
 #### WNODE_FLAG_USE_MOF_PTR
 
-Data that follows the fixed members of a <b>WNODE_<i>XXX</i></b> structure consists of an array of MOF_FIELD structures, defined in Evntrace.h, that contain pointers to data and sizes rather than the data itself. The array can contain up to MAX_MOF_FIELD elements. The system logger dereferences the pointers before passing the data to the consumer This flag is valid only for blocks registered with WMIREG_FLAG_TRACED_GUID. 
-
+Data that follows the fixed members of a <b>WNODE_<i>XXX</i></b> structure consists of an array of MOF_FIELD structures, defined in Evntrace.h, that contain pointers to data and sizes rather than the data itself. The array can contain up to MAX_MOF_FIELD elements. The system logger dereferences the pointers before passing the data to the consumer This flag is valid only for blocks registered with WMIREG_FLAG_TRACED_GUID.
 
 ## -remarks
 
-
-
 In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-execute-method">IRP_MN_EXECUTE_METHOD</a> request, <b>BufferSize</b> in the IRP indicates the maximum size in bytes of the output buffer, while <b>BufferSize</b> in the input <b>WNODE_HEADER</b> for such a request indicates the size, in bytes, of the input data in the buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWMIDeviceObjectToProviderId</a>
 
@@ -353,7 +322,4 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_too_small">WNODE_TOO_SMALL</a>
- 
-
- 
 

@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/VideoProcessBltHD"
+ - PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD
+ - d3dumddi/PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback function
+
 
 ## -description
 

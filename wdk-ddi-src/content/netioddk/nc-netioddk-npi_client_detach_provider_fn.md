@@ -8,8 +8,6 @@ ms.assetid: a684136a-e2f2-4f82-9e9a-166b40bd7536
 ms.date: 05/02/2018
 keywords: ["NPI_CLIENT_DETACH_PROVIDER_FN callback function"]
 ms.keywords: ClientDetachProvider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_DETACH_PROVIDER_FN, NPI_CLIENT_DETACH_PROVIDER_FN callback, PNPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientDetachProvider, netvista.clientdetachprovider, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
-f1_keywords:
- - "netioddk/PNPI_CLIENT_DETACH_PROVIDER_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netioddk.h
-api_name:
-- PNPI_CLIENT_DETACH_PROVIDER_FN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NPI_CLIENT_DETACH_PROVIDER_FN
+ - netioddk/NPI_CLIENT_DETACH_PROVIDER_FN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netioddk.h
+api_name:
+ - PNPI_CLIENT_DETACH_PROVIDER_FN
 ---
 
 # NPI_CLIENT_DETACH_PROVIDER_FN callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 A client module's 
   <i>ClientDetachProvider</i> callback function detaches the client module from a provider module.
 
-
 ## -parameters
 
+### -param ClientBindingContext 
 
-
-
-### -param ClientBindingContext [in]
-
+[in]
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it is detaching. The client module passes this pointer to the NMR when it
      calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a> function
      to attach to the provider module.
 
-
 ## -returns
-
-
 
 A client module's 
      <i>ClientDetachProvider</i> callback function returns one of the following NTSTATUS codes:
@@ -101,14 +93,8 @@ The client module could not detach from the provider module immediately.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The NMR calls a client module's 
     <i>ClientDetachProvider</i> callback function whenever the binding between the client module and a
@@ -151,13 +137,7 @@ The NMR calls the client module's
 The NMR calls a client module's 
     <i>ClientDetachProvider</i> callback function at any IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_cleanup_binding_context_fn">ClientCleanupBindingContext</a>
 
@@ -186,7 +166,4 @@ The NMR calls a client module's
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
    ProviderCleanupBindingContext</a>
- 
-
- 
 

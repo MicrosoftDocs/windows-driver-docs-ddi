@@ -8,8 +8,6 @@ ms.assetid: d78c54a7-04a5-4c51-bf33-a5b7fb937897
 ms.date: 05/03/2018
 keywords: ["IDebugRegisters2::GetValues"]
 ms.keywords: GetValues, GetValues method [Windows Debugging], GetValues method [Windows Debugging],IDebugRegisters interface, GetValues method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetValues method, IDebugRegisters2 interface [Windows Debugging],GetValues method, IDebugRegisters2.GetValues, IDebugRegisters2::GetValues, IDebugRegisters::GetValues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, dbgeng/IDebugRegisters2::GetValues, dbgeng/IDebugRegisters::GetValues, debugger.getvalues
-f1_keywords:
- - "dbgeng/IDebugRegisters.GetValues"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugRegisters.GetValues
-- IDebugRegisters2.GetValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugRegisters2::GetValues
+ - dbgeng/IDebugRegisters2::GetValues
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugRegisters.GetValues
+ - IDebugRegisters2.GetValues
 ---
 
 # IDebugRegisters2::GetValues
@@ -48,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetValues</b> method gets the value of several of the target's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">registers</a>.
-
 
 ## -parameters
 
+### -param Count 
 
-
-
-### -param Count [in]
-
+[in]
 Specifies the number of registers whose values are requested.
 
+### -param Indices 
 
-### -param Indices [in, optional]
-
+[in, optional]
 Specifies an array that contains the indices of the registers from which to get the values.  The number of elements in this array is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
+### -param Start 
 
-### -param Start [in]
-
+[in]
 If <i>Indices</i> is <b>NULL</b>, the registers will be read consecutively starting at this index.  Otherwise it is ignored.
 
+### -param Values 
 
-### -param Values [out]
-
+[out]
 Receives the values of the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
-
 ## -returns
-
-
 
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
@@ -122,14 +114,8 @@ The value of the index of one of the registers is greater than the number of reg
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>GetValues</b> gets the value of several of the target's registers.
 
@@ -141,13 +127,7 @@ The method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbge
 
 For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getvalue">GetValue</a>
 
@@ -162,7 +142,4 @@ For an overview of the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
- 
-
- 
 

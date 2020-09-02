@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateShaderResourceView"
+ - PFND3D10DDI_CREATESHADERRESOURCEVIEW
+ - d3d10umddi/PFND3D10DDI_CREATESHADERRESOURCEVIEW
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CREATESHADERRESOURCEVIEW callback function
+
 
 ## -description
 

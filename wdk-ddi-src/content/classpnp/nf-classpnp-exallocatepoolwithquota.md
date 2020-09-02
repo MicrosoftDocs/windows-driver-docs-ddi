@@ -8,56 +8,47 @@ ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.date: 02/24/2018
 keywords: ["ExAllocatePoolWithQuota macro"]
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
-f1_keywords:
- - "classpnp/ExAllocatePoolWithQuota"
 req.header: classpnp.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete. This routine is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAllocatePoolWithQuota
-product:
-- Windows
 targetos: Windows
 req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
+f1_keywords:
+ - ExAllocatePoolWithQuota
+ - classpnp/ExAllocatePoolWithQuota
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAllocatePoolWithQuota
 ---
 
 # ExAllocatePoolWithQuota macro
+
 
 ## -description
 
 The **ExAllocatePoolWithQuota** routine is **obsolete**, and is exported only for existing driver binaries. Use [**ExAllocatePoolWithQuotaTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag) instead.
 
 **ExAllocatePoolWithQuota** allocates pool memory, charging quota against the current process.
-
-## -syntax
-
-```cpp
-PVOID ExAllocatePoolWithQuota(
-  _In_ POOL_TYPE a,
-  _In_ SIZE_T b
-);
-```
 
 ## -parameters
 
@@ -70,6 +61,15 @@ You can modify *a* (*PoolType*) by using a bitwise OR with the POOL_COLD_ALLOCAT
 ### -param b
 
 Specifies the number of bytes to allocate.
+
+## -syntax
+
+```cpp
+PVOID ExAllocatePoolWithQuota(
+  _In_ POOL_TYPE a,
+  _In_ SIZE_T b
+);
+```
 
 ## -remarks
 
@@ -98,3 +98,4 @@ Callers of **ExAllocatePoolWithQuota** must be executing at IRQL <= DISPATCH_LEV
 [**ExFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepool)
 
 [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+

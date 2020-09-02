@@ -8,8 +8,6 @@ ms.assetid: 81511d81-206c-420b-a956-42cf68b57fc4
 ms.date: 02/26/2018
 keywords: ["WdfRequestForwardToParentDeviceIoQueue function"]
 ms.keywords: DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, WdfRequestForwardToParentDeviceIoQueue, WdfRequestForwardToParentDeviceIoQueue method, kmdf.wdfrequestforwardtoparentdeviceioqueue, wdf.wdfrequestforwardtoparentdeviceioqueue, wdfrequest/WdfRequestForwardToParentDeviceIoQueue
-f1_keywords:
- - "wdfrequest/WdfRequestForwardToParentDeviceIoQueue"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfRequestForwardToParentDeviceIoQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestForwardToParentDeviceIoQueue
+ - wdfrequest/WdfRequestForwardToParentDeviceIoQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfRequestForwardToParentDeviceIoQueue
 ---
 
 # WdfRequestForwardToParentDeviceIoQueue function
@@ -48,35 +47,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestForwardToParentDeviceIoQueue</b> method requeues an I/O request from a child device's I/O queue to a specified I/O queue of the child's parent device.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param ParentDeviceQueue 
 
-### -param ParentDeviceQueue [in]
+[in]
+A handle to a framework queue object.
 
-A handle to a framework queue object. 
+### -param ForwardOptions 
 
-
-### -param ForwardOptions [in]
-
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_forward_options">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 
-
 ## -returns
-
-
 
 <b>WdfRequestForwardToParentDeviceIoQueue</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -161,14 +153,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Before a driver can call <b>WdfRequestForwardToParentDeviceIoQueue</b>, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitallowforwardingrequesttoparent">WdfPdoInitAllowForwardingRequestToParent</a>.
 
@@ -209,15 +194,7 @@ if (!NT_SUCCESS(status)) {
   }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitallowforwardingrequesttoparent">WdfPdoInitAllowForwardingRequestToParent</a>
- 
-
- 
 

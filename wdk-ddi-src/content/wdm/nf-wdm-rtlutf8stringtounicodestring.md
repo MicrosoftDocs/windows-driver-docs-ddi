@@ -28,10 +28,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 - apiref
-api_type: 
-- 
+api_type:
+- DllExport
 api_location: 
-- 
+- wdm.h
 api_name: 
 - RtlUTF8StringToUnicodeString
 product: 
@@ -51,7 +51,7 @@ targetos: Windows
 
 ### -param DestinationString
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string.
 
 If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer, and set the maximum length field. Otherwise, the routine uses the currently-specified buffer to hold the string.
 

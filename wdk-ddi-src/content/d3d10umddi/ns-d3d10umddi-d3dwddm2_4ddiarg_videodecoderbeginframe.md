@@ -5,37 +5,39 @@ description: A collection of histogram output buffers.
 ms.assetid: 35f914e8-031f-4326-8cf3-c0d9889c1d9f
 ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure"]
-f1_keywords:
- - "d3d10umddi/D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME"
 ms.keywords: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME, D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME,
 req.header: d3d10umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
+ - d3d10umddi/D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
+product:
+ - Windows
 ---
 
 # D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure
+
 
 ## -description
 
@@ -62,3 +64,4 @@ The array of component histograms.  A disabled component has it’s struct membe
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 1fb993f0-4289-4406-8a56-47b12c73f4e6
 ms.date: 04/30/2018
 keywords: ["RtlValidRelativeSecurityDescriptor function"]
 ms.keywords: RtlValidRelativeSecurityDescriptor, RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml, kernel.rtlvalidrelativesecuritydescriptor, wdm/RtlValidRelativeSecurityDescriptor
-f1_keywords:
- - "wdm/RtlValidRelativeSecurityDescriptor"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlValidRelativeSecurityDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlValidRelativeSecurityDescriptor
+ - wdm/RtlValidRelativeSecurityDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlValidRelativeSecurityDescriptor
 ---
 
 # RtlValidRelativeSecurityDescriptor function
@@ -47,52 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlValidRelativeSecurityDescriptor</b> routine checks the validity of a self-relative security descriptor.
-
 
 ## -parameters
 
+### -param SecurityDescriptorInput 
 
-
-
-### -param SecurityDescriptorInput [in]
-
+[in]
 A pointer to the buffer that contains the security descriptor in self-relative format. The buffer must begin with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure, which is followed by the rest of the security descriptor data.
 
+### -param SecurityDescriptorLength 
 
-### -param SecurityDescriptorLength [in]
+[in]
+The size of the <i>SecurityDescriptorInput</i> structure.
 
-The size of the <i>SecurityDescriptorInput</i> structure. 
+### -param RequiredInformation 
 
-
-### -param RequiredInformation [in]
-
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value that specifies the information that is required to be contained in the security descriptor. 
-
+[in]
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value that specifies the information that is required to be contained in the security descriptor.
 
 ## -returns
 
-
-
 <b>RtlValidRelativeSecurityDescriptor</b> returns <b>TRUE</b> if the security descriptor is valid and includes the information that the <i>RequiredInformation</i> parameter specifies. Otherwise, this routine returns <b>FALSE</b>.
-
-
-
 
 ## -remarks
 
-
-
 To check the validity of a security descriptor in absolute format, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlvalidsecuritydescriptor">RtlValidSecurityDescriptor</a> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlvalidsecuritydescriptor">RtlValidSecurityDescriptor</a>
 
@@ -103,7 +84,4 @@ To check the validity of a security descriptor in absolute format, use <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
- 
-
- 
 

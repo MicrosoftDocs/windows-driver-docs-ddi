@@ -8,8 +8,6 @@ ms.assetid: 6d8ad287-a4bf-4db8-9fff-a4cb1df42dda
 ms.date: 05/02/2018
 keywords: ["RILCALLMEDIAOFFERANSWER structure"]
 ms.keywords: "*LPRILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswer, ntddrilapitypes/RILCALLMEDIAOFFERANSWER"
-f1_keywords:
- - "ntddrilapitypes/RILCALLMEDIAOFFERANSWER"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLMEDIAOFFERANSWER
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWER, *LPRILCALLMEDIAOFFERANSWER
+f1_keywords:
+ - RILCALLMEDIAOFFERANSWER
+ - ntddrilapitypes/RILCALLMEDIAOFFERANSWER
+ - LPRILCALLMEDIAOFFERANSWER
+ - ntddrilapitypes/LPRILCALLMEDIAOFFERANSWER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLMEDIAOFFERANSWER
 ---
 
 # RILCALLMEDIAOFFERANSWER structure
@@ -47,32 +48,21 @@ req.typenames: RILCALLMEDIAOFFERANSWER, *LPRILCALLMEDIAOFFERANSWER
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field stID
-
 
 ### -field fChange
 
-
 ### -field dwMediaAction
 
-
 ### -field stOldState
-
 
 ### -field stNewState
 

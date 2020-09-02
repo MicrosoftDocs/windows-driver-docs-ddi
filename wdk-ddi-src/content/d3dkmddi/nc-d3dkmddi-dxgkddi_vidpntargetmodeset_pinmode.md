@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnPinMode"
+ - DXGKDDI_VIDPNTARGETMODESET_PINMODE
+ - d3dkmddi/DXGKDDI_VIDPNTARGETMODESET_PINMODE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTARGETMODESET_PINMODE callback function
+
 
 ## -description
 

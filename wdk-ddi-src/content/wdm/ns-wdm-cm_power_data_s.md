@@ -8,8 +8,6 @@ ms.assetid: 38fea22b-4d9a-4b03-bbb7-c22578f60def
 ms.date: 04/30/2018
 keywords: ["CM_Power_Data_s structure"]
 ms.keywords: "*PCM_POWER_DATA, CM_POWER_DATA, CM_POWER_DATA structure [Kernel-Mode Driver Architecture], CM_Power_Data_s, PCM_POWER_DATA, PCM_POWER_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.cm_power_data, kstruct_a_da572af5-5cb2-41f4-be3d-f2c1b715e4d7.xml, wdm/CM_POWER_DATA, wdm/PCM_POWER_DATA"
-f1_keywords:
- - "wdm/CM_POWER_DATA"
 req.header: wdm.h
 req.include-header: Ntddk.h, Ntpoapi.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- CM_POWER_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_POWER_DATA, *PCM_POWER_DATA
+f1_keywords:
+ - CM_Power_Data_s
+ - wdm/CM_Power_Data_s
+ - PCM_POWER_DATA
+ - wdm/PCM_POWER_DATA
+ - CM_POWER_DATA
+ - wdm/CM_POWER_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - CM_POWER_DATA
 ---
 
 # CM_Power_Data_s structure
@@ -47,24 +50,17 @@ req.typenames: CM_POWER_DATA, *PCM_POWER_DATA
 
 ## -description
 
-
 The <b>CM_POWER_DATA</b> structure contains information about a device's power management state and capabilities.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PD_Size
 
 The size, in bytes, of this structure.
 
-
 ### -field PD_MostRecentPowerState
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> value representing the device's most recent power state.
-
 
 ### -field PD_Capabilities
 
@@ -88,36 +84,27 @@ PDCAP_WAKE_FROM_D3_SUPPORTED
 
 PDCAP_WARM_EJECT_SUPPORTED
 
-
 ### -field PD_D1Latency
 
 The device's latency when returning the D0 state from the D1 state. For more information, see the <b>D1Latency</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>.
-
 
 ### -field PD_D2Latency
 
 The device's latency when returning the D0 state from the D2 state. For more information, see the <b>D2Latency</b> member of <b>DEVICE_CAPABILITIES</b>.
 
-
 ### -field PD_D3Latency
 
 The device's latency when returning the D0 state from the D3 state. For more information, see the <b>D3Latency</b> member of <b>DEVICE_CAPABILITIES</b>.
-
 
 ### -field PD_PowerStateMapping
 
 An array of <b>DEVICE_POWER_STATE</b> values representing the maximum device power state achievable for each system power state. For more information, see the <b>DeviceState</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>.
 
-
 ### -field PD_DeepestSystemWake
 
-Specifies the least-powered system state from which the device can wake the system. <b>PD_DeepestSystemWake</b> typically indicates one of the system sleeping states, S1, S2, or S3 (as specified by <b>PowerSystemSleeping1</b>, <b>PowerSystemSleeping2</b>, and <b>PowerSystemSleeping3</b>, respectively). Note, however, that some devices might be able to wake the system from the system hibernate state, S4 (as specified by <b>PowerSystemHibernate</b>), or even from the system shutdown state, S5 (as specified by <b>PowerSystemShutdown</b>). 
-
+Specifies the least-powered system state from which the device can wake the system. <b>PD_DeepestSystemWake</b> typically indicates one of the system sleeping states, S1, S2, or S3 (as specified by <b>PowerSystemSleeping1</b>, <b>PowerSystemSleeping2</b>, and <b>PowerSystemSleeping3</b>, respectively). Note, however, that some devices might be able to wake the system from the system hibernate state, S4 (as specified by <b>PowerSystemHibernate</b>), or even from the system shutdown state, S5 (as specified by <b>PowerSystemShutdown</b>).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>
 
@@ -128,7 +115,4 @@ Specifies the least-powered system state from which the device can wake the syst
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
- 
-
- 
 

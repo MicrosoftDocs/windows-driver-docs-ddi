@@ -8,8 +8,6 @@ ms.assetid: 774d1bda-2d9b-4ab4-97cf-b358471d8716
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record_with_info, bth_ioctls_6ae2aeb0-ecf1-40c4-9135-2397c40a278e.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
-f1_keywords:
- - "bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
+ - bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 ---
 
 # IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO IOCTL
 
 
 ## -description
-
-
 
 The IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO request adds an SDP record to the local SDP server along
      with attributes that are not part of the SDP record itself. After this call completes successfully, the
@@ -56,13 +53,7 @@ The IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO request adds an SDP record to the loca
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_remove_record">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
      stop advertising the service on the local SDP server.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -72,12 +63,10 @@ The
       SDP record to add, its size, the required security for the record, and publication options for the
       record. The structure is followed by the raw SDP record.
 
-
 ### -input-buffer-length
 
 The length of a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_record">BTH_SDP_RECORD</a> structure.
-
 
 ### -output-buffer
 
@@ -86,29 +75,13 @@ The
       handle can only be used by IOCTL_BTH_SDP_REMOVE_RECORD to remove the record submitted by
       IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO.
 
-
 ### -output-buffer-length
 
 The length of the handle to the SDP record.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -167,20 +140,12 @@ A member of the structure passed to the input buffer, or the stream passed to th
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_record">BTH_SDP_RECORD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
- 
-
- 
 

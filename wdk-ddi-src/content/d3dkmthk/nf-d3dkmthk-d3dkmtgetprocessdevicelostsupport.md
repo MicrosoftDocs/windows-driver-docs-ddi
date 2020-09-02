@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetProcessDeviceLostSupport function"]
 ms.keywords: D3DKMTGetProcessDeviceLostSupport, D3DKMTGetProcessDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTGetProcessDeviceLostSupport, display.d3dkmtgetprocessdevicelostsupport
 f1_keywords:
  - "d3dkmthk/D3DKMTGetProcessDeviceLostSupport"
+ - "D3DKMTGetProcessDeviceLostSupport"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTGetProcessDeviceLostSupport
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

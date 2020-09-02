@@ -7,8 +7,6 @@ ms.assetid: bc7ccd91-becc-4596-a56a-562cfe9a18b9
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_CLOSEADAPTER callback function"]
 ms.keywords: CloseAdapter, CloseAdapter callback function [Display Devices], PFND3D10DDI_CLOSEADAPTER, PFND3D10DDI_CLOSEADAPTER callback, UserModeDisplayDriverDx10_Functions_0adac9d0-3334-4bee-86ef-4e1450b1feb0.xml, d3d10umddi/CloseAdapter, display.closeadapter_d3d10_
-f1_keywords:
- - "d3d10umddi/CloseAdapter"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- CloseAdapter
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_CLOSEADAPTER
+ - d3d10umddi/PFND3D10DDI_CLOSEADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - CloseAdapter
 ---
 
 # PFND3D10DDI_CLOSEADAPTER callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>CloseAdapter(D3D10)</b> function releases resources for a graphics adapter object.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,31 +56,17 @@ The <b>CloseAdapter(D3D10)</b> function releases resources for a graphics adapte
 
 A handle to the graphics adapter object that was created with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a> function.
 
-
 ## -returns
 
-
-
-<b>CloseAdapter(D3D10)</b> returns S_OK if the operation succeeds. Otherwise, this function returns an appropriate error result. 
-
-
-
+<b>CloseAdapter(D3D10)</b> returns S_OK if the operation succeeds. Otherwise, this function returns an appropriate error result.
 
 ## -remarks
-
-
 
 The user-mode display driver's <b>CloseAdapter(D3D10)</b> function should free all of the resources that the driver allocated for the graphics adapter object.
 
 Before <b>CloseAdapter(D3D10)</b> closes the graphics adapter object, all of the display devices that were created by using the graphics adapter object in calls to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function will be destroyed in calls to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_destroydevice">DestroyDevice(D3D10)</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
 
@@ -101,7 +81,4 @@ Before <b>CloseAdapter(D3D10)</b> closes the graphics adapter object, all of the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a>
- 
-
- 
 

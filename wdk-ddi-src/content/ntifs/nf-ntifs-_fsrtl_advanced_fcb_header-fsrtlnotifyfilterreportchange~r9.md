@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyFilterReportChange function"]
 ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, ntifs/FsRtlNotifyFilterReportChange
 f1_keywords:
  - "ntifs/FsRtlNotifyFilterReportChange"
+ - "FsRtlNotifyFilterReportChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyFilterReportChange
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,53 +55,53 @@ req.typenames: TOKEN_TYPE
 
 
 
-### -param NotifySync [in]
-
+### -param NotifySync 
+[in]
 Pointer to an opaque synchronization object for the change directory notify list that is pointed to by the <i>NotifyList</i> parameter.
 
 
-### -param NotifyList [in]
-
+### -param NotifyList 
+[in]
 Pointer to the head of the change directory notify list for the current volume. Each element in the list is an opaque notify structure.
 
 
-### -param FullTargetName [in]
-
+### -param FullTargetName 
+[in]
 Pointer to an ANSI or Unicode string that contains the full pathname of the file or directory that changed.
 
 
-### -param TargetNameOffset [in]
-
+### -param TargetNameOffset 
+[in]
 Offset, in bytes, within the <i>FullTargetName</i> string of the final component of the file name for the file or directory that changed.
 
 
-### -param StreamName [in, optional]
-
+### -param StreamName 
+[in, optional]
 Optional pointer to an ANSI or Unicode string that contains a stream name to store with the file name.
 
 
-### -param NormalizedParentName [in, optional]
-
+### -param NormalizedParentName 
+[in, optional]
 Optional pointer to an ANSI or Unicode string that contains the same path as in the <i>FullTargetName</i> string, but with all short names replaced by the corresponding long names.
 
 
-### -param FilterMatch [in]
-
+### -param FilterMatch 
+[in]
 Bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory">FsRtlNotifyFilterChangeDirectory</a>.
 
 
-### -param Action [in]
-
+### -param Action 
+[in]
 Specifies the action code to store in the user's buffer if present. For possible action code values, see the <i>Action</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange">FsRtlNotifyFullReportChange</a>.
 
 
-### -param TargetContext [in, optional]
-
+### -param TargetContext 
+[in, optional]
 Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory">FsRtlNotifyFilterChangeDirectory</a>.
 
 
-### -param FilterContext [in, optional]
-
+### -param FilterContext 
+[in, optional]
 Context pointer to pass to the filter callback routine. For more information, see the <i>FilterCallback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory">FsRtlNotifyFilterChangeDirectory</a>.
 
 

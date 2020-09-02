@@ -6,10 +6,8 @@ old-location: display\d3dddi_multiplane_overlay_flags.htm
 tech.root: display
 ms.assetid: b91d87e8-3f63-45ac-919f-3597957ea497
 ms.date: 05/10/2018
-keywords: ["_D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration"]
+keywords: ["D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, _D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, display.d3dddi_multiplane_overlay_flags
-f1_keywords:
- - "d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDI_MULTIPLANE_OVERLAY_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+f1_keywords:
+ - _D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+ - d3dumddi/_D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+ - D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+ - d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDI_MULTIPLANE_OVERLAY_FLAGS
 ---
 
 # _D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration
@@ -47,19 +48,13 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_FLAGS
 
 ## -description
 
-
 Identifies a flip operation to be performed on an overlay plane.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP
 
 The overlay plane should flip the data vertically, making it appear upside-down.
-
 
 ### -field D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP
 

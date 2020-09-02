@@ -8,8 +8,6 @@ ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.date: 04/16/2018
 keywords: ["FsRtlDissectName function"]
 ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, ntifs/FsRtlDissectName
-f1_keywords:
- - "ntifs/FsRtlDissectName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlDissectName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlDissectName
+ - ntifs/FsRtlDissectName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlDissectName
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlDissectName function
@@ -50,33 +49,26 @@ ms.custom: RS5
 
 ## -description
 
-
 Given a Unicode pathname string, the <b>FsRtlDissectName</b> routine returns two strings, one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
-
 
 ## -parameters
 
+### -param Path 
 
-
-
-### -param Path [in]
-
+[in]
 Pathname string to be parsed.
 
+### -param FirstName 
 
-### -param FirstName [out]
+[out]
+Pointer to the first file name in the pathname string.
 
-Pointer to the first file name in the pathname string. 
+### -param RemainingName 
 
-
-### -param RemainingName [out]
-
+[out]
 Pointer to the remaining unparsed portion of the pathname string.
 
-
 ## -remarks
-
-
 
 In the input string, backslashes are read as name separators. The first name in the string is assumed to consist of all characters from the beginning of the string to the character preceding the first backslash, inclusive. There is just one exception to this rule: if the first character in the input string is a backslash, this character is ignored and does not appear in the output string. The remaining portion of the string consists of all characters following the backslash that follows the first name found in the string.
 
@@ -221,18 +213,9 @@ FsRtlDissectName (FullPathName, &CurrentComponent, &RemainingComponent);
 </td>
 </tr>
 </table></span></div>
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
-
-
-
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

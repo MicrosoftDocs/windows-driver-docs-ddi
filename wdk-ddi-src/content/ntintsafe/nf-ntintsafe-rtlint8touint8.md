@@ -8,8 +8,6 @@ ms.assetid: 884F36CD-8F2F-401C-A800-33735764B844
 ms.date: 04/30/2018
 keywords: ["RtlInt8ToUInt8 function"]
 ms.keywords: RtlInt8ToUInt8, RtlInt8ToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlint8touint8, ntintsafe/RtlInt8ToUInt8
-f1_keywords:
- - "ntintsafe/RtlInt8ToUInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntintsafe.h
-api_name:
-- RtlInt8ToUInt8
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInt8ToUInt8
+ - ntintsafe/RtlInt8ToUInt8
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntintsafe.h
+api_name:
+ - RtlInt8ToUInt8
 ---
 
 # RtlInt8ToUInt8 function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>INT8</b> to a value of type <b>UINT8</b>.
-
 
 ## -parameters
 
+### -param i8Operand 
 
-
-
-### -param i8Operand [in]
-
+[in]
 The value to be converted.
 
+### -param pu8Result 
 
-### -param pu8Result [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -77,5 +69,4 @@ This function uses the following alternate name:
 <ul>
 <li>RtlInt8ToByte</li>
 </ul>
-
 

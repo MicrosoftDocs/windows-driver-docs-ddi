@@ -8,8 +8,6 @@ ms.assetid: 725ede16-5fc6-4465-bcdc-da7702779d68
 ms.date: 04/16/2018
 keywords: ["CcFastCopyRead function"]
 ms.keywords: CcFastCopyRead, CcFastCopyRead routine [Installable File System Drivers], ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, ifsk.ccfastcopyread, ntifs/CcFastCopyRead
-f1_keywords:
- - "ntifs/CcFastCopyRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcFastCopyRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcFastCopyRead
+ - ntifs/CcFastCopyRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcFastCopyRead
 ---
 
 # CcFastCopyRead function
@@ -47,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcFastCopyRead</b> routine performs a fast copy read from a cached file to a buffer in memory.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Pointer to a file object for the cached file from which the data is to be read.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 Starting byte offset within the cached file.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Length in bytes of the data to be read.
 
+### -param PageCount 
 
-### -param PageCount [in]
-
+[in]
 Number of pages spanned by the read.
 
+### -param Buffer 
 
-### -param Buffer [out]
+[out]
+Pointer to a buffer into which the data is to be copied.
 
-Pointer to a buffer into which the data is to be copied. 
+### -param IoStatus 
 
-
-### -param IoStatus [out]
-
+[out]
 Pointer to a structure that receives the final completion status and information about the operation. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
-
 ## -remarks
-
-
 
 <b>CcFastCopyRead</b> is a faster version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>. It differs from <b>CcCopyRead</b> in the following respects:
 
@@ -112,13 +104,7 @@ If any failure occurs, <b>CcFastCopyRead</b> raises a status exception for that 
 
 To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>
 
@@ -141,7 +127,4 @@ To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
- 
-
- 
 

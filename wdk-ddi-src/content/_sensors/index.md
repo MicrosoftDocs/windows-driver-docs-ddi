@@ -8,8 +8,6 @@ ms.keywords: sensors driver development
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 ---
 
 # Sensors

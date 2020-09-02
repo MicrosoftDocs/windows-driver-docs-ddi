@@ -8,8 +8,6 @@ ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
 ms.date: 04/30/2018
 keywords: ["SpbRequestComplete function"]
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
-f1_keywords:
- - "spbcx/SpbRequestComplete"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- spbcxstubs.lib
-- spbcxstubs.dll
-api_name:
-- SpbRequestComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpbRequestComplete
+ - spbcx/SpbRequestComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - spbcxstubs.lib
+ - spbcxstubs.dll
+api_name:
+ - SpbRequestComplete
 ---
 
 # SpbRequestComplete function
@@ -48,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>SpbRequestComplete</b> method completes an I/O request and supplies a completion status.
-
 
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request to complete. The SPB controller driver previously received this handle through one of its registered <a href="https://docs.microsoft.com/previous-versions/hh450911(v=vs.85)">event callback functions</a>.
 
+### -param CompletionStatus 
 
-### -param CompletionStatus [in]
-
+[in]
 An NTSTATUS value that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
 
@@ -86,10 +81,7 @@ The I/O request is canceled.
 
 The driver encountered an error while processing the I/O request.
 
-
 ## -remarks
-
-
 
 Your controller driver calls this method to complete an I/O request that it previously received during one of the following callbacks:
 
@@ -103,13 +95,7 @@ A bug check occurs if the caller supplies an invalid SPBREQUEST handle.
 
 A call to <b>SpbRequestComplete</b> represents the final stage in the processing of an I/O request. When this method returns, the <i>Request</i> handle value is no longer valid.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_other">EvtSpbControllerIoOther</a>
 
@@ -132,7 +118,4 @@ A call to <b>SpbRequestComplete</b> represents the final stage in the processing
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a>
- 
-
- 
 

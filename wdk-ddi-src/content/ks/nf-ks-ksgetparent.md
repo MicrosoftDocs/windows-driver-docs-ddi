@@ -8,8 +8,6 @@ ms.assetid: d7804745-295f-491a-80f4-84441598bbf4
 ms.date: 04/23/2018
 keywords: ["KsGetParent function"]
 ms.keywords: KsGetParent, KsGetParent function [Streaming Media Devices], avfunc_da3c1932-98b1-4f29-8b5a-4663077759e9.xml, ks/KsGetParent, stream.ksgetparent
-f1_keywords:
- - "ks/KsGetParent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsGetParent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsGetParent
+ - ks/KsGetParent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsGetParent
 ---
 
 # KsGetParent function
@@ -48,32 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsGetParent</b> function acquires the parent of the given object.
-
 
 ## -parameters
 
+### -param Object 
 
-
-
-### -param Object [in]
-
+[in]
 A pointer to the AVStream object for which to find the parent. Must be a pointer to one of the following types: <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>. Callers must manually typecast the object to a PVOID.
-
 
 ## -returns
 
-
-
 <b>KsGetParent</b> returns the parent of <i>Object</i> as a PVOID. Callers must manually cast this return value to whatever the type of the parent of <i>Object</i> is.
 
-
-
-
 ## -remarks
-
-
 
 For a graphical representation of AVStream parent/child relationships, see the diagram in <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-object-hierarchy">AVStream Object Hierarchy</a>.
 
@@ -81,13 +68,7 @@ The object hierarchy is only guaranteed stable while the appropriate mutex is he
 
 Minidrivers rarely use this function directly. Callers of <b>KsGetParent</b> must manually perform typecasts to and from PVOID. There are a number of inline versions that do the casting for you: <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorygetparentdevice">KsFilterFactoryGetParentDevice</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetparentfilterfactory">KsFilterGetParentFilterFactory</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetparentfilter">KsPinGetParentFilter</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
@@ -114,7 +95,4 @@ Minidrivers rarely use this function directly. Callers of <b>KsGetParent</b> mus
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetparentfilter">KsPinGetParentFilter</a>
- 
-
- 
 

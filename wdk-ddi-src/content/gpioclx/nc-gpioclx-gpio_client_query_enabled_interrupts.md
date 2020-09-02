@@ -8,8 +8,6 @@ ms.assetid: 2F09006A-EFC6-4A38-AC5D-661DA48155FA
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS callback function"]
 ms.keywords: CLIENT_QueryEnabledInterrupts, CLIENT_QueryEnabledInterrupts callback, CLIENT_QueryEnabledInterrupts callback function [Parallel Ports], GPIO.client_queryenabledinterrupts, GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS, gpioclx/CLIENT_QueryEnabledInterrupts
-f1_keywords:
- - "gpioclx/CLIENT_QueryEnabledInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_QueryEnabledInterrupts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS
+ - gpioclx/GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_QueryEnabledInterrupts
 ---
 
 # GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_QueryEnabledInterrupts</i> event callback function queries the state of a set of general-purpose I/O (GPIO) pins to determine which pins are both configured as interrupt inputs and enabled for interrupts.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
+### -param QueryEnabledParameters 
 
-### -param QueryEnabledParameters [in]
-
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_enabled_interrupts_parameters">GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</a> structure. Before calling this function, the caller writes a bank ID to the <b>BankId</b> member of this structure to specify which bank of GPIO pins to query. If successful, the function writes a mask value to the <b>EnabledMask</b> member of this structure to indicate which interrupts are enabled in the specified bank.
-
 
 ## -returns
 
-
-
 The <i>CLIENT_QueryEnabledInterrupts</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 8.1, the GPIO controller driver can, as an option, implement a <i>CLIENT_QueryEnabledInterrupts</i> callback function. If implemented, this function is called by the GPIO framework extension (GpioClx) to determine which interrupts are enabled in a bank of GPIO pins.
 
@@ -130,12 +117,7 @@ The GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS function type is defined in the Gpioclx
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
@@ -154,7 +136,4 @@ The GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS function type is defined in the Gpioclx
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_enabled_interrupts_parameters">GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</a>
- 
-
- 
 

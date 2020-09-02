@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CheckMultisampleQualityLevels"
+ - PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS
+ - d3d10umddi/PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback function
+
 
 ## -description
 
@@ -75,7 +77,6 @@ The number of samples to retrieve the quality levels for.
 A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples.
 
 ## -remarks
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. The driver can set E_INVALIDARG if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
 

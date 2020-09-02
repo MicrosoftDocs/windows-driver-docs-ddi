@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiUpdateOverlay"
+ - DXGKDDI_UPDATEOVERLAY
+ - d3dkmddi/DXGKDDI_UPDATEOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_UPDATEOVERLAY callback function
+
 
 ## -description
 

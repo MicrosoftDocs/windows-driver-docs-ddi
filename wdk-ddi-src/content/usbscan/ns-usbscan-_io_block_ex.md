@@ -6,10 +6,8 @@ old-location: image\io_block_ex.htm
 tech.root: image
 ms.assetid: 2474a49b-e275-4b4d-b762-c296b92bab4c
 ms.date: 05/03/2018
-keywords: ["_IO_BLOCK_EX structure"]
+keywords: ["IO_BLOCK_EX structure"]
 ms.keywords: "*PIO_BLOCK_EX, IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], _IO_BLOCK_EX, image.io_block_ex, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, usbscan/IO_BLOCK_EX, usbscan/PIO_BLOCK_EX"
-f1_keywords:
- - "usbscan/IO_BLOCK_EX"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbscan.h
-api_name:
-- IO_BLOCK_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_BLOCK_EX, *PIO_BLOCK_EX
+f1_keywords:
+ - _IO_BLOCK_EX
+ - usbscan/_IO_BLOCK_EX
+ - PIO_BLOCK_EX
+ - usbscan/PIO_BLOCK_EX
+ - IO_BLOCK_EX
+ - usbscan/IO_BLOCK_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbscan.h
+api_name:
+ - IO_BLOCK_EX
 ---
 
 # _IO_BLOCK_EX structure
@@ -47,44 +50,33 @@ req.typenames: IO_BLOCK_EX, *PIO_BLOCK_EX
 
 ## -description
 
-
 The IO_BLOCK_EX structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_send_usb_request">IOCTL_SEND_USB_REQUEST</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
 
-
 ## -struct-fields
-
-
-
 
 ### -field uOffset
 
 Used as the <b>Value</b> field of a USB Device Request.
 
-
 ### -field uLength
 
 Length of the buffer to transfer.
-
 
 ### -field pbyData
 
 Pointer to a data buffer with a length of <b>uLength</b>.
 
-
 ### -field uIndex
 
 Used as the <b>Index</b> field of a USB Device Request.
-
 
 ### -field bRequest
 
 Used as the <b>bRequest</b> field of a USB Device Request.
 
-
 ### -field bmRequestType
 
 Used as the <b>bmRequestType</b> field of a USB Device Request.
-
 
 ### -field fTransferDirectionIn
 

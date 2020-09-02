@@ -8,8 +8,6 @@ ms.assetid: B30CD277-ADE2-45F7-BE73-CF738843D9B9
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons"]
 ms.keywords: ExtentWidthInMicrons property [Print Devices], ExtentWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentWidthInMicrons property, IPrintSchemaPageImageableSize.ExtentWidthInMicrons, IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons, IPrintSchemaPageImageableSize::ExtentWidthInMicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, get_ExtentWidthInMicrons, print.iprintschemapageimageablesize_extentwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
-f1_keywords:
- - "printerextension/IPrintSchemaPageImageableSize.ExtentWidthInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaPageImageableSize.ExtentWidthInMicrons
-- IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
+ - printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaPageImageableSize.ExtentWidthInMicrons
+ - IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons
 ---
 
 # IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
@@ -48,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the horizontal distance between the origin and the bounding limit of the application media size.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize">IPrintSchemaPageImageableSize</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: 15068932-b769-4027-986f-195b569a23eb
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_IA_VERTEXBUF_CB, PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback, d3d10state_functions_b08135a0-2a61-4823-9153-bf89ea24e0fa.xml, d3d10umddi/pfnStateIaVertexBufCb, display.pfnstateiavertexbufcb, pfnStateIaVertexBufCb, pfnStateIaVertexBufCb callback function [Display Devices]
-f1_keywords:
- - "d3d10umddi/pfnStateIaVertexBufCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- pfnStateIaVertexBufCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_STATE_IA_VERTEXBUF_CB
+ - d3d10umddi/PFND3D10DDI_STATE_IA_VERTEXBUF_CB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - pfnStateIaVertexBufCb
 ---
 
 # PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>pfnStateIaVertexBufCb</b> function causes the Microsoft Direct3D 10 runtime to refresh the set of vertex buffers that are bound to the input assembler.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -72,20 +66,13 @@ The total number of vertex buffers. The number can be -1, which specifies that t
 
 *Base* [in]
 
-The beginning vertex buffer for which the runtime should refresh state. 
-
+The beginning vertex buffer for which the runtime should refresh state.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
- 
-
- 
 

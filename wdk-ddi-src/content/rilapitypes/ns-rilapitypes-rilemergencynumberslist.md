@@ -8,8 +8,6 @@ ms.assetid: bfeaff04-6dd2-4889-9ab3-f20361dc2f5c
 ms.date: 05/02/2018
 keywords: ["RILEMERGENCYNUMBERSLIST structure"]
 ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberslist, ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
-f1_keywords:
- - "rilapitypes/RILEMERGENCYNUMBERSLIST"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILEMERGENCYNUMBERSLIST
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYNUMBERSLIST, *LPRILEMERGENCYNUMBERSLIST
+f1_keywords:
+ - RILEMERGENCYNUMBERSLIST
+ - rilapitypes/RILEMERGENCYNUMBERSLIST
+ - LPRILEMERGENCYNUMBERSLIST
+ - rilapitypes/LPRILEMERGENCYNUMBERSLIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILEMERGENCYNUMBERSLIST
 ---
 
 # RILEMERGENCYNUMBERSLIST structure
@@ -47,20 +48,13 @@ req.typenames: RILEMERGENCYNUMBERSLIST, *LPRILEMERGENCYNUMBERSLIST
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-
 ### -field dwRilENSize
-
 
 ### -field RilEN
 

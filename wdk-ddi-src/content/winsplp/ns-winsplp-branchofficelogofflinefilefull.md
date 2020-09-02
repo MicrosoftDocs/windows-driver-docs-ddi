@@ -8,8 +8,6 @@ ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
 ms.date: 04/20/2018
 keywords: ["BranchOfficeLogOfflineFileFull structure"]
 ms.keywords: "*PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], print.branchofficelogofflinefilefull, winsplp/BranchOfficeLogOfflineFileFull, winsplp/PBranchOfficeLogOfflineFileFull"
-f1_keywords:
- - "winsplp/BranchOfficeLogOfflineFileFull"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- BranchOfficeLogOfflineFileFull
-product:
-- Windows
 targetos: Windows
 req.typenames: BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull
+f1_keywords:
+ - PBranchOfficeLogOfflineFileFull
+ - winsplp/PBranchOfficeLogOfflineFileFull
+ - BranchOfficeLogOfflineFileFull
+ - winsplp/BranchOfficeLogOfflineFileFull
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - BranchOfficeLogOfflineFileFull
 ---
 
 # BranchOfficeLogOfflineFileFull structure
@@ -47,14 +48,9 @@ req.typenames: BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull
 
 ## -description
 
-
 Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pMachineName
 

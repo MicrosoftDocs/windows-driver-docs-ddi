@@ -8,8 +8,6 @@ ms.assetid: B77297BF-09F7-46BD-A75F-D36E5E233E05
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaOptionCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices],GetAt method, IPrintSchemaOptionCollection.GetAt, IPrintSchemaOptionCollection::GetAt, print.iprintschemaoptioncollection_getat, printerextension/IPrintSchemaOptionCollection::GetAt
-f1_keywords:
- - "printerextension/IPrintSchemaOptionCollection.GetAt"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaOptionCollection.GetAt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaOptionCollection::GetAt
+ - printerextension/IPrintSchemaOptionCollection::GetAt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaOptionCollection.GetAt
 ---
 
 # IPrintSchemaOptionCollection::GetAt
@@ -47,45 +46,29 @@ req.typenames:
 
 ## -description
 
-
 Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> object.
-
 
 ## -parameters
 
+### -param ulIndex 
 
-
-
-### -param ulIndex [in]
-
+[in]
 Index of the <b>IPrintSchemaOption</b> object within the collection.
 
+### -param ppOption 
 
-### -param ppOption [out, retval, optional]
-
+[out, retval, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> object.
-
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value. If the method call was not successful,  it returns the appropriate <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection">IPrintSchemaOptionCollection</a>
- 
-
- 
 

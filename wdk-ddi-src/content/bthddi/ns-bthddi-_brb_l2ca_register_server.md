@@ -6,10 +6,8 @@ old-location: bltooth\_brb_l2ca_register_server.htm
 tech.root: bltooth
 ms.assetid: b7eca29a-7e3c-4cfc-b285-42faca263c5e
 ms.date: 04/27/2018
-keywords: ["_BRB_L2CA_REGISTER_SERVER structure"]
+keywords: ["BRB_L2CA_REGISTER_SERVER structure"]
 ms.keywords: "_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_register_server, bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml, bthddi/_BRB_L2CA_REGISTER_SERVER"
-f1_keywords:
- - "bthddi/_BRB_L2CA_REGISTER_SERVER"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_L2CA_REGISTER_SERVER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_L2CA_REGISTER_SERVER
+ - bthddi/_BRB_L2CA_REGISTER_SERVER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_L2CA_REGISTER_SERVER
 ---
 
 # _BRB_L2CA_REGISTER_SERVER structure
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 A profile driver uses the _BRB_L2CA_REGISTER_SERVER structure to register itself as a server capable
   of receiving L2CAP connections from remote Bluetooth devices.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
@@ -63,17 +57,14 @@ A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
-
 ### -field BtAddress
 
 The address of the remote Bluetooth device to receive notifications for. Specify BTH_ADDR_NULL to
      receive notification for any incoming connections.
 
-
 ### -field PSM
 
 The Protocol/Service Multiplexer (PSM) that accepts connection requests.
-
 
 ### -field IndicationFlags
 
@@ -118,8 +109,6 @@ The profile driver will accept notifications when a device is unpersonalized.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IndicationCallback
 
@@ -128,12 +117,10 @@ A
      implemented by the profile driver, that the Bluetooth driver stack should call to notify the profile
      driver about incoming L2CAP connections.
 
-
 ### -field IndicationCallbackContext
 
 The context to be passed to the callback function that is specified in the 
      <b>IndicationCallback</b> member.
-
 
 ### -field ReferenceObject
 
@@ -149,7 +136,6 @@ A pointer to an object to pass to the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">
      BRB_L2CA_UNREGISTER_SERVER</a> request.
 
-
 ### -field ServerHandle
 
 Handle to the L2CAP server, if successfully returned. When the profile driver should no longer
@@ -157,10 +143,7 @@ Handle to the L2CAP server, if successfully returned. When the profile driver sh
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">
      BRB_L2CA_UNREGISTER_SERVER</a>.
 
-
 ## -remarks
-
-
 
 To register itself as a L2CAP server, a profile driver should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
@@ -212,13 +195,7 @@ While this procedure allows a profile driver to accept incoming connection reque
     <a href="https://docs.microsoft.com/previous-versions/ff536671(v=vs.85)">Communicating with SDP
     Servers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
@@ -241,7 +218,4 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a>
- 
-
- 
 

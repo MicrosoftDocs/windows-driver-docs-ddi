@@ -8,8 +8,6 @@ ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.date: 02/26/2018
 keywords: ["WdfVerifierDbgBreakPoint function"]
 ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
-f1_keywords:
- - "wdfverifier/WdfVerifierDbgBreakPoint"
 req.header: wdfverifier.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfVerifierDbgBreakPoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfVerifierDbgBreakPoint
+ - wdfverifier/WdfVerifierDbgBreakPoint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfVerifierDbgBreakPoint
 ---
 
 # WdfVerifierDbgBreakPoint function
@@ -50,15 +49,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger, if a debugger is running.
 
-
 ## -remarks
-
-
 
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger if one of the following is true:
 
@@ -94,15 +89,7 @@ if( !NT_SUCCESS(Status) ) {
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfverifier/nf-wdfverifier-wdfverifierkebugcheck">WdfVerifierKeBugCheck</a>
- 
-
- 
 

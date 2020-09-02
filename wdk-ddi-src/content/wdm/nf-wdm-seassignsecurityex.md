@@ -8,8 +8,6 @@ ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.date: 04/30/2018
 keywords: ["SeAssignSecurityEx function"]
 ms.keywords: SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, wdm/SeAssignSecurityEx
-f1_keywords:
- - "wdm/SeAssignSecurityEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeAssignSecurityEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeAssignSecurityEx
+ - wdm/SeAssignSecurityEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeAssignSecurityEx
 ---
 
 # SeAssignSecurityEx function
@@ -47,43 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The 
    <b>SeAssignSecurityEx</b> routine builds a self-relative security descriptor for a new object given the following optional parameters: a security descriptor of the object's parent directory, an explicit security descriptor for the object, and the object type.
 
-
 ## -parameters
 
+### -param ParentDescriptor 
 
-
-
-### -param ParentDescriptor [in, optional]
-
+[in, optional]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> of the parent object that contains the new object being created. <i>ParentDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> system access control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/">SACL</a>) or a <b>NULL</b> discretionary access control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/">DACL</a>).
 
+### -param ExplicitDescriptor 
 
-### -param ExplicitDescriptor [in, optional]
-
+[in, optional]
 Pointer to an explicit <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> that is applied to the new object. <i>ExplicitDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> SACL or a <b>NULL</b> DACL.
 
+### -param NewDescriptor 
 
-### -param NewDescriptor [out]
-
+[out]
 Receives a pointer to the returned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>.  <b>SeAssignSecurityEx</b> allocates the buffer from the paged memory pool.
 
+### -param ObjectType 
 
-### -param ObjectType [in, optional]
-
+[in, optional]
 Pointer to a GUID for the type of object being created. If the object does not have a GUID, <i>ObjectType</i> must be set to <b>NULL</b>.
 
+### -param IsDirectoryObject 
 
-### -param IsDirectoryObject [in]
-
+[in]
 Specifies whether the new object is a directory object. If <i>IsDirectoryObject</i> is set to <b>TRUE</b>, the new object is a directory object, otherwise the new object is not a directory object.
 
+### -param AutoInheritFlags 
 
-### -param AutoInheritFlags [in]
-
+[in]
 Specifies the type of automatic inheritance that is applied to access control entries (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>) in the access control lists (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>) specified by <i>ParentDescriptor</i>. <i>AutoInheritFlags</i> also controls privilege checking, owner checking, and setting a default owner and group for <i>NewDescriptor</i>. <i>AutoInheritFlags</i> must be set to a logical OR of one or more of the following values:
 
 <table>
@@ -245,24 +240,22 @@ ACEs that are inherited from the parent descriptor are appended after the ACEs s
 </li>
 </ol>
 
-### -param SubjectContext [in]
+### -param SubjectContext 
 
+[in]
 Pointer to a security context of the subject that is creating the object. <i>SubjectContext</i> is used to retrieve default security information for the new object, including the default owner, the primary group, and discretionary access control.
 
+### -param GenericMapping 
 
-### -param GenericMapping [in]
-
+[in]
 Pointer to an array of access mask values that specify the mapping between each generic rights to object-specific rights.
 
+### -param PoolType 
 
-### -param PoolType [in]
-
+[in]
 This parameter is unused.  The buffer to hold the new security descriptor is always allocated from paged pool.
 
-
 ## -returns
-
-
 
 <b>SeAssignSecurityEx</b> returns one of the following values:
 
@@ -305,14 +298,8 @@ The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SeAssignSecurityEx</b> extends the basic operation of <b>SeAssignSecurity</b> in the following ways:
 
@@ -326,15 +313,9 @@ The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to
 
 </li>
 </ul>
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a>
 
@@ -349,7 +330,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-sedeassignsecurity">SeDeassignSecurity</a>
- 
-
- 
 

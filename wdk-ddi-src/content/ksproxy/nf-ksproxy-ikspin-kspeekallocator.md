@@ -8,8 +8,6 @@ ms.assetid: fd833d0b-2f81-4002-8280-38e17e528af6
 ms.date: 04/23/2018
 keywords: ["IKsPin::KsPeekAllocator"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPeekAllocator method, IKsPin.KsPeekAllocator, IKsPin::KsPeekAllocator, KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
-f1_keywords:
- - "ksproxy/IKsPin.KsPeekAllocator"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPin.KsPeekAllocator
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPin::KsPeekAllocator
+ - ksproxy/IKsPin::KsPeekAllocator
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPin.KsPeekAllocator
 ---
 
 # IKsPin::KsPeekAllocator
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsPeekAllocator</b> method returns a pointer to an <b>IMemAllocator</b> interface for a pin's assigned allocator.
-
 
 ## -parameters
 
+### -param Operation 
 
-
-
-### -param Operation [in]
-
+[in]
 A value that specifies the type of operation. This value can be one of the following values from the KSPEEKOPERATION enumerated type.
 
 <table>
@@ -86,36 +81,18 @@ A value that specifies the type of operation. This value can be one of the follo
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Returns a pointer to an <b>IMemAllocator</b> interface if successful; otherwise, returns <b>NULL</b>. 
-
-
-
+Returns a pointer to an <b>IMemAllocator</b> interface if successful; otherwise, returns <b>NULL</b>.
 
 ## -remarks
-
-
 
 For more information about <b>IMemAllocator</b>, see the Microsoft Windows SDK documentation.
 
 This method is for proxy use and is not recommended for application use.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
- 
-
- 
 

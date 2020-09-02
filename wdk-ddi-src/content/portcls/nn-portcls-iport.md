@@ -8,45 +8,43 @@ ms.assetid: 8aaadfd6-3aca-451b-a5e9-081b083ae51d
 ms.date: 03/19/2018
 keywords: ["IPort interface"]
 ms.keywords: IPort, IPort interface [Audio Devices], IPort interface [Audio Devices], described, audio.iport, audmp-routines_45897b1f-29f6-411d-9963-60f31e1655e7.xml, portcls/IPort
-f1_keywords:
- - "portcls/IPort"
 req.header: portcls.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Portcls.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPort
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+f1_keywords:
+ - IPort
+ - portcls/IPort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPort
 ---
 
 # IPort interface
 
 
 ## -description
-
 
 The <code>IPort</code> interface is the generic interface for audio port drivers. All audio port drivers expose <code>IPort</code> as part of their lower edge. The adapter driver calls the initialization method on this interface. <code>IPort</code> inherits from the <b>IUnknown</b> interface.
 

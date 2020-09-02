@@ -8,8 +8,6 @@ ms.assetid: 5329a688-ca72-456c-b9fa-32a922783d97
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEPASSWORD structure"]
 ms.keywords: "*LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], netvista.rilradiostatepassword, ntddrilapitypes/RILRADIOSTATEPASSWORD"
-f1_keywords:
- - "ntddrilapitypes/RILRADIOSTATEPASSWORD"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILRADIOSTATEPASSWORD
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEPASSWORD, *LPRILRADIOSTATEPASSWORD
+f1_keywords:
+ - RILRADIOSTATEPASSWORD
+ - ntddrilapitypes/RILRADIOSTATEPASSWORD
+ - LPRILRADIOSTATEPASSWORD
+ - ntddrilapitypes/LPRILRADIOSTATEPASSWORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILRADIOSTATEPASSWORD
 ---
 
 # RILRADIOSTATEPASSWORD structure
@@ -47,17 +48,11 @@ req.typenames: RILRADIOSTATEPASSWORD, *LPRILRADIOSTATEPASSWORD
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwPasswordId
-
 
 ### -field wszPassword
 

@@ -6,10 +6,8 @@ old-location: display\d3dddicb_signalsynchronizationobject2.htm
 tech.root: display
 ms.assetid: cb8df28d-1d44-446b-83a8-b4191213973d
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure"]
+keywords: ["D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dddicb_signalsynchronizationobject2
-f1_keywords:
- - "d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
+f1_keywords:
+ - _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
+ - d3dumddi/_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
+ - D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
+ - d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
 ---
 
 # _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure
@@ -47,24 +48,17 @@ req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
 
 ## -description
 
-
 Describes the parameters that are required to set up signaling in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hContext
 
 [in] A handle to a Direct3D context that signals the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies.
 
-
 ### -field ObjectCount
 
 [in] The number of synchronization events in the <b>ObjectHandleArray</b> array.
-
 
 ### -field ObjectHandleArray
 
@@ -72,16 +66,13 @@ Describes the parameters that are required to set up signaling in a call to the 
 
 All synchronization objects must be created on the same logical adapter as the  context specified by <b>hContext</b>.
 
-
 ### -field Flags
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_signalflags">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
-
 ### -field BroadcastContextCount
 
 [in] The number of contexts to broadcast this signal buffer to.
-
 
 ### -field BroadcastContext
 
@@ -89,23 +80,17 @@ All synchronization objects must be created on the same logical adapter as the  
 
 All contexts must be created for the same Direct3D device and the context that is specified by <b>hContext</b>.
 
-
 ### -field FenceValue
 
 [in] A 64-bit value that specifies the current fence value of the GPU synchronization object.
 
 This value applies only if the GPU synchronization object is of type <b>D3DDDI_FENCE</b>—namely, the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure has a value of <b>D3DDDI_FENCE</b>.
 
-
 ### -field CpuEventHandle
 
 [in] The handle of an event object that will be signaled when the signal command is processed. This member must be set only when <b>Flags</b>.<b>EnqueueCpuEvent</b> is specified.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_signalflags">D3DDDICB_SIGNALFLAGS</a>
 
@@ -116,7 +101,4 @@ This value applies only if the GPU synchronization object is of type <b>D3DDDI_F
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb">pfnSignalSynchronizationObject2Cb</a>
- 
-
- 
 

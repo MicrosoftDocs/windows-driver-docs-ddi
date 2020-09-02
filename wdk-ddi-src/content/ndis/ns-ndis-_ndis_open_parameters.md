@@ -6,10 +6,8 @@ old-location: netvista\ndis_open_parameters.htm
 tech.root: netvista
 ms.assetid: bb61026c-311b-41d1-9fcb-3ac44df2025e
 ms.date: 05/02/2018
-keywords: ["_NDIS_OPEN_PARAMETERS structure"]
+keywords: ["NDIS_OPEN_PARAMETERS structure"]
 ms.keywords: "*PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml"
-f1_keywords:
- - "ndis/NDIS_OPEN_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_OPEN_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS
+f1_keywords:
+ - _NDIS_OPEN_PARAMETERS
+ - ndis/_NDIS_OPEN_PARAMETERS
+ - PNDIS_OPEN_PARAMETERS
+ - ndis/PNDIS_OPEN_PARAMETERS
+ - NDIS_OPEN_PARAMETERS
+ - ndis/NDIS_OPEN_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_OPEN_PARAMETERS
 ---
 
 # _NDIS_OPEN_PARAMETERS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS
 
 ## -description
 
-
 The NDIS_OPEN_PARAMETERS structure defines the open parameters when a protocol driver calls the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,7 +65,6 @@ The
      <b>Revision</b> member to NDIS_OPEN_PARAMETERS_REVISION_1, and the 
      <b>Size</b> member to the NDIS_SIZEOF_OPEN_PARAMETERS_REVISION_1.
 
-
 ### -field AdapterName
 
 A Unicode string that contains the name of the miniport adapter that NDIS passed to 
@@ -76,26 +73,22 @@ A Unicode string that contains the name of the miniport adapter that NDIS passed
      <i>BindParameters</i> parameter. This name can identify a physical adapter (that is, a NIC) or a virtual
      adapter that is associated with an intermediate driver.
 
-
 ### -field MediumArray
 
 A pointer to an array of 
      <b>NdisMedium<i>Xxx</i></b> values that lists the types of media the caller can support. This list is a subset of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a> types.
 
-
 ### -field MediumArraySize
 
 The number of elements in the 
      <b>MediumArray</b> member.
-
 
 ### -field SelectedMediumIndex
 
 A pointer to an driver-provided UINT variable that contains an index into the 
      <b>MediumArray</b> array. NDIS writes this index which identifies the media type that the underlying
      driver uses.
-
 
 ### -field FrameTypeArray
 
@@ -128,22 +121,13 @@ The number of elements in the
      <b>FrameTypeArray</b> member. This number must be equal to or less than
      NDIS_MAX_FRAME_TYPES_PER_OPEN.
 
-
 ## -remarks
-
-
 
 A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function to open a
     miniport adapter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>
 
@@ -158,7 +142,4 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
- 
-
- 
 

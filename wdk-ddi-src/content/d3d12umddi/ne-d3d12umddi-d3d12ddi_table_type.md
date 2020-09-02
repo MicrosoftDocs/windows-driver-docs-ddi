@@ -29,7 +29,8 @@ tech.root: display
 req.typenames: D3D12DDI_TABLE_TYPE
 ms.custom: 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_TABLE_TYPE"
+ - D3D12DDI_TABLE_TYPE
+ - d3d12umddi/D3D12DDI_TABLE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,6 +47,7 @@ dev_langs:
 ---
 
 # D3D12DDI_TABLE_TYPE enumeration
+
 
 ## -description
 
@@ -144,3 +146,4 @@ Downlevel hardware support.
 ### -field D3D12DDI_TABLE_TYPE_0076_PIN_RESOURCES_CALLBACKS
 
 Pinned resource callbacks. Supported starting in Windows 10, version 2004.
+

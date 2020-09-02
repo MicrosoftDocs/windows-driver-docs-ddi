@@ -8,8 +8,6 @@ ms.assetid: f2d9bb70-cb0c-4e4b-be7a-11a89df739be
 ms.date: 05/02/2018
 keywords: ["RILSYSTEMSELECTIONPREFSMODE enumeration"]
 ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE, ntddrilapitypes/RIL_OPSELMODE_MANUAL, ntddrilapitypes/RIL_OPSELMODE_MAX
-f1_keywords:
- - "ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSYSTEMSELECTIONPREFSMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSYSTEMSELECTIONPREFSMODE
+f1_keywords:
+ - RILSYSTEMSELECTIONPREFSMODE
+ - ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSYSTEMSELECTIONPREFSMODE
 ---
 
 # RILSYSTEMSELECTIONPREFSMODE enumeration
@@ -47,20 +46,13 @@ req.typenames: RILSYSTEMSELECTIONPREFSMODE
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_OPSELMODE_AUTOMATIC
 
-
 ### -field RIL_OPSELMODE_MANUAL
-
 
 ### -field RIL_OPSELMODE_MAX
 

@@ -6,10 +6,8 @@ old-location: wdf\wdf_interrupt_config.htm
 tech.root: wdf
 ms.assetid: 10eb623d-6778-4ccb-8ed4-9926c13dec5a
 ms.date: 02/26/2018
-keywords: ["_WDF_INTERRUPT_CONFIG structure"]
+keywords: ["WDF_INTERRUPT_CONFIG structure"]
 ms.keywords: "*PWDF_INTERRUPT_CONFIG, DFInterruptObjectRef_545890e4-5222-42e8-8fba-c159a0faa140.xml, PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG structure pointer, WDF_INTERRUPT_CONFIG, WDF_INTERRUPT_CONFIG structure, _WDF_INTERRUPT_CONFIG, kmdf.wdf_interrupt_config, wdf.wdf_interrupt_config, wdfinterrupt/PWDF_INTERRUPT_CONFIG, wdfinterrupt/WDF_INTERRUPT_CONFIG"
-f1_keywords:
- - "wdfinterrupt/WDF_INTERRUPT_CONFIG"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfinterrupt.h
-api_name:
-- WDF_INTERRUPT_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_CONFIG, *PWDF_INTERRUPT_CONFIG
+f1_keywords:
+ - _WDF_INTERRUPT_CONFIG
+ - wdfinterrupt/_WDF_INTERRUPT_CONFIG
+ - PWDF_INTERRUPT_CONFIG
+ - wdfinterrupt/PWDF_INTERRUPT_CONFIG
+ - WDF_INTERRUPT_CONFIG
+ - wdfinterrupt/WDF_INTERRUPT_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfinterrupt.h
+api_name:
+ - WDF_INTERRUPT_CONFIG
 ---
 
 # _WDF_INTERRUPT_CONFIG structure
@@ -47,21 +50,15 @@ req.typenames: WDF_INTERRUPT_CONFIG, *PWDF_INTERRUPT_CONFIG
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_INTERRUPT_CONFIG</b> structure contains configuration information for a device interrupt.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
-
 
 ### -field SpinLock
 
@@ -69,11 +66,9 @@ The handle to a framework spin-lock object, obtained by a previous call to <a hr
 
 Starting with UMDF version 2.0, UMDF always uses passive-level interrupt handling. In this case, set this member to NULL.
 
-
 ### -field ShareVector
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the interrupt vector can be shared. If the value is <b>WdfFalse</b>, the interrupt vector cannot be shared. If the value is <b>WdfDefault</b>, the PnP manager uses the bus driver's value.
-
 
 ### -field FloatingSave
 
@@ -81,58 +76,47 @@ A Boolean value that, if <b>TRUE</b>, indicates that the system will save the pr
 
 This member is ignored starting in UMDF version 2.0.
 
-
 ### -field AutomaticSerialization
 
 A Boolean value that, if <b>TRUE</b>, indicates that the framework will synchronize execution of the interrupt object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>    or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_workitem">EvtInterruptWorkItem</a> callback function with callback functions from other objects that are underneath the interrupt's parent  object.  For more information, see the following Remarks section.
-
 
 ### -field EvtInterruptIsr
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function. This pointer cannot be <b>NULL</b>.
 
-
 ### -field EvtInterruptDpc
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function, or <b>NULL</b>. The driver can provide <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_workitem">EvtInterruptWorkItem</a> or <i>EvtInterruptDpc</i>, but not both.
-
 
 ### -field EvtInterruptEnable
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_enable">EvtInterruptEnable</a> callback function, or <b>NULL</b>.
 
-
 ### -field EvtInterruptDisable
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a> callback function, or <b>NULL</b>.
-
 
 ### -field EvtInterruptWorkItem
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_workitem">EvtInterruptWorkItem</a> callback function, or <b>NULL</b>. The driver can provide <i>EvtInterruptWorkItem</i> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>, but not both. The <b>EvtInterruptWorkItem</b> member is available in version 1.11 and later versions of KMDF.
 
-
 ### -field InterruptRaw
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">raw resources</a> that the system assigned to the interrupt. This member is only used if the interrupt is created in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback. The <b>InterruptRaw</b> member is available in version 1.11 and later versions of KMDF.
-
 
 ### -field InterruptTranslated
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">translated resources</a> that the system assigned to the interrupt. This member is only used if the interrupt is created in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback. The <b>InterruptTranslated</b> member is available in version 1.11 and later versions of KMDF.
 
-
 ### -field WaitLock
 
 A handle to a framework wait-lock object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>, or <b>NULL</b>. If <b>WaitLock</b> is non-<b>NULL</b>, <b>PassiveHandling</b> must be set to <b>TRUE</b>.  The <b>WaitLock</b> member is available in version 1.11 and later versions of KMDF.  For more information about <b>WaitLock</b>, see  <b>Remarks</b>.
-
 
 ### -field PassiveHandling
 
 Set to <b>FALSE</b> for interrupt handling at the device's IRQL (DIRQL).
 Set to <b>TRUE</b> for passive-level interrupt handling.
 The <b>PassiveHandling</b> member is available in version 1.11 and later versions of KMDF. Starting in UMDF version 2.0, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdf_interrupt_config_init">WDF_INTERRUPT_CONFIG_INIT</a> always sets this member to TRUE.
-
 
 ### -field ReportInactiveOnPowerDown
 
@@ -155,17 +139,13 @@ The <b>ReportInactiveOnPowerDown</b> member is available in version 1.11 and lat
 
 For more information about reporting an interrupt inactive, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-an-isr-active-or-inactive">Making an ISR Active or Inactive</a>.
 
-
 ### -field CanWakeDevice
 
 A Boolean value that indicates whether the interrupt is used to wake the device from a low-power state.
 If <b>FALSE</b>, the interrupt is not used to wake the device. If <b>TRUE</b>, the interrupt is used to wake the device.
 The <b>CanWakeDevice</b> member is available starting in KMDF version 1.13 and UMDF version 2.0.
 
-
 ## -remarks
-
-
 
 The <b>WDF_INTERRUPT_CONFIG</b> structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>. 
 
@@ -208,13 +188,7 @@ The driver can use this structure's <b>CanWakeDevice</b> member to create an int
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-an-interrupt-to-wake-a-device">Using an Interrupt to Wake a Device</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a>
 
@@ -257,7 +231,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfspinlockcreate">WdfSpinLockCreate</a>
- 
-
- 
 

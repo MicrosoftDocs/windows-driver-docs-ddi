@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAcquireTargetModeSet"
+ - DXGKDDI_VIDPN_ACQUIRETARGETMODESET
+ - d3dkmddi/DXGKDDI_VIDPN_ACQUIRETARGETMODESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPN_ACQUIRETARGETMODESET callback function
+
 
 ## -description
 

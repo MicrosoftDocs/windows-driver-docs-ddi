@@ -8,8 +8,6 @@ ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
 ms.date: 05/10/2018
 keywords: ["PFN_REGISTER_DATARATE_NOTIFICATIONS callback function"]
 ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS callback, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
-f1_keywords:
- - "netdispumdddi/RegisterForDataRateNotifications"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Netdispumdddi.h
-api_name:
-- RegisterForDataRateNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_REGISTER_DATARATE_NOTIFICATIONS
+ - netdispumdddi/PFN_REGISTER_DATARATE_NOTIFICATIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Netdispumdddi.h
+api_name:
+ - RegisterForDataRateNotifications
 ---
 
 # PFN_REGISTER_DATARATE_NOTIFICATIONS callback function
@@ -47,27 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Called by the user-mode driver to register with the operating system to receive network quality of service (QoS) notifications and the current  network bandwidth of the Miracast connection.The data type of this function is <b>PFN_REGISTER_DATARATE_NOTIFICATIONS</b>.
 
 ## -parameters
 
-### -param hMiracastDeviceHandle [in]
+### -param hMiracastDeviceHandle 
 
+[in]
 A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
+### -param pNotificationContext 
 
-### -param pNotificationContext [in, optional]
-
+[in, optional]
 The context that will be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_datarate_notification">pfnDataRateNotify</a> function when the Miracast data rate changes.
 
+### -param pfnDataRateNotify 
 
-### -param pfnDataRateNotify [in, optional]
-
+[in, optional]
 A pointer to the driver routine that will be called when the bit rate of the Miracast network link has changed. See Remarks for more info.
 
 The driver can supply a <b>NULL</b> value to unregister for notifications.
-
 
 ## -returns
 
@@ -78,7 +76,8 @@ Otherwise, these error codes can be returned:
 | **Return code** | **Description** | 
 |:--|:--|
 | **STATUS_INVALID_PARAMETER** | One or more parameters are invalid. | 
-| **STATUS_NOT_SUPPORTED** | The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called [StartMiracastSession](https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_start_miracast_session)  or [StopMiracastSession](https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session)  functions. | 
+| **STATUS_NOT_SUPPORTED** | The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called [StartMiracastSession](https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_start_miracast_session)  or [StopMiracastSession](https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session)  functions. |
+
 ## -remarks
 
 The user-mode driver can optionally call this function to register for automatic calls to data rate notification callback functions once a second.
@@ -90,13 +89,7 @@ Also, if the operating system can no longer provide QoS data, it sets the <i>pDa
 
 The function fails if the driver attempts to register while it is already registered, or if it attempts to unregister if it has already unregistered. The function fails if the call is made outside of the calling thread in which the operating system called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_start_miracast_session">StartMiracastSession</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a>
 
@@ -111,7 +104,4 @@ The function fails if the driver attempts to register while it is already regist
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_datarate_notification">pfnDataRateNotify</a>
- 
-
- 
 

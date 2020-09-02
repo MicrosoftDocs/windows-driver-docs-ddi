@@ -8,8 +8,6 @@ ms.assetid: 40abbdf8-3712-4724-8aef-16c247780c86
 ms.date: 04/30/2018
 keywords: ["IoAllocateIrp function"]
 ms.keywords: IoAllocateIrp, IoAllocateIrp routine [Kernel-Mode Driver Architecture], k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, kernel.ioallocateirp, wdm/IoAllocateIrp
-f1_keywords:
- - "wdm/IoAllocateIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoAllocateIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoAllocateIrp
+ - wdm/IoAllocateIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoAllocateIrp
 ---
 
 # IoAllocateIrp function
+
 
 ## -description
 
@@ -50,12 +50,14 @@ The **IoAllocateIrp** routine allocates an IRP, given the number of I/O stack lo
 
 ## -parameters
 
-### -param StackSize [in]
+### -param StackSize 
 
+[in]
 Specifies the number of I/O stack locations to be allocated for the IRP. This value must be at least equal to the **StackSize** of the next-lower driver's device object, but can be one greater than this value. The calling driver need not allocate a stack location in the IRP for itself.
 
-### -param ChargeQuota [in]
+### -param ChargeQuota 
 
+[in]
 Setting this to **TRUE** causes the memory allocated for the IRP to be charged against the quota for the current process. Should be set to **FALSE** by intermediate drivers. This can be set to **TRUE** only by highest-level drivers that are called in the context of the thread that originates the I/O request for which the driver is allocating another IRP.
 
 ## -returns
@@ -93,3 +95,4 @@ An intermediate or highest-level driver also can call [**IoBuildDeviceIoControlR
 [**IoReuseIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreuseirp)
 
 [**IoSetCompletionRoutine**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+

@@ -8,8 +8,6 @@ ms.assetid: FF89A868-1289-4D1D-BFA8-17E65ED7F8C4
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_SET_PAYLOAD IOCTL"]
 ms.keywords: IOCTL_NFP_SET_PAYLOAD, IOCTL_NFP_SET_PAYLOAD control, IOCTL_NFP_SET_PAYLOAD control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_SET_PAYLOAD, nfpdrivers.ioctl_nfp_set_payload
-f1_keywords:
- - "nfpdev/IOCTL_NFP_SET_PAYLOAD"
 req.header: nfpdev.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfpdev.h
-api_name:
-- IOCTL_NFP_SET_PAYLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFP_SET_PAYLOAD
+ - nfpdev/IOCTL_NFP_SET_PAYLOAD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfpdev.h
+api_name:
+ - IOCTL_NFP_SET_PAYLOAD
 ---
 
 # IOCTL_NFP_SET_PAYLOAD IOCTL
@@ -47,64 +46,27 @@ req.typenames:
 
 ## -description
 
-
 A client application sends message data and confirms publication with the <b>IOCTL_NFP_SET_PAYLOAD</b> request.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The input buffer contains the message data to transmit.
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -112,12 +74,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 The following actions are required when using this IOCTL:<ul>
 <li>
@@ -150,21 +107,11 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
- 
-
- 
 

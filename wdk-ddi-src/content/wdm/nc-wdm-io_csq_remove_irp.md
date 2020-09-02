@@ -8,8 +8,6 @@ ms.assetid: 9d99a20b-3a95-4e27-96bd-41f38a631573
 ms.date: 04/30/2018
 keywords: ["IO_CSQ_REMOVE_IRP callback function"]
 ms.keywords: CsqRemoveIrp, CsqRemoveIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_6d9086c3-65b8-4e0e-b5e9-0c4edbf513b1.xml, IO_CSQ_REMOVE_IRP, kernel.csqremoveirp, wdm/CsqRemoveIrp
-f1_keywords:
- - "wdm/CsqRemoveIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- CsqRemoveIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IO_CSQ_REMOVE_IRP
+ - wdm/IO_CSQ_REMOVE_IRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - CsqRemoveIrp
 ---
 
 # IO_CSQ_REMOVE_IRP callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>CsqRemoveIrp</i> routine is used by the system to remove the specified IRP from a driver-implemented, cancel-safe IRP queue.
-
 
 ## -parameters
 
+### -param Csq 
 
-
-
-### -param Csq [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
+### -param Irp 
 
-### -param Irp [in]
-
-Pointer to the IRP to remove from the IRP queue. 
-
+[in]
+Pointer to the IRP to remove from the IRP queue.
 
 ## -remarks
-
-
 
 The driver specifies the <i>CsqRemoveIrp</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqRemoveIrp</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/cancel-safe-irp-queues">Cancel-Safe IRP Queues</a>.
 
@@ -115,12 +107,7 @@ The IO_CSQ_REMOVE_IRP function type is defined in the Wdm.h header file. To more
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a>
 
@@ -171,7 +158,4 @@ The IO_CSQ_REMOVE_IRP function type is defined in the Wdm.h header file. To more
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
- 
-
- 
 

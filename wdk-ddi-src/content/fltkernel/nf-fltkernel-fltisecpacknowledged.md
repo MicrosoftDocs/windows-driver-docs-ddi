@@ -8,8 +8,6 @@ ms.assetid: ae4f4dfd-2a1d-4116-b56c-f7250697cf9e
 ms.date: 04/16/2018
 keywords: ["FltIsEcpAcknowledged function"]
 ms.keywords: FltApiRef_e_to_o_a5a70461-2108-4e8f-a01b-0fec773f6010.xml, FltIsEcpAcknowledged, FltIsEcpAcknowledged routine [Installable File System Drivers], fltkernel/FltIsEcpAcknowledged, ifsk.fltisecpacknowledged
-f1_keywords:
- - "fltkernel/FltIsEcpAcknowledged"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltMgr.sys
-api_name:
-- FltIsEcpAcknowledged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltIsEcpAcknowledged
+ - fltkernel/FltIsEcpAcknowledged
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltMgr.sys
+api_name:
+ - FltIsEcpAcknowledged
 ---
 
 # FltIsEcpAcknowledged function
@@ -47,47 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltIsEcpAcknowledged</b> routine is used to determine if a given extra create parameter context structure (ECP) has been marked as acknowledged.
-
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
+### -param EcpContext 
 
-### -param EcpContext [in]
-
+[in]
 Pointer to the ECP to test for acknowledgment.
-
 
 ## -returns
 
-
-
 The routine returns <b>TRUE</b> if the ECP was marked as acknowledged and <b>FALSE</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
 To mark an ECP as acknowledged, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacknowledgeecp">FltAcknowledgeEcp</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -114,7 +95,4 @@ To mark an ECP as acknowledged, use the <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
- 
-
- 
 

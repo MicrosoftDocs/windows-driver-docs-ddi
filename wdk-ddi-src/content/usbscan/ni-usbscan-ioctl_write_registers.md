@@ -8,8 +8,6 @@ ms.assetid: c7175b39-9db2-4903-bb50-bb0c97fda471
 ms.date: 05/03/2018
 keywords: ["IOCTL_WRITE_REGISTERS IOCTL"]
 ms.keywords: IOCTL_WRITE_REGISTERS, IOCTL_WRITE_REGISTERS control, IOCTL_WRITE_REGISTERS control code [Imaging Devices], image.ioctl_write_registers, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml, usbscan/IOCTL_WRITE_REGISTERS
-f1_keywords:
- - "usbscan/IOCTL_WRITE_REGISTERS"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbscan.h
-api_name:
-- IOCTL_WRITE_REGISTERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_WRITE_REGISTERS
+ - usbscan/IOCTL_WRITE_REGISTERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbscan.h
+api_name:
+ - IOCTL_WRITE_REGISTERS
 ---
 
 # IOCTL_WRITE_REGISTERS IOCTL
+
 
 ## -description
 
@@ -72,7 +72,7 @@ Zero
 
 ### -status-block
 
-**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values) code.
 
 ## -remarks
 
@@ -132,3 +132,4 @@ if( bRet == TRUE )
 
 CloseHandle(overlapped.hEvent);
 ```
+

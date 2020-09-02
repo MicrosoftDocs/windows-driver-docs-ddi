@@ -6,10 +6,8 @@ old-location: netvista\wsk_inspect_id.htm
 tech.root: netvista
 ms.assetid: 54578dc5-a88f-4649-adbd-6a5e1e31e7b3
 ms.date: 05/02/2018
-keywords: ["_WSK_INSPECT_ID structure"]
+keywords: ["WSK_INSPECT_ID structure"]
 ms.keywords: "*PWSK_INSPECT_ID, PWSK_INSPECT_ID, PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], _WSK_INSPECT_ID, netvista.wsk_inspect_id, wsk/PWSK_INSPECT_ID, wsk/WSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml"
-f1_keywords:
- - "wsk/WSK_INSPECT_ID"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wsk.h
-api_name:
-- WSK_INSPECT_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_INSPECT_ID, *PWSK_INSPECT_ID
+f1_keywords:
+ - _WSK_INSPECT_ID
+ - wsk/_WSK_INSPECT_ID
+ - PWSK_INSPECT_ID
+ - wsk/PWSK_INSPECT_ID
+ - WSK_INSPECT_ID
+ - wsk/WSK_INSPECT_ID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wsk.h
+api_name:
+ - WSK_INSPECT_ID
 ---
 
 # _WSK_INSPECT_ID structure
@@ -47,29 +50,20 @@ req.typenames: WSK_INSPECT_ID, *PWSK_INSPECT_ID
 
 ## -description
 
-
 The WSK_INSPECT_ID structure specifies an identifier for an incoming connection request on a
   listening socket.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Key
 
 A key that is assigned to the incoming connection request.
 
-
 ### -field SerialNumber
 
 A serial number that is assigned to the incoming connection request.
 
-
 ## -remarks
-
-
 
 The WSK subsystem passes a pointer to a WSK_INSPECT_ID structure to a WSK application's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a> event callback function
@@ -100,13 +94,7 @@ A WSK application can enable conditional accept mode on a listening socket by en
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
     Accepting Incoming Connections</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-conditional-accept">SO_CONDITIONAL_ACCEPT</a>
 
@@ -121,7 +109,4 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
- 
-
- 
 

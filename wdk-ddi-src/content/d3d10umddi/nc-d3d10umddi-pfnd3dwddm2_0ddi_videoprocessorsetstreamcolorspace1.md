@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamColorSpace1"
+ - PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1 callback function
+
 
 ## -description
 

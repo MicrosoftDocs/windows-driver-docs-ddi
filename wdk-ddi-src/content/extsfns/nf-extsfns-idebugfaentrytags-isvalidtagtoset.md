@@ -8,8 +8,6 @@ ms.assetid: 83B5C54F-182B-4D2F-8ED2-7A0B529F1D2E
 ms.date: 05/03/2018
 keywords: ["IDebugFAEntryTags::IsValidTagToSet"]
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],IsValidTagToSet method, IDebugFAEntryTags.IsValidTagToSet, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
-f1_keywords:
- - "extsfns/IDebugFAEntryTags.IsValidTagToSet"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- extsfns.h
-api_name:
-- IDebugFAEntryTags.IsValidTagToSet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugFAEntryTags::IsValidTagToSet
+ - extsfns/IDebugFAEntryTags::IsValidTagToSet
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - extsfns.h
+api_name:
+ - IDebugFAEntryTags.IsValidTagToSet
 ---
 
 # IDebugFAEntryTags::IsValidTagToSet
@@ -47,33 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>IsValidTagToSet</b> method determines whether it is OK to set the data of a specified tag.
 
-
 ## -parameters
-
-
-
 
 ### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-
 ## -returns
-
-
 
 This method returns TRUE if it is OK to set the data of the specified tag. Otherwise it returns FALSE.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a>
 
@@ -88,7 +73,4 @@ This method returns TRUE if it is OK to set the data of the specified tag. Other
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
- 
-
- 
 

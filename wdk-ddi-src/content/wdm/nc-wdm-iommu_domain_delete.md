@@ -5,43 +5,53 @@ description: Deletes an existing domain.
 ms.assetid: 9fa16237-16ff-4318-84dd-53a57f1a636f
 ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_DELETE callback function"]
-f1_keywords:
- - "wdm/IOMMU_DOMAIN_DELETE"
 req.header: wdm.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- wdm.h
-api_name: 
-- IOMMU_DOMAIN_DELETE
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - IOMMU_DOMAIN_DELETE
+ - wdm/IOMMU_DOMAIN_DELETE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - wdm.h
+api_name:
+ - IOMMU_DOMAIN_DELETE
 ---
 
 # IOMMU_DOMAIN_DELETE callback function
 
+
 ## -description
 
-Deletes an existing domain. The domain must contain no devices in order to be successfully deleted. 
+Deletes an existing domain. The domain must contain no devices in order to be successfully deleted.
+
+## -parameters
+
+### -param Domain
+
+[_In_] A pointer to the handle to the domain to be deleted.
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -63,18 +73,7 @@ IOMMU_DOMAIN_DELETE *PIOMMU_DOMAIN_DELETE
 
 ```
 
-## -parameters
-
-### -param Domain
-[_In_] A pointer to the handle to the domain to be deleted.
-
-
-## -returns
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 ## -remarks
 
-
-
 ## -see-also
+

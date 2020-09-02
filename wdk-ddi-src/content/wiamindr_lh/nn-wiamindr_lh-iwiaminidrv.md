@@ -8,8 +8,6 @@ ms.assetid: 15068d10-5e24-427c-9684-24ce67b75ada
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv interface"]
 ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], IWiaMiniDrv interface [Imaging Devices],described, MiniDrv_8a22bfee-13f8-4efc-b31d-8dd9fabfe131.xml, image.iwiaminidrv_interface, wiamindr_lh/IWiaMiniDrv
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv
+ - wiamindr_lh/IWiaMiniDrv
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv
 ---
 
 # IWiaMiniDrv interface
+
 
 ## -description
 

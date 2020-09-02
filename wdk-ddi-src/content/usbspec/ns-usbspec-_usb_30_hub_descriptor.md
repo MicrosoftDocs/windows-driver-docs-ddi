@@ -6,10 +6,8 @@ old-location: buses\usb_30_hub_descriptor.htm
 tech.root: usbref
 ms.assetid: 5B910D0B-0D1D-45D8-B418-13DC00B3398A
 ms.date: 05/07/2018
-keywords: ["_USB_30_HUB_DESCRIPTOR structure"]
+keywords: ["USB_30_HUB_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], USB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR structure [Buses], _USB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, usbspec/PUSB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR"
-f1_keywords:
- - "usbspec/USB_30_HUB_DESCRIPTOR"
 req.header: usbspec.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbspec.h
-api_name:
-- USB_30_HUB_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR
+f1_keywords:
+ - _USB_30_HUB_DESCRIPTOR
+ - usbspec/_USB_30_HUB_DESCRIPTOR
+ - PUSB_30_HUB_DESCRIPTOR
+ - usbspec/PUSB_30_HUB_DESCRIPTOR
+ - USB_30_HUB_DESCRIPTOR
+ - usbspec/USB_30_HUB_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbspec.h
+api_name:
+ - USB_30_HUB_DESCRIPTOR
 ---
 
 # _USB_30_HUB_DESCRIPTOR structure
@@ -47,73 +50,51 @@ req.typenames: USB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR
 
 ## -description
 
-
 The <b>USB_30_HUB_DESCRIPTOR</b> structure contains  a SuperSpeed hub descriptor. For information about the structure  members, see <a href="https://www.usb.org/documents">Universal Serial Bus Revision 3.0 Specification</a>, 10.13.2.1 Hub Descriptor, Table 10-3. SuperSpeed Hub Descriptor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field bLength
 
 The length, in bytes, of the descriptor.
 
-
 ### -field bDescriptorType
 
     The descriptor type. For SuperSpeed hub descriptors, the value must be USB_30_HUB_DESCRIPTOR_TYPE (0x2A).
-
-
-
 
 ### -field bNumberOfPorts
 
     The number of ports on the hub.
 
-
 ### -field wHubCharacteristics
 
-    The hub characteristics. 
-
+    The hub characteristics.
 
 ### -field bPowerOnToPowerGood
 
     The time, in 2-millisecond intervals, that it takes the device to turn on completely.
 
-
 ### -field bHubControlCurrent
 
 The maximum current requirements, in milliamperes, of the controller component of the hub.
-
 
 ### -field bHubHdrDecLat
 
 The    hub packet header decode latency.
 
-
 ### -field wHubDelay
 
     The average delay, in nanoseconds, that is introduced by the hub.
-
 
 ### -field DeviceRemovable
 
     Indicates whether a removable device is attached to each port.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information_ex">USB_HUB_INFORMATION_EX</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 471B6165-24A0-45E1-AD7F-B7D3468DF573
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_REGISTER_ULONG64 function"]
 ms.keywords: WDF_WRITE_REGISTER_ULONG64, WDF_WRITE_REGISTER_ULONG64 function, wdf.wdf_write_register_ulong64, wdfhwaccess/WDF_WRITE_REGISTER_ULONG64
-f1_keywords:
- - "wdfhwaccess/WDF_WRITE_REGISTER_ULONG64"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_WRITE_REGISTER_ULONG64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WRITE_REGISTER_ULONG64
+ - wdfhwaccess/WDF_WRITE_REGISTER_ULONG64
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_WRITE_REGISTER_ULONG64
 ---
 
 # WDF_WRITE_REGISTER_ULONG64 function
@@ -47,29 +46,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_REGISTER_ULONG64</b> function writes a ULONG64 value to the specified address.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Register 
 
-### -param Register [in]
-
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 Specifies a ULONG64 value to write to the register.
-
 

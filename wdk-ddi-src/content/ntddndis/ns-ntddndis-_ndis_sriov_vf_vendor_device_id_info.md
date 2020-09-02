@@ -6,10 +6,8 @@ old-location: netvista\ndis_sriov_vf_vendor_device_id_info.htm
 tech.root: netvista
 ms.assetid: ecf9f34a-ba05-4ad1-990c-b13d53fd78bb
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure"]
+keywords: ["NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, netvista.ndis_sriov_vf_vendor_device_id_info, ntddndis/NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, ntddndis/PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO"
-f1_keywords:
- - "ntddndis/NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, *PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+f1_keywords:
+ - _NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+ - ntddndis/_NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+ - PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+ - ntddndis/PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+ - NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+ - ntddndis/NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
 ---
 
 # _NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure
@@ -47,19 +50,11 @@ req.typenames: NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, *PNDIS_SRIOV_VF_VENDOR_DEVIC
 
 ## -description
 
-
-
 The <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure specifies the PCI Express (PCIe) vendor and device identifiers (IDs) for a PCIe Virtual Function (VF) network adapter. This virtual adapter is exposed within the guest operating system that runs in a Hyper-V child partition. 
 
 The <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure contains information that is used for PnP device enumeration in the guest operating system.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -77,7 +72,6 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_VF_VENDOR_DEVICE_ID_INFO_REVISION_1.
 
-
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF network adapter.
@@ -91,25 +85,15 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF n
 
 A USHORT value that uniquely identifies the vendor of the VF network adapter.
 
-
 ### -field DeviceId
 
 A USHORT value that uniquely identifies the device type of the VF network adapter.
 
-
 ## -remarks
 
-
-
- The <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure is used in the OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>. 
-
-
-
+ The <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure is used in the OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>.
 
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -124,7 +108,4 @@ A USHORT value that uniquely identifies the device type of the VF network adapte
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>
- 
-
- 
 

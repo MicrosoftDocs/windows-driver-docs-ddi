@@ -8,8 +8,6 @@ ms.assetid: 78ff21da-be0f-4b57-9162-1052a6c12b5c
 ms.date: 04/16/2018
 keywords: ["RtlCompareMemoryUlong function"]
 ms.keywords: RtlCompareMemoryUlong, RtlCompareMemoryUlong routine [Installable File System Drivers], ifsk.rtlcomparememoryulong, ntifs/RtlCompareMemoryUlong, rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml
-f1_keywords:
- - "ntifs/RtlCompareMemoryUlong"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlCompareMemoryUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCompareMemoryUlong
+ - ntifs/RtlCompareMemoryUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlCompareMemoryUlong
 ---
 
 # RtlCompareMemoryUlong function
@@ -48,57 +47,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlCompareMemoryUlong</b> routine returns how many bytes in a block of memory match a specified pattern. 
-
+The <b>RtlCompareMemoryUlong</b> routine returns how many bytes in a block of memory match a specified pattern.
 
 ## -parameters
 
+### -param Source 
 
+[in]
+Pointer to a block of memory. Must be aligned on a ULONG boundary.
 
+### -param Length 
 
-### -param Source [in]
+[in]
+Number of bytes over which the comparison should be done. Must be a multiple of <b>sizeof(</b>ULONG<b>)</b>.
 
-Pointer to a block of memory. Must be aligned on a ULONG boundary. 
+### -param Pattern 
 
-
-### -param Length [in]
-
-Number of bytes over which the comparison should be done. Must be a multiple of <b>sizeof(</b>ULONG<b>)</b>. 
-
-
-### -param Pattern [in]
-
-Pattern to be compared byte by byte, repeatedly, through the specified memory range. 
-
+[in]
+Pattern to be compared byte by byte, repeatedly, through the specified memory range.
 
 ## -returns
 
-
-
-<b>RtlCompareMemoryUlong</b> returns the number of bytes that were compared and found to be equal. If all bytes compare as equal, the input <i>Length</i> is returned. <b>RtlCompareMemoryUlong</b> returns zero if <i>Source</i> is not ULONG-aligned or if <i>Length</i> is not a multiple of <b>sizeof(</b>ULONG<b>)</b>. 
-
-
-
+<b>RtlCompareMemoryUlong</b> returns the number of bytes that were compared and found to be equal. If all bytes compare as equal, the input <i>Length</i> is returned. <b>RtlCompareMemoryUlong</b> returns zero if <i>Source</i> is not ULONG-aligned or if <i>Length</i> is not a multiple of <b>sizeof(</b>ULONG<b>)</b>.
 
 ## -remarks
 
-
-
 If the block of memory at <i>Source</i> is nonpaged, the caller can be running at any IRQL. Otherwise, callers of <b>RtlCompareMemoryUlong</b> must be running at IRQL < DISPATCH_LEVEL. 
 
-For more information about managing buffered data and initializing driver-allocated buffers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Buffered Data and Buffer Initialization</a>. 
-
-
-
+For more information about managing buffered data and initializing driver-allocated buffers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Buffered Data and Buffer Initialization</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcomparememory">RtlCompareMemory</a>
- 
-
- 
 

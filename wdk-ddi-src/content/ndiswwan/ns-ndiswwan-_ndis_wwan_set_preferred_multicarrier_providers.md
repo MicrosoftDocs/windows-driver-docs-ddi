@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_set_preferred_multicarrier_providers.htm
 tech.root: netvista
 ms.assetid: D57068D9-D671-4E56-ABD0-CD91BD91404D
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS structure"]
+keywords: ["NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS structure"]
 ms.keywords: "*PNDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, PNDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/PNDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, netvista.ndis_wwan_set_preferred_multicarrier_providers"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, *PNDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+f1_keywords:
+ - _NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+ - ndiswwan/_NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+ - PNDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+ - ndiswwan/PNDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+ - NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+ - ndiswwan/NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
 ---
 
 # _NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS, *PNDIS_WWAN_SET_P
 
 ## -description
 
-
 The NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS structure represents a list of preferred multicarrier providers associated with the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,21 +104,13 @@ sizeof(NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field PreferredListHeader
 
 A formatted 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a> object that represents a
      list of preferred multicarrier providers to associate with the MB device.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
- 
-
- 
 

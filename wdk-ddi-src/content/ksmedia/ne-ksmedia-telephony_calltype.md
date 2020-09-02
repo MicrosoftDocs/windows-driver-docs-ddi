@@ -8,8 +8,6 @@ ms.assetid: 8CF2CAF2-29F2-4B8B-B23F-B423392B2DAF
 ms.date: 05/08/2018
 keywords: ["TELEPHONY_CALLTYPE enumeration"]
 ms.keywords: TELEPHONY_CALLTYPE, TELEPHONY_CALLTYPE enumeration [Audio Devices], TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, audio.telephony_calltype, ksmedia/TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN
-f1_keywords:
- - "ksmedia/TELEPHONY_CALLTYPE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- TELEPHONY_CALLTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: TELEPHONY_CALLTYPE
+f1_keywords:
+ - TELEPHONY_CALLTYPE
+ - ksmedia/TELEPHONY_CALLTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - TELEPHONY_CALLTYPE
 ---
 
 # TELEPHONY_CALLTYPE enumeration
@@ -47,34 +46,23 @@ req.typenames: TELEPHONY_CALLTYPE
 
 ## -description
 
-
 The <b>TELEPHONY_CALLTYPE</b> enumeration defines constants that specify the type of phone call.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TELEPHONY_CALLTYPE_CIRCUITSWITCHED
 
 Specifies a circuit-switched phone call.
 
-
 ### -field TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE
 
 Specifies a packet-switched Long-Term Evolution (LTE) phone call.
-
 
 ### -field TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN
 
 Specifies a packet-switched wireless LAN (WLAN) phone call.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callcontrol">KSTELEPHONY_CALLCONTROL</a>
 
@@ -85,7 +73,4 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_providerchange">KSTELEPHONY_PROVIDERCHANGE</a>
- 
-
- 
 

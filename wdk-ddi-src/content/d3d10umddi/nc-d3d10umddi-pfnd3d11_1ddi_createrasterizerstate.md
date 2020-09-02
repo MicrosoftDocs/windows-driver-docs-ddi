@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateRasterizerState(D3D11_1)"
+ - PFND3D11_1DDI_CREATERASTERIZERSTATE
+ - d3d10umddi/PFND3D11_1DDI_CREATERASTERIZERSTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CREATERASTERIZERSTATE callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 5d2f913e-10a3-4e96-a12f-5c4ea1dc061f
 ms.date: 05/02/2018
 keywords: ["RILCALLMEDIAOFFERANSWERSET structure"]
 ms.keywords: "*LPRILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswerset, ntddrilapitypes/RILCALLMEDIAOFFERANSWERSET"
-f1_keywords:
- - "rilapitypes/RILCALLMEDIAOFFERANSWERSET"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLMEDIAOFFERANSWERSET
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERSET, *LPRILCALLMEDIAOFFERANSWERSET
+f1_keywords:
+ - RILCALLMEDIAOFFERANSWERSET
+ - rilapitypes/RILCALLMEDIAOFFERANSWERSET
+ - LPRILCALLMEDIAOFFERANSWERSET
+ - rilapitypes/LPRILCALLMEDIAOFFERANSWERSET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLMEDIAOFFERANSWERSET
 ---
 
 # RILCALLMEDIAOFFERANSWERSET structure
@@ -47,23 +48,15 @@ req.typenames: RILCALLMEDIAOFFERANSWERSET, *LPRILCALLMEDIAOFFERANSWERSET
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwType
 
-
 ### -field dwNumberOfItems
-
 
 ### -field stOfferAnswer
 

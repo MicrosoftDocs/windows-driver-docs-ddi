@@ -8,8 +8,6 @@ ms.assetid: ac8dd796-bc14-4b63-a0cb-5200cc1f0ce2
 ms.date: 04/23/2018
 keywords: ["PFNKSDEFAULTFREE callback function"]
 ms.keywords: AVStrMiniAllocatorFreeFrame, AVStrMiniAllocatorFreeFrame routine [Streaming Media Devices], PFNKSDEFAULTFREE, avstclbk_c8c89d05-d36c-4a86-b92f-5465c1bc3eb2.xml, ks/AVStrMiniAllocatorFreeFrame, stream.avstrminiallocatorfreeframe
-f1_keywords:
- - "ks/AVStrMiniAllocatorFreeFrame"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniAllocatorFreeFrame
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSDEFAULTFREE
+ - ks/PFNKSDEFAULTFREE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniAllocatorFreeFrame
 ---
 
 # PFNKSDEFAULTFREE callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 An AVStream minidriver's <i>AVStrMiniAllocatorFreeFrame</i> routine frees the specified frame.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 Pointer to the allocator's context structure created in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspininitializeallocator">AVStrMiniInitializeAllocator</a>.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Pointer to the frame to be freed.
 
-
 ## -remarks
-
-
 
 The minidriver specifies this routine's address in the <b>Free</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksallocator_dispatch">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>.
 
@@ -76,20 +68,11 @@ AVStream calls <i>AVStrMiniFree</i> to free a frame, passing as parameters the c
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-allocators">KS Allocators</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspininitializeallocator">AVStrMiniInitializeAllocator</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksallocator_dispatch">KSALLOCATOR_DISPATCH</a>
- 
-
- 
 

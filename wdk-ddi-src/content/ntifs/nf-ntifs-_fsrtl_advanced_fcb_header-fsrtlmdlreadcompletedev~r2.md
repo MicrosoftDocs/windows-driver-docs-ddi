@@ -10,6 +10,7 @@ keywords: ["FsRtlMdlReadCompleteDev function"]
 ms.keywords: FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete
 f1_keywords:
  - "ntifs/FsRtlMdlReadCompleteDev"
+ - "FsRtlMdlReadCompleteDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlMdlReadCompleteDev
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,13 +55,13 @@ The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that th
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object.
 
 
-### -param MdlChain [in]
-
+### -param MdlChain 
+[in]
 On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
 
 

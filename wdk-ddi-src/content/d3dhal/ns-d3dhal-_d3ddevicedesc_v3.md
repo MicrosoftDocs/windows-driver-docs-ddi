@@ -6,10 +6,8 @@ old-location: display\d3ddevicedesc_v3.htm
 tech.root: display
 ms.assetid: 36a7b29a-f744-42c8-9e60-9b5dbba3a32f
 ms.date: 05/10/2018
-keywords: ["_D3DDeviceDesc_V3 structure"]
+keywords: ["D3DDeviceDesc_V3 structure"]
 ms.keywords: "*LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3, D3DDEVICEDESC_V3 structure [Display Devices], _D3DDeviceDesc_V3, d3dhal/, d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, display.d3ddevicedesc_v3"
-f1_keywords:
- - "d3dhal/D3DDEVICEDESC_V3"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DDEVICEDESC_V3
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDEVICEDESC_V3, *LPD3DDEVICEDESC_V3
+f1_keywords:
+ - _D3DDeviceDesc_V3
+ - d3dhal/_D3DDeviceDesc_V3
+ - LPD3DDEVICEDESC_V3
+ - d3dhal/LPD3DDEVICEDESC_V3
+ - D3DDEVICEDESC_V3
+ - d3dhal/D3DDEVICEDESC_V3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DDEVICEDESC_V3
 ---
 
 # _D3DDeviceDesc_V3 structure
 
 
 ## -description
-
 
 <b>The D3DDEVICEDESC_V3 structure is obsolete; only D3DDEVICEDESC_V1 should be used.</b>
 
@@ -90,8 +92,6 @@ The D3DDEVICEDESC_V3 structure contains fields that are already reported in the 
     WORD              wMaxSimultaneousTextures;
 } D3DDEVICEDESC_V3, *LPD3DDEVICEDESC_V3;
 </code></pre>
-
-
 
 ## -struct-fields
 

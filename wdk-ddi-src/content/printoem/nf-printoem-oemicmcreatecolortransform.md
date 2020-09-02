@@ -8,8 +8,6 @@ ms.assetid: 995fdac4-e958-4eed-ba3a-7be0349dec59
 ms.date: 04/20/2018
 keywords: ["OEMIcmCreateColorTransform function"]
 ms.keywords: OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices], print.oemicmcreatecolortransform, print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, printoem/OEMIcmCreateColorTransform
-f1_keywords:
- - "printoem/OEMIcmCreateColorTransform"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMIcmCreateColorTransform
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMIcmCreateColorTransform
+ - printoem/OEMIcmCreateColorTransform
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMIcmCreateColorTransform
 ---
 
 # OEMIcmCreateColorTransform function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <code>OEMIcmCreateColorTransform</code> function creates an ICM color transform.
-
 
 ## -parameters
 
-
-
-
 ### -param dhpdev
-
 
 ### -param pLogColorSpace
 
+### -param pvSourceProfile 
 
-### -param pvSourceProfile [in, optional]
-
+[in, optional]
 
 ### -param cjSourceProfile
 
+### -param pvDestProfile 
 
-### -param pvDestProfile [in]
-
+[in]
 
 ### -param cjDestProfile
 
+### -param pvTargetProfile 
 
-### -param pvTargetProfile [in, optional]
-
+[in, optional]
 
 ### -param cjTargetProfile
-
 
 ### -param dwReserved
 

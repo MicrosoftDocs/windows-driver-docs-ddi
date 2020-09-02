@@ -8,8 +8,6 @@ ms.assetid: 2272790e-324a-4bd4-86ed-b76305a2940b
 ms.date: 04/30/2018
 keywords: ["REQUEST_POWER_COMPLETE callback function"]
 ms.keywords: PowerCompletion, PowerCompletion routine [Kernel-Mode Driver Architecture], REQUEST_POWER_COMPLETE, kernel.powercompletion, wdm/PowerCompletion
-f1_keywords:
- - "wdm/PowerCompletion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL (see Remarks section).
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- PowerCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - REQUEST_POWER_COMPLETE
+ - wdm/REQUEST_POWER_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - PowerCompletion
 ---
 
 # REQUEST_POWER_COMPLETE callback function
@@ -47,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <i>PowerCompletion</i> callback routine completes the processing of a power IRP.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 A pointer to the target <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the completed power IRP.
 
+### -param MinorFunction 
 
-### -param MinorFunction [in]
-
+[in]
 Specifies the minor function code in the power IRP. For more information, see the list of supported <b>IRP_MN_<i>XXX</i></b> codes in the Remarks section.
 
+### -param PowerState 
 
-### -param PowerState [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power state</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-states">system power state</a> that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> routine.
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 A pointer to the context that was passed to <b>PoRequestPowerIrp</b>.
 
+### -param IoStatus 
 
-### -param IoStatus [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure for the completed IRP.
 
-
 ## -remarks
-
-
 
 A driver that sends a power IRP might need to perform additional tasks after all other drivers have completed the IRP. If so, the sending driver should register a <i>PowerCompletion</i> callback routine during the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> routine that allocates the IRP.
 
@@ -138,12 +130,7 @@ The REQUEST_POWER_COMPLETE function type is defined in the Wdm.h header file. To
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -174,7 +161,4 @@ The REQUEST_POWER_COMPLETE function type is defined in the Wdm.h header file. To
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a>
- 
-
- 
 

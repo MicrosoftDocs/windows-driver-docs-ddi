@@ -8,8 +8,6 @@ ms.assetid: bd98186f-5681-4611-9c27-eabfe4412df7
 ms.date: 04/04/2018
 keywords: ["IWDTFLOG2::OutputInfo"]
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],OutputInfo method, IWDTFLOG2.OutputInfo, IWDTFLOG2::OutputInfo, Microsoft.WDTF.IWDTFLOG2.OutputInfo, Microsoft::WDTF::IWDTFLOG2::OutputInfo, OutputInfo, OutputInfo method [Windows Device Testing Framework], OutputInfo method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_outputinfo, wdtf/IWDTFLOG2::OutputInfo
-f1_keywords:
- - "wdtf/IWDTFLOG2.OutputInfo"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFLOG2.OutputInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFLOG2::OutputInfo
+ - wdtf/IWDTFLOG2::OutputInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFLOG2.OutputInfo
 ---
 
 # IWDTFLOG2::OutputInfo
@@ -47,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Writes an informational entry to the test case log.
-
 
 ## -parameters
 
+### -param sInfoString 
 
-
-
-### -param sInfoString [in]
-
+[in]
 The information string.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflog2">IWDTFLOG2</a>
- 
-
- 
 

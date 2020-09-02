@@ -8,12 +8,10 @@ ms.assetid: 2c23729c-9fab-4e3c-9205-175a6aba8f8a
 ms.date: 05/03/2018
 keywords: ["wiasGetChangedValueLong function"]
 ms.keywords: image.wiasgetchangedvaluelong, wiamdef/wiasGetChangedValueLong, wiasFncs_c333720c-e0e9-4fa4-9fdc-24a6a248f58b.xml, wiasGetChangedValueLong, wiasGetChangedValueLong function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetChangedValueLong"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetChangedValueLong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetChangedValueLong
+ - wiamdef/wiasGetChangedValueLong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetChangedValueLong
 ---
 
 # wiasGetChangedValueLong function
+
 
 ## -description
 
@@ -50,12 +50,14 @@ The **wiasGetChangedValueLong** function determines whether a property with a lo
 
 ## -parameters
 
-### -param pWiasContext [in]
+### -param pWiasContext 
 
+[in]
 Pointer to a WIA item context.
 
-### -param pContext [in]
+### -param pContext 
 
+[in]
 Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains the current property context.
 
 ### -param bNoValidation
@@ -89,3 +91,4 @@ The driver should validate the property only after the driver has updated the va
 [wiasGetChangedValueGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvalueguid)
 
 [wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)
+

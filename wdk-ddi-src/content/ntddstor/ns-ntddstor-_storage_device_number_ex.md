@@ -8,8 +8,6 @@ ms.assetid: 6134d9e6-7241-4533-904b-fbedb1bcc4b5
 ms.date: 11/08/2019
 keywords: ["STORAGE_DEVICE_NUMBER_EX structure"]
 ms.keywords: "*PSTORAGE_DEVICE_NUMBER_EX, PSTORAGE_DEVICE_NUMBER_EX, PSTORAGE_DEVICE_NUMBER_EX structure pointer [Storage Devices], STORAGE_DEVICE_NUMBER_EX, STORAGE_DEVICE_NUMBER_EX structure [Storage Devices], _STORAGE_DEVICE_NUMBER_EX, ntddstor/PSTORAGE_DEVICE_NUMBER_EX, ntddstor/STORAGE_DEVICE_NUMBER_EX"
-f1_keywords:
- - "ntddstor/STORAGE_DEVICE_NUMBER_EX"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_DEVICE_NUMBER_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_NUMBER_EX, *PSTORAGE_DEVICE_NUMBER_EX
+f1_keywords:
+ - _STORAGE_DEVICE_NUMBER_EX
+ - ntddstor/_STORAGE_DEVICE_NUMBER_EX
+ - PSTORAGE_DEVICE_NUMBER_EX
+ - ntddstor/PSTORAGE_DEVICE_NUMBER_EX
+ - STORAGE_DEVICE_NUMBER_EX
+ - ntddstor/STORAGE_DEVICE_NUMBER_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_DEVICE_NUMBER_EX
 ---
 
 # STORAGE_DEVICE_NUMBER_EX structure
+
 
 ## -description
 
@@ -95,3 +99,4 @@ The values in the STORAGE_DEVICE_NUMBER_EX structure are guaranteed to remain un
 ## -see-also
 
 [IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_device_number_ex)
+

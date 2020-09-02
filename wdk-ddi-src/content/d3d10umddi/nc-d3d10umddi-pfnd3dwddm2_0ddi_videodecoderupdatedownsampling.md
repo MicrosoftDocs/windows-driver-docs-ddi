@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoDecoderUpdateDownsampling"
+ - PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING callback function
+
 
 ## -description
 
@@ -73,7 +75,7 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

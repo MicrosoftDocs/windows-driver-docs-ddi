@@ -8,8 +8,6 @@ ms.assetid: F4FD760B-551C-4738-A13D-444E08215D59
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_GET_VERSION IOCTL"]
 ms.keywords: IOCTL_BTHX_GET_VERSION, IOCTL_BTHX_GET_VERSION control, IOCTL_BTHX_GET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_get_version, bthxddi/IOCTL_BTHX_GET_VERSION
-f1_keywords:
- - "bthxddi/IOCTL_BTHX_GET_VERSION"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BthXDDI.h
-api_name:
-- IOCTL_BTHX_GET_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTHX_GET_VERSION
+ - bthxddi/IOCTL_BTHX_GET_VERSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BthXDDI.h
+api_name:
+ - IOCTL_BTHX_GET_VERSION
 ---
 
 # IOCTL_BTHX_GET_VERSION IOCTL
@@ -47,27 +46,17 @@ req.typenames:
 
 ## -description
 
-
-
 Profile drivers use IOCTL_BTHX_GET_VERSION to get the version supported by the transport driver.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
@@ -79,29 +68,13 @@ The buffer describes a <a href="https://docs.microsoft.com/windows-hardware/driv
 
 Refer to the WDK Bluetooth samples for more information.
 
-
 ### -output-buffer-length
 
 The length of the buffer is the size of the <b>BTHX_VERSION</b> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -131,14 +104,9 @@ The IOCTL completed successfully.
 
 Any unsuccessful NT status code prevents the driver from loading.
 
-
 ## -remarks
-
-
 
 IOCTL_BTHX_GET_VERSION is a synchronous operation.
 
 A transport driver can return one or more versions that it supports in BTHX_VERSION structure.  If no version is set,  Windows unloads the Bluetooth stack.
-
-
 

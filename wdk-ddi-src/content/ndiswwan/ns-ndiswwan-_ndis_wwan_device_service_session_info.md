@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_device_service_session_info.htm
 tech.root: netvista
 ms.assetid: B357E186-FE99-448A-B242-13A21A729BC9
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure"]
+keywords: ["NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SESSION_COMPLETE, NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, netvista.ndis_wwan_device_service_session_info"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_COMPLETE
+f1_keywords:
+ - _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
+ - ndiswwan/_NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
+ - PNDIS_WWAN_DEVICE_SERVICE_SESSION_COMPLETE
+ - ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_COMPLETE
+ - NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
+ - ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, *PNDIS_WWAN_DEVICE_SERVICE
 
 ## -description
 
-
 The NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure represents the status of a device service session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,24 +104,15 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uStatus
 
 The status of the device service session state operation.
-
 
 ### -field Session
 
 The session to obtain status of.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session">WWAN_DEVICE_SERVICE_SESSION</a>
- 
-
- 
 

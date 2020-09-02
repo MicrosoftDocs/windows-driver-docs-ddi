@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnRemovePath"
+ - DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH callback function
+
 
 ## -description
 

@@ -8,8 +8,6 @@ ms.assetid: 31135396-303b-4b94-8616-a4b7be207fa1
 ms.date: 05/02/2018
 keywords: ["FwpsNetBufferListAssociateContext0 function"]
 ms.keywords: FwpsNetBufferListAssociateContext0, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListAssociateContext0, netvista.fwpsnetbufferlistassociatecontext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml
-f1_keywords:
- - "fwpsk/FwpsNetBufferListAssociateContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -27,27 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsNetBufferListAssociateContext0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsNetBufferListAssociateContext0
+ - fwpsk/FwpsNetBufferListAssociateContext0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsNetBufferListAssociateContext0
 ---
 
 # FwpsNetBufferListAssociateContext0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsNetBufferListAssociateContext0</b> function associates the callout driver's context with a network buffer
@@ -56,60 +54,55 @@ The
 
 ## -parameters
 
+### -param netBufferList 
 
-
-
-### -param netBufferList [in, out]
-
+[in, out]
 A network buffer list that indicates one or more packets of interest to the callout driver.
 
+### -param layerId 
 
-### -param layerId [in]
-
+[in]
 The identifier of the layer in which the context is being associated. When calling this function
      from the NDIS receive path, set this parameter to FWPS_LAYER_NON_WFP.
 
+### -param context 
 
-### -param context [in]
-
+[in]
 Arbitrary context information set by the callout driver. The filter engine will pass this context
      to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">
      FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>.
 
+### -param contextTag 
 
-### -param contextTag [in]
-
+[in]
 A locally unique identifier obtained by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">
      FwpsNetBufferListGetTagForContext0</a> function.
-
 
 ### -param providerGuid
 
 The provider GUID.
 
-### -param deviceObject [in, out]
+### -param deviceObject 
 
+[in, out]
 A pointer to the callout driver's device object.
 
+### -param notifyFn 
 
-### -param notifyFn [in]
-
+[in]
 A pointer to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">
      FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function. The filter engine will send status notifications to this
      function.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 This parameter is reserved for future use and is set to zero.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsNetBufferListAssociateContext0</b> function returns one of the following NTSTATUS codes.
@@ -142,14 +135,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <b>FwpsNetBufferListAssociateContext0</b> function associates groups of packets with the callout driver.
@@ -158,13 +145,7 @@ The
 Before calling this function, the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">FwpsNetBufferListGetTagForContext0</a> function must be called to obtain a context tag.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext1">FwpsNetBufferListAssociateContext1</a>
 
@@ -190,7 +171,4 @@ Before calling this function, the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-packet-tagging">Using Packet Tagging</a>
- 
-
- 
 

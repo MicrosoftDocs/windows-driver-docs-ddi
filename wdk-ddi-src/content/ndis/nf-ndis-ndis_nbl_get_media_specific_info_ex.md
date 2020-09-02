@@ -6,38 +6,36 @@ tech.root: netvista
 ms.assetid: fb67b64f-e91a-4e9d-8576-6ad7db979fbc
 ms.date: 04/13/2018
 keywords: ["NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro"]
-f1_keywords:
- - "ndis/NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX"
 ms.keywords: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
-product:
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
+ - ndis/NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
 ---
 
 # NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro
@@ -74,3 +72,4 @@ Any NDIS 6.20 driver can use **NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX** to get medi
 [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_media_specific_information_ex.md)
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+

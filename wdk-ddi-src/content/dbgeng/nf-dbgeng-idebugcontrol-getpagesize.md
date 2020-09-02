@@ -8,8 +8,6 @@ ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.date: 05/03/2018
 keywords: ["IDebugControl::GetPageSize"]
 ms.keywords: GetPageSize, GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging],IDebugControl interface, GetPageSize method [Windows Debugging],IDebugControl2 interface, GetPageSize method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetPageSize method, IDebugControl.GetPageSize, IDebugControl2 interface [Windows Debugging],GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3 interface [Windows Debugging],GetPageSize method, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize
-f1_keywords:
- - "dbgeng/IDebugControl.GetPageSize"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetPageSize
-- IDebugControl2.GetPageSize
-- IDebugControl3.GetPageSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl::GetPageSize
+ - dbgeng/IDebugControl::GetPageSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetPageSize
+ - IDebugControl2.GetPageSize
+ - IDebugControl3.GetPageSize
 ---
 
 # IDebugControl::GetPageSize
@@ -49,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetPageSize</b> method returns the page size for the effective processor mode.
-
 
 ## -parameters
 
+### -param Size 
 
-
-
-### -param Size [out]
-
+[out]
 Receives the page size.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -86,7 +78,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

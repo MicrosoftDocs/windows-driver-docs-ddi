@@ -8,8 +8,6 @@ ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.date: 04/23/2018
 keywords: ["IKsPropertySet::Get"]
 ms.keywords: Get, Get method [Streaming Media Devices], Get method [Streaming Media Devices],IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices],Get method, IKsPropertySet.Get, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
-f1_keywords:
- - "dsound/IKsPropertySet.Get"
 req.header: dsound.h
 req.include-header: Ksproxy.h, Dsound.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPropertySet.Get
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPropertySet::Get
+ - dsound/IKsPropertySet::Get
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPropertySet.Get
 ---
 
 # IKsPropertySet::Get
@@ -47,51 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>Get</b> method retrieves a property identified by a property-set GUID and a property identifier.
-
 
 ## -parameters
 
-
-
-
 ### -param rguidPropSet
-
-
-
 
 ### -param ulId
 
-
-
-
 ### -param pInstanceData
-
-
-
 
 ### -param ulInstanceLength
 
-
-
-
 ### -param pPropertyData
-
-
-
 
 ### -param ulDataLength
 
-
-
-
 ### -param pulBytesReturned
-
-
-
-
-
 
 #### - BytesReturned [out]
 
@@ -125,21 +96,13 @@ GUID that identifies the property set.
 
 #### - PropertyData [out]
 
-Pointer to a buffer that receives the value of the property. 
-
+Pointer to a buffer that receives the value of the property.
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 To retrieve a property, allocate a buffer, which <b>Get</b> fills with the property. To determine the necessary buffer size, specify <b>NULL</b> for <i>PropertyData</i> and zero for <i>DataLength</i>. The <b>Get</b> method returns the required buffer size in <i>BytesReturned</i>. 
 
@@ -154,15 +117,7 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>
- 
-
- 
 

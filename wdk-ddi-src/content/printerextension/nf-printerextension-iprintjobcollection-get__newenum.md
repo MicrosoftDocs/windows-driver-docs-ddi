@@ -8,8 +8,6 @@ ms.assetid: 2ABABB19-5F4F-418F-AC23-ED0C5DD2D3B0
 ms.date: 04/20/2018
 keywords: ["IPrintJobCollection::get__NewEnum"]
 ms.keywords: IPrintJobCollection interface [Print Devices],NewEnum property, IPrintJobCollection.NewEnum, IPrintJobCollection.get__NewEnum, IPrintJobCollection::NewEnum, IPrintJobCollection::get_NewEnum, IPrintJobCollection::get__NewEnum, NewEnum property [Print Devices], NewEnum property [Print Devices],IPrintJobCollection interface, get__NewEnum, print.iprintjobcollection_newenum, printerextension/IPrintJobCollection::NewEnum, printerextension/IPrintJobCollection::get_NewEnum
-f1_keywords:
- - "printerextension/IPrintJobCollection.NewEnum"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,21 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintJobCollection.NewEnum
-- IPrintJobCollection.get_NewEnum
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPrintJobCollection::get__NewEnum
+ - printerextension/IPrintJobCollection::get__NewEnum
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintJobCollection.NewEnum
+ - IPrintJobCollection.get_NewEnum
 ---
 
 # IPrintJobCollection::get__NewEnum
@@ -49,22 +48,13 @@ ms.custom: RS5
 
 ## -description
 
-
 Gets a pointer to the enumerants of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a> objects.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
- 
-
- 
 

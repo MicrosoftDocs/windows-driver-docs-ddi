@@ -5,53 +5,62 @@ description: Defines values for the type of desired storage class.
 ms.assetid: d969fc78-2517-4b9c-b2ce-489af3ff4e5f
 tech.root: ifsk
 ms.date: 09/30/2018
-keywords: ["_FILE_STORAGE_TIER_CLASS enumeration"]
-f1_keywords:
- - "ntifs/_FILE_STORAGE_TIER_CLASS"
-ms.keywords: _FILE_STORAGE_TIER_CLASS, FILE_STORAGE_TIER_CLASS, *PFILE_STORAGE_TIER_CLASS, 
+keywords: ["FILE_STORAGE_TIER_CLASS enumeration"]
+ms.keywords: _FILE_STORAGE_TIER_CLASS, FILE_STORAGE_TIER_CLASS, *PFILE_STORAGE_TIER_CLASS,
 req.header: ntifs.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: FILE_STORAGE_TIER_CLASS, *PFILE_STORAGE_TIER_CLASS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntifs.h
-api_name: 
-- _FILE_STORAGE_TIER_CLASS
-product:
-- Windows
 targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - _FILE_STORAGE_TIER_CLASS
+ - ntifs/_FILE_STORAGE_TIER_CLASS
+ - PFILE_STORAGE_TIER_CLASS
+ - ntifs/PFILE_STORAGE_TIER_CLASS
+ - FILE_STORAGE_TIER_CLASS
+ - ntifs/FILE_STORAGE_TIER_CLASS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - _FILE_STORAGE_TIER_CLASS
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _FILE_STORAGE_TIER_CLASS enumeration
 
+
 ## -description
+
 Defines values for the type of desired storage class.
 
 ## -enum-fields
 
 ### -field FileStorageTierClassUnspecified 
+
 Unspecificed class type.
 
 ### -field FileStorageTierClassCapacity 
+
 Class capacity.
 
 ### -field FileStorageTierClassPerformance 
+
 Class performance.
 
 ### -field FileStorageTierClassMax 
+
 End of this enumeration.
 
 ## -remarks
@@ -59,3 +68,4 @@ End of this enumeration.
 ## -see-also
 
 [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](ns-ntifs-_file_desired_storage_class_information.md)
+

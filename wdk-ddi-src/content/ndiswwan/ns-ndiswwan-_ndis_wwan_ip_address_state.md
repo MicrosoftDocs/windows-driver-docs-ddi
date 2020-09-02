@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_ip_address_state.htm
 tech.root: netvista
 ms.assetid: 114EDC8D-2FD2-4602-827E-9737638E49AC
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_IP_ADDRESS_STATE structure"]
+keywords: ["NDIS_WWAN_IP_ADDRESS_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE, netvista.ndis_wwan_ip_address_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_IP_ADDRESS_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE
+f1_keywords:
+ - _NDIS_WWAN_IP_ADDRESS_STATE
+ - ndiswwan/_NDIS_WWAN_IP_ADDRESS_STATE
+ - PNDIS_WWAN_IP_ADDRESS_STATE
+ - ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE
+ - NDIS_WWAN_IP_ADDRESS_STATE
+ - ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_IP_ADDRESS_STATE
 ---
 
 # _NDIS_WWAN_IP_ADDRESS_STATE structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE
 
 ## -description
 
-
 The NDIS_WWAN_IP_ADDRESS_STATE structure represents the IP address of a PDP context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,19 +104,11 @@ sizeof(NDIS_WWAN_IP_ADDRESS_STATE)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field WwanIpAddressState
 
 The PDP context's IP address.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ip_address_state">WWAN_IP_ADDRESS_STATE</a>
- 
-
- 
 

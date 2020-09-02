@@ -6,10 +6,8 @@ old-location: kernel\pep_processor_idle_state_v2.htm
 tech.root: kernel
 ms.assetid: DEA8B166-5236-4BE3-B16D-9EE1B34796F8
 ms.date: 04/30/2018
-keywords: ["_PEP_PROCESSOR_IDLE_STATE_V2 structure"]
+keywords: ["PEP_PROCESSOR_IDLE_STATE_V2 structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_V2, PPEP_PROCESSOR_IDLE_STATE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_V2, kernel.pep_processor_idle_state_v2, pepfx/PEP_PROCESSOR_IDLE_STATE_V2, pepfx/PPEP_PROCESSOR_IDLE_STATE_V2"
-f1_keywords:
- - "pepfx/PEP_PROCESSOR_IDLE_STATE_V2"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_PROCESSOR_IDLE_STATE_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_STATE_V2, *PPEP_PROCESSOR_IDLE_STATE_V2
+f1_keywords:
+ - _PEP_PROCESSOR_IDLE_STATE_V2
+ - pepfx/_PEP_PROCESSOR_IDLE_STATE_V2
+ - PPEP_PROCESSOR_IDLE_STATE_V2
+ - pepfx/PPEP_PROCESSOR_IDLE_STATE_V2
+ - PEP_PROCESSOR_IDLE_STATE_V2
+ - pepfx/PEP_PROCESSOR_IDLE_STATE_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_PROCESSOR_IDLE_STATE_V2
 ---
 
 # _PEP_PROCESSOR_IDLE_STATE_V2 structure
@@ -47,64 +50,31 @@ req.typenames: PEP_PROCESSOR_IDLE_STATE_V2, *PPEP_PROCESSOR_IDLE_STATE_V2
 
 ## -description
 
-
 The <b>PEP_PROCESSOR_IDLE_STATE_V2</b> structure describes a processor idle state that the platform extension plug-in (PEP) supports.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Ulong
-
- 
-
 
 ### -field Interruptible
 
- 
-
-
 ### -field CacheCoherent
-
- 
-
 
 ### -field ThreadContextRetained
 
- 
-
-
 ### -field CStateType
-
- 
-
 
 ### -field WakesSpuriously
 
- 
-
-
 ### -field PlatformOnly
-
- 
-
 
 ### -field Autonomous
 
- 
-
-
 ### -field Reserved
-
- 
-
 
 ### -field Latency
 
 The worst-case latency, in 100-nanosecond units,  that the processor requires to wake from this idle state in response to a wake event.
-
 
 ### -field BreakEvenDuration
 
@@ -175,27 +145,15 @@ Whether a coordinated transition to this processor idle state is performed auton
 
 Reserved for future use. Set to zero.
 
-
 ## -remarks
-
-
 
 This structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification. The <b>IdleStates</b>  member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE_V2</b> structures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_PPM_QUERY_IDLE_STATES_V2</a>
- 
-
- 
 

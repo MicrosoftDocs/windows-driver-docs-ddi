@@ -6,10 +6,8 @@ old-location: netvista\ndis_wwan_set_device_reset.htm
 tech.root: netvista
 ms.assetid: 73894308-CFE0-49EF-BB09-E104CEE9C746
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_SET_DEVICE_RESET structure"]
+keywords: ["NDIS_WWAN_SET_DEVICE_RESET structure"]
 ms.keywords: "*PNDIS_WWAN_SET_DEVICE_RESET, NDIS_WWAN_SET_DEVICE_RESET, NDIS_WWAN_SET_DEVICE_RESET structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_RESET, PNDIS_WWAN_SET_DEVICE_RESET structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/PNDIS_WWAN_SET_DEVICE_RESET, netvista.ndis_wwan_set_device_reset"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_DEVICE_RESET"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_DEVICE_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_DEVICE_RESET, *PNDIS_WWAN_SET_DEVICE_RESET
+f1_keywords:
+ - _NDIS_WWAN_SET_DEVICE_RESET
+ - ndiswwan/_NDIS_WWAN_SET_DEVICE_RESET
+ - PNDIS_WWAN_SET_DEVICE_RESET
+ - ndiswwan/PNDIS_WWAN_SET_DEVICE_RESET
+ - NDIS_WWAN_SET_DEVICE_RESET
+ - ndiswwan/NDIS_WWAN_SET_DEVICE_RESET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_DEVICE_RESET
 ---
 
 # _NDIS_WWAN_SET_DEVICE_RESET structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_WWAN_SET_DEVICE_RESET, *PNDIS_WWAN_SET_DEVICE_RESET
 
 ## -description
 
-
 The <b>NDIS_WWAN_SET_DEVICE_RESET</b> structure represents a command to reset a modem device. It is sent as part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a> set request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -106,11 +104,7 @@ sizeof(NDIS_WWAN_SET_DEVICE_RESET)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-reset-operations">MB modem reset operations</a>
 
@@ -121,7 +115,4 @@ For more information about these members, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a>
- 
-
- 
 

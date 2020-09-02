@@ -8,8 +8,6 @@ ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
 ms.date: 04/20/2018
 keywords: ["GenerateCopyFilePaths function"]
 ms.keywords: GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices], poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, winsplp/GenerateCopyFilePaths
-f1_keywords:
- - "winsplp/GenerateCopyFilePaths"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mscms.dll
-api_name:
-- GenerateCopyFilePaths
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GenerateCopyFilePaths
+ - winsplp/GenerateCopyFilePaths
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - GenerateCopyFilePaths
 ---
 
 # GenerateCopyFilePaths function
@@ -47,49 +46,45 @@ req.typenames:
 
 ## -description
 
-
 A Point and Print DLL's <b>GenerateCopyFilePaths</b> function is used for modifying the source and destination paths used by print spoolers when they copy print queue-associated files to a print client.
-
 
 ## -parameters
 
+### -param pszPrinterName 
 
-
-
-### -param pszPrinterName [in]
-
+[in]
 Caller-supplied pointer to a string representing the name of the print queue.
 
+### -param pszDirectory 
 
-### -param pszDirectory [in]
-
+[in]
 Caller-supplied pointer to a string representing the value supplied for the server's <b>Directory</b> entry in the registry. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-point-and-print-during-printer-installations">Supporting Point and Print During Printer Installations</a>.
 
+### -param pSplClientInfo 
 
-### -param pSplClientInfo [in]
-
+[in]
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_splclient_info_1">SPLCLIENT_INFO_1</a> structure.
 
+### -param dwLevel 
 
-### -param dwLevel [in]
-
+[in]
 Caller-supplied value indicating the level number of the structure pointed to by <i>pSplClientInfo</i>. Must be 1.
 
+### -param pszSourceDir 
 
-### -param pszSourceDir [in, out]
-
+[in, out]
 For input, receives a caller-supplied pointer to a string representing the complete server directory path (including server name) from which files are to be copied.
 
 For output, the function can modify this string.
 
+### -param pcchSourceDirSize 
 
-### -param pcchSourceDirSize [in, out]
-
+[in, out]
 Caller-supplied address containing the length of the buffer pointed to by <i>pszSourceDir</i>. (Note that this is the buffer length, not the string length.)
 
+### -param pszTargetDir 
 
-### -param pszTargetDir [in, out]
-
+[in, out]
 For input, receives a caller-supplied pointer to a string representing the client directory path to which files are to be copied. The following rules apply:
 
 <ul>
@@ -104,14 +99,14 @@ When the function is called on the client, the string contains a complete path.
 </ul>
 For output, the function can modify this string.
 
+### -param pcchTargetDirSize 
 
-### -param pcchTargetDirSize [in, out]
-
+[in, out]
 Caller-supplied address containing the length of the buffer pointed to by <i>pszTargetDir</i>. (Note that this is the buffer length, not the string length.)
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 Caller-supplied flag. Can be one of the following:
 
 
@@ -128,19 +123,11 @@ Indicates the function is being called by the client's spooler.
 
 Indicates the function is being called by the server's spooler.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>ERROR_SUCCESS</b>. Otherwise, it should return an error code defined in winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 All <a href="https://docs.microsoft.com/windows-hardware/drivers/print/point-and-print-dlls">Point and Print DLLs</a> must export a <b>GenerateCopyFilePaths</b> function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to modify the source or destination directory path, or both, before the print spooler copies print queue-associated files from a server to a client. (The files are copied when a client connects to a print server. For a complete description of the steps involved in creating a Point and Print connection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-point-and-print">Supporting Point and Print</a>.)
 
@@ -152,16 +139,7 @@ Arguments for the <i>pszSourceDir</i> and <i>pszTargetDir</i> parameters point t
 
 If no modifications to the source or destination directories are needed, the function should just return <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-spoolercopyfileevent">SpoolerCopyFileEvent</a>
- 
-
- 
 

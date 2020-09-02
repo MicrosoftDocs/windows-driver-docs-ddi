@@ -8,8 +8,6 @@ ms.assetid: b5985fc4-dd1a-455d-b2ad-3dc2dfec2e6e
 ms.date: 04/16/2018
 keywords: ["PMRX_CALLDOWN_CTX callback function"]
 ms.keywords: MRxStart, MRxStart routine [Installable File System Drivers], PMRX_CALLDOWN_CTX, ifsk.mrxstart, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
-f1_keywords:
- - "mrx/MRxStart"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mrx.h
-api_name:
-- MRxStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMRX_CALLDOWN_CTX
+ - mrx/PMRX_CALLDOWN_CTX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mrx.h
+api_name:
+ - MRxStart
 ---
 
 # PMRX_CALLDOWN_CTX callback function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The<i>MRxStart</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to start the network mini-redirector.
-
 
 ## -parameters
 
+### -param RxContext 
 
+[in, out]
+A pointer to the RX_CONTEXT structure. This parameter contains the IRP that requested the network mini-redirector to start.
 
+### -param RxDeviceObject 
 
-### -param RxContext [in, out]
-
-A pointer to the RX_CONTEXT structure. This parameter contains the IRP that requested the network mini-redirector to start. 
-
-
-### -param RxDeviceObject [in, out]
-
-A pointer to the RDBSS_DEVICE_OBJECT structure for this network mini-redirector. 
-
+[in, out]
+A pointer to the RDBSS_DEVICE_OBJECT structure for this network mini-redirector.
 
 ## -returns
-
-
 
 <i>MRxStart</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -100,14 +92,8 @@ The network mini-redirector was unable to start successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>MRxStart</i> completes the initialization of the network mini-redirector from the RDBSS perspective. Note that this is different from the initialization done in the <b>DriverEntry</b> routine. Any initialization that depends on RDBSS should be done as part of this routine while the initialization that is independent of RDBSS should be done in the <b>DriverEntry</b> routine.
 
@@ -123,15 +109,9 @@ If <i>MRxStart</i> returns STATUS_SUCCESS, then the routine was successful. Any 
 
 If <i>MRxStart</i> returns STATUS_SUCCESS, RDBSS sets the state of RDBSS to RDBSS_STARTED. This state is stored in the <b>StartStopContext.State</b> member of the RDBSS_DEVICE_OBJECT structure pointed to by <i>RxDeviceObject</i>.
 
-A network mini-redirector would normally maintain an internal variable indicating whether the network mini-redirector is started. For example, a network mini-redirector might track when it is stopped, started, and when a start operation or stop operation is in progress. 
-
-
-
+A network mini-redirector would normally maintain an internal variable indicating whether the network mini-redirector is started. For example, a network mini-redirector might track when it is stopped, started, and when a start operation or stop operation is in progress.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile">MRxDevFcbXXXControlFile</a>
 
@@ -142,7 +122,4 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstartminirdr">RxStartMinirdr</a>
- 
-
- 
 

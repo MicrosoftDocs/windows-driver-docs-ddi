@@ -7,8 +7,6 @@ ms.assetid: 9f03c193-f017-4189-a082-908e28a2e9f7
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_DESTROYCOMMANDLIST callback function"]
 ms.keywords: DestroyCommandList, DestroyCommandList callback function [Display Devices], PFND3D11DDI_DESTROYCOMMANDLIST, PFND3D11DDI_DESTROYCOMMANDLIST callback, UserModeDisplayDriverDx11_Functions_cf01bd33-1921-4d56-a377-f8eda35a8d04.xml, d3d10umddi/DestroyCommandList, display.destroycommandlist
-f1_keywords:
- - "d3d10umddi/DestroyCommandList"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- DestroyCommandList
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11DDI_DESTROYCOMMANDLIST
+ - d3d10umddi/PFND3D11DDI_DESTROYCOMMANDLIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - DestroyCommandList
 ---
 
 # PFND3D11DDI_DESTROYCOMMANDLIST callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>DestroyCommandList</b> function destroys a command list.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -66,9 +60,7 @@ A handle to the display device (graphics context).
 
 *hCommandList* [in]
 
-A handle to the driver's private data for the command list to destroy. The Microsoft Direct3D runtime frees the memory region that it previously allocated for the command list. Therefore, the driver can no longer access this memory region. 
-
-
+A handle to the driver's private data for the command list to destroy. The Microsoft Direct3D runtime frees the memory region that it previously allocated for the command list. Therefore, the driver can no longer access this memory region.
 
 ## -remarks
 
@@ -84,13 +76,7 @@ The driver can implement a <b>DestroyCommandList</b> function that contains a <b
 
 For more information about <b>RecycleDestroyCommandList</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-command-lists">Optimization for Small Command Lists</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createcommandlist">CreateCommandList</a>
 
@@ -109,7 +95,4 @@ For more information about <b>RecycleDestroyCommandList</b>, see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: BF84F0E4-3B0D-45B8-AC06-F6F761A37234
 ms.date: 05/07/2018
 keywords: ["UfxEndpointGetCommandQueue function"]
 ms.keywords: UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, ufxclient/UfxEndpointGetCommandQueue
-f1_keywords:
- - "ufxclient/UfxEndpointGetCommandQueue"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxEndpointGetCommandQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxEndpointGetCommandQueue
+ - ufxclient/UfxEndpointGetCommandQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxEndpointGetCommandQueue
 ---
 
 # UfxEndpointGetCommandQueue function
@@ -47,45 +46,24 @@ req.typenames:
 
 ## -description
 
-
 Returns the command queue previously created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
-
 
 ## -parameters
 
+### -param UfxEndpoint 
 
-
-
-### -param UfxEndpoint [in]
-
+[in]
 A handle to an endpoint object returned from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
-
 
 ## -returns
 
-
-
 A handle to a framework queue object.
-
-
-
 
 ## -remarks
 
-
-
 For an code example that shows how to create an endpoint object and initialize its context, see the Remarks section of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>
- 
-
- 
 

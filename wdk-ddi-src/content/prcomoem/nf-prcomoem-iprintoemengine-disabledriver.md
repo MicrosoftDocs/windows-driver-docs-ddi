@@ -8,8 +8,6 @@ ms.assetid: 1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1
 ms.date: 04/20/2018
 keywords: ["IPrintOemEngine::DisableDriver"]
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],DisableDriver method, IPrintOemEngine.DisableDriver, IPrintOemEngine::DisableDriver, prcomoem/IPrintOemEngine::DisableDriver, print.iprintoemengine_disabledriver
-f1_keywords:
- - "prcomoem/IPrintOemEngine.DisableDriver"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintOemEngine.DisableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemEngine::DisableDriver
+ - prcomoem/IPrintOemEngine::DisableDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintOemEngine.DisableDriver
 ---
 
 # IPrintOemEngine::DisableDriver
@@ -47,26 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemengine">IPrintOemEngine</a>
- 
-
- 
 

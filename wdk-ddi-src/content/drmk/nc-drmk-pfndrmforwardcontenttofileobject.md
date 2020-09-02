@@ -8,8 +8,6 @@ ms.assetid: 00ACCBFF-FEDE-4223-8503-4D75426E2BD6
 ms.date: 05/08/2018
 keywords: ["PFNDRMFORWARDCONTENTTOFILEOBJECT callback function"]
 ms.keywords: DRMForwardContentToFileObject, DRMForwardContentToFileObject callback function [Audio Devices], PFNDRMFORWARDCONTENTTOFILEOBJECT, PFNDRMFORWARDCONTENTTOFILEOBJECT callback, PfnDRMForwardContentToFileObject, PfnDRMForwardContentToFileObject callback function [Audio Devices], audio.pfndrmforwardcontenttofileobject, drmk/PfnDRMForwardContentToFileObject
-f1_keywords:
- - "drmk/DRMForwardContentToFileObject"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Drmk.h
-api_name:
-- DRMForwardContentToFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNDRMFORWARDCONTENTTOFILEOBJECT
+ - drmk/PFNDRMFORWARDCONTENTTOFILEOBJECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Drmk.h
+api_name:
+ - DRMForwardContentToFileObject
 ---
 
 # PFNDRMFORWARDCONTENTTOFILEOBJECT callback function
@@ -47,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 This callback function is reserved for system use.
-
 
 ## -parameters
 
+### -param ContentId 
 
-
-
-### -param ContentId [in]
-
+[in]
 This parameter is reserved for system use.
 
+### -param FileObject 
 
-### -param FileObject [in]
-
+[in]
 This parameter is reserved for system use.
-
 
 ## -returns
 
-
-
 This return value is reserved for system use.
-
-
 

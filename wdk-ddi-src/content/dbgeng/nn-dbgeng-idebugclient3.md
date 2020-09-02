@@ -8,8 +8,6 @@ ms.assetid: 316a4d8b-4cf6-4270-8d9b-e1ede53d567d
 ms.date: 05/03/2018
 keywords: ["IDebugClient3 interface"]
 ms.keywords: IDebugClient3, IDebugClient3 interface [Windows Debugging], IDebugClient3 interface [Windows Debugging],described, dbgeng/IDebugClient3, debugger.idebugclient3
-f1_keywords:
- - "dbgeng/IDebugClient3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -27,28 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient3
+ - dbgeng/IDebugClient3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient3
 ---
 
 # IDebugClient3 interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -59,9 +55,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient3</b> interface i
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
 
 
@@ -71,7 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient3</b> interface i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
 

@@ -6,7 +6,6 @@ ms.topic: language-reference
 ms.assetid: eea363d4-8d80-44fd-96d8-244ba188a86c
 targetos: Windows
 tech.root: display
-ms.assetid: d01391b1-94af-4e39-8459-67c3b21e26aa
 description: Contains display options data
 req.construct-type: structure
 req.ddi-compliance: 
@@ -32,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_D3D12_OPTIONS_DATA_0073
 f1_keywords:
+ - D3D12DDI_D3D12_OPTIONS_DATA_0073
  - d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0073
 dev_langs:
  - c++
@@ -148,3 +148,4 @@ The [**D3D12DDI_SAMPLER_FEEDBACK_TIER**](https://docs.microsoft.com/windows-hard
 ## -remarks
 
 ## -see-also
+

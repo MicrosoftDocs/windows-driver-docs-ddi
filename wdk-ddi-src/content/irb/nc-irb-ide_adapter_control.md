@@ -8,8 +8,6 @@ ms.assetid: 50125022-7450-4582-b98d-1d597e4e96d4
 ms.date: 03/29/2018
 keywords: ["IDE_ADAPTER_CONTROL callback function"]
 ms.keywords: AtaAdapterControl, AtaAdapterControl routine [Storage Devices], IDE_ADAPTER_CONTROL, atartns_6460976d-3415-4cda-b128-f74baefd075f.xml, irb/AtaAdapterControl, storage.ataadaptercontrol
-f1_keywords:
- - "irb/AtaAdapterControl"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- irb.h
-api_name:
-- AtaAdapterControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDE_ADAPTER_CONTROL
+ - irb/IDE_ADAPTER_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - irb.h
+api_name:
+ - AtaAdapterControl
 ---
 
 # IDE_ADAPTER_CONTROL callback function
@@ -47,22 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <i>AtaAdapterControl</i> miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param ControllerExtension 
 
-
-
-### -param ControllerExtension [in]
-
+[in]
 A pointer to the controller extension.
 
+### -param ControlAction 
 
-### -param ControlAction [in]
-
+[in]
 
       One of five actions that the miniport driver must perform as defined in the following table.
   
@@ -144,39 +140,21 @@ Indicates that the miniport driver should perform a vendor-defined control actio
 </td>
 </tr>
 </table>
- 
 
+### -param Parameters 
 
-### -param Parameters [in, out]
-
+[in, out]
 Parameters associated with the given action.
-
 
 ## -returns
 
-
-
 The miniport driver must return <b>TRUE</b> to acknowledge the completion of the requested action. A return value of <b>FALSE</b> indicates that the miniport driver was unable to complete the action successfully. A return value of <b>FALSE</b> for certain actions might cause the device installation to fail.
-
-
-
 
 ## -remarks
 
-
-
 The port driver guarantees that there is no outstanding I/O on the adapter before it invokes the <i>AtaAdapterControl</i> routine.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>
- 
-
- 
 

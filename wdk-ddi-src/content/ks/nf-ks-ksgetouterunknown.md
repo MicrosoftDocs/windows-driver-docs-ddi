@@ -8,8 +8,6 @@ ms.assetid: e86e2c96-9ae5-4f6d-9c76-1c2816f318e7
 ms.date: 04/23/2018
 keywords: ["KsGetOuterUnknown function"]
 ms.keywords: KsGetOuterUnknown, KsGetOuterUnknown function [Streaming Media Devices], avfunc_5b660e76-03af-4fba-92f9-f11eeeaa3da0.xml, ks/KsGetOuterUnknown, stream.ksgetouterunknown
-f1_keywords:
- - "ks/KsGetOuterUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsGetOuterUnknown
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsGetOuterUnknown
+ - ks/KsGetOuterUnknown
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsGetOuterUnknown
 ---
 
 # KsGetOuterUnknown function
@@ -48,44 +47,26 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsGetOuterUnknown </b>function returns the outer <b>IUnknown</b> of a given AVStream object.
-
 
 ## -parameters
 
+### -param Object 
 
-
-
-### -param Object [in]
-
+[in]
 A pointer to an AVStream object for which to return the outer <b>IUnknown</b> interface.
-
 
 ## -returns
 
-
-
 <b>KsGetOuterUnknown</b> returns a pointer to the outer <b>IUnknown</b> interface of <i>Object</i>. The client can then call the <b>QueryInterface</b> method to determine whether the component supports a given interface.
 
-
-
-
 ## -remarks
-
-
 
 Minidrivers should not call this function directly. Instead, use one of the inline versions that perform automatic typecasting: <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdevicegetouterunknown">KsDeviceGetOuterUnknown</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorygetouterunknown">KsFilterFactoryGetOuterUnknown</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetouterunknown">KsFilterGetOuterUnknown</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetouterunknown">KsPinGetOuterUnknown</a>.
 
 Minidrivers using this function must include <i>kcom.h</i> and use a C++ compiler.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
 
@@ -108,7 +89,4 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksregisteraggregatedclientunknown">KsRegisterAggregatedClientUnknown</a>
- 
-
- 
 

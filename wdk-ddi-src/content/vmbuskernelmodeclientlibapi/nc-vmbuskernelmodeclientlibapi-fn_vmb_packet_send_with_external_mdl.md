@@ -6,40 +6,40 @@ tech.root: netvista
 ms.assetid: 16ce438f-bcff-4b13-a6f1-fdaf3abc9e27
 ms.date: 05/22/2018
 keywords: ["FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
+ - vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
 ---
 
 # FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL callback function
+
 
 ## -description
 
@@ -47,29 +47,6 @@ ms.custom: RS5
 
 The <b>VmbPacketSendWithExternalMdl</b> function sends the data in a packet buffer or external data Memory Descriptor List (MDL). The function associates that data with the VMBus packet object, which represents the packet
 throughout the lifetime of the transaction.
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL FnVmbPacketSendWithExternalMdl; 
-
-// Definition
-
-NTSTATUS FnVmbPacketSendWithExternalMdl 
-(
-	__drv_aliasesMem VMBPACKET PacketObject
-	PVOID Buffer
-	UINT32 BufferLength
-	PMDL ExternalDataMdl
-	UINT32 MdlOffset
-	UINT32 MdlLength
-	UINT32 Flags
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -84,11 +61,11 @@ through the VMBus ring buffer.
 
 ### -param BufferLength
 
-The length, in bytes, of the buffer in the <i>Buffer</i> parameter. 
+The length, in bytes, of the buffer in the <i>Buffer</i> parameter.
 
 ### -param ExternalDataMdl
 
- An MDL that describes a data buffer associated with the packet. 
+ An MDL that describes a data buffer associated with the packet.
 
 ### -param MdlOffset
 
@@ -154,6 +131,29 @@ responsibility of the caller.
 
 Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS error code otherwise.
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL FnVmbPacketSendWithExternalMdl; 
+
+// Definition
+
+NTSTATUS FnVmbPacketSendWithExternalMdl 
+(
+	__drv_aliasesMem VMBPACKET PacketObject
+	PVOID Buffer
+	UINT32 BufferLength
+	PMDL ExternalDataMdl
+	UINT32 MdlOffset
+	UINT32 MdlLength
+	UINT32 Flags
+)
+{...}
+
+```
+
 ## -remarks
 
 This function differs from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend">VmbPacketSend</a> function in that it allows passing an MDL offset and MDL length.
@@ -166,3 +166,4 @@ This function differs from the <a href="https://docs.microsoft.com/windows-hardw
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend">VmbPacketSend</a>
+

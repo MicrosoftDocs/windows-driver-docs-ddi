@@ -8,8 +8,6 @@ ms.assetid: fc75c201-a3ff-44f7-ba09-8e3554b1cf27
 ms.date: 04/04/2018
 keywords: ["IWDTFTarget2 interface"]
 ms.keywords: IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], IWDTFTarget2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFTarget2, dtf.iwdtftarget2, wdtf/IWDTFTarget2
-f1_keywords:
- - "wdtf/IWDTFTarget2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTarget2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTarget2
+ - wdtf/IWDTFTarget2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTarget2
 ---
 
 # IWDTFTarget2 interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Defines operations and properties for a testable item.
-
 
 ## -inheritance
 
@@ -60,8 +57,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTarget2</b> interface in
 </ul>
 
 ## -remarks
-
-
 
 The <b>IWDTFTarget2</b> interface abstracts the notion of a testable item, 
 which is the central focus of the WDTF object model.
@@ -87,5 +82,4 @@ TraceLevel Path: HKCR\WDTF.Target.1\
 
 <div class="alert"><b>Note</b>  The implementation of this interface is not thread-safe.</div>
 <div> </div>
-
 

@@ -6,10 +6,8 @@ old-location: buses\ucx_endpoint_characteristic.htm
 tech.root: usbref
 ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
 ms.date: 05/07/2018
-keywords: ["_UCX_ENDPOINT_CHARACTERISTIC structure"]
+keywords: ["UCX_ENDPOINT_CHARACTERISTIC structure"]
 ms.keywords: "*PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
-f1_keywords:
- - "ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucxendpoint.h
-api_name:
-- UCX_ENDPOINT_CHARACTERISTIC
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC
+f1_keywords:
+ - _UCX_ENDPOINT_CHARACTERISTIC
+ - ucxendpoint/_UCX_ENDPOINT_CHARACTERISTIC
+ - PUCX_ENDPOINT_CHARACTERISTIC
+ - ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC
+ - UCX_ENDPOINT_CHARACTERISTIC
+ - ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucxendpoint.h
+api_name:
+ - UCX_ENDPOINT_CHARACTERISTIC
 ---
 
 # _UCX_ENDPOINT_CHARACTERISTIC structure
@@ -47,41 +50,27 @@ req.typenames: UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC
 
 ## -description
 
-
-Stores the characteristics of an endpoint. 
-
+Stores the characteristics of an endpoint.
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size of this structure.
 
-
 ### -field CharacteristicType
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_ucx_endpoint_characteristic_type">UCX_ENDPOINT_CHARACTERISTIC_TYPE</a>-type value that indicates the type of endpoint characteristic.
-
 
 ### -field Priority
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_ucx_endpoint_characteristic_priority">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>-typed value that indicates the priority of the endpoint.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_set_characteristic">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_ucx_endpoint_characteristic_priority">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
- 
-
- 
 

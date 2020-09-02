@@ -8,8 +8,6 @@ ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
 ms.date: 04/30/2018
 keywords: ["MmLockPagableCodeSection macro"]
 ms.keywords: MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection
-f1_keywords:
- - "wdm/MmLockPagableCodeSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmLockPagableCodeSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmLockPagableCodeSection
+ - wdm/MmLockPagableCodeSection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmLockPagableCodeSection
 ---
 
 # MmLockPagableCodeSection macro
@@ -47,20 +46,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmLockPagableCodeSection </b>routine locks a section of driver code, containing a set of driver routines marked with a special compiler directive, into system space.
-
 
 ## -parameters
 
+### -param Address 
 
-
-
-### -param Address [in]
-
-Specifies a symbolic address. This address is typically the name of a driver function within a section of driver code that has been marked with something like <b>#pragma alloc_text (PAGExxxx, driverfunction)</b>. All functions in the <b>PAGExxxx</b> section are then guaranteed to be locked down when this function returns. 
-
-
+[in]
+Specifies a symbolic address. This address is typically the name of a driver function within a section of driver code that has been marked with something like <b>#pragma alloc_text (PAGExxxx, driverfunction)</b>. All functions in the <b>PAGExxxx</b> section are then guaranteed to be locked down when this function returns.
 
 ## -remarks
 
@@ -135,15 +128,9 @@ Note that routines in a pageable section marked with the compiler directive <b>#
 
 The memory manager maintains an internal lock count on any driver's pageable section. Calls to <b>MmLockPagableCodeSection</b> increment this count and the reciprocal <b>MmUnlockPagableImageSection</b> decrements the count. A driver's pageable section is not available to be paged out unless this count is zero.
 
-For more information about creating pageable code sections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-drivers-pageable">Making Drivers Pageable</a>. 
-
-
-
+For more information about creating pageable code sections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-drivers-pageable">Making Drivers Pageable</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a>
 
@@ -162,7 +149,4 @@ For more information about creating pageable code sections, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpagableimagesection">MmUnlockPagableImageSection</a>
- 
-
- 
 

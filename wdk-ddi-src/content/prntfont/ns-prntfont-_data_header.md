@@ -6,10 +6,8 @@ old-location: print\data_header.htm
 tech.root: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.date: 04/20/2018
-keywords: ["_DATA_HEADER structure"]
+keywords: ["DATA_HEADER structure"]
 ms.keywords: "*PDATA_HEADER, DATA_HEADER, DATA_HEADER structure [Print Devices], PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], _DATA_HEADER, print.data_header, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, prntfont/DATA_HEADER, prntfont/PDATA_HEADER"
-f1_keywords:
- - "prntfont/DATA_HEADER"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- DATA_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: DATA_HEADER, *PDATA_HEADER
+f1_keywords:
+ - _DATA_HEADER
+ - prntfont/_DATA_HEADER
+ - PDATA_HEADER
+ - prntfont/PDATA_HEADER
+ - DATA_HEADER
+ - prntfont/DATA_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - DATA_HEADER
 ---
 
 # _DATA_HEADER structure
@@ -47,14 +50,9 @@ req.typenames: DATA_HEADER, *PDATA_HEADER
 
 ## -description
 
-
 The DATA_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSignature
 
@@ -116,13 +114,10 @@ This data section contains data to be downloaded to the printer. See the followi
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wSize
 
 Specifies the size, in bytes, of the DATA_HEADER structure.
-
 
 ### -field wDataID
 
@@ -132,35 +127,21 @@ If the data section contains glyph data, this value must be a glyph set identifi
 
 If the data section contains variable data, this value must be zero.
 
-
 ### -field dwDataSize
 
 Specifies the size, in bytes, of all the information represented by this DATA_HEADER structure. For example, if <b>dwSignature</b> is DATA_UFM_SIG, this value represents the size, in bytes, of the font's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure and all associated structures. The size value does not include any byte padding required to align the next DATA_HEADER structure to a DWORD.
-
 
 ### -field dwReserved
 
 Not used. Must be set to zero.
 
-
 ## -remarks
-
-
 
 If <b>dwSignature</b> is DATA_VAR_SIG, the data section contains variable data that Unidrv sends to the printer the first time the font is selected. Typically, this data consists of a font header and corresponding font identifier, along with downloadable glyph information for all the glyphs supported by the font. <a href="https://docs.microsoft.com/windows-hardware/drivers/">PCL</a> soft font information includes printer control language commands for loading the font header and glyph definitions for all supported glyphs. Unidrv does not validate variable data. Data validation should be performed by the font installer.
 
 Each DATA_HEADER structure must be DWORD-aligned.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
- 
-
- 
 

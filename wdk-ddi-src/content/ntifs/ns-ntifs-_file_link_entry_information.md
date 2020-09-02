@@ -6,10 +6,8 @@ old-location: ifsk\file_link_entry_information.htm
 tech.root: ifsk
 ms.assetid: b42edb45-3f4f-4f65-aede-8f51149dda78
 ms.date: 04/16/2018
-keywords: ["_FILE_LINK_ENTRY_INFORMATION structure"]
+keywords: ["FILE_LINK_ENTRY_INFORMATION structure"]
 ms.keywords: "*PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], PFILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_ENTRY_INFORMATION, ifsk.file_link_entry_information, ntifs/FILE_LINK_ENTRY_INFORMATION, ntifs/PFILE_LINK_ENTRY_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_LINK_ENTRY_INFORMATION"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_LINK_ENTRY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION
+f1_keywords:
+ - _FILE_LINK_ENTRY_INFORMATION
+ - ntifs/_FILE_LINK_ENTRY_INFORMATION
+ - PFILE_LINK_ENTRY_INFORMATION
+ - ntifs/PFILE_LINK_ENTRY_INFORMATION
+ - FILE_LINK_ENTRY_INFORMATION
+ - ntifs/FILE_LINK_ENTRY_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_LINK_ENTRY_INFORMATION
 ---
 
 # _FILE_LINK_ENTRY_INFORMATION structure
@@ -47,42 +50,27 @@ req.typenames: FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION
 
 ## -description
 
-
 The <b>FILE_LINK_ENTRY_INFORMATION</b> structure describes a single NTFS hard link to an existing file.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NextEntryOffset
 
 The offset, in bytes, to the next <b>FILE_LINK_ENTRY_INFORMATION</b> structure, or 0 if the current structure is the last  <b>FILE_LINK_ENTRY_INFORMATION</b> structure.
 
-
 ### -field ParentFileId
 
 The ID of the parent directory of the link.
-
 
 ### -field FileNameLength
 
 The length, in characters, of the <b>FileName</b> for the link.
 
-
 ### -field FileName
 
 The name of the link.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_links_information">FILE_LINKS_INFORMATION</a>
- 
-
- 
 

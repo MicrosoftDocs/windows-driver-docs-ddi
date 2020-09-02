@@ -10,6 +10,7 @@ keywords: ["FsRtlMdlWriteCompleteDev function"]
 ms.keywords: FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
 f1_keywords:
  - "ntifs/FsRtlMdlWriteCompleteDev"
+ - "FsRtlMdlWriteCompleteDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlMdlWriteCompleteDev
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,18 +55,18 @@ The <b>FltFastIoMdlWriteComplete</b> routine frees the resources that <a href="h
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
 
-### -param MdlChain [in]
-
+### -param MdlChain 
+[in]
 A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://msdn.microsoft.com/library/windows/hardware/hh706192">FltFastIoPrepareMdlWrite</a> allocated.
 
 

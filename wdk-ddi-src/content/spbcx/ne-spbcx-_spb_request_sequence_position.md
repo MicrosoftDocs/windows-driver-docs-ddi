@@ -6,10 +6,8 @@ old-location: spb\spb_request_sequence_position.htm
 tech.root: SPB
 ms.assetid: B2D1BC45-E932-4EBC-9B7E-C45E7439E551
 ms.date: 04/30/2018
-keywords: ["_SPB_REQUEST_SEQUENCE_POSITION enumeration"]
+keywords: ["SPB_REQUEST_SEQUENCE_POSITION enumeration"]
 ms.keywords: "*PSPB_REQUEST_SEQUENCE_POSITION, SPB.spb_request_sequence_position, SPB_REQUEST_SEQUENCE_POSITION, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], SpbRequestSequencePositionContinue, SpbRequestSequencePositionFirst, SpbRequestSequencePositionInvalid, SpbRequestSequencePositionLast, SpbRequestSequencePositionMax, SpbRequestSequencePositionSingle, _SPB_REQUEST_SEQUENCE_POSITION, spbcx/SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionContinue, spbcx/SpbRequestSequencePositionFirst, spbcx/SpbRequestSequencePositionInvalid, spbcx/SpbRequestSequencePositionLast, spbcx/SpbRequestSequencePositionMax, spbcx/SpbRequestSequencePositionSingle"
-f1_keywords:
- - "spbcx/SPB_REQUEST_SEQUENCE_POSITION"
 req.header: spbcx.h
 req.include-header: Spb.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- spbcx.h
-api_name:
-- SPB_REQUEST_SEQUENCE_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_SEQUENCE_POSITION, *PSPB_REQUEST_SEQUENCE_POSITION
+f1_keywords:
+ - _SPB_REQUEST_SEQUENCE_POSITION
+ - spbcx/_SPB_REQUEST_SEQUENCE_POSITION
+ - PSPB_REQUEST_SEQUENCE_POSITION
+ - spbcx/PSPB_REQUEST_SEQUENCE_POSITION
+ - SPB_REQUEST_SEQUENCE_POSITION
+ - spbcx/SPB_REQUEST_SEQUENCE_POSITION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - spbcx.h
+api_name:
+ - SPB_REQUEST_SEQUENCE_POSITION
 ---
 
 # _SPB_REQUEST_SEQUENCE_POSITION enumeration
@@ -47,19 +50,13 @@ req.typenames: SPB_REQUEST_SEQUENCE_POSITION, *PSPB_REQUEST_SEQUENCE_POSITION
 
 ## -description
 
-
 The <b>SPB_REQUEST_SEQUENCE_POSITION</b> enumeration indicates the position of an I/O request in the list of transfers for an <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field SpbRequestSequencePositionInvalid
 
 For internal use only.
-
 
 ### -field SpbRequestSequencePositionSingle
 
@@ -67,13 +64,11 @@ A single-transfer I/O request. This request is either a read or write (<a href="
 
 The controller should select the target before performing the transfer, and release the target after the transfer finishes.
 
-
 ### -field SpbRequestSequencePositionFirst
 
 The first I/O request in a sequence. This request is the read or write request that immediately follows the lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>) I/O control request that signals the start of the sequence.
 
  The controller should select the target before performing this transfer, and the target should remain selected after the transfer finishes.
-
 
 ### -field SpbRequestSequencePositionContinue
 
@@ -83,7 +78,6 @@ In some cases, the SPB framework extension (SpbCx) cannot identify the last tran
 
 The controller should already have the target selected before it starts this transfer, and the target should remain selected after the transfer finishes.
 
-
 ### -field SpbRequestSequencePositionLast
 
 The last I/O request in a sequence. This request is the read or write request that immediately precedes the unlock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>) I/O control request that signals the end of the sequence.
@@ -92,15 +86,11 @@ In some cases, SpbCx cannot identify the last transfer and labels the last trans
 
 The controller should already have the target selected before it starts this transfer, and should release the target after the transfer finishes.
 
-
 ### -field SpbRequestSequencePositionMax
 
 For internal use only.
 
-
 ## -remarks
-
-
 
 A client (peripheral driver) of the SPB controller can perform an I/O transfer sequence by sending a series of read and write requests to a target device on the bus. Each read or write request in the series occupies a position in the list of transfers for the sequence. The values in the <b>SPB_REQUEST_SEQUENCE_POSITION</b> enumeration indicate the relative positions of the read and write requests in this list.
 
@@ -122,13 +112,7 @@ For a position value of <b>SpbRequestSequencePositionLast</b>, the <b>Length</b>
 
 For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbRequestSequencePositionLast</b>, the transfer direction might have changed from the previous transfer and the SPB controller driver might need to indicate this possible direction change on the bus (for example, an I²C controller issues a new START condition). For more information about transfer directions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ne-spb-spb_transfer_direction">SPB_TRANSFER_DIRECTION</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_sequence">EvtSpbControllerIoSequence</a>
 
@@ -159,7 +143,4 @@ For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbReque
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
- 
-
- 
 

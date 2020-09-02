@@ -8,8 +8,6 @@ ms.assetid: 72bfa383-a7f2-4aa6-a45c-564928705e42
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::PublishDriverInterface"]
 ms.keywords: IPrintOemUni interface [Print Devices],PublishDriverInterface method, IPrintOemUni.PublishDriverInterface, IPrintOemUni::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.PublishDriverInterface"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni.PublishDriverInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::PublishDriverInterface
+ - prcomoem/IPrintOemUni::PublishDriverInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni.PublishDriverInterface
 ---
 
 # IPrintOemUni::PublishDriverInterface
@@ -47,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni::PublishDriverInterface</code> method allows a rendering plug-in for Unidrv to obtain the Unidrv driver's <b>IPrintOemDriverUni</b> or <b>IPrintCoreHelperUni</b> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pIUnknown
 
 Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintoemdriveruni-com-interface">IPrintOemDriverUni COM Interface</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni">IPrintCoreHelperUni interface</a>.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -95,14 +86,8 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A rendering plug-in for <a href="https://docs.microsoft.com/windows-hardware/drivers/">Unidrv</a> must implement the <code>IPrintOemUni::PublishDriverInterface</code> method, and the method must return S_OK in response to at least one call. Otherwise, the driver will not call the plug-in's other <b>IPrintOemUni</b> interface methods.
 
@@ -119,19 +104,11 @@ If the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getinfo">IPrintOemUni::GetInfo</a>
- 
-
- 
 

@@ -3,9 +3,8 @@ UID: NF:icm.ColorAdapterGetDisplayProfile
 title: ColorAdapterGetDisplayProfile function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: ea95bc91-08fc-47f2-ae34-95f2b5fa2b5d
-ms.date: 09/10/2018
+ms.date: 08/13/2020
 keywords: ["ColorAdapterGetDisplayProfile function"]
-ms.topic: function
 ms.keywords: ColorAdapterGetDisplayProfile
 req.header: icm.h
 req.include-header:
@@ -32,14 +31,11 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetDisplayProfile
-product:
-- Windows
 targetos: Windows
 
 ---
 
 # ColorAdapterGetDisplayProfile function
-
 
 ## -description
 
@@ -55,7 +51,6 @@ targetos: Windows
 ### -param profileID
 
 ### -param bUseAccurate
-
 
 ## -returns
 

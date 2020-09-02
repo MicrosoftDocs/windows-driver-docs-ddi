@@ -8,8 +8,6 @@ ms.assetid: 19aa5905-f611-46e2-8d70-a6cc4649c911
 ms.date: 02/23/2018
 keywords: ["EtwEventEnabled function"]
 ms.keywords: EtwEventEnabled, EtwEventEnabled function [Driver Development Tools], devtest.etweventenabled, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml, wdm/EtwEventEnabled
-f1_keywords:
- - "wdm/EtwEventEnabled"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- EtwEventEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EtwEventEnabled
+ - wdm/EtwEventEnabled
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - EtwEventEnabled
 ---
 
 # EtwEventEnabled function
@@ -47,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>EtwEventEnabled</b> function verifies whether an event is enabled.
-
 
 ## -parameters
 
+### -param RegHandle 
 
-
-
-### -param RegHandle [in]
-
+[in]
 A pointer to the event provider registration handle, which is returned by the 
       <b>EtwRegister</b> function if the event provider registration is successful.
 
+### -param EventDescriptor 
 
-### -param EventDescriptor [in]
-
-A pointer to a constant EVENT_DESCRIPTOR. 
-
+[in]
+A pointer to a constant EVENT_DESCRIPTOR.
 
 ## -returns
-
-
 
 The <b>EtwEventEnabled</b> function returns <b>TRUE</b> if the 
       event is enabled and <b>FALSE</b> if the event is not enabled.
 
-
-
-
 ## -remarks
-
-
 
 If logging an event requires additional computing, the <b>EtwEventEnabled</b> 
      function can be used to determine whether the event is going to be logged, which will minimize the overhead when 
@@ -88,16 +75,7 @@ If logging an event requires additional computing, the <b>EtwEventEnabled</b>
 If the event descriptor is not available, use the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a> function instead.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
- 
-
- 
 

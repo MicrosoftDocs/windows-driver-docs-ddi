@@ -6,10 +6,8 @@ old-location: wdf\wdf_request_stop_action_flags_umdf.htm
 tech.root: wdf
 ms.assetid: b9e3ea22-be24-4f36-abde-339495b9ed1c
 ms.date: 02/26/2018
-keywords: ["_WDF_REQUEST_STOP_ACTION_FLAGS enumeration"]
+keywords: ["WDF_REQUEST_STOP_ACTION_FLAGS enumeration"]
 ms.keywords: WDF_REQUEST_STOP_ACTION_FLAGS, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionInvalid, WdfRequestStopActionPurge, WdfRequestStopActionSuspend, WdfRequestStopRequestCancelable, _WDF_REQUEST_STOP_ACTION_FLAGS, umdf.wdf_request_stop_action_flags, umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, wdf.wdf_request_stop_action_flags_umdf, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, wudfddi_types/WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopActionPurge, wudfddi_types/WdfRequestStopActionSuspend, wudfddi_types/WdfRequestStopRequestCancelable
-f1_keywords:
- - "wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wudfddi_types.h
-api_name:
-- WDF_REQUEST_STOP_ACTION_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_STOP_ACTION_FLAGS
+f1_keywords:
+ - _WDF_REQUEST_STOP_ACTION_FLAGS
+ - wudfddi_types/_WDF_REQUEST_STOP_ACTION_FLAGS
+ - WDF_REQUEST_STOP_ACTION_FLAGS
+ - wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wudfddi_types.h
+api_name:
+ - WDF_REQUEST_STOP_ACTION_FLAGS
 ---
 
 # _WDF_REQUEST_STOP_ACTION_FLAGS enumeration
@@ -47,45 +48,30 @@ req.typenames: WDF_REQUEST_STOP_ACTION_FLAGS
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_request_stop_action_flags">WDF_REQUEST_STOP_ACTION_FLAGS</a> enumeration contains values that identify the state of a stop action request in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackiostop-oniostop">IQueueCallbackIoStop::OnIoStop</a> method.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WdfRequestStopActionInvalid
 
 If this value is set to 1, the request is invalid.
 
-
 ### -field WdfRequestStopActionSuspend
 
 If this value is set to 1, the device is suspended.
-
 
 ### -field WdfRequestStopActionPurge
 
 If this value is set to 1, the device and queue are removed.
 
-
 ### -field WdfRequestStopRequestCancelable
 
 If this value is set to 1, the request is marked as cancelable.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackiostop-oniostop">IQueueCallbackIoStop::OnIoStop</a>
- 
-
- 
 

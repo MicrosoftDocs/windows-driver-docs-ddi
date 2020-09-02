@@ -8,8 +8,6 @@ ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni::MemoryUsage"]
 ms.keywords: IPrintOemUni interface [Print Devices],MemoryUsage method, IPrintOemUni.MemoryUsage, IPrintOemUni::MemoryUsage, MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni.MemoryUsage"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni.MemoryUsage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni::MemoryUsage
+ - prcomoem/IPrintOemUni::MemoryUsage
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni.MemoryUsage
 ---
 
 # IPrintOemUni::MemoryUsage
@@ -47,28 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni::MemoryUsage</code> method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
-
 ### -param pMemoryUsage
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a> structure.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -111,14 +101,8 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <code>IPrintOemUni::MemoryUsage</code> method's purpose is to help the Unidrv driver determine the optimum size for the GDI drawing surface, based on the memory requirements of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a> method. Implementation of the <code>IPrintOemUni::MemoryUsage</code> method is optional.
 
@@ -150,13 +134,7 @@ If an <code>IPrintOemUni::MemoryUsage</code> method is not provided, Unidrv allo
 
 The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "MemoryUsage" as input.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a>
 
@@ -171,7 +149,4 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a>
- 
-
- 
 

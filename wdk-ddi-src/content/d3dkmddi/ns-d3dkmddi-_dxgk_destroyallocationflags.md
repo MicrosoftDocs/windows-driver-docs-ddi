@@ -5,10 +5,8 @@ description: The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release
 old-location: display\dxgk_destroyallocationflags.htm
 ms.assetid: 8f848d68-cef4-45a2-bdda-1bc8c9df6272
 ms.date: 05/10/2018
-keywords: ["_DXGK_DESTROYALLOCATIONFLAGS structure"]
+keywords: ["DXGK_DESTROYALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_DESTROYALLOCATIONFLAGS, DXGK_DESTROYALLOCATIONFLAGS structure [Display Devices], DmStructs_acc32f8d-3d16-493e-be05-e739bc635bd0.xml, _DXGK_DESTROYALLOCATIONFLAGS, d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS, display.dxgk_destroyallocationflags
-f1_keywords:
- - "d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -26,20 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_DESTROYALLOCATIONFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DESTROYALLOCATIONFLAGS
+f1_keywords:
+ - _DXGK_DESTROYALLOCATIONFLAGS
+ - d3dkmddi/_DXGK_DESTROYALLOCATIONFLAGS
+ - DXGK_DESTROYALLOCATIONFLAGS
+ - d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_DESTROYALLOCATIONFLAGS
 ---
 
 # _DXGK_DESTROYALLOCATIONFLAGS structure
@@ -47,14 +48,9 @@ req.typenames: DXGK_DESTROYALLOCATIONFLAGS
 
 ## -description
 
-
 The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release allocations.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DestroyResource
 
@@ -62,24 +58,15 @@ A UINT value that specifies whether the resource that the <b>hResource</b> membe
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 
 A member in the union that DXGK_DESTROYALLOCATIONFLAGS contains that can hold a 32-bit value that identifies how to release allocations.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_destroyallocation">DXGKARG_DESTROYALLOCATION</a>
- 
-
- 
 

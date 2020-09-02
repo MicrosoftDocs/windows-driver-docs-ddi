@@ -8,8 +8,6 @@ ms.assetid: 290d0b06-ccf7-4792-b7bb-556092845e55
 ms.date: 04/16/2018
 keywords: ["RxFinishFcbInitialization function"]
 ms.keywords: RDBSS_NTC_MAILSLOT, RDBSS_NTC_SPOOLFILE, RDBSS_NTC_STORAGE_TYPE_DIRECTORY, RDBSS_NTC_STORAGE_TYPE_FILE, RDBSS_NTC_STORAGE_TYPE_UNKNOWN, RxFinishFcbInitialization, RxFinishFcbInitialization function [Installable File System Drivers], fcb/RxFinishFcbInitialization, ifsk.rxfinishfcbinitialization, rxref_436f96f7-35ed-484b-8963-4afa559d3cfb.xml
-f1_keywords:
- - "fcb/RxFinishFcbInitialization"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Nodetype.h, Fcb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fcb.h
-api_name:
-- RxFinishFcbInitialization
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxFinishFcbInitialization
+ - fcb/RxFinishFcbInitialization
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fcb.h
+api_name:
+ - RxFinishFcbInitialization
 ---
 
 # RxFinishFcbInitialization function
@@ -47,19 +46,13 @@ req.typenames:
 
 ## -description
 
-
-<b>RxFinishFcbInitialization</b> is used to finish initializing an FCB after the successful completion of a create operation by the network mini-redirector. 
-
+<b>RxFinishFcbInitialization</b> is used to finish initializing an FCB after the successful completion of a create operation by the network mini-redirector.
 
 ## -parameters
-
-
-
 
 ### -param Fcb
 
 <p>A pointer to the MRX_FCB structure being initialized.</p>
-
 
 ### -param FileType
 
@@ -142,17 +135,11 @@ req.typenames:
   </table>
   <p> </p>
 
-
 ### -param OPTIONAL
 
 <p>Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.</p>
 
-
-
-
 ## -remarks
-
-
 
 When called as a result of an IRP_MJ_CREATE, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxcreatenetfcb">RxCreateNetFCB</a> is called first to create the FCB. If the <b>Type</b> member of the NET_ROOT to be created is not a NET_ROOT_MAILSLOT, then <b>RxFinishFcbInitialization</b> is called to finish the initialization of the FCB structure. 
 
@@ -160,13 +147,7 @@ If the <b>FcbState</b> member of the MRX_FCB structure pointed to by <i>MrxFcb</
 
 If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB does have the FCB_STATE_TIME_AND_SIZE_ALREADY_SET option set on, then the following members of the FCB structure for the mail slot will be initialized to 0: <b>Attributes</b>, <b>NumberOfLinks</b>,<b> CreationTime.QuadPart</b>,<b> LastAccessTime.QuadPart</b>, <b>LastWriteTime.QuadPart</b>, <b>LastChangeTime</b>.<b>QuadPart</b>, <b>ActualAllocationLength</b>, <b>Header.AllocationSize.QuadPart</b>, <b>Header.FileSize.QuadPart</b>, and <b>Header.ValidDataLength.QuadPart</b>
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxcreatenetfcb">RxCreateNetFCB</a>
 
@@ -241,7 +222,4 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxpreferencenetfcb">RxpReferenceNetFcb</a>
- 
-
- 
 

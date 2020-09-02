@@ -6,10 +6,8 @@ old-location: netvista\ndis_pd_capabilities.htm
 tech.root: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
 ms.date: 05/02/2018
-keywords: ["_NDIS_PD_CAPABILITIES structure"]
+keywords: ["NDIS_PD_CAPABILITIES structure"]
 ms.keywords: NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, ntddndis/NDIS_PD_CAPABILITIES
-f1_keywords:
- - "ntddndis/NDIS_PD_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_PD_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PD_CAPABILITIES
+f1_keywords:
+ - _NDIS_PD_CAPABILITIES
+ - ntddndis/_NDIS_PD_CAPABILITIES
+ - NDIS_PD_CAPABILITIES
+ - ntddndis/NDIS_PD_CAPABILITIES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_PD_CAPABILITIES
 ---
 
 # _NDIS_PD_CAPABILITIES structure
@@ -47,14 +48,9 @@ req.typenames: NDIS_PD_CAPABILITIES
 
 ## -description
 
-
 This structure indicates the PD capabilities for a provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -70,21 +66,17 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns
 
 This member is reserved and must be set to 0.
 
-
 ### -field MaximumTxPartialBufferCount
 
 The maximum partial transmit <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> chain lengths supported by the provider.
-
 
 ### -field MaximumRxPartialBufferCount
 
 The maximum partial receive <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> chain lengths supported by the provider.
 
-
 ### -field RxFilterContextWidth
 
 The filter context width that the provider supports. A provider can support up to 64-bits in width.
-
 
 ### -field CapabilityFlags
 
@@ -100,8 +92,6 @@ Flags that contain additional capabilities that the provider supports.
 <td>This flag indicates that the provider supports creation of counters with the <b>PDCounterTypeReceiveFilter</b> type that is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_counter_type">NDIS_PD_COUNTER</a> enumeration</td>
 </tr>
 </table>
- 
-
 
 ### -field MaxNumberOfRxQueues
 
@@ -109,81 +99,57 @@ The maximum number of receive queues the provider supports. This is only relevan
 
 It is possible for providers to set this value to 0, if it only supports clients to put pre-existing RSS queues into PD-mode using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/index">NdisPDOnRssReceiveQueues</a> routine.
 
-
 ### -field MaxNumberOfTxQueues
 
 The maximum number of transmit queues the provider can create using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a> routine. The provider must not set this value to 0.
-
 
 ### -field MaxNumberOfRxQueuesForDefaultVport
 
 The maximum number of receive queues that the provider supports for the default virtual port.
 
-
 ### -field MaxNumberOfTxQueuesForDefaultVport
 
 The maximum number of transmit queues that the provider supports for the default virtual port.
-
 
 ### -field MaxNumberOfRxQueuesPerNonDefaultVport
 
 The maximum number of receive queues that the provider supports for non-default virtual ports.
 
-
 ### -field MaxNumberOfTxQueuesPerNonDefaultVport
 
 The maximum number of transmit queues that the provider supports for non-default virtual ports.
-
 
 ### -field ExactMatchProfileArrayOffset
 
 The array offset for an array of NDIS_GFP_EXACT_MATCH_PROFILE structures.
 
-
 ### -field ExactMatchProfileArrayNumElements
 
 The number of elements for an array of NDIS_GFP_EXACT_MATCH_PROFILE structures.
-
 
 ### -field ExactMatchProfileArrayElementSize
 
 The number of elements for an array of NDIS_GFP_EXACT_MATCH_PROFILE structures.
 
-
 ### -field WildcardMatchProfileArrayOffset
 
 The array offset for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structures.
-
 
 ### -field WildcardMatchProfileArrayNumElements
 
 The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structures.
 
-
 ### -field WildcardMatchProfileArrayElementSize
 
 The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structures.
 
-
 ### -field MinimumModerationInterval
-
- 
-
 
 ### -field MaximumModerationInterval
 
- 
-
-
 ### -field ModerationIntervalGranularity
 
- 
-
-
 ### -field MaxRxQueueSize
-
- 
-
 
 ### -field MaxTxQueueSize
 
@@ -196,10 +162,7 @@ The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structure
 
 The DMA address width that the provider supports. Ideally, providers would support a 64-bit wide DMA address width, and setting this value to 0 indicates that a 64-bit wide DMA address. Providers must support a minimum of 32-bits in width, this means that valid values are either 0 or between 32-64 inclusive.
 
-
 ## -remarks
-
-
 
 This structure must be aligned on an 8-byte boundary.
 
@@ -207,16 +170,7 @@ If the provider has a flexible implementation where it supports a maximum number
 
 If a provider can partition Rx or Tx queues flexibly between virtual ports then is can use NDIS_PD_QUEUE_COUNT_DYNAMIC for the virtual port specific max counts.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
- 
-
- 
 

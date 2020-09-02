@@ -8,8 +8,6 @@ ms.assetid: 1261e65b-c862-4c99-89ed-c222b017272a
 ms.date: 04/16/2018
 keywords: ["KeAttachProcess function"]
 ms.keywords: KeAttachProcess, KeAttachProcess function [Installable File System Drivers], ifsk.keattachprocess, keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml, ntifs/KeAttachProcess
-f1_keywords:
- - "ntifs/KeAttachProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- KeAttachProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeAttachProcess
+ - ntifs/KeAttachProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - KeAttachProcess
 ---
 
 # KeAttachProcess function
@@ -47,20 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeAttachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kestackattachprocess">KeStackAttachProcess</a> instead.
 
-
 ## -parameters
-
-
-
 
 ### -param Process
 
 <p>Reserved.</p>
-
-
-
-
 

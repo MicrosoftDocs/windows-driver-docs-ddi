@@ -8,8 +8,6 @@ ms.assetid: e1e8605c-b3d1-40db-bb33-fc1f7ed51617
 ms.date: 04/16/2018
 keywords: ["FltSetVolumeContext function"]
 ms.keywords: FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, FltSetVolumeContext, FltSetVolumeContext function [Installable File System Drivers], fltkernel/FltSetVolumeContext, ifsk.fltsetvolumecontext
-f1_keywords:
- - "fltkernel/FltSetVolumeContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetVolumeContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetVolumeContext
+ - fltkernel/FltSetVolumeContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetVolumeContext
 ---
 
 # FltSetVolumeContext function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-<b>FltSetVolumeContext</b> sets a context for a volume. 
-
+<b>FltSetVolumeContext</b> sets a context for a volume.
 
 ## -parameters
 
+### -param Volume 
 
+[in]
+Opaque volume pointer for the volume.
 
+### -param Operation 
 
-### -param Volume [in]
-
-Opaque volume pointer for the volume. 
-
-
-### -param Operation [in]
-
+[in]
 Flag specifying details of the operation to be performed. This parameter must be one of the following: 
 
 
@@ -77,22 +72,19 @@ If a context is already set, replace it with <i>NewContext</i>. Otherwise, inser
 
 #### FLT_SET_CONTEXT_KEEP_IF_EXISTS
 
-If a context is already set, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume. 
+If a context is already set, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume.
 
+### -param NewContext 
 
-### -param NewContext [in]
+[in]
+Pointer to the new context to be set for the volume. This parameter is required and cannot be <b>NULL</b>.
 
-Pointer to the new context to be set for the volume. This parameter is required and cannot be <b>NULL</b>. 
+### -param OldContext 
 
-
-### -param OldContext [out, optional]
-
-Pointer to a caller-allocated variable that receives the address of the existing volume context for <i>Instance</i>. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
-
+[out, optional]
+Pointer to a caller-allocated variable that receives the address of the existing volume context for <i>Instance</i>. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
 
 ## -returns
-
-
 
 <b>FltSetVolumeContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -158,14 +150,8 @@ STATUS_INVALID_PARAMETER is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver calls <b>FltSetVolumeContext</b> to attach a context to a volume, or to remove or replace an existing volume context. A minifilter driver can attach only one context to a volume. 
 
@@ -181,13 +167,7 @@ To delete a volume context, call <a href="https://docs.microsoft.com/windows-har
 
 For more information about context reference counting, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -206,7 +186,4 @@ For more information about context reference counting, see <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
- 
-
- 
 

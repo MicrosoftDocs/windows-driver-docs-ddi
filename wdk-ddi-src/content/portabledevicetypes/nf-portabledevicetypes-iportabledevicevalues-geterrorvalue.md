@@ -8,8 +8,6 @@ ms.assetid: 6e5a0d31-3a89-4188-bf5f-6c7636c7106f
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetErrorValue"]
 ms.keywords: GetErrorValue, GetErrorValue method, GetErrorValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetErrorValue method, IPortableDeviceValues.GetErrorValue, IPortableDeviceValues::GetErrorValue, IPortableDeviceValuesGetErrorValue, portabledevicetypes/IPortableDeviceValues::GetErrorValue, wpddk.iportabledevicevalues_geterrorvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetErrorValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetErrorValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetErrorValue
+ - portabledevicetypes/IPortableDeviceValues::GetErrorValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetErrorValue
 ---
 
 # IPortableDeviceValues::GetErrorValue
@@ -48,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves an <b>HRESULT</b> value (type VT_ERROR) specified by a key.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
+### -param pValue 
 
-### -param pValue [out]
-
+[out]
 Pointer to the retrieved <b>HRESULT</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,31 +104,16 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-seterrorvalue">IPortableDeviceValues::SetErrorValue</a>
- 
-
- 
 

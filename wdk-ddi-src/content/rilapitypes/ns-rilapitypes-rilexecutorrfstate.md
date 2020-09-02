@@ -8,8 +8,6 @@ ms.assetid: b56f71c3-3c24-4f6b-ba50-203e17374c81
 ms.date: 05/02/2018
 keywords: ["RILEXECUTORRFSTATE structure"]
 ms.keywords: "*LPRILEXECUTORRFSTATE, RILEXECUTORRFSTATE, RILEXECUTORRFSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorrfstate, ntddrilapitypes/RILEXECUTORRFSTATE"
-f1_keywords:
- - "rilapitypes/RILEXECUTORRFSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILEXECUTORRFSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXECUTORRFSTATE, *LPRILEXECUTORRFSTATE
+f1_keywords:
+ - RILEXECUTORRFSTATE
+ - rilapitypes/RILEXECUTORRFSTATE
+ - LPRILEXECUTORRFSTATE
+ - rilapitypes/LPRILEXECUTORRFSTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILEXECUTORRFSTATE
 ---
 
 # RILEXECUTORRFSTATE structure
@@ -47,23 +48,15 @@ req.typenames: RILEXECUTORRFSTATE, *LPRILEXECUTORRFSTATE
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field fExecutorRFState
 

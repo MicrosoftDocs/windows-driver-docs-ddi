@@ -6,40 +6,45 @@ old-location: netvista\dot11_power_mgmt_mode_status_info.htm
 tech.root: netvista
 ms.assetid: A373EA34-A7CF-47B3-8194-438BE7F4FC9C
 ms.date: 02/16/2018
-keywords: ["_DOT11_POWER_MGMT_MODE_STATUS_INFO structure"]
+keywords: ["DOT11_POWER_MGMT_MODE_STATUS_INFO structure"]
 ms.keywords: "*PDOT11_POWER_MGMT_MODE_STATUSINFO, DOT11_POWER_MGMT_MODE_STATUS_INFO, DOT11_POWER_MGMT_MODE_STATUS_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_POWER_MGMT_MODE_STATUS_INFO, PDOT11_POWER_MGMT_MODE_STATUS_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_POWER_MGMT_MODE_STATUS_INFO, netvista.dot11_power_mgmt_mode_status_info, windot11/DOT11_POWER_MGMT_MODE_STATUS_INFO, windot11/PDOT11_POWER_MGMT_MODE_STATUS_INFO"
-f1_keywords:
- - "windot11/DOT11_POWER_MGMT_MODE_STATUS_INFO"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windot11.h
-api_name:
-- DOT11_POWER_MGMT_MODE_STATUS_INFO
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_POWER_MGMT_MODE_STATUS_INFO, *PDOT11_POWER_MGMT_MODE_STATUSINFO
+f1_keywords:
+ - _DOT11_POWER_MGMT_MODE_STATUS_INFO
+ - windot11/_DOT11_POWER_MGMT_MODE_STATUS_INFO
+ - PDOT11_POWER_MGMT_MODE_STATUSINFO
+ - windot11/PDOT11_POWER_MGMT_MODE_STATUSINFO
+ - DOT11_POWER_MGMT_MODE_STATUS_INFO
+ - windot11/DOT11_POWER_MGMT_MODE_STATUS_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windot11.h
+api_name:
+ - DOT11_POWER_MGMT_MODE_STATUS_INFO
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_POWER_MGMT_MODE_STATUS_INFO structure
@@ -47,27 +52,9 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_POWER_MGMT_MODE_STATUS_INFO structure describes the power mode of the hardware.
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_POWER_MGMT_MODE_STATUS_INFO {
-  NDIS_OBJECT_HEADER      Header;
-  DOT11_POWER_MODE        PowerSaveMode;
-  ULONG                   uPowerSaveLevel;
-  DOT11_POWER_MODE_REASON Reason;
-} DOT11_POWER_MGMT_MODE_STATUS_INFO, *PDOT11_POWER_MGMT_MODE_STATUS_INFO;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -91,13 +78,10 @@ The type, revision, and size of the DOT11_POWER_MGMT_MODE_STATUS_INFO structure.
 <td>DOT11_SIZEOF_POWER_MGMT_MODE_STATUS_INFO_REVISION_1</td>
 </tr>
 </table>
- 
-
 
 ### -field PowerSaveMode
 
 The current power mode of the hardware. The mode may be <b>dot11_power_mode_active</b> or <b>dot11_power_mode_powersave</b>, but should not be <b>dot11_power_mode_unknown</b>.
-
 
 ### -field uPowerSaveLevel
 
@@ -125,19 +109,23 @@ One of the following values describing power saving levels:
 <td>Maximum power saving level</td>
 </tr>
 </table>
- 
-
 
 ### -field Reason
 
 Reason that the device changed into the current power mode.
 
+## -syntax
+
+```cpp
+typedef struct _DOT11_POWER_MGMT_MODE_STATUS_INFO {
+  NDIS_OBJECT_HEADER      Header;
+  DOT11_POWER_MODE        PowerSaveMode;
+  ULONG                   uPowerSaveLevel;
+  DOT11_POWER_MODE_REASON Reason;
+} DOT11_POWER_MGMT_MODE_STATUS_INFO, *PDOT11_POWER_MGMT_MODE_STATUS_INFO;
+```
 
 ## -remarks
 
-
-
 At each transition of the mode change, a device should remember the reason it made the last change.
-
-
 

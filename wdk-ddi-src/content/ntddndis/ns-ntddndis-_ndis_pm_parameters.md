@@ -6,10 +6,8 @@ old-location: netvista\ndis_pm_parameters.htm
 tech.root: netvista
 ms.assetid: 7747645c-398f-434e-9f0c-21b6d3c7d963
 ms.date: 05/02/2018
-keywords: ["_NDIS_PM_PARAMETERS structure"]
+keywords: ["NDIS_PM_PARAMETERS structure"]
 ms.keywords: "*PNDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PARAMETERS, PNDIS_PM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PARAMETERS, miniport_power_management_ref_dc82d32a-ee0e-4167-b322-f0b91ece8002.xml, netvista.ndis_pm_parameters, ntddndis/NDIS_PM_PARAMETERS, ntddndis/PNDIS_PM_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_PM_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_PM_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PM_PARAMETERS, *PNDIS_PM_PARAMETERS
+f1_keywords:
+ - _NDIS_PM_PARAMETERS
+ - ntddndis/_NDIS_PM_PARAMETERS
+ - PNDIS_PM_PARAMETERS
+ - ntddndis/PNDIS_PM_PARAMETERS
+ - NDIS_PM_PARAMETERS
+ - ntddndis/NDIS_PM_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_PM_PARAMETERS
 ---
 
 # _NDIS_PM_PARAMETERS structure
@@ -47,15 +50,10 @@ req.typenames: NDIS_PM_PARAMETERS, *PNDIS_PM_PARAMETERS
 
 ## -description
 
-
 The <b>NDIS_PM_PARAMETERS</b> structure specifies the current or new power management hardware capabilities
   that are enabled for a network adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -76,7 +74,6 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
 Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_1.
-
 
 ### -field EnabledWoLPacketPatterns
 
@@ -178,8 +175,6 @@ A value from the incoming packet in the location specified by the WOL pattern is
 > [!NOTE]
 > Wildcard values that are enabled by this flag can include unspecified IPv6 source and destination addresses, as well as unspecified source and destination ports.
 
-
-
 ### -field EnabledProtocolOffloads
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that correspond to capabilities that the
@@ -222,7 +217,6 @@ If this bit is set, the overlying driver will request the network adapter to ena
        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-protocol-offload">OID_PM_ADD_PROTOCOL_OFFLOAD</a>,
        the driver should enable the network adapter to respond to RSN re-key requests packets while it is in a low power
        state.
-
 
 ### -field WakeUpFlags
 
@@ -339,10 +333,7 @@ If this flag is set, the MB network adapter is enabled to generate a wake-up eve
 
 If this flag is set, the MB network adapter is enabled to generate a wake-up event when the UICC (SIM) card is inserted, removed, or enters an error state. This flag is new in Windows 10.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_PM_PARAMETERS</b> structure specifies the enabled power management hardware capabilities for the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-parameters">OID_PM_PARAMETERS</a> OID. When the
@@ -361,9 +352,6 @@ An overlying driver should not try to enable capabilities that a network adapter
 > NDIS 6.20 and later drivers must use the **PowerManagementCapabilitiesEx** member of the [NDIS_BIND_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters) structure instead of the **PowerManagementCapabilities** member.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
@@ -386,7 +374,4 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-parameters">OID_PM_PARAMETERS</a>
- 
-
- 
 

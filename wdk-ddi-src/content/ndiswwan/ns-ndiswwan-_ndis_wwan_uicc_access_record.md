@@ -1,46 +1,50 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_UICC_ACCESS_RECORD
 title: _NDIS_WWAN_UICC_ACCESS_RECORD (ndiswwan.h)
-description: The NDIS_WWAN_UICC_ACCESS_RECORD structure describes information about a UICC linear fixed or cyclic file to read or to which to write. 
+description: The NDIS_WWAN_UICC_ACCESS_RECORD structure describes information about a UICC linear fixed or cyclic file to read or to which to write.
 tech.root: netvista
 ms.assetid: 6E0A8DEA-EAC1-43BD-AE55-E01640D2201A
 ms.date: 04/10/2019
-keywords: ["_NDIS_WWAN_UICC_ACCESS_RECORD structure"]
-f1_keywords:
- - "ndiswwan/_NDIS_WWAN_UICC_ACCESS_RECORD"
-ms.keywords: _NDIS_WWAN_UICC_ACCESS_RECORD, NDIS_WWAN_UICC_ACCESS_RECORD, *PNDIS_WWAN_UICC_ACCESS_RECORD, 
+keywords: ["NDIS_WWAN_UICC_ACCESS_RECORD structure"]
+ms.keywords: _NDIS_WWAN_UICC_ACCESS_RECORD, NDIS_WWAN_UICC_ACCESS_RECORD, *PNDIS_WWAN_UICC_ACCESS_RECORD,
 req.header: ndiswwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NDIS_WWAN_UICC_ACCESS_RECORD, *PNDIS_WWAN_UICC_ACCESS_RECORD
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndiswwan.h
-api_name: 
-- _NDIS_WWAN_UICC_ACCESS_RECORD
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _NDIS_WWAN_UICC_ACCESS_RECORD
+ - ndiswwan/_NDIS_WWAN_UICC_ACCESS_RECORD
+ - PNDIS_WWAN_UICC_ACCESS_RECORD
+ - ndiswwan/PNDIS_WWAN_UICC_ACCESS_RECORD
+ - NDIS_WWAN_UICC_ACCESS_RECORD
+ - ndiswwan/NDIS_WWAN_UICC_ACCESS_RECORD
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - _NDIS_WWAN_UICC_ACCESS_RECORD
 ---
 
 # _NDIS_WWAN_UICC_ACCESS_RECORD structure
 
+
 ## -description
 
-The **NDIS_WWAN_UICC_ACCESS_RECORD** structure describes information about a UICC linear fixed or cyclic file to read or to which to write. 
+The **NDIS_WWAN_UICC_ACCESS_RECORD** structure describes information about a UICC linear fixed or cyclic file to read or to which to write.
 
 ## -struct-fields
 
@@ -55,7 +59,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_UICC_
 | Size | sizeof(NDIS_WWAN_UICC_ACCESS_RECORD) |
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
- 
+
 ### -field UiccAccessRecord
 
 A formatted [**WWAN_UICC_ACCESS_RECORD**](../wwan/ns-wwan-_wwan_uicc_access_record.md) structure that describes the linear fixed or cyclic UICC file.
@@ -73,3 +77,4 @@ This structure is used in the payload of an [OID_WWAN_UICC_ACCESS_RECORD](https:
 [NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response)
 
 [**WWAN_UICC_ACCESS_RECORD**](../wwan/ns-wwan-_wwan_uicc_access_record.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 0978d4cd-3ed1-478b-b5ea-8fe21811526c
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceValues interface, IPortableDeviceValues interface,Clear method, IPortableDeviceValues.Clear, IPortableDeviceValues::Clear, IPortableDeviceValuesClear, portabledevicetypes/IPortableDeviceValues::Clear, wpddk.iportabledevicevalues_clear
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.Clear"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::Clear
+ - portabledevicetypes/IPortableDeviceValues::Clear
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.Clear
 ---
 
 # IPortableDeviceValues::Clear
@@ -48,16 +47,9 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Deletes all items from the collection.
 
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -78,27 +70,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method frees the memory for all dynamically allocated items in the collection. For interfaces, it calls <b>Release</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
- 
-
- 
 

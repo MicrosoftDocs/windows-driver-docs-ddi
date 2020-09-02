@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbNotifyDpc"
+ - DXGKCB_NOTIFY_DPC
+ - d3dkmddi/DXGKCB_NOTIFY_DPC
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_NOTIFY_DPC callback function
+
 
 ## -description
 

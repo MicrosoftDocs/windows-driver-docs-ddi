@@ -8,8 +8,6 @@ ms.assetid: 7d0a5d28-175a-44a7-888f-d11dc3f55904
 ms.date: 04/16/2018
 keywords: ["SeTokenIsAdmin function"]
 ms.keywords: SeTokenIsAdmin, SeTokenIsAdmin routine [Installable File System Drivers], ifsk.setokenisadmin, ntifs/SeTokenIsAdmin, seref_e621b2f6-c7c3-4df0-90d4-87a42080e1bd.xml
-f1_keywords:
- - "ntifs/SeTokenIsAdmin"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeTokenIsAdmin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeTokenIsAdmin
+ - ntifs/SeTokenIsAdmin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeTokenIsAdmin
 ---
 
 # SeTokenIsAdmin function
@@ -47,42 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeTokenIsAdmin</b> routine determines whether a token contains the local administrators group.
-
 
 ## -parameters
 
+### -param Token 
 
-
-
-### -param Token [in]
-
+[in]
 Pointer to the token.
-
 
 ## -returns
 
-
-
 <b>SeTokenIsAdmin</b> returns <b>TRUE</b> if the token contains the local administrators group, <b>FALSE</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceimpersonationtoken">PsDereferenceImpersonationToken</a>
 
@@ -109,7 +90,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisrestricted">SeTokenIsRestricted</a>
- 
-
- 
 

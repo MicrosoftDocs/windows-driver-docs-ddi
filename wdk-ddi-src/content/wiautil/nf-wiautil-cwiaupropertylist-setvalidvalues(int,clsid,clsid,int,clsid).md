@@ -8,8 +8,6 @@ ms.assetid: d401ed85-de6b-4758-b7c4-d6fcd59c157e
 ms.date: 09/07/2018
 keywords: ["CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,CLSID,CLSID,INT,CLSID), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT,CLSID*,CLSID*,INT,CLSID**), CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(CLSID,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_clsid__list_, wiauFncs_fb681759-0ab5-47ba-8e35-4a0a8d28e52f.xml, wiautil/CWiauPropertyList::SetValidValues
-f1_keywords:
- - "wiautil/CWiauPropertyList.SetValidValues"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauPropertyList.SetValidValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - CWiauPropertyList::SetValidValues
+ - wiautil/CWiauPropertyList::SetValidValues
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauPropertyList.SetValidValues
 ---
 
 # CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID)
+
 
 ## -description
 
@@ -78,3 +78,4 @@ Pointer to a memory location that contains the address of the first property in 
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
+

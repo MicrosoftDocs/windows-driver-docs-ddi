@@ -2,7 +2,7 @@
 UID: NF:ntifs.RtlQueryPackageIdentityEx
 title: RtlQueryPackageIdentityEx function
 author: windows-driver-content
-description: RtlQueryPackageIdentityEx returns the associated full package name. It can optionally also return the package relative application name, and whether an application is considered packaged. 
+description: RtlQueryPackageIdentityEx returns the associated full package name. It can optionally also return the package relative application name, and whether an application is considered packaged.
 tech.root: ifsk
 ms.assetid: c4d1d0f4-1ca6-4f2b-91a0-8356a5d6cdde
 ms.author: windowsdriverdev
@@ -10,39 +10,40 @@ ms.date: 10/30/2019
 ms.topic: function
 ms.keywords: RtlQueryPackageIdentityEx
 req.header: ntifs.h
-f1_keywords:
- - "ntifs/RtlQueryPackageIdentityEx"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Available on Windows 8.1 and later versions
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- RtlQueryPackageIdentityEx
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - RtlQueryPackageIdentityEx
+ - ntifs/RtlQueryPackageIdentityEx
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - 
+api_name:
+ - RtlQueryPackageIdentityEx
+product:
+ - Windows
 ---
 
 # RtlQueryPackageIdentityEx function
+
 
 ## -description
 
@@ -90,3 +91,4 @@ Pointer to a value that receives a bitmask of values for the package attribute.
 ## -remarks
 
 ## -see-also
+

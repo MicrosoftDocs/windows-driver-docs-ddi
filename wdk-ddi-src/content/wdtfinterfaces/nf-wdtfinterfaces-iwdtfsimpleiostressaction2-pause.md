@@ -8,8 +8,6 @@ ms.assetid: 9a0c66cd-3065-4532-8543-22d6f202fb74
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOStressAction2::Pause"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Pause method, IWDTFSimpleIOStressAction2.Pause, IWDTFSimpleIOStressAction2::Pause, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Pause, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Pause, Pause, Pause method [Windows Device Testing Framework], Pause method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_pause, wdtfinterfaces/IWDTFSimpleIOStressAction2::Pause
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOStressAction2.Pause"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOStressAction2.Pause
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOStressAction2::Pause
+ - wdtfinterfaces/IWDTFSimpleIOStressAction2::Pause
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOStressAction2.Pause
 ---
 
 # IWDTFSimpleIOStressAction2::Pause
@@ -47,39 +46,23 @@ req.typenames:
 
 ## -description
 
-
 Pauses the I/O.
-
 
 ## -parameters
 
+### -param pResult 
 
-
-
-### -param pResult [out, retval]
-
+[out, retval]
 True if the I/O operation after the last 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a> or 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Continue</a> succeeded; 
 otherwise, false.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>
- 
-
- 
 

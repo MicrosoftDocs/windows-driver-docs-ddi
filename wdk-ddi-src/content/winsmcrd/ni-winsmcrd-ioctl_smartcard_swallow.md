@@ -8,8 +8,6 @@ ms.assetid: c229769d-8798-436e-bd26-9dfd507fba9c
 ms.date: 02/22/2018
 keywords: ["IOCTL_SMARTCARD_SWALLOW IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_SWALLOW, IOCTL_SMARTCARD_SWALLOW control, IOCTL_SMARTCARD_SWALLOW control code [Smart Card Reader Devices], scioctls_71a14048-5e68-45c7-ad72-03c6350b9072.xml, smartcrd.ioctl_smartcard_swallow, winsmcrd/IOCTL_SMARTCARD_SWALLOW
-f1_keywords:
- - "winsmcrd/IOCTL_SMARTCARD_SWALLOW"
 req.header: winsmcrd.h
 req.include-header: Winsmcrd.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsmcrd.h
-api_name:
-- IOCTL_SMARTCARD_SWALLOW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SMARTCARD_SWALLOW
+ - winsmcrd/IOCTL_SMARTCARD_SWALLOW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsmcrd.h
+api_name:
+ - IOCTL_SMARTCARD_SWALLOW
 ---
 
 # IOCTL_SMARTCARD_SWALLOW IOCTL
@@ -47,63 +46,25 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_SMARTCARD_SWALLOW request causes the smart card reader to swallow the card.
-
-
-
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-None 
-
+None
 
 ### -input-buffer-length
 
-
-
-
-
-
-
-
 ### -output-buffer
 
-None 
-
+None
 
 ### -output-buffer-length
 
-
-
-
-
-
-
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -155,16 +116,10 @@ The reader does not support swallowing.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The <b>Information</b> member must be set to zero.
 
 The <b>Status</b> member is set to one of the values in the status block table.
-
-
 

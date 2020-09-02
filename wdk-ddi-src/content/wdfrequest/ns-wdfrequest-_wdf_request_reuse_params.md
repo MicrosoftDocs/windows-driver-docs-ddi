@@ -6,10 +6,8 @@ old-location: wdf\wdf_request_reuse_params.htm
 tech.root: wdf
 ms.assetid: 292e8a75-2035-4333-8a3c-28e79549d374
 ms.date: 02/26/2018
-keywords: ["_WDF_REQUEST_REUSE_PARAMS structure"]
+keywords: ["WDF_REQUEST_REUSE_PARAMS structure"]
 ms.keywords: "*PWDF_REQUEST_REUSE_PARAMS, DFRequestObjectRef_07ccbf40-797b-41c5-9f81-87c1494a69ce.xml, PWDF_REQUEST_REUSE_PARAMS, PWDF_REQUEST_REUSE_PARAMS structure pointer, WDF_REQUEST_REUSE_PARAMS, WDF_REQUEST_REUSE_PARAMS structure, _WDF_REQUEST_REUSE_PARAMS, kmdf.wdf_request_reuse_params, wdf.wdf_request_reuse_params, wdfrequest/PWDF_REQUEST_REUSE_PARAMS, wdfrequest/WDF_REQUEST_REUSE_PARAMS"
-f1_keywords:
- - "wdfrequest/WDF_REQUEST_REUSE_PARAMS"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfrequest.h
-api_name:
-- WDF_REQUEST_REUSE_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_REUSE_PARAMS, *PWDF_REQUEST_REUSE_PARAMS
+f1_keywords:
+ - _WDF_REQUEST_REUSE_PARAMS
+ - wdfrequest/_WDF_REQUEST_REUSE_PARAMS
+ - PWDF_REQUEST_REUSE_PARAMS
+ - wdfrequest/PWDF_REQUEST_REUSE_PARAMS
+ - WDF_REQUEST_REUSE_PARAMS
+ - wdfrequest/WDF_REQUEST_REUSE_PARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfrequest.h
+api_name:
+ - WDF_REQUEST_REUSE_PARAMS
 ---
 
 # _WDF_REQUEST_REUSE_PARAMS structure
@@ -47,40 +50,29 @@ req.typenames: WDF_REQUEST_REUSE_PARAMS, *PWDF_REQUEST_REUSE_PARAMS
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_REQUEST_REUSE_PARAMS</b> structure specifies information that is associated with a reused I/O request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Flags
 
 A bitwise OR of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_reuse_flags">WDF_REQUEST_REUSE_FLAGS</a>-typed flags.
-
 
 ### -field Status
 
 An NTSTATUS value that the framework assigns to the request.
 
-
 ### -field NewIrp
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure. This member's value is optional and can be <b>NULL</b>. 
-
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure. This member's value is optional and can be <b>NULL</b>.
 
 ## -remarks
-
-
 
 The <b>WDF_REQUEST_REUSE_PARAMS</b> structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>.
 
@@ -90,13 +82,7 @@ If a lower driver needs to access the <b>Status</b> value, it can find it in the
 
 You can set a <b>NewIrp</b> value only if the I/O request that you supply to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a> was created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcreate">WdfRequestCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcreatefromirp">WdfRequestCreateFromIrp</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_reuse_flags">WDF_REQUEST_REUSE_FLAGS</a>
 
@@ -115,7 +101,4 @@ You can set a <b>NewIrp</b> value only if the I/O request that you supply to <a 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>
- 
-
- 
 

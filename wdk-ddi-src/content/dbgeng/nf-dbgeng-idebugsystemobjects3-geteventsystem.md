@@ -8,8 +8,6 @@ ms.assetid: b0a3ce92-b29a-4c5e-8cab-18fc92787e2e
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3::GetEventSystem"]
 ms.keywords: GetEventSystem, GetEventSystem method [Windows Debugging], GetEventSystem method [Windows Debugging],IDebugSystemObjects3 interface, GetEventSystem method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects3.GetEventSystem, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects3::GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem
-f1_keywords:
- - "dbgeng/IDebugSystemObjects3.GetEventSystem"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects3.GetEventSystem
-- IDebugSystemObjects4.GetEventSystem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects3::GetEventSystem
+ - dbgeng/IDebugSystemObjects3::GetEventSystem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects3.GetEventSystem
+ - IDebugSystemObjects4.GetEventSystem
 ---
 
 # IDebugSystemObjects3::GetEventSystem
@@ -48,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetEventSystem</b> method returns the engine target ID for the target in which the last event occurred.
-
 
 ## -parameters
 
+### -param Id 
 
-
-
-### -param Id [out]
-
+[out]
 Receives the engine target ID.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -85,15 +77,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>
 
@@ -108,7 +93,4 @@ The method was successful.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: C360556B-5A28-4FC3-9304-6000061A1D69
 ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function"]
 ms.keywords: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses], buses.ucm_connector_typec_attach_params_init, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
-f1_keywords:
- - "ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ucmmanager.h
-api_name:
-- UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
+ - ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ucmmanager.h
+api_name:
+ - UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 ---
 
 # UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function
@@ -47,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param Params
 
 <p>Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params"><b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b></a> structure to initialize.</p>
 
-
 ### -param Partner
 
 <p>A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner"><b>UCM_TYPE_C_PORT_STATE</b></a>-typed flag that indicates the state of the partner port.</p>
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
- 
-
- 
 

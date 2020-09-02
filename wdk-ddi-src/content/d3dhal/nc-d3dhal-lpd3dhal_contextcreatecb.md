@@ -8,8 +8,6 @@ ms.assetid: c960c3f4-7565-4163-b8c2-a13643110c8c
 ms.date: 05/10/2018
 keywords: ["LPD3DHAL_CONTEXTCREATECB callback function"]
 ms.keywords: D3dContextCreate, D3dContextCreate callback function [Display Devices], LPD3DHAL_CONTEXTCREATECB, LPD3DHAL_CONTEXTCREATECB callback, d3dfncs_d126e9ed-3783-4cc1-8fd6-34592b95bec7.xml, d3dhal/D3dContextCreate, display.d3dcontextcreate
-f1_keywords:
- - "d3dhal/D3dContextCreate"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dhal.h
-api_name:
-- D3dContextCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - LPD3DHAL_CONTEXTCREATECB
+ - d3dhal/LPD3DHAL_CONTEXTCREATECB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dhal.h
+api_name:
+ - D3dContextCreate
 ---
 
 # LPD3DHAL_CONTEXTCREATECB callback function
@@ -47,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>D3dContextCreate</b> function creates a context.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,19 +56,11 @@ The <b>D3dContextCreate</b> function creates a context.
 
 Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_contextcreatedata">D3DHAL_CONTEXTCREATEDATA</a> structure that contains the information required to create a context and the data that the driver should store in the new context.
 
-
 ## -returns
-
-
 
 <b>D3dContextCreate</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 <b>D3dContextCreate</b> must be implemented in drivers that support Microsoft Direct3D. It should perform the following steps:
 
@@ -102,15 +88,9 @@ State is not shared between contexts; therefore, the driver must maintain full s
 
 The driver must be able to reference all texture handles that are created within a context. The driver can then clean up all driver-specific data related to textures created within this context when a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a> call is made. 
 
-<b>D3dContextCreate</b> can be called with a disabled <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> for more information. 
-
-
-
+<b>D3dContextCreate</b> can be called with a disabled <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> for more information.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_contextcreatedata">D3DHAL_CONTEXTCREATEDATA</a>
 
@@ -125,7 +105,4 @@ The driver must be able to reference all texture handles that are created within
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
- 
-
- 
 

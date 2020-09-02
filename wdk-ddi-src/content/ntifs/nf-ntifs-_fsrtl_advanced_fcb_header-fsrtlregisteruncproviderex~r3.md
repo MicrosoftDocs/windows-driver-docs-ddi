@@ -10,6 +10,7 @@ keywords: ["FsRtlRegisterUncProviderEx function"]
 ms.keywords: FsRtlRegisterUncProviderEx, FsRtlRegisterUncProviderEx routine [Installable File System Drivers], fsrtlref_ae033ff2-3d3a-468c-973d-d6a78a2293a2.xml, ifsk.fsrtlregisteruncproviderex, ntifs/FsRtlRegisterUncProviderEx
 f1_keywords:
  - "ntifs/FsRtlRegisterUncProviderEx"
+ - "FsRtlRegisterUncProviderEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlRegisterUncProviderEx
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,23 +55,23 @@ The <b>FsRtlRegisterUncProviderEx</b> routine registers a network redirector as 
 
 
 
-### -param MupHandle [out]
-
+### -param MupHandle 
+[out]
 A pointer to a location in which to return a MUP handle to be used when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProviderEx</b> returns STATUS_SUCCESS.
 
 
-### -param RedirDevName [in]
-
+### -param RedirDevName 
+[in]
 A pointer to a Unicode string that contains the device name of the network redirector. MUP uses this device name to create a symbolic link in the Object Manager namespace whose target is \Device\Mup.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to an unnamed device object that represents the network redirector.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask that indicates features supported by the network redirector. A network redirector sets a bit to indicate that a feature is supported. The <i>Flags</i> parameter has two options:
 
 FSRTL_UNC_PROVIDER_FLAGS_MAILSLOTS_SUPPORTED

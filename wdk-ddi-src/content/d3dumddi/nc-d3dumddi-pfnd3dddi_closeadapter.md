@@ -28,7 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CloseAdapter"
+ - PFND3DDDI_CLOSEADAPTER
+ - d3dumddi/PFND3DDDI_CLOSEADAPTER
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CLOSEADAPTER callback function
+
 
 ## -description
 

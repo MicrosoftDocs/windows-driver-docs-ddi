@@ -8,8 +8,6 @@ ms.assetid: 6b39e89e-21cc-404f-b9fc-6cad0b5c8d22
 ms.date: 03/29/2018
 keywords: ["AtaPortControllerSyncRoutine function"]
 ms.keywords: AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices], atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine, storage.ataportcontrollersyncroutine
-f1_keywords:
- - "irb/AtaPortControllerSyncRoutine"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- irb.h
-api_name:
-- AtaPortControllerSyncRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortControllerSyncRoutine
+ - irb/AtaPortControllerSyncRoutine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - irb.h
+api_name:
+ - AtaPortControllerSyncRoutine
 ---
 
 # AtaPortControllerSyncRoutine function
@@ -47,39 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortControllerSyncRoutine</b> routine provides synchronized access to data structures that are shared across all channels on a controller.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param ChannelExtension 
 
-
-
-### -param ChannelExtension [in]
-
-A pointer to the channel extension. 
-
+[in]
+A pointer to the channel extension.
 
 ### -param CallBackRoutine
 
 <p>A pointer to the routine to call. </p>
 
-
-
-
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
-
-
 
 The miniport driver uses this routine to synchronize access to data structures that are shared across channels on a controller. The miniport driver, however, should use this routine very sparingly.
 
@@ -100,15 +85,7 @@ VOID
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestsynchronizedroutine">AtaPortRequestSynchronizedRoutine</a>
- 
-
- 
 

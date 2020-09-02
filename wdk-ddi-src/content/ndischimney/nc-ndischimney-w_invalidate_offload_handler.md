@@ -8,8 +8,6 @@ ms.assetid: 58226149-daea-40aa-afb6-13ce615434b3
 ms.date: 05/02/2018
 keywords: ["W_INVALIDATE_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportInvalidateOffload, MiniportInvalidateOffload callback function [Network Drivers Starting with Windows Vista], W_INVALIDATE_OFFLOAD_HANDLER, W_INVALIDATE_OFFLOAD_HANDLER callback, ndischimney/MiniportInvalidateOffload, netvista.miniportinvalidateoffload, tcp_chim_miniport_func_226472dd-905a-42ef-8251-b32acfa93f0b.xml
-f1_keywords:
- - "ndischimney/MiniportInvalidateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- MiniportInvalidateOffload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - W_INVALIDATE_OFFLOAD_HANDLER
+ - ndischimney/W_INVALIDATE_OFFLOAD_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - MiniportInvalidateOffload
 ---
 
 # W_INVALIDATE_OFFLOAD_HANDLER callback function
@@ -47,20 +46,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The 
   <i>MiniportInvalidateOffload</i> function invalidates previously offloaded TCP chimney state objects.
 
-
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
@@ -69,18 +64,15 @@ The handle to an offload-target allocated context area in which the offload targ
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param OffloadBlockList 
 
-### -param OffloadBlockList [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such
      structures. These structures identify the offloaded state object that is being invalidated.
 
-
 ## -remarks
-
-
 
 The 
     <i>MiniportInvalidateOffload</i> function stores the 
@@ -114,13 +106,7 @@ Eventually, the host stack will
     terminated the offload of that state object. The offload target must not use the invalidated state object
     or any TCP connections that depend on that state object for sending data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -137,7 +123,4 @@ Eventually, the host stack will
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

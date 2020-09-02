@@ -8,8 +8,6 @@ ms.assetid: 79E89E4A-3B06-40FA-BFA6-598331C0A330
 ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_DIAGNOSTIC, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC, storage.ioctl_scsi_miniport_diagnostic
-f1_keywords:
- - "ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC"
 req.header: ntddscsi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddscsi.h
-api_name:
-- IOCTL_SCSI_MINIPORT_DIAGNOSTIC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SCSI_MINIPORT_DIAGNOSTIC
+ - ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddscsi.h
+api_name:
+ - IOCTL_SCSI_MINIPORT_DIAGNOSTIC
 ---
 
 # IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL
@@ -47,73 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SCSI_MINIPORT_DIAGNOSTIC</b> 
    control code is use to perform a diagnostic request to the Miniport.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-
-
-
-
-
-
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
-
-
-
-
-
-
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -121,12 +71,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -147,22 +92,11 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
 
 Parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_storage_diagnostic_mp_request">STORAGE_DIAGNOSTIC_MP_REQUEST</a>
- 
-
- 
 

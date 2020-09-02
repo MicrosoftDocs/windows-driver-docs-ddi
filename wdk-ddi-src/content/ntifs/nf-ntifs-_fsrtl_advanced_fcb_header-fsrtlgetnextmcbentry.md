@@ -8,8 +8,6 @@ ms.assetid: 0d77bb03-debb-4ba8-ac6b-ce130a8a16fa
 ms.date: 04/16/2018
 keywords: ["FsRtlGetNextMcbEntry function"]
 ms.keywords: FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, ntifs/FsRtlGetNextMcbEntry
-f1_keywords:
- - "ntifs/FsRtlGetNextMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlGetNextMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlGetNextMcbEntry
+ - ntifs/FsRtlGetNextMcbEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlGetNextMcbEntry
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlGetNextMcbEntry function
@@ -50,40 +49,27 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlGetNextMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry">FsRtlGetNextLargeMcbEntry</a> instead.
 
-
 ## -parameters
-
-
-
 
 ### -param Mcb
 
 <p>Reserved.</p>
 
-
 ### -param RunIndex
 
 Reserved.
-
 
 ### -param Vbn
 
 Reserved.
 
-
 ### -param Lbn
 
 Reserved.
 
-
 ### -param SectorCount
 
 Reserved.
-
-
-
-
 

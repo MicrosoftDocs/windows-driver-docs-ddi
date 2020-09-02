@@ -7,8 +7,6 @@ ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_RECLAIMALLOCATIONS callback function"]
 ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations callback function [Display Devices], PFND3DKMT_RECLAIMALLOCATIONS, PFND3DKMT_RECLAIMALLOCATIONS callback, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations
-f1_keywords:
- - "d3dkmthk/D3DKMTReclaimAllocations"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMTReclaimAllocations
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_RECLAIMALLOCATIONS
+ - d3dkmthk/PFND3DKMT_RECLAIMALLOCATIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMTReclaimAllocations
 ---
 
 # PFND3DKMT_RECLAIMALLOCATIONS callback function
@@ -74,7 +73,4 @@ Returns one of the following values:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_reclaimallocations">D3DKMT_RECLAIMALLOCATIONS</a>
- 
-
- 
 

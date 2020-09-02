@@ -8,8 +8,6 @@ ms.assetid: 2226804c-dbdd-4855-9ba5-7c1959941e59
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::SetOutputCallbacks"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputCallbacks method, IDebugClient2 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient2::SetOutputCallbacks, IDebugClient3 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient3::SetOutputCallbacks, IDebugClient4 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient4::SetOutputCallbacks, IDebugClient5 interface [Windows Debugging],SetOutputCallbacks method, IDebugClient5.SetOutputCallbacks, IDebugClient5::SetOutputCallbacks, IDebugClient::SetOutputCallbacks, IDebugClient_b1da4bc1-b368-475e-bd13-021358f9d234.xml, SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], SetOutputCallbacks method [Windows Debugging],IDebugClient interface, SetOutputCallbacks method [Windows Debugging],IDebugClient2 interface, SetOutputCallbacks method [Windows Debugging],IDebugClient3 interface, SetOutputCallbacks method [Windows Debugging],IDebugClient4 interface, SetOutputCallbacks method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetOutputCallbacks, dbgeng/IDebugClient3::SetOutputCallbacks, dbgeng/IDebugClient4::SetOutputCallbacks, dbgeng/IDebugClient5::SetOutputCallbacks, dbgeng/IDebugClient::SetOutputCallbacks, debugger.setoutputcallbacks
-f1_keywords:
- - "dbgeng/IDebugClient.SetOutputCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,23 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.SetOutputCallbacks
-- IDebugClient2.SetOutputCallbacks
-- IDebugClient3.SetOutputCallbacks
-- IDebugClient4.SetOutputCallbacks
-- IDebugClient5.SetOutputCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::SetOutputCallbacks
+ - dbgeng/IDebugClient5::SetOutputCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.SetOutputCallbacks
+ - IDebugClient2.SetOutputCallbacks
+ - IDebugClient3.SetOutputCallbacks
+ - IDebugClient4.SetOutputCallbacks
+ - IDebugClient5.SetOutputCallbacks
 ---
 
 # IDebugClient5::SetOutputCallbacks
@@ -51,23 +50,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetOutputCallbacks</b> method registers an <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> object with this client.
-
 
 ## -parameters
 
+### -param Callbacks 
 
-
-
-### -param Callbacks [in, optional]
-
+[in, optional]
 Specifies the interface pointer to the output callbacks object to register with this client.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -88,14 +80,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each client can have at most one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> or <b>IDebugOutputCallbacks</b> object registered with it for output.
 
@@ -103,13 +89,7 @@ The <b>IDebugOutputCallbacks</b> interface extends the COM interface <b>IUnknown
 
 For more information about callbacks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-callback-objects">Callbacks</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getoutputcallbacks">GetOutputCallbacks</a>
 
@@ -136,7 +116,4 @@ For more information about callbacks, see <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a>
- 
-
- 
 

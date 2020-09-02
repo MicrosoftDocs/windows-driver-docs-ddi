@@ -8,8 +8,6 @@ ms.assetid: 4204b849-8195-4a1b-9bb3-1e9cbeb12223
 ms.date: 05/07/2018
 keywords: ["UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses], buses.ucmtcpci_port_controller_identification_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
-f1_keywords:
- - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucmtcpciportcontroller.h
-api_name:
-- UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
+ - ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucmtcpciportcontroller.h
+api_name:
+ - UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 ---
 
 # UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function
@@ -47,29 +46,16 @@ req.typenames:
 
 ## -description
 
-
-
                         Initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_identification">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
-                
-
 
 ## -parameters
 
+### -param Identification 
 
-
-
-### -param Identification [out]
-
+[out]
 A pointer to the driver-allocated <b>UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</b> structure.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 3e7fc02b-9562-44b9-8659-793a1d96d1e9
 ms.date: 05/02/2018
 keywords: ["NdisMRegisterIoPortRange function"]
 ms.keywords: NdisMRegisterIoPortRange, NdisMRegisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_fa0141f1-639d-485d-a074-8af029c04406.xml, ndis/NdisMRegisterIoPortRange, netvista.ndismregisterioportrange
-f1_keywords:
- - "ndis/NdisMRegisterIoPortRange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMRegisterIoPortRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMRegisterIoPortRange
+ - ndis/NdisMRegisterIoPortRange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMRegisterIoPortRange
 ---
 
 # NdisMRegisterIoPortRange function
@@ -48,45 +47,38 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMRegisterIoPortRange</b> sets up driver access to device I/O ports with the 
   <b>NdisRawReadPort<i>Xxx</i></b> and 
   <b>NdisRawWritePort<i>Xxx</i></b> functions and claims the range of I/O port addresses in the registry for that driver's
   NIC.
 
-
 ## -parameters
 
+### -param PortOffset 
 
-
-
-### -param PortOffset [out]
-
+[out]
 Specifies a caller-supplied variable in which this function returns the mapped base virtual
      address for the given bus-relative I/O port range specified by 
      <i>InitialPort</i> and 
      <i>NumberOfPorts</i> .
 
+### -param MiniportAdapterHandle 
 
-### -param MiniportAdapterHandle [in]
-
+[in]
 Specifies the handle input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param InitialPort 
 
-### -param InitialPort [in]
-
+[in]
 Specifies the bus-relative base port address for a range of ports to be mapped.
 
+### -param NumberOfPorts 
 
-### -param NumberOfPorts [in]
-
+[in]
 Specifies the number of ports in the range to be mapped.
 
-
 ## -returns
-
-
 
 <b>NdisMRegisterIoPortRange</b> can return one of the following:
 
@@ -147,14 +139,8 @@ Either the bus type or bus number is out of range or the given
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A miniport driver calls 
     <b>NdisMRegisterIoPortRange</b> from its 
@@ -185,13 +171,7 @@ Drivers of NICs with device registers in the host memory space call
     <b>NdisMMapIoSpace</b> and, subsequently, the 
     <b>NdisRead/WriteRegister<i>Xxx</i></b> functions to access the NIC registers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -274,7 +254,4 @@ Drivers of NICs with device registers in the host memory space call
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteregisterushort">NdisWriteRegisterUshort</a>
- 
-
- 
 

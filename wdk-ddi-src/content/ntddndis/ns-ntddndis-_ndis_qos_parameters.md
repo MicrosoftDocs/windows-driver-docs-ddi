@@ -6,10 +6,8 @@ old-location: netvista\ndis_qos_parameters.htm
 tech.root: netvista
 ms.assetid: 83eb72a8-d35b-445d-a207-c14a3bedd308
 ms.date: 05/02/2018
-keywords: ["_NDIS_QOS_PARAMETERS structure"]
+keywords: ["NDIS_QOS_PARAMETERS structure"]
 ms.keywords: NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_PARAMETERS, netvista.ndis_qos_parameters, ntddndis/NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS
-f1_keywords:
- - "ntddndis/NDIS_QOS_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_QOS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS
+f1_keywords:
+ - _NDIS_QOS_PARAMETERS
+ - ntddndis/_NDIS_QOS_PARAMETERS
+ - PNDIS_QOS_PARAMETERS
+ - ntddndis/PNDIS_QOS_PARAMETERS
+ - NDIS_QOS_PARAMETERS
+ - ntddndis/NDIS_QOS_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_QOS_PARAMETERS
 ---
 
 # _NDIS_QOS_PARAMETERS structure
@@ -47,17 +50,9 @@ req.typenames: NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS
 
 ## -description
 
-
-
 The <b>NDIS_QOS_PARAMETERS</b> structure specifies the NDIS Quality of Service (QoS) parameters that are enabled on a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -75,11 +70,9 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_QOS_PARAMETERS_REVISION_1.
 
-
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the status of the NDIS QoS parameters for the network adapter. For more information about this member, see <a href="https://docs.microsoft.com/">Overview of the Flags Member</a>.
-
 
 ### -field NumTrafficClasses
 
@@ -134,7 +127,6 @@ The IEEE 802.1Qav credit-based shaper (CBS) algorithm must be used as the TSA fo
 
 The IEEE 802.1Qaz Enhanced Transmission Selection (ETS) algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enhanced-transmission-selection--ets--algorithm">Enhanced Transmission Selection (ETS) Algorithm</a>.
 
-
 ### -field PfcEnable
 
 A bitmap of 32 bits. The most-significant 24 bits are reserved for future use. The least-significant 8 bits are used to specify whether PFC
@@ -188,7 +180,6 @@ is enabled on the IEEE 802.1p priority level. If the bit is set to one, PFC is e
 <div> </div>
 For more information about priority levels, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ieee-802-1p-priority-levels">IEEE 802.1p Priority Levels</a>.
 
-
 ### -field NumClassificationElements
 
 A <b>ULONG</b> value that specifies the number of elements in the traffic classification array. The offset to the first element in this array is specified  by the <b>FirstClassificationElementOffset</b> member.
@@ -213,8 +204,6 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first element i
 <div> </div>
 
 ## -remarks
-
-
 
 The <b>NDIS_QOS_PARAMETERS</b> structure specifies the parameters that define how the network adapter prioritizes transmit, or <i>egress</i>, packets. This structure is used in the following OID requests:
 
@@ -283,12 +272,7 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 <div class="alert"><b>Note</b>  If the <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags are not set, overlying drivers must not assume that the corresponding group of parameters are supported or enabled on the underlying network adapter.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -328,7 +312,4 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>
- 
-
- 
 

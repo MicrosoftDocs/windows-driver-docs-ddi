@@ -8,8 +8,6 @@ ms.assetid: A6D2C017-0D50-4AD7-9241-110C97F5FE92
 ms.date: 05/02/2018
 keywords: ["NDK_FN_READ callback function"]
 ms.keywords: NDK_FN_READ, NDK_FN_READ callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_RDMA_READ_LOCAL_INVALIDATE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkRead, NdkRead callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRead, netvista.ndk_fn_read
-f1_keywords:
- - "ndkpi/NdkRead"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_READ
+ - ndkpi/NDK_FN_READ
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkRead
 ---
 
 # NDK_FN_READ callback function
@@ -47,49 +46,43 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkRead</i> (<i>NDK_FN_READ</i>) function posts a read request on an NDK queue pair (QP).
-
 
 ## -parameters
 
+### -param pNdkQp 
 
-
-
-### -param pNdkQp [in]
-
+[in]
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value to be returned in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
-
-
 
 ### -param NDK_SGE
 
 An array of SGE structures (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>) that represent the buffers to place incoming data into.
 
-### -param nSge [in]
+### -param nSge 
 
+[in]
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
+### -param RemoteAddress 
 
-### -param RemoteAddress [in]
-
+[in]
 A remote address to read from that is presented in the local host's byte order. The NDK consumer can   add  an offset  to the remotely-provided value.
 
+### -param RemoteToken 
 
-
-### -param RemoteToken [in]
-
+[in]
 A remotely-provided memory token that  is an opaque array of bytes from the NDK consumer.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>
@@ -149,8 +142,6 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 ## -returns
 
-
-
 The 
      <i>NdkRead</i> function returns one of the following NTSTATUS codes.
 
@@ -206,24 +197,12 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>NdkRead</i> posts a read request on a queue pair (QP).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-deferred-processing-scheme">NDKPI Deferred Processing Scheme</a>
 
@@ -250,7 +229,4 @@ An error occurred.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>
- 
-
- 
 

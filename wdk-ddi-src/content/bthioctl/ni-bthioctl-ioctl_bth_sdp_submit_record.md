@@ -8,8 +8,6 @@ ms.assetid: ec6739d3-5956-4cc2-90ff-75c67c0a84e7
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_SUBMIT_RECORD IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD, IOCTL_BTH_SDP_SUBMIT_RECORD control, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD
-f1_keywords:
- - "bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthioctl.h
-api_name:
-- IOCTL_BTH_SDP_SUBMIT_RECORD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTH_SDP_SUBMIT_RECORD
+ - bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthioctl.h
+api_name:
+ - IOCTL_BTH_SDP_SUBMIT_RECORD
 ---
 
 # IOCTL_BTH_SDP_SUBMIT_RECORD IOCTL
@@ -47,21 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP record to the local SDP
      server, allowing the client to advertise that a service is available on the local computer. The profile
      driver calls 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_remove_record">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
      stop advertising the server on the local SDP server.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -69,11 +60,9 @@ The
       <b>AssociatedIrp.SystemBuffer</b> member specifies the raw SDP stream that contains the record to
       advertise.
 
-
 ### -input-buffer-length
 
 The length of the stream.
-
 
 ### -output-buffer
 
@@ -82,29 +71,13 @@ The
       handle can only be used by IOCTL_BTH_SDP_REMOVE_RECORD to remove the record submitted by
       IOCTL_BTH_SDP_SUBMIT_RECORD.
 
-
 ### -output-buffer-length
 
 The length of the buffer.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -162,16 +135,8 @@ The stream passed to the input buffer was invalid.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_remove_record">IOCTL_BTH_SDP_REMOVE_RECORD</a>
- 
-
- 
 

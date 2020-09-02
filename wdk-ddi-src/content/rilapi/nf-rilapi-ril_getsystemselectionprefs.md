@@ -8,8 +8,6 @@ ms.assetid: 957892eb-39c5-4675-a3cd-d8f8dd3e7cdd
 ms.date: 05/02/2018
 keywords: ["RIL_GetSystemSelectionPrefs function"]
 ms.keywords: RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_getsystemselectionprefs, rilapi/RIL_GetSystemSelectionPrefs
-f1_keywords:
- - "rilapi/RIL_GetSystemSelectionPrefs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_GetSystemSelectionPrefs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_GetSystemSelectionPrefs
+ - rilapi/RIL_GetSystemSelectionPrefs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_GetSystemSelectionPrefs
 ---
 
 # RIL_GetSystemSelectionPrefs function
@@ -47,31 +46,17 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

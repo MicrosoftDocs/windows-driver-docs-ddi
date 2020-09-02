@@ -10,6 +10,7 @@ keywords: ["FsRtlPostPagingFileStackOverflow function"]
 ms.keywords: FsRtlPostPagingFileStackOverflow, FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, ifsk.fsrtlpostpagingfilestackoverflow, ntifs/FsRtlPostPagingFileStackOverflow
 f1_keywords:
  - "ntifs/FsRtlPostPagingFileStackOverflow"
+ - "FsRtlPostPagingFileStackOverflow"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlPostPagingFileStackOverflow
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -56,18 +55,18 @@ The <b>FsRtlPostPagingFileStackOverflow</b> routine posts a paging file stack ov
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A context pointer to pass to the stack overflow callback routine.
 
 
-### -param Event [in]
-
+### -param Event 
+[in]
 A pointer to a caller-allocated notification event to pass to the stack overflow callback routine. Must have been initialized as nonsignaled by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>.
 
 
-### -param StackOverflowRoutine [in]
-
+### -param StackOverflowRoutine 
+[in]
 A pointer to a callback routine to be invoked when processing the request in the overflow thread.
 
 

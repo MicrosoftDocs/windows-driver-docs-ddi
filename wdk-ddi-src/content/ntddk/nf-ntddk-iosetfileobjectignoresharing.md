@@ -8,8 +8,6 @@ ms.assetid: 14863379-0639-4D24-AFA4-AE2196328B87
 ms.date: 04/16/2018
 keywords: ["IoSetFileObjectIgnoreSharing function"]
 ms.keywords: IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ifsk.iosetfileobjectignoresharing, ntddk/IoSetFileObjectIgnoreSharing
-f1_keywords:
- - "ntddk/IoSetFileObjectIgnoreSharing"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetFileObjectIgnoreSharing
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetFileObjectIgnoreSharing
+ - ntddk/IoSetFileObjectIgnoreSharing
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetFileObjectIgnoreSharing
 ---
 
 # IoSetFileObjectIgnoreSharing function
@@ -47,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoSetFileObjectIgnoreSharing</b> routine sets a file object to ignore file  sharing access checks.
 
-
 ## -parameters
-
-
-
 
 ### -param FileObject
 
 Pointer to a file object for the file.
 
-
 ## -returns
-
-
 
 <b>IoSetFileObjectIgnoreSharing</b> returns STATUS_SUCCESS or an appropriate NTSTATUS code such as one of the following: 
 
@@ -95,18 +86,8 @@ The option information was not created for <i>FileObject</i>. The status of shar
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioisfileobjectignoringsharing">IoIsFileObjectIgnoringSharing</a>
- 
-
- 
 

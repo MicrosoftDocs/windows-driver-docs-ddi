@@ -8,8 +8,6 @@ ms.assetid: 038e52be-04db-41c2-aa19-85bc4eb8bc57
 ms.date: 05/08/2018
 keywords: ["PALLOCATE_CAPTURE_DMA_ENGINE callback function"]
 ms.keywords: AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, PALLOCATE_CAPTURE_DMA_ENGINE callback, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine
-f1_keywords:
- - "hdaudio/AllocateCaptureDmaEngine"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- hdaudio.h
-api_name:
-- AllocateCaptureDmaEngine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PALLOCATE_CAPTURE_DMA_ENGINE
+ - hdaudio/PALLOCATE_CAPTURE_DMA_ENGINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - hdaudio.h
+api_name:
+ - AllocateCaptureDmaEngine
 ---
 
 # PALLOCATE_CAPTURE_DMA_ENGINE callback function
@@ -47,45 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The <code>AllocateCaptureDmaEngine</code> routine allocates a DMA engine for a capture stream.
 
 The function pointer type for an <code>AllocateCaptureDmaEngine</code> routine is defined as follows.
 
-
 ## -parameters
 
+### -param _context 
 
-
-
-### -param _context [in]
-
+[in]
 Specifies the context value from the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
+### -param CodecAddress 
 
-### -param CodecAddress [in]
-
+[in]
 Specifies a codec address. This parameter identifies the serial data in (SDI) line on which the codec supplies the capture data to the HD Audio bus controller. A bus controller with <i>n</i> SDI pins can support up to <i>n</i> codecs with addresses ranging from 0 to <i>n</i>-1.
 
+### -param StreamFormat 
 
-### -param StreamFormat [in]
-
+[in]
 Specifies the requested stream format. This parameter points to a caller-allocated structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_stream_format">HDAUDIO_STREAM_FORMAT</a> that specifies a data format for the stream.
 
+### -param Handle 
 
-### -param Handle [out]
-
+[out]
 Retrieves the handle to the DMA engine. This parameter points to a caller-allocated HANDLE variable into which the routine writes a handle that identifies the DMA engine.
 
+### -param ConverterFormat 
 
-### -param ConverterFormat [out]
-
+[out]
 Retrieves the converter format. This parameter points to a caller-allocated structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_converter_format">HDAUDIO_CONVERTER_FORMAT</a> into which the routine writes the encoded format.
 
-
 ## -returns
-
-
 
 <code>AllocateCaptureDmaEngine</code> returns STATUS_SUCCESS if the call succeeds in reserving a DMA engine. Otherwise, possible return values include the error codes in the following table.
 
@@ -128,14 +120,8 @@ Indicates that one of the parameter values is incorrect (invalid parameter value
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine allocates a capture DMA engine and specifies the data format for the stream. If successful, the routine outputs a handle that the caller subsequently uses to identify the DMA engine.
 
@@ -161,13 +147,7 @@ Immediately following a successful call to <code>AllocateCaptureDmaEngine</code>
 
 A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</code> at pin-creation time during execution of its <b>NewStream</b> method (for example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_contiguous_dma_buffer">AllocateContiguousDmaBuffer</a>
 
@@ -210,7 +190,4 @@ A Windows Driver Model (WDM) audio driver calls <code>AllocateCaptureDmaEngine</
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
- 
-
- 
 

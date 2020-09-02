@@ -8,8 +8,6 @@ ms.assetid: e99ed3bc-368c-433f-ad40-98deda668c51
 ms.date: 05/08/2018
 keywords: ["IResourceList interface"]
 ms.keywords: IResourceList, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices],described, audio.iresourcelist, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml, portcls/IResourceList
-f1_keywords:
- - "portcls/IResourceList"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IResourceList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IResourceList
+ - portcls/IResourceList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IResourceList
 ---
 
 # IResourceList interface
 
 
 ## -description
-
 
 The <code>IResourceList</code> interface provides an abstraction of a configuration resource list, which is a list of the system hardware resources that the Plug and Play manager assigns to a device at startup time. The resources in the list can include interrupt vectors, DMA channels, I/O port addresses, and blocks of bus-relative memory addresses. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/starting-a-device-in-a-function-driver">Starting a Device in a Function Driver</a>.
 
@@ -584,5 +582,5 @@ AddEntryFromParent((p),CmResourceTypeSubAllocateFrom,(n))
 
 </td>
 </tr>
-</table> 
+</table>
 

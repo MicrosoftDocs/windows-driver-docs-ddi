@@ -8,8 +8,6 @@ ms.assetid: b518f36e-5937-4a74-a1d4-9e1709750843
 ms.date: 05/02/2018
 keywords: ["NdisMCmMakeCallComplete macro"]
 ms.keywords: NdisMCmMakeCallComplete, NdisMCmMakeCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_685b4f14-92ef-4c46-a11f-19b34d59734c.xml, ndis/NdisMCmMakeCallComplete, netvista.ndismcmmakecallcomplete
-f1_keywords:
- - "ndis/NdisMCmMakeCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmMakeCallComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmMakeCallComplete
+ - ndis/NdisMCmMakeCallComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmMakeCallComplete
 ---
 
 # NdisMCmMakeCallComplete macro
@@ -47,15 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmMakeCallComplete</b> returns the final status of a client's request, for which the MCM driver
   previously returned NDIS_STATUS_PENDING, to make an outgoing call.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
@@ -87,7 +81,6 @@ Specifies the handle to a caller-allocated resident context area, in which the M
      <i>CallManagerPartyContext</i> handle in all subsequent calls to the ProtocolCm<i>Xxx</i> functions that concern this party. If 
      <i>Status</i> is anything other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
 
-
 ### -param _CP_
 
 Pointer to a structure of type 
@@ -96,8 +89,6 @@ Pointer to a structure of type
      <i>Status</i> is NDIS_STATUS_SUCCESS.
 
 ## -remarks
-
-
 
 An MCM driver should call 
     <b>NdisMCmMakeCallComplete</b> with NDIS_STATUS_SUCCESS only if it is ready to make data transfers on the
@@ -150,13 +141,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCmMakeCallComplete</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -184,7 +169,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

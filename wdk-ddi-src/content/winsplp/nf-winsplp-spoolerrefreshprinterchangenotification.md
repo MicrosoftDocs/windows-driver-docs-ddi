@@ -8,8 +8,6 @@ ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
 ms.date: 04/20/2018
 keywords: ["SpoolerRefreshPrinterChangeNotification function"]
 ms.keywords: SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification
-f1_keywords:
- - "winsplp/SpoolerRefreshPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- SpoolerRefreshPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpoolerRefreshPrinterChangeNotification
+ - winsplp/SpoolerRefreshPrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - SpoolerRefreshPrinterChangeNotification
 ---
 
 # SpoolerRefreshPrinterChangeNotification function
@@ -47,23 +46,21 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
+[in]
 
+### -param dwColor 
 
-### -param hPrinter [in]
+[in]
 
+### -param pOptions 
 
-### -param dwColor [in]
+[in]
 
+### -param ppInfo 
 
-### -param pOptions [in]
-
-
-### -param ppInfo [in, out, optional]
+[in, out, optional]
 

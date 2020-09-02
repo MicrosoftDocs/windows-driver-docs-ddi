@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiResetFromTimeout"
+ - DXGKDDI_RESETFROMTIMEOUT
+ - d3dkmddi/DXGKDDI_RESETFROMTIMEOUT
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_RESETFROMTIMEOUT callback function
+
 
 ## -description
 

@@ -6,10 +6,8 @@ old-location: ifsk\file_fs_label_information.htm
 tech.root: ifsk
 ms.assetid: cad48019-3777-4f1c-9872-c837604f47bc
 ms.date: 04/16/2018
-keywords: ["_FILE_FS_LABEL_INFORMATION structure"]
+keywords: ["FILE_FS_LABEL_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION structure [Installable File System Drivers], PFILE_FS_LABEL_INFORMATION, PFILE_FS_LABEL_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_LABEL_INFORMATION, fileinformationstructures_ac9398f2-2488-43b4-8fdb-76ae1f84066c.xml, ifsk.file_fs_label_information, ntddk/FILE_FS_LABEL_INFORMATION, ntddk/PFILE_FS_LABEL_INFORMATION"
-f1_keywords:
- - "ntddk/FILE_FS_LABEL_INFORMATION"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- FILE_FS_LABEL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_FS_LABEL_INFORMATION, *PFILE_FS_LABEL_INFORMATION
+f1_keywords:
+ - _FILE_FS_LABEL_INFORMATION
+ - ntddk/_FILE_FS_LABEL_INFORMATION
+ - PFILE_FS_LABEL_INFORMATION
+ - ntddk/PFILE_FS_LABEL_INFORMATION
+ - FILE_FS_LABEL_INFORMATION
+ - ntddk/FILE_FS_LABEL_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - FILE_FS_LABEL_INFORMATION
 ---
 
 # _FILE_FS_LABEL_INFORMATION structure
@@ -47,28 +50,19 @@ req.typenames: FILE_FS_LABEL_INFORMATION, *PFILE_FS_LABEL_INFORMATION
 
 ## -description
 
-
-The FILE_FS_LABEL_INFORMATION structure is used to set the label for a file system volume. 
-
+The FILE_FS_LABEL_INFORMATION structure is used to set the label for a file system volume.
 
 ## -struct-fields
 
-
-
-
 ### -field VolumeLabelLength
 
-Length, in bytes, of the name for the volume. 
-
+Length, in bytes, of the name for the volume.
 
 ### -field VolumeLabel
 
-Name for the volume. 
-
+Name for the volume.
 
 ## -remarks
-
-
 
 This information can be set in either of the following ways: 
 
@@ -86,15 +80,9 @@ FILE_WRITE_DATA access to the volume is required to set this information.
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumeinformation">FltSetVolumeInformation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567112">ZwSetVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_LABEL_INFORMATION). 
 
-This structure must be aligned on a LONG (4-byte) boundary. 
-
-
-
+This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumeinformation">FltSetVolumeInformation</a>
 
@@ -105,7 +93,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567112">ZwSetVolumeInformationFile</a>
- 
-
- 
 

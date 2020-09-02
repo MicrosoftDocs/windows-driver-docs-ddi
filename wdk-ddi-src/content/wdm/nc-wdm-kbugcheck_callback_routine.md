@@ -8,8 +8,6 @@ ms.assetid: ecd777f0-bba2-4f14-9fa6-8f47ac83fe7f
 ms.date: 05/03/2019
 keywords: ["KBUGCHECK_CALLBACK_ROUTINE callback function"]
 ms.keywords: BugCheckCallback, BugCheckCallback routine [Kernel-Mode Driver Architecture], DrvrRtns_e968f3db-9875-4f94-8781-074029354e2c.xml, KBUGCHECK_CALLBACK_ROUTINE, kernel.bugcheckcallback, wdm/BugCheckCallback
-f1_keywords:
- - "wdm/BugCheckCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- BugCheckCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KBUGCHECK_CALLBACK_ROUTINE
+ - wdm/KBUGCHECK_CALLBACK_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - BugCheckCallback
 ---
 
 # KBUGCHECK_CALLBACK_ROUTINE callback function
+
 
 ## -description
 
@@ -53,12 +53,14 @@ The <i>BugCheckCallback</i> routine is executed whenever the system issues a bug
 
 ## -parameters
 
-### -param Buffer [in]
+### -param Buffer 
 
+[in]
 A pointer to the buffer that was specified when the callback was registered.
 
-### -param Length [in]
+### -param Length 
 
+[in]
 Specifies the length, in bytes, of the buffer that is pointed to by the <i>Buffer</i> parameter.
 
 ## -remarks
@@ -114,8 +116,10 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 <div class="code"></div>
 
 ## -see-also
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckcallback">KeDeregisterBugCheckCallback</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a>
+

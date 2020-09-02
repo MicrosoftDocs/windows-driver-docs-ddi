@@ -5,42 +5,42 @@ description: The NET_PACKET_QUEUE_CONFIG structure describes the configuration o
 tech.root: netvista
 ms.assetid: 55af0931-b047-4d74-91dc-6d2f320ee68b
 ms.date: 07/16/2018
-keywords: ["_NET_PACKET_QUEUE_CONFIG structure"]
-f1_keywords:
- - "netpacketqueue/_NET_PACKET_QUEUE_CONFIG"
-ms.keywords: _NET_PACKET_QUEUE_CONFIG, NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG, 
+keywords: ["NET_PACKET_QUEUE_CONFIG structure"]
+ms.keywords: _NET_PACKET_QUEUE_CONFIG, NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG,
 req.header: netpacketqueue.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- netpacketqueue.h
-api_name: 
-- _NET_PACKET_QUEUE_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _NET_PACKET_QUEUE_CONFIG
+ - netpacketqueue/_NET_PACKET_QUEUE_CONFIG
+ - NET_PACKET_QUEUE_CONFIG
+ - netpacketqueue/NET_PACKET_QUEUE_CONFIG
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netpacketqueue.h
+api_name:
+ - _NET_PACKET_QUEUE_CONFIG
 ---
 
 # _NET_PACKET_QUEUE_CONFIG structure
 
+
 ## -description
-
-
 
 The **NET_PACKET_QUEUE_CONFIG** structure describes the configuration options for a NetAdapterCx client driver's packet queue.
 
@@ -49,23 +49,23 @@ The **NET_PACKET_QUEUE_CONFIG** structure describes the configuration options fo
 ### -field Size
 
 The size of this structure, in bytes.
- 
+
 ### -field EvtStart
 
 A pointer to the client driver's [*EVT_PACKET_QUEUE_START*](nc-netpacketqueue-evt_packet_queue_start.md) event callback function for this packet queue. This callback function is required.
- 
+
 ### -field EvtStop
 
 A pointer to the client driver's [*EVT_PACKET_QUEUE_STOP*](nc-netpacketqueue-evt_packet_queue_stop.md) event callback function for this packet queue. This callback function is required.
- 
+
 ### -field EvtAdvance
 
 A pointer to the client driver's [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md) event callback function for this packet queue. This callback function is required.
- 
+
 ### -field EvtSetNotificationEnabled
 
 A pointer to the client driver's [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) event callback function for this packet queue. This callback function is required.
- 
+
 ### -field EvtCancel
 
 A pointer to the client driver's [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md) event callback function for this packet queue. This callback function is required.
@@ -83,3 +83,4 @@ The **NET_PACKET_QUEUE_CONFIG** structure is an input parameter to [**NetTxQueue
 [**NetTxQueueCreate**](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md)
 
 [**NetRxQueueCreate**](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md)
+

@@ -8,8 +8,6 @@ ms.assetid: 3F58B6FF-65C5-4B28-81DD-3726B6695BF7
 ms.date: 05/07/2018
 keywords: ["EVT_UDECX_USB_ENDPOINT_START callback function"]
 ms.keywords: EVT_UDECX_USB_ENDPOINT_START, EVT_UDECX_USB_ENDPOINT_START callback, EvtUsbEndpointStart, EvtUsbEndpointStart callback function [Buses], buses.evt_udecx_usb_endpoint_start, udecxusbendpoint/EvtUsbEndpointStart
-f1_keywords:
- - "udecxusbendpoint/EvtUsbEndpointStart"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- UdecxUsbEndpoint.h
-api_name:
-- EvtUsbEndpointStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UDECX_USB_ENDPOINT_START
+ - udecxusbendpoint/EVT_UDECX_USB_ENDPOINT_START
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - UdecxUsbEndpoint.h
+api_name:
+ - EvtUsbEndpointStart
 ---
 
 # EVT_UDECX_USB_ENDPOINT_START callback function
@@ -47,36 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The USB device emulation class extension (UdeCx) invokes this callback function to start processing I/O requests on the specified endpoint of the virtual USB device.
-
 
 ## -parameters
 
+### -param UdecxUsbEndpoint 
 
-
-
-### -param UdecxUsbEndpoint [in]
-
+[in]
 A handle to a UDE endpoint object that represents the endpoint which can start receiving I/O requests. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>.
 
-
 ## -remarks
-
-
 
 The client driver registered this callback function in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks">UdecxUsbEndpointInitSetCallbacks</a> by supplying a function pointer to its implementation.
 
 After the client driver creates an endpoint, it does not automatically start receiving I/O requests. When UdeCx is ready to forward those request for processing, it invokes the client driver's <i>EVT_UDECX_USB_ENDPOINT_START</i> function and the client driver can begin processing I/O on the endpoint’s queue, and on any queues that receive forwarded I/O for the endpoint. This callback returns the endpoint to a state of processing I/O after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nc-udecxusbendpoint-evt_udecx_usb_endpoint_purge">EVT_UDECX_USB_ENDPOINT_PURGE</a> callback has and completed.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -91,7 +76,4 @@ After the client driver creates an endpoint, it does not automatically start rec
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

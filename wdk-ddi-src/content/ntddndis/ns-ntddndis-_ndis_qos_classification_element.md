@@ -6,10 +6,8 @@ old-location: netvista\ndis_qos_classification_element.htm
 tech.root: netvista
 ms.assetid: 2677dc3a-7685-40bf-94c3-2efecf21e9a8
 ms.date: 05/02/2018
-keywords: ["_NDIS_QOS_CLASSIFICATION_ELEMENT structure"]
+keywords: ["NDIS_QOS_CLASSIFICATION_ELEMENT structure"]
 ms.keywords: NDIS_QOS_CLASSIFICATION_ELEMENT, NDIS_QOS_CLASSIFICATION_ELEMENT structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CLASSIFICATION_ELEMENT, netvista.ndis_qos_classification_element, ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT, ntddndis/PNDIS_QOS_CLASSIFICATION_ELEMENT
-f1_keywords:
- - "ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_QOS_CLASSIFICATION_ELEMENT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT
+f1_keywords:
+ - _NDIS_QOS_CLASSIFICATION_ELEMENT
+ - ntddndis/_NDIS_QOS_CLASSIFICATION_ELEMENT
+ - PNDIS_QOS_CLASSIFICATION_ELEMENT
+ - ntddndis/PNDIS_QOS_CLASSIFICATION_ELEMENT
+ - NDIS_QOS_CLASSIFICATION_ELEMENT
+ - ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_QOS_CLASSIFICATION_ELEMENT
 ---
 
 # _NDIS_QOS_CLASSIFICATION_ELEMENT structure
 
 
 ## -description
-
-
 
 The <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure specifies an NDIS Quality of Service (QoS) traffic classification for a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 
@@ -69,13 +70,7 @@ Starting with NDIS 6.30, classification actions specify an 802.1p priority level
 </ul>
 For example, a traffic classification could specify that all egress packets for  destination TCP port number 3260 (<i>condition</i>) are assigned an 802.1p priority level 3 (<i>action</i>).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -92,7 +87,6 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 Original version for NDIS 6.30.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_QOS_CLASSIFICATION_ELEMENT_REVISION_1.
-
 
 ### -field Flags
 
@@ -116,13 +110,11 @@ A <b>USHORT</b> value that specifies the type of the data pattern that is contai
 
 For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ConditionSelector and ConditionField Members</a>.
 
-
 ### -field ConditionField
 
 A <b>USHORT</b> value that contains the data pattern whose type is specified by the  <b>ConditionSelector</b> member. 
 
 For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ConditionSelector and ConditionField Members</a>.
-
 
 ### -field ActionSelector
 
@@ -130,17 +122,13 @@ A <b>USHORT</b> value that specifies the type of action data that is contained i
 
 For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ActionSelector and ActionField Members</a>.
 
-
 ### -field ActionField
 
 A <b>USHORT</b> value that contains an action value whose type is specified by the  <b>ActionSelector</b> member.  
 
 For more information, see <a href="https://docs.microsoft.com/">Guidelines for Setting the ActionSelector and ActionField Members</a>.
 
-
 ## -remarks
-
-
 
 A traffic classification specifies a <i>condition</i> and an <i>action</i> that the network adapter applies to egress packet data. When the adapter inspects the egress packet data and finds a matching classification condition, it applies the corresponding action to the egress packet.
 
@@ -268,13 +256,7 @@ Starting with NDIS 6.30, traffic classification actions define an IEEE 802.1p pr
 
 For more information on NDIS QoS traffic classes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-qos-traffic-classes">NDIS QoS Traffic Classes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -305,7 +287,4 @@ For more information on NDIS QoS traffic classes, see <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-remote-parameters">OID_QOS_REMOTE_PARAMETERS</a>
- 
-
- 
 

@@ -31,13 +31,16 @@ api_name:
  - _DXGK_DISPLAYSTATE_NONINTRUSIVE
  - DXGK_DISPLAYSTATE_NONINTRUSIVE
 f1_keywords:
+ - _DXGK_DISPLAYSTATE_NONINTRUSIVE
  - dispmprt/_DXGK_DISPLAYSTATE_NONINTRUSIVE
+ - DXGK_DISPLAYSTATE_NONINTRUSIVE
  - dispmprt/DXGK_DISPLAYSTATE_NONINTRUSIVE
 dev_langs:
  - c++
 ---
 
 # DXGK_DISPLAYSTATE_NONINTRUSIVE structure
+
 
 ## -description
 
@@ -92,3 +95,4 @@ A pointer to an array of pointers to **DXGK_DISPLAYSTATE_NONINTRUSIVE** structur
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
+

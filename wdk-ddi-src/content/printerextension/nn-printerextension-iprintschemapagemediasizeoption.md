@@ -8,8 +8,6 @@ ms.assetid: 631F5ECF-EA1E-4483-99F8-67C9A8C42EDF
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageMediaSizeOption interface"]
 ms.keywords: IPrintSchemaPageMediaSizeOption, IPrintSchemaPageMediaSizeOption interface [Print Devices], IPrintSchemaPageMediaSizeOption interface [Print Devices],described, print.iprintschemapagemediasizeoption_interface, printerextension/IPrintSchemaPageMediaSizeOption
-f1_keywords:
- - "printerextension/IPrintSchemaPageMediaSizeOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaPageMediaSizeOption
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaPageMediaSizeOption
+ - printerextension/IPrintSchemaPageMediaSizeOption
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaPageMediaSizeOption
 ---
 
 # IPrintSchemaPageMediaSizeOption interface
@@ -47,17 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Exposes a Print Schema PageMediaSize Option element.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
- 
-
- 
 

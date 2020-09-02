@@ -8,8 +8,6 @@ ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
 ms.date: 04/20/2018
 keywords: ["OEMQueryColorProfile function"]
 ms.keywords: OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, printoem/OEMQueryColorProfile
-f1_keywords:
- - "printoem/OEMQueryColorProfile"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMQueryColorProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMQueryColorProfile
+ - printoem/OEMQueryColorProfile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMQueryColorProfile
 ---
 
 # OEMQueryColorProfile function
@@ -47,34 +46,27 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hPrinter
 
-
 ### -param poemuiobj
-
 
 ### -param pPublicDM
 
-
 ### -param pOEMDM
-
 
 ### -param ulQueryMode
 
+### -param pvProfileData 
 
-### -param pvProfileData [out]
+[out]
 
+### -param pcbProfileData 
 
-### -param pcbProfileData [out]
+[out]
 
+### -param pflProfileData 
 
-### -param pflProfileData [out]
+[out]
 

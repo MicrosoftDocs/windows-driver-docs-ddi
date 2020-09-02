@@ -8,8 +8,6 @@ ms.assetid: CC2878DC-66EC-4493-8188-3B6BAEA928DF
 ms.date: 05/07/2018
 keywords: ["EVT_UDECX_USB_DEVICE_D0_EXIT callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_D0_EXIT, EVT_UDECX_USB_DEVICE_D0_EXIT callback, EvtUsbDeviceLinkPowerExit, EvtUsbDeviceLinkPowerExit callback function [Buses], buses.evt_udecx_usb_device_d0_exit, udecxusbdevice/EvtUsbDeviceLinkPowerExit
-f1_keywords:
- - "udecxusbdevice/EvtUsbDeviceLinkPowerExit"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- udecxusbdevice.h
-api_name:
-- EvtUsbDeviceLinkPowerExit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UDECX_USB_DEVICE_D0_EXIT
+ - udecxusbdevice/EVT_UDECX_USB_DEVICE_D0_EXIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - udecxusbdevice.h
+api_name:
+ - EvtUsbDeviceLinkPowerExit
 ---
 
 # EVT_UDECX_USB_DEVICE_D0_EXIT callback function
@@ -47,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The USB device emulation class extension (UdeCx) invokes this callback function when it gets a request to send the virtual USB device to a low power state.
-
 
 ## -parameters
 
+### -param UdecxWdfDevice 
 
-
-
-### -param UdecxWdfDevice [in]
-
+[in]
 A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
+### -param UdecxUsbDevice 
 
-### -param UdecxUsbDevice [in]
-
+[in]
 A handle to UDE device object. The client driver created this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
+### -param WakeSetting 
 
-### -param WakeSetting [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ne-udecxusbdevice-_udecx_usb_device_wake_setting">UDECX_USB_DEVICE_WAKE_SETTING</a>-type value that indicates remote wake capability of the USB device.
-
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE.
 
-
-
-
 ## -remarks
-
-
 
 The client driver registered the function in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
@@ -91,14 +78,7 @@ To do so, the driver for a USB 2.0 device must call the <a href="https://docs.mi
 
 The power request may be completed asynchronously by returning STATUS_PENDING, and then later calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete">UdecxUsbDeviceLinkPowerExitComplete</a> with the actual completion code.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -117,7 +97,4 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

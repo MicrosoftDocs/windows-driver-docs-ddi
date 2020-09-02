@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateCommandListSize"
+ - PFND3D11DDI_CALCPRIVATECOMMANDLISTSIZE
+ - d3d10umddi/PFND3D11DDI_CALCPRIVATECOMMANDLISTSIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_CALCPRIVATECOMMANDLISTSIZE callback function
+
 
 ## -description
 

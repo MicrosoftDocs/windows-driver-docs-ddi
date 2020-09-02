@@ -7,8 +7,6 @@ ms.assetid: C248B20E-A9A1-4C79-9053-16AC2059205E
 ms.date: 05/10/2018
 keywords: ["D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS, display.d3dwddm2_0ddi_video_capability_decoder_caps
-f1_keywords:
- - "d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
+f1_keywords:
+ - D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
+ - d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
 ---
 
 # D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure
@@ -47,44 +46,29 @@ req.typenames: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
 
 ## -description
 
-
 <b>D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS</b> contains information describing the capabilities of the video decoder.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DecodeProfile
 
 Indicates the decode profile for which the capabilities are queried.
 
-
 ### -field SampleWidth
 
 Indicates the video width for which the capabilities are queried.
-
 
 ### -field SampleHeight
 
 Indicates the video height for which the capabilities are queried.
 
-
 ### -field FrameRate
 
 Indicates the frame rate of the video content.
 
-
 ### -field BitRate
 
- 
-
-
 ### -field pCryptoType
-
- 
-
 
 ### -field Caps
 

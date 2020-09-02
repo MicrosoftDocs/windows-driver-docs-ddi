@@ -8,8 +8,6 @@ ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.date: 04/30/2018
 keywords: ["IoWMISuggestInstanceName function"]
 ms.keywords: IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, kernel.iowmisuggestinstancename, wdm/IoWMISuggestInstanceName
-f1_keywords:
- - "wdm/IoWMISuggestInstanceName"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoWMISuggestInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoWMISuggestInstanceName
+ - wdm/IoWMISuggestInstanceName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoWMISuggestInstanceName
 ---
 
 # IoWMISuggestInstanceName function
@@ -47,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoWMISuggestInstanceName</b> routine is used to request that WMI suggest a base name which a driver can use to build WMI instance names for the device.
-
 
 ## -parameters
 
+### -param PhysicalDeviceObject 
 
-
-
-### -param PhysicalDeviceObject [in, optional]
-
+[in, optional]
 If supplied, points to the driver's physical device object.
 
+### -param SymbolicLinkName 
 
-### -param SymbolicLinkName [in, optional]
+[in, optional]
+If supplied, points to the symbolic link name returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>.
 
-If supplied, points to the symbolic link name returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>. 
+### -param CombineNames 
 
-
-### -param CombineNames [in]
-
+[in]
 If <b>TRUE</b> then the suggested names returned will combine the <i>PhysicalDeviceObject</i> and <i>SymbolicLinkName</i> information.
 
+### -param SuggestedInstanceName 
 
-### -param SuggestedInstanceName [out]
-
-A pointer to a buffer which upon successful completion will contain a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
-
+[out]
+A pointer to a buffer which upon successful completion will contain a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
 
 ## -returns
-
-
 
 <b>IoWMISuggestInstanceName</b> returns a status code from the following list:
 
@@ -132,27 +124,12 @@ Indicates that insufficient resources were available to provide the caller with 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the <i>CombineNames</i> parameter is <b>TRUE</b> then both <i>PhysicalDeviceObject</i> and <i>SymbolicLinkName</i> must be specified. Otherwise, only one of them should be specified.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiallocateinstanceids">IoWMIAllocateInstanceIds</a>
- 
-
- 
 

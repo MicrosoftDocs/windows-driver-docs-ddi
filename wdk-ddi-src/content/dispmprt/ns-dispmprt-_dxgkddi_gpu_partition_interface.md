@@ -7,42 +7,48 @@ tech.root: display
 ms.assetid: 37aeff80-0eed-4a18-a387-c83c57b4b9d3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-keywords: ["_DXGKDDI_GPU_PARTITION_INTERFACE structure"]
-f1_keywords:
- - "dispmprt/_DXGKDDI_GPU_PARTITION_INTERFACE"
+keywords: ["DXGKDDI_GPU_PARTITION_INTERFACE structure"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGKDDI_GPU_PARTITION_INTERFACE, DXGKDDI_GPU_PARTITION_INTERFACE, *PDXGKDDI_GPU_PARTITION_INTERFACE, 
+ms.keywords: _DXGKDDI_GPU_PARTITION_INTERFACE, DXGKDDI_GPU_PARTITION_INTERFACE, *PDXGKDDI_GPU_PARTITION_INTERFACE,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKDDI_GPU_PARTITION_INTERFACE, *PDXGKDDI_GPU_PARTITION_INTERFACE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - dispmprt.h
-api_name: 
- - _DXGKDDI_GPU_PARTITION_INTERFACE
-product: 
- - Windows
 targetos: Windows
+ms.custom: rs6, 19H1
+f1_keywords:
+ - _DXGKDDI_GPU_PARTITION_INTERFACE
+ - dispmprt/_DXGKDDI_GPU_PARTITION_INTERFACE
+ - PDXGKDDI_GPU_PARTITION_INTERFACE
+ - dispmprt/PDXGKDDI_GPU_PARTITION_INTERFACE
+ - DXGKDDI_GPU_PARTITION_INTERFACE
+ - dispmprt/DXGKDDI_GPU_PARTITION_INTERFACE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKDDI_GPU_PARTITION_INTERFACE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: rs6, 19H1
 ---
 
 # _DXGKDDI_GPU_PARTITION_INTERFACE structure
+
 
 ## -description
 
@@ -123,3 +129,4 @@ A miniport driver must support all functions in this group.
 ## -remarks
 
 ## -see-also
+

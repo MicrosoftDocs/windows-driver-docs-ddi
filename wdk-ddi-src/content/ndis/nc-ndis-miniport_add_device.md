@@ -8,8 +8,6 @@ ms.assetid: 50e04b5a-e430-484c-aabb-cc7b9ecb53b0
 ms.date: 05/02/2018
 keywords: ["MINIPORT_ADD_DEVICE callback function"]
 ms.keywords: MINIPORT_ADD_DEVICE, MINIPORT_ADD_DEVICE callback, MiniportAddDevice, MiniportAddDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportAddDevice, ndis_msix_ref_60df66e2-2e17-4bd1-8793-8310326d883d.xml, netvista.miniportadddevice
-f1_keywords:
- - "ndis/MiniportAddDevice"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportAddDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_ADD_DEVICE
+ - ndis/MINIPORT_ADD_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportAddDevice
 ---
 
 # MINIPORT_ADD_DEVICE callback function
 
 
 ## -description
-
 
 The 
    <i>MiniportAddDevice</i> function enables a miniport driver to establish a context area
@@ -56,28 +54,23 @@ The
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 An NDIS handle that identifies the miniport adapter that the Plug and Play (PnP) manager is
      adding. NDIS also passes this handle to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param MiniportDriverContext 
 
-### -param MiniportDriverContext [in]
-
+[in]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The miniport driver passed this context area to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function.
 
-
 ## -returns
-
-
 
 <i>MiniportAddDevice</i> returns one of the following values:
 
@@ -129,12 +122,7 @@ If
      <i>MiniportAddDevice</i> fails, NDIS will not call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function
      to initialize the miniport adapter.
 
-
-
-
 ## -remarks
-
-
 
 The 
     <i>MiniportAddDevice</i> function is an optional function. Miniport drivers that
@@ -220,15 +208,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_ADD_DEVICE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_ADD_DEVICE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
@@ -271,7 +253,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

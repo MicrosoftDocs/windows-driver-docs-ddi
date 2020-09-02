@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CheckVideoProcessorFormat"
+ - PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
+ - d3d10umddi/PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback function
+
 
 ## -description
 

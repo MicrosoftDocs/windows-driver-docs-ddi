@@ -8,8 +8,6 @@ ms.assetid: bed68aa8-499d-41fd-997b-a46316913cc8
 ms.date: 05/02/2018
 keywords: ["NdisMRegisterMiniportDriver function"]
 ms.keywords: NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver
-f1_keywords:
- - "ndis/NdisMRegisterMiniportDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMRegisterMiniportDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMRegisterMiniportDriver
+ - ndis/NdisMRegisterMiniportDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMRegisterMiniportDriver
 ---
 
 # NdisMRegisterMiniportDriver function
@@ -48,56 +47,49 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver calls the 
   <b>NdisMRegisterMiniportDriver</b> function to register 
   <i>MiniportXxx</i> entry points with NDIS as the first step in initialization.
 
-
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 A pointer to an opaque driver object that the miniport driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
      Miniport Drivers</a>).
 
+### -param RegistryPath 
 
-### -param RegistryPath [in]
-
+[in]
 A pointer to an opaque registry path that the miniport driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
+### -param MiniportDriverContext 
 
-### -param MiniportDriverContext [in, optional]
-
+[in, optional]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
+### -param MiniportDriverCharacteristics 
 
-### -param MiniportDriverCharacteristics [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">
      NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure that the caller initialized.
 
+### -param NdisMiniportDriverHandle 
 
-### -param NdisMiniportDriverHandle [out]
-
+[out]
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies this driver. The driver must save this handle for use in subsequent 
      <b>Ndis<i>Xxx</i></b> function calls.
 
-
 ## -returns
-
-
 
 <b>NdisMRegisterMiniportDriver</b> returns one of the following status values:
 
@@ -169,14 +161,8 @@ This is a default error status, returned when none of the preceding errors cause
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An NDIS driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
@@ -224,9 +210,6 @@ If an error occurs in
     <b>NdisMDeregisterMiniportDriver</b> from its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_unload">MiniportDriverUnload</a> function.
 
-
-
-
 ## -see-also
 
 [Initializing a Miniport Driver](https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-driver)
@@ -255,7 +238,4 @@ If an error occurs in
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismderegisterminiportdriver">
    NdisMDeregisterMiniportDriver</a>
- 
-
- 
 

@@ -8,36 +8,36 @@ ms.assetid: 24a8c14d-4202-4804-a679-bb9674873dd5
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_MEASUREMENTS_ACTION_0062 enumeration"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_MEASUREMENTS_ACTION_0062"
-ms.keywords: D3D12DDI_MEASUREMENTS_ACTION_0062, D3D12DDI_MEASUREMENTS_ACTION_0062, 
+ms.keywords: D3D12DDI_MEASUREMENTS_ACTION_0062, D3D12DDI_MEASUREMENTS_ACTION_0062,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_MEASUREMENTS_ACTION_0062
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDI_MEASUREMENTS_ACTION_0062
-product:
-- Windows
 targetos: Windows
+ms.custom: D3D12 Release 6, Build rev 2., 19H1
+f1_keywords:
+ - D3D12DDI_MEASUREMENTS_ACTION_0062
+ - d3d12umddi/D3D12DDI_MEASUREMENTS_ACTION_0062
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_MEASUREMENTS_ACTION_0062
 dev_langs:
  - c++
-ms.custom: D3D12 Release 6, Build rev 2., 19H1
 ---
 
 # D3D12DDI_MEASUREMENTS_ACTION_0062 enumeration
+
 
 ## -description
 
@@ -70,3 +70,4 @@ D3D12DDI_MEASUREMENTS_ACTION_0062_DISCARD_PREVIOUS hints to the UMD that the wor
 ## -remarks
 
 ## -see-also
+

@@ -6,10 +6,8 @@ old-location: storage\mountmgr_mount_point.htm
 tech.root: storage
 ms.assetid: a4142380-1596-49dc-a18d-ac5c3cef73fe
 ms.date: 03/29/2018
-keywords: ["_MOUNTMGR_MOUNT_POINT structure"]
+keywords: ["MOUNTMGR_MOUNT_POINT structure"]
 ms.keywords: "*PMOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_MOUNT_POINT, PMOUNTMGR_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINT, mountmgr/MOUNTMGR_MOUNT_POINT, mountmgr/PMOUNTMGR_MOUNT_POINT, storage.mountmgr_mount_point, structs-mntmgr_88136173-0786-4d4e-80b7-77f523e8d125.xml"
-f1_keywords:
- - "mountmgr/MOUNTMGR_MOUNT_POINT"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mountmgr.h
-api_name:
-- MOUNTMGR_MOUNT_POINT
-product:
-- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_MOUNT_POINT, *PMOUNTMGR_MOUNT_POINT
+f1_keywords:
+ - _MOUNTMGR_MOUNT_POINT
+ - mountmgr/_MOUNTMGR_MOUNT_POINT
+ - PMOUNTMGR_MOUNT_POINT
+ - mountmgr/PMOUNTMGR_MOUNT_POINT
+ - MOUNTMGR_MOUNT_POINT
+ - mountmgr/MOUNTMGR_MOUNT_POINT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mountmgr.h
+api_name:
+ - MOUNTMGR_MOUNT_POINT
 ---
 
 # _MOUNTMGR_MOUNT_POINT structure
@@ -47,65 +50,41 @@ req.typenames: MOUNTMGR_MOUNT_POINT, *PMOUNTMGR_MOUNT_POINT
 
 ## -description
 
-
-The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request to query the mount manager for all of the mount points (symbolic links) associated with a device. The mount manager responds by sending an array of MOUNTMGR_MOUNT_POINT structures containing the mount points. 
-
+The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request to query the mount manager for all of the mount points (symbolic links) associated with a device. The mount manager responds by sending an array of MOUNTMGR_MOUNT_POINT structures containing the mount points.
 
 ## -struct-fields
-
-
-
 
 ### -field SymbolicLinkNameOffset
 
 Contains an offset, in bytes, into the output buffer where the symbolic link is located.
 
-
 ### -field SymbolicLinkNameLength
 
-Contains the length, in bytes, of the symbolic link. 
-
+Contains the length, in bytes, of the symbolic link.
 
 ### -field Reserved1
 
- 
-
-
 ### -field UniqueIdOffset
 
-Contains an offset, in bytes, into the output buffer where the unique ID is located. 
-
+Contains an offset, in bytes, into the output buffer where the unique ID is located.
 
 ### -field UniqueIdLength
 
-Contains the length, in bytes, of the unique ID. 
-
+Contains the length, in bytes, of the unique ID.
 
 ### -field Reserved2
 
- 
-
-
 ### -field DeviceNameOffset
 
-Contains an offset, in bytes, into the output buffer where the nonpersistent device name is located. 
-
+Contains an offset, in bytes, into the output buffer where the nonpersistent device name is located.
 
 ### -field DeviceNameLength
 
-Contains the length, in bytes, of the nonpersistent device name. 
-
+Contains the length, in bytes, of the nonpersistent device name.
 
 ### -field Reserved3
 
- 
-
-
-
-
 ## -remarks
-
-
 
 None of the names returned are <b>NULL</b> terminated, nor do the buffers require terminating <b>NULL</b> characters. The caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> is not required to provide data in all of the members of the MOUNTMGR_MOUNT_POINT structure, but empty members must have an offset of zero.
 
@@ -113,18 +92,9 @@ On input, offsets are from the beginning of the MOUNTMGR_MOUNT_POINT structure. 
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request is available in Windows 2000 and later operating systems.
 
-For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
-
-
-
+For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>
- 
-
- 
 

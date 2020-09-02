@@ -8,8 +8,6 @@ ms.assetid: 4afd8c7a-b7b4-4a02-a270-d4e29f5329f9
 ms.date: 03/29/2018
 keywords: ["IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control code [Storage Devices], k307_90b74e7c-57f6-4738-8a5e-d947c29c5aab.xml, mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, storage.ioctl_mountdev_query_suggested_link_name
-f1_keywords:
- - "mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME"
 req.header: mountdev.h
 req.include-header: Mountdev.h
 req.target-type: Windows
@@ -27,28 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mountdev.h
-api_name:
-- IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
+ - mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mountdev.h
+api_name:
+ - IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
 ---
 
 # IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL
+
 
 ## -description
 
 Support for this IOCTL by the mount manager clients is optional. Some mount manager clients are able to keep track of their drive letters across reboots of the system without the help of the mount manager. Such clients can send a suggested drive letter name to the mount manager in response to this IOCTL. The mount manager uses the suggested name if the mount manager's database does not already contain a persistent drive letter name for the client's volume. Otherwise, it ignores the suggestion and uses the drive letter name in its persistent name database.
 
-Drive letter names must include the full path of the symbolic link in object namespace and must have the traditional MS-DOS syntax. For instance, drive letter "D" must be represented in this manner: "\DosDevices\D:". The alternative symbolic link path of "\??\D:" may not be used, nor may abbreviations of the symbolic link such as "D:". 
+Drive letter names must include the full path of the symbolic link in object namespace and must have the traditional MS-DOS syntax. For instance, drive letter "D" must be represented in this manner: "\DosDevices\D:". The alternative symbolic link path of "\??\D:" may not be used, nor may abbreviations of the symbolic link such as "D:".
 
 ## -ioctlparameters
 
@@ -83,3 +83,4 @@ The implementer of this function must not thread synchronize and must not make b
 ## -see-also
 
 [MOUNTDEV_SUGGESTED_LINK_NAME](ns-mountdev-_mountdev_suggested_link_name.md)
+

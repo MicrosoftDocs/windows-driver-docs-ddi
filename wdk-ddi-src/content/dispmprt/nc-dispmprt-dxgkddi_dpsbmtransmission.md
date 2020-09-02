@@ -34,12 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_DPSBMTRANSMISSION
 f1_keywords:
+ - DXGKDDI_DPSBMTRANSMISSION
  - dispmprt/DXGKDDI_DPSBMTRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_DPSBMTRANSMISSION callback function
+
 
 ## -description
 
@@ -97,3 +99,4 @@ The **CanUseCachedData** flag indicates that driver can return a cached reply da
 ## -see-also
 
 [**DXGKARG_DPSBMTRANSMISSION**](ns-dispmprt-dxgkarg_dpsbmtransmission.md)
+

@@ -6,14 +6,12 @@ old-location: image\twain_capability.htm
 tech.root: image
 ms.assetid: 79a2155d-eb06-4095-9fe6-b95d93e46211
 ms.date: 05/03/2018
-keywords: ["_TWAIN_CAPABILITY structure"]
+keywords: ["TWAIN_CAPABILITY structure"]
 ms.keywords: "*PTWAIN_CAPABILITY, PTWAIN_CAPABILITY, PTWAIN_CAPABILITY structure pointer [Imaging Devices], TWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices], _TWAIN_CAPABILITY, image.twain_capability, wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, wiatwcmp/PTWAIN_CAPABILITY, wiatwcmp/TWAIN_CAPABILITY"
-f1_keywords:
- - "wiatwcmp/TWAIN_CAPABILITY"
 req.header: wiatwcmp.h
 req.include-header: Wiatwcmp.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiatwcmp.h
-api_name:
-- TWAIN_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: TWAIN_CAPABILITY, *PTWAIN_CAPABILITY
+f1_keywords:
+ - _TWAIN_CAPABILITY
+ - wiatwcmp/_TWAIN_CAPABILITY
+ - PTWAIN_CAPABILITY
+ - wiatwcmp/PTWAIN_CAPABILITY
+ - TWAIN_CAPABILITY
+ - wiatwcmp/TWAIN_CAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiatwcmp.h
+api_name:
+ - TWAIN_CAPABILITY
 ---
 
 # _TWAIN_CAPABILITY structure
+
 
 ## -description
 
@@ -107,3 +111,4 @@ Is an array that contains the capability data. The actual size, in bytes, of the
 A TWAIN-capable application communicates with a WIA driver by way of the TWAIN compatibility later to find out whether the driver has any private capabilities, and if so, what they are. A TWAIN_CAPABILITY structure is used in this communication. For more information, see [TWAIN Compatibility](https://docs.microsoft.com/windows-hardware/drivers/image/twain-compatibility).
 
 The TWAIN return codes and control codes are defined in *twain.h*, which can be obtained from the [TWAIN Working Group](https://www.twain.org).
+

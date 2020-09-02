@@ -6,10 +6,8 @@ old-location: display\d3dddicb_lock2flags.htm
 tech.root: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_LOCK2FLAGS structure"]
+keywords: ["D3DDDICB_LOCK2FLAGS structure"]
 ms.keywords: D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], _D3DDDICB_LOCK2FLAGS, d3dukmdt/D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags
-f1_keywords:
- - "d3dukmdt/D3DDDICB_LOCK2FLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDICB_LOCK2FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_LOCK2FLAGS
+f1_keywords:
+ - _D3DDDICB_LOCK2FLAGS
+ - d3dukmdt/_D3DDDICB_LOCK2FLAGS
+ - D3DDDICB_LOCK2FLAGS
+ - d3dukmdt/D3DDDICB_LOCK2FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDICB_LOCK2FLAGS
 ---
 
 # _D3DDDICB_LOCK2FLAGS structure
@@ -47,38 +48,25 @@ req.typenames: D3DDDICB_LOCK2FLAGS
 
 ## -description
 
-
 <b>D3DDDICB_LOCK2FLAGS</b> is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a> kernel function to determine how an allocation is locked.
    
   Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock">Lock</a>, which supported numerous flags, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a> has none. The <b>Lock2</b> arguments allow flags to be specified using this structure, but currently it only has a reserved field to allow for capabilities to added in the future.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Reserved
 
 This member is reserved and must be zero.
 
-
 ### -field Value
 
 This member must be zero.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock">Lock</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a>
- 
-
- 
 

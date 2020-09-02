@@ -6,10 +6,8 @@ old-location: stream\hw_stream_request_block.htm
 tech.root: stream
 ms.assetid: e2a19bb1-631d-4160-9980-f3cbeb0b085a
 ms.date: 04/23/2018
-keywords: ["_HW_STREAM_REQUEST_BLOCK structure"]
+keywords: ["HW_STREAM_REQUEST_BLOCK structure"]
 ms.keywords: "*PHW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], PHW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], _HW_STREAM_REQUEST_BLOCK, strclass-struct_4b0da124-b08a-49fe-acbc-9457db500b26.xml, stream.hw_stream_request_block, strmini/HW_STREAM_REQUEST_BLOCK, strmini/PHW_STREAM_REQUEST_BLOCK"
-f1_keywords:
- - "strmini/HW_STREAM_REQUEST_BLOCK"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmini.h
-api_name:
-- HW_STREAM_REQUEST_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: HW_STREAM_REQUEST_BLOCK, *PHW_STREAM_REQUEST_BLOCK
+f1_keywords:
+ - _HW_STREAM_REQUEST_BLOCK
+ - strmini/_HW_STREAM_REQUEST_BLOCK
+ - PHW_STREAM_REQUEST_BLOCK
+ - strmini/PHW_STREAM_REQUEST_BLOCK
+ - HW_STREAM_REQUEST_BLOCK
+ - strmini/HW_STREAM_REQUEST_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmini.h
+api_name:
+ - HW_STREAM_REQUEST_BLOCK
 ---
 
 # _HW_STREAM_REQUEST_BLOCK structure
+
 
 ## -description
 
@@ -142,11 +146,11 @@ This member is used when the command code is [SRB_GET_DATA_INTERSECTION](https:/
 
 ### -field CommandData.MethodInfo
 
-Pointer to a buffer that the method data will be read from or written to.  
+Pointer to a buffer that the method data will be read from or written to.
 
 ### -field CommandData.FilterTypeIndex
 
-Filter type index for SRB_OPEN_DEVICE_INSTANCE.  
+Filter type index for SRB_OPEN_DEVICE_INSTANCE.
 
 ### -field CommandData.Idle
 
@@ -234,3 +238,4 @@ The stream class driver passes pointers to HW_STREAM_REQUEST_BLOCK structures to
 The minidriver owns this stream request block until the request times out or it completes the request. The minidriver signals to the class driver that it has completed the request by calling [StreamClassDeviceNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification)(DeviceRequestComplete, pSrb->HwDeviceExtension, pSRB) for device-specific requests, or calling [StreamClassStreamNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification)(StreamRequestComplete, pSrb->StreamObject, pSrb) for stream-specific requests. (The minidriver can also complete a request by calling [StreamClassCompleteRequestAndMarkQueueReady](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclasscompleterequestandmarkqueueready)(pSrb). See that routine for details.)
 
 If the class driver times out the request, it will call the minidriver's [StrMiniRequestTimeout](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_request_timeout_handler) routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the **TimeoutCounter** member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the **TimeoutCounter** member to the value of **TimeoutOriginal**.
+

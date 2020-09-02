@@ -8,8 +8,6 @@ ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
 ms.date: 05/30/2019
 keywords: ["IoCheckFunctionAccess function"]
 ms.keywords: IoCheckFunctionAccess, IoCheckFunctionAccess function [Installable File System Drivers], ifsk.iocheckfunctionaccess, ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess
-f1_keywords:
- - "ntifs/IoCheckFunctionAccess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IoCheckFunctionAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCheckFunctionAccess
+ - ntifs/IoCheckFunctionAccess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IoCheckFunctionAccess
 ---
 
 # IoCheckFunctionAccess function
+
 
 ## -description
 
@@ -91,3 +91,4 @@ The *GrantedAccess* mask cannot contain any generic mappings. That is, [IoCheckD
 [IoCheckDesiredAccess](nf-ntifs-iocheckdesiredaccess.md)
 
 [SeAccessCheck](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck)
+

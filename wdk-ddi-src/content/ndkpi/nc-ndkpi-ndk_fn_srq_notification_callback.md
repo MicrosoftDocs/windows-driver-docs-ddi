@@ -8,8 +8,6 @@ ms.assetid: 3063F991-DDC5-4E52-979B-6CFCD11A604C
 ms.date: 05/02/2018
 keywords: ["NDK_FN_SRQ_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: NDK_FN_SRQ_NOTIFICATION_CALLBACK, NDK_FN_SRQ_NOTIFICATION_CALLBACK callback, NdkSrqNotificationCallback, NdkSrqNotificationCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqNotificationCallback, netvista.ndk_fn_srq_notification_callback
-f1_keywords:
- - "ndkpi/NdkSrqNotificationCallback"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkSrqNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_SRQ_NOTIFICATION_CALLBACK
+ - ndkpi/NDK_FN_SRQ_NOTIFICATION_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkSrqNotificationCallback
 ---
 
 # NDK_FN_SRQ_NOTIFICATION_CALLBACK callback function
@@ -47,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkSrqNotificationCallback</i> (<i>NDK_FN_SRQ_NOTIFICATION_CALLBACK</i>) function provides NDK shared receive queue (SRQ) notifications from an NDK provider.
-
 
 ## -parameters
 
+### -param SrqNotificationContext 
 
-
-
-### -param SrqNotificationContext [in, optional]
-
+[in, optional]
 A context area that was specified in the <i>SrqNotificationContext</i> parameter of the <i>NdkCreateSrq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_srq">NDK_FN_CREATE_SRQ</a>) function when the SRQ  object was created.
 
+### -param SrqStatus 
 
-### -param SrqStatus [in]
-
+[in]
 Indicates if a fatal SRQ error occurred. The following status codes are defined:
 
 
@@ -95,16 +90,10 @@ A catastrophic error occurred on the SRQ. The SRQ is unusable. All of the associ
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This routine is implemented by the NDK consumer and passed to the NDK provider.</div>
 <div> </div>
 An NDK provider calls the <i>NdkSrqNotificationCallback</i> function when the number of receive requests that are queued on the SRQ falls below the minimum number of queued receive requests (<i>NotifyThreshold</i>). The   <i>NotifyThreshold</i> is an input parameter to the <i>NdkCreateSrq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_srq">NDK_FN_CREATE_SRQ</a>)  and <i>NdkModifySrq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_modify_srq">NDK_FN_MODIFY_SRQ</a>)  functions.
-
-
 

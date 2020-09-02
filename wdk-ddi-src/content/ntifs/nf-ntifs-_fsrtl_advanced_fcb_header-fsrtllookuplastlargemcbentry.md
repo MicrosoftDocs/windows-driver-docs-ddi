@@ -8,8 +8,6 @@ ms.assetid: c12a5b96-2e11-45c6-aebf-ee49ac911fa0
 ms.date: 04/16/2018
 keywords: ["FsRtlLookupLastLargeMcbEntry function"]
 ms.keywords: FsRtlLookupLastLargeMcbEntry, FsRtlLookupLastLargeMcbEntry routine [Installable File System Drivers], fsrtlref_71f4bede-0097-4707-a30e-d09c540f507f.xml, ifsk.fsrtllookuplastlargemcbentry, ntifs/FsRtlLookupLastLargeMcbEntry
-f1_keywords:
- - "ntifs/FsRtlLookupLastLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlLookupLastLargeMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlLookupLastLargeMcbEntry
+ - ntifs/FsRtlLookupLastLargeMcbEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlLookupLastLargeMcbEntry
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlLookupLastLargeMcbEntry function
@@ -50,44 +49,27 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlLookupLastLargeMcbEntry</b> routine retrieves the last mapping entry stored in the map control block (MCB).
 
-
 ## -parameters
-
-
-
 
 ### -param Mcb
 
 <p>Pointer to an initialized MCB structure to be searched. </p>
 
-
 ### -param Vbn
 
 <p>Pointer to a variable that receives the last virtual block number (VBN) that was mapped.</p>
-
 
 ### -param Lbn
 
 <p>Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists. </p>
 
-
-
-
 ## -returns
-
-
 
 <b>FsRtlLookupLastLargeMcbEntry</b> returns <b>FALSE</b> if the MCB contains no mapping entries, <b>TRUE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 <b>FsRtlLookupLastLargeMcbEntry</b> searches for the last mapping of the last run in the MCB: 
 
@@ -108,12 +90,7 @@ If the last mapping is not a hole, the lookup operation yields a positive value 
 <div class="alert"><b>Note</b>    The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used. </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a>
 
@@ -152,7 +129,4 @@ If the last mapping is not a hole, the lookup operation yields a positive value 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb">FsRtlUninitializeLargeMcb</a>
- 
-
- 
 

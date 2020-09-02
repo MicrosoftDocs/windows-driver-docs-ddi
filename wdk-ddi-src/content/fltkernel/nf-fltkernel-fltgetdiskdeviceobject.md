@@ -8,8 +8,6 @@ ms.assetid: fb85aa34-5983-405b-85d3-7ebc4be49c51
 ms.date: 04/16/2018
 keywords: ["FltGetDiskDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject
-f1_keywords:
- - "fltkernel/FltGetDiskDeviceObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetDiskDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetDiskDeviceObject
+ - fltkernel/FltGetDiskDeviceObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetDiskDeviceObject
 ---
 
 # FltGetDiskDeviceObject function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetDiskDeviceObject</b> routine returns a pointer to the disk device object associated with a given volume. 
-
+The <b>FltGetDiskDeviceObject</b> routine returns a pointer to the disk device object associated with a given volume.
 
 ## -parameters
 
+### -param Volume 
 
+[in]
+Opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>.
 
+### -param DiskDeviceObject 
 
-### -param Volume [in]
-
-Opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param DiskDeviceObject [out]
-
-Pointer to a caller-allocated variable that receives the device object pointer. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives the device object pointer. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetDiskDeviceObject</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -89,14 +81,8 @@ The requested device object does not exist for the given volume. This is an erro
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltGetDiskDeviceObject</b> retrieves a pointer to the storage device object for the physical disk where the volume resides. The storage device need not be an actual disk. 
 
@@ -108,15 +94,9 @@ To get a pointer to the Filter Manager's volume device object (VDO) for a given 
 
 To get an opaque volume pointer for the volume represented by a volume device object, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromdeviceobject">FltGetVolumeFromDeviceObject</a>. 
 
-For more information about volume device objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-system-stacks">File System Stacks</a>. 
-
-
-
+For more information about volume device objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-system-stacks">File System Stacks</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>
 
@@ -127,7 +107,4 @@ For more information about volume device objects, see <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
- 
-
- 
 

@@ -8,37 +8,41 @@ ms.assetid: 4c04cbbb-a926-4371-a717-bfe6bf0742c4
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure"]
-f1_keywords:
- - "netadapter/NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES"
-ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, 
+ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES,
 req.header: netadapter.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - netadapter.h
-api_name: 
- - NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
-product: 
- - Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - _NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
+ - netadapter/_NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
+ - NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
+ - netadapter/NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netadapter.h
+api_name:
+ - NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
+product:
+ - Windows
 ---
 
 # NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure
+
 
 ## -description
 
@@ -49,7 +53,7 @@ The **NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES** structure describes a net ad
 ### -field Size
 
 The size of this structure, in bytes.
- 
+
 ### -field PacketFilterMatch
 
 A boolean value that describes if the net adapter is capable of waking from a packet filter match.
@@ -67,3 +71,4 @@ Call [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](../netadapter/nf-net
 [**NetAdapterWakeSetPacketFilterCapabilities**](../netadapter/nf-netadapter-netadapterwakesetpacketfiltercapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
+

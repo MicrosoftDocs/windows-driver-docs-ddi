@@ -8,8 +8,6 @@ ms.assetid: 755a834b-6590-4289-99b1-058690c1ad4f
 ms.date: 05/02/2018
 keywords: ["RIL_Dial function"]
 ms.keywords: RIL_Dial, RIL_Dial method [Network Drivers Starting with Windows Vista], netvista.ril_dial, rilapi/RIL_Dial
-f1_keywords:
- - "rilapi/RIL_Dial"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_Dial
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_Dial
+ - rilapi/RIL_Dial
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_Dial
 ---
 
 # RIL_Dial function
@@ -47,43 +46,25 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param lpraAddress
 
-
 ### -param dwOptions
-
 
 ### -param dwType
 
-
 ### -param lprcmOfferAnswer
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

@@ -6,10 +6,8 @@ old-location: netvista\wwan_sms_cdma_record.htm
 tech.root: netvista
 ms.assetid: 4138be92-1f54-4478-8fbb-951f1d06cb66
 ms.date: 05/02/2018
-keywords: ["_WWAN_SMS_CDMA_RECORD structure"]
+keywords: ["WWAN_SMS_CDMA_RECORD structure"]
 ms.keywords: "*PWWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_RECORD, WWAN_SMS_CDMA_RECORD structure [Network Drivers Starting with Windows Vista], WwanRef_3356fcf9-99f2-4c07-89d5-fa73019f9a27.xml, _WWAN_SMS_CDMA_RECORD, netvista.wwan_sms_cdma_record, wwan/PWWAN_SMS_CDMA_RECORD, wwan/WWAN_SMS_CDMA_RECORD"
-f1_keywords:
- - "wwan/WWAN_SMS_CDMA_RECORD"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_CDMA_RECORD
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_CDMA_RECORD, *PWWAN_SMS_CDMA_RECORD
+f1_keywords:
+ - _WWAN_SMS_CDMA_RECORD
+ - wwan/_WWAN_SMS_CDMA_RECORD
+ - PWWAN_SMS_CDMA_RECORD
+ - wwan/PWWAN_SMS_CDMA_RECORD
+ - WWAN_SMS_CDMA_RECORD
+ - wwan/WWAN_SMS_CDMA_RECORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_CDMA_RECORD
 ---
 
 # _WWAN_SMS_CDMA_RECORD structure
@@ -47,14 +50,9 @@ req.typenames: WWAN_SMS_CDMA_RECORD, *PWWAN_SMS_CDMA_RECORD
 
 ## -description
 
-
 The WWAN_SMS_CDMA_RECORD structure represents CDMA-based SMS text message records.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MessageIndex
 
@@ -64,12 +62,10 @@ An index into the virtual message store that is maintained by the miniport drive
      does not differentiate between physically available data stores. If the message is a Class 0
      (flash/alert) message, this must be set to WWAN_MESSAGE_INDEX_NONE.
 
-
 ### -field MsgStatus
 
 The status of the record that represents whether the SMS message is new (unread), old (read), a
      draft, or sent.
-
 
 ### -field Address
 
@@ -95,7 +91,6 @@ If
      <b>MsgStatus</b> is 
      <b>WwanMsgStatusNew</b> or 
      <b>WwanMsgStatusOld</b>, miniport drivers should specify the sender's mobile number.
-
 
 ### -field ScTimeStamp
 
@@ -144,24 +139,20 @@ A string that represent the Service Center (SC) timestamp, in the following form
 For example, to represent October 2nd, 1996, 20:01:54 GMT+2 hours use the following string timestamp
       "96/10/02,20:01:54+02"
 
-
 ### -field EncodingId
 
 The encoding that is used in the CDMA message. 
      <b>EncodedMsg</b> message should be interpreted based on the value of this member.
 
-
 ### -field LanguageId
 
 The language that is used in the SMS text message.
-
 
 ### -field SizeInBytes
 
 The size, in bytes, of 
      <b>EncodedMsg</b> . The encoded message can have a maximum length of WWAN_SMS_CDMA_MAX_BUF_LEN. Miniport
      drivers must specify a value for this member for all encoding types.
-
 
 ### -field SizeInCharacters
 
@@ -172,16 +163,11 @@ Size of
      <b>WwanSmsCdmaEncodingShiftJis</b> or 
      <b>WwanSmsCdmaEncodingKorean</b>.
 
-
 ### -field EncodedMsg
 
 The encoded content of the record that represents the SMS text message.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_msg_status">WWAN_MSG_STATUS</a>
 
@@ -192,7 +178,4 @@ The encoded content of the record that represents the SMS text message.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_lang">WWAN_SMS_CDMA_LANG</a>
- 
-
- 
 

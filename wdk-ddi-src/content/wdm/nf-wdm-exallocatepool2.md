@@ -5,35 +5,36 @@ tech.root: kernel
 ms.date: 05/12/2020
 ms.topic: language-reference
 targetos: Windows
-description:
-req.assembly:
+description: 
+req.assembly: 
 req.construct-type: function
 req.ddi-compliance: HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo
 req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
-req.idl:
+req.idl: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-req.kmdf-ver:
+req.kmdf-ver: 
 req.lib: NtosKrnl.lib
-req.max-support:
-req.namespace:
-req.redist:
+req.max-support: 
+req.namespace: 
+req.redist: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.target-type: Universal
-req.type-library:
-req.umdf-ver:
-req.unicode-ansi:
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePool2
 f1_keywords:
+ - ExAllocatePool2
  - wdm/ExAllocatePool2
 dev_langs:
  - c++
@@ -76,6 +77,9 @@ This routine has the following differences from the earlier allocation routines 
 2. Return behavior in the event of unsuccessful allocation.  **ExAllocatePoolWithQuotaTag** raises an exception by default.
 3. Tags with a value of 0 are invalid.
 
+> [!NOTE]
+> When replacing [**ExAllocatePoolWithQuotaTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag) with **ExAllocatePool2**, you must specify the **POOL_FLAG_USE_QUOTA** flag. For more info about pool flags, see [POOL_FLAGS](https://docs.microsoft.com/windows-hardware/drivers/kernel/pool_flags).
+
 If **NumberOfBytes** is `PAGE_SIZE` or greater, a page-aligned buffer is allocated. Memory allocations of `PAGE_SIZE` or less are allocated within a page and do not cross page boundaries. Memory allocations of less than `PAGE_SIZE` are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
 Drivers may only use up to the **NumberOfBytes** they have explicitly allocated. Accessing memory outside of this range may corrupt the pool and cause the system to crash.
@@ -96,3 +100,4 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, **ExAllocateP
 ## -see-also
 
 [**ExAllocatePool3**](nf-wdm-exallocatepool3.md)
+

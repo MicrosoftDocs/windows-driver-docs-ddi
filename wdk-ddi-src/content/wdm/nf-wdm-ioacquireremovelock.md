@@ -8,8 +8,6 @@ ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.date: 04/30/2018
 keywords: ["IoAcquireRemoveLock macro"]
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
-f1_keywords:
- - "wdm/IoAcquireRemoveLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoAcquireRemoveLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoAcquireRemoveLock
+ - wdm/IoAcquireRemoveLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoAcquireRemoveLock
 ---
 
 # IoAcquireRemoveLock macro
@@ -47,34 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoAcquireRemoveLock</b> routine increments the count for a remove lock, 
    indicating that the associated device object should not be detached from the device stack or deleted.
 
-## -syntax
-
-```cpp
-NTSTATUS
-IoAcquireRemoveLock (
-    _Inout_ PIO_REMOVE_LOCK RemoveLock,
-    _In_opt_ PVOID          Tag
-    );
-```
-
 ## -parameters
 
+### -param RemoveLock 
 
-
-
-### -param RemoveLock [in]
-
+[in]
 Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller initialized with a 
       previous call to 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>.
 
+### -param Tag 
 
-### -param Tag [in, optional]
-
+[in, optional]
 Optionally points to a caller-supplied tag that identifies this instance of acquiring the remove lock. For 
        example, a driver Dispatch routine typically sets this parameter to a pointer to the IRP the routine is 
        processing.
@@ -87,6 +73,15 @@ If a driver specifies a <i>Tag</i> on a call to
 The <i>Tag</i> does not have to be unique, but should be something meaningful during 
        debugging.
 
+## -syntax
+
+```cpp
+NTSTATUS
+IoAcquireRemoveLock (
+    _Inout_ PIO_REMOVE_LOCK RemoveLock,
+    _In_opt_ PVOID          Tag
+    );
+```
 
 ## -remarks
 
@@ -110,13 +105,7 @@ A driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>
 
@@ -127,7 +116,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>
- 
-
- 
 

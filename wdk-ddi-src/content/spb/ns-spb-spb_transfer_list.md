@@ -8,8 +8,6 @@ ms.assetid: DC4E165B-4D3A-4C5F-9B6F-8CB825BAF4FD
 ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_LIST structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB.spb_transfer_list, SPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST"
-f1_keywords:
- - "spb/SPB_TRANSFER_LIST"
 req.header: spb.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Spb.h
-api_name:
-- SPB_TRANSFER_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST
+f1_keywords:
+ - SPB_TRANSFER_LIST
+ - spb/SPB_TRANSFER_LIST
+ - PSPB_TRANSFER_LIST
+ - spb/PSPB_TRANSFER_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Spb.h
+api_name:
+ - SPB_TRANSFER_LIST
 ---
 
 # SPB_TRANSFER_LIST structure
@@ -47,38 +48,27 @@ req.typenames: SPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST
 
 ## -description
 
-
 The <b>SPB_TRANSFER_LIST</b> structure describes an <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of the <b>SPB_TRANSFER_LIST</b> structure. This size value does not include any <b>Transfers</b> array elements that might follow this structure. If new members are added to future versions of this structure, the <b>Size</b> value can be used to determine which version of the <b>SPB_TRANSFER_LIST</b> structure is being used.
 
-
 ### -field Reserved
 
 Reserved for use by the operating system. Set to zero.
-
 
 ### -field TransferCount
 
 The number of elements in the <b>Transfers</b> array. This array contains a minimum of one element.
 
-
 ### -field Transfers
 
 This member is the first element in an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a> structures.  Each array element describes an individual transfer in the I/O transfer sequence. If the array contains more than one element, the additional array elements immediately follow the <b>SPB_TRANSFER_LIST</b> structure in memory. The transfers are performed in the order in which they appear in the array, starting with the first element.
 
-
 ## -remarks
-
-
 
 The input buffer for an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request begins with an <b>SPB_TRANSFER_LIST</b> structure. The first transfer in the requested I/O transfer sequence is specified in the <b>Transfers</b> member of this structure. If the sequence contains more than one transfer, the array elements that describe the additional transfers immediately follow the <b>SPB_TRANSFER_LIST</b> structure.
 
@@ -86,13 +76,7 @@ The input buffer for an <a href="https://msdn.microsoft.com/library/windows/hard
 
 If your SPB controller driver supports custom I/O control (IOCTL) requests that use input or output buffers, use the <b>SPB_TRANSFER_LIST</b> structure to describe these buffers. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/using-the-spb-transfer-list-structure">Using the SPB_TRANSFER_LIST Structure for Custom IOCTLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
@@ -103,7 +87,4 @@ If your SPB controller driver supports custom I/O control (IOCTL) requests that 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
- 
-
- 
 

@@ -6,41 +6,44 @@ old-location: display\printifi32.htm
 tech.root: display
 ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.date: 02/26/2018
-keywords: ["_PRINTIFI32 structure"]
+keywords: ["PRINTIFI32 structure"]
 ms.keywords: "*PPRINTIFI32, PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PRINTIFI32, PRINTIFI32 structure [Display Devices], _PRINTIFI32, display.printifi32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, prntfont/PPRINTIFI32, prntfont/PRINTIFI32"
-f1_keywords:
- - "prntfont/PRINTIFI32"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- PRINTIFI32
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: PRINTIFI32, *PPRINTIFI32
 req.product: Windows 10 or later.
+f1_keywords:
+ - _PRINTIFI32
+ - prntfont/_PRINTIFI32
+ - PPRINTIFI32
+ - prntfont/PPRINTIFI32
+ - PRINTIFI32
+ - prntfont/PRINTIFI32
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - PRINTIFI32
 ---
 
 # _PRINTIFI32 structure
@@ -48,143 +51,59 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
-The PRINTIFI32 structure is a fixed-size version of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure, and defines information for a given typeface that GDI can use.
-
-
-## -syntax
-
-
-```cpp
-typedef struct _PRINTIFI32 {
-  ULONG   cjThis;
-  ULONG   cjIfiExtra;
-  PTRDIFF dpwszFamilyName;
-  PTRDIFF dpwszStyleName;
-  PTRDIFF dpwszFaceName;
-  PTRDIFF dpwszUniqueName;
-  PTRDIFF dpFontSim;
-  LONG    lEmbedId;
-  LONG    lItalicAngle;
-  LONG    lCharBias;
-  PTRDIFF dpCharSets;
-  BYTE    jWinCharSet;
-  BYTE    jWinPitchAndFamily;
-  USHORT  usWinWeight;
-  ULONG   flInfo;
-  USHORT  fsSelection;
-  USHORT  fsType;
-  FWORD   fwdUnitsPerEm;
-  FWORD   fwdLowestPPEm;
-  FWORD   fwdWinAscender;
-  FWORD   fwdWinDescender;
-  FWORD   fwdMacAscender;
-  FWORD   fwdMacDescender;
-  FWORD   fwdMacLineGap;
-  FWORD   fwdTypoAscender;
-  FWORD   fwdTypoDescender;
-  FWORD   fwdTypoLineGap;
-  FWORD   fwdAveCharWidth;
-  FWORD   fwdMaxCharInc;
-  FWORD   fwdCapHeight;
-  FWORD   fwdXHeight;
-  FWORD   fwdSubscriptXSize;
-  FWORD   fwdSubscriptYSize;
-  FWORD   fwdSubscriptXOffset;
-  FWORD   fwdSubscriptYOffset;
-  FWORD   fwdSuperscriptXSize;
-  FWORD   fwdSuperscriptYSize;
-  FWORD   fwdSuperscriptXOffset;
-  FWORD   fwdSuperscriptYOffset;
-  FWORD   fwdUnderscoreSize;
-  FWORD   fwdUnderscorePosition;
-  FWORD   fwdStrikeoutSize;
-  FWORD   fwdStrikeoutPosition;
-  BYTE    chFirstChar;
-  BYTE    chLastChar;
-  BYTE    chDefaultChar;
-  BYTE    chBreakChar;
-  WCHAR   wcFirstChar;
-  WCHAR   wcLastChar;
-  WCHAR   wcDefaultChar;
-  WCHAR   wcBreakChar;
-  POINTL  ptlBaseline;
-  POINTL  ptlAspect;
-  POINTL  ptlCaret;
-  RECTL   rclFontBox;
-  BYTE    achVendId[4];
-  ULONG   cKerningPairs;
-  ULONG   ulPanoseCulture;
-  PANOSE  panose;
-} PRINTIFI32, *PPRINTIFI32;
-```
-
+The PRINTIFI32 structure is a fixed-size version of the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure, and defines information for a given typeface that GDI can use.
 
 ## -struct-fields
 
-
-
-
 ### -field cjThis
 
-Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
-
+Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
 
 ### -field cjIfiExtra
 
 Specifies the size in bytes of the IFIEXTRA structure that follows this structure. A value of zero indicates that no IFIEXTRA structure is present.
 
-
 ### -field dpwszFamilyName
 
 Specifies the offset in bytes to a null-terminated Unicode string containing the family name of the font (for example, "Times Roman"). Generally, this string immediately follows this structure. This string should be the same as the name recorded in the <b>lfFaceName</b> member of the Win32 LOGFONT structure.
-
 
 ### -field dpwszStyleName
 
 Specifies the offset in bytes to a null-terminated Unicode string describing the style of the font (for example, "Bold").
 
-
 ### -field dpwszFaceName
 
 Specifies the offset in bytes to a null-terminated Unicode string representing the unique and complete name of the font. The name contains the family and subfamily names of the font (for example, "Times New Roman Bold").
-
 
 ### -field dpwszUniqueName
 
 Specifies the offset in bytes to a null-terminated Unicode string representing the unique identifier of the font (for example, "Monotype:Times New Roman:1990").
 
-
 ### -field dpFontSim
 
-Specifies the offset in bytes from the beginning of this structure to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
+Specifies the offset in bytes from the beginning of this structure to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
 
 Note that if a font is italic by design, the driver should not indicate font support for italic simulation although it can indicate font support for bold italic simulation. Similarly, the driver should not indicate font support for bold simulation if the font is bold by design, but can indicate font support for bold italic simulation. If the font is both bold and italic by design, it should not support any simulations.
 
-The offsets in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
-
+The offsets in the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
 
 ### -field lEmbedId
 
 Specifies the Embedding ID of the font. This value is TrueType-specific and should be set to zero by all other font providers.
 
-
 ### -field lItalicAngle
 
 Specifies the italic angle of the font. This value is TrueType-specific and should be set to zero by all other font providers.
 
-
 ### -field lCharBias
 
 Specifies the character bias. This value is TrueType-specific and should be set to zero by all other font providers.
-
 
 ### -field dpCharSets
 
 Specifies the offset from the beginning of this structure to an array containing a list of all Windows character sets supported by this font. The array is 16 bytes in size and is always terminated with DEFAULT_CHARSET. The first value of the array should identify the Windows character set that has the best and most complete coverage in the font; this value should also be stored in <b>jWinCharSet</b>. For instance, if this is a Japanese font that also supports US ANSI and Cyrillic character sets, then <b>jWinCharSet</b> should be set to SHIFTJIS_CHARSET and the array identified by <b>dpCharSets</b> would contain SHIFTJIS_CHARSET, ANSI_CHARSET, RUSSIAN_CHARSET, DEFAULT_CHARSET.
 
 If this font does not support more than one Windows character set, <b>dpCharSets</b> should be set to zero.
-
 
 ### -field jWinCharSet
 
@@ -366,8 +285,6 @@ This font supports the Vietnamese character set.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field jWinPitchAndFamily
 
@@ -469,13 +386,10 @@ Fonts with variable stroke width (proportionally spaced) and without serifs, suc
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usWinWeight
 
 Specifies the weight of the font in the range 0 to 1000 (for example, 400 is normal and 700 is bold). This value is provided to the application in the <b>lfWeight</b> member of the Win32 LOGFONT structure.
-
 
 ### -field flInfo
 
@@ -675,7 +589,7 @@ Indicates that the font contains a valid digital signature.
 
 #### FM_INFO_RETURNS_OUTLINES
 
-Indicates that for any glyph supported by the driver, GDI can request a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
+Indicates that for any glyph supported by the driver, GDI can request a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
 
 
 
@@ -748,7 +662,6 @@ Indicates that the font is a TrueType font.
 #### FM_INFO_TECH_TYPE1
 
 Indicates that this font is a PostScript screen font (either Type1 or OpenType PostScript).
-
 
 ### -field fsSelection
 
@@ -830,8 +743,6 @@ Set if all the characters of the font are underscored by default; otherwise unde
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fsType
 
@@ -890,242 +801,253 @@ Applications that implement support for font embedding, either through use of th
 
 If multiple embedding bits are set, the <i>least</i> restrictive license granted takes precedence. For example, if bits 1 and 3 are set, bit 3 takes precedence over bit 1and the font can be embedded with Editable rights. For compatibility purposes, most vendors granting Editable embedding rights also set the Preview & Print bit (0x000C). This permits an application that only supports Preview & Print embedding to detect that font embedding is allowed.
 
-
 ### -field fwdUnitsPerEm
 
 Specifies the em-height of the font.
-
 
 ### -field fwdLowestPPEm
 
 Specifies the smallest readable size of the font, in pixels. This value is ignored for bitmap fonts.
 
-
 ### -field fwdWinAscender
 
 Specifies the Windows ascender value for the font.
-
 
 ### -field fwdWinDescender
 
 Specifies the Windows descender value for the font.
 
-
 ### -field fwdMacAscender
 
 Specifies the Macintosh ascender value for the font.
-
 
 ### -field fwdMacDescender
 
 Specifies the Macintosh descender value for the font. This number is typically less than zero. It measures the signed displacement from the base line of the lowest descender in the Macintosh character set.
 
-
 ### -field fwdMacLineGap
 
 Specifies the Macintosh line gap for the font. The suggested Macintosh interline spacing is equal to <b>fwdMacLineGap</b> + <b>fwdMacAscender</b> âˆ’ <b>fwdMacDescender</b>.
-
 
 ### -field fwdTypoAscender
 
 Specifies the typographic ascender value for the font.
 
-
 ### -field fwdTypoDescender
 
 Specifies the typographic descender value for the font. This value specifies the signed displacement of the lowest descender from the baseline.
-
 
 ### -field fwdTypoLineGap
 
 Specifies the typographic line gap for the font.
 
-
 ### -field fwdAveCharWidth
 
 Specifies the arithmetic average of the width of all of the 26 lower case letters 'a' through 'z' of the Latin alphabet and the space character. If any of the 26 lowercase letters are not present, then this member should be set equal to the weighted average of all glyphs in the font.
-
 
 ### -field fwdMaxCharInc
 
 Specifies the maximum character increment of all glyphs in the font.
 
-
 ### -field fwdCapHeight
 
 Specifies the height of the optical line describing the top of the uppercase 'H' in font units (FUnits). This might not be the same as the measured height of the uppercase 'H.' If this information does not exist, <b>fwdCapHeight</b> should be set to zero, which indicates that it is undefined.
-
 
 ### -field fwdXHeight
 
 Specifies the height of the optical line describing the height of the lowercase 'x' in font units. This might not be the same as the measured height of the lowercase 'x.' A value of zero indicates that this member is undefined.
 
-
 ### -field fwdSubscriptXSize
 
 Specifies the suggested character width (the size along the baseline direction) of the subscript font.
-
 
 ### -field fwdSubscriptYSize
 
 Specifies the suggested character height (the size along the ascender direction) of the subscript font.
 
-
 ### -field fwdSubscriptXOffset
 
 Specifies the suggested offset in the baseline direction of the subscript character. The offset is with respect to the character origin of the base character.
-
 
 ### -field fwdSubscriptYOffset
 
 Specifies the suggested offset in the baseline direction of the subscript character. The offset is taken from the character origin of the base character.
 
-
 ### -field fwdSuperscriptXSize
 
 Specifies the suggested character width (the size along the baseline direction) of the superscript font.
-
 
 ### -field fwdSuperscriptYSize
 
 Specifies the suggested character height (the size along the ascender direction) of the superscript font.
 
-
 ### -field fwdSuperscriptXOffset
 
 Specifies the suggested offset in the baseline direction of the superscript character. The offset is taken from the character origin of the base character.
-
 
 ### -field fwdSuperscriptYOffset
 
 Specifies the suggested offset in the baseline direction of the superscript character. The offset is taken from the character origin of the base character.
 
-
 ### -field fwdUnderscoreSize
 
 Specifies the suggested width of the underscore bar, in font units.
-
 
 ### -field fwdUnderscorePosition
 
 Specifies the suggested displacement, in font units, from the base line to the middle of the underscore bar.
 
-
 ### -field fwdStrikeoutSize
 
 Specifies the suggested width of the strike-out bar, in font coordinates.
-
 
 ### -field fwdStrikeoutPosition
 
 Specifies the suggested displacement of the middle of the strikeout bar from the baseline.
 
-
 ### -field chFirstChar
 
 Specifies the lowest supported character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
-
 
 ### -field chLastChar
 
 Specifies the highest supported character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
 
-
 ### -field chDefaultChar
 
 Specifies the default character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
-
 
 ### -field chBreakChar
 
 Specifies the break character in the code page specified in <b>jWinCharSet</b>. This field is provided for Windows 3.1 compatibility.
 
-
 ### -field wcFirstChar
 
 Specifies the supported character with the smallest Unicode character code.
-
 
 ### -field wcLastChar
 
 Specifies the supported character with the largest Unicode character code.
 
-
 ### -field wcDefaultChar
 
 Specifies the character to be substituted when an application requests a character that is not supported by the font.
-
 
 ### -field wcBreakChar
 
 Specifies the code point of the space character or its equivalent.
 
-
 ### -field ptlBaseline
 
 Specifies a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
-
 
 ### -field ptlAspect
 
 Specifies a POINTL structure that contains the aspect ratio of the pixel centers for which the bitmap font was designed. This value is used only by bitmap fonts.
 
-
 ### -field ptlCaret
 
 Specifies a POINTL structure that contains the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
-
 
 ### -field rclFontBox
 
 Specifies a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
 
-
 ### -field achVendId
 
 Specifies a four character identifier for the font vendor. Identifiers are documented in the Microsoft TrueType specification.
-
 
 ### -field cKerningPairs
 
 Specifies the number of kerning pairs associated with this font.
 
-
 ### -field ulPanoseCulture
 
 Specifies the manner in which to interpret the panose number. This number should be set to FM_PANOSE_CULTURE_LATIN for Latin-based fonts. See the Microsoft Window SDK documentation for information about the PANOSE structure.
-
 
 ### -field panose
 
 Is an array of 10 bytes used to describe the visual characteristics of a given typeface. These characteristics are then used to associate the font with other fonts of similar appearance having different names. See the Window SDK documentation for information about the PANOSE structure.
 
+## -syntax
+
+```cpp
+typedef struct _PRINTIFI32 {
+  ULONG   cjThis;
+  ULONG   cjIfiExtra;
+  PTRDIFF dpwszFamilyName;
+  PTRDIFF dpwszStyleName;
+  PTRDIFF dpwszFaceName;
+  PTRDIFF dpwszUniqueName;
+  PTRDIFF dpFontSim;
+  LONG    lEmbedId;
+  LONG    lItalicAngle;
+  LONG    lCharBias;
+  PTRDIFF dpCharSets;
+  BYTE    jWinCharSet;
+  BYTE    jWinPitchAndFamily;
+  USHORT  usWinWeight;
+  ULONG   flInfo;
+  USHORT  fsSelection;
+  USHORT  fsType;
+  FWORD   fwdUnitsPerEm;
+  FWORD   fwdLowestPPEm;
+  FWORD   fwdWinAscender;
+  FWORD   fwdWinDescender;
+  FWORD   fwdMacAscender;
+  FWORD   fwdMacDescender;
+  FWORD   fwdMacLineGap;
+  FWORD   fwdTypoAscender;
+  FWORD   fwdTypoDescender;
+  FWORD   fwdTypoLineGap;
+  FWORD   fwdAveCharWidth;
+  FWORD   fwdMaxCharInc;
+  FWORD   fwdCapHeight;
+  FWORD   fwdXHeight;
+  FWORD   fwdSubscriptXSize;
+  FWORD   fwdSubscriptYSize;
+  FWORD   fwdSubscriptXOffset;
+  FWORD   fwdSubscriptYOffset;
+  FWORD   fwdSuperscriptXSize;
+  FWORD   fwdSuperscriptYSize;
+  FWORD   fwdSuperscriptXOffset;
+  FWORD   fwdSuperscriptYOffset;
+  FWORD   fwdUnderscoreSize;
+  FWORD   fwdUnderscorePosition;
+  FWORD   fwdStrikeoutSize;
+  FWORD   fwdStrikeoutPosition;
+  BYTE    chFirstChar;
+  BYTE    chLastChar;
+  BYTE    chDefaultChar;
+  BYTE    chBreakChar;
+  WCHAR   wcFirstChar;
+  WCHAR   wcLastChar;
+  WCHAR   wcDefaultChar;
+  WCHAR   wcBreakChar;
+  POINTL  ptlBaseline;
+  POINTL  ptlAspect;
+  POINTL  ptlCaret;
+  RECTL   rclFontBox;
+  BYTE    achVendId[4];
+  ULONG   cKerningPairs;
+  ULONG   ulPanoseCulture;
+  PANOSE  panose;
+} PRINTIFI32, *PPRINTIFI32;
+```
 
 ## -remarks
 
-
-
 The PRINTIFI32 structure is available in Windows Server 2003 SP1 and later. Because this structure is of fixed size, and it is guaranteed not to change across architectures or operating system versions, it can be used for binary file layouts. Unidrv UFM files are laid out in the format described in this structure, for all platforms. Pscript5 NTF files use the platform-specific version of this structure.
 
-Additional information for a typeface can optionally be specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
+Additional information for a typeface can optionally be specified in the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
 
-A driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a> routine fills out and returns an IFIMETRICS structure to GDI.
+A driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a> routine fills out and returns an IFIMETRICS structure to GDI.
 
 The PRINTIFI32 structure defines all the information for a typeface that GDI understands. Most of the members are FWORD values, which are signed 16-bit quantities in design space. If the font is a raster font, design space and device space are the same and a font unit is equivalent to the distance between pixels.
 
 The coordinate system in the font/notional space is such that the y coordinate increases in an upward direction and the x coordinate increases to the right.
 
-
-
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
-
-
-
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
 

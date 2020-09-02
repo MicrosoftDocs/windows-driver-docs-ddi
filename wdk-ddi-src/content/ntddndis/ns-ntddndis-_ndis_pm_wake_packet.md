@@ -6,10 +6,8 @@ old-location: netvista\ndis_pm_wake_packet.htm
 tech.root: netvista
 ms.assetid: b3d7adcf-79cd-42f4-ada2-c57de6310020
 ms.date: 05/02/2018
-keywords: ["_NDIS_PM_WAKE_PACKET structure"]
+keywords: ["NDIS_PM_WAKE_PACKET structure"]
 ms.keywords: "*PNDIS_PM_WAKE_PACKET, NDIS_PM_WAKE_PACKET, NDIS_PM_WAKE_PACKET structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WAKE_PACKET, PNDIS_PM_WAKE_PACKET structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_PACKET, netvista.ndis_pm_wake_packet, ntddndis/NDIS_PM_WAKE_PACKET, ntddndis/PNDIS_PM_WAKE_PACKET"
-f1_keywords:
- - "ntddndis/NDIS_PM_WAKE_PACKET"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_PM_WAKE_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PM_WAKE_PACKET, *PNDIS_PM_WAKE_PACKET
+f1_keywords:
+ - _NDIS_PM_WAKE_PACKET
+ - ntddndis/_NDIS_PM_WAKE_PACKET
+ - PNDIS_PM_WAKE_PACKET
+ - ntddndis/PNDIS_PM_WAKE_PACKET
+ - NDIS_PM_WAKE_PACKET
+ - ntddndis/NDIS_PM_WAKE_PACKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_PM_WAKE_PACKET
 ---
 
 # _NDIS_PM_WAKE_PACKET structure
@@ -47,14 +50,9 @@ req.typenames: NDIS_PM_WAKE_PACKET, *PNDIS_PM_WAKE_PACKET
 
 ## -description
 
-
 The <b>NDIS_PM_WAKE_PACKET</b> structure describes a network packet (known as a <i>wake packet</i>) that caused the network adapter to generate a wake-up event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -72,18 +70,13 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_PM_WAKE_PACKET_REVISION_1.
 
-
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
 
-
-
-
 ### -field PatternId
 
 A <b>ULONG</b> value that specifies the identifier of the wake-on-LAN (WOL) pattern that matches the wake packet. This identifier is specified by the <b>PatternId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a> structure that is passed to the driver during an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a>.
-
 
 ### -field PatternFriendlyName
 
@@ -98,7 +91,6 @@ This value is specified by the <b>FriendlyName</b> member of the <a href="https:
 ### -field OriginalPacketSize
 
 A <b>ULONG</b> value that specifies the original length, in units of bytes, of the wake packet.
-
 
 ### -field SavedPacketSize
 
@@ -117,17 +109,9 @@ A <b>ULONG</b> value that specifies the offset, in units of bytes, to the wake p
 
 ## -remarks
 
-
-
 The <b>NDIS_PM_WAKE_PACKET</b> structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-pm-wake-reason">NDIS_STATUS_PM_WAKE_REASON</a> status indication. For more information about how to issue this status indication, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/issuing-ndis-wake-reason-indications">Issuing NDIS Wake Reason Status Indications</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -150,7 +134,4 @@ The <b>NDIS_PM_WAKE_PACKET</b> structure is used in the <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a>
- 
-
- 
 

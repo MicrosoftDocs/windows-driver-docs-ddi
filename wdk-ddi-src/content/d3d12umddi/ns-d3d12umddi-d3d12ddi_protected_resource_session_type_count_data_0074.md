@@ -31,6 +31,7 @@ api_location:
 api_name:
  - D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPE_COUNT_DATA_0074
 f1_keywords:
+ - D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPE_COUNT_DATA_0074
  - d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPE_COUNT_DATA_0074
 dev_langs:
  - c++
@@ -57,3 +58,4 @@ See the [Protected Resources Specification](https://microsoft.github.io/DirectX-
 ## -see-also
 
 [**D3D112DDICAPS_TYPE**](ne-d3d12umddi-d3d12ddicaps_type.md)
+

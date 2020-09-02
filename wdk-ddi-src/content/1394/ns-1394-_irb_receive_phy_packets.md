@@ -6,10 +6,8 @@ old-location: ieee\irb_req_receive_phy_packets.htm
 tech.root: IEEE
 ms.assetid: FE160EB4-EDBD-4783-A02D-F82D2842ADD0
 ms.date: 02/15/2018
-keywords: ["_IRB_RECEIVE_PHY_PACKETS structure"]
+keywords: ["IRB_RECEIVE_PHY_PACKETS structure"]
 ms.keywords: 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets, IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], _IRB_RECEIVE_PHY_PACKETS
-f1_keywords:
- - "1394/IRB_REQ_RECEIVE_PHY_PACKETS"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_RECEIVE_PHY_PACKETS
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_RECEIVE_PHY_PACKETS
+f1_keywords:
+ - _IRB_RECEIVE_PHY_PACKETS
+ - 1394/_IRB_RECEIVE_PHY_PACKETS
+ - IRB_REQ_RECEIVE_PHY_PACKETS
+ - 1394/IRB_REQ_RECEIVE_PHY_PACKETS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_RECEIVE_PHY_PACKETS
 ---
 
 # _IRB_RECEIVE_PHY_PACKETS structure
@@ -47,19 +48,13 @@ req.typenames: IRB_REQ_RECEIVE_PHY_PACKETS
 
 ## -description
 
-
 This structure contains the fields necessary to carry out a ReceivePhyPackets request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 Specifies whether a callback should be registered or deactivated. Use REGISTER_PHY_PACKET_NOTIFICATION to register PhyPacketRoutine as the callback. Use DEREGISTER_PHY_PACKET_NOTIFICATION to deactivate any previously registered callbacks.
-
 
 ### -field PhyPacketRoutine
 
@@ -108,8 +103,6 @@ The 64-bit PHY packet that is received from the 1394 bus.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PhyPacketContext
 

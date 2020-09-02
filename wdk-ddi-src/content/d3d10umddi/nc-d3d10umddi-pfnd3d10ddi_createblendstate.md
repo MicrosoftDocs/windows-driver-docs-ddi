@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateBlendState"
+ - PFND3D10DDI_CREATEBLENDSTATE
+ - d3d10umddi/PFND3D10DDI_CREATEBLENDSTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CREATEBLENDSTATE callback function
+
 
 ## -description
 

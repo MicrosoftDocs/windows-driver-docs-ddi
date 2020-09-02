@@ -31,13 +31,18 @@ api_name:
  - _DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
  - DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
 f1_keywords:
+ - _DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
  - dispmprt/_DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
+ - PDXGK_DISPLAY_DIAGNOSTICS_INTERFACE
+ - dispmprt/PDXGK_DISPLAY_DIAGNOSTICS_INTERFACE
+ - DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
  - dispmprt/DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
 dev_langs:
  - c++
 ---
 
 # DXGK_DISPLAY_DIAGNOSTICS_INTERFACE structure
+
 
 ## -description
 
@@ -86,3 +91,4 @@ The operating system will query the display diagnostics interface for each graph
 [**PINTERFACE_DEREFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
 
 [**PINTERFACE_REFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference)
+

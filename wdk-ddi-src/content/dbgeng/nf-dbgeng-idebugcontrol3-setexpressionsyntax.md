@@ -8,8 +8,6 @@ ms.assetid: ab98312f-0240-498f-992a-b05cbcc64c04
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::SetExpressionSyntax"]
 ms.keywords: IDebugControl3 interface [Windows Debugging],SetExpressionSyntax method, IDebugControl3.SetExpressionSyntax, IDebugControl3::SetExpressionSyntax, IDebugControl_6f1ebcec-908b-4f00-b9cf-e7a036bc05e5.xml, SetExpressionSyntax, SetExpressionSyntax method [Windows Debugging], SetExpressionSyntax method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetExpressionSyntax, debugger.setexpressionsyntax
-f1_keywords:
- - "dbgeng/IDebugControl3.SetExpressionSyntax"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl3.SetExpressionSyntax
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::SetExpressionSyntax
+ - dbgeng/IDebugControl3::SetExpressionSyntax
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl3.SetExpressionSyntax
 ---
 
 # IDebugControl3::SetExpressionSyntax
@@ -47,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetExpressionSyntax</b> method sets the syntax that the engine will use to evaluate expressions.
-
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [in]
-
+[in]
 Specifies the syntax that the engine will use to evaluate expressions.  It can be one of the following values:
 
 
@@ -74,10 +69,7 @@ Expressions will be evaluated according to MASM syntax. For details of this synt
 
 Expressions will be evaluated according to C++ syntax. For details of this syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c---numbers-and-operators">C++ Numbers and Operators</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -98,14 +90,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The expression syntax is a global setting within the engine, so setting the expression syntax will affect all clients.
 
@@ -113,13 +99,7 @@ The expression syntax of the engine determines how the engine will interpret exp
 
 After the expression syntax has been changed, the engine sends out notification to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugeventcallbacks">IDebugEventCallbacks</a> registered with each client.  It also passes the DEBUG_CES_EXPRESSION_SYNTAX flag to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-changeenginestate">IDebugEventCallbacks::ChangeEngineState</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-evaluate">Evaluate</a>
 
@@ -134,7 +114,4 @@ After the expression syntax has been changed, the engine sends out notification 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
- 
-
- 
 

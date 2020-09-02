@@ -8,8 +8,6 @@ ms.assetid: 9B9FD4A1-F005-4CB8-80E3-D8AA74F6B9FB
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_INTENSITY_WHITE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_INTENSITY_WHITE, IOCTL_LAMP_GET_INTENSITY_WHITE control, IOCTL_LAMP_GET_INTENSITY_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_WHITE, stream.ioctl_lamp_get__intensity_white
-f1_keywords:
- - "lamp/IOCTL_LAMP_GET_INTENSITY_WHITE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_GET_INTENSITY_WHITE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_GET_INTENSITY_WHITE
+ - lamp/IOCTL_LAMP_GET_INTENSITY_WHITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_GET_INTENSITY_WHITE
 ---
 
 # IOCTL_LAMP_GET_INTENSITY_WHITE IOCTL
+
 
 ## -description
 
@@ -86,3 +86,4 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 The payload type of this IOCTL is a [LAMP_INTENSITY_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_white) structure.
 
 The **Value** field is the white light intensity in percentage (0 - 100).
+

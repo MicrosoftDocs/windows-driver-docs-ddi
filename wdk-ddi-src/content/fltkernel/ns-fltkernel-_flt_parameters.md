@@ -6,10 +6,8 @@ old-location: ifsk\flt_parameters.htm
 tech.root: ifsk
 ms.assetid: 62aa20b7-ce5c-4d42-bce2-1d76a98887ed
 ms.date: 11/06/19
-keywords: ["_FLT_PARAMETERS union"]
+keywords: ["FLT_PARAMETERS union"]
 ms.keywords: "*PFLT_PARAMETERS, FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, PFLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], _FLT_PARAMETERS, fltkernel/FLT_PARAMETERS, fltkernel/PFLT_PARAMETERS, ifsk.flt_parameters"
-f1_keywords:
- - "fltkernel/FLT_PARAMETERS"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -27,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_PARAMETERS, *PFLT_PARAMETERS
+f1_keywords:
+ - _FLT_PARAMETERS
+ - fltkernel/_FLT_PARAMETERS
+ - PFLT_PARAMETERS
+ - fltkernel/PFLT_PARAMETERS
+ - FLT_PARAMETERS
+ - fltkernel/FLT_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_PARAMETERS
 ---
 
 # _FLT_PARAMETERS union
+
 
 ## -description
 
@@ -108,3 +112,4 @@ The following I/O operations do not have parameters, and therefore do not have a
 [FLT_IO_PARAMETER_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_io_parameter_block)
 
 [**FltSetCallbackDataDirty**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcallbackdatadirty)
+

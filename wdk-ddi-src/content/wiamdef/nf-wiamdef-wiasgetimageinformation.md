@@ -8,12 +8,10 @@ ms.assetid: 457c4b98-313d-4b31-aa6c-fb62fea6fc7d
 ms.date: 05/03/2018
 keywords: ["wiasGetImageInformation function"]
 ms.keywords: image.wiasgetimageinformation, wiamdef/wiasGetImageInformation, wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, wiasGetImageInformation, wiasGetImageInformation function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetImageInformation"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetImageInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetImageInformation
+ - wiamdef/wiasGetImageInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetImageInformation
 ---
 
 # wiasGetImageInformation function
+
 
 ## -description
 
@@ -50,8 +50,9 @@ The **wiasGetImageInformation** function retrieves transfer context information 
 
 ## -parameters
 
-### -param pWiasContext [in]
+### -param pWiasContext 
 
+[in]
 Pointer to a WIA item context.
 
 ### -param lFlags
@@ -62,8 +63,9 @@ Specifies operational flags. Currently, only the following flag is defined:
 | --- | --- |
 | WIAS_INIT_CONTEXT | Initialize the MINIDRV_TRANSFER_CONTEXT structure. |
 
-### -param pmdtc [in, out]
+### -param pmdtc 
 
+[in, out]
 Pointer to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure. Upon return, this structure contains the requested image item information.
 
 ## -returns
@@ -83,3 +85,4 @@ If WIAS_INIT_CONTEXT is specified in the *lFlags* parameter, the MINIDRV_TRANSFE
 ## -see-also
 
 [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context)
+

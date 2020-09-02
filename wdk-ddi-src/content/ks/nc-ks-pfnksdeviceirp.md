@@ -8,8 +8,6 @@ ms.assetid: c31d7e52-46f7-46b9-9fa2-1778f2301b4d
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICEIRP callback function"]
 ms.keywords: AVStrMiniDeviceQueryInterface, AVStrMiniDeviceQueryRemove, AVStrMiniDeviceQueryRemove routine [Streaming Media Devices], PFNKSDEVICEIRP, avstclbk_e4e3e23a-c4e7-47fb-ad10-6a0a630669ed.xml, ks/AVStrMiniDeviceQueryRemove, stream.avstrminidevicequeryremove
-f1_keywords:
- - "ks/AVStrMiniDeviceQueryRemove"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniDeviceQueryRemove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSDEVICEIRP
+ - ks/PFNKSDEVICEIRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniDeviceQueryRemove
 ---
 
 # PFNKSDEVICEIRP callback function
 
 
 ## -description
-
 
 An AVStream minidriver's IRP handler routine is called when these IRPs is dispatched by the device.
 
@@ -61,35 +59,23 @@ An AVStream minidriver's IRP handler routine is called when these IRPs is dispat
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
 
-
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> that dispatched the IRP.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 The IRP issued by <i>Device</i>.
-
 
 ## -returns
 
-
-
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. If this is not the case, return an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 <table>
 <tr>
@@ -142,22 +128,12 @@ This routine is optional.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
- 
-
- 
 

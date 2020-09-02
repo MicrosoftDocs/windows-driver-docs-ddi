@@ -8,8 +8,6 @@ ms.assetid: abbd1f03-cf9e-449b-b261-2a751997fed0
 ms.date: 01/25/2019
 keywords: ["IOCTL_USB_GET_NODE_CONNECTION_INFORMATION IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control code [Buses], buses.ioctl_usb_get_node_connection_information, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, usbirp_b71c24bb-6e3b-468f-851d-a934a764fbe1.xml
-f1_keywords:
- - "usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbioctl.h
-api_name:
-- IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
+ - usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbioctl.h
+api_name:
+ - IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
 ---
 
 # IOCTL_USB_GET_NODE_CONNECTION_INFORMATION IOCTL
@@ -47,31 +46,21 @@ req.typenames:
 
 ## -description
 
-
-
 The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request retrieves information about the indicated USB port and the device that is attached to the port, if there is one.
 
 Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
 <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information">USB_NODE_CONNECTION_INFORMATION</a> structure that describes the connection. On input, the <b>ConnectionIndex</b> member of this structure contains the port number.
 
-
 ### -input-buffer-length
 
 The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information">USB_NODE_CONNECTION_INFORMATION</a> structure.
-
 
 ### -output-buffer
 
@@ -79,48 +68,23 @@ On output, the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member conta
 
 <b>AssociatedIrp.SystemBuffer</b> points to a user-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information">USB_NODE_CONNECTION_INFORMATION</a> structure that contains the output data.
 
-
 ### -output-buffer-length
 
 The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information">USB_NODE_CONNECTION_INFORMATION</a> structure.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_information_ex">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request is an extended version of <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b>. The two requests are identical, except that the extended version of the request can report low, full, and high speed connections and the older <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request reports only low and full speed connections. For more information about the difference between these two requests, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information">USB_NODE_CONNECTION_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex">USB_NODE_CONNECTION_INFORMATION_EX</a>. 
-
-
-
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_information_ex">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request is an extended version of <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b>. The two requests are identical, except that the extended version of the request can report low, full, and high speed connections and the older <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request reports only low and full speed connections. For more information about the difference between these two requests, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information">USB_NODE_CONNECTION_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex">USB_NODE_CONNECTION_INFORMATION_EX</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_information_ex">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
@@ -131,7 +95,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex">USB_NODE_CONNECTION_INFORMATION_EX</a>
- 
-
- 
 

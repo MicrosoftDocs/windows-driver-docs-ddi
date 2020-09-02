@@ -8,8 +8,6 @@ ms.assetid: 82E17C75-BE81-4263-AC04-D3C93505917D
 ms.date: 05/07/2018
 keywords: ["EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback, EvtUsbDeviceEndpointAdd, EvtUsbDeviceEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_endpoint_add, udecxusbdevice/EvtUsbDeviceEndpointAdd
-f1_keywords:
- - "udecxusbdevice/EvtUsbDeviceEndpointAdd"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- UdecxUsbDevice.h
-api_name:
-- EvtUsbDeviceEndpointAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UDECX_USB_DEVICE_ENDPOINT_ADD
+ - udecxusbdevice/EVT_UDECX_USB_DEVICE_ENDPOINT_ADD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - UdecxUsbDevice.h
+api_name:
+ - EvtUsbDeviceEndpointAdd
 ---
 
 # EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback function
@@ -47,49 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The USB device emulation class extension (UdeCx) invokes this callback function to request the client driver to create a dynamic endpoint on the virtual USB device.
-
 
 ## -parameters
 
+### -param UdecxUsbDevice 
 
-
-
-### -param UdecxUsbDevice [in]
-
+[in]
 A handle to the UDE device object for which the client driver creates an endpoint. The driver created this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
+### -param EndpointToCreate 
 
-### -param EndpointToCreate [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_usb_endpoint_init_and_metadata">UDECX_USB_ENDPOINT_INIT_AND_METADATA</a>             structure that contains the endpoint descriptor.
-
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE.
 
-
-
-
 ## -remarks
-
-
 
 The client driver registered this callback function in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
 In the implementation, the client driver is expected to create the endpoint by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a> by using the initialization parameters (<b>UDECXUSBENDPOINT_INIT</b>) passed by the class extension in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_usb_endpoint_init_and_metadata">UDECX_USB_ENDPOINT_INIT_AND_METADATA</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -100,7 +81,4 @@ In the implementation, the client driver is expected to create the endpoint by c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

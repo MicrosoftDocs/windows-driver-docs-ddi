@@ -6,10 +6,8 @@ old-location: netvista\ndis_switch_nic_save_state.htm
 tech.root: netvista
 ms.assetid: FBC2EE79-9D36-4CA9-A7BC-9C422DE51B13
 ms.date: 05/02/2018
-keywords: ["_NDIS_SWITCH_NIC_SAVE_STATE structure"]
+keywords: ["NDIS_SWITCH_NIC_SAVE_STATE structure"]
 ms.keywords: "*PNDIS_SWITCH_NIC_SAVE_STATE, NDIS_SWITCH_NIC_SAVE_STATE, NDIS_SWITCH_NIC_SAVE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_SAVE_STATE, PNDIS_SWITCH_NIC_SAVE_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_SAVE_STATE, netvista.ndis_switch_nic_save_state, ntddndis/NDIS_SWITCH_NIC_SAVE_STATE, ntddndis/PNDIS_SWITCH_NIC_SAVE_STATE"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_NIC_SAVE_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h, Fwpsk.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_SWITCH_NIC_SAVE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_SAVE_STATE, *PNDIS_SWITCH_NIC_SAVE_STATE
+f1_keywords:
+ - _NDIS_SWITCH_NIC_SAVE_STATE
+ - ntddndis/_NDIS_SWITCH_NIC_SAVE_STATE
+ - PNDIS_SWITCH_NIC_SAVE_STATE
+ - ntddndis/PNDIS_SWITCH_NIC_SAVE_STATE
+ - NDIS_SWITCH_NIC_SAVE_STATE
+ - ntddndis/NDIS_SWITCH_NIC_SAVE_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_SWITCH_NIC_SAVE_STATE
 ---
 
 # _NDIS_SWITCH_NIC_SAVE_STATE structure
@@ -47,17 +50,9 @@ req.typenames: NDIS_SWITCH_NIC_SAVE_STATE, *PNDIS_SWITCH_NIC_SAVE_STATE
 
 ## -description
 
-
-
 The <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure specifies the run-time state information for a Hyper-V extensible switch port.  The extensible switch extension uses this structure to save or restore run-time port information.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -75,33 +70,25 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_NIC_SAVE_STATE_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
-
-
-
 
 ### -field PortId
 
 An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensible switch port.
 
-
 ### -field NicIndex
 
 An NDIS_SWITCH_NIC_INDEX  value that contains the Nic Index for the network adapter. This value will always be 0. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
-
 
 ### -field ExtensionId
 
 A GUID value that identifies the extensible switch extension.
 
-
 ### -field ExtensionFriendlyName
 
  An NDIS_SWITCH_EXTENSION_FRIENDLYNAME value that specifies the user-friendly description of the extensible switch extension.
-
 
 ### -field FeatureClassId
 
@@ -121,17 +108,9 @@ A USHORT value that specified the size, in bytes, of the data that is contained 
 
 A USHORT value that contains the offset from the start of the structure to the run-time state information being saved or restored.
 
-
 ### -field SaveDataSizeOverflow
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure is used in the following OID requests: 
 
@@ -167,13 +146,7 @@ The <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure is used in the following OID req
 <div> </div>
 For more information on how to save or restore run-time port information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-run-time-data">Managing Hyper-V Extensible Switch Run-Time Data</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -196,7 +169,4 @@ For more information on how to save or restore run-time port information, see <a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.date: 04/04/2018
 keywords: ["ITracer interface"]
 ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework],described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
-f1_keywords:
- - "wdtf/ITracer"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library: WDTF.tlb
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.tlb
-api_name:
-- ITracer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ITracer
+ - wdtf/ITracer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.tlb
+api_name:
+ - ITracer
 ---
 
 # ITracer interface
@@ -47,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 The <b>ITracer</b> interface enables individual instances of every WDTF interface to determine the specific tracing settings for a given implementation coclass. These settings are recorded in the registry.
-
 
 ## -inheritance
 
@@ -59,8 +56,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITracer</b> interface inherit
 </ul>
 
 ## -remarks
-
-
 
 You will typically never see the <b>ITracer</b> interface. In fact, even if you are building WDTF action plug-ins, you will probably not need to use this interface. <b>ITracer</b> is implemented in WDTF.dll and provides the global definitions for the specific settings that are associated with each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel </a> enumeration value.
 
@@ -303,19 +298,11 @@ TraceLevel Path: HKCR\WDTF.Tracer.1\
 <div class="alert"><b>Note</b>  The implementation of the <b>ITracer</b> interface is thread-safe.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a>
- 
-
- 
 

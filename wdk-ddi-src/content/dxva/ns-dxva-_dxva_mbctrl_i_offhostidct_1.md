@@ -6,10 +6,8 @@ old-location: display\dxva_mbctrl_i_offhostidct_1.htm
 tech.root: display
 ms.assetid: c088a923-0600-48ae-8d3e-95b6bbcb59c7
 ms.date: 05/10/2018
-keywords: ["_DXVA_MBctrl_I_OffHostIDCT_1 structure"]
+keywords: ["DXVA_MBctrl_I_OffHostIDCT_1 structure"]
 ms.keywords: "*LPDXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_I_OffHostIDCT_1, display.dxva_mbctrl_i_offhostidct_1, dxva/DXVA_MBctrl_I_OffHostIDCT_1, dxvaref_2ad46e82-c043-45f2-8ec9-e174e9b21e6e.xml"
-f1_keywords:
- - "dxva/DXVA_MBctrl_I_OffHostIDCT_1"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva.h
-api_name:
-- DXVA_MBctrl_I_OffHostIDCT_1
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_MBctrl_I_OffHostIDCT_1
+f1_keywords:
+ - _DXVA_MBctrl_I_OffHostIDCT_1
+ - dxva/_DXVA_MBctrl_I_OffHostIDCT_1
+ - DXVA_MBctrl_I_OffHostIDCT_1
+ - dxva/DXVA_MBctrl_I_OffHostIDCT_1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva.h
+api_name:
+ - DXVA_MBctrl_I_OffHostIDCT_1
 ---
 
 # _DXVA_MBctrl_I_OffHostIDCT_1 structure
@@ -47,19 +48,13 @@ req.typenames: DXVA_MBctrl_I_OffHostIDCT_1
 
 ## -description
 
-
-The DXVA_MBctrl_I_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for 4:2:0 intra pictures when using off-host IDCT. 
-
+The DXVA_MBctrl_I_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for 4:2:0 intra pictures when using off-host IDCT.
 
 ## -struct-fields
-
-
-
 
 ### -field wMBaddress
 
 Specifies the macroblock address of the current macroblock in raster scan order. For examples of macroblock addresses see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-addresses">macroblock addresses</a>.
-
 
 ### -field wMBtype
 
@@ -77,17 +72,15 @@ Specifies the type of macroblock being processed. The following bits define macr
 | 3 | *Motion4MV*<br/>Must be zero. | 
 | 2 | *MotionBackward*<br/>Must be zero. | 
 | 1 | *MotionForward*<br/>Must be zero. | 
-| 0 | *IntraMacroblock*<br/>Must be 1. | 
+| 0 | *IntraMacroblock*<br/>Must be 1. |
 
 ### -field dwMB_SNL
-
 
 ### -field wPatternCode
 
 Indicates whether residual difference data is sent for each block in the macroblock. In an intra picture, residual difference data is sent for every block in the macroblock. The bits in <b>wPatternCode</b> that refer to all blocks of the current macroblock must be 1 in DXVA_MBctrl_I_OffHostIDCT_1.
 
 Bit (11-<i>i</i>) of <b>wPatternCode</b> (where bit 0 is the least significant bit) indicates whether residual difference data is sent for block <i>i</i>, where <i>i</i> is the index of the block within the macroblock as specified in MPEG-2 figures 6-10, 6-11, and 6-12 (raster scan order for Y, followed by 4:2:0 blocks of Cb in raster scan order, followed by 4:2:0 blocks of Cr, followed by 4:2:2 blocks of Cb, followed by 4:2:2 blocks of Cr, followed by 4:4:4 blocks of Cb, followed by 4:4:4 blocks of Cr). The data for the coded blocks (those blocks having bit (11-<i>i</i>) equal to 1) is found in the residual coding buffer in the same indexing order (increasing <i>i</i>). For 4:2:0 MPEG-2 data, the value of <b>wPatternCode</b> corresponds to shifting the decoded value of CBP (coded block pattern) to the left by six bit positions (those lower-bit positions being used for 4:2:2 and 4:4:4 chroma formats).
-
 
 ### -field bNumCoef
 
@@ -99,20 +92,11 @@ This member is used only when the <i>HostResidDiff</i> flag (bit 10 in <b>wMBtyp
 
 The purpose of <b>bNumCoef</b> is to indicate the quantity of data present for each block in the residual difference data buffer, expressed as the number of coefficients present. When the <b>bConfig4GroupedCoefs</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a> structure is 1, <b>bNumCoef</b> may contain either the actual number of coefficients sent for the block or that value rounded up to be a multiple of four. The data for these coefficients is found in the residual difference buffer in the same order.
 
-
 ## -remarks
-
-
 
 Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</i> variable must be zero. The <i>MBdataLocation</i> variable must be zero for the first macroblock in the macroblock control command buffer. For more information about how skipped macroblocks are generated, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/generating-skipped-macroblocks">Generating Skipped Macroblocks</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a>
 
@@ -127,7 +111,4 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a>
- 
-
- 
 

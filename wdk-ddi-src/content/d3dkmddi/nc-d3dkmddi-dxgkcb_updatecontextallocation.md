@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbUpdateContextAllocation"
+ - DXGKCB_UPDATECONTEXTALLOCATION
+ - d3dkmddi/DXGKCB_UPDATECONTEXTALLOCATION
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKCB_UPDATECONTEXTALLOCATION callback function
+
 
 ## -description
 

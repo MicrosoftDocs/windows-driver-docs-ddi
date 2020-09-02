@@ -8,12 +8,10 @@ ms.assetid: fcddc83d-5fb1-43ad-9abd-8d5e2549b580
 ms.date: 11/18/2019
 keywords: ["wiasDebugError function"]
 ms.keywords: image.wiasdebugerror, wiamdef/wiasDebugError, wiasDebugError, wiasDebugError function [Imaging Devices], wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml
-f1_keywords:
- - "wiamdef/wiasDebugError"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -27,22 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasDebugError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasDebugError
+ - wiamdef/wiasDebugError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasDebugError
 ---
 
 # wiasDebugError function
+
 
 ## -description
 
@@ -71,3 +71,4 @@ Specifies a variable argument list, which starts with an ANSI format string cont
 [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
 
 [WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror)
+

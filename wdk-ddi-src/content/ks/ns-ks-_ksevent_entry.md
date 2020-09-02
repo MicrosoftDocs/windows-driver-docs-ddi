@@ -6,10 +6,8 @@ old-location: stream\ksevent_entry.htm
 tech.root: stream
 ms.assetid: 2d246109-839d-46fd-9898-9e059b803790
 ms.date: 04/23/2018
-keywords: ["_KSEVENT_ENTRY structure"]
+keywords: ["KSEVENT_ENTRY structure"]
 ms.keywords: "*PKSEVENT_ENTRY, KSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], _KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, ks/KSEVENT_ENTRY, stream.ksevent_entry"
-f1_keywords:
- - "ks/KSEVENT_ENTRY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSEVENT_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_ENTRY, *PKSEVENT_ENTRY
+f1_keywords:
+ - _KSEVENT_ENTRY
+ - ks/_KSEVENT_ENTRY
+ - PKSEVENT_ENTRY
+ - ks/PKSEVENT_ENTRY
+ - KSEVENT_ENTRY
+ - ks/KSEVENT_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSEVENT_ENTRY
 ---
 
 # _KSEVENT_ENTRY structure
@@ -47,58 +50,37 @@ req.typenames: KSEVENT_ENTRY, *PKSEVENT_ENTRY
 
 ## -description
 
-
 The kernel streaming subsystem uses the KSEVENT_ENTRY structure to describe how an event should be triggered.
-
 
 ## -struct-fields
 
-
-
-
 ### -field ListEntry
-
 
 ### -field Object
 
-
 ### -field DpcItem
-
 
 ### -field BufferItem
 
-
 ### -field EventData
-
 
 ### -field NotificationType
 
-
 ### -field EventSet
-
 
 ### -field EventItem
 
-
 ### -field FileObject
-
 
 ### -field SemaphoreAdjustment
 
-
 ### -field Reserved
-
 
 ### -field Flags
 
-
 ## -remarks
-
-
 
 Drivers that do not provide an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksremoveevent">AVStrMiniRemoveEvent</a> handler should treat this as an opaque data structure.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream">Event Handling in AVStream</a>.
-
-
 

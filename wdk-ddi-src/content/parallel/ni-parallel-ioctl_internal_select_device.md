@@ -8,38 +8,37 @@ ms.assetid: d072a97d-f15d-44e9-b7d5-4fb872bfcbf0
 ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_SELECT_DEVICE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_SELECT_DEVICE, IOCTL_INTERNAL_SELECT_DEVICE control code [Parallel Ports], cisspd_e884bf73-c8d2-4007-a01a-ba6af4fd8359.xml, parallel/IOCTL_INTERNAL_SELECT_DEVICE, parports.ioctl_internal_select_device
-f1_keywords:
- - "parallel/IOCTL_INTERNAL_SELECT_DEVICE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- parallel.h
-api_name:
-- IOCTL_INTERNAL_SELECT_DEVICE
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+f1_keywords:
+ - IOCTL_INTERNAL_SELECT_DEVICE
+ - parallel/IOCTL_INTERNAL_SELECT_DEVICE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - parallel.h
+api_name:
+ - IOCTL_INTERNAL_SELECT_DEVICE
 ---
 
 # IOCTL_INTERNAL_SELECT_DEVICE IOCTL
@@ -50,9 +49,8 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
-
-
 
 The <b>IOCTL_INTERNAL_SELECT_DEVICE</b> request:
 
@@ -74,49 +72,27 @@ Although a client can select an end-of-chain device using a select device reques
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544793(v=vs.85)">Selecting and Deselecting an IEEE 1284 Device Attached to a ParallelPort</a>.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> points to a <a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLEL_1284_COMMAND</a> structure that the client allocates to input the select device information.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member specifies the size, in bytes, of a PARALLEL_1284_COMMAND structure.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -136,7 +112,6 @@ The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is l
 
 The specified device is not flagged internally as an end-of-chain device and the value of the <b>ID</b> member of the input structure is greater than the number of existing daisy chain devices.
 
-
 ## -see-also
 
 <a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLEL_1284_COMMAND</a>
@@ -144,11 +119,4 @@ The specified device is not flagged internally as an end-of-chain device and the
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
-
-
-
- 
-
- 
-
 

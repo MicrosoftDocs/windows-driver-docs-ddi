@@ -8,37 +8,41 @@ ms.assetid: 6D9E0986-50FF-4CDC-B5F3-475047DD5699
 ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_VIRTUAL_ADDRESS structure"]
-f1_keywords:
- - "virtualaddresstypes/NET_FRAGMENT_VIRTUAL_ADDRESS"
-ms.keywords: NET_FRAGMENT_VIRTUAL_ADDRESS, NET_FRAGMENT_VIRTUAL_ADDRESS, 
+ms.keywords: NET_FRAGMENT_VIRTUAL_ADDRESS, NET_FRAGMENT_VIRTUAL_ADDRESS,
 req.header: virtualaddresstypes.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_FRAGMENT_VIRTUAL_ADDRESS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - virtualaddresstypes.h
-api_name: 
- - NET_FRAGMENT_VIRTUAL_ADDRESS
-product: 
- - Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - _NET_FRAGMENT_VIRTUAL_ADDRESS
+ - virtualaddresstypes/_NET_FRAGMENT_VIRTUAL_ADDRESS
+ - NET_FRAGMENT_VIRTUAL_ADDRESS
+ - virtualaddresstypes/NET_FRAGMENT_VIRTUAL_ADDRESS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - virtualaddresstypes.h
+api_name:
+ - NET_FRAGMENT_VIRTUAL_ADDRESS
+product:
+ - Windows
 ---
 
 # NET_FRAGMENT_VIRTUAL_ADDRESS structure
+
 
 ## -description
 
@@ -63,3 +67,4 @@ To obtain this structure, call [**NetExtensionGetFragmentVirtualAddress**](../vi
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NetExtensionGetFragmentVirtualAddress**](../virtualaddress/nf-virtualaddress-netextensiongetfragmentvirtualaddress.md)
+

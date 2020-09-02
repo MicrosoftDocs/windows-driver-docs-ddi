@@ -7,9 +7,10 @@ description:
 tech.root: storage
 ms.assetid: 21902ab7-7443-42d3-9beb-f792caf7f357
 ms.date: 10/19/2018
-keywords: ["_NVME_RESERVED_QUEUES_PROPERTIES structure"]
+keywords: ["NVME_RESERVED_QUEUES_PROPERTIES structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_QUEUES_PROPERTIES"
+ - "_NVME_RESERVED_QUEUES_PROPERTIES"
 ms.keywords: _NVME_RESERVED_QUEUES_PROPERTIES, NVME_RESERVED_QUEUES_PROPERTIES, *PNVME_RESERVED_QUEUES_PROPERTIES, 
 req.header: ntddstor.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _NVME_RESERVED_QUEUES_PROPERTIES
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -8,8 +8,6 @@ ms.assetid: eaa730a8-8ee3-43a7-a18e-094fbac4ba60
 ms.date: 04/30/2018
 keywords: ["ObReferenceObjectByPointerWithTag function"]
 ms.keywords: ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, kernel.obreferenceobjectbypointerwithtag, wdm/ObReferenceObjectByPointerWithTag
-f1_keywords:
- - "wdm/ObReferenceObjectByPointerWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ObReferenceObjectByPointerWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObReferenceObjectByPointerWithTag
+ - wdm/ObReferenceObjectByPointerWithTag
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ObReferenceObjectByPointerWithTag
 ---
 
 # ObReferenceObjectByPointerWithTag function
@@ -47,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>ObReferenceObjectByPointerWithTag</b> routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support <a href="https://go.microsoft.com/fwlink/p/?linkid=153590">object reference tracing</a>.
-
 
 ## -parameters
 
+### -param Object 
 
-
-
-### -param Object [in]
-
+[in]
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 Specifies the types of access to the object that the caller requests. This parameter is a bitmask of type <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>. The interpretation of this field depends on the object type. Do not use any generic access rights.
 
+### -param ObjectType 
 
-### -param ObjectType [in, optional]
-
+[in, optional]
 A pointer to an opaque structure that specifies the object type. This parameter points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">OBJECT_TYPE</a> structure. Set <i>ObjectType</i> to <b>NULL</b> or to one of the following pointer values, which are declared in the Wdm.h header file: <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsProcessType</b>, <b>*PsThreadType</b>, <b>*SeTokenObjectType</b>, <b>*TmEnlistmentObjectType</b>, <b>*TmResourceManagerObjectType</b>, <b>*TmTransactionManagerObjectType</b>, or <b>*TmTransactionObjectType</b>. This parameter can be <b>NULL</b> if <i>AccessMode</i> is <b>KernelMode</b>. If <i>ObjectType</i> is not <b>NULL</b>, the routine verifies that the supplied object type matches the object type of the object that the <i>Handle</i> parameter specifies.
 
+### -param AccessMode 
 
-### -param AccessMode [in]
-
+[in]
 Indicates the access mode to use for the access check. Set this parameter to one of the following <b>MODE</b> enumeration values:
 
 <ul>
@@ -87,15 +82,12 @@ Indicates the access mode to use for the access check. Set this parameter to one
 </ul>
 Lower-level drivers should specify <b>KernelMode</b>.
 
+### -param Tag 
 
-### -param Tag [in]
-
+[in]
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 <b>ObReferenceObjectByPointerWithTag</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
 
@@ -116,14 +108,8 @@ The <i>ObjectType</i> parameter specifies the wrong object type for the object t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine does access validation of the specified object. If access can be granted, the routine increments the object reference count. This increment prevents the object from being deleted while the caller uses the object. When the object is no longer needed, the caller should decrement the reference count by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag">ObDereferenceObjectWithTag</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectdeferdeletewithtag">ObDereferenceObjectDeferDeleteWithTag</a> routine.
 
@@ -133,13 +119,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 To view an object reference trace in the <a href="https://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-obtrace">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-obtrace">!obtrace</a> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="https://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-reference-tracing-with-tags">Object Reference Tracing with Tags</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -162,7 +142,4 @@ To view an object reference trace in the <a href="https://go.microsoft.com/fwlin
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
- 
-
- 
 

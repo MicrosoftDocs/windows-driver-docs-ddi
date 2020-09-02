@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAssignSourceModeSet"
+ - DXGKDDI_VIDPN_ASSIGNSOURCEMODESET
+ - d3dkmddi/DXGKDDI_VIDPN_ASSIGNSOURCEMODESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPN_ASSIGNSOURCEMODESET callback function
+
 
 ## -description
 

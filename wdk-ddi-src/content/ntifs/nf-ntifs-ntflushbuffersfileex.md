@@ -8,8 +8,6 @@ ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.date: 01/02/2020
 keywords: ["NtFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
-f1_keywords:
- - "ntifs/NtFlushBuffersFileEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,23 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwFlushBuffersFileEx
-- NtFlushBuffersFileEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtFlushBuffersFileEx
+ - ntifs/NtFlushBuffersFileEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwFlushBuffersFileEx
+ - NtFlushBuffersFileEx
 ---
 
 # NtFlushBuffersFileEx function
+
 
 ## -description
 
@@ -51,12 +51,14 @@ The **NtFlushBuffersFileEx** routine is called by a file system legacy filter dr
 
 ## -parameters
 
-### -param FileHandle [in]
+### -param FileHandle 
 
+[in]
 Handle returned by [**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 Flush operation flags. *Flags* can be 0 or one of the following values *if the file is on an NTFS file system*.
 
 | Value | Meaning |
@@ -73,8 +75,9 @@ Pointer to a block with additional parameters. This parameter must currently be 
 
 The size, in bytes, of the block that *Parameters* point to. This parameter must currently be set to 0.
 
-### -param IoStatusBlock [out]
+### -param IoStatusBlock 
 
+[out]
 Address of the caller's I/O status block. This parameter is required and cannot be NULL.
 
 ## -returns
@@ -108,3 +111,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
 
 [**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+

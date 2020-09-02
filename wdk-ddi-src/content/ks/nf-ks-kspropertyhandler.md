@@ -8,8 +8,6 @@ ms.assetid: af94f36f-6e1a-4ac5-be6d-64a9a8dade9e
 ms.date: 04/23/2018
 keywords: ["KsPropertyHandler function"]
 ms.keywords: KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], ks/KsPropertyHandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, stream.kspropertyhandler
-f1_keywords:
- - "ks/KsPropertyHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsPropertyHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsPropertyHandler
+ - ks/KsPropertyHandler
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsPropertyHandler
 ---
 
 # KsPropertyHandler function
@@ -48,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
 Drivers call <b>KsPropertyHandler</b> function for IRP handling.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in]
-
+[in]
 Specifies the IRP with the property request being handled.
 
+### -param PropertySetsCount 
 
-### -param PropertySetsCount [in]
-
+[in]
 Specifies the number of property sets being passed.
 
+### -param PropertySet 
 
-### -param PropertySet [in]
-
+[in]
 Points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a> structures. The driver should provide one structure for each property set it wants KsPropertyHandler to handle.
-
 
 ## -returns
 
-
-
 The <b>KsPropertyHandler </b>function returns STATUS_SUCCESS if successful, or an error specific to the property being handled if unsuccessful. The function sets the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>-><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>.Information member, either through setting it to zero because of an internal error, or through a property handler setting it. The function does not set the lrp->IoStatus.Status member nor does it complete the IRP.
 
-
-
-
 ## -remarks
-
-
 
 <b>KsPropertyHandler</b> responds to all property identifiers defined by the sets, and can only be called at PASSIVE_LEVEL.
 
@@ -95,20 +82,11 @@ The owner of the property sets can perform prefiltering or postfiltering of prop
 
 <b>KsPropertyHandler</b> places a pointer to the relevant KSPROPERTY_SET structure in the <b>Irp->Tail.Overlay.DriverContext</b> parameter in the IRP. The minidriver can use the KSPROPERTY_SET_IRP_STORAGE macro, defined in <i>ks.h</i>, to access this pointer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfastpropertyhandler">KsFastPropertyHandler</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandlerwithallocator">KsPropertyHandlerWithAllocator</a>
- 
-
- 
 

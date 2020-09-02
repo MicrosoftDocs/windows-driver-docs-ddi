@@ -25,7 +25,8 @@ req.type-library:
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3dkmddi/DXGKCB_UNMAPMDLFROMIOMMU"
+ - DXGKCB_UNMAPMDLFROMIOMMU
+ - d3dkmddi/DXGKCB_UNMAPMDLFROMIOMMU
 topic_type:
  - apiref
 api_type:
@@ -39,6 +40,7 @@ product:
 ---
 
 # DXGKCB_UNMAPMDLFROMIOMMU callback function
+
 
 ## -description
 

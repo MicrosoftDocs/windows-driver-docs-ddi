@@ -8,8 +8,6 @@ ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
 ms.date: 04/16/2018
 keywords: ["CcUnpinDataForThread function"]
 ms.keywords: CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread, ntifs/CcUnpinDataForThread
-f1_keywords:
- - "ntifs/CcUnpinDataForThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcUnpinDataForThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcUnpinDataForThread
+ - ntifs/CcUnpinDataForThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcUnpinDataForThread
 ---
 
 # CcUnpinDataForThread function
@@ -47,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcUnpinDataForThread</b> routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>.
-
 
 ## -parameters
 
+### -param Bcb 
 
-
-
-### -param Bcb [in]
-
+[in]
 Pointer to the BCB for the pages to be released.
 
+### -param ResourceThreadId 
 
-### -param ResourceThreadId [in]
-
+[in]
 Identifies the thread that originally acquired the BCB. Must match the owner pointer used in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>.
 
-
 ## -remarks
-
-
 
 <b>CcUnpinDataForThread</b> releases the BCB for the indicated thread and performs any other necessary cleanup.
 
@@ -76,20 +68,11 @@ Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff5392
 
 <b>CcUnpinDataForThread</b> is functionally equivalent to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>, except that it also releases the BCB resource for the indicated thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: F40C5DBB-8E52-471E-B010-A5EDFACDF773
 ms.date: 04/30/2018
 keywords: ["RtlIntPtrMult function"]
 ms.keywords: RtlIntPtrMult, RtlIntPtrMult function [Kernel-Mode Driver Architecture], kernel.rtlintptrmult, ntintsafe/RtlIntPtrMult
-f1_keywords:
- - "ntintsafe/RtlIntPtrMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlIntPtrMult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntPtrMult
+ - ntintsafe/RtlIntPtrMult
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlIntPtrMult
 ---
 
 # RtlIntPtrMult function
@@ -47,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Multiplies one value of type <b>INT_PTR</b> by another.
-
 
 ## -parameters
 
+### -param iMultiplicand 
 
-
-
-### -param iMultiplicand [in]
-
+[in]
 The value to be multiplied by <i>iMultiplier</i>.
 
+### -param iMultiplier 
 
-### -param iMultiplier [in]
-
+[in]
 The value by which to multiply <i>iMultiplicand</i>.
 
+### -param piResult 
 
-### -param piResult [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

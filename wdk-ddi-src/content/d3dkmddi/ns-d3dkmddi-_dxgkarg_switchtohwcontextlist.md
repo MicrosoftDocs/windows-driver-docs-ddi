@@ -4,41 +4,43 @@ title: _DXGKARG_SWITCHTOHWCONTEXTLIST (d3dkmddi.h)
 description: Arguments used in the DXGKDDI_SWITCHTOHWCONTEXTLIST callback function.
 ms.assetid: e856b8d8-c00e-4823-a9d2-647856bb10c0
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_SWITCHTOHWCONTEXTLIST structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARG_SWITCHTOHWCONTEXTLIST"
-ms.keywords: _DXGKARG_SWITCHTOHWCONTEXTLIST, DXGKARG_SWITCHTOHWCONTEXTLIST, 
+keywords: ["DXGKARG_SWITCHTOHWCONTEXTLIST structure"]
+ms.keywords: _DXGKARG_SWITCHTOHWCONTEXTLIST, DXGKARG_SWITCHTOHWCONTEXTLIST,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_SWITCHTOHWCONTEXTLIST
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmddi.h
-api_name: 
-- _DXGKARG_SWITCHTOHWCONTEXTLIST
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _DXGKARG_SWITCHTOHWCONTEXTLIST
+ - d3dkmddi/_DXGKARG_SWITCHTOHWCONTEXTLIST
+ - DXGKARG_SWITCHTOHWCONTEXTLIST
+ - d3dkmddi/DXGKARG_SWITCHTOHWCONTEXTLIST
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARG_SWITCHTOHWCONTEXTLIST
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _DXGKARG_SWITCHTOHWCONTEXTLIST structure
+
 
 ## -description
 
@@ -59,9 +61,11 @@ Hardware context that should be executed by the GPU once all queues in *hHwConte
 Node ordinal of engine that is instructed to switch to the new context(s).
 
 ### -field EngineOrdinal
+
  
 Engine ordinal of engine that is instructed to switch to the new context(s).
 
 ## -remarks
 
 ## -see-also
+

@@ -8,8 +8,6 @@ ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.date: 04/16/2018
 keywords: ["FsRtlRegisterUncProvider function"]
 ms.keywords: FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
-f1_keywords:
- - "ntifs/FsRtlRegisterUncProvider"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -27,22 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlRegisterUncProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlRegisterUncProvider
+ - ntifs/FsRtlRegisterUncProvider
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlRegisterUncProvider
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlRegisterUncProvider function
@@ -50,33 +49,25 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlRegisterUncProvider</b> routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
-
 
 ## -parameters
 
+### -param MupHandle 
 
-
-
-### -param MupHandle [out]
-
+[out]
 A pointer to a location in which to return a MUP handle to be used when calling <b>FsRtlRegisterUncProvider</b> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS.
-
 
 ### -param RedirectorDeviceName
 
 <p>A pointer to a Unicode string that contains the device name of the network redirector. </p>
 
+### -param MailslotsSupported 
 
-### -param MailslotsSupported [in]
-
+[in]
 Set to <b>TRUE</b> if the network redirector supports mailslots. This option is normally reserved for use by the Microsoft SMB redirector.
 
-
 ## -returns
-
-
 
 <b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value such as one of the following: 
 
@@ -152,14 +143,8 @@ An invalid parameter was passed in the <i>RedirDevName</i> parameter or an abnor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A network redirector must register with the MUP to handle UNC names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
 
@@ -214,14 +199,7 @@ For more information, see the following sections in the Design Guide:
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a>
 
@@ -236,7 +214,4 @@ For more information, see the following sections in the Design Guide:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: f2e6bcd6-ed6b-4c88-af96-768284bddb24
 ms.date: 04/30/2018
 keywords: ["PoGetSystemWake function"]
 ms.keywords: PoGetSystemWake, PoGetSystemWake routine [Kernel-Mode Driver Architecture], kernel.pogetsystemwake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, wdm/PoGetSystemWake
-f1_keywords:
- - "wdm/PoGetSystemWake"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoGetSystemWake
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoGetSystemWake
+ - wdm/PoGetSystemWake
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoGetSystemWake
 ---
 
 # PoGetSystemWake function
@@ -47,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoGetSystemWake</b> routine determines whether a specified IRP has been marked as waking the system from a sleeping state.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in]
-
+[in]
 A pointer to an IRP.
 
-
 ## -returns
-
-
 
 <b>PoGetSystemWake</b> returns one of the following:
 
@@ -95,14 +87,8 @@ The specified IRP did not cause the system to wake.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A driver calls <b>PoGetSystemWake</b> to determine if a specified IRP contributed to waking the system from a sleep state.
 
@@ -110,16 +96,7 @@ A driver in a wait/wake chain should call <b>PoGetSystemWake</b> on its own wait
 
 It is possible that several IRPs are causing the system to wake. In this case, <b>PoGetSystemWake </b>would return <b>TRUE</b> for all of the IRPs contributing to the wake event.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemwake">PoSetSystemWake</a>
- 
-
- 
 

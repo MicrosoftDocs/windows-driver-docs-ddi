@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetRootPageTable"
+ - DXGKDDI_SETROOTPAGETABLE
+ - d3dkmddi/DXGKDDI_SETROOTPAGETABLE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +45,7 @@ product:
 ---
 
 # DXGKDDI_SETROOTPAGETABLE callback function
+
 
 ## -description
 

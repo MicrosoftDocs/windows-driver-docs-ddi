@@ -8,8 +8,6 @@ ms.assetid: d923c1a4-4715-4632-8c75-0e48dda9a210
 ms.date: 04/30/2018
 keywords: ["RtlFindNextForwardRunClear function"]
 ms.keywords: RtlFindNextForwardRunClear, RtlFindNextForwardRunClear routine [Kernel-Mode Driver Architecture], k109_3625ede2-f1b5-495d-9b79-2063e0daa567.xml, kernel.rtlfindnextforwardrunclear, wdm/RtlFindNextForwardRunClear
-f1_keywords:
- - "wdm/RtlFindNextForwardRunClear"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlFindNextForwardRunClear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlFindNextForwardRunClear
+ - wdm/RtlFindNextForwardRunClear
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlFindNextForwardRunClear
 ---
 
 # RtlFindNextForwardRunClear function
@@ -47,52 +46,34 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlFindNextForwardRunClear</b> routine searches a given bitmap variable for the next clear run of bits, starting from the specified index position. 
-
+The <b>RtlFindNextForwardRunClear</b> routine searches a given bitmap variable for the next clear run of bits, starting from the specified index position.
 
 ## -parameters
 
+### -param BitMapHeader 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
+### -param FromIndex 
 
-### -param BitMapHeader [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine. 
-
-
-### -param FromIndex [in]
-
+[in]
 Specifies a zero-based bit position at which to start looking for a clear run of bits.
 
+### -param StartingRunIndex 
 
-### -param StartingRunIndex [out]
-
-Pointer to a variable in which the starting index of the clear run found in the bitmap is returned. This is a zero-based value indicating the bit position of the first clear bit in the run. Its value is meaningless if <b>RtlFindNextForwardRunClear</b> cannot find a run of clear bits. 
-
+[out]
+Pointer to a variable in which the starting index of the clear run found in the bitmap is returned. This is a zero-based value indicating the bit position of the first clear bit in the run. Its value is meaningless if <b>RtlFindNextForwardRunClear</b> cannot find a run of clear bits.
 
 ## -returns
 
-
-
 <b>RtlFindNextForwardRunClear</b> returns either the number of bits in the run beginning at <i>StartingRunIndex</i>, or zero if it cannot find a run of clear bits following <i>FromIndex</i> in the bitmap.
-
-
-
 
 ## -remarks
 
-
-
 Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlFindNextForwardRunClear</b> can be called at any IRQL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
 
@@ -123,7 +104,4 @@ Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL <= APC_LEVE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a>
- 
-
- 
 

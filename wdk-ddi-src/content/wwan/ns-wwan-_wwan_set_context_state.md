@@ -6,10 +6,8 @@ old-location: netvista\wwan_set_context_state.htm
 tech.root: netvista
 ms.assetid: f1ed31af-97a7-472e-b834-577470950335
 ms.date: 05/02/2018
-keywords: ["_WWAN_SET_CONTEXT_STATE structure"]
+keywords: ["WWAN_SET_CONTEXT_STATE structure"]
 ms.keywords: "*PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, _WWAN_SET_CONTEXT_STATE, netvista.wwan_set_context_state, wwan/PWWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE"
-f1_keywords:
- - "wwan/WWAN_SET_CONTEXT_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SET_CONTEXT_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SET_CONTEXT_STATE, *PWWAN_SET_CONTEXT_STATE
+f1_keywords:
+ - _WWAN_SET_CONTEXT_STATE
+ - wwan/_WWAN_SET_CONTEXT_STATE
+ - PWWAN_SET_CONTEXT_STATE
+ - wwan/PWWAN_SET_CONTEXT_STATE
+ - WWAN_SET_CONTEXT_STATE
+ - wwan/WWAN_SET_CONTEXT_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SET_CONTEXT_STATE
 ---
 
 # _WWAN_SET_CONTEXT_STATE structure
@@ -47,15 +50,10 @@ req.typenames: WWAN_SET_CONTEXT_STATE, *PWWAN_SET_CONTEXT_STATE
 
 ## -description
 
-
 The WWAN_SET_CONTEXT_STATE structure represents the command to set the Packet Data Protocol (PDP)
   context state of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ConnectionId
 
@@ -68,7 +66,6 @@ The MB Service uses the value in this member to uniquely identify the current ac
 The miniport driver must use the value in this member when completing 
      <i>set</i> requests. The MB Service uses the value in this member in subsequent 
      <i>query</i> requests as well as disconnect requests to the miniport driver.
-
 
 ### -field ActivationCommand
 
@@ -104,8 +101,6 @@ Deactivate a currently activated PDP context referred by
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AccessString
 
@@ -117,17 +112,14 @@ A NULL-terminated string to access the network. For GSM-based networks, this wou
 
 The size of the string should not exceed 100 bytes.
 
-
 ### -field UserName
 
 A NULL-terminated string that represents the username to authenticate. This member can be
      <b>NULL</b>.
 
-
 ### -field Password
 
 A NULL-terminated string that represents the username's password. This member can be <b>NULL</b>.
-
 
 ### -field Compression
 
@@ -163,8 +155,6 @@ Enable header and data compression.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthType
 
@@ -219,30 +209,16 @@ Use the Microsoft Challenge Handshake Authentication Protocol (CHAP) v2.0.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IPType
 
 A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
-
 ### -field MediaPreference
-
- 
-
 
 ### -field ConnectionMediaSource
 
- 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_context_state">NDIS_WWAN_SET_CONTEXT_STATE</a>
 
@@ -257,7 +233,4 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_compression">WWAN_COMPRESSION</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 103796C6-989F-4FE3-A8E6-4B8F5648E521
 ms.date: 02/23/2018
 keywords: ["imp_WppRecorderLogCreate function"]
 ms.keywords: WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
-f1_keywords:
- - "wpprecorder/imp_WppRecorderLogCreate"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wpprecorder.h
-api_name:
-- imp_WppRecorderLogCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - imp_WppRecorderLogCreate
+ - wpprecorder/imp_WppRecorderLogCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wpprecorder.h
+api_name:
+ - imp_WppRecorderLogCreate
 ---
 
 # imp_WppRecorderLogCreate function
@@ -47,42 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a> method creates a buffer to contain the recorder log.
 
-
 ## -parameters
-
-
-
 
 ### -param WppCb
 
 <p>A pointer to a RECORDER_LOG_CREATE_PARAMS structure.</p>
 
-
 ### -param CreateParams
 
 A pointer to a RECORDER_LOG_CREATE_PARAMS structure.
-
 
 ### -param RecorderLog
 
 A handle for the recorder log.
 
-
 ## -returns
-
-
 
 Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values
 
-
-
-
 ## -remarks
-
-
 
 Before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a>, allocate a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a> structure and initialize by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init">RECORDER_LOG_CREATE_PARAMS_INIT</a>.
 
@@ -94,5 +78,4 @@ If a successful NTSTATUS is not returned, the driver must use a <b>RECORDER_LOG<
 
 <div class="alert"><b>Note</b>  This method allocates memory for the log buffer from the non-paged pool.</div>
 <div> </div>
-
 

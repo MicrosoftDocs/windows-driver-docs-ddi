@@ -8,8 +8,6 @@ ms.assetid: 8725868e-00bc-45fe-ab9d-c192abd1a059
 ms.date: 05/10/2018
 keywords: ["VideoPortFreeCommonBuffer function"]
 ms.keywords: VideoPortFreeCommonBuffer, VideoPortFreeCommonBuffer function [Display Devices], VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, display.videoportfreecommonbuffer, video/VideoPortFreeCommonBuffer
-f1_keywords:
- - "video/VideoPortFreeCommonBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortFreeCommonBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortFreeCommonBuffer
+ - video/VideoPortFreeCommonBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortFreeCommonBuffer
 ---
 
 # VideoPortFreeCommonBuffer function
@@ -47,71 +46,50 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortFreeCommonBuffer</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>.
 
 <b>VideoPortFreeCommonBuffer</b> deallocates system memory that was allocated by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>.
 
-
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the number of bytes of memory to be freed.
 
+### -param VirtualAddress 
 
-### -param VirtualAddress [in]
-
+[in]
 Pointer to the corresponding virtual address of the allocated memory range.
 
+### -param LogicalAddress 
 
-### -param LogicalAddress [in]
-
+[in]
 Specifies the logical address of the buffer to be freed.
 
+### -param CacheEnabled 
 
-### -param CacheEnabled [in]
-
+[in]
 Indicates whether the allocated memory is cached.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 Except for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer's </a><i>Alignment</i> parameter, all of the parameters used in a call to <b>VideoPortFreeCommonBuffer</b> must have the same values as those used in the previous call to <b>VideoPortGetCommonBuffer</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>
- 
-
- 
 

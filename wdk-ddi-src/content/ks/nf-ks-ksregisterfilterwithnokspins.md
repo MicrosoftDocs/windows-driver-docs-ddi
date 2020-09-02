@@ -8,8 +8,6 @@ ms.assetid: 4ad768c9-211d-4370-b6d3-6d88b223fe48
 ms.date: 04/23/2018
 keywords: ["KsRegisterFilterWithNoKSPins function"]
 ms.keywords: KsRegisterFilterWithNoKSPins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices], avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml, ks/KsRegisterFilterWithNoKSPins, stream.ksregisterfilterwithnokspins
-f1_keywords:
- - "ks/KsRegisterFilterWithNoKSPins"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsRegisterFilterWithNoKSPins
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsRegisterFilterWithNoKSPins
+ - ks/KsRegisterFilterWithNoKSPins
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsRegisterFilterWithNoKSPins
 ---
 
 # KsRegisterFilterWithNoKSPins function
@@ -48,57 +47,45 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsRegisterFilterWithNoKSPins </b>function registers with DirectShow filters that have no kernel streaming pins and, therefore, do not stream in kernel mode.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure corresponding to the device to which to register the filter.
 
+### -param InterfaceClassGUID 
 
-### -param InterfaceClassGUID [in]
-
+[in]
 A pointer to the GUID representing the class to register. For instance, this would point to KSCATEGORY_TVTUNER for a TvTuner filter.
 
+### -param PinCount 
 
-### -param PinCount [in]
-
+[in]
 The count of the number of pins on the filter.
 
+### -param PinDirection 
 
-### -param PinDirection [in]
-
+[in]
 A pointer to the first element of an array of Boolean values indicating pin direction for each pin on the filter. Output pins are <b>TRUE</b>; input pins are <b>FALSE</b>. This array must be <i>PinCount</i> in length.
 
+### -param MediumList 
 
-### -param MediumList [in]
-
+[in]
 A pointer to the first element of an array of <a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures defining the mediums for each pin on the filter. This array must be <i>PinCount</i> in length.
 
+### -param CategoryList 
 
-### -param CategoryList [in, optional]
-
+[in, optional]
 A pointer to the first element of an array of GUIDs defining the categories for each pin on the filter. If this parameter is present, it must be <i>PinCount</i> in length.
-
 
 ## -returns
 
-
-
 Returns success or failure of creating the FilterData key in the registry.
 
-
-
-
 ## -remarks
-
-
 
 Use<b> KsRegisterFilterWithNoKSPins</b> to register TvTuners, Crossbars, and similar components. <b>KsRegisterFilterWithNoKSPins</b> creates a new registry key, <b>FilterData</b>, that contains the mediums, and optionally the categories, for each pin on the filter.
 
@@ -108,13 +95,7 @@ If writing a BDA minidriver, consider using <a href="https://docs.microsoft.com/
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-descriptors">AVStream Descriptors</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/initializing-an-avstream-minidriver">Initializing an AVStream Minidriver</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -129,7 +110,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisterpowercallbacks">KsFilterRegisterPowerCallbacks</a>
- 
-
- 
 

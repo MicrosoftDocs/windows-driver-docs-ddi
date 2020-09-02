@@ -30,7 +30,8 @@ req.type-library:
 targetos: Windows
 ms.custom: WDDM 2.6, 19H1
 f1_keywords:
- - "d3d10umddi/PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS"
+ - PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS
+ - d3d10umddi/PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS
 topic_type:
  - apiref
 api_type:
@@ -44,6 +45,7 @@ product:
 ---
 
 # PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS callback function
+
 
 ## -description
 

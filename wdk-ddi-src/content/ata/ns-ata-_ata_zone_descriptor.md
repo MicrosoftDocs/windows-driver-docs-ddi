@@ -6,10 +6,8 @@ old-location: storage\ata_zone_descriptor.htm
 tech.root: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.date: 03/29/2018
-keywords: ["_ATA_ZONE_DESCRIPTOR structure"]
+keywords: ["ATA_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor"
-f1_keywords:
- - "ata/ATA_ZONE_DESCRIPTOR"
 req.header: ata.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ata.h
-api_name:
-- ATA_ZONE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR
+f1_keywords:
+ - _ATA_ZONE_DESCRIPTOR
+ - ata/_ATA_ZONE_DESCRIPTOR
+ - PATA_ZONE_DESCRIPTOR
+ - ata/PATA_ZONE_DESCRIPTOR
+ - ATA_ZONE_DESCRIPTOR
+ - ata/ATA_ZONE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ata.h
+api_name:
+ - ATA_ZONE_DESCRIPTOR
 ---
 
 # _ATA_ZONE_DESCRIPTOR structure
@@ -47,79 +50,37 @@ req.typenames: ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR
 
 ## -description
 
-
 This structure is for internal use only and should not be called from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field ZoneType
-
- 
-
 
 ### -field Reserved0
 
- 
-
-
 ### -field Reset
-
- 
-
 
 ### -field NonSeq
 
- 
-
-
 ### -field Reserved1
 
- 
-
-
 ### -field ZoneCondition
-
- 
-
 
 ### -field Reserved2
 
 N/A
 
-
 ### -field ZoneLength
-
- 
-
 
 ### -field Reserved3
 
- 
-
-
 ### -field ZoneStartLBA
-
- 
-
 
 ### -field Reserved4
 
- 
-
-
 ### -field WritePointerLBA
 
- 
-
-
 ### -field Reserved5
-
- 
-
 
 ### -field Reserved6
 

@@ -8,8 +8,6 @@ ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.date: 04/20/2018
 keywords: ["IBidiSpl::UnbindDevice"]
 ms.keywords: IBidiSpl interface [Print Devices],UnbindDevice method, IBidiSpl.UnbindDevice, IBidiSpl::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
-f1_keywords:
- - "bidispl/IBidiSpl.UnbindDevice"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiSpl.UnbindDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiSpl::UnbindDevice
+ - bidispl/IBidiSpl::UnbindDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiSpl.UnbindDevice
 ---
 
 # IBidiSpl::UnbindDevice
@@ -47,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>UnbindDevice</b> method unbinds a printer from a bidi request.
 
-
 ## -returns
-
-
 
 The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
@@ -96,15 +91,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -115,7 +103,4 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
- 
-
- 
 

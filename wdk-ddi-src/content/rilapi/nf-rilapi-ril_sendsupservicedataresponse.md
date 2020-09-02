@@ -8,8 +8,6 @@ ms.assetid: 28e8093e-6fcc-4abd-999a-5948e7062c43
 ms.date: 05/02/2018
 keywords: ["RIL_SendSupServiceDataResponse function"]
 ms.keywords: RIL_SendSupServiceDataResponse, RIL_SendSupServiceDataResponse method [Network Drivers Starting with Windows Vista], netvista.ril_sendsupservicedataresponse, rilapi/RIL_SendSupServiceDataResponse
-f1_keywords:
- - "rilapi/RIL_SendSupServiceDataResponse"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SendSupServiceDataResponse
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SendSupServiceDataResponse
+ - rilapi/RIL_SendSupServiceDataResponse
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SendSupServiceDataResponse
 ---
 
 # RIL_SendSupServiceDataResponse function
@@ -47,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param lpwszData
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

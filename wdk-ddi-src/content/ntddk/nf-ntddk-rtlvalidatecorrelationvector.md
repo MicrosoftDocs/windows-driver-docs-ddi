@@ -8,8 +8,6 @@ ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
 ms.date: 04/30/2018
 keywords: ["RtlValidateCorrelationVector function"]
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
-f1_keywords:
- - "ntddk/RtlValidateCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlValidateCorrelationVector
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlValidateCorrelationVector
+ - ntddk/RtlValidateCorrelationVector
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlValidateCorrelationVector
 ---
 
 # RtlValidateCorrelationVector function
@@ -47,31 +46,18 @@ req.typenames:
 
 ## -description
 
-
 Validates the specified [correlation vector](https://github.com/Microsoft/CorrelationVector) to check whether it conforms to the Correlation Vector Specification (v2).
     The function specifically checks if the first 22 bytes are a valid base64 representation of a 16 byte
         buffer
          and the remaining characters match the (\.\d+)+  regular expression.
-			
-            
-
 
 ## -parameters
-
-
-
 
 ### -param Vector
 
 <p>A pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-correlation_vector"><b>CORRELATION_VECTOR</b></a> structure that represents the correlation vector to be validated.</p>
 
-
-
-
 ## -returns
-
-
-
 
 Returns an NTSTATUS value that indicates the success of failure of the operation. 
 
@@ -103,7 +89,4 @@ The supplied correlation vector is invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

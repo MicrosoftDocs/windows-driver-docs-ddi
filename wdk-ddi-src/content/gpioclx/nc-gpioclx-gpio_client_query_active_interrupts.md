@@ -8,8 +8,6 @@ ms.assetid: 9B47A7B2-90C3-480F-85D8-44DD7E9F0BFA
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS callback function"]
 ms.keywords: CLIENT_QueryActiveInterrupts, CLIENT_QueryActiveInterrupts callback, CLIENT_QueryActiveInterrupts callback function [Parallel Ports], GPIO.client_queryactiveinterrupts, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, gpioclx/CLIENT_QueryActiveInterrupts
-f1_keywords:
- - "gpioclx/CLIENT_QueryActiveInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_QueryActiveInterrupts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS
+ - gpioclx/GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_QueryActiveInterrupts
 ---
 
 # GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_QueryActiveInterrupts</i> event callback function queries the state of a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
+### -param QueryActiveParameters 
 
-### -param QueryActiveParameters [in, out]
-
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_active_interrupts_parameters">GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</a> structure that, on entry, describes the GPIO interrupt pins to query, and, on exit, contains the active and enabled interrupt state of these pins.
-
 
 ## -returns
 
-
-
 The <i>CLIENT_QueryActiveInterrupts</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function to query a set of GPIO pins that are configured as interrupt request inputs.
 
@@ -128,12 +115,7 @@ The GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
@@ -152,7 +134,4 @@ The GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_active_interrupts_parameters">GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</a>
- 
-
- 
 

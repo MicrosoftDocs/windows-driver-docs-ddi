@@ -8,8 +8,6 @@ ms.assetid: 0f3537f0-903d-405a-bbe4-5cfbe7817ea1
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::Query"]
 ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],Query method, IWDTFTargets2.Query, IWDTFTargets2::Query, Microsoft.WDTF.IWDTFTargets2.Query, Microsoft::WDTF::IWDTFTargets2::Query, Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_query, wdtf/IWDTFTargets2::Query
-f1_keywords:
- - "wdtf/IWDTFTargets2.Query"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTargets2.Query
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTargets2::Query
+ - wdtf/IWDTFTargets2::Query
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTargets2.Query
 ---
 
 # IWDTFTargets2::Query
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Returns a subset of the items in the collection.
-
 
 ## -parameters
 
+### -param SDEL 
 
-
-
-### -param SDEL [in]
-
+[in]
 The SDEL query string.
 
+### -param ppTargets 
 
-### -param ppTargets [out, retval]
-
+[out, retval]
 The collection of items.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 The <b>Query</b> method provides the <i>SDEL</i> 
 parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-eval">IWDTFTarget2::Eval</a> 
@@ -89,16 +76,7 @@ Every target that returns <b>VARIANT_TRUE</b> is added to a new
 instance of the <b>IWDTFTargets2</b> collection 
 interface.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 34095934-26C1-4855-9ED9-71627E88A903
 ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_CONFIG_SUPL_CERT IOCTL"]
 ms.keywords: IOCTL_GNSS_CONFIG_SUPL_CERT, IOCTL_GNSS_CONFIG_SUPL_CERT control, IOCTL_GNSS_CONFIG_SUPL_CERT control code [Sensor Devices], gnss.ioctl_gnss_config_supl_cert, gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT
-f1_keywords:
- - "gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- IOCTL_GNSS_CONFIG_SUPL_CERT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_GNSS_CONFIG_SUPL_CERT
+ - gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - IOCTL_GNSS_CONFIG_SUPL_CERT
 ---
 
 # IOCTL_GNSS_CONFIG_SUPL_CERT IOCTL
@@ -47,61 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_GNSS_CONFIG_SUPL_CERT</b> control code is used by the GNSS adapter to set SUPL certificates.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_cert_config">GNSS_SUPL_CERT_CONFIG</a> structure.
 
-
 ### -input-buffer-length
 
 Set to sizeof(<b>GNSS_SUPL_CERT_CONFIG</b>).
-
 
 ### -output-buffer
 
 Set to <b>NULL</b>.
 
-
 ### -output-buffer-length
 
 Set to 0.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
-
-
 
 The driver sets one of the following NTSTATUS values to indicate result.
 
@@ -149,13 +122,7 @@ If the name is different from certificate, then the new certificate will be adde
 </ul>
 If a certificate with the same name as an existing certificate is injected again, the GNSS driver should overwrite the previous certificate with the same name.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -170,7 +137,4 @@ If a certificate with the same name as an existing certificate is injected again
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

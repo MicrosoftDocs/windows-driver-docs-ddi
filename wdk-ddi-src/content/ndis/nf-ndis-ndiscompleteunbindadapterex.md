@@ -8,8 +8,6 @@ ms.assetid: 3a1daad4-d4b7-4950-be58-73612949fba9
 ms.date: 05/02/2018
 keywords: ["NdisCompleteUnbindAdapterEx function"]
 ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml
-f1_keywords:
- - "ndis/NdisCompleteUnbindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCompleteUnbindAdapterEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCompleteUnbindAdapterEx
+ - ndis/NdisCompleteUnbindAdapterEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCompleteUnbindAdapterEx
 ---
 
 # NdisCompleteUnbindAdapterEx function
@@ -48,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 A protocol driver calls the 
   <b>NdisCompleteUnbindAdapterEx</b> function to complete an unbind operation for which the driver's 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a> function
   returned NDIS_STATUS_PENDING.
 
-
 ## -parameters
 
+### -param UnbindContext 
 
-
-
-### -param UnbindContext [in]
-
+[in]
 The handle that NDIS passed to the 
      <i>UnbindContext</i> parameter of the 
      <i>ProtocolUnbindAdapterEx</i> function.
 
-
 ## -remarks
-
-
 
 When a protocol driver returns NDIS_STATUS_PENDING from its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
@@ -87,13 +79,7 @@ On return from
     to any 
     <b>Ndis<i>Xxx</i></b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
@@ -104,7 +90,4 @@ On return from
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
 

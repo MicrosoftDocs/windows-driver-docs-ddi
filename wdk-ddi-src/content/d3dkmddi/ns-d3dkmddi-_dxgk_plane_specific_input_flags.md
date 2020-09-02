@@ -5,10 +5,8 @@ description: A structure containing the input flags to be used for the driver th
 old-location: display\dxgk_plane_specific_input_flags.htm
 ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.date: 11/26/2019
-keywords: ["_DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure"]
+keywords: ["DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure"]
 ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags
-f1_keywords:
- - "d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,26 +24,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_PLANE_SPECIFIC_INPUT_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ms.custom: 19H1
+f1_keywords:
+ - _DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ - d3dkmddi/_DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ - DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ - d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # _DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure
+
 
 ## -description
 
@@ -65,7 +67,7 @@ Indicates that the driver should perform a flip operation that occurs without ve
 
 Indicates that the driver should perform a flip operation that occurs on the next vertical sync.
 
-If the current line being displayed is less than DXGK_MULTIPLANE_OVERLAY_PLANE3.MaxImmediateFlipLine, the driver should convert this flip to an immediate flip and set DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS. FlipConvertedToImmediate to TRUE.
+If the current line being displayed is less than [DXGK_MULTIPLANE_OVERLAY_PLANE3](ns-d3dkmddi-_dxgk_multiplane_overlay_plane3.md).MaxImmediateFlipLine, the driver should convert this flip to an immediate flip and set [DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS](ns-d3dkmddi-_dxgk_plane_specific_output_flags.md). FlipConvertedToImmediate to TRUE.
 
 ### -field SharedPrimaryTransition
 
@@ -95,3 +97,4 @@ If the monitor is in the active period, the flip needs to wait until the active 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit **Value** member to zeros.
 
 ### -field Value
+

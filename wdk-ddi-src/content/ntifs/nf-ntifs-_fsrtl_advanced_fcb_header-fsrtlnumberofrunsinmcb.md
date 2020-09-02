@@ -8,8 +8,6 @@ ms.assetid: cb519cb5-5209-4ca6-92bc-860c53d3ca6c
 ms.date: 04/16/2018
 keywords: ["FsRtlNumberOfRunsInMcb function"]
 ms.keywords: FsRtlNumberOfRunsInMcb, FsRtlNumberOfRunsInMcb function [Installable File System Drivers], fsrtlref_2f405315-e2d0-45f0-95de-61b397b20f11.xml, ifsk.fsrtlnumberofrunsinmcb, ntifs/FsRtlNumberOfRunsInMcb
-f1_keywords:
- - "ntifs/FsRtlNumberOfRunsInMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlNumberOfRunsInMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlNumberOfRunsInMcb
+ - ntifs/FsRtlNumberOfRunsInMcb
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlNumberOfRunsInMcb
 ---
 
 # FsRtlNumberOfRunsInMcb function
@@ -47,20 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlNumberOfRunsInMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb">FsRtlNumberOfRunsInLargeMcb</a> instead.
 
-
 ## -parameters
-
-
-
 
 ### -param Mcb
 
 <p>Reserved.</p>
-
-
-
-
 

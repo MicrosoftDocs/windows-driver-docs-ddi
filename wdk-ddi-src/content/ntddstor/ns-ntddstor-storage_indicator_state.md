@@ -10,6 +10,7 @@ ms.date: 11/30/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_INDICATOR_STATE"
+ - "STORAGE_INDICATOR_STATE"
 ms.keywords: STORAGE_INDICATOR_STATE, STORAGE_INDICATOR_STATE, *PSTORAGE_INDICATOR_STATE, 
 req.header: ntddstor.h
 req.include-header:

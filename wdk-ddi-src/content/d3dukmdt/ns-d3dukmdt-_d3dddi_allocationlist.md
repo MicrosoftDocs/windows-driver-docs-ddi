@@ -6,10 +6,8 @@ old-location: display\d3dddi_allocationlist.htm
 tech.root: display
 ms.assetid: 167ceb16-d7b9-4657-84cd-f3b9de5e5267
 ms.date: 05/10/2018
-keywords: ["_D3DDDI_ALLOCATIONLIST structure"]
+keywords: ["D3DDDI_ALLOCATIONLIST structure"]
 ms.keywords: D3DDDI_ALLOCATIONLIST, D3DDDI_ALLOCATIONLIST structure [Display Devices], D3D_other_Structs_0e766b30-b39d-4107-8739-0b9290e7d489.xml, _D3DDDI_ALLOCATIONLIST, d3dukmdt/D3DDDI_ALLOCATIONLIST, display.d3dddi_allocationlist
-f1_keywords:
- - "d3dukmdt/D3DDDI_ALLOCATIONLIST"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_ALLOCATIONLIST
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_ALLOCATIONLIST
+f1_keywords:
+ - _D3DDDI_ALLOCATIONLIST
+ - d3dukmdt/_D3DDDI_ALLOCATIONLIST
+ - D3DDDI_ALLOCATIONLIST
+ - d3dukmdt/D3DDDI_ALLOCATIONLIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_ALLOCATIONLIST
 ---
 
 # _D3DDDI_ALLOCATIONLIST structure
@@ -47,19 +48,13 @@ req.typenames: D3DDDI_ALLOCATIONLIST
 
 ## -description
 
-
 The <b>D3DDDI_ALLOCATIONLIST</b> structure describes information about an allocation specification that is used in direct memory access (DMA) buffering.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hAllocation
 
 [in] The allocation handle returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenresource">D3DKMTOpenResource</a> function in the <b>hAllocation</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_openallocationinfo">D3DDDI_OPENALLOCATIONINFO</a>   structure, or by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation">D3DKMTCreateAllocation</a> function in the <b>hAllocation</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationinfo">D3DDDI_ALLOCATIONINFO</a> structure.
-
 
 ### -field WriteOperation
 
@@ -67,13 +62,11 @@ The <b>D3DDDI_ALLOCATIONLIST</b> structure describes information about an alloca
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field DoNotRetireInstance
 
 [in] A UINT that can hold information about whether the allocation can be retired. Setting to 1 indicates that the video memory manager should not retire the instance of the allocation because the driver will reference it again in a subsequent DMA buffer (for example, a manual broadcast of a DMA buffer to multiple contexts). All instances of an allocation are eventually retired. This flag is rarely used.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
-
 
 ### -field OfferPriority
 
@@ -85,7 +78,6 @@ Setting this member is equivalent to setting bits 3 through 5 of the 32-bit <b>V
 
 Supported starting with Windows 8.
 
-
 ### -field Reserved
 
 [in] This member is reserved and should be set to zero.
@@ -96,18 +88,13 @@ Supported starting with Windows 8.
 
 [in] This member is reserved and should be set to zero.
 
-Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros. 
-
+Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 ### -field Value
 
 [in] A 32-bit value that identifies information about an allocation specification used in DMA buffering.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a>
 
@@ -126,7 +113,4 @@ Setting this member to zero is equivalent to setting the remaining 30 bits (0xFF
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 

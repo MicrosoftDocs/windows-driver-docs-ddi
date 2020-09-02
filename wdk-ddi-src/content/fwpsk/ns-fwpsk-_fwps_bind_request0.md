@@ -6,10 +6,8 @@ old-location: netvista\fwps_bind_request0.htm
 tech.root: netvista
 ms.assetid: 1a311470-b443-41d8-866f-10bf3120c13c
 ms.date: 05/02/2018
-keywords: ["_FWPS_BIND_REQUEST0 structure"]
+keywords: ["FWPS_BIND_REQUEST0 structure"]
 ms.keywords: FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_BIND_REQUEST0, fwpsk/FWPS_BIND_REQUEST0, netvista.fwps_bind_request0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml
-f1_keywords:
- - "fwpsk/FWPS_BIND_REQUEST0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -27,26 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_BIND_REQUEST0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_BIND_REQUEST0
+f1_keywords:
+ - _FWPS_BIND_REQUEST0
+ - fwpsk/_FWPS_BIND_REQUEST0
+ - FWPS_BIND_REQUEST0
+ - fwpsk/FWPS_BIND_REQUEST0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_BIND_REQUEST0
 ---
 
 # _FWPS_BIND_REQUEST0 structure
 
 
 ## -description
-
 
 The <b>FWPS_BIND_REQUEST0</b> structure defines modifiable data for the FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V4
   and FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V6 layers. The callout driver uses this data to inspect or modify the
@@ -55,15 +55,11 @@ The <b>FWPS_BIND_REQUEST0</b> structure defines modifiable data for the FWPM_LAY
 
 ## -struct-fields
 
-
-
-
 ### -field localAddressAndPort
 
 The local transport address of the bind request. This is an IPV4 or IPV6 address and TCP/UDP port
      formatted as a 
      <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
-
 
 ### -field portReservationToken
 
@@ -72,12 +68,9 @@ A token used to reserve the appropriate port. The token is obtained when a port 
      <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> or 
      <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>. Both reservation functions can be found in iphlpapi.h.
 
-
 ### -field previousVersion
 
 The previous version of the bind request data. This read-only field records the modification history of the bind request. This member is preinitialized with a pointer to a singly linked list with the index set to the record for the current FWPS_BIND_REQUEST0 data.
-
-
 
 ### -field modifierFilterId
 
@@ -88,10 +81,7 @@ The value of the
      <b>FilterId</b> member, see 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
 
-
 ## -remarks
-
-
 
 The callout driver obtains this structure by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
@@ -131,13 +121,7 @@ This structure acts as a linked list that contains a record of all changes made 
     must continue to examine the 
     <b>previousVersion</b> member of each structure in the list until it is finds a node that has this member set to a value of <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
 
@@ -157,7 +141,4 @@ This structure acts as a linked list that contains a record of all changes made 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

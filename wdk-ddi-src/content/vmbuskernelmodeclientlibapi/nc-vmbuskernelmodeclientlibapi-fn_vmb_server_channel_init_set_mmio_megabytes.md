@@ -1,68 +1,51 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
 title: FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES (vmbuskernelmodeclientlibapi.h)
-description: The VmbServerChannelInitSetMmioMegabytes function specifies the amount, megabytes, of guest memory-mapped I/O (MMIO) space to reserve for the device. 
+description: The VmbServerChannelInitSetMmioMegabytes function specifies the amount, megabytes, of guest memory-mapped I/O (MMIO) space to reserve for the device.
 ms.assetid: d08cc2fd-2418-4047-b34c-09519ae0b531
 ms.date: 09/13/2018
 keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
-product: 
-- Windows
 targetos: Windows
 tech.root: netvista
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
+ - vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
+product:
+ - Windows
 ---
 
 # FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES callback function
 
+
 ## -description
 
-The <b>VmbServerChannelInitSetMmioMegabytes</b> function specifies the amount, megabytes, of guest memory-mapped I/O (MMIO) space to reserve for the device. 
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES FnVmbServerChannelInitSetMmioMegabytes; 
-
-// Definition
-
-NTSTATUS FnVmbServerChannelInitSetMmioMegabytes 
-(
-	VMBCHANNEL Channel
-	UINT16 MmioMegabytes
-	UINT16 MmioMegabytesOptional
-)
-{...}
-
-```
+The <b>VmbServerChannelInitSetMmioMegabytes</b> function specifies the amount, megabytes, of guest memory-mapped I/O (MMIO) space to reserve for the device.
 
 ## -parameters
 
@@ -111,6 +94,25 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES FnVmbServerChannelInitSetMmioMegabytes; 
+
+// Definition
+
+NTSTATUS FnVmbServerChannelInitSetMmioMegabytes 
+(
+	VMBCHANNEL Channel
+	UINT16 MmioMegabytes
+	UINT16 MmioMegabytesOptional
+)
+{...}
+
+```
+
 ## -remarks
 
 This function exists as a convenience for driver creators. Everything it does could be done by interacting the with the guest plug-and-play manager and requesting memory-mapped I/O space directly. It is a common requirement that the Windows and Linux VMBus drivers have the capacity to reserve MMIO space on behalf of the client. This function allows the server endpoint to suggest the right amount of MMIO space to reserve.
@@ -121,3 +123,4 @@ This function exists as a convenience for driver creators. Everything it does co
 > For more information, see the Remarks section of [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md).
 
 ## -see-also
+

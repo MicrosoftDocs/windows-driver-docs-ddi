@@ -8,8 +8,6 @@ ms.assetid: D90DD169-A989-4D08-B1B8-BDE7EC9B7A82
 ms.date: 04/30/2018
 keywords: ["EVT_SPB_TARGET_CONNECT callback function"]
 ms.keywords: EVT_SPB_TARGET_CONNECT, EVT_SPB_TARGET_CONNECT callback, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
-f1_keywords:
- - "spbcx/EvtSpbTargetConnect"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Spbcx.h
-api_name:
-- EvtSpbTargetConnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SPB_TARGET_CONNECT
+ - spbcx/EVT_SPB_TARGET_CONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Spbcx.h
+api_name:
+ - EvtSpbTargetConnect
 ---
 
 # EVT_SPB_TARGET_CONNECT callback function
@@ -47,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 An SPB controller driver's <i>EvtSpbTargetConnect</i> event callback function opens a connection to a target device on the bus.
-
 
 ## -parameters
 
+### -param Controller 
 
-
-
-### -param Controller [in]
-
+[in]
 A WDFDEVICE handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
+### -param Target 
 
-### -param Target [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target to open.  The target is a peripheral device or port that is attached to the bus.
-
 
 ## -returns
 
-
-
 <i>EvtSpbTargetConnect</i> returns STATUS_SUCCESS if the driver successfully opens the connection to the target.  Otherwise, the function returns an appropriate NTSTATUS error code.
 
-
-
-
 ## -remarks
-
-
 
 Implementation of this function by the SPB controller driver is optional.
 
@@ -130,12 +117,7 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_disconnect">EvtSpbTargetDisconnect</a>
 
@@ -154,7 +136,4 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
- 
-
- 
 

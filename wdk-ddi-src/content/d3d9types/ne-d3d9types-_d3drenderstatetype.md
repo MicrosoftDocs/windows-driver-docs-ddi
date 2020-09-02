@@ -6,10 +6,8 @@ old-location: display\d3drenderstatetype.htm
 tech.root: display
 ms.assetid: 82978b22-1538-4da0-bcf2-c4c52d2e3429
 ms.date: 05/10/2018
-keywords: ["_D3DRENDERSTATETYPE enumeration"]
+keywords: ["D3DRENDERSTATETYPE enumeration"]
 ms.keywords: D3DRENDERSTATETYPE, D3DRENDERSTATE_EVICTMANAGEDTEXTURES, D3DRENDERSTATE_SCENECAPTURE, D3DRS_DELETERTPATCH, D3DRS_MAXPIXELSHADERINST, D3DRS_MAXVERTEXSHADERINST, _D3DRENDERSTATETYPE, d3d9types/, d3d9types/D3DRENDERSTATE_EVICTMANAGEDTEXTURES, d3d9types/D3DRENDERSTATE_SCENECAPTURE, d3d9types/D3DRS_DELETERTPATCH, d3d9types/D3DRS_MAXPIXELSHADERINST, d3d9types/D3DRS_MAXVERTEXSHADERINST, d3denum_6b8d96f8-ff88-43c3-9850-a213d84d548f.xml, display.d3drenderstatetype, enumeration [Display Devices]
-f1_keywords:
- - "d3d9types/D3DRENDERSTATETYPE"
 req.header: d3d9types.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d9types.h
-api_name:
-- D3DRENDERSTATETYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DRENDERSTATETYPE
+f1_keywords:
+ - _D3DRENDERSTATETYPE
+ - d3d9types/_D3DRENDERSTATETYPE
+ - D3DRENDERSTATETYPE
+ - d3d9types/D3DRENDERSTATETYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d9types.h
+api_name:
+ - D3DRENDERSTATETYPE
 ---
 
 # _D3DRENDERSTATETYPE enumeration
@@ -47,20 +48,14 @@ req.typenames: D3DRENDERSTATETYPE
 
 ## -description
 
-
 The D3DRENDERSTATETYPE enumerated type lists a variety of attributes, or render states. 
   The enumerators of D3DRENDERSTATETYPE that are used exclusively by drivers can specify either rendering information or a texture attribute. The following render states are used by display drivers:
-  
-
 
 ## -enum-fields
 
-
-
-
 ### -field D3DRS_ZENABLE
 
-A [D3DZBUFFERTYPE](ne-d3d9types-_d3dzbuffertype.md) enumeration type that represents the depth-buffering state. 
+A [D3DZBUFFERTYPE](ne-d3d9types-_d3dzbuffertype.md) enumeration type that represents the depth-buffering state.
 
 ### -field D3DRS_FILLMODE
 
@@ -68,7 +63,7 @@ A [D3DFILLMODE](ne-d3d9types-_d3dfillmode.md) enumeration type.
 
 ### -field D3DRS_SHADEMODE
 
-A [D3DSHADEMODE](ne-d3d9types-_d3dshademode.md) enumeration type. 
+A [D3DSHADEMODE](ne-d3d9types-_d3dshademode.md) enumeration type.
 
 ### -field D3DRS_ZWRITEENABLE
 
@@ -80,7 +75,7 @@ TRUE to enable per pixel alpha testing. If the test passes, the pixel is process
 
 ### -field D3DRS_LASTPIXEL
 
-The default value is TRUE, which enables drawing of the last pixel in a line. To prevent drawing of the last pixel, set this value to FALSE. 
+The default value is TRUE, which enables drawing of the last pixel in a line. To prevent drawing of the last pixel, set this value to FALSE.
 
 ### -field D3DRS_SRCBLEND
 
@@ -122,7 +117,7 @@ The type of alpha blending is determined by the D3DRS_SRCBLEND and D3DRS_DESTBLE
 
 ### -field D3DRS_FOGENABLE
 
-TRUE to enable fog blending. The default value is FALSE. 
+TRUE to enable fog blending. The default value is FALSE.
 
 ### -field D3DRS_SPECULARENABLE
 
@@ -137,11 +132,11 @@ A [D3DCOLORVALUE](ns-d3d9types-_d3dcolorvalue.md) structure.
 
 ### -field D3DRS_FOGTABLEMODE
 
-A [D3DFOGMODE](ne-d3d9types-_d3dfogmode.md) enumerated type that represents a fog formula to be used for pixel fog. 
+A [D3DFOGMODE](ne-d3d9types-_d3dfogmode.md) enumerated type that represents a fog formula to be used for pixel fog.
 
 ### -field D3DRS_FOGSTART
 
-Depth at which pixel or vertex fog effects begin for linear fog mode. The default value is 0.0f. Depth is specified in world space for vertex fog and either device space [0.0, 1.0] or world space for pixel fog. For pixel fog, these values are in device space when the system uses z for fog calculations and world-world space when the system is using eye-relative fog (w-fog). 
+Depth at which pixel or vertex fog effects begin for linear fog mode. The default value is 0.0f. Depth is specified in world space for vertex fog and either device space [0.0, 1.0] or world space for pixel fog. For pixel fog, these values are in device space when the system uses z for fog calculations and world-world space when the system is using eye-relative fog (w-fog).
 
 ### -field D3DRS_FOGEND
 
@@ -149,7 +144,7 @@ Depth at which pixel or vertex fog effects end for linear fog mode. The default 
 
 ### -field D3DRS_FOGDENSITY
 
-Fog density for pixel or vertex fog used in the exponential fog modes (D3DFOG_EXP and D3DFOG_EXP2). Valid density values range from 0.0 through 1.0. 
+Fog density for pixel or vertex fog used in the exponential fog modes (D3DFOG_EXP and D3DFOG_EXP2). Valid density values range from 0.0 through 1.0.
 
 ### -field D3DRS_RANGEFOGENABLE
 
@@ -161,7 +156,7 @@ Because no hardware currently supports per-pixel range-based fog, range correcti
 
 ### -field D3DRS_STENCILENABLE
 
-TRUE to enable stenciling, or FALSE to disable stenciling. The default value is FALSE. 
+TRUE to enable stenciling, or FALSE to disable stenciling. The default value is FALSE.
 
 ### -field D3DRS_STENCILFAIL
 
@@ -169,7 +164,7 @@ A [D3DSTENCILOP](ne-d3d9types-_d3dstencilop.md) enumeration type that specifies 
 
 ### -field D3DRS_STENCILZFAIL
 
-A D3DSTENCILOP enumeration type that specifies the stencil operation to perform if the stencil test passes and the depth test (z-test) fails. 
+A D3DSTENCILOP enumeration type that specifies the stencil operation to perform if the stencil test passes and the depth test (z-test) fails.
 
 ### -field D3DRS_STENCILPASS
 
@@ -193,7 +188,7 @@ Write mask applied to values written into the stencil buffer. The default mask i
 
 ### -field D3DRS_TEXTUREFACTOR
 
-Color used for multiple-texture blending with the D3DTA_TFACTOR texture-blending argument or the D3DTOP_BLENDFACTORALPHA texture-blending operation. 
+Color used for multiple-texture blending with the D3DTA_TFACTOR texture-blending argument or the D3DTOP_BLENDFACTORALPHA texture-blending operation.
 
 ### -field D3DRS_WRAP0
 
@@ -257,23 +252,23 @@ TRUE to enable automatic normalization of vertex normals, or FALSE to disable it
 
 ### -field D3DRS_DIFFUSEMATERIALSOURCE
 
-Diffuse color source for lighting calculations. 
+Diffuse color source for lighting calculations.
 
 ### -field D3DRS_SPECULARMATERIALSOURCE
 
-Specular color source for lighting calculations. 
+Specular color source for lighting calculations.
 
 ### -field D3DRS_AMBIENTMATERIALSOURCE
 
-Ambient color source for lighting calculations. 
+Ambient color source for lighting calculations.
 
 ### -field D3DRS_EMISSIVEMATERIALSOURCE
 
-Emissive color source for lighting calculations. 
+Emissive color source for lighting calculations.
 
 ### -field D3DRS_VERTEXBLEND
 
-Number of matrices to use to perform geometry blending, if any. 
+Number of matrices to use to perform geometry blending, if any.
 
 ### -field D3DRS_CLIPPLANEENABLE
 
@@ -281,7 +276,7 @@ Enables or disables user-defined clipping planes. Valid values are any DWORD in 
 
 ### -field D3DRS_POINTSIZE
 
-A float value that specifies the size to use for point size computation in cases where point size is not specified for each vertex. This value is not used when the vertex contains point size. This value is in screen space units if D3DRS_POINTSCALEENABLE is FALSE; otherwise this value is in world space units. The default value is the value a driver returns. If a driver returns 0 or 1, the default value is 64, which allows software point size emulation. 
+A float value that specifies the size to use for point size computation in cases where point size is not specified for each vertex. This value is not used when the vertex contains point size. This value is in screen space units if D3DRS_POINTSCALEENABLE is FALSE; otherwise this value is in world space units. The default value is the value a driver returns. If a driver returns 0 or 1, the default value is 64, which allows software point size emulation.
 
 ### -field D3DRS_POINTSIZE_MIN
 
@@ -297,11 +292,11 @@ A bool value that controls computation of size for point primitives. When TRUE, 
 
 ### -field D3DRS_POINTSCALE_A
 
-A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS_POINTSCALEENABLE is TRUE. The default value is 1.0f. The range for this value is greater than or equal to 0.0f. 
+A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS_POINTSCALEENABLE is TRUE. The default value is 1.0f. The range for this value is greater than or equal to 0.0f.
 
 ### -field D3DRS_POINTSCALE_B
 
-A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS_POINTSCALEENABLE is TRUE. The default value is 0.0f. The range for this value is greater than or equal to 0.0f. 
+A float value that controls for distance-based size attenuation for point primitives. Active only when D3DRS_POINTSCALEENABLE is TRUE. The default value is 0.0f. The range for this value is greater than or equal to 0.0f.
 
 ### -field D3DRS_POINTSCALE_C
 
@@ -324,11 +319,11 @@ Sets whether patch edges will use float style tessellation.
 
 ### -field D3DRS_DEBUGMONITORTOKEN
 
-Set only for debugging the monitor. 
+Set only for debugging the monitor.
 
 ### -field D3DRS_POINTSIZE_MAX
 
-A float value that specifies the maximum size to which point sprites will be clamped. The value must be less than or equal to the MaxPointSize member of D3DCAPS9 and greater than or equal to D3DRS_POINTSIZE_MIN. The default value is 64.0. 
+A float value that specifies the maximum size to which point sprites will be clamped. The value must be less than or equal to the MaxPointSize member of D3DCAPS9 and greater than or equal to D3DRS_POINTSIZE_MIN. The default value is 64.0.
 
 ### -field D3DRS_INDEXEDVERTEXBLENDENABLE
 
@@ -336,11 +331,11 @@ A bool value that enables or disables indexed vertex blending. The default value
 
 ### -field D3DRS_COLORWRITEENABLE
 
-UINT value that enables a per-channel write for the render-target color buffer. A set bit results in the color channel being updated during 3D rendering. A clear bit results in the color channel being unaffected. 
+UINT value that enables a per-channel write for the render-target color buffer. A set bit results in the color channel being updated during 3D rendering. A clear bit results in the color channel being unaffected.
 
 ### -field D3DRS_TWEENFACTOR
 
-A float value that controls the tween factor. 
+A float value that controls the tween factor.
 
 ### -field D3DRS_BLENDOP
 
@@ -350,11 +345,11 @@ If the D3DPMISCCAPS_BLENDOP device capability is not supported, then D3DBLENDOP_
 
 ### -field D3DRS_POSITIONDEGREE
 
-N-patch position interpolation degree. The values can be D3DDEGREE_CUBIC (default) or D3DDEGREE_LINEAR. 
+N-patch position interpolation degree. The values can be D3DDEGREE_CUBIC (default) or D3DDEGREE_LINEAR.
 
 ### -field D3DRS_NORMALDEGREE
 
-N-patch normal interpolation degree. The values can be D3DDEGREE_LINEAR (default) or D3DDEGREE_QUADRATIC. 
+N-patch normal interpolation degree. The values can be D3DDEGREE_LINEAR (default) or D3DDEGREE_QUADRATIC.
 
 ### -field D3DRS_SCISSORTESTENABLE
 
@@ -378,23 +373,23 @@ Maximum tessellation level. The default value is 1.0f.
 
 ### -field D3DRS_ADAPTIVETESS_X
 
-Amount to adaptively tessellate, in the x direction. Default value is 0.0f. 
+Amount to adaptively tessellate, in the x direction. Default value is 0.0f.
 
 ### -field D3DRS_ADAPTIVETESS_Y
 
-Amount to adaptively tessellate, in the y direction. Default value is 0.0f. 
+Amount to adaptively tessellate, in the y direction. Default value is 0.0f.
 
 ### -field D3DRS_ADAPTIVETESS_Z
 
-Amount to adaptively tessellate, in the z direction. Default value is 1.0f. 
+Amount to adaptively tessellate, in the z direction. Default value is 1.0f.
 
 ### -field D3DRS_ADAPTIVETESS_W
 
-Amount to adaptively tessellate, in the w direction. Default value is 0.0f. 
+Amount to adaptively tessellate, in the w direction. Default value is 0.0f.
 
 ### -field D3DRS_ENABLEADAPTIVETESSELLATION
 
-TRUE to enable adaptive tessellation, FALSE to disable it. 
+TRUE to enable adaptive tessellation, FALSE to disable it.
 
 ### -field D3DRS_TWOSIDEDSTENCILMODE
 
@@ -414,11 +409,11 @@ Stencil operation to perform if both CCW stencil and z-tests pass.
 
 ### -field D3DRS_CCW_STENCILFUNC
 
-The comparison function. CCW stencil test passes if ((ref & mask) stencil function (stencil & mask)) is TRUE. 
+The comparison function. CCW stencil test passes if ((ref & mask) stencil function (stencil & mask)) is TRUE.
 
 ### -field D3DRS_COLORWRITEENABLE1
 
-Additional ColorWriteEnable values for the devices. 
+Additional ColorWriteEnable values for the devices.
 
 ### -field D3DRS_COLORWRITEENABLE2
 
@@ -476,7 +471,7 @@ See D3DRS_WRAP0.
 
 TRUE enables the separate blend mode for the alpha channel. The default value is FALSE.
 
-When set to FALSE, the render-target blending factors and operations applied to alpha are forced to be the same as those defined for color. This mode is effectively hardwired to FALSE on implementations that don't set the cap D3DPMISCCAPS_SEPARATEALPHABLEND. 
+When set to FALSE, the render-target blending factors and operations applied to alpha are forced to be the same as those defined for color. This mode is effectively hardwired to FALSE on implementations that don't set the cap D3DPMISCCAPS_SEPARATEALPHABLEND.
 
 ### -field D3DRS_SRCBLENDALPHA
 
@@ -484,7 +479,7 @@ This value is ignored unless D3DRS_SEPARATEALPHABLENDENABLE is TRUE.
 
 ### -field D3DRS_DESTBLENDALPHA
 
-This value is ignored unless D3DRS_SEPARATEALPHABLENDENABLE is TRUE. 
+This value is ignored unless D3DRS_SEPARATEALPHABLENDENABLE is TRUE.
 
 ### -field D3DRS_BLENDOPALPHA
 
@@ -493,8 +488,6 @@ Value used to select the arithmetic operation applied to separate alpha blending
 ### -field D3DRS_FORCE_DWORD
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
-
-
 
 ## -remarks
 
@@ -602,6 +595,4 @@ See the D3DTEXTURESTAGESTATETYPE, D3DTEXTUREOP, and D3DTEXTUREFILTER enumerated 
 Some changes have been made to the D3DRENDERSTATETYPE enumerated type for DirectX 5.0 and beyond. D3DRENDERSTATE_BLENDENABLE has been removed completely although it is defined as D3DRENDERSTATE_ALPHABLENDENABLE in the <i>d3dtypes.h</i> header file. See D3DRENDERSTATE_COLORKEYENABLE for an explanation. The 128 integer values in the interval [128, 255] are reserved for texture coordinate wrap flags. These are constructed with the D3DWRAP_U and D3DWRAP_V macros. Using a flags word preserves forward compatibility with texture coordinates of higher dimension than 2D.
 
 Multitexture macro ops and D3DRENDERSTATE_TEXTUREFACTOR override all of the per-texture stage blending controls (COLOR{OP,ARG1,ARG2} & ALPHA{OP,ARG1,ARG2}).
-
-
 

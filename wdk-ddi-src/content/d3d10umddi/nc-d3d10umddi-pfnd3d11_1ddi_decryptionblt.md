@@ -28,7 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/DecryptionBlt"
+ - PFND3D11_1DDI_DECRYPTIONBLT
+ - d3d10umddi/PFND3D11_1DDI_DECRYPTIONBLT
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_DECRYPTIONBLT callback function
+
 
 ## -description
 

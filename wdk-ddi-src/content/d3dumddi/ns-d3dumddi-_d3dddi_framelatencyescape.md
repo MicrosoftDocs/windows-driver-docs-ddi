@@ -6,10 +6,8 @@ old-location: display\d3dddi_framelatencyescape.htm
 tech.root: display
 ms.assetid: 19395349-375E-46AF-BCCF-FF5C92B374C4
 ms.date: 05/10/2018
-keywords: ["_D3DDDI_FRAMELATENCYESCAPE structure"]
+keywords: ["D3DDDI_FRAMELATENCYESCAPE structure"]
 ms.keywords: D3DDDI_FRAMELATENCYESCAPE, D3DDDI_FRAMELATENCYESCAPE structure [Display Devices], _D3DDDI_FRAMELATENCYESCAPE, d3dumddi/D3DDDI_FRAMELATENCYESCAPE, display.d3dddi_framelatencyescape
-f1_keywords:
- - "d3dumddi/D3DDDI_FRAMELATENCYESCAPE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -27,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDI_FRAMELATENCYESCAPE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_FRAMELATENCYESCAPE
+f1_keywords:
+ - _D3DDDI_FRAMELATENCYESCAPE
+ - d3dumddi/_D3DDDI_FRAMELATENCYESCAPE
+ - D3DDDI_FRAMELATENCYESCAPE
+ - d3dumddi/D3DDDI_FRAMELATENCYESCAPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDI_FRAMELATENCYESCAPE
 ---
 
 # _D3DDDI_FRAMELATENCYESCAPE structure
@@ -47,14 +48,9 @@ req.typenames: D3DDDI_FRAMELATENCYESCAPE
 
 ## -description
 
-
 Specifies an app's maximum frame latency.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RequestedLatency
 

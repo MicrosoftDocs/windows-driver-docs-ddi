@@ -8,8 +8,6 @@ ms.assetid: 204f101d-770c-4363-9371-0ee76dfa0b2c
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback function"]
 ms.keywords: DFIOTargetRef_d0c566ce-1ed7-4adb-9988-bc1751f000e1.xml, EVT_WDF_IO_TARGET_REMOVE_COMPLETE, EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback, EvtIoTargetRemoveComplete, EvtIoTargetRemoveComplete callback function, kmdf.evtiotargetremovecomplete, wdf.evtiotargetremovecomplete, wdfiotarget/EvtIoTargetRemoveComplete
-f1_keywords:
- - "wdfiotarget/EvtIoTargetRemoveComplete"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdfIoTarget.h
-api_name:
-- EvtIoTargetRemoveComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_TARGET_REMOVE_COMPLETE
+ - wdfiotarget/EVT_WDF_IO_TARGET_REMOVE_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdfIoTarget.h
+api_name:
+ - EvtIoTargetRemoveComplete
 ---
 
 # EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback function
@@ -47,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoTargetRemoveComplete</i> event callback function performs operations when the removal of a specified remote I/O target is complete.
 
-
 ## -parameters
 
+### -param IoTarget 
 
-
-
-### -param IoTarget [in]
-
-A handle to an I/O target object. 
-
+[in]
+A handle to an I/O target object.
 
 ## -remarks
-
-
 
 To register an <i>EvtIoTargetRemoveComplete</i> callback function, place the callback function's address in the I/O target's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure. 
 
@@ -77,15 +69,7 @@ The <i>EvtIoTargetRemoveComplete</i> callback function is optional. If the drive
 
 For more information about the <i>EvtIoTargetRemoveComplete</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/controlling-a-general-i-o-target-s-state">Controlling a General I/O Target's State</a>.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_query_remove">EvtIoTargetQueryRemove</a>
 
@@ -100,7 +84,4 @@ For more information about the <i>EvtIoTargetRemoveComplete</i> callback functio
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetclose">WdfIoTargetClose</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: 336bfc9d-325b-4ff1-8d6b-ec2ef4158cb9
 ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure"]
 ms.keywords: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c3324903-51b0-4679-ad77-b24cb5619bef.xml, d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d11ddiarg_stream_output_declaration_entry
-f1_keywords:
- - "d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -26,20 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
+f1_keywords:
+ - D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
+ - d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 ---
 
 # D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure
@@ -47,31 +46,23 @@ req.typenames: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 
 ## -description
 
-
 The D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes a portion of the stream output for a geometry shader.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Stream
 
-[in] The stream to output from, which is a value between zero and the maximum number of streams that are specified by the driver. 
-
+[in] The stream to output from, which is a value between zero and the maximum number of streams that are specified by the driver.
 
 ### -field OutputSlot
 
-[in] The number of the slot for the portion of the stream output. 
-
+[in] The number of the slot for the portion of the stream output.
 
 ### -field RegisterIndex
 
-[in] The number of the register for the portion of the stream output. 
-
+[in] The number of the register for the portion of the stream output.
 
 ### -field RegisterMask
 
-[in] The xyzw register mask for the portion of the stream output. That is, the four least significant bits (LSBs) of the mask represent xyzw respectively. 
+[in] The xyzw register mask for the portion of the stream output. That is, the four least significant bits (LSBs) of the mask represent xyzw respectively.
 

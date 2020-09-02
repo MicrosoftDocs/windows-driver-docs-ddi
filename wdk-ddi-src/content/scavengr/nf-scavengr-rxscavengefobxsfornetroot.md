@@ -8,8 +8,6 @@ ms.assetid: 2a2320e6-b114-4ea7-9f2f-27fd47fef770
 ms.date: 04/16/2018
 keywords: ["RxScavengeFobxsForNetRoot function"]
 ms.keywords: RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], ifsk.rxscavengefobxsfornetroot, rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, scavengr/RxScavengeFobxsForNetRoot
-f1_keywords:
- - "scavengr/RxScavengeFobxsForNetRoot"
 req.header: scavengr.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -27,19 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scavengr.h
-api_name:
-- RxScavengeFobxsForNetRoot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxScavengeFobxsForNetRoot
+ - scavengr/RxScavengeFobxsForNetRoot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scavengr.h
+api_name:
+ - RxScavengeFobxsForNetRoot
 ---
 
 # RxScavengeFobxsForNetRoot function
@@ -47,35 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <b>RxScavengeFobxsForNetRoot</b> scavenges all of the FOBX structures associated with a given NET_ROOT structure.
 
-
 ## -parameters
-
-
-
 
 ### -param NetRoot
 
 A pointer to the NET_ROOT structure for which the FOBX structures need to be scavenged.
 
-
 ### -param PurgingFcb
 
 A pointer to the FCB for which the scavenging should occur.
-
 
 ### -param SynchronizeWithScavenger
 
 A Boolean value that specifies if this routine should synchronize with the scavenger.
 
-
-
-
 ## -remarks
-
-
 
 At cleanup, there are no more user handles associated with the file object. In such cases, the time window between close and cleanup is dictated by the additional references maintained by the memory manager and cache manager. On cleanup, the FOBX is put on a close pending list and removed from the corresponding list when a close operation is received. In the interim, if an open operation is failing with ACCESS_DENIED status, then RDBSS can force a purge and scavenge of the FOBX structure. This is a synchronous operation.
 
@@ -94,12 +81,7 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
 
@@ -114,7 +96,4 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxscavengeallfobxs">RxScavengeAllFobxs</a>
- 
-
- 
 

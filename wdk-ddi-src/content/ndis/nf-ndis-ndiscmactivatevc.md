@@ -8,8 +8,6 @@ ms.assetid: 9091426c-3174-4367-b7c7-5684877efe9c
 ms.date: 05/02/2018
 keywords: ["NdisCmActivateVc function"]
 ms.keywords: NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, netvista.ndiscmactivatevc
-f1_keywords:
- - "ndis/NdisCmActivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -27,20 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmActivateVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmActivateVc
+ - ndis/NdisCmActivateVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmActivateVc
 ---
 
 # NdisCmActivateVc function
@@ -48,18 +47,14 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmActivateVc</b> passes CM-supplied call parameters, including media parameters, for a particular VC
   down to the underlying miniport driver.
 
-
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle identifying the VC on which to set call parameters. The call manager either
      obtained this handle from 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> for an incoming call or as
@@ -67,17 +62,14 @@ Specifies the handle identifying the VC on which to set call parameters. The cal
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function for a
      client-initiated outgoing call.
 
+### -param CallParameters 
 
-### -param CallParameters [in, out]
-
+[in, out]
 Pointer to a CM-allocated resident buffer, formatted as a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, containing all the
      media-specific parameters that the underlying miniport driver uses for VC activation.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisCmActivateVc</b> returns anything other than NDIS_STATUS_PENDING, the call manager should make an
@@ -86,12 +78,7 @@ When
      ProtocolCmActivateVcComplete</a> function. Otherwise, NDIS calls the CM's 
      <i>ProtocolCmActivateVcComplete</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 <b>NdisCmActivateVc</b> notifies the underlying miniport driver to set up call and media parameters on a
     newly created VC or to change those of an established VC. NDIS forwards the given call parameters and VC
@@ -152,13 +139,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     support call 
     <b>NdisMCmActivateVc</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -198,7 +179,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
- 
-
- 
 

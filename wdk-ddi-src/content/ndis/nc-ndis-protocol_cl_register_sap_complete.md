@@ -8,8 +8,6 @@ ms.assetid: b0a2a224-3353-4f20-b14f-ed5d633a6ead
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, PROTOCOL_CL_REGISTER_SAP_COMPLETE callback, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
-f1_keywords:
- - "ndis/ProtocolClRegisterSapComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClRegisterSapComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_REGISTER_SAP_COMPLETE
+ - ndis/PROTOCOL_CL_REGISTER_SAP_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClRegisterSapComplete
 ---
 
 # PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function
 
 
 ## -description
-
 
 A connection-oriented NDIS client that accepts incoming calls must have 
   a <i>ProtocolClRegisterSapComplete</i> function to complete the asynchronous operations that it initiates
@@ -59,11 +57,9 @@ A connection-oriented NDIS client that accepts incoming calls must have
 
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Specifies the final status of the client's call to 
      <b>NdisClRegisterSap</b>, which can be one of the following:
      
@@ -104,25 +100,25 @@ The client supplied an invalid specification at
 The call manager encountered an error in attempting to register the given SAP and NDIS
        propagated this CM-determined failure status to the client.
 
+### -param ProtocolSapContext 
 
-### -param ProtocolSapContext [in]
-
+[in]
 Specifies the handle to the client's per-SAP context area, which the client originally supplied to
      NDIS when it called 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>. If the registration
      is successful, NDIS retains this context handle and uses it subsequently in calls to the client's 
      <i>ProtocolClIncomingCall</i> function pertaining to this SAP.
 
+### -param Sap 
 
-### -param Sap [in]
-
+[in]
 Pointer to the client-allocated buffer containing the specification for the SAP to be opened. The
      client originally passed this pointer to 
      <b>NdisClRegisterSap</b>.
 
+### -param NdisSapHandle 
 
-### -param NdisSapHandle [in]
-
+[in]
 If 
      <i>Status</i> is NDIS_STATUS_SUCCESS, specifies an NDIS-supplied valid handle to this registered SAP,
      effectively an association established with NDIS between the client and a particular call manager for
@@ -131,10 +127,7 @@ If
      <i>ProtocolSapContext</i> area, for an eventual call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>.
 
-
 ## -remarks
-
-
 
 NDIS calls 
     <i>ProtocolClRegisterSapComplete</i> to indicate that the client's previous call to 
@@ -210,15 +203,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
 
@@ -266,7 +253,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
- 
-
- 
 

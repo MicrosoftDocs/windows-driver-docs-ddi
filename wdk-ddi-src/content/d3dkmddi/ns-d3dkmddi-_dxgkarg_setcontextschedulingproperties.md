@@ -4,41 +4,43 @@ title: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES (d3dkmddi.h)
 description: Arguments used to set up or modify the scheduling properties for a device context.
 ms.assetid: 907e8775-b899-406f-b104-7b5308f7f177
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES"
+keywords: ["DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES structure"]
 ms.keywords: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES, DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
+ - d3dkmddi/_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
+ - DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
+ - d3dkmddi/DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES structure
+
 
 ## -description
 
@@ -53,7 +55,6 @@ The hardware context to change the priority band of.
 ### -field priorityBand
 
 The priority band value assigned to this context. Assigning a context to focus and realtime priority bands requires the calling process to have SE_INC_BASE_PRIORITY_NAME privilege.
-
 
 ### -field realtimeBandPriorityLevel
 
@@ -75,7 +76,7 @@ The grace period value in 100ns units when this context preempts another context
 
 The grace period value in 100ns units when this context preempts another context of a lower priority within the same process. **gracePeriodLowerPriority** is typically smaller than **gracePeriodSamePriority**.
 
-
 ## -see-also
 
 [DxgkddiSetContextSchedulingProperties](nc-d3dkmddi-dxgkddi_setcontextschedulingproperties.md)
+
