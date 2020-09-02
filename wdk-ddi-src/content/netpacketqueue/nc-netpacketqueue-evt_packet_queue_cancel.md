@@ -7,7 +7,7 @@ ms.assetid: 92d4e786-7fac-43c2-910a-1c7c5873855f
 ms.date: 01/24/2019
 keywords: ["EVT_PACKET_QUEUE_CANCEL callback function"]
 req.header: netpacketqueue.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

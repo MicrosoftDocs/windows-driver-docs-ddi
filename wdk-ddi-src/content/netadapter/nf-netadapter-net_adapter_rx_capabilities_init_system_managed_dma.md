@@ -8,7 +8,7 @@ ms.date: 02/14/2018
 keywords: ["NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA function"]
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
 req.header: netadapter.h
-req.include-header: netadaptercx.h
+req.include-header: netadaptercx.h netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

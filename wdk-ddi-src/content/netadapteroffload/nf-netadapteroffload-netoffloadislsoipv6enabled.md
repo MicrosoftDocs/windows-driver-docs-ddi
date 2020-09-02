@@ -10,7 +10,7 @@ ms.date: 01/17/2019
 keywords: ["NetOffloadIsLsoIPv6Enabled function"]
 ms.keywords: NetOffloadIsLsoIPv6Enabled
 req.header: netadapteroffload.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -8,7 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE enumeration"]
 ms.keywords: _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE, NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE,
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -8,7 +8,7 @@ ms.date: 08/03/2018
 keywords: ["NetAdapterStart function"]
 ms.keywords: NetAdapterStart
 req.header: netadapter.h
-req.include-header: netadaptercx.h
+req.include-header: netadaptercx.h netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

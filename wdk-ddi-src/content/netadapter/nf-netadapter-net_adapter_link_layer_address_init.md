@@ -8,7 +8,7 @@ ms.date: 02/05/2018
 keywords: ["NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function"]
 ms.keywords: NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
 req.header: netadapter.h
-req.include-header: netadaptercx.h
+req.include-header: netadaptercx.h netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016

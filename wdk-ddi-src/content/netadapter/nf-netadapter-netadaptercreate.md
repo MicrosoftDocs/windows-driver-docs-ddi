@@ -8,7 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterCreate function"]
 ms.keywords: NetAdapterCreate
 req.header: netadapter.h
-req.include-header: netadaptercx.h
+req.include-header: netadaptercx.h netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

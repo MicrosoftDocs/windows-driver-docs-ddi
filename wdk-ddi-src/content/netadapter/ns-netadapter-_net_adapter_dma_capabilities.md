@@ -8,7 +8,7 @@ ms.date: 07/11/2018
 keywords: ["NET_ADAPTER_DMA_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_DMA_CAPABILITIES, *PNET_ADAPTER_DMA_CAPABILITIES, NET_ADAPTER_DMA_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: netadaptercx.h
+req.include-header: netadaptercx.h netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

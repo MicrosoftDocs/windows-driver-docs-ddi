@@ -8,7 +8,7 @@ ms.date: 01/17/2019
 keywords: ["NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

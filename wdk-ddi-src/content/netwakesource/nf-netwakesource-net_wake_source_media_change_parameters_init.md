@@ -10,7 +10,7 @@ ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT function"]
 ms.keywords: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT
 req.header: netwakesource.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

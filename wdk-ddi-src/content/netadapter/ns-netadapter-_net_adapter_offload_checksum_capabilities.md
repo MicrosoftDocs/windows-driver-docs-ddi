@@ -8,7 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -8,7 +8,7 @@ ms.date: 07/27/2018
 keywords: ["NET_ADAPTER_DATAPATH_CALLBACKS_INIT function"]
 ms.keywords: NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -8,7 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterSetDataPathCapabilities function"]
 ms.keywords: NetAdapterSetDataPathCapabilities
 req.header: netadapter.h
-req.include-header: netadaptercx.h
+req.include-header: netadaptercx.h netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
