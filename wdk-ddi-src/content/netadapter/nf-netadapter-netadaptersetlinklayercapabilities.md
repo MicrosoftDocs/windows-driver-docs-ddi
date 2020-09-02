@@ -8,7 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterSetLinkLayerCapabilities function"]
 ms.keywords: NetAdapterSetLinkLayerCapabilities
 req.header: netadapter.h
-req.include-header: netadaptercx.h netadaptercx.h
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

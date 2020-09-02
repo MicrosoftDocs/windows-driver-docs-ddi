@@ -8,7 +8,7 @@ ms.date: 03/05/2018
 keywords: ["NetAdapterStop function"]
 ms.keywords: NetAdapterStop
 req.header: netadapter.h
-req.include-header: netadaptercx.h netadaptercx.h
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

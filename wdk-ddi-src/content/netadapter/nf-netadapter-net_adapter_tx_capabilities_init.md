@@ -8,7 +8,7 @@ ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_TX_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_TX_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header: netadaptercx.h netadaptercx.h
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

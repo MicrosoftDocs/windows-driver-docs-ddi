@@ -8,7 +8,7 @@ ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_TX_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_TX_CAPABILITIES, NET_ADAPTER_TX_CAPABILITIES, *PNET_ADAPTER_TX_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: netadaptercx.h netadaptercx.h
+req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
