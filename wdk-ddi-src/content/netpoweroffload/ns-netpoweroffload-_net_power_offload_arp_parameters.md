@@ -10,7 +10,7 @@ ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_ARP_PARAMETERS structure"]
 ms.keywords: NET_POWER_OFFLOAD_ARP_PARAMETERS, NET_POWER_OFFLOAD_ARP_PARAMETERS,
 req.header: netpoweroffload.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

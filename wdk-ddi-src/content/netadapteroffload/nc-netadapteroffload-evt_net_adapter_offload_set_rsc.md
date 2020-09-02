@@ -9,7 +9,7 @@ ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_RSC callback function"]
 req.header: netadapteroffload.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

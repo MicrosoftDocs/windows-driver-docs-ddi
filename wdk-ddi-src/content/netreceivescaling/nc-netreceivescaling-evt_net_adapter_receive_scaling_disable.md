@@ -7,7 +7,7 @@ ms.assetid: 3c249ff6-2a88-4b73-9f04-b3be1a2996d9
 ms.date: 03/08/2018
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE callback function"]
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

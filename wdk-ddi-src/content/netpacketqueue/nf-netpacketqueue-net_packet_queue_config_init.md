@@ -8,7 +8,7 @@ ms.date: 07/16/2018
 keywords: ["NET_PACKET_QUEUE_CONFIG_INIT function"]
 ms.keywords: NET_PACKET_QUEUE_CONFIG_INIT
 req.header: netpacketqueue.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

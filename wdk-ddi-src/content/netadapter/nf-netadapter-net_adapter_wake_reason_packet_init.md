@@ -10,7 +10,7 @@ ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_REASON_PACKET_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET_INIT
 req.header: netadaptercx.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

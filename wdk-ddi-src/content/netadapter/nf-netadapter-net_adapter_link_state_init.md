@@ -8,7 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NET_ADAPTER_LINK_STATE_INIT function"]
 ms.keywords: NET_ADAPTER_LINK_STATE_INIT
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016

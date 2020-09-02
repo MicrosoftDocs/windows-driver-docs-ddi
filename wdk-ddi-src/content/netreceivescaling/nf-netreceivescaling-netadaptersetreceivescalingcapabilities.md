@@ -8,7 +8,7 @@ ms.date: 03/08/2018
 keywords: ["NetAdapterSetReceiveScalingCapabilities function"]
 ms.keywords: NetAdapterSetReceiveScalingCapabilities
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
