@@ -10,7 +10,7 @@ ms.date: 10/11/2019
 keywords: ["NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure"]
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS, NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS,
 req.header: netdevice.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

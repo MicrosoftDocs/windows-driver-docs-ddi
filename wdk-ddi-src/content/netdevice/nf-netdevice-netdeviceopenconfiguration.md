@@ -8,7 +8,7 @@ ms.date: 07/19/2018
 keywords: ["NetDeviceOpenConfiguration function"]
 ms.keywords: NetDeviceOpenConfiguration
 req.header: netdevice.h
-req.include-header: netadaptercxstub.lib
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

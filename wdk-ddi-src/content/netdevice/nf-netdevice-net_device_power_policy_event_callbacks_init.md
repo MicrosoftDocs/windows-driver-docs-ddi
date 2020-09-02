@@ -10,7 +10,7 @@ ms.date: 10/11/2019
 keywords: ["NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function"]
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
 req.header: netdevice.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
