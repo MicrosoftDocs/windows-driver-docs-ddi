@@ -10,7 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

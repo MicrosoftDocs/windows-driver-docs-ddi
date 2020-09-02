@@ -10,7 +10,7 @@ ms.date: 10/03/2019
 keywords: ["NetPowerOffloadListGetElement function"]
 ms.keywords: NetPowerOffloadListGetElement
 req.header: netpoweroffloadlist.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

@@ -8,7 +8,7 @@ ms.date: 01/17/2019
 keywords: ["NetAdapterOffloadSetLsoCapabilities function"]
 ms.keywords: NetAdapterOffloadSetLsoCapabilities
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

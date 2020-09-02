@@ -10,7 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NetOffloadIsRscIPv6Enabled function"]
 ms.keywords: NetOffloadIsRscIPv6Enabled
 req.header: netadapteroffload.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

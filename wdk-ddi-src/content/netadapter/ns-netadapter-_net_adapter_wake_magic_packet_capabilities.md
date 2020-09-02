@@ -10,7 +10,7 @@ ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES, NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

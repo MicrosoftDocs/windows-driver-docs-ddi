@@ -10,7 +10,7 @@ ms.date:
 keywords: ["NET_IPV6_ADDRESS structure"]
 ms.keywords: NET_IPV6_ADDRESS, NET_IPV6_ADDRESS,
 req.header: netadaptercxtypes.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

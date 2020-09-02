@@ -10,7 +10,7 @@ ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetMediaChangeCapabilities function"]
 ms.keywords: NetAdapterWakeSetMediaChangeCapabilities
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

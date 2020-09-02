@@ -7,7 +7,7 @@ ms.assetid: 1a1adb5b-3953-44d5-8d82-aeb210a20c30
 ms.date: 01/23/2019
 keywords: ["EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED callback function"]
 req.header: netpacketqueue.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

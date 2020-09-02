@@ -7,7 +7,7 @@ ms.assetid: 0B5CB7F0-C840-4138-8B22-4FE35120C7A5
 ms.date: 07/17/2018
 keywords: ["EVT_PACKET_QUEUE_START callback function"]
 req.header: netpacketqueue.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

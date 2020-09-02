@@ -8,7 +8,7 @@ ms.date: 08/01/2018
 keywords: ["NetAdapterInitSetDatapathCallbacks function"]
 ms.keywords: NetAdapterInitSetDatapathCallbacks
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
