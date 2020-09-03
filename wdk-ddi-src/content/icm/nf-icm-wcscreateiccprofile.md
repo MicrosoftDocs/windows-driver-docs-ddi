@@ -11,7 +11,7 @@ ms.keywords: WcsCreateIccProfile, WcsCreateIccProfile function [Print Devices], 
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -25,20 +25,24 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mscms.dll
-api_name:
-- WcsCreateIccProfile
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - WcsCreateIccProfile
+f1_keywords:
+ - WcsCreateIccProfile
+ - icm/WcsCreateIccProfile
 ---
 
 # WcsCreateIccProfile function
+
 
 ## -description
 
@@ -51,6 +55,7 @@ The **WcsCreateIccProfile** function converts a WCS profile into an ICC profile.
 A handle to the WCS color profile to transform. See remarks below.
 
 ### -param dwOptions 
+
 [in]
 A flag value that specifies the profile conversion options. This parameter must take the following value:
 
@@ -61,3 +66,4 @@ Specifies that when WCS encounters an ICC profile, it should extract and use the
 ## -remarks
 
 The WCS profile that is to be translated must be a Device Model Profile (DMP) in combination with a Color Appearance Model Profile (CAMP) and a Gamut Map Model Profile (GMMP).
+

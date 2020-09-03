@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: buses
+f1_keywords:
+ - charging
+ - charging/charging
 ---
 
 # Charging.h header
@@ -16,7 +19,7 @@ tech.root: buses
 
 ## -description
 
-
 This header is used by battery. For more information, see:
 
 - [Battery](../_battery/index.md)
+

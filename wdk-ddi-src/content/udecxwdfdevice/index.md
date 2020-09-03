@@ -9,13 +9,15 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
+f1_keywords:
+ - udecxwdfdevice
+ - udecxwdfdevice/udecxwdfdevice
 ---
 
 # Udecxwdfdevice.h header
 
 
 ## -description
-
 
 This header is used for developing an emulated Universal Serial Bus (USB) host controller driver and a connected virtual USB device. Both components are combined into a single KMDF driver that communicates with the Microsoft-provided USB device emulation class extension (UdeCx).
 
@@ -25,3 +27,4 @@ For more information, see:
 
 - [Universal Serial Bus (USB)](../_usbref/index.md)
 - [Developing Windows drivers for emulated USB devices (UDE)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices)
+

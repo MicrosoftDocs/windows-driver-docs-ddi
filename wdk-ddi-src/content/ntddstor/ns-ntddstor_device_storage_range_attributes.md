@@ -8,34 +8,42 @@ ms.assetid: bde6dbc5-b518-47ed-990c-9bcbf0c0d803
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_STORAGE_RANGE_ATTRIBUTES structure"]
-ms.keywords: DEVICE_STORAGE_RANGE_ATTRIBUTES, DEVICE_STORAGE_RANGE_ATTRIBUTES, *PDEVICE_STORAGE_RANGE_ATTRIBUTES, 
+ms.keywords: DEVICE_STORAGE_RANGE_ATTRIBUTES, DEVICE_STORAGE_RANGE_ATTRIBUTES, *PDEVICE_STORAGE_RANGE_ATTRIBUTES,
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DEVICE_STORAGE_RANGE_ATTRIBUTES, *PDEVICE_STORAGE_RANGE_ATTRIBUTES
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddstor.h
-api_name: 
- - DEVICE_STORAGE_RANGE_ATTRIBUTES
-product: 
- - Windows
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - DEVICE_STORAGE_RANGE_ATTRIBUTES
+product:
+ - Windows
+f1_keywords:
+ - _DEVICE_STORAGE_RANGE_ATTRIBUTES
+ - ntddstor/_DEVICE_STORAGE_RANGE_ATTRIBUTES
+ - PDEVICE_STORAGE_RANGE_ATTRIBUTES
+ - ntddstor/PDEVICE_STORAGE_RANGE_ATTRIBUTES
+ - DEVICE_STORAGE_RANGE_ATTRIBUTES
+ - ntddstor/DEVICE_STORAGE_RANGE_ATTRIBUTES
 ---
 
 # DEVICE_STORAGE_RANGE_ATTRIBUTES structure
+
 
 ## -description
 
@@ -72,3 +80,4 @@ See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware
 [DEVICE_DSM_RANGE_ERROR_OUTPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_dsm_range_error_info)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
+

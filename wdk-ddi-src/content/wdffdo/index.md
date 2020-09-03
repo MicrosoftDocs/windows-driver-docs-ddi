@@ -9,13 +9,15 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: wdf
+f1_keywords:
+ - wdffdo
+ - wdffdo/wdffdo
 ---
 
 # Wdffdo.h header
 
 
 ## -description
-
 
 This header is used by wdf. For more information, see:
 
@@ -69,3 +71,4 @@ The categories on this page are:
 
 - [**WDF_FDO_EVENT_CALLBACKS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks)
 - [**WDF_FDO_EVENT_CALLBACKS_INIT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdf_fdo_event_callbacks_init)
+

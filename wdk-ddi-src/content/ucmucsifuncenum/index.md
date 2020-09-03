@@ -10,13 +10,15 @@ ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 ms.custom: RS5
+f1_keywords:
+ - ucmucsifuncenum
+ - ucmucsifuncenum/ucmucsifuncenum
 ---
 
 # Ucmucsifuncenum.h header
 
 
 ## -description
-
 
 This header declares an enumeration of all export functions called by a client driver of a UcmUcsiCx class extension. 
 

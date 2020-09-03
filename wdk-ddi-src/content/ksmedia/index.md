@@ -9,12 +9,17 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: stream
+f1_keywords:
+ - ksmedia
+ - ksmedia/ksmedia
 ---
 
 # Ksmedia.h header
+
 
 ## -description
 
 This header is used by stream. For more information, see:
 
 - [Streaming media devices](../_stream/index.md)<br><br>
+

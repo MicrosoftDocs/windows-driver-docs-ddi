@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: wdf
+f1_keywords:
+ - wdfchildlist
+ - wdfchildlist/wdfchildlist
 ---
 
 # Wdfchildlist.h header
@@ -16,7 +19,7 @@ tech.root: wdf
 
 ## -description
 
-
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
+

@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: spb
+f1_keywords:
+ - spb
+ - spb/spb
 ---
 
 # Spb.h header
@@ -16,7 +19,7 @@ tech.root: spb
 
 ## -description
 
-
 This header is used by spb. For more information, see:
 
 - [Simple Peripheral Bus (SPB)](../_spb/index.md)
+

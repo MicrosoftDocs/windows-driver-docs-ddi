@@ -9,13 +9,15 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - iointex
+ - iointex/iointex
 ---
 
 # Iointex.h header
 
 
 ## -description
-
 
 This header exposes the programming interfaces to connect and disconnect interrupts allowing drivers to use those interfaces to run on downlevel systems. For more information, see:
 

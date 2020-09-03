@@ -9,13 +9,15 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: wdf
+f1_keywords:
+ - wdfdevice
+ - wdfdevice/wdfdevice
 ---
 
 # Wdfdevice.h header
 
 
 ## -description
-
 
 This header is used by wdf. For more information, see:
 
@@ -223,3 +225,4 @@ The categories on this page are:
 - [**WDF_POWER_FRAMEWORK_SETTINGS_INIT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_power_framework_settings_init)
 - [**WDF_POWER_POLICY_EVENT_CALLBACKS_INIT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_power_policy_event_callbacks_init)
 - [**WDF_REMOVE_LOCK_OPTIONS_INIT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_remove_lock_options_init)
+

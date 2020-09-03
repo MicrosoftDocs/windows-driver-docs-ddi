@@ -9,37 +9,41 @@ ms.date: 08/14/2020
 keywords: ["WcsOpenColorProfileW function"]
 ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 req.header: icm.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Mscms.lib
-req.dll:
-req.irql:
-topic_type:
--   APIRef
--   kbSyntax
-api_type:
--   LibDef
-api_location:
--   Mscms.lib
--   Mscms.dll
-api_name:
--   WcsOpenColorProfile
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Mscms.lib
+ - Mscms.dll
+api_name:
+ - WcsOpenColorProfile
+f1_keywords:
+ - WcsOpenColorProfileW
+ - icm/WcsOpenColorProfileW
 ---
 
 # WcsOpenColorProfileW function
+
 
 ## -description
 
@@ -69,6 +73,7 @@ A flag value that specifies how to access the given color profile. This paramete
 | PROFILE_READWRITE | Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened. |
 
 ### -param dwShareMode 
+
 [in]
 A flag value that specifies actions to take while opening a color profile if it is contained in a file. This parameter must take one of the following values, which are defined in winnt.h:
 
@@ -78,6 +83,7 @@ A flag value that specifies actions to take while opening a color profile if it 
 | FILE_SHARE_WRITE | Specifies that other open operations can be performed on the profile for write access. This flag value is ignored when a WCS profile is opened. |
 
 ### -param dwCreationMode 
+
 [in]
 A flag value that specifies actions to take while opening a color profile if it is contained in a file. This parameter must take one of the following values, which are defined in winbase.h:
 
@@ -117,3 +123,4 @@ Use the [CloseColorProfile](https://docs.microsoft.com/previous-versions//ms5368
 ## -see-also
 
 [CloseColorProfile](https://docs.microsoft.com/previous-versions//ms536810(v=vs.85))
+
