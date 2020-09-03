@@ -41,7 +41,7 @@ api_name:
  - RILRADIOCONFIGURATIONRADIOTYPE
 ---
 
-# RILRADIOCONFIGURATIONRADIOTYPE enumeration
+# RILRADIOCONFIGURATIONRADIOTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

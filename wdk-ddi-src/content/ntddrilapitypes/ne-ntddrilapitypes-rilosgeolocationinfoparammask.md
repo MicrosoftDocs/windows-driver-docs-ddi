@@ -41,7 +41,7 @@ api_name:
  - RILOSGEOLOCATIONINFOPARAMMASK
 ---
 
-# RILOSGEOLOCATIONINFOPARAMMASK enumeration
+# RILOSGEOLOCATIONINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

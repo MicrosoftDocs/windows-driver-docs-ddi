@@ -45,7 +45,7 @@ api_name:
  - INQUIRYDATA
 ---
 
-# _INQUIRYDATA structure
+# _INQUIRYDATA structure (storport.h)
 
 
 ## -description

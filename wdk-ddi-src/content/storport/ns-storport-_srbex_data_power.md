@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA_POWER
 ---
 
-# _SRBEX_DATA_POWER structure
+# _SRBEX_DATA_POWER structure (storport.h)
 
 
 ## -description

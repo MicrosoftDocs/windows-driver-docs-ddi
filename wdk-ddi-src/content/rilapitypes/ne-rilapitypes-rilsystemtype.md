@@ -42,7 +42,7 @@ api_name:
  - RILSYSTEMTYPE
 ---
 
-# RILSYSTEMTYPE enumeration
+# RILSYSTEMTYPE enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILMSGDCSFLAGS
 ---
 
-# RILMSGDCSFLAGS enumeration
+# RILMSGDCSFLAGS enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PERF_STATE
 ---
 
-# _PEP_PERF_STATE structure
+# _PEP_PERF_STATE structure (pep_x.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILUMTSMRLPARAMMASK
 ---
 
-# RILUMTSMRLPARAMMASK enumeration
+# RILUMTSMRLPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

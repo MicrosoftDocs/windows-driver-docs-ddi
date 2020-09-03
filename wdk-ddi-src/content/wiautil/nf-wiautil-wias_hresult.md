@@ -41,7 +41,7 @@ api_name:
  - WIAS_HRESULT
 ---
 
-# WIAS_HRESULT macro
+# WIAS_HRESULT macro (wiautil.h)
 
 
 ## -description

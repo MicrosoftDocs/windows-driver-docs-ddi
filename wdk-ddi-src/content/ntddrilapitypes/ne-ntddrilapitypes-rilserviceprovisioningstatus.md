@@ -41,7 +41,7 @@ api_name:
  - RILSERVICEPROVISIONINGSTATUS
 ---
 
-# RILSERVICEPROVISIONINGSTATUS enumeration
+# RILSERVICEPROVISIONINGSTATUS enumeration (ntddrilapitypes.h)
 
 
 ## -description

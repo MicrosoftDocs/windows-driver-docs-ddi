@@ -46,7 +46,7 @@ api_name:
  - WDF_DEVICE_HWACCESS_TARGET_TYPE
 ---
 
-# _WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration
+# _WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration (wudfddi_types.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PLATFORM_IDLE_STATE
 ---
 
-# _PEP_PLATFORM_IDLE_STATE structure
+# _PEP_PLATFORM_IDLE_STATE structure (pepfx.h)
 
 
 ## -description

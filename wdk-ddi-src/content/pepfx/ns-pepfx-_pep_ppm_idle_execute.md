@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_IDLE_EXECUTE
 ---
 
-# _PEP_PPM_IDLE_EXECUTE structure
+# _PEP_PPM_IDLE_EXECUTE structure (pepfx.h)
 
 
 ## -description

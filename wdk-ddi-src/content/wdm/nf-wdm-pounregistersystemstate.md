@@ -41,7 +41,7 @@ api_name:
  - PoUnregisterSystemState
 ---
 
-# PoUnregisterSystemState function
+# PoUnregisterSystemState function (wdm.h)
 
 
 ## -description

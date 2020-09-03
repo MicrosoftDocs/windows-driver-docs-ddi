@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_RESOURCE
 ---
 
-# _PEP_ACPI_RESOURCE structure
+# _PEP_ACPI_RESOURCE structure (pepfx.h)
 
 
 ## -description

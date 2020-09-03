@@ -41,7 +41,7 @@ api_name:
  - READ_REGISTER_UCHAR
 ---
 
-# READ_REGISTER_UCHAR function
+# READ_REGISTER_UCHAR function (miniport.h)
 
 
 ## -description

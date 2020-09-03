@@ -41,7 +41,7 @@ api_name:
  - InterlockedOr
 ---
 
-# InterlockedOr function
+# InterlockedOr function (wdm.h)
 
 
 ## -description

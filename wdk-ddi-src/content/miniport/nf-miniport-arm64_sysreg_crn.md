@@ -37,7 +37,7 @@ api_name:
  - ARM64_SYSREG_CRN
 ---
 
-# ARM64_SYSREG_CRN macro
+# ARM64_SYSREG_CRN macro (miniport.h)
 
 
 ## -description

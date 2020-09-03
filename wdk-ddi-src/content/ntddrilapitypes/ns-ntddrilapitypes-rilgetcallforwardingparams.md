@@ -43,7 +43,7 @@ api_name:
  - RILGETCALLFORWARDINGPARAMS
 ---
 
-# RILGETCALLFORWARDINGPARAMS structure
+# RILGETCALLFORWARDINGPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

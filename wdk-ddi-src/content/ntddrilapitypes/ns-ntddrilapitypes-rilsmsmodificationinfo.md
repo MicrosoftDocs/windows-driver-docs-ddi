@@ -43,7 +43,7 @@ api_name:
  - RILSMSMODIFICATIONINFO
 ---
 
-# RILSMSMODIFICATIONINFO structure
+# RILSMSMODIFICATIONINFO structure (ntddrilapitypes.h)
 
 
 ## -description

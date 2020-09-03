@@ -41,7 +41,7 @@ api_name:
  - IKsControl.KsProperty
 ---
 
-# IKsControl::KsProperty
+# IKsControl::KsProperty (ks.h)
 
 
 ## -description

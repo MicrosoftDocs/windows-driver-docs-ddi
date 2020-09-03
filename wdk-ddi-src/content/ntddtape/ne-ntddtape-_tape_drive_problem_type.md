@@ -43,7 +43,7 @@ api_name:
  - TAPE_DRIVE_PROBLEM_TYPE
 ---
 
-# _TAPE_DRIVE_PROBLEM_TYPE enumeration
+# _TAPE_DRIVE_PROBLEM_TYPE enumeration (ntddtape.h)
 
 
 ## -description

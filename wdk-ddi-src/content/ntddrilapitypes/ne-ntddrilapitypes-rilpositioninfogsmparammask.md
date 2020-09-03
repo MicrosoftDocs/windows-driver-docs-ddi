@@ -41,7 +41,7 @@ api_name:
  - RILPOSITIONINFOGSMPARAMMASK
 ---
 
-# RILPOSITIONINFOGSMPARAMMASK enumeration
+# RILPOSITIONINFOGSMPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

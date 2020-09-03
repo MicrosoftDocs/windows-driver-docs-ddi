@@ -45,7 +45,7 @@ api_name:
  - DEVICE_POWER_STATE
 ---
 
-# _DEVICE_POWER_STATE enumeration
+# _DEVICE_POWER_STATE enumeration (wudfddi.h)
 
 
 ## -description

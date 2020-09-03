@@ -41,7 +41,7 @@ api_name:
  - RILSYSTEMSELECTIONPREFSPARAMMASK
 ---
 
-# RILSYSTEMSELECTIONPREFSPARAMMASK enumeration
+# RILSYSTEMSELECTIONPREFSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

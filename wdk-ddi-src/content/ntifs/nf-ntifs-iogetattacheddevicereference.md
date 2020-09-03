@@ -41,7 +41,7 @@ api_name:
  - IoGetAttachedDeviceReference
 ---
 
-# IoGetAttachedDeviceReference function
+# IoGetAttachedDeviceReference function (ntifs.h)
 
 
 ## -description

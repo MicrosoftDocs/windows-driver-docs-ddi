@@ -41,7 +41,7 @@ api_name:
  - RILCALLAUDIOMEDIASTATEPARAMMASK
 ---
 
-# RILCALLAUDIOMEDIASTATEPARAMMASK enumeration
+# RILCALLAUDIOMEDIASTATEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

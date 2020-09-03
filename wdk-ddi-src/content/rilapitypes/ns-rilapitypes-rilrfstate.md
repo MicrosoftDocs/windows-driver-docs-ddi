@@ -43,7 +43,7 @@ api_name:
  - RILRFSTATE
 ---
 
-# RILRFSTATE structure
+# RILRFSTATE structure (rilapitypes.h)
 
 
 ## -description

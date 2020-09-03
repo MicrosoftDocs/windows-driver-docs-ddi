@@ -45,7 +45,7 @@ api_name:
  - STOR_ADDRESS
 ---
 
-# _STOR_ADDRESS structure
+# _STOR_ADDRESS structure (scsi.h)
 
 
 ## -description

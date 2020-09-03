@@ -41,7 +41,7 @@ api_name:
  - IoWriteErrorLogEntry
 ---
 
-# IoWriteErrorLogEntry function
+# IoWriteErrorLogEntry function (ntifs.h)
 
 
 ## -description

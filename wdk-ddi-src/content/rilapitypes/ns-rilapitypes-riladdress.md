@@ -44,7 +44,7 @@ api_name:
  - RILADDRESS
 ---
 
-# RILADDRESS structure
+# RILADDRESS structure (rilapitypes.h)
 
 
 ## -description

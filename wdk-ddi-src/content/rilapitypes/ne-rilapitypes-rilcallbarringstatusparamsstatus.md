@@ -41,7 +41,7 @@ api_name:
  - RILCALLBARRINGSTATUSPARAMSSTATUS
 ---
 
-# RILCALLBARRINGSTATUSPARAMSSTATUS enumeration
+# RILCALLBARRINGSTATUSPARAMSSTATUS enumeration (rilapitypes.h)
 
 
 ## -description

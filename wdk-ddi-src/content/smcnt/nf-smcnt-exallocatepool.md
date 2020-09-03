@@ -42,7 +42,7 @@ api_name:
  - ExAllocatePool
 ---
 
-# ExAllocatePool macro
+# ExAllocatePool macro (smcnt.h)
 
 
 ## -description

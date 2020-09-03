@@ -43,7 +43,7 @@ api_name:
  - RILPERSODEACTIVATIONSTATE
 ---
 
-# RILPERSODEACTIVATIONSTATE structure
+# RILPERSODEACTIVATIONSTATE structure (rilapitypes.h)
 
 
 ## -description

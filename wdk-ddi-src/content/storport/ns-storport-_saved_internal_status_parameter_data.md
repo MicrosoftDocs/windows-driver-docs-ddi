@@ -38,7 +38,7 @@ api_name:
  - _SAVED_INTERNAL_STATUS_PARAMETER_DATA
 ---
 
-# _SAVED_INTERNAL_STATUS_PARAMETER_DATA structure
+# _SAVED_INTERNAL_STATUS_PARAMETER_DATA structure (storport.h)
 
 
 ## -description

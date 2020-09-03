@@ -43,7 +43,7 @@ api_name:
  - RILMSGMWISUMMARY
 ---
 
-# RILMSGMWISUMMARY structure
+# RILMSGMWISUMMARY structure (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILACCESSTECHNOLOGY
 ---
 
-# RILACCESSTECHNOLOGY structure
+# RILACCESSTECHNOLOGY structure (ntddrilapitypes.h)
 
 
 ## -description

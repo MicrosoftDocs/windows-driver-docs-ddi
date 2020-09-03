@@ -45,7 +45,7 @@ api_name:
  - TAPE_PREPARE
 ---
 
-# _TAPE_PREPARE structure
+# _TAPE_PREPARE structure (minitape.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILADDITIONALCALLERINFO
 ---
 
-# RILADDITIONALCALLERINFO structure
+# RILADDITIONALCALLERINFO structure (rilapitypes.h)
 
 
 ## -description

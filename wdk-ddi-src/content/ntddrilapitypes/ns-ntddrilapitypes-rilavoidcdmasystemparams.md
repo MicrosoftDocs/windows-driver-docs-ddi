@@ -43,7 +43,7 @@ api_name:
  - RILAVOIDCDMASYSTEMPARAMS
 ---
 
-# RILAVOIDCDMASYSTEMPARAMS structure
+# RILAVOIDCDMASYSTEMPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

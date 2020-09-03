@@ -41,7 +41,7 @@ api_name:
  - RILCAPSTYPE
 ---
 
-# RILCAPSTYPE enumeration
+# RILCAPSTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

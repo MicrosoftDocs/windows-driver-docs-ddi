@@ -41,7 +41,7 @@ api_name:
  - RILIMSNWENABLEDFLAGS
 ---
 
-# RILIMSNWENABLEDFLAGS enumeration
+# RILIMSNWENABLEDFLAGS enumeration (ntddrilapitypes.h)
 
 
 ## -description

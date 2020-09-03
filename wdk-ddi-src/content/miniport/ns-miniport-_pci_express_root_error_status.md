@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_ROOT_ERROR_STATUS
 ---
 
-# _PCI_EXPRESS_ROOT_ERROR_STATUS structure
+# _PCI_EXPRESS_ROOT_ERROR_STATUS structure (miniport.h)
 
 
 ## -description

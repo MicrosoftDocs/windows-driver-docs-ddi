@@ -43,7 +43,7 @@ api_name:
  - RILEMERGENCYNUMBER
 ---
 
-# RILEMERGENCYNUMBER structure
+# RILEMERGENCYNUMBER structure (ntddrilapitypes.h)
 
 
 ## -description

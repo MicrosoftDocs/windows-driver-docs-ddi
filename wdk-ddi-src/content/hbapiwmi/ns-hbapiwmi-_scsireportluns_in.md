@@ -45,7 +45,7 @@ api_name:
  - ScsiReportLuns_IN
 ---
 
-# _ScsiReportLuns_IN structure
+# _ScsiReportLuns_IN structure (hbapiwmi.h)
 
 
 ## -description

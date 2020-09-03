@@ -42,7 +42,7 @@ api_name:
  - NtDeviceIoControlFile
 ---
 
-# ZwDeviceIoControlFile function
+# ZwDeviceIoControlFile function (ntifs.h)
 
 
 ## -description

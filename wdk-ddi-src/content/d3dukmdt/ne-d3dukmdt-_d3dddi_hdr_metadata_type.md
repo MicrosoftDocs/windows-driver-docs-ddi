@@ -43,7 +43,7 @@ api_name:
  - D3DDDI_HDR_METADATA_TYPE
 ---
 
-# _D3DDDI_HDR_METADATA_TYPE enumeration
+# _D3DDDI_HDR_METADATA_TYPE enumeration (d3dukmdt.h)
 
 
 ## -description

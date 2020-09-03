@@ -45,7 +45,7 @@ api_name:
  - PEP_PROCESSOR_FEEDBACK_COUNTER
 ---
 
-# _PEP_PROCESSOR_FEEDBACK_COUNTER structure
+# _PEP_PROCESSOR_FEEDBACK_COUNTER structure (pep_x.h)
 
 
 ## -description

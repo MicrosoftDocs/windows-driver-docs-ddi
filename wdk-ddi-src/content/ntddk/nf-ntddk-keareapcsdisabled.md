@@ -41,7 +41,7 @@ api_name:
  - KeAreApcsDisabled
 ---
 
-# KeAreApcsDisabled function
+# KeAreApcsDisabled function (ntddk.h)
 
 
 ## -description

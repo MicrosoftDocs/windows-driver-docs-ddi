@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_EVALUATE_CONTROL_METHOD
 ---
 
-# _PEP_ACPI_EVALUATE_CONTROL_METHOD structure
+# _PEP_ACPI_EVALUATE_CONTROL_METHOD structure (pepfx.h)
 
 
 ## -description

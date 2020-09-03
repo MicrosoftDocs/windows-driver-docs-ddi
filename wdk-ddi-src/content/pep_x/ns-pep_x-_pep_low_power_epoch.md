@@ -45,7 +45,7 @@ api_name:
  - PEP_LOW_POWER_EPOCH
 ---
 
-# _PEP_LOW_POWER_EPOCH structure
+# _PEP_LOW_POWER_EPOCH structure (pep_x.h)
 
 
 ## -description

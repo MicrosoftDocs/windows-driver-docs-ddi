@@ -43,7 +43,7 @@ api_name:
  - RILSYSTEMSELECTIONPREFS_V2
 ---
 
-# RILSYSTEMSELECTIONPREFS_V2 structure
+# RILSYSTEMSELECTIONPREFS_V2 structure (rilapitypes.h)
 
 
 ## -description

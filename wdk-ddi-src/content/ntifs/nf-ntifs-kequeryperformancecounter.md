@@ -41,7 +41,7 @@ api_name:
  - KeQueryPerformanceCounter
 ---
 
-# KeQueryPerformanceCounter function
+# KeQueryPerformanceCounter function (ntifs.h)
 
 
 ## -description

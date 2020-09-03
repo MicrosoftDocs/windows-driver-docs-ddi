@@ -44,7 +44,7 @@ api_name:
  - RILGSMNMR
 ---
 
-# RILGSMNMR structure
+# RILGSMNMR structure (rilapitypes.h)
 
 
 ## -description

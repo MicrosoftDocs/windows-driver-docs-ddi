@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_CST_STATES
 ---
 
-# _PEP_PPM_CST_STATES structure
+# _PEP_PPM_CST_STATES structure (pep_x.h)
 
 
 ## -description

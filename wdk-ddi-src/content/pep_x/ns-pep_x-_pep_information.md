@@ -45,7 +45,7 @@ api_name:
  - PEP_INFORMATION
 ---
 
-# _PEP_INFORMATION structure
+# _PEP_INFORMATION structure (pep_x.h)
 
 
 ## -description

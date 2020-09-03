@@ -45,7 +45,7 @@ api_name:
  - CM_MCA_POS_DATA
 ---
 
-# _CM_MCA_POS_DATA structure
+# _CM_MCA_POS_DATA structure (wdm.h)
 
 
 ## -description

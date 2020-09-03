@@ -45,7 +45,7 @@ api_name:
  - PEP_UNMASKED_INTERRUPT_FLAGS
 ---
 
-# _PEP_UNMASKED_INTERRUPT_FLAGS structure
+# _PEP_UNMASKED_INTERRUPT_FLAGS structure (pep_x.h)
 
 
 ## -description

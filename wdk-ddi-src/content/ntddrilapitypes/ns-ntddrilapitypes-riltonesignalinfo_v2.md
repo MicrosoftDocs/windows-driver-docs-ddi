@@ -43,7 +43,7 @@ api_name:
  - RILTONESIGNALINFO_V2
 ---
 
-# RILTONESIGNALINFO_V2 structure
+# RILTONESIGNALINFO_V2 structure (ntddrilapitypes.h)
 
 
 ## -description

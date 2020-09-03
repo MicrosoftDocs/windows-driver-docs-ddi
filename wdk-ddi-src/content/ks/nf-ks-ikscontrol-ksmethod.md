@@ -41,7 +41,7 @@ api_name:
  - IKsControl.KsMethod
 ---
 
-# IKsControl::KsMethod
+# IKsControl::KsMethod (ks.h)
 
 
 ## -description

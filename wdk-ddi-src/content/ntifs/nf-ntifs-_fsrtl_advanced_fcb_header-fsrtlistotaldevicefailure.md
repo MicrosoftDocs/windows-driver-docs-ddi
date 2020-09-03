@@ -41,7 +41,7 @@ api_name:
  - FsRtlIsTotalDeviceFailure
 ---
 
-# FsRtlIsTotalDeviceFailure function
+# FsRtlIsTotalDeviceFailure function (ntifs.h)
 
 
 ## -description

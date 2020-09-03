@@ -41,7 +41,7 @@ api_name:
  - RILEXECUTORFLAG
 ---
 
-# RILEXECUTORFLAG enumeration
+# RILEXECUTORFLAG enumeration (rilapitypes.h)
 
 
 ## -description

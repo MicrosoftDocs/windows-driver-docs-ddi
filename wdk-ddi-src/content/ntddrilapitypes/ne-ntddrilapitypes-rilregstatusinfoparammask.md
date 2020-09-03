@@ -41,7 +41,7 @@ api_name:
  - RILREGSTATUSINFOPARAMMASK
 ---
 
-# RILREGSTATUSINFOPARAMMASK enumeration
+# RILREGSTATUSINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

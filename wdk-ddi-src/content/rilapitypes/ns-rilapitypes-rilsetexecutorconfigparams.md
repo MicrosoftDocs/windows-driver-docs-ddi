@@ -43,7 +43,7 @@ api_name:
  - RILSETEXECUTORCONFIGPARAMS
 ---
 
-# RILSETEXECUTORCONFIGPARAMS structure
+# RILSETEXECUTORCONFIGPARAMS structure (rilapitypes.h)
 
 
 ## -description

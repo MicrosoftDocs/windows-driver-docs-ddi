@@ -45,7 +45,7 @@ api_name:
  - DEVICE_MEDIA_INFO
 ---
 
-# _DEVICE_MEDIA_INFO structure
+# _DEVICE_MEDIA_INFO structure (ntddstor.h)
 
 
 ## -description

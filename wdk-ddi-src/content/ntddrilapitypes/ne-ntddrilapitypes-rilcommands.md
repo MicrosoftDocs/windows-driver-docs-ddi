@@ -41,7 +41,7 @@ api_name:
  - RILCOMMANDS
 ---
 
-# RILCOMMANDS enumeration
+# RILCOMMANDS enumeration (ntddrilapitypes.h)
 
 
 ## -description

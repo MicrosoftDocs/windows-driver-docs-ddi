@@ -41,7 +41,7 @@ api_name:
  - RILMSGPROTOCOLID
 ---
 
-# RILMSGPROTOCOLID enumeration
+# RILMSGPROTOCOLID enumeration (rilapitypes.h)
 
 
 ## -description

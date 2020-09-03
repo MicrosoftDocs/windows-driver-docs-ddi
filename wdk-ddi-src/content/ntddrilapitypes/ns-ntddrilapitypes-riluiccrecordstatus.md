@@ -43,7 +43,7 @@ api_name:
  - RILUICCRECORDSTATUS
 ---
 
-# RILUICCRECORDSTATUS structure
+# RILUICCRECORDSTATUS structure (ntddrilapitypes.h)
 
 
 ## -description

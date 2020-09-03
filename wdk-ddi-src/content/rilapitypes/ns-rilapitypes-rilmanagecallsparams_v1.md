@@ -43,7 +43,7 @@ api_name:
  - RILMANAGECALLSPARAMS_V1
 ---
 
-# RILMANAGECALLSPARAMS_V1 structure
+# RILMANAGECALLSPARAMS_V1 structure (rilapitypes.h)
 
 
 ## -description

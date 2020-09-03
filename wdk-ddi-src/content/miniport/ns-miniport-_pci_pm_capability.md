@@ -45,7 +45,7 @@ api_name:
  - PCI_PM_CAPABILITY
 ---
 
-# _PCI_PM_CAPABILITY structure
+# _PCI_PM_CAPABILITY structure (miniport.h)
 
 
 ## -description

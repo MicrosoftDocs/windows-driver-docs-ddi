@@ -43,7 +43,7 @@ api_name:
  - RILEUTRAMRL
 ---
 
-# RILEUTRAMRL structure
+# RILEUTRAMRL structure (ntddrilapitypes.h)
 
 
 ## -description

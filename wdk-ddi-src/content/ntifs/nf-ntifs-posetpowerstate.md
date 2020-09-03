@@ -41,7 +41,7 @@ api_name:
  - PoSetPowerState
 ---
 
-# PoSetPowerState function
+# PoSetPowerState function (ntifs.h)
 
 
 ## -description

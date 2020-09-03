@@ -45,7 +45,7 @@ api_name:
  - PEP_DEVICE_STARTED
 ---
 
-# _PEP_DEVICE_STARTED structure
+# _PEP_DEVICE_STARTED structure (pep_x.h)
 
 
 ## -description

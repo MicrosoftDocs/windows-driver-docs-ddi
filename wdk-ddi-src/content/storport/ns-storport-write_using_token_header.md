@@ -43,7 +43,7 @@ api_name:
  - WRITE_USING_TOKEN_HEADER
 ---
 
-# WRITE_USING_TOKEN_HEADER structure
+# WRITE_USING_TOKEN_HEADER structure (storport.h)
 
 
 ## -description

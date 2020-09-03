@@ -43,7 +43,7 @@ api_name:
  - RILCLOSEUICCLOGICALCHANNELPARAMS
 ---
 
-# RILCLOSEUICCLOGICALCHANNELPARAMS structure
+# RILCLOSEUICCLOGICALCHANNELPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

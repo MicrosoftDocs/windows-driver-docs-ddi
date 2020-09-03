@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIAOFFERACTION
 ---
 
-# RILCALLMEDIAOFFERACTION enumeration
+# RILCALLMEDIAOFFERACTION enumeration (ntddrilapitypes.h)
 
 
 ## -description

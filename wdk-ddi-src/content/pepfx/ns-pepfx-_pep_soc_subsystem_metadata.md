@@ -45,7 +45,7 @@ api_name:
  - PEP_SOC_SUBSYSTEM_METADATA
 ---
 
-# _PEP_SOC_SUBSYSTEM_METADATA structure
+# _PEP_SOC_SUBSYSTEM_METADATA structure (pepfx.h)
 
 
 ## -description

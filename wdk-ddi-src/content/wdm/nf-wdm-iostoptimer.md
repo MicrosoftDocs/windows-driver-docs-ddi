@@ -41,7 +41,7 @@ api_name:
  - IoStopTimer
 ---
 
-# IoStopTimer function
+# IoStopTimer function (wdm.h)
 
 
 ## -description

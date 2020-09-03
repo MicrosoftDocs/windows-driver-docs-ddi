@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_FEEDBACK_READ
 ---
 
-# _PEP_PPM_FEEDBACK_READ structure
+# _PEP_PPM_FEEDBACK_READ structure (pep_x.h)
 
 
 ## -description

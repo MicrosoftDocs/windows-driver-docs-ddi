@@ -43,7 +43,7 @@ api_name:
  - RILRADIOCONFIGURATION
 ---
 
-# RILRADIOCONFIGURATION structure
+# RILRADIOCONFIGURATION structure (rilapitypes.h)
 
 
 ## -description

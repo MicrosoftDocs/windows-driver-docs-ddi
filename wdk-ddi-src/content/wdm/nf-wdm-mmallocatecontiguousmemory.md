@@ -41,7 +41,7 @@ api_name:
  - MmAllocateContiguousMemory
 ---
 
-# MmAllocateContiguousMemory function
+# MmAllocateContiguousMemory function (wdm.h)
 
 
 ## -description

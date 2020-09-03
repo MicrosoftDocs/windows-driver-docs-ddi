@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_SPB_RESOURCE
 ---
 
-# _PEP_ACPI_SPB_RESOURCE structure
+# _PEP_ACPI_SPB_RESOURCE structure (pep_x.h)
 
 
 ## -description

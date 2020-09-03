@@ -41,7 +41,7 @@ api_name:
  - RILEMERGENCYNUMBERCATEGORY
 ---
 
-# RILEMERGENCYNUMBERCATEGORY enumeration
+# RILEMERGENCYNUMBERCATEGORY enumeration (ntddrilapitypes.h)
 
 
 ## -description

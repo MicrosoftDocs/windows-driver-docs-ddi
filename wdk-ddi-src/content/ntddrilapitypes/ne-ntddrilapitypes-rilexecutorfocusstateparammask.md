@@ -41,7 +41,7 @@ api_name:
  - RILEXECUTORFOCUSSTATEPARAMMASK
 ---
 
-# RILEXECUTORFOCUSSTATEPARAMMASK enumeration
+# RILEXECUTORFOCUSSTATEPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

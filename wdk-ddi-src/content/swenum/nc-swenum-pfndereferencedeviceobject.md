@@ -41,7 +41,7 @@ api_name:
  - KStrDereferenceDeviceObject
 ---
 
-# PFNDEREFERENCEDEVICEOBJECT callback function
+# PFNDEREFERENCEDEVICEOBJECT callback function (swenum.h)
 
 
 ## -description

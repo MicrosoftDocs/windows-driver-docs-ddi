@@ -45,7 +45,7 @@ api_name:
  - ScsiInquiry_IN
 ---
 
-# _ScsiInquiry_IN structure
+# _ScsiInquiry_IN structure (iscsiop.h)
 
 
 ## -description

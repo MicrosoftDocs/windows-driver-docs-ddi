@@ -41,7 +41,7 @@ api_name:
  - RILEMERGENCYNUMBERPARAMMASK
 ---
 
-# RILEMERGENCYNUMBERPARAMMASK enumeration
+# RILEMERGENCYNUMBERPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

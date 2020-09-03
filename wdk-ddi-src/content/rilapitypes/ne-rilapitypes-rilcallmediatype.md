@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIATYPE
 ---
 
-# RILCALLMEDIATYPE enumeration
+# RILCALLMEDIATYPE enumeration (rilapitypes.h)
 
 
 ## -description

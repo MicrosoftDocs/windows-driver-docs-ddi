@@ -41,7 +41,7 @@ api_name:
  - RILOSGEOLOCATIONINFOPARAMMASK
 ---
 
-# RILOSGEOLOCATIONINFOPARAMMASK enumeration
+# RILOSGEOLOCATIONINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

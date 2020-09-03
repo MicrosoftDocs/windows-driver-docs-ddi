@@ -43,7 +43,7 @@ api_name:
  - RILHIDECONNECTEDIDSETTINGS
 ---
 
-# RILHIDECONNECTEDIDSETTINGS structure
+# RILHIDECONNECTEDIDSETTINGS structure (ntddrilapitypes.h)
 
 
 ## -description

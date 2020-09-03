@@ -45,7 +45,7 @@ api_name:
  - PCI_COMMON_CONFIG
 ---
 
-# _PCI_COMMON_CONFIG structure
+# _PCI_COMMON_CONFIG structure (wdm.h)
 
 
 ## -description

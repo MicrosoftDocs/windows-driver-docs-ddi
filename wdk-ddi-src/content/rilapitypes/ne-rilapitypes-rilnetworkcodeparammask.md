@@ -42,7 +42,7 @@ api_name:
  - RILNETWORKCODEPARAMMASK
 ---
 
-# RILNETWORKCODEPARAMMASK enumeration
+# RILNETWORKCODEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

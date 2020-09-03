@@ -41,7 +41,7 @@ api_name:
  - RILSIGNALQUALITYCAPS
 ---
 
-# RILSIGNALQUALITYCAPS enumeration
+# RILSIGNALQUALITYCAPS enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - ExtRemoteData.GetString
 ---
 
-# ExtRemoteData::GetString
+# ExtRemoteData::GetString (engextcpp.h)
 
 
 ## -description

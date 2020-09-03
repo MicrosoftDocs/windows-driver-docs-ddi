@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_ENTER_SYSTEM_STATE
 ---
 
-# _PEP_PPM_ENTER_SYSTEM_STATE structure
+# _PEP_PPM_ENTER_SYSTEM_STATE structure (pepfx.h)
 
 
 ## -description

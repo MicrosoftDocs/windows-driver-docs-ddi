@@ -41,7 +41,7 @@ api_name:
  - WDF_INTERRUPT_INFO_INIT
 ---
 
-# WDF_INTERRUPT_INFO_INIT function
+# WDF_INTERRUPT_INFO_INIT function (wdfinterrupt.h)
 
 
 ## -description

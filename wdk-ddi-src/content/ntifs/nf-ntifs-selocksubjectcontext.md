@@ -41,7 +41,7 @@ api_name:
  - SeLockSubjectContext
 ---
 
-# SeLockSubjectContext function
+# SeLockSubjectContext function (ntifs.h)
 
 
 ## -description

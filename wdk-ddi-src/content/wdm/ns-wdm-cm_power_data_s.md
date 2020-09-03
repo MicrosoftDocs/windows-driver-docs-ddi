@@ -45,7 +45,7 @@ api_name:
  - CM_POWER_DATA
 ---
 
-# CM_Power_Data_s structure
+# CM_Power_Data_s structure (wdm.h)
 
 
 ## -description

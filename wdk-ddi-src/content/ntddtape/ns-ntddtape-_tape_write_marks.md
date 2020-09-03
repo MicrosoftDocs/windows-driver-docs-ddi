@@ -45,7 +45,7 @@ api_name:
  - TAPE_WRITE_MARKS
 ---
 
-# _TAPE_WRITE_MARKS structure
+# _TAPE_WRITE_MARKS structure (ntddtape.h)
 
 
 ## -description

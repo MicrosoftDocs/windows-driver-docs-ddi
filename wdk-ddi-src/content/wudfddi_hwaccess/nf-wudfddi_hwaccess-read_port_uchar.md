@@ -41,7 +41,7 @@ api_name:
  - READ_PORT_UCHAR
 ---
 
-# READ_PORT_UCHAR function
+# READ_PORT_UCHAR function (wudfddi_hwaccess.h)
 
 
 ## -description

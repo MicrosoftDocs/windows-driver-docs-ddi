@@ -43,7 +43,7 @@ api_name:
  - RILSENDSUPSERVICEDATAPARAMS
 ---
 
-# RILSENDSUPSERVICEDATAPARAMS structure
+# RILSENDSUPSERVICEDATAPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

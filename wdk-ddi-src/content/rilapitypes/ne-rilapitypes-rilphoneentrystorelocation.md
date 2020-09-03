@@ -41,7 +41,7 @@ api_name:
  - RILPHONEENTRYSTORELOCATION
 ---
 
-# RILPHONEENTRYSTORELOCATION enumeration
+# RILPHONEENTRYSTORELOCATION enumeration (rilapitypes.h)
 
 
 ## -description

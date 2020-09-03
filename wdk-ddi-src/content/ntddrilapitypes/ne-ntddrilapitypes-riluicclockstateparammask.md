@@ -41,7 +41,7 @@ api_name:
  - RILUICCLOCKSTATEPARAMMASK
 ---
 
-# RILUICCLOCKSTATEPARAMMASK enumeration
+# RILUICCLOCKSTATEPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

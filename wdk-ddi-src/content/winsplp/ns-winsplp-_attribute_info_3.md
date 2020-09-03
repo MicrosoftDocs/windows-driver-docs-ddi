@@ -45,7 +45,7 @@ api_name:
  - ATTRIBUTE_INFO_3
 ---
 
-# _ATTRIBUTE_INFO_3 structure
+# _ATTRIBUTE_INFO_3 structure (winsplp.h)
 
 
 ## -description

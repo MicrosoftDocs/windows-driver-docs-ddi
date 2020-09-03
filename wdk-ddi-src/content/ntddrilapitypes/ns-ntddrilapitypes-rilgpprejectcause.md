@@ -43,7 +43,7 @@ api_name:
  - RILGPPREJECTCAUSE
 ---
 
-# RILGPPREJECTCAUSE structure
+# RILGPPREJECTCAUSE structure (ntddrilapitypes.h)
 
 
 ## -description

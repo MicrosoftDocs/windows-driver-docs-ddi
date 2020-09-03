@@ -43,7 +43,7 @@ api_name:
  - RILREMOVECALLFORWARDINGPARAMS
 ---
 
-# RILREMOVECALLFORWARDINGPARAMS structure
+# RILREMOVECALLFORWARDINGPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - HID_XFER_PACKET
 ---
 
-# _HID_XFER_PACKET structure
+# _HID_XFER_PACKET structure (hidclass.h)
 
 
 ## -description

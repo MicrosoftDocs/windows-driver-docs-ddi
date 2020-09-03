@@ -44,7 +44,7 @@ api_name:
  - RILUICCFILELOCKSTATUS
 ---
 
-# RILUICCFILELOCKSTATUS structure
+# RILUICCFILELOCKSTATUS structure (rilapitypes.h)
 
 
 ## -description

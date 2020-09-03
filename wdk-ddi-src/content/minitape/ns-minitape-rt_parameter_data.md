@@ -43,7 +43,7 @@ api_name:
  - RT_PARAMETER_DATA
 ---
 
-# RT_PARAMETER_DATA structure
+# RT_PARAMETER_DATA structure (minitape.h)
 
 
 ## -description

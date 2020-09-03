@@ -43,7 +43,7 @@ api_name:
  - RILSETSMSCPARAMS
 ---
 
-# RILSETSMSCPARAMS structure
+# RILSETSMSCPARAMS structure (rilapitypes.h)
 
 
 ## -description

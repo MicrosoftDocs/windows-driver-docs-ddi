@@ -43,7 +43,7 @@ api_name:
  - RILSENDMSGACKPARAMS_V2
 ---
 
-# RILSENDMSGACKPARAMS_V2 structure
+# RILSENDMSGACKPARAMS_V2 structure (rilapitypes.h)
 
 
 ## -description

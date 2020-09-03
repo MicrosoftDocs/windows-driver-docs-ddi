@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_FEEDBACK_COUNTERS
 ---
 
-# _PEP_PPM_QUERY_FEEDBACK_COUNTERS structure
+# _PEP_PPM_QUERY_FEEDBACK_COUNTERS structure (pepfx.h)
 
 
 ## -description

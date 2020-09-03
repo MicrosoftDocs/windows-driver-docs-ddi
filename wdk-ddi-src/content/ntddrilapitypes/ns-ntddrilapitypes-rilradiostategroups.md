@@ -43,7 +43,7 @@ api_name:
  - RILRADIOSTATEGROUPS
 ---
 
-# RILRADIOSTATEGROUPS structure
+# RILRADIOSTATEGROUPS structure (ntddrilapitypes.h)
 
 
 ## -description

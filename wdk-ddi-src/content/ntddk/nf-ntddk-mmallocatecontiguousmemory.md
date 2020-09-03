@@ -41,7 +41,7 @@ api_name:
  - MmAllocateContiguousMemory
 ---
 
-# MmAllocateContiguousMemory function
+# MmAllocateContiguousMemory function (ntddk.h)
 
 
 ## -description

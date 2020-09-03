@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIAOFFERANSWERTYPE
 ---
 
-# RILCALLMEDIAOFFERANSWERTYPE enumeration
+# RILCALLMEDIAOFFERANSWERTYPE enumeration (rilapitypes.h)
 
 
 ## -description

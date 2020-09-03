@@ -45,7 +45,7 @@ api_name:
  - PEP_SYSTEM_LATENCY
 ---
 
-# _PEP_SYSTEM_LATENCY structure
+# _PEP_SYSTEM_LATENCY structure (pepfx.h)
 
 
 ## -description

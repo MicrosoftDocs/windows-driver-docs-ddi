@@ -45,7 +45,7 @@ api_name:
  - PROCESSOR_NUMBER
 ---
 
-# _PROCESSOR_NUMBER structure
+# _PROCESSOR_NUMBER structure (miniport.h)
 
 
 ## -description

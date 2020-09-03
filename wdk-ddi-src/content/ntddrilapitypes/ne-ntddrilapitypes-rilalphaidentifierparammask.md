@@ -41,7 +41,7 @@ api_name:
  - RILALPHAIDENTIFIERPARAMMASK
 ---
 
-# RILALPHAIDENTIFIERPARAMMASK enumeration
+# RILALPHAIDENTIFIERPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

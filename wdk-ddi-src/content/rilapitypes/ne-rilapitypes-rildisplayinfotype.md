@@ -41,7 +41,7 @@ api_name:
  - RILDISPLAYINFOTYPE
 ---
 
-# RILDISPLAYINFOTYPE enumeration
+# RILDISPLAYINFOTYPE enumeration (rilapitypes.h)
 
 
 ## -description

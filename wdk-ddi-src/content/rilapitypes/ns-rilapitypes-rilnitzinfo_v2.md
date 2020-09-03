@@ -43,7 +43,7 @@ api_name:
  - RILNITZINFO_V2
 ---
 
-# RILNITZINFO_V2 structure
+# RILNITZINFO_V2 structure (rilapitypes.h)
 
 
 ## -description

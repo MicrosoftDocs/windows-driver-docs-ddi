@@ -43,7 +43,7 @@ api_name:
  - WDF_REQUEST_STOP_ACTION_FLAGS
 ---
 
-# _WDF_REQUEST_STOP_ACTION_FLAGS enumeration
+# _WDF_REQUEST_STOP_ACTION_FLAGS enumeration (wdfrequest.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - HW_INITIALIZATION_DATA
 ---
 
-# _HW_INITIALIZATION_DATA structure
+# _HW_INITIALIZATION_DATA structure (strmini.h)
 
 
 ## -description

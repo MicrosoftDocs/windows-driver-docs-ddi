@@ -45,7 +45,7 @@ api_name:
  - WDF_INTERRUPT_INFO
 ---
 
-# _WDF_INTERRUPT_INFO structure
+# _WDF_INTERRUPT_INFO structure (wdfinterrupt.h)
 
 
 ## -description

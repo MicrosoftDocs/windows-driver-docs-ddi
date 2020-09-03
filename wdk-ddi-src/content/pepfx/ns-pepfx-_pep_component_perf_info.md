@@ -45,7 +45,7 @@ api_name:
  - PEP_COMPONENT_PERF_INFO
 ---
 
-# _PEP_COMPONENT_PERF_INFO structure
+# _PEP_COMPONENT_PERF_INFO structure (pepfx.h)
 
 
 ## -description

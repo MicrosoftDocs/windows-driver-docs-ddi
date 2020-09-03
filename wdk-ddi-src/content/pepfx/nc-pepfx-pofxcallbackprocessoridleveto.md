@@ -41,7 +41,7 @@ api_name:
  - ProcessorIdleVeto
 ---
 
-# POFXCALLBACKPROCESSORIDLEVETO callback function
+# POFXCALLBACKPROCESSORIDLEVETO callback function (pepfx.h)
 
 
 ## -description

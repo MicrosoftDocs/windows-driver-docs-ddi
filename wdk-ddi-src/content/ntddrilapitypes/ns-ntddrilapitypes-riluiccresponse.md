@@ -43,7 +43,7 @@ api_name:
  - RILUICCRESPONSE
 ---
 
-# RILUICCRESPONSE structure
+# RILUICCRESPONSE structure (ntddrilapitypes.h)
 
 
 ## -description

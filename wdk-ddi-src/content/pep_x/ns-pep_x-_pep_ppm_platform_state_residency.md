@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PLATFORM_STATE_RESIDENCY
 ---
 
-# _PEP_PPM_PLATFORM_STATE_RESIDENCY structure
+# _PEP_PPM_PLATFORM_STATE_RESIDENCY structure (pep_x.h)
 
 
 ## -description

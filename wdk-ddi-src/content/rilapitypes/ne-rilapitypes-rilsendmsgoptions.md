@@ -41,7 +41,7 @@ api_name:
  - RILSENDMSGOPTIONS
 ---
 
-# RILSENDMSGOPTIONS enumeration
+# RILSENDMSGOPTIONS enumeration (rilapitypes.h)
 
 
 ## -description

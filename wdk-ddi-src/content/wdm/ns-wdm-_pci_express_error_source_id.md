@@ -46,7 +46,7 @@ api_name:
  - PCI_EXPRESS_ERROR_SOURCE_ID
 ---
 
-# _PCI_EXPRESS_ERROR_SOURCE_ID structure
+# _PCI_EXPRESS_ERROR_SOURCE_ID structure (wdm.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILCALLMODIFICATIONINFOPARAMMASK
 ---
 
-# RILCALLMODIFICATIONINFOPARAMMASK enumeration
+# RILCALLMODIFICATIONINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

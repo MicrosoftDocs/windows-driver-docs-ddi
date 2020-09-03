@@ -43,7 +43,7 @@ api_name:
  - RILUNBLOCKUICCLOCKPARAMS
 ---
 
-# RILUNBLOCKUICCLOCKPARAMS structure
+# RILUNBLOCKUICCLOCKPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

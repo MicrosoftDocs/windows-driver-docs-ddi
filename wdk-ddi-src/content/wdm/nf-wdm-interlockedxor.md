@@ -41,7 +41,7 @@ api_name:
  - InterlockedXor
 ---
 
-# InterlockedXor function
+# InterlockedXor function (wdm.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - IKsPropertySet.Set
 ---
 
-# IKsPropertySet::Set
+# IKsPropertySet::Set (ksproxy.h)
 
 
 ## -description

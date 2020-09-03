@@ -43,7 +43,7 @@ api_name:
  - RILCALLRTT
 ---
 
-# RILCALLRTT structure
+# RILCALLRTT structure (ntddrilapitypes.h)
 
 
 ## -description

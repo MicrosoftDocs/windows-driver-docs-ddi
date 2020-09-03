@@ -41,7 +41,7 @@ api_name:
  - PoQueryWatchdogTime
 ---
 
-# PoQueryWatchdogTime function
+# PoQueryWatchdogTime function (ntifs.h)
 
 
 ## -description

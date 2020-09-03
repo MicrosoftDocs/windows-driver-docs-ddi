@@ -41,7 +41,7 @@ api_name:
  - RILRADIOSTATEGROUPFLAGS
 ---
 
-# RILRADIOSTATEGROUPFLAGS enumeration
+# RILRADIOSTATEGROUPFLAGS enumeration (ntddrilapitypes.h)
 
 
 ## -description

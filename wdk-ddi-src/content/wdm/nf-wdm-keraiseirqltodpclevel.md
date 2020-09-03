@@ -41,7 +41,7 @@ api_name:
  - KeRaiseIrqlToDpcLevel
 ---
 
-# KeRaiseIrqlToDpcLevel function
+# KeRaiseIrqlToDpcLevel function (wdm.h)
 
 
 ## -description

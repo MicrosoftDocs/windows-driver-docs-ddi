@@ -43,7 +43,7 @@ api_name:
  - RILUICCSERVICEINFO
 ---
 
-# RILUICCSERVICEINFO structure
+# RILUICCSERVICEINFO structure (ntddrilapitypes.h)
 
 
 ## -description

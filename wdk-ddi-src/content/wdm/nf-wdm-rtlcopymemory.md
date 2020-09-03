@@ -43,7 +43,7 @@ api_name:
  - RtlCopyMemory
 ---
 
-# RtlCopyMemory macro
+# RtlCopyMemory macro (wdm.h)
 
 
 ## -description

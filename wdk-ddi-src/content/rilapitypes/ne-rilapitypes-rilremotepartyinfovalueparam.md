@@ -41,7 +41,7 @@ api_name:
  - RILREMOTEPARTYINFOVALUEPARAM
 ---
 
-# RILREMOTEPARTYINFOVALUEPARAM enumeration
+# RILREMOTEPARTYINFOVALUEPARAM enumeration (rilapitypes.h)
 
 
 ## -description

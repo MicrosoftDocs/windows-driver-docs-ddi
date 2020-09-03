@@ -43,7 +43,7 @@ api_name:
  - RILUNSOLICITEDSSINFO_V1
 ---
 
-# RILUNSOLICITEDSSINFO_V1 structure
+# RILUNSOLICITEDSSINFO_V1 structure (ntddrilapitypes.h)
 
 
 ## -description

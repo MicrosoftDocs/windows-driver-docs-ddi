@@ -42,7 +42,7 @@ api_name:
  - RILSMSFORMAT
 ---
 
-# RILSMSFORMAT enumeration
+# RILSMSFORMAT enumeration (rilapitypes.h)
 
 
 ## -description

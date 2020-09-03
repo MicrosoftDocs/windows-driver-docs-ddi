@@ -41,7 +41,7 @@ api_name:
  - RILADDITIONALCALLERINFOPARAMMASK
 ---
 
-# RILADDITIONALCALLERINFOPARAMMASK enumeration
+# RILADDITIONALCALLERINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

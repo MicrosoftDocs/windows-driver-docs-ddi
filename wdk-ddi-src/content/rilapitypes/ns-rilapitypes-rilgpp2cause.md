@@ -43,7 +43,7 @@ api_name:
  - RILGPP2CAUSE
 ---
 
-# RILGPP2CAUSE structure
+# RILGPP2CAUSE structure (rilapitypes.h)
 
 
 ## -description

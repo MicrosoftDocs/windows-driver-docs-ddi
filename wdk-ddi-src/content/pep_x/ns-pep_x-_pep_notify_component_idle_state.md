@@ -45,7 +45,7 @@ api_name:
  - PEP_NOTIFY_COMPONENT_IDLE_STATE
 ---
 
-# _PEP_NOTIFY_COMPONENT_IDLE_STATE structure
+# _PEP_NOTIFY_COMPONENT_IDLE_STATE structure (pep_x.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILSETCALLWAITINGSTATUSPARAMS
 ---
 
-# RILSETCALLWAITINGSTATUSPARAMS structure
+# RILSETCALLWAITINGSTATUSPARAMS structure (rilapitypes.h)
 
 
 ## -description

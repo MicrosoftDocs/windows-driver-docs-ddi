@@ -37,7 +37,7 @@ api_name:
  - _VPD_EXTENDED_INQUIRY_DATA_PAGE
 ---
 
-# _VPD_EXTENDED_INQUIRY_DATA_PAGE structure
+# _VPD_EXTENDED_INQUIRY_DATA_PAGE structure (scsi.h)
 
 
 ## -description

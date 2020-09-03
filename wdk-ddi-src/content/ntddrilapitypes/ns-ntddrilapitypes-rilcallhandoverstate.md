@@ -43,7 +43,7 @@ api_name:
  - RILCALLHANDOVERSTATE
 ---
 
-# RILCALLHANDOVERSTATE structure
+# RILCALLHANDOVERSTATE structure (ntddrilapitypes.h)
 
 
 ## -description

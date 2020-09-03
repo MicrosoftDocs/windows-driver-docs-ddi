@@ -41,7 +41,7 @@ api_name:
  - RILMSGDCSTYPE
 ---
 
-# RILMSGDCSTYPE enumeration
+# RILMSGDCSTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - KeQueryActiveProcessors
 ---
 
-# KeQueryActiveProcessors function
+# KeQueryActiveProcessors function (ntddk.h)
 
 
 ## -description

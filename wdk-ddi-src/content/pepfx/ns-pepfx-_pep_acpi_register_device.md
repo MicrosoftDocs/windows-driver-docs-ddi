@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_REGISTER_DEVICE
 ---
 
-# _PEP_ACPI_REGISTER_DEVICE structure
+# _PEP_ACPI_REGISTER_DEVICE structure (pepfx.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - PoRegisterPowerSettingCallback
 ---
 
-# PoRegisterPowerSettingCallback function
+# PoRegisterPowerSettingCallback function (wdm.h)
 
 
 ## -description

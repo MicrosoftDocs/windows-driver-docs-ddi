@@ -41,7 +41,7 @@ api_name:
  - PoStartNextPowerIrp
 ---
 
-# PoStartNextPowerIrp function
+# PoStartNextPowerIrp function (wdm.h)
 
 
 ## -description

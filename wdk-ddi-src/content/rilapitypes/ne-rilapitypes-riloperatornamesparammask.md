@@ -42,7 +42,7 @@ api_name:
  - RILOPERATORNAMESPARAMMASK
 ---
 
-# RILOPERATORNAMESPARAMMASK enumeration
+# RILOPERATORNAMESPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

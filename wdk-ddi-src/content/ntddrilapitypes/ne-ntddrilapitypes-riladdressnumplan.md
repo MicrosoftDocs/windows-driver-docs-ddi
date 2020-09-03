@@ -41,7 +41,7 @@ api_name:
  - RILADDRESSNUMPLAN
 ---
 
-# RILADDRESSNUMPLAN enumeration
+# RILADDRESSNUMPLAN enumeration (ntddrilapitypes.h)
 
 
 ## -description

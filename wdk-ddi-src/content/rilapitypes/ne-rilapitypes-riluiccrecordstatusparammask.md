@@ -42,7 +42,7 @@ api_name:
  - RILUICCRECORDSTATUSPARAMMASK
 ---
 
-# RILUICCRECORDSTATUSPARAMMASK enumeration
+# RILUICCRECORDSTATUSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

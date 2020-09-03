@@ -41,7 +41,7 @@ api_name:
  - RILCALLINFOSTATUS
 ---
 
-# RILCALLINFOSTATUS enumeration
+# RILCALLINFOSTATUS enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILIMSIPARAMMASK
 ---
 
-# RILIMSIPARAMMASK enumeration
+# RILIMSIPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

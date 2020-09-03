@@ -45,7 +45,7 @@ api_name:
  - NET_PNP_EVENT
 ---
 
-# _NET_PNP_EVENT structure
+# _NET_PNP_EVENT structure (netpnp.h)
 
 
 ## -description

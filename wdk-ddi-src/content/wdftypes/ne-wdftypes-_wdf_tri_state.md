@@ -46,7 +46,7 @@ api_name:
  - WDF_TRI_STATE
 ---
 
-# _WDF_TRI_STATE enumeration
+# _WDF_TRI_STATE enumeration (wdftypes.h)
 
 
 ## -description

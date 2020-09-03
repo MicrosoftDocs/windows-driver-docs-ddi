@@ -43,7 +43,7 @@ api_name:
  - RILEXECUTORFOCUSSTATE
 ---
 
-# RILEXECUTORFOCUSSTATE structure
+# RILEXECUTORFOCUSSTATE structure (rilapitypes.h)
 
 
 ## -description

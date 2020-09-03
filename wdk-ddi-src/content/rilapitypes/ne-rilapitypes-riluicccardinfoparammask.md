@@ -41,7 +41,7 @@ api_name:
  - RILUICCCARDINFOPARAMMASK
 ---
 
-# RILUICCCARDINFOPARAMMASK enumeration
+# RILUICCCARDINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

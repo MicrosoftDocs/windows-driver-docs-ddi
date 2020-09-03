@@ -43,7 +43,7 @@ api_name:
  - RILRANGE
 ---
 
-# RILRANGE structure
+# RILRANGE structure (rilapitypes.h)
 
 
 ## -description

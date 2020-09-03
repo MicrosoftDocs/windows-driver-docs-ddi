@@ -46,7 +46,7 @@ api_name:
  - PCI_PMCSR_BSE
 ---
 
-# _PCI_PMCSR_BSE structure
+# _PCI_PMCSR_BSE structure (wdm.h)
 
 
 ## -description

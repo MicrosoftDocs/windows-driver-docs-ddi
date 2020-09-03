@@ -43,7 +43,7 @@ api_name:
  - RILCALLLIST_V3
 ---
 
-# RILCALLLIST_V3 structure
+# RILCALLLIST_V3 structure (ntddrilapitypes.h)
 
 
 ## -description

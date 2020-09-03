@@ -41,7 +41,7 @@ api_name:
  - RILMSGDCSINDICATION
 ---
 
-# RILMSGDCSINDICATION enumeration
+# RILMSGDCSINDICATION enumeration (rilapitypes.h)
 
 
 ## -description

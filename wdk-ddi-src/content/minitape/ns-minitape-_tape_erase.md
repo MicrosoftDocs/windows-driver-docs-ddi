@@ -45,7 +45,7 @@ api_name:
  - TAPE_ERASE
 ---
 
-# _TAPE_ERASE structure
+# _TAPE_ERASE structure (minitape.h)
 
 
 ## -description

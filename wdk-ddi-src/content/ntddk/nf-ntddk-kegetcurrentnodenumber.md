@@ -41,7 +41,7 @@ api_name:
  - KeGetCurrentNodeNumber
 ---
 
-# KeGetCurrentNodeNumber function
+# KeGetCurrentNodeNumber function (ntddk.h)
 
 
 ## -description

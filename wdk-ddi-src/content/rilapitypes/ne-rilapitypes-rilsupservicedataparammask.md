@@ -41,7 +41,7 @@ api_name:
  - RILSUPSERVICEDATAPARAMMASK
 ---
 
-# RILSUPSERVICEDATAPARAMMASK enumeration
+# RILSUPSERVICEDATAPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILMSGMWISUMMARYLISTPARAMMASK
 ---
 
-# RILMSGMWISUMMARYLISTPARAMMASK enumeration
+# RILMSGMWISUMMARYLISTPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

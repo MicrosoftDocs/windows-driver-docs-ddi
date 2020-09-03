@@ -41,7 +41,7 @@ api_name:
  - KStrReferenceDeviceObject
 ---
 
-# PFNREFERENCEDEVICEOBJECT callback function
+# PFNREFERENCEDEVICEOBJECT callback function (ks.h)
 
 
 ## -description

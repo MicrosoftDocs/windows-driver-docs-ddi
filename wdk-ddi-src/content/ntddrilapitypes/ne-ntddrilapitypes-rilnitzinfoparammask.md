@@ -41,7 +41,7 @@ api_name:
  - RILNITZINFOPARAMMASK
 ---
 
-# RILNITZINFOPARAMMASK enumeration
+# RILNITZINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

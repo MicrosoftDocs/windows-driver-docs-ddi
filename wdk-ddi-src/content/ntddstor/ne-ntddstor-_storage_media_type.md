@@ -45,7 +45,7 @@ api_name:
  - STORAGE_MEDIA_TYPE
 ---
 
-# _STORAGE_MEDIA_TYPE enumeration
+# _STORAGE_MEDIA_TYPE enumeration (ntddstor.h)
 
 
 ## -description

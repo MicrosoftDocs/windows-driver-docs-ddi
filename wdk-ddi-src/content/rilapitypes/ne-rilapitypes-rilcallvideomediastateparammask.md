@@ -41,7 +41,7 @@ api_name:
  - RILCALLVIDEOMEDIASTATEPARAMMASK
 ---
 
-# RILCALLVIDEOMEDIASTATEPARAMMASK enumeration
+# RILCALLVIDEOMEDIASTATEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

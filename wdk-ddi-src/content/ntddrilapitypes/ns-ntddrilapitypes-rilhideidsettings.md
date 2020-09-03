@@ -43,7 +43,7 @@ api_name:
  - RILHIDEIDSETTINGS
 ---
 
-# RILHIDEIDSETTINGS structure
+# RILHIDEIDSETTINGS structure (ntddrilapitypes.h)
 
 
 ## -description

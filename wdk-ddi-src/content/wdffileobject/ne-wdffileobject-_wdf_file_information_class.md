@@ -46,7 +46,7 @@ api_name:
  - WDF_FILE_INFORMATION_CLASS
 ---
 
-# _WDF_FILE_INFORMATION_CLASS enumeration
+# _WDF_FILE_INFORMATION_CLASS enumeration (wdffileobject.h)
 
 
 ## -description

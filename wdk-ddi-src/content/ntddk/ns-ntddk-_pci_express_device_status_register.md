@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_DEVICE_STATUS_REGISTER
 ---
 
-# _PCI_EXPRESS_DEVICE_STATUS_REGISTER structure
+# _PCI_EXPRESS_DEVICE_STATUS_REGISTER structure (ntddk.h)
 
 
 ## -description

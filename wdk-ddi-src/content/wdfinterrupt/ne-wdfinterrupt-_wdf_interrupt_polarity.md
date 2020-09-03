@@ -45,7 +45,7 @@ api_name:
  - WDF_INTERRUPT_POLARITY
 ---
 
-# _WDF_INTERRUPT_POLARITY enumeration
+# _WDF_INTERRUPT_POLARITY enumeration (wdfinterrupt.h)
 
 
 ## -description

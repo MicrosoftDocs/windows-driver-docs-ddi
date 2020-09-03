@@ -41,7 +41,7 @@ api_name:
  - RILIMSSSTATUSPARAMMASK
 ---
 
-# RILIMSSSTATUSPARAMMASK enumeration
+# RILIMSSSTATUSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

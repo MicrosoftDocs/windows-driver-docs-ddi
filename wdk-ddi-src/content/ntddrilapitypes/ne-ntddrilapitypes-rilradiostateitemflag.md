@@ -41,7 +41,7 @@ api_name:
  - RILRADIOSTATEITEMFLAG
 ---
 
-# RILRADIOSTATEITEMFLAG enumeration
+# RILRADIOSTATEITEMFLAG enumeration (ntddrilapitypes.h)
 
 
 ## -description

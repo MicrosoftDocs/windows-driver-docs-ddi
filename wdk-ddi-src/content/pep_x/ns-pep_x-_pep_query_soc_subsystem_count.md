@@ -45,7 +45,7 @@ api_name:
  - PEP_QUERY_SOC_SUBSYSTEM_COUNT
 ---
 
-# _PEP_QUERY_SOC_SUBSYSTEM_COUNT structure
+# _PEP_QUERY_SOC_SUBSYSTEM_COUNT structure (pep_x.h)
 
 
 ## -description

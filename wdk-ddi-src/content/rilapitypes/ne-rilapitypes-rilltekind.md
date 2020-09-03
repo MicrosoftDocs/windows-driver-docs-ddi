@@ -41,7 +41,7 @@ api_name:
  - RILLTEKIND
 ---
 
-# RILLTEKIND enumeration
+# RILLTEKIND enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_CAPABILITY
 ---
 
-# _PCI_EXPRESS_CAPABILITY structure
+# _PCI_EXPRESS_CAPABILITY structure (ntddk.h)
 
 
 ## -description

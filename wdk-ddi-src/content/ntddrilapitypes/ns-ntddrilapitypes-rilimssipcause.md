@@ -43,7 +43,7 @@ api_name:
  - RILIMSSIPCAUSE
 ---
 
-# RILIMSSIPCAUSE structure
+# RILIMSSIPCAUSE structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -44,7 +44,7 @@ api_name:
  - RILUMTSMRL
 ---
 
-# RILUMTSMRL structure
+# RILUMTSMRL structure (rilapitypes.h)
 
 
 ## -description

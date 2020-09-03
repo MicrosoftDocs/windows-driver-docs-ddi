@@ -41,7 +41,7 @@ api_name:
  - IoSizeOfIrp
 ---
 
-# IoSizeOfIrp macro
+# IoSizeOfIrp macro (wdm.h)
 
 
 ## -description

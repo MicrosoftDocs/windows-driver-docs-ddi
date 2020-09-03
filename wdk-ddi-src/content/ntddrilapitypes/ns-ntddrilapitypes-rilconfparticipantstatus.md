@@ -43,7 +43,7 @@ api_name:
  - RILCONFPARTICIPANTSTATUS
 ---
 
-# RILCONFPARTICIPANTSTATUS structure
+# RILCONFPARTICIPANTSTATUS structure (ntddrilapitypes.h)
 
 
 ## -description

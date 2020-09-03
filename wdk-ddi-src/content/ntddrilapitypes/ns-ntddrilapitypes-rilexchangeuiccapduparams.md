@@ -43,7 +43,7 @@ api_name:
  - RILEXCHANGEUICCAPDUPARAMS
 ---
 
-# RILEXCHANGEUICCAPDUPARAMS structure
+# RILEXCHANGEUICCAPDUPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

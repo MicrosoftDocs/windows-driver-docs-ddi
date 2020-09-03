@@ -41,7 +41,7 @@ api_name:
  - RILIMSFAILUREPARAMMASK
 ---
 
-# RILIMSFAILUREPARAMMASK enumeration
+# RILIMSFAILUREPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA
 ---
 
-# _SRBEX_DATA structure
+# _SRBEX_DATA structure (minitape.h)
 
 
 ## -description

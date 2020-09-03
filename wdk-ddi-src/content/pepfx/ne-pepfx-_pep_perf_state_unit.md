@@ -45,7 +45,7 @@ api_name:
  - PEP_PERF_STATE_UNIT
 ---
 
-# _PEP_PERF_STATE_UNIT enumeration
+# _PEP_PERF_STATE_UNIT enumeration (pepfx.h)
 
 
 ## -description

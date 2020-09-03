@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PERF_SET
 ---
 
-# _PEP_PPM_PERF_SET structure
+# _PEP_PPM_PERF_SET structure (pepfx.h)
 
 
 ## -description
