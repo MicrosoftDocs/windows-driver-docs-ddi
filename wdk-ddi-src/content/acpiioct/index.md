@@ -9,12 +9,17 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: acpi
+f1_keywords:
+ - acpiioct
+ - acpiioct/acpiioct
 ---
 
 # Acpiioct.h header
+
 
 ## -description
 
 This header is used by acpi. For more information, see:
 
 - [ACPI](../_acpi/index.md)<br><br>
+

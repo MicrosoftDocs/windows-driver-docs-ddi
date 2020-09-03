@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: treedrv
+f1_keywords:
+ - treepaymentservice
+ - treepaymentservice/treepaymentservice
 ---
 
 # Treepaymentservice.h header
@@ -16,7 +19,7 @@ tech.root: treedrv
 
 ## -description
 
-
 This header is used by treedrv. For more information, see:
 
 - [Trusted Execution Environment (TrEE)](../_treedrv/index.md)
+

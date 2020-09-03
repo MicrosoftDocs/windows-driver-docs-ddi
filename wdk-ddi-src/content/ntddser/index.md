@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: serports
+f1_keywords:
+ - ntddser
+ - ntddser/ntddser
 ---
 
 # Ntddser.h header
@@ -16,7 +19,7 @@ tech.root: serports
 
 ## -description
 
-
 This header is used by parports. For more information, see:
 
 - [Parallel Ports](../_parports/index.md)
+

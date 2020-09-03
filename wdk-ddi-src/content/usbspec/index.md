@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
+f1_keywords:
+ - usbspec
+ - usbspec/usbspec
 ---
 
 # Usbspec.h header
@@ -16,9 +19,9 @@ tech.root: usbref
 
 ## -description
 
-
 This header contains declarations for data structures and enumerations used by a USB client driver. 
 
 For more information, see:
 
 - [Universal Serial Bus (USB)](../_usbref/index.md)
+

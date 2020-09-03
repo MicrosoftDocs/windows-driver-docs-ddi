@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: bltooth
+f1_keywords:
+ - sdpnode
+ - sdpnode/sdpnode
 ---
 
 # Sdpnode.h header
@@ -16,7 +19,7 @@ tech.root: bltooth
 
 ## -description
 
-
 This header is used by bltooth. For more information, see:
 
 - [Bluetooth](../_bltooth/index.md)
+

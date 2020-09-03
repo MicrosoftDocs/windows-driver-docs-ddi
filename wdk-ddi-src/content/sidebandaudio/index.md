@@ -10,6 +10,9 @@ ms.technology: windows-devices
 ms.topic: portal
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - sidebandaudio
+ - sidebandaudio/sidebandaudio
 ---
 
 # sidebandaudio.h header
@@ -18,3 +21,5 @@ ms.custom: RS5
 This header is used by audio. For more information, see:
 
 - [Audio](../_audio/index.md)
+
+

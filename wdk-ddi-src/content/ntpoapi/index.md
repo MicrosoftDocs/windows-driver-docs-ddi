@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - ntpoapi
+ - ntpoapi/ntpoapi
 ---
 
 # Ntpoapi.h header
@@ -16,7 +19,7 @@ tech.root: kernel
 
 ## -description
 
-
 This header contains functions and data structures that an application can use power management. For more information, see:
 
 - [About Power Management](https://docs.microsoft.com/windows/win32/power/about-power-management)
+

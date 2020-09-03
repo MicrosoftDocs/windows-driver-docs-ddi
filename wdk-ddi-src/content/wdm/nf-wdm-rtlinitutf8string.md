@@ -10,34 +10,36 @@ ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlInitUTF8String
 req.header: wdm.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type:
-- DllExport
-api_location: 
-- wdm.h
-api_name: 
-- RtlInitUTF8String
-product: 
-- Windows
 targetos: Windows
-
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - wdm.h
+api_name:
+ - RtlInitUTF8String
+product:
+ - Windows
+f1_keywords:
+ - RtlInitUTF8String
+ - wdm/RtlInitUTF8String
 ---
 
 # RtlInitUTF8String function
@@ -70,3 +72,4 @@ The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> me
 ## -see-also
 
 [**RtlInitAnsiString**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitansistring)
+

@@ -5,32 +5,36 @@ description: The DisplayStateID structure holds the current color state IDs for 
 ms.assetid: ed1f917e-81b8-4613-87b5-8808d28e5573
 ms.date: 08/14/2020
 keywords: ["DisplayStateID structure"]
-ms.keywords: DisplayStateID, DisplayStateID, 
+ms.keywords: DisplayStateID, DisplayStateID,
 req.header: icm.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DisplayStateID
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- icm.h
-api_name: 
-- DisplayStateID
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - icm.h
+api_name:
+ - DisplayStateID
+f1_keywords:
+ - DisplayStateID
+ - icm/DisplayStateID
 ---
 
 # DisplayStateID structure
+
 
 ## -description
 
@@ -56,3 +60,4 @@ Identifies the current target whitepoint.
 ## -remarks
 
 ## -see-also
+
