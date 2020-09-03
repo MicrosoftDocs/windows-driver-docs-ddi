@@ -11,7 +11,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: netadaptercx.h
 req.idl: 
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.irql: Any level as long as target memory is resident
 req.kmdf-ver: 
 req.lib: 

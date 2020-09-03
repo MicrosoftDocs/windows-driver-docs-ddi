@@ -7,7 +7,7 @@ ms.assetid: 50d681dc-8d45-45d4-aef6-149ee53c1284
 ms.date: 01/18/2019
 keywords: ["EVT_NET_ADAPTER_CREATE_TXQUEUE callback function"]
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

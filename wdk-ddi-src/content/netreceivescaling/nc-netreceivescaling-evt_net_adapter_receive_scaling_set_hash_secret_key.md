@@ -7,7 +7,7 @@ ms.assetid: 9144fad7-c6d6-4d67-9ad7-45e9a0cf31f6
 ms.date: 02/01/2019
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY callback function"]
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

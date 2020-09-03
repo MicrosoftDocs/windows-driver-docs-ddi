@@ -10,7 +10,7 @@ ms.date: 11/06/2019
 keywords: ["NET_POWER_OFFLOAD_LIST_INIT function"]
 ms.keywords: NET_POWER_OFFLOAD_LIST_INIT
 req.header: netpoweroffloadlist.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

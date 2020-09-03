@@ -10,7 +10,7 @@ ms.date: 10/07/2019
 keywords: ["NetWakeSourceGetAdapter function"]
 ms.keywords: NetWakeSourceGetAdapter
 req.header: netwakesource.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

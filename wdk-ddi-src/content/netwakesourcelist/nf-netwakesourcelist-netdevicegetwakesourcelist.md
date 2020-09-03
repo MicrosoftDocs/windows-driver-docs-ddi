@@ -10,7 +10,7 @@ ms.date: 10/08/2019
 keywords: ["NetDeviceGetWakeSourceList function"]
 ms.keywords: NetDeviceGetWakeSourceList
 req.header: netwakesourcelist.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

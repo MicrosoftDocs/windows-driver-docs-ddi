@@ -10,7 +10,7 @@ ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 

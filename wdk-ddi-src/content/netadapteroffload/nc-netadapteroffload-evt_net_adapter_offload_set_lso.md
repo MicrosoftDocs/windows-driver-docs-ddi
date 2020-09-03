@@ -7,7 +7,7 @@ ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b
 ms.date: 01/17/2019
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_LSO callback function"]
 req.header: netadapteroffload.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

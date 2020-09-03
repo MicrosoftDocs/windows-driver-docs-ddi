@@ -8,7 +8,7 @@ ms.date: 07/13/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE, NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE,
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -7,7 +7,7 @@ ms.assetid: d4d6becc-ae41-451d-939d-c4169456adb7
 ms.date: 07/16/2018
 keywords: ["EVT_PACKET_QUEUE_ADVANCE callback function"]
 req.header: netpacketqueue.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

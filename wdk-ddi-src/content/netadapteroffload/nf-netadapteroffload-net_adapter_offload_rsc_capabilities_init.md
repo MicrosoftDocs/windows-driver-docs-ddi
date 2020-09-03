@@ -10,7 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 req.header: netadapteroffload.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
