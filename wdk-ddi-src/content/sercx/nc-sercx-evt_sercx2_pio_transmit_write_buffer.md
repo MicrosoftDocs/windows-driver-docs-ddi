@@ -94,24 +94,16 @@ To define an <i>EvtSerCx2PioTransmitWriteBuffer</i> callback function, you must 
 
 For example, to define an <i>EvtSerCx2PioTransmitWriteBuffer</i> callback function that is named <code>MyPioTransmitWriteBuffer</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER  MyPioTransmitWriteBuffer;
+
+```cpp
+EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER  MyPioTransmitWriteBuffer;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 ULONG
   MyPioTransmitWriteBuffer(
     SERCX2PIOTRANSMIT  PioTransmit,

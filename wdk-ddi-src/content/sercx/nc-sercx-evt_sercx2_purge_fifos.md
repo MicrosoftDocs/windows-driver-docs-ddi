@@ -80,24 +80,16 @@ To define an <i>EvtSerCx2PurgeFifos</i> callback function, you must first provid
 
 For example, to define an <i>EvtSerCx2PurgeFifos</i> callback function that is named <code>MyPurgeFifos</code>, use the <b>EVT_SERCX2_PURGE_FIFOS</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PURGE_FIFOS  MyPurgeFifos;
+
+```cpp
+EVT_SERCX2_PURGE_FIFOS  MyPurgeFifos;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyPurgeFifos(
     WDFDEVICE  Device,

@@ -341,13 +341,9 @@ ULONG64
 
 This code snippet illustrates the use of the  %Y format specifier.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CALLBACK testout(_In_ PDEBUG_CLIENT pClient, _In_ PCWSTR /*pwszArgs*/)
+
+```cpp
+HRESULT CALLBACK testout(_In_ PDEBUG_CLIENT pClient, _In_ PCWSTR /*pwszArgs*/)
 {
     HRESULT hr = S_OK;
 
@@ -381,13 +377,9 @@ This code snippet illustrates the use of the  %Y format specifier.
 
 This sample code would generate the following output.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>0:004> !testout
+
+```cpp
+0:004> !testout
 DML/NORMAL Y{t}: "Hello <World>"
 DML/NORMAL Y{T}: "Hello <World>"
 DML/NORMAL Y{s}: Hello <World>

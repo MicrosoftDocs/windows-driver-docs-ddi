@@ -76,24 +76,16 @@ To define an <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> callback 
 
 For example, to define an <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> callback function that is named <code>MySystemDmaReceiveCancelNewDataNotification</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION  MySystemDmaReceiveCancelNewDataNotification;
+
+```cpp
+EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION  MySystemDmaReceiveCancelNewDataNotification;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 BOOLEAN
   MySystemDmaReceiveCancelNewDataNotification(
     SERCX2SYSTEMDMARECEIVE  SystemDmaReceive

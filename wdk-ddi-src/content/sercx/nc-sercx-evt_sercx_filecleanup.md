@@ -78,13 +78,9 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
   EVT_SERCX_FILECLEANUP(
     __in WDFDEVICE Device
     );
@@ -92,24 +88,16 @@ The function type for this callback is declared in Sercx.h, as follows.
 
 To define an <i>EvtSerCxFileCleanup</i> callback function that is named <code>MyEvtSerCxFileCleanup</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_FILECLEANUP MyEvtSerCxFileCleanup;
+
+```cpp
+EVT_SERCX_FILECLEANUP MyEvtSerCxFileCleanup;
 ```
 
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
   MyEvtSerCxFileCleanup(
     __in WDFDEVICE Device
     )

@@ -76,24 +76,16 @@ To define an <i>EvtSerCx2SystemDmaTransmitCancelDrainFifo</i> callback function,
 
 For example, to define an <i>EvtSerCx2SystemDmaTransmitCancelDrainFifo</i> callback function that is named <code>MySystemDmaTransmitCancelDrainFifo</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO  MySystemDmaTransmitCancelDrainFifo;
+
+```cpp
+EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO  MySystemDmaTransmitCancelDrainFifo;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 BOOLEAN
   MySystemDmaTransmitCancelDrainFifo(
     SERCX2SYSTEMDMATRANSMIT  SystemDmaTransmit

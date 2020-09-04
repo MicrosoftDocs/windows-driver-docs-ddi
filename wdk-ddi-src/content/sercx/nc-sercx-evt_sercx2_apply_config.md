@@ -81,24 +81,16 @@ To define an <i>EvtSerCx2ApplyConfig</i> callback function, you must first provi
 
 For example, to define an <i>EvtSerCx2ApplyConfig</i> callback function that is named <code>MyApplyConfig</code>, use the <b>EVT_SERCX2_APPLY_CONFIG</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_APPLY_CONFIG  MyApplyConfig;
+
+```cpp
+EVT_SERCX2_APPLY_CONFIG  MyApplyConfig;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NTSTATUS
   MyApplyConfig(
     WDFDEVICE  Device,
@@ -111,13 +103,9 @@ The <b>EVT_SERCX2_APPLY_CONFIG</b> function type is defined in the Sercx.h heade
 
 The following code example shows a partial implementation of an <i>EvtSerCx2ApplyConfig</i> function for a UART:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // Define the UART ACPI descriptor, plus any vendor-specific
 // data that is needed by the serial controller (UART) driver.
 //

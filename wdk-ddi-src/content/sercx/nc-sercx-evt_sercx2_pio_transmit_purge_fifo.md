@@ -79,24 +79,16 @@ To define an <i>EvtSerCx2PioTransmitPurgeFifo</i> callback function, you must fi
 
 For example, to define an <i>EvtSerCx2PioTransmitPurgeFifo</i> callback function that is named <code>MyPioTransmitPurgeFifo</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO  MyPioTransmitPurgeFifo;
+
+```cpp
+EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO  MyPioTransmitPurgeFifo;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyPioTransmitPurgeFifo(
     SERCX2PIOTRANSMIT  PioTransmit,

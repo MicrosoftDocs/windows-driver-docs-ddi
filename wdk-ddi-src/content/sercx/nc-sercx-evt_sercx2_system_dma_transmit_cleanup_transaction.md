@@ -70,24 +70,16 @@ To define an <i>EvtSerCx2SystemDmaTransmitCleanupTransaction</i> callback functi
 
 For example, to define an <i>EvtSerCx2SystemDmaTransmitCleanupTransaction</i> callback function that is named <code>MySystemDmaTransmitCleanupTransaction</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION  MySystemDmaTransmitCleanupTransaction;
+
+```cpp
+EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION  MySystemDmaTransmitCleanupTransaction;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MySystemDmaTransmitCleanupTransaction(
     SERCX2SYSTEMDMATRANSMIT  SystemDmaTransmit

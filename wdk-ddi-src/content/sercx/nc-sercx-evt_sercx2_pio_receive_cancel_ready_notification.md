@@ -76,24 +76,16 @@ To define an <i>EvtSerCx2PioReceiveCancelReadyNotification</i> callback function
 
 For example, to define an <i>EvtSerCx2PioReceiveCancelReadyNotification</i> callback function that is named <code>MyPioReceiveCancelReadyNotification</code>, use the <b>EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION  MyPioReceiveCancelReadyNotification;
+
+```cpp
+EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION  MyPioReceiveCancelReadyNotification;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 BOOLEAN
   MyPioReceiveCancelReadyNotification(
     SERCX2PIORECEIVE  PioReceive

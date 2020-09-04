@@ -78,24 +78,16 @@ To define an <i>EvtSerCx2PioTransmitDrainFifo</i> callback function, you must fi
 
 For example, to define an <i>EvtSerCx2PioTransmitDrainFifo</i> callback function that is named <code>MyPioTransmitDrainFifo</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO  MyPioTransmitDrainFifo;
+
+```cpp
+EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO  MyPioTransmitDrainFifo;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyPioTransmitDrainFifo(
     SERCX2PIOTRANSMIT  PioTransmit

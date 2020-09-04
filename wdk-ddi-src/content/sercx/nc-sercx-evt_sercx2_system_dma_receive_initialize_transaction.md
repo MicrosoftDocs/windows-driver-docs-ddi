@@ -75,24 +75,16 @@ To define an <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction</i> call
 
 For example, to define an <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction</i> callback function that is named <code>MySystemDmaReceiveInitializeTransaction</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION  MySystemDmaReceiveInitializeTransaction;
+
+```cpp
+EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION  MySystemDmaReceiveInitializeTransaction;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MySystemDmaReceiveInitializeTransaction(
     SERCX2SYSTEMDMARECEIVE  SystemDmaReceive,

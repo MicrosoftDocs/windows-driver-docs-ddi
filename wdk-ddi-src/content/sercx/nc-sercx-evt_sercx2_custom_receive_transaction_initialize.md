@@ -85,24 +85,16 @@ To define an <i>EvtSerCx2CustomReceiveTransactionInitialize</i> callback functio
 
 For example, to define an <i>EvtSerCx2CustomReceiveTransactionInitialize</i> callback function that is named <code>MyCustomReceiveTransactionInitialize</code>, use the <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE  MyCustomReceiveTransactionInitialize;
+
+```cpp
+EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE  MyCustomReceiveTransactionInitialize;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyCustomReceiveTransactionInitialize(
     SERCX2CUSTOMRECEIVETRANSACTION  CustomReceiveTransaction,

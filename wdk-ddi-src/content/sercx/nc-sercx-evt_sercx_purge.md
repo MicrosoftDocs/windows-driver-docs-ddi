@@ -107,13 +107,9 @@ To register an <i>EvtSerCxPurge</i> callback function, the controller driver cal
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   EVT_SERCX_PURGE(
     __in WDFDEVICE Device,
     __in ULONG PurgeMask
@@ -122,24 +118,16 @@ The function type for this callback is declared in Sercx.h, as follows.
 
 To define an <i>EvtSerCxPurge</i> callback function that is named <code>MyEvtSerCxPurge</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_PURGE MyEvtSerCxPurge;
+
+```cpp
+EVT_SERCX_PURGE MyEvtSerCxPurge;
 ```
 
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   MyEvtSerCxPurge(
     __in WDFDEVICE Device,
     __in ULONG PurgeMask

@@ -124,13 +124,9 @@ To register an <i>EvtSerCxControl</i> callback function, the controller driver c
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   EVT_SERCX_CONTROL(
     __in WDFREQUEST Request,
     __in size_t OutputBufferLength,
@@ -141,24 +137,16 @@ The function type for this callback is declared in Sercx.h, as follows.
 
 To define an <i>EvtSerCxControl</i> callback function that is named <code>MyEvtSerCxControl</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_CONTROL MyEvtSerCxControl;
+
+```cpp
+EVT_SERCX_CONTROL MyEvtSerCxControl;
 ```
 
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   MyEvtSerCxControl(
     __in WDFREQUEST Request,
     __in size_t OutputBufferLength,

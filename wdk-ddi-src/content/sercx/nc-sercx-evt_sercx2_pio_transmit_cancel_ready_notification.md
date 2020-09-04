@@ -78,24 +78,16 @@ To define an <i>EvtSerCx2PioTransmitCancelReadyNotification</i> callback functio
 
 For example, to define an <i>EvtSerCx2PioTransmitCancelReadyNotification</i> callback function that is named <code>MyPioTransmitCancelReadyNotification</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION  MyPioTransmitCancelReadyNotification;
+
+```cpp
+EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION  MyPioTransmitCancelReadyNotification;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 BOOLEAN
   MyPioTransmitCancelReadyNotification(
     SERCX2PIOTRANSMIT  PioTransmit

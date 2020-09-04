@@ -66,13 +66,9 @@ To register an <i>EvtSerCxReceiveCancel</i> callback function, the driver must c
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
   EVT_SERCX_RECEIVE_CANCEL(
     __in WDFDEVICE Device
     );
@@ -80,24 +76,16 @@ The function type for this callback is declared in Sercx.h, as follows.
 
 To define an <i>EvtSerCxReceiveCancel</i> callback function that is named <code>MyEvtSerCxReceiveCancel</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_RECEIVE_CANCEL MyEvtSerCxReceiveCancel;
+
+```cpp
+EVT_SERCX_RECEIVE_CANCEL MyEvtSerCxReceiveCancel;
 ```
 
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
   MyEvtSerCxReceiveCancel(
     __in WDFDEVICE Device
     )

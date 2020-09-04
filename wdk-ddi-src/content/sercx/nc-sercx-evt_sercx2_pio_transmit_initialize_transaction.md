@@ -75,24 +75,16 @@ To define an <i>EvtSerCx2PioTransmitInitializeTransaction</i> callback function,
 
 For example, to define an <i>EvtSerCx2PioTransmitInitializeTransaction</i> callback function that is named <code>MyPioTransmitInitializeTransaction</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION  MyPioTransmitInitializeTransaction;
+
+```cpp
+EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION  MyPioTransmitInitializeTransaction;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyPioTransmitInitializeTransaction(
     SERCX2PIOTRANSMIT  PioTransmit,

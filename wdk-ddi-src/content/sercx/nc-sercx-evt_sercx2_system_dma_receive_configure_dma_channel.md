@@ -91,24 +91,16 @@ To define an <i>EvtSerCx2SystemDmaReceiveConfigureDmaChannel</i> callback functi
 
 For example, to define an <i>EvtSerCx2SystemDmaReceiveConfigureDmaChannel</i> callback function that is named <code>MySystemDmaReceiveConfigureDmaChannel</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL  MySystemDmaReceiveConfigureDmaChannel;
+
+```cpp
+EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL  MySystemDmaReceiveConfigureDmaChannel;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NTSTATUS
   MySystemDmaReceiveConfigureDmaChannel(
     SERCX2SYSTEMDMARECEIVE SystemDmaReceive,

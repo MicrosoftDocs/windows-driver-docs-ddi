@@ -82,24 +82,16 @@ To define an <i>EvtSerCx2PioTransmitEnableReadyNotification</i> callback functio
 
 For example, to define an <i>EvtSerCx2PioTransmitEnableReadyNotification</i> callback function that is named <code>MyPioTransmitEnableReadyNotification</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION  MyPioTransmitEnableReadyNotification;
+
+```cpp
+EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION  MyPioTransmitEnableReadyNotification;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyPioTransmitEnableReadyNotification(
     SERCX2PIOTRANSMIT  PioTransmit

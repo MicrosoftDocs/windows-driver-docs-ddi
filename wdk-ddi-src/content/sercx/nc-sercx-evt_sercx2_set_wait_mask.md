@@ -106,24 +106,16 @@ To define an <i>EvtSerCx2SetWaitMask</i> callback function, you must first provi
 
 For example, to define an <i>EvtSerCx2SetWaitMask</i> callback function that is named <code>MySetWaitmask</code>, use the <b>EVT_SERCX2_SET_WAIT_MASK</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_SET_WAIT_MASK  MySetWaitmask;
+
+```cpp
+EVT_SERCX2_SET_WAIT_MASK  MySetWaitmask;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MySetWaitmask(
     WDFDEVICE  Device,

@@ -68,24 +68,16 @@ To define an <i>EvtSerCx2FileClose</i> callback function, you must first provide
 
 For example, to define an <i>EvtSerCx2FileClose</i> callback function that is named <code>MyFileClose</code>, use the <b>EVT_SERCX2_FILECLOSE</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_FILECLOSE  MyFileClose;
+
+```cpp
+EVT_SERCX2_FILECLOSE  MyFileClose;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyFileClose(
     WDFDEVICE  Device

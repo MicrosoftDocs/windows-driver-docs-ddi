@@ -103,24 +103,16 @@ To define an <i>EvtSerCx2CustomTransmitSelectNextTransactionType</i> callback fu
 
 For example, to define an <i>EvtSerCx2CustomTransmitSelectNextTransactionType</i> callback function that is named <code>MyCustomTransmitSelectNextTransactionType</code>, use the <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE  MyCustomTransmitTransactionStart;
+
+```cpp
+EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE  MyCustomTransmitTransactionStart;
 ```
 
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 SERCX2_TRANSACTION_TYPE
   EvtSerCx2SelectNextTransmitTransactionType(
     WDFDEVICE  Device,
