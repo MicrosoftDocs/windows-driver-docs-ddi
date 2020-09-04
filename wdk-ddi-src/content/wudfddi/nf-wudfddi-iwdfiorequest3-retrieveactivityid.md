@@ -98,13 +98,9 @@ The UMDF 2 equivalent of this method is <a href="https://docs.microsoft.com/wind
 
 The following code example shows a driver can retrieve an  activity identifier from one request and then use it to set the activity identifier for another request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>hrQI = pWdfRequest->QueryInterface(IID_PPV_ARGS(&pOriginalRequest3));
+
+```cpp
+hrQI = pWdfRequest->QueryInterface(IID_PPV_ARGS(&pOriginalRequest3));
 ASSERT(SUCCEEDED(hrQI));
 
 hrQI = pNewRequest->QueryInterface(IID_PPV_ARGS(&pNewRequest3));
@@ -120,10 +116,9 @@ pNewRequest3->SetActivityId(&activityId);
 pOriginalRequest3->Release();
 pNewRequest3->Release();
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

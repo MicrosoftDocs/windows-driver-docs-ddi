@@ -112,10 +112,9 @@ hr = E_OUTOFMEMORY;
 }
 pRequest->Complete(hr);
 return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

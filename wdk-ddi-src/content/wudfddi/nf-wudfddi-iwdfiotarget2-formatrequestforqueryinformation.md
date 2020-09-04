@@ -111,13 +111,9 @@ Use the <b>FormatRequestForQueryInformation</b> method, followed by the <a href=
 
 The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackdefaultiohandler-ondefaultiohandler">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. If the callback function receives a query information request, it sends the request to the device's default I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void
+
+```cpp
+void
 CMyQueue::OnDefaultIoHandler(
  IWDFIoQueue*  pQueue,
  IWDFIoRequest*  pRequest
@@ -186,10 +182,9 @@ Error;
     SAFE_RELEASE(pTarget);
     SAFE_RELEASE(pFile);
     SAFE_RELEASE(pOutMemory);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

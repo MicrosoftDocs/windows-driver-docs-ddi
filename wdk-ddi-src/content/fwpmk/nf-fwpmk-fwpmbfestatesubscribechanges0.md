@@ -70,20 +70,15 @@ A pointer to a callout driver-provided service state change callback function. T
 
 A service-state-change callback function is declared as follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID NTAPI
+
+```cpp
+VOID NTAPI
 callback(
     IN OUT void  *context,
     IN FWPM_SERVICE_STATE  newState
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 
 

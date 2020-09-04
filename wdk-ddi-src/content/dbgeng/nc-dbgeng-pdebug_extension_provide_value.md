@@ -53,10 +53,9 @@ The <b>DebugExtensionProvideValue</b> callback function sets <a href="https://do
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
+```
+
 
 ## -parameters
 

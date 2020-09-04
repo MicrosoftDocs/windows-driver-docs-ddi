@@ -73,10 +73,9 @@ None.
     GUID OutputType;
     GUID InputType;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ### -output-buffer-length
 

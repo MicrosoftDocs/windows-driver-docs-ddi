@@ -113,25 +113,16 @@ To define an <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function, you
 
 For example, to define an <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function that is named <i>MyDeviceProcessQueryInterfaceRequest</i>, use the <b>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST  MyDeviceProcessQueryInterfaceRequest;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST  MyDeviceProcessQueryInterfaceRequest;
+```
+
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NTSTATUS
  MyDeviceProcessQueryInterfaceRequest (
     WDFDEVICE  Device,
@@ -139,10 +130,9 @@ NTSTATUS
     PINTERFACE  ExposedInterface,
     PVOID  ExposedInterfaceSpecificData
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST</b> function type is defined in the WdfQueryInterface.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also

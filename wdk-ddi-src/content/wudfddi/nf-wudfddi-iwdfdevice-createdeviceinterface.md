@@ -79,13 +79,9 @@ For more information about device interfaces, see <a href="https://docs.microsof
 
 The following code example shows how to create a device interface instance. In this example, the driver explicitly calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-assigndeviceinterfacestate">IWDFDevice::AssignDeviceInterfaceState</a> to enable the interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    //
+
+```cpp
+    //
     // Create the device interface.
     //
     HRESULT hr;
@@ -99,10 +95,9 @@ The following code example shows how to create a device interface instance. In t
                         &GUID_DEVINTERFACE_OSRUSBFX2,
                         NULL,
                         TRUE);
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 

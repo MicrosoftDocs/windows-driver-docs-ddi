@@ -63,13 +63,9 @@ The <b>GetNumEndPoints</b> method is provided for convenience because a UMDF dri
 
 The following code example retrieves the number of pipes on a USB interface and then retrieves particular types of pipes.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre> HRESULT  hr;
+
+```cpp
+ HRESULT  hr;
  UCHAR  NumEndPoints;
  NumEndPoints = pIUsbInterface->GetNumEndPoints();
 
@@ -95,10 +91,9 @@ The following code example retrieves the number of pipes on a USB interface and 
               {
                   SAFE_RELEASE(pIUsbPipe);
               }
-          }</pre>
-</td>
-</tr>
-</table></span></div>
+          }
+```
+
 
 ## -see-also
 

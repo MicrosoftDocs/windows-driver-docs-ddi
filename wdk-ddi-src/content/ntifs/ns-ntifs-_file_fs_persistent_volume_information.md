@@ -200,10 +200,9 @@ status = ZwFsControlFile( VolumeHandle,
                           &PersistVolInfo,
                           sizeof(FILE_FS_PERSISTENT_VOLUME_INFORMATION),
                           NULL,
-                          0 );</pre>
-</td>
-</tr>
-</table></span></div>
+                          0 );
+```
+
 The <b>Version</b> member must be set to the current version of 1 for both a query and  a set  request.
 
 ## -see-also

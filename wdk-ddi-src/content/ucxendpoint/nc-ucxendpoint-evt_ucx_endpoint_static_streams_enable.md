@@ -78,13 +78,9 @@ The client driver returns completion status in <i>Request</i> and in the USBD_ST
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 Endpoint_EvtUcxEndpointStaticStreamsEnable(
     UCXENDPOINT     UcxEndpoint,
     UCXSSTREAMS     UcxStaticStreams,
@@ -98,8 +94,7 @@ Endpoint_EvtUcxEndpointStaticStreamsEnable(
     DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxEndpointStaticStreamsEnable");
 
     WdfRequestComplete(Request, STATUS_SUCCESS);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 

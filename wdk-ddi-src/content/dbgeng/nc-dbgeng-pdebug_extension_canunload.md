@@ -53,10 +53,9 @@ The <i>DebugExtensionCanUnload</i> callback function checks whether a debug exte
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_EXTENSION_CANUNLOAD DebugExtensionCanUnload;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_EXTENSION_CANUNLOAD DebugExtensionCanUnload;
+```
+
 
 ## -parameters
 

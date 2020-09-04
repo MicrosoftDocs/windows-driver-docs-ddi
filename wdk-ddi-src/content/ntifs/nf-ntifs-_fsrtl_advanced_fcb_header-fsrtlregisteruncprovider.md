@@ -148,16 +148,11 @@ An invalid parameter was passed in the <i>RedirDevName</i> parameter or an abnor
 
 A network redirector must register with the MUP to handle UNC names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>notepad \\server\public\readme.txt</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+notepad \\server\public\readme.txt
+```
+
 MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
 
 On Windows Server 2003, Windows XP, and Windows 2000, remote file operations performed on a mapped drive that does not represent a Distributed File System (DFS) drive don't go through MUP. These operations go directly to the network provider that handled the drive letter mapping.
@@ -170,16 +165,11 @@ Network redirectors that conform to the Windows Vista redirector model should us
 
 The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This registry value is located under the following registry key: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HKLM\CurrentControlSet\Control\NetworkProvider\Order</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+HKLM\CurrentControlSet\Control\NetworkProvider\Order
+```
+
 Changes to the ProviderOrder registry value require a reboot to take effect in MUP on Windows Server 2003, Windows XP, and Windows 2000. 
 
 Only one network provider on a system can support mailslots. So the <i>MailslotsSupported</i> parameter is normally only set to <b>TRUE</b> for the Microsoft SMB redirector.

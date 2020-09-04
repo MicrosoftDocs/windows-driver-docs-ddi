@@ -74,28 +74,18 @@ GTI_MICROSECONDS
 
 This function can be used for timing purposes by first saving the current time,
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  ULONGLONG ullTime = PcGetTimeInterval(0);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+  ULONGLONG ullTime = PcGetTimeInterval(0);
+```
+
 and then checking to see whether the required interval has passed
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  if (PcGetTimeInterval(ullTime) >= GTI_MILLISECONDS(5))</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+  if (PcGetTimeInterval(ullTime) >= GTI_MILLISECONDS(5))
+```
+
 
 ## -see-also
 

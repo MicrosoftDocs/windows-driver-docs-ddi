@@ -62,19 +62,14 @@ Pointer to a caller-supplied cancel routine. The Filter Manager calls this routi
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
 (*PFLT_COMPLETE_CANCELED_CALLBACK) (
       IN PFLT_CALLBACK_DATA CallbackData
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 

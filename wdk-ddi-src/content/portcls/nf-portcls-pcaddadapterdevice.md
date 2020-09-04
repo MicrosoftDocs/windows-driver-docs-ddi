@@ -90,53 +90,38 @@ An adapter driver calls <b>PcAddAdapterDevice</b> when it receives a call to its
 
 The <i>StartDevice</i> parameter points to a function of type PCPFNSTARTDEVICE, which header file <i>portcls.h </i>defines as:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  NTSTATUS
+
+```cpp
+  NTSTATUS
     (*PCPFNSTARTDEVICE)(
       IN PDEVICE_OBJECT  DeviceObject,
       IN PIRP  Irp,
       IN PRESOURCELIST  ResourceList
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 For more information about <b>PcAddAdapterDevice</b> and the adapter driver's device-startup and <i>AddDevice </i>routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/startup-sequence">Startup Sequence</a>.
 
 The following example code shows how an adapter driver can use the <i>DeviceExtensionSize </i>parameter to append 64 bytes of device-specific extension data to the end of the storage block that PortCls allocates for the device context:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  #define MY_EXTENSION_SIZE  64
+
+```cpp
+  #define MY_EXTENSION_SIZE  64
   NTSTATUS  ntstatus = PcAddAdapterDevice(DriverObject, PhysicalDeviceObject,
                                           MyStartDevice, MAX_MINIPORTS,
-                                          MY_EXTENSION_SIZE + PORT_CLASS_DEVICE_EXTENSION_SIZE);</pre>
-</td>
-</tr>
-</table></span></div>
+                                          MY_EXTENSION_SIZE + PORT_CLASS_DEVICE_EXTENSION_SIZE);
+```
+
 The <b>PcAddAdapterDevice</b> call above is similar to the example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/startup-sequence">Startup Sequence</a>, except that the last parameter that is passed to <b>PcAddAdapterDevice</b> is nonzero.
 
 The adapter driver can then access the device-specific extension data, as shown in the following code fragment:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  PVOID  pMyExtensionData = (PVOID)((PCHAR)FunctionalDeviceObject->DeviceExtension +
-                                              PORT_CLASS_DEVICE_EXTENSION_SIZE);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+  PVOID  pMyExtensionData = (PVOID)((PCHAR)FunctionalDeviceObject->DeviceExtension +
+                                              PORT_CLASS_DEVICE_EXTENSION_SIZE);
+```
+
 Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, and <i>pMyExtensionData</i> is a temporary pointer to the extension data. Avoid confusing the FDO with the PDO, which belongs to the PCI bus driver. The adapter driver must not modify data in the PDO because doing so corrupts memory owned by the PCI bus driver and can cause the system to crash.
 
 ## -see-also

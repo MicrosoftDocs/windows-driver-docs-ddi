@@ -53,10 +53,9 @@ The <i>BeginThreadStackReconstruction</i> callback function causes debugger to p
 </tr>
 <tr>
 <td>
-<pre>CALLBACK* PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION BeginThreadStackReconstruction; </pre>
-</td>
-</tr>
-</table></span></div>
+<pre>CALLBACK* PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION BeginThreadStackReconstruction; 
+```
+
 
 ## -parameters
 

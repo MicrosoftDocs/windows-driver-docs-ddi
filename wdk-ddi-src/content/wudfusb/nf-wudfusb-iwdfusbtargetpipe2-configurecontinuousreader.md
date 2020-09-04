@@ -184,13 +184,9 @@ For more information about the <b>ConfigureContinuousReader</b> method and USB I
 
 The following code example configures a continuous reader. In this example, the maximum buffer size is the size of a driver-defined buffer. The header and trailer buffer offsets are set to zero, and the number of pending read operations is set to two. The example uses the target pipe's interface pointer for the <i>pCompletionContext</i> parameter, so the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete-onreadercompletion">OnReaderCompletion</a> callback function can determine the pipe on which the read operation was completed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr, hrQI;
+
+```cpp
+HRESULT hr, hrQI;
 IUsbTargetPipeContinuousReaderCallbackReadComplete *pOnCompletionCallback = NULL;
 IUsbTargetPipeContinuousReaderCallbackReadersFailed *pOnFailureCallback= NULL;
 IWDFUsbTargetPipe2 * pIUsbInterruptPipe2;
@@ -218,10 +214,9 @@ hr = pIUsbInterruptPipe2->ConfigureContinuousReader(
                                                     m_pIUsbTargetPipe,
                                                     pOnFailureCallback
                                                     );
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
+
 
 ## -see-also
 

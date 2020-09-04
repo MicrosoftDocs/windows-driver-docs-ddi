@@ -68,10 +68,9 @@ Pointer to the physical address mapping routine, which is of type:
 PhysAddrMappingRoutine ( 
     IN PVOID Context,
     IN OUT PIRB Irb
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 The physical mapping routine is invoked on an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a> IRB. It fills in the <b>u.AllocateAddressRange.pAddressRange</b> member with the physical addresses that the <b>u.AllocateAddressRange.Mdl</b> member of the IRB are mapped to. The proper value for the <i>Context</i> parameter is the <b>Context</b> member below.
 
 ### -field Context

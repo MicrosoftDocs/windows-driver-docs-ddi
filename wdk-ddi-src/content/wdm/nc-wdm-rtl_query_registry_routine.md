@@ -99,25 +99,16 @@ To define a <i>QueryRoutine</i> callback routine, you must first provide a funct
 
 For example, to define a <i>QueryRoutine</i> callback routine that is named <code>MyQueryRoutine</code>, use the RTL_QUERY_REGISTRY_ROUTINE type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>RTL_QUERY_REGISTRY_ROUTINE MyQueryRoutine;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+RTL_QUERY_REGISTRY_ROUTINE MyQueryRoutine;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NTSTATUS
   MyQueryRoutine(
     PWSTR ValueName,
@@ -129,10 +120,9 @@ NTSTATUS
     )
   {
       // Function body
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the RTL_QUERY_REGISTRY_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

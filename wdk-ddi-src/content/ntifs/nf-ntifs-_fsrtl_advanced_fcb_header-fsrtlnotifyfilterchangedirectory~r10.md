@@ -239,21 +239,16 @@ Pointer to the IRP to be added to the notify list. If <i>NotifyIrp</i> is <b>NUL
 [in, optional]
 Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory being watched in a directory tree. This lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
 (*PCHECK_FOR_TRAVERSE_ACCESS) (
     IN PVOID NotifyContext,                     // FsContext
     IN PVOID TargetContext,                     // Context pointer
     IN PSECURITY_SUBJECT_CONTEXT SubjectContext // SubjectContext
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
@@ -266,20 +261,15 @@ Pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsRtl
 [in, optional]
 Optional pointer to a callback routine to be invoked when a change occurs to the directory. If this callback routine returns <b>TRUE</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange">FsRtlNotifyFilterReportChange</a> completes the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY requests in the notify list; otherwise, it does not. Such a caller-supplied routine is declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+
+```cpp
+BOOLEAN
 (*PFILTER_REPORT_CHANGE) (
     IN PVOID NotifyContext,                     // FsContext
     IN PVOID FilterContext                      // Context pointer
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 ## -returns
 

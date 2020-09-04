@@ -94,10 +94,9 @@ Question: When does the data type of a tag get fixed? Is it when the first FA en
     PCSTR Name;
     PCSTR Description;
     AnalysisPlugIn *Plugin;
-} FA_TAG_PROPS, *PFA_TAG_PROPS;</pre>
-</td>
-</tr>
-</table></span></div>
+} FA_TAG_PROPS, *PFA_TAG_PROPS;
+```
+
 
 ## -see-also
 

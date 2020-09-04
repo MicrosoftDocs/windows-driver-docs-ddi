@@ -69,20 +69,15 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example determines whether a local I/O target is stopped.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    if (m_pIoTargetInterruptPipeStateMgmt->GetState() == WdfIoTargetStopped)
+
+```cpp
+    if (m_pIoTargetInterruptPipeStateMgmt->GetState() == WdfIoTargetStopped)
     {
     ...
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

@@ -53,10 +53,9 @@ The <i>DebugExtensionKnownStructEx</i> callback function is called by extensions
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT_EX DebugExtensionKnownStructEx;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT_EX DebugExtensionKnownStructEx;
+```
+
 
 ## -parameters
 

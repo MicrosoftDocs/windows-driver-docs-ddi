@@ -90,10 +90,9 @@ Indicates that a target device might have been added or removed from a dynamic b
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ UCHAR                  PathId
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 </td>
 </tr>
 <tr>
@@ -115,10 +114,9 @@ Indicates to Storport the amount of time that was required to process a specifie
   _In_ PVOID                  HwDeviceExtension,
   _In_ ULONGLONG              Duration,
   _In_ PSCSI_REQUEST_BLOCK    Srb
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 Duration [in]
 
@@ -168,10 +166,9 @@ This notification type returns a LARGE_INTEGER that holds the value from <a href
   _In_    SCSI_NOTIFICATION_TYPE NotificationType,
   _In_    PVOID                  HwDeviceExtension,
   _Inout_ PLARGE_INTEGER         TickCount
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 </td>
 </tr>
 <tr>
@@ -192,10 +189,9 @@ Indicates that the given SRB has finished. After this notification is sent, the 
   _In_ SCSI_NOTIFICATION_TYPE NotificationType,
   _In_ PVOID                  HwDeviceExtension,
   _In_ PSCSI_REQUEST_BLOCK    Srb
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 </td>
 </tr>
 <tr>
@@ -217,10 +213,9 @@ Indicates that the miniport driver requires the port driver to call the miniport
   _In_ PVOID                  HwDeviceExtension,
   _In_ PHW_TIMER              HwStorTimer,
   _In_ ULONG                  MiniportTimerValue
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 HwStorTimer [in]
 
@@ -265,10 +260,9 @@ Indicates that the miniport driver has detected an event for which one or more W
   _In_     UCHAR                  PathId,
   _In_opt_ UCHAR                  TargetId,
   _In_opt_ UCHAR                  Lun
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 WMIEvent [in]
 
@@ -309,10 +303,9 @@ Indicates that the miniport driver has changed the data items or the number of i
   _In_     UCHAR                  PathId,
   _In_opt_ UCHAR                  TargetId,
   _In_opt_ UCHAR                  Lun
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 PathId [in]
 

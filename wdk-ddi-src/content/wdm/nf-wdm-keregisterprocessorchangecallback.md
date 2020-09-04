@@ -55,21 +55,16 @@ The <b>KeRegisterProcessorChangeCallback</b> routine registers a callback functi
 [in]
 A pointer to a driver-supplied processor change callback function that is to be called by the operating system whenever a new processor is added to the hardware partition. A processor change callback function is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
   ProcessorCallback(
     __in PVOID CallbackContext,
     __in PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT ChangeContext,
     __inout PNTSTATUS OperationStatus
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 
 

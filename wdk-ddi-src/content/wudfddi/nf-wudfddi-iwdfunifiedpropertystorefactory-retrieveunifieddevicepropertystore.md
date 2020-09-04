@@ -113,13 +113,9 @@ For more information about accessing the registry, see <a href="https://docs.mic
 
 The following code example retrieves a unified property store interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 GetDevicePropertyStore(
     _In_  IWDFDevice *                  FxDevice,
     _Out_ IWDFUnifiedPropertyStore **   ppUnifiedPropertyStore
@@ -163,10 +159,9 @@ exit:
     
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

@@ -61,20 +61,15 @@ The client driver calls <b>UfxDeviceNotifySuspend</b> when it receives a bus sus
 
 The client driver typically calls <b>UfxDeviceNotifySuspend</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function.  The following example shows how to handle a suspend event.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    case DeviceEventSuspend:
+
+```cpp
+    case DeviceEventSuspend:
         if (!ControllerContext->Suspended) {
             ControllerContext->Suspended = TRUE;
             UfxDeviceNotifySuspend(ControllerContext->UfxDevice);
         }
         break;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

@@ -87,20 +87,15 @@ A pointer to an array of one or more entry points for the device driver's dispat
      follows:
      
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   (*PDRIVER_DISPATCH) (
     IN PDEVICE_OBJECT  DeviceObject,
     IN PIRP  Irp
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 The dispatch routine has the following parameters:
 
 

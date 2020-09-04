@@ -363,19 +363,14 @@ Contains information related to the <i>ControlType</i>.
 <td>
 Caller-allocated SCSI_SUPPORTED_CONTROL_TYPE_LIST structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST {
+
+```cpp
+typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST {
     IN ULONG MaxControlType;
     OUT BOOLEAN SupportedTypeList[0];
-} SCSI_SUPPORTED_CONTROL_TYPE_LIST, *PSCSI_SUPPORTED_CONTROL_TYPE_LIST;</pre>
-</td>
-</tr>
-</table></span></div>
+} SCSI_SUPPORTED_CONTROL_TYPE_LIST, *PSCSI_SUPPORTED_CONTROL_TYPE_LIST;
+```
+
 
 <dl>
 <dt><a id="MaxControlType"></a><a id="maxcontroltype"></a><a id="MAXCONTROLTYPE"></a><b>MaxControlType</b></dt>
@@ -458,21 +453,16 @@ NULL
 <td>
 Caller-allocated STOR_POWER_SETTING_INFO structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POWER_SETTING_INFO {
+
+```cpp
+typedef struct _STOR_POWER_SETTING_INFO {
     GUID  PowerSettingGuid;
     PVOID Value;
     ULONG ValueLength;
 } STOR_POWER_SETTING_INFO, *PSTOR_POWER_SETTING_INFO;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 <dl>
 <dt><a id="PowerSettingGuid"></a><a id="powersettingguid"></a><a id="POWERSETTINGGUID"></a><b>PowerSettingGuid</b></dt>
 <dd>
@@ -500,23 +490,18 @@ Length in bytes of the data pointed to by <b>Value.</b>
 <td>
 Caller-allocated STOR_FILTER_RESOURCE_REQUIREMENTS structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_FILTER_RESOURCE_REQUIREMENTS {
+
+```cpp
+typedef struct _STOR_FILTER_RESOURCE_REQUIREMENTS {
     ULONG Version;
     ULONG Size;
     PIO_RESOURCE_REQUIREMENTS_LIST IoResourceRequirementsList;
 } STOR_FILTER_RESOURCE_REQUIREMENTS, *PSTOR_FILTER_RESOURCE_REQUIREMENTS;
 
 #define STOR_FILTER_RESOURCE_REQUIREMENTS_V1 0x1
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Version"></a><a id="version"></a><a id="VERSION"></a><b>Version</b></dt>
@@ -545,21 +530,16 @@ The IO resource requirements list. For more information see the <a href="https:/
 <td>
 Caller-allocated STOR_ADAPTER_CONTROL_POWER structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_ADAPTER_CONTROL_POWER {
+
+```cpp
+typedef struct _STOR_ADAPTER_CONTROL_POWER {
     STOR_POWER_CONTROL_HEADER   Header;
     STOR_POWER_ACTION           PowerAction;
     STOR_DEVICE_POWER_STATE     PowerState;
 } STOR_ADAPTER_CONTROL_POWER, *PSTOR_ADAPTER_CONTROL_POWER;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -598,21 +578,16 @@ A <b>BOOLEAN</b> which is <b>TRUE</b> if the adapter component requires power. O
 <td>
 Caller-allocated STOR_POFX_ACTIVE_CONTEXT structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_ACTIVE_CONTEXT {
+
+```cpp
+typedef struct _STOR_POFX_ACTIVE_CONTEXT {
     STOR_POWER_CONTROL_HEADER   Header;
     ULONG                       ComponentIndex;
     BOOLEAN                     Active;
 } STOR_POFX_ACTIVE_CONTEXT, *PSTOR_POFX_ACTIVE_CONTEXT;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -641,21 +616,16 @@ The active status of the component. <b>Active</b> is always set to <b>TRUE</b>.
 <td>
 Caller-allocated STOR_POFX_FSTATE_CONTEXT structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_FSTATE_CONTEXT {
+
+```cpp
+typedef struct _STOR_POFX_FSTATE_CONTEXT {
     STOR_POWER_CONTROL_HEADER   Header;
     ULONG                       ComponentIndex;
     ULONG                       FState;
 } STOR_POFX_FSTATE_CONTEXT, *PSTOR_POFX_FSTATE_CONTEXT;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -684,13 +654,9 @@ The F-state to set for the adapter component. The F0 state is the only component
 <td>
 Caller-allocated STOR_POFX_POWER_CONTROL structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_POWER_CONTROL {
+
+```cpp
+typedef struct _STOR_POFX_POWER_CONTROL {
     STOR_POWER_CONTROL_HEADER   Header;
     LPCGUID                     PowerControlCode;
     SIZE_T                      InBufferSize;
@@ -699,10 +665,9 @@ Caller-allocated STOR_POFX_POWER_CONTROL structure.
     PVOID                       OutBuffer;
     PSIZE_T                     BytesReturned;
 } STOR_POFX_POWER_CONTROL, *PSTOR_POFX_POWER_CONTROL;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -761,22 +726,17 @@ NULL
 <td>
 Caller-allocated STOR_SYSTEM_POWER_HINTS structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_SYSTEM_POWER_HINTS {
+
+```cpp
+typedef struct _STOR_SYSTEM_POWER_HINTS {
     ULONG Version;
     ULONG Size;
     RAID_SYSTEM_POWER SystemPower;
     ULONG ResumeLatencyMSec;
 } STOR_SYSTEM_POWER_HINTS, *PSTOR_SYSTEM_POWER_HINTS;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <table>
 <tr>
@@ -897,22 +857,17 @@ Because miniport drivers that work with the Storport driver must support Plug an
 
 The name <b>HwStorAdapterControl</b>  is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```cpp
+typedef
 SCSI_ADAPTER_CONTROL_STATUS
 HW_ADAPTER_CONTROL (
   _In_ PVOID  DeviceExtension,
   _In_ SCSI_ADAPTER_CONTROL_TYPE  ControlType,
   _In_ PVOID  Parameters
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 ### Examples
 
@@ -920,25 +875,16 @@ To define an <b>HwStorAdapterControl</b> callback function, you must first provi
 
  For example, to define a <b>HwStorAdapterControl</b> callback routine that is named <i>MyHwAdapterControl</i>, use the <b>HW_ADAPTER_CONTROL</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HW_ADAPTER_CONTROL MyHwAdapterControl;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+HW_ADAPTER_CONTROL MyHwAdapterControl;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 SCSI_ADAPTER_CONTROL_STATUS
 MyHwAdapterControl (
   _In_ PVOID  DeviceExtension,
@@ -947,10 +893,9 @@ MyHwAdapterControl (
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_ADAPTER_CONTROL</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also

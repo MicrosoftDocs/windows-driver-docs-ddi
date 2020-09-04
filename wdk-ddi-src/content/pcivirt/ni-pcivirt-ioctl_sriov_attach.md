@@ -155,10 +155,9 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
         WdfWaitLockRelease(fdoContext->PnpStateLock);
 
         break;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

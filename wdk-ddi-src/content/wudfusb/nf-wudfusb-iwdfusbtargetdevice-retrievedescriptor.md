@@ -138,13 +138,9 @@ The <b>RetrieveDescriptor</b> method generates a UMDF request and synchronously 
 
 The following code example retrieves a USB configuration descriptor.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 CUmdfHidDevice::RetrieveConfigDescriptor(
     __out_bcount(ConfigDescriptorCb) PUSB_CONFIGURATION_DESCRIPTOR *ConfigDescriptor,
     __out ULONG *ConfigDescriptorCb
@@ -177,10 +173,9 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
         delete[] descriptorHeader;
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

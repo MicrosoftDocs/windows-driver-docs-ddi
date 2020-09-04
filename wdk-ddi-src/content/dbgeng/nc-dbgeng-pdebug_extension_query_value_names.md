@@ -53,10 +53,9 @@ The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="htt
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
+```
+
 
 ## -parameters
 

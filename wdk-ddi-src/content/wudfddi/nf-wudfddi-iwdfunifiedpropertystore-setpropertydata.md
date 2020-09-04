@@ -147,13 +147,9 @@ For more information about accessing the registry, see <a href="https://docs.mic
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 SetFriendlyName(
     _In_ IWDFUnifiedPropertyStore * pUnifiedPropertyStore
     )
@@ -184,10 +180,9 @@ SetFriendlyName(
 exit:
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

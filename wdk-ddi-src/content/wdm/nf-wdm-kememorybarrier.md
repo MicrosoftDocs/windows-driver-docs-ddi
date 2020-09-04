@@ -54,13 +54,9 @@ The <b>KeMemoryBarrier</b> routine inserts a memory barrier into your code. This
 
 The implementation of the <b>KeMemoryBarrier</b> routine depends on the processor architecture. For example, for an x86 processor, the Wdm.h header file defines <b>KeMemoryBarrier</b> to be the following inline function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FORCEINLINE
+
+```cpp
+FORCEINLINE
 VOID
 KeMemoryBarrier (
     VOID
@@ -71,10 +67,9 @@ KeMemoryBarrier (
     __asm {
         xchg Barrier, eax
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 In this definition, the braces that follow the <b>__asm</b> keyword contain inline assembly code. The compiler optimizer cannot move an instruction from a position before the inline assembly code to a position after the inline assembly code, and vice versa. In addition, the <b>xchg</b> instruction implicitly includes the <b>lock</b> prefix, which forces the processor hardware to complete the memory operations for all instructions that precede the <b>xchg</b> instruction before it initiates memory operations for instructions that follow the <b>xchg</b> instruction.
 
 <b>KeMemoryBarrier</b> prevents both the compiler and the processor from moving operations across the barrier. To prevent only the compiler from moving operations, call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552973(v=vs.85)">KeMemoryBarrierWithoutFence</a>.

@@ -91,25 +91,16 @@ To define an <i>EvtSpbControllerIoRead</i> callback function, you must first pro
 
 For example, to define an <i>EvtSpbControllerIoRead</i> callback function that is named <code>MyEvtSpbControllerIoRead</code>, use the EVT_SPB_CONTROLLER_READ function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SPB_CONTROLLER_READ  MyEvtSpbControllerIoRead;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+EVT_SPB_CONTROLLER_READ  MyEvtSpbControllerIoRead;
+```
+
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyEvtSpbControllerIoRead(
     WDFDEVICE Controller,
@@ -117,10 +108,9 @@ VOID
     SPBREQUEST Request,
     size_t Length
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
+{ ... }
+```
+
 The EVT_SPB_CONTROLLER_READ function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EVT_SPB_CONTROLLER_READ function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

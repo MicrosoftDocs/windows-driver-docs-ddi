@@ -117,25 +117,16 @@ If you do not need to add a reference string to your device's symbolic link name
           The following line defines a symbolic link name prefix in the global <b>DosDevices</b> namespace.
         
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define SYMBOLIC_LINK_NAME_PREFIX   L"\\DosDevices\\Global\\"</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define SYMBOLIC_LINK_NAME_PREFIX   L"\\DosDevices\\Global\\"
+```
+
 The following code example creates a symbolic name string, obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface, and then calls <b>CreateSymbolicLinkWithReferenceString</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     IWDFDevice2 *pDevice2 = NULL;
     HRESULT hr;
 
@@ -166,10 +157,9 @@ The following code example creates a symbolic name string, obtains the <a href="
             goto Exit;
         }
         SAFE_RELEASE(pDevice2);
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 

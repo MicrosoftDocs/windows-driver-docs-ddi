@@ -125,16 +125,11 @@ After allocating all required resources the miniport driver should initialize th
     <i>MiniportVcContext</i>. The handle is set by dereferencing the handle and storing a
     pointer to the state buffer as the value of the handle. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*MiniportVcContext = SomeBuffer;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+*MiniportVcContext = SomeBuffer;
+```
+
 Miniport drivers 
     <i>must</i> store the handle to the VC, 
     <i>NdisVcHandle</i>, in their state area as it is a required parameter to other NDIS
@@ -145,35 +140,25 @@ To define a <i>MiniportCoCreateVc</i> function, you must first provide a functio
 
 For example, to define a <i>MiniportCoCreateVc</i> function that is named "MyCoCreateVc", use the <b>MINIPORT_CO_CREATE_VC</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MINIPORT_CO_CREATE_VC MyCoCreateVc;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+MINIPORT_CO_CREATE_VC MyCoCreateVc;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NDIS_STATUS
  MyCoCreateVc(
     NDIS_HANDLE  MiniportAdapterContext,
     NDIS_HANDLE  NdisVcHandle,
     PNDIS_HANDLE  MiniportVcContext
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>MINIPORT_CO_CREATE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CO_CREATE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

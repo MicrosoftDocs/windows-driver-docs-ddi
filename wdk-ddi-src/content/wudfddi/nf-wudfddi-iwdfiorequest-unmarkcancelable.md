@@ -103,13 +103,9 @@ The following code example demonstrates how a driver might call <b>IWDFIoRequest
 
 The example also shows how you can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackcancel-oncancel">OnCancel</a> to expedite the completion of a request. In this case, the <b>OnCancel</b> callback does not always complete/cancel the specified request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // The driver calls CompletePendingRequest when it is ready to complete the request with error/success.
 // You must previously initialize m_CompleteCancelledRequest to zero.
 //
@@ -186,23 +182,18 @@ OnCancel(
  
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 In the next code example, the driver stores I/O requests in a driver-implemented queue object called <b>MyQueue</b>.  The driver’s <b>MyQueue</b> interface implements some basic methods to manipulate the queue, such as <b>IsEmpty</b>, <b>RemoveHead</b>, <b>Cleanup</b>, <b>GetFirstNodePosition</b>, <b>GetAt</b>, and <b>RemoveAt</b>.
 
 The driver also defines a <b>CommandInformation</b> structure that holds a single I/O request from <b>MyQueue</b>.
 
   The <b>MyQueue::DeQueue</b> method removes an I/O request from the queue, calls <b>UnmarkCancelable</b> to disable canceling of the request, and then returns the request for processing.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 void MyQueue::DeQueue(__out CommandInformation* CommandInfo)
 {
     CComCritSecLock<CComAutoCriticalSection> scopeLock(m_CriticalSection);
@@ -281,10 +272,9 @@ void MyQueue::OnCancel(__in IWDFIoRequest* Request)
 }
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 Also see the code example on <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestunmarkcancelable">WdfRequestUnmarkCancelable</a>. While written for a KMDF driver, this example demonstrates how you can use the framework's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a> to manage synchronization between the cancel callback and another thread that calls the <i>Unmark</i> routine.
 
 <div class="code"></div>

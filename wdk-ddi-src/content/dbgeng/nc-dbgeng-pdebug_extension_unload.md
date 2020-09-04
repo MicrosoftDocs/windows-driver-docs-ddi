@@ -53,10 +53,9 @@ The <i>DebugExtensionUnload</i> callback function unloads the debug extension.
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_EXTENSION_UNLOAD DebugExtensionUnload;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_EXTENSION_UNLOAD DebugExtensionUnload;
+```
+
 
 ## -parameters
 

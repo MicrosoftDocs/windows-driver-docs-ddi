@@ -118,10 +118,9 @@ An LUID_AND_ATTRIBUTES structure can represent an LUID whose
 <td>
 <pre>typedef LUID_AND_ATTRIBUTES LUID_AND_ATTRIBUTES_ARRAY[ANYSIZE_ARRAY];
 typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
-		</pre>
-</td>
-</tr>
-</table></span></div>
+		
+```
+
 </div>
 <div> </div>
 

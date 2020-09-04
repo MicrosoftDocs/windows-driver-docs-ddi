@@ -134,13 +134,9 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The following code example shows an implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">OnDeviceAdd</a> method of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-idriverentry">IDriverEntry</a> interface. The framework calls <b>OnDeviceAdd</b> when a device is added to a computer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT 
+
+```cpp
+HRESULT 
 CDriver::OnDeviceAdd(
  IWDFDriver* pDriver,
  IWDFDeviceInitialize* pDeviceInit
@@ -209,10 +205,9 @@ CDriver::OnDeviceAdd(
     SAFE_RELEASE(pIUnkQueue);    
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

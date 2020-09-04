@@ -63,16 +63,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 The following code example disables the device interrupt that is associated with a specified interrupt object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>pIWdfInterrupt->Disable();</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pIWdfInterrupt->Disable();
+```
+
 
 ## -see-also
 

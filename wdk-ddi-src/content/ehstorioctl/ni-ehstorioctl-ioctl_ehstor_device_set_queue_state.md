@@ -54,19 +54,14 @@ The <b>IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</b> request is sent by silo drivers a
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <b> ACT_QUEUE_STATE</b>  structure. <b>ACT_QUEUE_STATE</b> is declared in <i>ehstorioctl.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct tagACT_QUEUE_STATE
+
+```cpp
+typedef struct tagACT_QUEUE_STATE
 {
     BOOLEAN fFrozen;
-} ACT_QUEUE_STATE;</pre>
-</td>
-</tr>
-</table></span></div>
+} ACT_QUEUE_STATE;
+```
+
 
 ### -input-buffer-length
 

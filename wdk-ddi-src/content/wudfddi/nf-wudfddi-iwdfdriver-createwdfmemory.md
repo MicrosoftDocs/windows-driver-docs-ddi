@@ -92,13 +92,9 @@ A UMDF driver cannot create a memory object with a zero-specified size buffer. I
 
 The following code example shows how to create a memory object that can hold information that is read from a USB endpoint.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 CUmdfHidDevice::PrepareReader(
     VOID
     )
@@ -130,10 +126,9 @@ CUmdfHidDevice::PrepareReader(
     }
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

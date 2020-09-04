@@ -69,22 +69,17 @@ In order to fill in the <i>PowerDeviceCaps</i> structure for a device, the adapt
 
 In order to change the mappings between system power states and device power states, the adapter driver changes the values in the <b>DeviceState</b> array in the <i>PowerDeviceCaps</i> structure. These mappings should be changed only if necessary. The following code example shows how to map D1 mappings to D3:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  for (i=ULONG(PowerSystemWorking); i<=ULONG(PowerSystemShutdown); i++)
+
+```cpp
+  for (i=ULONG(PowerSystemWorking); i<=ULONG(PowerSystemShutdown); i++)
       {
           if (PowerDeviceCaps->DeviceState[i] == PowerDeviceD1)
           {
               PowerDeviceCaps->DeviceState[i] = PowerDeviceD3;
           }
-      }</pre>
-</td>
-</tr>
-</table></span></div>
+      }
+```
+
 The code for the <code>QueryDeviceCapabilities</code> method must reside in paged memory.
 
 ## -see-also

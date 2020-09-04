@@ -103,20 +103,15 @@ Holes are counted as runs.
 
 The following code snippet shows how to print out all of the runs in a file:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>for (i = 0; FsRtlGetNextLargeMcbEntry(Mcb,i,&Vbn,&Lbn,&Count); i++) {
+
+```cpp
+for (i = 0; FsRtlGetNextLargeMcbEntry(Mcb,i,&Vbn,&Lbn,&Count); i++) {
 
     // print out vbn, lbn, and count
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 
 

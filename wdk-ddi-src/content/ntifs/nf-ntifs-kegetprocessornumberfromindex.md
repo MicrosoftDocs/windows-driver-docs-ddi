@@ -97,13 +97,9 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-nt
 
 The following code example uses the <b>KeQueryActiveProcessorCountEx</b> and <b>KeGetProcessorNumberFromIndex</b> routines to enumerate all active logical processors in the system:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG Count;
+
+```cpp
+ULONG Count;
 ULONG ProcIndex;
 PROCESSOR_NUMBER ProcNumber;
 
@@ -114,10 +110,9 @@ for (ProcIndex = 0; ProcIndex < Count; ProcIndex += 1)
 
     // Do something with the contents of ProcNumber.
     ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h. 
 
 <div class="code"></div>

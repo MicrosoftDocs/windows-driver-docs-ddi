@@ -156,13 +156,9 @@ The caller-allocated buffer is too small, but the required buffer size has been 
 
 The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The data written to the <i>FirmwareTableBuffer</i> buffer starts with the following structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct RawSMBIOSData
+
+```cpp
+struct RawSMBIOSData
 {
   BYTE  Used20CallingMethod;
   BYTE  SMBIOSMajorVersion;
@@ -170,10 +166,9 @@ The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS 
   BYTE  DmiRevision;
   DWORD  Length;
   BYTE  SMBIOSTableData[];
-};</pre>
-</td>
-</tr>
-</table></span></div>
+};
+```
+
 The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The value written to *<i>ReturnLength</i> is the size of the address range.
 
 The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibenumeratesystemfirmwaretables">AuxKlibEnumerateSystemFirmwareTables</a> to enumerate all ACPI tables that are currently available from the system firmware.

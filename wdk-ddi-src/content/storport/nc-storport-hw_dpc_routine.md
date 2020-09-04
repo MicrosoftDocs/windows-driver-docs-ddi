@@ -74,23 +74,18 @@ Any particular instance of a DPC routine is guaranteed to be synchronized with o
 
 The name <b>HwStorDpcRoutine</b> is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```cpp
+typedef
 BOOLEAN
 HW_DPC_ROUTINE (
   _In_  PSTOR_DPC Dpc,
   _In_  PVOID HwDeviceExtension,
   _In_opt_  PVOID SystemArgument1,
   _In_opt_  PVOID SystemArgument2
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 The port driver calls the <b>HwStorDpcRoutine</b> routine at DISPATCH IRQL.
 
 
@@ -100,25 +95,16 @@ To define an <b>HwStorDpcRoutine</b> callback function, you must first provide a
 
  For example, to define a <b>HwStorDpcRoutine</b> callback routine that is named <i>MyHwDpcRoutine</i>, use the <b>HW_DPC_ROUTINE</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HW_DPC_ROUTINE MyHwDpcRoutine;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+HW_DPC_ROUTINE MyHwDpcRoutine;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 BOOLEAN
 MyHwDpcRoutine (
   _In_  PSTOR_DPC Dpc,
@@ -128,10 +114,9 @@ MyHwDpcRoutine (
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_DPC_ROUTINE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also

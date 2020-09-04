@@ -135,22 +135,17 @@ The maximum value for this enumeration. This value might change in future versio
 The following macros in 
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_DATAGRAM_DATA_V6 enumeration vallues:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define FWPS_FIELD_DATAGRAM_DATA_V6_ICMP_TYPE \
         FWPS_FIELD_DATAGRAM_DATA_V6_IP_LOCAL_PORT
 
 #define FWPS_FIELD_DATAGRAM_DATA_V6_ICMP_CODE \
         FWPS_FIELD_DATAGRAM_DATA_V6_IP_REMOTE_PORT
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV6 data fields:
 
 FWPS_FIELD_DATAGRAM_DATA_V6_ICMP_TYPE  

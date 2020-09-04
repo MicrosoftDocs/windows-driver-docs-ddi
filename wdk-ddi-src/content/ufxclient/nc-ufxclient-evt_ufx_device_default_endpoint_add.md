@@ -75,13 +75,9 @@ The client driver indicates completion of this event by calling the <a href="htt
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD UfxDevice_EvtDeviceDefaultEndpointAdd;
 
 VOID
@@ -129,10 +125,9 @@ End:
     UfxDeviceEventComplete(UfxDevice, Status);
     TraceExit();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

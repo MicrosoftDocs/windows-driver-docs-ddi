@@ -71,13 +71,9 @@ To support attach and detatch detection, the USB lower filter driver must publis
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
 UsbLowerFilter_GetAttachAction(
     __in PVOID Context,
     __out PUSBFN_ON_ATTACH OnAttach
@@ -127,10 +123,9 @@ UsbLowerFilter_GetAttachAction(
     }
 
     return Status;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

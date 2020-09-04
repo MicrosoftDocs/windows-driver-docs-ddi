@@ -135,25 +135,16 @@ To define a callback routine, you must first provide a function declaration that
 
 For example, to define a <i>CustomDpc</i> callback routine that is named <code>MyCustomDpc</code>, use the KDEFERRED_ROUTINE type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>KDEFERRED_ROUTINE MyCustomDpc;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+KDEFERRED_ROUTINE MyCustomDpc;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyCustomDpc(
     struct _KDPC  *Dpc,
@@ -163,10 +154,9 @@ VOID
     )
   {
       // Function body
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 
 ## -see-also
 

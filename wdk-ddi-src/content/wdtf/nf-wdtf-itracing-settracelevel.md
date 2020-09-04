@@ -71,13 +71,9 @@ The following code example demonstrates how to use the <b>SetTraceLevel</b> meth
 
 <b>VBScript</b>
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>'
+
+```cpp
+'
 ' Get DeviceManagement Action interface for the target
 '
 Set Action = CDROM.GetInterface("DeviceManagement")
@@ -105,19 +101,14 @@ Else
     Else
         WScript.Echo Space(4) & "Specified CDROM successfully disabled." & vbcrlf
     End If
-End If</pre>
-</td>
-</tr>
-</table></span></div>
+End If
+```
+
 <b>C++</b>
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IDevMan* pDevMan;        // DeviceManagement Action interface
+
+```cpp
+IDevMan* pDevMan;        // DeviceManagement Action interface
 
 VARIANT vtEmpty;       // To be passed as a parameter to ITarget::GetInterface
 VariantInit(&vtEmpty);
@@ -154,10 +145,9 @@ if(FAILED(hr))
 else
 {
     _tprintf(_T("\n  Specified CDROM successfully disabled."));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

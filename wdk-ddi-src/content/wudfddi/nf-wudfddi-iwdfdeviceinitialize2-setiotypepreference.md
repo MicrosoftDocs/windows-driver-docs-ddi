@@ -84,13 +84,9 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 The following code example shows a segment of a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">IDriverEntry::OnDeviceAdd</a> callback function. The segment obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdeviceinitialize2">IWDFDeviceInitialize2</a> interface and then calls <b>SetIoTypePreference</b>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
  CMyDriver::OnDeviceAdd(
     __in IWDFDriver *FxWdfDriver,
     __in IWDFDeviceInitialize *FxDeviceInit
@@ -112,10 +108,9 @@ The following code example shows a segment of a driver's <a href="https://docs.m
                              WdfDeviceIoBuffered,
                              WdfDeviceIoDirect);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

@@ -104,18 +104,13 @@ The calling driver forfeits any packet-level error information when calling this
 
 The function definition that is provided on this reference page is an example routine whose parameters are just placeholder names. The actual prototype of this function is declared in <i>usbbusif.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   (USB_BUSIFFN *PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB) (
     IN PVOID,
-    IN PURB</pre>
-</td>
-</tr>
-</table></span></div>
+    IN PURB
+```
+
   );
 

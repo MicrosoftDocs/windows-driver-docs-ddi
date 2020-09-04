@@ -125,19 +125,14 @@ The method writes to the parameter buffer.
 
 Pointer to the method-handler routine. This member is a function pointer of type PCPFNMETHOD_HANDLER, which is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  typedef NTSTATUS (*PCPFNMETHOD_HANDLER)
+
+```cpp
+  typedef NTSTATUS (*PCPFNMETHOD_HANDLER)
   (
       IN PPCMETHOD_REQUEST  MethodRequest
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>.
 
 ## -remarks

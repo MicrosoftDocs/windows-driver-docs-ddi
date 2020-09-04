@@ -104,13 +104,9 @@ For more information about <b>CreateRemoteInterface</b> and using device interfa
 
 The following code example shows an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackremoteinterfacenotification-onremoteinterfacearrival">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function that creates a remote interface object, creates a remote target object, and opens the remote target for I/O operations.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void 
+
+```cpp
+void 
 STDMETHODCALLTYPE
 CMyDevice::OnRemoteInterfaceArrival(
     __in IWDFRemoteInterfaceInitialize * FxRemoteInterfaceInit
@@ -146,10 +142,9 @@ CMyDevice::OnRemoteInterfaceArrival(
                                        NULL);
     if (FAILED(hr)) goto Error;
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

@@ -55,22 +55,17 @@ The <b>KeInsertHeadQueue</b> routine inserts an entry at the head of the given q
 [in, out]
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool. This structure is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _KQUEUE {
+
+```cpp
+typedef struct _KQUEUE {
     DISPATCHER_HEADER Header;
     LIST_ENTRY EntryListHead;
     ULONG CurrentCount;
     ULONG MaximumCount;
     LIST_ENTRY ThreadListHead;
-} KQUEUE, *PKQUEUE, *RESTRICTED_POINTER PRKQUEUE;</pre>
-</td>
-</tr>
-</table></span></div>
+} KQUEUE, *PKQUEUE, *RESTRICTED_POINTER PRKQUEUE;
+```
+
 <table>
 <tr>
 <th>Member</th>

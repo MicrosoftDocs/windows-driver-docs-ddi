@@ -73,10 +73,9 @@ The <b>ReadTypedControlSpace32</b> macro is a thin wrapper around the <b>ReadCon
     _Proc,
     _Addr,
     _Buf
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 <i>_Proc</i>
 
 Specifies the number of the processor whose control space is to be read.
@@ -109,10 +108,9 @@ The <b>ReadTypedControlSpace64</b> macro is a thin wrapper around the <b>ReadCon
     _Proc,
     _Addr,
     _Buf
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 <i>_Proc</i>
 
 Specifies the number of the processor whose control space is to be read.

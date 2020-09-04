@@ -78,13 +78,9 @@ The lower filter driver might implement  a <i>USBFN_SET_DEVICE_STATE</i> even ca
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
 UsbLowerFilter_SetDeviceState(
     _In_ PVOID Context,
     _In_ USBFN_DEVICE_STATE DeviceState,
@@ -103,10 +99,9 @@ UsbLowerFilter_SetDeviceState(
 
     return STATUS_SUCCESS;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

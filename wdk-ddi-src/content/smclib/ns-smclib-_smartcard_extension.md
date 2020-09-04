@@ -468,10 +468,9 @@ When this function is called, <b>SmartcardExtension->IoRequest.RequestBuffer</b>
   DWORD  cbPciLength;  // Protocol Control Information Length
 } SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;
     
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
+
 The <b>dwProtocol</b> member must contain the protocol identifier that is returned by a call to IOCTL_SMARTCARD_SET_PROTOCOL. 
 
 The <b>cbPciLength</b> member contains the size, in bytes, of the SCARD_IO_REQUEST structure. The size of this structure is usually 8 bytes. 

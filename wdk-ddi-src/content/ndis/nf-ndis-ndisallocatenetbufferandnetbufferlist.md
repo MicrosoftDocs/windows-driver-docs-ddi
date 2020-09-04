@@ -154,20 +154,15 @@ For example, if the original MDL chain contains <i>X</i>
     <i>CurrentMdl</i> starts with the third MDL (<i>M'</i>) in the new MDL chain, 
     <i>CurrentMdlOffset</i> is <i>Z'</i>, and the following macros need to be used to set fields in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NET_BUFFER_FIRST_MDL(_NB) = New MDL chain;
+
+```cpp
+NET_BUFFER_FIRST_MDL(_NB) = New MDL chain;
 NET_BUFFER_DATA_LENGTH(_NB) = X';
 NET_BUFFER_DATA_OFFSET(_NB) = Y';
 NET_BUFFER_CURRENT_MDL(_NB) = M';
-NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
-</td>
-</tr>
-</table></span></div>
+NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';
+```
+
 
 ## -see-also
 

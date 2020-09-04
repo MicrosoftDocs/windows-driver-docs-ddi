@@ -91,13 +91,9 @@ To delete a resource descriptor from the requirement list, the driver calls <a h
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS EvtUrsFilterRemoveResourceRequirements;
 
 
@@ -207,10 +203,9 @@ EvtUrsFilterRemoveResourceRequirements (
     }
 
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

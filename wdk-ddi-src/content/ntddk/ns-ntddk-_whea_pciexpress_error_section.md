@@ -124,23 +124,18 @@ This member contains valid data only if the <b>ValidBits.PortType</b> bit is set
 
 A WHEA_PCIEXPRESS_VERSION union that contains the version of the PCIe specification that is supported by the hardware platform. The WHEA_PCIEXPRESS_VERSION union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_PCIEXPRESS_VERSION {
+
+```cpp
+typedef union _WHEA_PCIEXPRESS_VERSION {
   struct {
     UCHAR  MinorVersion;
     UCHAR  MajorVersion;
     USHORT  Reserved;
   };
   ULONG  AsULONG;
-} WHEA_PCIEXPRESS_VERSION, *PWHEA_PCIEXPRESS_VERSION;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIEXPRESS_VERSION, *PWHEA_PCIEXPRESS_VERSION;
+```
+
 
 
 
@@ -173,22 +168,17 @@ This member contains valid data only if the <b>ValidBits.Version</b> bit is set.
 
 A WHEA_PCIEXPRESS_COMMAND_STATUS union that contains the contents of the PCI command and status registers of the PCIe device where the error occurred. The WHEA_PCIEXPRESS_COMMAND_STATUS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_PCIEXPRESS_COMMAND_STATUS {
+
+```cpp
+typedef union _WHEA_PCIEXPRESS_COMMAND_STATUS {
   struct {
     USHORT  Command;
     USHORT  Status;
   };
   ULONG  AsULONG;
-} WHEA_PCIEXPRESS_COMMAND_STATUS, *PWHEA_PCIEXPRESS_COMMAND_STATUS;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIEXPRESS_COMMAND_STATUS, *PWHEA_PCIEXPRESS_COMMAND_STATUS;
+```
+
 
 
 
@@ -219,13 +209,9 @@ Reserved for system use.
 
 A WHEA_PCIEXPRESS_DEVICE_ID structure that contains data that identifies the PCIe device where the error occurred. The WHEA_PCIEXPRESS_DEVICE_ID structure is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _WHEA_PCIEXPRESS_DEVICE_ID {
+
+```cpp
+typedef struct _WHEA_PCIEXPRESS_DEVICE_ID {
   USHORT  VendorID;
   USHORT  DeviceID;
   ULONG  ClassCode:24;
@@ -236,10 +222,9 @@ A WHEA_PCIEXPRESS_DEVICE_ID structure that contains data that identifies the PCI
   ULONG  SecondaryBusNumber:8;
   ULONG Reserved1:3;
   ULONG SlotNumber:13;  ULONG  Reserved2:8;
-} WHEA_PCIEXPRESS_DEVICE_ID, *PWHEA_PCIEXPRESS_DEVICE_ID;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIEXPRESS_DEVICE_ID, *PWHEA_PCIEXPRESS_DEVICE_ID;
+```
+
 
 
 
@@ -320,22 +305,17 @@ This member contains valid data only if the <b>ValidBits.DeviceSerialNumber</b> 
 
 A WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union that contains the contents of the PCI control and secondary status registers of the bridge device where the error occurred. The WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS {
+
+```cpp
+typedef union _WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS {
   struct {
     USHORT  BridgeSecondaryStatus;
     USHORT  BridgeControl;
   };
   ULONG  AsULONG;
-} WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS, *PWHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS, *PWHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS;
+```
+
 
 
 

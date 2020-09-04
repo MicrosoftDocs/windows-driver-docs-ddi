@@ -88,13 +88,9 @@ For example, if the driver previously called <b>Purge</b>, it should wait for no
 
 The following code example shows how to stop requests to a queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 CUmdfHidFile::OnCleanupFile(
     __in IWDFFile* /* WdfFile */
     )
@@ -110,10 +106,9 @@ CUmdfHidFile::OnCleanupFile(
     //
 
     m_GetReportQueue->Purge(NULL);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

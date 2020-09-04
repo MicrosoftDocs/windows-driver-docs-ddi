@@ -59,13 +59,9 @@ If IOCTL_MOUNTMGR_CREATE_POINT specifies a drive letter, the drive letter must b
 Note that a client can discover whether the mount manager has received the MOUNTDEV_MOUNTED_DEVICE_GUID device interface notification for its volume by querying the mount manager with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>.
 
 In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POINT to send the mount manager a device object name and its corresponding symbolic link:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    // The persistent symbolic link is a drive letter in
+
+```cpp
+    // The persistent symbolic link is a drive letter in
     // this case:
     wsprintf(dosBuffer, L"\\DosDevices\\%C:", DriveLetter);
     RtlInitUnicodeString(&dosName, dosBuffer);
@@ -108,10 +104,9 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
     // Send the irp to the mount manager requesting
     // that a new mount point (persistent symbolic link)
     // be created for the indicated volume.
-    status = IoCallDriver(deviceObject, irp);</pre>
-</td>
-</tr>
-</table></span></div>
+    status = IoCallDriver(deviceObject, irp);
+```
+
 
 ## -ioctlparameters
 

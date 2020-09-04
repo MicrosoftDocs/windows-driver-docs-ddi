@@ -91,54 +91,39 @@ A KMDF driver's <i>CompletionRoutine</i> can run at IRQL <= DISPATCH_LEVEL regar
 
 The function type is declared in <i>Wdfrequest.h</i>, as follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
   (EVT_WDF_REQUEST_COMPLETION_ROUTINE)(
     IN WDFREQUEST  Request,
     IN WDFIOTARGET  Target,
     IN PWDF_REQUEST_COMPLETION_PARAMS  Params,
     IN WDFCONTEXT  Context
     );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 To define a <i>CompletionRoutine</i> callback function that is named <b>MyCompletionRoutine</b>, you must first provide a function declaration that SDV and other verification tools require, as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_WDF_REQUEST_COMPLETION_ROUTINE  MyCompletionRoutine;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+EVT_WDF_REQUEST_COMPLETION_ROUTINE  MyCompletionRoutine;
+```
+
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
  MyCompletionRoutine (
     IN WDFREQUEST  Request,
     IN WDFIOTARGET  Target,
     IN PWDF_REQUEST_COMPLETION_PARAMS  Params,
     IN WDFCONTEXT  Context
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 
 ## -see-also
 

@@ -125,13 +125,9 @@ If the IRP-based operation is an IRP_MJ_CLOSE request, STATUS_INVALID_PARAMETER 
 
 The following example code from a preoperation callback routine illustrates how this might happen:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PFLT_CALLBACK_DATA Data;
+
+```cpp
+PFLT_CALLBACK_DATA Data;
 PFLT_GET_OPERATION_STATUS_CALLBACK CallbackRoutine;
 PVOID RequesterContext;
 ...
@@ -139,10 +135,9 @@ if (iopb->MajorFunction == IRP_MJ_READ) {
     FltRequestOperationStatusCallback (Data, CallbackRoutine, RequesterContext);
  Data->Iopb->Parameters.Read.ReadBuffer = newBuffer;
     ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 In the example, the read buffer is changed after the call to <b>FltRequestOperationStatusCallback</b>, so when the Filter Manager calls <i>CallbackRoutine</i>, it will pass in a pointer to the old buffer instead of the new one. 
 
 The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the originating thread at IRQL <= APC_LEVEL.

@@ -48,13 +48,9 @@ api_name:
 
 This IOCTL returns a result set containing the enumeration of all active storage Physical Device Objects (PDOs) associated with the given Addressable Command Target (ACT). The client may first probe for the required buffer size by issuing this IOCTL in the following manner:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DeviceIoControl(
+
+```cpp
+DeviceIoControl(
     hDevice,
     IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS,
     &pdoType,
@@ -62,10 +58,9 @@ This IOCTL returns a result set containing the enumeration of all active storage
     NULL,
     0,
     &dwBytesRequired,
-    NULL );</pre>
-</td>
-</tr>
-</table></span></div>
+    NULL );
+```
+
 With the output buffer parameter set to <b>NULL</b>, the I/O manager clears the IRP_INPUT_OPERATION bit in the IRP flags. Upon detecting this, the storage silo driver can safely set IoStatus.Information to the required buffer size, thus indicating it to the client.
 
 This only works because STATUS_BUFFER_OVERFLOW (0x80000005) is an NT_WARNING() value for which I/O manager copies IoStatus.Information into the lpBytesReturned parameter, returning that value to the client.

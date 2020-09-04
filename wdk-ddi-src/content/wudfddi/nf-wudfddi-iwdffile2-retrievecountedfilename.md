@@ -135,13 +135,9 @@ The driver calls <b>RetrieveCountedFileName</b> again to obtain the file name st
 
 The following code example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile2">IWDFFile2</a> interface from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface that a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackcreate-oncreatefile">IQueueCallbackCreate::OnCreateFile</a> callback function receives. The example calls <b>RetrieveCountedFileName</b> twice--once to obtain the file name's length and once to retrieve the file name string.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 STDMETHODCALLTYPE
 CMyQueue::OnCreateFile(
     __in IWDFIoQueue *pWdfQueue,
@@ -192,10 +188,9 @@ CMyQueue::OnCreateFile(
             goto Done;
         }
     }
-    ...</pre>
-</td>
-</tr>
-</table></span></div>
+    ...
+```
+
 
 ## -see-also
 

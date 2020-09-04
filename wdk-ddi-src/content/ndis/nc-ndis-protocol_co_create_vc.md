@@ -164,16 +164,11 @@ When a call manager or client has allocated memory for its own per-VC data and i
     this, dereference the handle and store a pointer to the protocol-allocated data area as the value of the
     handle. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*ProtocolVcContext = SomeBuffer;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+*ProtocolVcContext = SomeBuffer;
+```
+
 If 
     <i>ProtocolCoCreateVc</i> cannot allocate the resource it needs to carry out subsequent network I/O
     operations, it should free all resources that were allocated for this VC and return control with a status
@@ -208,35 +203,25 @@ To define a <i>ProtocolCoCreateVc</i> function, you must first provide a functio
 
 For example, to define a <i>ProtocolCoCreateVc</i> function that is named "MyCoCreateVc", use the <b>PROTOCOL_CO_CREATE_VC</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CO_CREATE_VC MyCoCreateVc;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+PROTOCOL_CO_CREATE_VC MyCoCreateVc;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NDIS_STATUS
  MyCoCreateVc(
     NDIS_HANDLE  ProtocolAfContext,
     NDIS_HANDLE  NdisVcHandle,
     PNDIS_HANDLE  ProtocolVcContext
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>PROTOCOL_CO_CREATE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_CREATE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

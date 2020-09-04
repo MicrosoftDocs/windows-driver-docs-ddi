@@ -125,23 +125,18 @@ Pointer to a caller-supplied callback routine. The Filter Manager calls this rou
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
 (*PFLT_CONNECT_NOTIFY) (
       IN PFLT_PORT ClientPort,
       IN PVOID ServerPortCookie,
       IN PVOID ConnectionContext,
       IN ULONG SizeOfContext,
       OUT PVOID *ConnectionPortCookie
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 
@@ -185,19 +180,14 @@ Pointer to a caller-supplied callback routine to be called whenever the user-mod
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
 (*PFLT_DISCONNECT_NOTIFY) (
       IN PVOID ConnectionCookie
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 
@@ -213,13 +203,9 @@ Pointer to a caller-supplied callback routine. The Filter Manager calls this rou
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
 (*PFLT_MESSAGE_NOTIFY) (
       IN PVOID PortCookie,
       IN PVOID InputBuffer OPTIONAL,
@@ -227,10 +213,9 @@ This routine is declared as follows:
       OUT PVOID OutputBuffer OPTIONAL,
       IN ULONG OutputBufferLength,
       OUT PULONG ReturnOutputBufferLength
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 

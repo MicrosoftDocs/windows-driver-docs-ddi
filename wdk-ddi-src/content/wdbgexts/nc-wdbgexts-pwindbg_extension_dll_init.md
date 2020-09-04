@@ -60,10 +60,9 @@ A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to fu
 </tr>
 <tr>
 <td>
-<pre>WINDBG_EXTENSION_APIS64   ExtensionApis;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre>WINDBG_EXTENSION_APIS64   ExtensionApis;
+```
+
 
 ### -param MajorVersion
 

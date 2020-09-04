@@ -75,13 +75,9 @@ The client driver returns completion status in <i>Request</i>.  The driver can c
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 RootHub_EvtRootHubGetInfo(
     UCXROOTHUB         UcxRootHub,
     WDFREQUEST         Request
@@ -124,10 +120,9 @@ RootHub_EvtRootHubGetInfo(
 RootHub_EvtRootHubGetInfo:
 
     WdfRequestComplete(Request, status);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

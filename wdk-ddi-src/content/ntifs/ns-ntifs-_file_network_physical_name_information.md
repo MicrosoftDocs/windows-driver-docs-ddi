@@ -161,10 +161,9 @@ The following is an example of querying the network physical name  information o
 
     return Status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

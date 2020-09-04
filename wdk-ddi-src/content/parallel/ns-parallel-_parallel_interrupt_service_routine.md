@@ -66,19 +66,14 @@ Pointer to a context for the interrupt service routine.
 
 Pointer to an optional deferred port check routine:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 (*DeferredPortCheckRoutine) (
     IN PVOID DeferredContext
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 <b>Parameters</b>
 
 

@@ -178,16 +178,11 @@ If the DESCRIPTOR_SYNCH_ON_TIME flag is set, this member specifies the isochrono
 
 Pointer to a callback routine. If non-NULL, the bus driver calls this routine to indicate that the associated attached buffers are ready to be detached. The callback executes at IRQL DISPATCH_LEVEL. The callback is of the following type:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void Callback(IN PVOID Context1, IN PVOID Context2);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+void Callback(IN PVOID Context1, IN PVOID Context2);
+```
+
 
 ### -field Context1
 

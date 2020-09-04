@@ -68,23 +68,18 @@ For more information about completing an I/O request, see <a href="https://docs.
 
 The following code example completes a request with the failure that occurred when a memory object could not be retrieved.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    IWDFIoRequest* FxRequest;
+
+```cpp
+    IWDFIoRequest* FxRequest;
     HRESULT hr = S_OK;
     IWDFMemory* FxInputMemory = NULL;
  
     FxRequest->GetInputMemory(&FxInputMemory);
     if (S_OK != hr) {
         FxRequest->Complete(hr);
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 

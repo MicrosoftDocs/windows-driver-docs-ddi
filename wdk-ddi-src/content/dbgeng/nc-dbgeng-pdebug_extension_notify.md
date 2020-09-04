@@ -53,10 +53,9 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
+```
+
 
 ## -parameters
 

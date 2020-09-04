@@ -62,21 +62,16 @@ The size, in bytes, of this structure.
 
 Pointer to a completion callback routine to be called when a function-level device reset is completed. The function prototype for this callback routine is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```cpp
+typedef
 VOID
 (*PDEVICE_RESET_COMPLETION)(
     _In_ NTSTATUS Status,
     _Inout_opt_ PVOID Context
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 ### -field CompletionContext
 

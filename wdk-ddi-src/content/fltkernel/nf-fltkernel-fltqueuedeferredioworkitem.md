@@ -65,21 +65,16 @@ A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hard
 [in]
 A pointer to a caller-supplied worker routine. This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
 (*PFLT_DEFERRED_IO_WORKITEM_ROUTINE) (
       _in PFLT_DEFERRED_IO_WORKITEM  FltWorkItem,
       __in PFLT_CALLBACK_DATA  CallbackData,
       __in_opt PVOID  Context
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 

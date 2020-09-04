@@ -81,25 +81,16 @@ To define an <i>AddDevice</i> callback routine, you must first provide a functio
 
 For example, to define an <i>AddDevice</i> callback routine that is named <code>MyAddDevice</code>, use the DRIVER_ADD_DEVICE type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DRIVER_ADD_DEVICE MyAddDevice;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+DRIVER_ADD_DEVICE MyAddDevice;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NTSTATUS
   MyAddDevice(
     struct _DRIVER_OBJECT  *DriverObject,
@@ -107,10 +98,9 @@ NTSTATUS
     )
   {
       // Function body
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The DRIVER_ADD_DEVICE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_ADD_DEVICE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

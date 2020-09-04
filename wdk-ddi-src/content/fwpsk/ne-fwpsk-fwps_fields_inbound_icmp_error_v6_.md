@@ -202,13 +202,9 @@ The following macros in
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_INBOUND_ICMP_ERROR_V6 enumeration
     values:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #if (NTDDI_VERSION >= NTDDI_WIN6SP1)   
 
 #define FWPS_FIELD_INBOUND_ICMP_ERROR_V6_LOCAL_INTERFACE_INDEX \
@@ -224,10 +220,9 @@ The following macros in
         FWPS_FIELD_INBOUND_ICMP_ERROR_V6_TUNNEL_TYPE
 
 #endif // (NTDDI_VERSION >= NTDDI_WIN6SP1)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV6 data fields:
 
 FWPS_FIELD_INBOUND_ICMP_ERROR_V6_LOCAL_INTERFACE_INDEX  

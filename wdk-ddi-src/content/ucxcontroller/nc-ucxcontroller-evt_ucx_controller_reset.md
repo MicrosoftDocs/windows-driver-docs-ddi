@@ -66,13 +66,9 @@ If the client driver calls <a href="https://docs.microsoft.com/windows-hardware/
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 Controller_EvtControllerReset(
     UCXCONTROLLER UcxController
 )
@@ -95,10 +91,9 @@ Controller_EvtControllerReset(
     DbgTrace(TL_INFO, Controller, "Controller_EvtControllerReset");
 
     UcxControllerResetComplete(UcxController, &controllerResetCompleteInfo);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

@@ -304,19 +304,14 @@ Contains information related to the <i>ControlType</i>.
 <td>
 Caller-allocated SCSI_SUPPORTED_CONTROL_TYPE_LIST structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST {
+
+```cpp
+typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST {
     IN ULONG MaxControlType;
     OUT BOOLEAN SupportedTypeList[0];
-} SCSI_SUPPORTED_CONTROL_TYPE_LIST, *PSCSI_SUPPORTED_CONTROL_TYPE_LIST;</pre>
-</td>
-</tr>
-</table></span></div>
+} SCSI_SUPPORTED_CONTROL_TYPE_LIST, *PSCSI_SUPPORTED_CONTROL_TYPE_LIST;
+```
+
 
 <dl>
 <dt><a id="MaxControlType"></a><a id="maxcontroltype"></a><a id="MAXCONTROLTYPE"></a><b>MaxControlType</b></dt>
@@ -359,21 +354,16 @@ The miniport driver must not set any element beyond <b>SupportedTypeList</b>[<b>
 <td>
 Caller-allocated STOR_UC_DEVICE_USAGE structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_UC_DEVICE_USAGE {
+
+```cpp
+typedef struct _STOR_UC_DEVICE_USAGE {
     PSTOR_ADDRESS   Address;
     SCSI_UC_DEVICE_USAGE_TYPE   UsageType;
     BOOLEAN InUse;
 } STOR_UC_DEVICE_USAGE, *PSTOR_UC_DEVICE_USAGE;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Address"></a><a id="address"></a><a id="ADDRESS"></a><b>Address</b></dt>
@@ -412,21 +402,16 @@ The  <b>STOR_ADDR_BTL8</b> address of the unit to start.
 <td>
 Caller-allocated STOR_UNIT_CONTROL_POWER structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_UNIT_CONTROL_POWER {
+
+```cpp
+typedef struct _STOR_UNIT_CONTROL_POWER {
     PSTOR_ADDRESS               Address;
     STOR_POWER_ACTION           PowerAction;
     STOR_DEVICE_POWER_STATE     PowerState;
 } STOR_UNIT_CONTROL_POWER, *PSTOR_UNIT_CONTROL_POWER;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Address"></a><a id="address"></a><a id="ADDRESS"></a><b>Address</b></dt>
@@ -455,20 +440,15 @@ The current unit power state. This is either <b>StorPowerDeviceD0</b> or <b>Stor
 <td>
 Caller-allocated STOR_POFX_UNIT_POWER_INFO structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_UNIT_POWER_INFO {
+
+```cpp
+typedef struct _STOR_POFX_UNIT_POWER_INFO {
     STOR_POWER_CONTROL_HEADER   Header;
     BOOLEAN                     IdlePowerEnabled;
 } STOR_POFX_UNIT_POWER_INFO, *PSTOR_POFX_UNIT_POWER_INFO;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -492,20 +472,15 @@ The power control header structure.
 <td>
 Caller-allocated STOR_POFX_POWER_REQUIRED_CONTEXT structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_POWER_REQUIRED_CONTEXT {
+
+```cpp
+typedef struct _STOR_POFX_POWER_REQUIRED_CONTEXT {
     STOR_POWER_CONTROL_HEADER Header;
     BOOLEAN                   PowerRequired;ScsiUnitRichDescription
 } STOR_POFX_POWER_REQUIRED_CONTEXT, *PSTOR_POFX_POWER_REQUIRED_CONTEXT;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -529,21 +504,16 @@ The power control header structure.
 <td>
 Caller-allocated STOR_POFX_ACTIVE_CONTEXT structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_ACTIVE_CONTEXT {
+
+```cpp
+typedef struct _STOR_POFX_ACTIVE_CONTEXT {
     STOR_POWER_CONTROL_HEADER   Header;
     ULONG                       ComponentIndex;
     BOOLEAN                     Active;
 } STOR_POFX_ACTIVE_CONTEXT, *PSTOR_POFX_ACTIVE_CONTEXT;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -572,21 +542,16 @@ The active status of the component. <b>Active</b> is  set to <b>TRUE</b> if the 
 <td>
 Caller-allocated STOR_POFX_FSTATE_CONTEXT structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_FSTATE_CONTEXT {
+
+```cpp
+typedef struct _STOR_POFX_FSTATE_CONTEXT {
     STOR_POWER_CONTROL_HEADER   Header;
     ULONG                       ComponentIndex;
     ULONG                       FState;
 } STOR_POFX_FSTATE_CONTEXT, *PSTOR_POFX_FSTATE_CONTEXT;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -615,13 +580,9 @@ The F-state to set for the unit component.
 <td>
 Caller-allocated STOR_POFX_POWER_CONTROL structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POFX_POWER_CONTROL {
+
+```cpp
+typedef struct _STOR_POFX_POWER_CONTROL {
     STOR_POWER_CONTROL_HEADER   Header;
     LPCGUID                     PowerControlCode;
     SIZE_T                      InBufferSize;
@@ -630,10 +591,9 @@ Caller-allocated STOR_POFX_POWER_CONTROL structure.
     PVOID                       OutBuffer;
     PSIZE_T                     BytesReturned;
 } STOR_POFX_POWER_CONTROL, *PSTOR_POFX_POWER_CONTROL;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -702,13 +662,9 @@ The <b>STOR_ADDR_BTL8</b> address of the unit being surprise-removed.
 <td>
 Caller-allocated <b>STOR_RICH_DEVICE_DESCRIPTION</b> structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define STOR_RICH_DEVICE_DESCRIPTION_STRUCTURE_VERSION_V2   0x2
+
+```cpp
+#define STOR_RICH_DEVICE_DESCRIPTION_STRUCTURE_VERSION_V2   0x2
 
 typedef struct _STOR_RICH_DEVICE_DESCRIPTION_V2 {
 
@@ -722,10 +678,9 @@ typedef struct _STOR_RICH_DEVICE_DESCRIPTION_V2 {
     PSTOR_ADDRESS Address;
 
 } STOR_RICH_DEVICE_DESCRIPTION_V2, *PSTOR_RICH_DEVICE_DESCRIPTION_V2;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 <dl>
 <dt><a id="Version"></a><a id="version"></a><a id="VERSION"></a><b>Version</b></dt>
@@ -765,21 +720,16 @@ The address of the device for which the rich device description is desired.  Thi
 
 For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the following definition in <i>storport.h</i>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _STOR_POWER_CONTROL_HEADER {
+
+```cpp
+typedef struct _STOR_POWER_CONTROL_HEADER {
     ULONG Version;
     ULONG Size;
     PSTOR_ADDRESS Address;
 } STOR_POWER_CONTROL_HEADER, *PSTOR_POWER_CONTROL_HEADER;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 #### Version
 
@@ -832,22 +782,17 @@ The unit control operation was not successful.
 
 The name <b>HwStorUnitControl</b>  is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```cpp
+typedef
 SCSI_UNIT_CONTROL_STATUS
 HW_UNIT_CONTROL (
   _In_ PVOID  DeviceExtension,
   _In_ SCSI_UNIT_CONTROL_TYPE  ControlType,
   _In_ PVOID  Parameters
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 ## -see-also
 

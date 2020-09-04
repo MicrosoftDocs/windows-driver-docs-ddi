@@ -80,22 +80,17 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WUDF_WORKITEM_CONFIG config;
+
+```cpp
+WUDF_WORKITEM_CONFIG config;
         
 WUDF_WORKITEM_CONFIG_INIT(&config, OnWorkItem); 
 hr = m_IWdfDevice3->CreateWorkItem(&config,
                                    m_IWdfDevice3,   
                                    &m_WorkItem);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

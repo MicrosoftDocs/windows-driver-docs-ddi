@@ -134,10 +134,9 @@ CreateandSubmitURBExit:
     return status;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

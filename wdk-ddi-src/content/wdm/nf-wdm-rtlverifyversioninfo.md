@@ -155,20 +155,15 @@ VER_PRODUCT_TYPE
 Specifies how to compare each <b>VersionInfo</b> member. To set the value of <i>ConditionMask</i>, a caller should use the <b>VER_SET_CONDITION</b> macro:
 						  
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VER_SET_CONDITION (
+
+```cpp
+VER_SET_CONDITION (
         IN OUT  ULONGLONG  ConditionMask,
         IN ULONG  TypeBitMask,
         IN UCHAR  ComparisonType
-        );</pre>
-</td>
-</tr>
-</table></span></div>
+        );
+```
+
 The value of <i>ConditionMask</i> is created in the following way:
 
 <ul>

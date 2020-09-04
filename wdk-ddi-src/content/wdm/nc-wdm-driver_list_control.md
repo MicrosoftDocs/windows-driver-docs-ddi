@@ -81,25 +81,16 @@ To define an <i>AdapterListControl</i> callback routine, you must first provide 
 
 For example, to define an <i>AdapterListControl</i> callback routine that is named <code>MyAdapterListControl</code>, use the DRIVER_LIST_CONTROL type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DRIVER_LIST_CONTROL MyAdapterListControl;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+DRIVER_LIST_CONTROL MyAdapterListControl;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MyAdapterListControl(
     struct _DEVICE_OBJECT  *DeviceObject,
@@ -109,10 +100,9 @@ VOID
     )
   {
       // Function body
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The DRIVER_LIST_CONTROL function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_LIST_CONTROL function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 For detailed information about implementing an <i>AdapterListControl</i> routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-scatter-gather-dma">Using Scatter/Gather DMA</a>. 

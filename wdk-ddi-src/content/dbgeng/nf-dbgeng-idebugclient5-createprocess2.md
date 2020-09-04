@@ -80,16 +80,11 @@ Specifies the starting directory for the process.  If <i>InitialDirectory</i> is
 [in, optional]
 Specifies an environment block for the new process.  An environment block consists of a null-terminated block of null-terminated strings.  Each string is of the form:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>name=value</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+name=value
+```
+
 Note that the last two characters of the environment block are both <b>NULL</b>: one to terminate the string and one to terminate the block.
 
 If <i>Environment</i> is set to <b>NULL</b>, the new process inherits the environment block of the process server.  If the DEBUG_CREATE_PROCESS_THROUGH_RTL flag is set in <i>OptionsBuffer</i>, then <i>Environment</i> must be <b>NULL</b>.

@@ -118,8 +118,7 @@ Starting with Windows 8, <b>KeInitializeCrashDumpHeader</b> is declared in the 
     __out PVOID  Buffer,
     __in ULONG  BufferSize,
     __out_opt PULONG  BufferNeeded
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 

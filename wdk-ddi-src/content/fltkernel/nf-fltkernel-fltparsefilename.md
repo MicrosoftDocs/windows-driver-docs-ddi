@@ -80,16 +80,11 @@ Pointer to a UNICODE_STRING structure that receives the final name component par
 
 The following is an example of a normalized name for a local file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1
+```
+
 <b>FltParseFileName</b> parses this normalized name as follows: 
 
 <i>Extension</i>: "txt" 
@@ -100,16 +95,11 @@ The following is an example of a normalized name for a local file:
 
 The following is an example of a short name for a file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>TestRe~1.txt</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+TestRe~1.txt
+```
+
 <b>FltParseFileName</b> parses this short name as follows: 
 
 <i>Extension</i>: "txt" 

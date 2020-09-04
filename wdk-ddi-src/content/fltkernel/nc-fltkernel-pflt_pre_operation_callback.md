@@ -197,10 +197,9 @@ SwapPreReadBuffers(
     _Flt_CompletionContext_Outptr_ PVOID *CompletionContext
     );
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

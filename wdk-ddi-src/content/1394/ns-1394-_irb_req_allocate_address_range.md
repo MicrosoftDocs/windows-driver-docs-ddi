@@ -183,28 +183,18 @@ Notify the device driver after carrying out an asynchronous lock operation.
 
 Points to a device driver callback routine. If the device driver specifies that the bus driver notify the device driver for each asynchronous I/O request, <b>u.AllocateAddressRange.Callback</b> points to the device driver's notification routine, which must have the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID DriverNotificationRoutine(IN PNOTIFICATION_INFO );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+VOID DriverNotificationRoutine(IN PNOTIFICATION_INFO );
+```
+
 If the device driver specifies that it receives no notification, and submits this request at raised IRQL through the port driver's physical mapping routine, then <b>u.AllocateAddressRange.Callback</b> points to the device driver's allocation completion routine, which must have the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID AllocationCompletionRoutine( IN PVOID );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+VOID AllocationCompletionRoutine( IN PVOID );
+```
+
 Drivers that do not request notification, and submit this request in the normal way at PASSIVE_LEVEL, must set this member to <b>NULL</b>.
 
 ### -field Context

@@ -121,10 +121,9 @@ if (!NT_SUCCESS(status))
 //
 
 ...
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

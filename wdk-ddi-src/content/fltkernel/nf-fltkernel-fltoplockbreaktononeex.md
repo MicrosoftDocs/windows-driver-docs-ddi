@@ -85,20 +85,15 @@ A pointer to a caller-supplied callback routine. If an oplock break is in progre
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
 (*PFLTOPLOCK_WAIT_COMPLETE_ROUTINE) (
     __in PFLT_CALLBACK_DATA CallbackData,
  __in_opt PVOID Context
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 This routine has the following parameters: 
 
 
@@ -122,20 +117,15 @@ A pointer to a caller-supplied callback routine to be called if the I/O operatio
 
 This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
 (*PFLTOPLOCK_PREPOST_CALLBACKDATA_ROUTINE) (
     __in PFLT_CALLBACK_DATA CallbackData,
  __in_opt PVOID Context
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 This routine has the following parameters: 
 
 

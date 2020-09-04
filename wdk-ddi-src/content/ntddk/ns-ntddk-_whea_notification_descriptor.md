@@ -123,13 +123,9 @@ The size, in bytes, of the <b>WHEA_NOTIFICATION_DESCRIPTOR</b> structure.
 
 A WHEA_NOTIFICATION_FLAGS union that indicates which of the members of the <b>WHEA_NOTIFICATION_DESCRIPTOR</b> structure can be written to by the operating system. The WHEA_NOTIFICATION_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_NOTIFICATION_FLAGS {
+
+```cpp
+typedef union _WHEA_NOTIFICATION_FLAGS {
   struct {
     USHORT  PollIntervalRW:1;
     USHORT  SwitchToPollingThresholdRW:1;
@@ -139,10 +135,9 @@ A WHEA_NOTIFICATION_FLAGS union that indicates which of the members of the <b>WH
     USHORT  Reserved:11;
   };
   USHORT  AsUSHORT;
-} WHEA_NOTIFICATION_FLAGS, *PWHEA_NOTIFICATION_FLAGS</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_NOTIFICATION_FLAGS, *PWHEA_NOTIFICATION_FLAGS
+```
+
 <table>
 <tr>
 <th>Value</th>

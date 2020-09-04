@@ -71,13 +71,9 @@ The UCX client driver registers its <i>EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBE
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
 Controller_EvtControllerGetCurrentFrameNumber(
     UCXCONTROLLER   UcxController,
     PULONG          FrameNumber
@@ -96,10 +92,9 @@ Controller_EvtControllerGetCurrentFrameNumber(
     DbgTrace(TL_INFO, Controller, "Controller_EvtControllerGetCurrentFrameNumber");
 
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

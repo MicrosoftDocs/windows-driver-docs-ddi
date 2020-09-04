@@ -53,10 +53,9 @@ The <i>FreeStackSymFrames</i> callback function frees memory from a stack provid
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;
+```
+
 
 ## -parameters
 

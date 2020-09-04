@@ -98,21 +98,16 @@ NTSTATUS EnumLogEntry(
 
 The routine definition that is provided on this reference page is an example routine whose parameters are just placeholder names. The actual prototype of the routine is declared in <i>usbbusif.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   (USB_BUSIFFN *PUSB_BUSIFFN_ENUM_LOG_ENTRY) (
     IN PVOID,
     IN ULONG,
     IN ULONG,
     IN ULONG,
     IN ULONG
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 

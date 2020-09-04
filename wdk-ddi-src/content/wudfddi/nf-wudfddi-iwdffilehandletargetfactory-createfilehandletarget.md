@@ -119,13 +119,9 @@ For more information about <b>CreateFileHandleTarget</b> and I/O targets, see <a
 
 The following code example shows how to create a file-handle-based I/O target for a named pipe. In this example, <i>m_FxDevice</i> is the interface pointer that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a> provides.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 CComPtr<IWDFFileHandleTargetFactory> pFileHandleTargetFactory;
 //
 // Create a pipe and get the handle.
@@ -155,10 +151,9 @@ if (SUCCEEDED(hr)) {
 if (SUCCEEDED(hr)) {
     hr = pFileHandleTargetFactory->CreateFileHandleTarget(m_WriteHandle,
                                                           &m_WriteTarget);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

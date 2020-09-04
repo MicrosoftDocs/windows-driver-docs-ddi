@@ -64,18 +64,13 @@ Optional pointer to a client driver-defined <a href="https://docs.microsoft.com/
 
 The client driver calls <b>UfxDeviceNotifyHardwareFailure</b> when the controller has entered a non-recoverable hardware failure (such as PHY lockup). UFX can try resetting the controller to see if the controller can be recovered. The following example shows the syntax for the call:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    UfxDeviceNotifyHardwareFailure(
+
+```cpp
+    UfxDeviceNotifyHardwareFailure(
         ControllerContext->UfxDevice,
         (PUFX_HARDWARE_FAILURE_CONTEXT) HardwareFailureContext);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

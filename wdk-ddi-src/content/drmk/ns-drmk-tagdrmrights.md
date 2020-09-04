@@ -221,10 +221,9 @@ The <b>DEFINE_DRMRIGHTS_DEFAULT</b> macro defines a constant <b>DRMRIGHTS</b> st
 <td>
 <pre>VOID DEFINE_DRMRIGHTS_DEFAULT(
    DRMRIGHTS DrmRights
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 Parameters
 
 <i>DrmRights</i>

@@ -376,10 +376,9 @@ This code snippet illustrates the use of the  %Y format specifier.
     return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 This sample code would generate the following output.
 
 <div class="code"><span codelanguage="cpp"><table>
@@ -403,10 +402,9 @@ DML/NORMAL Y{as} 32value : '         '
 DML/NORMAL Y{ps} 64bit   : '        '
 DML/NORMAL Y{ps} 32value : '        '
 DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ### -param Args 
 

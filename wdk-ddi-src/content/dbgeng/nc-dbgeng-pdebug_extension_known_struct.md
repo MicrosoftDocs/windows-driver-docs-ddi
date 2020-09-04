@@ -57,10 +57,9 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 </tr>
 <tr>
 <td>
-<pre> CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre> CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;
+```
+
 
 ## -parameters
 

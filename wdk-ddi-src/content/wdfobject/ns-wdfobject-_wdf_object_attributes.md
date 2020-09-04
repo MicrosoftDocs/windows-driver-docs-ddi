@@ -104,30 +104,21 @@ For more information about using these macros, see <a href="https://docs.microso
 
 Use the <b>ContextSizeOverride</b> member of WDF_OBJECT_ATTRIBUTES if you want to create <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">object context space</a> that has a variable length. For example, you might define a context space structure that contains an array, as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _MY_REQUEST_CONTEXT {
+
+```cpp
+typedef struct _MY_REQUEST_CONTEXT {
   ULONG  ByteCount;
   BYTE  Bytes[1];
 } MY_REQUEST_CONTEXT, *PMY_REQUEST_CONTEXT;
 
-WDF_DECLARE_CONTEXT_TYPE(MY_REQUEST_CONTEXT);</pre>
-</td>
-</tr>
-</table></span></div>
+WDF_DECLARE_CONTEXT_TYPE(MY_REQUEST_CONTEXT);
+```
+
 When your driver creates an object that uses the context space structure, it can use the <b>ContextSizeOverride</b> member to specify the context size that is needed for each individual object. For example, your driver might calculate the number of bytes that are needed in the array from the preceding example and then use <b>ContextSizeOverride</b> to specify the extra bytes, as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES MyRequestObjectAttributes;
+
+```cpp
+WDF_OBJECT_ATTRIBUTES MyRequestObjectAttributes;
 PMY_REQUEST_CONTEXT pMyContext;
 
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
@@ -135,26 +126,20 @@ WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
                                         MY_REQUEST_CONTEXT
                                         );
 MyRequestObjectAttributes.ContextSizeOverride =
-                          sizeof(MY_REQUEST_CONTEXT) + Num_Extra_Bytes - 1;</pre>
-</td>
-</tr>
-</table></span></div>
+                          sizeof(MY_REQUEST_CONTEXT) + Num_Extra_Bytes - 1;
+```
+
 The driver can then create an object with a customized context size.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfRequestCreate(
+
+```cpp
+status = WdfRequestCreate(
                           &MyRequestObjectAttributes,
                           ioTarget,
                           &newRequest
-                          );</pre>
-</td>
-</tr>
-</table></span></div>
+                          );
+```
+
 
 For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).
 

@@ -101,10 +101,9 @@ The DEBUG_READ_USER_MINIDUMP_STREAM structure holds the parameters for the DEBUG
     OUT PVOID  Buffer;
     IN ULONG  BufferSize;
     OUT ULONG  BufferUsed;
-} DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM;</pre>
-</td>
-</tr>
-</table></span></div>
+} DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM;
+```
+
 <h3><a id="Members"></a><a id="members"></a><a id="MEMBERS"></a>Members</h3>
 
 

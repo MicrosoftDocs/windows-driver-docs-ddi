@@ -75,13 +75,9 @@ For more information about idle power-down, see <a href="https://docs.microsoft.
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wudf_device_power_policy_idle_settings">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure and sets an idle time-out value of 10 seconds. The example then obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface and calls <b>AssignS0IdleSettingsEx</b>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IWDFDevice3 *pIWDFDevice3 = NULL;
+
+```cpp
+IWDFDevice3 *pIWDFDevice3 = NULL;
 HRESULT hr;
 
 WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS  idleSettings;
@@ -107,10 +103,9 @@ if (SUCCEEDED(hr))
 ...
 
 SAFE_RELEASE(pIWDFDevice3);
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
+
 
 ## -see-also
 

@@ -76,13 +76,9 @@ Otherwise, if the driver supports role detection, it must set  <i>HardwareEventR
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 EVT_WDF_DEVICE_PREPARE_HARDWARE EvtDevicePrepareHardware;
 
 
@@ -124,10 +120,9 @@ EvtDevicePrepareHardware (
 
 
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

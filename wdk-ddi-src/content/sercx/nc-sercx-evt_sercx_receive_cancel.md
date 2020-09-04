@@ -75,10 +75,9 @@ The function type for this callback is declared in Sercx.h, as follows.
 <pre>typedef VOID
   EVT_SERCX_RECEIVE_CANCEL(
     __in WDFDEVICE Device
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 To define an <i>EvtSerCxReceiveCancel</i> callback function that is named <code>MyEvtSerCxReceiveCancel</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
 <div class="code"><span codelanguage="cpp"><table>
@@ -87,10 +86,9 @@ To define an <i>EvtSerCxReceiveCancel</i> callback function that is named <code>
 </tr>
 <tr>
 <td>
-<pre>EVT_SERCX_RECEIVE_CANCEL MyEvtSerCxReceiveCancel;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre>EVT_SERCX_RECEIVE_CANCEL MyEvtSerCxReceiveCancel;
+```
+
 Then, implement your callback function as follows.
 
 <div class="code"><span codelanguage="cpp"><table>
@@ -103,10 +101,9 @@ Then, implement your callback function as follows.
   MyEvtSerCxReceiveCancel(
     __in WDFDEVICE Device
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
+{ ... }
+```
+
 For more information about SDV requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>

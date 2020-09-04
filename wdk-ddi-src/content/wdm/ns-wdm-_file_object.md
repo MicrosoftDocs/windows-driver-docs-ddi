@@ -517,10 +517,9 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 </tr>
 <tr>
 <td>
-<pre>typedef FILE_OBJECT LOG_FILE_OBJECT, *PLOG_FILE_OBJECT, **PPLOG_FILE_OBJECT;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre>typedef FILE_OBJECT LOG_FILE_OBJECT, *PLOG_FILE_OBJECT, **PPLOG_FILE_OBJECT;
+```
+
 
 ## -see-also
 

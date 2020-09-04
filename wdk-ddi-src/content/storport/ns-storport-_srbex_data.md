@@ -240,10 +240,9 @@ The following example code fragment shows how to access the extended data for th
     }
 
     return result;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

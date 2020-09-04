@@ -75,13 +75,9 @@ The client driver returns completion status in <i>Request</i> and in the USBD_ST
 
 This example shows how to register callbacks for individual feature request types.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubClearHubFeature;
+
+```cpp
+EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubClearHubFeature;
 EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubClearPortFeature;
 EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetHubStatus;
 EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetPortStatus;
@@ -113,19 +109,14 @@ EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetPortErrorCount;
                               &ucxRootHubConfig,
                               &objectAttributes,
                               &ucxRootHub);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 Here is a sample implementation of one of the URB-specific request handlers.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 RootHub_EvtRootHubClearHubFeature(
     UCXROOTHUB         UcxRootHub,
     WDFREQUEST         ControlUrb
@@ -149,10 +140,9 @@ Routine Description:
     ...
 
     WdfRequestComplete(ControlUrb, STATUS_SUCCESS);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

@@ -90,10 +90,9 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="ht
 <tr>
 <td>
 <pre>typedef PHYSICAL_ADDRESS STOR_PHYSICAL_ADDRESS, *PSTOR_PHYSICAL_ADDRESS;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address.
 
 ## -see-also

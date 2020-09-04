@@ -405,10 +405,9 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     return;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

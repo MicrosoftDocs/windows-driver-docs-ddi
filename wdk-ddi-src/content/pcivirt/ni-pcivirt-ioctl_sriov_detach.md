@@ -123,10 +123,9 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
         break;
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

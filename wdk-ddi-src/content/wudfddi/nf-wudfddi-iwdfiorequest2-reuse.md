@@ -72,13 +72,9 @@ For more information about <b>Reuse</b>, see <a href="https://docs.microsoft.com
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a> callback function can obtain the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a> interface and then call <b>Reuse</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void 
+
+```cpp
+void 
 STDMETHODCALLTYPE
 CMyRemoteDevice::OnCompletion(
     __in IWDFIoRequest*  FxRequest,
@@ -91,10 +87,9 @@ CMyRemoteDevice::OnCompletion(
     CComQIPtr<IWDFIoRequest2> fxRequest2(FxRequest);
     fxRequest2->Reuse(S_OK);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

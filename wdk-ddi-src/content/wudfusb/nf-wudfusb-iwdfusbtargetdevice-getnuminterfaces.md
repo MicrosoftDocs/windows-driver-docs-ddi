@@ -63,16 +63,11 @@ UMDF USB I/O target devices do not support multiple configurations.
 
 The following code example retrieves the number of USB interfaces for the USB device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    UCHAR NumInterfaces = pIUsbTargetDevice->GetNumInterfaces();</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+    UCHAR NumInterfaces = pIUsbTargetDevice->GetNumInterfaces();
+```
+
 
 ## -see-also
 

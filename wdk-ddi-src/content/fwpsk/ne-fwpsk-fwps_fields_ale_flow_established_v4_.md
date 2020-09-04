@@ -201,22 +201,17 @@ The following macros in
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_ALE_FLOW_ESTABLISHED_V4 enumeration
     values:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define FWPS_FIELD_ALE_FLOW_ESTABLISHED_V4_ICMP_TYPE \
         FWPS_FIELD_ALE_FLOW_ESTABLISHED_V4_IP_LOCAL_PORT
 
 #define FWPS_FIELD_ALE_FLOW_ESTABLISHED_V4_ICMP_CODE \
         FWPS_FIELD_ALE_FLOW_ESTABLISHED_V4_IP_REMOTE_PORT
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV4 data fields:
 
 FWPS_FIELD_ALE_FLOW_ESTABLISHED_V4_ICMP_TYPE  

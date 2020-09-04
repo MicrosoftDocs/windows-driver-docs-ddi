@@ -104,10 +104,9 @@ For example, to define an <i>EvtSerCx2CustomReceiveTransactionStart</i> callback
 </tr>
 <tr>
 <td>
-<pre>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START  MyCustomReceiveTransactionStart;</pre>
-</td>
-</tr>
-</table></span></div>
+<pre>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START  MyCustomReceiveTransactionStart;
+```
+
 Then, implement your callback function as follows:
 
 <div class="code"><span codelanguage="cpp"><table>
@@ -125,10 +124,9 @@ VOID
     ULONG  Offset,
     ULONG  Length
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START</b> function type is defined in the Sercx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

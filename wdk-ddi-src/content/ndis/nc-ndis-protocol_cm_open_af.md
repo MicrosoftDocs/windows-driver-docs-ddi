@@ -159,16 +159,11 @@ When a call manager has allocated its per-open state area, the address of the st
     <i>CallMgrAfContext</i> handle before returning control to NDIS. To do this, dereference 
     <i>CallMgrAfContext</i> and store a pointer to the data area as the value of the handle. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*CallMgrAfContext = SomeBuffer;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+*CallMgrAfContext = SomeBuffer;
+```
+
 If 
     <i>ProtocolCmOpenAf</i> cannot allocate the per-open resources it needs to carry out subsequent requests
     on behalf of the client opening this address family, it should free all resources that it allocated for
@@ -185,25 +180,16 @@ To define a <i>ProtocolCmOpenAf</i> function, you must first provide a function 
 
 For example, to define a <i>ProtocolCmOpenAf</i> function that is named "MyCmOpenAf", use the <b>PROTOCOL_CM_OPEN_AF</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CM_OPEN_AF MyCmOpenAf;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+PROTOCOL_CM_OPEN_AF MyCmOpenAf;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NDIS_STATUS
  MyCmOpenAf(
     NDIS_HANDLE  CallMgrBindingContext,
@@ -211,10 +197,9 @@ NDIS_STATUS
     NDIS_HANDLE  NdisAfHandle,
     PNDIS_HANDLE  CallMgrAfContext
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>PROTOCOL_CM_OPEN_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_OPEN_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

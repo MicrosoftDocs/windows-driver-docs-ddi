@@ -128,8 +128,7 @@ RtlInitUnicodeString(&EventDetails, L”Vulnerable request with data is logged i
 status = SeEtwWriteKMCveEvent( &CVEID, &EventDetails);
 
 //
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

@@ -75,13 +75,9 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>        UCM_CONNECTOR_TYPEC_ATTACH_PARAMS attachParams;
+
+```cpp
+        UCM_CONNECTOR_TYPEC_ATTACH_PARAMS attachParams;
 
         UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT(
             &attachParams,
@@ -100,10 +96,9 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
         }
 
         TRACE_INFO("UcmConnectorTypeCAttach() succeeded.");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

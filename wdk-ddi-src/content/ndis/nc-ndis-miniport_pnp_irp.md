@@ -217,34 +217,24 @@ To define a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndi
 
 For example, to define a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">MiniportFilterResourceRequirements</a> function that is named "MyFilterResourceRequirements", use the <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MINIPORT_FILTER_RESOURCE_REQUIREMENTS MyFilterResourceRequirements;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+MINIPORT_FILTER_RESOURCE_REQUIREMENTS MyFilterResourceRequirements;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NDIS_STATUS
  MyFilterResourceRequirements(
     NDIS_HANDLE  MiniportAddDeviceContext,
     PIRP  Irp
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
@@ -283,34 +273,24 @@ To define a <i>MiniportStartDevice</i> function, you must first provide a functi
 
 For example, to define a <i>MiniportStartDevice</i> function that is named "MyStartDevice", use the <b>MINIPORT_START_DEVICE</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MINIPORT_START_DEVICE MyStartDevice;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+MINIPORT_START_DEVICE MyStartDevice;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NDIS_STATUS
  MyStartDevice(
     NDIS_HANDLE  MiniportAddDeviceContext,
     PIRP  Irp
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>MINIPORT_START_DEVICE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_START_DEVICE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

@@ -79,13 +79,9 @@ After the swap operation completes, if the partner port sends a DR_Swap request,
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 EVT_UCM_CONNECTOR_SET_DATA_ROLE     EvtSetDataRole;  
 
 NTSTATUS  
@@ -104,10 +100,9 @@ EvtSetDataRole(
     TRACE_FUNC_EXIT();  
     return STATUS_SUCCESS;  
 }  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

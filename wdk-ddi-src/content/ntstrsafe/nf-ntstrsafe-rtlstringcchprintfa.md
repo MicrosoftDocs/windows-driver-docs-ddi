@@ -203,23 +203,18 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to h
 
 The following example shows a simple use of <b>RtlStringCchPrintfW</b> using four arguments.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR pszDest[30]; 
+
+```cpp
+WCHAR pszDest[30]; 
 size_t cchDest = 30;
 
 LPCWSTR pszFormat = L"%s %d + %d = %d.";
 WCHAR* pszTxt = L"The answer is";
 
 NTSTATUS status = 
-    RtlStringCchPrintfW(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);</pre>
-</td>
-</tr>
-</table></span></div>
+    RtlStringCchPrintfW(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
+```
+
 The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer at <i>pszDest</i>.
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.

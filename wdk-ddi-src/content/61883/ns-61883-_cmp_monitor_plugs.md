@@ -64,19 +64,14 @@ On input, aointer to a caller-supplied function to be called by the protocol dri
 
 This function uses the following prototype: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef void
+
+```cpp
+typedef void
 (*PCMP_MONITOR_ROUTINE) (
   IN PCMP_MONITOR_INFO  MonitorInfo
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 
 

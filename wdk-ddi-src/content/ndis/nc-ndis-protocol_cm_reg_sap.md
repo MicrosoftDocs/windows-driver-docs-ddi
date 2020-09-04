@@ -186,16 +186,11 @@ If
     <i>CallMgrSapContext</i> before returning control to NDIS. To do this, dereference 
     <i>CallMgrSapContext</i> and store a pointer to the data area as the value of the handle. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*CallMgrSapContext = SomeBuffer ;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+*CallMgrSapContext = SomeBuffer ;
+```
+
 If the given SAP that is already registered by another connection-oriented client, the call manager
     must fail the request and return NDIS_STATUS_INVALID_DATA.
 
@@ -209,25 +204,16 @@ To define a <i>ProtocolCmRegisterSap</i> function, you must first provide a func
 
 For example, to define a <i>ProtocolCmRegisterSap</i> function that is named "MyCmRegisterSap", use the <b>PROTOCOL_CM_REG_SAP</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CM_REG_SAP MyCmRegisterSap;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+PROTOCOL_CM_REG_SAP MyCmRegisterSap;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 NDIS_STATUS
  MyCmRegisterSap(
     NDIS_HANDLE  CallMgrAfContext,
@@ -235,10 +221,9 @@ NDIS_STATUS
     NDIS_HANDLE  NdisSapHandle,
     PNDIS_HANDLE  CallMgrSapContext
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>PROTOCOL_CM_REG_SAP</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_REG_SAP</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

@@ -86,10 +86,9 @@ extern NTSYSAPI CCHAR KeNumberProcessors;
 #else
 extern PCCHAR KeNumberProcessors;
 #endif
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
 Starting with Windows XP, <b>KeNumberProcessors</b> is an 8-bit integer value that indicates the number of processors in the platform. In earlier versions of Windows, <b>KeNumberProcessors</b> is a pointer to an 8-bit integer value that indicates the number of processors in the platform.
 
 ## -see-also

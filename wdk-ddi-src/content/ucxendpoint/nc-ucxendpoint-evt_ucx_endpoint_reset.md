@@ -78,13 +78,9 @@ The client driver returns completion status in the WDFREQUEST, which it might co
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
 Endpoint_EvtUcxEndpointReset(
     UCXCONTROLLER   UcxController,
     UCXENDPOINT     UcxEndpoint,
@@ -98,8 +94,7 @@ Endpoint_EvtUcxEndpointReset(
     DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxEndpointReset");
 
     WdfRequestComplete(Request, STATUS_SUCCESS);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 

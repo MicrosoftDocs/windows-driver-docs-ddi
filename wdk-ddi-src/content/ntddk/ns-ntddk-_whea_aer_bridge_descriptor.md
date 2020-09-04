@@ -82,13 +82,9 @@ The contents of the bridge's Device Control register.
 
 An AER_BRIDGE_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_BRIDGE_DESCRIPTOR structure can be written to by the operating system. The AER_BRIDGE_DESCRIPTOR_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _AER_BRIDGE_DESCRIPTOR_FLAGS {
+
+```cpp
+typedef union _AER_BRIDGE_DESCRIPTOR_FLAGS {
   struct {
     USHORT  UncorrectableErrorMaskRW:1;
     USHORT  UncorrectableErrorSeverityRW:1;
@@ -100,10 +96,9 @@ An AER_BRIDGE_DESCRIPTOR_FLAGS union that indicates which of the members of the 
     USHORT  Reserved:9;
   };
   USHORT  AsUSHORT;
-} AER_BRIDGE_DESCRIPTOR_FLAGS, *PAER_BRIDGE_DESCRIPTOR_FLAGS</pre>
-</td>
-</tr>
-</table></span></div>
+} AER_BRIDGE_DESCRIPTOR_FLAGS, *PAER_BRIDGE_DESCRIPTOR_FLAGS
+```
+
 
 
 
