@@ -88,13 +88,9 @@ Due to constraints on some buses, such as ISA, the address returned by this rout
 
 <b>ScsiPortGetPhysicalAddress</b> uses <b>SCSI_PHYSICAL_ADDRESS</b> to represent physical addresses.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef PHYSICAL_ADDRESS SCSI_PHYSICAL_ADDRESS, *PSCSI_PHYSICAL_ADDRESS;
+
+```cpp
+typedef PHYSICAL_ADDRESS SCSI_PHYSICAL_ADDRESS, *PSCSI_PHYSICAL_ADDRESS;
 
 ```
 

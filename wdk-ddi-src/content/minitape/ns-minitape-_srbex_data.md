@@ -170,13 +170,9 @@ The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a
 
 The following example code fragment shows how to access the extended data for the an SRB function of SRB_FUNCTION_PNP.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN CheckIo( _In_ PSCSI_REQUEST_BLOCK Srb)
+
+```cpp
+BOOLEAN CheckIo( _In_ PSCSI_REQUEST_BLOCK Srb)
 {
     BOOLEAN result = TRUE;
     ULONG function;

@@ -47,13 +47,9 @@ api_name:
 ## -description
 
 The <i>DebugExtensionCanUnload</i> callback function checks whether a debug extension can unload after the uninitialization call. 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_EXTENSION_CANUNLOAD DebugExtensionCanUnload;
+
+```cpp
+ CALLBACK* PDEBUG_EXTENSION_CANUNLOAD DebugExtensionCanUnload;
 ```
 
 

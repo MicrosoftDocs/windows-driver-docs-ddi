@@ -78,13 +78,9 @@ It's OK to cast among ULONG64, POINTER, and InstructionOffset. It's OK to cast a
 
 Question: When does the data type of a tag get fixed? Is it when the first FA entry with that tag is created?
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _FA_TAG_PROPS
+
+```cpp
+typedef struct _FA_TAG_PROPS
 {
     FA_TAG Tag;
     FA_ENTRY_TYPE Type;

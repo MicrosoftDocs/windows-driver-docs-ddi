@@ -81,13 +81,9 @@ Tags are defined in extsfns.h as values of the <a href="https://docs.microsoft.c
 
 The following code snippet shows a portion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>...
+
+```cpp
+...
 // Pool
 DEBUG_FLR_POOL_ADDRESS = 0x400,
 DEBUG_FLR_SPECIAL_POOL_CORRUPTION_TYPE,
@@ -110,13 +106,9 @@ DEBUG_FLR_FILE_LINE,
 
 The following example shows how to find all failure analysis entries that have a tag equal to <b>DEBUG_FLR_MANAGED_EXCEPTION_OBJECT</b>. Assume <code>pAnalysis</code> is a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FA_ENTRY entry = pAnalysis->Get(DEBUG_FLR_MANAGED_EXCEPTION_OBJECT);
+
+```cpp
+FA_ENTRY entry = pAnalysis->Get(DEBUG_FLR_MANAGED_EXCEPTION_OBJECT);
 
 while(NULL != entry)
 {
@@ -130,13 +122,9 @@ while(NULL != entry)
 
 The following example shows how to find all FA entries that have tags in the Pool group. Recall the tags in the Pool group have values in the range 0x400, 0x401, ... 0x406. Assume <code>pAnalysis</code> is a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FA_ENTRY entry = pAnalysis->GetNext(NULL, (FA_TAG)0x400, (FA_TAG)0xFFFFFF00);
+
+```cpp
+FA_ENTRY entry = pAnalysis->GetNext(NULL, (FA_TAG)0x400, (FA_TAG)0xFFFFFF00);
 
 while(NULL != entry)
 {
@@ -156,13 +144,9 @@ The following example shows how to find all failure analysis entries that have c
 
 Entries that have tags 0xA0000001, 0xA0000002, ... 0xAFFFFFF satisfy the condition. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 FA_ENTRY entry = pAnalysis->GetNext(NULL, (FA_TAG)0xA0000000, (FA_TAG)0xF0000000);
 
 while(NULL != entry)

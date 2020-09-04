@@ -164,13 +164,9 @@ When closing a file, every file system that supports file caching must call <a h
 
 The <b>CcIsFileCached</b> macro determines whether a file is cached or not.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN CcIsFileCached(
+
+```cpp
+BOOLEAN CcIsFileCached(
   [in] PFILE_OBJECT FileObject
 );
 

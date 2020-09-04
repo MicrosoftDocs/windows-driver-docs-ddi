@@ -134,13 +134,9 @@ To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 The <b>CcGetFileSizePointer</b> macro returns the size of a file, given a pointer to a file object for the file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PLARGE_INTEGER CcGetFileSizePointer(
+
+```cpp
+PLARGE_INTEGER CcGetFileSizePointer(
   [in] PFILE_OBJECT FileObject
 );
 

@@ -413,13 +413,9 @@ The caller specifies an initial key path and a table. The table contains one or 
 <div> </div>
 If the RTL_QUERY_REGISTRY_TYPECHECK flag is set in a table entry, the caller must specify the expected REG_<i>XXX</i> type in the 8 most significant bits (MSBs) of the 32-bit <b>DefaultType</b> member of the table entry. As shown in the following code example, the RTL_QUERY_REGISTRY_TYPECHECK_SHIFT constant, which is defined to be 24, can be used as the shift count required to place the expected REG_<i>XXX</i> type in the 8 MSBs of the <b>DefaultType</b> member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RTL_QUERY_REGISTRY_TABLE QueryRegTable[2];    
+
+```cpp
+RTL_QUERY_REGISTRY_TABLE QueryRegTable[2];    
 ...
 QueryRegTable[0].DefaultType = (REG_SZ << RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
 ...

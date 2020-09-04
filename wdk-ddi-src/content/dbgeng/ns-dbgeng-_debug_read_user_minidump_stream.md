@@ -87,13 +87,9 @@ The DEBUG_REQUEST_READ_USER_MINIDUMP_STREAM <a href="https://docs.microsoft.com/
 
 The DEBUG_READ_USER_MINIDUMP_STREAM structure holds the parameters for the DEBUG_REQUEST_READ_USER_MINIDUMP_STREAM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a> operation.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM
+
+```cpp
+typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM
 {
     IN ULONG  StreamType;
     IN ULONG  Flags;

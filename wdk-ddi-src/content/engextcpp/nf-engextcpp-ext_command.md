@@ -83,13 +83,9 @@ The <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT
 
 EXT_CLASS
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    #ifndef EXT_CLASS
+
+```cpp
+    #ifndef EXT_CLASS
     #define EXT_CLASS Extension
     #endif
 ```

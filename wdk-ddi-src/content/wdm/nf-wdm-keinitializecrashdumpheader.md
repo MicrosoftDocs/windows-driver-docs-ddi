@@ -105,13 +105,9 @@ In earlier versions of Windows, <b>KeInitializeCrashDumpHeader</b> writes the ba
 
 Starting with Windows 8, <b>KeInitializeCrashDumpHeader</b> is declared in the Wdm.h header file in the Windows Driver Kit (WDK). To use this routine with earlier versions of the WDK, include the following function declaration in your driver code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   KeInitializeCrashDumpHeader(
     __in ULONG  DumpType,
     __in ULONG  Flags,

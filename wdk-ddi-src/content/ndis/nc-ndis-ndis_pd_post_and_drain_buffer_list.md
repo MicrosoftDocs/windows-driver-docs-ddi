@@ -117,13 +117,9 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 The following is an example code snippet that illustrates the pointer indirections for this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PD_BUFFER* PostHead = NULL;
+
+```cpp
+PD_BUFFER* PostHead = NULL;
 PD_BUFFER** PostTail = &PostHead;
 PD_BUFFER* DrainHead = NULL;
 PD_BUFFER** DrainTail = &DrainHead;

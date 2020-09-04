@@ -148,13 +148,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 This example illustrates a valid function call.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>POWER_PLATFORM_INFORMATION PlatformInfo = {0};
+
+```cpp
+POWER_PLATFORM_INFORMATION PlatformInfo = {0};
 NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &PlatformInfo, sizeof(PlatformInfo));
 
 ```

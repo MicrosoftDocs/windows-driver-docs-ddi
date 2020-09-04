@@ -184,13 +184,9 @@ File systems round write and read operations at end of file up to a multiple of 
 
 Starting with Windows 8, <i>CompletionContext</i> uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/-flt-completioncontext-outptr--annotation">_Flt_CompletionContext_Outptr_</a> annotation which defines valid context values based on the operation result. The following is a usage example for the callback with the annotation for <i>CompletionContext</i>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FLT_PREOP_CALLBACK_STATUS
+
+```cpp
+FLT_PREOP_CALLBACK_STATUS
 SwapPreReadBuffers(
     _Inout_ PFLT_CALLBACK_DATA Data,
     _In_ PCFLT_RELATED_OBJECTS FltObjects,

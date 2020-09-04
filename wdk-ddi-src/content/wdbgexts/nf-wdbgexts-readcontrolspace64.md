@@ -75,13 +75,9 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 The <b>ReadTypedControlSpace32</b> macro is a thin wrapper around the <b>ReadControlSpace64</b> function.  It is provided as a convenience for reading processor-specific control space into a structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void ReadTypedControlSpace32(
+
+```cpp
+void ReadTypedControlSpace32(
     _Proc,
     _Addr,
     _Buf
@@ -110,13 +106,9 @@ The parameters provided to this macro are the same as those provided to the <b>R
 
 The <b>ReadTypedControlSpace64</b> macro is a thin wrapper around the <b>ReadControlSpace64</b> function.  It is provided as a convenience for reading processor-specific control space into a structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void ReadTypedControlSpace64(
+
+```cpp
+void ReadTypedControlSpace64(
     _Proc,
     _Addr,
     _Buf

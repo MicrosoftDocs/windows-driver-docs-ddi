@@ -108,13 +108,9 @@ Source Name: Microsoft-Windows-Audit-CVE or CVE-Audit
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 
 NTStatus status;
 UNICODE_STRING CVEID;

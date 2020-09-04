@@ -72,13 +72,9 @@ Review any code that currently references <b>KeNumberProcessors</b> to make sure
 
 You can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/pnpcpu">PNPCPU</a> tool to simulate hot adding a CPU for testing purposes.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if (NTDDI_VERSION >= NTDDI_VISTA)
+
+```cpp
+#if (NTDDI_VERSION >= NTDDI_VISTA)
 extern NTSYSAPI volatile CCHAR KeNumberProcessors;
 #else
 #if (NTDDI_VERSION >= NTDDI_WINXP)

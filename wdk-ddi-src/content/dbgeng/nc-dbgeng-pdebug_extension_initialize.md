@@ -47,13 +47,9 @@ api_name:
 ## -description
 
 The <b>DebugExtensionInitialize</b> callback function is called by the engine after loading a DbgEng extension DLL.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
+
+```cpp
+ CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
 ```
 
 

@@ -106,13 +106,9 @@ For data transfer operations, a buffer with alignment  matching the adapter devi
 
 In the following  example function, a   buffer is prepared as a device  aligned data transfer buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 PVOID AllocateAlignedBuffer(ULONG size, ULONG AlignmentMask, PVOID *pUnAlignedBuffer)
 {
     PVOID AlignedBuffer;

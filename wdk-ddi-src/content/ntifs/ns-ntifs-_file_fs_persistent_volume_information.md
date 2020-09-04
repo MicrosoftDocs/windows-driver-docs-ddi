@@ -174,13 +174,9 @@ To query the state flags, <b>FlagMask</b> is set to a combination of flags to ch
 
 When setting or clearing the persistent volume state flags, using <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>, <b>FlagMask</b> is set to all of the flags in <b>VolumeFlags</b> that will be affected for the volume. <b>VolumeFlags</b> contains the actual persistent state flags to set for the volume. The following example shows how to set the members of <b>FILE_FS_PERSISTENT_VOLUME_INFORMATION</b> to enable short name creation for a volume.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IO_STATUS_BLOCK IoStatus;
+
+```cpp
+IO_STATUS_BLOCK IoStatus;
 FILE_FS_PERSISTENT_VOLUME_INFORMATION PersistVolInfo;
 NTSTATUS status;
 
