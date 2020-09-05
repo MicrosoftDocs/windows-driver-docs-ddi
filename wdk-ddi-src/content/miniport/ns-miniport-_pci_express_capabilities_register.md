@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_CAPABILITIES_REGISTER
 ---
 
-# _PCI_EXPRESS_CAPABILITIES_REGISTER structure
+# _PCI_EXPRESS_CAPABILITIES_REGISTER structure (miniport.h)
 
 
 ## -description

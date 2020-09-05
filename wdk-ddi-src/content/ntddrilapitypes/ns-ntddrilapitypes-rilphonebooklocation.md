@@ -43,7 +43,7 @@ api_name:
  - RILPHONEBOOKLOCATION
 ---
 
-# RILPHONEBOOKLOCATION structure
+# RILPHONEBOOKLOCATION structure (ntddrilapitypes.h)
 
 
 ## -description

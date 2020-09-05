@@ -45,7 +45,7 @@ api_name:
  - WDF_USB_REQUEST_TYPE
 ---
 
-# _WDF_USB_REQUEST_TYPE enumeration
+# _WDF_USB_REQUEST_TYPE enumeration (wdfusb.h)
 
 
 ## -description

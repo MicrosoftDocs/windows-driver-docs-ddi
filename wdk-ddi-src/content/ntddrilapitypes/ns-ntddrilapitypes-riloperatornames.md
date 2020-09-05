@@ -43,7 +43,7 @@ api_name:
  - RILOPERATORNAMES
 ---
 
-# RILOPERATORNAMES structure
+# RILOPERATORNAMES structure (ntddrilapitypes.h)
 
 
 ## -description

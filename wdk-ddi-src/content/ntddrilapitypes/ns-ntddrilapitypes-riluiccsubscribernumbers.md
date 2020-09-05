@@ -43,7 +43,7 @@ api_name:
  - RILUMTSMRL
 ---
 
-# RILUICCSUBSCRIBERNUMBERS structure
+# RILUICCSUBSCRIBERNUMBERS structure (ntddrilapitypes.h)
 
 
 ## -description

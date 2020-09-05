@@ -42,7 +42,7 @@ f1_keywords:
  - wdm/RtlUTF8StringToUnicodeString
 ---
 
-# RtlUTF8StringToUnicodeString function
+# RtlUTF8StringToUnicodeString function (wdm.h)
 
 
 ## -description

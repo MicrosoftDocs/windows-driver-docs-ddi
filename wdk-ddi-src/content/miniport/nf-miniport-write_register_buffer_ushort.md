@@ -41,7 +41,7 @@ api_name:
  - WRITE_REGISTER_BUFFER_USHORT
 ---
 
-# WRITE_REGISTER_BUFFER_USHORT function
+# WRITE_REGISTER_BUFFER_USHORT function (miniport.h)
 
 
 ## -description

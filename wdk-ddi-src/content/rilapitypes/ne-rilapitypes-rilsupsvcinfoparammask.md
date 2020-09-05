@@ -41,7 +41,7 @@ api_name:
  - RILSUPSVCINFOPARAMMASK
 ---
 
-# RILSUPSVCINFOPARAMMASK enumeration
+# RILSUPSVCINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

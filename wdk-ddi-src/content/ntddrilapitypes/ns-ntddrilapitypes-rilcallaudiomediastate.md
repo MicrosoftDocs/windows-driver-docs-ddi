@@ -43,7 +43,7 @@ api_name:
  - RILCALLAUDIOMEDIASTATE
 ---
 
-# RILCALLAUDIOMEDIASTATE structure
+# RILCALLAUDIOMEDIASTATE structure (ntddrilapitypes.h)
 
 
 ## -description

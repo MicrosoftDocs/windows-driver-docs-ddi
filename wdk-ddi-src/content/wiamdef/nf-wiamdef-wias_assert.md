@@ -41,7 +41,7 @@ api_name:
  - WIAS_ASSERT
 ---
 
-# WIAS_ASSERT macro
+# WIAS_ASSERT macro (wiamdef.h)
 
 
 ## -description

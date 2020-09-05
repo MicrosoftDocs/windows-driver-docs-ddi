@@ -43,7 +43,7 @@ api_name:
  - RILSENDRESTRICTEDUICCCMDPARAMS
 ---
 
-# RILSENDRESTRICTEDUICCCMDPARAMS structure
+# RILSENDRESTRICTEDUICCCMDPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

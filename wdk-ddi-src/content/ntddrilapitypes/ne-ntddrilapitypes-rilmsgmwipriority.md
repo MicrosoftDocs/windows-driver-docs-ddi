@@ -41,7 +41,7 @@ api_name:
  - RILMSGMWIPRIORITY
 ---
 
-# RILMSGMWIPRIORITY enumeration
+# RILMSGMWIPRIORITY enumeration (ntddrilapitypes.h)
 
 
 ## -description

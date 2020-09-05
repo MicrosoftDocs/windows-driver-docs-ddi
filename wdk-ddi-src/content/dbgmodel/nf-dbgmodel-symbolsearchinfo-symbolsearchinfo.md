@@ -39,7 +39,7 @@ api_name:
  - SymbolSearchInfo
 ---
 
-# SymbolSearchInfo function
+# SymbolSearchInfo function (dbgmodel.h)
 
 
 ## -description

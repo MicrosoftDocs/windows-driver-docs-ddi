@@ -41,7 +41,7 @@ api_name:
  - RILSYSTEMTYPE
 ---
 
-# RILSYSTEMTYPE enumeration
+# RILSYSTEMTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

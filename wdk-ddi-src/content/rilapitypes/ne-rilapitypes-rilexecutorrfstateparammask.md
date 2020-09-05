@@ -41,7 +41,7 @@ api_name:
  - RILEXECUTORRFSTATEPARAMMASK
 ---
 
-# RILEXECUTORRFSTATEPARAMMASK enumeration
+# RILEXECUTORRFSTATEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
 ---
 
-# _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure
+# _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure (pep_x.h)
 
 
 ## -description

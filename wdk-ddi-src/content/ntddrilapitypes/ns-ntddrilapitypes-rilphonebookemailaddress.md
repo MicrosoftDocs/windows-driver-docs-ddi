@@ -43,7 +43,7 @@ api_name:
  - RILPHONEBOOKEMAILADDRESS
 ---
 
-# RILPHONEBOOKEMAILADDRESS structure
+# RILPHONEBOOKEMAILADDRESS structure (ntddrilapitypes.h)
 
 
 ## -description

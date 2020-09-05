@@ -43,7 +43,7 @@ api_name:
  - RILMANAGECALLSPARAMS_V3
 ---
 
-# RILMANAGECALLSPARAMS_V3 structure
+# RILMANAGECALLSPARAMS_V3 structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - InterfaceReference
 ---
 
-# PINTERFACE_REFERENCE callback function
+# PINTERFACE_REFERENCE callback function (miniport.h)
 
 
 ## -description

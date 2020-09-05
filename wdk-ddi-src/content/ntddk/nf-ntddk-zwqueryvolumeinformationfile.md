@@ -42,7 +42,7 @@ api_name:
  - NtQueryVolumeInformationFile
 ---
 
-# ZwQueryVolumeInformationFile function
+# ZwQueryVolumeInformationFile function (ntddk.h)
 
 
 ## -description

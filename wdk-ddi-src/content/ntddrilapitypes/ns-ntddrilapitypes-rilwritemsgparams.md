@@ -43,7 +43,7 @@ api_name:
  - RILWRITEMSGPARAMS
 ---
 
-# RILWRITEMSGPARAMS structure
+# RILWRITEMSGPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

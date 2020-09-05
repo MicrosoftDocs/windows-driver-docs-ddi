@@ -41,7 +41,7 @@ api_name:
  - RILFUNCTIONRESULTS
 ---
 
-# RILFUNCTIONRESULTS enumeration
+# RILFUNCTIONRESULTS enumeration (rilapitypes.h)
 
 
 ## -description

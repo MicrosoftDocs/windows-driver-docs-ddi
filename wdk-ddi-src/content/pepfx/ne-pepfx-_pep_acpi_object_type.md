@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_OBJECT_TYPE
 ---
 
-# _PEP_ACPI_OBJECT_TYPE enumeration
+# _PEP_ACPI_OBJECT_TYPE enumeration (pepfx.h)
 
 
 ## -description

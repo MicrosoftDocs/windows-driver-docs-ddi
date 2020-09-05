@@ -41,7 +41,7 @@ api_name:
  - RILUICCRECORDSTATUSPARAMMASK
 ---
 
-# RILUICCRECORDSTATUSPARAMMASK enumeration
+# RILUICCRECORDSTATUSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

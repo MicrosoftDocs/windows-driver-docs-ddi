@@ -45,7 +45,7 @@ api_name:
  - PEP_COMPONENT_PERF_SET
 ---
 
-# _PEP_COMPONENT_PERF_SET structure
+# _PEP_COMPONENT_PERF_SET structure (pep_x.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_PLATFORM_STATE
 ---
 
-# _PEP_PPM_QUERY_PLATFORM_STATE structure
+# _PEP_PPM_QUERY_PLATFORM_STATE structure (pep_x.h)
 
 
 ## -description

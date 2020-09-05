@@ -45,7 +45,7 @@ api_name:
  - SES_CONFIGURATION_DIAGNOSTIC_PAGE
 ---
 
-# _SES_CONFIGURATION_DIAGNOSTIC_PAGE structure
+# _SES_CONFIGURATION_DIAGNOSTIC_PAGE structure (scsi.h)
 
 
 ## -description

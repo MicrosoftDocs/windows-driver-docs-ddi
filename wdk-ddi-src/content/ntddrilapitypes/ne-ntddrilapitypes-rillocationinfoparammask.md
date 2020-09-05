@@ -41,7 +41,7 @@ api_name:
  - RILLOCATIONINFOPARAMMASK
 ---
 
-# RILLOCATIONINFOPARAMMASK enumeration
+# RILLOCATIONINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

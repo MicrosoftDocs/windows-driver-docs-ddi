@@ -43,7 +43,7 @@ api_name:
  - RILRADIOSTATEITEM
 ---
 
-# RILRADIOSTATEITEM structure
+# RILRADIOSTATEITEM structure (ntddrilapitypes.h)
 
 
 ## -description

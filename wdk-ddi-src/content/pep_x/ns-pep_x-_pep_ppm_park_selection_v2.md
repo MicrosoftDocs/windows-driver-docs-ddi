@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PARK_SELECTION_V2
 ---
 
-# _PEP_PPM_PARK_SELECTION_V2 structure
+# _PEP_PPM_PARK_SELECTION_V2 structure (pep_x.h)
 
 
 ## -description

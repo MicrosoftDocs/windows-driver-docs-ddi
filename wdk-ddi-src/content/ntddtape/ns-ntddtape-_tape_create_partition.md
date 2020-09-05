@@ -45,7 +45,7 @@ api_name:
  - TAPE_CREATE_PARTITION
 ---
 
-# _TAPE_CREATE_PARTITION structure
+# _TAPE_CREATE_PARTITION structure (ntddtape.h)
 
 
 ## -description

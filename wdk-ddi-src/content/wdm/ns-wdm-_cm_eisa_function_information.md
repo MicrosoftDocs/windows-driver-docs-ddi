@@ -45,7 +45,7 @@ api_name:
  - CM_EISA_FUNCTION_INFORMATION
 ---
 
-# _CM_EISA_FUNCTION_INFORMATION structure
+# _CM_EISA_FUNCTION_INFORMATION structure (wdm.h)
 
 
 ## -description

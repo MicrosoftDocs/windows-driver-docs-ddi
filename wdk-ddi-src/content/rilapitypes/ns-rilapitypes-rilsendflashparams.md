@@ -43,7 +43,7 @@ api_name:
  - RILSENDFLASHPARAMS
 ---
 
-# RILSENDFLASHPARAMS structure
+# RILSENDFLASHPARAMS structure (rilapitypes.h)
 
 
 ## -description

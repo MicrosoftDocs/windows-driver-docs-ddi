@@ -43,7 +43,7 @@ api_name:
  - PRI_RESERVATION_LIST
 ---
 
-# PRI_RESERVATION_LIST structure
+# PRI_RESERVATION_LIST structure (storport.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILEXECUTORSTATE
 ---
 
-# RILEXECUTORSTATE structure
+# RILEXECUTORSTATE structure (rilapitypes.h)
 
 
 ## -description

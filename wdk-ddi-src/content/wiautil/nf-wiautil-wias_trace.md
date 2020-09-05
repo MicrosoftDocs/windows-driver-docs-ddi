@@ -41,7 +41,7 @@ api_name:
  - WIAS_TRACE
 ---
 
-# WIAS_TRACE macro
+# WIAS_TRACE macro (wiautil.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILGEOLOCATIONREQUESTINFO
 ---
 
-# RILGEOLOCATIONREQUESTINFO structure
+# RILGEOLOCATIONREQUESTINFO structure (rilapitypes.h)
 
 
 ## -description

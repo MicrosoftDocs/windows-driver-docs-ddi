@@ -43,7 +43,7 @@ api_name:
  - RILIMSFAILURE
 ---
 
-# RILIMSFAILURE structure
+# RILIMSFAILURE structure (rilapitypes.h)
 
 
 ## -description

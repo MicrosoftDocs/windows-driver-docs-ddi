@@ -45,7 +45,7 @@ api_name:
  - PEP_REGISTER_CRASHDUMP_DEVICE
 ---
 
-# _PEP_REGISTER_CRASHDUMP_DEVICE structure
+# _PEP_REGISTER_CRASHDUMP_DEVICE structure (pepfx.h)
 
 
 ## -description

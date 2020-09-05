@@ -45,7 +45,7 @@ api_name:
  - STORAGE_PREDICT_FAILURE
 ---
 
-# _STORAGE_PREDICT_FAILURE structure
+# _STORAGE_PREDICT_FAILURE structure (ntddstor.h)
 
 
 ## -description

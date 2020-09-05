@@ -43,7 +43,7 @@ api_name:
  - RILPHONEBOOKREADYSTATE
 ---
 
-# RILPHONEBOOKREADYSTATE structure
+# RILPHONEBOOKREADYSTATE structure (rilapitypes.h)
 
 
 ## -description

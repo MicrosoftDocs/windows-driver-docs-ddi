@@ -44,7 +44,7 @@ api_name:
  - RILPOSITIONINFOTDSCDMA
 ---
 
-# RILPOSITIONINFOTDSCDMA structure
+# RILPOSITIONINFOTDSCDMA structure (rilapitypes.h)
 
 
 ## -description

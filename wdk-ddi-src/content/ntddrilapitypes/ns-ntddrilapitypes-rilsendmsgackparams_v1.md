@@ -41,7 +41,7 @@ api_name:
  - RILSENDMSGACKPARAMS_V1
 ---
 
-# RILSENDMSGACKPARAMS_V1 structure
+# RILSENDMSGACKPARAMS_V1 structure (ntddrilapitypes.h)
 
 
 ## -description

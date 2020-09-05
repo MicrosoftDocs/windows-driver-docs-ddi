@@ -46,7 +46,7 @@ api_name:
  - PCI_PMCSR
 ---
 
-# _PCI_PMCSR structure
+# _PCI_PMCSR structure (wdm.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_KERNEL_INFORMATION_STRUCT_V1
 ---
 
-# _PEP_KERNEL_INFORMATION_STRUCT_V3 structure
+# _PEP_KERNEL_INFORMATION_STRUCT_V3 structure (pep_x.h)
 
 
 ## -description

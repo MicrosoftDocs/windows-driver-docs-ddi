@@ -43,7 +43,7 @@ api_name:
  - RILGETOPERATORLISTPARAMS
 ---
 
-# RILGETOPERATORLISTPARAMS structure
+# RILGETOPERATORLISTPARAMS structure (rilapitypes.h)
 
 
 ## -description

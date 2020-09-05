@@ -43,7 +43,7 @@ api_name:
  - RILGETCALLBARRINGSTATUSPARAMS
 ---
 
-# RILGETCALLBARRINGSTATUSPARAMS structure
+# RILGETCALLBARRINGSTATUSPARAMS structure (rilapitypes.h)
 
 
 ## -description

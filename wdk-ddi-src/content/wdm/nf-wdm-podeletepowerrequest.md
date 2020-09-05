@@ -41,7 +41,7 @@ api_name:
  - PoDeletePowerRequest
 ---
 
-# PoDeletePowerRequest function
+# PoDeletePowerRequest function (wdm.h)
 
 
 ## -description

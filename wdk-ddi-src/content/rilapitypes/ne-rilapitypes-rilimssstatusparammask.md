@@ -41,7 +41,7 @@ api_name:
  - RILIMSSSTATUSPARAMMASK
 ---
 
-# RILIMSSSTATUSPARAMMASK enumeration
+# RILIMSSSTATUSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

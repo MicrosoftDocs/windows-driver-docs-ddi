@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_IO_MEMORY_RESOURCE
 ---
 
-# _PEP_ACPI_IO_MEMORY_RESOURCE structure
+# _PEP_ACPI_IO_MEMORY_RESOURCE structure (pep_x.h)
 
 
 ## -description

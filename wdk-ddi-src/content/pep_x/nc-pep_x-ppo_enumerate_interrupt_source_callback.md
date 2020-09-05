@@ -41,7 +41,7 @@ api_name:
  - EnumerateInterruptSource
 ---
 
-# PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback
+# PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback (pep_x.h)
 
 
 ## -description

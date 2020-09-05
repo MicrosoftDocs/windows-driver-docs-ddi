@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_ABANDON_DEVICE
 ---
 
-# _PEP_ACPI_ABANDON_DEVICE structure
+# _PEP_ACPI_ABANDON_DEVICE structure (pepfx.h)
 
 
 ## -description

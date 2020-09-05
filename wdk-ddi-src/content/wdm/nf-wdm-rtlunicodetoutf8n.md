@@ -41,7 +41,7 @@ api_name:
  - RtlUnicodeToUTF8N
 ---
 
-# RtlUnicodeToUTF8N function
+# RtlUnicodeToUTF8N function (wdm.h)
 
 
 ## -description

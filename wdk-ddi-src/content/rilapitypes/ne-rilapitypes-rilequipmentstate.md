@@ -41,7 +41,7 @@ api_name:
  - RILEQUIPMENTSTATE
 ---
 
-# RILEQUIPMENTSTATE enumeration
+# RILEQUIPMENTSTATE enumeration (rilapitypes.h)
 
 
 ## -description

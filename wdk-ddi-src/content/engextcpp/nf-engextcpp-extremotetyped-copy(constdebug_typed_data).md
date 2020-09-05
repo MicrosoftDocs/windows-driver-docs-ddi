@@ -41,7 +41,7 @@ api_name:
  - ExtRemoteTyped.Copy
 ---
 
-# ExtRemoteTyped::Copy
+# ExtRemoteTyped::Copy (engextcpp.h)
 
 
 ## -description

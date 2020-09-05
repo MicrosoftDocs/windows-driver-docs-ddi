@@ -45,7 +45,7 @@ api_name:
  - PO_FX_CORE_DEVICE
 ---
 
-# _PO_FX_CORE_DEVICE structure
+# _PO_FX_CORE_DEVICE structure (pepfx.h)
 
 
 ## -description

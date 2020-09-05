@@ -43,7 +43,7 @@ api_name:
  - RILUICCSERVICEPARAMS
 ---
 
-# RILUICCSERVICEPARAMS structure
+# RILUICCSERVICEPARAMS structure (rilapitypes.h)
 
 
 ## -description

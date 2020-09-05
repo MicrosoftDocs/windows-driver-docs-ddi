@@ -46,7 +46,7 @@ api_name:
  - InterlockedExchangeAdd
 ---
 
-# InterlockedExchangeAdd function
+# InterlockedExchangeAdd function (wdm.h)
 
 
 ## -description

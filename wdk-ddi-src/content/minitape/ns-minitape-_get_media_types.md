@@ -45,7 +45,7 @@ api_name:
  - GET_MEDIA_TYPES
 ---
 
-# _GET_MEDIA_TYPES structure
+# _GET_MEDIA_TYPES structure (minitape.h)
 
 
 ## -description

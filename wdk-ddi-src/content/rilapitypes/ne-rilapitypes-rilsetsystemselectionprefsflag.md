@@ -41,7 +41,7 @@ api_name:
  - RILSETSYSTEMSELECTIONPREFSFLAG
 ---
 
-# RILSETSYSTEMSELECTIONPREFSFLAG enumeration
+# RILSETSYSTEMSELECTIONPREFSFLAG enumeration (rilapitypes.h)
 
 
 ## -description

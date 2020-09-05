@@ -41,7 +41,7 @@ api_name:
  - RILIMSSYSTEMTYPE
 ---
 
-# RILIMSSYSTEMTYPE enumeration
+# RILIMSSYSTEMTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

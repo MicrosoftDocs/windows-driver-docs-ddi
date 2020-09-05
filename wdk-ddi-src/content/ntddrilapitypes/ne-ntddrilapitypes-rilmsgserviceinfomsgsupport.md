@@ -41,7 +41,7 @@ api_name:
  - RILMSGSERVICEINFOMSGSUPPORT
 ---
 
-# RILMSGSERVICEINFOMSGSUPPORT enumeration
+# RILMSGSERVICEINFOMSGSUPPORT enumeration (ntddrilapitypes.h)
 
 
 ## -description

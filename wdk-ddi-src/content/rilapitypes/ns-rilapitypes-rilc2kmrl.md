@@ -44,7 +44,7 @@ api_name:
  - RILC2KMRL
 ---
 
-# RILC2KMRL structure
+# RILC2KMRL structure (rilapitypes.h)
 
 
 ## -description

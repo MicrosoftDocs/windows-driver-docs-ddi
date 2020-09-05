@@ -41,7 +41,7 @@ api_name:
  - MmFreeContiguousMemory
 ---
 
-# MmFreeContiguousMemory function
+# MmFreeContiguousMemory function (ntddk.h)
 
 
 ## -description

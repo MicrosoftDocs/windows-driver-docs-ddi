@@ -41,7 +41,7 @@ api_name:
  - RILSERVICESETTINGSSTATUS
 ---
 
-# RILSERVICESETTINGSSTATUS enumeration
+# RILSERVICESETTINGSSTATUS enumeration (rilapitypes.h)
 
 
 ## -description

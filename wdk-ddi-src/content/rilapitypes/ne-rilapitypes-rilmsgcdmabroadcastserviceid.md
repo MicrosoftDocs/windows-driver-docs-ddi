@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMABROADCASTSERVICEID
 ---
 
-# RILMSGCDMABROADCASTSERVICEID enumeration
+# RILMSGCDMABROADCASTSERVICEID enumeration (rilapitypes.h)
 
 
 ## -description

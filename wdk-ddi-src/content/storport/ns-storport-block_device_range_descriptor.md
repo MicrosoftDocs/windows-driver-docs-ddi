@@ -43,7 +43,7 @@ api_name:
  - BLOCK_DEVICE_RANGE_DESCRIPTOR
 ---
 
-# BLOCK_DEVICE_RANGE_DESCRIPTOR structure
+# BLOCK_DEVICE_RANGE_DESCRIPTOR structure (storport.h)
 
 
 ## -description

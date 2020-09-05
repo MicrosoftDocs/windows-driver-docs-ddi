@@ -43,7 +43,7 @@ api_name:
  - RILGETDRIVERVERSIONPARAMS
 ---
 
-# RILGETDRIVERVERSIONPARAMS structure
+# RILGETDRIVERVERSIONPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

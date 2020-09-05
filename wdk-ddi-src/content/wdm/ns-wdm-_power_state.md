@@ -45,7 +45,7 @@ api_name:
  - POWER_STATE
 ---
 
-# _POWER_STATE structure
+# _POWER_STATE structure (wdm.h)
 
 
 ## -description

@@ -42,7 +42,7 @@ api_name:
  - RILADDRESSPARAMMASK
 ---
 
-# RILADDRESSPARAMMASK enumeration
+# RILADDRESSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILRADIOPRESENCE
 ---
 
-# RILRADIOPRESENCE enumeration
+# RILRADIOPRESENCE enumeration (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - PCI_X_CAPABILITY
 ---
 
-# PCI_X_CAPABILITY structure
+# PCI_X_CAPABILITY structure (miniport.h)
 
 
 ## -description

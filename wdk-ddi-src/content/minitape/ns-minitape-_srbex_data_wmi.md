@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA_WMI
 ---
 
-# _SRBEX_DATA_WMI structure
+# _SRBEX_DATA_WMI structure (minitape.h)
 
 
 ## -description

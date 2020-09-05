@@ -45,7 +45,7 @@ api_name:
  - GROUP_AFFINITY
 ---
 
-# _GROUP_AFFINITY structure
+# _GROUP_AFFINITY structure (miniport.h)
 
 
 ## -description

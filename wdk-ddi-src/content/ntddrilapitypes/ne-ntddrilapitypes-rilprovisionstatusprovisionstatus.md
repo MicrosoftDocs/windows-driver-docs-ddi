@@ -41,7 +41,7 @@ api_name:
  - RILPROVISIONSTATUSPROVISIONSTATUS
 ---
 
-# RILPROVISIONSTATUSPROVISIONSTATUS enumeration
+# RILPROVISIONSTATUSPROVISIONSTATUS enumeration (ntddrilapitypes.h)
 
 
 ## -description

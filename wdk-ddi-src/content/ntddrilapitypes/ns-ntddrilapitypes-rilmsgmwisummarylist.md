@@ -43,7 +43,7 @@ api_name:
  - RILMSGMWISUMMARYLIST
 ---
 
-# RILMSGMWISUMMARYLIST structure
+# RILMSGMWISUMMARYLIST structure (ntddrilapitypes.h)
 
 
 ## -description

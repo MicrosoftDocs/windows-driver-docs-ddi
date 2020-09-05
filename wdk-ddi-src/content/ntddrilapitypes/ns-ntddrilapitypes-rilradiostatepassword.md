@@ -43,7 +43,7 @@ api_name:
  - RILRADIOSTATEPASSWORD
 ---
 
-# RILRADIOSTATEPASSWORD structure
+# RILRADIOSTATEPASSWORD structure (ntddrilapitypes.h)
 
 
 ## -description

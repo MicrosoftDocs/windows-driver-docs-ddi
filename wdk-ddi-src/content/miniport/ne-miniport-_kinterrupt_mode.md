@@ -43,7 +43,7 @@ api_name:
  - KINTERRUPT_MODE
 ---
 
-# _KINTERRUPT_MODE enumeration
+# _KINTERRUPT_MODE enumeration (miniport.h)
 
 
 ## -description

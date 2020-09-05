@@ -41,7 +41,7 @@ api_name:
  - RILRADIOSTATEGROUPID
 ---
 
-# RILRADIOSTATEGROUPID enumeration
+# RILRADIOSTATEGROUPID enumeration (ntddrilapitypes.h)
 
 
 ## -description

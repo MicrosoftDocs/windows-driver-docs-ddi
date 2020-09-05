@@ -43,7 +43,7 @@ api_name:
  - RILCALLINFO_V5
 ---
 
-# RILCALLINFO_V5 structure
+# RILCALLINFO_V5 structure (ntddrilapitypes.h)
 
 
 ## -description

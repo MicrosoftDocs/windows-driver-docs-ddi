@@ -45,7 +45,7 @@ api_name:
  - TAPE_WMI_OPERATIONS
 ---
 
-# _TAPE_WMI_OPERATIONS structure
+# _TAPE_WMI_OPERATIONS structure (ntddtape.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_STATE_NAME
 ---
 
-# _PEP_PPM_QUERY_STATE_NAME structure
+# _PEP_PPM_QUERY_STATE_NAME structure (pepfx.h)
 
 
 ## -description

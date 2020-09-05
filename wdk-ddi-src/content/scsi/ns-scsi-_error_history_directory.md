@@ -37,7 +37,7 @@ api_name:
  - _ERROR_HISTORY_DIRECTORY
 ---
 
-# _ERROR_HISTORY_DIRECTORY structure
+# _ERROR_HISTORY_DIRECTORY structure (scsi.h)
 
 
 ## -description

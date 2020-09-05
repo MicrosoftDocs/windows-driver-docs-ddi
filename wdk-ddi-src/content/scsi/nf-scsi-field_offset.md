@@ -42,7 +42,7 @@ api_name:
  - FIELD_OFFSET
 ---
 
-# FIELD_OFFSET macro
+# FIELD_OFFSET macro (scsi.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - SECURITY_IMPERSONATION_LEVEL
 ---
 
-# _SECURITY_IMPERSONATION_LEVEL enumeration
+# _SECURITY_IMPERSONATION_LEVEL enumeration (wdm.h)
 
 
 ## -description

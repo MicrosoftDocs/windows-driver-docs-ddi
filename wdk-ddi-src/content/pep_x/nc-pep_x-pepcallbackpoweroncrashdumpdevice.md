@@ -41,7 +41,7 @@ api_name:
  - PowerOnDumpDeviceCallback
 ---
 
-# PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function
+# PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function (pep_x.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_POWER_CONTROL_REQUEST
 ---
 
-# _PEP_POWER_CONTROL_REQUEST structure
+# _PEP_POWER_CONTROL_REQUEST structure (pepfx.h)
 
 
 ## -description

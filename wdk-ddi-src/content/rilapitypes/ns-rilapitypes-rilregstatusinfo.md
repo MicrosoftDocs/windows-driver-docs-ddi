@@ -43,7 +43,7 @@ api_name:
  - RILREGSTATUSINFO
 ---
 
-# RILREGSTATUSINFO structure
+# RILREGSTATUSINFO structure (rilapitypes.h)
 
 
 ## -description

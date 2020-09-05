@@ -41,7 +41,7 @@ api_name:
  - ProcessorHalt
 ---
 
-# POFXCALLBACKPROCESSORHALT callback function
+# POFXCALLBACKPROCESSORHALT callback function (pep_x.h)
 
 
 ## -description

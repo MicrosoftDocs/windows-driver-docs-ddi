@@ -41,7 +41,7 @@ api_name:
  - InterlockedAnd
 ---
 
-# InterlockedAnd function
+# InterlockedAnd function (miniport.h)
 
 
 ## -description

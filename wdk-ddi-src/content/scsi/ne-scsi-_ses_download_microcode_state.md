@@ -45,7 +45,7 @@ api_name:
  - SES_DOWNLOAD_MICROCODE_STATE
 ---
 
-# _SES_DOWNLOAD_MICROCODE_STATE enumeration
+# _SES_DOWNLOAD_MICROCODE_STATE enumeration (scsi.h)
 
 
 ## -description

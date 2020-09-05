@@ -41,7 +41,7 @@ api_name:
  - RILSIGNALQUALITYPARAMMASK
 ---
 
-# RILSIGNALQUALITYPARAMMASK enumeration
+# RILSIGNALQUALITYPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

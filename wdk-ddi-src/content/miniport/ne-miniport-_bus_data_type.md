@@ -45,7 +45,7 @@ api_name:
  - BUS_DATA_TYPE
 ---
 
-# _BUS_DATA_TYPE enumeration
+# _BUS_DATA_TYPE enumeration (miniport.h)
 
 
 ## -description

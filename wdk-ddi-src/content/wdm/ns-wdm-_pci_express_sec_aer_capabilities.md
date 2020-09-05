@@ -46,7 +46,7 @@ api_name:
  - PCI_EXPRESS_SEC_AER_CAPABILITIES
 ---
 
-# _PCI_EXPRESS_SEC_AER_CAPABILITIES structure
+# _PCI_EXPRESS_SEC_AER_CAPABILITIES structure (wdm.h)
 
 
 ## -description

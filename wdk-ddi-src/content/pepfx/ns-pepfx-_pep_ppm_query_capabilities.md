@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_CAPABILITIES
 ---
 
-# _PEP_PPM_QUERY_CAPABILITIES structure
+# _PEP_PPM_QUERY_CAPABILITIES structure (pepfx.h)
 
 
 ## -description

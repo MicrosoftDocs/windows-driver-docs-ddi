@@ -41,7 +41,7 @@ api_name:
  - RILDEVICEINFORMATION
 ---
 
-# RILDEVICEINFORMATION enumeration
+# RILDEVICEINFORMATION enumeration (ntddrilapitypes.h)
 
 
 ## -description

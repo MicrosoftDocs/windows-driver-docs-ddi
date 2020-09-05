@@ -44,7 +44,7 @@ api_name:
  - POWER_ACTION
 ---
 
-# *PPOWER_ACTION enumeration
+# *PPOWER_ACTION enumeration (wdm.h)
 
 
 ## -description

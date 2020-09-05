@@ -41,7 +41,7 @@ api_name:
  - RILCALLRTTACTION
 ---
 
-# RILCALLRTTACTION enumeration
+# RILCALLRTTACTION enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - ACCESS_RANGE
 ---
 
-# _ACCESS_RANGE structure
+# _ACCESS_RANGE structure (storport.h)
 
 
 ## -description

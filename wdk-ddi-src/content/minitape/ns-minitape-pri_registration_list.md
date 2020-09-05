@@ -43,7 +43,7 @@ api_name:
  - PRI_REGISTRATION_LIST
 ---
 
-# PRI_REGISTRATION_LIST structure
+# PRI_REGISTRATION_LIST structure (minitape.h)
 
 
 ## -description

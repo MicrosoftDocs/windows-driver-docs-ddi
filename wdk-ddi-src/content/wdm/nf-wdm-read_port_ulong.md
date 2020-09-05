@@ -42,7 +42,7 @@ api_name:
  - READ_PORT_ULONG
 ---
 
-# READ_PORT_ULONG function
+# READ_PORT_ULONG function (wdm.h)
 
 
 ## -description

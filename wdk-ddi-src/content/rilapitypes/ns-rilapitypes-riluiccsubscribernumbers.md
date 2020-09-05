@@ -44,7 +44,7 @@ api_name:
  - RILUICCSUBSCRIBERNUMBERS
 ---
 
-# RILUICCSUBSCRIBERNUMBERS structure
+# RILUICCSUBSCRIBERNUMBERS structure (rilapitypes.h)
 
 
 ## -description

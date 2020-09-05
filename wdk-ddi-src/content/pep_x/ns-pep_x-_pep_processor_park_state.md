@@ -45,7 +45,7 @@ api_name:
  - PEP_PROCESSOR_PARK_STATE
 ---
 
-# _PEP_PROCESSOR_PARK_STATE structure
+# _PEP_PROCESSOR_PARK_STATE structure (pep_x.h)
 
 
 ## -description

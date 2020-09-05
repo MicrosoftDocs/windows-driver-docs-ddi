@@ -41,7 +41,7 @@ api_name:
  - RILMESSAGEPARAMMASK
 ---
 
-# RILMESSAGEPARAMMASK enumeration
+# RILMESSAGEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

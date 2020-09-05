@@ -42,7 +42,7 @@ api_name:
  - ScsiDebugPrint
 ---
 
-# ScsiDebugPrint function
+# ScsiDebugPrint function (srb.h)
 
 
 ## -description

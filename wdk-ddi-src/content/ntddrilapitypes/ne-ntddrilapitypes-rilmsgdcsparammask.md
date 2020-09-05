@@ -41,7 +41,7 @@ api_name:
  - RILMSGDCSPARAMMASK
 ---
 
-# RILMSGDCSPARAMMASK enumeration
+# RILMSGDCSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

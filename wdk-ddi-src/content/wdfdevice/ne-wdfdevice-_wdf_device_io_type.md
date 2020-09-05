@@ -45,7 +45,7 @@ api_name:
  - WDF_DEVICE_IO_TYPE
 ---
 
-# _WDF_DEVICE_IO_TYPE enumeration
+# _WDF_DEVICE_IO_TYPE enumeration (wdfdevice.h)
 
 
 ## -description

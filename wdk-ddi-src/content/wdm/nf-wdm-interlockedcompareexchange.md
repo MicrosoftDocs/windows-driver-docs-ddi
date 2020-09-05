@@ -46,7 +46,7 @@ api_name:
  - InterlockedCompareExchange
 ---
 
-# InterlockedCompareExchange function
+# InterlockedCompareExchange function (wdm.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_REGISTER_COMPONENT_PERF_STATES
 ---
 
-# _PEP_REGISTER_COMPONENT_PERF_STATES structure
+# _PEP_REGISTER_COMPONENT_PERF_STATES structure (pep_x.h)
 
 
 ## -description

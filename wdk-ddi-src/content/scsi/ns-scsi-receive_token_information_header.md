@@ -43,7 +43,7 @@ api_name:
  - RECEIVE_TOKEN_INFORMATION_HEADER
 ---
 
-# RECEIVE_TOKEN_INFORMATION_HEADER structure
+# RECEIVE_TOKEN_INFORMATION_HEADER structure (scsi.h)
 
 
 ## -description

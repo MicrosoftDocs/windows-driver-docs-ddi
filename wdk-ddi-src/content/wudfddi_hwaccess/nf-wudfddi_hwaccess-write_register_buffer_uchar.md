@@ -41,7 +41,7 @@ api_name:
  - WRITE_REGISTER_BUFFER_UCHAR
 ---
 
-# WRITE_REGISTER_BUFFER_UCHAR function
+# WRITE_REGISTER_BUFFER_UCHAR function (wudfddi_hwaccess.h)
 
 
 ## -description

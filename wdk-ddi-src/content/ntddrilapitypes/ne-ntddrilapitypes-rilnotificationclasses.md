@@ -41,7 +41,7 @@ api_name:
  - RILNOTIFICATIONCLASSES
 ---
 
-# RILNOTIFICATIONCLASSES enumeration
+# RILNOTIFICATIONCLASSES enumeration (ntddrilapitypes.h)
 
 
 ## -description

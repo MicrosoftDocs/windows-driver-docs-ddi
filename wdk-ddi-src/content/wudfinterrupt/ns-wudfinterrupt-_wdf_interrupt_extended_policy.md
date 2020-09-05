@@ -45,7 +45,7 @@ api_name:
  - WDF_INTERRUPT_EXTENDED_POLICY
 ---
 
-# _WDF_INTERRUPT_EXTENDED_POLICY structure
+# _WDF_INTERRUPT_EXTENDED_POLICY structure (wudfinterrupt.h)
 
 
 ## -description

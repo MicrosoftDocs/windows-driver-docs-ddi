@@ -41,7 +41,7 @@ api_name:
  - SeReleaseSubjectContext
 ---
 
-# SeReleaseSubjectContext function
+# SeReleaseSubjectContext function (ntifs.h)
 
 
 ## -description

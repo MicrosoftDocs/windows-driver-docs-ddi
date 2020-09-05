@@ -43,7 +43,7 @@ api_name:
  - RILNETWORKCODE
 ---
 
-# RILNETWORKCODE structure
+# RILNETWORKCODE structure (ntddrilapitypes.h)
 
 
 ## -description

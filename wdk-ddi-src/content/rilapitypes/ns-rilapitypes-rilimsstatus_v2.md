@@ -43,7 +43,7 @@ api_name:
  - RILIMSSTATUS_V2
 ---
 
-# RILIMSSTATUS_V2 structure
+# RILIMSSTATUS_V2 structure (rilapitypes.h)
 
 
 ## -description

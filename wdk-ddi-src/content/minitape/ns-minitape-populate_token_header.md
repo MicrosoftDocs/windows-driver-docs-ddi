@@ -43,7 +43,7 @@ api_name:
  - POPULATE_TOKEN_HEADER
 ---
 
-# POPULATE_TOKEN_HEADER structure
+# POPULATE_TOKEN_HEADER structure (minitape.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIAVIDEOFLAGPARAMMASK
 ---
 
-# RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration
+# RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

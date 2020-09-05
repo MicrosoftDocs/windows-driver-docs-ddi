@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_IDLE_STATES_V2
 ---
 
-# _PEP_PPM_QUERY_IDLE_STATES_V2 structure
+# _PEP_PPM_QUERY_IDLE_STATES_V2 structure (pep_x.h)
 
 
 ## -description

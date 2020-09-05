@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_LINK_CONTROL_REGISTER
 ---
 
-# _PCI_EXPRESS_LINK_CONTROL_REGISTER structure
+# _PCI_EXPRESS_LINK_CONTROL_REGISTER structure (ntddk.h)
 
 
 ## -description

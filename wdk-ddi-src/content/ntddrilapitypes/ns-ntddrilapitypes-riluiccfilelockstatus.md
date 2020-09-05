@@ -43,7 +43,7 @@ api_name:
  - RILUICCFILELOCKSTATUS
 ---
 
-# RILUICCFILELOCKSTATUS structure
+# RILUICCFILELOCKSTATUS structure (ntddrilapitypes.h)
 
 
 ## -description

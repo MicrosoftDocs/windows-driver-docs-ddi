@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PERF_CHECK_COMPLETE
 ---
 
-# _PEP_PPM_PERF_CHECK_COMPLETE structure
+# _PEP_PPM_PERF_CHECK_COMPLETE structure (pepfx.h)
 
 
 ## -description

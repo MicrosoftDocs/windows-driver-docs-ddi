@@ -41,7 +41,7 @@ api_name:
  - READ_REGISTER_BUFFER_ULONG64
 ---
 
-# READ_REGISTER_BUFFER_ULONG64 function
+# READ_REGISTER_BUFFER_ULONG64 function (wudfddi_hwaccess.h)
 
 
 ## -description

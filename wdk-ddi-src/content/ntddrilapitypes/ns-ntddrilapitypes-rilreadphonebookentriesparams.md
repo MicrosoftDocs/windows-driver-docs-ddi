@@ -43,7 +43,7 @@ api_name:
  - RILREADPHONEBOOKENTRIESPARAMS
 ---
 
-# RILREADPHONEBOOKENTRIESPARAMS structure
+# RILREADPHONEBOOKENTRIESPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

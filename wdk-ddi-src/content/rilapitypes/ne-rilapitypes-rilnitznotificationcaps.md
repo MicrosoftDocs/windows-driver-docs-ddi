@@ -41,7 +41,7 @@ api_name:
  - RILNITZNOTIFICATIONCAPS
 ---
 
-# RILNITZNOTIFICATIONCAPS enumeration
+# RILNITZNOTIFICATIONCAPS enumeration (rilapitypes.h)
 
 
 ## -description

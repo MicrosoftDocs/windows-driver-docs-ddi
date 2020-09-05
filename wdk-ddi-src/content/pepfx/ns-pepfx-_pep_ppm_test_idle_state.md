@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_TEST_IDLE_STATE
 ---
 
-# _PEP_PPM_TEST_IDLE_STATE structure
+# _PEP_PPM_TEST_IDLE_STATE structure (pepfx.h)
 
 
 ## -description

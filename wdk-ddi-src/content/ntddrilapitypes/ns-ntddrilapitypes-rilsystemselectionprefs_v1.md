@@ -43,7 +43,7 @@ api_name:
  - RILSYSTEMSELECTIONPREFS_V1
 ---
 
-# RILSYSTEMSELECTIONPREFS_V1 structure
+# RILSYSTEMSELECTIONPREFS_V1 structure (ntddrilapitypes.h)
 
 
 ## -description

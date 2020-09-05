@@ -41,7 +41,7 @@ api_name:
  - AcceptAcpiNotification
 ---
 
-# PEPCALLBACKNOTIFYACPI callback function
+# PEPCALLBACKNOTIFYACPI callback function (pepfx.h)
 
 
 ## -description

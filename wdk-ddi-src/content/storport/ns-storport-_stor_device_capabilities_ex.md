@@ -45,7 +45,7 @@ api_name:
  - STOR_DEVICE_CAPABILITIES_EX
 ---
 
-# _STOR_DEVICE_CAPABILITIES_EX structure
+# _STOR_DEVICE_CAPABILITIES_EX structure (storport.h)
 
 
 ## -description

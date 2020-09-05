@@ -41,7 +41,7 @@ api_name:
  - RILUICCRECORDTYPE
 ---
 
-# RILUICCRECORDTYPE enumeration
+# RILUICCRECORDTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

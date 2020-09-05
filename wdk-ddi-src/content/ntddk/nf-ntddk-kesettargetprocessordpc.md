@@ -41,7 +41,7 @@ api_name:
  - KeSetTargetProcessorDpc
 ---
 
-# KeSetTargetProcessorDpc function
+# KeSetTargetProcessorDpc function (ntddk.h)
 
 
 ## -description

@@ -42,7 +42,7 @@ api_name:
  - RILEUTRAMRLPARAMMASK
 ---
 
-# RILEUTRAMRLPARAMMASK enumeration
+# RILEUTRAMRLPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

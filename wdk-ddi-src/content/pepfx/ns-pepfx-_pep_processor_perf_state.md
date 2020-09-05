@@ -45,7 +45,7 @@ api_name:
  - PEP_PROCESSOR_PERF_STATE
 ---
 
-# _PEP_PROCESSOR_PERF_STATE structure
+# _PEP_PROCESSOR_PERF_STATE structure (pepfx.h)
 
 
 ## -description

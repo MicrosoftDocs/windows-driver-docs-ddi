@@ -41,7 +41,7 @@ api_name:
  - IoStartNextPacketByKey
 ---
 
-# IoStartNextPacketByKey function
+# IoStartNextPacketByKey function (ntifs.h)
 
 
 ## -description

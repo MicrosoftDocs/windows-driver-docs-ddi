@@ -45,7 +45,7 @@ api_name:
  - PEP_QUERY_CURRENT_COMPONENT_PERF_STATE
 ---
 
-# _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure
+# _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure (pep_x.h)
 
 
 ## -description

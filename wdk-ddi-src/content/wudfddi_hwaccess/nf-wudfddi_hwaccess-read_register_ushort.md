@@ -41,7 +41,7 @@ api_name:
  - READ_REGISTER_USHORT
 ---
 
-# READ_REGISTER_USHORT function
+# READ_REGISTER_USHORT function (wudfddi_hwaccess.h)
 
 
 ## -description

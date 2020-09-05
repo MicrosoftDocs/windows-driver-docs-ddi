@@ -43,7 +43,7 @@ api_name:
  - RILCAPSLOCKINGPWDLENGTH
 ---
 
-# RILCAPSLOCKINGPWDLENGTH structure
+# RILCAPSLOCKINGPWDLENGTH structure (rilapitypes.h)
 
 
 ## -description

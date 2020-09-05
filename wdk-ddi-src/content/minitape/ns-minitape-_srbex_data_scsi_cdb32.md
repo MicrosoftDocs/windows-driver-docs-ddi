@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA_SCSI_CDB32
 ---
 
-# _SRBEX_DATA_SCSI_CDB32 structure
+# _SRBEX_DATA_SCSI_CDB32 structure (minitape.h)
 
 
 ## -description

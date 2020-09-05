@@ -41,7 +41,7 @@ api_name:
  - AcceptProcessorNotification
 ---
 
-# PEPCALLBACKNOTIFYPPM callback function
+# PEPCALLBACKNOTIFYPPM callback function (pep_x.h)
 
 
 ## -description

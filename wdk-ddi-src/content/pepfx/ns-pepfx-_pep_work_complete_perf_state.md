@@ -45,7 +45,7 @@ api_name:
  - PEP_WORK_COMPLETE_PERF_STATE
 ---
 
-# _PEP_WORK_COMPLETE_PERF_STATE structure
+# _PEP_WORK_COMPLETE_PERF_STATE structure (pepfx.h)
 
 
 ## -description

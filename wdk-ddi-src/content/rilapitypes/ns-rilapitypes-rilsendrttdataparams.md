@@ -43,7 +43,7 @@ api_name:
  - RILSENDRTTDATAPARAMS
 ---
 
-# RILSENDRTTDATAPARAMS structure
+# RILSENDRTTDATAPARAMS structure (rilapitypes.h)
 
 
 ## -description

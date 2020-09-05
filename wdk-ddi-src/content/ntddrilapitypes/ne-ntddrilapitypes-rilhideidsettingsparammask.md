@@ -41,7 +41,7 @@ api_name:
  - RILHIDEIDSETTINGSPARAMMASK
 ---
 
-# RILHIDEIDSETTINGSPARAMMASK enumeration
+# RILHIDEIDSETTINGSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

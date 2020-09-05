@@ -45,7 +45,7 @@ api_name:
  - TAPE_SET_POSITION
 ---
 
-# _TAPE_SET_POSITION structure
+# _TAPE_SET_POSITION structure (minitape.h)
 
 
 ## -description

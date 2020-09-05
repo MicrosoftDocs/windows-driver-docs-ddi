@@ -41,7 +41,7 @@ api_name:
  - RILDIALEDIDSETTINGSPARAMMASK
 ---
 
-# RILDIALEDIDSETTINGSPARAMMASK enumeration
+# RILDIALEDIDSETTINGSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

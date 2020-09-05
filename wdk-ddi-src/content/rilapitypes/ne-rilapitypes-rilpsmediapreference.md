@@ -41,7 +41,7 @@ api_name:
  - RILPSMEDIAPREFERENCE
 ---
 
-# RILPSMEDIAPREFERENCE enumeration
+# RILPSMEDIAPREFERENCE enumeration (rilapitypes.h)
 
 
 ## -description

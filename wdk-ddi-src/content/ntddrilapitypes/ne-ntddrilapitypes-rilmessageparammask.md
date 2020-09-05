@@ -41,7 +41,7 @@ api_name:
  - RILMESSAGEPARAMMASK
 ---
 
-# RILMESSAGEPARAMMASK enumeration
+# RILMESSAGEPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

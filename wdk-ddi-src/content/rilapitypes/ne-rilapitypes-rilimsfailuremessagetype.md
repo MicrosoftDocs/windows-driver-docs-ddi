@@ -41,7 +41,7 @@ api_name:
  - RILIMSFAILUREMESSAGETYPE
 ---
 
-# RILIMSFAILUREMESSAGETYPE enumeration
+# RILIMSFAILUREMESSAGETYPE enumeration (rilapitypes.h)
 
 
 ## -description

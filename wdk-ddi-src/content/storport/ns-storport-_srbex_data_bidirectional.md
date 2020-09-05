@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA_BIDIRECTIONAL
 ---
 
-# _SRBEX_DATA_BIDIRECTIONAL structure
+# _SRBEX_DATA_BIDIRECTIONAL structure (storport.h)
 
 
 ## -description

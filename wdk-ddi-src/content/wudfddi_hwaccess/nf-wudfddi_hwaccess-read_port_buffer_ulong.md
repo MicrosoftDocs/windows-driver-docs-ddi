@@ -41,7 +41,7 @@ api_name:
  - READ_PORT_BUFFER_ULONG
 ---
 
-# READ_PORT_BUFFER_ULONG function
+# READ_PORT_BUFFER_ULONG function (wudfddi_hwaccess.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - COUNTED_REASON_CONTEXT
 ---
 
-# _COUNTED_REASON_CONTEXT structure
+# _COUNTED_REASON_CONTEXT structure (wdm.h)
 
 
 ## -description

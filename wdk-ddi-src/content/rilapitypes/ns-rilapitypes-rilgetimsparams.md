@@ -43,7 +43,7 @@ api_name:
  - RILGETIMSPARAMS
 ---
 
-# RILGETIMSPARAMS structure
+# RILGETIMSPARAMS structure (rilapitypes.h)
 
 
 ## -description

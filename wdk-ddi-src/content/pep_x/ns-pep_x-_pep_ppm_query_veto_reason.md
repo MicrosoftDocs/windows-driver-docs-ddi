@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_VETO_REASON
 ---
 
-# _PEP_PPM_QUERY_VETO_REASON structure
+# _PEP_PPM_QUERY_VETO_REASON structure (pep_x.h)
 
 
 ## -description

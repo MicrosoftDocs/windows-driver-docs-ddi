@@ -41,7 +41,7 @@ api_name:
  - IKsControl.KsEvent
 ---
 
-# IKsControl::KsEvent
+# IKsControl::KsEvent (ksproxy.h)
 
 
 ## -description

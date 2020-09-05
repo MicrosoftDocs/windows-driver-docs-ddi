@@ -41,7 +41,7 @@ api_name:
  - PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function
+# PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function (pepfx.h)
 
 
 ## -description

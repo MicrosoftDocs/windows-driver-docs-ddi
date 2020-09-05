@@ -41,7 +41,7 @@ api_name:
  - RILMSGACKSTATUS
 ---
 
-# RILMSGACKSTATUS enumeration
+# RILMSGACKSTATUS enumeration (rilapitypes.h)
 
 
 ## -description

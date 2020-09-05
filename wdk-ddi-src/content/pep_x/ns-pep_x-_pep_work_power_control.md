@@ -45,7 +45,7 @@ api_name:
  - PEP_WORK_POWER_CONTROL
 ---
 
-# _PEP_WORK_POWER_CONTROL structure
+# _PEP_WORK_POWER_CONTROL structure (pep_x.h)
 
 
 ## -description

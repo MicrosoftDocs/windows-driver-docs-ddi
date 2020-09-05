@@ -41,7 +41,7 @@ api_name:
  - RILTDSCDMAKIND
 ---
 
-# RILTDSCDMAKIND enumeration
+# RILTDSCDMAKIND enumeration (ntddrilapitypes.h)
 
 
 ## -description

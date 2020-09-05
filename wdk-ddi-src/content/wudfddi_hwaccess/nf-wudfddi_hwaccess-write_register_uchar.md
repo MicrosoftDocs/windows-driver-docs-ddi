@@ -41,7 +41,7 @@ api_name:
  - WRITE_REGISTER_UCHAR
 ---
 
-# WRITE_REGISTER_UCHAR function
+# WRITE_REGISTER_UCHAR function (wudfddi_hwaccess.h)
 
 
 ## -description

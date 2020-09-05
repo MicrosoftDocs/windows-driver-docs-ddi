@@ -45,7 +45,7 @@ api_name:
  - POWER_ACTION
 ---
 
-# __MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration
+# __MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration (wudfddi.h)
 
 
 ## -description

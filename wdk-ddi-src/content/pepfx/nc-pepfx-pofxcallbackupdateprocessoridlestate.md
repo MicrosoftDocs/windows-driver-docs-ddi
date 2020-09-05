@@ -41,7 +41,7 @@ api_name:
  - UpdateProcessorIdleState
 ---
 
-# POFXCALLBACKUPDATEPROCESSORIDLESTATE callback function
+# POFXCALLBACKUPDATEPROCESSORIDLESTATE callback function (pepfx.h)
 
 
 ## -description

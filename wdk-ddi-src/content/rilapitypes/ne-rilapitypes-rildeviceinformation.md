@@ -42,7 +42,7 @@ api_name:
  - RILDEVICEINFORMATION
 ---
 
-# RILDEVICEINFORMATION enumeration
+# RILDEVICEINFORMATION enumeration (rilapitypes.h)
 
 
 ## -description

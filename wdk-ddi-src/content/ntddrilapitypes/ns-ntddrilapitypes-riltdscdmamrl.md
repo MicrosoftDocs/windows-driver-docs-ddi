@@ -43,7 +43,7 @@ api_name:
  - RILTDSCDMAMRL
 ---
 
-# RILTDSCDMAMRL structure
+# RILTDSCDMAMRL structure (ntddrilapitypes.h)
 
 
 ## -description

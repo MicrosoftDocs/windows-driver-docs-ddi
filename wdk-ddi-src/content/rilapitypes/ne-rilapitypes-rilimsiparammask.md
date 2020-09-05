@@ -42,7 +42,7 @@ api_name:
  - RILIMSIPARAMMASK
 ---
 
-# RILIMSIPARAMMASK enumeration
+# RILIMSIPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

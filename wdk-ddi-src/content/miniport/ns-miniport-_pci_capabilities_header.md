@@ -45,7 +45,7 @@ api_name:
  - PCI_CAPABILITIES_HEADER
 ---
 
-# _PCI_CAPABILITIES_HEADER structure
+# _PCI_CAPABILITIES_HEADER structure (miniport.h)
 
 
 ## -description

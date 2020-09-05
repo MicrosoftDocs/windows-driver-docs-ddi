@@ -41,7 +41,7 @@ api_name:
  - WIAS_LERROR
 ---
 
-# WIAS_LERROR macro
+# WIAS_LERROR macro (wiautil.h)
 
 
 ## -description

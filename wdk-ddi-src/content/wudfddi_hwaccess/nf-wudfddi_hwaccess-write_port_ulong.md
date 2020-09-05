@@ -41,7 +41,7 @@ api_name:
  - WRITE_PORT_ULONG
 ---
 
-# WRITE_PORT_ULONG function
+# WRITE_PORT_ULONG function (wudfddi_hwaccess.h)
 
 
 ## -description

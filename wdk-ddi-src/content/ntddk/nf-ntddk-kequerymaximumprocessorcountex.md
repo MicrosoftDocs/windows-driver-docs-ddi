@@ -41,7 +41,7 @@ api_name:
  - KeQueryMaximumProcessorCountEx
 ---
 
-# KeQueryMaximumProcessorCountEx function
+# KeQueryMaximumProcessorCountEx function (ntddk.h)
 
 
 ## -description

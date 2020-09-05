@@ -45,7 +45,7 @@ api_name:
  - WDF_IO_QUEUE_STATE
 ---
 
-# _WDF_IO_QUEUE_STATE enumeration
+# _WDF_IO_QUEUE_STATE enumeration (wudfddi_types.h)
 
 
 ## -description

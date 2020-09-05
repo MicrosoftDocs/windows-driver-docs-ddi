@@ -43,7 +43,7 @@ api_name:
  - RILSENDFLASHPARAMS
 ---
 
-# RILSENDFLASHPARAMS structure
+# RILSENDFLASHPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

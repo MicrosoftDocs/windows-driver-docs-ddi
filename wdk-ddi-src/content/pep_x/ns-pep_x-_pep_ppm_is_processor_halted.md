@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_IS_PROCESSOR_HALTED
 ---
 
-# _PEP_PPM_IS_PROCESSOR_HALTED structure
+# _PEP_PPM_IS_PROCESSOR_HALTED structure (pep_x.h)
 
 
 ## -description
